@@ -1,0 +1,1414 @@
+/* ==========================================================================
+   VeloRoam 骑行路线规划 - Apple Maps 极奢暗黑设计系统
+   ========================================================================== */
+
+:root {
+  --bg-color: #070708;
+  --font-primary: 'Inter', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  --font-title: 'Outfit', var(--font-primary);
+  --font-mono: 'JetBrains Mono', monospace;
+
+  /* Premium Apple neon palette */
+  --neon-cyan: #00e676;
+  /* 极光绿 (起点) */
+  --neon-yellow: #ffd600;
+  /* 柠檬黄 (缓坡) */
+  --neon-orange: #ff9100;
+  /* 活力橙 (中坡) */
+  --neon-red: #ff1744;
+  /* 烈焰红 (终点) */
+  --neon-azure: #00b0ff;
+  /* 蔚蓝色 (途经点) */
+  --neon-purple: #d500f9;
+  /* 极客紫 (百公里挑战) */
+
+  /* Frosted Glass configurations */
+  --glass-bg: rgba(25, 25, 28, 0.82);
+  --glass-border: rgba(255, 255, 255, 0.08);
+  --glass-glow: rgba(0, 230, 118, 0.15);
+
+  --text-white: #ffffff;
+  --text-silver: #e5e5ea;
+  --text-grey: #8e8e93;
+  --text-dark: #1c1c1e;
+
+  --transition-smooth: all 0.35s cubic-bezier(0.25, 0.8, 0.25, 1);
+}
+
+/* ==========================================================================
+   基础样式重置
+   ========================================================================== */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body,
+html {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  background-color: var(--bg-color);
+  font-family: var(--font-primary);
+  color: var(--text-white);
+  -webkit-font-smoothing: antialiased;
+}
+
+/* ==========================================================================
+   Leaflet 全屏地图与悬浮键
+   ========================================================================== */
+#map {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
+}
+
+.leaflet-control-zoom {
+  border: none !important;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5) !important;
+  margin-top: 24px !important;
+  margin-left: 24px !important;
+}
+
+.leaflet-control-zoom-in,
+.leaflet-control-zoom-out {
+  background-color: var(--glass-bg) !important;
+  color: var(--text-white) !important;
+  border: 1px solid var(--glass-border) !important;
+  backdrop-filter: blur(10px);
+}
+
+/* 右侧浮动操作面板 (仿苹果悬浮键) */
+.map-floating-actions {
+  position: absolute;
+  right: 24px;
+  top: 24px;
+  z-index: 10;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.map-action-btn {
+  width: 46px;
+  height: 46px;
+  border-radius: 50%;
+  background: var(--glass-bg);
+  backdrop-filter: blur(20px) saturate(180%);
+  -webkit-backdrop-filter: blur(20px) saturate(180%);
+  border: 1px solid var(--glass-border);
+  color: var(--text-white);
+  font-size: 16px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  transition: var(--transition-smooth);
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.4);
+}
+
+.map-action-btn:hover {
+  background: rgba(255, 255, 255, 0.08);
+  border-color: rgba(255, 255, 255, 0.2);
+  transform: scale(1.05);
+}
+
+.map-action-btn:active {
+  transform: scale(0.95);
+}
+
+/* ==========================================================================
+   苹果风格卡片抽屉 (Apple Maps Sliding Bottom Sheet)
+   ========================================================================== */
+.apple-panel {
+  position: absolute;
+  top: 24px;
+  left: 24px;
+  width: 390px;
+  height: calc(100vh - 48px);
+  background: var(--glass-bg);
+  backdrop-filter: blur(22px) saturate(190%);
+  -webkit-backdrop-filter: blur(22px) saturate(190%);
+  border: 1px solid var(--glass-border);
+  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.5);
+  border-radius: 30px;
+  z-index: 10;
+  display: flex;
+  flex-direction: column;
+  padding: 0px 16px 16px 16px;
+  overflow-y: auto;
+  overflow-x: hidden;
+  transition: var(--transition-smooth);
+}
+
+.apple-panel.collapsed {
+  height: 176px;
+  overflow: hidden;
+}
+
+.apple-panel.expanded {
+  height: calc(100vh - 48px);
+}
+
+.apple-panel::-webkit-scrollbar {
+  width: 4px;
+}
+
+.apple-panel::-webkit-scrollbar-thumb {
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 2px;
+}
+
+/* 顶部滑动阻尼条 (全宽易操作手势区) */
+.drag-handle {
+  width: 100%;
+  height: 16px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: grab;
+  flex-shrink: 0;
+  /* margin-bottom: 4px; */
+  user-select: none;
+  -webkit-user-select: none;
+  position: relative;
+  top: 0px;
+}
+
+.drag-bar {
+  width: 48px;
+  height: 5px;
+  background: rgba(255, 255, 255, 0.25);
+  border-radius: 3px;
+  transition: background 0.3s ease;
+}
+
+.drag-handle:hover .drag-bar {
+  background: rgba(255, 255, 255, 0.45);
+}
+
+.drag-handle:active {
+  cursor: grabbing;
+}
+
+/* 视图状态管理 */
+.panel-view {
+  display: none;
+  flex-direction: column;
+  gap: 12px;
+  animation: fadeIn 0.3s ease;
+}
+
+.panel-view.active {
+  display: flex;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* ==========================================================================
+   3. 极奢双点航线输入面板 (Apple Input Box)
+   ========================================================================== */
+.apple-input-card {
+  display: flex;
+  background: rgba(255, 255, 255, 0.04);
+  border: 1px solid rgba(255, 255, 255, 0.05);
+  border-radius: 18px;
+  padding: 14px 16px;
+  position: relative;
+  gap: 14px;
+}
+
+/* 航线垂直联结线 */
+.route-vertical-line {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 14px;
+  padding: 4px 0;
+  flex-shrink: 0;
+}
+
+.dot-origin {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background: var(--neon-cyan);
+  box-shadow: 0 0 8px var(--neon-cyan);
+}
+
+.line-dashed {
+  flex: 1;
+  width: 1.5px;
+  border-left: 1.5px dashed rgba(255, 255, 255, 0.2);
+  margin: 6px 0;
+}
+
+.dot-destination {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background: var(--neon-red);
+  box-shadow: 0 0 8px var(--neon-red);
+}
+
+/* 输入框纵向排列 */
+.inputs-column {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.apple-input-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  position: relative;
+}
+
+.apple-input {
+  background: transparent;
+  border: none;
+  color: var(--text-white);
+  font-family: var(--font-primary);
+  font-size: 14px;
+  font-weight: 500;
+  width: 100%;
+  outline: none;
+  padding-right: 28px;
+}
+
+.apple-input::placeholder {
+  color: var(--text-grey);
+  font-weight: 400;
+}
+
+.input-accessory {
+  color: var(--text-grey);
+  font-size: 14px;
+  cursor: pointer;
+  position: absolute;
+  right: 0;
+  padding: 4px;
+  transition: var(--transition-smooth);
+}
+
+.input-accessory:hover {
+  color: var(--text-white);
+}
+
+.input-divider {
+  height: 1px;
+  background: rgba(255, 255, 255, 0.06);
+  width: 100%;
+}
+
+/* ==========================================================================
+   地点快捷圆圈按钮组 ("地点" -> 一键环线)
+   ========================================================================== */
+.section-title {
+  font-size: 13px;
+  color: var(--text-grey);
+  font-weight: 700;
+  letter-spacing: 0.3px;
+  margin-top: 4px;
+  text-align: left;
+}
+
+.shortcuts-row {
+  display: flex;
+  justify-content: flex-start;
+  padding: 4px 0;
+}
+
+.shortcut-btn {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 6px;
+  cursor: pointer;
+  width: 80px;
+}
+
+.shortcut-icon {
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 18px;
+  transition: var(--transition-smooth);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.bg-cyan {
+  background: rgba(0, 230, 118, 0.1);
+  color: var(--neon-cyan);
+}
+
+.bg-blue {
+  background: rgba(0, 176, 255, 0.1);
+  color: var(--neon-azure);
+}
+
+.bg-orange {
+  background: rgba(255, 145, 0, 0.1);
+  color: var(--neon-orange);
+}
+
+.bg-purple {
+  background: rgba(213, 0, 249, 0.1);
+  color: var(--neon-purple);
+}
+
+.bg-grey {
+  background: rgba(255, 255, 255, 0.05);
+  color: var(--text-silver);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.shortcut-btn:hover .shortcut-icon {
+  transform: scale(1.1) translateY(-2px);
+  box-shadow: 0 8px 18px rgba(0, 0, 0, 0.3);
+}
+
+.shortcut-label {
+  font-size: 11px;
+  color: var(--text-silver);
+  font-weight: 600;
+}
+
+/* ==========================================================================
+   苹果列表组件 ("最近搜索" -> 挑战路线)
+   ========================================================================== */
+.apple-list {
+  display: flex;
+  flex-direction: column;
+  background: rgba(255, 255, 255, 0.03);
+  border: 1px solid rgba(255, 255, 255, 0.05);
+  border-radius: 18px;
+  overflow: hidden;
+}
+
+.apple-list-item {
+  display: flex;
+  align-items: center;
+  padding: 12px 16px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.04);
+  cursor: pointer;
+  transition: var(--transition-smooth);
+}
+
+.apple-list-item:hover {
+  background: rgba(255, 255, 255, 0.06);
+}
+
+.apple-list-item:last-child {
+  border-bottom: none;
+}
+
+.item-icon {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 13px;
+  margin-right: 12px;
+  flex-shrink: 0;
+}
+
+.item-details {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+  text-align: left;
+  overflow: hidden;
+}
+
+.item-title {
+  font-size: 13px;
+  font-weight: 600;
+  color: var(--text-white);
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.item-subtitle {
+  font-size: 10.5px;
+  color: var(--text-grey);
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.item-action {
+  color: rgba(255, 255, 255, 0.15);
+  font-size: 11px;
+  transition: var(--transition-smooth);
+}
+
+.apple-list-item:hover .item-action {
+  color: var(--neon-cyan);
+  transform: translateX(2px);
+}
+
+/* ==========================================================================
+   途经点列表与拖拽排序美化 (Dynamic Waypoints & Drag-Sort)
+   ========================================================================== */
+#waypoints-container {
+  display: none;
+  /* 默认隐藏，有途经点时才显示，彻底消除 Flex Gap 引起的空布局偏差 */
+  flex-direction: column;
+  gap: 10px;
+}
+
+.node-wrapper-outer {
+  transition: all 0.22s ease;
+}
+
+.node-wrapper-outer.dragging {
+  opacity: 0.45;
+  background: rgba(255, 255, 255, 0.08);
+  border-radius: 8px;
+}
+
+.waypoint-drag-handle {
+  cursor: grab;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  transition: var(--transition-smooth);
+}
+
+.waypoint-drag-handle:hover {
+  color: var(--text-white) !important;
+  transform: scale(1.15);
+}
+
+.waypoint-drag-handle:active {
+  cursor: grabbing;
+}
+
+
+
+.planner-actions {
+  display: flex;
+  gap: 12px;
+  margin-top: 4px;
+}
+
+/* ==========================================================================
+   视角 2：路线详情与高度剖面状态 (Details View)
+   ========================================================================== */
+.details-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid var(--glass-border);
+  padding-bottom: 12px;
+  flex-shrink: 0;
+}
+
+.back-btn {
+  background: transparent;
+  border: none;
+  color: var(--neon-cyan);
+  font-family: var(--font-primary);
+  font-weight: 700;
+  font-size: 13px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  transition: var(--transition-smooth);
+}
+
+.back-btn:hover {
+  color: #00ff88;
+  transform: translateX(-2px);
+}
+
+.details-badge {
+  font-size: 9px;
+  font-weight: 700;
+  color: var(--neon-cyan);
+  background: rgba(0, 230, 118, 0.1);
+  padding: 3px 8px;
+  border-radius: 6px;
+  letter-spacing: 0.5px;
+}
+
+/* 统计数据格 */
+.stats-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 8px;
+  border-bottom: 1px solid var(--glass-border);
+  padding-bottom: 12px;
+  flex-shrink: 0;
+}
+
+.stat-box {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  text-align: center;
+}
+
+.stat-label {
+  font-size: 10px;
+  color: var(--text-grey);
+  font-weight: 600;
+  letter-spacing: 0.3px;
+}
+
+.stat-value {
+  font-family: var(--font-title);
+  font-size: 20px;
+  font-weight: 800;
+  display: flex;
+  align-items: baseline;
+  justify-content: center;
+}
+
+.stat-unit {
+  font-size: 10px;
+  color: var(--text-grey);
+  margin-left: 1px;
+}
+
+/* ==========================================================================
+   苹果地图风格多路线备选栏 (Alternative Route Cards)
+   ========================================================================== */
+.alternatives-container {
+  display: flex;
+  gap: 10px;
+  overflow-x: auto;
+  padding: 4px 0 10px 0;
+  border-bottom: 1px solid var(--glass-border);
+  flex-shrink: 0;
+}
+
+.alternatives-container::-webkit-scrollbar {
+  height: 0px;
+  /* 隐藏滚动条以保持绝对洁净 */
+}
+
+.alternative-card {
+  flex: 1;
+  min-width: 105px;
+  background: rgba(255, 255, 255, 0.03);
+  border: 1px solid rgba(255, 255, 255, 0.05);
+  border-radius: 14px;
+  padding: 10px 12px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 4px;
+  cursor: pointer;
+  transition: var(--transition-smooth);
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+.alternative-card:hover {
+  background: rgba(255, 255, 255, 0.06);
+  border-color: rgba(255, 255, 255, 0.12);
+}
+
+.alternative-card.active {
+  background: rgba(0, 230, 118, 0.08);
+  border-color: var(--neon-cyan);
+  box-shadow: 0 0 14px rgba(0, 230, 118, 0.22);
+}
+
+.alt-title {
+  font-size: 11px;
+  font-weight: 700;
+  color: var(--text-white);
+  white-space: nowrap;
+}
+
+.alternative-card.active .alt-title {
+  color: var(--neon-cyan);
+}
+
+.alt-sub {
+  font-size: 9.5px;
+  color: var(--text-grey);
+  font-family: var(--font-mono);
+}
+
+/* ==========================================================================
+   VeloRoam 专属绿道打分看板 (Specialist Scoring Card)
+   ========================================================================== */
+.scoring-card {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: rgba(0, 0, 0, 0.2);
+  border: 1px solid rgba(255, 255, 255, 0.03);
+  border-radius: 16px;
+  padding: 12px 16px;
+  gap: 12px;
+  flex-shrink: 0;
+}
+
+.score-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  flex: 1;
+  text-align: center;
+}
+
+.score-label {
+  font-size: 10.5px;
+  color: var(--text-grey);
+  font-weight: 700;
+  letter-spacing: 0.3px;
+  margin-bottom: 4px;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.score-value {
+  font-family: var(--font-title);
+  font-size: 18px;
+  font-weight: 800;
+  display: flex;
+  align-items: baseline;
+  justify-content: center;
+}
+
+.score-unit {
+  font-size: 9.5px;
+  color: var(--text-grey);
+  margin-left: 1px;
+}
+
+.score-divider {
+  width: 1px;
+  height: 28px;
+  background: rgba(255, 255, 255, 0.06);
+  flex-shrink: 0;
+}
+
+/* 图表容器 */
+.chart-container {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  background: rgba(0, 0, 0, 0.2);
+  border: 1px solid rgba(255, 255, 255, 0.03);
+  border-radius: 16px;
+  padding: 10px 14px;
+}
+
+.chart-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.chart-title {
+  font-size: 11px;
+  font-weight: 700;
+  color: var(--text-silver);
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.chart-scrub-info {
+  font-size: 10px;
+  color: var(--text-grey);
+  font-weight: 500;
+}
+
+.chart-wrapper {
+  position: relative;
+  height: 120px;
+  width: 100%;
+}
+
+/* 底部功能栏 */
+.operation-bar {
+  display: flex;
+  gap: 12px;
+  flex-shrink: 0;
+}
+
+/* ==========================================================================
+   通用按钮体系
+   ========================================================================== */
+.btn {
+  font-family: var(--font-primary);
+  font-weight: 700;
+  border-radius: 32px;
+  border: none;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  transition: var(--transition-smooth);
+}
+
+.btn-primary {
+  background: var(--neon-cyan);
+  color: var(--text-dark);
+  /* box-shadow: 0 4px 16px rgba(0, 230, 118, 0.2); */
+}
+
+.btn-primary:hover {
+  background: #00ff88;
+  transform: translateY(-1.5px);
+  /* box-shadow: 0 6px 20px rgba(0, 230, 118, 0.35); */
+}
+
+.btn-secondary {
+  background: rgba(255, 255, 255, 0.05);
+  color: var(--text-white);
+  border: 1px solid var(--glass-border);
+}
+
+.btn-secondary:hover {
+  background: rgba(255, 255, 255, 0.09);
+  border-color: rgba(255, 255, 255, 0.18);
+}
+
+.btn-dark {
+  background: #1c1d22;
+  color: var(--text-white);
+  border: 1px solid var(--glass-border);
+}
+
+.btn-dark:hover {
+  background: #25262c;
+  border-color: rgba(255, 255, 255, 0.15);
+  transform: translateY(-1.5px);
+}
+
+.btn-sm {
+  padding: 12px 12px;
+  font-size: 12px;
+}
+
+.btn-lg {
+  padding: 13px 20px;
+  font-size: 13px;
+}
+
+.flex-1 {
+  flex: 1;
+}
+
+/* ==========================================================================
+   地址实时搜索建议框 (Frosted suggestion dropdown)
+   ========================================================================== */
+.search-results-dropdown {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 100%;
+  background: rgba(20, 20, 22, 0.96);
+  backdrop-filter: blur(15px);
+  -webkit-backdrop-filter: blur(15px);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 12px;
+  max-height: 180px;
+  overflow-y: auto;
+  z-index: 1000;
+  display: none;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.6);
+  margin-top: 6px;
+}
+
+.search-results-dropdown.active {
+  display: block;
+}
+
+.search-item {
+  padding: 10px 14px;
+  font-size: 12px;
+  color: var(--text-silver);
+  cursor: pointer;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.04);
+  transition: var(--transition-smooth);
+  text-align: left;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.search-item:hover {
+  background: rgba(255, 255, 255, 0.08);
+  color: var(--neon-cyan);
+}
+
+.search-item:last-child {
+  border-bottom: none;
+}
+
+/* ==========================================================================
+   Leaflet 地图插针与发光骑手 Marker
+   ========================================================================== */
+.custom-map-pin {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.pin-inner {
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  border: 2px solid var(--text-white);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 10px;
+  font-weight: 700;
+  color: var(--text-white);
+}
+
+.origin-pin .pin-inner {
+  background-color: var(--neon-cyan);
+  color: var(--text-dark);
+}
+
+.destination-pin .pin-inner {
+  background-color: var(--neon-red);
+}
+
+.waypoint-pin .pin-inner {
+  background-color: var(--neon-azure);
+}
+
+.scrubbed-rider-dot {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.rider-dot-glow {
+  width: 14px;
+  height: 14px;
+  border-radius: 50%;
+  border: 2px solid var(--text-white);
+  transition: background-color 0.1s ease, box-shadow 0.1s ease;
+}
+
+/* ==========================================================================
+   Loading 遮罩
+   ========================================================================== */
+.loading-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background: rgba(7, 7, 8, 0.85);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  z-index: 9999;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.4s ease;
+}
+
+.loading-overlay.active {
+  opacity: 1;
+  pointer-events: auto;
+}
+
+.spinner {
+  width: 50px;
+  height: 50px;
+  border: 3px solid rgba(0, 230, 118, 0.1);
+  border-top-color: var(--neon-cyan);
+  border-radius: 50%;
+  animation: spin 1s infinite linear;
+  box-shadow: 0 0 15px rgba(0, 230, 118, 0.1);
+}
+
+.loading-text {
+  font-size: 14px;
+  color: var(--text-silver);
+  font-weight: 500;
+  letter-spacing: 0.5px;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+
+/* ==========================================================================
+   🎯 智能骑行个性化定制 (Collapsible Preferences Card) Styles
+   ========================================================================== */
+.apple-preferences-card {
+  background: rgba(255, 255, 255, 0.03);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  border-radius: 18px;
+  margin-top: 14px;
+  margin-bottom: 14px;
+  overflow: hidden;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  transition: border-color 0.3s ease;
+}
+
+.apple-preferences-card:hover {
+  border-color: rgba(0, 230, 118, 0.25);
+}
+
+.preferences-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 14px 16px;
+  cursor: pointer;
+  user-select: none;
+}
+
+.preferences-title {
+  font-size: 14px;
+  font-weight: 700;
+  color: var(--text-white);
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.toggle-chevron {
+  font-size: 12px;
+  color: var(--text-grey);
+  transition: transform 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.toggle-chevron.active {
+  transform: rotate(180deg);
+  color: var(--neon-cyan);
+}
+
+.preferences-content {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.4s cubic-bezier(0.4, 0, 0.2, 1), padding 0.3s ease;
+  padding: 0 16px;
+  border-top: 1px solid transparent;
+}
+
+.preferences-content.active {
+  max-height: 500px;
+  padding: 12px 16px 16px 16px;
+  border-top: 1px solid rgba(255, 255, 255, 0.06);
+}
+
+.pref-row {
+  display: flex;
+  gap: 12px;
+  margin-bottom: 12px;
+}
+
+.pref-col {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.pref-label {
+  font-size: 12px;
+  color: var(--text-grey);
+  font-weight: 500;
+}
+
+.pref-label span {
+  font-weight: 700;
+  color: var(--neon-cyan);
+}
+
+/* Premium Apple range slider style */
+.apple-slider {
+  -webkit-appearance: none;
+  width: 100%;
+  height: 6px;
+  border-radius: 3px;
+  background: rgba(255, 255, 255, 0.1);
+  outline: none;
+  transition: background 0.3s;
+}
+
+.apple-slider::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 18px;
+  height: 18px;
+  border-radius: 50%;
+  background: var(--neon-cyan);
+  cursor: pointer;
+  box-shadow: 0 0 10px rgba(0, 230, 118, 0.5);
+  transition: transform 0.1s ease;
+}
+
+.apple-slider::-webkit-slider-thumb:hover {
+  transform: scale(1.15);
+}
+
+.pref-section-title {
+  font-size: 12px;
+  font-weight: 700;
+  color: var(--text-grey);
+  margin-top: 8px;
+  margin-bottom: 8px;
+}
+
+.supply-grid {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 6px;
+}
+
+.supply-card {
+  background: rgba(255, 255, 255, 0.02);
+  border: 1px solid rgba(255, 255, 255, 0.06);
+  border-radius: 12px;
+  padding: 10px 4px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 6px;
+  cursor: pointer;
+  transition: all 0.25s cubic-bezier(0.4, 0, 0.2, 1);
+  user-select: none;
+}
+
+.supply-card:hover {
+  background: rgba(255, 255, 255, 0.06);
+  transform: translateY(-2px);
+  border-color: rgba(255, 255, 255, 0.15);
+}
+
+.supply-card.active {
+  background: rgba(0, 230, 118, 0.1);
+  border-color: var(--neon-cyan);
+  box-shadow: 0 0 10px rgba(0, 230, 118, 0.25);
+  transform: scale(1.03);
+}
+
+.supply-icon {
+  font-size: 16px;
+  color: var(--text-grey);
+  transition: color 0.2s ease;
+}
+
+.supply-card.active .supply-icon {
+  color: var(--neon-cyan);
+}
+
+.supply-label {
+  font-size: 10px;
+  font-weight: 700;
+  color: var(--text-white);
+  text-align: center;
+}
+
+/* Premium Apple Switch Toggle for Loopback */
+.loopback-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 14px;
+  padding-top: 12px;
+  border-top: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+.loopback-text {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+.loopback-title {
+  font-size: 12px;
+  font-weight: 700;
+  color: var(--text-white);
+}
+
+.loopback-subtitle {
+  font-size: 10px;
+  color: var(--text-grey);
+}
+
+.apple-switch {
+  position: relative;
+  display: inline-block;
+  width: 44px;
+  height: 24px;
+}
+
+.apple-switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+.apple-switch .slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(255, 255, 255, 0.1);
+  transition: .3s cubic-bezier(0.4, 0, 0.2, 1);
+  border-radius: 24px;
+  border: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+.apple-switch .slider:before {
+  position: absolute;
+  content: "";
+  height: 18px;
+  width: 18px;
+  left: 2px;
+  bottom: 2px;
+  background-color: white;
+  transition: .3s cubic-bezier(0.4, 0, 0.2, 1);
+  border-radius: 50%;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+.apple-switch input:checked+.slider {
+  background-color: var(--neon-cyan);
+  box-shadow: 0 0 8px rgba(0, 230, 118, 0.3);
+}
+
+.apple-switch input:checked+.slider:before {
+  transform: translateX(20px);
+}
+
+/* ==========================================================================
+   响应式断点控制 (移动端 Apple Maps 卡片底部抽屉化 - iOS 真实质感)
+   ========================================================================== */
+@media (max-width: 1024px) {
+
+  body,
+  html {
+    overflow: hidden;
+  }
+
+  #map {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+  }
+
+  .map-floating-actions {
+    right: 16px;
+    top: 16px;
+  }
+
+  .apple-panel {
+    position: absolute;
+    bottom: 16px;
+    left: 16px;
+    right: 16px;
+    top: auto;
+    width: auto;
+    height: auto;
+    /* 重置大屏高度，随内容自适应或被 max-height 限制 */
+    max-height: 80vh;
+    border-radius: 30px;
+    padding: 0px 16px 16px 16px;
+    box-shadow: 0 -8px 32px rgba(0, 0, 0, 0.5);
+  }
+
+  .apple-panel.collapsed {
+    height: 176px;
+    max-height: 176px;
+    overflow: hidden;
+  }
+
+  .apple-panel.expanded {
+    height: 80vh;
+    max-height: 80vh;
+  }
+
+  /* 移动端露出滑动条 */
+  .drag-handle {
+    display: flex;
+  }
+}
+
+/* ==========================================================================
+   🚀 Strava 黄金探索优化：暂时隐藏 apple-panel、路径描边动画与底部独立详情看板
+   ========================================================================== */
+
+/* 1. 先暂时隐藏 apple-panel */
+.apple-panel {
+  display: none !important;
+}
+
+/* 2. 丝滑出场路径绘制动画 (已升级为 JS 动态高精度 2s 计算，此处保持空闲以避免冲突) */
+
+/* 3. Strava 黄金路段底部详情面板 */
+.strava-details-panel {
+  position: fixed;
+  bottom: 24px;
+  left: 50%;
+  transform: translateX(-50%) translateY(150%);
+  width: calc(100% - 32px);
+  max-width: 420px;
+  background: rgba(20, 20, 22, 0.82);
+  backdrop-filter: blur(20px) saturate(180%);
+  -webkit-backdrop-filter: blur(20px) saturate(180%);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  border-radius: 24px;
+  padding: 18px 20px;
+  box-shadow: 0 16px 40px rgba(0, 0, 0, 0.5), inset 0 1px 0 rgba(255, 255, 255, 0.05);
+  z-index: 1000;
+  transition: transform 0.45s cubic-bezier(0.16, 1, 0.3, 1), opacity 0.3s ease;
+  opacity: 0;
+  pointer-events: none;
+  color: #ffffff;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+}
+
+.strava-details-panel.active {
+  transform: translateX(-50%) translateY(0);
+  opacity: 1;
+  pointer-events: auto;
+}
+
+.strava-panel-close-btn {
+  position: absolute;
+  top: 16px;
+  right: 16px;
+  width: 26px;
+  height: 26px;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.08);
+  border: none;
+  color: #a1a1a6;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: background 0.2s, color 0.2s;
+}
+
+.strava-panel-close-btn:hover {
+  background: rgba(255, 255, 255, 0.15);
+  color: #ffffff;
+}
+
+.strava-panel-header {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  font-size: 11px;
+  font-weight: 700;
+  color: #ff6d00;
+  text-transform: uppercase;
+  letter-spacing: 0.8px;
+  margin-bottom: 6px;
+}
+
+.strava-panel-header i {
+  font-size: 11px;
+}
+
+.strava-panel-title {
+  font-size: 16px;
+  font-weight: 800;
+  line-height: 1.3;
+  margin-bottom: 14px;
+  color: #ffffff;
+  padding-right: 28px;
+  letter-spacing: -0.2px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.strava-panel-stats {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: rgba(255, 255, 255, 0.03);
+  border-radius: 16px;
+  padding: 10px 16px;
+  border: 1px solid rgba(255, 255, 255, 0.02);
+}
+
+.strava-stat-item {
+  display: flex;
+  flex-direction: column;
+  gap: 1px;
+}
+
+.strava-stat-label {
+  font-size: 9px;
+  font-weight: 600;
+  color: #8e8e93;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.strava-stat-value {
+  font-size: 14px;
+  font-weight: 700;
+  color: #ffffff;
+}
+
+.strava-stat-unit {
+  font-size: 10px;
+  font-weight: 500;
+  color: #8e8e93;
+}
+
+.strava-stat-divider {
+  width: 1px;
+  height: 20px;
+  background: rgba(255, 255, 255, 0.08);
+}

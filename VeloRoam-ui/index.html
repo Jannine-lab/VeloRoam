@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <title>VeloRoam | Apple-style 极速优质骑行规划</title>
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Outfit:wght@500;600;700;800&family=JetBrains+Mono&display=swap"
+    rel="stylesheet">
+
+  <!-- Font Awesome Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+  <!-- Leaflet Map CSS -->
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+    integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin="" />
+
+  <!-- Custom CSS Style -->
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <!-- 1. 全屏地图容器 -->
+  <div id="map"></div>
+
+  <!-- 2. 地图右侧浮动操作面板 (仿苹果地图悬浮键) -->
+  <div class="map-floating-actions">
+    <button class="map-action-btn" id="btn-toggle-theme" title="切换暗黑极客主题">
+      <i class="fa-solid fa-layer-group"></i>
+    </button>
+    <button class="map-action-btn" id="btn-recenter" title="定位当前位置">
+      <i class="fa-solid fa-location-arrow"></i>
+    </button>
+  </div>
+
+  <!-- 3. 苹果风格卡片抽屉 (Apple Maps Style Sliding Bottom Sheet) -->
+  <div class="apple-panel collapsed" id="apple-panel">
+    <!-- 顶部阻尼滑动条 (全宽易操作手势区) -->
+    <div class="drag-handle" id="drag-handle">
+      <div class="drag-bar"></div>
+    </div>
+
+    <!-- 视角 1：规划与搜索状态 (Planner View) -->
+    <div class="panel-view active" id="planner-view">
+      <!-- 极简双点航线输入盒 -->
+      <div class="apple-input-card">
+        <div class="route-vertical-line">
+          <div class="dot-origin"></div>
+          <div class="line-dashed"></div>
+          <div class="dot-destination"></div>
+        </div>
+
+        <div class="inputs-column">
+          <!-- 起点 -->
+          <div class="node-wrapper-outer">
+            <div class="apple-input-row" data-type="origin">
+              <input type="text" id="origin-input" value="正在获取当前位置..." placeholder="输入起始地址 (支持拼音/模糊实时联想)"
+                class="apple-input">
+              <i class="fa-solid fa-location-crosshairs input-accessory" onclick="simulateCoordinateChange('origin')"
+                title="微调起点"></i>
+            </div>
+            <div class="search-results-dropdown" id="origin-results"></div>
+          </div>
+
+          <!-- 动态途经点容器 (位于起点与终点之间，支持拖拽排序) -->
+          <div id="waypoints-container"></div>
+
+          <div class="input-divider"></div>
+
+          <!-- 终点 -->
+          <div class="node-wrapper-outer">
+            <div class="apple-input-row" data-type="destination">
+              <input type="text" id="destination-input" value="" placeholder="搜索目的地或在地图上选点..." class="apple-input">
+              <i class="fa-solid fa-location-crosshairs input-accessory"
+                onclick="simulateCoordinateChange('destination')" title="微调终点"></i>
+            </div>
+            <div class="search-results-dropdown" id="destination-results"></div>
+          </div>
+        </div>
+      </div>
+
+      <!-- 操作动作条 -->
+      <div class="planner-actions">
+        <button class="btn btn-secondary btn-sm" id="btn-add-waypoint">
+          <i class="fa-solid fa-circle-plus"></i> 添加途经点
+        </button>
+        <button class="btn btn-primary btn-sm flex-1" id="btn-calculate">
+          <i class="fa-solid fa-location-arrow"></i> 生成最优骑行轨迹
+        </button>
+      </div>
+
+      <!-- 🎯 智能骑行个性化定制 (Collapsible Preferences Card) -->
+      <div class="apple-preferences-card">
+        <div class="preferences-header" id="preferences-header">
+          <span class="preferences-title"><i class="fa-solid fa-sliders text-cyan"></i> 🎯 骑行需求定制</span>
+          <i class="fa-solid fa-chevron-down toggle-chevron" id="preferences-chevron"></i>
+        </div>
+        
+        <div class="preferences-content" id="preferences-content">
+          <!-- 目标里程与耗时 -->
+          <div class="pref-row">
+            <div class="pref-col">
+              <span class="pref-label">目标里程: <span id="val-pref-distance">50</span> km</span>
+              <input type="range" id="pref-distance" min="10" max="150" value="50" class="apple-slider">
+            </div>
+            <div class="pref-col">
+              <span class="pref-label">预计耗时: <span id="val-pref-duration">3.0</span> h</span>
+              <input type="range" id="pref-duration" min="0.5" max="8.0" step="0.5" value="3.0" class="apple-slider">
+            </div>
+          </div>
+
+          <!-- 寻味骑行补给专区 -->
+          <div class="pref-section-title">🍽️ 途中美食/补给驿站 (5km内高德雷达匹配)</div>
+          <div class="supply-grid">
+            <div class="supply-card active" data-type="none">
+              <div class="supply-icon"><i class="fa-solid fa-ban"></i></div>
+              <span class="supply-label">无补给</span>
+            </div>
+            <div class="supply-card" data-type="mutton">
+              <div class="supply-icon"><i class="fa-solid fa-bowl-food"></i></div>
+              <span class="supply-label">羊肉馆 🐑</span>
+            </div>
+            <div class="supply-card" data-type="coffee">
+              <div class="supply-icon"><i class="fa-solid fa-mug-hot"></i></div>
+              <span class="supply-label">咖啡馆 ☕</span>
+            </div>
+            <div class="supply-card" data-type="farmhouse">
+              <div class="supply-icon"><i class="fa-solid fa-wheat-awn"></i></div>
+              <span class="supply-label">农家乐 🥬</span>
+            </div>
+            <div class="supply-card" data-type="convenience">
+              <div class="supply-icon"><i class="fa-solid fa-shop"></i></div>
+              <span class="supply-label">便利店 🏪</span>
+            </div>
+          </div>
+
+          <!-- 补给公里位置 -->
+          <div class="pref-row" id="supply-distance-row" style="display: none; margin-top: 10px;">
+            <div class="pref-col">
+              <span class="pref-label">期望补给位置: 在骑行约 <span id="val-supply-distance">25</span> km 处</span>
+              <input type="range" id="supply-distance" min="5" max="100" value="25" class="apple-slider">
+            </div>
+          </div>
+
+          <!-- 闭环返程开关 -->
+          <div class="loopback-row">
+            <div class="loopback-text">
+              <span class="loopback-title">闭环自动返程 (Round Trip)</span>
+              <span class="loopback-subtitle">吃饱喝足后自动规划骑回起点</span>
+            </div>
+            <label class="apple-switch">
+              <input type="checkbox" id="toggle-loopback">
+              <span class="slider round"></span>
+            </label>
+          </div>
+        </div>
+      </div>
+
+      <!-- 地点快捷圆圈按钮组 ("地点" -> 一键路线载入) -->
+      <div class="section-title">快捷目的地 (50km内精品)</div>
+      <div class="shortcuts-row">
+        <div class="shortcut-btn" onclick="selectRecommendedLoop(1)">
+          <div class="shortcut-icon bg-cyan"><i class="fa-solid fa-mug-hot"></i></div>
+          <span class="shortcut-label">西湖茶园</span>
+        </div>
+        <div class="shortcut-btn" onclick="selectRecommendedLoop(2)">
+          <div class="shortcut-icon bg-blue"><i class="fa-solid fa-water"></i></div>
+          <span class="shortcut-label">青山湖</span>
+        </div>
+        <div class="shortcut-btn" onclick="addCustomPlace()">
+          <div class="shortcut-icon bg-grey"><i class="fa-solid fa-plus"></i></div>
+          <span class="shortcut-label">添加</span>
+        </div>
+      </div>
+
+      <!-- 路线推荐列表 ("最近搜索" -> 50km外挑战) -->
+      <div class="section-title">越野挑战推荐 (50km外大线)</div>
+      <div class="apple-list">
+        <div class="apple-list-item" onclick="selectRecommendedLoop(3)">
+          <div class="item-icon bg-orange"><i class="fa-solid fa-mountain"></i></div>
+          <div class="item-details">
+            <span class="item-title">环莫干山极客爬坡线</span>
+            <span class="item-subtitle">里程: 68.0 km | 爬升: 850m | 陡坡挑战</span>
+          </div>
+          <i class="fa-solid fa-chevron-right item-action"></i>
+        </div>
+        <div class="apple-list-item" onclick="selectRecommendedLoop(4)">
+          <div class="item-icon bg-purple"><i class="fa-solid fa-road"></i></div>
+          <div class="item-details">
+            <span class="item-title">千岛湖环湖经典大线</span>
+            <span class="item-subtitle">里程: 140.0 km | 爬升: 1200m | 百公里挑战</span>
+          </div>
+          <i class="fa-solid fa-chevron-right item-action"></i>
+        </div>
+      </div>
+    </div>
+
+    <!-- 视角 2：路线详情与高度剖面状态 (Details View - 成功规划后激活) -->
+    <div class="panel-view" id="details-view">
+      <!-- 返回修改头部 -->
+      <div class="details-header">
+        <button class="back-btn" id="btn-back-to-planner">
+          <i class="fa-solid fa-chevron-left"></i> 返回修改
+        </button>
+        <span class="details-badge">🚴 自行车专属最优</span>
+      </div>
+
+      <!-- 苹果风格备选路线横向切换栏 (由 app.js 动态渲染) -->
+      <div class="alternatives-container" id="alternatives-container"></div>
+
+      <!-- 统计指标格 (Grid) -->
+      <div class="stats-grid">
+        <div class="stat-box">
+          <span class="stat-label">距离</span>
+          <div class="stat-value"><span id="val-distance">--</span> <span class="stat-unit">km</span></div>
+        </div>
+        <div class="stat-box">
+          <span class="stat-label">骑行耗时</span>
+          <div class="stat-value"><span id="val-duration">--</span> <span class="stat-unit">min</span></div>
+        </div>
+        <div class="stat-box">
+          <span class="stat-label">累计爬升</span>
+          <div class="stat-value neon-orange"><span id="val-ascent">--</span> <span class="stat-unit">m</span></div>
+        </div>
+        <div class="stat-box">
+          <span class="stat-label">最大坡度</span>
+          <div class="stat-value neon-red"><span id="val-slope">--</span> <span class="stat-unit">%</span></div>
+        </div>
+      </div>
+
+      <!-- VeloRoam 专属赛博绿道智能打分卡片 -->
+      <div class="scoring-card">
+        <div class="score-item">
+          <span class="score-label"><i class="fa-solid fa-seedling text-cyan"></i> 绿道风景</span>
+          <div class="score-value neon-cyan" id="val-scenic-stars">--</div>
+        </div>
+        <div class="score-divider"></div>
+        <div class="score-item">
+          <span class="score-label"><i class="fa-solid fa-heart text-orange"></i> 舒适好骑</span>
+          <div class="score-value neon-orange"><span id="val-comfort-score">--</span><span class="score-unit">%</span></div>
+        </div>
+        <div class="score-divider"></div>
+        <div class="score-item">
+          <span class="score-label"><i class="fa-solid fa-traffic-light text-red"></i> 连贯/避堵</span>
+          <div class="score-value neon-red"><span id="val-traffic-lights">--</span><span class="score-unit">个灯</span></div>
+        </div>
+      </div>
+
+      <!-- 海拔高度剖面图表 -->
+      <div class="chart-container">
+        <div class="chart-header">
+          <span class="chart-title"><i class="fa-solid fa-mountain"></i> 海拔高度剖面 (Elevation Profile)</span>
+          <span class="chart-scrub-info" id="chart-scrub-info">滑过曲线查看局部坡度</span>
+        </div>
+        <div class="chart-wrapper">
+          <canvas id="elevationChart"></canvas>
+        </div>
+      </div>
+
+      <!-- 导航/分享操作栏 -->
+      <div class="operation-bar">
+        <button class="btn btn-primary btn-lg flex-1" id="btn-navigate">
+          <i class="fa-solid fa-location-arrow"></i> 开始导航
+        </button>
+        <button class="btn btn-dark btn-lg" id="btn-export">
+          <i class="fa-solid fa-share-nodes"></i> 导出 GPX
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Loading 遮罩层 -->
+  <div class="loading-overlay" id="loading-overlay">
+    <div class="spinner"></div>
+    <span class="loading-text">正在为您计算专属最优骑行路线...</span>
+  </div>
+
+  <!-- 4. Strava 黄金路段底部详情面板 -->
+  <div class="strava-details-panel" id="strava-details-panel">
+    <button class="strava-panel-close-btn" id="btn-close-strava-panel" title="关闭">
+      <i class="fa-solid fa-xmark"></i>
+    </button>
+    <div class="strava-panel-header">
+      <i class="fa-solid fa-bolt"></i>
+      <span class="strava-panel-tag">Strava 黄金探索路段</span>
+    </div>
+    <div class="strava-panel-title" id="strava-panel-title">--</div>
+    <div class="strava-panel-stats">
+      <div class="strava-stat-item">
+        <span class="strava-stat-label">路段评分</span>
+        <span class="strava-stat-value" id="strava-stat-score">--</span>
+      </div>
+      <div class="strava-stat-divider"></div>
+      <div class="strava-stat-item">
+        <span class="strava-stat-label">路段距离</span>
+        <span class="strava-stat-value"><span id="strava-stat-distance">--</span> <span class="strava-stat-unit">km</span></span>
+      </div>
+      <div class="strava-stat-divider"></div>
+      <div class="strava-stat-item">
+        <span class="strava-stat-label">平均坡度</span>
+        <span class="strava-stat-value"><span id="strava-stat-grade">--</span> <span class="strava-stat-unit">%</span></span>
+      </div>
+    </div>
+  </div>
+
+  <!-- Leaflet Map JS -->
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
+    integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
+
+  <!-- Chart.js JS -->
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+  <!-- Custom JS Application Logic -->
+  <script src="app.js"></script>
+</body>
+
+</html>
