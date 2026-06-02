@@ -1412,3 +1412,290 @@ html {
   height: 20px;
   background: rgba(255, 255, 255, 0.08);
 }
+
+/* ==========================================================================
+   🚴 Strava 路段方向与起终点指示器样式
+   ========================================================================== */
+.segment-direction-arrow {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 11px;
+  text-shadow: 0 0 4px rgba(0, 0, 0, 0.95), 0 0 6px rgba(0, 0, 0, 0.9);
+  pointer-events: none;
+  transition: transform 0.2s ease;
+}
+
+.custom-direction-icon {
+  background: transparent !important;
+  border: none !important;
+}
+
+/* ==========================================================================
+   🎯 Strava 路段最低评分筛选 Popover 样式
+   ========================================================================== */
+.filter-wrapper {
+  position: relative;
+}
+
+.filter-popover {
+  position: absolute;
+  right: 58px;
+  top: 0;
+  width: 176px;
+  background: var(--glass-bg);
+  backdrop-filter: blur(20px) saturate(180%);
+  -webkit-backdrop-filter: blur(20px) saturate(180%);
+  border: 1px solid var(--glass-border);
+  border-radius: 16px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.4);
+  padding: 8px 0;
+  display: flex;
+  flex-direction: column;
+  z-index: 1000;
+  transform: scale(0.9) translateX(10px);
+  transform-origin: right top;
+  opacity: 0;
+  pointer-events: none;
+  transition: var(--transition-smooth);
+}
+
+.filter-popover.active {
+  transform: scale(1) translateX(0);
+  opacity: 1;
+  pointer-events: auto;
+}
+
+.filter-popover-title {
+  font-size: 10px;
+  color: var(--text-grey);
+  padding: 6px 14px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.8px;
+  border-bottom: 1px solid var(--glass-border);
+  margin-bottom: 6px;
+  text-align: left;
+}
+
+.filter-option {
+  font-size: 13px;
+  color: var(--text-white);
+  padding: 8px 14px;
+  cursor: pointer;
+  transition: background 0.2s, color 0.2s;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-weight: 500;
+  text-align: left;
+}
+
+.filter-option:hover {
+  background: rgba(255, 255, 255, 0.08);
+  color: var(--neon-cyan);
+}
+
+body.light-theme .filter-option:hover {
+  background: rgba(0, 0, 0, 0.05);
+  color: #007aff;
+}
+
+.filter-option.active {
+  color: var(--neon-cyan);
+  font-weight: 700;
+}
+
+body.light-theme .filter-option.active {
+  color: #007aff;
+}
+
+.filter-option.active::after {
+  content: '✓';
+  font-size: 12px;
+  font-weight: 700;
+}
+
+/* ==========================================================================
+   ☀️ Apple-style 高端亮色主题 (Light Theme Variables & Overrides)
+   ========================================================================== */
+body.light-theme {
+  --bg-color: #f2f2f7;
+  --glass-bg: rgba(255, 255, 255, 0.86);
+  --glass-border: rgba(0, 0, 0, 0.08);
+  --glass-glow: rgba(0, 122, 255, 0.12);
+
+  --text-white: #1c1c1e;    /* 亮色模式下黑色文本 */
+  --text-silver: #2c2c2e;   /* 暗灰 */
+  --text-grey: #8e8e93;     /* 经典灰 */
+  --text-dark: #f2f2f7;     /* 背景灰 */
+}
+
+/* 亮色下连接线和边框颜色微调 */
+body.light-theme .input-divider,
+body.light-theme .line-dashed {
+  border-color: rgba(0, 0, 0, 0.08) !important;
+}
+
+/* 规划卡片背景亮色微调 */
+body.light-theme .apple-input-card {
+  background: rgba(0, 0, 0, 0.035);
+  border: 1px solid rgba(0, 0, 0, 0.06);
+}
+
+/* 搜索联想下拉框 */
+body.light-theme .search-results-dropdown {
+  background: rgba(255, 255, 255, 0.98);
+  border: 1px solid rgba(0, 0, 0, 0.08);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+}
+
+body.light-theme .search-item {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.04);
+  color: #2c2c2e;
+}
+
+body.light-theme .search-item:hover {
+  background: rgba(0, 0, 0, 0.04);
+  color: #007aff;
+}
+
+/* 快捷位置与列表卡片 */
+body.light-theme .shortcut-icon {
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
+}
+
+body.light-theme .shortcut-icon.bg-grey {
+  background: #e5e5ea;
+  color: #1c1c1e;
+}
+
+body.light-theme .shortcut-label {
+  color: #2c2c2e;
+}
+
+body.light-theme .section-title {
+  color: #8e8e93;
+}
+
+/* 补给专区卡片 */
+body.light-theme .supply-card {
+  background: rgba(0, 0, 0, 0.03);
+  border: 1px solid rgba(0, 0, 0, 0.04);
+}
+
+body.light-theme .supply-card:hover {
+  background: rgba(0, 0, 0, 0.05);
+}
+
+body.light-theme .supply-card.active {
+  background: rgba(0, 122, 255, 0.08);
+  border-color: rgba(0, 122, 255, 0.3);
+  color: #007aff;
+}
+
+body.light-theme .loopback-row {
+  border-top: 1px solid rgba(0, 0, 0, 0.06);
+}
+
+/* 经典列表条目 */
+body.light-theme .apple-list-item {
+  background: rgba(0, 0, 0, 0.03);
+  border: 1px solid rgba(0, 0, 0, 0.04);
+}
+
+body.light-theme .apple-list-item:hover {
+  background: rgba(0, 0, 0, 0.05);
+}
+
+/* 海拔剖面与打分卡片 */
+body.light-theme .stat-box {
+  background: rgba(0, 0, 0, 0.03);
+  border: 1px solid rgba(0, 0, 0, 0.04);
+}
+
+body.light-theme .scoring-card {
+  background: rgba(0, 0, 0, 0.03);
+  border: 1px solid rgba(0, 0, 0, 0.04);
+}
+
+body.light-theme .score-divider {
+  background: rgba(0, 0, 0, 0.08);
+}
+
+body.light-theme .chart-container {
+  background: rgba(0, 0, 0, 0.03);
+  border: 1px solid rgba(0, 0, 0, 0.04);
+}
+
+body.light-theme .operation-bar {
+  border-top: 1px solid rgba(0, 0, 0, 0.06);
+}
+
+body.light-theme .apple-preferences-card {
+  background: rgba(0, 0, 0, 0.03);
+  border: 1px solid rgba(0, 0, 0, 0.05);
+}
+
+body.light-theme .preferences-header {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.04);
+}
+
+/* 按钮微调 */
+body.light-theme .btn-dark {
+  background: #e5e5ea;
+  color: #1c1c1e;
+}
+
+body.light-theme .btn-dark:hover {
+  background: #d1d1d6;
+}
+
+body.light-theme .btn-secondary {
+  background: rgba(0, 0, 0, 0.04);
+  color: #1c1c1e;
+  border: 1px solid rgba(0, 0, 0, 0.08);
+}
+
+body.light-theme .btn-secondary:hover {
+  background: rgba(0, 0, 0, 0.08);
+}
+
+body.light-theme .drag-bar {
+  background: rgba(0, 0, 0, 0.15);
+}
+
+/* Strava 底部滑动详情面板亮色微调 */
+body.light-theme .strava-details-panel {
+  background: rgba(255, 255, 255, 0.88);
+  border: 1px solid rgba(0, 0, 0, 0.08);
+  color: #1c1c1e;
+  box-shadow: 0 16px 40px rgba(0, 0, 0, 0.12), inset 0 1px 0 rgba(255, 255, 255, 0.4);
+}
+
+body.light-theme .strava-panel-title {
+  color: #1c1c1e;
+}
+
+body.light-theme .strava-stat-value {
+  color: #1c1c1e;
+}
+
+body.light-theme .strava-stat-divider {
+  background: rgba(0, 0, 0, 0.08);
+}
+
+body.light-theme .strava-panel-stats {
+  background: rgba(0, 0, 0, 0.03);
+  border: 1px solid rgba(0, 0, 0, 0.02);
+}
+
+body.light-theme .strava-panel-close-btn {
+  background: rgba(0, 0, 0, 0.05);
+  color: #8e8e93;
+}
+
+body.light-theme .strava-panel-close-btn:hover {
+  background: rgba(0, 0, 0, 0.1);
+  color: #1c1c1e;
+}

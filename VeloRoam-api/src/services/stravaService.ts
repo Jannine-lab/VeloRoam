@@ -4,7 +4,7 @@ import { LatLng, decodePolyline } from '../utils/polyline';
 let cachedAccessToken = '';
 let tokenExpiresAt = 0; // Epoch timestamp in seconds
 
-async function getStravaAccessToken(): Promise<string> {
+export async function getStravaAccessToken(): Promise<string> {
   // If cachedAccessToken is not yet set, check if a direct STRAVA_ACCESS_TOKEN is configured in .env
   if (!cachedAccessToken && process.env.STRAVA_ACCESS_TOKEN) {
     cachedAccessToken = process.env.STRAVA_ACCESS_TOKEN.trim();
@@ -88,6 +88,7 @@ export interface StravaSegment {
   startLatLng: [number, number];
   endLatLng: [number, number];
   coordinates: LatLng[];
+  rawScore?: number;
 }
 
 function calculateSegmentScore(seg: any): number {
@@ -258,7 +259,7 @@ export async function exploreStravaSegments(
         const overlap = Math.max(calculateOverlapRatio(seg, kept), calculateOverlapRatio(kept, seg));
         if (overlap > 0.70) {
           isDuplicate = true;
-          console.log(`[StravaService] Segment "${seg.name}" (ID:${seg.id}, Score:${seg.rawScore.toFixed(1)}) overlaps ${Math.round(overlap * 100)}% with "${kept.name}" (ID:${kept.id}, Score:${kept.rawScore.toFixed(1)}). Discarding duplicate in favor of higher score.`);
+          console.log(`[StravaService] Segment "${seg.name}" (ID:${seg.id}, Score:${(seg.rawScore ?? 0).toFixed(1)}) overlaps ${Math.round(overlap * 100)}% with "${kept.name}" (ID:${kept.id}, Score:${(kept.rawScore ?? 0).toFixed(1)}). Discarding duplicate in favor of higher score.`);
           break;
         }
       }

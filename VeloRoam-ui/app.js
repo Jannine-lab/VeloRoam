@@ -7,7 +7,9 @@ const detectedHost = window.location.hostname && window.location.hostname !== 'l
   ? window.location.hostname
   : '192.168.124.6';
 
-const API_BASE_URL = `http://${detectedHost}:3000/api`;
+const API_BASE_URL = window.location.protocol === 'https:'
+  ? `https://${window.location.hostname}/api`
+  : `http://${detectedHost}:3000/api`;
 
 // 全局状态管理
 let map = null;
@@ -23,7 +25,12 @@ let markerGroup = null;
 let polylineGroup = null;
 let stravaGroup = null;
 let scrubbedRiderMarker = null;
-let loadedStravaSegments = new Map(); // 缓存和去重所有已加载的 Strava 路段 (累加去重)
+let loadedStravaSegments = new Map(); // 缓存和去重当前渲染在地图上的 Strava 路段 (ID -> Group)
+let minScoreFilter = 50;              // 评分筛选阈值 (随 Zoom 动态变化)
+const allFetchedSegments = new Map(); // 全局记录该会话抓取到的所有 Strava 原始路段数据 (ID -> Segment)
+let selectedSegmentId = null;         // 当前选中正在查看的路段 ID (用于未选路段淡化)
+
+
 
 // 规划坐标状态 (经纬度，不再直接呈现在输入框中)
 let origin = null;        // 起点默认空，等待 GPS 定位或手动输入
@@ -82,6 +89,7 @@ document.addEventListener('DOMContentLoaded', () => {
   bindEvents();
 
   console.log(`📡 VeloRoam Web API Endpoint: ${API_BASE_URL}`);
+
 
   // 启动定位默认设置
   initializeLocation();
@@ -165,19 +173,13 @@ function initializeLocation() {
         origin = { lat, lng };
         map.flyTo([lat, lng], 13, { animate: true, duration: 1.5 });
 
-        // 调用 OSM Nominatim 逆地理编码，获取具体地名，而不是“我的位置”
+        // 🚀 使用我们高能的高德地图逆解析后端代理路由，瞬间返回秒级地名
         try {
-          const res = await fetch(`https://nominatim.openstreetmap.org/reverse?format=json&lat=${lat}&lon=${lng}&zoom=18&accept-language=zh`, {
-            headers: { 'Accept-Language': 'zh-CN,zh;q=0.9' }
-          });
+          const res = await fetch(`${API_BASE_URL}/routes/reverse-geocode?lat=${lat}&lng=${lng}`);
           if (res.ok) {
             const data = await res.json();
-            const addr = data.address;
-
-            // 提取最具体、好听的地名（道路、公园、地标等）
-            const bestName = data.name || addr.amenity || addr.park || addr.road || addr.suburb || addr.city || '我的当前位置';
-            document.getElementById('origin-input').value = bestName;
-            console.log(`📍 定位逆地理编码成功: ${bestName} (${lat}, ${lng})`);
+            document.getElementById('origin-input').value = data.address;
+            console.log(`📍 定位高德逆地理编码成功: ${data.address} (${lat}, ${lng})`);
           } else {
             document.getElementById('origin-input').value = '当前获取的位置';
           }
@@ -258,14 +260,27 @@ function bindEvents() {
     closeStravaBtn.addEventListener('click', () => {
       const stravaPanel = document.getElementById('strava-details-panel');
       if (stravaPanel) stravaPanel.classList.remove('active');
+      restoreAllSegmentsOpacity();
     });
   }
 
-  // 点击 Leaflet 地图空白处时，自动收起 Strava 底部详情面板
+  // 点击 Leaflet 地图空白处时，自动收起 Strava 底部详情面板并恢复其余路段透明度
   if (map) {
     map.on('click', () => {
       const stravaPanel = document.getElementById('strava-details-panel');
-      if (stravaPanel) stravaPanel.classList.remove('active');
+      if (stravaPanel) {
+        if (stravaPanel.classList.contains('active')) {
+          stravaPanel.classList.remove('active');
+          restoreAllSegmentsOpacity();
+        }
+      }
+    });
+
+    // 缩放完成后，如果存在选中的黄金路段，强制重新应用高亮/淡化覆盖样式以防被 Leaflet 重绘冲掉
+    map.on('zoomend', () => {
+      if (selectedSegmentId !== null) {
+        dimAllOtherSegments(selectedSegmentId);
+      }
     });
   }
 
@@ -480,15 +495,126 @@ function bindEvents() {
  * 切换黑夜/白天地图图层风格
  */
 function toggleMapTheme() {
+  const body = document.body;
   if (currentTheme === 'dark') {
     mapTileLayer.setUrl('https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png');
     currentTheme = 'light';
+    body.classList.add('light-theme');
     console.log('☀️ Map Theme switched to Light Mode.');
   } else {
     mapTileLayer.setUrl('https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png');
     currentTheme = 'dark';
+    body.classList.remove('light-theme');
     console.log('🌙 Map Theme switched to Dark Mode.');
   }
+
+  // 刷新高度图以同步最新的网格线及指示器颜色
+  if (elevationChart) {
+    renderChart();
+  }
+}
+
+/**
+ * 根据地图缩放等级动态返回路段最低筛选评分，减少用户手动操作
+ * - Zoom <= 11: 过滤评分 >= 70
+ * - Zoom === 12: 过滤评分 >= 50
+ * - Zoom === 13: 过滤评分 >= 30
+ * - Zoom >= 14: 过滤评分 >= 0 (显示所有路段)
+ */
+function getMinScoreForZoom(zoom) {
+  if (zoom <= 11) return 70;
+  if (zoom === 12) return 50;
+  if (zoom === 13) return 30;
+  return 0;
+}
+
+/**
+ * 选中高光动效：淡化除当前激活路段外的所有其他路段
+ */
+function dimAllOtherSegments(activeSegId) {
+  selectedSegmentId = Number(activeSegId);
+  loadedStravaSegments.forEach((data, id) => {
+    const layers = data.layer.getLayers();
+    const visiblePolyline = layers[0];
+    const startMarker = layers[2];
+    const endMarker = layers[3];
+
+    if (Number(id) === selectedSegmentId) {
+      // 激活路段保持发光高亮状态
+      if (visiblePolyline) visiblePolyline.setStyle({ opacity: 1.0, weight: 7.0 });
+      if (startMarker) startMarker.setStyle({ opacity: 1.0 });
+      if (endMarker) endMarker.setStyle({ opacity: 1.0 });
+      for (let k = 4; k < layers.length; k++) {
+        const dirEl = layers[k]?.getElement();
+        if (dirEl) {
+          const arrow = dirEl.querySelector('.segment-direction-arrow');
+          if (arrow) arrow.style.opacity = '1.0';
+        }
+      }
+    } else {
+      // 其他路段淡化并变细以突显被选路段
+      if (visiblePolyline) visiblePolyline.setStyle({ opacity: 0.15, weight: 3.5 });
+      if (startMarker) startMarker.setStyle({ opacity: 0.15 });
+      if (endMarker) endMarker.setStyle({ opacity: 0.15 });
+      for (let k = 4; k < layers.length; k++) {
+        const dirEl = layers[k]?.getElement();
+        if (dirEl) {
+          const arrow = dirEl.querySelector('.segment-direction-arrow');
+          if (arrow) arrow.style.opacity = '0.15';
+        }
+      }
+    }
+  });
+}
+
+/**
+ * 还原动效：将所有路段的透明度与线条宽度恢复至标准默认状态
+ */
+function restoreAllSegmentsOpacity() {
+  selectedSegmentId = null;
+  const toRemove = [];
+
+  loadedStravaSegments.forEach((data, id) => {
+    const score = data.seg.rawScore;
+    // 如果该路段不满足当前缩放门槛评分，则在取消选中时将其从地图和缓存中移除
+    if (score === undefined || score < minScoreFilter) {
+      toRemove.push(id);
+      stravaGroup.removeLayer(data.layer);
+    } else {
+      const layers = data.layer.getLayers();
+      const visiblePolyline = layers[0];
+      const startMarker = layers[2];
+      const endMarker = layers[3];
+      const originalColor = getSegmentColor(score);
+
+      if (visiblePolyline) visiblePolyline.setStyle({ opacity: 0.85, weight: 5.5, color: originalColor });
+      if (startMarker) startMarker.setStyle({ opacity: 0.95 });
+      if (endMarker) endMarker.setStyle({ opacity: 0.95 });
+      for (let k = 4; k < layers.length; k++) {
+        const dirEl = layers[k]?.getElement();
+        if (dirEl) {
+          const arrow = dirEl.querySelector('.segment-direction-arrow');
+          if (arrow) arrow.style.opacity = '0.9';
+        }
+      }
+    }
+  });
+
+  toRemove.forEach(id => loadedStravaSegments.delete(id));
+}
+
+/**
+ * 清理地图上所有未选中的路段图层及缓存，保留选中高亮的路段
+ */
+function clearUnselectedSegments() {
+  const toRemove = [];
+  loadedStravaSegments.forEach((data, id) => {
+    if (selectedSegmentId === null || Number(id) !== Number(selectedSegmentId)) {
+      stravaGroup.removeLayer(data.layer);
+      toRemove.push(id);
+    }
+  });
+  toRemove.forEach(id => loadedStravaSegments.delete(id));
 }
 
 // ==========================================================================
@@ -518,10 +644,8 @@ async function autocompleteSearch(query, type, index = null) {
     resultsDropdown.innerHTML = '<div class="search-item" style="color: var(--neon-cyan);"><i class="fa-solid fa-spinner fa-spin"></i> 正在搜索位置...</div>';
     resultsDropdown.classList.add('active');
 
-    const url = `https://nominatim.openstreetmap.org/search?format=json&q=${encodeURIComponent(query)}&limit=5&accept-language=zh`;
-    const response = await fetch(url, {
-      headers: { 'Accept-Language': 'zh-CN,zh;q=0.9' }
-    });
+    const url = `${API_BASE_URL}/routes/search-address?q=${encodeURIComponent(query)}`;
+    const response = await fetch(url);
 
     if (!response.ok) throw new Error('Geocoding search failed');
     const results = await response.json();
@@ -533,10 +657,10 @@ async function autocompleteSearch(query, type, index = null) {
 
     resultsDropdown.innerHTML = '';
     results.forEach((item) => {
-      const fullName = item.display_name;
-      const shortName = fullName.split(',')[0].trim();
-      const lat = parseFloat(item.lat);
-      const lon = parseFloat(item.lon);
+      const fullName = `${item.name} (${item.address})`;
+      const shortName = item.name;
+      const lat = item.lat;
+      const lon = item.lon;
 
       const div = document.createElement('div');
       div.className = 'search-item';
@@ -1063,7 +1187,7 @@ function renderChart() {
         tension: 0.15,
         pointRadius: 0,
         pointHoverRadius: 6,
-        pointHoverBackgroundColor: '#ffffff',
+        pointHoverBackgroundColor: currentTheme === 'light' ? '#1c1c1e' : '#ffffff',
         pointHoverBorderColor: '#00e676',
         pointHoverBorderWidth: 2
       }]
@@ -1079,7 +1203,7 @@ function renderChart() {
         x: {
           grid: { display: false },
           ticks: {
-            color: '#8c8e94',
+            color: currentTheme === 'light' ? '#68686e' : '#8c8e94',
             font: { size: 9 },
             maxTicksLimit: 6,
             callback: function (val) {
@@ -1090,11 +1214,11 @@ function renderChart() {
         },
         y: {
           grid: {
-            color: 'rgba(255,255,255,0.04)',
+            color: currentTheme === 'light' ? 'rgba(0, 0, 0, 0.06)' : 'rgba(255, 255, 255, 0.04)',
             lineWidth: 1
           },
           ticks: {
-            color: '#8c8e94',
+            color: currentTheme === 'light' ? '#68686e' : '#8c8e94',
             font: { size: 9 },
             maxTicksLimit: 4,
             callback: function (value) {
@@ -1424,6 +1548,259 @@ function getLatLngDistance(lat1, lng1, lat2, lng2) {
 }
 
 /**
+ * 计算两个经纬度坐标之间的航向角 (Bearing，单位为度 0~360)
+ */
+function getBearing(lat1, lng1, lat2, lng2) {
+  const dLng = (lng2 - lng1) * Math.PI / 180;
+  const lat1Rad = lat1 * Math.PI / 180;
+  const lat2Rad = lat2 * Math.PI / 180;
+  const y = Math.sin(dLng) * Math.cos(lat2Rad);
+  const x = Math.cos(lat1Rad) * Math.sin(lat2Rad) - Math.sin(lat1Rad) * Math.cos(lat2Rad) * Math.cos(dLng);
+  let brng = Math.atan2(y, x) * 180 / Math.PI;
+  return (brng + 360) % 360;
+}
+
+/**
+ * 根据路段评分 (rawScore) 获取高精豪华配色分类（5种颜色）
+ * 使用高质感相近暖色系 (金黄 -> 活力橙 -> 经典橙 -> 红橙 -> 烈焰红) 保持视觉极度舒适和谐
+ */
+function getSegmentColor(score) {
+  if (score === undefined || score === null) return '#ffb703';
+  if (score < 30) return '#ffb703';  // 10-30: 琥珀金 (Amber Gold)
+  if (score < 50) return '#ff9100';  // 30-50: 活力橙 (Bright Orange)
+  if (score < 70) return '#ff6d00';  // 50-70: 经典橙 (Strava Orange)
+  if (score < 90) return '#ff3d00';  // 70-90: 燃烈红橙 (Red Orange)
+  return '#ff1744';                  // 90以上: 霓虹烈焰红 (Neon Crimson)
+}
+
+/**
+ * 获取悬停或高光发光时的加亮配色，用于高质感发光交互反馈
+ */
+function getGlowColor(score) {
+  if (score === undefined || score === null) return '#ffe066';
+  if (score < 30) return '#ffe066';  // 金 -> 亮金
+  if (score < 50) return '#ffa726';  // 橙 -> 亮橙
+  if (score < 70) return '#ff9100';  // 经典橙 -> 闪亮橙
+  if (score < 90) return '#ff6e40';  // 红橙 -> 亮红橙
+  return '#ff5252';                  // 烈焰红 -> 荧光红
+}
+
+/**
+ * 单条 Strava 黄金路段的高保真绘制渲染函数 (支持起终点圆点、动态旋转航向箭头与大型 28px 点击热区)
+ */
+/**
+ * 单条 Strava 黄金路段的高保真绘制渲染函数 (支持起终点圆点、动态旋转航向箭头与大型 28px 点击热区)
+ */
+function drawSingleStravaSegment(seg) {
+  const segId = Number(seg.id);
+  const isDimmed = selectedSegmentId !== null && Number(selectedSegmentId) !== segId;
+
+  // 如果不是当前选中的路段，则执行最低评分门槛过滤
+  if (selectedSegmentId === null || Number(selectedSegmentId) !== segId) {
+    if (seg.rawScore === undefined || seg.rawScore < minScoreFilter) {
+      return;
+    }
+  }
+
+  // 去重：如果该 ID 已经存在，则不进行重复渲染
+  if (loadedStravaSegments.has(segId)) {
+    return;
+  }
+
+  if (!seg.coordinates || seg.coordinates.length < 2) return;
+
+  const latlngs = seg.coordinates.map(p => [p.lat, p.lng]);
+  const segColor = getSegmentColor(seg.rawScore);
+
+  // 创建独立的 LayerGroup 来包装当前路段的所有相关子图层
+  const segmentGroup = L.layerGroup().addTo(stravaGroup);
+
+  // 计算初始的 Leaflet options 属性，确保 Leaflet 缩放重构 SVG 时依然维持高亮/淡化状态
+  const polylineOpacity = isDimmed ? 0.15 : (selectedSegmentId !== null && Number(selectedSegmentId) === segId ? 1.0 : 0.85);
+  const polylineWeight = isDimmed ? 3.5 : (selectedSegmentId !== null && Number(selectedSegmentId) === segId ? 7.0 : 5.5);
+  const markerOpacity = isDimmed ? 0.15 : 0.95;
+
+  // 4.1 可见的高精豪华彩色折线 (无交互以防止干扰点击热区)
+  const visiblePolyline = L.polyline(latlngs, {
+    color: segColor,
+    weight: polylineWeight,
+    opacity: polylineOpacity,
+    lineCap: 'round',
+    lineJoin: 'round',
+    interactive: false
+  }).addTo(segmentGroup);
+
+  // 4.2 隐形的极宽点击热区折线 (解决手机端不容易点到的痛点，热区宽度增加至 28px！)
+  const hitAreaPolyline = L.polyline(latlngs, {
+    color: 'transparent',
+    weight: 28,
+    opacity: 0,
+    lineCap: 'round',
+    lineJoin: 'round',
+    interactive: true
+  }).addTo(segmentGroup);
+
+  // 4.3 绘制起点圆点 (使用与折线相同的相近色 - 实心点加白边)
+  const startMarker = L.circleMarker(latlngs[0], {
+    radius: 4.5,
+    color: '#ffffff',
+    fillColor: segColor,
+    fillOpacity: 1,
+    weight: 1.5,
+    opacity: markerOpacity,
+    interactive: false
+  }).addTo(segmentGroup);
+
+  // 4.4 绘制终点圆点 (使用与折线相同的相近色 - 空心点加彩色边)
+  const endMarker = L.circleMarker(latlngs[latlngs.length - 1], {
+    radius: 4.5,
+    color: segColor,
+    fillColor: '#ffffff',
+    fillOpacity: 1,
+    weight: 2,
+    opacity: markerOpacity,
+    interactive: false
+  }).addTo(segmentGroup);
+
+  // 4.5 动态计算航向角并在合适的位置标记方向指示器
+  const distanceKm = seg.distanceKm || (seg.distance_km ? seg.distance_km : 0);
+  let numArrows = Math.max(2, Math.min(12, Math.floor(distanceKm * 2.5)));
+  const defaultArrowOpacity = isDimmed ? '0.15' : '0.9';
+
+  for (let i = 1; i <= numArrows; i++) {
+    const ratio = i / (numArrows + 1);
+    let targetIndex = Math.floor(latlngs.length * ratio);
+    if (latlngs.length > 3) {
+      targetIndex = 1 + Math.floor((latlngs.length - 2) * ratio);
+    }
+    
+    const targetPoint = latlngs[targetIndex];
+    const prevPoint = latlngs[Math.max(0, targetIndex - 1)];
+    const bearingAngle = getBearing(prevPoint[0], prevPoint[1], targetPoint[0], targetPoint[1]);
+
+    const arrowIcon = L.divIcon({
+      html: `<div class="segment-direction-arrow" style="transform: rotate(${bearingAngle}deg); color: ${segColor}; opacity: ${defaultArrowOpacity}; transition: opacity 0.6s ease, transform 0.2s ease;"><i class="fa-solid fa-chevron-up"></i></div>`,
+      iconSize: [20, 20],
+      iconAnchor: [10, 10],
+      className: 'custom-direction-icon'
+    });
+
+    const directionMarker = L.marker(targetPoint, {
+      icon: arrowIcon,
+      interactive: false
+    }).addTo(segmentGroup);
+
+    // 将航向角保存在 Layer 实例属性上，供悬停缩放旋转时使用
+    directionMarker.bearingAngle = bearingAngle;
+  }
+
+  // 将 seg 和整个图层组关联存储在缓存 Map 中
+  loadedStravaSegments.set(segId, { seg: seg, layer: segmentGroup });
+
+  // 5. 稳定淡入动画，完全符合 Leaflet SVG 渲染管线生命周期，完美避免闪烁
+  setTimeout(() => {
+    const isDimmedCurrent = selectedSegmentId !== null && Number(selectedSegmentId) !== segId;
+    const targetPolylineOpacity = isDimmedCurrent ? '0.15' : (selectedSegmentId !== null && Number(selectedSegmentId) === segId ? '1.0' : '0.85');
+    const targetMarkerOpacity = isDimmedCurrent ? '0.15' : '0.95';
+    const targetArrowOpacity = isDimmedCurrent ? '0.15' : '0.9';
+    
+    // 淡入可见折线
+    const pathEl = visiblePolyline.getElement();
+    if (pathEl) {
+      pathEl.style.opacity = '0';
+      pathEl.getBoundingClientRect(); // 强制触发重绘
+      pathEl.style.transition = 'opacity 0.6s cubic-bezier(0.25, 1, 0.4, 1)';
+      pathEl.style.opacity = targetPolylineOpacity;
+    }
+
+    // 淡入起点圆点
+    const startEl = startMarker.getElement();
+    if (startEl) {
+      startEl.style.opacity = '0';
+      startEl.getBoundingClientRect();
+      startEl.style.transition = 'opacity 0.6s cubic-bezier(0.25, 1, 0.4, 1)';
+      startEl.style.opacity = targetMarkerOpacity;
+    }
+
+    // 淡入终点圆点
+    const endEl = endMarker.getElement();
+    if (endEl) {
+      endEl.style.opacity = '0';
+      endEl.getBoundingClientRect();
+      endEl.style.transition = 'opacity 0.6s cubic-bezier(0.25, 1, 0.4, 1)';
+      endEl.style.opacity = targetMarkerOpacity;
+    }
+
+    // 淡入所有方向指示器
+    const layers = segmentGroup.getLayers();
+    for (let k = 4; k < layers.length; k++) {
+      const dirEl = layers[k].getElement();
+      if (dirEl) {
+        const arrowDiv = dirEl.querySelector('.segment-direction-arrow');
+        if (arrowDiv) {
+          arrowDiv.style.opacity = '0';
+          arrowDiv.getBoundingClientRect();
+          arrowDiv.style.transition = 'opacity 0.6s cubic-bezier(0.25, 1, 0.4, 1)';
+          arrowDiv.style.opacity = targetArrowOpacity;
+        }
+      }
+    }
+  }, 30);
+
+  // 6. 点击热区折线事件绑定：阻止冒泡，弹出底部详情卡片，并将其他路段变暗
+  hitAreaPolyline.on('click', (e) => {
+    L.DomEvent.stopPropagation(e);
+    showStravaSegmentDetails(seg);
+    dimAllOtherSegments(segId);
+  });
+
+  // 7. 点击热区的悬停交互高光加粗，更新可见折线的样式与所有箭头的缩放
+  hitAreaPolyline.on('mouseover', () => {
+    if (selectedSegmentId !== null && Number(selectedSegmentId) !== segId) return;
+
+    visiblePolyline.setStyle({
+      color: getGlowColor(seg.rawScore),
+      weight: 7.5,
+      opacity: 1.0
+    });
+    
+    const layers = segmentGroup.getLayers();
+    for (let k = 4; k < layers.length; k++) {
+      const dirEl = layers[k]?.getElement();
+      if (dirEl) {
+        const arrowDiv = dirEl.querySelector('.segment-direction-arrow');
+        if (arrowDiv) {
+          const angle = layers[k].bearingAngle || 0;
+          arrowDiv.style.transform = `rotate(${angle}deg) scale(1.2)`;
+        }
+      }
+    }
+  });
+
+  hitAreaPolyline.on('mouseout', () => {
+    if (selectedSegmentId !== null && Number(selectedSegmentId) !== segId) return;
+
+    visiblePolyline.setStyle({
+      color: segColor,
+      weight: 5.5,
+      opacity: 0.85
+    });
+    
+    const layers = segmentGroup.getLayers();
+    for (let k = 4; k < layers.length; k++) {
+      const dirEl = layers[k]?.getElement();
+      if (dirEl) {
+        const arrowDiv = dirEl.querySelector('.segment-direction-arrow');
+        if (arrowDiv) {
+          const angle = layers[k].bearingAngle || 0;
+          arrowDiv.style.transform = `rotate(${angle}deg) scale(1.0)`;
+        }
+      }
+    }
+  });
+}
+
+/**
  * 静默请求当前地图视口 Bounds 内的 Strava Segments 路段数据，并利用 Leaflet 实时动态图层渲染
  * 升级版：实现不要跟手请求（600ms 拖拽后防抖）、微小位移过滤（位移 < 350米时不触发）并传递 zoom 级别
  * 终极迭代：不清理旧图层，只新增绘制 rawScore > 10 的唯一路段，配合路径出场动画与独立底部详情看板
@@ -1431,13 +1808,22 @@ function getLatLngDistance(lat1, lng1, lat2, lng2) {
 async function fetchStravaSegmentsSilently() {
   if (!map || !stravaGroup) return;
 
+  const currentZoom = map.getZoom();
+  // 🚀 终极规则：只有当缩放级别在 11 和 17 之间时才进行探索与网络请求，保证最佳视界密度
+  if (currentZoom < 11 || currentZoom > 17) {
+    console.log(`[StravaRadar] 当前缩放等级超出允许范围 [11-17] (${currentZoom})，跳过静默探索。`);
+    return;
+  }
+
+  // 根据当前缩放等级动态调节最低筛选门槛
+  minScoreFilter = getMinScoreForZoom(currentZoom);
+
   // 1. 防抖拦截：只有在拖动/缩放完全静止 600ms 后才进行真正的请求触发
   clearTimeout(exploreDebounceTimer);
   exploreDebounceTimer = setTimeout(async () => {
     const currentCenter = map.getCenter();
-    const currentZoom = map.getZoom();
 
-    // 2. 空间微小位移过滤：若中心点平移位移小于 350 米且缩放等级未变，则直接忽略以节省性能
+    // 2. 空间微小位移过滤：若中心点平移位移小于 350 米，则直接忽略以节省性能
     if (lastExploreCenter && lastExploreZoom !== null) {
       const distance = getLatLngDistance(
         lastExploreCenter.lat, lastExploreCenter.lng,
@@ -1451,6 +1837,34 @@ async function fetchStravaSegmentsSilently() {
       }
     }
 
+    // 3. 缩放等级改变时，清空当前未选中的图层，并立刻就地用新评分门槛筛选并绘制已缓存段
+    const zoomChanged = currentZoom !== lastExploreZoom;
+    if (zoomChanged) {
+      // 仅清理未选中的路段，保留当前选中高亮路段不消失
+      clearUnselectedSegments();
+      
+      const bounds = map.getBounds();
+      let redrawnCount = 0;
+      allFetchedSegments.forEach((seg) => {
+        const segId = Number(seg.id);
+        // 如果是选中的路段，已经保留在地图上，这里不再重复重绘
+        if (selectedSegmentId !== null && Number(selectedSegmentId) === segId) {
+          return;
+        }
+
+        if (seg.rawScore !== undefined && seg.rawScore >= minScoreFilter) {
+          if (seg.coordinates && seg.coordinates.length > 0) {
+            const firstPt = seg.coordinates[0];
+            if (bounds.contains(L.latLng(firstPt.lat, firstPt.lng))) {
+              drawSingleStravaSegment(seg);
+              redrawnCount++;
+            }
+          }
+        }
+      });
+      console.log(`[StravaRadar] 缩放等级改变 (${lastExploreZoom} -> ${currentZoom})，门槛设为 ≥${minScoreFilter}，从内存重绘了 ${redrawnCount} 条未选中路段。`);
+    }
+
     lastExploreCenter = currentCenter;
     lastExploreZoom = currentZoom;
 
@@ -1460,7 +1874,7 @@ async function fetchStravaSegmentsSilently() {
     const north = bounds.getNorth();
     const east = bounds.getEast();
 
-    console.log(`[StravaRadar] 视口平稳，发起检索请求。Zoom: ${currentZoom}, Center: [${currentCenter.lat.toFixed(4)}, ${currentCenter.lng.toFixed(4)}]`);
+    console.log(`[StravaRadar] 视口平稳，开始探索. Zoom: ${currentZoom}, Center: [${currentCenter.lat.toFixed(4)}, ${currentCenter.lng.toFixed(4)}]`);
 
     try {
       // 传递 zoom 级别给后端。当 zoom >= 14 时，后端将自动开启 2x2 网格并发分裂探索，拉满路段数量
@@ -1472,112 +1886,38 @@ async function fetchStravaSegmentsSilently() {
       const segments = await response.json();
       if (!Array.isArray(segments)) return;
 
-      console.log(`🚴 [Strava] Backend returned ${segments.length} segments. Filtering and merging...`);
+      console.log(`🚴 [Strava] 后端接口返回了 ${segments.length} 条路段。进行去重合并与渲染...`);
 
       let addedCount = 0;
 
-      // 3. 对路段数据进行 rawScore > 10 的筛选，并与已缓存路段融合去重
       segments.forEach((seg) => {
-        // 仅加载 rawScore > 10 的路段
-        if (seg.rawScore === undefined || seg.rawScore <= 10) {
+        const segId = Number(seg.id);
+        // 全局缓存起来，方便后续本地即时高响应切换筛选
+        allFetchedSegments.set(segId, seg);
+
+        // 如果是选中的路段，不管评分多少，都必须强制绘制保留，无视过滤条件
+        if (selectedSegmentId !== null && Number(selectedSegmentId) === segId) {
+          if (!loadedStravaSegments.has(segId)) {
+            drawSingleStravaSegment(seg);
+          }
           return;
         }
 
-        // 去重：如果该 ID 已经存在，则不进行重复渲染
-        if (loadedStravaSegments.has(seg.id)) {
+        // 根据当前的最低门槛评分进行过滤
+        if (seg.rawScore === undefined || seg.rawScore < minScoreFilter) {
           return;
         }
 
-        if (!seg.coordinates || seg.coordinates.length < 2) return;
-
-        const latlngs = seg.coordinates.map(p => [p.lat, p.lng]);
-        
-        // 4. 创建 Leaflet 折线图层
-        const polyline = L.polyline(latlngs, {
-          color: '#ff6d00', // 经典 Strava 橙色品牌色
-          weight: 5.5,
-          opacity: 0.85,
-          lineCap: 'round',
-          lineJoin: 'round'
-        }).addTo(stravaGroup);
-
-        // 将 seg 和 polyline 关联存储在全局缓存 Map 中，以便后续执行 FIFO 去载
-        loadedStravaSegments.set(seg.id, { seg: seg, layer: polyline });
-        addedCount++;
-
-        // 5. 动态计算 SVG 路径长度，确保不论路段长度是 1km 还是 10km，都在精确的 2s 内从零开始完美平滑地绘制完成！
-        setTimeout(() => {
-          const pathEl = polyline.getElement();
-          if (pathEl) {
-            const length = pathEl.getTotalLength();
-            
-            // 初始化 dasharray 和 dashoffset 为路径的真实物理像素长度
-            pathEl.style.strokeDasharray = length;
-            pathEl.style.strokeDashoffset = length;
-            
-            // 触发强制重绘以确保浏览器执行过渡
-            pathEl.getBoundingClientRect();
-            
-            // 注入高阶过渡效果，使整个蔓延过程在精确的 2.0s 内流畅呈现！
-            pathEl.style.transition = 'stroke-dashoffset 2.0s cubic-bezier(0.25, 1, 0.4, 1)';
-            pathEl.style.strokeDashoffset = '0';
-          }
-        }, 30);
-
-        // 6. 点击 leaflet-interactive 时，不在地图上弹窗，而是阻止冒泡并在页面底部独立详情卡片上展示信息
-        polyline.on('click', (e) => {
-          L.DomEvent.stopPropagation(e); // 阻止冒泡，避免触发地图的 click 收起事件
-          showStravaSegmentDetails(seg);
-        });
-
-        // 7. 悬停交互高光变粗质感
-        polyline.on('mouseover', () => {
-          polyline.setStyle({
-            color: '#ff9100',
-            weight: 7.5,
-            opacity: 1.0
-          });
-        });
-
-        polyline.on('mouseout', () => {
-          polyline.setStyle({
-            color: '#ff6d00',
-            weight: 5.5,
-            opacity: 0.85
-          });
-        });
-
-        // ==========================================================
-        // 🚀 FIFO 视觉去载算法：只保留最新的 15 条路线在地图上以避免载荷过重
-        // ==========================================================
-        if (loadedStravaSegments.size > 15) {
-          const nextEntry = loadedStravaSegments.entries().next();
-          if (!nextEntry.done) {
-            const [oldestId, data] = nextEntry.value;
-            
-            // 丝滑离场动画：先渐隐并变细，然后再彻底从 Leaflet 图层中移除
-            if (data.layer) {
-              const pathEl = data.layer.getElement();
-              if (pathEl) {
-                pathEl.style.transition = 'opacity 0.8s ease, stroke-width 0.8s ease, stroke-dashoffset 0.8s ease';
-                pathEl.style.opacity = '0';
-                pathEl.style.strokeWidth = '0';
-              }
-              const layerToRemove = data.layer;
-              setTimeout(() => {
-                stravaGroup.removeLayer(layerToRemove);
-              }, 800);
-            }
-            
-            loadedStravaSegments.delete(oldestId);
-            console.log(`[StravaRadar] FIFO 视觉去载：路段过多 (${loadedStravaSegments.size + 1} > 15)，已丝滑渐隐移除最老路段 "${data.seg.name}" (ID:${oldestId})`);
-          }
+        // 如果当前在视图中没渲染过，则执行渲染绘制
+        if (!loadedStravaSegments.has(segId)) {
+          drawSingleStravaSegment(seg);
+          addedCount++;
         }
       });
 
-      console.log(`🚴 [Strava] Silently appended ${addedCount} new high-quality segments. Total cached in client: ${loadedStravaSegments.size}`);
+      console.log(`🚴 [Strava] 视口静默增量刷新：共渲染了 ${addedCount} 条全新探索出的路段。当前客户端缓存渲染中: ${loadedStravaSegments.size}`);
     } catch (error) {
-      console.warn(`[Strava] Silent explore bypassed/failed:`, error.message);
+      console.warn(`[Strava] 静默视口探索请求被跳过或失败:`, error.message);
     }
   }, 600);
 }
@@ -1598,3 +1938,4 @@ function showStravaSegmentDetails(seg) {
   // 激活底栏滑入动画
   panel.classList.add('active');
 }
+
