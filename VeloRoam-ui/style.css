@@ -1374,10 +1374,10 @@ html {
 .strava-panel-stats {
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: space-evenly;
   background: rgba(255, 255, 255, 0.03);
   border-radius: 16px;
-  padding: 10px 16px;
+  padding: 10px 0;
   border: 1px solid rgba(255, 255, 255, 0.02);
 }
 
@@ -1393,12 +1393,14 @@ html {
   color: #8e8e93;
   text-transform: uppercase;
   letter-spacing: 0.5px;
+  text-align: center;
 }
 
 .strava-stat-value {
   font-size: 14px;
   font-weight: 700;
   color: #ffffff;
+  text-align: center;
 }
 
 .strava-stat-unit {
@@ -1525,10 +1527,14 @@ body.light-theme {
   --glass-border: rgba(0, 0, 0, 0.08);
   --glass-glow: rgba(0, 122, 255, 0.12);
 
-  --text-white: #1c1c1e;    /* 亮色模式下黑色文本 */
-  --text-silver: #2c2c2e;   /* 暗灰 */
-  --text-grey: #8e8e93;     /* 经典灰 */
-  --text-dark: #f2f2f7;     /* 背景灰 */
+  --text-white: #1c1c1e;
+  /* 亮色模式下黑色文本 */
+  --text-silver: #2c2c2e;
+  /* 暗灰 */
+  --text-grey: #8e8e93;
+  /* 经典灰 */
+  --text-dark: #f2f2f7;
+  /* 背景灰 */
 }
 
 /* 亮色下连接线和边框颜色微调 */

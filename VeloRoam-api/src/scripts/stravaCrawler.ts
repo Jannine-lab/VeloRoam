@@ -124,6 +124,9 @@ async function crawlNextGrid() {
     for (const seg of segments) {
       if (!seg.points || !seg.start_latlng || !seg.end_latlng) continue;
 
+      // 打印路段的城市名称、路段名以及经纬度信息
+      console.log(`   - 🗺️ [Segment Log] City: ${bounds.cityName}, Name: "${seg.name}", StartLatLng: [${seg.start_latlng.join(', ')}], EndLatLng: [${seg.end_latlng.join(', ')}]`);
+
       const score = calculateCrawlerSegmentScore(seg);
       const wktGeom = polylineToWktLineString(seg.points);
 

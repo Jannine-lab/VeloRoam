@@ -1809,9 +1809,10 @@ async function fetchStravaSegmentsSilently() {
   if (!map || !stravaGroup) return;
 
   const currentZoom = map.getZoom();
-  // 🚀 终极规则：只有当缩放级别在 11 和 17 之间时才进行探索与网络请求，保证最佳视界密度
-  if (currentZoom < 11 || currentZoom > 17) {
-    console.log(`[StravaRadar] 当前缩放等级超出允许范围 [11-17] (${currentZoom})，跳过静默探索。`);
+  // 🚀 终极规则：当缩放级别 <= 10 或 > 17 时，清空图层并跳过静默探索，不展示任何非选中路段
+  if (currentZoom <= 10 || currentZoom > 17) {
+    console.log(`[StravaRadar] 当前缩放等级 (${currentZoom}) 不在允许探索范围 [11-17] 内，清空未选中图层。`);
+    clearUnselectedSegments();
     return;
   }
 
