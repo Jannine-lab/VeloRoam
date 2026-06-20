@@ -119,6 +119,16 @@ npm run dev
 ========================================
 ```
 
+后端启动命令
+. ~/.nvm/nvm.sh && nvm use 22
+npm run dev
+
+前端启动命令
+python3 -m http.server 8080
+备选
+. ~/.nvm/nvm.sh && nvm use 22
+npx http-server -p 8080
+
 ### 3. 启动前端局域网静态网页托管
 ```bash
 cd VeloRoam-ui
