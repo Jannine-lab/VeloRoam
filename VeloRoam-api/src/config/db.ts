@@ -49,7 +49,26 @@ export async function initDatabase() {
     `;
 
     await connection.query(createTableQuery);
-    console.log('🎉 [Database] MySQL database and spatial schema bootstrapped successfully!');
+    console.log('🎉 [Database] strava_segments table bootstrapped successfully!');
+
+    // 建立 MySQL 空间地理 hotspots 数据表
+    const createHotspotsTableQuery = `
+      CREATE TABLE IF NOT EXISTS map_hotspots (
+        id VARCHAR(64) PRIMARY KEY,
+        name VARCHAR(255) NOT NULL,
+        category VARCHAR(32) NOT NULL,
+        lat DOUBLE NOT NULL,
+        lng DOUBLE NOT NULL,
+        geom POINT NOT NULL,
+        address VARCHAR(255),
+        updated_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
+        SPATIAL INDEX idx_geom (geom)
+      ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+    `;
+
+    await connection.query(createHotspotsTableQuery);
+    console.log('🎉 [Database] map_hotspots table bootstrapped successfully!');
+    console.log('🎉 [Database] MySQL database and spatial schemas bootstrapped successfully!');
   } catch (error: any) {
     console.error('❌ [Database] Critical database initialization failure:', error.message);
     throw error;

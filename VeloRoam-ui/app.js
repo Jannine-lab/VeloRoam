@@ -24,6 +24,8 @@ let activeRouteIndex = 0;
 let markerGroup = null;
 let polylineGroup = null;
 let stravaGroup = null;
+let hotspotGroup = null;              // POI 补给打卡图层组
+let loadedHotspots = new Map();       // 缓存已渲染的 POI 打卡点 (ID -> {marker, data})
 let scrubbedRiderMarker = null;
 let loadedStravaSegments = new Map(); // 缓存和去重当前渲染在地图上的 Strava 路段 (ID -> Group)
 let minScoreFilter = 50;              // 评分筛选阈值 (随 Zoom 动态变化)
@@ -111,10 +113,12 @@ function initMap() {
   markerGroup = L.layerGroup().addTo(map);
   polylineGroup = L.layerGroup().addTo(map);
   stravaGroup = L.layerGroup().addTo(map);
+  hotspotGroup = L.layerGroup().addTo(map);
 
-  // 绑定地图视口变动事件（平移和缩放结束后，静默刷新 Strava 路段数据）
+  // 绑定地图视口变动事件（平移和缩放结束后，静默刷新 Strava 路段及 POI 点位）
   map.on('moveend', () => {
     fetchStravaSegmentsSilently();
+    fetchHotspotsSilently();
   });
 }
 
@@ -1924,19 +1928,287 @@ async function fetchStravaSegmentsSilently() {
 }
 
 /**
- * 在页面底部独立看板展示 Strava 黄金路段详情
+ * 在页面底部独立看板展示 Strava 黄金路段详情并加载 1km 沿线打卡/补给点
  */
 function showStravaSegmentDetails(seg) {
   const panel = document.getElementById('strava-details-panel');
   if (!panel) return;
 
-  // 填充信息
+  // 填充基本路段信息
   document.getElementById('strava-panel-title').innerText = seg.name || '未命名路段';
   document.getElementById('strava-stat-score').innerText = seg.rawScore !== undefined ? seg.rawScore.toFixed(1) : '--';
   document.getElementById('strava-stat-distance').innerText = seg.distanceKm !== undefined ? seg.distanceKm.toFixed(2) : '--';
   document.getElementById('strava-stat-grade').innerText = seg.avgGrade !== undefined ? seg.avgGrade : '--';
 
+  // 清空并显示正在加载状态
+  const listContainer = document.getElementById('strava-nearby-list');
+  if (listContainer) {
+    listContainer.innerHTML = '<div class="strava-nearby-empty">正在加载周边补给与打卡点位...</div>';
+  }
+
+  // 计算中点坐标
+  let midLat = seg.startLatLng ? seg.startLatLng[0] : null;
+  let midLng = seg.startLatLng ? seg.startLatLng[1] : null;
+  
+  if (seg.coordinates && seg.coordinates.length > 0) {
+    const midIdx = Math.floor(seg.coordinates.length / 2);
+    midLat = seg.coordinates[midIdx].lat;
+    midLng = seg.coordinates[midIdx].lng;
+  }
+
+  // 异步拉取中点附近 1km 的 POI 补给点
+  if (midLat !== null && midLng !== null) {
+    fetch(`${API_BASE_URL}/routes/hotspots/nearby?lat=${midLat}&lng=${midLng}`)
+      .then(res => {
+        if (!res.ok) throw new Error(`Status: ${res.status}`);
+        return res.json();
+      })
+      .then(pois => {
+        if (!listContainer) return;
+        listContainer.innerHTML = '';
+
+        if (!Array.isArray(pois) || pois.length === 0) {
+          listContainer.innerHTML = '<div class="strava-nearby-empty">1km 内未发现推荐的补给或打卡点</div>';
+          return;
+        }
+
+        pois.forEach(poi => {
+          // 确保该 POI 在地图上存在，以便点击时能聚焦和打开 Popup
+          if (!loadedHotspots.has(poi.id)) {
+            drawSingleHotspot(poi);
+          }
+
+          const distText = poi.distance !== undefined
+            ? `${poi.distance < 1000 ? Math.round(poi.distance) + 'm' : (poi.distance / 1000).toFixed(1) + 'km'}`
+            : '';
+
+          const item = document.createElement('div');
+          item.className = 'strava-nearby-item';
+
+          let iconClass = 'fa-camera';
+          if (poi.category === 'bike_shop') iconClass = 'fa-wrench';
+          else if (poi.category === 'cafe') iconClass = 'fa-coffee';
+          else if (poi.category === 'supply') iconClass = 'fa-shopping-cart';
+          else if (poi.category === 'summit') iconClass = 'fa-mountain';
+
+          const categoryNames = {
+            viewpoint: '景区观景',
+            cafe: '骑行咖啡',
+            bike_shop: '自行车店',
+            supply: '便利补给',
+            summit: '垭口山顶'
+          };
+          const categoryName = categoryNames[poi.category] || '打卡推荐';
+
+          item.innerHTML = `
+            <div class="strava-nearby-item-icon ${poi.category}">
+              <i class="fa-solid ${iconClass}"></i>
+            </div>
+            <div class="strava-nearby-item-info">
+              <div class="strava-nearby-item-name">${poi.name}</div>
+              <div class="strava-nearby-item-address">${poi.address || categoryName}</div>
+            </div>
+            <div class="strava-nearby-item-distance">${distText}</div>
+          `;
+
+          // 点击 POI 项目：地图 flyTo 对应坐标并触发聚焦高亮动画
+          item.addEventListener('click', (e) => {
+            e.stopPropagation();
+            const targetLat = Number(poi.lat);
+            const targetLng = Number(poi.lng);
+
+            map.flyTo([targetLat, targetLng], 16, {
+              animate: true,
+              duration: 1.2
+            });
+
+            highlightHotspotMarker(poi.id);
+          });
+
+          listContainer.appendChild(item);
+        });
+      })
+      .catch(err => {
+        console.error('[NearbyHotspots] Failed to load:', err);
+        if (listContainer) {
+          listContainer.innerHTML = '<div class="strava-nearby-empty">获取周边推荐失败，请稍后重试</div>';
+        }
+      });
+  }
+
   // 激活底栏滑入动画
   panel.classList.add('active');
+}
+
+/**
+ * 视口静默增量刷新 POI 热点标记（Zoom >= 13 时工作，防抖/微位移过滤）
+ */
+let hotspotDebounceTimer = null;
+let lastHotspotCenter = null;
+let lastHotspotZoom = null;
+
+async function fetchHotspotsSilently() {
+  if (!map || !hotspotGroup) return;
+
+  const currentZoom = map.getZoom();
+  // 仅在 Zoom >= 13 时加载展示点位，远景状态下清空避免卡顿与视觉凌乱
+  if (currentZoom < 13) {
+    if (hotspotGroup.getLayers().length > 0) {
+      console.log(`[HotspotRadar] 当前缩放等级 (${currentZoom} < 13)，清空地图所有打卡点。`);
+      hotspotGroup.clearLayers();
+      loadedHotspots.clear();
+    }
+    return;
+  }
+
+  clearTimeout(hotspotDebounceTimer);
+  hotspotDebounceTimer = setTimeout(async () => {
+    const currentCenter = map.getCenter();
+
+    // 空间位移过滤：平移 < 250m 且 zoom 未变时直接忽略
+    if (lastHotspotCenter && lastHotspotZoom !== null) {
+      const distance = getLatLngDistance(
+        lastHotspotCenter.lat, lastHotspotCenter.lng,
+        currentCenter.lat, currentCenter.lng
+      );
+      const zoomChanged = currentZoom !== lastHotspotZoom;
+
+      if (distance < 250 && !zoomChanged) {
+        return;
+      }
+    }
+
+    lastHotspotCenter = currentCenter;
+    lastHotspotZoom = currentZoom;
+
+    const bounds = map.getBounds();
+    const south = bounds.getSouth();
+    const west = bounds.getWest();
+    const north = bounds.getNorth();
+    const east = bounds.getEast();
+
+    console.log(`[HotspotRadar] 开始加载当前视口点位. Zoom: ${currentZoom}`);
+
+    try {
+      const response = await fetch(`${API_BASE_URL}/routes/hotspots?bounds=${south},${west},${north},${east}`);
+      if (!response.ok) {
+        throw new Error(`API response failed: ${response.status}`);
+      }
+
+      const hotspots = await response.json();
+      if (!Array.isArray(hotspots)) return;
+
+      hotspots.forEach(poi => {
+        // 去重合并渲染
+        if (!loadedHotspots.has(poi.id)) {
+          drawSingleHotspot(poi);
+        }
+      });
+      console.log(`[HotspotRadar] 视口点位更新完毕，当前展示点位数: ${loadedHotspots.size}`);
+    } catch (err) {
+      console.warn('[HotspotRadar] 静默点位探索请求失败:', err.message);
+    }
+  }, 650);
+}
+
+/**
+ * 绘制单个 Apple Map 风格的彩色 POI 圆圈标记
+ */
+function drawSingleHotspot(poi) {
+  const lat = Number(poi.lat);
+  const lng = Number(poi.lng);
+  if (isNaN(lat) || isNaN(lng)) return;
+
+  let iconClass = 'fa-camera';
+  if (poi.category === 'bike_shop') iconClass = 'fa-wrench';
+  else if (poi.category === 'cafe') iconClass = 'fa-coffee';
+  else if (poi.category === 'supply') iconClass = 'fa-shopping-cart';
+  else if (poi.category === 'summit') iconClass = 'fa-mountain';
+
+  // 圆形 HTML Marker
+  const html = `
+    <div class="poi-marker-container ${poi.category}" id="poi-marker-${poi.id}">
+      <div class="poi-marker-icon">
+        <i class="fa-solid ${iconClass}"></i>
+      </div>
+    </div>
+  `;
+
+  const customIcon = L.divIcon({
+    className: 'custom-poi-marker-wrapper',
+    html: html,
+    iconSize: [28, 28],
+    iconAnchor: [14, 14]
+  });
+
+  const marker = L.marker([lat, lng], { icon: customIcon });
+
+  const categoryNames = {
+    viewpoint: '风景观景点',
+    cafe: '骑行咖啡馆',
+    bike_shop: '自行车店',
+    supply: '便利补给站',
+    summit: '山峰垭口'
+  };
+  const categoryName = categoryNames[poi.category] || '打卡点';
+  const addressHtml = poi.address ? `<div style="font-size: 10.5px; color: #8e8e93; margin-top: 4px;">地址：${poi.address}</div>` : '';
+
+  marker.bindPopup(`
+    <div style="font-family: var(--font-primary); color: #ffffff; padding: 2px 4px; text-align: left;">
+      <div style="font-size: 13px; font-weight: 700; display: flex; align-items: center; gap: 6px;">
+        <span style="display:inline-block; width:8px; height:8px; border-radius:50%; background-color: var(--neon-cyan);"></span>
+        ${poi.name}
+      </div>
+      <div style="font-size: 10px; font-weight: 600; color: var(--neon-azure); margin-top: 4px; text-transform: uppercase;">分类：${categoryName}</div>
+      ${addressHtml}
+    </div>
+  `, {
+    closeButton: false,
+    offset: L.point(0, -6)
+  });
+
+  // 鼠标悬停展示 Popup
+  marker.on('mouseover', () => {
+    marker.openPopup();
+  });
+
+  marker.addTo(hotspotGroup);
+
+  // 缓存至全局 loadedHotspots
+  loadedHotspots.set(poi.id, { marker, data: poi });
+}
+
+/**
+ * 触发指定 POI Marker 的聚焦高亮闪烁动画，并延迟打开其 Popup
+ */
+let activeFocusedPoiTimer = null;
+
+function highlightHotspotMarker(poiId) {
+  // 1. 清理已有高亮
+  document.querySelectorAll('.poi-marker-container').forEach(el => {
+    el.classList.remove('focused');
+  });
+  if (activeFocusedPoiTimer) {
+    clearTimeout(activeFocusedPoiTimer);
+  }
+
+  // 2. 激活目标 POI Marker 的 focused 动画样式
+  const markerEl = document.getElementById(`poi-marker-${poiId}`);
+  if (markerEl) {
+    markerEl.classList.add('focused');
+
+    // 5秒后自动关闭高亮动画
+    activeFocusedPoiTimer = setTimeout(() => {
+      markerEl.classList.remove('focused');
+    }, 5000);
+  }
+
+  // 3. 延迟打开 Popup 提示框
+  const cached = loadedHotspots.get(poiId);
+  if (cached && cached.marker) {
+    setTimeout(() => {
+      cached.marker.openPopup();
+    }, 500);
+  }
 }
 

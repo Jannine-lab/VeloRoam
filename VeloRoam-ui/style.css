@@ -1705,3 +1705,256 @@ body.light-theme .strava-panel-close-btn:hover {
   background: rgba(0, 0, 0, 0.1);
   color: #1c1c1e;
 }
+
+/* ==========================================================================
+   Apple Map Style POI Markers
+   ========================================================================== */
+.poi-marker-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+  border: 1.5px solid #ffffff;
+  box-shadow: 0 3px 8px rgba(0, 0, 0, 0.35);
+  transition: all 0.25s cubic-bezier(0.25, 0.8, 0.25, 1);
+  cursor: pointer;
+}
+
+.poi-marker-icon {
+  color: #ffffff;
+  font-size: 11px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Category Colors */
+.poi-marker-container.bike_shop {
+  background-color: #007aff; /* Apple Blue */
+}
+
+.poi-marker-container.cafe {
+  background-color: #ff9500; /* Apple Orange */
+}
+
+.poi-marker-container.supply {
+  background-color: #af52de; /* Apple Purple */
+}
+
+.poi-marker-container.viewpoint {
+  background-color: #34c759; /* Apple Green */
+}
+
+.poi-marker-container.summit {
+  background-color: #ff3b30; /* Apple Red */
+}
+
+/* Focus Highlight Animation */
+@keyframes poi-pulse {
+  0% {
+    transform: scale(1);
+    box-shadow: 0 3px 8px rgba(0, 0, 0, 0.35);
+  }
+  50% {
+    transform: scale(1.4);
+    box-shadow: 0 0 16px currentColor;
+    border-color: #ffd600;
+  }
+  100% {
+    transform: scale(1);
+    box-shadow: 0 3px 8px rgba(0, 0, 0, 0.35);
+  }
+}
+
+.poi-marker-container.focused {
+  animation: poi-pulse 1.2s infinite ease-in-out;
+  z-index: 1000 !important;
+}
+
+.poi-marker-container:hover {
+  transform: scale(1.18);
+  box-shadow: 0 5px 12px rgba(0, 0, 0, 0.45);
+  z-index: 999;
+}
+
+/* ==========================================================================
+   Nearby POIs in Detail Panel
+   ========================================================================== */
+.strava-nearby-hotspots-section {
+  margin-top: 14px;
+  border-top: 1px solid rgba(255, 255, 255, 0.08);
+  padding-top: 12px;
+}
+
+body.light-theme .strava-nearby-hotspots-section {
+  border-top: 1px solid rgba(0, 0, 0, 0.08);
+}
+
+.strava-nearby-title {
+  font-size: 11px;
+  font-weight: 700;
+  color: #ff9100;
+  margin-bottom: 8px;
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+body.light-theme .strava-nearby-title {
+  color: #e65100;
+}
+
+.strava-nearby-list {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  max-height: 135px;
+  overflow-y: auto;
+  padding-right: 2px;
+}
+
+.strava-nearby-list::-webkit-scrollbar {
+  width: 4px;
+}
+
+.strava-nearby-list::-webkit-scrollbar-thumb {
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 2px;
+}
+
+body.light-theme .strava-nearby-list::-webkit-scrollbar-thumb {
+  background: rgba(0, 0, 0, 0.15);
+}
+
+.strava-nearby-item {
+  display: flex;
+  align-items: center;
+  padding: 8px 10px;
+  background: rgba(255, 255, 255, 0.03);
+  border: 1px solid rgba(255, 255, 255, 0.04);
+  border-radius: 10px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+body.light-theme .strava-nearby-item {
+  background: rgba(0, 0, 0, 0.02);
+  border: 1px solid rgba(0, 0, 0, 0.04);
+}
+
+.strava-nearby-item:hover {
+  background: rgba(255, 255, 255, 0.07);
+  border-color: rgba(255, 255, 255, 0.09);
+  transform: translateY(-1px);
+}
+
+body.light-theme .strava-nearby-item:hover {
+  background: rgba(0, 0, 0, 0.05);
+  border-color: rgba(0, 0, 0, 0.08);
+}
+
+.strava-nearby-item-icon {
+  width: 22px;
+  height: 22px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 10px;
+  color: #ffffff;
+  margin-right: 8px;
+  flex-shrink: 0;
+}
+
+.strava-nearby-item-icon.bike_shop { background-color: #007aff; }
+.strava-nearby-item-icon.cafe { background-color: #ff9500; }
+.strava-nearby-item-icon.supply { background-color: #af52de; }
+.strava-nearby-item-icon.viewpoint { background-color: #34c759; }
+.strava-nearby-item-icon.summit { background-color: #ff3b30; }
+
+.strava-nearby-item-info {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  text-align: left;
+}
+
+.strava-nearby-item-name {
+  font-size: 11px;
+  font-weight: 600;
+  color: #ffffff;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+body.light-theme .strava-nearby-item-name {
+  color: #1c1c1e;
+}
+
+.strava-nearby-item-address {
+  font-size: 9px;
+  color: #8e8e93;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  margin-top: 1px;
+}
+
+.strava-nearby-item-distance {
+  font-size: 9.5px;
+  font-weight: 700;
+  color: var(--neon-cyan);
+  font-family: var(--font-mono);
+  margin-left: 6px;
+  flex-shrink: 0;
+}
+
+body.light-theme .strava-nearby-item-distance {
+  color: #00875a;
+}
+
+.strava-nearby-empty {
+  font-size: 11px;
+  color: #8e8e93;
+  text-align: center;
+  padding: 12px 0;
+  font-style: italic;
+}
+
+/* Custom Leaflet Popups to match dark premium theme */
+.leaflet-popup-content-wrapper {
+  background: rgba(20, 20, 22, 0.9) !important;
+  backdrop-filter: blur(16px) saturate(180%);
+  -webkit-backdrop-filter: blur(16px) saturate(180%);
+  border: 1px solid rgba(255, 255, 255, 0.08) !important;
+  border-radius: 14px !important;
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.5) !important;
+  padding: 4px 6px !important;
+}
+
+body.light-theme .leaflet-popup-content-wrapper {
+  background: rgba(255, 255, 255, 0.92) !important;
+  border: 1px solid rgba(0, 0, 0, 0.08) !important;
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.15) !important;
+}
+
+.leaflet-popup-tip {
+  background: rgba(20, 20, 22, 0.9) !important;
+  border: 1.5px solid rgba(255, 255, 255, 0.08) !important;
+}
+
+body.light-theme .leaflet-popup-tip {
+  background: rgba(255, 255, 255, 0.92) !important;
+  border: 1.5px solid rgba(0, 0, 0, 0.08) !important;
+}
+
+.leaflet-popup-content {
+  margin: 6px 8px !important;
+  line-height: 1.4 !important;
+}
