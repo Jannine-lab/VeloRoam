@@ -29,7 +29,7 @@ export async function initDatabase() {
 
     // 建立 MySQL 空间地理数据表
     // 空间列 geom 必须为 LINESTRING 且 NOT NULL 才能顺利建立 SPATIAL INDEX！
-    const createTableQuery = `
+    const createSegmentTableQuery = `
       CREATE TABLE IF NOT EXISTS strava_segments (
         id BIGINT PRIMARY KEY,
         name VARCHAR(255) NOT NULL,
@@ -48,7 +48,7 @@ export async function initDatabase() {
       ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
     `;
 
-    await connection.query(createTableQuery);
+    await connection.query(createSegmentTableQuery);
     console.log('🎉 [Database] MySQL database and spatial schema bootstrapped successfully!');
   } catch (error: any) {
     console.error('❌ [Database] Critical database initialization failure:', error.message);

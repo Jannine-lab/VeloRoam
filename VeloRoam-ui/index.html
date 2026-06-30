@@ -313,6 +313,35 @@
     </div>
   </div>
 
+  <!-- 5. 热门点位底部详情面板 -->
+  <div class="strava-details-panel hotpoint-details-panel" id="hotpoint-details-panel">
+    <button class="strava-panel-close-btn" id="btn-close-hotpoint-panel" title="关闭">
+      <i class="fa-solid fa-xmark"></i>
+    </button>
+    <div class="strava-panel-header">
+      <i class="fa-solid fa-location-dot"></i>
+      <span class="strava-panel-tag" id="hotpoint-panel-tag">热门骑行点位</span>
+    </div>
+    <div class="strava-panel-title" id="hotpoint-panel-title">--</div>
+    <div class="hotpoint-panel-address" id="hotpoint-panel-address">--</div>
+    <div class="strava-panel-stats">
+      <div class="strava-stat-item">
+        <span class="strava-stat-label">推荐分</span>
+        <span class="strava-stat-value" id="hotpoint-stat-score">--</span>
+      </div>
+      <div class="strava-stat-divider"></div>
+      <div class="strava-stat-item">
+        <span class="strava-stat-label">点位类型</span>
+        <span class="strava-stat-value" id="hotpoint-stat-category">--</span>
+      </div>
+      <div class="strava-stat-divider"></div>
+      <div class="strava-stat-item">
+        <span class="strava-stat-label">邻近路段</span>
+        <span class="strava-stat-value" id="hotpoint-stat-nearby">--</span>
+      </div>
+    </div>
+  </div>
+
   <!-- Leaflet Map JS -->
   <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
     integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>

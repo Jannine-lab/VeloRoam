@@ -4,6 +4,7 @@ import cors from 'cors';
 import routeRoutes from './routes/routeRoutes';
 import { initDatabase } from './config/db';
 import { startStravaCrawler } from './scripts/stravaCrawler';
+import { startAmapHotPointCrawler } from './scripts/amapHotPointCrawler';
 
 const app = express();
 const port = process.env.PORT || 3000;
@@ -21,7 +22,8 @@ app.get('/health', (_req, res) => {
     status: 'ok',
     timestamp: new Date().toISOString(),
     env: process.env.NODE_ENV || 'development',
-    crawler: process.env.ENABLE_CRAWLER === 'true' ? 'enabled' : 'disabled'
+    crawler: process.env.ENABLE_CRAWLER === 'true' ? 'enabled' : 'disabled',
+    hotPointCrawler: process.env.ENABLE_HOT_POINT_CRAWLER === 'true' ? 'enabled' : 'disabled'
   });
 });
 
@@ -42,6 +44,12 @@ app.listen(Number(port), '0.0.0.0', async () => {
       startStravaCrawler();
     } else {
       console.log('💡 [Crawler] ENABLE_CRAWLER is not set to "true". Skipping scheduler.');
+    }
+
+    if (process.env.ENABLE_HOT_POINT_CRAWLER === 'true') {
+      startAmapHotPointCrawler();
+    } else {
+      console.log('💡 [HotPointCrawler] ENABLE_HOT_POINT_CRAWLER is not set to "true". Skipping scheduler.');
     }
   } catch (err: any) {
     console.error('⚠️ [Database] Failed to bootstrap schema/connection. Operating in live routing mode only:', err.message);

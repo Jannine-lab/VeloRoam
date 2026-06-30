@@ -2,14 +2,16 @@
    VeloRoam 骑行路线规划 - 核心网页脚本 (Apple Maps Style)
    ========================================================================== */
 
-// 自动检测并解析局域网宿主 IP，实现手机端局域网无缝对接！
-const detectedHost = window.location.hostname && window.location.hostname !== 'localhost'
-  ? window.location.hostname
-  : '192.168.124.6';
+// 自动检测 API 宿主地址：本机开发走 localhost，局域网访问走当前页面 host。
+// 如需临时指定，可在 URL 后加 ?apiHost=192.168.x.x:3000
+const apiHostOverride = new URLSearchParams(window.location.search).get('apiHost');
+const currentHost = window.location.hostname;
+const isLocalPage = !currentHost || currentHost === 'localhost' || currentHost === '127.0.0.1';
+const detectedApiHost = apiHostOverride || (isLocalPage ? '127.0.0.1:3000' : `${currentHost}:3000`);
 
-const API_BASE_URL = window.location.protocol === 'https:'
-  ? `https://${window.location.hostname}/api`
-  : `http://${detectedHost}:3000/api`;
+const API_BASE_URL = window.location.protocol === 'https:' && !detectedApiHost.includes(':3000')
+  ? `https://${detectedApiHost}/api`
+  : `http://${detectedApiHost}/api`;
 
 // 全局状态管理
 let map = null;
@@ -24,11 +26,16 @@ let activeRouteIndex = 0;
 let markerGroup = null;
 let polylineGroup = null;
 let stravaGroup = null;
+let hotPointGroup = null;
+let hotPointHeatmapLayer = null;
 let scrubbedRiderMarker = null;
 let loadedStravaSegments = new Map(); // 缓存和去重当前渲染在地图上的 Strava 路段 (ID -> Group)
+let loadedHotPoints = new Map();      // 缓存当前视口已渲染的热门点位 (ID -> Marker)
 let minScoreFilter = 50;              // 评分筛选阈值 (随 Zoom 动态变化)
 const allFetchedSegments = new Map(); // 全局记录该会话抓取到的所有 Strava 原始路段数据 (ID -> Segment)
+const allFetchedHotPoints = new Map();// 全局记录该会话抓取到的热门点位数据 (ID -> HotPoint)
 let selectedSegmentId = null;         // 当前选中正在查看的路段 ID (用于未选路段淡化)
+let selectedHotPointId = null;        // 当前选中点位 ID
 
 
 
@@ -111,10 +118,17 @@ function initMap() {
   markerGroup = L.layerGroup().addTo(map);
   polylineGroup = L.layerGroup().addTo(map);
   stravaGroup = L.layerGroup().addTo(map);
+  hotPointHeatmapLayer = createHotPointHeatmapLayer().addTo(map);
+  hotPointGroup = L.layerGroup().addTo(map);
 
   // 绑定地图视口变动事件（平移和缩放结束后，静默刷新 Strava 路段数据）
   map.on('moveend', () => {
     fetchStravaSegmentsSilently();
+    fetchHotPointsSilently();
+  });
+
+  map.on('zoomend', () => {
+    redrawCachedHotPoints();
   });
 }
 
@@ -264,6 +278,13 @@ function bindEvents() {
     });
   }
 
+  const closeHotPointBtn = document.getElementById('btn-close-hotpoint-panel');
+  if (closeHotPointBtn) {
+    closeHotPointBtn.addEventListener('click', () => {
+      closeHotPointDetails();
+    });
+  }
+
   // 点击 Leaflet 地图空白处时，自动收起 Strava 底部详情面板并恢复其余路段透明度
   if (map) {
     map.on('click', () => {
@@ -274,6 +295,8 @@ function bindEvents() {
           restoreAllSegmentsOpacity();
         }
       }
+
+      closeHotPointDetails();
     });
 
     // 缩放完成后，如果存在选中的黄金路段，强制重新应用高亮/淡化覆盖样式以防被 Leaflet 重绘冲掉
@@ -1534,6 +1557,9 @@ function selectAlternativeRoute(idx) {
 let lastExploreCenter = null;
 let lastExploreZoom = null;
 let exploreDebounceTimer = null;
+let lastHotPointCenter = null;
+let lastHotPointZoom = null;
+let hotPointDebounceTimer = null;
 
 // 计算两个经纬度之间的球面距离（单位：米）
 function getLatLngDistance(lat1, lng1, lat2, lng2) {
@@ -1583,6 +1609,423 @@ function getGlowColor(score) {
   if (score < 70) return '#ff9100';  // 经典橙 -> 闪亮橙
   if (score < 90) return '#ff6e40';  // 红橙 -> 亮红橙
   return '#ff5252';                  // 烈焰红 -> 荧光红
+}
+
+function getHotPointMeta(category) {
+  const metas = {
+    scenic: { color: '#00e676', icon: 'fa-tree', label: '景观点' },
+    supply: { color: '#00b0ff', icon: 'fa-mug-hot', label: '补给点' },
+    rest: { color: '#ffd600', icon: 'fa-chair', label: '休息点' },
+    service: { color: '#d500f9', icon: 'fa-screwdriver-wrench', label: '骑行服务' },
+    start_end: { color: '#ff9100', icon: 'fa-flag-checkered', label: '热门起终点' }
+  };
+
+  return metas[category] || { color: '#ffffff', icon: 'fa-location-dot', label: '热门点位' };
+}
+
+function createHotPointHeatmapLayer() {
+  return new (L.Layer.extend({
+    initialize() {
+      this._points = [];
+      this._opacity = 0;
+      this._renderFrame = null;
+      this._gridScale = 3;
+    },
+
+    onAdd(mapInstance) {
+      this._map = mapInstance;
+      this._canvas = L.DomUtil.create('canvas', 'hotpoint-heatmap-canvas leaflet-zoom-hide');
+      this._ctx = this._canvas.getContext('2d', { alpha: true });
+      this._workCanvas = document.createElement('canvas');
+      this._workCtx = this._workCanvas.getContext('2d', { alpha: true });
+      this._canvas.style.opacity = '0';
+      mapInstance.getPanes().overlayPane.appendChild(this._canvas);
+      mapInstance.on('resize moveend zoomend', this._reset, this);
+      this._reset();
+    },
+
+    onRemove(mapInstance) {
+      if (this._canvas && this._canvas.parentNode) {
+        this._canvas.parentNode.removeChild(this._canvas);
+      }
+      mapInstance.off('resize moveend zoomend', this._reset, this);
+      if (this._renderFrame) {
+        cancelAnimationFrame(this._renderFrame);
+        this._renderFrame = null;
+      }
+    },
+
+    setData(points, opacity) {
+      this._points = Array.isArray(points) ? points : [];
+      this._opacity = opacity || 0;
+      if (this._canvas) {
+        this._canvas.style.opacity = String(this._opacity);
+      }
+      this._reset();
+    },
+
+    clear() {
+      this._points = [];
+      this._opacity = 0;
+      if (this._canvas) {
+        this._canvas.style.opacity = '0';
+      }
+      if (this._ctx && this._canvas) {
+        this._ctx.clearRect(0, 0, this._canvas.width, this._canvas.height);
+      }
+    },
+
+    _reset() {
+      if (!this._map || !this._canvas) return;
+
+      const size = this._map.getSize();
+      const topLeft = this._map.containerPointToLayerPoint([0, 0]);
+      L.DomUtil.setPosition(this._canvas, topLeft);
+
+      if (this._canvas.width !== size.x || this._canvas.height !== size.y) {
+        this._canvas.width = size.x;
+        this._canvas.height = size.y;
+      }
+
+      if (this._renderFrame) cancelAnimationFrame(this._renderFrame);
+      this._renderFrame = requestAnimationFrame(() => this._render());
+    },
+
+    _render() {
+      this._renderFrame = null;
+      if (!this._ctx || !this._map || !this._canvas) return;
+
+      const width = this._canvas.width;
+      const height = this._canvas.height;
+      this._ctx.clearRect(0, 0, width, height);
+
+      if (!this._points.length || this._opacity <= 0) return;
+
+      const zoom = this._map.getZoom();
+      const scale = this._gridScale;
+      const lowWidth = Math.max(1, Math.ceil(width / scale));
+      const lowHeight = Math.max(1, Math.ceil(height / scale));
+      const grid = new Float32Array(lowWidth * lowHeight);
+      const radiusPx = zoom === 12 ? 142 : (zoom === 13 ? 118 : 92);
+      const radius = Math.max(5, Math.round(radiusPx / scale));
+      const bounds = this._map.getBounds().pad(0.08);
+
+      for (const point of this._points) {
+        if (!point || !point.lat || !point.lng) continue;
+        const latLng = L.latLng(point.lat, point.lng);
+        if (!bounds.contains(latLng)) continue;
+
+        const containerPoint = this._map.latLngToContainerPoint(latLng);
+        const cx = Math.round(containerPoint.x / scale);
+        const cy = Math.round(containerPoint.y / scale);
+        const score = Math.max(0, Math.min(100, point.routeRelevanceScore || point.cyclistScore || 50));
+        const weight = 0.6 + score / 90;
+
+        const minX = Math.max(0, cx - radius);
+        const maxX = Math.min(lowWidth - 1, cx + radius);
+        const minY = Math.max(0, cy - radius);
+        const maxY = Math.min(lowHeight - 1, cy + radius);
+
+        for (let y = minY; y <= maxY; y++) {
+          const dy = y - cy;
+          for (let x = minX; x <= maxX; x++) {
+            const dx = x - cx;
+            const distSq = dx * dx + dy * dy;
+            if (distSq > radius * radius) continue;
+            const falloff = 1 - Math.sqrt(distSq) / radius;
+            grid[y * lowWidth + x] += weight * falloff * falloff;
+          }
+        }
+      }
+
+      let maxValue = 0;
+      for (let i = 0; i < grid.length; i++) {
+        if (grid[i] > maxValue) maxValue = grid[i];
+      }
+      if (maxValue <= 0) return;
+
+      this._workCanvas.width = lowWidth;
+      this._workCanvas.height = lowHeight;
+      const imageData = this._workCtx.createImageData(lowWidth, lowHeight);
+
+      for (let i = 0; i < grid.length; i++) {
+        const normalized = Math.pow(Math.min(1, grid[i] / maxValue), 0.78);
+        const color = getHeatmapColor(normalized);
+        const offset = i * 4;
+        imageData.data[offset] = color[0];
+        imageData.data[offset + 1] = color[1];
+        imageData.data[offset + 2] = color[2];
+        imageData.data[offset + 3] = color[3];
+      }
+
+      this._workCtx.putImageData(imageData, 0, 0);
+      this._ctx.imageSmoothingEnabled = true;
+      this._ctx.imageSmoothingQuality = 'high';
+      this._ctx.clearRect(0, 0, width, height);
+      this._ctx.filter = 'blur(8px) saturate(1.08)';
+      this._ctx.drawImage(this._workCanvas, 0, 0, width, height);
+      this._ctx.filter = 'none';
+    }
+  }))();
+}
+
+function getHotPointDisplayMode(zoom) {
+  if (zoom <= 11) return 'hidden';
+  if (zoom >= 12 && zoom <= 14) return 'heatmap';
+  return 'points';
+}
+
+function getHeatmapOpacityForZoom(zoom) {
+  if (zoom === 12) return 0.1;
+  if (zoom === 13) return 0.3;
+  if (zoom === 14) return 0.5;
+  return 0;
+}
+
+function getHeatmapColor(value) {
+  if (value <= 0.002) return [0, 0, 0, 0];
+
+  const stops = [
+    { t: 0.0, c: [44, 62, 160, 0] },
+    { t: 0.08, c: [44, 62, 160, 96] },
+    { t: 0.28, c: [75, 154, 192, 176] },
+    { t: 0.48, c: [236, 247, 218, 224] },
+    { t: 0.64, c: [255, 234, 143, 240] },
+    { t: 0.8, c: [249, 132, 62, 252] },
+    { t: 1.0, c: [191, 0, 47, 255] }
+  ];
+
+  for (let i = 1; i < stops.length; i++) {
+    if (value <= stops[i].t) {
+      const prev = stops[i - 1];
+      const next = stops[i];
+      const ratio = (value - prev.t) / (next.t - prev.t);
+      return prev.c.map((channel, index) => Math.round(channel + (next.c[index] - channel) * ratio));
+    }
+  }
+
+  return stops[stops.length - 1].c;
+}
+
+function getMaxVisibleHotPointsForZoom(zoom) {
+  if (zoom === 15) return 72;
+  return 96;
+}
+
+function drawSingleHotPoint(point) {
+  if (!hotPointGroup || !point || !point.id || loadedHotPoints.has(point.id)) return;
+  if (!point.lat || !point.lng) return;
+
+  const currentZoom = map.getZoom();
+  if (getHotPointDisplayMode(currentZoom) !== 'points') return;
+
+  const meta = getHotPointMeta(point.category);
+  const score = Math.round(point.routeRelevanceScore || point.cyclistScore || 0);
+  const isSelected = selectedHotPointId === point.id;
+
+  const marker = L.marker([point.lat, point.lng], {
+    icon: L.divIcon({
+      className: 'hotpoint-map-icon',
+      html: `
+        <div class="hotpoint-pin ${isSelected ? 'active' : ''}" style="--hotpoint-color: ${meta.color};">
+          <i class="fa-solid ${meta.icon}"></i>
+          <span>${score}</span>
+        </div>
+      `,
+      iconSize: [38, 38],
+      iconAnchor: [19, 19]
+    }),
+    zIndexOffset: isSelected ? 540 : 430
+  }).addTo(hotPointGroup);
+
+  marker.on('click', (e) => {
+    L.DomEvent.stopPropagation(e);
+    showHotPointDetails(point);
+  });
+
+  loadedHotPoints.set(point.id, marker);
+}
+
+function clearHotPointMarkers() {
+  if (!hotPointGroup) return;
+  hotPointGroup.clearLayers();
+  loadedHotPoints.clear();
+}
+
+function clearHotPointVisuals() {
+  clearHotPointMarkers();
+  if (hotPointHeatmapLayer) {
+    hotPointHeatmapLayer.clear();
+  }
+}
+
+function getCachedHotPointsInView() {
+  const bounds = map.getBounds();
+  const points = [];
+  allFetchedHotPoints.forEach(point => {
+    if (bounds.contains(L.latLng(point.lat, point.lng))) {
+      points.push(point);
+    }
+  });
+  return points;
+}
+
+function redrawCachedHotPoints() {
+  const currentZoom = map.getZoom();
+  const mode = getHotPointDisplayMode(currentZoom);
+  const cachedPoints = getCachedHotPointsInView();
+
+  if (mode === 'hidden') {
+    clearHotPointVisuals();
+    return;
+  }
+
+  if (mode === 'heatmap') {
+    clearHotPointMarkers();
+    if (hotPointHeatmapLayer) {
+      hotPointHeatmapLayer.setData(cachedPoints, getHeatmapOpacityForZoom(currentZoom));
+    }
+    return;
+  }
+
+  if (hotPointHeatmapLayer) {
+    hotPointHeatmapLayer.clear();
+  }
+  clearHotPointMarkers();
+  cachedPoints
+    .filter(point => point.source === 'hot_points')
+    .sort((a, b) => (b.routeRelevanceScore || 0) - (a.routeRelevanceScore || 0))
+    .slice(0, getMaxVisibleHotPointsForZoom(currentZoom))
+    .forEach(point => {
+      drawSingleHotPoint(point);
+    });
+}
+
+async function fetchHotPointsSilently() {
+  if (!map || !hotPointGroup) return;
+
+  const currentZoom = map.getZoom();
+  const mode = getHotPointDisplayMode(currentZoom);
+  if (mode === 'hidden' || currentZoom > 18) {
+    clearHotPointVisuals();
+    return;
+  }
+
+  clearTimeout(hotPointDebounceTimer);
+  hotPointDebounceTimer = setTimeout(async () => {
+    const currentCenter = map.getCenter();
+
+    if (lastHotPointCenter && lastHotPointZoom !== null) {
+      const distance = getLatLngDistance(
+        lastHotPointCenter.lat, lastHotPointCenter.lng,
+        currentCenter.lat, currentCenter.lng
+      );
+      const zoomChanged = currentZoom !== lastHotPointZoom;
+
+      if (distance < 260 && !zoomChanged) {
+        return;
+      }
+    }
+
+    const zoomChanged = currentZoom !== lastHotPointZoom;
+    if (zoomChanged) {
+      redrawCachedHotPoints();
+    }
+
+    lastHotPointCenter = currentCenter;
+    lastHotPointZoom = currentZoom;
+
+    const bounds = map.getBounds();
+    const south = bounds.getSouth();
+    const west = bounds.getWest();
+    const north = bounds.getNorth();
+    const east = bounds.getEast();
+
+    try {
+      const response = await fetch(`${API_BASE_URL}/routes/hot-points?bounds=${south},${west},${north},${east}&zoom=${currentZoom}`);
+      if (!response.ok) {
+        throw new Error(`Hot points API response failed: ${response.status}`);
+      }
+
+      const points = await response.json();
+      if (!Array.isArray(points)) return;
+
+      points.forEach(point => {
+        allFetchedHotPoints.set(point.id, point);
+      });
+
+      if (mode === 'heatmap') {
+        clearHotPointMarkers();
+        closeHotPointDetails(false);
+        if (hotPointHeatmapLayer) {
+          hotPointHeatmapLayer.setData(points, getHeatmapOpacityForZoom(currentZoom));
+        }
+        console.log(`🔥 [HotPoints] Zoom ${currentZoom} 热力图更新：${points.length} 个点，opacity=${getHeatmapOpacityForZoom(currentZoom)}`);
+        return;
+      }
+
+      if (hotPointHeatmapLayer) {
+        hotPointHeatmapLayer.clear();
+      }
+
+      let addedCount = 0;
+      points
+        .filter(point => point.source === 'hot_points')
+        .sort((a, b) => (b.routeRelevanceScore || 0) - (a.routeRelevanceScore || 0))
+        .slice(0, getMaxVisibleHotPointsForZoom(currentZoom))
+        .forEach(point => {
+          if (!loadedHotPoints.has(point.id)) {
+            drawSingleHotPoint(point);
+            addedCount++;
+          }
+        });
+
+      console.log(`📍 [HotPoints] 渲染 ${addedCount} 个新增点位，当前地图点位数: ${loadedHotPoints.size}`);
+    } catch (error) {
+      console.warn('[HotPoints] 静默视口请求失败:', error.message);
+    }
+  }, 650);
+}
+
+function closeHotPointDetails(shouldRedraw = true) {
+  const panel = document.getElementById('hotpoint-details-panel');
+  if (panel) panel.classList.remove('active');
+  selectedHotPointId = null;
+  if (shouldRedraw) {
+    redrawCachedHotPoints();
+  }
+}
+
+function showHotPointDetails(point) {
+  selectedHotPointId = point.id;
+  redrawCachedHotPoints();
+
+  const stravaPanel = document.getElementById('strava-details-panel');
+  if (stravaPanel) {
+    stravaPanel.classList.remove('active');
+    restoreAllSegmentsOpacity();
+  }
+
+  const panel = document.getElementById('hotpoint-details-panel');
+  if (!panel) return;
+
+  const meta = getHotPointMeta(point.category);
+  const addressText = point.address || point.businessArea || point.districtName || '暂无地址信息';
+  const nearestText = point.nearestSegmentDistanceM !== null && point.nearestSegmentDistanceM !== undefined
+    ? `${Math.round(point.nearestSegmentDistanceM)} m`
+    : '--';
+
+  document.getElementById('hotpoint-panel-tag').innerText = `${meta.label} · ${point.source === 'map_hotspots' ? '热区补充' : '高德点位'}`;
+  document.getElementById('hotpoint-panel-title').innerText = point.name || '未命名点位';
+  document.getElementById('hotpoint-panel-address').innerText = addressText;
+  document.getElementById('hotpoint-stat-score').innerText = Math.round(point.routeRelevanceScore || point.cyclistScore || 0);
+  document.getElementById('hotpoint-stat-category').innerText = meta.label;
+  document.getElementById('hotpoint-stat-nearby').innerText = nearestText;
+
+  const header = panel.querySelector('.strava-panel-header');
+  if (header) header.style.color = meta.color;
+
+  panel.classList.add('active');
 }
 
 /**
@@ -1939,4 +2382,3 @@ function showStravaSegmentDetails(seg) {
   // 激活底栏滑入动画
   panel.classList.add('active');
 }
-

@@ -1320,6 +1320,10 @@ html {
   pointer-events: auto;
 }
 
+.hotpoint-details-panel {
+  max-width: 460px;
+}
+
 .strava-panel-close-btn {
   position: absolute;
   top: 16px;
@@ -1366,6 +1370,16 @@ html {
   color: #ffffff;
   padding-right: 28px;
   letter-spacing: -0.2px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.hotpoint-panel-address {
+  color: #a1a1a6;
+  font-size: 12px;
+  line-height: 1.4;
+  margin: -8px 28px 12px 0;
   overflow: hidden;
   text-overflow: ellipsis;
   white-space: nowrap;
@@ -1431,6 +1445,108 @@ html {
 .custom-direction-icon {
   background: transparent !important;
   border: none !important;
+}
+
+/* ==========================================================================
+   📍 HotPoint 热门点位地图标记
+   ========================================================================== */
+.hotpoint-map-icon {
+  background: transparent !important;
+  border: none !important;
+}
+
+.hotpoint-heatmap-canvas {
+  pointer-events: none;
+  transition: opacity 0.28s ease;
+  mix-blend-mode: normal;
+}
+
+.hotpoint-pin {
+  width: 38px;
+  height: 38px;
+  border-radius: 50%;
+  background: rgba(18, 18, 20, 0.82);
+  border: 1px solid rgba(255, 255, 255, 0.16);
+  box-shadow: 0 8px 18px rgba(0, 0, 0, 0.45), 0 0 18px color-mix(in srgb, var(--hotpoint-color) 48%, transparent);
+  color: var(--hotpoint-color);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  backdrop-filter: blur(14px) saturate(170%);
+  -webkit-backdrop-filter: blur(14px) saturate(170%);
+  transition: transform 0.22s ease, box-shadow 0.22s ease;
+}
+
+.hotpoint-pin i {
+  font-size: 14px;
+  transform: translateY(-2px);
+}
+
+.hotpoint-pin span {
+  position: absolute;
+  bottom: 4px;
+  left: 50%;
+  transform: translateX(-50%);
+  color: #ffffff;
+  font-size: 8px;
+  font-weight: 800;
+  line-height: 1;
+}
+
+.hotpoint-pin:hover,
+.hotpoint-pin.active {
+  transform: scale(1.14);
+  box-shadow: 0 10px 24px rgba(0, 0, 0, 0.52), 0 0 24px color-mix(in srgb, var(--hotpoint-color) 72%, transparent);
+}
+
+.hotspot-bubble {
+  min-width: 84px;
+  height: 38px;
+  border-radius: 999px;
+  padding: 0 12px;
+  background: rgba(18, 18, 20, 0.66);
+  border: 1px solid color-mix(in srgb, var(--hotpoint-color) 45%, rgba(255, 255, 255, 0.12));
+  color: var(--hotpoint-color);
+  box-shadow: 0 8px 22px rgba(0, 0, 0, 0.36), 0 0 24px color-mix(in srgb, var(--hotpoint-color) 32%, transparent);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
+  backdrop-filter: blur(16px) saturate(170%);
+  -webkit-backdrop-filter: blur(16px) saturate(170%);
+  transition: transform 0.22s ease, opacity 0.22s ease;
+}
+
+.hotspot-bubble i {
+  font-size: 12px;
+}
+
+.hotspot-bubble strong {
+  color: #ffffff;
+  font-size: 11px;
+  font-weight: 800;
+  white-space: nowrap;
+}
+
+.hotspot-bubble:hover,
+.hotspot-bubble.active {
+  transform: scale(1.08);
+}
+
+body.light-theme .hotpoint-panel-address {
+  color: #6e6e73;
+}
+
+body.light-theme .hotpoint-pin,
+body.light-theme .hotspot-bubble {
+  background: rgba(255, 255, 255, 0.9);
+  border: 1px solid rgba(0, 0, 0, 0.08);
+}
+
+body.light-theme .hotpoint-pin span,
+body.light-theme .hotspot-bubble strong {
+  color: #1c1c1e;
 }
 
 /* ==========================================================================
