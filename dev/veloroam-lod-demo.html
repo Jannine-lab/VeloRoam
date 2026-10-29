@@ -1,0 +1,1047 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>VeloRoam · 克制显隐 LOD 原型</title>
+<style>
+  :root{
+    --bg:#07090d; --panel:#12151d; --panel2:#171b25; --panel3:#1d2330;
+    --line:#232a38; --line2:#2c3547;
+    --text:#e8ecf4; --muted:#8b93a7; --faint:#5a6275;
+    --accent:#ff6d00; --accent2:#ff9100; --gold:#f5c04a;
+    --good:#34d399; --warn:#fbbf24; --bad:#f87171;
+    --radius:16px;
+  }
+  *{margin:0;padding:0;box-sizing:border-box}
+  html{scroll-behavior:smooth}
+  body{
+    background:
+      radial-gradient(1200px 600px at 20% -10%, #10131c 0%, transparent 60%),
+      radial-gradient(1000px 500px at 90% 110%, #141019 0%, transparent 60%),
+      var(--bg);
+    color:var(--text);
+    font-family:-apple-system,BlinkMacSystemFont,"PingFang SC","Hiragino Sans GB","Microsoft YaHei",sans-serif;
+    min-height:100vh;
+    -webkit-font-smoothing:antialiased;
+  }
+
+  /* ================= Header ================= */
+  header{
+    max-width:1180px;margin:0 auto;padding:40px 28px 8px;
+  }
+  .kicker{
+    font-size:12px;letter-spacing:.22em;color:var(--accent2);
+    text-transform:uppercase;font-weight:700;margin-bottom:10px;
+  }
+  h1{font-size:30px;line-height:1.25;font-weight:800;letter-spacing:-.01em}
+  h1 em{font-style:normal;color:var(--accent2)}
+  .thesis{
+    margin-top:12px;font-size:15px;line-height:1.75;color:var(--muted);max-width:760px;
+  }
+  .thesis b{color:var(--text)}
+
+  /* ================= Layout ================= */
+  main{max-width:1180px;margin:0 auto;padding:24px 28px 80px;display:flex;gap:36px;align-items:flex-start}
+  .phone-col{flex:0 0 auto;margin:0 auto}
+  .notes{flex:1 1 460px;min-width:0;display:flex;flex-direction:column;gap:14px}
+
+  @media (max-width:960px){
+    main{flex-direction:column;align-items:center}
+    .notes{width:100%}
+  }
+
+  /* ================= Compare switch ================= */
+  .compare{
+    display:flex;align-items:center;gap:14px;flex-wrap:wrap;
+    margin:22px 0 4px;
+  }
+  .switch-group{
+    display:inline-flex;background:var(--panel);border:1px solid var(--line);
+    border-radius:999px;padding:4px;gap:4px;
+  }
+  .switch-group button{
+    border:0;background:transparent;color:var(--muted);
+    font-size:13px;font-weight:600;padding:8px 16px;border-radius:999px;
+    cursor:pointer;transition:all .25s;font-family:inherit;
+  }
+  .switch-group button.active{
+    background:var(--accent);color:#fff;
+    box-shadow:0 4px 18px rgba(255,109,0,.35);
+  }
+  .switch-group button.classic-btn.active{background:#e04f4f;box-shadow:0 4px 18px rgba(224,79,79,.35)}
+  .compare-hint{font-size:12px;color:var(--faint)}
+  .counter{
+    font-size:12px;font-weight:700;padding:6px 12px;border-radius:999px;
+    border:1px solid var(--line);color:var(--muted);background:var(--panel);
+  }
+  .counter b{color:var(--gold)}
+  .counter.red b{color:var(--bad)}
+
+  /* ================= Phone ================= */
+  .phone-wrap{position:relative}
+  .phone{
+    width:390px;height:844px;border-radius:44px;overflow:hidden;position:relative;
+    background:#0b0e14;border:8px solid #1a1f2b;
+    box-shadow:0 30px 80px rgba(0,0,0,.6), 0 0 0 1px #000, inset 0 0 0 1px rgba(255,255,255,.04);
+  }
+  .notch{
+    position:absolute;top:10px;left:50%;transform:translateX(-50%);
+    width:120px;height:26px;background:#000;border-radius:16px;z-index:60;
+  }
+  .statusbar{
+    position:absolute;top:0;left:0;right:0;height:46px;z-index:55;
+    display:flex;justify-content:space-between;align-items:center;
+    padding:0 28px 0 34px;font-size:13px;font-weight:700;color:var(--text);
+    pointer-events:none;
+  }
+
+  /* map */
+  .map{position:absolute;inset:0;z-index:1}
+  .map svg{width:100%;height:100%;display:block}
+
+  /* map focus badge */
+  .focus-badge{
+    position:absolute;top:56px;left:14px;z-index:40;
+    font-size:11px;font-weight:700;padding:6px 10px;border-radius:10px;
+    background:rgba(10,12,18,.82);border:1px solid var(--line);
+    backdrop-filter:blur(8px);color:var(--muted);pointer-events:none;
+    transition:all .4s;
+  }
+  .focus-badge b{color:var(--gold)}
+  .focus-badge.red b{color:var(--bad)}
+
+  /* FABs */
+  .fab{
+    position:absolute;right:14px;z-index:40;width:44px;height:44px;border-radius:50%;
+    background:rgba(18,21,29,.85);border:1px solid var(--line);
+    backdrop-filter:blur(10px);color:var(--text);font-size:17px;
+    display:flex;align-items:center;justify-content:center;cursor:pointer;
+    box-shadow:0 6px 20px rgba(0,0,0,.5);transition:transform .15s;
+  }
+  .fab:active{transform:scale(.92)}
+  .fab-theme{top:56px}
+  .fab-locate{top:110px}
+
+  /* ================= Bottom sheet ================= */
+  .sheet{
+    position:absolute;left:0;right:0;bottom:0;z-index:50;
+    background:rgba(15,18,25,.86);backdrop-filter:blur(24px);
+    border-top:1px solid rgba(255,255,255,.06);
+    border-radius:26px 26px 0 0;
+    box-shadow:0 -18px 50px rgba(0,0,0,.55);
+    transition:height .45s cubic-bezier(.32,.72,.28,1);
+    overflow:hidden;
+    height:238px;
+  }
+  .sheet.tall{height:344px}
+  .grabber{
+    width:40px;height:4px;border-radius:2px;background:#3a4254;
+    margin:10px auto 4px;
+  }
+  .sheet-inner{padding:4px 18px 18px;height:100%;overflow-y:auto;scrollbar-width:none}
+  .sheet-inner::-webkit-scrollbar{display:none}
+
+  .sheet-head{display:flex;align-items:center;justify-content:space-between;margin-bottom:10px}
+  .sheet-title{font-size:13px;font-weight:800;letter-spacing:.04em}
+  .sheet-title .mode-tag{
+    font-size:10px;font-weight:800;color:var(--accent2);border:1px solid rgba(255,145,0,.4);
+    padding:2px 7px;border-radius:6px;margin-right:8px;vertical-align:1px;
+  }
+  .sheet-sub{font-size:11px;color:var(--faint);margin-top:3px}
+
+  .back-btn{
+    border:1px solid var(--line2);background:var(--panel2);color:var(--muted);
+    font-size:11px;font-weight:700;padding:5px 11px;border-radius:9px;cursor:pointer;font-family:inherit;
+  }
+  .back-btn:hover{color:var(--text)}
+
+  /* recommend card */
+  .rec-card{
+    background:linear-gradient(135deg, rgba(255,109,0,.16), rgba(255,145,0,.05));
+    border:1px solid rgba(255,109,0,.35);
+    border-radius:var(--radius);padding:14px 16px;position:relative;overflow:hidden;
+  }
+  .rec-card::before{
+    content:"";position:absolute;left:0;top:0;bottom:0;width:3px;
+    background:linear-gradient(180deg,var(--accent),var(--accent2));
+  }
+  .rec-label{font-size:10px;font-weight:800;letter-spacing:.14em;color:var(--accent2);text-transform:uppercase}
+  .rec-name{font-size:19px;font-weight:800;margin:5px 0 2px}
+  .rec-meta{font-size:12px;color:var(--muted);display:flex;gap:14px;flex-wrap:wrap;margin-top:4px}
+  .rec-meta b{color:var(--text);font-weight:700}
+  .stars{color:var(--gold);letter-spacing:1px;font-size:13px}
+  .stars .off{opacity:.22}
+  .score-pill{
+    font-size:11px;font-weight:700;padding:2px 8px;border-radius:999px;background:var(--panel3);
+    color:var(--good);border:1px solid rgba(52,211,153,.25);
+  }
+  .why{font-size:12px;color:var(--muted);margin-top:9px;line-height:1.6}
+  .why b{color:var(--text)}
+
+  /* alternative strip */
+  .alt-label{font-size:11px;font-weight:800;color:var(--faint);margin:14px 0 8px;letter-spacing:.1em}
+  .alt-strip{display:flex;gap:10px;overflow-x:auto;scrollbar-width:none;padding-bottom:2px}
+  .alt-strip::-webkit-scrollbar{display:none}
+  .alt-card{
+    flex:0 0 auto;width:168px;background:var(--panel2);border:1px solid var(--line);
+    border-radius:13px;padding:11px 13px;cursor:pointer;transition:all .25s;
+  }
+  .alt-card:hover{border-color:var(--line2);background:var(--panel3)}
+  .alt-card.current{border-color:rgba(255,145,0,.5);background:rgba(255,145,0,.07)}
+  .alt-name{font-size:13px;font-weight:700}
+  .alt-meta{font-size:11px;color:var(--faint);margin-top:4px;display:flex;gap:8px;flex-wrap:wrap}
+  .alt-switch{font-size:10px;color:var(--accent2);margin-top:6px;font-weight:700;opacity:0;transition:opacity .2s}
+  .alt-card.current .alt-switch{opacity:1}
+
+  /* CTA */
+  .cta-row{display:flex;gap:10px;margin-top:14px}
+  .cta{
+    flex:1;border:0;border-radius:13px;padding:13px;font-size:14px;font-weight:800;cursor:pointer;
+    font-family:inherit;transition:all .2s;
+  }
+  .cta-go{background:linear-gradient(135deg,var(--accent),var(--accent2));color:#fff;box-shadow:0 6px 22px rgba(255,109,0,.4)}
+  .cta-go:active{transform:scale(.97)}
+  .cta-ghost{background:var(--panel3);color:var(--muted);border:1px solid var(--line2)}
+  .cta-ghost:hover{color:var(--text)}
+
+  /* mode chips (L1) */
+  .chips{display:flex;gap:8px;margin-top:13px}
+  .chip{
+    flex:1;border:1px solid var(--line2);background:var(--panel2);color:var(--muted);
+    border-radius:11px;padding:9px 6px;font-size:11.5px;font-weight:700;cursor:pointer;
+    font-family:inherit;transition:all .22s;text-align:center;line-height:1.3;
+  }
+  .chip .ic{display:block;font-size:15px;margin-bottom:2px}
+  .chip:hover{color:var(--text);border-color:#3d4a63;background:var(--panel3)}
+  .chip.active{color:#fff;background:rgba(255,109,0,.22);border-color:var(--accent)}
+
+  /* segment list / poi list */
+  .list-item{
+    display:flex;align-items:center;gap:11px;padding:10px 11px;border-radius:12px;
+    background:var(--panel2);border:1px solid var(--line);margin-bottom:8px;cursor:pointer;transition:all .2s;
+  }
+  .list-item:hover{border-color:var(--line2);background:var(--panel3)}
+  .list-item.focused{border-color:var(--accent);background:rgba(255,109,0,.08)}
+  .seg-dot{width:9px;height:9px;border-radius:50%;flex:0 0 auto}
+  .seg-info{flex:1;min-width:0}
+  .seg-name{font-size:12.5px;font-weight:700;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+  .seg-meta{font-size:10.5px;color:var(--faint);margin-top:2px}
+  .seg-score{font-size:13px;font-weight:800;flex:0 0 auto}
+  .poi-ic{font-size:17px;flex:0 0 auto}
+
+  /* detail card */
+  .detail-card{
+    background:var(--panel2);border:1px solid var(--line);border-radius:var(--radius);padding:14px 16px;
+  }
+  .detail-name{font-size:16px;font-weight:800}
+  .detail-meta{display:flex;gap:18px;margin-top:8px;flex-wrap:wrap}
+  .detail-stat{font-size:11px;color:var(--faint)}
+  .detail-stat b{display:block;font-size:16px;color:var(--text);margin-top:2px}
+  .detail-close{margin-top:12px}
+
+  /* flood list (classic mode) */
+  .flood-count{font-size:24px;font-weight:800;color:var(--bad)}
+  .flood-sub{font-size:12px;color:var(--faint);margin:4px 0 12px}
+  .flood-item{
+    display:flex;align-items:center;gap:8px;font-size:11px;color:var(--muted);
+    padding:5px 0;border-bottom:1px dashed var(--line);
+  }
+  .flood-item .tag{font-size:9px;font-weight:800;padding:1px 6px;border-radius:5px;flex:0 0 auto}
+  .tag.seg{background:rgba(255,109,0,.15);color:var(--accent2)}
+  .tag.poi{background:rgba(52,211,153,.12);color:var(--good)}
+  .tag.route{background:rgba(245,192,74,.12);color:var(--gold)}
+  .flood-verdict{margin-top:12px;font-size:11.5px;color:var(--muted);line-height:1.7}
+  .flood-verdict b{color:var(--bad)}
+
+  /* toast */
+  .toast{
+    position:absolute;left:50%;bottom:260px;transform:translateX(-50%) translateY(8px);
+    background:rgba(10,12,18,.94);border:1px solid var(--line2);color:var(--text);
+    font-size:12.5px;font-weight:600;padding:10px 16px;border-radius:12px;z-index:70;
+    opacity:0;pointer-events:none;transition:all .35s;white-space:nowrap;
+    box-shadow:0 8px 30px rgba(0,0,0,.5);
+  }
+  .toast.show{opacity:1;transform:translateX(-50%) translateY(0)}
+
+  /* ================= Notes ================= */
+  .note{
+    background:var(--panel);border:1px solid var(--line);border-radius:var(--radius);
+    padding:18px 20px;
+  }
+  .note h3{font-size:14px;font-weight:800;margin-bottom:9px;display:flex;align-items:center;gap:9px}
+  .note h3 .n{
+    width:22px;height:22px;border-radius:7px;flex:0 0 auto;
+    background:rgba(255,109,0,.15);color:var(--accent2);
+    font-size:12px;font-weight:800;display:flex;align-items:center;justify-content:center;
+  }
+  .note p{font-size:13px;line-height:1.85;color:var(--muted)}
+  .note p b{color:var(--text)}
+  .note p .hl{color:var(--accent2);font-weight:700}
+  .note .kv{margin-top:12px;border:1px dashed var(--line2);border-radius:10px;padding:12px 14px;font-size:12.5px;line-height:2;color:var(--muted)}
+  .note .kv b{color:var(--text)}
+  .note .kv .l0{color:var(--gold);font-weight:800}
+  .note .kv .l1{color:var(--accent2);font-weight:800}
+  .note .kv .l2{color:var(--faint);font-weight:800}
+  .note ul{list-style:none;margin-top:10px}
+  .note li{font-size:12.5px;color:var(--muted);line-height:1.8;padding-left:20px;position:relative}
+  .note li::before{content:"→";position:absolute;left:0;color:var(--accent2);font-weight:700}
+  .note li b{color:var(--text)}
+
+  .try-card{background:linear-gradient(135deg, rgba(255,109,0,.1), transparent 60%)}
+  .try-card p{font-size:13px;color:var(--muted);line-height:1.9}
+  .try-card kbd{
+    background:var(--panel3);border:1px solid var(--line2);border-radius:6px;
+    padding:2px 8px;font-size:11.5px;color:var(--text);font-family:inherit;font-weight:700;
+  }
+
+  footer{max-width:1180px;margin:0 auto;padding:0 28px 40px;font-size:12px;color:var(--faint);line-height:1.8}
+</style>
+</head>
+<body>
+
+<header>
+  <div class="kicker">VeloRoam · 移动端克制显隐原型</div>
+  <h1>克制不是"显示几个"，是 <em>立场</em> —— 敢替用户做决定</h1>
+  <p class="thesis">
+    移动端核心只有一句话：<b>「给你一条现在就骑的路」</b>。默认屏（L0）只服务这句话：
+    一条主推路线、起点、一行推荐理由、两三张备选卡。Strava 段 / POI / 热力图不是"图层"，
+    是<b>模式</b>——一个手势进入，退出即消失。下面的开关就是两种立场的现场对比。
+  </p>
+  <div class="compare">
+    <div class="switch-group" id="modeSwitch">
+      <button data-switch="classic" class="classic-btn">🗂️ 经典：全摊开</button>
+      <button data-switch="recommend" class="active">✨ 推荐：克制</button>
+    </div>
+    <span class="compare-hint">同一批数据，切换对比</span>
+    <span class="counter" id="focusCounter"><b>1</b> 个焦点要素</span>
+  </div>
+</header>
+
+<main>
+  <div class="phone-col">
+    <div class="phone-wrap">
+      <div class="phone">
+        <div class="notch"></div>
+        <div class="statusbar"><span>9:41</span><span>📶 🔋 87%</span></div>
+
+        <!-- 地图（SVG 程序化生成） -->
+        <div class="map" id="map"></div>
+
+        <div class="focus-badge" id="focusBadge">此刻屏幕：<b>1</b> 个焦点</div>
+
+        <div class="fab fab-theme" title="切换图层主题">🌓</div>
+        <div class="fab fab-locate" title="回到当前位置">◎</div>
+
+        <!-- 底部面板 -->
+        <div class="sheet" id="sheet">
+          <div class="grabber"></div>
+          <div class="sheet-inner" id="sheetInner"></div>
+        </div>
+
+        <div class="toast" id="toast"></div>
+      </div>
+    </div>
+  </div>
+
+  <aside class="notes">
+    <div class="note">
+      <h3><span class="n">1</span>诊断：为什么你始终找不到平衡点</h3>
+      <p>
+        因为你把"克制"当成了<b>数量旋钮</b>，在 96→72、70→50 之间反复横跳——那是同一个坑。
+        真正的克制是<b>立场</b>：你一边想"推荐"，一边不敢替用户决定，
+        于是用"多显示一点"来缓解"漏掉重要东西"的焦虑。<span class="hl">平衡点不在那个数字里，
+        在你对每个要素回答"我是替用户决定，还是让用户自己决定"的那一刻。</span>
+      </p>
+    </div>
+
+    <div class="note">
+      <h3><span class="n">2</span>架构：L0 强推荐 · L1 一招手 · L2 可搜索</h3>
+      <p>
+        大多数人以为克制 = "把 L0 做小"，于是砍来砍去总觉得亏。
+        <b>真正让 L0 敢变小的，是 L1 够不够近。</b>做不到"一个手势可达"的要素，
+        才会被迫堆在默认屏上。先修可达性，克制就自然发生。
+      </p>
+      <div class="kv">
+        <span class="l0">L0 · 默认屏</span> —— 你自信推荐的：1 条主推路线 + 起点 + 推荐理由 + CTA<br>
+        <span class="l1">L1 · 一个手势</span> —— 不常驻、但一键召唤：路段雷达 / 补给 / 备选切换<br>
+        <span class="l2">L2 · 可搜索</span> —— 不显示、但找得到：全量列表 / 搜索 / 历史
+      </div>
+    </div>
+
+    <div class="note">
+      <h3><span class="n">3</span>判据：三轴决定"该不该默认显示"</h3>
+      <p>
+        对每个要素问三个问题，而不是问"显示几个"。平衡点是三者的<b>输出</b>，不是独立输入的参数：
+      </p>
+      <ul>
+        <li><b>置信度</b> —— 我有多确信它对"此刻这个人"是对的？低 → 不默认显示，但可召唤。</li>
+        <li><b>缺失代价</b> —— 藏起来而他需要，后果多严重？错过补给 = 严重 → 永不真正隐藏。</li>
+        <li><b>任务态</b> —— 他在逛 / 在骑 / 在找店？同一要素在不同状态价值天差地别。</li>
+      </ul>
+    </div>
+
+    <div class="note">
+      <h3><span class="n">4</span>授权：打分 = 隐藏的通行证</h3>
+      <p>
+        你费大劲写的 <b>routeScorer / rawScore / routeRelevanceScore</b>，
+        意义不是"排好序展示"，而是给你<b>有权隐藏低分项</b>的资格。
+        一个分数就是一句"我有资格替你判断"的声明。把低分项全摆出来，等于白打了分——
+        <span class="hl">打分系统的终极产出，是一张允许你隐藏一切的通行证。</span>
+      </p>
+    </div>
+
+    <div class="note">
+      <h3><span class="n">5</span>机制：图层模态化，不常亮</h3>
+      <p>
+        桌面端屏幕大、可以容忍常驻图层；<b>移动端克制 = 图层模态化</b>（进入 / 退出），而不是常亮。
+        Strava 段、POI、热力图都不是图层，是"模式"。这一刀砍下去，平衡点瞬间清晰——
+        你不是在"隐藏信息"，你是在<b>重新安排谁替用户做决定</b>。
+      </p>
+    </div>
+
+    <div class="note try-card">
+      <h3><span class="n">6</span>操作：动手试试</h3>
+      <ul>
+        <li><b>① 切开关</b> —— 同一批数据在"全摊开"与"克制"下的现场对比。</li>
+        <li><b>② 点地图上的路段</b> —— 进入聚焦态，其余全部退到背景（0.15）。</li>
+        <li><b>③ 点底部芯片</b> —— 路段雷达 / 补给：一个手势召唤 L1，退出即消失。</li>
+        <li><b>④ 点"换一条"</b> —— 备选卡把另一条路线升为主推，虚影变实。</li>
+        <li><b>⑤ 看理由行</b> —— 一行"为什么推荐"，是克制换取信任的锚。</li>
+      </ul>
+    </div>
+  </aside>
+</main>
+
+<footer>
+  这是交互原型（零依赖、可离线双击打开），不是真实地图数据。设计要点：L0 强推荐 + L1 一个手势可达 + 图层模态化 + 三轴判据 + 打分即隐藏授权。
+  对应真实代码中的 getMinScoreForZoom / getHotPointDisplayMode / dimAllOtherSegments 的演进方向。
+</footer>
+
+<script>
+/* ============================================================
+ * VeloRoam · 克制显隐 LOD 原型
+ * 状态机: recommend(默认推荐) / explore(路段雷达) / supply(补给) / classic(全摊开)
+ * 聚焦态: focus = { type:'route'|'segment'|'poi', id }
+ * ============================================================ */
+
+const MAP_W = 390, MAP_H = 580;
+
+/* ---------------- 数据（模拟） ---------------- */
+const ROUTES = [
+  {
+    id:'r1', name:'环龙腾湖绿道', dist:'48.2 km', time:'2h35m', gain:'620 m',
+    scenic:3.5, comfort:88, lights:12,
+    why:'公园与湖景占比 61%，全段硬化路面，红绿灯集中在 8-12km，适合长距离巡航',
+    cls:'primary',
+    d:'M58 478 C 140 488 260 470 322 438 C 372 412 386 352 352 300 C 322 254 252 236 208 262 C 168 286 118 270 96 306 C 76 340 66 396 58 432 C 54 450 55 466 58 478 Z'
+  },
+  {
+    id:'r2', name:'西郊山地爬坡线', dist:'35.6 km', time:'2h10m', gain:'1180 m',
+    scenic:2.5, comfort:72, lights:8,
+    why:'累计爬升 1180m，三段 8% 以上陡坡，适合爬坡训练，不适合新手',
+    cls:'alt',
+    d:'M40 190 C 96 96 168 78 208 108 C 244 134 248 196 224 232 C 204 262 168 268 148 238 C 130 212 88 238 66 214 C 48 194 34 196 40 190 Z'
+  },
+  {
+    id:'r3', name:'滨江绿道往返', dist:'22.4 km', time:'1h15m', gain:'180 m',
+    scenic:3, comfort:90, lights:6,
+    why:'全程滨水绿道，几乎零坡度，红绿灯最少，傍晚骑行最佳',
+    cls:'alt',
+    d:'M58 478 C 120 460 200 452 268 424 C 316 404 360 372 382 340 C 384 336 370 322 352 330 C 306 352 244 372 188 396 C 130 420 88 448 58 478 Z'
+  }
+];
+
+const SEGMENTS = [
+  { id:'s1', name:'龙腾湖环线冲刺',  score:92, dist:'3.2 km', grade:'+2.1%', d:'M322 438 C 330 420 338 402 352 380 C 366 358 376 334 372 318 C 362 306 344 318 336 338 C 326 364 312 402 306 424 C 314 432 318 436 322 438 Z' },
+  { id:'s2', name:'湖东爬坡段',      score:78, dist:'1.8 km', grade:'+7.8%', d:'M224 232 C 240 208 258 184 282 168 C 300 156 314 150 322 150 C 326 162 318 178 302 194 C 282 214 252 234 232 244 C 228 240 226 236 224 232 Z' },
+  { id:'s3', name:'湿地巡航带',      score:65, dist:'4.6 km', grade:'+0.4%', d:'M96 306 C 112 292 130 282 152 286 C 172 290 176 308 164 320 C 152 332 130 336 118 326 C 108 318 100 312 96 306 Z' },
+  { id:'s4', name:'城区连接道',      score:58, dist:'2.1 km', grade:'+1.2%', d:'M352 300 C 356 284 358 268 354 252 C 350 238 344 228 340 218 C 336 226 332 238 330 252 C 332 270 340 288 348 298 C 350 299 351 300 352 300 Z' },
+  { id:'s5', name:'河岸滨水带',      score:45, dist:'3.9 km', grade:'+0.2%', d:'M188 396 C 202 388 214 382 224 378 C 234 388 228 396 216 402 C 204 408 194 406 188 396 Z' },
+  { id:'s6', name:'西坡短冲刺',      score:38, dist:'0.9 km', grade:'+5.4%', d:'M96 306 C 86 288 84 268 96 252 C 102 246 110 250 108 260 C 106 274 102 290 98 300 C 97 302 96 304 96 306 Z' }
+];
+
+const POIS = [
+  { id:'p1', icon:'🍜', name:'老面馆补给', cat:'food', at:'12.4 km', x:150, y:414 },
+  { id:'p2', icon:'☕',  name:'湖心咖啡驿站', cat:'coffee', at:'24.1 km', x:256, y:296 },
+  { id:'p3', icon:'🏪',  name:'24h 便利店', cat:'store', at:'33.8 km', x:104, y:322 },
+  { id:'p4', icon:'🐑',  name:'牧场补给点', cat:'food', at:'41.5 km', x:296, y:438 },
+  { id:'p5', icon:'⛽',  name:'充能站', cat:'energy', at:'6.8 km', x:216, y:452 }
+];
+
+/* 热力斑（classic 模式才显示） */
+const HEAT = [
+  { x:180, y:360, r:52, o:.16 }, { x:250, y:280, r:44, o:.12 },
+  { x:110, y:300, r:38, o:.10 }, { x:300, y:420, r:46, o:.14 }
+];
+
+const segColor = s => s >= 80 ? '#ff6d00' : s >= 60 ? '#ff9100' : s >= 45 ? '#c084fc' : '#5b6b85';
+
+/* ---------------- 状态 ---------------- */
+let state = { mode:'recommend', focus:null, primary:'r1' };
+// focus: null | {type:'segment'|'poi'|'route', id}
+
+/* ---------------- SVG 地图构建 ---------------- */
+const mapEl = document.getElementById('map');
+const NS = 'http://www.w3.org/2000/svg';
+const svg = document.createElementNS(NS, 'svg');
+svg.setAttribute('viewBox', `0 0 ${MAP_W} ${MAP_H}`);
+svg.setAttribute('preserveAspectRatio', 'xMidYMid slice');
+mapEl.appendChild(svg);
+
+function el(tag, attrs){
+  const e = document.createElementNS(NS, tag);
+  for (const k in attrs) e.setAttribute(k, attrs[k]);
+  return e;
+}
+
+/* 背景：渐变 + 网格街道 */
+function buildBase(){
+  const defs = el('defs', {});
+  defs.innerHTML = `
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#0d1017"/><stop offset="1" stop-color="#11151f"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="50%" cy="50%" r="50%">
+      <stop offset="0" stop-color="#ff6d00" stop-opacity=".55"/><stop offset="1" stop-color="#ff6d00" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="soft" x="-40%" y="-40%" width="180%" height="180%">
+      <feGaussianBlur stdDeviation="4"/>
+    </filter>
+  `;
+  svg.appendChild(defs);
+
+  svg.appendChild(el('rect', { x:0, y:0, width:MAP_W, height:MAP_H, fill:'url(#sky)' }));
+
+  /* 绿地 */
+  svg.appendChild(el('ellipse', { cx:262, cy:140, rx:86, ry:58, fill:'#101d16', opacity:.9 }));
+  svg.appendChild(el('ellipse', { cx:96, cy:240, rx:52, ry:70, fill:'#0f1c15', opacity:.9 }));
+
+  /* 河流 */
+  const river = el('path', { d:'M-20 470 C 60 450 140 430 200 392 C 268 350 330 300 410 240', fill:'none', stroke:'#12233a', 'stroke-width':26, 'stroke-linecap':'round', opacity:.9 });
+  svg.appendChild(river);
+
+  /* 街道网格 */
+  const grid = svg.appendChild(el('g', { id:'grid', opacity:.5 }));
+  for (let x = 30; x < MAP_W; x += 46){
+    grid.appendChild(el('line', { x1:x, y1:0, x2:x - 30, y2:MAP_H, stroke:'#222a3a', 'stroke-width':1.4 }));
+  }
+  for (let y = 40; y < MAP_H; y += 52){
+    grid.appendChild(el('line', { x1:0, y1:y, x2:MAP_W, y2:y + 26, stroke:'#222a3a', 'stroke-width':1.4 }));
+  }
+  /* 主干道 */
+  const mainRoad = el('path', { d:'M-20 210 C 90 190 200 200 410 160', fill:'none', stroke:'#2a3348', 'stroke-width':5, 'stroke-linecap':'round', opacity:.7 });
+  svg.appendChild(mainRoad);
+  const mainRoad2 = el('path', { d:'M120 -20 C 140 120 130 260 170 410 C 190 500 210 560 220 600', fill:'none', stroke:'#2a3348', 'stroke-width':5, 'stroke-linecap':'round', opacity:.7 });
+  svg.appendChild(mainRoad2);
+
+}
+
+/* ---------------- 图层组 ---------------- */
+const gRoutes = svg.appendChild(el('g', { id:'gRoutes' }));
+const gSegments = svg.appendChild(el('g', { id:'gSegments' }));
+const gPois = svg.appendChild(el('g', { id:'gPois' }));
+const gHeat = svg.appendChild(el('g', { id:'gHeat' }));
+const gMarkers = svg.appendChild(el('g', { id:'gMarkers' }));
+
+/* 静态元素：起点终点、河岸标注 */
+function buildMarkers(){
+  const start = el('g', {});
+  start.appendChild(el('circle', { cx:58, cy:478, r:9, fill:'#fff', opacity:.14 }));
+  start.appendChild(el('circle', { cx:58, cy:478, r:6, fill:'#fff' }));
+  const startLabel = el('text', { x:70, y:472, fill:'#e8ecf4', 'font-size':10, 'font-weight':700 });
+  startLabel.textContent = '我';
+  start.appendChild(startLabel);
+
+  const end = el('g', {});
+  end.appendChild(el('circle', { cx:58, cy:478, r:0, fill:'none' }));
+  /* 终点 = 起点（闭环），标注在图上另一点 */
+  const flag = el('g', {});
+  flag.appendChild(el('path', { d:'M352 300 l0 -14 l10 5 l-10 5 z', fill:'#f5c04a' }));
+  flag.appendChild(el('line', { x1:352, y1:300, x2:352, y2:316, stroke:'#f5c04a', 'stroke-width':1.6 }));
+  gMarkers.appendChild(flag);
+
+  gMarkers.appendChild(start);
+}
+
+/* ---------------- 渲染 ---------------- */
+function render(){
+  const classic = state.mode === 'classic';
+  const inExplore = state.mode === 'explore';
+  const inSupply = state.mode === 'supply';
+
+  renderRoutes(classic);
+  renderSegments(classic || inExplore);
+  renderPois(classic || inSupply);
+  renderHeat(classic);
+  renderSheet();
+  updateBadge();
+  updateSwitch();
+}
+
+/* —— 路线 —— */
+function renderRoutes(classic){
+  gRoutes.innerHTML = '';
+  const focusRoute = state.focus && state.focus.type === 'route';
+  ROUTES.forEach(r => {
+    const isPrimary = r.id === state.primary;
+    const g = el('g', { class:'route-g' });
+
+    if (isPrimary){
+      /* 主推：发光金色主线 + 流动动画 */
+      const glow = el('path', { d:r.d, fill:'none', stroke:'#ff6d00', 'stroke-width':11, opacity:.28, filter:'url(#soft)' });
+      const line = el('path', { d:r.d, fill:'none', stroke:'#f5c04a', 'stroke-width':5.5, 'stroke-linecap':'round', 'stroke-linejoin':'round', class:'flow' });
+      const hit = el('path', { d:r.d, fill:'none', stroke:'transparent', 'stroke-width':26, style:'pointer-events:stroke', cursor:'pointer' });
+      hit.addEventListener('click', () => {
+        if (classic) return;
+        state.focus = { type:'route', id:r.id };
+        render();
+      });
+      g.append(glow, line, hit);
+    } else {
+      /* 备选：经典模式=可见实线；推荐模式=极淡虚影（L0 下不抢戏，但一招手可达） */
+      const line = el('path', {
+        d:r.d, fill:'none', stroke:'#8b93a7', 'stroke-width':classic ? 3.5 : 2.2,
+        'stroke-dasharray':classic ? null : '2 7',
+        'stroke-linecap':'round', 'stroke-linejoin':'round',
+        opacity:classic ? .65 : .28, class:'alt-line'
+      });
+      const hit = el('path', { d:r.d, fill:'none', stroke:'transparent', 'stroke-width':26, style:'pointer-events:stroke', cursor:'pointer' });
+      hit.addEventListener('click', () => {
+        if (classic) return;
+        state.primary = r.id;
+        state.focus = { type:'route', id:r.id };
+        render();
+        toast(`已切换主推：${r.name}`);
+      });
+      g.append(line, hit);
+    }
+    gRoutes.appendChild(g);
+  });
+
+  /* 聚焦时：非焦点路线退让到背景 */
+  if (focusRoute && !classic){
+    [...gRoutes.children].forEach(child => {
+      const path = child.querySelector('path');
+      const isFocused = path && path.getAttribute('d') === ROUTES.find(r => r.id === state.focus.id).d;
+      child.style.opacity = isFocused ? '1' : '.28';
+      child.style.transition = 'opacity .4s';
+    });
+  }
+}
+
+/* —— Strava 段 —— */
+function renderSegments(visible){
+  gSegments.innerHTML = '';
+  if (!visible) return;
+  const focusSeg = state.focus && state.focus.type === 'segment';
+  SEGMENTS.forEach(s => {
+    const focused = focusSeg && state.focus.id === s.id;
+    const g = el('g', { class:'seg-g' });
+    const color = segColor(s.score);
+    const line = el('path', {
+      d:s.d, fill:'none', stroke:color, 'stroke-width':focused ? 5.5 : 3.2,
+      'stroke-linecap':'round', 'stroke-linejoin':'round',
+      opacity:focused ? 1 : (focusSeg ? .15 : .8)
+    });
+    const hit = el('path', { d:s.d, fill:'none', stroke:'transparent', 'stroke-width':24, style:'pointer-events:stroke', cursor:'pointer' });
+    hit.addEventListener('click', e => {
+      e.stopPropagation();
+      if (state.focus && state.focus.type === 'segment' && state.focus.id === s.id){
+        state.focus = null;           /* 再点一次收起 */
+      } else {
+        state.focus = { type:'segment', id:s.id };
+      }
+      render();
+    });
+    g.append(line, hit);
+    gSegments.appendChild(g);
+  });
+}
+
+/* —— POI 补给点 —— */
+function renderPois(visible){
+  gPois.innerHTML = '';
+  if (!visible) return;
+  const focusPoi = state.focus && state.focus.type === 'poi';
+  POIS.forEach(p => {
+    const focused = focusPoi && state.focus.id === p.id;
+    const g = el('g', { class:'poi-g', transform:`translate(${p.x},${p.y})` });
+    const halo = el('circle', { r:15, fill:'#f5c04a', opacity:focused ? .35 : .16, filter:'url(#soft)' });
+    const dot = el('circle', { r:10, fill:'#1a1f2b', stroke:focused ? '#f5c04a' : '#5a6275', 'stroke-width':1.6 });
+    const txt = el('text', { x:0, y:4, 'text-anchor':'middle', 'font-size':11, style:'pointer-events:none' });
+    txt.textContent = p.icon;
+    const hit = el('circle', { r:18, fill:'transparent', style:'pointer-events:all', cursor:'pointer' });
+    hit.addEventListener('click', e => {
+      e.stopPropagation();
+      if (state.focus && state.focus.type === 'poi' && state.focus.id === p.id){
+        state.focus = null;
+      } else {
+        state.focus = { type:'poi', id:p.id };
+      }
+      render();
+    });
+    g.append(halo, dot, txt, hit);
+    gPois.appendChild(g);
+  });
+}
+
+/* —— 热力斑 —— */
+function renderHeat(visible){
+  gHeat.innerHTML = '';
+  if (!visible) return;
+  HEAT.forEach(h => {
+    gHeat.appendChild(el('circle', { cx:h.x, cy:h.y, r:h.r, fill:'#ff6d00', opacity:h.o, filter:'url(#soft)' }));
+  });
+}
+
+/* ---------------- 底部面板 ---------------- */
+const sheet = document.getElementById('sheet');
+const sheetInner = document.getElementById('sheetInner');
+
+function sheetHead(title, modeTag, onBack, backLabel){
+  const head = document.createElement('div');
+  head.className = 'sheet-head';
+  const left = document.createElement('div');
+  const t = document.createElement('div');
+  t.className = 'sheet-title';
+  if (modeTag) t.innerHTML = `<span class="mode-tag">${modeTag}</span>${title}`;
+  else t.textContent = title;
+  left.appendChild(t);
+  if (onBack){
+    const b = document.createElement('button');
+    b.className = 'back-btn';
+    b.textContent = backLabel || '‹ 退出模式';
+    b.addEventListener('click', onBack);
+    head.append(left, b);
+  } else {
+    head.appendChild(left);
+  }
+  return head;
+}
+
+function renderSheet(){
+  sheetInner.innerHTML = '';
+  sheet.classList.toggle('tall', state.mode === 'explore' || state.mode === 'supply');
+
+  /* 聚焦详情优先于模式内容 */
+  if (state.focus){
+    if (state.focus.type === 'segment'){
+      renderFocusSegment(SEGMENTS.find(s => s.id === state.focus.id));
+    } else if (state.focus.type === 'poi'){
+      renderFocusPoi(POIS.find(p => p.id === state.focus.id));
+    } else {
+      renderFocusRoute(ROUTES.find(r => r.id === state.focus.id));
+    }
+    return;
+  }
+
+  if (state.mode === 'classic'){ renderClassicFlood(); return; }
+  if (state.mode === 'explore'){ renderExploreList(); return; }
+  if (state.mode === 'supply'){ renderSupplyList(); return; }
+  renderRecommend();
+}
+
+/* —— L0：推荐主屏 —— */
+function renderRecommend(){
+  const r = ROUTES.find(x => x.id === state.primary);
+
+  const card = document.createElement('div');
+  card.className = 'rec-card';
+  card.innerHTML = `
+    <div class="rec-label">🚴 为你推荐 · 现在就骑这条</div>
+    <div class="rec-name">${r.name}</div>
+    <div class="rec-meta">
+      <span>${r.dist} · <b>${r.time}</b> · 爬升 ${r.gain}</span>
+    </div>
+    <div class="rec-meta">
+      <span class="stars">${starsHtml(r.scenic)}</span>
+      <span class="score-pill">舒适度 ${r.comfort}</span>
+      <span class="score-pill" style="color:var(--warn);border-color:rgba(251,191,36,.25)">红绿灯 ${r.lights}</span>
+    </div>
+    <div class="why">为什么是这条：<b>${r.why}</b></div>
+  `;
+  sheetInner.appendChild(card);
+
+  /* 备选横滑卡（L1：一招手） */
+  const altLabel = document.createElement('div');
+  altLabel.className = 'alt-label';
+  altLabel.textContent = '换一条 · 备选';
+  sheetInner.appendChild(altLabel);
+
+  const strip = document.createElement('div');
+  strip.className = 'alt-strip';
+  ROUTES.filter(x => x.id !== r.id).forEach(a => {
+    const c = document.createElement('div');
+    c.className = 'alt-card';
+    c.innerHTML = `
+      <div class="alt-name">${a.name}</div>
+      <div class="alt-meta"><span>${a.dist}</span><span>爬升 ${a.gain}</span><span class="stars" style="font-size:11px">${starsHtml(a.scenic)}</span></div>
+      <div class="alt-switch">✦ 换这条</div>
+    `;
+    c.addEventListener('click', () => {
+      state.primary = a.id;
+      state.focus = { type:'route', id:a.id };
+      render();
+      toast(`已切换主推：${a.name}`);
+    });
+    strip.appendChild(c);
+  });
+  sheetInner.appendChild(strip);
+
+  /* CTA */
+  const cta = document.createElement('div');
+  cta.className = 'cta-row';
+  cta.innerHTML = `<button class="cta cta-go">▶ 开始骑行 · 导出 GPX</button><button class="cta cta-ghost">导航</button>`;
+  cta.querySelector('.cta-go').addEventListener('click', () => toast('已生成 veloroam_route.gpx，正在唤起导航…'));
+  sheetInner.appendChild(cta);
+
+  /* L1 模式芯片：一招手可达 */
+  const chips = document.createElement('div');
+  chips.className = 'chips';
+  chips.innerHTML = `
+    <button class="chip" data-m="explore"><span class="ic">🌿</span>路段雷达<br>谁在刷这条</button>
+    <button class="chip" data-m="supply"><span class="ic">🍜</span>补给<br>饿了找吃的</button>
+    <button class="chip" data-m="classic"><span class="ic">🗂️</span>看全部<br>数据摊开</button>
+  `;
+  chips.querySelectorAll('.chip').forEach(btn => {
+    btn.addEventListener('click', () => {
+      state.mode = btn.dataset.m;
+      state.focus = null;
+      render();
+    });
+  });
+  sheetInner.appendChild(chips);
+}
+
+/* —— L1：路段雷达 —— */
+function renderExploreList(){
+  sheetInner.appendChild(sheetHead('路段雷达', 'L1 · 一个手势进入', () => exitMode()));
+  const sub = document.createElement('div');
+  sub.className = 'sheet-sub';
+  sub.textContent = `只显示 rawScore ≥ 45 的高价值段 · 点击地图或列表聚焦`;
+  sheetInner.appendChild(sub);
+
+  const sorted = [...SEGMENTS].sort((a,b) => b.score - a.score);
+  sorted.forEach(s => {
+    const it = document.createElement('div');
+    it.className = 'list-item';
+    it.innerHTML = `
+      <span class="seg-dot" style="background:${segColor(s.score)}"></span>
+      <span class="seg-info"><div class="seg-name">${s.name}</div><div class="seg-meta">${s.dist} · 坡度 ${s.grade}</div></span>
+      <span class="seg-score" style="color:${segColor(s.score)}">${s.score}</span>
+    `;
+    it.addEventListener('click', () => {
+      state.focus = { type:'segment', id:s.id };
+      render();
+    });
+    sheetInner.appendChild(it);
+  });
+}
+
+/* —— L1：补给 —— */
+function renderSupplyList(){
+  sheetInner.appendChild(sheetHead('沿途补给', 'L1 · 一个手势进入', () => exitMode()));
+  const sub = document.createElement('div');
+  sub.className = 'sheet-sub';
+  sub.textContent = `沿主推路线 ${ROUTES.find(r=>r.id===state.primary).name} 的补给点 · 缺失代价高，永不真正隐藏`;
+  sheetInner.appendChild(sub);
+
+  POIS.forEach(p => {
+    const it = document.createElement('div');
+    it.className = 'list-item';
+    it.innerHTML = `
+      <span class="poi-ic">${p.icon}</span>
+      <span class="seg-info"><div class="seg-name">${p.name}</div><div class="seg-meta">里程 ${p.at} · ${catName(p.cat)}</div></span>
+    `;
+    it.addEventListener('click', () => {
+      state.focus = { type:'poi', id:p.id };
+      render();
+    });
+    sheetInner.appendChild(it);
+  });
+}
+
+/* —— 聚焦详情 —— */
+function renderFocusSegment(s){
+  sheetInner.appendChild(sheetHead('路段详情', '聚焦态', () => { state.focus = null; render(); }, '‹ 收起'));
+  const d = document.createElement('div');
+  d.className = 'detail-card';
+  d.innerHTML = `
+    <div class="detail-name">${s.name}</div>
+    <div class="detail-meta">
+      <span class="detail-stat">rawScore<b style="color:${segColor(s.score)}">${s.score}</b></span>
+      <span class="detail-stat">距离<b>${s.dist}</b></span>
+      <span class="detail-stat">坡度<b>${s.grade}</b></span>
+    </div>
+    <div class="why" style="font-size:11.5px;margin-top:8px">其余路段已退到背景（opacity 0.15），再次点击地图上的该路段可收起聚焦。</div>
+    <button class="cta cta-ghost" style="width:100%;margin-top:12px" id="focusClose">收起聚焦</button>
+  `;
+  d.querySelector('#focusClose').addEventListener('click', () => { state.focus = null; render(); });
+  sheetInner.appendChild(d);
+}
+
+function renderFocusPoi(p){
+  sheetInner.appendChild(sheetHead('补给点', '聚焦态', () => { state.focus = null; render(); }, '‹ 收起'));
+  const d = document.createElement('div');
+  d.className = 'detail-card';
+  d.innerHTML = `
+    <div class="detail-name">${p.icon} ${p.name}</div>
+    <div class="detail-meta">
+      <span class="detail-stat">里程<b>${p.at}</b></span>
+      <span class="detail-stat">类别<b>${catName(p.cat)}</b></span>
+      <span class="detail-stat">营业<b>06:00-22:00</b></span>
+    </div>
+    <div class="why" style="font-size:11.5px;margin-top:8px">补给点缺失代价高 → 永远在一屏之内，永不真正隐藏。</div>
+    <button class="cta cta-ghost" style="width:100%;margin-top:12px" id="poiClose">收起聚焦</button>
+  `;
+  d.querySelector('#poiClose').addEventListener('click', () => { state.focus = null; render(); });
+  sheetInner.appendChild(d);
+}
+
+function renderFocusRoute(r){
+  sheetInner.appendChild(sheetHead('路线详情', '聚焦态', () => { state.focus = null; render(); }, '‹ 收起'));
+  const d = document.createElement('div');
+  d.className = 'detail-card';
+  d.innerHTML = `
+    <div class="detail-name">${r.name}</div>
+    <div class="detail-meta">
+      <span class="detail-stat">距离<b>${r.dist}</b></span>
+      <span class="detail-stat">时间<b>${r.time}</b></span>
+      <span class="detail-stat">爬升<b>${r.gain}</b></span>
+    </div>
+    <div class="rec-meta" style="margin-top:8px">
+      <span class="stars">${starsHtml(r.scenic)}</span>
+      <span class="score-pill">舒适度 ${r.comfort}</span>
+      <span class="score-pill" style="color:var(--warn);border-color:rgba(251,191,36,.25)">红绿灯 ${r.lights}</span>
+    </div>
+    <div class="why" style="font-size:11.5px;margin-top:8px">${r.why}</div>
+    <button class="cta cta-ghost" style="width:100%;margin-top:12px" id="routeClose">收起聚焦</button>
+  `;
+  d.querySelector('#routeClose').addEventListener('click', () => { state.focus = null; render(); });
+  sheetInner.appendChild(d);
+}
+
+/* —— 经典模式：信息洪流 —— */
+function renderClassicFlood(){
+  const total = ROUTES.length + SEGMENTS.length + POIS.length + HEAT.length;
+  sheetInner.appendChild(sheetHead('全部数据同时摊开', '经典模式'));
+
+  const c = document.createElement('div');
+  c.className = 'flood-count';
+  c.textContent = `${total} 个要素`;
+  sheetInner.appendChild(c);
+  const sub = document.createElement('div');
+  sub.className = 'flood-sub';
+  sub.textContent = '3 条路线 · 6 条路段 · 5 个补给点 · 4 片热力 —— 全部亮着，全部在抢你的注意力';
+  sheetInner.appendChild(sub);
+
+  const list = document.createElement('div');
+  ROUTES.forEach(r => list.appendChild(floodItem('route', '主推/备选', r.name)));
+  [...SEGMENTS].sort((a,b)=>b.score-a.score).forEach(s => list.appendChild(floodItem('seg', `段 ${s.score}`, s.name)));
+  POIS.forEach(p => list.appendChild(floodItem('poi', '补给', `${p.icon} ${p.name}`)));
+  HEAT.forEach((h,i) => list.appendChild(floodItem('poi', '热力', `热力斑 #${i+1}`)));
+  sheetInner.appendChild(list);
+
+  const verdict = document.createElement('div');
+  verdict.className = 'flood-verdict';
+  verdict.innerHTML = `这不是"推荐"，是<b>把决定权全部还给了用户</b>——低分段和主推路线同样显眼，你等于没做任何决定。克制的本质不是"少显示"，是<b>敢下判断</b>。`;
+  sheetInner.appendChild(verdict);
+
+  const cta = document.createElement('div');
+  cta.className = 'cta-row';
+  cta.innerHTML = `<button class="cta cta-go">← 回到推荐模式</button>`;
+  cta.querySelector('button').addEventListener('click', () => { state.mode = 'recommend'; state.focus = null; render(); });
+  sheetInner.appendChild(cta);
+}
+
+function floodItem(type, tag, name){
+  const d = document.createElement('div');
+  d.className = 'flood-item';
+  d.innerHTML = `<span class="tag ${type}">${tag}</span><span>${name}</span>`;
+  return d;
+}
+
+/* ---------------- 工具 ---------------- */
+function starsHtml(v){
+  let s = '';
+  for (let i = 1; i <= 4; i++){
+    s += i <= Math.floor(v) ? '★' : (i - 0.5 === v ? '★' : '<span class="off">★</span>');
+  }
+  return s;
+}
+function catName(c){
+  return ({ food:'美食', coffee:'咖啡', store:'便利店', energy:'充能' })[c] || c;
+}
+function exitMode(){
+  state.mode = 'recommend';
+  state.focus = null;
+  render();
+}
+
+function updateBadge(){
+  const badge = document.getElementById('focusBadge');
+  const counter = document.getElementById('focusCounter');
+  let focusCount;
+  if (state.mode === 'classic'){
+    focusCount = ROUTES.length + SEGMENTS.length + POIS.length + HEAT.length;
+    badge.classList.add('red');
+    counter.classList.add('red');
+  } else if (state.focus){
+    focusCount = 1;
+    badge.classList.remove('red');
+    counter.classList.remove('red');
+  } else {
+    focusCount = 1;
+    badge.classList.remove('red');
+    counter.classList.remove('red');
+  }
+  badge.innerHTML = state.mode === 'classic'
+    ? `此刻屏幕：<b>${focusCount}</b> 个焦点`
+    : `此刻屏幕：<b>1</b> 个推荐`;
+  counter.innerHTML = state.mode === 'classic'
+    ? `<b>${focusCount}</b> 个要素同时竞争`
+    : `<b>1</b> 个焦点要素`;
+}
+
+function updateSwitch(){
+  document.querySelectorAll('#modeSwitch button').forEach(b => {
+    b.classList.toggle('active', b.dataset.switch === state.mode);
+  });
+}
+
+let toastTimer;
+function toast(msg){
+  const t = document.getElementById('toast');
+  t.textContent = msg;
+  t.classList.add('show');
+  clearTimeout(toastTimer);
+  toastTimer = setTimeout(() => t.classList.remove('show'), 2200);
+}
+
+/* 地图点击空白：收起聚焦/退出模式 */
+svg.addEventListener('click', e => {
+  if (e.target === svg || e.target.tagName === 'rect' || e.target.id === 'grid'){
+    if (state.focus){ state.focus = null; render(); }
+  }
+});
+
+/* 开关 */
+document.querySelectorAll('#modeSwitch button').forEach(b => {
+  b.addEventListener('click', () => {
+    state.mode = b.dataset.switch;
+    state.focus = null;
+    render();
+  });
+});
+
+/* ---------------- 启动 ---------------- */
+/* 深链参数 ?m=classic|explore|supply 直接进入对应模式，便于演示/截图 */
+const _m = new URLSearchParams(location.search).get('m');
+if (_m && ['classic','explore','supply'].includes(_m)) state.mode = _m;
+buildBase();
+buildMarkers();
+render();
+</script>
+</body>
+</html>
