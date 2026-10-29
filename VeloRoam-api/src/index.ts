@@ -2,6 +2,7 @@ import 'dotenv/config';
 import express from 'express';
 import cors from 'cors';
 import routeRoutes from './routes/routeRoutes';
+import crawlerRoutes from './routes/crawlerRoutes';
 import { initDatabase } from './config/db';
 import { startStravaCrawler } from './scripts/stravaCrawler';
 import { startAmapHotPointCrawler } from './scripts/amapHotPointCrawler';
@@ -15,6 +16,7 @@ app.use(express.json());
 
 // Routes
 app.use('/api/routes', routeRoutes);
+app.use('/api/crawlers', crawlerRoutes);
 
 // Health check endpoint
 app.get('/health', (_req, res) => {

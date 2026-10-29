@@ -54,6 +54,31 @@ interface NormalizedHotPoint {
   confidenceScore: number;
 }
 
+export interface AmapHotPointCrawlerRunResult {
+  districtCount: number;
+  categoryCount: number;
+  fetchedCount: number;
+  normalizedCount: number;
+  upsertedCount: number;
+  linkedHotPointCount: number;
+  dryRun: boolean;
+  startedAt: string;
+  finishedAt: string;
+}
+
+export interface AmapHotPointCrawlerStatus {
+  schedulerEnabled: boolean;
+  running: boolean;
+  intervalHours: number;
+  dryRun: boolean;
+  selectedDistrictCount: number;
+  selectedCategoryCount: number;
+  lastStartedAt: string | null;
+  lastFinishedAt: string | null;
+  lastError: string | null;
+  lastResult: AmapHotPointCrawlerRunResult | null;
+}
+
 const amapApiKey = process.env.AMAP_API_KEY || '';
 const requestDelayMs = parseInt(process.env.AMAP_HOT_POINT_REQUEST_DELAY_MS || '500', 10);
 const maxPages = parseInt(process.env.AMAP_HOT_POINT_MAX_PAGES || '3', 10);
@@ -65,6 +90,10 @@ const skipSchemaInit = process.env.HOT_POINT_SKIP_SCHEMA_INIT !== 'false';
 const dryRun = process.env.HOT_POINT_DRY_RUN === 'true';
 let hotPointCrawlerTimer: NodeJS.Timeout | null = null;
 let hotPointCrawlerRunning = false;
+let hotPointCrawlerLastStartedAt: string | null = null;
+let hotPointCrawlerLastFinishedAt: string | null = null;
+let hotPointCrawlerLastError: string | null = null;
+let hotPointCrawlerLastResult: AmapHotPointCrawlerRunResult | null = null;
 
 function sleep(ms: number): Promise<void> {
   return new Promise(resolve => setTimeout(resolve, ms));
@@ -446,10 +475,12 @@ async function refreshSegmentLinks(hotPointIds: number[]) {
   }
 }
 
-export async function crawlShanghaiHotPoints() {
+export async function crawlShanghaiHotPoints(): Promise<AmapHotPointCrawlerRunResult> {
   if (!amapApiKey) {
     throw new Error('AMAP_API_KEY is not configured. Add it to VeloRoam-api/.env before running this crawler.');
   }
+
+  const startedAt = new Date().toISOString();
 
   if (!skipSchemaInit) {
     await initDatabase();
@@ -511,42 +542,87 @@ export async function crawlShanghaiHotPoints() {
 
   console.log(`[HotPointCrawler] Finished.`);
   console.log(`[HotPointCrawler] fetched=${fetchedCount}, normalized=${normalizedCount}, upserted=${upsertedCount}`);
+
+  return {
+    districtCount: districts.length,
+    categoryCount: mappings.length,
+    fetchedCount,
+    normalizedCount,
+    upsertedCount,
+    linkedHotPointCount: new Set(touchedHotPointIds).size,
+    dryRun,
+    startedAt,
+    finishedAt: new Date().toISOString()
+  };
 }
 
-async function runCrawlerCycle() {
+async function runCrawlerCycle(): Promise<boolean> {
   if (hotPointCrawlerRunning) {
     console.warn('[HotPointCrawler] Previous crawl is still running. Skipping this cycle.');
-    return;
+    return false;
   }
 
   hotPointCrawlerRunning = true;
+  hotPointCrawlerLastStartedAt = new Date().toISOString();
+  hotPointCrawlerLastError = null;
   try {
-    await crawlShanghaiHotPoints();
+    hotPointCrawlerLastResult = await crawlShanghaiHotPoints();
+    return true;
   } catch (error: any) {
+    hotPointCrawlerLastError = error.message;
     console.error('[HotPointCrawler] Cycle failed:', error.message);
+    return false;
   } finally {
     hotPointCrawlerRunning = false;
+    hotPointCrawlerLastFinishedAt = new Date().toISOString();
   }
 }
 
-export function startAmapHotPointCrawler() {
+export function startAmapHotPointCrawler(): boolean {
   if (hotPointCrawlerTimer) {
     console.warn('[HotPointCrawler] Scheduler is already running.');
-    return;
+    return false;
   }
 
   const intervalMs = Math.max(crawlerIntervalHours, 1) * 60 * 60 * 1000;
   console.log(`[HotPointCrawler] Scheduler enabled. First run starts now, interval=${crawlerIntervalHours}h.`);
-  runCrawlerCycle();
+  void runCrawlerCycle();
   hotPointCrawlerTimer = setInterval(runCrawlerCycle, intervalMs);
+  return true;
 }
 
-export function stopAmapHotPointCrawler() {
+export function stopAmapHotPointCrawler(): boolean {
+  const wasEnabled = hotPointCrawlerTimer !== null;
   if (hotPointCrawlerTimer) {
     clearInterval(hotPointCrawlerTimer);
     hotPointCrawlerTimer = null;
     console.log('[HotPointCrawler] Scheduler stopped.');
   }
+  return wasEnabled;
+}
+
+export function triggerAmapHotPointCrawlerRunOnce(): boolean {
+  if (hotPointCrawlerRunning) {
+    return false;
+  }
+
+  void runCrawlerCycle();
+  return true;
+}
+
+export function getAmapHotPointCrawlerStatus(): AmapHotPointCrawlerStatus {
+  return {
+    schedulerEnabled: hotPointCrawlerTimer !== null,
+    running: hotPointCrawlerRunning,
+    intervalHours: crawlerIntervalHours,
+    dryRun,
+    selectedDistrictCount: selectedDistricts().length,
+    selectedCategoryCount: selectedMappings().length,
+    lastStartedAt: hotPointCrawlerLastStartedAt,
+    lastFinishedAt: hotPointCrawlerLastFinishedAt,
+    lastError: hotPointCrawlerLastError,
+    lastResult: hotPointCrawlerLastResult
+  };
 }
 
 if (require.main === module) {

@@ -3,6 +3,14 @@ import { LatLng, decodePolyline } from '../utils/polyline';
 
 let cachedAccessToken = '';
 let tokenExpiresAt = 0; // Epoch timestamp in seconds
+let nativeStatsDetailAccessDisabled = false;
+
+export class StravaSegmentDetailError extends Error {
+  constructor(message: string, public readonly status?: number, public readonly reason?: string) {
+    super(message);
+    this.name = 'StravaSegmentDetailError';
+  }
+}
 
 export async function getStravaAccessToken(): Promise<string> {
   // If cachedAccessToken is not yet set, check if a direct STRAVA_ACCESS_TOKEN is configured in .env
@@ -44,12 +52,7 @@ export async function getStravaAccessToken(): Promise<string> {
 
   console.log(`[StravaService] OAuth Token Refresh POST Request:`);
   console.log(`  - URL: ${tokenUrl}`);
-  console.log(`  - Payload (Redacted):`, {
-    client_id: clientId,
-    client_secret: clientSecret ? `${clientSecret.substring(0, 4)}...${clientSecret.substring(clientSecret.length - 4)}` : undefined,
-    grant_type: 'refresh_token',
-    refresh_token: refreshToken ? `${refreshToken.substring(0, 4)}...${refreshToken.substring(refreshToken.length - 4)}` : undefined
-  });
+  console.log('  - Credentials omitted from logs.');
 
   try {
     const response = await axios.post(tokenUrl, payload, {
@@ -61,6 +64,10 @@ export async function getStravaAccessToken(): Promise<string> {
     if (response.data && response.data.access_token) {
       cachedAccessToken = response.data.access_token;
       tokenExpiresAt = response.data.expires_at;
+      if (response.data.refresh_token && response.data.refresh_token !== refreshToken) {
+        process.env.STRAVA_REFRESH_TOKEN = response.data.refresh_token;
+        console.warn('[StravaService] Strava returned a new refresh token. Update the configured secret before restarting this process.');
+      }
       console.log(`[StravaService] Successfully refreshed access token! Expires at: ${new Date(tokenExpiresAt * 1000).toLocaleString()}`);
       return cachedAccessToken;
     } else {
@@ -85,13 +92,95 @@ export interface StravaSegment {
   name: string;
   distanceKm: number;
   avgGrade: number;
+  climbCategory: number;
   startLatLng: [number, number];
   endLatLng: [number, number];
   coordinates: LatLng[];
+  veloRoamScore: number;
+  /** @deprecated Legacy API alias for veloRoamScore. */
   rawScore?: number;
+  starCount: number | null;
+  athleteCount: number | null;
+  effortCount: number | null;
+  stravaStatsUpdatedAt: string | null;
 }
 
-function calculateSegmentScore(seg: any): number {
+export interface StravaNativeStats {
+  starCount: number | null;
+  athleteCount: number | null;
+  effortCount: number | null;
+  stravaStatsUpdatedAt: string;
+}
+
+function toNullableCount(value: unknown): number | null {
+  if (value === null || value === undefined || value === '') return null;
+  const parsed = Number(value);
+  return Number.isFinite(parsed) && parsed >= 0 ? Math.round(parsed) : null;
+}
+
+export function extractStravaNativeStats(segment: any): StravaNativeStats | null {
+  const starCount = toNullableCount(segment?.star_count);
+  const athleteCount = toNullableCount(segment?.athlete_count);
+  const effortCount = toNullableCount(segment?.effort_count);
+
+  if (starCount === null && athleteCount === null && effortCount === null) {
+    return null;
+  }
+
+  return {
+    starCount,
+    athleteCount,
+    effortCount,
+    stravaStatsUpdatedAt: new Date().toISOString()
+  };
+}
+
+export function normalizeStravaSegmentDetail(segmentId: number, segment: any, fetchedAt = new Date().toISOString()) {
+  const number = (value: unknown): number | null => typeof value === 'number' && Number.isFinite(value) ? value : null;
+  return {
+    id: segmentId, name: typeof segment.name === 'string' ? segment.name : null,
+    distanceKm: number(segment.distance) === null ? null : segment.distance / 1000,
+    avgGrade: number(segment.average_grade), maxGrade: number(segment.maximum_grade),
+    elevationHigh: number(segment.elevation_high), elevationLow: number(segment.elevation_low),
+    totalElevationGain: number(segment.total_elevation_gain), climbCategory: number(segment.climb_category),
+    starCount: toNullableCount(segment.star_count), athleteCount: toNullableCount(segment.athlete_count),
+    effortCount: toNullableCount(segment.effort_count),
+    hazardous: typeof segment.hazardous === 'boolean' ? segment.hazardous : null,
+    stravaStatsUpdatedAt: fetchedAt
+  };
+}
+
+export async function fetchStravaSegmentRawDetail(segmentId: number, accessToken?: string): Promise<Record<string, any>> {
+  try {
+    const token = accessToken || await getStravaAccessToken();
+    const response = await axios.get(`https://www.strava.com/api/v3/segments/${segmentId}`, {
+      headers: { Authorization: `Bearer ${token}`, Accept: 'application/json' }, timeout: 10000
+    });
+    const segment = response.data;
+    if (!segment || typeof segment !== 'object' || Array.isArray(segment) || String(segment.id) !== String(segmentId)) {
+      throw new Error('Unexpected Strava segment response');
+    }
+    return segment;
+  } catch (error: any) {
+    const status = error.response?.status;
+    const errors = Array.isArray(error.response?.data?.errors) ? error.response.data.errors : [];
+    const inactive = errors.some((item: any) => item?.resource === 'Application' && item?.field === 'Status' && item?.code === 'Inactive');
+    const reason = inactive ? 'application_inactive' : undefined;
+    throw new StravaSegmentDetailError(`Strava segment detail unavailable${status ? ` (HTTP ${status})` : ''}${inactive ? ': application inactive' : ''}`, status, reason);
+  }
+}
+
+export async function fetchStravaSegmentDetail(segmentId: number, accessToken?: string) {
+  const segment = await fetchStravaSegmentRawDetail(segmentId, accessToken);
+  return normalizeStravaSegmentDetail(segmentId, segment);
+}
+
+export async function fetchStravaSegmentNativeStats(segmentId: number, accessToken?: string): Promise<StravaNativeStats> {
+  const detail = await fetchStravaSegmentDetail(segmentId, accessToken);
+  return { starCount: detail.starCount, athleteCount: detail.athleteCount, effortCount: detail.effortCount, stravaStatsUpdatedAt: detail.stravaStatsUpdatedAt };
+}
+
+export function calculateVeloRoamSegmentScore(seg: any): number {
   let score = 0;
 
   // 1. Distance bonus (longer is preferred)
@@ -119,6 +208,42 @@ function calculateSegmentScore(seg: any): number {
   }
 
   return score;
+}
+
+function getNativeStatsEnrichmentLimit(): number {
+  const configured = Number(process.env.STRAVA_NATIVE_STATS_ENRICH_LIMIT ?? 3);
+  if (!Number.isFinite(configured)) return 3;
+  return Math.max(0, Math.min(10, Math.floor(configured)));
+}
+
+async function enrichSegmentsWithNativeStats(
+  segments: StravaSegment[],
+  accessToken: string
+): Promise<void> {
+  const limit = getNativeStatsEnrichmentLimit();
+  if (limit === 0 || nativeStatsDetailAccessDisabled) return;
+
+  const targets = segments
+    .filter(segment => segment.starCount === null && segment.athleteCount === null && segment.effortCount === null)
+    .sort((a, b) => b.veloRoamScore - a.veloRoamScore)
+    .slice(0, limit);
+
+  for (const segment of targets) {
+    try {
+      const stats = await fetchStravaSegmentNativeStats(segment.id, accessToken);
+      segment.starCount = stats.starCount;
+      segment.athleteCount = stats.athleteCount;
+      segment.effortCount = stats.effortCount;
+      segment.stravaStatsUpdatedAt = stats.stravaStatsUpdatedAt;
+    } catch (error: any) {
+      console.warn(`[StravaService] Native stats enrichment failed for segment ${segment.id}: ${error.message}`);
+      if (error.status === 403) {
+        nativeStatsDetailAccessDisabled = true;
+        console.warn('[StravaService] Disabling native stats enrichment for this process after HTTP 403.');
+        break;
+      }
+    }
+  }
 }
 
 function calculateOverlapRatio(seg1: StravaSegment, seg2: StravaSegment): number {
@@ -169,8 +294,8 @@ export async function exploreStravaSegments(
     const queries: Promise<any[]>[] = [];
 
     // 1. Zoom level grid subdivision query to increase route count and density (bypass Strava 10-count limit)
-    // If zoom level is high (>= 14) and the viewport is detailed, subdivide into 2x2 grid for up to 40 concurrent segments!
-    const shouldSplitGrid = zoom && zoom >= 14;
+    // If zoom level is high (>= 13), subdivide into a 2x2 grid for up to 40 segments.
+    const shouldSplitGrid = zoom && zoom >= 13;
 
     if (shouldSplitGrid) {
       console.log(`[StravaService] Zoom level is high (${zoom}). Splitting bounds into 2x2 grid to fetch up to 40 segments concurrently.`);
@@ -228,24 +353,36 @@ export async function exploreStravaSegments(
 
     console.log(`[StravaService] Merged segments count from all sub-grids: ${rawSegments.length}`);
 
-    // 3. Map to rich StravaSegment structure, computing raw score for popularity, loops, and climbing challenge
+    // 3. Map to the VeloRoam segment model. Explore does not expose Strava's
+    // native popularity counts, so a small, rate-limited subset is enriched below.
     const decodedSegments: StravaSegment[] = rawSegments.map((seg: any) => {
       const decodedPoints = decodePolyline(seg.points);
+      const veloRoamScore = calculateVeloRoamSegmentScore(seg);
+      const nativeStats = extractStravaNativeStats(seg);
       return {
         id: seg.id,
         name: seg.name,
         distanceKm: parseFloat((seg.distance / 1000).toFixed(2)),
         avgGrade: parseFloat((seg.avg_grade || 0).toFixed(1)),
+        climbCategory: Number(seg.climb_category || 0),
         startLatLng: seg.start_latlng,
         endLatLng: seg.end_latlng,
         coordinates: decodedPoints,
-        // Inject computed quality score for sorting
-        rawScore: calculateSegmentScore(seg)
-      } as any;
+        veloRoamScore,
+        // Keep rawScore during the frontend migration; it is not a Strava-native score.
+        rawScore: veloRoamScore,
+        starCount: nativeStats?.starCount ?? null,
+        athleteCount: nativeStats?.athleteCount ?? null,
+        effortCount: nativeStats?.effortCount ?? null,
+        stravaStatsUpdatedAt: nativeStats?.stravaStatsUpdatedAt ?? null
+      };
     });
 
-    // 4. Sort segments by calculated score in descending order
-    decodedSegments.sort((a: any, b: any) => b.rawScore - a.rawScore);
+    await enrichSegmentsWithNativeStats(decodedSegments, accessToken);
+
+    // 4. Sort by the VeloRoam contextual score. Native counts remain separate
+    // inputs so the recommendation weighting can evolve without losing raw data.
+    decodedSegments.sort((a, b) => b.veloRoamScore - a.veloRoamScore);
 
     // 5. Greedy spatial deduplication (overlap > 70% removal)
     // Since the segments are pre-sorted in descending order of quality score,
@@ -259,7 +396,7 @@ export async function exploreStravaSegments(
         const overlap = Math.max(calculateOverlapRatio(seg, kept), calculateOverlapRatio(kept, seg));
         if (overlap > 0.70) {
           isDuplicate = true;
-          console.log(`[StravaService] Segment "${seg.name}" (ID:${seg.id}, Score:${(seg.rawScore ?? 0).toFixed(1)}) overlaps ${Math.round(overlap * 100)}% with "${kept.name}" (ID:${kept.id}, Score:${(kept.rawScore ?? 0).toFixed(1)}). Discarding duplicate in favor of higher score.`);
+          console.log(`[StravaService] Segment "${seg.name}" (ID:${seg.id}, Score:${seg.veloRoamScore.toFixed(1)}) overlaps ${Math.round(overlap * 100)}% with "${kept.name}" (ID:${kept.id}, Score:${kept.veloRoamScore.toFixed(1)}). Discarding duplicate in favor of higher score.`);
           break;
         }
       }

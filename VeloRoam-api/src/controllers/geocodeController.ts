@@ -1,5 +1,6 @@
 import { Request, Response } from 'express';
 import axios from 'axios';
+import { gcj02ToWgs84 } from '../utils/polyline';
 
 const amapApiKey = process.env.AMAP_API_KEY || '';
 
@@ -62,11 +63,13 @@ export const searchAddress = async (req: Request, res: Response) => {
         .filter((tip: any) => tip.location && typeof tip.location === 'string' && tip.location.includes(','))
         .map((tip: any) => {
           const [lonStr, latStr] = tip.location.split(',');
+          const locationWgs84 = gcj02ToWgs84(parseFloat(lonStr), parseFloat(latStr));
           return {
             name: tip.name,
-            address: tip.address || tip.district || '',
-            lat: parseFloat(latStr),
-            lon: parseFloat(lonStr)
+            address: Array.isArray(tip.address) ? tip.address.join('') : (tip.address || tip.district || ''),
+            // 高德返回 GCJ-02；统一转为 WGS-84，确保 Leaflet 底图定位不偏移。
+            lat: locationWgs84.lat,
+            lon: locationWgs84.lng
           };
         });
       return res.status(200).json(suggestions);

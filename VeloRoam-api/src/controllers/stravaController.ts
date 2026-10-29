@@ -1,6 +1,7 @@
 import { Request, Response } from 'express';
 import { query } from '../config/db';
-import { exploreStravaSegments } from '../services/stravaService';
+import { exploreStravaSegments, StravaSegmentDetailError } from '../services/stravaService';
+import { getStoredOrFetchStravaSegmentDetail } from '../services/stravaSegmentDetailStore';
 
 /**
  * 将 MySQL 返回的 LINESTRING(lng1 lat1, lng2 lat2, ...) WKT 文本解析为前端所需的 [{lat, lng}] 坐标格式
@@ -36,16 +37,22 @@ async function asyncUpsertSegmentsToMySql(segments: any[]) {
       const upsertSql = `
         INSERT INTO strava_segments (
           id, name, distance_km, avg_grade, climb_category, raw_score,
+          star_count, athlete_count, effort_count, strava_stats_updated_at,
           start_lat, start_lng, end_lat, end_lng, geom, updated_at
         ) VALUES (
-          ?, ?, ?, ?, ?, ?, ?, ?, ?, ?,
+          ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?,
           ST_GeomFromText(?, 4326), CURRENT_TIMESTAMP
         )
         ON DUPLICATE KEY UPDATE
           name = VALUES(name),
           distance_km = VALUES(distance_km),
           avg_grade = VALUES(avg_grade),
+          climb_category = VALUES(climb_category),
           raw_score = VALUES(raw_score),
+          star_count = COALESCE(VALUES(star_count), star_count),
+          athlete_count = COALESCE(VALUES(athlete_count), athlete_count),
+          effort_count = COALESCE(VALUES(effort_count), effort_count),
+          strava_stats_updated_at = COALESCE(VALUES(strava_stats_updated_at), strava_stats_updated_at),
           geom = VALUES(geom),
           updated_at = CURRENT_TIMESTAMP;
       `;
@@ -55,8 +62,12 @@ async function asyncUpsertSegmentsToMySql(segments: any[]) {
         seg.name,
         seg.distanceKm,
         seg.avgGrade,
-        0, // 默认爬坡等级 0
-        seg.rawScore || 0,
+        seg.climbCategory || 0,
+        seg.veloRoamScore ?? seg.rawScore ?? 0,
+        seg.starCount ?? null,
+        seg.athleteCount ?? null,
+        seg.effortCount ?? null,
+        seg.stravaStatsUpdatedAt ? new Date(seg.stravaStatsUpdatedAt) : null,
         seg.startLatLng[0],
         seg.startLatLng[1],
         seg.endLatLng[0],
@@ -133,6 +144,10 @@ export const getStravaSegments = async (req: Request, res: Response) => {
         avg_grade as "avgGrade", 
         climb_category as "climbCategory",
         raw_score as "rawScore",
+        star_count as "starCount",
+        athlete_count as "athleteCount",
+        effort_count as "effortCount",
+        strava_stats_updated_at as "stravaStatsUpdatedAt",
         start_lat as "startLat",
         start_lng as "startLng",
         end_lat as "endLat",
@@ -156,7 +171,14 @@ export const getStravaSegments = async (req: Request, res: Response) => {
           distanceKm: Number(row.distanceKm),
           avgGrade: Number(row.avgGrade),
           climbCategory: Number(row.climbCategory),
+          veloRoamScore: Number(row.rawScore),
           rawScore: Number(row.rawScore),
+          starCount: row.starCount === null ? null : Number(row.starCount),
+          athleteCount: row.athleteCount === null ? null : Number(row.athleteCount),
+          effortCount: row.effortCount === null ? null : Number(row.effortCount),
+          stravaStatsUpdatedAt: row.stravaStatsUpdatedAt
+            ? new Date(row.stravaStatsUpdatedAt).toISOString()
+            : null,
           startLatLng: [Number(row.startLat), Number(row.startLng)],
           endLatLng: [Number(row.endLat), Number(row.endLng)],
           coordinates
@@ -207,3 +229,29 @@ export const getStravaSegments = async (req: Request, res: Response) => {
     });
   }
 };
+
+export async function getStravaSegmentDetail(req: Request, res: Response) {
+  const rawId = req.params.id;
+  const id = Number(rawId);
+  if (!/^[1-9]\d*$/.test(rawId) || !Number.isSafeInteger(id)) {
+    return res.status(400).json({ error: '无效的路段 ID。' });
+  }
+  try {
+    const detail = await getStoredOrFetchStravaSegmentDetail(id);
+    res.set('Cache-Control', 'private, max-age=300');
+    return res.json(detail);
+  } catch (error) {
+    const detailError = error instanceof StravaSegmentDetailError ? error : undefined;
+    const status = detailError?.status;
+    if (!detailError) {
+      console.error('[StravaController] Segment detail storage failed:', error instanceof Error ? error.message : 'unknown error');
+      return res.status(503).json({ error: '路段详情数据库暂时不可用，请稍后重试。' });
+    }
+    console.warn('[StravaController] Segment detail failed:', detailError?.reason || (status ? `upstream HTTP ${status}` : 'connection or credentials error'));
+    if (detailError?.reason === 'application_inactive') return res.status(503).json({ error: 'Strava 应用当前未激活，暂时无法获取路段详情。请联系应用管理员检查 Strava API 应用状态。' });
+    if (status === 401 || status === 403) return res.status(503).json({ error: 'Strava 授权或应用权限不可用，请联系应用管理员检查配置。' });
+    if (status === 404) return res.status(404).json({ error: '未找到该路段或无权查看。' });
+    if (status === 429) return res.status(429).json({ error: 'Strava 请求次数已达上限，请稍后重试。' });
+    return res.status(502).json({ error: '暂时无法获取 Strava 路段详情，请稍后重试。' });
+  }
+}

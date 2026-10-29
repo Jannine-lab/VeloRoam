@@ -1,0 +1,16 @@
+import { strict as assert } from 'node:assert';
+import { calculateSegmentScore } from './segmentScore';
+const empty = { distanceKm: null, avgGrade: null, starCount: null, athleteCount: null, effortCount: null };
+assert.deepEqual(calculateSegmentScore(empty), { version: 'v1', total: null, popularity: null, distance: null, climbing: null, availableWeight: 0 });
+const noPopularity = calculateSegmentScore({ ...empty, distanceKm: 10, avgGrade: 0 });
+assert.equal(noPopularity.total, 60);
+assert.equal(noPopularity.popularity, null);
+assert.equal(noPopularity.availableWeight, 0.5);
+const zeroPopularity = calculateSegmentScore({ ...empty, starCount: 0 });
+assert.equal(zeroPopularity.popularity, 0);
+assert.equal(zeroPopularity.total, 0);
+const all = calculateSegmentScore({ distanceKm: 10, avgGrade: 8, starCount: 100, athleteCount: 1000, effortCount: 5000 });
+assert.equal(all.total, 100);
+assert.equal(all.availableWeight, 1);
+assert.equal(calculateSegmentScore({ ...empty, distanceKm: -1, avgGrade: NaN }).total, null);
+console.log('segmentScore tests passed');

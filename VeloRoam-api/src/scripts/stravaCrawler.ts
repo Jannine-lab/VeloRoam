@@ -1,7 +1,13 @@
 import axios from 'axios';
 import { query } from '../config/db';
 import { decodePolyline } from '../utils/polyline';
-import { getStravaAccessToken } from '../services/stravaService';
+import {
+  calculateVeloRoamSegmentScore,
+  extractStravaNativeStats,
+  fetchStravaSegmentNativeStats,
+  getStravaAccessToken,
+  StravaNativeStats
+} from '../services/stravaService';
 
 // ==========================================================================
 // 1. Z-Scan 扫描网格空间划分参数 (支持全国 10 大核心骑行城市)
@@ -36,6 +42,30 @@ interface GridBounds {
   east: number;
 }
 
+export interface StravaCrawlerRunResult {
+  gridIndex: number;
+  cityName: string;
+  bounds: Omit<GridBounds, 'cityName'>;
+  fetchedCount: number;
+  upsertedCount: number;
+  nativeStatsAttempts: number;
+  startedAt: string;
+  finishedAt: string;
+}
+
+export interface StravaCrawlerStatus {
+  schedulerEnabled: boolean;
+  running: boolean;
+  currentGridIndex: number;
+  totalGrids: number;
+  nextGrid: GridBounds | null;
+  intervalMs: number;
+  lastStartedAt: string | null;
+  lastFinishedAt: string | null;
+  lastError: string | null;
+  lastResult: StravaCrawlerRunResult | null;
+}
+
 // 缓存生成的扫描网格序列
 const scanGrids: GridBounds[] = [];
 
@@ -55,36 +85,15 @@ for (const city of CITIES) {
 
 let currentGridIndex = 0;
 let crawlerTimer: NodeJS.Timeout | null = null;
+let crawlerSchedulerEnabled = false;
+let crawlerRunning = false;
+let lastStartedAt: string | null = null;
+let lastFinishedAt: string | null = null;
+let lastError: string | null = null;
+let lastResult: StravaCrawlerRunResult | null = null;
+const crawlerIntervalMs = 10000;
 
 console.log(`🧭 [Crawler] Generated MySQL Z-Scan grid pattern. Total grids for 10 cities: ${scanGrids.length}`);
-
-/**
- * 评分算法复刻 (与 stravaService 保持 100% 对齐)
- */
-function calculateCrawlerSegmentScore(seg: any): number {
-  let score = 0;
-  const distKm = (seg.distance || 0) / 1000;
-  score += distKm * 2; // 1km 得 2 分
-
-  if (seg.start_latlng && seg.end_latlng) {
-    const dLat = (seg.start_latlng[0] - seg.end_latlng[0]) * 111320;
-    const dLng = (seg.start_latlng[1] - seg.end_latlng[1]) * 111320 * Math.cos(seg.start_latlng[0] * Math.PI / 180);
-    const distStartEnd = Math.sqrt(dLat * dLat + dLng * dLng);
-    if (distStartEnd < 150) {
-      score += 15; // 闭环奖励 15 分
-    }
-  }
-
-  if (seg.avg_grade && seg.avg_grade > 0) {
-    score += seg.avg_grade * 3; // 坡度挑战得分
-  }
-
-  if (seg.climb_category) {
-    score += seg.climb_category * 5; // 爬坡级别加分
-  }
-
-  return score;
-}
 
 /**
  * 将 Encoded Polyline 解密并转换为 MySQL LINESTRING WKT 文本
@@ -101,10 +110,18 @@ function polylineToWktLineString(pointsStr: string): string {
 /**
  * 核心定时抓取同步任务
  */
-async function crawlNextGrid() {
-  if (scanGrids.length === 0) return;
+async function crawlNextGrid(scheduleNextRun: boolean): Promise<StravaCrawlerRunResult | null> {
+  if (scanGrids.length === 0 || crawlerRunning) return null;
 
   const bounds = scanGrids[currentGridIndex];
+  const gridIndex = currentGridIndex;
+  const startedAt = new Date().toISOString();
+  let fetchedCount = 0;
+  let upsertedCount = 0;
+  let nativeStatsAttempts = 0;
+  crawlerRunning = true;
+  lastStartedAt = startedAt;
+  lastError = null;
   console.log(`📡 [Crawler] MySQL scanning Grid [${currentGridIndex + 1}/${scanGrids.length}] (${bounds.cityName}): Bounds [S:${bounds.south}, W:${bounds.west}, N:${bounds.north}, E:${bounds.east}]`);
 
   try {
@@ -117,9 +134,14 @@ async function crawlNextGrid() {
     });
 
     const segments = response.data?.segments || [];
+    fetchedCount = segments.length;
     console.log(`🔌 [Crawler] Received ${segments.length} segments for this area.`);
 
     let insertedCount = 0;
+    const configuredNativeLimit = Number(process.env.STRAVA_CRAWLER_NATIVE_STATS_LIMIT ?? 0);
+    const nativeStatsLimit = Number.isFinite(configuredNativeLimit)
+      ? Math.max(0, Math.min(3, Math.floor(configuredNativeLimit)))
+      : 0;
 
     for (const seg of segments) {
       if (!seg.points || !seg.start_latlng || !seg.end_latlng) continue;
@@ -127,8 +149,18 @@ async function crawlNextGrid() {
       // 打印路段的城市名称、路段名以及经纬度信息
       console.log(`   - 🗺️ [Segment Log] City: ${bounds.cityName}, Name: "${seg.name}", StartLatLng: [${seg.start_latlng.join(', ')}], EndLatLng: [${seg.end_latlng.join(', ')}]`);
 
-      const score = calculateCrawlerSegmentScore(seg);
+      const score = calculateVeloRoamSegmentScore(seg);
       const wktGeom = polylineToWktLineString(seg.points);
+      let nativeStats: StravaNativeStats | null = extractStravaNativeStats(seg);
+
+      if (!nativeStats && nativeStatsAttempts < nativeStatsLimit) {
+        nativeStatsAttempts++;
+        try {
+          nativeStats = await fetchStravaSegmentNativeStats(Number(seg.id), accessToken);
+        } catch (nativeStatsError: any) {
+          console.warn(`[Crawler] Native stats enrichment failed for segment ${seg.id}: ${nativeStatsError.message}`);
+        }
+      }
 
       if (!wktGeom) continue;
 
@@ -136,9 +168,10 @@ async function crawlNextGrid() {
       const upsertSql = `
         INSERT INTO strava_segments (
           id, name, distance_km, avg_grade, climb_category, raw_score,
+          star_count, athlete_count, effort_count, strava_stats_updated_at,
           start_lat, start_lng, end_lat, end_lng, geom, updated_at
         ) VALUES (
-          ?, ?, ?, ?, ?, ?, ?, ?, ?, ?,
+          ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?,
           ST_GeomFromText(?, 4326), CURRENT_TIMESTAMP
         )
         ON DUPLICATE KEY UPDATE
@@ -147,6 +180,10 @@ async function crawlNextGrid() {
           avg_grade = VALUES(avg_grade),
           climb_category = VALUES(climb_category),
           raw_score = VALUES(raw_score),
+          star_count = COALESCE(VALUES(star_count), star_count),
+          athlete_count = COALESCE(VALUES(athlete_count), athlete_count),
+          effort_count = COALESCE(VALUES(effort_count), effort_count),
+          strava_stats_updated_at = COALESCE(VALUES(strava_stats_updated_at), strava_stats_updated_at),
           geom = VALUES(geom),
           updated_at = CURRENT_TIMESTAMP;
       `;
@@ -158,6 +195,10 @@ async function crawlNextGrid() {
         parseFloat((seg.avg_grade || 0).toFixed(2)),
         seg.climb_category || 0,
         parseFloat(score.toFixed(2)),
+        nativeStats?.starCount ?? null,
+        nativeStats?.athleteCount ?? null,
+        nativeStats?.effortCount ?? null,
+        nativeStats?.stravaStatsUpdatedAt ? new Date(nativeStats.stravaStatsUpdatedAt) : null,
         seg.start_latlng[0],
         seg.start_latlng[1],
         seg.end_latlng[0],
@@ -171,36 +212,96 @@ async function crawlNextGrid() {
       console.log(`💾 [Crawler] Upserted ${insertedCount} segments successfully into MySQL table.`);
     }
 
+    upsertedCount = insertedCount;
+    const finishedAt = new Date().toISOString();
+    lastResult = {
+      gridIndex,
+      cityName: bounds.cityName,
+      bounds: {
+        south: bounds.south,
+        west: bounds.west,
+        north: bounds.north,
+        east: bounds.east
+      },
+      fetchedCount,
+      upsertedCount,
+      nativeStatsAttempts,
+      startedAt,
+      finishedAt
+    };
+    return lastResult;
+
   } catch (error: any) {
+    lastError = error.message;
     console.error(`❌ [Crawler] Synchronizer execution failed in Grid ${currentGridIndex + 1}:`, error.message);
+    return null;
   } finally {
     // 平移网格指针，到末尾后自动重置回 0 形成闭环循环
     currentGridIndex = (currentGridIndex + 1) % scanGrids.length;
+    crawlerRunning = false;
+    lastFinishedAt = new Date().toISOString();
 
     // 🚀 严格的 10 秒速率限制自递归，彻底避免被 Strava 限流惩罚
-    crawlerTimer = setTimeout(crawlNextGrid, 10000);
+    if (scheduleNextRun && crawlerSchedulerEnabled) {
+      crawlerTimer = setTimeout(() => {
+        crawlerTimer = null;
+        void crawlNextGrid(true);
+      }, crawlerIntervalMs);
+    }
   }
 }
 
 /**
  * 启动爬虫
  */
-export function startStravaCrawler() {
-  if (crawlerTimer) {
+export function startStravaCrawler(): boolean {
+  if (crawlerSchedulerEnabled || crawlerRunning) {
     console.warn('⚠️ [Crawler] Crawler process is already running.');
-    return;
+    return false;
   }
+  crawlerSchedulerEnabled = true;
   console.log('🚀 [Crawler] Spawning auto grid synchronization crawler (10s intervals)...');
-  crawlNextGrid();
+  void crawlNextGrid(true);
+  return true;
 }
 
 /**
  * 停止爬虫
  */
-export function stopStravaCrawler() {
+export function stopStravaCrawler(): boolean {
+  const wasEnabled = crawlerSchedulerEnabled || crawlerTimer !== null;
+  crawlerSchedulerEnabled = false;
   if (crawlerTimer) {
     clearTimeout(crawlerTimer);
     crawlerTimer = null;
-    console.log('🛑 [Crawler] Grid crawling synchronizer has been stopped.');
   }
+  console.log('🛑 [Crawler] Grid crawling synchronizer has been stopped.');
+  return wasEnabled;
+}
+
+/**
+ * 手动抓取当前网格一次，不开启循环定时任务。
+ */
+export function triggerStravaCrawlerRunOnce(): boolean {
+  if (crawlerRunning || crawlerSchedulerEnabled) {
+    return false;
+  }
+
+  void crawlNextGrid(false);
+  return true;
+}
+
+export function getStravaCrawlerStatus(): StravaCrawlerStatus {
+  return {
+    schedulerEnabled: crawlerSchedulerEnabled,
+    running: crawlerRunning,
+    currentGridIndex,
+    totalGrids: scanGrids.length,
+    nextGrid: scanGrids[currentGridIndex] || null,
+    intervalMs: crawlerIntervalMs,
+    lastStartedAt,
+    lastFinishedAt,
+    lastError,
+    lastResult
+  };
 }

@@ -1,0 +1,27 @@
+-- Store the full response alongside commonly queried detail fields.
+CREATE TABLE IF NOT EXISTS strava_segment_details (
+  segment_id BIGINT NOT NULL PRIMARY KEY,
+  name VARCHAR(255) NULL,
+  activity_type VARCHAR(32) NULL,
+  distance_m DOUBLE NULL,
+  average_grade DOUBLE NULL,
+  maximum_grade DOUBLE NULL,
+  elevation_high_m DOUBLE NULL,
+  elevation_low_m DOUBLE NULL,
+  total_elevation_gain_m DOUBLE NULL,
+  climb_category INT NULL,
+  city VARCHAR(255) NULL,
+  state VARCHAR(255) NULL,
+  country VARCHAR(255) NULL,
+  is_private BOOLEAN NULL,
+  hazardous BOOLEAN NULL,
+  star_count BIGINT UNSIGNED NULL,
+  athlete_count BIGINT UNSIGNED NULL,
+  effort_count BIGINT UNSIGNED NULL,
+  strava_created_at DATETIME NULL,
+  strava_updated_at DATETIME NULL,
+  raw_detail JSON NOT NULL,
+  fetched_at DATETIME NOT NULL DEFAULT CURRENT_TIMESTAMP,
+  INDEX idx_detail_fetched_at (fetched_at),
+  INDEX idx_detail_popularity (athlete_count, star_count)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;

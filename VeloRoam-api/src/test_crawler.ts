@@ -20,6 +20,9 @@ async function runLocalVerification() {
       avgGrade: 1.2,
       climbCategory: 0,
       rawScore: 88.5,
+      starCount: 120,
+      athleteCount: 840,
+      effortCount: 2650,
       startLatLng: [31.0384, 121.3482] as [number, number],
       endLatLng: [31.0450, 121.3520] as [number, number],
       points: 'mem|DyyscVhAnGv@hFVlA~C~QZ`B`C' // 简易 mock polyline
@@ -33,14 +36,19 @@ async function runLocalVerification() {
     const upsertSql = `
       INSERT INTO strava_segments (
         id, name, distance_km, avg_grade, climb_category, raw_score,
+        star_count, athlete_count, effort_count, strava_stats_updated_at,
         start_lat, start_lng, end_lat, end_lng, geom, updated_at
       ) VALUES (
-        ?, ?, ?, ?, ?, ?, ?, ?, ?, ?,
+        ?, ?, ?, ?, ?, ?, ?, ?, ?, CURRENT_TIMESTAMP, ?, ?, ?, ?,
         ST_GeomFromText(?, 4326), CURRENT_TIMESTAMP
       )
       ON DUPLICATE KEY UPDATE
         name = VALUES(name),
         raw_score = VALUES(raw_score),
+        star_count = VALUES(star_count),
+        athlete_count = VALUES(athlete_count),
+        effort_count = VALUES(effort_count),
+        strava_stats_updated_at = VALUES(strava_stats_updated_at),
         geom = VALUES(geom),
         updated_at = CURRENT_TIMESTAMP;
     `;
@@ -52,6 +60,9 @@ async function runLocalVerification() {
       testSegment.avgGrade,
       testSegment.climbCategory,
       testSegment.rawScore,
+      testSegment.starCount,
+      testSegment.athleteCount,
+      testSegment.effortCount,
       testSegment.startLatLng[0],
       testSegment.startLatLng[1],
       testSegment.endLatLng[0],
@@ -64,7 +75,7 @@ async function runLocalVerification() {
     // 覆盖测试段的 bbox polygon
     const polygonWkt = 'POLYGON((121.3 31.0, 121.3 31.1, 121.4 31.1, 121.4 31.0, 121.3 31.0))';
     const searchSql = `
-      SELECT id, name, raw_score, ST_AsText(geom) as wktGeom
+      SELECT id, name, raw_score, star_count, athlete_count, effort_count, ST_AsText(geom) as wktGeom
       FROM strava_segments
       WHERE MBRIntersects(geom, ST_GeomFromText(?, 4326))
       LIMIT 5;

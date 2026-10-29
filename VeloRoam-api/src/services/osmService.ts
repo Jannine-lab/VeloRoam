@@ -9,6 +9,46 @@ export interface OsmFeatures {
   scenicSpots: LatLng[]; // 绿地及水体中心点集
 }
 
+export interface TrafficSignalResult {
+  signals: LatLng[];
+  available: boolean;
+}
+
+const signalCache = new Map<string, { value: TrafficSignalResult; expiresAt: number }>();
+
+export async function fetchTrafficSignals(points: LatLng[]): Promise<TrafficSignalResult> {
+  if (points.length === 0) return { signals: [], available: false };
+
+  const { south, west, north, east } = getBoundingBox(points, 0.001);
+  const cacheKey = [south, west, north, east].join(',');
+  const cached = signalCache.get(cacheKey);
+  if (cached && cached.expiresAt > Date.now()) return cached.value;
+
+  const query = `[out:json][timeout:6];node["highway"="traffic_signals"](${south},${west},${north},${east});out body;`;
+  try {
+    const response = await axios.post(
+      process.env.OSM_TRAFFIC_SIGNAL_OVERPASS_URL || 'https://overpass-api.de/api/interpreter',
+      `data=${encodeURIComponent(query)}`,
+      { headers: { 'Content-Type': 'application/x-www-form-urlencoded' }, timeout: 7000 }
+    );
+    if (!Array.isArray(response.data?.elements)) throw new Error('Invalid Overpass response');
+
+    const signals = response.data.elements
+      .filter((node: any) => Number.isFinite(node.lat) && Number.isFinite(node.lon))
+      .map((node: any) => ({ lat: node.lat as number, lng: node.lon as number }));
+    const value = { signals, available: true };
+    signalCache.set(cacheKey, { value, expiresAt: Date.now() + 15 * 60 * 1000 });
+    if (signalCache.size > 32) signalCache.delete(signalCache.keys().next().value as string);
+    return value;
+  } catch (error: any) {
+    console.warn(`[OsmService] Traffic signal lookup failed: ${error.message}`);
+    const unavailable = { signals: [], available: false };
+    signalCache.set(cacheKey, { value: unavailable, expiresAt: Date.now() + 30 * 1000 });
+    if (signalCache.size > 32) signalCache.delete(signalCache.keys().next().value as string);
+    return unavailable;
+  }
+}
+
 /**
  * 依据一组经纬度坐标集计算 Bounding Box (附带安全 padding)
  */
