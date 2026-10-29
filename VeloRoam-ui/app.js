@@ -13,10 +13,23 @@ const API_BASE_URL = window.location.protocol === 'https:' && !detectedApiHost.i
   ? `https://${detectedApiHost}/api`
   : `http://${detectedApiHost}/api`;
 
+const CARTO_BASEMAP_KEY = 'cb1_48j3_1_41026acd7b8849228daa74f1';
+const CARTO_ATTRIBUTION = '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors &copy; <a href="https://carto.com/attributions">CARTO</a>';
+const getCartoTileUrl = (style) => `https://{s}.basemaps.cartocdn.com/rastertiles/${style}/{z}/{x}/{y}{r}.png?key=${CARTO_BASEMAP_KEY}`;
+const MAP_THEMES = [
+  { id: 'dark', tile: 'dark_all', label: '黑底' },
+  { id: 'light', tile: 'light_all', label: '白底' },
+  { id: 'voyager', tile: 'voyager', label: '彩色' }
+];
+const MAP_THEME_STORAGE_KEY = 'veloroam-map-theme';
+
+// 热门点位展示暂时关闭。保留完整实现，后续改为 true 即可恢复。
+const HOT_POINT_DISPLAY_ENABLED = false;
+
 // 全局状态管理
 let map = null;
 let mapTileLayer = null;
-let currentTheme = 'dark'; // 'dark' 或 'light'
+let currentTheme = 'dark'; // 'dark', 'light' 或 'voyager'
 let elevationChart = null;
 let routeData = null;
 let routeDataList = [];
@@ -29,6 +42,14 @@ let stravaGroup = null;
 let hotPointGroup = null;
 let hotPointHeatmapLayer = null;
 let scrubbedRiderMarker = null;
+let locationSearchMarker = null;
+let locationSearchResultsCache = [];
+let locationSearchRequestId = 0;
+let selectedPlace = null;
+let placeRouteActive = false;
+let placeRouteLayer = null;
+let placeRouteRequest = null;
+let placeRouteRequestId = 0;
 let loadedStravaSegments = new Map(); // 缓存和去重当前渲染在地图上的 Strava 路段 (ID -> Group)
 let loadedHotPoints = new Map();      // 缓存当前视口已渲染的热门点位 (ID -> Marker)
 let minScoreFilter = 50;              // 评分筛选阈值 (随 Zoom 动态变化)
@@ -36,11 +57,37 @@ const allFetchedSegments = new Map(); // 全局记录该会话抓取到的所有
 const allFetchedHotPoints = new Map();// 全局记录该会话抓取到的热门点位数据 (ID -> HotPoint)
 let selectedSegmentId = null;         // 当前选中正在查看的路段 ID (用于未选路段淡化)
 let selectedHotPointId = null;        // 当前选中点位 ID
+let hotPointHeatmapEnabled = HOT_POINT_DISPLAY_ENABLED; // 热门点位热力图图层开关
+let hotPointHeatmapLegendTimer = null;// 热力图图例短暂提示计时器
+let hotPointHeatmapLegendEligible = false;
+let hotPointHeatmapLegendInitialDelayTimer = null;
+let hotPointHeatmapLegendInitialDelayActive = true;
+const HOTPOINT_HEATMAP_LEGEND_INITIAL_DELAY_MS = 5000;
+const HOTPOINT_HEATMAP_LEGEND_VISIBLE_MS = 5000;
+const HOME_RECOMMENDATIONS_ENABLED = false; // 暂时停用首页推荐路线
+const HOME_RECOMMENDATION_MIN_ZOOM = 15;
+let homeRecommendationRequestId = 0;
+let homeRecommendationSearchOpen = false;
+let homeRecommendationSegments = [];
+let homeRecommendationSelected = null;
+let homeRecommendationRouteLayer = null;
+let homeRecommendationRouteRequest = null;
+const homeRecommendationRouteCache = new Map();
 
 
 
 // 规划坐标状态 (经纬度，不再直接呈现在输入框中)
 let origin = null;        // 起点默认空，等待 GPS 定位或手动输入
+let originLocationSource = 'unknown';
+let originGpsTimestamp = 0;
+let ideaGreetingLocation = null;
+let resolveIdeaLocationReady;
+const ideaLocationReady = new Promise(resolve => { resolveIdeaLocationReady = resolve; });
+function setIdeaGreetingLocation(location, source, city = '') {
+  ideaGreetingLocation = location ? { location, source, city, recordedAt: Date.now() } : null;
+  resolveIdeaLocationReady();
+}
+
 let destination = null;   // 终点默认空，默认不要有终点
 let waypoints = [];       // 动态途经点对象数组: [{ coord: {lat, lng}, name: "显示名称" }]
 
@@ -92,6 +139,18 @@ const PRESET_LOOPS = {
 // 1. 初始化应用与地图
 // ==========================================================================
 document.addEventListener('DOMContentLoaded', () => {
+  setTimeout(() => {
+    if (startupLocationComplete) return;
+    startupVisibleAt = performance.now();
+    document.getElementById('startup-location-status')?.classList.add('is-visible');
+  }, 1000);
+  try {
+    const savedTheme = localStorage.getItem(MAP_THEME_STORAGE_KEY);
+    if (MAP_THEMES.some(theme => theme.id === savedTheme)) currentTheme = savedTheme;
+  } catch (error) {
+    console.warn('无法读取地图样式偏好：', error);
+  }
+  syncMapThemeUI();
   initMap();
   bindEvents();
 
@@ -106,35 +165,83 @@ function initMap() {
   // 初始化 Leaflet 地图，默认视角设在上海人民广场
   map = L.map('map', {
     zoomControl: false, // 隐藏 Leaflet 默认的 zoom 键，使用我们高颜值的悬浮键
-    attributionControl: false
+    attributionControl: true
   }).setView([31.2304, 121.4737], 12);
+  // Planned routes stay above exploratory map overlays and their click targets.
+  map.createPane('plannedRoutes');
+  map.getPane('plannedRoutes').style.zIndex = '625';
+  map.attributionControl.setPosition('topleft');
+  map.attributionControl.setPrefix(false);
 
-  // 加载 CartoDB 极简黑夜图层
-  mapTileLayer = L.tileLayer('https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png', {
+  // 加载当前选择的 CARTO 底图
+  mapTileLayer = L.tileLayer(getCartoTileUrl(MAP_THEMES.find(theme => theme.id === currentTheme).tile), {
     maxZoom: 19,
-    subdomains: 'abcd'
+    subdomains: 'abcd',
+    attribution: CARTO_ATTRIBUTION
   }).addTo(map);
 
   markerGroup = L.layerGroup().addTo(map);
   polylineGroup = L.layerGroup().addTo(map);
   stravaGroup = L.layerGroup().addTo(map);
-  hotPointHeatmapLayer = createHotPointHeatmapLayer().addTo(map);
-  hotPointGroup = L.layerGroup().addTo(map);
+  homeRecommendationRouteLayer = L.layerGroup().addTo(map);
+  placeRouteLayer = L.layerGroup().addTo(map);
+  if (HOT_POINT_DISPLAY_ENABLED) {
+    hotPointHeatmapLayer = createHotPointHeatmapLayer().addTo(map);
+    hotPointGroup = L.layerGroup().addTo(map);
+    scheduleInitialHotPointHeatmapLegendReveal();
+  }
 
   // 绑定地图视口变动事件（平移和缩放结束后，静默刷新 Strava 路段数据）
   map.on('moveend', () => {
-    fetchStravaSegmentsSilently();
-    fetchHotPointsSilently();
+    const recommendationRequestId = ++homeRecommendationRequestId;
+    homeRecommendationRouteRequest?.abort();
+    syncHomeRecommendationVisibility();
+    if (placeRouteActive) return;
+    if (isHomeRecommendationEligible()) {
+      homeRecommendationRouteLayer?.clearLayers();
+      renderHomeRecommendationMessage('正在查找附近路段', getHomeOriginLabel());
+      if (map.getZoom() > 16) fetchDeepZoomHomeRecommendations(recommendationRequestId);
+    } else {
+      homeRecommendationRouteLayer?.clearLayers();
+    }
+    fetchStravaSegmentsSilently(false, recommendationRequestId);
+    if (HOT_POINT_DISPLAY_ENABLED) fetchHotPointsSilently();
   });
 
   map.on('zoomend', () => {
-    redrawCachedHotPoints();
+    if (HOT_POINT_DISPLAY_ENABLED) redrawCachedHotPoints();
+    syncHomeRecommendationVisibility();
   });
 }
 
 /**
  * 启动时获取 HTML5 GPS 当前定位，若在移动端 HTTP 等非安全环境下，则通过 IP 定位或默认上海作为优雅兜底
  */
+let startupLocationComplete = false;
+let startupVisibleAt = 0;
+function finishStartupLocation() {
+  if (startupLocationComplete) return;
+  startupLocationComplete = true;
+  const status = document.getElementById('startup-location-status');
+  if (!status) return;
+  if (!startupVisibleAt) { status.hidden = true; return; }
+  const reducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+  const waitForEntry = reducedMotion ? 0 : Math.max(0, 600 - (performance.now() - startupVisibleAt));
+  setTimeout(() => {
+    status.classList.remove('is-visible');
+    status.classList.add('is-complete');
+    status.setAttribute('aria-hidden', 'true');
+    setTimeout(() => { status.hidden = true; }, reducedMotion ? 0 : 500);
+  }, waitForEntry);
+}
+
+async function fetchLocationWithTimeout(url) {
+  const controller = new AbortController();
+  const timer = setTimeout(() => controller.abort(), 6000);
+  try { return await fetch(url, { signal: controller.signal }); }
+  finally { clearTimeout(timer); }
+}
+
 function initializeLocation() {
   const defaultShanghai = { lat: 31.2304, lng: 121.4737 };
   const defaultName = '上海人民广场';
@@ -146,21 +253,25 @@ function initializeLocation() {
     try {
       // 使用支持 HTTP/HTTPS 双协议的免费 IP 定位服务
       const protocol = window.location.protocol === 'https:' ? 'https:' : 'http:';
-      const ipRes = await fetch(`${protocol}//ip-api.com/json?lang=zh-CN`).catch(() => null);
-      
+      const ipRes = await fetchLocationWithTimeout(`${protocol}//ip-api.com/json?lang=zh-CN`).catch(() => null);
+
       if (ipRes && ipRes.ok) {
         const ipData = await ipRes.json();
         if (ipData && ipData.status === 'success' && ipData.lat && ipData.lon) {
           const lat = ipData.lat;
           const lng = ipData.lon;
           origin = { lat, lng };
-          
+          originLocationSource = 'ip';
+
           const cityName = ipData.city || ipData.regionName || '上海市';
           document.getElementById('origin-input').value = cityName;
-          
+          setIdeaGreetingLocation({ lat, lng }, 'ip', ipData.city || ipData.regionName || '');
+
           console.log(`📍 IP 定位解析成功: ${cityName} (${lat}, ${lng})`);
           map.flyTo([lat, lng], 13, { animate: true, duration: 1.5 });
           drawSingleMarker('origin', origin, cityName);
+          syncPlaceDetailsVisibility();
+          finishStartupLocation();
           return;
         }
       }
@@ -170,9 +281,13 @@ function initializeLocation() {
 
     // 终极默认兜底：上海人民广场
     origin = defaultShanghai;
+    originLocationSource = 'default';
+    setIdeaGreetingLocation(null, 'default');
     document.getElementById('origin-input').value = defaultName;
     map.flyTo([defaultShanghai.lat, defaultShanghai.lng], 13, { animate: true, duration: 1.5 });
     drawSingleMarker('origin', origin, defaultName);
+    syncPlaceDetailsVisibility();
+    finishStartupLocation();
   };
 
   // 只有在安全上下文（HTTPS 或 localhost）中才能正常调用 HTML5 GPS Geolocation API
@@ -185,11 +300,14 @@ function initializeLocation() {
         const lng = position.coords.longitude;
 
         origin = { lat, lng };
+        originLocationSource = 'gps';
+        originGpsTimestamp = Date.now();
+        setIdeaGreetingLocation({ lat, lng }, 'gps');
         map.flyTo([lat, lng], 13, { animate: true, duration: 1.5 });
 
         // 🚀 使用我们高能的高德地图逆解析后端代理路由，瞬间返回秒级地名
         try {
-          const res = await fetch(`${API_BASE_URL}/routes/reverse-geocode?lat=${lat}&lng=${lng}`);
+          const res = await fetchLocationWithTimeout(`${API_BASE_URL}/routes/reverse-geocode?lat=${lat}&lng=${lng}`);
           if (res.ok) {
             const data = await res.json();
             document.getElementById('origin-input').value = data.address;
@@ -203,6 +321,8 @@ function initializeLocation() {
 
         // 默认不要有终点，不自动规划，只绘制起点的地图标记
         drawSingleMarker('origin', origin, document.getElementById('origin-input').value);
+        syncPlaceDetailsVisibility();
+        finishStartupLocation();
       },
       (error) => {
         fallbackToIpOrShanghai(`GPS 获取被拒绝或超时: ${error.message}`);
@@ -233,6 +353,10 @@ function drawSingleMarker(type, coord, popupText) {
 }
 
 function bindEvents() {
+  bindLocationSearchEvents();
+  bindPlaceDetailsEvents();
+  bindHomeRecommendationEvents();
+
   // "生成路线" 按钮
   document.getElementById('btn-calculate').addEventListener('click', () => calculateRoute(true));
 
@@ -248,6 +372,10 @@ function bindEvents() {
   // 右侧悬浮功能键绑定
   document.getElementById('btn-toggle-theme').addEventListener('click', toggleMapTheme);
   document.getElementById('btn-recenter').addEventListener('click', initializeLocation);
+  const heatmapToggleBtn = document.getElementById('btn-toggle-hotpoint-heatmap');
+  if (HOT_POINT_DISPLAY_ENABLED && heatmapToggleBtn) {
+    heatmapToggleBtn.addEventListener('click', toggleHotPointHeatmap);
+  }
 
   // "返回修改" 按钮
   document.getElementById('btn-back-to-planner').addEventListener('click', showPlannerView);
@@ -268,16 +396,6 @@ function bindEvents() {
     }
   });
 
-  // 绑定 Strava 底部详情面板关闭事件
-  const closeStravaBtn = document.getElementById('btn-close-strava-panel');
-  if (closeStravaBtn) {
-    closeStravaBtn.addEventListener('click', () => {
-      const stravaPanel = document.getElementById('strava-details-panel');
-      if (stravaPanel) stravaPanel.classList.remove('active');
-      restoreAllSegmentsOpacity();
-    });
-  }
-
   const closeHotPointBtn = document.getElementById('btn-close-hotpoint-panel');
   if (closeHotPointBtn) {
     closeHotPointBtn.addEventListener('click', () => {
@@ -288,14 +406,7 @@ function bindEvents() {
   // 点击 Leaflet 地图空白处时，自动收起 Strava 底部详情面板并恢复其余路段透明度
   if (map) {
     map.on('click', () => {
-      const stravaPanel = document.getElementById('strava-details-panel');
-      if (stravaPanel) {
-        if (stravaPanel.classList.contains('active')) {
-          stravaPanel.classList.remove('active');
-          restoreAllSegmentsOpacity();
-        }
-      }
-
+      closeStravaSegmentDetails();
       closeHotPointDetails();
     });
 
@@ -515,20 +626,18 @@ function bindEvents() {
 }
 
 /**
- * 切换黑夜/白天地图图层风格
+ * 按黑底、白底、彩色的顺序切换地图风格
  */
 function toggleMapTheme() {
-  const body = document.body;
-  if (currentTheme === 'dark') {
-    mapTileLayer.setUrl('https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png');
-    currentTheme = 'light';
-    body.classList.add('light-theme');
-    console.log('☀️ Map Theme switched to Light Mode.');
-  } else {
-    mapTileLayer.setUrl('https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png');
-    currentTheme = 'dark';
-    body.classList.remove('light-theme');
-    console.log('🌙 Map Theme switched to Dark Mode.');
+  const nextIndex = (MAP_THEMES.findIndex(theme => theme.id === currentTheme) + 1) % MAP_THEMES.length;
+  const theme = MAP_THEMES[nextIndex];
+  currentTheme = theme.id;
+  mapTileLayer.setUrl(getCartoTileUrl(theme.tile));
+  syncMapThemeUI();
+  try {
+    localStorage.setItem(MAP_THEME_STORAGE_KEY, currentTheme);
+  } catch (error) {
+    console.warn('无法保存地图样式偏好：', error);
   }
 
   // 刷新高度图以同步最新的网格线及指示器颜色
@@ -537,17 +646,55 @@ function toggleMapTheme() {
   }
 }
 
+function syncMapThemeUI() {
+  const index = MAP_THEMES.findIndex(theme => theme.id === currentTheme);
+  const theme = MAP_THEMES[index];
+  document.body.classList.toggle('light-theme', currentTheme !== 'dark');
+  const button = document.getElementById('btn-toggle-theme');
+  const label = `当前${theme.label}地图，切换到${MAP_THEMES[(index + 1) % MAP_THEMES.length].label}地图`;
+  button.title = label;
+  button.setAttribute('aria-label', label);
+}
+
+function toggleHotPointHeatmap() {
+  hotPointHeatmapEnabled = !hotPointHeatmapEnabled;
+  updateHotPointHeatmapButton();
+
+  if (!hotPointHeatmapEnabled && hotPointHeatmapLayer) {
+    hotPointHeatmapLayer.clear();
+  }
+
+  redrawCachedHotPoints();
+  if (hotPointHeatmapEnabled) {
+    syncHotPointHeatmapLegend({ reveal: true });
+  }
+}
+
+function updateHotPointHeatmapButton() {
+  const btn = document.getElementById('btn-toggle-hotpoint-heatmap');
+  if (!btn) {
+    syncHotPointHeatmapLegend();
+    return;
+  }
+
+  btn.classList.toggle('active', hotPointHeatmapEnabled);
+  btn.title = hotPointHeatmapEnabled ? '关闭热门点位热力图' : '开启热门点位热力图';
+  btn.setAttribute('aria-pressed', hotPointHeatmapEnabled ? 'true' : 'false');
+  btn.setAttribute('aria-label', hotPointHeatmapEnabled ? '关闭热门点位热力图' : '开启热门点位热力图');
+  syncHotPointHeatmapLegend();
+}
+
 /**
  * 根据地图缩放等级动态返回路段最低筛选评分，减少用户手动操作
- * - Zoom <= 11: 过滤评分 >= 70
- * - Zoom === 12: 过滤评分 >= 50
- * - Zoom === 13: 过滤评分 >= 30
- * - Zoom >= 14: 过滤评分 >= 0 (显示所有路段)
+ * - Zoom <= 10: 过滤评分 >= 70
+ * - Zoom === 11: 过滤评分 >= 50
+ * - Zoom === 12: 过滤评分 >= 30
+ * - Zoom >= 13: 过滤评分 >= 0 (显示所有路段)
  */
 function getMinScoreForZoom(zoom) {
-  if (zoom <= 11) return 70;
-  if (zoom === 12) return 50;
-  if (zoom === 13) return 30;
+  if (zoom <= 10) return 70;
+  if (zoom === 11) return 50;
+  if (zoom === 12) return 30;
   return 0;
 }
 
@@ -626,6 +773,26 @@ function restoreAllSegmentsOpacity() {
   toRemove.forEach(id => loadedStravaSegments.delete(id));
 }
 
+let stravaDetailRequest = null;
+let stravaDetailTrigger = null;
+
+function closeStravaSegmentDetails(shouldRestoreSegments = true) {
+  stravaDetailRequest?.abort();
+  stravaDetailRequest = null;
+  const panel = document.getElementById('strava-details-panel');
+  const hadSelection = selectedSegmentId !== null;
+
+  if (panel?.classList.contains('active')) {
+    panel.classList.remove('active');
+    document.dispatchEvent(new CustomEvent('strava-detail-change', { detail: { open: false } }));
+  }
+
+  if (shouldRestoreSegments && hadSelection) {
+    restoreAllSegmentsOpacity();
+  }
+  syncHomeRecommendationVisibility();
+}
+
 /**
  * 清理地图上所有未选中的路段图层及缓存，保留选中高亮的路段
  */
@@ -645,10 +812,12 @@ function clearUnselectedSegments() {
 // ==========================================================================
 function debounce(func, delay) {
   let timer;
-  return function (...args) {
+  const debounced = function (...args) {
     clearTimeout(timer);
     timer = setTimeout(() => func.apply(this, args), delay);
   };
+  debounced.cancel = () => clearTimeout(timer);
+  return debounced;
 }
 
 async function autocompleteSearch(query, type, index = null) {
@@ -695,7 +864,9 @@ async function autocompleteSearch(query, type, index = null) {
 
         if (type === 'origin') {
           origin = coord;
+          originLocationSource = 'manual';
           inputEl.value = shortName;
+          if (isHomeRecommendationEligible()) requestHomeRecommendations(true);
         } else if (type === 'destination') {
           destination = coord;
           inputEl.value = shortName;
@@ -717,6 +888,343 @@ async function autocompleteSearch(query, type, index = null) {
 }
 
 // ==========================================================================
+// 2.1 底部位置搜索（只定位地图，不创建路线或启动导航）
+// ==========================================================================
+function bindLocationSearchEvents() {
+  const input = document.getElementById('location-search-input');
+  const clearButton = document.getElementById('location-search-clear');
+  const dock = document.getElementById('location-search-dock');
+  if (!input || !clearButton || !dock) return;
+
+  const debouncedSearch = debounce((query) => {
+    searchLocationAddress(query);
+  }, 300);
+
+  input.addEventListener('input', () => {
+    if (placeRouteActive) {
+      homeRecommendationSearchOpen = true;
+      clearSelectedPlace();
+    }
+    const query = input.value.trim();
+    locationSearchRequestId++;
+    locationSearchResultsCache = [];
+    hideLocationSearchResults();
+    clearButton.hidden = query.length === 0;
+    debouncedSearch(query);
+  });
+
+  input.addEventListener('keydown', (event) => {
+    if (event.key === 'Enter') {
+      event.preventDefault();
+      debouncedSearch.cancel();
+      const query = input.value.trim();
+      if (locationSearchResultsCache.length > 0) {
+        focusMapOnSearchResult(locationSearchResultsCache[0]);
+      } else if (query) {
+        searchLocationAddress(query, { selectFirst: true });
+      }
+    } else if (event.key === 'Escape') {
+      hideLocationSearchResults();
+      input.blur();
+      if (homeRecommendationSearchOpen) {
+        homeRecommendationSearchOpen = false;
+        syncHomeRecommendationVisibility();
+      }
+    }
+  });
+
+  clearButton.addEventListener('click', () => {
+    debouncedSearch.cancel();
+    locationSearchRequestId++;
+    clearSelectedPlace();
+    input.value = '';
+    clearButton.hidden = true;
+    locationSearchResultsCache = [];
+    hideLocationSearchResults();
+    removeLocationSearchMarker();
+    updateLocationSearchStatus('搜索已清空');
+    input.focus();
+  });
+
+  document.addEventListener('click', (event) => {
+    if (!event.target.closest('#location-search-dock')) {
+      hideLocationSearchResults();
+    }
+  });
+}
+
+async function searchLocationAddress(query, options = {}) {
+  const resultsContainer = document.getElementById('location-search-results');
+  const normalizedQuery = query.trim();
+  const currentRequestId = ++locationSearchRequestId;
+
+  if (!resultsContainer) return;
+  if (!normalizedQuery) {
+    locationSearchResultsCache = [];
+    hideLocationSearchResults();
+    return;
+  }
+
+  renderLocationSearchMessage('fa-spinner fa-spin', '正在搜索位置…', 'loading');
+
+  try {
+    const response = await fetch(`${API_BASE_URL}/routes/search-address?q=${encodeURIComponent(normalizedQuery)}`);
+    if (!response.ok) throw new Error(`Address search failed: ${response.status}`);
+
+    const results = await response.json();
+    if (currentRequestId !== locationSearchRequestId) return;
+
+    locationSearchResultsCache = Array.isArray(results)
+      ? results.filter(item => Number.isFinite(Number(item.lat)) && Number.isFinite(Number(item.lon)))
+      : [];
+
+    if (locationSearchResultsCache.length === 0) {
+      renderLocationSearchMessage('fa-circle-exclamation', '没有找到匹配的位置', 'empty');
+      updateLocationSearchStatus('没有找到匹配的位置');
+      return;
+    }
+
+    if (options.selectFirst) {
+      focusMapOnSearchResult(locationSearchResultsCache[0]);
+      return;
+    }
+
+    renderLocationSearchResults(locationSearchResultsCache);
+    updateLocationSearchStatus(`找到 ${locationSearchResultsCache.length} 个位置`);
+  } catch (error) {
+    if (currentRequestId !== locationSearchRequestId) return;
+    console.error('[LocationSearch] 地址搜索失败:', error);
+    locationSearchResultsCache = [];
+    renderLocationSearchMessage('fa-triangle-exclamation', '搜索暂时不可用，请稍后重试', 'error');
+    updateLocationSearchStatus('位置搜索失败');
+  }
+}
+
+function renderLocationSearchResults(results) {
+  const resultsContainer = document.getElementById('location-search-results');
+  if (!resultsContainer) return;
+
+  resultsContainer.replaceChildren();
+  results.forEach((item) => {
+    const resultButton = document.createElement('button');
+    resultButton.type = 'button';
+    resultButton.className = 'location-search-result';
+    resultButton.setAttribute('role', 'option');
+
+    const icon = document.createElement('i');
+    icon.className = 'fa-solid fa-location-dot';
+    icon.setAttribute('aria-hidden', 'true');
+
+    const text = document.createElement('span');
+    text.className = 'location-search-result-text';
+
+    const name = document.createElement('strong');
+    name.textContent = item.name || '未命名地点';
+
+    const address = document.createElement('small');
+    address.textContent = item.address || '暂无详细地址';
+
+    text.append(name, address);
+    resultButton.append(icon, text);
+    resultButton.addEventListener('click', () => focusMapOnSearchResult(item));
+    resultsContainer.appendChild(resultButton);
+  });
+
+  resultsContainer.classList.add('active');
+}
+
+function renderLocationSearchMessage(iconClass, message, state) {
+  const resultsContainer = document.getElementById('location-search-results');
+  if (!resultsContainer) return;
+
+  const messageRow = document.createElement('div');
+  messageRow.className = `location-search-message ${state}`;
+
+  const icon = document.createElement('i');
+  icon.className = `fa-solid ${iconClass}`;
+  icon.setAttribute('aria-hidden', 'true');
+
+  const label = document.createElement('span');
+  label.textContent = message;
+
+  messageRow.append(icon, label);
+  resultsContainer.replaceChildren(messageRow);
+  resultsContainer.classList.add('active');
+}
+
+function focusMapOnSearchResult(item) {
+  const input = document.getElementById('location-search-input');
+  const clearButton = document.getElementById('location-search-clear');
+  const lat = Number(item.lat);
+  const lng = Number(item.lon);
+  if (!map || !Number.isFinite(lat) || !Number.isFinite(lng)) return;
+
+  const displayName = item.name || item.address || '搜索位置';
+  locationSearchRequestId++;
+  clearSelectedPlace();
+  selectedPlace = { lat, lng, name: displayName, address: item.address || '' };
+  closeStravaSegmentDetails();
+  closeHotPointDetails();
+  if (input) input.value = displayName;
+  if (clearButton) clearButton.hidden = false;
+
+  hideLocationSearchResults();
+  removeLocationSearchMarker();
+
+  locationSearchMarker = L.marker([lat, lng], {
+    icon: L.divIcon({
+      className: 'location-search-map-icon',
+      html: '<div class="location-search-pin"><i class="fa-solid fa-location-dot"></i></div>',
+      iconSize: [42, 42],
+      iconAnchor: [21, 38]
+    }),
+    zIndexOffset: 800
+  }).addTo(map);
+
+  map.flyTo([lat, lng], Math.max(map.getZoom(), 16), {
+    animate: true,
+    duration: 1.1
+  });
+
+  homeRecommendationSearchOpen = false;
+  syncHomeRecommendationVisibility();
+  syncPlaceDetailsVisibility();
+  updateLocationSearchStatus(`已定位到 ${displayName}`);
+}
+
+function syncPlaceDetailsVisibility() {
+  const panel = document.getElementById('place-details-panel');
+  if (!panel) return;
+  const visible = Boolean(selectedPlace) && !placeRouteActive;
+  panel.hidden = !visible;
+  panel.classList.toggle('active', visible);
+  document.body.classList.toggle('place-selected-mode', visible);
+  if (visible) {
+    document.getElementById('place-details-title').textContent = selectedPlace.name;
+    document.getElementById('place-details-address').textContent = selectedPlace.address || '上海市';
+    const originName = document.getElementById('origin-input')?.value || '当前位置';
+    document.getElementById('place-details-origin').textContent = origin
+      ? `从${originName}出发${originLocationSource === 'ip' ? ' · IP 定位' : ''}`
+      : '正在获取当前位置';
+  }
+}
+
+function clearSelectedPlace() {
+  placeRouteRequestId++;
+  placeRouteRequest?.abort();
+  placeRouteRequest = null;
+  placeRouteActive = false;
+  selectedPlace = null;
+  placeRouteLayer?.clearLayers();
+  const button = document.getElementById('place-details-go');
+  if (button) {
+    button.disabled = false;
+    button.querySelector('span').textContent = '前往';
+  }
+  const message = document.getElementById('place-details-message');
+  if (message) message.hidden = true;
+  if (map && stravaGroup && !map.hasLayer(stravaGroup)) stravaGroup.addTo(map);
+  if (map && polylineGroup && !map.hasLayer(polylineGroup)) polylineGroup.addTo(map);
+  removeLocationSearchMarker();
+  syncPlaceDetailsVisibility();
+  syncHomeRecommendationVisibility();
+}
+
+function bindPlaceDetailsEvents() {
+  document.getElementById('place-details-close')?.addEventListener('click', () => {
+    clearSelectedPlace();
+    document.getElementById('location-search-input').value = '';
+    document.getElementById('location-search-clear').hidden = true;
+  });
+  document.getElementById('place-details-go')?.addEventListener('click', planRouteToSelectedPlace);
+}
+
+async function planRouteToSelectedPlace() {
+  if (!selectedPlace) return;
+  const message = document.getElementById('place-details-message');
+  const button = document.getElementById('place-details-go');
+  const buttonLabel = button.querySelector('span');
+  if (!origin) {
+    message.textContent = '正在获取当前位置，请稍后再试';
+    message.hidden = false;
+    return;
+  }
+
+  const requestId = ++placeRouteRequestId;
+  placeRouteRequest?.abort();
+  const controller = new AbortController();
+  placeRouteRequest = controller;
+  let timedOut = false;
+  const timeout = setTimeout(() => {
+    timedOut = true;
+    controller.abort();
+  }, 25000);
+  button.disabled = true;
+  buttonLabel.textContent = '规划中…';
+  message.textContent = '正在寻找红绿灯更少的骑行路线';
+  message.hidden = false;
+
+  try {
+    const response = await fetch(`${API_BASE_URL}/routes/plan-fewest-signals`, {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      signal: controller.signal,
+      body: JSON.stringify({
+        origin: { lat: Number(origin.lat), lng: Number(origin.lng) },
+        destination: { lat: selectedPlace.lat, lng: selectedPlace.lng }
+      })
+    });
+    if (!response.ok) throw new Error(`Route planning failed: ${response.status}`);
+    const route = await response.json();
+    if (requestId !== placeRouteRequestId) return;
+    if (!route.polyline || !Number.isFinite(Number(route.distanceKm))) throw new Error('Invalid route');
+
+    const points = decodePolyline(route.polyline);
+    if (points.length < 2) throw new Error('Invalid route geometry');
+    placeRouteLayer.clearLayers();
+    L.polyline(points, {
+      color: '#00e676', weight: 6, opacity: 0.96, lineCap: 'round', lineJoin: 'round',
+      interactive: false, pane: 'plannedRoutes', className: 'place-navigation-line'
+    }).addTo(placeRouteLayer);
+    if (map.hasLayer(stravaGroup)) map.removeLayer(stravaGroup);
+    if (map.hasLayer(polylineGroup)) map.removeLayer(polylineGroup);
+    if (map.hasLayer(homeRecommendationRouteLayer)) map.removeLayer(homeRecommendationRouteLayer);
+    placeRouteActive = true;
+    syncPlaceDetailsVisibility();
+    syncHomeRecommendationVisibility();
+    map.fitBounds(L.latLngBounds(points), { paddingTopLeft: [36, 70], paddingBottomRight: [36, 100] });
+    updateLocationSearchStatus(`骑行路线已规划，约 ${Number(route.distanceKm).toFixed(1)} 公里`);
+  } catch (error) {
+    if (requestId !== placeRouteRequestId) return;
+    message.textContent = timedOut ? '路线规划超时，请重试' : '路线规划暂不可用，请重试';
+    message.hidden = false;
+  } finally {
+    clearTimeout(timeout);
+    if (requestId === placeRouteRequestId) {
+      placeRouteRequest = null;
+      button.disabled = false;
+      buttonLabel.textContent = '前往';
+    }
+  }
+}
+
+function hideLocationSearchResults() {
+  document.getElementById('location-search-results')?.classList.remove('active');
+}
+
+function removeLocationSearchMarker() {
+  if (map && locationSearchMarker) {
+    map.removeLayer(locationSearchMarker);
+    locationSearchMarker = null;
+  }
+}
+
+function updateLocationSearchStatus(message) {
+  const status = document.getElementById('location-search-status');
+  if (status) status.textContent = message;
+}
+
+// ==========================================================================
 // 3. 地图直接点击交互选点 (已根据要求取消地图选点/Popup功能)
 // ==========================================================================
 
@@ -730,6 +1238,7 @@ window.selectRecommendedLoop = function (id) {
   console.log(`🌟 一键装载精选骑行环线: ${route.name}`);
 
   origin = route.origin;
+  originLocationSource = 'manual';
   document.getElementById('origin-input').value = route.originName;
 
   destination = route.destination;
@@ -1112,6 +1621,7 @@ function drawMapElements() {
     if (r.polyline) {
       const decoded = decodePolyline(r.polyline);
       L.polyline(decoded, {
+        pane: 'plannedRoutes',
         color: '#5c5e64', // 经典磨砂灰高亮线
         weight: 6,
         opacity: 0.55,
@@ -1135,6 +1645,7 @@ function drawMapElements() {
       const color = getSlopeColor(p2.slopePercent);
 
       L.polyline([[p1.lat, p1.lng], [p2.lat, p2.lng]], {
+        pane: 'plannedRoutes',
         color: color,
         weight: 6, // 略微加粗更加醒目
         opacity: 0.95,
@@ -1210,7 +1721,7 @@ function renderChart() {
         tension: 0.15,
         pointRadius: 0,
         pointHoverRadius: 6,
-        pointHoverBackgroundColor: currentTheme === 'light' ? '#1c1c1e' : '#ffffff',
+        pointHoverBackgroundColor: currentTheme !== 'dark' ? '#1c1c1e' : '#ffffff',
         pointHoverBorderColor: '#00e676',
         pointHoverBorderWidth: 2
       }]
@@ -1226,7 +1737,7 @@ function renderChart() {
         x: {
           grid: { display: false },
           ticks: {
-            color: currentTheme === 'light' ? '#68686e' : '#8c8e94',
+            color: currentTheme !== 'dark' ? '#68686e' : '#8c8e94',
             font: { size: 9 },
             maxTicksLimit: 6,
             callback: function (val) {
@@ -1237,11 +1748,11 @@ function renderChart() {
         },
         y: {
           grid: {
-            color: currentTheme === 'light' ? 'rgba(0, 0, 0, 0.06)' : 'rgba(255, 255, 255, 0.04)',
+            color: currentTheme !== 'dark' ? 'rgba(0, 0, 0, 0.06)' : 'rgba(255, 255, 255, 0.04)',
             lineWidth: 1
           },
           ticks: {
-            color: currentTheme === 'light' ? '#68686e' : '#8c8e94',
+            color: currentTheme !== 'dark' ? '#68686e' : '#8c8e94',
             font: { size: 9 },
             maxTicksLimit: 4,
             callback: function (value) {
@@ -1567,8 +2078,8 @@ function getLatLngDistance(lat1, lng1, lat2, lng2) {
   const dLat = (lat2 - lat1) * Math.PI / 180;
   const dLng = (lng2 - lng1) * Math.PI / 180;
   const a = Math.sin(dLat / 2) * Math.sin(dLat / 2) +
-            Math.cos(lat1 * Math.PI / 180) * Math.cos(lat2 * Math.PI / 180) *
-            Math.sin(dLng / 2) * Math.sin(dLng / 2);
+    Math.cos(lat1 * Math.PI / 180) * Math.cos(lat2 * Math.PI / 180) *
+    Math.sin(dLng / 2) * Math.sin(dLng / 2);
   const c = 2 * Math.atan2(Math.sqrt(a), Math.sqrt(1 - a));
   return R * c;
 }
@@ -1782,6 +2293,79 @@ function getHeatmapOpacityForZoom(zoom) {
   return 0;
 }
 
+function isHotPointHeatmapLegendEligible() {
+  return hotPointHeatmapEnabled && map && getHotPointDisplayMode(map.getZoom()) === 'heatmap';
+}
+
+function setHotPointHeatmapLegendVisible(visible) {
+  const legend = document.getElementById('hotpoint-heatmap-legend');
+  if (!legend) return;
+
+  legend.classList.toggle('active', visible);
+  legend.setAttribute('aria-hidden', visible ? 'false' : 'true');
+}
+
+function hideHotPointHeatmapLegend() {
+  if (hotPointHeatmapLegendTimer) {
+    clearTimeout(hotPointHeatmapLegendTimer);
+    hotPointHeatmapLegendTimer = null;
+  }
+  setHotPointHeatmapLegendVisible(false);
+}
+
+function revealHotPointHeatmapLegend() {
+  if (!isHotPointHeatmapLegendEligible()) {
+    hideHotPointHeatmapLegend();
+    return;
+  }
+
+  if (hotPointHeatmapLegendTimer) {
+    clearTimeout(hotPointHeatmapLegendTimer);
+  }
+
+  setHotPointHeatmapLegendVisible(true);
+  hotPointHeatmapLegendTimer = setTimeout(() => {
+    setHotPointHeatmapLegendVisible(false);
+    hotPointHeatmapLegendTimer = null;
+  }, HOTPOINT_HEATMAP_LEGEND_VISIBLE_MS);
+}
+
+function scheduleInitialHotPointHeatmapLegendReveal() {
+  if (hotPointHeatmapLegendInitialDelayTimer) {
+    clearTimeout(hotPointHeatmapLegendInitialDelayTimer);
+  }
+
+  hotPointHeatmapLegendInitialDelayActive = true;
+  hotPointHeatmapLegendInitialDelayTimer = setTimeout(() => {
+    hotPointHeatmapLegendInitialDelayActive = false;
+    hotPointHeatmapLegendInitialDelayTimer = null;
+    syncHotPointHeatmapLegend({ reveal: true });
+  }, HOTPOINT_HEATMAP_LEGEND_INITIAL_DELAY_MS);
+}
+
+function syncHotPointHeatmapLegend(options = {}) {
+  if (options.reveal && hotPointHeatmapLegendInitialDelayActive) {
+    if (hotPointHeatmapLegendInitialDelayTimer) {
+      clearTimeout(hotPointHeatmapLegendInitialDelayTimer);
+      hotPointHeatmapLegendInitialDelayTimer = null;
+    }
+    hotPointHeatmapLegendInitialDelayActive = false;
+  }
+
+  const eligible = isHotPointHeatmapLegendEligible();
+  const becameEligible = eligible && !hotPointHeatmapLegendEligible;
+  hotPointHeatmapLegendEligible = eligible;
+
+  if (!eligible) {
+    hideHotPointHeatmapLegend();
+    return;
+  }
+
+  if ((options.reveal || becameEligible) && (!hotPointHeatmapLegendInitialDelayActive || options.reveal)) {
+    revealHotPointHeatmapLegend();
+  }
+}
+
 function getHeatmapColor(value) {
   if (value <= 0.002) return [0, 0, 0, 0];
 
@@ -1874,6 +2458,7 @@ function redrawCachedHotPoints() {
   const currentZoom = map.getZoom();
   const mode = getHotPointDisplayMode(currentZoom);
   const cachedPoints = getCachedHotPointsInView();
+  syncHotPointHeatmapLegend();
 
   if (mode === 'hidden') {
     clearHotPointVisuals();
@@ -1882,8 +2467,10 @@ function redrawCachedHotPoints() {
 
   if (mode === 'heatmap') {
     clearHotPointMarkers();
-    if (hotPointHeatmapLayer) {
+    if (hotPointHeatmapEnabled && hotPointHeatmapLayer) {
       hotPointHeatmapLayer.setData(cachedPoints, getHeatmapOpacityForZoom(currentZoom));
+    } else if (hotPointHeatmapLayer) {
+      hotPointHeatmapLayer.clear();
     }
     return;
   }
@@ -1906,6 +2493,7 @@ async function fetchHotPointsSilently() {
 
   const currentZoom = map.getZoom();
   const mode = getHotPointDisplayMode(currentZoom);
+  syncHotPointHeatmapLegend();
   if (mode === 'hidden' || currentZoom > 18) {
     clearHotPointVisuals();
     return;
@@ -1957,10 +2545,12 @@ async function fetchHotPointsSilently() {
       if (mode === 'heatmap') {
         clearHotPointMarkers();
         closeHotPointDetails(false);
-        if (hotPointHeatmapLayer) {
+        if (hotPointHeatmapEnabled && hotPointHeatmapLayer) {
           hotPointHeatmapLayer.setData(points, getHeatmapOpacityForZoom(currentZoom));
+        } else if (hotPointHeatmapLayer) {
+          hotPointHeatmapLayer.clear();
         }
-        console.log(`🔥 [HotPoints] Zoom ${currentZoom} 热力图更新：${points.length} 个点，opacity=${getHeatmapOpacityForZoom(currentZoom)}`);
+        console.log(`🔥 [HotPoints] Zoom ${currentZoom} 热力图${hotPointHeatmapEnabled ? '更新' : '已关闭'}：${points.length} 个点，opacity=${hotPointHeatmapEnabled ? getHeatmapOpacityForZoom(currentZoom) : 0}`);
         return;
       }
 
@@ -1989,22 +2579,23 @@ async function fetchHotPointsSilently() {
 
 function closeHotPointDetails(shouldRedraw = true) {
   const panel = document.getElementById('hotpoint-details-panel');
+  const wasActive = panel?.classList.contains('active') || false;
+  const hadSelection = selectedHotPointId !== null;
+
   if (panel) panel.classList.remove('active');
   selectedHotPointId = null;
-  if (shouldRedraw) {
+
+  if (shouldRedraw && (wasActive || hadSelection)) {
     redrawCachedHotPoints();
   }
 }
 
 function showHotPointDetails(point) {
+  closeIdeaRoutePanel();
   selectedHotPointId = point.id;
   redrawCachedHotPoints();
 
-  const stravaPanel = document.getElementById('strava-details-panel');
-  if (stravaPanel) {
-    stravaPanel.classList.remove('active');
-    restoreAllSegmentsOpacity();
-  }
+  closeStravaSegmentDetails();
 
   const panel = document.getElementById('hotpoint-details-panel');
   if (!panel) return;
@@ -2031,10 +2622,7 @@ function showHotPointDetails(point) {
 /**
  * 单条 Strava 黄金路段的高保真绘制渲染函数 (支持起终点圆点、动态旋转航向箭头与大型 28px 点击热区)
  */
-/**
- * 单条 Strava 黄金路段的高保真绘制渲染函数 (支持起终点圆点、动态旋转航向箭头与大型 28px 点击热区)
- */
-function drawSingleStravaSegment(seg) {
+function drawSingleStravaSegment(seg, animate = true) {
   const segId = Number(seg.id);
   const isDimmed = selectedSegmentId !== null && Number(selectedSegmentId) !== segId;
 
@@ -2109,6 +2697,7 @@ function drawSingleStravaSegment(seg) {
   const distanceKm = seg.distanceKm || (seg.distance_km ? seg.distance_km : 0);
   let numArrows = Math.max(2, Math.min(12, Math.floor(distanceKm * 2.5)));
   const defaultArrowOpacity = isDimmed ? '0.15' : '0.9';
+  const directionMarkers = [];
 
   for (let i = 1; i <= numArrows; i++) {
     const ratio = i / (numArrows + 1);
@@ -2116,7 +2705,7 @@ function drawSingleStravaSegment(seg) {
     if (latlngs.length > 3) {
       targetIndex = 1 + Math.floor((latlngs.length - 2) * ratio);
     }
-    
+
     const targetPoint = latlngs[targetIndex];
     const prevPoint = latlngs[Math.max(0, targetIndex - 1)];
     const bearingAngle = getBearing(prevPoint[0], prevPoint[1], targetPoint[0], targetPoint[1]);
@@ -2135,60 +2724,34 @@ function drawSingleStravaSegment(seg) {
 
     // 将航向角保存在 Layer 实例属性上，供悬停缩放旋转时使用
     directionMarker.bearingAngle = bearingAngle;
+    directionMarkers.push({ marker: directionMarker, ratio: targetIndex / (latlngs.length - 1) });
   }
 
   // 将 seg 和整个图层组关联存储在缓存 Map 中
   loadedStravaSegments.set(segId, { seg: seg, layer: segmentGroup });
 
-  // 5. 稳定淡入动画，完全符合 Leaflet SVG 渲染管线生命周期，完美避免闪烁
-  setTimeout(() => {
-    const isDimmedCurrent = selectedSegmentId !== null && Number(selectedSegmentId) !== segId;
-    const targetPolylineOpacity = isDimmedCurrent ? '0.15' : (selectedSegmentId !== null && Number(selectedSegmentId) === segId ? '1.0' : '0.85');
-    const targetMarkerOpacity = isDimmedCurrent ? '0.15' : '0.95';
-    const targetArrowOpacity = isDimmedCurrent ? '0.15' : '0.9';
-    
-    // 淡入可见折线
-    const pathEl = visiblePolyline.getElement();
-    if (pathEl) {
-      pathEl.style.opacity = '0';
-      pathEl.getBoundingClientRect(); // 强制触发重绘
-      pathEl.style.transition = 'opacity 0.6s cubic-bezier(0.25, 1, 0.4, 1)';
-      pathEl.style.opacity = targetPolylineOpacity;
-    }
+  // 沿坐标顺序从起点向终点绘制；保留原有样式，避免干扰选中和悬停。
+  const pathEl = visiblePolyline.getElement();
+  const reducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+  if (animate && !reducedMotion && pathEl && typeof pathEl.getTotalLength === 'function' && pathEl.animate) {
+    const length = pathEl.getTotalLength();
+    if (length > 0) {
+      const duration = 1800;
+      pathEl.animate([
+        { strokeDasharray: `${length} ${length}`, strokeDashoffset: length },
+        { strokeDasharray: `${length} ${length}`, strokeDashoffset: 0 }
+      ], { duration, easing: 'linear' });
 
-    // 淡入起点圆点
-    const startEl = startMarker.getElement();
-    if (startEl) {
-      startEl.style.opacity = '0';
-      startEl.getBoundingClientRect();
-      startEl.style.transition = 'opacity 0.6s cubic-bezier(0.25, 1, 0.4, 1)';
-      startEl.style.opacity = targetMarkerOpacity;
+      directionMarkers.forEach(({ marker, ratio }) => {
+        marker.getElement()?.animate?.([{ opacity: 0 }, { opacity: 1 }], {
+          duration: 200, delay: duration * ratio, fill: 'backwards', easing: 'ease-out'
+        });
+      });
+      endMarker.getElement()?.animate?.([{ opacity: 0 }, { opacity: markerOpacity }], {
+        duration: 200, delay: duration - 100, fill: 'backwards', easing: 'ease-out'
+      });
     }
-
-    // 淡入终点圆点
-    const endEl = endMarker.getElement();
-    if (endEl) {
-      endEl.style.opacity = '0';
-      endEl.getBoundingClientRect();
-      endEl.style.transition = 'opacity 0.6s cubic-bezier(0.25, 1, 0.4, 1)';
-      endEl.style.opacity = targetMarkerOpacity;
-    }
-
-    // 淡入所有方向指示器
-    const layers = segmentGroup.getLayers();
-    for (let k = 4; k < layers.length; k++) {
-      const dirEl = layers[k].getElement();
-      if (dirEl) {
-        const arrowDiv = dirEl.querySelector('.segment-direction-arrow');
-        if (arrowDiv) {
-          arrowDiv.style.opacity = '0';
-          arrowDiv.getBoundingClientRect();
-          arrowDiv.style.transition = 'opacity 0.6s cubic-bezier(0.25, 1, 0.4, 1)';
-          arrowDiv.style.opacity = targetArrowOpacity;
-        }
-      }
-    }
-  }, 30);
+  }
 
   // 6. 点击热区折线事件绑定：阻止冒泡，弹出底部详情卡片，并将其他路段变暗
   hitAreaPolyline.on('click', (e) => {
@@ -2206,7 +2769,7 @@ function drawSingleStravaSegment(seg) {
       weight: 7.5,
       opacity: 1.0
     });
-    
+
     const layers = segmentGroup.getLayers();
     for (let k = 4; k < layers.length; k++) {
       const dirEl = layers[k]?.getElement();
@@ -2228,7 +2791,7 @@ function drawSingleStravaSegment(seg) {
       weight: 5.5,
       opacity: 0.85
     });
-    
+
     const layers = segmentGroup.getLayers();
     for (let k = 4; k < layers.length; k++) {
       const dirEl = layers[k]?.getElement();
@@ -2243,18 +2806,285 @@ function drawSingleStravaSegment(seg) {
   });
 }
 
+function isHomeRecommendationEligible() {
+  return HOME_RECOMMENDATIONS_ENABLED && !!map && !selectedPlace && !placeRouteActive && map.getZoom() >= HOME_RECOMMENDATION_MIN_ZOOM &&
+    window.matchMedia('(max-width: 640px)').matches;
+}
+
+function getHomeOriginLabel() {
+  if (originLocationSource === 'ip') return '按 IP 大致位置出发';
+  if (originLocationSource === 'default') return '以上海人民广场为起点';
+  if (originLocationSource === 'manual') return '从所选起点出发';
+  return '从当前位置出发';
+}
+
+function syncHomeRecommendationVisibility() {
+  const panel = document.getElementById('home-recommendations');
+  const backButton = document.getElementById('location-search-back');
+  if (!panel || !backButton) return;
+
+  const eligible = isHomeRecommendationEligible();
+  if (!eligible) homeRecommendationSearchOpen = false;
+  const detailsOpen = document.getElementById('strava-details-panel')?.classList.contains('active');
+  const showRecommendations = eligible && !homeRecommendationSearchOpen && !detailsOpen;
+  panel.hidden = !showRecommendations;
+  panel.classList.toggle('active', showRecommendations);
+  backButton.hidden = !(eligible && homeRecommendationSearchOpen);
+  document.body.classList.toggle('home-recommendation-mode', showRecommendations);
+  if (homeRecommendationRouteLayer && map) {
+    const showRoute = eligible && !homeRecommendationSearchOpen;
+    if (showRoute && !map.hasLayer(homeRecommendationRouteLayer)) homeRecommendationRouteLayer.addTo(map);
+    if (!showRoute && map.hasLayer(homeRecommendationRouteLayer)) map.removeLayer(homeRecommendationRouteLayer);
+  }
+}
+
+function requestHomeRecommendations(force = false) {
+  const requestId = ++homeRecommendationRequestId;
+  homeRecommendationRouteRequest?.abort();
+  homeRecommendationRouteLayer?.clearLayers();
+  syncHomeRecommendationVisibility();
+  if (!isHomeRecommendationEligible()) return;
+
+  renderHomeRecommendationMessage('正在查找附近路段', getHomeOriginLabel());
+  if (map.getZoom() > 16) fetchDeepZoomHomeRecommendations(requestId);
+  else fetchStravaSegmentsSilently(force, requestId);
+}
+
+function bindHomeRecommendationEvents() {
+  document.getElementById('home-recommendations-search')?.addEventListener('click', () => {
+    homeRecommendationSearchOpen = true;
+    syncHomeRecommendationVisibility();
+    document.getElementById('location-search-input')?.focus();
+  });
+
+  document.getElementById('location-search-back')?.addEventListener('click', () => {
+    homeRecommendationSearchOpen = false;
+    hideLocationSearchResults();
+    document.getElementById('location-search-input')?.blur();
+    syncHomeRecommendationVisibility();
+  });
+
+  document.getElementById('home-recommendations-retry')?.addEventListener('click', () => {
+    requestHomeRecommendations(true);
+  });
+
+  document.getElementById('home-recommendations-detail')?.addEventListener('click', () => {
+    const seg = homeRecommendationSelected?.seg;
+    if (!seg) return;
+    selectedSegmentId = Number(seg.id);
+    if (!loadedStravaSegments.has(selectedSegmentId)) drawSingleStravaSegment(seg);
+    dimAllOtherSegments(selectedSegmentId);
+    showStravaSegmentDetails(seg);
+  });
+
+  window.addEventListener('resize', syncHomeRecommendationVisibility);
+  syncHomeRecommendationVisibility();
+}
+
+function renderHomeRecommendationMessage(title, summary, state = 'loading') {
+  const titleElement = document.getElementById('home-recommendations-title');
+  const summaryElement = document.getElementById('home-recommendation-summary');
+  const stats = document.getElementById('home-recommendation-stats');
+  const retry = document.getElementById('home-recommendations-retry');
+  const detail = document.getElementById('home-recommendations-detail');
+  const status = document.getElementById('home-recommendations-status');
+  if (!titleElement || !summaryElement || !stats || !retry || !detail || !status) return;
+
+  titleElement.textContent = title;
+  summaryElement.textContent = summary;
+  document.getElementById('home-recommendation-icon').className =
+    `fa-solid ${state === 'loading' ? 'fa-spinner fa-spin' : 'fa-route'}`;
+  stats.hidden = true;
+  retry.hidden = state !== 'error';
+  detail.hidden = true;
+  homeRecommendationSelected = null;
+  status.textContent = `${title}。${summary}`;
+}
+
+function getHomeSegmentSample(seg) {
+  const coordinates = Array.isArray(seg.coordinates) ? seg.coordinates : [];
+  if (coordinates.length < 2) return [];
+  const step = Math.max(1, Math.ceil(coordinates.length / 32));
+  const sample = coordinates.filter((_, index) => index % step === 0);
+  if (sample[sample.length - 1] !== coordinates[coordinates.length - 1]) {
+    sample.push(coordinates[coordinates.length - 1]);
+  }
+  return sample.filter(point => Number.isFinite(Number(point.lat)) && Number.isFinite(Number(point.lng)));
+}
+
+function getRankedHomeSegments(segments) {
+  if (!origin || !Number.isFinite(Number(origin.lat)) || !Number.isFinite(Number(origin.lng))) return [];
+  const bounds = map.getBounds();
+  const ranked = segments.map((seg) => {
+    const sample = getHomeSegmentSample(seg);
+    const distance = Number(seg.distanceKm);
+    if (sample.length < 2 || !Number.isFinite(distance) || distance <= 0 || distance > 30) return null;
+
+    const segmentBounds = L.latLngBounds(sample.map(point => [point.lat, point.lng]));
+    if (!segmentBounds.intersects(bounds)) return null;
+
+    const start = Array.isArray(seg.startLatLng) ? seg.startLatLng : [sample[0].lat, sample[0].lng];
+    if (!Number.isFinite(Number(start[0])) || !Number.isFinite(Number(start[1]))) return null;
+    const approachDistance = getLatLngDistance(origin.lat, origin.lng, start[0], start[1]);
+    if (approachDistance > 12000) return null;
+
+    const distanceFit = Math.max(0, 1 - Math.abs(Math.log((distance + 1) / 9)) / 2.2);
+    const gradeFit = Math.max(0, 1 - Math.max(0, Math.abs(Number(seg.avgGrade) || 0) - 2) / 10);
+    const ownScore = Math.min(1, Math.log1p(Math.max(0, Number(seg.veloRoamScore ?? seg.rawScore) || 0)) / Math.log(101));
+    return {
+      seg,
+      start: { lat: Number(start[0]), lng: Number(start[1]) },
+      rank: Math.max(0, 1 - approachDistance / 12000) * 55 + distanceFit * 20 + gradeFit * 10 + ownScore * 15
+    };
+  }).filter(Boolean).sort((a, b) => b.rank - a.rank);
+
+  return ranked;
+}
+
+function drawHomeRecommendationRoute(item, route) {
+  if (!homeRecommendationRouteLayer) return;
+  homeRecommendationRouteLayer.clearLayers();
+
+  if (route.polyline) {
+    const approach = decodePolyline(route.polyline);
+    if (approach.length > 1) {
+      L.polyline(approach, {
+        color: '#00e676', weight: 5, opacity: 0.9, lineCap: 'round', lineJoin: 'round',
+        interactive: false, className: 'home-recommendation-approach-line'
+      }).addTo(homeRecommendationRouteLayer);
+    }
+  }
+
+  const segment = item.seg.coordinates.map(point => [Number(point.lat), Number(point.lng)]);
+  L.polyline(segment, {
+    color: '#ffd600', weight: 6, opacity: 0.96, lineCap: 'round', lineJoin: 'round',
+    interactive: false, className: 'home-recommendation-segment-line'
+  }).addTo(homeRecommendationRouteLayer);
+}
+
+async function planHomeRecommendationRoute(item, startOrigin) {
+  if (getLatLngDistance(startOrigin.lat, startOrigin.lng, item.start.lat, item.start.lng) < 35) {
+    return { distanceKm: 0, durationMin: 0, polyline: '' };
+  }
+
+  const cacheKey = `${startOrigin.lat.toFixed(4)},${startOrigin.lng.toFixed(4)}:${item.seg.id}`;
+  if (homeRecommendationRouteCache.has(cacheKey)) return homeRecommendationRouteCache.get(cacheKey);
+
+  const controller = new AbortController();
+  homeRecommendationRouteRequest = controller;
+  const timeout = setTimeout(() => controller.abort(), 20000);
+  try {
+    const response = await fetch(`${API_BASE_URL}/routes/plan`, {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      signal: controller.signal,
+      body: JSON.stringify({
+        origin: startOrigin,
+        destination: item.start,
+        waypoints: [],
+        preferences: { supplyType: 'none', autoLoopback: false }
+      })
+    });
+    if (!response.ok) throw new Error(`Route planning failed: ${response.status}`);
+    const result = await response.json();
+    const routes = Array.isArray(result) ? result : [result];
+    const route = routes.find(candidate => Number.isFinite(Number(candidate.distanceKm)) &&
+      Number(candidate.distanceKm) >= 0 && typeof candidate.polyline === 'string' &&
+      (Number(candidate.distanceKm) === 0 || candidate.polyline.length > 0));
+    if (!route) throw new Error('Route planning returned no valid route');
+
+    homeRecommendationRouteCache.set(cacheKey, route);
+    if (homeRecommendationRouteCache.size > 12) {
+      homeRecommendationRouteCache.delete(homeRecommendationRouteCache.keys().next().value);
+    }
+    return route;
+  } finally {
+    clearTimeout(timeout);
+    if (homeRecommendationRouteRequest === controller) homeRecommendationRouteRequest = null;
+  }
+}
+
+async function updateHomeRecommendations(segments, requestId) {
+  if (requestId !== homeRecommendationRequestId || !isHomeRecommendationEligible()) return;
+  homeRecommendationSegments = segments;
+  if (!origin) {
+    renderHomeRecommendationMessage('等待当前位置', '定位完成后自动规划骑行路线', 'empty');
+    return;
+  }
+
+  const item = getRankedHomeSegments(segments)[0];
+  if (!item) {
+    const center = map.getCenter();
+    const viewingElsewhere = getLatLngDistance(origin.lat, origin.lng, center.lat, center.lng) > 12000;
+    renderHomeRecommendationMessage(
+      viewingElsewhere ? '当前区域离你较远' : '附近暂无可达路段',
+      viewingElsewhere ? '回到当前位置查看骑行推荐' : '移动地图探索其他路段',
+      'empty'
+    );
+    return;
+  }
+
+  renderHomeRecommendationMessage(item.seg.name || '推荐骑行路段', '正在规划从当前位置到路段起点…');
+  const startOrigin = { lat: Number(origin.lat), lng: Number(origin.lng) };
+  try {
+    const route = await planHomeRecommendationRoute(item, startOrigin);
+    if (requestId !== homeRecommendationRequestId || !isHomeRecommendationEligible()) return;
+
+    const approachKm = Number(route.distanceKm);
+    const segmentKm = Number(item.seg.distanceKm);
+    const approachMin = Number(route.durationMin);
+    const durationMin = Math.max(1, Math.round(
+      (Number.isFinite(approachMin) ? approachMin : approachKm / 18 * 60) + segmentKm / 18 * 60
+    ));
+    document.getElementById('home-recommendations-title').textContent = item.seg.name || '推荐骑行路段';
+    document.getElementById('home-recommendation-summary').textContent = `${getHomeOriginLabel()} · 预计约 ${durationMin} 分钟`;
+    document.getElementById('home-recommendation-total').textContent = (approachKm + segmentKm).toFixed(1);
+    document.getElementById('home-recommendation-approach').textContent = approachKm.toFixed(1);
+    document.getElementById('home-recommendation-segment').textContent = segmentKm.toFixed(1);
+    document.getElementById('home-recommendation-stats').hidden = false;
+    document.getElementById('home-recommendations-detail').hidden = false;
+    document.getElementById('home-recommendation-icon').className = 'fa-solid fa-route';
+    document.getElementById('home-recommendations-status').textContent =
+      `${item.seg.name || '推荐骑行路段'}，总里程 ${(approachKm + segmentKm).toFixed(1)} 公里`;
+    homeRecommendationSelected = item;
+    drawHomeRecommendationRoute(item, route);
+  } catch (error) {
+    if (requestId === homeRecommendationRequestId && isHomeRecommendationEligible()) {
+      renderHomeRecommendationMessage(item.seg.name || '推荐骑行路段', '路线规划暂不可用，请重试', 'error');
+    }
+  }
+}
+
+async function fetchDeepZoomHomeRecommendations(requestId) {
+  const bounds = map.getBounds();
+  const boundsParam = [bounds.getSouth(), bounds.getWest(), bounds.getNorth(), bounds.getEast()].join(',');
+  try {
+    const response = await fetch(`${API_BASE_URL}/routes/strava-segments?bounds=${boundsParam}&zoom=${map.getZoom()}`);
+    if (!response.ok) throw new Error(`Strava segments API response failed: ${response.status}`);
+    const segments = await response.json();
+    if (!Array.isArray(segments)) throw new Error('Invalid segments response');
+    await updateHomeRecommendations(segments, requestId);
+  } catch (error) {
+    if (requestId === homeRecommendationRequestId && isHomeRecommendationEligible()) {
+      renderHomeRecommendationMessage('推荐暂时不可用', '获取附近路段失败，请重试', 'error');
+    }
+  }
+}
+
 /**
  * 静默请求当前地图视口 Bounds 内的 Strava Segments 路段数据，并利用 Leaflet 实时动态图层渲染
  * 升级版：实现不要跟手请求（600ms 拖拽后防抖）、微小位移过滤（位移 < 350米时不触发）并传递 zoom 级别
  * 终极迭代：不清理旧图层，只新增绘制 rawScore > 10 的唯一路段，配合路径出场动画与独立底部详情看板
  */
-async function fetchStravaSegmentsSilently() {
+async function fetchStravaSegmentsSilently(force = false, recommendationRequestId = homeRecommendationRequestId) {
   if (!map || !stravaGroup) return;
 
   const currentZoom = map.getZoom();
-  // 🚀 终极规则：当缩放级别 <= 10 或 > 17 时，清空图层并跳过静默探索，不展示任何非选中路段
-  if (currentZoom <= 10 || currentZoom > 17) {
-    console.log(`[StravaRadar] 当前缩放等级 (${currentZoom}) 不在允许探索范围 [11-17] 内，清空未选中图层。`);
+  // 缩放级别 <= 9 或 > 16 时，清空未选中路段并跳过静默探索
+  if (currentZoom <= 9 || currentZoom > 16) {
+    console.log(`[StravaRadar] 当前缩放等级 (${currentZoom}) 不在允许探索范围 [10-16] 内，清空未选中图层。`);
+    clearTimeout(exploreDebounceTimer);
+    lastExploreZoom = null;
     clearUnselectedSegments();
     return;
   }
@@ -2275,18 +3105,22 @@ async function fetchStravaSegmentsSilently() {
       );
       const zoomChanged = currentZoom !== lastExploreZoom;
 
-      if (distance < 350 && !zoomChanged) {
+      if (distance < 350 && !zoomChanged && !force) {
         console.log(`[StravaRadar] 地图微小位移 (${distance.toFixed(1)}米 < 350米)，忽略本轮请求以节省资源。`);
+        if (recommendationRequestId === homeRecommendationRequestId && isHomeRecommendationEligible()) {
+          void updateHomeRecommendations(homeRecommendationSegments, recommendationRequestId);
+        }
         return;
       }
     }
 
     // 3. 缩放等级改变时，清空当前未选中的图层，并立刻就地用新评分门槛筛选并绘制已缓存段
     const zoomChanged = currentZoom !== lastExploreZoom;
+    const previouslyVisibleIds = new Set(loadedStravaSegments.keys());
     if (zoomChanged) {
       // 仅清理未选中的路段，保留当前选中高亮路段不消失
       clearUnselectedSegments();
-      
+
       const bounds = map.getBounds();
       let redrawnCount = 0;
       allFetchedSegments.forEach((seg) => {
@@ -2300,7 +3134,7 @@ async function fetchStravaSegmentsSilently() {
           if (seg.coordinates && seg.coordinates.length > 0) {
             const firstPt = seg.coordinates[0];
             if (bounds.contains(L.latLng(firstPt.lat, firstPt.lng))) {
-              drawSingleStravaSegment(seg);
+              drawSingleStravaSegment(seg, !previouslyVisibleIds.has(segId));
               redrawnCount++;
             }
           }
@@ -2321,7 +3155,7 @@ async function fetchStravaSegmentsSilently() {
     console.log(`[StravaRadar] 视口平稳，开始探索. Zoom: ${currentZoom}, Center: [${currentCenter.lat.toFixed(4)}, ${currentCenter.lng.toFixed(4)}]`);
 
     try {
-      // 传递 zoom 级别给后端。当 zoom >= 14 时，后端将自动开启 2x2 网格并发分裂探索，拉满路段数量
+      // 传递 zoom 级别给后端。当 zoom >= 13 时，后端开启 2x2 网格并发探索
       const response = await fetch(`${API_BASE_URL}/routes/strava-segments?bounds=${south},${west},${north},${east}&zoom=${currentZoom}`);
       if (!response.ok) {
         throw new Error(`Strava segments API response failed: ${response.status}`);
@@ -2329,6 +3163,11 @@ async function fetchStravaSegmentsSilently() {
 
       const segments = await response.json();
       if (!Array.isArray(segments)) return;
+      if (map.getZoom() !== currentZoom) return;
+
+      if (recommendationRequestId === homeRecommendationRequestId && isHomeRecommendationEligible()) {
+        void updateHomeRecommendations(segments, recommendationRequestId);
+      }
 
       console.log(`🚴 [Strava] 后端接口返回了 ${segments.length} 条路段。进行去重合并与渲染...`);
 
@@ -2354,7 +3193,7 @@ async function fetchStravaSegmentsSilently() {
 
         // 如果当前在视图中没渲染过，则执行渲染绘制
         if (!loadedStravaSegments.has(segId)) {
-          drawSingleStravaSegment(seg);
+          drawSingleStravaSegment(seg, !zoomChanged || !previouslyVisibleIds.has(segId));
           addedCount++;
         }
       });
@@ -2362,6 +3201,9 @@ async function fetchStravaSegmentsSilently() {
       console.log(`🚴 [Strava] 视口静默增量刷新：共渲染了 ${addedCount} 条全新探索出的路段。当前客户端缓存渲染中: ${loadedStravaSegments.size}`);
     } catch (error) {
       console.warn(`[Strava] 静默视口探索请求被跳过或失败:`, error.message);
+      if (recommendationRequestId === homeRecommendationRequestId && isHomeRecommendationEligible()) {
+        renderHomeRecommendationMessage('推荐暂时不可用', '获取附近路段失败，请重试', 'error');
+      }
     }
   }, 600);
 }
@@ -2369,16 +3211,800 @@ async function fetchStravaSegmentsSilently() {
 /**
  * 在页面底部独立看板展示 Strava 黄金路段详情
  */
-function showStravaSegmentDetails(seg) {
+function showStravaSegmentDetails(seg, trigger = null) {
+  closeIdeaRoutePanel();
   const panel = document.getElementById('strava-details-panel');
   if (!panel) return;
-
-  // 填充信息
-  document.getElementById('strava-panel-title').innerText = seg.name || '未命名路段';
-  document.getElementById('strava-stat-score').innerText = seg.rawScore !== undefined ? seg.rawScore.toFixed(1) : '--';
-  document.getElementById('strava-stat-distance').innerText = seg.distanceKm !== undefined ? seg.distanceKm.toFixed(2) : '--';
-  document.getElementById('strava-stat-grade').innerText = seg.avgGrade !== undefined ? seg.avgGrade : '--';
-
-  // 激活底栏滑入动画
+  closeHotPointDetails();
+  stravaDetailRequest?.abort();
+  const request = new AbortController();
+  stravaDetailRequest = request;
+  stravaDetailTrigger = trigger;
+  const set = (id, value) => { document.getElementById(id).textContent = value; };
+  const format = (value, suffix = '', digits = 1) => typeof value === 'number' && Number.isFinite(value) ? `${Number(value.toFixed(digits)).toLocaleString()}${suffix}` : '--';
+  const render = detail => {
+    set('strava-panel-title', detail.name || seg.name || '未命名路段');
+    set('strava-stat-score', format(seg.veloRoamScore ?? seg.rawScore));
+    set('strava-stat-distance', format(detail.distanceKm ?? seg.distanceKm, '', 2));
+    set('strava-stat-grade', format(detail.avgGrade ?? seg.avgGrade));
+    set('strava-stat-max-grade', format(detail.maxGrade, '%'));
+    set('strava-stat-elevation', format(detail.totalElevationGain, ' m', 0));
+    set('strava-stat-range', detail.elevationLow != null && detail.elevationHigh != null ? `${format(detail.elevationLow, '', 0)}–${format(detail.elevationHigh, ' m', 0)}` : '--');
+    set('strava-stat-stars', format(detail.starCount ?? seg.starCount, '', 0));
+    set('strava-stat-athletes', format(detail.athleteCount ?? seg.athleteCount, '', 0));
+    set('strava-stat-efforts', format(detail.effortCount ?? seg.effortCount, '', 0));
+  };
+  const status = document.getElementById('strava-detail-status');
+  const retry = document.getElementById('strava-detail-retry');
+  render({});
+  retry.hidden = true;
+  status.textContent = '正在获取 Strava 路段详情…';
   panel.classList.add('active');
+  if (selectedPlace) clearSelectedPlace();
+  document.dispatchEvent(new CustomEvent('strava-detail-change', { detail: { open: true } }));
+  syncHomeRecommendationVisibility();
+  const id = String(seg.id || '').replace(/^segment:/, '');
+  const load = async () => {
+    try {
+      if (!/^[1-9]\d*$/.test(id)) throw new Error('无法识别路段 ID。');
+      const response = await fetch(`${API_BASE_URL}/routes/strava-segments/${id}`, { signal: request.signal });
+      const data = await response.json();
+      if (!response.ok) throw new Error(data.error || '路段详情暂时不可用，请稍后重试。');
+      if (stravaDetailRequest !== request) return;
+      render(data);
+      status.textContent = data.hazardous ? 'Strava 标记此路段存在潜在危险，请注意路况。' : '数据来自 Strava；-- 表示暂无数据。';
+    } catch (error) {
+      if (error.name === 'AbortError' || stravaDetailRequest !== request) return;
+      status.textContent = error.message || '获取路段详情失败，请稍后重试。';
+      retry.hidden = false;
+    }
+  };
+  retry.onclick = () => showStravaSegmentDetails(seg, trigger);
+  load();
+}
+
+// 骑行想法使用独立图层，不依赖首页热门点位显示开关。
+let ideaMapLayer = null;
+let ideaRequest = null;
+let ideaRouteRequest = null;
+let ideaActiveRoute = null;
+
+document.addEventListener('DOMContentLoaded', () => {
+  const sheet = document.getElementById('idea-sheet');
+  const backdrop = document.getElementById('idea-backdrop');
+  const content = document.getElementById('idea-content');
+  const segmentDetail = document.getElementById('strava-details-panel');
+  const input = document.getElementById('idea-input');
+  const send = document.getElementById('idea-send');
+  const handle = document.getElementById('idea-sheet-handle');
+  const title = document.getElementById('idea-title');
+  const prompt = document.getElementById('idea-input-prompt');
+  const newChat = document.getElementById('idea-new-chat');
+  const more = document.getElementById('idea-more');
+  const menu = document.getElementById('idea-menu');
+  const historyPanel = document.getElementById('idea-history-panel');
+  const historyList = document.getElementById('idea-history-list');
+  const form = document.getElementById('idea-form');
+  const sessions = new Map();
+  let nextSessionId = 0;
+  let currentSessionId = ++nextSessionId;
+  const emptyContent = [...content.childNodes].map(node => node.cloneNode(true));
+  let history = [];
+  let previousIntent = null;
+  let sessionTitle = '';
+  let sessionEpoch = 0;
+  let menuOpen = false;
+  let menuTimer = null;
+  let greetingIndex = 0;
+  const limitIdeaTitle = text => {
+    const value = String(text || '').replace(/[\r\n]+/g, ' ').trim();
+    return Array.from(value).slice(0, 20).join('');
+  };
+  let titleTimer = null;
+  let titleTarget = '';
+  const animateIdeaTitle = text => {
+    if (text === titleTarget) return;
+    titleTarget = text;
+    clearTimeout(titleTimer);
+    input.setAttribute('aria-label', text + '，输入骑行想法');
+    if (window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+      title.textContent = text;
+      prompt.textContent = text;
+      return;
+    }
+    const characters = typeof Intl.Segmenter === 'function'
+      ? [...new Intl.Segmenter(undefined, { granularity: 'grapheme' }).segment(text)].map(part => part.segment)
+      : Array.from(text);
+    let index = 0;
+    title.textContent = '';
+    prompt.textContent = '';
+    const typeNext = () => {
+      title.textContent += characters[index++];
+      prompt.textContent = title.textContent;
+      if (index < characters.length) titleTimer = setTimeout(typeNext, 45);
+    };
+    if (characters.length) typeNext();
+  };
+  const greeting = () => {
+    const hour = new Date().getHours();
+    const greetings = hour < 11
+      ? ['早安，今天想骑向哪里看看？', '新的一天，从哪条路开始？', '早安，想去哪里感受清晨？']
+      : hour < 18
+        ? ['今天，想沿哪条路慢慢骑行？', '哪一段路，值得今天出发？', '今天的骑行，从哪里开始？']
+        : ['晚上好，想聊聊哪一段骑行？', '今天，还想去哪里慢慢看看？', '下一段路，想怎样自在骑行？'];
+    return limitIdeaTitle(greetings[(new Date().getDate() + greetingIndex) % greetings.length]);
+  };
+  animateIdeaTitle(greeting());
+  let greetingRequest = null;
+  let greetingSequence = 0;
+  const cancelGreeting = () => { greetingSequence++; greetingRequest?.abort(); greetingRequest = null; };
+  const requestGreeting = async () => {
+    cancelGreeting();
+    const sequence = greetingSequence;
+    const session = currentSessionId;
+    // Do not delay the interface if initial location is denied or slow.
+    await Promise.race([ideaLocationReady, new Promise(resolve => setTimeout(resolve, 5000))]);
+    if (sequence !== greetingSequence || currentSessionId !== session || sessionTitle || content.querySelector('.idea-user-message')) return;
+    const controller = new AbortController(); greetingRequest = controller;
+    const timeout = setTimeout(() => controller.abort(), 22000);
+    try {
+      const info = ideaGreetingLocation && Date.now() - ideaGreetingLocation.recordedAt < 10 * 60 * 1000 ? ideaGreetingLocation : null;
+      const timezone = Intl.DateTimeFormat().resolvedOptions().timeZone || 'UTC';
+      const response = await fetch(`${API_BASE_URL}/routes/idea-greeting`, {
+        method: 'POST', headers: { 'Content-Type': 'application/json' }, signal: controller.signal,
+        body: JSON.stringify({ timezone, location: info?.location || null, locationSource: info?.source || 'unknown', city: info?.city || '' })
+      });
+      if (!response.ok) return;
+      const data = await response.json();
+      if (sequence !== greetingSequence || currentSessionId !== session || sessionTitle || content.querySelector('.idea-user-message')) return;
+      if (typeof data.greeting === 'string' && data.greeting.trim()) animateIdeaTitle(limitIdeaTitle(data.greeting.trim()));
+    } catch (error) {
+      if (error.name !== 'AbortError') console.warn('[IdeaGreeting] 问候暂时不可用');
+    } finally { clearTimeout(timeout); if (greetingRequest === controller) greetingRequest = null; }
+  };
+  const setTitle = value => {
+    if (sessionTitle || typeof value !== 'string') return;
+    const clean = limitIdeaTitle(value.replace(/[\r\n]+/g, ' ').trim());
+    if (clean) { sessionTitle = clean; animateIdeaTitle(clean); }
+  };
+  const remember = (role, value) => {
+    if (typeof value !== 'string' || !value.trim()) return;
+    history.push({ role, content: value.trim().slice(0, 1000) });
+    history = history.slice(-12);
+  };
+  const describeResult = data => {
+    const parts = [data.message || ''];
+    if (data.route) {
+      parts.push(`路线：${(data.route.stops || []).map(stop => stop.name).join(' → ')}；总里程 ${Number(data.route.distanceKm).toFixed(1)} 公里；预计骑行 ${Math.round(data.route.durationMin)} 分钟${data.route.hasEstimatedTime ? '（含估算）' : ''}。`);
+      if (Array.isArray(data.route.legs)) parts.push(`分段：${data.route.legs.map(leg => `${leg.type === 'segment' ? '路段' : '导航'} ${leg.name} ${Number(leg.distanceKm).toFixed(1)} 公里`).join('；')}。`);
+      if (data.distanceNote) parts.push(data.distanceNote);
+      if (data.note) parts.push(data.note);
+    }
+    if (Array.isArray(data.items) && data.items.length) parts.push(`推荐结果：${data.items.map((item, i) => `${i + 1}. ${item.name}（${item.type === 'segment' ? '路段' : '点位'}${Number.isFinite(item.distanceKm) ? `，${item.distanceKm.toFixed(1)} 公里` : ''}）${item.reason || ''}`).join('；')}`);
+    return parts.filter(Boolean).join('\n');
+  };
+  const hideMenu = (restoreFocus = false) => {
+    if (!menuOpen && menu.hidden) return;
+    menuOpen = false;
+    menu.classList.remove('is-visible');
+    menu.inert = true;
+    more.setAttribute('aria-expanded', 'false');
+    clearTimeout(menuTimer);
+    const reducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+    menuTimer = setTimeout(() => {
+      if (!menuOpen) { menu.hidden = true; sheet.classList.remove('menu-open'); }
+    }, reducedMotion ? 0 : 220);
+    if (restoreFocus) more.focus({ preventScroll: true });
+  };
+  const showConversation = () => {
+    historyPanel.hidden = true;
+    segmentDetail.hidden = true;
+    content.hidden = false;
+    form.hidden = false;
+  };
+  const saveConversation = () => {
+    const firstMessage = content.querySelector('.idea-user-message')?.textContent?.trim();
+    if (!firstMessage) return;
+    sessions.set(currentSessionId, {
+      id: currentSessionId, title: sessionTitle || limitIdeaTitle(firstMessage), sessionTitle,
+      history: history.map(turn => ({ ...turn })), previousIntent, nodes: [...content.childNodes],
+      draft: input.value, updatedAt: Date.now()
+    });
+  };
+  const cancelConversationWork = () => {
+    sessionEpoch++;
+    ideaRequest?.abort(); ideaRequest = null;
+    ideaRouteRequest?.abort(); ideaRouteRequest = null;
+    send.disabled = false;
+  };
+  const resetConversation = () => {
+    cancelGreeting();
+    hideMenu();
+    cancelConversationWork();
+    saveConversation();
+    currentSessionId = ++nextSessionId;
+    history = []; previousIntent = null; sessionTitle = ''; greetingIndex++; animateIdeaTitle(greeting());
+    content.replaceChildren(...emptyContent.map(node => node.cloneNode(true)));
+    input.value = ''; resizeIdeaInput();
+    showConversation();
+    closeIdeaRoutePanel(); ideaMapLayer?.clearLayers(); ideaActiveRoute = null;
+    if (!expanded) setExpanded(true);
+    else loadNearbyRoutes();
+    input.focus({ preventScroll: true });
+    requestGreeting();
+  };
+  const restoreConversation = session => {
+    cancelGreeting();
+    hideMenu();
+    if (session.id !== currentSessionId) {
+      cancelConversationWork();
+      saveConversation();
+      currentSessionId = session.id;
+      history = session.history.map(turn => ({ ...turn }));
+      previousIntent = session.previousIntent;
+      sessionTitle = limitIdeaTitle(session.sessionTitle || session.title);
+      animateIdeaTitle(sessionTitle);
+      content.replaceChildren(...session.nodes);
+      input.value = session.draft || ''; resizeIdeaInput();
+      closeIdeaRoutePanel(); ideaMapLayer?.clearLayers(); ideaActiveRoute = null;
+    }
+    showConversation();
+    content.scrollTop = content.scrollHeight;
+    input.focus({ preventScroll: true });
+  };
+  const openHistory = () => {
+    hideMenu();
+    saveConversation();
+    if (!expanded) setExpanded(true);
+    content.hidden = true;
+    form.hidden = true;
+    historyPanel.hidden = false;
+    historyList.replaceChildren();
+    const ordered = [...sessions.values()].sort((a, b) => b.updatedAt - a.updatedAt);
+    if (!ordered.length) {
+      const empty = document.createElement('p'); empty.className = 'idea-history-empty'; empty.textContent = '还没有历史对话。'; historyList.append(empty);
+    } else {
+      ordered.forEach(session => {
+        const button = document.createElement('button'); button.type = 'button'; button.className = 'idea-history-item';
+        const label = document.createElement('span'); label.textContent = session.title;
+        const meta = document.createElement('small'); meta.textContent = session.id === currentSessionId ? '当前对话' : '继续对话';
+        button.append(label, meta); button.addEventListener('click', () => restoreConversation(session)); historyList.append(button);
+      });
+    }
+    document.getElementById('idea-history-back').focus({ preventScroll: true });
+  };
+  more.addEventListener('click', () => {
+    if (menuOpen) { hideMenu(); return; }
+    clearTimeout(menuTimer);
+    menuOpen = true; menu.hidden = false; menu.inert = false;
+    sheet.classList.add('menu-open'); more.setAttribute('aria-expanded', 'true');
+    menu.getBoundingClientRect();
+    requestAnimationFrame(() => { if (menuOpen) menu.classList.add('is-visible'); });
+    document.getElementById('idea-history-open').focus({ preventScroll: true });
+  });
+  menu.addEventListener('keydown', event => {
+    if (event.key !== 'ArrowDown' && event.key !== 'ArrowUp') return;
+    event.preventDefault();
+    const buttons = [...menu.querySelectorAll('button')];
+    const current = buttons.indexOf(document.activeElement);
+    const offset = event.key === 'ArrowDown' ? 1 : -1;
+    buttons[(current + offset + buttons.length) % buttons.length].focus();
+  });
+  newChat.addEventListener('click', resetConversation);
+  document.getElementById('idea-history-open').addEventListener('click', openHistory);
+  document.getElementById('idea-history-back').addEventListener('click', () => { showConversation(); more.focus({ preventScroll: true }); });
+  document.addEventListener('click', event => { if (!event.target.closest('.idea-actions') && menuOpen) hideMenu(); });
+  let expanded = false;
+  let sheetState = 'collapsed';
+  const syncIdeaEntryHeight = () => {
+    if (expanded) return;
+    const height = getComputedStyle(sheet).getPropertyValue('--idea-collapsed-height').trim();
+    document.documentElement.style.setProperty('--idea-entry-height', height);
+  };
+  const setExpanded = (next) => {
+    sheetState = next === true ? 'half' : next === false ? 'collapsed' : next;
+    if (sheetState !== 'full' && document.activeElement === input) input.blur();
+    next = sheetState !== 'collapsed';
+    expanded = next;
+    sheet.classList.toggle('is-full', sheetState === 'full');
+    if (!next) {
+      hideMenu();
+      if (segmentDetail.classList.contains('active')) closeStravaSegmentDetails();
+      showConversation();
+    }
+    sheet.classList.toggle('is-open', next);
+    handle.setAttribute('aria-expanded', String(next));
+    handle.setAttribute('aria-label', next ? '收起骑行想法' : '展开骑行想法');
+    content.inert = !next;
+    if (next) {
+      loadNearbyRoutes();
+      sheet.setAttribute('role', 'dialog');
+    } else {
+      sheet.removeAttribute('role');
+      input.blur();
+      requestAnimationFrame(syncIdeaEntryHeight);
+    }
+    if (sheetState === 'full') {
+      backdrop.hidden = false;
+      sheet.setAttribute('aria-modal', 'true');
+      requestAnimationFrame(() => { if (sheetState === 'full') backdrop.classList.add('is-open'); });
+    } else {
+      backdrop.classList.remove('is-open');
+      backdrop.hidden = true;
+      sheet.removeAttribute('aria-modal');
+    }
+  };
+  const close = () => setExpanded(false);
+  document.getElementById('strava-detail-close').addEventListener('click', () => {
+    const trigger = stravaDetailTrigger;
+    closeStravaSegmentDetails();
+    if (trigger?.isConnected) { setExpanded('half'); trigger.focus({ preventScroll: true }); }
+  });
+  document.addEventListener('strava-detail-change', event => {
+    if (event.detail.open) {
+      hideMenu();
+      historyPanel.hidden = true;
+      content.hidden = true;
+      segmentDetail.hidden = false;
+      form.hidden = false;
+      setExpanded('half');
+    } else {
+      segmentDetail.hidden = true;
+      showConversation();
+      if (sheetState !== 'collapsed') setExpanded(false);
+    }
+  });
+  const resizeIdeaInput = () => {
+    input.style.height = 'auto';
+    const viewportHeight = window.visualViewport?.height || window.innerHeight;
+    const limit = Math.min(240, Math.max(72, Math.floor(viewportHeight * 0.3)));
+    input.style.height = `${Math.min(input.scrollHeight, limit)}px`;
+    input.style.overflowY = input.scrollHeight > limit ? 'auto' : 'hidden';
+  };
+  input.addEventListener('input', resizeIdeaInput);
+  input.addEventListener('focus', () => {
+    if (sheetState !== 'full') setExpanded('full');
+    requestAnimationFrame(resizeIdeaInput);
+  });
+  input.addEventListener('keydown', event => {
+    if (event.key !== 'Enter' || event.shiftKey || event.isComposing || event.keyCode === 229) return;
+    event.preventDefault();
+    if (!send.disabled) form.requestSubmit();
+  });
+  if (window.ResizeObserver) {
+    let lastWidth = 0;
+    new ResizeObserver(entries => {
+      const width = entries[0]?.contentRect.width || 0;
+      if (Math.abs(width - lastWidth) > 0.5) { lastWidth = width; resizeIdeaInput(); }
+    }).observe(input.parentElement);
+  }
+  resizeIdeaInput();
+  backdrop.addEventListener('click', close);
+  const syncIdeaViewport = () => {
+    const viewport = window.visualViewport;
+    if (!viewport) return;
+    const keyboardInset = Math.max(0, window.innerHeight - viewport.height - viewport.offsetTop);
+    sheet.style.setProperty('--idea-viewport-height', `${viewport.height}px`);
+    sheet.style.setProperty('--idea-keyboard-inset', `${keyboardInset}px`);
+    sheet.classList.toggle('keyboard-open', keyboardInset > 100);
+    resizeIdeaInput();
+  };
+  window.visualViewport?.addEventListener('resize', syncIdeaViewport);
+  window.visualViewport?.addEventListener('scroll', syncIdeaViewport);
+  window.addEventListener('resize', syncIdeaEntryHeight);
+  if (window.ResizeObserver) {
+    const collapsedSizeObserver = new ResizeObserver(syncIdeaEntryHeight);
+    collapsedSizeObserver.observe(sheet.querySelector('.idea-header'));
+    collapsedSizeObserver.observe(form);
+  }
+  syncIdeaViewport();
+  syncIdeaEntryHeight();
+  document.getElementById('idea-route-close').addEventListener('click', closeIdeaRoutePanel);
+  map.on('click', closeIdeaRoutePanel);
+
+  const loadNearbyRoutes = async () => {
+    const list = content.querySelector('.idea-nearby-list');
+    if (!list || list.dataset.loading) return;
+    const priorKey = origin && ['manual', 'gps', 'ip'].includes(originLocationSource) ? `${Number(origin.lat).toFixed(4)},${Number(origin.lng).toFixed(4)},${originLocationSource === 'gps' && Date.now() - originGpsTimestamp >= 60000 ? 'gps-stale' : originLocationSource}` : '';
+    if (priorKey && list.dataset.loaded === priorKey) return;
+    list.dataset.loading = 'true';
+    list.textContent = '正在规划附近的骑行路线…';
+    try {
+      await Promise.race([ideaLocationReady, new Promise(resolve => setTimeout(resolve, 5000))]);
+      if (!list.isConnected) return;
+      const available = origin && ['manual', 'gps', 'ip'].includes(originLocationSource) && Number.isFinite(Number(origin.lat)) && Number.isFinite(Number(origin.lng));
+      if (!available) {
+        list.textContent = '获取当前位置或设置起点后，即可查看路线推荐。';
+        return;
+      }
+      const source = originLocationSource === 'gps' && Date.now() - originGpsTimestamp >= 60000 ? 'gps-stale' : originLocationSource;
+      const key = `${Number(origin.lat).toFixed(4)},${Number(origin.lng).toFixed(4)},${source}`;
+      if (list.dataset.loaded === key) return;
+      const response = await fetch(`${API_BASE_URL}/routes/idea-distance-recommendations`, {
+        method: 'POST', headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ origin: { lat: Number(origin.lat), lng: Number(origin.lng) }, originSource: source })
+      });
+      if (!response.ok) throw new Error('request failed');
+      const data = await response.json();
+      if (!list.isConnected) return;
+      // Do not display results calculated from a location that has since changed.
+      if (!origin || `${Number(origin.lat).toFixed(4)},${Number(origin.lng).toFixed(4)}` !== key.split(',').slice(0, 2).join(',')) {
+        setTimeout(() => { if (list.isConnected) loadNearbyRoutes(); }, 0); return;
+      }
+      list.replaceChildren();
+      (data.recommendations || []).forEach(({ targetKm, route, segmentScore }) => {
+        if (![20, 50, 100].includes(targetKm)) return;
+        const card = document.createElement(route ? 'button' : 'div');
+        if (route) card.type = 'button';
+        card.className = 'idea-nearby-route';
+        const name = document.createElement('strong'); name.textContent = `${targetKm} 公里左右`;
+        const distance = document.createElement('span');
+        if (route && Number.isFinite(Number(route.distanceKm)) && Array.isArray(route.legs)) {
+          const segment = route.legs.find(leg => leg.type === 'segment');
+          distance.textContent = `实际约 ${Number(route.distanceKm).toFixed(1)} 公里 · ${segment?.name || '往返骑行'}${Number.isFinite(segmentScore) ? ` · 路段评分 ${segmentScore.toFixed(1)}` : ''}`;
+          card.addEventListener('click', () => showCompositeIdeaRoute({ route, distanceNote: `目标约 ${targetKm} 公里，实际约 ${Number(route.distanceKm).toFixed(1)} 公里。`, note: [source === 'ip' ? '起点使用 IP 大致位置，可能与实际位置有偏差。' : source === 'gps-stale' ? '起点使用上次定位的位置，请确认是否仍准确。' : '', '路段里程按轨迹估算；部分骑行时间为估算值。'].filter(Boolean).join(' ') }, close));
+        } else { distance.textContent = '暂未找到符合距离的路线'; card.classList.add('is-unavailable'); }
+        card.append(name, distance); list.append(card);
+      });
+      if (!list.childElementCount) throw new Error('empty response');
+      list.dataset.loaded = key;
+    } catch (_) {
+      if (list.isConnected) {
+        list.replaceChildren();
+        const retry = document.createElement('button'); retry.type = 'button'; retry.className = 'idea-nearby-retry'; retry.textContent = '路线推荐暂时不可用，点击重试';
+        retry.addEventListener('click', loadNearbyRoutes); list.append(retry);
+      }
+    } finally { delete list.dataset.loading; }
+  };
+
+  const states = ['collapsed', 'half', 'full'];
+  let startY = null;
+  let startHeight = 0;
+  let dragDistance = 0;
+  let dragged = false;
+  let dragPointer = null;
+  const beginDrag = y => {
+    startY = y; startHeight = sheet.getBoundingClientRect().height; dragDistance = 0; dragged = false;
+    sheet.classList.add('is-dragging');
+  };
+  const moveDrag = y => {
+    dragDistance = startY - y;
+    if (Math.abs(dragDistance) > 5) dragged = true;
+    const viewportHeight = window.visualViewport?.height || window.innerHeight;
+    const minHeight = parseFloat(getComputedStyle(sheet).getPropertyValue('--idea-collapsed-height')) || 120;
+    const height = Math.max(minHeight, Math.min(viewportHeight, startHeight + dragDistance));
+    sheet.style.height = `${height}px`;
+    if (sheetState !== 'full') {
+      const inset = 12 - Math.min(4, Math.max(0, height - minHeight));
+      sheet.style.setProperty('--idea-sheet-inset', `${inset}px`);
+    }
+  };
+  const finishDrag = (cancelled = false) => {
+    if (startY === null) return;
+    startY = null;
+    sheet.classList.remove('is-dragging');
+    if (!cancelled && Math.abs(dragDistance) >= 60) {
+      const index = states.indexOf(sheetState);
+      setExpanded(states[Math.max(0, Math.min(2, index + (dragDistance > 0 ? 1 : -1)))]);
+    }
+    sheet.getBoundingClientRect();
+    sheet.style.removeProperty('height');
+  };
+  handle.addEventListener('pointerdown', event => {
+    if (event.button !== 0) return;
+    dragPointer = event.pointerId; handle.setPointerCapture(event.pointerId); beginDrag(event.clientY);
+  });
+  handle.addEventListener('pointermove', event => { if (event.pointerId === dragPointer && startY !== null) moveDrag(event.clientY); });
+  handle.addEventListener('pointerup', () => { finishDrag(); dragPointer = null; });
+  handle.addEventListener('pointercancel', () => { finishDrag(true); dragPointer = null; });
+  handle.addEventListener('click', event => {
+    if (dragged) { event.preventDefault(); dragged = false; return; }
+    setExpanded(sheetState === 'collapsed' ? 'half' : sheetState === 'half' ? 'full' : 'collapsed');
+  });
+  // Content keeps normal scrolling; a swipe at its boundary moves the sheet.
+  let touchStart = null;
+  let touchDragging = false;
+  sheet.addEventListener('touchstart', event => {
+    if (event.target.closest('.idea-handle, textarea, input')) return;
+    touchStart = event.touches[0].clientY; touchDragging = false;
+  }, { passive: true });
+  sheet.addEventListener('touchmove', event => {
+    if (touchStart === null) return;
+    const y = event.touches[0].clientY;
+    const delta = touchStart - y;
+    const scroller = event.target.closest('.idea-content, .idea-history');
+    const atTop = !scroller || scroller.scrollTop <= 0;
+    const atBottom = !scroller || scroller.scrollTop + scroller.clientHeight >= scroller.scrollHeight - 1;
+    const canMove = delta > 0 ? sheetState !== 'full' && (atTop || atBottom) : sheetState !== 'collapsed' && atTop;
+    if (!touchDragging && Math.abs(delta) > 8 && canMove) { beginDrag(touchStart); touchDragging = true; }
+    if (touchDragging) { if (event.cancelable) event.preventDefault(); moveDrag(y); }
+  }, { passive: false });
+  sheet.addEventListener('touchend', () => { if (touchDragging) finishDrag(); touchStart = null; touchDragging = false; });
+  sheet.addEventListener('touchcancel', () => { if (touchDragging) finishDrag(true); touchStart = null; touchDragging = false; });
+  sheet.addEventListener('keydown', event => {
+    if (event.key === 'Escape') { if (menuOpen) { hideMenu(true); } else if (!historyPanel.hidden) { showConversation(); more.focus({ preventScroll: true }); } else close(); return; }
+    if (event.key !== 'Tab' || sheetState !== 'full') return;
+    const focusable = [...sheet.querySelectorAll('button:not(:disabled), input:not(:disabled), textarea:not(:disabled)')].filter(el => el.offsetParent !== null && !el.closest('[inert]'));
+    if (!focusable.length) return;
+    if (event.shiftKey && document.activeElement === focusable[0]) { event.preventDefault(); focusable[focusable.length - 1].focus(); }
+    else if (!event.shiftKey && document.activeElement === focusable[focusable.length - 1]) { event.preventDefault(); focusable[0].focus(); }
+  });
+  content.addEventListener('click', event => {
+    const example = event.target.closest('[data-idea]');
+    if (example) { input.value = example.dataset.idea; document.getElementById('idea-form').requestSubmit(); }
+  });
+  document.getElementById('idea-form').addEventListener('submit', async event => {
+    event.preventDefault();
+    const idea = input.value.trim();
+    if (!idea) { input.focus(); return; }
+    cancelGreeting();
+    ideaRequest?.abort();
+    ideaRouteRequest?.abort();
+    const request = new AbortController(); ideaRequest = request;
+    const epoch = sessionEpoch;
+    const sessionAtSubmit = currentSessionId;
+    const priorHistory = history.map(turn => ({ ...turn }));
+    send.disabled = true;
+    content.querySelector('.idea-nearby')?.remove();
+    content.querySelector('.idea-examples')?.remove();
+    const sourceRect = input.getBoundingClientRect();
+    const bubble = document.createElement('p'); bubble.className = 'idea-user-message'; bubble.textContent = idea;
+    content.append(bubble); input.value = ''; resizeIdeaInput();
+    const status = document.createElement('div'); status.className = 'idea-progress';
+    const heading = document.createElement('button'); heading.type = 'button'; heading.className = 'idea-progress-title is-thinking';
+    heading.setAttribute('aria-expanded', 'true');
+    const headingText = document.createElement('span'); headingText.textContent = '正在思考';
+    const chevron = document.createElementNS('http://www.w3.org/2000/svg', 'svg');
+    chevron.setAttribute('viewBox', '0 0 1024 1024'); chevron.setAttribute('aria-hidden', 'true');
+    const path = document.createElementNS('http://www.w3.org/2000/svg', 'path');
+    path.setAttribute('d', 'M192 384l320 320 320-320-90.5-90.5L512 522.7 282.5 293.5z'); path.setAttribute('fill', 'currentColor'); chevron.append(path);
+    heading.append(headingText, chevron);
+    const steps = document.createElement('ol'); steps.className = 'idea-progress-steps is-loading';
+    heading.addEventListener('click', () => { const expanded = heading.getAttribute('aria-expanded') !== 'true'; heading.setAttribute('aria-expanded', String(expanded)); steps.hidden = !expanded; });
+    status.append(heading, steps); content.append(status);
+    content.scrollTop = content.scrollHeight;
+    animateIdeaMessage(bubble, sourceRect);
+    const addStep = stage => {
+      const previous = steps.lastElementChild;
+      if (previous) previous.classList.add('done');
+      const step = document.createElement('li'); step.textContent = stage; steps.append(step);
+      content.scrollTop = content.scrollHeight;
+    };
+    try {
+      const center = map.getCenter();
+      const response = await fetch(`${API_BASE_URL}/routes/idea-recommendations`, { method: 'POST', headers: { 'Content-Type': 'application/json', 'Accept': 'text/event-stream' }, body: JSON.stringify({ idea, center: { lat: center.lat, lng: center.lng }, origin: origin && ['manual', 'gps', 'ip'].includes(originLocationSource) && Number.isFinite(Number(origin.lat)) && Number.isFinite(Number(origin.lng)) ? { lat: Number(origin.lat), lng: Number(origin.lng) } : null, originSource: originLocationSource === 'gps' && Date.now() - originGpsTimestamp >= 60000 ? 'gps-stale' : originLocationSource, history: priorHistory, previousIntent }), signal: request.signal });
+      let data;
+      if (!response.ok) { const error = await response.json(); throw new Error(error.error || '推荐暂时不可用，请稍后重试。'); }
+      if ((response.headers.get('content-type') || '').includes('text/event-stream')) {
+        data = await readIdeaStream(response, addStep, value => { if (sessionEpoch === epoch && ideaRequest === request) setTitle(value); });
+      } else { data = await response.json(); }
+      if (ideaRequest !== request || sessionEpoch !== epoch) return;
+      setTitle(data.title || idea);
+      if (data.contextIntent) previousIntent = data.contextIntent;
+      remember('user', idea); remember('assistant', describeResult(data));
+      if (steps.lastElementChild) steps.lastElementChild.classList.add('done');
+      headingText.textContent = '思考完成';
+      heading.classList.remove('is-thinking'); heading.setAttribute('aria-expanded', 'false'); steps.hidden = true;
+      const answer = document.createElement('p'); answer.className = 'idea-answer'; answer.textContent = data.message || ''; content.append(answer);
+      if (Array.isArray(data.options) && data.options.length) {
+        const choices = document.createElement('div'); choices.className = 'idea-card-actions';
+        data.options.slice(0, 3).forEach(option => {
+          if (typeof option !== 'string' || !option.trim()) return;
+          const button = document.createElement('button'); button.type = 'button'; button.textContent = option;
+          button.addEventListener('click', () => { if (currentSessionId !== sessionAtSubmit || send.disabled) return; input.value = option; document.getElementById('idea-form').requestSubmit(); });
+          choices.append(button);
+        });
+        content.append(choices);
+      }
+      if (data.needsOrigin) {
+        const locate = document.createElement('button'); locate.type = 'button'; locate.className = 'idea-locate'; locate.textContent = '使用当前位置重新规划';
+        const locateStatus = document.createElement('p'); locateStatus.className = 'idea-route-status'; locateStatus.setAttribute('role', 'status');
+        locate.addEventListener('click', async () => {
+          if (currentSessionId !== sessionAtSubmit) return;
+          const locateEpoch = sessionEpoch;
+          locate.disabled = true; locateStatus.textContent = '正在获取当前位置…';
+          try { await ideaRouteOrigin(); if (sessionEpoch !== locateEpoch) return; input.value = idea; document.getElementById('idea-form').requestSubmit(); }
+          catch (error) { locateStatus.textContent = error.message || '定位失败，请手动设置起点。'; }
+          finally { locate.disabled = false; }
+        });
+        content.append(locate, locateStatus);
+      }
+      if (data.route) {
+        const card = document.createElement('article'); card.className = 'idea-card idea-composite-card';
+        const type = document.createElement('div'); type.className = 'idea-card-type'; type.textContent = '完整骑行路线';
+        const title = document.createElement('h3'); title.textContent = `${Number(data.route.distanceKm).toFixed(1)} 公里 · 约 ${Math.round(data.route.durationMin)} 分钟`;
+        const sequence = document.createElement('p'); sequence.textContent = data.route.stops.map(stop => stop.name).join(' → ');
+        const legs = document.createElement('ol'); legs.className = 'idea-route-legs';
+        (data.route.legs || []).forEach(leg => {
+          const row = document.createElement('li');
+          const details = [];
+          if (leg.detail) {
+            if (Number.isFinite(leg.detail.averageGrade)) details.push(`平均坡度 ${leg.detail.averageGrade}%`);
+            if (Number.isFinite(leg.detail.elevationGainM)) details.push(`爬升 ${leg.detail.elevationGainM} 米`);
+            if (Number.isFinite(leg.detail.athleteCount)) details.push(`${leg.detail.athleteCount} 人骑过`);
+            if (leg.detail.hazardous === true) details.push('标记为危险');
+          }
+          row.textContent = `${leg.type === 'segment' ? '路段' : '导航'} · ${leg.name} · ${Number(leg.distanceKm).toFixed(1)} 公里${details.length ? `（${details.join(' · ')}）` : ''}`;
+          legs.append(row);
+        });
+        const note = document.createElement('p'); note.className = 'idea-composite-note'; note.textContent = [data.distanceNote, data.note].filter(Boolean).join(' ');
+        const actions = document.createElement('div'); actions.className = 'idea-card-actions';
+        const show = document.createElement('button'); show.type = 'button'; show.textContent = '查看完整路线'; show.addEventListener('click', () => { if (currentSessionId !== sessionAtSubmit) return; remember('assistant', `用户查看了路线：${data.route.stops.map(stop => stop.name).join(' → ')}，总里程 ${Number(data.route.distanceKm).toFixed(1)} 公里。`); showCompositeIdeaRoute(data, close); });
+        actions.append(show); card.append(type, title, sequence, legs, note, actions); content.append(card);
+      }
+      const items = Array.isArray(data.items) ? data.items : [];
+      items.forEach(item => {
+        const card = document.createElement('article'); card.className = 'idea-card';
+        const type = document.createElement('div'); type.className = 'idea-card-type'; type.textContent = item.type === 'point' ? '推荐点位' : `骑行路段${Number.isFinite(item.distanceKm) ? ` · ${item.distanceKm.toFixed(1)} 公里` : ''}`;
+        const title = document.createElement('h3'); title.textContent = item.name;
+        const reason = document.createElement('p'); reason.textContent = item.reason;
+        const actions = document.createElement('div'); actions.className = 'idea-card-actions';
+        const show = document.createElement('button'); show.type = 'button'; show.textContent = '在地图查看'; show.addEventListener('click', () => { if (currentSessionId !== sessionAtSubmit) return; remember('assistant', `用户查看了${item.type === 'segment' ? '路段' : '点位'}：${item.name}。`); showIdeaOnMap(item, close); });
+        const route = document.createElement('button'); route.type = 'button'; route.textContent = '规划前往路线'; route.addEventListener('click', () => { if (currentSessionId !== sessionAtSubmit) return; remember('assistant', `用户选择规划前往${item.name}。`); planIdeaRoute(item, route, close); });
+        const routeStatus = document.createElement('p'); routeStatus.className = 'idea-route-status'; routeStatus.setAttribute('role', 'status');
+        actions.append(show, route);
+        if (item.type === 'segment') {
+          const detail = document.createElement('button'); detail.type = 'button'; detail.textContent = '路段详情';
+          detail.addEventListener('click', () => { if (currentSessionId === sessionAtSubmit) showStravaSegmentDetails(item, detail); });
+          actions.append(detail);
+        }
+        card.append(type, title, reason, actions, routeStatus); content.append(card);
+      });
+      content.scrollTop = content.scrollHeight;
+    } catch (error) {
+      if (error.name !== 'AbortError') { headingText.textContent = '思考未完成'; status.classList.add('has-error'); const message = document.createElement('p'); message.className = 'idea-route-status'; message.textContent = error.message || '网络连接失败，请稍后重试。'; content.append(message); }
+      else { headingText.textContent = '已取消'; }
+      heading.classList.remove('is-thinking');
+    } finally {
+      steps.classList.remove('is-loading');
+      if (ideaRequest === request) { send.disabled = false; ideaRequest = null; }
+    }
+  });
+  requestGreeting();
+});
+
+function animateIdeaMessage(bubble, sourceRect) {
+  if (window.matchMedia('(prefers-reduced-motion: reduce)').matches || !bubble.animate) return;
+  const target = bubble.getBoundingClientRect();
+  const flying = bubble.cloneNode(true);
+  Object.assign(flying.style, { position: 'fixed', zIndex: '3001', left: `${target.left}px`, top: `${target.top}px`, width: `${target.width}px`, maxWidth: 'none', margin: '0', pointerEvents: 'none' });
+  flying.setAttribute('aria-hidden', 'true'); document.body.append(flying); bubble.style.visibility = 'hidden';
+  const animation = flying.animate([
+    { transform: `translate(${sourceRect.left - target.left}px, ${sourceRect.top - target.top}px) scale(.92)`, opacity: .45 },
+    { transform: 'translate(0, 0) scale(1)', opacity: 1 }
+  ], { duration: 380, easing: 'cubic-bezier(.2,.8,.2,1)' });
+  animation.finished.catch(() => {}).finally(() => { flying.remove(); bubble.style.visibility = ''; });
+}
+
+async function readIdeaStream(response, onProgress, onTitle = () => {}) {
+  if (!response.body) throw new Error('推荐服务未返回结果，请重试。');
+  const reader = response.body.getReader();
+  const decoder = new TextDecoder();
+  let buffer = ''; let result;
+  const processEvent = block => {
+    let event = 'message'; const data = [];
+    block.split(/\r?\n/).forEach(line => { if (line.startsWith('event:')) event = line.slice(6).trim(); else if (line.startsWith('data:')) data.push(line.slice(5).trim()); });
+    if (!data.length) return;
+    const payload = JSON.parse(data.join('\n'));
+    if (event === 'progress') onProgress(payload.stage);
+    else if (event === 'title') onTitle(payload.title);
+    else if (event === 'result') result = payload;
+    else if (event === 'error') throw new Error(payload.error || '推荐暂时不可用，请稍后重试。');
+  };
+  while (true) {
+    const { value, done } = await reader.read();
+    buffer += decoder.decode(value || new Uint8Array(), { stream: !done });
+    const blocks = buffer.split(/\r?\n\r?\n/); buffer = blocks.pop(); blocks.forEach(processEvent);
+    if (done) break;
+  }
+  if (buffer.trim()) processEvent(buffer);
+  if (!result) throw new Error('推荐连接中断，请重试。');
+  return result;
+}
+
+function closeIdeaRoutePanel() {
+  const panel = document.getElementById('idea-route-panel');
+  panel?.classList.remove('active');
+  panel?.setAttribute('aria-hidden', 'true');
+}
+function showIdeaRoutePanel() {
+  if (!ideaActiveRoute) return;
+  closeStravaSegmentDetails(); closeHotPointDetails();
+  const { item, route, source, composite } = ideaActiveRoute;
+  document.getElementById('idea-route-title').textContent = composite ? '完整骑行路线' : `前往 ${item.name}`;
+  document.getElementById('idea-route-origin').textContent = composite ? route.stops.map(stop => stop.name).join(' → ') : (source === 'manual' ? '从所选起点出发' : '从当前位置出发');
+  const note = document.getElementById('idea-route-note');
+  note.textContent = composite ? [composite.distanceNote, composite.note].filter(Boolean).join(' ') : '';
+  const durationLabel = document.getElementById('idea-route-duration-label');
+  durationLabel.textContent = composite && route.hasEstimatedTime ? '预计骑行（含估算）' : '预计骑行';
+  document.getElementById('idea-route-distance').textContent = Number(route.distanceKm).toFixed(1);
+  document.getElementById('idea-route-duration').textContent = Number.isFinite(Number(route.durationMin)) && Number(route.durationMin) > 0 ? Math.round(Number(route.durationMin)) : '--';
+  document.getElementById('idea-route-signals').textContent = route.trafficLightsCount == null ? '--' : String(route.trafficLightsCount);
+  const panel = document.getElementById('idea-route-panel');
+  panel.classList.add('active');
+  panel.removeAttribute('aria-hidden');
+}
+
+
+function showCompositeIdeaRoute(data, close) {
+  const route = data.route;
+  if (!Array.isArray(route.legs) || !route.legs.length) return;
+  closeStravaSegmentDetails(); closeHotPointDetails();
+  if (!ideaMapLayer) ideaMapLayer = L.layerGroup().addTo(map);
+  ideaMapLayer.clearLayers();
+  ideaActiveRoute = { route, composite: { distanceNote: data.distanceNote, note: data.note } };
+  const allPoints = [];
+  route.legs.forEach(leg => {
+    if (!Array.isArray(leg.points) || leg.points.length < 2) return;
+    const points = leg.points.map(point => [point.lat, point.lng]); allPoints.push(...points);
+    const line = L.polyline(points, { pane: 'plannedRoutes', color: leg.type === 'segment' ? '#ffd600' : '#00e676', weight: leg.type === 'segment' ? 7 : 5, opacity: .95 }).addTo(ideaMapLayer);
+    line.on('click', event => { L.DomEvent.stopPropagation(event); showIdeaRoutePanel(); });
+  });
+  route.stops.forEach(stop => {
+    const marker = L.circleMarker([stop.point.lat, stop.point.lng], { pane: 'plannedRoutes', radius: stop.type === 'point' ? 8 : 6, color: '#fff', fillColor: stop.type === 'point' ? '#ff9100' : '#00b0ff', fillOpacity: 1, weight: 2 }).addTo(ideaMapLayer);
+    const label = document.createElement('span'); label.textContent = stop.name; marker.bindTooltip(label);
+    marker.on('click', event => { L.DomEvent.stopPropagation(event); showIdeaRoutePanel(); });
+  });
+  if (allPoints.length) map.fitBounds(L.latLngBounds(allPoints), { paddingTopLeft: [45, 60], paddingBottomRight: [45, 230], maxZoom: 16 });
+  close(); showIdeaRoutePanel();
+  updateLocationSearchStatus(`完整骑行路线已规划，约 ${Number(route.distanceKm).toFixed(1)} 公里`);
+}
+
+function showIdeaOnMap(item, close) {
+  closeIdeaRoutePanel(); ideaActiveRoute = null;
+  if (!ideaMapLayer) ideaMapLayer = L.layerGroup().addTo(map);
+  ideaMapLayer.clearLayers();
+  if (item.type === 'segment' && item.coordinates?.length) {
+    const line = L.polyline(item.coordinates.map(p => [p.lat, p.lng]), { color: '#66e9a0', weight: 6 }).addTo(ideaMapLayer);
+    map.fitBounds(line.getBounds(), { padding: [60, 60], maxZoom: 16 });
+  } else {
+    L.circleMarker([item.lat, item.lng], { radius: 9, color: '#d9ffe5', fillColor: '#00e676', fillOpacity: 1, weight: 3 }).addTo(ideaMapLayer);
+    map.flyTo([item.lat, item.lng], 15);
+  }
+  close();
+  if (item.type === 'segment') showStravaSegmentDetails(item);
+}
+
+function ideaRouteOrigin() {
+  if (origin && originLocationSource === 'manual') return Promise.resolve({ point: { lat: Number(origin.lat), lng: Number(origin.lng) }, source: 'manual' });
+  if (!navigator.geolocation || !window.isSecureContext) return Promise.reject(new Error('无法获取准确位置，请开启定位或手动设置起点。'));
+  return new Promise((resolve, reject) => navigator.geolocation.getCurrentPosition(position => {
+    origin = { lat: position.coords.latitude, lng: position.coords.longitude }; originLocationSource = 'gps'; originGpsTimestamp = Date.now();
+    setIdeaGreetingLocation({ ...origin }, 'gps');
+    document.getElementById('origin-input').value = '当前位置';
+    resolve({ point: { ...origin }, source: 'gps' });
+  }, () => reject(new Error('无法获取准确位置，请开启定位或手动设置起点。')), { enableHighAccuracy: true, timeout: 10000, maximumAge: 60000 }));
+}
+
+async function planIdeaRoute(item, button, close) {
+  ideaRouteRequest?.abort();
+  const request = new AbortController(); ideaRouteRequest = request;
+  const status = button.closest('.idea-card').querySelector('.idea-route-status');
+  button.disabled = true; button.textContent = '正在定位…'; status.textContent = '';
+  const timer = setTimeout(() => request.abort(), 35000);
+  try {
+    const start = await ideaRouteOrigin();
+    if (request.signal.aborted) throw new Error('定位或路线规划超时，请重试。');
+    button.textContent = '正在规划…';
+    const response = await fetch(`${API_BASE_URL}/routes/plan-fewest-signals`, { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify({ origin: start.point, destination: { lat: item.lat, lng: item.lng } }), signal: request.signal });
+    const route = await response.json();
+    if (!response.ok || !route.polyline || !Number.isFinite(Number(route.distanceKm))) throw new Error('路线规划暂时不可用，请稍后重试。');
+    const points = decodePolyline(route.polyline);
+    if (points.length < 2) throw new Error('路线规划暂时不可用，请稍后重试。');
+    if (!ideaMapLayer) ideaMapLayer = L.layerGroup().addTo(map);
+    ideaMapLayer.clearLayers(); ideaActiveRoute = { item, route, source: start.source };
+    const line = L.polyline(points, { pane: 'plannedRoutes', color: '#00e676', weight: 6, opacity: .9 }).addTo(ideaMapLayer);
+    line.on('click', event => { L.DomEvent.stopPropagation(event); showIdeaRoutePanel(); });
+    L.circleMarker([start.point.lat, start.point.lng], { pane: 'plannedRoutes', radius: 6, color: '#fff', fillColor: '#00b0ff', fillOpacity: 1 }).addTo(ideaMapLayer);
+    L.circleMarker([item.lat, item.lng], { pane: 'plannedRoutes', radius: 8, color: '#fff', fillColor: '#00e676', fillOpacity: 1 }).addTo(ideaMapLayer);
+    map.fitBounds(line.getBounds(), { paddingTopLeft: [45, 60], paddingBottomRight: [45, 220], maxZoom: 16 });
+    close(); showIdeaRoutePanel();
+    updateLocationSearchStatus(`骑行路线已规划，约 ${Number(route.distanceKm).toFixed(1)} 公里`);
+  } catch (error) {
+    if (ideaRouteRequest === request) status.textContent = error.name === 'AbortError' ? '路线规划已取消或超时，请重试。' : (error.message || '规划失败，请重试。');
+  } finally {
+    clearTimeout(timer);
+    button.disabled = false; button.textContent = '规划前往路线';
+    if (ideaRouteRequest === request) ideaRouteRequest = null;
+  }
 }

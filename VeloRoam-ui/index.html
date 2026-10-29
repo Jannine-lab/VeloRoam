@@ -21,23 +21,44 @@
     integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin="" />
 
   <!-- Custom CSS Style -->
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="style.css?v=20261028-idea-font13">
 </head>
 
 <body>
 
   <!-- 1. 全屏地图容器 -->
   <div id="map"></div>
+  <div class="startup-location-status" id="startup-location-status" role="status" aria-label="正在定位，请稍候">
+    <div class="startup-wordmark" aria-hidden="true"><span class="startup-wordmark-velo">Velo</span><span class="startup-wordmark-roam">Roam</span></div>
+  </div>
 
   <!-- 2. 地图右侧浮动操作面板 (仿苹果地图悬浮键) -->
   <div class="map-floating-actions">
-    <button class="map-action-btn" id="btn-toggle-theme" title="切换暗黑极客主题">
+    <!-- 热门点位显示暂时关闭，保留入口便于后续恢复。
+    <button class="map-action-btn active" id="btn-toggle-hotpoint-heatmap" title="关闭热门点位热力图" aria-label="关闭热门点位热力图"
+      aria-pressed="true">
+      <i class="fa-solid fa-fire-flame-curved"></i>
+    </button>
+    -->
+    <button class="map-action-btn" id="btn-toggle-theme" title="当前黑底地图，切换到白底地图" aria-label="当前黑底地图，切换到白底地图">
       <i class="fa-solid fa-layer-group"></i>
     </button>
     <button class="map-action-btn" id="btn-recenter" title="定位当前位置">
       <i class="fa-solid fa-location-arrow"></i>
     </button>
   </div>
+
+  <!-- 热门点位热力图颜色图例 -->
+  <!-- 热门点位显示暂时关闭，保留图例结构便于后续恢复。
+  <div class="heatmap-legend" id="hotpoint-heatmap-legend" aria-hidden="true">
+    <div class="heatmap-legend-row">
+      <span class="heatmap-legend-edge-label">分散</span>
+      <div class="heatmap-legend-gradient"></div>
+      <span class="heatmap-legend-edge-label">密集</span>
+    </div>
+    <span class="heatmap-legend-title">点位热力</span>
+  </div>
+  -->
 
   <!-- 3. 苹果风格卡片抽屉 (Apple Maps Style Sliding Bottom Sheet) -->
   <div class="apple-panel collapsed" id="apple-panel">
@@ -283,37 +304,79 @@
     <span class="loading-text">正在为您计算专属最优骑行路线...</span>
   </div>
 
-  <!-- 4. Strava 黄金路段底部详情面板 -->
-  <div class="strava-details-panel" id="strava-details-panel">
-    <button class="strava-panel-close-btn" id="btn-close-strava-panel" title="关闭">
-      <i class="fa-solid fa-xmark"></i>
+  <!-- 4. 底部位置搜索与 AI 语音入口 -->
+  <div class="location-search-dock" id="location-search-dock" hidden>
+    <button type="button" class="location-search-back" id="location-search-back" aria-label="返回附近推荐" hidden>
+      <i class="fa-solid fa-arrow-left" aria-hidden="true"></i>
     </button>
-    <div class="strava-panel-header">
-      <i class="fa-solid fa-bolt"></i>
-      <span class="strava-panel-tag">Strava 黄金探索路段</span>
+    <div class="location-search-field">
+      <i class="fa-solid fa-magnifying-glass location-search-icon" aria-hidden="true"></i>
+      <input type="search" id="location-search-input" class="location-search-input" placeholder="搜索地址或地点"
+        aria-label="搜索地址或地点" autocomplete="off" enterkeyhint="search">
+      <button type="button" class="location-search-clear" id="location-search-clear" aria-label="清空搜索" hidden>
+        <i class="fa-solid fa-circle-xmark"></i>
+      </button>
+      <div class="location-search-results" id="location-search-results" role="listbox"
+        aria-label="地址搜索结果"></div>
     </div>
-    <div class="strava-panel-title" id="strava-panel-title">--</div>
-    <div class="strava-panel-stats">
-      <div class="strava-stat-item">
-        <span class="strava-stat-label">路段评分</span>
-        <span class="strava-stat-value" id="strava-stat-score">--</span>
-      </div>
-      <div class="strava-stat-divider"></div>
-      <div class="strava-stat-item">
-        <span class="strava-stat-label">路段距离</span>
-        <span class="strava-stat-value"><span id="strava-stat-distance">--</span> <span
-            class="strava-stat-unit">km</span></span>
-      </div>
-      <div class="strava-stat-divider"></div>
-      <div class="strava-stat-item">
-        <span class="strava-stat-label">平均坡度</span>
-        <span class="strava-stat-value"><span id="strava-stat-grade">--</span> <span
-            class="strava-stat-unit">%</span></span>
-      </div>
-    </div>
+    <span class="sr-only" id="location-search-status" aria-live="polite"></span>
   </div>
 
-  <!-- 5. 热门点位底部详情面板 -->
+  <section class="strava-details-panel home-recommendation-panel" id="home-recommendations"
+    aria-labelledby="home-recommendations-title" hidden>
+    <button type="button" class="strava-panel-close-btn" id="home-recommendations-search"
+      aria-label="搜索地点" title="搜索地点">
+      <i class="fa-solid fa-magnifying-glass" aria-hidden="true"></i>
+    </button>
+    <div class="strava-panel-header">
+      <i class="fa-solid fa-route" id="home-recommendation-icon" aria-hidden="true"></i>
+      <span class="strava-panel-tag">为你推荐</span>
+    </div>
+    <h2 class="strava-panel-title" id="home-recommendations-title">正在查找附近路段</h2>
+    <p class="home-recommendation-summary" id="home-recommendation-summary">从当前位置出发</p>
+    <div class="strava-panel-stats" id="home-recommendation-stats" hidden>
+      <div class="strava-stat-item">
+        <span class="strava-stat-label">总里程</span>
+        <span class="strava-stat-value"><span id="home-recommendation-total">--</span> <span class="strava-stat-unit">km</span></span>
+      </div>
+      <div class="strava-stat-divider"></div>
+      <div class="strava-stat-item">
+        <span class="strava-stat-label">到路段</span>
+        <span class="strava-stat-value"><span id="home-recommendation-approach">--</span> <span class="strava-stat-unit">km</span></span>
+      </div>
+      <div class="strava-stat-divider"></div>
+      <div class="strava-stat-item">
+        <span class="strava-stat-label">骑行路段</span>
+        <span class="strava-stat-value"><span id="home-recommendation-segment">--</span> <span class="strava-stat-unit">km</span></span>
+      </div>
+    </div>
+    <div class="home-recommendation-actions">
+      <button type="button" id="home-recommendations-retry" hidden>重试</button>
+      <button type="button" id="home-recommendations-detail" hidden>查看路段 <i class="fa-solid fa-chevron-right" aria-hidden="true"></i></button>
+    </div>
+    <span class="sr-only" id="home-recommendations-status" role="status" aria-live="polite"></span>
+  </section>
+
+  <section class="strava-details-panel place-details-panel" id="place-details-panel"
+    aria-labelledby="place-details-title" hidden>
+    <button type="button" class="strava-panel-close-btn" id="place-details-close" aria-label="关闭地点详情" title="关闭">
+      <i class="fa-solid fa-xmark" aria-hidden="true"></i>
+    </button>
+    <div class="strava-panel-header">
+      <i class="fa-solid fa-location-dot" aria-hidden="true"></i>
+      <span class="strava-panel-tag">目的地</span>
+    </div>
+    <h2 class="strava-panel-title" id="place-details-title">--</h2>
+    <p class="place-details-address" id="place-details-address"></p>
+    <p class="place-details-origin" id="place-details-origin"></p>
+    <p class="place-details-message" id="place-details-message" role="status" aria-live="polite" hidden></p>
+    <button type="button" class="place-details-go" id="place-details-go">
+      <i class="fa-solid fa-location-arrow" aria-hidden="true"></i>
+      <span>前往</span>
+    </button>
+  </section>
+
+  <!-- 6. 热门点位底部详情面板（暂时关闭，保留结构便于后续恢复）
   <div class="strava-details-panel hotpoint-details-panel" id="hotpoint-details-panel">
     <button class="strava-panel-close-btn" id="btn-close-hotpoint-panel" title="关闭">
       <i class="fa-solid fa-xmark"></i>
@@ -341,6 +404,85 @@
       </div>
     </div>
   </div>
+  -->
+
+  <section class="strava-details-panel idea-route-panel" id="idea-route-panel" aria-label="骑行路线详情" aria-hidden="true">
+    <button type="button" class="strava-panel-close-btn" id="idea-route-close" aria-label="关闭路线详情"><i class="fa-solid fa-xmark" aria-hidden="true"></i></button>
+    <div class="strava-panel-header"><i class="fa-solid fa-route" aria-hidden="true"></i><span class="strava-panel-tag">骑行路线</span></div>
+    <h2 class="strava-panel-title" id="idea-route-title"></h2>
+    <p class="idea-route-origin" id="idea-route-origin"></p>
+    <p class="idea-route-note" id="idea-route-note"></p>
+    <div class="strava-panel-stats">
+      <div class="strava-stat-item"><span class="strava-stat-label">路线距离</span><span class="strava-stat-value"><span id="idea-route-distance">--</span> <span class="strava-stat-unit">km</span></span></div>
+      <div class="strava-stat-divider"></div>
+      <div class="strava-stat-item"><span class="strava-stat-label" id="idea-route-duration-label">预计骑行</span><span class="strava-stat-value"><span id="idea-route-duration">--</span> <span class="strava-stat-unit">分钟</span></span></div>
+      <div class="strava-stat-divider"></div>
+      <div class="strava-stat-item"><span class="strava-stat-label">红绿灯估计</span><span class="strava-stat-value"><span id="idea-route-signals">--</span></span></div>
+    </div>
+  </section>
+
+  <div class="idea-backdrop" id="idea-backdrop" hidden></div>
+  <section class="idea-sheet idea-entry" id="idea-sheet" aria-label="骑行想法">
+    <button type="button" class="idea-handle" id="idea-sheet-handle" aria-label="展开骑行想法" aria-controls="idea-content" aria-expanded="false"></button>
+
+    <header class="idea-header">
+      <div class="idea-heading"><h2 id="idea-title">今天，想骑向哪里？</h2></div>
+      <div class="idea-actions">
+        <button type="button" class="idea-more" id="idea-more" aria-label="更多" title="更多" aria-haspopup="menu" aria-expanded="false" aria-controls="idea-menu"><svg viewBox="0 0 48 48" fill="currentColor" aria-hidden="true"><circle cx="12" cy="24" r="3"/><circle cx="24" cy="24" r="3"/><circle cx="36" cy="24" r="3"/></svg></button>
+        <div class="idea-menu" id="idea-menu" role="menu" hidden>
+          <button type="button" id="idea-history-open" role="menuitem"><i class="fa-solid fa-clock-rotate-left" aria-hidden="true"></i><span>历史对话</span></button>
+          <button type="button" id="idea-new-chat" role="menuitem"><i class="fa-solid fa-pen-to-square" aria-hidden="true"></i><span>新建对话</span></button>
+        </div>
+      </div>
+    </header>
+  <section class="idea-segment-detail" id="strava-details-panel" aria-label="路段详情" hidden>
+    <div class="strava-panel-header">
+      <i class="fa-solid fa-bolt"></i>
+      <span class="strava-panel-tag">Strava 路段</span>
+      <button type="button" id="strava-detail-close" class="segment-detail-close" aria-label="关闭路段详情">关闭</button>
+    </div>
+    <div class="strava-panel-title" id="strava-panel-title">--</div>
+    <div class="strava-panel-stats">
+      <div class="strava-stat-item">
+        <span class="strava-stat-label">VeloRoam 评分</span>
+        <span class="strava-stat-value" id="strava-stat-score">--</span>
+      </div>
+      <div class="strava-stat-divider"></div>
+      <div class="strava-stat-item">
+        <span class="strava-stat-label">路段距离</span>
+        <span class="strava-stat-value"><span id="strava-stat-distance">--</span> <span
+            class="strava-stat-unit">km</span></span>
+      </div>
+      <div class="strava-stat-divider"></div>
+      <div class="strava-stat-item">
+        <span class="strava-stat-label">平均坡度</span>
+        <span class="strava-stat-value"><span id="strava-stat-grade">--</span> <span
+            class="strava-stat-unit">%</span></span>
+      </div>
+    </div>
+    <div class="segment-detail-grid" aria-label="更多路段数据">
+      <div><span>最大坡度</span><strong id="strava-stat-max-grade">--</strong></div>
+      <div><span>累计爬升</span><strong id="strava-stat-elevation">--</strong></div>
+      <div><span>海拔范围</span><strong id="strava-stat-range">--</strong></div>
+      <div><span>收藏次数</span><strong id="strava-stat-stars">--</strong></div>
+      <div><span>骑行人数</span><strong id="strava-stat-athletes">--</strong></div>
+      <div><span>完成次数</span><strong id="strava-stat-efforts">--</strong></div>
+    </div>
+    <p class="segment-detail-status" id="strava-detail-status" role="status"></p>
+    <button type="button" id="strava-detail-retry" class="segment-detail-retry" hidden>重试</button>
+  </section>
+
+    <div class="idea-content" id="idea-content" aria-live="polite" inert>
+      <section class="idea-nearby" aria-label="骑行路线推荐"><h2>为你推荐的骑行路线</h2><div class="idea-nearby-list" aria-live="polite">展开后查找路线</div></section>
+    </div>
+    <section class="idea-history" id="idea-history-panel" aria-label="会话历史" hidden>
+      <div class="idea-history-header"><h3>会话历史</h3><button type="button" id="idea-history-back">返回对话</button></div>
+      <p class="idea-history-hint">当前页面中的会话</p>
+      <div class="idea-history-list" id="idea-history-list"></div>
+    </section>
+
+    <form class="idea-compose" id="idea-form"><div class="idea-input-wrap"><i class="fa-solid fa-magnifying-glass idea-search-icon" aria-hidden="true"></i><label class="sr-only" for="idea-input">输入骑行想法</label><span class="idea-input-prompt" id="idea-input-prompt" aria-hidden="true">今天，想骑向哪里？</span><textarea id="idea-input" rows="1" maxlength="500" placeholder="说说你的骑行想法" enterkeyhint="send"></textarea><button class="idea-send" id="idea-send" hidden aria-label="发送想法" type="submit"><i class="fa-solid fa-arrow-up" aria-hidden="true"></i></button></div><button class="idea-voice" type="button" disabled aria-label="语音输入即将上线"><i class="fa-solid fa-microphone" aria-hidden="true"></i></button></form>
+  </section>
 
   <!-- Leaflet Map JS -->
   <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
