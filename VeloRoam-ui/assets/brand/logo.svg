@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1200" height="400" viewBox="0 0 1200 400" role="img" aria-labelledby="title">
+  <title id="title">循迹 VeloRoam</title>
+  <rect width="1200" height="400" rx="32" fill="#050708"/>
+  <image x="35" y="35" width="330" height="330" href="app-icon-1024.png" xlink:href="app-icon-1024.png"/>
+  <text x="385" y="197" fill="#f5f7f5" font-family="PingFang SC, Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="112" font-weight="700" letter-spacing="12">循迹</text>
+  <text x="392" y="258" fill="#00e676" font-family="Arial, sans-serif" font-size="33" font-weight="600" letter-spacing="7">VELO ROAM</text>
+</svg>

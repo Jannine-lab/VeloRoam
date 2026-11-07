@@ -3,6 +3,8 @@
    ========================================================================== */
 
 :root {
+  --device-safe-area-bottom: env(safe-area-inset-bottom, 0px);
+  --safe-area-bottom: var(--device-safe-area-bottom);
   --bg-color: #070708;
   --font-primary: 'Inter', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
   --font-title: 'Outfit', var(--font-primary);
@@ -54,6 +56,55 @@
   padding: 0;
 }
 
+.app-message {
+  position: fixed;
+  z-index: 5000;
+  top: calc(16px + env(safe-area-inset-top, 0px));
+  left: 50%;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  width: max-content;
+  max-width: min(420px, calc(100% - 32px));
+  padding: 12px 16px;
+  /* border: 1px solid var(--control-border); */
+  border-radius: 16px;
+  background: var(--control-bg);
+  color: var(--control-color);
+  box-shadow: var(--control-shadow);
+  font: 500 14px/1.5 var(--font-primary);
+  overflow-wrap: anywhere;
+  pointer-events: none;
+  opacity: 0;
+  transform: translate(-50%, -8px);
+  transition: opacity 200ms ease, transform 200ms ease;
+}
+
+.app-message[hidden] {
+  display: none;
+}
+
+.app-message.is-visible {
+  opacity: 1;
+  transform: translate(-50%, 0);
+}
+
+.app-message i {
+  flex: none;
+  margin-top: 3px;
+  color: #ffbc9e;
+}
+
+body.light-theme .app-message i {
+  color: #a84a2c;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .app-message {
+    transition: none;
+  }
+}
+
 body,
 html {
   width: 100%;
@@ -93,6 +144,7 @@ html {
 body.light-theme .leaflet-top.leaflet-left .leaflet-control-attribution {
   background: rgba(255, 255, 255, 0.85);
   color: #30343a;
+  display: none;
 }
 
 body.light-theme .leaflet-control-attribution a {
@@ -1424,7 +1476,7 @@ body.light-theme .heatmap-legend-edge-label {
 .location-search-dock {
   position: fixed;
   left: 50%;
-  bottom: calc(16px + env(safe-area-inset-bottom, 0px));
+  bottom: calc(16px + var(--safe-area-bottom));
   transform: translateX(-50%);
   width: min(680px, calc(100% - 32px));
   display: flex;
@@ -1712,7 +1764,7 @@ body.place-selected-mode .location-search-dock,
 /* 4. Strava 黄金路段底部详情面板 */
 .strava-details-panel {
   position: fixed;
-  bottom: calc(80px + env(safe-area-inset-bottom, 0px));
+  bottom: calc(80px + var(--safe-area-bottom));
   left: 50%;
   transform: translateX(-50%) translateY(150%);
   width: calc(100% - 32px);
@@ -1745,13 +1797,13 @@ body.place-selected-mode .location-search-dock,
 
   .home-recommendation-panel {
     display: block;
-    bottom: calc(14px + env(safe-area-inset-bottom, 0px));
+    bottom: calc(14px + var(--safe-area-bottom));
     z-index: 1100;
   }
 
   .location-search-dock {
     width: calc(100% - 32px);
-    bottom: calc(16px + env(safe-area-inset-bottom, 0px));
+    bottom: calc(16px + var(--safe-area-bottom));
     gap: 16px;
   }
 
@@ -1775,7 +1827,7 @@ body.place-selected-mode .location-search-dock,
   }
 
   .strava-details-panel {
-    bottom: calc(80px + env(safe-area-inset-bottom, 0px));
+    bottom: calc(80px + var(--safe-area-bottom));
   }
 }
 
@@ -1859,7 +1911,7 @@ body.place-selected-mode .location-search-dock,
 }
 
 .place-details-panel {
-  bottom: calc(14px + env(safe-area-inset-bottom, 0px));
+  bottom: calc(14px + var(--safe-area-bottom));
   z-index: 1100;
 }
 
@@ -1960,7 +2012,7 @@ body.place-selected-mode .location-search-dock,
 
 @media (max-width: 640px) {
   .strava-details-panel.home-recommendation-panel {
-    bottom: calc(14px + env(safe-area-inset-bottom, 0px));
+    bottom: calc(14px + var(--safe-area-bottom));
   }
 }
 
@@ -2029,7 +2081,8 @@ body.light-theme .home-recommendation-segment-line {
   align-items: center;
   justify-content: center;
   font-size: 11px;
-  text-shadow: 0 0 4px rgba(0, 0, 0, 0.95), 0 0 6px rgba(0, 0, 0, 0.9);
+  color: #fff;
+  text-shadow: 0 0 3px #000, 0 0 6px #000;
   pointer-events: none;
   transition: transform 0.2s ease;
 }
@@ -2037,6 +2090,14 @@ body.light-theme .home-recommendation-segment-line {
 .custom-direction-icon {
   background: transparent !important;
   border: none !important;
+}
+
+.hide-segment-direction-arrows .segment-endpoint-marker {
+  display: none;
+}
+
+.hide-route-direction-icons .custom-direction-icon {
+  display: none;
 }
 
 /* ==========================================================================
@@ -2485,7 +2546,7 @@ body.light-theme .strava-panel-close-btn:hover {
   border: 1px solid var(--glass-border);
   border-radius: 26px 26px 0 0;
   box-shadow: 0 -12px 48px rgba(0, 0, 0, .35);
-  padding: 10px 22px max(20px, env(safe-area-inset-bottom));
+  padding: 10px 22px max(20px, var(--safe-area-bottom));
 }
 
 .idea-handle {
@@ -2512,7 +2573,7 @@ body.light-theme .strava-panel-close-btn:hover {
 .idea-content {
   flex: 1;
   overflow: auto;
-  padding: 25px 0;
+  padding: 16px 0;
 }
 
 .idea-intro,
@@ -2541,13 +2602,17 @@ body.light-theme .strava-panel-close-btn:hover {
 .idea-card {
   margin-top: 12px;
   padding: 15px;
-  background: #292d2b;
+  /* background: #292d2b; */
   border: 1px solid #404943;
   border-radius: 16px;
 }
 
 .idea-card:last-of-type {
   margin-bottom: 12px;
+}
+
+.idea-card .idea-card-actions {
+  margin-bottom: 0px;
 }
 
 .idea-card-type {
@@ -2598,7 +2663,7 @@ body.light-theme .strava-panel-close-btn:hover {
   border: 1px solid #56625a;
   border-radius: 26px;
   background: #303632;
-  padding: 4px 5px 4px 16px;
+  padding: 4px 16px 4px 16px;
 }
 
 .idea-input-wrap input {
@@ -2613,17 +2678,6 @@ body.light-theme .strava-panel-close-btn:hover {
 
 .idea-input-wrap input::placeholder {
   color: #afb8b2;
-}
-
-.idea-send {
-  flex: none;
-  border: 0;
-  border-radius: 50%;
-  width: 38px;
-  height: 38px;
-  background: #a6f0c2;
-  color: #14261b;
-  cursor: pointer;
 }
 
 .idea-voice {
@@ -2644,11 +2698,6 @@ body.light-theme .strava-panel-close-btn:hover {
 .idea-sheet button:focus,
 .idea-sheet input:focus {
   outline: none;
-}
-
-.idea-send:disabled {
-  opacity: .55;
-  cursor: wait;
 }
 
 @media (max-width: 420px) {
@@ -2856,6 +2905,7 @@ body.light-theme .strava-panel-close-btn:hover {
 
 body.light-theme .idea-route-origin {
   color: #52625a;
+  padding: 0 16px;
 }
 
 @media (prefers-reduced-motion: reduce) {
@@ -2878,7 +2928,7 @@ body.light-theme .idea-route-origin {
   left: 50%;
   transform: translateX(-50%);
   width: min(100%, 620px);
-  padding: 20px 22px calc(16px + env(safe-area-inset-bottom, 0px));
+  padding: 20px 22px calc(16px + var(--safe-area-bottom));
   border: 1px solid var(--control-border);
   border-bottom: 0;
   border-radius: 24px 24px 0 0;
@@ -2931,10 +2981,6 @@ body.light-theme .idea-entry-input {
   color: #59655d;
 }
 
-body.place-selected-mode .idea-entry {
-  display: none;
-}
-
 .idea-sheet {
   bottom: var(--idea-keyboard-inset, 0px);
   max-height: calc(var(--idea-viewport-height, 100dvh) - 12px);
@@ -2974,13 +3020,13 @@ body.place-selected-mode .idea-entry {
 }
 
 .idea-entry {
-  bottom: calc(16px + env(safe-area-inset-bottom, 0px));
+  bottom: calc(16px + var(--safe-area-bottom));
   padding: 10px 18px 18px;
 }
 
 .idea-sheet {
-  bottom: calc(16px + env(safe-area-inset-bottom, 0px) + var(--idea-keyboard-inset, 0px));
-  max-height: calc(var(--idea-viewport-height, 100dvh) - 32px - env(safe-area-inset-bottom, 0px));
+  bottom: calc(16px + var(--safe-area-bottom) + var(--idea-keyboard-inset, 0px));
+  max-height: calc(var(--idea-viewport-height, 100dvh) - 32px - var(--safe-area-bottom));
   padding-bottom: 18px;
 }
 
@@ -3043,24 +3089,9 @@ body.place-selected-mode .idea-entry {
   font-size: 12px;
 }
 
-.idea-route-note {
-  margin-top: 6px;
-  color: #bac6bd;
-  font-size: 11px;
-  line-height: 1.45;
-}
-
-.idea-route-note:empty {
-  display: none;
-}
-
-body.light-theme .idea-route-note {
-  color: #52625a;
-}
-
 .idea-route-panel {
-  bottom: calc(var(--idea-entry-height, 150px) + 28px + env(safe-area-inset-bottom, 0px));
-  max-height: calc(100dvh - var(--idea-entry-height, 150px) - 48px - env(safe-area-inset-bottom, 0px));
+  bottom: calc(var(--idea-entry-height, 150px) + 28px + var(--safe-area-bottom));
+  max-height: calc(100dvh - var(--idea-entry-height, 150px) - 48px - var(--safe-area-bottom));
   overflow-y: auto;
 }
 
@@ -3069,7 +3100,7 @@ body.light-theme .idea-route-note {
   --idea-collapsed-height: 120px;
   position: fixed;
   z-index: 3000;
-  bottom: calc(16px + env(safe-area-inset-bottom, 0px) + var(--idea-keyboard-inset, 0px));
+  bottom: calc(16px + var(--safe-area-bottom) + var(--idea-keyboard-inset, 0px));
   width: min(620px, calc(100% - 32px));
   height: var(--idea-collapsed-height);
   max-height: calc(var(--idea-viewport-height, 100dvh) - 32px);
@@ -3126,7 +3157,7 @@ body.light-theme .idea-route-note {
 }
 
 .idea-sheet.is-open .idea-content {
-  padding: 25px 0;
+  padding: 20px 0;
   opacity: 1;
   visibility: visible;
   transition-delay: 0s;
@@ -3163,10 +3194,6 @@ body.light-theme .idea-route-note {
   margin-left: 0;
 }
 
-body.place-selected-mode .idea-sheet {
-  display: none;
-}
-
 @media (prefers-reduced-motion: reduce) {
 
   .idea-sheet.idea-entry,
@@ -3199,6 +3226,16 @@ body.place-selected-mode .idea-sheet {
 .idea-heading {
   flex: 1;
   min-width: 0;
+  display: grid;
+}
+
+.idea-heading h2 {
+  grid-area: 1 / 1;
+}
+
+.idea-heading .idea-title-sizer {
+  visibility: hidden;
+  pointer-events: none;
 }
 
 .idea-heading h2 {
@@ -3236,9 +3273,8 @@ body.place-selected-mode .idea-sheet {
   background: var(--control-bg-hover);
 }
 
-.idea-sheet .idea-more:focus-visible,
 .idea-sheet .idea-menu button:focus-visible,
-.idea-sheet .idea-history button:focus-visible {
+.idea-sheet .idea-history-item:focus-visible {
   outline: 2px solid var(--control-focus);
   outline-offset: 2px;
 }
@@ -3298,10 +3334,11 @@ body.place-selected-mode .idea-sheet {
   align-items: center;
   justify-content: space-between;
   gap: 12px;
+  padding: 0 8px 0 12px;
 }
 
 .idea-history-header h3 {
-  font-size: 16px;
+  font-size: 14px;
 }
 
 .idea-history-header button {
@@ -3309,12 +3346,11 @@ body.place-selected-mode .idea-sheet {
   background: transparent;
   color: #a6f0c2;
   font: inherit;
-  font-size: 13px;
+  font-size: 12px;
   cursor: pointer;
   padding: 8px;
 }
 
-.idea-history-hint,
 .idea-history-empty {
   color: #bdc6bf;
   font-size: 13px;
@@ -3334,7 +3370,7 @@ body.place-selected-mode .idea-sheet {
   gap: 12px;
   min-height: 54px;
   width: 100%;
-  padding: 12px 14px;
+  padding: 12px;
   background: #292e2b;
   border: 1px solid #48524b;
   color: #f1f5f2;
@@ -3348,6 +3384,7 @@ body.place-selected-mode .idea-sheet {
   overflow: hidden;
   text-overflow: ellipsis;
   white-space: nowrap;
+  font-size: 14px;
 }
 
 .idea-history-item small {
@@ -3360,7 +3397,6 @@ body.light-theme .idea-history-header button {
   color: #146b38;
 }
 
-body.light-theme .idea-history-hint,
 body.light-theme .idea-history-empty {
   color: #536159;
 }
@@ -3489,16 +3525,23 @@ body.light-theme .idea-input-wrap:focus-within {
   border-color: var(--control-focus);
 }
 
+@media (max-width: 767px) {
+  :root {
+    --safe-area-bottom: max(16px, var(--device-safe-area-bottom));
+  }
+}
+
 /* Keep the composer inset concentric with the floating sheet in both states. */
 .idea-sheet.idea-entry {
   --idea-sheet-inset: 16px;
-  --idea-sheet-radius: 32px;
+  --idea-sheet-radius: 36px;
+  --idea-safe-bottom: var(--device-safe-area-bottom);
   width: min(620px, calc(100% - 2 * var(--idea-sheet-inset)));
-  bottom: calc(var(--idea-sheet-inset) + env(safe-area-inset-bottom, 0px) + var(--idea-keyboard-inset, 0px));
+  bottom: calc(var(--idea-sheet-inset) + var(--safe-area-bottom) + var(--idea-keyboard-inset, 0px));
   max-height: calc(var(--idea-viewport-height, 100dvh) - 2 * var(--idea-sheet-inset));
   padding: 12px;
   border-radius: var(--idea-sheet-radius);
-  transition: height 300ms cubic-bezier(.2, .8, .2, 1), width 300ms cubic-bezier(.2, .8, .2, 1), bottom 300ms cubic-bezier(.2, .8, .2, 1), max-height 300ms cubic-bezier(.2, .8, .2, 1);
+  transition: height 300ms cubic-bezier(.2, .8, .2, 1), width 300ms cubic-bezier(.2, .8, .2, 1), bottom 300ms cubic-bezier(.2, .8, .2, 1), max-height 300ms cubic-bezier(.2, .8, .2, 1), padding-bottom 300ms cubic-bezier(.2, .8, .2, 1);
 }
 
 .idea-sheet.idea-entry.is-open {
@@ -3581,8 +3624,8 @@ body.light-theme .idea-input-wrap:focus-within {
 
 /* Keep segment details clear of the collapsed idea sheet. */
 #strava-details-panel {
-  bottom: calc(var(--idea-entry-height, 150px) + 28px + env(safe-area-inset-bottom, 0px));
-  max-height: calc(100dvh - var(--idea-entry-height, 150px) - 48px - env(safe-area-inset-bottom, 0px));
+  bottom: calc(var(--idea-entry-height, 150px) + 28px + var(--safe-area-bottom));
+  max-height: calc(100dvh - var(--idea-entry-height, 150px) - 48px - var(--safe-area-bottom));
   overflow-y: auto;
 }
 
@@ -3597,11 +3640,19 @@ body.light-theme .idea-input-wrap:focus-within {
   max-height: var(--idea-viewport-height, 100dvh);
   bottom: var(--idea-keyboard-inset, 0px);
   border-radius: 0;
-  padding: calc(12px + env(safe-area-inset-top, 0px)) 12px calc(12px + env(safe-area-inset-bottom, 0px));
+  padding: calc(12px + env(safe-area-inset-top, 0px)) 12px calc(12px + var(--safe-area-bottom));
 }
 
 .idea-sheet.idea-entry.is-full.keyboard-open {
   padding-bottom: 12px;
+}
+
+@media (max-width: 767px) {
+
+  .idea-sheet.idea-entry.is-full,
+  body.light-theme .idea-sheet.idea-entry.is-full {
+    box-shadow: none;
+  }
 }
 
 .idea-sheet.is-full .idea-handle {
@@ -3615,10 +3666,6 @@ body.light-theme .idea-input-wrap:focus-within {
 .idea-sheet:not(.is-open) .idea-compose {
   margin: auto 0;
   width: 100%;
-}
-
-.idea-sheet:not(.is-open) .idea-send {
-  display: none;
 }
 
 .idea-sheet:not(.is-open) .idea-voice {
@@ -3669,12 +3716,129 @@ body.light-theme .idea-input-prompt {
   color: var(--text-white);
 }
 
+.idea-nearby {
+  position: relative;
+  min-height: 100%;
+}
+
+.idea-nearby-waiting {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 24px;
+  color: #e4f8ec;
+  font: 600 clamp(15px, 4vw, 18px)/1.65 var(--font-primary);
+  letter-spacing: .08em;
+  line-height: 1.6;
+  text-align: center;
+  pointer-events: none;
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 220ms ease, visibility 0s linear 220ms;
+}
+
+.idea-nearby-waiting.is-visible {
+  opacity: 1;
+  visibility: visible;
+  transition-delay: 0s;
+}
+
+.idea-nearby-waiting[hidden] {
+  display: none;
+}
+
+.idea-nearby-skeleton {
+  position: absolute;
+  inset: 0;
+  display: grid;
+  align-content: start;
+  gap: 12px;
+  opacity: .26;
+  font: 400 13px/1.5 var(--font-primary);
+  letter-spacing: normal;
+  text-align: left;
+}
+
+.idea-nearby-skeleton-card .idea-nearby-summary-heading {
+  align-items: center;
+  min-height: 22.4px;
+}
+
+.idea-nearby-skeleton-card i {
+  display: block;
+  height: 10px;
+  border-radius: 8px;
+  background: currentColor;
+  animation: idea-skeleton-block-pulse 1.6s ease-in-out infinite;
+}
+
+@keyframes idea-skeleton-block-pulse {
+  50% {
+    opacity: .35;
+  }
+}
+
+.idea-nearby-skeleton-card .idea-skeleton-title {
+  width: 48%;
+  height: 14px;
+}
+
+.idea-nearby-skeleton-card .idea-skeleton-disclosure {
+  flex: none;
+  width: 28px;
+  height: 12px;
+}
+
+.idea-nearby-skeleton-card .idea-nearby-summary-stat {
+  width: 72px;
+}
+
+.idea-nearby-skeleton-card .idea-nearby-summary-stat:last-child {
+  width: 130px;
+}
+
+.idea-nearby-skeleton-card .idea-nearby-summary-stat span {
+  display: flex;
+  align-items: center;
+  height: 21px;
+}
+
+.idea-nearby-skeleton-card .idea-nearby-summary-stat span:first-child i {
+  width: 56px;
+}
+
+.idea-nearby-skeleton-card .idea-nearby-summary-stat span:last-child i {
+  width: 100%;
+  height: 12px;
+}
+
+body.light-theme .idea-nearby-waiting {
+  color: #205f3e;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .idea-nearby-waiting {
+    transition: none;
+  }
+
+  .idea-nearby-skeleton-card i {
+    animation: none;
+  }
+}
+
 .idea-nearby-list {
   display: grid;
-  gap: 8px;
+  gap: 12px;
   color: #aab7ae;
   font-size: 13px;
   line-height: 1.5;
+}
+
+.idea-nearby-list.is-awaiting-recommendations {
+  opacity: 0;
+  pointer-events: none;
 }
 
 .idea-nearby-route {
@@ -3685,7 +3849,7 @@ body.light-theme .idea-input-prompt {
   width: 100%;
   padding: 12px 14px;
   border: 0;
-  border-radius: 14px;
+  border-radius: 16px;
   background: #292e2b;
   color: #f1f5f2;
   text-align: left;
@@ -3696,6 +3860,17 @@ body.light-theme .idea-input-prompt {
 .idea-nearby-route span {
   color: #bac7be;
   font-size: 12px;
+}
+
+.idea-nearby-route strong {
+  font-size: 14px;
+  overflow-wrap: anywhere;
+}
+
+.idea-nearby-route .idea-nearby-metrics {
+  color: inherit;
+  font-size: 13px;
+  font-weight: 600;
 }
 
 .idea-nearby-retry {
@@ -3720,18 +3895,198 @@ body.light-theme .idea-nearby-route span {
   color: #52625a;
 }
 
-/* A detail panel replaces the entry while it is visible. */
-body:has(.strava-details-panel.active) .idea-sheet,
-body:has(.strava-details-panel.active) .idea-backdrop {
+.idea-nearby-card {
+  min-width: 0;
+  border: 1px solid var(--control-border);
+  border-radius: 16px;
+  background: transparent;
+}
+
+.idea-nearby-card[hidden],
+.idea-nearby-actions button[hidden] {
   display: none;
+}
+
+.idea-sheet .idea-nearby-route.idea-nearby-summary,
+body.light-theme .idea-sheet .idea-nearby-route.idea-nearby-summary {
+  background: transparent;
+  padding: 12px;
+  gap: 12px;
+  cursor: default;
+}
+
+.idea-nearby-summary .idea-nearby-summary-heading {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 12px;
+  width: 100%;
+}
+
+.idea-nearby-route.idea-nearby-summary .idea-nearby-summary-name {
+  flex: 1 1 auto;
+  min-width: 0;
+  color: #f3f6f8;
+  font-size: 16px;
+  line-height: 1.4;
+}
+
+.idea-nearby-summary .idea-nearby-disclosure {
+  display: inline-flex;
+  flex: none;
+  align-items: center;
+  gap: 6px;
+  min-height: 22px;
+  padding: 0;
+  border: 0;
+  background: transparent;
+  color: #a6f0c2;
+  font: inherit;
+  font-size: 14px;
+  cursor: pointer;
+  white-space: nowrap;
+}
+
+body.light-theme .idea-nearby-summary .idea-nearby-disclosure,
+body.light-theme .idea-nearby-summary .idea-nearby-disclosure span {
+  color: #087a45;
+}
+
+.idea-nearby-summary .idea-nearby-disclosure span {
+  color: inherit;
+}
+
+.idea-sheet .idea-nearby-disclosure:focus-visible {
+  outline: 2px solid var(--control-focus);
+  outline-offset: 3px;
+  border-radius: 4px;
+}
+
+.idea-nearby-summary .idea-nearby-summary-stats {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px 28px;
+  width: 100%;
+}
+
+.idea-nearby-summary .idea-nearby-summary-stat {
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+}
+
+.idea-nearby-summary .idea-nearby-stat-label {
+  color: #bac7be;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.idea-nearby-route.idea-nearby-summary .idea-nearby-stat-value {
+  color: #f3f6f8;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+body.light-theme .idea-nearby-summary .idea-nearby-stat-label {
+  color: #52625a;
+}
+
+body.light-theme .idea-nearby-route.idea-nearby-summary .idea-nearby-summary-name,
+body.light-theme .idea-nearby-route.idea-nearby-summary .idea-nearby-stat-value {
+  color: #26343c;
+}
+
+.idea-nearby-details {
+  display: grid;
+  grid-template-rows: 0fr;
+  opacity: 0;
+  transition: grid-template-rows 280ms ease, opacity 200ms ease;
+}
+
+.idea-nearby-card.is-expanded .idea-nearby-details {
+  grid-template-rows: 1fr;
+  opacity: 1;
+}
+
+.idea-nearby-details-inner {
+  min-height: 0;
+  overflow: hidden;
+}
+
+.idea-nearby-facts {
+  margin: 4px 14px 0;
+}
+
+.idea-nearby-facts dt {
+  color: #bac7be;
+}
+
+.idea-nearby-facts dd {
+  color: #f1f5f2;
+}
+
+body.light-theme .idea-nearby-facts dt {
+  color: #52625a;
+}
+
+body.light-theme .idea-nearby-facts dd {
+  color: #26343c;
+  font-weight: 600;
+}
+
+.idea-nearby-legs-label {
+  margin: 12px 12px 4px;
+  font-size: 14px;
+  font-weight: 600;
+  color: #26343c;
+}
+
+.idea-nearby-legs {
+  margin: 0 14px;
+  padding-left: 20px;
+  font-size: 14px;
+  line-height: 1.8;
+  overflow-wrap: anywhere;
+}
+
+.idea-nearby-actions {
+  margin: 12px 12px 0;
+}
+
+.idea-nearby-export-status {
+  margin: 0 14px;
+  color: inherit;
+  font-size: 12px;
+}
+
+.idea-nearby-export-status:not(:empty) {
+  margin-top: 8px;
+}
+
+.idea-nearby-details-inner::after {
+  content: '';
+  display: block;
+  height: 14px;
+}
+
+.idea-sheet .idea-nearby-actions button:focus-visible {
+  outline: 2px solid var(--control-focus);
+  outline-offset: 2px;
+}
+
+@media (prefers-reduced-motion: reduce) {
+
+  .idea-nearby-details {
+    transition: none;
+  }
 }
 
 #strava-details-panel,
 .idea-route-panel {
   width: min(620px, calc(100% - 32px));
   max-width: 620px;
-  bottom: calc(16px + env(safe-area-inset-bottom, 0px));
-  max-height: calc(100dvh - 32px - env(safe-area-inset-bottom, 0px));
+  bottom: calc(16px + var(--safe-area-bottom));
+  max-height: calc(100dvh - 32px - var(--safe-area-bottom));
   padding: 12px;
   border: 0;
   border-radius: 32px;
@@ -3760,10 +4115,6 @@ body.light-theme .idea-route-panel {
 
 .idea-sheet:not(.is-open) .idea-input-wrap textarea::placeholder {
   color: transparent;
-}
-
-.idea-sheet.is-open .idea-compose:not(:focus-within) .idea-send {
-  display: none;
 }
 
 /* Map-tinted material and the compact, three-position sheet. */
@@ -3882,7 +4233,7 @@ body.light-theme .idea-sheet .idea-examples button {
   max-width: none;
   max-height: none;
   overflow-y: auto;
-  padding: 16px 4px;
+  padding: 0;
   margin: 0;
   border: 0;
   border-radius: 0;
@@ -3919,7 +4270,7 @@ body.light-theme .idea-sheet #strava-details-panel {
 /* Shared sizing for the sheet and composer. */
 .idea-sheet.idea-entry {
   --idea-collapsed-height: 72px;
-  --idea-sheet-inset: 12px;
+  --idea-sheet-inset: 24px;
 }
 
 .idea-sheet.idea-entry.is-open {
@@ -3932,7 +4283,7 @@ body.light-theme .idea-sheet #strava-details-panel {
 
 .idea-sheet.idea-entry:not(.is-full) {
   width: min(620px, calc(100% - 2 * var(--idea-sheet-inset)));
-  bottom: calc(var(--idea-sheet-inset) + env(safe-area-inset-bottom, 0px) + var(--idea-keyboard-inset, 0px));
+  bottom: calc(var(--idea-sheet-inset) + var(--safe-area-bottom) + var(--idea-keyboard-inset, 0px));
 }
 
 .idea-sheet.idea-entry.is-open:not(.is-full) {
@@ -3970,10 +4321,6 @@ body.light-theme .idea-search-icon {
   color: #5d6f79;
 }
 
-.idea-sheet .idea-input-wrap textarea {
-  font-size: 13px;
-}
-
 .idea-sheet .idea-input-prompt {
   left: 42px;
 }
@@ -3999,11 +4346,11 @@ body.light-theme .idea-search-icon {
 }
 
 .idea-sheet.is-open .idea-header {
-  margin: 8px 4px 0;
+  margin: 16px 4px 0;
 }
 
 .idea-sheet.idea-entry:not(.is-open):not(.is-dragging) {
-  transition: height 300ms cubic-bezier(.2, .8, .2, 1), width 60ms ease 240ms, bottom 60ms ease 240ms, max-height 300ms cubic-bezier(.2, .8, .2, 1);
+  transition: height 300ms cubic-bezier(.2, .8, .2, 1), width 300ms cubic-bezier(.2, .8, .2, 1), bottom 300ms cubic-bezier(.2, .8, .2, 1), max-height 300ms cubic-bezier(.2, .8, .2, 1), padding-bottom 300ms cubic-bezier(.2, .8, .2, 1);
 }
 
 @media (prefers-reduced-motion: reduce) {
@@ -4019,10 +4366,6 @@ body.light-theme .idea-search-icon {
   font-size: 15px;
   -webkit-text-size-adjust: none;
   text-size-adjust: none;
-}
-
-.idea-sheet .idea-send[hidden] {
-  display: none;
 }
 
 .idea-sheet .idea-input-prompt {
@@ -4198,27 +4541,33 @@ body.light-theme .idea-sheet .idea-menu button:active {
 .segment-detail-grid {
   display: grid;
   grid-template-columns: repeat(3, minmax(0, 1fr));
-  gap: 14px 10px;
-  margin-top: 18px;
+  gap: 12px 12px;
+  margin: 0px;
 }
 
 .segment-detail-grid div {
   min-width: 0;
+  text-align: center;
 }
 
 .segment-detail-grid span,
-.segment-detail-grid strong {
+.segment-detail-grid strong,
+.segment-detail-grid dt,
+.segment-detail-grid dd {
   display: block;
   overflow-wrap: anywhere;
 }
 
-.segment-detail-grid span {
-  font-size: 12px;
+.segment-detail-grid span,
+.segment-detail-grid dt {
+  font-size: 14px;
   color: var(--idea-text-muted, #a1a1a6);
+  text-align: center;
 }
 
-.segment-detail-grid strong {
-  margin-top: 5px;
+.segment-detail-grid strong,
+.segment-detail-grid dd {
+  margin: 5px 0 0;
   font-size: 15px;
   color: inherit;
 }
@@ -4261,14 +4610,41 @@ body.light-theme .idea-sheet .idea-menu button:active {
   overflow-wrap: anywhere;
 }
 
-/* Distance suggestions belong to the half-open entry, not the conversation. */
-.idea-sheet.is-full .idea-nearby {
-  display: none;
-}
-
 .idea-nearby-route.is-unavailable {
   cursor: default;
   opacity: .65;
+}
+
+@keyframes idea-results-enter {
+  from {
+    opacity: 0;
+    transform: translateY(8px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.idea-sheet.is-open .idea-content,
+.idea-place-results:not([hidden]) {
+  animation: idea-results-enter 220ms ease both;
+}
+
+.idea-sheet .idea-nearby-route:focus-visible,
+.idea-sheet .idea-nearby-retry:focus-visible {
+  outline: 2px solid var(--control-focus);
+  outline-offset: 2px;
+}
+
+@media (prefers-reduced-motion: reduce) {
+
+  .idea-sheet.is-open .idea-content,
+  .idea-place-results:not([hidden]) {
+    animation: none;
+  }
+
 }
 
 /* A soft highlight travels across the thinking label while the request runs. */
@@ -4311,40 +4687,88 @@ body.light-theme .idea-sheet .idea-menu button:active {
 
 /* Initial location status uses the same shimmer as the thinking label. */
 .startup-location-status {
-  position: fixed; inset: 0; z-index: 1300; display: grid; place-items: center;
-  pointer-events: none; opacity: 0; transform: translateY(6px);
+  position: fixed;
+  inset: 0;
+  z-index: 1300;
+  display: grid;
+  place-items: center;
+  pointer-events: none;
+  opacity: 0;
+  transform: translateY(6px);
   transition: opacity 450ms ease, transform 450ms ease;
 }
-.startup-location-status[hidden] { display: none; }
-.startup-location-status.is-visible { opacity: 1; transform: translateY(0); }
-.startup-location-status.is-complete { opacity: 0; transform: translateY(-6px); }
+
+.startup-location-status[hidden] {
+  display: none;
+}
+
+.route-planning-status {
+  z-index: 3100;
+}
+
+@media (max-width: 767px) {
+  .route-planning-status { bottom: var(--route-planning-bottom, 0px); }
+}
+
+.startup-location-status.is-visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.startup-location-status.is-complete {
+  opacity: 0;
+  transform: translateY(-6px);
+}
+
 .startup-location-status span {
-  color: #d9e2e7; font: 600 32px/1.2 var(--font-title); letter-spacing: .02em;
+  color: #d9e2e7;
+  font: 600 32px/1.2 var(--font-title);
+  letter-spacing: .02em;
   text-shadow: 0 2px 18px rgba(0, 0, 0, .4);
 }
-body.light-theme .startup-location-status span { color: #687780; text-shadow: 0 2px 18px rgba(255, 255, 255, .75); }
+
+body.light-theme .startup-location-status span {
+  color: #687780;
+  text-shadow: 0 2px 18px rgba(255, 255, 255, .75);
+}
+
 @supports ((-webkit-background-clip: text) or (background-clip: text)) {
   .startup-location-status span {
     background: linear-gradient(100deg, #a5b1b8 30%, #f2f6f8 50%, #a5b1b8 70%);
-    background-size: 220% 100%; -webkit-background-clip: text; background-clip: text;
-    -webkit-text-fill-color: transparent; text-shadow: none;
+    background-size: 220% 100%;
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-shadow: none;
     animation: idea-thinking-shimmer 1.8s linear infinite;
   }
+
   body.light-theme .startup-location-status span {
     background-image: linear-gradient(100deg, #7f898e 30%, #d1d7da 50%, #7f898e 70%);
   }
+
   @media (prefers-reduced-motion: reduce) {
-    .startup-location-status span, body.light-theme .startup-location-status span {
-      animation: none; background: none; -webkit-text-fill-color: currentColor;
+
+    .startup-location-status span,
+    body.light-theme .startup-location-status span {
+      animation: none;
+      background: none;
+      -webkit-text-fill-color: currentColor;
     }
   }
 }
-@media (prefers-reduced-motion: reduce) { .startup-location-status { transition: none; } }
+
+@media (prefers-reduced-motion: reduce) {
+  .startup-location-status {
+    transition: none;
+  }
+}
 
 /* The compact greeting replaces the placeholder in every map theme. */
 body.light-theme .idea-sheet:not(.is-open) .idea-input-wrap textarea::placeholder {
   color: transparent;
 }
+
 .idea-input-wrap:has(textarea:not(:placeholder-shown)) .idea-input-prompt {
   opacity: 0;
   visibility: hidden;
@@ -4353,46 +4777,112 @@ body.light-theme .idea-sheet:not(.is-open) .idea-input-wrap textarea::placeholde
 
 
 /* The two halves meet in the center while the green highlight keeps moving. */
-.startup-wordmark { display: flex; align-items: baseline; white-space: nowrap; }
+.startup-wordmark {
+  position: relative;
+  display: flex;
+  align-items: baseline;
+  white-space: nowrap;
+}
+
 .startup-location-status .startup-wordmark span {
+  position: relative;
   display: inline-block;
   font-family: 'Outfit', var(--font-primary);
   font-weight: 800;
   font-style: italic;
   letter-spacing: -.035em;
 }
+
 @keyframes startup-velo-enter {
-  from { opacity: 0; transform: translateX(-48px); }
-  to { opacity: 1; transform: translateX(0); }
+  from {
+    opacity: 0;
+    transform: translateX(-48px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
 }
+
 @keyframes startup-roam-enter {
-  from { opacity: 0; transform: translateX(48px); }
-  to { opacity: 1; transform: translateX(0); }
+  from {
+    opacity: 0;
+    transform: translateX(48px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
 }
 
 @keyframes startup-velo-exit {
-  from { opacity: 1; transform: translateX(0); }
-  to { opacity: 0; transform: translateX(-48px); }
+  from {
+    opacity: 1;
+    transform: translateX(0);
+  }
+
+  to {
+    opacity: 0;
+    transform: translateX(-48px);
+  }
 }
+
 @keyframes startup-roam-exit {
-  from { opacity: 1; transform: translateX(0); }
-  to { opacity: 0; transform: translateX(48px); }
+  from {
+    opacity: 1;
+    transform: translateX(0);
+  }
+
+  to {
+    opacity: 0;
+    transform: translateX(48px);
+  }
 }
-.startup-location-status.is-visible .startup-wordmark-velo { animation: startup-velo-enter 600ms cubic-bezier(.2,.8,.2,1) both; }
-.startup-location-status.is-visible .startup-wordmark-roam { animation: startup-roam-enter 600ms cubic-bezier(.2,.8,.2,1) both; }
-.startup-location-status.is-complete .startup-wordmark-velo { animation: startup-velo-exit 450ms ease-in both; }
-.startup-location-status.is-complete .startup-wordmark-roam { animation: startup-roam-exit 450ms ease-in both; }
+
+.startup-location-status.is-visible .startup-wordmark-velo {
+  animation: startup-velo-enter 600ms cubic-bezier(.2, .8, .2, 1) both;
+}
+
+.startup-location-status.is-visible .startup-wordmark-roam {
+  animation: startup-roam-enter 600ms cubic-bezier(.2, .8, .2, 1) both;
+}
+
+.startup-location-status.is-complete .startup-wordmark-velo {
+  animation: startup-velo-exit 450ms ease-in both;
+}
+
+.startup-location-status.is-complete .startup-wordmark-roam {
+  animation: startup-roam-exit 450ms ease-in both;
+}
+
 @supports ((-webkit-background-clip: text) or (background-clip: text)) {
-  .startup-location-status.is-visible .startup-wordmark-velo { animation: startup-velo-enter 600ms cubic-bezier(.2,.8,.2,1) both, idea-thinking-shimmer 1.8s linear infinite; }
-  .startup-location-status.is-visible .startup-wordmark-roam { animation: startup-roam-enter 600ms cubic-bezier(.2,.8,.2,1) both, idea-thinking-shimmer 1.8s linear infinite; }
-  .startup-location-status.is-complete .startup-wordmark-velo { animation: startup-velo-exit 450ms ease-in both, idea-thinking-shimmer 1.8s linear infinite; }
-  .startup-location-status.is-complete .startup-wordmark-roam { animation: startup-roam-exit 450ms ease-in both, idea-thinking-shimmer 1.8s linear infinite; }
+  .startup-location-status.is-visible .startup-wordmark-velo {
+    animation: startup-velo-enter 600ms cubic-bezier(.2, .8, .2, 1) both, startup-wordmark-shimmer 1.8s linear infinite;
+  }
+
+  .startup-location-status.is-visible .startup-wordmark-roam {
+    animation: startup-roam-enter 600ms cubic-bezier(.2, .8, .2, 1) both, startup-wordmark-shimmer 1.8s linear infinite;
+  }
+
+  .startup-location-status.is-complete .startup-wordmark-velo {
+    animation: startup-velo-exit 450ms ease-in both, startup-wordmark-shimmer 1.8s linear infinite;
+  }
+
+  .startup-location-status.is-complete .startup-wordmark-roam {
+    animation: startup-roam-exit 450ms ease-in both, startup-wordmark-shimmer 1.8s linear infinite;
+  }
 }
+
 @media (prefers-reduced-motion: reduce) {
+
   .startup-location-status.is-visible .startup-wordmark-velo,
   .startup-location-status.is-visible .startup-wordmark-roam,
   .startup-location-status.is-complete .startup-wordmark-velo,
-  .startup-location-status.is-complete .startup-wordmark-roam { animation: none; }
+  .startup-location-status.is-complete .startup-wordmark-roam {
+    animation: none;
+  }
 }
 
 /* Give italic glyphs room inside each clipped-gradient box. */
@@ -4400,4 +4890,1069 @@ body.light-theme .idea-sheet:not(.is-open) .idea-input-wrap textarea::placeholde
   padding: .12em .16em;
   margin: -.12em -.16em;
   line-height: 1.3;
+}
+
+/* Light-map conversation colors: readable text on softly raised route cards. */
+body.light-theme .idea-sheet .idea-progress {
+  color: #53636a;
+}
+
+body.light-theme .idea-sheet .idea-answer {
+  color: #34464d;
+}
+
+body.light-theme .idea-sheet .idea-progress-steps {
+  color: #586b70;
+}
+
+body.light-theme .idea-sheet .idea-card {
+  /* background: rgba(255, 255, 255, .76); */
+  border-color: rgba(67, 91, 106, .16);
+  color: #26343c;
+}
+
+body.light-theme .idea-sheet .idea-card h3 {
+  color: #20343c;
+}
+
+body.light-theme .idea-sheet .idea-card-type {
+  color: #087a45;
+}
+
+body.light-theme .idea-sheet .idea-card p,
+body.light-theme .idea-sheet .idea-route-legs {
+  color: #40535a;
+}
+
+body.light-theme .idea-sheet .idea-composite-card .idea-composite-note {
+  color: #52666b;
+}
+
+body.light-theme .idea-sheet .idea-card-actions button,
+body.light-theme .idea-sheet .idea-locate {
+  background: #e2f1e8;
+  color: #175f3d;
+  border-color: transparent;
+}
+
+@media (hover: hover) {
+
+  body.light-theme .idea-sheet .idea-card-actions button:hover,
+  body.light-theme .idea-sheet .idea-locate:hover {
+    background: #d1e9db;
+  }
+}
+
+body.light-theme .idea-sheet .idea-progress.has-error .idea-progress-title,
+body.light-theme .idea-sheet .idea-route-status {
+  color: #a83d2d;
+}
+
+@supports ((-webkit-background-clip: text) or (background-clip: text)) {
+  body.light-theme .idea-sheet .idea-progress-title.is-thinking span {
+    color: #53636a;
+    background-image: linear-gradient(100deg, #53636a 30%, #95a5a8 50%, #53636a 70%);
+  }
+}
+
+/* Use the platform's native selection menu behind the existing more icon. */
+.idea-actions .idea-more {
+  pointer-events: none;
+}
+
+.idea-native-menu {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  opacity: .01;
+  cursor: pointer;
+  border: 0;
+  outline: none;
+  -webkit-appearance: none;
+  appearance: none;
+}
+
+.idea-native-menu:focus,
+.idea-native-menu:focus-visible {
+  outline: none;
+  box-shadow: none;
+}
+
+
+/* Both fragments sample the same moving highlight across the whole wordmark. */
+@supports ((-webkit-background-clip: text) or (background-clip: text)) {
+  .startup-location-status .startup-wordmark span {
+    background-size: calc(var(--wordmark-width, 200px) * 2) 100%;
+  }
+
+  @keyframes startup-wordmark-shimmer {
+    from {
+      background-position: calc(-1 * var(--wordmark-width, 200px) - var(--wordmark-offset, 0px)) 0;
+    }
+
+    to {
+      background-position: calc(var(--wordmark-width, 200px) - var(--wordmark-offset, 0px)) 0;
+    }
+  }
+}
+
+.scenic-map-icon {
+  background: transparent;
+  border: 0;
+}
+
+.scenic-map-pin {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 3px;
+  height: 30px;
+  width: 50px;
+  border: 1px solid rgba(255, 255, 255, .8);
+  border-radius: 16px;
+  color: #fff;
+  background: #296a4d;
+  box-shadow: 0 2px 7px rgba(0, 0, 0, .25);
+  font: 700 12px var(--font-primary);
+}
+
+.scenic-map-pin.is-unrated {
+  background: #66736c;
+  font-size: 11px;
+}
+
+.scenic-map-star {
+  color: #ffdc78;
+}
+
+.scenic-map-icon:focus-visible {
+  outline: 3px solid #ffcf66;
+  outline-offset: 3px;
+  border-radius: 16px;
+}
+
+.scenic-map-status {
+  position: fixed;
+  z-index: 700;
+  left: 12px;
+  top: 36px;
+  padding: 6px 9px;
+  border-radius: 9px;
+  background: var(--control-bg);
+  color: var(--control-color);
+  box-shadow: var(--control-shadow);
+  font-size: 11px;
+  pointer-events: none;
+}
+
+.place-details-rating {
+  margin: 4px 0;
+  font-size: 13px;
+  color: var(--control-color);
+}
+
+.place-details-rating[hidden] {
+  display: none;
+}
+
+
+/* A subtle spring on release; dragging itself continues to follow the pointer. */
+.idea-sheet.idea-entry.is-settling:not(.is-dragging) {
+  transition: height 420ms cubic-bezier(.2, .8, .25, 1.06),
+    width 420ms cubic-bezier(.2, .8, .25, 1.06),
+    bottom 420ms cubic-bezier(.2, .8, .25, 1.06),
+    max-height 420ms cubic-bezier(.2, .8, .25, 1.06),
+    padding-bottom 420ms cubic-bezier(.2, .8, .25, 1.06),
+    border-radius 420ms cubic-bezier(.2, .8, .25, 1.06);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .idea-sheet.idea-entry.is-settling:not(.is-dragging) {
+    transition: none;
+  }
+}
+
+
+/* Map results use a separate, non-modal sheet with no conversation header. */
+.map-detail-sheet.idea-sheet {
+  position: fixed;
+  left: 50%;
+  bottom: calc(12px + var(--safe-area-bottom));
+  z-index: 3000;
+  width: min(620px, calc(100% - 24px));
+  height: auto;
+  max-height: min(540px, 65dvh);
+  padding: 16px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  border: 0;
+  border-radius: 32px;
+  background: rgba(29, 35, 42, .9);
+  color: #f3f6f8;
+  box-shadow: 0 8px 30px rgba(0, 0, 0, .34), 0 1px 0 rgba(255, 255, 255, .1) inset;
+  -webkit-backdrop-filter: blur(22px) saturate(135%);
+  backdrop-filter: blur(22px) saturate(135%);
+  opacity: 0;
+  transform: translate(-50%, calc(100% + 32px));
+  transition: transform 300ms cubic-bezier(.2, .8, .2, 1), opacity 220ms ease;
+}
+
+.map-detail-sheet.idea-sheet[hidden] {
+  display: none;
+}
+
+.map-detail-sheet.idea-sheet.is-visible {
+  opacity: 1;
+  transform: translate(-50%, 0);
+}
+
+.map-detail-sheet.idea-sheet {
+  z-index: 3001;
+  width: calc(100% - 16px);
+  height: min(500px, 58dvh);
+  max-height: calc(var(--idea-viewport-height, 100dvh) - 16px);
+  bottom: calc(8px + var(--idea-keyboard-inset, 0px));
+  padding: 12px;
+  border-radius: 36px;
+  transition: transform 300ms cubic-bezier(.2, .8, .2, 1), opacity 220ms ease,
+    height 300ms cubic-bezier(.2, .8, .2, 1), width 300ms cubic-bezier(.2, .8, .2, 1),
+    bottom 300ms cubic-bezier(.2, .8, .2, 1), max-height 300ms cubic-bezier(.2, .8, .2, 1),
+    border-radius 300ms cubic-bezier(.2, .8, .2, 1);
+}
+
+.map-detail-sheet.idea-sheet.is-full {
+  width: 100%;
+  height: var(--idea-viewport-height, 100dvh);
+  max-height: var(--idea-viewport-height, 100dvh);
+  bottom: var(--idea-keyboard-inset, 0px);
+  border-radius: 0;
+  padding: calc(12px + env(safe-area-inset-top, 0px)) 12px calc(12px + var(--safe-area-bottom));
+}
+
+@media (max-width: 767px) {
+
+  .idea-sheet.idea-entry.is-open:not(.is-full),
+  .map-detail-sheet.idea-sheet:not(.is-full) {
+    height: min(508px, calc(58dvh + 8px), calc(var(--idea-viewport-height, 100dvh) - 8px));
+    max-height: calc(var(--idea-viewport-height, 100dvh) - 8px);
+    bottom: var(--idea-keyboard-inset, 0px);
+    border-radius: 36px 36px 0 0;
+    padding-bottom: calc(12px + var(--safe-area-bottom));
+  }
+
+  .idea-sheet.idea-entry.is-open.keyboard-open:not(.is-full),
+  .map-detail-sheet.idea-sheet.keyboard-open:not(.is-full) {
+    padding-bottom: 12px;
+  }
+}
+
+.map-detail-sheet.is-full .map-detail-handle {
+  top: env(safe-area-inset-top, 0px);
+}
+
+.map-detail-sheet.idea-sheet.is-dragging {
+  transition: none;
+}
+
+.map-detail-sheet.idea-sheet.is-settling:not(.is-dragging) {
+  transition: height 420ms cubic-bezier(.2, .8, .25, 1.06), width 420ms cubic-bezier(.2, .8, .25, 1.06),
+    bottom 420ms cubic-bezier(.2, .8, .25, 1.06), max-height 420ms cubic-bezier(.2, .8, .25, 1.06),
+    border-radius 420ms cubic-bezier(.2, .8, .25, 1.06), transform 300ms cubic-bezier(.2, .8, .2, 1), opacity 220ms ease;
+}
+
+.map-detail-sheet .idea-route-panel .segment-detail-grid {
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
+body.light-theme .map-detail-sheet.idea-sheet {
+  background: rgba(246, 249, 250, .92);
+  color: #26343c;
+  box-shadow: 0 8px 30px rgba(35, 52, 63, .18), 0 1px 0 rgba(255, 255, 255, .75) inset;
+}
+
+.map-detail-sheet .map-detail-handle {
+  position: absolute;
+  top: 4px;
+  left: 0;
+  width: 100%;
+  height: 20px;
+  margin: 0;
+}
+
+.map-detail-sheet .map-detail-handle::after {
+  left: 50%;
+  top: 8px;
+  transform: translateX(-50%);
+}
+
+.map-detail-sheet .place-details-panel,
+.map-detail-sheet .idea-route-panel {
+  position: relative;
+  inset: auto;
+  width: 100%;
+  max-width: none;
+  max-height: none;
+  padding: 0;
+  border: 0;
+  border-radius: 0;
+  background: transparent;
+  box-shadow: none;
+  opacity: 1;
+  transform: none;
+  overflow-y: auto;
+  pointer-events: auto;
+  color: inherit;
+  display: none;
+}
+
+.map-detail-sheet .place-details-panel.active,
+.map-detail-sheet .idea-route-panel.active {
+  display: block;
+}
+
+.map-detail-sheet .idea-segment-detail {
+  overflow-y: auto;
+}
+
+.map-detail-sheet .segment-detail-heading {
+  display: flex;
+  align-items: baseline;
+  gap: 10px;
+  margin-top: 8px;
+}
+
+.map-detail-sheet .segment-detail-heading .strava-panel-title {
+  flex: 1 1 auto;
+  min-width: 0;
+  margin: 0;
+  padding: 0 0 0 8px;
+  color: inherit;
+  white-space: normal;
+  overflow-wrap: anywhere;
+}
+
+.map-detail-sheet .segment-detail-grid .segment-score-label>#strava-score-brand {
+  color: #f59658;
+  font-size: 11px;
+  font-weight: 700;
+}
+
+body.light-theme .map-detail-sheet .segment-detail-grid .segment-score-label>#strava-score-brand {
+  color: #a34b0b;
+}
+
+.map-detail-sheet .segment-detail-grid {
+  margin-top: 12px;
+}
+
+.map-detail-sheet .segment-detail-grid span {
+  color: #abbac2;
+}
+
+body.light-theme .map-detail-sheet .segment-detail-grid span {
+  color: #5a6b73;
+}
+
+.map-detail-sheet .segment-detail-grid .segment-score-label>span:not([hidden]) {
+  display: inline;
+}
+
+.map-detail-sheet .segment-detail-grid .segment-score-label>span[hidden] {
+  display: none;
+}
+
+.map-detail-sheet .segment-detail-hazard {
+  margin: 12px 0 0;
+  color: #ffc4b6;
+  font-size: 13px;
+  line-height: 1.5;
+}
+
+body.light-theme .map-detail-sheet .segment-detail-hazard {
+  color: #a83d2d;
+}
+
+.map-detail-sheet .segment-detail-retry {
+  margin-top: 16px;
+}
+
+@media (prefers-reduced-motion: reduce) {
+
+  .map-detail-sheet.idea-sheet,
+  .map-detail-sheet.idea-sheet.is-settling:not(.is-dragging) {
+    transition: none;
+  }
+}
+
+.map-detail-sheet #strava-details-panel,
+.map-detail-sheet .place-details-panel,
+.map-detail-sheet .idea-route-panel {
+  flex: 0 1 auto;
+  min-height: 0;
+}
+
+.map-detail-sheet .nearby-route-detail {
+  display: flex;
+  flex-direction: column;
+  flex: 1 1 auto;
+  min-height: 0;
+}
+
+.map-detail-sheet .nearby-route-detail .idea-nearby-card {
+  flex: 1 1 auto;
+  min-height: 0;
+  overflow-y: auto;
+  overscroll-behavior: contain;
+  border: 0;
+}
+
+.nearby-route-footer {
+  flex: none;
+}
+
+.nearby-route-footer .idea-nearby-actions {
+  margin: 0;
+}
+
+.nearby-route-navigation-note {
+  margin: 0;
+  color: #bac7be;
+  font-size: 12px;
+  line-height: 1.45;
+}
+
+body.light-theme .nearby-route-navigation-note {
+  color: #52625a;
+}
+
+.nearby-route-footer .idea-nearby-actions button:disabled {
+  opacity: .55;
+  cursor: not-allowed;
+}
+
+.nearby-route-footer .idea-nearby-export-status {
+  margin-left: 0;
+  margin-right: 0;
+}
+
+@media (max-width: 767px) {
+  .map-detail-sheet.idea-sheet.is-collapsed:not(.is-full) {
+    height: var(--nearby-collapsed-height, 144px);
+  }
+
+  .map-detail-sheet.is-collapsed .nearby-route-detail .idea-nearby-card {
+    overflow: hidden;
+  }
+
+  .map-detail-sheet.is-collapsed #strava-details-panel {
+    overflow: hidden;
+  }
+
+  .nearby-route-detail .idea-nearby-summary-stats,
+  .nearby-route-detail .idea-nearby-details,
+  #strava-details-panel> :not(.segment-detail-heading) {
+    transition: opacity 180ms ease, visibility 0s linear 180ms;
+  }
+
+  .map-detail-sheet.is-collapsed .idea-nearby-summary-stats,
+  .map-detail-sheet.is-collapsed .idea-nearby-details,
+  .map-detail-sheet.is-collapsed #strava-details-panel> :not(.segment-detail-heading) {
+    opacity: 0;
+    visibility: hidden;
+    pointer-events: none;
+  }
+
+  .map-detail-sheet:not(.is-collapsed) .nearby-route-detail .idea-nearby-summary-stats,
+  .map-detail-sheet:not(.is-collapsed) .nearby-route-detail .idea-nearby-details,
+  .map-detail-sheet:not(.is-collapsed) #strava-details-panel> :not(.segment-detail-heading) {
+    transition-delay: 0s;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+
+  .nearby-route-detail .idea-nearby-summary-stats,
+  .nearby-route-detail .idea-nearby-details,
+  #strava-details-panel> :not(.segment-detail-heading) {
+    transition: none;
+  }
+}
+
+.nearby-route-detail[hidden] {
+  display: none;
+}
+
+.nearby-route-detail .segment-popover-close,
+#strava-details-panel .segment-popover-close {
+  display: inline-flex;
+  flex: none;
+  align-items: center;
+  justify-content: center;
+  width: 32px;
+  height: 32px;
+  padding: 0;
+  border: 0;
+  border-radius: 50%;
+  color: inherit;
+  background: rgba(0, 0, 0, .08);
+  cursor: pointer;
+  position: relative;
+  left: 8px;
+  bottom: 8px;
+}
+
+#strava-details-panel .segment-popover-close {
+  position: relative;
+  left: 0;
+  bottom: 4px;
+}
+
+.nearby-route-detail .segment-popover-close:focus-visible,
+#strava-details-panel .segment-popover-close:focus-visible {
+  outline: 2px solid var(--control-focus);
+  outline-offset: 2px;
+}
+
+@media (hover: hover) {
+
+  .nearby-route-detail .segment-popover-close:hover,
+  #strava-details-panel .segment-popover-close:hover {
+    background: rgba(0, 0, 0, .18);
+  }
+}
+
+body.light-theme .map-detail-sheet .place-details-panel,
+body.light-theme .map-detail-sheet .idea-route-panel {
+  background: transparent;
+  box-shadow: none;
+}
+
+/* Segment actions stay visible below the scrollable detail content. */
+.map-detail-actions,
+.idea-nearby-actions {
+  display: flex;
+  flex: none;
+  gap: 16px;
+  margin-top: 12px;
+}
+
+.map-detail-actions[hidden] {
+  display: none !important;
+}
+
+.map-detail-sheet:not(.is-segment-popover) .map-detail-actions {
+  margin-top: auto;
+  padding-top: 12px;
+}
+
+.map-detail-actions button,
+.idea-nearby-actions button {
+  flex: 1 1 0;
+  min-width: 0;
+  min-height: 48px;
+  padding: 0 12px;
+  border: 0;
+  border-radius: 999px;
+  font: 600 14px var(--font-primary);
+  cursor: pointer;
+}
+
+#segment-add-to-chat,
+.idea-nearby-actions button:first-child {
+  background: rgba(178, 202, 214, .15);
+  color: #f3f6f8;
+}
+
+#segment-navigate,
+.idea-nearby-actions button:last-child {
+  background: #a6f0c2;
+  color: #14261b;
+}
+
+.map-detail-actions button:disabled {
+  opacity: .6;
+  cursor: wait;
+}
+
+@media (hover: hover) {
+
+  #segment-add-to-chat:hover,
+  .idea-nearby-actions button:first-child:hover {
+    background: rgba(178, 202, 214, .24);
+  }
+
+  #segment-navigate:not(:disabled):hover,
+  .idea-nearby-actions button:last-child:not(:disabled):hover {
+    background: #bff8d4;
+  }
+}
+
+body.light-theme #segment-add-to-chat,
+body.light-theme .idea-nearby-actions button:first-child {
+  background: #e2eaed;
+  color: #26343c;
+}
+
+body.light-theme #segment-navigate,
+body.light-theme .idea-nearby-actions button:last-child {
+  background: #b7edcb;
+  color: #145331;
+}
+
+.idea-reference {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  margin-bottom: 16px;
+  padding: 14px;
+  border-radius: 16px;
+  background: rgba(126, 147, 164, .13);
+  color: #f3f6f8;
+}
+
+.idea-reference-label,
+.idea-reference small {
+  font-size: 12px;
+  color: #b6c8d0;
+}
+
+.idea-reference strong {
+  font-size: 14px;
+  overflow-wrap: anywhere;
+}
+
+body.light-theme .idea-reference {
+  background: rgba(87, 112, 128, .10);
+  color: #26343c;
+}
+
+body.light-theme .idea-reference-label,
+body.light-theme .idea-reference small {
+  color: #52666b;
+}
+
+/* Search suggestions share the space above the composer with the conversation. */
+.idea-actions[hidden],
+.idea-back[hidden],
+.idea-place-results[hidden],
+.idea-sheet:not(.is-open) .idea-place-results,
+.idea-sheet.is-searching .idea-content {
+  display: none;
+}
+
+.idea-place-results {
+  flex: 1 1 0;
+  min-height: 0;
+  overflow-y: auto;
+  overscroll-behavior: contain;
+  padding: 8px 0px;
+  -webkit-mask-image: linear-gradient(to bottom, transparent, #000 24px, #000 calc(100% - 24px), transparent);
+  mask-image: linear-gradient(to bottom, transparent, #000 24px, #000 calc(100% - 24px), transparent);
+  scrollbar-width: none;
+}
+
+.idea-place-results::-webkit-scrollbar {
+  display: none;
+}
+
+.idea-heading h2.is-status {
+  color: #b3bec4;
+  width: fit-content;
+  max-width: 100%;
+}
+
+body.light-theme .idea-heading h2.is-status {
+  color: #53636a;
+}
+
+@supports ((-webkit-background-clip: text) or (background-clip: text)) {
+  .idea-heading h2.is-status {
+    background: linear-gradient(100deg, #8f9fa7 32%, #ffffff 49%, #ffffff 51%, #8f9fa7 68%);
+    background-size: 240% 100%;
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: idea-thinking-shimmer 1.35s linear infinite;
+  }
+
+  body.light-theme .idea-heading h2.is-status {
+    background-image: linear-gradient(100deg, #687a80 32%, #1b3033 49%, #1b3033 51%, #687a80 68%);
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    .idea-heading h2.is-status {
+      animation: none;
+      background: none;
+      -webkit-text-fill-color: currentColor;
+    }
+  }
+}
+
+.idea-place-result {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  width: 100%;
+  min-height: 58px;
+  padding: 9px 8px;
+  border: 0;
+  border-radius: 12px;
+  text-align: left;
+  color: inherit;
+  background: transparent;
+  cursor: pointer;
+}
+
+.idea-place-result i {
+  flex: none;
+  width: 22px;
+  text-align: center;
+  color: #a6f0c2;
+}
+
+.idea-place-result span {
+  display: flex;
+  min-width: 0;
+  flex-direction: column;
+  gap: 3px;
+}
+
+.idea-place-result strong,
+.idea-place-result small {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.idea-place-result strong {
+  font-size: 14px;
+}
+
+.idea-place-result small {
+  color: #b6c8d0;
+  font-size: 12px;
+}
+
+.idea-retry {
+  min-height: 44px;
+  margin: 0 8px 8px 0;
+  padding: 0 14px;
+  border: 1px solid var(--control-border);
+  border-radius: 22px;
+  background: var(--idea-surface-raised);
+  color: inherit;
+  cursor: pointer;
+}
+
+.idea-sheet .idea-place-result:focus-visible,
+.idea-sheet .idea-retry:focus-visible {
+  outline: 2px solid var(--control-focus);
+  outline-offset: 2px;
+}
+
+@media (hover: hover) {
+
+  .idea-place-result:hover,
+  .idea-retry:hover {
+    background: var(--idea-surface-raised);
+  }
+}
+
+body.light-theme .idea-place-result small {
+  color: #52666b;
+}
+
+body.light-theme .idea-place-result i {
+  color: #087a45;
+}
+
+/* Mirror the input so the hint follows its final character and wraps with it. */
+.idea-input-editor {
+  position: relative;
+  display: flex;
+  flex: 1 1 0;
+  min-width: 0;
+}
+
+.idea-text-mirror {
+  position: absolute;
+  z-index: 1;
+  inset: 7px 0;
+  overflow: hidden;
+  pointer-events: none;
+  font: 400 15px/24px var(--font-primary);
+  white-space: pre-wrap;
+  overflow-wrap: anywhere;
+}
+
+#idea-input-mirror {
+  visibility: hidden;
+}
+
+.idea-input-hint {
+  margin-left: 6px;
+  color: #becbd2;
+}
+
+.idea-input-hint.is-wrapped { visibility: hidden; }
+
+#idea-input-mirror:empty+.idea-input-hint {
+  margin-left: 0;
+}
+
+body.light-theme .idea-input-hint {
+  color: #5d6f79;
+}
+
+.idea-input-editor:not(:focus-within) .idea-text-mirror {
+  visibility: hidden;
+}
+
+.idea-sheet.idea-entry .idea-input-wrap textarea::placeholder {
+  color: transparent;
+}
+
+.idea-input-editor:has(#idea-input:placeholder-shown) .idea-input-hint {
+  visibility: hidden;
+}
+
+.idea-sheet.idea-entry .idea-input-wrap textarea:focus::placeholder {
+  color: #becbd2;
+}
+
+body.light-theme .idea-sheet.idea-entry .idea-input-wrap textarea:focus::placeholder {
+  color: #5d6f79;
+}
+
+.idea-sheet.idea-entry .idea-compose {
+  overflow: hidden;
+}
+
+.idea-sheet.idea-entry .idea-voice {
+  min-width: 0;
+  transition: margin-right 300ms cubic-bezier(.2, .8, .2, 1), opacity 220ms ease;
+}
+
+.idea-sheet.idea-entry .idea-compose:focus-within .idea-voice {
+  margin-right: -60px;
+  opacity: 0;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .idea-sheet.idea-entry .idea-voice {
+    transition: none;
+  }
+}
+
+.idea-sheet .idea-header {
+  gap: 0px;
+}
+
+.idea-back {
+  display: inline-flex;
+  flex: 0 0 24px;
+  align-items: center;
+  justify-content: flex-start;
+  width: 24px;
+  height: 40px;
+  padding: 0;
+  border: 0;
+  border-radius: 50%;
+  background: transparent;
+  color: inherit;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.idea-sheet .idea-back:focus-visible {
+  outline: 2px solid var(--control-focus);
+  outline-offset: 2px;
+}
+
+.idea-actions:has(.idea-native-menu:focus-visible) .idea-more,
+.idea-sheet #idea-history-back:focus-visible {
+  outline: none;
+  background: var(--idea-surface-raised);
+}
+
+@media (hover: hover) {
+  .idea-back:hover {
+    background: var(--idea-surface-raised);
+  }
+}
+
+/* On desktop, keep the conversation and map visible side by side. */
+@media (min-width: 768px) {
+
+  .idea-sheet.idea-entry,
+  .idea-sheet.idea-entry:not(.is-full),
+  .idea-sheet.idea-entry.is-open:not(.is-full),
+  .idea-sheet.idea-entry.is-full {
+    left: 24px;
+    bottom: 24px;
+    width: min(420px, calc(100vw - 48px));
+    max-height: calc(100dvh - 48px);
+    transform: none;
+    border-radius: 36px;
+  }
+
+  .idea-sheet.idea-entry.is-open,
+  .idea-sheet.idea-entry.is-full {
+    height: min(760px, calc(100dvh - 48px));
+    padding: 12px;
+  }
+
+  .idea-sheet.idea-entry.is-open:not(.is-full) {
+    height: min(500px, 58dvh);
+  }
+
+  .idea-sheet .idea-handle {
+    cursor: pointer;
+    touch-action: auto;
+  }
+
+  .idea-sheet .idea-handle:focus-visible,
+  .map-detail-sheet .map-detail-handle:focus-visible {
+    outline: 2px solid var(--control-focus);
+    outline-offset: -4px;
+    border-radius: 12px;
+  }
+
+  .map-detail-sheet.idea-sheet,
+  .map-detail-sheet.idea-sheet.is-full {
+    left: 24px;
+    bottom: 24px;
+    width: min(420px, calc(100vw - 48px));
+    height: min(760px, calc(100dvh - 48px));
+    max-height: calc(100dvh - 48px);
+    padding: 12px;
+    border-radius: 28px;
+    transform: translateY(calc(100% + 32px));
+  }
+
+  .map-detail-sheet.idea-sheet.is-visible {
+    transform: translateY(0);
+  }
+
+  .map-detail-sheet .map-detail-handle {
+    cursor: pointer;
+    touch-action: auto;
+  }
+}
+
+.segment-popover-close {
+  display: none;
+}
+
+@media (min-width: 768px) {
+
+  #strava-details-panel .segment-popover-close {
+    position: static;
+  }
+
+  .map-detail-sheet.idea-sheet.is-segment-popover,
+  .map-detail-sheet.idea-sheet.is-segment-popover.is-full {
+    left: var(--segment-popover-left, 12px);
+    top: var(--segment-popover-top, 12px);
+    bottom: auto;
+    width: min(360px, calc(100vw - 24px));
+    height: auto;
+    max-height: calc(100dvh - 24px);
+    padding: 12px;
+    border-radius: 32px;
+    opacity: 0;
+    transform: translateY(8px) scale(.98);
+    transform-origin: top left;
+    transition: opacity 180ms ease, transform 220ms cubic-bezier(.2, .8, .2, 1);
+  }
+
+  .map-detail-sheet.idea-sheet.is-segment-popover.is-visible {
+    opacity: 1;
+    transform: translateY(0) scale(1);
+  }
+
+  .is-segment-popover .map-detail-handle {
+    display: none;
+  }
+
+  .is-segment-popover .segment-popover-close {
+    display: inline-flex;
+    flex: none;
+    align-items: center;
+    justify-content: center;
+    width: 32px;
+    height: 32px;
+    padding: 0;
+    border: 0;
+    border-radius: 50%;
+    color: inherit;
+    background: rgba(0, 0, 0, .08);
+    cursor: pointer;
+    transition: background-color 180ms ease;
+  }
+
+  .is-segment-popover .segment-popover-close:focus-visible {
+    outline: 2px solid var(--control-focus);
+    outline-offset: 2px;
+  }
+
+  .is-segment-popover .segment-detail-heading {
+    align-items: flex-start;
+    margin-top: 0;
+  }
+
+  .is-segment-popover .segment-detail-heading .strava-panel-title {
+    padding: 4px 0 0 4px;
+  }
+
+  .is-segment-popover .map-detail-actions {
+    gap: 12px;
+  }
+
+  @media (hover: hover) {
+    .is-segment-popover .segment-popover-close:hover {
+      background: rgba(0, 0, 0, .18);
+    }
+
+
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+
+  .map-detail-sheet.idea-sheet.is-segment-popover,
+  .is-segment-popover .segment-popover-close {
+    transition: none;
+  }
+}
+
+/* The complete route uses the same content as its conversation card. */
+.map-detail-sheet .idea-route-message,
+.map-detail-sheet .idea-route-note,
+.map-detail-sheet .idea-route-legs {
+  color: #abbac2;
+  font-size: 13px;
+  line-height: 1.6;
+  overflow-wrap: anywhere;
+}
+
+.map-detail-sheet .idea-route-message,
+.map-detail-sheet .idea-route-note {
+  margin-top: 12px;
+  white-space: pre-wrap;
+}
+
+body.light-theme .map-detail-sheet .idea-route-message,
+body.light-theme .map-detail-sheet .idea-route-note,
+body.light-theme .map-detail-sheet .idea-route-legs {
+  color: #5a6b73;
+}
+
+@media (min-width: 768px) {
+  .map-detail-sheet.is-route-popover:not(.is-visible) .idea-route-panel {
+    display: block;
+  }
 }

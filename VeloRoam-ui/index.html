@@ -21,14 +21,23 @@
     integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin="" />
 
   <!-- Custom CSS Style -->
-  <link rel="stylesheet" href="style.css?v=20261028-idea-font13">
+  <link rel="stylesheet" href="style.css?v=20261107-input-height">
 </head>
 
 <body>
 
+  <div class="app-message" id="app-message" role="status" aria-live="polite" aria-atomic="true" hidden><i class="fa-solid fa-circle-exclamation" aria-hidden="true"></i><span></span></div>
+
   <!-- 1. 全屏地图容器 -->
   <div id="map"></div>
+  <!-- 景观点位展示暂时关闭，恢复时取消注释。
+  <div class="scenic-map-status" id="scenic-map-status" role="status" aria-live="polite">正在加载景点…</div>
+  -->
   <div class="startup-location-status" id="startup-location-status" role="status" aria-label="正在定位，请稍候">
+    <div class="startup-wordmark" aria-hidden="true"><span class="startup-wordmark-velo">Velo</span><span
+        class="startup-wordmark-roam">Roam</span></div>
+  </div>
+  <div class="startup-location-status route-planning-status" id="route-planning-status" role="status" aria-label="正在规划路线，请稍候" hidden>
     <div class="startup-wordmark" aria-hidden="true"><span class="startup-wordmark-velo">Velo</span><span class="startup-wordmark-roam">Roam</span></div>
   </div>
 
@@ -40,7 +49,7 @@
       <i class="fa-solid fa-fire-flame-curved"></i>
     </button>
     -->
-    <button class="map-action-btn" id="btn-toggle-theme" title="当前黑底地图，切换到白底地图" aria-label="当前黑底地图，切换到白底地图">
+    <button class="map-action-btn" id="btn-toggle-theme" title="当前彩色地图，切换到黑底地图" aria-label="当前彩色地图，切换到黑底地图">
       <i class="fa-solid fa-layer-group"></i>
     </button>
     <button class="map-action-btn" id="btn-recenter" title="定位当前位置">
@@ -316,16 +325,15 @@
       <button type="button" class="location-search-clear" id="location-search-clear" aria-label="清空搜索" hidden>
         <i class="fa-solid fa-circle-xmark"></i>
       </button>
-      <div class="location-search-results" id="location-search-results" role="listbox"
-        aria-label="地址搜索结果"></div>
+      <div class="location-search-results" id="location-search-results" role="listbox" aria-label="地址搜索结果"></div>
     </div>
     <span class="sr-only" id="location-search-status" aria-live="polite"></span>
   </div>
 
   <section class="strava-details-panel home-recommendation-panel" id="home-recommendations"
     aria-labelledby="home-recommendations-title" hidden>
-    <button type="button" class="strava-panel-close-btn" id="home-recommendations-search"
-      aria-label="搜索地点" title="搜索地点">
+    <button type="button" class="strava-panel-close-btn" id="home-recommendations-search" aria-label="搜索地点"
+      title="搜索地点">
       <i class="fa-solid fa-magnifying-glass" aria-hidden="true"></i>
     </button>
     <div class="strava-panel-header">
@@ -337,44 +345,31 @@
     <div class="strava-panel-stats" id="home-recommendation-stats" hidden>
       <div class="strava-stat-item">
         <span class="strava-stat-label">总里程</span>
-        <span class="strava-stat-value"><span id="home-recommendation-total">--</span> <span class="strava-stat-unit">km</span></span>
+        <span class="strava-stat-value"><span id="home-recommendation-total">--</span> <span
+            class="strava-stat-unit">km</span></span>
       </div>
       <div class="strava-stat-divider"></div>
       <div class="strava-stat-item">
         <span class="strava-stat-label">到路段</span>
-        <span class="strava-stat-value"><span id="home-recommendation-approach">--</span> <span class="strava-stat-unit">km</span></span>
+        <span class="strava-stat-value"><span id="home-recommendation-approach">--</span> <span
+            class="strava-stat-unit">km</span></span>
       </div>
       <div class="strava-stat-divider"></div>
       <div class="strava-stat-item">
         <span class="strava-stat-label">骑行路段</span>
-        <span class="strava-stat-value"><span id="home-recommendation-segment">--</span> <span class="strava-stat-unit">km</span></span>
+        <span class="strava-stat-value"><span id="home-recommendation-segment">--</span> <span
+            class="strava-stat-unit">km</span></span>
       </div>
     </div>
     <div class="home-recommendation-actions">
       <button type="button" id="home-recommendations-retry" hidden>重试</button>
-      <button type="button" id="home-recommendations-detail" hidden>查看路段 <i class="fa-solid fa-chevron-right" aria-hidden="true"></i></button>
+      <button type="button" id="home-recommendations-detail" hidden>查看路段 <i class="fa-solid fa-chevron-right"
+          aria-hidden="true"></i></button>
     </div>
     <span class="sr-only" id="home-recommendations-status" role="status" aria-live="polite"></span>
   </section>
 
-  <section class="strava-details-panel place-details-panel" id="place-details-panel"
-    aria-labelledby="place-details-title" hidden>
-    <button type="button" class="strava-panel-close-btn" id="place-details-close" aria-label="关闭地点详情" title="关闭">
-      <i class="fa-solid fa-xmark" aria-hidden="true"></i>
-    </button>
-    <div class="strava-panel-header">
-      <i class="fa-solid fa-location-dot" aria-hidden="true"></i>
-      <span class="strava-panel-tag">目的地</span>
-    </div>
-    <h2 class="strava-panel-title" id="place-details-title">--</h2>
-    <p class="place-details-address" id="place-details-address"></p>
-    <p class="place-details-origin" id="place-details-origin"></p>
-    <p class="place-details-message" id="place-details-message" role="status" aria-live="polite" hidden></p>
-    <button type="button" class="place-details-go" id="place-details-go">
-      <i class="fa-solid fa-location-arrow" aria-hidden="true"></i>
-      <span>前往</span>
-    </button>
-  </section>
+
 
   <!-- 6. 热门点位底部详情面板（暂时关闭，保留结构便于后续恢复）
   <div class="strava-details-panel hotpoint-details-panel" id="hotpoint-details-panel">
@@ -406,82 +401,156 @@
   </div>
   -->
 
-  <section class="strava-details-panel idea-route-panel" id="idea-route-panel" aria-label="骑行路线详情" aria-hidden="true">
-    <button type="button" class="strava-panel-close-btn" id="idea-route-close" aria-label="关闭路线详情"><i class="fa-solid fa-xmark" aria-hidden="true"></i></button>
-    <div class="strava-panel-header"><i class="fa-solid fa-route" aria-hidden="true"></i><span class="strava-panel-tag">骑行路线</span></div>
-    <h2 class="strava-panel-title" id="idea-route-title"></h2>
-    <p class="idea-route-origin" id="idea-route-origin"></p>
-    <p class="idea-route-note" id="idea-route-note"></p>
-    <div class="strava-panel-stats">
-      <div class="strava-stat-item"><span class="strava-stat-label">路线距离</span><span class="strava-stat-value"><span id="idea-route-distance">--</span> <span class="strava-stat-unit">km</span></span></div>
-      <div class="strava-stat-divider"></div>
-      <div class="strava-stat-item"><span class="strava-stat-label" id="idea-route-duration-label">预计骑行</span><span class="strava-stat-value"><span id="idea-route-duration">--</span> <span class="strava-stat-unit">分钟</span></span></div>
-      <div class="strava-stat-divider"></div>
-      <div class="strava-stat-item"><span class="strava-stat-label">红绿灯估计</span><span class="strava-stat-value"><span id="idea-route-signals">--</span></span></div>
+
+
+  <section class="idea-sheet map-detail-sheet" id="map-detail-sheet" aria-label="地图详情" hidden>
+    <button type="button" class="idea-handle map-detail-handle" id="map-detail-handle" aria-label="收起地图详情"></button>
+    <section class="idea-segment-detail" id="strava-details-panel" aria-label="路段详情" hidden>
+      <div class="segment-detail-heading">
+        <h2 class="strava-panel-title" id="strava-panel-title">--</h2>
+        <button type="button" class="segment-popover-close" id="segment-popover-close" aria-label="关闭路段详情"><i
+            class="fa-solid fa-xmark" aria-hidden="true"></i></button>
+      </div>
+      <p class="segment-detail-hazard" id="strava-detail-hazard" hidden>Strava 标记此路段存在潜在危险，请注意路况。</p>
+      <div class="segment-detail-grid" aria-label="路段数据">
+        <div><span class="segment-score-label"><span id="strava-score-brand" hidden>Strava</span><span
+              id="strava-score-label">路段评分</span></span><strong id="strava-stat-score">--</strong></div>
+        <div><span>路段距离</span><strong id="strava-stat-distance">--</strong></div>
+        <div><span>平均坡度</span><strong id="strava-stat-grade">--</strong></div>
+        <div><span>最大坡度</span><strong id="strava-stat-max-grade">--</strong></div>
+        <div><span>累计爬升</span><strong id="strava-stat-elevation">--</strong></div>
+        <div><span>海拔范围</span><strong id="strava-stat-range">--</strong></div>
+        <div><span>收藏次数</span><strong id="strava-stat-stars">--</strong></div>
+        <div><span>骑行人数</span><strong id="strava-stat-athletes">--</strong></div>
+        <div><span>完成次数</span><strong id="strava-stat-efforts">--</strong></div>
+      </div>
+      <button type="button" id="strava-detail-retry" class="segment-detail-retry" hidden>详情加载失败，点击重试</button>
+    </section>
+    <section class="strava-details-panel place-details-panel" id="place-details-panel"
+      aria-labelledby="place-details-title" hidden>
+      <button type="button" class="strava-panel-close-btn" id="place-details-close" aria-label="关闭地点详情" title="关闭">
+        <i class="fa-solid fa-xmark" aria-hidden="true"></i>
+      </button>
+      <div class="strava-panel-header">
+        <i class="fa-solid fa-location-dot" aria-hidden="true"></i>
+        <span class="strava-panel-tag">目的地</span>
+      </div>
+      <h2 class="strava-panel-title" id="place-details-title">--</h2>
+      <p class="place-details-address" id="place-details-address"></p>
+      <p class="place-details-rating" id="place-details-rating" hidden></p>
+      <p class="place-details-origin" id="place-details-origin"></p>
+      <p class="place-details-message" id="place-details-message" role="status" aria-live="polite" hidden></p>
+      <button type="button" class="place-details-go" id="place-details-go">
+        <i class="fa-solid fa-location-arrow" aria-hidden="true"></i>
+        <span>前往</span>
+      </button>
+    </section>
+    <section class="strava-details-panel idea-route-panel" id="idea-route-panel" aria-label="骑行路线详情" aria-hidden="true">
+      <div class="segment-detail-heading">
+        <h2 class="strava-panel-title" id="idea-route-title"></h2>
+        <button type="button" class="segment-popover-close" id="idea-route-popover-close" aria-label="关闭路线详情"></button>
+      </div>
+      <div class="segment-detail-grid" aria-label="路线数据">
+        <div><span>路线距离</span><strong id="idea-route-distance">--</strong></div>
+        <div><span id="idea-route-duration-label">预计骑行</span><strong id="idea-route-duration">--</strong></div>
+      </div>
+      <p class="idea-route-origin" id="idea-route-origin"></p>
+      <p class="idea-route-message" id="idea-route-message" hidden></p>
+      <ol class="idea-route-legs" id="idea-route-legs" hidden></ol>
+      <p class="idea-route-note" id="idea-route-note" hidden></p>
+    </section>
+    <section class="nearby-route-detail" id="nearby-route-detail" aria-label="推荐路线详情" hidden></section>
+    <div id="map-detail-actions" class="map-detail-actions" hidden>
+      <button type="button" id="segment-add-to-chat">添加到聊天</button>
+      <button type="button" id="segment-navigate">到这里去</button>
     </div>
   </section>
 
   <div class="idea-backdrop" id="idea-backdrop" hidden></div>
   <section class="idea-sheet idea-entry" id="idea-sheet" aria-label="骑行想法">
-    <button type="button" class="idea-handle" id="idea-sheet-handle" aria-label="展开骑行想法" aria-controls="idea-content" aria-expanded="false"></button>
+    <button type="button" class="idea-handle" id="idea-sheet-handle" aria-label="展开骑行想法" aria-expanded="false"></button>
 
     <header class="idea-header">
-      <div class="idea-heading"><h2 id="idea-title">今天，想骑向哪里？</h2></div>
-      <div class="idea-actions">
-        <button type="button" class="idea-more" id="idea-more" aria-label="更多" title="更多" aria-haspopup="menu" aria-expanded="false" aria-controls="idea-menu"><svg viewBox="0 0 48 48" fill="currentColor" aria-hidden="true"><circle cx="12" cy="24" r="3"/><circle cx="24" cy="24" r="3"/><circle cx="36" cy="24" r="3"/></svg></button>
-        <div class="idea-menu" id="idea-menu" role="menu" hidden>
-          <button type="button" id="idea-history-open" role="menuitem"><i class="fa-solid fa-clock-rotate-left" aria-hidden="true"></i><span>历史对话</span></button>
-          <button type="button" id="idea-new-chat" role="menuitem"><i class="fa-solid fa-pen-to-square" aria-hidden="true"></i><span>新建对话</span></button>
-        </div>
+      <button type="button" class="idea-back" id="idea-back" aria-label="返回骑行想法首页" hidden>
+        <i class="fa-solid fa-chevron-left" aria-hidden="true"></i>
+      </button>
+      <div class="idea-heading">
+        <h2 id="idea-title">今天，想骑向哪里？</h2>
+        <h2 class="idea-title-sizer" id="idea-title-sizer" aria-hidden="true">今天，想骑向哪里？</h2>
+      </div>
+      <div class="idea-actions" hidden>
+        <div class="idea-more" aria-hidden="true"><svg viewBox="0 0 48 48" fill="currentColor">
+            <circle cx="12" cy="24" r="3" />
+            <circle cx="24" cy="24" r="3" />
+            <circle cx="36" cy="24" r="3" />
+          </svg></div>
+        <select id="idea-more" class="idea-native-menu" aria-label="更多操作">
+          <option value="" selected disabled>更多操作</option>
+          <option value="history">历史对话</option>
+          <option value="new">新建对话</option>
+        </select>
       </div>
     </header>
-  <section class="idea-segment-detail" id="strava-details-panel" aria-label="路段详情" hidden>
-    <div class="strava-panel-header">
-      <i class="fa-solid fa-bolt"></i>
-      <span class="strava-panel-tag">Strava 路段</span>
-      <button type="button" id="strava-detail-close" class="segment-detail-close" aria-label="关闭路段详情">关闭</button>
-    </div>
-    <div class="strava-panel-title" id="strava-panel-title">--</div>
-    <div class="strava-panel-stats">
-      <div class="strava-stat-item">
-        <span class="strava-stat-label">VeloRoam 评分</span>
-        <span class="strava-stat-value" id="strava-stat-score">--</span>
-      </div>
-      <div class="strava-stat-divider"></div>
-      <div class="strava-stat-item">
-        <span class="strava-stat-label">路段距离</span>
-        <span class="strava-stat-value"><span id="strava-stat-distance">--</span> <span
-            class="strava-stat-unit">km</span></span>
-      </div>
-      <div class="strava-stat-divider"></div>
-      <div class="strava-stat-item">
-        <span class="strava-stat-label">平均坡度</span>
-        <span class="strava-stat-value"><span id="strava-stat-grade">--</span> <span
-            class="strava-stat-unit">%</span></span>
-      </div>
-    </div>
-    <div class="segment-detail-grid" aria-label="更多路段数据">
-      <div><span>最大坡度</span><strong id="strava-stat-max-grade">--</strong></div>
-      <div><span>累计爬升</span><strong id="strava-stat-elevation">--</strong></div>
-      <div><span>海拔范围</span><strong id="strava-stat-range">--</strong></div>
-      <div><span>收藏次数</span><strong id="strava-stat-stars">--</strong></div>
-      <div><span>骑行人数</span><strong id="strava-stat-athletes">--</strong></div>
-      <div><span>完成次数</span><strong id="strava-stat-efforts">--</strong></div>
-    </div>
-    <p class="segment-detail-status" id="strava-detail-status" role="status"></p>
-    <button type="button" id="strava-detail-retry" class="segment-detail-retry" hidden>重试</button>
-  </section>
+
+    <span class="sr-only" id="idea-search-status" role="status" aria-live="polite"></span>
 
     <div class="idea-content" id="idea-content" aria-live="polite" inert>
-      <section class="idea-nearby" aria-label="骑行路线推荐"><h2>为你推荐的骑行路线</h2><div class="idea-nearby-list" aria-live="polite">展开后查找路线</div></section>
+      <section class="idea-nearby" aria-label="推荐路线">
+        <div class="idea-nearby-list"></div>
+        <div class="idea-nearby-waiting" aria-hidden="true">
+          <div class="idea-nearby-skeleton">
+            <div class="idea-nearby-card idea-nearby-skeleton-card">
+              <div class="idea-nearby-route idea-nearby-summary">
+                <span class="idea-nearby-summary-heading"><i class="idea-skeleton-title"></i><i class="idea-skeleton-disclosure"></i></span>
+                <span class="idea-nearby-summary-stats">
+                  <span class="idea-nearby-summary-stat"><span><i></i></span><span><i></i></span></span>
+                  <span class="idea-nearby-summary-stat"><span><i></i></span><span><i></i></span></span>
+                </span>
+              </div>
+            </div>
+            <div class="idea-nearby-card idea-nearby-skeleton-card">
+              <div class="idea-nearby-route idea-nearby-summary">
+                <span class="idea-nearby-summary-heading"><i class="idea-skeleton-title"></i><i class="idea-skeleton-disclosure"></i></span>
+                <span class="idea-nearby-summary-stats">
+                  <span class="idea-nearby-summary-stat"><span><i></i></span><span><i></i></span></span>
+                  <span class="idea-nearby-summary-stat"><span><i></i></span><span><i></i></span></span>
+                </span>
+              </div>
+            </div>
+            <div class="idea-nearby-card idea-nearby-skeleton-card">
+              <div class="idea-nearby-route idea-nearby-summary">
+                <span class="idea-nearby-summary-heading"><i class="idea-skeleton-title"></i><i class="idea-skeleton-disclosure"></i></span>
+                <span class="idea-nearby-summary-stats">
+                  <span class="idea-nearby-summary-stat"><span><i></i></span><span><i></i></span></span>
+                  <span class="idea-nearby-summary-stat"><span><i></i></span><span><i></i></span></span>
+                </span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
     </div>
     <section class="idea-history" id="idea-history-panel" aria-label="会话历史" hidden>
-      <div class="idea-history-header"><h3>会话历史</h3><button type="button" id="idea-history-back">返回对话</button></div>
-      <p class="idea-history-hint">当前页面中的会话</p>
+      <div class="idea-history-header">
+        <h3>会话历史</h3><button type="button" id="idea-history-back">返回对话</button>
+      </div>
       <div class="idea-history-list" id="idea-history-list"></div>
     </section>
 
-    <form class="idea-compose" id="idea-form"><div class="idea-input-wrap"><i class="fa-solid fa-magnifying-glass idea-search-icon" aria-hidden="true"></i><label class="sr-only" for="idea-input">输入骑行想法</label><span class="idea-input-prompt" id="idea-input-prompt" aria-hidden="true">今天，想骑向哪里？</span><textarea id="idea-input" rows="1" maxlength="500" placeholder="说说你的骑行想法" enterkeyhint="send"></textarea><button class="idea-send" id="idea-send" hidden aria-label="发送想法" type="submit"><i class="fa-solid fa-arrow-up" aria-hidden="true"></i></button></div><button class="idea-voice" type="button" disabled aria-label="语音输入即将上线"><i class="fa-solid fa-microphone" aria-hidden="true"></i></button></form>
+    <div class="idea-place-results" id="idea-place-results" aria-label="地点搜索结果" aria-live="polite" hidden></div>
+    <form class="idea-compose" id="idea-form">
+      <div class="idea-input-wrap"><i class="fa-solid fa-magnifying-glass idea-search-icon"
+          aria-hidden="true"></i><label class="sr-only" for="idea-input">搜索地点或输入骑行想法，按回车与 AI 对话</label><span
+          class="idea-input-prompt" id="idea-input-prompt" aria-hidden="true">今天，想骑向哪里？</span>
+        <div class="idea-input-editor">
+          <div class="idea-text-mirror" aria-hidden="true">
+            <div class="idea-text-mirror-inner"><span id="idea-input-mirror"></span><span class="idea-input-hint">键入回车与 AI 对话</span></div>
+          </div><textarea id="idea-input" rows="1" maxlength="500" placeholder="检索地点或回车与 AI 对话" enterkeyhint="send"
+            aria-describedby="idea-input-help"></textarea>
+        </div><span class="sr-only" id="idea-input-help">输入时可选择地点搜索结果，按回车与 AI 对话。</span>
+      </div><button class="idea-voice" type="button" disabled aria-label="语音输入即将上线"><i class="fa-solid fa-microphone"
+          aria-hidden="true"></i></button>
+    </form>
   </section>
 
   <!-- Leaflet Map JS -->
@@ -492,7 +561,10 @@
   <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
 
   <!-- Custom JS Application Logic -->
-  <script src="app.js"></script>
+  <script src="idea-gpx.js?v=20261106"></script>
+  <script src="idea-navigation.js?v=20261107"></script>
+  <script src="idea-recommendation-cache.js?v=20261106-three-routes"></script>
+  <script src="app.js?v=20261107-input-height"></script>
 </body>
 
 </html>
