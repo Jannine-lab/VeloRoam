@@ -35,7 +35,7 @@
   --control-bg-pressed: #202225;
   --control-color: #f5f6f5;
   --control-border: rgba(255, 255, 255, 0.22);
-  --control-shadow: 0 2px 6px rgba(0, 0, 0, 0.38), 0 8px 22px rgba(0, 0, 0, 0.28);
+  --control-shadow: 0 0px 32px rgba(25, 42, 32, 0.05), 0 0px 32px rgba(25, 42, 32, 0.05);
   --control-shadow-pressed: 0 1px 4px rgba(0, 0, 0, 0.38);
   --control-focus: #00e676;
 
@@ -2300,7 +2300,7 @@ body.light-theme {
   --control-bg-pressed: #e5ebe7;
   --control-color: #242b27;
   --control-border: rgba(38, 60, 48, 0.22);
-  --control-shadow: 0 2px 6px rgba(25, 42, 32, 0.18), 0 8px 22px rgba(25, 42, 32, 0.13);
+  --control-shadow: 0 0px 32px rgba(25, 42, 32, 0.05), 0 0px 32px rgba(25, 42, 32, 0.05);
   --control-shadow-pressed: 0 1px 4px rgba(25, 42, 32, 0.18);
   --control-focus: #087a45;
 
@@ -4707,7 +4707,9 @@ body.light-theme .idea-sheet .idea-menu button:active {
 }
 
 @media (max-width: 767px) {
-  .route-planning-status { bottom: var(--route-planning-bottom, 0px); }
+  .route-planning-status {
+    bottom: var(--route-planning-bottom, 0px);
+  }
 }
 
 .startup-location-status.is-visible {
@@ -5533,24 +5535,49 @@ body.light-theme .idea-reference small {
   color: #52666b;
 }
 
-/* Search suggestions share the space above the composer with the conversation. */
+/* Search suggestions float above the composer without replacing the conversation. */
 .idea-actions[hidden],
 .idea-back[hidden],
 .idea-place-results[hidden],
-.idea-sheet:not(.is-open) .idea-place-results,
-.idea-sheet.is-searching .idea-content {
+.idea-sheet:not(.is-open) .idea-place-results {
   display: none;
 }
 
+.idea-compose-area {
+  position: relative;
+  flex: 0 0 auto;
+  margin-top: auto;
+  min-width: 0;
+}
+
 .idea-place-results {
-  flex: 1 1 0;
+  position: absolute;
+  z-index: 10;
+  bottom: calc(100% + 8px);
+  left: 0;
+  width: 100%;
+  max-height: min(320px, calc(var(--idea-viewport-height, 100dvh) * .45));
   min-height: 0;
   overflow-y: auto;
   overscroll-behavior: contain;
-  padding: 8px 0px;
-  -webkit-mask-image: linear-gradient(to bottom, transparent, #000 24px, #000 calc(100% - 24px), transparent);
-  mask-image: linear-gradient(to bottom, transparent, #000 24px, #000 calc(100% - 24px), transparent);
+  padding: 12px;
+  /* border: 1px solid var(--control-border); */
+  border-radius: 16px;
+  background: var(--control-bg);
+  color: var(--control-color);
+  box-shadow: var(--control-shadow);
   scrollbar-width: none;
+}
+
+.idea-place-search-message {
+  padding: 12px 10px;
+  color: #bac7be;
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+body.light-theme .idea-place-search-message {
+  color: #52625a;
 }
 
 .idea-place-results::-webkit-scrollbar {
@@ -5596,7 +5623,7 @@ body.light-theme .idea-heading h2.is-status {
   gap: 14px;
   width: 100%;
   min-height: 58px;
-  padding: 9px 8px;
+  /* padding: 9px 8px; */
   border: 0;
   border-radius: 12px;
   text-align: left;
@@ -5696,7 +5723,10 @@ body.light-theme .idea-place-result i {
   color: #becbd2;
 }
 
-.idea-input-hint.is-wrapped { visibility: hidden; }
+.idea-input-hint.is-wrapped,
+.idea-sheet.has-idea-conversation .idea-input-hint {
+  visibility: hidden;
+}
 
 #idea-input-mirror:empty+.idea-input-hint {
   margin-left: 0;

@@ -1376,7 +1376,7 @@ function focusMapOnSearchResult(item) {
     zIndexOffset: 800
   }).addTo(map);
 
-  map.flyTo([lat, lng], Math.max(map.getZoom(), 16), {
+  flyToVisibleMapCenter([lat, lng], Math.max(map.getZoom(), 16), {
     animate: true,
     duration: 1.1
   });
@@ -3957,6 +3957,7 @@ document.addEventListener('DOMContentLoaded', () => {
   const syncIdeaNavigation = () => {
     const hasCurrentConversation = Boolean(referencedSegment || referencedRoute || content.querySelector('.idea-user-message'));
     const showingHistory = !historyPanel.hidden;
+    sheet.classList.toggle('has-idea-conversation', hasCurrentConversation);
     input.placeholder = hasCurrentConversation ? '一起探索你的骑行想法' : '检索地点或回车与 AI 对话';
     prompt.textContent = hasCurrentConversation ? '一起探索你的骑行想法' : baseTitle;
     back.hidden = !hasCurrentConversation && !showingHistory;
@@ -4109,9 +4110,9 @@ document.addEventListener('DOMContentLoaded', () => {
   };
   const syncIdeaStatus = () => {
     const recommending = !content.hidden && historyPanel.hidden && placeResults.hidden && Boolean(content.querySelector('.idea-nearby-list[data-loading]'));
-    const message = placeSearchLoading ? '正在检索' : recommending ? nearbyWaitingStage : '';
+    const message = !placeSearchLoading && recommending ? nearbyWaitingStage : '';
     syncNearbyWaiting(recommending && !placeSearchLoading && !content.querySelector('.idea-nearby-list .idea-nearby-card'));
-    searchStatus.textContent = message;
+    searchStatus.textContent = placeSearchLoading ? '正在检索地点' : message;
     titleStatus = message;
     renderIdeaTitle();
   };
@@ -4125,7 +4126,6 @@ document.addEventListener('DOMContentLoaded', () => {
     placeSearchLoading = false;
     placeResults.replaceChildren();
     placeResults.hidden = true;
-    sheet.classList.remove('is-searching');
     syncIdeaStatus();
   };
   const submitIdeaDirect = () => {
@@ -4134,10 +4134,13 @@ document.addEventListener('DOMContentLoaded', () => {
   const renderPlaceSearch = (status, results = []) => {
     placeResults.replaceChildren();
     placeSearchLoading = status === 'loading';
-    const hasResults = status === 'results' && results.length > 0;
-    placeResults.hidden = !hasResults;
-    sheet.classList.toggle('is-searching', hasResults);
+    placeResults.hidden = status === 'idle';
     syncIdeaStatus();
+    if (status !== 'results') {
+      const message = document.createElement('p'); message.className = 'idea-place-search-message';
+      message.textContent = status === 'loading' ? '正在检索地点…' : status === 'empty' ? '未找到相关地点' : '地点检索暂时不可用，请稍后重试';
+      placeResults.append(message);
+    }
     if (status === 'results') {
       results.forEach(item => {
         const button = document.createElement('button');
@@ -4158,6 +4161,8 @@ document.addEventListener('DOMContentLoaded', () => {
           clearPlaceSearch();
           input.value = '';
           resizeIdeaInput();
+          input.blur();
+          setExpanded('half', { allowDesktopHalf: true });
           focusMapOnSearchResult(item);
         });
         placeResults.append(button);
