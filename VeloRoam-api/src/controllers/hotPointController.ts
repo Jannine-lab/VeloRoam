@@ -5,6 +5,80 @@ const VALID_CATEGORIES = new Set(['scenic', 'supply', 'rest', 'service', 'start_
 
 type HotPointDisplayMode = 'hidden' | 'heatmap' | 'points';
 
+export const getScenicMapPoints = async (req: Request, res: Response) => {
+  const bounds = typeof req.query.bounds === 'string' ? req.query.bounds.split(',').map(Number) : [];
+  const zoom = Number(req.query.zoom);
+  if (bounds.length !== 4 || bounds.some(value => !Number.isFinite(value)) ||
+      !Number.isFinite(zoom) || zoom < 0 || zoom > 22 ||
+      bounds[0] < -90 || bounds[2] > 90 || bounds[1] < -180 || bounds[3] > 180 ||
+      bounds[0] >= bounds[2] || bounds[1] >= bounds[3]) {
+    return res.status(400).json({ error: 'Valid bounds and zoom are required.' });
+  }
+  if (zoom < 12) return res.json([]);
+  const minRating = zoom < 13 ? 4.8 : zoom < 14 ? 4.6 : zoom < 15 ? 4.4 : zoom < 16 ? 4 : 0;
+  try {
+    const ratingText = "JSON_UNQUOTE(JSON_EXTRACT(raw_payload, '$.biz_ext.rating'))";
+    const rating = `CASE WHEN ${ratingText} REGEXP '^[0-9]+([.][0-9]+)?$'
+      AND CAST(${ratingText} AS DECIMAL(8,3)) > 0 AND CAST(${ratingText} AS DECIMAL(8,3)) <= 5
+      THEN CAST(${ratingText} AS DECIMAL(8,3)) ELSE NULL END`;
+    const { rows } = await query(`SELECT * FROM (SELECT id, name, lat, lng, address, district_name,
+      amap_type, amap_type_code, ${rating} AS rating FROM hot_points
+      WHERE status = 'active' AND source = 'amap' AND lat BETWEEN ? AND ? AND lng BETWEEN ? AND ?
+      AND (FIND_IN_SET('110206', REPLACE(amap_type_code, '|', ',')) > 0
+        OR FIND_IN_SET('110205', REPLACE(amap_type_code, '|', ',')) > 0
+        OR FIND_IN_SET('110105', REPLACE(amap_type_code, '|', ',')) > 0
+        OR FIND_IN_SET('110101', REPLACE(amap_type_code, '|', ',')) > 0
+        OR FIND_IN_SET('110000', REPLACE(amap_type_code, '|', ',')) > 0)) points
+      WHERE rating >= ? OR (? = 0 AND rating IS NULL)
+      ORDER BY rating IS NULL, rating DESC, id LIMIT 500`,
+    [bounds[0], bounds[2], bounds[1], bounds[3], minRating, minRating]);
+    return res.json(rows.map((row: any) => ({ id: String(row.id), name: row.name,
+      lat: Number(row.lat), lng: Number(row.lng), address: row.address || row.district_name || '',
+      type: row.amap_type || '', typeCode: row.amap_type_code || '',
+      rating: row.rating === null ? null : Number(row.rating) })));
+  } catch (error) {
+    console.error('[HotPoints] Scenic map query failed:', error);
+    return res.status(500).json({ error: 'Unable to load map places.' });
+  }
+};
+
+// Home discoveries are selected by the requested AMap codes, including multi-code POIs.
+export const getScenicDiscoveries = async (req: Request, res: Response) => {
+  const lat = Number(req.query.lat);
+  const lng = Number(req.query.lng);
+  if (typeof req.query.lat !== 'string' || typeof req.query.lng !== 'string' || !req.query.lat.trim() || !req.query.lng.trim() ||
+      !Number.isFinite(lat) || !Number.isFinite(lng) || Math.abs(lat) > 85 || Math.abs(lng) > 180) {
+    return res.status(400).json({ error: 'Valid lat and lng are required.' });
+  }
+  const latDelta = 15 / 111.32;
+  const lngDelta = latDelta / Math.cos(lat * Math.PI / 180);
+  try {
+    const { rows } = await query(`SELECT id, name, lat, lng, address, district_name, amap_type, amap_type_code
+      FROM hot_points WHERE status = 'active' AND source = 'amap'
+        AND lat BETWEEN ? AND ? AND lng BETWEEN ? AND ?
+        AND (FIND_IN_SET('110206', REPLACE(amap_type_code, '|', ',')) > 0
+          OR FIND_IN_SET('110205', REPLACE(amap_type_code, '|', ',')) > 0
+          OR FIND_IN_SET('110105', REPLACE(amap_type_code, '|', ',')) > 0
+          OR FIND_IN_SET('110101', REPLACE(amap_type_code, '|', ',')) > 0
+          OR FIND_IN_SET('110000', REPLACE(amap_type_code, '|', ',')) > 0)
+      ORDER BY POW(lat - ?, 2) + POW((lng - ?) * ?, 2), id LIMIT 60`,
+    [lat - latDelta, lat + latDelta, lng - lngDelta, lng + lngDelta, lat, lng, Math.cos(lat * Math.PI / 180)]);
+    const points = rows.map((row: any) => {
+      const rad = Math.PI / 180;
+      const dLat = (Number(row.lat) - lat) * rad;
+      const dLng = (Number(row.lng) - lng) * rad;
+      const a = Math.sin(dLat / 2) ** 2 + Math.cos(lat * rad) * Math.cos(Number(row.lat) * rad) * Math.sin(dLng / 2) ** 2;
+      return { id: String(row.id), name: row.name, lat: Number(row.lat), lng: Number(row.lng),
+        address: row.address || row.district_name || '', type: row.amap_type || '',
+        typeCode: row.amap_type_code || '', distanceKm: 12742 * Math.asin(Math.sqrt(Math.min(1, a))) };
+    }).filter((point: any) => point.distanceKm <= 15).sort((a: any, b: any) => a.distanceKm - b.distanceKm).slice(0, 8);
+    return res.json(points);
+  } catch (error) {
+    console.error('[HotPoints] Scenic discoveries query failed:', error);
+    return res.status(500).json({ error: 'Unable to load nearby places.' });
+  }
+};
+
 function getDisplayModeForZoom(zoom?: number): HotPointDisplayMode {
   if (!zoom || zoom <= 11) return 'hidden';
   if (zoom <= 14) return 'heatmap';

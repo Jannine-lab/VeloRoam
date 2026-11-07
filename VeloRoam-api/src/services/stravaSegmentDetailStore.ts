@@ -1,5 +1,5 @@
 import { query } from '../config/db';
-import { fetchStravaSegmentRawDetail, normalizeStravaSegmentDetail } from './stravaService';
+import { fetchStravaSegmentRawDetail, normalizeStravaSegmentDetail, StravaResponseObserver } from './stravaService';
 
 type RawDetail = Record<string, any>;
 const pending = new Map<number, Promise<ReturnType<typeof normalizeStravaSegmentDetail>>>();
@@ -12,7 +12,7 @@ const dateOrNull = (value: unknown): Date | null => {
   return Number.isNaN(date.getTime()) ? null : date;
 };
 
-async function loadOrFetch(segmentId: number) {
+async function loadOrFetch(segmentId: number, observe?: StravaResponseObserver) {
   const result = await query('SELECT raw_detail, fetched_at FROM strava_segment_details WHERE segment_id = ?', [segmentId]);
   if (result.rows.length) {
     const row = result.rows[0];
@@ -25,7 +25,7 @@ async function loadOrFetch(segmentId: number) {
     return normalizeStravaSegmentDetail(segmentId, raw, fetchedAt.toISOString());
   }
 
-  const d: RawDetail = await fetchStravaSegmentRawDetail(segmentId);
+  const d: RawDetail = await fetchStravaSegmentRawDetail(segmentId, undefined, observe);
   await query(`INSERT INTO strava_segment_details
     (segment_id, name, activity_type, distance_m, average_grade, maximum_grade, elevation_high_m,
      elevation_low_m, total_elevation_gain_m, climb_category, city, state, country, is_private,
@@ -47,10 +47,10 @@ async function loadOrFetch(segmentId: number) {
   return normalizeStravaSegmentDetail(segmentId, d);
 }
 
-export function getStoredOrFetchStravaSegmentDetail(segmentId: number) {
+export function getStoredOrFetchStravaSegmentDetail(segmentId: number, observe?: StravaResponseObserver) {
   const existing = pending.get(segmentId);
   if (existing) return existing;
-  const request = loadOrFetch(segmentId).finally(() => { pending.delete(segmentId); });
+  const request = loadOrFetch(segmentId, observe).finally(() => { pending.delete(segmentId); });
   pending.set(segmentId, request);
   return request;
 }

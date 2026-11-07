@@ -2,6 +2,7 @@ import { Request, Response } from 'express';
 import { query } from '../config/db';
 import { exploreStravaSegments, StravaSegmentDetailError } from '../services/stravaService';
 import { getStoredOrFetchStravaSegmentDetail } from '../services/stravaSegmentDetailStore';
+import { getSegmentDisplayScore, getSegmentVisibleFromZoom } from '../services/segmentVisibility';
 
 /**
  * 将 MySQL 返回的 LINESTRING(lng1 lat1, lng2 lat2, ...) WKT 文本解析为前端所需的 [{lat, lng}] 坐标格式
@@ -138,28 +139,33 @@ export const getStravaSegments = async (req: Request, res: Response) => {
 
     const mysqlSqlQuery = `
       SELECT 
-        id, 
-        name, 
-        distance_km as "distanceKm", 
-        avg_grade as "avgGrade", 
-        climb_category as "climbCategory",
-        raw_score as "rawScore",
-        star_count as "starCount",
-        athlete_count as "athleteCount",
-        effort_count as "effortCount",
-        strava_stats_updated_at as "stravaStatsUpdatedAt",
-        start_lat as "startLat",
-        start_lng as "startLng",
-        end_lat as "endLat",
-        end_lng as "endLng",
-        ST_AsText(geom) as "wktGeom"
-      FROM strava_segments
-      WHERE MBRIntersects(geom, ST_GeomFromText(?, 4326))
-      ORDER BY raw_score DESC
-      LIMIT 35;
+        s.id,
+        s.name,
+        s.distance_km as "distanceKm",
+        s.avg_grade as "avgGrade",
+        s.climb_category as "climbCategory",
+        s.raw_score as "rawScore",
+        s.strava_score as "stravaScore",
+        COALESCE(d.star_count, s.star_count) as "starCount",
+        COALESCE(d.athlete_count, s.athlete_count) as "athleteCount",
+        COALESCE(d.effort_count, s.effort_count) as "effortCount",
+        s.strava_stats_updated_at as "stravaStatsUpdatedAt",
+        s.start_lat as "startLat",
+        s.start_lng as "startLng",
+        s.end_lat as "endLat",
+        s.end_lng as "endLng",
+        ST_AsText(s.geom) as "wktGeom"
+      FROM strava_segments s
+      LEFT JOIN strava_segment_details d ON d.segment_id = s.id
+      WHERE MBRIntersects(s.geom, ST_GeomFromText(?, 4326))
+      ORDER BY CASE WHEN ? <= 10 AND COALESCE(s.strava_score, s.raw_score) >= 100
+        AND COALESCE(d.star_count, s.star_count, -1) < 5
+        AND COALESCE(d.effort_count, s.effort_count, -1) < 10 THEN 1 ELSE 0 END,
+        COALESCE(s.strava_score, s.raw_score) DESC
+      LIMIT 200;
     `;
 
-    const { rows } = await query(mysqlSqlQuery, [polygonWkt]);
+    const { rows } = await query(mysqlSqlQuery, [polygonWkt, zoomVal ?? 13]);
 
     // 2. 命中本地 MySQL 缓存判定 (缓存路段数 >= 3，则直接进行秒级返回)
     if (rows && rows.length >= 3) {
@@ -173,6 +179,7 @@ export const getStravaSegments = async (req: Request, res: Response) => {
           climbCategory: Number(row.climbCategory),
           veloRoamScore: Number(row.rawScore),
           rawScore: Number(row.rawScore),
+          stravaScore: row.stravaScore === null ? null : Number(row.stravaScore),
           starCount: row.starCount === null ? null : Number(row.starCount),
           athleteCount: row.athleteCount === null ? null : Number(row.athleteCount),
           effortCount: row.effortCount === null ? null : Number(row.effortCount),
@@ -183,7 +190,12 @@ export const getStravaSegments = async (req: Request, res: Response) => {
           endLatLng: [Number(row.endLat), Number(row.endLng)],
           coordinates
         };
-      });
+      }).map((segment: any) => ({ ...segment, visibleFromZoom: getSegmentVisibleFromZoom(segment) }));
+
+      // Keep candidates visible at this zoom ahead of delayed red segments before overlap filtering.
+      formattedSegments.sort((a: any, b: any) =>
+        Number((zoomVal ?? 13) >= b.visibleFromZoom) - Number((zoomVal ?? 13) >= a.visibleFromZoom)
+        || (getSegmentDisplayScore(b) ?? -Infinity) - (getSegmentDisplayScore(a) ?? -Infinity));
 
       // 运行空间去重 (重合度 > 70% 过滤)，以防数据库里存有重叠路段导致前端重复渲染
       const uniqueSegments: any[] = [];
@@ -201,16 +213,18 @@ export const getStravaSegments = async (req: Request, res: Response) => {
         }
         if (!isDuplicate) {
           uniqueSegments.push(seg);
+          if (uniqueSegments.length >= 35) break;
         }
       }
 
-      console.log(`🎯 [StravaController] Hit local MySQL DB. Returned ${uniqueSegments.length} unique segments (filtered from ${formattedSegments.length}) in ~5ms.`);
+      console.log(`🎯 [StravaController] Hit local MySQL DB. Returned ${uniqueSegments.length} unique segments (filtered from ${formattedSegments.length}).`);
       return res.status(200).json(uniqueSegments);
     }
 
     // 3. Fallback 兜底：如果本地缓存过少，自适应请求外部 API
     console.log(`⚠️ [StravaController] MySQL Cache Miss. Querying live API proxy...`);
-    const liveSegments = await exploreStravaSegments(south, west, north, east, zoomVal);
+    const liveSegments = (await exploreStravaSegments(south, west, north, east, zoomVal))
+      .map(segment => ({ ...segment, stravaScore: null, visibleFromZoom: getSegmentVisibleFromZoom(segment) }));
 
     // 4. 异步 Lazy Load 写入 MySQL，保障主请求无阻塞秒返
     if (liveSegments.length > 0) {

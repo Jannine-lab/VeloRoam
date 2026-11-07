@@ -103,6 +103,8 @@ STRAVA_ACCESS_TOKEN=您的有效Access_Token
 ```
 
 ### 2. 启动后端 API 开发服务器
+开发环境使用 Node.js 22，并通过 Node 自带的监听模式热重载，不依赖系统临时目录中的 `ts-node-dev` 钩子文件。
+
 ```bash
 cd VeloRoam-api
 # 安装依赖
@@ -169,3 +171,20 @@ VeloRoam 采用了**最严苛的暗黑微发光设计规范**：
 ### Strava 路段详情缓存
 
 `GET /api/routes/strava-segments/:id` 优先读取 `strava_segment_details` 中的完整详情；没有详情时才请求 Strava，成功后将完整响应保存到 `raw_detail`，并同步保存常用字段。已有基础路段记录并不代表详情已缓存。详情不会自动刷新；需要重新获取时，可由数据库管理员删除对应详情记录后再次查询。服务启动时会创建详情表，独立部署也可执行 `VeloRoam-api/sql/003_create_strava_segment_details.sql`。数据库不可用或保存失败时接口会报错，不会把未保存的结果当作成功返回。
+
+### 从地图瓦片导入缺失路段
+
+`src/scripts/importStravaTileSegments.ts` 接收已解码的瓦片 JSON（`source: "strava-map-vector-tile"`，`segments` 数组包含 `id` 和 `tileScore`），按路段 ID 去重并跳过 `strava_segments` 中已有的记录。新增路段通过详情 API 补全信息并缓存完整响应，使用详情中的 `map.polyline` 保存轨迹，不使用瓦片中可能被裁切的几何。瓦片的 `score` 原值保存到 `strava_score`；`raw_score` 使用当前实时导入逻辑的 VeloRoam 自定义评分。人数、尝试次数和收藏数取自详情 API。详情先缓存，再插入基础记录；若基础记录插入失败，重跑可以复用缓存。每条处理后保存报告，结束时回读核对轨迹、详情 ID 和瓦片评分。
+
+在 `VeloRoam-api` 目录运行（默认仅预览，添加 `--apply` 写入）：
+
+```bash
+node --require ts-node/register/transpile-only src/scripts/importStravaTileSegments.ts --input=../dev/strava-map-tile-2026-11-03.json --report=../dev/strava-map-tile-preview.json
+node --require ts-node/register/transpile-only src/scripts/importStravaTileSegments.ts --input=../dev/strava-map-tile-2026-11-03.json --report=../dev/strava-map-tile-import.json --apply
+```
+
+请求串行执行，默认间隔 2 秒，可通过 `--interval-ms` 调整。遇到 401、403 或 429 时停止；解决授权或配额问题后重跑，已入库的路段会自动跳过。服务启动时会补齐 `strava_score` 字段；独立运行导入脚本前需确保该列及详情表已存在。
+
+长批次可增加 `--wait-for-quota`：读取 Strava 返回的读取及总请求配额，在短时额度约 90% 或每日额度约 98% 时等待相应窗口恢复，并遵守 429 的 `Retry-After`。额度属于整个应用，其他请求仍可能提前消耗额度；429 会保留当前 ID 等待重试，401/403 则停止。进度报告中的 `status`、`nextRequestAt`、`imported` 和 `failed` 可用于检查运行情况；等待配额时释放数据库连接，恢复后重新连接并获取锁。终止后可从已有记录继续。
+
+已有基础路段可用 `src/scripts/backfillStravaTileScores.ts --input=FILE --report=FILE --apply` 补齐为空的 `strava_score`。脚本不会覆盖非空 Strava 评分，也不会修改 `raw_score`；在同一事务中回读核验后提交。上海 z13 工作矩形的分片进度位于 `dev/strava-shanghai-z13-2026-11-03/manifest.json`，去重结果位于同目录的 `candidates.json`。分片发现与详情导入分别记录，瓦片发现完成不代表所有详情已入库。

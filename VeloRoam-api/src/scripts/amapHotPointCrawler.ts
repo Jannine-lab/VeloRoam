@@ -336,7 +336,16 @@ async function upsertHotPoint(point: NormalizedHotPoint): Promise<number | null>
   ]);
 
   const { rows } = await query('SELECT id FROM hot_points WHERE amap_poi_id = ? LIMIT 1', [point.amapPoiId]);
-  return rows[0]?.id ? Number(rows[0].id) : null;
+  const pointId = rows[0]?.id ? Number(rows[0].id) : null;
+  if (pointId !== null) {
+    await query(`INSERT INTO amap_poi_details (hot_point_id, source_type, raw_detail, fetched_at)
+      VALUES (?, 'search', ?, CURRENT_TIMESTAMP)
+      ON DUPLICATE KEY UPDATE
+        raw_detail = IF(source_type = 'search', VALUES(raw_detail), raw_detail),
+        fetched_at = IF(source_type = 'search', VALUES(fetched_at), fetched_at)`,
+    [pointId, JSON.stringify(point.rawPayload)]);
+  }
+  return pointId;
 }
 
 async function refreshSegmentLinks(hotPointIds: number[]) {

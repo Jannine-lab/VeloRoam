@@ -1,6 +1,7 @@
 import { Request, Response } from 'express';
 import { planRouteService } from '../services/googleMapsService';
 import { planAmapFewestSignalRoute } from '../services/amapFewestSignalService';
+import { wgs84ToGcj02 } from '../utils/polyline';
 
 interface LatLng {
   lat: number;
@@ -67,6 +68,10 @@ export const planFewestSignals = async (req: Request, res: Response) => {
     const route = await planAmapFewestSignalRoute(origin, destination);
     return res.status(200).json({
       polyline: route.polyline,
+      navigationCoordinates: {
+        origin: wgs84ToGcj02(origin.lng, origin.lat),
+        destination: wgs84ToGcj02(destination.lng, destination.lat)
+      },
       distanceKm: route.distanceKm,
       durationMin: route.durationMin,
       trafficLightsCount: route.trafficLightsCount,

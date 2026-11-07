@@ -22,6 +22,7 @@ export const pool = mysql.createPool({
 
 async function ensureStravaNativeStatsSchema(connection: PoolConnection) {
   const columnMigrations = [
+    { name: 'strava_score', definition: 'DOUBLE NULL AFTER raw_score' },
     { name: 'star_count', definition: 'INT UNSIGNED NULL AFTER raw_score' },
     { name: 'athlete_count', definition: 'INT UNSIGNED NULL AFTER star_count' },
     { name: 'effort_count', definition: 'BIGINT UNSIGNED NULL AFTER athlete_count' },
@@ -81,6 +82,7 @@ export async function initDatabase() {
         avg_grade DECIMAL(5, 2) NOT NULL,
         climb_category INT NOT NULL DEFAULT 0,
         raw_score DECIMAL(6, 2) NOT NULL,
+        strava_score DOUBLE NULL,
         star_count INT UNSIGNED NULL,
         athlete_count INT UNSIGNED NULL,
         effort_count BIGINT UNSIGNED NULL,

@@ -150,12 +150,15 @@ export function normalizeStravaSegmentDetail(segmentId: number, segment: any, fe
   };
 }
 
-export async function fetchStravaSegmentRawDetail(segmentId: number, accessToken?: string): Promise<Record<string, any>> {
+export type StravaResponseObserver = (headers: Record<string, unknown>, status: number) => void;
+
+export async function fetchStravaSegmentRawDetail(segmentId: number, accessToken?: string, observe?: StravaResponseObserver): Promise<Record<string, any>> {
   try {
     const token = accessToken || await getStravaAccessToken();
     const response = await axios.get(`https://www.strava.com/api/v3/segments/${segmentId}`, {
       headers: { Authorization: `Bearer ${token}`, Accept: 'application/json' }, timeout: 10000
     });
+    observe?.(response.headers, response.status);
     const segment = response.data;
     if (!segment || typeof segment !== 'object' || Array.isArray(segment) || String(segment.id) !== String(segmentId)) {
       throw new Error('Unexpected Strava segment response');
@@ -163,6 +166,7 @@ export async function fetchStravaSegmentRawDetail(segmentId: number, accessToken
     return segment;
   } catch (error: any) {
     const status = error.response?.status;
+    if (error.response) observe?.(error.response.headers, status);
     const errors = Array.isArray(error.response?.data?.errors) ? error.response.data.errors : [];
     const inactive = errors.some((item: any) => item?.resource === 'Application' && item?.field === 'Status' && item?.code === 'Inactive');
     const reason = inactive ? 'application_inactive' : undefined;

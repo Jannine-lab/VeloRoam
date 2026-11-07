@@ -1,15 +1,22 @@
 import { LatLng, getDistanceMeters } from '../utils/polyline';
 import { buildIdeaRoute, CompositeRoute, trajectoryDistanceKm } from './ideaRouteService';
 
-export interface NearbySegment { id: string; name: string; score: number | null; coordinates: LatLng[]; }
-export interface DistanceRecommendation { targetKm: number; route: CompositeRoute | null; segmentScore: number | null; }
-export const DISTANCE_TARGETS = [20, 50, 100];
+export interface NearbySegmentDetail {
+  id: string; recordedDistanceKm: number | null; averageGrade: number | null; maximumGrade: number | null;
+  elevationGainM: number | null; elevationLowM: number | null; elevationHighM: number | null; climbCategory: number | null;
+  city: string | null; state: string | null; country: string | null; starCount: number | null; athleteCount: number | null;
+  effortCount: number | null; stravaScore: number | null;
+}
+export interface NearbySegment { id: string; name: string; score: number | null; coordinates: LatLng[]; detail?: NearbySegmentDetail; }
+export interface DistanceRecommendation { targetKm: number; route: CompositeRoute | null; segmentScore: number | null; segmentDetail: NearbySegmentDetail | null; }
+export const DISTANCE_TARGETS = [30, 50, 70];
 
 // Rank cheaply before requesting real bicycle navigation; the final distance is
 // always checked against the returned routes, not the straight-line estimate.
 export async function recommendDistanceRoutes(
   origin: LatLng, originName: string, segments: NearbySegment[],
-  build = buildIdeaRoute
+  build = buildIdeaRoute,
+  onProgress: (stage: string) => void = () => {}
 ): Promise<DistanceRecommendation[]> {
   const ranked = segments.flatMap(segment => {
     if (segment.coordinates.length < 2) return [];
@@ -19,7 +26,6 @@ export async function recommendDistanceRoutes(
     const estimate = (lowerBound - distance) * 1.3 + distance;
     return Number.isFinite(estimate) && distance > 0 ? [{ segment, estimate, lowerBound }] : [];
   });
-  const seen = new Set<string>();
   let active = 0;
   const queue: Array<() => void> = [];
   const withLimit = async <T>(work: () => Promise<T>): Promise<T> => {
@@ -28,23 +34,23 @@ export async function recommendDistanceRoutes(
     try { return await work(); }
     finally { active--; queue.shift()?.(); }
   };
-  const cache = new Map<string, Promise<CompositeRoute | null>>();
-  return Promise.all(DISTANCE_TARGETS.map(async targetKm => {
-    // A broad estimate narrows expensive provider calls; exact distance is checked below.
-    const candidates = ranked.filter(item => item.lowerBound <= targetKm * 1.5 && item.estimate >= targetKm * .35)
-      .sort((a, b) => (b.segment.score ?? -Infinity) - (a.segment.score ?? -Infinity) || Math.abs(a.estimate - targetKm) - Math.abs(b.estimate - targetKm)).slice(0, 5);
-    const routes = await Promise.all(candidates.map(async ({ segment }) => {
-      if (!cache.has(segment.id)) cache.set(segment.id, withLimit(() => build(origin, originName, origin, '返回起点', [{ type: 'segment', name: segment.name, coordinates: segment.coordinates }])).catch(() => null));
-      const route = await cache.get(segment.id)!;
-      if (!route || !Number.isFinite(route.distanceKm) || route.distanceKm < targetKm * .5 || route.distanceKm > targetKm * 1.5) return null;
-      return { route, id: segment.id, score: segment.score };
-    }));
-    const valid = routes.filter((value): value is { route: CompositeRoute; id: string; score: number | null } => value !== null)
-      .sort((a, b) => (b.score ?? -Infinity) - (a.score ?? -Infinity) || Math.abs(a.route.distanceKm - targetKm) - Math.abs(b.route.distanceKm - targetKm));
-    return { targetKm, choices: valid };
-  })).then(groups => groups.map(({ targetKm, choices }) => {
-    const chosen = choices.find(choice => !seen.has(choice.id));
-    if (chosen) seen.add(chosen.id);
-    return { targetKm, route: chosen?.route || null, segmentScore: chosen?.score ?? null };
+  // Bound provider calls after ranking by score; validate actual cycling distances below.
+  const candidates = ranked.filter(item => item.lowerBound <= 80)
+    .sort((a, b) => (b.segment.score ?? -Infinity) - (a.segment.score ?? -Infinity) || a.estimate - b.estimate)
+    .filter((item, index, all) => all.findIndex(other => other.segment.id === item.segment.id) === index)
+    .slice(0, 15);
+  let completed = 0;
+  if (candidates.length) onProgress(`正在规划往返路线 0/${candidates.length}`);
+  const routes = await Promise.all(candidates.map(async ({ segment }) => {
+    const route = await withLimit(() => build(origin, originName, origin, '返回起点', [{ type: 'segment', name: segment.name, coordinates: segment.coordinates }])).catch(() => null);
+    onProgress(`正在规划往返路线 ${++completed}/${candidates.length}`);
+    if (!route || !Number.isFinite(route.distanceKm) || route.distanceKm < 20 || route.distanceKm > 80) return null;
+    return { route, score: segment.score, detail: segment.detail || null };
   }));
+  onProgress('正在筛选推荐路线');
+  const valid = routes.filter((value): value is { route: CompositeRoute; score: number | null; detail: NearbySegmentDetail | null } => value !== null)
+    .sort((a, b) => (b.score ?? -Infinity) - (a.score ?? -Infinity) || a.route.distanceKm - b.route.distanceKm)
+    .slice(0, 3);
+  return DISTANCE_TARGETS.map((targetKm, index) => ({ targetKm, route: valid[index]?.route || null,
+    segmentScore: valid[index]?.score ?? null, segmentDetail: valid[index]?.detail ?? null }));
 }
