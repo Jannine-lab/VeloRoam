@@ -1,0 +1,56 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-03T06:11:04.480Z",
+  "tile": {
+    "z": 13,
+    "x": 6862,
+    "y": 3355
+  },
+  "segments": [
+    {
+      "id": "20936569",
+      "tileScore": 10,
+      "name": "S123-439 Rd",
+      "distanceM": 3539,
+      "avgGrade": 0.07346707582473755,
+      "startLat": 30.926910400390625,
+      "startLng": 121.55073547363281
+    },
+    {
+      "id": "19419401",
+      "tileScore": 15,
+      "name": "Click, click, boom!",
+      "distanceM": 365.3999938964844,
+      "avgGrade": 1.6967706680297852,
+      "startLat": 30.91044807434082,
+      "startLng": 121.5532455444336
+    },
+    {
+      "id": "35450638",
+      "tileScore": 1,
+      "name": "平庄公路（金海-新四平）",
+      "distanceM": 22928.5,
+      "avgGrade": 0.0034891075920313597,
+      "startLat": 30.891454696655273,
+      "startLng": 121.49846649169922
+    },
+    {
+      "id": "8362606",
+      "tileScore": 3,
+      "name": "Yanqian Highway South",
+      "distanceM": 18638.69921875,
+      "avgGrade": 0.009120807982981205,
+      "startLat": 31.005619049072266,
+      "startLng": 121.52973937988281
+    },
+    {
+      "id": "36739079",
+      "tileScore": 4,
+      "name": "AVS Last push!! Brige to the hotel.",
+      "distanceM": 1862.699951171875,
+      "avgGrade": -0.0107371024787426,
+      "startLat": 30.902929306030273,
+      "startLng": 121.57821655273438
+    }
+  ]
+}

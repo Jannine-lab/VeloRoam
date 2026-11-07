@@ -1,0 +1,191 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-03T06:04:58.252Z",
+  "tile": {
+    "z": 13,
+    "x": 6858,
+    "y": 3344
+  },
+  "segments": [
+    {
+      "id": "11569842",
+      "tileScore": 10,
+      "name": "Hutai Lu northbound (Changzhong Lu to Nanwenzao Lu)",
+      "distanceM": 3544.10009765625,
+      "avgGrade": 0,
+      "startLat": 31.30527687072754,
+      "startLng": 121.40929412841797
+    },
+    {
+      "id": "32724531",
+      "tileScore": 2,
+      "name": "乌漆嘛黑",
+      "distanceM": 24503.5,
+      "avgGrade": 0.026118718087673187,
+      "startLat": 31.306806564331055,
+      "startLng": 121.4298324584961
+    },
+    {
+      "id": "32517364",
+      "tileScore": 1,
+      "name": "Shangda-Qilianshan-Guchen-Hutai-Shangda Rd Lap",
+      "distanceM": 10728.2998046875,
+      "avgGrade": -0.009321141056716442,
+      "startLat": 31.31358528137207,
+      "startLng": 121.39315795898438
+    },
+    {
+      "id": "35347029",
+      "tileScore": 40,
+      "name": "富长路往南最后一个桥",
+      "distanceM": 508.29998779296875,
+      "avgGrade": 2.164076328277588,
+      "startLat": 31.344194412231445,
+      "startLng": 121.41907501220703
+    },
+    {
+      "id": "19958957",
+      "tileScore": 14,
+      "name": "Nanwenzao Lu (eastbound)",
+      "distanceM": 2067,
+      "avgGrade": 0.058055151253938675,
+      "startLat": 31.33637809753418,
+      "startLng": 121.40035247802734
+    },
+    {
+      "id": "13408714",
+      "tileScore": 21,
+      "name": "Tangqi E2W",
+      "distanceM": 794,
+      "avgGrade": -0.2770780920982361,
+      "startLat": 31.337017059326172,
+      "startLng": 121.39804077148438
+    },
+    {
+      "id": "33138670",
+      "tileScore": 5,
+      "name": "Kangwen Rd Sprint N-S",
+      "distanceM": 667.2999877929688,
+      "avgGrade": -0.17982915043830872,
+      "startLat": 31.33637046813965,
+      "startLng": 121.41291809082031
+    },
+    {
+      "id": "29792631",
+      "tileScore": 2,
+      "name": "GuChenRoad-QilianshanRoad To HutaiRoad",
+      "distanceM": 2086.10009765625,
+      "avgGrade": -0.06711088120937347,
+      "startLat": 31.334871292114258,
+      "startLng": 121.37471008300781
+    },
+    {
+      "id": "36812118",
+      "tileScore": 8,
+      "name": "Tour de Dachang Airport",
+      "distanceM": 20435.400390625,
+      "avgGrade": -0.01565910130739212,
+      "startLat": 31.305885314941406,
+      "startLng": 121.42900085449219
+    },
+    {
+      "id": "40346022",
+      "tileScore": 14,
+      "name": "主席台3Laps",
+      "distanceM": 1214.699951171875,
+      "avgGrade": -0.24697457253932953,
+      "startLat": 31.321134567260742,
+      "startLng": 121.39152526855469
+    },
+    {
+      "id": "34678108",
+      "tileScore": 5,
+      "name": "镜泊湖路eastward（陆翔路→沪太路）",
+      "distanceM": 1012.5,
+      "avgGrade": 0,
+      "startLat": 31.346229553222656,
+      "startLng": 121.36898803710938
+    },
+    {
+      "id": "29885557",
+      "tileScore": 1,
+      "name": "SBD-003",
+      "distanceM": 2436.699951171875,
+      "avgGrade": -0.06566257774829865,
+      "startLat": 31.345367431640625,
+      "startLng": 121.3835220336914
+    },
+    {
+      "id": "35728421",
+      "tileScore": 6,
+      "name": "LJ在这条路上称王称霸",
+      "distanceM": 9878.599609375,
+      "avgGrade": -0.02631951868534088,
+      "startLat": 31.279767990112305,
+      "startLng": 121.37374877929688
+    },
+    {
+      "id": "40972519",
+      "tileScore": 4,
+      "name": "猫岛小树林1",
+      "distanceM": 846.7999877929688,
+      "avgGrade": -0.07085498422384262,
+      "startLat": 31.347150802612305,
+      "startLng": 121.40164184570312
+    },
+    {
+      "id": "39928513",
+      "tileScore": 29,
+      "name": "沪太路 无人区",
+      "distanceM": 2506.89990234375,
+      "avgGrade": 0.03988990560173988,
+      "startLat": 31.347726821899414,
+      "startLng": 121.39060974121094
+    },
+    {
+      "id": "31919324",
+      "tileScore": 15,
+      "name": "Do I Love You? (Indeed I Do!)",
+      "distanceM": 2167.300048828125,
+      "avgGrade": 0.05536843091249466,
+      "startLat": 31.354272842407227,
+      "startLng": 121.41605377197266
+    },
+    {
+      "id": "31975701",
+      "tileScore": 38,
+      "name": "Park City 1.8",
+      "distanceM": 1809,
+      "avgGrade": -0.03316749632358551,
+      "startLat": 31.327342987060547,
+      "startLng": 121.4205322265625
+    },
+    {
+      "id": "34678132",
+      "tileScore": 18,
+      "name": "沪太路southward（镜泊湖路→顾陈路）",
+      "distanceM": 1693.699951171875,
+      "avgGrade": -0.09446773678064346,
+      "startLat": 31.35133934020996,
+      "startLng": 121.37808227539062
+    },
+    {
+      "id": "34642799",
+      "tileScore": 10,
+      "name": "沪太路northward（南蕰藻路→顾陈路）",
+      "distanceM": 925.4000244140625,
+      "avgGrade": -0.06483682990074158,
+      "startLat": 31.33732032775879,
+      "startLng": 121.39906311035156
+    },
+    {
+      "id": "34479002",
+      "tileScore": 7,
+      "name": "Gucun Park Lap",
+      "distanceM": 16534.80078125,
+      "avgGrade": -0.006047850474715233,
+      "startLat": 31.329320907592773,
+      "startLng": 121.37684631347656
+    }
+  ]
+}

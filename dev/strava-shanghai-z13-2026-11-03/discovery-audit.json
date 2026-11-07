@@ -1,0 +1,17 @@
+{
+  "bounds": {
+    "south": 30.65,
+    "west": 120.85,
+    "north": 31.9,
+    "east": 122.2
+  },
+  "zoom": 13,
+  "plannedTiles": 1054,
+  "verifiedTileFiles": 1054,
+  "emptyTiles": 367,
+  "perTileSegmentRecords": 5280,
+  "uniqueSegments": 2553,
+  "scoreConflicts": 0,
+  "allTilesComplete": true,
+  "updatedAt": "2026-11-03T06:14:11.351Z"
+}

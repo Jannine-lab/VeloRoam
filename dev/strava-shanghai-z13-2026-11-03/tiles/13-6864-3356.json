@@ -1,0 +1,101 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-03T06:11:04.480Z",
+  "tile": {
+    "z": 13,
+    "x": 6864,
+    "y": 3356
+  },
+  "segments": [
+    {
+      "id": "20936581",
+      "tileScore": 28,
+      "name": "Plum Park to Temple gate",
+      "distanceM": 3375.699951171875,
+      "avgGrade": 0.07109636813402176,
+      "startLat": 30.86893081665039,
+      "startLng": 121.67426300048828
+    },
+    {
+      "id": "41260874",
+      "tileScore": 6,
+      "name": "Fenggan before Wusi",
+      "distanceM": 2753.60009765625,
+      "avgGrade": 0,
+      "startLat": 30.89971923828125,
+      "startLng": 121.66374969482422
+    },
+    {
+      "id": "20936572",
+      "tileScore": 87,
+      "name": "Avenue of trees to Plum Park",
+      "distanceM": 10112.099609375,
+      "avgGrade": 0.07713531702756882,
+      "startLat": 30.847942352294922,
+      "startLng": 121.569580078125
+    },
+    {
+      "id": "35450638",
+      "tileScore": 1,
+      "name": "平庄公路（金海-新四平）",
+      "distanceM": 22928.5,
+      "avgGrade": 0.0034891075920313597,
+      "startLat": 30.891454696655273,
+      "startLng": 121.49846649169922
+    },
+    {
+      "id": "34876506",
+      "tileScore": 7,
+      "name": "随塘河路（靶场-五四）",
+      "distanceM": 18125.900390625,
+      "avgGrade": -0.011033935472369194,
+      "startLat": 30.842056274414062,
+      "startLng": 121.54557037353516
+    },
+    {
+      "id": "20487027",
+      "tileScore": 52,
+      "name": "Rush to the forest cafe",
+      "distanceM": 3631,
+      "avgGrade": -0.03855687007308006,
+      "startLat": 30.864749908447266,
+      "startLng": 121.63921356201172
+    },
+    {
+      "id": "36485192",
+      "tileScore": 2,
+      "name": "瓦洪公路绕圈2号直路",
+      "distanceM": 2400,
+      "avgGrade": -0.02500000037252903,
+      "startLat": 30.88321304321289,
+      "startLng": 121.68925476074219
+    },
+    {
+      "id": "41260897",
+      "tileScore": 1,
+      "name": "Wusi before Branch",
+      "distanceM": 3972.60009765625,
+      "avgGrade": -0.02013794519007206,
+      "startLat": 30.875625610351562,
+      "startLng": 121.67098236083984
+    },
+    {
+      "id": "36697932",
+      "tileScore": 73,
+      "name": "你骑得过港漕飞弹吗？-半程",
+      "distanceM": 16429.599609375,
+      "avgGrade": 0.0012173150898888707,
+      "startLat": 30.86809539794922,
+      "startLng": 121.56013488769531
+    },
+    {
+      "id": "40227376",
+      "tileScore": 8,
+      "name": "12KM TTT",
+      "distanceM": 12133.599609375,
+      "avgGrade": -0.019779784604907036,
+      "startLat": 30.86695098876953,
+      "startLng": 121.65801239013672
+    }
+  ]
+}

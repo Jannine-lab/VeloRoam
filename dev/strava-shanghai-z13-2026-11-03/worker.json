@@ -1,0 +1,20 @@
+{
+  "pid": 91679,
+  "startedAt": "2026-11-03T07:01:26.431039+00:00",
+  "source": "/Users/jannine/Desktop/VeloRoam/dev/strava-shanghai-z13-2026-11-03/candidates.json",
+  "report": "/Users/jannine/Desktop/VeloRoam/dev/strava-shanghai-z13-2026-11-03/detail-import.json",
+  "log": "/Users/jannine/Desktop/VeloRoam/dev/strava-shanghai-z13-2026-11-03/detail-import.log",
+  "command": [
+    "/usr/local/bin/node",
+    "--require",
+    "ts-node/register/transpile-only",
+    "src/scripts/importStravaTileSegments.ts",
+    "--input=/Users/jannine/Desktop/VeloRoam/dev/strava-shanghai-z13-2026-11-03/candidates.json",
+    "--report=/Users/jannine/Desktop/VeloRoam/dev/strava-shanghai-z13-2026-11-03/detail-import.json",
+    "--apply",
+    "--wait-for-quota",
+    "--interval-ms=2000"
+  ],
+  "requiresAwakeHost": true,
+  "resumedAfterConnectionFix": true
+}

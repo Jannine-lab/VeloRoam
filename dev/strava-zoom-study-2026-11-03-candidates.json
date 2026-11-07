@@ -1,0 +1,1332 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-03T05:35:42.086Z",
+  "parent": {
+    "z": 11,
+    "x": 1714,
+    "y": 837
+  },
+  "zoom": 13,
+  "segments": [
+    {
+      "id": "1515348",
+      "tileScore": 2,
+      "name": "Gubei To Qibao"
+    },
+    {
+      "id": "5099103",
+      "tileScore": 65,
+      "name": "Touch the sky roll the earth"
+    },
+    {
+      "id": "5205541",
+      "tileScore": 3,
+      "name": "Rat run"
+    },
+    {
+      "id": "5425955",
+      "tileScore": 7,
+      "name": "Factory Ave Return"
+    },
+    {
+      "id": "5630841",
+      "tileScore": 2,
+      "name": "Caobao Rd (Westbound)"
+    },
+    {
+      "id": "5643945",
+      "tileScore": 1,
+      "name": "Qixin Rd from Wuzhong Rd to Husong Hwy"
+    },
+    {
+      "id": "5654531",
+      "tileScore": 2,
+      "name": "Yan'an Warm-up"
+    },
+    {
+      "id": "6049177",
+      "tileScore": 165,
+      "name": "Chicken sprint"
+    },
+    {
+      "id": "6092412",
+      "tileScore": 10,
+      "name": "Husong Hwy x Jiamin Elevated Rd Tunnel Blast (Eastbound)"
+    },
+    {
+      "id": "6157088",
+      "tileScore": 3,
+      "name": "Caohejing Hi-Tech Park - Guiqing Rd (Southbound)"
+    },
+    {
+      "id": "6157946",
+      "tileScore": 2,
+      "name": "Caohejing Hi-Tech Park - Qinjiang Rd (Eastbound)"
+    },
+    {
+      "id": "6170928",
+      "tileScore": 23,
+      "name": "Gaoguang Rd (Westbound)"
+    },
+    {
+      "id": "6180756",
+      "tileScore": 3,
+      "name": "Jiudu Rd x G50 Huyu Expy Bridge (Northbound)"
+    },
+    {
+      "id": "6200620",
+      "tileScore": 34,
+      "name": "Hongqiao Road Climb"
+    },
+    {
+      "id": "6534591",
+      "tileScore": 2,
+      "name": "Xietu Rd (Eastbound)"
+    },
+    {
+      "id": "6924741",
+      "tileScore": 12,
+      "name": "Long Pu Bridge (Northbound)"
+    },
+    {
+      "id": "6936509",
+      "tileScore": 4,
+      "name": "Longwu Rd (Longshui > S20 Outer Ring)"
+    },
+    {
+      "id": "6952597",
+      "tileScore": 15,
+      "name": "Full Expo Southbound"
+    },
+    {
+      "id": "6983244",
+      "tileScore": 28,
+      "name": "Wanping South Rd (Southbound)"
+    },
+    {
+      "id": "7036885",
+      "tileScore": 49,
+      "name": "Sprint past the Park"
+    },
+    {
+      "id": "7036893",
+      "tileScore": 28,
+      "name": "Past the Gun club"
+    },
+    {
+      "id": "7070970",
+      "tileScore": 17,
+      "name": "Huashan (Huaihai > Zhaojiabang)"
+    },
+    {
+      "id": "7128365",
+      "tileScore": 25,
+      "name": "Longwu Rd Underpass (Northbound)"
+    },
+    {
+      "id": "7139077",
+      "tileScore": 1,
+      "name": "Jiuting St (Eastbound)"
+    },
+    {
+      "id": "7155576",
+      "tileScore": 3,
+      "name": "Jiang'an Rd (Eastbound)"
+    },
+    {
+      "id": "7197828",
+      "tileScore": 13,
+      "name": "Sprint"
+    },
+    {
+      "id": "7291363",
+      "tileScore": 13,
+      "name": "Liuzhou Rd x Railway Underpass (Northbound)"
+    },
+    {
+      "id": "7384300",
+      "tileScore": 27,
+      "name": "Laohumin Rd x Railway Underpass (Southbound)"
+    },
+    {
+      "id": "7477984",
+      "tileScore": 22,
+      "name": "Wulumuqi South Rd (Southbound)"
+    },
+    {
+      "id": "7533823",
+      "tileScore": 6,
+      "name": "Tianyaoqiao Rd (Northbound)"
+    },
+    {
+      "id": "7867275",
+      "tileScore": 4,
+      "name": "Husong Hwy x G15 Shenhai Expy Overpass (Eastbound)"
+    },
+    {
+      "id": "7875470",
+      "tileScore": 17,
+      "name": "Husong Hwy x Dianpu River Bridge (Westbound)"
+    },
+    {
+      "id": "7875513",
+      "tileScore": 25,
+      "name": "Caoxi Rd (Northbound)"
+    },
+    {
+      "id": "7875533",
+      "tileScore": 10,
+      "name": "Xinsong Rd x Railway Underpass (Eastbound)"
+    },
+    {
+      "id": "7875550",
+      "tileScore": 3,
+      "name": "Xinzhuan Hwy x G15 Shenhai Expy Bridge (Eastbound)"
+    },
+    {
+      "id": "7966482",
+      "tileScore": 5,
+      "name": "Gubei Lu, heading North"
+    },
+    {
+      "id": "8103030",
+      "tileScore": 6,
+      "name": "Jinyu Lu"
+    },
+    {
+      "id": "8382014",
+      "tileScore": 22,
+      "name": "Dongan Rd (from Zhaojiabang Rd to Longhua)"
+    },
+    {
+      "id": "8541137",
+      "tileScore": 10,
+      "name": "Zhongshan West Rd (from wuzhong rd X to changning rd X)"
+    },
+    {
+      "id": "8677287",
+      "tileScore": 4,
+      "name": "Laifang Rd x G15 Shenhai Expy Overpass (Westbound)"
+    },
+    {
+      "id": "8951147",
+      "tileScore": 7,
+      "name": "Hengshan Rd (Westbound)"
+    },
+    {
+      "id": "9110867",
+      "tileScore": 25,
+      "name": "Ruining Rd (Westbound)"
+    },
+    {
+      "id": "9126724",
+      "tileScore": 15,
+      "name": "Sprint 2 Yishan"
+    },
+    {
+      "id": "9348169",
+      "tileScore": 3,
+      "name": "the headwind"
+    },
+    {
+      "id": "9513186",
+      "tileScore": 1,
+      "name": "Mingzhong Rd (Eastbound)"
+    },
+    {
+      "id": "10454143",
+      "tileScore": 4,
+      "name": "Caoxi North (Zhongshan => Nandan)"
+    },
+    {
+      "id": "10541863",
+      "tileScore": 3,
+      "name": "40 km Shanghaï Loop"
+    },
+    {
+      "id": "10634583",
+      "tileScore": 4,
+      "name": "Lao Wai Jie Sprint"
+    },
+    {
+      "id": "10936809",
+      "tileScore": 3,
+      "name": "Anshun Lu (Dingxi Lu to Huaihai Lu)"
+    },
+    {
+      "id": "11141802",
+      "tileScore": 31,
+      "name": "Hongqiao Lu eastbound, Yan'an lu to Songyuan lu"
+    },
+    {
+      "id": "11387860",
+      "tileScore": 4,
+      "name": "Changdong Rd (Southbound)"
+    },
+    {
+      "id": "11388190",
+      "tileScore": 19,
+      "name": "Minyi Rd (North-East Bound)"
+    },
+    {
+      "id": "11446385",
+      "tileScore": 4,
+      "name": "Longhua W Sprint"
+    },
+    {
+      "id": "11449679",
+      "tileScore": 3,
+      "name": "Pubei to Qingzhou"
+    },
+    {
+      "id": "11456387",
+      "tileScore": 1,
+      "name": "Kaixian HQ to YS"
+    },
+    {
+      "id": "11482357",
+      "tileScore": 2,
+      "name": "Qinzhou Rd (North Bound)"
+    },
+    {
+      "id": "11543947",
+      "tileScore": 10,
+      "name": "Zhongshan Dragon Whip "
+    },
+    {
+      "id": "11585802",
+      "tileScore": 14,
+      "name": "beat the traffic"
+    },
+    {
+      "id": "11687328",
+      "tileScore": 4,
+      "name": "WuzhongXinzhen-QixinXinzhen"
+    },
+    {
+      "id": "11774573",
+      "tileScore": 18,
+      "name": "Hongmei Nan Lu, northbound"
+    },
+    {
+      "id": "11774580",
+      "tileScore": 1,
+      "name": "Laohumin Lu, northbound"
+    },
+    {
+      "id": "11814224",
+      "tileScore": 6,
+      "name": "Domino's Dash to Wan Ping Road"
+    },
+    {
+      "id": "11881788",
+      "tileScore": 4,
+      "name": "Guilin to Guiping"
+    },
+    {
+      "id": "11951366",
+      "tileScore": 3,
+      "name": "Chunshen Pond Bridge (Southbound)"
+    },
+    {
+      "id": "12002946",
+      "tileScore": 34,
+      "name": "Hongqiao Rd (Westbound)"
+    },
+    {
+      "id": "12003151",
+      "tileScore": 1,
+      "name": "Minhang Interchange --> Songjiang East Toll"
+    },
+    {
+      "id": "12006911",
+      "tileScore": 147,
+      "name": "Huqingping Hwy x Railway Underpass (Westbound)"
+    },
+    {
+      "id": "12008725",
+      "tileScore": 6,
+      "name": "Songze Hwy Overpass (Eastbound)"
+    },
+    {
+      "id": "12057928",
+      "tileScore": 457,
+      "name": "shen lan burger king back"
+    },
+    {
+      "id": "12254383",
+      "tileScore": 5,
+      "name": "Shenkun Rd South Bound"
+    },
+    {
+      "id": "12302059",
+      "tileScore": 31,
+      "name": "Gubei Lu - Wuzhong Lu to Qinzhou Lu - southbound"
+    },
+    {
+      "id": "12562160",
+      "tileScore": 24,
+      "name": "Qinzhou > Wuzhong"
+    },
+    {
+      "id": "12615004",
+      "tileScore": 1,
+      "name": "BaoNan Rd Main Street"
+    },
+    {
+      "id": "12667877",
+      "tileScore": 4,
+      "name": "Zhongshan Fury "
+    },
+    {
+      "id": "12744033",
+      "tileScore": 3,
+      "name": "The Escape from IKEA"
+    },
+    {
+      "id": "12992218",
+      "tileScore": 16,
+      "name": "Lianhua Lu/Humin Lu underpass (southbound)"
+    },
+    {
+      "id": "13001633",
+      "tileScore": 17,
+      "name": "Humin Road (2km)"
+    },
+    {
+      "id": "13250842",
+      "tileScore": 1,
+      "name": "East-West Express "
+    },
+    {
+      "id": "13659579",
+      "tileScore": 8,
+      "name": "Qinzhou Cycling Superhighway"
+    },
+    {
+      "id": "13732749",
+      "tileScore": 22,
+      "name": "Huaxiang Lu tunnel (southbound)"
+    },
+    {
+      "id": "13829135",
+      "tileScore": 24,
+      "name": "Sprint Past Xujiahui Park "
+    },
+    {
+      "id": "13917007",
+      "tileScore": 2,
+      "name": "中春路TT"
+    },
+    {
+      "id": "13926923",
+      "tileScore": 13,
+      "name": "Tianlin Cycling Superhighway"
+    },
+    {
+      "id": "13969066",
+      "tileScore": 31,
+      "name": "HQ Reverse Piledriver"
+    },
+    {
+      "id": "14031728",
+      "tileScore": 20,
+      "name": "Xiyaojing sprint"
+    },
+    {
+      "id": "14717649",
+      "tileScore": 6,
+      "name": "Fury Road South"
+    },
+    {
+      "id": "14717672",
+      "tileScore": 5,
+      "name": "Humin Rabbit Hole"
+    },
+    {
+      "id": "14717706",
+      "tileScore": 2,
+      "name": "Humin -> Caobao"
+    },
+    {
+      "id": "14770507",
+      "tileScore": 2,
+      "name": "Yaobei blast"
+    },
+    {
+      "id": "14775003",
+      "tileScore": 13,
+      "name": "Highway byway dash"
+    },
+    {
+      "id": "14788260",
+      "tileScore": 38,
+      "name": "Huaihai West sprint"
+    },
+    {
+      "id": "14799842",
+      "tileScore": 9,
+      "name": "Humin Road Speed Freak Tunnel Northbound"
+    },
+    {
+      "id": "14970673",
+      "tileScore": 6,
+      "name": "Gubei CN to HQ"
+    },
+    {
+      "id": "14970710",
+      "tileScore": 30,
+      "name": "Planespotting"
+    },
+    {
+      "id": "15566575",
+      "tileScore": 3,
+      "name": "Zhuanxing Lu overpass (westbound) "
+    },
+    {
+      "id": "15606974",
+      "tileScore": 4,
+      "name": "Longming southbound"
+    },
+    {
+      "id": "15686762",
+      "tileScore": 16,
+      "name": "Yinggang E Rd"
+    },
+    {
+      "id": "15735849",
+      "tileScore": 2,
+      "name": "Hongxin Lu x Dianpu He bridge (Southbound)"
+    },
+    {
+      "id": "15735874",
+      "tileScore": 4,
+      "name": "Longming Lu x Dianpu He bridge (northbound)"
+    },
+    {
+      "id": "15772069",
+      "tileScore": 21,
+      "name": "神奇的绕圈地点"
+    },
+    {
+      "id": "15772088",
+      "tileScore": 3,
+      "name": "春九路南向"
+    },
+    {
+      "id": "16317617",
+      "tileScore": 2,
+      "name": "Minhang Triangle Circuit"
+    },
+    {
+      "id": "16400965",
+      "tileScore": 72,
+      "name": "Xinzhuang CBD power lap"
+    },
+    {
+      "id": "16661699",
+      "tileScore": 10,
+      "name": "the Li'an Lump - westbound"
+    },
+    {
+      "id": "17392119",
+      "tileScore": 12,
+      "name": "Xumei Lu Smash"
+    },
+    {
+      "id": "17410883",
+      "tileScore": 13,
+      "name": "HQ expo centre lap"
+    },
+    {
+      "id": "17410922",
+      "tileScore": 4,
+      "name": "Hechuan Rd South"
+    },
+    {
+      "id": "17772258",
+      "tileScore": 7,
+      "name": "Changhua Lu climb"
+    },
+    {
+      "id": "17888371",
+      "tileScore": 92,
+      "name": "Longteng Salbutamol Blast"
+    },
+    {
+      "id": "17888512",
+      "tileScore": 88,
+      "name": "Longteng Tramadol Blast"
+    },
+    {
+      "id": "17888707",
+      "tileScore": 69,
+      "name": "New Longteng Second Bridge (Retour)"
+    },
+    {
+      "id": "18542628",
+      "tileScore": 47,
+      "name": "ZJB Cannonball"
+    },
+    {
+      "id": "18626945",
+      "tileScore": 2,
+      "name": "Lianhua Nan Lu from Humin Lu"
+    },
+    {
+      "id": "18703013",
+      "tileScore": 25,
+      "name": "Gaojing northward bound"
+    },
+    {
+      "id": "18736785",
+      "tileScore": 3,
+      "name": "摩天轮弯"
+    },
+    {
+      "id": "18921938",
+      "tileScore": 10,
+      "name": "Xinsong straight (wb)"
+    },
+    {
+      "id": "18950789",
+      "tileScore": 19,
+      "name": "Xinzhuang Underpass"
+    },
+    {
+      "id": "19942490",
+      "tileScore": 5,
+      "name": "laiting lu (northbound)"
+    },
+    {
+      "id": "20014980",
+      "tileScore": 3,
+      "name": "Hechuan Lu (northbound)"
+    },
+    {
+      "id": "20221151",
+      "tileScore": 5,
+      "name": "明中西路桥(西向)"
+    },
+    {
+      "id": "20261573",
+      "tileScore": 74,
+      "name": "slamina rehto dna nerdlihc rof tuo kooL"
+    },
+    {
+      "id": "21036682",
+      "tileScore": 7,
+      "name": "Minpu Tues - Park to LP with extension"
+    },
+    {
+      "id": "21243327",
+      "tileScore": 6,
+      "name": "Sorry Officer I thought you wanted to RACE ! #BTT"
+    },
+    {
+      "id": "21322636",
+      "tileScore": 9,
+      "name": "Lianhua Rd Gudai Rd to Caobao Rd (Northbound)"
+    },
+    {
+      "id": "21322644",
+      "tileScore": 5,
+      "name": "Lianhua Rd Caobao Rd to Yishan Rd (Northbound)"
+    },
+    {
+      "id": "21322650",
+      "tileScore": 8,
+      "name": "Lianhua Rd Yishan Rd to Wuzhong Rd (Northbound)"
+    },
+    {
+      "id": "21384969",
+      "tileScore": 20,
+      "name": "Huajing Lu"
+    },
+    {
+      "id": "21479104",
+      "tileScore": 7,
+      "name": "Up and Over"
+    },
+    {
+      "id": "21762400",
+      "tileScore": 58,
+      "name": "HongQiao 1K Sprint"
+    },
+    {
+      "id": "22068484",
+      "tileScore": 8,
+      "name": "G318 上海-湖州"
+    },
+    {
+      "id": "22324048",
+      "tileScore": 9,
+      "name": "The Skinny (eb)"
+    },
+    {
+      "id": "22349388",
+      "tileScore": 24,
+      "name": "上海体育场~中山西路sprint！"
+    },
+    {
+      "id": "22431799",
+      "tileScore": 2,
+      "name": "Rush Hour from Xujiahui to Wujiaochang"
+    },
+    {
+      "id": "22985479",
+      "tileScore": 9,
+      "name": "Dingjia Bridge"
+    },
+    {
+      "id": "22985488",
+      "tileScore": 4,
+      "name": "Dushi Rd"
+    },
+    {
+      "id": "22985518",
+      "tileScore": 1,
+      "name": "S4 Footbridge#1"
+    },
+    {
+      "id": "23156055",
+      "tileScore": 42,
+      "name": "Yuanjiang Lu Gaosu overpass"
+    },
+    {
+      "id": "23169966",
+      "tileScore": 98,
+      "name": "长宁绿道往返"
+    },
+    {
+      "id": "23318145",
+      "tileScore": 5,
+      "name": "Zhongchun: Xinsong-Hukun"
+    },
+    {
+      "id": "23344868",
+      "tileScore": 17,
+      "name": "MercrediLaParisienneReborn"
+    },
+    {
+      "id": "23376686",
+      "tileScore": 195,
+      "name": "长宁绿道南到北"
+    },
+    {
+      "id": "23685532",
+      "tileScore": 38,
+      "name": "Yuanjiang Lu x Wujing Tie Lu Qiao"
+    },
+    {
+      "id": "23869362",
+      "tileScore": 243,
+      "name": "元江路刷圈大环线"
+    },
+    {
+      "id": "24482615",
+      "tileScore": 55,
+      "name": "Dulwich Dash"
+    },
+    {
+      "id": "24482637",
+      "tileScore": 2,
+      "name": "Factorio"
+    },
+    {
+      "id": "24482747",
+      "tileScore": 32,
+      "name": "Let there be light"
+    },
+    {
+      "id": "24797033",
+      "tileScore": 8,
+      "name": "Changxing rd 2 bridges"
+    },
+    {
+      "id": "24989686",
+      "tileScore": 191,
+      "name": "Wattage time !!!"
+    },
+    {
+      "id": "25521343",
+      "tileScore": 2,
+      "name": "the lump"
+    },
+    {
+      "id": "26342638",
+      "tileScore": 207,
+      "name": "Shen Lan Lap n-s-n"
+    },
+    {
+      "id": "26481888",
+      "tileScore": 59,
+      "name": "Mt Hongqiao"
+    },
+    {
+      "id": "26661851",
+      "tileScore": 7,
+      "name": "Wuzhong Rd (Eastbound)"
+    },
+    {
+      "id": "26887116",
+      "tileScore": 1050,
+      "name": "French High School Segment"
+    },
+    {
+      "id": "27103510",
+      "tileScore": 61,
+      "name": "2nd Wattage Section"
+    },
+    {
+      "id": "27279141",
+      "tileScore": 30,
+      "name": "Xingfu sprint"
+    },
+    {
+      "id": "27307814",
+      "tileScore": 9,
+      "name": "BTP-CN-018"
+    },
+    {
+      "id": "27366652",
+      "tileScore": 73,
+      "name": "Longteng Avenue from New Ferry to Longrui Rd - Northbound"
+    },
+    {
+      "id": "27502862",
+      "tileScore": 3,
+      "name": "畹町小圈"
+    },
+    {
+      "id": "27619482",
+      "tileScore": 11,
+      "name": "Shooting Womp Rats in Beggar's Canyon"
+    },
+    {
+      "id": "27775488",
+      "tileScore": 2,
+      "name": "BTP-CN-026"
+    },
+    {
+      "id": "27873586",
+      "tileScore": 1,
+      "name": "Eastbound over bridge"
+    },
+    {
+      "id": "27955023",
+      "tileScore": 3,
+      "name": "BTP-0073"
+    },
+    {
+      "id": "27955036",
+      "tileScore": 3,
+      "name": "BTP-0077"
+    },
+    {
+      "id": "28647918",
+      "tileScore": 3,
+      "name": "The Expo Sprint"
+    },
+    {
+      "id": "28697371",
+      "tileScore": 11,
+      "name": "BTP-FC005"
+    },
+    {
+      "id": "29148720",
+      "tileScore": 6,
+      "name": "G318（华翔路）"
+    },
+    {
+      "id": "29363565",
+      "tileScore": 2,
+      "name": "莲花南路TT"
+    },
+    {
+      "id": "29366937",
+      "tileScore": 61,
+      "name": "昆阳路TT"
+    },
+    {
+      "id": "29374965",
+      "tileScore": 10,
+      "name": "光华路"
+    },
+    {
+      "id": "29542959",
+      "tileScore": 10,
+      "name": "Zhaojiabang road - huashan to wanping"
+    },
+    {
+      "id": "29780287",
+      "tileScore": 18,
+      "name": "九新公路"
+    },
+    {
+      "id": "29856728",
+      "tileScore": 12,
+      "name": "Guijiang Rd Parkside Sprint"
+    },
+    {
+      "id": "30082420",
+      "tileScore": 4,
+      "name": "TT-03"
+    },
+    {
+      "id": "30082437",
+      "tileScore": 5,
+      "name": "TT-09"
+    },
+    {
+      "id": "30251966",
+      "tileScore": 1,
+      "name": "漕宝路电瓶车真多"
+    },
+    {
+      "id": "30304242",
+      "tileScore": 4,
+      "name": "Rd. HeChuan (PingNan-CaoBao)"
+    },
+    {
+      "id": "30390301",
+      "tileScore": 3,
+      "name": "BTP-S2"
+    },
+    {
+      "id": "30390303",
+      "tileScore": 2,
+      "name": "BTP-S3"
+    },
+    {
+      "id": "30390315",
+      "tileScore": 9,
+      "name": "BTP-S5"
+    },
+    {
+      "id": "30564351",
+      "tileScore": 1,
+      "name": "FMG-04"
+    },
+    {
+      "id": "30564357",
+      "tileScore": 2,
+      "name": "FMG-05"
+    },
+    {
+      "id": "30564374",
+      "tileScore": 21,
+      "name": "FMG-07"
+    },
+    {
+      "id": "30564439",
+      "tileScore": 3,
+      "name": "FMG-13"
+    },
+    {
+      "id": "30564472",
+      "tileScore": 6,
+      "name": "FMG-16"
+    },
+    {
+      "id": "30564546",
+      "tileScore": 3,
+      "name": "FMG-23"
+    },
+    {
+      "id": "30768098",
+      "tileScore": 15,
+      "name": "JR003"
+    },
+    {
+      "id": "32445632",
+      "tileScore": 1,
+      "name": "King Kong go brrr!"
+    },
+    {
+      "id": "32464578",
+      "tileScore": 8,
+      "name": "Jay's private segment"
+    },
+    {
+      "id": "32521745",
+      "tileScore": 1,
+      "name": "HONGXIN"
+    },
+    {
+      "id": "32557816",
+      "tileScore": 5,
+      "name": "HUAGUANG"
+    },
+    {
+      "id": "32568892",
+      "tileScore": 5,
+      "name": "Caobao Xinfu"
+    },
+    {
+      "id": "32569054",
+      "tileScore": 11,
+      "name": "Caobao Hongxin"
+    },
+    {
+      "id": "32769946",
+      "tileScore": 2,
+      "name": "航东路通勤"
+    },
+    {
+      "id": "32845750",
+      "tileScore": 9,
+      "name": "ride the barrel, and get pitted, so pitted"
+    },
+    {
+      "id": "33090424",
+      "tileScore": 4,
+      "name": "诸光转盈港"
+    },
+    {
+      "id": "33232674",
+      "tileScore": 45,
+      "name": "镜神冲进申兰路大杀四方"
+    },
+    {
+      "id": "33232696",
+      "tileScore": 10,
+      "name": "香榧王镜神300瓦通勤"
+    },
+    {
+      "id": "33397216",
+      "tileScore": 6,
+      "name": "The back straight "
+    },
+    {
+      "id": "33638050",
+      "tileScore": 1,
+      "name": "Small Paul's Miniture Rabbit"
+    },
+    {
+      "id": "33849584",
+      "tileScore": 2,
+      "name": "小心学生出没！"
+    },
+    {
+      "id": "33849589",
+      "tileScore": 5,
+      "name": "吴中路通勤冲！"
+    },
+    {
+      "id": "34244695",
+      "tileScore": 10,
+      "name": "Xinsong Rainbow Bridge"
+    },
+    {
+      "id": "34326504",
+      "tileScore": 3,
+      "name": "Wumei Road Westbound - Hongmei to Hechuan"
+    },
+    {
+      "id": "34479772",
+      "tileScore": 1,
+      "name": "Shenbin Road  northbound w/o tunnel "
+    },
+    {
+      "id": "34591064",
+      "tileScore": 23,
+      "name": "Temple Run"
+    },
+    {
+      "id": "34777759",
+      "tileScore": 5,
+      "name": "三林滨江 003 Riverside"
+    },
+    {
+      "id": "34788066",
+      "tileScore": 4,
+      "name": "明华路地道(北向)"
+    },
+    {
+      "id": "35043761",
+      "tileScore": 16,
+      "name": "南丹-虹桥（番禺大拐弯）"
+    },
+    {
+      "id": "35043908",
+      "tileScore": 5,
+      "name": "七宝-吴中大拐弯"
+    },
+    {
+      "id": "35082789",
+      "tileScore": 15,
+      "name": "Temple sprint"
+    },
+    {
+      "id": "35118251",
+      "tileScore": 5,
+      "name": "Shanghai Indoor Stadium Loop(2023)"
+    },
+    {
+      "id": "35131995",
+      "tileScore": 14,
+      "name": "紫薇绕圈"
+    },
+    {
+      "id": "35304245",
+      "tileScore": 16,
+      "name": "Wan Yuan Yu Xi Lap"
+    },
+    {
+      "id": "35418098",
+      "tileScore": 80,
+      "name": "big shenlan loop"
+    },
+    {
+      "id": "35421256",
+      "tileScore": 11,
+      "name": "Jingcheng Loop"
+    },
+    {
+      "id": "35523150",
+      "tileScore": 10,
+      "name": "卖新公路地道冲冲冲"
+    },
+    {
+      "id": "35700365",
+      "tileScore": 4,
+      "name": "Office to Hospital"
+    },
+    {
+      "id": "35850240",
+      "tileScore": 17,
+      "name": "how to cope with this uneven road & traffic jams 🤨"
+    },
+    {
+      "id": "35936286",
+      "tileScore": 1,
+      "name": "Tianyaoqiao (Southbond)"
+    },
+    {
+      "id": "35948487",
+      "tileScore": 7,
+      "name": "莘砖公路桥至九新公路"
+    },
+    {
+      "id": "36111952",
+      "tileScore": 72,
+      "name": "2023 HH Airport Loop"
+    },
+    {
+      "id": "36112090",
+      "tileScore": 55,
+      "name": "Tulips Sams"
+    },
+    {
+      "id": "36140861",
+      "tileScore": 2,
+      "name": "渡口前的电瓶车真的好烦"
+    },
+    {
+      "id": "36140881",
+      "tileScore": 5,
+      "name": "景东路北向南"
+    },
+    {
+      "id": "36379800",
+      "tileScore": 26,
+      "name": "Sprint at 35 for the next green light"
+    },
+    {
+      "id": "36516350",
+      "tileScore": 2,
+      "name": "经典通勤上班线路A-虹桥绕道至凯旋卡红绿灯不停车"
+    },
+    {
+      "id": "36651288",
+      "tileScore": 113,
+      "name": "HQP Flyover to Outlets Full Gas"
+    },
+    {
+      "id": "36885573",
+      "tileScore": 5,
+      "name": "午休骑行2号线"
+    },
+    {
+      "id": "36894166",
+      "tileScore": 19,
+      "name": "ER - Babies Arm"
+    },
+    {
+      "id": "37094671",
+      "tileScore": 7,
+      "name": "Head to Guanghua"
+    },
+    {
+      "id": "37099811",
+      "tileScore": 17,
+      "name": "涞寅路桥东"
+    },
+    {
+      "id": "37431019",
+      "tileScore": 14,
+      "name": "Caobao 1k sprint to Guilin Park"
+    },
+    {
+      "id": "37431069",
+      "tileScore": 1,
+      "name": "Jianhe road smash"
+    },
+    {
+      "id": "37542209",
+      "tileScore": 274,
+      "name": "三林滨江 094"
+    },
+    {
+      "id": "37670361",
+      "tileScore": 7,
+      "name": "Fenglin Push"
+    },
+    {
+      "id": "37701039",
+      "tileScore": 23,
+      "name": "SP's Sneaky Dogleg"
+    },
+    {
+      "id": "37744682",
+      "tileScore": 9,
+      "name": "打螺丝通勤也能刷KOM"
+    },
+    {
+      "id": "38353251",
+      "tileScore": 8,
+      "name": "Donghang->Konggangsan->Yingle->Lianhong loop"
+    },
+    {
+      "id": "38659188",
+      "tileScore": 1,
+      "name": "浦江 029 Riverside Forest"
+    },
+    {
+      "id": "38663066",
+      "tileScore": 1,
+      "name": "浦江 030 U Turn Short"
+    },
+    {
+      "id": "39173049",
+      "tileScore": 5,
+      "name": "路过维璟印象城不喝奶茶嘛"
+    },
+    {
+      "id": "39173188",
+      "tileScore": 1,
+      "name": "小龙虾后顾戴路休闲骑"
+    },
+    {
+      "id": "39219946",
+      "tileScore": 14,
+      "name": "沪闵路淀浦河桥"
+    },
+    {
+      "id": "39230846",
+      "tileScore": 5,
+      "name": "Back Home From Coffee"
+    },
+    {
+      "id": "39336275",
+      "tileScore": 35,
+      "name": "Yingbin 3rd Rd. (Westbound) "
+    },
+    {
+      "id": "39571505",
+      "tileScore": 13,
+      "name": "漕宝路RUN*3"
+    },
+    {
+      "id": "39792090",
+      "tileScore": 5,
+      "name": "Tour de Xinglian"
+    },
+    {
+      "id": "40019920",
+      "tileScore": 37,
+      "name": "Full gas to first \"L\" turn from Wensha"
+    },
+    {
+      "id": "40145172",
+      "tileScore": 39,
+      "name": "Minghua Westbound"
+    },
+    {
+      "id": "40266405",
+      "tileScore": 6,
+      "name": "Wanyuan"
+    },
+    {
+      "id": "40505559",
+      "tileScore": 8,
+      "name": "Shengang Factories"
+    },
+    {
+      "id": "40540572",
+      "tileScore": 519,
+      "name": "North Sanlin Ferry Loop 三林渡口北圈"
+    },
+    {
+      "id": "40713481",
+      "tileScore": 366,
+      "name": "J's LTA Extension"
+    },
+    {
+      "id": "40743598",
+      "tileScore": 210,
+      "name": "New Extended Longteng Loop 🦊"
+    },
+    {
+      "id": "40761239",
+      "tileScore": 1,
+      "name": "文定路蒲汇塘路"
+    },
+    {
+      "id": "40840877",
+      "tileScore": 32,
+      "name": "星河湾小圈"
+    },
+    {
+      "id": "40841378",
+      "tileScore": 58,
+      "name": "Youle Rd to Huqingping Hwy"
+    },
+    {
+      "id": "41093492",
+      "tileScore": 68,
+      "name": "The Suckers Segment"
+    },
+    {
+      "id": "41383322",
+      "tileScore": 439,
+      "name": "factory绕圈"
+    },
+    {
+      "id": "41637235",
+      "tileScore": 11,
+      "name": "诺诺晨骑要迟到了"
+    },
+    {
+      "id": "41727278",
+      "tileScore": 6,
+      "name": "虹桥环机场线~"
+    },
+    {
+      "id": "41804900",
+      "tileScore": 5,
+      "name": "上海纯申"
+    },
+    {
+      "id": "41903743",
+      "tileScore": 10,
+      "name": "石龙CC"
+    },
+    {
+      "id": "42345837",
+      "tileScore": 23,
+      "name": "6哥带你刷两山"
+    }
+  ]
+}

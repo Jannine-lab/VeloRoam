@@ -1,0 +1,141 @@
+{
+  "capturedAt": "2026-11-04T14:50:49.607Z",
+  "parents": [
+    {
+      "parent": "6858/3350",
+      "z13": 16,
+      "z14": 16,
+      "newToParent": 0,
+      "absent": 0
+    },
+    {
+      "parent": "6857/3350",
+      "z13": 15,
+      "z14": 15,
+      "newToParent": 0,
+      "absent": 0
+    },
+    {
+      "parent": "6859/3347",
+      "z13": 43,
+      "z14": 52,
+      "newToParent": 9,
+      "absent": 0
+    },
+    {
+      "parent": "6860/3347",
+      "z13": 38,
+      "z14": 45,
+      "newToParent": 7,
+      "absent": 0
+    }
+  ],
+  "total": {
+    "z13": 99,
+    "z14": 115,
+    "newToParent": 16,
+    "absentFromChild": 0,
+    "scoreChanges": 0,
+    "newToShanghaiZ13": 6
+  },
+  "newSegments": [
+    {
+      "id": "34486901",
+      "name": "新天地 099",
+      "score": 2,
+      "foundInShanghaiZ13": true
+    },
+    {
+      "id": "34606575",
+      "name": "陆家嘴 099",
+      "score": 21,
+      "foundInShanghaiZ13": true
+    },
+    {
+      "id": "14826128",
+      "name": "LP",
+      "score": 22,
+      "foundInShanghaiZ13": true
+    },
+    {
+      "id": "40126594",
+      "name": "翠湖五期",
+      "score": 5,
+      "foundInShanghaiZ13": true
+    },
+    {
+      "id": "29777458",
+      "name": "Luban Lu South Rush",
+      "score": 2,
+      "foundInShanghaiZ13": true
+    },
+    {
+      "id": "14788245",
+      "name": "Wukang junction",
+      "score": 32,
+      "foundInShanghaiZ13": false
+    },
+    {
+      "id": "14788260",
+      "name": "Huaihai West sprint",
+      "score": 38,
+      "foundInShanghaiZ13": true
+    },
+    {
+      "id": "27279141",
+      "name": "Xingfu sprint",
+      "score": 31,
+      "foundInShanghaiZ13": true
+    },
+    {
+      "id": "5467759",
+      "name": "C Store to Huashan Lu",
+      "score": 31,
+      "foundInShanghaiZ13": false
+    },
+    {
+      "id": "8307151",
+      "name": "Taojiang Lu cobbles (westbound)",
+      "score": 5,
+      "foundInShanghaiZ13": false
+    },
+    {
+      "id": "21243327",
+      "name": "Sorry Officer I thought you wanted to RACE ! #BTT",
+      "score": 6,
+      "foundInShanghaiZ13": true
+    },
+    {
+      "id": "10630287",
+      "name": "Parallel Nanjing Xi",
+      "score": 1,
+      "foundInShanghaiZ13": false
+    },
+    {
+      "id": "29777497",
+      "name": "Rue De La SOiF North",
+      "score": 5,
+      "foundInShanghaiZ13": false
+    },
+    {
+      "id": "10644124",
+      "name": "Changning Lu westbound (Wanhangdu Lu to Dingxi Lu)",
+      "score": 7,
+      "foundInShanghaiZ13": false
+    },
+    {
+      "id": "35616116",
+      "name": "世博 008 Riverside",
+      "score": 31,
+      "foundInShanghaiZ13": true
+    },
+    {
+      "id": "36798310",
+      "name": "黄浦滨江 092 Box",
+      "score": 24,
+      "foundInShanghaiZ13": true
+    }
+  ],
+  "absentSegments": [],
+  "scoreChanges": []
+}

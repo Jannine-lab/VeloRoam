@@ -1,0 +1,47 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-03T06:03:16.086Z",
+  "tile": {
+    "z": 13,
+    "x": 6858,
+    "y": 3340
+  },
+  "segments": [
+    {
+      "id": "6971094",
+      "tileScore": 1,
+      "name": "Chuanxiong Rd (Westbound)",
+      "distanceM": 1277,
+      "avgGrade": 0.007830853573977947,
+      "startLat": 31.475339889526367,
+      "startLng": 121.38601684570312
+    },
+    {
+      "id": "36359274",
+      "tileScore": 3,
+      "name": "the ferry",
+      "distanceM": 29391.400390625,
+      "avgGrade": -0.0017011777963489294,
+      "startLat": 31.469480514526367,
+      "startLng": 121.41571044921875
+    },
+    {
+      "id": "6971087",
+      "tileScore": 8,
+      "name": "Baoshan Industrial Sea Front (Northbound)",
+      "distanceM": 2143,
+      "avgGrade": 0,
+      "startLat": 31.46722984313965,
+      "startLng": 121.41168975830078
+    },
+    {
+      "id": "12579530",
+      "tileScore": 9,
+      "name": "蕴川公路（杨桥-石太路）",
+      "distanceM": 11312.2998046875,
+      "avgGrade": -0.0035359743051230907,
+      "startLat": 31.49881362915039,
+      "startLng": 121.2906494140625
+    }
+  ]
+}

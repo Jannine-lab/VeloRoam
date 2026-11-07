@@ -1,0 +1,47 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-03T06:01:13.547Z",
+  "tile": {
+    "z": 13,
+    "x": 6863,
+    "y": 3333
+  },
+  "segments": [
+    {
+      "id": "39095692",
+      "tileScore": 4,
+      "name": "Back Straight",
+      "distanceM": 2373.39990234375,
+      "avgGrade": -0.10954748094081879,
+      "startLat": 31.73724365234375,
+      "startLng": 121.62898254394531
+    },
+    {
+      "id": "39095704",
+      "tileScore": 17,
+      "name": "Which Way is the Wind",
+      "distanceM": 1195.800048828125,
+      "avgGrade": 0,
+      "startLat": 31.749526977539062,
+      "startLng": 121.60758972167969
+    },
+    {
+      "id": "34736369",
+      "tileScore": 24,
+      "name": "滨江公园由东至西",
+      "distanceM": 3570.800048828125,
+      "avgGrade": -0.0672118291258812,
+      "startLat": 31.737340927124023,
+      "startLng": 121.6287612915039
+    },
+    {
+      "id": "40184023",
+      "tileScore": 16,
+      "name": "环启最鲜公路起步就突围",
+      "distanceM": 6816.2998046875,
+      "avgGrade": 0.030808502808213234,
+      "startLat": 31.784191131591797,
+      "startLng": 121.63375854492188
+    }
+  ]
+}

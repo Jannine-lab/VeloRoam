@@ -1,0 +1,38 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-03T06:01:49.651Z",
+  "tile": {
+    "z": 13,
+    "x": 6860,
+    "y": 3335
+  },
+  "segments": [
+    {
+      "id": "39251458",
+      "tileScore": 59,
+      "name": "IM 70.3 chongming",
+      "distanceM": 89649.796875,
+      "avgGrade": -0.17936459183692932,
+      "startLat": 31.75614356994629,
+      "startLng": 121.39620208740234
+    },
+    {
+      "id": "32916682",
+      "tileScore": 57,
+      "name": "一拉一路",
+      "distanceM": 4314.2001953125,
+      "avgGrade": -0.05563024431467056,
+      "startLat": 31.68149757385254,
+      "startLng": 121.52594757080078
+    },
+    {
+      "id": "39049830",
+      "tileScore": 5,
+      "name": "北沿公路(林风公路-北新公路)",
+      "distanceM": 2063,
+      "avgGrade": 0.038778480142354965,
+      "startLat": 31.69106674194336,
+      "startLng": 121.48934173583984
+    }
+  ]
+}

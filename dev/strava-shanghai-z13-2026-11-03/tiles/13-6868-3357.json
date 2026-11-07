@@ -1,0 +1,65 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-03T06:12:48.740Z",
+  "tile": {
+    "z": 13,
+    "x": 6868,
+    "y": 3357
+  },
+  "segments": [
+    {
+      "id": "36906641",
+      "tileScore": 2,
+      "name": "药指导无敌博鸡嘎嘎乱杀",
+      "distanceM": 7693.5,
+      "avgGrade": 0.0025995969772338867,
+      "startLat": 30.858583450317383,
+      "startLng": 121.74876403808594
+    },
+    {
+      "id": "34130885",
+      "tileScore": 34,
+      "name": "塘下公路 方竹路-芦潮港",
+      "distanceM": 4808.39990234375,
+      "avgGrade": -0.049912650138139725,
+      "startLat": 30.896577835083008,
+      "startLng": 121.87850952148438
+    },
+    {
+      "id": "10947475",
+      "tileScore": 76,
+      "name": "Headwindy Sea Wall",
+      "distanceM": 7084.7001953125,
+      "avgGrade": 0.02258387766778469,
+      "startLat": 30.851057052612305,
+      "startLng": 121.84886169433594
+    },
+    {
+      "id": "34130678",
+      "tileScore": 12,
+      "name": "芦五公路 云水路-南芦公路",
+      "distanceM": 5964,
+      "avgGrade": 0,
+      "startLat": 30.867446899414062,
+      "startLng": 121.77898406982422
+    },
+    {
+      "id": "34876536",
+      "tileScore": 16,
+      "name": "芦五公路（倚天路-层林路）",
+      "distanceM": 553.9000244140625,
+      "avgGrade": -0.9026899933815002,
+      "startLat": 30.86388397216797,
+      "startLng": 121.82318878173828
+    },
+    {
+      "id": "10759597",
+      "tileScore": 59,
+      "name": " sea wall e to west",
+      "distanceM": 12214.2998046875,
+      "avgGrade": 0.03111107461154461,
+      "startLat": 30.882774353027344,
+      "startLng": 121.96733093261719
+    }
+  ]
+}

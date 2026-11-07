@@ -1,0 +1,74 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-03T06:10:35.625Z",
+  "tile": {
+    "z": 13,
+    "x": 6861,
+    "y": 3353
+  },
+  "segments": [
+    {
+      "id": "20305708",
+      "tileScore": 4,
+      "name": "大叶公路（六奉-沪杭）",
+      "distanceM": 25125.5,
+      "avgGrade": 0.023084117099642754,
+      "startLat": 30.988019943237305,
+      "startLng": 121.69689178466797
+    },
+    {
+      "id": "8767225",
+      "tileScore": 24,
+      "name": "San Lu Hwy South ( DaZhi to the circle)",
+      "distanceM": 3995.5,
+      "avgGrade": -0.09010136127471924,
+      "startLat": 31.017032623291016,
+      "startLng": 121.52947998046875
+    },
+    {
+      "id": "38955620",
+      "tileScore": 30,
+      "name": "浦沿大治河桥",
+      "distanceM": 1024,
+      "avgGrade": 0.078125,
+      "startLat": 31.01521110534668,
+      "startLng": 121.5296401977539
+    },
+    {
+      "id": "8362606",
+      "tileScore": 3,
+      "name": "Yanqian Highway South",
+      "distanceM": 18638.69921875,
+      "avgGrade": 0.009120807982981205,
+      "startLat": 31.005619049072266,
+      "startLng": 121.52973937988281
+    },
+    {
+      "id": "14201799",
+      "tileScore": 202,
+      "name": "Puxing Bridge North",
+      "distanceM": 795.4000244140625,
+      "avgGrade": -0.13829520344734192,
+      "startLat": 31.014917373657227,
+      "startLng": 121.50897216796875
+    },
+    {
+      "id": "40286924",
+      "tileScore": 5,
+      "name": "大叶公路～泰青公路",
+      "distanceM": 29365.69921875,
+      "avgGrade": 0.015664534643292427,
+      "startLat": 30.942710876464844,
+      "startLng": 121.26114654541016
+    },
+    {
+      "id": "38076309",
+      "tileScore": 8,
+      "name": "kiki在这里狂拉扯",
+      "distanceM": 3402.60009765625,
+      "avgGrade": -0.011755716055631638,
+      "startLat": 30.98706817626953,
+      "startLng": 121.51107788085938
+    }
+  ]
+}

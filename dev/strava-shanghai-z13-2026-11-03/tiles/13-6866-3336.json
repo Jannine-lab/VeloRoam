@@ -1,0 +1,20 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-03T06:01:43.697Z",
+  "tile": {
+    "z": 13,
+    "x": 6866,
+    "y": 3336
+  },
+  "segments": [
+    {
+      "id": "39086499",
+      "tileScore": 12,
+      "name": "崇明东半岛北贴ITT",
+      "distanceM": 25298.099609375,
+      "avgGrade": 0.0023717195726931095,
+      "startLat": 31.578561782836914,
+      "startLng": 121.9088363647461
+    }
+  ]
+}

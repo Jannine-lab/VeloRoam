@@ -1,0 +1,38 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-03T05:59:13.274Z",
+  "tile": {
+    "z": 13,
+    "x": 6864,
+    "y": 3331
+  },
+  "segments": [
+    {
+      "id": "27480242",
+      "tileScore": 3,
+      "name": "Country Gardens to Yinzhou",
+      "distanceM": 2817.60009765625,
+      "avgGrade": -0.28392958641052246,
+      "startLat": 31.82352638244629,
+      "startLng": 121.64553833007812
+    },
+    {
+      "id": "28647917",
+      "tileScore": 11,
+      "name": "世纪大道4公里绕圈",
+      "distanceM": 4207,
+      "avgGrade": -0.03803185373544693,
+      "startLat": 31.81024742126465,
+      "startLng": 121.68324279785156
+    },
+    {
+      "id": "27480251",
+      "tileScore": 5,
+      "name": "Yinzhou to Over Bridge ",
+      "distanceM": 3132,
+      "avgGrade": 0.019157089293003082,
+      "startLat": 31.808555603027344,
+      "startLng": 121.65999603271484
+    }
+  ]
+}

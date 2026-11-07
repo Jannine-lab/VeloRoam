@@ -1,0 +1,47 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-03T06:09:32.917Z",
+  "tile": {
+    "z": 13,
+    "x": 6855,
+    "y": 3352
+  },
+  "segments": [
+    {
+      "id": "11388190",
+      "tileScore": 19,
+      "name": "Minyi Rd (North-East Bound)",
+      "distanceM": 2409.199951171875,
+      "avgGrade": -0.016603022813796997,
+      "startLat": 31.041240692138672,
+      "startLng": 121.28103637695312
+    },
+    {
+      "id": "27327757",
+      "tileScore": 8,
+      "name": "Shanghai Tour de France 上海环法 - Full Tour (100km)",
+      "distanceM": 100065.796875,
+      "avgGrade": 0.002498356159776449,
+      "startLat": 31.153793334960938,
+      "startLng": 121.20298767089844
+    },
+    {
+      "id": "29343674",
+      "tileScore": 2,
+      "name": "BTP-CN-150",
+      "distanceM": 8229.7998046875,
+      "avgGrade": 0.03888308256864548,
+      "startLat": 31.046218872070312,
+      "startLng": 121.25434875488281
+    },
+    {
+      "id": "4555506",
+      "tileScore": 6,
+      "name": "Husong Highway Crossing-above Bridge Climb",
+      "distanceM": 977.2999877929688,
+      "avgGrade": 8.369998931884766,
+      "startLat": 31.02053451538086,
+      "startLng": 121.25769805908203
+    }
+  ]
+}

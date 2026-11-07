@@ -1,0 +1,110 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-03T06:09:21.092Z",
+  "tile": {
+    "z": 13,
+    "x": 6861,
+    "y": 3352
+  },
+  "segments": [
+    {
+      "id": "28905832",
+      "tileScore": 8,
+      "name": "Dumplings. Almost there.",
+      "distanceM": 8881.7998046875,
+      "avgGrade": -0.024769755080342293,
+      "startLat": 31.02743911743164,
+      "startLng": 121.51651763916016
+    },
+    {
+      "id": "39051588",
+      "tileScore": 8,
+      "name": "浦江 032 Riverside",
+      "distanceM": 1930,
+      "avgGrade": 0,
+      "startLat": 31.018478393554688,
+      "startLng": 121.49822998046875
+    },
+    {
+      "id": "38955620",
+      "tileScore": 30,
+      "name": "浦沿大治河桥",
+      "distanceM": 1024,
+      "avgGrade": 0.078125,
+      "startLat": 31.01521110534668,
+      "startLng": 121.5296401977539
+    },
+    {
+      "id": "8767225",
+      "tileScore": 24,
+      "name": "San Lu Hwy South ( DaZhi to the circle)",
+      "distanceM": 3995.5,
+      "avgGrade": -0.09010136127471924,
+      "startLat": 31.017032623291016,
+      "startLng": 121.52947998046875
+    },
+    {
+      "id": "32373035",
+      "tileScore": 34,
+      "name": "Xianxin Rd Hangsan Rd to highway",
+      "distanceM": 3776.5,
+      "avgGrade": -0.010591818019747734,
+      "startLat": 31.040267944335938,
+      "startLng": 121.52677154541016
+    },
+    {
+      "id": "35170184",
+      "tileScore": 8,
+      "name": "半个俄罗斯方块",
+      "distanceM": 26143.30078125,
+      "avgGrade": 0.011475215665996075,
+      "startLat": 31.18340492248535,
+      "startLng": 121.61776733398438
+    },
+    {
+      "id": "33072474",
+      "tileScore": 22,
+      "name": "妈妈叫回家恰饭。。",
+      "distanceM": 6467.89990234375,
+      "avgGrade": 0.040198519825935364,
+      "startLat": 31.07023811340332,
+      "startLng": 121.5897216796875
+    },
+    {
+      "id": "14201799",
+      "tileScore": 202,
+      "name": "Puxing Bridge North",
+      "distanceM": 795.4000244140625,
+      "avgGrade": -0.13829520344734192,
+      "startLat": 31.014917373657227,
+      "startLng": 121.50897216796875
+    },
+    {
+      "id": "14201811",
+      "tileScore": 7,
+      "name": "North on Puxing",
+      "distanceM": 5513.2001953125,
+      "avgGrade": 0,
+      "startLat": 31.02269744873047,
+      "startLng": 121.50930786132812
+    },
+    {
+      "id": "32373015",
+      "tileScore": 17,
+      "name": "Xianxin Rd part 1",
+      "distanceM": 1550,
+      "avgGrade": -0.012903225608170033,
+      "startLat": 31.038745880126953,
+      "startLng": 121.51010131835938
+    },
+    {
+      "id": "24824459",
+      "tileScore": 1,
+      "name": "Tour de Shenjiahu  X4",
+      "distanceM": 18822.599609375,
+      "avgGrade": -0.010625524446368217,
+      "startLat": 31.054100036621094,
+      "startLng": 121.50882720947266
+    }
+  ]
+}

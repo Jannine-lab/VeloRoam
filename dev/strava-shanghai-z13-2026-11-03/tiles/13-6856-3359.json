@@ -1,0 +1,74 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-03T06:13:16.455Z",
+  "tile": {
+    "z": 13,
+    "x": 6856,
+    "y": 3359
+  },
+  "segments": [
+    {
+      "id": "25156525",
+      "tileScore": 2,
+      "name": "松金公路往南",
+      "distanceM": 4521.39990234375,
+      "avgGrade": 0.013270226307213306,
+      "startLat": 30.789785385131836,
+      "startLng": 121.2902603149414
+    },
+    {
+      "id": "37794173",
+      "tileScore": 2,
+      "name": "Wanda PokéCenter",
+      "distanceM": 1805.4000244140625,
+      "avgGrade": 0,
+      "startLat": 30.75838279724121,
+      "startLng": 121.32722473144531
+    },
+    {
+      "id": "37552760",
+      "tileScore": 28,
+      "name": "Straight & Smooth",
+      "distanceM": 7098.2001953125,
+      "avgGrade": -0.02817615680396557,
+      "startLat": 30.76449966430664,
+      "startLng": 121.33218383789062
+    },
+    {
+      "id": "36321018",
+      "tileScore": 46,
+      "name": "Caowei Hwy EtoW",
+      "distanceM": 13547.400390625,
+      "avgGrade": 0.03838374838232994,
+      "startLat": 30.786436080932617,
+      "startLng": 121.41214752197266
+    },
+    {
+      "id": "37552736",
+      "tileScore": 24,
+      "name": "Sports Center Dash",
+      "distanceM": 2342.800048828125,
+      "avgGrade": -0.04268397018313408,
+      "startLat": 30.764347076416016,
+      "startLng": 121.33224487304688
+    },
+    {
+      "id": "37815993",
+      "tileScore": 5,
+      "name": "Super Saiyan Dash",
+      "distanceM": 5192.7001953125,
+      "avgGrade": 0.05007028952240944,
+      "startLat": 30.78205108642578,
+      "startLng": 121.33010864257812
+    },
+    {
+      "id": "14324164",
+      "tileScore": 26,
+      "name": "金山体育馆绕圈",
+      "distanceM": 2044.5999755859375,
+      "avgGrade": 0,
+      "startLat": 30.784509658813477,
+      "startLng": 121.32494354248047
+    }
+  ]
+}

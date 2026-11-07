@@ -1,0 +1,29 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-03T05:59:13.274Z",
+  "tile": {
+    "z": 13,
+    "x": 6862,
+    "y": 3331
+  },
+  "segments": [
+    {
+      "id": "28107169",
+      "tileScore": 4,
+      "name": "Stretch Your Legs",
+      "distanceM": 1752.199951171875,
+      "avgGrade": -0.05707110837101936,
+      "startLat": 31.81622886657715,
+      "startLng": 121.58734893798828
+    },
+    {
+      "id": "37389960",
+      "tileScore": 30,
+      "name": "东布洲人肉高铁",
+      "distanceM": 19373.30078125,
+      "avgGrade": 0.0010323486058041453,
+      "startLat": 31.78864860534668,
+      "startLng": 121.5898666381836
+    }
+  ]
+}

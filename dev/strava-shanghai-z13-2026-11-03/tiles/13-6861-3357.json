@@ -1,0 +1,74 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-03T06:12:45.976Z",
+  "tile": {
+    "z": 13,
+    "x": 6861,
+    "y": 3357
+  },
+  "segments": [
+    {
+      "id": "34355371",
+      "tileScore": 7,
+      "name": "海马路",
+      "distanceM": 3593.10009765625,
+      "avgGrade": 0.011132447980344296,
+      "startLat": 30.836389541625977,
+      "startLng": 121.57099914550781
+    },
+    {
+      "id": "34876506",
+      "tileScore": 7,
+      "name": "随塘河路（靶场-五四）",
+      "distanceM": 18125.900390625,
+      "avgGrade": -0.011033935472369194,
+      "startLat": 30.842056274414062,
+      "startLng": 121.54557037353516
+    },
+    {
+      "id": "38198582",
+      "tileScore": 89,
+      "name": "金汇港大桥冲啊",
+      "distanceM": 994.7999877929688,
+      "avgGrade": -0.2010454386472702,
+      "startLat": 30.85686492919922,
+      "startLng": 121.52350616455078
+    },
+    {
+      "id": "27594645",
+      "tileScore": 4,
+      "name": "Bridge to Beach South Puxing Hwy",
+      "distanceM": 8736.400390625,
+      "avgGrade": -0.0274712685495615,
+      "startLat": 30.905433654785156,
+      "startLng": 121.5214614868164
+    },
+    {
+      "id": "29178514",
+      "tileScore": 4,
+      "name": "beach street",
+      "distanceM": 4225.7998046875,
+      "avgGrade": 0.04259548336267471,
+      "startLat": 30.823251724243164,
+      "startLng": 121.52932739257812
+    },
+    {
+      "id": "27606406",
+      "tileScore": 10,
+      "name": "push push push",
+      "distanceM": 949.2999877929688,
+      "avgGrade": 0.16854524612426758,
+      "startLat": 30.83327865600586,
+      "startLng": 121.53263854980469
+    },
+    {
+      "id": "36919812",
+      "tileScore": 10,
+      "name": "奉拓公路的冲冲冲冲",
+      "distanceM": 11757.5,
+      "avgGrade": 0.03912396356463432,
+      "startLat": 30.868106842041016,
+      "startLng": 121.52642822265625
+    }
+  ]
+}

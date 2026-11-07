@@ -1,0 +1,56 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-03T06:08:53.418Z",
+  "tile": {
+    "z": 13,
+    "x": 6867,
+    "y": 3349
+  },
+  "segments": [
+    {
+      "id": "36528594",
+      "tileScore": 13,
+      "name": "A380从这里起飞",
+      "distanceM": 1711,
+      "avgGrade": 0.03506721183657646,
+      "startLat": 31.162595748901367,
+      "startLng": 121.80205535888672
+    },
+    {
+      "id": "27401582",
+      "tileScore": 8,
+      "name": "DP Airport Loop part 1",
+      "distanceM": 38720,
+      "avgGrade": 0.004648760426789522,
+      "startLat": 31.236400604248047,
+      "startLng": 121.59383392333984
+    },
+    {
+      "id": "11297194",
+      "tileScore": 9,
+      "name": "PVG N to S from the Sea Wall Turn Off",
+      "distanceM": 6008.7001953125,
+      "avgGrade": -0.0033285068348050117,
+      "startLat": 31.161985397338867,
+      "startLng": 121.81363677978516
+    },
+    {
+      "id": "28599619",
+      "tileScore": 7,
+      "name": "Behind Airport East ",
+      "distanceM": 305.29998779296875,
+      "avgGrade": -0.458565354347229,
+      "startLat": 31.149499893188477,
+      "startLng": 121.76974487304688
+    },
+    {
+      "id": "39022339",
+      "tileScore": 16,
+      "name": "国航 3km 绕圈",
+      "distanceM": 3067.699951171875,
+      "avgGrade": -0.13039083778858185,
+      "startLat": 31.163381576538086,
+      "startLng": 121.77267456054688
+    }
+  ]
+}

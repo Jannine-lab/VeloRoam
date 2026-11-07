@@ -1,0 +1,128 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-03T06:09:36.165Z",
+  "tile": {
+    "z": 13,
+    "x": 6851,
+    "y": 3351
+  },
+  "segments": [
+    {
+      "id": "27319467",
+      "tileScore": 8,
+      "name": "Shanghai Tour de France 上海环法 - Les Sables d'Olonne-La Rochelle",
+      "distanceM": 1530.9000244140625,
+      "avgGrade": -0.11757789552211761,
+      "startLat": 31.088647842407227,
+      "startLng": 121.07992553710938
+    },
+    {
+      "id": "40911284",
+      "tileScore": 7,
+      "name": "to grind an 8",
+      "distanceM": 7669.7998046875,
+      "avgGrade": 0.2086103856563568,
+      "startLat": 31.10805892944336,
+      "startLng": 121.10279083251953
+    },
+    {
+      "id": "32956173",
+      "tileScore": 68,
+      "name": "Sun Island Hwy UP",
+      "distanceM": 4203.2001953125,
+      "avgGrade": -0.023791396990418434,
+      "startLat": 31.043256759643555,
+      "startLng": 121.08158874511719
+    },
+    {
+      "id": "29969719",
+      "tileScore": 4,
+      "name": "CNB-02",
+      "distanceM": 9227.400390625,
+      "avgGrade": 0.015172204934060574,
+      "startLat": 31.07892417907715,
+      "startLng": 121.11650085449219
+    },
+    {
+      "id": "27327757",
+      "tileScore": 8,
+      "name": "Shanghai Tour de France 上海环法 - Full Tour (100km)",
+      "distanceM": 100065.796875,
+      "avgGrade": 0.002498356159776449,
+      "startLat": 31.153793334960938,
+      "startLng": 121.20298767089844
+    },
+    {
+      "id": "23066575",
+      "tileScore": 72,
+      "name": "沈砖公路东向4KM",
+      "distanceM": 4084.10009765625,
+      "avgGrade": 0.02448519878089428,
+      "startLat": 31.07915687561035,
+      "startLng": 121.06281280517578
+    },
+    {
+      "id": "37027201",
+      "tileScore": 7,
+      "name": "ER speedy circuit ",
+      "distanceM": 75940.3984375,
+      "avgGrade": -0.010534577071666718,
+      "startLat": 31.1991024017334,
+      "startLng": 121.27393341064453
+    },
+    {
+      "id": "32102464",
+      "tileScore": 27,
+      "name": "Villa segment to Shenzhuan Hwy  ",
+      "distanceM": 3591.300048828125,
+      "avgGrade": -0.013922534883022308,
+      "startLat": 31.062870025634766,
+      "startLng": 121.11974334716797
+    },
+    {
+      "id": "30308712",
+      "tileScore": 9,
+      "name": "The Qing Lu Double",
+      "distanceM": 4982.7998046875,
+      "avgGrade": 0.03612426668405533,
+      "startLat": 31.081369400024414,
+      "startLng": 121.10780334472656
+    },
+    {
+      "id": "24366874",
+      "tileScore": 36,
+      "name": "沈砖公路TT赛段",
+      "distanceM": 9975.5,
+      "avgGrade": -0.006014736369252205,
+      "startLat": 31.08570671081543,
+      "startLng": 121.16598510742188
+    },
+    {
+      "id": "35443627",
+      "tileScore": 30,
+      "name": "小昆山田园铁三 Bike 1 Lap",
+      "distanceM": 7466.2998046875,
+      "avgGrade": -0.040180545300245285,
+      "startLat": 31.05215072631836,
+      "startLng": 121.10599517822266
+    },
+    {
+      "id": "39972025",
+      "tileScore": 2,
+      "name": "乡村水路",
+      "distanceM": 2620.199951171875,
+      "avgGrade": -0.14502710103988647,
+      "startLat": 31.05801010131836,
+      "startLng": 121.07633972167969
+    },
+    {
+      "id": "37724746",
+      "tileScore": 8,
+      "name": "青浦快运",
+      "distanceM": 66769.3984375,
+      "avgGrade": -0.013179689645767212,
+      "startLat": 31.176237106323242,
+      "startLng": 121.27295684814453
+    }
+  ]
+}

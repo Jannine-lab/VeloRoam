@@ -1,0 +1,38 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-03T06:12:45.976Z",
+  "tile": {
+    "z": 13,
+    "x": 6865,
+    "y": 3357
+  },
+  "segments": [
+    {
+      "id": "35739410",
+      "tileScore": 1,
+      "name": "Sculpture Salute",
+      "distanceM": 1062.9000244140625,
+      "avgGrade": -0.03763289004564285,
+      "startLat": 30.86825180053711,
+      "startLng": 121.70962524414062
+    },
+    {
+      "id": "31043664",
+      "tileScore": 12,
+      "name": "South Sea Wall ",
+      "distanceM": 3757.699951171875,
+      "avgGrade": -0.026612024754285812,
+      "startLat": 30.847644805908203,
+      "startLng": 121.69718933105469
+    },
+    {
+      "id": "42418978",
+      "tileScore": 36,
+      "name": "Challenge Shanghai Bike Lap",
+      "distanceM": 18642.5,
+      "avgGrade": 0.019310714676976204,
+      "startLat": 30.848499298095703,
+      "startLng": 121.65251922607422
+    }
+  ]
+}

@@ -1,0 +1,119 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-03T06:08:06.516Z",
+  "tile": {
+    "z": 13,
+    "x": 6861,
+    "y": 3350
+  },
+  "segments": [
+    {
+      "id": "38679106",
+      "tileScore": 3,
+      "name": "三鲁公路 098",
+      "distanceM": 1357.300048828125,
+      "avgGrade": 0.19155676662921906,
+      "startLat": 31.08848762512207,
+      "startLng": 121.51554870605469
+    },
+    {
+      "id": "38435743",
+      "tileScore": 4,
+      "name": "三鲁公路 002",
+      "distanceM": 1769.5,
+      "avgGrade": -0.04521051049232483,
+      "startLat": 31.10226058959961,
+      "startLng": 121.5112533569336
+    },
+    {
+      "id": "34539459",
+      "tileScore": 3,
+      "name": "中科大上研院绕圈",
+      "distanceM": 3095.39990234375,
+      "avgGrade": 0,
+      "startLat": 31.125534057617188,
+      "startLng": 121.54143524169922
+    },
+    {
+      "id": "39785181",
+      "tileScore": 5,
+      "name": "万芳路冲刺",
+      "distanceM": 3782.5,
+      "avgGrade": -0.01057501696050167,
+      "startLat": 31.074010848999023,
+      "startLng": 121.53507232666016
+    },
+    {
+      "id": "34777855",
+      "tileScore": 7,
+      "name": "三林 098 Sprint",
+      "distanceM": 2203.199951171875,
+      "avgGrade": 0,
+      "startLat": 31.118637084960938,
+      "startLng": 121.49539184570312
+    },
+    {
+      "id": "24425517",
+      "tileScore": 3,
+      "name": "ShangNan PuJin Lightning!!!",
+      "distanceM": 21129.69921875,
+      "avgGrade": 0.011358419433236122,
+      "startLat": 31.194862365722656,
+      "startLng": 121.49488830566406
+    },
+    {
+      "id": "4268623",
+      "tileScore": 6,
+      "name": "Suzhao Rd",
+      "distanceM": 1813.4000244140625,
+      "avgGrade": 0.1102900579571724,
+      "startLat": 31.092941284179688,
+      "startLng": 121.537353515625
+    },
+    {
+      "id": "34933050",
+      "tileScore": 1,
+      "name": "三鲁河",
+      "distanceM": 664.5,
+      "avgGrade": 0,
+      "startLat": 31.125539779663086,
+      "startLng": 121.51339721679688
+    },
+    {
+      "id": "8767219",
+      "tileScore": 9,
+      "name": "San Lu Hwy South ( S20 to S32)",
+      "distanceM": 9014.900390625,
+      "avgGrade": -0.00665564788505435,
+      "startLat": 31.132736206054688,
+      "startLng": 121.4984359741211
+    },
+    {
+      "id": "38679102",
+      "tileScore": 7,
+      "name": "三鲁公路 099",
+      "distanceM": 1980.5999755859375,
+      "avgGrade": -0.02019589953124523,
+      "startLat": 31.103063583374023,
+      "startLng": 121.51061248779297
+    },
+    {
+      "id": "34429951",
+      "tileScore": 3,
+      "name": "康桥 099",
+      "distanceM": 2521.89990234375,
+      "avgGrade": 0.04758317023515701,
+      "startLat": 31.087181091308594,
+      "startLng": 121.53952026367188
+    },
+    {
+      "id": "34853196",
+      "tileScore": 5,
+      "name": "上南 095",
+      "distanceM": 2056.199951171875,
+      "avgGrade": 0.03890672326087952,
+      "startLat": 31.110082626342773,
+      "startLng": 121.52845764160156
+    }
+  ]
+}

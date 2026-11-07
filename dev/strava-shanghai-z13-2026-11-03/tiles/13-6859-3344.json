@@ -1,0 +1,83 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-03T06:04:58.252Z",
+  "tile": {
+    "z": 13,
+    "x": 6859,
+    "y": 3344
+  },
+  "segments": [
+    {
+      "id": "18247732",
+      "tileScore": 33,
+      "name": "Kangning short sprint",
+      "distanceM": 1563.9000244140625,
+      "avgGrade": 0,
+      "startLat": 31.307376861572266,
+      "startLng": 121.42970275878906
+    },
+    {
+      "id": "37134597",
+      "tileScore": 8,
+      "name": "江杨南北and keep riding",
+      "distanceM": 28191.19921875,
+      "avgGrade": -0.014898266643285751,
+      "startLat": 31.322021484375,
+      "startLng": 121.46370697021484
+    },
+    {
+      "id": "31975701",
+      "tileScore": 38,
+      "name": "Park City 1.8",
+      "distanceM": 1809,
+      "avgGrade": -0.03316749632358551,
+      "startLat": 31.327342987060547,
+      "startLng": 121.4205322265625
+    },
+    {
+      "id": "36812118",
+      "tileScore": 8,
+      "name": "Tour de Dachang Airport",
+      "distanceM": 20435.400390625,
+      "avgGrade": -0.01565910130739212,
+      "startLat": 31.305885314941406,
+      "startLng": 121.42900085449219
+    },
+    {
+      "id": "27311829",
+      "tileScore": 1,
+      "name": "Free road after the train left away",
+      "distanceM": 578.2999877929688,
+      "avgGrade": -0.13833649456501007,
+      "startLat": 31.322893142700195,
+      "startLng": 121.47032165527344
+    },
+    {
+      "id": "36812197",
+      "tileScore": 17,
+      "name": "PUSH！归家榨干的最后一弯！",
+      "distanceM": 1198.9000244140625,
+      "avgGrade": 0.016681959852576256,
+      "startLat": 31.323360443115234,
+      "startLng": 121.47089385986328
+    },
+    {
+      "id": "32724531",
+      "tileScore": 2,
+      "name": "乌漆嘛黑",
+      "distanceM": 24503.5,
+      "avgGrade": 0.026118718087673187,
+      "startLat": 31.306806564331055,
+      "startLng": 121.4298324584961
+    },
+    {
+      "id": "38199770",
+      "tileScore": 9,
+      "name": "Joseph-Louis Lagrange bridge (太平洋西岸最陡坡)",
+      "distanceM": 797.0999755859375,
+      "avgGrade": 0.03763643279671669,
+      "startLat": 31.3483943939209,
+      "startLng": 121.42976379394531
+    }
+  ]
+}

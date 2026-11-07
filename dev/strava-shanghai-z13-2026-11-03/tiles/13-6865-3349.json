@@ -1,0 +1,83 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-03T06:08:09.571Z",
+  "tile": {
+    "z": 13,
+    "x": 6865,
+    "y": 3349
+  },
+  "segments": [
+    {
+      "id": "39320505",
+      "tileScore": 4,
+      "name": "川沙路（航程路-川周公路）",
+      "distanceM": 3512.800048828125,
+      "avgGrade": 0.025620587170124054,
+      "startLat": 31.147180557250977,
+      "startLng": 121.7106704711914
+    },
+    {
+      "id": "27401582",
+      "tileScore": 8,
+      "name": "DP Airport Loop part 1",
+      "distanceM": 38720,
+      "avgGrade": 0.004648760426789522,
+      "startLat": 31.236400604248047,
+      "startLng": 121.59383392333984
+    },
+    {
+      "id": "18356972",
+      "tileScore": 5,
+      "name": "This is clear, oh yeah!",
+      "distanceM": 1864.5,
+      "avgGrade": -0.08581388741731644,
+      "startLat": 31.14784049987793,
+      "startLng": 121.68927001953125
+    },
+    {
+      "id": "8618151",
+      "tileScore": 3,
+      "name": "Nan Liu hwy (North)",
+      "distanceM": 4443.89990234375,
+      "avgGrade": 0.004500551149249077,
+      "startLat": 31.161495208740234,
+      "startLng": 121.68714141845703
+    },
+    {
+      "id": "34411159",
+      "tileScore": 1,
+      "name": "Puxin Lu South",
+      "distanceM": 5139.39990234375,
+      "avgGrade": 0.031132038682699203,
+      "startLat": 31.14849853515625,
+      "startLng": 121.72673034667969
+    },
+    {
+      "id": "35241819",
+      "tileScore": 15,
+      "name": "大川快到飞起",
+      "distanceM": 9046.7001953125,
+      "avgGrade": -0.017686007544398308,
+      "startLat": 31.07391929626465,
+      "startLng": 121.73094940185547
+    },
+    {
+      "id": "38520605",
+      "tileScore": 2,
+      "name": "7公里热身",
+      "distanceM": 6655.5,
+      "avgGrade": -0.006010066717863083,
+      "startLat": 31.14158058166504,
+      "startLng": 121.74400329589844
+    },
+    {
+      "id": "38823487",
+      "tileScore": 21,
+      "name": "航城中路（凌空路-川沙路）",
+      "distanceM": 2532.60009765625,
+      "avgGrade": -0.03553660213947296,
+      "startLat": 31.153610229492188,
+      "startLng": 121.73607635498047
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-03T05:59:21.308Z",
+  "tile": {
+    "z": 13,
+    "x": 6849,
+    "y": 3332
+  },
+  "segments": [
+    {
+      "id": "35139042",
+      "tileScore": 7,
+      "name": "苏通江堤路",
+      "distanceM": 1024.9000244140625,
+      "avgGrade": -0.07805639505386353,
+      "startLat": 31.8004207611084,
+      "startLng": 120.98734283447266
+    }
+  ]
+}

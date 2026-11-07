@@ -1,0 +1,92 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-03T06:07:53.512Z",
+  "tile": {
+    "z": 13,
+    "x": 6846,
+    "y": 3347
+  },
+  "segments": [
+    {
+      "id": "15577781",
+      "tileScore": 8,
+      "name": "X201 from ZZZ to police station",
+      "distanceM": 3995.199951171875,
+      "avgGrade": 0.055066078901290894,
+      "startLat": 31.24496841430664,
+      "startLng": 120.86589050292969
+    },
+    {
+      "id": "40161886",
+      "tileScore": 2,
+      "name": "ChengHu Sprint",
+      "distanceM": 1199.5999755859375,
+      "avgGrade": -0.03334444761276245,
+      "startLat": 31.209611892700195,
+      "startLng": 120.8638687133789
+    },
+    {
+      "id": "3361140",
+      "tileScore": 1,
+      "name": "south loop downwards",
+      "distanceM": 35844.05078125,
+      "avgGrade": 0.017297128215432167,
+      "startLat": 31.268798828125,
+      "startLng": 120.81695556640625
+    },
+    {
+      "id": "13546442",
+      "tileScore": 1,
+      "name": "Jinbo Rd (Westbound)",
+      "distanceM": 2729.10009765625,
+      "avgGrade": 0.05129896476864815,
+      "startLat": 31.205623626708984,
+      "startLng": 120.88032531738281
+    },
+    {
+      "id": "12962864",
+      "tileScore": 5,
+      "name": "Connector to Jinzhou Rd (Southbound)",
+      "distanceM": 2348,
+      "avgGrade": -0.04258943721652031,
+      "startLat": 31.206462860107422,
+      "startLng": 120.86015319824219
+    },
+    {
+      "id": "32737302",
+      "tileScore": 7,
+      "name": "Sprint to the water stop shop",
+      "distanceM": 1183.800048828125,
+      "avgGrade": -0.01689474657177925,
+      "startLat": 31.23703384399414,
+      "startLng": 120.86858367919922
+    },
+    {
+      "id": "40405020",
+      "tileScore": 9,
+      "name": "澄湖训练",
+      "distanceM": 15113,
+      "avgGrade": -0.007940184324979782,
+      "startLat": 31.244274139404297,
+      "startLng": 120.86615753173828
+    },
+    {
+      "id": "24864276",
+      "tileScore": 9,
+      "name": "X205 North Bound Till Y-cross",
+      "distanceM": 9454.2001953125,
+      "avgGrade": 0.027501003816723824,
+      "startLat": 31.198413848876953,
+      "startLng": 120.88581085205078
+    },
+    {
+      "id": "40537521",
+      "tileScore": 5,
+      "name": "环澄湖",
+      "distanceM": 43049.19921875,
+      "avgGrade": 0.012543787248432636,
+      "startLat": 31.252605438232422,
+      "startLng": 120.79975891113281
+    }
+  ]
+}

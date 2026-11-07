@@ -1,0 +1,119 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-03T06:07:50.295Z",
+  "tile": {
+    "z": 13,
+    "x": 6852,
+    "y": 3348
+  },
+  "segments": [
+    {
+      "id": "38714662",
+      "tileScore": 15,
+      "name": "许家堰乡间好路",
+      "distanceM": 2650,
+      "avgGrade": 0.06792452931404114,
+      "startLat": 31.21702766418457,
+      "startLng": 121.15325164794922
+    },
+    {
+      "id": "36721237",
+      "tileScore": 22,
+      "name": "SHA: Songze Rd, 1st bridge after Dianshan lake, 0.6km",
+      "distanceM": 659.4000244140625,
+      "avgGrade": 0,
+      "startLat": 31.176570892333984,
+      "startLng": 121.15419006347656
+    },
+    {
+      "id": "36962149",
+      "tileScore": 51,
+      "name": "蟠龙天地走到底",
+      "distanceM": 18617.099609375,
+      "avgGrade": -0.021485622972249985,
+      "startLat": 31.188560485839844,
+      "startLng": 121.2720718383789
+    },
+    {
+      "id": "33131059",
+      "tileScore": 3,
+      "name": "Tech Loop S+L",
+      "distanceM": 20361.69921875,
+      "avgGrade": 0.021609198302030563,
+      "startLat": 31.235458374023438,
+      "startLng": 121.1602783203125
+    },
+    {
+      "id": "27310647",
+      "tileScore": 6,
+      "name": "Shanghai Tour de France 上海环法 - Longwy-Lille",
+      "distanceM": 7654.2998046875,
+      "avgGrade": 0.014371007680892944,
+      "startLat": 31.19185447692871,
+      "startLng": 121.17996215820312
+    },
+    {
+      "id": "40318658",
+      "tileScore": 4,
+      "name": "SHA: Dianshan Lake - Songze Rd (channel path), 21km",
+      "distanceM": 21030.5,
+      "avgGrade": -0.001901999581605196,
+      "startLat": 31.148513793945312,
+      "startLng": 120.99622344970703
+    },
+    {
+      "id": "30744541",
+      "tileScore": 2,
+      "name": "Last effort after lake ",
+      "distanceM": 5985.7998046875,
+      "avgGrade": 0.006682481616735458,
+      "startLat": 31.201217651367188,
+      "startLng": 121.07657623291016
+    },
+    {
+      "id": "38647983",
+      "tileScore": 5,
+      "name": "XiangyangheRd Northbound",
+      "distanceM": 2152.89990234375,
+      "avgGrade": 0.03715917840600014,
+      "startLat": 31.20206069946289,
+      "startLng": 121.132080078125
+    },
+    {
+      "id": "27327757",
+      "tileScore": 8,
+      "name": "Shanghai Tour de France 上海环法 - Full Tour (100km)",
+      "distanceM": 100065.796875,
+      "avgGrade": 0.002498356159776449,
+      "startLat": 31.153793334960938,
+      "startLng": 121.20298767089844
+    },
+    {
+      "id": "26620388",
+      "tileScore": 4,
+      "name": "qingpu to strawberry fields",
+      "distanceM": 8105.39990234375,
+      "avgGrade": 0.049349818378686905,
+      "startLat": 31.177356719970703,
+      "startLng": 121.116943359375
+    },
+    {
+      "id": "40318600",
+      "tileScore": 2,
+      "name": "SHA: Qingpu Red Carpet (lane along the river to Huijin Rd), 3.7km ",
+      "distanceM": 3618.10009765625,
+      "avgGrade": -0.0386943444609642,
+      "startLat": 31.167478561401367,
+      "startLng": 121.1106185913086
+    },
+    {
+      "id": "32729627",
+      "tileScore": 6,
+      "name": "Back to Light",
+      "distanceM": 1368.800048828125,
+      "avgGrade": 0.029222676530480385,
+      "startLat": 31.20109748840332,
+      "startLng": 121.13997650146484
+    }
+  ]
+}

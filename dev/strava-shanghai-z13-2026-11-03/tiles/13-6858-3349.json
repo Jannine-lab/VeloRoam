@@ -1,0 +1,299 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-03T05:35:42.086Z",
+  "tile": {
+    "z": 13,
+    "x": 6858,
+    "y": 3349
+  },
+  "segments": [
+    {
+      "id": "18736785",
+      "tileScore": 3,
+      "name": "摩天轮弯",
+      "distanceM": 797.7999877929688,
+      "avgGrade": -0.07520681619644165,
+      "startLat": 31.138402938842773,
+      "startLng": 121.39871215820312
+    },
+    {
+      "id": "39219946",
+      "tileScore": 14,
+      "name": "沪闵路淀浦河桥",
+      "distanceM": 656.9000244140625,
+      "avgGrade": 0.060892071574926376,
+      "startLat": 31.131990432739258,
+      "startLng": 121.39573669433594
+    },
+    {
+      "id": "30564546",
+      "tileScore": 3,
+      "name": "FMG-23",
+      "distanceM": 35947.6015625,
+      "avgGrade": 0.02837463468313217,
+      "startLat": 31.019447326660156,
+      "startLng": 121.3215560913086
+    },
+    {
+      "id": "30251966",
+      "tileScore": 1,
+      "name": "漕宝路电瓶车真多",
+      "distanceM": 1368.4000244140625,
+      "avgGrade": -0.029231218621134758,
+      "startLat": 31.163755416870117,
+      "startLng": 121.39698028564453
+    },
+    {
+      "id": "36379800",
+      "tileScore": 26,
+      "name": "Sprint at 35 for the next green light",
+      "distanceM": 1568.5,
+      "avgGrade": 0,
+      "startLat": 31.154624938964844,
+      "startLng": 121.41928100585938
+    },
+    {
+      "id": "15735849",
+      "tileScore": 2,
+      "name": "Hongxin Lu x Dianpu He bridge (Southbound)",
+      "distanceM": 785.7999877929688,
+      "avgGrade": 0,
+      "startLat": 31.132587432861328,
+      "startLng": 121.3788070678711
+    },
+    {
+      "id": "13001633",
+      "tileScore": 17,
+      "name": "Humin Road (2km)",
+      "distanceM": 2055.60009765625,
+      "avgGrade": 0.009729519486427307,
+      "startLat": 31.135595321655273,
+      "startLng": 121.4000473022461
+    },
+    {
+      "id": "36885573",
+      "tileScore": 5,
+      "name": "午休骑行2号线",
+      "distanceM": 1140.0999755859375,
+      "avgGrade": 0.017542321234941483,
+      "startLat": 31.16352653503418,
+      "startLng": 121.3864517211914
+    },
+    {
+      "id": "15606974",
+      "tileScore": 4,
+      "name": "Longming southbound",
+      "distanceM": 6817,
+      "avgGrade": -0.008801525458693504,
+      "startLat": 31.186445236206055,
+      "startLng": 121.3686294555664
+    },
+    {
+      "id": "35304245",
+      "tileScore": 16,
+      "name": "Wan Yuan Yu Xi Lap",
+      "distanceM": 1465.9000244140625,
+      "avgGrade": 0.013643495738506317,
+      "startLat": 31.14581871032715,
+      "startLng": 121.38601684570312
+    },
+    {
+      "id": "6157088",
+      "tileScore": 3,
+      "name": "Caohejing Hi-Tech Park - Guiqing Rd (Southbound)",
+      "distanceM": 910.2999877929688,
+      "avgGrade": 0.6261671781539917,
+      "startLat": 31.173786163330078,
+      "startLng": 121.4009780883789
+    },
+    {
+      "id": "14717672",
+      "tileScore": 5,
+      "name": "Humin Rabbit Hole",
+      "distanceM": 364.20001220703125,
+      "avgGrade": -0.8511806726455688,
+      "startLat": 31.14055061340332,
+      "startLng": 121.4083023071289
+    },
+    {
+      "id": "16317617",
+      "tileScore": 2,
+      "name": "Minhang Triangle Circuit",
+      "distanceM": 20807.099609375,
+      "avgGrade": 0.03171994164586067,
+      "startLat": 31.16872787475586,
+      "startLng": 121.429443359375
+    },
+    {
+      "id": "29856728",
+      "tileScore": 12,
+      "name": "Guijiang Rd Parkside Sprint",
+      "distanceM": 933.5999755859375,
+      "avgGrade": 0.03213367611169815,
+      "startLat": 31.156978607177734,
+      "startLng": 121.4026107788086
+    },
+    {
+      "id": "39173188",
+      "tileScore": 1,
+      "name": "小龙虾后顾戴路休闲骑",
+      "distanceM": 4376.2001953125,
+      "avgGrade": -0.05484209954738617,
+      "startLat": 31.131025314331055,
+      "startLng": 121.35256958007812
+    },
+    {
+      "id": "5630841",
+      "tileScore": 2,
+      "name": "Caobao Rd (Westbound)",
+      "distanceM": 8238.900390625,
+      "avgGrade": -0.018206315115094185,
+      "startLat": 31.170284271240234,
+      "startLng": 121.42921447753906
+    },
+    {
+      "id": "11881788",
+      "tileScore": 4,
+      "name": "Guilin to Guiping",
+      "distanceM": 1032,
+      "avgGrade": -0.11627906560897827,
+      "startLat": 31.168577194213867,
+      "startLng": 121.41334533691406
+    },
+    {
+      "id": "21322636",
+      "tileScore": 9,
+      "name": "Lianhua Rd Gudai Rd to Caobao Rd (Northbound)",
+      "distanceM": 1893.9000244140625,
+      "avgGrade": -0.11616241931915283,
+      "startLat": 31.145204544067383,
+      "startLng": 121.39549255371094
+    },
+    {
+      "id": "7384300",
+      "tileScore": 27,
+      "name": "Laohumin Rd x Railway Underpass (Southbound)",
+      "distanceM": 452.3999938964844,
+      "avgGrade": -0.28735631704330444,
+      "startLat": 31.153425216674805,
+      "startLng": 121.41988372802734
+    },
+    {
+      "id": "37744682",
+      "tileScore": 9,
+      "name": "打螺丝通勤也能刷KOM",
+      "distanceM": 766.2999877929688,
+      "avgGrade": -0.18269607424736023,
+      "startLat": 31.16393280029297,
+      "startLng": 121.39967346191406
+    },
+    {
+      "id": "21322644",
+      "tileScore": 5,
+      "name": "Lianhua Rd Caobao Rd to Yishan Rd (Northbound)",
+      "distanceM": 971.0999755859375,
+      "avgGrade": -0.11327361315488815,
+      "startLat": 31.161317825317383,
+      "startLng": 121.39014434814453
+    },
+    {
+      "id": "14717706",
+      "tileScore": 2,
+      "name": "Humin -> Caobao",
+      "distanceM": 1496.699951171875,
+      "avgGrade": -0.30066144466400146,
+      "startLat": 31.154951095581055,
+      "startLng": 121.4188461303711
+    },
+    {
+      "id": "40266405",
+      "tileScore": 6,
+      "name": "Wanyuan",
+      "distanceM": 735.0999755859375,
+      "avgGrade": 0.05441436544060707,
+      "startLat": 31.15265464782715,
+      "startLng": 121.39163970947266
+    },
+    {
+      "id": "12992218",
+      "tileScore": 16,
+      "name": "Lianhua Lu/Humin Lu underpass (southbound)",
+      "distanceM": 303,
+      "avgGrade": -0.09900990128517151,
+      "startLat": 31.135366439819336,
+      "startLng": 121.3996353149414
+    },
+    {
+      "id": "15735874",
+      "tileScore": 4,
+      "name": "Longming Lu x Dianpu He bridge (northbound)",
+      "distanceM": 565.0999755859375,
+      "avgGrade": -0.21235179901123047,
+      "startLat": 31.12778663635254,
+      "startLng": 121.38578796386719
+    },
+    {
+      "id": "30304242",
+      "tileScore": 4,
+      "name": "Rd. HeChuan (PingNan-CaoBao)",
+      "distanceM": 675.5,
+      "avgGrade": -0.059215396642684937,
+      "startLat": 31.152830123901367,
+      "startLng": 121.38431549072266
+    },
+    {
+      "id": "7155576",
+      "tileScore": 3,
+      "name": "Jiang'an Rd (Eastbound)",
+      "distanceM": 703.5999755859375,
+      "avgGrade": 0.19897669553756714,
+      "startLat": 31.14864730834961,
+      "startLng": 121.40492248535156
+    },
+    {
+      "id": "30082420",
+      "tileScore": 4,
+      "name": "TT-03",
+      "distanceM": 7024.2001953125,
+      "avgGrade": -0.005694598890841007,
+      "startLat": 31.211637496948242,
+      "startLng": 121.39579772949219
+    },
+    {
+      "id": "14717649",
+      "tileScore": 6,
+      "name": "Fury Road South",
+      "distanceM": 389.5,
+      "avgGrade": 0.15404364466667175,
+      "startLat": 31.13047218322754,
+      "startLng": 121.41577911376953
+    },
+    {
+      "id": "16661699",
+      "tileScore": 10,
+      "name": "the Li'an Lump - westbound",
+      "distanceM": 824,
+      "avgGrade": -0.16990290582180023,
+      "startLat": 31.135879516601562,
+      "startLng": 121.3770523071289
+    },
+    {
+      "id": "20014980",
+      "tileScore": 3,
+      "name": "Hechuan Lu (northbound)",
+      "distanceM": 6394.39990234375,
+      "avgGrade": -0.06568247079849243,
+      "startLat": 31.13213539123535,
+      "startLng": 121.3893814086914
+    },
+    {
+      "id": "18626945",
+      "tileScore": 2,
+      "name": "Lianhua Nan Lu from Humin Lu",
+      "distanceM": 4720.7001953125,
+      "avgGrade": -0.05719490721821785,
+      "startLat": 31.13558006286621,
+      "startLng": 121.39970397949219
+    }
+  ]
+}

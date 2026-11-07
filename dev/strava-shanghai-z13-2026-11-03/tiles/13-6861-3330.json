@@ -1,0 +1,20 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-03T05:57:53.393Z",
+  "tile": {
+    "z": 13,
+    "x": 6861,
+    "y": 3330
+  },
+  "segments": [
+    {
+      "id": "35713376",
+      "tileScore": 19,
+      "name": "这里掉队",
+      "distanceM": 18451.599609375,
+      "avgGrade": -0.008671334944665432,
+      "startLat": 32.008182525634766,
+      "startLng": 121.57959747314453
+    }
+  ]
+}

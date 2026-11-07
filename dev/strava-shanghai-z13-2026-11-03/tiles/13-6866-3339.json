@@ -1,0 +1,38 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-03T06:03:10.420Z",
+  "tile": {
+    "z": 13,
+    "x": 6866,
+    "y": 3339
+  },
+  "segments": [
+    {
+      "id": "1667233",
+      "tileScore": 1,
+      "name": "Chongming short 2",
+      "distanceM": 39860.80078125,
+      "avgGrade": -0.008027937263250351,
+      "startLat": 31.660154342651367,
+      "startLng": 121.40385437011719
+    },
+    {
+      "id": "33028034",
+      "tileScore": 4,
+      "name": "Chenhai Hwy (S128 - Buzhen to Chenjia)",
+      "distanceM": 17929.80078125,
+      "avgGrade": 0.005577307194471359,
+      "startLat": 31.563770294189453,
+      "startLng": 121.63473510742188
+    },
+    {
+      "id": "28005476",
+      "tileScore": 2,
+      "name": "20210411环崇明岛100公里组",
+      "distanceM": 97375,
+      "avgGrade": 0.006161745637655258,
+      "startLat": 31.4849796295166,
+      "startLng": 121.8353042602539
+    }
+  ]
+}

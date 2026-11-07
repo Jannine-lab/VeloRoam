@@ -1,0 +1,74 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-03T06:06:37.591Z",
+  "tile": {
+    "z": 13,
+    "x": 6850,
+    "y": 3343
+  },
+  "segments": [
+    {
+      "id": "14279176",
+      "tileScore": 1,
+      "name": "Kunjia Rd x Xiajia River Bridge (Westbound)",
+      "distanceM": 390.3999938964844,
+      "avgGrade": 0.9733605980873108,
+      "startLat": 31.365581512451172,
+      "startLng": 121.04283905029297
+    },
+    {
+      "id": "33036099",
+      "tileScore": 2,
+      "name": "景王路东行",
+      "distanceM": 1704.800048828125,
+      "avgGrade": 0.08212106674909592,
+      "startLat": 31.371490478515625,
+      "startLng": 121.00720977783203
+    },
+    {
+      "id": "41112384",
+      "tileScore": 11,
+      "name": "昆山东城大道西面世茂段",
+      "distanceM": 1360.699951171875,
+      "avgGrade": -0.07349158078432083,
+      "startLat": 31.384437561035156,
+      "startLng": 121.05403137207031
+    },
+    {
+      "id": "14284788",
+      "tileScore": 1,
+      "name": "X104 (Westbound)",
+      "distanceM": 15180.7001953125,
+      "avgGrade": 0.026349246501922607,
+      "startLat": 31.381698608398438,
+      "startLng": 121.14749145507812
+    },
+    {
+      "id": "33132614",
+      "tileScore": 1,
+      "name": "jingwang ",
+      "distanceM": 4184.2998046875,
+      "avgGrade": -0.038238175213336945,
+      "startLat": 31.372243881225586,
+      "startLng": 121.09803771972656
+    },
+    {
+      "id": "34941990",
+      "tileScore": 3,
+      "name": "千岛湖路",
+      "distanceM": 738.7000122070312,
+      "avgGrade": -0.10829835385084152,
+      "startLat": 31.375274658203125,
+      "startLng": 121.03996276855469
+    },
+    {
+      "id": "14279121",
+      "tileScore": 5,
+      "name": "Qianjin E Rd (Eastbound)",
+      "distanceM": 5664,
+      "avgGrade": 0.07768362015485764,
+      "startLat": 31.385854721069336,
+      "startLng": 121.03207397460938
+    }
+  ]
+}

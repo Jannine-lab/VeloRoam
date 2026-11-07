@@ -1,0 +1,218 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-03T06:07:35.599Z",
+  "tile": {
+    "z": 13,
+    "x": 6862,
+    "y": 3348
+  },
+  "segments": [
+    {
+      "id": "28094335",
+      "tileScore": 3,
+      "name": "____DP_V2.x_______",
+      "distanceM": 28802.900390625,
+      "avgGrade": -0.01735936477780342,
+      "startLat": 31.197185516357422,
+      "startLng": 121.53400421142578
+    },
+    {
+      "id": "5758417",
+      "tileScore": 320,
+      "name": "Maglev - North (end of the ride)",
+      "distanceM": 1869.5,
+      "avgGrade": -0.09628242999315262,
+      "startLat": 31.163257598876953,
+      "startLng": 121.602294921875
+    },
+    {
+      "id": "18858210",
+      "tileScore": 1,
+      "name": "Hunan Road. From Outer-Circle to Inner-Circle",
+      "distanceM": 6240.2001953125,
+      "avgGrade": -0.060895487666130066,
+      "startLat": 31.147384643554688,
+      "startLng": 121.5632553100586
+    },
+    {
+      "id": "5709790",
+      "tileScore": 10,
+      "name": "Gaoke West Rd From Nanmatou Rd To Luoshan Rd",
+      "distanceM": 6208.89990234375,
+      "avgGrade": -0.008052956312894821,
+      "startLat": 31.188840866088867,
+      "startLng": 121.51026916503906
+    },
+    {
+      "id": "37056448",
+      "tileScore": 18,
+      "name": "龙阳 096 Sprint",
+      "distanceM": 647.5,
+      "avgGrade": -0.061776064336299896,
+      "startLat": 31.19969367980957,
+      "startLng": 121.55278778076172
+    },
+    {
+      "id": "28709609",
+      "tileScore": 5,
+      "name": "Chewbacca Bridge",
+      "distanceM": 357,
+      "avgGrade": 1.372549057006836,
+      "startLat": 31.18312644958496,
+      "startLng": 121.58882141113281
+    },
+    {
+      "id": "42079725",
+      "tileScore": 3,
+      "name": "Markus Bruengger (R.I.P. | G.O.A.T.) Memory Ride",
+      "distanceM": 64397.30078125,
+      "avgGrade": -0.006522012874484062,
+      "startLat": 31.224090576171875,
+      "startLng": 121.55386352539062
+    },
+    {
+      "id": "27480936",
+      "tileScore": 16,
+      "name": "ShanghaiTech Loop",
+      "distanceM": 3645.5,
+      "avgGrade": -0.0027431079652160406,
+      "startLat": 31.18259048461914,
+      "startLng": 121.58906555175781
+    },
+    {
+      "id": "6584860",
+      "tileScore": 16,
+      "name": "keyuan rd",
+      "distanceM": 4792.39990234375,
+      "avgGrade": 0.004173274151980877,
+      "startLat": 31.211645126342773,
+      "startLng": 121.58375549316406
+    },
+    {
+      "id": "2534843",
+      "tileScore": 14,
+      "name": "Jinke Road",
+      "distanceM": 4446.01318359375,
+      "avgGrade": 0.024741340428590775,
+      "startLat": 31.177852630615234,
+      "startLng": 121.59830474853516
+    },
+    {
+      "id": "13011992",
+      "tileScore": 2,
+      "name": "Jinqiao to Disney and back",
+      "distanceM": 42188.80078125,
+      "avgGrade": 0.00521465390920639,
+      "startLat": 31.235240936279297,
+      "startLng": 121.5843734741211
+    },
+    {
+      "id": "39448381",
+      "tileScore": 15,
+      "name": "Lianxi Bridge (南-北）",
+      "distanceM": 604.5,
+      "avgGrade": 0.26468154788017273,
+      "startLat": 31.17624855041504,
+      "startLng": 121.55982208251953
+    },
+    {
+      "id": "8043275",
+      "tileScore": 11,
+      "name": "Chenhui Rd Westward",
+      "distanceM": 1569.5999755859375,
+      "avgGrade": 0.038226302713155746,
+      "startLat": 31.20206069946289,
+      "startLng": 121.59093475341797
+    },
+    {
+      "id": "38620961",
+      "tileScore": 11,
+      "name": "龙阳 007 R",
+      "distanceM": 2453.5,
+      "avgGrade": 0.03260647878050804,
+      "startLat": 31.20631217956543,
+      "startLng": 121.56120300292969
+    },
+    {
+      "id": "32878312",
+      "tileScore": 7,
+      "name": "West Gaoke Rd sprint",
+      "distanceM": 561.2999877929688,
+      "avgGrade": -0.6057366728782654,
+      "startLat": 31.19491195678711,
+      "startLng": 121.57278442382812
+    },
+    {
+      "id": "40266971",
+      "tileScore": 16,
+      "name": "罗山路桥",
+      "distanceM": 707.2999877929688,
+      "avgGrade": 0,
+      "startLat": 31.186756134033203,
+      "startLng": 121.57624053955078
+    },
+    {
+      "id": "12188644",
+      "tileScore": 12,
+      "name": "Luoshan from Zhangheng to Gaoke",
+      "distanceM": 864.2000122070312,
+      "avgGrade": -0.057856976985931396,
+      "startLat": 31.18805694580078,
+      "startLng": 121.57652282714844
+    },
+    {
+      "id": "27401582",
+      "tileScore": 8,
+      "name": "DP Airport Loop part 1",
+      "distanceM": 38720,
+      "avgGrade": 0.004648760426789522,
+      "startLat": 31.236400604248047,
+      "startLng": 121.59383392333984
+    },
+    {
+      "id": "34999557",
+      "tileScore": 5,
+      "name": "沪南公路（航头～浦东图书馆）",
+      "distanceM": 19467.30078125,
+      "avgGrade": -0.0020547276362776756,
+      "startLat": 31.029277801513672,
+      "startLng": 121.59368896484375
+    },
+    {
+      "id": "35764983",
+      "tileScore": 17,
+      "name": "中环 095",
+      "distanceM": 1977.9000244140625,
+      "avgGrade": 0.050558675080537796,
+      "startLat": 31.17138671875,
+      "startLng": 121.58033752441406
+    },
+    {
+      "id": "20304993",
+      "tileScore": 11,
+      "name": "Yaolong & Huaxia Hot Blast",
+      "distanceM": 29317,
+      "avgGrade": -0.008527475409209728,
+      "startLat": 31.14801597595215,
+      "startLng": 121.47225952148438
+    },
+    {
+      "id": "6964872",
+      "tileScore": 14,
+      "name": "Gaoke West 1k",
+      "distanceM": 1000.9000244140625,
+      "avgGrade": -0.21980218589305878,
+      "startLat": 31.200281143188477,
+      "startLng": 121.59622955322266
+    },
+    {
+      "id": "41548085",
+      "tileScore": 45,
+      "name": "川集桥南",
+      "distanceM": 510.29998779296875,
+      "avgGrade": 0.5486968159675598,
+      "startLat": 31.187936782836914,
+      "startLng": 121.57878875732422
+    }
+  ]
+}

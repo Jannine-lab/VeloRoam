@@ -1,0 +1,20 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-03T06:13:16.455Z",
+  "tile": {
+    "z": 13,
+    "x": 6855,
+    "y": 3360
+  },
+  "segments": [
+    {
+      "id": "34977040",
+      "tileScore": 1,
+      "name": "N Jinshi Rd towards Hangpu Expwy - Southbound",
+      "distanceM": 10989.2001953125,
+      "avgGrade": 0,
+      "startLat": 30.816713333129883,
+      "startLng": 121.22174835205078
+    }
+  ]
+}

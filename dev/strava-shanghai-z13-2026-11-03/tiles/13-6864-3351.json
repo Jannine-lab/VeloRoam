@@ -1,0 +1,146 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-03T06:09:17.833Z",
+  "tile": {
+    "z": 13,
+    "x": 6864,
+    "y": 3351
+  },
+  "segments": [
+    {
+      "id": "36746285",
+      "tileScore": 310,
+      "name": "绿色闪电的噩梦",
+      "distanceM": 12236.7998046875,
+      "avgGrade": -0.03595711290836334,
+      "startLat": 31.0694522857666,
+      "startLng": 121.64400482177734
+    },
+    {
+      "id": "8182363",
+      "tileScore": 13,
+      "name": "New road heading west off Shenjiang",
+      "distanceM": 4917.60009765625,
+      "avgGrade": -0.040670245885849,
+      "startLat": 31.069711685180664,
+      "startLng": 121.64122772216797
+    },
+    {
+      "id": "40273772",
+      "tileScore": 12,
+      "name": "大直路回家",
+      "distanceM": 6341.2998046875,
+      "avgGrade": 0.0031539276242256165,
+      "startLat": 31.07023811340332,
+      "startLng": 121.68597412109375
+    },
+    {
+      "id": "39694774",
+      "tileScore": 147,
+      "name": "以太在这里燃尽",
+      "distanceM": 1154,
+      "avgGrade": -0.10398613661527634,
+      "startLat": 31.051908493041992,
+      "startLng": 121.64505004882812
+    },
+    {
+      "id": "39212463",
+      "tileScore": 14,
+      "name": "下盐路 两港到申江南路",
+      "distanceM": 18822.099609375,
+      "avgGrade": 0.017001289874315262,
+      "startLat": 31.0772762298584,
+      "startLng": 121.83916473388672
+    },
+    {
+      "id": "35927579",
+      "tileScore": 4,
+      "name": "金桥-滴水湖-云山路绕圈",
+      "distanceM": 150058.90625,
+      "avgGrade": 0.0018659341149032116,
+      "startLat": 31.22467041015625,
+      "startLng": 121.62055969238281
+    },
+    {
+      "id": "13978777",
+      "tileScore": 149,
+      "name": "Get this on Xiayan lu !",
+      "distanceM": 779,
+      "avgGrade": 0.23106546700000763,
+      "startLat": 31.069351196289062,
+      "startLng": 121.66899871826172
+    },
+    {
+      "id": "36740493",
+      "tileScore": 15,
+      "name": "康新公路-申江南路",
+      "distanceM": 1000.5999755859375,
+      "avgGrade": 0.019988007843494415,
+      "startLat": 31.069963455200195,
+      "startLng": 121.63032531738281
+    },
+    {
+      "id": "8287017",
+      "tileScore": 231,
+      "name": "Shenjiang Sprint to the Arc",
+      "distanceM": 1842.9000244140625,
+      "avgGrade": 0,
+      "startLat": 31.086448669433594,
+      "startLng": 121.6422119140625
+    },
+    {
+      "id": "36740503",
+      "tileScore": 32,
+      "name": "申江南路-六奉公路",
+      "distanceM": 3999,
+      "avgGrade": -0.0450112521648407,
+      "startLat": 31.06942367553711,
+      "startLng": 121.64249420166016
+    },
+    {
+      "id": "35170184",
+      "tileScore": 8,
+      "name": "半个俄罗斯方块",
+      "distanceM": 26143.30078125,
+      "avgGrade": 0.011475215665996075,
+      "startLat": 31.18340492248535,
+      "startLng": 121.61776733398438
+    },
+    {
+      "id": "37740506",
+      "tileScore": 2,
+      "name": "六奉-下盐-申江-周邓-20公里环线",
+      "distanceM": 19860,
+      "avgGrade": -0.0015105740167200565,
+      "startLat": 31.125120162963867,
+      "startLng": 121.66925811767578
+    },
+    {
+      "id": "41945494",
+      "tileScore": 10,
+      "name": "Kangqiao Kicker",
+      "distanceM": 35387.6015625,
+      "avgGrade": -0.0022606789134442806,
+      "startLat": 31.137094497680664,
+      "startLng": 121.5704116821289
+    },
+    {
+      "id": "40267076",
+      "tileScore": 2,
+      "name": "孙桥蒋桥村村通",
+      "distanceM": 16826.19921875,
+      "avgGrade": -0.03090418502688408,
+      "startLat": 31.180830001831055,
+      "startLng": 121.63630676269531
+    },
+    {
+      "id": "32373051",
+      "tileScore": 98,
+      "name": "S. Shenjiang rd part 2",
+      "distanceM": 4288.10009765625,
+      "avgGrade": -0.032648492604494095,
+      "startLat": 31.070541381835938,
+      "startLng": 121.64200592041016
+    }
+  ]
+}

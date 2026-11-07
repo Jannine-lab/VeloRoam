@@ -1,0 +1,56 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-03T06:10:38.612Z",
+  "tile": {
+    "z": 13,
+    "x": 6863,
+    "y": 3353
+  },
+  "segments": [
+    {
+      "id": "38796148",
+      "tileScore": 13,
+      "name": "slanaC s'neevrehS fo k8",
+      "distanceM": 7686.7998046875,
+      "avgGrade": 0.026018628850579262,
+      "startLat": 31.017501831054688,
+      "startLng": 121.56170654296875
+    },
+    {
+      "id": "20305708",
+      "tileScore": 4,
+      "name": "大叶公路（六奉-沪杭）",
+      "distanceM": 25125.5,
+      "avgGrade": 0.023084117099642754,
+      "startLat": 30.988019943237305,
+      "startLng": 121.69689178466797
+    },
+    {
+      "id": "41031601",
+      "tileScore": 2,
+      "name": "Xinchang Gravel Segment 2",
+      "distanceM": 876.0999755859375,
+      "avgGrade": 0.0684853345155716,
+      "startLat": 31.015005111694336,
+      "startLng": 121.63004302978516
+    },
+    {
+      "id": "41031597",
+      "tileScore": 2,
+      "name": "Xinchang Gravel Segement1",
+      "distanceM": 1188.9000244140625,
+      "avgGrade": 0.15140044689178467,
+      "startLat": 31.01361846923828,
+      "startLng": 121.64176177978516
+    },
+    {
+      "id": "40767944",
+      "tileScore": 22,
+      "name": "大业公路",
+      "distanceM": 5153.39990234375,
+      "avgGrade": 0.019404664635658264,
+      "startLat": 30.9862117767334,
+      "startLng": 121.596435546875
+    }
+  ]
+}

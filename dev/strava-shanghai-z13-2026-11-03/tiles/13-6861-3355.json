@@ -1,0 +1,101 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-03T06:11:07.447Z",
+  "tile": {
+    "z": 13,
+    "x": 6861,
+    "y": 3355
+  },
+  "segments": [
+    {
+      "id": "20431164",
+      "tileScore": 5,
+      "name": "浦星公路长浜桥南坡",
+      "distanceM": 497.5,
+      "avgGrade": -0.8844221234321594,
+      "startLat": 30.908464431762695,
+      "startLng": 121.52140808105469
+    },
+    {
+      "id": "25403189",
+      "tileScore": 1,
+      "name": "Chasing the stripes",
+      "distanceM": 2752.199951171875,
+      "avgGrade": 0,
+      "startLat": 30.904748916625977,
+      "startLng": 121.52254486083984
+    },
+    {
+      "id": "27594645",
+      "tileScore": 4,
+      "name": "Bridge to Beach South Puxing Hwy",
+      "distanceM": 8736.400390625,
+      "avgGrade": -0.0274712685495615,
+      "startLat": 30.905433654785156,
+      "startLng": 121.5214614868164
+    },
+    {
+      "id": "21956209",
+      "tileScore": 1,
+      "name": "Extra Onions, No Pickles",
+      "distanceM": 3139.39990234375,
+      "avgGrade": -0.03822386637330055,
+      "startLat": 30.92207908630371,
+      "startLng": 121.52197265625
+    },
+    {
+      "id": "8362606",
+      "tileScore": 3,
+      "name": "Yanqian Highway South",
+      "distanceM": 18638.69921875,
+      "avgGrade": 0.009120807982981205,
+      "startLat": 31.005619049072266,
+      "startLng": 121.52973937988281
+    },
+    {
+      "id": "19419401",
+      "tileScore": 15,
+      "name": "Click, click, boom!",
+      "distanceM": 365.3999938964844,
+      "avgGrade": 1.6967706680297852,
+      "startLat": 30.91044807434082,
+      "startLng": 121.5532455444336
+    },
+    {
+      "id": "29966603",
+      "tileScore": 1,
+      "name": "G15跨线桥Y503",
+      "distanceM": 327.29998779296875,
+      "avgGrade": 1.4054384231567383,
+      "startLat": 30.915054321289062,
+      "startLng": 121.53067016601562
+    },
+    {
+      "id": "14202125",
+      "tileScore": 1,
+      "name": "Jinqian Hwy Southbound ",
+      "distanceM": 9644.2998046875,
+      "avgGrade": -0.006221291609108448,
+      "startLat": 30.979511260986328,
+      "startLng": 121.49703979492188
+    },
+    {
+      "id": "20936569",
+      "tileScore": 10,
+      "name": "S123-439 Rd",
+      "distanceM": 3539,
+      "avgGrade": 0.07346707582473755,
+      "startLat": 30.926910400390625,
+      "startLng": 121.55073547363281
+    },
+    {
+      "id": "27606421",
+      "tileScore": 7,
+      "name": "No bikes allowed",
+      "distanceM": 3010.300048828125,
+      "avgGrade": 0.006643855944275856,
+      "startLat": 30.922565460205078,
+      "startLng": 121.51988220214844
+    }
+  ]
+}

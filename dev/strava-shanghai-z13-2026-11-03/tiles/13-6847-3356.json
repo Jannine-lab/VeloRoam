@@ -1,0 +1,20 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-03T06:11:15.957Z",
+  "tile": {
+    "z": 13,
+    "x": 6847,
+    "y": 3356
+  },
+  "segments": [
+    {
+      "id": "18804703",
+      "tileScore": 11,
+      "name": "cd-黎里至嘉善",
+      "distanceM": 22661.599609375,
+      "avgGrade": -0.00441275117918849,
+      "startLat": 30.993980407714844,
+      "startLng": 120.7356948852539
+    }
+  ]
+}

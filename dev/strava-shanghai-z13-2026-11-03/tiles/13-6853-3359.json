@@ -1,0 +1,38 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-03T06:13:19.485Z",
+  "tile": {
+    "z": 13,
+    "x": 6853,
+    "y": 3359
+  },
+  "segments": [
+    {
+      "id": "39061274",
+      "tileScore": 5,
+      "name": "爱心520",
+      "distanceM": 52129.6015625,
+      "avgGrade": -0.01649734564125538,
+      "startLat": 30.710369110107422,
+      "startLng": 121.0606689453125
+    },
+    {
+      "id": "38769115",
+      "tileScore": 8,
+      "name": "Pinglang Hwy (Northbound)",
+      "distanceM": 5109,
+      "avgGrade": -0.019573302939534187,
+      "startLat": 30.743623733520508,
+      "startLng": 121.1964340209961
+    },
+    {
+      "id": "39258969",
+      "tileScore": 7,
+      "name": "检查站冲廊平公路拐点",
+      "distanceM": 10172,
+      "avgGrade": -0.005898545030504465,
+      "startLat": 30.833967208862305,
+      "startLng": 121.13034057617188
+    }
+  ]
+}

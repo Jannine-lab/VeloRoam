@@ -1,0 +1,92 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-03T06:10:53.347Z",
+  "tile": {
+    "z": 13,
+    "x": 6871,
+    "y": 3355
+  },
+  "segments": [
+    {
+      "id": "8369944",
+      "tileScore": 18,
+      "name": "Seawall In",
+      "distanceM": 8969.7998046875,
+      "avgGrade": -0.006689112167805433,
+      "startLat": 30.922943115234375,
+      "startLng": 121.97227478027344
+    },
+    {
+      "id": "37028426",
+      "tileScore": 13,
+      "name": "环湖三路",
+      "distanceM": 14374.900390625,
+      "avgGrade": 0.002782628173008561,
+      "startLat": 30.914714813232422,
+      "startLng": 121.92024230957031
+    },
+    {
+      "id": "40748964",
+      "tileScore": 2,
+      "name": "对面冲了你不冲?",
+      "distanceM": 1718,
+      "avgGrade": 0.1280558705329895,
+      "startLat": 30.91227912902832,
+      "startLng": 121.96385955810547
+    },
+    {
+      "id": "40079488",
+      "tileScore": 11,
+      "name": "环上海新城临港绕圈",
+      "distanceM": 10690.7998046875,
+      "avgGrade": 0,
+      "startLat": 30.88344955444336,
+      "startLng": 121.93659210205078
+    },
+    {
+      "id": "40748960",
+      "tileScore": 2,
+      "name": "河边小路冲起来",
+      "distanceM": 2133,
+      "avgGrade": 0.16877637803554535,
+      "startLat": 30.912885665893555,
+      "startLng": 121.96659088134766
+    },
+    {
+      "id": "33843563",
+      "tileScore": 16,
+      "name": "二路逆时针无人区冲冲冲",
+      "distanceM": 4082.39990234375,
+      "avgGrade": 0.004899078980088234,
+      "startLat": 30.89447021484375,
+      "startLng": 121.95452117919922
+    },
+    {
+      "id": "41364838",
+      "tileScore": 9,
+      "name": "临港大草原gravel 南进西出",
+      "distanceM": 7034.10009765625,
+      "avgGrade": -0.03980609029531479,
+      "startLat": 30.915082931518555,
+      "startLng": 121.95477294921875
+    },
+    {
+      "id": "29375073",
+      "tileScore": 9,
+      "name": "临港赛段",
+      "distanceM": 60189.80078125,
+      "avgGrade": 0.005316515453159809,
+      "startLat": 30.911985397338867,
+      "startLng": 121.93582153320312
+    },
+    {
+      "id": "10947488",
+      "tileScore": 110,
+      "name": "Clockwise Dishui Loop",
+      "distanceM": 8427,
+      "avgGrade": -0.014239942654967308,
+      "startLat": 30.89137840270996,
+      "startLng": 121.9266128540039
+    }
+  ]
+}

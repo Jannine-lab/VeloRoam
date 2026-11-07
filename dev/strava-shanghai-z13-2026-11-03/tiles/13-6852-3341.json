@@ -1,0 +1,47 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-03T06:04:22.078Z",
+  "tile": {
+    "z": 13,
+    "x": 6852,
+    "y": 3341
+  },
+  "segments": [
+    {
+      "id": "14312999",
+      "tileScore": 2,
+      "name": "Between two ferns",
+      "distanceM": 966.7999877929688,
+      "avgGrade": 0.0413736030459404,
+      "startLat": 31.465835571289062,
+      "startLng": 121.13314056396484
+    },
+    {
+      "id": "14313009",
+      "tileScore": 3,
+      "name": "Beautiful bike path sprint ",
+      "distanceM": 393.79998779296875,
+      "avgGrade": 0.10157440602779388,
+      "startLat": 31.466527938842773,
+      "startLng": 121.14443969726562
+    },
+    {
+      "id": "29046664",
+      "tileScore": 115,
+      "name": "天境湖",
+      "distanceM": 2585.5,
+      "avgGrade": -0.02320634387433529,
+      "startLat": 31.426605224609375,
+      "startLng": 121.12874603271484
+    },
+    {
+      "id": "39571644",
+      "tileScore": 9,
+      "name": "Home Sweet Home SlowDown",
+      "distanceM": 915,
+      "avgGrade": 0,
+      "startLat": 31.440242767333984,
+      "startLng": 121.13084411621094
+    }
+  ]
+}

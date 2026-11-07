@@ -1,0 +1,74 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-03T06:11:15.957Z",
+  "tile": {
+    "z": 13,
+    "x": 6849,
+    "y": 3355
+  },
+  "segments": [
+    {
+      "id": "12895357",
+      "tileScore": 2,
+      "name": "SH RACE Finish Sprint",
+      "distanceM": 336,
+      "avgGrade": -0.2976190447807312,
+      "startLat": 30.906038284301758,
+      "startLng": 121.02103424072266
+    },
+    {
+      "id": "37238591",
+      "tileScore": 6,
+      "name": "白牛塘绕圈",
+      "distanceM": 2395.199951171875,
+      "avgGrade": 0,
+      "startLat": 30.905990600585938,
+      "startLng": 121.02104949951172
+    },
+    {
+      "id": "40826436",
+      "tileScore": 9,
+      "name": "叶新公路沪浙界河",
+      "distanceM": 582.0999755859375,
+      "avgGrade": -0.3435835838317871,
+      "startLat": 30.935312271118164,
+      "startLng": 120.99239349365234
+    },
+    {
+      "id": "39359628",
+      "tileScore": 6,
+      "name": "叶新公路itt",
+      "distanceM": 4122.89990234375,
+      "avgGrade": 0.05821144953370094,
+      "startLat": 30.937625885009766,
+      "startLng": 121.01823425292969
+    },
+    {
+      "id": "34494314",
+      "tileScore": 4,
+      "name": "运河南段附近",
+      "distanceM": 5112.5,
+      "avgGrade": -0.003911980427801609,
+      "startLat": 30.938222885131836,
+      "startLng": 121.07270050048828
+    },
+    {
+      "id": "27855194",
+      "tileScore": 19,
+      "name": "叶新公路（朱枫-辰塔路口）",
+      "distanceM": 15753.099609375,
+      "avgGrade": 0,
+      "startLat": 30.93653678894043,
+      "startLng": 121.02174377441406
+    },
+    {
+      "id": "30716383",
+      "tileScore": 8,
+      "name": "顺时针 环松江 西段",
+      "distanceM": 17517.30078125,
+      "avgGrade": -0.0011417284840717912,
+      "startLat": 30.938447952270508,
+      "startLng": 121.01915740966797
+    }
+  ]
+}

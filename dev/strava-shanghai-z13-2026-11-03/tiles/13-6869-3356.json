@@ -1,0 +1,92 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-03T06:10:56.380Z",
+  "tile": {
+    "z": 13,
+    "x": 6869,
+    "y": 3356
+  },
+  "segments": [
+    {
+      "id": "35927579",
+      "tileScore": 4,
+      "name": "金桥-滴水湖-云山路绕圈",
+      "distanceM": 150058.90625,
+      "avgGrade": 0.0018659341149032116,
+      "startLat": 31.22467041015625,
+      "startLng": 121.62055969238281
+    },
+    {
+      "id": "34130885",
+      "tileScore": 34,
+      "name": "塘下公路 方竹路-芦潮港",
+      "distanceM": 4808.39990234375,
+      "avgGrade": -0.049912650138139725,
+      "startLat": 30.896577835083008,
+      "startLng": 121.87850952148438
+    },
+    {
+      "id": "39702243",
+      "tileScore": 3,
+      "name": "Tour de SHOU",
+      "distanceM": 2195.60009765625,
+      "avgGrade": 0,
+      "startLat": 30.888521194458008,
+      "startLng": 121.89156341552734
+    },
+    {
+      "id": "39158301",
+      "tileScore": 9,
+      "name": "上电南门冲刺",
+      "distanceM": 520.7000122070312,
+      "avgGrade": 0.15363933145999908,
+      "startLat": 30.901573181152344,
+      "startLng": 121.89230346679688
+    },
+    {
+      "id": "36709168",
+      "tileScore": 8,
+      "name": "滴水湖 098",
+      "distanceM": 1406,
+      "avgGrade": -0.02844950370490551,
+      "startLat": 30.896787643432617,
+      "startLng": 121.8952407836914
+    },
+    {
+      "id": "33174152",
+      "tileScore": 14,
+      "name": "塘下TT-NtoS",
+      "distanceM": 12146.400390625,
+      "avgGrade": -0.08891523629426956,
+      "startLat": 31.00676918029785,
+      "startLng": 121.87511444091797
+    },
+    {
+      "id": "34876366",
+      "tileScore": 11,
+      "name": "方竹路（西向东）",
+      "distanceM": 3055.199951171875,
+      "avgGrade": 0.13092432916164398,
+      "startLat": 30.896705627441406,
+      "startLng": 121.87902069091797
+    },
+    {
+      "id": "36918224",
+      "tileScore": 20,
+      "name": "塘下申港临团区间",
+      "distanceM": 1814.4000244140625,
+      "avgGrade": 0.09369488805532455,
+      "startLat": 30.9008731842041,
+      "startLng": 121.88082122802734
+    },
+    {
+      "id": "7431974",
+      "tileScore": 3,
+      "name": "TT lovers 2 Clockwise - Guaranted by Roberto",
+      "distanceM": 30336.900390625,
+      "avgGrade": 0.00032963158446364105,
+      "startLat": 31.04207992553711,
+      "startLng": 121.85521697998047
+    }
+  ]
+}

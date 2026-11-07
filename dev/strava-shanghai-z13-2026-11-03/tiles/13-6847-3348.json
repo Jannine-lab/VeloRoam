@@ -1,0 +1,119 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-03T06:07:53.512Z",
+  "tile": {
+    "z": 13,
+    "x": 6847,
+    "y": 3348
+  },
+  "segments": [
+    {
+      "id": "3361140",
+      "tileScore": 1,
+      "name": "south loop downwards",
+      "distanceM": 35844.05078125,
+      "avgGrade": 0.017297128215432167,
+      "startLat": 31.268798828125,
+      "startLng": 120.81695556640625
+    },
+    {
+      "id": "22093029",
+      "tileScore": 26,
+      "name": "X204 (923 Country Rd-X304)",
+      "distanceM": 4352.39990234375,
+      "avgGrade": 0.01838066428899765,
+      "startLat": 31.218381881713867,
+      "startLng": 120.92011260986328
+    },
+    {
+      "id": "22090862",
+      "tileScore": 1,
+      "name": "Jinxi shortcut (Southbound)",
+      "distanceM": 2879.89990234375,
+      "avgGrade": 0.0763915404677391,
+      "startLat": 31.17960548400879,
+      "startLng": 120.8876953125
+    },
+    {
+      "id": "3725446",
+      "tileScore": 21,
+      "name": "Dianshan Lake West and North",
+      "distanceM": 21665.25390625,
+      "avgGrade": -0.008308254182338715,
+      "startLat": 31.068464279174805,
+      "startLng": 120.91326141357422
+    },
+    {
+      "id": "10100081",
+      "tileScore": 15,
+      "name": "S224 from Dianshan Lake to Jindong Rd",
+      "distanceM": 4331.7998046875,
+      "avgGrade": -0.0230850912630558,
+      "startLat": 31.144947052001953,
+      "startLng": 120.92290496826172
+    },
+    {
+      "id": "7980188",
+      "tileScore": 18,
+      "name": "S224 Zhengwei Rd From Y710 To C862",
+      "distanceM": 2824.800048828125,
+      "avgGrade": -0.028320588171482086,
+      "startLat": 31.184885025024414,
+      "startLng": 120.92385864257812
+    },
+    {
+      "id": "38897849",
+      "tileScore": 1,
+      "name": "公制世纪 - KOM",
+      "distanceM": 101772.296875,
+      "avgGrade": -0.0031442742329090834,
+      "startLat": 31.17006492614746,
+      "startLng": 121.2751235961914
+    },
+    {
+      "id": "22092979",
+      "tileScore": 1,
+      "name": "X304 (X204-Nanxin Rd)",
+      "distanceM": 2420.89990234375,
+      "avgGrade": -0.008261390030384064,
+      "startLat": 31.181241989135742,
+      "startLng": 120.9111557006836
+    },
+    {
+      "id": "41798054",
+      "tileScore": 41,
+      "name": "Jinxi Avenue",
+      "distanceM": 2149.5,
+      "avgGrade": 0,
+      "startLat": 31.193525314331055,
+      "startLng": 120.90834045410156
+    },
+    {
+      "id": "24554706",
+      "tileScore": 1,
+      "name": "Scenic Shortcut (Northbound)",
+      "distanceM": 2671.39990234375,
+      "avgGrade": 0,
+      "startLat": 31.18381690979004,
+      "startLng": 120.89969635009766
+    },
+    {
+      "id": "38927804",
+      "tileScore": 2,
+      "name": "Little Bridge",
+      "distanceM": 507.8999938964844,
+      "avgGrade": -0.19688916206359863,
+      "startLat": 31.171483993530273,
+      "startLng": 120.89352416992188
+    },
+    {
+      "id": "42137209",
+      "tileScore": 3,
+      "name": "132123123",
+      "distanceM": 9613.5,
+      "avgGrade": -0.01872367039322853,
+      "startLat": 31.27113914489746,
+      "startLng": 120.9215316772461
+    }
+  ]
+}

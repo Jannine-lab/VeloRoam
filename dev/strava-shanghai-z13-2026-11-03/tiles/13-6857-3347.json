@@ -1,0 +1,263 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-03T06:07:47.199Z",
+  "tile": {
+    "z": 13,
+    "x": 6857,
+    "y": 3347
+  },
+  "segments": [
+    {
+      "id": "35616846",
+      "tileScore": 7,
+      "name": "danbalu",
+      "distanceM": 729.2000122070312,
+      "avgGrade": -0.1371365785598755,
+      "startLat": 31.226152420043945,
+      "startLng": 121.37675476074219
+    },
+    {
+      "id": "6744365",
+      "tileScore": 5,
+      "name": "Tianshan Rd (Eastbound)",
+      "distanceM": 3723.5,
+      "avgGrade": -0.016113871708512306,
+      "startLat": 31.217998504638672,
+      "startLng": 121.37232208251953
+    },
+    {
+      "id": "41727278",
+      "tileScore": 6,
+      "name": "虹桥环机场线~",
+      "distanceM": 15865.400390625,
+      "avgGrade": -0.010084838606417179,
+      "startLat": 31.22117805480957,
+      "startLng": 121.33946228027344
+    },
+    {
+      "id": "6744029",
+      "tileScore": 12,
+      "name": "Xianxia West Rd Overpass (Westbound)",
+      "distanceM": 501.79998779296875,
+      "avgGrade": 0.4184934198856354,
+      "startLat": 31.21133041381836,
+      "startLng": 121.35198974609375
+    },
+    {
+      "id": "23169966",
+      "tileScore": 98,
+      "name": "长宁绿道往返",
+      "distanceM": 10382.400390625,
+      "avgGrade": -0.009631684049963951,
+      "startLat": 31.210634231567383,
+      "startLng": 121.34815216064453
+    },
+    {
+      "id": "6744391",
+      "tileScore": 38,
+      "name": "Tianshan West Rd x S20 Outer Ring Expy Bridge (Eastbound)",
+      "distanceM": 561.0999755859375,
+      "avgGrade": 0.14257708191871643,
+      "startLat": 31.220975875854492,
+      "startLng": 121.34220123291016
+    },
+    {
+      "id": "33115438",
+      "tileScore": 11,
+      "name": "绥宁路跨吴淞江新桥",
+      "distanceM": 646.2999877929688,
+      "avgGrade": 0.03094538114964962,
+      "startLat": 31.242631912231445,
+      "startLng": 121.33351135253906
+    },
+    {
+      "id": "34863100",
+      "tileScore": 183,
+      "name": "光复西路highspeed",
+      "distanceM": 3196,
+      "avgGrade": -0.03754693269729614,
+      "startLat": 31.22878074645996,
+      "startLng": 121.3620834350586
+    },
+    {
+      "id": "37431069",
+      "tileScore": 1,
+      "name": "Jianhe road smash",
+      "distanceM": 1645.800048828125,
+      "avgGrade": 0.024304289370775223,
+      "startLat": 31.191448211669922,
+      "startLng": 121.37185668945312
+    },
+    {
+      "id": "16013628",
+      "tileScore": 8,
+      "name": "Xianxia Westbound - Qingxi to Fuquan",
+      "distanceM": 1502,
+      "avgGrade": 0.07989347726106644,
+      "startLat": 31.20977783203125,
+      "startLng": 121.3702621459961
+    },
+    {
+      "id": "16425307",
+      "tileScore": 3,
+      "name": "BLDT#1 (new route)",
+      "distanceM": 705.2000122070312,
+      "avgGrade": 0.22688598930835724,
+      "startLat": 31.225200653076172,
+      "startLng": 121.36128234863281
+    },
+    {
+      "id": "24509570",
+      "tileScore": 9,
+      "name": "Zhenbei Cycle Bridge sb",
+      "distanceM": 945.2999877929688,
+      "avgGrade": 0.2750449478626251,
+      "startLat": 31.22688865661621,
+      "startLng": 121.3718490600586
+    },
+    {
+      "id": "37558021",
+      "tileScore": 1,
+      "name": "医生与电瓶车的故事",
+      "distanceM": 16616.19921875,
+      "avgGrade": 0.01624920219182968,
+      "startLat": 31.214859008789062,
+      "startLng": 121.3038101196289
+    },
+    {
+      "id": "32312455",
+      "tileScore": 10,
+      "name": "Power off the lights",
+      "distanceM": 1517.800048828125,
+      "avgGrade": -0.10541573911905289,
+      "startLat": 31.225868225097656,
+      "startLng": 121.3392562866211
+    },
+    {
+      "id": "26416669",
+      "tileScore": 4,
+      "name": "Strong Beihong pt I",
+      "distanceM": 788.0999755859375,
+      "avgGrade": 0,
+      "startLat": 31.2159366607666,
+      "startLng": 121.371337890625
+    },
+    {
+      "id": "23376686",
+      "tileScore": 195,
+      "name": "长宁绿道南到北",
+      "distanceM": 4846,
+      "avgGrade": 0.01444490347057581,
+      "startLat": 31.199907302856445,
+      "startLng": 121.35040283203125
+    },
+    {
+      "id": "36969119",
+      "tileScore": 209,
+      "name": "Guangfuxilu sprint",
+      "distanceM": 1231,
+      "avgGrade": -0.03249390795826912,
+      "startLat": 31.223215103149414,
+      "startLng": 121.37531280517578
+    },
+    {
+      "id": "31221443",
+      "tileScore": 7,
+      "name": "安亭儿童乐园-Bikehome",
+      "distanceM": 47152.19921875,
+      "avgGrade": -0.009755642153322697,
+      "startLat": 31.239341735839844,
+      "startLng": 121.36277770996094
+    },
+    {
+      "id": "29795674",
+      "tileScore": 104,
+      "name": "John's got brewer's droop",
+      "distanceM": 537.2999877929688,
+      "avgGrade": 2.0472733974456787,
+      "startLat": 31.220626831054688,
+      "startLng": 121.34392547607422
+    },
+    {
+      "id": "14898110",
+      "tileScore": 33,
+      "name": "BLDT#1 reverse",
+      "distanceM": 625.5,
+      "avgGrade": -0.5115907192230225,
+      "startLat": 31.221527099609375,
+      "startLng": 121.3703384399414
+    },
+    {
+      "id": "15548389",
+      "tileScore": 52,
+      "name": "Xuhui Pass",
+      "distanceM": 545.5999755859375,
+      "avgGrade": -0.10997067391872406,
+      "startLat": 31.22256088256836,
+      "startLng": 121.3813247680664
+    },
+    {
+      "id": "3936835",
+      "tileScore": 2,
+      "name": "Apocalypse (Outer Ring-Jidi Lu)",
+      "distanceM": 5849.10009765625,
+      "avgGrade": -0.025644971057772636,
+      "startLat": 31.225740432739258,
+      "startLng": 121.34654235839844
+    },
+    {
+      "id": "14872844",
+      "tileScore": 13,
+      "name": "Passing the airport on Tianshan road",
+      "distanceM": 5839.2998046875,
+      "avgGrade": 0.023975476622581482,
+      "startLat": 31.217174530029297,
+      "startLng": 121.30880737304688
+    },
+    {
+      "id": "36111952",
+      "tileScore": 72,
+      "name": "2023 HH Airport Loop",
+      "distanceM": 32885.30078125,
+      "avgGrade": -0.007298094220459461,
+      "startLat": 31.197797775268555,
+      "startLng": 121.41617584228516
+    },
+    {
+      "id": "38353251",
+      "tileScore": 8,
+      "name": "Donghang->Konggangsan->Yingle->Lianhong loop",
+      "distanceM": 1760.800048828125,
+      "avgGrade": 0.01135847344994545,
+      "startLat": 31.202621459960938,
+      "startLng": 121.34892272949219
+    },
+    {
+      "id": "24549955",
+      "tileScore": 3,
+      "name": "Can't Nobody Whoop me, I'm Trippin'",
+      "distanceM": 725.0999755859375,
+      "avgGrade": -0.19307681918144226,
+      "startLat": 31.233924865722656,
+      "startLng": 121.37489318847656
+    },
+    {
+      "id": "36524837",
+      "tileScore": 29,
+      "name": "Tianshan Rd Sprint AIRPORT!",
+      "distanceM": 778.9000244140625,
+      "avgGrade": -0.12838618457317352,
+      "startLat": 31.219085693359375,
+      "startLng": 121.3279800415039
+    },
+    {
+      "id": "8415040",
+      "tileScore": 83,
+      "name": "Qilianshan Nan Lu - Wusong River Bridge (northbound)",
+      "distanceM": 778.7000122070312,
+      "avgGrade": 0.2183125764131546,
+      "startLat": 31.22623062133789,
+      "startLng": 121.35697937011719
+    }
+  ]
+}

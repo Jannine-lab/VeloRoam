@@ -1,0 +1,29 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-03T06:13:28.567Z",
+  "tile": {
+    "z": 13,
+    "x": 6853,
+    "y": 3362
+  },
+  "segments": [
+    {
+      "id": "12103959",
+      "tileScore": 21,
+      "name": "Jiulongshan \"Lekbrug\" Eastbound",
+      "distanceM": 284.6000061035156,
+      "avgGrade": 2.670414447784424,
+      "startLat": 30.646869659423828,
+      "startLng": 121.16207885742188
+    },
+    {
+      "id": "28548398",
+      "tileScore": 5,
+      "name": "中山路",
+      "distanceM": 4478.10009765625,
+      "avgGrade": 0.29030171036720276,
+      "startLat": 30.682064056396484,
+      "startLng": 121.19862365722656
+    }
+  ]
+}

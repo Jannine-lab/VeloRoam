@@ -1,0 +1,31 @@
+{
+  "checkedAt": "2026-11-03T05:28:05.757Z",
+  "sourceCount": 61,
+  "existingBefore": 15,
+  "missingBefore": 46,
+  "inserted": 46,
+  "failed": 0,
+  "sourceIdsPresent": 61,
+  "existingBaseValuesUnchanged": true,
+  "newRowsMatchDetailAndTile": true,
+  "counts": {
+    "base_count": 5047,
+    "detail_count": 385
+  },
+  "examples": [
+    {
+      "id": "15735849",
+      "name": "Hongxin Lu x Dianpu He bridge (Southbound)",
+      "stravaScore": 2,
+      "rawScore": 1.57,
+      "pointCount": 13
+    },
+    {
+      "id": "22349388",
+      "name": "上海体育场~中山西路sprint！",
+      "stravaScore": 24,
+      "rawScore": 1.64,
+      "pointCount": 12
+    }
+  ]
+}

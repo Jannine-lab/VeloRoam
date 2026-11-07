@@ -1,0 +1,3848 @@
+{
+  "capturedAt": "2026-11-03T05:35:42.086Z",
+  "parent": {
+    "z": 11,
+    "x": 1714,
+    "y": 837
+  },
+  "method": "all 1/4/16 parent-child tiles captured from normal map zoom; compare only line geometry intersecting the same parent rectangle",
+  "levels": {
+    "11": {
+      "tileCount": 1,
+      "featureCount": 63,
+      "rawUniqueIds": 61,
+      "intersectParentUniqueIds": 61,
+      "startInsideParentUniqueIds": 53
+    },
+    "12": {
+      "tileCount": 4,
+      "featureCount": 246,
+      "rawUniqueIds": 199,
+      "intersectParentUniqueIds": 199,
+      "startInsideParentUniqueIds": 165
+    },
+    "13": {
+      "tileCount": 16,
+      "featureCount": 399,
+      "rawUniqueIds": 264,
+      "intersectParentUniqueIds": 264,
+      "startInsideParentUniqueIds": 219
+    }
+  },
+  "comparisons": {
+    "11_to_12": {
+      "newInHigher": [
+        {
+          "id": "1515348",
+          "name": "Gubei To Qibao",
+          "score": 2
+        },
+        {
+          "id": "5425955",
+          "name": "Factory Ave Return",
+          "score": 7
+        },
+        {
+          "id": "5630841",
+          "name": "Caobao Rd (Westbound)",
+          "score": 2
+        },
+        {
+          "id": "5654531",
+          "name": "Yan'an Warm-up",
+          "score": 2
+        },
+        {
+          "id": "6092412",
+          "name": "Husong Hwy x Jiamin Elevated Rd Tunnel Blast (Eastbound)",
+          "score": 10
+        },
+        {
+          "id": "6170928",
+          "name": "Gaoguang Rd (Westbound)",
+          "score": 23
+        },
+        {
+          "id": "6180756",
+          "name": "Jiudu Rd x G50 Huyu Expy Bridge (Northbound)",
+          "score": 3
+        },
+        {
+          "id": "6200620",
+          "name": "Hongqiao Road Climb",
+          "score": 34
+        },
+        {
+          "id": "6534591",
+          "name": "Xietu Rd (Eastbound)",
+          "score": 2
+        },
+        {
+          "id": "6936509",
+          "name": "Longwu Rd (Longshui > S20 Outer Ring)",
+          "score": 4
+        },
+        {
+          "id": "6952597",
+          "name": "Full Expo Southbound",
+          "score": 15
+        },
+        {
+          "id": "6983244",
+          "name": "Wanping South Rd (Southbound)",
+          "score": 28
+        },
+        {
+          "id": "7036885",
+          "name": "Sprint past the Park",
+          "score": 49
+        },
+        {
+          "id": "7036893",
+          "name": "Past the Gun club",
+          "score": 28
+        },
+        {
+          "id": "7197828",
+          "name": "Sprint",
+          "score": 13
+        },
+        {
+          "id": "7291363",
+          "name": "Liuzhou Rd x Railway Underpass (Northbound)",
+          "score": 13
+        },
+        {
+          "id": "7477984",
+          "name": "Wulumuqi South Rd (Southbound)",
+          "score": 22
+        },
+        {
+          "id": "7533823",
+          "name": "Tianyaoqiao Rd (Northbound)",
+          "score": 6
+        },
+        {
+          "id": "7875533",
+          "name": "Xinsong Rd x Railway Underpass (Eastbound)",
+          "score": 10
+        },
+        {
+          "id": "7875550",
+          "name": "Xinzhuan Hwy x G15 Shenhai Expy Bridge (Eastbound)",
+          "score": 3
+        },
+        {
+          "id": "8382014",
+          "name": "Dongan Rd (from Zhaojiabang Rd to Longhua)",
+          "score": 22
+        },
+        {
+          "id": "8677287",
+          "name": "Laifang Rd x G15 Shenhai Expy Overpass (Westbound)",
+          "score": 4
+        },
+        {
+          "id": "9126724",
+          "name": "Sprint 2 Yishan",
+          "score": 15
+        },
+        {
+          "id": "9513186",
+          "name": "Mingzhong Rd (Eastbound)",
+          "score": 1
+        },
+        {
+          "id": "10541863",
+          "name": "40 km Shanghaï Loop",
+          "score": 3
+        },
+        {
+          "id": "10936809",
+          "name": "Anshun Lu (Dingxi Lu to Huaihai Lu)",
+          "score": 3
+        },
+        {
+          "id": "11141802",
+          "name": "Hongqiao Lu eastbound, Yan'an lu to Songyuan lu",
+          "score": 31
+        },
+        {
+          "id": "11387860",
+          "name": "Changdong Rd (Southbound)",
+          "score": 4
+        },
+        {
+          "id": "11543947",
+          "name": "Zhongshan Dragon Whip ",
+          "score": 10
+        },
+        {
+          "id": "11585802",
+          "name": "beat the traffic",
+          "score": 14
+        },
+        {
+          "id": "11687328",
+          "name": "WuzhongXinzhen-QixinXinzhen",
+          "score": 4
+        },
+        {
+          "id": "11774580",
+          "name": "Laohumin Lu, northbound",
+          "score": 1
+        },
+        {
+          "id": "11951366",
+          "name": "Chunshen Pond Bridge (Southbound)",
+          "score": 3
+        },
+        {
+          "id": "12002946",
+          "name": "Hongqiao Rd (Westbound)",
+          "score": 34
+        },
+        {
+          "id": "12003151",
+          "name": "Minhang Interchange --> Songjiang East Toll",
+          "score": 1
+        },
+        {
+          "id": "12562160",
+          "name": "Qinzhou > Wuzhong",
+          "score": 24
+        },
+        {
+          "id": "13001633",
+          "name": "Humin Road (2km)",
+          "score": 17
+        },
+        {
+          "id": "13250842",
+          "name": "East-West Express ",
+          "score": 1
+        },
+        {
+          "id": "13659579",
+          "name": "Qinzhou Cycling Superhighway",
+          "score": 8
+        },
+        {
+          "id": "13829135",
+          "name": "Sprint Past Xujiahui Park ",
+          "score": 24
+        },
+        {
+          "id": "13917007",
+          "name": "中春路TT",
+          "score": 2
+        },
+        {
+          "id": "13926923",
+          "name": "Tianlin Cycling Superhighway",
+          "score": 13
+        },
+        {
+          "id": "13969066",
+          "name": "HQ Reverse Piledriver",
+          "score": 31
+        },
+        {
+          "id": "14717649",
+          "name": "Fury Road South",
+          "score": 6
+        },
+        {
+          "id": "14717672",
+          "name": "Humin Rabbit Hole",
+          "score": 5
+        },
+        {
+          "id": "14788260",
+          "name": "Huaihai West sprint",
+          "score": 38
+        },
+        {
+          "id": "14970673",
+          "name": "Gubei CN to HQ",
+          "score": 6
+        },
+        {
+          "id": "15566575",
+          "name": "Zhuanxing Lu overpass (westbound) ",
+          "score": 3
+        },
+        {
+          "id": "15606974",
+          "name": "Longming southbound",
+          "score": 4
+        },
+        {
+          "id": "15686762",
+          "name": "Yinggang E Rd",
+          "score": 16
+        },
+        {
+          "id": "16317617",
+          "name": "Minhang Triangle Circuit",
+          "score": 2
+        },
+        {
+          "id": "16661699",
+          "name": "the Li'an Lump - westbound",
+          "score": 10
+        },
+        {
+          "id": "17392119",
+          "name": "Xumei Lu Smash",
+          "score": 12
+        },
+        {
+          "id": "17410883",
+          "name": "HQ expo centre lap",
+          "score": 13
+        },
+        {
+          "id": "17410922",
+          "name": "Hechuan Rd South",
+          "score": 4
+        },
+        {
+          "id": "17772258",
+          "name": "Changhua Lu climb",
+          "score": 7
+        },
+        {
+          "id": "17888512",
+          "name": "Longteng Tramadol Blast",
+          "score": 88
+        },
+        {
+          "id": "18542628",
+          "name": "ZJB Cannonball",
+          "score": 47
+        },
+        {
+          "id": "18626945",
+          "name": "Lianhua Nan Lu from Humin Lu",
+          "score": 2
+        },
+        {
+          "id": "18703013",
+          "name": "Gaojing northward bound",
+          "score": 25
+        },
+        {
+          "id": "20014980",
+          "name": "Hechuan Lu (northbound)",
+          "score": 3
+        },
+        {
+          "id": "21036682",
+          "name": "Minpu Tues - Park to LP with extension",
+          "score": 7
+        },
+        {
+          "id": "21322636",
+          "name": "Lianhua Rd Gudai Rd to Caobao Rd (Northbound)",
+          "score": 9
+        },
+        {
+          "id": "21322644",
+          "name": "Lianhua Rd Caobao Rd to Yishan Rd (Northbound)",
+          "score": 5
+        },
+        {
+          "id": "21322650",
+          "name": "Lianhua Rd Yishan Rd to Wuzhong Rd (Northbound)",
+          "score": 8
+        },
+        {
+          "id": "21479104",
+          "name": "Up and Over",
+          "score": 7
+        },
+        {
+          "id": "22324048",
+          "name": "The Skinny (eb)",
+          "score": 9
+        },
+        {
+          "id": "22431799",
+          "name": "Rush Hour from Xujiahui to Wujiaochang",
+          "score": 2
+        },
+        {
+          "id": "22985479",
+          "name": "Dingjia Bridge",
+          "score": 9
+        },
+        {
+          "id": "22985518",
+          "name": "S4 Footbridge#1",
+          "score": 1
+        },
+        {
+          "id": "23169966",
+          "name": "长宁绿道往返",
+          "score": 98
+        },
+        {
+          "id": "23344868",
+          "name": "MercrediLaParisienneReborn",
+          "score": 17
+        },
+        {
+          "id": "24482615",
+          "name": "Dulwich Dash",
+          "score": 55
+        },
+        {
+          "id": "24482637",
+          "name": "Factorio",
+          "score": 2
+        },
+        {
+          "id": "24482747",
+          "name": "Let there be light",
+          "score": 32
+        },
+        {
+          "id": "24797033",
+          "name": "Changxing rd 2 bridges",
+          "score": 8
+        },
+        {
+          "id": "26342638",
+          "name": "Shen Lan Lap n-s-n",
+          "score": 207
+        },
+        {
+          "id": "26481888",
+          "name": "Mt Hongqiao",
+          "score": 59
+        },
+        {
+          "id": "26661851",
+          "name": "Wuzhong Rd (Eastbound)",
+          "score": 7
+        },
+        {
+          "id": "27279141",
+          "name": "Xingfu sprint",
+          "score": 30
+        },
+        {
+          "id": "27307814",
+          "name": "BTP-CN-018",
+          "score": 9
+        },
+        {
+          "id": "27366652",
+          "name": "Longteng Avenue from New Ferry to Longrui Rd - Northbound",
+          "score": 73
+        },
+        {
+          "id": "27955023",
+          "name": "BTP-0073",
+          "score": 3
+        },
+        {
+          "id": "28647918",
+          "name": "The Expo Sprint",
+          "score": 3
+        },
+        {
+          "id": "28697371",
+          "name": "BTP-FC005",
+          "score": 11
+        },
+        {
+          "id": "29148720",
+          "name": "G318（华翔路）",
+          "score": 6
+        },
+        {
+          "id": "29363565",
+          "name": "莲花南路TT",
+          "score": 2
+        },
+        {
+          "id": "29374965",
+          "name": "光华路",
+          "score": 10
+        },
+        {
+          "id": "29542959",
+          "name": "Zhaojiabang road - huashan to wanping",
+          "score": 10
+        },
+        {
+          "id": "29856728",
+          "name": "Guijiang Rd Parkside Sprint",
+          "score": 12
+        },
+        {
+          "id": "30082420",
+          "name": "TT-03",
+          "score": 4
+        },
+        {
+          "id": "30082437",
+          "name": "TT-09",
+          "score": 5
+        },
+        {
+          "id": "30390301",
+          "name": "BTP-S2",
+          "score": 3
+        },
+        {
+          "id": "30390303",
+          "name": "BTP-S3",
+          "score": 2
+        },
+        {
+          "id": "30564357",
+          "name": "FMG-05",
+          "score": 2
+        },
+        {
+          "id": "30564472",
+          "name": "FMG-16",
+          "score": 6
+        },
+        {
+          "id": "30768098",
+          "name": "JR003",
+          "score": 15
+        },
+        {
+          "id": "32464578",
+          "name": "Jay's private segment",
+          "score": 8
+        },
+        {
+          "id": "32557816",
+          "name": "HUAGUANG",
+          "score": 5
+        },
+        {
+          "id": "32568892",
+          "name": "Caobao Xinfu",
+          "score": 5
+        },
+        {
+          "id": "32769946",
+          "name": "航东路通勤",
+          "score": 2
+        },
+        {
+          "id": "33090424",
+          "name": "诸光转盈港",
+          "score": 4
+        },
+        {
+          "id": "33232696",
+          "name": "香榧王镜神300瓦通勤",
+          "score": 10
+        },
+        {
+          "id": "33397216",
+          "name": "The back straight ",
+          "score": 6
+        },
+        {
+          "id": "34244695",
+          "name": "Xinsong Rainbow Bridge",
+          "score": 10
+        },
+        {
+          "id": "34777759",
+          "name": "三林滨江 003 Riverside",
+          "score": 5
+        },
+        {
+          "id": "34788066",
+          "name": "明华路地道(北向)",
+          "score": 4
+        },
+        {
+          "id": "35082789",
+          "name": "Temple sprint",
+          "score": 15
+        },
+        {
+          "id": "35118251",
+          "name": "Shanghai Indoor Stadium Loop(2023)",
+          "score": 5
+        },
+        {
+          "id": "35131995",
+          "name": "紫薇绕圈",
+          "score": 14
+        },
+        {
+          "id": "35421256",
+          "name": "Jingcheng Loop",
+          "score": 11
+        },
+        {
+          "id": "35523150",
+          "name": "卖新公路地道冲冲冲",
+          "score": 10
+        },
+        {
+          "id": "35700365",
+          "name": "Office to Hospital",
+          "score": 4
+        },
+        {
+          "id": "35850240",
+          "name": "how to cope with this uneven road & traffic jams 🤨",
+          "score": 17
+        },
+        {
+          "id": "36140861",
+          "name": "渡口前的电瓶车真的好烦",
+          "score": 2
+        },
+        {
+          "id": "36140881",
+          "name": "景东路北向南",
+          "score": 5
+        },
+        {
+          "id": "36516350",
+          "name": "经典通勤上班线路A-虹桥绕道至凯旋卡红绿灯不停车",
+          "score": 2
+        },
+        {
+          "id": "36894166",
+          "name": "ER - Babies Arm",
+          "score": 19
+        },
+        {
+          "id": "37094671",
+          "name": "Head to Guanghua",
+          "score": 7
+        },
+        {
+          "id": "37099811",
+          "name": "涞寅路桥东",
+          "score": 17
+        },
+        {
+          "id": "37670361",
+          "name": "Fenglin Push",
+          "score": 7
+        },
+        {
+          "id": "37701039",
+          "name": "SP's Sneaky Dogleg",
+          "score": 23
+        },
+        {
+          "id": "37744682",
+          "name": "打螺丝通勤也能刷KOM",
+          "score": 9
+        },
+        {
+          "id": "38353251",
+          "name": "Donghang->Konggangsan->Yingle->Lianhong loop",
+          "score": 8
+        },
+        {
+          "id": "38659188",
+          "name": "浦江 029 Riverside Forest",
+          "score": 1
+        },
+        {
+          "id": "39173049",
+          "name": "路过维璟印象城不喝奶茶嘛",
+          "score": 5
+        },
+        {
+          "id": "39173188",
+          "name": "小龙虾后顾戴路休闲骑",
+          "score": 1
+        },
+        {
+          "id": "39219946",
+          "name": "沪闵路淀浦河桥",
+          "score": 14
+        },
+        {
+          "id": "39336275",
+          "name": "Yingbin 3rd Rd. (Westbound) ",
+          "score": 35
+        },
+        {
+          "id": "39571505",
+          "name": "漕宝路RUN*3",
+          "score": 13
+        },
+        {
+          "id": "40266405",
+          "name": "Wanyuan",
+          "score": 6
+        },
+        {
+          "id": "40505559",
+          "name": "Shengang Factories",
+          "score": 8
+        },
+        {
+          "id": "41383322",
+          "name": "factory绕圈",
+          "score": 439
+        },
+        {
+          "id": "41637235",
+          "name": "诺诺晨骑要迟到了",
+          "score": 11
+        },
+        {
+          "id": "41727278",
+          "name": "虹桥环机场线~",
+          "score": 6
+        },
+        {
+          "id": "41804900",
+          "name": "上海纯申",
+          "score": 5
+        },
+        {
+          "id": "41903743",
+          "name": "石龙CC",
+          "score": 10
+        },
+        {
+          "id": "42345837",
+          "name": "6哥带你刷两山",
+          "score": 23
+        }
+      ],
+      "absentInHigher": [],
+      "retained": 61,
+      "startInsideNew": 112,
+      "startInsideAbsent": 0
+    },
+    "12_to_13": {
+      "newInHigher": [
+        {
+          "id": "5205541",
+          "name": "Rat run",
+          "score": 3
+        },
+        {
+          "id": "5643945",
+          "name": "Qixin Rd from Wuzhong Rd to Husong Hwy",
+          "score": 1
+        },
+        {
+          "id": "6157088",
+          "name": "Caohejing Hi-Tech Park - Guiqing Rd (Southbound)",
+          "score": 3
+        },
+        {
+          "id": "6157946",
+          "name": "Caohejing Hi-Tech Park - Qinjiang Rd (Eastbound)",
+          "score": 2
+        },
+        {
+          "id": "6924741",
+          "name": "Long Pu Bridge (Northbound)",
+          "score": 12
+        },
+        {
+          "id": "7070970",
+          "name": "Huashan (Huaihai > Zhaojiabang)",
+          "score": 17
+        },
+        {
+          "id": "7155576",
+          "name": "Jiang'an Rd (Eastbound)",
+          "score": 3
+        },
+        {
+          "id": "7867275",
+          "name": "Husong Hwy x G15 Shenhai Expy Overpass (Eastbound)",
+          "score": 4
+        },
+        {
+          "id": "7966482",
+          "name": "Gubei Lu, heading North",
+          "score": 5
+        },
+        {
+          "id": "8541137",
+          "name": "Zhongshan West Rd (from wuzhong rd X to changning rd X)",
+          "score": 10
+        },
+        {
+          "id": "8951147",
+          "name": "Hengshan Rd (Westbound)",
+          "score": 7
+        },
+        {
+          "id": "9110867",
+          "name": "Ruining Rd (Westbound)",
+          "score": 25
+        },
+        {
+          "id": "9348169",
+          "name": "the headwind",
+          "score": 3
+        },
+        {
+          "id": "10454143",
+          "name": "Caoxi North (Zhongshan => Nandan)",
+          "score": 4
+        },
+        {
+          "id": "10634583",
+          "name": "Lao Wai Jie Sprint",
+          "score": 4
+        },
+        {
+          "id": "11446385",
+          "name": "Longhua W Sprint",
+          "score": 4
+        },
+        {
+          "id": "11449679",
+          "name": "Pubei to Qingzhou",
+          "score": 3
+        },
+        {
+          "id": "11456387",
+          "name": "Kaixian HQ to YS",
+          "score": 1
+        },
+        {
+          "id": "11482357",
+          "name": "Qinzhou Rd (North Bound)",
+          "score": 2
+        },
+        {
+          "id": "11814224",
+          "name": "Domino's Dash to Wan Ping Road",
+          "score": 6
+        },
+        {
+          "id": "11881788",
+          "name": "Guilin to Guiping",
+          "score": 4
+        },
+        {
+          "id": "12008725",
+          "name": "Songze Hwy Overpass (Eastbound)",
+          "score": 6
+        },
+        {
+          "id": "12254383",
+          "name": "Shenkun Rd South Bound",
+          "score": 5
+        },
+        {
+          "id": "12615004",
+          "name": "BaoNan Rd Main Street",
+          "score": 1
+        },
+        {
+          "id": "12667877",
+          "name": "Zhongshan Fury ",
+          "score": 4
+        },
+        {
+          "id": "12744033",
+          "name": "The Escape from IKEA",
+          "score": 3
+        },
+        {
+          "id": "13732749",
+          "name": "Huaxiang Lu tunnel (southbound)",
+          "score": 22
+        },
+        {
+          "id": "14717706",
+          "name": "Humin -> Caobao",
+          "score": 2
+        },
+        {
+          "id": "14970710",
+          "name": "Planespotting",
+          "score": 30
+        },
+        {
+          "id": "15735874",
+          "name": "Longming Lu x Dianpu He bridge (northbound)",
+          "score": 4
+        },
+        {
+          "id": "15772088",
+          "name": "春九路南向",
+          "score": 3
+        },
+        {
+          "id": "17888707",
+          "name": "New Longteng Second Bridge (Retour)",
+          "score": 69
+        },
+        {
+          "id": "18736785",
+          "name": "摩天轮弯",
+          "score": 3
+        },
+        {
+          "id": "20221151",
+          "name": "明中西路桥(西向)",
+          "score": 5
+        },
+        {
+          "id": "20261573",
+          "name": "slamina rehto dna nerdlihc rof tuo kooL",
+          "score": 74
+        },
+        {
+          "id": "21243327",
+          "name": "Sorry Officer I thought you wanted to RACE ! #BTT",
+          "score": 6
+        },
+        {
+          "id": "22985488",
+          "name": "Dushi Rd",
+          "score": 4
+        },
+        {
+          "id": "23318145",
+          "name": "Zhongchun: Xinsong-Hukun",
+          "score": 5
+        },
+        {
+          "id": "25521343",
+          "name": "the lump",
+          "score": 2
+        },
+        {
+          "id": "27502862",
+          "name": "畹町小圈",
+          "score": 3
+        },
+        {
+          "id": "27775488",
+          "name": "BTP-CN-026",
+          "score": 2
+        },
+        {
+          "id": "27873586",
+          "name": "Eastbound over bridge",
+          "score": 1
+        },
+        {
+          "id": "30251966",
+          "name": "漕宝路电瓶车真多",
+          "score": 1
+        },
+        {
+          "id": "30304242",
+          "name": "Rd. HeChuan (PingNan-CaoBao)",
+          "score": 4
+        },
+        {
+          "id": "30564351",
+          "name": "FMG-04",
+          "score": 1
+        },
+        {
+          "id": "30564439",
+          "name": "FMG-13",
+          "score": 3
+        },
+        {
+          "id": "32445632",
+          "name": "King Kong go brrr!",
+          "score": 1
+        },
+        {
+          "id": "32521745",
+          "name": "HONGXIN",
+          "score": 1
+        },
+        {
+          "id": "32845750",
+          "name": "ride the barrel, and get pitted, so pitted",
+          "score": 9
+        },
+        {
+          "id": "33232674",
+          "name": "镜神冲进申兰路大杀四方",
+          "score": 45
+        },
+        {
+          "id": "33638050",
+          "name": "Small Paul's Miniture Rabbit",
+          "score": 1
+        },
+        {
+          "id": "33849584",
+          "name": "小心学生出没！",
+          "score": 2
+        },
+        {
+          "id": "33849589",
+          "name": "吴中路通勤冲！",
+          "score": 5
+        },
+        {
+          "id": "34326504",
+          "name": "Wumei Road Westbound - Hongmei to Hechuan",
+          "score": 3
+        },
+        {
+          "id": "34479772",
+          "name": "Shenbin Road  northbound w/o tunnel ",
+          "score": 1
+        },
+        {
+          "id": "35936286",
+          "name": "Tianyaoqiao (Southbond)",
+          "score": 1
+        },
+        {
+          "id": "35948487",
+          "name": "莘砖公路桥至九新公路",
+          "score": 7
+        },
+        {
+          "id": "36885573",
+          "name": "午休骑行2号线",
+          "score": 5
+        },
+        {
+          "id": "37431069",
+          "name": "Jianhe road smash",
+          "score": 1
+        },
+        {
+          "id": "37542209",
+          "name": "三林滨江 094",
+          "score": 274
+        },
+        {
+          "id": "38663066",
+          "name": "浦江 030 U Turn Short",
+          "score": 1
+        },
+        {
+          "id": "39230846",
+          "name": "Back Home From Coffee",
+          "score": 5
+        },
+        {
+          "id": "39792090",
+          "name": "Tour de Xinglian",
+          "score": 5
+        },
+        {
+          "id": "40743598",
+          "name": "New Extended Longteng Loop 🦊",
+          "score": 210
+        },
+        {
+          "id": "40761239",
+          "name": "文定路蒲汇塘路",
+          "score": 1
+        }
+      ],
+      "absentInHigher": [],
+      "retained": 199,
+      "startInsideNew": 54,
+      "startInsideAbsent": 0
+    },
+    "11_to_13": {
+      "newInHigher": [
+        {
+          "id": "1515348",
+          "name": "Gubei To Qibao",
+          "score": 2
+        },
+        {
+          "id": "5205541",
+          "name": "Rat run",
+          "score": 3
+        },
+        {
+          "id": "5425955",
+          "name": "Factory Ave Return",
+          "score": 7
+        },
+        {
+          "id": "5630841",
+          "name": "Caobao Rd (Westbound)",
+          "score": 2
+        },
+        {
+          "id": "5643945",
+          "name": "Qixin Rd from Wuzhong Rd to Husong Hwy",
+          "score": 1
+        },
+        {
+          "id": "5654531",
+          "name": "Yan'an Warm-up",
+          "score": 2
+        },
+        {
+          "id": "6092412",
+          "name": "Husong Hwy x Jiamin Elevated Rd Tunnel Blast (Eastbound)",
+          "score": 10
+        },
+        {
+          "id": "6157088",
+          "name": "Caohejing Hi-Tech Park - Guiqing Rd (Southbound)",
+          "score": 3
+        },
+        {
+          "id": "6157946",
+          "name": "Caohejing Hi-Tech Park - Qinjiang Rd (Eastbound)",
+          "score": 2
+        },
+        {
+          "id": "6170928",
+          "name": "Gaoguang Rd (Westbound)",
+          "score": 23
+        },
+        {
+          "id": "6180756",
+          "name": "Jiudu Rd x G50 Huyu Expy Bridge (Northbound)",
+          "score": 3
+        },
+        {
+          "id": "6200620",
+          "name": "Hongqiao Road Climb",
+          "score": 34
+        },
+        {
+          "id": "6534591",
+          "name": "Xietu Rd (Eastbound)",
+          "score": 2
+        },
+        {
+          "id": "6924741",
+          "name": "Long Pu Bridge (Northbound)",
+          "score": 12
+        },
+        {
+          "id": "6936509",
+          "name": "Longwu Rd (Longshui > S20 Outer Ring)",
+          "score": 4
+        },
+        {
+          "id": "6952597",
+          "name": "Full Expo Southbound",
+          "score": 15
+        },
+        {
+          "id": "6983244",
+          "name": "Wanping South Rd (Southbound)",
+          "score": 28
+        },
+        {
+          "id": "7036885",
+          "name": "Sprint past the Park",
+          "score": 49
+        },
+        {
+          "id": "7036893",
+          "name": "Past the Gun club",
+          "score": 28
+        },
+        {
+          "id": "7070970",
+          "name": "Huashan (Huaihai > Zhaojiabang)",
+          "score": 17
+        },
+        {
+          "id": "7155576",
+          "name": "Jiang'an Rd (Eastbound)",
+          "score": 3
+        },
+        {
+          "id": "7197828",
+          "name": "Sprint",
+          "score": 13
+        },
+        {
+          "id": "7291363",
+          "name": "Liuzhou Rd x Railway Underpass (Northbound)",
+          "score": 13
+        },
+        {
+          "id": "7477984",
+          "name": "Wulumuqi South Rd (Southbound)",
+          "score": 22
+        },
+        {
+          "id": "7533823",
+          "name": "Tianyaoqiao Rd (Northbound)",
+          "score": 6
+        },
+        {
+          "id": "7867275",
+          "name": "Husong Hwy x G15 Shenhai Expy Overpass (Eastbound)",
+          "score": 4
+        },
+        {
+          "id": "7875533",
+          "name": "Xinsong Rd x Railway Underpass (Eastbound)",
+          "score": 10
+        },
+        {
+          "id": "7875550",
+          "name": "Xinzhuan Hwy x G15 Shenhai Expy Bridge (Eastbound)",
+          "score": 3
+        },
+        {
+          "id": "7966482",
+          "name": "Gubei Lu, heading North",
+          "score": 5
+        },
+        {
+          "id": "8382014",
+          "name": "Dongan Rd (from Zhaojiabang Rd to Longhua)",
+          "score": 22
+        },
+        {
+          "id": "8541137",
+          "name": "Zhongshan West Rd (from wuzhong rd X to changning rd X)",
+          "score": 10
+        },
+        {
+          "id": "8677287",
+          "name": "Laifang Rd x G15 Shenhai Expy Overpass (Westbound)",
+          "score": 4
+        },
+        {
+          "id": "8951147",
+          "name": "Hengshan Rd (Westbound)",
+          "score": 7
+        },
+        {
+          "id": "9110867",
+          "name": "Ruining Rd (Westbound)",
+          "score": 25
+        },
+        {
+          "id": "9126724",
+          "name": "Sprint 2 Yishan",
+          "score": 15
+        },
+        {
+          "id": "9348169",
+          "name": "the headwind",
+          "score": 3
+        },
+        {
+          "id": "9513186",
+          "name": "Mingzhong Rd (Eastbound)",
+          "score": 1
+        },
+        {
+          "id": "10454143",
+          "name": "Caoxi North (Zhongshan => Nandan)",
+          "score": 4
+        },
+        {
+          "id": "10541863",
+          "name": "40 km Shanghaï Loop",
+          "score": 3
+        },
+        {
+          "id": "10634583",
+          "name": "Lao Wai Jie Sprint",
+          "score": 4
+        },
+        {
+          "id": "10936809",
+          "name": "Anshun Lu (Dingxi Lu to Huaihai Lu)",
+          "score": 3
+        },
+        {
+          "id": "11141802",
+          "name": "Hongqiao Lu eastbound, Yan'an lu to Songyuan lu",
+          "score": 31
+        },
+        {
+          "id": "11387860",
+          "name": "Changdong Rd (Southbound)",
+          "score": 4
+        },
+        {
+          "id": "11446385",
+          "name": "Longhua W Sprint",
+          "score": 4
+        },
+        {
+          "id": "11449679",
+          "name": "Pubei to Qingzhou",
+          "score": 3
+        },
+        {
+          "id": "11456387",
+          "name": "Kaixian HQ to YS",
+          "score": 1
+        },
+        {
+          "id": "11482357",
+          "name": "Qinzhou Rd (North Bound)",
+          "score": 2
+        },
+        {
+          "id": "11543947",
+          "name": "Zhongshan Dragon Whip ",
+          "score": 10
+        },
+        {
+          "id": "11585802",
+          "name": "beat the traffic",
+          "score": 14
+        },
+        {
+          "id": "11687328",
+          "name": "WuzhongXinzhen-QixinXinzhen",
+          "score": 4
+        },
+        {
+          "id": "11774580",
+          "name": "Laohumin Lu, northbound",
+          "score": 1
+        },
+        {
+          "id": "11814224",
+          "name": "Domino's Dash to Wan Ping Road",
+          "score": 6
+        },
+        {
+          "id": "11881788",
+          "name": "Guilin to Guiping",
+          "score": 4
+        },
+        {
+          "id": "11951366",
+          "name": "Chunshen Pond Bridge (Southbound)",
+          "score": 3
+        },
+        {
+          "id": "12002946",
+          "name": "Hongqiao Rd (Westbound)",
+          "score": 34
+        },
+        {
+          "id": "12003151",
+          "name": "Minhang Interchange --> Songjiang East Toll",
+          "score": 1
+        },
+        {
+          "id": "12008725",
+          "name": "Songze Hwy Overpass (Eastbound)",
+          "score": 6
+        },
+        {
+          "id": "12254383",
+          "name": "Shenkun Rd South Bound",
+          "score": 5
+        },
+        {
+          "id": "12562160",
+          "name": "Qinzhou > Wuzhong",
+          "score": 24
+        },
+        {
+          "id": "12615004",
+          "name": "BaoNan Rd Main Street",
+          "score": 1
+        },
+        {
+          "id": "12667877",
+          "name": "Zhongshan Fury ",
+          "score": 4
+        },
+        {
+          "id": "12744033",
+          "name": "The Escape from IKEA",
+          "score": 3
+        },
+        {
+          "id": "13001633",
+          "name": "Humin Road (2km)",
+          "score": 17
+        },
+        {
+          "id": "13250842",
+          "name": "East-West Express ",
+          "score": 1
+        },
+        {
+          "id": "13659579",
+          "name": "Qinzhou Cycling Superhighway",
+          "score": 8
+        },
+        {
+          "id": "13732749",
+          "name": "Huaxiang Lu tunnel (southbound)",
+          "score": 22
+        },
+        {
+          "id": "13829135",
+          "name": "Sprint Past Xujiahui Park ",
+          "score": 24
+        },
+        {
+          "id": "13917007",
+          "name": "中春路TT",
+          "score": 2
+        },
+        {
+          "id": "13926923",
+          "name": "Tianlin Cycling Superhighway",
+          "score": 13
+        },
+        {
+          "id": "13969066",
+          "name": "HQ Reverse Piledriver",
+          "score": 31
+        },
+        {
+          "id": "14717649",
+          "name": "Fury Road South",
+          "score": 6
+        },
+        {
+          "id": "14717672",
+          "name": "Humin Rabbit Hole",
+          "score": 5
+        },
+        {
+          "id": "14717706",
+          "name": "Humin -> Caobao",
+          "score": 2
+        },
+        {
+          "id": "14788260",
+          "name": "Huaihai West sprint",
+          "score": 38
+        },
+        {
+          "id": "14970673",
+          "name": "Gubei CN to HQ",
+          "score": 6
+        },
+        {
+          "id": "14970710",
+          "name": "Planespotting",
+          "score": 30
+        },
+        {
+          "id": "15566575",
+          "name": "Zhuanxing Lu overpass (westbound) ",
+          "score": 3
+        },
+        {
+          "id": "15606974",
+          "name": "Longming southbound",
+          "score": 4
+        },
+        {
+          "id": "15686762",
+          "name": "Yinggang E Rd",
+          "score": 16
+        },
+        {
+          "id": "15735874",
+          "name": "Longming Lu x Dianpu He bridge (northbound)",
+          "score": 4
+        },
+        {
+          "id": "15772088",
+          "name": "春九路南向",
+          "score": 3
+        },
+        {
+          "id": "16317617",
+          "name": "Minhang Triangle Circuit",
+          "score": 2
+        },
+        {
+          "id": "16661699",
+          "name": "the Li'an Lump - westbound",
+          "score": 10
+        },
+        {
+          "id": "17392119",
+          "name": "Xumei Lu Smash",
+          "score": 12
+        },
+        {
+          "id": "17410883",
+          "name": "HQ expo centre lap",
+          "score": 13
+        },
+        {
+          "id": "17410922",
+          "name": "Hechuan Rd South",
+          "score": 4
+        },
+        {
+          "id": "17772258",
+          "name": "Changhua Lu climb",
+          "score": 7
+        },
+        {
+          "id": "17888512",
+          "name": "Longteng Tramadol Blast",
+          "score": 88
+        },
+        {
+          "id": "17888707",
+          "name": "New Longteng Second Bridge (Retour)",
+          "score": 69
+        },
+        {
+          "id": "18542628",
+          "name": "ZJB Cannonball",
+          "score": 47
+        },
+        {
+          "id": "18626945",
+          "name": "Lianhua Nan Lu from Humin Lu",
+          "score": 2
+        },
+        {
+          "id": "18703013",
+          "name": "Gaojing northward bound",
+          "score": 25
+        },
+        {
+          "id": "18736785",
+          "name": "摩天轮弯",
+          "score": 3
+        },
+        {
+          "id": "20014980",
+          "name": "Hechuan Lu (northbound)",
+          "score": 3
+        },
+        {
+          "id": "20221151",
+          "name": "明中西路桥(西向)",
+          "score": 5
+        },
+        {
+          "id": "20261573",
+          "name": "slamina rehto dna nerdlihc rof tuo kooL",
+          "score": 74
+        },
+        {
+          "id": "21036682",
+          "name": "Minpu Tues - Park to LP with extension",
+          "score": 7
+        },
+        {
+          "id": "21243327",
+          "name": "Sorry Officer I thought you wanted to RACE ! #BTT",
+          "score": 6
+        },
+        {
+          "id": "21322636",
+          "name": "Lianhua Rd Gudai Rd to Caobao Rd (Northbound)",
+          "score": 9
+        },
+        {
+          "id": "21322644",
+          "name": "Lianhua Rd Caobao Rd to Yishan Rd (Northbound)",
+          "score": 5
+        },
+        {
+          "id": "21322650",
+          "name": "Lianhua Rd Yishan Rd to Wuzhong Rd (Northbound)",
+          "score": 8
+        },
+        {
+          "id": "21479104",
+          "name": "Up and Over",
+          "score": 7
+        },
+        {
+          "id": "22324048",
+          "name": "The Skinny (eb)",
+          "score": 9
+        },
+        {
+          "id": "22431799",
+          "name": "Rush Hour from Xujiahui to Wujiaochang",
+          "score": 2
+        },
+        {
+          "id": "22985479",
+          "name": "Dingjia Bridge",
+          "score": 9
+        },
+        {
+          "id": "22985488",
+          "name": "Dushi Rd",
+          "score": 4
+        },
+        {
+          "id": "22985518",
+          "name": "S4 Footbridge#1",
+          "score": 1
+        },
+        {
+          "id": "23169966",
+          "name": "长宁绿道往返",
+          "score": 98
+        },
+        {
+          "id": "23318145",
+          "name": "Zhongchun: Xinsong-Hukun",
+          "score": 5
+        },
+        {
+          "id": "23344868",
+          "name": "MercrediLaParisienneReborn",
+          "score": 17
+        },
+        {
+          "id": "24482615",
+          "name": "Dulwich Dash",
+          "score": 55
+        },
+        {
+          "id": "24482637",
+          "name": "Factorio",
+          "score": 2
+        },
+        {
+          "id": "24482747",
+          "name": "Let there be light",
+          "score": 32
+        },
+        {
+          "id": "24797033",
+          "name": "Changxing rd 2 bridges",
+          "score": 8
+        },
+        {
+          "id": "25521343",
+          "name": "the lump",
+          "score": 2
+        },
+        {
+          "id": "26342638",
+          "name": "Shen Lan Lap n-s-n",
+          "score": 207
+        },
+        {
+          "id": "26481888",
+          "name": "Mt Hongqiao",
+          "score": 59
+        },
+        {
+          "id": "26661851",
+          "name": "Wuzhong Rd (Eastbound)",
+          "score": 7
+        },
+        {
+          "id": "27279141",
+          "name": "Xingfu sprint",
+          "score": 30
+        },
+        {
+          "id": "27307814",
+          "name": "BTP-CN-018",
+          "score": 9
+        },
+        {
+          "id": "27366652",
+          "name": "Longteng Avenue from New Ferry to Longrui Rd - Northbound",
+          "score": 73
+        },
+        {
+          "id": "27502862",
+          "name": "畹町小圈",
+          "score": 3
+        },
+        {
+          "id": "27775488",
+          "name": "BTP-CN-026",
+          "score": 2
+        },
+        {
+          "id": "27873586",
+          "name": "Eastbound over bridge",
+          "score": 1
+        },
+        {
+          "id": "27955023",
+          "name": "BTP-0073",
+          "score": 3
+        },
+        {
+          "id": "28647918",
+          "name": "The Expo Sprint",
+          "score": 3
+        },
+        {
+          "id": "28697371",
+          "name": "BTP-FC005",
+          "score": 11
+        },
+        {
+          "id": "29148720",
+          "name": "G318（华翔路）",
+          "score": 6
+        },
+        {
+          "id": "29363565",
+          "name": "莲花南路TT",
+          "score": 2
+        },
+        {
+          "id": "29374965",
+          "name": "光华路",
+          "score": 10
+        },
+        {
+          "id": "29542959",
+          "name": "Zhaojiabang road - huashan to wanping",
+          "score": 10
+        },
+        {
+          "id": "29856728",
+          "name": "Guijiang Rd Parkside Sprint",
+          "score": 12
+        },
+        {
+          "id": "30082420",
+          "name": "TT-03",
+          "score": 4
+        },
+        {
+          "id": "30082437",
+          "name": "TT-09",
+          "score": 5
+        },
+        {
+          "id": "30251966",
+          "name": "漕宝路电瓶车真多",
+          "score": 1
+        },
+        {
+          "id": "30304242",
+          "name": "Rd. HeChuan (PingNan-CaoBao)",
+          "score": 4
+        },
+        {
+          "id": "30390301",
+          "name": "BTP-S2",
+          "score": 3
+        },
+        {
+          "id": "30390303",
+          "name": "BTP-S3",
+          "score": 2
+        },
+        {
+          "id": "30564351",
+          "name": "FMG-04",
+          "score": 1
+        },
+        {
+          "id": "30564357",
+          "name": "FMG-05",
+          "score": 2
+        },
+        {
+          "id": "30564439",
+          "name": "FMG-13",
+          "score": 3
+        },
+        {
+          "id": "30564472",
+          "name": "FMG-16",
+          "score": 6
+        },
+        {
+          "id": "30768098",
+          "name": "JR003",
+          "score": 15
+        },
+        {
+          "id": "32445632",
+          "name": "King Kong go brrr!",
+          "score": 1
+        },
+        {
+          "id": "32464578",
+          "name": "Jay's private segment",
+          "score": 8
+        },
+        {
+          "id": "32521745",
+          "name": "HONGXIN",
+          "score": 1
+        },
+        {
+          "id": "32557816",
+          "name": "HUAGUANG",
+          "score": 5
+        },
+        {
+          "id": "32568892",
+          "name": "Caobao Xinfu",
+          "score": 5
+        },
+        {
+          "id": "32769946",
+          "name": "航东路通勤",
+          "score": 2
+        },
+        {
+          "id": "32845750",
+          "name": "ride the barrel, and get pitted, so pitted",
+          "score": 9
+        },
+        {
+          "id": "33090424",
+          "name": "诸光转盈港",
+          "score": 4
+        },
+        {
+          "id": "33232674",
+          "name": "镜神冲进申兰路大杀四方",
+          "score": 45
+        },
+        {
+          "id": "33232696",
+          "name": "香榧王镜神300瓦通勤",
+          "score": 10
+        },
+        {
+          "id": "33397216",
+          "name": "The back straight ",
+          "score": 6
+        },
+        {
+          "id": "33638050",
+          "name": "Small Paul's Miniture Rabbit",
+          "score": 1
+        },
+        {
+          "id": "33849584",
+          "name": "小心学生出没！",
+          "score": 2
+        },
+        {
+          "id": "33849589",
+          "name": "吴中路通勤冲！",
+          "score": 5
+        },
+        {
+          "id": "34244695",
+          "name": "Xinsong Rainbow Bridge",
+          "score": 10
+        },
+        {
+          "id": "34326504",
+          "name": "Wumei Road Westbound - Hongmei to Hechuan",
+          "score": 3
+        },
+        {
+          "id": "34479772",
+          "name": "Shenbin Road  northbound w/o tunnel ",
+          "score": 1
+        },
+        {
+          "id": "34777759",
+          "name": "三林滨江 003 Riverside",
+          "score": 5
+        },
+        {
+          "id": "34788066",
+          "name": "明华路地道(北向)",
+          "score": 4
+        },
+        {
+          "id": "35082789",
+          "name": "Temple sprint",
+          "score": 15
+        },
+        {
+          "id": "35118251",
+          "name": "Shanghai Indoor Stadium Loop(2023)",
+          "score": 5
+        },
+        {
+          "id": "35131995",
+          "name": "紫薇绕圈",
+          "score": 14
+        },
+        {
+          "id": "35421256",
+          "name": "Jingcheng Loop",
+          "score": 11
+        },
+        {
+          "id": "35523150",
+          "name": "卖新公路地道冲冲冲",
+          "score": 10
+        },
+        {
+          "id": "35700365",
+          "name": "Office to Hospital",
+          "score": 4
+        },
+        {
+          "id": "35850240",
+          "name": "how to cope with this uneven road & traffic jams 🤨",
+          "score": 17
+        },
+        {
+          "id": "35936286",
+          "name": "Tianyaoqiao (Southbond)",
+          "score": 1
+        },
+        {
+          "id": "35948487",
+          "name": "莘砖公路桥至九新公路",
+          "score": 7
+        },
+        {
+          "id": "36140861",
+          "name": "渡口前的电瓶车真的好烦",
+          "score": 2
+        },
+        {
+          "id": "36140881",
+          "name": "景东路北向南",
+          "score": 5
+        },
+        {
+          "id": "36516350",
+          "name": "经典通勤上班线路A-虹桥绕道至凯旋卡红绿灯不停车",
+          "score": 2
+        },
+        {
+          "id": "36885573",
+          "name": "午休骑行2号线",
+          "score": 5
+        },
+        {
+          "id": "36894166",
+          "name": "ER - Babies Arm",
+          "score": 19
+        },
+        {
+          "id": "37094671",
+          "name": "Head to Guanghua",
+          "score": 7
+        },
+        {
+          "id": "37099811",
+          "name": "涞寅路桥东",
+          "score": 17
+        },
+        {
+          "id": "37431069",
+          "name": "Jianhe road smash",
+          "score": 1
+        },
+        {
+          "id": "37542209",
+          "name": "三林滨江 094",
+          "score": 274
+        },
+        {
+          "id": "37670361",
+          "name": "Fenglin Push",
+          "score": 7
+        },
+        {
+          "id": "37701039",
+          "name": "SP's Sneaky Dogleg",
+          "score": 23
+        },
+        {
+          "id": "37744682",
+          "name": "打螺丝通勤也能刷KOM",
+          "score": 9
+        },
+        {
+          "id": "38353251",
+          "name": "Donghang->Konggangsan->Yingle->Lianhong loop",
+          "score": 8
+        },
+        {
+          "id": "38659188",
+          "name": "浦江 029 Riverside Forest",
+          "score": 1
+        },
+        {
+          "id": "38663066",
+          "name": "浦江 030 U Turn Short",
+          "score": 1
+        },
+        {
+          "id": "39173049",
+          "name": "路过维璟印象城不喝奶茶嘛",
+          "score": 5
+        },
+        {
+          "id": "39173188",
+          "name": "小龙虾后顾戴路休闲骑",
+          "score": 1
+        },
+        {
+          "id": "39219946",
+          "name": "沪闵路淀浦河桥",
+          "score": 14
+        },
+        {
+          "id": "39230846",
+          "name": "Back Home From Coffee",
+          "score": 5
+        },
+        {
+          "id": "39336275",
+          "name": "Yingbin 3rd Rd. (Westbound) ",
+          "score": 35
+        },
+        {
+          "id": "39571505",
+          "name": "漕宝路RUN*3",
+          "score": 13
+        },
+        {
+          "id": "39792090",
+          "name": "Tour de Xinglian",
+          "score": 5
+        },
+        {
+          "id": "40266405",
+          "name": "Wanyuan",
+          "score": 6
+        },
+        {
+          "id": "40505559",
+          "name": "Shengang Factories",
+          "score": 8
+        },
+        {
+          "id": "40743598",
+          "name": "New Extended Longteng Loop 🦊",
+          "score": 210
+        },
+        {
+          "id": "40761239",
+          "name": "文定路蒲汇塘路",
+          "score": 1
+        },
+        {
+          "id": "41383322",
+          "name": "factory绕圈",
+          "score": 439
+        },
+        {
+          "id": "41637235",
+          "name": "诺诺晨骑要迟到了",
+          "score": 11
+        },
+        {
+          "id": "41727278",
+          "name": "虹桥环机场线~",
+          "score": 6
+        },
+        {
+          "id": "41804900",
+          "name": "上海纯申",
+          "score": 5
+        },
+        {
+          "id": "41903743",
+          "name": "石龙CC",
+          "score": 10
+        },
+        {
+          "id": "42345837",
+          "name": "6哥带你刷两山",
+          "score": 23
+        }
+      ],
+      "absentInHigher": [],
+      "retained": 61,
+      "startInsideNew": 166,
+      "startInsideAbsent": 0
+    }
+  },
+  "quadrants": [
+    {
+      "parentTile": {
+        "z": 12,
+        "x": 3428,
+        "y": 1674
+      },
+      "z12Unique": 73,
+      "z13Unique": 89,
+      "newInZ13": 16,
+      "absentInZ13": 0
+    },
+    {
+      "parentTile": {
+        "z": 12,
+        "x": 3429,
+        "y": 1674
+      },
+      "z12Unique": 86,
+      "z13Unique": 125,
+      "newInZ13": 39,
+      "absentInZ13": 0
+    },
+    {
+      "parentTile": {
+        "z": 12,
+        "x": 3429,
+        "y": 1675
+      },
+      "z12Unique": 40,
+      "z13Unique": 47,
+      "newInZ13": 7,
+      "absentInZ13": 0
+    },
+    {
+      "parentTile": {
+        "z": 12,
+        "x": 3428,
+        "y": 1675
+      },
+      "z12Unique": 37,
+      "z13Unique": 44,
+      "newInZ13": 7,
+      "absentInZ13": 0
+    }
+  ],
+  "scoreChanges": [],
+  "idSets": {
+    "11": [
+      "5099103",
+      "6049177",
+      "7128365",
+      "7139077",
+      "7384300",
+      "7875470",
+      "7875513",
+      "8103030",
+      "11388190",
+      "11774573",
+      "12006911",
+      "12057928",
+      "12302059",
+      "12992218",
+      "14031728",
+      "14770507",
+      "14775003",
+      "14799842",
+      "15735849",
+      "15772069",
+      "16400965",
+      "17888371",
+      "18921938",
+      "18950789",
+      "19942490",
+      "21384969",
+      "21762400",
+      "22068484",
+      "22349388",
+      "23156055",
+      "23376686",
+      "23685532",
+      "23869362",
+      "24989686",
+      "26887116",
+      "27103510",
+      "27619482",
+      "27955036",
+      "29366937",
+      "29780287",
+      "30390315",
+      "30564374",
+      "30564546",
+      "32569054",
+      "34591064",
+      "35043761",
+      "35043908",
+      "35304245",
+      "35418098",
+      "36111952",
+      "36112090",
+      "36379800",
+      "36651288",
+      "37431019",
+      "40019920",
+      "40145172",
+      "40540572",
+      "40713481",
+      "40840877",
+      "40841378",
+      "41093492"
+    ],
+    "12": [
+      "1515348",
+      "5099103",
+      "5425955",
+      "5630841",
+      "5654531",
+      "6049177",
+      "6092412",
+      "6170928",
+      "6180756",
+      "6200620",
+      "6534591",
+      "6936509",
+      "6952597",
+      "6983244",
+      "7036885",
+      "7036893",
+      "7128365",
+      "7139077",
+      "7197828",
+      "7291363",
+      "7384300",
+      "7477984",
+      "7533823",
+      "7875470",
+      "7875513",
+      "7875533",
+      "7875550",
+      "8103030",
+      "8382014",
+      "8677287",
+      "9126724",
+      "9513186",
+      "10541863",
+      "10936809",
+      "11141802",
+      "11387860",
+      "11388190",
+      "11543947",
+      "11585802",
+      "11687328",
+      "11774573",
+      "11774580",
+      "11951366",
+      "12002946",
+      "12003151",
+      "12006911",
+      "12057928",
+      "12302059",
+      "12562160",
+      "12992218",
+      "13001633",
+      "13250842",
+      "13659579",
+      "13829135",
+      "13917007",
+      "13926923",
+      "13969066",
+      "14031728",
+      "14717649",
+      "14717672",
+      "14770507",
+      "14775003",
+      "14788260",
+      "14799842",
+      "14970673",
+      "15566575",
+      "15606974",
+      "15686762",
+      "15735849",
+      "15772069",
+      "16317617",
+      "16400965",
+      "16661699",
+      "17392119",
+      "17410883",
+      "17410922",
+      "17772258",
+      "17888371",
+      "17888512",
+      "18542628",
+      "18626945",
+      "18703013",
+      "18921938",
+      "18950789",
+      "19942490",
+      "20014980",
+      "21036682",
+      "21322636",
+      "21322644",
+      "21322650",
+      "21384969",
+      "21479104",
+      "21762400",
+      "22068484",
+      "22324048",
+      "22349388",
+      "22431799",
+      "22985479",
+      "22985518",
+      "23156055",
+      "23169966",
+      "23344868",
+      "23376686",
+      "23685532",
+      "23869362",
+      "24482615",
+      "24482637",
+      "24482747",
+      "24797033",
+      "24989686",
+      "26342638",
+      "26481888",
+      "26661851",
+      "26887116",
+      "27103510",
+      "27279141",
+      "27307814",
+      "27366652",
+      "27619482",
+      "27955023",
+      "27955036",
+      "28647918",
+      "28697371",
+      "29148720",
+      "29363565",
+      "29366937",
+      "29374965",
+      "29542959",
+      "29780287",
+      "29856728",
+      "30082420",
+      "30082437",
+      "30390301",
+      "30390303",
+      "30390315",
+      "30564357",
+      "30564374",
+      "30564472",
+      "30564546",
+      "30768098",
+      "32464578",
+      "32557816",
+      "32568892",
+      "32569054",
+      "32769946",
+      "33090424",
+      "33232696",
+      "33397216",
+      "34244695",
+      "34591064",
+      "34777759",
+      "34788066",
+      "35043761",
+      "35043908",
+      "35082789",
+      "35118251",
+      "35131995",
+      "35304245",
+      "35418098",
+      "35421256",
+      "35523150",
+      "35700365",
+      "35850240",
+      "36111952",
+      "36112090",
+      "36140861",
+      "36140881",
+      "36379800",
+      "36516350",
+      "36651288",
+      "36894166",
+      "37094671",
+      "37099811",
+      "37431019",
+      "37670361",
+      "37701039",
+      "37744682",
+      "38353251",
+      "38659188",
+      "39173049",
+      "39173188",
+      "39219946",
+      "39336275",
+      "39571505",
+      "40019920",
+      "40145172",
+      "40266405",
+      "40505559",
+      "40540572",
+      "40713481",
+      "40840877",
+      "40841378",
+      "41093492",
+      "41383322",
+      "41637235",
+      "41727278",
+      "41804900",
+      "41903743",
+      "42345837"
+    ],
+    "13": [
+      "1515348",
+      "5099103",
+      "5205541",
+      "5425955",
+      "5630841",
+      "5643945",
+      "5654531",
+      "6049177",
+      "6092412",
+      "6157088",
+      "6157946",
+      "6170928",
+      "6180756",
+      "6200620",
+      "6534591",
+      "6924741",
+      "6936509",
+      "6952597",
+      "6983244",
+      "7036885",
+      "7036893",
+      "7070970",
+      "7128365",
+      "7139077",
+      "7155576",
+      "7197828",
+      "7291363",
+      "7384300",
+      "7477984",
+      "7533823",
+      "7867275",
+      "7875470",
+      "7875513",
+      "7875533",
+      "7875550",
+      "7966482",
+      "8103030",
+      "8382014",
+      "8541137",
+      "8677287",
+      "8951147",
+      "9110867",
+      "9126724",
+      "9348169",
+      "9513186",
+      "10454143",
+      "10541863",
+      "10634583",
+      "10936809",
+      "11141802",
+      "11387860",
+      "11388190",
+      "11446385",
+      "11449679",
+      "11456387",
+      "11482357",
+      "11543947",
+      "11585802",
+      "11687328",
+      "11774573",
+      "11774580",
+      "11814224",
+      "11881788",
+      "11951366",
+      "12002946",
+      "12003151",
+      "12006911",
+      "12008725",
+      "12057928",
+      "12254383",
+      "12302059",
+      "12562160",
+      "12615004",
+      "12667877",
+      "12744033",
+      "12992218",
+      "13001633",
+      "13250842",
+      "13659579",
+      "13732749",
+      "13829135",
+      "13917007",
+      "13926923",
+      "13969066",
+      "14031728",
+      "14717649",
+      "14717672",
+      "14717706",
+      "14770507",
+      "14775003",
+      "14788260",
+      "14799842",
+      "14970673",
+      "14970710",
+      "15566575",
+      "15606974",
+      "15686762",
+      "15735849",
+      "15735874",
+      "15772069",
+      "15772088",
+      "16317617",
+      "16400965",
+      "16661699",
+      "17392119",
+      "17410883",
+      "17410922",
+      "17772258",
+      "17888371",
+      "17888512",
+      "17888707",
+      "18542628",
+      "18626945",
+      "18703013",
+      "18736785",
+      "18921938",
+      "18950789",
+      "19942490",
+      "20014980",
+      "20221151",
+      "20261573",
+      "21036682",
+      "21243327",
+      "21322636",
+      "21322644",
+      "21322650",
+      "21384969",
+      "21479104",
+      "21762400",
+      "22068484",
+      "22324048",
+      "22349388",
+      "22431799",
+      "22985479",
+      "22985488",
+      "22985518",
+      "23156055",
+      "23169966",
+      "23318145",
+      "23344868",
+      "23376686",
+      "23685532",
+      "23869362",
+      "24482615",
+      "24482637",
+      "24482747",
+      "24797033",
+      "24989686",
+      "25521343",
+      "26342638",
+      "26481888",
+      "26661851",
+      "26887116",
+      "27103510",
+      "27279141",
+      "27307814",
+      "27366652",
+      "27502862",
+      "27619482",
+      "27775488",
+      "27873586",
+      "27955023",
+      "27955036",
+      "28647918",
+      "28697371",
+      "29148720",
+      "29363565",
+      "29366937",
+      "29374965",
+      "29542959",
+      "29780287",
+      "29856728",
+      "30082420",
+      "30082437",
+      "30251966",
+      "30304242",
+      "30390301",
+      "30390303",
+      "30390315",
+      "30564351",
+      "30564357",
+      "30564374",
+      "30564439",
+      "30564472",
+      "30564546",
+      "30768098",
+      "32445632",
+      "32464578",
+      "32521745",
+      "32557816",
+      "32568892",
+      "32569054",
+      "32769946",
+      "32845750",
+      "33090424",
+      "33232674",
+      "33232696",
+      "33397216",
+      "33638050",
+      "33849584",
+      "33849589",
+      "34244695",
+      "34326504",
+      "34479772",
+      "34591064",
+      "34777759",
+      "34788066",
+      "35043761",
+      "35043908",
+      "35082789",
+      "35118251",
+      "35131995",
+      "35304245",
+      "35418098",
+      "35421256",
+      "35523150",
+      "35700365",
+      "35850240",
+      "35936286",
+      "35948487",
+      "36111952",
+      "36112090",
+      "36140861",
+      "36140881",
+      "36379800",
+      "36516350",
+      "36651288",
+      "36885573",
+      "36894166",
+      "37094671",
+      "37099811",
+      "37431019",
+      "37431069",
+      "37542209",
+      "37670361",
+      "37701039",
+      "37744682",
+      "38353251",
+      "38659188",
+      "38663066",
+      "39173049",
+      "39173188",
+      "39219946",
+      "39230846",
+      "39336275",
+      "39571505",
+      "39792090",
+      "40019920",
+      "40145172",
+      "40266405",
+      "40505559",
+      "40540572",
+      "40713481",
+      "40743598",
+      "40761239",
+      "40840877",
+      "40841378",
+      "41093492",
+      "41383322",
+      "41637235",
+      "41727278",
+      "41804900",
+      "41903743",
+      "42345837"
+    ]
+  },
+  "rawIdSets": {
+    "11": [
+      "5099103",
+      "6049177",
+      "7128365",
+      "7139077",
+      "7384300",
+      "7875470",
+      "7875513",
+      "8103030",
+      "11388190",
+      "11774573",
+      "12006911",
+      "12057928",
+      "12302059",
+      "12992218",
+      "14031728",
+      "14770507",
+      "14775003",
+      "14799842",
+      "15735849",
+      "15772069",
+      "16400965",
+      "17888371",
+      "18921938",
+      "18950789",
+      "19942490",
+      "21384969",
+      "21762400",
+      "22068484",
+      "22349388",
+      "23156055",
+      "23376686",
+      "23685532",
+      "23869362",
+      "24989686",
+      "26887116",
+      "27103510",
+      "27619482",
+      "27955036",
+      "29366937",
+      "29780287",
+      "30390315",
+      "30564374",
+      "30564546",
+      "32569054",
+      "34591064",
+      "35043761",
+      "35043908",
+      "35304245",
+      "35418098",
+      "36111952",
+      "36112090",
+      "36379800",
+      "36651288",
+      "37431019",
+      "40019920",
+      "40145172",
+      "40540572",
+      "40713481",
+      "40840877",
+      "40841378",
+      "41093492"
+    ],
+    "12": [
+      "1515348",
+      "5099103",
+      "5425955",
+      "5630841",
+      "5654531",
+      "6049177",
+      "6092412",
+      "6170928",
+      "6180756",
+      "6200620",
+      "6534591",
+      "6936509",
+      "6952597",
+      "6983244",
+      "7036885",
+      "7036893",
+      "7128365",
+      "7139077",
+      "7197828",
+      "7291363",
+      "7384300",
+      "7477984",
+      "7533823",
+      "7875470",
+      "7875513",
+      "7875533",
+      "7875550",
+      "8103030",
+      "8382014",
+      "8677287",
+      "9126724",
+      "9513186",
+      "10541863",
+      "10936809",
+      "11141802",
+      "11387860",
+      "11388190",
+      "11543947",
+      "11585802",
+      "11687328",
+      "11774573",
+      "11774580",
+      "11951366",
+      "12002946",
+      "12003151",
+      "12006911",
+      "12057928",
+      "12302059",
+      "12562160",
+      "12992218",
+      "13001633",
+      "13250842",
+      "13659579",
+      "13829135",
+      "13917007",
+      "13926923",
+      "13969066",
+      "14031728",
+      "14717649",
+      "14717672",
+      "14770507",
+      "14775003",
+      "14788260",
+      "14799842",
+      "14970673",
+      "15566575",
+      "15606974",
+      "15686762",
+      "15735849",
+      "15772069",
+      "16317617",
+      "16400965",
+      "16661699",
+      "17392119",
+      "17410883",
+      "17410922",
+      "17772258",
+      "17888371",
+      "17888512",
+      "18542628",
+      "18626945",
+      "18703013",
+      "18921938",
+      "18950789",
+      "19942490",
+      "20014980",
+      "21036682",
+      "21322636",
+      "21322644",
+      "21322650",
+      "21384969",
+      "21479104",
+      "21762400",
+      "22068484",
+      "22324048",
+      "22349388",
+      "22431799",
+      "22985479",
+      "22985518",
+      "23156055",
+      "23169966",
+      "23344868",
+      "23376686",
+      "23685532",
+      "23869362",
+      "24482615",
+      "24482637",
+      "24482747",
+      "24797033",
+      "24989686",
+      "26342638",
+      "26481888",
+      "26661851",
+      "26887116",
+      "27103510",
+      "27279141",
+      "27307814",
+      "27366652",
+      "27619482",
+      "27955023",
+      "27955036",
+      "28647918",
+      "28697371",
+      "29148720",
+      "29363565",
+      "29366937",
+      "29374965",
+      "29542959",
+      "29780287",
+      "29856728",
+      "30082420",
+      "30082437",
+      "30390301",
+      "30390303",
+      "30390315",
+      "30564357",
+      "30564374",
+      "30564472",
+      "30564546",
+      "30768098",
+      "32464578",
+      "32557816",
+      "32568892",
+      "32569054",
+      "32769946",
+      "33090424",
+      "33232696",
+      "33397216",
+      "34244695",
+      "34591064",
+      "34777759",
+      "34788066",
+      "35043761",
+      "35043908",
+      "35082789",
+      "35118251",
+      "35131995",
+      "35304245",
+      "35418098",
+      "35421256",
+      "35523150",
+      "35700365",
+      "35850240",
+      "36111952",
+      "36112090",
+      "36140861",
+      "36140881",
+      "36379800",
+      "36516350",
+      "36651288",
+      "36894166",
+      "37094671",
+      "37099811",
+      "37431019",
+      "37670361",
+      "37701039",
+      "37744682",
+      "38353251",
+      "38659188",
+      "39173049",
+      "39173188",
+      "39219946",
+      "39336275",
+      "39571505",
+      "40019920",
+      "40145172",
+      "40266405",
+      "40505559",
+      "40540572",
+      "40713481",
+      "40840877",
+      "40841378",
+      "41093492",
+      "41383322",
+      "41637235",
+      "41727278",
+      "41804900",
+      "41903743",
+      "42345837"
+    ],
+    "13": [
+      "1515348",
+      "5099103",
+      "5205541",
+      "5425955",
+      "5630841",
+      "5643945",
+      "5654531",
+      "6049177",
+      "6092412",
+      "6157088",
+      "6157946",
+      "6170928",
+      "6180756",
+      "6200620",
+      "6534591",
+      "6924741",
+      "6936509",
+      "6952597",
+      "6983244",
+      "7036885",
+      "7036893",
+      "7070970",
+      "7128365",
+      "7139077",
+      "7155576",
+      "7197828",
+      "7291363",
+      "7384300",
+      "7477984",
+      "7533823",
+      "7867275",
+      "7875470",
+      "7875513",
+      "7875533",
+      "7875550",
+      "7966482",
+      "8103030",
+      "8382014",
+      "8541137",
+      "8677287",
+      "8951147",
+      "9110867",
+      "9126724",
+      "9348169",
+      "9513186",
+      "10454143",
+      "10541863",
+      "10634583",
+      "10936809",
+      "11141802",
+      "11387860",
+      "11388190",
+      "11446385",
+      "11449679",
+      "11456387",
+      "11482357",
+      "11543947",
+      "11585802",
+      "11687328",
+      "11774573",
+      "11774580",
+      "11814224",
+      "11881788",
+      "11951366",
+      "12002946",
+      "12003151",
+      "12006911",
+      "12008725",
+      "12057928",
+      "12254383",
+      "12302059",
+      "12562160",
+      "12615004",
+      "12667877",
+      "12744033",
+      "12992218",
+      "13001633",
+      "13250842",
+      "13659579",
+      "13732749",
+      "13829135",
+      "13917007",
+      "13926923",
+      "13969066",
+      "14031728",
+      "14717649",
+      "14717672",
+      "14717706",
+      "14770507",
+      "14775003",
+      "14788260",
+      "14799842",
+      "14970673",
+      "14970710",
+      "15566575",
+      "15606974",
+      "15686762",
+      "15735849",
+      "15735874",
+      "15772069",
+      "15772088",
+      "16317617",
+      "16400965",
+      "16661699",
+      "17392119",
+      "17410883",
+      "17410922",
+      "17772258",
+      "17888371",
+      "17888512",
+      "17888707",
+      "18542628",
+      "18626945",
+      "18703013",
+      "18736785",
+      "18921938",
+      "18950789",
+      "19942490",
+      "20014980",
+      "20221151",
+      "20261573",
+      "21036682",
+      "21243327",
+      "21322636",
+      "21322644",
+      "21322650",
+      "21384969",
+      "21479104",
+      "21762400",
+      "22068484",
+      "22324048",
+      "22349388",
+      "22431799",
+      "22985479",
+      "22985488",
+      "22985518",
+      "23156055",
+      "23169966",
+      "23318145",
+      "23344868",
+      "23376686",
+      "23685532",
+      "23869362",
+      "24482615",
+      "24482637",
+      "24482747",
+      "24797033",
+      "24989686",
+      "25521343",
+      "26342638",
+      "26481888",
+      "26661851",
+      "26887116",
+      "27103510",
+      "27279141",
+      "27307814",
+      "27366652",
+      "27502862",
+      "27619482",
+      "27775488",
+      "27873586",
+      "27955023",
+      "27955036",
+      "28647918",
+      "28697371",
+      "29148720",
+      "29363565",
+      "29366937",
+      "29374965",
+      "29542959",
+      "29780287",
+      "29856728",
+      "30082420",
+      "30082437",
+      "30251966",
+      "30304242",
+      "30390301",
+      "30390303",
+      "30390315",
+      "30564351",
+      "30564357",
+      "30564374",
+      "30564439",
+      "30564472",
+      "30564546",
+      "30768098",
+      "32445632",
+      "32464578",
+      "32521745",
+      "32557816",
+      "32568892",
+      "32569054",
+      "32769946",
+      "32845750",
+      "33090424",
+      "33232674",
+      "33232696",
+      "33397216",
+      "33638050",
+      "33849584",
+      "33849589",
+      "34244695",
+      "34326504",
+      "34479772",
+      "34591064",
+      "34777759",
+      "34788066",
+      "35043761",
+      "35043908",
+      "35082789",
+      "35118251",
+      "35131995",
+      "35304245",
+      "35418098",
+      "35421256",
+      "35523150",
+      "35700365",
+      "35850240",
+      "35936286",
+      "35948487",
+      "36111952",
+      "36112090",
+      "36140861",
+      "36140881",
+      "36379800",
+      "36516350",
+      "36651288",
+      "36885573",
+      "36894166",
+      "37094671",
+      "37099811",
+      "37431019",
+      "37431069",
+      "37542209",
+      "37670361",
+      "37701039",
+      "37744682",
+      "38353251",
+      "38659188",
+      "38663066",
+      "39173049",
+      "39173188",
+      "39219946",
+      "39230846",
+      "39336275",
+      "39571505",
+      "39792090",
+      "40019920",
+      "40145172",
+      "40266405",
+      "40505559",
+      "40540572",
+      "40713481",
+      "40743598",
+      "40761239",
+      "40840877",
+      "40841378",
+      "41093492",
+      "41383322",
+      "41637235",
+      "41727278",
+      "41804900",
+      "41903743",
+      "42345837"
+    ]
+  },
+  "startInsideIdSets": {
+    "11": [
+      "5099103",
+      "7128365",
+      "7139077",
+      "7384300",
+      "7875470",
+      "7875513",
+      "8103030",
+      "12006911",
+      "12057928",
+      "12302059",
+      "12992218",
+      "14031728",
+      "14770507",
+      "14775003",
+      "14799842",
+      "15735849",
+      "15772069",
+      "16400965",
+      "17888371",
+      "18921938",
+      "18950789",
+      "19942490",
+      "21384969",
+      "21762400",
+      "22068484",
+      "22349388",
+      "23156055",
+      "23376686",
+      "23685532",
+      "24989686",
+      "27103510",
+      "27619482",
+      "29366937",
+      "29780287",
+      "30390315",
+      "30564374",
+      "32569054",
+      "34591064",
+      "35043761",
+      "35043908",
+      "35304245",
+      "36111952",
+      "36112090",
+      "36379800",
+      "36651288",
+      "37431019",
+      "40019920",
+      "40145172",
+      "40540572",
+      "40713481",
+      "40840877",
+      "40841378",
+      "41093492"
+    ],
+    "12": [
+      "1515348",
+      "5099103",
+      "5425955",
+      "5630841",
+      "6092412",
+      "6170928",
+      "6180756",
+      "6200620",
+      "6534591",
+      "6936509",
+      "6983244",
+      "7036885",
+      "7036893",
+      "7128365",
+      "7139077",
+      "7197828",
+      "7291363",
+      "7384300",
+      "7533823",
+      "7875470",
+      "7875513",
+      "7875533",
+      "7875550",
+      "8103030",
+      "8382014",
+      "8677287",
+      "9126724",
+      "9513186",
+      "10936809",
+      "11141802",
+      "11387860",
+      "11543947",
+      "11585802",
+      "11687328",
+      "11774580",
+      "11951366",
+      "12002946",
+      "12003151",
+      "12006911",
+      "12057928",
+      "12302059",
+      "12562160",
+      "12992218",
+      "13001633",
+      "13659579",
+      "13829135",
+      "13917007",
+      "13926923",
+      "13969066",
+      "14031728",
+      "14717649",
+      "14717672",
+      "14770507",
+      "14775003",
+      "14799842",
+      "15566575",
+      "15606974",
+      "15735849",
+      "15772069",
+      "16317617",
+      "16400965",
+      "16661699",
+      "17392119",
+      "17410883",
+      "17410922",
+      "17772258",
+      "17888371",
+      "17888512",
+      "18542628",
+      "18626945",
+      "18703013",
+      "18921938",
+      "18950789",
+      "19942490",
+      "20014980",
+      "21322636",
+      "21322644",
+      "21322650",
+      "21384969",
+      "21479104",
+      "21762400",
+      "22068484",
+      "22324048",
+      "22349388",
+      "22431799",
+      "22985479",
+      "22985518",
+      "23156055",
+      "23376686",
+      "23685532",
+      "24482637",
+      "24482747",
+      "24797033",
+      "24989686",
+      "26481888",
+      "26661851",
+      "27103510",
+      "27307814",
+      "27366652",
+      "27619482",
+      "27955023",
+      "28647918",
+      "29148720",
+      "29366937",
+      "29374965",
+      "29542959",
+      "29780287",
+      "29856728",
+      "30082437",
+      "30390301",
+      "30390303",
+      "30390315",
+      "30564357",
+      "30564374",
+      "30564472",
+      "30768098",
+      "32557816",
+      "32568892",
+      "32569054",
+      "32769946",
+      "33090424",
+      "33232696",
+      "33397216",
+      "34244695",
+      "34591064",
+      "34788066",
+      "35043761",
+      "35043908",
+      "35082789",
+      "35118251",
+      "35131995",
+      "35304245",
+      "35421256",
+      "35523150",
+      "35700365",
+      "36111952",
+      "36112090",
+      "36140861",
+      "36140881",
+      "36379800",
+      "36651288",
+      "37094671",
+      "37099811",
+      "37431019",
+      "37670361",
+      "37701039",
+      "37744682",
+      "38353251",
+      "39173049",
+      "39173188",
+      "39219946",
+      "39336275",
+      "39571505",
+      "40019920",
+      "40145172",
+      "40266405",
+      "40540572",
+      "40713481",
+      "40840877",
+      "40841378",
+      "41093492",
+      "41383322",
+      "41804900",
+      "41903743",
+      "42345837"
+    ],
+    "13": [
+      "1515348",
+      "5099103",
+      "5205541",
+      "5425955",
+      "5630841",
+      "5643945",
+      "6092412",
+      "6157088",
+      "6157946",
+      "6170928",
+      "6180756",
+      "6200620",
+      "6534591",
+      "6924741",
+      "6936509",
+      "6983244",
+      "7036885",
+      "7036893",
+      "7128365",
+      "7139077",
+      "7155576",
+      "7197828",
+      "7291363",
+      "7384300",
+      "7533823",
+      "7867275",
+      "7875470",
+      "7875513",
+      "7875533",
+      "7875550",
+      "7966482",
+      "8103030",
+      "8382014",
+      "8541137",
+      "8677287",
+      "9126724",
+      "9348169",
+      "9513186",
+      "10454143",
+      "10634583",
+      "10936809",
+      "11141802",
+      "11387860",
+      "11446385",
+      "11449679",
+      "11456387",
+      "11482357",
+      "11543947",
+      "11585802",
+      "11687328",
+      "11774580",
+      "11814224",
+      "11881788",
+      "11951366",
+      "12002946",
+      "12003151",
+      "12006911",
+      "12008725",
+      "12057928",
+      "12302059",
+      "12562160",
+      "12615004",
+      "12667877",
+      "12744033",
+      "12992218",
+      "13001633",
+      "13659579",
+      "13732749",
+      "13829135",
+      "13917007",
+      "13926923",
+      "13969066",
+      "14031728",
+      "14717649",
+      "14717672",
+      "14717706",
+      "14770507",
+      "14775003",
+      "14799842",
+      "14970710",
+      "15566575",
+      "15606974",
+      "15735849",
+      "15735874",
+      "15772069",
+      "15772088",
+      "16317617",
+      "16400965",
+      "16661699",
+      "17392119",
+      "17410883",
+      "17410922",
+      "17772258",
+      "17888371",
+      "17888512",
+      "17888707",
+      "18542628",
+      "18626945",
+      "18703013",
+      "18736785",
+      "18921938",
+      "18950789",
+      "19942490",
+      "20014980",
+      "20221151",
+      "20261573",
+      "21322636",
+      "21322644",
+      "21322650",
+      "21384969",
+      "21479104",
+      "21762400",
+      "22068484",
+      "22324048",
+      "22349388",
+      "22431799",
+      "22985479",
+      "22985488",
+      "22985518",
+      "23156055",
+      "23318145",
+      "23376686",
+      "23685532",
+      "24482637",
+      "24482747",
+      "24797033",
+      "24989686",
+      "25521343",
+      "26481888",
+      "26661851",
+      "27103510",
+      "27307814",
+      "27366652",
+      "27502862",
+      "27619482",
+      "27873586",
+      "27955023",
+      "28647918",
+      "29148720",
+      "29366937",
+      "29374965",
+      "29542959",
+      "29780287",
+      "29856728",
+      "30082437",
+      "30251966",
+      "30304242",
+      "30390301",
+      "30390303",
+      "30390315",
+      "30564357",
+      "30564374",
+      "30564439",
+      "30564472",
+      "30768098",
+      "32445632",
+      "32521745",
+      "32557816",
+      "32568892",
+      "32569054",
+      "32769946",
+      "32845750",
+      "33090424",
+      "33232674",
+      "33232696",
+      "33397216",
+      "33849584",
+      "33849589",
+      "34244695",
+      "34326504",
+      "34479772",
+      "34591064",
+      "34788066",
+      "35043761",
+      "35043908",
+      "35082789",
+      "35118251",
+      "35131995",
+      "35304245",
+      "35421256",
+      "35523150",
+      "35700365",
+      "35936286",
+      "35948487",
+      "36111952",
+      "36112090",
+      "36140861",
+      "36140881",
+      "36379800",
+      "36651288",
+      "36885573",
+      "37094671",
+      "37099811",
+      "37431019",
+      "37431069",
+      "37670361",
+      "37701039",
+      "37744682",
+      "38353251",
+      "39173049",
+      "39173188",
+      "39219946",
+      "39336275",
+      "39571505",
+      "39792090",
+      "40019920",
+      "40145172",
+      "40266405",
+      "40540572",
+      "40713481",
+      "40743598",
+      "40761239",
+      "40840877",
+      "40841378",
+      "41093492",
+      "41383322",
+      "41804900",
+      "41903743",
+      "42345837"
+    ]
+  },
+  "databaseComparison": {
+    "checkedAt": "2026-11-03T05:38:18.842Z",
+    "existingCount": 78,
+    "missingCount": 186,
+    "missingIds": [
+      "1515348",
+      "5205541",
+      "5425955",
+      "5630841",
+      "5654531",
+      "6092412",
+      "6157088",
+      "6157946",
+      "6170928",
+      "6180756",
+      "6200620",
+      "6534591",
+      "6924741",
+      "6936509",
+      "6952597",
+      "6983244",
+      "7036885",
+      "7036893",
+      "7070970",
+      "7155576",
+      "7197828",
+      "7291363",
+      "7477984",
+      "7533823",
+      "7867275",
+      "7875533",
+      "7966482",
+      "8382014",
+      "8541137",
+      "8677287",
+      "8951147",
+      "9110867",
+      "9126724",
+      "9348169",
+      "9513186",
+      "10454143",
+      "10541863",
+      "10634583",
+      "10936809",
+      "11141802",
+      "11387860",
+      "11446385",
+      "11449679",
+      "11456387",
+      "11482357",
+      "11543947",
+      "11585802",
+      "11687328",
+      "11774580",
+      "11814224",
+      "12002946",
+      "12003151",
+      "12008725",
+      "12254383",
+      "12562160",
+      "12615004",
+      "12667877",
+      "12744033",
+      "13250842",
+      "13659579",
+      "13732749",
+      "13926923",
+      "14717649",
+      "14717672",
+      "14717706",
+      "14788260",
+      "14970673",
+      "14970710",
+      "15566575",
+      "15606974",
+      "15686762",
+      "15735874",
+      "15772088",
+      "16317617",
+      "16661699",
+      "17392119",
+      "17410922",
+      "17772258",
+      "17888512",
+      "18626945",
+      "18703013",
+      "18736785",
+      "20014980",
+      "20221151",
+      "21036682",
+      "21243327",
+      "21322636",
+      "21322644",
+      "21322650",
+      "21479104",
+      "22324048",
+      "22431799",
+      "22985479",
+      "22985518",
+      "23169966",
+      "23344868",
+      "24482637",
+      "24797033",
+      "25521343",
+      "26342638",
+      "26661851",
+      "27279141",
+      "27307814",
+      "27366652",
+      "27502862",
+      "27775488",
+      "27873586",
+      "27955023",
+      "28647918",
+      "28697371",
+      "29148720",
+      "29363565",
+      "29374965",
+      "29542959",
+      "29856728",
+      "30082420",
+      "30082437",
+      "30251966",
+      "30304242",
+      "30390301",
+      "30390303",
+      "30564351",
+      "30564357",
+      "30564439",
+      "30564472",
+      "30768098",
+      "32445632",
+      "32464578",
+      "32521745",
+      "32557816",
+      "32568892",
+      "32769946",
+      "32845750",
+      "33090424",
+      "33232674",
+      "33232696",
+      "33397216",
+      "33638050",
+      "33849584",
+      "33849589",
+      "34244695",
+      "34326504",
+      "34479772",
+      "34777759",
+      "34788066",
+      "35082789",
+      "35118251",
+      "35131995",
+      "35421256",
+      "35523150",
+      "35700365",
+      "35850240",
+      "35936286",
+      "35948487",
+      "36140861",
+      "36140881",
+      "36516350",
+      "36885573",
+      "36894166",
+      "37094671",
+      "37099811",
+      "37431069",
+      "37542209",
+      "37670361",
+      "37701039",
+      "37744682",
+      "38353251",
+      "38659188",
+      "38663066",
+      "39173049",
+      "39173188",
+      "39219946",
+      "39230846",
+      "39336275",
+      "39571505",
+      "39792090",
+      "40266405",
+      "40505559",
+      "40743598",
+      "40761239",
+      "41383322",
+      "41637235",
+      "41727278",
+      "41804900",
+      "41903743",
+      "42345837"
+    ]
+  },
+  "verification": {
+    "independentFeatureIdsMatch": true,
+    "baselineMatchesImportedSample": true,
+    "coarseIdsRetainedAtHigherZoom": true,
+    "capturedTileCounts": {
+      "11": 1,
+      "12": 4,
+      "13": 16
+    },
+    "databaseWrites": 0
+  }
+}

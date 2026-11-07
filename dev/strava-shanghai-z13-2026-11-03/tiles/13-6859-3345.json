@@ -1,0 +1,209 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-03T06:06:53.200Z",
+  "tile": {
+    "z": 13,
+    "x": 6859,
+    "y": 3345
+  },
+  "segments": [
+    {
+      "id": "32254509",
+      "tileScore": 1,
+      "name": "SS Sprint",
+      "distanceM": 550.4000244140625,
+      "avgGrade": 0.03633720800280571,
+      "startLat": 31.27690887451172,
+      "startLng": 121.45918273925781
+    },
+    {
+      "id": "24628549",
+      "tileScore": 1,
+      "name": "Lingfen Road(South Jiangyang Road-Lingnan Road)",
+      "distanceM": 1069.199951171875,
+      "avgGrade": -0.037411149591207504,
+      "startLat": 31.312713623046875,
+      "startLng": 121.46318054199219
+    },
+    {
+      "id": "14300190",
+      "tileScore": 10,
+      "name": "奎照－广中　冲冲冲",
+      "distanceM": 2225.300048828125,
+      "avgGrade": -0.1482946127653122,
+      "startLat": 31.301950454711914,
+      "startLng": 121.4627456665039
+    },
+    {
+      "id": "17743283",
+      "tileScore": 8,
+      "name": "ChangZhong E-W B",
+      "distanceM": 3084.60009765625,
+      "avgGrade": -0.012967645190656185,
+      "startLat": 31.307552337646484,
+      "startLng": 121.44232940673828
+    },
+    {
+      "id": "17743275",
+      "tileScore": 11,
+      "name": "ChangZhong E-W A",
+      "distanceM": 3383.60009765625,
+      "avgGrade": 0.023643456399440765,
+      "startLat": 31.310056686401367,
+      "startLng": 121.4802474975586
+    },
+    {
+      "id": "39983530",
+      "tileScore": 33,
+      "name": "康宁飞弹",
+      "distanceM": 742.9000244140625,
+      "avgGrade": -0.16152915358543396,
+      "startLat": 31.29193878173828,
+      "startLng": 121.4288558959961
+    },
+    {
+      "id": "20792467",
+      "tileScore": 13,
+      "name": "ChangZhong 0",
+      "distanceM": 677.0999755859375,
+      "avgGrade": 0.05907546728849411,
+      "startLat": 31.304651260375977,
+      "startLng": 121.41751861572266
+    },
+    {
+      "id": "20792536",
+      "tileScore": 19,
+      "name": "GongheXin N",
+      "distanceM": 491.79998779296875,
+      "avgGrade": 0.2440016269683838,
+      "startLat": 31.302364349365234,
+      "startLng": 121.44468688964844
+    },
+    {
+      "id": "32724531",
+      "tileScore": 2,
+      "name": "乌漆嘛黑",
+      "distanceM": 24503.5,
+      "avgGrade": 0.026118718087673187,
+      "startLat": 31.306806564331055,
+      "startLng": 121.4298324584961
+    },
+    {
+      "id": "35282541",
+      "tileScore": 55,
+      "name": "瓜姐老巢",
+      "distanceM": 1878.199951171875,
+      "avgGrade": 0.042593974620103836,
+      "startLat": 31.29244041442871,
+      "startLng": 121.4520034790039
+    },
+    {
+      "id": "18247732",
+      "tileScore": 33,
+      "name": "Kangning short sprint",
+      "distanceM": 1563.9000244140625,
+      "avgGrade": 0,
+      "startLat": 31.307376861572266,
+      "startLng": 121.42970275878906
+    },
+    {
+      "id": "36812118",
+      "tileScore": 8,
+      "name": "Tour de Dachang Airport",
+      "distanceM": 20435.400390625,
+      "avgGrade": -0.01565910130739212,
+      "startLat": 31.305885314941406,
+      "startLng": 121.42900085449219
+    },
+    {
+      "id": "1145761",
+      "tileScore": 8,
+      "name": "huizhihu circle",
+      "distanceM": 1602.8599853515625,
+      "avgGrade": -0.006239081267267466,
+      "startLat": 31.284643173217773,
+      "startLng": 121.45288848876953
+    },
+    {
+      "id": "1145779",
+      "tileScore": 28,
+      "name": "daning park circle",
+      "distanceM": 4408.580078125,
+      "avgGrade": 0.0022683453280478716,
+      "startLat": 31.277318954467773,
+      "startLng": 121.43254089355469
+    },
+    {
+      "id": "36524340",
+      "tileScore": 7,
+      "name": "永和大王-零食路绕圈",
+      "distanceM": 2801.699951171875,
+      "avgGrade": 0.007138522807508707,
+      "startLat": 31.285369873046875,
+      "startLng": 121.44669342041016
+    },
+    {
+      "id": "18594407",
+      "tileScore": 8,
+      "name": "Zouma Pond straight",
+      "distanceM": 3573,
+      "avgGrade": 0.01679261215031147,
+      "startLat": 31.301532745361328,
+      "startLng": 121.45572662353516
+    },
+    {
+      "id": "39914147",
+      "tileScore": 5,
+      "name": "曲沃路321弄1.35km",
+      "distanceM": 1315.800048828125,
+      "avgGrade": 0.06079951301217079,
+      "startLat": 31.31249237060547,
+      "startLng": 121.4394302368164
+    },
+    {
+      "id": "33036422",
+      "tileScore": 5,
+      "name": "沪太路-新沪路大宁路段",
+      "distanceM": 2157.699951171875,
+      "avgGrade": -0.06488390266895294,
+      "startLat": 31.270729064941406,
+      "startLng": 121.4345932006836
+    },
+    {
+      "id": "35586803",
+      "tileScore": 8,
+      "name": "江场西路-场中路大圈-康美Pro GO Go GO！",
+      "distanceM": 5737.7998046875,
+      "avgGrade": 0,
+      "startLat": 31.30636978149414,
+      "startLng": 121.46304321289062
+    },
+    {
+      "id": "8156733",
+      "tileScore": 4,
+      "name": "Lingshi Lu",
+      "distanceM": 4742.7998046875,
+      "avgGrade": 0.07379607111215591,
+      "startLat": 31.286205291748047,
+      "startLng": 121.45596313476562
+    },
+    {
+      "id": "35856479",
+      "tileScore": 3,
+      "name": "连场线westward（大连路-大场）",
+      "distanceM": 14133.900390625,
+      "avgGrade": 0.0028300751000642776,
+      "startLat": 31.25510025024414,
+      "startLng": 121.51271057128906
+    },
+    {
+      "id": "6968395",
+      "tileScore": 9,
+      "name": "Jiangyang South Rd Bridge (Northbound)",
+      "distanceM": 752.0999755859375,
+      "avgGrade": -0.2260337769985199,
+      "startLat": 31.30396270751953,
+      "startLng": 121.46290588378906
+    }
+  ]
+}

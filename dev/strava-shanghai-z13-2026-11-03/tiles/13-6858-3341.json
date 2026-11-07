@@ -1,0 +1,56 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-03T06:04:27.860Z",
+  "tile": {
+    "z": 13,
+    "x": 6858,
+    "y": 3341
+  },
+  "segments": [
+    {
+      "id": "37231070",
+      "tileScore": 29,
+      "name": "富长路后半段",
+      "distanceM": 5589.2001953125,
+      "avgGrade": -0.017891647294163704,
+      "startLat": 31.418840408325195,
+      "startLng": 121.39128112792969
+    },
+    {
+      "id": "39134550",
+      "tileScore": 7,
+      "name": "蕴川公路 Roubaix",
+      "distanceM": 4058.5,
+      "avgGrade": 0.05913514643907547,
+      "startLat": 31.422119140625,
+      "startLng": 121.41368865966797
+    },
+    {
+      "id": "6968573",
+      "tileScore": 6,
+      "name": "Shengshi Rd To Shidongkou Ferry Pier",
+      "distanceM": 1433.699951171875,
+      "avgGrade": -0.013949919492006302,
+      "startLat": 31.45693016052246,
+      "startLng": 121.4000473022461
+    },
+    {
+      "id": "6971094",
+      "tileScore": 1,
+      "name": "Chuanxiong Rd (Westbound)",
+      "distanceM": 1277,
+      "avgGrade": 0.007830853573977947,
+      "startLat": 31.475339889526367,
+      "startLng": 121.38601684570312
+    },
+    {
+      "id": "12579530",
+      "tileScore": 9,
+      "name": "蕴川公路（杨桥-石太路）",
+      "distanceM": 11312.2998046875,
+      "avgGrade": -0.0035359743051230907,
+      "startLat": 31.49881362915039,
+      "startLng": 121.2906494140625
+    }
+  ]
+}

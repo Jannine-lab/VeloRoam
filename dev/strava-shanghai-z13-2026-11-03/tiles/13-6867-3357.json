@@ -1,0 +1,29 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-03T06:12:48.740Z",
+  "tile": {
+    "z": 13,
+    "x": 6867,
+    "y": 3357
+  },
+  "segments": [
+    {
+      "id": "36906641",
+      "tileScore": 2,
+      "name": "药指导无敌博鸡嘎嘎乱杀",
+      "distanceM": 7693.5,
+      "avgGrade": 0.0025995969772338867,
+      "startLat": 30.858583450317383,
+      "startLng": 121.74876403808594
+    },
+    {
+      "id": "34130678",
+      "tileScore": 12,
+      "name": "芦五公路 云水路-南芦公路",
+      "distanceM": 5964,
+      "avgGrade": 0,
+      "startLat": 30.867446899414062,
+      "startLng": 121.77898406982422
+    }
+  ]
+}

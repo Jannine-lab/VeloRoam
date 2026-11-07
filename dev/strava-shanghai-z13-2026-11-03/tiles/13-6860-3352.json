@@ -1,0 +1,191 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-03T06:09:21.092Z",
+  "tile": {
+    "z": 13,
+    "x": 6860,
+    "y": 3352
+  },
+  "segments": [
+    {
+      "id": "35588012",
+      "tileScore": 2,
+      "name": "浦江RiversideN-S",
+      "distanceM": 8344.400390625,
+      "avgGrade": 0.009587268345057964,
+      "startLat": 31.075927734375,
+      "startLng": 121.4735107421875
+    },
+    {
+      "id": "37930521",
+      "tileScore": 7,
+      "name": "浦江 022",
+      "distanceM": 792.5999755859375,
+      "avgGrade": 0.07570022344589233,
+      "startLat": 31.03765296936035,
+      "startLng": 121.49909973144531
+    },
+    {
+      "id": "36928985",
+      "tileScore": 7,
+      "name": "紫竹 099 Ferry",
+      "distanceM": 1016,
+      "avgGrade": 0.09842519462108612,
+      "startLat": 31.04438018798828,
+      "startLng": 121.4644546508789
+    },
+    {
+      "id": "11994086",
+      "tileScore": 3,
+      "name": "Dongchuan Rd (Eastbound)",
+      "distanceM": 12666.7001953125,
+      "avgGrade": 0.009473659098148346,
+      "startLat": 30.99555778503418,
+      "startLng": 121.34071350097656
+    },
+    {
+      "id": "34429864",
+      "tileScore": 2,
+      "name": "浦江 008 Ye Coffee",
+      "distanceM": 973.5999755859375,
+      "avgGrade": 0.04108463600277901,
+      "startLat": 31.048614501953125,
+      "startLng": 121.49163818359375
+    },
+    {
+      "id": "37930516",
+      "tileScore": 11,
+      "name": "浦江 021 Sprint",
+      "distanceM": 983.9000244140625,
+      "avgGrade": -0.040654540061950684,
+      "startLat": 31.0479679107666,
+      "startLng": 121.49894714355469
+    },
+    {
+      "id": "14201811",
+      "tileScore": 7,
+      "name": "North on Puxing",
+      "distanceM": 5513.2001953125,
+      "avgGrade": 0,
+      "startLat": 31.02269744873047,
+      "startLng": 121.50930786132812
+    },
+    {
+      "id": "39051588",
+      "tileScore": 8,
+      "name": "浦江 032 Riverside",
+      "distanceM": 1930,
+      "avgGrade": 0,
+      "startLat": 31.018478393554688,
+      "startLng": 121.49822998046875
+    },
+    {
+      "id": "24425517",
+      "tileScore": 3,
+      "name": "ShangNan PuJin Lightning!!!",
+      "distanceM": 21129.69921875,
+      "avgGrade": 0.011358419433236122,
+      "startLat": 31.194862365722656,
+      "startLng": 121.49488830566406
+    },
+    {
+      "id": "21036682",
+      "tileScore": 7,
+      "name": "Minpu Tues - Park to LP with extension",
+      "distanceM": 56914,
+      "avgGrade": -0.006325332447886467,
+      "startLat": 31.213491439819336,
+      "startLng": 121.46663665771484
+    },
+    {
+      "id": "34429885",
+      "tileScore": 2,
+      "name": "浦江 098 Riverside Ye Coffee",
+      "distanceM": 544.4000244140625,
+      "avgGrade": 0.2571638524532318,
+      "startLat": 31.046533584594727,
+      "startLng": 121.4814224243164
+    },
+    {
+      "id": "24824459",
+      "tileScore": 1,
+      "name": "Tour de Shenjiahu  X4",
+      "distanceM": 18822.599609375,
+      "avgGrade": -0.010625524446368217,
+      "startLat": 31.054100036621094,
+      "startLng": 121.50882720947266
+    },
+    {
+      "id": "28185417",
+      "tileScore": 11,
+      "name": "环兰香湖",
+      "distanceM": 3438.300048828125,
+      "avgGrade": 0,
+      "startLat": 31.0279598236084,
+      "startLng": 121.4651870727539
+    },
+    {
+      "id": "40236759",
+      "tileScore": 5,
+      "name": "吴泾奉贤",
+      "distanceM": 47205,
+      "avgGrade": -0.04702891781926155,
+      "startLat": 31.037860870361328,
+      "startLng": 121.44114685058594
+    },
+    {
+      "id": "34429913",
+      "tileScore": 3,
+      "name": "兰香湖 099",
+      "distanceM": 500.6000061035156,
+      "avgGrade": 0.039952054619789124,
+      "startLat": 31.031217575073242,
+      "startLng": 121.46660614013672
+    },
+    {
+      "id": "35170184",
+      "tileScore": 8,
+      "name": "半个俄罗斯方块",
+      "distanceM": 26143.30078125,
+      "avgGrade": 0.011475215665996075,
+      "startLat": 31.18340492248535,
+      "startLng": 121.61776733398438
+    },
+    {
+      "id": "19217014",
+      "tileScore": 2,
+      "name": "Minpu Daqiao - without GPS drift",
+      "distanceM": 1040.199951171875,
+      "avgGrade": 4.133820533752441,
+      "startLat": 31.051713943481445,
+      "startLng": 121.4635238647461
+    },
+    {
+      "id": "37930539",
+      "tileScore": 2,
+      "name": "浦江 024 Bridge",
+      "distanceM": 738.5,
+      "avgGrade": -0.18957345187664032,
+      "startLat": 31.022377014160156,
+      "startLng": 121.49758911132812
+    },
+    {
+      "id": "37930526",
+      "tileScore": 6,
+      "name": "浦江 023 Sprint",
+      "distanceM": 1092.699951171875,
+      "avgGrade": -0.07321314513683319,
+      "startLat": 31.03438377380371,
+      "startLng": 121.49169158935547
+    },
+    {
+      "id": "41378580",
+      "tileScore": 4,
+      "name": "浦江 067 Flying Lap",
+      "distanceM": 1510.300048828125,
+      "avgGrade": 0,
+      "startLat": 31.033740997314453,
+      "startLng": 121.48970794677734
+    }
+  ]
+}

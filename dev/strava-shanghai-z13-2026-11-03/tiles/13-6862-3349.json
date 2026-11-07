@@ -1,0 +1,281 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-03T06:08:09.571Z",
+  "tile": {
+    "z": 13,
+    "x": 6862,
+    "y": 3349
+  },
+  "segments": [
+    {
+      "id": "13011992",
+      "tileScore": 2,
+      "name": "Jinqiao to Disney and back",
+      "distanceM": 42188.80078125,
+      "avgGrade": 0.00521465390920639,
+      "startLat": 31.235240936279297,
+      "startLng": 121.5843734741211
+    },
+    {
+      "id": "4591969",
+      "tileScore": 4,
+      "name": "Sprint",
+      "distanceM": 203.60000610351562,
+      "avgGrade": -0.7367386817932129,
+      "startLat": 31.141342163085938,
+      "startLng": 121.55096435546875
+    },
+    {
+      "id": "28792326",
+      "tileScore": 8,
+      "name": "Last one before a coffee",
+      "distanceM": 533.4000244140625,
+      "avgGrade": -0.2624672055244446,
+      "startLat": 31.138784408569336,
+      "startLng": 121.587890625
+    },
+    {
+      "id": "18850390",
+      "tileScore": 16,
+      "name": "Warmup in the park",
+      "distanceM": 479.8999938964844,
+      "avgGrade": -0.5001041889190674,
+      "startLat": 31.146591186523438,
+      "startLng": 121.58345031738281
+    },
+    {
+      "id": "35764986",
+      "tileScore": 21,
+      "name": "中环 094",
+      "distanceM": 1323.300048828125,
+      "avgGrade": -0.015113730914890766,
+      "startLat": 31.16515350341797,
+      "startLng": 121.55703735351562
+    },
+    {
+      "id": "5758417",
+      "tileScore": 320,
+      "name": "Maglev - North (end of the ride)",
+      "distanceM": 1869.5,
+      "avgGrade": -0.09628242999315262,
+      "startLat": 31.163257598876953,
+      "startLng": 121.602294921875
+    },
+    {
+      "id": "10126689",
+      "tileScore": 3,
+      "name": "Colle dell'Autostrada (EST)",
+      "distanceM": 553.5999755859375,
+      "avgGrade": 2.3843932151794434,
+      "startLat": 31.144622802734375,
+      "startLng": 121.59194946289062
+    },
+    {
+      "id": "28094335",
+      "tileScore": 3,
+      "name": "____DP_V2.x_______",
+      "distanceM": 28802.900390625,
+      "avgGrade": -0.01735936477780342,
+      "startLat": 31.197185516357422,
+      "startLng": 121.53400421142578
+    },
+    {
+      "id": "35764983",
+      "tileScore": 17,
+      "name": "中环 095",
+      "distanceM": 1977.9000244140625,
+      "avgGrade": 0.050558675080537796,
+      "startLat": 31.17138671875,
+      "startLng": 121.58033752441406
+    },
+    {
+      "id": "40042149",
+      "tileScore": 19,
+      "name": "汤巷公园北侧西向东冲刺",
+      "distanceM": 1161.4000244140625,
+      "avgGrade": -0.15498535335063934,
+      "startLat": 31.14702033996582,
+      "startLng": 121.5927963256836
+    },
+    {
+      "id": "21875923",
+      "tileScore": 8,
+      "name": "Kangshan - Hunan ",
+      "distanceM": 487.70001220703125,
+      "avgGrade": -0.24605290591716766,
+      "startLat": 31.137165069580078,
+      "startLng": 121.5689468383789
+    },
+    {
+      "id": "38879572",
+      "tileScore": 106,
+      "name": "北蔡 099 Sprint",
+      "distanceM": 1268.699951171875,
+      "avgGrade": 0.17340585589408875,
+      "startLat": 31.1573486328125,
+      "startLng": 121.58470916748047
+    },
+    {
+      "id": "31499538",
+      "tileScore": 3,
+      "name": "Henghe (Xiuyan to Xiupu)",
+      "distanceM": 650.5,
+      "avgGrade": -0.15372790396213531,
+      "startLat": 31.13677978515625,
+      "startLng": 121.57440948486328
+    },
+    {
+      "id": "35750447",
+      "tileScore": 14,
+      "name": "E'Kangqiao Rd (Jinke Rd - Hufeng Hwy)",
+      "distanceM": 1124.199951171875,
+      "avgGrade": -0.017790429294109344,
+      "startLat": 31.155563354492188,
+      "startLng": 121.60356140136719
+    },
+    {
+      "id": "20304993",
+      "tileScore": 11,
+      "name": "Yaolong & Huaxia Hot Blast",
+      "distanceM": 29317,
+      "avgGrade": -0.008527475409209728,
+      "startLat": 31.14801597595215,
+      "startLng": 121.47225952148438
+    },
+    {
+      "id": "34999557",
+      "tileScore": 5,
+      "name": "沪南公路（航头～浦东图书馆）",
+      "distanceM": 19467.30078125,
+      "avgGrade": -0.0020547276362776756,
+      "startLat": 31.029277801513672,
+      "startLng": 121.59368896484375
+    },
+    {
+      "id": "39326041",
+      "tileScore": 6,
+      "name": "SUPER C的训练赛段(晚上十点你还会爱我吗)",
+      "distanceM": 31948.099609375,
+      "avgGrade": -0.005634137894958258,
+      "startLat": 31.1982364654541,
+      "startLng": 121.73193359375
+    },
+    {
+      "id": "11821462",
+      "tileScore": 2,
+      "name": "Emerald to Join Jinxiu Rd",
+      "distanceM": 1321.699951171875,
+      "avgGrade": -0.007566013839095831,
+      "startLat": 31.13668441772461,
+      "startLng": 121.56121826171875
+    },
+    {
+      "id": "24905565",
+      "tileScore": 5,
+      "name": "Emerald Sprint North",
+      "distanceM": 545.5,
+      "avgGrade": -0.18331804871559143,
+      "startLat": 31.12902069091797,
+      "startLng": 121.55958557128906
+    },
+    {
+      "id": "17570765",
+      "tileScore": 7,
+      "name": "Out... or out out!",
+      "distanceM": 1581.5,
+      "avgGrade": 0.07587733119726181,
+      "startLat": 31.137048721313477,
+      "startLng": 121.56774139404297
+    },
+    {
+      "id": "37038867",
+      "tileScore": 12,
+      "name": "御桥路 冲刺",
+      "distanceM": 2946.199951171875,
+      "avgGrade": -0.0067884051240980625,
+      "startLat": 31.158437728881836,
+      "startLng": 121.55768585205078
+    },
+    {
+      "id": "34543150",
+      "tileScore": 1,
+      "name": "Xiuyan Rd to Huaxia Rd",
+      "distanceM": 3179.60009765625,
+      "avgGrade": 0.0880613923072815,
+      "startLat": 31.13678741455078,
+      "startLng": 121.56331634521484
+    },
+    {
+      "id": "17286495",
+      "tileScore": 17,
+      "name": "Hunan to top of Xiyuan",
+      "distanceM": 6286.2001953125,
+      "avgGrade": 0,
+      "startLat": 31.137054443359375,
+      "startLng": 121.56934356689453
+    },
+    {
+      "id": "41945494",
+      "tileScore": 10,
+      "name": "Kangqiao Kicker",
+      "distanceM": 35387.6015625,
+      "avgGrade": -0.0022606789134442806,
+      "startLat": 31.137094497680664,
+      "startLng": 121.5704116821289
+    },
+    {
+      "id": "32847705",
+      "tileScore": 33,
+      "name": "Yuqiao stage（Luoshan Rd-Keyuan Rd）",
+      "distanceM": 1060.199951171875,
+      "avgGrade": -0.16977928578853607,
+      "startLat": 31.157848358154297,
+      "startLng": 121.58793640136719
+    },
+    {
+      "id": "31508569",
+      "tileScore": 3,
+      "name": "Kangshen - Hunan",
+      "distanceM": 709.2000122070312,
+      "avgGrade": -0.25380709767341614,
+      "startLat": 31.129802703857422,
+      "startLng": 121.57011413574219
+    },
+    {
+      "id": "21233207",
+      "tileScore": 5,
+      "name": "Park to Xiyuan",
+      "distanceM": 2093.699951171875,
+      "avgGrade": 0.03820987045764923,
+      "startLat": 31.147096633911133,
+      "startLng": 121.59088897705078
+    },
+    {
+      "id": "18858210",
+      "tileScore": 1,
+      "name": "Hunan Road. From Outer-Circle to Inner-Circle",
+      "distanceM": 6240.2001953125,
+      "avgGrade": -0.060895487666130066,
+      "startLat": 31.147384643554688,
+      "startLng": 121.5632553100586
+    },
+    {
+      "id": "34299224",
+      "tileScore": 16,
+      "name": "North on Zhouyuan",
+      "distanceM": 1264.5999755859375,
+      "avgGrade": 0.01581527665257454,
+      "startLat": 31.133054733276367,
+      "startLng": 121.58357238769531
+    },
+    {
+      "id": "18858234",
+      "tileScore": 3,
+      "name": "Xiupu Road. From South Shenjiang Rd to Kangshen Road",
+      "distanceM": 5532.39990234375,
+      "avgGrade": 0.048803411424160004,
+      "startLat": 31.133995056152344,
+      "startLng": 121.6273193359375
+    }
+  ]
+}

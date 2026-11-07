@@ -1,0 +1,101 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-03T06:04:27.860Z",
+  "tile": {
+    "z": 13,
+    "x": 6859,
+    "y": 3342
+  },
+  "segments": [
+    {
+      "id": "39028878",
+      "tileScore": 14,
+      "name": "江杨北路(富锦路-蕴川公路)",
+      "distanceM": 3346,
+      "avgGrade": 0.02390914596617222,
+      "startLat": 31.405757904052734,
+      "startLng": 121.43551635742188
+    },
+    {
+      "id": "27328035",
+      "tileScore": 8,
+      "name": "Going back",
+      "distanceM": 4539.7001953125,
+      "avgGrade": 0.030839040875434875,
+      "startLat": 31.403160095214844,
+      "startLng": 121.43616485595703
+    },
+    {
+      "id": "37134597",
+      "tileScore": 8,
+      "name": "江杨南北and keep riding",
+      "distanceM": 28191.19921875,
+      "avgGrade": -0.014898266643285751,
+      "startLat": 31.322021484375,
+      "startLng": 121.46370697021484
+    },
+    {
+      "id": "32724531",
+      "tileScore": 2,
+      "name": "乌漆嘛黑",
+      "distanceM": 24503.5,
+      "avgGrade": 0.026118718087673187,
+      "startLat": 31.306806564331055,
+      "startLng": 121.4298324584961
+    },
+    {
+      "id": "36141899",
+      "tileScore": 75,
+      "name": "白沙绕圈-白沙园路段",
+      "distanceM": 1006.4000244140625,
+      "avgGrade": 0,
+      "startLat": 31.397092819213867,
+      "startLng": 121.42802429199219
+    },
+    {
+      "id": "39010612",
+      "tileScore": 4,
+      "name": "Pangu Rd",
+      "distanceM": 5183.89990234375,
+      "avgGrade": -0.038580991327762604,
+      "startLat": 31.41421127319336,
+      "startLng": 121.4900131225586
+    },
+    {
+      "id": "17048674",
+      "tileScore": 5,
+      "name": "Up&Down Yangshenghe Br. Westbound",
+      "distanceM": 653.9000244140625,
+      "avgGrade": 0,
+      "startLat": 31.39929962158203,
+      "startLng": 121.45741271972656
+    },
+    {
+      "id": "34745254",
+      "tileScore": 36,
+      "name": "Cape of Good Hope",
+      "distanceM": 516.0999755859375,
+      "avgGrade": 0.6781631708145142,
+      "startLat": 31.400075912475586,
+      "startLng": 121.43498992919922
+    },
+    {
+      "id": "35555431",
+      "tileScore": 188,
+      "name": "白沙公园小圈",
+      "distanceM": 3001.10009765625,
+      "avgGrade": 0.08663490414619446,
+      "startLat": 31.394075393676758,
+      "startLng": 121.43305969238281
+    },
+    {
+      "id": "42029028",
+      "tileScore": 9,
+      "name": "拉爆电动车",
+      "distanceM": 599.2000122070312,
+      "avgGrade": 0.2002670168876648,
+      "startLat": 31.415298461914062,
+      "startLng": 121.43133544921875
+    }
+  ]
+}

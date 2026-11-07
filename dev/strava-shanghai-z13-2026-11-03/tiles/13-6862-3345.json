@@ -1,0 +1,146 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-03T06:06:56.599Z",
+  "tile": {
+    "z": 13,
+    "x": 6862,
+    "y": 3345
+  },
+  "segments": [
+    {
+      "id": "14024473",
+      "tileScore": 7,
+      "name": "Pudong Avenue",
+      "distanceM": 5578.5,
+      "avgGrade": 0,
+      "startLat": 31.293020248413086,
+      "startLng": 121.56718444824219
+    },
+    {
+      "id": "35633084",
+      "tileScore": 162,
+      "name": "森兰超级爬坡路段",
+      "distanceM": 583.5,
+      "avgGrade": -0.03427592292428017,
+      "startLat": 31.303611755371094,
+      "startLng": 121.58988952636719
+    },
+    {
+      "id": "37879942",
+      "tileScore": 2,
+      "name": "Langu Rd. N-S",
+      "distanceM": 2625.800048828125,
+      "avgGrade": 0.04570035636425018,
+      "startLat": 31.317893981933594,
+      "startLng": 121.5941162109375
+    },
+    {
+      "id": "34998199",
+      "tileScore": 2,
+      "name": "森兰名轩2期绕圈 - 享受沟景风光",
+      "distanceM": 1042.0999755859375,
+      "avgGrade": -0.13434410095214844,
+      "startLat": 31.290109634399414,
+      "startLng": 121.58812713623047
+    },
+    {
+      "id": "38148429",
+      "tileScore": 2,
+      "name": "赵家沟",
+      "distanceM": 1762.199951171875,
+      "avgGrade": -0.017024174332618713,
+      "startLat": 31.293123245239258,
+      "startLng": 121.58438110351562
+    },
+    {
+      "id": "40042082",
+      "tileScore": 45,
+      "name": "东靖路",
+      "distanceM": 1108,
+      "avgGrade": 0.018050542101264,
+      "startLat": 31.293643951416016,
+      "startLng": 121.59977722167969
+    },
+    {
+      "id": "26282494",
+      "tileScore": 2,
+      "name": "Dongtang to north",
+      "distanceM": 1457.5,
+      "avgGrade": 0.013722127303481102,
+      "startLat": 31.30653953552246,
+      "startLng": 121.5625991821289
+    },
+    {
+      "id": "28124275",
+      "tileScore": 5,
+      "name": "zhaojiagou Bridge S toN",
+      "distanceM": 423.20001220703125,
+      "avgGrade": 2.2684309482574463,
+      "startLat": 31.285524368286133,
+      "startLng": 121.57404327392578
+    },
+    {
+      "id": "34803764",
+      "tileScore": 1,
+      "name": "Pudong Rd.N2S",
+      "distanceM": 3152,
+      "avgGrade": 0.03172588720917702,
+      "startLat": 31.322755813598633,
+      "startLng": 121.57368469238281
+    },
+    {
+      "id": "35431814",
+      "tileScore": 4,
+      "name": "The return dash",
+      "distanceM": 7358.89990234375,
+      "avgGrade": 0.027177974581718445,
+      "startLat": 31.31833267211914,
+      "startLng": 121.58500671386719
+    },
+    {
+      "id": "26161649",
+      "tileScore": 26,
+      "name": "海安路",
+      "distanceM": 675.7999877929688,
+      "avgGrade": 0.32554009556770325,
+      "startLat": 31.29312515258789,
+      "startLng": 121.55608367919922
+    },
+    {
+      "id": "39034890",
+      "tileScore": 4,
+      "name": "骑完双桥赶个船",
+      "distanceM": 10961.5,
+      "avgGrade": 0.0018245679093524814,
+      "startLat": 31.2834415435791,
+      "startLng": 121.6682357788086
+    },
+    {
+      "id": "26161634",
+      "tileScore": 66,
+      "name": "共青路（复兴岛）",
+      "distanceM": 1828.300048828125,
+      "avgGrade": 0,
+      "startLat": 31.27640151977539,
+      "startLng": 121.5584945678711
+    },
+    {
+      "id": "14024442",
+      "tileScore": 4,
+      "name": "Col d'Avenue Pudong",
+      "distanceM": 472.6000061035156,
+      "avgGrade": 2.327549695968628,
+      "startLat": 31.292097091674805,
+      "startLng": 121.56790161132812
+    },
+    {
+      "id": "41415180",
+      "tileScore": 98,
+      "name": "SLCC 森兰夜刷",
+      "distanceM": 7029.2001953125,
+      "avgGrade": 0.04552438482642174,
+      "startLat": 31.31844711303711,
+      "startLng": 121.59465026855469
+    }
+  ]
+}

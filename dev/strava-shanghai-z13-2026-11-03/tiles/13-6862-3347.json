@@ -1,0 +1,317 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-03T06:07:35.599Z",
+  "tile": {
+    "z": 13,
+    "x": 6862,
+    "y": 3347
+  },
+  "segments": [
+    {
+      "id": "4721776",
+      "tileScore": 134,
+      "name": "The Harry Potter Half",
+      "distanceM": 453.29998779296875,
+      "avgGrade": -0.2426649034023285,
+      "startLat": 31.229408264160156,
+      "startLng": 121.58163452148438
+    },
+    {
+      "id": "28094370",
+      "tileScore": 20,
+      "name": "Longyang to Shenjiang",
+      "distanceM": 1309.0999755859375,
+      "avgGrade": -0.09166602790355682,
+      "startLat": 31.214380264282227,
+      "startLng": 121.5806884765625
+    },
+    {
+      "id": "38620961",
+      "tileScore": 11,
+      "name": "龙阳 007 R",
+      "distanceM": 2453.5,
+      "avgGrade": 0.03260647878050804,
+      "startLat": 31.20631217956543,
+      "startLng": 121.56120300292969
+    },
+    {
+      "id": "28094335",
+      "tileScore": 3,
+      "name": "____DP_V2.x_______",
+      "distanceM": 28802.900390625,
+      "avgGrade": -0.01735936477780342,
+      "startLat": 31.197185516357422,
+      "startLng": 121.53400421142578
+    },
+    {
+      "id": "5439272",
+      "tileScore": 13,
+      "name": "Songtao road westward",
+      "distanceM": 800.5999755859375,
+      "avgGrade": 0.024981264024972916,
+      "startLat": 31.21051788330078,
+      "startLng": 121.58135986328125
+    },
+    {
+      "id": "28478668",
+      "tileScore": 78,
+      "name": "DP Final Sprint",
+      "distanceM": 1104,
+      "avgGrade": 0.018115943297743797,
+      "startLat": 31.214841842651367,
+      "startLng": 121.55276489257812
+    },
+    {
+      "id": "8041980",
+      "tileScore": 13,
+      "name": "Rocking Seasons",
+      "distanceM": 1054.9000244140625,
+      "avgGrade": -0.28438714146614075,
+      "startLat": 31.226789474487305,
+      "startLng": 121.56237030029297
+    },
+    {
+      "id": "13011992",
+      "tileScore": 2,
+      "name": "Jinqiao to Disney and back",
+      "distanceM": 42188.80078125,
+      "avgGrade": 0.00521465390920639,
+      "startLat": 31.235240936279297,
+      "startLng": 121.5843734741211
+    },
+    {
+      "id": "40370479",
+      "tileScore": 218,
+      "name": "上海TTT2025 (3x)",
+      "distanceM": 19626.599609375,
+      "avgGrade": 0.0224185548722744,
+      "startLat": 31.23392677307129,
+      "startLng": 121.5797119140625
+    },
+    {
+      "id": "27024419",
+      "tileScore": 5,
+      "name": "灵山路桥（from崮山路to南洋泾路）",
+      "distanceM": 434.70001220703125,
+      "avgGrade": 1.3342535495758057,
+      "startLat": 31.239118576049805,
+      "startLng": 121.55722045898438
+    },
+    {
+      "id": "27401582",
+      "tileScore": 8,
+      "name": "DP Airport Loop part 1",
+      "distanceM": 38720,
+      "avgGrade": 0.004648760426789522,
+      "startLat": 31.236400604248047,
+      "startLng": 121.59383392333984
+    },
+    {
+      "id": "11195939",
+      "tileScore": 8,
+      "name": "Inner Ring Elevated Rd - Nanpu Bridge to GC",
+      "distanceM": 9229.900390625,
+      "avgGrade": -0.21668706834316254,
+      "startLat": 31.209104537963867,
+      "startLng": 121.49713134765625
+    },
+    {
+      "id": "28252739",
+      "tileScore": 14,
+      "name": "Jinke Road Sprint (Guoshoujing -> Zuchongzhi)",
+      "distanceM": 629.0999755859375,
+      "avgGrade": 0.1271657943725586,
+      "startLat": 31.21279525756836,
+      "startLng": 121.59535217285156
+    },
+    {
+      "id": "26231974",
+      "tileScore": 169,
+      "name": "Keyuan with a kicker",
+      "distanceM": 1792.5,
+      "avgGrade": -0.06694561243057251,
+      "startLat": 31.216318130493164,
+      "startLng": 121.58352661132812
+    },
+    {
+      "id": "42079725",
+      "tileScore": 3,
+      "name": "Markus Bruengger (R.I.P. | G.O.A.T.) Memory Ride",
+      "distanceM": 64397.30078125,
+      "avgGrade": -0.006522012874484062,
+      "startLat": 31.224090576171875,
+      "startLng": 121.55386352539062
+    },
+    {
+      "id": "38977930",
+      "tileScore": 496,
+      "name": "云山路冲桥",
+      "distanceM": 511.20001220703125,
+      "avgGrade": 0.9389671683311462,
+      "startLat": 31.224519729614258,
+      "startLng": 121.5832290649414
+    },
+    {
+      "id": "6584860",
+      "tileScore": 16,
+      "name": "keyuan rd",
+      "distanceM": 4792.39990234375,
+      "avgGrade": 0.004173274151980877,
+      "startLat": 31.211645126342773,
+      "startLng": 121.58375549316406
+    },
+    {
+      "id": "15865695",
+      "tileScore": 4,
+      "name": "Keep Spinning, Breathe. ",
+      "distanceM": 2303.39990234375,
+      "avgGrade": 0.28219154477119446,
+      "startLat": 31.238203048706055,
+      "startLng": 121.59362030029297
+    },
+    {
+      "id": "16695526",
+      "tileScore": 7,
+      "name": "to the sea",
+      "distanceM": 30088.599609375,
+      "avgGrade": 0.015952887013554573,
+      "startLat": 31.223649978637695,
+      "startLng": 121.50944519042969
+    },
+    {
+      "id": "38465572",
+      "tileScore": 109,
+      "name": "云绕圈-金科路桥",
+      "distanceM": 513.9000244140625,
+      "avgGrade": 0.5837711691856384,
+      "startLat": 31.233837127685547,
+      "startLng": 121.59378814697266
+    },
+    {
+      "id": "36692960",
+      "tileScore": 68,
+      "name": "云山路 南",
+      "distanceM": 1045,
+      "avgGrade": 0.09569378197193146,
+      "startLat": 31.220191955566406,
+      "startLng": 121.59408569335938
+    },
+    {
+      "id": "36944291",
+      "tileScore": 43,
+      "name": "云山路 to 顾唐路",
+      "distanceM": 7434,
+      "avgGrade": 0.024213073775172234,
+      "startLat": 31.23383140563965,
+      "startLng": 121.58002471923828
+    },
+    {
+      "id": "36899663",
+      "tileScore": 13,
+      "name": "Roll fast",
+      "distanceM": 1301.0999755859375,
+      "avgGrade": 0.03074321709573269,
+      "startLat": 31.242040634155273,
+      "startLng": 121.5900650024414
+    },
+    {
+      "id": "17779180",
+      "tileScore": 1,
+      "name": "Heisong Hook",
+      "distanceM": 1085.5999755859375,
+      "avgGrade": -0.15659542381763458,
+      "startLat": 31.240522384643555,
+      "startLng": 121.57083129882812
+    },
+    {
+      "id": "36847341",
+      "tileScore": 20,
+      "name": "Away from CP",
+      "distanceM": 983,
+      "avgGrade": -0.04069175943732262,
+      "startLat": 31.224809646606445,
+      "startLng": 121.55572509765625
+    },
+    {
+      "id": "5437233",
+      "tileScore": 5,
+      "name": "Longyang road Fangdian rd to underpass",
+      "distanceM": 1510.5,
+      "avgGrade": -0.06620324403047562,
+      "startLat": 31.205957412719727,
+      "startLng": 121.5601806640625
+    },
+    {
+      "id": "35927579",
+      "tileScore": 4,
+      "name": "金桥-滴水湖-云山路绕圈",
+      "distanceM": 150058.90625,
+      "avgGrade": 0.0018659341149032116,
+      "startLat": 31.22467041015625,
+      "startLng": 121.62055969238281
+    },
+    {
+      "id": "30356225",
+      "tileScore": 67,
+      "name": "锦绣东路[工地前]冲刺",
+      "distanceM": 782.9000244140625,
+      "avgGrade": -0.12773023545742035,
+      "startLat": 31.23372459411621,
+      "startLng": 121.57954406738281
+    },
+    {
+      "id": "38387565",
+      "tileScore": 8,
+      "name": "洋泾 099",
+      "distanceM": 760.0999755859375,
+      "avgGrade": -0.1578739583492279,
+      "startLat": 31.23219871520996,
+      "startLng": 121.55329132080078
+    },
+    {
+      "id": "2534843",
+      "tileScore": 14,
+      "name": "Jinke Road",
+      "distanceM": 4446.01318359375,
+      "avgGrade": 0.024741340428590775,
+      "startLat": 31.177852630615234,
+      "startLng": 121.59830474853516
+    },
+    {
+      "id": "6809151",
+      "tileScore": 8,
+      "name": "Long Dong Dash - Jinqiao Lu to Tomson front gate",
+      "distanceM": 2496.10009765625,
+      "avgGrade": 0.020031249150633812,
+      "startLat": 31.221952438354492,
+      "startLng": 121.60314178466797
+    },
+    {
+      "id": "8034624",
+      "tileScore": 14,
+      "name": "Huamu Rd North SNIEC",
+      "distanceM": 1027.699951171875,
+      "avgGrade": 0.009730466641485691,
+      "startLat": 31.21567726135254,
+      "startLng": 121.55765533447266
+    },
+    {
+      "id": "9465145",
+      "tileScore": 92,
+      "name": "CP Sprint",
+      "distanceM": 390.79998779296875,
+      "avgGrade": 0,
+      "startLat": 31.221403121948242,
+      "startLng": 121.55603790283203
+    },
+    {
+      "id": "5607213",
+      "tileScore": 291,
+      "name": "Pudong Cycling CP Lap",
+      "distanceM": 4981.2998046875,
+      "avgGrade": 0.004015015903860331,
+      "startLat": 31.224382400512695,
+      "startLng": 121.55531311035156
+    }
+  ]
+}

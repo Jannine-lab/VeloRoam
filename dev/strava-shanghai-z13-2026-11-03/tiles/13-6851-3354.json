@@ -1,0 +1,56 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-03T06:09:45.577Z",
+  "tile": {
+    "z": 13,
+    "x": 6851,
+    "y": 3354
+  },
+  "segments": [
+    {
+      "id": "40248036",
+      "tileScore": 1,
+      "name": "Songzheng HW to DaZheng River",
+      "distanceM": 2053,
+      "avgGrade": -0.08280564844608307,
+      "startLat": 30.9898624420166,
+      "startLng": 121.11181640625
+    },
+    {
+      "id": "40134329",
+      "tileScore": 17,
+      "name": "Along Dazheng River to Plant",
+      "distanceM": 1863.800048828125,
+      "avgGrade": -0.042923059314489365,
+      "startLat": 30.968040466308594,
+      "startLng": 121.05342864990234
+    },
+    {
+      "id": "40976501",
+      "tileScore": 11,
+      "name": "Canal Tour",
+      "distanceM": 31244.30078125,
+      "avgGrade": 0.01024186797440052,
+      "startLat": 31.025711059570312,
+      "startLng": 121.04932403564453
+    },
+    {
+      "id": "40248040",
+      "tileScore": 21,
+      "name": "North Bank of the Danzheng River",
+      "distanceM": 4516.89990234375,
+      "avgGrade": 0.006641723215579987,
+      "startLat": 30.97047233581543,
+      "startLng": 121.1123275756836
+    },
+    {
+      "id": "40134458",
+      "tileScore": 1,
+      "name": "South Canals #0",
+      "distanceM": 2949.5,
+      "avgGrade": 0.06102729216217995,
+      "startLat": 30.96215057373047,
+      "startLng": 121.11136627197266
+    }
+  ]
+}

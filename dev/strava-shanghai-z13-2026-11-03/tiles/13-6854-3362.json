@@ -1,0 +1,29 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-03T06:13:42.582Z",
+  "tile": {
+    "z": 13,
+    "x": 6854,
+    "y": 3362
+  },
+  "segments": [
+    {
+      "id": "12097678",
+      "tileScore": 4,
+      "name": "Jiulongshan \"Waalbrug\" Westbound",
+      "distanceM": 407.70001220703125,
+      "avgGrade": 1.1773362159729004,
+      "startLat": 30.675342559814453,
+      "startLng": 121.21553802490234
+    },
+    {
+      "id": "39095689",
+      "tileScore": 2,
+      "name": "2025平湖，麒麟汇走错路的路口",
+      "distanceM": 97391,
+      "avgGrade": -0.0010267889592796564,
+      "startLat": 30.767906188964844,
+      "startLng": 120.98878479003906
+    }
+  ]
+}

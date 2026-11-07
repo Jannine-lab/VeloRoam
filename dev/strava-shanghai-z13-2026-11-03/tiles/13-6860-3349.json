@@ -1,0 +1,308 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-03T06:08:06.516Z",
+  "tile": {
+    "z": 13,
+    "x": 6860,
+    "y": 3349
+  },
+  "segments": [
+    {
+      "id": "38962610",
+      "tileScore": 11,
+      "name": "前滩 086",
+      "distanceM": 777.7000122070312,
+      "avgGrade": 0.025716857984662056,
+      "startLat": 31.150129318237305,
+      "startLng": 121.48033142089844
+    },
+    {
+      "id": "34944981",
+      "tileScore": 14,
+      "name": "上南 099 Bridge",
+      "distanceM": 506.70001220703125,
+      "avgGrade": 0.039471086114645004,
+      "startLat": 31.17025375366211,
+      "startLng": 121.49231719970703
+    },
+    {
+      "id": "34402485",
+      "tileScore": 14,
+      "name": "huaxia sprint",
+      "distanceM": 551.5999755859375,
+      "avgGrade": 0.03625815734267235,
+      "startLat": 31.15007209777832,
+      "startLng": 121.49131774902344
+    },
+    {
+      "id": "36406238",
+      "tileScore": 5,
+      "name": "Sunset Forest 1",
+      "distanceM": 1356.5,
+      "avgGrade": -0.0884629562497139,
+      "startLat": 31.133953094482422,
+      "startLng": 121.49790954589844
+    },
+    {
+      "id": "39537169",
+      "tileScore": 2,
+      "name": "川杨河 099 Greenway Long",
+      "distanceM": 3668.39990234375,
+      "avgGrade": 0.07087558507919312,
+      "startLat": 31.172569274902344,
+      "startLng": 121.51496887207031
+    },
+    {
+      "id": "34777860",
+      "tileScore": 6,
+      "name": "三林 097",
+      "distanceM": 1828.699951171875,
+      "avgGrade": -0.010936731472611427,
+      "startLat": 31.129060745239258,
+      "startLng": 121.5169906616211
+    },
+    {
+      "id": "39538940",
+      "tileScore": 2,
+      "name": "东明 006 Park Climb*2",
+      "distanceM": 738,
+      "avgGrade": 0.027100270614027977,
+      "startLat": 31.161073684692383,
+      "startLng": 121.5052490234375
+    },
+    {
+      "id": "36956155",
+      "tileScore": 8,
+      "name": "三林 002 Box R",
+      "distanceM": 989.2000122070312,
+      "avgGrade": -0.12131015211343765,
+      "startLat": 31.153228759765625,
+      "startLng": 121.4873275756836
+    },
+    {
+      "id": "34959743",
+      "tileScore": 11,
+      "name": "浦江 012",
+      "distanceM": 1170.800048828125,
+      "avgGrade": -0.1195763573050499,
+      "startLat": 31.129167556762695,
+      "startLng": 121.49019622802734
+    },
+    {
+      "id": "38352371",
+      "tileScore": 27,
+      "name": "三林南 099",
+      "distanceM": 546,
+      "avgGrade": 0.32967033982276917,
+      "startLat": 31.127885818481445,
+      "startLng": 121.48107147216797
+    },
+    {
+      "id": "20304993",
+      "tileScore": 11,
+      "name": "Yaolong & Huaxia Hot Blast",
+      "distanceM": 29317,
+      "avgGrade": -0.008527475409209728,
+      "startLat": 31.14801597595215,
+      "startLng": 121.47225952148438
+    },
+    {
+      "id": "36944333",
+      "tileScore": 20,
+      "name": "中环 089",
+      "distanceM": 1140.699951171875,
+      "avgGrade": -0.035066187381744385,
+      "startLat": 31.15066146850586,
+      "startLng": 121.50309753417969
+    },
+    {
+      "id": "40540572",
+      "tileScore": 519,
+      "name": "North Sanlin Ferry Loop 三林渡口北圈",
+      "distanceM": 3805,
+      "avgGrade": 0.010512483306229115,
+      "startLat": 31.14569091796875,
+      "startLng": 121.45704650878906
+    },
+    {
+      "id": "37542209",
+      "tileScore": 274,
+      "name": "三林滨江 094",
+      "distanceM": 1526.699951171875,
+      "avgGrade": 0.026200301945209503,
+      "startLat": 31.14261245727539,
+      "startLng": 121.47198486328125
+    },
+    {
+      "id": "21956565",
+      "tileScore": 14,
+      "name": "Final Flash",
+      "distanceM": 458.8999938964844,
+      "avgGrade": 1.830464243888855,
+      "startLat": 31.131519317626953,
+      "startLng": 121.49910736083984
+    },
+    {
+      "id": "6952597",
+      "tileScore": 15,
+      "name": "Full Expo Southbound",
+      "distanceM": 10703.400390625,
+      "avgGrade": -0.03923986852169037,
+      "startLat": 31.223365783691406,
+      "startLng": 121.5077896118164
+    },
+    {
+      "id": "36956150",
+      "tileScore": 27,
+      "name": "三林 001 Sprint",
+      "distanceM": 817.7000122070312,
+      "avgGrade": 0,
+      "startLat": 31.156108856201172,
+      "startLng": 121.49659729003906
+    },
+    {
+      "id": "36278584",
+      "tileScore": 2,
+      "name": "东明 001",
+      "distanceM": 909.5,
+      "avgGrade": -0.021990105509757996,
+      "startLat": 31.165428161621094,
+      "startLng": 121.49686431884766
+    },
+    {
+      "id": "32151306",
+      "tileScore": 3,
+      "name": "东育路冲刺",
+      "distanceM": 1205.199951171875,
+      "avgGrade": -0.06637902557849884,
+      "startLat": 31.137489318847656,
+      "startLng": 121.48444366455078
+    },
+    {
+      "id": "34648273",
+      "tileScore": 6,
+      "name": "东明 097",
+      "distanceM": 1535.300048828125,
+      "avgGrade": 0,
+      "startLat": 31.153881072998047,
+      "startLng": 121.51547241210938
+    },
+    {
+      "id": "39449035",
+      "tileScore": 10,
+      "name": "三林 096 Shozo Coffee",
+      "distanceM": 1108.0999755859375,
+      "avgGrade": -0.18048912286758423,
+      "startLat": 31.145200729370117,
+      "startLng": 121.50741577148438
+    },
+    {
+      "id": "8767219",
+      "tileScore": 9,
+      "name": "San Lu Hwy South ( S20 to S32)",
+      "distanceM": 9014.900390625,
+      "avgGrade": -0.00665564788505435,
+      "startLat": 31.132736206054688,
+      "startLng": 121.4984359741211
+    },
+    {
+      "id": "36944328",
+      "tileScore": 16,
+      "name": "中环 090",
+      "distanceM": 1505.5999755859375,
+      "avgGrade": 0.026567481458187103,
+      "startLat": 31.149789810180664,
+      "startLng": 121.4852523803711
+    },
+    {
+      "id": "7695461",
+      "tileScore": 16,
+      "name": "Expo to KangWu Lu",
+      "distanceM": 6783.7001953125,
+      "avgGrade": -0.007370608858764172,
+      "startLat": 31.148069381713867,
+      "startLng": 121.47233581542969
+    },
+    {
+      "id": "23344868",
+      "tileScore": 17,
+      "name": "MercrediLaParisienneReborn",
+      "distanceM": 41012.69921875,
+      "avgGrade": -0.021944422274827957,
+      "startLat": 31.19717025756836,
+      "startLng": 121.49729919433594
+    },
+    {
+      "id": "40304581",
+      "tileScore": 48,
+      "name": "三林南 096 TT",
+      "distanceM": 1996.0999755859375,
+      "avgGrade": 0.06011722609400749,
+      "startLat": 31.11498260498047,
+      "startLng": 121.48149871826172
+    },
+    {
+      "id": "35083404",
+      "tileScore": 16,
+      "name": "浦江 099 TT Long",
+      "distanceM": 9674.7998046875,
+      "avgGrade": -0.006201678421348333,
+      "startLat": 31.063274383544922,
+      "startLng": 121.50765228271484
+    },
+    {
+      "id": "36406220",
+      "tileScore": 6,
+      "name": "Hairdressers Bridge and Bird Watchers",
+      "distanceM": 846.2999877929688,
+      "avgGrade": -0.07089684158563614,
+      "startLat": 31.132238388061523,
+      "startLng": 121.48831176757812
+    },
+    {
+      "id": "34614181",
+      "tileScore": 3,
+      "name": "中环 099",
+      "distanceM": 1707.800048828125,
+      "avgGrade": 0.03513291850686073,
+      "startLat": 31.134191513061523,
+      "startLng": 121.48886108398438
+    },
+    {
+      "id": "34777759",
+      "tileScore": 5,
+      "name": "三林滨江 003 Riverside",
+      "distanceM": 1786.199951171875,
+      "avgGrade": -0.03359086439013481,
+      "startLat": 31.12932014465332,
+      "startLng": 121.46735382080078
+    },
+    {
+      "id": "21036682",
+      "tileScore": 7,
+      "name": "Minpu Tues - Park to LP with extension",
+      "distanceM": 56914,
+      "avgGrade": -0.006325332447886467,
+      "startLat": 31.213491439819336,
+      "startLng": 121.46663665771484
+    },
+    {
+      "id": "24425517",
+      "tileScore": 3,
+      "name": "ShangNan PuJin Lightning!!!",
+      "distanceM": 21129.69921875,
+      "avgGrade": 0.011358419433236122,
+      "startLat": 31.194862365722656,
+      "startLng": 121.49488830566406
+    },
+    {
+      "id": "39171202",
+      "tileScore": 9,
+      "name": "高青6plus",
+      "distanceM": 6322.7001953125,
+      "avgGrade": 0.025305643677711487,
+      "startLat": 31.1673641204834,
+      "startLng": 121.54045867919922
+    }
+  ]
+}

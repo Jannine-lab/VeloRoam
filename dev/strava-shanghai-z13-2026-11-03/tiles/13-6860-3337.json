@@ -1,0 +1,101 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-03T06:02:45.762Z",
+  "tile": {
+    "z": 13,
+    "x": 6860,
+    "y": 3337
+  },
+  "segments": [
+    {
+      "id": "33655062",
+      "tileScore": 5,
+      "name": "DongPing River Bridge of ChongMing Avenue(W to E)",
+      "distanceM": 696.7999877929688,
+      "avgGrade": 1.607347846031189,
+      "startLat": 31.596389770507812,
+      "startLng": 121.4775619506836
+    },
+    {
+      "id": "39028867",
+      "tileScore": 7,
+      "name": "崇明大道(蟠龙公路-建设公路)",
+      "distanceM": 4123.7998046875,
+      "avgGrade": 0.0048498958349227905,
+      "startLat": 31.60111427307129,
+      "startLng": 121.46578979492188
+    },
+    {
+      "id": "1667233",
+      "tileScore": 1,
+      "name": "Chongming short 2",
+      "distanceM": 39860.80078125,
+      "avgGrade": -0.008027937263250351,
+      "startLat": 31.660154342651367,
+      "startLng": 121.40385437011719
+    },
+    {
+      "id": "39028866",
+      "tileScore": 5,
+      "name": "崇明大道(井亭路-蟠龙公路)",
+      "distanceM": 2363.699951171875,
+      "avgGrade": 0.042306553572416306,
+      "startLat": 31.592004776000977,
+      "startLng": 121.48890686035156
+    },
+    {
+      "id": "39112798",
+      "tileScore": 30,
+      "name": "团城公路(蟠龙公路-建设公路)",
+      "distanceM": 3848.89990234375,
+      "avgGrade": 0.002598145045340061,
+      "startLat": 31.61012840270996,
+      "startLng": 121.47208404541016
+    },
+    {
+      "id": "33136229",
+      "tileScore": 19,
+      "name": "Tuancheng Hwy",
+      "distanceM": 20729.400390625,
+      "avgGrade": -0.013507385738193989,
+      "startLat": 31.633817672729492,
+      "startLng": 121.43010711669922
+    },
+    {
+      "id": "33065310",
+      "tileScore": 12,
+      "name": "ChongMing Avenue iTT",
+      "distanceM": 18537.400390625,
+      "avgGrade": 0,
+      "startLat": 31.544097900390625,
+      "startLng": 121.59672546386719
+    },
+    {
+      "id": "39112791",
+      "tileScore": 10,
+      "name": "团城公路(北新公路-蟠龙公路)",
+      "distanceM": 4699.2998046875,
+      "avgGrade": 0.010639882646501064,
+      "startLat": 31.589710235595703,
+      "startLng": 121.51580810546875
+    },
+    {
+      "id": "36318104",
+      "tileScore": 1,
+      "name": "陈海公路tt(建设公路-北新公路)",
+      "distanceM": 8695.400390625,
+      "avgGrade": -0.011500333435833454,
+      "startLat": 31.6409854888916,
+      "startLng": 121.44751739501953
+    },
+    {
+      "id": "35025613",
+      "tileScore": 1,
+      "name": "DongPing River Bridge of ChongMing Avenue(E to W)",
+      "distanceM": 516.2000122070312,
+      "avgGrade": 1.7047656774520874,
+      "startLat": 31.593233108520508,
+      "startLng": 121.48722839355469
+    }
+  ]
+}

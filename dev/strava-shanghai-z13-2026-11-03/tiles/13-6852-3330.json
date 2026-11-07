@@ -1,0 +1,20 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-03T05:56:37.397Z",
+  "tile": {
+    "z": 13,
+    "x": 6852,
+    "y": 3330
+  },
+  "segments": [
+    {
+      "id": "33319161",
+      "tileScore": 2,
+      "name": "謇公湖绕圈10km",
+      "distanceM": 10728.599609375,
+      "avgGrade": 0,
+      "startLat": 31.84847068786621,
+      "startLng": 121.16030883789062
+    }
+  ]
+}

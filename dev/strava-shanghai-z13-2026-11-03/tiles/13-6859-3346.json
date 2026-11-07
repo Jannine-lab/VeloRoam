@@ -1,0 +1,290 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-03T06:06:53.200Z",
+  "tile": {
+    "z": 13,
+    "x": 6859,
+    "y": 3346
+  },
+  "segments": [
+    {
+      "id": "33978462",
+      "tileScore": 7,
+      "name": "沪太路 志丹路-中山北路",
+      "distanceM": 2253.39990234375,
+      "avgGrade": -0.04437738284468651,
+      "startLat": 31.273799896240234,
+      "startLng": 121.42753601074219
+    },
+    {
+      "id": "33790117",
+      "tileScore": 17,
+      "name": "North Soochow River",
+      "distanceM": 3042.60009765625,
+      "avgGrade": 0.05915992707014084,
+      "startLat": 31.243881225585938,
+      "startLng": 121.47786712646484
+    },
+    {
+      "id": "8156733",
+      "tileScore": 4,
+      "name": "Lingshi Lu",
+      "distanceM": 4742.7998046875,
+      "avgGrade": 0.07379607111215591,
+      "startLat": 31.286205291748047,
+      "startLng": 121.45596313476562
+    },
+    {
+      "id": "32254509",
+      "tileScore": 1,
+      "name": "SS Sprint",
+      "distanceM": 550.4000244140625,
+      "avgGrade": 0.03633720800280571,
+      "startLat": 31.27690887451172,
+      "startLng": 121.45918273925781
+    },
+    {
+      "id": "33036422",
+      "tileScore": 5,
+      "name": "沪太路-新沪路大宁路段",
+      "distanceM": 2157.699951171875,
+      "avgGrade": -0.06488390266895294,
+      "startLat": 31.270729064941406,
+      "startLng": 121.4345932006836
+    },
+    {
+      "id": "28920458",
+      "tileScore": 3,
+      "name": "Inner Ring Northern Hemisphere",
+      "distanceM": 14540.599609375,
+      "avgGrade": 0.001375459018163383,
+      "startLat": 31.212167739868164,
+      "startLng": 121.40843963623047
+    },
+    {
+      "id": "12360278",
+      "tileScore": 3,
+      "name": "Col de Hengfeng ",
+      "distanceM": 842.0999755859375,
+      "avgGrade": 2.410640001296997,
+      "startLat": 31.249807357788086,
+      "startLng": 121.44800567626953
+    },
+    {
+      "id": "1145779",
+      "tileScore": 28,
+      "name": "daning park circle",
+      "distanceM": 4408.580078125,
+      "avgGrade": 0.0022683453280478716,
+      "startLat": 31.277318954467773,
+      "startLng": 121.43254089355469
+    },
+    {
+      "id": "958513",
+      "tileScore": 4,
+      "name": "柳营路",
+      "distanceM": 931.198974609375,
+      "avgGrade": 0.5369415879249573,
+      "startLat": 31.264490127563477,
+      "startLng": 121.44847869873047
+    },
+    {
+      "id": "25157401",
+      "tileScore": 51,
+      "name": "LRA 1st Sprint",
+      "distanceM": 3285.10009765625,
+      "avgGrade": 0.08523332327604294,
+      "startLat": 31.231462478637695,
+      "startLng": 121.41973876953125
+    },
+    {
+      "id": "33596081",
+      "tileScore": 9,
+      "name": "jiaotong road",
+      "distanceM": 2992.60009765625,
+      "avgGrade": 0.04678206145763397,
+      "startLat": 31.26375961303711,
+      "startLng": 121.40548706054688
+    },
+    {
+      "id": "9565992",
+      "tileScore": 14,
+      "name": "Zhenping Rd Bridge (Northbound)",
+      "distanceM": 293.5,
+      "avgGrade": 0.0681430995464325,
+      "startLat": 31.245811462402344,
+      "startLng": 121.42845153808594
+    },
+    {
+      "id": "6879791",
+      "tileScore": 96,
+      "name": "Putuo Bridge",
+      "distanceM": 304,
+      "avgGrade": 1.5789473056793213,
+      "startLat": 31.25058937072754,
+      "startLng": 121.43194580078125
+    },
+    {
+      "id": "4154102",
+      "tileScore": 2,
+      "name": "Roubaix/Flanders Style Cobbles",
+      "distanceM": 791.0999755859375,
+      "avgGrade": -0.492984414100647,
+      "startLat": 31.250476837158203,
+      "startLng": 121.43315124511719
+    },
+    {
+      "id": "10541863",
+      "tileScore": 3,
+      "name": "40 km Shanghaï Loop",
+      "distanceM": 38644.5,
+      "avgGrade": 0.0015526142669841647,
+      "startLat": 31.193662643432617,
+      "startLng": 121.46837615966797
+    },
+    {
+      "id": "14362118",
+      "tileScore": 17,
+      "name": "内环-柳莺 魔鬼爬坡@_@",
+      "distanceM": 511.3999938964844,
+      "avgGrade": 0.899491548538208,
+      "startLat": 31.26478385925293,
+      "startLng": 121.46129608154297
+    },
+    {
+      "id": "39512446",
+      "tileScore": 8,
+      "name": "Yichang Rd",
+      "distanceM": 1260.699951171875,
+      "avgGrade": -0.2538272440433502,
+      "startLat": 31.251235961914062,
+      "startLng": 121.43913269042969
+    },
+    {
+      "id": "14927580",
+      "tileScore": 36,
+      "name": "Railway Bridge Climb N",
+      "distanceM": 422.5,
+      "avgGrade": 2.0355029106140137,
+      "startLat": 31.259212493896484,
+      "startLng": 121.44029235839844
+    },
+    {
+      "id": "14273302",
+      "tileScore": 5,
+      "name": "柳营－海宁　我要飞",
+      "distanceM": 2565.60009765625,
+      "avgGrade": -0.33520424365997314,
+      "startLat": 31.268556594848633,
+      "startLng": 121.459228515625
+    },
+    {
+      "id": "36516350",
+      "tileScore": 2,
+      "name": "经典通勤上班线路A-虹桥绕道至凯旋卡红绿灯不停车",
+      "distanceM": 21577.099609375,
+      "avgGrade": -0.04634543135762215,
+      "startLat": 31.27074432373047,
+      "startLng": 121.52769470214844
+    },
+    {
+      "id": "32193090",
+      "tileScore": 4,
+      "name": "火前蹦迪",
+      "distanceM": 553.4000244140625,
+      "avgGrade": 0,
+      "startLat": 31.268159866333008,
+      "startLng": 121.46685791015625
+    },
+    {
+      "id": "40626325",
+      "tileScore": 106,
+      "name": "苏州河鲁貝#y",
+      "distanceM": 514.5999755859375,
+      "avgGrade": -0.544111967086792,
+      "startLat": 31.24219512939453,
+      "startLng": 121.463134765625
+    },
+    {
+      "id": "3439179",
+      "tileScore": 14,
+      "name": "Suzhou North ",
+      "distanceM": 4196.91943359375,
+      "avgGrade": -0.06195048987865448,
+      "startLat": 31.261362075805664,
+      "startLng": 121.4499740600586
+    },
+    {
+      "id": "38250952",
+      "tileScore": 52,
+      "name": "河滨高速路",
+      "distanceM": 581.0999755859375,
+      "avgGrade": 0.10325244814157486,
+      "startLat": 31.240337371826172,
+      "startLng": 121.45301818847656
+    },
+    {
+      "id": "6534523",
+      "tileScore": 4,
+      "name": "Guangxin Rd Railway Underpass (Southbound)",
+      "distanceM": 291.8999938964844,
+      "avgGrade": -1.0962659120559692,
+      "startLat": 31.260921478271484,
+      "startLng": 121.4260482788086
+    },
+    {
+      "id": "17677714",
+      "tileScore": 3,
+      "name": "逸仙高架到城区路线",
+      "distanceM": 6122.39990234375,
+      "avgGrade": -0.07023389637470245,
+      "startLat": 31.243263244628906,
+      "startLng": 121.46307373046875
+    },
+    {
+      "id": "21188255",
+      "tileScore": 17,
+      "name": "Yuanjing Lu",
+      "distanceM": 607.5999755859375,
+      "avgGrade": 0.06583278626203537,
+      "startLat": 31.253326416015625,
+      "startLng": 121.44636535644531
+    },
+    {
+      "id": "6320083",
+      "tileScore": 17,
+      "name": "Changhua Bridge",
+      "distanceM": 180.6999969482422,
+      "avgGrade": 3.5417821407318115,
+      "startLat": 31.242448806762695,
+      "startLng": 121.44644165039062
+    },
+    {
+      "id": "22431799",
+      "tileScore": 2,
+      "name": "Rush Hour from Xujiahui to Wujiaochang",
+      "distanceM": 17675.30078125,
+      "avgGrade": -0.08146961778402328,
+      "startLat": 31.195659637451172,
+      "startLng": 121.43431854248047
+    },
+    {
+      "id": "26652195",
+      "tileScore": 12,
+      "name": "ChangpingLuqiao->Changhua_byOldSkool",
+      "distanceM": 418.79998779296875,
+      "avgGrade": -0.33428844809532166,
+      "startLat": 31.24214744567871,
+      "startLng": 121.4515380859375
+    },
+    {
+      "id": "14689575",
+      "tileScore": 1,
+      "name": "Inner Ring Road East to Inner Ring Road West (Zhoujiazui/Haining/Tianmu/Changshou/Changning)",
+      "distanceM": 13932.7998046875,
+      "avgGrade": 0.07607946544885635,
+      "startLat": 31.276411056518555,
+      "startLng": 121.52288055419922
+    }
+  ]
+}

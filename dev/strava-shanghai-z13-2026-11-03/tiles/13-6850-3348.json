@@ -1,0 +1,47 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-03T06:07:50.295Z",
+  "tile": {
+    "z": 13,
+    "x": 6850,
+    "y": 3348
+  },
+  "segments": [
+    {
+      "id": "3725415",
+      "tileScore": 5,
+      "name": "Xin Le Lu",
+      "distanceM": 7061.44091796875,
+      "avgGrade": 0.04814909026026726,
+      "startLat": 31.18485450744629,
+      "startLng": 120.99977111816406
+    },
+    {
+      "id": "30074996",
+      "tileScore": 1,
+      "name": "LG-08",
+      "distanceM": 3575.39990234375,
+      "avgGrade": 0.044750239700078964,
+      "startLat": 31.177448272705078,
+      "startLng": 121.03191375732422
+    },
+    {
+      "id": "30384821",
+      "tileScore": 3,
+      "name": "THL-4",
+      "distanceM": 116824.5,
+      "avgGrade": -0.0025679543614387512,
+      "startLat": 31.206161499023438,
+      "startLng": 121.28252410888672
+    },
+    {
+      "id": "30074969",
+      "tileScore": 1,
+      "name": "LG-04",
+      "distanceM": 2631.300048828125,
+      "avgGrade": -0.030403222888708115,
+      "startLat": 31.1787166595459,
+      "startLng": 121.06100463867188
+    }
+  ]
+}

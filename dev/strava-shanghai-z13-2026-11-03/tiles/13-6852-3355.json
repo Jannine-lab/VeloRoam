@@ -1,0 +1,29 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-03T06:11:13.142Z",
+  "tile": {
+    "z": 13,
+    "x": 6852,
+    "y": 3355
+  },
+  "segments": [
+    {
+      "id": "27855194",
+      "tileScore": 19,
+      "name": "叶新公路（朱枫-辰塔路口）",
+      "distanceM": 15753.099609375,
+      "avgGrade": 0,
+      "startLat": 30.93653678894043,
+      "startLng": 121.02174377441406
+    },
+    {
+      "id": "40228585",
+      "tileScore": 3,
+      "name": "From scenic spot along NiuTang River ",
+      "distanceM": 1654,
+      "avgGrade": 0.03627569600939751,
+      "startLat": 30.930561065673828,
+      "startLng": 121.12586212158203
+    }
+  ]
+}

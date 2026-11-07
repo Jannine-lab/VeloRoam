@@ -1,0 +1,38 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-03T06:04:19.285Z",
+  "tile": {
+    "z": 13,
+    "x": 6848,
+    "y": 3342
+  },
+  "segments": [
+    {
+      "id": "13400562",
+      "tileScore": 3,
+      "name": "Beimen Rd x Liu River Bridge (Northbound)",
+      "distanceM": 298.1000061035156,
+      "avgGrade": 2.012747287750244,
+      "startLat": 31.39432144165039,
+      "startLng": 120.94913482666016
+    },
+    {
+      "id": "33080870",
+      "tileScore": 5,
+      "name": "长江北路下行",
+      "distanceM": 10034.2001953125,
+      "avgGrade": 0.025911381468176842,
+      "startLat": 31.477319717407227,
+      "startLng": 120.94438171386719
+    },
+    {
+      "id": "33103289",
+      "tileScore": 11,
+      "name": "between dongtinghu rd..&changjiang rd.",
+      "distanceM": 4759.39990234375,
+      "avgGrade": 0.00840442068874836,
+      "startLat": 31.403419494628906,
+      "startLng": 121.0238265991211
+    }
+  ]
+}

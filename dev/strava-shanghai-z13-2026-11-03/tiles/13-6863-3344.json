@@ -1,0 +1,56 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-03T06:04:55.214Z",
+  "tile": {
+    "z": 13,
+    "x": 6863,
+    "y": 3344
+  },
+  "segments": [
+    {
+      "id": "39318105",
+      "tileScore": 21,
+      "name": "此处没有赛段",
+      "distanceM": 790.7000122070312,
+      "avgGrade": -0.05058808624744415,
+      "startLat": 31.336702346801758,
+      "startLng": 121.59765625
+    },
+    {
+      "id": "3571193",
+      "tileScore": 7,
+      "name": "Shanghai Docks Sprint Gangjian Road",
+      "distanceM": 3153.826416015625,
+      "avgGrade": 0.0031707780435681343,
+      "startLat": 31.314237594604492,
+      "startLng": 121.665283203125
+    },
+    {
+      "id": "41415180",
+      "tileScore": 98,
+      "name": "SLCC 森兰夜刷",
+      "distanceM": 7029.2001953125,
+      "avgGrade": 0.04552438482642174,
+      "startLat": 31.31844711303711,
+      "startLng": 121.59465026855469
+    },
+    {
+      "id": "35274092",
+      "tileScore": 69,
+      "name": "WTZ Back",
+      "distanceM": 2099.10009765625,
+      "avgGrade": 0.04763946309685707,
+      "startLat": 31.340002059936523,
+      "startLng": 121.60222625732422
+    },
+    {
+      "id": "39630462",
+      "tileScore": 107,
+      "name": "gogogo",
+      "distanceM": 3854,
+      "avgGrade": -0.005189413204789162,
+      "startLat": 31.331005096435547,
+      "startLng": 121.61013793945312
+    }
+  ]
+}

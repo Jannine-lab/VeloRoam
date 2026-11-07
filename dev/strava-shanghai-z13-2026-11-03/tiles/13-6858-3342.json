@@ -1,0 +1,65 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-03T06:04:27.860Z",
+  "tile": {
+    "z": 13,
+    "x": 6858,
+    "y": 3342
+  },
+  "segments": [
+    {
+      "id": "39028878",
+      "tileScore": 14,
+      "name": "江杨北路(富锦路-蕴川公路)",
+      "distanceM": 3346,
+      "avgGrade": 0.02390914596617222,
+      "startLat": 31.405757904052734,
+      "startLng": 121.43551635742188
+    },
+    {
+      "id": "37231070",
+      "tileScore": 29,
+      "name": "富长路后半段",
+      "distanceM": 5589.2001953125,
+      "avgGrade": -0.017891647294163704,
+      "startLat": 31.418840408325195,
+      "startLng": 121.39128112792969
+    },
+    {
+      "id": "27202541",
+      "tileScore": 7,
+      "name": "Panjing grand straight road",
+      "distanceM": 15455.5,
+      "avgGrade": -0.016822488978505135,
+      "startLat": 31.48887825012207,
+      "startLng": 121.32933807373047
+    },
+    {
+      "id": "39134550",
+      "tileScore": 7,
+      "name": "蕴川公路 Roubaix",
+      "distanceM": 4058.5,
+      "avgGrade": 0.05913514643907547,
+      "startLat": 31.422119140625,
+      "startLng": 121.41368865966797
+    },
+    {
+      "id": "42029082",
+      "tileScore": 2,
+      "name": "乡间小路",
+      "distanceM": 1548.199951171875,
+      "avgGrade": 0.07750936597585678,
+      "startLat": 31.428499221801758,
+      "startLng": 121.38209533691406
+    },
+    {
+      "id": "37134597",
+      "tileScore": 8,
+      "name": "江杨南北and keep riding",
+      "distanceM": 28191.19921875,
+      "avgGrade": -0.014898266643285751,
+      "startLat": 31.322021484375,
+      "startLng": 121.46370697021484
+    }
+  ]
+}

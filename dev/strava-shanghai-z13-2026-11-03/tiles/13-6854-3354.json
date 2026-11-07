@@ -1,0 +1,74 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-03T06:09:48.949Z",
+  "tile": {
+    "z": 13,
+    "x": 6854,
+    "y": 3354
+  },
+  "segments": [
+    {
+      "id": "30281823",
+      "tileScore": 1,
+      "name": "FNC-006",
+      "distanceM": 2477.5,
+      "avgGrade": 0.032290615141391754,
+      "startLat": 30.995651245117188,
+      "startLng": 121.23717498779297
+    },
+    {
+      "id": "35849918",
+      "tileScore": 33,
+      "name": "Riverside at Maogang Forest (WB)",
+      "distanceM": 3894.10009765625,
+      "avgGrade": -0.03851981461048126,
+      "startLat": 30.947046279907227,
+      "startLng": 121.20940399169922
+    },
+    {
+      "id": "19141023",
+      "tileScore": 20,
+      "name": "WeekDayCanal",
+      "distanceM": 15982.099609375,
+      "avgGrade": -0.005005600396543741,
+      "startLat": 30.955711364746094,
+      "startLng": 121.18595123291016
+    },
+    {
+      "id": "40647315",
+      "tileScore": 2,
+      "name": "Fengxian South Canals",
+      "distanceM": 20461.400390625,
+      "avgGrade": 0.010751952417194843,
+      "startLat": 30.976587295532227,
+      "startLng": 121.3487319946289
+    },
+    {
+      "id": "32298868",
+      "tileScore": 1,
+      "name": "泖河浦江骑行第三段",
+      "distanceM": 3093,
+      "avgGrade": -0.0517297126352787,
+      "startLat": 30.965835571289062,
+      "startLng": 121.23530578613281
+    },
+    {
+      "id": "19765686",
+      "tileScore": 17,
+      "name": "MondayBridgesInterval",
+      "distanceM": 5730.2998046875,
+      "avgGrade": -0.003490218659862876,
+      "startLat": 30.937641143798828,
+      "startLng": 121.1915512084961
+    },
+    {
+      "id": "35323201",
+      "tileScore": 25,
+      "name": "Simon's Swivel ",
+      "distanceM": 518.5999755859375,
+      "avgGrade": 0.23139221966266632,
+      "startLat": 30.971044540405273,
+      "startLng": 121.2320327758789
+    }
+  ]
+}

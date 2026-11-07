@@ -1,0 +1,65 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-03T06:07:17.882Z",
+  "tile": {
+    "z": 13,
+    "x": 6868,
+    "y": 3345
+  },
+  "segments": [
+    {
+      "id": "36812340",
+      "tileScore": 17,
+      "name": "Dongbin Road (clockwise)",
+      "distanceM": 5874.2998046875,
+      "avgGrade": -0.013618644326925278,
+      "startLat": 31.344478607177734,
+      "startLng": 121.8802490234375
+    },
+    {
+      "id": "11593484",
+      "tileScore": 3,
+      "name": "Hengsha Jetty (Eastbound) - Entrance → Monument",
+      "distanceM": 4123.7998046875,
+      "avgGrade": -0.048498958349227905,
+      "startLat": 31.298839569091797,
+      "startLng": 121.85446166992188
+    },
+    {
+      "id": "29703134",
+      "tileScore": 58,
+      "name": "横沙岛好路绕圈",
+      "distanceM": 24308.599609375,
+      "avgGrade": -0.0016455082222819328,
+      "startLat": 31.371824264526367,
+      "startLng": 121.8013687133789
+    },
+    {
+      "id": "38262478",
+      "tileScore": 21,
+      "name": "王局快乐大直道",
+      "distanceM": 9197.7998046875,
+      "avgGrade": 0.02174432948231697,
+      "startLat": 31.372465133666992,
+      "startLng": 121.8009262084961
+    },
+    {
+      "id": "35198304",
+      "tileScore": 12,
+      "name": "Hengsha Seawall Semi Circle",
+      "distanceM": 17100.400390625,
+      "avgGrade": 0,
+      "startLat": 31.2965087890625,
+      "startLng": 121.8507080078125
+    },
+    {
+      "id": "32702843",
+      "tileScore": 10,
+      "name": "面向大海",
+      "distanceM": 2658.89990234375,
+      "avgGrade": 0.022565722465515137,
+      "startLat": 31.31468391418457,
+      "startLng": 121.8697509765625
+    }
+  ]
+}

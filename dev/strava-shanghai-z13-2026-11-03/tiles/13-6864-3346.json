@@ -1,0 +1,191 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-03T06:06:56.599Z",
+  "tile": {
+    "z": 13,
+    "x": 6864,
+    "y": 3346
+  },
+  "segments": [
+    {
+      "id": "36944291",
+      "tileScore": 43,
+      "name": "云山路 to 顾唐路",
+      "distanceM": 7434,
+      "avgGrade": 0.024213073775172234,
+      "startLat": 31.23383140563965,
+      "startLng": 121.58002471923828
+    },
+    {
+      "id": "35733986",
+      "tileScore": 33,
+      "name": "锦绣路桥前冲刺",
+      "distanceM": 1353.800048828125,
+      "avgGrade": 0.310237854719162,
+      "startLat": 31.24751853942871,
+      "startLng": 121.65559387207031
+    },
+    {
+      "id": "30134997",
+      "tileScore": 3,
+      "name": "电驴们的亡命追逐",
+      "distanceM": 3994.199951171875,
+      "avgGrade": -0.110159732401371,
+      "startLat": 31.264204025268555,
+      "startLng": 121.61126708984375
+    },
+    {
+      "id": "39034890",
+      "tileScore": 4,
+      "name": "骑完双桥赶个船",
+      "distanceM": 10961.5,
+      "avgGrade": 0.0018245679093524814,
+      "startLat": 31.2834415435791,
+      "startLng": 121.6682357788086
+    },
+    {
+      "id": "36838080",
+      "tileScore": 33,
+      "name": "凌空北路绕圈",
+      "distanceM": 4714.5,
+      "avgGrade": -0.0042422316037118435,
+      "startLat": 31.281347274780273,
+      "startLng": 121.67859649658203
+    },
+    {
+      "id": "16695526",
+      "tileScore": 7,
+      "name": "to the sea",
+      "distanceM": 30088.599609375,
+      "avgGrade": 0.015952887013554573,
+      "startLat": 31.223649978637695,
+      "startLng": 121.50944519042969
+    },
+    {
+      "id": "34630838",
+      "tileScore": 4,
+      "name": "Huadong Rd (Jinhai Rd to E Jinxiu Rd) ",
+      "distanceM": 1976.300048828125,
+      "avgGrade": 0.07083944231271744,
+      "startLat": 31.268192291259766,
+      "startLng": 121.65882873535156
+    },
+    {
+      "id": "34606682",
+      "tileScore": 2,
+      "name": "Minyao Road",
+      "distanceM": 1039.4000244140625,
+      "avgGrade": 0.40407925844192505,
+      "startLat": 31.26901626586914,
+      "startLng": 121.65206146240234
+    },
+    {
+      "id": "6521123",
+      "tileScore": 67,
+      "name": "Sprint between the Canals",
+      "distanceM": 1778.300048828125,
+      "avgGrade": 0,
+      "startLat": 31.248079299926758,
+      "startLng": 121.65815734863281
+    },
+    {
+      "id": "35849445",
+      "tileScore": 101,
+      "name": "锦绣路上桥！冲🦆 (灬ºωº灬)",
+      "distanceM": 522.5999755859375,
+      "avgGrade": 1.798698902130127,
+      "startLat": 31.244646072387695,
+      "startLng": 121.64514923095703
+    },
+    {
+      "id": "10668152",
+      "tileScore": 2,
+      "name": "Shangchuan Overpass (Westbound)",
+      "distanceM": 611.2000122070312,
+      "avgGrade": 0.06544502824544907,
+      "startLat": 31.27558135986328,
+      "startLng": 121.64251708984375
+    },
+    {
+      "id": "35388198",
+      "tileScore": 8,
+      "name": "卡园绕圈",
+      "distanceM": 2646,
+      "avgGrade": -0.0075585790909826756,
+      "startLat": 31.240947723388672,
+      "startLng": 121.6661376953125
+    },
+    {
+      "id": "35882217",
+      "tileScore": 1,
+      "name": "(˶‾᷄ꈊ‾᷅˵)  谁也别想休闲   ᶘ ᵒᴥᵒᶅ",
+      "distanceM": 28237,
+      "avgGrade": 0.039664268493652344,
+      "startLat": 31.272661209106445,
+      "startLng": 121.62120056152344
+    },
+    {
+      "id": "34196362",
+      "tileScore": 2,
+      "name": "曹路-华夏路",
+      "distanceM": 9342.7998046875,
+      "avgGrade": 0.019266173243522644,
+      "startLat": 31.284818649291992,
+      "startLng": 121.67583465576172
+    },
+    {
+      "id": "8078921",
+      "tileScore": 6,
+      "name": "The Bridge",
+      "distanceM": 556.5,
+      "avgGrade": 1.6531895399093628,
+      "startLat": 31.27277374267578,
+      "startLng": 121.67555236816406
+    },
+    {
+      "id": "32619340",
+      "tileScore": 2,
+      "name": "Road to Salvation",
+      "distanceM": 7085.7001953125,
+      "avgGrade": 0.005645172670483589,
+      "startLat": 31.26627540588379,
+      "startLng": 121.63288116455078
+    },
+    {
+      "id": "34512017",
+      "tileScore": 4,
+      "name": "电驴们的疯狂绕圈",
+      "distanceM": 17350,
+      "avgGrade": 0.0011527377646416426,
+      "startLat": 31.264314651489258,
+      "startLng": 121.61229705810547
+    },
+    {
+      "id": "40990361",
+      "tileScore": 85,
+      "name": "NBCC Back",
+      "distanceM": 5351.39990234375,
+      "avgGrade": 0.14949358999729156,
+      "startLat": 31.25813865661621,
+      "startLng": 121.6934814453125
+    },
+    {
+      "id": "41265636",
+      "tileScore": 79,
+      "name": "E Jinxiu Rd till the end",
+      "distanceM": 2914.800048828125,
+      "avgGrade": -0.1509537547826767,
+      "startLat": 31.25436019897461,
+      "startLng": 121.67961883544922
+    },
+    {
+      "id": "29026514",
+      "tileScore": 2,
+      "name": "Jufeng Rd bridge W",
+      "distanceM": 1543.0999755859375,
+      "avgGrade": -0.07128507643938065,
+      "startLat": 31.278076171875,
+      "startLng": 121.64681243896484
+    }
+  ]
+}

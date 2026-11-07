@@ -1,0 +1,263 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-03T06:08:03.537Z",
+  "tile": {
+    "z": 13,
+    "x": 6854,
+    "y": 3350
+  },
+  "segments": [
+    {
+      "id": "7875365",
+      "tileScore": 80,
+      "name": "Playa Maya Dash From Jiasong South Rd To Waiqingsong Hwy",
+      "distanceM": 3427.699951171875,
+      "avgGrade": 0.07585261762142181,
+      "startLat": 31.107084274291992,
+      "startLng": 121.22342681884766
+    },
+    {
+      "id": "37027201",
+      "tileScore": 7,
+      "name": "ER speedy circuit ",
+      "distanceM": 75940.3984375,
+      "avgGrade": -0.010534577071666718,
+      "startLat": 31.1991024017334,
+      "startLng": 121.27393341064453
+    },
+    {
+      "id": "6597771",
+      "tileScore": 4,
+      "name": "Jiangjun Hwy (Eastbound)",
+      "distanceM": 913.2999877929688,
+      "avgGrade": 0,
+      "startLat": 31.12261962890625,
+      "startLng": 121.196044921875
+    },
+    {
+      "id": "36894166",
+      "tileScore": 19,
+      "name": "ER - Babies Arm",
+      "distanceM": 56876.1015625,
+      "avgGrade": 0,
+      "startLat": 31.179828643798828,
+      "startLng": 121.28097534179688
+    },
+    {
+      "id": "9316502",
+      "tileScore": 25,
+      "name": "Sheshan bridge",
+      "distanceM": 1096.5999755859375,
+      "avgGrade": -0.045595478266477585,
+      "startLat": 31.11870765686035,
+      "startLng": 121.23857879638672
+    },
+    {
+      "id": "40051554",
+      "tileScore": 109,
+      "name": "骑客晨练前半段",
+      "distanceM": 17343.099609375,
+      "avgGrade": 0.00576598197221756,
+      "startLat": 31.14890480041504,
+      "startLng": 121.22411346435547
+    },
+    {
+      "id": "41396221",
+      "tileScore": 63,
+      "name": "W Qiangye Rd sprint",
+      "distanceM": 904.2000122070312,
+      "avgGrade": 0.044238001108169556,
+      "startLat": 31.122068405151367,
+      "startLng": 121.22579956054688
+    },
+    {
+      "id": "7867241",
+      "tileScore": 27,
+      "name": "Sichen Hwy x Canal Bridge (Westbound)",
+      "distanceM": 546.9000244140625,
+      "avgGrade": -0.10970927774906158,
+      "startLat": 31.11503791809082,
+      "startLng": 121.20496368408203
+    },
+    {
+      "id": "7875399",
+      "tileScore": 53,
+      "name": "Linyin New Rd x Canal Bridge #3 (Westbound)",
+      "distanceM": 316.5,
+      "avgGrade": 0.03159557655453682,
+      "startLat": 31.094377517700195,
+      "startLng": 121.20256805419922
+    },
+    {
+      "id": "27327757",
+      "tileScore": 8,
+      "name": "Shanghai Tour de France 上海环法 - Full Tour (100km)",
+      "distanceM": 100065.796875,
+      "avgGrade": 0.002498356159776449,
+      "startLat": 31.153793334960938,
+      "startLng": 121.20298767089844
+    },
+    {
+      "id": "42345837",
+      "tileScore": 23,
+      "name": "6哥带你刷两山",
+      "distanceM": 52786.69921875,
+      "avgGrade": -0.002652183175086975,
+      "startLat": 31.17475128173828,
+      "startLng": 121.30008697509766
+    },
+    {
+      "id": "35904893",
+      "tileScore": 39,
+      "name": "Arrivée au Sofitel",
+      "distanceM": 2033,
+      "avgGrade": -0.37383177876472473,
+      "startLat": 31.11440658569336,
+      "startLng": 121.20111846923828
+    },
+    {
+      "id": "28250728",
+      "tileScore": 42,
+      "name": "BTP-TT07",
+      "distanceM": 9454.400390625,
+      "avgGrade": -0.07403960078954697,
+      "startLat": 31.15132713317871,
+      "startLng": 121.22286224365234
+    },
+    {
+      "id": "3552852",
+      "tileScore": 60,
+      "name": "佘北路 － 月湖",
+      "distanceM": 1740.300048828125,
+      "avgGrade": 0,
+      "startLat": 31.101825714111328,
+      "startLng": 121.19175720214844
+    },
+    {
+      "id": "29418735",
+      "tileScore": 2,
+      "name": "JR&Des@CN-007",
+      "distanceM": 25046,
+      "avgGrade": -0.031541962176561356,
+      "startLat": 31.155345916748047,
+      "startLng": 121.22297668457031
+    },
+    {
+      "id": "7875428",
+      "tileScore": 82,
+      "name": "Linyin New Rd x Canal Bridge #1 (Westbound)",
+      "distanceM": 403,
+      "avgGrade": 0.049627792090177536,
+      "startLat": 31.104190826416016,
+      "startLng": 121.21470642089844
+    },
+    {
+      "id": "7875435",
+      "tileScore": 38,
+      "name": "Linyin New Rd x Canal Bridge #2 (Westbound)",
+      "distanceM": 196.39999389648438,
+      "avgGrade": -0.05091650038957596,
+      "startLat": 31.101472854614258,
+      "startLng": 121.20439147949219
+    },
+    {
+      "id": "2718283",
+      "tileScore": 44,
+      "name": "Jiasong South to Sheshan X23",
+      "distanceM": 7445.669921875,
+      "avgGrade": -0.03223336860537529,
+      "startLat": 31.1546573638916,
+      "startLng": 121.22248840332031
+    },
+    {
+      "id": "30768098",
+      "tileScore": 15,
+      "name": "JR003",
+      "distanceM": 18046.900390625,
+      "avgGrade": -0.008865788578987122,
+      "startLat": 31.157154083251953,
+      "startLng": 121.29386901855469
+    },
+    {
+      "id": "28728847",
+      "tileScore": 35,
+      "name": "Welcome to Sheshan!",
+      "distanceM": 436.20001220703125,
+      "avgGrade": -0.18340210616588593,
+      "startLat": 31.106891632080078,
+      "startLng": 121.22209930419922
+    },
+    {
+      "id": "6597780",
+      "tileScore": 13,
+      "name": "Sichen Hwy from Jiasong South Rd to Husong Hwy",
+      "distanceM": 5948,
+      "avgGrade": 0.013449898920953274,
+      "startLat": 31.114742279052734,
+      "startLng": 121.22368621826172
+    },
+    {
+      "id": "6467827",
+      "tileScore": 23,
+      "name": "1mile after right off Jaisong to Sheshan split",
+      "distanceM": 1556.0999755859375,
+      "avgGrade": 0,
+      "startLat": 31.089115142822266,
+      "startLng": 121.22514343261719
+    },
+    {
+      "id": "33153567",
+      "tileScore": 8,
+      "name": "GO-EAST for 2km",
+      "distanceM": 2001,
+      "avgGrade": -0.13993002474308014,
+      "startLat": 31.119823455810547,
+      "startLng": 121.20000457763672
+    },
+    {
+      "id": "37724746",
+      "tileScore": 8,
+      "name": "青浦快运",
+      "distanceM": 66769.3984375,
+      "avgGrade": -0.013179689645767212,
+      "startLat": 31.176237106323242,
+      "startLng": 121.27295684814453
+    },
+    {
+      "id": "37264917",
+      "tileScore": 45,
+      "name": "吸溜儿上去40巡破风了！",
+      "distanceM": 2312.800048828125,
+      "avgGrade": -0.008647526614367962,
+      "startLat": 31.11322784423828,
+      "startLng": 121.20147705078125
+    },
+    {
+      "id": "30390315",
+      "tileScore": 9,
+      "name": "BTP-S5",
+      "distanceM": 7978.10009765625,
+      "avgGrade": -0.021308330819010735,
+      "startLat": 31.095489501953125,
+      "startLng": 121.29185485839844
+    },
+    {
+      "id": "27743438",
+      "tileScore": 4,
+      "name": "Cemetery 2 SRC",
+      "distanceM": 56811.30078125,
+      "avgGrade": 0,
+      "startLat": 31.20186996459961,
+      "startLng": 121.27755737304688
+    },
+    {
+      "id": "8025523",
+      "tileScore": 65,
+      "name": "Jaisong 2K frm Playa cutoff to Shenzhuan",
+      "distanceM": 1798.4000244140625,
+      "avgGrade": 0,
+      "startLat": 31.105634689331055,
+      "startLng": 121.22461700439453
+    }
+  ]
+}

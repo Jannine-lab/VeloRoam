@@ -1,0 +1,47 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-03T06:13:16.455Z",
+  "tile": {
+    "z": 13,
+    "x": 6856,
+    "y": 3360
+  },
+  "segments": [
+    {
+      "id": "36321018",
+      "tileScore": 46,
+      "name": "Caowei Hwy EtoW",
+      "distanceM": 13547.400390625,
+      "avgGrade": 0.03838374838232994,
+      "startLat": 30.786436080932617,
+      "startLng": 121.41214752197266
+    },
+    {
+      "id": "37794187",
+      "tileScore": 15,
+      "name": "Shiny Gyrados",
+      "distanceM": 4658.39990234375,
+      "avgGrade": -0.2575991749763489,
+      "startLat": 30.71805191040039,
+      "startLng": 121.32170104980469
+    },
+    {
+      "id": "37794179",
+      "tileScore": 5,
+      "name": "Move to the Groove!",
+      "distanceM": 3773.699951171875,
+      "avgGrade": 0.1854943484067917,
+      "startLat": 30.750778198242188,
+      "startLng": 121.31021118164062
+    },
+    {
+      "id": "38908145",
+      "tileScore": 4,
+      "name": "沪杭公路(学府路-穗中路)",
+      "distanceM": 6286.2001953125,
+      "avgGrade": 0,
+      "startLat": 30.718181610107422,
+      "startLng": 121.32127380371094
+    }
+  ]
+}

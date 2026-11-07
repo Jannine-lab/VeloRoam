@@ -1,0 +1,56 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-03T05:59:13.309Z",
+  "tile": {
+    "z": 13,
+    "x": 6865,
+    "y": 3332
+  },
+  "segments": [
+    {
+      "id": "41626593",
+      "tileScore": 19,
+      "name": "The long way home",
+      "distanceM": 23625.19921875,
+      "avgGrade": 0.010158644057810307,
+      "startLat": 31.702730178833008,
+      "startLng": 121.85640716552734
+    },
+    {
+      "id": "27480276",
+      "tileScore": 8,
+      "name": "OverBridge to S356 Junction",
+      "distanceM": 4385.60009765625,
+      "avgGrade": -0.0045603797771036625,
+      "startLat": 31.794143676757812,
+      "startLng": 121.68756866455078
+    },
+    {
+      "id": "40915483",
+      "tileScore": 1,
+      "name": "泡泡的美食打卡",
+      "distanceM": 5597.39990234375,
+      "avgGrade": -0.007146175019443035,
+      "startLat": 31.759241104125977,
+      "startLng": 121.67549133300781
+    },
+    {
+      "id": "41604461",
+      "tileScore": 13,
+      "name": "Gjedda i sivet rykket",
+      "distanceM": 536.7999877929688,
+      "avgGrade": 0.8941877484321594,
+      "startLat": 31.791860580444336,
+      "startLng": 121.69306182861328
+    },
+    {
+      "id": "27480251",
+      "tileScore": 5,
+      "name": "Yinzhou to Over Bridge ",
+      "distanceM": 3132,
+      "avgGrade": 0.019157089293003082,
+      "startLat": 31.808555603027344,
+      "startLng": 121.65999603271484
+    }
+  ]
+}

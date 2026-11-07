@@ -1,0 +1,110 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-03T06:10:41.742Z",
+  "tile": {
+    "z": 13,
+    "x": 6869,
+    "y": 3353
+  },
+  "segments": [
+    {
+      "id": "32888850",
+      "tileScore": 5,
+      "name": "老芦狠拉",
+      "distanceM": 3534.60009765625,
+      "avgGrade": 0.039608441293239594,
+      "startLat": 31.012020111083984,
+      "startLng": 121.8626480102539
+    },
+    {
+      "id": "32845786",
+      "tileScore": 16,
+      "name": "“躺下”大桥",
+      "distanceM": 1039.800048828125,
+      "avgGrade": -0.07693787664175034,
+      "startLat": 31.01105308532715,
+      "startLng": 121.8736572265625
+    },
+    {
+      "id": "33174152",
+      "tileScore": 14,
+      "name": "塘下TT-NtoS",
+      "distanceM": 12146.400390625,
+      "avgGrade": -0.08891523629426956,
+      "startLat": 31.00676918029785,
+      "startLng": 121.87511444091797
+    },
+    {
+      "id": "25866794",
+      "tileScore": 3,
+      "name": "滨果公路itt",
+      "distanceM": 8583.900390625,
+      "avgGrade": -0.018639545887708664,
+      "startLat": 31.004884719848633,
+      "startLng": 121.88356018066406
+    },
+    {
+      "id": "29375073",
+      "tileScore": 9,
+      "name": "临港赛段",
+      "distanceM": 60189.80078125,
+      "avgGrade": 0.005316515453159809,
+      "startLat": 30.911985397338867,
+      "startLng": 121.93582153320312
+    },
+    {
+      "id": "7431974",
+      "tileScore": 3,
+      "name": "TT lovers 2 Clockwise - Guaranted by Roberto",
+      "distanceM": 30336.900390625,
+      "avgGrade": 0.00032963158446364105,
+      "startLat": 31.04207992553711,
+      "startLng": 121.85521697998047
+    },
+    {
+      "id": "28636401",
+      "tileScore": 1,
+      "name": "2021 Shanghai criterium sprint",
+      "distanceM": 305.6000061035156,
+      "avgGrade": -0.7853402495384216,
+      "startLat": 30.991243362426758,
+      "startLng": 121.88969421386719
+    },
+    {
+      "id": "22117047",
+      "tileScore": 31,
+      "name": "Forest Sprint North",
+      "distanceM": 3709.300048828125,
+      "avgGrade": -0.04583074897527695,
+      "startLat": 31.012676239013672,
+      "startLng": 121.87326049804688
+    },
+    {
+      "id": "11609876",
+      "tileScore": 2,
+      "name": "老芦公路南LaoLu Rd South",
+      "distanceM": 4138,
+      "avgGrade": 0.004833252634853125,
+      "startLat": 31.0141544342041,
+      "startLng": 121.86264038085938
+    },
+    {
+      "id": "37629875",
+      "tileScore": 2,
+      "name": "dongda-xiayan（lianggang）",
+      "distanceM": 11429.7998046875,
+      "avgGrade": -0.01574830710887909,
+      "startLat": 30.975860595703125,
+      "startLng": 121.88377380371094
+    },
+    {
+      "id": "35927579",
+      "tileScore": 4,
+      "name": "金桥-滴水湖-云山路绕圈",
+      "distanceM": 150058.90625,
+      "avgGrade": 0.0018659341149032116,
+      "startLat": 31.22467041015625,
+      "startLng": 121.62055969238281
+    }
+  ]
+}

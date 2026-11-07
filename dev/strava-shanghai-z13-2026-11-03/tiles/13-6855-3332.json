@@ -1,0 +1,38 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-03T05:59:17.339Z",
+  "tile": {
+    "z": 13,
+    "x": 6855,
+    "y": 3332
+  },
+  "segments": [
+    {
+      "id": "39120133",
+      "tileScore": 1,
+      "name": "宏海公路(庙镇-新海镇)",
+      "distanceM": 16209,
+      "avgGrade": 0.0006169412517920136,
+      "startLat": 31.71405792236328,
+      "startLng": 121.34687042236328
+    },
+    {
+      "id": "19176722",
+      "tileScore": 2,
+      "name": "IM 70.3 Shanghai full course",
+      "distanceM": 89738.3984375,
+      "avgGrade": 0.009360541589558125,
+      "startLat": 31.749746322631836,
+      "startLng": 121.25502014160156
+    },
+    {
+      "id": "40311453",
+      "tileScore": 24,
+      "name": "2025 TREK100",
+      "distanceM": 108150.3984375,
+      "avgGrade": -0.006842323578894138,
+      "startLat": 31.624710083007812,
+      "startLng": 121.41840362548828
+    }
+  ]
+}

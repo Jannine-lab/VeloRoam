@@ -1,0 +1,29 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-03T06:03:07.341Z",
+  "tile": {
+    "z": 13,
+    "x": 6870,
+    "y": 3340
+  },
+  "segments": [
+    {
+      "id": "40511416",
+      "tileScore": 4,
+      "name": "2025东滩骑行",
+      "distanceM": 46937,
+      "avgGrade": -0.0004261030990164727,
+      "startLat": 31.485496520996094,
+      "startLng": 121.83615112304688
+    },
+    {
+      "id": "40548218",
+      "tileScore": 6,
+      "name": "秋季崇明瓜全程",
+      "distanceM": 69191.8984375,
+      "avgGrade": 0.017632121220231056,
+      "startLat": 31.462778091430664,
+      "startLng": 121.8483657836914
+    }
+  ]
+}

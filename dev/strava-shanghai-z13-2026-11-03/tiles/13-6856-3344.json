@@ -1,0 +1,92 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-03T06:05:01.409Z",
+  "tile": {
+    "z": 13,
+    "x": 6856,
+    "y": 3344
+  },
+  "segments": [
+    {
+      "id": "16055519",
+      "tileScore": 5,
+      "name": "嘉绣东路 blast",
+      "distanceM": 1383,
+      "avgGrade": 0.18799711763858795,
+      "startLat": 31.317720413208008,
+      "startLng": 121.30369567871094
+    },
+    {
+      "id": "37970316",
+      "tileScore": 5,
+      "name": "Wewbei Rd Sprint - Watch out for jaywalkers!",
+      "distanceM": 916.2000122070312,
+      "avgGrade": 0.2292075902223587,
+      "startLat": 31.326570510864258,
+      "startLng": 121.3299560546875
+    },
+    {
+      "id": "29214698",
+      "tileScore": 1,
+      "name": "留云湖爆桥！",
+      "distanceM": 507.1000061035156,
+      "avgGrade": 0.552159309387207,
+      "startLat": 31.317781448364258,
+      "startLng": 121.30371856689453
+    },
+    {
+      "id": "12974072",
+      "tileScore": 22,
+      "name": "Yunzaobang Bridge 薀藻浜大桥 Northbound",
+      "distanceM": 1192.800048828125,
+      "avgGrade": 0,
+      "startLat": 31.31121826171875,
+      "startLng": 121.29222106933594
+    },
+    {
+      "id": "19133430",
+      "tileScore": 78,
+      "name": "lake lap",
+      "distanceM": 1496.5999755859375,
+      "avgGrade": -0.12027261406183243,
+      "startLat": 31.314462661743164,
+      "startLng": 121.30848693847656
+    },
+    {
+      "id": "35887774",
+      "tileScore": 13,
+      "name": "浏翔公路northward（宝安公路→宝钱公路）",
+      "distanceM": 11849.900390625,
+      "avgGrade": -0.006751111708581448,
+      "startLat": 31.34627914428711,
+      "startLng": 121.3111572265625
+    },
+    {
+      "id": "39698656",
+      "tileScore": 5,
+      "name": "间歇训练不停脚冲",
+      "distanceM": 4155.60009765625,
+      "avgGrade": 0.057753391563892365,
+      "startLat": 31.305620193481445,
+      "startLng": 121.32344055175781
+    },
+    {
+      "id": "21192591",
+      "tileScore": 3,
+      "name": "瑞林路回程  by yuuu",
+      "distanceM": 524,
+      "avgGrade": -0.07633587718009949,
+      "startLat": 31.312530517578125,
+      "startLng": 121.30093383789062
+    },
+    {
+      "id": "29928647",
+      "tileScore": 1,
+      "name": "B.A Road (S7-J.S North Road)",
+      "distanceM": 10950.599609375,
+      "avgGrade": 0.0027395759243518114,
+      "startLat": 31.348772048950195,
+      "startLng": 121.33210754394531
+    }
+  ]
+}

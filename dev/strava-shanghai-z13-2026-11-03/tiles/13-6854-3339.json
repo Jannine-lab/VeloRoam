@@ -1,0 +1,74 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-03T06:03:18.923Z",
+  "tile": {
+    "z": 13,
+    "x": 6854,
+    "y": 3339
+  },
+  "segments": [
+    {
+      "id": "15276248",
+      "tileScore": 2,
+      "name": "Bypass",
+      "distanceM": 3567.800048828125,
+      "avgGrade": -0.03363417461514473,
+      "startLat": 31.522750854492188,
+      "startLng": 121.20423889160156
+    },
+    {
+      "id": "10353787",
+      "tileScore": 43,
+      "name": "S339 苏州东路段（由东向西）",
+      "distanceM": 11817.599609375,
+      "avgGrade": -0.011846737004816532,
+      "startLat": 31.54166030883789,
+      "startLng": 121.26788330078125
+    },
+    {
+      "id": "38680514",
+      "tileScore": 9,
+      "name": "339 loop",
+      "distanceM": 18777.19921875,
+      "avgGrade": -0.006390728987753391,
+      "startLat": 31.53805160522461,
+      "startLng": 121.2292709350586
+    },
+    {
+      "id": "10376866",
+      "tileScore": 49,
+      "name": "浮浏线去程",
+      "distanceM": 6002.39990234375,
+      "avgGrade": 0.03665200620889664,
+      "startLat": 31.520526885986328,
+      "startLng": 121.27666473388672
+    },
+    {
+      "id": "34898283",
+      "tileScore": 10,
+      "name": "346由南向北",
+      "distanceM": 3551,
+      "avgGrade": 0,
+      "startLat": 31.527395248413086,
+      "startLng": 121.23967742919922
+    },
+    {
+      "id": "32262835",
+      "tileScore": 9,
+      "name": "太浏快速路GOGOGO！",
+      "distanceM": 7411.5,
+      "avgGrade": 0.02698509208858013,
+      "startLat": 31.48724937438965,
+      "startLng": 121.17823791503906
+    },
+    {
+      "id": "38255001",
+      "tileScore": 24,
+      "name": "浏太太TT短版",
+      "distanceM": 4711.5,
+      "avgGrade": 0.03395945951342583,
+      "startLat": 31.504558563232422,
+      "startLng": 121.25090789794922
+    }
+  ]
+}

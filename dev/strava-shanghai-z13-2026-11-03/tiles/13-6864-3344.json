@@ -1,0 +1,20 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-03T06:04:55.214Z",
+  "tile": {
+    "z": 13,
+    "x": 6864,
+    "y": 3344
+  },
+  "segments": [
+    {
+      "id": "3571193",
+      "tileScore": 7,
+      "name": "Shanghai Docks Sprint Gangjian Road",
+      "distanceM": 3153.826416015625,
+      "avgGrade": 0.0031707780435681343,
+      "startLat": 31.314237594604492,
+      "startLng": 121.665283203125
+    }
+  ]
+}

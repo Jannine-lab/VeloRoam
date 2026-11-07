@@ -1,0 +1,47 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-03T06:06:43.547Z",
+  "tile": {
+    "z": 13,
+    "x": 6849,
+    "y": 3345
+  },
+  "segments": [
+    {
+      "id": "38847018",
+      "tileScore": 2,
+      "name": "Xianhe Rd (Westbound)",
+      "distanceM": 1486.9000244140625,
+      "avgGrade": 0.09415562450885773,
+      "startLat": 31.29409408569336,
+      "startLng": 121.00717163085938
+    },
+    {
+      "id": "10570506",
+      "tileScore": 6,
+      "name": "Back~Tri-Bridge",
+      "distanceM": 7095.2998046875,
+      "avgGrade": -0.08738178759813309,
+      "startLat": 31.303497314453125,
+      "startLng": 121.04659271240234
+    },
+    {
+      "id": "39081076",
+      "tileScore": 25,
+      "name": "不炸桥",
+      "distanceM": 1084.0999755859375,
+      "avgGrade": 0.05534544959664345,
+      "startLat": 31.282472610473633,
+      "startLng": 121.01412963867188
+    },
+    {
+      "id": "30690110",
+      "tileScore": 6,
+      "name": "FDA-3",
+      "distanceM": 6622.2001953125,
+      "avgGrade": 0.021141011267900467,
+      "startLat": 31.32841682434082,
+      "startLng": 121.01768493652344
+    }
+  ]
+}

@@ -1,0 +1,173 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-03T06:06:49.873Z",
+  "tile": {
+    "z": 13,
+    "x": 6854,
+    "y": 3346
+  },
+  "segments": [
+    {
+      "id": "7442788",
+      "tileScore": 43,
+      "name": "Boyuan Rd x G15 Shenhai Expy Underpass (Eastbound)",
+      "distanceM": 458.8999938964844,
+      "avgGrade": 0.37045109272003174,
+      "startLat": 31.266393661499023,
+      "startLng": 121.23794555664062
+    },
+    {
+      "id": "28735644",
+      "tileScore": 1,
+      "name": "SBT-012",
+      "distanceM": 882.2000122070312,
+      "avgGrade": 0.34005892276763916,
+      "startLat": 31.261999130249023,
+      "startLng": 121.2224349975586
+    },
+    {
+      "id": "28821910",
+      "tileScore": 21,
+      "name": "FC-00102",
+      "distanceM": 2447.800048828125,
+      "avgGrade": -0.008170601911842823,
+      "startLat": 31.243741989135742,
+      "startLng": 121.23407745361328
+    },
+    {
+      "id": "25426607",
+      "tileScore": 30,
+      "name": "Jihe smash",
+      "distanceM": 2712.199951171875,
+      "avgGrade": -0.014748175628483295,
+      "startLat": 31.247711181640625,
+      "startLng": 121.20835876464844
+    },
+    {
+      "id": "28709026",
+      "tileScore": 1,
+      "name": "NQSF-002",
+      "distanceM": 16507.30078125,
+      "avgGrade": 0.00605792598798871,
+      "startLat": 31.21061134338379,
+      "startLng": 121.27330017089844
+    },
+    {
+      "id": "29644899",
+      "tileScore": 4,
+      "name": "Flow-05",
+      "distanceM": 4270.2001953125,
+      "avgGrade": -0.023418108001351357,
+      "startLat": 31.237945556640625,
+      "startLng": 121.2123794555664
+    },
+    {
+      "id": "27885501",
+      "tileScore": 6,
+      "name": "BTP-CN-060",
+      "distanceM": 9583.099609375,
+      "avgGrade": -0.02608759142458439,
+      "startLat": 31.317602157592773,
+      "startLng": 121.21540832519531
+    },
+    {
+      "id": "37731199",
+      "tileScore": 67,
+      "name": "是卡车先拉扯的！！！",
+      "distanceM": 1060.0999755859375,
+      "avgGrade": -0.05659843608736992,
+      "startLat": 31.27745819091797,
+      "startLng": 121.21188354492188
+    },
+    {
+      "id": "31221443",
+      "tileScore": 7,
+      "name": "安亭儿童乐园-Bikehome",
+      "distanceM": 47152.19921875,
+      "avgGrade": -0.009755642153322697,
+      "startLat": 31.239341735839844,
+      "startLng": 121.36277770996094
+    },
+    {
+      "id": "34705937",
+      "tileScore": 93,
+      "name": "博园路竞速",
+      "distanceM": 7067.2998046875,
+      "avgGrade": 0.2745037078857422,
+      "startLat": 31.266040802001953,
+      "startLng": 121.20018005371094
+    },
+    {
+      "id": "32316107",
+      "tileScore": 1,
+      "name": "JSJ-Anting-CAGL-40",
+      "distanceM": 39514.6015625,
+      "avgGrade": -0.00556756230071187,
+      "startLat": 31.2432804107666,
+      "startLng": 121.33163452148438
+    },
+    {
+      "id": "39173785",
+      "tileScore": 69,
+      "name": "看看谁超过了偷老师",
+      "distanceM": 15884.5,
+      "avgGrade": -0.015109068714082241,
+      "startLat": 31.263944625854492,
+      "startLng": 121.3708267211914
+    },
+    {
+      "id": "14398829",
+      "tileScore": 4,
+      "name": "M. Jiasong Rd. Bridge EAST",
+      "distanceM": 830.9000244140625,
+      "avgGrade": 0.024070285260677338,
+      "startLat": 31.258758544921875,
+      "startLng": 121.20451354980469
+    },
+    {
+      "id": "2766097",
+      "tileScore": 9,
+      "name": "Jiasong North - Boyuan to Songze",
+      "distanceM": 10168.91015625,
+      "avgGrade": -0.02261798270046711,
+      "startLat": 31.26540756225586,
+      "startLng": 121.19969177246094
+    },
+    {
+      "id": "14915930",
+      "tileScore": 10,
+      "name": "Jihe/Huateng G15 Bridge",
+      "distanceM": 965.2000122070312,
+      "avgGrade": -0.08288437128067017,
+      "startLat": 31.244125366210938,
+      "startLng": 121.24298095703125
+    },
+    {
+      "id": "40828545",
+      "tileScore": 1,
+      "name": "Wusong River Greenway Section 2.5 (Westbound)",
+      "distanceM": 953.0999755859375,
+      "avgGrade": 0,
+      "startLat": 31.26119041442871,
+      "startLng": 121.2498779296875
+    },
+    {
+      "id": "40828517",
+      "tileScore": 5,
+      "name": "Wusong River Greenway Section 3 (Westbound)",
+      "distanceM": 2339.699951171875,
+      "avgGrade": 0.008548104204237461,
+      "startLat": 31.261016845703125,
+      "startLng": 121.23873901367188
+    },
+    {
+      "id": "33242686",
+      "tileScore": 27,
+      "name": "5km without traffic light",
+      "distanceM": 5723.89990234375,
+      "avgGrade": 0.017470605671405792,
+      "startLat": 31.264902114868164,
+      "startLng": 121.21415710449219
+    }
+  ]
+}

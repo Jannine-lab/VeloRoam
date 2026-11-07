@@ -1,0 +1,308 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-03T06:07:38.908Z",
+  "tile": {
+    "z": 13,
+    "x": 6860,
+    "y": 3348
+  },
+  "segments": [
+    {
+      "id": "16288871",
+      "tileScore": 28,
+      "name": "The New Miaojiang Chillout (2nd half)",
+      "distanceM": 1754.699951171875,
+      "avgGrade": -0.23935717344284058,
+      "startLat": 31.197589874267578,
+      "startLng": 121.49031829833984
+    },
+    {
+      "id": "34754838",
+      "tileScore": 4,
+      "name": "成山路 099",
+      "distanceM": 1173.300048828125,
+      "avgGrade": 0.05113781616091728,
+      "startLat": 31.173463821411133,
+      "startLng": 121.49304962158203
+    },
+    {
+      "id": "33879058",
+      "tileScore": 22,
+      "name": "Xueye Interval",
+      "distanceM": 898.7000122070312,
+      "avgGrade": -0.022254368290305138,
+      "startLat": 31.200075149536133,
+      "startLng": 121.50057983398438
+    },
+    {
+      "id": "15144995",
+      "tileScore": 51,
+      "name": "苗江路是坠吼的！",
+      "distanceM": 2746.60009765625,
+      "avgGrade": -0.010922595858573914,
+      "startLat": 31.207088470458984,
+      "startLng": 121.49479675292969
+    },
+    {
+      "id": "40692195",
+      "tileScore": 36,
+      "name": "后滩最后冲刺",
+      "distanceM": 979.5,
+      "avgGrade": 0,
+      "startLat": 31.1796932220459,
+      "startLng": 121.4793701171875
+    },
+    {
+      "id": "9218575",
+      "tileScore": 36,
+      "name": "Furun Rd (Northbound)",
+      "distanceM": 329.70001220703125,
+      "avgGrade": 1.7591750621795654,
+      "startLat": 31.193206787109375,
+      "startLng": 121.47247314453125
+    },
+    {
+      "id": "36278584",
+      "tileScore": 2,
+      "name": "东明 001",
+      "distanceM": 909.5,
+      "avgGrade": -0.021990105509757996,
+      "startLat": 31.165428161621094,
+      "startLng": 121.49686431884766
+    },
+    {
+      "id": "19255501",
+      "tileScore": 5,
+      "name": "Dongming Road - Across Chuanyang River",
+      "distanceM": 775,
+      "avgGrade": 0.3870967626571655,
+      "startLat": 31.167388916015625,
+      "startLng": 121.50788879394531
+    },
+    {
+      "id": "6952597",
+      "tileScore": 15,
+      "name": "Full Expo Southbound",
+      "distanceM": 10703.400390625,
+      "avgGrade": -0.03923986852169037,
+      "startLat": 31.223365783691406,
+      "startLng": 121.5077896118164
+    },
+    {
+      "id": "41815976",
+      "tileScore": 9,
+      "name": "世博双子山",
+      "distanceM": 617.5,
+      "avgGrade": 1.878542423248291,
+      "startLat": 31.17954444885254,
+      "startLng": 121.4782485961914
+    },
+    {
+      "id": "21243327",
+      "tileScore": 6,
+      "name": "Sorry Officer I thought you wanted to RACE ! #BTT",
+      "distanceM": 875.5,
+      "avgGrade": -0.13706453144550323,
+      "startLat": 31.197114944458008,
+      "startLng": 121.46546173095703
+    },
+    {
+      "id": "39537169",
+      "tileScore": 2,
+      "name": "川杨河 099 Greenway Long",
+      "distanceM": 3668.39990234375,
+      "avgGrade": 0.07087558507919312,
+      "startLat": 31.172569274902344,
+      "startLng": 121.51496887207031
+    },
+    {
+      "id": "29777458",
+      "tileScore": 2,
+      "name": "Luban Lu South Rush",
+      "distanceM": 1076.300048828125,
+      "avgGrade": -0.12078417092561722,
+      "startLat": 31.210067749023438,
+      "startLng": 121.46845245361328
+    },
+    {
+      "id": "35876820",
+      "tileScore": 5,
+      "name": "东方 098",
+      "distanceM": 2160.699951171875,
+      "avgGrade": -0.01851251907646656,
+      "startLat": 31.20891571044922,
+      "startLng": 121.52072143554688
+    },
+    {
+      "id": "21036682",
+      "tileScore": 7,
+      "name": "Minpu Tues - Park to LP with extension",
+      "distanceM": 56914,
+      "avgGrade": -0.006325332447886467,
+      "startLat": 31.213491439819336,
+      "startLng": 121.46663665771484
+    },
+    {
+      "id": "36912080",
+      "tileScore": 10,
+      "name": "世博 092 ZZ",
+      "distanceM": 638.2000122070312,
+      "avgGrade": 0.09401442110538483,
+      "startLat": 31.204341888427734,
+      "startLng": 121.50170135498047
+    },
+    {
+      "id": "36991587",
+      "tileScore": 2,
+      "name": "成山路 095",
+      "distanceM": 544.2999877929688,
+      "avgGrade": 0.3674444258213043,
+      "startLat": 31.17259407043457,
+      "startLng": 121.4850082397461
+    },
+    {
+      "id": "9218549",
+      "tileScore": 58,
+      "name": "Jiangbin Rd (Eastbound)",
+      "distanceM": 568.7999877929688,
+      "avgGrade": -0.2988748252391815,
+      "startLat": 31.19339370727539,
+      "startLng": 121.46630859375
+    },
+    {
+      "id": "10541863",
+      "tileScore": 3,
+      "name": "40 km Shanghaï Loop",
+      "distanceM": 38644.5,
+      "avgGrade": 0.0015526142669841647,
+      "startLat": 31.193662643432617,
+      "startLng": 121.46837615966797
+    },
+    {
+      "id": "9110867",
+      "tileScore": 25,
+      "name": "Ruining Rd (Westbound)",
+      "distanceM": 1046.4000244140625,
+      "avgGrade": 0.21980123221874237,
+      "startLat": 31.192771911621094,
+      "startLng": 121.46574401855469
+    },
+    {
+      "id": "35940113",
+      "tileScore": 16,
+      "name": "世博 094",
+      "distanceM": 552.5,
+      "avgGrade": 0.07239818572998047,
+      "startLat": 31.186735153198242,
+      "startLng": 121.4790267944336
+    },
+    {
+      "id": "24566709",
+      "tileScore": 22,
+      "name": "Houtan Segment",
+      "distanceM": 1174.5,
+      "avgGrade": -0.06811409443616867,
+      "startLat": 31.19029426574707,
+      "startLng": 121.48551940917969
+    },
+    {
+      "id": "34944981",
+      "tileScore": 14,
+      "name": "上南 099 Bridge",
+      "distanceM": 506.70001220703125,
+      "avgGrade": 0.039471086114645004,
+      "startLat": 31.17025375366211,
+      "startLng": 121.49231719970703
+    },
+    {
+      "id": "30640528",
+      "tileScore": 4,
+      "name": "BackHomeSprint - QiheRd.",
+      "distanceM": 424.70001220703125,
+      "avgGrade": -0.2825523912906647,
+      "startLat": 31.182987213134766,
+      "startLng": 121.50565338134766
+    },
+    {
+      "id": "34648273",
+      "tileScore": 6,
+      "name": "东明 097",
+      "distanceM": 1535.300048828125,
+      "avgGrade": 0,
+      "startLat": 31.153881072998047,
+      "startLng": 121.51547241210938
+    },
+    {
+      "id": "38809346",
+      "tileScore": 36,
+      "name": "NBCC David's Brigde",
+      "distanceM": 565.7999877929688,
+      "avgGrade": 0.42417818307876587,
+      "startLat": 31.186580657958984,
+      "startLng": 121.49444580078125
+    },
+    {
+      "id": "23344868",
+      "tileScore": 17,
+      "name": "MercrediLaParisienneReborn",
+      "distanceM": 41012.69921875,
+      "avgGrade": -0.021944422274827957,
+      "startLat": 31.19717025756836,
+      "startLng": 121.49729919433594
+    },
+    {
+      "id": "24425517",
+      "tileScore": 3,
+      "name": "ShangNan PuJin Lightning!!!",
+      "distanceM": 21129.69921875,
+      "avgGrade": 0.011358419433236122,
+      "startLat": 31.194862365722656,
+      "startLng": 121.49488830566406
+    },
+    {
+      "id": "36968428",
+      "tileScore": 7,
+      "name": "成山路 098",
+      "distanceM": 579.9000244140625,
+      "avgGrade": -0.034488704055547714,
+      "startLat": 31.176305770874023,
+      "startLng": 121.51426696777344
+    },
+    {
+      "id": "5717595",
+      "tileScore": 7,
+      "name": "Nanmatou Rd Canal Bridge (Northbound)",
+      "distanceM": 138.8000030517578,
+      "avgGrade": -0.4322766661643982,
+      "startLat": 31.19001007080078,
+      "startLng": 121.50880432128906
+    },
+    {
+      "id": "35616116",
+      "tileScore": 35,
+      "name": "世博 008 Riverside",
+      "distanceM": 2739.60009765625,
+      "avgGrade": -0.08760403096675873,
+      "startLat": 31.19416618347168,
+      "startLng": 121.49349212646484
+    },
+    {
+      "id": "34442660",
+      "tileScore": 8,
+      "name": "世博 002",
+      "distanceM": 812.2999877929688,
+      "avgGrade": -0.0984857827425003,
+      "startLat": 31.181026458740234,
+      "startLng": 121.49022674560547
+    },
+    {
+      "id": "34500892",
+      "tileScore": 11,
+      "name": "上南 098",
+      "distanceM": 984,
+      "avgGrade": 0.060975611209869385,
+      "startLat": 31.179691314697266,
+      "startLng": 121.49014282226562
+    }
+  ]
+}

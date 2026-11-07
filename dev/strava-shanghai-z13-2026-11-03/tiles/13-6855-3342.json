@@ -1,0 +1,74 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-03T06:04:25.062Z",
+  "tile": {
+    "z": 13,
+    "x": 6855,
+    "y": 3342
+  },
+  "segments": [
+    {
+      "id": "21192641",
+      "tileScore": 2,
+      "name": "博乐路-立新路W-E（塔城路）  by yuuu",
+      "distanceM": 3026.89990234375,
+      "avgGrade": -0.03303709998726845,
+      "startLat": 31.384992599487305,
+      "startLng": 121.25005340576172
+    },
+    {
+      "id": "37134597",
+      "tileScore": 8,
+      "name": "江杨南北and keep riding",
+      "distanceM": 28191.19921875,
+      "avgGrade": -0.014898266643285751,
+      "startLat": 31.322021484375,
+      "startLng": 121.46370697021484
+    },
+    {
+      "id": "41214603",
+      "tileScore": 10,
+      "name": "扯园绕圈圈够胆你就来",
+      "distanceM": 2005.5,
+      "avgGrade": 0.06980802863836288,
+      "startLat": 31.409828186035156,
+      "startLng": 121.24219512939453
+    },
+    {
+      "id": "21184018",
+      "tileScore": 11,
+      "name": "塔新路-迎园中学   byyuuu",
+      "distanceM": 1476.0999755859375,
+      "avgGrade": 0,
+      "startLat": 31.39840316772461,
+      "startLng": 121.29148864746094
+    },
+    {
+      "id": "21184037",
+      "tileScore": 35,
+      "name": "迎园中学冲桥＋下坡  byyuuu",
+      "distanceM": 365.5,
+      "avgGrade": 0.10943911969661713,
+      "startLat": 31.393892288208008,
+      "startLng": 121.27558898925781
+    },
+    {
+      "id": "35887774",
+      "tileScore": 13,
+      "name": "浏翔公路northward（宝安公路→宝钱公路）",
+      "distanceM": 11849.900390625,
+      "avgGrade": -0.006751111708581448,
+      "startLat": 31.34627914428711,
+      "startLng": 121.3111572265625
+    },
+    {
+      "id": "29011864",
+      "tileScore": 3,
+      "name": "JD004",
+      "distanceM": 3896.800048828125,
+      "avgGrade": 0.0923834890127182,
+      "startLat": 31.392946243286133,
+      "startLng": 121.23838806152344
+    }
+  ]
+}

@@ -1,0 +1,65 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-03T06:03:10.420Z",
+  "tile": {
+    "z": 13,
+    "x": 6869,
+    "y": 3340
+  },
+  "segments": [
+    {
+      "id": "34443476",
+      "tileScore": 1,
+      "name": "Gravel",
+      "distanceM": 3146.199951171875,
+      "avgGrade": 0.012713748961687088,
+      "startLat": 31.474985122680664,
+      "startLng": 121.90015411376953
+    },
+    {
+      "id": "39318047",
+      "tileScore": 3,
+      "name": "IGC_Rubbish muddy",
+      "distanceM": 1246,
+      "avgGrade": 0.11235955357551575,
+      "startLat": 31.495058059692383,
+      "startLng": 121.87646484375
+    },
+    {
+      "id": "40548218",
+      "tileScore": 6,
+      "name": "秋季崇明瓜全程",
+      "distanceM": 69191.8984375,
+      "avgGrade": 0.017632121220231056,
+      "startLat": 31.462778091430664,
+      "startLng": 121.8483657836914
+    },
+    {
+      "id": "15926369",
+      "tileScore": 17,
+      "name": "Tuanwang Rd N2S",
+      "distanceM": 8291.400390625,
+      "avgGrade": -0.004824275616556406,
+      "startLat": 31.520076751708984,
+      "startLng": 121.90921783447266
+    },
+    {
+      "id": "40511416",
+      "tileScore": 4,
+      "name": "2025东滩骑行",
+      "distanceM": 46937,
+      "avgGrade": -0.0004261030990164727,
+      "startLat": 31.485496520996094,
+      "startLng": 121.83615112304688
+    },
+    {
+      "id": "28005476",
+      "tileScore": 2,
+      "name": "20210411环崇明岛100公里组",
+      "distanceM": 97375,
+      "avgGrade": 0.006161745637655258,
+      "startLat": 31.4849796295166,
+      "startLng": 121.8353042602539
+    }
+  ]
+}

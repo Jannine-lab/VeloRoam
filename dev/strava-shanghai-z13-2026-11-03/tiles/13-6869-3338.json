@@ -1,0 +1,83 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-03T06:02:51.783Z",
+  "tile": {
+    "z": 13,
+    "x": 6869,
+    "y": 3338
+  },
+  "segments": [
+    {
+      "id": "40267942",
+      "tileScore": 8,
+      "name": "It's nice to ride on Gravel ",
+      "distanceM": 3336.699951171875,
+      "avgGrade": 0.005993946455419064,
+      "startLat": 31.58099937438965,
+      "startLng": 121.87677001953125
+    },
+    {
+      "id": "40382197",
+      "tileScore": 5,
+      "name": " My ass is unhappy",
+      "distanceM": 4317.7998046875,
+      "avgGrade": 0.07642780989408493,
+      "startLat": 31.586759567260742,
+      "startLng": 121.83135986328125
+    },
+    {
+      "id": "41046311",
+      "tileScore": 4,
+      "name": "wo00ow",
+      "distanceM": 4296.2001953125,
+      "avgGrade": 0.06517387181520462,
+      "startLat": 31.55763053894043,
+      "startLng": 121.87159729003906
+    },
+    {
+      "id": "40548218",
+      "tileScore": 6,
+      "name": "秋季崇明瓜全程",
+      "distanceM": 69191.8984375,
+      "avgGrade": 0.017632121220231056,
+      "startLat": 31.462778091430664,
+      "startLng": 121.8483657836914
+    },
+    {
+      "id": "40382178",
+      "tileScore": 4,
+      "name": "Go through the woods to hurt my ass",
+      "distanceM": 1028.0999755859375,
+      "avgGrade": -0.01945336163043976,
+      "startLat": 31.564268112182617,
+      "startLng": 121.86840057373047
+    },
+    {
+      "id": "40638915",
+      "tileScore": 8,
+      "name": "Feel like Top The Mountain",
+      "distanceM": 1263.0999755859375,
+      "avgGrade": 0.015834059566259384,
+      "startLat": 31.557453155517578,
+      "startLng": 121.87226867675781
+    },
+    {
+      "id": "28005476",
+      "tileScore": 2,
+      "name": "20210411环崇明岛100公里组",
+      "distanceM": 97375,
+      "avgGrade": 0.006161745637655258,
+      "startLat": 31.4849796295166,
+      "startLng": 121.8353042602539
+    },
+    {
+      "id": "40902652",
+      "tileScore": 3,
+      "name": "All good",
+      "distanceM": 17341,
+      "avgGrade": 0.06343348324298859,
+      "startLat": 31.5739688873291,
+      "startLng": 121.82067108154297
+    }
+  ]
+}

@@ -1,0 +1,245 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-03T06:08:03.537Z",
+  "tile": {
+    "z": 13,
+    "x": 6855,
+    "y": 3349
+  },
+  "segments": [
+    {
+      "id": "40019920",
+      "tileScore": 37,
+      "name": "Full gas to first \"L\" turn from Wensha",
+      "distanceM": 15605.900390625,
+      "avgGrade": 0.0397285632789135,
+      "startLat": 31.19355583190918,
+      "startLng": 121.37028503417969
+    },
+    {
+      "id": "36651288",
+      "tileScore": 113,
+      "name": "HQP Flyover to Outlets Full Gas",
+      "distanceM": 10066.900390625,
+      "avgGrade": -0.07648829370737076,
+      "startLat": 31.17055892944336,
+      "startLng": 121.3229751586914
+    },
+    {
+      "id": "5566426",
+      "tileScore": 21,
+      "name": "Yaojiaqiao Village Road",
+      "distanceM": 2095.199951171875,
+      "avgGrade": 0.10500190407037735,
+      "startLat": 31.137794494628906,
+      "startLng": 121.24791717529297
+    },
+    {
+      "id": "36894166",
+      "tileScore": 19,
+      "name": "ER - Babies Arm",
+      "distanceM": 56876.1015625,
+      "avgGrade": 0,
+      "startLat": 31.179828643798828,
+      "startLng": 121.28097534179688
+    },
+    {
+      "id": "38897849",
+      "tileScore": 1,
+      "name": "公制世纪 - KOM",
+      "distanceM": 101772.296875,
+      "avgGrade": -0.0031442742329090834,
+      "startLat": 31.17006492614746,
+      "startLng": 121.2751235961914
+    },
+    {
+      "id": "37027201",
+      "tileScore": 7,
+      "name": "ER speedy circuit ",
+      "distanceM": 75940.3984375,
+      "avgGrade": -0.010534577071666718,
+      "startLat": 31.1991024017334,
+      "startLng": 121.27393341064453
+    },
+    {
+      "id": "36243959",
+      "tileScore": 132,
+      "name": "一转弯就启动冲个一公里",
+      "distanceM": 995.5,
+      "avgGrade": 0.020090406760573387,
+      "startLat": 31.150293350219727,
+      "startLng": 121.25434112548828
+    },
+    {
+      "id": "18808184",
+      "tileScore": 1,
+      "name": "Lianmin G50 Bridge",
+      "distanceM": 374.79998779296875,
+      "avgGrade": 0.053361792117357254,
+      "startLat": 31.152902603149414,
+      "startLng": 121.27819061279297
+    },
+    {
+      "id": "6049177",
+      "tileScore": 165,
+      "name": "Chicken sprint",
+      "distanceM": 913.7000122070312,
+      "avgGrade": 0.262668251991272,
+      "startLat": 31.15492057800293,
+      "startLng": 121.28215026855469
+    },
+    {
+      "id": "28780412",
+      "tileScore": 2,
+      "name": "chariots of the gods",
+      "distanceM": 494.70001220703125,
+      "avgGrade": 0.16171416640281677,
+      "startLat": 31.169532775878906,
+      "startLng": 121.27703094482422
+    },
+    {
+      "id": "30564351",
+      "tileScore": 1,
+      "name": "FMG-04",
+      "distanceM": 3974.39990234375,
+      "avgGrade": 0.04528985545039177,
+      "startLat": 31.146352767944336,
+      "startLng": 121.2832260131836
+    },
+    {
+      "id": "30528596",
+      "tileScore": 8,
+      "name": "STD-003",
+      "distanceM": 4420.5,
+      "avgGrade": 0.013573125936090946,
+      "startLat": 31.123760223388672,
+      "startLng": 121.27059173583984
+    },
+    {
+      "id": "9114323",
+      "tileScore": 135,
+      "name": "Outlet climb",
+      "distanceM": 1005.4000244140625,
+      "avgGrade": 0.09946289658546448,
+      "startLat": 31.15882682800293,
+      "startLng": 121.25419616699219
+    },
+    {
+      "id": "22068484",
+      "tileScore": 8,
+      "name": "G318 上海-湖州",
+      "distanceM": 133169.203125,
+      "avgGrade": -0.002553143072873354,
+      "startLat": 31.17106056213379,
+      "startLng": 121.32220458984375
+    },
+    {
+      "id": "30768098",
+      "tileScore": 15,
+      "name": "JR003",
+      "distanceM": 18046.900390625,
+      "avgGrade": -0.008865788578987122,
+      "startLat": 31.157154083251953,
+      "startLng": 121.29386901855469
+    },
+    {
+      "id": "35290548",
+      "tileScore": 22,
+      "name": "Small's Secret Scenic Snake",
+      "distanceM": 2686.89990234375,
+      "avgGrade": 0.022330567240715027,
+      "startLat": 31.148866653442383,
+      "startLng": 121.2544174194336
+    },
+    {
+      "id": "29744472",
+      "tileScore": 3,
+      "name": "Sprint Climbing over bridge",
+      "distanceM": 408,
+      "avgGrade": 1.2254902124404907,
+      "startLat": 31.148860931396484,
+      "startLng": 121.26499938964844
+    },
+    {
+      "id": "42345837",
+      "tileScore": 23,
+      "name": "6哥带你刷两山",
+      "distanceM": 52786.69921875,
+      "avgGrade": -0.002652183175086975,
+      "startLat": 31.17475128173828,
+      "startLng": 121.30008697509766
+    },
+    {
+      "id": "26887116",
+      "tileScore": 1050,
+      "name": "French High School Segment",
+      "distanceM": 4364.89990234375,
+      "avgGrade": 0.05956608057022095,
+      "startLat": 31.151939392089844,
+      "startLng": 121.26395416259766
+    },
+    {
+      "id": "30384821",
+      "tileScore": 3,
+      "name": "THL-4",
+      "distanceM": 116824.5,
+      "avgGrade": -0.0025679543614387512,
+      "startLat": 31.206161499023438,
+      "startLng": 121.28252410888672
+    },
+    {
+      "id": "27307735",
+      "tileScore": 72,
+      "name": "BTP-CN-002",
+      "distanceM": 5998,
+      "avgGrade": 0.005001666955649853,
+      "startLat": 31.173452377319336,
+      "startLng": 121.28401184082031
+    },
+    {
+      "id": "36112090",
+      "tileScore": 55,
+      "name": "Tulips Sams",
+      "distanceM": 46121.80078125,
+      "avgGrade": 0.004336344078183174,
+      "startLat": 31.19768524169922,
+      "startLng": 121.41617584228516
+    },
+    {
+      "id": "27743438",
+      "tileScore": 4,
+      "name": "Cemetery 2 SRC",
+      "distanceM": 56811.30078125,
+      "avgGrade": 0,
+      "startLat": 31.20186996459961,
+      "startLng": 121.27755737304688
+    },
+    {
+      "id": "6060153",
+      "tileScore": 187,
+      "name": "bridge2canal sprint",
+      "distanceM": 644.2000122070312,
+      "avgGrade": -0.015523129142820835,
+      "startLat": 31.1516056060791,
+      "startLng": 121.26171875
+    },
+    {
+      "id": "5565094",
+      "tileScore": 95,
+      "name": "Liuxia Village Road",
+      "distanceM": 3230.199951171875,
+      "avgGrade": 0.13002291321754456,
+      "startLat": 31.150171279907227,
+      "startLng": 121.25439453125
+    },
+    {
+      "id": "14834365",
+      "tileScore": 21,
+      "name": "xixiangyanghe canal",
+      "distanceM": 1647.9000244140625,
+      "avgGrade": 0.02427331730723381,
+      "startLat": 31.139366149902344,
+      "startLng": 121.27484130859375
+    }
+  ]
+}

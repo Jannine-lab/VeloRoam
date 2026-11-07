@@ -1,0 +1,155 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-03T06:05:01.409Z",
+  "tile": {
+    "z": 13,
+    "x": 6855,
+    "y": 3344
+  },
+  "segments": [
+    {
+      "id": "29885575",
+      "tileScore": 3,
+      "name": "SBD-007",
+      "distanceM": 5933.2001953125,
+      "avgGrade": -0.01853974163532257,
+      "startLat": 31.332109451293945,
+      "startLng": 121.28026580810547
+    },
+    {
+      "id": "40417928",
+      "tileScore": 1,
+      "name": "TowershowRd-AuraRoyale",
+      "distanceM": 813.5,
+      "avgGrade": 0.024585125967860222,
+      "startLat": 31.346174240112305,
+      "startLng": 121.241943359375
+    },
+    {
+      "id": "27902313",
+      "tileScore": 3,
+      "name": "BTP-CN-067",
+      "distanceM": 2114.89990234375,
+      "avgGrade": -0.22223272919654846,
+      "startLat": 31.33245277404785,
+      "startLng": 121.27732849121094
+    },
+    {
+      "id": "37419667",
+      "tileScore": 3,
+      "name": "嘉新公路绿荫路段（南-北）",
+      "distanceM": 2259,
+      "avgGrade": -0.03541389852762222,
+      "startLat": 31.336380004882812,
+      "startLng": 121.28622436523438
+    },
+    {
+      "id": "41304275",
+      "tileScore": 5,
+      "name": "MonaLisaOverdrive",
+      "distanceM": 1531.300048828125,
+      "avgGrade": -0.0522431917488575,
+      "startLat": 31.317001342773438,
+      "startLng": 121.27064514160156
+    },
+    {
+      "id": "41131709",
+      "tileScore": 11,
+      "name": "FarScentLakeClockwise",
+      "distanceM": 3103.60009765625,
+      "avgGrade": 0.03222064673900604,
+      "startLat": 31.35616111755371,
+      "startLng": 121.259765625
+    },
+    {
+      "id": "12974072",
+      "tileScore": 22,
+      "name": "Yunzaobang Bridge 薀藻浜大桥 Northbound",
+      "distanceM": 1192.800048828125,
+      "avgGrade": 0,
+      "startLat": 31.31121826171875,
+      "startLng": 121.29222106933594
+    },
+    {
+      "id": "36121592",
+      "tileScore": 19,
+      "name": "间歇 训练",
+      "distanceM": 4653.7998046875,
+      "avgGrade": -0.008595126681029797,
+      "startLat": 31.375080108642578,
+      "startLng": 121.25016784667969
+    },
+    {
+      "id": "34228266",
+      "tileScore": 11,
+      "name": "出发爬坡追不上美娜",
+      "distanceM": 664.9000244140625,
+      "avgGrade": 1.6243044137954712,
+      "startLat": 31.319440841674805,
+      "startLng": 121.26809692382812
+    },
+    {
+      "id": "18271170",
+      "tileScore": 24,
+      "name": "HuYi Rd Bridge",
+      "distanceM": 678.2000122070312,
+      "avgGrade": -0.23591861128807068,
+      "startLat": 31.349937438964844,
+      "startLng": 121.27001190185547
+    },
+    {
+      "id": "18131769",
+      "tileScore": 4,
+      "name": "Shengxin Road Straight South",
+      "distanceM": 16619.099609375,
+      "avgGrade": 0.010830910876393318,
+      "startLat": 31.431230545043945,
+      "startLng": 121.18557739257812
+    },
+    {
+      "id": "29558279",
+      "tileScore": 3,
+      "name": "NQSF-0205",
+      "distanceM": 5837.2001953125,
+      "avgGrade": -0.11306790262460709,
+      "startLat": 31.33285903930664,
+      "startLng": 121.25965118408203
+    },
+    {
+      "id": "6877776",
+      "tileScore": 6,
+      "name": "Jiading iTT circuit Stage 1 2014",
+      "distanceM": 3748.300048828125,
+      "avgGrade": 0,
+      "startLat": 31.349050521850586,
+      "startLng": 121.25643920898438
+    },
+    {
+      "id": "41304274",
+      "tileScore": 2,
+      "name": "SchlageLinie11",
+      "distanceM": 949.0999755859375,
+      "avgGrade": -0.06321778893470764,
+      "startLat": 31.32166862487793,
+      "startLng": 121.2578125
+    },
+    {
+      "id": "29928647",
+      "tileScore": 1,
+      "name": "B.A Road (S7-J.S North Road)",
+      "distanceM": 10950.599609375,
+      "avgGrade": 0.0027395759243518114,
+      "startLat": 31.348772048950195,
+      "startLng": 121.33210754394531
+    },
+    {
+      "id": "30376587",
+      "tileScore": 5,
+      "name": "宝安公路-沈海高速 跨线大桥",
+      "distanceM": 734.2999877929688,
+      "avgGrade": -0.09532888978719711,
+      "startLat": 31.324554443359375,
+      "startLng": 121.2508316040039
+    }
+  ]
+}

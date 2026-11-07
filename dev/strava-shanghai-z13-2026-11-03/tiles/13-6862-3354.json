@@ -1,0 +1,29 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-03T06:10:38.612Z",
+  "tile": {
+    "z": 13,
+    "x": 6862,
+    "y": 3354
+  },
+  "segments": [
+    {
+      "id": "28086223",
+      "tileScore": 2,
+      "name": "Yanqian Jingda 7.7km loop",
+      "distanceM": 7745.7001953125,
+      "avgGrade": -0.01032831147313118,
+      "startLat": 30.966629028320312,
+      "startLng": 121.54244232177734
+    },
+    {
+      "id": "35762536",
+      "tileScore": 45,
+      "name": "航唐公路半程加油站",
+      "distanceM": 5768.60009765625,
+      "avgGrade": 0.017335228621959686,
+      "startLat": 30.934066772460938,
+      "startLng": 121.60254669189453
+    }
+  ]
+}

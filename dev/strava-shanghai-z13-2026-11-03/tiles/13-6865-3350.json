@@ -1,0 +1,83 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-03T06:08:09.571Z",
+  "tile": {
+    "z": 13,
+    "x": 6865,
+    "y": 3350
+  },
+  "segments": [
+    {
+      "id": "27401582",
+      "tileScore": 8,
+      "name": "DP Airport Loop part 1",
+      "distanceM": 38720,
+      "avgGrade": 0.004648760426789522,
+      "startLat": 31.236400604248047,
+      "startLng": 121.59383392333984
+    },
+    {
+      "id": "35241819",
+      "tileScore": 15,
+      "name": "大川快到飞起",
+      "distanceM": 9046.7001953125,
+      "avgGrade": -0.017686007544398308,
+      "startLat": 31.07391929626465,
+      "startLng": 121.73094940185547
+    },
+    {
+      "id": "38520605",
+      "tileScore": 2,
+      "name": "7公里热身",
+      "distanceM": 6655.5,
+      "avgGrade": -0.006010066717863083,
+      "startLat": 31.14158058166504,
+      "startLng": 121.74400329589844
+    },
+    {
+      "id": "10343149",
+      "tileScore": 2,
+      "name": "Wenju Hustle Bustle Shuffle",
+      "distanceM": 2253.5,
+      "avgGrade": -0.06212558224797249,
+      "startLat": 31.119115829467773,
+      "startLng": 121.6977310180664
+    },
+    {
+      "id": "40262073",
+      "tileScore": 1,
+      "name": "Bei的连民湖畔绕圈",
+      "distanceM": 3942.60009765625,
+      "avgGrade": -0.040582358837127686,
+      "startLat": 31.086021423339844,
+      "startLng": 121.68710327148438
+    },
+    {
+      "id": "8618151",
+      "tileScore": 3,
+      "name": "Nan Liu hwy (North)",
+      "distanceM": 4443.89990234375,
+      "avgGrade": 0.004500551149249077,
+      "startLat": 31.161495208740234,
+      "startLng": 121.68714141845703
+    },
+    {
+      "id": "42079725",
+      "tileScore": 3,
+      "name": "Markus Bruengger (R.I.P. | G.O.A.T.) Memory Ride",
+      "distanceM": 64397.30078125,
+      "avgGrade": -0.006522012874484062,
+      "startLat": 31.224090576171875,
+      "startLng": 121.55386352539062
+    },
+    {
+      "id": "12528381",
+      "tileScore": 1,
+      "name": "Zhou Zhu Gong Road west bound (From Jianshe road to Shenjiang road)",
+      "distanceM": 5689.5,
+      "avgGrade": -0.003515247255563736,
+      "startLat": 31.118873596191406,
+      "startLng": 121.69569396972656
+    }
+  ]
+}

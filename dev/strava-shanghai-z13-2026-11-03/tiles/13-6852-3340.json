@@ -1,0 +1,119 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-03T06:04:13.591Z",
+  "tile": {
+    "z": 13,
+    "x": 6852,
+    "y": 3340
+  },
+  "segments": [
+    {
+      "id": "34368958",
+      "tileScore": 5,
+      "name": "大学城",
+      "distanceM": 2507.800048828125,
+      "avgGrade": -0.1754525899887085,
+      "startLat": 31.486255645751953,
+      "startLng": 121.15727996826172
+    },
+    {
+      "id": "38101750",
+      "tileScore": 48,
+      "name": "冲向璜泾大月饼",
+      "distanceM": 20026,
+      "avgGrade": -0.004993508104234934,
+      "startLat": 31.500627517700195,
+      "startLng": 121.15505981445312
+    },
+    {
+      "id": "14313009",
+      "tileScore": 3,
+      "name": "Beautiful bike path sprint ",
+      "distanceM": 393.79998779296875,
+      "avgGrade": 0.10157440602779388,
+      "startLat": 31.466527938842773,
+      "startLng": 121.14443969726562
+    },
+    {
+      "id": "38213573",
+      "tileScore": 82,
+      "name": "加油站-第一个红绿灯",
+      "distanceM": 4299.2001953125,
+      "avgGrade": 0.004652028437703848,
+      "startLat": 31.498722076416016,
+      "startLng": 121.15670776367188
+    },
+    {
+      "id": "28251314",
+      "tileScore": 4,
+      "name": "Another Bridge to nowhere",
+      "distanceM": 680.0999755859375,
+      "avgGrade": 0.32348182797431946,
+      "startLat": 31.48989486694336,
+      "startLng": 121.14002227783203
+    },
+    {
+      "id": "14312999",
+      "tileScore": 2,
+      "name": "Between two ferns",
+      "distanceM": 966.7999877929688,
+      "avgGrade": 0.0413736030459404,
+      "startLat": 31.465835571289062,
+      "startLng": 121.13314056396484
+    },
+    {
+      "id": "10376920",
+      "tileScore": 54,
+      "name": "双浮公路至苏州东路（由北向南）",
+      "distanceM": 7875.7001953125,
+      "avgGrade": -0.015236741863191128,
+      "startLat": 31.556964874267578,
+      "startLng": 121.11051177978516
+    },
+    {
+      "id": "40614788",
+      "tileScore": 61,
+      "name": "冲向白云渡！！",
+      "distanceM": 12388.2998046875,
+      "avgGrade": 0.014529838226735592,
+      "startLat": 31.548036575317383,
+      "startLng": 121.11920166015625
+    },
+    {
+      "id": "42223930",
+      "tileScore": 10,
+      "name": "太仓璜泾 to 上海嘉定",
+      "distanceM": 27882.69921875,
+      "avgGrade": -0.012911232188344002,
+      "startLat": 31.64661979675293,
+      "startLng": 121.09708404541016
+    },
+    {
+      "id": "34368997",
+      "tileScore": 10,
+      "name": "我丢真刺激",
+      "distanceM": 533.2000122070312,
+      "avgGrade": -0.11252813041210175,
+      "startLat": 31.484304428100586,
+      "startLng": 121.1535873413086
+    },
+    {
+      "id": "31207365",
+      "tileScore": 4,
+      "name": "天津路LAP",
+      "distanceM": 2774.39990234375,
+      "avgGrade": 0,
+      "startLat": 31.47089958190918,
+      "startLng": 121.10540771484375
+    },
+    {
+      "id": "42259056",
+      "tileScore": 5,
+      "name": "University",
+      "distanceM": 2749.60009765625,
+      "avgGrade": 0.021821357309818268,
+      "startLat": 31.490127563476562,
+      "startLng": 121.16291046142578
+    }
+  ]
+}

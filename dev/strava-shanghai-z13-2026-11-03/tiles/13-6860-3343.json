@@ -1,0 +1,47 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-03T06:04:58.252Z",
+  "tile": {
+    "z": 13,
+    "x": 6860,
+    "y": 3343
+  },
+  "segments": [
+    {
+      "id": "10811986",
+      "tileScore": 11,
+      "name": "Wusong Bridge Up",
+      "distanceM": 504.79998779296875,
+      "avgGrade": 0.5546751022338867,
+      "startLat": 31.366506576538086,
+      "startLng": 121.49223327636719
+    },
+    {
+      "id": "37543481",
+      "tileScore": 1,
+      "name": "港城路冲向渡口#y",
+      "distanceM": 4617.2001953125,
+      "avgGrade": -0.04764792323112488,
+      "startLat": 31.354433059692383,
+      "startLng": 121.5528793334961
+    },
+    {
+      "id": "32724531",
+      "tileScore": 2,
+      "name": "乌漆嘛黑",
+      "distanceM": 24503.5,
+      "avgGrade": 0.026118718087673187,
+      "startLat": 31.306806564331055,
+      "startLng": 121.4298324584961
+    },
+    {
+      "id": "38513163",
+      "tileScore": 6,
+      "name": "Tongji 路 高架下",
+      "distanceM": 2609.5,
+      "avgGrade": 0.007664303760975599,
+      "startLat": 31.39708137512207,
+      "startLng": 121.47528839111328
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-03T06:09:08.171Z",
+  "tile": {
+    "z": 13,
+    "x": 6869,
+    "y": 3352
+  },
+  "segments": [
+    {
+      "id": "37629875",
+      "tileScore": 2,
+      "name": "dongda-xiayan（lianggang）",
+      "distanceM": 11429.7998046875,
+      "avgGrade": -0.01574830710887909,
+      "startLat": 30.975860595703125,
+      "startLng": 121.88377380371094
+    },
+    {
+      "id": "35927579",
+      "tileScore": 4,
+      "name": "金桥-滴水湖-云山路绕圈",
+      "distanceM": 150058.90625,
+      "avgGrade": 0.0018659341149032116,
+      "startLat": 31.22467041015625,
+      "startLng": 121.62055969238281
+    },
+    {
+      "id": "7431974",
+      "tileScore": 3,
+      "name": "TT lovers 2 Clockwise - Guaranted by Roberto",
+      "distanceM": 30336.900390625,
+      "avgGrade": 0.00032963158446364105,
+      "startLat": 31.04207992553711,
+      "startLng": 121.85521697998047
+    },
+    {
+      "id": "32888850",
+      "tileScore": 5,
+      "name": "老芦狠拉",
+      "distanceM": 3534.60009765625,
+      "avgGrade": 0.039608441293239594,
+      "startLat": 31.012020111083984,
+      "startLng": 121.8626480102539
+    },
+    {
+      "id": "22117047",
+      "tileScore": 31,
+      "name": "Forest Sprint North",
+      "distanceM": 3709.300048828125,
+      "avgGrade": -0.04583074897527695,
+      "startLat": 31.012676239013672,
+      "startLng": 121.87326049804688
+    }
+  ]
+}

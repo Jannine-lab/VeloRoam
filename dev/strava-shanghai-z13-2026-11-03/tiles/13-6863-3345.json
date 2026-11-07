@@ -1,0 +1,155 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-03T06:06:56.599Z",
+  "tile": {
+    "z": 13,
+    "x": 6863,
+    "y": 3345
+  },
+  "segments": [
+    {
+      "id": "10392588",
+      "tileScore": 50,
+      "name": "Shuidong to Shenjiang",
+      "distanceM": 4982.7001953125,
+      "avgGrade": 0.012041663751006126,
+      "startLat": 31.29708480834961,
+      "startLng": 121.67485809326172
+    },
+    {
+      "id": "21789103",
+      "tileScore": 24,
+      "name": "Shenjiang Rd North",
+      "distanceM": 10352,
+      "avgGrade": -0.013523956760764122,
+      "startLat": 31.203109741210938,
+      "startLng": 121.62128448486328
+    },
+    {
+      "id": "40042082",
+      "tileScore": 45,
+      "name": "东靖路",
+      "distanceM": 1108,
+      "avgGrade": 0.018050542101264,
+      "startLat": 31.293643951416016,
+      "startLng": 121.59977722167969
+    },
+    {
+      "id": "39630462",
+      "tileScore": 107,
+      "name": "gogogo",
+      "distanceM": 3854,
+      "avgGrade": -0.005189413204789162,
+      "startLat": 31.331005096435547,
+      "startLng": 121.61013793945312
+    },
+    {
+      "id": "35212557",
+      "tileScore": 6,
+      "name": "Steinway & Sons Loop",
+      "distanceM": 1303.800048828125,
+      "avgGrade": -0.030679551884531975,
+      "startLat": 31.302261352539062,
+      "startLng": 121.62539672851562
+    },
+    {
+      "id": "35882217",
+      "tileScore": 1,
+      "name": "(˶‾᷄ꈊ‾᷅˵)  谁也别想休闲   ᶘ ᵒᴥᵒᶅ",
+      "distanceM": 28237,
+      "avgGrade": 0.039664268493652344,
+      "startLat": 31.272661209106445,
+      "startLng": 121.62120056152344
+    },
+    {
+      "id": "37557876",
+      "tileScore": 96,
+      "name": "4/5 bridges",
+      "distanceM": 507.6000061035156,
+      "avgGrade": 1.5760440826416016,
+      "startLat": 31.29232406616211,
+      "startLng": 121.63201141357422
+    },
+    {
+      "id": "10675915",
+      "tileScore": 2,
+      "name": "Chuan'an Rd Swamp - Trail Section #3 (Southbound)",
+      "distanceM": 532.2000122070312,
+      "avgGrade": -0.13152949512004852,
+      "startLat": 31.28384780883789,
+      "startLng": 121.64093017578125
+    },
+    {
+      "id": "36935227",
+      "tileScore": 91,
+      "name": "Easy Peasy Bridges",
+      "distanceM": 8940.599609375,
+      "avgGrade": -0.044739726930856705,
+      "startLat": 31.29645538330078,
+      "startLng": 121.6235122680664
+    },
+    {
+      "id": "32990089",
+      "tileScore": 83,
+      "name": "shenjiang 5th ",
+      "distanceM": 637,
+      "avgGrade": -0.15698587894439697,
+      "startLat": 31.29396629333496,
+      "startLng": 121.6209945678711
+    },
+    {
+      "id": "10886211",
+      "tileScore": 42,
+      "name": "Return from the Docks Hill Sprint 2",
+      "distanceM": 639.7000122070312,
+      "avgGrade": 1.1255275011062622,
+      "startLat": 31.292022705078125,
+      "startLng": 121.6446304321289
+    },
+    {
+      "id": "39701969",
+      "tileScore": 8,
+      "name": "XJBQ 冲向SAM",
+      "distanceM": 533.2999877929688,
+      "avgGrade": -0.1500093787908554,
+      "startLat": 31.299257278442383,
+      "startLng": 121.61980438232422
+    },
+    {
+      "id": "29026514",
+      "tileScore": 2,
+      "name": "Jufeng Rd bridge W",
+      "distanceM": 1543.0999755859375,
+      "avgGrade": -0.07128507643938065,
+      "startLat": 31.278076171875,
+      "startLng": 121.64681243896484
+    },
+    {
+      "id": "39598864",
+      "tileScore": 14,
+      "name": "云山大圈狗都不骑",
+      "distanceM": 5052.7001953125,
+      "avgGrade": -0.03958280012011528,
+      "startLat": 31.27080726623535,
+      "startLng": 121.61283111572266
+    },
+    {
+      "id": "41415180",
+      "tileScore": 98,
+      "name": "SLCC 森兰夜刷",
+      "distanceM": 7029.2001953125,
+      "avgGrade": 0.04552438482642174,
+      "startLat": 31.31844711303711,
+      "startLng": 121.59465026855469
+    },
+    {
+      "id": "39034890",
+      "tileScore": 4,
+      "name": "骑完双桥赶个船",
+      "distanceM": 10961.5,
+      "avgGrade": 0.0018245679093524814,
+      "startLat": 31.2834415435791,
+      "startLng": 121.6682357788086
+    }
+  ]
+}

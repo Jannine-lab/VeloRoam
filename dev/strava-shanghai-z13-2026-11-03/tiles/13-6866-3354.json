@@ -1,0 +1,29 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-03T06:10:41.742Z",
+  "tile": {
+    "z": 13,
+    "x": 6866,
+    "y": 3354
+  },
+  "segments": [
+    {
+      "id": "41106200",
+      "tileScore": 2,
+      "name": "川南奉过了跨线桥后的pushhh",
+      "distanceM": 3222.300048828125,
+      "avgGrade": 0.03724048286676407,
+      "startLat": 30.955684661865234,
+      "startLng": 121.75627899169922
+    },
+    {
+      "id": "40696524",
+      "tileScore": 2,
+      "name": "大团中学门口itt",
+      "distanceM": 1519.5,
+      "avgGrade": 0.06581112742424011,
+      "startLat": 30.963754653930664,
+      "startLng": 121.74203491210938
+    }
+  ]
+}

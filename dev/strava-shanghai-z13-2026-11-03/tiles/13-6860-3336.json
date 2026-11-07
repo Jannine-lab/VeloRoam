@@ -1,0 +1,38 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-03T06:01:49.651Z",
+  "tile": {
+    "z": 13,
+    "x": 6860,
+    "y": 3336
+  },
+  "segments": [
+    {
+      "id": "1667233",
+      "tileScore": 1,
+      "name": "Chongming short 2",
+      "distanceM": 39860.80078125,
+      "avgGrade": -0.008027937263250351,
+      "startLat": 31.660154342651367,
+      "startLng": 121.40385437011719
+    },
+    {
+      "id": "29681357",
+      "tileScore": 1,
+      "name": "草港公路TT",
+      "distanceM": 23323.69921875,
+      "avgGrade": -0.009003717452287674,
+      "startLat": 31.595518112182617,
+      "startLng": 121.65343475341797
+    },
+    {
+      "id": "36318104",
+      "tileScore": 1,
+      "name": "陈海公路tt(建设公路-北新公路)",
+      "distanceM": 8695.400390625,
+      "avgGrade": -0.011500333435833454,
+      "startLat": 31.6409854888916,
+      "startLng": 121.44751739501953
+    }
+  ]
+}

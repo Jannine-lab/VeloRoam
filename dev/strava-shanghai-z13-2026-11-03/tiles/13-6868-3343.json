@@ -1,0 +1,47 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-03T06:04:52.404Z",
+  "tile": {
+    "z": 13,
+    "x": 6868,
+    "y": 3343
+  },
+  "segments": [
+    {
+      "id": "29703134",
+      "tileScore": 58,
+      "name": "横沙岛好路绕圈",
+      "distanceM": 24308.599609375,
+      "avgGrade": -0.0016455082222819328,
+      "startLat": 31.371824264526367,
+      "startLng": 121.8013687133789
+    },
+    {
+      "id": "36914875",
+      "tileScore": 31,
+      "name": "右转后我不装了",
+      "distanceM": 2422,
+      "avgGrade": 0.024772915989160538,
+      "startLat": 31.374610900878906,
+      "startLng": 121.82842254638672
+    },
+    {
+      "id": "36812332",
+      "tileScore": 15,
+      "name": "Dongjiang Road (southbound)",
+      "distanceM": 5176.60009765625,
+      "avgGrade": 0.02704477868974209,
+      "startLat": 31.37300682067871,
+      "startLng": 121.83096313476562
+    },
+    {
+      "id": "35198304",
+      "tileScore": 12,
+      "name": "Hengsha Seawall Semi Circle",
+      "distanceM": 17100.400390625,
+      "avgGrade": 0,
+      "startLat": 31.2965087890625,
+      "startLng": 121.8507080078125
+    }
+  ]
+}

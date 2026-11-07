@@ -1,0 +1,191 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-03T06:09:39.495Z",
+  "tile": {
+    "z": 13,
+    "x": 6847,
+    "y": 3351
+  },
+  "segments": [
+    {
+      "id": "38897849",
+      "tileScore": 1,
+      "name": "公制世纪 - KOM",
+      "distanceM": 101772.296875,
+      "avgGrade": -0.0031442742329090834,
+      "startLat": 31.17006492614746,
+      "startLng": 121.2751235961914
+    },
+    {
+      "id": "38556415",
+      "tileScore": 5,
+      "name": "西岑贴湖绿道 Part.1",
+      "distanceM": 1121.9000244140625,
+      "avgGrade": 0.03565380349755287,
+      "startLat": 31.076200485229492,
+      "startLng": 120.94159698486328
+    },
+    {
+      "id": "33075471",
+      "tileScore": 20,
+      "name": "沪青平进淀山湖",
+      "distanceM": 2658,
+      "avgGrade": 0.07524454593658447,
+      "startLat": 31.042184829711914,
+      "startLng": 120.91378784179688
+    },
+    {
+      "id": "22068484",
+      "tileScore": 8,
+      "name": "G318 上海-湖州",
+      "distanceM": 133169.203125,
+      "avgGrade": -0.002553143072873354,
+      "startLat": 31.17106056213379,
+      "startLng": 121.32220458984375
+    },
+    {
+      "id": "3361140",
+      "tileScore": 1,
+      "name": "south loop downwards",
+      "distanceM": 35844.05078125,
+      "avgGrade": 0.017297128215432167,
+      "startLat": 31.268798828125,
+      "startLng": 120.81695556640625
+    },
+    {
+      "id": "38405230",
+      "tileScore": 29,
+      "name": "14KM-东方绿洲到商榻超市",
+      "distanceM": 16984.80078125,
+      "avgGrade": -0.00824266392737627,
+      "startLat": 31.100879669189453,
+      "startLng": 121.01265716552734
+    },
+    {
+      "id": "38551487",
+      "tileScore": 36,
+      "name": "北岸冲刺",
+      "distanceM": 3076.300048828125,
+      "avgGrade": -0.02600526437163353,
+      "startLat": 31.081640243530273,
+      "startLng": 120.86390686035156
+    },
+    {
+      "id": "5858992",
+      "tileScore": 34,
+      "name": "Dianshan lake side 2 X465",
+      "distanceM": 6334.2998046875,
+      "avgGrade": -0.06630566716194153,
+      "startLat": 31.088857650756836,
+      "startLng": 120.97801208496094
+    },
+    {
+      "id": "38467962",
+      "tileScore": 30,
+      "name": "元荡圈圈圈",
+      "distanceM": 18037.69921875,
+      "avgGrade": 0.00110878876876086,
+      "startLat": 31.06069564819336,
+      "startLng": 120.91016387939453
+    },
+    {
+      "id": "38815786",
+      "tileScore": 5,
+      "name": "元荡路（Westbound）",
+      "distanceM": 4430.7001953125,
+      "avgGrade": -0.031597718596458435,
+      "startLat": 31.05726432800293,
+      "startLng": 120.9140396118164
+    },
+    {
+      "id": "42155611",
+      "tileScore": 19,
+      "name": "淀山湖大环加太浦河95km",
+      "distanceM": 98464.203125,
+      "avgGrade": 0.00020311950356699526,
+      "startLat": 31.100807189941406,
+      "startLng": 121.01215362548828
+    },
+    {
+      "id": "29179163",
+      "tileScore": 57,
+      "name": "BTP-CN-100",
+      "distanceM": 2604.10009765625,
+      "avgGrade": 0.023040590807795525,
+      "startLat": 31.06791877746582,
+      "startLng": 120.91573333740234
+    },
+    {
+      "id": "10654048",
+      "tileScore": 50,
+      "name": "4 Bridges (Northbound)",
+      "distanceM": 4816.89990234375,
+      "avgGrade": 0.07473686337471008,
+      "startLat": 31.07993507385254,
+      "startLng": 120.90457153320312
+    },
+    {
+      "id": "39133945",
+      "tileScore": 5,
+      "name": "双排同里啦-去程",
+      "distanceM": 16797.5,
+      "avgGrade": 0.015478493645787239,
+      "startLat": 31.08608055114746,
+      "startLng": 120.8979263305664
+    },
+    {
+      "id": "21131943",
+      "tileScore": 1,
+      "name": "Dianshan Lake Checkpoint to Taihu",
+      "distanceM": 49375.1015625,
+      "avgGrade": -0.004050624556839466,
+      "startLat": 31.06794548034668,
+      "startLng": 120.91667938232422
+    },
+    {
+      "id": "29179210",
+      "tileScore": 19,
+      "name": "BTP-CN-103",
+      "distanceM": 1793.199951171875,
+      "avgGrade": 0.03345973789691925,
+      "startLat": 31.086349487304688,
+      "startLng": 120.89839935302734
+    },
+    {
+      "id": "3725446",
+      "tileScore": 21,
+      "name": "Dianshan Lake West and North",
+      "distanceM": 21665.25390625,
+      "avgGrade": -0.008308254182338715,
+      "startLat": 31.068464279174805,
+      "startLng": 120.91326141357422
+    },
+    {
+      "id": "38288037",
+      "tileScore": 8,
+      "name": "VKCC 口木的秘密训练路线",
+      "distanceM": 54715.8984375,
+      "avgGrade": 0.0018276222981512547,
+      "startLat": 31.079866409301758,
+      "startLng": 120.9510726928711
+    },
+    {
+      "id": "23244406",
+      "tileScore": 14,
+      "name": "Dianshan West Lake Leg",
+      "distanceM": 10026.900390625,
+      "avgGrade": 0.013962440192699432,
+      "startLat": 31.145015716552734,
+      "startLng": 120.92278289794922
+    },
+    {
+      "id": "27369844",
+      "tileScore": 32,
+      "name": "进击大观园",
+      "distanceM": 5048.5,
+      "avgGrade": -0.05150044336915016,
+      "startLat": 31.094207763671875,
+      "startLng": 120.84943389892578
+    }
+  ]
+}

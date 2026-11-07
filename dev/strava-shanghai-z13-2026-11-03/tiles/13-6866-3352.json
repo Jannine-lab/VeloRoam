@@ -1,0 +1,38 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-03T06:09:08.171Z",
+  "tile": {
+    "z": 13,
+    "x": 6866,
+    "y": 3352
+  },
+  "segments": [
+    {
+      "id": "19824510",
+      "tileScore": 5,
+      "name": "hangsan hwy corner to corner",
+      "distanceM": 13022.7001953125,
+      "avgGrade": 0.02150091715157032,
+      "startLat": 31.04778289794922,
+      "startLng": 121.6463851928711
+    },
+    {
+      "id": "21083493",
+      "tileScore": 12,
+      "name": "宣黄Bridge-West to East",
+      "distanceM": 314.1000061035156,
+      "avgGrade": 0.19102196395397186,
+      "startLat": 31.025556564331055,
+      "startLng": 121.7527847290039
+    },
+    {
+      "id": "34030496",
+      "tileScore": 4,
+      "name": "Back To Home Renmin RD",
+      "distanceM": 6027.2001953125,
+      "avgGrade": 0.036501195281744,
+      "startLat": 31.050724029541016,
+      "startLng": 121.75057983398438
+    }
+  ]
+}

@@ -1,0 +1,1041 @@
+{
+  "capturedAt": "2026-11-04T14:50:49.613Z",
+  "tiles": [
+    {
+      "z": 13,
+      "x": 6858,
+      "y": 3350,
+      "segments": [
+        {
+          "id": "40840877",
+          "tileScore": 32,
+          "name": "星河湾小圈",
+          "distanceM": 1832.0999755859375,
+          "avgGrade": -0.06549860537052155,
+          "startLat": 31.093618392944336,
+          "startLng": 121.40187072753906
+        },
+        {
+          "id": "33397216",
+          "tileScore": 6,
+          "name": "The back straight ",
+          "distanceM": 2169.199951171875,
+          "avgGrade": -0.07375991344451904,
+          "startLat": 31.077707290649414,
+          "startLng": 121.3924560546875
+        },
+        {
+          "id": "14717649",
+          "tileScore": 7,
+          "name": "Fury Road South",
+          "distanceM": 389.5,
+          "avgGrade": 0.15404364466667175,
+          "startLat": 31.13047218322754,
+          "startLng": 121.41577911376953
+        },
+        {
+          "id": "29363565",
+          "tileScore": 3,
+          "name": "莲花南路TT",
+          "distanceM": 8960,
+          "avgGrade": -0.0033482140861451626,
+          "startLat": 31.026090621948242,
+          "startLng": 121.44632720947266
+        },
+        {
+          "id": "15606974",
+          "tileScore": 3,
+          "name": "Longming southbound",
+          "distanceM": 6817,
+          "avgGrade": -0.008801525458693504,
+          "startLat": 31.186445236206055,
+          "startLng": 121.3686294555664
+        },
+        {
+          "id": "16317617",
+          "tileScore": 2,
+          "name": "Minhang Triangle Circuit",
+          "distanceM": 20807.099609375,
+          "avgGrade": 0.03171994164586067,
+          "startLat": 31.16872787475586,
+          "startLng": 121.429443359375
+        },
+        {
+          "id": "15735874",
+          "tileScore": 5,
+          "name": "Longming Lu x Dianpu He bridge (northbound)",
+          "distanceM": 565.0999755859375,
+          "avgGrade": -0.21235179901123047,
+          "startLat": 31.12778663635254,
+          "startLng": 121.38578796386719
+        },
+        {
+          "id": "16679039",
+          "tileScore": 3,
+          "name": "Hongxin Lu x Dianpu Hu bridge (northbound)",
+          "distanceM": 720.0999755859375,
+          "avgGrade": -0.11109567433595657,
+          "startLat": 31.126476287841797,
+          "startLng": 121.38227844238281
+        },
+        {
+          "id": "18626945",
+          "tileScore": 2,
+          "name": "Lianhua Nan Lu from Humin Lu",
+          "distanceM": 4720.7001953125,
+          "avgGrade": -0.05719490721821785,
+          "startLat": 31.13558006286621,
+          "startLng": 121.39970397949219
+        },
+        {
+          "id": "12003151",
+          "tileScore": 1,
+          "name": "Minhang Interchange --> Songjiang East Toll",
+          "distanceM": 11005.900390625,
+          "avgGrade": -0.016354864463210106,
+          "startLat": 31.114397048950195,
+          "startLng": 121.37725067138672
+        },
+        {
+          "id": "18950789",
+          "tileScore": 19,
+          "name": "Xinzhuang Underpass",
+          "distanceM": 726.2999877929688,
+          "avgGrade": 0.027536829933524132,
+          "startLat": 31.122835159301758,
+          "startLng": 121.3855972290039
+        },
+        {
+          "id": "14799842",
+          "tileScore": 11,
+          "name": "Humin Road Speed Freak Tunnel Northbound",
+          "distanceM": 462.29998779296875,
+          "avgGrade": 1.0166558027267456,
+          "startLat": 31.105712890625,
+          "startLng": 121.37754821777344
+        },
+        {
+          "id": "30564472",
+          "tileScore": 6,
+          "name": "FMG-16",
+          "distanceM": 1602.5,
+          "avgGrade": 0.12480498850345612,
+          "startLat": 31.104612350463867,
+          "startLng": 121.3879623413086
+        },
+        {
+          "id": "30564546",
+          "tileScore": 3,
+          "name": "FMG-23",
+          "distanceM": 35947.6015625,
+          "avgGrade": 0.02837463468313217,
+          "startLat": 31.019447326660156,
+          "startLng": 121.3215560913086
+        },
+        {
+          "id": "39219946",
+          "tileScore": 16,
+          "name": "沪闵路淀浦河桥",
+          "distanceM": 656.9000244140625,
+          "avgGrade": 0.060892071574926376,
+          "startLat": 31.131990432739258,
+          "startLng": 121.39573669433594
+        },
+        {
+          "id": "27502862",
+          "tileScore": 3,
+          "name": "畹町小圈",
+          "distanceM": 1845.5,
+          "avgGrade": 0.11920887976884842,
+          "startLat": 31.114032745361328,
+          "startLng": 121.39742279052734
+        }
+      ]
+    },
+    {
+      "z": 13,
+      "x": 6857,
+      "y": 3350,
+      "segments": [
+        {
+          "id": "14770507",
+          "tileScore": 2,
+          "name": "Yaobei blast",
+          "distanceM": 5466.7998046875,
+          "avgGrade": -0.11341186612844467,
+          "startLat": 31.123064041137695,
+          "startLng": 121.36615753173828
+        },
+        {
+          "id": "11387860",
+          "tileScore": 4,
+          "name": "Changdong Rd (Southbound)",
+          "distanceM": 1783.699951171875,
+          "avgGrade": 0.07288221269845963,
+          "startLat": 31.101585388183594,
+          "startLng": 121.35330200195312
+        },
+        {
+          "id": "30390303",
+          "tileScore": 2,
+          "name": "BTP-S3",
+          "distanceM": 7485,
+          "avgGrade": 0.009352036751806736,
+          "startLat": 31.171823501586914,
+          "startLng": 121.33429718017578
+        },
+        {
+          "id": "7875533",
+          "tileScore": 11,
+          "name": "Xinsong Rd x Railway Underpass (Eastbound)",
+          "distanceM": 302,
+          "avgGrade": 1.1258277893066406,
+          "startLat": 31.103179931640625,
+          "startLng": 121.35920715332031
+        },
+        {
+          "id": "19942490",
+          "tileScore": 5,
+          "name": "laiting lu (northbound)",
+          "distanceM": 4957.5,
+          "avgGrade": 0.03227433189749718,
+          "startLat": 31.12452507019043,
+          "startLng": 121.33883666992188
+        },
+        {
+          "id": "16400965",
+          "tileScore": 73,
+          "name": "Xinzhuang CBD power lap",
+          "distanceM": 1556.199951171875,
+          "avgGrade": 0.012851817533373833,
+          "startLat": 31.130813598632812,
+          "startLng": 121.3587646484375
+        },
+        {
+          "id": "14799842",
+          "tileScore": 11,
+          "name": "Humin Road Speed Freak Tunnel Northbound",
+          "distanceM": 462.29998779296875,
+          "avgGrade": 1.0166558027267456,
+          "startLat": 31.105712890625,
+          "startLng": 121.37754821777344
+        },
+        {
+          "id": "15772069",
+          "tileScore": 23,
+          "name": "神奇的绕圈地点",
+          "distanceM": 4197.7001953125,
+          "avgGrade": -0.023822570219635963,
+          "startLat": 31.086658477783203,
+          "startLng": 121.35391235351562
+        },
+        {
+          "id": "27619482",
+          "tileScore": 9,
+          "name": "Shooting Womp Rats in Beggar's Canyon",
+          "distanceM": 1031.199951171875,
+          "avgGrade": 0.07757952064275742,
+          "startLat": 31.09626007080078,
+          "startLng": 121.36785888671875
+        },
+        {
+          "id": "15772088",
+          "tileScore": 3,
+          "name": "春九路南向",
+          "distanceM": 1408.5,
+          "avgGrade": -0.014199502766132355,
+          "startLat": 31.09941291809082,
+          "startLng": 121.34961700439453
+        },
+        {
+          "id": "23318145",
+          "tileScore": 5,
+          "name": "Zhongchun: Xinsong-Hukun",
+          "distanceM": 1207.300048828125,
+          "avgGrade": -0.016565890982747078,
+          "startLat": 31.10611343383789,
+          "startLng": 121.36357879638672
+        },
+        {
+          "id": "12003151",
+          "tileScore": 1,
+          "name": "Minhang Interchange --> Songjiang East Toll",
+          "distanceM": 11005.900390625,
+          "avgGrade": -0.016354864463210106,
+          "startLat": 31.114397048950195,
+          "startLng": 121.37725067138672
+        },
+        {
+          "id": "18921938",
+          "tileScore": 8,
+          "name": "Xinsong straight (wb)",
+          "distanceM": 2277.39990234375,
+          "avgGrade": 0,
+          "startLat": 31.10173225402832,
+          "startLng": 121.35303497314453
+        },
+        {
+          "id": "16317617",
+          "tileScore": 2,
+          "name": "Minhang Triangle Circuit",
+          "distanceM": 20807.099609375,
+          "avgGrade": 0.03171994164586067,
+          "startLat": 31.16872787475586,
+          "startLng": 121.429443359375
+        },
+        {
+          "id": "37094671",
+          "tileScore": 7,
+          "name": "Head to Guanghua",
+          "distanceM": 5858.89990234375,
+          "avgGrade": -0.020481660962104797,
+          "startLat": 31.120601654052734,
+          "startLng": 121.35736846923828
+        }
+      ]
+    },
+    {
+      "z": 13,
+      "x": 6859,
+      "y": 3347,
+      "segments": [
+        {
+          "id": "34083641",
+          "tileScore": 6,
+          "name": "威海路 绿灯冲刺",
+          "distanceM": 584.9000244140625,
+          "avgGrade": 0.10258164256811142,
+          "startLat": 31.229324340820312,
+          "startLng": 121.46244049072266
+        },
+        {
+          "id": "22431799",
+          "tileScore": 2,
+          "name": "Rush Hour from Xujiahui to Wujiaochang",
+          "distanceM": 17675.30078125,
+          "avgGrade": -0.08146961778402328,
+          "startLat": 31.195659637451172,
+          "startLng": 121.43431854248047
+        },
+        {
+          "id": "14717782",
+          "tileScore": 43,
+          "name": "Huashan Fury",
+          "distanceM": 1345.199951171875,
+          "avgGrade": -0.14124293625354767,
+          "startLat": 31.216033935546875,
+          "startLng": 121.43474578857422
+        },
+        {
+          "id": "40822490",
+          "tileScore": 34,
+          "name": "Heading north to buy a Factor!",
+          "distanceM": 574,
+          "avgGrade": 0.03484320640563965,
+          "startLat": 31.213483810424805,
+          "startLng": 121.4498062133789
+        },
+        {
+          "id": "25157401",
+          "tileScore": 36,
+          "name": "LRA 1st Sprint",
+          "distanceM": 3285.10009765625,
+          "avgGrade": 0.08523332327604294,
+          "startLat": 31.231462478637695,
+          "startLng": 121.41973876953125
+        },
+        {
+          "id": "15767913",
+          "tileScore": 16,
+          "name": "Newbie",
+          "distanceM": 332.8999938964844,
+          "avgGrade": 0.06007809937000275,
+          "startLat": 31.211585998535156,
+          "startLng": 121.44974517822266
+        },
+        {
+          "id": "7477984",
+          "tileScore": 21,
+          "name": "Wulumuqi South Rd (Southbound)",
+          "distanceM": 1100.300048828125,
+          "avgGrade": 0.4362446665763855,
+          "startLat": 31.211336135864258,
+          "startLng": 121.44258117675781
+        },
+        {
+          "id": "39230846",
+          "tileScore": 5,
+          "name": "Back Home From Coffee",
+          "distanceM": 3980.10009765625,
+          "avgGrade": 0.04522499442100525,
+          "startLat": 31.215784072875977,
+          "startLng": 121.4386215209961
+        },
+        {
+          "id": "14689575",
+          "tileScore": 1,
+          "name": "Inner Ring Road East to Inner Ring Road West (Zhoujiazui/Haining/Tianmu/Changshou/Changning)",
+          "distanceM": 13932.7998046875,
+          "avgGrade": 0.07607946544885635,
+          "startLat": 31.276411056518555,
+          "startLng": 121.52288055419922
+        },
+        {
+          "id": "41637235",
+          "tileScore": 11,
+          "name": "诺诺晨骑要迟到了",
+          "distanceM": 9136.900390625,
+          "avgGrade": 0.04158959910273552,
+          "startLat": 31.270627975463867,
+          "startLng": 121.4056396484375
+        },
+        {
+          "id": "38250952",
+          "tileScore": 47,
+          "name": "河滨高速路",
+          "distanceM": 581.0999755859375,
+          "avgGrade": 0.10325244814157486,
+          "startLat": 31.240337371826172,
+          "startLng": 121.45301818847656
+        },
+        {
+          "id": "36516350",
+          "tileScore": 3,
+          "name": "经典通勤上班线路A-虹桥绕道至凯旋卡红绿灯不停车",
+          "distanceM": 21577.099609375,
+          "avgGrade": -0.04634543135762215,
+          "startLat": 31.27074432373047,
+          "startLng": 121.52769470214844
+        },
+        {
+          "id": "13250842",
+          "tileScore": 1,
+          "name": "East-West Express ",
+          "distanceM": 5523.39990234375,
+          "avgGrade": 0.08871347457170486,
+          "startLat": 31.21448516845703,
+          "startLng": 121.48607635498047
+        },
+        {
+          "id": "16056171",
+          "tileScore": 49,
+          "name": "Changle Westbound",
+          "distanceM": 1814.9000244140625,
+          "avgGrade": -0.5950741171836853,
+          "startLat": 31.216405868530273,
+          "startLng": 121.4352035522461
+        },
+        {
+          "id": "33964610",
+          "tileScore": 16,
+          "name": "Supersonic half km to Xuhui",
+          "distanceM": 510.8999938964844,
+          "avgGrade": 0.11743981391191483,
+          "startLat": 31.22763442993164,
+          "startLng": 121.43528747558594
+        },
+        {
+          "id": "36798294",
+          "tileScore": 15,
+          "name": "南昌 099",
+          "distanceM": 882.2000122070312,
+          "avgGrade": -0.06801179051399231,
+          "startLat": 31.218486785888672,
+          "startLng": 121.45755767822266
+        },
+        {
+          "id": "14273311",
+          "tileScore": 3,
+          "name": "新闸－建国　冲刺啊",
+          "distanceM": 3323.300048828125,
+          "avgGrade": 0.2678060829639435,
+          "startLat": 31.239540100097656,
+          "startLng": 121.45990753173828
+        },
+        {
+          "id": "3439206",
+          "tileScore": 10,
+          "name": "Jing An, ChangDe S to N",
+          "distanceM": 1616.85546875,
+          "avgGrade": 0.5875803828239441,
+          "startLat": 31.223766326904297,
+          "startLng": 121.44470977783203
+        },
+        {
+          "id": "26652195",
+          "tileScore": 11,
+          "name": "ChangpingLuqiao->Changhua_byOldSkool",
+          "distanceM": 418.79998779296875,
+          "avgGrade": -0.33428844809532166,
+          "startLat": 31.24214744567871,
+          "startLng": 121.4515380859375
+        },
+        {
+          "id": "36111952",
+          "tileScore": 73,
+          "name": "2023 HH Airport Loop",
+          "distanceM": 32885.30078125,
+          "avgGrade": -0.007298094220459461,
+          "startLat": 31.197797775268555,
+          "startLng": 121.41617584228516
+        },
+        {
+          "id": "9733387",
+          "tileScore": 14,
+          "name": "Changde Rd (Southbound)",
+          "distanceM": 2920.60009765625,
+          "avgGrade": -0.16777373850345612,
+          "startLat": 31.245052337646484,
+          "startLng": 121.42848205566406
+        },
+        {
+          "id": "8957558",
+          "tileScore": 5,
+          "name": "Haifang Rd (Westbound)",
+          "distanceM": 876.9000244140625,
+          "avgGrade": -0.26228761672973633,
+          "startLat": 31.241548538208008,
+          "startLng": 121.44449615478516
+        },
+        {
+          "id": "24511189",
+          "tileScore": 30,
+          "name": "La roue Arriere Suzhou He",
+          "distanceM": 2920.60009765625,
+          "avgGrade": -0.03423953801393509,
+          "startLat": 31.240840911865234,
+          "startLng": 121.45462036132812
+        },
+        {
+          "id": "10541863",
+          "tileScore": 3,
+          "name": "40 km Shanghaï Loop",
+          "distanceM": 38644.5,
+          "avgGrade": 0.0015526142669841647,
+          "startLat": 31.193662643432617,
+          "startLng": 121.46837615966797
+        },
+        {
+          "id": "37558021",
+          "tileScore": 1,
+          "name": "医生与电瓶车的故事",
+          "distanceM": 16616.19921875,
+          "avgGrade": 0.01624920219182968,
+          "startLat": 31.214859008789062,
+          "startLng": 121.3038101196289
+        },
+        {
+          "id": "16056160",
+          "tileScore": 7,
+          "name": "North on Shaanxi",
+          "distanceM": 811.5,
+          "avgGrade": 1.663585901260376,
+          "startLat": 31.222150802612305,
+          "startLng": 121.45311737060547
+        },
+        {
+          "id": "16569810",
+          "tileScore": 5,
+          "name": "Xinzha Timewarp",
+          "distanceM": 1449,
+          "avgGrade": 0.17943409085273743,
+          "startLat": 31.227800369262695,
+          "startLng": 121.43594360351562
+        },
+        {
+          "id": "7139004",
+          "tileScore": 19,
+          "name": "Dongping Rd (Westbound)",
+          "distanceM": 329.3999938964844,
+          "avgGrade": 0.12143290042877197,
+          "startLat": 31.210426330566406,
+          "startLng": 121.4468994140625
+        },
+        {
+          "id": "41891247",
+          "tileScore": 18,
+          "name": "GO FOR A MAAP 2.0",
+          "distanceM": 1074.0999755859375,
+          "avgGrade": 0,
+          "startLat": 31.221342086791992,
+          "startLng": 121.42694854736328
+        },
+        {
+          "id": "16008338",
+          "tileScore": 7,
+          "name": "JingAn Cycling Super Highway W",
+          "distanceM": 1083.300048828125,
+          "avgGrade": -0.3692421317100525,
+          "startLat": 31.23082733154297,
+          "startLng": 121.44902801513672
+        },
+        {
+          "id": "14788231",
+          "tileScore": 54,
+          "name": "Anfu terrasses",
+          "distanceM": 390.6000061035156,
+          "avgGrade": 0.4352278411388397,
+          "startLat": 31.216228485107422,
+          "startLng": 121.44029235839844
+        },
+        {
+          "id": "14398281",
+          "tileScore": 61,
+          "name": "W. Guangfu Rd. (Baiyu Rd. ~ N0.555) S",
+          "distanceM": 1691.300048828125,
+          "avgGrade": 0.011825223453342915,
+          "startLat": 31.228574752807617,
+          "startLng": 121.41695404052734
+        },
+        {
+          "id": "5654531",
+          "tileScore": 2,
+          "name": "Yan'an Warm-up",
+          "distanceM": 8362.2001953125,
+          "avgGrade": -0.05979287624359131,
+          "startLat": 31.225984573364258,
+          "startLng": 121.45022583007812
+        },
+        {
+          "id": "36744721",
+          "tileScore": 12,
+          "name": "愚园路 001",
+          "distanceM": 815.2999877929688,
+          "avgGrade": 0,
+          "startLat": 31.220909118652344,
+          "startLng": 121.4260025024414
+        },
+        {
+          "id": "18698011",
+          "tileScore": 31,
+          "name": "#RNCC Leigh's coffee sprint",
+          "distanceM": 480,
+          "avgGrade": 0.125,
+          "startLat": 31.205202102661133,
+          "startLng": 121.44860076904297
+        },
+        {
+          "id": "40822477",
+          "tileScore": 50,
+          "name": "準備去買Factor~",
+          "distanceM": 629.7000122070312,
+          "avgGrade": -0.06352230906486511,
+          "startLat": 31.22162628173828,
+          "startLng": 121.44627380371094
+        },
+        {
+          "id": "34697301",
+          "tileScore": 7,
+          "name": "永康 003 Coffee Go",
+          "distanceM": 661.2000122070312,
+          "avgGrade": -0.2419842630624771,
+          "startLat": 31.205320358276367,
+          "startLng": 121.45631408691406
+        },
+        {
+          "id": "24036349",
+          "tileScore": 22,
+          "name": "GuangFu Rd W2E",
+          "distanceM": 2892.5,
+          "avgGrade": -0.041486602276563644,
+          "startLat": 31.22901153564453,
+          "startLng": 121.41737365722656
+        },
+        {
+          "id": "5911299",
+          "tileScore": 20,
+          "name": "Jianguo Middle Road Climb",
+          "distanceM": 472.6000061035156,
+          "avgGrade": 23.867965698242188,
+          "startLat": 31.216751098632812,
+          "startLng": 121.46327209472656
+        },
+        {
+          "id": "10634794",
+          "tileScore": 28,
+          "name": "Wuning Rd South",
+          "distanceM": 1537.5999755859375,
+          "avgGrade": -0.2081165611743927,
+          "startLat": 31.23516082763672,
+          "startLng": 121.42546081542969
+        },
+        {
+          "id": "24222942",
+          "tileScore": 29,
+          "name": "After Turn Till LuWan Stadium Sprint",
+          "distanceM": 321.79998779296875,
+          "avgGrade": -0.4350528120994568,
+          "startLat": 31.206544876098633,
+          "startLng": 121.46185302734375
+        },
+        {
+          "id": "27132614",
+          "tileScore": 5,
+          "name": "Catch the Green Light",
+          "distanceM": 1458.5999755859375,
+          "avgGrade": 0.09598244726657867,
+          "startLat": 31.21710968017578,
+          "startLng": 121.46597290039062
+        },
+        {
+          "id": "6534475",
+          "tileScore": 43,
+          "name": "Wuning Rd Bridge (Southbound)",
+          "distanceM": 577.2000122070312,
+          "avgGrade": -0.17325018346309662,
+          "startLat": 31.23921775817871,
+          "startLng": 121.41997528076172
+        }
+      ]
+    },
+    {
+      "z": 13,
+      "x": 6860,
+      "y": 3347,
+      "segments": [
+        {
+          "id": "36805732",
+          "tileScore": 22,
+          "name": "新天地 001",
+          "distanceM": 502.1000061035156,
+          "avgGrade": -0.0398327000439167,
+          "startLat": 31.220226287841797,
+          "startLng": 121.47611999511719
+        },
+        {
+          "id": "33212514",
+          "tileScore": 4,
+          "name": "Kamikaze Sprint",
+          "distanceM": 624.2999877929688,
+          "avgGrade": -0.06407175958156586,
+          "startLat": 31.20827293395996,
+          "startLng": 121.46990203857422
+        },
+        {
+          "id": "36744815",
+          "tileScore": 24,
+          "name": "陆家嘴 097 Riverside",
+          "distanceM": 1326.0999755859375,
+          "avgGrade": 0.06032727658748627,
+          "startLat": 31.244482040405273,
+          "startLng": 121.49629974365234
+        },
+        {
+          "id": "18252160",
+          "tileScore": 18,
+          "name": "Riverside trail - long",
+          "distanceM": 12400.2998046875,
+          "avgGrade": 0.04435376450419426,
+          "startLat": 31.24861717224121,
+          "startLng": 121.53235626220703
+        },
+        {
+          "id": "2953209",
+          "tileScore": 225,
+          "name": "Cool Docks Driveby",
+          "distanceM": 1713.3699951171875,
+          "avgGrade": 0,
+          "startLat": 31.22453498840332,
+          "startLng": 121.49974060058594
+        },
+        {
+          "id": "14273311",
+          "tileScore": 3,
+          "name": "新闸－建国　冲刺啊",
+          "distanceM": 3323.300048828125,
+          "avgGrade": 0.2678060829639435,
+          "startLat": 31.239540100097656,
+          "startLng": 121.45990753173828
+        },
+        {
+          "id": "36516350",
+          "tileScore": 3,
+          "name": "经典通勤上班线路A-虹桥绕道至凯旋卡红绿灯不停车",
+          "distanceM": 21577.099609375,
+          "avgGrade": -0.04634543135762215,
+          "startLat": 31.27074432373047,
+          "startLng": 121.52769470214844
+        },
+        {
+          "id": "15818177",
+          "tileScore": 14,
+          "name": "Before the thunder",
+          "distanceM": 469.70001220703125,
+          "avgGrade": 0.12774111330509186,
+          "startLat": 31.221097946166992,
+          "startLng": 121.48049926757812
+        },
+        {
+          "id": "5911299",
+          "tileScore": 20,
+          "name": "Jianguo Middle Road Climb",
+          "distanceM": 472.6000061035156,
+          "avgGrade": 23.867965698242188,
+          "startLat": 31.216751098632812,
+          "startLng": 121.46327209472656
+        },
+        {
+          "id": "8716615",
+          "tileScore": 1,
+          "name": "Huangjia Rd (Westbound)",
+          "distanceM": 385.3999938964844,
+          "avgGrade": -1.5049299001693726,
+          "startLat": 31.217437744140625,
+          "startLng": 121.49325561523438
+        },
+        {
+          "id": "17756287",
+          "tileScore": 23,
+          "name": "Nanpu -> Xupu",
+          "distanceM": 12284,
+          "avgGrade": 0.0260501466691494,
+          "startLat": 31.208599090576172,
+          "startLng": 121.49545288085938
+        },
+        {
+          "id": "34754920",
+          "tileScore": 6,
+          "name": "黄浦 099",
+          "distanceM": 1460.199951171875,
+          "avgGrade": 0,
+          "startLat": 31.2166805267334,
+          "startLng": 121.48057556152344
+        },
+        {
+          "id": "26046283",
+          "tileScore": 20,
+          "name": "Bund La Pedale",
+          "distanceM": 1796,
+          "avgGrade": 0,
+          "startLat": 31.242115020751953,
+          "startLng": 121.48560333251953
+        },
+        {
+          "id": "30152808",
+          "tileScore": 3,
+          "name": "Regent Return",
+          "distanceM": 406.70001220703125,
+          "avgGrade": -0.24588148295879364,
+          "startLat": 31.232568740844727,
+          "startLng": 121.50077819824219
+        },
+        {
+          "id": "36112074",
+          "tileScore": 160,
+          "name": "RNCC Breakfast MJ Sprint",
+          "distanceM": 500,
+          "avgGrade": -0.03999999910593033,
+          "startLat": 31.204362869262695,
+          "startLng": 121.49129486083984
+        },
+        {
+          "id": "32900581",
+          "tileScore": 9,
+          "name": "Riverside Cycling Trail - East, North Wall to Yang Jia Du (Ferry)",
+          "distanceM": 7673.10009765625,
+          "avgGrade": -0.0312781035900116,
+          "startLat": 31.253490447998047,
+          "startLng": 121.5420913696289
+        },
+        {
+          "id": "4037420",
+          "tileScore": 7,
+          "name": "Huining Road Climb",
+          "distanceM": 495.8999938964844,
+          "avgGrade": 19.197420120239258,
+          "startLat": 31.21103286743164,
+          "startLng": 121.48908233642578
+        },
+        {
+          "id": "34769760",
+          "tileScore": 5,
+          "name": "到达公司最后一个弯",
+          "distanceM": 525,
+          "avgGrade": 0,
+          "startLat": 31.222509384155273,
+          "startLng": 121.46758270263672
+        },
+        {
+          "id": "36798294",
+          "tileScore": 15,
+          "name": "南昌 099",
+          "distanceM": 882.2000122070312,
+          "avgGrade": -0.06801179051399231,
+          "startLat": 31.218486785888672,
+          "startLng": 121.45755767822266
+        },
+        {
+          "id": "7036903",
+          "tileScore": 7,
+          "name": "Hypergrace to Ferry",
+          "distanceM": 2646.300048828125,
+          "avgGrade": -0.21917393803596497,
+          "startLat": 31.235950469970703,
+          "startLng": 121.53215789794922
+        },
+        {
+          "id": "16303787",
+          "tileScore": 87,
+          "name": "push! push! push!",
+          "distanceM": 558.4000244140625,
+          "avgGrade": 0,
+          "startLat": 31.207233428955078,
+          "startLng": 121.49449920654297
+        },
+        {
+          "id": "13250842",
+          "tileScore": 1,
+          "name": "East-West Express ",
+          "distanceM": 5523.39990234375,
+          "avgGrade": 0.08871347457170486,
+          "startLat": 31.21448516845703,
+          "startLng": 121.48607635498047
+        },
+        {
+          "id": "9687896",
+          "tileScore": 20,
+          "name": "Lap Around Power Station of Art",
+          "distanceM": 1243.5,
+          "avgGrade": -0.0402090884745121,
+          "startLat": 31.203290939331055,
+          "startLng": 121.4949722290039
+        },
+        {
+          "id": "6733432",
+          "tileScore": 27,
+          "name": "Baidu Road Climb",
+          "distanceM": 719.7000122070312,
+          "avgGrade": 15.395302772521973,
+          "startLat": 31.22374725341797,
+          "startLng": 121.49105834960938
+        },
+        {
+          "id": "21036682",
+          "tileScore": 6,
+          "name": "Minpu Tues - Park to LP with extension",
+          "distanceM": 56914,
+          "avgGrade": -0.006325332447886467,
+          "startLat": 31.213491439819336,
+          "startLng": 121.46663665771484
+        },
+        {
+          "id": "34410960",
+          "tileScore": 33,
+          "name": "四川路冲冲冲",
+          "distanceM": 503.70001220703125,
+          "avgGrade": -0.31764939427375793,
+          "startLat": 31.232099533081055,
+          "startLng": 121.48644256591797
+        },
+        {
+          "id": "37558021",
+          "tileScore": 1,
+          "name": "医生与电瓶车的故事",
+          "distanceM": 16616.19921875,
+          "avgGrade": 0.01624920219182968,
+          "startLat": 31.214859008789062,
+          "startLng": 121.3038101196289
+        },
+        {
+          "id": "10541863",
+          "tileScore": 3,
+          "name": "40 km Shanghaï Loop",
+          "distanceM": 38644.5,
+          "avgGrade": 0.0015526142669841647,
+          "startLat": 31.193662643432617,
+          "startLng": 121.46837615966797
+        },
+        {
+          "id": "8994550",
+          "tileScore": 6,
+          "name": "Expo Ferry - Start of CP LAP",
+          "distanceM": 4517.5,
+          "avgGrade": -0.13503043353557587,
+          "startLat": 31.204008102416992,
+          "startLng": 121.50170135498047
+        },
+        {
+          "id": "32144036",
+          "tileScore": 2,
+          "name": "DP_v1.3_viaExpo",
+          "distanceM": 29191.400390625,
+          "avgGrade": 0.0013702665455639362,
+          "startLat": 31.212736129760742,
+          "startLng": 121.53665924072266
+        },
+        {
+          "id": "11195939",
+          "tileScore": 5,
+          "name": "Inner Ring Elevated Rd - Nanpu Bridge to GC",
+          "distanceM": 9229.900390625,
+          "avgGrade": -0.21668706834316254,
+          "startLat": 31.209104537963867,
+          "startLng": 121.49713134765625
+        },
+        {
+          "id": "12188557",
+          "tileScore": 17,
+          "name": "Liyuan Rd to Lujiabang Rd Climb",
+          "distanceM": 255,
+          "avgGrade": 5.764706134796143,
+          "startLat": 31.210857391357422,
+          "startLng": 121.47879791259766
+        },
+        {
+          "id": "22431799",
+          "tileScore": 2,
+          "name": "Rush Hour from Xujiahui to Wujiaochang",
+          "distanceM": 17675.30078125,
+          "avgGrade": -0.08146961778402328,
+          "startLat": 31.195659637451172,
+          "startLng": 121.43431854248047
+        },
+        {
+          "id": "27132614",
+          "tileScore": 5,
+          "name": "Catch the Green Light",
+          "distanceM": 1458.5999755859375,
+          "avgGrade": 0.09598244726657867,
+          "startLat": 31.21710968017578,
+          "startLng": 121.46597290039062
+        },
+        {
+          "id": "6534591",
+          "tileScore": 2,
+          "name": "Xietu Rd (Eastbound)",
+          "distanceM": 4764.39990234375,
+          "avgGrade": -0.05457140505313873,
+          "startLat": 31.19310188293457,
+          "startLng": 121.4416275024414
+        },
+        {
+          "id": "9213881",
+          "tileScore": 292,
+          "name": "PSA Chimney Power Lap",
+          "distanceM": 1366.5999755859375,
+          "avgGrade": 0.04390458017587662,
+          "startLat": 31.20343589782715,
+          "startLng": 121.49496459960938
+        },
+        {
+          "id": "19777967",
+          "tileScore": 18,
+          "name": "Riverside playground to LP (North)",
+          "distanceM": 12492.7001953125,
+          "avgGrade": -0.017610283568501472,
+          "startLat": 31.146562576293945,
+          "startLng": 121.45584106445312
+        },
+        {
+          "id": "34083641",
+          "tileScore": 6,
+          "name": "威海路 绿灯冲刺",
+          "distanceM": 584.9000244140625,
+          "avgGrade": 0.10258164256811142,
+          "startLat": 31.229324340820312,
+          "startLng": 121.46244049072266
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,65 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-03T06:04:52.404Z",
+  "tile": {
+    "z": 13,
+    "x": 6867,
+    "y": 3343
+  },
+  "segments": [
+    {
+      "id": "36914875",
+      "tileScore": 31,
+      "name": "右转后我不装了",
+      "distanceM": 2422,
+      "avgGrade": 0.024772915989160538,
+      "startLat": 31.374610900878906,
+      "startLng": 121.82842254638672
+    },
+    {
+      "id": "35198304",
+      "tileScore": 12,
+      "name": "Hengsha Seawall Semi Circle",
+      "distanceM": 17100.400390625,
+      "avgGrade": 0,
+      "startLat": 31.2965087890625,
+      "startLng": 121.8507080078125
+    },
+    {
+      "id": "38262478",
+      "tileScore": 21,
+      "name": "王局快乐大直道",
+      "distanceM": 9197.7998046875,
+      "avgGrade": 0.02174432948231697,
+      "startLat": 31.372465133666992,
+      "startLng": 121.8009262084961
+    },
+    {
+      "id": "32702821",
+      "tileScore": 22,
+      "name": "富民沙冲向码头",
+      "distanceM": 828.2999877929688,
+      "avgGrade": -0.1690208911895752,
+      "startLat": 31.373336791992188,
+      "startLng": 121.81034851074219
+    },
+    {
+      "id": "29703134",
+      "tileScore": 58,
+      "name": "横沙岛好路绕圈",
+      "distanceM": 24308.599609375,
+      "avgGrade": -0.0016455082222819328,
+      "startLat": 31.371824264526367,
+      "startLng": 121.8013687133789
+    },
+    {
+      "id": "28897948",
+      "tileScore": 32,
+      "name": "Seawall Gate to the End",
+      "distanceM": 6616.39990234375,
+      "avgGrade": 0.11788888275623322,
+      "startLat": 31.37287712097168,
+      "startLng": 121.77822875976562
+    }
+  ]
+}

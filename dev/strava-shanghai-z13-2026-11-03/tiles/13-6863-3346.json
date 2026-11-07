@@ -1,0 +1,218 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-03T06:06:56.599Z",
+  "tile": {
+    "z": 13,
+    "x": 6863,
+    "y": 3346
+  },
+  "segments": [
+    {
+      "id": "36944291",
+      "tileScore": 43,
+      "name": "云山路 to 顾唐路",
+      "distanceM": 7434,
+      "avgGrade": 0.024213073775172234,
+      "startLat": 31.23383140563965,
+      "startLng": 121.58002471923828
+    },
+    {
+      "id": "34576252",
+      "tileScore": 2,
+      "name": "金葵路*3",
+      "distanceM": 3799,
+      "avgGrade": -0.04738089069724083,
+      "startLat": 31.241193771362305,
+      "startLng": 121.62886810302734
+    },
+    {
+      "id": "21789103",
+      "tileScore": 24,
+      "name": "Shenjiang Rd North",
+      "distanceM": 10352,
+      "avgGrade": -0.013523956760764122,
+      "startLat": 31.203109741210938,
+      "startLng": 121.62128448486328
+    },
+    {
+      "id": "33207622",
+      "tileScore": 3,
+      "name": "Jinhai Rd (Tanglu Rd - Yanggao Rd) Westbound",
+      "distanceM": 900.2000122070312,
+      "avgGrade": 0.09997778385877609,
+      "startLat": 31.26372528076172,
+      "startLng": 121.6085205078125
+    },
+    {
+      "id": "40604978",
+      "tileScore": 5,
+      "name": "DongLu Rd sprint",
+      "distanceM": 711.0999755859375,
+      "avgGrade": 0.08437632024288177,
+      "startLat": 31.2606201171875,
+      "startLng": 121.61665344238281
+    },
+    {
+      "id": "10668152",
+      "tileScore": 2,
+      "name": "Shangchuan Overpass (Westbound)",
+      "distanceM": 611.2000122070312,
+      "avgGrade": 0.06544502824544907,
+      "startLat": 31.27558135986328,
+      "startLng": 121.64251708984375
+    },
+    {
+      "id": "21956852",
+      "tileScore": 8,
+      "name": "Shanggang Stadium-Jingang Sprint",
+      "distanceM": 1864.5999755859375,
+      "avgGrade": -0.021452322602272034,
+      "startLat": 31.2414493560791,
+      "startLng": 121.60447692871094
+    },
+    {
+      "id": "35882217",
+      "tileScore": 1,
+      "name": "(˶‾᷄ꈊ‾᷅˵)  谁也别想休闲   ᶘ ᵒᴥᵒᶅ",
+      "distanceM": 28237,
+      "avgGrade": 0.039664268493652344,
+      "startLat": 31.272661209106445,
+      "startLng": 121.62120056152344
+    },
+    {
+      "id": "33853530",
+      "tileScore": 2,
+      "name": "金科-》申江 （金海路）",
+      "distanceM": 2583.300048828125,
+      "avgGrade": -0.04645221307873726,
+      "startLat": 31.25635528564453,
+      "startLng": 121.5959243774414
+    },
+    {
+      "id": "16695526",
+      "tileScore": 7,
+      "name": "to the sea",
+      "distanceM": 30088.599609375,
+      "avgGrade": 0.015952887013554573,
+      "startLat": 31.223649978637695,
+      "startLng": 121.50944519042969
+    },
+    {
+      "id": "30134997",
+      "tileScore": 3,
+      "name": "电驴们的亡命追逐",
+      "distanceM": 3994.199951171875,
+      "avgGrade": -0.110159732401371,
+      "startLat": 31.264204025268555,
+      "startLng": 121.61126708984375
+    },
+    {
+      "id": "34512017",
+      "tileScore": 4,
+      "name": "电驴们的疯狂绕圈",
+      "distanceM": 17350,
+      "avgGrade": 0.0011527377646416426,
+      "startLat": 31.264314651489258,
+      "startLng": 121.61229705810547
+    },
+    {
+      "id": "34650908",
+      "tileScore": 10,
+      "name": "川桥路",
+      "distanceM": 2271.800048828125,
+      "avgGrade": -0.013205387629568577,
+      "startLat": 31.245529174804688,
+      "startLng": 121.5982666015625
+    },
+    {
+      "id": "35475045",
+      "tileScore": 39,
+      "name": "五桥魔鬼热身赛段",
+      "distanceM": 1949.699951171875,
+      "avgGrade": -0.30773964524269104,
+      "startLat": 31.2580623626709,
+      "startLng": 121.6211929321289
+    },
+    {
+      "id": "39842949",
+      "tileScore": 14,
+      "name": "金桥 001 Lalaport",
+      "distanceM": 747.5,
+      "avgGrade": -0.21404682099819183,
+      "startLat": 31.24897575378418,
+      "startLng": 121.59095764160156
+    },
+    {
+      "id": "9475502",
+      "tileScore": 24,
+      "name": "Jinxui East Road Industrial Area",
+      "distanceM": 1823.199951171875,
+      "avgGrade": -0.10969723761081696,
+      "startLat": 31.24082374572754,
+      "startLng": 121.60148620605469
+    },
+    {
+      "id": "40990361",
+      "tileScore": 85,
+      "name": "NBCC Back",
+      "distanceM": 5351.39990234375,
+      "avgGrade": 0.14949358999729156,
+      "startLat": 31.25813865661621,
+      "startLng": 121.6934814453125
+    },
+    {
+      "id": "39598864",
+      "tileScore": 14,
+      "name": "云山大圈狗都不骑",
+      "distanceM": 5052.7001953125,
+      "avgGrade": -0.03958280012011528,
+      "startLat": 31.27080726623535,
+      "startLng": 121.61283111572266
+    },
+    {
+      "id": "15865695",
+      "tileScore": 4,
+      "name": "Keep Spinning, Breathe. ",
+      "distanceM": 2303.39990234375,
+      "avgGrade": 0.28219154477119446,
+      "startLat": 31.238203048706055,
+      "startLng": 121.59362030029297
+    },
+    {
+      "id": "35849445",
+      "tileScore": 101,
+      "name": "锦绣路上桥！冲🦆 (灬ºωº灬)",
+      "distanceM": 522.5999755859375,
+      "avgGrade": 1.798698902130127,
+      "startLat": 31.244646072387695,
+      "startLng": 121.64514923095703
+    },
+    {
+      "id": "35770804",
+      "tileScore": 43,
+      "name": "有人在这里摔失忆了，大家小心！",
+      "distanceM": 624,
+      "avgGrade": 0.03205128386616707,
+      "startLat": 31.256301879882812,
+      "startLng": 121.62125396728516
+    },
+    {
+      "id": "30251066",
+      "tileScore": 15,
+      "name": "New Jinqiao Rd. Sprint (Tang Lu -> Jin Gang)",
+      "distanceM": 950.2000122070312,
+      "avgGrade": -0.06314460188150406,
+      "startLat": 31.25948715209961,
+      "startLng": 121.61542510986328
+    },
+    {
+      "id": "32619340",
+      "tileScore": 2,
+      "name": "Road to Salvation",
+      "distanceM": 7085.7001953125,
+      "avgGrade": 0.005645172670483589,
+      "startLat": 31.26627540588379,
+      "startLng": 121.63288116455078
+    }
+  ]
+}

@@ -1,0 +1,182 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-03T06:07:35.599Z",
+  "tile": {
+    "z": 13,
+    "x": 6865,
+    "y": 3347
+  },
+  "segments": [
+    {
+      "id": "5717565",
+      "tileScore": 8,
+      "name": "Huaxia East Rd x Canals Bridge Blast on Cycling Lane (Eastbound)",
+      "distanceM": 769,
+      "avgGrade": -0.11703510582447052,
+      "startLat": 31.20205307006836,
+      "startLng": 121.69953155517578
+    },
+    {
+      "id": "39760643",
+      "tileScore": 48,
+      "name": "华洲路-川南奉-华夏东路-海滨路",
+      "distanceM": 7625.60009765625,
+      "avgGrade": -0.005245489068329334,
+      "startLat": 31.19892120361328,
+      "startLng": 121.73493957519531
+    },
+    {
+      "id": "38804460",
+      "tileScore": 7,
+      "name": "daju to the sea",
+      "distanceM": 11608.099609375,
+      "avgGrade": 0.008614674210548401,
+      "startLat": 31.20665740966797,
+      "startLng": 121.6347427368164
+    },
+    {
+      "id": "34977044",
+      "tileScore": 1,
+      "name": "川沙路（龙东-高科）",
+      "distanceM": 1556.199951171875,
+      "avgGrade": -0.1477959156036377,
+      "startLat": 31.236120223999023,
+      "startLng": 121.68208312988281
+    },
+    {
+      "id": "35882217",
+      "tileScore": 1,
+      "name": "(˶‾᷄ꈊ‾᷅˵)  谁也别想休闲   ᶘ ᵒᴥᵒᶅ",
+      "distanceM": 28237,
+      "avgGrade": 0.039664268493652344,
+      "startLat": 31.272661209106445,
+      "startLng": 121.62120056152344
+    },
+    {
+      "id": "17080110",
+      "tileScore": 18,
+      "name": "3#bridge Gaoke Road ",
+      "distanceM": 464.79998779296875,
+      "avgGrade": 1.1187607049942017,
+      "startLat": 31.22796058654785,
+      "startLng": 121.72652435302734
+    },
+    {
+      "id": "34977214",
+      "tileScore": 3,
+      "name": "浦东运河大桥（龙东大道-向东）",
+      "distanceM": 538.5,
+      "avgGrade": 0.18570101261138916,
+      "startLat": 31.236900329589844,
+      "startLng": 121.68406677246094
+    },
+    {
+      "id": "12179280",
+      "tileScore": 16,
+      "name": "Dongchuan Drag",
+      "distanceM": 750.2999877929688,
+      "avgGrade": -0.15993602573871613,
+      "startLat": 31.21588134765625,
+      "startLng": 121.72351837158203
+    },
+    {
+      "id": "17080096",
+      "tileScore": 13,
+      "name": "2#bridge Gaoke Road ",
+      "distanceM": 419.1000061035156,
+      "avgGrade": 1.670245885848999,
+      "startLat": 31.222625732421875,
+      "startLng": 121.69145965576172
+    },
+    {
+      "id": "5709906",
+      "tileScore": 16,
+      "name": "Gaoke East Rd From Shajia Rd To Dongchuan Hwy (Westbound)",
+      "distanceM": 2530.800048828125,
+      "avgGrade": 0.0474158376455307,
+      "startLat": 31.230281829833984,
+      "startLng": 121.74617004394531
+    },
+    {
+      "id": "20304993",
+      "tileScore": 11,
+      "name": "Yaolong & Huaxia Hot Blast",
+      "distanceM": 29317,
+      "avgGrade": -0.008527475409209728,
+      "startLat": 31.14801597595215,
+      "startLng": 121.47225952148438
+    },
+    {
+      "id": "34196362",
+      "tileScore": 2,
+      "name": "曹路-华夏路",
+      "distanceM": 9342.7998046875,
+      "avgGrade": 0.019266173243522644,
+      "startLat": 31.284818649291992,
+      "startLng": 121.67583465576172
+    },
+    {
+      "id": "29669166",
+      "tileScore": 6,
+      "name": "Back to the city",
+      "distanceM": 11189.5,
+      "avgGrade": -0.05898386985063553,
+      "startLat": 31.209815979003906,
+      "startLng": 121.74333953857422
+    },
+    {
+      "id": "32407359",
+      "tileScore": 86,
+      "name": "Chuanyang River Rd Flat",
+      "distanceM": 2666.800048828125,
+      "avgGrade": -0.044997747987508774,
+      "startLat": 31.217266082763672,
+      "startLng": 121.75509643554688
+    },
+    {
+      "id": "37846154",
+      "tileScore": 7,
+      "name": "凌空路【飞越川杨河】南-北",
+      "distanceM": 744.5,
+      "avgGrade": 0,
+      "startLat": 31.206295013427734,
+      "startLng": 121.71077728271484
+    },
+    {
+      "id": "13027871",
+      "tileScore": 6,
+      "name": "Longdong LegStretcher",
+      "distanceM": 2458.5,
+      "avgGrade": 0.17897091805934906,
+      "startLat": 31.244020462036133,
+      "startLng": 121.71172332763672
+    },
+    {
+      "id": "13466038",
+      "tileScore": 7,
+      "name": "Gaoke East (Chuansha to Dongchuan)",
+      "distanceM": 2850.5,
+      "avgGrade": 0.007016312796622515,
+      "startLat": 31.222387313842773,
+      "startLng": 121.68944549560547
+    },
+    {
+      "id": "41428487",
+      "tileScore": 9,
+      "name": "上班冲刺commute route",
+      "distanceM": 4333.7001953125,
+      "avgGrade": 0.03461245447397232,
+      "startLat": 31.20488929748535,
+      "startLng": 121.66026306152344
+    },
+    {
+      "id": "37224300",
+      "tileScore": 13,
+      "name": "金桥保税区绕圈",
+      "distanceM": 5246,
+      "avgGrade": 0.0038124285638332367,
+      "startLat": 31.22612953186035,
+      "startLng": 121.67208099365234
+    }
+  ]
+}

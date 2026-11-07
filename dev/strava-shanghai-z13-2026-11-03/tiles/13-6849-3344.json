@@ -1,0 +1,38 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-03T06:06:40.578Z",
+  "tile": {
+    "z": 13,
+    "x": 6849,
+    "y": 3344
+  },
+  "segments": [
+    {
+      "id": "22264078",
+      "tileScore": 8,
+      "name": "苏州回上海（昆山~安亭）",
+      "distanceM": 24057.19921875,
+      "avgGrade": -0.03491678088903427,
+      "startLat": 31.33888816833496,
+      "startLng": 120.90005493164062
+    },
+    {
+      "id": "37622553",
+      "tileScore": 8,
+      "name": "Cross the 1st River-Kongxiang",
+      "distanceM": 3558.89990234375,
+      "avgGrade": 0.07305628061294556,
+      "startLat": 31.32596206665039,
+      "startLng": 120.99826049804688
+    },
+    {
+      "id": "30690110",
+      "tileScore": 6,
+      "name": "FDA-3",
+      "distanceM": 6622.2001953125,
+      "avgGrade": 0.021141011267900467,
+      "startLat": 31.32841682434082,
+      "startLng": 121.01768493652344
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-03T06:06:37.591Z",
+  "tile": {
+    "z": 13,
+    "x": 6851,
+    "y": 3344
+  },
+  "segments": [
+    {
+      "id": "25308016",
+      "tileScore": 42,
+      "name": "沿沪环圈北向-The King Of Sprint#VUELTA",
+      "distanceM": 1013.5999755859375,
+      "avgGrade": 0,
+      "startLat": 31.353073120117188,
+      "startLng": 121.10027313232422
+    },
+    {
+      "id": "28710511",
+      "tileScore": 9,
+      "name": "地道摇摇乐",
+      "distanceM": 2243.60009765625,
+      "avgGrade": -0.05348547175526619,
+      "startLat": 31.33038330078125,
+      "startLng": 121.1038818359375
+    },
+    {
+      "id": "25308045",
+      "tileScore": 50,
+      "name": "沿沪环圈南向-The King Of Sprint#VUELTA",
+      "distanceM": 1008.4000244140625,
+      "avgGrade": -0.0198333989828825,
+      "startLat": 31.346435546875,
+      "startLng": 121.10115051269531
+    },
+    {
+      "id": "24796040",
+      "tileScore": 61,
+      "name": "沿沪环圈  #VUELTA",
+      "distanceM": 12328.2998046875,
+      "avgGrade": -0.0008111418574117124,
+      "startLat": 31.335790634155273,
+      "startLng": 121.10411834716797
+    }
+  ]
+}

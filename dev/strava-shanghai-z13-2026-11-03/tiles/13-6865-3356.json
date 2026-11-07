@@ -1,0 +1,110 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-03T06:11:04.480Z",
+  "tile": {
+    "z": 13,
+    "x": 6865,
+    "y": 3356
+  },
+  "segments": [
+    {
+      "id": "29089518",
+      "tileScore": 4,
+      "name": "Big Bridge North",
+      "distanceM": 580.7000122070312,
+      "avgGrade": 1.2743240594863892,
+      "startLat": 30.888713836669922,
+      "startLng": 121.72830200195312
+    },
+    {
+      "id": "20487012",
+      "tileScore": 31,
+      "name": "Wahong",
+      "distanceM": 6940.7998046875,
+      "avgGrade": -0.07780083268880844,
+      "startLat": 30.87093162536621,
+      "startLng": 121.6989517211914
+    },
+    {
+      "id": "40227376",
+      "tileScore": 8,
+      "name": "12KM TTT",
+      "distanceM": 12133.599609375,
+      "avgGrade": -0.019779784604907036,
+      "startLat": 30.86695098876953,
+      "startLng": 121.65801239013672
+    },
+    {
+      "id": "37816740",
+      "tileScore": 33,
+      "name": "三团港北",
+      "distanceM": 666,
+      "avgGrade": -0.030030030757188797,
+      "startLat": 30.882274627685547,
+      "startLng": 121.71504974365234
+    },
+    {
+      "id": "20936581",
+      "tileScore": 28,
+      "name": "Plum Park to Temple gate",
+      "distanceM": 3375.699951171875,
+      "avgGrade": 0.07109636813402176,
+      "startLat": 30.86893081665039,
+      "startLng": 121.67426300048828
+    },
+    {
+      "id": "41260897",
+      "tileScore": 1,
+      "name": "Wusi before Branch",
+      "distanceM": 3972.60009765625,
+      "avgGrade": -0.02013794519007206,
+      "startLat": 30.875625610351562,
+      "startLng": 121.67098236083984
+    },
+    {
+      "id": "35739410",
+      "tileScore": 1,
+      "name": "Sculpture Salute",
+      "distanceM": 1062.9000244140625,
+      "avgGrade": -0.03763289004564285,
+      "startLat": 30.86825180053711,
+      "startLng": 121.70962524414062
+    },
+    {
+      "id": "8078942",
+      "tileScore": 1,
+      "name": "Wusi Whoosh",
+      "distanceM": 2193.699951171875,
+      "avgGrade": 0.06381911784410477,
+      "startLat": 30.881437301635742,
+      "startLng": 121.7331771850586
+    },
+    {
+      "id": "34876506",
+      "tileScore": 7,
+      "name": "随塘河路（靶场-五四）",
+      "distanceM": 18125.900390625,
+      "avgGrade": -0.011033935472369194,
+      "startLat": 30.842056274414062,
+      "startLng": 121.54557037353516
+    },
+    {
+      "id": "36697932",
+      "tileScore": 73,
+      "name": "你骑得过港漕飞弹吗？-半程",
+      "distanceM": 16429.599609375,
+      "avgGrade": 0.0012173150898888707,
+      "startLat": 30.86809539794922,
+      "startLng": 121.56013488769531
+    },
+    {
+      "id": "36485192",
+      "tileScore": 2,
+      "name": "瓦洪公路绕圈2号直路",
+      "distanceM": 2400,
+      "avgGrade": -0.02500000037252903,
+      "startLat": 30.88321304321289,
+      "startLng": 121.68925476074219
+    }
+  ]
+}

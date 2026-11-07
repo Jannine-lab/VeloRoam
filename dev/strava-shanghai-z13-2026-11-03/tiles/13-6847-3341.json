@@ -1,0 +1,65 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-03T06:04:19.285Z",
+  "tile": {
+    "z": 13,
+    "x": 6847,
+    "y": 3341
+  },
+  "segments": [
+    {
+      "id": "22915982",
+      "tileScore": 1,
+      "name": "12.5K North of Kunshan (Eastbound)",
+      "distanceM": 12680.900390625,
+      "avgGrade": 0.01734892651438713,
+      "startLat": 31.442026138305664,
+      "startLng": 120.88185119628906
+    },
+    {
+      "id": "41421574",
+      "tileScore": 3,
+      "name": "杨林塘itt",
+      "distanceM": 3823.10009765625,
+      "avgGrade": 0.04708220809698105,
+      "startLat": 31.46310806274414,
+      "startLng": 120.94042205810547
+    },
+    {
+      "id": "26160602",
+      "tileScore": 1,
+      "name": "Connector to S339 ",
+      "distanceM": 4325.7998046875,
+      "avgGrade": 0.03698737546801567,
+      "startLat": 31.4565486907959,
+      "startLng": 120.9233169555664
+    },
+    {
+      "id": "25680360",
+      "tileScore": 1,
+      "name": "Kim&Kaare’s Canal Segment (Southbound)",
+      "distanceM": 4439.7998046875,
+      "avgGrade": 0.004504707176238298,
+      "startLat": 31.50302505493164,
+      "startLng": 120.90562438964844
+    },
+    {
+      "id": "25769092",
+      "tileScore": 3,
+      "name": "Dead Dog Climb (Westbound)",
+      "distanceM": 467.3999938964844,
+      "avgGrade": 1.2409071922302246,
+      "startLat": 31.45601463317871,
+      "startLng": 120.90484619140625
+    },
+    {
+      "id": "25768829",
+      "tileScore": 3,
+      "name": "Fresh Tarmac Bridge (Northbound)",
+      "distanceM": 477.79998779296875,
+      "avgGrade": 1.6324821710586548,
+      "startLat": 31.45764923095703,
+      "startLng": 120.92346954345703
+    }
+  ]
+}

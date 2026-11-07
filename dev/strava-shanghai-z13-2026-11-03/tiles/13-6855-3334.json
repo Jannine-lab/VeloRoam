@@ -1,0 +1,56 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-03T06:01:07.452Z",
+  "tile": {
+    "z": 13,
+    "x": 6855,
+    "y": 3334
+  },
+  "segments": [
+    {
+      "id": "19176722",
+      "tileScore": 2,
+      "name": "IM 70.3 Shanghai full course",
+      "distanceM": 89738.3984375,
+      "avgGrade": 0.009360541589558125,
+      "startLat": 31.749746322631836,
+      "startLng": 121.25502014160156
+    },
+    {
+      "id": "32618140",
+      "tileScore": 10,
+      "name": "崇西公路",
+      "distanceM": 5849.89990234375,
+      "avgGrade": -0.022222602739930153,
+      "startLat": 31.700439453125,
+      "startLng": 121.29484558105469
+    },
+    {
+      "id": "42365089",
+      "tileScore": 71,
+      "name": "2026 TREK100精英组",
+      "distanceM": 94728,
+      "avgGrade": -0.000633392424788326,
+      "startLat": 31.6234073638916,
+      "startLng": 121.42135620117188
+    },
+    {
+      "id": "40311453",
+      "tileScore": 24,
+      "name": "2025 TREK100",
+      "distanceM": 108150.3984375,
+      "avgGrade": -0.006842323578894138,
+      "startLat": 31.624710083007812,
+      "startLng": 121.41840362548828
+    },
+    {
+      "id": "39134616",
+      "tileScore": 2,
+      "name": "陈海公路(宏海公路-太平路)",
+      "distanceM": 6197.2001953125,
+      "avgGrade": 0.00645452830940485,
+      "startLat": 31.744945526123047,
+      "startLng": 121.27171325683594
+    }
+  ]
+}

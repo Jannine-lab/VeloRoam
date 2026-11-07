@@ -1,0 +1,200 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-03T06:06:56.599Z",
+  "tile": {
+    "z": 13,
+    "x": 6865,
+    "y": 3346
+  },
+  "segments": [
+    {
+      "id": "7356308",
+      "tileScore": 9,
+      "name": "Jinhai rd bridge ",
+      "distanceM": 449,
+      "avgGrade": 0.48997774720191956,
+      "startLat": 31.276512145996094,
+      "startLng": 121.69523620605469
+    },
+    {
+      "id": "41037895",
+      "tileScore": 49,
+      "name": "缓和一下气氛",
+      "distanceM": 3000.699951171875,
+      "avgGrade": 0.0666511133313179,
+      "startLat": 31.264598846435547,
+      "startLng": 121.71259307861328
+    },
+    {
+      "id": "36838080",
+      "tileScore": 33,
+      "name": "凌空北路绕圈",
+      "distanceM": 4714.5,
+      "avgGrade": -0.0042422316037118435,
+      "startLat": 31.281347274780273,
+      "startLng": 121.67859649658203
+    },
+    {
+      "id": "16695526",
+      "tileScore": 7,
+      "name": "to the sea",
+      "distanceM": 30088.599609375,
+      "avgGrade": 0.015952887013554573,
+      "startLat": 31.223649978637695,
+      "startLng": 121.50944519042969
+    },
+    {
+      "id": "32619340",
+      "tileScore": 2,
+      "name": "Road to Salvation",
+      "distanceM": 7085.7001953125,
+      "avgGrade": 0.005645172670483589,
+      "startLat": 31.26627540588379,
+      "startLng": 121.63288116455078
+    },
+    {
+      "id": "34803845",
+      "tileScore": 19,
+      "name": "东川公路（金海路-锦绣东路）",
+      "distanceM": 1599.4000244140625,
+      "avgGrade": -0.050018757581710815,
+      "startLat": 31.275449752807617,
+      "startLng": 121.69318389892578
+    },
+    {
+      "id": "13027871",
+      "tileScore": 6,
+      "name": "Longdong LegStretcher",
+      "distanceM": 2458.5,
+      "avgGrade": 0.17897091805934906,
+      "startLat": 31.244020462036133,
+      "startLng": 121.71172332763672
+    },
+    {
+      "id": "30428937",
+      "tileScore": 5,
+      "name": "东川公路（东靖路-金海路）",
+      "distanceM": 2738,
+      "avgGrade": 0.014609202742576599,
+      "startLat": 31.29694366455078,
+      "startLng": 121.67613220214844
+    },
+    {
+      "id": "34196362",
+      "tileScore": 2,
+      "name": "曹路-华夏路",
+      "distanceM": 9342.7998046875,
+      "avgGrade": 0.019266173243522644,
+      "startLat": 31.284818649291992,
+      "startLng": 121.67583465576172
+    },
+    {
+      "id": "34648916",
+      "tileScore": 71,
+      "name": "锦绣东路最后一桥",
+      "distanceM": 970.7999877929688,
+      "avgGrade": -0.020601565018296242,
+      "startLat": 31.261783599853516,
+      "startLng": 121.70132446289062
+    },
+    {
+      "id": "41265636",
+      "tileScore": 79,
+      "name": "E Jinxiu Rd till the end",
+      "distanceM": 2914.800048828125,
+      "avgGrade": -0.1509537547826767,
+      "startLat": 31.25436019897461,
+      "startLng": 121.67961883544922
+    },
+    {
+      "id": "35882217",
+      "tileScore": 1,
+      "name": "(˶‾᷄ꈊ‾᷅˵)  谁也别想休闲   ᶘ ᵒᴥᵒᶅ",
+      "distanceM": 28237,
+      "avgGrade": 0.039664268493652344,
+      "startLat": 31.272661209106445,
+      "startLng": 121.62120056152344
+    },
+    {
+      "id": "5402929",
+      "tileScore": 44,
+      "name": "Canal Sprint - MTB's only",
+      "distanceM": 1331.5999755859375,
+      "avgGrade": 0.5331931710243225,
+      "startLat": 31.258943557739258,
+      "startLng": 121.7277603149414
+    },
+    {
+      "id": "36742918",
+      "tileScore": 79,
+      "name": "Wed morning rock -2",
+      "distanceM": 969.7000122070312,
+      "avgGrade": 0.020624935626983643,
+      "startLat": 31.2784366607666,
+      "startLng": 121.71145629882812
+    },
+    {
+      "id": "9613248",
+      "tileScore": 17,
+      "name": "North Bafana Dash",
+      "distanceM": 2633.89990234375,
+      "avgGrade": -0.03416986018419266,
+      "startLat": 31.2653751373291,
+      "startLng": 121.72134399414062
+    },
+    {
+      "id": "41273309",
+      "tileScore": 25,
+      "name": "人民塘路北段",
+      "distanceM": 10043.099609375,
+      "avgGrade": -0.01593133620917797,
+      "startLat": 31.27474021911621,
+      "startLng": 121.71453857421875
+    },
+    {
+      "id": "35733976",
+      "tileScore": 3,
+      "name": "(ง ˙o˙)ว  此处仿佛有个桥",
+      "distanceM": 799.7000122070312,
+      "avgGrade": -0.12504689395427704,
+      "startLat": 31.257247924804688,
+      "startLng": 121.69284057617188
+    },
+    {
+      "id": "6844609",
+      "tileScore": 10,
+      "name": "SiSu Sunday Canal Sprint",
+      "distanceM": 3010.60009765625,
+      "avgGrade": 0,
+      "startLat": 31.25164222717285,
+      "startLng": 121.68760681152344
+    },
+    {
+      "id": "41473969",
+      "tileScore": 50,
+      "name": "Let's catch the Professor in the jungle",
+      "distanceM": 1323.5,
+      "avgGrade": 0,
+      "startLat": 31.252685546875,
+      "startLng": 121.7322998046875
+    },
+    {
+      "id": "39512339",
+      "tileScore": 27,
+      "name": "Haitanger Rd",
+      "distanceM": 1376.5999755859375,
+      "avgGrade": 0.058114197105169296,
+      "startLat": 31.26152992248535,
+      "startLng": 121.7341079711914
+    },
+    {
+      "id": "40990361",
+      "tileScore": 85,
+      "name": "NBCC Back",
+      "distanceM": 5351.39990234375,
+      "avgGrade": 0.14949358999729156,
+      "startLat": 31.25813865661621,
+      "startLng": 121.6934814453125
+    }
+  ]
+}

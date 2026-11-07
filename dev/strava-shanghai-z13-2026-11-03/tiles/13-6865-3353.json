@@ -1,0 +1,119 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-03T06:10:38.612Z",
+  "tile": {
+    "z": 13,
+    "x": 6865,
+    "y": 3353
+  },
+  "segments": [
+    {
+      "id": "30450614",
+      "tileScore": 24,
+      "name": "“海王杯”第二赛段",
+      "distanceM": 21629.400390625,
+      "avgGrade": 0.0527060404419899,
+      "startLat": 30.94480323791504,
+      "startLng": 121.8846435546875
+    },
+    {
+      "id": "39074343",
+      "tileScore": 20,
+      "name": "大叶公路 瓦洪to六奉",
+      "distanceM": 3544.800048828125,
+      "avgGrade": 0.03385240212082863,
+      "startLat": 30.986356735229492,
+      "startLng": 121.65930938720703
+    },
+    {
+      "id": "28359417",
+      "tileScore": 70,
+      "name": "Canals Straight ",
+      "distanceM": 17928.80078125,
+      "avgGrade": 0.012270759791135788,
+      "startLat": 31.01532554626465,
+      "startLng": 121.65323638916016
+    },
+    {
+      "id": "20305708",
+      "tileScore": 4,
+      "name": "大叶公路（六奉-沪杭）",
+      "distanceM": 25125.5,
+      "avgGrade": 0.023084117099642754,
+      "startLat": 30.988019943237305,
+      "startLng": 121.69689178466797
+    },
+    {
+      "id": "42079725",
+      "tileScore": 3,
+      "name": "Markus Bruengger (R.I.P. | G.O.A.T.) Memory Ride",
+      "distanceM": 64397.30078125,
+      "avgGrade": -0.006522012874484062,
+      "startLat": 31.224090576171875,
+      "startLng": 121.55386352539062
+    },
+    {
+      "id": "41782028",
+      "tileScore": 5,
+      "name": "liufeng dazhi bridge",
+      "distanceM": 1171.300048828125,
+      "avgGrade": 0.10245026648044586,
+      "startLat": 31.007587432861328,
+      "startLng": 121.69615173339844
+    },
+    {
+      "id": "38041679",
+      "tileScore": 29,
+      "name": "汇骏冲向大叶",
+      "distanceM": 1308.4000244140625,
+      "avgGrade": 0.015285845845937729,
+      "startLat": 31.000152587890625,
+      "startLng": 121.69591522216797
+    },
+    {
+      "id": "35222756",
+      "tileScore": 66,
+      "name": "新路线",
+      "distanceM": 6031.7998046875,
+      "avgGrade": 0.006631519645452499,
+      "startLat": 31.000469207763672,
+      "startLng": 121.69573211669922
+    },
+    {
+      "id": "39029483",
+      "tileScore": 15,
+      "name": "下个路口转弯，火柴划完",
+      "distanceM": 1118,
+      "avgGrade": 0.07155634462833405,
+      "startLat": 30.98846435546875,
+      "startLng": 121.70964813232422
+    },
+    {
+      "id": "39074305",
+      "tileScore": 21,
+      "name": "六团公路 N to S",
+      "distanceM": 6031.2001953125,
+      "avgGrade": -0.033160895109176636,
+      "startLat": 30.98724937438965,
+      "startLng": 121.69730377197266
+    },
+    {
+      "id": "15300421",
+      "tileScore": 8,
+      "name": "到未来的路很平安--向北",
+      "distanceM": 5143.5,
+      "avgGrade": 0.03499562293291092,
+      "startLat": 30.989105224609375,
+      "startLng": 121.69731903076172
+    },
+    {
+      "id": "36806896",
+      "tileScore": 61,
+      "name": "DaZhi River - ChuanNanFeng to ShenJiang - West bound",
+      "distanceM": 11378.7001953125,
+      "avgGrade": 0.010546020232141018,
+      "startLat": 31.011137008666992,
+      "startLng": 121.76981353759766
+    }
+  ]
+}

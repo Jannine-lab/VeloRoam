@@ -1,0 +1,20 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-03T06:03:13.312Z",
+  "tile": {
+    "z": 13,
+    "x": 6862,
+    "y": 3339
+  },
+  "segments": [
+    {
+      "id": "39097330",
+      "tileScore": 13,
+      "name": "反穿崇明环岛景观道(堡镇码头-新河码头)",
+      "distanceM": 12352,
+      "avgGrade": 0,
+      "startLat": 31.531965255737305,
+      "startLng": 121.60026550292969
+    }
+  ]
+}

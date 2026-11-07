@@ -1,0 +1,209 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-03T06:04:58.252Z",
+  "tile": {
+    "z": 13,
+    "x": 6860,
+    "y": 3344
+  },
+  "segments": [
+    {
+      "id": "40373408",
+      "tileScore": 27,
+      "name": "淞湾路鲁贝",
+      "distanceM": 588.0999755859375,
+      "avgGrade": -0.06801564246416092,
+      "startLat": 31.346900939941406,
+      "startLng": 121.50462341308594
+    },
+    {
+      "id": "27311829",
+      "tileScore": 1,
+      "name": "Free road after the train left away",
+      "distanceM": 578.2999877929688,
+      "avgGrade": -0.13833649456501007,
+      "startLat": 31.322893142700195,
+      "startLng": 121.47032165527344
+    },
+    {
+      "id": "10811962",
+      "tileScore": 11,
+      "name": "何家湾路-军工路",
+      "distanceM": 1649.800048828125,
+      "avgGrade": -0.10304279625415802,
+      "startLat": 31.333328247070312,
+      "startLng": 121.48723602294922
+    },
+    {
+      "id": "10323095",
+      "tileScore": 26,
+      "name": "新江湾城",
+      "distanceM": 6300.39990234375,
+      "avgGrade": 0,
+      "startLat": 31.32363510131836,
+      "startLng": 121.50225067138672
+    },
+    {
+      "id": "35052209",
+      "tileScore": 15,
+      "name": "一股“清”流",
+      "distanceM": 1266,
+      "avgGrade": -0.03159557655453682,
+      "startLat": 31.315805435180664,
+      "startLng": 121.49351501464844
+    },
+    {
+      "id": "27311736",
+      "tileScore": 15,
+      "name": "Baoshan Yangpu District Boundary",
+      "distanceM": 811.2999877929688,
+      "avgGrade": -0.24651794135570526,
+      "startLat": 31.322633743286133,
+      "startLng": 121.49046325683594
+    },
+    {
+      "id": "37059510",
+      "tileScore": 6,
+      "name": "上钢一厂",
+      "distanceM": 2611.5,
+      "avgGrade": 0.0689259022474289,
+      "startLat": 31.34593391418457,
+      "startLng": 121.46947479248047
+    },
+    {
+      "id": "13109980",
+      "tileScore": 19,
+      "name": "Jiangwan 30km small loop",
+      "distanceM": 30326.80078125,
+      "avgGrade": -0.0006594827282242477,
+      "startLat": 31.324871063232422,
+      "startLng": 121.50822448730469
+    },
+    {
+      "id": "37450943",
+      "tileScore": 29,
+      "name": "各位别太快",
+      "distanceM": 519.9000244140625,
+      "avgGrade": 0,
+      "startLat": 31.333206176757812,
+      "startLng": 121.50101470947266
+    },
+    {
+      "id": "15691269",
+      "tileScore": 10,
+      "name": "JunGong#1",
+      "distanceM": 2626,
+      "avgGrade": 0.08377761393785477,
+      "startLat": 31.351533889770508,
+      "startLng": 121.49885559082031
+    },
+    {
+      "id": "32724531",
+      "tileScore": 2,
+      "name": "乌漆嘛黑",
+      "distanceM": 24503.5,
+      "avgGrade": 0.026118718087673187,
+      "startLat": 31.306806564331055,
+      "startLng": 121.4298324584961
+    },
+    {
+      "id": "35881858",
+      "tileScore": 13,
+      "name": "East Side of Fudan Jiangwan Campus",
+      "distanceM": 1357.4000244140625,
+      "avgGrade": 0.04420214891433716,
+      "startLat": 31.34173583984375,
+      "startLng": 121.50872039794922
+    },
+    {
+      "id": "37112209",
+      "tileScore": 28,
+      "name": "CDCC JW700",
+      "distanceM": 4741,
+      "avgGrade": -0.0590592697262764,
+      "startLat": 31.332212448120117,
+      "startLng": 121.49347686767578
+    },
+    {
+      "id": "19735272",
+      "tileScore": 7,
+      "name": "殷高路小圈",
+      "distanceM": 1054,
+      "avgGrade": 0.06641366332769394,
+      "startLat": 31.32367515563965,
+      "startLng": 121.49313354492188
+    },
+    {
+      "id": "35052181",
+      "tileScore": 97,
+      "name": "两股“清”流",
+      "distanceM": 1113.300048828125,
+      "avgGrade": 0.03592922165989876,
+      "startLat": 31.32004737854004,
+      "startLng": 121.49372100830078
+    },
+    {
+      "id": "35067026",
+      "tileScore": 1,
+      "name": "Bridge2Railway",
+      "distanceM": 531.2999877929688,
+      "avgGrade": -0.18821758031845093,
+      "startLat": 31.330974578857422,
+      "startLng": 121.49224090576172
+    },
+    {
+      "id": "13390319",
+      "tileScore": 5,
+      "name": "GuoFan 600m",
+      "distanceM": 619.7999877929688,
+      "avgGrade": -0.5162955522537231,
+      "startLat": 31.34493637084961,
+      "startLng": 121.50236511230469
+    },
+    {
+      "id": "36812197",
+      "tileScore": 17,
+      "name": "PUSH！归家榨干的最后一弯！",
+      "distanceM": 1198.9000244140625,
+      "avgGrade": 0.016681959852576256,
+      "startLat": 31.323360443115234,
+      "startLng": 121.47089385986328
+    },
+    {
+      "id": "37460189",
+      "tileScore": 5,
+      "name": "Railway WatchOut YinGao2HeJiaWan ",
+      "distanceM": 1228.9000244140625,
+      "avgGrade": 0.09764830768108368,
+      "startLat": 31.322961807250977,
+      "startLng": 121.48102569580078
+    },
+    {
+      "id": "13347146",
+      "tileScore": 10,
+      "name": "Songhu 1.4km",
+      "distanceM": 1401.699951171875,
+      "avgGrade": 0.04280516505241394,
+      "startLat": 31.322193145751953,
+      "startLng": 121.50200653076172
+    },
+    {
+      "id": "37966915",
+      "tileScore": 3,
+      "name": "128&New2 Loop",
+      "distanceM": 3364.5,
+      "avgGrade": -0.005944419652223587,
+      "startLat": 31.336345672607422,
+      "startLng": 121.4796142578125
+    },
+    {
+      "id": "31376038",
+      "tileScore": 7,
+      "name": "Jiangwan Town Rd N1",
+      "distanceM": 2564.199951171875,
+      "avgGrade": -0.0467982217669487,
+      "startLat": 31.342082977294922,
+      "startLng": 121.51815795898438
+    }
+  ]
+}

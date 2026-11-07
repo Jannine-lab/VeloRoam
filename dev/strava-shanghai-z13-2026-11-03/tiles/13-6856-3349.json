@@ -1,0 +1,236 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-03T05:35:42.086Z",
+  "tile": {
+    "z": 13,
+    "x": 6856,
+    "y": 3349
+  },
+  "segments": [
+    {
+      "id": "30564351",
+      "tileScore": 1,
+      "name": "FMG-04",
+      "distanceM": 3974.39990234375,
+      "avgGrade": 0.04528985545039177,
+      "startLat": 31.146352767944336,
+      "startLng": 121.2832260131836
+    },
+    {
+      "id": "18703013",
+      "tileScore": 25,
+      "name": "Gaojing northward bound",
+      "distanceM": 1656.0999755859375,
+      "avgGrade": -0.06038282811641693,
+      "startLat": 31.159481048583984,
+      "startLng": 121.29615783691406
+    },
+    {
+      "id": "27955023",
+      "tileScore": 3,
+      "name": "BTP-0073",
+      "distanceM": 3683,
+      "avgGrade": 0,
+      "startLat": 31.139989852905273,
+      "startLng": 121.30886840820312
+    },
+    {
+      "id": "7875470",
+      "tileScore": 17,
+      "name": "Husong Hwy x Dianpu River Bridge (Westbound)",
+      "distanceM": 505.70001220703125,
+      "avgGrade": 0.059323713183403015,
+      "startLat": 31.1326847076416,
+      "startLng": 121.2977523803711
+    },
+    {
+      "id": "30768098",
+      "tileScore": 15,
+      "name": "JR003",
+      "distanceM": 18046.900390625,
+      "avgGrade": -0.008865788578987122,
+      "startLat": 31.157154083251953,
+      "startLng": 121.29386901855469
+    },
+    {
+      "id": "36894166",
+      "tileScore": 19,
+      "name": "ER - Babies Arm",
+      "distanceM": 56876.1015625,
+      "avgGrade": 0,
+      "startLat": 31.179828643798828,
+      "startLng": 121.28097534179688
+    },
+    {
+      "id": "19942490",
+      "tileScore": 5,
+      "name": "laiting lu (northbound)",
+      "distanceM": 4957.5,
+      "avgGrade": 0.03227433189749718,
+      "startLat": 31.12452507019043,
+      "startLng": 121.33883666992188
+    },
+    {
+      "id": "33090424",
+      "tileScore": 4,
+      "name": "诸光转盈港",
+      "distanceM": 2514.300048828125,
+      "avgGrade": -0.031818002462387085,
+      "startLat": 31.16530990600586,
+      "startLng": 121.3115234375
+    },
+    {
+      "id": "6049177",
+      "tileScore": 165,
+      "name": "Chicken sprint",
+      "distanceM": 913.7000122070312,
+      "avgGrade": 0.262668251991272,
+      "startLat": 31.15492057800293,
+      "startLng": 121.28215026855469
+    },
+    {
+      "id": "26887116",
+      "tileScore": 1050,
+      "name": "French High School Segment",
+      "distanceM": 4364.89990234375,
+      "avgGrade": 0.05956608057022095,
+      "startLat": 31.151939392089844,
+      "startLng": 121.26395416259766
+    },
+    {
+      "id": "42345837",
+      "tileScore": 23,
+      "name": "6哥带你刷两山",
+      "distanceM": 52786.69921875,
+      "avgGrade": -0.002652183175086975,
+      "startLat": 31.17475128173828,
+      "startLng": 121.30008697509766
+    },
+    {
+      "id": "8677287",
+      "tileScore": 4,
+      "name": "Laifang Rd x G15 Shenhai Expy Overpass (Westbound)",
+      "distanceM": 421.70001220703125,
+      "avgGrade": 0.18970832228660583,
+      "startLat": 31.14816665649414,
+      "startLng": 121.29399108886719
+    },
+    {
+      "id": "37701039",
+      "tileScore": 23,
+      "name": "SP's Sneaky Dogleg",
+      "distanceM": 611.4000244140625,
+      "avgGrade": -0.032711807638406754,
+      "startLat": 31.167804718017578,
+      "startLng": 121.30912017822266
+    },
+    {
+      "id": "21479104",
+      "tileScore": 7,
+      "name": "Up and Over",
+      "distanceM": 1542.5999755859375,
+      "avgGrade": -0.11668611317873001,
+      "startLat": 31.137462615966797,
+      "startLng": 121.3084716796875
+    },
+    {
+      "id": "7867275",
+      "tileScore": 4,
+      "name": "Husong Hwy x G15 Shenhai Expy Overpass (Eastbound)",
+      "distanceM": 588.0999755859375,
+      "avgGrade": -0.22105082869529724,
+      "startLat": 31.13351821899414,
+      "startLng": 121.29875946044922
+    },
+    {
+      "id": "7139077",
+      "tileScore": 1,
+      "name": "Jiuting St (Eastbound)",
+      "distanceM": 3729.10009765625,
+      "avgGrade": 0.06167708337306976,
+      "startLat": 31.130901336669922,
+      "startLng": 121.30065155029297
+    },
+    {
+      "id": "36112090",
+      "tileScore": 55,
+      "name": "Tulips Sams",
+      "distanceM": 46121.80078125,
+      "avgGrade": 0.004336344078183174,
+      "startLat": 31.19768524169922,
+      "startLng": 121.41617584228516
+    },
+    {
+      "id": "6180756",
+      "tileScore": 3,
+      "name": "Jiudu Rd x G50 Huyu Expy Bridge (Northbound)",
+      "distanceM": 496.6000061035156,
+      "avgGrade": -0.20136931538581848,
+      "startLat": 31.155685424804688,
+      "startLng": 121.29871368408203
+    },
+    {
+      "id": "33232696",
+      "tileScore": 10,
+      "name": "香榧王镜神300瓦通勤",
+      "distanceM": 1712.199951171875,
+      "avgGrade": 0.011680878698825836,
+      "startLat": 31.152799606323242,
+      "startLng": 121.33517456054688
+    },
+    {
+      "id": "37099811",
+      "tileScore": 17,
+      "name": "涞寅路桥东",
+      "distanceM": 547.9000244140625,
+      "avgGrade": 1.4236174821853638,
+      "startLat": 31.139179229736328,
+      "startLng": 121.29239654541016
+    },
+    {
+      "id": "6092412",
+      "tileScore": 10,
+      "name": "Husong Hwy x Jiamin Elevated Rd Tunnel Blast (Eastbound)",
+      "distanceM": 321.70001220703125,
+      "avgGrade": 0.4973577857017517,
+      "startLat": 31.148696899414062,
+      "startLng": 121.3290023803711
+    },
+    {
+      "id": "30564546",
+      "tileScore": 3,
+      "name": "FMG-23",
+      "distanceM": 35947.6015625,
+      "avgGrade": 0.02837463468313217,
+      "startLat": 31.019447326660156,
+      "startLng": 121.3215560913086
+    },
+    {
+      "id": "35043908",
+      "tileScore": 5,
+      "name": "七宝-吴中大拐弯",
+      "distanceM": 3699.10009765625,
+      "avgGrade": -0.054067205637693405,
+      "startLat": 31.164091110229492,
+      "startLng": 121.3252944946289
+    },
+    {
+      "id": "27955036",
+      "tileScore": 3,
+      "name": "BTP-0077",
+      "distanceM": 2442.300048828125,
+      "avgGrade": 0.14740204811096191,
+      "startLat": 31.11933135986328,
+      "startLng": 121.28072357177734
+    },
+    {
+      "id": "6170928",
+      "tileScore": 23,
+      "name": "Gaoguang Rd (Westbound)",
+      "distanceM": 1508.5,
+      "avgGrade": -0.02651640772819519,
+      "startLat": 31.166366577148438,
+      "startLng": 121.31002044677734
+    }
+  ]
+}

@@ -1,0 +1,65 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-03T06:11:07.447Z",
+  "tile": {
+    "z": 13,
+    "x": 6860,
+    "y": 3355
+  },
+  "segments": [
+    {
+      "id": "34196221",
+      "tileScore": 3,
+      "name": "航南公路跨S4高速桥",
+      "distanceM": 886.2000122070312,
+      "avgGrade": 0,
+      "startLat": 30.934673309326172,
+      "startLng": 121.47745513916016
+    },
+    {
+      "id": "14202125",
+      "tileScore": 1,
+      "name": "Jinqian Hwy Southbound ",
+      "distanceM": 9644.2998046875,
+      "avgGrade": -0.006221291609108448,
+      "startLat": 30.979511260986328,
+      "startLng": 121.49703979492188
+    },
+    {
+      "id": "40236759",
+      "tileScore": 5,
+      "name": "吴泾奉贤",
+      "distanceM": 47205,
+      "avgGrade": -0.04702891781926155,
+      "startLat": 31.037860870361328,
+      "startLng": 121.44114685058594
+    },
+    {
+      "id": "38955635",
+      "tileScore": 42,
+      "name": "金海高速桥",
+      "distanceM": 583,
+      "avgGrade": 0.13722126185894012,
+      "startLat": 30.911996841430664,
+      "startLng": 121.49254608154297
+    },
+    {
+      "id": "24111298",
+      "tileScore": 20,
+      "name": "上海之鱼",
+      "distanceM": 4195.2001953125,
+      "avgGrade": -0.014302059076726437,
+      "startLat": 30.935400009155273,
+      "startLng": 121.48931121826172
+    },
+    {
+      "id": "37793065",
+      "tileScore": 7,
+      "name": "回家冲冲冲",
+      "distanceM": 517.5,
+      "avgGrade": -0.3478260934352875,
+      "startLat": 30.921228408813477,
+      "startLng": 121.49127960205078
+    }
+  ]
+}

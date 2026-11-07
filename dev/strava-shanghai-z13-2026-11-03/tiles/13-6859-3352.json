@@ -1,0 +1,218 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-03T06:09:21.092Z",
+  "tile": {
+    "z": 13,
+    "x": 6859,
+    "y": 3352
+  },
+  "segments": [
+    {
+      "id": "29363565",
+      "tileScore": 2,
+      "name": "莲花南路TT",
+      "distanceM": 8960,
+      "avgGrade": -0.0033482140861451626,
+      "startLat": 31.026090621948242,
+      "startLng": 121.44632720947266
+    },
+    {
+      "id": "24822587",
+      "tileScore": 3,
+      "name": "Welcome to SJTU!",
+      "distanceM": 341.70001220703125,
+      "avgGrade": -6.145741939544678,
+      "startLat": 31.019393920898438,
+      "startLng": 121.4264907836914
+    },
+    {
+      "id": "7121523",
+      "tileScore": 8,
+      "name": "Jiaotong University - Nanyang East Rd (Northbound)",
+      "distanceM": 1116.4000244140625,
+      "avgGrade": -0.16123253107070923,
+      "startLat": 31.026193618774414,
+      "startLng": 121.44390106201172
+    },
+    {
+      "id": "11774573",
+      "tileScore": 18,
+      "name": "Hongmei Nan Lu, northbound",
+      "distanceM": 8066.2001953125,
+      "avgGrade": 0.022315340116620064,
+      "startLat": 31.04073715209961,
+      "startLng": 121.45146942138672
+    },
+    {
+      "id": "34429895",
+      "tileScore": 5,
+      "name": "兰香湖 001",
+      "distanceM": 1209.5,
+      "avgGrade": 0.049607276916503906,
+      "startLat": 31.038911819458008,
+      "startLng": 121.45172882080078
+    },
+    {
+      "id": "41427677",
+      "tileScore": 130,
+      "name": "紫竹南大圈",
+      "distanceM": 3836,
+      "avgGrade": -0.005213764030486345,
+      "startLat": 31.017629623413086,
+      "startLng": 121.46095275878906
+    },
+    {
+      "id": "36504474",
+      "tileScore": 22,
+      "name": "小火车发车喽",
+      "distanceM": 1384.699951171875,
+      "avgGrade": -0.014443561434745789,
+      "startLat": 31.0145206451416,
+      "startLng": 121.4352798461914
+    },
+    {
+      "id": "40236759",
+      "tileScore": 5,
+      "name": "吴泾奉贤",
+      "distanceM": 47205,
+      "avgGrade": -0.04702891781926155,
+      "startLat": 31.037860870361328,
+      "startLng": 121.44114685058594
+    },
+    {
+      "id": "30191717",
+      "tileScore": 3,
+      "name": "华师隧道",
+      "distanceM": 300.1000061035156,
+      "avgGrade": -0.06664445251226425,
+      "startLat": 31.03542137145996,
+      "startLng": 121.44852447509766
+    },
+    {
+      "id": "28185417",
+      "tileScore": 11,
+      "name": "环兰香湖",
+      "distanceM": 3438.300048828125,
+      "avgGrade": 0,
+      "startLat": 31.0279598236084,
+      "startLng": 121.4651870727539
+    },
+    {
+      "id": "36928985",
+      "tileScore": 7,
+      "name": "紫竹 099 Ferry",
+      "distanceM": 1016,
+      "avgGrade": 0.09842519462108612,
+      "startLat": 31.04438018798828,
+      "startLng": 121.4644546508789
+    },
+    {
+      "id": "11994086",
+      "tileScore": 3,
+      "name": "Dongchuan Rd (Eastbound)",
+      "distanceM": 12666.7001953125,
+      "avgGrade": 0.009473659098148346,
+      "startLat": 30.99555778503418,
+      "startLng": 121.34071350097656
+    },
+    {
+      "id": "7121533",
+      "tileScore": 7,
+      "name": "Jiaotong University - Nanyang North Rd (Westbound)",
+      "distanceM": 1476.5999755859375,
+      "avgGrade": 0.027089260518550873,
+      "startLat": 31.03281021118164,
+      "startLng": 121.43711853027344
+    },
+    {
+      "id": "21036682",
+      "tileScore": 7,
+      "name": "Minpu Tues - Park to LP with extension",
+      "distanceM": 56914,
+      "avgGrade": -0.006325332447886467,
+      "startLat": 31.213491439819336,
+      "startLng": 121.46663665771484
+    },
+    {
+      "id": "19217014",
+      "tileScore": 2,
+      "name": "Minpu Daqiao - without GPS drift",
+      "distanceM": 1040.199951171875,
+      "avgGrade": 4.133820533752441,
+      "startLat": 31.051713943481445,
+      "startLng": 121.4635238647461
+    },
+    {
+      "id": "37837625",
+      "tileScore": 15,
+      "name": "紫竹迷你圈",
+      "distanceM": 1270.5999755859375,
+      "avgGrade": -0.015740595757961273,
+      "startLat": 31.015064239501953,
+      "startLng": 121.4438247680664
+    },
+    {
+      "id": "27998911",
+      "tileScore": 66,
+      "name": "紫叶广场",
+      "distanceM": 1597.5,
+      "avgGrade": 0.025039123371243477,
+      "startLat": 31.021276473999023,
+      "startLng": 121.45901489257812
+    },
+    {
+      "id": "31212788",
+      "tileScore": 5,
+      "name": "环华师校内",
+      "distanceM": 2465.39990234375,
+      "avgGrade": -0.00811227411031723,
+      "startLat": 31.033615112304688,
+      "startLng": 121.45012664794922
+    },
+    {
+      "id": "17802047",
+      "tileScore": 3,
+      "name": "星月中圈",
+      "distanceM": 3467.89990234375,
+      "avgGrade": -45.07050323486328,
+      "startLat": 31.018104553222656,
+      "startLng": 121.43960571289062
+    },
+    {
+      "id": "31736449",
+      "tileScore": 4,
+      "name": "光体绕圈",
+      "distanceM": 896.7999877929688,
+      "avgGrade": 0,
+      "startLat": 31.020418167114258,
+      "startLng": 121.42487335205078
+    },
+    {
+      "id": "17224543",
+      "tileScore": 4,
+      "name": "东川路TT east to west",
+      "distanceM": 1393.300048828125,
+      "avgGrade": -0.05741764232516289,
+      "startLat": 31.025671005249023,
+      "startLng": 121.44588470458984
+    },
+    {
+      "id": "28651144",
+      "tileScore": 3,
+      "name": "ZhangJiaLi out",
+      "distanceM": 701.5,
+      "avgGrade": 0,
+      "startLat": 31.0361385345459,
+      "startLng": 121.43334197998047
+    },
+    {
+      "id": "35270563",
+      "tileScore": 6,
+      "name": "双溪路绕圈(全程没有隔离带哦)",
+      "distanceM": 1199,
+      "avgGrade": 0,
+      "startLat": 31.04559898376465,
+      "startLng": 121.43862915039062
+    }
+  ]
+}

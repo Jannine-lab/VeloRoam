@@ -1,0 +1,92 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-03T06:02:51.783Z",
+  "tile": {
+    "z": 13,
+    "x": 6867,
+    "y": 3338
+  },
+  "segments": [
+    {
+      "id": "40104204",
+      "tileScore": 44,
+      "name": "river ride",
+      "distanceM": 4065.800048828125,
+      "avgGrade": 0.0024595404975116253,
+      "startLat": 31.558212280273438,
+      "startLng": 121.80950927734375
+    },
+    {
+      "id": "39126123",
+      "tileScore": 2,
+      "name": "草港公路(陈滧公路-汲浜公路)",
+      "distanceM": 1971.800048828125,
+      "avgGrade": 0.11664469540119171,
+      "startLat": 31.53583335876465,
+      "startLng": 121.78437042236328
+    },
+    {
+      "id": "39058430",
+      "tileScore": 12,
+      "name": "北沿公路(陈滧公路-北陈公路)",
+      "distanceM": 3926.199951171875,
+      "avgGrade": 0.0076409755274653435,
+      "startLat": 31.559892654418945,
+      "startLng": 121.80282592773438
+    },
+    {
+      "id": "40202849",
+      "tileScore": 25,
+      "name": "Watch people looking at me flying by",
+      "distanceM": 2593.39990234375,
+      "avgGrade": 0.030847536399960518,
+      "startLat": 31.557876586914062,
+      "startLng": 121.80844116210938
+    },
+    {
+      "id": "39058404",
+      "tileScore": 6,
+      "name": "北沿公路(六滧公路-汲浜公路)",
+      "distanceM": 2184.5,
+      "avgGrade": -0.059510186314582825,
+      "startLat": 31.579776763916016,
+      "startLng": 121.76470947265625
+    },
+    {
+      "id": "40962244",
+      "tileScore": 2,
+      "name": "Riverside Trail W-E",
+      "distanceM": 2798.199951171875,
+      "avgGrade": -0.07862196862697601,
+      "startLat": 31.58032989501953,
+      "startLng": 121.79353332519531
+    },
+    {
+      "id": "28005476",
+      "tileScore": 2,
+      "name": "20210411环崇明岛100公里组",
+      "distanceM": 97375,
+      "avgGrade": 0.006161745637655258,
+      "startLat": 31.4849796295166,
+      "startLng": 121.8353042602539
+    },
+    {
+      "id": "40144982",
+      "tileScore": 12,
+      "name": "Back to the origin",
+      "distanceM": 3730.89990234375,
+      "avgGrade": 0.05896700173616409,
+      "startLat": 31.596424102783203,
+      "startLng": 121.80479431152344
+    },
+    {
+      "id": "35699661",
+      "tileScore": 13,
+      "name": "北沿公路N2S",
+      "distanceM": 17494,
+      "avgGrade": 0.002286498202010989,
+      "startLat": 31.614511489868164,
+      "startLng": 121.67230987548828
+    }
+  ]
+}

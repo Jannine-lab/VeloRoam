@@ -1,0 +1,83 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-03T06:09:48.949Z",
+  "tile": {
+    "z": 13,
+    "x": 6857,
+    "y": 3354
+  },
+  "segments": [
+    {
+      "id": "41440051",
+      "tileScore": 93,
+      "name": "冲向叶榭镇",
+      "distanceM": 2550.39990234375,
+      "avgGrade": -0.007841907441616058,
+      "startLat": 30.954910278320312,
+      "startLng": 121.35580444335938
+    },
+    {
+      "id": "21956110",
+      "tileScore": 4,
+      "name": "Highway to the Danger Zone",
+      "distanceM": 6646.89990234375,
+      "avgGrade": 0.04513382166624069,
+      "startLat": 30.954044342041016,
+      "startLng": 121.36909484863281
+    },
+    {
+      "id": "40647315",
+      "tileScore": 2,
+      "name": "Fengxian South Canals",
+      "distanceM": 20461.400390625,
+      "avgGrade": 0.010751952417194843,
+      "startLat": 30.976587295532227,
+      "startLng": 121.3487319946289
+    },
+    {
+      "id": "30974305",
+      "tileScore": 1,
+      "name": "米市渡河畔TT 第二段",
+      "distanceM": 3771.10009765625,
+      "avgGrade": 0.026517460122704506,
+      "startLat": 30.96816062927246,
+      "startLng": 121.31678771972656
+    },
+    {
+      "id": "41243237",
+      "tileScore": 52,
+      "name": "金山速霸！",
+      "distanceM": 45272.6015625,
+      "avgGrade": -0.032690852880477905,
+      "startLat": 30.98211669921875,
+      "startLng": 121.37222290039062
+    },
+    {
+      "id": "40647330",
+      "tileScore": 9,
+      "name": "Xinlong Rd. Canal",
+      "distanceM": 2558,
+      "avgGrade": 0.015637215226888657,
+      "startLat": 30.97732162475586,
+      "startLng": 121.36068725585938
+    },
+    {
+      "id": "40286924",
+      "tileScore": 5,
+      "name": "大叶公路～泰青公路",
+      "distanceM": 29365.69921875,
+      "avgGrade": 0.015664534643292427,
+      "startLat": 30.942710876464844,
+      "startLng": 121.26114654541016
+    },
+    {
+      "id": "41861681",
+      "tileScore": 7,
+      "name": "DAYE/W-E甩开队友继续拉扯",
+      "distanceM": 2674.60009765625,
+      "avgGrade": -0.037388768047094345,
+      "startLat": 30.954137802124023,
+      "startLng": 121.35932922363281
+    }
+  ]
+}

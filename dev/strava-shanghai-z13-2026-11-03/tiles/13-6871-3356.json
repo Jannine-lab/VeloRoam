@@ -1,0 +1,110 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-03T06:10:53.347Z",
+  "tile": {
+    "z": 13,
+    "x": 6871,
+    "y": 3356
+  },
+  "segments": [
+    {
+      "id": "40079488",
+      "tileScore": 11,
+      "name": "环上海新城临港绕圈",
+      "distanceM": 10690.7998046875,
+      "avgGrade": 0,
+      "startLat": 30.88344955444336,
+      "startLng": 121.93659210205078
+    },
+    {
+      "id": "29375073",
+      "tileScore": 9,
+      "name": "临港赛段",
+      "distanceM": 60189.80078125,
+      "avgGrade": 0.005316515453159809,
+      "startLat": 30.911985397338867,
+      "startLng": 121.93582153320312
+    },
+    {
+      "id": "36709139",
+      "tileScore": 57,
+      "name": "滴水湖 001 Seaside",
+      "distanceM": 4478,
+      "avgGrade": 0.04019651561975479,
+      "startLat": 30.87714195251465,
+      "startLng": 121.95806121826172
+    },
+    {
+      "id": "38122398",
+      "tileScore": 67,
+      "name": "二路sprint alley",
+      "distanceM": 580.9000244140625,
+      "avgGrade": -0.06885866820812225,
+      "startLat": 30.899255752563477,
+      "startLng": 121.95526123046875
+    },
+    {
+      "id": "41535033",
+      "tileScore": 15,
+      "name": "Hill Sprint",
+      "distanceM": 672.4000244140625,
+      "avgGrade": 0.713860809803009,
+      "startLat": 30.881912231445312,
+      "startLng": 121.94949340820312
+    },
+    {
+      "id": "36709135",
+      "tileScore": 12,
+      "name": "滴水湖 003 Sprint",
+      "distanceM": 921.5,
+      "avgGrade": 0.06511122733354568,
+      "startLat": 30.89143180847168,
+      "startLng": 121.9601058959961
+    },
+    {
+      "id": "10759597",
+      "tileScore": 59,
+      "name": " sea wall e to west",
+      "distanceM": 12214.2998046875,
+      "avgGrade": 0.03111107461154461,
+      "startLat": 30.882774353027344,
+      "startLng": 121.96733093261719
+    },
+    {
+      "id": "37028426",
+      "tileScore": 13,
+      "name": "环湖三路",
+      "distanceM": 14374.900390625,
+      "avgGrade": 0.002782628173008561,
+      "startLat": 30.914714813232422,
+      "startLng": 121.92024230957031
+    },
+    {
+      "id": "10947488",
+      "tileScore": 110,
+      "name": "Clockwise Dishui Loop",
+      "distanceM": 8427,
+      "avgGrade": -0.014239942654967308,
+      "startLat": 30.89137840270996,
+      "startLng": 121.9266128540039
+    },
+    {
+      "id": "38053151",
+      "tileScore": 24,
+      "name": "双桥间歇拉扯小环道",
+      "distanceM": 4383.60009765625,
+      "avgGrade": -0.0045624603517353535,
+      "startLat": 30.887493133544922,
+      "startLng": 121.9372787475586
+    },
+    {
+      "id": "33843563",
+      "tileScore": 16,
+      "name": "二路逆时针无人区冲冲冲",
+      "distanceM": 4082.39990234375,
+      "avgGrade": 0.004899078980088234,
+      "startLat": 30.89447021484375,
+      "startLng": 121.95452117919922
+    }
+  ]
+}

@@ -1,0 +1,452 @@
+{
+  "mode": "apply",
+  "source": "/Users/jannine/Desktop/VeloRoam/dev/strava-map-tile-2026-11-03.json",
+  "tile": {
+    "z": 11,
+    "x": 1714,
+    "y": 837
+  },
+  "startedAt": "2026-11-03T05:23:53.510Z",
+  "finishedAt": "2026-11-03T05:27:31.050Z",
+  "sourceCount": 61,
+  "existingIds": [
+    "5099103",
+    "6049177",
+    "11388190",
+    "12006911",
+    "12057928",
+    "14031728",
+    "14799842",
+    "16400965",
+    "17888371",
+    "18950789",
+    "21762400",
+    "23156055",
+    "23685532",
+    "23869362",
+    "26887116"
+  ],
+  "missingIds": [
+    "15735849",
+    "22349388",
+    "24989686",
+    "35043908",
+    "35304245",
+    "21384969",
+    "30390315",
+    "34591064",
+    "36379800",
+    "40540572",
+    "18921938",
+    "12302059",
+    "35043761",
+    "19942490",
+    "40713481",
+    "7139077",
+    "32569054",
+    "27103510",
+    "36111952",
+    "29780287",
+    "27619482",
+    "36651288",
+    "30564546",
+    "41093492",
+    "14775003",
+    "40841378",
+    "22068484",
+    "14770507",
+    "15772069",
+    "35418098",
+    "7875470",
+    "12992218",
+    "37431019",
+    "8103030",
+    "30564374",
+    "7384300",
+    "40019920",
+    "7875513",
+    "40145172",
+    "7128365",
+    "27955036",
+    "36112090",
+    "29366937",
+    "23376686",
+    "11774573",
+    "40840877"
+  ],
+  "imported": [
+    {
+      "id": "15735849",
+      "name": "Hongxin Lu x Dianpu He bridge (Southbound)",
+      "stravaScore": 2,
+      "rawScore": 1.57,
+      "pointCount": 13
+    },
+    {
+      "id": "22349388",
+      "name": "上海体育场~中山西路sprint！",
+      "stravaScore": 24,
+      "rawScore": 1.64,
+      "pointCount": 12
+    },
+    {
+      "id": "24989686",
+      "name": "Wattage time !!!",
+      "stravaScore": 191,
+      "rawScore": 10.21,
+      "pointCount": 77
+    },
+    {
+      "id": "35043908",
+      "name": "七宝-吴中大拐弯",
+      "stravaScore": 5,
+      "rawScore": 7.4,
+      "pointCount": 57
+    },
+    {
+      "id": "35304245",
+      "name": "Wan Yuan Yu Xi Lap",
+      "stravaScore": 16,
+      "rawScore": 17.93,
+      "pointCount": 36
+    },
+    {
+      "id": "21384969",
+      "name": "Huajing Lu",
+      "stravaScore": 20,
+      "rawScore": 5.41,
+      "pointCount": 34
+    },
+    {
+      "id": "30390315",
+      "name": "BTP-S5",
+      "stravaScore": 9,
+      "rawScore": 15.96,
+      "pointCount": 140
+    },
+    {
+      "id": "34591064",
+      "name": "Temple Run",
+      "stravaScore": 23,
+      "rawScore": 1.05,
+      "pointCount": 10
+    },
+    {
+      "id": "36379800",
+      "name": "Sprint at 35 for the next green light",
+      "stravaScore": 26,
+      "rawScore": 3.14,
+      "pointCount": 30
+    },
+    {
+      "id": "40540572",
+      "name": "North Sanlin Ferry Loop 三林渡口北圈",
+      "stravaScore": 519,
+      "rawScore": 22.61,
+      "pointCount": 78
+    },
+    {
+      "id": "18921938",
+      "name": "Xinsong straight (wb)",
+      "stravaScore": 10,
+      "rawScore": 4.55,
+      "pointCount": 20
+    },
+    {
+      "id": "12302059",
+      "name": "Gubei Lu - Wuzhong Lu to Qinzhou Lu - southbound",
+      "stravaScore": 31,
+      "rawScore": 2.29,
+      "pointCount": 8
+    },
+    {
+      "id": "35043761",
+      "name": "南丹-虹桥（番禺大拐弯）",
+      "stravaScore": 16,
+      "rawScore": 3.35,
+      "pointCount": 40
+    },
+    {
+      "id": "19942490",
+      "name": "laiting lu (northbound)",
+      "stravaScore": 5,
+      "rawScore": 9.91,
+      "pointCount": 42
+    },
+    {
+      "id": "40713481",
+      "name": "J's LTA Extension",
+      "stravaScore": 366,
+      "rawScore": 21.11,
+      "pointCount": 58
+    },
+    {
+      "id": "7139077",
+      "name": "Jiuting St (Eastbound)",
+      "stravaScore": 1,
+      "rawScore": 7.76,
+      "pointCount": 189
+    },
+    {
+      "id": "32569054",
+      "name": "Caobao Hongxin",
+      "stravaScore": 11,
+      "rawScore": 1.92,
+      "pointCount": 9
+    },
+    {
+      "id": "27103510",
+      "name": "2nd Wattage Section",
+      "stravaScore": 61,
+      "rawScore": 4.82,
+      "pointCount": 27
+    },
+    {
+      "id": "36111952",
+      "name": "2023 HH Airport Loop",
+      "stravaScore": 72,
+      "rawScore": 65.77,
+      "pointCount": 519
+    },
+    {
+      "id": "29780287",
+      "name": "九新公路",
+      "stravaScore": 18,
+      "rawScore": 10.25,
+      "pointCount": 60
+    },
+    {
+      "id": "27619482",
+      "name": "Shooting Womp Rats in Beggar's Canyon",
+      "stravaScore": 11,
+      "rawScore": 2.36,
+      "pointCount": 6
+    },
+    {
+      "id": "36651288",
+      "name": "HQP Flyover to Outlets Full Gas",
+      "stravaScore": 113,
+      "rawScore": 20.13,
+      "pointCount": 71
+    },
+    {
+      "id": "30564546",
+      "name": "FMG-23",
+      "stravaScore": 3,
+      "rawScore": 71.9,
+      "pointCount": 517
+    },
+    {
+      "id": "41093492",
+      "name": "The Suckers Segment",
+      "stravaScore": 68,
+      "rawScore": 11,
+      "pointCount": 64
+    },
+    {
+      "id": "14775003",
+      "name": "Highway byway dash",
+      "stravaScore": 13,
+      "rawScore": 2.02,
+      "pointCount": 13
+    },
+    {
+      "id": "40841378",
+      "name": "Youle Rd to Huqingping Hwy",
+      "stravaScore": 58,
+      "rawScore": 3.52,
+      "pointCount": 37
+    },
+    {
+      "id": "22068484",
+      "name": "G318 上海-湖州",
+      "stravaScore": 8,
+      "rawScore": 266.34,
+      "pointCount": 1121
+    },
+    {
+      "id": "14770507",
+      "name": "Yaobei blast",
+      "stravaScore": 2,
+      "rawScore": 10.93,
+      "pointCount": 149
+    },
+    {
+      "id": "15772069",
+      "name": "神奇的绕圈地点",
+      "stravaScore": 21,
+      "rawScore": 23.4,
+      "pointCount": 32
+    },
+    {
+      "id": "35418098",
+      "name": "big shenlan loop",
+      "stravaScore": 80,
+      "rawScore": 36.34,
+      "pointCount": 221
+    },
+    {
+      "id": "7875470",
+      "name": "Husong Hwy x Dianpu River Bridge (Westbound)",
+      "stravaScore": 17,
+      "rawScore": 1.31,
+      "pointCount": 4
+    },
+    {
+      "id": "12992218",
+      "name": "Lianhua Lu/Humin Lu underpass (southbound)",
+      "stravaScore": 16,
+      "rawScore": 0.61,
+      "pointCount": 4
+    },
+    {
+      "id": "37431019",
+      "name": "Caobao 1k sprint to Guilin Park",
+      "stravaScore": 14,
+      "rawScore": 2.27,
+      "pointCount": 20
+    },
+    {
+      "id": "8103030",
+      "name": "Jinyu Lu",
+      "stravaScore": 6,
+      "rawScore": 3.18,
+      "pointCount": 77
+    },
+    {
+      "id": "30564374",
+      "name": "FMG-07",
+      "stravaScore": 21,
+      "rawScore": 5.87,
+      "pointCount": 35
+    },
+    {
+      "id": "7384300",
+      "name": "Laohumin Rd x Railway Underpass (Southbound)",
+      "stravaScore": 27,
+      "rawScore": 0.9,
+      "pointCount": 15
+    },
+    {
+      "id": "40019920",
+      "name": "Full gas to first \"L\" turn from Wensha",
+      "stravaScore": 37,
+      "rawScore": 31.21,
+      "pointCount": 161
+    },
+    {
+      "id": "7875513",
+      "name": "Caoxi Rd (Northbound)",
+      "stravaScore": 25,
+      "rawScore": 3.66,
+      "pointCount": 45
+    },
+    {
+      "id": "40145172",
+      "name": "Minghua Westbound",
+      "stravaScore": 39,
+      "rawScore": 7.21,
+      "pointCount": 44
+    },
+    {
+      "id": "7128365",
+      "name": "Longwu Rd Underpass (Northbound)",
+      "stravaScore": 25,
+      "rawScore": 0.99,
+      "pointCount": 17
+    },
+    {
+      "id": "27955036",
+      "name": "BTP-0077",
+      "stravaScore": 3,
+      "rawScore": 5.18,
+      "pointCount": 50
+    },
+    {
+      "id": "36112090",
+      "name": "Tulips Sams",
+      "stravaScore": 55,
+      "rawScore": 92.24,
+      "pointCount": 600
+    },
+    {
+      "id": "29366937",
+      "name": "昆阳路TT",
+      "stravaScore": 61,
+      "rawScore": 4.36,
+      "pointCount": 54
+    },
+    {
+      "id": "23376686",
+      "name": "长宁绿道南到北",
+      "stravaScore": 195,
+      "rawScore": 9.69,
+      "pointCount": 152
+    },
+    {
+      "id": "11774573",
+      "name": "Hongmei Nan Lu, northbound",
+      "stravaScore": 18,
+      "rawScore": 16.13,
+      "pointCount": 121
+    },
+    {
+      "id": "40840877",
+      "name": "星河湾小圈",
+      "stravaScore": 32,
+      "rawScore": 18.66,
+      "pointCount": 26
+    }
+  ],
+  "skippedConcurrent": [],
+  "failed": [],
+  "verifiedIds": [
+    "7128365",
+    "7139077",
+    "7384300",
+    "7875470",
+    "7875513",
+    "8103030",
+    "11774573",
+    "12302059",
+    "12992218",
+    "14770507",
+    "14775003",
+    "15735849",
+    "15772069",
+    "18921938",
+    "19942490",
+    "21384969",
+    "22068484",
+    "22349388",
+    "23376686",
+    "24989686",
+    "27103510",
+    "27619482",
+    "27955036",
+    "29366937",
+    "29780287",
+    "30390315",
+    "30564374",
+    "30564546",
+    "32569054",
+    "34591064",
+    "35043761",
+    "35043908",
+    "35304245",
+    "35418098",
+    "36111952",
+    "36112090",
+    "36379800",
+    "36651288",
+    "37431019",
+    "40019920",
+    "40145172",
+    "40540572",
+    "40713481",
+    "40840877",
+    "40841378",
+    "41093492"
+  ],
+  "stopped": false
+}

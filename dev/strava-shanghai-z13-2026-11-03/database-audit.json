@@ -1,0 +1,19 @@
+{
+  "checkedAt": "2026-11-03T06:20:17.979Z",
+  "discovered": 2553,
+  "initialExisting": 485,
+  "initialMissing": 2068,
+  "backfilledScores": 439,
+  "workerPid": 88024,
+  "workerAlive": true,
+  "workerStatus": "running",
+  "importedAtSnapshot": 18,
+  "importedVerified": 18,
+  "failedAtSnapshot": 0,
+  "presentInDatabaseAtCheck": 504,
+  "missingAtCheck": 2049,
+  "nullScoresInPresentRows": 0,
+  "scoreMismatches": 0,
+  "quotaWaits": 0,
+  "nextRequestAt": null
+}

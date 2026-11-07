@@ -1,0 +1,128 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-03T06:08:00.541Z",
+  "tile": {
+    "z": 13,
+    "x": 6852,
+    "y": 3349
+  },
+  "segments": [
+    {
+      "id": "37724746",
+      "tileScore": 8,
+      "name": "青浦快运",
+      "distanceM": 66769.3984375,
+      "avgGrade": -0.013179689645767212,
+      "startLat": 31.176237106323242,
+      "startLng": 121.27295684814453
+    },
+    {
+      "id": "22068484",
+      "tileScore": 8,
+      "name": "G318 上海-湖州",
+      "distanceM": 133169.203125,
+      "avgGrade": -0.002553143072873354,
+      "startLat": 31.17106056213379,
+      "startLng": 121.32220458984375
+    },
+    {
+      "id": "40911482",
+      "tileScore": 15,
+      "name": "青浦【淀浦河～嘉松中路】",
+      "distanceM": 6497,
+      "avgGrade": 0.05848852917551994,
+      "startLat": 31.15151023864746,
+      "startLng": 121.15534210205078
+    },
+    {
+      "id": "19707966",
+      "tileScore": 23,
+      "name": "huaying bride eastbound",
+      "distanceM": 629.5,
+      "avgGrade": 1.143764853477478,
+      "startLat": 31.162948608398438,
+      "startLng": 121.15325927734375
+    },
+    {
+      "id": "11489078",
+      "tileScore": 14,
+      "name": "Dianpu River Bridge (South-West Bound)",
+      "distanceM": 618.0999755859375,
+      "avgGrade": -0.258857786655426,
+      "startLat": 31.14737892150879,
+      "startLng": 121.14533233642578
+    },
+    {
+      "id": "30074986",
+      "tileScore": 24,
+      "name": "LG-07",
+      "distanceM": 4255.2001953125,
+      "avgGrade": 0.032900918275117874,
+      "startLat": 31.163185119628906,
+      "startLng": 121.13705444335938
+    },
+    {
+      "id": "30074980",
+      "tileScore": 15,
+      "name": "LG-06",
+      "distanceM": 4054.800048828125,
+      "avgGrade": -0.044391829520463943,
+      "startLat": 31.162960052490234,
+      "startLng": 121.1835708618164
+    },
+    {
+      "id": "24845912",
+      "tileScore": 21,
+      "name": "李琦晟自行车劝退一疗程",
+      "distanceM": 20250,
+      "avgGrade": -0.008888889104127884,
+      "startLat": 31.15504264831543,
+      "startLng": 121.23126220703125
+    },
+    {
+      "id": "38897849",
+      "tileScore": 1,
+      "name": "公制世纪 - KOM",
+      "distanceM": 101772.296875,
+      "avgGrade": -0.0031442742329090834,
+      "startLat": 31.17006492614746,
+      "startLng": 121.2751235961914
+    },
+    {
+      "id": "30384821",
+      "tileScore": 3,
+      "name": "THL-4",
+      "distanceM": 116824.5,
+      "avgGrade": -0.0025679543614387512,
+      "startLat": 31.206161499023438,
+      "startLng": 121.28252410888672
+    },
+    {
+      "id": "30074936",
+      "tileScore": 23,
+      "name": "LG-03",
+      "distanceM": 14774.2001953125,
+      "avgGrade": 0.028427934274077415,
+      "startLat": 31.1706485748291,
+      "startLng": 121.23775482177734
+    },
+    {
+      "id": "11580195",
+      "tileScore": 10,
+      "name": "You Dun Port Bridge (Westbound)",
+      "distanceM": 353.8999938964844,
+      "avgGrade": -0.8759536743164062,
+      "startLat": 31.150440216064453,
+      "startLng": 121.16046142578125
+    },
+    {
+      "id": "39496940",
+      "tileScore": 8,
+      "name": "小外滩狂飙",
+      "distanceM": 2828.39990234375,
+      "avgGrade": 0.014142271131277084,
+      "startLat": 31.14501953125,
+      "startLng": 121.13612365722656
+    }
+  ]
+}

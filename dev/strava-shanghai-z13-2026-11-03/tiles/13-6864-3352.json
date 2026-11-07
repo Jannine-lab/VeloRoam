@@ -1,0 +1,119 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-03T06:09:17.833Z",
+  "tile": {
+    "z": 13,
+    "x": 6864,
+    "y": 3352
+  },
+  "segments": [
+    {
+      "id": "41945494",
+      "tileScore": 10,
+      "name": "Kangqiao Kicker",
+      "distanceM": 35387.6015625,
+      "avgGrade": -0.0022606789134442806,
+      "startLat": 31.137094497680664,
+      "startLng": 121.5704116821289
+    },
+    {
+      "id": "39694774",
+      "tileScore": 147,
+      "name": "以太在这里燃尽",
+      "distanceM": 1154,
+      "avgGrade": -0.10398613661527634,
+      "startLat": 31.051908493041992,
+      "startLng": 121.64505004882812
+    },
+    {
+      "id": "19824510",
+      "tileScore": 5,
+      "name": "hangsan hwy corner to corner",
+      "distanceM": 13022.7001953125,
+      "avgGrade": 0.02150091715157032,
+      "startLat": 31.04778289794922,
+      "startLng": 121.6463851928711
+    },
+    {
+      "id": "36199330",
+      "tileScore": 68,
+      "name": "Nuking the dumpling bridge",
+      "distanceM": 664.2000122070312,
+      "avgGrade": 0.030111411586403847,
+      "startLat": 31.04144859313965,
+      "startLng": 121.64838409423828
+    },
+    {
+      "id": "28359417",
+      "tileScore": 70,
+      "name": "Canals Straight ",
+      "distanceM": 17928.80078125,
+      "avgGrade": 0.012270759791135788,
+      "startLat": 31.01532554626465,
+      "startLng": 121.65323638916016
+    },
+    {
+      "id": "40267076",
+      "tileScore": 2,
+      "name": "孙桥蒋桥村村通",
+      "distanceM": 16826.19921875,
+      "avgGrade": -0.03090418502688408,
+      "startLat": 31.180830001831055,
+      "startLng": 121.63630676269531
+    },
+    {
+      "id": "42079725",
+      "tileScore": 3,
+      "name": "Markus Bruengger (R.I.P. | G.O.A.T.) Memory Ride",
+      "distanceM": 64397.30078125,
+      "avgGrade": -0.006522012874484062,
+      "startLat": 31.224090576171875,
+      "startLng": 121.55386352539062
+    },
+    {
+      "id": "36958725",
+      "tileScore": 230,
+      "name": "航 三 路 冲 桥 全 程 ！ ！！",
+      "distanceM": 1204.199951171875,
+      "avgGrade": -0.13286830484867096,
+      "startLat": 31.051959991455078,
+      "startLng": 121.67129516601562
+    },
+    {
+      "id": "36806896",
+      "tileScore": 61,
+      "name": "DaZhi River - ChuanNanFeng to ShenJiang - West bound",
+      "distanceM": 11378.7001953125,
+      "avgGrade": 0.010546020232141018,
+      "startLat": 31.011137008666992,
+      "startLng": 121.76981353759766
+    },
+    {
+      "id": "38210621",
+      "tileScore": 51,
+      "name": "rush dazhi",
+      "distanceM": 651,
+      "avgGrade": 1.2288786172866821,
+      "startLat": 31.020862579345703,
+      "startLng": 121.65031433105469
+    },
+    {
+      "id": "36746285",
+      "tileScore": 310,
+      "name": "绿色闪电的噩梦",
+      "distanceM": 12236.7998046875,
+      "avgGrade": -0.03595711290836334,
+      "startLat": 31.0694522857666,
+      "startLng": 121.64400482177734
+    },
+    {
+      "id": "34426596",
+      "tileScore": 7,
+      "name": "新场鲁北 XinChang - Roubaix",
+      "distanceM": 575.7999877929688,
+      "avgGrade": -0.10420285165309906,
+      "startLat": 31.02695083618164,
+      "startLng": 121.64228057861328
+    }
+  ]
+}

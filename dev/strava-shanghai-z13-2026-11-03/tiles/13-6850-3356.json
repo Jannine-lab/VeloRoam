@@ -1,0 +1,47 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-03T06:11:13.142Z",
+  "tile": {
+    "z": 13,
+    "x": 6850,
+    "y": 3356
+  },
+  "segments": [
+    {
+      "id": "36574109",
+      "tileScore": 1,
+      "name": "新义村绕圈",
+      "distanceM": 7471.10009765625,
+      "avgGrade": -0.016061890870332718,
+      "startLat": 30.858795166015625,
+      "startLng": 121.02040100097656
+    },
+    {
+      "id": "33804030",
+      "tileScore": 6,
+      "name": "万枫公路ITT",
+      "distanceM": 8018.2998046875,
+      "avgGrade": 0.004988588392734528,
+      "startLat": 30.899126052856445,
+      "startLng": 121.14628601074219
+    },
+    {
+      "id": "35136276",
+      "tileScore": 4,
+      "name": "亭枫公路（枫泾-朱泾）",
+      "distanceM": 12624.7998046875,
+      "avgGrade": -0.014257652685046196,
+      "startLat": 30.87990951538086,
+      "startLng": 121.02867126464844
+    },
+    {
+      "id": "40228602",
+      "tileScore": 1,
+      "name": "Canals to Fengjing Old Town",
+      "distanceM": 2037.800048828125,
+      "avgGrade": 0.05888703837990761,
+      "startLat": 30.897464752197266,
+      "startLng": 121.03199005126953
+    }
+  ]
+}

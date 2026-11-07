@@ -1,0 +1,20 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-03T06:04:16.445Z",
+  "tile": {
+    "z": 13,
+    "x": 6848,
+    "y": 3339
+  },
+  "segments": [
+    {
+      "id": "29057685",
+      "tileScore": 2,
+      "name": "Emer's Choice",
+      "distanceM": 2676.10009765625,
+      "avgGrade": 0.0373678095638752,
+      "startLat": 31.54128074645996,
+      "startLng": 120.96485137939453
+    }
+  ]
+}

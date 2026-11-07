@@ -1,0 +1,74 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-03T06:08:03.537Z",
+  "tile": {
+    "z": 13,
+    "x": 6855,
+    "y": 3350
+  },
+  "segments": [
+    {
+      "id": "30528596",
+      "tileScore": 8,
+      "name": "STD-003",
+      "distanceM": 4420.5,
+      "avgGrade": 0.013573125936090946,
+      "startLat": 31.123760223388672,
+      "startLng": 121.27059173583984
+    },
+    {
+      "id": "27955036",
+      "tileScore": 3,
+      "name": "BTP-0077",
+      "distanceM": 2442.300048828125,
+      "avgGrade": 0.14740204811096191,
+      "startLat": 31.11933135986328,
+      "startLng": 121.28072357177734
+    },
+    {
+      "id": "35904827",
+      "tileScore": 25,
+      "name": "Faux-plat roulant",
+      "distanceM": 1135,
+      "avgGrade": -0.035242289304733276,
+      "startLat": 31.12213706970215,
+      "startLng": 121.27178955078125
+    },
+    {
+      "id": "30528589",
+      "tileScore": 17,
+      "name": "STD-003",
+      "distanceM": 1131.5999755859375,
+      "avgGrade": 0.08837044984102249,
+      "startLat": 31.120834350585938,
+      "startLng": 121.25819396972656
+    },
+    {
+      "id": "29343674",
+      "tileScore": 2,
+      "name": "BTP-CN-150",
+      "distanceM": 8229.7998046875,
+      "avgGrade": 0.03888308256864548,
+      "startLat": 31.046218872070312,
+      "startLng": 121.25434875488281
+    },
+    {
+      "id": "6597780",
+      "tileScore": 13,
+      "name": "Sichen Hwy from Jiasong South Rd to Husong Hwy",
+      "distanceM": 5948,
+      "avgGrade": 0.013449898920953274,
+      "startLat": 31.114742279052734,
+      "startLng": 121.22368621826172
+    },
+    {
+      "id": "30390315",
+      "tileScore": 9,
+      "name": "BTP-S5",
+      "distanceM": 7978.10009765625,
+      "avgGrade": -0.021308330819010735,
+      "startLat": 31.095489501953125,
+      "startLng": 121.29185485839844
+    }
+  ]
+}

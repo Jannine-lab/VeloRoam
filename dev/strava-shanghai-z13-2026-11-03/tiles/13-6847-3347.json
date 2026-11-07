@@ -1,0 +1,128 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-03T06:07:53.512Z",
+  "tile": {
+    "z": 13,
+    "x": 6847,
+    "y": 3347
+  },
+  "segments": [
+    {
+      "id": "24864276",
+      "tileScore": 9,
+      "name": "X205 North Bound Till Y-cross",
+      "distanceM": 9454.2001953125,
+      "avgGrade": 0.027501003816723824,
+      "startLat": 31.198413848876953,
+      "startLng": 120.88581085205078
+    },
+    {
+      "id": "41215895",
+      "tileScore": 1,
+      "name": "Road to Heaven",
+      "distanceM": 546.9000244140625,
+      "avgGrade": 0,
+      "startLat": 31.220680236816406,
+      "startLng": 120.8987045288086
+    },
+    {
+      "id": "35118320",
+      "tileScore": 254,
+      "name": "ITT Heading South",
+      "distanceM": 6715.60009765625,
+      "avgGrade": 0.00595628097653389,
+      "startLat": 31.272951126098633,
+      "startLng": 120.91736602783203
+    },
+    {
+      "id": "25984785",
+      "tileScore": 17,
+      "name": "Jiangpu South Rd from Yuanfeng Rd to Songhu West Rd（Southbond）",
+      "distanceM": 10292.2998046875,
+      "avgGrade": -0.009716001339256763,
+      "startLat": 31.328493118286133,
+      "startLng": 120.92188262939453
+    },
+    {
+      "id": "41693565",
+      "tileScore": 7,
+      "name": "Galaxy Rd Southbound",
+      "distanceM": 3751.199951171875,
+      "avgGrade": 0.1972702145576477,
+      "startLat": 31.272804260253906,
+      "startLng": 120.9317855834961
+    },
+    {
+      "id": "41451585",
+      "tileScore": 5,
+      "name": "穿越长云村",
+      "distanceM": 717.5,
+      "avgGrade": 0.02787456288933754,
+      "startLat": 31.211204528808594,
+      "startLng": 120.89716339111328
+    },
+    {
+      "id": "26244567",
+      "tileScore": 1,
+      "name": "25K Scenic Country Roads (Northbound)",
+      "distanceM": 24641.80078125,
+      "avgGrade": 0.04707448184490204,
+      "startLat": 31.152658462524414,
+      "startLng": 120.92338562011719
+    },
+    {
+      "id": "19032990",
+      "tileScore": 62,
+      "name": "X204 x S58 Overpass (Southbound)",
+      "distanceM": 1470.300048828125,
+      "avgGrade": 0.0544106662273407,
+      "startLat": 31.235872268676758,
+      "startLng": 120.92070770263672
+    },
+    {
+      "id": "41215917",
+      "tileScore": 4,
+      "name": "Village-to-Village Access",
+      "distanceM": 2678.699951171875,
+      "avgGrade": 0.13439354300498962,
+      "startLat": 31.241121292114258,
+      "startLng": 120.8992919921875
+    },
+    {
+      "id": "22093029",
+      "tileScore": 26,
+      "name": "X204 (923 Country Rd-X304)",
+      "distanceM": 4352.39990234375,
+      "avgGrade": 0.01838066428899765,
+      "startLat": 31.218381881713867,
+      "startLng": 120.92011260986328
+    },
+    {
+      "id": "22098099",
+      "tileScore": 2,
+      "name": "Forest Cycle Path (Westbound)",
+      "distanceM": 1071.5999755859375,
+      "avgGrade": 0.0373273640871048,
+      "startLat": 31.23415184020996,
+      "startLng": 120.93903350830078
+    },
+    {
+      "id": "42137209",
+      "tileScore": 3,
+      "name": "132123123",
+      "distanceM": 9613.5,
+      "avgGrade": -0.01872367039322853,
+      "startLat": 31.27113914489746,
+      "startLng": 120.9215316772461
+    },
+    {
+      "id": "22090880",
+      "tileScore": 2,
+      "name": "S58 Bridge (Westbound)",
+      "distanceM": 570.2999877929688,
+      "avgGrade": 0.35069260001182556,
+      "startLat": 31.223949432373047,
+      "startLng": 120.94184112548828
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-03T06:11:10.259Z",
+  "tile": {
+    "z": 13,
+    "x": 6854,
+    "y": 3356
+  },
+  "segments": [
+    {
+      "id": "40992363",
+      "tileScore": 10,
+      "name": "Tingfeng Hwy Jinlang to Songwei",
+      "distanceM": 8834.599609375,
+      "avgGrade": 0.01811061054468155,
+      "startLat": 30.894289016723633,
+      "startLng": 121.17926025390625
+    },
+    {
+      "id": "41443612",
+      "tileScore": 4,
+      "name": "zqcc拉练",
+      "distanceM": 4241.2001953125,
+      "avgGrade": -0.018862584605813026,
+      "startLat": 30.896438598632812,
+      "startLng": 121.24224853515625
+    }
+  ]
+}

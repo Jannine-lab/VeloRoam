@@ -1,0 +1,38 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-03T05:59:11.161Z",
+  "tile": {
+    "z": 13,
+    "x": 6868,
+    "y": 3331
+  },
+  "segments": [
+    {
+      "id": "35713349",
+      "tileScore": 6,
+      "name": "环启东-临海快速路",
+      "distanceM": 53798,
+      "avgGrade": 0.0018588050734251738,
+      "startLat": 31.73526382446289,
+      "startLng": 121.90825653076172
+    },
+    {
+      "id": "27491781",
+      "tileScore": 13,
+      "name": "10km - Segment 2",
+      "distanceM": 10007.2998046875,
+      "avgGrade": -0.0019985411781817675,
+      "startLat": 31.759057998657227,
+      "startLng": 121.90425872802734
+    },
+    {
+      "id": "27491843",
+      "tileScore": 2,
+      "name": "Final Dash to S460 Junction - Segment 3",
+      "distanceM": 8753.2998046875,
+      "avgGrade": 0.0022848525550216436,
+      "startLat": 31.83883285522461,
+      "startLng": 121.85697174072266
+    }
+  ]
+}

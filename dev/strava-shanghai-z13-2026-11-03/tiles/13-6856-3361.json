@@ -1,0 +1,20 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-03T06:13:42.582Z",
+  "tile": {
+    "z": 13,
+    "x": 6856,
+    "y": 3361
+  },
+  "segments": [
+    {
+      "id": "38908145",
+      "tileScore": 4,
+      "name": "沪杭公路(学府路-穗中路)",
+      "distanceM": 6286.2001953125,
+      "avgGrade": 0,
+      "startLat": 30.718181610107422,
+      "startLng": 121.32127380371094
+    }
+  ]
+}

@@ -1,0 +1,101 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-03T06:11:04.480Z",
+  "tile": {
+    "z": 13,
+    "x": 6863,
+    "y": 3356
+  },
+  "segments": [
+    {
+      "id": "32419065",
+      "tileScore": 1,
+      "name": "liantang Sprint",
+      "distanceM": 762,
+      "avgGrade": -0.05249343812465668,
+      "startLat": 30.871973037719727,
+      "startLng": 121.62042999267578
+    },
+    {
+      "id": "35450638",
+      "tileScore": 1,
+      "name": "平庄公路（金海-新四平）",
+      "distanceM": 22928.5,
+      "avgGrade": 0.0034891075920313597,
+      "startLat": 30.891454696655273,
+      "startLng": 121.49846649169922
+    },
+    {
+      "id": "20936572",
+      "tileScore": 87,
+      "name": "Avenue of trees to Plum Park",
+      "distanceM": 10112.099609375,
+      "avgGrade": 0.07713531702756882,
+      "startLat": 30.847942352294922,
+      "startLng": 121.569580078125
+    },
+    {
+      "id": "34876424",
+      "tileScore": 7,
+      "name": "奉柘公路（平庄东路-浦星公路）",
+      "distanceM": 7981.7001953125,
+      "avgGrade": -0.012528658844530582,
+      "startLat": 30.89662742614746,
+      "startLng": 121.60227966308594
+    },
+    {
+      "id": "37594697",
+      "tileScore": 2,
+      "name": "星疆路（随塘河路-G228）",
+      "distanceM": 2400.89990234375,
+      "avgGrade": -0.1166229397058487,
+      "startLat": 30.857881546020508,
+      "startLng": 121.60870361328125
+    },
+    {
+      "id": "20487027",
+      "tileScore": 52,
+      "name": "Rush to the forest cafe",
+      "distanceM": 3631,
+      "avgGrade": -0.03855687007308006,
+      "startLat": 30.864749908447266,
+      "startLng": 121.63921356201172
+    },
+    {
+      "id": "34876506",
+      "tileScore": 7,
+      "name": "随塘河路（靶场-五四）",
+      "distanceM": 18125.900390625,
+      "avgGrade": -0.011033935472369194,
+      "startLat": 30.842056274414062,
+      "startLng": 121.54557037353516
+    },
+    {
+      "id": "36697932",
+      "tileScore": 73,
+      "name": "你骑得过港漕飞弹吗？-半程",
+      "distanceM": 16429.599609375,
+      "avgGrade": 0.0012173150898888707,
+      "startLat": 30.86809539794922,
+      "startLng": 121.56013488769531
+    },
+    {
+      "id": "39576615",
+      "tileScore": 100,
+      "name": "航塘-海农",
+      "distanceM": 4982.5,
+      "avgGrade": 0.02007024548947811,
+      "startLat": 30.880115509033203,
+      "startLng": 121.60887908935547
+    },
+    {
+      "id": "37816761",
+      "tileScore": 54,
+      "name": "南门港",
+      "distanceM": 1593.9000244140625,
+      "avgGrade": 0.037643518298864365,
+      "startLat": 30.882434844970703,
+      "startLng": 121.62581634521484
+    }
+  ]
+}

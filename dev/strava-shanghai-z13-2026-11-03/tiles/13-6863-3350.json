@@ -1,0 +1,218 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-03T06:08:09.571Z",
+  "tile": {
+    "z": 13,
+    "x": 6863,
+    "y": 3350
+  },
+  "segments": [
+    {
+      "id": "10392643",
+      "tileScore": 2,
+      "name": "Darth Vadars Roller",
+      "distanceM": 3402.5,
+      "avgGrade": 0.008817045949399471,
+      "startLat": 31.12225914001465,
+      "startLng": 121.63301086425781
+    },
+    {
+      "id": "42079725",
+      "tileScore": 3,
+      "name": "Markus Bruengger (R.I.P. | G.O.A.T.) Memory Ride",
+      "distanceM": 64397.30078125,
+      "avgGrade": -0.006522012874484062,
+      "startLat": 31.224090576171875,
+      "startLng": 121.55386352539062
+    },
+    {
+      "id": "37740506",
+      "tileScore": 2,
+      "name": "六奉-下盐-申江-周邓-20公里环线",
+      "distanceM": 19860,
+      "avgGrade": -0.0015105740167200565,
+      "startLat": 31.125120162963867,
+      "startLng": 121.66925811767578
+    },
+    {
+      "id": "35927579",
+      "tileScore": 4,
+      "name": "金桥-滴水湖-云山路绕圈",
+      "distanceM": 150058.90625,
+      "avgGrade": 0.0018659341149032116,
+      "startLat": 31.22467041015625,
+      "startLng": 121.62055969238281
+    },
+    {
+      "id": "14804253",
+      "tileScore": 15,
+      "name": "s32 to Zhouzhu",
+      "distanceM": 1940.199951171875,
+      "avgGrade": 0,
+      "startLat": 31.086355209350586,
+      "startLng": 121.62518310546875
+    },
+    {
+      "id": "11703194",
+      "tileScore": 24,
+      "name": "Kangxin Straight",
+      "distanceM": 3320.800048828125,
+      "avgGrade": -0.012045290321111679,
+      "startLat": 31.15013313293457,
+      "startLng": 121.60641479492188
+    },
+    {
+      "id": "40427072",
+      "tileScore": 10,
+      "name": "周浦圣雷莫爬桥绕圈",
+      "distanceM": 5116.60009765625,
+      "avgGrade": 0.015635382384061813,
+      "startLat": 31.095399856567383,
+      "startLng": 121.60388946533203
+    },
+    {
+      "id": "35170184",
+      "tileScore": 8,
+      "name": "半个俄罗斯方块",
+      "distanceM": 26143.30078125,
+      "avgGrade": 0.011475215665996075,
+      "startLat": 31.18340492248535,
+      "startLng": 121.61776733398438
+    },
+    {
+      "id": "32014390",
+      "tileScore": 96,
+      "name": "sh1t street",
+      "distanceM": 703.5,
+      "avgGrade": 0,
+      "startLat": 31.092931747436523,
+      "startLng": 121.6413803100586
+    },
+    {
+      "id": "15484457",
+      "tileScore": 40,
+      "name": "Jinke Kangxin Huaxia to Hunan",
+      "distanceM": 15852.7001953125,
+      "avgGrade": 0.006308073177933693,
+      "startLat": 31.169862747192383,
+      "startLng": 121.60026550292969
+    },
+    {
+      "id": "12528381",
+      "tileScore": 1,
+      "name": "Zhou Zhu Gong Road west bound (From Jianshe road to Shenjiang road)",
+      "distanceM": 5689.5,
+      "avgGrade": -0.003515247255563736,
+      "startLat": 31.118873596191406,
+      "startLng": 121.69569396972656
+    },
+    {
+      "id": "36893356",
+      "tileScore": 9,
+      "name": "2 bridges short route",
+      "distanceM": 2333.800048828125,
+      "avgGrade": -0.06855771690607071,
+      "startLat": 31.11114501953125,
+      "startLng": 121.59691619873047
+    },
+    {
+      "id": "41945494",
+      "tileScore": 10,
+      "name": "Kangqiao Kicker",
+      "distanceM": 35387.6015625,
+      "avgGrade": -0.0022606789134442806,
+      "startLat": 31.137094497680664,
+      "startLng": 121.5704116821289
+    },
+    {
+      "id": "39624100",
+      "tileScore": 44,
+      "name": "古典赛段之罗山圣雷莫Mini",
+      "distanceM": 586,
+      "avgGrade": 2.2525596618652344,
+      "startLat": 31.093528747558594,
+      "startLng": 121.603759765625
+    },
+    {
+      "id": "13011992",
+      "tileScore": 2,
+      "name": "Jinqiao to Disney and back",
+      "distanceM": 42188.80078125,
+      "avgGrade": 0.00521465390920639,
+      "startLat": 31.235240936279297,
+      "startLng": 121.5843734741211
+    },
+    {
+      "id": "40042155",
+      "tileScore": 2,
+      "name": "周邓到秀浦路南向北",
+      "distanceM": 1495.9000244140625,
+      "avgGrade": -0.05347951129078865,
+      "startLat": 31.118459701538086,
+      "startLng": 121.60154724121094
+    },
+    {
+      "id": "10343136",
+      "tileScore": 11,
+      "name": "Shenjiang Southbound",
+      "distanceM": 8812.599609375,
+      "avgGrade": 0.003404216840863228,
+      "startLat": 31.19952964782715,
+      "startLng": 121.62015533447266
+    },
+    {
+      "id": "27401582",
+      "tileScore": 8,
+      "name": "DP Airport Loop part 1",
+      "distanceM": 38720,
+      "avgGrade": 0.004648760426789522,
+      "startLat": 31.236400604248047,
+      "startLng": 121.59383392333984
+    },
+    {
+      "id": "14804264",
+      "tileScore": 6,
+      "name": "Was that a hill?",
+      "distanceM": 1235.300048828125,
+      "avgGrade": -0.08904719352722168,
+      "startLat": 31.104127883911133,
+      "startLng": 121.62425994873047
+    },
+    {
+      "id": "11703201",
+      "tileScore": 123,
+      "name": "Zhoudeng Highway (from Kangxin to Shenjiang)",
+      "distanceM": 1547.9000244140625,
+      "avgGrade": -0.05168292671442032,
+      "startLat": 31.12040138244629,
+      "startLng": 121.61575317382812
+    },
+    {
+      "id": "11703205",
+      "tileScore": 275,
+      "name": "Shenjiang straight (from Zhouzhugong to Zhoudeng)",
+      "distanceM": 1405.4000244140625,
+      "avgGrade": 0.09961576759815216,
+      "startLat": 31.121843338012695,
+      "startLng": 121.63265991210938
+    },
+    {
+      "id": "32998680",
+      "tileScore": 3,
+      "name": "LAN DIAN RD",
+      "distanceM": 3925,
+      "avgGrade": -0.035668790340423584,
+      "startLat": 31.094520568847656,
+      "startLng": 121.6080322265625
+    },
+    {
+      "id": "32373051",
+      "tileScore": 98,
+      "name": "S. Shenjiang rd part 2",
+      "distanceM": 4288.10009765625,
+      "avgGrade": -0.032648492604494095,
+      "startLat": 31.070541381835938,
+      "startLng": 121.64200592041016
+    }
+  ]
+}

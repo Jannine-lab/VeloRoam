@@ -1,0 +1,47 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-03T06:11:10.259Z",
+  "tile": {
+    "z": 13,
+    "x": 6854,
+    "y": 3355
+  },
+  "segments": [
+    {
+      "id": "19765686",
+      "tileScore": 17,
+      "name": "MondayBridgesInterval",
+      "distanceM": 5730.2998046875,
+      "avgGrade": -0.003490218659862876,
+      "startLat": 30.937641143798828,
+      "startLng": 121.1915512084961
+    },
+    {
+      "id": "36987661",
+      "tileScore": 3,
+      "name": "掘石港南岸（朱泾-张泾）",
+      "distanceM": 4782.89990234375,
+      "avgGrade": -0.004181563388556242,
+      "startLat": 30.90888023376465,
+      "startLng": 121.18099975585938
+    },
+    {
+      "id": "40866307",
+      "tileScore": 21,
+      "name": "Yexin Red Bridge from Fengxian ",
+      "distanceM": 905,
+      "avgGrade": -0.9944750666618347,
+      "startLat": 30.939023971557617,
+      "startLng": 121.21963500976562
+    },
+    {
+      "id": "40866271",
+      "tileScore": 24,
+      "name": "Yexin Red Bridge",
+      "distanceM": 503.70001220703125,
+      "avgGrade": 1.945602536201477,
+      "startLat": 30.93987274169922,
+      "startLng": 121.22634887695312
+    }
+  ]
+}

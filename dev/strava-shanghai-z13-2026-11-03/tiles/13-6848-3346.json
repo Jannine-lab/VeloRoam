@@ -1,0 +1,47 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-03T06:06:43.547Z",
+  "tile": {
+    "z": 13,
+    "x": 6848,
+    "y": 3346
+  },
+  "segments": [
+    {
+      "id": "12392773",
+      "tileScore": 11,
+      "name": "S224 (Dianshanhu to Golf Club)",
+      "distanceM": 7762.10009765625,
+      "avgGrade": 0.010306489653885365,
+      "startLat": 31.190719604492188,
+      "startLng": 120.95619201660156
+    },
+    {
+      "id": "41474688",
+      "tileScore": 6,
+      "name": "与时俱进",
+      "distanceM": 3824,
+      "avgGrade": 0.04184100404381752,
+      "startLat": 31.2780818939209,
+      "startLng": 120.96353149414062
+    },
+    {
+      "id": "39080962",
+      "tileScore": 13,
+      "name": "一个响亮的巴掌",
+      "distanceM": 2531.10009765625,
+      "avgGrade": -0.01580340601503849,
+      "startLat": 31.276466369628906,
+      "startLng": 120.9574966430664
+    },
+    {
+      "id": "8936636",
+      "tileScore": 2,
+      "name": "S343 Yangguang Middle Rd (Eastbound)",
+      "distanceM": 3370.199951171875,
+      "avgGrade": 0.08011393994092941,
+      "startLat": 31.273786544799805,
+      "startLng": 120.91798400878906
+    }
+  ]
+}

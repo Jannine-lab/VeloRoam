@@ -1,0 +1,38 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-03T06:13:28.567Z",
+  "tile": {
+    "z": 13,
+    "x": 6853,
+    "y": 3361
+  },
+  "segments": [
+    {
+      "id": "40978718",
+      "tileScore": 2,
+      "name": "Hangpu Hwy Bridge #2",
+      "distanceM": 525.7999877929688,
+      "avgGrade": -0.6466336846351624,
+      "startLat": 30.70848274230957,
+      "startLng": 121.18373107910156
+    },
+    {
+      "id": "28548398",
+      "tileScore": 5,
+      "name": "中山路",
+      "distanceM": 4478.10009765625,
+      "avgGrade": 0.29030171036720276,
+      "startLat": 30.682064056396484,
+      "startLng": 121.19862365722656
+    },
+    {
+      "id": "39095689",
+      "tileScore": 2,
+      "name": "2025平湖，麒麟汇走错路的路口",
+      "distanceM": 97391,
+      "avgGrade": -0.0010267889592796564,
+      "startLat": 30.767906188964844,
+      "startLng": 120.98878479003906
+    }
+  ]
+}

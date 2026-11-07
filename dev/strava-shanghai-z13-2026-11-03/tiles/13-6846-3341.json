@@ -1,0 +1,92 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-03T06:04:19.285Z",
+  "tile": {
+    "z": 13,
+    "x": 6846,
+    "y": 3341
+  },
+  "segments": [
+    {
+      "id": "33020158",
+      "tileScore": 114,
+      "name": "傀儡湖C",
+      "distanceM": 1991.4000244140625,
+      "avgGrade": -0.07030230015516281,
+      "startLat": 31.434871673583984,
+      "startLng": 120.84861755371094
+    },
+    {
+      "id": "22915982",
+      "tileScore": 1,
+      "name": "12.5K North of Kunshan (Eastbound)",
+      "distanceM": 12680.900390625,
+      "avgGrade": 0.01734892651438713,
+      "startLat": 31.442026138305664,
+      "startLng": 120.88185119628906
+    },
+    {
+      "id": "33577436",
+      "tileScore": 7,
+      "name": "Bridge to Bridge Y003",
+      "distanceM": 3317.60009765625,
+      "avgGrade": 0.07836990058422089,
+      "startLat": 31.462905883789062,
+      "startLng": 120.88135528564453
+    },
+    {
+      "id": "22872992",
+      "tileScore": 14,
+      "name": "BRIDGE (Southbound)",
+      "distanceM": 413,
+      "avgGrade": 3.099273443222046,
+      "startLat": 31.46864891052246,
+      "startLng": 120.88116455078125
+    },
+    {
+      "id": "9300083",
+      "tileScore": 2,
+      "name": "Manli Lake TT course",
+      "distanceM": 5391,
+      "avgGrade": -0.0037098866887390614,
+      "startLat": 31.454788208007812,
+      "startLng": 120.85321044921875
+    },
+    {
+      "id": "24423492",
+      "tileScore": 1,
+      "name": "Scenic Shortcut (Southbound)",
+      "distanceM": 3751.300048828125,
+      "avgGrade": -0.06397782266139984,
+      "startLat": 31.49088478088379,
+      "startLng": 120.8521957397461
+    },
+    {
+      "id": "38556284",
+      "tileScore": 2,
+      "name": "Half-ready Bachenghu bridge, exposed. Southbound.",
+      "distanceM": 872.7999877929688,
+      "avgGrade": 0.160403311252594,
+      "startLat": 31.469905853271484,
+      "startLng": 120.87152099609375
+    },
+    {
+      "id": "22872942",
+      "tileScore": 10,
+      "name": "Kicker Northbound",
+      "distanceM": 423.8999938964844,
+      "avgGrade": 0.2830856144428253,
+      "startLat": 31.446746826171875,
+      "startLng": 120.88114929199219
+    },
+    {
+      "id": "21150423",
+      "tileScore": 3,
+      "name": "X003 (Eastbound)",
+      "distanceM": 2095.199951171875,
+      "avgGrade": -0.028636885806918144,
+      "startLat": 31.461458206176758,
+      "startLng": 120.8451919555664
+    }
+  ]
+}

@@ -1,0 +1,65 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-03T06:02:45.762Z",
+  "tile": {
+    "z": 13,
+    "x": 6861,
+    "y": 3338
+  },
+  "segments": [
+    {
+      "id": "33136229",
+      "tileScore": 19,
+      "name": "Tuancheng Hwy",
+      "distanceM": 20729.400390625,
+      "avgGrade": -0.013507385738193989,
+      "startLat": 31.633817672729492,
+      "startLng": 121.43010711669922
+    },
+    {
+      "id": "39028872",
+      "tileScore": 1,
+      "name": "新申公路(新河码头-崇明大道)",
+      "distanceM": 1148,
+      "avgGrade": -0.15679442882537842,
+      "startLat": 31.57058334350586,
+      "startLng": 121.50399780273438
+    },
+    {
+      "id": "36359274",
+      "tileScore": 3,
+      "name": "the ferry",
+      "distanceM": 29391.400390625,
+      "avgGrade": -0.0017011777963489294,
+      "startLat": 31.469480514526367,
+      "startLng": 121.41571044921875
+    },
+    {
+      "id": "35032492",
+      "tileScore": 2,
+      "name": "Chongming Avenue Allez! (San Lie)",
+      "distanceM": 524.7999877929688,
+      "avgGrade": 1.2195121049880981,
+      "startLat": 31.570758819580078,
+      "startLng": 121.53909301757812
+    },
+    {
+      "id": "33065310",
+      "tileScore": 12,
+      "name": "ChongMing Avenue iTT",
+      "distanceM": 18537.400390625,
+      "avgGrade": 0,
+      "startLat": 31.544097900390625,
+      "startLng": 121.59672546386719
+    },
+    {
+      "id": "39097330",
+      "tileScore": 13,
+      "name": "反穿崇明环岛景观道(堡镇码头-新河码头)",
+      "distanceM": 12352,
+      "avgGrade": 0,
+      "startLat": 31.531965255737305,
+      "startLng": 121.60026550292969
+    }
+  ]
+}

@@ -1,0 +1,344 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-03T05:35:42.086Z",
+  "tile": {
+    "z": 13,
+    "x": 6856,
+    "y": 3348
+  },
+  "segments": [
+    {
+      "id": "35850240",
+      "tileScore": 17,
+      "name": "how to cope with this uneven road & traffic jams 🤨",
+      "distanceM": 698.7000122070312,
+      "avgGrade": 0,
+      "startLat": 31.202173233032227,
+      "startLng": 121.28890991210938
+    },
+    {
+      "id": "36651288",
+      "tileScore": 113,
+      "name": "HQP Flyover to Outlets Full Gas",
+      "distanceM": 10066.900390625,
+      "avgGrade": -0.07648829370737076,
+      "startLat": 31.17055892944336,
+      "startLng": 121.3229751586914
+    },
+    {
+      "id": "35418098",
+      "tileScore": 80,
+      "name": "big shenlan loop",
+      "distanceM": 10668.5,
+      "avgGrade": -0.022496134042739868,
+      "startLat": 31.218183517456055,
+      "startLng": 121.3186264038086
+    },
+    {
+      "id": "34479772",
+      "tileScore": 1,
+      "name": "Shenbin Road  northbound w/o tunnel ",
+      "distanceM": 3672.199951171875,
+      "avgGrade": -0.021785305812954903,
+      "startLat": 31.182662963867188,
+      "startLng": 121.3139419555664
+    },
+    {
+      "id": "12254383",
+      "tileScore": 5,
+      "name": "Shenkun Rd South Bound",
+      "distanceM": 2725.800048828125,
+      "avgGrade": 0.06603565812110901,
+      "startLat": 31.21251106262207,
+      "startLng": 121.3209228515625
+    },
+    {
+      "id": "12057928",
+      "tileScore": 457,
+      "name": "shen lan burger king back",
+      "distanceM": 2762.800048828125,
+      "avgGrade": 0.021717099472880363,
+      "startLat": 31.190826416015625,
+      "startLng": 121.31883239746094
+    },
+    {
+      "id": "28697371",
+      "tileScore": 11,
+      "name": "BTP-FC005",
+      "distanceM": 3857.5,
+      "avgGrade": 0.04925470054149628,
+      "startLat": 31.174842834472656,
+      "startLng": 121.28813171386719
+    },
+    {
+      "id": "24989686",
+      "tileScore": 191,
+      "name": "Wattage time !!!",
+      "distanceM": 5103.89990234375,
+      "avgGrade": -0.003918572328984737,
+      "startLat": 31.17098045349121,
+      "startLng": 121.3231430053711
+    },
+    {
+      "id": "30564546",
+      "tileScore": 3,
+      "name": "FMG-23",
+      "distanceM": 35947.6015625,
+      "avgGrade": 0.02837463468313217,
+      "startLat": 31.019447326660156,
+      "startLng": 121.3215560913086
+    },
+    {
+      "id": "27955023",
+      "tileScore": 3,
+      "name": "BTP-0073",
+      "distanceM": 3683,
+      "avgGrade": 0,
+      "startLat": 31.139989852905273,
+      "startLng": 121.30886840820312
+    },
+    {
+      "id": "5099103",
+      "tileScore": 65,
+      "name": "Touch the sky roll the earth",
+      "distanceM": 1779.300048828125,
+      "avgGrade": 0.011240375228226185,
+      "startLat": 31.17068862915039,
+      "startLng": 121.32782745361328
+    },
+    {
+      "id": "30390301",
+      "tileScore": 3,
+      "name": "BTP-S2",
+      "distanceM": 4782.7998046875,
+      "avgGrade": 0.0313623808324337,
+      "startLat": 31.19838523864746,
+      "startLng": 121.30099487304688
+    },
+    {
+      "id": "37701039",
+      "tileScore": 23,
+      "name": "SP's Sneaky Dogleg",
+      "distanceM": 611.4000244140625,
+      "avgGrade": -0.032711807638406754,
+      "startLat": 31.167804718017578,
+      "startLng": 121.30912017822266
+    },
+    {
+      "id": "40019920",
+      "tileScore": 37,
+      "name": "Full gas to first \"L\" turn from Wensha",
+      "distanceM": 15605.900390625,
+      "avgGrade": 0.0397285632789135,
+      "startLat": 31.19355583190918,
+      "startLng": 121.37028503417969
+    },
+    {
+      "id": "13732749",
+      "tileScore": 22,
+      "name": "Huaxiang Lu tunnel (southbound)",
+      "distanceM": 774.4000244140625,
+      "avgGrade": 0.10330577939748764,
+      "startLat": 31.177438735961914,
+      "startLng": 121.31473541259766
+    },
+    {
+      "id": "12008725",
+      "tileScore": 6,
+      "name": "Songze Hwy Overpass (Eastbound)",
+      "distanceM": 1037.0999755859375,
+      "avgGrade": -0.04821135848760605,
+      "startLat": 31.196819305419922,
+      "startLng": 121.29557037353516
+    },
+    {
+      "id": "33232674",
+      "tileScore": 45,
+      "name": "镜神冲进申兰路大杀四方",
+      "distanceM": 724.7999877929688,
+      "avgGrade": 0,
+      "startLat": 31.18191146850586,
+      "startLng": 121.31524658203125
+    },
+    {
+      "id": "22068484",
+      "tileScore": 8,
+      "name": "G318 上海-湖州",
+      "distanceM": 133169.203125,
+      "avgGrade": -0.002553143072873354,
+      "startLat": 31.17106056213379,
+      "startLng": 121.32220458984375
+    },
+    {
+      "id": "36111952",
+      "tileScore": 72,
+      "name": "2023 HH Airport Loop",
+      "distanceM": 32885.30078125,
+      "avgGrade": -0.007298094220459461,
+      "startLat": 31.197797775268555,
+      "startLng": 121.41617584228516
+    },
+    {
+      "id": "27775488",
+      "tileScore": 2,
+      "name": "BTP-CN-026",
+      "distanceM": 2581.199951171875,
+      "avgGrade": 0.1084766834974289,
+      "startLat": 31.206111907958984,
+      "startLng": 121.28277587890625
+    },
+    {
+      "id": "35043908",
+      "tileScore": 5,
+      "name": "七宝-吴中大拐弯",
+      "distanceM": 3699.10009765625,
+      "avgGrade": -0.054067205637693405,
+      "startLat": 31.164091110229492,
+      "startLng": 121.3252944946289
+    },
+    {
+      "id": "12006911",
+      "tileScore": 147,
+      "name": "Huqingping Hwy x Railway Underpass (Westbound)",
+      "distanceM": 642.9000244140625,
+      "avgGrade": 0,
+      "startLat": 31.172157287597656,
+      "startLng": 121.3202896118164
+    },
+    {
+      "id": "27103510",
+      "tileScore": 61,
+      "name": "2nd Wattage Section",
+      "distanceM": 2409.89990234375,
+      "avgGrade": 0.04149549454450607,
+      "startLat": 31.189592361450195,
+      "startLng": 121.3069839477539
+    },
+    {
+      "id": "33232696",
+      "tileScore": 10,
+      "name": "香榧王镜神300瓦通勤",
+      "distanceM": 1712.199951171875,
+      "avgGrade": 0.011680878698825836,
+      "startLat": 31.152799606323242,
+      "startLng": 121.33517456054688
+    },
+    {
+      "id": "17410883",
+      "tileScore": 13,
+      "name": "HQ expo centre lap",
+      "distanceM": 3797.800048828125,
+      "avgGrade": -0.07899309694766998,
+      "startLat": 31.196592330932617,
+      "startLng": 121.29513549804688
+    },
+    {
+      "id": "36894166",
+      "tileScore": 19,
+      "name": "ER - Babies Arm",
+      "distanceM": 56876.1015625,
+      "avgGrade": 0,
+      "startLat": 31.179828643798828,
+      "startLng": 121.28097534179688
+    },
+    {
+      "id": "26342638",
+      "tileScore": 207,
+      "name": "Shen Lan Lap n-s-n",
+      "distanceM": 6400.39990234375,
+      "avgGrade": -0.015624023042619228,
+      "startLat": 31.21556854248047,
+      "startLng": 121.31880187988281
+    },
+    {
+      "id": "41727278",
+      "tileScore": 6,
+      "name": "虹桥环机场线~",
+      "distanceM": 15865.400390625,
+      "avgGrade": -0.010084838606417179,
+      "startLat": 31.22117805480957,
+      "startLng": 121.33946228027344
+    },
+    {
+      "id": "26481888",
+      "tileScore": 59,
+      "name": "Mt Hongqiao",
+      "distanceM": 393.20001220703125,
+      "avgGrade": 2.1871819496154785,
+      "startLat": 31.17037010192871,
+      "startLng": 121.32682800292969
+    },
+    {
+      "id": "29148720",
+      "tileScore": 6,
+      "name": "G318（华翔路）",
+      "distanceM": 12786.7998046875,
+      "avgGrade": 0.040666937828063965,
+      "startLat": 31.170894622802734,
+      "startLng": 121.32331848144531
+    },
+    {
+      "id": "33090424",
+      "tileScore": 4,
+      "name": "诸光转盈港",
+      "distanceM": 2514.300048828125,
+      "avgGrade": -0.031818002462387085,
+      "startLat": 31.16530990600586,
+      "startLng": 121.3115234375
+    },
+    {
+      "id": "42345837",
+      "tileScore": 23,
+      "name": "6哥带你刷两山",
+      "distanceM": 52786.69921875,
+      "avgGrade": -0.002652183175086975,
+      "startLat": 31.17475128173828,
+      "startLng": 121.30008697509766
+    },
+    {
+      "id": "28647918",
+      "tileScore": 3,
+      "name": "The Expo Sprint",
+      "distanceM": 512.7000122070312,
+      "avgGrade": 0.07801833748817444,
+      "startLat": 31.187992095947266,
+      "startLng": 121.30302429199219
+    },
+    {
+      "id": "6170928",
+      "tileScore": 23,
+      "name": "Gaoguang Rd (Westbound)",
+      "distanceM": 1508.5,
+      "avgGrade": -0.02651640772819519,
+      "startLat": 31.166366577148438,
+      "startLng": 121.31002044677734
+    },
+    {
+      "id": "36112090",
+      "tileScore": 55,
+      "name": "Tulips Sams",
+      "distanceM": 46121.80078125,
+      "avgGrade": 0.004336344078183174,
+      "startLat": 31.19768524169922,
+      "startLng": 121.41617584228516
+    },
+    {
+      "id": "18703013",
+      "tileScore": 25,
+      "name": "Gaojing northward bound",
+      "distanceM": 1656.0999755859375,
+      "avgGrade": -0.06038282811641693,
+      "startLat": 31.159481048583984,
+      "startLng": 121.29615783691406
+    },
+    {
+      "id": "15686762",
+      "tileScore": 16,
+      "name": "Yinggang E Rd",
+      "distanceM": 1413,
+      "avgGrade": 0.08492568880319595,
+      "startLat": 31.180252075195312,
+      "startLng": 121.28245544433594
+    }
+  ]
+}

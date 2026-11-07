@@ -1,0 +1,353 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-03T06:09:36.165Z",
+  "tile": {
+    "z": 13,
+    "x": 6853,
+    "y": 3351
+  },
+  "segments": [
+    {
+      "id": "36911890",
+      "tileScore": 2,
+      "name": "工程大操场两圈",
+      "distanceM": 841.2000122070312,
+      "avgGrade": 0.45173558592796326,
+      "startLat": 31.056547164916992,
+      "startLng": 121.19734191894531
+    },
+    {
+      "id": "36894166",
+      "tileScore": 19,
+      "name": "ER - Babies Arm",
+      "distanceM": 56876.1015625,
+      "avgGrade": 0,
+      "startLat": 31.179828643798828,
+      "startLng": 121.28097534179688
+    },
+    {
+      "id": "37027201",
+      "tileScore": 7,
+      "name": "ER speedy circuit ",
+      "distanceM": 75940.3984375,
+      "avgGrade": -0.010534577071666718,
+      "startLat": 31.1991024017334,
+      "startLng": 121.27393341064453
+    },
+    {
+      "id": "27319679",
+      "tileScore": 21,
+      "name": "Shanghai Tour de France 上海环法 - Argelès-Montpellier",
+      "distanceM": 2990.39990234375,
+      "avgGrade": 0.006688068155199289,
+      "startLat": 31.044111251831055,
+      "startLng": 121.17743682861328
+    },
+    {
+      "id": "9512918",
+      "tileScore": 48,
+      "name": "Chen Shan Tang Bridge (Eastbound)",
+      "distanceM": 479.3999938964844,
+      "avgGrade": 0.5423446297645569,
+      "startLat": 31.071474075317383,
+      "startLng": 121.18062591552734
+    },
+    {
+      "id": "8274306",
+      "tileScore": 45,
+      "name": "佘天昆公路-向东",
+      "distanceM": 2751.60009765625,
+      "avgGrade": -0.10902747511863708,
+      "startLat": 31.07249641418457,
+      "startLng": 121.1431884765625
+    },
+    {
+      "id": "24366874",
+      "tileScore": 36,
+      "name": "沈砖公路TT赛段",
+      "distanceM": 9975.5,
+      "avgGrade": -0.006014736369252205,
+      "startLat": 31.08570671081543,
+      "startLng": 121.16598510742188
+    },
+    {
+      "id": "41396153",
+      "tileScore": 111,
+      "name": "Shetiankun sprint",
+      "distanceM": 572,
+      "avgGrade": 0.17482517659664154,
+      "startLat": 31.08718490600586,
+      "startLng": 121.1874008178711
+    },
+    {
+      "id": "38340800",
+      "tileScore": 45,
+      "name": "龙源路至太阳岛辣堡前热身",
+      "distanceM": 12976.599609375,
+      "avgGrade": -0.016953593119978905,
+      "startLat": 31.071630477905273,
+      "startLng": 121.19587707519531
+    },
+    {
+      "id": "9625925",
+      "tileScore": 242,
+      "name": "辰花路拉爆冲刺",
+      "distanceM": 1702.800048828125,
+      "avgGrade": 0.12919896841049194,
+      "startLat": 31.071367263793945,
+      "startLng": 121.21575164794922
+    },
+    {
+      "id": "27743438",
+      "tileScore": 4,
+      "name": "Cemetery 2 SRC",
+      "distanceM": 56811.30078125,
+      "avgGrade": 0,
+      "startLat": 31.20186996459961,
+      "startLng": 121.27755737304688
+    },
+    {
+      "id": "27327757",
+      "tileScore": 8,
+      "name": "Shanghai Tour de France 上海环法 - Full Tour (100km)",
+      "distanceM": 100065.796875,
+      "avgGrade": 0.002498356159776449,
+      "startLat": 31.153793334960938,
+      "startLng": 121.20298767089844
+    },
+    {
+      "id": "36030087",
+      "tileScore": 3,
+      "name": "Ridey Gravel！",
+      "distanceM": 777.0999755859375,
+      "avgGrade": -0.18015699088573456,
+      "startLat": 31.083940505981445,
+      "startLng": 121.16134643554688
+    },
+    {
+      "id": "39592211",
+      "tileScore": 55,
+      "name": "SVC - Off to Kakistan Sprint",
+      "distanceM": 1098.300048828125,
+      "avgGrade": 0.07283984124660492,
+      "startLat": 31.087350845336914,
+      "startLng": 121.19843292236328
+    },
+    {
+      "id": "30768098",
+      "tileScore": 15,
+      "name": "JR003",
+      "distanceM": 18046.900390625,
+      "avgGrade": -0.008865788578987122,
+      "startLat": 31.157154083251953,
+      "startLng": 121.29386901855469
+    },
+    {
+      "id": "2800659",
+      "tileScore": 3,
+      "name": "Shenzhuan Hwy Short",
+      "distanceM": 5337.22998046875,
+      "avgGrade": -0.11241849511861801,
+      "startLat": 31.08367156982422,
+      "startLng": 121.17442321777344
+    },
+    {
+      "id": "32539661",
+      "tileScore": 76,
+      "name": "Two Mountain ITT(辰花路龙源路至佘天昆公路）",
+      "distanceM": 5728.60009765625,
+      "avgGrade": 0,
+      "startLat": 31.071548461914062,
+      "startLng": 121.19673919677734
+    },
+    {
+      "id": "23820479",
+      "tileScore": 88,
+      "name": "辰花路天坑酒店段",
+      "distanceM": 2454.5,
+      "avgGrade": 0.02444489859044552,
+      "startLat": 31.07147789001465,
+      "startLng": 121.17084503173828
+    },
+    {
+      "id": "37724746",
+      "tileScore": 8,
+      "name": "青浦快运",
+      "distanceM": 66769.3984375,
+      "avgGrade": -0.013179689645767212,
+      "startLat": 31.176237106323242,
+      "startLng": 121.27295684814453
+    },
+    {
+      "id": "37119049",
+      "tileScore": 8,
+      "name": "千新公路-植物园方向",
+      "distanceM": 2648.699951171875,
+      "avgGrade": -0.037754371762275696,
+      "startLat": 31.109954833984375,
+      "startLng": 121.16759490966797
+    },
+    {
+      "id": "32907409",
+      "tileScore": 43,
+      "name": "Longyuan Rd. No Traffic Light Dash (N-S)",
+      "distanceM": 1084.9000244140625,
+      "avgGrade": 0.07373951375484467,
+      "startLat": 31.061603546142578,
+      "startLng": 121.19636535644531
+    },
+    {
+      "id": "29773521",
+      "tileScore": 15,
+      "name": "辰塔路怒干泥头车",
+      "distanceM": 1431.300048828125,
+      "avgGrade": 0.02794662117958069,
+      "startLat": 31.07220458984375,
+      "startLng": 121.17137908935547
+    },
+    {
+      "id": "32184895",
+      "tileScore": 31,
+      "name": "Shenshan Runway",
+      "distanceM": 2679.10009765625,
+      "avgGrade": 0.014930387027561665,
+      "startLat": 31.08710289001465,
+      "startLng": 121.19776916503906
+    },
+    {
+      "id": "33343794",
+      "tileScore": 21,
+      "name": "龙源路(南)",
+      "distanceM": 4585.2998046875,
+      "avgGrade": -0.03489411994814873,
+      "startLat": 31.086694717407227,
+      "startLng": 121.19856262207031
+    },
+    {
+      "id": "28851670",
+      "tileScore": 14,
+      "name": "Guangfulin RD - Sanxin N. RD to A30",
+      "distanceM": 4560.2998046875,
+      "avgGrade": -0.03069973550736904,
+      "startLat": 31.055267333984375,
+      "startLng": 121.1819076538086
+    },
+    {
+      "id": "42345837",
+      "tileScore": 23,
+      "name": "6哥带你刷两山",
+      "distanceM": 52786.69921875,
+      "avgGrade": -0.002652183175086975,
+      "startLat": 31.17475128173828,
+      "startLng": 121.30008697509766
+    },
+    {
+      "id": "30768094",
+      "tileScore": 2,
+      "name": "JR002",
+      "distanceM": 16654.099609375,
+      "avgGrade": 0.010808149352669716,
+      "startLat": 31.087905883789062,
+      "startLng": 121.1983871459961
+    },
+    {
+      "id": "34643436",
+      "tileScore": 9,
+      "name": "广富林印象城荡腿",
+      "distanceM": 1837.0999755859375,
+      "avgGrade": -0.05987698212265968,
+      "startLat": 31.061859130859375,
+      "startLng": 121.19718170166016
+    },
+    {
+      "id": "9512835",
+      "tileScore": 22,
+      "name": "You Dun Gang Bridge (Eastbound)",
+      "distanceM": 526.9000244140625,
+      "avgGrade": 0.47447332739830017,
+      "startLat": 31.068281173706055,
+      "startLng": 121.16316223144531
+    },
+    {
+      "id": "17819979",
+      "tileScore": 60,
+      "name": "龙源路黄金四圈赛 - 终点冲刺",
+      "distanceM": 361.20001220703125,
+      "avgGrade": -0.38759690523147583,
+      "startLat": 31.073251724243164,
+      "startLng": 121.19751739501953
+    },
+    {
+      "id": "28250728",
+      "tileScore": 42,
+      "name": "BTP-TT07",
+      "distanceM": 9454.400390625,
+      "avgGrade": -0.07403960078954697,
+      "startLat": 31.15132713317871,
+      "startLng": 121.22286224365234
+    },
+    {
+      "id": "41587216",
+      "tileScore": 2,
+      "name": "Bridge Up, Bridge Down",
+      "distanceM": 1023.7999877929688,
+      "avgGrade": 0.04883766546845436,
+      "startLat": 31.054513931274414,
+      "startLng": 121.1830062866211
+    },
+    {
+      "id": "37119463",
+      "tileScore": 52,
+      "name": "Fat Leaf Sprint",
+      "distanceM": 508,
+      "avgGrade": 0.07874015718698502,
+      "startLat": 31.07151985168457,
+      "startLng": 121.20308685302734
+    },
+    {
+      "id": "29418735",
+      "tileScore": 2,
+      "name": "JR&Des@CN-007",
+      "distanceM": 25046,
+      "avgGrade": -0.031541962176561356,
+      "startLat": 31.155345916748047,
+      "startLng": 121.22297668457031
+    },
+    {
+      "id": "37738362",
+      "tileScore": 12,
+      "name": "Ed在辰花路进攻了！",
+      "distanceM": 542.5999755859375,
+      "avgGrade": -0.1842978298664093,
+      "startLat": 31.07155990600586,
+      "startLng": 121.17455291748047
+    },
+    {
+      "id": "30281829",
+      "tileScore": 5,
+      "name": "FNC-007",
+      "distanceM": 22714.19921875,
+      "avgGrade": 0.0017610129434615374,
+      "startLat": 30.96060562133789,
+      "startLng": 121.1836929321289
+    },
+    {
+      "id": "40051554",
+      "tileScore": 109,
+      "name": "骑客晨练前半段",
+      "distanceM": 17343.099609375,
+      "avgGrade": 0.00576598197221756,
+      "startLat": 31.14890480041504,
+      "startLng": 121.22411346435547
+    },
+    {
+      "id": "9625902",
+      "tileScore": 265,
+      "name": "龙源绕圈",
+      "distanceM": 7345,
+      "avgGrade": 0.0027229406405240297,
+      "startLat": 31.072731018066406,
+      "startLng": 121.19745635986328
+    }
+  ]
+}

@@ -1,0 +1,155 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-03T06:09:48.949Z",
+  "tile": {
+    "z": 13,
+    "x": 6856,
+    "y": 3353
+  },
+  "segments": [
+    {
+      "id": "40029519",
+      "tileScore": 15,
+      "name": "Bridge to Canals ",
+      "distanceM": 1662.0999755859375,
+      "avgGrade": -0.06016485393047333,
+      "startLat": 30.978506088256836,
+      "startLng": 121.30272674560547
+    },
+    {
+      "id": "24880886",
+      "tileScore": 22,
+      "name": "车墩最后一哆嗦",
+      "distanceM": 1330.4000244140625,
+      "avgGrade": 0.02254960872232914,
+      "startLat": 31.015457153320312,
+      "startLng": 121.30194091796875
+    },
+    {
+      "id": "30258982",
+      "tileScore": 1,
+      "name": "Cheting & MaoTing Road",
+      "distanceM": 2299.5,
+      "avgGrade": -0.047836486250162125,
+      "startLat": 31.004838943481445,
+      "startLng": 121.30197143554688
+    },
+    {
+      "id": "34393102",
+      "tileScore": 17,
+      "name": "Cheting Hwy N-S",
+      "distanceM": 13921,
+      "avgGrade": -0.017240140587091446,
+      "startLat": 31.015979766845703,
+      "startLng": 121.30183410644531
+    },
+    {
+      "id": "32907937",
+      "tileScore": 16,
+      "name": "江川路小直道",
+      "distanceM": 1745.0999755859375,
+      "avgGrade": 0,
+      "startLat": 30.988094329833984,
+      "startLng": 121.32730102539062
+    },
+    {
+      "id": "30974305",
+      "tileScore": 1,
+      "name": "米市渡河畔TT 第二段",
+      "distanceM": 3771.10009765625,
+      "avgGrade": 0.026517460122704506,
+      "startLat": 30.96816062927246,
+      "startLng": 121.31678771972656
+    },
+    {
+      "id": "30564398",
+      "tileScore": 15,
+      "name": "FMG-09",
+      "distanceM": 2810.39990234375,
+      "avgGrade": 0.06404782086610794,
+      "startLat": 30.997798919677734,
+      "startLng": 121.30182647705078
+    },
+    {
+      "id": "40647315",
+      "tileScore": 2,
+      "name": "Fengxian South Canals",
+      "distanceM": 20461.400390625,
+      "avgGrade": 0.010751952417194843,
+      "startLat": 30.976587295532227,
+      "startLng": 121.3487319946289
+    },
+    {
+      "id": "35915115",
+      "tileScore": 3,
+      "name": "Cuncuntong Jianchuan Rd to Shuiboyuan",
+      "distanceM": 3744.800048828125,
+      "avgGrade": -0.02136295661330223,
+      "startLat": 31.006473541259766,
+      "startLng": 121.33811950683594
+    },
+    {
+      "id": "42333030",
+      "tileScore": 1,
+      "name": "country roads",
+      "distanceM": 6634,
+      "avgGrade": -0.039192043244838715,
+      "startLat": 31.014999389648438,
+      "startLng": 121.33002471923828
+    },
+    {
+      "id": "11994119",
+      "tileScore": 6,
+      "name": "Yinshui Rd (Eastbound)",
+      "distanceM": 1371.9000244140625,
+      "avgGrade": -0.09475909173488617,
+      "startLat": 30.978744506835938,
+      "startLng": 121.30278015136719
+    },
+    {
+      "id": "30564384",
+      "tileScore": 17,
+      "name": "FMG-08",
+      "distanceM": 6086.7001953125,
+      "avgGrade": 0.016429264098405838,
+      "startLat": 31.052913665771484,
+      "startLng": 121.30116271972656
+    },
+    {
+      "id": "40145258",
+      "tileScore": 2,
+      "name": "Sculpture Alley South",
+      "distanceM": 965.5999755859375,
+      "avgGrade": 0,
+      "startLat": 30.9954891204834,
+      "startLng": 121.3270263671875
+    },
+    {
+      "id": "24881993",
+      "tileScore": 43,
+      "name": "江北climb",
+      "distanceM": 530.2000122070312,
+      "avgGrade": 0.32063373923301697,
+      "startLat": 30.97859764099121,
+      "startLng": 121.30380249023438
+    },
+    {
+      "id": "13917180",
+      "tileScore": 3,
+      "name": "北松公路至松江",
+      "distanceM": 4290.7998046875,
+      "avgGrade": 0.05127249285578728,
+      "startLat": 31.016141891479492,
+      "startLng": 121.30204772949219
+    },
+    {
+      "id": "11464863",
+      "tileScore": 16,
+      "name": "Jiangchuan Rd Eastbound to McD",
+      "distanceM": 8908.599609375,
+      "avgGrade": 0.04939047619700432,
+      "startLat": 30.988248825073242,
+      "startLng": 121.32856750488281
+    }
+  ]
+}

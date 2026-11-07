@@ -1,0 +1,20 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-03T06:10:41.742Z",
+  "tile": {
+    "z": 13,
+    "x": 6868,
+    "y": 3354
+  },
+  "segments": [
+    {
+      "id": "30450614",
+      "tileScore": 24,
+      "name": "“海王杯”第二赛段",
+      "distanceM": 21629.400390625,
+      "avgGrade": 0.0527060404419899,
+      "startLat": 30.94480323791504,
+      "startLng": 121.8846435546875
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-03T06:02:51.783Z",
+  "tile": {
+    "z": 13,
+    "x": 6869,
+    "y": 3337
+  },
+  "segments": [
+    {
+      "id": "40548218",
+      "tileScore": 6,
+      "name": "秋季崇明瓜全程",
+      "distanceM": 69191.8984375,
+      "avgGrade": 0.017632121220231056,
+      "startLat": 31.462778091430664,
+      "startLng": 121.8483657836914
+    },
+    {
+      "id": "38181904",
+      "tileScore": 16,
+      "name": "巨大侧锋路段",
+      "distanceM": 2138,
+      "avgGrade": 0.0654817521572113,
+      "startLat": 31.57842445373535,
+      "startLng": 121.90898132324219
+    },
+    {
+      "id": "40267942",
+      "tileScore": 8,
+      "name": "It's nice to ride on Gravel ",
+      "distanceM": 3336.699951171875,
+      "avgGrade": 0.005993946455419064,
+      "startLat": 31.58099937438965,
+      "startLng": 121.87677001953125
+    },
+    {
+      "id": "39086499",
+      "tileScore": 12,
+      "name": "崇明东半岛北贴ITT",
+      "distanceM": 25298.099609375,
+      "avgGrade": 0.0023717195726931095,
+      "startLat": 31.578561782836914,
+      "startLng": 121.9088363647461
+    },
+    {
+      "id": "42049546",
+      "tileScore": 20,
+      "name": "东滩北风车路-东向西",
+      "distanceM": 7694.2001953125,
+      "avgGrade": 0.010397442616522312,
+      "startLat": 31.574871063232422,
+      "startLng": 121.90989685058594
+    }
+  ]
+}

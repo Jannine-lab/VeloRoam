@@ -1,0 +1,218 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-03T06:06:53.200Z",
+  "tile": {
+    "z": 13,
+    "x": 6858,
+    "y": 3345
+  },
+  "segments": [
+    {
+      "id": "17743283",
+      "tileScore": 8,
+      "name": "ChangZhong E-W B",
+      "distanceM": 3084.60009765625,
+      "avgGrade": -0.012967645190656185,
+      "startLat": 31.307552337646484,
+      "startLng": 121.44232940673828
+    },
+    {
+      "id": "33723152",
+      "tileScore": 32,
+      "name": "SHU South Gate Sprint",
+      "distanceM": 505.20001220703125,
+      "avgGrade": -0.03958828002214432,
+      "startLat": 31.313474655151367,
+      "startLng": 121.39144897460938
+    },
+    {
+      "id": "34599297",
+      "tileScore": 1,
+      "name": "真金路-真大路一路向西",
+      "distanceM": 935.2000122070312,
+      "avgGrade": -0.0213858000934124,
+      "startLat": 31.281341552734375,
+      "startLng": 121.40164184570312
+    },
+    {
+      "id": "35856479",
+      "tileScore": 3,
+      "name": "连场线westward（大连路-大场）",
+      "distanceM": 14133.900390625,
+      "avgGrade": 0.0028300751000642776,
+      "startLat": 31.25510025024414,
+      "startLng": 121.51271057128906
+    },
+    {
+      "id": "38912597",
+      "tileScore": 10,
+      "name": "南大路",
+      "distanceM": 5523.5,
+      "avgGrade": 0.0036208927631378174,
+      "startLat": 31.301517486572266,
+      "startLng": 121.40791320800781
+    },
+    {
+      "id": "11569842",
+      "tileScore": 10,
+      "name": "Hutai Lu northbound (Changzhong Lu to Nanwenzao Lu)",
+      "distanceM": 3544.10009765625,
+      "avgGrade": 0,
+      "startLat": 31.30527687072754,
+      "startLng": 121.40929412841797
+    },
+    {
+      "id": "35982209",
+      "tileScore": 6,
+      "name": "诺诺回家了！",
+      "distanceM": 1007.2000122070312,
+      "avgGrade": 0,
+      "startLat": 31.28642463684082,
+      "startLng": 121.41673278808594
+    },
+    {
+      "id": "27821571",
+      "tileScore": 21,
+      "name": "Fuck Zhenda Rd Bridge",
+      "distanceM": 773.5999755859375,
+      "avgGrade": 0.14219234883785248,
+      "startLat": 31.285749435424805,
+      "startLng": 121.39268493652344
+    },
+    {
+      "id": "20792467",
+      "tileScore": 13,
+      "name": "ChangZhong 0",
+      "distanceM": 677.0999755859375,
+      "avgGrade": 0.05907546728849411,
+      "startLat": 31.304651260375977,
+      "startLng": 121.41751861572266
+    },
+    {
+      "id": "33036422",
+      "tileScore": 5,
+      "name": "沪太路-新沪路大宁路段",
+      "distanceM": 2157.699951171875,
+      "avgGrade": -0.06488390266895294,
+      "startLat": 31.270729064941406,
+      "startLng": 121.4345932006836
+    },
+    {
+      "id": "36812118",
+      "tileScore": 8,
+      "name": "Tour de Dachang Airport",
+      "distanceM": 20435.400390625,
+      "avgGrade": -0.01565910130739212,
+      "startLat": 31.305885314941406,
+      "startLng": 121.42900085449219
+    },
+    {
+      "id": "34815422",
+      "tileScore": 1,
+      "name": "华和路 一路向东",
+      "distanceM": 1385.0999755859375,
+      "avgGrade": -0.11551512777805328,
+      "startLat": 31.293216705322266,
+      "startLng": 121.38178253173828
+    },
+    {
+      "id": "33197824",
+      "tileScore": 2,
+      "name": "hualing road",
+      "distanceM": 1860.300048828125,
+      "avgGrade": -0.010750954039394855,
+      "startLat": 31.28154945373535,
+      "startLng": 121.41645050048828
+    },
+    {
+      "id": "6971182",
+      "tileScore": 2,
+      "name": "Xinhu Rd (Southbound)",
+      "distanceM": 1512.5,
+      "avgGrade": 0.13884298503398895,
+      "startLat": 31.284259796142578,
+      "startLng": 121.41789245605469
+    },
+    {
+      "id": "6971167",
+      "tileScore": 1,
+      "name": "Hutai Rd x Railway Flyover (Southbound)",
+      "distanceM": 414.1000061035156,
+      "avgGrade": 0.02414875663816929,
+      "startLat": 31.303590774536133,
+      "startLng": 121.40890502929688
+    },
+    {
+      "id": "18594407",
+      "tileScore": 8,
+      "name": "Zouma Pond straight",
+      "distanceM": 3573,
+      "avgGrade": 0.01679261215031147,
+      "startLat": 31.301532745361328,
+      "startLng": 121.45572662353516
+    },
+    {
+      "id": "34815406",
+      "tileScore": 7,
+      "name": "古浪路 一路冲冲冲冲",
+      "distanceM": 1046.4000244140625,
+      "avgGrade": 0,
+      "startLat": 31.283910751342773,
+      "startLng": 121.39201354980469
+    },
+    {
+      "id": "32517364",
+      "tileScore": 1,
+      "name": "Shangda-Qilianshan-Guchen-Hutai-Shangda Rd Lap",
+      "distanceM": 10728.2998046875,
+      "avgGrade": -0.009321141056716442,
+      "startLat": 31.31358528137207,
+      "startLng": 121.39315795898438
+    },
+    {
+      "id": "12554312",
+      "tileScore": 1,
+      "name": "The Escape from Baoshan",
+      "distanceM": 4605.2998046875,
+      "avgGrade": -0.015199878253042698,
+      "startLat": 31.295459747314453,
+      "startLng": 121.40656280517578
+    },
+    {
+      "id": "41304837",
+      "tileScore": 35,
+      "name": "20s上桥最大输出北向南",
+      "distanceM": 995.5999755859375,
+      "avgGrade": 0.2611490786075592,
+      "startLat": 31.305641174316406,
+      "startLng": 121.39238739013672
+    },
+    {
+      "id": "34815415",
+      "tileScore": 12,
+      "name": "小小祁安路",
+      "distanceM": 843.5999755859375,
+      "avgGrade": 0,
+      "startLat": 31.285480499267578,
+      "startLng": 121.38103485107422
+    },
+    {
+      "id": "41943026",
+      "tileScore": 14,
+      "name": "南大路itt",
+      "distanceM": 1547.5,
+      "avgGrade": 0.01292407140135765,
+      "startLat": 31.301517486572266,
+      "startLng": 121.40840911865234
+    },
+    {
+      "id": "34573913",
+      "tileScore": 12,
+      "name": "一早出门 糖原先消耗完",
+      "distanceM": 544.9000244140625,
+      "avgGrade": 0.03670398145914078,
+      "startLat": 31.28260612487793,
+      "startLng": 121.39596557617188
+    }
+  ]
+}

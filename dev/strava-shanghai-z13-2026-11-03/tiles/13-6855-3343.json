@@ -1,0 +1,119 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-03T06:05:01.409Z",
+  "tile": {
+    "z": 13,
+    "x": 6855,
+    "y": 3343
+  },
+  "segments": [
+    {
+      "id": "37134597",
+      "tileScore": 8,
+      "name": "江杨南北and keep riding",
+      "distanceM": 28191.19921875,
+      "avgGrade": -0.014898266643285751,
+      "startLat": 31.322021484375,
+      "startLng": 121.46370697021484
+    },
+    {
+      "id": "41131709",
+      "tileScore": 11,
+      "name": "FarScentLakeClockwise",
+      "distanceM": 3103.60009765625,
+      "avgGrade": 0.03222064673900604,
+      "startLat": 31.35616111755371,
+      "startLng": 121.259765625
+    },
+    {
+      "id": "40915629",
+      "tileScore": 9,
+      "name": "嘉定 097 SILC",
+      "distanceM": 2714.800048828125,
+      "avgGrade": -0.04420214891433716,
+      "startLat": 31.357885360717773,
+      "startLng": 121.26324462890625
+    },
+    {
+      "id": "37419667",
+      "tileScore": 3,
+      "name": "嘉新公路绿荫路段（南-北）",
+      "distanceM": 2259,
+      "avgGrade": -0.03541389852762222,
+      "startLat": 31.336380004882812,
+      "startLng": 121.28622436523438
+    },
+    {
+      "id": "18271170",
+      "tileScore": 24,
+      "name": "HuYi Rd Bridge",
+      "distanceM": 678.2000122070312,
+      "avgGrade": -0.23591861128807068,
+      "startLat": 31.349937438964844,
+      "startLng": 121.27001190185547
+    },
+    {
+      "id": "36269047",
+      "tileScore": 3,
+      "name": "上大嘉定 002",
+      "distanceM": 508.8999938964844,
+      "avgGrade": 0.2751031517982483,
+      "startLat": 31.378538131713867,
+      "startLng": 121.24654388427734
+    },
+    {
+      "id": "21192641",
+      "tileScore": 2,
+      "name": "博乐路-立新路W-E（塔城路）  by yuuu",
+      "distanceM": 3026.89990234375,
+      "avgGrade": -0.03303709998726845,
+      "startLat": 31.384992599487305,
+      "startLng": 121.25005340576172
+    },
+    {
+      "id": "21192479",
+      "tileScore": 2,
+      "name": "新欧尚上桥＋下桥",
+      "distanceM": 344.3999938964844,
+      "avgGrade": 0.058072008192539215,
+      "startLat": 31.386430740356445,
+      "startLng": 121.27395629882812
+    },
+    {
+      "id": "6877776",
+      "tileScore": 6,
+      "name": "Jiading iTT circuit Stage 1 2014",
+      "distanceM": 3748.300048828125,
+      "avgGrade": 0,
+      "startLat": 31.349050521850586,
+      "startLng": 121.25643920898438
+    },
+    {
+      "id": "21192490",
+      "tileScore": 1,
+      "name": "新成路-澄浏中路  byyuuuu",
+      "distanceM": 902.5,
+      "avgGrade": 0.022160664200782776,
+      "startLat": 31.383787155151367,
+      "startLng": 121.26436614990234
+    },
+    {
+      "id": "29011864",
+      "tileScore": 3,
+      "name": "JD004",
+      "distanceM": 3896.800048828125,
+      "avgGrade": 0.0923834890127182,
+      "startLat": 31.392946243286133,
+      "startLng": 121.23838806152344
+    },
+    {
+      "id": "36121592",
+      "tileScore": 19,
+      "name": "间歇 训练",
+      "distanceM": 4653.7998046875,
+      "avgGrade": -0.008595126681029797,
+      "startLat": 31.375080108642578,
+      "startLng": 121.25016784667969
+    }
+  ]
+}

@@ -1,0 +1,119 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-03T06:06:56.599Z",
+  "tile": {
+    "z": 13,
+    "x": 6865,
+    "y": 3345
+  },
+  "segments": [
+    {
+      "id": "9613248",
+      "tileScore": 17,
+      "name": "North Bafana Dash",
+      "distanceM": 2633.89990234375,
+      "avgGrade": -0.03416986018419266,
+      "startLat": 31.2653751373291,
+      "startLng": 121.72134399414062
+    },
+    {
+      "id": "37721624",
+      "tileScore": 142,
+      "name": "下坡玩命",
+      "distanceM": 564.5,
+      "avgGrade": -3.1532328128814697,
+      "startLat": 31.290180206298828,
+      "startLng": 121.69166564941406
+    },
+    {
+      "id": "30428937",
+      "tileScore": 5,
+      "name": "东川公路（东靖路-金海路）",
+      "distanceM": 2738,
+      "avgGrade": 0.014609202742576599,
+      "startLat": 31.29694366455078,
+      "startLng": 121.67613220214844
+    },
+    {
+      "id": "36838080",
+      "tileScore": 33,
+      "name": "凌空北路绕圈",
+      "distanceM": 4714.5,
+      "avgGrade": -0.0042422316037118435,
+      "startLat": 31.281347274780273,
+      "startLng": 121.67859649658203
+    },
+    {
+      "id": "33123486",
+      "tileScore": 207,
+      "name": "两桥绕圈",
+      "distanceM": 5202.7998046875,
+      "avgGrade": -0.02306450344622135,
+      "startLat": 31.297346115112305,
+      "startLng": 121.67632293701172
+    },
+    {
+      "id": "38865694",
+      "tileScore": 137,
+      "name": "JM 一起爬1",
+      "distanceM": 814.7999877929688,
+      "avgGrade": 2.0127639770507812,
+      "startLat": 31.297557830810547,
+      "startLng": 121.67739868164062
+    },
+    {
+      "id": "38596816",
+      "tileScore": 100,
+      "name": "滨源路桥前冲刺",
+      "distanceM": 1013,
+      "avgGrade": 0.1776900291442871,
+      "startLat": 31.291433334350586,
+      "startLng": 121.699951171875
+    },
+    {
+      "id": "36935227",
+      "tileScore": 91,
+      "name": "Easy Peasy Bridges",
+      "distanceM": 8940.599609375,
+      "avgGrade": -0.044739726930856705,
+      "startLat": 31.29645538330078,
+      "startLng": 121.6235122680664
+    },
+    {
+      "id": "9613263",
+      "tileScore": 4,
+      "name": "Bump Pa Te Bump",
+      "distanceM": 1757.0999755859375,
+      "avgGrade": 0.051220763474702835,
+      "startLat": 31.286813735961914,
+      "startLng": 121.70732879638672
+    },
+    {
+      "id": "36742918",
+      "tileScore": 79,
+      "name": "Wed morning rock -2",
+      "distanceM": 969.7000122070312,
+      "avgGrade": 0.020624935626983643,
+      "startLat": 31.2784366607666,
+      "startLng": 121.71145629882812
+    },
+    {
+      "id": "5402909",
+      "tileScore": 1,
+      "name": "Harbour Wall Ride (MTB's Only)",
+      "distanceM": 4394.5,
+      "avgGrade": -0.1183297261595726,
+      "startLat": 31.2641658782959,
+      "startLng": 121.74012756347656
+    },
+    {
+      "id": "34017447",
+      "tileScore": 84,
+      "name": "BinYuan Hwy Bridge Climb",
+      "distanceM": 558.2999877929688,
+      "avgGrade": 1.325452208518982,
+      "startLat": 31.29878044128418,
+      "startLng": 121.6891098022461
+    }
+  ]
+}

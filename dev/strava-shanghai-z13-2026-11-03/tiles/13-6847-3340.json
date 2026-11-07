@@ -1,0 +1,38 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-03T06:04:16.445Z",
+  "tile": {
+    "z": 13,
+    "x": 6847,
+    "y": 3340
+  },
+  "segments": [
+    {
+      "id": "23426761",
+      "tileScore": 1,
+      "name": "X301 Eastbound - another bridge KOM",
+      "distanceM": 1161.5,
+      "avgGrade": 0.17219114303588867,
+      "startLat": 31.4945068359375,
+      "startLng": 120.88629913330078
+    },
+    {
+      "id": "25680360",
+      "tileScore": 1,
+      "name": "Kim&Kaare’s Canal Segment (Southbound)",
+      "distanceM": 4439.7998046875,
+      "avgGrade": 0.004504707176238298,
+      "startLat": 31.50302505493164,
+      "startLng": 120.90562438964844
+    },
+    {
+      "id": "20169914",
+      "tileScore": 4,
+      "name": "YCH TOP Three Bridge WtoE rush",
+      "distanceM": 7901.89990234375,
+      "avgGrade": -0.015186221338808537,
+      "startLat": 31.48989486694336,
+      "startLng": 120.83085632324219
+    }
+  ]
+}

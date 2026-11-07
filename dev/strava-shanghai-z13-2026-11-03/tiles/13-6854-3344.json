@@ -1,0 +1,155 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-03T06:05:01.409Z",
+  "tile": {
+    "z": 13,
+    "x": 6854,
+    "y": 3344
+  },
+  "segments": [
+    {
+      "id": "30376587",
+      "tileScore": 5,
+      "name": "宝安公路-沈海高速 跨线大桥",
+      "distanceM": 734.2999877929688,
+      "avgGrade": -0.09532888978719711,
+      "startLat": 31.324554443359375,
+      "startLng": 121.2508316040039
+    },
+    {
+      "id": "35032864",
+      "tileScore": 64,
+      "name": "伊宁路沈海高速立交",
+      "distanceM": 946.0999755859375,
+      "avgGrade": 0.8244372010231018,
+      "startLat": 31.337810516357422,
+      "startLng": 121.24382781982422
+    },
+    {
+      "id": "32011709",
+      "tileScore": 11,
+      "name": "上海葛隆检查站",
+      "distanceM": 20198.900390625,
+      "avgGrade": -0.011881834827363491,
+      "startLat": 31.301441192626953,
+      "startLng": 121.2960205078125
+    },
+    {
+      "id": "28651375",
+      "tileScore": 35,
+      "name": "温泉♨️路绕圈",
+      "distanceM": 1627.5999755859375,
+      "avgGrade": 0.012288031168282032,
+      "startLat": 31.346641540527344,
+      "startLng": 121.23178100585938
+    },
+    {
+      "id": "30376756",
+      "tileScore": 15,
+      "name": "高尔夫场绕圈高速3边",
+      "distanceM": 3775.5,
+      "avgGrade": 0.01854059100151062,
+      "startLat": 31.320722579956055,
+      "startLng": 121.22212219238281
+    },
+    {
+      "id": "7043800",
+      "tileScore": 446,
+      "name": "Shanghai F1 Track",
+      "distanceM": 5271.7001953125,
+      "avgGrade": 0.09105222672224045,
+      "startLat": 31.337390899658203,
+      "startLng": 121.22098541259766
+    },
+    {
+      "id": "32072559",
+      "tileScore": 13,
+      "name": "伊宁路宝安公路绕圈",
+      "distanceM": 5714,
+      "avgGrade": 0,
+      "startLat": 31.332271575927734,
+      "startLng": 121.23043823242188
+    },
+    {
+      "id": "40956661",
+      "tileScore": 5,
+      "name": "嘉定到安亭最快路线",
+      "distanceM": 8401.7001953125,
+      "avgGrade": -0.0261851754039526,
+      "startLat": 31.358226776123047,
+      "startLng": 121.21436309814453
+    },
+    {
+      "id": "18131769",
+      "tileScore": 4,
+      "name": "Shengxin Road Straight South",
+      "distanceM": 16619.099609375,
+      "avgGrade": 0.010830910876393318,
+      "startLat": 31.431230545043945,
+      "startLng": 121.18557739257812
+    },
+    {
+      "id": "40417928",
+      "tileScore": 1,
+      "name": "TowershowRd-AuraRoyale",
+      "distanceM": 813.5,
+      "avgGrade": 0.024585125967860222,
+      "startLat": 31.346174240112305,
+      "startLng": 121.241943359375
+    },
+    {
+      "id": "25652399",
+      "tileScore": 25,
+      "name": "Pujiang Jiaoye Park ",
+      "distanceM": 10514.2001953125,
+      "avgGrade": 0.02092408388853073,
+      "startLat": 31.36074447631836,
+      "startLng": 121.21723937988281
+    },
+    {
+      "id": "30376582",
+      "tileScore": 6,
+      "name": "安晓路跨线立交桥",
+      "distanceM": 621.2000122070312,
+      "avgGrade": 0.25756600499153137,
+      "startLat": 31.322551727294922,
+      "startLng": 121.22583770751953
+    },
+    {
+      "id": "38262529",
+      "tileScore": 309,
+      "name": "上赛终点线前猛冲",
+      "distanceM": 497.3999938964844,
+      "avgGrade": -0.0402090884745121,
+      "startLat": 31.33805274963379,
+      "startLng": 121.22547912597656
+    },
+    {
+      "id": "29928647",
+      "tileScore": 1,
+      "name": "B.A Road (S7-J.S North Road)",
+      "distanceM": 10950.599609375,
+      "avgGrade": 0.0027395759243518114,
+      "startLat": 31.348772048950195,
+      "startLng": 121.33210754394531
+    },
+    {
+      "id": "27885501",
+      "tileScore": 6,
+      "name": "BTP-CN-060",
+      "distanceM": 9583.099609375,
+      "avgGrade": -0.02608759142458439,
+      "startLat": 31.317602157592773,
+      "startLng": 121.21540832519531
+    },
+    {
+      "id": "41484352",
+      "tileScore": 10,
+      "name": "嘉定绿道（漳翔路->嘉安公路）",
+      "distanceM": 5211.5,
+      "avgGrade": -0.026863668113946915,
+      "startLat": 31.328369140625,
+      "startLng": 121.24053192138672
+    }
+  ]
+}

@@ -1,0 +1,236 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-03T06:08:06.516Z",
+  "tile": {
+    "z": 13,
+    "x": 6860,
+    "y": 3350
+  },
+  "segments": [
+    {
+      "id": "38352371",
+      "tileScore": 27,
+      "name": "三林南 099",
+      "distanceM": 546,
+      "avgGrade": 0.32967033982276917,
+      "startLat": 31.127885818481445,
+      "startLng": 121.48107147216797
+    },
+    {
+      "id": "34837711",
+      "tileScore": 16,
+      "name": "浦江 010 Sprint Green",
+      "distanceM": 910.9000244140625,
+      "avgGrade": -0.0439126119017601,
+      "startLat": 31.107223510742188,
+      "startLng": 121.49811553955078
+    },
+    {
+      "id": "37930610",
+      "tileScore": 18,
+      "name": "浦江 082 TT Long",
+      "distanceM": 6066.5,
+      "avgGrade": -0.026374351233243942,
+      "startLat": 31.060304641723633,
+      "startLng": 121.49788665771484
+    },
+    {
+      "id": "34777855",
+      "tileScore": 7,
+      "name": "三林 098 Sprint",
+      "distanceM": 2203.199951171875,
+      "avgGrade": 0,
+      "startLat": 31.118637084960938,
+      "startLng": 121.49539184570312
+    },
+    {
+      "id": "38663066",
+      "tileScore": 1,
+      "name": "浦江 030 U Turn Short",
+      "distanceM": 797.7000122070312,
+      "avgGrade": -0.05014416575431824,
+      "startLat": 31.109346389770508,
+      "startLng": 121.46624755859375
+    },
+    {
+      "id": "38365432",
+      "tileScore": 7,
+      "name": "浦江 076",
+      "distanceM": 1115.199951171875,
+      "avgGrade": -0.07173601537942886,
+      "startLat": 31.114269256591797,
+      "startLng": 121.48241424560547
+    },
+    {
+      "id": "28081187",
+      "tileScore": 21,
+      "name": "江梅路至陈行公路短距离冲刺",
+      "distanceM": 2456.89990234375,
+      "avgGrade": 0.08954373002052307,
+      "startLat": 31.111501693725586,
+      "startLng": 121.48224639892578
+    },
+    {
+      "id": "9110801",
+      "tileScore": 8,
+      "name": "Y064 Linpu South Rd (Northbound)",
+      "distanceM": 1003.9000244140625,
+      "avgGrade": -0.11953382194042206,
+      "startLat": 31.11189842224121,
+      "startLng": 121.47540283203125
+    },
+    {
+      "id": "36504860",
+      "tileScore": 2,
+      "name": "浦江 015 Sprint L",
+      "distanceM": 1602.800048828125,
+      "avgGrade": -0.08734714239835739,
+      "startLat": 31.12407875061035,
+      "startLng": 121.48809814453125
+    },
+    {
+      "id": "34837696",
+      "tileScore": 15,
+      "name": "浦江 095",
+      "distanceM": 1267,
+      "avgGrade": 0.015785319730639458,
+      "startLat": 31.105680465698242,
+      "startLng": 121.49896240234375
+    },
+    {
+      "id": "38659188",
+      "tileScore": 1,
+      "name": "浦江 029 Riverside Forest",
+      "distanceM": 562.4000244140625,
+      "avgGrade": -0.17780938744544983,
+      "startLat": 31.09889793395996,
+      "startLng": 121.46582794189453
+    },
+    {
+      "id": "40304581",
+      "tileScore": 48,
+      "name": "三林南 096 TT",
+      "distanceM": 1996.0999755859375,
+      "avgGrade": 0.06011722609400749,
+      "startLat": 31.11498260498047,
+      "startLng": 121.48149871826172
+    },
+    {
+      "id": "21036682",
+      "tileScore": 7,
+      "name": "Minpu Tues - Park to LP with extension",
+      "distanceM": 56914,
+      "avgGrade": -0.006325332447886467,
+      "startLat": 31.213491439819336,
+      "startLng": 121.46663665771484
+    },
+    {
+      "id": "36140859",
+      "tileScore": 4,
+      "name": "不骑快一点赶不上船",
+      "distanceM": 1390.300048828125,
+      "avgGrade": 0.7624253630638123,
+      "startLat": 31.092788696289062,
+      "startLng": 121.48528289794922
+    },
+    {
+      "id": "24425517",
+      "tileScore": 3,
+      "name": "ShangNan PuJin Lightning!!!",
+      "distanceM": 21129.69921875,
+      "avgGrade": 0.011358419433236122,
+      "startLat": 31.194862365722656,
+      "startLng": 121.49488830566406
+    },
+    {
+      "id": "34959743",
+      "tileScore": 11,
+      "name": "浦江 012",
+      "distanceM": 1170.800048828125,
+      "avgGrade": -0.1195763573050499,
+      "startLat": 31.129167556762695,
+      "startLng": 121.49019622802734
+    },
+    {
+      "id": "38679102",
+      "tileScore": 7,
+      "name": "三鲁公路 099",
+      "distanceM": 1980.5999755859375,
+      "avgGrade": -0.02019589953124523,
+      "startLat": 31.103063583374023,
+      "startLng": 121.51061248779297
+    },
+    {
+      "id": "34777759",
+      "tileScore": 5,
+      "name": "三林滨江 003 Riverside",
+      "distanceM": 1786.199951171875,
+      "avgGrade": -0.03359086439013481,
+      "startLat": 31.12932014465332,
+      "startLng": 121.46735382080078
+    },
+    {
+      "id": "40516250",
+      "tileScore": 53,
+      "name": "浦江 041 R",
+      "distanceM": 525.5999755859375,
+      "avgGrade": 0.038051750510931015,
+      "startLat": 31.113378524780273,
+      "startLng": 121.48181915283203
+    },
+    {
+      "id": "39449065",
+      "tileScore": 4,
+      "name": "三鲁公路 097",
+      "distanceM": 780.5,
+      "avgGrade": -0.025624599307775497,
+      "startLat": 31.11562156677246,
+      "startLng": 121.49706268310547
+    },
+    {
+      "id": "35083404",
+      "tileScore": 16,
+      "name": "浦江 099 TT Long",
+      "distanceM": 9674.7998046875,
+      "avgGrade": -0.006201678421348333,
+      "startLat": 31.063274383544922,
+      "startLng": 121.50765228271484
+    },
+    {
+      "id": "21385054",
+      "tileScore": 12,
+      "name": "Alex's Lip Biter",
+      "distanceM": 935.9000244140625,
+      "avgGrade": 0.042739611119031906,
+      "startLat": 31.11262321472168,
+      "startLng": 121.48243713378906
+    },
+    {
+      "id": "40872035",
+      "tileScore": 2,
+      "name": "浦江 067",
+      "distanceM": 2886,
+      "avgGrade": -0.06930007040500641,
+      "startLat": 31.09243392944336,
+      "startLng": 121.48242950439453
+    },
+    {
+      "id": "8767219",
+      "tileScore": 9,
+      "name": "San Lu Hwy South ( S20 to S32)",
+      "distanceM": 9014.900390625,
+      "avgGrade": -0.00665564788505435,
+      "startLat": 31.132736206054688,
+      "startLng": 121.4984359741211
+    },
+    {
+      "id": "39058026",
+      "tileScore": 8,
+      "name": "浦瑞路周浦塘桥",
+      "distanceM": 505.5,
+      "avgGrade": -0.2967359125614166,
+      "startLat": 31.09147071838379,
+      "startLng": 121.4821548461914
+    }
+  ]
+}

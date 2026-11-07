@@ -1,0 +1,218 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-03T06:07:47.199Z",
+  "tile": {
+    "z": 13,
+    "x": 6854,
+    "y": 3348
+  },
+  "segments": [
+    {
+      "id": "11606937",
+      "tileScore": 21,
+      "name": "The Yinggang Lung Burner",
+      "distanceM": 4309.10009765625,
+      "avgGrade": 0.09514747560024261,
+      "startLat": 31.166017532348633,
+      "startLng": 121.22124481201172
+    },
+    {
+      "id": "41042471",
+      "tileScore": 12,
+      "name": "Songze Avenue Jiasong Middle Road Bus Stop Climb",
+      "distanceM": 539.2000122070312,
+      "avgGrade": -0.3709198832511902,
+      "startLat": 31.176645278930664,
+      "startLng": 121.22152709960938
+    },
+    {
+      "id": "37027201",
+      "tileScore": 7,
+      "name": "ER speedy circuit ",
+      "distanceM": 75940.3984375,
+      "avgGrade": -0.010534577071666718,
+      "startLat": 31.1991024017334,
+      "startLng": 121.27393341064453
+    },
+    {
+      "id": "34326424",
+      "tileScore": 51,
+      "name": "Songze Avenue Westbound - Jiasong to Zhaochong",
+      "distanceM": 3518.39990234375,
+      "avgGrade": 0.1080036386847496,
+      "startLat": 31.176984786987305,
+      "startLng": 121.21894836425781
+    },
+    {
+      "id": "36962149",
+      "tileScore": 51,
+      "name": "蟠龙天地走到底",
+      "distanceM": 18617.099609375,
+      "avgGrade": -0.021485622972249985,
+      "startLat": 31.188560485839844,
+      "startLng": 121.2720718383789
+    },
+    {
+      "id": "30074936",
+      "tileScore": 23,
+      "name": "LG-03",
+      "distanceM": 14774.2001953125,
+      "avgGrade": 0.028427934274077415,
+      "startLat": 31.1706485748291,
+      "startLng": 121.23775482177734
+    },
+    {
+      "id": "9331077",
+      "tileScore": 44,
+      "name": "Abandoned road 1mi on Yinggang (westbound)",
+      "distanceM": 1791.699951171875,
+      "avgGrade": 0.022325165569782257,
+      "startLat": 31.170263290405273,
+      "startLng": 121.23987579345703
+    },
+    {
+      "id": "20766869",
+      "tileScore": 17,
+      "name": "Rice Racer",
+      "distanceM": 583.9000244140625,
+      "avgGrade": -0.10275732725858688,
+      "startLat": 31.1885929107666,
+      "startLng": 121.23651123046875
+    },
+    {
+      "id": "27307755",
+      "tileScore": 1,
+      "name": "BTP-CN-007",
+      "distanceM": 3007.39990234375,
+      "avgGrade": 0.046551838517189026,
+      "startLat": 31.192140579223633,
+      "startLng": 121.18306732177734
+    },
+    {
+      "id": "27310604",
+      "tileScore": 3,
+      "name": "Shanghai Tour de France 上海环法 - Mulhouse-Strasbourg",
+      "distanceM": 2764.10009765625,
+      "avgGrade": -0.0325603261590004,
+      "startLat": 31.153478622436523,
+      "startLng": 121.20298767089844
+    },
+    {
+      "id": "30390321",
+      "tileScore": 1,
+      "name": "BTP-S8",
+      "distanceM": 4827.2001953125,
+      "avgGrade": -0.0041431887075304985,
+      "startLat": 31.137880325317383,
+      "startLng": 121.22484588623047
+    },
+    {
+      "id": "37654724",
+      "tileScore": 3,
+      "name": "佘山到盘龙的冲刺 1",
+      "distanceM": 20402.69921875,
+      "avgGrade": -0.0009802624117583036,
+      "startLat": 31.094135284423828,
+      "startLng": 121.1690902709961
+    },
+    {
+      "id": "6807303",
+      "tileScore": 20,
+      "name": "Abandoned road 2mi onYinggang ",
+      "distanceM": 1717.800048828125,
+      "avgGrade": -0.06985679268836975,
+      "startLat": 31.166173934936523,
+      "startLng": 121.22159576416016
+    },
+    {
+      "id": "36894166",
+      "tileScore": 19,
+      "name": "ER - Babies Arm",
+      "distanceM": 56876.1015625,
+      "avgGrade": 0,
+      "startLat": 31.179828643798828,
+      "startLng": 121.28097534179688
+    },
+    {
+      "id": "22909826",
+      "tileScore": 13,
+      "name": "Suck it Songze",
+      "distanceM": 2947.800048828125,
+      "avgGrade": 0.01017708145081997,
+      "startLat": 31.1765193939209,
+      "startLng": 121.24118041992188
+    },
+    {
+      "id": "30390325",
+      "tileScore": 18,
+      "name": "BTP-S9",
+      "distanceM": 4162.60009765625,
+      "avgGrade": -0.004804689437150955,
+      "startLat": 31.17131805419922,
+      "startLng": 121.23987579345703
+    },
+    {
+      "id": "2766097",
+      "tileScore": 9,
+      "name": "Jiasong North - Boyuan to Songze",
+      "distanceM": 10168.91015625,
+      "avgGrade": -0.02261798270046711,
+      "startLat": 31.26540756225586,
+      "startLng": 121.19969177246094
+    },
+    {
+      "id": "27743438",
+      "tileScore": 4,
+      "name": "Cemetery 2 SRC",
+      "distanceM": 56811.30078125,
+      "avgGrade": 0,
+      "startLat": 31.20186996459961,
+      "startLng": 121.27755737304688
+    },
+    {
+      "id": "34326409",
+      "tileScore": 33,
+      "name": "Songze Avenue Westbound - Xuying to Jiasong",
+      "distanceM": 3799.699951171875,
+      "avgGrade": 0.0736900269985199,
+      "startLat": 31.183914184570312,
+      "startLng": 121.25945281982422
+    },
+    {
+      "id": "11606920",
+      "tileScore": 2,
+      "name": "Mingzhu to Jiasong",
+      "distanceM": 3733,
+      "avgGrade": 0.09375837445259094,
+      "startLat": 31.20376968383789,
+      "startLng": 121.2525634765625
+    },
+    {
+      "id": "27307749",
+      "tileScore": 25,
+      "name": "BTP-CN-005",
+      "distanceM": 2999.699951171875,
+      "avgGrade": -0.020002000033855438,
+      "startLat": 31.16628074645996,
+      "startLng": 121.2191162109375
+    },
+    {
+      "id": "27327757",
+      "tileScore": 8,
+      "name": "Shanghai Tour de France 上海环法 - Full Tour (100km)",
+      "distanceM": 100065.796875,
+      "avgGrade": 0.002498356159776449,
+      "startLat": 31.153793334960938,
+      "startLng": 121.20298767089844
+    },
+    {
+      "id": "37724746",
+      "tileScore": 8,
+      "name": "青浦快运",
+      "distanceM": 66769.3984375,
+      "avgGrade": -0.013179689645767212,
+      "startLat": 31.176237106323242,
+      "startLng": 121.27295684814453
+    }
+  ]
+}

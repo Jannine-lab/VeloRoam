@@ -1,0 +1,74 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-03T06:06:37.591Z",
+  "tile": {
+    "z": 13,
+    "x": 6852,
+    "y": 3343
+  },
+  "segments": [
+    {
+      "id": "40643041",
+      "tileScore": 6,
+      "name": "新农村TT",
+      "distanceM": 2380.5,
+      "avgGrade": 0,
+      "startLat": 31.388748168945312,
+      "startLng": 121.11312103271484
+    },
+    {
+      "id": "34631044",
+      "tileScore": 10,
+      "name": "Race to Police Check Point",
+      "distanceM": 839.5999755859375,
+      "avgGrade": -0.5240590572357178,
+      "startLat": 31.3697566986084,
+      "startLng": 121.12519836425781
+    },
+    {
+      "id": "34631067",
+      "tileScore": 4,
+      "name": "Taicang Country Roads & Fields ",
+      "distanceM": 1417,
+      "avgGrade": 0.14820042252540588,
+      "startLat": 31.377649307250977,
+      "startLng": 121.11988830566406
+    },
+    {
+      "id": "32011709",
+      "tileScore": 11,
+      "name": "上海葛隆检查站",
+      "distanceM": 20198.900390625,
+      "avgGrade": -0.011881834827363491,
+      "startLat": 31.301441192626953,
+      "startLng": 121.2960205078125
+    },
+    {
+      "id": "14284788",
+      "tileScore": 1,
+      "name": "X104 (Westbound)",
+      "distanceM": 15180.7001953125,
+      "avgGrade": 0.026349246501922607,
+      "startLat": 31.381698608398438,
+      "startLng": 121.14749145507812
+    },
+    {
+      "id": "14279144",
+      "tileScore": 8,
+      "name": "Bai'an Hwy (Southbound)",
+      "distanceM": 1698.0999755859375,
+      "avgGrade": -0.03533360734581947,
+      "startLat": 31.38133430480957,
+      "startLng": 121.14872741699219
+    },
+    {
+      "id": "34631052",
+      "tileScore": 10,
+      "name": "Out of Anting to Taicang",
+      "distanceM": 7637.10009765625,
+      "avgGrade": -0.010475180111825466,
+      "startLat": 31.312946319580078,
+      "startLng": 121.16061401367188
+    }
+  ]
+}
