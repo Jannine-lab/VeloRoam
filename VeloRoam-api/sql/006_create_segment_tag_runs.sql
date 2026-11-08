@@ -2,6 +2,7 @@ CREATE TABLE IF NOT EXISTS strava_segment_tag_runs (
   run_id CHAR(36) NOT NULL PRIMARY KEY,
   algorithm_version VARCHAR(64) NOT NULL,
   reference_version CHAR(64) NOT NULL,
+  reference_source_snapshot_hash CHAR(64) NOT NULL,
   source_snapshot_hash CHAR(64) NOT NULL,
   source_count INT UNSIGNED NOT NULL,
   target_count INT UNSIGNED NOT NULL,

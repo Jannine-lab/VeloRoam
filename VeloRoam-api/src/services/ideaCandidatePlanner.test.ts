@@ -1,7 +1,8 @@
 import { strict as assert } from 'assert';
 import { test } from 'node:test';
-import { compareRouteCandidates } from './ideaCandidatePlanner';
+import { compareRouteCandidates, routeBoundsFromIntent } from './ideaCandidatePlanner';
 import { CompositeRoute, RouteStop } from './ideaRouteService';
+import { sanitizeConversationIntent } from './ideaIntent';
 
 const stops = (name: string): RouteStop[] => [{ type: 'point', name, coordinates: [{ lat: 31, lng: 121 }] }];
 const route = (km: number): CompositeRoute => ({ legs: [], stops: [], distanceKm: km, durationMin: 1, hasEstimatedTime: false });
@@ -13,6 +14,34 @@ test('compares navigated candidates and enforces total-distance constraints befo
   assert.equal(result?.route.distanceKm, 72);
   assert.equal(result?.attempted, 3);
   assert.equal(result?.valid, 2);
+});
+
+test('uses ±10% only for a target without explicit distance bounds', async () => {
+  const bounds = routeBoundsFromIntent(sanitizeConversationIntent({ mode: 'route', targetKm: 50 })!);
+  assert.equal(bounds.minKm, 45);
+  assert.equal(bounds.maxKm, 55.00000000000001);
+  const choices = [44.99, 45, 55, 55.01].map((km, i) => ({ stops: stops(String(km)), priority: i }));
+  const result = await compareRouteCandidates(choices, bounds, async value => route(Number(value[0].name)));
+  assert.equal(result?.route.distanceKm, 45);
+  assert.equal(result?.valid, 2);
+  const explicit = routeBoundsFromIntent(sanitizeConversationIntent({ mode: 'route', targetKm: 50, minKm: 30, maxKm: 70 })!);
+  assert.equal(explicit.minKm, 30);
+  assert.equal(explicit.maxKm, 70);
+  const maximumOnly = routeBoundsFromIntent(sanitizeConversationIntent({ mode: 'route', targetKm: 50, maxKm: 60 })!);
+  assert.equal(maximumOnly.minKm, null);
+  assert.equal(maximumOnly.maxKm, 60);
+});
+
+test('enforces explicit time bounds and includes known stops in total time', async () => {
+  const choices = [{ stops: stops('slow'), priority: 0 }, { stops: stops('faster'), priority: 0 }];
+  const build = async (value: RouteStop[]) => ({ ...route(30), durationMin: value[0].name === 'slow' ? 100 : 80 });
+  const result = await compareRouteCandidates(choices, { maxMinutes: 110, targetMinutes: 100, stopMinutes: 20 }, build);
+  assert.equal(result?.stops[0].name, 'faster');
+  assert.equal(result?.valid, 1);
+  const unknownStops = await compareRouteCandidates(choices, { minMinutes: 110, maxMinutes: 120, stopMinutes: null }, build);
+  assert.equal(unknownStops?.valid, 2);
+  const knownStops = await compareRouteCandidates(choices, { minMinutes: 110, maxMinutes: 120, stopMinutes: 20 }, build);
+  assert.equal(knownStops?.valid, 1);
 });
 
 test('continues when one route fails and does not invent a result outside constraints', async () => {

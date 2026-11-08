@@ -1,4 +1,5 @@
 import { Router } from 'express';
+import { routeGeneratorDebug } from '../controllers/routeGeneratorDebugController';
 import { recommendIdeas } from '../controllers/ideaController';
 import { ideaDistanceRecommendations } from '../controllers/ideaDistanceController';
 import { ideaGreeting } from '../controllers/ideaGreetingController';
@@ -11,6 +12,7 @@ import { getHotPoints, getScenicDiscoveries, getScenicMapPoints } from '../contr
 const router = Router();
 
 // POST /api/routes/plan
+router.post('/debug/route-generator', routeGeneratorDebug);
 router.post('/idea-recommendations', recommendIdeas);
 router.post('/idea-distance-recommendations', ideaDistanceRecommendations);
 router.post('/idea-greeting', ideaGreeting);

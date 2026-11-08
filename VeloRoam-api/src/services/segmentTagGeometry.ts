@@ -148,14 +148,16 @@ function spatialGrid(samples: Sample[]): Map<string, number[]> {
   return grid;
 }
 
-function reverseCoverage(samples: Sample[], length: number): { ratio: number; ambiguous: boolean } | null {
+function reverseCoverage(samples: Sample[], length: number): { ratio: number; ambiguous: boolean; headingReliable: boolean } | null {
   const grid = spatialGrid(samples);
   let comparisons = 0;
   let matchedLength = 0;
   let parallelOffsetLength = 0;
+  let directionalLength = 0;
   for (let i = 0; i < samples.length; i++) {
     const sample = samples[i];
     if (sample.dx === 0 && sample.dy === 0) continue;
+    directionalLength += sample.weight;
     const cellX = Math.floor(sample.x / 20);
     const cellY = Math.floor(sample.y / 20);
     let closestSquared = Infinity;
@@ -182,7 +184,8 @@ function reverseCoverage(samples: Sample[], length: number): { ratio: number; am
     }
   }
   // Sustained offsets of 8–20 m may represent separate parallel roads rather than retracing.
-  return { ratio: matchedLength / length, ambiguous: parallelOffsetLength / length >= 0.3 };
+  return { ratio: matchedLength / length, ambiguous: parallelOffsetLength / length >= 0.3,
+    headingReliable: directionalLength / length >= 0.8 };
 }
 
 class MaximumFenwickTree {
@@ -305,6 +308,12 @@ export function analyzeSegmentGeometry(raw: unknown, recordedDistanceKm: number 
     return result;
   }
   result.reverseOverlapRatio = coverage.ratio;
+  if (!coverage.headingReliable) {
+    result.geometryReliable = false;
+    result.reverseOverlapRatio = null;
+    result.issues.push('ambiguous_heading');
+    return result;
+  }
   if (coverage.ambiguous) {
     result.geometryReliable = false;
     result.issues.push('parallel_road_ambiguity');

@@ -1,6 +1,8 @@
 import 'dotenv/config';
 import express from 'express';
 import cors from 'cors';
+import { resolve } from 'node:path';
+import { allowLocalDebug } from './controllers/routeGeneratorDebugController';
 import routeRoutes from './routes/routeRoutes';
 import crawlerRoutes from './routes/crawlerRoutes';
 import { initDatabase } from './config/db';
@@ -13,6 +15,12 @@ const port = process.env.PORT || 3000;
 // Middleware
 app.use(cors());
 app.use(express.json());
+
+// Local-only, explicitly enabled development visualizer.
+app.get('/dev/route-generator', (req, res) => {
+  if (!allowLocalDebug(req)) return res.status(404).send('Not found');
+  return res.sendFile(resolve(__dirname, '../../dev/route-generator.html'));
+});
 
 // Routes
 app.use('/api/routes', routeRoutes);

@@ -95,6 +95,15 @@ test('near parallel opposite roads remain uncertain instead of being confidently
   assert.ok(result.issues.includes('parallel_road_ambiguity'));
 });
 
+test('short repeated shuttles with a cancelling heading window are uncertain, not circular', () => {
+  const points: XY[] = Array.from({ length: 81 }, (_, i) => [i % 2 ? 25 : 0, 0]);
+  const result = analyzeSegmentGeometry(geometry(points), null);
+  assert.equal(result.lengthReliable, true);
+  assert.equal(result.geometryReliable, false);
+  assert.equal(result.reverseOverlapRatio, null);
+  assert.ok(result.issues.includes('ambiguous_heading'));
+});
+
 test('malformed vertices are rejected rather than dropped or joined across', () => {
   for (const raw of [
     { type: 'LineString', coordinates: [[121, 31], null, [121.01, 31]] },

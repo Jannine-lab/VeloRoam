@@ -17,6 +17,9 @@ const CITY_PRIORITY = `CASE
 const CITY_NAMES = ['上海', '南京', '北京', '深圳', '其他地区'];
 const sleep = (ms: number) => new Promise(resolveWait => setTimeout(resolveWait, ms));
 const numberOrNull = (v: unknown): number | null => typeof v === 'number' && Number.isFinite(v) ? v : null;
+// Strava occasionally returns negative counters; keep them in raw_detail but
+// leave unsigned numeric columns empty rather than aborting the whole crawl.
+const countOrNull = (v: unknown): number | null => typeof v === 'number' && Number.isSafeInteger(v) && v >= 0 ? v : null;
 const textOrNull = (v: unknown): string | null => typeof v === 'string' ? v : null;
 const boolOrNull = (v: unknown): number | null => typeof v === 'boolean' ? Number(v) : null;
 const dateOrNull = (v: unknown): Date | null => {
@@ -79,8 +82,8 @@ async function run(): Promise<void> {
           [id, textOrNull(d.name), textOrNull(d.activity_type), numberOrNull(d.distance), numberOrNull(d.average_grade),
            numberOrNull(d.maximum_grade), numberOrNull(d.elevation_high), numberOrNull(d.elevation_low),
            numberOrNull(d.total_elevation_gain), numberOrNull(d.climb_category), textOrNull(d.city), textOrNull(d.state),
-           textOrNull(d.country), boolOrNull(d.private), boolOrNull(d.hazardous), numberOrNull(d.star_count),
-           numberOrNull(d.athlete_count), numberOrNull(d.effort_count), dateOrNull(d.created_at), dateOrNull(d.updated_at), JSON.stringify(d)]);
+           textOrNull(d.country), boolOrNull(d.private), boolOrNull(d.hazardous), countOrNull(d.star_count),
+           countOrNull(d.athlete_count), countOrNull(d.effort_count), dateOrNull(d.created_at), dateOrNull(d.updated_at), JSON.stringify(d)]);
         saved++;
         console.log(`[SegmentDetails] ${CITY_NAMES[priority]}: saved ${saved}, attempts ${attempts}; segment ${id}.`);
       } catch (error: any) {

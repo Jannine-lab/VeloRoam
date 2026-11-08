@@ -13,9 +13,12 @@
     "backfill:strava-details": "ts-node src/scripts/stravaSegmentDetailsBackfill.ts",
     "init:recommendation-tables": "ts-node src/scripts/initRecommendationTables.ts",
     "lint": "eslint 'src/**/*.ts'",
-    "test": "echo \"Error: no test specified\" && exit 0",
+    "test": "node --test --test-concurrency=4 --require ts-node/register/transpile-only src/controllers/*.test.ts src/services/*.test.ts src/evals/*.test.ts",
     "cache:strava-details": "ts-node src/scripts/cacheStravaSegmentDetails.ts",
-    "eval:idea": "ts-node src/evals/ideaConversationEval.ts"
+    "eval:idea": "ts-node src/evals/ideaConversationEval.ts",
+    "backfill:segment-tags": "ts-node src/scripts/backfillSegmentTags.ts",
+    "test:ui": "node --test ../VeloRoam-ui/*.test.cjs",
+    "typecheck": "tsc --noEmit"
   },
   "keywords": [
     "cycling",
@@ -30,6 +33,7 @@
     "@googlemaps/google-maps-services-js": "^3.4.0",
     "@langchain/core": "^1.3.1",
     "@langchain/deepseek": "^1.1.21",
+    "@langchain/langgraph": "^1.7.2",
     "axios": "^1.6.8",
     "cors": "^2.8.5",
     "dotenv": "^16.4.5",

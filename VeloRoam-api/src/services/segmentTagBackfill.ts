@@ -23,6 +23,24 @@ export interface NormalizedSegmentTagSource {
 
 export const fingerprint = (value: unknown): string => createHash('sha256').update(stableJson(value)).digest('hex');
 
+/** MySQL 5.7 JSON can round a floating value by a few ULPs on a JSON round trip. */
+export function firstJsonDifference(expected: unknown, actual: unknown, path = '$'): string | null {
+  if (expected === actual) return null;
+  if (typeof expected === 'number' && typeof actual === 'number' && Number.isFinite(expected) && Number.isFinite(actual) &&
+      !Number.isInteger(expected) &&
+      Math.abs(expected - actual) <= 8 * Number.EPSILON * Math.max(1, Math.abs(expected), Math.abs(actual))) return null;
+  if (expected && actual && typeof expected === 'object' && typeof actual === 'object') {
+    if (Array.isArray(expected) !== Array.isArray(actual)) return `${path}: different JSON types`;
+    const keys = [...new Set([...Object.keys(expected), ...Object.keys(actual)])].sort();
+    for (const key of keys) {
+      const difference = firstJsonDifference((expected as Record<string, unknown>)[key], (actual as Record<string, unknown>)[key], `${path}.${key}`);
+      if (difference) return difference;
+    }
+    return null;
+  }
+  return `${path}: expected ${JSON.stringify(expected)}; got ${JSON.stringify(actual)}`;
+}
+
 function numberOrNull(value: unknown): number | null {
   if (value === null || value === undefined || (typeof value !== 'number' && typeof value !== 'string')) return null;
   if (typeof value === 'string' && !value.trim()) return null;
@@ -106,7 +124,7 @@ export function prepareStoredEvaluation(source: NormalizedSegmentTagSource, eval
 
 export function summarizeEvaluations(rows: readonly StoredTagEvaluation[]): Record<string, unknown> {
   const counts: Record<string, Record<string, number>> = {};
-  const samples: Record<string, Record<string, Array<{ id: string; reasons: string[] }>>> = {};
+  const samples: Record<string, Record<string, Array<{ id: string; reasons: string[]; evidence: Record<string, unknown> }>>> = {};
   for (const tag of SEGMENT_TAGS) {
     counts[tag] = { matched: 0, not_matched: 0, unknown: 0 };
     samples[tag] = { matched: [], not_matched: [], unknown: [] };
@@ -114,7 +132,7 @@ export function summarizeEvaluations(rows: readonly StoredTagEvaluation[]): Reco
   for (const row of rows) {
     if (!counts[row.tag] || !(row.status in counts[row.tag])) throw new Error('Invalid classification output');
     counts[row.tag][row.status]++;
-    if (samples[row.tag][row.status].length < 5) samples[row.tag][row.status].push({ id: row.segmentId, reasons: row.reasonCodes });
+    if (samples[row.tag][row.status].length < 5) samples[row.tag][row.status].push({ id: row.segmentId, reasons: row.reasonCodes, evidence: row.evidence });
   }
   return { counts, samples };
 }

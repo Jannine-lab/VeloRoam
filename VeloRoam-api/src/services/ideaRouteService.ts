@@ -1,11 +1,12 @@
 import { fetchAmapBicyclingCandidates } from './amapFewestSignalService';
 import { LatLng, getDistanceMeters } from '../utils/polyline';
 import { SignalRouteCandidate } from './fewestSignalRanking';
+import { RouteTagStatuses } from './ideaIntent';
 
-export interface SegmentDetail { id: string; averageGrade: number | null; elevationGainM: number | null; athleteCount: number | null; effortCount: number | null; hazardous: boolean | null; recordedDistanceKm: number | null; }
+export interface SegmentDetail { id: string; averageGrade: number | null; elevationGainM: number | null; athleteCount: number | null; effortCount: number | null; hazardous: boolean | null; recordedDistanceKm: number | null; tags?: RouteTagStatuses; }
 export interface RouteStop { type: 'point' | 'segment'; name: string; coordinates: LatLng[]; distanceKm?: number; detail?: SegmentDetail; }
 export interface CompositeLeg { type: 'connection' | 'segment'; name: string; points: LatLng[]; distanceKm: number; durationMin: number; estimated: boolean; detail?: SegmentDetail; }
-export interface CompositeRoute { legs: CompositeLeg[]; stops: Array<{ name: string; type: string; point: LatLng }>; distanceKm: number; durationMin: number; hasEstimatedTime: boolean; }
+export interface CompositeRoute { legs: CompositeLeg[]; stops: Array<{ name: string; type: string; point: LatLng }>; distanceKm: number; durationMin: number; hasEstimatedTime: boolean; continuity?: { maxGapMeters: number; toleranceMeters: number }; }
 
 export function trajectoryDistanceKm(points: LatLng[]): number {
   return points.slice(1).reduce((sum, point, index) => sum + getDistanceMeters(points[index], point), 0) / 1000;
@@ -19,6 +20,7 @@ export async function buildIdeaRoute(
   const legs: CompositeLeg[] = [];
   const markers: CompositeRoute['stops'] = [{ name: startName, type: 'start', point: start }];
   let current = start;
+  const endpointOffsets: number[] = [];
   const connect = async (target: LatLng, name: string) => {
     if (getDistanceMeters(current, target) < 5) { current = target; return; }
     const candidates = await fetchRoutes(current, target);
@@ -26,6 +28,7 @@ export async function buildIdeaRoute(
       getDistanceMeters(r.points[0], current) <= 100 && getDistanceMeters(r.points[r.points.length - 1], target) <= 100);
     if (!usable.length) throw new Error('无法连接路线中的位置，请尝试更换地点。');
     const route = usable.sort((a, b) => a.distanceKm - b.distanceKm)[0];
+    endpointOffsets.push(getDistanceMeters(route.points[0], current), getDistanceMeters(route.points[route.points.length - 1], target));
     const estimated = !Number.isFinite(route.durationMin) || route.durationMin <= 0;
     legs.push({ type: 'connection', name, points: route.points, distanceKm: route.distanceKm, durationMin: estimated ? route.distanceKm / 18 * 60 : route.durationMin, estimated });
     current = target;
@@ -45,5 +48,9 @@ export async function buildIdeaRoute(
   await connect(end, `前往${endName}`);
   markers.push({ name: endName, type: 'end', point: end });
   if (!legs.length) throw new Error('起点和终点太近，请添加途经地点。');
-  return { legs, stops: markers, distanceKm: legs.reduce((sum, leg) => sum + leg.distanceKm, 0), durationMin: legs.reduce((sum, leg) => sum + leg.durationMin, 0), hasEstimatedTime: legs.some(leg => leg.estimated) };
+  const boundaries = [getDistanceMeters(start, legs[0].points[0]), getDistanceMeters(legs[legs.length - 1].points[legs[legs.length - 1].points.length - 1], end)];
+  for (let i = 1; i < legs.length; i++) boundaries.push(getDistanceMeters(legs[i - 1].points[legs[i - 1].points.length - 1], legs[i].points[0]));
+  const maxGapMeters = Math.max(...boundaries, ...endpointOffsets);
+  if (!Number.isFinite(maxGapMeters) || maxGapMeters > 100) throw new Error('导航轨迹拼接处超过 100 米，无法确认连接。');
+  return { legs, stops: markers, continuity: { maxGapMeters, toleranceMeters: 100 }, distanceKm: legs.reduce((sum, leg) => sum + leg.distanceKm, 0), durationMin: legs.reduce((sum, leg) => sum + leg.durationMin, 0), hasEstimatedTime: legs.some(leg => leg.estimated) };
 }

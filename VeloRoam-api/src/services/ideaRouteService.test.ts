@@ -57,3 +57,27 @@ test('counts each traversal in loop and out-and-back geometry instead of stored 
   assert.equal(route.legs.length, 1);
   assert.ok(Math.abs(route.distanceKm - 4 * (await buildIdeaRoute(start, '起点', segmentStart, '终点', [{ type: 'segment', name: '单程', coordinates: [start, segmentStart] }], roads)).distanceKm) < 1e-9);
 });
+
+test('rejects adjacent legs with a gap even when each provider endpoint is individually near the waypoint', async () => {
+  let call = 0;
+  const point = { lat: 31.21, lng: 121.41 };
+  const shifted = (p: LatLng, delta: number) => ({ lat: p.lat + delta, lng: p.lng });
+  const provider = async (a: LatLng, b: LatLng) => {
+    const i = call++;
+    const points = i === 0 ? [a, shifted(b, .0007)] : [shifted(a, -.0007), b];
+    return [{ points, polyline: 'x', distanceKm: 2, durationMin: 10 }];
+  };
+  await assert.rejects(buildIdeaRoute(start, '起点', cafe, '终点', [{ type: 'point', name: '途经点', coordinates: [point] }], provider), /拼接处超过/);
+});
+
+test('reports measured junction gap without fabricating geometry', async () => {
+  const point = { lat: 31.21, lng: 121.41 };
+  let call = 0;
+  const provider = async (a: LatLng, b: LatLng) => {
+    const points = call++ === 0 ? [a, { lat: b.lat + .0001, lng: b.lng }] : [a, b];
+    return [{ points, polyline: 'x', distanceKm: 2, durationMin: 10 }];
+  };
+  const route = await buildIdeaRoute(start, '起点', cafe, '终点', [{ type: 'point', name: '途经点', coordinates: [point] }], provider);
+  assert.ok(route.continuity!.maxGapMeters > 10 && route.continuity!.maxGapMeters < 15);
+  assert.equal(route.legs.length, 2);
+});
