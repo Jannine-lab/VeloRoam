@@ -21,7 +21,7 @@
     integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin="" />
 
   <!-- Custom CSS Style -->
-  <link rel="stylesheet" href="style.css?v=20261107-input-conversation-hint">
+  <link rel="stylesheet" href="style.css?v=20261107-chat-route-sheet">
 </head>
 
 <body>
@@ -428,27 +428,24 @@
     </section>
     <section class="strava-details-panel place-details-panel" id="place-details-panel"
       aria-labelledby="place-details-title" hidden>
-      <button type="button" class="strava-panel-close-btn" id="place-details-close" aria-label="关闭地点详情" title="关闭">
-        <i class="fa-solid fa-xmark" aria-hidden="true"></i>
-      </button>
-      <div class="strava-panel-header">
-        <i class="fa-solid fa-location-dot" aria-hidden="true"></i>
-        <span class="strava-panel-tag">目的地</span>
+      <div class="segment-detail-heading">
+        <h2 class="strava-panel-title" id="place-details-title">--</h2>
+        <button type="button" class="segment-popover-close" id="place-details-close" aria-label="关闭地点详情"><i class="fa-solid fa-xmark" aria-hidden="true"></i></button>
       </div>
-      <h2 class="strava-panel-title" id="place-details-title">--</h2>
       <p class="place-details-address" id="place-details-address"></p>
       <p class="place-details-rating" id="place-details-rating" hidden></p>
       <p class="place-details-origin" id="place-details-origin"></p>
       <p class="place-details-message" id="place-details-message" role="status" aria-live="polite" hidden></p>
-      <button type="button" class="place-details-go" id="place-details-go">
+      <div class="map-detail-actions place-detail-actions"><button type="button" id="place-add-to-chat">添加到聊天</button>
+      <button type="button" id="place-details-go">
         <i class="fa-solid fa-location-arrow" aria-hidden="true"></i>
         <span>前往</span>
-      </button>
+      </button></div>
     </section>
     <section class="strava-details-panel idea-route-panel" id="idea-route-panel" aria-label="骑行路线详情" aria-hidden="true">
       <div class="segment-detail-heading">
         <h2 class="strava-panel-title" id="idea-route-title"></h2>
-        <button type="button" class="segment-popover-close" id="idea-route-popover-close" aria-label="关闭路线详情"></button>
+        <button type="button" class="segment-popover-close" id="idea-route-popover-close" aria-label="关闭路线详情"><i class="fa-solid fa-xmark" aria-hidden="true"></i></button>
       </div>
       <div class="segment-detail-grid" aria-label="路线数据">
         <div><span>路线距离</span><strong id="idea-route-distance">--</strong></div>
@@ -485,7 +482,7 @@
             <circle cx="36" cy="24" r="3" />
           </svg></div>
         <select id="idea-more" class="idea-native-menu" aria-label="更多操作">
-          <option value="" selected disabled>更多操作</option>
+          <option value="" selected disabled hidden></option>
           <option value="history">历史对话</option>
           <option value="new">新建对话</option>
         </select>
@@ -538,17 +535,17 @@
     </section>
 
     <div class="idea-compose-area">
+      <div class="idea-add-menu" id="idea-add-menu" hidden><button type="button" data-reference-type="segment">选择路段</button><button type="button" data-reference-type="place">选择地点</button></div>
       <div class="idea-place-results" id="idea-place-results" aria-label="地点搜索结果" aria-live="polite" hidden></div>
       <form class="idea-compose" id="idea-form">
-      <div class="idea-input-wrap"><i class="fa-solid fa-magnifying-glass idea-search-icon"
-          aria-hidden="true"></i><label class="sr-only" for="idea-input">搜索地点或输入骑行想法，按回车与 AI 对话</label><span
+      <div class="idea-input-wrap"><div class="idea-add-control"><button type="button" id="idea-add-button" aria-label="添加引用" aria-controls="idea-add-menu" aria-expanded="false"><i class="fa-solid fa-plus idea-search-icon" aria-hidden="true"></i></button></div><label class="sr-only" for="idea-input">输入骑行想法，按回车发送</label><span
           class="idea-input-prompt" id="idea-input-prompt" aria-hidden="true">今天，想骑向哪里？</span>
-        <div class="idea-input-editor">
+        <div class="idea-input-body"><div id="idea-references" class="idea-references" aria-label="待发送的引用" hidden></div><div class="idea-input-editor">
           <div class="idea-text-mirror" aria-hidden="true">
             <div class="idea-text-mirror-inner"><span id="idea-input-mirror"></span><span class="idea-input-hint">键入回车与 AI 对话</span></div>
-          </div><textarea id="idea-input" rows="1" maxlength="500" placeholder="检索地点或回车与 AI 对话" enterkeyhint="send"
+          </div><textarea id="idea-input" rows="1" maxlength="500" placeholder="输入骑行想法，或添加路段、地点" enterkeyhint="send"
             aria-describedby="idea-input-help"></textarea>
-        </div><span class="sr-only" id="idea-input-help">输入时可选择地点搜索结果，按回车与 AI 对话。</span>
+        </div></div><span class="sr-only" id="idea-input-help">使用添加引用选择路段或地点，按回车发送。</span><button type="submit" class="idea-send" id="idea-send" aria-label="发送" hidden><i class="fa-solid fa-arrow-up" aria-hidden="true"></i></button>
       </div><button class="idea-voice" type="button" disabled aria-label="语音输入即将上线"><i class="fa-solid fa-microphone"
           aria-hidden="true"></i></button>
       </form>
@@ -566,7 +563,7 @@
   <script src="idea-gpx.js?v=20261106"></script>
   <script src="idea-navigation.js?v=20261107"></script>
   <script src="idea-recommendation-cache.js?v=20261106-three-routes"></script>
-  <script src="app.js?v=20261107-input-conversation-hint"></script>
+  <script src="app.js?v=20261107-chat-route-sheet"></script>
 </body>
 
 </html>

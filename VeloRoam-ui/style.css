@@ -2659,11 +2659,11 @@ body.light-theme .strava-panel-close-btn:hover {
   flex: 2 1 0;
   min-width: 0;
   display: flex;
-  align-items: center;
+  align-items: flex-end;
   border: 1px solid #56625a;
   border-radius: 26px;
   background: #303632;
-  padding: 4px 16px 4px 16px;
+  padding: 4px 8px;
 }
 
 .idea-input-wrap input {
@@ -5135,6 +5135,10 @@ body.light-theme .idea-sheet .idea-route-status {
 
 @media (max-width: 767px) {
 
+  .idea-sheet.idea-entry.is-open:not(.is-full) {
+    width: 100%;
+  }
+
   .idea-sheet.idea-entry.is-open:not(.is-full),
   .map-detail-sheet.idea-sheet:not(.is-full) {
     height: min(508px, calc(58dvh + 8px), calc(var(--idea-viewport-height, 100dvh) - 8px));
@@ -5210,7 +5214,8 @@ body.light-theme .map-detail-sheet.idea-sheet {
 }
 
 .map-detail-sheet .place-details-panel.active,
-.map-detail-sheet .idea-route-panel.active {
+.map-detail-sheet .idea-route-panel.active,
+.map-detail-sheet.is-closing-route .idea-route-panel {
   display: block;
 }
 
@@ -5348,19 +5353,22 @@ body.light-theme .nearby-route-navigation-note {
     overflow: hidden;
   }
 
-  .map-detail-sheet.is-collapsed #strava-details-panel {
+  .map-detail-sheet.is-collapsed #strava-details-panel,
+  .map-detail-sheet.is-collapsed #idea-route-panel {
     overflow: hidden;
   }
 
   .nearby-route-detail .idea-nearby-summary-stats,
   .nearby-route-detail .idea-nearby-details,
-  #strava-details-panel> :not(.segment-detail-heading) {
+  #strava-details-panel> :not(.segment-detail-heading),
+  #idea-route-panel> :not(.segment-detail-heading) {
     transition: opacity 180ms ease, visibility 0s linear 180ms;
   }
 
   .map-detail-sheet.is-collapsed .idea-nearby-summary-stats,
   .map-detail-sheet.is-collapsed .idea-nearby-details,
-  .map-detail-sheet.is-collapsed #strava-details-panel> :not(.segment-detail-heading) {
+  .map-detail-sheet.is-collapsed #strava-details-panel> :not(.segment-detail-heading),
+  .map-detail-sheet.is-collapsed #idea-route-panel> :not(.segment-detail-heading) {
     opacity: 0;
     visibility: hidden;
     pointer-events: none;
@@ -5368,7 +5376,8 @@ body.light-theme .nearby-route-navigation-note {
 
   .map-detail-sheet:not(.is-collapsed) .nearby-route-detail .idea-nearby-summary-stats,
   .map-detail-sheet:not(.is-collapsed) .nearby-route-detail .idea-nearby-details,
-  .map-detail-sheet:not(.is-collapsed) #strava-details-panel> :not(.segment-detail-heading) {
+  .map-detail-sheet:not(.is-collapsed) #strava-details-panel> :not(.segment-detail-heading),
+  .map-detail-sheet:not(.is-collapsed) #idea-route-panel> :not(.segment-detail-heading) {
     transition-delay: 0s;
   }
 }
@@ -5377,7 +5386,8 @@ body.light-theme .nearby-route-navigation-note {
 
   .nearby-route-detail .idea-nearby-summary-stats,
   .nearby-route-detail .idea-nearby-details,
-  #strava-details-panel> :not(.segment-detail-heading) {
+  #strava-details-panel> :not(.segment-detail-heading),
+  #idea-route-panel> :not(.segment-detail-heading) {
     transition: none;
   }
 }
@@ -5387,7 +5397,8 @@ body.light-theme .nearby-route-navigation-note {
 }
 
 .nearby-route-detail .segment-popover-close,
-#strava-details-panel .segment-popover-close {
+#strava-details-panel .segment-popover-close,
+#idea-route-panel .segment-popover-close {
   display: inline-flex;
   flex: none;
   align-items: center;
@@ -5405,14 +5416,16 @@ body.light-theme .nearby-route-navigation-note {
   bottom: 8px;
 }
 
-#strava-details-panel .segment-popover-close {
+#strava-details-panel .segment-popover-close,
+#idea-route-panel .segment-popover-close {
   position: relative;
   left: 0;
   bottom: 4px;
 }
 
 .nearby-route-detail .segment-popover-close:focus-visible,
-#strava-details-panel .segment-popover-close:focus-visible {
+#strava-details-panel .segment-popover-close:focus-visible,
+#idea-route-panel .segment-popover-close:focus-visible {
   outline: 2px solid var(--control-focus);
   outline-offset: 2px;
 }
@@ -5420,7 +5433,8 @@ body.light-theme .nearby-route-navigation-note {
 @media (hover: hover) {
 
   .nearby-route-detail .segment-popover-close:hover,
-  #strava-details-panel .segment-popover-close:hover {
+  #strava-details-panel .segment-popover-close:hover,
+  #idea-route-panel .segment-popover-close:hover {
     background: rgba(0, 0, 0, .18);
   }
 }
@@ -5985,4 +5999,324 @@ body.light-theme .map-detail-sheet .idea-route-legs {
   .map-detail-sheet.is-route-popover:not(.is-visible) .idea-route-panel {
     display: block;
   }
+}
+
+/* Composer references and explicit search. */
+.idea-add-control {
+  position: relative;
+  flex: none;
+  width: 20px;
+  height: 28px;
+  display: grid;
+  place-items: center;
+}
+
+.idea-add-control select {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  opacity: 0;
+  cursor: pointer;
+}
+
+.idea-compose:focus-within .idea-search-icon::before {
+  content: "\2b";
+}
+
+.idea-add-control:focus-within {
+  outline: 2px solid var(--control-focus);
+  border-radius: 4px;
+}
+
+.idea-input-body {
+  flex: 1 1 0;
+  min-width: 0;
+}
+
+.idea-references {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  margin: 4px 0;
+}
+
+.idea-references[hidden],
+.idea-send[hidden] {
+  display: none;
+}
+
+.idea-reference-chip,
+.idea-message-reference {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  max-width: 100%;
+  padding: 4px 8px;
+  border-radius: 8px;
+  background: var(--idea-surface-raised, rgba(128, 145, 155, .2));
+  font-size: 12px;
+  line-height: 18px;
+}
+
+.idea-reference-chip span {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.idea-reference-chip button {
+  border: 0;
+  padding: 0 2px;
+  background: none;
+  color: inherit;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+.idea-message-reference {
+  display: flex;
+  margin-bottom: 6px;
+}
+
+.idea-send {
+  flex: none;
+  width: 36px;
+  height: 36px;
+  border: 0;
+  border-radius: 50%;
+  background: #a6f0c2;
+  color: #fff;
+  cursor: pointer;
+}
+
+.idea-compose:not(:focus-within) .idea-send {
+  display: none;
+}
+
+.idea-reference-search {
+  display: flex;
+  gap: 8px;
+  padding: 10px;
+}
+
+.idea-reference-search input {
+  min-width: 0;
+  flex: 1;
+  padding: 8px;
+  border-radius: 8px;
+}
+
+.idea-reference-search button,
+.idea-reference-result button {
+  border: 0;
+  border-radius: 8px;
+  padding: 7px 9px;
+  cursor: pointer;
+}
+
+.idea-reference-results {
+  max-height: 240px;
+  overflow-y: auto;
+  padding: 0 10px 10px;
+}
+
+.idea-reference-result {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+  padding: 8px 0;
+}
+
+.idea-reference-result>span {
+  flex: 1;
+  min-width: 0;
+}
+
+.idea-reference-result strong,
+.idea-reference-result small {
+  display: block;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+/* Keep the menu attached to the composer while the keyboard is open. */
+button {
+  -webkit-tap-highlight-color: transparent;
+}
+
+button:focus-visible {
+  outline-color: #8b9ca5 !important;
+}
+
+.idea-add-control {
+  width: 28px;
+  height: 36px;
+}
+
+.idea-add-control button {
+  display: grid;
+  place-items: center;
+  width: 100%;
+  height: 100%;
+  padding: 0;
+  border: 0;
+  background: transparent;
+  color: inherit;
+  cursor: pointer;
+}
+
+.idea-add-menu {
+  position: absolute;
+  z-index: 12;
+  left: 0;
+  bottom: calc(100% + 8px);
+  min-width: 150px;
+  padding: 6px;
+  border-radius: 16px;
+  background: var(--control-bg);
+  color: var(--control-color);
+  box-shadow: var(--control-shadow);
+}
+
+.idea-add-menu[hidden] {
+  display: none;
+}
+
+.idea-add-menu button {
+  display: block;
+  width: 100%;
+  padding: 12px;
+  border: 0;
+  border-radius: 10px;
+  background: transparent;
+  color: inherit;
+  font: inherit;
+  text-align: left;
+  cursor: pointer;
+}
+
+.idea-add-menu button:hover,
+.idea-add-menu button:focus-visible {
+  background: var(--idea-surface-raised);
+}
+
+.idea-add-control:focus-within {
+  outline: none;
+}
+
+.idea-input-body {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 4px;
+}
+
+.idea-input-editor {
+  min-width: min(160px, 100%);
+}
+
+.idea-references {
+  margin: 0;
+}
+
+.idea-reference-chip.is-segment,
+.idea-message-reference.is-segment {
+  background: #d9e8ff;
+  color: #294e7c;
+}
+
+.idea-reference-chip.is-place,
+.idea-message-reference.is-place {
+  background: #f5dfc8;
+  color: #754a25;
+}
+
+.idea-reference-chip.is-route,
+.idea-message-reference.is-route {
+  background: #e5dcf8;
+  color: #594078;
+}
+
+.idea-message-reference {
+  display: inline-flex;
+  margin: 0 5px 0 0;
+  vertical-align: baseline;
+}
+
+.idea-send {
+  color: #14261b;
+}
+
+.idea-place-results {
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  padding: 8px;
+}
+
+.idea-place-results[hidden] {
+  display: none;
+}
+
+.idea-reference-results {
+  flex: 1 1 auto;
+  padding: 8px;
+  color: var(--control-color);
+  font-size: 14px;
+}
+
+.idea-reference-search {
+  flex: none;
+  padding: 8px 4px 4px;
+}
+
+.idea-reference-search input {
+  min-height: 40px;
+  border: 0;
+  padding: 0 12px;
+  background: var(--idea-surface-raised);
+  color: var(--control-color);
+  font: inherit;
+}
+
+.idea-reference-search button,
+.idea-reference-result button {
+  background: var(--idea-surface-raised);
+  color: var(--control-color);
+  font: inherit;
+}
+
+.idea-reference-result {
+  border-bottom: 1px solid rgba(140, 155, 165, .18);
+}
+
+.idea-reference-result small {
+  margin-top: 4px;
+  opacity: .7;
+}
+
+#place-add-to-chat {
+  background: rgba(178, 202, 214, .15);
+  color: #f3f6f8;
+}
+
+#place-details-go {
+  width: auto;
+  margin: 0;
+  background: #a6f0c2;
+  color: #14261b;
+}
+
+body.light-theme #place-add-to-chat {
+  background: rgba(55, 79, 92, .12);
+  color: #263b45;
+}
+
+#place-details-panel .segment-popover-close {
+  display: inline-flex;
+  flex: none;
+  position: relative;
+  left: 0;
+  bottom: 4px;
 }
