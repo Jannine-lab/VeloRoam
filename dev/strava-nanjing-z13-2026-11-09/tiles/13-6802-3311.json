@@ -1,0 +1,29 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-08T22:25:53.624Z",
+  "tile": {
+    "z": 13,
+    "x": 6802,
+    "y": 3311
+  },
+  "segments": [
+    {
+      "id": "33293880",
+      "tileScore": 5,
+      "name": "郑四路北往南",
+      "distanceM": 8849.5,
+      "avgGrade": 0.20227131247520447,
+      "startLat": 32.59023666381836,
+      "startLng": 118.94335174560547
+    },
+    {
+      "id": "38919361",
+      "tileScore": 7,
+      "name": "郑集—东王",
+      "distanceM": 7431,
+      "avgGrade": -0.061902839690446854,
+      "startLat": 32.593021392822266,
+      "startLng": 118.94386291503906
+    }
+  ]
+}

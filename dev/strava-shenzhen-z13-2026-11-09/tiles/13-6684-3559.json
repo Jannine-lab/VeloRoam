@@ -1,0 +1,119 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-08T22:52:56.785Z",
+  "tile": {
+    "z": 13,
+    "x": 6684,
+    "y": 3559
+  },
+  "segments": [
+    {
+      "id": "15686216",
+      "tileScore": 1,
+      "name": "Long hill",
+      "distanceM": 1041.5999755859375,
+      "avgGrade": 2.1313364505767822,
+      "startLat": 22.92304229736328,
+      "startLng": 113.77375793457031
+    },
+    {
+      "id": "35978040",
+      "tileScore": 2,
+      "name": "G107杨屋至同沙",
+      "distanceM": 15945.400390625,
+      "avgGrade": 0.01379708293825388,
+      "startLat": 22.85747528076172,
+      "startLng": 113.83477020263672
+    },
+    {
+      "id": "13021121",
+      "tileScore": 3,
+      "name": "Shuilianshan Rd E to W",
+      "distanceM": 5434.2998046875,
+      "avgGrade": -0.5851719379425049,
+      "startLat": 22.949462890625,
+      "startLng": 113.76456451416016
+    },
+    {
+      "id": "9218438",
+      "tileScore": 11,
+      "name": "Shuilianshan Climb",
+      "distanceM": 4530.7001953125,
+      "avgGrade": 6.056459426879883,
+      "startLat": 22.93703842163086,
+      "startLng": 113.76133728027344
+    },
+    {
+      "id": "12658428",
+      "tileScore": 2,
+      "name": "厚大路A",
+      "distanceM": 9246,
+      "avgGrade": 0.10599178820848465,
+      "startLat": 22.908432006835938,
+      "startLng": 113.73878479003906
+    },
+    {
+      "id": "15686229",
+      "tileScore": 8,
+      "name": "Down X235",
+      "distanceM": 876.2000122070312,
+      "avgGrade": -3.4923534393310547,
+      "startLat": 22.917949676513672,
+      "startLng": 113.75019073486328
+    },
+    {
+      "id": "14561089",
+      "tileScore": 8,
+      "name": "Botanica Garden Sprint out",
+      "distanceM": 2918.39990234375,
+      "avgGrade": 0.33922699093818665,
+      "startLat": 22.96643829345703,
+      "startLng": 113.7449951171875
+    },
+    {
+      "id": "15686224",
+      "tileScore": 8,
+      "name": "Down and flat",
+      "distanceM": 1290.9000244140625,
+      "avgGrade": -0.7436672449111938,
+      "startLat": 22.92184066772461,
+      "startLng": 113.76246643066406
+    },
+    {
+      "id": "13834302",
+      "tileScore": 20,
+      "name": "Shuilianshan reservoir loop clockwise",
+      "distanceM": 6987.7001953125,
+      "avgGrade": -0.0071554300375282764,
+      "startLat": 22.966815948486328,
+      "startLng": 113.7246322631836
+    },
+    {
+      "id": "29489977",
+      "tileScore": 3,
+      "name": "水濂山路绕圈",
+      "distanceM": 7146.5,
+      "avgGrade": -0.0027985726483166218,
+      "startLat": 22.953954696655273,
+      "startLng": 113.71495819091797
+    },
+    {
+      "id": "15686213",
+      "tileScore": 1,
+      "name": "Down",
+      "distanceM": 765.7999877929688,
+      "avgGrade": -0.5484460592269897,
+      "startLat": 22.91948890686035,
+      "startLng": 113.78002166748047
+    },
+    {
+      "id": "18721260",
+      "tileScore": 6,
+      "name": "Hill view golf course S to N",
+      "distanceM": 4276.39990234375,
+      "avgGrade": -0.17304274439811707,
+      "startLat": 22.910737991333008,
+      "startLng": 113.7388916015625
+    }
+  ]
+}

@@ -1,0 +1,146 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-08T22:50:57.954Z",
+  "tile": {
+    "z": 13,
+    "x": 6701,
+    "y": 3569
+  },
+  "segments": [
+    {
+      "id": "22482963",
+      "tileScore": 3,
+      "name": "All ID Climbs And Decents",
+      "distanceM": 52568.1015625,
+      "avgGrade": -0.05041080340743065,
+      "startLat": 22.533960342407227,
+      "startLng": 114.50653839111328
+    },
+    {
+      "id": "33697215",
+      "tileScore": 28,
+      "name": "乐高乐园-水头社区",
+      "distanceM": 3334.10009765625,
+      "avgGrade": -0.17995861172676086,
+      "startLat": 22.547855377197266,
+      "startLng": 114.51310729980469
+    },
+    {
+      "id": "31116553",
+      "tileScore": 15,
+      "name": "TO 杨梅坑 downhill",
+      "distanceM": 1532.800048828125,
+      "avgGrade": -3.927452802658081,
+      "startLat": 22.531999588012695,
+      "startLng": 114.50288391113281
+    },
+    {
+      "id": "22410734",
+      "tileScore": 24,
+      "name": "海贝湾酒店（回程）Shell Bay Hotel Short Climb(Return)",
+      "distanceM": 400.79998779296875,
+      "avgGrade": 4.141716480255127,
+      "startLat": 22.54115867614746,
+      "startLng": 114.48267364501953
+    },
+    {
+      "id": "14808174",
+      "tileScore": 10,
+      "name": "1南澳东新路1",
+      "distanceM": 4144.10009765625,
+      "avgGrade": -0.37643879652023315,
+      "startLat": 22.557682037353516,
+      "startLng": 114.54962921142578
+    },
+    {
+      "id": "35974601",
+      "tileScore": 8,
+      "name": "BiDong Road（S-N）",
+      "distanceM": 1856.199951171875,
+      "avgGrade": -1.4653593301773071,
+      "startLat": 22.53197479248047,
+      "startLng": 114.52507781982422
+    },
+    {
+      "id": "1707602",
+      "tileScore": 129,
+      "name": "南西公路 Climb",
+      "distanceM": 2771,
+      "avgGrade": 4.980151653289795,
+      "startLat": 22.52143669128418,
+      "startLng": 114.50947570800781
+    },
+    {
+      "id": "38221572",
+      "tileScore": 4,
+      "name": "半天云村最后的25%陡坡",
+      "distanceM": 511.20001220703125,
+      "avgGrade": 9.428794860839844,
+      "startLat": 22.51447105407715,
+      "startLng": 114.49836730957031
+    },
+    {
+      "id": "3674795",
+      "tileScore": 6,
+      "name": "Qisha Down Road Climb",
+      "distanceM": 352.0899963378906,
+      "avgGrade": 24.595285415649414,
+      "startLat": 22.536434173583984,
+      "startLng": 114.4866943359375
+    },
+    {
+      "id": "23048552",
+      "tileScore": 5,
+      "name": "大毛田水库（半天云村山脚至水库大门）",
+      "distanceM": 3039.60009765625,
+      "avgGrade": 5.217791557312012,
+      "startLat": 22.529354095458984,
+      "startLng": 114.48580932617188
+    },
+    {
+      "id": "38312949",
+      "tileScore": 8,
+      "name": "大梅沙-东涌",
+      "distanceM": 51781.5,
+      "avgGrade": -0.019118797034025192,
+      "startLat": 22.5883731842041,
+      "startLng": 114.28683471679688
+    },
+    {
+      "id": "39101410",
+      "tileScore": 13,
+      "name": "南澳补水后1.1公里climb",
+      "distanceM": 1100.699951171875,
+      "avgGrade": 3.7794132232666016,
+      "startLat": 22.537412643432617,
+      "startLng": 114.49374389648438
+    },
+    {
+      "id": "37400641",
+      "tileScore": 6,
+      "name": "地质公园30公里绕圈",
+      "distanceM": 30788.30078125,
+      "avgGrade": -0.0350782573223114,
+      "startLat": 22.537689208984375,
+      "startLng": 114.51429748535156
+    },
+    {
+      "id": "36754916",
+      "tileScore": 3,
+      "name": "一条新路",
+      "distanceM": 1684.4000244140625,
+      "avgGrade": -0.16623130440711975,
+      "startLat": 22.54831314086914,
+      "startLng": 114.51388549804688
+    },
+    {
+      "id": "37686070",
+      "tileScore": 16,
+      "name": "去南澳还是去杨梅坑好呢Climb",
+      "distanceM": 1054.800048828125,
+      "avgGrade": 3.5267348289489746,
+      "startLat": 22.52224349975586,
+      "startLng": 114.50787353515625
+    }
+  ]
+}

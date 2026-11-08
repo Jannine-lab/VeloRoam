@@ -1,0 +1,20 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-08T22:37:44.089Z",
+  "tile": {
+    "z": 13,
+    "x": 6788,
+    "y": 3337
+  },
+  "segments": [
+    {
+      "id": "35595485",
+      "tileScore": 1,
+      "name": "和县沈家山-沈巷",
+      "distanceM": 29550.099609375,
+      "avgGrade": -0.00879861693829298,
+      "startLat": 31.678560256958008,
+      "startLng": 118.34789276123047
+    }
+  ]
+}

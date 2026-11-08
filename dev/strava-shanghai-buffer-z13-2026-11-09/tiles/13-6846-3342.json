@@ -1,0 +1,74 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-03T06:04:19.285Z",
+  "tile": {
+    "z": 13,
+    "x": 6846,
+    "y": 3342
+  },
+  "segments": [
+    {
+      "id": "33036065",
+      "tileScore": 35,
+      "name": "Ma'anshan west ave(森林公园→环湖路)",
+      "distanceM": 5423.10009765625,
+      "avgGrade": 0.011063782498240471,
+      "startLat": 31.391244888305664,
+      "startLng": 120.89065551757812
+    },
+    {
+      "id": "35688837",
+      "tileScore": 11,
+      "name": "萧林路",
+      "distanceM": 2433.5,
+      "avgGrade": -0.0164372306317091,
+      "startLat": 31.403194427490234,
+      "startLng": 120.89012908935547
+    },
+    {
+      "id": "31511578",
+      "tileScore": 8,
+      "name": "Caiqing Road(Southbound)",
+      "distanceM": 766,
+      "avgGrade": -0.13054829835891724,
+      "startLat": 31.39905548095703,
+      "startLng": 120.88374328613281
+    },
+    {
+      "id": "37121217",
+      "tileScore": 9,
+      "name": "昆中绕圈 KZ Loop",
+      "distanceM": 2636.800048828125,
+      "avgGrade": 0.007584951352328062,
+      "startLat": 31.419357299804688,
+      "startLng": 120.89048767089844
+    },
+    {
+      "id": "40911392",
+      "tileScore": 6,
+      "name": "🦅",
+      "distanceM": 5579.39990234375,
+      "avgGrade": 0.014338458888232708,
+      "startLat": 31.39303207397461,
+      "startLng": 120.85649871826172
+    },
+    {
+      "id": "33020191",
+      "tileScore": 59,
+      "name": "傀儡湖E",
+      "distanceM": 1771.5,
+      "avgGrade": 0.03386960178613663,
+      "startLat": 31.42446517944336,
+      "startLng": 120.8816146850586
+    },
+    {
+      "id": "13400640",
+      "tileScore": 10,
+      "name": "X205 (Xiaolin W Rd to X303)",
+      "distanceM": 2492.39990234375,
+      "avgGrade": 0.032097574323415756,
+      "startLat": 31.405492782592773,
+      "startLng": 120.87479400634766
+    }
+  ]
+}

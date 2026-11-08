@@ -1,0 +1,155 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-03T06:06:56.599Z",
+  "tile": {
+    "z": 13,
+    "x": 6864,
+    "y": 3345
+  },
+  "segments": [
+    {
+      "id": "10675915",
+      "tileScore": 2,
+      "name": "Chuan'an Rd Swamp - Trail Section #3 (Southbound)",
+      "distanceM": 532.2000122070312,
+      "avgGrade": -0.13152949512004852,
+      "startLat": 31.28384780883789,
+      "startLng": 121.64093017578125
+    },
+    {
+      "id": "10886211",
+      "tileScore": 42,
+      "name": "Return from the Docks Hill Sprint 2",
+      "distanceM": 639.7000122070312,
+      "avgGrade": 1.1255275011062622,
+      "startLat": 31.292022705078125,
+      "startLng": 121.6446304321289
+    },
+    {
+      "id": "34017447",
+      "tileScore": 84,
+      "name": "BinYuan Hwy Bridge Climb",
+      "distanceM": 558.2999877929688,
+      "avgGrade": 1.325452208518982,
+      "startLat": 31.29878044128418,
+      "startLng": 121.6891098022461
+    },
+    {
+      "id": "29026514",
+      "tileScore": 2,
+      "name": "Jufeng Rd bridge W",
+      "distanceM": 1543.0999755859375,
+      "avgGrade": -0.07128507643938065,
+      "startLat": 31.278076171875,
+      "startLng": 121.64681243896484
+    },
+    {
+      "id": "30428937",
+      "tileScore": 5,
+      "name": "东川公路（东靖路-金海路）",
+      "distanceM": 2738,
+      "avgGrade": 0.014609202742576599,
+      "startLat": 31.29694366455078,
+      "startLng": 121.67613220214844
+    },
+    {
+      "id": "10886206",
+      "tileScore": 25,
+      "name": "Return from the Docks Hill Sprint 1",
+      "distanceM": 596.0999755859375,
+      "avgGrade": 1.9124308824539185,
+      "startLat": 31.294971466064453,
+      "startLng": 121.66419219970703
+    },
+    {
+      "id": "36935227",
+      "tileScore": 91,
+      "name": "Easy Peasy Bridges",
+      "distanceM": 8940.599609375,
+      "avgGrade": -0.044739726930856705,
+      "startLat": 31.29645538330078,
+      "startLng": 121.6235122680664
+    },
+    {
+      "id": "34196362",
+      "tileScore": 2,
+      "name": "曹路-华夏路",
+      "distanceM": 9342.7998046875,
+      "avgGrade": 0.019266173243522644,
+      "startLat": 31.284818649291992,
+      "startLng": 121.67583465576172
+    },
+    {
+      "id": "35882217",
+      "tileScore": 1,
+      "name": "(˶‾᷄ꈊ‾᷅˵)  谁也别想休闲   ᶘ ᵒᴥᵒᶅ",
+      "distanceM": 28237,
+      "avgGrade": 0.039664268493652344,
+      "startLat": 31.272661209106445,
+      "startLng": 121.62120056152344
+    },
+    {
+      "id": "36838080",
+      "tileScore": 33,
+      "name": "凌空北路绕圈",
+      "distanceM": 4714.5,
+      "avgGrade": -0.0042422316037118435,
+      "startLat": 31.281347274780273,
+      "startLng": 121.67859649658203
+    },
+    {
+      "id": "39034890",
+      "tileScore": 4,
+      "name": "骑完双桥赶个船",
+      "distanceM": 10961.5,
+      "avgGrade": 0.0018245679093524814,
+      "startLat": 31.2834415435791,
+      "startLng": 121.6682357788086
+    },
+    {
+      "id": "35910667",
+      "tileScore": 4,
+      "name": "ʕ̢·͡˔·ོɁ̡̣   S弯小王子来了～为了安全，主办方调整了路段！",
+      "distanceM": 608.2999877929688,
+      "avgGrade": 0.2630281150341034,
+      "startLat": 31.290761947631836,
+      "startLng": 121.66924285888672
+    },
+    {
+      "id": "3571193",
+      "tileScore": 7,
+      "name": "Shanghai Docks Sprint Gangjian Road",
+      "distanceM": 3153.826416015625,
+      "avgGrade": 0.0031707780435681343,
+      "startLat": 31.314237594604492,
+      "startLng": 121.665283203125
+    },
+    {
+      "id": "10392588",
+      "tileScore": 50,
+      "name": "Shuidong to Shenjiang",
+      "distanceM": 4982.7001953125,
+      "avgGrade": 0.012041663751006126,
+      "startLat": 31.29708480834961,
+      "startLng": 121.67485809326172
+    },
+    {
+      "id": "33123486",
+      "tileScore": 207,
+      "name": "两桥绕圈",
+      "distanceM": 5202.7998046875,
+      "avgGrade": -0.02306450344622135,
+      "startLat": 31.297346115112305,
+      "startLng": 121.67632293701172
+    },
+    {
+      "id": "38865694",
+      "tileScore": 137,
+      "name": "JM 一起爬1",
+      "distanceM": 814.7999877929688,
+      "avgGrade": 2.0127639770507812,
+      "startLat": 31.297557830810547,
+      "startLng": 121.67739868164062
+    }
+  ]
+}

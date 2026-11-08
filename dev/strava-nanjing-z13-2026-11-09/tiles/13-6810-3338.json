@@ -1,0 +1,20 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-08T22:38:19.811Z",
+  "tile": {
+    "z": 13,
+    "x": 6810,
+    "y": 3338
+  },
+  "segments": [
+    {
+      "id": "26033892",
+      "tileScore": 9,
+      "name": "cd-溧阳一号公路瓦屋山旅游大道北往南",
+      "distanceM": 13092.900390625,
+      "avgGrade": -0.21080127358436584,
+      "startLat": 31.618833541870117,
+      "startLng": 119.2983627319336
+    }
+  ]
+}

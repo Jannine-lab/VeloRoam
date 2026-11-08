@@ -1,0 +1,407 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-08T22:51:42.634Z",
+  "tile": {
+    "z": 13,
+    "x": 6690,
+    "y": 3571
+  },
+  "segments": [
+    {
+      "id": "6861444",
+      "tileScore": 7,
+      "name": "Yuen Long Industrial Park Hill",
+      "distanceM": 1146,
+      "avgGrade": 2.652705192565918,
+      "startLat": 22.462644577026367,
+      "startLng": 114.02239227294922
+    },
+    {
+      "id": "13774721",
+      "tileScore": 17,
+      "name": "十八鄉路原築東行300M Sprint",
+      "distanceM": 406,
+      "avgGrade": -0.2463054209947586,
+      "startLat": 22.438642501831055,
+      "startLng": 114.0210189819336
+    },
+    {
+      "id": "6329170",
+      "tileScore": 5,
+      "name": "Tin Tsz Road Climb",
+      "distanceM": 817.0999755859375,
+      "avgGrade": 10.916656494140625,
+      "startLat": 22.464988708496094,
+      "startLng": 114.00254821777344
+    },
+    {
+      "id": "14798381",
+      "tileScore": 5,
+      "name": "洪天路 (天水圍方向)",
+      "distanceM": 1207.699951171875,
+      "avgGrade": -0.5050923228263855,
+      "startLat": 22.43605613708496,
+      "startLng": 114.00052642822266
+    },
+    {
+      "id": "13801848",
+      "tileScore": 29,
+      "name": "LAST ONE! LONG YIP SPRINT!",
+      "distanceM": 391.5,
+      "avgGrade": 0,
+      "startLat": 22.447677612304688,
+      "startLng": 114.02969360351562
+    },
+    {
+      "id": "8795933",
+      "tileScore": 5,
+      "name": "Lau Fau Shan Rd South",
+      "distanceM": 2458.60009765625,
+      "avgGrade": -0.15455949306488037,
+      "startLat": 22.46674156188965,
+      "startLng": 113.98454284667969
+    },
+    {
+      "id": "33728279",
+      "tileScore": 45,
+      "name": "NSW (In) last straight path",
+      "distanceM": 846,
+      "avgGrade": -0.13002364337444305,
+      "startLat": 22.465044021606445,
+      "startLng": 114.02949523925781
+    },
+    {
+      "id": "12211560",
+      "tileScore": 15,
+      "name": "元朗 - 洪水橋交匯處路口",
+      "distanceM": 1663.199951171875,
+      "avgGrade": 0.14430014789104462,
+      "startLat": 22.443498611450195,
+      "startLng": 114.01502990722656
+    },
+    {
+      "id": "14190931",
+      "tileScore": 27,
+      "name": "屏山最後一斜到元朗",
+      "distanceM": 408.3999938964844,
+      "avgGrade": -1.469147801399231,
+      "startLat": 22.44264030456543,
+      "startLng": 114.01174926757812
+    },
+    {
+      "id": "17826121",
+      "tileScore": 44,
+      "name": "Tin Shui Path W",
+      "distanceM": 2621.39990234375,
+      "avgGrade": 0.015259021893143654,
+      "startLat": 22.47004508972168,
+      "startLng": 113.99745178222656
+    },
+    {
+      "id": "39388941",
+      "tileScore": 18,
+      "name": "朗風路 至 橫洲風雨亭",
+      "distanceM": 721.0999755859375,
+      "avgGrade": 1.386770248413086,
+      "startLat": 22.449655532836914,
+      "startLng": 114.02102661132812
+    },
+    {
+      "id": "31122213",
+      "tileScore": 2,
+      "name": "元朗博愛至洪水橋繞道",
+      "distanceM": 5637.5,
+      "avgGrade": 0.07095343619585037,
+      "startLat": 22.443941116333008,
+      "startLng": 114.0422134399414
+    },
+    {
+      "id": "18829438",
+      "tileScore": 5,
+      "name": "大馬路水邊圍外起伏不平衝刺",
+      "distanceM": 489.29998779296875,
+      "avgGrade": -0.08174943923950195,
+      "startLat": 22.444223403930664,
+      "startLng": 114.01703643798828
+    },
+    {
+      "id": "9152194",
+      "tileScore": 2,
+      "name": "Hong Kong Wetland border ",
+      "distanceM": 8184.89990234375,
+      "avgGrade": 0.0024435240775346756,
+      "startLat": 22.485614776611328,
+      "startLng": 114.0113754272461
+    },
+    {
+      "id": "860134",
+      "tileScore": 7,
+      "name": "Tin Shui Rd Climb",
+      "distanceM": 370.1820068359375,
+      "avgGrade": 26.121013641357422,
+      "startLat": 22.465492248535156,
+      "startLng": 113.9980697631836
+    },
+    {
+      "id": "33946498",
+      "tileScore": 3,
+      "name": "天水圍行人徑",
+      "distanceM": 507.70001220703125,
+      "avgGrade": -0.11818002909421921,
+      "startLat": 22.452205657958984,
+      "startLng": 113.9985122680664
+    },
+    {
+      "id": "13450386",
+      "tileScore": 30,
+      "name": "橋洪路衝刺（北行）",
+      "distanceM": 611.4000244140625,
+      "avgGrade": -0.8014392852783203,
+      "startLat": 22.438495635986328,
+      "startLng": 114.00395965576172
+    },
+    {
+      "id": "38840312",
+      "tileScore": 22,
+      "name": "The GT ",
+      "distanceM": 95767,
+      "avgGrade": 0.04740672558546066,
+      "startLat": 22.326505661010742,
+      "startLng": 114.15650939941406
+    },
+    {
+      "id": "14798347",
+      "tileScore": 9,
+      "name": "天恩邨 - 青年學院",
+      "distanceM": 1601,
+      "avgGrade": -0.28107431530952454,
+      "startLat": 22.462627410888672,
+      "startLng": 113.99495697021484
+    },
+    {
+      "id": "22099974",
+      "tileScore": 13,
+      "name": "Tin Tsz Road (Head South) ",
+      "distanceM": 1090.199951171875,
+      "avgGrade": -0.01834525726735592,
+      "startLat": 22.461814880371094,
+      "startLng": 114.00863647460938
+    },
+    {
+      "id": "10729364",
+      "tileScore": 4,
+      "name": "高速公路邊 (藍地-唐人新村)",
+      "distanceM": 4918.39990234375,
+      "avgGrade": 0.06506180763244629,
+      "startLat": 22.41581916809082,
+      "startLng": 113.98199462890625
+    },
+    {
+      "id": "19752788",
+      "tileScore": 5,
+      "name": " 元朗公路旁小斜",
+      "distanceM": 697.2000122070312,
+      "avgGrade": 3.1267929077148438,
+      "startLat": 22.43362808227539,
+      "startLng": 114.00261688232422
+    },
+    {
+      "id": "30527749",
+      "tileScore": 3,
+      "name": "Fok Hi St to polishing plant",
+      "distanceM": 1684.300048828125,
+      "avgGrade": 0.04156029224395752,
+      "startLat": 22.45462417602539,
+      "startLng": 114.02411651611328
+    },
+    {
+      "id": "10908882",
+      "tileScore": 11,
+      "name": "石埗路",
+      "distanceM": 1295,
+      "avgGrade": -0.09266409277915955,
+      "startLat": 22.434919357299805,
+      "startLng": 113.99571990966797
+    },
+    {
+      "id": "13975328",
+      "tileScore": 43,
+      "name": "洪天路到油站",
+      "distanceM": 353.8999938964844,
+      "avgGrade": -0.8476970791816711,
+      "startLat": 22.435813903808594,
+      "startLng": 114.00066375732422
+    },
+    {
+      "id": "12431596",
+      "tileScore": 3,
+      "name": "500m Power Sprint",
+      "distanceM": 607.7000122070312,
+      "avgGrade": 0,
+      "startLat": 22.461069107055664,
+      "startLng": 114.02970886230469
+    },
+    {
+      "id": "1348552",
+      "tileScore": 1,
+      "name": "Tin Wing Rd Climb",
+      "distanceM": 946.0280151367188,
+      "avgGrade": 8.890063285827637,
+      "startLat": 22.46190071105957,
+      "startLng": 113.99303436279297
+    },
+    {
+      "id": "1004360",
+      "tileScore": 209,
+      "name": "fishpond boomerang",
+      "distanceM": 8366.0703125,
+      "avgGrade": -0.023906001821160316,
+      "startLat": 22.452613830566406,
+      "startLng": 114.0474853515625
+    },
+    {
+      "id": "3826715",
+      "tileScore": 169,
+      "name": "Tin Shui Wai APR'13",
+      "distanceM": 7111.0400390625,
+      "avgGrade": 0.004218756686896086,
+      "startLat": 22.46685791015625,
+      "startLng": 113.9953842163086
+    },
+    {
+      "id": "10837225",
+      "tileScore": 14,
+      "name": "*五柳路 > 南生圍入口",
+      "distanceM": 8678.7001953125,
+      "avgGrade": -0.0483943447470665,
+      "startLat": 22.42234230041504,
+      "startLng": 113.98533630371094
+    },
+    {
+      "id": "9485922",
+      "tileScore": 23,
+      "name": "Yuen Long to Siu Hong Cycle Lane (TM Direction)",
+      "distanceM": 5103.7001953125,
+      "avgGrade": 0.06269960850477219,
+      "startLat": 22.444162368774414,
+      "startLng": 114.01599884033203
+    },
+    {
+      "id": "8851233",
+      "tileScore": 5,
+      "name": "Wetland Rumble 2",
+      "distanceM": 1220.5999755859375,
+      "avgGrade": 0.37686383724212646,
+      "startLat": 22.46588897705078,
+      "startLng": 114.01651763916016
+    },
+    {
+      "id": "6512131",
+      "tileScore": 149,
+      "name": "Nam Sang Wai Rd (In)",
+      "distanceM": 4230,
+      "avgGrade": 0.002364066196605563,
+      "startLat": 22.452804565429688,
+      "startLng": 114.0474853515625
+    },
+    {
+      "id": "12078510",
+      "tileScore": 7,
+      "name": "櫈仔位至梯",
+      "distanceM": 460,
+      "avgGrade": -9.456521987915039,
+      "startLat": 22.45451545715332,
+      "startLng": 114.01539611816406
+    },
+    {
+      "id": "9486003",
+      "tileScore": 25,
+      "name": "Long Tin Road (YL Direction)",
+      "distanceM": 883.9000244140625,
+      "avgGrade": -0.24889694154262543,
+      "startLat": 22.451091766357422,
+      "startLng": 114.00939178466797
+    },
+    {
+      "id": "18505896",
+      "tileScore": 17,
+      "name": "Long Ping Sprint",
+      "distanceM": 797.7999877929688,
+      "avgGrade": 0.07520681619644165,
+      "startLat": 22.450740814208984,
+      "startLng": 114.02639770507812
+    },
+    {
+      "id": "20114371",
+      "tileScore": 19,
+      "name": "荃灣麗城至元朗西(海安路行人燈位經青公至元朗朗邊中轉屋藍色路牌)",
+      "distanceM": 24964.5,
+      "avgGrade": 0.0416591577231884,
+      "startLat": 22.372472763061523,
+      "startLng": 114.10540771484375
+    },
+    {
+      "id": "34091417",
+      "tileScore": 5,
+      "name": "Hung Shui Kiu Main Straight",
+      "distanceM": 501.8999938964844,
+      "avgGrade": -0.8368200659751892,
+      "startLat": 22.43496322631836,
+      "startLng": 113.9952392578125
+    },
+    {
+      "id": "32620424",
+      "tileScore": 7,
+      "name": "挑戰不可能的燈位",
+      "distanceM": 520.5999755859375,
+      "avgGrade": -0.19208605587482452,
+      "startLat": 22.46232032775879,
+      "startLng": 114.00833129882812
+    },
+    {
+      "id": "15648224",
+      "tileScore": 6,
+      "name": "停車場上半山",
+      "distanceM": 707,
+      "avgGrade": 6.195190906524658,
+      "startLat": 22.455490112304688,
+      "startLng": 114.01943969726562
+    },
+    {
+      "id": "18951470",
+      "tileScore": 30,
+      "name": "洪水橋至三聖",
+      "distanceM": 5161.10009765625,
+      "avgGrade": -0.04650171473622322,
+      "startLat": 22.432941436767578,
+      "startLng": 113.99633026123047
+    },
+    {
+      "id": "33877200",
+      "tileScore": 27,
+      "name": "康城大冷",
+      "distanceM": 130482.203125,
+      "avgGrade": 0,
+      "startLat": 22.29688835144043,
+      "startLng": 114.26518249511719
+    },
+    {
+      "id": "7046812",
+      "tileScore": 8,
+      "name": "Wetland Rumble",
+      "distanceM": 1747.800048828125,
+      "avgGrade": 0.14303696155548096,
+      "startLat": 22.4744815826416,
+      "startLng": 114.0259017944336
+    },
+    {
+      "id": "9971087",
+      "tileScore": 50,
+      "name": "天影路天橋",
+      "distanceM": 817.2999877929688,
+      "avgGrade": -0.293649822473526,
+      "startLat": 22.471223831176758,
+      "startLng": 114.00198364257812
+    }
+  ]
+}

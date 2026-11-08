@@ -1,0 +1,56 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-03T06:09:17.833Z",
+  "tile": {
+    "z": 13,
+    "x": 6862,
+    "y": 3351
+  },
+  "segments": [
+    {
+      "id": "33072474",
+      "tileScore": 22,
+      "name": "妈妈叫回家恰饭。。",
+      "distanceM": 6467.89990234375,
+      "avgGrade": 0.040198519825935364,
+      "startLat": 31.07023811340332,
+      "startLng": 121.5897216796875
+    },
+    {
+      "id": "34999557",
+      "tileScore": 5,
+      "name": "沪南公路（航头～浦东图书馆）",
+      "distanceM": 19467.30078125,
+      "avgGrade": -0.0020547276362776756,
+      "startLat": 31.029277801513672,
+      "startLng": 121.59368896484375
+    },
+    {
+      "id": "8182363",
+      "tileScore": 13,
+      "name": "New road heading west off Shenjiang",
+      "distanceM": 4917.60009765625,
+      "avgGrade": -0.040670245885849,
+      "startLat": 31.069711685180664,
+      "startLng": 121.64122772216797
+    },
+    {
+      "id": "35170184",
+      "tileScore": 8,
+      "name": "半个俄罗斯方块",
+      "distanceM": 26143.30078125,
+      "avgGrade": 0.011475215665996075,
+      "startLat": 31.18340492248535,
+      "startLng": 121.61776733398438
+    },
+    {
+      "id": "40427072",
+      "tileScore": 10,
+      "name": "周浦圣雷莫爬桥绕圈",
+      "distanceM": 5116.60009765625,
+      "avgGrade": 0.015635382384061813,
+      "startLat": 31.095399856567383,
+      "startLng": 121.60388946533203
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-08T22:48:24.130Z",
+  "tile": {
+    "z": 13,
+    "x": 6704,
+    "y": 3561
+  },
+  "segments": [
+    {
+      "id": "42230522",
+      "tileScore": 1,
+      "name": "y011村道南行12km新平-小径湾路口",
+      "distanceM": 11910.400390625,
+      "avgGrade": 0.12342154234647751,
+      "startLat": 22.887399673461914,
+      "startLng": 114.58734893798828
+    },
+    {
+      "id": "32069188",
+      "tileScore": 5,
+      "name": "Little Climb in Huizou",
+      "distanceM": 2086.800048828125,
+      "avgGrade": 4.106766223907471,
+      "startLat": 22.846065521240234,
+      "startLng": 114.62850952148438
+    }
+  ]
+}

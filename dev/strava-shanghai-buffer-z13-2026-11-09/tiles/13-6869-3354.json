@@ -1,0 +1,92 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-03T06:10:41.742Z",
+  "tile": {
+    "z": 13,
+    "x": 6869,
+    "y": 3354
+  },
+  "segments": [
+    {
+      "id": "7431974",
+      "tileScore": 3,
+      "name": "TT lovers 2 Clockwise - Guaranted by Roberto",
+      "distanceM": 30336.900390625,
+      "avgGrade": 0.00032963158446364105,
+      "startLat": 31.04207992553711,
+      "startLng": 121.85521697998047
+    },
+    {
+      "id": "35927579",
+      "tileScore": 4,
+      "name": "金桥-滴水湖-云山路绕圈",
+      "distanceM": 150058.90625,
+      "avgGrade": 0.0018659341149032116,
+      "startLat": 31.22467041015625,
+      "startLng": 121.62055969238281
+    },
+    {
+      "id": "37629875",
+      "tileScore": 2,
+      "name": "dongda-xiayan（lianggang）",
+      "distanceM": 11429.7998046875,
+      "avgGrade": -0.01574830710887909,
+      "startLat": 30.975860595703125,
+      "startLng": 121.88377380371094
+    },
+    {
+      "id": "33174152",
+      "tileScore": 14,
+      "name": "塘下TT-NtoS",
+      "distanceM": 12146.400390625,
+      "avgGrade": -0.08891523629426956,
+      "startLat": 31.00676918029785,
+      "startLng": 121.87511444091797
+    },
+    {
+      "id": "11609876",
+      "tileScore": 2,
+      "name": "老芦公路南LaoLu Rd South",
+      "distanceM": 4138,
+      "avgGrade": 0.004833252634853125,
+      "startLat": 31.0141544342041,
+      "startLng": 121.86264038085938
+    },
+    {
+      "id": "29375073",
+      "tileScore": 9,
+      "name": "临港赛段",
+      "distanceM": 60189.80078125,
+      "avgGrade": 0.005316515453159809,
+      "startLat": 30.911985397338867,
+      "startLng": 121.93582153320312
+    },
+    {
+      "id": "34630820",
+      "tileScore": 40,
+      "name": "Lingang Ave (Lianggang Ave to Laolu HighWay)",
+      "distanceM": 2295.60009765625,
+      "avgGrade": -0.04356159642338753,
+      "startLat": 30.94548225402832,
+      "startLng": 121.88348388671875
+    },
+    {
+      "id": "30450614",
+      "tileScore": 24,
+      "name": "“海王杯”第二赛段",
+      "distanceM": 21629.400390625,
+      "avgGrade": 0.0527060404419899,
+      "startLat": 30.94480323791504,
+      "startLng": 121.8846435546875
+    },
+    {
+      "id": "25866794",
+      "tileScore": 3,
+      "name": "滨果公路itt",
+      "distanceM": 8583.900390625,
+      "avgGrade": -0.018639545887708664,
+      "startLat": 31.004884719848633,
+      "startLng": 121.88356018066406
+    }
+  ]
+}

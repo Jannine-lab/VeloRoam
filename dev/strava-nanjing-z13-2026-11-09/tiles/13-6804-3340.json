@@ -1,0 +1,29 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-08T22:39:23.370Z",
+  "tile": {
+    "z": 13,
+    "x": 6804,
+    "y": 3340
+  },
+  "segments": [
+    {
+      "id": "38304943",
+      "tileScore": 10,
+      "name": "孔镇-晶杭公路-西东",
+      "distanceM": 8929.5,
+      "avgGrade": 0.008959068916738033,
+      "startLat": 31.484243392944336,
+      "startLng": 119.0008773803711
+    },
+    {
+      "id": "20979509",
+      "tileScore": 4,
+      "name": "20181111环溧水自行车赛 Lishui Criterium",
+      "distanceM": 139486.90625,
+      "avgGrade": 0.00444486178457737,
+      "startLat": 31.613245010375977,
+      "startLng": 119.02008056640625
+    }
+  ]
+}

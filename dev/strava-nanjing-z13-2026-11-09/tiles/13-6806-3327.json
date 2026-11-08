@@ -1,0 +1,29 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-08T22:34:45.616Z",
+  "tile": {
+    "z": 13,
+    "x": 6806,
+    "y": 3327
+  },
+  "segments": [
+    {
+      "id": "35188496",
+      "tileScore": 7,
+      "name": "巨宝路（东向西）",
+      "distanceM": 6028.2998046875,
+      "avgGrade": -0.08294212073087692,
+      "startLat": 31.95929527282715,
+      "startLng": 119.12162780761719
+    },
+    {
+      "id": "33175112",
+      "tileScore": 1,
+      "name": "Jurong W road to S",
+      "distanceM": 6097.5,
+      "avgGrade": -0.3903239071369171,
+      "startLat": 31.983238220214844,
+      "startLng": 119.12000274658203
+    }
+  ]
+}

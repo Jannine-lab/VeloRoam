@@ -1,0 +1,74 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-03T06:11:07.447Z",
+  "tile": {
+    "z": 13,
+    "x": 6861,
+    "y": 3356
+  },
+  "segments": [
+    {
+      "id": "27606421",
+      "tileScore": 7,
+      "name": "No bikes allowed",
+      "distanceM": 3010.300048828125,
+      "avgGrade": 0.006643855944275856,
+      "startLat": 30.922565460205078,
+      "startLng": 121.51988220214844
+    },
+    {
+      "id": "35450638",
+      "tileScore": 1,
+      "name": "平庄公路（金海-新四平）",
+      "distanceM": 22928.5,
+      "avgGrade": 0.0034891075920313597,
+      "startLat": 30.891454696655273,
+      "startLng": 121.49846649169922
+    },
+    {
+      "id": "34876424",
+      "tileScore": 7,
+      "name": "奉柘公路（平庄东路-浦星公路）",
+      "distanceM": 7981.7001953125,
+      "avgGrade": -0.012528658844530582,
+      "startLat": 30.89662742614746,
+      "startLng": 121.60227966308594
+    },
+    {
+      "id": "14202125",
+      "tileScore": 1,
+      "name": "Jinqian Hwy Southbound ",
+      "distanceM": 9644.2998046875,
+      "avgGrade": -0.006221291609108448,
+      "startLat": 30.979511260986328,
+      "startLng": 121.49703979492188
+    },
+    {
+      "id": "29939706",
+      "tileScore": 1,
+      "name": "ul - Canal road north",
+      "distanceM": 1485.4000244140625,
+      "avgGrade": 0.12791167199611664,
+      "startLat": 30.87824249267578,
+      "startLng": 121.51358795166016
+    },
+    {
+      "id": "27594645",
+      "tileScore": 4,
+      "name": "Bridge to Beach South Puxing Hwy",
+      "distanceM": 8736.400390625,
+      "avgGrade": -0.0274712685495615,
+      "startLat": 30.905433654785156,
+      "startLng": 121.5214614868164
+    },
+    {
+      "id": "36919812",
+      "tileScore": 10,
+      "name": "奉拓公路的冲冲冲冲",
+      "distanceM": 11757.5,
+      "avgGrade": 0.03912396356463432,
+      "startLat": 30.868106842041016,
+      "startLng": 121.52642822265625
+    }
+  ]
+}

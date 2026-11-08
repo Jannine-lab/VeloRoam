@@ -1,0 +1,83 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-03T06:04:16.445Z",
+  "tile": {
+    "z": 13,
+    "x": 6846,
+    "y": 3340
+  },
+  "segments": [
+    {
+      "id": "16215752",
+      "tileScore": 1,
+      "name": "Ecological Zone Canal Rd-1",
+      "distanceM": 1417.9000244140625,
+      "avgGrade": 0.014105366542935371,
+      "startLat": 31.50539207458496,
+      "startLng": 120.8540267944336
+    },
+    {
+      "id": "33577436",
+      "tileScore": 7,
+      "name": "Bridge to Bridge Y003",
+      "distanceM": 3317.60009765625,
+      "avgGrade": 0.07836990058422089,
+      "startLat": 31.462905883789062,
+      "startLng": 120.88135528564453
+    },
+    {
+      "id": "38556284",
+      "tileScore": 2,
+      "name": "Half-ready Bachenghu bridge, exposed. Southbound.",
+      "distanceM": 872.7999877929688,
+      "avgGrade": 0.160403311252594,
+      "startLat": 31.469905853271484,
+      "startLng": 120.87152099609375
+    },
+    {
+      "id": "23426761",
+      "tileScore": 1,
+      "name": "X301 Eastbound - another bridge KOM",
+      "distanceM": 1161.5,
+      "avgGrade": 0.17219114303588867,
+      "startLat": 31.4945068359375,
+      "startLng": 120.88629913330078
+    },
+    {
+      "id": "24423492",
+      "tileScore": 1,
+      "name": "Scenic Shortcut (Southbound)",
+      "distanceM": 3751.300048828125,
+      "avgGrade": -0.06397782266139984,
+      "startLat": 31.49088478088379,
+      "startLng": 120.8521957397461
+    },
+    {
+      "id": "21242510",
+      "tileScore": 9,
+      "name": "Up bridge going east on Xiangshi road to the east of X203",
+      "distanceM": 712.4000244140625,
+      "avgGrade": 1.2914093732833862,
+      "startLat": 31.491262435913086,
+      "startLng": 120.85189819335938
+    },
+    {
+      "id": "22872992",
+      "tileScore": 14,
+      "name": "BRIDGE (Southbound)",
+      "distanceM": 413,
+      "avgGrade": 3.099273443222046,
+      "startLat": 31.46864891052246,
+      "startLng": 120.88116455078125
+    },
+    {
+      "id": "20169914",
+      "tileScore": 4,
+      "name": "YCH TOP Three Bridge WtoE rush",
+      "distanceM": 7901.89990234375,
+      "avgGrade": -0.015186221338808537,
+      "startLat": 31.48989486694336,
+      "startLng": 120.83085632324219
+    }
+  ]
+}

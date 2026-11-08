@@ -1,0 +1,20 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-08T22:29:40.153Z",
+  "tile": {
+    "z": 13,
+    "x": 6801,
+    "y": 3320
+  },
+  "segments": [
+    {
+      "id": "39638900",
+      "tileScore": 16,
+      "name": "环科路东南往西北",
+      "distanceM": 9762,
+      "avgGrade": 0.059414055198431015,
+      "startLat": 32.2256965637207,
+      "startLng": 118.88593292236328
+    }
+  ]
+}

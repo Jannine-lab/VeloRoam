@@ -1,0 +1,30 @@
+{
+  "measuredDate": "2026-11-09",
+  "timezone": "Asia/Shanghai",
+  "node": "v22.19.0",
+  "testFiles": 24,
+  "namedTests": 119,
+  "legacyScriptChecks": 5,
+  "runnerChecks": 124,
+  "passed": 124,
+  "failed": 0,
+  "skipped": 0,
+  "passRate": 1.0,
+  "backendDurationMs": 1978.899875,
+  "frontendDurationMs": 763.635708,
+  "labelBatch": {
+    "sourceCount": 7101,
+    "evaluationCount": 42606,
+    "verified": 42606,
+    "changed": 42516,
+    "unchanged": 90,
+    "wallSeconds": 229.714,
+    "source": "/Users/jannine/Desktop/VeloRoam/dev/segment-tags-apply2-2026-11-07.json"
+  },
+  "limitations": [
+    "Local regression tests mock model/navigation/database dependencies; they do not measure live model quality or API latency.",
+    "Five files contain top-level assertions and each counts as one runner entry, not one semantic test case.",
+    "The historical batch is one run; read-back consistency is not label accuracy.",
+    "Existing live AI evaluator contains five checks but has no archived execution results; budget/preference clarification expectations differ from current optional-budget behavior."
+  ]
+}

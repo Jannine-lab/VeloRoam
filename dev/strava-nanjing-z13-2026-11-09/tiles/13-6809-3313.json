@@ -1,0 +1,29 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-08T22:26:18.041Z",
+  "tile": {
+    "z": 13,
+    "x": 6809,
+    "y": 3313
+  },
+  "segments": [
+    {
+      "id": "28598677",
+      "tileScore": 9,
+      "name": " Countryside tour Yangzhou ",
+      "distanceM": 35592.5,
+      "avgGrade": -0.022476645186543465,
+      "startLat": 32.44247817993164,
+      "startLng": 119.31915283203125
+    },
+    {
+      "id": "33964007",
+      "tileScore": 6,
+      "name": "陈集—古井",
+      "distanceM": 8231.2001953125,
+      "avgGrade": -0.04981047660112381,
+      "startLat": 32.483436584472656,
+      "startLng": 119.19319915771484
+    }
+  ]
+}

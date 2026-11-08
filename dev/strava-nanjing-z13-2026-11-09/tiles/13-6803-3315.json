@@ -1,0 +1,20 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-08T22:26:24.687Z",
+  "tile": {
+    "z": 13,
+    "x": 6803,
+    "y": 3315
+  },
+  "segments": [
+    {
+      "id": "35588829",
+      "tileScore": 5,
+      "name": "六合东部干线公路八百—太平集段",
+      "distanceM": 13205.5,
+      "avgGrade": 0.0439210943877697,
+      "startLat": 32.43378448486328,
+      "startLng": 118.93644714355469
+    }
+  ]
+}

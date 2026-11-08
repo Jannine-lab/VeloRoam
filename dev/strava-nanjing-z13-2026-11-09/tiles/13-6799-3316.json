@@ -1,0 +1,20 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-08T22:26:41.933Z",
+  "tile": {
+    "z": 13,
+    "x": 6799,
+    "y": 3316
+  },
+  "segments": [
+    {
+      "id": "37992682",
+      "tileScore": 4,
+      "name": "勤丰村南-郭陈线",
+      "distanceM": 3127.300048828125,
+      "avgGrade": -0.450868159532547,
+      "startLat": 32.39833068847656,
+      "startLng": 118.79659271240234
+    }
+  ]
+}

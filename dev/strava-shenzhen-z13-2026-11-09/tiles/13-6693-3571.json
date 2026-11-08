@@ -1,0 +1,200 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-08T22:51:51.660Z",
+  "tile": {
+    "z": 13,
+    "x": 6693,
+    "y": 3571
+  },
+  "segments": [
+    {
+      "id": "34223693",
+      "tileScore": 5,
+      "name": "yuen long to tai po twin bridge",
+      "distanceM": 34870.8984375,
+      "avgGrade": -0.013765059411525726,
+      "startLat": 22.444385528564453,
+      "startLng": 114.04415893554688
+    },
+    {
+      "id": "1635148",
+      "tileScore": 2,
+      "name": "Ng Tung Waterfall Path Climb",
+      "distanceM": 749.385009765625,
+      "avgGrade": 13.971177101135254,
+      "startLat": 22.4367733001709,
+      "startLng": 114.12770080566406
+    },
+    {
+      "id": "33877200",
+      "tileScore": 27,
+      "name": "康城大冷",
+      "distanceM": 130482.203125,
+      "avgGrade": 0,
+      "startLat": 22.29688835144043,
+      "startLng": 114.26518249511719
+    },
+    {
+      "id": "18135827",
+      "tileScore": 13,
+      "name": "Tai Hang sprint",
+      "distanceM": 764.2000122070312,
+      "avgGrade": -0.3663962185382843,
+      "startLat": 22.46300506591797,
+      "startLng": 114.14820861816406
+    },
+    {
+      "id": "25269051",
+      "tileScore": 1,
+      "name": "HLY Home Climb",
+      "distanceM": 787.7000122070312,
+      "avgGrade": 1.929668664932251,
+      "startLat": 22.461217880249023,
+      "startLng": 114.15193939208984
+    },
+    {
+      "id": "29599482",
+      "tileScore": 7,
+      "name": "SheShan Grassland",
+      "distanceM": 495.20001220703125,
+      "avgGrade": -2.30210018157959,
+      "startLat": 22.451744079589844,
+      "startLng": 114.13973236083984
+    },
+    {
+      "id": "26120807",
+      "tileScore": 91,
+      "name": "Tai Po Road (Tai Wo) Downhill",
+      "distanceM": 1094.800048828125,
+      "avgGrade": -1.297040581703186,
+      "startLat": 22.46039390563965,
+      "startLng": 114.148681640625
+    },
+    {
+      "id": "21192637",
+      "tileScore": 31,
+      "name": "水圍至太和尾段衝刺",
+      "distanceM": 569,
+      "avgGrade": -0.9841827750205994,
+      "startLat": 22.455078125,
+      "startLng": 114.1537857055664
+    },
+    {
+      "id": "4369415",
+      "tileScore": 52,
+      "name": "和合石 閘口至山頂",
+      "distanceM": 2632.699951171875,
+      "avgGrade": 5.629201889038086,
+      "startLat": 22.48113250732422,
+      "startLng": 114.1465072631836
+    },
+    {
+      "id": "1760207",
+      "tileScore": 49,
+      "name": "Lam Kam Road from Tai Po to Kadoorie Farm",
+      "distanceM": 4395.8388671875,
+      "avgGrade": 3.0893125534057617,
+      "startLat": 22.460044860839844,
+      "startLng": 114.14599609375
+    },
+    {
+      "id": "20887235",
+      "tileScore": 23,
+      "name": "Miu Shu Hang Rd (towards east)",
+      "distanceM": 416.79998779296875,
+      "avgGrade": -0.16794626414775848,
+      "startLat": 22.45250129699707,
+      "startLng": 114.1560287475586
+    },
+    {
+      "id": "2583850",
+      "tileScore": 1,
+      "name": "Tai To Yan Path Climb",
+      "distanceM": 1177.3973388671875,
+      "avgGrade": 13.928996086120605,
+      "startLat": 22.46649742126465,
+      "startLng": 114.13427734375
+    },
+    {
+      "id": "24567029",
+      "tileScore": 11,
+      "name": "Ping Long - Roundabout speedway",
+      "distanceM": 2370,
+      "avgGrade": -3.5864977836608887,
+      "startLat": 22.44415283203125,
+      "startLng": 114.13028717041016
+    },
+    {
+      "id": "24496721",
+      "tileScore": 56,
+      "name": "林村許願樹上斜",
+      "distanceM": 519.0999755859375,
+      "avgGrade": 4.045463562011719,
+      "startLat": 22.459505081176758,
+      "startLng": 114.14583587646484
+    },
+    {
+      "id": "12225213",
+      "tileScore": 32,
+      "name": "Lam Kam to Twisk Top Climb (whole)",
+      "distanceM": 10286.900390625,
+      "avgGrade": 4.250065803527832,
+      "startLat": 22.459228515625,
+      "startLng": 114.14567565917969
+    },
+    {
+      "id": "6772960",
+      "tileScore": 7,
+      "name": "Tai Tat Yan",
+      "distanceM": 1636.4000244140625,
+      "avgGrade": 7.50427770614624,
+      "startLat": 22.43684959411621,
+      "startLng": 114.16455841064453
+    },
+    {
+      "id": "40461460",
+      "tileScore": 1,
+      "name": "Ca姐溫馨8字冷下集(鹿頸400米至石崗油站)",
+      "distanceM": 17652.900390625,
+      "avgGrade": 0.05551495775580406,
+      "startLat": 22.476028442382812,
+      "startLng": 114.23654174804688
+    },
+    {
+      "id": "19648916",
+      "tileScore": 1,
+      "name": "Hong Lok Yuen 25th St. Climb",
+      "distanceM": 334.29998779296875,
+      "avgGrade": 9.751720428466797,
+      "startLat": 22.462724685668945,
+      "startLng": 114.15904235839844
+    },
+    {
+      "id": "19743506",
+      "tileScore": 10,
+      "name": "Shan Tong Bottom ",
+      "distanceM": 423.29998779296875,
+      "avgGrade": 8.669974327087402,
+      "startLat": 22.442453384399414,
+      "startLng": 114.17045593261719
+    },
+    {
+      "id": "31445237",
+      "tileScore": 8,
+      "name": "Ma Wo Road GDV Climb",
+      "distanceM": 408.1000061035156,
+      "avgGrade": 5.43984317779541,
+      "startLat": 22.44157600402832,
+      "startLng": 114.1648941040039
+    },
+    {
+      "id": "17762684",
+      "tileScore": 5,
+      "name": "Pun Shan Chau Climb",
+      "distanceM": 1000.5999755859375,
+      "avgGrade": 6.196281909942627,
+      "startLat": 22.4371337890625,
+      "startLng": 114.16434478759766
+    }
+  ]
+}

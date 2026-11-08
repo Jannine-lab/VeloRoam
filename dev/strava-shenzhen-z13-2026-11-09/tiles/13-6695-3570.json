@@ -1,0 +1,119 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-08T22:51:12.766Z",
+  "tile": {
+    "z": 13,
+    "x": 6695,
+    "y": 3570
+  },
+  "segments": [
+    {
+      "id": "2974897",
+      "tileScore": 1,
+      "name": "Wilson Trail Sec. 10 Climb",
+      "distanceM": 1082.2581787109375,
+      "avgGrade": 11.373926162719727,
+      "startLat": 22.495933532714844,
+      "startLng": 114.22911834716797
+    },
+    {
+      "id": "10200153",
+      "tileScore": 129,
+      "name": "400M to Luk Keng Carpark (Flat Road Part)",
+      "distanceM": 2537.300048828125,
+      "avgGrade": -0.5675324201583862,
+      "startLat": 22.477611541748047,
+      "startLng": 114.23699951171875
+    },
+    {
+      "id": "777939",
+      "tileScore": 331,
+      "name": "Bride Pool whole",
+      "distanceM": 14073.5,
+      "avgGrade": 0.12292607128620148,
+      "startLat": 22.477754592895508,
+      "startLng": 114.23775482177734
+    },
+    {
+      "id": "16418936",
+      "tileScore": 47,
+      "name": "Ting Kok Rd Greencove uphill sprint",
+      "distanceM": 558.5999755859375,
+      "avgGrade": 0.5370569229125977,
+      "startLat": 22.47353744506836,
+      "startLng": 114.2149429321289
+    },
+    {
+      "id": "5636158",
+      "tileScore": 44,
+      "name": "400M to Ping Che",
+      "distanceM": 14825.7001953125,
+      "avgGrade": -0.1578340232372284,
+      "startLat": 22.476943969726562,
+      "startLng": 114.23654174804688
+    },
+    {
+      "id": "2770575",
+      "tileScore": 309,
+      "name": "Bride's Pool Road - Bride's Pool Climb",
+      "distanceM": 1567.48046875,
+      "avgGrade": 4.721194267272949,
+      "startLat": 22.49589729309082,
+      "startLng": 114.24111938476562
+    },
+    {
+      "id": "36106399",
+      "tileScore": 9,
+      "name": "NSW - SHAN SHING",
+      "distanceM": 90205.8984375,
+      "avgGrade": -0.013968043960630894,
+      "startLat": 22.44609260559082,
+      "startLng": 114.04883575439453
+    },
+    {
+      "id": "640146",
+      "tileScore": 152,
+      "name": "Ting Kok Rd. Hill Climb",
+      "distanceM": 342.1579895019531,
+      "avgGrade": 16.42794418334961,
+      "startLat": 22.47370147705078,
+      "startLng": 114.23528289794922
+    },
+    {
+      "id": "10350462",
+      "tileScore": 34,
+      "name": "Ting Kok Road from Brides Pool to Tai Po Industrial Estate",
+      "distanceM": 5894.10009765625,
+      "avgGrade": 0.023752566426992416,
+      "startLat": 22.4737548828125,
+      "startLng": 114.23528289794922
+    },
+    {
+      "id": "30266376",
+      "tileScore": 1,
+      "name": "Shan Liu Road",
+      "distanceM": 932.7999877929688,
+      "avgGrade": 4.009433746337891,
+      "startLat": 22.47174644470215,
+      "startLng": 114.22210693359375
+    },
+    {
+      "id": "38840312",
+      "tileScore": 22,
+      "name": "The GT ",
+      "distanceM": 95767,
+      "avgGrade": 0.04740672558546066,
+      "startLat": 22.326505661010742,
+      "startLng": 114.15650939941406
+    },
+    {
+      "id": "40461460",
+      "tileScore": 1,
+      "name": "Ca姐溫馨8字冷下集(鹿頸400米至石崗油站)",
+      "distanceM": 17652.900390625,
+      "avgGrade": 0.05551495775580406,
+      "startLat": 22.476028442382812,
+      "startLng": 114.23654174804688
+    }
+  ]
+}

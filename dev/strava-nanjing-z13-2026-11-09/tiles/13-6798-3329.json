@@ -1,0 +1,155 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-08T22:35:28.290Z",
+  "tile": {
+    "z": 13,
+    "x": 6798,
+    "y": 3329
+  },
+  "segments": [
+    {
+      "id": "20724766",
+      "tileScore": 2,
+      "name": "Niushoushan River Ride Part II (Reversed)",
+      "distanceM": 1062.9000244140625,
+      "avgGrade": 0.206980898976326,
+      "startLat": 31.895336151123047,
+      "startLng": 118.77531433105469
+    },
+    {
+      "id": "16576745",
+      "tileScore": 1,
+      "name": "Round the 'mountain'",
+      "distanceM": 14122.599609375,
+      "avgGrade": 0.029031481593847275,
+      "startLat": 31.912498474121094,
+      "startLng": 118.77611541748047
+    },
+    {
+      "id": "17857647",
+      "tileScore": 13,
+      "name": "3 minute climb",
+      "distanceM": 1852,
+      "avgGrade": 1.1555075645446777,
+      "startLat": 31.910444259643555,
+      "startLng": 118.7550048828125
+    },
+    {
+      "id": "20843414",
+      "tileScore": 5,
+      "name": "12",
+      "distanceM": 67279.1015625,
+      "avgGrade": 0.012485302984714508,
+      "startLat": 32.001895904541016,
+      "startLng": 118.7973403930664
+    },
+    {
+      "id": "20603384",
+      "tileScore": 1,
+      "name": "Hohai to Kangping Street",
+      "distanceM": 2445.60009765625,
+      "avgGrade": 0.08177952468395233,
+      "startLat": 31.90870475769043,
+      "startLng": 118.75582885742188
+    },
+    {
+      "id": "22261725",
+      "tileScore": 6,
+      "name": "牛首-宏觉东-祖堂顶",
+      "distanceM": 5889.2001953125,
+      "avgGrade": 2.8255109786987305,
+      "startLat": 31.90180015563965,
+      "startLng": 118.75799560546875
+    },
+    {
+      "id": "17603141",
+      "tileScore": 7,
+      "name": "Niushoushan River Ride Part I",
+      "distanceM": 469.1000061035156,
+      "avgGrade": 0.17053933441638947,
+      "startLat": 31.91042137145996,
+      "startLng": 118.78528594970703
+    },
+    {
+      "id": "39724348",
+      "tileScore": 33,
+      "name": "宁丹大道缓上（修路版）",
+      "distanceM": 1741.800048828125,
+      "avgGrade": 0.9300723671913147,
+      "startLat": 31.89312744140625,
+      "startLng": 118.76203918457031
+    },
+    {
+      "id": "21815092",
+      "tileScore": 8,
+      "name": "祖堂北坡",
+      "distanceM": 1635.5999755859375,
+      "avgGrade": 7.4223527908325195,
+      "startLat": 31.899585723876953,
+      "startLng": 118.74201965332031
+    },
+    {
+      "id": "35281100",
+      "tileScore": 8,
+      "name": "jiye-秣周中路至水阁路-吉印大道",
+      "distanceM": 1714.5,
+      "avgGrade": -0.31496062874794006,
+      "startLat": 31.875022888183594,
+      "startLng": 118.77141571044922
+    },
+    {
+      "id": "15151349",
+      "tileScore": 1,
+      "name": "Chengxin Da Dao East Bound",
+      "distanceM": 3902.89990234375,
+      "avgGrade": -0.163980633020401,
+      "startLat": 31.89776039123535,
+      "startLng": 118.7607421875
+    },
+    {
+      "id": "6882004",
+      "tileScore": 22,
+      "name": "Hohai Straightaway",
+      "distanceM": 1800.4000244140625,
+      "avgGrade": 0.4387913644313812,
+      "startLat": 31.912519454956055,
+      "startLng": 118.7756576538086
+    },
+    {
+      "id": "31693018",
+      "tileScore": 19,
+      "name": "隧道宁丹2k冲刺",
+      "distanceM": 1797.9000244140625,
+      "avgGrade": -0.6674453616142273,
+      "startLat": 31.881162643432617,
+      "startLng": 118.74568176269531
+    },
+    {
+      "id": "39724343",
+      "tileScore": 22,
+      "name": "水阁路冲一下",
+      "distanceM": 1102.699951171875,
+      "avgGrade": -0.4897071123123169,
+      "startLat": 31.90987205505371,
+      "startLng": 118.7640380859375
+    },
+    {
+      "id": "26652789",
+      "tileScore": 8,
+      "name": "牛首山一圈",
+      "distanceM": 6796.5,
+      "avgGrade": -0.0029426910914480686,
+      "startLat": 31.90350914001465,
+      "startLng": 118.74458312988281
+    },
+    {
+      "id": "18496293",
+      "tileScore": 16,
+      "name": "疗养院大门至山顶",
+      "distanceM": 931.5,
+      "avgGrade": 10.917874336242676,
+      "startLat": 31.88800621032715,
+      "startLng": 118.74079132080078
+    }
+  ]
+}

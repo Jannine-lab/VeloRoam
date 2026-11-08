@@ -1,0 +1,38 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-08T22:49:37.001Z",
+  "tile": {
+    "z": 13,
+    "x": 6702,
+    "y": 3565
+  },
+  "segments": [
+    {
+      "id": "18474495",
+      "tileScore": 13,
+      "name": "绿道ITT",
+      "distanceM": 1068.5999755859375,
+      "avgGrade": 0.14972861111164093,
+      "startLat": 22.691818237304688,
+      "startLng": 114.5406265258789
+    },
+    {
+      "id": "11131887",
+      "tileScore": 17,
+      "name": "Daya coast",
+      "distanceM": 2932.5,
+      "avgGrade": 0.06138107180595398,
+      "startLat": 22.685279846191406,
+      "startLng": 114.53533172607422
+    },
+    {
+      "id": "16874484",
+      "tileScore": 4,
+      "name": "Stage 2 疏港大道绕圈",
+      "distanceM": 4546.10009765625,
+      "avgGrade": 0.2111700177192688,
+      "startLat": 22.705698013305664,
+      "startLng": 114.55443572998047
+    }
+  ]
+}

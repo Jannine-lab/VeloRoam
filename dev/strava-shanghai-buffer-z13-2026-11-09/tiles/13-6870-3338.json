@@ -1,0 +1,65 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-03T06:02:58.866Z",
+  "tile": {
+    "z": 13,
+    "x": 6870,
+    "y": 3338
+  },
+  "segments": [
+    {
+      "id": "32119545",
+      "tileScore": 6,
+      "name": "Tough mudder - gravel segment 2",
+      "distanceM": 3541.199951171875,
+      "avgGrade": -0.005647803191095591,
+      "startLat": 31.548839569091797,
+      "startLng": 121.93284606933594
+    },
+    {
+      "id": "32119517",
+      "tileScore": 8,
+      "name": "Tough mudder - gravel segment 1",
+      "distanceM": 3008.5,
+      "avgGrade": 0.033239156007766724,
+      "startLat": 31.517255783081055,
+      "startLng": 121.93348693847656
+    },
+    {
+      "id": "42049546",
+      "tileScore": 20,
+      "name": "东滩北风车路-东向西",
+      "distanceM": 7694.2001953125,
+      "avgGrade": 0.010397442616522312,
+      "startLat": 31.574871063232422,
+      "startLng": 121.90989685058594
+    },
+    {
+      "id": "38181904",
+      "tileScore": 16,
+      "name": "巨大侧锋路段",
+      "distanceM": 2138,
+      "avgGrade": 0.0654817521572113,
+      "startLat": 31.57842445373535,
+      "startLng": 121.90898132324219
+    },
+    {
+      "id": "40267942",
+      "tileScore": 8,
+      "name": "It's nice to ride on Gravel ",
+      "distanceM": 3336.699951171875,
+      "avgGrade": 0.005993946455419064,
+      "startLat": 31.58099937438965,
+      "startLng": 121.87677001953125
+    },
+    {
+      "id": "40548218",
+      "tileScore": 6,
+      "name": "秋季崇明瓜全程",
+      "distanceM": 69191.8984375,
+      "avgGrade": 0.017632121220231056,
+      "startLat": 31.462778091430664,
+      "startLng": 121.8483657836914
+    }
+  ]
+}

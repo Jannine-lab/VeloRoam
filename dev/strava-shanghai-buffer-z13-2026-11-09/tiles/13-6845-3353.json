@@ -1,0 +1,119 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-08T22:59:56.851Z",
+  "tile": {
+    "z": 13,
+    "x": 6845,
+    "y": 3353
+  },
+  "segments": [
+    {
+      "id": "34602197",
+      "tileScore": 23,
+      "name": "我是午夜DJ 冲刺段",
+      "distanceM": 724.0999755859375,
+      "avgGrade": 0.11048198491334915,
+      "startLat": 30.97706413269043,
+      "startLng": 120.83766174316406
+    },
+    {
+      "id": "40892081",
+      "tileScore": 15,
+      "name": "或许命运的签只让我们遇见",
+      "distanceM": 2680,
+      "avgGrade": 0.10447761416435242,
+      "startLat": 31.01045799255371,
+      "startLng": 120.84447479248047
+    },
+    {
+      "id": "34600438",
+      "tileScore": 5,
+      "name": "陶庄环线 ",
+      "distanceM": 12921,
+      "avgGrade": -0.005417537409812212,
+      "startLat": 30.970102310180664,
+      "startLng": 120.80653381347656
+    },
+    {
+      "id": "40005908",
+      "tileScore": 24,
+      "name": "上旺路东向西",
+      "distanceM": 4212.39990234375,
+      "avgGrade": 0.023739434778690338,
+      "startLat": 30.985803604125977,
+      "startLng": 120.87980651855469
+    },
+    {
+      "id": "21977950",
+      "tileScore": 3,
+      "name": "Taipu River Southbank Path (Eastbound)",
+      "distanceM": 29653.69921875,
+      "avgGrade": 0.01686130277812481,
+      "startLat": 30.997154235839844,
+      "startLng": 120.77889251708984
+    },
+    {
+      "id": "22083408",
+      "tileScore": 4,
+      "name": "Luxu shortcut",
+      "distanceM": 3701.10009765625,
+      "avgGrade": -0.027018994092941284,
+      "startLat": 31.001218795776367,
+      "startLng": 120.83028411865234
+    },
+    {
+      "id": "37504197",
+      "tileScore": 28,
+      "name": "绿豆汤 冲啊！",
+      "distanceM": 2339.89990234375,
+      "avgGrade": 0.07692636549472809,
+      "startLat": 30.98455047607422,
+      "startLng": 120.8323745727539
+    },
+    {
+      "id": "41267620",
+      "tileScore": 30,
+      "name": "向左走，是风景；向右走，是故事。",
+      "distanceM": 25253.69921875,
+      "avgGrade": 0.0031678525265306234,
+      "startLat": 30.782241821289062,
+      "startLng": 120.82916259765625
+    },
+    {
+      "id": "38720017",
+      "tileScore": 25,
+      "name": "湖边弯弯绕小路",
+      "distanceM": 2635.800048828125,
+      "avgGrade": -0.12140526622533798,
+      "startLat": 31.001312255859375,
+      "startLng": 120.830078125
+    },
+    {
+      "id": "39089386",
+      "tileScore": 29,
+      "name": "Past the rowers E-W",
+      "distanceM": 2840.199951171875,
+      "avgGrade": -0.06337582319974899,
+      "startLat": 31.00157356262207,
+      "startLng": 120.80865478515625
+    },
+    {
+      "id": "34602147",
+      "tileScore": 68,
+      "name": "我是午夜DJ",
+      "distanceM": 4221,
+      "avgGrade": 0.06633499264717102,
+      "startLat": 30.945871353149414,
+      "startLng": 120.8387451171875
+    },
+    {
+      "id": "41269450",
+      "tileScore": 9,
+      "name": "一条小路",
+      "distanceM": 25093.599609375,
+      "avgGrade": 0.005579112097620964,
+      "startLat": 30.98356056213379,
+      "startLng": 120.83517456054688
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-03T06:01:13.547Z",
+  "tile": {
+    "z": 13,
+    "x": 6863,
+    "y": 3334
+  },
+  "segments": [
+    {
+      "id": "39147055",
+      "tileScore": 4,
+      "name": "永兴东路(永馔农场-北新公路)",
+      "distanceM": 6265.5,
+      "avgGrade": 0.007980208843946457,
+      "startLat": 31.700660705566406,
+      "startLng": 121.62164306640625
+    }
+  ]
+}

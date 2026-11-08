@@ -1,0 +1,29 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-08T22:37:23.544Z",
+  "tile": {
+    "z": 13,
+    "x": 6800,
+    "y": 3335
+  },
+  "segments": [
+    {
+      "id": "29966507",
+      "tileScore": 4,
+      "name": "cd-四进山迎驾路到小店",
+      "distanceM": 5712.2001953125,
+      "avgGrade": 0.46216869354248047,
+      "startLat": 31.678688049316406,
+      "startLng": 118.83145141601562
+    },
+    {
+      "id": "14678857",
+      "tileScore": 4,
+      "name": "S38 - Changhe Highway crossroad",
+      "distanceM": 7545.5,
+      "avgGrade": 0.0927705243229866,
+      "startLat": 31.67291259765625,
+      "startLng": 118.89064025878906
+    }
+  ]
+}

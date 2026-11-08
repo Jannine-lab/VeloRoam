@@ -1,0 +1,137 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-08T22:59:56.851Z",
+  "tile": {
+    "z": 13,
+    "x": 6845,
+    "y": 3352
+  },
+  "segments": [
+    {
+      "id": "35469122",
+      "tileScore": 5,
+      "name": "从周庄镇、湖青坪到运河 ",
+      "distanceM": 34445.80078125,
+      "avgGrade": -0.01799929141998291,
+      "startLat": 31.094715118408203,
+      "startLng": 120.84705352783203
+    },
+    {
+      "id": "14872783",
+      "tileScore": 3,
+      "name": "Linhu Road Westwards",
+      "distanceM": 10778.099609375,
+      "avgGrade": 0.0018556145951151848,
+      "startLat": 31.028182983398438,
+      "startLng": 120.84078979492188
+    },
+    {
+      "id": "38897849",
+      "tileScore": 1,
+      "name": "公制世纪 - KOM",
+      "distanceM": 101772.296875,
+      "avgGrade": -0.0031442742329090834,
+      "startLat": 31.17006492614746,
+      "startLng": 121.2751235961914
+    },
+    {
+      "id": "16223856",
+      "tileScore": 18,
+      "name": "X201 until highway",
+      "distanceM": 5684.2998046875,
+      "avgGrade": 0.0017592315562069416,
+      "startLat": 31.0914363861084,
+      "startLng": 120.84539794921875
+    },
+    {
+      "id": "38760752",
+      "tileScore": 10,
+      "name": "黎星到芦墟",
+      "distanceM": 6739.60009765625,
+      "avgGrade": 0.0445130281150341,
+      "startLat": 31.004974365234375,
+      "startLng": 120.76905059814453
+    },
+    {
+      "id": "21977950",
+      "tileScore": 3,
+      "name": "Taipu River Southbank Path (Eastbound)",
+      "distanceM": 29653.69921875,
+      "avgGrade": 0.01686130277812481,
+      "startLat": 30.997154235839844,
+      "startLng": 120.77889251708984
+    },
+    {
+      "id": "39767095",
+      "tileScore": 2,
+      "name": "洋砂荡公园",
+      "distanceM": 5011.7998046875,
+      "avgGrade": -0.007981164380908012,
+      "startLat": 31.037260055541992,
+      "startLng": 120.8463134765625
+    },
+    {
+      "id": "35078688",
+      "tileScore": 2,
+      "name": "Sizhou Temple Flyby",
+      "distanceM": 1514.800048828125,
+      "avgGrade": -0.32347503304481506,
+      "startLat": 31.04218292236328,
+      "startLng": 120.82035064697266
+    },
+    {
+      "id": "40261484",
+      "tileScore": 8,
+      "name": "西湾路RUSH",
+      "distanceM": 1119.4000244140625,
+      "avgGrade": -0.07146686315536499,
+      "startLat": 31.033302307128906,
+      "startLng": 120.82209777832031
+    },
+    {
+      "id": "39843684",
+      "tileScore": 7,
+      "name": "三白荡南侧",
+      "distanceM": 1632.4000244140625,
+      "avgGrade": 0.08576329797506332,
+      "startLat": 31.0280704498291,
+      "startLng": 120.8408203125
+    },
+    {
+      "id": "40986412",
+      "tileScore": 12,
+      "name": "太浦河北岸从头到尾",
+      "distanceM": 58174.1015625,
+      "avgGrade": -0.006875912193208933,
+      "startLat": 31.01245880126953,
+      "startLng": 120.48320770263672
+    },
+    {
+      "id": "22083408",
+      "tileScore": 4,
+      "name": "Luxu shortcut",
+      "distanceM": 3701.10009765625,
+      "avgGrade": -0.027018994092941284,
+      "startLat": 31.001218795776367,
+      "startLng": 120.83028411865234
+    },
+    {
+      "id": "3361098",
+      "tileScore": 18,
+      "name": "G318 ",
+      "distanceM": 5434.2421875,
+      "avgGrade": -0.02024179697036743,
+      "startLat": 31.021074295043945,
+      "startLng": 120.90135192871094
+    },
+    {
+      "id": "22068484",
+      "tileScore": 7,
+      "name": "G318 上海-湖州",
+      "distanceM": 133169.203125,
+      "avgGrade": -0.002553143072873354,
+      "startLat": 31.17106056213379,
+      "startLng": 121.32220458984375
+    }
+  ]
+}

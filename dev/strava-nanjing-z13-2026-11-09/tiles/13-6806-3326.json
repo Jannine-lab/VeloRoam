@@ -1,0 +1,83 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-08T22:34:32.707Z",
+  "tile": {
+    "z": 13,
+    "x": 6806,
+    "y": 3326
+  },
+  "segments": [
+    {
+      "id": "30558677",
+      "tileScore": 72,
+      "name": "西部干线itt突围之旅",
+      "distanceM": 11787.2998046875,
+      "avgGrade": -0.4988419711589813,
+      "startLat": 32.0999641418457,
+      "startLng": 119.11231994628906
+    },
+    {
+      "id": "40872698",
+      "tileScore": 10,
+      "name": "TY_买完烤鸭必须加脚回家",
+      "distanceM": 5761.39990234375,
+      "avgGrade": 0.17009754478931427,
+      "startLat": 32.009765625,
+      "startLng": 119.11238098144531
+    },
+    {
+      "id": "18421167",
+      "tileScore": 119,
+      "name": "Jurong xibuganxian southward",
+      "distanceM": 17990.599609375,
+      "avgGrade": 0.0266805998980999,
+      "startLat": 32.11002731323242,
+      "startLng": 119.05467224121094
+    },
+    {
+      "id": "40872689",
+      "tileScore": 40,
+      "name": "TY_向松子烤鸭冲刺",
+      "distanceM": 2618.89990234375,
+      "avgGrade": 0.2520142197608948,
+      "startLat": 31.990116119384766,
+      "startLng": 119.12831115722656
+    },
+    {
+      "id": "39883787",
+      "tileScore": 8,
+      "name": "西部干线环线段 1/2",
+      "distanceM": 39352.30078125,
+      "avgGrade": 0.04472419619560242,
+      "startLat": 32.06488800048828,
+      "startLng": 118.88341522216797
+    },
+    {
+      "id": "18421249",
+      "tileScore": 111,
+      "name": "Jurong xibuganxian sprint1",
+      "distanceM": 7115.89990234375,
+      "avgGrade": -1.135485291481018,
+      "startLat": 32.0698356628418,
+      "startLng": 119.13545227050781
+    },
+    {
+      "id": "40872676",
+      "tileScore": 15,
+      "name": "TY_追逐S6（小心环岛路牙，设计很不合理）",
+      "distanceM": 3499.199951171875,
+      "avgGrade": 0.20004571974277496,
+      "startLat": 31.99405860900879,
+      "startLng": 119.16574096679688
+    },
+    {
+      "id": "36755845",
+      "tileScore": 61,
+      "name": "西部干线+S122宁张线 间歇专线",
+      "distanceM": 33812.30078125,
+      "avgGrade": -0.031053787097334862,
+      "startLat": 32.109764099121094,
+      "startLng": 119.05423736572266
+    }
+  ]
+}

@@ -1,0 +1,164 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-08T22:51:51.660Z",
+  "tile": {
+    "z": 13,
+    "x": 6694,
+    "y": 3572
+  },
+  "segments": [
+    {
+      "id": "11935059",
+      "tileScore": 40,
+      "name": "Tai Wai to Tai Po",
+      "distanceM": 12323.7001953125,
+      "avgGrade": 0.0032457783818244934,
+      "startLat": 22.3743839263916,
+      "startLng": 114.18074035644531
+    },
+    {
+      "id": "6599742",
+      "tileScore": 484,
+      "name": "Real A Kung Kok Climb",
+      "distanceM": 1335.0999755859375,
+      "avgGrade": 9.033031463623047,
+      "startLat": 22.397005081176758,
+      "startLng": 114.21135711669922
+    },
+    {
+      "id": "4449754",
+      "tileScore": 224,
+      "name": "穗禾(迴旋處到迴旋處)",
+      "distanceM": 2591.199951171875,
+      "avgGrade": 5.989502906799316,
+      "startLat": 22.39729881286621,
+      "startLng": 114.1915512084961
+    },
+    {
+      "id": "6435859",
+      "tileScore": 63,
+      "name": "馬場對面河(MOS-ST)",
+      "distanceM": 695.4000244140625,
+      "avgGrade": -0.2588438391685486,
+      "startLat": 22.401744842529297,
+      "startLng": 114.21414184570312
+    },
+    {
+      "id": "34223693",
+      "tileScore": 5,
+      "name": "yuen long to tai po twin bridge",
+      "distanceM": 34870.8984375,
+      "avgGrade": -0.013765059411525726,
+      "startLat": 22.444385528564453,
+      "startLng": 114.04415893554688
+    },
+    {
+      "id": "33877200",
+      "tileScore": 27,
+      "name": "康城大冷",
+      "distanceM": 130482.203125,
+      "avgGrade": 0,
+      "startLat": 22.29688835144043,
+      "startLng": 114.26518249511719
+    },
+    {
+      "id": "8518370",
+      "tileScore": 11,
+      "name": "TKO direct MTB ride to Wah Shan",
+      "distanceM": 42259.80078125,
+      "avgGrade": -0.05300545692443848,
+      "startLat": 22.331056594848633,
+      "startLng": 114.25001525878906
+    },
+    {
+      "id": "6435788",
+      "tileScore": 99,
+      "name": "河畔800(MOS-ST)",
+      "distanceM": 755.0999755859375,
+      "avgGrade": 0.1854059100151062,
+      "startLat": 22.396326065063477,
+      "startLng": 114.20885467529297
+    },
+    {
+      "id": "6815609",
+      "tileScore": 242,
+      "name": "Straight stretch to Tai Po",
+      "distanceM": 4966.7001953125,
+      "avgGrade": 0.02013409323990345,
+      "startLat": 22.423725128173828,
+      "startLng": 114.21483612060547
+    },
+    {
+      "id": "2648309",
+      "tileScore": 124,
+      "name": "Penfold straight",
+      "distanceM": 1054.6845703125,
+      "avgGrade": -0.21807149052619934,
+      "startLat": 22.39596939086914,
+      "startLng": 114.20587921142578
+    },
+    {
+      "id": "38840312",
+      "tileScore": 22,
+      "name": "The GT ",
+      "distanceM": 95767,
+      "avgGrade": 0.04740672558546066,
+      "startLat": 22.326505661010742,
+      "startLng": 114.15650939941406
+    },
+    {
+      "id": "6376472",
+      "tileScore": 167,
+      "name": "九肚山回旋處到中文大學門口－爬岥",
+      "distanceM": 1767.0999755859375,
+      "avgGrade": 4.051836013793945,
+      "startLat": 22.406352996826172,
+      "startLng": 114.20826721191406
+    },
+    {
+      "id": "3159009",
+      "tileScore": 16,
+      "name": "Wong Chuk Yeung Climb",
+      "distanceM": 1505.6083984375,
+      "avgGrade": 10.852815628051758,
+      "startLat": 22.398408889770508,
+      "startLng": 114.18955993652344
+    },
+    {
+      "id": "16470540",
+      "tileScore": 2,
+      "name": "躍動沙田 - 破風之旅 2017",
+      "distanceM": 13605.599609375,
+      "avgGrade": -0.013229846023023129,
+      "startLat": 22.425277709960938,
+      "startLng": 114.21023559570312
+    },
+    {
+      "id": "36106399",
+      "tileScore": 9,
+      "name": "NSW - SHAN SHING",
+      "distanceM": 90205.8984375,
+      "avgGrade": -0.013968043960630894,
+      "startLat": 22.44609260559082,
+      "startLng": 114.04883575439453
+    },
+    {
+      "id": "13534684",
+      "tileScore": 72,
+      "name": "Shui Chong St sprint (from Shatin)",
+      "distanceM": 455.5,
+      "avgGrade": -0.04390779510140419,
+      "startLat": 22.40641212463379,
+      "startLng": 114.2105484008789
+    },
+    {
+      "id": "27439830",
+      "tileScore": 25,
+      "name": "Tai Po (Tai Wong Yeh Temple) to Pak Tam Chung / 大埔(大王爺廟)至北潭涌",
+      "distanceM": 25706,
+      "avgGrade": 0.031121138483285904,
+      "startLat": 22.4453067779541,
+      "startLng": 114.17774200439453
+    }
+  ]
+}

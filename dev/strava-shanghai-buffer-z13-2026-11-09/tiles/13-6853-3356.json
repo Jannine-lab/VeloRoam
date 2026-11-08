@@ -1,0 +1,74 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-03T06:11:13.142Z",
+  "tile": {
+    "z": 13,
+    "x": 6853,
+    "y": 3356
+  },
+  "segments": [
+    {
+      "id": "32168353",
+      "tileScore": 4,
+      "name": "金石北路（亭枫公路-朱吕公路）",
+      "distanceM": 6958.7001953125,
+      "avgGrade": -0.011496400460600853,
+      "startLat": 30.893510818481445,
+      "startLng": 121.19263458251953
+    },
+    {
+      "id": "24084389",
+      "tileScore": 5,
+      "name": "金中绕圈",
+      "distanceM": 2712.39990234375,
+      "avgGrade": -0.051614806056022644,
+      "startLat": 30.882360458374023,
+      "startLng": 121.16187286376953
+    },
+    {
+      "id": "32924496",
+      "tileScore": 5,
+      "name": "泖港大桥-亭枫公路",
+      "distanceM": 4834.5,
+      "avgGrade": 0.016547730192542076,
+      "startLat": 30.9368896484375,
+      "startLng": 121.18673706054688
+    },
+    {
+      "id": "40992363",
+      "tileScore": 10,
+      "name": "Tingfeng Hwy Jinlang to Songwei",
+      "distanceM": 8834.599609375,
+      "avgGrade": 0.01811061054468155,
+      "startLat": 30.894289016723633,
+      "startLng": 121.17926025390625
+    },
+    {
+      "id": "40969091",
+      "tileScore": 6,
+      "name": "Jinshan Bridge #Tingfeng Highway",
+      "distanceM": 710.5999755859375,
+      "avgGrade": -0.16887137293815613,
+      "startLat": 30.894561767578125,
+      "startLng": 121.17832946777344
+    },
+    {
+      "id": "32924499",
+      "tileScore": 5,
+      "name": "金廊公路",
+      "distanceM": 11584.2998046875,
+      "avgGrade": -0.010358847677707672,
+      "startLat": 30.8941650390625,
+      "startLng": 121.17863464355469
+    },
+    {
+      "id": "13978882",
+      "tileScore": 1,
+      "name": "廊下门头-亭枫公路ITT",
+      "distanceM": 13685.099609375,
+      "avgGrade": 0.020460208877921104,
+      "startLat": 30.78766441345215,
+      "startLng": 121.24444580078125
+    }
+  ]
+}

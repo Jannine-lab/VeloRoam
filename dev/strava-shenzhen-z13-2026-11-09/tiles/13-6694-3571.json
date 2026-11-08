@@ -1,0 +1,236 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-08T22:51:51.660Z",
+  "tile": {
+    "z": 13,
+    "x": 6694,
+    "y": 3571
+  },
+  "segments": [
+    {
+      "id": "11935059",
+      "tileScore": 40,
+      "name": "Tai Wai to Tai Po",
+      "distanceM": 12323.7001953125,
+      "avgGrade": 0.0032457783818244934,
+      "startLat": 22.3743839263916,
+      "startLng": 114.18074035644531
+    },
+    {
+      "id": "35297447",
+      "tileScore": 17,
+      "name": "三門仔海濱單車徑 in ",
+      "distanceM": 881,
+      "avgGrade": 0.045402951538562775,
+      "startLat": 22.459840774536133,
+      "startLng": 114.20377349853516
+    },
+    {
+      "id": "16201681",
+      "tileScore": 504,
+      "name": "過橋-大王爺廟",
+      "distanceM": 1447.300048828125,
+      "avgGrade": -0.027637669816613197,
+      "startLat": 22.4393253326416,
+      "startLng": 114.18798065185547
+    },
+    {
+      "id": "40461460",
+      "tileScore": 1,
+      "name": "Ca姐溫馨8字冷下集(鹿頸400米至石崗油站)",
+      "distanceM": 17652.900390625,
+      "avgGrade": 0.05551495775580406,
+      "startLat": 22.476028442382812,
+      "startLng": 114.23654174804688
+    },
+    {
+      "id": "17473782",
+      "tileScore": 88,
+      "name": "汀角路上(第一段)",
+      "distanceM": 392.79998779296875,
+      "avgGrade": 2.4439918994903564,
+      "startLat": 22.46210289001465,
+      "startLng": 114.19064331054688
+    },
+    {
+      "id": "36106399",
+      "tileScore": 9,
+      "name": "NSW - SHAN SHING",
+      "distanceM": 90205.8984375,
+      "avgGrade": -0.013968043960630894,
+      "startLat": 22.44609260559082,
+      "startLng": 114.04883575439453
+    },
+    {
+      "id": "8357080",
+      "tileScore": 21,
+      "name": "Sha Lo Tung (to top only)",
+      "distanceM": 1865.5,
+      "avgGrade": 10.292146682739258,
+      "startLat": 22.459548950195312,
+      "startLng": 114.18134307861328
+    },
+    {
+      "id": "27439830",
+      "tileScore": 25,
+      "name": "Tai Po (Tai Wong Yeh Temple) to Pak Tam Chung / 大埔(大王爺廟)至北潭涌",
+      "distanceM": 25706,
+      "avgGrade": 0.031121138483285904,
+      "startLat": 22.4453067779541,
+      "startLng": 114.17774200439453
+    },
+    {
+      "id": "6267554",
+      "tileScore": 42,
+      "name": "Ting Kok Road Climb",
+      "distanceM": 677.9000244140625,
+      "avgGrade": 12.922260284423828,
+      "startLat": 22.472585678100586,
+      "startLng": 114.21259307861328
+    },
+    {
+      "id": "18401836",
+      "tileScore": 189,
+      "name": "霆爺快上路",
+      "distanceM": 310.3999938964844,
+      "avgGrade": -0.2255154550075531,
+      "startLat": 22.439435958862305,
+      "startLng": 114.19458770751953
+    },
+    {
+      "id": "33877200",
+      "tileScore": 27,
+      "name": "康城大冷",
+      "distanceM": 130482.203125,
+      "avgGrade": 0,
+      "startLat": 22.29688835144043,
+      "startLng": 114.26518249511719
+    },
+    {
+      "id": "17579640",
+      "tileScore": 25,
+      "name": "SMU 🚴 - Straight to Tzs Shan",
+      "distanceM": 404.3999938964844,
+      "avgGrade": -0.5440158247947693,
+      "startLat": 22.468029022216797,
+      "startLng": 114.20884704589844
+    },
+    {
+      "id": "10350462",
+      "tileScore": 34,
+      "name": "Ting Kok Road from Brides Pool to Tai Po Industrial Estate",
+      "distanceM": 5894.10009765625,
+      "avgGrade": 0.023752566426992416,
+      "startLat": 22.4737548828125,
+      "startLng": 114.23528289794922
+    },
+    {
+      "id": "8518370",
+      "tileScore": 11,
+      "name": "TKO direct MTB ride to Wah Shan",
+      "distanceM": 42259.80078125,
+      "avgGrade": -0.05300545692443848,
+      "startLat": 22.331056594848633,
+      "startLng": 114.25001525878906
+    },
+    {
+      "id": "6815609",
+      "tileScore": 242,
+      "name": "Straight stretch to Tai Po",
+      "distanceM": 4966.7001953125,
+      "avgGrade": 0.02013409323990345,
+      "startLat": 22.423725128173828,
+      "startLng": 114.21483612060547
+    },
+    {
+      "id": "15740984",
+      "tileScore": 91,
+      "name": "Yuen Chau Tsai Park",
+      "distanceM": 447.8999938964844,
+      "avgGrade": 0.6697924137115479,
+      "startLat": 22.44533348083496,
+      "startLng": 114.17766571044922
+    },
+    {
+      "id": "19743506",
+      "tileScore": 10,
+      "name": "Shan Tong Bottom ",
+      "distanceM": 423.29998779296875,
+      "avgGrade": 8.669974327087402,
+      "startLat": 22.442453384399414,
+      "startLng": 114.17045593261719
+    },
+    {
+      "id": "11510201",
+      "tileScore": 11,
+      "name": "Fung Yuen Sprint",
+      "distanceM": 495.20001220703125,
+      "avgGrade": 2.2011308670043945,
+      "startLat": 22.459659576416016,
+      "startLng": 114.17974853515625
+    },
+    {
+      "id": "36821110",
+      "tileScore": 8,
+      "name": "Choi Tip Street",
+      "distanceM": 501.5,
+      "avgGrade": 4.28713846206665,
+      "startLat": 22.461002349853516,
+      "startLng": 114.17304229736328
+    },
+    {
+      "id": "38840312",
+      "tileScore": 22,
+      "name": "The GT ",
+      "distanceM": 95767,
+      "avgGrade": 0.04740672558546066,
+      "startLat": 22.326505661010742,
+      "startLng": 114.15650939941406
+    },
+    {
+      "id": "7340355",
+      "tileScore": 600,
+      "name": "優景里爬岥到頂",
+      "distanceM": 931.4000244140625,
+      "avgGrade": 6.205711841583252,
+      "startLat": 22.433019638061523,
+      "startLng": 114.19967651367188
+    },
+    {
+      "id": "8200694",
+      "tileScore": 19,
+      "name": "Buddha Hill",
+      "distanceM": 412.79998779296875,
+      "avgGrade": 7.388565540313721,
+      "startLat": 22.469165802001953,
+      "startLng": 114.2051773071289
+    },
+    {
+      "id": "7979642",
+      "tileScore": 61,
+      "name": "1km",
+      "distanceM": 553.2000122070312,
+      "avgGrade": 0.18076644837856293,
+      "startLat": 22.45929527282715,
+      "startLng": 114.18840789794922
+    },
+    {
+      "id": "34223693",
+      "tileScore": 5,
+      "name": "yuen long to tai po twin bridge",
+      "distanceM": 34870.8984375,
+      "avgGrade": -0.013765059411525726,
+      "startLat": 22.444385528564453,
+      "startLng": 114.04415893554688
+    },
+    {
+      "id": "26808988",
+      "tileScore": 30,
+      "name": "Sam mun tsai bridge out",
+      "distanceM": 303.6000061035156,
+      "avgGrade": -0.7246376872062683,
+      "startLat": 22.456911087036133,
+      "startLng": 114.2137451171875
+    }
+  ]
+}

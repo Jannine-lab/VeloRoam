@@ -1,0 +1,56 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-03T06:09:45.577Z",
+  "tile": {
+    "z": 13,
+    "x": 6852,
+    "y": 3354
+  },
+  "segments": [
+    {
+      "id": "40029478",
+      "tileScore": 17,
+      "name": "Canals to Bridge before Drinkstand",
+      "distanceM": 1666.9000244140625,
+      "avgGrade": -0.023996639996767044,
+      "startLat": 30.959144592285156,
+      "startLng": 121.15861511230469
+    },
+    {
+      "id": "40248040",
+      "tileScore": 21,
+      "name": "North Bank of the Danzheng River",
+      "distanceM": 4516.89990234375,
+      "avgGrade": 0.006641723215579987,
+      "startLat": 30.97047233581543,
+      "startLng": 121.1123275756836
+    },
+    {
+      "id": "11987585",
+      "tileScore": 13,
+      "name": "Xietang Bridge (North-East Bound)",
+      "distanceM": 682.2999877929688,
+      "avgGrade": 0.0293126180768013,
+      "startLat": 30.97605323791504,
+      "startLng": 121.14606475830078
+    },
+    {
+      "id": "40976501",
+      "tileScore": 11,
+      "name": "Canal Tour",
+      "distanceM": 31244.30078125,
+      "avgGrade": 0.01024186797440052,
+      "startLat": 31.025711059570312,
+      "startLng": 121.04932403564453
+    },
+    {
+      "id": "40134344",
+      "tileScore": 27,
+      "name": "Steamtrain to Songzheng Bridge",
+      "distanceM": 4290.7001953125,
+      "avgGrade": -0.018644975498318672,
+      "startLat": 30.963443756103516,
+      "startLng": 121.15601348876953
+    }
+  ]
+}

@@ -1,0 +1,173 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-08T22:33:05.367Z",
+  "tile": {
+    "z": 13,
+    "x": 6805,
+    "y": 3324
+  },
+  "segments": [
+    {
+      "id": "35188567",
+      "tileScore": 9,
+      "name": "后巷路（西向东）",
+      "distanceM": 1787.9000244140625,
+      "avgGrade": 2.0470943450927734,
+      "startLat": 32.0798454284668,
+      "startLng": 119.05719757080078
+    },
+    {
+      "id": "38154136",
+      "tileScore": 22,
+      "name": "climb—🐟",
+      "distanceM": 555.4000244140625,
+      "avgGrade": 3.2589125633239746,
+      "startLat": 32.06632995605469,
+      "startLng": 119.0528793334961
+    },
+    {
+      "id": "35183730",
+      "tileScore": 1,
+      "name": "窑湾水库-越野骑基地",
+      "distanceM": 939,
+      "avgGrade": 0.08519701659679413,
+      "startLat": 32.0723876953125,
+      "startLng": 119.07836151123047
+    },
+    {
+      "id": "35188459",
+      "tileScore": 11,
+      "name": "胄王村-上窑湾-越野路线",
+      "distanceM": 4068.699951171875,
+      "avgGrade": 0.31951236724853516,
+      "startLat": 32.08551788330078,
+      "startLng": 119.12190246582031
+    },
+    {
+      "id": "40103622",
+      "tileScore": 48,
+      "name": "Anjishan Lake W>E",
+      "distanceM": 3229.5,
+      "avgGrade": 0.3715745508670807,
+      "startLat": 32.09109115600586,
+      "startLng": 119.0565185546875
+    },
+    {
+      "id": "35188546",
+      "tileScore": 16,
+      "name": "后窑路-上窑湾-窑湾水库",
+      "distanceM": 3391.5,
+      "avgGrade": 0.4776647388935089,
+      "startLat": 32.08341598510742,
+      "startLng": 119.07384490966797
+    },
+    {
+      "id": "42127630",
+      "tileScore": 118,
+      "name": "园博园团练路线itt",
+      "distanceM": 62612,
+      "avgGrade": 0,
+      "startLat": 31.94707489013672,
+      "startLng": 118.91030883789062
+    },
+    {
+      "id": "36869130",
+      "tileScore": 35,
+      "name": "欢迎来到安基山鲁贝赛段",
+      "distanceM": 525.5999755859375,
+      "avgGrade": 0.2283104956150055,
+      "startLat": 32.10102081298828,
+      "startLng": 119.0775146484375
+    },
+    {
+      "id": "40912411",
+      "tileScore": 9,
+      "name": "TY_军禁跟踪者",
+      "distanceM": 526.2000122070312,
+      "avgGrade": 2.432535171508789,
+      "startLat": 32.08638381958008,
+      "startLng": 119.08161163330078
+    },
+    {
+      "id": "29598008",
+      "tileScore": 58,
+      "name": "S002高速",
+      "distanceM": 830,
+      "avgGrade": 0.1204819306731224,
+      "startLat": 32.08734130859375,
+      "startLng": 119.05546569824219
+    },
+    {
+      "id": "35183445",
+      "tileScore": 189,
+      "name": "园博园（铁轨-省道）",
+      "distanceM": 3273.199951171875,
+      "avgGrade": 0.20163753628730774,
+      "startLat": 32.08888626098633,
+      "startLng": 119.02383422851562
+    },
+    {
+      "id": "29515192",
+      "tileScore": 169,
+      "name": "S002 S climb",
+      "distanceM": 770.5,
+      "avgGrade": 4.127190113067627,
+      "startLat": 32.07881164550781,
+      "startLng": 119.05683135986328
+    },
+    {
+      "id": "36761697",
+      "tileScore": 17,
+      "name": "伏牛山爬坡",
+      "distanceM": 1255.5999755859375,
+      "avgGrade": 2.6122968196868896,
+      "startLat": 32.06953048706055,
+      "startLng": 119.08058166503906
+    },
+    {
+      "id": "34017185",
+      "tileScore": 12,
+      "name": "S112 - Tangshan - Garden Expo W",
+      "distanceM": 15587,
+      "avgGrade": -0.29511773586273193,
+      "startLat": 32.037925720214844,
+      "startLng": 119.01712036132812
+    },
+    {
+      "id": "18421613",
+      "tileScore": 45,
+      "name": "Tangshan descent1",
+      "distanceM": 1786.5999755859375,
+      "avgGrade": -1.4328893423080444,
+      "startLat": 32.10371398925781,
+      "startLng": 119.05644989013672
+    },
+    {
+      "id": "28871159",
+      "tileScore": 7,
+      "name": "New Parking lot from East",
+      "distanceM": 1211.5,
+      "avgGrade": 2.4432520866394043,
+      "startLat": 32.07844161987305,
+      "startLng": 119.05570983886719
+    },
+    {
+      "id": "36800174",
+      "tileScore": 34,
+      "name": "螺丝冲彩虹步道一圈itt",
+      "distanceM": 1782.800048828125,
+      "avgGrade": -0.022436615079641342,
+      "startLat": 32.099578857421875,
+      "startLng": 119.06649780273438
+    },
+    {
+      "id": "35765181",
+      "tileScore": 33,
+      "name": "ul - Xianlin - Baohua Garden Expo Loop",
+      "distanceM": 34483.80078125,
+      "avgGrade": 0.011599649675190449,
+      "startLat": 32.095947265625,
+      "startLng": 118.91744232177734
+    }
+  ]
+}

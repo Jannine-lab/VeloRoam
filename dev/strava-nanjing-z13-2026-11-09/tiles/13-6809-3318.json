@@ -1,0 +1,20 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-08T22:26:50.910Z",
+  "tile": {
+    "z": 13,
+    "x": 6809,
+    "y": 3318
+  },
+  "segments": [
+    {
+      "id": "37950763",
+      "tileScore": 19,
+      "name": "新集→新城",
+      "distanceM": 4682.39990234375,
+      "avgGrade": 0.03417051210999489,
+      "startLat": 32.3235969543457,
+      "startLng": 119.2923355102539
+    }
+  ]
+}

@@ -1,0 +1,101 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-03T06:07:53.512Z",
+  "tile": {
+    "z": 13,
+    "x": 6849,
+    "y": 3348
+  },
+  "segments": [
+    {
+      "id": "39147063",
+      "tileScore": 64,
+      "name": "吴江公路鲁贝",
+      "distanceM": 3330.5,
+      "avgGrade": 0.018015313893556595,
+      "startLat": 31.19210433959961,
+      "startLng": 120.96485900878906
+    },
+    {
+      "id": "38288037",
+      "tileScore": 8,
+      "name": "VKCC 口木的秘密训练路线",
+      "distanceM": 54715.8984375,
+      "avgGrade": 0.0018276222981512547,
+      "startLat": 31.079866409301758,
+      "startLng": 120.9510726928711
+    },
+    {
+      "id": "42155611",
+      "tileScore": 19,
+      "name": "淀山湖大环加太浦河95km",
+      "distanceM": 98464.203125,
+      "avgGrade": 0.00020311950356699526,
+      "startLat": 31.100807189941406,
+      "startLng": 121.01215362548828
+    },
+    {
+      "id": "3725415",
+      "tileScore": 5,
+      "name": "Xin Le Lu",
+      "distanceM": 7061.44091796875,
+      "avgGrade": 0.04814909026026726,
+      "startLat": 31.18485450744629,
+      "startLng": 120.99977111816406
+    },
+    {
+      "id": "30074996",
+      "tileScore": 1,
+      "name": "LG-08",
+      "distanceM": 3575.39990234375,
+      "avgGrade": 0.044750239700078964,
+      "startLat": 31.177448272705078,
+      "startLng": 121.03191375732422
+    },
+    {
+      "id": "3725446",
+      "tileScore": 21,
+      "name": "Dianshan Lake West and North",
+      "distanceM": 21665.25390625,
+      "avgGrade": -0.008308254182338715,
+      "startLat": 31.068464279174805,
+      "startLng": 120.91326141357422
+    },
+    {
+      "id": "40234825",
+      "tileScore": 16,
+      "name": "【XYH】决战黄浦江",
+      "distanceM": 2202.89990234375,
+      "avgGrade": -0.1180262416601181,
+      "startLat": 31.182964324951172,
+      "startLng": 121.00260925292969
+    },
+    {
+      "id": "29407249",
+      "tileScore": 4,
+      "name": "BTP-CN-2021-5",
+      "distanceM": 1471.699951171875,
+      "avgGrade": -0.1155126690864563,
+      "startLat": 31.182262420654297,
+      "startLng": 121.0177001953125
+    },
+    {
+      "id": "30384821",
+      "tileScore": 3,
+      "name": "THL-4",
+      "distanceM": 116824.5,
+      "avgGrade": -0.0025679543614387512,
+      "startLat": 31.206161499023438,
+      "startLng": 121.28252410888672
+    },
+    {
+      "id": "38897849",
+      "tileScore": 1,
+      "name": "公制世纪 - KOM",
+      "distanceM": 101772.296875,
+      "avgGrade": -0.0031442742329090834,
+      "startLat": 31.17006492614746,
+      "startLng": 121.2751235961914
+    }
+  ]
+}

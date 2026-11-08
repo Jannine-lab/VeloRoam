@@ -1,0 +1,20 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-08T22:39:01.429Z",
+  "tile": {
+    "z": 13,
+    "x": 6791,
+    "y": 3340
+  },
+  "segments": [
+    {
+      "id": "35082968",
+      "tileScore": 5,
+      "name": "九华北路G205国道至太白©",
+      "distanceM": 10145.5,
+      "avgGrade": -0.011827903799712658,
+      "startLat": 31.43256950378418,
+      "startLng": 118.40299987792969
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-08T22:35:12.131Z",
+  "tile": {
+    "z": 13,
+    "x": 6789,
+    "y": 3326
+  },
+  "segments": [
+    {
+      "id": "42218688",
+      "tileScore": 7,
+      "name": "微风：宝塔山边小路",
+      "distanceM": 3662.60009765625,
+      "avgGrade": 1.053896188735962,
+      "startLat": 32.05281066894531,
+      "startLng": 118.37580871582031
+    }
+  ]
+}

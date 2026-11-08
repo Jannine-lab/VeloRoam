@@ -1,0 +1,56 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-08T22:49:13.290Z",
+  "tile": {
+    "z": 13,
+    "x": 6693,
+    "y": 3563
+  },
+  "segments": [
+    {
+      "id": "1321276",
+      "tileScore": 9,
+      "name": "Tangxia Lorries-drafting-challenge section",
+      "distanceM": 7348.81005859375,
+      "avgGrade": -0.34563466906547546,
+      "startLat": 22.76565933227539,
+      "startLng": 114.13140869140625
+    },
+    {
+      "id": "3516528",
+      "tileScore": 2,
+      "name": "顺峰路 Climb",
+      "distanceM": 2269.573974609375,
+      "avgGrade": 8.301021575927734,
+      "startLat": 22.79278564453125,
+      "startLng": 114.16692352294922
+    },
+    {
+      "id": "35437213",
+      "tileScore": 4,
+      "name": "清溪路口到中心小学",
+      "distanceM": 1045.800048828125,
+      "avgGrade": 3.3849682807922363,
+      "startLat": 22.757551193237305,
+      "startLng": 114.12984466552734
+    },
+    {
+      "id": "37781015",
+      "tileScore": 35,
+      "name": "深信团练路线 | 南门山Climb 牌坊-水库",
+      "distanceM": 960.7000122070312,
+      "avgGrade": 2.602269172668457,
+      "startLat": 22.769615173339844,
+      "startLng": 114.16458129882812
+    },
+    {
+      "id": "26347841",
+      "tileScore": 1,
+      "name": "青黄",
+      "distanceM": 1303.0999755859375,
+      "avgGrade": 1.6268898248672485,
+      "startLat": 22.805557250976562,
+      "startLng": 114.17247009277344
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-08T22:50:47.522Z",
+  "tile": {
+    "z": 13,
+    "x": 6702,
+    "y": 3567
+  },
+  "segments": [
+    {
+      "id": "15355524",
+      "tileScore": 5,
+      "name": "5th Wei climb at Daya Bay",
+      "distanceM": 334.1000061035156,
+      "avgGrade": 6.944028854370117,
+      "startLat": 22.61147689819336,
+      "startLng": 114.55561065673828
+    },
+    {
+      "id": "34003961",
+      "tileScore": 17,
+      "name": "岭澳到高岭山隧道",
+      "distanceM": 7086.10009765625,
+      "avgGrade": 0.35844823718070984,
+      "startLat": 22.599559783935547,
+      "startLng": 114.54778289794922
+    },
+    {
+      "id": "41464458",
+      "tileScore": 22,
+      "name": "前面就是KFC",
+      "distanceM": 751.4000244140625,
+      "avgGrade": 2.289060592651367,
+      "startLat": 22.60057830810547,
+      "startLng": 114.53746032714844
+    },
+    {
+      "id": "38990894",
+      "tileScore": 22,
+      "name": "热身坡",
+      "distanceM": 518.9000244140625,
+      "avgGrade": 2.312584161758423,
+      "startLat": 22.602741241455078,
+      "startLng": 114.5478744506836
+    },
+    {
+      "id": "34048126",
+      "tileScore": 6,
+      "name": "岭东爬坡",
+      "distanceM": 695.2000122070312,
+      "avgGrade": 4.890678882598877,
+      "startLat": 22.6119384765625,
+      "startLng": 114.56415557861328
+    }
+  ]
+}

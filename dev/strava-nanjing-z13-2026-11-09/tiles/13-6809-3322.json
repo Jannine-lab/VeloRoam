@@ -1,0 +1,38 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-08T22:29:55.001Z",
+  "tile": {
+    "z": 13,
+    "x": 6809,
+    "y": 3322
+  },
+  "segments": [
+    {
+      "id": "16045434",
+      "tileScore": 112,
+      "name": "Caixing Alley Climb",
+      "distanceM": 1700.5,
+      "avgGrade": 4.669214725494385,
+      "startLat": 32.142433166503906,
+      "startLng": 119.22864532470703
+    },
+    {
+      "id": "40762477",
+      "tileScore": 29,
+      "name": "沪霍线 仑山北侧 W-E （渔空线-312）",
+      "distanceM": 3920.699951171875,
+      "avgGrade": 0.27546101808547974,
+      "startLat": 32.152584075927734,
+      "startLng": 119.23422241210938
+    },
+    {
+      "id": "40158936",
+      "tileScore": 23,
+      "name": "G312镇江-南京-LL",
+      "distanceM": 32373.900390625,
+      "avgGrade": -0.044480275362730026,
+      "startLat": 32.17245864868164,
+      "startLng": 119.366943359375
+    }
+  ]
+}

@@ -1,0 +1,6 @@
+{
+  "mode": "apply",
+  "failed": true,
+  "error": "Source changed since preview; run a new preview",
+  "rolledBack": false
+}

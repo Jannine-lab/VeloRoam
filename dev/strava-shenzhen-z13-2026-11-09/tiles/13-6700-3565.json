@@ -1,0 +1,38 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-08T22:49:39.492Z",
+  "tile": {
+    "z": 13,
+    "x": 6700,
+    "y": 3565
+  },
+  "segments": [
+    {
+      "id": "36372277",
+      "tileScore": 4,
+      "name": "坪山金田路 - 龙海三路",
+      "distanceM": 14434.7001953125,
+      "avgGrade": -0.01385550107806921,
+      "startLat": 22.69270896911621,
+      "startLng": 114.37407684326172
+    },
+    {
+      "id": "40070056",
+      "tileScore": 18,
+      "name": "蕉子园XC难度速降线_三岔口_铁门前",
+      "distanceM": 1894.9000244140625,
+      "avgGrade": -9.974141120910645,
+      "startLat": 22.687376022338867,
+      "startLng": 114.47762298583984
+    },
+    {
+      "id": "32280219",
+      "tileScore": 5,
+      "name": "SZC Summer Challenge 125km",
+      "distanceM": 122493.796875,
+      "avgGrade": -0.015184441581368446,
+      "startLat": 22.55707550048828,
+      "startLng": 114.21763610839844
+    }
+  ]
+}

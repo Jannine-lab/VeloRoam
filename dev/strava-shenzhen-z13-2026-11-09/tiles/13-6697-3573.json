@@ -1,0 +1,128 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-08T22:52:23.708Z",
+  "tile": {
+    "z": 13,
+    "x": 6697,
+    "y": 3573
+  },
+  "segments": [
+    {
+      "id": "9300481",
+      "tileScore": 50,
+      "name": "Sai Sha to Country Park",
+      "distanceM": 5227.2001953125,
+      "avgGrade": 0.05739210173487663,
+      "startLat": 22.395612716674805,
+      "startLng": 114.28411102294922
+    },
+    {
+      "id": "31196278",
+      "tileScore": 12,
+      "name": "GOD DAM SPRINT",
+      "distanceM": 411.70001220703125,
+      "avgGrade": -3.3519554138183594,
+      "startLat": 22.38147735595703,
+      "startLng": 114.33565521240234
+    },
+    {
+      "id": "5653599",
+      "tileScore": 12,
+      "name": "first dam return sprint",
+      "distanceM": 666.5999755859375,
+      "avgGrade": -1.185118556022644,
+      "startLat": 22.370975494384766,
+      "startLng": 114.34214782714844
+    },
+    {
+      "id": "3886715",
+      "tileScore": 23,
+      "name": "Yan Yee Road to Barriers",
+      "distanceM": 3209.056884765625,
+      "avgGrade": 0.17450374364852905,
+      "startLat": 22.39155387878418,
+      "startLng": 114.29717254638672
+    },
+    {
+      "id": "3249179",
+      "tileScore": 5,
+      "name": "The Cow Shit slope",
+      "distanceM": 730.33984375,
+      "avgGrade": 7.5027384757995605,
+      "startLat": 22.370546340942383,
+      "startLng": 114.33688354492188
+    },
+    {
+      "id": "12677514",
+      "tileScore": 14,
+      "name": "PTC last 2.5km",
+      "distanceM": 2565.800048828125,
+      "avgGrade": 0.5534336566925049,
+      "startLat": 22.37606430053711,
+      "startLng": 114.33908081054688
+    },
+    {
+      "id": "30308647",
+      "tileScore": 17,
+      "name": "Pik Uk -Wong Shek Out & Back",
+      "distanceM": 44123,
+      "avgGrade": 0.009065566584467888,
+      "startLat": 22.340442657470703,
+      "startLng": 114.2474136352539
+    },
+    {
+      "id": "10063425",
+      "tileScore": 40,
+      "name": "Tai Mon Tsai Youth Camp climb",
+      "distanceM": 548,
+      "avgGrade": 3.8686130046844482,
+      "startLat": 22.389684677124023,
+      "startLng": 114.30111694335938
+    },
+    {
+      "id": "10562698",
+      "tileScore": 25,
+      "name": "Reservoir Start - Finish ",
+      "distanceM": 8826.2998046875,
+      "avgGrade": 0.09403713792562485,
+      "startLat": 22.39798355102539,
+      "startLng": 114.3258056640625
+    },
+    {
+      "id": "27439830",
+      "tileScore": 25,
+      "name": "Tai Po (Tai Wong Yeh Temple) to Pak Tam Chung / 大埔(大王爺廟)至北潭涌",
+      "distanceM": 25706,
+      "avgGrade": 0.031121138483285904,
+      "startLat": 22.4453067779541,
+      "startLng": 114.17774200439453
+    },
+    {
+      "id": "10439777",
+      "tileScore": 12,
+      "name": "High Island Climb 2",
+      "distanceM": 951.5999755859375,
+      "avgGrade": 5.380411624908447,
+      "startLat": 22.368497848510742,
+      "startLng": 114.34424591064453
+    },
+    {
+      "id": "30318385",
+      "tileScore": 1,
+      "name": "Fnhon車隊抬車橫越起子灣堤圍",
+      "distanceM": 323.1000061035156,
+      "avgGrade": 1.8570102453231812,
+      "startLat": 22.382747650146484,
+      "startLng": 114.32164001464844
+    },
+    {
+      "id": "37471398",
+      "tileScore": 21,
+      "name": "R200 CP2 to CP3",
+      "distanceM": 22055.599609375,
+      "avgGrade": 0.033551570028066635,
+      "startLat": 22.39604377746582,
+      "startLng": 114.31844329833984
+    }
+  ]
+}

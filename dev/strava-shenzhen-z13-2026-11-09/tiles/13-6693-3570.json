@@ -1,0 +1,299 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-08T22:51:15.610Z",
+  "tile": {
+    "z": 13,
+    "x": 6693,
+    "y": 3570
+  },
+  "segments": [
+    {
+      "id": "10118677",
+      "tileScore": 16,
+      "name": "流水響Climb",
+      "distanceM": 1006.2000122070312,
+      "avgGrade": 4.810176849365234,
+      "startLat": 22.50530242919922,
+      "startLng": 114.1677474975586
+    },
+    {
+      "id": "689412",
+      "tileScore": 2,
+      "name": "Snakebite Hill",
+      "distanceM": 1601.3699951171875,
+      "avgGrade": 7.649556636810303,
+      "startLat": 22.478918075561523,
+      "startLng": 114.15520477294922
+    },
+    {
+      "id": "11411314",
+      "tileScore": 30,
+      "name": "Gas Station Sprint by Hin",
+      "distanceM": 228.5,
+      "avgGrade": 4.20131254196167,
+      "startLat": 22.489940643310547,
+      "startLng": 114.14624786376953
+    },
+    {
+      "id": "27083708",
+      "tileScore": 4,
+      "name": "2021 The Wall of TPS ",
+      "distanceM": 312,
+      "avgGrade": 14.743590354919434,
+      "startLat": 22.50990867614746,
+      "startLng": 114.13856506347656
+    },
+    {
+      "id": "22982883",
+      "tileScore": 2,
+      "name": "華明路衝刺",
+      "distanceM": 461.1000061035156,
+      "avgGrade": -0.04337453842163086,
+      "startLat": 22.487852096557617,
+      "startLng": 114.13997650146484
+    },
+    {
+      "id": "11820540",
+      "tileScore": 4,
+      "name": "TPR1",
+      "distanceM": 721.0999755859375,
+      "avgGrade": -0.04160310700535774,
+      "startLat": 22.505878448486328,
+      "startLng": 114.13203430175781
+    },
+    {
+      "id": "18241541",
+      "tileScore": 51,
+      "name": "Ping Che - Lung Yeuk Tau",
+      "distanceM": 2065.39990234375,
+      "avgGrade": -0.1839837282896042,
+      "startLat": 22.513416290283203,
+      "startLng": 114.16725158691406
+    },
+    {
+      "id": "27437799",
+      "tileScore": 14,
+      "name": "NT Cycle Track: Jockey Club Road section (northbound) / 新界單車徑：馬會道段(北行)",
+      "distanceM": 3178.5,
+      "avgGrade": -0.5348434448242188,
+      "startLat": 22.487796783447266,
+      "startLng": 114.1469497680664
+    },
+    {
+      "id": "30575301",
+      "tileScore": 33,
+      "name": "橋底衝刺",
+      "distanceM": 370.3999938964844,
+      "avgGrade": 0.7019438147544861,
+      "startLat": 22.484180450439453,
+      "startLng": 114.15340423583984
+    },
+    {
+      "id": "34223693",
+      "tileScore": 5,
+      "name": "yuen long to tai po twin bridge",
+      "distanceM": 34870.8984375,
+      "avgGrade": -0.013765059411525726,
+      "startLat": 22.444385528564453,
+      "startLng": 114.04415893554688
+    },
+    {
+      "id": "32465850",
+      "tileScore": 4,
+      "name": "Kwan Tei Duck Pool",
+      "distanceM": 847.9000244140625,
+      "avgGrade": 0.967095136642456,
+      "startLat": 22.50935935974121,
+      "startLng": 114.1577377319336
+    },
+    {
+      "id": "34716545",
+      "tileScore": 4,
+      "name": "Secret path",
+      "distanceM": 1121,
+      "avgGrade": 0.3033006191253662,
+      "startLat": 22.502166748046875,
+      "startLng": 114.1669921875
+    },
+    {
+      "id": "33877200",
+      "tileScore": 27,
+      "name": "康城大冷",
+      "distanceM": 130482.203125,
+      "avgGrade": 0,
+      "startLat": 22.29688835144043,
+      "startLng": 114.26518249511719
+    },
+    {
+      "id": "36106399",
+      "tileScore": 9,
+      "name": "NSW - SHAN SHING",
+      "distanceM": 90205.8984375,
+      "avgGrade": -0.013968043960630894,
+      "startLat": 22.44609260559082,
+      "startLng": 114.04883575439453
+    },
+    {
+      "id": "11519501",
+      "tileScore": 27,
+      "name": "大窩東支路(路軌底至元嶺村行人天橋)",
+      "distanceM": 284.29998779296875,
+      "avgGrade": 0.9145269393920898,
+      "startLat": 22.478574752807617,
+      "startLng": 114.15509796142578
+    },
+    {
+      "id": "27675941",
+      "tileScore": 11,
+      "name": "Jockey Club Road: Po Shek Wu Road to Fung Kai No. 1 Secondary School / 馬會道:寶石湖路至鳳溪第一中學",
+      "distanceM": 425.5,
+      "avgGrade": 0,
+      "startLat": 22.50786590576172,
+      "startLng": 114.12698364257812
+    },
+    {
+      "id": "27319140",
+      "tileScore": 14,
+      "name": "Sha Tau Kok Road: Ma Sik Road to Lok Yip Road / Fan Leng Lau Road",
+      "distanceM": 738.5,
+      "avgGrade": 0,
+      "startLat": 22.501052856445312,
+      "startLng": 114.14708709716797
+    },
+    {
+      "id": "4369415",
+      "tileScore": 52,
+      "name": "和合石 閘口至山頂",
+      "distanceM": 2632.699951171875,
+      "avgGrade": 5.629201889038086,
+      "startLat": 22.48113250732422,
+      "startLng": 114.1465072631836
+    },
+    {
+      "id": "4463194",
+      "tileScore": 15,
+      "name": "九龍坑山",
+      "distanceM": 3839.199951171875,
+      "avgGrade": 9.642633438110352,
+      "startLat": 22.481691360473633,
+      "startLng": 114.15647888183594
+    },
+    {
+      "id": "11020771",
+      "tileScore": 12,
+      "name": "LSH Rd Climb (1st pt)",
+      "distanceM": 1341.300048828125,
+      "avgGrade": 1.088496208190918,
+      "startLat": 22.51095962524414,
+      "startLng": 114.16341400146484
+    },
+    {
+      "id": "30751721",
+      "tileScore": 9,
+      "name": "Ma Sik Rd East",
+      "distanceM": 1189.4000244140625,
+      "avgGrade": 0.05044560506939888,
+      "startLat": 22.502145767211914,
+      "startLng": 114.13580322265625
+    },
+    {
+      "id": "9154225",
+      "tileScore": 56,
+      "name": "Sha Kung Sprint",
+      "distanceM": 4240.2998046875,
+      "avgGrade": -0.4810980558395386,
+      "startLat": 22.524953842163086,
+      "startLng": 114.1893081665039
+    },
+    {
+      "id": "38415202",
+      "tileScore": 22,
+      "name": "祥華→塘坑",
+      "distanceM": 805.2999877929688,
+      "avgGrade": 0.6829752922058105,
+      "startLat": 22.494749069213867,
+      "startLng": 114.14106750488281
+    },
+    {
+      "id": "30744380",
+      "tileScore": 5,
+      "name": "Wah Ming-Pak Wo Rd",
+      "distanceM": 2714.10009765625,
+      "avgGrade": -0.2800191640853882,
+      "startLat": 22.4830322265625,
+      "startLng": 114.14309692382812
+    },
+    {
+      "id": "10306196",
+      "tileScore": 20,
+      "name": "To Fanling station",
+      "distanceM": 531,
+      "avgGrade": 0.2636534869670868,
+      "startLat": 22.49673080444336,
+      "startLng": 114.13172912597656
+    },
+    {
+      "id": "6583585",
+      "tileScore": 2,
+      "name": "San Wan Road Climb",
+      "distanceM": 442.1000061035156,
+      "avgGrade": 22.30264663696289,
+      "startLat": 22.502403259277344,
+      "startLng": 114.12569427490234
+    },
+    {
+      "id": "14314386",
+      "tileScore": 40,
+      "name": "Ming Yin Road to Wo Hop Shek gate",
+      "distanceM": 308.6000061035156,
+      "avgGrade": 9.656513214111328,
+      "startLat": 22.481887817382812,
+      "startLng": 114.14390563964844
+    },
+    {
+      "id": "38840312",
+      "tileScore": 22,
+      "name": "The GT ",
+      "distanceM": 95767,
+      "avgGrade": 0.04740672558546066,
+      "startLat": 22.326505661010742,
+      "startLng": 114.15650939941406
+    },
+    {
+      "id": "14518031",
+      "tileScore": 7,
+      "name": "Little hill",
+      "distanceM": 611.7999877929688,
+      "avgGrade": 5.116051197052002,
+      "startLat": 22.499164581298828,
+      "startLng": 114.15399932861328
+    },
+    {
+      "id": "38558256",
+      "tileScore": 5,
+      "name": "流水響山路",
+      "distanceM": 2008.0999755859375,
+      "avgGrade": -3.286688804626465,
+      "startLat": 22.48617935180664,
+      "startLng": 114.16435241699219
+    },
+    {
+      "id": "38572409",
+      "tileScore": 4,
+      "name": "覲龍圍-軍營",
+      "distanceM": 568,
+      "avgGrade": -0.14084506034851074,
+      "startLat": 22.5076904296875,
+      "startLng": 114.1482925415039
+    },
+    {
+      "id": "8518370",
+      "tileScore": 11,
+      "name": "TKO direct MTB ride to Wah Shan",
+      "distanceM": 42259.80078125,
+      "avgGrade": -0.05300545692443848,
+      "startLat": 22.331056594848633,
+      "startLng": 114.25001525878906
+    }
+  ]
+}

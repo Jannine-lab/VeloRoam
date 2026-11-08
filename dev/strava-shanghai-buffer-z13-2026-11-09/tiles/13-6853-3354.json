@@ -1,0 +1,74 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-03T06:09:45.577Z",
+  "tile": {
+    "z": 13,
+    "x": 6853,
+    "y": 3354
+  },
+  "segments": [
+    {
+      "id": "28851571",
+      "tileScore": 28,
+      "name": "Chenta RD from G60 to Gande RD",
+      "distanceM": 5991.5,
+      "avgGrade": 0.0100141866132617,
+      "startLat": 31.021358489990234,
+      "startLng": 121.18119812011719
+    },
+    {
+      "id": "11987880",
+      "tileScore": 24,
+      "name": "Chenta Rd Henglaojing Bridge (Southbound)",
+      "distanceM": 1530.5,
+      "avgGrade": -0.20254817605018616,
+      "startLat": 30.961597442626953,
+      "startLng": 121.1833267211914
+    },
+    {
+      "id": "30281829",
+      "tileScore": 5,
+      "name": "FNC-007",
+      "distanceM": 22714.19921875,
+      "avgGrade": 0.0017610129434615374,
+      "startLat": 30.96060562133789,
+      "startLng": 121.1836929321289
+    },
+    {
+      "id": "19141023",
+      "tileScore": 20,
+      "name": "WeekDayCanal",
+      "distanceM": 15982.099609375,
+      "avgGrade": -0.005005600396543741,
+      "startLat": 30.955711364746094,
+      "startLng": 121.18595123291016
+    },
+    {
+      "id": "35849918",
+      "tileScore": 33,
+      "name": "Riverside at Maogang Forest (WB)",
+      "distanceM": 3894.10009765625,
+      "avgGrade": -0.03851981461048126,
+      "startLat": 30.947046279907227,
+      "startLng": 121.20940399169922
+    },
+    {
+      "id": "40311916",
+      "tileScore": 6,
+      "name": "泖港赛冲刺赛段",
+      "distanceM": 2065.10009765625,
+      "avgGrade": 0.11621713638305664,
+      "startLat": 30.950136184692383,
+      "startLng": 121.1938705444336
+    },
+    {
+      "id": "40029478",
+      "tileScore": 17,
+      "name": "Canals to Bridge before Drinkstand",
+      "distanceM": 1666.9000244140625,
+      "avgGrade": -0.023996639996767044,
+      "startLat": 30.959144592285156,
+      "startLng": 121.15861511230469
+    }
+  ]
+}

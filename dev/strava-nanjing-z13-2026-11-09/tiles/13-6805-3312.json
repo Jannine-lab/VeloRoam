@@ -1,0 +1,20 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-08T22:26:15.854Z",
+  "tile": {
+    "z": 13,
+    "x": 6805,
+    "y": 3312
+  },
+  "segments": [
+    {
+      "id": "36649013",
+      "tileScore": 4,
+      "name": "谕兴小山—草庙山",
+      "distanceM": 1540.9000244140625,
+      "avgGrade": 2.3752353191375732,
+      "startLat": 32.51064682006836,
+      "startLng": 119.08245086669922
+    }
+  ]
+}

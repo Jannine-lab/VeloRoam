@@ -1,0 +1,200 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-08T22:33:08.118Z",
+  "tile": {
+    "z": 13,
+    "x": 6803,
+    "y": 3323
+  },
+  "segments": [
+    {
+      "id": "34987118",
+      "tileScore": 3,
+      "name": "Wanda Mall East",
+      "distanceM": 1141.800048828125,
+      "avgGrade": -0.5955508947372437,
+      "startLat": 32.12269973754883,
+      "startLng": 118.98743438720703
+    },
+    {
+      "id": "31207078",
+      "tileScore": 6,
+      "name": "一路向东20KM~黄埔路—经天路",
+      "distanceM": 20139.30078125,
+      "avgGrade": 0.061571154743433,
+      "startLat": 32.0417594909668,
+      "startLng": 118.80626678466797
+    },
+    {
+      "id": "30930237",
+      "tileScore": 3,
+      "name": "To Pagoda",
+      "distanceM": 456.3999938964844,
+      "avgGrade": 7.230499267578125,
+      "startLat": 32.10483169555664,
+      "startLng": 118.96688842773438
+    },
+    {
+      "id": "34981018",
+      "tileScore": 3,
+      "name": "经天路 to 仙林大道",
+      "distanceM": 2763.300048828125,
+      "avgGrade": -0.17732422053813934,
+      "startLat": 32.13703918457031,
+      "startLng": 118.97972869873047
+    },
+    {
+      "id": "17481553",
+      "tileScore": 13,
+      "name": "南大_loop",
+      "distanceM": 6393.7998046875,
+      "avgGrade": 0.018768182024359703,
+      "startLat": 32.11280822753906,
+      "startLng": 118.96046447753906
+    },
+    {
+      "id": "6137921",
+      "tileScore": 5,
+      "name": "WediRoad to JiuXiangHeWestRoad",
+      "distanceM": 3711,
+      "avgGrade": -0.4203718602657318,
+      "startLat": 32.135963439941406,
+      "startLng": 118.97500610351562
+    },
+    {
+      "id": "29702296",
+      "tileScore": 5,
+      "name": "XianQi av. (Xianlin av. to MengBei)",
+      "distanceM": 5031,
+      "avgGrade": 0.22261975705623627,
+      "startLat": 32.12192153930664,
+      "startLng": 119.00225830078125
+    },
+    {
+      "id": "35765181",
+      "tileScore": 33,
+      "name": "ul - Xianlin - Baohua Garden Expo Loop",
+      "distanceM": 34483.80078125,
+      "avgGrade": 0.011599649675190449,
+      "startLat": 32.095947265625,
+      "startLng": 118.91744232177734
+    },
+    {
+      "id": "38134247",
+      "tileScore": 1,
+      "name": "南体仙林校区KOM爬坡",
+      "distanceM": 605.7000122070312,
+      "avgGrade": 6.7690277099609375,
+      "startLat": 32.11855697631836,
+      "startLng": 118.9607162475586
+    },
+    {
+      "id": "39883787",
+      "tileScore": 8,
+      "name": "西部干线环线段 1/2",
+      "distanceM": 39352.30078125,
+      "avgGrade": 0.04472419619560242,
+      "startLat": 32.06488800048828,
+      "startLng": 118.88341522216797
+    },
+    {
+      "id": "29623455",
+      "tileScore": 2,
+      "name": "GuangZhi rd. (Wanda to new HW)",
+      "distanceM": 1478.4000244140625,
+      "avgGrade": -0.013528138399124146,
+      "startLat": 32.12617111206055,
+      "startLng": 118.98704528808594
+    },
+    {
+      "id": "31671597",
+      "tileScore": 1,
+      "name": "肚子不饿吗？",
+      "distanceM": 681.7000122070312,
+      "avgGrade": -0.11735367774963379,
+      "startLat": 32.126670837402344,
+      "startLng": 118.97366333007812
+    },
+    {
+      "id": "30489594",
+      "tileScore": 20,
+      "name": "经过南大仙林（不要走快车道）",
+      "distanceM": 993.2999877929688,
+      "avgGrade": -0.32215848565101624,
+      "startLat": 32.1132698059082,
+      "startLng": 118.96147155761719
+    },
+    {
+      "id": "30489577",
+      "tileScore": 11,
+      "name": "过了地铁站—向宝华进发",
+      "distanceM": 6173,
+      "avgGrade": -0.08423781394958496,
+      "startLat": 32.118473052978516,
+      "startLng": 118.97061920166016
+    },
+    {
+      "id": "30907577",
+      "tileScore": 7,
+      "name": "JintianRd (天佑→三杯) KSprint",
+      "distanceM": 1896.4000244140625,
+      "avgGrade": -0.2161991149187088,
+      "startLat": 32.13809585571289,
+      "startLng": 118.98698425292969
+    },
+    {
+      "id": "28793100",
+      "tileScore": 14,
+      "name": "3rd ring road from Xianlin av.",
+      "distanceM": 1930.9000244140625,
+      "avgGrade": -0.1864415556192398,
+      "startLat": 32.1232795715332,
+      "startLng": 119.0025634765625
+    },
+    {
+      "id": "23735533",
+      "tileScore": 23,
+      "name": "Panda Hill all way up",
+      "distanceM": 1769.199951171875,
+      "avgGrade": 6.172281265258789,
+      "startLat": 32.121665954589844,
+      "startLng": 118.99885559082031
+    },
+    {
+      "id": "37329649",
+      "tileScore": 11,
+      "name": "仙林大道狂飙-万达茂到环陵路-kan",
+      "distanceM": 11798.599609375,
+      "avgGrade": 0.05085349082946777,
+      "startLat": 32.121097564697266,
+      "startLng": 118.97796630859375
+    },
+    {
+      "id": "6137884",
+      "tileScore": 16,
+      "name": "XuyuanRoad to JingTianRoad",
+      "distanceM": 4722.10009765625,
+      "avgGrade": 0.6056627035140991,
+      "startLat": 32.10499954223633,
+      "startLng": 118.93437957763672
+    },
+    {
+      "id": "34651495",
+      "tileScore": 19,
+      "name": "New speeding playground 2023",
+      "distanceM": 2006.9000244140625,
+      "avgGrade": 0.029896855354309082,
+      "startLat": 32.12086868286133,
+      "startLng": 118.9999771118164
+    },
+    {
+      "id": "35262974",
+      "tileScore": 8,
+      "name": "XianLin Lake Loop X2",
+      "distanceM": 5760,
+      "avgGrade": 0,
+      "startLat": 32.1312141418457,
+      "startLng": 118.97706604003906
+    }
+  ]
+}

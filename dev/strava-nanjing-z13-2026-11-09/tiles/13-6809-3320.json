@@ -1,0 +1,20 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-08T22:29:49.963Z",
+  "tile": {
+    "z": 13,
+    "x": 6809,
+    "y": 3320
+  },
+  "segments": [
+    {
+      "id": "40158919",
+      "tileScore": 19,
+      "name": "滨江路E-W-LL",
+      "distanceM": 12881,
+      "avgGrade": 0.026395466178655624,
+      "startLat": 32.246849060058594,
+      "startLng": 119.35939025878906
+    }
+  ]
+}

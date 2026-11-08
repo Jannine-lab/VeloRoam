@@ -1,0 +1,20 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-03T06:01:07.452Z",
+  "tile": {
+    "z": 13,
+    "x": 6854,
+    "y": 3334
+  },
+  "segments": [
+    {
+      "id": "42365089",
+      "tileScore": 71,
+      "name": "2026 TREK100精英组",
+      "distanceM": 94728,
+      "avgGrade": -0.000633392424788326,
+      "startLat": 31.6234073638916,
+      "startLng": 121.42135620117188
+    }
+  ]
+}

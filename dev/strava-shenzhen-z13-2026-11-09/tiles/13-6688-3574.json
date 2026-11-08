@@ -1,0 +1,56 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-08T22:52:43.834Z",
+  "tile": {
+    "z": 13,
+    "x": 6688,
+    "y": 3574
+  },
+  "segments": [
+    {
+      "id": "1024488",
+      "tileScore": 22,
+      "name": "The Serpent",
+      "distanceM": 6198.31982421875,
+      "avgGrade": 0.0742138922214508,
+      "startLat": 22.296815872192383,
+      "startLng": 113.9344482421875
+    },
+    {
+      "id": "9264386",
+      "tileScore": 1,
+      "name": "Expo Slingshot 1",
+      "distanceM": 714.7000122070312,
+      "avgGrade": -0.013991884887218475,
+      "startLat": 22.320764541625977,
+      "startLng": 113.9385986328125
+    },
+    {
+      "id": "27593070",
+      "tileScore": 3,
+      "name": "MFT - MPT",
+      "distanceM": 3764.60009765625,
+      "avgGrade": 0.21516229212284088,
+      "startLat": 22.310585021972656,
+      "startLng": 113.91801452636719
+    },
+    {
+      "id": "37909553",
+      "tileScore": 2,
+      "name": "Expo to Hong Kong-Zhuhai-Macao Port",
+      "distanceM": 1589.4000244140625,
+      "avgGrade": 0.025166727602481842,
+      "startLat": 22.319074630737305,
+      "startLng": 113.94290161132812
+    },
+    {
+      "id": "9264405",
+      "tileScore": 22,
+      "name": "Expo Slingshot 2",
+      "distanceM": 321.79998779296875,
+      "avgGrade": 0.06215040385723114,
+      "startLat": 22.319904327392578,
+      "startLng": 113.9429931640625
+    }
+  ]
+}

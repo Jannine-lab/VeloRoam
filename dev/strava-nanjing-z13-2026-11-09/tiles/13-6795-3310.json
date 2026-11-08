@@ -1,0 +1,29 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-08T22:26:02.476Z",
+  "tile": {
+    "z": 13,
+    "x": 6795,
+    "y": 3310
+  },
+  "segments": [
+    {
+      "id": "36949511",
+      "tileScore": 7,
+      "name": "均步桥—半塔",
+      "distanceM": 10866.2001953125,
+      "avgGrade": 0.21350610256195068,
+      "startLat": 32.590087890625,
+      "startLng": 118.63666534423828
+    },
+    {
+      "id": "38180364",
+      "tileScore": 8,
+      "name": "均步桥南边的小长坡",
+      "distanceM": 1213,
+      "avgGrade": 1.7971969842910767,
+      "startLat": 32.58858871459961,
+      "startLng": 118.63722229003906
+    }
+  ]
+}

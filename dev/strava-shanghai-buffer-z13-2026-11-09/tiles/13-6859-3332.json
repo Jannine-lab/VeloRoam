@@ -1,0 +1,29 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-03T05:59:15.309Z",
+  "tile": {
+    "z": 13,
+    "x": 6859,
+    "y": 3332
+  },
+  "segments": [
+    {
+      "id": "35661108",
+      "tileScore": 5,
+      "name": "滨江路（E-W）",
+      "distanceM": 9037.599609375,
+      "avgGrade": 0,
+      "startLat": 31.77362060546875,
+      "startLng": 121.50657653808594
+    },
+    {
+      "id": "38948511",
+      "tileScore": 2,
+      "name": "鸽龙港路(长征公路-永隆路)",
+      "distanceM": 2821.89990234375,
+      "avgGrade": 0.0425245426595211,
+      "startLat": 31.768051147460938,
+      "startLng": 121.41008758544922
+    }
+  ]
+}

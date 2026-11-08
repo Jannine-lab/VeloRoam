@@ -1,0 +1,254 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-08T22:52:29.893Z",
+  "tile": {
+    "z": 13,
+    "x": 6695,
+    "y": 3574
+  },
+  "segments": [
+    {
+      "id": "37471413",
+      "tileScore": 4,
+      "name": "R200 CP4 to CP5",
+      "distanceM": 11418.400390625,
+      "avgGrade": -0.09983885288238525,
+      "startLat": 22.29934310913086,
+      "startLng": 114.23705291748047
+    },
+    {
+      "id": "36755267",
+      "tileScore": 5,
+      "name": "一腳觀塘至轉車站 [Fung]",
+      "distanceM": 29225,
+      "avgGrade": 0.00889649335294962,
+      "startLat": 22.312467575073242,
+      "startLng": 114.2257080078125
+    },
+    {
+      "id": "30906245",
+      "tileScore": 11,
+      "name": "Sai Kung - Hang Hao",
+      "distanceM": 9466.5,
+      "avgGrade": 0,
+      "startLat": 22.38360595703125,
+      "startLng": 114.27102661132812
+    },
+    {
+      "id": "1932001",
+      "tileScore": 421,
+      "name": "飛鵝山道",
+      "distanceM": 4060.89453125,
+      "avgGrade": 8.697579383850098,
+      "startLat": 22.33430290222168,
+      "startLng": 114.22525024414062
+    },
+    {
+      "id": "37897157",
+      "tileScore": 19,
+      "name": "(Sprint) On Sau Rd [Red Light No.3 to No.4]",
+      "distanceM": 956.7999877929688,
+      "avgGrade": 1.8394649028778076,
+      "startLat": 22.326200485229492,
+      "startLng": 114.23055267333984
+    },
+    {
+      "id": "19936353",
+      "tileScore": 3,
+      "name": "前進西貢",
+      "distanceM": 2956.300048828125,
+      "avgGrade": -3.084937334060669,
+      "startLat": 22.347291946411133,
+      "startLng": 114.23442840576172
+    },
+    {
+      "id": "26933546",
+      "tileScore": 6,
+      "name": "曉明街入口-堅樂",
+      "distanceM": 505.79998779296875,
+      "avgGrade": 4.112297058105469,
+      "startLat": 22.31757164001465,
+      "startLng": 114.22898864746094
+    },
+    {
+      "id": "30308647",
+      "tileScore": 17,
+      "name": "Pik Uk -Wong Shek Out & Back",
+      "distanceM": 44123,
+      "avgGrade": 0.009065566584467888,
+      "startLat": 22.340442657470703,
+      "startLng": 114.2474136352539
+    },
+    {
+      "id": "13585696",
+      "tileScore": 48,
+      "name": "白石窩-壁屋上斜",
+      "distanceM": 478.79998779296875,
+      "avgGrade": 7.456140041351318,
+      "startLat": 22.336286544799805,
+      "startLng": 114.24212646484375
+    },
+    {
+      "id": "40489064",
+      "tileScore": 2,
+      "name": "Yee On St 6 laps",
+      "distanceM": 2501.800048828125,
+      "avgGrade": 0.26381006836891174,
+      "startLat": 22.315391540527344,
+      "startLng": 114.22220611572266
+    },
+    {
+      "id": "13952273",
+      "tileScore": 3,
+      "name": "順利太子",
+      "distanceM": 7120.10009765625,
+      "avgGrade": -1.5027878284454346,
+      "startLat": 22.333032608032227,
+      "startLng": 114.22183990478516
+    },
+    {
+      "id": "37471398",
+      "tileScore": 21,
+      "name": "R200 CP2 to CP3",
+      "distanceM": 22055.599609375,
+      "avgGrade": 0.033551570028066635,
+      "startLat": 22.39604377746582,
+      "startLng": 114.31844329833984
+    },
+    {
+      "id": "714169",
+      "tileScore": 212,
+      "name": "扎山道381號 Climb",
+      "distanceM": 2414.5,
+      "avgGrade": 8.8714017868042,
+      "startLat": 22.342382431030273,
+      "startLng": 114.22785949707031
+    },
+    {
+      "id": "15389248",
+      "tileScore": 18,
+      "name": "On Shau Road South bound sprint",
+      "distanceM": 555.9000244140625,
+      "avgGrade": -9.713977813720703,
+      "startLat": 22.325708389282227,
+      "startLng": 114.23082733154297
+    },
+    {
+      "id": "20706097",
+      "tileScore": 19,
+      "name": "Kung Lok Rd Climb(North)",
+      "distanceM": 393.5,
+      "avgGrade": 6.40406608581543,
+      "startLat": 22.318347930908203,
+      "startLng": 114.22269439697266
+    },
+    {
+      "id": "6911996",
+      "tileScore": 115,
+      "name": "扎山道(落)",
+      "distanceM": 3293.699951171875,
+      "avgGrade": -10.978534698486328,
+      "startLat": 22.35543441772461,
+      "startLng": 114.21459197998047
+    },
+    {
+      "id": "38187891",
+      "tileScore": 6,
+      "name": "Anderson Road to Service Reservoir climb",
+      "distanceM": 1097.4000244140625,
+      "avgGrade": 6.615637302398682,
+      "startLat": 22.332626342773438,
+      "startLng": 114.22876739501953
+    },
+    {
+      "id": "33877200",
+      "tileScore": 27,
+      "name": "康城大冷",
+      "distanceM": 130482.203125,
+      "avgGrade": 0,
+      "startLat": 22.29688835144043,
+      "startLng": 114.26518249511719
+    },
+    {
+      "id": "7806814",
+      "tileScore": 124,
+      "name": "南圍-up",
+      "distanceM": 1311.300048828125,
+      "avgGrade": 7.870052814483643,
+      "startLat": 22.352609634399414,
+      "startLng": 114.25048065185547
+    },
+    {
+      "id": "731576",
+      "tileScore": 8,
+      "name": "Razor Hill Rd Climb",
+      "distanceM": 1384.3699951171875,
+      "avgGrade": 11.037272453308105,
+      "startLat": 22.351558685302734,
+      "startLng": 114.25093841552734
+    },
+    {
+      "id": "28156903",
+      "tileScore": 27,
+      "name": "觀塘上配水庫_Full",
+      "distanceM": 823,
+      "avgGrade": 10.157958030700684,
+      "startLat": 22.326093673706055,
+      "startLng": 114.22400665283203
+    },
+    {
+      "id": "8518370",
+      "tileScore": 11,
+      "name": "TKO direct MTB ride to Wah Shan",
+      "distanceM": 42259.80078125,
+      "avgGrade": -0.05300545692443848,
+      "startLat": 22.331056594848633,
+      "startLng": 114.25001525878906
+    },
+    {
+      "id": "38226090",
+      "tileScore": 1,
+      "name": "Ka Shue Road Loop",
+      "distanceM": 544.4000244140625,
+      "avgGrade": 0.8449668884277344,
+      "startLat": 22.335098266601562,
+      "startLng": 114.24093627929688
+    },
+    {
+      "id": "41099007",
+      "tileScore": 10,
+      "name": "On Kin Road Full Climb",
+      "distanceM": 789.0999755859375,
+      "avgGrade": 4.055252552032471,
+      "startLat": 22.326271057128906,
+      "startLng": 114.23087310791016
+    },
+    {
+      "id": "27190730",
+      "tileScore": 41,
+      "name": "鄭植之死亡彎研究所",
+      "distanceM": 793,
+      "avgGrade": -8.499369621276855,
+      "startLat": 22.34404182434082,
+      "startLng": 114.25341796875
+    },
+    {
+      "id": "1777083",
+      "tileScore": 2,
+      "name": "University Rd Climb",
+      "distanceM": 1415.7357177734375,
+      "avgGrade": 7.826516628265381,
+      "startLat": 22.349687576293945,
+      "startLng": 114.25535583496094
+    },
+    {
+      "id": "38133048",
+      "tileScore": 11,
+      "name": "OFCA office Loop",
+      "distanceM": 591.2000122070312,
+      "avgGrade": 0,
+      "startLat": 22.321027755737305,
+      "startLng": 114.22435760498047
+    }
+  ]
+}

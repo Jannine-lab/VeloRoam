@@ -1,0 +1,29 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-08T22:31:55.810Z",
+  "tile": {
+    "z": 13,
+    "x": 6792,
+    "y": 3321
+  },
+  "segments": [
+    {
+      "id": "35357284",
+      "tileScore": 7,
+      "name": "宁滁快速路-滁州大道",
+      "distanceM": 19344,
+      "avgGrade": 0.021712159737944603,
+      "startLat": 32.16609573364258,
+      "startLng": 118.52716064453125
+    },
+    {
+      "id": "36621552",
+      "tileScore": 5,
+      "name": "cd-碧桂园到滁河",
+      "distanceM": 7871.60009765625,
+      "avgGrade": 0.01016311813145876,
+      "startLat": 32.1777458190918,
+      "startLng": 118.47039794921875
+    }
+  ]
+}

@@ -1,0 +1,65 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-08T22:57:35.014Z",
+  "tile": {
+    "z": 13,
+    "x": 6866,
+    "y": 3350
+  },
+  "segments": [
+    {
+      "id": "35241609",
+      "tileScore": 13,
+      "name": "跨S32桥",
+      "distanceM": 1084,
+      "avgGrade": 0,
+      "startLat": 31.092100143432617,
+      "startLng": 121.73078155517578
+    },
+    {
+      "id": "27401582",
+      "tileScore": 6,
+      "name": "DP Airport Loop part 1",
+      "distanceM": 38720,
+      "avgGrade": 0.004648760426789522,
+      "startLat": 31.236400604248047,
+      "startLng": 121.59383392333984
+    },
+    {
+      "id": "28524639",
+      "tileScore": 2,
+      "name": "Back from Drinkstand short",
+      "distanceM": 4126.2001953125,
+      "avgGrade": -0.00969414971768856,
+      "startLat": 31.093839645385742,
+      "startLng": 121.77166748046875
+    },
+    {
+      "id": "34411159",
+      "tileScore": 1,
+      "name": "Puxin Lu South",
+      "distanceM": 5139.39990234375,
+      "avgGrade": 0.031132038682699203,
+      "startLat": 31.14849853515625,
+      "startLng": 121.72673034667969
+    },
+    {
+      "id": "35241819",
+      "tileScore": 15,
+      "name": "大川快到飞起",
+      "distanceM": 9046.7001953125,
+      "avgGrade": -0.017686007544398308,
+      "startLat": 31.07391929626465,
+      "startLng": 121.73094940185547
+    },
+    {
+      "id": "38520605",
+      "tileScore": 3,
+      "name": "7公里热身",
+      "distanceM": 6655.5,
+      "avgGrade": -0.006010066717863083,
+      "startLat": 31.14158058166504,
+      "startLng": 121.74400329589844
+    }
+  ]
+}

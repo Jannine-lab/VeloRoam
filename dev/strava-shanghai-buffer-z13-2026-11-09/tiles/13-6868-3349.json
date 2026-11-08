@@ -1,0 +1,20 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-08T22:57:20.283Z",
+  "tile": {
+    "z": 13,
+    "x": 6868,
+    "y": 3349
+  },
+  "segments": [
+    {
+      "id": "11297194",
+      "tileScore": 9,
+      "name": "PVG N to S from the Sea Wall Turn Off",
+      "distanceM": 6008.7001953125,
+      "avgGrade": -0.0033285068348050117,
+      "startLat": 31.161985397338867,
+      "startLng": 121.81363677978516
+    }
+  ]
+}

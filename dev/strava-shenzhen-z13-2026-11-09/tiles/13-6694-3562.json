@@ -1,0 +1,38 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-08T22:48:37.784Z",
+  "tile": {
+    "z": 13,
+    "x": 6694,
+    "y": 3562
+  },
+  "segments": [
+    {
+      "id": "36849492",
+      "tileScore": 2,
+      "name": "Smash it to Natconn",
+      "distanceM": 1571.4000244140625,
+      "avgGrade": 1.5018454790115356,
+      "startLat": 22.807083129882812,
+      "startLng": 114.1778564453125
+    },
+    {
+      "id": "26119468",
+      "tileScore": 1,
+      "name": "清溪东",
+      "distanceM": 1692,
+      "avgGrade": -0.21276594698429108,
+      "startLat": 22.840444564819336,
+      "startLng": 114.1922836303711
+    },
+    {
+      "id": "26347841",
+      "tileScore": 1,
+      "name": "青黄",
+      "distanceM": 1303.0999755859375,
+      "avgGrade": 1.6268898248672485,
+      "startLat": 22.805557250976562,
+      "startLng": 114.17247009277344
+    }
+  ]
+}

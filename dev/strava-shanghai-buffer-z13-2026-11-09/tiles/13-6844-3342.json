@@ -1,0 +1,92 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-08T22:59:24.748Z",
+  "tile": {
+    "z": 13,
+    "x": 6844,
+    "y": 3342
+  },
+  "segments": [
+    {
+      "id": "40496734",
+      "tileScore": 4,
+      "name": "another road",
+      "distanceM": 4819.5,
+      "avgGrade": 0.045647889375686646,
+      "startLat": 31.4106388092041,
+      "startLng": 120.77167510986328
+    },
+    {
+      "id": "38745052",
+      "tileScore": 226,
+      "name": "M-circle of YCH(B2Bridge 50K)",
+      "distanceM": 50491.30078125,
+      "avgGrade": 0.0023766469676047564,
+      "startLat": 31.388383865356445,
+      "startLng": 120.71324157714844
+    },
+    {
+      "id": "35187916",
+      "tileScore": 255,
+      "name": "半岛团练要迟到了，你咋还不着急？",
+      "distanceM": 5948.2001953125,
+      "avgGrade": -0.08069667965173721,
+      "startLat": 31.388105392456055,
+      "startLng": 120.78768920898438
+    },
+    {
+      "id": "3500702",
+      "tileScore": 203,
+      "name": "TWo Bridges Pursuit",
+      "distanceM": 1449.41064453125,
+      "avgGrade": 0,
+      "startLat": 31.38759422302246,
+      "startLng": 120.78787231445312
+    },
+    {
+      "id": "10641344",
+      "tileScore": 9,
+      "name": "East YCHP Lake Side Cycling Lane - Over-Water Bridge #2 (Westbound)",
+      "distanceM": 600,
+      "avgGrade": 0,
+      "startLat": 31.425750732421875,
+      "startLng": 120.7822494506836
+    },
+    {
+      "id": "21854688",
+      "tileScore": 93,
+      "name": "Buddha Bridge #2 (Northbound)",
+      "distanceM": 341.8999938964844,
+      "avgGrade": 0.3509798049926758,
+      "startLat": 31.39832305908203,
+      "startLng": 120.7840576171875
+    },
+    {
+      "id": "41693421",
+      "tileScore": 15,
+      "name": "半岛绿道without阳澄西湖",
+      "distanceM": 17130.80078125,
+      "avgGrade": 0.0011674878187477589,
+      "startLat": 31.4024715423584,
+      "startLng": 120.78372955322266
+    },
+    {
+      "id": "10198009",
+      "tileScore": 13,
+      "name": "Bike Track (Northern Peak to End of Tarmac)",
+      "distanceM": 2007.300048828125,
+      "avgGrade": -0.029890896752476692,
+      "startLat": 31.42609977722168,
+      "startLng": 120.78448486328125
+    },
+    {
+      "id": "40786221",
+      "tileScore": 34,
+      "name": "绕一下",
+      "distanceM": 8440.5,
+      "avgGrade": 0.014217167161405087,
+      "startLat": 31.380390167236328,
+      "startLng": 120.79058837890625
+    }
+  ]
+}

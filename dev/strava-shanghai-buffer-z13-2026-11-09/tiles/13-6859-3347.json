@@ -1,0 +1,362 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-03T06:07:38.908Z",
+  "tile": {
+    "z": 13,
+    "x": 6859,
+    "y": 3347
+  },
+  "segments": [
+    {
+      "id": "14788231",
+      "tileScore": 55,
+      "name": "Anfu terrasses",
+      "distanceM": 390.6000061035156,
+      "avgGrade": 0.4352278411388397,
+      "startLat": 31.216228485107422,
+      "startLng": 121.44029235839844
+    },
+    {
+      "id": "3872198",
+      "tileScore": 29,
+      "name": "Jiangsu Road Climb",
+      "distanceM": 760.114990234375,
+      "avgGrade": 14.024470329284668,
+      "startLat": 31.2225284576416,
+      "startLng": 121.42584991455078
+    },
+    {
+      "id": "27132614",
+      "tileScore": 6,
+      "name": "Catch the Green Light",
+      "distanceM": 1458.5999755859375,
+      "avgGrade": 0.09598244726657867,
+      "startLat": 31.21710968017578,
+      "startLng": 121.46597290039062
+    },
+    {
+      "id": "25157401",
+      "tileScore": 51,
+      "name": "LRA 1st Sprint",
+      "distanceM": 3285.10009765625,
+      "avgGrade": 0.08523332327604294,
+      "startLat": 31.231462478637695,
+      "startLng": 121.41973876953125
+    },
+    {
+      "id": "10541863",
+      "tileScore": 3,
+      "name": "40 km Shanghaï Loop",
+      "distanceM": 38644.5,
+      "avgGrade": 0.0015526142669841647,
+      "startLat": 31.193662643432617,
+      "startLng": 121.46837615966797
+    },
+    {
+      "id": "10479941",
+      "tileScore": 24,
+      "name": "Hunan Reverse Hangman",
+      "distanceM": 319,
+      "avgGrade": -0.6896551847457886,
+      "startLat": 31.209442138671875,
+      "startLng": 121.43885803222656
+    },
+    {
+      "id": "41637235",
+      "tileScore": 11,
+      "name": "诺诺晨骑要迟到了",
+      "distanceM": 9136.900390625,
+      "avgGrade": 0.04158959910273552,
+      "startLat": 31.270627975463867,
+      "startLng": 121.4056396484375
+    },
+    {
+      "id": "37558021",
+      "tileScore": 1,
+      "name": "医生与电瓶车的故事",
+      "distanceM": 16616.19921875,
+      "avgGrade": 0.01624920219182968,
+      "startLat": 31.214859008789062,
+      "startLng": 121.3038101196289
+    },
+    {
+      "id": "36516350",
+      "tileScore": 2,
+      "name": "经典通勤上班线路A-虹桥绕道至凯旋卡红绿灯不停车",
+      "distanceM": 21577.099609375,
+      "avgGrade": -0.04634543135762215,
+      "startLat": 31.27074432373047,
+      "startLng": 121.52769470214844
+    },
+    {
+      "id": "26652195",
+      "tileScore": 12,
+      "name": "ChangpingLuqiao->Changhua_byOldSkool",
+      "distanceM": 418.79998779296875,
+      "avgGrade": -0.33428844809532166,
+      "startLat": 31.24214744567871,
+      "startLng": 121.4515380859375
+    },
+    {
+      "id": "39230846",
+      "tileScore": 5,
+      "name": "Back Home From Coffee",
+      "distanceM": 3980.10009765625,
+      "avgGrade": 0.04522499442100525,
+      "startLat": 31.215784072875977,
+      "startLng": 121.4386215209961
+    },
+    {
+      "id": "33790117",
+      "tileScore": 17,
+      "name": "North Soochow River",
+      "distanceM": 3042.60009765625,
+      "avgGrade": 0.05915992707014084,
+      "startLat": 31.243881225585938,
+      "startLng": 121.47786712646484
+    },
+    {
+      "id": "13250842",
+      "tileScore": 1,
+      "name": "East-West Express ",
+      "distanceM": 5523.39990234375,
+      "avgGrade": 0.08871347457170486,
+      "startLat": 31.21448516845703,
+      "startLng": 121.48607635498047
+    },
+    {
+      "id": "38250952",
+      "tileScore": 52,
+      "name": "河滨高速路",
+      "distanceM": 581.0999755859375,
+      "avgGrade": 0.10325244814157486,
+      "startLat": 31.240337371826172,
+      "startLng": 121.45301818847656
+    },
+    {
+      "id": "14689575",
+      "tileScore": 1,
+      "name": "Inner Ring Road East to Inner Ring Road West (Zhoujiazui/Haining/Tianmu/Changshou/Changning)",
+      "distanceM": 13932.7998046875,
+      "avgGrade": 0.07607946544885635,
+      "startLat": 31.276411056518555,
+      "startLng": 121.52288055419922
+    },
+    {
+      "id": "36111952",
+      "tileScore": 72,
+      "name": "2023 HH Airport Loop",
+      "distanceM": 32885.30078125,
+      "avgGrade": -0.007298094220459461,
+      "startLat": 31.197797775268555,
+      "startLng": 121.41617584228516
+    },
+    {
+      "id": "14788257",
+      "tileScore": 24,
+      "name": "Taian straight",
+      "distanceM": 475.79998779296875,
+      "avgGrade": 0.021017232909798622,
+      "startLat": 31.208019256591797,
+      "startLng": 121.43437194824219
+    },
+    {
+      "id": "16056171",
+      "tileScore": 50,
+      "name": "Changle Westbound",
+      "distanceM": 1814.9000244140625,
+      "avgGrade": -0.5950741171836853,
+      "startLat": 31.216405868530273,
+      "startLng": 121.4352035522461
+    },
+    {
+      "id": "14398281",
+      "tileScore": 89,
+      "name": "W. Guangfu Rd. (Baiyu Rd. ~ N0.555) S",
+      "distanceM": 1691.300048828125,
+      "avgGrade": 0.011825223453342915,
+      "startLat": 31.228574752807617,
+      "startLng": 121.41695404052734
+    },
+    {
+      "id": "7139004",
+      "tileScore": 20,
+      "name": "Dongping Rd (Westbound)",
+      "distanceM": 329.3999938964844,
+      "avgGrade": 0.12143290042877197,
+      "startLat": 31.210426330566406,
+      "startLng": 121.4468994140625
+    },
+    {
+      "id": "7477984",
+      "tileScore": 22,
+      "name": "Wulumuqi South Rd (Southbound)",
+      "distanceM": 1100.300048828125,
+      "avgGrade": 0.4362446665763855,
+      "startLat": 31.211336135864258,
+      "startLng": 121.44258117675781
+    },
+    {
+      "id": "14788260",
+      "tileScore": 38,
+      "name": "Huaihai West sprint",
+      "distanceM": 536.7000122070312,
+      "avgGrade": -1.732811689376831,
+      "startLat": 31.204086303710938,
+      "startLng": 121.43033599853516
+    },
+    {
+      "id": "5654531",
+      "tileScore": 2,
+      "name": "Yan'an Warm-up",
+      "distanceM": 8362.2001953125,
+      "avgGrade": -0.05979287624359131,
+      "startLat": 31.225984573364258,
+      "startLng": 121.45022583007812
+    },
+    {
+      "id": "39884053",
+      "tileScore": 14,
+      "name": "喝咖啡前再绕几圈",
+      "distanceM": 832.5999755859375,
+      "avgGrade": -0.09608455747365952,
+      "startLat": 31.216279983520508,
+      "startLng": 121.44109344482422
+    },
+    {
+      "id": "33638050",
+      "tileScore": 1,
+      "name": "Small Paul's Miniture Rabbit",
+      "distanceM": 15508.099609375,
+      "avgGrade": 0.07737892121076584,
+      "startLat": 31.2154541015625,
+      "startLng": 121.44413757324219
+    },
+    {
+      "id": "4412539",
+      "tileScore": 19,
+      "name": "Fuxing to Ferry",
+      "distanceM": 5485.5,
+      "avgGrade": -0.01458390336483717,
+      "startLat": 31.212554931640625,
+      "startLng": 121.44587707519531
+    },
+    {
+      "id": "18698011",
+      "tileScore": 31,
+      "name": "#RNCC Leigh's coffee sprint",
+      "distanceM": 480,
+      "avgGrade": 0.125,
+      "startLat": 31.205202102661133,
+      "startLng": 121.44860076904297
+    },
+    {
+      "id": "40822490",
+      "tileScore": 35,
+      "name": "Heading north to buy a Factor!",
+      "distanceM": 574,
+      "avgGrade": 0.03484320640563965,
+      "startLat": 31.213483810424805,
+      "startLng": 121.4498062133789
+    },
+    {
+      "id": "8951147",
+      "tileScore": 7,
+      "name": "Hengshan Rd (Westbound)",
+      "distanceM": 1708.199951171875,
+      "avgGrade": 0.22245638072490692,
+      "startLat": 31.21122169494629,
+      "startLng": 121.44526672363281
+    },
+    {
+      "id": "15767913",
+      "tileScore": 16,
+      "name": "Newbie",
+      "distanceM": 332.8999938964844,
+      "avgGrade": 0.06007809937000275,
+      "startLat": 31.211585998535156,
+      "startLng": 121.44974517822266
+    },
+    {
+      "id": "35689690",
+      "tileScore": 30,
+      "name": "That's all folks!",
+      "distanceM": 883.5999755859375,
+      "avgGrade": 0.011317337863147259,
+      "startLat": 31.204784393310547,
+      "startLng": 121.43021392822266
+    },
+    {
+      "id": "21243327",
+      "tileScore": 6,
+      "name": "Sorry Officer I thought you wanted to RACE ! #BTT",
+      "distanceM": 875.5,
+      "avgGrade": -0.13706453144550323,
+      "startLat": 31.197114944458008,
+      "startLng": 121.46546173095703
+    },
+    {
+      "id": "22431799",
+      "tileScore": 2,
+      "name": "Rush Hour from Xujiahui to Wujiaochang",
+      "distanceM": 17675.30078125,
+      "avgGrade": -0.08146961778402328,
+      "startLat": 31.195659637451172,
+      "startLng": 121.43431854248047
+    },
+    {
+      "id": "34697301",
+      "tileScore": 8,
+      "name": "永康 003 Coffee Go",
+      "distanceM": 661.2000122070312,
+      "avgGrade": -0.2419842630624771,
+      "startLat": 31.205320358276367,
+      "startLng": 121.45631408691406
+    },
+    {
+      "id": "40822477",
+      "tileScore": 51,
+      "name": "準備去買Factor~",
+      "distanceM": 629.7000122070312,
+      "avgGrade": -0.06352230906486511,
+      "startLat": 31.22162628173828,
+      "startLng": 121.44627380371094
+    },
+    {
+      "id": "12945744",
+      "tileScore": 2,
+      "name": "YanAn Spandex Train",
+      "distanceM": 3214.300048828125,
+      "avgGrade": 0.0591108463704586,
+      "startLat": 31.22309112548828,
+      "startLng": 121.44137573242188
+    },
+    {
+      "id": "24222942",
+      "tileScore": 31,
+      "name": "After Turn Till LuWan Stadium Sprint",
+      "distanceM": 321.79998779296875,
+      "avgGrade": -0.4350528120994568,
+      "startLat": 31.206544876098633,
+      "startLng": 121.46185302734375
+    },
+    {
+      "id": "7070970",
+      "tileScore": 17,
+      "name": "Huashan (Huaihai > Zhaojiabang)",
+      "distanceM": 1003.5999755859375,
+      "avgGrade": 1.0362694263458252,
+      "startLat": 31.20396614074707,
+      "startLng": 121.43077087402344
+    },
+    {
+      "id": "27279141",
+      "tileScore": 30,
+      "name": "Xingfu sprint",
+      "distanceM": 825.5999755859375,
+      "avgGrade": 0.09689922630786896,
+      "startLat": 31.208009719848633,
+      "startLng": 121.42874908447266
+    }
+  ]
+}

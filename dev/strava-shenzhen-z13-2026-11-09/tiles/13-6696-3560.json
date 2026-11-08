@@ -1,0 +1,20 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-08T22:48:05.633Z",
+  "tile": {
+    "z": 13,
+    "x": 6696,
+    "y": 3560
+  },
+  "segments": [
+    {
+      "id": "27270562",
+      "tileScore": 6,
+      "name": "Huizhou Mountain",
+      "distanceM": 2825.10009765625,
+      "avgGrade": 12.233195304870605,
+      "startLat": 22.865633010864258,
+      "startLng": 114.26929473876953
+    }
+  ]
+}

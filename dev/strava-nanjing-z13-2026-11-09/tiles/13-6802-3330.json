@@ -1,0 +1,65 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-08T22:36:01.773Z",
+  "tile": {
+    "z": 13,
+    "x": 6802,
+    "y": 3330
+  },
+  "segments": [
+    {
+      "id": "39143558",
+      "tileScore": 12,
+      "name": "♂1️⃣大三角南面—🐟",
+      "distanceM": 5143.7998046875,
+      "avgGrade": 0.021384967491030693,
+      "startLat": 31.853960037231445,
+      "startLng": 118.93525695800781
+    },
+    {
+      "id": "25786420",
+      "tileScore": 3,
+      "name": "20200920环南京汤山站全程组 Tour de Nanjing Tangshan Stage Full Length",
+      "distanceM": 79233.296875,
+      "avgGrade": 0.00025241912226192653,
+      "startLat": 32.04627990722656,
+      "startLng": 119.05066680908203
+    },
+    {
+      "id": "35821801",
+      "tileScore": 4,
+      "name": "🐟个人绕圈赛",
+      "distanceM": 34229.6015625,
+      "avgGrade": 0.05112534388899803,
+      "startLat": 31.9462890625,
+      "startLng": 118.88493347167969
+    },
+    {
+      "id": "38853249",
+      "tileScore": 5,
+      "name": "G104-石臼湖",
+      "distanceM": 51589.5,
+      "avgGrade": -0.022679032757878304,
+      "startLat": 31.94593048095703,
+      "startLng": 118.90949249267578
+    },
+    {
+      "id": "33232348",
+      "tileScore": 20,
+      "name": "S246 South to North",
+      "distanceM": 21439.099609375,
+      "avgGrade": -0.05503962188959122,
+      "startLat": 31.700870513916016,
+      "startLng": 119.04415130615234
+    },
+    {
+      "id": "36483985",
+      "tileScore": 12,
+      "name": "S246江宁去溧水的第一个大桥",
+      "distanceM": 1089.9000244140625,
+      "avgGrade": 0.9175153374671936,
+      "startLat": 31.85174560546875,
+      "startLng": 118.93611145019531
+    }
+  ]
+}

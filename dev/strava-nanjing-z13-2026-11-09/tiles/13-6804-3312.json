@@ -1,0 +1,20 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-08T22:26:15.854Z",
+  "tile": {
+    "z": 13,
+    "x": 6804,
+    "y": 3312
+  },
+  "segments": [
+    {
+      "id": "37896721",
+      "tileScore": 55,
+      "name": "天长99公路长兴集东—草庙山",
+      "distanceM": 9745.2001953125,
+      "avgGrade": 0.5377006530761719,
+      "startLat": 32.52941131591797,
+      "startLng": 119.00685119628906
+    }
+  ]
+}

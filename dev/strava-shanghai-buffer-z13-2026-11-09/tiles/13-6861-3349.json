@@ -1,0 +1,245 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-03T06:08:06.516Z",
+  "tile": {
+    "z": 13,
+    "x": 6861,
+    "y": 3349
+  },
+  "segments": [
+    {
+      "id": "37118449",
+      "tileScore": 1,
+      "name": "环中海 1.8KM",
+      "distanceM": 1734.199951171875,
+      "avgGrade": 0.03459808602929115,
+      "startLat": 31.13209342956543,
+      "startLng": 121.52733612060547
+    },
+    {
+      "id": "24425517",
+      "tileScore": 3,
+      "name": "ShangNan PuJin Lightning!!!",
+      "distanceM": 21129.69921875,
+      "avgGrade": 0.011358419433236122,
+      "startLat": 31.194862365722656,
+      "startLng": 121.49488830566406
+    },
+    {
+      "id": "34648273",
+      "tileScore": 6,
+      "name": "东明 097",
+      "distanceM": 1535.300048828125,
+      "avgGrade": 0,
+      "startLat": 31.153881072998047,
+      "startLng": 121.51547241210938
+    },
+    {
+      "id": "11821462",
+      "tileScore": 2,
+      "name": "Emerald to Join Jinxiu Rd",
+      "distanceM": 1321.699951171875,
+      "avgGrade": -0.007566013839095831,
+      "startLat": 31.13668441772461,
+      "startLng": 121.56121826171875
+    },
+    {
+      "id": "36944333",
+      "tileScore": 20,
+      "name": "中环 089",
+      "distanceM": 1140.699951171875,
+      "avgGrade": -0.035066187381744385,
+      "startLat": 31.15066146850586,
+      "startLng": 121.50309753417969
+    },
+    {
+      "id": "7695461",
+      "tileScore": 16,
+      "name": "Expo to KangWu Lu",
+      "distanceM": 6783.7001953125,
+      "avgGrade": -0.007370608858764172,
+      "startLat": 31.148069381713867,
+      "startLng": 121.47233581542969
+    },
+    {
+      "id": "19487813",
+      "tileScore": 3,
+      "name": "Yongtai Road -Tailin Road Circle",
+      "distanceM": 1759.800048828125,
+      "avgGrade": 0.0795544907450676,
+      "startLat": 31.148273468017578,
+      "startLng": 121.53751373291016
+    },
+    {
+      "id": "39282161",
+      "tileScore": 9,
+      "name": "Last 1km to home",
+      "distanceM": 943.2999877929688,
+      "avgGrade": -0.1060108169913292,
+      "startLat": 31.15489387512207,
+      "startLng": 121.54151153564453
+    },
+    {
+      "id": "39449035",
+      "tileScore": 10,
+      "name": "三林 096 Shozo Coffee",
+      "distanceM": 1108.0999755859375,
+      "avgGrade": -0.18048912286758423,
+      "startLat": 31.145200729370117,
+      "startLng": 121.50741577148438
+    },
+    {
+      "id": "4591969",
+      "tileScore": 4,
+      "name": "Sprint",
+      "distanceM": 203.60000610351562,
+      "avgGrade": -0.7367386817932129,
+      "startLat": 31.141342163085938,
+      "startLng": 121.55096435546875
+    },
+    {
+      "id": "37038867",
+      "tileScore": 12,
+      "name": "御桥路 冲刺",
+      "distanceM": 2946.199951171875,
+      "avgGrade": -0.0067884051240980625,
+      "startLat": 31.158437728881836,
+      "startLng": 121.55768585205078
+    },
+    {
+      "id": "34777860",
+      "tileScore": 6,
+      "name": "三林 097",
+      "distanceM": 1828.699951171875,
+      "avgGrade": -0.010936731472611427,
+      "startLat": 31.129060745239258,
+      "startLng": 121.5169906616211
+    },
+    {
+      "id": "34117245",
+      "tileScore": 8,
+      "name": "球少SPRINT",
+      "distanceM": 501.1000061035156,
+      "avgGrade": 0.3991219103336334,
+      "startLat": 31.137296676635742,
+      "startLng": 121.52534484863281
+    },
+    {
+      "id": "35764986",
+      "tileScore": 21,
+      "name": "中环 094",
+      "distanceM": 1323.300048828125,
+      "avgGrade": -0.015113730914890766,
+      "startLat": 31.16515350341797,
+      "startLng": 121.55703735351562
+    },
+    {
+      "id": "21898247",
+      "tileScore": 8,
+      "name": "The Kangqiao Korridor",
+      "distanceM": 435,
+      "avgGrade": -0.6896551847457886,
+      "startLat": 31.154680252075195,
+      "startLng": 121.54164123535156
+    },
+    {
+      "id": "28094335",
+      "tileScore": 3,
+      "name": "____DP_V2.x_______",
+      "distanceM": 28802.900390625,
+      "avgGrade": -0.01735936477780342,
+      "startLat": 31.197185516357422,
+      "startLng": 121.53400421142578
+    },
+    {
+      "id": "8003559",
+      "tileScore": 5,
+      "name": "锦绣路段",
+      "distanceM": 4504.89990234375,
+      "avgGrade": -0.0710337683558464,
+      "startLat": 31.20187759399414,
+      "startLng": 121.53358459472656
+    },
+    {
+      "id": "19005013",
+      "tileScore": 5,
+      "name": "S20 Bridge",
+      "distanceM": 656.2000122070312,
+      "avgGrade": -0.6857665181159973,
+      "startLat": 31.146190643310547,
+      "startLng": 121.54389953613281
+    },
+    {
+      "id": "39171202",
+      "tileScore": 9,
+      "name": "高青6plus",
+      "distanceM": 6322.7001953125,
+      "avgGrade": 0.025305643677711487,
+      "startLat": 31.1673641204834,
+      "startLng": 121.54045867919922
+    },
+    {
+      "id": "34539459",
+      "tileScore": 3,
+      "name": "中科大上研院绕圈",
+      "distanceM": 3095.39990234375,
+      "avgGrade": 0,
+      "startLat": 31.125534057617188,
+      "startLng": 121.54143524169922
+    },
+    {
+      "id": "37939157",
+      "tileScore": 10,
+      "name": "锦绣-东明",
+      "distanceM": 3079.89990234375,
+      "avgGrade": -0.06493717432022095,
+      "startLat": 31.173330307006836,
+      "startLng": 121.5400161743164
+    },
+    {
+      "id": "36406238",
+      "tileScore": 5,
+      "name": "Sunset Forest 1",
+      "distanceM": 1356.5,
+      "avgGrade": -0.0884629562497139,
+      "startLat": 31.133953094482422,
+      "startLng": 121.49790954589844
+    },
+    {
+      "id": "19183339",
+      "tileScore": 4,
+      "name": "PWSG-Circle ",
+      "distanceM": 2980,
+      "avgGrade": -0.5302013158798218,
+      "startLat": 31.16169548034668,
+      "startLng": 121.5196304321289
+    },
+    {
+      "id": "32151290",
+      "tileScore": 13,
+      "name": "华夏之光",
+      "distanceM": 544.2000122070312,
+      "avgGrade": 0.2205071747303009,
+      "startLat": 31.1560001373291,
+      "startLng": 121.52540588378906
+    },
+    {
+      "id": "20304993",
+      "tileScore": 11,
+      "name": "Yaolong & Huaxia Hot Blast",
+      "distanceM": 29317,
+      "avgGrade": -0.008527475409209728,
+      "startLat": 31.14801597595215,
+      "startLng": 121.47225952148438
+    },
+    {
+      "id": "39668598",
+      "tileScore": 4,
+      "name": "cycling avenue, station to rome",
+      "distanceM": 3460.300048828125,
+      "avgGrade": 0.005779845640063286,
+      "startLat": 31.167129516601562,
+      "startLng": 121.5397720336914
+    }
+  ]
+}

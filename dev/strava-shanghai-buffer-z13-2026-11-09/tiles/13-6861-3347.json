@@ -1,0 +1,254 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-03T06:07:38.908Z",
+  "tile": {
+    "z": 13,
+    "x": 6861,
+    "y": 3347
+  },
+  "segments": [
+    {
+      "id": "14826128",
+      "tileScore": 25,
+      "name": "LP",
+      "distanceM": 974.7999877929688,
+      "avgGrade": -0.18465325236320496,
+      "startLat": 31.218618392944336,
+      "startLng": 121.51000213623047
+    },
+    {
+      "id": "11195939",
+      "tileScore": 8,
+      "name": "Inner Ring Elevated Rd - Nanpu Bridge to GC",
+      "distanceM": 9229.900390625,
+      "avgGrade": -0.21668706834316254,
+      "startLat": 31.209104537963867,
+      "startLng": 121.49713134765625
+    },
+    {
+      "id": "28487951",
+      "tileScore": 14,
+      "name": "Weifang road Sprint Point",
+      "distanceM": 585.7000122070312,
+      "avgGrade": -0.06829434633255005,
+      "startLat": 31.229097366333008,
+      "startLng": 121.52613067626953
+    },
+    {
+      "id": "35876820",
+      "tileScore": 5,
+      "name": "东方 098",
+      "distanceM": 2160.699951171875,
+      "avgGrade": -0.01851251907646656,
+      "startLat": 31.20891571044922,
+      "startLng": 121.52072143554688
+    },
+    {
+      "id": "41103391",
+      "tileScore": 15,
+      "name": "zch骑完CP在这里做最后冲刺",
+      "distanceM": 508.5,
+      "avgGrade": 0,
+      "startLat": 31.238237380981445,
+      "startLng": 121.53926086425781
+    },
+    {
+      "id": "34649935",
+      "tileScore": 80,
+      "name": "认真骑",
+      "distanceM": 550.5,
+      "avgGrade": 0.036330606788396835,
+      "startLat": 31.214656829833984,
+      "startLng": 121.5521240234375
+    },
+    {
+      "id": "28094335",
+      "tileScore": 3,
+      "name": "____DP_V2.x_______",
+      "distanceM": 28802.900390625,
+      "avgGrade": -0.01735936477780342,
+      "startLat": 31.197185516357422,
+      "startLng": 121.53400421142578
+    },
+    {
+      "id": "17420259",
+      "tileScore": 18,
+      "name": "Pre-LP",
+      "distanceM": 722.2000122070312,
+      "avgGrade": 0.15231238305568695,
+      "startLat": 31.20595359802246,
+      "startLng": 121.50664520263672
+    },
+    {
+      "id": "39267862",
+      "tileScore": 4,
+      "name": "DRAGON EAST",
+      "distanceM": 726.5999755859375,
+      "avgGrade": -0.16515277326107025,
+      "startLat": 31.20421028137207,
+      "startLng": 121.50928497314453
+    },
+    {
+      "id": "7036903",
+      "tileScore": 4,
+      "name": "Hypergrace to Ferry",
+      "distanceM": 2646.300048828125,
+      "avgGrade": -0.21917393803596497,
+      "startLat": 31.235950469970703,
+      "startLng": 121.53215789794922
+    },
+    {
+      "id": "41891083",
+      "tileScore": 4,
+      "name": "S YangGao Road Rush",
+      "distanceM": 4104.2998046875,
+      "avgGrade": -0.009745876304805279,
+      "startLat": 31.21320152282715,
+      "startLng": 121.52850341796875
+    },
+    {
+      "id": "13283004",
+      "tileScore": 1,
+      "name": "Yanggao Cross Rd N",
+      "distanceM": 511.20001220703125,
+      "avgGrade": -0.15649452805519104,
+      "startLat": 31.23221778869629,
+      "startLng": 121.54993438720703
+    },
+    {
+      "id": "16695526",
+      "tileScore": 7,
+      "name": "to the sea",
+      "distanceM": 30088.599609375,
+      "avgGrade": 0.015952887013554573,
+      "startLat": 31.223649978637695,
+      "startLng": 121.50944519042969
+    },
+    {
+      "id": "7170855",
+      "tileScore": 6,
+      "name": "Zhangyang road",
+      "distanceM": 4609.2998046875,
+      "avgGrade": -0.04772958904504776,
+      "startLat": 31.25011444091797,
+      "startLng": 121.56382751464844
+    },
+    {
+      "id": "33978664",
+      "tileScore": 1,
+      "name": "JPXX-Rush to school",
+      "distanceM": 759.5,
+      "avgGrade": -0.0789993405342102,
+      "startLat": 31.231277465820312,
+      "startLng": 121.53179931640625
+    },
+    {
+      "id": "5607213",
+      "tileScore": 291,
+      "name": "Pudong Cycling CP Lap",
+      "distanceM": 4981.2998046875,
+      "avgGrade": 0.004015015903860331,
+      "startLat": 31.224382400512695,
+      "startLng": 121.55531311035156
+    },
+    {
+      "id": "28478668",
+      "tileScore": 78,
+      "name": "DP Final Sprint",
+      "distanceM": 1104,
+      "avgGrade": 0.018115943297743797,
+      "startLat": 31.214841842651367,
+      "startLng": 121.55276489257812
+    },
+    {
+      "id": "41240117",
+      "tileScore": 114,
+      "name": "胖头鱼骑完赶着去上班",
+      "distanceM": 806.4000244140625,
+      "avgGrade": -0.272817462682724,
+      "startLat": 31.21804428100586,
+      "startLng": 121.53990173339844
+    },
+    {
+      "id": "6952597",
+      "tileScore": 15,
+      "name": "Full Expo Southbound",
+      "distanceM": 10703.400390625,
+      "avgGrade": -0.03923986852169037,
+      "startLat": 31.223365783691406,
+      "startLng": 121.5077896118164
+    },
+    {
+      "id": "37381635",
+      "tileScore": 3,
+      "name": "世纪公园 005 Sprint",
+      "distanceM": 1089.5999755859375,
+      "avgGrade": -0.07342144101858139,
+      "startLat": 31.221874237060547,
+      "startLng": 121.53604125976562
+    },
+    {
+      "id": "37381685",
+      "tileScore": 17,
+      "name": "世纪公园 006",
+      "distanceM": 1243.300048828125,
+      "avgGrade": -0.09651733934879303,
+      "startLat": 31.202571868896484,
+      "startLng": 121.53390502929688
+    },
+    {
+      "id": "10668064",
+      "tileScore": 1,
+      "name": "Weifang Rd (Westbound)",
+      "distanceM": 2389,
+      "avgGrade": 0.20092087984085083,
+      "startLat": 31.230932235717773,
+      "startLng": 121.53142547607422
+    },
+    {
+      "id": "8994550",
+      "tileScore": 7,
+      "name": "Expo Ferry - Start of CP LAP",
+      "distanceM": 4517.5,
+      "avgGrade": -0.13503043353557587,
+      "startLat": 31.204008102416992,
+      "startLng": 121.50170135498047
+    },
+    {
+      "id": "10850515",
+      "tileScore": 9,
+      "name": "Catch that ferry",
+      "distanceM": 2231.699951171875,
+      "avgGrade": 0.25541067123413086,
+      "startLat": 31.209373474121094,
+      "startLng": 121.53465270996094
+    },
+    {
+      "id": "6807933",
+      "tileScore": 15,
+      "name": "Puming rd bridge north",
+      "distanceM": 279,
+      "avgGrade": 1.541218638420105,
+      "startLat": 31.21466064453125,
+      "startLng": 121.51063537597656
+    },
+    {
+      "id": "37381691",
+      "tileScore": 1,
+      "name": "世纪公园 007 Riverside",
+      "distanceM": 1320.199951171875,
+      "avgGrade": -0.030298441648483276,
+      "startLat": 31.218395233154297,
+      "startLng": 121.53910064697266
+    },
+    {
+      "id": "21036682",
+      "tileScore": 7,
+      "name": "Minpu Tues - Park to LP with extension",
+      "distanceM": 56914,
+      "avgGrade": -0.006325332447886467,
+      "startLat": 31.213491439819336,
+      "startLng": 121.46663665771484
+    }
+  ]
+}

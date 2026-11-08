@@ -1,0 +1,101 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-08T22:49:42.172Z",
+  "tile": {
+    "z": 13,
+    "x": 6698,
+    "y": 3566
+  },
+  "segments": [
+    {
+      "id": "42104279",
+      "tileScore": 127,
+      "name": "马峦山赤坳岗（红花岭水库）4级坡",
+      "distanceM": 670.5,
+      "avgGrade": 9.873229026794434,
+      "startLat": 22.64426040649414,
+      "startLng": 114.362060546875
+    },
+    {
+      "id": "32280219",
+      "tileScore": 5,
+      "name": "SZC Summer Challenge 125km",
+      "distanceM": 122493.796875,
+      "avgGrade": -0.015184441581368446,
+      "startLat": 22.55707550048828,
+      "startLng": 114.21763610839844
+    },
+    {
+      "id": "32370767",
+      "tileScore": 19,
+      "name": "罗屋至洞背gravel路",
+      "distanceM": 2688,
+      "avgGrade": -1.1532738208770752,
+      "startLat": 22.638317108154297,
+      "startLng": 114.3467025756836
+    },
+    {
+      "id": "26591704",
+      "tileScore": 2,
+      "name": "東部往葵涌",
+      "distanceM": 10173.2998046875,
+      "avgGrade": -0.0766712874174118,
+      "startLat": 22.663875579833984,
+      "startLng": 114.27218627929688
+    },
+    {
+      "id": "24227264",
+      "tileScore": 4,
+      "name": "11T team coastal training route",
+      "distanceM": 91079.796875,
+      "avgGrade": -0.029424747452139854,
+      "startLat": 22.61153221130371,
+      "startLng": 114.12039947509766
+    },
+    {
+      "id": "28994104",
+      "tileScore": 8,
+      "name": "Mt Maluan-17 Ying Li Dirt Trail DH",
+      "distanceM": 4161,
+      "avgGrade": -2.4080748558044434,
+      "startLat": 22.63759994506836,
+      "startLng": 114.3511962890625
+    },
+    {
+      "id": "17649167",
+      "tileScore": 9,
+      "name": "葵涌S359TT(到OMURON前）",
+      "distanceM": 5505.89990234375,
+      "avgGrade": 0.32328957319259644,
+      "startLat": 22.641462326049805,
+      "startLng": 114.4102554321289
+    },
+    {
+      "id": "28948589",
+      "tileScore": 40,
+      "name": "红花岭后山陡坡",
+      "distanceM": 379.8999938964844,
+      "avgGrade": 8.949724197387695,
+      "startLat": 22.638233184814453,
+      "startLng": 114.34730529785156
+    },
+    {
+      "id": "35315636",
+      "tileScore": 5,
+      "name": "穿越马峦山",
+      "distanceM": 21918.30078125,
+      "avgGrade": 0.4516773819923401,
+      "startLat": 22.672239303588867,
+      "startLng": 114.28423309326172
+    },
+    {
+      "id": "29294705",
+      "tileScore": 71,
+      "name": "马峦村爬坡 江岭路过南坪快速开始至顶结束",
+      "distanceM": 13602.599609375,
+      "avgGrade": 2.444385528564453,
+      "startLat": 22.67043685913086,
+      "startLng": 114.3543930053711
+    }
+  ]
+}

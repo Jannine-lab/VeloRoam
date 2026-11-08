@@ -1,0 +1,20 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-08T22:25:28.811Z",
+  "tile": {
+    "z": 13,
+    "x": 6796,
+    "y": 3308
+  },
+  "segments": [
+    {
+      "id": "35589518",
+      "tileScore": 5,
+      "name": "滁天公路来安天长界—半塔",
+      "distanceM": 10004,
+      "avgGrade": 0.09096361696720123,
+      "startLat": 32.66666030883789,
+      "startLng": 118.6939697265625
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-08T22:34:02.191Z",
+  "tile": {
+    "z": 13,
+    "x": 6792,
+    "y": 3326
+  },
+  "segments": [
+    {
+      "id": "37866453",
+      "tileScore": 6,
+      "name": "微风：高绰线返骑",
+      "distanceM": 6710.7998046875,
+      "avgGrade": -0.017881622537970543,
+      "startLat": 32.02466583251953,
+      "startLng": 118.4561767578125
+    }
+  ]
+}

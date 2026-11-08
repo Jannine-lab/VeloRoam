@@ -1,0 +1,20 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-08T22:36:33.576Z",
+  "tile": {
+    "z": 13,
+    "x": 6793,
+    "y": 3332
+  },
+  "segments": [
+    {
+      "id": "34423739",
+      "tileScore": 6,
+      "name": "👋拜拜马鞍山-G205_⛄️",
+      "distanceM": 14141.400390625,
+      "avgGrade": 0.01980002038180828,
+      "startLat": 31.74625587463379,
+      "startLng": 118.50963592529297
+    }
+  ]
+}

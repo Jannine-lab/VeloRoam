@@ -1,0 +1,119 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-08T22:48:29.596Z",
+  "tile": {
+    "z": 13,
+    "x": 6699,
+    "y": 3562
+  },
+  "segments": [
+    {
+      "id": "9950395",
+      "tileScore": 4,
+      "name": "Petrol Stn Hill",
+      "distanceM": 745.2999877929688,
+      "avgGrade": 1.341741681098938,
+      "startLat": 22.825315475463867,
+      "startLng": 114.40043640136719
+    },
+    {
+      "id": "37517933",
+      "tileScore": 17,
+      "name": "DH2（只为计时🤪）",
+      "distanceM": 2734.699951171875,
+      "avgGrade": -2.640143394470215,
+      "startLat": 22.82087516784668,
+      "startLng": 114.3761978149414
+    },
+    {
+      "id": "38678987",
+      "tileScore": 6,
+      "name": "维布村到山顶村",
+      "distanceM": 13696.7998046875,
+      "avgGrade": 0.20588751137256622,
+      "startLat": 22.825014114379883,
+      "startLng": 114.40164947509766
+    },
+    {
+      "id": "40004171",
+      "tileScore": 17,
+      "name": "茶园大桥500m起步爬坡",
+      "distanceM": 513.2999877929688,
+      "avgGrade": 2.2988505363464355,
+      "startLat": 22.832275390625,
+      "startLng": 114.43402862548828
+    },
+    {
+      "id": "41973025",
+      "tileScore": 3,
+      "name": "明芳城家居climb",
+      "distanceM": 508,
+      "avgGrade": 1.4566929340362549,
+      "startLat": 22.817869186401367,
+      "startLng": 114.3985824584961
+    },
+    {
+      "id": "38007008",
+      "tileScore": 12,
+      "name": "红干(由西往东)climb4",
+      "distanceM": 1736.699951171875,
+      "avgGrade": 1.036448359489441,
+      "startLat": 22.830806732177734,
+      "startLng": 114.41265869140625
+    },
+    {
+      "id": "11370146",
+      "tileScore": 6,
+      "name": "将军路",
+      "distanceM": 3162,
+      "avgGrade": 0.313092976808548,
+      "startLat": 22.832862854003906,
+      "startLng": 114.42449188232422
+    },
+    {
+      "id": "38007015",
+      "tileScore": 10,
+      "name": "红干(由东往西)climb1",
+      "distanceM": 1081.199951171875,
+      "avgGrade": 1.868294596672058,
+      "startLat": 22.830961227416992,
+      "startLng": 114.41203308105469
+    },
+    {
+      "id": "9944226",
+      "tileScore": 7,
+      "name": "Small Hill and flat",
+      "distanceM": 798,
+      "avgGrade": 1.2531328201293945,
+      "startLat": 22.82132339477539,
+      "startLng": 114.41624450683594
+    },
+    {
+      "id": "41746641",
+      "tileScore": 2,
+      "name": "红干东行决胜700米短坡",
+      "distanceM": 619.9000244140625,
+      "avgGrade": 2.0164542198181152,
+      "startLat": 22.83057975769043,
+      "startLng": 114.3971176147461
+    },
+    {
+      "id": "9950391",
+      "tileScore": 4,
+      "name": "Lights to Petrol Stn",
+      "distanceM": 2027.4000244140625,
+      "avgGrade": -0.15290521085262299,
+      "startLat": 22.833032608032227,
+      "startLng": 114.38301086425781
+    },
+    {
+      "id": "37052731",
+      "tileScore": 38,
+      "name": "红色干线",
+      "distanceM": 34471.30078125,
+      "avgGrade": -0.021467134356498718,
+      "startLat": 22.83233070373535,
+      "startLng": 114.42900085449219
+    }
+  ]
+}

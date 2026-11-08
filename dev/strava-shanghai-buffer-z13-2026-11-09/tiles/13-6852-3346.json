@@ -1,0 +1,83 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-03T06:06:46.563Z",
+  "tile": {
+    "z": 13,
+    "x": 6852,
+    "y": 3346
+  },
+  "segments": [
+    {
+      "id": "42008025",
+      "tileScore": 11,
+      "name": "Bikehome安亭乡村版去程",
+      "distanceM": 23945.19921875,
+      "avgGrade": 0,
+      "startLat": 31.206161499023438,
+      "startLng": 121.25885772705078
+    },
+    {
+      "id": "8936967",
+      "tileScore": 12,
+      "name": "You Dun Gang Bridge (Eastbound)",
+      "distanceM": 695.0999755859375,
+      "avgGrade": -0.043159257620573044,
+      "startLat": 31.24783706665039,
+      "startLng": 121.14762115478516
+    },
+    {
+      "id": "32333821",
+      "tileScore": 33,
+      "name": "TWIN_CLIMB_Jihe_Hwy_2km",
+      "distanceM": 2011.9000244140625,
+      "avgGrade": -0.049704261124134064,
+      "startLat": 31.247373580932617,
+      "startLng": 121.15843963623047
+    },
+    {
+      "id": "8936948",
+      "tileScore": 9,
+      "name": "X452 Baishi Hwy (Eastbound)",
+      "distanceM": 7827.5,
+      "avgGrade": 0.03577132150530815,
+      "startLat": 31.254072189331055,
+      "startLng": 121.05731964111328
+    },
+    {
+      "id": "39022768",
+      "tileScore": 15,
+      "name": "Wusong River Greenway Section 4 (Eastbound)",
+      "distanceM": 4615.7998046875,
+      "avgGrade": 0.008665886707603931,
+      "startLat": 31.275123596191406,
+      "startLng": 121.10271453857422
+    },
+    {
+      "id": "20734157",
+      "tileScore": 19,
+      "name": "Cang Bridge",
+      "distanceM": 991.2999877929688,
+      "avgGrade": -0.2824573814868927,
+      "startLat": 31.254287719726562,
+      "startLng": 121.15435791015625
+    },
+    {
+      "id": "26620388",
+      "tileScore": 4,
+      "name": "qingpu to strawberry fields",
+      "distanceM": 8105.39990234375,
+      "avgGrade": 0.049349818378686905,
+      "startLat": 31.177356719970703,
+      "startLng": 121.116943359375
+    },
+    {
+      "id": "32086248",
+      "tileScore": 3,
+      "name": "U-Turn under highway",
+      "distanceM": 1687.199951171875,
+      "avgGrade": -0.02370791882276535,
+      "startLat": 31.27158546447754,
+      "startLng": 121.15641784667969
+    }
+  ]
+}

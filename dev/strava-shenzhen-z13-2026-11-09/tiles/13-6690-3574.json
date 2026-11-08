@@ -1,0 +1,74 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-08T22:52:41.180Z",
+  "tile": {
+    "z": 13,
+    "x": 6690,
+    "y": 3574
+  },
+  "segments": [
+    {
+      "id": "15975836",
+      "tileScore": 69,
+      "name": "翔東路 - 欣澳至陰澳灣",
+      "distanceM": 887.7000122070312,
+      "avgGrade": -0.27036160230636597,
+      "startLat": 22.329343795776367,
+      "startLng": 114.02767181396484
+    },
+    {
+      "id": "5440728",
+      "tileScore": 331,
+      "name": "Cheung Tung Road TT (South) ",
+      "distanceM": 10920,
+      "avgGrade": -0.10989011824131012,
+      "startLat": 22.333391189575195,
+      "startLng": 114.03206634521484
+    },
+    {
+      "id": "14194406",
+      "tileScore": 85,
+      "name": "Climb from Tunnel to Sunny Bay Road ",
+      "distanceM": 396.20001220703125,
+      "avgGrade": 3.0792529582977295,
+      "startLat": 22.33106231689453,
+      "startLng": 114.02961730957031
+    },
+    {
+      "id": "25409553",
+      "tileScore": 71,
+      "name": "Zone7 Cheung Tung TT (South) (8km)",
+      "distanceM": 7965.7998046875,
+      "avgGrade": -0.15064400434494019,
+      "startLat": 22.33328628540039,
+      "startLng": 114.03199768066406
+    },
+    {
+      "id": "5074670",
+      "tileScore": 83,
+      "name": "Hill out of Disney",
+      "distanceM": 1316.5999755859375,
+      "avgGrade": 1.336776614189148,
+      "startLat": 22.324325561523438,
+      "startLng": 114.04043579101562
+    },
+    {
+      "id": "3616904",
+      "tileScore": 79,
+      "name": "Sunny Bay Midget Hill",
+      "distanceM": 718.83984375,
+      "avgGrade": 1.474679946899414,
+      "startLat": 22.332815170288086,
+      "startLng": 114.02765655517578
+    },
+    {
+      "id": "12677031",
+      "tileScore": 2,
+      "name": "MTR service road to toll plaza",
+      "distanceM": 1182.5999755859375,
+      "avgGrade": 1.479790210723877,
+      "startLat": 22.335323333740234,
+      "startLng": 114.03302001953125
+    }
+  ]
+}

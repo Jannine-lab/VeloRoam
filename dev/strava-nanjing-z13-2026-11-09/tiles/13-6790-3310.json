@@ -1,0 +1,20 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-08T22:26:04.758Z",
+  "tile": {
+    "z": 13,
+    "x": 6790,
+    "y": 3310
+  },
+  "segments": [
+    {
+      "id": "41659397",
+      "tileScore": 5,
+      "name": "皖东龙王山穿越-YC",
+      "distanceM": 1966.4000244140625,
+      "avgGrade": 1.7595605850219727,
+      "startLat": 32.58961868286133,
+      "startLng": 118.4004135131836
+    }
+  ]
+}

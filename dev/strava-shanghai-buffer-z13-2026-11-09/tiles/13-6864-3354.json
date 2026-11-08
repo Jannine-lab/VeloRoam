@@ -1,0 +1,29 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-03T06:10:38.612Z",
+  "tile": {
+    "z": 13,
+    "x": 6864,
+    "y": 3354
+  },
+  "segments": [
+    {
+      "id": "36906612",
+      "tileScore": 10,
+      "name": "药指导！博鸡！启动！",
+      "distanceM": 4222.39990234375,
+      "avgGrade": 0.0189465694129467,
+      "startLat": 30.98530387878418,
+      "startLng": 121.65914154052734
+    },
+    {
+      "id": "25225795",
+      "tileScore": 2,
+      "name": "Northbound on Xinfeng",
+      "distanceM": 6358.7998046875,
+      "avgGrade": 0.0251619815826416,
+      "startLat": 30.92991065979004,
+      "startLng": 121.63762664794922
+    }
+  ]
+}

@@ -1,0 +1,137 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-08T22:48:54.823Z",
+  "tile": {
+    "z": 13,
+    "x": 6684,
+    "y": 3561
+  },
+  "segments": [
+    {
+      "id": "28499932",
+      "tileScore": 16,
+      "name": "环大岭山<风柜口起点>",
+      "distanceM": 24131.80078125,
+      "avgGrade": -0.03232249617576599,
+      "startLat": 22.860000610351562,
+      "startLng": 113.77369689941406
+    },
+    {
+      "id": "12002996",
+      "tileScore": 6,
+      "name": "南洞口Entry3",
+      "distanceM": 668.5999755859375,
+      "avgGrade": 6.64074182510376,
+      "startLat": 22.85805892944336,
+      "startLng": 113.73774719238281
+    },
+    {
+      "id": "18492657",
+      "tileScore": 5,
+      "name": "白石山快速路西行",
+      "distanceM": 11641.2001953125,
+      "avgGrade": 0.1614953726530075,
+      "startLat": 22.83148765563965,
+      "startLng": 113.76940155029297
+    },
+    {
+      "id": "39631715",
+      "tileScore": 17,
+      "name": "厚虎路神秘小道",
+      "distanceM": 2110.300048828125,
+      "avgGrade": 0.009477325715124607,
+      "startLat": 22.87194061279297,
+      "startLng": 113.72437286376953
+    },
+    {
+      "id": "14477400",
+      "tileScore": 83,
+      "name": "Chinese Mortirolo !!",
+      "distanceM": 3365,
+      "avgGrade": 10.365527153015137,
+      "startLat": 22.86985206604004,
+      "startLng": 113.76460266113281
+    },
+    {
+      "id": "15331405",
+      "tileScore": 15,
+      "name": "Décollage !!!!!! ",
+      "distanceM": 329.5,
+      "avgGrade": 8.679817199707031,
+      "startLat": 22.867290496826172,
+      "startLng": 113.76484680175781
+    },
+    {
+      "id": "37147907",
+      "tileScore": 10,
+      "name": "起伏climb1",
+      "distanceM": 501.1000061035156,
+      "avgGrade": 3.9912195205688477,
+      "startLat": 22.867271423339844,
+      "startLng": 113.73749542236328
+    },
+    {
+      "id": "3954631",
+      "tileScore": 18,
+      "name": "Nandongkou Road Climb",
+      "distanceM": 1439,
+      "avgGrade": 6.699096202850342,
+      "startLat": 22.8568172454834,
+      "startLng": 113.73957061767578
+    },
+    {
+      "id": "15292315",
+      "tileScore": 7,
+      "name": "Steep Final Section",
+      "distanceM": 608.2000122070312,
+      "avgGrade": 8.780006408691406,
+      "startLat": 22.861740112304688,
+      "startLng": 113.75349426269531
+    },
+    {
+      "id": "918245",
+      "tileScore": 42,
+      "name": "风柜口路 Climb",
+      "distanceM": 1229.030029296875,
+      "avgGrade": 6.565780162811279,
+      "startLat": 22.849559783935547,
+      "startLng": 113.77703094482422
+    },
+    {
+      "id": "27340342",
+      "tileScore": 2,
+      "name": "Home way sprint ！",
+      "distanceM": 1895.5,
+      "avgGrade": -1.6249010562896729,
+      "startLat": 22.85710334777832,
+      "startLng": 113.73765563964844
+    },
+    {
+      "id": "36442678",
+      "tileScore": 29,
+      "name": "风柜口二段坡",
+      "distanceM": 667.7999877929688,
+      "avgGrade": 6.543875694274902,
+      "startLat": 22.860422134399414,
+      "startLng": 113.77594757080078
+    },
+    {
+      "id": "14425742",
+      "tileScore": 19,
+      "name": "mur départ grand ascension !!",
+      "distanceM": 699.0999755859375,
+      "avgGrade": 10.384779930114746,
+      "startLat": 22.869979858398438,
+      "startLng": 113.76451110839844
+    },
+    {
+      "id": "31509922",
+      "tileScore": 2,
+      "name": "大白马标准版壹",
+      "distanceM": 72662.203125,
+      "avgGrade": -0.00027524627512320876,
+      "startLat": 22.840572357177734,
+      "startLng": 113.77523040771484
+    }
+  ]
+}

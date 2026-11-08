@@ -1,0 +1,20 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-08T22:35:40.398Z",
+  "tile": {
+    "z": 13,
+    "x": 6805,
+    "y": 3329
+  },
+  "segments": [
+    {
+      "id": "35188341",
+      "tileScore": 3,
+      "name": "淳马线（西向东）",
+      "distanceM": 14745.5,
+      "avgGrade": -0.05425384268164635,
+      "startLat": 31.923667907714844,
+      "startLng": 118.94164276123047
+    }
+  ]
+}

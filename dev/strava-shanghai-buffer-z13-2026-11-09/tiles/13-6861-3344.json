@@ -1,0 +1,128 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-03T06:04:58.252Z",
+  "tile": {
+    "z": 13,
+    "x": 6861,
+    "y": 3344
+  },
+  "segments": [
+    {
+      "id": "10323095",
+      "tileScore": 26,
+      "name": "新江湾城",
+      "distanceM": 6300.39990234375,
+      "avgGrade": 0,
+      "startLat": 31.32363510131836,
+      "startLng": 121.50225067138672
+    },
+    {
+      "id": "15691269",
+      "tileScore": 10,
+      "name": "JunGong#1",
+      "distanceM": 2626,
+      "avgGrade": 0.08377761393785477,
+      "startLat": 31.351533889770508,
+      "startLng": 121.49885559082031
+    },
+    {
+      "id": "17481631",
+      "tileScore": 6,
+      "name": "猛追弯",
+      "distanceM": 757.7000122070312,
+      "avgGrade": -0.422330766916275,
+      "startLat": 31.342243194580078,
+      "startLng": 121.516845703125
+    },
+    {
+      "id": "13109980",
+      "tileScore": 19,
+      "name": "Jiangwan 30km small loop",
+      "distanceM": 30326.80078125,
+      "avgGrade": -0.0006594827282242477,
+      "startLat": 31.324871063232422,
+      "startLng": 121.50822448730469
+    },
+    {
+      "id": "31376038",
+      "tileScore": 7,
+      "name": "Jiangwan Town Rd N1",
+      "distanceM": 2564.199951171875,
+      "avgGrade": -0.0467982217669487,
+      "startLat": 31.342082977294922,
+      "startLng": 121.51815795898438
+    },
+    {
+      "id": "24917182",
+      "tileScore": 10,
+      "name": "Baicheng Rd. S2N",
+      "distanceM": 1722,
+      "avgGrade": 0.20325201749801636,
+      "startLat": 31.31383514404297,
+      "startLng": 121.5394287109375
+    },
+    {
+      "id": "40373408",
+      "tileScore": 27,
+      "name": "淞湾路鲁贝",
+      "distanceM": 588.0999755859375,
+      "avgGrade": -0.06801564246416092,
+      "startLat": 31.346900939941406,
+      "startLng": 121.50462341308594
+    },
+    {
+      "id": "37418823",
+      "tileScore": 78,
+      "name": "绥绥休闲圈",
+      "distanceM": 1511.199951171875,
+      "avgGrade": -0.105876125395298,
+      "startLat": 31.34343910217285,
+      "startLng": 121.51271057128906
+    },
+    {
+      "id": "37488567",
+      "tileScore": 6,
+      "name": "到家前的最后一弯",
+      "distanceM": 762.2999877929688,
+      "avgGrade": 0,
+      "startLat": 31.330759048461914,
+      "startLng": 121.52286529541016
+    },
+    {
+      "id": "37488600",
+      "tileScore": 13,
+      "name": "破路何时能修好???",
+      "distanceM": 1379.5999755859375,
+      "avgGrade": 0.014496956020593643,
+      "startLat": 31.32967758178711,
+      "startLng": 121.54129791259766
+    },
+    {
+      "id": "37112209",
+      "tileScore": 28,
+      "name": "CDCC JW700",
+      "distanceM": 4741,
+      "avgGrade": -0.0590592697262764,
+      "startLat": 31.332212448120117,
+      "startLng": 121.49347686767578
+    },
+    {
+      "id": "34630078",
+      "tileScore": 6,
+      "name": "三嫩ferry",
+      "distanceM": 623.5,
+      "avgGrade": -0.2886928617954254,
+      "startLat": 31.317615509033203,
+      "startLng": 121.54975128173828
+    },
+    {
+      "id": "34639649",
+      "tileScore": 2,
+      "name": "草临ferry",
+      "distanceM": 507.3999938964844,
+      "avgGrade": -0.11824990063905716,
+      "startLat": 31.342947006225586,
+      "startLng": 121.52872467041016
+    }
+  ]
+}

@@ -1,0 +1,299 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-08T22:51:18.484Z",
+  "tile": {
+    "z": 13,
+    "x": 6691,
+    "y": 3570
+  },
+  "segments": [
+    {
+      "id": "40955962",
+      "tileScore": 17,
+      "name": "FAIRVIEW PARK to EDEN MANOR",
+      "distanceM": 9899.7998046875,
+      "avgGrade": 0.04040485620498657,
+      "startLat": 22.473743438720703,
+      "startLng": 114.05089569091797
+    },
+    {
+      "id": "5013272",
+      "tileScore": 4,
+      "name": "青公(潭尾油站-馬會高球)",
+      "distanceM": 10170.5,
+      "avgGrade": 0.04326237365603447,
+      "startLat": 22.46607208251953,
+      "startLng": 114.05384063720703
+    },
+    {
+      "id": "14194849",
+      "tileScore": 4,
+      "name": "牛潭尾路口到大迴旋處",
+      "distanceM": 845.2000122070312,
+      "avgGrade": -0.2602934241294861,
+      "startLat": 22.478591918945312,
+      "startLng": 114.0582504272461
+    },
+    {
+      "id": "14569983",
+      "tileScore": 20,
+      "name": "Yau Pok Road ",
+      "distanceM": 1190.199951171875,
+      "avgGrade": -0.26886236667633057,
+      "startLat": 22.473257064819336,
+      "startLng": 114.05057525634766
+    },
+    {
+      "id": "28883606",
+      "tileScore": 11,
+      "name": "下灣村東路(南行,由邊境禁區鐵絲網起) / Ha Wan Tsuen East Road (southbound from closed area fence)",
+      "distanceM": 849,
+      "avgGrade": 0,
+      "startLat": 22.517131805419922,
+      "startLng": 114.07316589355469
+    },
+    {
+      "id": "34655767",
+      "tileScore": 7,
+      "name": "downhill !!!",
+      "distanceM": 740.7999877929688,
+      "avgGrade": -5.534557342529297,
+      "startLat": 22.470861434936523,
+      "startLng": 114.07630157470703
+    },
+    {
+      "id": "11769650",
+      "tileScore": 7,
+      "name": " Fai King Rd back (closed area) ",
+      "distanceM": 5620.60009765625,
+      "avgGrade": 0.22773370146751404,
+      "startLat": 22.511594772338867,
+      "startLng": 114.07793426513672
+    },
+    {
+      "id": "20314773",
+      "tileScore": 10,
+      "name": "青山公路(新田村路口至落馬洲路口)",
+      "distanceM": 1373.199951171875,
+      "avgGrade": 0.29129040241241455,
+      "startLat": 22.495281219482422,
+      "startLng": 114.07328033447266
+    },
+    {
+      "id": "28463861",
+      "tileScore": 3,
+      "name": "落馬州瞭望台來回",
+      "distanceM": 506.29998779296875,
+      "avgGrade": 0.35552045702934265,
+      "startLat": 22.509859085083008,
+      "startLng": 114.07868194580078
+    },
+    {
+      "id": "14932088",
+      "tileScore": 6,
+      "name": "Kwu Tung Road Sprint (East) ",
+      "distanceM": 2926,
+      "avgGrade": -0.1982228308916092,
+      "startLat": 22.497007369995117,
+      "startLng": 114.07904052734375
+    },
+    {
+      "id": "6966218",
+      "tileScore": 7,
+      "name": "Chun Shin Rd Out",
+      "distanceM": 1579.4000244140625,
+      "avgGrade": -0.24692921340465546,
+      "startLat": 22.47467803955078,
+      "startLng": 114.07244873046875
+    },
+    {
+      "id": "40680100",
+      "tileScore": 72,
+      "name": "(S) 新潭路",
+      "distanceM": 1376.800048828125,
+      "avgGrade": 0,
+      "startLat": 22.48000717163086,
+      "startLng": 114.0584945678711
+    },
+    {
+      "id": "14492021",
+      "tileScore": 1,
+      "name": "羅湖至落馬洲",
+      "distanceM": 7067.60009765625,
+      "avgGrade": -0.24053426086902618,
+      "startLat": 22.527307510375977,
+      "startLng": 114.11078643798828
+    },
+    {
+      "id": "34223693",
+      "tileScore": 5,
+      "name": "yuen long to tai po twin bridge",
+      "distanceM": 34870.8984375,
+      "avgGrade": -0.013765059411525726,
+      "startLat": 22.444385528564453,
+      "startLng": 114.04415893554688
+    },
+    {
+      "id": "12325303",
+      "tileScore": 6,
+      "name": "Fairview Park Loop",
+      "distanceM": 2162.10009765625,
+      "avgGrade": 0.004625133238732815,
+      "startLat": 22.475025177001953,
+      "startLng": 114.04718780517578
+    },
+    {
+      "id": "8857239",
+      "tileScore": 56,
+      "name": "上水邊境 - 上水方向",
+      "distanceM": 4481.89990234375,
+      "avgGrade": 0.3793034255504608,
+      "startLat": 22.51102066040039,
+      "startLng": 114.0776596069336
+    },
+    {
+      "id": "16971907",
+      "tileScore": 6,
+      "name": "米埔 in",
+      "distanceM": 1337,
+      "avgGrade": 0.14958862960338593,
+      "startLat": 22.494474411010742,
+      "startLng": 114.0611343383789
+    },
+    {
+      "id": "26829263",
+      "tileScore": 18,
+      "name": "After San Tam Road Climb toward East ",
+      "distanceM": 580,
+      "avgGrade": 2.068965435028076,
+      "startLat": 22.491336822509766,
+      "startLng": 114.06182861328125
+    },
+    {
+      "id": "20438828",
+      "tileScore": 2,
+      "name": "新田購物城The-Box Hot Lap clockwise x1",
+      "distanceM": 745.2999877929688,
+      "avgGrade": -0.10733933001756668,
+      "startLat": 22.501684188842773,
+      "startLng": 114.07976531982422
+    },
+    {
+      "id": "33525481",
+      "tileScore": 1,
+      "name": "TaiSangWai Sprint",
+      "distanceM": 508.70001220703125,
+      "avgGrade": 0.3145272433757782,
+      "startLat": 22.474430084228516,
+      "startLng": 114.03619384765625
+    },
+    {
+      "id": "38353558",
+      "tileScore": 2,
+      "name": "红树林内部道路",
+      "distanceM": 12710.2998046875,
+      "avgGrade": 0.012588215991854668,
+      "startLat": 22.52973175048828,
+      "startLng": 113.99994659423828
+    },
+    {
+      "id": "8131480",
+      "tileScore": 11,
+      "name": "牛潭尾>石湖圍路",
+      "distanceM": 2275.39990234375,
+      "avgGrade": 0.2592950463294983,
+      "startLat": 22.477859497070312,
+      "startLng": 114.064208984375
+    },
+    {
+      "id": "17045588",
+      "tileScore": 16,
+      "name": "Yau Pok Rd to San Tin Tsuen Rd",
+      "distanceM": 2998.300048828125,
+      "avgGrade": 0.08671580255031586,
+      "startLat": 22.47987937927246,
+      "startLng": 114.05744171142578
+    },
+    {
+      "id": "9531457",
+      "tileScore": 6,
+      "name": "石湖圍上坡",
+      "distanceM": 514.7000122070312,
+      "avgGrade": 4.604624271392822,
+      "startLat": 22.486299514770508,
+      "startLng": 114.07025146484375
+    },
+    {
+      "id": "12118782",
+      "tileScore": 4,
+      "name": "FV Park Short sprint",
+      "distanceM": 466.70001220703125,
+      "avgGrade": -0.10713520646095276,
+      "startLat": 22.473167419433594,
+      "startLng": 114.05028533935547
+    },
+    {
+      "id": "4684103",
+      "tileScore": 5,
+      "name": "Ngau Tam Mei Barracks (public part) towards San Tin",
+      "distanceM": 2044.699951171875,
+      "avgGrade": 1.5503497123718262,
+      "startLat": 22.477846145629883,
+      "startLng": 114.06437683105469
+    },
+    {
+      "id": "31652660",
+      "tileScore": 47,
+      "name": "保税区绕圈",
+      "distanceM": 4938.39990234375,
+      "avgGrade": -0.040498945862054825,
+      "startLat": 22.51091957092285,
+      "startLng": 114.03677368164062
+    },
+    {
+      "id": "33877200",
+      "tileScore": 27,
+      "name": "康城大冷",
+      "distanceM": 130482.203125,
+      "avgGrade": 0,
+      "startLat": 22.29688835144043,
+      "startLng": 114.26518249511719
+    },
+    {
+      "id": "26035297",
+      "tileScore": 22,
+      "name": "博愛-雙魚河跳上跳落左穿右插單車徑(on9先踩)",
+      "distanceM": 12141.7001953125,
+      "avgGrade": -0.013177727349102497,
+      "startLat": 22.44454574584961,
+      "startLng": 114.0413818359375
+    },
+    {
+      "id": "36106399",
+      "tileScore": 9,
+      "name": "NSW - SHAN SHING",
+      "distanceM": 90205.8984375,
+      "avgGrade": -0.013968043960630894,
+      "startLat": 22.44609260559082,
+      "startLng": 114.04883575439453
+    },
+    {
+      "id": "17045620",
+      "tileScore": 11,
+      "name": "Lok Ma Chau Road - up to roundabout",
+      "distanceM": 949.2000122070312,
+      "avgGrade": -0.08428149670362473,
+      "startLat": 22.503917694091797,
+      "startLng": 114.0824966430664
+    },
+    {
+      "id": "15924290",
+      "tileScore": 8,
+      "name": "錦綉花園大道",
+      "distanceM": 374.6000061035156,
+      "avgGrade": -0.21356113255023956,
+      "startLat": 22.471288681030273,
+      "startLng": 114.05449676513672
+    }
+  ]
+}

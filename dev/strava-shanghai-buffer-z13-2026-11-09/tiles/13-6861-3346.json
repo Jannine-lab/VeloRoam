@@ -1,0 +1,218 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-03T06:06:53.200Z",
+  "tile": {
+    "z": 13,
+    "x": 6861,
+    "y": 3346
+  },
+  "segments": [
+    {
+      "id": "26663051",
+      "tileScore": 7,
+      "name": "HiPhi office run",
+      "distanceM": 831.2000122070312,
+      "avgGrade": 0,
+      "startLat": 31.267879486083984,
+      "startLng": 121.52091217041016
+    },
+    {
+      "id": "7170855",
+      "tileScore": 6,
+      "name": "Zhangyang road",
+      "distanceM": 4609.2998046875,
+      "avgGrade": -0.04772958904504776,
+      "startLat": 31.25011444091797,
+      "startLng": 121.56382751464844
+    },
+    {
+      "id": "38214007",
+      "tileScore": 21,
+      "name": "yangshupulu",
+      "distanceM": 4199.2998046875,
+      "avgGrade": 0.033338889479637146,
+      "startLat": 31.271987915039062,
+      "startLng": 121.55028533935547
+    },
+    {
+      "id": "39551470",
+      "tileScore": 3,
+      "name": "LCM Master Ride",
+      "distanceM": 762,
+      "avgGrade": 0.02624671906232834,
+      "startLat": 31.24584197998047,
+      "startLng": 121.54979705810547
+    },
+    {
+      "id": "28775173",
+      "tileScore": 3,
+      "name": "to ferry",
+      "distanceM": 452.1000061035156,
+      "avgGrade": 0.17695200443267822,
+      "startLat": 31.257854461669922,
+      "startLng": 121.53429412841797
+    },
+    {
+      "id": "36516350",
+      "tileScore": 2,
+      "name": "经典通勤上班线路A-虹桥绕道至凯旋卡红绿灯不停车",
+      "distanceM": 21577.099609375,
+      "avgGrade": -0.04634543135762215,
+      "startLat": 31.27074432373047,
+      "startLng": 121.52769470214844
+    },
+    {
+      "id": "41642430",
+      "tileScore": 119,
+      "name": "猛韩过江",
+      "distanceM": 532,
+      "avgGrade": -0.1315789520740509,
+      "startLat": 31.258512496948242,
+      "startLng": 121.52438354492188
+    },
+    {
+      "id": "39449297",
+      "tileScore": 4,
+      "name": "顺平路",
+      "distanceM": 569.7999877929688,
+      "avgGrade": -1.0881010293960571,
+      "startLat": 31.276519775390625,
+      "startLng": 121.5321044921875
+    },
+    {
+      "id": "35856479",
+      "tileScore": 3,
+      "name": "连场线westward（大连路-大场）",
+      "distanceM": 14133.900390625,
+      "avgGrade": 0.0028300751000642776,
+      "startLat": 31.25510025024414,
+      "startLng": 121.51271057128906
+    },
+    {
+      "id": "36565644",
+      "tileScore": 11,
+      "name": "杨浦滨江 099",
+      "distanceM": 1516.800048828125,
+      "avgGrade": -0.22415611147880554,
+      "startLat": 31.268207550048828,
+      "startLng": 121.55103302001953
+    },
+    {
+      "id": "37453233",
+      "tileScore": 9,
+      "name": "Huangxing Inner Ring",
+      "distanceM": 1104.199951171875,
+      "avgGrade": -0.07245064526796341,
+      "startLat": 31.285999298095703,
+      "startLng": 121.51819610595703
+    },
+    {
+      "id": "10461894",
+      "tileScore": 18,
+      "name": "Minsheng to Ferry",
+      "distanceM": 1905.9000244140625,
+      "avgGrade": -0.0577155165374279,
+      "startLat": 31.2489013671875,
+      "startLng": 121.53294372558594
+    },
+    {
+      "id": "34780261",
+      "tileScore": 7,
+      "name": "长阳路(内江路to黄兴路)",
+      "distanceM": 1598.9000244140625,
+      "avgGrade": 0.01250859908759594,
+      "startLat": 31.279817581176758,
+      "startLng": 121.54354858398438
+    },
+    {
+      "id": "14689575",
+      "tileScore": 1,
+      "name": "Inner Ring Road East to Inner Ring Road West (Zhoujiazui/Haining/Tianmu/Changshou/Changning)",
+      "distanceM": 13932.7998046875,
+      "avgGrade": 0.07607946544885635,
+      "startLat": 31.276411056518555,
+      "startLng": 121.52288055419922
+    },
+    {
+      "id": "10470379",
+      "tileScore": 2,
+      "name": "Looking inward",
+      "distanceM": 3537.89990234375,
+      "avgGrade": -0.08196952939033508,
+      "startLat": 31.284408569335938,
+      "startLng": 121.5435791015625
+    },
+    {
+      "id": "35006310",
+      "tileScore": 1,
+      "name": "Miao_绿之谷乐园圈",
+      "distanceM": 1081.5999755859375,
+      "avgGrade": 0,
+      "startLat": 31.256919860839844,
+      "startLng": 121.53239440917969
+    },
+    {
+      "id": "14024473",
+      "tileScore": 7,
+      "name": "Pudong Avenue",
+      "distanceM": 5578.5,
+      "avgGrade": 0,
+      "startLat": 31.293020248413086,
+      "startLng": 121.56718444824219
+    },
+    {
+      "id": "38114826",
+      "tileScore": 16,
+      "name": "北外滩 003 Short",
+      "distanceM": 861.5999755859375,
+      "avgGrade": 0,
+      "startLat": 31.25355339050293,
+      "startLng": 121.50251770019531
+    },
+    {
+      "id": "38535329",
+      "tileScore": 1,
+      "name": "八埭头",
+      "distanceM": 2203,
+      "avgGrade": -0.03631411865353584,
+      "startLat": 31.25877571105957,
+      "startLng": 121.51982116699219
+    },
+    {
+      "id": "7119791",
+      "tileScore": 1,
+      "name": "Yanpu Bridge climb",
+      "distanceM": 3921.60009765625,
+      "avgGrade": -0.06629946827888489,
+      "startLat": 31.2453670501709,
+      "startLng": 121.55731964111328
+    },
+    {
+      "id": "32773759",
+      "tileScore": 3,
+      "name": "North wall loop",
+      "distanceM": 662.7000122070312,
+      "avgGrade": -0.12071827799081802,
+      "startLat": 31.254127502441406,
+      "startLng": 121.54251861572266
+    },
+    {
+      "id": "6635026",
+      "tileScore": 2,
+      "name": "Neijiang Rd (Northbound)",
+      "distanceM": 2146.800048828125,
+      "avgGrade": 0.09316191077232361,
+      "startLat": 31.273704528808594,
+      "startLng": 121.55245208740234
+    },
+    {
+      "id": "36448608",
+      "tileScore": 10,
+      "name": "北外滩 098 Ferry",
+      "distanceM": 2533.800048828125,
+      "avgGrade": 0,
+      "startLat": 31.276016235351562,
+      "startLng": 121.5143814086914
+    }
+  ]
+}

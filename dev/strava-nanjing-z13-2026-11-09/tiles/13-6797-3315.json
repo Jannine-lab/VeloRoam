@@ -1,0 +1,29 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-08T22:26:26.950Z",
+  "tile": {
+    "z": 13,
+    "x": 6797,
+    "y": 3315
+  },
+  "segments": [
+    {
+      "id": "39406098",
+      "tileScore": 7,
+      "name": "机场西路至竹程",
+      "distanceM": 12812,
+      "avgGrade": 0.07102716714143753,
+      "startLat": 32.35784912109375,
+      "startLng": 118.79400634765625
+    },
+    {
+      "id": "33106277",
+      "tileScore": 8,
+      "name": "cd-江北新海线葛塘到竹镇",
+      "distanceM": 26831.19921875,
+      "avgGrade": 0.014908017590641975,
+      "startLat": 32.26921463012695,
+      "startLng": 118.72063446044922
+    }
+  ]
+}

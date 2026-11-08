@@ -1,0 +1,20 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-03T06:02:42.763Z",
+  "tile": {
+    "z": 13,
+    "x": 6855,
+    "y": 3337
+  },
+  "segments": [
+    {
+      "id": "41195619",
+      "tileScore": 13,
+      "name": "浏河至荡茜河沿江线",
+      "distanceM": 30068.69921875,
+      "avgGrade": 0.029931455850601196,
+      "startLat": 31.519168853759766,
+      "startLng": 121.28083801269531
+    }
+  ]
+}

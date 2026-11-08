@@ -1,0 +1,20 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-08T22:41:13.791Z",
+  "tile": {
+    "z": 13,
+    "x": 6793,
+    "y": 3346
+  },
+  "segments": [
+    {
+      "id": "29598425",
+      "tileScore": 11,
+      "name": "芜屯路回程",
+      "distanceM": 12177,
+      "avgGrade": 0.10183132439851761,
+      "startLat": 31.236698150634766,
+      "startLng": 118.55841827392578
+    }
+  ]
+}

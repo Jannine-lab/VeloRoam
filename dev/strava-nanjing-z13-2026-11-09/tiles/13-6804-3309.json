@@ -1,0 +1,20 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-08T22:25:44.976Z",
+  "tile": {
+    "z": 13,
+    "x": 6804,
+    "y": 3309
+  },
+  "segments": [
+    {
+      "id": "42247679",
+      "tileScore": 5,
+      "name": "芦龙—关塘汴桥",
+      "distanceM": 6168,
+      "avgGrade": 0.1977950781583786,
+      "startLat": 32.65412521362305,
+      "startLng": 119.0715560913086
+    }
+  ]
+}

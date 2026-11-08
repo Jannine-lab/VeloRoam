@@ -1,0 +1,56 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-08T22:59:16.713Z",
+  "tile": {
+    "z": 13,
+    "x": 6844,
+    "y": 3341
+  },
+  "segments": [
+    {
+      "id": "38745052",
+      "tileScore": 226,
+      "name": "M-circle of YCH(B2Bridge 50K)",
+      "distanceM": 50491.30078125,
+      "avgGrade": 0.0023766469676047564,
+      "startLat": 31.388383865356445,
+      "startLng": 120.71324157714844
+    },
+    {
+      "id": "13627389",
+      "tileScore": 2,
+      "name": "Ych Velo club de suzhou",
+      "distanceM": 2136.699951171875,
+      "avgGrade": 0.08424205332994461,
+      "startLat": 31.453920364379883,
+      "startLng": 120.77420043945312
+    },
+    {
+      "id": "23491431",
+      "tileScore": 87,
+      "name": "YCH-New Road",
+      "distanceM": 4760.7998046875,
+      "avgGrade": -0.07141657173633575,
+      "startLat": 31.442302703857422,
+      "startLng": 120.7556381225586
+    },
+    {
+      "id": "24694910",
+      "tileScore": 7,
+      "name": "Northern YCH Peninsula Village Rd (Southbound)",
+      "distanceM": 4633.7001953125,
+      "avgGrade": -0.012948615476489067,
+      "startLat": 31.48841094970703,
+      "startLng": 120.81268310546875
+    },
+    {
+      "id": "23526218",
+      "tileScore": 223,
+      "name": "Up da Lake",
+      "distanceM": 12626.5,
+      "avgGrade": 0.009503821842372417,
+      "startLat": 31.38671112060547,
+      "startLng": 120.7130355834961
+    }
+  ]
+}

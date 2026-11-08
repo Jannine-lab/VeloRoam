@@ -1,0 +1,164 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-08T22:50:11.010Z",
+  "tile": {
+    "z": 13,
+    "x": 6686,
+    "y": 3565
+  },
+  "segments": [
+    {
+      "id": "32646261",
+      "tileScore": 9,
+      "name": "洪田七烈士墓",
+      "distanceM": 1300.199951171875,
+      "avgGrade": -0.6460544466972351,
+      "startLat": 22.701248168945312,
+      "startLng": 113.84933471679688
+    },
+    {
+      "id": "4214995",
+      "tileScore": 16,
+      "name": "凤凰山2号岗亭",
+      "distanceM": 404.29998779296875,
+      "avgGrade": 14.5189208984375,
+      "startLat": 22.677066802978516,
+      "startLng": 113.8437271118164
+    },
+    {
+      "id": "40868674",
+      "tileScore": 10,
+      "name": "后山之王由我来证明",
+      "distanceM": 2744.199951171875,
+      "avgGrade": -0.15305006504058838,
+      "startLat": 22.702735900878906,
+      "startLng": 113.86731719970703
+    },
+    {
+      "id": "38198843",
+      "tileScore": 8,
+      "name": "107-出深圳记",
+      "distanceM": 52876.3984375,
+      "avgGrade": -0.03366341069340706,
+      "startLat": 22.576610565185547,
+      "startLng": 114.11041259765625
+    },
+    {
+      "id": "36385050",
+      "tileScore": 36,
+      "name": "一号岗-凤凰山绿道-发射塔",
+      "distanceM": 12732.400390625,
+      "avgGrade": 2.0451762676239014,
+      "startLat": 22.678760528564453,
+      "startLng": 113.83750915527344
+    },
+    {
+      "id": "32094339",
+      "tileScore": 21,
+      "name": "GreenwayAlt2 ",
+      "distanceM": 1294.5,
+      "avgGrade": 0.8651989698410034,
+      "startLat": 22.68832015991211,
+      "startLng": 113.84540557861328
+    },
+    {
+      "id": "39566722",
+      "tileScore": 11,
+      "name": "东出凤凰山隧道大下坡",
+      "distanceM": 993,
+      "avgGrade": -2.0543806552886963,
+      "startLat": 22.676828384399414,
+      "startLng": 113.8584976196289
+    },
+    {
+      "id": "17043509",
+      "tileScore": 3,
+      "name": "Reservoir Greenway - N",
+      "distanceM": 4273.5,
+      "avgGrade": 0.29718029499053955,
+      "startLat": 22.68963050842285,
+      "startLng": 113.84426879882812
+    },
+    {
+      "id": "17187915",
+      "tileScore": 12,
+      "name": "Round The Lake",
+      "distanceM": 7859.10009765625,
+      "avgGrade": 0.03689989820122719,
+      "startLat": 22.68553924560547,
+      "startLng": 113.80593872070312
+    },
+    {
+      "id": "14414394",
+      "tileScore": 373,
+      "name": "凤凰山一号岗",
+      "distanceM": 1333.5,
+      "avgGrade": 8.503936767578125,
+      "startLat": 22.67873764038086,
+      "startLng": 113.83748626708984
+    },
+    {
+      "id": "16859734",
+      "tileScore": 1,
+      "name": "鸿德园->凤凰山",
+      "distanceM": 5918.7001953125,
+      "avgGrade": 0.2230219542980194,
+      "startLat": 22.691978454589844,
+      "startLng": 113.7985610961914
+    },
+    {
+      "id": "40871221",
+      "tileScore": 17,
+      "name": "黄麻布到三岔路口",
+      "distanceM": 2715.199951171875,
+      "avgGrade": 0.47142016887664795,
+      "startLat": 22.681358337402344,
+      "startLng": 113.86528015136719
+    },
+    {
+      "id": "4111988",
+      "tileScore": 9,
+      "name": "107(凤凰-长安)",
+      "distanceM": 11955.599609375,
+      "avgGrade": -0.08866138011217117,
+      "startLat": 22.700605392456055,
+      "startLng": 113.82776641845703
+    },
+    {
+      "id": "26250591",
+      "tileScore": 30,
+      "name": "Graveyard to GoKart Entrance Downhill",
+      "distanceM": 591.9000244140625,
+      "avgGrade": -6.926845550537109,
+      "startLat": 22.708959579467773,
+      "startLng": 113.86431884765625
+    },
+    {
+      "id": "31896261",
+      "tileScore": 18,
+      "name": "FenghuanshanTunnel",
+      "distanceM": 2494.5,
+      "avgGrade": -1.5113248825073242,
+      "startLat": 22.677204132080078,
+      "startLng": 113.86018371582031
+    },
+    {
+      "id": "12570192",
+      "tileScore": 4,
+      "name": "國道107 > 長安水站",
+      "distanceM": 33858,
+      "avgGrade": -0.01535826176404953,
+      "startLat": 22.543325424194336,
+      "startLng": 113.91828155517578
+    },
+    {
+      "id": "36690732",
+      "tileScore": 10,
+      "name": "G107（怀德南路至兴业二路）",
+      "distanceM": 5117.2001953125,
+      "avgGrade": -0.426014244556427,
+      "startLat": 22.654945373535156,
+      "startLng": 113.82239532470703
+    }
+  ]
+}

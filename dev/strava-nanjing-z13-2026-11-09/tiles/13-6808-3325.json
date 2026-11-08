@@ -1,0 +1,56 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-08T22:34:35.274Z",
+  "tile": {
+    "z": 13,
+    "x": 6808,
+    "y": 3325
+  },
+  "segments": [
+    {
+      "id": "38596183",
+      "tileScore": 42,
+      "name": "ul - Rolling countryside road",
+      "distanceM": 2408,
+      "avgGrade": -1.0548171997070312,
+      "startLat": 32.05986785888672,
+      "startLng": 119.19564819335938
+    },
+    {
+      "id": "36991664",
+      "tileScore": 58,
+      "name": "YNG大佬们带你吃辣堡",
+      "distanceM": 5758.7001953125,
+      "avgGrade": -0.4150242209434509,
+      "startLat": 32.042110443115234,
+      "startLng": 119.19386291503906
+    },
+    {
+      "id": "36109082",
+      "tileScore": 37,
+      "name": "下坡后climb2",
+      "distanceM": 552,
+      "avgGrade": 1.7753623723983765,
+      "startLat": 32.06675720214844,
+      "startLng": 119.19900512695312
+    },
+    {
+      "id": "41235115",
+      "tileScore": 22,
+      "name": "句蜀路ITT 2/3 （空青桥—沪蓉高速入口）",
+      "distanceM": 8910.900390625,
+      "avgGrade": -0.02468886412680149,
+      "startLat": 32.10808181762695,
+      "startLng": 119.20623016357422
+    },
+    {
+      "id": "36721866",
+      "tileScore": 44,
+      "name": "仑山湖-女子监狱",
+      "distanceM": 5206.60009765625,
+      "avgGrade": -0.03457150608301163,
+      "startLat": 32.06757354736328,
+      "startLng": 119.2475814819336
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-08T22:25:28.811Z",
+  "tile": {
+    "z": 13,
+    "x": 6798,
+    "y": 3309
+  },
+  "segments": [
+    {
+      "id": "30243632",
+      "tileScore": 10,
+      "name": "天长99公路西往东之釜山—于洼段",
+      "distanceM": 11516,
+      "avgGrade": 0.028655782341957092,
+      "startLat": 32.66358184814453,
+      "startLng": 118.7020492553711
+    }
+  ]
+}

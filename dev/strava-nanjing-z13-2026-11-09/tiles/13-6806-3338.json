@@ -1,0 +1,29 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-08T22:38:11.927Z",
+  "tile": {
+    "z": 13,
+    "x": 6806,
+    "y": 3338
+  },
+  "segments": [
+    {
+      "id": "30233393",
+      "tileScore": 1,
+      "name": "cd-蒲杜线西往东",
+      "distanceM": 4198.7998046875,
+      "avgGrade": 0.2381632775068283,
+      "startLat": 31.529525756835938,
+      "startLng": 119.08055114746094
+    },
+    {
+      "id": "26033906",
+      "tileScore": 5,
+      "name": "cd-S341东往西至S246",
+      "distanceM": 5622.39990234375,
+      "avgGrade": -0.049800798296928406,
+      "startLat": 31.549205780029297,
+      "startLng": 119.13444519042969
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-08T22:39:06.625Z",
+  "tile": {
+    "z": 13,
+    "x": 6794,
+    "y": 3341
+  },
+  "segments": [
+    {
+      "id": "36191059",
+      "tileScore": 9,
+      "name": "青山驿站下坡",
+      "distanceM": 3966,
+      "avgGrade": -1.6994452476501465,
+      "startLat": 31.47698211669922,
+      "startLng": 118.54137420654297
+    },
+    {
+      "id": "29736972",
+      "tileScore": 31,
+      "name": "大青山北进环山",
+      "distanceM": 10531.900390625,
+      "avgGrade": 0.25256600975990295,
+      "startLat": 31.518796920776367,
+      "startLng": 118.5367202758789
+    }
+  ]
+}

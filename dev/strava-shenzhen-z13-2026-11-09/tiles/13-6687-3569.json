@@ -1,0 +1,290 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-08T22:51:24.054Z",
+  "tile": {
+    "z": 13,
+    "x": 6687,
+    "y": 3569
+  },
+  "segments": [
+    {
+      "id": "30761068",
+      "tileScore": 3,
+      "name": "前海国际会议中心冲刺",
+      "distanceM": 496.70001220703125,
+      "avgGrade": 0.16106301546096802,
+      "startLat": 22.525001525878906,
+      "startLng": 113.90099334716797
+    },
+    {
+      "id": "41242183",
+      "tileScore": 37,
+      "name": "前海石公园海景大道",
+      "distanceM": 535.5999755859375,
+      "avgGrade": -0.48543688654899597,
+      "startLat": 22.53437042236328,
+      "startLng": 113.88707733154297
+    },
+    {
+      "id": "11679423",
+      "tileScore": 6,
+      "name": "S3 to Mawan Port",
+      "distanceM": 7622.10009765625,
+      "avgGrade": -0.057726871222257614,
+      "startLat": 22.522674560546875,
+      "startLng": 113.8834457397461
+    },
+    {
+      "id": "34370534",
+      "tileScore": 78,
+      "name": "天桥段（宝安大道→深南大道）",
+      "distanceM": 1832.9000244140625,
+      "avgGrade": 0.14185170829296112,
+      "startLat": 22.551000595092773,
+      "startLng": 113.89742279052734
+    },
+    {
+      "id": "26119683",
+      "tileScore": 12,
+      "name": "临海听海摩天轮一圈",
+      "distanceM": 2192.800048828125,
+      "avgGrade": -0.04560379311442375,
+      "startLat": 22.535654067993164,
+      "startLng": 113.88999938964844
+    },
+    {
+      "id": "41067273",
+      "tileScore": 32,
+      "name": "海天路口缓坡冲刺",
+      "distanceM": 506.70001220703125,
+      "avgGrade": 0.11841326206922531,
+      "startLat": 22.55116081237793,
+      "startLng": 113.86709594726562
+    },
+    {
+      "id": "27244545",
+      "tileScore": 14,
+      "name": "Liyumen Ramp",
+      "distanceM": 310.79998779296875,
+      "avgGrade": 0.32175031304359436,
+      "startLat": 22.53488540649414,
+      "startLng": 113.89707946777344
+    },
+    {
+      "id": "28808639",
+      "tileScore": 33,
+      "name": "HeavenNeverGotSoClose",
+      "distanceM": 6990.2001953125,
+      "avgGrade": 0,
+      "startLat": 22.543333053588867,
+      "startLng": 113.94855499267578
+    },
+    {
+      "id": "36797797",
+      "tileScore": 5,
+      "name": "宝安摩天轮晨骑1圈",
+      "distanceM": 1877.0999755859375,
+      "avgGrade": -0.04261893406510353,
+      "startLat": 22.54573631286621,
+      "startLng": 113.88509368896484
+    },
+    {
+      "id": "26912492",
+      "tileScore": 2,
+      "name": "Hospital Loop + ChiWan",
+      "distanceM": 57742.3984375,
+      "avgGrade": -0.016971930861473083,
+      "startLat": 22.484697341918945,
+      "startLng": 113.93070220947266
+    },
+    {
+      "id": "40013799",
+      "tileScore": 32,
+      "name": "企鹅岛🐧-往返",
+      "distanceM": 6271.10009765625,
+      "avgGrade": -0.012756932526826859,
+      "startLat": 22.55515480041504,
+      "startLng": 113.85432434082031
+    },
+    {
+      "id": "30076789",
+      "tileScore": 7,
+      "name": "桃园路冲刺",
+      "distanceM": 1873.199951171875,
+      "avgGrade": -0.576553463935852,
+      "startLat": 22.53566551208496,
+      "startLng": 113.9228744506836
+    },
+    {
+      "id": "30008572",
+      "tileScore": 5,
+      "name": "Two bridges loop",
+      "distanceM": 1622.199951171875,
+      "avgGrade": 0,
+      "startLat": 22.51552963256836,
+      "startLng": 113.88407135009766
+    },
+    {
+      "id": "37710983",
+      "tileScore": 17,
+      "name": "前海地铁站单圈",
+      "distanceM": 1656.699951171875,
+      "avgGrade": 0,
+      "startLat": 22.527795791625977,
+      "startLng": 113.89065551757812
+    },
+    {
+      "id": "11910529",
+      "tileScore": 1,
+      "name": "Huanghui Garden",
+      "distanceM": 1794.800048828125,
+      "avgGrade": 0.033429909497499466,
+      "startLat": 22.54525375366211,
+      "startLng": 113.90951538085938
+    },
+    {
+      "id": "41685622",
+      "tileScore": 8,
+      "name": "荔林公园骑行道",
+      "distanceM": 802,
+      "avgGrade": 1.7206981182098389,
+      "startLat": 22.512714385986328,
+      "startLng": 113.90502166748047
+    },
+    {
+      "id": "29175183",
+      "tileScore": 1,
+      "name": "How Uuu doing",
+      "distanceM": 4019.10009765625,
+      "avgGrade": 0,
+      "startLat": 22.525955200195312,
+      "startLng": 113.90162658691406
+    },
+    {
+      "id": "4988016",
+      "tileScore": 29,
+      "name": "廣深臨江高速",
+      "distanceM": 24966.69921875,
+      "avgGrade": 0.0064085363410413265,
+      "startLat": 22.53104591369629,
+      "startLng": 113.87958526611328
+    },
+    {
+      "id": "22940213",
+      "tileScore": 6,
+      "name": "xinghai Bridge to Chiwan Rd.",
+      "distanceM": 6694.2998046875,
+      "avgGrade": 0.017925698310136795,
+      "startLat": 22.52235984802246,
+      "startLng": 113.88292694091797
+    },
+    {
+      "id": "40889485",
+      "tileScore": 3,
+      "name": "下班开冲",
+      "distanceM": 662.5,
+      "avgGrade": 0.030188677832484245,
+      "startLat": 22.519521713256836,
+      "startLng": 113.9013900756836
+    },
+    {
+      "id": "41510561",
+      "tileScore": 472,
+      "name": "晨骑40",
+      "distanceM": 39089.3984375,
+      "avgGrade": -0.010232953354716301,
+      "startLat": 22.541751861572266,
+      "startLng": 114.03868865966797
+    },
+    {
+      "id": "13651372",
+      "tileScore": 6,
+      "name": "Daily round",
+      "distanceM": 1963.699951171875,
+      "avgGrade": -0.1120334044098854,
+      "startLat": 22.52032470703125,
+      "startLng": 113.8988037109375
+    },
+    {
+      "id": "38455786",
+      "tileScore": 12,
+      "name": "前海湾绿道南往北",
+      "distanceM": 6304.60009765625,
+      "avgGrade": -0.01586143486201763,
+      "startLat": 22.54479217529297,
+      "startLng": 113.87323760986328
+    },
+    {
+      "id": "36349348",
+      "tileScore": 8,
+      "name": "GoodStartOfPoohPoohHighway",
+      "distanceM": 781,
+      "avgGrade": 0.7682458758354187,
+      "startLat": 22.521806716918945,
+      "startLng": 113.88143920898438
+    },
+    {
+      "id": "37358286",
+      "tileScore": 244,
+      "name": "深南宝安晨骑",
+      "distanceM": 40330.1015625,
+      "avgGrade": -0.008926335722208023,
+      "startLat": 22.559059143066406,
+      "startLng": 113.8889389038086
+    },
+    {
+      "id": "40017530",
+      "tileScore": 8,
+      "name": "宝华路（创业一路—海天路）",
+      "distanceM": 552.7999877929688,
+      "avgGrade": 0,
+      "startLat": 22.555862426757812,
+      "startLng": 113.8805160522461
+    },
+    {
+      "id": "41242168",
+      "tileScore": 20,
+      "name": "新安西路500m冲刺",
+      "distanceM": 518.4000244140625,
+      "avgGrade": 0.03858024626970291,
+      "startLat": 22.550220489501953,
+      "startLng": 113.89055633544922
+    },
+    {
+      "id": "38405356",
+      "tileScore": 80,
+      "name": "没有tt车你就别想拿kom了",
+      "distanceM": 1815.699951171875,
+      "avgGrade": -0.03304510563611984,
+      "startLat": 22.544729232788086,
+      "startLng": 113.90701293945312
+    },
+    {
+      "id": "16853459",
+      "tileScore": 6,
+      "name": "Menghai north bound",
+      "distanceM": 1161.800048828125,
+      "avgGrade": 0.03442933410406113,
+      "startLat": 22.524391174316406,
+      "startLng": 113.89588165283203
+    },
+    {
+      "id": "34370516",
+      "tileScore": 15,
+      "name": "宝安大道（新安路口→过去南山的天桥前）",
+      "distanceM": 3224.199951171875,
+      "avgGrade": 0.012406178750097752,
+      "startLat": 22.571340560913086,
+      "startLng": 113.8756103515625
+    },
+    {
+      "id": "40017537",
+      "tileScore": 4,
+      "name": "宝兴路（海天路—创业一路）",
+      "distanceM": 567.7999877929688,
+      "avgGrade": 0.10567101091146469,
+      "startLat": 22.550899505615234,
+      "startLng": 113.87688446044922
+    }
+  ]
+}

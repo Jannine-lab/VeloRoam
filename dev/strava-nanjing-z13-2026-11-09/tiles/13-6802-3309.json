@@ -1,0 +1,20 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-08T22:25:42.787Z",
+  "tile": {
+    "z": 13,
+    "x": 6802,
+    "y": 3309
+  },
+  "segments": [
+    {
+      "id": "33293858",
+      "tileScore": 4,
+      "name": "天郑路北往南",
+      "distanceM": 6103,
+      "avgGrade": 0.3735867440700531,
+      "startLat": 32.65696334838867,
+      "startLng": 118.9640884399414
+    }
+  ]
+}

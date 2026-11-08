@@ -1,0 +1,38 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-08T22:49:00.006Z",
+  "tile": {
+    "z": 13,
+    "x": 6683,
+    "y": 3563
+  },
+  "segments": [
+    {
+      "id": "38551797",
+      "tileScore": 1,
+      "name": "长安 振安西路",
+      "distanceM": 3733.5,
+      "avgGrade": -0.11249497532844543,
+      "startLat": 22.7981014251709,
+      "startLng": 113.70328521728516
+    },
+    {
+      "id": "19361776",
+      "tileScore": 2,
+      "name": "Humen Staion - Dongbei",
+      "distanceM": 8259.099609375,
+      "avgGrade": -0.1331864297389984,
+      "startLat": 22.863826751708984,
+      "startLng": 113.67501831054688
+    },
+    {
+      "id": "37999935",
+      "tileScore": 4,
+      "name": "2024 滨海湾单圈",
+      "distanceM": 4209.7998046875,
+      "avgGrade": -0.004750819411128759,
+      "startLat": 22.754106521606445,
+      "startLng": 113.73507690429688
+    }
+  ]
+}

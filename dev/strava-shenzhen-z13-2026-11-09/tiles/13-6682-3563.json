@@ -1,0 +1,20 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-08T22:49:00.006Z",
+  "tile": {
+    "z": 13,
+    "x": 6682,
+    "y": 3563
+  },
+  "segments": [
+    {
+      "id": "39838549",
+      "tileScore": 39,
+      "name": "外环岛路超级直道闷头骑",
+      "distanceM": 3234.699951171875,
+      "avgGrade": 0.018548861145973206,
+      "startLat": 22.78955078125,
+      "startLng": 113.65937805175781
+    }
+  ]
+}

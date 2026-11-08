@@ -1,0 +1,191 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-03T06:06:53.200Z",
+  "tile": {
+    "z": 13,
+    "x": 6861,
+    "y": 3345
+  },
+  "segments": [
+    {
+      "id": "10470379",
+      "tileScore": 2,
+      "name": "Looking inward",
+      "distanceM": 3537.89990234375,
+      "avgGrade": -0.08196952939033508,
+      "startLat": 31.284408569335938,
+      "startLng": 121.5435791015625
+    },
+    {
+      "id": "18780512",
+      "tileScore": 6,
+      "name": "ZS Sprint",
+      "distanceM": 550.2000122070312,
+      "avgGrade": -0.6543075442314148,
+      "startLat": 31.287992477416992,
+      "startLng": 121.51704406738281
+    },
+    {
+      "id": "26161649",
+      "tileScore": 26,
+      "name": "海安路",
+      "distanceM": 675.7999877929688,
+      "avgGrade": 0.32554009556770325,
+      "startLat": 31.29312515258789,
+      "startLng": 121.55608367919922
+    },
+    {
+      "id": "22431799",
+      "tileScore": 2,
+      "name": "Rush Hour from Xujiahui to Wujiaochang",
+      "distanceM": 17675.30078125,
+      "avgGrade": -0.08146961778402328,
+      "startLat": 31.195659637451172,
+      "startLng": 121.43431854248047
+    },
+    {
+      "id": "13622746",
+      "tileScore": 15,
+      "name": "Zhongshan 500m",
+      "distanceM": 503.79998779296875,
+      "avgGrade": -0.39698296785354614,
+      "startLat": 31.287593841552734,
+      "startLng": 121.5044174194336
+    },
+    {
+      "id": "36069408",
+      "tileScore": 1,
+      "name": "崔崔的江湾泪#20240101",
+      "distanceM": 8506.2998046875,
+      "avgGrade": 0.0070535955019295216,
+      "startLat": 31.309926986694336,
+      "startLng": 121.51041412353516
+    },
+    {
+      "id": "31260649",
+      "tileScore": 6,
+      "name": "黄兴公园外围扩展",
+      "distanceM": 4248.5,
+      "avgGrade": 0,
+      "startLat": 31.29070472717285,
+      "startLng": 121.52349090576172
+    },
+    {
+      "id": "6635026",
+      "tileScore": 2,
+      "name": "Neijiang Rd (Northbound)",
+      "distanceM": 2146.800048828125,
+      "avgGrade": 0.09316191077232361,
+      "startLat": 31.273704528808594,
+      "startLng": 121.55245208740234
+    },
+    {
+      "id": "13337964",
+      "tileScore": 2,
+      "name": "Guoquan Rd",
+      "distanceM": 491.8999938964844,
+      "avgGrade": -0.04065867140889168,
+      "startLat": 31.291593551635742,
+      "startLng": 121.50594329833984
+    },
+    {
+      "id": "39449405",
+      "tileScore": 6,
+      "name": "内江-敦化",
+      "distanceM": 1507.4000244140625,
+      "avgGrade": 0.02653575874865055,
+      "startLat": 31.283437728881836,
+      "startLng": 121.54148864746094
+    },
+    {
+      "id": "13622757",
+      "tileScore": 9,
+      "name": "JiangPu 300m Sprint",
+      "distanceM": 345.5,
+      "avgGrade": 0,
+      "startLat": 31.286073684692383,
+      "startLng": 121.51114654541016
+    },
+    {
+      "id": "34780261",
+      "tileScore": 7,
+      "name": "长阳路(内江路to黄兴路)",
+      "distanceM": 1598.9000244140625,
+      "avgGrade": 0.01250859908759594,
+      "startLat": 31.279817581176758,
+      "startLng": 121.54354858398438
+    },
+    {
+      "id": "36914756",
+      "tileScore": 4,
+      "name": "Detour Jungong",
+      "distanceM": 1263.5999755859375,
+      "avgGrade": 0.03165558725595474,
+      "startLat": 31.29850959777832,
+      "startLng": 121.53820037841797
+    },
+    {
+      "id": "34780268",
+      "tileScore": 7,
+      "name": "GuoShun Rd. East Sprint",
+      "distanceM": 555.2000122070312,
+      "avgGrade": 0.2161383330821991,
+      "startLat": 31.30900001525879,
+      "startLng": 121.53839111328125
+    },
+    {
+      "id": "36914733",
+      "tileScore": 4,
+      "name": "Rush Hour",
+      "distanceM": 690.7000122070312,
+      "avgGrade": -0.28956133127212524,
+      "startLat": 31.28257942199707,
+      "startLng": 121.55087280273438
+    },
+    {
+      "id": "34780223",
+      "tileScore": 4,
+      "name": "Anbo Rd. E2W",
+      "distanceM": 1096.0999755859375,
+      "avgGrade": -0.05473953112959862,
+      "startLat": 31.304977416992188,
+      "startLng": 121.5271987915039
+    },
+    {
+      "id": "24917182",
+      "tileScore": 10,
+      "name": "Baicheng Rd. S2N",
+      "distanceM": 1722,
+      "avgGrade": 0.20325201749801636,
+      "startLat": 31.31383514404297,
+      "startLng": 121.5394287109375
+    },
+    {
+      "id": "37453233",
+      "tileScore": 9,
+      "name": "Huangxing Inner Ring",
+      "distanceM": 1104.199951171875,
+      "avgGrade": -0.07245064526796341,
+      "startLat": 31.285999298095703,
+      "startLng": 121.51819610595703
+    },
+    {
+      "id": "6635033",
+      "tileScore": 9,
+      "name": "Dunhua Rd (Northbound)",
+      "distanceM": 871.0999755859375,
+      "avgGrade": -0.2525542378425598,
+      "startLat": 31.289087295532227,
+      "startLng": 121.53875732421875
+    },
+    {
+      "id": "39449297",
+      "tileScore": 4,
+      "name": "顺平路",
+      "distanceM": 569.7999877929688,
+      "avgGrade": -1.0881010293960571,
+      "startLat": 31.276519775390625,
+      "startLng": 121.5321044921875
+    }
+  ]
+}

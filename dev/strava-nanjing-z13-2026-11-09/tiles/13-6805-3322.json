@@ -1,0 +1,29 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-08T22:33:05.367Z",
+  "tile": {
+    "z": 13,
+    "x": 6805,
+    "y": 3322
+  },
+  "segments": [
+    {
+      "id": "40158936",
+      "tileScore": 23,
+      "name": "G312镇江-南京-LL",
+      "distanceM": 32373.900390625,
+      "avgGrade": -0.044480275362730026,
+      "startLat": 32.17245864868164,
+      "startLng": 119.366943359375
+    },
+    {
+      "id": "5051397",
+      "tileScore": 4,
+      "name": "南京收费站 到 宝华山",
+      "distanceM": 20786,
+      "avgGrade": 0.14336572587490082,
+      "startLat": 32.104984283447266,
+      "startLng": 118.88829803466797
+    }
+  ]
+}

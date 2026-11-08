@@ -1,0 +1,38 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-03T06:11:07.447Z",
+  "tile": {
+    "z": 13,
+    "x": 6859,
+    "y": 3356
+  },
+  "segments": [
+    {
+      "id": "33208218",
+      "tileScore": 24,
+      "name": "Yin Long Loop",
+      "distanceM": 4555,
+      "avgGrade": -0.021953897550702095,
+      "startLat": 30.878549575805664,
+      "startLng": 121.41942596435547
+    },
+    {
+      "id": "29610212",
+      "tileScore": 3,
+      "name": "pingzhuang go",
+      "distanceM": 2853.89990234375,
+      "avgGrade": 0.04905567690730095,
+      "startLat": 30.87841033935547,
+      "startLng": 121.4208755493164
+    },
+    {
+      "id": "34846326",
+      "tileScore": 4,
+      "name": "沪杭公路（科工路-平庄西路）",
+      "distanceM": 3620.39990234375,
+      "avgGrade": 0.05524251610040665,
+      "startLat": 30.847911834716797,
+      "startLng": 121.46340942382812
+    }
+  ]
+}

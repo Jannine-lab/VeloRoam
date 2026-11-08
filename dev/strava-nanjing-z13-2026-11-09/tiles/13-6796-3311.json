@@ -1,0 +1,20 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-08T22:26:00.204Z",
+  "tile": {
+    "z": 13,
+    "x": 6796,
+    "y": 3311
+  },
+  "segments": [
+    {
+      "id": "33123064",
+      "tileScore": 4,
+      "name": "石侯路东往西",
+      "distanceM": 5615,
+      "avgGrade": -0.29741764068603516,
+      "startLat": 32.55582046508789,
+      "startLng": 118.73613739013672
+    }
+  ]
+}

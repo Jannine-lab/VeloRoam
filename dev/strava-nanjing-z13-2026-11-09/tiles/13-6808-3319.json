@@ -1,0 +1,38 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-08T22:26:50.910Z",
+  "tile": {
+    "z": 13,
+    "x": 6808,
+    "y": 3319
+  },
+  "segments": [
+    {
+      "id": "39988098",
+      "tileScore": 5,
+      "name": "仪征-镇扬汽渡",
+      "distanceM": 19609.5,
+      "avgGrade": -0.008159310556948185,
+      "startLat": 32.255489349365234,
+      "startLng": 119.1688232421875
+    },
+    {
+      "id": "41840878",
+      "tileScore": 10,
+      "name": "仪扬河大桥冲刺 E-W",
+      "distanceM": 996,
+      "avgGrade": -0.1204819306731224,
+      "startLat": 32.252201080322266,
+      "startLng": 119.18753051757812
+    },
+    {
+      "id": "41840859",
+      "tileScore": 8,
+      "name": "新的双虹桥",
+      "distanceM": 609,
+      "avgGrade": 0.19704434275627136,
+      "startLat": 32.26951217651367,
+      "startLng": 119.20050048828125
+    }
+  ]
+}

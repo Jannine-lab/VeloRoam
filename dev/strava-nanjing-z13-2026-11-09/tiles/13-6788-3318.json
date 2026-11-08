@@ -1,0 +1,38 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-08T22:31:47.961Z",
+  "tile": {
+    "z": 13,
+    "x": 6788,
+    "y": 3318
+  },
+  "segments": [
+    {
+      "id": "37897188",
+      "tileScore": 4,
+      "name": "Aaaaarrghhhh going East",
+      "distanceM": 1402.800048828125,
+      "avgGrade": 0.007128600031137466,
+      "startLat": 32.31241226196289,
+      "startLng": 118.31271362304688
+    },
+    {
+      "id": "40077000",
+      "tileScore": 9,
+      "name": "cd-西涧路之城郊水库到东门停车场",
+      "distanceM": 5383.39990234375,
+      "avgGrade": 0.17832596600055695,
+      "startLat": 32.309444427490234,
+      "startLng": 118.29496765136719
+    },
+    {
+      "id": "38670847",
+      "tileScore": 1,
+      "name": "玉溪路绕圈",
+      "distanceM": 3938.800048828125,
+      "avgGrade": 0.005077688489109278,
+      "startLat": 32.31797790527344,
+      "startLng": 118.31877136230469
+    }
+  ]
+}

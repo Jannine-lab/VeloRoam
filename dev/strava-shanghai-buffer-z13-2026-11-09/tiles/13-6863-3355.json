@@ -1,0 +1,47 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-03T06:11:04.480Z",
+  "tile": {
+    "z": 13,
+    "x": 6863,
+    "y": 3355
+  },
+  "segments": [
+    {
+      "id": "41300888",
+      "tileScore": 16,
+      "name": "青村小双桥",
+      "distanceM": 958,
+      "avgGrade": -0.08350730687379837,
+      "startLat": 30.92958641052246,
+      "startLng": 121.61481475830078
+    },
+    {
+      "id": "35762536",
+      "tileScore": 45,
+      "name": "航唐公路半程加油站",
+      "distanceM": 5768.60009765625,
+      "avgGrade": 0.017335228621959686,
+      "startLat": 30.934066772460938,
+      "startLng": 121.60254669189453
+    },
+    {
+      "id": "35380179",
+      "tileScore": 4,
+      "name": "团青公路一路狂飙",
+      "distanceM": 8108.10009765625,
+      "avgGrade": -0.048100050538778305,
+      "startLat": 30.928348541259766,
+      "startLng": 121.62738800048828
+    },
+    {
+      "id": "25225795",
+      "tileScore": 2,
+      "name": "Northbound on Xinfeng",
+      "distanceM": 6358.7998046875,
+      "avgGrade": 0.0251619815826416,
+      "startLat": 30.92991065979004,
+      "startLng": 121.63762664794922
+    }
+  ]
+}

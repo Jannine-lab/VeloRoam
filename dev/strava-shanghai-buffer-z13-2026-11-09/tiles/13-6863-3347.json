@@ -1,0 +1,236 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-03T06:07:35.599Z",
+  "tile": {
+    "z": 13,
+    "x": 6863,
+    "y": 3347
+  },
+  "segments": [
+    {
+      "id": "9475502",
+      "tileScore": 24,
+      "name": "Jinxui East Road Industrial Area",
+      "distanceM": 1823.199951171875,
+      "avgGrade": -0.10969723761081696,
+      "startLat": 31.24082374572754,
+      "startLng": 121.60148620605469
+    },
+    {
+      "id": "30576635",
+      "tileScore": 6,
+      "name": "rolling hills",
+      "distanceM": 1291.5999755859375,
+      "avgGrade": 0.09290801733732224,
+      "startLat": 31.239944458007812,
+      "startLng": 121.64019012451172
+    },
+    {
+      "id": "21789103",
+      "tileScore": 24,
+      "name": "Shenjiang Rd North",
+      "distanceM": 10352,
+      "avgGrade": -0.013523956760764122,
+      "startLat": 31.203109741210938,
+      "startLng": 121.62128448486328
+    },
+    {
+      "id": "33934466",
+      "tileScore": 18,
+      "name": "翠柏之路",
+      "distanceM": 1204.199951171875,
+      "avgGrade": -0.09965122491121292,
+      "startLat": 31.236133575439453,
+      "startLng": 121.62096405029297
+    },
+    {
+      "id": "34576252",
+      "tileScore": 2,
+      "name": "金葵路*3",
+      "distanceM": 3799,
+      "avgGrade": -0.04738089069724083,
+      "startLat": 31.241193771362305,
+      "startLng": 121.62886810302734
+    },
+    {
+      "id": "38279701",
+      "tileScore": 12,
+      "name": "张家浜后半程",
+      "distanceM": 3335,
+      "avgGrade": -0.005997001193463802,
+      "startLat": 31.232452392578125,
+      "startLng": 121.60175323486328
+    },
+    {
+      "id": "36944291",
+      "tileScore": 43,
+      "name": "云山路 to 顾唐路",
+      "distanceM": 7434,
+      "avgGrade": 0.024213073775172234,
+      "startLat": 31.23383140563965,
+      "startLng": 121.58002471923828
+    },
+    {
+      "id": "26159231",
+      "tileScore": 12,
+      "name": "上班前溜个小圈",
+      "distanceM": 1039,
+      "avgGrade": -0.21174205839633942,
+      "startLat": 31.227087020874023,
+      "startLng": 121.60234069824219
+    },
+    {
+      "id": "16695526",
+      "tileScore": 7,
+      "name": "to the sea",
+      "distanceM": 30088.599609375,
+      "avgGrade": 0.015952887013554573,
+      "startLat": 31.223649978637695,
+      "startLng": 121.50944519042969
+    },
+    {
+      "id": "5709975",
+      "tileScore": 2,
+      "name": "Gaoke East/Middle Rd To Carrefour Zhangjiang (Westbound)",
+      "distanceM": 3940.5,
+      "avgGrade": 0.0076132467947900295,
+      "startLat": 31.220155715942383,
+      "startLng": 121.67242431640625
+    },
+    {
+      "id": "38804460",
+      "tileScore": 7,
+      "name": "daju to the sea",
+      "distanceM": 11608.099609375,
+      "avgGrade": 0.008614674210548401,
+      "startLat": 31.20665740966797,
+      "startLng": 121.6347427368164
+    },
+    {
+      "id": "8003852",
+      "tileScore": 1,
+      "name": "Shengxia Rd Northward",
+      "distanceM": 1076.800048828125,
+      "avgGrade": -0.1671619564294815,
+      "startLat": 31.208494186401367,
+      "startLng": 121.62468719482422
+    },
+    {
+      "id": "23907514",
+      "tileScore": 6,
+      "name": "tanglong bridge",
+      "distanceM": 441.3999938964844,
+      "avgGrade": -0.49841412901878357,
+      "startLat": 31.219118118286133,
+      "startLng": 121.63794708251953
+    },
+    {
+      "id": "21956852",
+      "tileScore": 8,
+      "name": "Shanggang Stadium-Jingang Sprint",
+      "distanceM": 1864.5999755859375,
+      "avgGrade": -0.021452322602272034,
+      "startLat": 31.2414493560791,
+      "startLng": 121.60447692871094
+    },
+    {
+      "id": "40306415",
+      "tileScore": 27,
+      "name": "3 Bumps ",
+      "distanceM": 1175.5999755859375,
+      "avgGrade": 0,
+      "startLat": 31.23829460144043,
+      "startLng": 121.60001373291016
+    },
+    {
+      "id": "14092407",
+      "tileScore": 10,
+      "name": "Longdong to Ziwei",
+      "distanceM": 1641,
+      "avgGrade": 0.01218769047409296,
+      "startLat": 31.22376823425293,
+      "startLng": 121.6203842163086
+    },
+    {
+      "id": "26232433",
+      "tileScore": 15,
+      "name": "无名路（中环-龙东大道）",
+      "distanceM": 1080.699951171875,
+      "avgGrade": 0,
+      "startLat": 31.23367691040039,
+      "startLng": 121.61254119873047
+    },
+    {
+      "id": "13011992",
+      "tileScore": 2,
+      "name": "Jinqiao to Disney and back",
+      "distanceM": 42188.80078125,
+      "avgGrade": 0.00521465390920639,
+      "startLat": 31.235240936279297,
+      "startLng": 121.5843734741211
+    },
+    {
+      "id": "34512017",
+      "tileScore": 4,
+      "name": "电驴们的疯狂绕圈",
+      "distanceM": 17350,
+      "avgGrade": 0.0011527377646416426,
+      "startLat": 31.264314651489258,
+      "startLng": 121.61229705810547
+    },
+    {
+      "id": "35927579",
+      "tileScore": 4,
+      "name": "金桥-滴水湖-云山路绕圈",
+      "distanceM": 150058.90625,
+      "avgGrade": 0.0018659341149032116,
+      "startLat": 31.22467041015625,
+      "startLng": 121.62055969238281
+    },
+    {
+      "id": "34977256",
+      "tileScore": 15,
+      "name": "龙东大道（张江-广兰）",
+      "distanceM": 754,
+      "avgGrade": -0.14588859677314758,
+      "startLat": 31.221759796142578,
+      "startLng": 121.60469055175781
+    },
+    {
+      "id": "11652107",
+      "tileScore": 8,
+      "name": "JQ to KQ Disney Right turn",
+      "distanceM": 13486.5,
+      "avgGrade": -0.0029659289866685867,
+      "startLat": 31.239465713500977,
+      "startLng": 121.59770965576172
+    },
+    {
+      "id": "6809151",
+      "tileScore": 8,
+      "name": "Long Dong Dash - Jinqiao Lu to Tomson front gate",
+      "distanceM": 2496.10009765625,
+      "avgGrade": 0.020031249150633812,
+      "startLat": 31.221952438354492,
+      "startLng": 121.60314178466797
+    },
+    {
+      "id": "32897135",
+      "tileScore": 65,
+      "name": "金港路云顺路绕圈",
+      "distanceM": 3438,
+      "avgGrade": 0,
+      "startLat": 31.22385025024414,
+      "startLng": 121.61271667480469
+    },
+    {
+      "id": "8011508",
+      "tileScore": 1,
+      "name": "Ziwei Rd | Yindong Rd",
+      "distanceM": 1901.5,
+      "avgGrade": 0.07888508588075638,
+      "startLat": 31.202159881591797,
+      "startLng": 121.6088638305664
+    }
+  ]
+}

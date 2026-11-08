@@ -1,0 +1,173 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-08T22:51:48.832Z",
+  "tile": {
+    "z": 13,
+    "x": 6692,
+    "y": 3572
+  },
+  "segments": [
+    {
+      "id": "21885671",
+      "tileScore": 7,
+      "name": "川龍梯至梯",
+      "distanceM": 1325,
+      "avgGrade": -11.562263488769531,
+      "startLat": 22.40691375732422,
+      "startLng": 114.1047134399414
+    },
+    {
+      "id": "12225213",
+      "tileScore": 32,
+      "name": "Lam Kam to Twisk Top Climb (whole)",
+      "distanceM": 10286.900390625,
+      "avgGrade": 4.250065803527832,
+      "startLat": 22.459228515625,
+      "startLng": 114.14567565917969
+    },
+    {
+      "id": "6231670",
+      "tileScore": 109,
+      "name": "The Wall",
+      "distanceM": 701.7000122070312,
+      "avgGrade": 15.22018051147461,
+      "startLat": 22.4012451171875,
+      "startLng": 114.08467102050781
+    },
+    {
+      "id": "34419804",
+      "tileScore": 3,
+      "name": "Kam Shui South Road towards Kam Tin",
+      "distanceM": 1682.699951171875,
+      "avgGrade": -0.5823973417282104,
+      "startLat": 22.427642822265625,
+      "startLng": 114.08232879638672
+    },
+    {
+      "id": "10930299",
+      "tileScore": 93,
+      "name": "石崗牌 part 1.",
+      "distanceM": 2015,
+      "avgGrade": 8.97270393371582,
+      "startLat": 22.431339263916016,
+      "startLng": 114.10452270507812
+    },
+    {
+      "id": "5315365",
+      "tileScore": 83,
+      "name": "Twisk TW section 2",
+      "distanceM": 3539,
+      "avgGrade": 7.640576362609863,
+      "startLat": 22.38970184326172,
+      "startLng": 114.10470581054688
+    },
+    {
+      "id": "8525670",
+      "tileScore": 261,
+      "name": "大帽山道 - 山頂",
+      "distanceM": 4503.89990234375,
+      "avgGrade": 9.671618461608887,
+      "startLat": 22.405536651611328,
+      "startLng": 114.10588836669922
+    },
+    {
+      "id": "2669010",
+      "tileScore": 214,
+      "name": "SK to BB",
+      "distanceM": 9725.6650390625,
+      "avgGrade": 8.815817832946777,
+      "startLat": 22.4313907623291,
+      "startLng": 114.10456085205078
+    },
+    {
+      "id": "34419870",
+      "tileScore": 9,
+      "name": "Kam Sheung Road section from Sheung Tsuen - Lin Fa Tai",
+      "distanceM": 1775,
+      "avgGrade": -1.600000023841858,
+      "startLat": 22.431640625,
+      "startLng": 114.1031723022461
+    },
+    {
+      "id": "6883534",
+      "tileScore": 86,
+      "name": "Tai Mo Shan (扶輪公園段 上)",
+      "distanceM": 1841.800048828125,
+      "avgGrade": 11.890542030334473,
+      "startLat": 22.40488624572754,
+      "startLng": 114.1064453125
+    },
+    {
+      "id": "1447917",
+      "tileScore": 27,
+      "name": "寶域路 Climb",
+      "distanceM": 308.54400634765625,
+      "avgGrade": 28.33063316345215,
+      "startLat": 22.419639587402344,
+      "startLng": 114.11554718017578
+    },
+    {
+      "id": "33419514",
+      "tileScore": 19,
+      "name": "KL Steps (bottom)",
+      "distanceM": 592.2000122070312,
+      "avgGrade": -20.347856521606445,
+      "startLat": 22.418930053710938,
+      "startLng": 114.09980773925781
+    },
+    {
+      "id": "23798881",
+      "tileScore": 4,
+      "name": "RCCHKG_ED_Tai_Lam_Routine",
+      "distanceM": 29155.30078125,
+      "avgGrade": 1.4577109813690186,
+      "startLat": 22.370813369750977,
+      "startLng": 114.09672546386719
+    },
+    {
+      "id": "1247674",
+      "tileScore": 11,
+      "name": "The Push (The Full Version)",
+      "distanceM": 1501.8599853515625,
+      "avgGrade": -14.348491668701172,
+      "startLat": 22.40043830871582,
+      "startLng": 114.09427642822266
+    },
+    {
+      "id": "8412398",
+      "tileScore": 592,
+      "name": "Shek Kong to Twist Top",
+      "distanceM": 4916.7998046875,
+      "avgGrade": 8.298080444335938,
+      "startLat": 22.431533813476562,
+      "startLng": 114.10465240478516
+    },
+    {
+      "id": "4053821",
+      "tileScore": 104,
+      "name": "TMS Climb (Gate to ball ball)",
+      "distanceM": 2441.39990234375,
+      "avgGrade": 8.577045440673828,
+      "startLat": 22.411638259887695,
+      "startLng": 114.11862182617188
+    },
+    {
+      "id": "1746963",
+      "tileScore": 246,
+      "name": "Tsuen Wan route twisk ",
+      "distanceM": 6274.9736328125,
+      "avgGrade": 5.9729084968566895,
+      "startLat": 22.37618637084961,
+      "startLng": 114.11998748779297
+    },
+    {
+      "id": "10721974",
+      "tileScore": 12,
+      "name": "豆腐隊「巴士站上斜到蜘蛛仔入口」",
+      "distanceM": 1911.300048828125,
+      "avgGrade": 0.8318944573402405,
+      "startLat": 22.407245635986328,
+      "startLng": 114.10294342041016
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-08T22:38:11.927Z",
+  "tile": {
+    "z": 13,
+    "x": 6806,
+    "y": 3337
+  },
+  "segments": [
+    {
+      "id": "35516033",
+      "tileScore": 50,
+      "name": "from Baima to Lishui",
+      "distanceM": 12241.7998046875,
+      "avgGrade": -0.07760296761989594,
+      "startLat": 31.590059280395508,
+      "startLng": 119.15257263183594
+    },
+    {
+      "id": "20979509",
+      "tileScore": 4,
+      "name": "20181111环溧水自行车赛 Lishui Criterium",
+      "distanceM": 139486.90625,
+      "avgGrade": 0.00444486178457737,
+      "startLat": 31.613245010375977,
+      "startLng": 119.02008056640625
+    },
+    {
+      "id": "4899298",
+      "tileScore": 4,
+      "name": "南京中华门到余杭高速",
+      "distanceM": 177379.09375,
+      "avgGrade": -0.04870923236012459,
+      "startLat": 32.015663146972656,
+      "startLng": 118.77684020996094
+    }
+  ]
+}

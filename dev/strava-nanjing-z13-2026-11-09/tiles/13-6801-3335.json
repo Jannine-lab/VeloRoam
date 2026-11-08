@@ -1,0 +1,47 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-08T22:37:23.544Z",
+  "tile": {
+    "z": 13,
+    "x": 6801,
+    "y": 3335
+  },
+  "segments": [
+    {
+      "id": "14678830",
+      "tileScore": 2,
+      "name": "Airport - Tongshan",
+      "distanceM": 5497.2001953125,
+      "avgGrade": 0.25467512011528015,
+      "startLat": 31.735124588012695,
+      "startLng": 118.88922882080078
+    },
+    {
+      "id": "14678888",
+      "tileScore": 8,
+      "name": "Traverse S38 - Tongshan",
+      "distanceM": 2782.39990234375,
+      "avgGrade": 0.43487638235092163,
+      "startLat": 31.673513412475586,
+      "startLng": 118.89234161376953
+    },
+    {
+      "id": "38853249",
+      "tileScore": 5,
+      "name": "G104-石臼湖",
+      "distanceM": 51589.5,
+      "avgGrade": -0.022679032757878304,
+      "startLat": 31.94593048095703,
+      "startLng": 118.90949249267578
+    },
+    {
+      "id": "14678857",
+      "tileScore": 4,
+      "name": "S38 - Changhe Highway crossroad",
+      "distanceM": 7545.5,
+      "avgGrade": 0.0927705243229866,
+      "startLat": 31.67291259765625,
+      "startLng": 118.89064025878906
+    }
+  ]
+}

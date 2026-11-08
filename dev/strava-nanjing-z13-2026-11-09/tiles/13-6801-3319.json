@@ -1,0 +1,20 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-08T22:27:41.200Z",
+  "tile": {
+    "z": 13,
+    "x": 6801,
+    "y": 3319
+  },
+  "segments": [
+    {
+      "id": "35588752",
+      "tileScore": 5,
+      "name": "红光小营—瓜埠",
+      "distanceM": 5186.7998046875,
+      "avgGrade": 0.02120768092572689,
+      "startLat": 32.27140808105469,
+      "startLng": 118.94070434570312
+    }
+  ]
+}

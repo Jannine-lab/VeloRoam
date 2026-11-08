@@ -1,0 +1,128 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-03T05:35:42.086Z",
+  "tile": {
+    "z": 13,
+    "x": 6856,
+    "y": 3351
+  },
+  "segments": [
+    {
+      "id": "14031728",
+      "tileScore": 20,
+      "name": "Xiyaojing sprint",
+      "distanceM": 686.4000244140625,
+      "avgGrade": 0.11655011773109436,
+      "startLat": 31.087474822998047,
+      "startLng": 121.31257629394531
+    },
+    {
+      "id": "9513186",
+      "tileScore": 1,
+      "name": "Mingzhong Rd (Eastbound)",
+      "distanceM": 4267.2998046875,
+      "avgGrade": -0.0257774218916893,
+      "startLat": 31.07490348815918,
+      "startLng": 121.31240844726562
+    },
+    {
+      "id": "30564546",
+      "tileScore": 3,
+      "name": "FMG-23",
+      "distanceM": 35947.6015625,
+      "avgGrade": 0.02837463468313217,
+      "startLat": 31.019447326660156,
+      "startLng": 121.3215560913086
+    },
+    {
+      "id": "35523150",
+      "tileScore": 10,
+      "name": "卖新公路地道冲冲冲",
+      "distanceM": 626.4000244140625,
+      "avgGrade": -0.5747126340866089,
+      "startLat": 31.063587188720703,
+      "startLng": 121.29557800292969
+    },
+    {
+      "id": "30564374",
+      "tileScore": 21,
+      "name": "FMG-07",
+      "distanceM": 2784.300048828125,
+      "avgGrade": 0.13647955656051636,
+      "startLat": 31.076025009155273,
+      "startLng": 121.31258392333984
+    },
+    {
+      "id": "29780287",
+      "tileScore": 18,
+      "name": "九新公路",
+      "distanceM": 5127.2001953125,
+      "avgGrade": -0.0838664323091507,
+      "startLat": 31.12394142150879,
+      "startLng": 121.31714630126953
+    },
+    {
+      "id": "25521343",
+      "tileScore": 2,
+      "name": "the lump",
+      "distanceM": 968.2999877929688,
+      "avgGrade": -0.24785706400871277,
+      "startLat": 31.07538604736328,
+      "startLng": 121.31229400634766
+    },
+    {
+      "id": "12003151",
+      "tileScore": 1,
+      "name": "Minhang Interchange --> Songjiang East Toll",
+      "distanceM": 11005.900390625,
+      "avgGrade": -0.016354864463210106,
+      "startLat": 31.114397048950195,
+      "startLng": 121.37725067138672
+    },
+    {
+      "id": "24797033",
+      "tileScore": 8,
+      "name": "Changxing rd 2 bridges",
+      "distanceM": 1883.5,
+      "avgGrade": 0.17520573735237122,
+      "startLat": 31.08728790283203,
+      "startLng": 121.31134033203125
+    },
+    {
+      "id": "40145172",
+      "tileScore": 39,
+      "name": "Minghua Westbound",
+      "distanceM": 3607.199951171875,
+      "avgGrade": -0.03881126642227173,
+      "startLat": 31.080608367919922,
+      "startLng": 121.34559631347656
+    },
+    {
+      "id": "40505559",
+      "tileScore": 8,
+      "name": "Shengang Factories",
+      "distanceM": 4970.5,
+      "avgGrade": -0.0442611388862133,
+      "startLat": 31.016748428344727,
+      "startLng": 121.32125091552734
+    },
+    {
+      "id": "11388190",
+      "tileScore": 19,
+      "name": "Minyi Rd (North-East Bound)",
+      "distanceM": 2409.199951171875,
+      "avgGrade": -0.016603022813796997,
+      "startLat": 31.041240692138672,
+      "startLng": 121.28103637695312
+    },
+    {
+      "id": "20221151",
+      "tileScore": 5,
+      "name": "明中西路桥(西向)",
+      "distanceM": 1792,
+      "avgGrade": -0.066964291036129,
+      "startLat": 31.07488441467285,
+      "startLng": 121.31114959716797
+    }
+  ]
+}

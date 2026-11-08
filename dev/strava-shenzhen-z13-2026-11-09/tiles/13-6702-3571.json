@@ -1,0 +1,38 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-08T22:52:02.309Z",
+  "tile": {
+    "z": 13,
+    "x": 6702,
+    "y": 3571
+  },
+  "segments": [
+    {
+      "id": "35869485",
+      "tileScore": 14,
+      "name": "骑去坐大飞",
+      "distanceM": 1418.5,
+      "avgGrade": 2.1995065212249756,
+      "startLat": 22.47563934326172,
+      "startLng": 114.52208709716797
+    },
+    {
+      "id": "22482963",
+      "tileScore": 3,
+      "name": "All ID Climbs And Decents",
+      "distanceM": 52568.1015625,
+      "avgGrade": -0.05041080340743065,
+      "startLat": 22.533960342407227,
+      "startLng": 114.50653839111328
+    },
+    {
+      "id": "40273732",
+      "tileScore": 4,
+      "name": "南西路尽头-日出观景台",
+      "distanceM": 823.5,
+      "avgGrade": 6.5088043212890625,
+      "startLat": 22.465797424316406,
+      "startLng": 114.52434539794922
+    }
+  ]
+}

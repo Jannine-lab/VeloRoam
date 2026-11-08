@@ -1,0 +1,20 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-08T22:27:01.777Z",
+  "tile": {
+    "z": 13,
+    "x": 6805,
+    "y": 3318
+  },
+  "segments": [
+    {
+      "id": "7187849",
+      "tileScore": 5,
+      "name": "枣林湾赛道",
+      "distanceM": 12303.099609375,
+      "avgGrade": 0.3820175230503082,
+      "startLat": 32.32537078857422,
+      "startLng": 119.08617401123047
+    }
+  ]
+}

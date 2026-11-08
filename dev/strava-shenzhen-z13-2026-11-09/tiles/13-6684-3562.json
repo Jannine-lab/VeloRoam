@@ -1,0 +1,47 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-08T22:48:54.823Z",
+  "tile": {
+    "z": 13,
+    "x": 6684,
+    "y": 3562
+  },
+  "segments": [
+    {
+      "id": "18492657",
+      "tileScore": 5,
+      "name": "白石山快速路西行",
+      "distanceM": 11641.2001953125,
+      "avgGrade": 0.1614953726530075,
+      "startLat": 22.83148765563965,
+      "startLng": 113.76940155029297
+    },
+    {
+      "id": "15327538",
+      "tileScore": 1,
+      "name": "358 Road ",
+      "distanceM": 1330.699951171875,
+      "avgGrade": 0.030059367418289185,
+      "startLat": 22.79924964904785,
+      "startLng": 113.77290344238281
+    },
+    {
+      "id": "18493411",
+      "tileScore": 1,
+      "name": "白石山快速路西行一桥",
+      "distanceM": 707.2999877929688,
+      "avgGrade": 3.110419988632202,
+      "startLat": 22.831262588500977,
+      "startLng": 113.76811981201172
+    },
+    {
+      "id": "27340702",
+      "tileScore": 2,
+      "name": "Dust Road GoGo",
+      "distanceM": 3357.39990234375,
+      "avgGrade": -0.3395484387874603,
+      "startLat": 22.836380004882812,
+      "startLng": 113.74695587158203
+    }
+  ]
+}

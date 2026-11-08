@@ -1,0 +1,56 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-08T22:26:20.214Z",
+  "tile": {
+    "z": 13,
+    "x": 6810,
+    "y": 3314
+  },
+  "segments": [
+    {
+      "id": "28598677",
+      "tileScore": 9,
+      "name": " Countryside tour Yangzhou ",
+      "distanceM": 35592.5,
+      "avgGrade": -0.022476645186543465,
+      "startLat": 32.44247817993164,
+      "startLng": 119.31915283203125
+    },
+    {
+      "id": "23087727",
+      "tileScore": 5,
+      "name": "country side part 2",
+      "distanceM": 4475,
+      "avgGrade": 0.34860336780548096,
+      "startLat": 32.440330505371094,
+      "startLng": 119.32415771484375
+    },
+    {
+      "id": "23087751",
+      "tileScore": 2,
+      "name": "country side part 3",
+      "distanceM": 4596.10009765625,
+      "avgGrade": -0.3046060800552368,
+      "startLat": 32.46611785888672,
+      "startLng": 119.28524780273438
+    },
+    {
+      "id": "39459030",
+      "tileScore": 14,
+      "name": "345北段折返",
+      "distanceM": 28756.5,
+      "avgGrade": 0.004868464544415474,
+      "startLat": 32.380577087402344,
+      "startLng": 119.2963638305664
+    },
+    {
+      "id": "33964007",
+      "tileScore": 6,
+      "name": "陈集—古井",
+      "distanceM": 8231.2001953125,
+      "avgGrade": -0.04981047660112381,
+      "startLat": 32.483436584472656,
+      "startLng": 119.19319915771484
+    }
+  ]
+}

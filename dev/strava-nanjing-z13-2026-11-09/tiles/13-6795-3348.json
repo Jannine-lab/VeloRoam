@@ -1,0 +1,20 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-08T22:41:29.076Z",
+  "tile": {
+    "z": 13,
+    "x": 6795,
+    "y": 3348
+  },
+  "segments": [
+    {
+      "id": "38659832",
+      "tileScore": 9,
+      "name": "新芜大道itt",
+      "distanceM": 4567.39990234375,
+      "avgGrade": 0.26273152232170105,
+      "startLat": 31.20814323425293,
+      "startLng": 118.62317657470703
+    }
+  ]
+}

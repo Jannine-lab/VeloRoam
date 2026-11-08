@@ -1,0 +1,209 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-08T22:33:05.367Z",
+  "tile": {
+    "z": 13,
+    "x": 6804,
+    "y": 3324
+  },
+  "segments": [
+    {
+      "id": "34017185",
+      "tileScore": 12,
+      "name": "S112 - Tangshan - Garden Expo W",
+      "distanceM": 15587,
+      "avgGrade": -0.29511773586273193,
+      "startLat": 32.037925720214844,
+      "startLng": 119.01712036132812
+    },
+    {
+      "id": "34446318",
+      "tileScore": 1,
+      "name": "tangshan gravel section",
+      "distanceM": 2167.10009765625,
+      "avgGrade": 0.20303630828857422,
+      "startLat": 32.064048767089844,
+      "startLng": 119.01173400878906
+    },
+    {
+      "id": "39295161",
+      "tileScore": 14,
+      "name": "汤山隐藏爬坡地图-LL",
+      "distanceM": 2043.300048828125,
+      "avgGrade": 5.373660087585449,
+      "startLat": 32.083740234375,
+      "startLng": 119.0298843383789
+    },
+    {
+      "id": "35183786",
+      "tileScore": 1,
+      "name": "越野路线（南农大基地）",
+      "distanceM": 1118.4000244140625,
+      "avgGrade": -0.23247496783733368,
+      "startLat": 32.099525451660156,
+      "startLng": 119.02237701416016
+    },
+    {
+      "id": "29501517",
+      "tileScore": 110,
+      "name": "mk_XL Expo North In The Trees",
+      "distanceM": 3767.699951171875,
+      "avgGrade": 0.2866470217704773,
+      "startLat": 32.07476806640625,
+      "startLng": 118.98925018310547
+    },
+    {
+      "id": "39727989",
+      "tileScore": 68,
+      "name": "紫东阁climb",
+      "distanceM": 961.5,
+      "avgGrade": 5.616224765777588,
+      "startLat": 32.08277130126953,
+      "startLng": 119.0223159790039
+    },
+    {
+      "id": "29501559",
+      "tileScore": 68,
+      "name": "Garden Expo to E",
+      "distanceM": 5906.60009765625,
+      "avgGrade": 0.01015812810510397,
+      "startLat": 32.07483673095703,
+      "startLng": 118.98926544189453
+    },
+    {
+      "id": "39295171",
+      "tileScore": 4,
+      "name": "汤山矿坑工地XC越野-LL",
+      "distanceM": 699.4000244140625,
+      "avgGrade": 7.320560455322266,
+      "startLat": 32.077720642089844,
+      "startLng": 119.04047393798828
+    },
+    {
+      "id": "37882545",
+      "tileScore": 159,
+      "name": "园博园内二连坡 进攻发起点 别掉队",
+      "distanceM": 2585.300048828125,
+      "avgGrade": 3.4502766132354736,
+      "startLat": 32.082176208496094,
+      "startLng": 119.01771545410156
+    },
+    {
+      "id": "36601508",
+      "tileScore": 31,
+      "name": "射乌山爬坡",
+      "distanceM": 1179.800048828125,
+      "avgGrade": 12.781826972961426,
+      "startLat": 32.100120544433594,
+      "startLng": 119.0322036743164
+    },
+    {
+      "id": "37069280",
+      "tileScore": 10,
+      "name": "园博园爬坡KOM！！！",
+      "distanceM": 7187.39990234375,
+      "avgGrade": 0.011130589991807938,
+      "startLat": 32.06858825683594,
+      "startLng": 118.99268341064453
+    },
+    {
+      "id": "35188446",
+      "tileScore": 2,
+      "name": "越野路线（梨花柏家爬坡）",
+      "distanceM": 2161,
+      "avgGrade": 3.202221155166626,
+      "startLat": 32.0872802734375,
+      "startLng": 119.0457992553711
+    },
+    {
+      "id": "37739807",
+      "tileScore": 151,
+      "name": "园博园让你爆心率的18.5%",
+      "distanceM": 758,
+      "avgGrade": 5.831134796142578,
+      "startLat": 32.07597732543945,
+      "startLng": 119.00846099853516
+    },
+    {
+      "id": "35765181",
+      "tileScore": 33,
+      "name": "ul - Xianlin - Baohua Garden Expo Loop",
+      "distanceM": 34483.80078125,
+      "avgGrade": 0.011599649675190449,
+      "startLat": 32.095947265625,
+      "startLng": 118.91744232177734
+    },
+    {
+      "id": "35188420",
+      "tileScore": 28,
+      "name": "庙山爬坡（南向北）",
+      "distanceM": 1134.800048828125,
+      "avgGrade": 1.9034192562103271,
+      "startLat": 32.09465026855469,
+      "startLng": 119.02007293701172
+    },
+    {
+      "id": "28871159",
+      "tileScore": 7,
+      "name": "New Parking lot from East",
+      "distanceM": 1211.5,
+      "avgGrade": 2.4432520866394043,
+      "startLat": 32.07844161987305,
+      "startLng": 119.05570983886719
+    },
+    {
+      "id": "33247898",
+      "tileScore": 17,
+      "name": "园博园小朋友浅爬",
+      "distanceM": 804.7000122070312,
+      "avgGrade": 4.54827880859375,
+      "startLat": 32.083404541015625,
+      "startLng": 119.04431915283203
+    },
+    {
+      "id": "35183466",
+      "tileScore": 8,
+      "name": "湖法路+新河路",
+      "distanceM": 2280.300048828125,
+      "avgGrade": -0.7192035913467407,
+      "startLat": 32.09070587158203,
+      "startLng": 119.00836181640625
+    },
+    {
+      "id": "37739588",
+      "tileScore": 47,
+      "name": "园博园（下坡）Leo Huang",
+      "distanceM": 1525,
+      "avgGrade": -6.596721172332764,
+      "startLat": 32.073646545410156,
+      "startLng": 119.00631713867188
+    },
+    {
+      "id": "35183445",
+      "tileScore": 189,
+      "name": "园博园（铁轨-省道）",
+      "distanceM": 3273.199951171875,
+      "avgGrade": 0.20163753628730774,
+      "startLat": 32.08888626098633,
+      "startLng": 119.02383422851562
+    },
+    {
+      "id": "42127630",
+      "tileScore": 118,
+      "name": "园博园团练路线itt",
+      "distanceM": 62612,
+      "avgGrade": 0,
+      "startLat": 31.94707489013672,
+      "startLng": 118.91030883789062
+    },
+    {
+      "id": "30069366",
+      "tileScore": 45,
+      "name": "桦墅N-S",
+      "distanceM": 4192.60009765625,
+      "avgGrade": 0.1240280419588089,
+      "startLat": 32.11672592163086,
+      "startLng": 119.01630401611328
+    }
+  ]
+}

@@ -1,0 +1,74 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-08T22:33:05.367Z",
+  "tile": {
+    "z": 13,
+    "x": 6804,
+    "y": 3322
+  },
+  "segments": [
+    {
+      "id": "39530835",
+      "tileScore": 14,
+      "name": "欢乐谷_LOOP",
+      "distanceM": 4865.10009765625,
+      "avgGrade": -0.01644364930689335,
+      "startLat": 32.16802978515625,
+      "startLng": 118.9973373413086
+    },
+    {
+      "id": "34455219",
+      "tileScore": 19,
+      "name": "S002 sector 1",
+      "distanceM": 2031.699951171875,
+      "avgGrade": 0.15750357508659363,
+      "startLat": 32.16659927368164,
+      "startLng": 119.02094268798828
+    },
+    {
+      "id": "30907577",
+      "tileScore": 7,
+      "name": "JintianRd (天佑→三杯) KSprint",
+      "distanceM": 1896.4000244140625,
+      "avgGrade": -0.2161991149187088,
+      "startLat": 32.13809585571289,
+      "startLng": 118.98698425292969
+    },
+    {
+      "id": "5051397",
+      "tileScore": 4,
+      "name": "南京收费站 到 宝华山",
+      "distanceM": 20786,
+      "avgGrade": 0.14336572587490082,
+      "startLat": 32.104984283447266,
+      "startLng": 118.88829803466797
+    },
+    {
+      "id": "40158936",
+      "tileScore": 23,
+      "name": "G312镇江-南京-LL",
+      "distanceM": 32373.900390625,
+      "avgGrade": -0.044480275362730026,
+      "startLat": 32.17245864868164,
+      "startLng": 119.366943359375
+    },
+    {
+      "id": "28793100",
+      "tileScore": 14,
+      "name": "3rd ring road from Xianlin av.",
+      "distanceM": 1930.9000244140625,
+      "avgGrade": -0.1864415556192398,
+      "startLat": 32.1232795715332,
+      "startLng": 119.0025634765625
+    },
+    {
+      "id": "33916149",
+      "tileScore": 46,
+      "name": "S338 向西（短）",
+      "distanceM": 35292.1015625,
+      "avgGrade": 0.01360077690333128,
+      "startLat": 32.18833923339844,
+      "startLng": 119.36370849609375
+    }
+  ]
+}

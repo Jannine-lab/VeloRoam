@@ -1,0 +1,38 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-08T22:39:44.332Z",
+  "tile": {
+    "z": 13,
+    "x": 6802,
+    "y": 3342
+  },
+  "segments": [
+    {
+      "id": "37793115",
+      "tileScore": 4,
+      "name": "2024首届环高淳自行车赛",
+      "distanceM": 140964.90625,
+      "avgGrade": 0.0008512757485732436,
+      "startLat": 31.38558006286621,
+      "startLng": 118.87738800048828
+    },
+    {
+      "id": "33010904",
+      "tileScore": 14,
+      "name": "石臼湖东半圈TopK",
+      "distanceM": 34885.80078125,
+      "avgGrade": -0.012325932271778584,
+      "startLat": 31.53363037109375,
+      "startLng": 118.89861297607422
+    },
+    {
+      "id": "21728651",
+      "tileScore": 6,
+      "name": "20190908 环石臼湖自行车赛 Shijiu Lake Criterium",
+      "distanceM": 86061,
+      "avgGrade": 0.009992912411689758,
+      "startLat": 31.57097816467285,
+      "startLng": 118.89986419677734
+    }
+  ]
+}

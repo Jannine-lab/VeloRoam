@@ -1,0 +1,65 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-08T22:49:39.492Z",
+  "tile": {
+    "z": 13,
+    "x": 6699,
+    "y": 3566
+  },
+  "segments": [
+    {
+      "id": "32280219",
+      "tileScore": 5,
+      "name": "SZC Summer Challenge 125km",
+      "distanceM": 122493.796875,
+      "avgGrade": -0.015184441581368446,
+      "startLat": 22.55707550048828,
+      "startLng": 114.21763610839844
+    },
+    {
+      "id": "13909523",
+      "tileScore": 17,
+      "name": "S359大坡",
+      "distanceM": 1538.5999755859375,
+      "avgGrade": 5.017548561096191,
+      "startLat": 22.641265869140625,
+      "startLng": 114.41028594970703
+    },
+    {
+      "id": "17649167",
+      "tileScore": 9,
+      "name": "葵涌S359TT(到OMURON前）",
+      "distanceM": 5505.89990234375,
+      "avgGrade": 0.32328957319259644,
+      "startLat": 22.641462326049805,
+      "startLng": 114.4102554321289
+    },
+    {
+      "id": "25333739",
+      "tileScore": 120,
+      "name": "罗葵路",
+      "distanceM": 1308.300048828125,
+      "avgGrade": 6.305893421173096,
+      "startLat": 22.643850326538086,
+      "startLng": 114.40814971923828
+    },
+    {
+      "id": "32692012",
+      "tileScore": 36,
+      "name": "罗葵路缓坡冲刺",
+      "distanceM": 671.9000244140625,
+      "avgGrade": 3.348712682723999,
+      "startLat": 22.65566062927246,
+      "startLng": 114.39644622802734
+    },
+    {
+      "id": "24227264",
+      "tileScore": 4,
+      "name": "11T team coastal training route",
+      "distanceM": 91079.796875,
+      "avgGrade": -0.029424747452139854,
+      "startLat": 22.61153221130371,
+      "startLng": 114.12039947509766
+    }
+  ]
+}

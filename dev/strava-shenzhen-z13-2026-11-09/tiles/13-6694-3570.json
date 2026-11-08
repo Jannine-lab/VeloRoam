@@ -1,0 +1,155 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-08T22:51:15.610Z",
+  "tile": {
+    "z": 13,
+    "x": 6694,
+    "y": 3570
+  },
+  "segments": [
+    {
+      "id": "8357080",
+      "tileScore": 21,
+      "name": "Sha Lo Tung (to top only)",
+      "distanceM": 1865.5,
+      "avgGrade": 10.292146682739258,
+      "startLat": 22.459548950195312,
+      "startLng": 114.18134307861328
+    },
+    {
+      "id": "6267554",
+      "tileScore": 42,
+      "name": "Ting Kok Road Climb",
+      "distanceM": 677.9000244140625,
+      "avgGrade": 12.922260284423828,
+      "startLat": 22.472585678100586,
+      "startLng": 114.21259307861328
+    },
+    {
+      "id": "5413246",
+      "tileScore": 29,
+      "name": "Bridge to Helipad at Luk Keng",
+      "distanceM": 1080.9000244140625,
+      "avgGrade": 11.027847290039062,
+      "startLat": 22.514177322387695,
+      "startLng": 114.207275390625
+    },
+    {
+      "id": "10747105",
+      "tileScore": 3,
+      "name": "九藪DH2",
+      "distanceM": 563,
+      "avgGrade": -19.538188934326172,
+      "startLat": 22.493316650390625,
+      "startLng": 114.17782592773438
+    },
+    {
+      "id": "38558256",
+      "tileScore": 5,
+      "name": "流水響山路",
+      "distanceM": 2008.0999755859375,
+      "avgGrade": -3.286688804626465,
+      "startLat": 22.48617935180664,
+      "startLng": 114.16435241699219
+    },
+    {
+      "id": "10350462",
+      "tileScore": 34,
+      "name": "Ting Kok Road from Brides Pool to Tai Po Industrial Estate",
+      "distanceM": 5894.10009765625,
+      "avgGrade": 0.023752566426992416,
+      "startLat": 22.4737548828125,
+      "startLng": 114.23528289794922
+    },
+    {
+      "id": "10118677",
+      "tileScore": 16,
+      "name": "流水響Climb",
+      "distanceM": 1006.2000122070312,
+      "avgGrade": 4.810176849365234,
+      "startLat": 22.50530242919922,
+      "startLng": 114.1677474975586
+    },
+    {
+      "id": "38558263",
+      "tileScore": 11,
+      "name": "Hok Tau Road descent",
+      "distanceM": 734.7999877929688,
+      "avgGrade": -5.974414825439453,
+      "startLat": 22.50104331970215,
+      "startLng": 114.17063903808594
+    },
+    {
+      "id": "36106399",
+      "tileScore": 9,
+      "name": "NSW - SHAN SHING",
+      "distanceM": 90205.8984375,
+      "avgGrade": -0.013968043960630894,
+      "startLat": 22.44609260559082,
+      "startLng": 114.04883575439453
+    },
+    {
+      "id": "38840312",
+      "tileScore": 22,
+      "name": "The GT ",
+      "distanceM": 95767,
+      "avgGrade": 0.04740672558546066,
+      "startLat": 22.326505661010742,
+      "startLng": 114.15650939941406
+    },
+    {
+      "id": "8200694",
+      "tileScore": 19,
+      "name": "Buddha Hill",
+      "distanceM": 412.79998779296875,
+      "avgGrade": 7.388565540313721,
+      "startLat": 22.469165802001953,
+      "startLng": 114.2051773071289
+    },
+    {
+      "id": "8518370",
+      "tileScore": 11,
+      "name": "TKO direct MTB ride to Wah Shan",
+      "distanceM": 42259.80078125,
+      "avgGrade": -0.05300545692443848,
+      "startLat": 22.331056594848633,
+      "startLng": 114.25001525878906
+    },
+    {
+      "id": "40461460",
+      "tileScore": 1,
+      "name": "Ca姐溫馨8字冷下集(鹿頸400米至石崗油站)",
+      "distanceM": 17652.900390625,
+      "avgGrade": 0.05551495775580406,
+      "startLat": 22.476028442382812,
+      "startLng": 114.23654174804688
+    },
+    {
+      "id": "38560647",
+      "tileScore": 2,
+      "name": "鶴藪排小路出馬尾下",
+      "distanceM": 1288.5,
+      "avgGrade": -0.9080325961112976,
+      "startLat": 22.503337860107422,
+      "startLng": 114.17574310302734
+    },
+    {
+      "id": "4463194",
+      "tileScore": 15,
+      "name": "九龍坑山",
+      "distanceM": 3839.199951171875,
+      "avgGrade": 9.642633438110352,
+      "startLat": 22.481691360473633,
+      "startLng": 114.15647888183594
+    },
+    {
+      "id": "14780646",
+      "tileScore": 7,
+      "name": "Hoktau Rd Climb",
+      "distanceM": 720.7000122070312,
+      "avgGrade": 5.189399242401123,
+      "startLat": 22.502933502197266,
+      "startLng": 114.17603302001953
+    }
+  ]
+}

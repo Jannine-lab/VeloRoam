@@ -1,0 +1,254 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-08T22:33:08.118Z",
+  "tile": {
+    "z": 13,
+    "x": 6802,
+    "y": 3324
+  },
+  "segments": [
+    {
+      "id": "26021371",
+      "tileScore": 33,
+      "name": "Bike Graveyard Top2",
+      "distanceM": 368.5,
+      "avgGrade": 5.264586448669434,
+      "startLat": 32.09075927734375,
+      "startLng": 118.93160247802734
+    },
+    {
+      "id": "36477431",
+      "tileScore": 9,
+      "name": "石刻公园南门【环陵前的热身准备】",
+      "distanceM": 654.4000244140625,
+      "avgGrade": 0.9168704152107239,
+      "startLat": 32.087486267089844,
+      "startLng": 118.9175033569336
+    },
+    {
+      "id": "29932429",
+      "tileScore": 5,
+      "name": "Danny's Wednesday Round",
+      "distanceM": 21920.19921875,
+      "avgGrade": -0.038320817053318024,
+      "startLat": 32.08832931518555,
+      "startLng": 118.89706420898438
+    },
+    {
+      "id": "34943000",
+      "tileScore": 5,
+      "name": "其东线W2E",
+      "distanceM": 2601.800048828125,
+      "avgGrade": -0.23060958087444305,
+      "startLat": 32.069942474365234,
+      "startLng": 118.93157958984375
+    },
+    {
+      "id": "31797937",
+      "tileScore": 16,
+      "name": "LingShanNorthRoad full E->W",
+      "distanceM": 5340.10009765625,
+      "avgGrade": 0.172281414270401,
+      "startLat": 32.09602737426758,
+      "startLng": 118.94969940185547
+    },
+    {
+      "id": "35765181",
+      "tileScore": 33,
+      "name": "ul - Xianlin - Baohua Garden Expo Loop",
+      "distanceM": 34483.80078125,
+      "avgGrade": 0.011599649675190449,
+      "startLat": 32.095947265625,
+      "startLng": 118.91744232177734
+    },
+    {
+      "id": "36619990",
+      "tileScore": 19,
+      "name": "Bratton Bridge (back to NIS)",
+      "distanceM": 1539.699951171875,
+      "avgGrade": 0.3377281427383423,
+      "startLat": 32.06202697753906,
+      "startLng": 118.9227066040039
+    },
+    {
+      "id": "31340203",
+      "tileScore": 10,
+      "name": "和园后山",
+      "distanceM": 747,
+      "avgGrade": 4.257028102874756,
+      "startLat": 32.09778594970703,
+      "startLng": 118.95420837402344
+    },
+    {
+      "id": "34196667",
+      "tileScore": 40,
+      "name": "Strawberry fields",
+      "distanceM": 3902.800048828125,
+      "avgGrade": -0.2101055532693863,
+      "startLat": 32.06362533569336,
+      "startLng": 118.97840881347656
+    },
+    {
+      "id": "26900677",
+      "tileScore": 17,
+      "name": "Upwards Benma Rd",
+      "distanceM": 1939.800048828125,
+      "avgGrade": 0.649551510810852,
+      "startLat": 32.078914642333984,
+      "startLng": 118.9044418334961
+    },
+    {
+      "id": "19235410",
+      "tileScore": 3,
+      "name": "Up to Nature",
+      "distanceM": 378.8999938964844,
+      "avgGrade": 2.9559249877929688,
+      "startLat": 32.0955696105957,
+      "startLng": 118.91744232177734
+    },
+    {
+      "id": "42339346",
+      "tileScore": 10,
+      "name": "东流村山道Climb",
+      "distanceM": 780.7999877929688,
+      "avgGrade": 3.022540807723999,
+      "startLat": 32.081111907958984,
+      "startLng": 118.94602966308594
+    },
+    {
+      "id": "14492378",
+      "tileScore": 13,
+      "name": "问爷爷好--向南",
+      "distanceM": 5636.7998046875,
+      "avgGrade": -0.024836786091327667,
+      "startLat": 32.10050582885742,
+      "startLng": 118.88607788085938
+    },
+    {
+      "id": "23832593",
+      "tileScore": 35,
+      "name": "党校爬山",
+      "distanceM": 1193.300048828125,
+      "avgGrade": 3.687253952026367,
+      "startLat": 32.099327087402344,
+      "startLng": 118.9354019165039
+    },
+    {
+      "id": "34980991",
+      "tileScore": 19,
+      "name": "Jiuxianghe E Road",
+      "distanceM": 1517.699951171875,
+      "avgGrade": -0.06588917225599289,
+      "startLat": 32.096588134765625,
+      "startLng": 118.95352172851562
+    },
+    {
+      "id": "31207078",
+      "tileScore": 6,
+      "name": "一路向东20KM~黄埔路—经天路",
+      "distanceM": 20139.30078125,
+      "avgGrade": 0.061571154743433,
+      "startLat": 32.0417594909668,
+      "startLng": 118.80626678466797
+    },
+    {
+      "id": "29792692",
+      "tileScore": 75,
+      "name": "Lingshan North new from E",
+      "distanceM": 1338.800048828125,
+      "avgGrade": 0.029877502471208572,
+      "startLat": 32.09587478637695,
+      "startLng": 118.9487533569336
+    },
+    {
+      "id": "34898233",
+      "tileScore": 9,
+      "name": "汇通路down to仙林大道",
+      "distanceM": 1786.199951171875,
+      "avgGrade": -1.0525137186050415,
+      "startLat": 32.08065414428711,
+      "startLng": 118.92615509033203
+    },
+    {
+      "id": "37329649",
+      "tileScore": 11,
+      "name": "仙林大道狂飙-万达茂到环陵路-kan",
+      "distanceM": 11798.599609375,
+      "avgGrade": 0.05085349082946777,
+      "startLat": 32.121097564697266,
+      "startLng": 118.97796630859375
+    },
+    {
+      "id": "37928531",
+      "tileScore": 6,
+      "name": "东龙路N-S last hill",
+      "distanceM": 519.2999877929688,
+      "avgGrade": 1.848642349243164,
+      "startLat": 32.06951141357422,
+      "startLng": 118.94166564941406
+    },
+    {
+      "id": "24917933",
+      "tileScore": 1,
+      "name": "Tour de Nanjing Day 2 - Route",
+      "distanceM": 23581.19921875,
+      "avgGrade": 0.004240666516125202,
+      "startLat": 32.09357452392578,
+      "startLng": 118.90508270263672
+    },
+    {
+      "id": "6137838",
+      "tileScore": 8,
+      "name": "XuyuanRoad S-N",
+      "distanceM": 561.0999755859375,
+      "avgGrade": -1.6039921045303345,
+      "startLat": 32.09996795654297,
+      "startLng": 118.9355239868164
+    },
+    {
+      "id": "10327505",
+      "tileScore": 15,
+      "name": "xianlin ave",
+      "distanceM": 2116.39990234375,
+      "avgGrade": -0.10395010560750961,
+      "startLat": 32.09596633911133,
+      "startLng": 118.91741943359375
+    },
+    {
+      "id": "39883787",
+      "tileScore": 8,
+      "name": "西部干线环线段 1/2",
+      "distanceM": 39352.30078125,
+      "avgGrade": 0.04472419619560242,
+      "startLat": 32.06488800048828,
+      "startLng": 118.88341522216797
+    },
+    {
+      "id": "12457858",
+      "tileScore": 10,
+      "name": "LingShan_S-N climb",
+      "distanceM": 1164.5999755859375,
+      "avgGrade": 4.63678503036499,
+      "startLat": 32.0816764831543,
+      "startLng": 118.94060516357422
+    },
+    {
+      "id": "31247299",
+      "tileScore": 6,
+      "name": "River bank from Red bridge",
+      "distanceM": 1357.5,
+      "avgGrade": 0.0441988967359066,
+      "startLat": 32.09452819824219,
+      "startLng": 118.95095825195312
+    },
+    {
+      "id": "17601818",
+      "tileScore": 9,
+      "name": "大普塘水庫衝刺 | Daputang fast climb",
+      "distanceM": 707.2999877929688,
+      "avgGrade": 2.318676710128784,
+      "startLat": 32.088932037353516,
+      "startLng": 118.92193603515625
+    }
+  ]
+}

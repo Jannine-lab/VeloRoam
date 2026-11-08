@@ -1,0 +1,20 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-08T22:49:15.777Z",
+  "tile": {
+    "z": 13,
+    "x": 6695,
+    "y": 3563
+  },
+  "segments": [
+    {
+      "id": "40545066",
+      "tileScore": 9,
+      "name": "林清径水库去程",
+      "distanceM": 13583.7998046875,
+      "avgGrade": 0.15165123343467712,
+      "startLat": 22.763750076293945,
+      "startLng": 114.23536682128906
+    }
+  ]
+}

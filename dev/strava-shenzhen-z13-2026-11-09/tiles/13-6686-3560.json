@@ -1,0 +1,119 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-08T22:47:50.186Z",
+  "tile": {
+    "z": 13,
+    "x": 6686,
+    "y": 3560
+  },
+  "segments": [
+    {
+      "id": "39713531",
+      "tileScore": 31,
+      "name": "松湖水库内圈",
+      "distanceM": 14385.900390625,
+      "avgGrade": 0.0034756253007799387,
+      "startLat": 22.896528244018555,
+      "startLng": 113.85846710205078
+    },
+    {
+      "id": "40404229",
+      "tileScore": 18,
+      "name": "长安-正果拉练  入隧道前",
+      "distanceM": 58242,
+      "avgGrade": 0.0065245009027421474,
+      "startLat": 22.82621955871582,
+      "startLng": 113.8212890625
+    },
+    {
+      "id": "23274821",
+      "tileScore": 12,
+      "name": "Let´s  move  - KP",
+      "distanceM": 709.2999877929688,
+      "avgGrade": -0.19737771153450012,
+      "startLat": 22.921009063720703,
+      "startLng": 113.85563659667969
+    },
+    {
+      "id": "40920345",
+      "tileScore": 40,
+      "name": "环松山湖（顺时针）",
+      "distanceM": 20766.80078125,
+      "avgGrade": -0.014446135610342026,
+      "startLat": 22.896211624145508,
+      "startLng": 113.86019134521484
+    },
+    {
+      "id": "35978040",
+      "tileScore": 2,
+      "name": "G107杨屋至同沙",
+      "distanceM": 15945.400390625,
+      "avgGrade": 0.01379708293825388,
+      "startLat": 22.85747528076172,
+      "startLng": 113.83477020263672
+    },
+    {
+      "id": "38231698",
+      "tileScore": 15,
+      "name": "Go go go ",
+      "distanceM": 1238.300048828125,
+      "avgGrade": 0.6541225910186768,
+      "startLat": 22.924449920654297,
+      "startLng": 113.86243438720703
+    },
+    {
+      "id": "38495787",
+      "tileScore": 29,
+      "name": "松山湖南边-修路到尽头",
+      "distanceM": 8437.7001953125,
+      "avgGrade": 0.016592200845479965,
+      "startLat": 22.895065307617188,
+      "startLng": 113.8748779296875
+    },
+    {
+      "id": "32949921",
+      "tileScore": 2,
+      "name": "新城路入口",
+      "distanceM": 2675.699951171875,
+      "avgGrade": -0.04484807699918747,
+      "startLat": 22.871448516845703,
+      "startLng": 113.83853912353516
+    },
+    {
+      "id": "39065479",
+      "tileScore": 5,
+      "name": "Songshan Lake Loop (Clockwise - NW Start)",
+      "distanceM": 14541.900390625,
+      "avgGrade": -0.006876680534332991,
+      "startLat": 22.896446228027344,
+      "startLng": 113.8578109741211
+    },
+    {
+      "id": "22660109",
+      "tileScore": 1,
+      "name": "On the way to big Buddha - Long Segment",
+      "distanceM": 4908.39990234375,
+      "avgGrade": 0.12631407380104065,
+      "startLat": 22.933595657348633,
+      "startLng": 113.82931518554688
+    },
+    {
+      "id": "14988088",
+      "tileScore": 4,
+      "name": "Loops to First Traffic lights",
+      "distanceM": 1289.300048828125,
+      "avgGrade": 0.9540060758590698,
+      "startLat": 22.894428253173828,
+      "startLng": 113.85765075683594
+    },
+    {
+      "id": "13888652",
+      "tileScore": 5,
+      "name": "The Horse's road",
+      "distanceM": 5161.2001953125,
+      "avgGrade": 0.1569402515888214,
+      "startLat": 22.89702606201172,
+      "startLng": 113.85726165771484
+    }
+  ]
+}

@@ -1,0 +1,236 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-08T22:51:54.527Z",
+  "tile": {
+    "z": 13,
+    "x": 6696,
+    "y": 3572
+  },
+  "segments": [
+    {
+      "id": "27704381",
+      "tileScore": 4,
+      "name": "Mangrove run",
+      "distanceM": 3438,
+      "avgGrade": 0.01745200715959072,
+      "startLat": 22.409854888916016,
+      "startLng": 114.27680206298828
+    },
+    {
+      "id": "3886697",
+      "tileScore": 22,
+      "name": "Sai Sha road to Yan Yee Road",
+      "distanceM": 2060.478271484375,
+      "avgGrade": 0.1310361623764038,
+      "startLat": 22.395706176757812,
+      "startLng": 114.28353118896484
+    },
+    {
+      "id": "38946474",
+      "tileScore": 214,
+      "name": "GoPark大圈 by騰爺",
+      "distanceM": 1434.699951171875,
+      "avgGrade": -0.13940197229385376,
+      "startLat": 22.428091049194336,
+      "startLng": 114.26520538330078
+    },
+    {
+      "id": "9300481",
+      "tileScore": 50,
+      "name": "Sai Sha to Country Park",
+      "distanceM": 5227.2001953125,
+      "avgGrade": 0.05739210173487663,
+      "startLat": 22.395612716674805,
+      "startLng": 114.28411102294922
+    },
+    {
+      "id": "30308647",
+      "tileScore": 17,
+      "name": "Pik Uk -Wong Shek Out & Back",
+      "distanceM": 44123,
+      "avgGrade": 0.009065566584467888,
+      "startLat": 22.340442657470703,
+      "startLng": 114.2474136352539
+    },
+    {
+      "id": "9433798",
+      "tileScore": 29,
+      "name": "sai sha southbound climb",
+      "distanceM": 2200.800048828125,
+      "avgGrade": 1.7993457317352295,
+      "startLat": 22.417007446289062,
+      "startLng": 114.2662582397461
+    },
+    {
+      "id": "22378156",
+      "tileScore": 5,
+      "name": "Yan Yee Road Dog walker's lane",
+      "distanceM": 1838.5999755859375,
+      "avgGrade": -0.23931251466274261,
+      "startLat": 22.406347274780273,
+      "startLng": 114.29803466796875
+    },
+    {
+      "id": "27439830",
+      "tileScore": 25,
+      "name": "Tai Po (Tai Wong Yeh Temple) to Pak Tam Chung / 大埔(大王爺廟)至北潭涌",
+      "distanceM": 25706,
+      "avgGrade": 0.031121138483285904,
+      "startLat": 22.4453067779541,
+      "startLng": 114.17774200439453
+    },
+    {
+      "id": "3886715",
+      "tileScore": 23,
+      "name": "Yan Yee Road to Barriers",
+      "distanceM": 3209.056884765625,
+      "avgGrade": 0.17450374364852905,
+      "startLat": 22.39155387878418,
+      "startLng": 114.29717254638672
+    },
+    {
+      "id": "37471398",
+      "tileScore": 21,
+      "name": "R200 CP2 to CP3",
+      "distanceM": 22055.599609375,
+      "avgGrade": 0.033551570028066635,
+      "startLat": 22.39604377746582,
+      "startLng": 114.31844329833984
+    },
+    {
+      "id": "5822627",
+      "tileScore": 1,
+      "name": "黃毛應",
+      "distanceM": 1192.199951171875,
+      "avgGrade": -9.578929901123047,
+      "startLat": 22.40500259399414,
+      "startLng": 114.28959655761719
+    },
+    {
+      "id": "13901630",
+      "tileScore": 17,
+      "name": "Sai Kung to MOS Sai Sa",
+      "distanceM": 11611.900390625,
+      "avgGrade": 0.015501338988542557,
+      "startLat": 22.360387802124023,
+      "startLng": 114.25455474853516
+    },
+    {
+      "id": "7425353",
+      "tileScore": 33,
+      "name": "SaiSha roundabout to SK roundabout sprint",
+      "distanceM": 1485.699951171875,
+      "avgGrade": 0.20192502439022064,
+      "startLat": 22.395431518554688,
+      "startLng": 114.2832260131836
+    },
+    {
+      "id": "26777485",
+      "tileScore": 4,
+      "name": "Sam Chung Village Cross Return",
+      "distanceM": 2561,
+      "avgGrade": 0.1561889946460724,
+      "startLat": 22.4417724609375,
+      "startLng": 114.28395080566406
+    },
+    {
+      "id": "8705496",
+      "tileScore": 9,
+      "name": "Yan Yee Road climb",
+      "distanceM": 1157.199951171875,
+      "avgGrade": 6.8786725997924805,
+      "startLat": 22.396291732788086,
+      "startLng": 114.2989730834961
+    },
+    {
+      "id": "859113",
+      "tileScore": 66,
+      "name": "Sai Sha roundabout to Yung Shue O turnoff.",
+      "distanceM": 1228.1300048828125,
+      "avgGrade": 4.8204545974731445,
+      "startLat": 22.395984649658203,
+      "startLng": 114.28397369384766
+    },
+    {
+      "id": "37496517",
+      "tileScore": 25,
+      "name": "西沙路泥涌段短暫美好時光",
+      "distanceM": 1308.5,
+      "avgGrade": 0.7183797955513,
+      "startLat": 22.430908203125,
+      "startLng": 114.25322723388672
+    },
+    {
+      "id": "33877200",
+      "tileScore": 27,
+      "name": "康城大冷",
+      "distanceM": 130482.203125,
+      "avgGrade": 0,
+      "startLat": 22.29688835144043,
+      "startLng": 114.26518249511719
+    },
+    {
+      "id": "39192455",
+      "tileScore": 2,
+      "name": "Wong Chuk Wan loop",
+      "distanceM": 611.5,
+      "avgGrade": 0.06541291624307632,
+      "startLat": 22.39653205871582,
+      "startLng": 114.28594207763672
+    },
+    {
+      "id": "5050652",
+      "tileScore": 64,
+      "name": "西沙-MOS->SK",
+      "distanceM": 5524,
+      "avgGrade": 0.14120203256607056,
+      "startLat": 22.430505752563477,
+      "startLng": 114.25653839111328
+    },
+    {
+      "id": "1259329",
+      "tileScore": 1,
+      "name": "仁義路 Climb",
+      "distanceM": 983.0819702148438,
+      "avgGrade": 20.923608779907227,
+      "startLat": 22.415409088134766,
+      "startLng": 114.29785919189453
+    },
+    {
+      "id": "2414463",
+      "tileScore": 24,
+      "name": "Cheuk Yeung Climb",
+      "distanceM": 2215.0751953125,
+      "avgGrade": 11.769220352172852,
+      "startLat": 22.388856887817383,
+      "startLng": 114.2737045288086
+    },
+    {
+      "id": "12508229",
+      "tileScore": 3,
+      "name": "To Floral Villas gate",
+      "distanceM": 282.29998779296875,
+      "avgGrade": 8.182784080505371,
+      "startLat": 22.393735885620117,
+      "startLng": 114.29700469970703
+    },
+    {
+      "id": "1443226",
+      "tileScore": 1,
+      "name": "海下路 Climb",
+      "distanceM": 1576.300048828125,
+      "avgGrade": 19.9454402923584,
+      "startLat": 22.426559448242188,
+      "startLng": 114.29328155517578
+    },
+    {
+      "id": "26288272",
+      "tileScore": 6,
+      "name": "西沙路大洞路口到井頭",
+      "distanceM": 665.5999755859375,
+      "avgGrade": -2.283653736114502,
+      "startLat": 22.425310134887695,
+      "startLng": 114.26290893554688
+    }
+  ]
+}

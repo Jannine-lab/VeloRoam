@@ -1,0 +1,56 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-03T06:11:10.259Z",
+  "tile": {
+    "z": 13,
+    "x": 6855,
+    "y": 3356
+  },
+  "segments": [
+    {
+      "id": "36399181",
+      "tileScore": 28,
+      "name": "送一个拉爆",
+      "distanceM": 16154.5,
+      "avgGrade": 0,
+      "startLat": 30.80158233642578,
+      "startLng": 121.30693054199219
+    },
+    {
+      "id": "34843568",
+      "tileScore": 1,
+      "name": "全心路（西向东）",
+      "distanceM": 1997.300048828125,
+      "avgGrade": -0.1001351848244667,
+      "startLat": 30.86861801147461,
+      "startLng": 121.28173828125
+    },
+    {
+      "id": "41243237",
+      "tileScore": 52,
+      "name": "金山速霸！",
+      "distanceM": 45272.6015625,
+      "avgGrade": -0.032690852880477905,
+      "startLat": 30.98211669921875,
+      "startLng": 121.37222290039062
+    },
+    {
+      "id": "40992363",
+      "tileScore": 10,
+      "name": "Tingfeng Hwy Jinlang to Songwei",
+      "distanceM": 8834.599609375,
+      "avgGrade": 0.01811061054468155,
+      "startLat": 30.894289016723633,
+      "startLng": 121.17926025390625
+    },
+    {
+      "id": "41443612",
+      "tileScore": 4,
+      "name": "zqcc拉练",
+      "distanceM": 4241.2001953125,
+      "avgGrade": -0.018862584605813026,
+      "startLat": 30.896438598632812,
+      "startLng": 121.24224853515625
+    }
+  ]
+}

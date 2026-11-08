@@ -1,0 +1,20 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-08T22:36:28.380Z",
+  "tile": {
+    "z": 13,
+    "x": 6788,
+    "y": 3333
+  },
+  "segments": [
+    {
+      "id": "38406892",
+      "tileScore": 1,
+      "name": "微风：来福路（2）",
+      "distanceM": 3947.10009765625,
+      "avgGrade": 0.06587114930152893,
+      "startLat": 31.76348876953125,
+      "startLng": 118.30293273925781
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-03T06:04:13.591Z",
+  "tile": {
+    "z": 13,
+    "x": 6850,
+    "y": 3339
+  },
+  "segments": [
+    {
+      "id": "36994509",
+      "tileScore": 26,
+      "name": "双浮路向前冲",
+      "distanceM": 3613,
+      "avgGrade": 0.0774979218840599,
+      "startLat": 31.537199020385742,
+      "startLng": 121.06327819824219
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-08T22:35:22.718Z",
+  "tile": {
+    "z": 13,
+    "x": 6795,
+    "y": 3329
+  },
+  "segments": [
+    {
+      "id": "36644087",
+      "tileScore": 5,
+      "name": "莲花湖公园绕圈｜ ArthurW.",
+      "distanceM": 3701.60009765625,
+      "avgGrade": 0.021612275391817093,
+      "startLat": 31.91155433654785,
+      "startLng": 118.65762329101562
+    },
+    {
+      "id": "25857443",
+      "tileScore": 3,
+      "name": "20200926环南京雨花台站 Tour de Nanjing Yuhuatai Stage",
+      "distanceM": 46733.5,
+      "avgGrade": -0.00042795855551958084,
+      "startLat": 31.995834350585938,
+      "startLng": 118.77606201171875
+    },
+    {
+      "id": "25128523",
+      "tileScore": 2,
+      "name": "从肯德基到桥顶",
+      "distanceM": 8841.7998046875,
+      "avgGrade": -0.01583387888967991,
+      "startLat": 31.912260055541992,
+      "startLng": 118.63787841796875
+    },
+    {
+      "id": "25121008",
+      "tileScore": 3,
+      "name": "机智的我冲刺",
+      "distanceM": 383.3999938964844,
+      "avgGrade": -0.7303077578544617,
+      "startLat": 31.911911010742188,
+      "startLng": 118.63719940185547
+    }
+  ]
+}

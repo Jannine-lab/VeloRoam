@@ -1,0 +1,56 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-08T22:36:41.726Z",
+  "tile": {
+    "z": 13,
+    "x": 6799,
+    "y": 3333
+  },
+  "segments": [
+    {
+      "id": "10102003",
+      "tileScore": 6,
+      "name": "大利_将军大道北往南",
+      "distanceM": 20569.599609375,
+      "avgGrade": -0.017501555383205414,
+      "startLat": 31.897119522094727,
+      "startLng": 118.7852783203125
+    },
+    {
+      "id": "39980994",
+      "tileScore": 7,
+      "name": "华商路itt    Lukou to Hengxi",
+      "distanceM": 9617.400390625,
+      "avgGrade": 0.06446648389101028,
+      "startLat": 31.770610809326172,
+      "startLng": 118.84696960449219
+    },
+    {
+      "id": "14678922",
+      "tileScore": 3,
+      "name": "Changhe Highway - Jiangjun Av",
+      "distanceM": 5633.89990234375,
+      "avgGrade": -0.1419975608587265,
+      "startLat": 31.688724517822266,
+      "startLng": 118.8186264038086
+    },
+    {
+      "id": "26333525",
+      "tileScore": 7,
+      "name": "20201108 黄龙岘全程组",
+      "distanceM": 87971.8984375,
+      "avgGrade": 0.005456287879496813,
+      "startLat": 31.781736373901367,
+      "startLng": 118.6873779296875
+    },
+    {
+      "id": "10102016",
+      "tileScore": 5,
+      "name": "大利_将军大道南往北",
+      "distanceM": 20613,
+      "avgGrade": -0.015524184331297874,
+      "startLat": 31.72431755065918,
+      "startLng": 118.82747650146484
+    }
+  ]
+}

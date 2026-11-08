@@ -1,0 +1,56 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-03T06:10:35.625Z",
+  "tile": {
+    "z": 13,
+    "x": 6858,
+    "y": 3353
+  },
+  "segments": [
+    {
+      "id": "40236759",
+      "tileScore": 5,
+      "name": "吴泾奉贤",
+      "distanceM": 47205,
+      "avgGrade": -0.04702891781926155,
+      "startLat": 31.037860870361328,
+      "startLng": 121.44114685058594
+    },
+    {
+      "id": "11464863",
+      "tileScore": 16,
+      "name": "Jiangchuan Rd Eastbound to McD",
+      "distanceM": 8908.599609375,
+      "avgGrade": 0.04939047619700432,
+      "startLat": 30.988248825073242,
+      "startLng": 121.32856750488281
+    },
+    {
+      "id": "8260652",
+      "tileScore": 2,
+      "name": "Nanqiao Bridge (going South)",
+      "distanceM": 1074.300048828125,
+      "avgGrade": 0.6050451397895813,
+      "startLat": 31.01723861694336,
+      "startLng": 121.41678619384766
+    },
+    {
+      "id": "11994086",
+      "tileScore": 3,
+      "name": "Dongchuan Rd (Eastbound)",
+      "distanceM": 12666.7001953125,
+      "avgGrade": 0.009473659098148346,
+      "startLat": 30.99555778503418,
+      "startLng": 121.34071350097656
+    },
+    {
+      "id": "35389973",
+      "tileScore": 5,
+      "name": "南沙港桥",
+      "distanceM": 1104.699951171875,
+      "avgGrade": 0.036208923906087875,
+      "startLat": 30.978599548339844,
+      "startLng": 121.3889389038086
+    }
+  ]
+}

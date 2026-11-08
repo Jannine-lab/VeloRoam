@@ -1,0 +1,38 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-08T22:50:57.954Z",
+  "tile": {
+    "z": 13,
+    "x": 6702,
+    "y": 3569
+  },
+  "segments": [
+    {
+      "id": "35974601",
+      "tileScore": 8,
+      "name": "BiDong Road（S-N）",
+      "distanceM": 1856.199951171875,
+      "avgGrade": -1.4653593301773071,
+      "startLat": 22.53197479248047,
+      "startLng": 114.52507781982422
+    },
+    {
+      "id": "37400641",
+      "tileScore": 6,
+      "name": "地质公园30公里绕圈",
+      "distanceM": 30788.30078125,
+      "avgGrade": -0.0350782573223114,
+      "startLat": 22.537689208984375,
+      "startLng": 114.51429748535156
+    },
+    {
+      "id": "14808174",
+      "tileScore": 10,
+      "name": "1南澳东新路1",
+      "distanceM": 4144.10009765625,
+      "avgGrade": -0.37643879652023315,
+      "startLat": 22.557682037353516,
+      "startLng": 114.54962921142578
+    }
+  ]
+}

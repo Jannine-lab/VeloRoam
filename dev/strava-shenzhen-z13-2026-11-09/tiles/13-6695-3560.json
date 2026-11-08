@@ -1,0 +1,20 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-08T22:48:05.633Z",
+  "tile": {
+    "z": 13,
+    "x": 6695,
+    "y": 3560
+  },
+  "segments": [
+    {
+      "id": "16101654",
+      "tileScore": 1,
+      "name": "銀屏山 檢查哨>第一停車場",
+      "distanceM": 2897.800048828125,
+      "avgGrade": 2.543308734893799,
+      "startLat": 22.928897857666016,
+      "startLng": 114.20890045166016
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-08T23:00:18.005Z",
+  "tile": {
+    "z": 13,
+    "x": 6845,
+    "y": 3361
+  },
+  "segments": [
+    {
+      "id": "42397509",
+      "tileScore": 13,
+      "name": "2026环嘉兴全程组",
+      "distanceM": 90572.6015625,
+      "avgGrade": -0.0033122599124908447,
+      "startLat": 30.758026123046875,
+      "startLng": 120.71129608154297
+    },
+    {
+      "id": "19025070",
+      "tileScore": 4,
+      "name": "嘉南线southward",
+      "distanceM": 33833.30078125,
+      "avgGrade": 0.06738922744989395,
+      "startLat": 30.693082809448242,
+      "startLng": 120.80548095703125
+    },
+    {
+      "id": "33563752",
+      "tileScore": 1,
+      "name": "科技大道_嘉兴方向",
+      "distanceM": 14595,
+      "avgGrade": -0.010962658561766148,
+      "startLat": 30.68132972717285,
+      "startLng": 120.95545959472656
+    }
+  ]
+}

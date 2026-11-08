@@ -1,0 +1,38 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-03T06:11:10.259Z",
+  "tile": {
+    "z": 13,
+    "x": 6856,
+    "y": 3355
+  },
+  "segments": [
+    {
+      "id": "34393102",
+      "tileScore": 17,
+      "name": "Cheting Hwy N-S",
+      "distanceM": 13921,
+      "avgGrade": -0.017240140587091446,
+      "startLat": 31.015979766845703,
+      "startLng": 121.30183410644531
+    },
+    {
+      "id": "20963433",
+      "tileScore": 21,
+      "name": "Jinshan Seawall Dash",
+      "distanceM": 25176.30078125,
+      "avgGrade": -0.00397198973223567,
+      "startLat": 30.948577880859375,
+      "startLng": 121.31785583496094
+    },
+    {
+      "id": "21921689",
+      "tileScore": 22,
+      "name": "Col de G15",
+      "distanceM": 623.5,
+      "avgGrade": 0.9623095393180847,
+      "startLat": 30.919710159301758,
+      "startLng": 121.3182373046875
+    }
+  ]
+}

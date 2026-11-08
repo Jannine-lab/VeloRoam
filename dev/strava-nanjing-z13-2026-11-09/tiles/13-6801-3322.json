@@ -1,0 +1,65 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-08T22:33:11.125Z",
+  "tile": {
+    "z": 13,
+    "x": 6801,
+    "y": 3322
+  },
+  "segments": [
+    {
+      "id": "28338860",
+      "tileScore": 15,
+      "name": "NE development zone hill",
+      "distanceM": 662.2999877929688,
+      "avgGrade": 4.227691650390625,
+      "startLat": 32.16667175292969,
+      "startLng": 118.88856506347656
+    },
+    {
+      "id": "12267047",
+      "tileScore": 24,
+      "name": "cd-新港大道东往西",
+      "distanceM": 4093.39990234375,
+      "avgGrade": -0.6937997937202454,
+      "startLat": 32.15966796875,
+      "startLng": 118.89041137695312
+    },
+    {
+      "id": "40698324",
+      "tileScore": 17,
+      "name": "上元门至红枫路计时赛段（永济—新港—栖霞）",
+      "distanceM": 24400.900390625,
+      "avgGrade": 0.00573749328032136,
+      "startLat": 32.117767333984375,
+      "startLng": 118.76475524902344
+    },
+    {
+      "id": "12266347",
+      "tileScore": 1,
+      "name": "cd-恒飞路东往西",
+      "distanceM": 2565.5,
+      "avgGrade": -0.3508088290691376,
+      "startLat": 32.15390396118164,
+      "startLng": 118.89057159423828
+    },
+    {
+      "id": "37976344",
+      "tileScore": 2,
+      "name": "Along the railway",
+      "distanceM": 3928.199951171875,
+      "avgGrade": -0.24947813153266907,
+      "startLat": 32.122962951660156,
+      "startLng": 118.89419555664062
+    },
+    {
+      "id": "31420344",
+      "tileScore": 11,
+      "name": "Qixia Av S338 #2 back",
+      "distanceM": 5250.5,
+      "avgGrade": 0.2361679971218109,
+      "startLat": 32.148067474365234,
+      "startLng": 118.9419937133789
+    }
+  ]
+}

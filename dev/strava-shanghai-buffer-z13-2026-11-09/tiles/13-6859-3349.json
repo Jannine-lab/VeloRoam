@@ -1,0 +1,218 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-03T05:35:42.086Z",
+  "tile": {
+    "z": 13,
+    "x": 6859,
+    "y": 3349
+  },
+  "segments": [
+    {
+      "id": "17888707",
+      "tileScore": 69,
+      "name": "New Longteng Second Bridge (Retour)",
+      "distanceM": 344.29998779296875,
+      "avgGrade": 1.0455998182296753,
+      "startLat": 31.142704010009766,
+      "startLng": 121.45047760009766
+    },
+    {
+      "id": "9348169",
+      "tileScore": 3,
+      "name": "the headwind",
+      "distanceM": 540.2999877929688,
+      "avgGrade": -0.3701647222042084,
+      "startLat": 31.1632022857666,
+      "startLng": 121.43324279785156
+    },
+    {
+      "id": "6936509",
+      "tileScore": 4,
+      "name": "Longwu Rd (Longshui > S20 Outer Ring)",
+      "distanceM": 5077.7998046875,
+      "avgGrade": -0.003938713576644659,
+      "startLat": 31.171098709106445,
+      "startLng": 121.44029235839844
+    },
+    {
+      "id": "41903743",
+      "tileScore": 10,
+      "name": "石龙CC",
+      "distanceM": 957,
+      "avgGrade": 0.04179728403687477,
+      "startLat": 31.161731719970703,
+      "startLng": 121.43901062011719
+    },
+    {
+      "id": "21036682",
+      "tileScore": 7,
+      "name": "Minpu Tues - Park to LP with extension",
+      "distanceM": 56914,
+      "avgGrade": -0.006325332447886467,
+      "startLat": 31.213491439819336,
+      "startLng": 121.46663665771484
+    },
+    {
+      "id": "7128365",
+      "tileScore": 25,
+      "name": "Longwu Rd Underpass (Northbound)",
+      "distanceM": 496.70001220703125,
+      "avgGrade": -0.30199316143989563,
+      "startLat": 31.164142608642578,
+      "startLng": 121.44290161132812
+    },
+    {
+      "id": "37542209",
+      "tileScore": 274,
+      "name": "三林滨江 094",
+      "distanceM": 1526.699951171875,
+      "avgGrade": 0.026200301945209503,
+      "startLat": 31.14261245727539,
+      "startLng": 121.47198486328125
+    },
+    {
+      "id": "11449679",
+      "tileScore": 3,
+      "name": "Pubei to Qingzhou",
+      "distanceM": 617.9000244140625,
+      "avgGrade": 0.016183849424123764,
+      "startLat": 31.159147262573242,
+      "startLng": 121.42098236083984
+    },
+    {
+      "id": "7384300",
+      "tileScore": 27,
+      "name": "Laohumin Rd x Railway Underpass (Southbound)",
+      "distanceM": 452.3999938964844,
+      "avgGrade": -0.28735631704330444,
+      "startLat": 31.153425216674805,
+      "startLng": 121.41988372802734
+    },
+    {
+      "id": "17772258",
+      "tileScore": 7,
+      "name": "Changhua Lu climb",
+      "distanceM": 407.8999938964844,
+      "avgGrade": 1.1767590045928955,
+      "startLat": 31.12883949279785,
+      "startLng": 121.44075012207031
+    },
+    {
+      "id": "5205541",
+      "tileScore": 3,
+      "name": "Rat run",
+      "distanceM": 2934.5,
+      "avgGrade": -0.08519338816404343,
+      "startLat": 31.16582489013672,
+      "startLng": 121.4584732055664
+    },
+    {
+      "id": "17888371",
+      "tileScore": 92,
+      "name": "Longteng Salbutamol Blast",
+      "distanceM": 337.1000061035156,
+      "avgGrade": 1.9578760862350464,
+      "startLat": 31.135169982910156,
+      "startLng": 121.45355987548828
+    },
+    {
+      "id": "41383322",
+      "tileScore": 439,
+      "name": "factory绕圈",
+      "distanceM": 1318.5999755859375,
+      "avgGrade": 0.16684362292289734,
+      "startLat": 31.148529052734375,
+      "startLng": 121.45919036865234
+    },
+    {
+      "id": "17888512",
+      "tileScore": 88,
+      "name": "Longteng Tramadol Blast",
+      "distanceM": 720.2000122070312,
+      "avgGrade": 0.8608720302581787,
+      "startLat": 31.1278133392334,
+      "startLng": 121.45895385742188
+    },
+    {
+      "id": "11482357",
+      "tileScore": 2,
+      "name": "Qinzhou Rd (North Bound)",
+      "distanceM": 2404.10009765625,
+      "avgGrade": 0.120627261698246,
+      "startLat": 31.162418365478516,
+      "startLng": 121.42684173583984
+    },
+    {
+      "id": "27366652",
+      "tileScore": 73,
+      "name": "Longteng Avenue from New Ferry to Longrui Rd - Northbound",
+      "distanceM": 747.5,
+      "avgGrade": 0.05351170524954796,
+      "startLat": 31.135574340820312,
+      "startLng": 121.4535903930664
+    },
+    {
+      "id": "16317617",
+      "tileScore": 2,
+      "name": "Minhang Triangle Circuit",
+      "distanceM": 20807.099609375,
+      "avgGrade": 0.03171994164586067,
+      "startLat": 31.16872787475586,
+      "startLng": 121.429443359375
+    },
+    {
+      "id": "40540572",
+      "tileScore": 519,
+      "name": "North Sanlin Ferry Loop 三林渡口北圈",
+      "distanceM": 3805,
+      "avgGrade": 0.010512483306229115,
+      "startLat": 31.14569091796875,
+      "startLng": 121.45704650878906
+    },
+    {
+      "id": "6924741",
+      "tileScore": 12,
+      "name": "Long Pu Bridge (Northbound)",
+      "distanceM": 382.3999938964844,
+      "avgGrade": 0.47071129083633423,
+      "startLat": 31.130468368530273,
+      "startLng": 121.45117950439453
+    },
+    {
+      "id": "40743598",
+      "tileScore": 210,
+      "name": "New Extended Longteng Loop 🦊",
+      "distanceM": 10408.5,
+      "avgGrade": -0.005764519330114126,
+      "startLat": 31.15691566467285,
+      "startLng": 121.45661926269531
+    },
+    {
+      "id": "10541863",
+      "tileScore": 3,
+      "name": "40 km Shanghaï Loop",
+      "distanceM": 38644.5,
+      "avgGrade": 0.0015526142669841647,
+      "startLat": 31.193662643432617,
+      "startLng": 121.46837615966797
+    },
+    {
+      "id": "7291363",
+      "tileScore": 13,
+      "name": "Liuzhou Rd x Railway Underpass (Northbound)",
+      "distanceM": 358.20001220703125,
+      "avgGrade": 0.1675041913986206,
+      "startLat": 31.155319213867188,
+      "startLng": 121.42996978759766
+    },
+    {
+      "id": "23344868",
+      "tileScore": 17,
+      "name": "MercrediLaParisienneReborn",
+      "distanceM": 41012.69921875,
+      "avgGrade": -0.021944422274827957,
+      "startLat": 31.19717025756836,
+      "startLng": 121.49729919433594
+    }
+  ]
+}

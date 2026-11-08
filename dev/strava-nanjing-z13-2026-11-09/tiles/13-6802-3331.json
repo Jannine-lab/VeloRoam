@@ -1,0 +1,29 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-08T22:36:01.773Z",
+  "tile": {
+    "z": 13,
+    "x": 6802,
+    "y": 3331
+  },
+  "segments": [
+    {
+      "id": "38853249",
+      "tileScore": 5,
+      "name": "G104-石臼湖",
+      "distanceM": 51589.5,
+      "avgGrade": -0.022679032757878304,
+      "startLat": 31.94593048095703,
+      "startLng": 118.90949249267578
+    },
+    {
+      "id": "33232348",
+      "tileScore": 20,
+      "name": "S246 South to North",
+      "distanceM": 21439.099609375,
+      "avgGrade": -0.05503962188959122,
+      "startLat": 31.700870513916016,
+      "startLng": 119.04415130615234
+    }
+  ]
+}

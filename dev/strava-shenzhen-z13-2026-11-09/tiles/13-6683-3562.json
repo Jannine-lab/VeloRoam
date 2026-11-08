@@ -1,0 +1,38 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-08T22:48:54.823Z",
+  "tile": {
+    "z": 13,
+    "x": 6683,
+    "y": 3562
+  },
+  "segments": [
+    {
+      "id": "40793798",
+      "tileScore": 5,
+      "name": "三中直线冲刺赛（三中至虎门大道路口）",
+      "distanceM": 972.7000122070312,
+      "avgGrade": 0.04112264886498451,
+      "startLat": 22.817020416259766,
+      "startLng": 113.6886978149414
+    },
+    {
+      "id": "38551797",
+      "tileScore": 1,
+      "name": "长安 振安西路",
+      "distanceM": 3733.5,
+      "avgGrade": -0.11249497532844543,
+      "startLat": 22.7981014251709,
+      "startLng": 113.70328521728516
+    },
+    {
+      "id": "19361776",
+      "tileScore": 2,
+      "name": "Humen Staion - Dongbei",
+      "distanceM": 8259.099609375,
+      "avgGrade": -0.1331864297389984,
+      "startLat": 22.863826751708984,
+      "startLng": 113.67501831054688
+    }
+  ]
+}

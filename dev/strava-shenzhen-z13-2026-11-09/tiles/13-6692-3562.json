@@ -1,0 +1,38 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-08T22:48:40.377Z",
+  "tile": {
+    "z": 13,
+    "x": 6692,
+    "y": 3562
+  },
+  "segments": [
+    {
+      "id": "38267282",
+      "tileScore": 11,
+      "name": "契爷石碧道公园上半段",
+      "distanceM": 1868,
+      "avgGrade": 0.6959314942359924,
+      "startLat": 22.822246551513672,
+      "startLng": 114.12901306152344
+    },
+    {
+      "id": "1321276",
+      "tileScore": 9,
+      "name": "Tangxia Lorries-drafting-challenge section",
+      "distanceM": 7348.81005859375,
+      "avgGrade": -0.34563466906547546,
+      "startLat": 22.76565933227539,
+      "startLng": 114.13140869140625
+    },
+    {
+      "id": "6903154",
+      "tileScore": 2,
+      "name": "Tangxia YingBin Rd. East - factory workers collision avoidance segment",
+      "distanceM": 3154.300048828125,
+      "avgGrade": -0.053894683718681335,
+      "startLat": 22.811429977416992,
+      "startLng": 114.06001281738281
+    }
+  ]
+}

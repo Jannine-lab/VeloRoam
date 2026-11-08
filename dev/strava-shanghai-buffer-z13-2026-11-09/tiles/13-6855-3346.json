@@ -1,0 +1,191 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-03T06:06:49.873Z",
+  "tile": {
+    "z": 13,
+    "x": 6855,
+    "y": 3346
+  },
+  "segments": [
+    {
+      "id": "40484846",
+      "tileScore": 3,
+      "name": "Wusong River Greenway Section 1 (Eastbound)",
+      "distanceM": 766.7000122070312,
+      "avgGrade": 0.05217164382338524,
+      "startLat": 31.250457763671875,
+      "startLng": 121.2743148803711
+    },
+    {
+      "id": "32316107",
+      "tileScore": 1,
+      "name": "JSJ-Anting-CAGL-40",
+      "distanceM": 39514.6015625,
+      "avgGrade": -0.00556756230071187,
+      "startLat": 31.2432804107666,
+      "startLng": 121.33163452148438
+    },
+    {
+      "id": "29011852",
+      "tileScore": 2,
+      "name": "JDz002",
+      "distanceM": 9132.2998046875,
+      "avgGrade": 0.013140172697603703,
+      "startLat": 31.2169189453125,
+      "startLng": 121.27173614501953
+    },
+    {
+      "id": "29011839",
+      "tileScore": 8,
+      "name": "Jd001",
+      "distanceM": 1048.5999755859375,
+      "avgGrade": 0.11443829536437988,
+      "startLat": 31.24446678161621,
+      "startLng": 121.2863998413086
+    },
+    {
+      "id": "39173768",
+      "tileScore": 78,
+      "name": "jack最喜欢的半瓜路",
+      "distanceM": 2834.199951171875,
+      "avgGrade": 0.007056665141135454,
+      "startLat": 31.25140953063965,
+      "startLng": 121.28150939941406
+    },
+    {
+      "id": "7442832",
+      "tileScore": 1,
+      "name": "Jinshajiang West Rd (Eastbound)",
+      "distanceM": 5435.39990234375,
+      "avgGrade": 0.04967435821890831,
+      "startLat": 31.244314193725586,
+      "startLng": 121.28707885742188
+    },
+    {
+      "id": "33242686",
+      "tileScore": 27,
+      "name": "5km without traffic light",
+      "distanceM": 5723.89990234375,
+      "avgGrade": 0.017470605671405792,
+      "startLat": 31.264902114868164,
+      "startLng": 121.21415710449219
+    },
+    {
+      "id": "28308770",
+      "tileScore": 5,
+      "name": "纪鹤东路闵行/嘉定 跨界桥",
+      "distanceM": 433.3999938964844,
+      "avgGrade": -0.04614674672484398,
+      "startLat": 31.244447708129883,
+      "startLng": 121.2808837890625
+    },
+    {
+      "id": "20046963",
+      "tileScore": 11,
+      "name": "triple threat",
+      "distanceM": 2192.5,
+      "avgGrade": 0.08209806680679321,
+      "startLat": 31.24844741821289,
+      "startLng": 121.26316833496094
+    },
+    {
+      "id": "39173785",
+      "tileScore": 69,
+      "name": "看看谁超过了偷老师",
+      "distanceM": 15884.5,
+      "avgGrade": -0.015109068714082241,
+      "startLat": 31.263944625854492,
+      "startLng": 121.3708267211914
+    },
+    {
+      "id": "7442528",
+      "tileScore": 51,
+      "name": "Cao'an Hwy x Railway Underpass (Westbound)",
+      "distanceM": 776.4000244140625,
+      "avgGrade": -0.025759916752576828,
+      "startLat": 31.270708084106445,
+      "startLng": 121.28390502929688
+    },
+    {
+      "id": "34705937",
+      "tileScore": 93,
+      "name": "博园路竞速",
+      "distanceM": 7067.2998046875,
+      "avgGrade": 0.2745037078857422,
+      "startLat": 31.266040802001953,
+      "startLng": 121.20018005371094
+    },
+    {
+      "id": "17376176",
+      "tileScore": 7,
+      "name": "Xiang Jiang Smash",
+      "distanceM": 666.5999755859375,
+      "avgGrade": 0.030003000050783157,
+      "startLat": 31.27154541015625,
+      "startLng": 121.27214813232422
+    },
+    {
+      "id": "40484415",
+      "tileScore": 10,
+      "name": "Wusong River Greenway Section 2 (Eastbound)",
+      "distanceM": 2590.60009765625,
+      "avgGrade": -0.0386010967195034,
+      "startLat": 31.26067352294922,
+      "startLng": 121.25103759765625
+    },
+    {
+      "id": "29644899",
+      "tileScore": 4,
+      "name": "Flow-05",
+      "distanceM": 4270.2001953125,
+      "avgGrade": -0.023418108001351357,
+      "startLat": 31.237945556640625,
+      "startLng": 121.2123794555664
+    },
+    {
+      "id": "29179357",
+      "tileScore": 11,
+      "name": "JR&Biel - 002",
+      "distanceM": 322.6000061035156,
+      "avgGrade": -0.7749534845352173,
+      "startLat": 31.24458885192871,
+      "startLng": 121.28812408447266
+    },
+    {
+      "id": "20051674",
+      "tileScore": 4,
+      "name": "single tingle",
+      "distanceM": 1067.9000244140625,
+      "avgGrade": 0,
+      "startLat": 31.248380661010742,
+      "startLng": 121.26278686523438
+    },
+    {
+      "id": "31221443",
+      "tileScore": 7,
+      "name": "安亭儿童乐园-Bikehome",
+      "distanceM": 47152.19921875,
+      "avgGrade": -0.009755642153322697,
+      "startLat": 31.239341735839844,
+      "startLng": 121.36277770996094
+    },
+    {
+      "id": "40828545",
+      "tileScore": 1,
+      "name": "Wusong River Greenway Section 2.5 (Westbound)",
+      "distanceM": 953.0999755859375,
+      "avgGrade": 0,
+      "startLat": 31.26119041442871,
+      "startLng": 121.2498779296875
+    },
+    {
+      "id": "29558248",
+      "tileScore": 4,
+      "name": "NQSF-0201",
+      "distanceM": 5655.5,
+      "avgGrade": -0.024754663929343224,
+      "startLat": 31.24627685546875,
+      "startLng": 121.2858657836914
+    }
+  ]
+}

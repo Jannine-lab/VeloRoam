@@ -1,0 +1,20 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-08T22:26:50.910Z",
+  "tile": {
+    "z": 13,
+    "x": 6808,
+    "y": 3318
+  },
+  "segments": [
+    {
+      "id": "34188589",
+      "tileScore": 5,
+      "name": "大众5圈30K",
+      "distanceM": 32388.900390625,
+      "avgGrade": -0.017289873212575912,
+      "startLat": 32.29286193847656,
+      "startLng": 119.20433807373047
+    }
+  ]
+}

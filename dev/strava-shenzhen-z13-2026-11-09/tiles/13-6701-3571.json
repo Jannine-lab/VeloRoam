@@ -1,0 +1,38 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-08T22:52:02.309Z",
+  "tile": {
+    "z": 13,
+    "x": 6701,
+    "y": 3571
+  },
+  "segments": [
+    {
+      "id": "35869485",
+      "tileScore": 14,
+      "name": "骑去坐大飞",
+      "distanceM": 1418.5,
+      "avgGrade": 2.1995065212249756,
+      "startLat": 22.47563934326172,
+      "startLng": 114.52208709716797
+    },
+    {
+      "id": "22482963",
+      "tileScore": 3,
+      "name": "All ID Climbs And Decents",
+      "distanceM": 52568.1015625,
+      "avgGrade": -0.05041080340743065,
+      "startLat": 22.533960342407227,
+      "startLng": 114.50653839111328
+    },
+    {
+      "id": "36244383",
+      "tileScore": 1,
+      "name": "鹏鹏休闲骑——鹏鹏被狗追",
+      "distanceM": 690.5,
+      "avgGrade": 8.776248931884766,
+      "startLat": 22.462034225463867,
+      "startLng": 114.51998901367188
+    }
+  ]
+}

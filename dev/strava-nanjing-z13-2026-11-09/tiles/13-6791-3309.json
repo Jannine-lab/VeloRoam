@@ -1,0 +1,29 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-08T22:24:34.445Z",
+  "tile": {
+    "z": 13,
+    "x": 6791,
+    "y": 3309
+  },
+  "segments": [
+    {
+      "id": "33099146",
+      "tileScore": 8,
+      "name": "屯仓水库Gravel",
+      "distanceM": 10477.400390625,
+      "avgGrade": -0.021952010691165924,
+      "startLat": 32.574459075927734,
+      "startLng": 118.47987365722656
+    },
+    {
+      "id": "38120518",
+      "tileScore": 12,
+      "name": "长杨公路杨郢—长山头全程",
+      "distanceM": 12640,
+      "avgGrade": 0.8655062913894653,
+      "startLat": 32.63858413696289,
+      "startLng": 118.45806884765625
+    }
+  ]
+}

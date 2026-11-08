@@ -1,0 +1,101 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-08T22:59:16.713Z",
+  "tile": {
+    "z": 13,
+    "x": 6844,
+    "y": 3340
+  },
+  "segments": [
+    {
+      "id": "13159909",
+      "tileScore": 2,
+      "name": "Connector between YCH and Kuncheng Lake (Northbound)",
+      "distanceM": 9860.599609375,
+      "avgGrade": -0.014197919517755508,
+      "startLat": 31.501338958740234,
+      "startLng": 120.77267456054688
+    },
+    {
+      "id": "4144894",
+      "tileScore": 155,
+      "name": "Top of YCH West to East",
+      "distanceM": 7485.10009765625,
+      "avgGrade": 0.020039811730384827,
+      "startLat": 31.500064849853516,
+      "startLng": 120.77239990234375
+    },
+    {
+      "id": "8789824",
+      "tileScore": 38,
+      "name": "139 Village road northbound",
+      "distanceM": 4814,
+      "avgGrade": -0.004154549445956945,
+      "startLat": 31.499637603759766,
+      "startLng": 120.7820053100586
+    },
+    {
+      "id": "23491431",
+      "tileScore": 87,
+      "name": "YCH-New Road",
+      "distanceM": 4760.7998046875,
+      "avgGrade": -0.07141657173633575,
+      "startLat": 31.442302703857422,
+      "startLng": 120.7556381225586
+    },
+    {
+      "id": "38745052",
+      "tileScore": 226,
+      "name": "M-circle of YCH(B2Bridge 50K)",
+      "distanceM": 50491.30078125,
+      "avgGrade": 0.0023766469676047564,
+      "startLat": 31.388383865356445,
+      "startLng": 120.71324157714844
+    },
+    {
+      "id": "13627389",
+      "tileScore": 2,
+      "name": "Ych Velo club de suzhou",
+      "distanceM": 2136.699951171875,
+      "avgGrade": 0.08424205332994461,
+      "startLat": 31.453920364379883,
+      "startLng": 120.77420043945312
+    },
+    {
+      "id": "23526218",
+      "tileScore": 223,
+      "name": "Up da Lake",
+      "distanceM": 12626.5,
+      "avgGrade": 0.009503821842372417,
+      "startLat": 31.38671112060547,
+      "startLng": 120.7130355834961
+    },
+    {
+      "id": "32117675",
+      "tileScore": 2,
+      "name": "First bit north towards Canals",
+      "distanceM": 2323.199951171875,
+      "avgGrade": -0.11191459745168686,
+      "startLat": 31.50139617919922,
+      "startLng": 120.77265930175781
+    },
+    {
+      "id": "38327243",
+      "tileScore": 80,
+      "name": "大风车十八弯",
+      "distanceM": 1117.800048828125,
+      "avgGrade": 0,
+      "startLat": 31.491870880126953,
+      "startLng": 120.7681655883789
+    },
+    {
+      "id": "40772411",
+      "tileScore": 4,
+      "name": "去大风车咖啡店",
+      "distanceM": 3688.699951171875,
+      "avgGrade": 0.07048553973436356,
+      "startLat": 31.487939834594727,
+      "startLng": 120.72946166992188
+    }
+  ]
+}

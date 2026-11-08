@@ -1,0 +1,20 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-08T22:26:39.360Z",
+  "tile": {
+    "z": 13,
+    "x": 6795,
+    "y": 3317
+  },
+  "segments": [
+    {
+      "id": "37607962",
+      "tileScore": 2,
+      "name": "雷官（外环）—高场",
+      "distanceM": 4092,
+      "avgGrade": 0,
+      "startLat": 32.34967041015625,
+      "startLng": 118.62417602539062
+    }
+  ]
+}

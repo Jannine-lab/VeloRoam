@@ -1,0 +1,83 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-08T22:57:32.226Z",
+  "tile": {
+    "z": 13,
+    "x": 6868,
+    "y": 3351
+  },
+  "segments": [
+    {
+      "id": "35927579",
+      "tileScore": 5,
+      "name": "金桥-滴水湖-云山路绕圈",
+      "distanceM": 150058.90625,
+      "avgGrade": 0.0018659341149032116,
+      "startLat": 31.22467041015625,
+      "startLng": 121.62055969238281
+    },
+    {
+      "id": "37629875",
+      "tileScore": 2,
+      "name": "dongda-xiayan（lianggang）",
+      "distanceM": 11429.7998046875,
+      "avgGrade": -0.01574830710887909,
+      "startLat": 30.975860595703125,
+      "startLng": 121.88377380371094
+    },
+    {
+      "id": "39212463",
+      "tileScore": 13,
+      "name": "下盐路 两港到申江南路",
+      "distanceM": 18822.099609375,
+      "avgGrade": 0.017001289874315262,
+      "startLat": 31.0772762298584,
+      "startLng": 121.83916473388672
+    },
+    {
+      "id": "39436646",
+      "tileScore": 1,
+      "name": "Jungang after the light",
+      "distanceM": 1812.5,
+      "avgGrade": 0.04413793236017227,
+      "startLat": 31.07817268371582,
+      "startLng": 121.84212493896484
+    },
+    {
+      "id": "17720572",
+      "tileScore": 10,
+      "name": "westbound Xiayan Rd",
+      "distanceM": 6209.2001953125,
+      "avgGrade": -0.025768214836716652,
+      "startLat": 31.077308654785156,
+      "startLng": 121.8400650024414
+    },
+    {
+      "id": "39436638",
+      "tileScore": 17,
+      "name": "Jungang before the light",
+      "distanceM": 2104.800048828125,
+      "avgGrade": 0.019004181027412415,
+      "startLat": 31.042709350585938,
+      "startLng": 121.85831451416016
+    },
+    {
+      "id": "35767613",
+      "tileScore": 1,
+      "name": "Tongqiang Road S to N",
+      "distanceM": 4211.89990234375,
+      "avgGrade": 0.0284907054156065,
+      "startLat": 31.044958114624023,
+      "startLng": 121.83814239501953
+    },
+    {
+      "id": "17720599",
+      "tileScore": 21,
+      "name": "Jungang between the lights",
+      "distanceM": 1936.5,
+      "avgGrade": 0.16524657607078552,
+      "startLat": 31.060890197753906,
+      "startLng": 121.84966278076172
+    }
+  ]
+}

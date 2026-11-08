@@ -1,0 +1,2678 @@
+{
+  "mode": "apply",
+  "runId": "bdf2e294-3d31-48cd-8aa4-1650b84f17ea",
+  "algorithmVersion": "segment-tags-v1.0.0",
+  "sourceSnapshotHash": "16b442483db879b93d955b148a35d8ca29f92c9dedb46afc3723f07c96abb72a",
+  "referenceSourceSnapshotHash": "16b442483db879b93d955b148a35d8ca29f92c9dedb46afc3723f07c96abb72a",
+  "referenceVersion": "e987871ee20395b34c5bd0589afcb4ca45b0e1fe9e5795fcc5cca54f9c0022bd",
+  "sourceCount": 7101,
+  "targetCount": 15,
+  "evaluationCount": 90,
+  "wouldChange": 60,
+  "referenceCounts": {
+    "inputSegments": 7101,
+    "uniqueSegments": 7101,
+    "eligibleSegments": 2632,
+    "excludedUnknownActivity": 4469,
+    "excludedOtherActivity": 0,
+    "excludedPrivate": 0
+  },
+  "referenceCohorts": [
+    {
+      "key": "[\"city\",\"china\",\"beijing\",\"beijing\"]",
+      "level": "city",
+      "representatives": 1,
+      "athletes": 1,
+      "efforts": 1,
+      "stars": 1
+    },
+    {
+      "key": "[\"city\",\"china\",\"guangdong\",\"shenzhen\"]",
+      "level": "city",
+      "representatives": 2,
+      "athletes": 2,
+      "efforts": 2,
+      "stars": 2
+    },
+    {
+      "key": "[\"city\",\"china\",\"jiangsu\",\"bacheng\"]",
+      "level": "city",
+      "representatives": 4,
+      "athletes": 4,
+      "efforts": 4,
+      "stars": 4
+    },
+    {
+      "key": "[\"city\",\"china\",\"jiangsu\",\"huaqiao\"]",
+      "level": "city",
+      "representatives": 4,
+      "athletes": 4,
+      "efforts": 4,
+      "stars": 4
+    },
+    {
+      "key": "[\"city\",\"china\",\"jiangsu\",\"luzhi town\"]",
+      "level": "city",
+      "representatives": 4,
+      "athletes": 4,
+      "efforts": 4,
+      "stars": 4
+    },
+    {
+      "key": "[\"city\",\"china\",\"jiangsu\",\"nanjing shi\"]",
+      "level": "city",
+      "representatives": 7,
+      "athletes": 7,
+      "efforts": 7,
+      "stars": 7
+    },
+    {
+      "key": "[\"city\",\"china\",\"jiangsu\",\"nanjing\"]",
+      "level": "city",
+      "representatives": 2,
+      "athletes": 2,
+      "efforts": 2,
+      "stars": 2
+    },
+    {
+      "key": "[\"city\",\"china\",\"jiangsu\",\"nantong shi\"]",
+      "level": "city",
+      "representatives": 9,
+      "athletes": 9,
+      "efforts": 9,
+      "stars": 9
+    },
+    {
+      "key": "[\"city\",\"china\",\"jiangsu\",\"nantong\"]",
+      "level": "city",
+      "representatives": 3,
+      "athletes": 3,
+      "efforts": 3,
+      "stars": 3
+    },
+    {
+      "key": "[\"city\",\"china\",\"jiangsu\",\"shengpu\"]",
+      "level": "city",
+      "representatives": 1,
+      "athletes": 1,
+      "efforts": 1,
+      "stars": 1
+    },
+    {
+      "key": "[\"city\",\"china\",\"jiangsu\",\"su zhou shi\"]",
+      "level": "city",
+      "representatives": 19,
+      "athletes": 19,
+      "efforts": 19,
+      "stars": 19
+    },
+    {
+      "key": "[\"city\",\"china\",\"jiangsu\",\"suzhou shi\"]",
+      "level": "city",
+      "representatives": 84,
+      "athletes": 84,
+      "efforts": 84,
+      "stars": 84
+    },
+    {
+      "key": "[\"city\",\"china\",\"jiangsu\",\"suzhou\"]",
+      "level": "city",
+      "representatives": 39,
+      "athletes": 39,
+      "efforts": 39,
+      "stars": 39
+    },
+    {
+      "key": "[\"city\",\"china\",\"jiangsu\",\"zhouzhuang\"]",
+      "level": "city",
+      "representatives": 5,
+      "athletes": 5,
+      "efforts": 5,
+      "stars": 5
+    },
+    {
+      "key": "[\"city\",\"china\",\"jiangsu\",\"七都镇\"]",
+      "level": "city",
+      "representatives": 1,
+      "athletes": 1,
+      "efforts": 1,
+      "stars": 1
+    },
+    {
+      "key": "[\"city\",\"china\",\"jiangsu\",\"三厂街道\"]",
+      "level": "city",
+      "representatives": 1,
+      "athletes": 1,
+      "efforts": 1,
+      "stars": 1
+    },
+    {
+      "key": "[\"city\",\"china\",\"jiangsu\",\"三星镇\"]",
+      "level": "city",
+      "representatives": 1,
+      "athletes": 1,
+      "efforts": 1,
+      "stars": 1
+    },
+    {
+      "key": "[\"city\",\"china\",\"jiangsu\",\"东海镇\"]",
+      "level": "city",
+      "representatives": 2,
+      "athletes": 2,
+      "efforts": 2,
+      "stars": 2
+    },
+    {
+      "key": "[\"city\",\"china\",\"jiangsu\",\"中兴街道\"]",
+      "level": "city",
+      "representatives": 1,
+      "athletes": 1,
+      "efforts": 1,
+      "stars": 1
+    },
+    {
+      "key": "[\"city\",\"china\",\"jiangsu\",\"北新镇\"]",
+      "level": "city",
+      "representatives": 1,
+      "athletes": 1,
+      "efforts": 1,
+      "stars": 1
+    },
+    {
+      "key": "[\"city\",\"china\",\"jiangsu\",\"千灯镇\"]",
+      "level": "city",
+      "representatives": 1,
+      "athletes": 1,
+      "efforts": 1,
+      "stars": 1
+    },
+    {
+      "key": "[\"city\",\"china\",\"jiangsu\",\"南京市\"]",
+      "level": "city",
+      "representatives": 1,
+      "athletes": 1,
+      "efforts": 1,
+      "stars": 1
+    },
+    {
+      "key": "[\"city\",\"china\",\"jiangsu\",\"南阳镇\"]",
+      "level": "city",
+      "representatives": 3,
+      "athletes": 3,
+      "efforts": 3,
+      "stars": 3
+    },
+    {
+      "key": "[\"city\",\"china\",\"jiangsu\",\"古里镇\"]",
+      "level": "city",
+      "representatives": 3,
+      "athletes": 3,
+      "efforts": 3,
+      "stars": 3
+    },
+    {
+      "key": "[\"city\",\"china\",\"jiangsu\",\"吕四港镇\"]",
+      "level": "city",
+      "representatives": 1,
+      "athletes": 1,
+      "efforts": 1,
+      "stars": 1
+    },
+    {
+      "key": "[\"city\",\"china\",\"jiangsu\",\"启隆镇\"]",
+      "level": "city",
+      "representatives": 3,
+      "athletes": 3,
+      "efforts": 3,
+      "stars": 3
+    },
+    {
+      "key": "[\"city\",\"china\",\"jiangsu\",\"周市镇\"]",
+      "level": "city",
+      "representatives": 3,
+      "athletes": 3,
+      "efforts": 3,
+      "stars": 3
+    },
+    {
+      "key": "[\"city\",\"china\",\"jiangsu\",\"城厢镇\"]",
+      "level": "city",
+      "representatives": 4,
+      "athletes": 4,
+      "efforts": 4,
+      "stars": 4
+    },
+    {
+      "key": "[\"city\",\"china\",\"jiangsu\",\"娄东街道\"]",
+      "level": "city",
+      "representatives": 10,
+      "athletes": 10,
+      "efforts": 10,
+      "stars": 10
+    },
+    {
+      "key": "[\"city\",\"china\",\"jiangsu\",\"寅阳镇\"]",
+      "level": "city",
+      "representatives": 6,
+      "athletes": 6,
+      "efforts": 6,
+      "stars": 6
+    },
+    {
+      "key": "[\"city\",\"china\",\"jiangsu\",\"张浦镇\"]",
+      "level": "city",
+      "representatives": 13,
+      "athletes": 13,
+      "efforts": 13,
+      "stars": 13
+    },
+    {
+      "key": "[\"city\",\"china\",\"jiangsu\",\"张芝山镇\"]",
+      "level": "city",
+      "representatives": 1,
+      "athletes": 1,
+      "efforts": 1,
+      "stars": 1
+    },
+    {
+      "key": "[\"city\",\"china\",\"jiangsu\",\"惠萍镇\"]",
+      "level": "city",
+      "representatives": 7,
+      "athletes": 7,
+      "efforts": 7,
+      "stars": 7
+    },
+    {
+      "key": "[\"city\",\"china\",\"jiangsu\",\"梅里镇\"]",
+      "level": "city",
+      "representatives": 2,
+      "athletes": 2,
+      "efforts": 2,
+      "stars": 2
+    },
+    {
+      "key": "[\"city\",\"china\",\"jiangsu\",\"横扇街道\"]",
+      "level": "city",
+      "representatives": 1,
+      "athletes": 1,
+      "efforts": 1,
+      "stars": 1
+    },
+    {
+      "key": "[\"city\",\"china\",\"jiangsu\",\"汇龙镇\"]",
+      "level": "city",
+      "representatives": 8,
+      "athletes": 8,
+      "efforts": 8,
+      "stars": 8
+    },
+    {
+      "key": "[\"city\",\"china\",\"jiangsu\",\"江浦街道\"]",
+      "level": "city",
+      "representatives": 1,
+      "athletes": 1,
+      "efforts": 1,
+      "stars": 1
+    },
+    {
+      "key": "[\"city\",\"china\",\"jiangsu\",\"江海街道\"]",
+      "level": "city",
+      "representatives": 1,
+      "athletes": 1,
+      "efforts": 1,
+      "stars": 1
+    },
+    {
+      "key": "[\"city\",\"china\",\"jiangsu\",\"沙溪镇\"]",
+      "level": "city",
+      "representatives": 4,
+      "athletes": 4,
+      "efforts": 4,
+      "stars": 4
+    },
+    {
+      "key": "[\"city\",\"china\",\"jiangsu\",\"浏河镇\"]",
+      "level": "city",
+      "representatives": 7,
+      "athletes": 7,
+      "efforts": 7,
+      "stars": 7
+    },
+    {
+      "key": "[\"city\",\"china\",\"jiangsu\",\"浮桥镇\"]",
+      "level": "city",
+      "representatives": 5,
+      "athletes": 5,
+      "efforts": 5,
+      "stars": 5
+    },
+    {
+      "key": "[\"city\",\"china\",\"jiangsu\",\"海复镇\"]",
+      "level": "city",
+      "representatives": 1,
+      "athletes": 1,
+      "efforts": 1,
+      "stars": 1
+    },
+    {
+      "key": "[\"city\",\"china\",\"jiangsu\",\"海虞镇\"]",
+      "level": "city",
+      "representatives": 2,
+      "athletes": 2,
+      "efforts": 2,
+      "stars": 2
+    },
+    {
+      "key": "[\"city\",\"china\",\"jiangsu\",\"海门街道\"]",
+      "level": "city",
+      "representatives": 1,
+      "athletes": 1,
+      "efforts": 1,
+      "stars": 1
+    },
+    {
+      "key": "[\"city\",\"china\",\"jiangsu\",\"淀山湖镇\"]",
+      "level": "city",
+      "representatives": 6,
+      "athletes": 6,
+      "efforts": 6,
+      "stars": 6
+    },
+    {
+      "key": "[\"city\",\"china\",\"jiangsu\",\"滨江街道\"]",
+      "level": "city",
+      "representatives": 1,
+      "athletes": 1,
+      "efforts": 1,
+      "stars": 1
+    },
+    {
+      "key": "[\"city\",\"china\",\"jiangsu\",\"玄武湖街道\"]",
+      "level": "city",
+      "representatives": 2,
+      "athletes": 2,
+      "efforts": 2,
+      "stars": 2
+    },
+    {
+      "key": "[\"city\",\"china\",\"jiangsu\",\"玉山镇\"]",
+      "level": "city",
+      "representatives": 8,
+      "athletes": 8,
+      "efforts": 8,
+      "stars": 8
+    },
+    {
+      "key": "[\"city\",\"china\",\"jiangsu\",\"璜泾镇\"]",
+      "level": "city",
+      "representatives": 7,
+      "athletes": 7,
+      "efforts": 7,
+      "stars": 7
+    },
+    {
+      "key": "[\"city\",\"china\",\"jiangsu\",\"碧溪街道\"]",
+      "level": "city",
+      "representatives": 9,
+      "athletes": 9,
+      "efforts": 9,
+      "stars": 9
+    },
+    {
+      "key": "[\"city\",\"china\",\"jiangsu\",\"老洪港管理区\"]",
+      "level": "city",
+      "representatives": 1,
+      "athletes": 1,
+      "efforts": 1,
+      "stars": 1
+    },
+    {
+      "key": "[\"city\",\"china\",\"jiangsu\",\"苏州市\"]",
+      "level": "city",
+      "representatives": 1,
+      "athletes": 1,
+      "efforts": 1,
+      "stars": 1
+    },
+    {
+      "key": "[\"city\",\"china\",\"jiangsu\",\"董浜镇\"]",
+      "level": "city",
+      "representatives": 3,
+      "athletes": 3,
+      "efforts": 3,
+      "stars": 3
+    },
+    {
+      "key": "[\"city\",\"china\",\"jiangsu\",\"越溪街道\"]",
+      "level": "city",
+      "representatives": 1,
+      "athletes": 1,
+      "efforts": 1,
+      "stars": 1
+    },
+    {
+      "key": "[\"city\",\"china\",\"jiangsu\",\"金庭镇\"]",
+      "level": "city",
+      "representatives": 1,
+      "athletes": 1,
+      "efforts": 1,
+      "stars": 1
+    },
+    {
+      "key": "[\"city\",\"china\",\"jiangsu\",\"锦溪镇\"]",
+      "level": "city",
+      "representatives": 12,
+      "athletes": 12,
+      "efforts": 12,
+      "stars": 12
+    },
+    {
+      "key": "[\"city\",\"china\",\"jiangsu\",\"陆家镇\"]",
+      "level": "city",
+      "representatives": 2,
+      "athletes": 2,
+      "efforts": 2,
+      "stars": 2
+    },
+    {
+      "key": "[\"city\",\"china\",\"jiangsu\",\"马群街道\"]",
+      "level": "city",
+      "representatives": 2,
+      "athletes": 2,
+      "efforts": 2,
+      "stars": 2
+    },
+    {
+      "key": "[\"city\",\"china\",\"jiangsu\",\"黎里镇\"]",
+      "level": "city",
+      "representatives": 10,
+      "athletes": 10,
+      "efforts": 10,
+      "stars": 10
+    },
+    {
+      "key": "[\"city\",\"china\",\"shanghai\",\"shanghai\"]",
+      "level": "city",
+      "representatives": 2074,
+      "athletes": 2074,
+      "efforts": 2074,
+      "stars": 2074
+    },
+    {
+      "key": "[\"city\",\"china\",\"zhejiang\",\"jia xing shi\"]",
+      "level": "city",
+      "representatives": 1,
+      "athletes": 1,
+      "efforts": 1,
+      "stars": 1
+    },
+    {
+      "key": "[\"city\",\"china\",\"zhejiang\",\"jiaxing shi\"]",
+      "level": "city",
+      "representatives": 9,
+      "athletes": 9,
+      "efforts": 9,
+      "stars": 9
+    },
+    {
+      "key": "[\"city\",\"china\",\"zhejiang\",\"jiaxing\"]",
+      "level": "city",
+      "representatives": 3,
+      "athletes": 3,
+      "efforts": 3,
+      "stars": 3
+    },
+    {
+      "key": "[\"city\",\"china\",\"zhejiang\",\"嘉兴市\"]",
+      "level": "city",
+      "representatives": 1,
+      "athletes": 1,
+      "efforts": 1,
+      "stars": 1
+    },
+    {
+      "key": "[\"city\",\"china\",\"zhejiang\",\"杭州市\"]",
+      "level": "city",
+      "representatives": 2,
+      "athletes": 2,
+      "efforts": 2,
+      "stars": 2
+    },
+    {
+      "key": "[\"city\",\"china\",\"广东省\",\"广州市\"]",
+      "level": "city",
+      "representatives": 3,
+      "athletes": 3,
+      "efforts": 3,
+      "stars": 3
+    },
+    {
+      "key": "[\"city\",\"china\",\"广东省\",\"深圳市\"]",
+      "level": "city",
+      "representatives": 3,
+      "athletes": 3,
+      "efforts": 3,
+      "stars": 3
+    },
+    {
+      "key": "[\"city\",\"china\",null,\"nanjing shi\"]",
+      "level": "city",
+      "representatives": 1,
+      "athletes": 1,
+      "efforts": 1,
+      "stars": 1
+    },
+    {
+      "key": "[\"city\",\"china\",null,\"nantong shi\"]",
+      "level": "city",
+      "representatives": 2,
+      "athletes": 2,
+      "efforts": 2,
+      "stars": 2
+    },
+    {
+      "key": "[\"city\",\"china\",null,\"shanghai\"]",
+      "level": "city",
+      "representatives": 12,
+      "athletes": 12,
+      "efforts": 12,
+      "stars": 12
+    },
+    {
+      "key": "[\"city\",\"china\",null,\"su zhou shi\"]",
+      "level": "city",
+      "representatives": 2,
+      "athletes": 2,
+      "efforts": 2,
+      "stars": 2
+    },
+    {
+      "key": "[\"city\",\"china\",null,\"suzhou shi\"]",
+      "level": "city",
+      "representatives": 10,
+      "athletes": 10,
+      "efforts": 10,
+      "stars": 10
+    },
+    {
+      "key": "[\"city\",\"hong kong\",\"kowloon\",\"sham shui po\"]",
+      "level": "city",
+      "representatives": 1,
+      "athletes": 1,
+      "efforts": 1,
+      "stars": 1
+    },
+    {
+      "key": "[\"city\",\"hong kong\",\"new territories\",\"clear water bay\"]",
+      "level": "city",
+      "representatives": 1,
+      "athletes": 1,
+      "efforts": 1,
+      "stars": 1
+    },
+    {
+      "key": "[\"city\",\"hong kong\",\"new territories\",\"kam tin\"]",
+      "level": "city",
+      "representatives": 1,
+      "athletes": 1,
+      "efforts": 1,
+      "stars": 1
+    },
+    {
+      "key": "[\"city\",\"hong kong\",\"new territories\",\"lam tsuen\"]",
+      "level": "city",
+      "representatives": 1,
+      "athletes": 1,
+      "efforts": 1,
+      "stars": 1
+    },
+    {
+      "key": "[\"city\",\"hong kong\",\"new territories\",\"lung kwu tan\"]",
+      "level": "city",
+      "representatives": 2,
+      "athletes": 2,
+      "efforts": 2,
+      "stars": 2
+    },
+    {
+      "key": "[\"city\",\"hong kong\",\"new territories\",\"sai kung\"]",
+      "level": "city",
+      "representatives": 5,
+      "athletes": 5,
+      "efforts": 5,
+      "stars": 5
+    },
+    {
+      "key": "[\"city\",\"hong kong\",\"new territories\",\"sha tin\"]",
+      "level": "city",
+      "representatives": 1,
+      "athletes": 1,
+      "efforts": 1,
+      "stars": 1
+    },
+    {
+      "key": "[\"city\",\"hong kong\",\"new territories\",\"shuen wan\"]",
+      "level": "city",
+      "representatives": 3,
+      "athletes": 3,
+      "efforts": 3,
+      "stars": 3
+    },
+    {
+      "key": "[\"city\",\"hong kong\",\"new territories\",\"tai mo shan\"]",
+      "level": "city",
+      "representatives": 2,
+      "athletes": 2,
+      "efforts": 2,
+      "stars": 2
+    },
+    {
+      "key": "[\"city\",\"japan\",\"tottori-ken\",\"yonago-shi\"]",
+      "level": "city",
+      "representatives": 5,
+      "athletes": 5,
+      "efforts": 5,
+      "stars": 5
+    },
+    {
+      "key": "[\"city\",\"united states\",\"ca\",\"los angeles\"]",
+      "level": "city",
+      "representatives": 11,
+      "athletes": 11,
+      "efforts": 11,
+      "stars": 11
+    },
+    {
+      "key": "[\"city\",\"united states\",\"ca\",\"palos verdes estates\"]",
+      "level": "city",
+      "representatives": 3,
+      "athletes": 3,
+      "efforts": 3,
+      "stars": 3
+    },
+    {
+      "key": "[\"city\",\"united states\",\"ca\",\"redondo beach\"]",
+      "level": "city",
+      "representatives": 2,
+      "athletes": 2,
+      "efforts": 2,
+      "stars": 2
+    },
+    {
+      "key": "[\"country\",\"china\"]",
+      "level": "country",
+      "representatives": 2568,
+      "athletes": 2568,
+      "efforts": 2568,
+      "stars": 2568
+    },
+    {
+      "key": "[\"country\",\"hong kong\"]",
+      "level": "country",
+      "representatives": 18,
+      "athletes": 18,
+      "efforts": 18,
+      "stars": 18
+    },
+    {
+      "key": "[\"country\",\"japan\"]",
+      "level": "country",
+      "representatives": 5,
+      "athletes": 5,
+      "efforts": 5,
+      "stars": 5
+    },
+    {
+      "key": "[\"country\",\"united states\"]",
+      "level": "country",
+      "representatives": 16,
+      "athletes": 16,
+      "efforts": 16,
+      "stars": 16
+    },
+    {
+      "key": "[\"state\",\"china\",\"beijing\"]",
+      "level": "state",
+      "representatives": 1,
+      "athletes": 1,
+      "efforts": 1,
+      "stars": 1
+    },
+    {
+      "key": "[\"state\",\"china\",\"guangdong\"]",
+      "level": "state",
+      "representatives": 2,
+      "athletes": 2,
+      "efforts": 2,
+      "stars": 2
+    },
+    {
+      "key": "[\"state\",\"china\",\"jiangsu\"]",
+      "level": "state",
+      "representatives": 344,
+      "athletes": 344,
+      "efforts": 344,
+      "stars": 344
+    },
+    {
+      "key": "[\"state\",\"china\",\"shanghai\"]",
+      "level": "state",
+      "representatives": 2074,
+      "athletes": 2074,
+      "efforts": 2074,
+      "stars": 2074
+    },
+    {
+      "key": "[\"state\",\"china\",\"zhejiang\"]",
+      "level": "state",
+      "representatives": 109,
+      "athletes": 109,
+      "efforts": 109,
+      "stars": 109
+    },
+    {
+      "key": "[\"state\",\"china\",\"广东省\"]",
+      "level": "state",
+      "representatives": 6,
+      "athletes": 6,
+      "efforts": 6,
+      "stars": 6
+    },
+    {
+      "key": "[\"state\",\"hong kong\",\"kowloon\"]",
+      "level": "state",
+      "representatives": 1,
+      "athletes": 1,
+      "efforts": 1,
+      "stars": 1
+    },
+    {
+      "key": "[\"state\",\"hong kong\",\"new territories\"]",
+      "level": "state",
+      "representatives": 16,
+      "athletes": 16,
+      "efforts": 16,
+      "stars": 16
+    },
+    {
+      "key": "[\"state\",\"japan\",\"tottori-ken\"]",
+      "level": "state",
+      "representatives": 5,
+      "athletes": 5,
+      "efforts": 5,
+      "stars": 5
+    },
+    {
+      "key": "[\"state\",\"united states\",\"ca\"]",
+      "level": "state",
+      "representatives": 16,
+      "athletes": 16,
+      "efforts": 16,
+      "stars": 16
+    }
+  ],
+  "geometryIssues": {
+    "sparse_geometry": 1
+  },
+  "summary": {
+    "counts": {
+      "climbing": {
+        "matched": 7,
+        "not_matched": 8,
+        "unknown": 0
+      },
+      "loop": {
+        "matched": 0,
+        "not_matched": 14,
+        "unknown": 1
+      },
+      "out_and_back": {
+        "matched": 0,
+        "not_matched": 14,
+        "unknown": 1
+      },
+      "long_distance": {
+        "matched": 0,
+        "not_matched": 15,
+        "unknown": 0
+      },
+      "popular": {
+        "matched": 3,
+        "not_matched": 5,
+        "unknown": 7
+      },
+      "highly_starred": {
+        "matched": 3,
+        "not_matched": 5,
+        "unknown": 7
+      }
+    },
+    "samples": {
+      "climbing": {
+        "matched": [
+          {
+            "id": "618010",
+            "reasons": [
+              "climbing_continuous"
+            ],
+            "evidence": {
+              "distanceKm": 0.5228569113798699,
+              "averageGrade": 13.7,
+              "elevationGainM": 71.6,
+              "climbCategory": 0,
+              "gainPerKm": 136.93995133590312,
+              "branches": {
+                "native": false,
+                "continuous": true,
+                "cumulative": false
+              },
+              "thresholds": {
+                "continuousMinKm": 0.5,
+                "continuousMinGrade": 3,
+                "continuousMinGainM": 30,
+                "cumulativeMinKm": 2,
+                "cumulativeMinGainM": 80,
+                "cumulativeMinGainPerKm": 20
+              },
+              "geometryIssues": [],
+              "sourceFields": {
+                "recordedDistanceKm": "strava_segment_details",
+                "averageGrade": "strava_segment_details",
+                "climbCategory": "strava_segment_details",
+                "elevationGainM": "strava_segment_details",
+                "athleteCount": "strava_segment_details",
+                "effortCount": "strava_segment_details",
+                "starCount": "strava_segment_details"
+              }
+            }
+          },
+          {
+            "id": "625527",
+            "reasons": [
+              "climbing_native",
+              "climbing_continuous"
+            ],
+            "evidence": {
+              "distanceKm": 1.992267930712666,
+              "averageGrade": 4.1,
+              "elevationGainM": 87.9608,
+              "climbCategory": 1,
+              "gainPerKm": 44.151089642112055,
+              "branches": {
+                "native": true,
+                "continuous": true,
+                "cumulative": false
+              },
+              "thresholds": {
+                "continuousMinKm": 0.5,
+                "continuousMinGrade": 3,
+                "continuousMinGainM": 30,
+                "cumulativeMinKm": 2,
+                "cumulativeMinGainM": 80,
+                "cumulativeMinGainPerKm": 20
+              },
+              "geometryIssues": [],
+              "sourceFields": {
+                "recordedDistanceKm": "strava_segment_details",
+                "averageGrade": "strava_segment_details",
+                "climbCategory": "strava_segment_details",
+                "elevationGainM": "strava_segment_details",
+                "athleteCount": "strava_segment_details",
+                "effortCount": "strava_segment_details",
+                "starCount": "strava_segment_details"
+              }
+            }
+          },
+          {
+            "id": "628872",
+            "reasons": [
+              "climbing_continuous"
+            ],
+            "evidence": {
+              "distanceKm": 0.5818178883977476,
+              "averageGrade": 6.1,
+              "elevationGainM": 35.2,
+              "climbCategory": 0,
+              "gainPerKm": 60.500030511155856,
+              "branches": {
+                "native": false,
+                "continuous": true,
+                "cumulative": false
+              },
+              "thresholds": {
+                "continuousMinKm": 0.5,
+                "continuousMinGrade": 3,
+                "continuousMinGainM": 30,
+                "cumulativeMinKm": 2,
+                "cumulativeMinGainM": 80,
+                "cumulativeMinGainPerKm": 20
+              },
+              "geometryIssues": [],
+              "sourceFields": {
+                "recordedDistanceKm": "strava_segment_details",
+                "averageGrade": "strava_segment_details",
+                "climbCategory": "strava_segment_details",
+                "elevationGainM": "strava_segment_details",
+                "athleteCount": "strava_segment_details",
+                "effortCount": "strava_segment_details",
+                "starCount": "strava_segment_details"
+              }
+            }
+          },
+          {
+            "id": "634126",
+            "reasons": [
+              "climbing_native",
+              "climbing_continuous",
+              "climbing_cumulative"
+            ],
+            "evidence": {
+              "distanceKm": 2.5320561232396863,
+              "averageGrade": 5.6,
+              "elevationGainM": 140.4,
+              "climbCategory": 1,
+              "gainPerKm": 55.44900790759828,
+              "branches": {
+                "native": true,
+                "continuous": true,
+                "cumulative": true
+              },
+              "thresholds": {
+                "continuousMinKm": 0.5,
+                "continuousMinGrade": 3,
+                "continuousMinGainM": 30,
+                "cumulativeMinKm": 2,
+                "cumulativeMinGainM": 80,
+                "cumulativeMinGainPerKm": 20
+              },
+              "geometryIssues": [],
+              "sourceFields": {
+                "recordedDistanceKm": "strava_segment_details",
+                "averageGrade": "strava_segment_details",
+                "climbCategory": "strava_segment_details",
+                "elevationGainM": "strava_segment_details",
+                "athleteCount": "strava_segment_details",
+                "effortCount": "strava_segment_details",
+                "starCount": "strava_segment_details"
+              }
+            }
+          },
+          {
+            "id": "642467",
+            "reasons": [
+              "climbing_native",
+              "climbing_continuous"
+            ],
+            "evidence": {
+              "distanceKm": 1.5869667355542658,
+              "averageGrade": 6,
+              "elevationGainM": 120.163,
+              "climbCategory": 1,
+              "gainPerKm": 75.71866335183877,
+              "branches": {
+                "native": true,
+                "continuous": true,
+                "cumulative": false
+              },
+              "thresholds": {
+                "continuousMinKm": 0.5,
+                "continuousMinGrade": 3,
+                "continuousMinGainM": 30,
+                "cumulativeMinKm": 2,
+                "cumulativeMinGainM": 80,
+                "cumulativeMinGainPerKm": 20
+              },
+              "geometryIssues": [],
+              "sourceFields": {
+                "recordedDistanceKm": "strava_segment_details",
+                "averageGrade": "strava_segment_details",
+                "climbCategory": "strava_segment_details",
+                "elevationGainM": "strava_segment_details",
+                "athleteCount": "strava_segment_details",
+                "effortCount": "strava_segment_details",
+                "starCount": "strava_segment_details"
+              }
+            }
+          }
+        ],
+        "not_matched": [
+          {
+            "id": "610451",
+            "reasons": [
+              "climbing_thresholds_not_met"
+            ],
+            "evidence": {
+              "distanceKm": 1.1021568229255905,
+              "averageGrade": 0.3,
+              "elevationGainM": 31.6,
+              "climbCategory": 0,
+              "gainPerKm": 28.671056008273155,
+              "branches": {
+                "native": false,
+                "continuous": false,
+                "cumulative": false
+              },
+              "thresholds": {
+                "continuousMinKm": 0.5,
+                "continuousMinGrade": 3,
+                "continuousMinGainM": 30,
+                "cumulativeMinKm": 2,
+                "cumulativeMinGainM": 80,
+                "cumulativeMinGainPerKm": 20
+              },
+              "geometryIssues": [],
+              "sourceFields": {
+                "recordedDistanceKm": "strava_segment_details",
+                "averageGrade": "strava_segment_details",
+                "climbCategory": "strava_segment_details",
+                "elevationGainM": "strava_segment_details",
+                "athleteCount": "strava_segment_details",
+                "effortCount": "strava_segment_details",
+                "starCount": "strava_segment_details"
+              }
+            }
+          },
+          {
+            "id": "640146",
+            "reasons": [
+              "climbing_thresholds_not_met"
+            ],
+            "evidence": {
+              "distanceKm": 0.33653535906887827,
+              "averageGrade": 16.4,
+              "elevationGainM": 56.2372,
+              "climbCategory": 0,
+              "gainPerKm": 167.1063633717312,
+              "branches": {
+                "native": false,
+                "continuous": false,
+                "cumulative": false
+              },
+              "thresholds": {
+                "continuousMinKm": 0.5,
+                "continuousMinGrade": 3,
+                "continuousMinGainM": 30,
+                "cumulativeMinKm": 2,
+                "cumulativeMinGainM": 80,
+                "cumulativeMinGainPerKm": 20
+              },
+              "geometryIssues": [],
+              "sourceFields": {
+                "recordedDistanceKm": "strava_segment_details",
+                "averageGrade": "strava_segment_details",
+                "climbCategory": "strava_segment_details",
+                "elevationGainM": "strava_segment_details",
+                "athleteCount": "strava_segment_details",
+                "effortCount": "strava_segment_details",
+                "starCount": "strava_segment_details"
+              }
+            }
+          },
+          {
+            "id": "641724",
+            "reasons": [
+              "climbing_thresholds_not_met"
+            ],
+            "evidence": {
+              "distanceKm": 1.6793099077834368,
+              "averageGrade": -0.3,
+              "elevationGainM": 0,
+              "climbCategory": 0,
+              "gainPerKm": 0,
+              "branches": {
+                "native": false,
+                "continuous": false,
+                "cumulative": false
+              },
+              "thresholds": {
+                "continuousMinKm": 0.5,
+                "continuousMinGrade": 3,
+                "continuousMinGainM": 30,
+                "cumulativeMinKm": 2,
+                "cumulativeMinGainM": 80,
+                "cumulativeMinGainPerKm": 20
+              },
+              "geometryIssues": [
+                "sparse_geometry"
+              ],
+              "sourceFields": {
+                "recordedDistanceKm": "strava_segment_details",
+                "averageGrade": "strava_segment_details",
+                "climbCategory": "strava_segment_details",
+                "elevationGainM": "strava_segment_details",
+                "athleteCount": "strava_segment_details",
+                "effortCount": "strava_segment_details",
+                "starCount": "strava_segment_details"
+              }
+            }
+          },
+          {
+            "id": "641725",
+            "reasons": [
+              "climbing_thresholds_not_met"
+            ],
+            "evidence": {
+              "distanceKm": 1.7470969895427026,
+              "averageGrade": 0.3,
+              "elevationGainM": 6.6,
+              "climbCategory": 0,
+              "gainPerKm": 3.77769525075281,
+              "branches": {
+                "native": false,
+                "continuous": false,
+                "cumulative": false
+              },
+              "thresholds": {
+                "continuousMinKm": 0.5,
+                "continuousMinGrade": 3,
+                "continuousMinGainM": 30,
+                "cumulativeMinKm": 2,
+                "cumulativeMinGainM": 80,
+                "cumulativeMinGainPerKm": 20
+              },
+              "geometryIssues": [],
+              "sourceFields": {
+                "recordedDistanceKm": "strava_segment_details",
+                "averageGrade": "strava_segment_details",
+                "climbCategory": "strava_segment_details",
+                "elevationGainM": "strava_segment_details",
+                "athleteCount": "strava_segment_details",
+                "effortCount": "strava_segment_details",
+                "starCount": "strava_segment_details"
+              }
+            }
+          },
+          {
+            "id": "641726",
+            "reasons": [
+              "climbing_thresholds_not_met"
+            ],
+            "evidence": {
+              "distanceKm": 1.0519159155881135,
+              "averageGrade": 0,
+              "elevationGainM": 2,
+              "climbCategory": 0,
+              "gainPerKm": 1.9012926512114081,
+              "branches": {
+                "native": false,
+                "continuous": false,
+                "cumulative": false
+              },
+              "thresholds": {
+                "continuousMinKm": 0.5,
+                "continuousMinGrade": 3,
+                "continuousMinGainM": 30,
+                "cumulativeMinKm": 2,
+                "cumulativeMinGainM": 80,
+                "cumulativeMinGainPerKm": 20
+              },
+              "geometryIssues": [],
+              "sourceFields": {
+                "recordedDistanceKm": "strava_segment_details",
+                "averageGrade": "strava_segment_details",
+                "climbCategory": "strava_segment_details",
+                "elevationGainM": "strava_segment_details",
+                "athleteCount": "strava_segment_details",
+                "effortCount": "strava_segment_details",
+                "starCount": "strava_segment_details"
+              }
+            }
+          }
+        ],
+        "unknown": []
+      },
+      "loop": {
+        "matched": [],
+        "not_matched": [
+          {
+            "id": "610451",
+            "reasons": [
+              "not_closed"
+            ],
+            "evidence": {
+              "distanceKm": 1.1021568229255905,
+              "endpointDistanceM": 1100.4971203080588,
+              "closureThresholdM": 33.06470468776771,
+              "reverseOverlapRatio": null,
+              "outAndBackMatchRatio": null,
+              "geometryReliable": true,
+              "geometryIssues": [],
+              "thresholds": {
+                "minKm": 1,
+                "closureMaxM": 150,
+                "closureFraction": 0.03,
+                "loopMaxReverseRatio": 0.3,
+                "returnMinReverseRatio": 0.7,
+                "returnMinMatchRatio": 0.8
+              },
+              "sourceFields": {
+                "recordedDistanceKm": "strava_segment_details",
+                "averageGrade": "strava_segment_details",
+                "climbCategory": "strava_segment_details",
+                "elevationGainM": "strava_segment_details",
+                "athleteCount": "strava_segment_details",
+                "effortCount": "strava_segment_details",
+                "starCount": "strava_segment_details"
+              }
+            }
+          },
+          {
+            "id": "618010",
+            "reasons": [
+              "below_shape_minimum_distance"
+            ],
+            "evidence": {
+              "distanceKm": 0.5228569113798699,
+              "endpointDistanceM": 355.49355243118714,
+              "closureThresholdM": 15.685707341396096,
+              "reverseOverlapRatio": null,
+              "outAndBackMatchRatio": null,
+              "geometryReliable": true,
+              "geometryIssues": [],
+              "thresholds": {
+                "minKm": 1,
+                "closureMaxM": 150,
+                "closureFraction": 0.03,
+                "loopMaxReverseRatio": 0.3,
+                "returnMinReverseRatio": 0.7,
+                "returnMinMatchRatio": 0.8
+              },
+              "sourceFields": {
+                "recordedDistanceKm": "strava_segment_details",
+                "averageGrade": "strava_segment_details",
+                "climbCategory": "strava_segment_details",
+                "elevationGainM": "strava_segment_details",
+                "athleteCount": "strava_segment_details",
+                "effortCount": "strava_segment_details",
+                "starCount": "strava_segment_details"
+              }
+            }
+          },
+          {
+            "id": "625527",
+            "reasons": [
+              "not_closed"
+            ],
+            "evidence": {
+              "distanceKm": 1.992267930712666,
+              "endpointDistanceM": 1409.7300762874029,
+              "closureThresholdM": 59.768037921379985,
+              "reverseOverlapRatio": null,
+              "outAndBackMatchRatio": null,
+              "geometryReliable": true,
+              "geometryIssues": [],
+              "thresholds": {
+                "minKm": 1,
+                "closureMaxM": 150,
+                "closureFraction": 0.03,
+                "loopMaxReverseRatio": 0.3,
+                "returnMinReverseRatio": 0.7,
+                "returnMinMatchRatio": 0.8
+              },
+              "sourceFields": {
+                "recordedDistanceKm": "strava_segment_details",
+                "averageGrade": "strava_segment_details",
+                "climbCategory": "strava_segment_details",
+                "elevationGainM": "strava_segment_details",
+                "athleteCount": "strava_segment_details",
+                "effortCount": "strava_segment_details",
+                "starCount": "strava_segment_details"
+              }
+            }
+          },
+          {
+            "id": "628872",
+            "reasons": [
+              "below_shape_minimum_distance"
+            ],
+            "evidence": {
+              "distanceKm": 0.5818178883977476,
+              "endpointDistanceM": 538.334876381493,
+              "closureThresholdM": 17.45453665193243,
+              "reverseOverlapRatio": null,
+              "outAndBackMatchRatio": null,
+              "geometryReliable": true,
+              "geometryIssues": [],
+              "thresholds": {
+                "minKm": 1,
+                "closureMaxM": 150,
+                "closureFraction": 0.03,
+                "loopMaxReverseRatio": 0.3,
+                "returnMinReverseRatio": 0.7,
+                "returnMinMatchRatio": 0.8
+              },
+              "sourceFields": {
+                "recordedDistanceKm": "strava_segment_details",
+                "averageGrade": "strava_segment_details",
+                "climbCategory": "strava_segment_details",
+                "elevationGainM": "strava_segment_details",
+                "athleteCount": "strava_segment_details",
+                "effortCount": "strava_segment_details",
+                "starCount": "strava_segment_details"
+              }
+            }
+          },
+          {
+            "id": "634126",
+            "reasons": [
+              "not_closed"
+            ],
+            "evidence": {
+              "distanceKm": 2.5320561232396863,
+              "endpointDistanceM": 1078.098225297696,
+              "closureThresholdM": 75.96168369719058,
+              "reverseOverlapRatio": null,
+              "outAndBackMatchRatio": null,
+              "geometryReliable": true,
+              "geometryIssues": [],
+              "thresholds": {
+                "minKm": 1,
+                "closureMaxM": 150,
+                "closureFraction": 0.03,
+                "loopMaxReverseRatio": 0.3,
+                "returnMinReverseRatio": 0.7,
+                "returnMinMatchRatio": 0.8
+              },
+              "sourceFields": {
+                "recordedDistanceKm": "strava_segment_details",
+                "averageGrade": "strava_segment_details",
+                "climbCategory": "strava_segment_details",
+                "elevationGainM": "strava_segment_details",
+                "athleteCount": "strava_segment_details",
+                "effortCount": "strava_segment_details",
+                "starCount": "strava_segment_details"
+              }
+            }
+          }
+        ],
+        "unknown": [
+          {
+            "id": "641724",
+            "reasons": [
+              "shape_evidence_incomplete",
+              "sparse_geometry"
+            ],
+            "evidence": {
+              "distanceKm": 1.6793099077834368,
+              "endpointDistanceM": null,
+              "closureThresholdM": 50.3792972335031,
+              "reverseOverlapRatio": null,
+              "outAndBackMatchRatio": null,
+              "geometryReliable": false,
+              "geometryIssues": [
+                "sparse_geometry"
+              ],
+              "thresholds": {
+                "minKm": 1,
+                "closureMaxM": 150,
+                "closureFraction": 0.03,
+                "loopMaxReverseRatio": 0.3,
+                "returnMinReverseRatio": 0.7,
+                "returnMinMatchRatio": 0.8
+              },
+              "sourceFields": {
+                "recordedDistanceKm": "strava_segment_details",
+                "averageGrade": "strava_segment_details",
+                "climbCategory": "strava_segment_details",
+                "elevationGainM": "strava_segment_details",
+                "athleteCount": "strava_segment_details",
+                "effortCount": "strava_segment_details",
+                "starCount": "strava_segment_details"
+              }
+            }
+          }
+        ]
+      },
+      "out_and_back": {
+        "matched": [],
+        "not_matched": [
+          {
+            "id": "610451",
+            "reasons": [
+              "not_closed"
+            ],
+            "evidence": {
+              "distanceKm": 1.1021568229255905,
+              "endpointDistanceM": 1100.4971203080588,
+              "closureThresholdM": 33.06470468776771,
+              "reverseOverlapRatio": null,
+              "outAndBackMatchRatio": null,
+              "geometryReliable": true,
+              "geometryIssues": [],
+              "thresholds": {
+                "minKm": 1,
+                "closureMaxM": 150,
+                "closureFraction": 0.03,
+                "loopMaxReverseRatio": 0.3,
+                "returnMinReverseRatio": 0.7,
+                "returnMinMatchRatio": 0.8
+              },
+              "sourceFields": {
+                "recordedDistanceKm": "strava_segment_details",
+                "averageGrade": "strava_segment_details",
+                "climbCategory": "strava_segment_details",
+                "elevationGainM": "strava_segment_details",
+                "athleteCount": "strava_segment_details",
+                "effortCount": "strava_segment_details",
+                "starCount": "strava_segment_details"
+              }
+            }
+          },
+          {
+            "id": "618010",
+            "reasons": [
+              "below_shape_minimum_distance"
+            ],
+            "evidence": {
+              "distanceKm": 0.5228569113798699,
+              "endpointDistanceM": 355.49355243118714,
+              "closureThresholdM": 15.685707341396096,
+              "reverseOverlapRatio": null,
+              "outAndBackMatchRatio": null,
+              "geometryReliable": true,
+              "geometryIssues": [],
+              "thresholds": {
+                "minKm": 1,
+                "closureMaxM": 150,
+                "closureFraction": 0.03,
+                "loopMaxReverseRatio": 0.3,
+                "returnMinReverseRatio": 0.7,
+                "returnMinMatchRatio": 0.8
+              },
+              "sourceFields": {
+                "recordedDistanceKm": "strava_segment_details",
+                "averageGrade": "strava_segment_details",
+                "climbCategory": "strava_segment_details",
+                "elevationGainM": "strava_segment_details",
+                "athleteCount": "strava_segment_details",
+                "effortCount": "strava_segment_details",
+                "starCount": "strava_segment_details"
+              }
+            }
+          },
+          {
+            "id": "625527",
+            "reasons": [
+              "not_closed"
+            ],
+            "evidence": {
+              "distanceKm": 1.992267930712666,
+              "endpointDistanceM": 1409.7300762874029,
+              "closureThresholdM": 59.768037921379985,
+              "reverseOverlapRatio": null,
+              "outAndBackMatchRatio": null,
+              "geometryReliable": true,
+              "geometryIssues": [],
+              "thresholds": {
+                "minKm": 1,
+                "closureMaxM": 150,
+                "closureFraction": 0.03,
+                "loopMaxReverseRatio": 0.3,
+                "returnMinReverseRatio": 0.7,
+                "returnMinMatchRatio": 0.8
+              },
+              "sourceFields": {
+                "recordedDistanceKm": "strava_segment_details",
+                "averageGrade": "strava_segment_details",
+                "climbCategory": "strava_segment_details",
+                "elevationGainM": "strava_segment_details",
+                "athleteCount": "strava_segment_details",
+                "effortCount": "strava_segment_details",
+                "starCount": "strava_segment_details"
+              }
+            }
+          },
+          {
+            "id": "628872",
+            "reasons": [
+              "below_shape_minimum_distance"
+            ],
+            "evidence": {
+              "distanceKm": 0.5818178883977476,
+              "endpointDistanceM": 538.334876381493,
+              "closureThresholdM": 17.45453665193243,
+              "reverseOverlapRatio": null,
+              "outAndBackMatchRatio": null,
+              "geometryReliable": true,
+              "geometryIssues": [],
+              "thresholds": {
+                "minKm": 1,
+                "closureMaxM": 150,
+                "closureFraction": 0.03,
+                "loopMaxReverseRatio": 0.3,
+                "returnMinReverseRatio": 0.7,
+                "returnMinMatchRatio": 0.8
+              },
+              "sourceFields": {
+                "recordedDistanceKm": "strava_segment_details",
+                "averageGrade": "strava_segment_details",
+                "climbCategory": "strava_segment_details",
+                "elevationGainM": "strava_segment_details",
+                "athleteCount": "strava_segment_details",
+                "effortCount": "strava_segment_details",
+                "starCount": "strava_segment_details"
+              }
+            }
+          },
+          {
+            "id": "634126",
+            "reasons": [
+              "not_closed"
+            ],
+            "evidence": {
+              "distanceKm": 2.5320561232396863,
+              "endpointDistanceM": 1078.098225297696,
+              "closureThresholdM": 75.96168369719058,
+              "reverseOverlapRatio": null,
+              "outAndBackMatchRatio": null,
+              "geometryReliable": true,
+              "geometryIssues": [],
+              "thresholds": {
+                "minKm": 1,
+                "closureMaxM": 150,
+                "closureFraction": 0.03,
+                "loopMaxReverseRatio": 0.3,
+                "returnMinReverseRatio": 0.7,
+                "returnMinMatchRatio": 0.8
+              },
+              "sourceFields": {
+                "recordedDistanceKm": "strava_segment_details",
+                "averageGrade": "strava_segment_details",
+                "climbCategory": "strava_segment_details",
+                "elevationGainM": "strava_segment_details",
+                "athleteCount": "strava_segment_details",
+                "effortCount": "strava_segment_details",
+                "starCount": "strava_segment_details"
+              }
+            }
+          }
+        ],
+        "unknown": [
+          {
+            "id": "641724",
+            "reasons": [
+              "shape_evidence_incomplete",
+              "sparse_geometry"
+            ],
+            "evidence": {
+              "distanceKm": 1.6793099077834368,
+              "endpointDistanceM": null,
+              "closureThresholdM": 50.3792972335031,
+              "reverseOverlapRatio": null,
+              "outAndBackMatchRatio": null,
+              "geometryReliable": false,
+              "geometryIssues": [
+                "sparse_geometry"
+              ],
+              "thresholds": {
+                "minKm": 1,
+                "closureMaxM": 150,
+                "closureFraction": 0.03,
+                "loopMaxReverseRatio": 0.3,
+                "returnMinReverseRatio": 0.7,
+                "returnMinMatchRatio": 0.8
+              },
+              "sourceFields": {
+                "recordedDistanceKm": "strava_segment_details",
+                "averageGrade": "strava_segment_details",
+                "climbCategory": "strava_segment_details",
+                "elevationGainM": "strava_segment_details",
+                "athleteCount": "strava_segment_details",
+                "effortCount": "strava_segment_details",
+                "starCount": "strava_segment_details"
+              }
+            }
+          }
+        ]
+      },
+      "long_distance": {
+        "matched": [],
+        "not_matched": [
+          {
+            "id": "610451",
+            "reasons": [
+              "below_long_distance_threshold"
+            ],
+            "evidence": {
+              "distanceKm": 1.1021568229255905,
+              "rawTrajectoryDistanceKm": 1.1021568229255905,
+              "geometryIssues": [],
+              "thresholds": {
+                "minKm": 10
+              },
+              "distanceBand": null,
+              "sourceFields": {
+                "recordedDistanceKm": "strava_segment_details",
+                "averageGrade": "strava_segment_details",
+                "climbCategory": "strava_segment_details",
+                "elevationGainM": "strava_segment_details",
+                "athleteCount": "strava_segment_details",
+                "effortCount": "strava_segment_details",
+                "starCount": "strava_segment_details"
+              }
+            }
+          },
+          {
+            "id": "618010",
+            "reasons": [
+              "below_long_distance_threshold"
+            ],
+            "evidence": {
+              "distanceKm": 0.5228569113798699,
+              "rawTrajectoryDistanceKm": 0.5228569113798699,
+              "geometryIssues": [],
+              "thresholds": {
+                "minKm": 10
+              },
+              "distanceBand": null,
+              "sourceFields": {
+                "recordedDistanceKm": "strava_segment_details",
+                "averageGrade": "strava_segment_details",
+                "climbCategory": "strava_segment_details",
+                "elevationGainM": "strava_segment_details",
+                "athleteCount": "strava_segment_details",
+                "effortCount": "strava_segment_details",
+                "starCount": "strava_segment_details"
+              }
+            }
+          },
+          {
+            "id": "625527",
+            "reasons": [
+              "below_long_distance_threshold"
+            ],
+            "evidence": {
+              "distanceKm": 1.992267930712666,
+              "rawTrajectoryDistanceKm": 1.992267930712666,
+              "geometryIssues": [],
+              "thresholds": {
+                "minKm": 10
+              },
+              "distanceBand": null,
+              "sourceFields": {
+                "recordedDistanceKm": "strava_segment_details",
+                "averageGrade": "strava_segment_details",
+                "climbCategory": "strava_segment_details",
+                "elevationGainM": "strava_segment_details",
+                "athleteCount": "strava_segment_details",
+                "effortCount": "strava_segment_details",
+                "starCount": "strava_segment_details"
+              }
+            }
+          },
+          {
+            "id": "628872",
+            "reasons": [
+              "below_long_distance_threshold"
+            ],
+            "evidence": {
+              "distanceKm": 0.5818178883977476,
+              "rawTrajectoryDistanceKm": 0.5818178883977476,
+              "geometryIssues": [],
+              "thresholds": {
+                "minKm": 10
+              },
+              "distanceBand": null,
+              "sourceFields": {
+                "recordedDistanceKm": "strava_segment_details",
+                "averageGrade": "strava_segment_details",
+                "climbCategory": "strava_segment_details",
+                "elevationGainM": "strava_segment_details",
+                "athleteCount": "strava_segment_details",
+                "effortCount": "strava_segment_details",
+                "starCount": "strava_segment_details"
+              }
+            }
+          },
+          {
+            "id": "634126",
+            "reasons": [
+              "below_long_distance_threshold"
+            ],
+            "evidence": {
+              "distanceKm": 2.5320561232396863,
+              "rawTrajectoryDistanceKm": 2.5320561232396863,
+              "geometryIssues": [],
+              "thresholds": {
+                "minKm": 10
+              },
+              "distanceBand": null,
+              "sourceFields": {
+                "recordedDistanceKm": "strava_segment_details",
+                "averageGrade": "strava_segment_details",
+                "climbCategory": "strava_segment_details",
+                "elevationGainM": "strava_segment_details",
+                "athleteCount": "strava_segment_details",
+                "effortCount": "strava_segment_details",
+                "starCount": "strava_segment_details"
+              }
+            }
+          }
+        ],
+        "unknown": []
+      },
+      "popular": {
+        "matched": [
+          {
+            "id": "634126",
+            "reasons": [
+              "popular_thresholds_met"
+            ],
+            "evidence": {
+              "athleteCount": 14658,
+              "effortCount": 366783,
+              "athletePercentile": 99.54128440366972,
+              "effortPercentile": 99.54128440366972,
+              "score": 99.54128440366972,
+              "reference": {
+                "key": "[\"state\",\"china\",\"zhejiang\"]",
+                "level": "state",
+                "country": "china",
+                "state": "zhejiang",
+                "city": null,
+                "representativeCount": 109,
+                "athleteCountSamples": 109,
+                "effortCountSamples": 109,
+                "starCountSamples": 109
+              },
+              "thresholds": {
+                "minReferenceSize": 100,
+                "minAthletes": 50,
+                "athleteWeight": 0.7,
+                "effortWeight": 0.3,
+                "minScore": 80
+              },
+              "activityType": "Ride",
+              "sourceFields": {
+                "recordedDistanceKm": "strava_segment_details",
+                "averageGrade": "strava_segment_details",
+                "climbCategory": "strava_segment_details",
+                "elevationGainM": "strava_segment_details",
+                "athleteCount": "strava_segment_details",
+                "effortCount": "strava_segment_details",
+                "starCount": "strava_segment_details"
+              }
+            }
+          },
+          {
+            "id": "641726",
+            "reasons": [
+              "popular_thresholds_met"
+            ],
+            "evidence": {
+              "athleteCount": 2582,
+              "effortCount": 11905,
+              "athletePercentile": 82.85920925747348,
+              "effortPercentile": 80.06268081002894,
+              "score": 82.02025072324011,
+              "reference": {
+                "key": "[\"city\",\"china\",\"shanghai\",\"shanghai\"]",
+                "level": "city",
+                "country": "china",
+                "state": "shanghai",
+                "city": "shanghai",
+                "representativeCount": 2074,
+                "athleteCountSamples": 2074,
+                "effortCountSamples": 2074,
+                "starCountSamples": 2074
+              },
+              "thresholds": {
+                "minReferenceSize": 100,
+                "minAthletes": 50,
+                "athleteWeight": 0.7,
+                "effortWeight": 0.3,
+                "minScore": 80
+              },
+              "activityType": "Ride",
+              "sourceFields": {
+                "recordedDistanceKm": "strava_segment_details",
+                "averageGrade": "strava_segment_details",
+                "climbCategory": "strava_segment_details",
+                "elevationGainM": "strava_segment_details",
+                "athleteCount": "strava_segment_details",
+                "effortCount": "strava_segment_details",
+                "starCount": "strava_segment_details"
+              }
+            }
+          },
+          {
+            "id": "664364",
+            "reasons": [
+              "popular_thresholds_met"
+            ],
+            "evidence": {
+              "athleteCount": 9243,
+              "effortCount": 80126,
+              "athletePercentile": 98.62385321100918,
+              "effortPercentile": 98.62385321100918,
+              "score": 98.62385321100916,
+              "reference": {
+                "key": "[\"state\",\"china\",\"zhejiang\"]",
+                "level": "state",
+                "country": "china",
+                "state": "zhejiang",
+                "city": null,
+                "representativeCount": 109,
+                "athleteCountSamples": 109,
+                "effortCountSamples": 109,
+                "starCountSamples": 109
+              },
+              "thresholds": {
+                "minReferenceSize": 100,
+                "minAthletes": 50,
+                "athleteWeight": 0.7,
+                "effortWeight": 0.3,
+                "minScore": 80
+              },
+              "activityType": "Ride",
+              "sourceFields": {
+                "recordedDistanceKm": "strava_segment_details",
+                "averageGrade": "strava_segment_details",
+                "climbCategory": "strava_segment_details",
+                "elevationGainM": "strava_segment_details",
+                "athleteCount": "strava_segment_details",
+                "effortCount": "strava_segment_details",
+                "starCount": "strava_segment_details"
+              }
+            }
+          }
+        ],
+        "not_matched": [
+          {
+            "id": "641724",
+            "reasons": [
+              "popular_relative_threshold_not_met"
+            ],
+            "evidence": {
+              "athleteCount": 2683,
+              "effortCount": 5118,
+              "athletePercentile": 83.72709739633558,
+              "effortPercentile": 65.21215043394407,
+              "score": 78.17261330761812,
+              "reference": {
+                "key": "[\"city\",\"china\",\"shanghai\",\"shanghai\"]",
+                "level": "city",
+                "country": "china",
+                "state": "shanghai",
+                "city": "shanghai",
+                "representativeCount": 2074,
+                "athleteCountSamples": 2074,
+                "effortCountSamples": 2074,
+                "starCountSamples": 2074
+              },
+              "thresholds": {
+                "minReferenceSize": 100,
+                "minAthletes": 50,
+                "athleteWeight": 0.7,
+                "effortWeight": 0.3,
+                "minScore": 80
+              },
+              "activityType": "Ride",
+              "sourceFields": {
+                "recordedDistanceKm": "strava_segment_details",
+                "averageGrade": "strava_segment_details",
+                "climbCategory": "strava_segment_details",
+                "elevationGainM": "strava_segment_details",
+                "athleteCount": "strava_segment_details",
+                "effortCount": "strava_segment_details",
+                "starCount": "strava_segment_details"
+              }
+            }
+          },
+          {
+            "id": "641725",
+            "reasons": [
+              "popular_relative_threshold_not_met"
+            ],
+            "evidence": {
+              "athleteCount": 1132,
+              "effortCount": 2951,
+              "athletePercentile": 60.824493731919,
+              "effortPercentile": 53.977820636451305,
+              "score": 58.77049180327869,
+              "reference": {
+                "key": "[\"city\",\"china\",\"shanghai\",\"shanghai\"]",
+                "level": "city",
+                "country": "china",
+                "state": "shanghai",
+                "city": "shanghai",
+                "representativeCount": 2074,
+                "athleteCountSamples": 2074,
+                "effortCountSamples": 2074,
+                "starCountSamples": 2074
+              },
+              "thresholds": {
+                "minReferenceSize": 100,
+                "minAthletes": 50,
+                "athleteWeight": 0.7,
+                "effortWeight": 0.3,
+                "minScore": 80
+              },
+              "activityType": "Ride",
+              "sourceFields": {
+                "recordedDistanceKm": "strava_segment_details",
+                "averageGrade": "strava_segment_details",
+                "climbCategory": "strava_segment_details",
+                "elevationGainM": "strava_segment_details",
+                "athleteCount": "strava_segment_details",
+                "effortCount": "strava_segment_details",
+                "starCount": "strava_segment_details"
+              }
+            }
+          },
+          {
+            "id": "641727",
+            "reasons": [
+              "popular_relative_threshold_not_met"
+            ],
+            "evidence": {
+              "athleteCount": 178,
+              "effortCount": 291,
+              "athletePercentile": 25.36162005785921,
+              "effortPercentile": 17.671166827386692,
+              "score": 23.054484088717455,
+              "reference": {
+                "key": "[\"city\",\"china\",\"shanghai\",\"shanghai\"]",
+                "level": "city",
+                "country": "china",
+                "state": "shanghai",
+                "city": "shanghai",
+                "representativeCount": 2074,
+                "athleteCountSamples": 2074,
+                "effortCountSamples": 2074,
+                "starCountSamples": 2074
+              },
+              "thresholds": {
+                "minReferenceSize": 100,
+                "minAthletes": 50,
+                "athleteWeight": 0.7,
+                "effortWeight": 0.3,
+                "minScore": 80
+              },
+              "activityType": "Ride",
+              "sourceFields": {
+                "recordedDistanceKm": "strava_segment_details",
+                "averageGrade": "strava_segment_details",
+                "climbCategory": "strava_segment_details",
+                "elevationGainM": "strava_segment_details",
+                "athleteCount": "strava_segment_details",
+                "effortCount": "strava_segment_details",
+                "starCount": "strava_segment_details"
+              }
+            }
+          },
+          {
+            "id": "648655",
+            "reasons": [
+              "popular_relative_threshold_not_met"
+            ],
+            "evidence": {
+              "athleteCount": 205,
+              "effortCount": 3582,
+              "athletePercentile": 31.911993769470406,
+              "effortPercentile": 62.28582554517134,
+              "score": 41.02414330218069,
+              "reference": {
+                "key": "[\"country\",\"china\"]",
+                "level": "country",
+                "country": "china",
+                "state": null,
+                "city": null,
+                "representativeCount": 2568,
+                "athleteCountSamples": 2568,
+                "effortCountSamples": 2568,
+                "starCountSamples": 2568
+              },
+              "thresholds": {
+                "minReferenceSize": 100,
+                "minAthletes": 50,
+                "athleteWeight": 0.7,
+                "effortWeight": 0.3,
+                "minScore": 80
+              },
+              "activityType": "Ride",
+              "sourceFields": {
+                "recordedDistanceKm": "strava_segment_details",
+                "averageGrade": "strava_segment_details",
+                "climbCategory": "strava_segment_details",
+                "elevationGainM": "strava_segment_details",
+                "athleteCount": "strava_segment_details",
+                "effortCount": "strava_segment_details",
+                "starCount": "strava_segment_details"
+              }
+            }
+          },
+          {
+            "id": "669028",
+            "reasons": [
+              "below_popular_absolute_minimum"
+            ],
+            "evidence": {
+              "athleteCount": 24,
+              "effortCount": 298,
+              "athletePercentile": 9.860173577627773,
+              "effortPercentile": 17.93635486981678,
+              "score": 12.283027965284475,
+              "reference": {
+                "key": "[\"city\",\"china\",\"shanghai\",\"shanghai\"]",
+                "level": "city",
+                "country": "china",
+                "state": "shanghai",
+                "city": "shanghai",
+                "representativeCount": 2074,
+                "athleteCountSamples": 2074,
+                "effortCountSamples": 2074,
+                "starCountSamples": 2074
+              },
+              "thresholds": {
+                "minReferenceSize": 100,
+                "minAthletes": 50,
+                "athleteWeight": 0.7,
+                "effortWeight": 0.3,
+                "minScore": 80
+              },
+              "activityType": "Ride",
+              "sourceFields": {
+                "recordedDistanceKm": "strava_segment_details",
+                "averageGrade": "strava_segment_details",
+                "climbCategory": "strava_segment_details",
+                "elevationGainM": "strava_segment_details",
+                "athleteCount": "strava_segment_details",
+                "effortCount": "strava_segment_details",
+                "starCount": "strava_segment_details"
+              }
+            }
+          }
+        ],
+        "unknown": [
+          {
+            "id": "610451",
+            "reasons": [
+              "regional_reference_insufficient"
+            ],
+            "evidence": {
+              "athleteCount": 7354,
+              "effortCount": 42040,
+              "athletePercentile": null,
+              "effortPercentile": null,
+              "score": null,
+              "reference": null,
+              "thresholds": {
+                "minReferenceSize": 100,
+                "minAthletes": 50,
+                "athleteWeight": 0.7,
+                "effortWeight": 0.3,
+                "minScore": 80
+              },
+              "activityType": "Ride",
+              "sourceFields": {
+                "recordedDistanceKm": "strava_segment_details",
+                "averageGrade": "strava_segment_details",
+                "climbCategory": "strava_segment_details",
+                "elevationGainM": "strava_segment_details",
+                "athleteCount": "strava_segment_details",
+                "effortCount": "strava_segment_details",
+                "starCount": "strava_segment_details"
+              }
+            }
+          },
+          {
+            "id": "618010",
+            "reasons": [
+              "regional_reference_insufficient"
+            ],
+            "evidence": {
+              "athleteCount": 2092,
+              "effortCount": 13552,
+              "athletePercentile": null,
+              "effortPercentile": null,
+              "score": null,
+              "reference": null,
+              "thresholds": {
+                "minReferenceSize": 100,
+                "minAthletes": 50,
+                "athleteWeight": 0.7,
+                "effortWeight": 0.3,
+                "minScore": 80
+              },
+              "activityType": "Ride",
+              "sourceFields": {
+                "recordedDistanceKm": "strava_segment_details",
+                "averageGrade": "strava_segment_details",
+                "climbCategory": "strava_segment_details",
+                "elevationGainM": "strava_segment_details",
+                "athleteCount": "strava_segment_details",
+                "effortCount": "strava_segment_details",
+                "starCount": "strava_segment_details"
+              }
+            }
+          },
+          {
+            "id": "625527",
+            "reasons": [
+              "regional_reference_insufficient"
+            ],
+            "evidence": {
+              "athleteCount": 8786,
+              "effortCount": 139515,
+              "athletePercentile": null,
+              "effortPercentile": null,
+              "score": null,
+              "reference": null,
+              "thresholds": {
+                "minReferenceSize": 100,
+                "minAthletes": 50,
+                "athleteWeight": 0.7,
+                "effortWeight": 0.3,
+                "minScore": 80
+              },
+              "activityType": "Ride",
+              "sourceFields": {
+                "recordedDistanceKm": "strava_segment_details",
+                "averageGrade": "strava_segment_details",
+                "climbCategory": "strava_segment_details",
+                "elevationGainM": "strava_segment_details",
+                "athleteCount": "strava_segment_details",
+                "effortCount": "strava_segment_details",
+                "starCount": "strava_segment_details"
+              }
+            }
+          },
+          {
+            "id": "628872",
+            "reasons": [
+              "regional_reference_insufficient"
+            ],
+            "evidence": {
+              "athleteCount": 30385,
+              "effortCount": 305733,
+              "athletePercentile": null,
+              "effortPercentile": null,
+              "score": null,
+              "reference": null,
+              "thresholds": {
+                "minReferenceSize": 100,
+                "minAthletes": 50,
+                "athleteWeight": 0.7,
+                "effortWeight": 0.3,
+                "minScore": 80
+              },
+              "activityType": "Ride",
+              "sourceFields": {
+                "recordedDistanceKm": "strava_segment_details",
+                "averageGrade": "strava_segment_details",
+                "climbCategory": "strava_segment_details",
+                "elevationGainM": "strava_segment_details",
+                "athleteCount": "strava_segment_details",
+                "effortCount": "strava_segment_details",
+                "starCount": "strava_segment_details"
+              }
+            }
+          },
+          {
+            "id": "640146",
+            "reasons": [
+              "regional_reference_insufficient"
+            ],
+            "evidence": {
+              "athleteCount": 14495,
+              "effortCount": 121978,
+              "athletePercentile": null,
+              "effortPercentile": null,
+              "score": null,
+              "reference": null,
+              "thresholds": {
+                "minReferenceSize": 100,
+                "minAthletes": 50,
+                "athleteWeight": 0.7,
+                "effortWeight": 0.3,
+                "minScore": 80
+              },
+              "activityType": "Ride",
+              "sourceFields": {
+                "recordedDistanceKm": "strava_segment_details",
+                "averageGrade": "strava_segment_details",
+                "climbCategory": "strava_segment_details",
+                "elevationGainM": "strava_segment_details",
+                "athleteCount": "strava_segment_details",
+                "effortCount": "strava_segment_details",
+                "starCount": "strava_segment_details"
+              }
+            }
+          }
+        ]
+      },
+      "highly_starred": {
+        "matched": [
+          {
+            "id": "634126",
+            "reasons": [
+              "highly_starred_thresholds_met"
+            ],
+            "evidence": {
+              "starCount": 4072,
+              "starPercentile": 99.54128440366972,
+              "reference": {
+                "key": "[\"state\",\"china\",\"zhejiang\"]",
+                "level": "state",
+                "country": "china",
+                "state": "zhejiang",
+                "city": null,
+                "representativeCount": 109,
+                "athleteCountSamples": 109,
+                "effortCountSamples": 109,
+                "starCountSamples": 109
+              },
+              "thresholds": {
+                "minReferenceSize": 100,
+                "minStars": 10,
+                "minPercentile": 90
+              },
+              "activityType": "Ride",
+              "sourceFields": {
+                "recordedDistanceKm": "strava_segment_details",
+                "averageGrade": "strava_segment_details",
+                "climbCategory": "strava_segment_details",
+                "elevationGainM": "strava_segment_details",
+                "athleteCount": "strava_segment_details",
+                "effortCount": "strava_segment_details",
+                "starCount": "strava_segment_details"
+              }
+            }
+          },
+          {
+            "id": "648655",
+            "reasons": [
+              "highly_starred_thresholds_met"
+            ],
+            "evidence": {
+              "starCount": 44,
+              "starPercentile": 97.68302180685359,
+              "reference": {
+                "key": "[\"country\",\"china\"]",
+                "level": "country",
+                "country": "china",
+                "state": null,
+                "city": null,
+                "representativeCount": 2568,
+                "athleteCountSamples": 2568,
+                "effortCountSamples": 2568,
+                "starCountSamples": 2568
+              },
+              "thresholds": {
+                "minReferenceSize": 100,
+                "minStars": 10,
+                "minPercentile": 90
+              },
+              "activityType": "Ride",
+              "sourceFields": {
+                "recordedDistanceKm": "strava_segment_details",
+                "averageGrade": "strava_segment_details",
+                "climbCategory": "strava_segment_details",
+                "elevationGainM": "strava_segment_details",
+                "athleteCount": "strava_segment_details",
+                "effortCount": "strava_segment_details",
+                "starCount": "strava_segment_details"
+              }
+            }
+          },
+          {
+            "id": "664364",
+            "reasons": [
+              "highly_starred_thresholds_met"
+            ],
+            "evidence": {
+              "starCount": 915,
+              "starPercentile": 98.62385321100918,
+              "reference": {
+                "key": "[\"state\",\"china\",\"zhejiang\"]",
+                "level": "state",
+                "country": "china",
+                "state": "zhejiang",
+                "city": null,
+                "representativeCount": 109,
+                "athleteCountSamples": 109,
+                "effortCountSamples": 109,
+                "starCountSamples": 109
+              },
+              "thresholds": {
+                "minReferenceSize": 100,
+                "minStars": 10,
+                "minPercentile": 90
+              },
+              "activityType": "Ride",
+              "sourceFields": {
+                "recordedDistanceKm": "strava_segment_details",
+                "averageGrade": "strava_segment_details",
+                "climbCategory": "strava_segment_details",
+                "elevationGainM": "strava_segment_details",
+                "athleteCount": "strava_segment_details",
+                "effortCount": "strava_segment_details",
+                "starCount": "strava_segment_details"
+              }
+            }
+          }
+        ],
+        "not_matched": [
+          {
+            "id": "641724",
+            "reasons": [
+              "below_highly_starred_absolute_minimum"
+            ],
+            "evidence": {
+              "starCount": 7,
+              "starPercentile": 73.5053037608486,
+              "reference": {
+                "key": "[\"city\",\"china\",\"shanghai\",\"shanghai\"]",
+                "level": "city",
+                "country": "china",
+                "state": "shanghai",
+                "city": "shanghai",
+                "representativeCount": 2074,
+                "athleteCountSamples": 2074,
+                "effortCountSamples": 2074,
+                "starCountSamples": 2074
+              },
+              "thresholds": {
+                "minReferenceSize": 100,
+                "minStars": 10,
+                "minPercentile": 90
+              },
+              "activityType": "Ride",
+              "sourceFields": {
+                "recordedDistanceKm": "strava_segment_details",
+                "averageGrade": "strava_segment_details",
+                "climbCategory": "strava_segment_details",
+                "elevationGainM": "strava_segment_details",
+                "athleteCount": "strava_segment_details",
+                "effortCount": "strava_segment_details",
+                "starCount": "strava_segment_details"
+              }
+            }
+          },
+          {
+            "id": "641725",
+            "reasons": [
+              "below_highly_starred_absolute_minimum"
+            ],
+            "evidence": {
+              "starCount": 2,
+              "starPercentile": 37.87367405978785,
+              "reference": {
+                "key": "[\"city\",\"china\",\"shanghai\",\"shanghai\"]",
+                "level": "city",
+                "country": "china",
+                "state": "shanghai",
+                "city": "shanghai",
+                "representativeCount": 2074,
+                "athleteCountSamples": 2074,
+                "effortCountSamples": 2074,
+                "starCountSamples": 2074
+              },
+              "thresholds": {
+                "minReferenceSize": 100,
+                "minStars": 10,
+                "minPercentile": 90
+              },
+              "activityType": "Ride",
+              "sourceFields": {
+                "recordedDistanceKm": "strava_segment_details",
+                "averageGrade": "strava_segment_details",
+                "climbCategory": "strava_segment_details",
+                "elevationGainM": "strava_segment_details",
+                "athleteCount": "strava_segment_details",
+                "effortCount": "strava_segment_details",
+                "starCount": "strava_segment_details"
+              }
+            }
+          },
+          {
+            "id": "641726",
+            "reasons": [
+              "below_highly_starred_absolute_minimum"
+            ],
+            "evidence": {
+              "starCount": 5,
+              "starPercentile": 64.44069431051109,
+              "reference": {
+                "key": "[\"city\",\"china\",\"shanghai\",\"shanghai\"]",
+                "level": "city",
+                "country": "china",
+                "state": "shanghai",
+                "city": "shanghai",
+                "representativeCount": 2074,
+                "athleteCountSamples": 2074,
+                "effortCountSamples": 2074,
+                "starCountSamples": 2074
+              },
+              "thresholds": {
+                "minReferenceSize": 100,
+                "minStars": 10,
+                "minPercentile": 90
+              },
+              "activityType": "Ride",
+              "sourceFields": {
+                "recordedDistanceKm": "strava_segment_details",
+                "averageGrade": "strava_segment_details",
+                "climbCategory": "strava_segment_details",
+                "elevationGainM": "strava_segment_details",
+                "athleteCount": "strava_segment_details",
+                "effortCount": "strava_segment_details",
+                "starCount": "strava_segment_details"
+              }
+            }
+          },
+          {
+            "id": "641727",
+            "reasons": [
+              "below_highly_starred_absolute_minimum"
+            ],
+            "evidence": {
+              "starCount": 2,
+              "starPercentile": 37.87367405978785,
+              "reference": {
+                "key": "[\"city\",\"china\",\"shanghai\",\"shanghai\"]",
+                "level": "city",
+                "country": "china",
+                "state": "shanghai",
+                "city": "shanghai",
+                "representativeCount": 2074,
+                "athleteCountSamples": 2074,
+                "effortCountSamples": 2074,
+                "starCountSamples": 2074
+              },
+              "thresholds": {
+                "minReferenceSize": 100,
+                "minStars": 10,
+                "minPercentile": 90
+              },
+              "activityType": "Ride",
+              "sourceFields": {
+                "recordedDistanceKm": "strava_segment_details",
+                "averageGrade": "strava_segment_details",
+                "climbCategory": "strava_segment_details",
+                "elevationGainM": "strava_segment_details",
+                "athleteCount": "strava_segment_details",
+                "effortCount": "strava_segment_details",
+                "starCount": "strava_segment_details"
+              }
+            }
+          },
+          {
+            "id": "669028",
+            "reasons": [
+              "below_highly_starred_absolute_minimum"
+            ],
+            "evidence": {
+              "starCount": 0,
+              "starPercentile": 6.485053037608486,
+              "reference": {
+                "key": "[\"city\",\"china\",\"shanghai\",\"shanghai\"]",
+                "level": "city",
+                "country": "china",
+                "state": "shanghai",
+                "city": "shanghai",
+                "representativeCount": 2074,
+                "athleteCountSamples": 2074,
+                "effortCountSamples": 2074,
+                "starCountSamples": 2074
+              },
+              "thresholds": {
+                "minReferenceSize": 100,
+                "minStars": 10,
+                "minPercentile": 90
+              },
+              "activityType": "Ride",
+              "sourceFields": {
+                "recordedDistanceKm": "strava_segment_details",
+                "averageGrade": "strava_segment_details",
+                "climbCategory": "strava_segment_details",
+                "elevationGainM": "strava_segment_details",
+                "athleteCount": "strava_segment_details",
+                "effortCount": "strava_segment_details",
+                "starCount": "strava_segment_details"
+              }
+            }
+          }
+        ],
+        "unknown": [
+          {
+            "id": "610451",
+            "reasons": [
+              "regional_reference_insufficient"
+            ],
+            "evidence": {
+              "starCount": 11,
+              "starPercentile": null,
+              "reference": null,
+              "thresholds": {
+                "minReferenceSize": 100,
+                "minStars": 10,
+                "minPercentile": 90
+              },
+              "activityType": "Ride",
+              "sourceFields": {
+                "recordedDistanceKm": "strava_segment_details",
+                "averageGrade": "strava_segment_details",
+                "climbCategory": "strava_segment_details",
+                "elevationGainM": "strava_segment_details",
+                "athleteCount": "strava_segment_details",
+                "effortCount": "strava_segment_details",
+                "starCount": "strava_segment_details"
+              }
+            }
+          },
+          {
+            "id": "618010",
+            "reasons": [
+              "regional_reference_insufficient"
+            ],
+            "evidence": {
+              "starCount": 135,
+              "starPercentile": null,
+              "reference": null,
+              "thresholds": {
+                "minReferenceSize": 100,
+                "minStars": 10,
+                "minPercentile": 90
+              },
+              "activityType": "Ride",
+              "sourceFields": {
+                "recordedDistanceKm": "strava_segment_details",
+                "averageGrade": "strava_segment_details",
+                "climbCategory": "strava_segment_details",
+                "elevationGainM": "strava_segment_details",
+                "athleteCount": "strava_segment_details",
+                "effortCount": "strava_segment_details",
+                "starCount": "strava_segment_details"
+              }
+            }
+          },
+          {
+            "id": "625527",
+            "reasons": [
+              "regional_reference_insufficient"
+            ],
+            "evidence": {
+              "starCount": 151,
+              "starPercentile": null,
+              "reference": null,
+              "thresholds": {
+                "minReferenceSize": 100,
+                "minStars": 10,
+                "minPercentile": 90
+              },
+              "activityType": "Ride",
+              "sourceFields": {
+                "recordedDistanceKm": "strava_segment_details",
+                "averageGrade": "strava_segment_details",
+                "climbCategory": "strava_segment_details",
+                "elevationGainM": "strava_segment_details",
+                "athleteCount": "strava_segment_details",
+                "effortCount": "strava_segment_details",
+                "starCount": "strava_segment_details"
+              }
+            }
+          },
+          {
+            "id": "628872",
+            "reasons": [
+              "regional_reference_insufficient"
+            ],
+            "evidence": {
+              "starCount": 179,
+              "starPercentile": null,
+              "reference": null,
+              "thresholds": {
+                "minReferenceSize": 100,
+                "minStars": 10,
+                "minPercentile": 90
+              },
+              "activityType": "Ride",
+              "sourceFields": {
+                "recordedDistanceKm": "strava_segment_details",
+                "averageGrade": "strava_segment_details",
+                "climbCategory": "strava_segment_details",
+                "elevationGainM": "strava_segment_details",
+                "athleteCount": "strava_segment_details",
+                "effortCount": "strava_segment_details",
+                "starCount": "strava_segment_details"
+              }
+            }
+          },
+          {
+            "id": "640146",
+            "reasons": [
+              "regional_reference_insufficient"
+            ],
+            "evidence": {
+              "starCount": 115,
+              "starPercentile": null,
+              "reference": null,
+              "thresholds": {
+                "minReferenceSize": 100,
+                "minStars": 10,
+                "minPercentile": 90
+              },
+              "activityType": "Ride",
+              "sourceFields": {
+                "recordedDistanceKm": "strava_segment_details",
+                "averageGrade": "strava_segment_details",
+                "climbCategory": "strava_segment_details",
+                "elevationGainM": "strava_segment_details",
+                "athleteCount": "strava_segment_details",
+                "effortCount": "strava_segment_details",
+                "starCount": "strava_segment_details"
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "startedAt": "2026-11-07 02:37:24.233",
+  "completedAt": "2026-11-07 02:38:46.375",
+  "changed": 60,
+  "unchanged": 30,
+  "verified": 90
+}

@@ -1,0 +1,20 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-08T22:36:33.576Z",
+  "tile": {
+    "z": 13,
+    "x": 6792,
+    "y": 3332
+  },
+  "segments": [
+    {
+      "id": "39726615",
+      "tileScore": 3,
+      "name": "谁的马和汽渡最快？（向马鞍山方向",
+      "distanceM": 3087,
+      "avgGrade": 0.032393909990787506,
+      "startLat": 31.79276466369629,
+      "startLng": 118.47183990478516
+    }
+  ]
+}

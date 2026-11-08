@@ -1,0 +1,20 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-08T22:26:04.758Z",
+  "tile": {
+    "z": 13,
+    "x": 6789,
+    "y": 3311
+  },
+  "segments": [
+    {
+      "id": "37971239",
+      "tileScore": 3,
+      "name": "江淮分水岭风景道来安第一段西北往东南",
+      "distanceM": 3198,
+      "avgGrade": -0.2876797914505005,
+      "startLat": 32.57340621948242,
+      "startLng": 118.3563232421875
+    }
+  ]
+}

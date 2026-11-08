@@ -1,0 +1,119 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-08T22:47:50.186Z",
+  "tile": {
+    "z": 13,
+    "x": 6686,
+    "y": 3559
+  },
+  "segments": [
+    {
+      "id": "41807713",
+      "tileScore": 9,
+      "name": "厕所到鱼塘小瓜路",
+      "distanceM": 2742.800048828125,
+      "avgGrade": 0.15677410364151,
+      "startLat": 22.95841407775879,
+      "startLng": 113.81065368652344
+    },
+    {
+      "id": "28465843",
+      "tileScore": 2,
+      "name": "Push Push Push...",
+      "distanceM": 1393.9000244140625,
+      "avgGrade": 1.8078771829605103,
+      "startLat": 22.95557403564453,
+      "startLng": 113.83480072021484
+    },
+    {
+      "id": "13888652",
+      "tileScore": 5,
+      "name": "The Horse's road",
+      "distanceM": 5161.2001953125,
+      "avgGrade": 0.1569402515888214,
+      "startLat": 22.89702606201172,
+      "startLng": 113.85726165771484
+    },
+    {
+      "id": "39750577",
+      "tileScore": 2,
+      "name": "松湖实验中学绕圈",
+      "distanceM": 2967.5,
+      "avgGrade": 0.006739679723978043,
+      "startLat": 22.935161590576172,
+      "startLng": 113.8622055053711
+    },
+    {
+      "id": "13888671",
+      "tileScore": 6,
+      "name": "False Climb to Foling lake",
+      "distanceM": 4946.7998046875,
+      "avgGrade": 0.05458074063062668,
+      "startLat": 22.95598793029785,
+      "startLng": 113.85484313964844
+    },
+    {
+      "id": "23274821",
+      "tileScore": 12,
+      "name": "Let´s  move  - KP",
+      "distanceM": 709.2999877929688,
+      "avgGrade": -0.19737771153450012,
+      "startLat": 22.921009063720703,
+      "startLng": 113.85563659667969
+    },
+    {
+      "id": "8542313",
+      "tileScore": 3,
+      "name": "Roly-Poly Climb",
+      "distanceM": 1070.300048828125,
+      "avgGrade": 2.802952289581299,
+      "startLat": 22.947921752929688,
+      "startLng": 113.82112884521484
+    },
+    {
+      "id": "28398549",
+      "tileScore": 5,
+      "name": "Foling Lake Road",
+      "distanceM": 1963.5999755859375,
+      "avgGrade": 0.19861477613449097,
+      "startLat": 22.971647262573242,
+      "startLng": 113.83323669433594
+    },
+    {
+      "id": "38231698",
+      "tileScore": 15,
+      "name": "Go go go ",
+      "distanceM": 1238.300048828125,
+      "avgGrade": 0.6541225910186768,
+      "startLat": 22.924449920654297,
+      "startLng": 113.86243438720703
+    },
+    {
+      "id": "22660109",
+      "tileScore": 1,
+      "name": "On the way to big Buddha - Long Segment",
+      "distanceM": 4908.39990234375,
+      "avgGrade": 0.12631407380104065,
+      "startLat": 22.933595657348633,
+      "startLng": 113.82931518554688
+    },
+    {
+      "id": "40404229",
+      "tileScore": 18,
+      "name": "长安-正果拉练  入隧道前",
+      "distanceM": 58242,
+      "avgGrade": 0.0065245009027421474,
+      "startLat": 22.82621955871582,
+      "startLng": 113.8212890625
+    },
+    {
+      "id": "40043219",
+      "tileScore": 3,
+      "name": "林间古老小路",
+      "distanceM": 1778.5,
+      "avgGrade": -0.22490862011909485,
+      "startLat": 22.94733428955078,
+      "startLng": 113.82064819335938
+    }
+  ]
+}

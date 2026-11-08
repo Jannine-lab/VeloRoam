@@ -1,0 +1,20 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-08T22:47:55.473Z",
+  "tile": {
+    "z": 13,
+    "x": 6688,
+    "y": 3559
+  },
+  "segments": [
+    {
+      "id": "31131374",
+      "tileScore": 1,
+      "name": "Lock down through 大朗",
+      "distanceM": 9918.5,
+      "avgGrade": 0.07460805028676987,
+      "startLat": 22.921937942504883,
+      "startLng": 113.98280334472656
+    }
+  ]
+}

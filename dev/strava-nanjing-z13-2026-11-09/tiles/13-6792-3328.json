@@ -1,0 +1,20 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-08T22:35:20.135Z",
+  "tile": {
+    "z": 13,
+    "x": 6792,
+    "y": 3328
+  },
+  "segments": [
+    {
+      "id": "8895021",
+      "tileScore": 1,
+      "name": "lozho_浦口至乌江",
+      "distanceM": 22185.900390625,
+      "avgGrade": 0,
+      "startLat": 32.031639099121094,
+      "startLng": 118.60091400146484
+    }
+  ]
+}

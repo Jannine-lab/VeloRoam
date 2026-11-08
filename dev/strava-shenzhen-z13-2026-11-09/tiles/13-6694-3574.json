@@ -1,0 +1,173 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-08T22:52:32.644Z",
+  "tile": {
+    "z": 13,
+    "x": 6694,
+    "y": 3574
+  },
+  "segments": [
+    {
+      "id": "4658809",
+      "tileScore": 96,
+      "name": "聖母到扎山道停車場",
+      "distanceM": 3502.60009765625,
+      "avgGrade": 11.362987518310547,
+      "startLat": 22.345680236816406,
+      "startLng": 114.1959228515625
+    },
+    {
+      "id": "33505140",
+      "tileScore": 20,
+      "name": "啟德新路_承豐道 至 承啟道",
+      "distanceM": 1108,
+      "avgGrade": 0.3610108196735382,
+      "startLat": 22.316213607788086,
+      "startLng": 114.20341491699219
+    },
+    {
+      "id": "13952273",
+      "tileScore": 3,
+      "name": "順利太子",
+      "distanceM": 7120.10009765625,
+      "avgGrade": -1.5027878284454346,
+      "startLat": 22.333032608032227,
+      "startLng": 114.22183990478516
+    },
+    {
+      "id": "24318512",
+      "tileScore": 46,
+      "name": "郵輪碼頭大圈BY KW",
+      "distanceM": 3320,
+      "avgGrade": 0.01807229034602642,
+      "startLat": 22.308460235595703,
+      "startLng": 114.21127319335938
+    },
+    {
+      "id": "14257766",
+      "tileScore": 4,
+      "name": "Beacon Hill 1/2 - Ede Rd to Bus Stop",
+      "distanceM": 519.2000122070312,
+      "avgGrade": 10.63174057006836,
+      "startLat": 22.34037208557129,
+      "startLng": 114.17799377441406
+    },
+    {
+      "id": "30273289",
+      "tileScore": 19,
+      "name": "SHING FUND ROAD ROUNDABOUT",
+      "distanceM": 493.5,
+      "avgGrade": -0.1418439745903015,
+      "startLat": 22.314395904541016,
+      "startLng": 114.2047119140625
+    },
+    {
+      "id": "9246814",
+      "tileScore": 138,
+      "name": "蒲崗村",
+      "distanceM": 1042.0999755859375,
+      "avgGrade": 0.038384031504392624,
+      "startLat": 22.34527587890625,
+      "startLng": 114.20335388183594
+    },
+    {
+      "id": "37471413",
+      "tileScore": 4,
+      "name": "R200 CP4 to CP5",
+      "distanceM": 11418.400390625,
+      "avgGrade": -0.09983885288238525,
+      "startLat": 22.29934310913086,
+      "startLng": 114.23705291748047
+    },
+    {
+      "id": "16100014",
+      "tileScore": 11,
+      "name": "浙江街(新路段300米) 右灣",
+      "distanceM": 303.20001220703125,
+      "avgGrade": 6.893139839172363,
+      "startLat": 22.31441307067871,
+      "startLng": 114.19058227539062
+    },
+    {
+      "id": "33877200",
+      "tileScore": 27,
+      "name": "康城大冷",
+      "distanceM": 130482.203125,
+      "avgGrade": 0,
+      "startLat": 22.29688835144043,
+      "startLng": 114.26518249511719
+    },
+    {
+      "id": "42359174",
+      "tileScore": 26,
+      "name": "單車節中九龍繞道來回(暫)",
+      "distanceM": 8302.599609375,
+      "avgGrade": 0.04817768186330795,
+      "startLat": 22.311704635620117,
+      "startLng": 114.16344451904297
+    },
+    {
+      "id": "12670514",
+      "tileScore": 13,
+      "name": "世運道",
+      "distanceM": 624.4000244140625,
+      "avgGrade": -0.7687380313873291,
+      "startLat": 22.325172424316406,
+      "startLng": 114.18974304199219
+    },
+    {
+      "id": "14228148",
+      "tileScore": 11,
+      "name": "Carpenter road bike park",
+      "distanceM": 517.5999755859375,
+      "avgGrade": -0.03863987326622009,
+      "startLat": 22.33107566833496,
+      "startLng": 114.19051361083984
+    },
+    {
+      "id": "42358983",
+      "tileScore": 73,
+      "name": "香港單車節2026(56公里組)",
+      "distanceM": 54847.3984375,
+      "avgGrade": -0.016773812472820282,
+      "startLat": 22.301021575927734,
+      "startLng": 114.15717315673828
+    },
+    {
+      "id": "11145985",
+      "tileScore": 10,
+      "name": "紅燈山climb",
+      "distanceM": 289.29998779296875,
+      "avgGrade": 11.9599027633667,
+      "startLat": 22.318492889404297,
+      "startLng": 114.18296813964844
+    },
+    {
+      "id": "21201876",
+      "tileScore": 2,
+      "name": "東頭村道- 黃大仙巴士總站",
+      "distanceM": 1329.300048828125,
+      "avgGrade": -0.46641090512275696,
+      "startLat": 22.3325252532959,
+      "startLng": 114.18733978271484
+    },
+    {
+      "id": "42376868",
+      "tileScore": 12,
+      "name": "Carpenter Road Park Cycling Loop",
+      "distanceM": 576.4000244140625,
+      "avgGrade": 0,
+      "startLat": 22.331979751586914,
+      "startLng": 114.18851470947266
+    },
+    {
+      "id": "36755267",
+      "tileScore": 5,
+      "name": "一腳觀塘至轉車站 [Fung]",
+      "distanceM": 29225,
+      "avgGrade": 0.00889649335294962,
+      "startLat": 22.312467575073242,
+      "startLng": 114.2257080078125
+    }
+  ]
+}

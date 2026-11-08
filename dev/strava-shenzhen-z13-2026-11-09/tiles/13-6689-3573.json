@@ -1,0 +1,110 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-08T22:52:41.180Z",
+  "tile": {
+    "z": 13,
+    "x": 6689,
+    "y": 3573
+  },
+  "segments": [
+    {
+      "id": "28032640",
+      "tileScore": 53,
+      "name": "Tunnel small lap",
+      "distanceM": 1665.5999755859375,
+      "avgGrade": -0.07204610854387283,
+      "startLat": 22.361568450927734,
+      "startLng": 113.94908142089844
+    },
+    {
+      "id": "20114371",
+      "tileScore": 19,
+      "name": "荃灣麗城至元朗西(海安路行人燈位經青公至元朗朗邊中轉屋藍色路牌)",
+      "distanceM": 24964.5,
+      "avgGrade": 0.0416591577231884,
+      "startLat": 22.372472763061523,
+      "startLng": 114.10540771484375
+    },
+    {
+      "id": "8733633",
+      "tileScore": 44,
+      "name": "Tuen Mun River Run",
+      "distanceM": 1393,
+      "avgGrade": -0.07896625995635986,
+      "startLat": 22.38397789001465,
+      "startLng": 113.96709442138672
+    },
+    {
+      "id": "14190903",
+      "tileScore": 48,
+      "name": "青山公路青山灣段最後一斜到三聖",
+      "distanceM": 357.79998779296875,
+      "avgGrade": 2.515371799468994,
+      "startLat": 22.375667572021484,
+      "startLng": 113.98602294921875
+    },
+    {
+      "id": "31745508",
+      "tileScore": 28,
+      "name": "PFAM UPHILL TO GC",
+      "distanceM": 517.2999877929688,
+      "avgGrade": 0.11598685383796692,
+      "startLat": 22.375938415527344,
+      "startLng": 113.98578643798828
+    },
+    {
+      "id": "29994939",
+      "tileScore": 30,
+      "name": "浩和街 + 浩逸街 （南行）",
+      "distanceM": 1254,
+      "avgGrade": 0.03189792484045029,
+      "startLat": 22.366413116455078,
+      "startLng": 113.9476318359375
+    },
+    {
+      "id": "30998939",
+      "tileScore": 18,
+      "name": "出蝴蝶灣衝刺",
+      "distanceM": 862.2000122070312,
+      "avgGrade": 0.11598237603902817,
+      "startLat": 22.370052337646484,
+      "startLng": 113.95049285888672
+    },
+    {
+      "id": "1866881",
+      "tileScore": 14,
+      "name": "Tuen Mun to Lung Kwu Tan (Full)",
+      "distanceM": 10108.279296875,
+      "avgGrade": 0.08211074024438858,
+      "startLat": 22.37584114074707,
+      "startLng": 113.95995330810547
+    },
+    {
+      "id": "36106399",
+      "tileScore": 9,
+      "name": "NSW - SHAN SHING",
+      "distanceM": 90205.8984375,
+      "avgGrade": -0.013968043960630894,
+      "startLat": 22.44609260559082,
+      "startLng": 114.04883575439453
+    },
+    {
+      "id": "14807544",
+      "tileScore": 53,
+      "name": "散石灣北路(至郵箱)",
+      "distanceM": 508.1000061035156,
+      "avgGrade": 11.415075302124023,
+      "startLat": 22.38664436340332,
+      "startLng": 113.96464538574219
+    },
+    {
+      "id": "33877200",
+      "tileScore": 27,
+      "name": "康城大冷",
+      "distanceM": 130482.203125,
+      "avgGrade": 0,
+      "startLat": 22.29688835144043,
+      "startLng": 114.26518249511719
+    }
+  ]
+}

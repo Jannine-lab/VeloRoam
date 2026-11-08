@@ -1,0 +1,56 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-03T06:01:13.547Z",
+  "tile": {
+    "z": 13,
+    "x": 6864,
+    "y": 3333
+  },
+  "segments": [
+    {
+      "id": "40919296",
+      "tileScore": 3,
+      "name": "泡泡的回家之路冲刺啦",
+      "distanceM": 3102.39990234375,
+      "avgGrade": 0.006446622312068939,
+      "startLat": 31.73377799987793,
+      "startLng": 121.6419677734375
+    },
+    {
+      "id": "40915483",
+      "tileScore": 1,
+      "name": "泡泡的美食打卡",
+      "distanceM": 5597.39990234375,
+      "avgGrade": -0.007146175019443035,
+      "startLat": 31.759241104125977,
+      "startLng": 121.67549133300781
+    },
+    {
+      "id": "40919348",
+      "tileScore": 28,
+      "name": "泡泡回家咯",
+      "distanceM": 1366.699951171875,
+      "avgGrade": -0.014633789658546448,
+      "startLat": 31.72747230529785,
+      "startLng": 121.67012786865234
+    },
+    {
+      "id": "27480297",
+      "tileScore": 40,
+      "name": "S356 Junction to Cosco Junction",
+      "distanceM": 20174.599609375,
+      "avgGrade": -0.020818255841732025,
+      "startLat": 31.7596378326416,
+      "startLng": 121.66297149658203
+    },
+    {
+      "id": "27480276",
+      "tileScore": 8,
+      "name": "OverBridge to S356 Junction",
+      "distanceM": 4385.60009765625,
+      "avgGrade": -0.0045603797771036625,
+      "startLat": 31.794143676757812,
+      "startLng": 121.68756866455078
+    }
+  ]
+}

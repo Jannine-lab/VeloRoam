@@ -1,0 +1,47 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-08T22:48:14.043Z",
+  "tile": {
+    "z": 13,
+    "x": 6699,
+    "y": 3559
+  },
+  "segments": [
+    {
+      "id": "38571020",
+      "tileScore": 5,
+      "name": "Peak of the greenway",
+      "distanceM": 1410.5,
+      "avgGrade": 3.629918336868286,
+      "startLat": 22.913732528686523,
+      "startLng": 114.39689636230469
+    },
+    {
+      "id": "33011996",
+      "tileScore": 14,
+      "name": "金果湾全程（西向）",
+      "distanceM": 16508.19921875,
+      "avgGrade": 0.02665342204272747,
+      "startLat": 22.94560432434082,
+      "startLng": 114.4742431640625
+    },
+    {
+      "id": "29601088",
+      "tileScore": 23,
+      "name": "窝顶爬坡",
+      "distanceM": 1231.800048828125,
+      "avgGrade": 8.897547721862793,
+      "startLat": 22.931991577148438,
+      "startLng": 114.38639831542969
+    },
+    {
+      "id": "38525088",
+      "tileScore": 9,
+      "name": "叶挺森林公园（北向南）",
+      "distanceM": 12152.2998046875,
+      "avgGrade": -0.013166232034564018,
+      "startLat": 22.933609008789062,
+      "startLng": 114.38748168945312
+    }
+  ]
+}

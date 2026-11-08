@@ -1,0 +1,218 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-03T05:35:42.086Z",
+  "tile": {
+    "z": 13,
+    "x": 6857,
+    "y": 3349
+  },
+  "segments": [
+    {
+      "id": "41804900",
+      "tileScore": 5,
+      "name": "上海纯申",
+      "distanceM": 1537,
+      "avgGrade": 0.013012361712753773,
+      "startLat": 31.153730392456055,
+      "startLng": 121.36649322509766
+    },
+    {
+      "id": "7139077",
+      "tileScore": 1,
+      "name": "Jiuting St (Eastbound)",
+      "distanceM": 3729.10009765625,
+      "avgGrade": 0.06167708337306976,
+      "startLat": 31.130901336669922,
+      "startLng": 121.30065155029297
+    },
+    {
+      "id": "33232696",
+      "tileScore": 10,
+      "name": "香榧王镜神300瓦通勤",
+      "distanceM": 1712.199951171875,
+      "avgGrade": 0.011680878698825836,
+      "startLat": 31.152799606323242,
+      "startLng": 121.33517456054688
+    },
+    {
+      "id": "32521745",
+      "tileScore": 1,
+      "name": "HONGXIN",
+      "distanceM": 2116.199951171875,
+      "avgGrade": -0.04252906143665314,
+      "startLat": 31.159074783325195,
+      "startLng": 121.37272644042969
+    },
+    {
+      "id": "32569054",
+      "tileScore": 11,
+      "name": "Caobao Hongxin",
+      "distanceM": 960.5999755859375,
+      "avgGrade": -0.010410159826278687,
+      "startLat": 31.159931182861328,
+      "startLng": 121.36686706542969
+    },
+    {
+      "id": "39173188",
+      "tileScore": 1,
+      "name": "小龙虾后顾戴路休闲骑",
+      "distanceM": 4376.2001953125,
+      "avgGrade": -0.05484209954738617,
+      "startLat": 31.131025314331055,
+      "startLng": 121.35256958007812
+    },
+    {
+      "id": "30390303",
+      "tileScore": 2,
+      "name": "BTP-S3",
+      "distanceM": 7485,
+      "avgGrade": 0.009352036751806736,
+      "startLat": 31.171823501586914,
+      "startLng": 121.33429718017578
+    },
+    {
+      "id": "16661699",
+      "tileScore": 10,
+      "name": "the Li'an Lump - westbound",
+      "distanceM": 824,
+      "avgGrade": -0.16990290582180023,
+      "startLat": 31.135879516601562,
+      "startLng": 121.3770523071289
+    },
+    {
+      "id": "26661851",
+      "tileScore": 7,
+      "name": "Wuzhong Rd (Eastbound)",
+      "distanceM": 7929.10009765625,
+      "avgGrade": -0.002522354479879141,
+      "startLat": 31.163288116455078,
+      "startLng": 121.34059143066406
+    },
+    {
+      "id": "30564546",
+      "tileScore": 3,
+      "name": "FMG-23",
+      "distanceM": 35947.6015625,
+      "avgGrade": 0.02837463468313217,
+      "startLat": 31.019447326660156,
+      "startLng": 121.3215560913086
+    },
+    {
+      "id": "16400965",
+      "tileScore": 72,
+      "name": "Xinzhuang CBD power lap",
+      "distanceM": 1556.199951171875,
+      "avgGrade": 0.012851817533373833,
+      "startLat": 31.130813598632812,
+      "startLng": 121.3587646484375
+    },
+    {
+      "id": "12615004",
+      "tileScore": 1,
+      "name": "BaoNan Rd Main Street",
+      "distanceM": 704,
+      "avgGrade": -0.14204545319080353,
+      "startLat": 31.154165267944336,
+      "startLng": 121.35563659667969
+    },
+    {
+      "id": "27307814",
+      "tileScore": 9,
+      "name": "BTP-CN-018",
+      "distanceM": 1433.800048828125,
+      "avgGrade": 0.11159157007932663,
+      "startLat": 31.157981872558594,
+      "startLng": 121.34557342529297
+    },
+    {
+      "id": "16317617",
+      "tileScore": 2,
+      "name": "Minhang Triangle Circuit",
+      "distanceM": 20807.099609375,
+      "avgGrade": 0.03171994164586067,
+      "startLat": 31.16872787475586,
+      "startLng": 121.429443359375
+    },
+    {
+      "id": "32568892",
+      "tileScore": 5,
+      "name": "Caobao Xinfu",
+      "distanceM": 558,
+      "avgGrade": 0.12544803321361542,
+      "startLat": 31.158935546875,
+      "startLng": 121.35338592529297
+    },
+    {
+      "id": "15606974",
+      "tileScore": 4,
+      "name": "Longming southbound",
+      "distanceM": 6817,
+      "avgGrade": -0.008801525458693504,
+      "startLat": 31.186445236206055,
+      "startLng": 121.3686294555664
+    },
+    {
+      "id": "39173049",
+      "tileScore": 5,
+      "name": "路过维璟印象城不喝奶茶嘛",
+      "distanceM": 716.7000122070312,
+      "avgGrade": 0.055811356753110886,
+      "startLat": 31.138063430786133,
+      "startLng": 121.3670883178711
+    },
+    {
+      "id": "19942490",
+      "tileScore": 5,
+      "name": "laiting lu (northbound)",
+      "distanceM": 4957.5,
+      "avgGrade": 0.03227433189749718,
+      "startLat": 31.12452507019043,
+      "startLng": 121.33883666992188
+    },
+    {
+      "id": "5630841",
+      "tileScore": 2,
+      "name": "Caobao Rd (Westbound)",
+      "distanceM": 8238.900390625,
+      "avgGrade": -0.018206315115094185,
+      "startLat": 31.170284271240234,
+      "startLng": 121.42921447753906
+    },
+    {
+      "id": "11687328",
+      "tileScore": 4,
+      "name": "WuzhongXinzhen-QixinXinzhen",
+      "distanceM": 965,
+      "avgGrade": 0,
+      "startLat": 31.167911529541016,
+      "startLng": 121.35130310058594
+    },
+    {
+      "id": "5643945",
+      "tileScore": 1,
+      "name": "Qixin Rd from Wuzhong Rd to Husong Hwy",
+      "distanceM": 661.9000244140625,
+      "avgGrade": -0.12086418271064758,
+      "startLat": 31.16293716430664,
+      "startLng": 121.34044647216797
+    },
+    {
+      "id": "35043908",
+      "tileScore": 5,
+      "name": "七宝-吴中大拐弯",
+      "distanceM": 3699.10009765625,
+      "avgGrade": -0.054067205637693405,
+      "startLat": 31.164091110229492,
+      "startLng": 121.3252944946289
+    },
+    {
+      "id": "1515348",
+      "tileScore": 2,
+      "name": "Gubei To Qibao",
+      "distanceM": 8051.5,
+      "avgGrade": 0.0037260139361023903,
+      "startLat": 31.182998657226562,
+      "startLng": 121.39078521728516
+    }
+  ]
+}

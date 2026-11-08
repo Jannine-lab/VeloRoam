@@ -1,0 +1,101 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-03T06:04:13.591Z",
+  "tile": {
+    "z": 13,
+    "x": 6853,
+    "y": 3340
+  },
+  "segments": [
+    {
+      "id": "34368958",
+      "tileScore": 5,
+      "name": "大学城",
+      "distanceM": 2507.800048828125,
+      "avgGrade": -0.1754525899887085,
+      "startLat": 31.486255645751953,
+      "startLng": 121.15727996826172
+    },
+    {
+      "id": "35961050",
+      "tileScore": 88,
+      "name": "白云渡大桥 ",
+      "distanceM": 617.2999877929688,
+      "avgGrade": 1.425562858581543,
+      "startLat": 31.46718406677246,
+      "startLng": 121.17871856689453
+    },
+    {
+      "id": "34368997",
+      "tileScore": 10,
+      "name": "我丢真刺激",
+      "distanceM": 533.2000122070312,
+      "avgGrade": -0.11252813041210175,
+      "startLat": 31.484304428100586,
+      "startLng": 121.1535873413086
+    },
+    {
+      "id": "14933566",
+      "tileScore": 2,
+      "name": "Lujiabei Road(339 to Jiangnan Road)",
+      "distanceM": 1968.800048828125,
+      "avgGrade": -0.05079235881567001,
+      "startLat": 31.501781463623047,
+      "startLng": 121.16443634033203
+    },
+    {
+      "id": "40614788",
+      "tileScore": 61,
+      "name": "冲向白云渡！！",
+      "distanceM": 12388.2998046875,
+      "avgGrade": 0.014529838226735592,
+      "startLat": 31.548036575317383,
+      "startLng": 121.11920166015625
+    },
+    {
+      "id": "42223930",
+      "tileScore": 10,
+      "name": "太仓璜泾 to 上海嘉定",
+      "distanceM": 27882.69921875,
+      "avgGrade": -0.012911232188344002,
+      "startLat": 31.64661979675293,
+      "startLng": 121.09708404541016
+    },
+    {
+      "id": "10353787",
+      "tileScore": 43,
+      "name": "S339 苏州东路段（由东向西）",
+      "distanceM": 11817.599609375,
+      "avgGrade": -0.011846737004816532,
+      "startLat": 31.54166030883789,
+      "startLng": 121.26788330078125
+    },
+    {
+      "id": "42169473",
+      "tileScore": 3,
+      "name": "Ruijin Hospital",
+      "distanceM": 3381.800048828125,
+      "avgGrade": 0.029570050537586212,
+      "startLat": 31.487722396850586,
+      "startLng": 121.20645904541016
+    },
+    {
+      "id": "42259056",
+      "tileScore": 5,
+      "name": "University",
+      "distanceM": 2749.60009765625,
+      "avgGrade": 0.021821357309818268,
+      "startLat": 31.490127563476562,
+      "startLng": 121.16291046142578
+    },
+    {
+      "id": "32262835",
+      "tileScore": 9,
+      "name": "太浏快速路GOGOGO！",
+      "distanceM": 7411.5,
+      "avgGrade": 0.02698509208858013,
+      "startLat": 31.48724937438965,
+      "startLng": 121.17823791503906
+    }
+  ]
+}

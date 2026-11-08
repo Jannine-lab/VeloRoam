@@ -1,0 +1,101 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-08T22:51:42.634Z",
+  "tile": {
+    "z": 13,
+    "x": 6689,
+    "y": 3571
+  },
+  "segments": [
+    {
+      "id": "31877742",
+      "tileScore": 7,
+      "name": "Tin  Ha Road _ Castle Peak RD to San Sang Tsuen",
+      "distanceM": 1145,
+      "avgGrade": -0.6462882161140442,
+      "startLat": 22.430532455444336,
+      "startLng": 113.99305725097656
+    },
+    {
+      "id": "17826121",
+      "tileScore": 44,
+      "name": "Tin Shui Path W",
+      "distanceM": 2621.39990234375,
+      "avgGrade": 0.015259021893143654,
+      "startLat": 22.47004508972168,
+      "startLng": 113.99745178222656
+    },
+    {
+      "id": "8795933",
+      "tileScore": 5,
+      "name": "Lau Fau Shan Rd South",
+      "distanceM": 2458.60009765625,
+      "avgGrade": -0.15455949306488037,
+      "startLat": 22.46674156188965,
+      "startLng": 113.98454284667969
+    },
+    {
+      "id": "31300827",
+      "tileScore": 1,
+      "name": "廈村直升機坪(上斜)",
+      "distanceM": 344,
+      "avgGrade": 6.976744651794434,
+      "startLat": 22.447439193725586,
+      "startLng": 113.97914123535156
+    },
+    {
+      "id": "34813426",
+      "tileScore": 2,
+      "name": "雞伯嶺",
+      "distanceM": 962,
+      "avgGrade": 7.546777248382568,
+      "startLat": 22.453908920288086,
+      "startLng": 113.9726333618164
+    },
+    {
+      "id": "3826715",
+      "tileScore": 169,
+      "name": "Tin Shui Wai APR'13",
+      "distanceM": 7111.0400390625,
+      "avgGrade": 0.004218756686896086,
+      "startLat": 22.46685791015625,
+      "startLng": 113.9953842163086
+    },
+    {
+      "id": "1348552",
+      "tileScore": 1,
+      "name": "Tin Wing Rd Climb",
+      "distanceM": 946.0280151367188,
+      "avgGrade": 8.890063285827637,
+      "startLat": 22.46190071105957,
+      "startLng": 113.99303436279297
+    },
+    {
+      "id": "11130504",
+      "tileScore": 6,
+      "name": "流浮山至日落海邊",
+      "distanceM": 4901.60009765625,
+      "avgGrade": 0.14077036082744598,
+      "startLat": 22.467485427856445,
+      "startLng": 113.98429870605469
+    },
+    {
+      "id": "2562830",
+      "tileScore": 1,
+      "name": "Nim Wan Rd Climb",
+      "distanceM": 1243.9451904296875,
+      "avgGrade": 7.3553056716918945,
+      "startLat": 22.44900131225586,
+      "startLng": 113.96195220947266
+    },
+    {
+      "id": "14713501",
+      "tileScore": 5,
+      "name": "Nim Wen Road (Toward Lau Fau Shan)",
+      "distanceM": 690,
+      "avgGrade": 1.7391303777694702,
+      "startLat": 22.438430786132812,
+      "startLng": 113.94892120361328
+    }
+  ]
+}

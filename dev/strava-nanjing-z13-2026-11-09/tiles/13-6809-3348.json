@@ -1,0 +1,20 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-08T22:41:48.579Z",
+  "tile": {
+    "z": 13,
+    "x": 6809,
+    "y": 3348
+  },
+  "segments": [
+    {
+      "id": "40320306",
+      "tileScore": 3,
+      "name": "猛攻龙须湖",
+      "distanceM": 15802.2001953125,
+      "avgGrade": -0.027844225987792015,
+      "startLat": 31.149377822875977,
+      "startLng": 119.21511840820312
+    }
+  ]
+}

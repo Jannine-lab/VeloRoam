@@ -1,0 +1,101 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-03T06:09:48.949Z",
+  "tile": {
+    "z": 13,
+    "x": 6857,
+    "y": 3353
+  },
+  "segments": [
+    {
+      "id": "32907937",
+      "tileScore": 16,
+      "name": "江川路小直道",
+      "distanceM": 1745.0999755859375,
+      "avgGrade": 0,
+      "startLat": 30.988094329833984,
+      "startLng": 121.32730102539062
+    },
+    {
+      "id": "25427244",
+      "tileScore": 8,
+      "name": "Sprinters alley",
+      "distanceM": 2321.10009765625,
+      "avgGrade": -0.051699623465538025,
+      "startLat": 31.013032913208008,
+      "startLng": 121.36198425292969
+    },
+    {
+      "id": "29678940",
+      "tileScore": 20,
+      "name": "闵浦三桥上坡(南)",
+      "distanceM": 1177.300048828125,
+      "avgGrade": 2.8030238151550293,
+      "startLat": 30.99502944946289,
+      "startLng": 121.37104034423828
+    },
+    {
+      "id": "30974305",
+      "tileScore": 1,
+      "name": "米市渡河畔TT 第二段",
+      "distanceM": 3771.10009765625,
+      "avgGrade": 0.026517460122704506,
+      "startLat": 30.96816062927246,
+      "startLng": 121.31678771972656
+    },
+    {
+      "id": "11464863",
+      "tileScore": 16,
+      "name": "Jiangchuan Rd Eastbound to McD",
+      "distanceM": 8908.599609375,
+      "avgGrade": 0.04939047619700432,
+      "startLat": 30.988248825073242,
+      "startLng": 121.32856750488281
+    },
+    {
+      "id": "40647315",
+      "tileScore": 2,
+      "name": "Fengxian South Canals",
+      "distanceM": 20461.400390625,
+      "avgGrade": 0.010751952417194843,
+      "startLat": 30.976587295532227,
+      "startLng": 121.3487319946289
+    },
+    {
+      "id": "37590182",
+      "tileScore": 1,
+      "name": "闵浦三桥（桥底拐了拐了骑不动了）",
+      "distanceM": 1268.5999755859375,
+      "avgGrade": 0.015765411779284477,
+      "startLat": 30.996322631835938,
+      "startLng": 121.37110137939453
+    },
+    {
+      "id": "41243237",
+      "tileScore": 52,
+      "name": "金山速霸！",
+      "distanceM": 45272.6015625,
+      "avgGrade": -0.032690852880477905,
+      "startLat": 30.98211669921875,
+      "startLng": 121.37222290039062
+    },
+    {
+      "id": "35915115",
+      "tileScore": 3,
+      "name": "Cuncuntong Jianchuan Rd to Shuiboyuan",
+      "distanceM": 3744.800048828125,
+      "avgGrade": -0.02136295661330223,
+      "startLat": 31.006473541259766,
+      "startLng": 121.33811950683594
+    },
+    {
+      "id": "11994086",
+      "tileScore": 3,
+      "name": "Dongchuan Rd (Eastbound)",
+      "distanceM": 12666.7001953125,
+      "avgGrade": 0.009473659098148346,
+      "startLat": 30.99555778503418,
+      "startLng": 121.34071350097656
+    }
+  ]
+}

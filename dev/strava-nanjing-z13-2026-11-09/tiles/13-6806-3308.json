@@ -1,0 +1,20 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-08T22:25:44.976Z",
+  "tile": {
+    "z": 13,
+    "x": 6806,
+    "y": 3308
+  },
+  "segments": [
+    {
+      "id": "37843483",
+      "tileScore": 2,
+      "name": "仁和集—界牌",
+      "distanceM": 8310.099609375,
+      "avgGrade": -0.22502736747264862,
+      "startLat": 32.631324768066406,
+      "startLng": 119.11543273925781
+    }
+  ]
+}

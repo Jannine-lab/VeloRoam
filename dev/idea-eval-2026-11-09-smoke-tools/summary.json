@@ -1,0 +1,83 @@
+{
+  "mode": "real-model-fixed-tools-and-stub-planner",
+  "datasetVersion": "idea-business-v1",
+  "datasetHash": "5308e7347ac00954695e4d18679e9051249f49830a1d95aa85441d49ad85ba49",
+  "implementationHash": "0e80fb61ba5132c1c5a2793ec492d42eb5c6b655ae6b37f050ba11beed81d10f",
+  "promptVersion": "idea-2026-11-09.v1",
+  "model": "deepseek-chat",
+  "node": "v22.19.0",
+  "startedAt": "2026-11-08T22:32:19.146Z",
+  "completedAt": "2026-11-08T22:32:28.439Z",
+  "wallMs": 9292,
+  "concurrency": 1,
+  "repeats": 1,
+  "uniqueScenarios": 2,
+  "scenarioResults": {
+    "passed": 2,
+    "total": 2,
+    "rate": 1
+  },
+  "turnResults": {
+    "passed": 2,
+    "total": 2,
+    "rate": 1
+  },
+  "checks": {
+    "passed": 7,
+    "total": 7,
+    "rate": 1
+  },
+  "fieldChecks": {
+    "passed": 2,
+    "total": 2,
+    "rate": 1
+  },
+  "toolSelectionChecks": {
+    "passed": 1,
+    "total": 1,
+    "rate": 1
+  },
+  "categories": {
+    "distance": {
+      "passed": 1,
+      "total": 1,
+      "rate": 1
+    },
+    "lookup": {
+      "passed": 1,
+      "total": 1,
+      "rate": 1
+    }
+  },
+  "splits": {
+    "development": {
+      "passed": 1,
+      "total": 1,
+      "rate": 1
+    },
+    "holdout": {
+      "passed": 1,
+      "total": 1,
+      "rate": 1
+    }
+  },
+  "latencyMs": {
+    "allTurnsP50": 3513,
+    "allTurnsP95": 5776,
+    "completedTurnsP50": 3513,
+    "completedTurnsP95": 5776
+  },
+  "usage": {
+    "modelCalls": 4,
+    "inputTokens": 7842,
+    "outputTokens": 632,
+    "toolCalls": 1,
+    "toolErrors": 0
+  },
+  "limitations": [
+    "Synthetic business cases with rule-based expected fields and tool identity checks.",
+    "Uses real model API and native function calling, but fixed retrieval fixtures and a stub route planner.",
+    "Does not measure live database/map availability, route quality, semantic correctness of general knowledge answers, or production user success.",
+    "A single repetition is not a stability benchmark; sample size, concurrency and prompt/model versions must accompany latency and success figures."
+  ]
+}

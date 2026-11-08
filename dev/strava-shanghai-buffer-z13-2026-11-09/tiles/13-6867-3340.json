@@ -1,0 +1,137 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-03T06:03:10.420Z",
+  "tile": {
+    "z": 13,
+    "x": 6867,
+    "y": 3340
+  },
+  "segments": [
+    {
+      "id": "28005476",
+      "tileScore": 2,
+      "name": "20210411环崇明岛100公里组",
+      "distanceM": 97375,
+      "avgGrade": 0.006161745637655258,
+      "startLat": 31.4849796295166,
+      "startLng": 121.8353042602539
+    },
+    {
+      "id": "33136262",
+      "tileScore": 23,
+      "name": "Beichen Hwy",
+      "distanceM": 5021.39990234375,
+      "avgGrade": -0.015931813046336174,
+      "startLat": 31.501800537109375,
+      "startLng": 121.80867767333984
+    },
+    {
+      "id": "33028034",
+      "tileScore": 4,
+      "name": "Chenhai Hwy (S128 - Buzhen to Chenjia)",
+      "distanceM": 17929.80078125,
+      "avgGrade": 0.005577307194471359,
+      "startLat": 31.563770294189453,
+      "startLng": 121.63473510742188
+    },
+    {
+      "id": "36134751",
+      "tileScore": 25,
+      "name": "崇明 001 Seaside",
+      "distanceM": 3292.89990234375,
+      "avgGrade": 0,
+      "startLat": 31.452009201049805,
+      "startLng": 121.81343078613281
+    },
+    {
+      "id": "33419270",
+      "tileScore": 4,
+      "name": "崇明大道ITT",
+      "distanceM": 4367.2998046875,
+      "avgGrade": 0.03205642104148865,
+      "startLat": 31.49690818786621,
+      "startLng": 121.73533630371094
+    },
+    {
+      "id": "33655106",
+      "tileScore": 2,
+      "name": "Xijia Port Bridge of ChongMing Avenue(W to E)",
+      "distanceM": 513,
+      "avgGrade": 1.7543859481811523,
+      "startLat": 31.47409439086914,
+      "startLng": 121.77890014648438
+    },
+    {
+      "id": "35699649",
+      "tileScore": 5,
+      "name": "崇明大道S2N 15km",
+      "distanceM": 17170.400390625,
+      "avgGrade": -0.0034943856298923492,
+      "startLat": 31.474008560180664,
+      "startLng": 121.7816390991211
+    },
+    {
+      "id": "13352490",
+      "tileScore": 24,
+      "name": "ZhongBin Rd",
+      "distanceM": 3500,
+      "avgGrade": -0.02857142873108387,
+      "startLat": 31.474201202392578,
+      "startLng": 121.78770446777344
+    },
+    {
+      "id": "36134752",
+      "tileScore": 10,
+      "name": "崇明 002 Seaside",
+      "distanceM": 811.7000122070312,
+      "avgGrade": 0.09855858236551285,
+      "startLat": 31.471290588378906,
+      "startLng": 121.77959442138672
+    },
+    {
+      "id": "40511416",
+      "tileScore": 4,
+      "name": "2025东滩骑行",
+      "distanceM": 46937,
+      "avgGrade": -0.0004261030990164727,
+      "startLat": 31.485496520996094,
+      "startLng": 121.83615112304688
+    },
+    {
+      "id": "40117826",
+      "tileScore": 18,
+      "name": "极限使命",
+      "distanceM": 2517,
+      "avgGrade": 0.03178386762738228,
+      "startLat": 31.485870361328125,
+      "startLng": 121.7969970703125
+    },
+    {
+      "id": "13352521",
+      "tileScore": 35,
+      "name": "LanHai Rd",
+      "distanceM": 2722,
+      "avgGrade": 0,
+      "startLat": 31.465700149536133,
+      "startLng": 121.8138656616211
+    },
+    {
+      "id": "33854394",
+      "tileScore": 16,
+      "name": "CMR ZhongBin Rd Last Sprint",
+      "distanceM": 919.2000122070312,
+      "avgGrade": 0.08703219890594482,
+      "startLat": 31.474807739257812,
+      "startLng": 121.82089233398438
+    },
+    {
+      "id": "18031409",
+      "tileScore": 2,
+      "name": "Heroes Crit Loop",
+      "distanceM": 4853.10009765625,
+      "avgGrade": -0.008242154493927956,
+      "startLat": 31.491046905517578,
+      "startLng": 121.80648040771484
+    }
+  ]
+}

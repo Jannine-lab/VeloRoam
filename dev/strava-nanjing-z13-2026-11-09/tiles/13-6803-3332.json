@@ -1,0 +1,29 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-08T22:36:57.748Z",
+  "tile": {
+    "z": 13,
+    "x": 6803,
+    "y": 3332
+  },
+  "segments": [
+    {
+      "id": "33232348",
+      "tileScore": 20,
+      "name": "S246 South to North",
+      "distanceM": 21439.099609375,
+      "avgGrade": -0.05503962188959122,
+      "startLat": 31.700870513916016,
+      "startLng": 119.04415130615234
+    },
+    {
+      "id": "39201936",
+      "tileScore": 11,
+      "name": "疯狂追击大表哥",
+      "distanceM": 11029.599609375,
+      "avgGrade": -0.11423805356025696,
+      "startLat": 31.701892852783203,
+      "startLng": 119.04329681396484
+    }
+  ]
+}

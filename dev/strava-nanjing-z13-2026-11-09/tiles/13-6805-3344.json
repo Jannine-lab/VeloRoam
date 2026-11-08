@@ -1,0 +1,20 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-08T22:40:33.446Z",
+  "tile": {
+    "z": 13,
+    "x": 6805,
+    "y": 3344
+  },
+  "segments": [
+    {
+      "id": "30069485",
+      "tileScore": 10,
+      "name": "慢城南路-茅叔路N-S段",
+      "distanceM": 7023.5,
+      "avgGrade": -0.3075389564037323,
+      "startLat": 31.378461837768555,
+      "startLng": 119.06644439697266
+    }
+  ]
+}

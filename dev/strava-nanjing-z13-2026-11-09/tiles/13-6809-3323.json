@@ -1,0 +1,83 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-08T22:29:55.001Z",
+  "tile": {
+    "z": 13,
+    "x": 6809,
+    "y": 3323
+  },
+  "segments": [
+    {
+      "id": "16045434",
+      "tileScore": 112,
+      "name": "Caixing Alley Climb",
+      "distanceM": 1700.5,
+      "avgGrade": 4.669214725494385,
+      "startLat": 32.142433166503906,
+      "startLng": 119.22864532470703
+    },
+    {
+      "id": "38891456",
+      "tileScore": 83,
+      "name": "深藏仑山一个坡 看谁摇车最销魂",
+      "distanceM": 510.8999938964844,
+      "avgGrade": 5.186924934387207,
+      "startLat": 32.12085723876953,
+      "startLng": 119.24442291259766
+    },
+    {
+      "id": "36717075",
+      "tileScore": 31,
+      "name": "X103村间彩虹路 北到南",
+      "distanceM": 4010.60009765625,
+      "avgGrade": -0.5086520910263062,
+      "startLat": 32.105018615722656,
+      "startLng": 119.26708221435547
+    },
+    {
+      "id": "38596190",
+      "tileScore": 85,
+      "name": "ul - Over the little hill",
+      "distanceM": 1266,
+      "avgGrade": 1.9589258432388306,
+      "startLat": 32.125694274902344,
+      "startLng": 119.22559356689453
+    },
+    {
+      "id": "41235115",
+      "tileScore": 22,
+      "name": "句蜀路ITT 2/3 （空青桥—沪蓉高速入口）",
+      "distanceM": 8910.900390625,
+      "avgGrade": -0.02468886412680149,
+      "startLat": 32.10808181762695,
+      "startLng": 119.20623016357422
+    },
+    {
+      "id": "34443180",
+      "tileScore": 56,
+      "name": "cd-进镇江的秘密通道",
+      "distanceM": 5478.7998046875,
+      "avgGrade": -0.11681390553712845,
+      "startLat": 32.11408615112305,
+      "startLng": 119.23934936523438
+    },
+    {
+      "id": "32738292",
+      "tileScore": 22,
+      "name": "S266 final climb short",
+      "distanceM": 1379.699951171875,
+      "avgGrade": 3.160107135772705,
+      "startLat": 32.10679244995117,
+      "startLng": 119.22181701660156
+    },
+    {
+      "id": "37180408",
+      "tileScore": 32,
+      "name": "对称桥左边上坡",
+      "distanceM": 1147.4000244140625,
+      "avgGrade": 8.384172439575195,
+      "startLat": 32.11494064331055,
+      "startLng": 119.23436737060547
+    }
+  ]
+}

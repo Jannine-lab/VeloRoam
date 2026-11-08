@@ -1,0 +1,83 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-08T22:47:50.186Z",
+  "tile": {
+    "z": 13,
+    "x": 6685,
+    "y": 3559
+  },
+  "segments": [
+    {
+      "id": "12658428",
+      "tileScore": 2,
+      "name": "厚大路A",
+      "distanceM": 9246,
+      "avgGrade": 0.10599178820848465,
+      "startLat": 22.908432006835938,
+      "startLng": 113.73878479003906
+    },
+    {
+      "id": "8621752",
+      "tileScore": 100,
+      "name": "Tongsha Reservoir First Half",
+      "distanceM": 5281.89990234375,
+      "avgGrade": -0.17607299983501434,
+      "startLat": 22.979379653930664,
+      "startLng": 113.77967834472656
+    },
+    {
+      "id": "35978040",
+      "tileScore": 2,
+      "name": "G107杨屋至同沙",
+      "distanceM": 15945.400390625,
+      "avgGrade": 0.01379708293825388,
+      "startLat": 22.85747528076172,
+      "startLng": 113.83477020263672
+    },
+    {
+      "id": "41807676",
+      "tileScore": 5,
+      "name": "飞鹅山乱石路小跑",
+      "distanceM": 899.4000244140625,
+      "avgGrade": -0.3446742296218872,
+      "startLat": 22.95691680908203,
+      "startLng": 113.80684661865234
+    },
+    {
+      "id": "15686213",
+      "tileScore": 1,
+      "name": "Down",
+      "distanceM": 765.7999877929688,
+      "avgGrade": -0.5484460592269897,
+      "startLat": 22.91948890686035,
+      "startLng": 113.78002166748047
+    },
+    {
+      "id": "41807713",
+      "tileScore": 9,
+      "name": "厕所到鱼塘小瓜路",
+      "distanceM": 2742.800048828125,
+      "avgGrade": 0.15677410364151,
+      "startLat": 22.95841407775879,
+      "startLng": 113.81065368652344
+    },
+    {
+      "id": "1272178",
+      "tileScore": 281,
+      "name": "Tongsha Lake Lap",
+      "distanceM": 13043.7998046875,
+      "avgGrade": 0.04446591064333916,
+      "startLat": 22.98698616027832,
+      "startLng": 113.79190826416016
+    },
+    {
+      "id": "9218438",
+      "tileScore": 11,
+      "name": "Shuilianshan Climb",
+      "distanceM": 4530.7001953125,
+      "avgGrade": 6.056459426879883,
+      "startLat": 22.93703842163086,
+      "startLng": 113.76133728027344
+    }
+  ]
+}

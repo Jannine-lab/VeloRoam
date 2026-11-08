@@ -1,0 +1,308 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-08T22:51:21.330Z",
+  "tile": {
+    "z": 13,
+    "x": 6689,
+    "y": 3569
+  },
+  "segments": [
+    {
+      "id": "14463233",
+      "tileScore": 8,
+      "name": "香山东街（西行）",
+      "distanceM": 1444,
+      "avgGrade": 0.11772853136062622,
+      "startLat": 22.54186248779297,
+      "startLng": 113.99140167236328
+    },
+    {
+      "id": "36324019",
+      "tileScore": 2,
+      "name": "深圳南山画龙",
+      "distanceM": 52149.3984375,
+      "avgGrade": 0.030681081116199493,
+      "startLat": 22.543649673461914,
+      "startLng": 113.95297241210938
+    },
+    {
+      "id": "26912492",
+      "tileScore": 2,
+      "name": "Hospital Loop + ChiWan",
+      "distanceM": 57742.3984375,
+      "avgGrade": -0.016971930861473083,
+      "startLat": 22.484697341918945,
+      "startLng": 113.93070220947266
+    },
+    {
+      "id": "39759177",
+      "tileScore": 26,
+      "name": "Fly Over Shahe",
+      "distanceM": 521.5,
+      "avgGrade": 0.0767018273472786,
+      "startLat": 22.543556213378906,
+      "startLng": 113.95758819580078
+    },
+    {
+      "id": "34954550",
+      "tileScore": 4,
+      "name": "环园博园",
+      "distanceM": 6580.89990234375,
+      "avgGrade": -0.13979850709438324,
+      "startLat": 22.53866958618164,
+      "startLng": 114.0134048461914
+    },
+    {
+      "id": "27803929",
+      "tileScore": 69,
+      "name": "El_Muerte_Bridge_Eastbound",
+      "distanceM": 335.70001220703125,
+      "avgGrade": 0.05957700312137604,
+      "startLat": 22.528230667114258,
+      "startLng": 113.97808837890625
+    },
+    {
+      "id": "20359030",
+      "tileScore": 76,
+      "name": "Futian NanShan Shenan Rd. Express",
+      "distanceM": 7728.7001953125,
+      "avgGrade": -0.18114301562309265,
+      "startLat": 22.541553497314453,
+      "startLng": 114.0340576171875
+    },
+    {
+      "id": "32371952",
+      "tileScore": 7,
+      "name": "CTL",
+      "distanceM": 46607.6015625,
+      "avgGrade": -0.11285713315010071,
+      "startLat": 22.54962730407715,
+      "startLng": 114.05906677246094
+    },
+    {
+      "id": "38267317",
+      "tileScore": 14,
+      "name": "滨海隧道",
+      "distanceM": 897.2999877929688,
+      "avgGrade": -0.7801181077957153,
+      "startLat": 22.522960662841797,
+      "startLng": 113.974853515625
+    },
+    {
+      "id": "16564691",
+      "tileScore": 7,
+      "name": "Hunyak boulevard dash",
+      "distanceM": 2140,
+      "avgGrade": -0.06542056053876877,
+      "startLat": 22.52316665649414,
+      "startLng": 113.96114349365234
+    },
+    {
+      "id": "11455946",
+      "tileScore": 105,
+      "name": "Shenzhen Bay east bound",
+      "distanceM": 9594.2001953125,
+      "avgGrade": 0.006253778003156185,
+      "startLat": 22.491491317749023,
+      "startLng": 113.94763946533203
+    },
+    {
+      "id": "36217301",
+      "tileScore": 31,
+      "name": "Queen_Viva",
+      "distanceM": 1377,
+      "avgGrade": 0.07262164354324341,
+      "startLat": 22.5539493560791,
+      "startLng": 113.9740982055664
+    },
+    {
+      "id": "34769582",
+      "tileScore": 66,
+      "name": "Shennan joy",
+      "distanceM": 500.3999938964844,
+      "avgGrade": 1.4788169860839844,
+      "startLat": 22.536035537719727,
+      "startLng": 113.9891586303711
+    },
+    {
+      "id": "33360550",
+      "tileScore": 7,
+      "name": "JW",
+      "distanceM": 10826.7998046875,
+      "avgGrade": 0.10529427230358124,
+      "startLat": 22.497615814208984,
+      "startLng": 113.9465103149414
+    },
+    {
+      "id": "14463250",
+      "tileScore": 4,
+      "name": "香山中街（西行）",
+      "distanceM": 1255.699951171875,
+      "avgGrade": -0.7724775075912476,
+      "startLat": 22.547340393066406,
+      "startLng": 113.9812240600586
+    },
+    {
+      "id": "36540987",
+      "tileScore": 35,
+      "name": "沙河绿道-福光消防站至深南路",
+      "distanceM": 8840.099609375,
+      "avgGrade": -0.3099512457847595,
+      "startLat": 22.595399856567383,
+      "startLng": 113.98641967773438
+    },
+    {
+      "id": "34284124",
+      "tileScore": 11,
+      "name": "沙河东路吃辣堡",
+      "distanceM": 2091,
+      "avgGrade": 0.08608321845531464,
+      "startLat": 22.54303550720215,
+      "startLng": 113.9595718383789
+    },
+    {
+      "id": "41513565",
+      "tileScore": 63,
+      "name": "#mk 随便骑骑",
+      "distanceM": 32694.69921875,
+      "avgGrade": -0.007952358573675156,
+      "startLat": 22.54303741455078,
+      "startLng": 113.95999908447266
+    },
+    {
+      "id": "23853791",
+      "tileScore": 8,
+      "name": "Qiaoxiang Rd Sprint",
+      "distanceM": 6571.7998046875,
+      "avgGrade": -0.06390943378210068,
+      "startLat": 22.55658721923828,
+      "startLng": 114.02937316894531
+    },
+    {
+      "id": "13119271",
+      "tileScore": 65,
+      "name": "Path South 1k",
+      "distanceM": 1025.5,
+      "avgGrade": -0.019502682611346245,
+      "startLat": 22.5338134765625,
+      "startLng": 113.95116424560547
+    },
+    {
+      "id": "16529612",
+      "tileScore": 2,
+      "name": "Ced's Sprint Numéro Un",
+      "distanceM": 421.1000061035156,
+      "avgGrade": -0.18997862935066223,
+      "startLat": 22.526100158691406,
+      "startLng": 113.9736557006836
+    },
+    {
+      "id": "36706368",
+      "tileScore": 8,
+      "name": "深圳湾科技园-惠州城区江北",
+      "distanceM": 105295.6015625,
+      "avgGrade": 0.00978198554366827,
+      "startLat": 22.53257942199707,
+      "startLng": 113.94519805908203
+    },
+    {
+      "id": "16570774",
+      "tileScore": 52,
+      "name": "McKean's Drag Strip",
+      "distanceM": 2297.89990234375,
+      "avgGrade": -0.034814395010471344,
+      "startLat": 22.5301456451416,
+      "startLng": 113.98810577392578
+    },
+    {
+      "id": "36217289",
+      "tileScore": 49,
+      "name": "Drafting_Bus",
+      "distanceM": 868.5,
+      "avgGrade": 0.23028209805488586,
+      "startLat": 22.5360107421875,
+      "startLng": 113.98831939697266
+    },
+    {
+      "id": "40248020",
+      "tileScore": 28,
+      "name": "你就嘎嘎骑吧",
+      "distanceM": 2092.699951171875,
+      "avgGrade": -0.21025468409061432,
+      "startLat": 22.54010009765625,
+      "startLng": 113.96919250488281
+    },
+    {
+      "id": "41510561",
+      "tileScore": 472,
+      "name": "晨骑40",
+      "distanceM": 39089.3984375,
+      "avgGrade": -0.010232953354716301,
+      "startLat": 22.541751861572266,
+      "startLng": 114.03868865966797
+    },
+    {
+      "id": "23053917",
+      "tileScore": 35,
+      "name": "跨沙河（西行）",
+      "distanceM": 467.3999938964844,
+      "avgGrade": 0.34231922030448914,
+      "startLat": 22.535335540771484,
+      "startLng": 113.95498657226562
+    },
+    {
+      "id": "11157550",
+      "tileScore": 25,
+      "name": "滨河路（新洲路至望海路）西行",
+      "distanceM": 8651.400390625,
+      "avgGrade": 0,
+      "startLat": 22.53072738647461,
+      "startLng": 114.03466796875
+    },
+    {
+      "id": "38267341",
+      "tileScore": 55,
+      "name": "一直单飞一直爽",
+      "distanceM": 523.2999877929688,
+      "avgGrade": -0.8408178687095642,
+      "startLat": 22.539649963378906,
+      "startLng": 113.97032928466797
+    },
+    {
+      "id": "39172258",
+      "tileScore": 74,
+      "name": "世界之窗-上海宾馆-世界之窗一圈",
+      "distanceM": 22106.900390625,
+      "avgGrade": 0,
+      "startLat": 22.541109085083008,
+      "startLng": 113.96556091308594
+    },
+    {
+      "id": "19078397",
+      "tileScore": 50,
+      "name": "較長沙河西",
+      "distanceM": 6307.2998046875,
+      "avgGrade": -0.28062722086906433,
+      "startLat": 22.57853889465332,
+      "startLng": 113.95063781738281
+    },
+    {
+      "id": "30364475",
+      "tileScore": 58,
+      "name": "【ITT】大石头第二弯道开始-鹭港",
+      "distanceM": 4198.60009765625,
+      "avgGrade": 0.004763492848724127,
+      "startLat": 22.52485466003418,
+      "startLng": 113.99774169921875
+    },
+    {
+      "id": "37358286",
+      "tileScore": 244,
+      "name": "深南宝安晨骑",
+      "distanceM": 40330.1015625,
+      "avgGrade": -0.008926335722208023,
+      "startLat": 22.559059143066406,
+      "startLng": 113.8889389038086
+    }
+  ]
+}

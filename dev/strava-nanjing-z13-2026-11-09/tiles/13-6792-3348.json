@@ -1,0 +1,20 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-08T22:41:26.546Z",
+  "tile": {
+    "z": 13,
+    "x": 6792,
+    "y": 3348
+  },
+  "segments": [
+    {
+      "id": "34121574",
+      "tileScore": 6,
+      "name": "六郎环圩赛道",
+      "distanceM": 55097.69921875,
+      "avgGrade": 0.04464796185493469,
+      "startLat": 31.23494529724121,
+      "startLng": 118.57508850097656
+    }
+  ]
+}

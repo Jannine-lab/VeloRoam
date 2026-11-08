@@ -1,0 +1,20 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-08T22:57:37.621Z",
+  "tile": {
+    "z": 13,
+    "x": 6844,
+    "y": 3329
+  },
+  "segments": [
+    {
+      "id": "39324741",
+      "tileScore": 27,
+      "name": "通杀iTT计时赛（常金线）",
+      "distanceM": 16525.69921875,
+      "avgGrade": -0.014522834680974483,
+      "startLat": 31.840242385864258,
+      "startLng": 120.80670166015625
+    }
+  ]
+}

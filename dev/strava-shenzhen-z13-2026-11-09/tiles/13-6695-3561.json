@@ -1,0 +1,29 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-08T22:48:35.177Z",
+  "tile": {
+    "z": 13,
+    "x": 6695,
+    "y": 3561
+  },
+  "segments": [
+    {
+      "id": "41102491",
+      "tileScore": 13,
+      "name": "新清大道北环-红干10.8km强度",
+      "distanceM": 10794.2001953125,
+      "avgGrade": 0.3640844225883484,
+      "startLat": 22.843660354614258,
+      "startLng": 114.19273376464844
+    },
+    {
+      "id": "40892277",
+      "tileScore": 1,
+      "name": "白云嶂盘古庙 climb",
+      "distanceM": 804.7000122070312,
+      "avgGrade": 9.245681762695312,
+      "startLat": 22.870954513549805,
+      "startLng": 114.25975799560547
+    }
+  ]
+}

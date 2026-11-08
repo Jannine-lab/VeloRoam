@@ -1,0 +1,29 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-08T22:40:25.591Z",
+  "tile": {
+    "z": 13,
+    "x": 6798,
+    "y": 3344
+  },
+  "segments": [
+    {
+      "id": "36893333",
+      "tileScore": 7,
+      "name": "to 芜",
+      "distanceM": 14024.7998046875,
+      "avgGrade": 0.04135531559586525,
+      "startLat": 31.321430206298828,
+      "startLng": 118.79736328125
+    },
+    {
+      "id": "37793115",
+      "tileScore": 4,
+      "name": "2024首届环高淳自行车赛",
+      "distanceM": 140964.90625,
+      "avgGrade": 0.0008512757485732436,
+      "startLat": 31.38558006286621,
+      "startLng": 118.87738800048828
+    }
+  ]
+}

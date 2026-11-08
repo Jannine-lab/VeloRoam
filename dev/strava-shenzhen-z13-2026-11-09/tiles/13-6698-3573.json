@@ -1,0 +1,92 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-08T22:52:23.708Z",
+  "tile": {
+    "z": 13,
+    "x": 6698,
+    "y": 3573
+  },
+  "segments": [
+    {
+      "id": "26232967",
+      "tileScore": 9,
+      "name": "Put the power down",
+      "distanceM": 323.29998779296875,
+      "avgGrade": 2.1033096313476562,
+      "startLat": 22.361852645874023,
+      "startLng": 114.35391998291016
+    },
+    {
+      "id": "11416433",
+      "tileScore": 9,
+      "name": "PTC last climb",
+      "distanceM": 332.1000061035156,
+      "avgGrade": 13.610358238220215,
+      "startLat": 22.36403465270996,
+      "startLng": 114.37672424316406
+    },
+    {
+      "id": "921388",
+      "tileScore": 17,
+      "name": "Sai Kung Man Yee Rd Climb",
+      "distanceM": 630.6480102539062,
+      "avgGrade": 13.033138275146484,
+      "startLat": 22.36151885986328,
+      "startLng": 114.35305786132812
+    },
+    {
+      "id": "10562698",
+      "tileScore": 25,
+      "name": "Reservoir Start - Finish ",
+      "distanceM": 8826.2998046875,
+      "avgGrade": 0.09403713792562485,
+      "startLat": 22.39798355102539,
+      "startLng": 114.3258056640625
+    },
+    {
+      "id": "10439777",
+      "tileScore": 12,
+      "name": "High Island Climb 2",
+      "distanceM": 951.5999755859375,
+      "avgGrade": 5.380411624908447,
+      "startLat": 22.368497848510742,
+      "startLng": 114.34424591064453
+    },
+    {
+      "id": "2695421",
+      "tileScore": 3,
+      "name": "Maclehose Trail Sec. 1 Climb",
+      "distanceM": 1112.85498046875,
+      "avgGrade": 7.234004020690918,
+      "startLat": 22.35209083557129,
+      "startLng": 114.36067199707031
+    },
+    {
+      "id": "19840397",
+      "tileScore": 10,
+      "name": "Double Hump Dam Escape",
+      "distanceM": 2246.800048828125,
+      "avgGrade": 2.812889337539673,
+      "startLat": 22.359596252441406,
+      "startLng": 114.36500549316406
+    },
+    {
+      "id": "6949437",
+      "tileScore": 14,
+      "name": "Final Reservoir sprint ",
+      "distanceM": 414.29998779296875,
+      "avgGrade": -1.8826937675476074,
+      "startLat": 22.362436294555664,
+      "startLng": 114.37178039550781
+    },
+    {
+      "id": "1259325",
+      "tileScore": 2,
+      "name": "Sai Kung Sai Wan Rd Climb",
+      "distanceM": 1722.06005859375,
+      "avgGrade": 16.311479568481445,
+      "startLat": 22.37607765197754,
+      "startLng": 114.37625885009766
+    }
+  ]
+}

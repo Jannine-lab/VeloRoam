@@ -1,0 +1,129 @@
+{
+  "mode": "real-model-fixed-tools-and-stub-planner",
+  "datasetVersion": "idea-business-v1",
+  "datasetHash": "5308e7347ac00954695e4d18679e9051249f49830a1d95aa85441d49ad85ba49",
+  "implementationHash": "dc4b631ee0e7e4187ea65aede895d9ef516ce0524204c39279ac1b106d4918a5",
+  "implementationChangedDuringRun": false,
+  "promptVersion": "idea-2026-11-09.v2",
+  "model": "deepseek-chat",
+  "node": "v22.19.0",
+  "startedAt": "2026-11-08T22:36:00.774Z",
+  "completedAt": "2026-11-08T22:37:44.564Z",
+  "wallMs": 103790,
+  "concurrency": 2,
+  "repeats": 1,
+  "uniqueScenarios": 60,
+  "scenarioResults": {
+    "passed": 60,
+    "total": 60,
+    "rate": 1
+  },
+  "turnResults": {
+    "passed": 73,
+    "total": 73,
+    "rate": 1
+  },
+  "checks": {
+    "passed": 190,
+    "total": 190,
+    "rate": 1
+  },
+  "fieldChecks": {
+    "passed": 96,
+    "total": 96,
+    "rate": 1
+  },
+  "toolSelectionChecks": {
+    "passed": 7,
+    "total": 7,
+    "rate": 1
+  },
+  "categories": {
+    "distance": {
+      "passed": 6,
+      "total": 6,
+      "rate": 1
+    },
+    "bounds": {
+      "passed": 6,
+      "total": 6,
+      "rate": 1
+    },
+    "time": {
+      "passed": 8,
+      "total": 8,
+      "rate": 1
+    },
+    "preference": {
+      "passed": 8,
+      "total": 8,
+      "rate": 1
+    },
+    "entities": {
+      "passed": 6,
+      "total": 6,
+      "rate": 1
+    },
+    "multi_turn": {
+      "passed": 10,
+      "total": 10,
+      "rate": 1
+    },
+    "lookup": {
+      "passed": 4,
+      "total": 4,
+      "rate": 1
+    },
+    "selection": {
+      "passed": 3,
+      "total": 3,
+      "rate": 1
+    },
+    "answer": {
+      "passed": 3,
+      "total": 3,
+      "rate": 1
+    },
+    "boundary": {
+      "passed": 3,
+      "total": 3,
+      "rate": 1
+    },
+    "units": {
+      "passed": 3,
+      "total": 3,
+      "rate": 1
+    }
+  },
+  "splits": {
+    "development": {
+      "passed": 40,
+      "total": 40,
+      "rate": 1
+    },
+    "holdout": {
+      "passed": 20,
+      "total": 20,
+      "rate": 1
+    }
+  },
+  "latencyMs": {
+    "allTurnsP50": 2010,
+    "allTurnsP95": 5743,
+    "completedTurnsP50": 2010,
+    "completedTurnsP95": 5743
+  },
+  "usage": {
+    "modelCalls": 109,
+    "inputTokens": 216535,
+    "outputTokens": 17127,
+    "toolCalls": 19,
+    "toolErrors": 0
+  },
+  "limitations": [
+    "Synthetic business cases with rule-based expected fields and tool identity checks.",
+    "Uses real model API and native function calling, but fixed retrieval fixtures and a stub route planner.",
+    "Does not measure live database/map availability, route quality, semantic correctness of general knowledge answers, or production user success.",
+    "A single repetition is not a stability benchmark; sample size, concurrency and prompt/model versions must accompany latency and success figures."
+  ]
+}

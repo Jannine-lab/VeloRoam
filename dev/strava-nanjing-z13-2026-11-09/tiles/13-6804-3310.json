@@ -1,0 +1,38 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-08T22:25:51.552Z",
+  "tile": {
+    "z": 13,
+    "x": 6804,
+    "y": 3310
+  },
+  "segments": [
+    {
+      "id": "36642829",
+      "tileScore": 3,
+      "name": "郑集—关塘集",
+      "distanceM": 5864.5,
+      "avgGrade": 0.16710717976093292,
+      "startLat": 32.595699310302734,
+      "startLng": 118.95040130615234
+    },
+    {
+      "id": "42247679",
+      "tileScore": 5,
+      "name": "芦龙—关塘汴桥",
+      "distanceM": 6168,
+      "avgGrade": 0.1977950781583786,
+      "startLat": 32.65412521362305,
+      "startLng": 119.0715560913086
+    },
+    {
+      "id": "36642929",
+      "tileScore": 2,
+      "name": "关塘集—金集",
+      "distanceM": 7110.2998046875,
+      "avgGrade": -0.06750769913196564,
+      "startLat": 32.605712890625,
+      "startLng": 119.01121520996094
+    }
+  ]
+}

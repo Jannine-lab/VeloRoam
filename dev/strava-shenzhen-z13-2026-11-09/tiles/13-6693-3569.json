@@ -1,0 +1,263 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-08T22:51:15.610Z",
+  "tile": {
+    "z": 13,
+    "x": 6693,
+    "y": 3569
+  },
+  "segments": [
+    {
+      "id": "36205070",
+      "tileScore": 2,
+      "name": "Ng Chow Rd",
+      "distanceM": 1518.9000244140625,
+      "avgGrade": -0.5398643612861633,
+      "startLat": 22.531124114990234,
+      "startLng": 114.16992950439453
+    },
+    {
+      "id": "13907638",
+      "tileScore": 2,
+      "name": "缸瓦甫>蓮麻坑路",
+      "distanceM": 1017.5999755859375,
+      "avgGrade": -1.9948899745941162,
+      "startLat": 22.5288028717041,
+      "startLng": 114.1382064819336
+    },
+    {
+      "id": "1443180",
+      "tileScore": 8,
+      "name": "Kong Nga Po Rd Climb",
+      "distanceM": 1185.43994140625,
+      "avgGrade": 8.232812881469727,
+      "startLat": 22.51844596862793,
+      "startLng": 114.12530517578125
+    },
+    {
+      "id": "14510525",
+      "tileScore": 5,
+      "name": "Rolling down from Lin Ma Hang",
+      "distanceM": 3206.199951171875,
+      "avgGrade": -0.79221510887146,
+      "startLat": 22.557985305786133,
+      "startLng": 114.17050170898438
+    },
+    {
+      "id": "2482958",
+      "tileScore": 2,
+      "name": "Thomas B. Special ridge road",
+      "distanceM": 4383.4443359375,
+      "avgGrade": -0.17566272616386414,
+      "startLat": 22.519927978515625,
+      "startLng": 114.16082763671875
+    },
+    {
+      "id": "36164638",
+      "tileScore": 7,
+      "name": "深南东路",
+      "distanceM": 3551.199951171875,
+      "avgGrade": -0.045055191963911057,
+      "startLat": 22.549373626708984,
+      "startLng": 114.13369750976562
+    },
+    {
+      "id": "34275442",
+      "tileScore": 15,
+      "name": "1/2 Ping Che (North bound)",
+      "distanceM": 1834.9000244140625,
+      "avgGrade": -0.1525968611240387,
+      "startLat": 22.513994216918945,
+      "startLng": 114.16728973388672
+    },
+    {
+      "id": "10953632",
+      "tileScore": 13,
+      "name": "Kong Nga Po Road Climb (Eastbound)",
+      "distanceM": 1622.300048828125,
+      "avgGrade": 2.477963447570801,
+      "startLat": 22.5223445892334,
+      "startLng": 114.12235260009766
+    },
+    {
+      "id": "26079689",
+      "tileScore": 7,
+      "name": "延芳路_西往东",
+      "distanceM": 2409.800048828125,
+      "avgGrade": 0.29877999424934387,
+      "startLat": 22.544017791748047,
+      "startLng": 114.13823699951172
+    },
+    {
+      "id": "19798318",
+      "tileScore": 21,
+      "name": "500m",
+      "distanceM": 562,
+      "avgGrade": 0.17793594300746918,
+      "startLat": 22.545391082763672,
+      "startLng": 114.15204620361328
+    },
+    {
+      "id": "18241541",
+      "tileScore": 51,
+      "name": "Ping Che - Lung Yeuk Tau",
+      "distanceM": 2065.39990234375,
+      "avgGrade": -0.1839837282896042,
+      "startLat": 22.513416290283203,
+      "startLng": 114.16725158691406
+    },
+    {
+      "id": "22672163",
+      "tileScore": 3,
+      "name": "自闭回程",
+      "distanceM": 20012.5,
+      "avgGrade": -0.17688944935798645,
+      "startLat": 22.562917709350586,
+      "startLng": 114.17277526855469
+    },
+    {
+      "id": "11171798",
+      "tileScore": 13,
+      "name": "Lin Ma Hang Road (Ta Kwu Ling to Man Kam To)",
+      "distanceM": 2182.699951171875,
+      "avgGrade": 0.15577037632465363,
+      "startLat": 22.540382385253906,
+      "startLng": 114.14842987060547
+    },
+    {
+      "id": "14541336",
+      "tileScore": 8,
+      "name": "盘山-三洲田小圈",
+      "distanceM": 62839.6015625,
+      "avgGrade": -0.017664020881056786,
+      "startLat": 22.546457290649414,
+      "startLng": 114.11802673339844
+    },
+    {
+      "id": "28096119",
+      "tileScore": 3,
+      "name": "Wa Shan roller coaster 2 (Eastbound)",
+      "distanceM": 519,
+      "avgGrade": 2.697495222091675,
+      "startLat": 22.519325256347656,
+      "startLng": 114.13484191894531
+    },
+    {
+      "id": "5636158",
+      "tileScore": 44,
+      "name": "400M to Ping Che",
+      "distanceM": 14825.7001953125,
+      "avgGrade": -0.1578340232372284,
+      "startLat": 22.476943969726562,
+      "startLng": 114.23654174804688
+    },
+    {
+      "id": "34257252",
+      "tileScore": 13,
+      "name": "Fly over Yanhe",
+      "distanceM": 501.70001220703125,
+      "avgGrade": 0.8371536731719971,
+      "startLat": 22.548978805541992,
+      "startLng": 114.13267517089844
+    },
+    {
+      "id": "11172622",
+      "tileScore": 15,
+      "name": "Ping Che Road (South Bound)",
+      "distanceM": 3541,
+      "avgGrade": 0.25134143233299255,
+      "startLat": 22.539735794067383,
+      "startLng": 114.14895629882812
+    },
+    {
+      "id": "36106399",
+      "tileScore": 9,
+      "name": "NSW - SHAN SHING",
+      "distanceM": 90205.8984375,
+      "avgGrade": -0.013968043960630894,
+      "startLat": 22.44609260559082,
+      "startLng": 114.04883575439453
+    },
+    {
+      "id": "35750506",
+      "tileScore": 6,
+      "name": "Ping Yuen Rd",
+      "distanceM": 1320,
+      "avgGrade": -0.28787878155708313,
+      "startLat": 22.537227630615234,
+      "startLng": 114.1617660522461
+    },
+    {
+      "id": "30658691",
+      "tileScore": 12,
+      "name": "Kan Tau Wai to Lee Uk Tsuen Junc. sprint",
+      "distanceM": 637.7000122070312,
+      "avgGrade": 0.15681354701519012,
+      "startLat": 22.538583755493164,
+      "startLng": 114.1496353149414
+    },
+    {
+      "id": "9154225",
+      "tileScore": 56,
+      "name": "Sha Kung Sprint",
+      "distanceM": 4240.2998046875,
+      "avgGrade": -0.4810980558395386,
+      "startLat": 22.524953842163086,
+      "startLng": 114.1893081665039
+    },
+    {
+      "id": "13907651",
+      "tileScore": 1,
+      "name": "三鄉亭> 禾徑山路",
+      "distanceM": 886.9000244140625,
+      "avgGrade": 0.16912841796875,
+      "startLat": 22.535486221313477,
+      "startLng": 114.16509246826172
+    },
+    {
+      "id": "38840312",
+      "tileScore": 22,
+      "name": "The GT ",
+      "distanceM": 95767,
+      "avgGrade": 0.04740672558546066,
+      "startLat": 22.326505661010742,
+      "startLng": 114.15650939941406
+    },
+    {
+      "id": "12181649",
+      "tileScore": 28,
+      "name": "shennan train",
+      "distanceM": 10026.900390625,
+      "avgGrade": -0.09175318479537964,
+      "startLat": 22.542226791381836,
+      "startLng": 114.05308532714844
+    },
+    {
+      "id": "11172602",
+      "tileScore": 10,
+      "name": "文錦渡路大戰大貨車",
+      "distanceM": 2526.89990234375,
+      "avgGrade": 0.047489017248153687,
+      "startLat": 22.516658782958984,
+      "startLng": 114.12606811523438
+    },
+    {
+      "id": "8518370",
+      "tileScore": 11,
+      "name": "TKO direct MTB ride to Wah Shan",
+      "distanceM": 42259.80078125,
+      "avgGrade": -0.05300545692443848,
+      "startLat": 22.331056594848633,
+      "startLng": 114.25001525878906
+    },
+    {
+      "id": "32465850",
+      "tileScore": 4,
+      "name": "Kwan Tei Duck Pool",
+      "distanceM": 847.9000244140625,
+      "avgGrade": 0.967095136642456,
+      "startLat": 22.50935935974121,
+      "startLng": 114.1577377319336
+    }
+  ]
+}

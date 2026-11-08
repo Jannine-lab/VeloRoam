@@ -1,0 +1,200 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-03T06:09:36.165Z",
+  "tile": {
+    "z": 13,
+    "x": 6850,
+    "y": 3352
+  },
+  "segments": [
+    {
+      "id": "23536192",
+      "tileScore": 76,
+      "name": "拦路港pt1",
+      "distanceM": 2732.5,
+      "avgGrade": -0.021957915276288986,
+      "startLat": 31.052640914916992,
+      "startLng": 121.04448699951172
+    },
+    {
+      "id": "30541192",
+      "tileScore": 79,
+      "name": "太浦河两桥之间",
+      "distanceM": 1071.300048828125,
+      "avgGrade": -0.14935125410556793,
+      "startLat": 31.02611541748047,
+      "startLng": 121.03694915771484
+    },
+    {
+      "id": "17079911",
+      "tileScore": 113,
+      "name": "Classic canal reverse",
+      "distanceM": 15373.900390625,
+      "avgGrade": 0.015610872767865658,
+      "startLat": 31.007339477539062,
+      "startLng": 121.10590362548828
+    },
+    {
+      "id": "28971973",
+      "tileScore": 82,
+      "name": "Sun Island East Bund",
+      "distanceM": 4060.89990234375,
+      "avgGrade": -0.024625083431601524,
+      "startLat": 31.034610748291016,
+      "startLng": 121.08087921142578
+    },
+    {
+      "id": "40306927",
+      "tileScore": 119,
+      "name": "白pro 10公里itt挑战赛",
+      "distanceM": 11441,
+      "avgGrade": -0.008740494027733803,
+      "startLat": 31.030139923095703,
+      "startLng": 121.0668716430664
+    },
+    {
+      "id": "39149492",
+      "tileScore": 31,
+      "name": "Taipu River Bridge Climb",
+      "distanceM": 718.2999877929688,
+      "avgGrade": 1.6149241924285889,
+      "startLat": 31.030736923217773,
+      "startLng": 121.03589630126953
+    },
+    {
+      "id": "20757005",
+      "tileScore": 97,
+      "name": "太浦河ITT",
+      "distanceM": 6713.89990234375,
+      "avgGrade": 0.0059577892534434795,
+      "startLat": 31.076200485229492,
+      "startLng": 121.00354766845703
+    },
+    {
+      "id": "736097",
+      "tileScore": 52,
+      "name": "Zhufeng Hwy return",
+      "distanceM": 3402.030029296875,
+      "avgGrade": -0.011757789179682732,
+      "startLat": 31.0477352142334,
+      "startLng": 121.04412841796875
+    },
+    {
+      "id": "36675891",
+      "tileScore": 58,
+      "name": "Taipu Slingshot",
+      "distanceM": 3273.10009765625,
+      "avgGrade": 0.012220830656588078,
+      "startLat": 31.02796745300293,
+      "startLng": 121.04972076416016
+    },
+    {
+      "id": "18968846",
+      "tileScore": 79,
+      "name": "太浦河南岸eastbound 1",
+      "distanceM": 4228.7998046875,
+      "avgGrade": 0.00472947396337986,
+      "startLat": 31.021337509155273,
+      "startLng": 121.00213623046875
+    },
+    {
+      "id": "26898800",
+      "tileScore": 160,
+      "name": "太浦河TTT",
+      "distanceM": 20211.400390625,
+      "avgGrade": 0.006926783826202154,
+      "startLat": 31.079971313476562,
+      "startLng": 120.99723815917969
+    },
+    {
+      "id": "23066546",
+      "tileScore": 95,
+      "name": "太浦河西向至老朱枫路",
+      "distanceM": 6644.39990234375,
+      "avgGrade": 0.039130695164203644,
+      "startLat": 31.022911071777344,
+      "startLng": 120.96965789794922
+    },
+    {
+      "id": "30716383",
+      "tileScore": 8,
+      "name": "顺时针 环松江 西段",
+      "distanceM": 17517.30078125,
+      "avgGrade": -0.0011417284840717912,
+      "startLat": 30.938447952270508,
+      "startLng": 121.01915740966797
+    },
+    {
+      "id": "18594624",
+      "tileScore": 66,
+      "name": "round the bend to 225",
+      "distanceM": 5027.89990234375,
+      "avgGrade": 0.05966705456376076,
+      "startLat": 31.012176513671875,
+      "startLng": 121.09524536132812
+    },
+    {
+      "id": "11987318",
+      "tileScore": 24,
+      "name": "Taipu River Bridge (Northbound)",
+      "distanceM": 773.0999755859375,
+      "avgGrade": -0.07760962843894958,
+      "startLat": 31.02347755432129,
+      "startLng": 121.04878997802734
+    },
+    {
+      "id": "41261437",
+      "tileScore": 20,
+      "name": "老朱枫到太浦河",
+      "distanceM": 1649.300048828125,
+      "avgGrade": 0.10913720726966858,
+      "startLat": 31.046239852905273,
+      "startLng": 121.03321075439453
+    },
+    {
+      "id": "40976501",
+      "tileScore": 11,
+      "name": "Canal Tour",
+      "distanceM": 31244.30078125,
+      "avgGrade": 0.01024186797440052,
+      "startLat": 31.025711059570312,
+      "startLng": 121.04932403564453
+    },
+    {
+      "id": "26247357",
+      "tileScore": 24,
+      "name": "练西公路（东向西）",
+      "distanceM": 8140.2998046875,
+      "avgGrade": 0.022112207487225533,
+      "startLat": 31.04954719543457,
+      "startLng": 121.03935241699219
+    },
+    {
+      "id": "42155611",
+      "tileScore": 19,
+      "name": "淀山湖大环加太浦河95km",
+      "distanceM": 98464.203125,
+      "avgGrade": 0.00020311950356699526,
+      "startLat": 31.100807189941406,
+      "startLng": 121.01215362548828
+    },
+    {
+      "id": "40190215",
+      "tileScore": 81,
+      "name": "冲刺过河",
+      "distanceM": 1483.199951171875,
+      "avgGrade": -0.013484357856214046,
+      "startLat": 31.052175521850586,
+      "startLng": 121.0497817993164
+    },
+    {
+      "id": "40986412",
+      "tileScore": 11,
+      "name": "太浦河北岸从头到尾",
+      "distanceM": 58174.1015625,
+      "avgGrade": -0.006875912193208933,
+      "startLat": 31.01245880126953,
+      "startLng": 120.48320770263672
+    }
+  ]
+}

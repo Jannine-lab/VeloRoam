@@ -1,0 +1,56 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-08T22:35:59.172Z",
+  "tile": {
+    "z": 13,
+    "x": 6805,
+    "y": 3330
+  },
+  "segments": [
+    {
+      "id": "40836413",
+      "tileScore": 10,
+      "name": "扬禄线ITT",
+      "distanceM": 8570.7998046875,
+      "avgGrade": -0.011667522601783276,
+      "startLat": 31.859312057495117,
+      "startLng": 119.0986099243164
+    },
+    {
+      "id": "37340342",
+      "tileScore": 3,
+      "name": "S243 N-S",
+      "distanceM": 13770.599609375,
+      "avgGrade": -0.014523694291710854,
+      "startLat": 31.93971824645996,
+      "startLng": 119.12068176269531
+    },
+    {
+      "id": "42164660",
+      "tileScore": 16,
+      "name": "赤山热身坡（到景区电动门）",
+      "distanceM": 506.3999938964844,
+      "avgGrade": 5.608214855194092,
+      "startLat": 31.86570930480957,
+      "startLng": 119.06616973876953
+    },
+    {
+      "id": "18728273",
+      "tileScore": 4,
+      "name": "Chishan Lake Lap",
+      "distanceM": 9775.900390625,
+      "avgGrade": 0,
+      "startLat": 31.84575653076172,
+      "startLng": 119.1030044555664
+    },
+    {
+      "id": "42164673",
+      "tileScore": 17,
+      "name": "狂飙句容河岸（S-N）",
+      "distanceM": 9376.599609375,
+      "avgGrade": 0.014930784702301025,
+      "startLat": 31.863876342773438,
+      "startLng": 119.0906753540039
+    }
+  ]
+}

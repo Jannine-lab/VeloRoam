@@ -1,0 +1,29 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-08T22:50:50.086Z",
+  "tile": {
+    "z": 13,
+    "x": 6703,
+    "y": 3567
+  },
+  "segments": [
+    {
+      "id": "34048119",
+      "tileScore": 2,
+      "name": "岭澳水库爬坡",
+      "distanceM": 594.5,
+      "avgGrade": 9.587888717651367,
+      "startLat": 22.621688842773438,
+      "startLng": 114.57199096679688
+    },
+    {
+      "id": "34003961",
+      "tileScore": 17,
+      "name": "岭澳到高岭山隧道",
+      "distanceM": 7086.10009765625,
+      "avgGrade": 0.35844823718070984,
+      "startLat": 22.599559783935547,
+      "startLng": 114.54778289794922
+    }
+  ]
+}

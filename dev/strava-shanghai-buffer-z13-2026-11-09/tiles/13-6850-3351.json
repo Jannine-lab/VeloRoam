@@ -1,0 +1,164 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-03T06:09:36.165Z",
+  "tile": {
+    "z": 13,
+    "x": 6850,
+    "y": 3351
+  },
+  "segments": [
+    {
+      "id": "30716383",
+      "tileScore": 8,
+      "name": "顺时针 环松江 西段",
+      "distanceM": 17517.30078125,
+      "avgGrade": -0.0011417284840717912,
+      "startLat": 30.938447952270508,
+      "startLng": 121.01915740966797
+    },
+    {
+      "id": "20757005",
+      "tileScore": 97,
+      "name": "太浦河ITT",
+      "distanceM": 6713.89990234375,
+      "avgGrade": 0.0059577892534434795,
+      "startLat": 31.076200485229492,
+      "startLng": 121.00354766845703
+    },
+    {
+      "id": "26247289",
+      "tileScore": 27,
+      "name": "复兴路（北向南）",
+      "distanceM": 2453.5,
+      "avgGrade": 0.00815161969512701,
+      "startLat": 31.100805282592773,
+      "startLng": 121.02961730957031
+    },
+    {
+      "id": "32956173",
+      "tileScore": 68,
+      "name": "Sun Island Hwy UP",
+      "distanceM": 4203.2001953125,
+      "avgGrade": -0.023791396990418434,
+      "startLat": 31.043256759643555,
+      "startLng": 121.08158874511719
+    },
+    {
+      "id": "736097",
+      "tileScore": 52,
+      "name": "Zhufeng Hwy return",
+      "distanceM": 3402.030029296875,
+      "avgGrade": -0.011757789179682732,
+      "startLat": 31.0477352142334,
+      "startLng": 121.04412841796875
+    },
+    {
+      "id": "26247313",
+      "tileScore": 14,
+      "name": "沈砖公路-先锋村",
+      "distanceM": 3933.800048828125,
+      "avgGrade": 0,
+      "startLat": 31.07807731628418,
+      "startLng": 121.02821350097656
+    },
+    {
+      "id": "2876483",
+      "tileScore": 52,
+      "name": "康园路88号 Climb",
+      "distanceM": 708.0700073242188,
+      "avgGrade": 11.947464942932129,
+      "startLat": 31.078229904174805,
+      "startLng": 121.05242919921875
+    },
+    {
+      "id": "36685513",
+      "tileScore": 3,
+      "name": "GG's wetland detour",
+      "distanceM": 6752.2001953125,
+      "avgGrade": 0.02961997501552105,
+      "startLat": 31.077356338500977,
+      "startLng": 121.0015640258789
+    },
+    {
+      "id": "24366874",
+      "tileScore": 36,
+      "name": "沈砖公路TT赛段",
+      "distanceM": 9975.5,
+      "avgGrade": -0.006014736369252205,
+      "startLat": 31.08570671081543,
+      "startLng": 121.16598510742188
+    },
+    {
+      "id": "26898800",
+      "tileScore": 160,
+      "name": "太浦河TTT",
+      "distanceM": 20211.400390625,
+      "avgGrade": 0.006926783826202154,
+      "startLat": 31.079971313476562,
+      "startLng": 120.99723815917969
+    },
+    {
+      "id": "42155611",
+      "tileScore": 19,
+      "name": "淀山湖大环加太浦河95km",
+      "distanceM": 98464.203125,
+      "avgGrade": 0.00020311950356699526,
+      "startLat": 31.100807189941406,
+      "startLng": 121.01215362548828
+    },
+    {
+      "id": "37029670",
+      "tileScore": 5,
+      "name": "Doctor必须是KOM",
+      "distanceM": 3999.10009765625,
+      "avgGrade": 0.025005627423524857,
+      "startLat": 31.105819702148438,
+      "startLng": 121.05935668945312
+    },
+    {
+      "id": "23066575",
+      "tileScore": 72,
+      "name": "沈砖公路东向4KM",
+      "distanceM": 4084.10009765625,
+      "avgGrade": 0.02448519878089428,
+      "startLat": 31.07915687561035,
+      "startLng": 121.06281280517578
+    },
+    {
+      "id": "32997785",
+      "tileScore": 28,
+      "name": "Sprint to Grandpa",
+      "distanceM": 1621.300048828125,
+      "avgGrade": 0,
+      "startLat": 31.077959060668945,
+      "startLng": 121.02942657470703
+    },
+    {
+      "id": "32192847",
+      "tileScore": 22,
+      "name": "LanLuGang Forest",
+      "distanceM": 4596.39990234375,
+      "avgGrade": -0.0043512312695384026,
+      "startLat": 31.078067779541016,
+      "startLng": 121.0284423828125
+    },
+    {
+      "id": "40190215",
+      "tileScore": 81,
+      "name": "冲刺过河",
+      "distanceM": 1483.199951171875,
+      "avgGrade": -0.013484357856214046,
+      "startLat": 31.052175521850586,
+      "startLng": 121.0497817993164
+    },
+    {
+      "id": "37724746",
+      "tileScore": 8,
+      "name": "青浦快运",
+      "distanceM": 66769.3984375,
+      "avgGrade": -0.013179689645767212,
+      "startLat": 31.176237106323242,
+      "startLng": 121.27295684814453
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-08T22:35:14.846Z",
+  "tile": {
+    "z": 13,
+    "x": 6788,
+    "y": 3330
+  },
+  "segments": [
+    {
+      "id": "38407076",
+      "tileScore": 6,
+      "name": "微风：戎桥水库起伏路",
+      "distanceM": 1305.5999755859375,
+      "avgGrade": 0.4901961088180542,
+      "startLat": 31.883703231811523,
+      "startLng": 118.3083267211914
+    }
+  ]
+}

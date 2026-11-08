@@ -1,0 +1,56 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-08T22:50:55.185Z",
+  "tile": {
+    "z": 13,
+    "x": 6703,
+    "y": 3570
+  },
+  "segments": [
+    {
+      "id": "38312949",
+      "tileScore": 8,
+      "name": "大梅沙-东涌",
+      "distanceM": 51781.5,
+      "avgGrade": -0.019118797034025192,
+      "startLat": 22.5883731842041,
+      "startLng": 114.28683471679688
+    },
+    {
+      "id": "22482963",
+      "tileScore": 3,
+      "name": "All ID Climbs And Decents",
+      "distanceM": 52568.1015625,
+      "avgGrade": -0.05041080340743065,
+      "startLat": 22.533960342407227,
+      "startLng": 114.50653839111328
+    },
+    {
+      "id": "33420951",
+      "tileScore": 35,
+      "name": "东涌路起伏计时赛段 W-E",
+      "distanceM": 5032,
+      "avgGrade": -1.8918918371200562,
+      "startLat": 22.501544952392578,
+      "startLng": 114.53195190429688
+    },
+    {
+      "id": "41678198",
+      "tileScore": 3,
+      "name": "东涌湿地公园（CW）",
+      "distanceM": 3143.10009765625,
+      "avgGrade": -0.019089434295892715,
+      "startLat": 22.496021270751953,
+      "startLng": 114.57041931152344
+    },
+    {
+      "id": "37023220",
+      "tileScore": 6,
+      "name": "西涌野沙滩岸边到东涌沙滩入口",
+      "distanceM": 4372.39990234375,
+      "avgGrade": 0.07318634539842606,
+      "startLat": 22.483701705932617,
+      "startLng": 114.5484848022461
+    }
+  ]
+}

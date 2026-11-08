@@ -1,0 +1,164 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-08T22:33:05.367Z",
+  "tile": {
+    "z": 13,
+    "x": 6805,
+    "y": 3323
+  },
+  "segments": [
+    {
+      "id": "39883787",
+      "tileScore": 8,
+      "name": "西部干线环线段 1/2",
+      "distanceM": 39352.30078125,
+      "avgGrade": 0.04472419619560242,
+      "startLat": 32.06488800048828,
+      "startLng": 118.88341522216797
+    },
+    {
+      "id": "35405179",
+      "tileScore": 109,
+      "name": "西部干线 6 连坡之 NO.2",
+      "distanceM": 994.5999755859375,
+      "avgGrade": 3.086668014526367,
+      "startLat": 32.115848541259766,
+      "startLng": 119.06647491455078
+    },
+    {
+      "id": "40103622",
+      "tileScore": 48,
+      "name": "Anjishan Lake W>E",
+      "distanceM": 3229.5,
+      "avgGrade": 0.3715745508670807,
+      "startLat": 32.09109115600586,
+      "startLng": 119.0565185546875
+    },
+    {
+      "id": "35765181",
+      "tileScore": 33,
+      "name": "ul - Xianlin - Baohua Garden Expo Loop",
+      "distanceM": 34483.80078125,
+      "avgGrade": 0.011599649675190449,
+      "startLat": 32.095947265625,
+      "startLng": 118.91744232177734
+    },
+    {
+      "id": "18421167",
+      "tileScore": 119,
+      "name": "Jurong xibuganxian southward",
+      "distanceM": 17990.599609375,
+      "avgGrade": 0.0266805998980999,
+      "startLat": 32.11002731323242,
+      "startLng": 119.05467224121094
+    },
+    {
+      "id": "36755845",
+      "tileScore": 61,
+      "name": "西部干线+S122宁张线 间歇专线",
+      "distanceM": 33812.30078125,
+      "avgGrade": -0.031053787097334862,
+      "startLat": 32.109764099121094,
+      "startLng": 119.05423736572266
+    },
+    {
+      "id": "30524548",
+      "tileScore": 70,
+      "name": "Yego's hill",
+      "distanceM": 557.9000244140625,
+      "avgGrade": 4.086753845214844,
+      "startLat": 32.10930633544922,
+      "startLng": 119.0536880493164
+    },
+    {
+      "id": "8132662",
+      "tileScore": 6,
+      "name": "BaoHua Military zone Peak Climb",
+      "distanceM": 1282.4000244140625,
+      "avgGrade": 9.529007911682129,
+      "startLat": 32.12922668457031,
+      "startLng": 119.08421325683594
+    },
+    {
+      "id": "35739046",
+      "tileScore": 31,
+      "name": "妙峰路爬坡",
+      "distanceM": 906.7000122070312,
+      "avgGrade": 5.227748870849609,
+      "startLat": 32.11037826538086,
+      "startLng": 119.08103942871094
+    },
+    {
+      "id": "3484624",
+      "tileScore": 11,
+      "name": "杨柳泉路 Climb",
+      "distanceM": 2680.320068359375,
+      "avgGrade": 7.603626728057861,
+      "startLat": 32.120574951171875,
+      "startLng": 119.08283996582031
+    },
+    {
+      "id": "35661789",
+      "tileScore": 52,
+      "name": "downhill",
+      "distanceM": 1339.5999755859375,
+      "avgGrade": -1.649746060371399,
+      "startLat": 32.11201858520508,
+      "startLng": 119.07604217529297
+    },
+    {
+      "id": "36869130",
+      "tileScore": 35,
+      "name": "欢迎来到安基山鲁贝赛段",
+      "distanceM": 525.5999755859375,
+      "avgGrade": 0.2283104956150055,
+      "startLat": 32.10102081298828,
+      "startLng": 119.0775146484375
+    },
+    {
+      "id": "18421491",
+      "tileScore": 16,
+      "name": "west of Baohua sprint",
+      "distanceM": 2624.5,
+      "avgGrade": -0.6858449578285217,
+      "startLat": 32.1099967956543,
+      "startLng": 119.05342864990234
+    },
+    {
+      "id": "18421613",
+      "tileScore": 45,
+      "name": "Tangshan descent1",
+      "distanceM": 1786.5999755859375,
+      "avgGrade": -1.4328893423080444,
+      "startLat": 32.10371398925781,
+      "startLng": 119.05644989013672
+    },
+    {
+      "id": "36068813",
+      "tileScore": 81,
+      "name": "华山村牌坊出来一路狂飙",
+      "distanceM": 2317.60009765625,
+      "avgGrade": -1.4066275358200073,
+      "startLat": 32.10326385498047,
+      "startLng": 119.10799407958984
+    },
+    {
+      "id": "36800174",
+      "tileScore": 34,
+      "name": "螺丝冲彩虹步道一圈itt",
+      "distanceM": 1782.800048828125,
+      "avgGrade": -0.022436615079641342,
+      "startLat": 32.099578857421875,
+      "startLng": 119.06649780273438
+    },
+    {
+      "id": "35405184",
+      "tileScore": 108,
+      "name": "西部干线 6 连坡之 NO.1",
+      "distanceM": 1326.0999755859375,
+      "avgGrade": 0.7465500235557556,
+      "startLat": 32.109771728515625,
+      "startLng": 119.05421447753906
+    }
+  ]
+}

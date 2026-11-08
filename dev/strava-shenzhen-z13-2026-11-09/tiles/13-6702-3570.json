@@ -1,0 +1,92 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-08T22:50:57.954Z",
+  "tile": {
+    "z": 13,
+    "x": 6702,
+    "y": 3570
+  },
+  "segments": [
+    {
+      "id": "866530",
+      "tileScore": 36,
+      "name": "南西公路 Climb",
+      "distanceM": 1590.989990234375,
+      "avgGrade": 7.580138206481934,
+      "startLat": 22.48883056640625,
+      "startLng": 114.53253936767578
+    },
+    {
+      "id": "35869485",
+      "tileScore": 14,
+      "name": "骑去坐大飞",
+      "distanceM": 1418.5,
+      "avgGrade": 2.1995065212249756,
+      "startLat": 22.47563934326172,
+      "startLng": 114.52208709716797
+    },
+    {
+      "id": "37023220",
+      "tileScore": 6,
+      "name": "西涌野沙滩岸边到东涌沙滩入口",
+      "distanceM": 4372.39990234375,
+      "avgGrade": 0.07318634539842606,
+      "startLat": 22.483701705932617,
+      "startLng": 114.5484848022461
+    },
+    {
+      "id": "21299047",
+      "tileScore": 11,
+      "name": "深圳西通天文台",
+      "distanceM": 1554.5,
+      "avgGrade": 9.263428688049316,
+      "startLat": 22.485315322875977,
+      "startLng": 114.54727172851562
+    },
+    {
+      "id": "22482963",
+      "tileScore": 3,
+      "name": "All ID Climbs And Decents",
+      "distanceM": 52568.1015625,
+      "avgGrade": -0.05041080340743065,
+      "startLat": 22.533960342407227,
+      "startLng": 114.50653839111328
+    },
+    {
+      "id": "33420951",
+      "tileScore": 35,
+      "name": "东涌路起伏计时赛段 W-E",
+      "distanceM": 5032,
+      "avgGrade": -1.8918918371200562,
+      "startLat": 22.501544952392578,
+      "startLng": 114.53195190429688
+    },
+    {
+      "id": "38312949",
+      "tileScore": 8,
+      "name": "大梅沙-东涌",
+      "distanceM": 51781.5,
+      "avgGrade": -0.019118797034025192,
+      "startLat": 22.5883731842041,
+      "startLng": 114.28683471679688
+    },
+    {
+      "id": "1707602",
+      "tileScore": 129,
+      "name": "南西公路 Climb",
+      "distanceM": 2771,
+      "avgGrade": 4.980151653289795,
+      "startLat": 22.52143669128418,
+      "startLng": 114.50947570800781
+    },
+    {
+      "id": "23150778",
+      "tileScore": 64,
+      "name": "东西涌三岔口 - 爬坡到坡顶",
+      "distanceM": 1223.5,
+      "avgGrade": 6.326113700866699,
+      "startLat": 22.501619338989258,
+      "startLng": 114.53147888183594
+    }
+  ]
+}

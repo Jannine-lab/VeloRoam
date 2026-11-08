@@ -1,0 +1,20 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-08T22:26:44.089Z",
+  "tile": {
+    "z": 13,
+    "x": 6802,
+    "y": 3317
+  },
+  "segments": [
+    {
+      "id": "39899218",
+      "tileScore": 14,
+      "name": "横梁—新篁",
+      "distanceM": 5217,
+      "avgGrade": -0.0575043149292469,
+      "startLat": 32.32978439331055,
+      "startLng": 118.92916870117188
+    }
+  ]
+}

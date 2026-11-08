@@ -1,0 +1,92 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-08T22:51:57.190Z",
+  "tile": {
+    "z": 13,
+    "x": 6698,
+    "y": 3572
+  },
+  "segments": [
+    {
+      "id": "5875073",
+      "tileScore": 1,
+      "name": "Maclehose Trail Sec. 2 Climb",
+      "distanceM": 622.9000244140625,
+      "avgGrade": 12.93947696685791,
+      "startLat": 22.394044876098633,
+      "startLng": 114.36972045898438
+    },
+    {
+      "id": "13282361",
+      "tileScore": 6,
+      "name": "Pavilion to peak climb",
+      "distanceM": 3524.300048828125,
+      "avgGrade": 2.349402666091919,
+      "startLat": 22.394588470458984,
+      "startLng": 114.33059692382812
+    },
+    {
+      "id": "720670",
+      "tileScore": 1,
+      "name": "Sai Kung Sai Wan Rd Climb",
+      "distanceM": 1088.010009765625,
+      "avgGrade": 13.455883026123047,
+      "startLat": 22.41625213623047,
+      "startLng": 114.37210845947266
+    },
+    {
+      "id": "3336130",
+      "tileScore": 1,
+      "name": "Sharp Peak Path Climb",
+      "distanceM": 1057.15283203125,
+      "avgGrade": 25.059123992919922,
+      "startLat": 22.42667579650879,
+      "startLng": 114.37122344970703
+    },
+    {
+      "id": "6120895",
+      "tileScore": 1,
+      "name": "Luk Wo Country Trail Climb",
+      "distanceM": 800.2999877929688,
+      "avgGrade": 10.146195411682129,
+      "startLat": 22.401941299438477,
+      "startLng": 114.35896301269531
+    },
+    {
+      "id": "3213029",
+      "tileScore": 2,
+      "name": "Maclehose Trail Sec. 2 Climb",
+      "distanceM": 1039.2490234375,
+      "avgGrade": 8.448806762695312,
+      "startLat": 22.400850296020508,
+      "startLng": 114.36820983886719
+    },
+    {
+      "id": "1259326",
+      "tileScore": 1,
+      "name": "Pak Tam Rd Climb",
+      "distanceM": 578.198974609375,
+      "avgGrade": 16.585956573486328,
+      "startLat": 22.421903610229492,
+      "startLng": 114.34785461425781
+    },
+    {
+      "id": "2813461",
+      "tileScore": 2,
+      "name": "Sai Kung Sai Wan Rd Climb",
+      "distanceM": 1162.70947265625,
+      "avgGrade": 9.92517375946045,
+      "startLat": 22.407981872558594,
+      "startLng": 114.34659576416016
+    },
+    {
+      "id": "6120894",
+      "tileScore": 2,
+      "name": "Luk Wo Country Trail Climb",
+      "distanceM": 830.0999755859375,
+      "avgGrade": 15.540295600891113,
+      "startLat": 22.413259506225586,
+      "startLng": 114.35513305664062
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-08T22:36:30.932Z",
+  "tile": {
+    "z": 13,
+    "x": 6790,
+    "y": 3333
+  },
+  "segments": [
+    {
+      "id": "36278009",
+      "tileScore": 2,
+      "name": "和县江堤 S2N",
+      "distanceM": 10660.400390625,
+      "avgGrade": 0.011256612837314606,
+      "startLat": 31.717266082763672,
+      "startLng": 118.40690612792969
+    }
+  ]
+}

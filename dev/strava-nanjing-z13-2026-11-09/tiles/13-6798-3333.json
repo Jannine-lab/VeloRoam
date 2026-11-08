@@ -1,0 +1,20 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-08T22:36:41.726Z",
+  "tile": {
+    "z": 13,
+    "x": 6798,
+    "y": 3333
+  },
+  "segments": [
+    {
+      "id": "31903916",
+      "tileScore": 6,
+      "name": "ov-陶吴到横溪",
+      "distanceM": 7353.2001953125,
+      "avgGrade": 0.043518468737602234,
+      "startLat": 31.765565872192383,
+      "startLng": 118.77508544921875
+    }
+  ]
+}

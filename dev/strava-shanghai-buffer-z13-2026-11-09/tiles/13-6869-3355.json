@@ -1,0 +1,92 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-03T06:10:56.380Z",
+  "tile": {
+    "z": 13,
+    "x": 6869,
+    "y": 3355
+  },
+  "segments": [
+    {
+      "id": "33174152",
+      "tileScore": 14,
+      "name": "塘下TT-NtoS",
+      "distanceM": 12146.400390625,
+      "avgGrade": -0.08891523629426956,
+      "startLat": 31.00676918029785,
+      "startLng": 121.87511444091797
+    },
+    {
+      "id": "35927579",
+      "tileScore": 4,
+      "name": "金桥-滴水湖-云山路绕圈",
+      "distanceM": 150058.90625,
+      "avgGrade": 0.0018659341149032116,
+      "startLat": 31.22467041015625,
+      "startLng": 121.62055969238281
+    },
+    {
+      "id": "25866794",
+      "tileScore": 3,
+      "name": "滨果公路itt",
+      "distanceM": 8583.900390625,
+      "avgGrade": -0.018639545887708664,
+      "startLat": 31.004884719848633,
+      "startLng": 121.88356018066406
+    },
+    {
+      "id": "10343160",
+      "tileScore": 8,
+      "name": "Lake to Lianggang",
+      "distanceM": 4195.39990234375,
+      "avgGrade": 0.002383562969043851,
+      "startLat": 30.911897659301758,
+      "startLng": 121.92322540283203
+    },
+    {
+      "id": "34630750",
+      "tileScore": 12,
+      "name": "Lianggang Ave S-N",
+      "distanceM": 1530.5999755859375,
+      "avgGrade": -0.10453417152166367,
+      "startLat": 30.925554275512695,
+      "startLng": 121.88392639160156
+    },
+    {
+      "id": "7431974",
+      "tileScore": 3,
+      "name": "TT lovers 2 Clockwise - Guaranted by Roberto",
+      "distanceM": 30336.900390625,
+      "avgGrade": 0.00032963158446364105,
+      "startLat": 31.04207992553711,
+      "startLng": 121.85521697998047
+    },
+    {
+      "id": "41152890",
+      "tileScore": 5,
+      "name": "Forest Loop Reverse",
+      "distanceM": 1374.5,
+      "avgGrade": 0.05820298194885254,
+      "startLat": 30.908737182617188,
+      "startLng": 121.89640045166016
+    },
+    {
+      "id": "36918224",
+      "tileScore": 20,
+      "name": "塘下申港临团区间",
+      "distanceM": 1814.4000244140625,
+      "avgGrade": 0.09369488805532455,
+      "startLat": 30.9008731842041,
+      "startLng": 121.88082122802734
+    },
+    {
+      "id": "37737722",
+      "tileScore": 2,
+      "name": "沪城环路（临港to临团）",
+      "distanceM": 1431.5,
+      "avgGrade": 0.013971359468996525,
+      "startLat": 30.926759719848633,
+      "startLng": 121.9029312133789
+    }
+  ]
+}

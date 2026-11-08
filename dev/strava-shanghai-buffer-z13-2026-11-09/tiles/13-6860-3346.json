@@ -1,0 +1,299 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-03T06:06:53.200Z",
+  "tile": {
+    "z": 13,
+    "x": 6860,
+    "y": 3346
+  },
+  "segments": [
+    {
+      "id": "28716799",
+      "tileScore": 29,
+      "name": "SiPing",
+      "distanceM": 804.0999755859375,
+      "avgGrade": 0.04974506050348282,
+      "startLat": 31.27724838256836,
+      "startLng": 121.49772644042969
+    },
+    {
+      "id": "26046283",
+      "tileScore": 20,
+      "name": "Bund La Pedale",
+      "distanceM": 1796,
+      "avgGrade": 0,
+      "startLat": 31.242115020751953,
+      "startLng": 121.48560333251953
+    },
+    {
+      "id": "40626325",
+      "tileScore": 106,
+      "name": "苏州河鲁貝#y",
+      "distanceM": 514.5999755859375,
+      "avgGrade": -0.544111967086792,
+      "startLat": 31.24219512939453,
+      "startLng": 121.463134765625
+    },
+    {
+      "id": "38400128",
+      "tileScore": 1,
+      "name": "北外滩 004 Brew Island",
+      "distanceM": 551.2000122070312,
+      "avgGrade": 0.14513787627220154,
+      "startLat": 31.253875732421875,
+      "startLng": 121.48757934570312
+    },
+    {
+      "id": "36744815",
+      "tileScore": 27,
+      "name": "陆家嘴 097 Riverside",
+      "distanceM": 1326.0999755859375,
+      "avgGrade": 0.06032727658748627,
+      "startLat": 31.244482040405273,
+      "startLng": 121.49629974365234
+    },
+    {
+      "id": "10541863",
+      "tileScore": 3,
+      "name": "40 km Shanghaï Loop",
+      "distanceM": 38644.5,
+      "avgGrade": 0.0015526142669841647,
+      "startLat": 31.193662643432617,
+      "startLng": 121.46837615966797
+    },
+    {
+      "id": "33848177",
+      "tileScore": 5,
+      "name": "to Jiangwan",
+      "distanceM": 1767.5999755859375,
+      "avgGrade": 0.03394433110952377,
+      "startLat": 31.272207260131836,
+      "startLng": 121.47515869140625
+    },
+    {
+      "id": "28997431",
+      "tileScore": 9,
+      "name": "SiChuan",
+      "distanceM": 809.9000244140625,
+      "avgGrade": -0.049388814717531204,
+      "startLat": 31.24736213684082,
+      "startLng": 121.48112487792969
+    },
+    {
+      "id": "35856479",
+      "tileScore": 3,
+      "name": "连场线westward（大连路-大场）",
+      "distanceM": 14133.900390625,
+      "avgGrade": 0.0028300751000642776,
+      "startLat": 31.25510025024414,
+      "startLng": 121.51271057128906
+    },
+    {
+      "id": "36516350",
+      "tileScore": 2,
+      "name": "经典通勤上班线路A-虹桥绕道至凯旋卡红绿灯不停车",
+      "distanceM": 21577.099609375,
+      "avgGrade": -0.04634543135762215,
+      "startLat": 31.27074432373047,
+      "startLng": 121.52769470214844
+    },
+    {
+      "id": "22431799",
+      "tileScore": 2,
+      "name": "Rush Hour from Xujiahui to Wujiaochang",
+      "distanceM": 17675.30078125,
+      "avgGrade": -0.08146961778402328,
+      "startLat": 31.195659637451172,
+      "startLng": 121.43431854248047
+    },
+    {
+      "id": "36744531",
+      "tileScore": 9,
+      "name": "四平路冲刺（海伦-物华）",
+      "distanceM": 513.7000122070312,
+      "avgGrade": 0.07786645740270615,
+      "startLat": 31.26016616821289,
+      "startLng": 121.48428344726562
+    },
+    {
+      "id": "8957426",
+      "tileScore": 4,
+      "name": "Jiaxing Bridge (Northbound)",
+      "distanceM": 365,
+      "avgGrade": 0.8219177722930908,
+      "startLat": 31.256441116333008,
+      "startLng": 121.48262023925781
+    },
+    {
+      "id": "28862393",
+      "tileScore": 8,
+      "name": "Zhongshan",
+      "distanceM": 1169.199951171875,
+      "avgGrade": 0.034211426973342896,
+      "startLat": 31.277278900146484,
+      "startLng": 121.47349548339844
+    },
+    {
+      "id": "33790117",
+      "tileScore": 17,
+      "name": "North Soochow River",
+      "distanceM": 3042.60009765625,
+      "avgGrade": 0.05915992707014084,
+      "startLat": 31.243881225585938,
+      "startLng": 121.47786712646484
+    },
+    {
+      "id": "28920458",
+      "tileScore": 3,
+      "name": "Inner Ring Northern Hemisphere",
+      "distanceM": 14540.599609375,
+      "avgGrade": 0.001375459018163383,
+      "startLat": 31.212167739868164,
+      "startLng": 121.40843963623047
+    },
+    {
+      "id": "6924704",
+      "tileScore": 8,
+      "name": "Waibaidu Bridge (Northbound)",
+      "distanceM": 131.89999389648438,
+      "avgGrade": 2.1986353397369385,
+      "startLat": 31.244661331176758,
+      "startLng": 121.48553466796875
+    },
+    {
+      "id": "28716779",
+      "tileScore": 2,
+      "name": "FuXing",
+      "distanceM": 871.0999755859375,
+      "avgGrade": 0.09183790534734726,
+      "startLat": 31.282550811767578,
+      "startLng": 121.50433349609375
+    },
+    {
+      "id": "28862389",
+      "tileScore": 6,
+      "name": "Dalian",
+      "distanceM": 1961.0999755859375,
+      "avgGrade": 0.09178522229194641,
+      "startLat": 31.277557373046875,
+      "startLng": 121.49629974365234
+    },
+    {
+      "id": "14689575",
+      "tileScore": 1,
+      "name": "Inner Ring Road East to Inner Ring Road West (Zhoujiazui/Haining/Tianmu/Changshou/Changning)",
+      "distanceM": 13932.7998046875,
+      "avgGrade": 0.07607946544885635,
+      "startLat": 31.276411056518555,
+      "startLng": 121.52288055419922
+    },
+    {
+      "id": "29472010",
+      "tileScore": 13,
+      "name": "东长治路（新建路-海门路）",
+      "distanceM": 841.4000244140625,
+      "avgGrade": -0.14261944591999054,
+      "startLat": 31.252914428710938,
+      "startLng": 121.49539184570312
+    },
+    {
+      "id": "35876743",
+      "tileScore": 46,
+      "name": "苏州河 003 Riverside",
+      "distanceM": 1227.800048828125,
+      "avgGrade": 0.016289297491312027,
+      "startLat": 31.24373435974121,
+      "startLng": 121.47244262695312
+    },
+    {
+      "id": "32193090",
+      "tileScore": 4,
+      "name": "火前蹦迪",
+      "distanceM": 553.4000244140625,
+      "avgGrade": 0,
+      "startLat": 31.268159866333008,
+      "startLng": 121.46685791015625
+    },
+    {
+      "id": "36448579",
+      "tileScore": 22,
+      "name": "北外滩 001",
+      "distanceM": 608,
+      "avgGrade": -0.032894738018512726,
+      "startLat": 31.248289108276367,
+      "startLng": 121.4894790649414
+    },
+    {
+      "id": "33723258",
+      "tileScore": 1,
+      "name": "Ruihong Flyer",
+      "distanceM": 588.5,
+      "avgGrade": -0.0339847058057785,
+      "startLat": 31.269935607910156,
+      "startLng": 121.48994445800781
+    },
+    {
+      "id": "13732450",
+      "tileScore": 6,
+      "name": "Sichuan Rd | Jinling Rd",
+      "distanceM": 3860.60009765625,
+      "avgGrade": 0.214992493391037,
+      "startLat": 31.25353240966797,
+      "startLng": 121.47988891601562
+    },
+    {
+      "id": "14273302",
+      "tileScore": 5,
+      "name": "柳营－海宁　我要飞",
+      "distanceM": 2565.60009765625,
+      "avgGrade": -0.33520424365997314,
+      "startLat": 31.268556594848633,
+      "startLng": 121.459228515625
+    },
+    {
+      "id": "13706936",
+      "tileScore": 29,
+      "name": "Sichuan Rd Bridge Southward",
+      "distanceM": 116.30000305175781,
+      "avgGrade": 5.073086738586426,
+      "startLat": 31.24640464782715,
+      "startLng": 121.48119354248047
+    },
+    {
+      "id": "14952967",
+      "tileScore": 5,
+      "name": "Wuhua to Zhejiang",
+      "distanceM": 2699.39990234375,
+      "avgGrade": -0.4482477307319641,
+      "startLat": 31.25942039489746,
+      "startLng": 121.49633026123047
+    },
+    {
+      "id": "38114826",
+      "tileScore": 16,
+      "name": "北外滩 003 Short",
+      "distanceM": 861.5999755859375,
+      "avgGrade": 0,
+      "startLat": 31.25355339050293,
+      "startLng": 121.50251770019531
+    },
+    {
+      "id": "17677714",
+      "tileScore": 3,
+      "name": "逸仙高架到城区路线",
+      "distanceM": 6122.39990234375,
+      "avgGrade": -0.07023389637470245,
+      "startLat": 31.243263244628906,
+      "startLng": 121.46307373046875
+    },
+    {
+      "id": "8957471",
+      "tileScore": 2,
+      "name": "Wusong Rd (Southbound)",
+      "distanceM": 1122.5,
+      "avgGrade": -0.06236080080270767,
+      "startLat": 31.255653381347656,
+      "startLng": 121.48249053955078
+    }
+  ]
+}

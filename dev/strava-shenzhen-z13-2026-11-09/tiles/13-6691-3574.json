@@ -1,0 +1,92 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-08T22:52:38.257Z",
+  "tile": {
+    "z": 13,
+    "x": 6691,
+    "y": 3574
+  },
+  "segments": [
+    {
+      "id": "8810344",
+      "tileScore": 2,
+      "name": "Base to Gate",
+      "distanceM": 254.5,
+      "avgGrade": 8.95874309539795,
+      "startLat": 22.33852767944336,
+      "startLng": 114.03952026367188
+    },
+    {
+      "id": "1264831",
+      "tileScore": 2,
+      "name": "N Lantau Hwy Climb",
+      "distanceM": 644.9299926757812,
+      "avgGrade": 31.60179901123047,
+      "startLat": 22.33062744140625,
+      "startLng": 114.05445098876953
+    },
+    {
+      "id": "3847316",
+      "tileScore": 1,
+      "name": "Lantau Link Climb",
+      "distanceM": 484.2868957519531,
+      "avgGrade": 17.943424224853516,
+      "startLat": 22.34290885925293,
+      "startLng": 114.05378723144531
+    },
+    {
+      "id": "42358983",
+      "tileScore": 73,
+      "name": "香港單車節2026(56公里組)",
+      "distanceM": 54847.3984375,
+      "avgGrade": -0.016773812472820282,
+      "startLat": 22.301021575927734,
+      "startLng": 114.15717315673828
+    },
+    {
+      "id": "3441994",
+      "tileScore": 2,
+      "name": "Ma Wan fire station Flat - out",
+      "distanceM": 393.489990234375,
+      "avgGrade": -0.6607369780540466,
+      "startLat": 22.34734535217285,
+      "startLng": 114.05982971191406
+    },
+    {
+      "id": "5074670",
+      "tileScore": 83,
+      "name": "Hill out of Disney",
+      "distanceM": 1316.5999755859375,
+      "avgGrade": 1.336776614189148,
+      "startLat": 22.324325561523438,
+      "startLng": 114.04043579101562
+    },
+    {
+      "id": "12677031",
+      "tileScore": 2,
+      "name": "MTR service road to toll plaza",
+      "distanceM": 1182.5999755859375,
+      "avgGrade": 1.479790210723877,
+      "startLat": 22.335323333740234,
+      "startLng": 114.03302001953125
+    },
+    {
+      "id": "15128262",
+      "tileScore": 2,
+      "name": "海邊路",
+      "distanceM": 1952.199951171875,
+      "avgGrade": -0.07171396166086197,
+      "startLat": 22.319324493408203,
+      "startLng": 114.05314636230469
+    },
+    {
+      "id": "10659661",
+      "tileScore": 72,
+      "name": "Tsing Ma Bridge out and back",
+      "distanceM": 5492.39990234375,
+      "avgGrade": -0.025489766150712967,
+      "startLat": 22.352811813354492,
+      "startLng": 114.08594512939453
+    }
+  ]
+}

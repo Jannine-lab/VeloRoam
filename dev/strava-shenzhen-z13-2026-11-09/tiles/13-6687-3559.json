@@ -1,0 +1,137 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-08T22:47:55.473Z",
+  "tile": {
+    "z": 13,
+    "x": 6687,
+    "y": 3559
+  },
+  "segments": [
+    {
+      "id": "18059694",
+      "tileScore": 4,
+      "name": "It's every man for himself",
+      "distanceM": 891.7999877929688,
+      "avgGrade": -0.22426553070545197,
+      "startLat": 22.95003890991211,
+      "startLng": 113.8765869140625
+    },
+    {
+      "id": "41243728",
+      "tileScore": 11,
+      "name": "loop",
+      "distanceM": 3552,
+      "avgGrade": -0.07319819927215576,
+      "startLat": 22.92967987060547,
+      "startLng": 113.87604522705078
+    },
+    {
+      "id": "38231698",
+      "tileScore": 15,
+      "name": "Go go go ",
+      "distanceM": 1238.300048828125,
+      "avgGrade": 0.6541225910186768,
+      "startLat": 22.924449920654297,
+      "startLng": 113.86243438720703
+    },
+    {
+      "id": "22356212",
+      "tileScore": 268,
+      "name": "松山湖广场绕圈",
+      "distanceM": 3533.10009765625,
+      "avgGrade": -0.005660750903189182,
+      "startLat": 22.910127639770508,
+      "startLng": 113.88304138183594
+    },
+    {
+      "id": "12326300",
+      "tileScore": 5,
+      "name": "Sprint to the Bar!",
+      "distanceM": 2875.300048828125,
+      "avgGrade": -0.28518763184547424,
+      "startLat": 22.932668685913086,
+      "startLng": 113.8912353515625
+    },
+    {
+      "id": "39750577",
+      "tileScore": 2,
+      "name": "松湖实验中学绕圈",
+      "distanceM": 2967.5,
+      "avgGrade": 0.006739679723978043,
+      "startLat": 22.935161590576172,
+      "startLng": 113.8622055053711
+    },
+    {
+      "id": "13888652",
+      "tileScore": 5,
+      "name": "The Horse's road",
+      "distanceM": 5161.2001953125,
+      "avgGrade": 0.1569402515888214,
+      "startLat": 22.89702606201172,
+      "startLng": 113.85726165771484
+    },
+    {
+      "id": "13888633",
+      "tileScore": 4,
+      "name": "Sprint to the cross road",
+      "distanceM": 1858.9000244140625,
+      "avgGrade": 0.016138575971126556,
+      "startLat": 22.96422004699707,
+      "startLng": 113.88379669189453
+    },
+    {
+      "id": "22004931",
+      "tileScore": 5,
+      "name": "The tower KP",
+      "distanceM": 1513.5,
+      "avgGrade": -0.634291410446167,
+      "startLat": 22.942981719970703,
+      "startLng": 113.88896942138672
+    },
+    {
+      "id": "23206716",
+      "tileScore": 18,
+      "name": "Huawei head street (Oposit) KP",
+      "distanceM": 1036.4000244140625,
+      "avgGrade": -0.4438440799713135,
+      "startLat": 22.948280334472656,
+      "startLng": 113.88727569580078
+    },
+    {
+      "id": "38355111",
+      "tileScore": 1,
+      "name": "工业南路-光大We谷",
+      "distanceM": 1481.300048828125,
+      "avgGrade": -0.5130628347396851,
+      "startLat": 22.9484806060791,
+      "startLng": 113.87940979003906
+    },
+    {
+      "id": "30415554",
+      "tileScore": 8,
+      "name": "Keep Going",
+      "distanceM": 1191.9000244140625,
+      "avgGrade": 0.7550969123840332,
+      "startLat": 22.94758415222168,
+      "startLng": 113.8797607421875
+    },
+    {
+      "id": "40404229",
+      "tileScore": 18,
+      "name": "长安-正果拉练  入隧道前",
+      "distanceM": 58242,
+      "avgGrade": 0.0065245009027421474,
+      "startLat": 22.82621955871582,
+      "startLng": 113.8212890625
+    },
+    {
+      "id": "30965060",
+      "tileScore": 4,
+      "name": "spirit to 同沙",
+      "distanceM": 693.2000122070312,
+      "avgGrade": 2.4235429763793945,
+      "startLat": 22.947275161743164,
+      "startLng": 113.86986541748047
+    }
+  ]
+}

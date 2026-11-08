@@ -1,0 +1,20 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-08T22:26:50.910Z",
+  "tile": {
+    "z": 13,
+    "x": 6809,
+    "y": 3319
+  },
+  "segments": [
+    {
+      "id": "39988098",
+      "tileScore": 5,
+      "name": "仪征-镇扬汽渡",
+      "distanceM": 19609.5,
+      "avgGrade": -0.008159310556948185,
+      "startLat": 32.255489349365234,
+      "startLng": 119.1688232421875
+    }
+  ]
+}

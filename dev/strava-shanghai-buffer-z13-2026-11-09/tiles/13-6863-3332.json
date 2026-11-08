@@ -1,0 +1,38 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-03T05:59:13.274Z",
+  "tile": {
+    "z": 13,
+    "x": 6863,
+    "y": 3332
+  },
+  "segments": [
+    {
+      "id": "39095664",
+      "tileScore": 5,
+      "name": "Butterfly Straight",
+      "distanceM": 2343.5,
+      "avgGrade": -0.11947941035032272,
+      "startLat": 31.79393768310547,
+      "startLng": 121.64047241210938
+    },
+    {
+      "id": "41604448",
+      "tileScore": 27,
+      "name": "The last acid sprint",
+      "distanceM": 515.5999755859375,
+      "avgGrade": 1.2800620794296265,
+      "startLat": 31.797603607177734,
+      "startLng": 121.63314056396484
+    },
+    {
+      "id": "40184023",
+      "tileScore": 16,
+      "name": "环启最鲜公路起步就突围",
+      "distanceM": 6816.2998046875,
+      "avgGrade": 0.030808502808213234,
+      "startLat": 31.784191131591797,
+      "startLng": 121.63375854492188
+    }
+  ]
+}

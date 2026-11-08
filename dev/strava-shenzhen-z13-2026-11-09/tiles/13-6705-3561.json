@@ -1,0 +1,20 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-08T22:48:24.130Z",
+  "tile": {
+    "z": 13,
+    "x": 6705,
+    "y": 3561
+  },
+  "segments": [
+    {
+      "id": "39246436",
+      "tileScore": 2,
+      "name": "新村-西山村10km起伏（by lql）",
+      "distanceM": 10194.2001953125,
+      "avgGrade": 0.9515214562416077,
+      "startLat": 22.834049224853516,
+      "startLng": 114.72612762451172
+    }
+  ]
+}

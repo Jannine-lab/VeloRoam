@@ -1,0 +1,146 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-03T06:09:21.092Z",
+  "tile": {
+    "z": 13,
+    "x": 6860,
+    "y": 3351
+  },
+  "segments": [
+    {
+      "id": "19217014",
+      "tileScore": 2,
+      "name": "Minpu Daqiao - without GPS drift",
+      "distanceM": 1040.199951171875,
+      "avgGrade": 4.133820533752441,
+      "startLat": 31.051713943481445,
+      "startLng": 121.4635238647461
+    },
+    {
+      "id": "35812039",
+      "tileScore": 36,
+      "name": "浦江30公里训练路段",
+      "distanceM": 30262.099609375,
+      "avgGrade": -0.0019826781935989857,
+      "startLat": 31.058530807495117,
+      "startLng": 121.49381256103516
+    },
+    {
+      "id": "24824459",
+      "tileScore": 1,
+      "name": "Tour de Shenjiahu  X4",
+      "distanceM": 18822.599609375,
+      "avgGrade": -0.010625524446368217,
+      "startLat": 31.054100036621094,
+      "startLng": 121.50882720947266
+    },
+    {
+      "id": "14201811",
+      "tileScore": 7,
+      "name": "North on Puxing",
+      "distanceM": 5513.2001953125,
+      "avgGrade": 0,
+      "startLat": 31.02269744873047,
+      "startLng": 121.50930786132812
+    },
+    {
+      "id": "40236759",
+      "tileScore": 5,
+      "name": "吴泾奉贤",
+      "distanceM": 47205,
+      "avgGrade": -0.04702891781926155,
+      "startLat": 31.037860870361328,
+      "startLng": 121.44114685058594
+    },
+    {
+      "id": "40483707",
+      "tileScore": 19,
+      "name": "浦江 039 Sprint Short",
+      "distanceM": 653.5,
+      "avgGrade": 0.030604438856244087,
+      "startLat": 31.061710357666016,
+      "startLng": 121.50616455078125
+    },
+    {
+      "id": "36140859",
+      "tileScore": 4,
+      "name": "不骑快一点赶不上船",
+      "distanceM": 1390.300048828125,
+      "avgGrade": 0.7624253630638123,
+      "startLat": 31.092788696289062,
+      "startLng": 121.48528289794922
+    },
+    {
+      "id": "24425517",
+      "tileScore": 3,
+      "name": "ShangNan PuJin Lightning!!!",
+      "distanceM": 21129.69921875,
+      "avgGrade": 0.011358419433236122,
+      "startLat": 31.194862365722656,
+      "startLng": 121.49488830566406
+    },
+    {
+      "id": "37930610",
+      "tileScore": 18,
+      "name": "浦江 082 TT Long",
+      "distanceM": 6066.5,
+      "avgGrade": -0.026374351233243942,
+      "startLat": 31.060304641723633,
+      "startLng": 121.49788665771484
+    },
+    {
+      "id": "35588012",
+      "tileScore": 2,
+      "name": "浦江RiversideN-S",
+      "distanceM": 8344.400390625,
+      "avgGrade": 0.009587268345057964,
+      "startLat": 31.075927734375,
+      "startLng": 121.4735107421875
+    },
+    {
+      "id": "39058026",
+      "tileScore": 8,
+      "name": "浦瑞路周浦塘桥",
+      "distanceM": 505.5,
+      "avgGrade": -0.2967359125614166,
+      "startLat": 31.09147071838379,
+      "startLng": 121.4821548461914
+    },
+    {
+      "id": "35083404",
+      "tileScore": 16,
+      "name": "浦江 099 TT Long",
+      "distanceM": 9674.7998046875,
+      "avgGrade": -0.006201678421348333,
+      "startLat": 31.063274383544922,
+      "startLng": 121.50765228271484
+    },
+    {
+      "id": "38254906",
+      "tileScore": 16,
+      "name": "浦江 077 Sprint",
+      "distanceM": 1512.300048828125,
+      "avgGrade": -0.11902400106191635,
+      "startLat": 31.060001373291016,
+      "startLng": 121.49790954589844
+    },
+    {
+      "id": "21036682",
+      "tileScore": 7,
+      "name": "Minpu Tues - Park to LP with extension",
+      "distanceM": 56914,
+      "avgGrade": -0.006325332447886467,
+      "startLat": 31.213491439819336,
+      "startLng": 121.46663665771484
+    },
+    {
+      "id": "22654304",
+      "tileScore": 187,
+      "name": "MingpooWarmUp",
+      "distanceM": 496.1000061035156,
+      "avgGrade": 0.2015722692012787,
+      "startLat": 31.059038162231445,
+      "startLng": 121.4977798461914
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "group": "frontend",
+  "node": "v22.19.0",
+  "fileCount": 7,
+  "registeredTopLevelTestCount": 14,
+  "legacyScriptCount": 2,
+  "legacyScripts": [
+    "planned-route-selection.test.cjs",
+    "segment-visibility.test.cjs"
+  ],
+  "files": [
+    "idea-gpx.test.cjs",
+    "idea-navigation.test.cjs",
+    "idea-recommendation-cache.test.cjs",
+    "map-visible-center.test.cjs",
+    "planned-route-selection.test.cjs",
+    "planned-route-visibility.test.cjs",
+    "segment-visibility.test.cjs"
+  ],
+  "command": [
+    "/Users/jannine/.nvm/versions/node/v22.19.0/bin/node",
+    "--test",
+    "--test-reporter=tap",
+    "--test-concurrency=4",
+    "/Users/jannine/Desktop/VeloRoam/VeloRoam-ui/idea-gpx.test.cjs",
+    "/Users/jannine/Desktop/VeloRoam/VeloRoam-ui/idea-navigation.test.cjs",
+    "/Users/jannine/Desktop/VeloRoam/VeloRoam-ui/idea-recommendation-cache.test.cjs",
+    "/Users/jannine/Desktop/VeloRoam/VeloRoam-ui/map-visible-center.test.cjs",
+    "/Users/jannine/Desktop/VeloRoam/VeloRoam-ui/planned-route-selection.test.cjs",
+    "/Users/jannine/Desktop/VeloRoam/VeloRoam-ui/planned-route-visibility.test.cjs",
+    "/Users/jannine/Desktop/VeloRoam/VeloRoam-ui/segment-visibility.test.cjs"
+  ],
+  "cwd": "/Users/jannine/Desktop/VeloRoam/VeloRoam-ui",
+  "exitCode": 0,
+  "wallSeconds": 0.818,
+  "metrics": {
+    "tests": 16,
+    "suites": 0,
+    "pass": 16,
+    "fail": 0,
+    "cancelled": 0,
+    "skipped": 0,
+    "todo": 0,
+    "duration_ms": 763.635708
+  },
+  "measuredAt": "2026-11-09T05:56:35.552604+08:00"
+}

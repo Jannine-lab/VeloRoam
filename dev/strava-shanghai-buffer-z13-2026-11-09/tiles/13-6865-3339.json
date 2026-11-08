@@ -1,0 +1,65 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-03T06:03:13.312Z",
+  "tile": {
+    "z": 13,
+    "x": 6865,
+    "y": 3339
+  },
+  "segments": [
+    {
+      "id": "1667233",
+      "tileScore": 1,
+      "name": "Chongming short 2",
+      "distanceM": 39860.80078125,
+      "avgGrade": -0.008027937263250351,
+      "startLat": 31.660154342651367,
+      "startLng": 121.40385437011719
+    },
+    {
+      "id": "36325695",
+      "tileScore": 10,
+      "name": "崇明环岛景观道（上海长江大桥-堡镇）",
+      "distanceM": 18979.80078125,
+      "avgGrade": 0.009483766742050648,
+      "startLat": 31.471399307250977,
+      "startLng": 121.76742553710938
+    },
+    {
+      "id": "36468954",
+      "tileScore": 4,
+      "name": "六滧港桥",
+      "distanceM": 730.2000122070312,
+      "avgGrade": 0,
+      "startLat": 31.51129722595215,
+      "startLng": 121.70940399169922
+    },
+    {
+      "id": "35699649",
+      "tileScore": 5,
+      "name": "崇明大道S2N 15km",
+      "distanceM": 17170.400390625,
+      "avgGrade": -0.0034943856298923492,
+      "startLat": 31.474008560180664,
+      "startLng": 121.7816390991211
+    },
+    {
+      "id": "33028034",
+      "tileScore": 4,
+      "name": "Chenhai Hwy (S128 - Buzhen to Chenjia)",
+      "distanceM": 17929.80078125,
+      "avgGrade": 0.005577307194471359,
+      "startLat": 31.563770294189453,
+      "startLng": 121.63473510742188
+    },
+    {
+      "id": "28005476",
+      "tileScore": 2,
+      "name": "20210411环崇明岛100公里组",
+      "distanceM": 97375,
+      "avgGrade": 0.006161745637655258,
+      "startLat": 31.4849796295166,
+      "startLng": 121.8353042602539
+    }
+  ]
+}

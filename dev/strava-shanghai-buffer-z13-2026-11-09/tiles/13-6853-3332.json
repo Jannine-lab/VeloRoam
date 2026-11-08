@@ -1,0 +1,38 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-03T05:59:19.325Z",
+  "tile": {
+    "z": 13,
+    "x": 6853,
+    "y": 3332
+  },
+  "segments": [
+    {
+      "id": "42365089",
+      "tileScore": 71,
+      "name": "2026 TREK100精英组",
+      "distanceM": 94728,
+      "avgGrade": -0.000633392424788326,
+      "startLat": 31.6234073638916,
+      "startLng": 121.42135620117188
+    },
+    {
+      "id": "28151753",
+      "tileScore": 91,
+      "name": "Towards and along the coast",
+      "distanceM": 9591,
+      "avgGrade": -0.08966739475727081,
+      "startLat": 31.809850692749023,
+      "startLng": 121.1847915649414
+    },
+    {
+      "id": "39035464",
+      "tileScore": 6,
+      "name": "遥望海门1",
+      "distanceM": 2613.39990234375,
+      "avgGrade": -0.019132165238261223,
+      "startLat": 31.79464340209961,
+      "startLng": 121.1657485961914
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-08T22:48:35.177Z",
+  "tile": {
+    "z": 13,
+    "x": 6696,
+    "y": 3562
+  },
+  "segments": [
+    {
+      "id": "29835960",
+      "tileScore": 5,
+      "name": "南坑爬坡",
+      "distanceM": 1155.9000244140625,
+      "avgGrade": 10.779479026794434,
+      "startLat": 22.795297622680664,
+      "startLng": 114.27267456054688
+    }
+  ]
+}

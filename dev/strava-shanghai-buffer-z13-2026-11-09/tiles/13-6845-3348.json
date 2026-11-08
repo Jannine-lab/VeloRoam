@@ -1,0 +1,128 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-08T22:59:38.416Z",
+  "tile": {
+    "z": 13,
+    "x": 6845,
+    "y": 3348
+  },
+  "segments": [
+    {
+      "id": "40405020",
+      "tileScore": 9,
+      "name": "澄湖训练",
+      "distanceM": 15113,
+      "avgGrade": -0.007940184324979782,
+      "startLat": 31.244274139404297,
+      "startLng": 120.86615753173828
+    },
+    {
+      "id": "14107787",
+      "tileScore": 3,
+      "name": "Mingjingdanghu Shoreline Rd (Southbound)",
+      "distanceM": 7620.89990234375,
+      "avgGrade": 0.005248723551630974,
+      "startLat": 31.189611434936523,
+      "startLng": 120.83763885498047
+    },
+    {
+      "id": "38546401",
+      "tileScore": 5,
+      "name": "HengGang RD 绿道",
+      "distanceM": 2104.199951171875,
+      "avgGrade": -0.014257200062274933,
+      "startLat": 31.16721534729004,
+      "startLng": 120.82980346679688
+    },
+    {
+      "id": "39024597",
+      "tileScore": 6,
+      "name": "澄湖小道",
+      "distanceM": 1122.4000244140625,
+      "avgGrade": 0.08909480273723602,
+      "startLat": 31.179800033569336,
+      "startLng": 120.81363677978516
+    },
+    {
+      "id": "39024551",
+      "tileScore": 8,
+      "name": "林荫小道",
+      "distanceM": 1338.9000244140625,
+      "avgGrade": 0.014937635511159897,
+      "startLat": 31.18110466003418,
+      "startLng": 120.83060455322266
+    },
+    {
+      "id": "12962823",
+      "tileScore": 8,
+      "name": "Huanzhen West Rd to S5 Underpass (Northbound)",
+      "distanceM": 1897.5,
+      "avgGrade": -0.021080369129776955,
+      "startLat": 31.153228759765625,
+      "startLng": 120.82828521728516
+    },
+    {
+      "id": "32737264",
+      "tileScore": 4,
+      "name": "Lakeside from underpass to crossroads.",
+      "distanceM": 2394.300048828125,
+      "avgGrade": 0.15035709738731384,
+      "startLat": 31.20564079284668,
+      "startLng": 120.84504699707031
+    },
+    {
+      "id": "21280174",
+      "tileScore": 2,
+      "name": "802 Country Rd + Xinzhe Rd",
+      "distanceM": 2443,
+      "avgGrade": -0.01637331210076809,
+      "startLat": 31.172142028808594,
+      "startLng": 120.83269500732422
+    },
+    {
+      "id": "39024573",
+      "tileScore": 2,
+      "name": "LongTin Rd",
+      "distanceM": 1272.199951171875,
+      "avgGrade": 0,
+      "startLat": 31.17422103881836,
+      "startLng": 120.84988403320312
+    },
+    {
+      "id": "41196946",
+      "tileScore": 4,
+      "name": "澄湖明镜荡交界",
+      "distanceM": 694.0999755859375,
+      "avgGrade": 0.057628583163022995,
+      "startLat": 31.190017700195312,
+      "startLng": 120.8402328491211
+    },
+    {
+      "id": "40537521",
+      "tileScore": 8,
+      "name": "环澄湖",
+      "distanceM": 43049.19921875,
+      "avgGrade": 0.012543787248432636,
+      "startLat": 31.252605438232422,
+      "startLng": 120.79975891113281
+    },
+    {
+      "id": "41203609",
+      "tileScore": 8,
+      "name": "进击明镜荡",
+      "distanceM": 3472.39990234375,
+      "avgGrade": 0.12671351432800293,
+      "startLat": 31.159515380859375,
+      "startLng": 120.85662078857422
+    },
+    {
+      "id": "41451612",
+      "tileScore": 2,
+      "name": "Dead Road",
+      "distanceM": 1335.800048828125,
+      "avgGrade": 0.014972301200032234,
+      "startLat": 31.189821243286133,
+      "startLng": 120.8346939086914
+    }
+  ]
+}

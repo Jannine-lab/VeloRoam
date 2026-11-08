@@ -1,0 +1,299 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-08T22:51:24.054Z",
+  "tile": {
+    "z": 13,
+    "x": 6688,
+    "y": 3569
+  },
+  "segments": [
+    {
+      "id": "30973669",
+      "tileScore": 1,
+      "name": "Nantou Str. to Lixiang Park",
+      "distanceM": 1672,
+      "avgGrade": 0.3050239384174347,
+      "startLat": 22.539562225341797,
+      "startLng": 113.9105453491211
+    },
+    {
+      "id": "11455946",
+      "tileScore": 105,
+      "name": "Shenzhen Bay east bound",
+      "distanceM": 9594.2001953125,
+      "avgGrade": 0.006253778003156185,
+      "startLat": 22.491491317749023,
+      "startLng": 113.94763946533203
+    },
+    {
+      "id": "17194105",
+      "tileScore": 6,
+      "name": "Chase down the maniac",
+      "distanceM": 301.6000061035156,
+      "avgGrade": -0.3978779911994934,
+      "startLat": 22.52124786376953,
+      "startLng": 113.93344116210938
+    },
+    {
+      "id": "34370534",
+      "tileScore": 78,
+      "name": "天桥段（宝安大道→深南大道）",
+      "distanceM": 1832.9000244140625,
+      "avgGrade": 0.14185170829296112,
+      "startLat": 22.551000595092773,
+      "startLng": 113.89742279052734
+    },
+    {
+      "id": "28808639",
+      "tileScore": 33,
+      "name": "HeavenNeverGotSoClose",
+      "distanceM": 6990.2001953125,
+      "avgGrade": 0,
+      "startLat": 22.543333053588867,
+      "startLng": 113.94855499267578
+    },
+    {
+      "id": "39978819",
+      "tileScore": 4,
+      "name": "桃园路从桃园站爬到立德门",
+      "distanceM": 625.4000244140625,
+      "avgGrade": 2.1426286697387695,
+      "startLat": 22.53524398803711,
+      "startLng": 113.92023468017578
+    },
+    {
+      "id": "33360550",
+      "tileScore": 7,
+      "name": "JW",
+      "distanceM": 10826.7998046875,
+      "avgGrade": 0.10529427230358124,
+      "startLat": 22.497615814208984,
+      "startLng": 113.9465103149414
+    },
+    {
+      "id": "34785261",
+      "tileScore": 9,
+      "name": "后海大道后冲向白石路",
+      "distanceM": 544.7000122070312,
+      "avgGrade": 0.14686983823776245,
+      "startLat": 22.522544860839844,
+      "startLng": 113.92820739746094
+    },
+    {
+      "id": "30076789",
+      "tileScore": 7,
+      "name": "桃园路冲刺",
+      "distanceM": 1873.199951171875,
+      "avgGrade": -0.576553463935852,
+      "startLat": 22.53566551208496,
+      "startLng": 113.9228744506836
+    },
+    {
+      "id": "40248020",
+      "tileScore": 28,
+      "name": "你就嘎嘎骑吧",
+      "distanceM": 2092.699951171875,
+      "avgGrade": -0.21025468409061432,
+      "startLat": 22.54010009765625,
+      "startLng": 113.96919250488281
+    },
+    {
+      "id": "12570192",
+      "tileScore": 4,
+      "name": "國道107 > 長安水站",
+      "distanceM": 33858,
+      "avgGrade": -0.01535826176404953,
+      "startLat": 22.543325424194336,
+      "startLng": 113.91828155517578
+    },
+    {
+      "id": "15780217",
+      "tileScore": 179,
+      "name": " Part of Shenzhen Bay (火炬广场－观桥公园）",
+      "distanceM": 3510,
+      "avgGrade": -0.1339031457901001,
+      "startLat": 22.520246505737305,
+      "startLng": 113.94950103759766
+    },
+    {
+      "id": "11910529",
+      "tileScore": 1,
+      "name": "Huanghui Garden",
+      "distanceM": 1794.800048828125,
+      "avgGrade": 0.033429909497499466,
+      "startLat": 22.54525375366211,
+      "startLng": 113.90951538085938
+    },
+    {
+      "id": "39435368",
+      "tileScore": 7,
+      "name": "白石路（沙河西——深大立言门）",
+      "distanceM": 1827.800048828125,
+      "avgGrade": -0.05471057817339897,
+      "startLat": 22.536113739013672,
+      "startLng": 113.9500503540039
+    },
+    {
+      "id": "38405356",
+      "tileScore": 80,
+      "name": "没有tt车你就别想拿kom了",
+      "distanceM": 1815.699951171875,
+      "avgGrade": -0.03304510563611984,
+      "startLat": 22.544729232788086,
+      "startLng": 113.90701293945312
+    },
+    {
+      "id": "41510561",
+      "tileScore": 472,
+      "name": "晨骑40",
+      "distanceM": 39089.3984375,
+      "avgGrade": -0.010232953354716301,
+      "startLat": 22.541751861572266,
+      "startLng": 114.03868865966797
+    },
+    {
+      "id": "36706368",
+      "tileScore": 8,
+      "name": "深圳湾科技园-惠州城区江北",
+      "distanceM": 105295.6015625,
+      "avgGrade": 0.00978198554366827,
+      "startLat": 22.53257942199707,
+      "startLng": 113.94519805908203
+    },
+    {
+      "id": "37358286",
+      "tileScore": 244,
+      "name": "深南宝安晨骑",
+      "distanceM": 40330.1015625,
+      "avgGrade": -0.008926335722208023,
+      "startLat": 22.559059143066406,
+      "startLng": 113.8889389038086
+    },
+    {
+      "id": "26912492",
+      "tileScore": 2,
+      "name": "Hospital Loop + ChiWan",
+      "distanceM": 57742.3984375,
+      "avgGrade": -0.016971930861473083,
+      "startLat": 22.484697341918945,
+      "startLng": 113.93070220947266
+    },
+    {
+      "id": "16564706",
+      "tileScore": 8,
+      "name": "Hunyak boulevard dash II",
+      "distanceM": 1411.199951171875,
+      "avgGrade": -0.028344672173261642,
+      "startLat": 22.529733657836914,
+      "startLng": 113.94959259033203
+    },
+    {
+      "id": "16564691",
+      "tileScore": 7,
+      "name": "Hunyak boulevard dash",
+      "distanceM": 2140,
+      "avgGrade": -0.06542056053876877,
+      "startLat": 22.52316665649414,
+      "startLng": 113.96114349365234
+    },
+    {
+      "id": "27751972",
+      "tileScore": 1,
+      "name": "科苑北至海雅缤纷城",
+      "distanceM": 5289.5,
+      "avgGrade": -0.37243595719337463,
+      "startLat": 22.555814743041992,
+      "startLng": 113.9397964477539
+    },
+    {
+      "id": "35957232",
+      "tileScore": 8,
+      "name": "Tour de SZU",
+      "distanceM": 2677.60009765625,
+      "avgGrade": 0.014938751235604286,
+      "startLat": 22.53326416015625,
+      "startLng": 113.93247985839844
+    },
+    {
+      "id": "38405342",
+      "tileScore": 144,
+      "name": "想要kom你要两分钟420w",
+      "distanceM": 1103.800048828125,
+      "avgGrade": 1.3227033615112305,
+      "startLat": 22.543489456176758,
+      "startLng": 113.9472427368164
+    },
+    {
+      "id": "38198843",
+      "tileScore": 8,
+      "name": "107-出深圳记",
+      "distanceM": 52876.3984375,
+      "avgGrade": -0.03366341069340706,
+      "startLat": 22.576610565185547,
+      "startLng": 114.11041259765625
+    },
+    {
+      "id": "40440384",
+      "tileScore": 7,
+      "name": "科苑南路（深南大道—滨海大道）",
+      "distanceM": 1851.5,
+      "avgGrade": -0.03240615874528885,
+      "startLat": 22.542226791381836,
+      "startLng": 113.94062805175781
+    },
+    {
+      "id": "36324019",
+      "tileScore": 2,
+      "name": "深圳南山画龙",
+      "distanceM": 52149.3984375,
+      "avgGrade": 0.030681081116199493,
+      "startLat": 22.543649673461914,
+      "startLng": 113.95297241210938
+    },
+    {
+      "id": "37933991",
+      "tileScore": 32,
+      "name": "Bird egg",
+      "distanceM": 5662.10009765625,
+      "avgGrade": 0.017661292105913162,
+      "startLat": 22.543210983276367,
+      "startLng": 113.9190673828125
+    },
+    {
+      "id": "32371211",
+      "tileScore": 18,
+      "name": "VersLeParadis",
+      "distanceM": 509,
+      "avgGrade": 1.1787819862365723,
+      "startLat": 22.524383544921875,
+      "startLng": 113.94898223876953
+    },
+    {
+      "id": "30875777",
+      "tileScore": 14,
+      "name": "深大pujada",
+      "distanceM": 633.0999755859375,
+      "avgGrade": 1.8006633520126343,
+      "startLat": 22.530025482177734,
+      "startLng": 113.92469787597656
+    },
+    {
+      "id": "37245997",
+      "tileScore": 44,
+      "name": "Lixiang_westbound",
+      "distanceM": 603.9000244140625,
+      "avgGrade": 2.285146474838257,
+      "startLat": 22.542652130126953,
+      "startLng": 113.925537109375
+    },
+    {
+      "id": "14281132",
+      "tileScore": 11,
+      "name": "Sprint to Nanshan",
+      "distanceM": 573.9000244140625,
+      "avgGrade": -0.13939709961414337,
+      "startLat": 22.521120071411133,
+      "startLng": 113.91728210449219
+    }
+  ]
+}

@@ -1,0 +1,173 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-08T22:34:50.909Z",
+  "tile": {
+    "z": 13,
+    "x": 6803,
+    "y": 3326
+  },
+  "segments": [
+    {
+      "id": "31700731",
+      "tileScore": 9,
+      "name": "Tower to Hidden Dragon ",
+      "distanceM": 3857.199951171875,
+      "avgGrade": -3.2821736335754395,
+      "startLat": 32.00248718261719,
+      "startLng": 118.95652770996094
+    },
+    {
+      "id": "35600786",
+      "tileScore": 11,
+      "name": "工厂爬坡",
+      "distanceM": 1100.300048828125,
+      "avgGrade": 7.743342876434326,
+      "startLat": 32.01203155517578,
+      "startLng": 118.96807098388672
+    },
+    {
+      "id": "16334813",
+      "tileScore": 17,
+      "name": "CangLongYan lake I climb",
+      "distanceM": 2394.5,
+      "avgGrade": 5.5209856033325195,
+      "startLat": 31.993968963623047,
+      "startLng": 118.96551513671875
+    },
+    {
+      "id": "36035096",
+      "tileScore": 1,
+      "name": "W·碉堡履带路",
+      "distanceM": 1760.4000244140625,
+      "avgGrade": -1.908657193183899,
+      "startLat": 32.0045051574707,
+      "startLng": 118.98856353759766
+    },
+    {
+      "id": "20432495",
+      "tileScore": 82,
+      "name": "龙尚路S-N",
+      "distanceM": 4156.39990234375,
+      "avgGrade": -1.1740928888320923,
+      "startLat": 32.02086639404297,
+      "startLng": 118.96170043945312
+    },
+    {
+      "id": "32403415",
+      "tileScore": 70,
+      "name": "Need of speed",
+      "distanceM": 1228.199951171875,
+      "avgGrade": -2.214622974395752,
+      "startLat": 32.020835876464844,
+      "startLng": 118.96147155761719
+    },
+    {
+      "id": "36848115",
+      "tileScore": 11,
+      "name": "青龙山山地马拉松标准单圈",
+      "distanceM": 37025.30078125,
+      "avgGrade": -0.002160684671252966,
+      "startLat": 32.01175308227539,
+      "startLng": 118.94888305664062
+    },
+    {
+      "id": "35600774",
+      "tileScore": 3,
+      "name": "小龙山南 眺望句容",
+      "distanceM": 3216.39990234375,
+      "avgGrade": -0.5845044255256653,
+      "startLat": 32.0057373046875,
+      "startLng": 118.97077941894531
+    },
+    {
+      "id": "7828576",
+      "tileScore": 2,
+      "name": "LongShang Reservoir steep muddy climb",
+      "distanceM": 1768.5,
+      "avgGrade": 6.327395915985107,
+      "startLat": 32.02217102050781,
+      "startLng": 118.97431182861328
+    },
+    {
+      "id": "25786420",
+      "tileScore": 3,
+      "name": "20200920环南京汤山站全程组 Tour de Nanjing Tangshan Stage Full Length",
+      "distanceM": 79233.296875,
+      "avgGrade": 0.00025241912226192653,
+      "startLat": 32.04627990722656,
+      "startLng": 119.05066680908203
+    },
+    {
+      "id": "33226110",
+      "tileScore": 9,
+      "name": "Longshang firetrail S to N",
+      "distanceM": 3214.10009765625,
+      "avgGrade": -0.2613484263420105,
+      "startLat": 32.013607025146484,
+      "startLng": 118.95135498046875
+    },
+    {
+      "id": "35281866",
+      "tileScore": 17,
+      "name": "龙尚湖回程冲冲冲",
+      "distanceM": 2009.699951171875,
+      "avgGrade": -0.04478280246257782,
+      "startLat": 32.02096939086914,
+      "startLng": 118.96135711669922
+    },
+    {
+      "id": "42433218",
+      "tileScore": 6,
+      "name": "去钓鱼",
+      "distanceM": 814.5,
+      "avgGrade": 0.7857581377029419,
+      "startLat": 32.03220748901367,
+      "startLng": 119.00611114501953
+    },
+    {
+      "id": "36885074",
+      "tileScore": 7,
+      "name": "五条岭五上五下",
+      "distanceM": 30226.30078125,
+      "avgGrade": -0.01521853543817997,
+      "startLat": 32.0115966796875,
+      "startLng": 118.94951629638672
+    },
+    {
+      "id": "20978654",
+      "tileScore": 30,
+      "name": "Likair-大连山北段爬坡",
+      "distanceM": 1661.300048828125,
+      "avgGrade": 9.534701347351074,
+      "startLat": 32.013832092285156,
+      "startLng": 118.96923828125
+    },
+    {
+      "id": "30035816",
+      "tileScore": 12,
+      "name": "JianNan Reservoir curving (from XuanZiyan lake)",
+      "distanceM": 4982,
+      "avgGrade": -0.2007226049900055,
+      "startLat": 32.020381927490234,
+      "startLng": 118.99700164794922
+    },
+    {
+      "id": "42127630",
+      "tileScore": 118,
+      "name": "园博园团练路线itt",
+      "distanceM": 62612,
+      "avgGrade": 0,
+      "startLat": 31.94707489013672,
+      "startLng": 118.91030883789062
+    },
+    {
+      "id": "35600778",
+      "tileScore": 7,
+      "name": "小龙山向南下坡",
+      "distanceM": 575.4000244140625,
+      "avgGrade": -10.775113105773926,
+      "startLat": 32.01447677612305,
+      "startLng": 118.99986267089844
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-03T06:03:10.420Z",
+  "tile": {
+    "z": 13,
+    "x": 6866,
+    "y": 3340
+  },
+  "segments": [
+    {
+      "id": "35699649",
+      "tileScore": 5,
+      "name": "崇明大道S2N 15km",
+      "distanceM": 17170.400390625,
+      "avgGrade": -0.0034943856298923492,
+      "startLat": 31.474008560180664,
+      "startLng": 121.7816390991211
+    },
+    {
+      "id": "36325695",
+      "tileScore": 10,
+      "name": "崇明环岛景观道（上海长江大桥-堡镇）",
+      "distanceM": 18979.80078125,
+      "avgGrade": 0.009483766742050648,
+      "startLat": 31.471399307250977,
+      "startLng": 121.76742553710938
+    },
+    {
+      "id": "28005476",
+      "tileScore": 2,
+      "name": "20210411环崇明岛100公里组",
+      "distanceM": 97375,
+      "avgGrade": 0.006161745637655258,
+      "startLat": 31.4849796295166,
+      "startLng": 121.8353042602539
+    },
+    {
+      "id": "20577306",
+      "tileScore": 4,
+      "name": "Chongming Island Tour Bridge 2",
+      "distanceM": 767.4000244140625,
+      "avgGrade": 2.2152724266052246,
+      "startLat": 31.459962844848633,
+      "startLng": 121.76350402832031
+    },
+    {
+      "id": "33419270",
+      "tileScore": 4,
+      "name": "崇明大道ITT",
+      "distanceM": 4367.2998046875,
+      "avgGrade": 0.03205642104148865,
+      "startLat": 31.49690818786621,
+      "startLng": 121.73533630371094
+    }
+  ]
+}

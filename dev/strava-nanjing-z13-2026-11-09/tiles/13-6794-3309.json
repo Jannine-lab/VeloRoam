@@ -1,0 +1,29 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-08T22:24:52.718Z",
+  "tile": {
+    "z": 13,
+    "x": 6794,
+    "y": 3309
+  },
+  "segments": [
+    {
+      "id": "36949511",
+      "tileScore": 7,
+      "name": "均步桥—半塔",
+      "distanceM": 10866.2001953125,
+      "avgGrade": 0.21350610256195068,
+      "startLat": 32.590087890625,
+      "startLng": 118.63666534423828
+    },
+    {
+      "id": "41510979",
+      "tileScore": 9,
+      "name": "王集—何郢",
+      "distanceM": 6268,
+      "avgGrade": 0.0829610750079155,
+      "startLat": 32.62406539916992,
+      "startLng": 118.60926818847656
+    }
+  ]
+}

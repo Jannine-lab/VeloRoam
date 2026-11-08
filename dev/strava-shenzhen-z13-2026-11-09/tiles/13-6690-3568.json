@@ -1,0 +1,236 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-08T22:50:26.728Z",
+  "tile": {
+    "z": 13,
+    "x": 6690,
+    "y": 3568
+  },
+  "segments": [
+    {
+      "id": "36218220",
+      "tileScore": 4,
+      "name": "梅林后山（龙华圈）",
+      "distanceM": 3464.300048828125,
+      "avgGrade": 0.05773172155022621,
+      "startLat": 22.59150505065918,
+      "startLng": 114.021240234375
+    },
+    {
+      "id": "31064056",
+      "tileScore": 10,
+      "name": "安托山七路上坡冲刺",
+      "distanceM": 454.20001220703125,
+      "avgGrade": 2.5099074840545654,
+      "startLat": 22.553085327148438,
+      "startLng": 114.00926971435547
+    },
+    {
+      "id": "39638836",
+      "tileScore": 11,
+      "name": "梅北三路climb",
+      "distanceM": 512.0999755859375,
+      "avgGrade": 4.296036243438721,
+      "startLat": 22.57457160949707,
+      "startLng": 114.03814697265625
+    },
+    {
+      "id": "35971383",
+      "tileScore": 5,
+      "name": "Beihuan Eastbound 002",
+      "distanceM": 1796.9000244140625,
+      "avgGrade": 1.7029328346252441,
+      "startLat": 22.5577335357666,
+      "startLng": 113.98107147216797
+    },
+    {
+      "id": "38267334",
+      "tileScore": 18,
+      "name": "第二次突突突",
+      "distanceM": 814.9000244140625,
+      "avgGrade": -1.1780587434768677,
+      "startLat": 22.554529190063477,
+      "startLng": 114.01586151123047
+    },
+    {
+      "id": "21122775",
+      "tileScore": 7,
+      "name": "Wamup",
+      "distanceM": 536.0999755859375,
+      "avgGrade": -1.5295653343200684,
+      "startLat": 22.5617733001709,
+      "startLng": 114.02472686767578
+    },
+    {
+      "id": "37321147",
+      "tileScore": 11,
+      "name": "安托山九路爬坡",
+      "distanceM": 846.9000244140625,
+      "avgGrade": 4.510568141937256,
+      "startLat": 22.55551528930664,
+      "startLng": 114.01089477539062
+    },
+    {
+      "id": "30283056",
+      "tileScore": 3,
+      "name": "北环香蜜湖口 finisher",
+      "distanceM": 317,
+      "avgGrade": 3.596214532852173,
+      "startLat": 22.56036376953125,
+      "startLng": 114.01451110839844
+    },
+    {
+      "id": "35971391",
+      "tileScore": 3,
+      "name": "Beihuan Eastbound 004",
+      "distanceM": 3125.800048828125,
+      "avgGrade": -1.3244609832763672,
+      "startLat": 22.555856704711914,
+      "startLng": 114.00376892089844
+    },
+    {
+      "id": "32425925",
+      "tileScore": 5,
+      "name": "环香蜜湖  5圈",
+      "distanceM": 25377.30078125,
+      "avgGrade": -0.02285507135093212,
+      "startLat": 22.55541229248047,
+      "startLng": 114.02286529541016
+    },
+    {
+      "id": "14248976",
+      "tileScore": 21,
+      "name": "梅水石头路爬坡",
+      "distanceM": 2699.39990234375,
+      "avgGrade": 4.712158203125,
+      "startLat": 22.57878875732422,
+      "startLng": 114.0306625366211
+    },
+    {
+      "id": "38919377",
+      "tileScore": 6,
+      "name": "ATS 9th Road to MP",
+      "distanceM": 893.0999755859375,
+      "avgGrade": 5.710446834564209,
+      "startLat": 22.558452606201172,
+      "startLng": 114.00973510742188
+    },
+    {
+      "id": "32371952",
+      "tileScore": 7,
+      "name": "CTL",
+      "distanceM": 46607.6015625,
+      "avgGrade": -0.11285713315010071,
+      "startLat": 22.54962730407715,
+      "startLng": 114.05906677246094
+    },
+    {
+      "id": "11679434",
+      "tileScore": 38,
+      "name": "liuxian to zhiyuan middle road",
+      "distanceM": 7345.7001953125,
+      "avgGrade": 0.9202662706375122,
+      "startLat": 22.583751678466797,
+      "startLng": 113.95663452148438
+    },
+    {
+      "id": "23853791",
+      "tileScore": 8,
+      "name": "Qiaoxiang Rd Sprint",
+      "distanceM": 6571.7998046875,
+      "avgGrade": -0.06390943378210068,
+      "startLat": 22.55658721923828,
+      "startLng": 114.02937316894531
+    },
+    {
+      "id": "36706368",
+      "tileScore": 8,
+      "name": "深圳湾科技园-惠州城区江北",
+      "distanceM": 105295.6015625,
+      "avgGrade": 0.00978198554366827,
+      "startLat": 22.53257942199707,
+      "startLng": 113.94519805908203
+    },
+    {
+      "id": "4761636",
+      "tileScore": 19,
+      "name": "Henglongshan Tunnel Climb",
+      "distanceM": 2601.89990234375,
+      "avgGrade": 5.188516139984131,
+      "startLat": 22.590299606323242,
+      "startLng": 114.0008773803711
+    },
+    {
+      "id": "42148293",
+      "tileScore": 2,
+      "name": "布心到沙河西",
+      "distanceM": 20080.30078125,
+      "avgGrade": -0.0348600372672081,
+      "startLat": 22.575786590576172,
+      "startLng": 114.13744354248047
+    },
+    {
+      "id": "37818339",
+      "tileScore": 10,
+      "name": "Chris Back Home LTW 3rd Rd",
+      "distanceM": 900.7000122070312,
+      "avgGrade": 2.486954689025879,
+      "startLat": 22.560789108276367,
+      "startLng": 114.01748657226562
+    },
+    {
+      "id": "13958241",
+      "tileScore": 10,
+      "name": "meishui climb ++",
+      "distanceM": 762.4000244140625,
+      "avgGrade": 8.997901916503906,
+      "startLat": 22.573074340820312,
+      "startLng": 114.03309631347656
+    },
+    {
+      "id": "32999354",
+      "tileScore": 16,
+      "name": "侨香路冲",
+      "distanceM": 618.0999755859375,
+      "avgGrade": -0.0647144466638565,
+      "startLat": 22.555450439453125,
+      "startLng": 114.02144622802734
+    },
+    {
+      "id": "21122772",
+      "tileScore": 5,
+      "name": "To the south",
+      "distanceM": 515.9000244140625,
+      "avgGrade": -0.46520644426345825,
+      "startLat": 22.56356430053711,
+      "startLng": 114.02983093261719
+    },
+    {
+      "id": "38198843",
+      "tileScore": 8,
+      "name": "107-出深圳记",
+      "distanceM": 52876.3984375,
+      "avgGrade": -0.03366341069340706,
+      "startLat": 22.576610565185547,
+      "startLng": 114.11041259765625
+    },
+    {
+      "id": "5038256",
+      "tileScore": 17,
+      "name": "Henglongshan Tunnel Climb",
+      "distanceM": 762.0999755859375,
+      "avgGrade": 10.746621131896973,
+      "startLat": 22.57974624633789,
+      "startLng": 114.01560974121094
+    },
+    {
+      "id": "35971387",
+      "tileScore": 1,
+      "name": "Beihuan Eastbound 003",
+      "distanceM": 628.4000244140625,
+      "avgGrade": 0.477402925491333,
+      "startLat": 22.555633544921875,
+      "startLng": 113.9976806640625
+    }
+  ]
+}

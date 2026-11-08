@@ -1,0 +1,20 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-08T22:36:36.223Z",
+  "tile": {
+    "z": 13,
+    "x": 6794,
+    "y": 3332
+  },
+  "segments": [
+    {
+      "id": "27330799",
+      "tileScore": 9,
+      "name": "白头山",
+      "distanceM": 1038.4000244140625,
+      "avgGrade": 13.174113273620605,
+      "startLat": 31.78502082824707,
+      "startLng": 118.60195922851562
+    }
+  ]
+}

@@ -1,0 +1,155 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-03T06:06:56.599Z",
+  "tile": {
+    "z": 13,
+    "x": 6862,
+    "y": 3346
+  },
+  "segments": [
+    {
+      "id": "38148429",
+      "tileScore": 2,
+      "name": "赵家沟",
+      "distanceM": 1762.199951171875,
+      "avgGrade": -0.017024174332618713,
+      "startLat": 31.293123245239258,
+      "startLng": 121.58438110351562
+    },
+    {
+      "id": "39512291",
+      "tileScore": 5,
+      "name": "Jinqiao Rd Dash",
+      "distanceM": 731,
+      "avgGrade": -0.19151847064495087,
+      "startLat": 31.252342224121094,
+      "startLng": 121.58741760253906
+    },
+    {
+      "id": "39034890",
+      "tileScore": 4,
+      "name": "骑完双桥赶个船",
+      "distanceM": 10961.5,
+      "avgGrade": 0.0018245679093524814,
+      "startLat": 31.2834415435791,
+      "startLng": 121.6682357788086
+    },
+    {
+      "id": "39842919",
+      "tileScore": 2,
+      "name": "碧云 002",
+      "distanceM": 951.7999877929688,
+      "avgGrade": 0.08405126631259918,
+      "startLat": 31.2426815032959,
+      "startLng": 121.59004974365234
+    },
+    {
+      "id": "33853530",
+      "tileScore": 2,
+      "name": "金科-》申江 （金海路）",
+      "distanceM": 2583.300048828125,
+      "avgGrade": -0.04645221307873726,
+      "startLat": 31.25635528564453,
+      "startLng": 121.5959243774414
+    },
+    {
+      "id": "35431814",
+      "tileScore": 4,
+      "name": "The return dash",
+      "distanceM": 7358.89990234375,
+      "avgGrade": 0.027177974581718445,
+      "startLat": 31.31833267211914,
+      "startLng": 121.58500671386719
+    },
+    {
+      "id": "26159247",
+      "tileScore": 18,
+      "name": "复兴岛轮渡 冲个桥",
+      "distanceM": 389.8999938964844,
+      "avgGrade": 0.5129520297050476,
+      "startLat": 31.274431228637695,
+      "startLng": 121.5545654296875
+    },
+    {
+      "id": "26161634",
+      "tileScore": 66,
+      "name": "共青路（复兴岛）",
+      "distanceM": 1828.300048828125,
+      "avgGrade": 0,
+      "startLat": 31.27640151977539,
+      "startLng": 121.5584945678711
+    },
+    {
+      "id": "40184580",
+      "tileScore": 3,
+      "name": "The Leica Train",
+      "distanceM": 619,
+      "avgGrade": 0.1292407214641571,
+      "startLat": 31.245906829833984,
+      "startLng": 121.55641174316406
+    },
+    {
+      "id": "39842949",
+      "tileScore": 14,
+      "name": "金桥 001 Lalaport",
+      "distanceM": 747.5,
+      "avgGrade": -0.21404682099819183,
+      "startLat": 31.24897575378418,
+      "startLng": 121.59095764160156
+    },
+    {
+      "id": "7119791",
+      "tileScore": 1,
+      "name": "Yanpu Bridge climb",
+      "distanceM": 3921.60009765625,
+      "avgGrade": -0.06629946827888489,
+      "startLat": 31.2453670501709,
+      "startLng": 121.55731964111328
+    },
+    {
+      "id": "14024473",
+      "tileScore": 7,
+      "name": "Pudong Avenue",
+      "distanceM": 5578.5,
+      "avgGrade": 0,
+      "startLat": 31.293020248413086,
+      "startLng": 121.56718444824219
+    },
+    {
+      "id": "36899663",
+      "tileScore": 13,
+      "name": "Roll fast",
+      "distanceM": 1301.0999755859375,
+      "avgGrade": 0.03074321709573269,
+      "startLat": 31.242040634155273,
+      "startLng": 121.5900650024414
+    },
+    {
+      "id": "7170855",
+      "tileScore": 6,
+      "name": "Zhangyang road",
+      "distanceM": 4609.2998046875,
+      "avgGrade": -0.04772958904504776,
+      "startLat": 31.25011444091797,
+      "startLng": 121.56382751464844
+    },
+    {
+      "id": "15865695",
+      "tileScore": 4,
+      "name": "Keep Spinning, Breathe. ",
+      "distanceM": 2303.39990234375,
+      "avgGrade": 0.28219154477119446,
+      "startLat": 31.238203048706055,
+      "startLng": 121.59362030029297
+    },
+    {
+      "id": "16695526",
+      "tileScore": 7,
+      "name": "to the sea",
+      "distanceM": 30088.599609375,
+      "avgGrade": 0.015952887013554573,
+      "startLat": 31.223649978637695,
+      "startLng": 121.50944519042969
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-08T22:26:24.687Z",
+  "tile": {
+    "z": 13,
+    "x": 6801,
+    "y": 3314
+  },
+  "segments": [
+    {
+      "id": "27795722",
+      "tileScore": 6,
+      "name": "长四路南向北",
+      "distanceM": 11677,
+      "avgGrade": 0.26804831624031067,
+      "startLat": 32.40409851074219,
+      "startLng": 118.8854751586914
+    }
+  ]
+}

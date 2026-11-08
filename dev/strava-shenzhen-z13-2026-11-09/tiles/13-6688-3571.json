@@ -1,0 +1,29 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-08T22:51:39.760Z",
+  "tile": {
+    "z": 13,
+    "x": 6688,
+    "y": 3571
+  },
+  "segments": [
+    {
+      "id": "14713501",
+      "tileScore": 5,
+      "name": "Nim Wen Road (Toward Lau Fau Shan)",
+      "distanceM": 690,
+      "avgGrade": 1.7391303777694702,
+      "startLat": 22.438430786132812,
+      "startLng": 113.94892120361328
+    },
+    {
+      "id": "11130504",
+      "tileScore": 6,
+      "name": "流浮山至日落海邊",
+      "distanceM": 4901.60009765625,
+      "avgGrade": 0.14077036082744598,
+      "startLat": 22.467485427856445,
+      "startLng": 113.98429870605469
+    }
+  ]
+}

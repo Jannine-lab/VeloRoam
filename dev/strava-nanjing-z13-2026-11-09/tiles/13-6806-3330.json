@@ -1,0 +1,74 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-08T22:35:56.497Z",
+  "tile": {
+    "z": 13,
+    "x": 6806,
+    "y": 3330
+  },
+  "segments": [
+    {
+      "id": "42164673",
+      "tileScore": 17,
+      "name": "狂飙句容河岸（S-N）",
+      "distanceM": 9376.599609375,
+      "avgGrade": 0.014930784702301025,
+      "startLat": 31.863876342773438,
+      "startLng": 119.0906753540039
+    },
+    {
+      "id": "37340342",
+      "tileScore": 3,
+      "name": "S243 N-S",
+      "distanceM": 13770.599609375,
+      "avgGrade": -0.014523694291710854,
+      "startLat": 31.93971824645996,
+      "startLng": 119.12068176269531
+    },
+    {
+      "id": "18728273",
+      "tileScore": 4,
+      "name": "Chishan Lake Lap",
+      "distanceM": 9775.900390625,
+      "avgGrade": 0,
+      "startLat": 31.84575653076172,
+      "startLng": 119.1030044555664
+    },
+    {
+      "id": "13632970",
+      "tileScore": 2,
+      "name": "大利_2016环太湖茅山站整体赛段",
+      "distanceM": 53102,
+      "avgGrade": 0.11186018586158752,
+      "startLat": 31.857982635498047,
+      "startLng": 119.09765625
+    },
+    {
+      "id": "37709826",
+      "tileScore": 55,
+      "name": "YNG  赤山湖ITT  训练路线",
+      "distanceM": 8060.2998046875,
+      "avgGrade": -0.07940151542425156,
+      "startLat": 31.840330123901367,
+      "startLng": 119.18113708496094
+    },
+    {
+      "id": "40836413",
+      "tileScore": 10,
+      "name": "扬禄线ITT",
+      "distanceM": 8570.7998046875,
+      "avgGrade": -0.011667522601783276,
+      "startLat": 31.859312057495117,
+      "startLng": 119.0986099243164
+    },
+    {
+      "id": "38291997",
+      "tileScore": 10,
+      "name": "加把劲！马上到句容！",
+      "distanceM": 8247.5,
+      "avgGrade": 0.14064867794513702,
+      "startLat": 31.861675262451172,
+      "startLng": 119.10040283203125
+    }
+  ]
+}

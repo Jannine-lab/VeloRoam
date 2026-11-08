@@ -1,0 +1,38 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-08T22:49:29.339Z",
+  "tile": {
+    "z": 13,
+    "x": 6703,
+    "y": 3563
+  },
+  "segments": [
+    {
+      "id": "18337152",
+      "tileScore": 72,
+      "name": "大亚湾-霞涌ITT",
+      "distanceM": 8638.2998046875,
+      "avgGrade": 0.06714283674955368,
+      "startLat": 22.750207901000977,
+      "startLng": 114.55348205566406
+    },
+    {
+      "id": "40771431",
+      "tileScore": 44,
+      "name": "被大货车追着屁股跑",
+      "distanceM": 2664.5,
+      "avgGrade": -0.007506099063903093,
+      "startLat": 22.75193977355957,
+      "startLng": 114.55917358398438
+    },
+    {
+      "id": "32280219",
+      "tileScore": 5,
+      "name": "SZC Summer Challenge 125km",
+      "distanceM": 122493.796875,
+      "avgGrade": -0.015184441581368446,
+      "startLat": 22.55707550048828,
+      "startLng": 114.21763610839844
+    }
+  ]
+}

@@ -1,0 +1,74 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-08T22:38:32.592Z",
+  "tile": {
+    "z": 13,
+    "x": 6801,
+    "y": 3338
+  },
+  "segments": [
+    {
+      "id": "38853249",
+      "tileScore": 5,
+      "name": "G104-石臼湖",
+      "distanceM": 51589.5,
+      "avgGrade": -0.022679032757878304,
+      "startLat": 31.94593048095703,
+      "startLng": 118.90949249267578
+    },
+    {
+      "id": "32992832",
+      "tileScore": 33,
+      "name": "大桥预备TopK",
+      "distanceM": 2015.300048828125,
+      "avgGrade": -0.312608540058136,
+      "startLat": 31.55579948425293,
+      "startLng": 118.89639282226562
+    },
+    {
+      "id": "40227741",
+      "tileScore": 15,
+      "name": "收费站冲刺",
+      "distanceM": 2538.699951171875,
+      "avgGrade": -0.0866585224866867,
+      "startLat": 31.558528900146484,
+      "startLng": 118.86614227294922
+    },
+    {
+      "id": "20979509",
+      "tileScore": 4,
+      "name": "20181111环溧水自行车赛 Lishui Criterium",
+      "distanceM": 139486.90625,
+      "avgGrade": 0.00444486178457737,
+      "startLat": 31.613245010375977,
+      "startLng": 119.02008056640625
+    },
+    {
+      "id": "40227823",
+      "tileScore": 7,
+      "name": "蒲塘到博望",
+      "distanceM": 9284.2001953125,
+      "avgGrade": 0.14433123171329498,
+      "startLat": 31.566001892089844,
+      "startLng": 118.98736572265625
+    },
+    {
+      "id": "39728894",
+      "tileScore": 20,
+      "name": "新海线   石臼湖北上S340 A",
+      "distanceM": 10495.7001953125,
+      "avgGrade": 0.034299761056900024,
+      "startLat": 31.536224365234375,
+      "startLng": 118.89520263671875
+    },
+    {
+      "id": "21728651",
+      "tileScore": 6,
+      "name": "20190908 环石臼湖自行车赛 Shijiu Lake Criterium",
+      "distanceM": 86061,
+      "avgGrade": 0.009992912411689758,
+      "startLat": 31.57097816467285,
+      "startLng": 118.89986419677734
+    }
+  ]
+}

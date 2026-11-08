@@ -1,0 +1,20 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-08T22:37:38.992Z",
+  "tile": {
+    "z": 13,
+    "x": 6791,
+    "y": 3334
+  },
+  "segments": [
+    {
+      "id": "24005593",
+      "tileScore": 75,
+      "name": "滨江公园绕圈",
+      "distanceM": 9105.099609375,
+      "avgGrade": -0.01317942701280117,
+      "startLat": 31.659223556518555,
+      "startLng": 118.45654296875
+    }
+  ]
+}

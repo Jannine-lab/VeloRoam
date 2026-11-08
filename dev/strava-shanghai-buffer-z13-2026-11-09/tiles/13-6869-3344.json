@@ -1,0 +1,56 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-03T06:04:52.404Z",
+  "tile": {
+    "z": 13,
+    "x": 6869,
+    "y": 3344
+  },
+  "segments": [
+    {
+      "id": "36812332",
+      "tileScore": 15,
+      "name": "Dongjiang Road (southbound)",
+      "distanceM": 5176.60009765625,
+      "avgGrade": 0.02704477868974209,
+      "startLat": 31.37300682067871,
+      "startLng": 121.83096313476562
+    },
+    {
+      "id": "29703134",
+      "tileScore": 58,
+      "name": "横沙岛好路绕圈",
+      "distanceM": 24308.599609375,
+      "avgGrade": -0.0016455082222819328,
+      "startLat": 31.371824264526367,
+      "startLng": 121.8013687133789
+    },
+    {
+      "id": "36812340",
+      "tileScore": 17,
+      "name": "Dongbin Road (clockwise)",
+      "distanceM": 5874.2998046875,
+      "avgGrade": -0.013618644326925278,
+      "startLat": 31.344478607177734,
+      "startLng": 121.8802490234375
+    },
+    {
+      "id": "35198304",
+      "tileScore": 12,
+      "name": "Hengsha Seawall Semi Circle",
+      "distanceM": 17100.400390625,
+      "avgGrade": 0,
+      "startLat": 31.2965087890625,
+      "startLng": 121.8507080078125
+    },
+    {
+      "id": "37382241",
+      "tileScore": 2,
+      "name": "横穿横沙-民惠民东",
+      "distanceM": 5535.10009765625,
+      "avgGrade": 0.014453216455876827,
+      "startLat": 31.340545654296875,
+      "startLng": 121.81319427490234
+    }
+  ]
+}

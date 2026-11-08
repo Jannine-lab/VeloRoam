@@ -1,0 +1,146 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-03T06:07:53.512Z",
+  "tile": {
+    "z": 13,
+    "x": 6848,
+    "y": 3348
+  },
+  "segments": [
+    {
+      "id": "38954443",
+      "tileScore": 4,
+      "name": "TongJing RD E to W",
+      "distanceM": 28885.30078125,
+      "avgGrade": -0.04777516424655914,
+      "startLat": 31.166654586791992,
+      "startLng": 120.9546127319336
+    },
+    {
+      "id": "39147063",
+      "tileScore": 64,
+      "name": "吴江公路鲁贝",
+      "distanceM": 3330.5,
+      "avgGrade": 0.018015313893556595,
+      "startLat": 31.19210433959961,
+      "startLng": 120.96485900878906
+    },
+    {
+      "id": "42155611",
+      "tileScore": 19,
+      "name": "淀山湖大环加太浦河95km",
+      "distanceM": 98464.203125,
+      "avgGrade": 0.00020311950356699526,
+      "startLat": 31.100807189941406,
+      "startLng": 121.01215362548828
+    },
+    {
+      "id": "26244567",
+      "tileScore": 1,
+      "name": "25K Scenic Country Roads (Northbound)",
+      "distanceM": 24641.80078125,
+      "avgGrade": 0.04707448184490204,
+      "startLat": 31.152658462524414,
+      "startLng": 120.92338562011719
+    },
+    {
+      "id": "7980188",
+      "tileScore": 18,
+      "name": "S224 Zhengwei Rd From Y710 To C862",
+      "distanceM": 2824.800048828125,
+      "avgGrade": -0.028320588171482086,
+      "startLat": 31.184885025024414,
+      "startLng": 120.92385864257812
+    },
+    {
+      "id": "38288037",
+      "tileScore": 8,
+      "name": "VKCC 口木的秘密训练路线",
+      "distanceM": 54715.8984375,
+      "avgGrade": 0.0018276222981512547,
+      "startLat": 31.079866409301758,
+      "startLng": 120.9510726928711
+    },
+    {
+      "id": "40181195",
+      "tileScore": 6,
+      "name": "前往新乐路",
+      "distanceM": 2549.5,
+      "avgGrade": -0.04706805199384689,
+      "startLat": 31.168010711669922,
+      "startLng": 120.95561981201172
+    },
+    {
+      "id": "30384821",
+      "tileScore": 3,
+      "name": "THL-4",
+      "distanceM": 116824.5,
+      "avgGrade": -0.0025679543614387512,
+      "startLat": 31.206161499023438,
+      "startLng": 121.28252410888672
+    },
+    {
+      "id": "38897849",
+      "tileScore": 1,
+      "name": "公制世纪 - KOM",
+      "distanceM": 101772.296875,
+      "avgGrade": -0.0031442742329090834,
+      "startLat": 31.17006492614746,
+      "startLng": 121.2751235961914
+    },
+    {
+      "id": "5674185",
+      "tileScore": 81,
+      "name": "Dianshan West Lakeside Rd",
+      "distanceM": 5411.89990234375,
+      "avgGrade": 0.0166300181299448,
+      "startLat": 31.14937973022461,
+      "startLng": 120.9458236694336
+    },
+    {
+      "id": "37373358",
+      "tileScore": 39,
+      "name": "立讯厂妹下班啦",
+      "distanceM": 1697.4000244140625,
+      "avgGrade": 0,
+      "startLat": 31.164766311645508,
+      "startLng": 120.93637084960938
+    },
+    {
+      "id": "30532507",
+      "tileScore": 18,
+      "name": "C's淀山湖3KM好路大战",
+      "distanceM": 2973,
+      "avgGrade": 0.08072654157876968,
+      "startLat": 31.162643432617188,
+      "startLng": 120.92393493652344
+    },
+    {
+      "id": "12392773",
+      "tileScore": 11,
+      "name": "S224 (Dianshanhu to Golf Club)",
+      "distanceM": 7762.10009765625,
+      "avgGrade": 0.010306489653885365,
+      "startLat": 31.190719604492188,
+      "startLng": 120.95619201660156
+    },
+    {
+      "id": "3725446",
+      "tileScore": 21,
+      "name": "Dianshan Lake West and North",
+      "distanceM": 21665.25390625,
+      "avgGrade": -0.008308254182338715,
+      "startLat": 31.068464279174805,
+      "startLng": 120.91326141357422
+    },
+    {
+      "id": "33075225",
+      "tileScore": 64,
+      "name": "环湖村庄通大路",
+      "distanceM": 2140.39990234375,
+      "avgGrade": -0.05606428533792496,
+      "startLat": 31.17110824584961,
+      "startLng": 120.96632385253906
+    }
+  ]
+}

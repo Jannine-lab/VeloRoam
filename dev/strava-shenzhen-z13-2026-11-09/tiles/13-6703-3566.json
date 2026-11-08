@@ -1,0 +1,56 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-08T22:49:34.435Z",
+  "tile": {
+    "z": 13,
+    "x": 6703,
+    "y": 3566
+  },
+  "segments": [
+    {
+      "id": "40053836",
+      "tileScore": 13,
+      "name": "坝核东行爬坡区段①500m",
+      "distanceM": 521.4000244140625,
+      "avgGrade": 2.4357500076293945,
+      "startLat": 22.651979446411133,
+      "startLng": 114.56759643554688
+    },
+    {
+      "id": "35201243",
+      "tileScore": 19,
+      "name": "长湾至高岭山隧道爬坡",
+      "distanceM": 653.2000122070312,
+      "avgGrade": 3.5517454147338867,
+      "startLat": 22.638797760009766,
+      "startLng": 114.5794448852539
+    },
+    {
+      "id": "38282638",
+      "tileScore": 53,
+      "name": "坝光 mini race 绕圈",
+      "distanceM": 13441.400390625,
+      "avgGrade": 0.023807043209671974,
+      "startLat": 22.64564323425293,
+      "startLng": 114.51097869873047
+    },
+    {
+      "id": "34003961",
+      "tileScore": 17,
+      "name": "岭澳到高岭山隧道",
+      "distanceM": 7086.10009765625,
+      "avgGrade": 0.35844823718070984,
+      "startLat": 22.599559783935547,
+      "startLng": 114.54778289794922
+    },
+    {
+      "id": "15355510",
+      "tileScore": 14,
+      "name": "Liaoge Corner climb to power plant",
+      "distanceM": 613,
+      "avgGrade": 3.8172919750213623,
+      "startLat": 22.65314292907715,
+      "startLng": 114.57119750976562
+    }
+  ]
+}

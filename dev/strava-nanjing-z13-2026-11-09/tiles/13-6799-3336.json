@@ -1,0 +1,128 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-08T22:37:57.258Z",
+  "tile": {
+    "z": 13,
+    "x": 6799,
+    "y": 3336
+  },
+  "segments": [
+    {
+      "id": "40257033",
+      "tileScore": 27,
+      "name": "邓村进山热身段-托德",
+      "distanceM": 2083.5,
+      "avgGrade": 3.8396928310394287,
+      "startLat": 31.65008544921875,
+      "startLng": 118.7961196899414
+    },
+    {
+      "id": "29966507",
+      "tileScore": 4,
+      "name": "cd-四进山迎驾路到小店",
+      "distanceM": 5712.2001953125,
+      "avgGrade": 0.46216869354248047,
+      "startLat": 31.678688049316406,
+      "startLng": 118.83145141601562
+    },
+    {
+      "id": "38327815",
+      "tileScore": 5,
+      "name": "穿山瓜路",
+      "distanceM": 1195.300048828125,
+      "avgGrade": -3.296243667602539,
+      "startLat": 31.631975173950195,
+      "startLng": 118.81350708007812
+    },
+    {
+      "id": "15339378",
+      "tileScore": 5,
+      "name": "西横山神坡",
+      "distanceM": 1209,
+      "avgGrade": 13.300247192382812,
+      "startLat": 31.631376266479492,
+      "startLng": 118.80329895019531
+    },
+    {
+      "id": "31678319",
+      "tileScore": 10,
+      "name": "SiJingShan last steep part",
+      "distanceM": 865.7999877929688,
+      "avgGrade": 12.658812522888184,
+      "startLat": 31.64016342163086,
+      "startLng": 118.82644653320312
+    },
+    {
+      "id": "35092001",
+      "tileScore": 16,
+      "name": "降福殿全程",
+      "distanceM": 2529.800048828125,
+      "avgGrade": 9.494821548461914,
+      "startLat": 31.623607635498047,
+      "startLng": 118.82168579101562
+    },
+    {
+      "id": "30472207",
+      "tileScore": 2,
+      "name": "看见水库开始划火柴",
+      "distanceM": 364.5,
+      "avgGrade": 6.035665512084961,
+      "startLat": 31.65392303466797,
+      "startLng": 118.80623626708984
+    },
+    {
+      "id": "16788333",
+      "tileScore": 4,
+      "name": "四进山（桃花坡瞭望塔）",
+      "distanceM": 2912.300048828125,
+      "avgGrade": 10.507159233093262,
+      "startLat": 31.632570266723633,
+      "startLng": 118.84285736083984
+    },
+    {
+      "id": "30552774",
+      "tileScore": 3,
+      "name": "起伏爬坡",
+      "distanceM": 1838.0999755859375,
+      "avgGrade": 4.950764179229736,
+      "startLat": 31.643741607666016,
+      "startLng": 118.78610229492188
+    },
+    {
+      "id": "35152224",
+      "tileScore": 167,
+      "name": "横山完整爬坡",
+      "distanceM": 3811.800048828125,
+      "avgGrade": 9.486331939697266,
+      "startLat": 31.60489273071289,
+      "startLng": 118.77400970458984
+    },
+    {
+      "id": "37913128",
+      "tileScore": 2,
+      "name": "爬完太阳宫去降福殿喽",
+      "distanceM": 8526.2998046875,
+      "avgGrade": -0.06333345174789429,
+      "startLat": 31.60313606262207,
+      "startLng": 118.77446746826172
+    },
+    {
+      "id": "21271266",
+      "tileScore": 34,
+      "name": "Likair-sijingshan climb excluding last climb",
+      "distanceM": 2515.60009765625,
+      "avgGrade": 8.888535499572754,
+      "startLat": 31.63831329345703,
+      "startLng": 118.81880950927734
+    },
+    {
+      "id": "13653180",
+      "tileScore": 18,
+      "name": "四进山短陡坡",
+      "distanceM": 307,
+      "avgGrade": 16.612377166748047,
+      "startLat": 31.642345428466797,
+      "startLng": 118.81270599365234
+    }
+  ]
+}

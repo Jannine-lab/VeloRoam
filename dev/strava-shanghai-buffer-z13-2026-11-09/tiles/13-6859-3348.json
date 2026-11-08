@@ -1,0 +1,470 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-03T05:35:42.086Z",
+  "tile": {
+    "z": 13,
+    "x": 6859,
+    "y": 3348
+  },
+  "segments": [
+    {
+      "id": "9126724",
+      "tileScore": 15,
+      "name": "Sprint 2 Yishan",
+      "distanceM": 623.2000122070312,
+      "avgGrade": -2.0378689765930176,
+      "startLat": 31.196054458618164,
+      "startLng": 121.4338607788086
+    },
+    {
+      "id": "7036893",
+      "tileScore": 28,
+      "name": "Past the Gun club",
+      "distanceM": 1122.4000244140625,
+      "avgGrade": -0.7038488984107971,
+      "startLat": 31.19596290588379,
+      "startLng": 121.43408966064453
+    },
+    {
+      "id": "37431019",
+      "tileScore": 14,
+      "name": "Caobao 1k sprint to Guilin Park",
+      "distanceM": 1136.9000244140625,
+      "avgGrade": -0.07036678493022919,
+      "startLat": 31.17017364501953,
+      "startLng": 121.42604064941406
+    },
+    {
+      "id": "12002946",
+      "tileScore": 34,
+      "name": "Hongqiao Rd (Westbound)",
+      "distanceM": 8196.400390625,
+      "avgGrade": -0.18422722816467285,
+      "startLat": 31.19579315185547,
+      "startLng": 121.43344116210938
+    },
+    {
+      "id": "35118251",
+      "tileScore": 5,
+      "name": "Shanghai Indoor Stadium Loop(2023)",
+      "distanceM": 2400.199951171875,
+      "avgGrade": 0.03333055600523949,
+      "startLat": 31.18321990966797,
+      "startLng": 121.43180084228516
+    },
+    {
+      "id": "5630841",
+      "tileScore": 2,
+      "name": "Caobao Rd (Westbound)",
+      "distanceM": 8238.900390625,
+      "avgGrade": -0.018206315115094185,
+      "startLat": 31.170284271240234,
+      "startLng": 121.42921447753906
+    },
+    {
+      "id": "18542628",
+      "tileScore": 47,
+      "name": "ZJB Cannonball",
+      "distanceM": 540.2999877929688,
+      "avgGrade": -0.07403294742107391,
+      "startLat": 31.201465606689453,
+      "startLng": 121.44544219970703
+    },
+    {
+      "id": "14788260",
+      "tileScore": 38,
+      "name": "Huaihai West sprint",
+      "distanceM": 536.7000122070312,
+      "avgGrade": -1.732811689376831,
+      "startLat": 31.204086303710938,
+      "startLng": 121.43033599853516
+    },
+    {
+      "id": "11456387",
+      "tileScore": 1,
+      "name": "Kaixian HQ to YS",
+      "distanceM": 1089.0999755859375,
+      "avgGrade": -0.009181893430650234,
+      "startLat": 31.196577072143555,
+      "startLng": 121.41751098632812
+    },
+    {
+      "id": "39571505",
+      "tileScore": 13,
+      "name": "漕宝路RUN*3",
+      "distanceM": 501.8999938964844,
+      "avgGrade": -0.3984857201576233,
+      "startLat": 31.170198440551758,
+      "startLng": 121.4263916015625
+    },
+    {
+      "id": "11482357",
+      "tileScore": 2,
+      "name": "Qinzhou Rd (North Bound)",
+      "distanceM": 2404.10009765625,
+      "avgGrade": 0.120627261698246,
+      "startLat": 31.162418365478516,
+      "startLng": 121.42684173583984
+    },
+    {
+      "id": "11814224",
+      "tileScore": 6,
+      "name": "Domino's Dash to Wan Ping Road",
+      "distanceM": 1497.5999755859375,
+      "avgGrade": 0.5008013248443604,
+      "startLat": 31.19995880126953,
+      "startLng": 121.4565200805664
+    },
+    {
+      "id": "35043761",
+      "tileScore": 16,
+      "name": "南丹-虹桥（番禺大拐弯）",
+      "distanceM": 1674.800048828125,
+      "avgGrade": -0.5851444602012634,
+      "startLat": 31.190929412841797,
+      "startLng": 121.43133544921875
+    },
+    {
+      "id": "35082789",
+      "tileScore": 15,
+      "name": "Temple sprint",
+      "distanceM": 964.7000122070312,
+      "avgGrade": 0.06219550222158432,
+      "startLat": 31.182300567626953,
+      "startLng": 121.44755554199219
+    },
+    {
+      "id": "7128365",
+      "tileScore": 25,
+      "name": "Longwu Rd Underpass (Northbound)",
+      "distanceM": 496.70001220703125,
+      "avgGrade": -0.30199316143989563,
+      "startLat": 31.164142608642578,
+      "startLng": 121.44290161132812
+    },
+    {
+      "id": "22349388",
+      "tileScore": 24,
+      "name": "上海体育场~中山西路sprint！",
+      "distanceM": 818.5,
+      "avgGrade": -0.07330482453107834,
+      "startLat": 31.182201385498047,
+      "startLng": 121.4317855834961
+    },
+    {
+      "id": "41637235",
+      "tileScore": 11,
+      "name": "诺诺晨骑要迟到了",
+      "distanceM": 9136.900390625,
+      "avgGrade": 0.04158959910273552,
+      "startLat": 31.270627975463867,
+      "startLng": 121.4056396484375
+    },
+    {
+      "id": "12744033",
+      "tileScore": 3,
+      "name": "The Escape from IKEA",
+      "distanceM": 640.7999877929688,
+      "avgGrade": -0.5930087566375732,
+      "startLat": 31.1794490814209,
+      "startLng": 121.43163299560547
+    },
+    {
+      "id": "7533823",
+      "tileScore": 6,
+      "name": "Tianyaoqiao Rd (Northbound)",
+      "distanceM": 2476.10009765625,
+      "avgGrade": 0.7956059575080872,
+      "startLat": 31.17560577392578,
+      "startLng": 121.44400787353516
+    },
+    {
+      "id": "10936809",
+      "tileScore": 3,
+      "name": "Anshun Lu (Dingxi Lu to Huaihai Lu)",
+      "distanceM": 457,
+      "avgGrade": -0.7002188563346863,
+      "startLat": 31.20331382751465,
+      "startLng": 121.41795349121094
+    },
+    {
+      "id": "7477984",
+      "tileScore": 22,
+      "name": "Wulumuqi South Rd (Southbound)",
+      "distanceM": 1100.300048828125,
+      "avgGrade": 0.4362446665763855,
+      "startLat": 31.211336135864258,
+      "startLng": 121.44258117675781
+    },
+    {
+      "id": "11543947",
+      "tileScore": 10,
+      "name": "Zhongshan Dragon Whip ",
+      "distanceM": 535.4000244140625,
+      "avgGrade": -0.5790063738822937,
+      "startLat": 31.182119369506836,
+      "startLng": 121.43155670166016
+    },
+    {
+      "id": "5205541",
+      "tileScore": 3,
+      "name": "Rat run",
+      "distanceM": 2934.5,
+      "avgGrade": -0.08519338816404343,
+      "startLat": 31.16582489013672,
+      "startLng": 121.4584732055664
+    },
+    {
+      "id": "21243327",
+      "tileScore": 6,
+      "name": "Sorry Officer I thought you wanted to RACE ! #BTT",
+      "distanceM": 875.5,
+      "avgGrade": -0.13706453144550323,
+      "startLat": 31.197114944458008,
+      "startLng": 121.46546173095703
+    },
+    {
+      "id": "27279141",
+      "tileScore": 30,
+      "name": "Xingfu sprint",
+      "distanceM": 825.5999755859375,
+      "avgGrade": 0.09689922630786896,
+      "startLat": 31.208009719848633,
+      "startLng": 121.42874908447266
+    },
+    {
+      "id": "9348169",
+      "tileScore": 3,
+      "name": "the headwind",
+      "distanceM": 540.2999877929688,
+      "avgGrade": -0.3701647222042084,
+      "startLat": 31.1632022857666,
+      "startLng": 121.43324279785156
+    },
+    {
+      "id": "6983244",
+      "tileScore": 28,
+      "name": "Wanping South Rd (Southbound)",
+      "distanceM": 2543.800048828125,
+      "avgGrade": -0.2869722545146942,
+      "startLat": 31.19904136657715,
+      "startLng": 121.44007110595703
+    },
+    {
+      "id": "8382014",
+      "tileScore": 22,
+      "name": "Dongan Rd (from Zhaojiabang Rd to Longhua)",
+      "distanceM": 2312.39990234375,
+      "avgGrade": 0.043245114386081696,
+      "startLat": 31.200559616088867,
+      "startLng": 121.44580078125
+    },
+    {
+      "id": "6534591",
+      "tileScore": 2,
+      "name": "Xietu Rd (Eastbound)",
+      "distanceM": 4764.39990234375,
+      "avgGrade": -0.05457140505313873,
+      "startLat": 31.19310188293457,
+      "startLng": 121.4416275024414
+    },
+    {
+      "id": "21036682",
+      "tileScore": 7,
+      "name": "Minpu Tues - Park to LP with extension",
+      "distanceM": 56914,
+      "avgGrade": -0.006325332447886467,
+      "startLat": 31.213491439819336,
+      "startLng": 121.46663665771484
+    },
+    {
+      "id": "35936286",
+      "tileScore": 1,
+      "name": "Tianyaoqiao (Southbond)",
+      "distanceM": 982.4000244140625,
+      "avgGrade": 0,
+      "startLat": 31.19148063659668,
+      "startLng": 121.43745422363281
+    },
+    {
+      "id": "22431799",
+      "tileScore": 2,
+      "name": "Rush Hour from Xujiahui to Wujiaochang",
+      "distanceM": 17675.30078125,
+      "avgGrade": -0.08146961778402328,
+      "startLat": 31.195659637451172,
+      "startLng": 121.43431854248047
+    },
+    {
+      "id": "8951147",
+      "tileScore": 7,
+      "name": "Hengshan Rd (Westbound)",
+      "distanceM": 1708.199951171875,
+      "avgGrade": 0.22245638072490692,
+      "startLat": 31.21122169494629,
+      "startLng": 121.44526672363281
+    },
+    {
+      "id": "33638050",
+      "tileScore": 1,
+      "name": "Small Paul's Miniture Rabbit",
+      "distanceM": 15508.099609375,
+      "avgGrade": 0.07737892121076584,
+      "startLat": 31.2154541015625,
+      "startLng": 121.44413757324219
+    },
+    {
+      "id": "29542959",
+      "tileScore": 10,
+      "name": "Zhaojiabang road - huashan to wanping",
+      "distanceM": 624.2000122070312,
+      "avgGrade": -0.12816405296325684,
+      "startLat": 31.19598388671875,
+      "startLng": 121.43455505371094
+    },
+    {
+      "id": "9110867",
+      "tileScore": 25,
+      "name": "Ruining Rd (Westbound)",
+      "distanceM": 1046.4000244140625,
+      "avgGrade": 0.21980123221874237,
+      "startLat": 31.192771911621094,
+      "startLng": 121.46574401855469
+    },
+    {
+      "id": "39230846",
+      "tileScore": 5,
+      "name": "Back Home From Coffee",
+      "distanceM": 3980.10009765625,
+      "avgGrade": 0.04522499442100525,
+      "startLat": 31.215784072875977,
+      "startLng": 121.4386215209961
+    },
+    {
+      "id": "13250842",
+      "tileScore": 1,
+      "name": "East-West Express ",
+      "distanceM": 5523.39990234375,
+      "avgGrade": 0.08871347457170486,
+      "startLat": 31.21448516845703,
+      "startLng": 121.48607635498047
+    },
+    {
+      "id": "10454143",
+      "tileScore": 4,
+      "name": "Caoxi North (Zhongshan => Nandan)",
+      "distanceM": 1179.5,
+      "avgGrade": 0.5426027774810791,
+      "startLat": 31.18223762512207,
+      "startLng": 121.4317626953125
+    },
+    {
+      "id": "11446385",
+      "tileScore": 4,
+      "name": "Longhua W Sprint",
+      "distanceM": 904,
+      "avgGrade": 0.4092920422554016,
+      "startLat": 31.173154830932617,
+      "startLng": 121.44023132324219
+    },
+    {
+      "id": "10541863",
+      "tileScore": 3,
+      "name": "40 km Shanghaï Loop",
+      "distanceM": 38644.5,
+      "avgGrade": 0.0015526142669841647,
+      "startLat": 31.193662643432617,
+      "startLng": 121.46837615966797
+    },
+    {
+      "id": "37670361",
+      "tileScore": 7,
+      "name": "Fenglin Push",
+      "distanceM": 543.5999755859375,
+      "avgGrade": 0,
+      "startLat": 31.193246841430664,
+      "startLng": 121.45368957519531
+    },
+    {
+      "id": "6952597",
+      "tileScore": 15,
+      "name": "Full Expo Southbound",
+      "distanceM": 10703.400390625,
+      "avgGrade": -0.03923986852169037,
+      "startLat": 31.223365783691406,
+      "startLng": 121.5077896118164
+    },
+    {
+      "id": "36516350",
+      "tileScore": 2,
+      "name": "经典通勤上班线路A-虹桥绕道至凯旋卡红绿灯不停车",
+      "distanceM": 21577.099609375,
+      "avgGrade": -0.04634543135762215,
+      "startLat": 31.27074432373047,
+      "startLng": 121.52769470214844
+    },
+    {
+      "id": "34591064",
+      "tileScore": 23,
+      "name": "Temple Run",
+      "distanceM": 523,
+      "avgGrade": -0.03824091702699661,
+      "startLat": 31.174312591552734,
+      "startLng": 121.44631958007812
+    },
+    {
+      "id": "7875513",
+      "tileScore": 25,
+      "name": "Caoxi Rd (Northbound)",
+      "distanceM": 1229.9000244140625,
+      "avgGrade": 0.39027562737464905,
+      "startLat": 31.170530319213867,
+      "startLng": 121.43016815185547
+    },
+    {
+      "id": "16317617",
+      "tileScore": 2,
+      "name": "Minhang Triangle Circuit",
+      "distanceM": 20807.099609375,
+      "avgGrade": 0.03171994164586067,
+      "startLat": 31.16872787475586,
+      "startLng": 121.429443359375
+    },
+    {
+      "id": "6936509",
+      "tileScore": 4,
+      "name": "Longwu Rd (Longshui > S20 Outer Ring)",
+      "distanceM": 5077.7998046875,
+      "avgGrade": -0.003938713576644659,
+      "startLat": 31.171098709106445,
+      "startLng": 121.44029235839844
+    },
+    {
+      "id": "40761239",
+      "tileScore": 1,
+      "name": "文定路蒲汇塘路",
+      "distanceM": 559.2999877929688,
+      "avgGrade": 0.17879492044448853,
+      "startLat": 31.190879821777344,
+      "startLng": 121.42919921875
+    },
+    {
+      "id": "13829135",
+      "tileScore": 24,
+      "name": "Sprint Past Xujiahui Park ",
+      "distanceM": 282.1000061035156,
+      "avgGrade": -1.276143193244934,
+      "startLat": 31.19933319091797,
+      "startLng": 121.44020080566406
+    },
+    {
+      "id": "7070970",
+      "tileScore": 17,
+      "name": "Huashan (Huaihai > Zhaojiabang)",
+      "distanceM": 1003.5999755859375,
+      "avgGrade": 1.0362694263458252,
+      "startLat": 31.20396614074707,
+      "startLng": 121.43077087402344
+    }
+  ]
+}

@@ -1,0 +1,83 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-08T22:48:37.784Z",
+  "tile": {
+    "z": 13,
+    "x": 6693,
+    "y": 3561
+  },
+  "segments": [
+    {
+      "id": "28764546",
+      "tileScore": 1,
+      "name": "North Ring Road Climb",
+      "distanceM": 913.0999755859375,
+      "avgGrade": 2.584601879119873,
+      "startLat": 22.857194900512695,
+      "startLng": 114.13386535644531
+    },
+    {
+      "id": "4996400",
+      "tileScore": 9,
+      "name": "Slight climb to Qingxi Park Gate",
+      "distanceM": 3031.10009765625,
+      "avgGrade": 1.4582164287567139,
+      "startLat": 22.86541175842285,
+      "startLng": 114.17790985107422
+    },
+    {
+      "id": "5684351",
+      "tileScore": 3,
+      "name": "Lengshuikeng Street Climb",
+      "distanceM": 1129,
+      "avgGrade": 13.631531715393066,
+      "startLat": 22.872774124145508,
+      "startLng": 114.14594268798828
+    },
+    {
+      "id": "5684350",
+      "tileScore": 4,
+      "name": "Bailang Xinwei Street Climb",
+      "distanceM": 1400.800048828125,
+      "avgGrade": 9.416048049926758,
+      "startLat": 22.876211166381836,
+      "startLng": 114.15788269042969
+    },
+    {
+      "id": "866548",
+      "tileScore": 16,
+      "name": "Qingxi Forest Park 720m climb",
+      "distanceM": 6557.85009765625,
+      "avgGrade": 9.169093132019043,
+      "startLat": 22.8758487701416,
+      "startLng": 114.15540313720703
+    },
+    {
+      "id": "5684352",
+      "tileScore": 3,
+      "name": "Lengshuikeng Street Climb",
+      "distanceM": 1271.0999755859375,
+      "avgGrade": 12.744866371154785,
+      "startLat": 22.87705421447754,
+      "startLng": 114.13426208496094
+    },
+    {
+      "id": "41102448",
+      "tileScore": 4,
+      "name": "北环路西行银瓶路口-香芒",
+      "distanceM": 6287.89990234375,
+      "avgGrade": -0.3673722445964813,
+      "startLat": 22.84214973449707,
+      "startLng": 114.19110870361328
+    },
+    {
+      "id": "31402188",
+      "tileScore": 2,
+      "name": "穿越罗马ITT",
+      "distanceM": 4678.2001953125,
+      "avgGrade": -0.19238168001174927,
+      "startLat": 22.887805938720703,
+      "startLng": 114.09770202636719
+    }
+  ]
+}

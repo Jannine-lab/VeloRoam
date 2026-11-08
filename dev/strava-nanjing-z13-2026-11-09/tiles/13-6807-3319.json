@@ -1,0 +1,38 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-08T22:31:17.259Z",
+  "tile": {
+    "z": 13,
+    "x": 6807,
+    "y": 3319
+  },
+  "segments": [
+    {
+      "id": "39988098",
+      "tileScore": 5,
+      "name": "仪征-镇扬汽渡",
+      "distanceM": 19609.5,
+      "avgGrade": -0.008159310556948185,
+      "startLat": 32.255489349365234,
+      "startLng": 119.1688232421875
+    },
+    {
+      "id": "41840878",
+      "tileScore": 10,
+      "name": "仪扬河大桥冲刺 E-W",
+      "distanceM": 996,
+      "avgGrade": -0.1204819306731224,
+      "startLat": 32.252201080322266,
+      "startLng": 119.18753051757812
+    },
+    {
+      "id": "41811217",
+      "tileScore": 11,
+      "name": "龙山骑完回家冲一下",
+      "distanceM": 6048.5,
+      "avgGrade": -0.023146234452724457,
+      "startLat": 32.26588439941406,
+      "startLng": 119.08674621582031
+    }
+  ]
+}

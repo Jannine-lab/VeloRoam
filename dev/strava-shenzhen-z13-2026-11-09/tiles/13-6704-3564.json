@@ -1,0 +1,20 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-08T22:49:29.339Z",
+  "tile": {
+    "z": 13,
+    "x": 6704,
+    "y": 3564
+  },
+  "segments": [
+    {
+      "id": "35528174",
+      "tileScore": 1,
+      "name": "China 2",
+      "distanceM": 6356.7001953125,
+      "avgGrade": -0.009438859298825264,
+      "startLat": 22.743867874145508,
+      "startLng": 114.57455444335938
+    }
+  ]
+}

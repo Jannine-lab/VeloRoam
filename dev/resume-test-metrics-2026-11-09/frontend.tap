@@ -1,0 +1,108 @@
+TAP version 13
+# Subtest: exports each route leg in order and escapes the track name
+ok 1 - exports each route leg in order and escapes the track name
+  ---
+  duration_ms: 1.21425
+  type: 'test'
+  ...
+# Subtest: does not connect across invalid points and rejects missing tracks
+ok 2 - does not connect across invalid points and rejects missing tracks
+  ---
+  duration_ms: 0.360167
+  type: 'test'
+  ...
+# Subtest: opens cycling navigation to the segment start with native AMap and converted coordinates
+ok 3 - opens cycling navigation to the segment start with native AMap and converted coordinates
+  ---
+  duration_ms: 2.249875
+  type: 'test'
+  ...
+# Subtest: uses segment endpoints and return point for international cycling directions
+ok 4 - uses segment endpoints and return point for international cycling directions
+  ---
+  duration_ms: 0.193666
+  type: 'test'
+  ...
+# Subtest: rejects missing or invalid route points
+ok 5 - rejects missing or invalid route points
+  ---
+  duration_ms: 0.244375
+  type: 'test'
+  ...
+# Subtest: reuses successful results across recreated caches and small GPS changes
+ok 6 - reuses successful results across recreated caches and small GPS changes
+  ---
+  duration_ms: 1.515167
+  type: 'test'
+  ...
+# Subtest: shares in-flight work and retries failures or empty recommendations
+ok 7 - shares in-flight work and retries failures or empty recommendations
+  ---
+  duration_ms: 0.367667
+  type: 'test'
+  ...
+# Subtest: does not replace a newer location with a slower old response
+ok 8 - does not replace a newer location with a slower old response
+  ---
+  duration_ms: 0.643167
+  type: 'test'
+  ...
+# Subtest: caches recommendations above 50 km within the new range
+ok 9 - caches recommendations above 50 km within the new range
+  ---
+  duration_ms: 0.231208
+  type: 'test'
+  ...
+# Subtest: half-open sheet shifts location and route bounds into the visible map area
+ok 10 - half-open sheet shifts location and route bounds into the visible map area
+  ---
+  duration_ms: 18.0365
+  type: 'test'
+  ...
+# Subtest: centers the route loading animation above the mobile drawer
+ok 11 - centers the route loading animation above the mobile drawer
+  ---
+  duration_ms: 0.588916
+  type: 'test'
+  ...
+# Planned route selection checks passed.
+# Subtest: /Users/jannine/Desktop/VeloRoam/VeloRoam-ui/planned-route-selection.test.cjs
+ok 5 - /Users/jannine/Desktop/VeloRoam/VeloRoam-ui/planned-route-selection.test.cjs
+  ---
+  duration_ms: 584.364
+  type: 'test'
+  ...
+# Subtest: hides exploration segments while a planned route is shown and restores them on close
+ok 13 - hides exploration segments while a planned route is shown and restores them on close
+  ---
+  duration_ms: 1.0655
+  type: 'test'
+  ...
+# Subtest: isolates a viewed segment and restores exploration when that preview closes
+ok 14 - isolates a viewed segment and restores exploration when that preview closes
+  ---
+  duration_ms: 0.447958
+  type: 'test'
+  ...
+# Subtest: preserves a previously hidden layer and keeps it hidden for place navigation
+ok 15 - preserves a previously hidden layer and keeps it hidden for place navigation
+  ---
+  duration_ms: 0.302667
+  type: 'test'
+  ...
+# Browser segment display checks passed.
+# Subtest: /Users/jannine/Desktop/VeloRoam/VeloRoam-ui/segment-visibility.test.cjs
+ok 7 - /Users/jannine/Desktop/VeloRoam/VeloRoam-ui/segment-visibility.test.cjs
+  ---
+  duration_ms: 585.287833
+  type: 'test'
+  ...
+1..16
+# tests 16
+# suites 0
+# pass 16
+# fail 0
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 763.635708

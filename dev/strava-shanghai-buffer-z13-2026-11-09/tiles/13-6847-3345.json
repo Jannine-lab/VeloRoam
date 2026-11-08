@@ -1,0 +1,128 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-03T06:06:43.547Z",
+  "tile": {
+    "z": 13,
+    "x": 6847,
+    "y": 3345
+  },
+  "segments": [
+    {
+      "id": "25984785",
+      "tileScore": 17,
+      "name": "Jiangpu South Rd from Yuanfeng Rd to Songhu West Rd（Southbond）",
+      "distanceM": 10292.2998046875,
+      "avgGrade": -0.009716001339256763,
+      "startLat": 31.328493118286133,
+      "startLng": 120.92188262939453
+    },
+    {
+      "id": "41474724",
+      "tileScore": 3,
+      "name": "沪光路",
+      "distanceM": 1241,
+      "avgGrade": 0.08058017492294312,
+      "startLat": 31.28508949279785,
+      "startLng": 120.8950424194336
+    },
+    {
+      "id": "40496797",
+      "tileScore": 15,
+      "name": "江浦南路",
+      "distanceM": 11342.900390625,
+      "avgGrade": 0.008816087618470192,
+      "startLat": 31.382366180419922,
+      "startLng": 120.92025756835938
+    },
+    {
+      "id": "41474678",
+      "tileScore": 4,
+      "name": "港浦中路",
+      "distanceM": 3474.199951171875,
+      "avgGrade": 0.011513441801071167,
+      "startLat": 31.294105529785156,
+      "startLng": 120.9159927368164
+    },
+    {
+      "id": "8936917",
+      "tileScore": 3,
+      "name": "Da Zhi Gang Bridge (Eastbound)",
+      "distanceM": 236.10000610351562,
+      "avgGrade": -1.0165183544158936,
+      "startLat": 31.280244827270508,
+      "startLng": 120.91268157958984
+    },
+    {
+      "id": "19032921",
+      "tileScore": 12,
+      "name": "X204 x Wusong River Bridge (Southbound)",
+      "distanceM": 889.5,
+      "avgGrade": 0.35975268483161926,
+      "startLat": 31.31993293762207,
+      "startLng": 120.922119140625
+    },
+    {
+      "id": "41421592",
+      "tileScore": 3,
+      "name": "港浦西路",
+      "distanceM": 1686.5999755859375,
+      "avgGrade": 0.05929088220000267,
+      "startLat": 31.293670654296875,
+      "startLng": 120.91387176513672
+    },
+    {
+      "id": "40911380",
+      "tileScore": 3,
+      "name": "GuCheng Rd",
+      "distanceM": 12157.7998046875,
+      "avgGrade": 0.026320552453398705,
+      "startLat": 31.28523826599121,
+      "startLng": 120.89583587646484
+    },
+    {
+      "id": "19032943",
+      "tileScore": 13,
+      "name": "2nd Bridge on X204 (Southbound) ",
+      "distanceM": 666.2000122070312,
+      "avgGrade": 0.1501050740480423,
+      "startLat": 31.302000045776367,
+      "startLng": 120.9188461303711
+    },
+    {
+      "id": "41693516",
+      "tileScore": 4,
+      "name": "金华村",
+      "distanceM": 523.5999755859375,
+      "avgGrade": 2.1390373706817627,
+      "startLat": 31.308507919311523,
+      "startLng": 120.92117309570312
+    },
+    {
+      "id": "24864276",
+      "tileScore": 9,
+      "name": "X205 North Bound Till Y-cross",
+      "distanceM": 9454.2001953125,
+      "avgGrade": 0.027501003816723824,
+      "startLat": 31.198413848876953,
+      "startLng": 120.88581085205078
+    },
+    {
+      "id": "8936618",
+      "tileScore": 5,
+      "name": "S343 Yangguang West Rd (Eastbound)",
+      "distanceM": 3861.10009765625,
+      "avgGrade": -0.09841755032539368,
+      "startLat": 31.28226089477539,
+      "startLng": 120.87537384033203
+    },
+    {
+      "id": "26325684",
+      "tileScore": 9,
+      "name": "Back to the X205",
+      "distanceM": 3387.10009765625,
+      "avgGrade": -0.029523780569434166,
+      "startLat": 31.250202178955078,
+      "startLng": 120.89682006835938
+    }
+  ]
+}

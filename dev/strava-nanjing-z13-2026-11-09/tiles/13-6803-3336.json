@@ -1,0 +1,65 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-08T22:38:06.128Z",
+  "tile": {
+    "z": 13,
+    "x": 6803,
+    "y": 3336
+  },
+  "segments": [
+    {
+      "id": "32992820",
+      "tileScore": 11,
+      "name": "天生桥太阳岛冲刺TopK",
+      "distanceM": 1499,
+      "avgGrade": 0.2068045288324356,
+      "startLat": 31.64337921142578,
+      "startLng": 118.99378204345703
+    },
+    {
+      "id": "40319092",
+      "tileScore": 10,
+      "name": "悦居至蒲塘 ",
+      "distanceM": 7996.7001953125,
+      "avgGrade": -0.11004538834095001,
+      "startLat": 31.63779640197754,
+      "startLng": 119.01093292236328
+    },
+    {
+      "id": "35628469",
+      "tileScore": 32,
+      "name": "from 天生桥 to 石湫",
+      "distanceM": 6936,
+      "avgGrade": -0.2710496187210083,
+      "startLat": 31.63878059387207,
+      "startLng": 118.97588348388672
+    },
+    {
+      "id": "20979509",
+      "tileScore": 4,
+      "name": "20181111环溧水自行车赛 Lishui Criterium",
+      "distanceM": 139486.90625,
+      "avgGrade": 0.00444486178457737,
+      "startLat": 31.613245010375977,
+      "startLng": 119.02008056640625
+    },
+    {
+      "id": "39051044",
+      "tileScore": 21,
+      "name": "环无想山赛段",
+      "distanceM": 24712.400390625,
+      "avgGrade": 0.017400171607732773,
+      "startLat": 31.60159683227539,
+      "startLng": 119.06743621826172
+    },
+    {
+      "id": "32992824",
+      "tileScore": 20,
+      "name": "天生桥北冲刺TopK",
+      "distanceM": 994.5999755859375,
+      "avgGrade": -0.08043434470891953,
+      "startLat": 31.639530181884766,
+      "startLng": 118.97575378417969
+    }
+  ]
+}

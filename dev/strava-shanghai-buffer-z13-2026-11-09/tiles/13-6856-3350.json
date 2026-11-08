@@ -1,0 +1,119 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-03T05:35:42.086Z",
+  "tile": {
+    "z": 13,
+    "x": 6856,
+    "y": 3350
+  },
+  "segments": [
+    {
+      "id": "30564357",
+      "tileScore": 2,
+      "name": "FMG-05",
+      "distanceM": 2396.800048828125,
+      "avgGrade": 0.06675567477941513,
+      "startLat": 31.12739372253418,
+      "startLng": 121.31734466552734
+    },
+    {
+      "id": "29780287",
+      "tileScore": 18,
+      "name": "九新公路",
+      "distanceM": 5127.2001953125,
+      "avgGrade": -0.0838664323091507,
+      "startLat": 31.12394142150879,
+      "startLng": 121.31714630126953
+    },
+    {
+      "id": "27955036",
+      "tileScore": 3,
+      "name": "BTP-0077",
+      "distanceM": 2442.300048828125,
+      "avgGrade": 0.14740204811096191,
+      "startLat": 31.11933135986328,
+      "startLng": 121.28072357177734
+    },
+    {
+      "id": "30564351",
+      "tileScore": 1,
+      "name": "FMG-04",
+      "distanceM": 3974.39990234375,
+      "avgGrade": 0.04528985545039177,
+      "startLat": 31.146352767944336,
+      "startLng": 121.2832260131836
+    },
+    {
+      "id": "18921938",
+      "tileScore": 10,
+      "name": "Xinsong straight (wb)",
+      "distanceM": 2277.39990234375,
+      "avgGrade": 0,
+      "startLat": 31.10173225402832,
+      "startLng": 121.35303497314453
+    },
+    {
+      "id": "7139077",
+      "tileScore": 1,
+      "name": "Jiuting St (Eastbound)",
+      "distanceM": 3729.10009765625,
+      "avgGrade": 0.06167708337306976,
+      "startLat": 31.130901336669922,
+      "startLng": 121.30065155029297
+    },
+    {
+      "id": "35948487",
+      "tileScore": 7,
+      "name": "莘砖公路桥至九新公路",
+      "distanceM": 1539.199951171875,
+      "avgGrade": -0.31185030937194824,
+      "startLat": 31.095277786254883,
+      "startLng": 121.29303741455078
+    },
+    {
+      "id": "34244695",
+      "tileScore": 10,
+      "name": "Xinsong Rainbow Bridge",
+      "distanceM": 512.0999755859375,
+      "avgGrade": 0.35149386525154114,
+      "startLat": 31.09359359741211,
+      "startLng": 121.3293685913086
+    },
+    {
+      "id": "30390315",
+      "tileScore": 9,
+      "name": "BTP-S5",
+      "distanceM": 7978.10009765625,
+      "avgGrade": -0.021308330819010735,
+      "startLat": 31.095489501953125,
+      "startLng": 121.29185485839844
+    },
+    {
+      "id": "7875550",
+      "tileScore": 3,
+      "name": "Xinzhuan Hwy x G15 Shenhai Expy Bridge (Eastbound)",
+      "distanceM": 492.79998779296875,
+      "avgGrade": 0.20292207598686218,
+      "startLat": 31.09524917602539,
+      "startLng": 121.29154205322266
+    },
+    {
+      "id": "14031728",
+      "tileScore": 20,
+      "name": "Xiyaojing sprint",
+      "distanceM": 686.4000244140625,
+      "avgGrade": 0.11655011773109436,
+      "startLat": 31.087474822998047,
+      "startLng": 121.31257629394531
+    },
+    {
+      "id": "14770507",
+      "tileScore": 2,
+      "name": "Yaobei blast",
+      "distanceM": 5466.7998046875,
+      "avgGrade": -0.11341186612844467,
+      "startLat": 31.123064041137695,
+      "startLng": 121.36615753173828
+    }
+  ]
+}

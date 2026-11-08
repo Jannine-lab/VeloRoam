@@ -1,0 +1,119 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-08T22:50:21.256Z",
+  "tile": {
+    "z": 13,
+    "x": 6686,
+    "y": 3567
+  },
+  "segments": [
+    {
+      "id": "7126729",
+      "tileScore": 6,
+      "name": "ITT-BAOAN-9KM",
+      "distanceM": 8968.7998046875,
+      "avgGrade": -0.06689858436584473,
+      "startLat": 22.642301559448242,
+      "startLng": 113.82245635986328
+    },
+    {
+      "id": "38198843",
+      "tileScore": 8,
+      "name": "107-出深圳记",
+      "distanceM": 52876.3984375,
+      "avgGrade": -0.03366341069340706,
+      "startLat": 22.576610565185547,
+      "startLng": 114.11041259765625
+    },
+    {
+      "id": "34615548",
+      "tileScore": 9,
+      "name": "战他的最后一战！！！",
+      "distanceM": 2789.89990234375,
+      "avgGrade": -0.1935553252696991,
+      "startLat": 22.641986846923828,
+      "startLng": 113.8224105834961
+    },
+    {
+      "id": "27287853",
+      "tileScore": 5,
+      "name": "The Bao'an Road- Jinwan Ave- Redlight sprint",
+      "distanceM": 1862.0999755859375,
+      "avgGrade": -0.17184899747371674,
+      "startLat": 22.612497329711914,
+      "startLng": 113.82475280761719
+    },
+    {
+      "id": "39716556",
+      "tileScore": 20,
+      "name": "发射塔鹤州土路爬坡",
+      "distanceM": 2067.60009765625,
+      "avgGrade": 7.835171222686768,
+      "startLat": 22.63410758972168,
+      "startLng": 113.85491180419922
+    },
+    {
+      "id": "13677626",
+      "tileScore": 224,
+      "name": "金湾大道 - 往机场",
+      "distanceM": 3552.699951171875,
+      "avgGrade": 0.005629521328955889,
+      "startLat": 22.572912216186523,
+      "startLng": 113.84192657470703
+    },
+    {
+      "id": "36413474",
+      "tileScore": 17,
+      "name": "畅爽下坡 - Jason在这里带到55km/h",
+      "distanceM": 3994.800048828125,
+      "avgGrade": -0.7860218286514282,
+      "startLat": 22.652931213378906,
+      "startLng": 113.82307434082031
+    },
+    {
+      "id": "28448315",
+      "tileScore": 6,
+      "name": "Flight??",
+      "distanceM": 988.7999877929688,
+      "avgGrade": -0.12135922163724899,
+      "startLat": 22.619840621948242,
+      "startLng": 113.82926940917969
+    },
+    {
+      "id": "39566696",
+      "tileScore": 6,
+      "name": "鹤洲立交下的大下坡",
+      "distanceM": 1078.300048828125,
+      "avgGrade": -1.1499582529067993,
+      "startLat": 22.617883682250977,
+      "startLng": 113.85234069824219
+    },
+    {
+      "id": "38626084",
+      "tileScore": 9,
+      "name": "GuangshenSouth",
+      "distanceM": 6893.10009765625,
+      "avgGrade": -0.03481742739677429,
+      "startLat": 22.640840530395508,
+      "startLng": 113.83305358886719
+    },
+    {
+      "id": "27287800",
+      "tileScore": 2,
+      "name": "Right base for Terminal 3",
+      "distanceM": 1273.800048828125,
+      "avgGrade": -0.0942063108086586,
+      "startLat": 22.617219924926758,
+      "startLng": 113.82935333251953
+    },
+    {
+      "id": "12570192",
+      "tileScore": 4,
+      "name": "國道107 > 長安水站",
+      "distanceM": 33858,
+      "avgGrade": -0.01535826176404953,
+      "startLat": 22.543325424194336,
+      "startLng": 113.91828155517578
+    }
+  ]
+}

@@ -1,0 +1,74 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-08T22:49:02.636Z",
+  "tile": {
+    "z": 13,
+    "x": 6685,
+    "y": 3563
+  },
+  "segments": [
+    {
+      "id": "15736328",
+      "tileScore": 3,
+      "name": "Highway Hill",
+      "distanceM": 578.7000122070312,
+      "avgGrade": 2.6265769004821777,
+      "startLat": 22.77058982849121,
+      "startLng": 113.78221130371094
+    },
+    {
+      "id": "15667747",
+      "tileScore": 1,
+      "name": "Wushahuan E Rd",
+      "distanceM": 1204.800048828125,
+      "avgGrade": 0.016600266098976135,
+      "startLat": 22.799148559570312,
+      "startLng": 113.78611755371094
+    },
+    {
+      "id": "37336869",
+      "tileScore": 1,
+      "name": "立交桥冲冲冲",
+      "distanceM": 747.2000122070312,
+      "avgGrade": 0.16059957444667816,
+      "startLat": 22.7893009185791,
+      "startLng": 113.7967300415039
+    },
+    {
+      "id": "38551704",
+      "tileScore": 11,
+      "name": "沿河路",
+      "distanceM": 4477,
+      "avgGrade": 0.05360732972621918,
+      "startLat": 22.777193069458008,
+      "startLng": 113.790771484375
+    },
+    {
+      "id": "15667914",
+      "tileScore": 9,
+      "name": "Highway Hill Under Construction Backside",
+      "distanceM": 420.1000061035156,
+      "avgGrade": 3.427755355834961,
+      "startLat": 22.76567840576172,
+      "startLng": 113.79310607910156
+    },
+    {
+      "id": "38190727",
+      "tileScore": 4,
+      "name": "深—广 沿京港澳高速 松明大道至洋涌河立交上坡",
+      "distanceM": 3091.39990234375,
+      "avgGrade": 0.10351298004388809,
+      "startLat": 22.76781463623047,
+      "startLng": 113.82029724121094
+    },
+    {
+      "id": "15667769",
+      "tileScore": 2,
+      "name": "Wushahuan S Rd",
+      "distanceM": 1212.199951171875,
+      "avgGrade": 0,
+      "startLat": 22.786724090576172,
+      "startLng": 113.77347564697266
+    }
+  ]
+}

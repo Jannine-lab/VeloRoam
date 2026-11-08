@@ -1,0 +1,29 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-08T22:25:53.624Z",
+  "tile": {
+    "z": 13,
+    "x": 6801,
+    "y": 3311
+  },
+  "segments": [
+    {
+      "id": "33299405",
+      "tileScore": 1,
+      "name": "东王—新街",
+      "distanceM": 7551.7998046875,
+      "avgGrade": 0.17479276657104492,
+      "startLat": 32.56608200073242,
+      "startLng": 118.8753662109375
+    },
+    {
+      "id": "38919361",
+      "tileScore": 7,
+      "name": "郑集—东王",
+      "distanceM": 7431,
+      "avgGrade": -0.061902839690446854,
+      "startLat": 32.593021392822266,
+      "startLng": 118.94386291503906
+    }
+  ]
+}

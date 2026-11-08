@@ -1,0 +1,20 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-08T22:48:19.041Z",
+  "tile": {
+    "z": 13,
+    "x": 6703,
+    "y": 3559
+  },
+  "segments": [
+    {
+      "id": "39720232",
+      "tileScore": 17,
+      "name": "沙田到百花绕路段",
+      "distanceM": 7523.10009765625,
+      "avgGrade": -0.2631893754005432,
+      "startLat": 22.894359588623047,
+      "startLng": 114.5961685180664
+    }
+  ]
+}

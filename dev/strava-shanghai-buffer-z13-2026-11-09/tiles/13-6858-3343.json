@@ -1,0 +1,74 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-03T06:04:58.252Z",
+  "tile": {
+    "z": 13,
+    "x": 6858,
+    "y": 3343
+  },
+  "segments": [
+    {
+      "id": "34443961",
+      "tileScore": 3,
+      "name": "顾北路（潘泾路-电台路）",
+      "distanceM": 992.4000244140625,
+      "avgGrade": 0.0705360695719719,
+      "startLat": 31.35771942138672,
+      "startLng": 121.39872741699219
+    },
+    {
+      "id": "32724531",
+      "tileScore": 2,
+      "name": "乌漆嘛黑",
+      "distanceM": 24503.5,
+      "avgGrade": 0.026118718087673187,
+      "startLat": 31.306806564331055,
+      "startLng": 121.4298324584961
+    },
+    {
+      "id": "32517633",
+      "tileScore": 17,
+      "name": "West Youyi Road TT Reverse",
+      "distanceM": 1966.699951171875,
+      "avgGrade": -0.0406772755086422,
+      "startLat": 31.371307373046875,
+      "startLng": 121.38774108886719
+    },
+    {
+      "id": "31919324",
+      "tileScore": 15,
+      "name": "Do I Love You? (Indeed I Do!)",
+      "distanceM": 2167.300048828125,
+      "avgGrade": 0.05536843091249466,
+      "startLat": 31.354272842407227,
+      "startLng": 121.41605377197266
+    },
+    {
+      "id": "10470340",
+      "tileScore": 2,
+      "name": "Into the seabreeze",
+      "distanceM": 5086.7998046875,
+      "avgGrade": -0.04914681240916252,
+      "startLat": 31.363632202148438,
+      "startLng": 121.40119934082031
+    },
+    {
+      "id": "27202541",
+      "tileScore": 7,
+      "name": "Panjing grand straight road",
+      "distanceM": 15455.5,
+      "avgGrade": -0.016822488978505135,
+      "startLat": 31.48887825012207,
+      "startLng": 121.32933807373047
+    },
+    {
+      "id": "36812118",
+      "tileScore": 8,
+      "name": "Tour de Dachang Airport",
+      "distanceM": 20435.400390625,
+      "avgGrade": -0.01565910130739212,
+      "startLat": 31.305885314941406,
+      "startLng": 121.42900085449219
+    }
+  ]
+}

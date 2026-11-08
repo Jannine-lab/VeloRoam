@@ -1,0 +1,245 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-08T22:52:32.644Z",
+  "tile": {
+    "z": 13,
+    "x": 6694,
+    "y": 3573
+  },
+  "segments": [
+    {
+      "id": "38840312",
+      "tileScore": 22,
+      "name": "The GT ",
+      "distanceM": 95767,
+      "avgGrade": 0.04740672558546066,
+      "startLat": 22.326505661010742,
+      "startLng": 114.15650939941406
+    },
+    {
+      "id": "11684548",
+      "tileScore": 11,
+      "name": "大圍百樂徑爬坡 by sun bb",
+      "distanceM": 351,
+      "avgGrade": 8.490028381347656,
+      "startLat": 22.380956649780273,
+      "startLng": 114.18070220947266
+    },
+    {
+      "id": "5846776",
+      "tileScore": 71,
+      "name": "道風山路",
+      "distanceM": 1606.9000244140625,
+      "avgGrade": 7.617150783538818,
+      "startLat": 22.37813377380371,
+      "startLng": 114.1824951171875
+    },
+    {
+      "id": "6721438",
+      "tileScore": 1,
+      "name": "Hung Mui Kuk Nature Trail Climb",
+      "distanceM": 643.5,
+      "avgGrade": 14.25019359588623,
+      "startLat": 22.359079360961914,
+      "startLng": 114.17686462402344
+    },
+    {
+      "id": "4658809",
+      "tileScore": 96,
+      "name": "聖母到扎山道停車場",
+      "distanceM": 3502.60009765625,
+      "avgGrade": 11.362987518310547,
+      "startLat": 22.345680236816406,
+      "startLng": 114.1959228515625
+    },
+    {
+      "id": "7009884",
+      "tileScore": 24,
+      "name": "Shui Chuen au ",
+      "distanceM": 1585.4000244140625,
+      "avgGrade": 8.464740753173828,
+      "startLat": 22.37590980529785,
+      "startLng": 114.1962890625
+    },
+    {
+      "id": "36106399",
+      "tileScore": 9,
+      "name": "NSW - SHAN SHING",
+      "distanceM": 90205.8984375,
+      "avgGrade": -0.013968043960630894,
+      "startLat": 22.44609260559082,
+      "startLng": 114.04883575439453
+    },
+    {
+      "id": "42358983",
+      "tileScore": 73,
+      "name": "香港單車節2026(56公里組)",
+      "distanceM": 54847.3984375,
+      "avgGrade": -0.016773812472820282,
+      "startLat": 22.301021575927734,
+      "startLng": 114.15717315673828
+    },
+    {
+      "id": "8518370",
+      "tileScore": 11,
+      "name": "TKO direct MTB ride to Wah Shan",
+      "distanceM": 42259.80078125,
+      "avgGrade": -0.05300545692443848,
+      "startLat": 22.331056594848633,
+      "startLng": 114.25001525878906
+    },
+    {
+      "id": "3650245",
+      "tileScore": 31,
+      "name": "水源奧",
+      "distanceM": 1549.4327392578125,
+      "avgGrade": 9.016392707824707,
+      "startLat": 22.37732696533203,
+      "startLng": 114.20075225830078
+    },
+    {
+      "id": "2906467",
+      "tileScore": 2,
+      "name": "Lung Yan Rd Climb",
+      "distanceM": 723.8876342773438,
+      "avgGrade": 15.789472579956055,
+      "startLat": 22.359115600585938,
+      "startLng": 114.17510223388672
+    },
+    {
+      "id": "10372340",
+      "tileScore": 42,
+      "name": "大埔道 (大圍積運街斜 - 深水埗嘉頓)",
+      "distanceM": 6815.89990234375,
+      "avgGrade": -0.02200736477971077,
+      "startLat": 22.37148666381836,
+      "startLng": 114.17528533935547
+    },
+    {
+      "id": "38771422",
+      "tileScore": 28,
+      "name": "文禮閣去文化博物館",
+      "distanceM": 599.2000122070312,
+      "avgGrade": 0.23364485800266266,
+      "startLat": 22.37469482421875,
+      "startLng": 114.18111419677734
+    },
+    {
+      "id": "11935059",
+      "tileScore": 40,
+      "name": "Tai Wai to Tai Po",
+      "distanceM": 12323.7001953125,
+      "avgGrade": 0.0032457783818244934,
+      "startLat": 22.3743839263916,
+      "startLng": 114.18074035644531
+    },
+    {
+      "id": "42337234",
+      "tileScore": 15,
+      "name": "T4車公廟站臨時單車徑（東行）",
+      "distanceM": 747.9000244140625,
+      "avgGrade": 0.08022462576627731,
+      "startLat": 22.373903274536133,
+      "startLng": 114.1822280883789
+    },
+    {
+      "id": "16470540",
+      "tileScore": 2,
+      "name": "躍動沙田 - 破風之旅 2017",
+      "distanceM": 13605.599609375,
+      "avgGrade": -0.013229846023023129,
+      "startLat": 22.425277709960938,
+      "startLng": 114.21023559570312
+    },
+    {
+      "id": "2132865",
+      "tileScore": 1,
+      "name": "Che Kung Miu Rd Climb",
+      "distanceM": 2008.046142578125,
+      "avgGrade": 4.023904323577881,
+      "startLat": 22.36924171447754,
+      "startLng": 114.18038177490234
+    },
+    {
+      "id": "42191919",
+      "tileScore": 1,
+      "name": "Kwun Ping Road Upper Road return climb",
+      "distanceM": 544.5999755859375,
+      "avgGrade": 2.276900291442871,
+      "startLat": 22.359346389770508,
+      "startLng": 114.20568084716797
+    },
+    {
+      "id": "12544774",
+      "tileScore": 12,
+      "name": "秦石邨迴旋處到新田圍的士站",
+      "distanceM": 626.0999755859375,
+      "avgGrade": 4.1207475662231445,
+      "startLat": 22.372278213500977,
+      "startLng": 114.18634033203125
+    },
+    {
+      "id": "14076314",
+      "tileScore": 27,
+      "name": "Tai Wai to Tai Po Road Climb ",
+      "distanceM": 483.20001220703125,
+      "avgGrade": 5.877483367919922,
+      "startLat": 22.3715877532959,
+      "startLng": 114.176025390625
+    },
+    {
+      "id": "732595",
+      "tileScore": 24,
+      "name": "觀坪路 Climb",
+      "distanceM": 4328.7900390625,
+      "avgGrade": 10.2384033203125,
+      "startLat": 22.379852294921875,
+      "startLng": 114.21202850341797
+    },
+    {
+      "id": "17249945",
+      "tileScore": 4,
+      "name": "飛鵝觀坪至大圍",
+      "distanceM": 10132.2001953125,
+      "avgGrade": -5.003849029541016,
+      "startLat": 22.354021072387695,
+      "startLng": 114.22044372558594
+    },
+    {
+      "id": "38529917",
+      "tileScore": 16,
+      "name": "Shing Mun Tunnel Under Bridge Straight",
+      "distanceM": 657.9000244140625,
+      "avgGrade": -0.42559659481048584,
+      "startLat": 22.379362106323242,
+      "startLng": 114.1774673461914
+    },
+    {
+      "id": "28280745",
+      "tileScore": 10,
+      "name": "Heritage Museum to Tai Wai Station",
+      "distanceM": 934.5,
+      "avgGrade": 0.3210272789001465,
+      "startLat": 22.37715721130371,
+      "startLng": 114.18648529052734
+    },
+    {
+      "id": "11365344",
+      "tileScore": 19,
+      "name": "Full Sha Tin Heights climb. Flyover to gate.",
+      "distanceM": 1051.800048828125,
+      "avgGrade": 11.0857572555542,
+      "startLat": 22.370824813842773,
+      "startLng": 114.17367553710938
+    },
+    {
+      "id": "5734629",
+      "tileScore": 177,
+      "name": "Tai Po RD Climb ,Zero CP",
+      "distanceM": 3325.89990234375,
+      "avgGrade": 3.1389999389648438,
+      "startLat": 22.371625900268555,
+      "startLng": 114.17455291748047
+    }
+  ]
+}

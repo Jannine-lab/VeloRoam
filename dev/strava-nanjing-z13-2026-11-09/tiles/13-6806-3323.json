@@ -1,0 +1,74 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-08T22:33:02.639Z",
+  "tile": {
+    "z": 13,
+    "x": 6806,
+    "y": 3323
+  },
+  "segments": [
+    {
+      "id": "18421167",
+      "tileScore": 119,
+      "name": "Jurong xibuganxian southward",
+      "distanceM": 17990.599609375,
+      "avgGrade": 0.0266805998980999,
+      "startLat": 32.11002731323242,
+      "startLng": 119.05467224121094
+    },
+    {
+      "id": "39883787",
+      "tileScore": 8,
+      "name": "西部干线环线段 1/2",
+      "distanceM": 39352.30078125,
+      "avgGrade": 0.04472419619560242,
+      "startLat": 32.06488800048828,
+      "startLng": 118.88341522216797
+    },
+    {
+      "id": "36068813",
+      "tileScore": 81,
+      "name": "华山村牌坊出来一路狂飙",
+      "distanceM": 2317.60009765625,
+      "avgGrade": -1.4066275358200073,
+      "startLat": 32.10326385498047,
+      "startLng": 119.10799407958984
+    },
+    {
+      "id": "29906781",
+      "tileScore": 56,
+      "name": "X305: West Avenue of Jurong - 3 fingers lake",
+      "distanceM": 7548.2001953125,
+      "avgGrade": -0.3259055018424988,
+      "startLat": 32.10313415527344,
+      "startLng": 119.10862731933594
+    },
+    {
+      "id": "3484624",
+      "tileScore": 11,
+      "name": "杨柳泉路 Climb",
+      "distanceM": 2680.320068359375,
+      "avgGrade": 7.603626728057861,
+      "startLat": 32.120574951171875,
+      "startLng": 119.08283996582031
+    },
+    {
+      "id": "19558941",
+      "tileScore": 114,
+      "name": "宝华山军禁",
+      "distanceM": 3289,
+      "avgGrade": 7.9051384925842285,
+      "startLat": 32.12128829956055,
+      "startLng": 119.09374237060547
+    },
+    {
+      "id": "36755845",
+      "tileScore": 61,
+      "name": "西部干线+S122宁张线 间歇专线",
+      "distanceM": 33812.30078125,
+      "avgGrade": -0.031053787097334862,
+      "startLat": 32.109764099121094,
+      "startLng": 119.05423736572266
+    }
+  ]
+}

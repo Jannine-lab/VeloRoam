@@ -1,0 +1,20 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-08T22:39:18.186Z",
+  "tile": {
+    "z": 13,
+    "x": 6801,
+    "y": 3340
+  },
+  "segments": [
+    {
+      "id": "10803856",
+      "tileScore": 46,
+      "name": "大利_石臼湖大桥南往北",
+      "distanceM": 12527.7001953125,
+      "avgGrade": 0.027139857411384583,
+      "startLat": 31.42113494873047,
+      "startLng": 118.8885726928711
+    }
+  ]
+}

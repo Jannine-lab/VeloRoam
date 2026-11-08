@@ -1,0 +1,56 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-03T06:01:07.452Z",
+  "tile": {
+    "z": 13,
+    "x": 6855,
+    "y": 3333
+  },
+  "segments": [
+    {
+      "id": "39134616",
+      "tileScore": 2,
+      "name": "陈海公路(宏海公路-太平路)",
+      "distanceM": 6197.2001953125,
+      "avgGrade": 0.00645452830940485,
+      "startLat": 31.744945526123047,
+      "startLng": 121.27171325683594
+    },
+    {
+      "id": "19176722",
+      "tileScore": 2,
+      "name": "IM 70.3 Shanghai full course",
+      "distanceM": 89738.3984375,
+      "avgGrade": 0.009360541589558125,
+      "startLat": 31.749746322631836,
+      "startLng": 121.25502014160156
+    },
+    {
+      "id": "39120133",
+      "tileScore": 1,
+      "name": "宏海公路(庙镇-新海镇)",
+      "distanceM": 16209,
+      "avgGrade": 0.0006169412517920136,
+      "startLat": 31.71405792236328,
+      "startLng": 121.34687042236328
+    },
+    {
+      "id": "10701149",
+      "tileScore": 2,
+      "name": "Chongming Mingzhu Lake2",
+      "distanceM": 6630,
+      "avgGrade": 0.015082957223057747,
+      "startLat": 31.750225067138672,
+      "startLng": 121.25364685058594
+    },
+    {
+      "id": "40311453",
+      "tileScore": 24,
+      "name": "2025 TREK100",
+      "distanceM": 108150.3984375,
+      "avgGrade": -0.006842323578894138,
+      "startLat": 31.624710083007812,
+      "startLng": 121.41840362548828
+    }
+  ]
+}

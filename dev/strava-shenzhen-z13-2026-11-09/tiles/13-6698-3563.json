@@ -1,0 +1,29 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-08T22:49:18.417Z",
+  "tile": {
+    "z": 13,
+    "x": 6698,
+    "y": 3563
+  },
+  "segments": [
+    {
+      "id": "38967675",
+      "tileScore": 1,
+      "name": "go",
+      "distanceM": 13744.400390625,
+      "avgGrade": 0.059660665690898895,
+      "startLat": 22.71860694885254,
+      "startLng": 114.40087127685547
+    },
+    {
+      "id": "42211102",
+      "tileScore": 2,
+      "name": "长喊窝-白坟窝",
+      "distanceM": 3177.10009765625,
+      "avgGrade": 4.500959873199463,
+      "startLat": 22.78864860534668,
+      "startLng": 114.3702163696289
+    }
+  ]
+}

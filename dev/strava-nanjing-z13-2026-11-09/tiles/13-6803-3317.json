@@ -1,0 +1,29 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-08T22:26:44.089Z",
+  "tile": {
+    "z": 13,
+    "x": 6803,
+    "y": 3317
+  },
+  "segments": [
+    {
+      "id": "35588829",
+      "tileScore": 5,
+      "name": "六合东部干线公路八百—太平集段",
+      "distanceM": 13205.5,
+      "avgGrade": 0.0439210943877697,
+      "startLat": 32.43378448486328,
+      "startLng": 118.93644714355469
+    },
+    {
+      "id": "38099781",
+      "tileScore": 7,
+      "name": "黄中—钟林",
+      "distanceM": 5013,
+      "avgGrade": 0.04787552356719971,
+      "startLat": 32.324771881103516,
+      "startLng": 118.98979187011719
+    }
+  ]
+}

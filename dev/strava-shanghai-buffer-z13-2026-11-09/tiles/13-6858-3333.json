@@ -1,0 +1,101 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-03T06:01:11.478Z",
+  "tile": {
+    "z": 13,
+    "x": 6858,
+    "y": 3333
+  },
+  "segments": [
+    {
+      "id": "33166542",
+      "tileScore": 34,
+      "name": "Pigeon-Dragon Port Bridge Sprint (SE-NW)",
+      "distanceM": 511.3999938964844,
+      "avgGrade": 0.899491548538208,
+      "startLat": 31.738964080810547,
+      "startLng": 121.393310546875
+    },
+    {
+      "id": "38948501",
+      "tileScore": 4,
+      "name": "长征公路(新长南路-鸽龙港路)",
+      "distanceM": 5051.7001953125,
+      "avgGrade": 0.007918125949800014,
+      "startLat": 31.72647476196289,
+      "startLng": 121.43297576904297
+    },
+    {
+      "id": "39049795",
+      "tileScore": 13,
+      "name": "北沿公路(鸽龙港路-三双公路)",
+      "distanceM": 5128.2998046875,
+      "avgGrade": -0.011699783615767956,
+      "startLat": 31.750221252441406,
+      "startLng": 121.3885726928711
+    },
+    {
+      "id": "39251458",
+      "tileScore": 59,
+      "name": "IM 70.3 chongming",
+      "distanceM": 89649.796875,
+      "avgGrade": -0.17936459183692932,
+      "startLat": 31.75614356994629,
+      "startLng": 121.39620208740234
+    },
+    {
+      "id": "41259158",
+      "tileScore": 8,
+      "name": "光明田园itt",
+      "distanceM": 6039,
+      "avgGrade": 0.009935420006513596,
+      "startLat": 31.76951789855957,
+      "startLng": 121.38921356201172
+    },
+    {
+      "id": "39035502",
+      "tileScore": 5,
+      "name": "北沿公路(星村公路-鸽龙港路)",
+      "distanceM": 5034.60009765625,
+      "avgGrade": 0.00198625517077744,
+      "startLat": 31.78965187072754,
+      "startLng": 121.36408996582031
+    },
+    {
+      "id": "39769964",
+      "tileScore": 1,
+      "name": "和平中路",
+      "distanceM": 4936.5,
+      "avgGrade": -0.008102906867861748,
+      "startLat": 31.712350845336914,
+      "startLng": 121.36181640625
+    },
+    {
+      "id": "42365089",
+      "tileScore": 71,
+      "name": "2026 TREK100精英组",
+      "distanceM": 94728,
+      "avgGrade": -0.000633392424788326,
+      "startLat": 31.6234073638916,
+      "startLng": 121.42135620117188
+    },
+    {
+      "id": "40311453",
+      "tileScore": 24,
+      "name": "2025 TREK100",
+      "distanceM": 108150.3984375,
+      "avgGrade": -0.006842323578894138,
+      "startLat": 31.624710083007812,
+      "startLng": 121.41840362548828
+    },
+    {
+      "id": "37963663",
+      "tileScore": 35,
+      "name": "Beiyan Rd（chongming10.13race）",
+      "distanceM": 7546.39990234375,
+      "avgGrade": -0.01325135212391615,
+      "startLat": 31.71924591064453,
+      "startLng": 121.4225082397461
+    }
+  ]
+}

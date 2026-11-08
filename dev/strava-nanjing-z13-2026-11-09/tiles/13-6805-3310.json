@@ -1,0 +1,20 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-08T22:25:51.552Z",
+  "tile": {
+    "z": 13,
+    "x": 6805,
+    "y": 3310
+  },
+  "segments": [
+    {
+      "id": "36642968",
+      "tileScore": 3,
+      "name": "金集—仁和集",
+      "distanceM": 9205.900390625,
+      "avgGrade": -0.08798705041408539,
+      "startLat": 32.56390380859375,
+      "startLng": 119.06363677978516
+    }
+  ]
+}

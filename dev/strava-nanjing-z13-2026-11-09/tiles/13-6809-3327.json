@@ -1,0 +1,29 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-08T22:34:43.050Z",
+  "tile": {
+    "z": 13,
+    "x": 6809,
+    "y": 3327
+  },
+  "segments": [
+    {
+      "id": "40069759",
+      "tileScore": 2,
+      "name": "邹巷村起伏路（W-E）",
+      "distanceM": 3719.89990234375,
+      "avgGrade": 0.02150595374405384,
+      "startLat": 31.938060760498047,
+      "startLng": 119.24169921875
+    },
+    {
+      "id": "29908164",
+      "tileScore": 27,
+      "name": "S243 from Jurong",
+      "distanceM": 20347,
+      "avgGrade": -0.01769302599132061,
+      "startLat": 31.9627628326416,
+      "startLng": 119.20352172851562
+    }
+  ]
+}

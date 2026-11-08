@@ -1,0 +1,110 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-03T06:09:32.917Z",
+  "tile": {
+    "z": 13,
+    "x": 6856,
+    "y": 3352
+  },
+  "segments": [
+    {
+      "id": "30564398",
+      "tileScore": 15,
+      "name": "FMG-09",
+      "distanceM": 2810.39990234375,
+      "avgGrade": 0.06404782086610794,
+      "startLat": 30.997798919677734,
+      "startLng": 121.30182647705078
+    },
+    {
+      "id": "11388190",
+      "tileScore": 19,
+      "name": "Minyi Rd (North-East Bound)",
+      "distanceM": 2409.199951171875,
+      "avgGrade": -0.016603022813796997,
+      "startLat": 31.041240692138672,
+      "startLng": 121.28103637695312
+    },
+    {
+      "id": "30477437",
+      "tileScore": 19,
+      "name": "北松公路shortTT",
+      "distanceM": 2922,
+      "avgGrade": -0.06160164624452591,
+      "startLat": 31.026386260986328,
+      "startLng": 121.35037231445312
+    },
+    {
+      "id": "24880886",
+      "tileScore": 22,
+      "name": "车墩最后一哆嗦",
+      "distanceM": 1330.4000244140625,
+      "avgGrade": 0.02254960872232914,
+      "startLat": 31.015457153320312,
+      "startLng": 121.30194091796875
+    },
+    {
+      "id": "13917180",
+      "tileScore": 3,
+      "name": "北松公路至松江",
+      "distanceM": 4290.7998046875,
+      "avgGrade": 0.05127249285578728,
+      "startLat": 31.016141891479492,
+      "startLng": 121.30204772949219
+    },
+    {
+      "id": "40505559",
+      "tileScore": 8,
+      "name": "Shengang Factories",
+      "distanceM": 4970.5,
+      "avgGrade": -0.0442611388862133,
+      "startLat": 31.016748428344727,
+      "startLng": 121.32125091552734
+    },
+    {
+      "id": "30564546",
+      "tileScore": 3,
+      "name": "FMG-23",
+      "distanceM": 35947.6015625,
+      "avgGrade": 0.02837463468313217,
+      "startLat": 31.019447326660156,
+      "startLng": 121.3215560913086
+    },
+    {
+      "id": "34393102",
+      "tileScore": 17,
+      "name": "Cheting Hwy N-S",
+      "distanceM": 13921,
+      "avgGrade": -0.017240140587091446,
+      "startLat": 31.015979766845703,
+      "startLng": 121.30183410644531
+    },
+    {
+      "id": "30564384",
+      "tileScore": 17,
+      "name": "FMG-08",
+      "distanceM": 6086.7001953125,
+      "avgGrade": 0.016429264098405838,
+      "startLat": 31.052913665771484,
+      "startLng": 121.30116271972656
+    },
+    {
+      "id": "37389921",
+      "tileScore": 12,
+      "name": "北松公路地道",
+      "distanceM": 501.1000061035156,
+      "avgGrade": -0.4390341341495514,
+      "startLat": 31.015968322753906,
+      "startLng": 121.32112884521484
+    },
+    {
+      "id": "30258926",
+      "tileScore": 14,
+      "name": "Shulin Road",
+      "distanceM": 1275.9000244140625,
+      "avgGrade": 0.05486323684453964,
+      "startLat": 31.04282569885254,
+      "startLng": 121.3241958618164
+    }
+  ]
+}

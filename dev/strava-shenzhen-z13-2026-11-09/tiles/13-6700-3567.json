@@ -1,0 +1,65 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-08T22:50:44.626Z",
+  "tile": {
+    "z": 13,
+    "x": 6700,
+    "y": 3567
+  },
+  "segments": [
+    {
+      "id": "3207367",
+      "tileScore": 4,
+      "name": "迭福山隧道 Climb",
+      "distanceM": 821.77392578125,
+      "avgGrade": 23.159303665161133,
+      "startLat": 22.59844207763672,
+      "startLng": 114.4496078491211
+    },
+    {
+      "id": "37178284",
+      "tileScore": 8,
+      "name": "鹏飞路热身",
+      "distanceM": 4955,
+      "avgGrade": -1.2956609725952148,
+      "startLat": 22.602806091308594,
+      "startLng": 114.45875549316406
+    },
+    {
+      "id": "22410792",
+      "tileScore": 37,
+      "name": "迭福路（回程下坡）（Descent ->>LPG Station ）",
+      "distanceM": 2138.199951171875,
+      "avgGrade": -3.3299036026000977,
+      "startLat": 22.601720809936523,
+      "startLng": 114.4560546875
+    },
+    {
+      "id": "33393193",
+      "tileScore": 16,
+      "name": "波老师赛段：坝光之约（去程）",
+      "distanceM": 7012.2001953125,
+      "avgGrade": 0.24243460595607758,
+      "startLat": 22.630859375,
+      "startLng": 114.43318939208984
+    },
+    {
+      "id": "40145875",
+      "tileScore": 20,
+      "name": "杨梅坑回程大坡",
+      "distanceM": 1426.0999755859375,
+      "avgGrade": 2.9801557064056396,
+      "startLat": 22.596906661987305,
+      "startLng": 114.47127532958984
+    },
+    {
+      "id": "11131712",
+      "tileScore": 8,
+      "name": "Gaoyuan to Gaoling climbing",
+      "distanceM": 2825.199951171875,
+      "avgGrade": 3.10066556930542,
+      "startLat": 22.63066291809082,
+      "startLng": 114.43353271484375
+    }
+  ]
+}

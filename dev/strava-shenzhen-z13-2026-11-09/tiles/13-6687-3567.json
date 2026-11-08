@@ -1,0 +1,65 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-08T22:50:24.050Z",
+  "tile": {
+    "z": 13,
+    "x": 6687,
+    "y": 3567
+  },
+  "segments": [
+    {
+      "id": "22621250",
+      "tileScore": 9,
+      "name": "Wolang East Way Sprint",
+      "distanceM": 2777.10009765625,
+      "avgGrade": 0.34568434953689575,
+      "startLat": 22.603864669799805,
+      "startLng": 113.8919677734375
+    },
+    {
+      "id": "12570192",
+      "tileScore": 4,
+      "name": "國道107 > 長安水站",
+      "distanceM": 33858,
+      "avgGrade": -0.01535826176404953,
+      "startLat": 22.543325424194336,
+      "startLng": 113.91828155517578
+    },
+    {
+      "id": "38713981",
+      "tileScore": 21,
+      "name": "广泰路缓坡",
+      "distanceM": 799.5,
+      "avgGrade": 1.6260161399841309,
+      "startLat": 22.594303131103516,
+      "startLng": 113.90010070800781
+    },
+    {
+      "id": "38148791",
+      "tileScore": 17,
+      "name": "铁岗水库南至北",
+      "distanceM": 2266.699951171875,
+      "avgGrade": 0.1588211953639984,
+      "startLat": 22.61536407470703,
+      "startLng": 113.87887573242188
+    },
+    {
+      "id": "38626084",
+      "tileScore": 9,
+      "name": "GuangshenSouth",
+      "distanceM": 6893.10009765625,
+      "avgGrade": -0.03481742739677429,
+      "startLat": 22.640840530395508,
+      "startLng": 113.83305358886719
+    },
+    {
+      "id": "38198843",
+      "tileScore": 8,
+      "name": "107-出深圳记",
+      "distanceM": 52876.3984375,
+      "avgGrade": -0.03366341069340706,
+      "startLat": 22.576610565185547,
+      "startLng": 114.11041259765625
+    }
+  ]
+}

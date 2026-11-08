@@ -1,0 +1,56 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-08T22:48:40.377Z",
+  "tile": {
+    "z": 13,
+    "x": 6691,
+    "y": 3562
+  },
+  "segments": [
+    {
+      "id": "37542887",
+      "tileScore": 1,
+      "name": "一路畅通",
+      "distanceM": 3024.199951171875,
+      "avgGrade": -0.31082600355148315,
+      "startLat": 22.803760528564453,
+      "startLng": 114.04107666015625
+    },
+    {
+      "id": "42233718",
+      "tileScore": 10,
+      "name": "宝山龙潭尾climb",
+      "distanceM": 1763,
+      "avgGrade": 3.4826998710632324,
+      "startLat": 22.826946258544922,
+      "startLng": 114.03763580322266
+    },
+    {
+      "id": "6903154",
+      "tileScore": 2,
+      "name": "Tangxia YingBin Rd. East - factory workers collision avoidance segment",
+      "distanceM": 3154.300048828125,
+      "avgGrade": -0.053894683718681335,
+      "startLat": 22.811429977416992,
+      "startLng": 114.06001281738281
+    },
+    {
+      "id": "41211892",
+      "tileScore": 80,
+      "name": "龙林辅道单圈",
+      "distanceM": 5376.2001953125,
+      "avgGrade": -0.0037200995720922947,
+      "startLat": 22.83014678955078,
+      "startLng": 114.06396484375
+    },
+    {
+      "id": "39551667",
+      "tileScore": 2,
+      "name": "肾虚西瓜不太行",
+      "distanceM": 3397.60009765625,
+      "avgGrade": 0.36496350169181824,
+      "startLat": 22.807085037231445,
+      "startLng": 114.06490325927734
+    }
+  ]
+}

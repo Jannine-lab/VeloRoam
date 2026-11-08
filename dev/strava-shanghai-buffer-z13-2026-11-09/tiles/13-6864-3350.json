@@ -1,0 +1,173 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-03T06:08:09.571Z",
+  "tile": {
+    "z": 13,
+    "x": 6864,
+    "y": 3350
+  },
+  "segments": [
+    {
+      "id": "40273772",
+      "tileScore": 12,
+      "name": "大直路回家",
+      "distanceM": 6341.2998046875,
+      "avgGrade": 0.0031539276242256165,
+      "startLat": 31.07023811340332,
+      "startLng": 121.68597412109375
+    },
+    {
+      "id": "14901990",
+      "tileScore": 6,
+      "name": "米老鼠绕圈AtB",
+      "distanceM": 4945.7998046875,
+      "avgGrade": 0.004043835215270519,
+      "startLat": 31.13778305053711,
+      "startLng": 121.68108367919922
+    },
+    {
+      "id": "40262073",
+      "tileScore": 1,
+      "name": "Bei的连民湖畔绕圈",
+      "distanceM": 3942.60009765625,
+      "avgGrade": -0.040582358837127686,
+      "startLat": 31.086021423339844,
+      "startLng": 121.68710327148438
+    },
+    {
+      "id": "40267076",
+      "tileScore": 2,
+      "name": "孙桥蒋桥村村通",
+      "distanceM": 16826.19921875,
+      "avgGrade": -0.03090418502688408,
+      "startLat": 31.180830001831055,
+      "startLng": 121.63630676269531
+    },
+    {
+      "id": "13011992",
+      "tileScore": 2,
+      "name": "Jinqiao to Disney and back",
+      "distanceM": 42188.80078125,
+      "avgGrade": 0.00521465390920639,
+      "startLat": 31.235240936279297,
+      "startLng": 121.5843734741211
+    },
+    {
+      "id": "37740506",
+      "tileScore": 2,
+      "name": "六奉-下盐-申江-周邓-20公里环线",
+      "distanceM": 19860,
+      "avgGrade": -0.0015105740167200565,
+      "startLat": 31.125120162963867,
+      "startLng": 121.66925811767578
+    },
+    {
+      "id": "35170184",
+      "tileScore": 8,
+      "name": "半个俄罗斯方块",
+      "distanceM": 26143.30078125,
+      "avgGrade": 0.011475215665996075,
+      "startLat": 31.18340492248535,
+      "startLng": 121.61776733398438
+    },
+    {
+      "id": "10392643",
+      "tileScore": 2,
+      "name": "Darth Vadars Roller",
+      "distanceM": 3402.5,
+      "avgGrade": 0.008817045949399471,
+      "startLat": 31.12225914001465,
+      "startLng": 121.63301086425781
+    },
+    {
+      "id": "41945494",
+      "tileScore": 10,
+      "name": "Kangqiao Kicker",
+      "distanceM": 35387.6015625,
+      "avgGrade": -0.0022606789134442806,
+      "startLat": 31.137094497680664,
+      "startLng": 121.5704116821289
+    },
+    {
+      "id": "34434069",
+      "tileScore": 3,
+      "name": "Liufeng Highway Final",
+      "distanceM": 1990.5999755859375,
+      "avgGrade": -0.15070833265781403,
+      "startLat": 31.114585876464844,
+      "startLng": 121.67352294921875
+    },
+    {
+      "id": "27401582",
+      "tileScore": 8,
+      "name": "DP Airport Loop part 1",
+      "distanceM": 38720,
+      "avgGrade": 0.004648760426789522,
+      "startLat": 31.236400604248047,
+      "startLng": 121.59383392333984
+    },
+    {
+      "id": "32014390",
+      "tileScore": 96,
+      "name": "sh1t street",
+      "distanceM": 703.5,
+      "avgGrade": 0,
+      "startLat": 31.092931747436523,
+      "startLng": 121.6413803100586
+    },
+    {
+      "id": "42079725",
+      "tileScore": 3,
+      "name": "Markus Bruengger (R.I.P. | G.O.A.T.) Memory Ride",
+      "distanceM": 64397.30078125,
+      "avgGrade": -0.006522012874484062,
+      "startLat": 31.224090576171875,
+      "startLng": 121.55386352539062
+    },
+    {
+      "id": "11729711",
+      "tileScore": 122,
+      "name": "Aaaaarrghhhh going east",
+      "distanceM": 479.20001220703125,
+      "avgGrade": 1.3772954940795898,
+      "startLat": 31.12324333190918,
+      "startLng": 121.6482162475586
+    },
+    {
+      "id": "37728160",
+      "tileScore": 13,
+      "name": "唐黄路冲刺",
+      "distanceM": 1266.5999755859375,
+      "avgGrade": -0.0631612166762352,
+      "startLat": 31.138153076171875,
+      "startLng": 121.68089294433594
+    },
+    {
+      "id": "35927579",
+      "tileScore": 4,
+      "name": "金桥-滴水湖-云山路绕圈",
+      "distanceM": 150058.90625,
+      "avgGrade": 0.0018659341149032116,
+      "startLat": 31.22467041015625,
+      "startLng": 121.62055969238281
+    },
+    {
+      "id": "12528381",
+      "tileScore": 1,
+      "name": "Zhou Zhu Gong Road west bound (From Jianshe road to Shenjiang road)",
+      "distanceM": 5689.5,
+      "avgGrade": -0.003515247255563736,
+      "startLat": 31.118873596191406,
+      "startLng": 121.69569396972656
+    },
+    {
+      "id": "32373051",
+      "tileScore": 98,
+      "name": "S. Shenjiang rd part 2",
+      "distanceM": 4288.10009765625,
+      "avgGrade": -0.032648492604494095,
+      "startLat": 31.070541381835938,
+      "startLng": 121.64200592041016
+    }
+  ]
+}

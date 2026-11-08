@@ -1,0 +1,65 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-03T06:04:58.252Z",
+  "tile": {
+    "z": 13,
+    "x": 6861,
+    "y": 3343
+  },
+  "segments": [
+    {
+      "id": "32683119",
+      "tileScore": 4,
+      "name": "Sea Wall",
+      "distanceM": 1408,
+      "avgGrade": 0.05681817978620529,
+      "startLat": 31.377668380737305,
+      "startLng": 121.5571517944336
+    },
+    {
+      "id": "39421184",
+      "tileScore": 11,
+      "name": "Shuangjiang Rd Southbound",
+      "distanceM": 1624.300048828125,
+      "avgGrade": -0.0738779753446579,
+      "startLat": 31.380891799926758,
+      "startLng": 121.54303741455078
+    },
+    {
+      "id": "37543481",
+      "tileScore": 1,
+      "name": "港城路冲向渡口#y",
+      "distanceM": 4617.2001953125,
+      "avgGrade": -0.04764792323112488,
+      "startLat": 31.354433059692383,
+      "startLng": 121.5528793334961
+    },
+    {
+      "id": "32747574",
+      "tileScore": 5,
+      "name": "Top sprint",
+      "distanceM": 1720.4000244140625,
+      "avgGrade": -0.011625203303992748,
+      "startLat": 31.363664627075195,
+      "startLng": 121.5498275756836
+    },
+    {
+      "id": "38065203",
+      "tileScore": 4,
+      "name": "suitang hwy+",
+      "distanceM": 2284.800048828125,
+      "avgGrade": 0.017507003620266914,
+      "startLat": 31.380525588989258,
+      "startLng": 121.54352569580078
+    },
+    {
+      "id": "32683111",
+      "tileScore": 17,
+      "name": "Forest Road",
+      "distanceM": 2203.5,
+      "avgGrade": 0.02722940780222416,
+      "startLat": 31.381046295166016,
+      "startLng": 121.54305267333984
+    }
+  ]
+}

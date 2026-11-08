@@ -1,0 +1,47 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-08T22:36:57.748Z",
+  "tile": {
+    "z": 13,
+    "x": 6802,
+    "y": 3332
+  },
+  "segments": [
+    {
+      "id": "38853249",
+      "tileScore": 5,
+      "name": "G104-石臼湖",
+      "distanceM": 51589.5,
+      "avgGrade": -0.022679032757878304,
+      "startLat": 31.94593048095703,
+      "startLng": 118.90949249267578
+    },
+    {
+      "id": "33232348",
+      "tileScore": 20,
+      "name": "S246 South to North",
+      "distanceM": 21439.099609375,
+      "avgGrade": -0.05503962188959122,
+      "startLat": 31.700870513916016,
+      "startLng": 119.04415130615234
+    },
+    {
+      "id": "36885591",
+      "tileScore": 1,
+      "name": "Off 柘宁西路 to 龙袜路",
+      "distanceM": 11071.2001953125,
+      "avgGrade": -0.09935688972473145,
+      "startLat": 31.76178741455078,
+      "startLng": 118.91180419921875
+    },
+    {
+      "id": "36919508",
+      "tileScore": 15,
+      "name": "有狗路（害怕）",
+      "distanceM": 4402.60009765625,
+      "avgGrade": -0.02271384932100773,
+      "startLat": 31.79077911376953,
+      "startLng": 118.89906311035156
+    }
+  ]
+}

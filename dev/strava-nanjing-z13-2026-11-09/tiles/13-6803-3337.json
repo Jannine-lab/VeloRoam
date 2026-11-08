@@ -1,0 +1,65 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-08T22:38:06.128Z",
+  "tile": {
+    "z": 13,
+    "x": 6803,
+    "y": 3337
+  },
+  "segments": [
+    {
+      "id": "19305235",
+      "tileScore": 1,
+      "name": "18K in between the hills (ToL-2018)",
+      "distanceM": 18212.5,
+      "avgGrade": 0.010432395152747631,
+      "startLat": 31.59682273864746,
+      "startLng": 119.02420043945312
+    },
+    {
+      "id": "39175122",
+      "tileScore": 43,
+      "name": "环山-无想山西冲破",
+      "distanceM": 606.7000122070312,
+      "avgGrade": 2.3405308723449707,
+      "startLat": 31.60572624206543,
+      "startLng": 118.99075317382812
+    },
+    {
+      "id": "39051044",
+      "tileScore": 21,
+      "name": "环无想山赛段",
+      "distanceM": 24712.400390625,
+      "avgGrade": 0.017400171607732773,
+      "startLat": 31.60159683227539,
+      "startLng": 119.06743621826172
+    },
+    {
+      "id": "40319092",
+      "tileScore": 10,
+      "name": "悦居至蒲塘 ",
+      "distanceM": 7996.7001953125,
+      "avgGrade": -0.11004538834095001,
+      "startLat": 31.63779640197754,
+      "startLng": 119.01093292236328
+    },
+    {
+      "id": "20979509",
+      "tileScore": 4,
+      "name": "20181111环溧水自行车赛 Lishui Criterium",
+      "distanceM": 139486.90625,
+      "avgGrade": 0.00444486178457737,
+      "startLat": 31.613245010375977,
+      "startLng": 119.02008056640625
+    },
+    {
+      "id": "39988087",
+      "tileScore": 4,
+      "name": "郭兴庄园骑游环线",
+      "distanceM": 13761.2001953125,
+      "avgGrade": 0.016713658347725868,
+      "startLat": 31.590219497680664,
+      "startLng": 118.99111938476562
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-03T06:09:48.949Z",
+  "tile": {
+    "z": 13,
+    "x": 6854,
+    "y": 3353
+  },
+  "segments": [
+    {
+      "id": "21927227",
+      "tileScore": 2,
+      "name": "TheNewElevatedWestBound",
+      "distanceM": 2420.199951171875,
+      "avgGrade": -0.07437402009963989,
+      "startLat": 30.98154067993164,
+      "startLng": 121.25799560546875
+    },
+    {
+      "id": "30259022",
+      "tileScore": 2,
+      "name": "Songhui Dong Road",
+      "distanceM": 2636.5,
+      "avgGrade": 0.17826664447784424,
+      "startLat": 31.00472068786621,
+      "startLng": 121.26019287109375
+    },
+    {
+      "id": "35706644",
+      "tileScore": 7,
+      "name": "闵塔二连击",
+      "distanceM": 1798.9000244140625,
+      "avgGrade": -0.15565067529678345,
+      "startLat": 30.981670379638672,
+      "startLng": 121.2353286743164
+    },
+    {
+      "id": "32907919",
+      "tileScore": 3,
+      "name": "申嘉湖高速冲两冲",
+      "distanceM": 9174.900390625,
+      "avgGrade": -0.013079160824418068,
+      "startLat": 30.981382369995117,
+      "startLng": 121.18412780761719
+    },
+    {
+      "id": "30281823",
+      "tileScore": 1,
+      "name": "FNC-006",
+      "distanceM": 2477.5,
+      "avgGrade": 0.032290615141391754,
+      "startLat": 30.995651245117188,
+      "startLng": 121.23717498779297
+    }
+  ]
+}

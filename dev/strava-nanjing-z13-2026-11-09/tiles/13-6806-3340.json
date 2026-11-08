@@ -1,0 +1,29 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-08T22:39:25.902Z",
+  "tile": {
+    "z": 13,
+    "x": 6806,
+    "y": 3340
+  },
+  "segments": [
+    {
+      "id": "19291926",
+      "tileScore": 33,
+      "name": "cd-S246晶桥路口到孔枫线",
+      "distanceM": 5110.60009765625,
+      "avgGrade": 0.1291433423757553,
+      "startLat": 31.541797637939453,
+      "startLng": 119.07705688476562
+    },
+    {
+      "id": "20979509",
+      "tileScore": 4,
+      "name": "20181111环溧水自行车赛 Lishui Criterium",
+      "distanceM": 139486.90625,
+      "avgGrade": 0.00444486178457737,
+      "startLat": 31.613245010375977,
+      "startLng": 119.02008056640625
+    }
+  ]
+}

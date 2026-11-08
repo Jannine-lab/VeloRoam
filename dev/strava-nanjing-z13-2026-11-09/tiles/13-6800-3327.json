@@ -1,0 +1,47 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-08T22:34:53.446Z",
+  "tile": {
+    "z": 13,
+    "x": 6800,
+    "y": 3327
+  },
+  "segments": [
+    {
+      "id": "36079191",
+      "tileScore": 7,
+      "name": "2024元旦100km骑行",
+      "distanceM": 88661.296875,
+      "avgGrade": 0.01646716333925724,
+      "startLat": 32.070831298828125,
+      "startLng": 118.81453704833984
+    },
+    {
+      "id": "36885605",
+      "tileScore": 22,
+      "name": "Y851 Northeast",
+      "distanceM": 2742.60009765625,
+      "avgGrade": 0.09115438163280487,
+      "startLat": 31.967500686645508,
+      "startLng": 118.82235717773438
+    },
+    {
+      "id": "38054783",
+      "tileScore": 7,
+      "name": "Qinhuai River west",
+      "distanceM": 3337.800048828125,
+      "avgGrade": -0.04194379597902298,
+      "startLat": 32.009220123291016,
+      "startLng": 118.82412719726562
+    },
+    {
+      "id": "12076911",
+      "tileScore": 9,
+      "name": "104go",
+      "distanceM": 3080.199951171875,
+      "avgGrade": -0.13635478913784027,
+      "startLat": 31.954713821411133,
+      "startLng": 118.81587982177734
+    }
+  ]
+}

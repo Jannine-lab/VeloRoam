@@ -1,0 +1,20 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-03T05:57:37.679Z",
+  "tile": {
+    "z": 13,
+    "x": 6847,
+    "y": 3329
+  },
+  "segments": [
+    {
+      "id": "36291813",
+      "tileScore": 7,
+      "name": "Laohonggang Inner Lap ",
+      "distanceM": 2644.800048828125,
+      "avgGrade": 0.01512401644140482,
+      "startLat": 31.878820419311523,
+      "startLng": 120.942626953125
+    }
+  ]
+}

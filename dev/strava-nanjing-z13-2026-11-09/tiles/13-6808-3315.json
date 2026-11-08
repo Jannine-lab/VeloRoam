@@ -1,0 +1,29 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-08T22:26:20.214Z",
+  "tile": {
+    "z": 13,
+    "x": 6808,
+    "y": 3315
+  },
+  "segments": [
+    {
+      "id": "37401401",
+      "tileScore": 73,
+      "name": "蚂蚁山爬坡W-E",
+      "distanceM": 2932.199951171875,
+      "avgGrade": 1.6983834505081177,
+      "startLat": 32.427242279052734,
+      "startLng": 119.21208190917969
+    },
+    {
+      "id": "37401281",
+      "tileScore": 41,
+      "name": "高营村爬坡",
+      "distanceM": 601,
+      "avgGrade": 2.6289517879486084,
+      "startLat": 32.417694091796875,
+      "startLng": 119.19095611572266
+    }
+  ]
+}

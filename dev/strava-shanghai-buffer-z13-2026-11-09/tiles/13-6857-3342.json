@@ -1,0 +1,101 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-03T06:04:25.062Z",
+  "tile": {
+    "z": 13,
+    "x": 6857,
+    "y": 3342
+  },
+  "segments": [
+    {
+      "id": "34771167",
+      "tileScore": 45,
+      "name": "Mei Lan Golf---Fuyuan Road🐸",
+      "distanceM": 2429.199951171875,
+      "avgGrade": -0.04939898103475571,
+      "startLat": 31.394489288330078,
+      "startLng": 121.36299133300781
+    },
+    {
+      "id": "34444000",
+      "tileScore": 17,
+      "name": "沪太路（宝安公路-宝钱公路）",
+      "distanceM": 11832.2998046875,
+      "avgGrade": -0.01605774089694023,
+      "startLat": 31.36224937438965,
+      "startLng": 121.37135314941406
+    },
+    {
+      "id": "37134597",
+      "tileScore": 8,
+      "name": "江杨南北and keep riding",
+      "distanceM": 28191.19921875,
+      "avgGrade": -0.014898266643285751,
+      "startLat": 31.322021484375,
+      "startLng": 121.46370697021484
+    },
+    {
+      "id": "39551329",
+      "tileScore": 12,
+      "name": "回月罗",
+      "distanceM": 2652,
+      "avgGrade": 0,
+      "startLat": 31.428699493408203,
+      "startLng": 121.33226776123047
+    },
+    {
+      "id": "34771267",
+      "tileScore": 113,
+      "name": "Mei Lan Golf⛳ Panjing Road 🐸",
+      "distanceM": 2420.699951171875,
+      "avgGrade": 0.07435865700244904,
+      "startLat": 31.417530059814453,
+      "startLng": 121.36334991455078
+    },
+    {
+      "id": "32905291",
+      "tileScore": 120,
+      "name": "Mei Lan Golf Circle",
+      "distanceM": 7007.7998046875,
+      "avgGrade": -0.048517365008592606,
+      "startLat": 31.393991470336914,
+      "startLng": 121.36316680908203
+    },
+    {
+      "id": "42029082",
+      "tileScore": 2,
+      "name": "乡间小路",
+      "distanceM": 1548.199951171875,
+      "avgGrade": 0.07750936597585678,
+      "startLat": 31.428499221801758,
+      "startLng": 121.38209533691406
+    },
+    {
+      "id": "27202541",
+      "tileScore": 7,
+      "name": "Panjing grand straight road",
+      "distanceM": 15455.5,
+      "avgGrade": -0.016822488978505135,
+      "startLat": 31.48887825012207,
+      "startLng": 121.32933807373047
+    },
+    {
+      "id": "6971115",
+      "tileScore": 5,
+      "name": "Panjing Rd x Qihe River Bridge (Southbound)",
+      "distanceM": 269.6000061035156,
+      "avgGrade": 0.5192878246307373,
+      "startLat": 31.426532745361328,
+      "startLng": 121.35957336425781
+    },
+    {
+      "id": "33252822",
+      "tileScore": 29,
+      "name": "Hutai Hwy Sprint (West Meilan Lake) S-N",
+      "distanceM": 653.5,
+      "avgGrade": 0.061208877712488174,
+      "startLat": 31.397581100463867,
+      "startLng": 121.35012817382812
+    }
+  ]
+}

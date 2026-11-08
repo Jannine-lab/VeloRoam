@@ -1,0 +1,38 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-03T06:11:10.259Z",
+  "tile": {
+    "z": 13,
+    "x": 6855,
+    "y": 3355
+  },
+  "segments": [
+    {
+      "id": "41527929",
+      "tileScore": 18,
+      "name": "ZQCC火箭助推",
+      "distanceM": 5359.39990234375,
+      "avgGrade": 0.26868680119514465,
+      "startLat": 30.916030883789062,
+      "startLng": 121.26268768310547
+    },
+    {
+      "id": "36399181",
+      "tileScore": 28,
+      "name": "送一个拉爆",
+      "distanceM": 16154.5,
+      "avgGrade": 0,
+      "startLat": 30.80158233642578,
+      "startLng": 121.30693054199219
+    },
+    {
+      "id": "41243237",
+      "tileScore": 52,
+      "name": "金山速霸！",
+      "distanceM": 45272.6015625,
+      "avgGrade": -0.032690852880477905,
+      "startLat": 30.98211669921875,
+      "startLng": 121.37222290039062
+    }
+  ]
+}

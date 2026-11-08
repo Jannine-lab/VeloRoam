@@ -1,0 +1,20 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-08T22:48:16.541Z",
+  "tile": {
+    "z": 13,
+    "x": 6702,
+    "y": 3560
+  },
+  "segments": [
+    {
+      "id": "38155044",
+      "tileScore": 5,
+      "name": "山河城至沙田单程",
+      "distanceM": 11934.7998046875,
+      "avgGrade": 0.21449877321720123,
+      "startLat": 22.8872127532959,
+      "startLng": 114.50511932373047
+    }
+  ]
+}

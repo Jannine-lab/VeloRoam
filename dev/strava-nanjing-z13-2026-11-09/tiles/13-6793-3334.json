@@ -1,0 +1,20 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-08T22:37:36.429Z",
+  "tile": {
+    "z": 13,
+    "x": 6793,
+    "y": 3334
+  },
+  "segments": [
+    {
+      "id": "36635079",
+      "tileScore": 3,
+      "name": "THE EVANDRO'S LAKE",
+      "distanceM": 733.2999877929688,
+      "avgGrade": 0.5727533102035522,
+      "startLat": 31.687103271484375,
+      "startLng": 118.55866241455078
+    }
+  ]
+}

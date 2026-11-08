@@ -1,0 +1,308 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-08T22:51:48.832Z",
+  "tile": {
+    "z": 13,
+    "x": 6691,
+    "y": 3571
+  },
+  "segments": [
+    {
+      "id": "18780311",
+      "tileScore": 42,
+      "name": "衝入南生圍",
+      "distanceM": 358.29998779296875,
+      "avgGrade": -0.837287187576294,
+      "startLat": 22.44562530517578,
+      "startLng": 114.04850006103516
+    },
+    {
+      "id": "14194849",
+      "tileScore": 4,
+      "name": "牛潭尾路口到大迴旋處",
+      "distanceM": 845.2000122070312,
+      "avgGrade": -0.2602934241294861,
+      "startLat": 22.478591918945312,
+      "startLng": 114.0582504272461
+    },
+    {
+      "id": "10837225",
+      "tileScore": 14,
+      "name": "*五柳路 > 南生圍入口",
+      "distanceM": 8678.7001953125,
+      "avgGrade": -0.0483943447470665,
+      "startLat": 22.42234230041504,
+      "startLng": 113.98533630371094
+    },
+    {
+      "id": "15924290",
+      "tileScore": 8,
+      "name": "錦綉花園大道",
+      "distanceM": 374.6000061035156,
+      "avgGrade": -0.21356113255023956,
+      "startLat": 22.471288681030273,
+      "startLng": 114.05449676513672
+    },
+    {
+      "id": "14495115",
+      "tileScore": 26,
+      "name": "壆圍跑道",
+      "distanceM": 2039.199951171875,
+      "avgGrade": 0.0980776697397232,
+      "startLat": 22.468341827392578,
+      "startLng": 114.04781341552734
+    },
+    {
+      "id": "34655767",
+      "tileScore": 7,
+      "name": "downhill !!!",
+      "distanceM": 740.7999877929688,
+      "avgGrade": -5.534557342529297,
+      "startLat": 22.470861434936523,
+      "startLng": 114.07630157470703
+    },
+    {
+      "id": "17124740",
+      "tileScore": 5,
+      "name": "Riverside sprint",
+      "distanceM": 1474.699951171875,
+      "avgGrade": 0.48823490738868713,
+      "startLat": 22.4389705657959,
+      "startLng": 114.0704116821289
+    },
+    {
+      "id": "22941094",
+      "tileScore": 8,
+      "name": "Airfield Riverside Westbound",
+      "distanceM": 1571.9000244140625,
+      "avgGrade": -1.1514726877212524,
+      "startLat": 22.433122634887695,
+      "startLng": 114.08728790283203
+    },
+    {
+      "id": "23074702",
+      "tileScore": 2,
+      "name": "Fung Kat Heung CP Single Trail  - South",
+      "distanceM": 2106,
+      "avgGrade": 0.5033238530158997,
+      "startLat": 22.458263397216797,
+      "startLng": 114.05899047851562
+    },
+    {
+      "id": "6512131",
+      "tileScore": 149,
+      "name": "Nam Sang Wai Rd (In)",
+      "distanceM": 4230,
+      "avgGrade": 0.002364066196605563,
+      "startLat": 22.452804565429688,
+      "startLng": 114.0474853515625
+    },
+    {
+      "id": "17124704",
+      "tileScore": 9,
+      "name": "Kam Po rd to mtr station",
+      "distanceM": 530.7999877929688,
+      "avgGrade": -0.07535795122385025,
+      "startLat": 22.4393253326416,
+      "startLng": 114.05975341796875
+    },
+    {
+      "id": "11118673",
+      "tileScore": 19,
+      "name": "Kam Tai Rd Sprint",
+      "distanceM": 1278.699951171875,
+      "avgGrade": -0.23461328446865082,
+      "startLat": 22.442617416381836,
+      "startLng": 114.08311462402344
+    },
+    {
+      "id": "11166547",
+      "tileScore": 10,
+      "name": "Park Vista Blvd",
+      "distanceM": 740.4000244140625,
+      "avgGrade": 0.5942733287811279,
+      "startLat": 22.452302932739258,
+      "startLng": 114.05504608154297
+    },
+    {
+      "id": "33877200",
+      "tileScore": 27,
+      "name": "康城大冷",
+      "distanceM": 130482.203125,
+      "avgGrade": 0,
+      "startLat": 22.29688835144043,
+      "startLng": 114.26518249511719
+    },
+    {
+      "id": "12255452",
+      "tileScore": 16,
+      "name": "錦泰路2",
+      "distanceM": 929.7000122070312,
+      "avgGrade": 0.021512316539883614,
+      "startLat": 22.442373275756836,
+      "startLng": 114.06104278564453
+    },
+    {
+      "id": "13902317",
+      "tileScore": 17,
+      "name": "Kam Pok Road (West) Sprint",
+      "distanceM": 563.7999877929688,
+      "avgGrade": -0.2483150064945221,
+      "startLat": 22.46931266784668,
+      "startLng": 114.0486831665039
+    },
+    {
+      "id": "16237279",
+      "tileScore": 14,
+      "name": "上村至元朗",
+      "distanceM": 6656.39990234375,
+      "avgGrade": -0.5438375473022461,
+      "startLat": 22.431499481201172,
+      "startLng": 114.10427856445312
+    },
+    {
+      "id": "26035297",
+      "tileScore": 22,
+      "name": "博愛-雙魚河跳上跳落左穿右插單車徑(on9先踩)",
+      "distanceM": 12141.7001953125,
+      "avgGrade": -0.013177727349102497,
+      "startLat": 22.44454574584961,
+      "startLng": 114.0413818359375
+    },
+    {
+      "id": "11291810",
+      "tileScore": 18,
+      "name": "Castle Peak Road - Tam Mi (Hung Mo Kiu to Fairview Roundabout)",
+      "distanceM": 2323.10009765625,
+      "avgGrade": -0.025827556848526,
+      "startLat": 22.45136070251465,
+      "startLng": 114.05007934570312
+    },
+    {
+      "id": "6165615",
+      "tileScore": 13,
+      "name": "Kam Tin Road Climb",
+      "distanceM": 855.9000244140625,
+      "avgGrade": 15.445730209350586,
+      "startLat": 22.440099716186523,
+      "startLng": 114.07296752929688
+    },
+    {
+      "id": "35753201",
+      "tileScore": 18,
+      "name": "kam tai test",
+      "distanceM": 900.4000244140625,
+      "avgGrade": -0.4442470073699951,
+      "startLat": 22.442279815673828,
+      "startLng": 114.0699234008789
+    },
+    {
+      "id": "34419804",
+      "tileScore": 3,
+      "name": "Kam Shui South Road towards Kam Tin",
+      "distanceM": 1682.699951171875,
+      "avgGrade": -0.5823973417282104,
+      "startLat": 22.427642822265625,
+      "startLng": 114.08232879638672
+    },
+    {
+      "id": "3425002",
+      "tileScore": 4,
+      "name": "Fan Kam Road Climb",
+      "distanceM": 2098.659912109375,
+      "avgGrade": 12.96578598022461,
+      "startLat": 22.46344757080078,
+      "startLng": 114.06916046142578
+    },
+    {
+      "id": "34223693",
+      "tileScore": 5,
+      "name": "yuen long to tai po twin bridge",
+      "distanceM": 34870.8984375,
+      "avgGrade": -0.013765059411525726,
+      "startLat": 22.444385528564453,
+      "startLng": 114.04415893554688
+    },
+    {
+      "id": "36106399",
+      "tileScore": 9,
+      "name": "NSW - SHAN SHING",
+      "distanceM": 90205.8984375,
+      "avgGrade": -0.013968043960630894,
+      "startLat": 22.44609260559082,
+      "startLng": 114.04883575439453
+    },
+    {
+      "id": "30501197",
+      "tileScore": 37,
+      "name": "NSW last sprint (一開二至彎位完)",
+      "distanceM": 512.7999877929688,
+      "avgGrade": -0.1950078010559082,
+      "startLat": 22.458187103271484,
+      "startLng": 114.04589080810547
+    },
+    {
+      "id": "16964750",
+      "tileScore": 5,
+      "name": "Pok Wai W Rd westbound",
+      "distanceM": 859.9000244140625,
+      "avgGrade": -0.6047214865684509,
+      "startLat": 22.46223258972168,
+      "startLng": 114.05281829833984
+    },
+    {
+      "id": "1004360",
+      "tileScore": 209,
+      "name": "fishpond boomerang",
+      "distanceM": 8366.0703125,
+      "avgGrade": -0.023906001821160316,
+      "startLat": 22.452613830566406,
+      "startLng": 114.0474853515625
+    },
+    {
+      "id": "38840312",
+      "tileScore": 22,
+      "name": "The GT ",
+      "distanceM": 95767,
+      "avgGrade": 0.04740672558546066,
+      "startLat": 22.326505661010742,
+      "startLng": 114.15650939941406
+    },
+    {
+      "id": "5013272",
+      "tileScore": 4,
+      "name": "青公(潭尾油站-馬會高球)",
+      "distanceM": 10170.5,
+      "avgGrade": 0.04326237365603447,
+      "startLat": 22.46607208251953,
+      "startLng": 114.05384063720703
+    },
+    {
+      "id": "31122213",
+      "tileScore": 2,
+      "name": "元朗博愛至洪水橋繞道",
+      "distanceM": 5637.5,
+      "avgGrade": 0.07095343619585037,
+      "startLat": 22.443941116333008,
+      "startLng": 114.0422134399414
+    },
+    {
+      "id": "2649462",
+      "tileScore": 1,
+      "name": "Fung Kat Heung Rd Climb",
+      "distanceM": 3496.25244140625,
+      "avgGrade": 15.511126518249512,
+      "startLat": 22.446922302246094,
+      "startLng": 114.0647201538086
+    },
+    {
+      "id": "2499018",
+      "tileScore": 31,
+      "name": "Kam Tin River splint",
+      "distanceM": 1280.6800537109375,
+      "avgGrade": 0,
+      "startLat": 22.442773818969727,
+      "startLng": 114.06021881103516
+    }
+  ]
+}

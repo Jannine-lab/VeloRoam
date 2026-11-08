@@ -1,0 +1,20 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-08T22:38:14.583Z",
+  "tile": {
+    "z": 13,
+    "x": 6809,
+    "y": 3337
+  },
+  "segments": [
+    {
+      "id": "34326951",
+      "tileScore": 2,
+      "name": "G104 N-S（瓦屋山线-S341）",
+      "distanceM": 7680.39990234375,
+      "avgGrade": -0.4687255620956421,
+      "startLat": 31.624094009399414,
+      "startLng": 119.2357406616211
+    }
+  ]
+}

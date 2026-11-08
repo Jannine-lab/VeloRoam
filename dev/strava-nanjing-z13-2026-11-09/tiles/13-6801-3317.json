@@ -1,0 +1,20 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-08T22:26:44.089Z",
+  "tile": {
+    "z": 13,
+    "x": 6801,
+    "y": 3317
+  },
+  "segments": [
+    {
+      "id": "37012102",
+      "tileScore": 6,
+      "name": "八百河的大直道冲刺",
+      "distanceM": 1396.5,
+      "avgGrade": 0.2005012482404709,
+      "startLat": 32.34943389892578,
+      "startLng": 118.85784149169922
+    }
+  ]
+}

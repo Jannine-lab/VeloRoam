@@ -1,0 +1,263 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-03T06:08:00.541Z",
+  "tile": {
+    "z": 13,
+    "x": 6853,
+    "y": 3349
+  },
+  "segments": [
+    {
+      "id": "30074980",
+      "tileScore": 15,
+      "name": "LG-06",
+      "distanceM": 4054.800048828125,
+      "avgGrade": -0.044391829520463943,
+      "startLat": 31.162960052490234,
+      "startLng": 121.1835708618164
+    },
+    {
+      "id": "30384821",
+      "tileScore": 3,
+      "name": "THL-4",
+      "distanceM": 116824.5,
+      "avgGrade": -0.0025679543614387512,
+      "startLat": 31.206161499023438,
+      "startLng": 121.28252410888672
+    },
+    {
+      "id": "40911482",
+      "tileScore": 15,
+      "name": "青浦【淀浦河～嘉松中路】",
+      "distanceM": 6497,
+      "avgGrade": 0.05848852917551994,
+      "startLat": 31.15151023864746,
+      "startLng": 121.15534210205078
+    },
+    {
+      "id": "24845912",
+      "tileScore": 21,
+      "name": "李琦晟自行车劝退一疗程",
+      "distanceM": 20250,
+      "avgGrade": -0.008888889104127884,
+      "startLat": 31.15504264831543,
+      "startLng": 121.23126220703125
+    },
+    {
+      "id": "27327753",
+      "tileScore": 1,
+      "name": "Shanghai Tour de France 上海环法 - Morteau-Belfort",
+      "distanceM": 3073.800048828125,
+      "avgGrade": 0.061812739819288254,
+      "startLat": 31.134260177612305,
+      "startLng": 121.19072723388672
+    },
+    {
+      "id": "38897849",
+      "tileScore": 1,
+      "name": "公制世纪 - KOM",
+      "distanceM": 101772.296875,
+      "avgGrade": -0.0031442742329090834,
+      "startLat": 31.17006492614746,
+      "startLng": 121.2751235961914
+    },
+    {
+      "id": "29418735",
+      "tileScore": 2,
+      "name": "JR&Des@CN-007",
+      "distanceM": 25046,
+      "avgGrade": -0.031541962176561356,
+      "startLat": 31.155345916748047,
+      "startLng": 121.22297668457031
+    },
+    {
+      "id": "27743438",
+      "tileScore": 4,
+      "name": "Cemetery 2 SRC",
+      "distanceM": 56811.30078125,
+      "avgGrade": 0,
+      "startLat": 31.20186996459961,
+      "startLng": 121.27755737304688
+    },
+    {
+      "id": "11580195",
+      "tileScore": 10,
+      "name": "You Dun Port Bridge (Westbound)",
+      "distanceM": 353.8999938964844,
+      "avgGrade": -0.8759536743164062,
+      "startLat": 31.150440216064453,
+      "startLng": 121.16046142578125
+    },
+    {
+      "id": "12774864",
+      "tileScore": 21,
+      "name": "Under the Expressway",
+      "distanceM": 348.1000061035156,
+      "avgGrade": 0.028727378696203232,
+      "startLat": 31.14042854309082,
+      "startLng": 121.19200134277344
+    },
+    {
+      "id": "34348432",
+      "tileScore": 4,
+      "name": "T bridge Qingpu",
+      "distanceM": 1459.0999755859375,
+      "avgGrade": 0,
+      "startLat": 31.163660049438477,
+      "startLng": 121.18537139892578
+    },
+    {
+      "id": "8274275",
+      "tileScore": 6,
+      "name": "Songhualu (HuQingPing->Songze)",
+      "distanceM": 3084.60009765625,
+      "avgGrade": -0.05835440754890442,
+      "startLat": 31.149059295654297,
+      "startLng": 121.16690826416016
+    },
+    {
+      "id": "19707966",
+      "tileScore": 23,
+      "name": "huaying bride eastbound",
+      "distanceM": 629.5,
+      "avgGrade": 1.143764853477478,
+      "startLat": 31.162948608398438,
+      "startLng": 121.15325927734375
+    },
+    {
+      "id": "27307749",
+      "tileScore": 25,
+      "name": "BTP-CN-005",
+      "distanceM": 2999.699951171875,
+      "avgGrade": -0.020002000033855438,
+      "startLat": 31.16628074645996,
+      "startLng": 121.2191162109375
+    },
+    {
+      "id": "30074936",
+      "tileScore": 23,
+      "name": "LG-03",
+      "distanceM": 14774.2001953125,
+      "avgGrade": 0.028427934274077415,
+      "startLat": 31.1706485748291,
+      "startLng": 121.23775482177734
+    },
+    {
+      "id": "30281829",
+      "tileScore": 5,
+      "name": "FNC-007",
+      "distanceM": 22714.19921875,
+      "avgGrade": 0.0017610129434615374,
+      "startLat": 30.96060562133789,
+      "startLng": 121.1836929321289
+    },
+    {
+      "id": "37027201",
+      "tileScore": 7,
+      "name": "ER speedy circuit ",
+      "distanceM": 75940.3984375,
+      "avgGrade": -0.010534577071666718,
+      "startLat": 31.1991024017334,
+      "startLng": 121.27393341064453
+    },
+    {
+      "id": "42345837",
+      "tileScore": 23,
+      "name": "6哥带你刷两山",
+      "distanceM": 52786.69921875,
+      "avgGrade": -0.002652183175086975,
+      "startLat": 31.17475128173828,
+      "startLng": 121.30008697509766
+    },
+    {
+      "id": "37724746",
+      "tileScore": 8,
+      "name": "青浦快运",
+      "distanceM": 66769.3984375,
+      "avgGrade": -0.013179689645767212,
+      "startLat": 31.176237106323242,
+      "startLng": 121.27295684814453
+    },
+    {
+      "id": "37629512",
+      "tileScore": 60,
+      "name": "老周又㕛叒开始上课了！",
+      "distanceM": 5439.10009765625,
+      "avgGrade": 0.06618741899728775,
+      "startLat": 31.115156173706055,
+      "startLng": 121.20030212402344
+    },
+    {
+      "id": "37264917",
+      "tileScore": 45,
+      "name": "吸溜儿上去40巡破风了！",
+      "distanceM": 2312.800048828125,
+      "avgGrade": -0.008647526614367962,
+      "startLat": 31.11322784423828,
+      "startLng": 121.20147705078125
+    },
+    {
+      "id": "22068484",
+      "tileScore": 8,
+      "name": "G318 上海-湖州",
+      "distanceM": 133169.203125,
+      "avgGrade": -0.002553143072873354,
+      "startLat": 31.17106056213379,
+      "startLng": 121.32220458984375
+    },
+    {
+      "id": "32687190",
+      "tileScore": 4,
+      "name": "Dianpu short riverside",
+      "distanceM": 1576.5999755859375,
+      "avgGrade": -0.02537105232477188,
+      "startLat": 31.139244079589844,
+      "startLng": 121.19075775146484
+    },
+    {
+      "id": "29367868",
+      "tileScore": 10,
+      "name": "BTP-202",
+      "distanceM": 2577.199951171875,
+      "avgGrade": -0.06208288297057152,
+      "startLat": 31.147977828979492,
+      "startLng": 121.16964721679688
+    },
+    {
+      "id": "32687235",
+      "tileScore": 1,
+      "name": "Forest Qingpu",
+      "distanceM": 3254.89990234375,
+      "avgGrade": -0.006144581828266382,
+      "startLat": 31.144729614257812,
+      "startLng": 121.17549133300781
+    },
+    {
+      "id": "27327757",
+      "tileScore": 8,
+      "name": "Shanghai Tour de France 上海环法 - Full Tour (100km)",
+      "distanceM": 100065.796875,
+      "avgGrade": 0.002498356159776449,
+      "startLat": 31.153793334960938,
+      "startLng": 121.20298767089844
+    },
+    {
+      "id": "37654724",
+      "tileScore": 3,
+      "name": "佘山到盘龙的冲刺 1",
+      "distanceM": 20402.69921875,
+      "avgGrade": -0.0009802624117583036,
+      "startLat": 31.094135284423828,
+      "startLng": 121.1690902709961
+    },
+    {
+      "id": "30129394",
+      "tileScore": 36,
+      "name": "沪渝高速大桥",
+      "distanceM": 822.7999877929688,
+      "avgGrade": -0.19445794820785522,
+      "startLat": 31.140687942504883,
+      "startLng": 121.1688461303711
+    }
+  ]
+}

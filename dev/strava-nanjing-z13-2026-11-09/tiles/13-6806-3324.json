@@ -1,0 +1,110 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-08T22:34:32.707Z",
+  "tile": {
+    "z": 13,
+    "x": 6806,
+    "y": 3324
+  },
+  "segments": [
+    {
+      "id": "39883787",
+      "tileScore": 8,
+      "name": "西部干线环线段 1/2",
+      "distanceM": 39352.30078125,
+      "avgGrade": 0.04472419619560242,
+      "startLat": 32.06488800048828,
+      "startLng": 118.88341522216797
+    },
+    {
+      "id": "35274156",
+      "tileScore": 83,
+      "name": "西部干线 6 连坡之 NO.4",
+      "distanceM": 1105.800048828125,
+      "avgGrade": 3.6625068187713623,
+      "startLat": 32.10117721557617,
+      "startLng": 119.11100006103516
+    },
+    {
+      "id": "35188459",
+      "tileScore": 11,
+      "name": "胄王村-上窑湾-越野路线",
+      "distanceM": 4068.699951171875,
+      "avgGrade": 0.31951236724853516,
+      "startLat": 32.08551788330078,
+      "startLng": 119.12190246582031
+    },
+    {
+      "id": "18421167",
+      "tileScore": 119,
+      "name": "Jurong xibuganxian southward",
+      "distanceM": 17990.599609375,
+      "avgGrade": 0.0266805998980999,
+      "startLat": 32.11002731323242,
+      "startLng": 119.05467224121094
+    },
+    {
+      "id": "40029843",
+      "tileScore": 18,
+      "name": "wahoo最喜欢的gravel route",
+      "distanceM": 6432.89990234375,
+      "avgGrade": 0.6839838624000549,
+      "startLat": 32.11640930175781,
+      "startLng": 119.16658020019531
+    },
+    {
+      "id": "35281654",
+      "tileScore": 74,
+      "name": "西部干线 6 连坡之 NO.6",
+      "distanceM": 558.9000244140625,
+      "avgGrade": 0.5188763737678528,
+      "startLat": 32.074867248535156,
+      "startLng": 119.13396453857422
+    },
+    {
+      "id": "36755845",
+      "tileScore": 61,
+      "name": "西部干线+S122宁张线 间歇专线",
+      "distanceM": 33812.30078125,
+      "avgGrade": -0.031053787097334862,
+      "startLat": 32.109764099121094,
+      "startLng": 119.05423736572266
+    },
+    {
+      "id": "18421249",
+      "tileScore": 111,
+      "name": "Jurong xibuganxian sprint1",
+      "distanceM": 7115.89990234375,
+      "avgGrade": -1.135485291481018,
+      "startLat": 32.0698356628418,
+      "startLng": 119.13545227050781
+    },
+    {
+      "id": "35281650",
+      "tileScore": 68,
+      "name": "西部干线 6 连坡之 NO.5",
+      "distanceM": 636.5,
+      "avgGrade": 2.1052632331848145,
+      "startLat": 32.082069396972656,
+      "startLng": 119.12511444091797
+    },
+    {
+      "id": "33782813",
+      "tileScore": 71,
+      "name": "西部干线 水库往汤山下坡",
+      "distanceM": 2567.5,
+      "avgGrade": -1.4488801956176758,
+      "startLat": 32.07018280029297,
+      "startLng": 119.1352767944336
+    },
+    {
+      "id": "30558677",
+      "tileScore": 72,
+      "name": "西部干线itt突围之旅",
+      "distanceM": 11787.2998046875,
+      "avgGrade": -0.4988419711589813,
+      "startLat": 32.0999641418457,
+      "startLng": 119.11231994628906
+    }
+  ]
+}

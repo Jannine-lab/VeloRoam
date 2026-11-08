@@ -1,0 +1,29 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-08T22:26:13.601Z",
+  "tile": {
+    "z": 13,
+    "x": 6802,
+    "y": 3312
+  },
+  "segments": [
+    {
+      "id": "33293880",
+      "tileScore": 5,
+      "name": "郑四路北往南",
+      "distanceM": 8849.5,
+      "avgGrade": 0.20227131247520447,
+      "startLat": 32.59023666381836,
+      "startLng": 118.94335174560547
+    },
+    {
+      "id": "37042755",
+      "tileScore": 7,
+      "name": "六合北部干线东端长坡",
+      "distanceM": 3092.5,
+      "avgGrade": 0.9409862756729126,
+      "startLat": 32.50890350341797,
+      "startLng": 118.97827911376953
+    }
+  ]
+}

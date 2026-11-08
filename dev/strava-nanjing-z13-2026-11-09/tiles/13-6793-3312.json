@@ -1,0 +1,29 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-08T22:26:09.144Z",
+  "tile": {
+    "z": 13,
+    "x": 6793,
+    "y": 3312
+  },
+  "segments": [
+    {
+      "id": "33189956",
+      "tileScore": 4,
+      "name": "岭凹路口—龙山",
+      "distanceM": 7659.10009765625,
+      "avgGrade": 0.2337089329957962,
+      "startLat": 32.50706100463867,
+      "startLng": 118.62550354003906
+    },
+    {
+      "id": "34446864",
+      "tileScore": 1,
+      "name": "张施路张龙段东往西",
+      "distanceM": 6523.5,
+      "avgGrade": 0.21154288947582245,
+      "startLat": 32.510841369628906,
+      "startLng": 118.55818176269531
+    }
+  ]
+}

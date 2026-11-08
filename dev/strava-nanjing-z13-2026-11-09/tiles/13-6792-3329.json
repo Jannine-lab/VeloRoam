@@ -1,0 +1,38 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-08T22:35:20.135Z",
+  "tile": {
+    "z": 13,
+    "x": 6792,
+    "y": 3329
+  },
+  "segments": [
+    {
+      "id": "38604179",
+      "tileScore": 24,
+      "name": "Z娃娃直达乌江",
+      "distanceM": 46539.5,
+      "avgGrade": 0.01246253214776516,
+      "startLat": 32.0407600402832,
+      "startLng": 118.65608978271484
+    },
+    {
+      "id": "38404825",
+      "tileScore": 34,
+      "name": "微风：乌江彩虹河堤N-S",
+      "distanceM": 2316.800048828125,
+      "avgGrade": 0.008632596582174301,
+      "startLat": 31.88652801513672,
+      "startLng": 118.51924896240234
+    },
+    {
+      "id": "8895021",
+      "tileScore": 1,
+      "name": "lozho_浦口至乌江",
+      "distanceM": 22185.900390625,
+      "avgGrade": 0,
+      "startLat": 32.031639099121094,
+      "startLng": 118.60091400146484
+    }
+  ]
+}

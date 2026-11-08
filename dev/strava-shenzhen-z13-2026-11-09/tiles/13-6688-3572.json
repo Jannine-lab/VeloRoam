@@ -1,0 +1,74 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-08T22:51:39.760Z",
+  "tile": {
+    "z": 13,
+    "x": 6688,
+    "y": 3572
+  },
+  "segments": [
+    {
+      "id": "1866881",
+      "tileScore": 14,
+      "name": "Tuen Mun to Lung Kwu Tan (Full)",
+      "distanceM": 10108.279296875,
+      "avgGrade": 0.08211074024438858,
+      "startLat": 22.37584114074707,
+      "startLng": 113.95995330810547
+    },
+    {
+      "id": "757151",
+      "tileScore": 4,
+      "name": "Nim Wan Road Back",
+      "distanceM": 1210.1700439453125,
+      "avgGrade": 4.4455461502075195,
+      "startLat": 22.418142318725586,
+      "startLng": 113.92394256591797
+    },
+    {
+      "id": "1491781",
+      "tileScore": 12,
+      "name": "Black Point Power Plant climb",
+      "distanceM": 1201.31005859375,
+      "avgGrade": 7.4669108390808105,
+      "startLat": 22.40220069885254,
+      "startLng": 113.9170150756836
+    },
+    {
+      "id": "8329269",
+      "tileScore": 4,
+      "name": "Landfill Dash",
+      "distanceM": 2048,
+      "avgGrade": -0.0830078125,
+      "startLat": 22.420032501220703,
+      "startLng": 113.93856048583984
+    },
+    {
+      "id": "14261098",
+      "tileScore": 12,
+      "name": "菠蘿山入口至下白泥出口",
+      "distanceM": 3807.5,
+      "avgGrade": -0.963887095451355,
+      "startLat": 22.404626846313477,
+      "startLng": 113.95901489257812
+    },
+    {
+      "id": "2935509",
+      "tileScore": 2,
+      "name": "Nim Wan Rd Climb",
+      "distanceM": 1049.611572265625,
+      "avgGrade": 8.803353309631348,
+      "startLat": 22.42167854309082,
+      "startLng": 113.94104766845703
+    },
+    {
+      "id": "6446857",
+      "tileScore": 2,
+      "name": "Tin King Road Climb",
+      "distanceM": 1249.300048828125,
+      "avgGrade": 11.926678657531738,
+      "startLat": 22.407459259033203,
+      "startLng": 113.94293212890625
+    }
+  ]
+}

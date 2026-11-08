@@ -1,0 +1,83 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-08T23:02:08.656Z",
+  "tile": {
+    "z": 13,
+    "x": 6866,
+    "y": 3348
+  },
+  "segments": [
+    {
+      "id": "34714589",
+      "tileScore": 49,
+      "name": "🌲🌲🌲 Seawall Plus iTT",
+      "distanceM": 2150.60009765625,
+      "avgGrade": -0.046498652547597885,
+      "startLat": 31.2117977142334,
+      "startLng": 121.76439666748047
+    },
+    {
+      "id": "39760643",
+      "tileScore": 51,
+      "name": "华洲路-川南奉-华夏东路-海滨路",
+      "distanceM": 7625.60009765625,
+      "avgGrade": -0.005245489068329334,
+      "startLat": 31.19892120361328,
+      "startLng": 121.73493957519531
+    },
+    {
+      "id": "41273309",
+      "tileScore": 21,
+      "name": "人民塘路北段",
+      "distanceM": 10043.099609375,
+      "avgGrade": -0.01593133620917797,
+      "startLat": 31.27474021911621,
+      "startLng": 121.71453857421875
+    },
+    {
+      "id": "42191774",
+      "tileScore": 1,
+      "name": "河滨北路itt",
+      "distanceM": 2223.300048828125,
+      "avgGrade": -0.05397382378578186,
+      "startLat": 31.179845809936523,
+      "startLng": 121.78453826904297
+    },
+    {
+      "id": "3527112",
+      "tileScore": 26,
+      "name": "Huaxia East Rd Turn off to Huazhou Rd Sprint",
+      "distanceM": 1104.1043701171875,
+      "avgGrade": -0.027171451598405838,
+      "startLat": 31.21072769165039,
+      "startLng": 121.7565689086914
+    },
+    {
+      "id": "39326041",
+      "tileScore": 5,
+      "name": "SUPER C的训练赛段(晚上十点你还会爱我吗)",
+      "distanceM": 31948.099609375,
+      "avgGrade": -0.005634137894958258,
+      "startLat": 31.1982364654541,
+      "startLng": 121.73193359375
+    },
+    {
+      "id": "40794634",
+      "tileScore": 15,
+      "name": "润川路绕圈",
+      "distanceM": 2732.39990234375,
+      "avgGrade": 0.03659786283969879,
+      "startLat": 31.191511154174805,
+      "startLng": 121.72564697265625
+    },
+    {
+      "id": "27401582",
+      "tileScore": 6,
+      "name": "DP Airport Loop part 1",
+      "distanceM": 38720,
+      "avgGrade": 0.004648760426789522,
+      "startLat": 31.236400604248047,
+      "startLng": 121.59383392333984
+    }
+  ]
+}

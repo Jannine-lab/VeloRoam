@@ -1,0 +1,182 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-08T22:52:38.257Z",
+  "tile": {
+    "z": 13,
+    "x": 6692,
+    "y": 3574
+  },
+  "segments": [
+    {
+      "id": "14089180",
+      "tileScore": 145,
+      "name": "Terminal Sprint - Full Out",
+      "distanceM": 1842.800048828125,
+      "avgGrade": -0.06511829793453217,
+      "startLat": 22.32291030883789,
+      "startLng": 114.12255859375
+    },
+    {
+      "id": "10063927",
+      "tileScore": 110,
+      "name": "貨櫃碼頭南路",
+      "distanceM": 2554.39990234375,
+      "avgGrade": -0.03914813697338104,
+      "startLat": 22.331422805786133,
+      "startLng": 114.13394165039062
+    },
+    {
+      "id": "36755267",
+      "tileScore": 5,
+      "name": "一腳觀塘至轉車站 [Fung]",
+      "distanceM": 29225,
+      "avgGrade": 0.00889649335294962,
+      "startLat": 22.312467575073242,
+      "startLng": 114.2257080078125
+    },
+    {
+      "id": "37936643",
+      "tileScore": 47,
+      "name": "單車節 蜆殼油庫 Descent",
+      "distanceM": 901.9000244140625,
+      "avgGrade": -2.461470365524292,
+      "startLat": 22.346418380737305,
+      "startLng": 114.08899688720703
+    },
+    {
+      "id": "7204518",
+      "tileScore": 52,
+      "name": "貨碼南路-北行",
+      "distanceM": 4136.7998046875,
+      "avgGrade": 0.04351189360022545,
+      "startLat": 22.32952308654785,
+      "startLng": 114.14360046386719
+    },
+    {
+      "id": "37936535",
+      "tileScore": 68,
+      "name": "單車節 長青橋 Descent",
+      "distanceM": 846.5,
+      "avgGrade": -1.7011222839355469,
+      "startLat": 22.351783752441406,
+      "startLng": 114.11775207519531
+    },
+    {
+      "id": "37936539",
+      "tileScore": 76,
+      "name": "單車節 青葵公路3號碼頭 Descent",
+      "distanceM": 655.7000122070312,
+      "avgGrade": -1.769101858139038,
+      "startLat": 22.341758728027344,
+      "startLng": 114.1303939819336
+    },
+    {
+      "id": "42358983",
+      "tileScore": 73,
+      "name": "香港單車節2026(56公里組)",
+      "distanceM": 54847.3984375,
+      "avgGrade": -0.016773812472820282,
+      "startLat": 22.301021575927734,
+      "startLng": 114.15717315673828
+    },
+    {
+      "id": "16207728",
+      "tileScore": 68,
+      "name": "HKC 2nd climb",
+      "distanceM": 1444,
+      "avgGrade": 1.481994390487671,
+      "startLat": 22.34433937072754,
+      "startLng": 114.12648010253906
+    },
+    {
+      "id": "13282345",
+      "tileScore": 113,
+      "name": "Stonecutters Bridge up",
+      "distanceM": 2904.5,
+      "avgGrade": 1.6319503784179688,
+      "startLat": 22.341310501098633,
+      "startLng": 114.09736633300781
+    },
+    {
+      "id": "35776864",
+      "tileScore": 12,
+      "name": "南昌<>沙倉",
+      "distanceM": 38325.69921875,
+      "avgGrade": -0.018786350265145302,
+      "startLat": 22.327791213989258,
+      "startLng": 114.15133666992188
+    },
+    {
+      "id": "30882562",
+      "tileScore": 3,
+      "name": "Tricky Back Climb DACC (Fire Station - Top)",
+      "distanceM": 967.2000122070312,
+      "avgGrade": 4.332092761993408,
+      "startLat": 22.336929321289062,
+      "startLng": 114.09358978271484
+    },
+    {
+      "id": "19140861",
+      "tileScore": 109,
+      "name": "單車節南灣山口-尖山入口",
+      "distanceM": 7096.39990234375,
+      "avgGrade": 0.11836987733840942,
+      "startLat": 22.334211349487305,
+      "startLng": 114.10755157470703
+    },
+    {
+      "id": "28927934",
+      "tileScore": 14,
+      "name": "DACC DarkArt Ching Yi Roller v.1",
+      "distanceM": 9924.900390625,
+      "avgGrade": -0.5068060755729675,
+      "startLat": 22.344135284423828,
+      "startLng": 114.10836791992188
+    },
+    {
+      "id": "42171808",
+      "tileScore": 120,
+      "name": "Tsing Kwai Highway",
+      "distanceM": 7442.10009765625,
+      "avgGrade": 0.09405946731567383,
+      "startLat": 22.314916610717773,
+      "startLng": 114.16082763671875
+    },
+    {
+      "id": "36106399",
+      "tileScore": 9,
+      "name": "NSW - SHAN SHING",
+      "distanceM": 90205.8984375,
+      "avgGrade": -0.013968043960630894,
+      "startLat": 22.44609260559082,
+      "startLng": 114.04883575439453
+    },
+    {
+      "id": "1147096",
+      "tileScore": 6,
+      "name": "Tsing Yi Rd Climb",
+      "distanceM": 649.2490234375,
+      "avgGrade": 12.985213279724121,
+      "startLat": 22.331628799438477,
+      "startLng": 114.11078643798828
+    },
+    {
+      "id": "14513477",
+      "tileScore": 13,
+      "name": "Frist Half ",
+      "distanceM": 1338.199951171875,
+      "avgGrade": 4.4836344718933105,
+      "startLat": 22.329978942871094,
+      "startLng": 114.10453796386719
+    },
+    {
+      "id": "1760053",
+      "tileScore": 138,
+      "name": "Nam Wan Tunnel Climb",
+      "distanceM": 851.8056640625,
+      "avgGrade": 28.410425186157227,
+      "startLat": 22.34348487854004,
+      "startLng": 114.09416961669922
+    }
+  ]
+}

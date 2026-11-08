@@ -1,0 +1,29 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-08T23:01:06.453Z",
+  "tile": {
+    "z": 13,
+    "x": 6850,
+    "y": 3363
+  },
+  "segments": [
+    {
+      "id": "10522807",
+      "tileScore": 3,
+      "name": "lozho_2015马自骑余杭至上海",
+      "distanceM": 110540.203125,
+      "avgGrade": -0.014112512581050396,
+      "startLat": 30.393516540527344,
+      "startLng": 120.34187316894531
+    },
+    {
+      "id": "13715792",
+      "tileScore": 8,
+      "name": "Tour of Jiaxing 2016",
+      "distanceM": 136646.203125,
+      "avgGrade": 0.008196349255740643,
+      "startLat": 30.74317169189453,
+      "startLng": 120.83653259277344
+    }
+  ]
+}

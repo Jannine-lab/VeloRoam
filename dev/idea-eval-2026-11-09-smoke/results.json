@@ -1,0 +1,120 @@
+[
+  {
+    "id": "distance-20",
+    "category": "distance",
+    "split": "development",
+    "repeat": 1,
+    "passed": false,
+    "turns": [
+      {
+        "idea": "我想骑20公里",
+        "expected": {
+          "fields": {
+            "contextIntent.targetKm": 20,
+            "contextIntent.requestType": "route"
+          }
+        },
+        "status": 502,
+        "durationMs": 150,
+        "checks": [
+          {
+            "name": "valid_response",
+            "passed": false
+          },
+          {
+            "name": "field:contextIntent.targetKm",
+            "passed": false,
+            "expected": 20
+          },
+          {
+            "name": "field:contextIntent.requestType",
+            "passed": false,
+            "expected": "route"
+          }
+        ],
+        "response": {
+          "error": "推荐暂时不可用，请稍后重试。",
+          "meta": {
+            "requestId": "f4c5bbce-3a63-4e18-ae23-5f68a08c2f8b",
+            "promptVersion": "idea-2026-11-09.v1",
+            "model": "deepseek-chat",
+            "modelCalls": 1,
+            "inputTokens": 0,
+            "outputTokens": 0,
+            "modelDurationMs": 114,
+            "elapsedMs": 139,
+            "toolCalls": []
+          },
+          "contextIntent": null,
+          "placeContext": null
+        }
+      }
+    ]
+  },
+  {
+    "id": "lookup-segment",
+    "category": "lookup",
+    "split": "holdout",
+    "repeat": 1,
+    "passed": false,
+    "turns": [
+      {
+        "idea": "介绍一下滨江练习段",
+        "expected": {
+          "fields": {},
+          "candidateIds": [
+            "segment:101"
+          ],
+          "toolAnyOf": [
+            "search_candidates"
+          ],
+          "noRoute": true
+        },
+        "status": 502,
+        "durationMs": 9,
+        "checks": [
+          {
+            "name": "valid_response",
+            "passed": false
+          },
+          {
+            "name": "candidate_identity",
+            "passed": false,
+            "expected": [
+              "segment:101"
+            ],
+            "actual": []
+          },
+          {
+            "name": "tool_selection",
+            "passed": false,
+            "expected": [
+              "search_candidates"
+            ],
+            "actual": []
+          },
+          {
+            "name": "no_fabricated_route",
+            "passed": true
+          }
+        ],
+        "response": {
+          "error": "推荐暂时不可用，请稍后重试。",
+          "meta": {
+            "requestId": "d027a27c-dcce-45d3-b8af-e58c3e6cfe6a",
+            "promptVersion": "idea-2026-11-09.v1",
+            "model": "deepseek-chat",
+            "modelCalls": 1,
+            "inputTokens": 0,
+            "outputTokens": 0,
+            "modelDurationMs": 5,
+            "elapsedMs": 8,
+            "toolCalls": []
+          },
+          "contextIntent": null,
+          "placeContext": null
+        }
+      }
+    ]
+  }
+]

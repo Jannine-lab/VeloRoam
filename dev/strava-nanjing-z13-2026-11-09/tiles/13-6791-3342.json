@@ -1,0 +1,20 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-08T22:40:03.438Z",
+  "tile": {
+    "z": 13,
+    "x": 6791,
+    "y": 3342
+  },
+  "segments": [
+    {
+      "id": "32629328",
+      "tileScore": 3,
+      "name": "南阳路到大青山",
+      "distanceM": 14070.2001953125,
+      "avgGrade": -0.001421443885192275,
+      "startLat": 31.40520477294922,
+      "startLng": 118.4012222290039
+    }
+  ]
+}

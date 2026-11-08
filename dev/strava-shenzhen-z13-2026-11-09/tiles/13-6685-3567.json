@@ -1,0 +1,38 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-08T22:50:21.256Z",
+  "tile": {
+    "z": 13,
+    "x": 6685,
+    "y": 3567
+  },
+  "segments": [
+    {
+      "id": "27287800",
+      "tileScore": 2,
+      "name": "Right base for Terminal 3",
+      "distanceM": 1273.800048828125,
+      "avgGrade": -0.0942063108086586,
+      "startLat": 22.617219924926758,
+      "startLng": 113.82935333251953
+    },
+    {
+      "id": "36842187",
+      "tileScore": 7,
+      "name": "我与飞机肩并肩",
+      "distanceM": 1633.699951171875,
+      "avgGrade": -0.0612107515335083,
+      "startLat": 22.609811782836914,
+      "startLng": 113.81202697753906
+    },
+    {
+      "id": "4988016",
+      "tileScore": 29,
+      "name": "廣深臨江高速",
+      "distanceM": 24966.69921875,
+      "avgGrade": 0.0064085363410413265,
+      "startLat": 22.53104591369629,
+      "startLng": 113.87958526611328
+    }
+  ]
+}

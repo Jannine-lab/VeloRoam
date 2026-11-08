@@ -1,0 +1,47 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-08T22:33:59.510Z",
+  "tile": {
+    "z": 13,
+    "x": 6790,
+    "y": 3325
+  },
+  "segments": [
+    {
+      "id": "31811777",
+      "tileScore": 40,
+      "name": "宝塔山爬坡全程_⛄️",
+      "distanceM": 6519.7998046875,
+      "avgGrade": 2.380441188812256,
+      "startLat": 32.03511428833008,
+      "startLng": 118.4325180053711
+    },
+    {
+      "id": "31848066",
+      "tileScore": 58,
+      "name": "Pingdawa new road from N",
+      "distanceM": 3221.699951171875,
+      "avgGrade": 4.786293029785156,
+      "startLat": 32.06427764892578,
+      "startLng": 118.41264343261719
+    },
+    {
+      "id": "31848003",
+      "tileScore": 9,
+      "name": "Pingdawa new road from S",
+      "distanceM": 1478.4000244140625,
+      "avgGrade": 5.546536445617676,
+      "startLat": 32.0474967956543,
+      "startLng": 118.40406036376953
+    },
+    {
+      "id": "31071831",
+      "tileScore": 8,
+      "name": "一路坟头上宝塔   旺仔",
+      "distanceM": 2573.300048828125,
+      "avgGrade": 6.8588972091674805,
+      "startLat": 32.06467819213867,
+      "startLng": 118.39425659179688
+    }
+  ]
+}

@@ -1,0 +1,65 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-08T22:57:35.014Z",
+  "tile": {
+    "z": 13,
+    "x": 6866,
+    "y": 3351
+  },
+  "segments": [
+    {
+      "id": "39212463",
+      "tileScore": 13,
+      "name": "下盐路 两港到申江南路",
+      "distanceM": 18822.099609375,
+      "avgGrade": 0.017001289874315262,
+      "startLat": 31.0772762298584,
+      "startLng": 121.83916473388672
+    },
+    {
+      "id": "39316262",
+      "tileScore": 1,
+      "name": "zyw下盐团练出发必经之路",
+      "distanceM": 1588.0999755859375,
+      "avgGrade": -0.11334299296140671,
+      "startLat": 31.058349609375,
+      "startLng": 121.75292205810547
+    },
+    {
+      "id": "35241819",
+      "tileScore": 15,
+      "name": "大川快到飞起",
+      "distanceM": 9046.7001953125,
+      "avgGrade": -0.017686007544398308,
+      "startLat": 31.07391929626465,
+      "startLng": 121.73094940185547
+    },
+    {
+      "id": "35927579",
+      "tileScore": 5,
+      "name": "金桥-滴水湖-云山路绕圈",
+      "distanceM": 150058.90625,
+      "avgGrade": 0.0018659341149032116,
+      "startLat": 31.22467041015625,
+      "startLng": 121.62055969238281
+    },
+    {
+      "id": "10343139",
+      "tileScore": 10,
+      "name": "Xiayan Rd Roller",
+      "distanceM": 3970.199951171875,
+      "avgGrade": -0.04533776640892029,
+      "startLat": 31.07306671142578,
+      "startLng": 121.73173522949219
+    },
+    {
+      "id": "10343129",
+      "tileScore": 6,
+      "name": "Dash to Drinkstand",
+      "distanceM": 2116.39990234375,
+      "avgGrade": 0.14175014197826385,
+      "startLat": 31.07451820373535,
+      "startLng": 121.7729263305664
+    }
+  ]
+}

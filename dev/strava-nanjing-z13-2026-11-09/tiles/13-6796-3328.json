@@ -1,0 +1,29 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-08T22:35:25.484Z",
+  "tile": {
+    "z": 13,
+    "x": 6796,
+    "y": 3328
+  },
+  "segments": [
+    {
+      "id": "25128523",
+      "tileScore": 2,
+      "name": "从肯德基到桥顶",
+      "distanceM": 8841.7998046875,
+      "avgGrade": -0.01583387888967991,
+      "startLat": 31.912260055541992,
+      "startLng": 118.63787841796875
+    },
+    {
+      "id": "25857443",
+      "tileScore": 3,
+      "name": "20200926环南京雨花台站 Tour de Nanjing Yuhuatai Stage",
+      "distanceM": 46733.5,
+      "avgGrade": -0.00042795855551958084,
+      "startLat": 31.995834350585938,
+      "startLng": 118.77606201171875
+    }
+  ]
+}

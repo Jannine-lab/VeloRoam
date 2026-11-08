@@ -1,0 +1,20 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-08T22:41:56.829Z",
+  "tile": {
+    "z": 13,
+    "x": 6800,
+    "y": 3333
+  },
+  "segments": [
+    {
+      "id": "34743051",
+      "tileScore": 2,
+      "name": "九龙入水",
+      "distanceM": 20012.900390625,
+      "avgGrade": -0.0009993554558604956,
+      "startLat": 31.749462127685547,
+      "startLng": 118.84489440917969
+    }
+  ]
+}

@@ -1,0 +1,128 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-08T22:59:38.416Z",
+  "tile": {
+    "z": 13,
+    "x": 6845,
+    "y": 3349
+  },
+  "segments": [
+    {
+      "id": "40537521",
+      "tileScore": 8,
+      "name": "环澄湖",
+      "distanceM": 43049.19921875,
+      "avgGrade": 0.012543787248432636,
+      "startLat": 31.252605438232422,
+      "startLng": 120.79975891113281
+    },
+    {
+      "id": "30384821",
+      "tileScore": 2,
+      "name": "THL-4",
+      "distanceM": 116824.5,
+      "avgGrade": -0.0025679543614387512,
+      "startLat": 31.206161499023438,
+      "startLng": 121.28252410888672
+    },
+    {
+      "id": "37686821",
+      "tileScore": 9,
+      "name": "冲一下就到加油站了",
+      "distanceM": 1309.800048828125,
+      "avgGrade": 0.03053901344537735,
+      "startLat": 31.151750564575195,
+      "startLng": 120.81172943115234
+    },
+    {
+      "id": "4081071",
+      "tileScore": 10,
+      "name": "Southern Ride through Countryside",
+      "distanceM": 7996,
+      "avgGrade": 0.001250625355169177,
+      "startLat": 31.177043914794922,
+      "startLng": 120.7610092163086
+    },
+    {
+      "id": "39843642",
+      "tileScore": 8,
+      "name": "飞跃周庄",
+      "distanceM": 2540,
+      "avgGrade": -0.04724409431219101,
+      "startLat": 31.1292724609375,
+      "startLng": 120.85107421875
+    },
+    {
+      "id": "41451629",
+      "tileScore": 11,
+      "name": "呼吸负氧离子",
+      "distanceM": 2773.60009765625,
+      "avgGrade": -0.028843380510807037,
+      "startLat": 31.160579681396484,
+      "startLng": 120.80882263183594
+    },
+    {
+      "id": "41203588",
+      "tileScore": 9,
+      "name": "大桥路",
+      "distanceM": 4066.300048828125,
+      "avgGrade": 0.04426628723740578,
+      "startLat": 31.131654739379883,
+      "startLng": 120.84768676757812
+    },
+    {
+      "id": "41577643",
+      "tileScore": 4,
+      "name": "转弯进周庄",
+      "distanceM": 3537,
+      "avgGrade": 0.05089058727025986,
+      "startLat": 31.151132583618164,
+      "startLng": 120.82865142822266
+    },
+    {
+      "id": "38954443",
+      "tileScore": 4,
+      "name": "TongJing RD E to W",
+      "distanceM": 28885.30078125,
+      "avgGrade": -0.04777516424655914,
+      "startLat": 31.166654586791992,
+      "startLng": 120.9546127319336
+    },
+    {
+      "id": "37725240",
+      "tileScore": 29,
+      "name": "真空加速通道-East",
+      "distanceM": 550,
+      "avgGrade": -0.4000000059604645,
+      "startLat": 31.153114318847656,
+      "startLng": 120.80609130859375
+    },
+    {
+      "id": "38897849",
+      "tileScore": 1,
+      "name": "公制世纪 - KOM",
+      "distanceM": 101772.296875,
+      "avgGrade": -0.0031442742329090834,
+      "startLat": 31.17006492614746,
+      "startLng": 121.2751235961914
+    },
+    {
+      "id": "12962823",
+      "tileScore": 8,
+      "name": "Huanzhen West Rd to S5 Underpass (Northbound)",
+      "distanceM": 1897.5,
+      "avgGrade": -0.021080369129776955,
+      "startLat": 31.153228759765625,
+      "startLng": 120.82828521728516
+    },
+    {
+      "id": "21511294",
+      "tileScore": 5,
+      "name": "X304 till G15 West bound",
+      "distanceM": 3342,
+      "avgGrade": 0.011968880891799927,
+      "startLat": 31.15538215637207,
+      "startLng": 120.86949920654297
+    }
+  ]
+}

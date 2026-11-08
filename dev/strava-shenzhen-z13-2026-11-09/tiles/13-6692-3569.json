@@ -1,0 +1,236 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-08T22:51:18.484Z",
+  "tile": {
+    "z": 13,
+    "x": 6692,
+    "y": 3569
+  },
+  "segments": [
+    {
+      "id": "8857239",
+      "tileScore": 56,
+      "name": "上水邊境 - 上水方向",
+      "distanceM": 4481.89990234375,
+      "avgGrade": 0.3793034255504608,
+      "startLat": 22.51102066040039,
+      "startLng": 114.0776596069336
+    },
+    {
+      "id": "34980101",
+      "tileScore": 9,
+      "name": "Sheung Yue River 上水方向",
+      "distanceM": 1545.199951171875,
+      "avgGrade": -0.1553197056055069,
+      "startLat": 22.503517150878906,
+      "startLng": 114.10494232177734
+    },
+    {
+      "id": "11769650",
+      "tileScore": 7,
+      "name": " Fai King Rd back (closed area) ",
+      "distanceM": 5620.60009765625,
+      "avgGrade": 0.22773370146751404,
+      "startLat": 22.511594772338867,
+      "startLng": 114.07793426513672
+    },
+    {
+      "id": "33877200",
+      "tileScore": 27,
+      "name": "康城大冷",
+      "distanceM": 130482.203125,
+      "avgGrade": 0,
+      "startLat": 22.29688835144043,
+      "startLng": 114.26518249511719
+    },
+    {
+      "id": "12181649",
+      "tileScore": 28,
+      "name": "shennan train",
+      "distanceM": 10026.900390625,
+      "avgGrade": -0.09175318479537964,
+      "startLat": 22.542226791381836,
+      "startLng": 114.05308532714844
+    },
+    {
+      "id": "11149508",
+      "tileScore": 10,
+      "name": "滨河大道（皇岗至鹿丹村）东行",
+      "distanceM": 3161.89990234375,
+      "avgGrade": -0.018975932151079178,
+      "startLat": 22.531578063964844,
+      "startLng": 114.07331085205078
+    },
+    {
+      "id": "34980154",
+      "tileScore": 12,
+      "name": "River Sutlej 大水管方向",
+      "distanceM": 1040.5,
+      "avgGrade": 0.11532916873693466,
+      "startLat": 22.50861930847168,
+      "startLng": 114.11851501464844
+    },
+    {
+      "id": "36649066",
+      "tileScore": 2,
+      "name": "莲花山回家洗澡睡觉",
+      "distanceM": 899,
+      "avgGrade": 0.20022247731685638,
+      "startLat": 22.539588928222656,
+      "startLng": 114.0995101928711
+    },
+    {
+      "id": "35757687",
+      "tileScore": 6,
+      "name": "盘山-莲花山",
+      "distanceM": 17562.099609375,
+      "avgGrade": -0.9076363444328308,
+      "startLat": 22.55670928955078,
+      "startLng": 114.20669555664062
+    },
+    {
+      "id": "22672163",
+      "tileScore": 3,
+      "name": "自闭回程",
+      "distanceM": 20012.5,
+      "avgGrade": -0.17688944935798645,
+      "startLat": 22.562917709350586,
+      "startLng": 114.17277526855469
+    },
+    {
+      "id": "14492021",
+      "tileScore": 1,
+      "name": "羅湖至落馬洲",
+      "distanceM": 7067.60009765625,
+      "avgGrade": -0.24053426086902618,
+      "startLat": 22.527307510375977,
+      "startLng": 114.11078643798828
+    },
+    {
+      "id": "36164638",
+      "tileScore": 7,
+      "name": "深南东路",
+      "distanceM": 3551.199951171875,
+      "avgGrade": -0.045055191963911057,
+      "startLat": 22.549373626708984,
+      "startLng": 114.13369750976562
+    },
+    {
+      "id": "36211652",
+      "tileScore": 12,
+      "name": "滨河路(竹子林立交 - 宝安南路)",
+      "distanceM": 9225,
+      "avgGrade": -0.028184283524751663,
+      "startLat": 22.530366897583008,
+      "startLng": 114.01313781738281
+    },
+    {
+      "id": "34223693",
+      "tileScore": 5,
+      "name": "yuen long to tai po twin bridge",
+      "distanceM": 34870.8984375,
+      "avgGrade": -0.013765059411525726,
+      "startLat": 22.444385528564453,
+      "startLng": 114.04415893554688
+    },
+    {
+      "id": "31223918",
+      "tileScore": 9,
+      "name": "冲上去罗湖口岸",
+      "distanceM": 1248.9000244140625,
+      "avgGrade": 0.11209864169359207,
+      "startLat": 22.537012100219727,
+      "startLng": 114.11089324951172
+    },
+    {
+      "id": "11172602",
+      "tileScore": 10,
+      "name": "文錦渡路大戰大貨車",
+      "distanceM": 2526.89990234375,
+      "avgGrade": 0.047489017248153687,
+      "startLat": 22.516658782958984,
+      "startLng": 114.12606811523438
+    },
+    {
+      "id": "38840312",
+      "tileScore": 22,
+      "name": "The GT ",
+      "distanceM": 95767,
+      "avgGrade": 0.04740672558546066,
+      "startLat": 22.326505661010742,
+      "startLng": 114.15650939941406
+    },
+    {
+      "id": "42174929",
+      "tileScore": 15,
+      "name": "古洞北路 softy incline descend",
+      "distanceM": 749.7999877929688,
+      "avgGrade": -1.6004267930984497,
+      "startLat": 22.51102066040039,
+      "startLng": 114.09515380859375
+    },
+    {
+      "id": "1443180",
+      "tileScore": 8,
+      "name": "Kong Nga Po Rd Climb",
+      "distanceM": 1185.43994140625,
+      "avgGrade": 8.232812881469727,
+      "startLat": 22.51844596862793,
+      "startLng": 114.12530517578125
+    },
+    {
+      "id": "38353558",
+      "tileScore": 2,
+      "name": "红树林内部道路",
+      "distanceM": 12710.2998046875,
+      "avgGrade": 0.012588215991854668,
+      "startLat": 22.52973175048828,
+      "startLng": 113.99994659423828
+    },
+    {
+      "id": "32328891",
+      "tileScore": 20,
+      "name": "红桂路西-东",
+      "distanceM": 851.2999877929688,
+      "avgGrade": 0.6578174233436584,
+      "startLat": 22.552701950073242,
+      "startLng": 114.10739135742188
+    },
+    {
+      "id": "10953632",
+      "tileScore": 13,
+      "name": "Kong Nga Po Road Climb (Eastbound)",
+      "distanceM": 1622.300048828125,
+      "avgGrade": 2.477963447570801,
+      "startLat": 22.5223445892334,
+      "startLng": 114.12235260009766
+    },
+    {
+      "id": "14541336",
+      "tileScore": 8,
+      "name": "盘山-三洲田小圈",
+      "distanceM": 62839.6015625,
+      "avgGrade": -0.017664020881056786,
+      "startLat": 22.546457290649414,
+      "startLng": 114.11802673339844
+    },
+    {
+      "id": "6486904",
+      "tileScore": 18,
+      "name": "Fai King Road Climb",
+      "distanceM": 420.6000061035156,
+      "avgGrade": 26.058012008666992,
+      "startLat": 22.51876449584961,
+      "startLng": 114.1134033203125
+    },
+    {
+      "id": "17054689",
+      "tileScore": 22,
+      "name": "Fai King Road Climb",
+      "distanceM": 409.20001220703125,
+      "avgGrade": 3.958944320678711,
+      "startLat": 22.529644012451172,
+      "startLng": 114.10557556152344
+    }
+  ]
+}

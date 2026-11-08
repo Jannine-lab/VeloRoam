@@ -1,0 +1,20 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-08T22:35:12.131Z",
+  "tile": {
+    "z": 13,
+    "x": 6788,
+    "y": 3327
+  },
+  "segments": [
+    {
+      "id": "40153140",
+      "tileScore": 1,
+      "name": "微风：星夏路",
+      "distanceM": 29535.5,
+      "avgGrade": 0.01760593056678772,
+      "startLat": 31.828128814697266,
+      "startLng": 118.07526397705078
+    }
+  ]
+}

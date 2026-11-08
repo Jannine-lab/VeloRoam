@@ -1,0 +1,29 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-08T22:37:15.764Z",
+  "tile": {
+    "z": 13,
+    "x": 6807,
+    "y": 3334
+  },
+  "segments": [
+    {
+      "id": "42392226",
+      "tileScore": 4,
+      "name": "浮山茶场科研所 Climb",
+      "distanceM": 1316.199951171875,
+      "avgGrade": 10.044066429138184,
+      "startLat": 31.694074630737305,
+      "startLng": 119.16014862060547
+    },
+    {
+      "id": "42392252",
+      "tileScore": 2,
+      "name": "S340（白鹿村-天王镇）",
+      "distanceM": 7402.7001953125,
+      "avgGrade": -0.11617383360862732,
+      "startLat": 31.71587371826172,
+      "startLng": 119.13298034667969
+    }
+  ]
+}

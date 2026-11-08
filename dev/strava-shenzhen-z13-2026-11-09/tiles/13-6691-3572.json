@@ -1,0 +1,173 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-08T22:51:48.832Z",
+  "tile": {
+    "z": 13,
+    "x": 6691,
+    "y": 3572
+  },
+  "segments": [
+    {
+      "id": "8806059",
+      "tileScore": 14,
+      "name": "Tin Fu Tsai/Black Diamond Descent",
+      "distanceM": 3128,
+      "avgGrade": -10.08951473236084,
+      "startLat": 22.398271560668945,
+      "startLng": 114.06802368164062
+    },
+    {
+      "id": "34419804",
+      "tileScore": 3,
+      "name": "Kam Shui South Road towards Kam Tin",
+      "distanceM": 1682.699951171875,
+      "avgGrade": -0.5823973417282104,
+      "startLat": 22.427642822265625,
+      "startLng": 114.08232879638672
+    },
+    {
+      "id": "30592865",
+      "tileScore": 27,
+      "name": "how NOT to VAM",
+      "distanceM": 305.20001220703125,
+      "avgGrade": 3.735255479812622,
+      "startLat": 22.406572341918945,
+      "startLng": 114.04442596435547
+    },
+    {
+      "id": "678272",
+      "tileScore": 54,
+      "name": "Tai Tong Shan Rd Climb",
+      "distanceM": 1146.9200439453125,
+      "avgGrade": 7.725172519683838,
+      "startLat": 22.39626693725586,
+      "startLng": 114.0454330444336
+    },
+    {
+      "id": "35514125",
+      "tileScore": 17,
+      "name": "PFAM - TLCP Climb S3",
+      "distanceM": 1789.300048828125,
+      "avgGrade": 4.912535667419434,
+      "startLat": 22.392004013061523,
+      "startLng": 114.06153869628906
+    },
+    {
+      "id": "36159705",
+      "tileScore": 19,
+      "name": "tai shu ha out",
+      "distanceM": 729.5,
+      "avgGrade": -4.386566162109375,
+      "startLat": 22.415529251098633,
+      "startLng": 114.03797912597656
+    },
+    {
+      "id": "38840312",
+      "tileScore": 22,
+      "name": "The GT ",
+      "distanceM": 95767,
+      "avgGrade": 0.04740672558546066,
+      "startLat": 22.326505661010742,
+      "startLng": 114.15650939941406
+    },
+    {
+      "id": "8356905",
+      "tileScore": 6,
+      "name": "The Graveyard Shift",
+      "distanceM": 146.8000030517578,
+      "avgGrade": -28.20163345336914,
+      "startLat": 22.40791130065918,
+      "startLng": 114.06170654296875
+    },
+    {
+      "id": "695422",
+      "tileScore": 25,
+      "name": "Tai Lam Tunnel Climb",
+      "distanceM": 1551.0799560546875,
+      "avgGrade": 6.756495475769043,
+      "startLat": 22.3973331451416,
+      "startLng": 114.05438232421875
+    },
+    {
+      "id": "23798881",
+      "tileScore": 4,
+      "name": "RCCHKG_ED_Tai_Lam_Routine",
+      "distanceM": 29155.30078125,
+      "avgGrade": 1.4577109813690186,
+      "startLat": 22.370813369750977,
+      "startLng": 114.09672546386719
+    },
+    {
+      "id": "11171111",
+      "tileScore": 62,
+      "name": "Tai Shu Ha Road (Anti-Clockwise)",
+      "distanceM": 4004,
+      "avgGrade": -0.114885114133358,
+      "startLat": 22.41510009765625,
+      "startLng": 114.03807830810547
+    },
+    {
+      "id": "1209034",
+      "tileScore": 18,
+      "name": "Tai Lam Tunnel Climb",
+      "distanceM": 486.6700134277344,
+      "avgGrade": 10.889664649963379,
+      "startLat": 22.41118621826172,
+      "startLng": 114.06642150878906
+    },
+    {
+      "id": "10590058",
+      "tileScore": 2,
+      "name": "南坑排",
+      "distanceM": 974.5,
+      "avgGrade": -4.494612693786621,
+      "startLat": 22.404266357421875,
+      "startLng": 114.04248046875
+    },
+    {
+      "id": "11123063",
+      "tileScore": 32,
+      "name": "Tai Tong to Large Lawn",
+      "distanceM": 4508.2998046875,
+      "avgGrade": 0.9715413451194763,
+      "startLat": 22.416025161743164,
+      "startLng": 114.02434539794922
+    },
+    {
+      "id": "1866833",
+      "tileScore": 89,
+      "name": "Tin Fu Tsai Climb",
+      "distanceM": 3578.0537109375,
+      "avgGrade": 6.260480880737305,
+      "startLat": 22.398210525512695,
+      "startLng": 114.04871368408203
+    },
+    {
+      "id": "7970748",
+      "tileScore": 11,
+      "name": "黑鑽 - The Black Diamond",
+      "distanceM": 635.7999877929688,
+      "avgGrade": -10.412078857421875,
+      "startLat": 22.40010643005371,
+      "startLng": 114.05552673339844
+    },
+    {
+      "id": "37770740",
+      "tileScore": 8,
+      "name": "sprint + descent",
+      "distanceM": 717.5999755859375,
+      "avgGrade": -3.9297659397125244,
+      "startLat": 22.411245346069336,
+      "startLng": 114.0437240600586
+    },
+    {
+      "id": "27046555",
+      "tileScore": 1,
+      "name": "Sze Pai Shek Shan - Segment 1",
+      "distanceM": 420.79998779296875,
+      "avgGrade": -1.6159696578979492,
+      "startLat": 22.410602569580078,
+      "startLng": 114.05125427246094
+    }
+  ]
+}

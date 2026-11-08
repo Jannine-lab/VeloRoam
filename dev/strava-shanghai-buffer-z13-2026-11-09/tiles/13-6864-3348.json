@@ -1,0 +1,209 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-03T06:07:35.599Z",
+  "tile": {
+    "z": 13,
+    "x": 6864,
+    "y": 3348
+  },
+  "segments": [
+    {
+      "id": "36849446",
+      "tileScore": 83,
+      "name": "TRC",
+      "distanceM": 2920.300048828125,
+      "avgGrade": 0,
+      "startLat": 31.17807960510254,
+      "startLng": 121.66089630126953
+    },
+    {
+      "id": "18858104",
+      "tileScore": 12,
+      "name": "Sunhuan Road",
+      "distanceM": 2514.800048828125,
+      "avgGrade": -0.01988229714334011,
+      "startLat": 31.188905715942383,
+      "startLng": 121.63246154785156
+    },
+    {
+      "id": "6371687",
+      "tileScore": 7,
+      "name": "Chuansha Rd to Huadong Rd Sprint",
+      "distanceM": 1404.4000244140625,
+      "avgGrade": -0.02848191373050213,
+      "startLat": 31.202117919921875,
+      "startLng": 121.6913833618164
+    },
+    {
+      "id": "38915222",
+      "tileScore": 16,
+      "name": "沔北冲刺 W->E 04",
+      "distanceM": 826.9000244140625,
+      "avgGrade": -0.24186721444129944,
+      "startLat": 31.17914390563965,
+      "startLng": 121.66533660888672
+    },
+    {
+      "id": "10518972",
+      "tileScore": 48,
+      "name": "Huadong 6 Bridges South",
+      "distanceM": 3713.39990234375,
+      "avgGrade": -0.059244897216558456,
+      "startLat": 31.233022689819336,
+      "startLng": 121.66922760009766
+    },
+    {
+      "id": "14700693",
+      "tileScore": 9,
+      "name": "Time to sprint",
+      "distanceM": 1376.300048828125,
+      "avgGrade": -0.1525830179452896,
+      "startLat": 31.17170524597168,
+      "startLng": 121.68431854248047
+    },
+    {
+      "id": "38915262",
+      "tileScore": 108,
+      "name": "沔北冲刺 E->W S20跨线桥",
+      "distanceM": 858.5,
+      "avgGrade": 0.20966802537441254,
+      "startLat": 31.176767349243164,
+      "startLng": 121.64686584472656
+    },
+    {
+      "id": "42378331",
+      "tileScore": 7,
+      "name": "川环南路冲刺",
+      "distanceM": 1427.0999755859375,
+      "avgGrade": -0.014014434069395065,
+      "startLat": 31.184194564819336,
+      "startLng": 121.67888641357422
+    },
+    {
+      "id": "40836066",
+      "tileScore": 1,
+      "name": "华夏路立交林道越野",
+      "distanceM": 984.5999755859375,
+      "avgGrade": 0.16250254213809967,
+      "startLat": 31.1970272064209,
+      "startLng": 121.64251708984375
+    },
+    {
+      "id": "29669166",
+      "tileScore": 6,
+      "name": "Back to the city",
+      "distanceM": 11189.5,
+      "avgGrade": -0.05898386985063553,
+      "startLat": 31.209815979003906,
+      "startLng": 121.74333953857422
+    },
+    {
+      "id": "39326041",
+      "tileScore": 6,
+      "name": "SUPER C的训练赛段(晚上十点你还会爱我吗)",
+      "distanceM": 31948.099609375,
+      "avgGrade": -0.005634137894958258,
+      "startLat": 31.1982364654541,
+      "startLng": 121.73193359375
+    },
+    {
+      "id": "40267076",
+      "tileScore": 2,
+      "name": "孙桥蒋桥村村通",
+      "distanceM": 16826.19921875,
+      "avgGrade": -0.03090418502688408,
+      "startLat": 31.180830001831055,
+      "startLng": 121.63630676269531
+    },
+    {
+      "id": "34977123",
+      "tileScore": 8,
+      "name": "川周公路（华东-唐黄）",
+      "distanceM": 1371.199951171875,
+      "avgGrade": -0.021878646686673164,
+      "startLat": 31.171369552612305,
+      "startLng": 121.6833267211914
+    },
+    {
+      "id": "32997614",
+      "tileScore": 18,
+      "name": "Tanghuang Rd Sprint",
+      "distanceM": 2264.60009765625,
+      "avgGrade": -0.05298949033021927,
+      "startLat": 31.177738189697266,
+      "startLng": 121.6650619506836
+    },
+    {
+      "id": "34420992",
+      "tileScore": 6,
+      "name": "Jielong village no.1 road",
+      "distanceM": 1196,
+      "avgGrade": -0.05016722157597542,
+      "startLat": 31.176790237426758,
+      "startLng": 121.6788330078125
+    },
+    {
+      "id": "10668178",
+      "tileScore": 26,
+      "name": "Tanglu Hwy x Chuanyang River Bridge (Northbound)",
+      "distanceM": 458.6000061035156,
+      "avgGrade": 0.6541648507118225,
+      "startLat": 31.197288513183594,
+      "startLng": 121.65858459472656
+    },
+    {
+      "id": "37093928",
+      "tileScore": 4,
+      "name": "home cycling",
+      "distanceM": 2131.89990234375,
+      "avgGrade": -0.009381303563714027,
+      "startLat": 31.173986434936523,
+      "startLng": 121.6881332397461
+    },
+    {
+      "id": "20304993",
+      "tileScore": 11,
+      "name": "Yaolong & Huaxia Hot Blast",
+      "distanceM": 29317,
+      "avgGrade": -0.008527475409209728,
+      "startLat": 31.14801597595215,
+      "startLng": 121.47225952148438
+    },
+    {
+      "id": "42079725",
+      "tileScore": 3,
+      "name": "Markus Bruengger (R.I.P. | G.O.A.T.) Memory Ride",
+      "distanceM": 64397.30078125,
+      "avgGrade": -0.006522012874484062,
+      "startLat": 31.224090576171875,
+      "startLng": 121.55386352539062
+    },
+    {
+      "id": "11652121",
+      "tileScore": 47,
+      "name": "Tanghuang Road Dash",
+      "distanceM": 3235.39990234375,
+      "avgGrade": -0.049452926963567734,
+      "startLat": 31.13869857788086,
+      "startLng": 121.68090057373047
+    },
+    {
+      "id": "11609825",
+      "tileScore": 3,
+      "name": "HuaDong Rd 华东路",
+      "distanceM": 2912.199951171875,
+      "avgGrade": -0.19916214048862457,
+      "startLat": 31.198272705078125,
+      "startLng": 121.67657470703125
+    },
+    {
+      "id": "5242261",
+      "tileScore": 16,
+      "name": "North of Disney",
+      "distanceM": 2228.699951171875,
+      "avgGrade": 0,
+      "startLat": 31.160497665405273,
+      "startLng": 121.64747619628906
+    }
+  ]
+}

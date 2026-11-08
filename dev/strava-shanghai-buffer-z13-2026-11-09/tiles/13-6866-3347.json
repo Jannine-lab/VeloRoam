@@ -1,0 +1,128 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-03T06:07:32.283Z",
+  "tile": {
+    "z": 13,
+    "x": 6866,
+    "y": 3347
+  },
+  "segments": [
+    {
+      "id": "39760643",
+      "tileScore": 48,
+      "name": "华洲路-川南奉-华夏东路-海滨路",
+      "distanceM": 7625.60009765625,
+      "avgGrade": -0.005245489068329334,
+      "startLat": 31.19892120361328,
+      "startLng": 121.73493957519531
+    },
+    {
+      "id": "3527112",
+      "tileScore": 26,
+      "name": "Huaxia East Rd Turn off to Huazhou Rd Sprint",
+      "distanceM": 1104.1043701171875,
+      "avgGrade": -0.027171451598405838,
+      "startLat": 31.21072769165039,
+      "startLng": 121.7565689086914
+    },
+    {
+      "id": "17080110",
+      "tileScore": 18,
+      "name": "3#bridge Gaoke Road ",
+      "distanceM": 464.79998779296875,
+      "avgGrade": 1.1187607049942017,
+      "startLat": 31.22796058654785,
+      "startLng": 121.72652435302734
+    },
+    {
+      "id": "20304993",
+      "tileScore": 11,
+      "name": "Yaolong & Huaxia Hot Blast",
+      "distanceM": 29317,
+      "avgGrade": -0.008527475409209728,
+      "startLat": 31.14801597595215,
+      "startLng": 121.47225952148438
+    },
+    {
+      "id": "38804460",
+      "tileScore": 7,
+      "name": "daju to the sea",
+      "distanceM": 11608.099609375,
+      "avgGrade": 0.008614674210548401,
+      "startLat": 31.20665740966797,
+      "startLng": 121.6347427368164
+    },
+    {
+      "id": "5717536",
+      "tileScore": 7,
+      "name": "Huaxia East Rd x G1501 Shanghai Ring Expy Bridge (Eastbound)",
+      "distanceM": 768.7000122070312,
+      "avgGrade": 0.09106283634901047,
+      "startLat": 31.20924186706543,
+      "startLng": 121.74010467529297
+    },
+    {
+      "id": "41273309",
+      "tileScore": 25,
+      "name": "人民塘路北段",
+      "distanceM": 10043.099609375,
+      "avgGrade": -0.01593133620917797,
+      "startLat": 31.27474021911621,
+      "startLng": 121.71453857421875
+    },
+    {
+      "id": "29669166",
+      "tileScore": 6,
+      "name": "Back to the city",
+      "distanceM": 11189.5,
+      "avgGrade": -0.05898386985063553,
+      "startLat": 31.209815979003906,
+      "startLng": 121.74333953857422
+    },
+    {
+      "id": "34714589",
+      "tileScore": 59,
+      "name": "🌲🌲🌲 Seawall Plus iTT",
+      "distanceM": 2150.60009765625,
+      "avgGrade": -0.046498652547597885,
+      "startLat": 31.2117977142334,
+      "startLng": 121.76439666748047
+    },
+    {
+      "id": "26231591",
+      "tileScore": 44,
+      "name": "Renmingtan Sprint South next to Links Golf Course",
+      "distanceM": 1154,
+      "avgGrade": 0.10398613661527634,
+      "startLat": 31.231094360351562,
+      "startLng": 121.75244903564453
+    },
+    {
+      "id": "5709906",
+      "tileScore": 16,
+      "name": "Gaoke East Rd From Shajia Rd To Dongchuan Hwy (Westbound)",
+      "distanceM": 2530.800048828125,
+      "avgGrade": 0.0474158376455307,
+      "startLat": 31.230281829833984,
+      "startLng": 121.74617004394531
+    },
+    {
+      "id": "27401582",
+      "tileScore": 8,
+      "name": "DP Airport Loop part 1",
+      "distanceM": 38720,
+      "avgGrade": 0.004648760426789522,
+      "startLat": 31.236400604248047,
+      "startLng": 121.59383392333984
+    },
+    {
+      "id": "32407359",
+      "tileScore": 86,
+      "name": "Chuanyang River Rd Flat",
+      "distanceM": 2666.800048828125,
+      "avgGrade": -0.044997747987508774,
+      "startLat": 31.217266082763672,
+      "startLng": 121.75509643554688
+    }
+  ]
+}

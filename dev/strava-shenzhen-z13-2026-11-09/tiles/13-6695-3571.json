@@ -1,0 +1,119 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-08T22:51:54.527Z",
+  "tile": {
+    "z": 13,
+    "x": 6695,
+    "y": 3571
+  },
+  "segments": [
+    {
+      "id": "38840312",
+      "tileScore": 22,
+      "name": "The GT ",
+      "distanceM": 95767,
+      "avgGrade": 0.04740672558546066,
+      "startLat": 22.326505661010742,
+      "startLng": 114.15650939941406
+    },
+    {
+      "id": "36106399",
+      "tileScore": 9,
+      "name": "NSW - SHAN SHING",
+      "distanceM": 90205.8984375,
+      "avgGrade": -0.013968043960630894,
+      "startLat": 22.44609260559082,
+      "startLng": 114.04883575439453
+    },
+    {
+      "id": "984395",
+      "tileScore": 58,
+      "name": "Whitehead velodrome lap",
+      "distanceM": 280.1099853515625,
+      "avgGrade": 0.7140307426452637,
+      "startLat": 22.436185836791992,
+      "startLng": 114.24007415771484
+    },
+    {
+      "id": "40461460",
+      "tileScore": 1,
+      "name": "Ca姐溫馨8字冷下集(鹿頸400米至石崗油站)",
+      "distanceM": 17652.900390625,
+      "avgGrade": 0.05551495775580406,
+      "startLat": 22.476028442382812,
+      "startLng": 114.23654174804688
+    },
+    {
+      "id": "9389615",
+      "tileScore": 22,
+      "name": "Nin Wah Road Uphill",
+      "distanceM": 540.4000244140625,
+      "avgGrade": 1.091783881187439,
+      "startLat": 22.431562423706055,
+      "startLng": 114.25271606445312
+    },
+    {
+      "id": "28345891",
+      "tileScore": 17,
+      "name": "PC Uphill Loop-de-loop",
+      "distanceM": 386.29998779296875,
+      "avgGrade": 2.7957546710968018,
+      "startLat": 22.469240188598633,
+      "startLng": 114.23365020751953
+    },
+    {
+      "id": "30266376",
+      "tileScore": 1,
+      "name": "Shan Liu Road",
+      "distanceM": 932.7999877929688,
+      "avgGrade": 4.009433746337891,
+      "startLat": 22.47174644470215,
+      "startLng": 114.22210693359375
+    },
+    {
+      "id": "25745121",
+      "tileScore": 10,
+      "name": "Starfish climb",
+      "distanceM": 422.5,
+      "avgGrade": 1.5621302127838135,
+      "startLat": 22.43323516845703,
+      "startLng": 114.24337005615234
+    },
+    {
+      "id": "10350462",
+      "tileScore": 34,
+      "name": "Ting Kok Road from Brides Pool to Tai Po Industrial Estate",
+      "distanceM": 5894.10009765625,
+      "avgGrade": 0.023752566426992416,
+      "startLat": 22.4737548828125,
+      "startLng": 114.23528289794922
+    },
+    {
+      "id": "16418936",
+      "tileScore": 47,
+      "name": "Ting Kok Rd Greencove uphill sprint",
+      "distanceM": 558.5999755859375,
+      "avgGrade": 0.5370569229125977,
+      "startLat": 22.47353744506836,
+      "startLng": 114.2149429321289
+    },
+    {
+      "id": "27439830",
+      "tileScore": 25,
+      "name": "Tai Po (Tai Wong Yeh Temple) to Pak Tam Chung / 大埔(大王爺廟)至北潭涌",
+      "distanceM": 25706,
+      "avgGrade": 0.031121138483285904,
+      "startLat": 22.4453067779541,
+      "startLng": 114.17774200439453
+    },
+    {
+      "id": "41141313",
+      "tileScore": 59,
+      "name": "船灣淡水湖 來回連上落斜",
+      "distanceM": 4357.7001953125,
+      "avgGrade": 0.07343322783708572,
+      "startLat": 22.468740463256836,
+      "startLng": 114.23360443115234
+    }
+  ]
+}

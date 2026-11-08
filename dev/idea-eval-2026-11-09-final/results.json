@@ -1,0 +1,7060 @@
+[
+  {
+    "id": "distance-20",
+    "category": "distance",
+    "split": "development",
+    "repeat": 1,
+    "passed": true,
+    "turns": [
+      {
+        "idea": "我想骑20公里",
+        "expected": {
+          "fields": {
+            "contextIntent.targetKm": 20,
+            "contextIntent.requestType": "route"
+          }
+        },
+        "status": 200,
+        "durationMs": 3038,
+        "checks": [
+          {
+            "name": "valid_response",
+            "passed": true
+          },
+          {
+            "name": "field:contextIntent.targetKm",
+            "passed": true,
+            "expected": 20,
+            "actual": 20
+          },
+          {
+            "name": "field:contextIntent.requestType",
+            "passed": true,
+            "expected": "route",
+            "actual": "route"
+          }
+        ],
+        "response": {
+          "message": "已完成需求解析（固定规划器评测）",
+          "items": [],
+          "route": {
+            "legs": [],
+            "stops": [],
+            "distanceKm": 20,
+            "durationMin": 90,
+            "hasEstimatedTime": true
+          },
+          "meta": {
+            "requestId": "ea58b1e9-26f0-4560-87fa-dd6136a0f35e",
+            "promptVersion": "idea-2026-11-09.v2",
+            "model": "deepseek-chat",
+            "modelCalls": 1,
+            "inputTokens": 2021,
+            "outputTokens": 159,
+            "modelDurationMs": 2996,
+            "elapsedMs": 3026,
+            "toolCalls": []
+          },
+          "title": "规划20公里骑行路线",
+          "contextIntent": {
+            "mode": "route",
+            "requestType": "route",
+            "place": null,
+            "origin": null,
+            "destination": null,
+            "returnToStart": false,
+            "needsSegment": false,
+            "segmentName": null,
+            "needsPoint": false,
+            "pointName": null,
+            "pointKind": null,
+            "order": [],
+            "stops": [],
+            "preferences": [],
+            "preferredTags": [],
+            "avoidTags": [],
+            "minKm": null,
+            "maxKm": null,
+            "targetKm": 20,
+            "targetMinutes": null,
+            "minMinutes": null,
+            "maxMinutes": null,
+            "timeScope": null,
+            "stopMinutes": null
+          },
+          "placeContext": null
+        }
+      }
+    ]
+  },
+  {
+    "id": "distance-30",
+    "category": "distance",
+    "split": "development",
+    "repeat": 1,
+    "passed": true,
+    "turns": [
+      {
+        "idea": "轻松骑三十公里",
+        "expected": {
+          "fields": {
+            "contextIntent.targetKm": 30,
+            "contextIntent.requestType": "route"
+          }
+        },
+        "status": 200,
+        "durationMs": 3317,
+        "checks": [
+          {
+            "name": "valid_response",
+            "passed": true
+          },
+          {
+            "name": "field:contextIntent.targetKm",
+            "passed": true,
+            "expected": 30,
+            "actual": 30
+          },
+          {
+            "name": "field:contextIntent.requestType",
+            "passed": true,
+            "expected": "route",
+            "actual": "route"
+          }
+        ],
+        "response": {
+          "message": "已完成需求解析（固定规划器评测）",
+          "items": [],
+          "route": {
+            "legs": [],
+            "stops": [],
+            "distanceKm": 30,
+            "durationMin": 90,
+            "hasEstimatedTime": true
+          },
+          "meta": {
+            "requestId": "e5a5efd7-4b9e-469d-a938-8ee643d8edc6",
+            "promptVersion": "idea-2026-11-09.v2",
+            "model": "deepseek-chat",
+            "modelCalls": 1,
+            "inputTokens": 2021,
+            "outputTokens": 160,
+            "modelDurationMs": 3295,
+            "elapsedMs": 3314,
+            "toolCalls": []
+          },
+          "title": "轻松骑行三十公里",
+          "contextIntent": {
+            "mode": "route",
+            "requestType": "route",
+            "place": null,
+            "origin": null,
+            "destination": null,
+            "returnToStart": false,
+            "needsSegment": false,
+            "segmentName": null,
+            "needsPoint": false,
+            "pointName": null,
+            "pointKind": null,
+            "order": [],
+            "stops": [],
+            "preferences": [
+              "休闲"
+            ],
+            "preferredTags": [],
+            "avoidTags": [],
+            "minKm": null,
+            "maxKm": null,
+            "targetKm": 30,
+            "targetMinutes": null,
+            "minMinutes": null,
+            "maxMinutes": null,
+            "timeScope": null,
+            "stopMinutes": null
+          },
+          "placeContext": null
+        }
+      }
+    ]
+  },
+  {
+    "id": "distance-50",
+    "category": "distance",
+    "split": "development",
+    "repeat": 1,
+    "passed": true,
+    "turns": [
+      {
+        "idea": "骑50公里",
+        "expected": {
+          "fields": {
+            "contextIntent.targetKm": 50,
+            "contextIntent.requestType": "route"
+          }
+        },
+        "status": 200,
+        "durationMs": 1812,
+        "checks": [
+          {
+            "name": "valid_response",
+            "passed": true
+          },
+          {
+            "name": "field:contextIntent.targetKm",
+            "passed": true,
+            "expected": 50,
+            "actual": 50
+          },
+          {
+            "name": "field:contextIntent.requestType",
+            "passed": true,
+            "expected": "route",
+            "actual": "route"
+          }
+        ],
+        "response": {
+          "message": "已完成需求解析（固定规划器评测）",
+          "items": [],
+          "route": {
+            "legs": [],
+            "stops": [],
+            "distanceKm": 50,
+            "durationMin": 90,
+            "hasEstimatedTime": true
+          },
+          "meta": {
+            "requestId": "288a0dbd-b995-4cbb-af4a-1fcb41c2daf8",
+            "promptVersion": "idea-2026-11-09.v2",
+            "model": "deepseek-chat",
+            "modelCalls": 1,
+            "inputTokens": 2020,
+            "outputTokens": 159,
+            "modelDurationMs": 1792,
+            "elapsedMs": 1809,
+            "toolCalls": []
+          },
+          "title": "规划50公里骑行路线",
+          "contextIntent": {
+            "mode": "route",
+            "requestType": "route",
+            "place": null,
+            "origin": null,
+            "destination": null,
+            "returnToStart": false,
+            "needsSegment": false,
+            "segmentName": null,
+            "needsPoint": false,
+            "pointName": null,
+            "pointKind": null,
+            "order": [],
+            "stops": [],
+            "preferences": [],
+            "preferredTags": [],
+            "avoidTags": [],
+            "minKm": null,
+            "maxKm": null,
+            "targetKm": 50,
+            "targetMinutes": null,
+            "minMinutes": null,
+            "maxMinutes": null,
+            "timeScope": null,
+            "stopMinutes": null
+          },
+          "placeContext": null
+        }
+      }
+    ]
+  },
+  {
+    "id": "distance-80",
+    "category": "distance",
+    "split": "development",
+    "repeat": 1,
+    "passed": true,
+    "turns": [
+      {
+        "idea": "今天想骑八十公里",
+        "expected": {
+          "fields": {
+            "contextIntent.targetKm": 80,
+            "contextIntent.requestType": "route"
+          }
+        },
+        "status": 200,
+        "durationMs": 2103,
+        "checks": [
+          {
+            "name": "valid_response",
+            "passed": true
+          },
+          {
+            "name": "field:contextIntent.targetKm",
+            "passed": true,
+            "expected": 80,
+            "actual": 80
+          },
+          {
+            "name": "field:contextIntent.requestType",
+            "passed": true,
+            "expected": "route",
+            "actual": "route"
+          }
+        ],
+        "response": {
+          "message": "已完成需求解析（固定规划器评测）",
+          "items": [],
+          "route": {
+            "legs": [],
+            "stops": [],
+            "distanceKm": 80,
+            "durationMin": 90,
+            "hasEstimatedTime": true
+          },
+          "meta": {
+            "requestId": "f9ba7f40-5b9a-4fbf-b867-1fb9c0821a23",
+            "promptVersion": "idea-2026-11-09.v2",
+            "model": "deepseek-chat",
+            "modelCalls": 1,
+            "inputTokens": 2022,
+            "outputTokens": 158,
+            "modelDurationMs": 2095,
+            "elapsedMs": 2102,
+            "toolCalls": []
+          },
+          "title": "今天骑行八十公里",
+          "contextIntent": {
+            "mode": "route",
+            "requestType": "route",
+            "place": null,
+            "origin": null,
+            "destination": null,
+            "returnToStart": false,
+            "needsSegment": false,
+            "segmentName": null,
+            "needsPoint": false,
+            "pointName": null,
+            "pointKind": null,
+            "order": [],
+            "stops": [],
+            "preferences": [],
+            "preferredTags": [],
+            "avoidTags": [],
+            "minKm": null,
+            "maxKm": null,
+            "targetKm": 80,
+            "targetMinutes": null,
+            "minMinutes": null,
+            "maxMinutes": null,
+            "timeScope": null,
+            "stopMinutes": null
+          },
+          "placeContext": null
+        }
+      }
+    ]
+  },
+  {
+    "id": "distance-decimal",
+    "category": "distance",
+    "split": "development",
+    "repeat": 1,
+    "passed": true,
+    "turns": [
+      {
+        "idea": "骑25.5公里",
+        "expected": {
+          "fields": {
+            "contextIntent.targetKm": 25.5,
+            "contextIntent.requestType": "route"
+          }
+        },
+        "status": 200,
+        "durationMs": 1607,
+        "checks": [
+          {
+            "name": "valid_response",
+            "passed": true
+          },
+          {
+            "name": "field:contextIntent.targetKm",
+            "passed": true,
+            "expected": 25.5,
+            "actual": 25.5
+          },
+          {
+            "name": "field:contextIntent.requestType",
+            "passed": true,
+            "expected": "route",
+            "actual": "route"
+          }
+        ],
+        "response": {
+          "message": "已完成需求解析（固定规划器评测）",
+          "items": [],
+          "route": {
+            "legs": [],
+            "stops": [],
+            "distanceKm": 25.5,
+            "durationMin": 90,
+            "hasEstimatedTime": true
+          },
+          "meta": {
+            "requestId": "8f902979-4458-48bc-b127-38ea4f20c1d4",
+            "promptVersion": "idea-2026-11-09.v2",
+            "model": "deepseek-chat",
+            "modelCalls": 1,
+            "inputTokens": 2022,
+            "outputTokens": 163,
+            "modelDurationMs": 1595,
+            "elapsedMs": 1605,
+            "toolCalls": []
+          },
+          "title": "规划25.5公里骑行路线",
+          "contextIntent": {
+            "mode": "route",
+            "requestType": "route",
+            "place": null,
+            "origin": null,
+            "destination": null,
+            "returnToStart": false,
+            "needsSegment": false,
+            "segmentName": null,
+            "needsPoint": false,
+            "pointName": null,
+            "pointKind": null,
+            "order": [],
+            "stops": [],
+            "preferences": [],
+            "preferredTags": [],
+            "avoidTags": [],
+            "minKm": null,
+            "maxKm": null,
+            "targetKm": 25.5,
+            "targetMinutes": null,
+            "minMinutes": null,
+            "maxMinutes": null,
+            "timeScope": null,
+            "stopMinutes": null
+          },
+          "placeContext": null
+        }
+      }
+    ]
+  },
+  {
+    "id": "distance-unspecified",
+    "category": "distance",
+    "split": "development",
+    "repeat": 1,
+    "passed": true,
+    "turns": [
+      {
+        "idea": "我想骑车",
+        "expected": {
+          "fields": {
+            "contextIntent.targetKm": null,
+            "contextIntent.requestType": "route"
+          }
+        },
+        "status": 200,
+        "durationMs": 1848,
+        "checks": [
+          {
+            "name": "valid_response",
+            "passed": true
+          },
+          {
+            "name": "field:contextIntent.targetKm",
+            "passed": true,
+            "expected": null,
+            "actual": null
+          },
+          {
+            "name": "field:contextIntent.requestType",
+            "passed": true,
+            "expected": "route",
+            "actual": "route"
+          }
+        ],
+        "response": {
+          "message": "已完成需求解析（固定规划器评测）",
+          "items": [],
+          "route": {
+            "legs": [],
+            "stops": [],
+            "distanceKm": 30,
+            "durationMin": 90,
+            "hasEstimatedTime": true
+          },
+          "meta": {
+            "requestId": "372bc31f-a0d2-406c-ab46-da50ca771966",
+            "promptVersion": "idea-2026-11-09.v2",
+            "model": "deepseek-chat",
+            "modelCalls": 1,
+            "inputTokens": 2019,
+            "outputTokens": 158,
+            "modelDurationMs": 1842,
+            "elapsedMs": 1847,
+            "toolCalls": []
+          },
+          "title": "规划一次骑行路线",
+          "contextIntent": {
+            "mode": "route",
+            "requestType": "route",
+            "place": null,
+            "origin": null,
+            "destination": null,
+            "returnToStart": false,
+            "needsSegment": false,
+            "segmentName": null,
+            "needsPoint": false,
+            "pointName": null,
+            "pointKind": null,
+            "order": [],
+            "stops": [],
+            "preferences": [],
+            "preferredTags": [],
+            "avoidTags": [],
+            "minKm": null,
+            "maxKm": null,
+            "targetKm": null,
+            "targetMinutes": null,
+            "minMinutes": null,
+            "maxMinutes": null,
+            "timeScope": null,
+            "stopMinutes": null
+          },
+          "placeContext": null
+        }
+      }
+    ]
+  },
+  {
+    "id": "range-target",
+    "category": "bounds",
+    "split": "development",
+    "repeat": 1,
+    "passed": true,
+    "turns": [
+      {
+        "idea": "骑50公里，范围40到60公里",
+        "expected": {
+          "fields": {
+            "contextIntent.targetKm": 50,
+            "contextIntent.minKm": 40,
+            "contextIntent.maxKm": 60
+          }
+        },
+        "status": 200,
+        "durationMs": 1604,
+        "checks": [
+          {
+            "name": "valid_response",
+            "passed": true
+          },
+          {
+            "name": "field:contextIntent.targetKm",
+            "passed": true,
+            "expected": 50,
+            "actual": 50
+          },
+          {
+            "name": "field:contextIntent.minKm",
+            "passed": true,
+            "expected": 40,
+            "actual": 40
+          },
+          {
+            "name": "field:contextIntent.maxKm",
+            "passed": true,
+            "expected": 60,
+            "actual": 60
+          }
+        ],
+        "response": {
+          "message": "已完成需求解析（固定规划器评测）",
+          "items": [],
+          "route": {
+            "legs": [],
+            "stops": [],
+            "distanceKm": 50,
+            "durationMin": 90,
+            "hasEstimatedTime": true
+          },
+          "meta": {
+            "requestId": "6c7fc29d-80b1-479e-be17-5cff221dc924",
+            "promptVersion": "idea-2026-11-09.v2",
+            "model": "deepseek-chat",
+            "modelCalls": 1,
+            "inputTokens": 2026,
+            "outputTokens": 161,
+            "modelDurationMs": 1597,
+            "elapsedMs": 1602,
+            "toolCalls": []
+          },
+          "title": "规划40到60公里骑行路线",
+          "contextIntent": {
+            "mode": "route",
+            "requestType": "route",
+            "place": null,
+            "origin": null,
+            "destination": null,
+            "returnToStart": false,
+            "needsSegment": false,
+            "segmentName": null,
+            "needsPoint": false,
+            "pointName": null,
+            "pointKind": null,
+            "order": [],
+            "stops": [],
+            "preferences": [],
+            "preferredTags": [],
+            "avoidTags": [],
+            "minKm": 40,
+            "maxKm": 60,
+            "targetKm": 50,
+            "targetMinutes": null,
+            "minMinutes": null,
+            "maxMinutes": null,
+            "timeScope": null,
+            "stopMinutes": null
+          },
+          "placeContext": null
+        }
+      }
+    ]
+  },
+  {
+    "id": "range-only",
+    "category": "bounds",
+    "split": "development",
+    "repeat": 1,
+    "passed": true,
+    "turns": [
+      {
+        "idea": "骑40到60公里",
+        "expected": {
+          "fields": {
+            "contextIntent.targetKm": null,
+            "contextIntent.minKm": 40,
+            "contextIntent.maxKm": 60
+          }
+        },
+        "status": 200,
+        "durationMs": 1701,
+        "checks": [
+          {
+            "name": "valid_response",
+            "passed": true
+          },
+          {
+            "name": "field:contextIntent.targetKm",
+            "passed": true,
+            "expected": null,
+            "actual": null
+          },
+          {
+            "name": "field:contextIntent.minKm",
+            "passed": true,
+            "expected": 40,
+            "actual": 40
+          },
+          {
+            "name": "field:contextIntent.maxKm",
+            "passed": true,
+            "expected": 60,
+            "actual": 60
+          }
+        ],
+        "response": {
+          "message": "已完成需求解析（固定规划器评测）",
+          "items": [],
+          "route": {
+            "legs": [],
+            "stops": [],
+            "distanceKm": 60,
+            "durationMin": 90,
+            "hasEstimatedTime": true
+          },
+          "meta": {
+            "requestId": "87add626-4db7-426c-aaf9-34a275a891ab",
+            "promptVersion": "idea-2026-11-09.v2",
+            "model": "deepseek-chat",
+            "modelCalls": 1,
+            "inputTokens": 2022,
+            "outputTokens": 161,
+            "modelDurationMs": 1693,
+            "elapsedMs": 1700,
+            "toolCalls": []
+          },
+          "title": "规划40到60公里骑行路线",
+          "contextIntent": {
+            "mode": "route",
+            "requestType": "route",
+            "place": null,
+            "origin": null,
+            "destination": null,
+            "returnToStart": false,
+            "needsSegment": false,
+            "segmentName": null,
+            "needsPoint": false,
+            "pointName": null,
+            "pointKind": null,
+            "order": [],
+            "stops": [],
+            "preferences": [],
+            "preferredTags": [],
+            "avoidTags": [],
+            "minKm": 40,
+            "maxKm": 60,
+            "targetKm": null,
+            "targetMinutes": null,
+            "minMinutes": null,
+            "maxMinutes": null,
+            "timeScope": null,
+            "stopMinutes": null
+          },
+          "placeContext": null
+        }
+      }
+    ]
+  },
+  {
+    "id": "range-upper",
+    "category": "bounds",
+    "split": "development",
+    "repeat": 1,
+    "passed": true,
+    "turns": [
+      {
+        "idea": "最多骑35公里",
+        "expected": {
+          "fields": {
+            "contextIntent.maxKm": 35
+          }
+        },
+        "status": 200,
+        "durationMs": 1465,
+        "checks": [
+          {
+            "name": "valid_response",
+            "passed": true
+          },
+          {
+            "name": "field:contextIntent.maxKm",
+            "passed": true,
+            "expected": 35,
+            "actual": 35
+          }
+        ],
+        "response": {
+          "message": "已完成需求解析（固定规划器评测）",
+          "items": [],
+          "route": {
+            "legs": [],
+            "stops": [],
+            "distanceKm": 35,
+            "durationMin": 90,
+            "hasEstimatedTime": true
+          },
+          "meta": {
+            "requestId": "7b56b9fe-a2d2-4ca3-8898-7d81ae412973",
+            "promptVersion": "idea-2026-11-09.v2",
+            "model": "deepseek-chat",
+            "modelCalls": 1,
+            "inputTokens": 2021,
+            "outputTokens": 159,
+            "modelDurationMs": 1453,
+            "elapsedMs": 1464,
+            "toolCalls": []
+          },
+          "title": "最多35公里骑行路线",
+          "contextIntent": {
+            "mode": "route",
+            "requestType": "route",
+            "place": null,
+            "origin": null,
+            "destination": null,
+            "returnToStart": false,
+            "needsSegment": false,
+            "segmentName": null,
+            "needsPoint": false,
+            "pointName": null,
+            "pointKind": null,
+            "order": [],
+            "stops": [],
+            "preferences": [],
+            "preferredTags": [],
+            "avoidTags": [],
+            "minKm": null,
+            "maxKm": 35,
+            "targetKm": null,
+            "targetMinutes": null,
+            "minMinutes": null,
+            "maxMinutes": null,
+            "timeScope": null,
+            "stopMinutes": null
+          },
+          "placeContext": null
+        }
+      }
+    ]
+  },
+  {
+    "id": "range-lower",
+    "category": "bounds",
+    "split": "development",
+    "repeat": 1,
+    "passed": true,
+    "turns": [
+      {
+        "idea": "至少骑45公里",
+        "expected": {
+          "fields": {
+            "contextIntent.minKm": 45
+          }
+        },
+        "status": 200,
+        "durationMs": 1612,
+        "checks": [
+          {
+            "name": "valid_response",
+            "passed": true
+          },
+          {
+            "name": "field:contextIntent.minKm",
+            "passed": true,
+            "expected": 45,
+            "actual": 45
+          }
+        ],
+        "response": {
+          "message": "已完成需求解析（固定规划器评测）",
+          "items": [],
+          "route": {
+            "legs": [],
+            "stops": [],
+            "distanceKm": 30,
+            "durationMin": 90,
+            "hasEstimatedTime": true
+          },
+          "meta": {
+            "requestId": "122c54de-90ac-4f42-9bf2-02e66c0948fe",
+            "promptVersion": "idea-2026-11-09.v2",
+            "model": "deepseek-chat",
+            "modelCalls": 1,
+            "inputTokens": 2021,
+            "outputTokens": 159,
+            "modelDurationMs": 1605,
+            "elapsedMs": 1610,
+            "toolCalls": []
+          },
+          "title": "至少45公里骑行路线",
+          "contextIntent": {
+            "mode": "route",
+            "requestType": "route",
+            "place": null,
+            "origin": null,
+            "destination": null,
+            "returnToStart": false,
+            "needsSegment": false,
+            "segmentName": null,
+            "needsPoint": false,
+            "pointName": null,
+            "pointKind": null,
+            "order": [],
+            "stops": [],
+            "preferences": [],
+            "preferredTags": [],
+            "avoidTags": [],
+            "minKm": 45,
+            "maxKm": null,
+            "targetKm": null,
+            "targetMinutes": null,
+            "minMinutes": null,
+            "maxMinutes": null,
+            "timeScope": null,
+            "stopMinutes": null
+          },
+          "placeContext": null
+        }
+      }
+    ]
+  },
+  {
+    "id": "range-tight",
+    "category": "bounds",
+    "split": "development",
+    "repeat": 1,
+    "passed": true,
+    "turns": [
+      {
+        "idea": "目标30公里，最少28最多32公里",
+        "expected": {
+          "fields": {
+            "contextIntent.targetKm": 30,
+            "contextIntent.minKm": 28,
+            "contextIntent.maxKm": 32
+          }
+        },
+        "status": 200,
+        "durationMs": 1817,
+        "checks": [
+          {
+            "name": "valid_response",
+            "passed": true
+          },
+          {
+            "name": "field:contextIntent.targetKm",
+            "passed": true,
+            "expected": 30,
+            "actual": 30
+          },
+          {
+            "name": "field:contextIntent.minKm",
+            "passed": true,
+            "expected": 28,
+            "actual": 28
+          },
+          {
+            "name": "field:contextIntent.maxKm",
+            "passed": true,
+            "expected": 32,
+            "actual": 32
+          }
+        ],
+        "response": {
+          "message": "已完成需求解析（固定规划器评测）",
+          "items": [],
+          "route": {
+            "legs": [],
+            "stops": [],
+            "distanceKm": 30,
+            "durationMin": 90,
+            "hasEstimatedTime": true
+          },
+          "meta": {
+            "requestId": "3f612cf2-c1ac-48e7-9004-e2c082a553e3",
+            "promptVersion": "idea-2026-11-09.v2",
+            "model": "deepseek-chat",
+            "modelCalls": 1,
+            "inputTokens": 2026,
+            "outputTokens": 159,
+            "modelDurationMs": 1812,
+            "elapsedMs": 1816,
+            "toolCalls": []
+          },
+          "title": "规划30公里骑行路线",
+          "contextIntent": {
+            "mode": "route",
+            "requestType": "route",
+            "place": null,
+            "origin": null,
+            "destination": null,
+            "returnToStart": false,
+            "needsSegment": false,
+            "segmentName": null,
+            "needsPoint": false,
+            "pointName": null,
+            "pointKind": null,
+            "order": [],
+            "stops": [],
+            "preferences": [],
+            "preferredTags": [],
+            "avoidTags": [],
+            "minKm": 28,
+            "maxKm": 32,
+            "targetKm": 30,
+            "targetMinutes": null,
+            "minMinutes": null,
+            "maxMinutes": null,
+            "timeScope": null,
+            "stopMinutes": null
+          },
+          "placeContext": null
+        }
+      }
+    ]
+  },
+  {
+    "id": "range-unchosen",
+    "category": "bounds",
+    "split": "development",
+    "repeat": 1,
+    "passed": true,
+    "turns": [
+      {
+        "idea": "随便骑一圈，不限定公里数",
+        "expected": {
+          "fields": {
+            "contextIntent.targetKm": null,
+            "contextIntent.minKm": null,
+            "contextIntent.maxKm": null
+          }
+        },
+        "status": 200,
+        "durationMs": 1893,
+        "checks": [
+          {
+            "name": "valid_response",
+            "passed": true
+          },
+          {
+            "name": "field:contextIntent.targetKm",
+            "passed": true,
+            "expected": null,
+            "actual": null
+          },
+          {
+            "name": "field:contextIntent.minKm",
+            "passed": true,
+            "expected": null,
+            "actual": null
+          },
+          {
+            "name": "field:contextIntent.maxKm",
+            "passed": true,
+            "expected": null,
+            "actual": null
+          }
+        ],
+        "response": {
+          "message": "已完成需求解析（固定规划器评测）",
+          "items": [],
+          "route": {
+            "legs": [],
+            "stops": [],
+            "distanceKm": 30,
+            "durationMin": 90,
+            "hasEstimatedTime": true
+          },
+          "meta": {
+            "requestId": "8b2112fb-b885-4fc7-9803-c07ae3876b77",
+            "promptVersion": "idea-2026-11-09.v2",
+            "model": "deepseek-chat",
+            "modelCalls": 1,
+            "inputTokens": 2025,
+            "outputTokens": 161,
+            "modelDurationMs": 1883,
+            "elapsedMs": 1890,
+            "toolCalls": []
+          },
+          "title": "随便骑一圈不限定公里数",
+          "contextIntent": {
+            "mode": "route",
+            "requestType": "route",
+            "place": null,
+            "origin": null,
+            "destination": null,
+            "returnToStart": true,
+            "needsSegment": false,
+            "segmentName": null,
+            "needsPoint": false,
+            "pointName": null,
+            "pointKind": null,
+            "order": [],
+            "stops": [],
+            "preferences": [],
+            "preferredTags": [],
+            "avoidTags": [],
+            "minKm": null,
+            "maxKm": null,
+            "targetKm": null,
+            "targetMinutes": null,
+            "minMinutes": null,
+            "maxMinutes": null,
+            "timeScope": null,
+            "stopMinutes": null
+          },
+          "placeContext": null
+        }
+      }
+    ]
+  },
+  {
+    "id": "time-two-hours",
+    "category": "time",
+    "split": "development",
+    "repeat": 1,
+    "passed": true,
+    "turns": [
+      {
+        "idea": "骑两小时",
+        "expected": {
+          "fields": {
+            "contextIntent.targetMinutes": 120
+          }
+        },
+        "status": 200,
+        "durationMs": 1903,
+        "checks": [
+          {
+            "name": "valid_response",
+            "passed": true
+          },
+          {
+            "name": "field:contextIntent.targetMinutes",
+            "passed": true,
+            "expected": 120,
+            "actual": 120
+          }
+        ],
+        "response": {
+          "message": "已完成需求解析（固定规划器评测）",
+          "items": [],
+          "route": {
+            "legs": [],
+            "stops": [],
+            "distanceKm": 30,
+            "durationMin": 120,
+            "hasEstimatedTime": true
+          },
+          "meta": {
+            "requestId": "e3b86bb9-bf37-4297-b727-b673da0ccacc",
+            "promptVersion": "idea-2026-11-09.v2",
+            "model": "deepseek-chat",
+            "modelCalls": 1,
+            "inputTokens": 2020,
+            "outputTokens": 159,
+            "modelDurationMs": 1896,
+            "elapsedMs": 1902,
+            "toolCalls": []
+          },
+          "title": "两小时骑行路线规划",
+          "contextIntent": {
+            "mode": "route",
+            "requestType": "route",
+            "place": null,
+            "origin": null,
+            "destination": null,
+            "returnToStart": false,
+            "needsSegment": false,
+            "segmentName": null,
+            "needsPoint": false,
+            "pointName": null,
+            "pointKind": null,
+            "order": [],
+            "stops": [],
+            "preferences": [],
+            "preferredTags": [],
+            "avoidTags": [],
+            "minKm": null,
+            "maxKm": null,
+            "targetKm": null,
+            "targetMinutes": 120,
+            "minMinutes": null,
+            "maxMinutes": null,
+            "timeScope": "riding",
+            "stopMinutes": null
+          },
+          "placeContext": null
+        }
+      }
+    ]
+  },
+  {
+    "id": "time-half-hour",
+    "category": "time",
+    "split": "development",
+    "repeat": 1,
+    "passed": true,
+    "turns": [
+      {
+        "idea": "骑半小时",
+        "expected": {
+          "fields": {
+            "contextIntent.targetMinutes": 30
+          }
+        },
+        "status": 200,
+        "durationMs": 2051,
+        "checks": [
+          {
+            "name": "valid_response",
+            "passed": true
+          },
+          {
+            "name": "field:contextIntent.targetMinutes",
+            "passed": true,
+            "expected": 30,
+            "actual": 30
+          }
+        ],
+        "response": {
+          "message": "已完成需求解析（固定规划器评测）",
+          "items": [],
+          "route": {
+            "legs": [],
+            "stops": [],
+            "distanceKm": 30,
+            "durationMin": 30,
+            "hasEstimatedTime": true
+          },
+          "meta": {
+            "requestId": "e0f89451-a409-4069-8b34-45d268f9eda1",
+            "promptVersion": "idea-2026-11-09.v2",
+            "model": "deepseek-chat",
+            "modelCalls": 1,
+            "inputTokens": 2019,
+            "outputTokens": 158,
+            "modelDurationMs": 1968,
+            "elapsedMs": 2049,
+            "toolCalls": []
+          },
+          "title": "半小时骑行路线规划",
+          "contextIntent": {
+            "mode": "route",
+            "requestType": "route",
+            "place": null,
+            "origin": null,
+            "destination": null,
+            "returnToStart": false,
+            "needsSegment": false,
+            "segmentName": null,
+            "needsPoint": false,
+            "pointName": null,
+            "pointKind": null,
+            "order": [],
+            "stops": [],
+            "preferences": [],
+            "preferredTags": [],
+            "avoidTags": [],
+            "minKm": null,
+            "maxKm": null,
+            "targetKm": null,
+            "targetMinutes": 30,
+            "minMinutes": null,
+            "maxMinutes": null,
+            "timeScope": "riding",
+            "stopMinutes": null
+          },
+          "placeContext": null
+        }
+      }
+    ]
+  },
+  {
+    "id": "time-ninety",
+    "category": "time",
+    "split": "development",
+    "repeat": 1,
+    "passed": true,
+    "turns": [
+      {
+        "idea": "骑一个半小时",
+        "expected": {
+          "fields": {
+            "contextIntent.targetMinutes": 90
+          }
+        },
+        "status": 200,
+        "durationMs": 2099,
+        "checks": [
+          {
+            "name": "valid_response",
+            "passed": true
+          },
+          {
+            "name": "field:contextIntent.targetMinutes",
+            "passed": true,
+            "expected": 90,
+            "actual": 90
+          }
+        ],
+        "response": {
+          "message": "已完成需求解析（固定规划器评测）",
+          "items": [],
+          "route": {
+            "legs": [],
+            "stops": [],
+            "distanceKm": 30,
+            "durationMin": 90,
+            "hasEstimatedTime": true
+          },
+          "meta": {
+            "requestId": "6eea5e28-26eb-4a70-84cb-72043a1573d1",
+            "promptVersion": "idea-2026-11-09.v2",
+            "model": "deepseek-chat",
+            "modelCalls": 1,
+            "inputTokens": 2020,
+            "outputTokens": 158,
+            "modelDurationMs": 2088,
+            "elapsedMs": 2096,
+            "toolCalls": []
+          },
+          "title": "骑行一个半小时路线",
+          "contextIntent": {
+            "mode": "route",
+            "requestType": "route",
+            "place": null,
+            "origin": null,
+            "destination": null,
+            "returnToStart": false,
+            "needsSegment": false,
+            "segmentName": null,
+            "needsPoint": false,
+            "pointName": null,
+            "pointKind": null,
+            "order": [],
+            "stops": [],
+            "preferences": [],
+            "preferredTags": [],
+            "avoidTags": [],
+            "minKm": null,
+            "maxKm": null,
+            "targetKm": null,
+            "targetMinutes": 90,
+            "minMinutes": null,
+            "maxMinutes": null,
+            "timeScope": "riding",
+            "stopMinutes": null
+          },
+          "placeContext": null
+        }
+      }
+    ]
+  },
+  {
+    "id": "time-cap",
+    "category": "time",
+    "split": "development",
+    "repeat": 1,
+    "passed": true,
+    "turns": [
+      {
+        "idea": "两小时内回来",
+        "expected": {
+          "fields": {
+            "contextIntent.maxMinutes": 120,
+            "contextIntent.timeScope": "total"
+          }
+        },
+        "status": 200,
+        "durationMs": 1848,
+        "checks": [
+          {
+            "name": "valid_response",
+            "passed": true
+          },
+          {
+            "name": "field:contextIntent.maxMinutes",
+            "passed": true,
+            "expected": 120,
+            "actual": 120
+          },
+          {
+            "name": "field:contextIntent.timeScope",
+            "passed": true,
+            "expected": "total",
+            "actual": "total"
+          }
+        ],
+        "response": {
+          "message": "已完成需求解析（固定规划器评测）",
+          "items": [],
+          "route": {
+            "legs": [],
+            "stops": [],
+            "distanceKm": 30,
+            "durationMin": 90,
+            "hasEstimatedTime": true
+          },
+          "meta": {
+            "requestId": "184428cb-635f-462b-902d-dbfb071c71ed",
+            "promptVersion": "idea-2026-11-09.v2",
+            "model": "deepseek-chat",
+            "modelCalls": 1,
+            "inputTokens": 2020,
+            "outputTokens": 158,
+            "modelDurationMs": 1844,
+            "elapsedMs": 1847,
+            "toolCalls": []
+          },
+          "title": "两小时内骑行往返",
+          "contextIntent": {
+            "mode": "route",
+            "requestType": "route",
+            "place": null,
+            "origin": null,
+            "destination": null,
+            "returnToStart": true,
+            "needsSegment": false,
+            "segmentName": null,
+            "needsPoint": false,
+            "pointName": null,
+            "pointKind": null,
+            "order": [],
+            "stops": [],
+            "preferences": [],
+            "preferredTags": [],
+            "avoidTags": [],
+            "minKm": null,
+            "maxKm": null,
+            "targetKm": null,
+            "targetMinutes": null,
+            "minMinutes": null,
+            "maxMinutes": 120,
+            "timeScope": "total",
+            "stopMinutes": null
+          },
+          "placeContext": null
+        }
+      }
+    ]
+  },
+  {
+    "id": "time-riding",
+    "category": "time",
+    "split": "development",
+    "repeat": 1,
+    "passed": true,
+    "turns": [
+      {
+        "idea": "只算骑车时间，骑90分钟",
+        "expected": {
+          "fields": {
+            "contextIntent.targetMinutes": 90,
+            "contextIntent.timeScope": "riding"
+          }
+        },
+        "status": 200,
+        "durationMs": 1877,
+        "checks": [
+          {
+            "name": "valid_response",
+            "passed": true
+          },
+          {
+            "name": "field:contextIntent.targetMinutes",
+            "passed": true,
+            "expected": 90,
+            "actual": 90
+          },
+          {
+            "name": "field:contextIntent.timeScope",
+            "passed": true,
+            "expected": "riding",
+            "actual": "riding"
+          }
+        ],
+        "response": {
+          "message": "已完成需求解析（固定规划器评测）",
+          "items": [],
+          "route": {
+            "legs": [],
+            "stops": [],
+            "distanceKm": 30,
+            "durationMin": 90,
+            "hasEstimatedTime": true
+          },
+          "meta": {
+            "requestId": "d8e37f21-22bb-4469-82c1-861dfcbb8f3a",
+            "promptVersion": "idea-2026-11-09.v2",
+            "model": "deepseek-chat",
+            "modelCalls": 1,
+            "inputTokens": 2025,
+            "outputTokens": 159,
+            "modelDurationMs": 1872,
+            "elapsedMs": 1876,
+            "toolCalls": []
+          },
+          "title": "骑行90分钟路线规划",
+          "contextIntent": {
+            "mode": "route",
+            "requestType": "route",
+            "place": null,
+            "origin": null,
+            "destination": null,
+            "returnToStart": false,
+            "needsSegment": false,
+            "segmentName": null,
+            "needsPoint": false,
+            "pointName": null,
+            "pointKind": null,
+            "order": [],
+            "stops": [],
+            "preferences": [],
+            "preferredTags": [],
+            "avoidTags": [],
+            "minKm": null,
+            "maxKm": null,
+            "targetKm": null,
+            "targetMinutes": 90,
+            "minMinutes": null,
+            "maxMinutes": null,
+            "timeScope": "riding",
+            "stopMinutes": null
+          },
+          "placeContext": null
+        }
+      }
+    ]
+  },
+  {
+    "id": "time-stops",
+    "category": "time",
+    "split": "development",
+    "repeat": 1,
+    "passed": true,
+    "turns": [
+      {
+        "idea": "含休息20分钟，两小时内回来",
+        "expected": {
+          "fields": {
+            "contextIntent.maxMinutes": 120,
+            "contextIntent.stopMinutes": 20,
+            "contextIntent.timeScope": "total"
+          }
+        },
+        "status": 200,
+        "durationMs": 1823,
+        "checks": [
+          {
+            "name": "valid_response",
+            "passed": true
+          },
+          {
+            "name": "field:contextIntent.maxMinutes",
+            "passed": true,
+            "expected": 120,
+            "actual": 120
+          },
+          {
+            "name": "field:contextIntent.stopMinutes",
+            "passed": true,
+            "expected": 20,
+            "actual": 20
+          },
+          {
+            "name": "field:contextIntent.timeScope",
+            "passed": true,
+            "expected": "total",
+            "actual": "total"
+          }
+        ],
+        "response": {
+          "message": "已完成需求解析（固定规划器评测）",
+          "items": [],
+          "route": {
+            "legs": [],
+            "stops": [],
+            "distanceKm": 30,
+            "durationMin": 90,
+            "hasEstimatedTime": true
+          },
+          "meta": {
+            "requestId": "89440759-8b0d-4f18-8c5c-9fac3c5a7bff",
+            "promptVersion": "idea-2026-11-09.v2",
+            "model": "deepseek-chat",
+            "modelCalls": 1,
+            "inputTokens": 2025,
+            "outputTokens": 159,
+            "modelDurationMs": 1814,
+            "elapsedMs": 1822,
+            "toolCalls": []
+          },
+          "title": "两小时内含休息骑行",
+          "contextIntent": {
+            "mode": "route",
+            "requestType": "route",
+            "place": null,
+            "origin": null,
+            "destination": null,
+            "returnToStart": false,
+            "needsSegment": false,
+            "segmentName": null,
+            "needsPoint": false,
+            "pointName": null,
+            "pointKind": null,
+            "order": [],
+            "stops": [],
+            "preferences": [],
+            "preferredTags": [],
+            "avoidTags": [],
+            "minKm": null,
+            "maxKm": null,
+            "targetKm": null,
+            "targetMinutes": null,
+            "minMinutes": null,
+            "maxMinutes": 120,
+            "timeScope": "total",
+            "stopMinutes": 20
+          },
+          "placeContext": null
+        }
+      }
+    ]
+  },
+  {
+    "id": "time-range",
+    "category": "time",
+    "split": "development",
+    "repeat": 1,
+    "passed": true,
+    "turns": [
+      {
+        "idea": "骑行时间60到90分钟",
+        "expected": {
+          "fields": {
+            "contextIntent.minMinutes": 60,
+            "contextIntent.maxMinutes": 90
+          }
+        },
+        "status": 200,
+        "durationMs": 1527,
+        "checks": [
+          {
+            "name": "valid_response",
+            "passed": true
+          },
+          {
+            "name": "field:contextIntent.minMinutes",
+            "passed": true,
+            "expected": 60,
+            "actual": 60
+          },
+          {
+            "name": "field:contextIntent.maxMinutes",
+            "passed": true,
+            "expected": 90,
+            "actual": 90
+          }
+        ],
+        "response": {
+          "message": "已完成需求解析（固定规划器评测）",
+          "items": [],
+          "route": {
+            "legs": [],
+            "stops": [],
+            "distanceKm": 30,
+            "durationMin": 90,
+            "hasEstimatedTime": true
+          },
+          "meta": {
+            "requestId": "849f8af2-4b99-4a7b-aa19-ec4ae7ff2dea",
+            "promptVersion": "idea-2026-11-09.v2",
+            "model": "deepseek-chat",
+            "modelCalls": 1,
+            "inputTokens": 2023,
+            "outputTokens": 160,
+            "modelDurationMs": 1522,
+            "elapsedMs": 1526,
+            "toolCalls": []
+          },
+          "title": "60到90分钟骑行路线",
+          "contextIntent": {
+            "mode": "route",
+            "requestType": "route",
+            "place": null,
+            "origin": null,
+            "destination": null,
+            "returnToStart": false,
+            "needsSegment": false,
+            "segmentName": null,
+            "needsPoint": false,
+            "pointName": null,
+            "pointKind": null,
+            "order": [],
+            "stops": [],
+            "preferences": [],
+            "preferredTags": [],
+            "avoidTags": [],
+            "minKm": null,
+            "maxKm": null,
+            "targetKm": null,
+            "targetMinutes": null,
+            "minMinutes": 60,
+            "maxMinutes": 90,
+            "timeScope": "riding",
+            "stopMinutes": null
+          },
+          "placeContext": null
+        }
+      }
+    ]
+  },
+  {
+    "id": "distance-and-time",
+    "category": "time",
+    "split": "development",
+    "repeat": 1,
+    "passed": true,
+    "turns": [
+      {
+        "idea": "骑30公里，骑行时间最多120分钟",
+        "expected": {
+          "fields": {
+            "contextIntent.targetKm": 30,
+            "contextIntent.maxMinutes": 120
+          }
+        },
+        "status": 200,
+        "durationMs": 2053,
+        "checks": [
+          {
+            "name": "valid_response",
+            "passed": true
+          },
+          {
+            "name": "field:contextIntent.targetKm",
+            "passed": true,
+            "expected": 30,
+            "actual": 30
+          },
+          {
+            "name": "field:contextIntent.maxMinutes",
+            "passed": true,
+            "expected": 120,
+            "actual": 120
+          }
+        ],
+        "response": {
+          "message": "已完成需求解析（固定规划器评测）",
+          "items": [],
+          "route": {
+            "legs": [],
+            "stops": [],
+            "distanceKm": 30,
+            "durationMin": 90,
+            "hasEstimatedTime": true
+          },
+          "meta": {
+            "requestId": "e2a1dc1f-edc5-440c-8c50-2c902a65d615",
+            "promptVersion": "idea-2026-11-09.v2",
+            "model": "deepseek-chat",
+            "modelCalls": 1,
+            "inputTokens": 2026,
+            "outputTokens": 159,
+            "modelDurationMs": 2029,
+            "elapsedMs": 2051,
+            "toolCalls": []
+          },
+          "title": "30公里两小时内骑行",
+          "contextIntent": {
+            "mode": "route",
+            "requestType": "route",
+            "place": null,
+            "origin": null,
+            "destination": null,
+            "returnToStart": false,
+            "needsSegment": false,
+            "segmentName": null,
+            "needsPoint": false,
+            "pointName": null,
+            "pointKind": null,
+            "order": [],
+            "stops": [],
+            "preferences": [],
+            "preferredTags": [],
+            "avoidTags": [],
+            "minKm": null,
+            "maxKm": null,
+            "targetKm": 30,
+            "targetMinutes": null,
+            "minMinutes": null,
+            "maxMinutes": 120,
+            "timeScope": "riding",
+            "stopMinutes": null
+          },
+          "placeContext": null
+        }
+      }
+    ]
+  },
+  {
+    "id": "avoid-climb",
+    "category": "preference",
+    "split": "development",
+    "repeat": 1,
+    "passed": true,
+    "turns": [
+      {
+        "idea": "规划路线，不要爬坡",
+        "expected": {
+          "fields": {
+            "contextIntent.avoidTags": [
+              "climbing"
+            ]
+          }
+        },
+        "status": 200,
+        "durationMs": 1796,
+        "checks": [
+          {
+            "name": "valid_response",
+            "passed": true
+          },
+          {
+            "name": "field:contextIntent.avoidTags",
+            "passed": true,
+            "expected": [
+              "climbing"
+            ],
+            "actual": [
+              "climbing"
+            ]
+          }
+        ],
+        "response": {
+          "message": "已完成需求解析（固定规划器评测）",
+          "items": [],
+          "route": {
+            "legs": [],
+            "stops": [],
+            "distanceKm": 30,
+            "durationMin": 90,
+            "hasEstimatedTime": true
+          },
+          "meta": {
+            "requestId": "0e64d85c-b339-4155-a1f7-157e24d3ebc9",
+            "promptVersion": "idea-2026-11-09.v2",
+            "model": "deepseek-chat",
+            "modelCalls": 1,
+            "inputTokens": 2023,
+            "outputTokens": 164,
+            "modelDurationMs": 1780,
+            "elapsedMs": 1795,
+            "toolCalls": []
+          },
+          "title": "规划不爬坡的骑行路线",
+          "contextIntent": {
+            "mode": "route",
+            "requestType": "route",
+            "place": null,
+            "origin": null,
+            "destination": null,
+            "returnToStart": false,
+            "needsSegment": false,
+            "segmentName": null,
+            "needsPoint": false,
+            "pointName": null,
+            "pointKind": null,
+            "order": [],
+            "stops": [],
+            "preferences": [],
+            "preferredTags": [],
+            "avoidTags": [
+              "climbing"
+            ],
+            "minKm": null,
+            "maxKm": null,
+            "targetKm": null,
+            "targetMinutes": null,
+            "minMinutes": null,
+            "maxMinutes": null,
+            "timeScope": null,
+            "stopMinutes": null
+          },
+          "placeContext": null
+        }
+      }
+    ]
+  },
+  {
+    "id": "prefer-climb",
+    "category": "preference",
+    "split": "development",
+    "repeat": 1,
+    "passed": true,
+    "turns": [
+      {
+        "idea": "找爬坡训练路段",
+        "expected": {
+          "fields": {
+            "contextIntent.preferredTags": [
+              "climbing"
+            ]
+          }
+        },
+        "status": 200,
+        "durationMs": 6249,
+        "checks": [
+          {
+            "name": "valid_response",
+            "passed": true
+          },
+          {
+            "name": "field:contextIntent.preferredTags",
+            "passed": true,
+            "expected": [
+              "climbing"
+            ],
+            "actual": [
+              "climbing"
+            ]
+          }
+        ],
+        "response": {
+          "message": "暂未找到与“爬坡训练路段”相关的可用路段或点位，也无法确认具体位置。可以提供所在区域或更具体的名称。",
+          "items": [],
+          "meta": {
+            "requestId": "070aa1db-5f5e-4ae9-8d0f-d05f89cc2404",
+            "promptVersion": "idea-2026-11-09.v2",
+            "model": "deepseek-chat",
+            "modelCalls": 3,
+            "inputTokens": 6033,
+            "outputTokens": 487,
+            "modelDurationMs": 6198,
+            "elapsedMs": 6248,
+            "toolCalls": [
+              {
+                "name": "search_candidates",
+                "status": "ok",
+                "durationMs": 1
+              }
+            ]
+          },
+          "title": "寻找爬坡训练路段",
+          "contextIntent": {
+            "mode": "recommend",
+            "requestType": "recommend",
+            "place": null,
+            "origin": null,
+            "destination": null,
+            "returnToStart": false,
+            "needsSegment": true,
+            "segmentName": null,
+            "needsPoint": false,
+            "pointName": null,
+            "pointKind": null,
+            "order": [],
+            "stops": [],
+            "preferences": [
+              "训练"
+            ],
+            "preferredTags": [
+              "climbing"
+            ],
+            "avoidTags": [],
+            "minKm": null,
+            "maxKm": null,
+            "targetKm": null,
+            "targetMinutes": null,
+            "minMinutes": null,
+            "maxMinutes": null,
+            "timeScope": null,
+            "stopMinutes": null
+          },
+          "placeContext": {
+            "query": "爬坡训练路段",
+            "terms": [
+              "爬坡",
+              "训练"
+            ],
+            "candidates": [],
+            "selectedId": null,
+            "area": null
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "prefer-popular",
+    "category": "preference",
+    "split": "development",
+    "repeat": 1,
+    "passed": true,
+    "turns": [
+      {
+        "idea": "骑热门路段",
+        "expected": {
+          "fields": {
+            "contextIntent.preferredTags": [
+              "popular"
+            ],
+            "contextIntent.needsSegment": true
+          }
+        },
+        "status": 200,
+        "durationMs": 5169,
+        "checks": [
+          {
+            "name": "valid_response",
+            "passed": true
+          },
+          {
+            "name": "field:contextIntent.preferredTags",
+            "passed": true,
+            "expected": [
+              "popular"
+            ],
+            "actual": [
+              "popular"
+            ]
+          },
+          {
+            "name": "field:contextIntent.needsSegment",
+            "passed": true,
+            "expected": true,
+            "actual": true
+          }
+        ],
+        "response": {
+          "message": "暂未找到与“热门路段”相关的可用路段或点位，也无法确认具体位置。可以提供所在区域或更具体的名称。",
+          "items": [],
+          "meta": {
+            "requestId": "745f1c92-7f2f-4845-adae-3c105d6dc900",
+            "promptVersion": "idea-2026-11-09.v2",
+            "model": "deepseek-chat",
+            "modelCalls": 3,
+            "inputTokens": 6010,
+            "outputTokens": 466,
+            "modelDurationMs": 5160,
+            "elapsedMs": 5168,
+            "toolCalls": [
+              {
+                "name": "search_candidates",
+                "status": "ok",
+                "durationMs": 0
+              }
+            ]
+          },
+          "title": "寻找热门骑行路段",
+          "contextIntent": {
+            "mode": "recommend",
+            "requestType": "recommend",
+            "place": null,
+            "origin": null,
+            "destination": null,
+            "returnToStart": false,
+            "needsSegment": true,
+            "segmentName": null,
+            "needsPoint": false,
+            "pointName": null,
+            "pointKind": null,
+            "order": [],
+            "stops": [],
+            "preferences": [
+              "热门"
+            ],
+            "preferredTags": [
+              "popular"
+            ],
+            "avoidTags": [],
+            "minKm": null,
+            "maxKm": null,
+            "targetKm": null,
+            "targetMinutes": null,
+            "minMinutes": null,
+            "maxMinutes": null,
+            "timeScope": null,
+            "stopMinutes": null
+          },
+          "placeContext": {
+            "query": "热门路段",
+            "terms": [
+              "热门路段"
+            ],
+            "candidates": [],
+            "selectedId": null,
+            "area": null
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "prefer-starred",
+    "category": "preference",
+    "split": "development",
+    "repeat": 1,
+    "passed": true,
+    "turns": [
+      {
+        "idea": "推荐收藏多的路段",
+        "expected": {
+          "fields": {
+            "contextIntent.preferredTags": [
+              "highly_starred"
+            ]
+          }
+        },
+        "status": 200,
+        "durationMs": 3301,
+        "checks": [
+          {
+            "name": "valid_response",
+            "passed": true
+          },
+          {
+            "name": "field:contextIntent.preferredTags",
+            "passed": true,
+            "expected": [
+              "highly_starred"
+            ],
+            "actual": [
+              "highly_starred"
+            ]
+          }
+        ],
+        "response": {
+          "message": "为你找到当前地图中心附近的推荐",
+          "center": {
+            "lat": 31.2,
+            "lng": 121.4
+          },
+          "area": "当前地图中心附近",
+          "items": [
+            {
+              "id": "segment:101",
+              "type": "segment",
+              "name": "滨江练习段",
+              "lat": 31.2,
+              "lng": 121.4,
+              "distanceKm": 10,
+              "hazardous": false,
+              "tags": {
+                "climbing": "unknown",
+                "loop": "unknown",
+                "out_and_back": "unknown",
+                "long_distance": "unknown",
+                "popular": "matched",
+                "highly_starred": "unknown"
+              },
+              "coordinates": [
+                {
+                  "lat": 31.2,
+                  "lng": 121.4
+                },
+                {
+                  "lat": 31.21,
+                  "lng": 121.41
+                }
+              ],
+              "reason": "标签显示热门，符合收藏多偏好。"
+            }
+          ],
+          "meta": {
+            "requestId": "ad0f61aa-e3fe-4283-9e17-ee9597e208fa",
+            "promptVersion": "idea-2026-11-09.v2",
+            "model": "deepseek-chat",
+            "modelCalls": 2,
+            "inputTokens": 2562,
+            "outputTokens": 213,
+            "modelDurationMs": 3289,
+            "elapsedMs": 3296,
+            "toolCalls": []
+          },
+          "title": "推荐收藏多的路段",
+          "contextIntent": {
+            "mode": "recommend",
+            "requestType": "recommend",
+            "place": null,
+            "origin": null,
+            "destination": null,
+            "returnToStart": false,
+            "needsSegment": true,
+            "segmentName": null,
+            "needsPoint": false,
+            "pointName": null,
+            "pointKind": null,
+            "order": [],
+            "stops": [],
+            "preferences": [],
+            "preferredTags": [
+              "highly_starred"
+            ],
+            "avoidTags": [],
+            "minKm": null,
+            "maxKm": null,
+            "targetKm": null,
+            "targetMinutes": null,
+            "minMinutes": null,
+            "maxMinutes": null,
+            "timeScope": null,
+            "stopMinutes": null
+          },
+          "placeContext": {
+            "query": "当前地图中心附近",
+            "terms": [],
+            "area": null,
+            "selectedId": null,
+            "candidates": [
+              {
+                "id": "segment:101",
+                "type": "segment",
+                "name": "滨江练习段"
+              }
+            ]
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "prefer-loop",
+    "category": "preference",
+    "split": "development",
+    "repeat": 1,
+    "passed": true,
+    "turns": [
+      {
+        "idea": "找适合刷圈训练的路段",
+        "expected": {
+          "fields": {
+            "contextIntent.preferredTags": [
+              "loop"
+            ]
+          }
+        },
+        "status": 200,
+        "durationMs": 3626,
+        "checks": [
+          {
+            "name": "valid_response",
+            "passed": true
+          },
+          {
+            "name": "field:contextIntent.preferredTags",
+            "passed": true,
+            "expected": [
+              "loop"
+            ],
+            "actual": [
+              "loop"
+            ]
+          }
+        ],
+        "response": {
+          "message": "为你找到当前地图中心附近的推荐",
+          "center": {
+            "lat": 31.2,
+            "lng": 121.4
+          },
+          "area": "当前地图中心附近",
+          "items": [
+            {
+              "id": "segment:102",
+              "type": "segment",
+              "name": "城市绕圈段",
+              "lat": 31.2,
+              "lng": 121.4,
+              "distanceKm": 12,
+              "hazardous": false,
+              "tags": {
+                "climbing": "unknown",
+                "loop": "matched",
+                "out_and_back": "unknown",
+                "long_distance": "unknown",
+                "popular": "unknown",
+                "highly_starred": "unknown"
+              },
+              "coordinates": [
+                {
+                  "lat": 31.2,
+                  "lng": 121.4
+                },
+                {
+                  "lat": 31.22,
+                  "lng": 121.42
+                }
+              ],
+              "reason": "标签含 loop，距离 12km，适合绕圈训练。"
+            },
+            {
+              "id": "segment:101",
+              "type": "segment",
+              "name": "滨江练习段",
+              "lat": 31.2,
+              "lng": 121.4,
+              "distanceKm": 10,
+              "hazardous": false,
+              "tags": {
+                "climbing": "unknown",
+                "loop": "unknown",
+                "out_and_back": "unknown",
+                "long_distance": "unknown",
+                "popular": "matched",
+                "highly_starred": "unknown"
+              },
+              "coordinates": [
+                {
+                  "lat": 31.2,
+                  "lng": 121.4
+                },
+                {
+                  "lat": 31.21,
+                  "lng": 121.41
+                }
+              ],
+              "reason": "热门练习路段，距离 10km，可作为训练备选。"
+            }
+          ],
+          "meta": {
+            "requestId": "ebb74dcc-c8de-443f-b6e7-45d853f2e0ef",
+            "promptVersion": "idea-2026-11-09.v2",
+            "model": "deepseek-chat",
+            "modelCalls": 2,
+            "inputTokens": 2569,
+            "outputTokens": 242,
+            "modelDurationMs": 3612,
+            "elapsedMs": 3626,
+            "toolCalls": []
+          },
+          "title": "寻找适合刷圈训练的路段",
+          "contextIntent": {
+            "mode": "recommend",
+            "requestType": "recommend",
+            "place": null,
+            "origin": null,
+            "destination": null,
+            "returnToStart": false,
+            "needsSegment": true,
+            "segmentName": null,
+            "needsPoint": false,
+            "pointName": null,
+            "pointKind": null,
+            "order": [],
+            "stops": [],
+            "preferences": [
+              "训练"
+            ],
+            "preferredTags": [
+              "loop"
+            ],
+            "avoidTags": [],
+            "minKm": null,
+            "maxKm": null,
+            "targetKm": null,
+            "targetMinutes": null,
+            "minMinutes": null,
+            "maxMinutes": null,
+            "timeScope": null,
+            "stopMinutes": null
+          },
+          "placeContext": {
+            "query": "当前地图中心附近",
+            "terms": [],
+            "area": null,
+            "selectedId": null,
+            "candidates": [
+              {
+                "id": "segment:102",
+                "type": "segment",
+                "name": "城市绕圈段"
+              },
+              {
+                "id": "segment:101",
+                "type": "segment",
+                "name": "滨江练习段"
+              }
+            ]
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "prefer-long",
+    "category": "preference",
+    "split": "development",
+    "repeat": 1,
+    "passed": true,
+    "turns": [
+      {
+        "idea": "推荐长距离路段",
+        "expected": {
+          "fields": {
+            "contextIntent.preferredTags": [
+              "long_distance"
+            ]
+          }
+        },
+        "status": 200,
+        "durationMs": 5736,
+        "checks": [
+          {
+            "name": "valid_response",
+            "passed": true
+          },
+          {
+            "name": "field:contextIntent.preferredTags",
+            "passed": true,
+            "expected": [
+              "long_distance"
+            ],
+            "actual": [
+              "long_distance"
+            ]
+          }
+        ],
+        "response": {
+          "message": "暂未找到与“长距离路段”相关的可用路段或点位，也无法确认具体位置。可以提供所在区域或更具体的名称。",
+          "items": [],
+          "meta": {
+            "requestId": "878d92b1-9fb1-4434-9ffb-74a191fbc190",
+            "promptVersion": "idea-2026-11-09.v2",
+            "model": "deepseek-chat",
+            "modelCalls": 3,
+            "inputTokens": 6016,
+            "outputTokens": 469,
+            "modelDurationMs": 5731,
+            "elapsedMs": 5735,
+            "toolCalls": [
+              {
+                "name": "search_candidates",
+                "status": "ok",
+                "durationMs": 0
+              }
+            ]
+          },
+          "title": "推荐长距离骑行路段",
+          "contextIntent": {
+            "mode": "recommend",
+            "requestType": "recommend",
+            "place": null,
+            "origin": null,
+            "destination": null,
+            "returnToStart": false,
+            "needsSegment": true,
+            "segmentName": null,
+            "needsPoint": false,
+            "pointName": null,
+            "pointKind": null,
+            "order": [],
+            "stops": [],
+            "preferences": [],
+            "preferredTags": [
+              "long_distance"
+            ],
+            "avoidTags": [],
+            "minKm": null,
+            "maxKm": null,
+            "targetKm": null,
+            "targetMinutes": null,
+            "minMinutes": null,
+            "maxMinutes": null,
+            "timeScope": null,
+            "stopMinutes": null
+          },
+          "placeContext": {
+            "query": "长距离路段",
+            "terms": [
+              "长距离"
+            ],
+            "candidates": [],
+            "selectedId": null,
+            "area": null
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "roundtrip-not-loop-tag",
+    "category": "preference",
+    "split": "development",
+    "repeat": 1,
+    "passed": true,
+    "turns": [
+      {
+        "idea": "骑30公里绕一圈回来",
+        "expected": {
+          "fields": {
+            "contextIntent.targetKm": 30,
+            "contextIntent.preferredTags": []
+          }
+        },
+        "status": 200,
+        "durationMs": 1832,
+        "checks": [
+          {
+            "name": "valid_response",
+            "passed": true
+          },
+          {
+            "name": "field:contextIntent.targetKm",
+            "passed": true,
+            "expected": 30,
+            "actual": 30
+          },
+          {
+            "name": "field:contextIntent.preferredTags",
+            "passed": true,
+            "expected": [],
+            "actual": []
+          }
+        ],
+        "response": {
+          "message": "已完成需求解析（固定规划器评测）",
+          "items": [],
+          "route": {
+            "legs": [],
+            "stops": [],
+            "distanceKm": 30,
+            "durationMin": 90,
+            "hasEstimatedTime": true
+          },
+          "meta": {
+            "requestId": "f99346b3-60fb-4e8d-a5c9-7e95faa601a9",
+            "promptVersion": "idea-2026-11-09.v2",
+            "model": "deepseek-chat",
+            "modelCalls": 1,
+            "inputTokens": 2023,
+            "outputTokens": 159,
+            "modelDurationMs": 1824,
+            "elapsedMs": 1829,
+            "toolCalls": []
+          },
+          "title": "30公里环形骑行路线",
+          "contextIntent": {
+            "mode": "route",
+            "requestType": "route",
+            "place": null,
+            "origin": null,
+            "destination": null,
+            "returnToStart": true,
+            "needsSegment": false,
+            "segmentName": null,
+            "needsPoint": false,
+            "pointName": null,
+            "pointKind": null,
+            "order": [],
+            "stops": [],
+            "preferences": [],
+            "preferredTags": [],
+            "avoidTags": [],
+            "minKm": null,
+            "maxKm": null,
+            "targetKm": 30,
+            "targetMinutes": null,
+            "minMinutes": null,
+            "maxMinutes": null,
+            "timeScope": null,
+            "stopMinutes": null
+          },
+          "placeContext": null
+        }
+      }
+    ]
+  },
+  {
+    "id": "prefer-outback",
+    "category": "preference",
+    "split": "development",
+    "repeat": 1,
+    "passed": true,
+    "turns": [
+      {
+        "idea": "推荐原路往返路段",
+        "expected": {
+          "fields": {
+            "contextIntent.preferredTags": [
+              "out_and_back"
+            ]
+          }
+        },
+        "status": 200,
+        "durationMs": 3987,
+        "checks": [
+          {
+            "name": "valid_response",
+            "passed": true
+          },
+          {
+            "name": "field:contextIntent.preferredTags",
+            "passed": true,
+            "expected": [
+              "out_and_back"
+            ],
+            "actual": [
+              "out_and_back"
+            ]
+          }
+        ],
+        "response": {
+          "message": "为你找到当前地图中心附近的推荐",
+          "center": {
+            "lat": 31.2,
+            "lng": 121.4
+          },
+          "area": "当前地图中心附近",
+          "items": [
+            {
+              "id": "segment:101",
+              "type": "segment",
+              "name": "滨江练习段",
+              "lat": 31.2,
+              "lng": 121.4,
+              "distanceKm": 10,
+              "hazardous": false,
+              "tags": {
+                "climbing": "unknown",
+                "loop": "unknown",
+                "out_and_back": "unknown",
+                "long_distance": "unknown",
+                "popular": "matched",
+                "highly_starred": "unknown"
+              },
+              "coordinates": [
+                {
+                  "lat": 31.2,
+                  "lng": 121.4
+                },
+                {
+                  "lat": 31.21,
+                  "lng": 121.41
+                }
+              ],
+              "reason": "滨江练习段，距离10公里，热门路段，适合作为原路往返骑行候选。"
+            }
+          ],
+          "meta": {
+            "requestId": "ace44a1a-642d-45aa-8870-8665da49ce64",
+            "promptVersion": "idea-2026-11-09.v2",
+            "model": "deepseek-chat",
+            "modelCalls": 2,
+            "inputTokens": 2604,
+            "outputTokens": 268,
+            "modelDurationMs": 3982,
+            "elapsedMs": 3987,
+            "toolCalls": []
+          },
+          "title": "推荐原路往返骑行路段",
+          "contextIntent": {
+            "mode": "recommend",
+            "requestType": "recommend",
+            "place": null,
+            "origin": null,
+            "destination": null,
+            "returnToStart": false,
+            "needsSegment": true,
+            "segmentName": null,
+            "needsPoint": false,
+            "pointName": null,
+            "pointKind": null,
+            "order": [],
+            "stops": [],
+            "preferences": [],
+            "preferredTags": [
+              "out_and_back"
+            ],
+            "avoidTags": [],
+            "minKm": null,
+            "maxKm": null,
+            "targetKm": null,
+            "targetMinutes": null,
+            "minMinutes": null,
+            "maxMinutes": null,
+            "timeScope": null,
+            "stopMinutes": null
+          },
+          "placeContext": {
+            "query": "当前地图中心附近",
+            "terms": [],
+            "area": null,
+            "selectedId": null,
+            "candidates": [
+              {
+                "id": "segment:101",
+                "type": "segment",
+                "name": "滨江练习段"
+              }
+            ]
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "origin",
+    "category": "entities",
+    "split": "development",
+    "repeat": 1,
+    "passed": true,
+    "turns": [
+      {
+        "idea": "从人民广场出发骑30公里",
+        "expected": {
+          "fields": {
+            "contextIntent.origin": "人民广场",
+            "contextIntent.targetKm": 30
+          }
+        },
+        "status": 200,
+        "durationMs": 1840,
+        "checks": [
+          {
+            "name": "valid_response",
+            "passed": true
+          },
+          {
+            "name": "field:contextIntent.origin",
+            "passed": true,
+            "expected": "人民广场",
+            "actual": "人民广场"
+          },
+          {
+            "name": "field:contextIntent.targetKm",
+            "passed": true,
+            "expected": 30,
+            "actual": 30
+          }
+        ],
+        "response": {
+          "message": "已完成需求解析（固定规划器评测）",
+          "items": [],
+          "route": {
+            "legs": [],
+            "stops": [],
+            "distanceKm": 30,
+            "durationMin": 90,
+            "hasEstimatedTime": true
+          },
+          "meta": {
+            "requestId": "8f7c5011-83e9-4454-8732-fee57d3cd124",
+            "promptVersion": "idea-2026-11-09.v2",
+            "model": "deepseek-chat",
+            "modelCalls": 1,
+            "inputTokens": 2024,
+            "outputTokens": 161,
+            "modelDurationMs": 1833,
+            "elapsedMs": 1839,
+            "toolCalls": []
+          },
+          "title": "人民广场出发骑30公里",
+          "contextIntent": {
+            "mode": "route",
+            "requestType": "route",
+            "place": null,
+            "origin": "人民广场",
+            "destination": null,
+            "returnToStart": false,
+            "needsSegment": false,
+            "segmentName": null,
+            "needsPoint": false,
+            "pointName": null,
+            "pointKind": null,
+            "order": [],
+            "stops": [],
+            "preferences": [],
+            "preferredTags": [],
+            "avoidTags": [],
+            "minKm": null,
+            "maxKm": null,
+            "targetKm": 30,
+            "targetMinutes": null,
+            "minMinutes": null,
+            "maxMinutes": null,
+            "timeScope": null,
+            "stopMinutes": null
+          },
+          "placeContext": null
+        }
+      }
+    ]
+  },
+  {
+    "id": "explicit-return",
+    "category": "entities",
+    "split": "development",
+    "repeat": 1,
+    "passed": true,
+    "turns": [
+      {
+        "idea": "从人民广场出发，最后返回出发地",
+        "expected": {
+          "fields": {
+            "contextIntent.origin": "人民广场",
+            "contextIntent.returnToStart": true
+          }
+        },
+        "status": 200,
+        "durationMs": 2051,
+        "checks": [
+          {
+            "name": "valid_response",
+            "passed": true
+          },
+          {
+            "name": "field:contextIntent.origin",
+            "passed": true,
+            "expected": "人民广场",
+            "actual": "人民广场"
+          },
+          {
+            "name": "field:contextIntent.returnToStart",
+            "passed": true,
+            "expected": true,
+            "actual": true
+          }
+        ],
+        "response": {
+          "message": "已完成需求解析（固定规划器评测）",
+          "items": [],
+          "route": {
+            "legs": [],
+            "stops": [],
+            "distanceKm": 30,
+            "durationMin": 90,
+            "hasEstimatedTime": true
+          },
+          "meta": {
+            "requestId": "8b5e037a-957e-41e2-ab48-64eb6094e96b",
+            "promptVersion": "idea-2026-11-09.v2",
+            "model": "deepseek-chat",
+            "modelCalls": 1,
+            "inputTokens": 2026,
+            "outputTokens": 161,
+            "modelDurationMs": 2047,
+            "elapsedMs": 2051,
+            "toolCalls": []
+          },
+          "title": "人民广场出发环线骑行",
+          "contextIntent": {
+            "mode": "route",
+            "requestType": "route",
+            "place": null,
+            "origin": "人民广场",
+            "destination": null,
+            "returnToStart": true,
+            "needsSegment": false,
+            "segmentName": null,
+            "needsPoint": false,
+            "pointName": null,
+            "pointKind": null,
+            "order": [],
+            "stops": [],
+            "preferences": [],
+            "preferredTags": [],
+            "avoidTags": [],
+            "minKm": null,
+            "maxKm": null,
+            "targetKm": null,
+            "targetMinutes": null,
+            "minMinutes": null,
+            "maxMinutes": null,
+            "timeScope": null,
+            "stopMinutes": null
+          },
+          "placeContext": null
+        }
+      }
+    ]
+  },
+  {
+    "id": "default-end",
+    "category": "entities",
+    "split": "development",
+    "repeat": 1,
+    "passed": true,
+    "turns": [
+      {
+        "idea": "轻松骑行，不指定目的地",
+        "expected": {
+          "fields": {
+            "contextIntent.origin": null,
+            "contextIntent.destination": null
+          }
+        },
+        "status": 200,
+        "durationMs": 1824,
+        "checks": [
+          {
+            "name": "valid_response",
+            "passed": true
+          },
+          {
+            "name": "field:contextIntent.origin",
+            "passed": true,
+            "expected": null,
+            "actual": null
+          },
+          {
+            "name": "field:contextIntent.destination",
+            "passed": true,
+            "expected": null,
+            "actual": null
+          }
+        ],
+        "response": {
+          "message": "已完成需求解析（固定规划器评测）",
+          "items": [],
+          "route": {
+            "legs": [],
+            "stops": [],
+            "distanceKm": 30,
+            "durationMin": 90,
+            "hasEstimatedTime": true
+          },
+          "meta": {
+            "requestId": "839831bd-4223-427a-b92e-b7047377e9ba",
+            "promptVersion": "idea-2026-11-09.v2",
+            "model": "deepseek-chat",
+            "modelCalls": 1,
+            "inputTokens": 2023,
+            "outputTokens": 161,
+            "modelDurationMs": 1810,
+            "elapsedMs": 1823,
+            "toolCalls": []
+          },
+          "title": "轻松骑行不指定目的地",
+          "contextIntent": {
+            "mode": "route",
+            "requestType": "route",
+            "place": null,
+            "origin": null,
+            "destination": null,
+            "returnToStart": false,
+            "needsSegment": false,
+            "segmentName": null,
+            "needsPoint": false,
+            "pointName": null,
+            "pointKind": null,
+            "order": [],
+            "stops": [],
+            "preferences": [
+              "休闲"
+            ],
+            "preferredTags": [],
+            "avoidTags": [],
+            "minKm": null,
+            "maxKm": null,
+            "targetKm": null,
+            "targetMinutes": null,
+            "minMinutes": null,
+            "maxMinutes": null,
+            "timeScope": null,
+            "stopMinutes": null
+          },
+          "placeContext": null
+        }
+      }
+    ]
+  },
+  {
+    "id": "destination",
+    "category": "entities",
+    "split": "development",
+    "repeat": 1,
+    "passed": true,
+    "turns": [
+      {
+        "idea": "骑车到世纪公园结束",
+        "expected": {
+          "fields": {
+            "contextIntent.destination": "世纪公园"
+          }
+        },
+        "status": 200,
+        "durationMs": 5262,
+        "checks": [
+          {
+            "name": "valid_response",
+            "passed": true
+          },
+          {
+            "name": "field:contextIntent.destination",
+            "passed": true,
+            "expected": "世纪公园",
+            "actual": "世纪公园"
+          }
+        ],
+        "response": {
+          "message": "已完成需求解析（固定规划器评测）",
+          "items": [],
+          "route": {
+            "legs": [],
+            "stops": [],
+            "distanceKm": 30,
+            "durationMin": 90,
+            "hasEstimatedTime": true
+          },
+          "note": "候选按地点中心附近检索，尚未校验行政区边界或区域内绕圈。",
+          "meta": {
+            "requestId": "f1932df2-394e-4782-bf18-ad61ab9ed7f1",
+            "promptVersion": "idea-2026-11-09.v2",
+            "model": "deepseek-chat",
+            "modelCalls": 3,
+            "inputTokens": 6008,
+            "outputTokens": 403,
+            "modelDurationMs": 5256,
+            "elapsedMs": 5261,
+            "toolCalls": [
+              {
+                "name": "search_candidates",
+                "status": "ok",
+                "durationMs": 0
+              }
+            ]
+          },
+          "title": "骑行至世纪公园结束",
+          "contextIntent": {
+            "mode": "route",
+            "requestType": "route",
+            "place": "世纪公园",
+            "origin": null,
+            "destination": "世纪公园",
+            "returnToStart": false,
+            "needsSegment": false,
+            "segmentName": null,
+            "needsPoint": false,
+            "pointName": null,
+            "pointKind": null,
+            "order": [],
+            "stops": [],
+            "preferences": [],
+            "preferredTags": [],
+            "avoidTags": [],
+            "minKm": null,
+            "maxKm": null,
+            "targetKm": null,
+            "targetMinutes": null,
+            "minMinutes": null,
+            "maxMinutes": null,
+            "timeScope": null,
+            "stopMinutes": null
+          },
+          "placeContext": {
+            "query": "世纪公园",
+            "terms": [
+              "世纪公园"
+            ],
+            "candidates": [
+              {
+                "id": "segment:101",
+                "type": "segment",
+                "name": "滨江练习段"
+              },
+              {
+                "id": "segment:102",
+                "type": "segment",
+                "name": "城市绕圈段"
+              },
+              {
+                "id": "point:201",
+                "type": "point",
+                "name": "补给咖啡站"
+              }
+            ],
+            "selectedId": null,
+            "area": "世纪公园"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "point-kind",
+    "category": "entities",
+    "split": "development",
+    "repeat": 1,
+    "passed": true,
+    "turns": [
+      {
+        "idea": "规划路线，中途找咖啡店",
+        "expected": {
+          "fields": {
+            "contextIntent.needsPoint": true,
+            "contextIntent.pointKind": "咖啡店"
+          }
+        },
+        "status": 200,
+        "durationMs": 1896,
+        "checks": [
+          {
+            "name": "valid_response",
+            "passed": true
+          },
+          {
+            "name": "field:contextIntent.needsPoint",
+            "passed": true,
+            "expected": true,
+            "actual": true
+          },
+          {
+            "name": "field:contextIntent.pointKind",
+            "passed": true,
+            "expected": "咖啡店",
+            "actual": "咖啡店"
+          }
+        ],
+        "response": {
+          "message": "已完成需求解析（固定规划器评测）",
+          "items": [],
+          "route": {
+            "legs": [],
+            "stops": [],
+            "distanceKm": 30,
+            "durationMin": 90,
+            "hasEstimatedTime": true
+          },
+          "meta": {
+            "requestId": "5b22c916-8c58-4b3c-a1f1-ed55299c8a21",
+            "promptVersion": "idea-2026-11-09.v2",
+            "model": "deepseek-chat",
+            "modelCalls": 1,
+            "inputTokens": 2024,
+            "outputTokens": 177,
+            "modelDurationMs": 1891,
+            "elapsedMs": 1895,
+            "toolCalls": []
+          },
+          "title": "规划路线并中途找咖啡店",
+          "contextIntent": {
+            "mode": "route",
+            "requestType": "route",
+            "place": null,
+            "origin": null,
+            "destination": null,
+            "returnToStart": false,
+            "needsSegment": false,
+            "segmentName": null,
+            "needsPoint": true,
+            "pointName": null,
+            "pointKind": "咖啡店",
+            "order": [
+              "point"
+            ],
+            "stops": [
+              {
+                "type": "point",
+                "name": null,
+                "kind": "咖啡店"
+              }
+            ],
+            "preferences": [],
+            "preferredTags": [],
+            "avoidTags": [],
+            "minKm": null,
+            "maxKm": null,
+            "targetKm": null,
+            "targetMinutes": null,
+            "minMinutes": null,
+            "maxMinutes": null,
+            "timeScope": null,
+            "stopMinutes": null
+          },
+          "placeContext": null
+        }
+      }
+    ]
+  },
+  {
+    "id": "modify-distance",
+    "category": "multi_turn",
+    "split": "development",
+    "repeat": 1,
+    "passed": true,
+    "turns": [
+      {
+        "idea": "骑50公里",
+        "expected": {},
+        "status": 200,
+        "durationMs": 1736,
+        "checks": [
+          {
+            "name": "valid_response",
+            "passed": true
+          }
+        ],
+        "response": {
+          "message": "已完成需求解析（固定规划器评测）",
+          "items": [],
+          "route": {
+            "legs": [],
+            "stops": [],
+            "distanceKm": 50,
+            "durationMin": 90,
+            "hasEstimatedTime": true
+          },
+          "meta": {
+            "requestId": "2f8ce7e7-d06f-45cb-a430-0fbf35cd2fba",
+            "promptVersion": "idea-2026-11-09.v2",
+            "model": "deepseek-chat",
+            "modelCalls": 1,
+            "inputTokens": 2020,
+            "outputTokens": 159,
+            "modelDurationMs": 1732,
+            "elapsedMs": 1735,
+            "toolCalls": []
+          },
+          "title": "规划50公里骑行路线",
+          "contextIntent": {
+            "mode": "route",
+            "requestType": "route",
+            "place": null,
+            "origin": null,
+            "destination": null,
+            "returnToStart": false,
+            "needsSegment": false,
+            "segmentName": null,
+            "needsPoint": false,
+            "pointName": null,
+            "pointKind": null,
+            "order": [],
+            "stops": [],
+            "preferences": [],
+            "preferredTags": [],
+            "avoidTags": [],
+            "minKm": null,
+            "maxKm": null,
+            "targetKm": 50,
+            "targetMinutes": null,
+            "minMinutes": null,
+            "maxMinutes": null,
+            "timeScope": null,
+            "stopMinutes": null
+          },
+          "placeContext": null
+        }
+      },
+      {
+        "idea": "改成30公里",
+        "expected": {
+          "fields": {
+            "contextIntent.targetKm": 30
+          }
+        },
+        "status": 200,
+        "durationMs": 2041,
+        "checks": [
+          {
+            "name": "valid_response",
+            "passed": true
+          },
+          {
+            "name": "field:contextIntent.targetKm",
+            "passed": true,
+            "expected": 30,
+            "actual": 30
+          }
+        ],
+        "response": {
+          "message": "已完成需求解析（固定规划器评测）",
+          "items": [],
+          "route": {
+            "legs": [],
+            "stops": [],
+            "distanceKm": 30,
+            "durationMin": 90,
+            "hasEstimatedTime": true
+          },
+          "meta": {
+            "requestId": "36e9b2c9-852d-4342-aa14-b5e3ae942130",
+            "promptVersion": "idea-2026-11-09.v2",
+            "model": "deepseek-chat",
+            "modelCalls": 1,
+            "inputTokens": 2166,
+            "outputTokens": 159,
+            "modelDurationMs": 2032,
+            "elapsedMs": 2040,
+            "toolCalls": []
+          },
+          "title": "骑行30公里路线规划",
+          "contextIntent": {
+            "mode": "route",
+            "requestType": "route",
+            "place": null,
+            "origin": null,
+            "destination": null,
+            "returnToStart": false,
+            "needsSegment": false,
+            "segmentName": null,
+            "needsPoint": false,
+            "pointName": null,
+            "pointKind": null,
+            "order": [],
+            "stops": [],
+            "preferences": [],
+            "preferredTags": [],
+            "avoidTags": [],
+            "minKm": null,
+            "maxKm": null,
+            "targetKm": 30,
+            "targetMinutes": null,
+            "minMinutes": null,
+            "maxMinutes": null,
+            "timeScope": null,
+            "stopMinutes": null
+          },
+          "placeContext": null
+        }
+      }
+    ]
+  },
+  {
+    "id": "ordered-stops",
+    "category": "entities",
+    "split": "development",
+    "repeat": 1,
+    "passed": true,
+    "turns": [
+      {
+        "idea": "先骑滨江练习段，再到补给咖啡站",
+        "expected": {
+          "fields": {
+            "contextIntent.stops": [
+              {
+                "type": "segment",
+                "name": "滨江练习段",
+                "kind": null
+              },
+              {
+                "type": "point",
+                "name": "补给咖啡站",
+                "kind": null
+              }
+            ]
+          }
+        },
+        "status": 200,
+        "durationMs": 5467,
+        "checks": [
+          {
+            "name": "valid_response",
+            "passed": true
+          },
+          {
+            "name": "field:contextIntent.stops",
+            "passed": true,
+            "expected": [
+              {
+                "type": "segment",
+                "name": "滨江练习段",
+                "kind": null
+              },
+              {
+                "type": "point",
+                "name": "补给咖啡站",
+                "kind": null
+              }
+            ],
+            "actual": [
+              {
+                "type": "segment",
+                "name": "滨江练习段",
+                "kind": null
+              },
+              {
+                "type": "point",
+                "name": "补给咖啡站",
+                "kind": null
+              }
+            ]
+          }
+        ],
+        "response": {
+          "message": "已完成需求解析（固定规划器评测）",
+          "items": [],
+          "route": {
+            "legs": [],
+            "stops": [],
+            "distanceKm": 30,
+            "durationMin": 90,
+            "hasEstimatedTime": true
+          },
+          "meta": {
+            "requestId": "8ce9110e-99d2-4fd5-9930-fce2a18098f4",
+            "promptVersion": "idea-2026-11-09.v2",
+            "model": "deepseek-chat",
+            "modelCalls": 3,
+            "inputTokens": 6299,
+            "outputTokens": 550,
+            "modelDurationMs": 5458,
+            "elapsedMs": 5466,
+            "toolCalls": [
+              {
+                "name": "search_candidates",
+                "status": "ok",
+                "durationMs": 1
+              },
+              {
+                "name": "search_candidates",
+                "status": "ok",
+                "durationMs": 0
+              }
+            ]
+          },
+          "title": "滨江练习段到补给咖啡站",
+          "contextIntent": {
+            "mode": "route",
+            "requestType": "route",
+            "place": null,
+            "origin": null,
+            "destination": null,
+            "returnToStart": false,
+            "needsSegment": true,
+            "segmentName": "滨江练习段",
+            "needsPoint": true,
+            "pointName": "补给咖啡站",
+            "pointKind": null,
+            "order": [
+              "segment",
+              "point"
+            ],
+            "stops": [
+              {
+                "type": "segment",
+                "name": "滨江练习段",
+                "kind": null
+              },
+              {
+                "type": "point",
+                "name": "补给咖啡站",
+                "kind": null
+              }
+            ],
+            "preferences": [],
+            "preferredTags": [],
+            "avoidTags": [],
+            "minKm": null,
+            "maxKm": null,
+            "targetKm": null,
+            "targetMinutes": null,
+            "minMinutes": null,
+            "maxMinutes": null,
+            "timeScope": null,
+            "stopMinutes": null
+          },
+          "placeContext": {
+            "query": "滨江练习段",
+            "terms": [
+              "滨江",
+              "练习段"
+            ],
+            "candidates": [
+              {
+                "id": "segment:101",
+                "type": "segment",
+                "name": "滨江练习段"
+              }
+            ],
+            "selectedId": "segment:101",
+            "area": null
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "modify-time",
+    "category": "multi_turn",
+    "split": "development",
+    "repeat": 1,
+    "passed": true,
+    "turns": [
+      {
+        "idea": "骑两小时",
+        "expected": {},
+        "status": 200,
+        "durationMs": 1306,
+        "checks": [
+          {
+            "name": "valid_response",
+            "passed": true
+          }
+        ],
+        "response": {
+          "message": "已完成需求解析（固定规划器评测）",
+          "items": [],
+          "route": {
+            "legs": [],
+            "stops": [],
+            "distanceKm": 30,
+            "durationMin": 120,
+            "hasEstimatedTime": true
+          },
+          "meta": {
+            "requestId": "c4b7c589-8c59-4c2a-8d8e-3870f5639ccb",
+            "promptVersion": "idea-2026-11-09.v2",
+            "model": "deepseek-chat",
+            "modelCalls": 1,
+            "inputTokens": 2020,
+            "outputTokens": 159,
+            "modelDurationMs": 1253,
+            "elapsedMs": 1304,
+            "toolCalls": []
+          },
+          "title": "两小时骑行路线规划",
+          "contextIntent": {
+            "mode": "route",
+            "requestType": "route",
+            "place": null,
+            "origin": null,
+            "destination": null,
+            "returnToStart": false,
+            "needsSegment": false,
+            "segmentName": null,
+            "needsPoint": false,
+            "pointName": null,
+            "pointKind": null,
+            "order": [],
+            "stops": [],
+            "preferences": [],
+            "preferredTags": [],
+            "avoidTags": [],
+            "minKm": null,
+            "maxKm": null,
+            "targetKm": null,
+            "targetMinutes": 120,
+            "minMinutes": null,
+            "maxMinutes": null,
+            "timeScope": "riding",
+            "stopMinutes": null
+          },
+          "placeContext": null
+        }
+      },
+      {
+        "idea": "改成一个小时",
+        "expected": {
+          "fields": {
+            "contextIntent.targetMinutes": 60
+          }
+        },
+        "status": 200,
+        "durationMs": 1904,
+        "checks": [
+          {
+            "name": "valid_response",
+            "passed": true
+          },
+          {
+            "name": "field:contextIntent.targetMinutes",
+            "passed": true,
+            "expected": 60,
+            "actual": 60
+          }
+        ],
+        "response": {
+          "message": "已完成需求解析（固定规划器评测）",
+          "items": [],
+          "route": {
+            "legs": [],
+            "stops": [],
+            "distanceKm": 30,
+            "durationMin": 60,
+            "hasEstimatedTime": true
+          },
+          "meta": {
+            "requestId": "7a45fed3-91ee-4b4a-b654-302be09a1d5d",
+            "promptVersion": "idea-2026-11-09.v2",
+            "model": "deepseek-chat",
+            "modelCalls": 1,
+            "inputTokens": 2166,
+            "outputTokens": 158,
+            "modelDurationMs": 1891,
+            "elapsedMs": 1903,
+            "toolCalls": []
+          },
+          "title": "一小时骑行路线规划",
+          "contextIntent": {
+            "mode": "route",
+            "requestType": "route",
+            "place": null,
+            "origin": null,
+            "destination": null,
+            "returnToStart": false,
+            "needsSegment": false,
+            "segmentName": null,
+            "needsPoint": false,
+            "pointName": null,
+            "pointKind": null,
+            "order": [],
+            "stops": [],
+            "preferences": [],
+            "preferredTags": [],
+            "avoidTags": [],
+            "minKm": null,
+            "maxKm": null,
+            "targetKm": null,
+            "targetMinutes": 60,
+            "minMinutes": null,
+            "maxMinutes": null,
+            "timeScope": "riding",
+            "stopMinutes": null
+          },
+          "placeContext": null
+        }
+      }
+    ]
+  },
+  {
+    "id": "keep-distance",
+    "category": "multi_turn",
+    "split": "development",
+    "repeat": 1,
+    "passed": true,
+    "turns": [
+      {
+        "idea": "骑50公里",
+        "expected": {},
+        "status": 200,
+        "durationMs": 2159,
+        "checks": [
+          {
+            "name": "valid_response",
+            "passed": true
+          }
+        ],
+        "response": {
+          "message": "已完成需求解析（固定规划器评测）",
+          "items": [],
+          "route": {
+            "legs": [],
+            "stops": [],
+            "distanceKm": 50,
+            "durationMin": 90,
+            "hasEstimatedTime": true
+          },
+          "meta": {
+            "requestId": "c3284f70-f2cb-4fd7-aed2-b5b93ed6c659",
+            "promptVersion": "idea-2026-11-09.v2",
+            "model": "deepseek-chat",
+            "modelCalls": 1,
+            "inputTokens": 2020,
+            "outputTokens": 159,
+            "modelDurationMs": 2152,
+            "elapsedMs": 2158,
+            "toolCalls": []
+          },
+          "title": "规划50公里骑行路线",
+          "contextIntent": {
+            "mode": "route",
+            "requestType": "route",
+            "place": null,
+            "origin": null,
+            "destination": null,
+            "returnToStart": false,
+            "needsSegment": false,
+            "segmentName": null,
+            "needsPoint": false,
+            "pointName": null,
+            "pointKind": null,
+            "order": [],
+            "stops": [],
+            "preferences": [],
+            "preferredTags": [],
+            "avoidTags": [],
+            "minKm": null,
+            "maxKm": null,
+            "targetKm": 50,
+            "targetMinutes": null,
+            "minMinutes": null,
+            "maxMinutes": null,
+            "timeScope": null,
+            "stopMinutes": null
+          },
+          "placeContext": null
+        }
+      },
+      {
+        "idea": "想轻松一点",
+        "expected": {
+          "fields": {
+            "contextIntent.targetKm": 50
+          }
+        },
+        "status": 200,
+        "durationMs": 2172,
+        "checks": [
+          {
+            "name": "valid_response",
+            "passed": true
+          },
+          {
+            "name": "field:contextIntent.targetKm",
+            "passed": true,
+            "expected": 50,
+            "actual": 50
+          }
+        ],
+        "response": {
+          "message": "已完成需求解析（固定规划器评测）",
+          "items": [],
+          "route": {
+            "legs": [],
+            "stops": [],
+            "distanceKm": 50,
+            "durationMin": 90,
+            "hasEstimatedTime": true
+          },
+          "meta": {
+            "requestId": "63440cca-102a-4cd4-affb-91f821a15081",
+            "promptVersion": "idea-2026-11-09.v2",
+            "model": "deepseek-chat",
+            "modelCalls": 1,
+            "inputTokens": 2166,
+            "outputTokens": 161,
+            "modelDurationMs": 2170,
+            "elapsedMs": 2172,
+            "toolCalls": []
+          },
+          "title": "轻松骑行50公里路线",
+          "contextIntent": {
+            "mode": "route",
+            "requestType": "route",
+            "place": null,
+            "origin": null,
+            "destination": null,
+            "returnToStart": false,
+            "needsSegment": false,
+            "segmentName": null,
+            "needsPoint": false,
+            "pointName": null,
+            "pointKind": null,
+            "order": [],
+            "stops": [],
+            "preferences": [
+              "休闲"
+            ],
+            "preferredTags": [],
+            "avoidTags": [],
+            "minKm": null,
+            "maxKm": null,
+            "targetKm": 50,
+            "targetMinutes": null,
+            "minMinutes": null,
+            "maxMinutes": null,
+            "timeScope": null,
+            "stopMinutes": null
+          },
+          "placeContext": null
+        }
+      }
+    ]
+  },
+  {
+    "id": "keep-avoidance",
+    "category": "multi_turn",
+    "split": "development",
+    "repeat": 1,
+    "passed": true,
+    "turns": [
+      {
+        "idea": "规划路线，不要爬坡",
+        "expected": {},
+        "status": 200,
+        "durationMs": 1480,
+        "checks": [
+          {
+            "name": "valid_response",
+            "passed": true
+          }
+        ],
+        "response": {
+          "message": "已完成需求解析（固定规划器评测）",
+          "items": [],
+          "route": {
+            "legs": [],
+            "stops": [],
+            "distanceKm": 30,
+            "durationMin": 90,
+            "hasEstimatedTime": true
+          },
+          "meta": {
+            "requestId": "6b2d7de4-56ca-4b1b-9c50-f32f64947ba3",
+            "promptVersion": "idea-2026-11-09.v2",
+            "model": "deepseek-chat",
+            "modelCalls": 1,
+            "inputTokens": 2023,
+            "outputTokens": 164,
+            "modelDurationMs": 1469,
+            "elapsedMs": 1479,
+            "toolCalls": []
+          },
+          "title": "规划不爬坡的骑行路线",
+          "contextIntent": {
+            "mode": "route",
+            "requestType": "route",
+            "place": null,
+            "origin": null,
+            "destination": null,
+            "returnToStart": false,
+            "needsSegment": false,
+            "segmentName": null,
+            "needsPoint": false,
+            "pointName": null,
+            "pointKind": null,
+            "order": [],
+            "stops": [],
+            "preferences": [],
+            "preferredTags": [],
+            "avoidTags": [
+              "climbing"
+            ],
+            "minKm": null,
+            "maxKm": null,
+            "targetKm": null,
+            "targetMinutes": null,
+            "minMinutes": null,
+            "maxMinutes": null,
+            "timeScope": null,
+            "stopMinutes": null
+          },
+          "placeContext": null
+        }
+      },
+      {
+        "idea": "目标40公里",
+        "expected": {
+          "fields": {
+            "contextIntent.targetKm": 40,
+            "contextIntent.avoidTags": [
+              "climbing"
+            ]
+          }
+        },
+        "status": 200,
+        "durationMs": 1889,
+        "checks": [
+          {
+            "name": "valid_response",
+            "passed": true
+          },
+          {
+            "name": "field:contextIntent.targetKm",
+            "passed": true,
+            "expected": 40,
+            "actual": 40
+          },
+          {
+            "name": "field:contextIntent.avoidTags",
+            "passed": true,
+            "expected": [
+              "climbing"
+            ],
+            "actual": [
+              "climbing"
+            ]
+          }
+        ],
+        "response": {
+          "message": "已完成需求解析（固定规划器评测）",
+          "items": [],
+          "route": {
+            "legs": [],
+            "stops": [],
+            "distanceKm": 40,
+            "durationMin": 90,
+            "hasEstimatedTime": true
+          },
+          "meta": {
+            "requestId": "e84e0f2f-8b59-4ef8-8cc9-c21dff5bb291",
+            "promptVersion": "idea-2026-11-09.v2",
+            "model": "deepseek-chat",
+            "modelCalls": 1,
+            "inputTokens": 2172,
+            "outputTokens": 164,
+            "modelDurationMs": 1885,
+            "elapsedMs": 1888,
+            "toolCalls": []
+          },
+          "title": "不爬坡40公里骑行路线",
+          "contextIntent": {
+            "mode": "route",
+            "requestType": "route",
+            "place": null,
+            "origin": null,
+            "destination": null,
+            "returnToStart": false,
+            "needsSegment": false,
+            "segmentName": null,
+            "needsPoint": false,
+            "pointName": null,
+            "pointKind": null,
+            "order": [],
+            "stops": [],
+            "preferences": [],
+            "preferredTags": [],
+            "avoidTags": [
+              "climbing"
+            ],
+            "minKm": null,
+            "maxKm": null,
+            "targetKm": 40,
+            "targetMinutes": null,
+            "minMinutes": null,
+            "maxMinutes": null,
+            "timeScope": null,
+            "stopMinutes": null
+          },
+          "placeContext": null
+        }
+      }
+    ]
+  },
+  {
+    "id": "add-time",
+    "category": "multi_turn",
+    "split": "development",
+    "repeat": 1,
+    "passed": true,
+    "turns": [
+      {
+        "idea": "骑40公里",
+        "expected": {},
+        "status": 200,
+        "durationMs": 1939,
+        "checks": [
+          {
+            "name": "valid_response",
+            "passed": true
+          }
+        ],
+        "response": {
+          "message": "已完成需求解析（固定规划器评测）",
+          "items": [],
+          "route": {
+            "legs": [],
+            "stops": [],
+            "distanceKm": 40,
+            "durationMin": 90,
+            "hasEstimatedTime": true
+          },
+          "meta": {
+            "requestId": "1a6062db-43f1-4deb-8136-3be466be2c4e",
+            "promptVersion": "idea-2026-11-09.v2",
+            "model": "deepseek-chat",
+            "modelCalls": 1,
+            "inputTokens": 2020,
+            "outputTokens": 159,
+            "modelDurationMs": 1935,
+            "elapsedMs": 1938,
+            "toolCalls": []
+          },
+          "title": "规划40公里骑行路线",
+          "contextIntent": {
+            "mode": "route",
+            "requestType": "route",
+            "place": null,
+            "origin": null,
+            "destination": null,
+            "returnToStart": false,
+            "needsSegment": false,
+            "segmentName": null,
+            "needsPoint": false,
+            "pointName": null,
+            "pointKind": null,
+            "order": [],
+            "stops": [],
+            "preferences": [],
+            "preferredTags": [],
+            "avoidTags": [],
+            "minKm": null,
+            "maxKm": null,
+            "targetKm": 40,
+            "targetMinutes": null,
+            "minMinutes": null,
+            "maxMinutes": null,
+            "timeScope": null,
+            "stopMinutes": null
+          },
+          "placeContext": null
+        }
+      },
+      {
+        "idea": "最多两个小时，含停留",
+        "expected": {
+          "fields": {
+            "contextIntent.targetKm": 40,
+            "contextIntent.maxMinutes": 120,
+            "contextIntent.timeScope": "total"
+          }
+        },
+        "status": 200,
+        "durationMs": 1977,
+        "checks": [
+          {
+            "name": "valid_response",
+            "passed": true
+          },
+          {
+            "name": "field:contextIntent.targetKm",
+            "passed": true,
+            "expected": 40,
+            "actual": 40
+          },
+          {
+            "name": "field:contextIntent.maxMinutes",
+            "passed": true,
+            "expected": 120,
+            "actual": 120
+          },
+          {
+            "name": "field:contextIntent.timeScope",
+            "passed": true,
+            "expected": "total",
+            "actual": "total"
+          }
+        ],
+        "response": {
+          "message": "已完成需求解析（固定规划器评测）",
+          "items": [],
+          "route": {
+            "legs": [],
+            "stops": [],
+            "distanceKm": 40,
+            "durationMin": 90,
+            "hasEstimatedTime": true
+          },
+          "meta": {
+            "requestId": "249b5997-6953-45f7-991d-65c19c67cd6b",
+            "promptVersion": "idea-2026-11-09.v2",
+            "model": "deepseek-chat",
+            "modelCalls": 1,
+            "inputTokens": 2168,
+            "outputTokens": 160,
+            "modelDurationMs": 1969,
+            "elapsedMs": 1976,
+            "toolCalls": []
+          },
+          "title": "40公里两小时内含停留",
+          "contextIntent": {
+            "mode": "route",
+            "requestType": "route",
+            "place": null,
+            "origin": null,
+            "destination": null,
+            "returnToStart": false,
+            "needsSegment": false,
+            "segmentName": null,
+            "needsPoint": false,
+            "pointName": null,
+            "pointKind": null,
+            "order": [],
+            "stops": [],
+            "preferences": [],
+            "preferredTags": [],
+            "avoidTags": [],
+            "minKm": null,
+            "maxKm": null,
+            "targetKm": 40,
+            "targetMinutes": null,
+            "minMinutes": null,
+            "maxMinutes": 120,
+            "timeScope": "total",
+            "stopMinutes": null
+          },
+          "placeContext": null
+        }
+      }
+    ]
+  },
+  {
+    "id": "keep-stop-time",
+    "category": "multi_turn",
+    "split": "development",
+    "repeat": 1,
+    "passed": true,
+    "turns": [
+      {
+        "idea": "两小时内回来，休息20分钟",
+        "expected": {},
+        "status": 200,
+        "durationMs": 2010,
+        "checks": [
+          {
+            "name": "valid_response",
+            "passed": true
+          }
+        ],
+        "response": {
+          "message": "已完成需求解析（固定规划器评测）",
+          "items": [],
+          "route": {
+            "legs": [],
+            "stops": [],
+            "distanceKm": 30,
+            "durationMin": 90,
+            "hasEstimatedTime": true
+          },
+          "meta": {
+            "requestId": "c3cadcc2-997d-442c-ba8b-129d1e777c96",
+            "promptVersion": "idea-2026-11-09.v2",
+            "model": "deepseek-chat",
+            "modelCalls": 1,
+            "inputTokens": 2024,
+            "outputTokens": 159,
+            "modelDurationMs": 2007,
+            "elapsedMs": 2010,
+            "toolCalls": []
+          },
+          "title": "两小时内含休息骑行",
+          "contextIntent": {
+            "mode": "route",
+            "requestType": "route",
+            "place": null,
+            "origin": null,
+            "destination": null,
+            "returnToStart": true,
+            "needsSegment": false,
+            "segmentName": null,
+            "needsPoint": false,
+            "pointName": null,
+            "pointKind": null,
+            "order": [],
+            "stops": [],
+            "preferences": [],
+            "preferredTags": [],
+            "avoidTags": [],
+            "minKm": null,
+            "maxKm": null,
+            "targetKm": null,
+            "targetMinutes": null,
+            "minMinutes": null,
+            "maxMinutes": 120,
+            "timeScope": "total",
+            "stopMinutes": 20
+          },
+          "placeContext": null
+        }
+      },
+      {
+        "idea": "距离大概30公里",
+        "expected": {
+          "fields": {
+            "contextIntent.targetKm": 30,
+            "contextIntent.stopMinutes": 20,
+            "contextIntent.maxMinutes": 120
+          }
+        },
+        "status": 200,
+        "durationMs": 1823,
+        "checks": [
+          {
+            "name": "valid_response",
+            "passed": true
+          },
+          {
+            "name": "field:contextIntent.targetKm",
+            "passed": true,
+            "expected": 30,
+            "actual": 30
+          },
+          {
+            "name": "field:contextIntent.stopMinutes",
+            "passed": true,
+            "expected": 20,
+            "actual": 20
+          },
+          {
+            "name": "field:contextIntent.maxMinutes",
+            "passed": true,
+            "expected": 120,
+            "actual": 120
+          }
+        ],
+        "response": {
+          "message": "已完成需求解析（固定规划器评测）",
+          "items": [],
+          "route": {
+            "legs": [],
+            "stops": [],
+            "distanceKm": 30,
+            "durationMin": 90,
+            "hasEstimatedTime": true
+          },
+          "meta": {
+            "requestId": "b7030ddd-7b6f-45c2-a6cf-6a7888bcf253",
+            "promptVersion": "idea-2026-11-09.v2",
+            "model": "deepseek-chat",
+            "modelCalls": 1,
+            "inputTokens": 2171,
+            "outputTokens": 160,
+            "modelDurationMs": 1818,
+            "elapsedMs": 1822,
+            "toolCalls": []
+          },
+          "title": "两小时内骑行约30公里",
+          "contextIntent": {
+            "mode": "route",
+            "requestType": "route",
+            "place": null,
+            "origin": null,
+            "destination": null,
+            "returnToStart": true,
+            "needsSegment": false,
+            "segmentName": null,
+            "needsPoint": false,
+            "pointName": null,
+            "pointKind": null,
+            "order": [],
+            "stops": [],
+            "preferences": [],
+            "preferredTags": [],
+            "avoidTags": [],
+            "minKm": null,
+            "maxKm": null,
+            "targetKm": 30,
+            "targetMinutes": null,
+            "minMinutes": null,
+            "maxMinutes": 120,
+            "timeScope": "total",
+            "stopMinutes": 20
+          },
+          "placeContext": null
+        }
+      }
+    ]
+  },
+  {
+    "id": "new-conversation",
+    "category": "multi_turn",
+    "split": "holdout",
+    "repeat": 1,
+    "passed": true,
+    "turns": [
+      {
+        "idea": "骑50公里，想爬坡",
+        "expected": {},
+        "status": 200,
+        "durationMs": 2028,
+        "checks": [
+          {
+            "name": "valid_response",
+            "passed": true
+          }
+        ],
+        "response": {
+          "message": "已完成需求解析（固定规划器评测）",
+          "items": [],
+          "route": {
+            "legs": [],
+            "stops": [],
+            "distanceKm": 50,
+            "durationMin": 90,
+            "hasEstimatedTime": true
+          },
+          "meta": {
+            "requestId": "6446e5a2-dcfe-4dad-9f02-a7b0b6704df5",
+            "promptVersion": "idea-2026-11-09.v2",
+            "model": "deepseek-chat",
+            "modelCalls": 1,
+            "inputTokens": 2024,
+            "outputTokens": 166,
+            "modelDurationMs": 2024,
+            "elapsedMs": 2028,
+            "toolCalls": []
+          },
+          "title": "50公里爬坡骑行路线",
+          "contextIntent": {
+            "mode": "route",
+            "requestType": "route",
+            "place": null,
+            "origin": null,
+            "destination": null,
+            "returnToStart": false,
+            "needsSegment": false,
+            "segmentName": null,
+            "needsPoint": false,
+            "pointName": null,
+            "pointKind": null,
+            "order": [],
+            "stops": [],
+            "preferences": [
+              "爬坡"
+            ],
+            "preferredTags": [
+              "climbing"
+            ],
+            "avoidTags": [],
+            "minKm": null,
+            "maxKm": null,
+            "targetKm": 50,
+            "targetMinutes": null,
+            "minMinutes": null,
+            "maxMinutes": null,
+            "timeScope": null,
+            "stopMinutes": null
+          },
+          "placeContext": null
+        }
+      },
+      {
+        "idea": "重新开始，轻松骑20公里",
+        "expected": {
+          "fields": {
+            "contextIntent.targetKm": 20,
+            "contextIntent.preferredTags": []
+          }
+        },
+        "status": 200,
+        "durationMs": 1954,
+        "checks": [
+          {
+            "name": "valid_response",
+            "passed": true
+          },
+          {
+            "name": "field:contextIntent.targetKm",
+            "passed": true,
+            "expected": 20,
+            "actual": 20
+          },
+          {
+            "name": "field:contextIntent.preferredTags",
+            "passed": true,
+            "expected": [],
+            "actual": []
+          }
+        ],
+        "response": {
+          "message": "已完成需求解析（固定规划器评测）",
+          "items": [],
+          "route": {
+            "legs": [],
+            "stops": [],
+            "distanceKm": 20,
+            "durationMin": 90,
+            "hasEstimatedTime": true
+          },
+          "meta": {
+            "requestId": "1922f0ab-1809-48f8-b1d4-7e1668aa5b26",
+            "promptVersion": "idea-2026-11-09.v2",
+            "model": "deepseek-chat",
+            "modelCalls": 1,
+            "inputTokens": 2180,
+            "outputTokens": 173,
+            "modelDurationMs": 1949,
+            "elapsedMs": 1953,
+            "toolCalls": []
+          },
+          "title": "重新开始轻松骑20公里",
+          "contextIntent": {
+            "mode": "route",
+            "requestType": "route",
+            "place": null,
+            "origin": null,
+            "destination": null,
+            "returnToStart": false,
+            "needsSegment": false,
+            "segmentName": null,
+            "needsPoint": false,
+            "pointName": null,
+            "pointKind": null,
+            "order": [],
+            "stops": [],
+            "preferences": [
+              "休闲"
+            ],
+            "preferredTags": [],
+            "avoidTags": [],
+            "minKm": null,
+            "maxKm": null,
+            "targetKm": 20,
+            "targetMinutes": null,
+            "minMinutes": null,
+            "maxMinutes": null,
+            "timeScope": null,
+            "stopMinutes": null
+          },
+          "placeContext": null
+        }
+      }
+    ]
+  },
+  {
+    "id": "modify-bounds",
+    "category": "multi_turn",
+    "split": "holdout",
+    "repeat": 1,
+    "passed": true,
+    "turns": [
+      {
+        "idea": "骑40到60公里",
+        "expected": {},
+        "status": 200,
+        "durationMs": 1832,
+        "checks": [
+          {
+            "name": "valid_response",
+            "passed": true
+          }
+        ],
+        "response": {
+          "message": "已完成需求解析（固定规划器评测）",
+          "items": [],
+          "route": {
+            "legs": [],
+            "stops": [],
+            "distanceKm": 60,
+            "durationMin": 90,
+            "hasEstimatedTime": true
+          },
+          "meta": {
+            "requestId": "eb1d4076-2f4a-4940-96b8-f5d3f156fba9",
+            "promptVersion": "idea-2026-11-09.v2",
+            "model": "deepseek-chat",
+            "modelCalls": 1,
+            "inputTokens": 2022,
+            "outputTokens": 161,
+            "modelDurationMs": 1829,
+            "elapsedMs": 1831,
+            "toolCalls": []
+          },
+          "title": "规划40到60公里骑行路线",
+          "contextIntent": {
+            "mode": "route",
+            "requestType": "route",
+            "place": null,
+            "origin": null,
+            "destination": null,
+            "returnToStart": false,
+            "needsSegment": false,
+            "segmentName": null,
+            "needsPoint": false,
+            "pointName": null,
+            "pointKind": null,
+            "order": [],
+            "stops": [],
+            "preferences": [],
+            "preferredTags": [],
+            "avoidTags": [],
+            "minKm": 40,
+            "maxKm": 60,
+            "targetKm": null,
+            "targetMinutes": null,
+            "minMinutes": null,
+            "maxMinutes": null,
+            "timeScope": null,
+            "stopMinutes": null
+          },
+          "placeContext": null
+        }
+      },
+      {
+        "idea": "范围改成20到30公里",
+        "expected": {
+          "fields": {
+            "contextIntent.minKm": 20,
+            "contextIntent.maxKm": 30
+          }
+        },
+        "status": 200,
+        "durationMs": 1842,
+        "checks": [
+          {
+            "name": "valid_response",
+            "passed": true
+          },
+          {
+            "name": "field:contextIntent.minKm",
+            "passed": true,
+            "expected": 20,
+            "actual": 20
+          },
+          {
+            "name": "field:contextIntent.maxKm",
+            "passed": true,
+            "expected": 30,
+            "actual": 30
+          }
+        ],
+        "response": {
+          "message": "已完成需求解析（固定规划器评测）",
+          "items": [],
+          "route": {
+            "legs": [],
+            "stops": [],
+            "distanceKm": 30,
+            "durationMin": 90,
+            "hasEstimatedTime": true
+          },
+          "meta": {
+            "requestId": "af21adef-d9f8-4432-9ff0-ed25aed9d91e",
+            "promptVersion": "idea-2026-11-09.v2",
+            "model": "deepseek-chat",
+            "modelCalls": 1,
+            "inputTokens": 2171,
+            "outputTokens": 161,
+            "modelDurationMs": 1838,
+            "elapsedMs": 1842,
+            "toolCalls": []
+          },
+          "title": "骑行20到30公里路线规划",
+          "contextIntent": {
+            "mode": "route",
+            "requestType": "route",
+            "place": null,
+            "origin": null,
+            "destination": null,
+            "returnToStart": false,
+            "needsSegment": false,
+            "segmentName": null,
+            "needsPoint": false,
+            "pointName": null,
+            "pointKind": null,
+            "order": [],
+            "stops": [],
+            "preferences": [],
+            "preferredTags": [],
+            "avoidTags": [],
+            "minKm": 20,
+            "maxKm": 30,
+            "targetKm": null,
+            "targetMinutes": null,
+            "minMinutes": null,
+            "maxMinutes": null,
+            "timeScope": null,
+            "stopMinutes": null
+          },
+          "placeContext": null
+        }
+      }
+    ]
+  },
+  {
+    "id": "keep-origin",
+    "category": "multi_turn",
+    "split": "holdout",
+    "repeat": 1,
+    "passed": true,
+    "turns": [
+      {
+        "idea": "从人民广场出发骑30公里",
+        "expected": {},
+        "status": 200,
+        "durationMs": 2076,
+        "checks": [
+          {
+            "name": "valid_response",
+            "passed": true
+          }
+        ],
+        "response": {
+          "message": "已完成需求解析（固定规划器评测）",
+          "items": [],
+          "route": {
+            "legs": [],
+            "stops": [],
+            "distanceKm": 30,
+            "durationMin": 90,
+            "hasEstimatedTime": true
+          },
+          "meta": {
+            "requestId": "d4e04a70-0314-4b85-86c9-0dcf7071c4f9",
+            "promptVersion": "idea-2026-11-09.v2",
+            "model": "deepseek-chat",
+            "modelCalls": 1,
+            "inputTokens": 2024,
+            "outputTokens": 161,
+            "modelDurationMs": 2072,
+            "elapsedMs": 2075,
+            "toolCalls": []
+          },
+          "title": "人民广场出发骑30公里",
+          "contextIntent": {
+            "mode": "route",
+            "requestType": "route",
+            "place": null,
+            "origin": "人民广场",
+            "destination": null,
+            "returnToStart": false,
+            "needsSegment": false,
+            "segmentName": null,
+            "needsPoint": false,
+            "pointName": null,
+            "pointKind": null,
+            "order": [],
+            "stops": [],
+            "preferences": [],
+            "preferredTags": [],
+            "avoidTags": [],
+            "minKm": null,
+            "maxKm": null,
+            "targetKm": 30,
+            "targetMinutes": null,
+            "minMinutes": null,
+            "maxMinutes": null,
+            "timeScope": null,
+            "stopMinutes": null
+          },
+          "placeContext": null
+        }
+      },
+      {
+        "idea": "改成40公里",
+        "expected": {
+          "fields": {
+            "contextIntent.origin": "人民广场",
+            "contextIntent.targetKm": 40
+          }
+        },
+        "status": 200,
+        "durationMs": 1767,
+        "checks": [
+          {
+            "name": "valid_response",
+            "passed": true
+          },
+          {
+            "name": "field:contextIntent.origin",
+            "passed": true,
+            "expected": "人民广场",
+            "actual": "人民广场"
+          },
+          {
+            "name": "field:contextIntent.targetKm",
+            "passed": true,
+            "expected": 40,
+            "actual": 40
+          }
+        ],
+        "response": {
+          "message": "已完成需求解析（固定规划器评测）",
+          "items": [],
+          "route": {
+            "legs": [],
+            "stops": [],
+            "distanceKm": 40,
+            "durationMin": 90,
+            "hasEstimatedTime": true
+          },
+          "meta": {
+            "requestId": "1136b2b6-2c12-4077-9012-601579be2328",
+            "promptVersion": "idea-2026-11-09.v2",
+            "model": "deepseek-chat",
+            "modelCalls": 1,
+            "inputTokens": 2171,
+            "outputTokens": 161,
+            "modelDurationMs": 1759,
+            "elapsedMs": 1767,
+            "toolCalls": []
+          },
+          "title": "人民广场出发骑行40公里",
+          "contextIntent": {
+            "mode": "route",
+            "requestType": "route",
+            "place": null,
+            "origin": "人民广场",
+            "destination": null,
+            "returnToStart": false,
+            "needsSegment": false,
+            "segmentName": null,
+            "needsPoint": false,
+            "pointName": null,
+            "pointKind": null,
+            "order": [],
+            "stops": [],
+            "preferences": [],
+            "preferredTags": [],
+            "avoidTags": [],
+            "minKm": null,
+            "maxKm": null,
+            "targetKm": 40,
+            "targetMinutes": null,
+            "minMinutes": null,
+            "maxMinutes": null,
+            "timeScope": null,
+            "stopMinutes": null
+          },
+          "placeContext": null
+        }
+      }
+    ]
+  },
+  {
+    "id": "cancel-distance",
+    "category": "multi_turn",
+    "split": "holdout",
+    "repeat": 1,
+    "passed": true,
+    "turns": [
+      {
+        "idea": "骑50公里",
+        "expected": {},
+        "status": 200,
+        "durationMs": 1673,
+        "checks": [
+          {
+            "name": "valid_response",
+            "passed": true
+          }
+        ],
+        "response": {
+          "message": "已完成需求解析（固定规划器评测）",
+          "items": [],
+          "route": {
+            "legs": [],
+            "stops": [],
+            "distanceKm": 50,
+            "durationMin": 90,
+            "hasEstimatedTime": true
+          },
+          "meta": {
+            "requestId": "feede8da-c744-43ac-9156-1bb35f80df4b",
+            "promptVersion": "idea-2026-11-09.v2",
+            "model": "deepseek-chat",
+            "modelCalls": 1,
+            "inputTokens": 2020,
+            "outputTokens": 159,
+            "modelDurationMs": 1671,
+            "elapsedMs": 1673,
+            "toolCalls": []
+          },
+          "title": "规划50公里骑行路线",
+          "contextIntent": {
+            "mode": "route",
+            "requestType": "route",
+            "place": null,
+            "origin": null,
+            "destination": null,
+            "returnToStart": false,
+            "needsSegment": false,
+            "segmentName": null,
+            "needsPoint": false,
+            "pointName": null,
+            "pointKind": null,
+            "order": [],
+            "stops": [],
+            "preferences": [],
+            "preferredTags": [],
+            "avoidTags": [],
+            "minKm": null,
+            "maxKm": null,
+            "targetKm": 50,
+            "targetMinutes": null,
+            "minMinutes": null,
+            "maxMinutes": null,
+            "timeScope": null,
+            "stopMinutes": null
+          },
+          "placeContext": null
+        }
+      },
+      {
+        "idea": "取消距离要求，随便骑一圈",
+        "expected": {
+          "fields": {
+            "contextIntent.targetKm": null,
+            "contextIntent.minKm": null,
+            "contextIntent.maxKm": null
+          }
+        },
+        "status": 200,
+        "durationMs": 1915,
+        "checks": [
+          {
+            "name": "valid_response",
+            "passed": true
+          },
+          {
+            "name": "field:contextIntent.targetKm",
+            "passed": true,
+            "expected": null,
+            "actual": null
+          },
+          {
+            "name": "field:contextIntent.minKm",
+            "passed": true,
+            "expected": null,
+            "actual": null
+          },
+          {
+            "name": "field:contextIntent.maxKm",
+            "passed": true,
+            "expected": null,
+            "actual": null
+          }
+        ],
+        "response": {
+          "message": "已完成需求解析（固定规划器评测）",
+          "items": [],
+          "route": {
+            "legs": [],
+            "stops": [],
+            "distanceKm": 30,
+            "durationMin": 90,
+            "hasEstimatedTime": true
+          },
+          "meta": {
+            "requestId": "fa337dde-65d2-4139-9af1-b04c246f243a",
+            "promptVersion": "idea-2026-11-09.v2",
+            "model": "deepseek-chat",
+            "modelCalls": 1,
+            "inputTokens": 2170,
+            "outputTokens": 159,
+            "modelDurationMs": 1903,
+            "elapsedMs": 1913,
+            "toolCalls": []
+          },
+          "title": "取消距离随便骑一圈",
+          "contextIntent": {
+            "mode": "route",
+            "requestType": "route",
+            "place": null,
+            "origin": null,
+            "destination": null,
+            "returnToStart": false,
+            "needsSegment": false,
+            "segmentName": null,
+            "needsPoint": false,
+            "pointName": null,
+            "pointKind": null,
+            "order": [],
+            "stops": [],
+            "preferences": [],
+            "preferredTags": [],
+            "avoidTags": [],
+            "minKm": null,
+            "maxKm": null,
+            "targetKm": null,
+            "targetMinutes": null,
+            "minMinutes": null,
+            "maxMinutes": null,
+            "timeScope": null,
+            "stopMinutes": null
+          },
+          "placeContext": null
+        }
+      }
+    ]
+  },
+  {
+    "id": "lookup-segment",
+    "category": "lookup",
+    "split": "holdout",
+    "repeat": 1,
+    "passed": true,
+    "turns": [
+      {
+        "idea": "介绍一下滨江练习段",
+        "expected": {
+          "fields": {},
+          "candidateIds": [
+            "segment:101"
+          ],
+          "toolAnyOf": [
+            "search_candidates"
+          ],
+          "noRoute": true
+        },
+        "status": 200,
+        "durationMs": 5647,
+        "checks": [
+          {
+            "name": "valid_response",
+            "passed": true
+          },
+          {
+            "name": "candidate_identity",
+            "passed": true,
+            "expected": [
+              "segment:101"
+            ],
+            "actual": [
+              "segment:101"
+            ]
+          },
+          {
+            "name": "tool_selection",
+            "passed": true,
+            "expected": [
+              "search_candidates"
+            ],
+            "actual": [
+              "search_candidates"
+            ]
+          },
+          {
+            "name": "no_fabricated_route",
+            "passed": true
+          }
+        ],
+        "response": {
+          "message": "找到与“滨江练习段”名称相关的数据库记录或地点附近的路段和点位；名称相近不一定是同一个地点，附近不代表处于区域边界内。你可以选择一个，或继续说明想去的区域。",
+          "items": [
+            {
+              "id": "segment:101",
+              "type": "segment",
+              "name": "滨江练习段",
+              "lat": 31.2,
+              "lng": 121.4,
+              "distanceKm": 10,
+              "hazardous": false,
+              "tags": {
+                "climbing": "unknown",
+                "loop": "unknown",
+                "out_and_back": "unknown",
+                "long_distance": "unknown",
+                "popular": "matched",
+                "highly_starred": "unknown"
+              },
+              "coordinates": [
+                {
+                  "lat": 31.2,
+                  "lng": 121.4
+                },
+                {
+                  "lat": 31.21,
+                  "lng": 121.41
+                }
+              ],
+              "reason": "名称相关的数据库记录"
+            }
+          ],
+          "options": [
+            "选择滨江练习段"
+          ],
+          "meta": {
+            "requestId": "c18b8052-e9a7-4bb5-b458-711542585512",
+            "promptVersion": "idea-2026-11-09.v2",
+            "model": "deepseek-chat",
+            "modelCalls": 3,
+            "inputTokens": 6099,
+            "outputTokens": 468,
+            "modelDurationMs": 5631,
+            "elapsedMs": 5646,
+            "toolCalls": [
+              {
+                "name": "search_candidates",
+                "status": "ok",
+                "durationMs": 0
+              }
+            ]
+          },
+          "title": "介绍滨江练习段路段",
+          "contextIntent": null,
+          "placeContext": {
+            "query": "滨江练习段",
+            "terms": [
+              "滨江",
+              "练习段"
+            ],
+            "candidates": [
+              {
+                "id": "segment:101",
+                "name": "滨江练习段",
+                "type": "segment"
+              }
+            ],
+            "selectedId": "segment:101",
+            "area": null
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "lookup-point",
+    "category": "lookup",
+    "split": "holdout",
+    "repeat": 1,
+    "passed": true,
+    "turns": [
+      {
+        "idea": "补给咖啡站在哪里",
+        "expected": {
+          "fields": {},
+          "candidateIds": [
+            "point:201"
+          ],
+          "toolAnyOf": [
+            "search_candidates"
+          ],
+          "noRoute": true
+        },
+        "status": 200,
+        "durationMs": 6398,
+        "checks": [
+          {
+            "name": "valid_response",
+            "passed": true
+          },
+          {
+            "name": "candidate_identity",
+            "passed": true,
+            "expected": [
+              "point:201"
+            ],
+            "actual": [
+              "point:201"
+            ]
+          },
+          {
+            "name": "tool_selection",
+            "passed": true,
+            "expected": [
+              "search_candidates"
+            ],
+            "actual": [
+              "search_candidates"
+            ]
+          },
+          {
+            "name": "no_fabricated_route",
+            "passed": true
+          }
+        ],
+        "response": {
+          "message": "找到与“补给咖啡站”名称相关的数据库记录或地点附近的路段和点位；名称相近不一定是同一个地点，附近不代表处于区域边界内。你可以选择一个，或继续说明想去的区域。",
+          "items": [
+            {
+              "id": "point:201",
+              "type": "point",
+              "name": "补给咖啡站",
+              "category": "supply",
+              "lat": 31.2,
+              "lng": 121.4,
+              "reason": "名称相关的数据库记录"
+            }
+          ],
+          "options": [
+            "选择补给咖啡站"
+          ],
+          "meta": {
+            "requestId": "223a4394-beab-42df-8e7f-446fcc1f3698",
+            "promptVersion": "idea-2026-11-09.v2",
+            "model": "deepseek-chat",
+            "modelCalls": 3,
+            "inputTokens": 6041,
+            "outputTokens": 456,
+            "modelDurationMs": 6387,
+            "elapsedMs": 6397,
+            "toolCalls": [
+              {
+                "name": "search_candidates",
+                "status": "ok",
+                "durationMs": 0
+              }
+            ]
+          },
+          "title": "查询补给咖啡站位置",
+          "contextIntent": null,
+          "placeContext": {
+            "query": "补给咖啡站",
+            "terms": [
+              "补给咖啡站"
+            ],
+            "candidates": [
+              {
+                "id": "point:201",
+                "name": "补给咖啡站",
+                "type": "point"
+              }
+            ],
+            "selectedId": null,
+            "area": null
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "lookup-many",
+    "category": "lookup",
+    "split": "holdout",
+    "repeat": 1,
+    "passed": true,
+    "turns": [
+      {
+        "idea": "查一下滨江有哪些路段",
+        "expected": {
+          "fields": {},
+          "candidateIds": [
+            "segment:101",
+            "segment:102"
+          ],
+          "toolAnyOf": [
+            "search_candidates"
+          ],
+          "noRoute": true
+        },
+        "status": 200,
+        "durationMs": 5063,
+        "checks": [
+          {
+            "name": "valid_response",
+            "passed": true
+          },
+          {
+            "name": "candidate_identity",
+            "passed": true,
+            "expected": [
+              "segment:101",
+              "segment:102"
+            ],
+            "actual": [
+              "segment:101",
+              "segment:102"
+            ]
+          },
+          {
+            "name": "tool_selection",
+            "passed": true,
+            "expected": [
+              "search_candidates"
+            ],
+            "actual": [
+              "search_candidates"
+            ]
+          },
+          {
+            "name": "no_fabricated_route",
+            "passed": true
+          }
+        ],
+        "response": {
+          "message": "找到与“滨江”名称相关的数据库记录或地点附近的路段和点位；名称相近不一定是同一个地点，附近不代表处于区域边界内。你可以选择一个，或继续说明想去的区域。",
+          "items": [
+            {
+              "id": "segment:101",
+              "type": "segment",
+              "name": "滨江练习段",
+              "lat": 31.2,
+              "lng": 121.4,
+              "distanceKm": 10,
+              "hazardous": false,
+              "tags": {
+                "climbing": "unknown",
+                "loop": "unknown",
+                "out_and_back": "unknown",
+                "long_distance": "unknown",
+                "popular": "matched",
+                "highly_starred": "unknown"
+              },
+              "coordinates": [
+                {
+                  "lat": 31.2,
+                  "lng": 121.4
+                },
+                {
+                  "lat": 31.21,
+                  "lng": 121.41
+                }
+              ],
+              "reason": "名称相关的数据库记录"
+            },
+            {
+              "id": "segment:102",
+              "type": "segment",
+              "name": "城市绕圈段",
+              "lat": 31.2,
+              "lng": 121.4,
+              "distanceKm": 12,
+              "hazardous": false,
+              "tags": {
+                "climbing": "unknown",
+                "loop": "matched",
+                "out_and_back": "unknown",
+                "long_distance": "unknown",
+                "popular": "unknown",
+                "highly_starred": "unknown"
+              },
+              "coordinates": [
+                {
+                  "lat": 31.2,
+                  "lng": 121.4
+                },
+                {
+                  "lat": 31.22,
+                  "lng": 121.42
+                }
+              ],
+              "reason": "名称相关的数据库记录"
+            }
+          ],
+          "options": [
+            "选择滨江练习段",
+            "选择城市绕圈段"
+          ],
+          "meta": {
+            "requestId": "50d12d96-0add-4fa5-a7e5-9f27501c7073",
+            "promptVersion": "idea-2026-11-09.v2",
+            "model": "deepseek-chat",
+            "modelCalls": 3,
+            "inputTokens": 6167,
+            "outputTokens": 472,
+            "modelDurationMs": 5047,
+            "elapsedMs": 5060,
+            "toolCalls": [
+              {
+                "name": "search_candidates",
+                "status": "ok",
+                "durationMs": 1
+              }
+            ]
+          },
+          "title": "查询滨江区域路段",
+          "contextIntent": {
+            "mode": "recommend",
+            "requestType": "recommend",
+            "place": "滨江",
+            "origin": null,
+            "destination": null,
+            "returnToStart": false,
+            "needsSegment": true,
+            "segmentName": null,
+            "needsPoint": false,
+            "pointName": null,
+            "pointKind": null,
+            "order": [],
+            "stops": [],
+            "preferences": [],
+            "preferredTags": [],
+            "avoidTags": [],
+            "minKm": null,
+            "maxKm": null,
+            "targetKm": null,
+            "targetMinutes": null,
+            "minMinutes": null,
+            "maxMinutes": null,
+            "timeScope": null,
+            "stopMinutes": null
+          },
+          "placeContext": {
+            "query": "滨江",
+            "terms": [
+              "滨江"
+            ],
+            "candidates": [
+              {
+                "id": "segment:101",
+                "name": "滨江练习段",
+                "type": "segment"
+              },
+              {
+                "id": "segment:102",
+                "name": "城市绕圈段",
+                "type": "segment"
+              }
+            ],
+            "selectedId": null,
+            "area": null
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "lookup-missing",
+    "category": "lookup",
+    "split": "holdout",
+    "repeat": 1,
+    "passed": true,
+    "turns": [
+      {
+        "idea": "查询不存在的星际绿道路段",
+        "expected": {
+          "fields": {},
+          "candidateIds": [],
+          "toolAnyOf": [
+            "search_candidates"
+          ],
+          "noRoute": true
+        },
+        "status": 200,
+        "durationMs": 5499,
+        "checks": [
+          {
+            "name": "valid_response",
+            "passed": true
+          },
+          {
+            "name": "candidate_identity",
+            "passed": true,
+            "expected": [],
+            "actual": []
+          },
+          {
+            "name": "tool_selection",
+            "passed": true,
+            "expected": [
+              "search_candidates"
+            ],
+            "actual": [
+              "search_candidates"
+            ]
+          },
+          {
+            "name": "no_fabricated_route",
+            "passed": true
+          }
+        ],
+        "response": {
+          "message": "暂未找到与“星际绿道”相关的可用路段或点位，也无法确认具体位置。可以提供所在区域或更具体的名称。",
+          "items": [],
+          "meta": {
+            "requestId": "1590c481-bd2d-4638-9cda-f8d07c28d99f",
+            "promptVersion": "idea-2026-11-09.v2",
+            "model": "deepseek-chat",
+            "modelCalls": 3,
+            "inputTokens": 6018,
+            "outputTokens": 440,
+            "modelDurationMs": 5492,
+            "elapsedMs": 5499,
+            "toolCalls": [
+              {
+                "name": "search_candidates",
+                "status": "ok",
+                "durationMs": 0
+              }
+            ]
+          },
+          "title": "查询星际绿道路段",
+          "contextIntent": null,
+          "placeContext": {
+            "query": "星际绿道",
+            "terms": [
+              "星际绿道"
+            ],
+            "candidates": [],
+            "selectedId": null,
+            "area": null
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "select-first",
+    "category": "selection",
+    "split": "holdout",
+    "repeat": 1,
+    "passed": true,
+    "turns": [
+      {
+        "idea": "查一下滨江有哪些路段",
+        "expected": {
+          "candidateIds": [
+            "segment:101",
+            "segment:102"
+          ]
+        },
+        "status": 200,
+        "durationMs": 5133,
+        "checks": [
+          {
+            "name": "valid_response",
+            "passed": true
+          },
+          {
+            "name": "candidate_identity",
+            "passed": true,
+            "expected": [
+              "segment:101",
+              "segment:102"
+            ],
+            "actual": [
+              "segment:101",
+              "segment:102"
+            ]
+          }
+        ],
+        "response": {
+          "message": "找到与“滨江”名称相关的数据库记录或地点附近的路段和点位；名称相近不一定是同一个地点，附近不代表处于区域边界内。你可以选择一个，或继续说明想去的区域。",
+          "items": [
+            {
+              "id": "segment:101",
+              "type": "segment",
+              "name": "滨江练习段",
+              "lat": 31.2,
+              "lng": 121.4,
+              "distanceKm": 10,
+              "hazardous": false,
+              "tags": {
+                "climbing": "unknown",
+                "loop": "unknown",
+                "out_and_back": "unknown",
+                "long_distance": "unknown",
+                "popular": "matched",
+                "highly_starred": "unknown"
+              },
+              "coordinates": [
+                {
+                  "lat": 31.2,
+                  "lng": 121.4
+                },
+                {
+                  "lat": 31.21,
+                  "lng": 121.41
+                }
+              ],
+              "reason": "名称相关的数据库记录"
+            },
+            {
+              "id": "segment:102",
+              "type": "segment",
+              "name": "城市绕圈段",
+              "lat": 31.2,
+              "lng": 121.4,
+              "distanceKm": 12,
+              "hazardous": false,
+              "tags": {
+                "climbing": "unknown",
+                "loop": "matched",
+                "out_and_back": "unknown",
+                "long_distance": "unknown",
+                "popular": "unknown",
+                "highly_starred": "unknown"
+              },
+              "coordinates": [
+                {
+                  "lat": 31.2,
+                  "lng": 121.4
+                },
+                {
+                  "lat": 31.22,
+                  "lng": 121.42
+                }
+              ],
+              "reason": "名称相关的数据库记录"
+            }
+          ],
+          "options": [
+            "选择滨江练习段",
+            "选择城市绕圈段"
+          ],
+          "meta": {
+            "requestId": "94e865c8-9e7d-4e0d-9ecb-6a94aa0590ad",
+            "promptVersion": "idea-2026-11-09.v2",
+            "model": "deepseek-chat",
+            "modelCalls": 3,
+            "inputTokens": 6167,
+            "outputTokens": 473,
+            "modelDurationMs": 5119,
+            "elapsedMs": 5129,
+            "toolCalls": [
+              {
+                "name": "search_candidates",
+                "status": "ok",
+                "durationMs": 0
+              }
+            ]
+          },
+          "title": "查询滨江区域路段",
+          "contextIntent": {
+            "mode": "recommend",
+            "requestType": "recommend",
+            "place": "滨江",
+            "origin": null,
+            "destination": null,
+            "returnToStart": false,
+            "needsSegment": true,
+            "segmentName": null,
+            "needsPoint": false,
+            "pointName": null,
+            "pointKind": null,
+            "order": [],
+            "stops": [],
+            "preferences": [],
+            "preferredTags": [],
+            "avoidTags": [],
+            "minKm": null,
+            "maxKm": null,
+            "targetKm": null,
+            "targetMinutes": null,
+            "minMinutes": null,
+            "maxMinutes": null,
+            "timeScope": null,
+            "stopMinutes": null
+          },
+          "placeContext": {
+            "query": "滨江",
+            "terms": [
+              "滨江"
+            ],
+            "candidates": [
+              {
+                "id": "segment:101",
+                "name": "滨江练习段",
+                "type": "segment"
+              },
+              {
+                "id": "segment:102",
+                "name": "城市绕圈段",
+                "type": "segment"
+              }
+            ],
+            "selectedId": null,
+            "area": null
+          }
+        }
+      },
+      {
+        "idea": "选第一个，规划骑30公里",
+        "expected": {
+          "fields": {
+            "placeContext.selectedId": "segment:101",
+            "contextIntent.targetKm": 30
+          },
+          "toolAnyOf": [
+            "get_candidate_detail"
+          ]
+        },
+        "status": 200,
+        "durationMs": 5042,
+        "checks": [
+          {
+            "name": "valid_response",
+            "passed": true
+          },
+          {
+            "name": "field:placeContext.selectedId",
+            "passed": true,
+            "expected": "segment:101",
+            "actual": "segment:101"
+          },
+          {
+            "name": "field:contextIntent.targetKm",
+            "passed": true,
+            "expected": 30,
+            "actual": 30
+          },
+          {
+            "name": "tool_selection",
+            "passed": true,
+            "expected": [
+              "get_candidate_detail"
+            ],
+            "actual": [
+              "get_candidate_detail",
+              "search_candidates"
+            ]
+          }
+        ],
+        "response": {
+          "message": "已完成需求解析（固定规划器评测）",
+          "items": [],
+          "route": {
+            "legs": [],
+            "stops": [],
+            "distanceKm": 30,
+            "durationMin": 90,
+            "hasEstimatedTime": true
+          },
+          "meta": {
+            "requestId": "941edc2d-f132-42a5-ad36-ba42c0e15978",
+            "promptVersion": "idea-2026-11-09.v2",
+            "model": "deepseek-chat",
+            "modelCalls": 3,
+            "inputTokens": 7073,
+            "outputTokens": 484,
+            "modelDurationMs": 5024,
+            "elapsedMs": 5041,
+            "toolCalls": [
+              {
+                "name": "get_candidate_detail",
+                "status": "ok",
+                "durationMs": 1
+              },
+              {
+                "name": "search_candidates",
+                "status": "ok",
+                "durationMs": 0
+              }
+            ]
+          },
+          "title": "滨江练习段30公里骑行规划",
+          "contextIntent": {
+            "mode": "route",
+            "requestType": "route",
+            "place": "滨江",
+            "origin": null,
+            "destination": null,
+            "returnToStart": false,
+            "needsSegment": true,
+            "segmentName": "滨江练习段",
+            "needsPoint": false,
+            "pointName": null,
+            "pointKind": null,
+            "order": [
+              "segment"
+            ],
+            "stops": [
+              {
+                "type": "segment",
+                "name": "滨江练习段",
+                "kind": null
+              }
+            ],
+            "preferences": [],
+            "preferredTags": [],
+            "avoidTags": [],
+            "minKm": null,
+            "maxKm": null,
+            "targetKm": 30,
+            "targetMinutes": null,
+            "minMinutes": null,
+            "maxMinutes": null,
+            "timeScope": null,
+            "stopMinutes": null
+          },
+          "placeContext": {
+            "query": "滨江",
+            "terms": [
+              "滨江"
+            ],
+            "candidates": [
+              {
+                "id": "segment:101",
+                "type": "segment",
+                "name": "滨江练习段"
+              },
+              {
+                "id": "segment:102",
+                "type": "segment",
+                "name": "城市绕圈段"
+              }
+            ],
+            "selectedId": "segment:101",
+            "area": null
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "select-second",
+    "category": "selection",
+    "split": "holdout",
+    "repeat": 1,
+    "passed": true,
+    "turns": [
+      {
+        "idea": "查一下滨江有哪些路段",
+        "expected": {
+          "candidateIds": [
+            "segment:101",
+            "segment:102"
+          ]
+        },
+        "status": 200,
+        "durationMs": 5108,
+        "checks": [
+          {
+            "name": "valid_response",
+            "passed": true
+          },
+          {
+            "name": "candidate_identity",
+            "passed": true,
+            "expected": [
+              "segment:101",
+              "segment:102"
+            ],
+            "actual": [
+              "segment:101",
+              "segment:102"
+            ]
+          }
+        ],
+        "response": {
+          "message": "找到与“滨江”名称相关的数据库记录或地点附近的路段和点位；名称相近不一定是同一个地点，附近不代表处于区域边界内。你可以选择一个，或继续说明想去的区域。",
+          "items": [
+            {
+              "id": "segment:101",
+              "type": "segment",
+              "name": "滨江练习段",
+              "lat": 31.2,
+              "lng": 121.4,
+              "distanceKm": 10,
+              "hazardous": false,
+              "tags": {
+                "climbing": "unknown",
+                "loop": "unknown",
+                "out_and_back": "unknown",
+                "long_distance": "unknown",
+                "popular": "matched",
+                "highly_starred": "unknown"
+              },
+              "coordinates": [
+                {
+                  "lat": 31.2,
+                  "lng": 121.4
+                },
+                {
+                  "lat": 31.21,
+                  "lng": 121.41
+                }
+              ],
+              "reason": "名称相关的数据库记录"
+            },
+            {
+              "id": "segment:102",
+              "type": "segment",
+              "name": "城市绕圈段",
+              "lat": 31.2,
+              "lng": 121.4,
+              "distanceKm": 12,
+              "hazardous": false,
+              "tags": {
+                "climbing": "unknown",
+                "loop": "matched",
+                "out_and_back": "unknown",
+                "long_distance": "unknown",
+                "popular": "unknown",
+                "highly_starred": "unknown"
+              },
+              "coordinates": [
+                {
+                  "lat": 31.2,
+                  "lng": 121.4
+                },
+                {
+                  "lat": 31.22,
+                  "lng": 121.42
+                }
+              ],
+              "reason": "名称相关的数据库记录"
+            }
+          ],
+          "options": [
+            "选择滨江练习段",
+            "选择城市绕圈段"
+          ],
+          "meta": {
+            "requestId": "275b86ab-741f-4766-8745-125d553fb26c",
+            "promptVersion": "idea-2026-11-09.v2",
+            "model": "deepseek-chat",
+            "modelCalls": 3,
+            "inputTokens": 6167,
+            "outputTokens": 471,
+            "modelDurationMs": 5101,
+            "elapsedMs": 5108,
+            "toolCalls": [
+              {
+                "name": "search_candidates",
+                "status": "ok",
+                "durationMs": 0
+              }
+            ]
+          },
+          "title": "查询滨江区域路段",
+          "contextIntent": {
+            "mode": "recommend",
+            "requestType": "recommend",
+            "place": "滨江",
+            "origin": null,
+            "destination": null,
+            "returnToStart": false,
+            "needsSegment": true,
+            "segmentName": null,
+            "needsPoint": false,
+            "pointName": null,
+            "pointKind": null,
+            "order": [],
+            "stops": [],
+            "preferences": [],
+            "preferredTags": [],
+            "avoidTags": [],
+            "minKm": null,
+            "maxKm": null,
+            "targetKm": null,
+            "targetMinutes": null,
+            "minMinutes": null,
+            "maxMinutes": null,
+            "timeScope": null,
+            "stopMinutes": null
+          },
+          "placeContext": {
+            "query": "滨江",
+            "terms": [
+              "滨江"
+            ],
+            "candidates": [
+              {
+                "id": "segment:101",
+                "name": "滨江练习段",
+                "type": "segment"
+              },
+              {
+                "id": "segment:102",
+                "name": "城市绕圈段",
+                "type": "segment"
+              }
+            ],
+            "selectedId": null,
+            "area": null
+          }
+        }
+      },
+      {
+        "idea": "选第二个，规划骑30公里",
+        "expected": {
+          "fields": {
+            "placeContext.selectedId": "segment:102",
+            "contextIntent.targetKm": 30
+          },
+          "toolAnyOf": [
+            "get_candidate_detail"
+          ]
+        },
+        "status": 200,
+        "durationMs": 5743,
+        "checks": [
+          {
+            "name": "valid_response",
+            "passed": true
+          },
+          {
+            "name": "field:placeContext.selectedId",
+            "passed": true,
+            "expected": "segment:102",
+            "actual": "segment:102"
+          },
+          {
+            "name": "field:contextIntent.targetKm",
+            "passed": true,
+            "expected": 30,
+            "actual": 30
+          },
+          {
+            "name": "tool_selection",
+            "passed": true,
+            "expected": [
+              "get_candidate_detail"
+            ],
+            "actual": [
+              "get_candidate_detail",
+              "search_candidates"
+            ]
+          }
+        ],
+        "response": {
+          "message": "已完成需求解析（固定规划器评测）",
+          "items": [],
+          "route": {
+            "legs": [],
+            "stops": [],
+            "distanceKm": 30,
+            "durationMin": 90,
+            "hasEstimatedTime": true
+          },
+          "meta": {
+            "requestId": "1e670219-e34d-4edb-a703-cb82b1c3492d",
+            "promptVersion": "idea-2026-11-09.v2",
+            "model": "deepseek-chat",
+            "modelCalls": 3,
+            "inputTokens": 7073,
+            "outputTokens": 483,
+            "modelDurationMs": 5733,
+            "elapsedMs": 5743,
+            "toolCalls": [
+              {
+                "name": "get_candidate_detail",
+                "status": "ok",
+                "durationMs": 0
+              },
+              {
+                "name": "search_candidates",
+                "status": "ok",
+                "durationMs": 0
+              }
+            ]
+          },
+          "title": "滨江城市绕圈段30公里骑行",
+          "contextIntent": {
+            "mode": "route",
+            "requestType": "route",
+            "place": "滨江",
+            "origin": null,
+            "destination": null,
+            "returnToStart": false,
+            "needsSegment": true,
+            "segmentName": "城市绕圈段",
+            "needsPoint": false,
+            "pointName": null,
+            "pointKind": null,
+            "order": [
+              "segment"
+            ],
+            "stops": [
+              {
+                "type": "segment",
+                "name": "城市绕圈段",
+                "kind": null
+              }
+            ],
+            "preferences": [],
+            "preferredTags": [],
+            "avoidTags": [],
+            "minKm": null,
+            "maxKm": null,
+            "targetKm": 30,
+            "targetMinutes": null,
+            "minMinutes": null,
+            "maxMinutes": null,
+            "timeScope": null,
+            "stopMinutes": null
+          },
+          "placeContext": {
+            "query": "滨江",
+            "terms": [
+              "滨江"
+            ],
+            "candidates": [
+              {
+                "id": "segment:101",
+                "type": "segment",
+                "name": "滨江练习段"
+              },
+              {
+                "id": "segment:102",
+                "type": "segment",
+                "name": "城市绕圈段"
+              }
+            ],
+            "selectedId": "segment:102",
+            "area": null
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "general-strava",
+    "category": "answer",
+    "split": "holdout",
+    "repeat": 1,
+    "passed": true,
+    "turns": [
+      {
+        "idea": "什么是Strava路段",
+        "expected": {
+          "fields": {},
+          "noRoute": true
+        },
+        "status": 200,
+        "durationMs": 2579,
+        "checks": [
+          {
+            "name": "valid_response",
+            "passed": true
+          },
+          {
+            "name": "no_fabricated_route",
+            "passed": true
+          }
+        ],
+        "response": {
+          "message": "Strava 路段（Segment）是 Strava 平台上由用户创建的一段固定路线，通常有明确的起点和终点，比如一段爬坡、一条冲刺直道或一段绕圈。骑行者经过这段路线时，Strava 会自动记录用时，并生成该路段排行榜，方便你和自己、朋友或其他骑友比较成绩。路段可以是公开的，也可以是私人的；它和完整骑行路线不同，只是路线中的一小段。",
+          "options": [],
+          "items": [],
+          "meta": {
+            "requestId": "43361088-6dfc-44a0-b414-30664b21cfad",
+            "promptVersion": "idea-2026-11-09.v2",
+            "model": "deepseek-chat",
+            "modelCalls": 1,
+            "inputTokens": 2021,
+            "outputTokens": 251,
+            "modelDurationMs": 2573,
+            "elapsedMs": 2578,
+            "toolCalls": []
+          },
+          "title": "Strava路段概念解答",
+          "contextIntent": null,
+          "placeContext": null
+        }
+      }
+    ]
+  },
+  {
+    "id": "general-gpx",
+    "category": "answer",
+    "split": "holdout",
+    "repeat": 1,
+    "passed": true,
+    "turns": [
+      {
+        "idea": "GPX文件是什么",
+        "expected": {
+          "fields": {},
+          "noRoute": true
+        },
+        "status": 200,
+        "durationMs": 2658,
+        "checks": [
+          {
+            "name": "valid_response",
+            "passed": true
+          },
+          {
+            "name": "no_fabricated_route",
+            "passed": true
+          }
+        ],
+        "response": {
+          "message": "GPX 是一种基于 XML 的通用 GPS 数据交换格式，扩展名是 .gpx。它主要用来记录和交换轨迹、路线和航点，例如骑行轨迹、规划路线、途经点等。很多骑行码表、手机骑行 App 和路线规划网站都支持导入或导出 GPX 文件，因此它常被用来在不同设备之间共享路线。",
+          "options": [],
+          "items": [],
+          "meta": {
+            "requestId": "66701e6c-9c07-43c9-b3ab-c2b51083ecfb",
+            "promptVersion": "idea-2026-11-09.v2",
+            "model": "deepseek-chat",
+            "modelCalls": 1,
+            "inputTokens": 2021,
+            "outputTokens": 237,
+            "modelDurationMs": 2653,
+            "elapsedMs": 2657,
+            "toolCalls": []
+          },
+          "title": "GPX文件是什么",
+          "contextIntent": null,
+          "placeContext": null
+        }
+      }
+    ]
+  },
+  {
+    "id": "select-name",
+    "category": "selection",
+    "split": "holdout",
+    "repeat": 1,
+    "passed": true,
+    "turns": [
+      {
+        "idea": "查一下滨江有哪些路段",
+        "expected": {
+          "candidateIds": [
+            "segment:101",
+            "segment:102"
+          ]
+        },
+        "status": 200,
+        "durationMs": 5357,
+        "checks": [
+          {
+            "name": "valid_response",
+            "passed": true
+          },
+          {
+            "name": "candidate_identity",
+            "passed": true,
+            "expected": [
+              "segment:101",
+              "segment:102"
+            ],
+            "actual": [
+              "segment:101",
+              "segment:102"
+            ]
+          }
+        ],
+        "response": {
+          "message": "找到与“滨江”名称相关的数据库记录或地点附近的路段和点位；名称相近不一定是同一个地点，附近不代表处于区域边界内。你可以选择一个，或继续说明想去的区域。",
+          "items": [
+            {
+              "id": "segment:101",
+              "type": "segment",
+              "name": "滨江练习段",
+              "lat": 31.2,
+              "lng": 121.4,
+              "distanceKm": 10,
+              "hazardous": false,
+              "tags": {
+                "climbing": "unknown",
+                "loop": "unknown",
+                "out_and_back": "unknown",
+                "long_distance": "unknown",
+                "popular": "matched",
+                "highly_starred": "unknown"
+              },
+              "coordinates": [
+                {
+                  "lat": 31.2,
+                  "lng": 121.4
+                },
+                {
+                  "lat": 31.21,
+                  "lng": 121.41
+                }
+              ],
+              "reason": "名称相关的数据库记录"
+            },
+            {
+              "id": "segment:102",
+              "type": "segment",
+              "name": "城市绕圈段",
+              "lat": 31.2,
+              "lng": 121.4,
+              "distanceKm": 12,
+              "hazardous": false,
+              "tags": {
+                "climbing": "unknown",
+                "loop": "matched",
+                "out_and_back": "unknown",
+                "long_distance": "unknown",
+                "popular": "unknown",
+                "highly_starred": "unknown"
+              },
+              "coordinates": [
+                {
+                  "lat": 31.2,
+                  "lng": 121.4
+                },
+                {
+                  "lat": 31.22,
+                  "lng": 121.42
+                }
+              ],
+              "reason": "名称相关的数据库记录"
+            }
+          ],
+          "options": [
+            "选择滨江练习段",
+            "选择城市绕圈段"
+          ],
+          "meta": {
+            "requestId": "dd860ca7-575c-436a-874e-d7b1bc130cc7",
+            "promptVersion": "idea-2026-11-09.v2",
+            "model": "deepseek-chat",
+            "modelCalls": 3,
+            "inputTokens": 6167,
+            "outputTokens": 473,
+            "modelDurationMs": 5349,
+            "elapsedMs": 5357,
+            "toolCalls": [
+              {
+                "name": "search_candidates",
+                "status": "ok",
+                "durationMs": 0
+              }
+            ]
+          },
+          "title": "查询滨江区域路段",
+          "contextIntent": {
+            "mode": "recommend",
+            "requestType": "recommend",
+            "place": "滨江",
+            "origin": null,
+            "destination": null,
+            "returnToStart": false,
+            "needsSegment": true,
+            "segmentName": null,
+            "needsPoint": false,
+            "pointName": null,
+            "pointKind": null,
+            "order": [],
+            "stops": [],
+            "preferences": [],
+            "preferredTags": [],
+            "avoidTags": [],
+            "minKm": null,
+            "maxKm": null,
+            "targetKm": null,
+            "targetMinutes": null,
+            "minMinutes": null,
+            "maxMinutes": null,
+            "timeScope": null,
+            "stopMinutes": null
+          },
+          "placeContext": {
+            "query": "滨江",
+            "terms": [
+              "滨江"
+            ],
+            "candidates": [
+              {
+                "id": "segment:101",
+                "name": "滨江练习段",
+                "type": "segment"
+              },
+              {
+                "id": "segment:102",
+                "name": "城市绕圈段",
+                "type": "segment"
+              }
+            ],
+            "selectedId": null,
+            "area": null
+          }
+        }
+      },
+      {
+        "idea": "选择城市绕圈段，规划骑30公里",
+        "expected": {
+          "fields": {
+            "placeContext.selectedId": "segment:102",
+            "contextIntent.targetKm": 30
+          },
+          "toolAnyOf": [
+            "get_candidate_detail"
+          ]
+        },
+        "status": 200,
+        "durationMs": 6014,
+        "checks": [
+          {
+            "name": "valid_response",
+            "passed": true
+          },
+          {
+            "name": "field:placeContext.selectedId",
+            "passed": true,
+            "expected": "segment:102",
+            "actual": "segment:102"
+          },
+          {
+            "name": "field:contextIntent.targetKm",
+            "passed": true,
+            "expected": 30,
+            "actual": 30
+          },
+          {
+            "name": "tool_selection",
+            "passed": true,
+            "expected": [
+              "get_candidate_detail"
+            ],
+            "actual": [
+              "get_candidate_detail",
+              "search_candidates"
+            ]
+          }
+        ],
+        "response": {
+          "message": "已完成需求解析（固定规划器评测）",
+          "items": [],
+          "route": {
+            "legs": [],
+            "stops": [],
+            "distanceKm": 30,
+            "durationMin": 90,
+            "hasEstimatedTime": true
+          },
+          "meta": {
+            "requestId": "3fd684b7-ddc1-4f72-bd62-e9184367208c",
+            "promptVersion": "idea-2026-11-09.v2",
+            "model": "deepseek-chat",
+            "modelCalls": 3,
+            "inputTokens": 7082,
+            "outputTokens": 483,
+            "modelDurationMs": 6006,
+            "elapsedMs": 6014,
+            "toolCalls": [
+              {
+                "name": "get_candidate_detail",
+                "status": "ok",
+                "durationMs": 0
+              },
+              {
+                "name": "search_candidates",
+                "status": "ok",
+                "durationMs": 0
+              }
+            ]
+          },
+          "title": "滨江城市绕圈段30公里骑行",
+          "contextIntent": {
+            "mode": "route",
+            "requestType": "route",
+            "place": "滨江",
+            "origin": null,
+            "destination": null,
+            "returnToStart": false,
+            "needsSegment": true,
+            "segmentName": "城市绕圈段",
+            "needsPoint": false,
+            "pointName": null,
+            "pointKind": null,
+            "order": [
+              "segment"
+            ],
+            "stops": [
+              {
+                "type": "segment",
+                "name": "城市绕圈段",
+                "kind": null
+              }
+            ],
+            "preferences": [],
+            "preferredTags": [],
+            "avoidTags": [],
+            "minKm": null,
+            "maxKm": null,
+            "targetKm": 30,
+            "targetMinutes": null,
+            "minMinutes": null,
+            "maxMinutes": null,
+            "timeScope": null,
+            "stopMinutes": null
+          },
+          "placeContext": {
+            "query": "滨江",
+            "terms": [
+              "滨江"
+            ],
+            "candidates": [
+              {
+                "id": "segment:101",
+                "type": "segment",
+                "name": "滨江练习段"
+              },
+              {
+                "id": "segment:102",
+                "type": "segment",
+                "name": "城市绕圈段"
+              }
+            ],
+            "selectedId": "segment:102",
+            "area": null
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "general-slope",
+    "category": "answer",
+    "split": "holdout",
+    "repeat": 1,
+    "passed": true,
+    "turns": [
+      {
+        "idea": "骑行中的平均坡度是什么意思",
+        "expected": {
+          "fields": {},
+          "noRoute": true
+        },
+        "status": 200,
+        "durationMs": 2562,
+        "checks": [
+          {
+            "name": "valid_response",
+            "passed": true
+          },
+          {
+            "name": "no_fabricated_route",
+            "passed": true
+          }
+        ],
+        "response": {
+          "message": "平均坡度指一段骑行路线中，累计爬升高度与水平骑行距离的比值，通常用百分比表示。例如，骑行1公里爬升50米，平均坡度约为5%。它反映整段路的整体陡缓程度，并不代表每一处都同样陡；短陡坡和缓坡会被平均掉，所以实际骑行时还要留意最大坡度。",
+          "options": [],
+          "items": [],
+          "meta": {
+            "requestId": "4e952410-3c05-482c-af2f-348cc31e407e",
+            "promptVersion": "idea-2026-11-09.v2",
+            "model": "deepseek-chat",
+            "modelCalls": 1,
+            "inputTokens": 2022,
+            "outputTokens": 233,
+            "modelDurationMs": 2556,
+            "elapsedMs": 2560,
+            "toolCalls": []
+          },
+          "title": "平均坡度含义解答",
+          "contextIntent": null,
+          "placeContext": null
+        }
+      }
+    ]
+  },
+  {
+    "id": "no-invented-budget",
+    "category": "boundary",
+    "split": "holdout",
+    "repeat": 1,
+    "passed": true,
+    "turns": [
+      {
+        "idea": "推荐附近热门路段，但我没说想骑多远",
+        "expected": {
+          "fields": {
+            "contextIntent.targetKm": null,
+            "contextIntent.preferredTags": [
+              "popular"
+            ]
+          }
+        },
+        "status": 200,
+        "durationMs": 3153,
+        "checks": [
+          {
+            "name": "valid_response",
+            "passed": true
+          },
+          {
+            "name": "field:contextIntent.targetKm",
+            "passed": true,
+            "expected": null,
+            "actual": null
+          },
+          {
+            "name": "field:contextIntent.preferredTags",
+            "passed": true,
+            "expected": [
+              "popular"
+            ],
+            "actual": [
+              "popular"
+            ]
+          }
+        ],
+        "response": {
+          "message": "为你找到当前地图中心附近的推荐",
+          "center": {
+            "lat": 31.2,
+            "lng": 121.4
+          },
+          "area": "当前地图中心附近",
+          "items": [
+            {
+              "id": "segment:101",
+              "type": "segment",
+              "name": "滨江练习段",
+              "lat": 31.2,
+              "lng": 121.4,
+              "distanceKm": 10,
+              "hazardous": false,
+              "tags": {
+                "climbing": "unknown",
+                "loop": "unknown",
+                "out_and_back": "unknown",
+                "long_distance": "unknown",
+                "popular": "matched",
+                "highly_starred": "unknown"
+              },
+              "coordinates": [
+                {
+                  "lat": 31.2,
+                  "lng": 121.4
+                },
+                {
+                  "lat": 31.21,
+                  "lng": 121.41
+                }
+              ],
+              "reason": "标签中热门属性为matched，符合热门路段偏好。"
+            },
+            {
+              "id": "segment:102",
+              "type": "segment",
+              "name": "城市绕圈段",
+              "lat": 31.2,
+              "lng": 121.4,
+              "distanceKm": 12,
+              "hazardous": false,
+              "tags": {
+                "climbing": "unknown",
+                "loop": "matched",
+                "out_and_back": "unknown",
+                "long_distance": "unknown",
+                "popular": "unknown",
+                "highly_starred": "unknown"
+              },
+              "coordinates": [
+                {
+                  "lat": 31.2,
+                  "lng": 121.4
+                },
+                {
+                  "lat": 31.22,
+                  "lng": 121.42
+                }
+              ],
+              "reason": "标签中绕圈属性为matched，可作为附近路段候选。"
+            }
+          ],
+          "meta": {
+            "requestId": "70b36cd6-8089-468f-ae9d-ce8b06c7cb06",
+            "promptVersion": "idea-2026-11-09.v2",
+            "model": "deepseek-chat",
+            "modelCalls": 2,
+            "inputTokens": 2571,
+            "outputTokens": 237,
+            "modelDurationMs": 3146,
+            "elapsedMs": 3151,
+            "toolCalls": []
+          },
+          "title": "推荐附近热门骑行路段",
+          "contextIntent": {
+            "mode": "recommend",
+            "requestType": "recommend",
+            "place": null,
+            "origin": null,
+            "destination": null,
+            "returnToStart": false,
+            "needsSegment": true,
+            "segmentName": null,
+            "needsPoint": false,
+            "pointName": null,
+            "pointKind": null,
+            "order": [],
+            "stops": [],
+            "preferences": [],
+            "preferredTags": [
+              "popular"
+            ],
+            "avoidTags": [],
+            "minKm": null,
+            "maxKm": null,
+            "targetKm": null,
+            "targetMinutes": null,
+            "minMinutes": null,
+            "maxMinutes": null,
+            "timeScope": null,
+            "stopMinutes": null
+          },
+          "placeContext": {
+            "query": "当前地图中心附近",
+            "terms": [],
+            "area": null,
+            "selectedId": null,
+            "candidates": [
+              {
+                "id": "segment:101",
+                "type": "segment",
+                "name": "滨江练习段"
+              },
+              {
+                "id": "segment:102",
+                "type": "segment",
+                "name": "城市绕圈段"
+              }
+            ]
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "negation",
+    "category": "boundary",
+    "split": "holdout",
+    "repeat": 1,
+    "passed": true,
+    "turns": [
+      {
+        "idea": "不要推荐爬坡路段，推荐热门的",
+        "expected": {
+          "fields": {
+            "contextIntent.avoidTags": [
+              "climbing"
+            ],
+            "contextIntent.preferredTags": [
+              "popular"
+            ]
+          }
+        },
+        "status": 200,
+        "durationMs": 3601,
+        "checks": [
+          {
+            "name": "valid_response",
+            "passed": true
+          },
+          {
+            "name": "field:contextIntent.avoidTags",
+            "passed": true,
+            "expected": [
+              "climbing"
+            ],
+            "actual": [
+              "climbing"
+            ]
+          },
+          {
+            "name": "field:contextIntent.preferredTags",
+            "passed": true,
+            "expected": [
+              "popular"
+            ],
+            "actual": [
+              "popular"
+            ]
+          }
+        ],
+        "response": {
+          "message": "为你找到当前地图中心附近的推荐",
+          "center": {
+            "lat": 31.2,
+            "lng": 121.4
+          },
+          "area": "当前地图中心附近",
+          "items": [
+            {
+              "id": "segment:101",
+              "type": "segment",
+              "name": "滨江练习段",
+              "lat": 31.2,
+              "lng": 121.4,
+              "distanceKm": 10,
+              "hazardous": false,
+              "tags": {
+                "climbing": "unknown",
+                "loop": "unknown",
+                "out_and_back": "unknown",
+                "long_distance": "unknown",
+                "popular": "matched",
+                "highly_starred": "unknown"
+              },
+              "coordinates": [
+                {
+                  "lat": 31.2,
+                  "lng": 121.4
+                },
+                {
+                  "lat": 31.21,
+                  "lng": 121.41
+                }
+              ],
+              "reason": "标签中热门属性匹配，且未标记爬坡。"
+            }
+          ],
+          "meta": {
+            "requestId": "553fd073-e084-4c77-947e-1c0f34ac3191",
+            "promptVersion": "idea-2026-11-09.v2",
+            "model": "deepseek-chat",
+            "modelCalls": 2,
+            "inputTokens": 2563,
+            "outputTokens": 211,
+            "modelDurationMs": 3596,
+            "elapsedMs": 3600,
+            "toolCalls": []
+          },
+          "title": "推荐热门且避开爬坡路段",
+          "contextIntent": {
+            "mode": "recommend",
+            "requestType": "recommend",
+            "place": null,
+            "origin": null,
+            "destination": null,
+            "returnToStart": false,
+            "needsSegment": true,
+            "segmentName": null,
+            "needsPoint": false,
+            "pointName": null,
+            "pointKind": null,
+            "order": [],
+            "stops": [],
+            "preferences": [],
+            "preferredTags": [
+              "popular"
+            ],
+            "avoidTags": [
+              "climbing"
+            ],
+            "minKm": null,
+            "maxKm": null,
+            "targetKm": null,
+            "targetMinutes": null,
+            "minMinutes": null,
+            "maxMinutes": null,
+            "timeScope": null,
+            "stopMinutes": null
+          },
+          "placeContext": {
+            "query": "当前地图中心附近",
+            "terms": [],
+            "area": null,
+            "selectedId": null,
+            "candidates": [
+              {
+                "id": "segment:101",
+                "type": "segment",
+                "name": "滨江练习段"
+              }
+            ]
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "units-distance",
+    "category": "units",
+    "split": "holdout",
+    "repeat": 1,
+    "passed": true,
+    "turns": [
+      {
+        "idea": "轻松骑三十千米",
+        "expected": {
+          "fields": {
+            "contextIntent.targetKm": 30
+          }
+        },
+        "status": 200,
+        "durationMs": 1795,
+        "checks": [
+          {
+            "name": "valid_response",
+            "passed": true
+          },
+          {
+            "name": "field:contextIntent.targetKm",
+            "passed": true,
+            "expected": 30,
+            "actual": 30
+          }
+        ],
+        "response": {
+          "message": "已完成需求解析（固定规划器评测）",
+          "items": [],
+          "route": {
+            "legs": [],
+            "stops": [],
+            "distanceKm": 30,
+            "durationMin": 90,
+            "hasEstimatedTime": true
+          },
+          "meta": {
+            "requestId": "d7e35542-3760-47de-b7c6-be5c823cda1a",
+            "promptVersion": "idea-2026-11-09.v2",
+            "model": "deepseek-chat",
+            "modelCalls": 1,
+            "inputTokens": 2021,
+            "outputTokens": 160,
+            "modelDurationMs": 1790,
+            "elapsedMs": 1794,
+            "toolCalls": []
+          },
+          "title": "轻松骑行三十公里",
+          "contextIntent": {
+            "mode": "route",
+            "requestType": "route",
+            "place": null,
+            "origin": null,
+            "destination": null,
+            "returnToStart": false,
+            "needsSegment": false,
+            "segmentName": null,
+            "needsPoint": false,
+            "pointName": null,
+            "pointKind": null,
+            "order": [],
+            "stops": [],
+            "preferences": [
+              "休闲"
+            ],
+            "preferredTags": [],
+            "avoidTags": [],
+            "minKm": null,
+            "maxKm": null,
+            "targetKm": 30,
+            "targetMinutes": null,
+            "minMinutes": null,
+            "maxMinutes": null,
+            "timeScope": null,
+            "stopMinutes": null
+          },
+          "placeContext": null
+        }
+      }
+    ]
+  },
+  {
+    "id": "unknown-popularity",
+    "category": "boundary",
+    "split": "holdout",
+    "repeat": 1,
+    "passed": true,
+    "turns": [
+      {
+        "idea": "推荐附近路段，不要求热门",
+        "expected": {
+          "fields": {
+            "contextIntent.preferredTags": []
+          }
+        },
+        "status": 200,
+        "durationMs": 4207,
+        "checks": [
+          {
+            "name": "valid_response",
+            "passed": true
+          },
+          {
+            "name": "field:contextIntent.preferredTags",
+            "passed": true,
+            "expected": [],
+            "actual": []
+          }
+        ],
+        "response": {
+          "message": "为你找到当前地图中心附近的推荐",
+          "center": {
+            "lat": 31.2,
+            "lng": 121.4
+          },
+          "area": "当前地图中心附近",
+          "items": [
+            {
+              "id": "segment:101",
+              "type": "segment",
+              "name": "滨江练习段",
+              "lat": 31.2,
+              "lng": 121.4,
+              "distanceKm": 10,
+              "hazardous": false,
+              "tags": {
+                "climbing": "unknown",
+                "loop": "unknown",
+                "out_and_back": "unknown",
+                "long_distance": "unknown",
+                "popular": "matched",
+                "highly_starred": "unknown"
+              },
+              "coordinates": [
+                {
+                  "lat": 31.2,
+                  "lng": 121.4
+                },
+                {
+                  "lat": 31.21,
+                  "lng": 121.41
+                }
+              ],
+              "reason": "滨江练习段，距离约10公里，未标记危险。"
+            },
+            {
+              "id": "segment:102",
+              "type": "segment",
+              "name": "城市绕圈段",
+              "lat": 31.2,
+              "lng": 121.4,
+              "distanceKm": 12,
+              "hazardous": false,
+              "tags": {
+                "climbing": "unknown",
+                "loop": "matched",
+                "out_and_back": "unknown",
+                "long_distance": "unknown",
+                "popular": "unknown",
+                "highly_starred": "unknown"
+              },
+              "coordinates": [
+                {
+                  "lat": 31.2,
+                  "lng": 121.4
+                },
+                {
+                  "lat": 31.22,
+                  "lng": 121.42
+                }
+              ],
+              "reason": "城市绕圈段，距离约12公里，未标记危险。"
+            }
+          ],
+          "meta": {
+            "requestId": "2b06b329-42d9-46f6-9bb7-69789f89dc88",
+            "promptVersion": "idea-2026-11-09.v2",
+            "model": "deepseek-chat",
+            "modelCalls": 2,
+            "inputTokens": 2608,
+            "outputTokens": 286,
+            "modelDurationMs": 4201,
+            "elapsedMs": 4205,
+            "toolCalls": []
+          },
+          "title": "推荐附近骑行路段",
+          "contextIntent": {
+            "mode": "recommend",
+            "requestType": "recommend",
+            "place": null,
+            "origin": null,
+            "destination": null,
+            "returnToStart": false,
+            "needsSegment": true,
+            "segmentName": null,
+            "needsPoint": false,
+            "pointName": null,
+            "pointKind": null,
+            "order": [],
+            "stops": [],
+            "preferences": [],
+            "preferredTags": [],
+            "avoidTags": [],
+            "minKm": null,
+            "maxKm": null,
+            "targetKm": null,
+            "targetMinutes": null,
+            "minMinutes": null,
+            "maxMinutes": null,
+            "timeScope": null,
+            "stopMinutes": null
+          },
+          "placeContext": {
+            "query": "当前地图中心附近",
+            "terms": [],
+            "area": null,
+            "selectedId": null,
+            "candidates": [
+              {
+                "id": "segment:101",
+                "type": "segment",
+                "name": "滨江练习段"
+              },
+              {
+                "id": "segment:102",
+                "type": "segment",
+                "name": "城市绕圈段"
+              }
+            ]
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "units-duration",
+    "category": "units",
+    "split": "holdout",
+    "repeat": 1,
+    "passed": true,
+    "turns": [
+      {
+        "idea": "骑两个半小时",
+        "expected": {
+          "fields": {
+            "contextIntent.targetMinutes": 150
+          }
+        },
+        "status": 200,
+        "durationMs": 1917,
+        "checks": [
+          {
+            "name": "valid_response",
+            "passed": true
+          },
+          {
+            "name": "field:contextIntent.targetMinutes",
+            "passed": true,
+            "expected": 150,
+            "actual": 150
+          }
+        ],
+        "response": {
+          "message": "已完成需求解析（固定规划器评测）",
+          "items": [],
+          "route": {
+            "legs": [],
+            "stops": [],
+            "distanceKm": 30,
+            "durationMin": 150,
+            "hasEstimatedTime": true
+          },
+          "meta": {
+            "requestId": "f968f9b2-5820-498b-a198-01296e2b0e26",
+            "promptVersion": "idea-2026-11-09.v2",
+            "model": "deepseek-chat",
+            "modelCalls": 1,
+            "inputTokens": 2020,
+            "outputTokens": 159,
+            "modelDurationMs": 1912,
+            "elapsedMs": 1917,
+            "toolCalls": []
+          },
+          "title": "规划两个半小时骑行路线",
+          "contextIntent": {
+            "mode": "route",
+            "requestType": "route",
+            "place": null,
+            "origin": null,
+            "destination": null,
+            "returnToStart": false,
+            "needsSegment": false,
+            "segmentName": null,
+            "needsPoint": false,
+            "pointName": null,
+            "pointKind": null,
+            "order": [],
+            "stops": [],
+            "preferences": [],
+            "preferredTags": [],
+            "avoidTags": [],
+            "minKm": null,
+            "maxKm": null,
+            "targetKm": null,
+            "targetMinutes": 150,
+            "minMinutes": null,
+            "maxMinutes": null,
+            "timeScope": "riding",
+            "stopMinutes": null
+          },
+          "placeContext": null
+        }
+      }
+    ]
+  },
+  {
+    "id": "unknown-stop-duration",
+    "category": "units",
+    "split": "holdout",
+    "repeat": 1,
+    "passed": true,
+    "turns": [
+      {
+        "idea": "两小时内回来，包括中途休息但时间没定",
+        "expected": {
+          "fields": {
+            "contextIntent.maxMinutes": 120,
+            "contextIntent.timeScope": "total",
+            "contextIntent.stopMinutes": null
+          }
+        },
+        "status": 200,
+        "durationMs": 1859,
+        "checks": [
+          {
+            "name": "valid_response",
+            "passed": true
+          },
+          {
+            "name": "field:contextIntent.maxMinutes",
+            "passed": true,
+            "expected": 120,
+            "actual": 120
+          },
+          {
+            "name": "field:contextIntent.timeScope",
+            "passed": true,
+            "expected": "total",
+            "actual": "total"
+          },
+          {
+            "name": "field:contextIntent.stopMinutes",
+            "passed": true,
+            "expected": null,
+            "actual": null
+          }
+        ],
+        "response": {
+          "message": "已完成需求解析（固定规划器评测）",
+          "items": [],
+          "route": {
+            "legs": [],
+            "stops": [],
+            "distanceKm": 30,
+            "durationMin": 90,
+            "hasEstimatedTime": true
+          },
+          "meta": {
+            "requestId": "f97cd508-19d1-4aab-921c-3c1583fc77fd",
+            "promptVersion": "idea-2026-11-09.v2",
+            "model": "deepseek-chat",
+            "modelCalls": 1,
+            "inputTokens": 2028,
+            "outputTokens": 160,
+            "modelDurationMs": 1852,
+            "elapsedMs": 1858,
+            "toolCalls": []
+          },
+          "title": "两小时内含休息的骑行",
+          "contextIntent": {
+            "mode": "route",
+            "requestType": "route",
+            "place": null,
+            "origin": null,
+            "destination": null,
+            "returnToStart": true,
+            "needsSegment": false,
+            "segmentName": null,
+            "needsPoint": false,
+            "pointName": null,
+            "pointKind": null,
+            "order": [],
+            "stops": [],
+            "preferences": [],
+            "preferredTags": [],
+            "avoidTags": [],
+            "minKm": null,
+            "maxKm": null,
+            "targetKm": null,
+            "targetMinutes": null,
+            "minMinutes": null,
+            "maxMinutes": 120,
+            "timeScope": "total",
+            "stopMinutes": null
+          },
+          "placeContext": null
+        }
+      }
+    ]
+  }
+]

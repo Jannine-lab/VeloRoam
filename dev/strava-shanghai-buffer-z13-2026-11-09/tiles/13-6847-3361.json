@@ -1,0 +1,20 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-03T06:13:25.252Z",
+  "tile": {
+    "z": 13,
+    "x": 6847,
+    "y": 3361
+  },
+  "segments": [
+    {
+      "id": "33563752",
+      "tileScore": 1,
+      "name": "科技大道_嘉兴方向",
+      "distanceM": 14595,
+      "avgGrade": -0.010962658561766148,
+      "startLat": 30.68132972717285,
+      "startLng": 120.95545959472656
+    }
+  ]
+}

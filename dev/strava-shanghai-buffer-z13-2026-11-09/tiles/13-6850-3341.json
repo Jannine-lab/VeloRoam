@@ -1,0 +1,38 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-03T06:04:22.078Z",
+  "tile": {
+    "z": 13,
+    "x": 6850,
+    "y": 3341
+  },
+  "segments": [
+    {
+      "id": "31140593",
+      "tileScore": 7,
+      "name": "昆太-前进 -G024绕圈",
+      "distanceM": 24308.900390625,
+      "avgGrade": 0.0016454878496006131,
+      "startLat": 31.43547248840332,
+      "startLng": 121.0988540649414
+    },
+    {
+      "id": "30018988",
+      "tileScore": 7,
+      "name": "JPA-05",
+      "distanceM": 5314.2998046875,
+      "avgGrade": -0.018817154690623283,
+      "startLat": 31.458202362060547,
+      "startLng": 121.07745361328125
+    },
+    {
+      "id": "34470549",
+      "tileScore": 42,
+      "name": "LBCC昆太路返程",
+      "distanceM": 4856.5,
+      "avgGrade": 0.008236384019255638,
+      "startLat": 31.42897605895996,
+      "startLng": 121.06754302978516
+    }
+  ]
+}

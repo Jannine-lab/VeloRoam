@@ -1,0 +1,83 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-08T22:48:49.241Z",
+  "tile": {
+    "z": 13,
+    "x": 6687,
+    "y": 3561
+  },
+  "segments": [
+    {
+      "id": "41090976",
+      "tileScore": 2,
+      "name": "大朗柬埔寨绕圈",
+      "distanceM": 11071.5,
+      "avgGrade": -0.010838639922440052,
+      "startLat": 22.870044708251953,
+      "startLng": 113.91222381591797
+    },
+    {
+      "id": "39065479",
+      "tileScore": 5,
+      "name": "Songshan Lake Loop (Clockwise - NW Start)",
+      "distanceM": 14541.900390625,
+      "avgGrade": -0.006876680534332991,
+      "startLat": 22.896446228027344,
+      "startLng": 113.8578109741211
+    },
+    {
+      "id": "40920345",
+      "tileScore": 40,
+      "name": "环松山湖（顺时针）",
+      "distanceM": 20766.80078125,
+      "avgGrade": -0.014446135610342026,
+      "startLat": 22.896211624145508,
+      "startLng": 113.86019134521484
+    },
+    {
+      "id": "39713531",
+      "tileScore": 31,
+      "name": "松湖水库内圈",
+      "distanceM": 14385.900390625,
+      "avgGrade": 0.0034756253007799387,
+      "startLat": 22.896528244018555,
+      "startLng": 113.85846710205078
+    },
+    {
+      "id": "25004124",
+      "tileScore": 3,
+      "name": "Songshang Lake Clockwise Double Climb",
+      "distanceM": 982.2000122070312,
+      "avgGrade": 0.9875789284706116,
+      "startLat": 22.87936782836914,
+      "startLng": 113.88924407958984
+    },
+    {
+      "id": "33988452",
+      "tileScore": 11,
+      "name": "鹤兜山路北行",
+      "distanceM": 3081.60009765625,
+      "avgGrade": 0.7593458294868469,
+      "startLat": 22.828933715820312,
+      "startLng": 113.8694076538086
+    },
+    {
+      "id": "30450357",
+      "tileScore": 8,
+      "name": "warm up",
+      "distanceM": 585.0999755859375,
+      "avgGrade": 8.169544219970703,
+      "startLat": 22.85242462158203,
+      "startLng": 113.8886947631836
+    },
+    {
+      "id": "38075290",
+      "tileScore": 31,
+      "name": "罗田森林公园一圈",
+      "distanceM": 6025,
+      "avgGrade": -0.006639004219323397,
+      "startLat": 22.835033416748047,
+      "startLng": 113.88421630859375
+    }
+  ]
+}

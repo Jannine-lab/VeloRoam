@@ -1,0 +1,182 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-08T22:33:11.125Z",
+  "tile": {
+    "z": 13,
+    "x": 6801,
+    "y": 3323
+  },
+  "segments": [
+    {
+      "id": "37976344",
+      "tileScore": 2,
+      "name": "Along the railway",
+      "distanceM": 3928.199951171875,
+      "avgGrade": -0.24947813153266907,
+      "startLat": 32.122962951660156,
+      "startLng": 118.89419555664062
+    },
+    {
+      "id": "6137971",
+      "tileScore": 8,
+      "name": "WenYuanRoad(WenlanRoad to XianYingRoad)",
+      "distanceM": 1271.199951171875,
+      "avgGrade": 0.38546255230903625,
+      "startLat": 32.10325241088867,
+      "startLng": 118.91144561767578
+    },
+    {
+      "id": "36079191",
+      "tileScore": 7,
+      "name": "2024元旦100km骑行",
+      "distanceM": 88661.296875,
+      "avgGrade": 0.01646716333925724,
+      "startLat": 32.070831298828125,
+      "startLng": 118.81453704833984
+    },
+    {
+      "id": "31420344",
+      "tileScore": 11,
+      "name": "Qixia Av S338 #2 back",
+      "distanceM": 5250.5,
+      "avgGrade": 0.2361679971218109,
+      "startLat": 32.148067474365234,
+      "startLng": 118.9419937133789
+    },
+    {
+      "id": "40698324",
+      "tileScore": 17,
+      "name": "上元门至红枫路计时赛段（永济—新港—栖霞）",
+      "distanceM": 24400.900390625,
+      "avgGrade": 0.00573749328032136,
+      "startLat": 32.117767333984375,
+      "startLng": 118.76475524902344
+    },
+    {
+      "id": "28338983",
+      "tileScore": 6,
+      "name": "Wenlan lu (Xuelin->Jiuxianghe West lu)",
+      "distanceM": 3281.89990234375,
+      "avgGrade": -0.5301806926727295,
+      "startLat": 32.113243103027344,
+      "startLng": 118.91059875488281
+    },
+    {
+      "id": "13238375",
+      "tileScore": 3,
+      "name": "岔路口到仙尧路",
+      "distanceM": 3059.699951171875,
+      "avgGrade": 0.03268294408917427,
+      "startLat": 32.09526443481445,
+      "startLng": 118.85826873779297
+    },
+    {
+      "id": "5051397",
+      "tileScore": 4,
+      "name": "南京收费站 到 宝华山",
+      "distanceM": 20786,
+      "avgGrade": 0.14336572587490082,
+      "startLat": 32.104984283447266,
+      "startLng": 118.88829803466797
+    },
+    {
+      "id": "31343657",
+      "tileScore": 1,
+      "name": "恒业路东至西",
+      "distanceM": 746.5,
+      "avgGrade": 0.4286670982837677,
+      "startLat": 32.13297653198242,
+      "startLng": 118.89988708496094
+    },
+    {
+      "id": "40411627",
+      "tileScore": 9,
+      "name": "南师大后山瞭望塔爬坡-YC",
+      "distanceM": 514.0999755859375,
+      "avgGrade": 5.991052627563477,
+      "startLat": 32.108360290527344,
+      "startLng": 118.90647888183594
+    },
+    {
+      "id": "37842632",
+      "tileScore": 16,
+      "name": "聚宝山公路爬坡一圈",
+      "distanceM": 2577,
+      "avgGrade": 0.007760962005704641,
+      "startLat": 32.10029602050781,
+      "startLng": 118.87311553955078
+    },
+    {
+      "id": "30453647",
+      "tileScore": 7,
+      "name": "经过南财（别走快车道）",
+      "distanceM": 875.4000244140625,
+      "avgGrade": -0.2284669727087021,
+      "startLat": 32.10602569580078,
+      "startLng": 118.92095184326172
+    },
+    {
+      "id": "39072645",
+      "tileScore": 7,
+      "name": "从玄武大道去仙林的快速通道 桢",
+      "distanceM": 3942.300048828125,
+      "avgGrade": -0.48702535033226013,
+      "startLat": 32.10554885864258,
+      "startLng": 118.88870239257812
+    },
+    {
+      "id": "34114844",
+      "tileScore": 9,
+      "name": "尧新大道下坡",
+      "distanceM": 2127.699951171875,
+      "avgGrade": 0.11279785633087158,
+      "startLat": 32.11125183105469,
+      "startLng": 118.8686294555664
+    },
+    {
+      "id": "31420354",
+      "tileScore": 2,
+      "name": "Qixia Av S338 #1 back",
+      "distanceM": 2093.699951171875,
+      "avgGrade": -0.20060180127620697,
+      "startLat": 32.13673400878906,
+      "startLng": 118.88578033447266
+    },
+    {
+      "id": "29932429",
+      "tileScore": 5,
+      "name": "Danny's Wednesday Round",
+      "distanceM": 21920.19921875,
+      "avgGrade": -0.038320817053318024,
+      "startLat": 32.08832931518555,
+      "startLng": 118.89706420898438
+    },
+    {
+      "id": "35007642",
+      "tileScore": 9,
+      "name": "Xianyin North Road uphill 2.0",
+      "distanceM": 1171.300048828125,
+      "avgGrade": 1.4513788223266602,
+      "startLat": 32.099586486816406,
+      "startLng": 118.89802551269531
+    },
+    {
+      "id": "35100894",
+      "tileScore": 8,
+      "name": "中北学院冲向大学城之路",
+      "distanceM": 708.7000122070312,
+      "avgGrade": -0.4233102798461914,
+      "startLat": 32.11558532714844,
+      "startLng": 118.90302276611328
+    },
+    {
+      "id": "18825050",
+      "tileScore": 7,
+      "name": "xianyaolu-yaomalu 翾",
+      "distanceM": 353.3999938964844,
+      "avgGrade": -0.2546689212322235,
+      "startLat": 32.10452651977539,
+      "startLng": 118.88725280761719
+    }
+  ]
+}

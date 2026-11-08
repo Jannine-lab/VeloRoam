@@ -1,0 +1,137 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-08T22:50:05.586Z",
+  "tile": {
+    "z": 13,
+    "x": 6689,
+    "y": 3566
+  },
+  "segments": [
+    {
+      "id": "40404347",
+      "tileScore": 84,
+      "name": "大阳台",
+      "distanceM": 7200.7001953125,
+      "avgGrade": 6.624355792999268,
+      "startLat": 22.66570281982422,
+      "startLng": 113.94392395019531
+    },
+    {
+      "id": "31621302",
+      "tileScore": 13,
+      "name": "宝燃油站至鹊山路口",
+      "distanceM": 6320.7998046875,
+      "avgGrade": 0.16137197613716125,
+      "startLat": 22.6866455078125,
+      "startLng": 113.94827270507812
+    },
+    {
+      "id": "33259021",
+      "tileScore": 21,
+      "name": "冲压坡",
+      "distanceM": 1977.800048828125,
+      "avgGrade": 3.923551321029663,
+      "startLat": 22.653278350830078,
+      "startLng": 113.99030303955078
+    },
+    {
+      "id": "34316666",
+      "tileScore": 4,
+      "name": "溪之谷林道上坡段",
+      "distanceM": 1665.5999755859375,
+      "avgGrade": 8.057156562805176,
+      "startLat": 22.679115295410156,
+      "startLng": 113.94841766357422
+    },
+    {
+      "id": "40482789",
+      "tileScore": 68,
+      "name": "丽康路向东",
+      "distanceM": 11098.2001953125,
+      "avgGrade": -0.06577643007040024,
+      "startLat": 22.629308700561523,
+      "startLng": 113.93569946289062
+    },
+    {
+      "id": "21701728",
+      "tileScore": 3,
+      "name": "揽胜台反爬",
+      "distanceM": 1205.5,
+      "avgGrade": 5.176275253295898,
+      "startLat": 22.65774917602539,
+      "startLng": 113.98442840576172
+    },
+    {
+      "id": "21701719",
+      "tileScore": 7,
+      "name": "揽胜台爬坡",
+      "distanceM": 1410.199951171875,
+      "avgGrade": 4.992199897766113,
+      "startLat": 22.664718627929688,
+      "startLng": 113.97660827636719
+    },
+    {
+      "id": "23476165",
+      "tileScore": 67,
+      "name": "二线间歇赛段  LiKang Rolling Hill HIIT",
+      "distanceM": 2365.800048828125,
+      "avgGrade": 0.515681803226471,
+      "startLat": 22.633581161499023,
+      "startLng": 113.96549224853516
+    },
+    {
+      "id": "42227871",
+      "tileScore": 12,
+      "name": "大围肚XC下坡（露营地至水沟）",
+      "distanceM": 1357.699951171875,
+      "avgGrade": -9.840170860290527,
+      "startLat": 22.66482925415039,
+      "startLng": 113.9652328491211
+    },
+    {
+      "id": "21701758",
+      "tileScore": 30,
+      "name": "山水连城反爬",
+      "distanceM": 1208.5,
+      "avgGrade": 6.967315196990967,
+      "startLat": 22.643896102905273,
+      "startLng": 113.97705841064453
+    },
+    {
+      "id": "5921867",
+      "tileScore": 2,
+      "name": "Makan Road Climb",
+      "distanceM": 856.0999755859375,
+      "avgGrade": 13.00081729888916,
+      "startLat": 22.639623641967773,
+      "startLng": 113.95623016357422
+    },
+    {
+      "id": "36554626",
+      "tileScore": 91,
+      "name": "西丽起伏大套餐（北站南科丽康宝石）",
+      "distanceM": 24765,
+      "avgGrade": -0.031496062874794006,
+      "startLat": 22.602205276489258,
+      "startLng": 114.00679779052734
+    },
+    {
+      "id": "5890586",
+      "tileScore": 68,
+      "name": "From Fulincun to Baimang. Decent hilly road 6/7",
+      "distanceM": 9364.2001953125,
+      "avgGrade": 0.14523398876190186,
+      "startLat": 22.605180740356445,
+      "startLng": 113.98954010009766
+    },
+    {
+      "id": "20047613",
+      "tileScore": 46,
+      "name": "Likang Road Westward",
+      "distanceM": 6291.89990234375,
+      "avgGrade": -0.13668367266654968,
+      "startLat": 22.624980926513672,
+      "startLng": 113.97712707519531
+    }
+  ]
+}

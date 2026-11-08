@@ -1,0 +1,20 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-03T05:59:13.274Z",
+  "tile": {
+    "z": 13,
+    "x": 6863,
+    "y": 3331
+  },
+  "segments": [
+    {
+      "id": "28107169",
+      "tileScore": 4,
+      "name": "Stretch Your Legs",
+      "distanceM": 1752.199951171875,
+      "avgGrade": -0.05707110837101936,
+      "startLat": 31.81622886657715,
+      "startLng": 121.58734893798828
+    }
+  ]
+}

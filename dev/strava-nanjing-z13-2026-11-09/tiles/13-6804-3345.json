@@ -1,0 +1,20 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-08T22:40:33.446Z",
+  "tile": {
+    "z": 13,
+    "x": 6804,
+    "y": 3345
+  },
+  "segments": [
+    {
+      "id": "29695914",
+      "tileScore": 9,
+      "name": "辛亥线-固城终点3KM",
+      "distanceM": 3190.300048828125,
+      "avgGrade": 0.09403504431247711,
+      "startLat": 31.314294815063477,
+      "startLng": 119.00517272949219
+    }
+  ]
+}

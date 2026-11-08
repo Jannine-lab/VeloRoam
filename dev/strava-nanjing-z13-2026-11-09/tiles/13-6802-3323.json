@@ -1,0 +1,254 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-08T22:33:08.118Z",
+  "tile": {
+    "z": 13,
+    "x": 6802,
+    "y": 3323
+  },
+  "segments": [
+    {
+      "id": "24917933",
+      "tileScore": 1,
+      "name": "Tour de Nanjing Day 2 - Route",
+      "distanceM": 23581.19921875,
+      "avgGrade": 0.004240666516125202,
+      "startLat": 32.09357452392578,
+      "startLng": 118.90508270263672
+    },
+    {
+      "id": "37724619",
+      "tileScore": 12,
+      "name": "南大出门就是干",
+      "distanceM": 964.2999877929688,
+      "avgGrade": 0.5703619122505188,
+      "startLat": 32.119808197021484,
+      "startLng": 118.9463882446289
+    },
+    {
+      "id": "40111152",
+      "tileScore": 4,
+      "name": "Jiu Round",
+      "distanceM": 15003,
+      "avgGrade": -0.014663733541965485,
+      "startLat": 32.118751525878906,
+      "startLng": 118.94152069091797
+    },
+    {
+      "id": "36993012",
+      "tileScore": 7,
+      "name": "Golden Eagle Mall",
+      "distanceM": 500.70001220703125,
+      "avgGrade": 0.13980427384376526,
+      "startLat": 32.10205841064453,
+      "startLng": 118.92276763916016
+    },
+    {
+      "id": "30489594",
+      "tileScore": 20,
+      "name": "经过南大仙林（不要走快车道）",
+      "distanceM": 993.2999877929688,
+      "avgGrade": -0.32215848565101624,
+      "startLat": 32.1132698059082,
+      "startLng": 118.96147155761719
+    },
+    {
+      "id": "11036383",
+      "tileScore": 2,
+      "name": "lozho_羊山（北面登山至瞭望塔）",
+      "distanceM": 1205,
+      "avgGrade": 4.97925329208374,
+      "startLat": 32.11551284790039,
+      "startLng": 118.94038391113281
+    },
+    {
+      "id": "5051397",
+      "tileScore": 4,
+      "name": "南京收费站 到 宝华山",
+      "distanceM": 20786,
+      "avgGrade": 0.14336572587490082,
+      "startLat": 32.104984283447266,
+      "startLng": 118.88829803466797
+    },
+    {
+      "id": "29932429",
+      "tileScore": 5,
+      "name": "Danny's Wednesday Round",
+      "distanceM": 21920.19921875,
+      "avgGrade": -0.038320817053318024,
+      "startLat": 32.08832931518555,
+      "startLng": 118.89706420898438
+    },
+    {
+      "id": "28338983",
+      "tileScore": 6,
+      "name": "Wenlan lu (Xuelin->Jiuxianghe West lu)",
+      "distanceM": 3281.89990234375,
+      "avgGrade": -0.5301806926727295,
+      "startLat": 32.113243103027344,
+      "startLng": 118.91059875488281
+    },
+    {
+      "id": "17481553",
+      "tileScore": 13,
+      "name": "南大_loop",
+      "distanceM": 6393.7998046875,
+      "avgGrade": 0.018768182024359703,
+      "startLat": 32.11280822753906,
+      "startLng": 118.96046447753906
+    },
+    {
+      "id": "10327505",
+      "tileScore": 15,
+      "name": "xianlin ave",
+      "distanceM": 2116.39990234375,
+      "avgGrade": -0.10395010560750961,
+      "startLat": 32.09596633911133,
+      "startLng": 118.91741943359375
+    },
+    {
+      "id": "30748433",
+      "tileScore": 9,
+      "name": "NJU梅林climb",
+      "distanceM": 311.79998779296875,
+      "avgGrade": 10.006414413452148,
+      "startLat": 32.119712829589844,
+      "startLng": 118.95113372802734
+    },
+    {
+      "id": "39883787",
+      "tileScore": 8,
+      "name": "西部干线环线段 1/2",
+      "distanceM": 39352.30078125,
+      "avgGrade": 0.04472419619560242,
+      "startLat": 32.06488800048828,
+      "startLng": 118.88341522216797
+    },
+    {
+      "id": "35765181",
+      "tileScore": 33,
+      "name": "ul - Xianlin - Baohua Garden Expo Loop",
+      "distanceM": 34483.80078125,
+      "avgGrade": 0.011599649675190449,
+      "startLat": 32.095947265625,
+      "startLng": 118.91744232177734
+    },
+    {
+      "id": "29802204",
+      "tileScore": 2,
+      "name": "Xianlin North E->W",
+      "distanceM": 1501,
+      "avgGrade": 0.6129246950149536,
+      "startLat": 32.13531494140625,
+      "startLng": 118.93946075439453
+    },
+    {
+      "id": "30453647",
+      "tileScore": 7,
+      "name": "经过南财（别走快车道）",
+      "distanceM": 875.4000244140625,
+      "avgGrade": -0.2284669727087021,
+      "startLat": 32.10602569580078,
+      "startLng": 118.92095184326172
+    },
+    {
+      "id": "37329649",
+      "tileScore": 11,
+      "name": "仙林大道狂飙-万达茂到环陵路-kan",
+      "distanceM": 11798.599609375,
+      "avgGrade": 0.05085349082946777,
+      "startLat": 32.121097564697266,
+      "startLng": 118.97796630859375
+    },
+    {
+      "id": "6137838",
+      "tileScore": 8,
+      "name": "XuyuanRoad S-N",
+      "distanceM": 561.0999755859375,
+      "avgGrade": -1.6039921045303345,
+      "startLat": 32.09996795654297,
+      "startLng": 118.9355239868164
+    },
+    {
+      "id": "31207078",
+      "tileScore": 6,
+      "name": "一路向东20KM~黄埔路—经天路",
+      "distanceM": 20139.30078125,
+      "avgGrade": 0.061571154743433,
+      "startLat": 32.0417594909668,
+      "startLng": 118.80626678466797
+    },
+    {
+      "id": "34980991",
+      "tileScore": 19,
+      "name": "Jiuxianghe E Road",
+      "distanceM": 1517.699951171875,
+      "avgGrade": -0.06588917225599289,
+      "startLat": 32.096588134765625,
+      "startLng": 118.95352172851562
+    },
+    {
+      "id": "39072645",
+      "tileScore": 7,
+      "name": "从玄武大道去仙林的快速通道 桢",
+      "distanceM": 3942.300048828125,
+      "avgGrade": -0.48702535033226013,
+      "startLat": 32.10554885864258,
+      "startLng": 118.88870239257812
+    },
+    {
+      "id": "29885637",
+      "tileScore": 6,
+      "name": "NJUPT_Xianlin_loop",
+      "distanceM": 5001.2998046875,
+      "avgGrade": 0,
+      "startLat": 32.10765075683594,
+      "startLng": 118.9260482788086
+    },
+    {
+      "id": "25354746",
+      "tileScore": 53,
+      "name": "南大天文台climb(从上山小路开始）",
+      "distanceM": 548,
+      "avgGrade": 7.2627739906311035,
+      "startLat": 32.12533187866211,
+      "startLng": 118.95236206054688
+    },
+    {
+      "id": "6137884",
+      "tileScore": 16,
+      "name": "XuyuanRoad to JingTianRoad",
+      "distanceM": 4722.10009765625,
+      "avgGrade": 0.6056627035140991,
+      "startLat": 32.10499954223633,
+      "startLng": 118.93437957763672
+    },
+    {
+      "id": "6137921",
+      "tileScore": 5,
+      "name": "WediRoad to JiuXiangHeWestRoad",
+      "distanceM": 3711,
+      "avgGrade": -0.4203718602657318,
+      "startLat": 32.135963439941406,
+      "startLng": 118.97500610351562
+    },
+    {
+      "id": "33089845",
+      "tileScore": 12,
+      "name": "Helmuts along the park",
+      "distanceM": 774,
+      "avgGrade": -0.23255813121795654,
+      "startLat": 32.11604690551758,
+      "startLng": 118.93016052246094
+    },
+    {
+      "id": "6137934",
+      "tileScore": 1,
+      "name": "WeidiRoad to YangShanNorthRoad",
+      "distanceM": 873.5999755859375,
+      "avgGrade": 0.5151098966598511,
+      "startLat": 32.126747131347656,
+      "startLng": 118.94043731689453
+    }
+  ]
+}

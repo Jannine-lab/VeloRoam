@@ -1,0 +1,173 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-03T06:08:09.571Z",
+  "tile": {
+    "z": 13,
+    "x": 6864,
+    "y": 3349
+  },
+  "segments": [
+    {
+      "id": "10287006",
+      "tileScore": 17,
+      "name": "My little Mortirolo (by Roberto)",
+      "distanceM": 196.1999969482422,
+      "avgGrade": 3.465851068496704,
+      "startLat": 31.129287719726562,
+      "startLng": 121.65160369873047
+    },
+    {
+      "id": "10675878",
+      "tileScore": 6,
+      "name": "Wanlongzhuan x S20/S1/S2 Expy Under Path (North-East Bound)",
+      "distanceM": 826.5999755859375,
+      "avgGrade": 0.21775949001312256,
+      "startLat": 31.157028198242188,
+      "startLng": 121.64014434814453
+    },
+    {
+      "id": "13011992",
+      "tileScore": 2,
+      "name": "Jinqiao to Disney and back",
+      "distanceM": 42188.80078125,
+      "avgGrade": 0.00521465390920639,
+      "startLat": 31.235240936279297,
+      "startLng": 121.5843734741211
+    },
+    {
+      "id": "5242261",
+      "tileScore": 16,
+      "name": "North of Disney",
+      "distanceM": 2228.699951171875,
+      "avgGrade": 0,
+      "startLat": 31.160497665405273,
+      "startLng": 121.64747619628906
+    },
+    {
+      "id": "13773996",
+      "tileScore": 17,
+      "name": "Goodbye Mickey",
+      "distanceM": 2205.199951171875,
+      "avgGrade": -0.01813894510269165,
+      "startLat": 31.131235122680664,
+      "startLng": 121.64893341064453
+    },
+    {
+      "id": "40267076",
+      "tileScore": 2,
+      "name": "孙桥蒋桥村村通",
+      "distanceM": 16826.19921875,
+      "avgGrade": -0.03090418502688408,
+      "startLat": 31.180830001831055,
+      "startLng": 121.63630676269531
+    },
+    {
+      "id": "41945494",
+      "tileScore": 10,
+      "name": "Kangqiao Kicker",
+      "distanceM": 35387.6015625,
+      "avgGrade": -0.0022606789134442806,
+      "startLat": 31.137094497680664,
+      "startLng": 121.5704116821289
+    },
+    {
+      "id": "32997614",
+      "tileScore": 18,
+      "name": "Tanghuang Rd Sprint",
+      "distanceM": 2264.60009765625,
+      "avgGrade": -0.05298949033021927,
+      "startLat": 31.177738189697266,
+      "startLng": 121.6650619506836
+    },
+    {
+      "id": "30047006",
+      "tileScore": 30,
+      "name": "Disney to tunnel",
+      "distanceM": 1123.9000244140625,
+      "avgGrade": -0.03559035435318947,
+      "startLat": 31.132600784301758,
+      "startLng": 121.66363525390625
+    },
+    {
+      "id": "36746626",
+      "tileScore": 28,
+      "name": "Disney 10K loop",
+      "distanceM": 10170,
+      "avgGrade": 0.013765977695584297,
+      "startLat": 31.144222259521484,
+      "startLng": 121.67726135253906
+    },
+    {
+      "id": "42079725",
+      "tileScore": 3,
+      "name": "Markus Bruengger (R.I.P. | G.O.A.T.) Memory Ride",
+      "distanceM": 64397.30078125,
+      "avgGrade": -0.006522012874484062,
+      "startLat": 31.224090576171875,
+      "startLng": 121.55386352539062
+    },
+    {
+      "id": "32365945",
+      "tileScore": 2,
+      "name": "Shendi River West",
+      "distanceM": 854.9000244140625,
+      "avgGrade": -0.11697274446487427,
+      "startLat": 31.137075424194336,
+      "startLng": 121.6480941772461
+    },
+    {
+      "id": "37728160",
+      "tileScore": 13,
+      "name": "唐黄路冲刺",
+      "distanceM": 1266.5999755859375,
+      "avgGrade": -0.0631612166762352,
+      "startLat": 31.138153076171875,
+      "startLng": 121.68089294433594
+    },
+    {
+      "id": "11652121",
+      "tileScore": 47,
+      "name": "Tanghuang Road Dash",
+      "distanceM": 3235.39990234375,
+      "avgGrade": -0.049452926963567734,
+      "startLat": 31.13869857788086,
+      "startLng": 121.68090057373047
+    },
+    {
+      "id": "34434069",
+      "tileScore": 3,
+      "name": "Liufeng Highway Final",
+      "distanceM": 1990.5999755859375,
+      "avgGrade": -0.15070833265781403,
+      "startLat": 31.114585876464844,
+      "startLng": 121.67352294921875
+    },
+    {
+      "id": "26067590",
+      "tileScore": 13,
+      "name": "Maixin to the bridge",
+      "distanceM": 1914.199951171875,
+      "avgGrade": -0.020896458998322487,
+      "startLat": 31.15323829650879,
+      "startLng": 121.63397216796875
+    },
+    {
+      "id": "14901990",
+      "tileScore": 6,
+      "name": "米老鼠绕圈AtB",
+      "distanceM": 4945.7998046875,
+      "avgGrade": 0.004043835215270519,
+      "startLat": 31.13778305053711,
+      "startLng": 121.68108367919922
+    },
+    {
+      "id": "5242252",
+      "tileScore": 5,
+      "name": "Disney NE Branch Road",
+      "distanceM": 1197,
+      "avgGrade": -0.016708437353372574,
+      "startLat": 31.15680694580078,
+      "startLng": 121.67317199707031
+    }
+  ]
+}

@@ -1,0 +1,65 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-08T22:38:29.970Z",
+  "tile": {
+    "z": 13,
+    "x": 6803,
+    "y": 3339
+  },
+  "segments": [
+    {
+      "id": "20979509",
+      "tileScore": 4,
+      "name": "20181111环溧水自行车赛 Lishui Criterium",
+      "distanceM": 139486.90625,
+      "avgGrade": 0.00444486178457737,
+      "startLat": 31.613245010375977,
+      "startLng": 119.02008056640625
+    },
+    {
+      "id": "33010911",
+      "tileScore": 17,
+      "name": "石臼湖东下半段冲刺TopK",
+      "distanceM": 5766.2998046875,
+      "avgGrade": -0.20290307700634003,
+      "startLat": 31.50433921813965,
+      "startLng": 118.97429656982422
+    },
+    {
+      "id": "21728651",
+      "tileScore": 6,
+      "name": "20190908 环石臼湖自行车赛 Shijiu Lake Criterium",
+      "distanceM": 86061,
+      "avgGrade": 0.009992912411689758,
+      "startLat": 31.57097816467285,
+      "startLng": 118.89986419677734
+    },
+    {
+      "id": "29762969",
+      "tileScore": 41,
+      "name": "S123 石臼湖路-S341",
+      "distanceM": 7760.2001953125,
+      "avgGrade": -0.15978969633579254,
+      "startLat": 31.489532470703125,
+      "startLng": 118.99662780761719
+    },
+    {
+      "id": "33010904",
+      "tileScore": 14,
+      "name": "石臼湖东半圈TopK",
+      "distanceM": 34885.80078125,
+      "avgGrade": -0.012325932271778584,
+      "startLat": 31.53363037109375,
+      "startLng": 118.89861297607422
+    },
+    {
+      "id": "33010909",
+      "tileScore": 16,
+      "name": "石臼湖东上半段冲刺TopK",
+      "distanceM": 4318.7998046875,
+      "avgGrade": 0,
+      "startLat": 31.550260543823242,
+      "startLng": 118.95625305175781
+    }
+  ]
+}

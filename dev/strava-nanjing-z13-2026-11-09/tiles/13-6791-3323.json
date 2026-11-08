@@ -1,0 +1,29 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-08T22:33:51.562Z",
+  "tile": {
+    "z": 13,
+    "x": 6791,
+    "y": 3323
+  },
+  "segments": [
+    {
+      "id": "21134426",
+      "tileScore": 27,
+      "name": "滁河沿岸ITT（东向西）途中见桥即右转",
+      "distanceM": 23253.599609375,
+      "avgGrade": 0.015481473878026009,
+      "startLat": 32.152164459228516,
+      "startLng": 118.5462417602539
+    },
+    {
+      "id": "22340558",
+      "tileScore": 2,
+      "name": "20191124环南京浦口站 Tour de Nanjing Pukou Stage",
+      "distanceM": 83933.796875,
+      "avgGrade": -0.022875171154737473,
+      "startLat": 32.127662658691406,
+      "startLng": 118.59455108642578
+    }
+  ]
+}

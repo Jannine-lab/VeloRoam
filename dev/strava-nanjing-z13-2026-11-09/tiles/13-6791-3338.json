@@ -1,0 +1,20 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-08T22:38:51.169Z",
+  "tile": {
+    "z": 13,
+    "x": 6791,
+    "y": 3338
+  },
+  "segments": [
+    {
+      "id": "32481472",
+      "tileScore": 3,
+      "name": "上桥冲刺",
+      "distanceM": 528.2000122070312,
+      "avgGrade": 2.5369179248809814,
+      "startLat": 31.546253204345703,
+      "startLng": 118.47250366210938
+    }
+  ]
+}

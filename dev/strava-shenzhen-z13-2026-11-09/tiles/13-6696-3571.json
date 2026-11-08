@@ -1,0 +1,56 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-08T22:51:54.527Z",
+  "tile": {
+    "z": 13,
+    "x": 6696,
+    "y": 3571
+  },
+  "segments": [
+    {
+      "id": "889082",
+      "tileScore": 1,
+      "name": "海下路 Climb",
+      "distanceM": 1052.5899658203125,
+      "avgGrade": 8.5597562789917,
+      "startLat": 22.451730728149414,
+      "startLng": 114.30103302001953
+    },
+    {
+      "id": "32436992",
+      "tileScore": 2,
+      "name": "Lai Chi Chong narrow road (Whole)",
+      "distanceM": 6359.39990234375,
+      "avgGrade": 0.15724754333496094,
+      "startLat": 22.45163345336914,
+      "startLng": 114.32299041748047
+    },
+    {
+      "id": "1676421",
+      "tileScore": 1,
+      "name": "Trail Climb",
+      "distanceM": 1493.739990234375,
+      "avgGrade": 9.446341514587402,
+      "startLat": 22.442970275878906,
+      "startLng": 114.2876968383789
+    },
+    {
+      "id": "26777485",
+      "tileScore": 4,
+      "name": "Sam Chung Village Cross Return",
+      "distanceM": 2561,
+      "avgGrade": 0.1561889946460724,
+      "startLat": 22.4417724609375,
+      "startLng": 114.28395080566406
+    },
+    {
+      "id": "38946474",
+      "tileScore": 214,
+      "name": "GoPark大圈 by騰爺",
+      "distanceM": 1434.699951171875,
+      "avgGrade": -0.13940197229385376,
+      "startLat": 22.428091049194336,
+      "startLng": 114.26520538330078
+    }
+  ]
+}

@@ -1,0 +1,164 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-03T05:35:42.086Z",
+  "tile": {
+    "z": 13,
+    "x": 6857,
+    "y": 3351
+  },
+  "segments": [
+    {
+      "id": "29366937",
+      "tileScore": 61,
+      "name": "昆阳路TT",
+      "distanceM": 2178.89990234375,
+      "avgGrade": -0.1330946832895279,
+      "startLat": 31.059850692749023,
+      "startLng": 121.35075378417969
+    },
+    {
+      "id": "40145172",
+      "tileScore": 39,
+      "name": "Minghua Westbound",
+      "distanceM": 3607.199951171875,
+      "avgGrade": -0.03881126642227173,
+      "startLat": 31.080608367919922,
+      "startLng": 121.34559631347656
+    },
+    {
+      "id": "30564546",
+      "tileScore": 3,
+      "name": "FMG-23",
+      "distanceM": 35947.6015625,
+      "avgGrade": 0.02837463468313217,
+      "startLat": 31.019447326660156,
+      "startLng": 121.3215560913086
+    },
+    {
+      "id": "15772088",
+      "tileScore": 3,
+      "name": "春九路南向",
+      "distanceM": 1408.5,
+      "avgGrade": -0.014199502766132355,
+      "startLat": 31.09941291809082,
+      "startLng": 121.34961700439453
+    },
+    {
+      "id": "12003151",
+      "tileScore": 1,
+      "name": "Minhang Interchange --> Songjiang East Toll",
+      "distanceM": 11005.900390625,
+      "avgGrade": -0.016354864463210106,
+      "startLat": 31.114397048950195,
+      "startLng": 121.37725067138672
+    },
+    {
+      "id": "37094671",
+      "tileScore": 7,
+      "name": "Head to Guanghua",
+      "distanceM": 5858.89990234375,
+      "avgGrade": -0.020481660962104797,
+      "startLat": 31.120601654052734,
+      "startLng": 121.35736846923828
+    },
+    {
+      "id": "29374965",
+      "tileScore": 10,
+      "name": "光华路",
+      "distanceM": 2852.300048828125,
+      "avgGrade": 0.035059425979852676,
+      "startLat": 31.069730758666992,
+      "startLng": 121.37875366210938
+    },
+    {
+      "id": "23869362",
+      "tileScore": 243,
+      "name": "元江路刷圈大环线",
+      "distanceM": 8374.2001953125,
+      "avgGrade": 0.014329726807773113,
+      "startLat": 31.038476943969727,
+      "startLng": 121.3482894897461
+    },
+    {
+      "id": "24482747",
+      "tileScore": 32,
+      "name": "Let there be light",
+      "distanceM": 669,
+      "avgGrade": -0.20926755666732788,
+      "startLat": 31.061901092529297,
+      "startLng": 121.35551452636719
+    },
+    {
+      "id": "24482637",
+      "tileScore": 2,
+      "name": "Factorio",
+      "distanceM": 1255.0999755859375,
+      "avgGrade": 0,
+      "startLat": 31.058307647705078,
+      "startLng": 121.35961151123047
+    },
+    {
+      "id": "24482615",
+      "tileScore": 55,
+      "name": "Dulwich Dash",
+      "distanceM": 1568.699951171875,
+      "avgGrade": 0.07649645954370499,
+      "startLat": 31.044485092163086,
+      "startLng": 121.3372802734375
+    },
+    {
+      "id": "13917007",
+      "tileScore": 2,
+      "name": "中春路TT",
+      "distanceM": 5485.89990234375,
+      "avgGrade": -0.03645709902048111,
+      "startLat": 31.087270736694336,
+      "startLng": 121.37234497070312
+    },
+    {
+      "id": "9513186",
+      "tileScore": 1,
+      "name": "Mingzhong Rd (Eastbound)",
+      "distanceM": 4267.2998046875,
+      "avgGrade": -0.0257774218916893,
+      "startLat": 31.07490348815918,
+      "startLng": 121.31240844726562
+    },
+    {
+      "id": "30564439",
+      "tileScore": 3,
+      "name": "FMG-13",
+      "distanceM": 541.7000122070312,
+      "avgGrade": -0.07384160906076431,
+      "startLat": 31.072826385498047,
+      "startLng": 121.3524398803711
+    },
+    {
+      "id": "11387860",
+      "tileScore": 4,
+      "name": "Changdong Rd (Southbound)",
+      "distanceM": 1783.699951171875,
+      "avgGrade": 0.07288221269845963,
+      "startLat": 31.101585388183594,
+      "startLng": 121.35330200195312
+    },
+    {
+      "id": "15772069",
+      "tileScore": 21,
+      "name": "神奇的绕圈地点",
+      "distanceM": 4197.7001953125,
+      "avgGrade": -0.023822570219635963,
+      "startLat": 31.086658477783203,
+      "startLng": 121.35391235351562
+    },
+    {
+      "id": "34788066",
+      "tileScore": 4,
+      "name": "明华路地道(北向)",
+      "distanceM": 596.4000244140625,
+      "avgGrade": -0.402414470911026,
+      "startLat": 31.068044662475586,
+      "startLng": 121.33831787109375
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-03T05:59:15.309Z",
+  "tile": {
+    "z": 13,
+    "x": 6860,
+    "y": 3332
+  },
+  "segments": [
+    {
+      "id": "42335670",
+      "tileScore": 11,
+      "name": "谁是真正的南通王",
+      "distanceM": 3775.800048828125,
+      "avgGrade": -0.021187562495470047,
+      "startLat": 31.816070556640625,
+      "startLng": 121.46807861328125
+    },
+    {
+      "id": "35661108",
+      "tileScore": 5,
+      "name": "滨江路（E-W）",
+      "distanceM": 9037.599609375,
+      "avgGrade": 0,
+      "startLat": 31.77362060546875,
+      "startLng": 121.50657653808594
+    }
+  ]
+}

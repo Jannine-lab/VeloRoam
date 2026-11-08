@@ -1,0 +1,119 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-03T06:09:48.949Z",
+  "tile": {
+    "z": 13,
+    "x": 6855,
+    "y": 3354
+  },
+  "segments": [
+    {
+      "id": "19765686",
+      "tileScore": 17,
+      "name": "MondayBridgesInterval",
+      "distanceM": 5730.2998046875,
+      "avgGrade": -0.003490218659862876,
+      "startLat": 30.937641143798828,
+      "startLng": 121.1915512084961
+    },
+    {
+      "id": "40108837",
+      "tileScore": 2,
+      "name": "Village road canals alternative",
+      "distanceM": 3742,
+      "avgGrade": -0.02137894183397293,
+      "startLat": 30.969959259033203,
+      "startLng": 121.29243469238281
+    },
+    {
+      "id": "19388506",
+      "tileScore": 72,
+      "name": "松浦三桥南坡",
+      "distanceM": 604.5999755859375,
+      "avgGrade": -89.97684478759766,
+      "startLat": 30.95746612548828,
+      "startLng": 121.26077270507812
+    },
+    {
+      "id": "19722099",
+      "tileScore": 18,
+      "name": "Unleash",
+      "distanceM": 4590.7001953125,
+      "avgGrade": -0.01306990161538124,
+      "startLat": 30.942699432373047,
+      "startLng": 121.26417541503906
+    },
+    {
+      "id": "30974297",
+      "tileScore": 24,
+      "name": "米市渡河畔TT 第一段",
+      "distanceM": 3751.699951171875,
+      "avgGrade": 0.15992750227451324,
+      "startLat": 30.96458625793457,
+      "startLng": 121.25697326660156
+    },
+    {
+      "id": "32298868",
+      "tileScore": 1,
+      "name": "泖河浦江骑行第三段",
+      "distanceM": 3093,
+      "avgGrade": -0.0517297126352787,
+      "startLat": 30.965835571289062,
+      "startLng": 121.23530578613281
+    },
+    {
+      "id": "19141023",
+      "tileScore": 20,
+      "name": "WeekDayCanal",
+      "distanceM": 15982.099609375,
+      "avgGrade": -0.005005600396543741,
+      "startLat": 30.955711364746094,
+      "startLng": 121.18595123291016
+    },
+    {
+      "id": "40647315",
+      "tileScore": 2,
+      "name": "Fengxian South Canals",
+      "distanceM": 20461.400390625,
+      "avgGrade": 0.010751952417194843,
+      "startLat": 30.976587295532227,
+      "startLng": 121.3487319946289
+    },
+    {
+      "id": "41527929",
+      "tileScore": 18,
+      "name": "ZQCC火箭助推",
+      "distanceM": 5359.39990234375,
+      "avgGrade": 0.26868680119514465,
+      "startLat": 30.916030883789062,
+      "startLng": 121.26268768310547
+    },
+    {
+      "id": "41243237",
+      "tileScore": 52,
+      "name": "金山速霸！",
+      "distanceM": 45272.6015625,
+      "avgGrade": -0.032690852880477905,
+      "startLat": 30.98211669921875,
+      "startLng": 121.37222290039062
+    },
+    {
+      "id": "27142852",
+      "tileScore": 18,
+      "name": "Songnan Final Sprint",
+      "distanceM": 413.8999938964844,
+      "avgGrade": -0.14496254920959473,
+      "startLat": 30.962915420532227,
+      "startLng": 121.24851989746094
+    },
+    {
+      "id": "40286924",
+      "tileScore": 5,
+      "name": "大叶公路～泰青公路",
+      "distanceM": 29365.69921875,
+      "avgGrade": 0.015664534643292427,
+      "startLat": 30.942710876464844,
+      "startLng": 121.26114654541016
+    }
+  ]
+}

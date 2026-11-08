@@ -1,0 +1,20 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-08T22:38:38.468Z",
+  "tile": {
+    "z": 13,
+    "x": 6798,
+    "y": 3339
+  },
+  "segments": [
+    {
+      "id": "21728651",
+      "tileScore": 6,
+      "name": "20190908 环石臼湖自行车赛 Shijiu Lake Criterium",
+      "distanceM": 86061,
+      "avgGrade": 0.009992912411689758,
+      "startLat": 31.57097816467285,
+      "startLng": 118.89986419677734
+    }
+  ]
+}

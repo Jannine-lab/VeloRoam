@@ -1,0 +1,20 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-08T22:47:57.991Z",
+  "tile": {
+    "z": 13,
+    "x": 6690,
+    "y": 3560
+  },
+  "segments": [
+    {
+      "id": "39345383",
+      "tileScore": 3,
+      "name": "山地联赛公开组单圈",
+      "distanceM": 3052.39990234375,
+      "avgGrade": 0.03931332752108574,
+      "startLat": 22.900005340576172,
+      "startLng": 114.03471374511719
+    }
+  ]
+}

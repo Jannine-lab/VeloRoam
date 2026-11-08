@@ -1,0 +1,47 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-03T05:56:37.397Z",
+  "tile": {
+    "z": 13,
+    "x": 6853,
+    "y": 3330
+  },
+  "segments": [
+    {
+      "id": "36194761",
+      "tileScore": 27,
+      "name": "广州路 上桥冲刺go go go",
+      "distanceM": 662,
+      "avgGrade": 0.574018120765686,
+      "startLat": 31.844776153564453,
+      "startLng": 121.16889953613281
+    },
+    {
+      "id": "35956522",
+      "tileScore": 113,
+      "name": "青龙港-江堤纪念碑",
+      "distanceM": 5718.2998046875,
+      "avgGrade": -0.010492628440260887,
+      "startLat": 31.862075805664062,
+      "startLng": 121.23601531982422
+    },
+    {
+      "id": "32575151",
+      "tileScore": 47,
+      "name": "广州路绕圈",
+      "distanceM": 8142.2998046875,
+      "avgGrade": -0.01719415932893753,
+      "startLat": 31.846223831176758,
+      "startLng": 121.17902374267578
+    },
+    {
+      "id": "33319161",
+      "tileScore": 2,
+      "name": "謇公湖绕圈10km",
+      "distanceM": 10728.599609375,
+      "avgGrade": 0,
+      "startLat": 31.84847068786621,
+      "startLng": 121.16030883789062
+    }
+  ]
+}

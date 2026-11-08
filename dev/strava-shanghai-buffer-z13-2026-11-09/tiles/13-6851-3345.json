@@ -1,0 +1,92 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-03T06:06:46.563Z",
+  "tile": {
+    "z": 13,
+    "x": 6851,
+    "y": 3345
+  },
+  "segments": [
+    {
+      "id": "32491860",
+      "tileScore": 2,
+      "name": "冲击！光明路站！",
+      "distanceM": 953.2999877929688,
+      "avgGrade": 0.08391901850700378,
+      "startLat": 31.296110153198242,
+      "startLng": 121.12130737304688
+    },
+    {
+      "id": "34996725",
+      "tileScore": 9,
+      "name": "晨练有氧绕圈呢",
+      "distanceM": 1720.800048828125,
+      "avgGrade": -0.1510925143957138,
+      "startLat": 31.29540252685547,
+      "startLng": 121.10690307617188
+    },
+    {
+      "id": "39022768",
+      "tileScore": 15,
+      "name": "Wusong River Greenway Section 4 (Eastbound)",
+      "distanceM": 4615.7998046875,
+      "avgGrade": 0.008665886707603931,
+      "startLat": 31.275123596191406,
+      "startLng": 121.10271453857422
+    },
+    {
+      "id": "40484857",
+      "tileScore": 6,
+      "name": "Wusong River Greenway Section 5 (Southbound)",
+      "distanceM": 884.9000244140625,
+      "avgGrade": 0,
+      "startLat": 31.281539916992188,
+      "startLng": 121.08287048339844
+    },
+    {
+      "id": "32994068",
+      "tileScore": 10,
+      "name": "金融大道轰油门",
+      "distanceM": 2147.199951171875,
+      "avgGrade": 0.07451564818620682,
+      "startLat": 31.278846740722656,
+      "startLng": 121.04795837402344
+    },
+    {
+      "id": "28710511",
+      "tileScore": 9,
+      "name": "地道摇摇乐",
+      "distanceM": 2243.60009765625,
+      "avgGrade": -0.05348547175526619,
+      "startLat": 31.33038330078125,
+      "startLng": 121.1038818359375
+    },
+    {
+      "id": "22264078",
+      "tileScore": 8,
+      "name": "苏州回上海（昆山~安亭）",
+      "distanceM": 24057.19921875,
+      "avgGrade": -0.03491678088903427,
+      "startLat": 31.33888816833496,
+      "startLng": 120.90005493164062
+    },
+    {
+      "id": "39175939",
+      "tileScore": 10,
+      "name": "Tour de France_ Champs Elysées",
+      "distanceM": 2324.800048828125,
+      "avgGrade": -0.060220230370759964,
+      "startLat": 31.27227020263672,
+      "startLng": 121.09696197509766
+    },
+    {
+      "id": "31333704",
+      "tileScore": 10,
+      "name": "万科魅力花园顺时针绕圈",
+      "distanceM": 2543.10009765625,
+      "avgGrade": -0.007864417508244514,
+      "startLat": 31.279415130615234,
+      "startLng": 121.07076263427734
+    }
+  ]
+}

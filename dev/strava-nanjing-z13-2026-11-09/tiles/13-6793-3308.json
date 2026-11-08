@@ -1,0 +1,20 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-08T22:24:52.718Z",
+  "tile": {
+    "z": 13,
+    "x": 6793,
+    "y": 3308
+  },
+  "segments": [
+    {
+      "id": "27774844",
+      "tileScore": 30,
+      "name": "半塔上山（烈士陵园—半塔林场）",
+      "distanceM": 8892.2998046875,
+      "avgGrade": 1.5856415033340454,
+      "startLat": 32.678157806396484,
+      "startLng": 118.58271026611328
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-08T23:01:11.529Z",
+  "tile": {
+    "z": 13,
+    "x": 6845,
+    "y": 3362
+  },
+  "segments": [
+    {
+      "id": "19025070",
+      "tileScore": 4,
+      "name": "嘉南线southward",
+      "distanceM": 33833.30078125,
+      "avgGrade": 0.06738922744989395,
+      "startLat": 30.693082809448242,
+      "startLng": 120.80548095703125
+    }
+  ]
+}

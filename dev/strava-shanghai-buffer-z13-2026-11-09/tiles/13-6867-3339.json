@@ -1,0 +1,74 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-03T06:03:10.420Z",
+  "tile": {
+    "z": 13,
+    "x": 6867,
+    "y": 3339
+  },
+  "segments": [
+    {
+      "id": "39126119",
+      "tileScore": 2,
+      "name": "草港公路(北陈公路-陈滧公路)",
+      "distanceM": 3939.10009765625,
+      "avgGrade": 0.005077301990240812,
+      "startLat": 31.514734268188477,
+      "startLng": 121.81820678710938
+    },
+    {
+      "id": "1667233",
+      "tileScore": 1,
+      "name": "Chongming short 2",
+      "distanceM": 39860.80078125,
+      "avgGrade": -0.008027937263250351,
+      "startLat": 31.660154342651367,
+      "startLng": 121.40385437011719
+    },
+    {
+      "id": "39126123",
+      "tileScore": 2,
+      "name": "草港公路(陈滧公路-汲浜公路)",
+      "distanceM": 1971.800048828125,
+      "avgGrade": 0.11664469540119171,
+      "startLat": 31.53583335876465,
+      "startLng": 121.78437042236328
+    },
+    {
+      "id": "33136262",
+      "tileScore": 23,
+      "name": "Beichen Hwy",
+      "distanceM": 5021.39990234375,
+      "avgGrade": -0.015931813046336174,
+      "startLat": 31.501800537109375,
+      "startLng": 121.80867767333984
+    },
+    {
+      "id": "28005476",
+      "tileScore": 2,
+      "name": "20210411环崇明岛100公里组",
+      "distanceM": 97375,
+      "avgGrade": 0.006161745637655258,
+      "startLat": 31.4849796295166,
+      "startLng": 121.8353042602539
+    },
+    {
+      "id": "35009372",
+      "tileScore": 5,
+      "name": "红烧肉！最后的冲刺！",
+      "distanceM": 564.0999755859375,
+      "avgGrade": 0.10636411607265472,
+      "startLat": 31.523197174072266,
+      "startLng": 121.80458068847656
+    },
+    {
+      "id": "33028034",
+      "tileScore": 4,
+      "name": "Chenhai Hwy (S128 - Buzhen to Chenjia)",
+      "distanceM": 17929.80078125,
+      "avgGrade": 0.005577307194471359,
+      "startLat": 31.563770294189453,
+      "startLng": 121.63473510742188
+    }
+  ]
+}

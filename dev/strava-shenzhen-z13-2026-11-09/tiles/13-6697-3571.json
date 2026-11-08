@@ -1,0 +1,92 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-08T22:51:57.190Z",
+  "tile": {
+    "z": 13,
+    "x": 6697,
+    "y": 3571
+  },
+  "segments": [
+    {
+      "id": "30804122",
+      "tileScore": 32,
+      "name": "Sprint for Wong Shek",
+      "distanceM": 1268.0999755859375,
+      "avgGrade": -1.640249252319336,
+      "startLat": 22.432981491088867,
+      "startLng": 114.32820129394531
+    },
+    {
+      "id": "33659139",
+      "tileScore": 2,
+      "name": "(Rally) Wan Tsai MTB Trail [CW_DH] #Green Grade",
+      "distanceM": 1695.699951171875,
+      "avgGrade": -3.3732380867004395,
+      "startLat": 22.467363357543945,
+      "startLng": 114.3416748046875
+    },
+    {
+      "id": "5969234",
+      "tileScore": 71,
+      "name": "Hoi Ha 2nd Climb",
+      "distanceM": 1769.9000244140625,
+      "avgGrade": 7.791400909423828,
+      "startLat": 22.433080673217773,
+      "startLng": 114.32820129394531
+    },
+    {
+      "id": "12733132",
+      "tileScore": 85,
+      "name": "Real WS 2nd Climb",
+      "distanceM": 1347.800048828125,
+      "avgGrade": 7.953702449798584,
+      "startLat": 22.431509017944336,
+      "startLng": 114.32749938964844
+    },
+    {
+      "id": "30308647",
+      "tileScore": 17,
+      "name": "Pik Uk -Wong Shek Out & Back",
+      "distanceM": 44123,
+      "avgGrade": 0.009065566584467888,
+      "startLat": 22.340442657470703,
+      "startLng": 114.2474136352539
+    },
+    {
+      "id": "909509",
+      "tileScore": 31,
+      "name": "Pak Tong to Hoi Ha n Wong Shek",
+      "distanceM": 18775,
+      "avgGrade": -0.011185086332261562,
+      "startLat": 22.399974822998047,
+      "startLng": 114.32353973388672
+    },
+    {
+      "id": "32436992",
+      "tileScore": 2,
+      "name": "Lai Chi Chong narrow road (Whole)",
+      "distanceM": 6359.39990234375,
+      "avgGrade": 0.15724754333496094,
+      "startLat": 22.45163345336914,
+      "startLng": 114.32299041748047
+    },
+    {
+      "id": "889082",
+      "tileScore": 1,
+      "name": "海下路 Climb",
+      "distanceM": 1052.5899658203125,
+      "avgGrade": 8.5597562789917,
+      "startLat": 22.451730728149414,
+      "startLng": 114.30103302001953
+    },
+    {
+      "id": "720673",
+      "tileScore": 45,
+      "name": "Hoi Ha Rd Climb",
+      "distanceM": 2030.3499755859375,
+      "avgGrade": 4.112692356109619,
+      "startLat": 22.460033416748047,
+      "startLng": 114.3280258178711
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-03T06:11:24.639Z",
+  "tile": {
+    "z": 13,
+    "x": 6855,
+    "y": 3358
+  },
+  "segments": [
+    {
+      "id": "20549697",
+      "tileScore": 5,
+      "name": "漕廊公路（秦弯路to杭州湾大道）",
+      "distanceM": 5393.5,
+      "avgGrade": -0.02966533601284027,
+      "startLat": 30.78919219970703,
+      "startLng": 121.25402069091797
+    },
+    {
+      "id": "36399181",
+      "tileScore": 28,
+      "name": "送一个拉爆",
+      "distanceM": 16154.5,
+      "avgGrade": 0,
+      "startLat": 30.80158233642578,
+      "startLng": 121.30693054199219
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-08T22:49:02.636Z",
+  "tile": {
+    "z": 13,
+    "x": 6685,
+    "y": 3564
+  },
+  "segments": [
+    {
+      "id": "38551704",
+      "tileScore": 11,
+      "name": "沿河路",
+      "distanceM": 4477,
+      "avgGrade": 0.05360732972621918,
+      "startLat": 22.777193069458008,
+      "startLng": 113.790771484375
+    },
+    {
+      "id": "14423209",
+      "tileScore": 3,
+      "name": "沙井公园刷圈",
+      "distanceM": 1344.5999755859375,
+      "avgGrade": 0.029748622328042984,
+      "startLat": 22.739574432373047,
+      "startLng": 113.8145980834961
+    }
+  ]
+}

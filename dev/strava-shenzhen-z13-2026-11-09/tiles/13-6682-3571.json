@@ -1,0 +1,20 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-08T22:51:34.528Z",
+  "tile": {
+    "z": 13,
+    "x": 6682,
+    "y": 3571
+  },
+  "segments": [
+    {
+      "id": "38534015",
+      "tileScore": 8,
+      "name": "Qi'Ao \"The Hill\"",
+      "distanceM": 590.0999755859375,
+      "avgGrade": 4.10099983215332,
+      "startLat": 22.42856788635254,
+      "startLng": 113.64138793945312
+    }
+  ]
+}

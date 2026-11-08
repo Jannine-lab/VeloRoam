@@ -1,0 +1,74 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-08T22:48:14.043Z",
+  "tile": {
+    "z": 13,
+    "x": 6699,
+    "y": 3560
+  },
+  "segments": [
+    {
+      "id": "33885510",
+      "tileScore": 3,
+      "name": "小径",
+      "distanceM": 711.7999877929688,
+      "avgGrade": 11.744872093200684,
+      "startLat": 22.87834930419922,
+      "startLng": 114.39617156982422
+    },
+    {
+      "id": "38571137",
+      "tileScore": 12,
+      "name": "Past the House",
+      "distanceM": 908.5,
+      "avgGrade": 5.415520191192627,
+      "startLat": 22.897750854492188,
+      "startLng": 114.40902709960938
+    },
+    {
+      "id": "38525083",
+      "tileScore": 5,
+      "name": "绝望推车瓜路，别来",
+      "distanceM": 3103.5,
+      "avgGrade": -3.666827917098999,
+      "startLat": 22.888025283813477,
+      "startLng": 114.38093566894531
+    },
+    {
+      "id": "38570982",
+      "tileScore": 15,
+      "name": "To the Cows!",
+      "distanceM": 1683.699951171875,
+      "avgGrade": 6.343172550201416,
+      "startLat": 22.891586303710938,
+      "startLng": 114.41316986083984
+    },
+    {
+      "id": "38571020",
+      "tileScore": 5,
+      "name": "Peak of the greenway",
+      "distanceM": 1410.5,
+      "avgGrade": 3.629918336868286,
+      "startLat": 22.913732528686523,
+      "startLng": 114.39689636230469
+    },
+    {
+      "id": "41102377",
+      "tileScore": 15,
+      "name": "鸡心石绿道正经水库-派出所8.5km",
+      "distanceM": 6552.39990234375,
+      "avgGrade": -0.9920029044151306,
+      "startLat": 22.903900146484375,
+      "startLng": 114.4020767211914
+    },
+    {
+      "id": "38525088",
+      "tileScore": 9,
+      "name": "叶挺森林公园（北向南）",
+      "distanceM": 12152.2998046875,
+      "avgGrade": -0.013166232034564018,
+      "startLat": 22.933609008789062,
+      "startLng": 114.38748168945312
+    }
+  ]
+}

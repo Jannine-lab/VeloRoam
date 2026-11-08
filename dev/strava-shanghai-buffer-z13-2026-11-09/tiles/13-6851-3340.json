@@ -1,0 +1,20 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-03T06:04:13.591Z",
+  "tile": {
+    "z": 13,
+    "x": 6851,
+    "y": 3340
+  },
+  "segments": [
+    {
+      "id": "31207365",
+      "tileScore": 4,
+      "name": "天津路LAP",
+      "distanceM": 2774.39990234375,
+      "avgGrade": 0,
+      "startLat": 31.47089958190918,
+      "startLng": 121.10540771484375
+    }
+  ]
+}

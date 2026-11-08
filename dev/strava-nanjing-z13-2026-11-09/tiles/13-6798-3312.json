@@ -1,0 +1,20 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-08T22:26:11.425Z",
+  "tile": {
+    "z": 13,
+    "x": 6798,
+    "y": 3312
+  },
+  "segments": [
+    {
+      "id": "27774866",
+      "tileScore": 4,
+      "name": "竹马路西往东",
+      "distanceM": 9775.900390625,
+      "avgGrade": 0.1575302630662918,
+      "startLat": 32.52412796020508,
+      "startLng": 118.71299743652344
+    }
+  ]
+}

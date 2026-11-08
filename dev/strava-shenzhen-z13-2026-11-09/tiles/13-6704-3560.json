@@ -1,0 +1,20 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-08T22:48:19.041Z",
+  "tile": {
+    "z": 13,
+    "x": 6704,
+    "y": 3560
+  },
+  "segments": [
+    {
+      "id": "16173119",
+      "tileScore": 5,
+      "name": "S356省道 - 惠東至惠陽",
+      "distanceM": 29562.69921875,
+      "avgGrade": -0.0027061128057539463,
+      "startLat": 22.95912742614746,
+      "startLng": 114.69161224365234
+    }
+  ]
+}

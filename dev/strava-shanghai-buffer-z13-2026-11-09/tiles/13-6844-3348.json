@@ -1,0 +1,56 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-08T22:59:38.416Z",
+  "tile": {
+    "z": 13,
+    "x": 6844,
+    "y": 3348
+  },
+  "segments": [
+    {
+      "id": "4081071",
+      "tileScore": 10,
+      "name": "Southern Ride through Countryside",
+      "distanceM": 7996,
+      "avgGrade": 0.001250625355169177,
+      "startLat": 31.177043914794922,
+      "startLng": 120.7610092163086
+    },
+    {
+      "id": "37341083",
+      "tileScore": 7,
+      "name": "澄湖黄泥兜gravel",
+      "distanceM": 3608.89990234375,
+      "avgGrade": 0.01662556454539299,
+      "startLat": 31.17173194885254,
+      "startLng": 120.78138732910156
+    },
+    {
+      "id": "41451629",
+      "tileScore": 11,
+      "name": "呼吸负氧离子",
+      "distanceM": 2773.60009765625,
+      "avgGrade": -0.028843380510807037,
+      "startLat": 31.160579681396484,
+      "startLng": 120.80882263183594
+    },
+    {
+      "id": "40537521",
+      "tileScore": 8,
+      "name": "环澄湖",
+      "distanceM": 43049.19921875,
+      "avgGrade": 0.012543787248432636,
+      "startLat": 31.252605438232422,
+      "startLng": 120.79975891113281
+    },
+    {
+      "id": "38954443",
+      "tileScore": 4,
+      "name": "TongJing RD E to W",
+      "distanceM": 28885.30078125,
+      "avgGrade": -0.04777516424655914,
+      "startLat": 31.166654586791992,
+      "startLng": 120.9546127319336
+    }
+  ]
+}

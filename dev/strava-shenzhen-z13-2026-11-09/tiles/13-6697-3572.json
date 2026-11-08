@@ -1,0 +1,218 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-08T22:51:57.190Z",
+  "tile": {
+    "z": 13,
+    "x": 6697,
+    "y": 3572
+  },
+  "segments": [
+    {
+      "id": "3886715",
+      "tileScore": 23,
+      "name": "Yan Yee Road to Barriers",
+      "distanceM": 3209.056884765625,
+      "avgGrade": 0.17450374364852905,
+      "startLat": 22.39155387878418,
+      "startLng": 114.29717254638672
+    },
+    {
+      "id": "12733132",
+      "tileScore": 85,
+      "name": "Real WS 2nd Climb",
+      "distanceM": 1347.800048828125,
+      "avgGrade": 7.953702449798584,
+      "startLat": 22.431509017944336,
+      "startLng": 114.32749938964844
+    },
+    {
+      "id": "3886741",
+      "tileScore": 23,
+      "name": "Barriers to Wong Shek Turnoff",
+      "distanceM": 504.9150695800781,
+      "avgGrade": -0.6732673645019531,
+      "startLat": 22.397361755371094,
+      "startLng": 114.31982421875
+    },
+    {
+      "id": "1259326",
+      "tileScore": 1,
+      "name": "Pak Tam Rd Climb",
+      "distanceM": 578.198974609375,
+      "avgGrade": 16.585956573486328,
+      "startLat": 22.421903610229492,
+      "startLng": 114.34785461425781
+    },
+    {
+      "id": "12677514",
+      "tileScore": 14,
+      "name": "PTC last 2.5km",
+      "distanceM": 2565.800048828125,
+      "avgGrade": 0.5534336566925049,
+      "startLat": 22.37606430053711,
+      "startLng": 114.33908081054688
+    },
+    {
+      "id": "38291077",
+      "tileScore": 2,
+      "name": "Lady MacLehose Climb",
+      "distanceM": 536.4000244140625,
+      "avgGrade": 4.287844657897949,
+      "startLat": 22.407833099365234,
+      "startLng": 114.32523345947266
+    },
+    {
+      "id": "22378156",
+      "tileScore": 5,
+      "name": "Yan Yee Road Dog walker's lane",
+      "distanceM": 1838.5999755859375,
+      "avgGrade": -0.23931251466274261,
+      "startLat": 22.406347274780273,
+      "startLng": 114.29803466796875
+    },
+    {
+      "id": "13390037",
+      "tileScore": 3,
+      "name": "Sai wan Sprint Finish",
+      "distanceM": 969.2000122070312,
+      "avgGrade": -0.3301692306995392,
+      "startLat": 22.395263671875,
+      "startLng": 114.33558654785156
+    },
+    {
+      "id": "27439830",
+      "tileScore": 25,
+      "name": "Tai Po (Tai Wong Yeh Temple) to Pak Tam Chung / 大埔(大王爺廟)至北潭涌",
+      "distanceM": 25706,
+      "avgGrade": 0.031121138483285904,
+      "startLat": 22.4453067779541,
+      "startLng": 114.17774200439453
+    },
+    {
+      "id": "1443226",
+      "tileScore": 1,
+      "name": "海下路 Climb",
+      "distanceM": 1576.300048828125,
+      "avgGrade": 19.9454402923584,
+      "startLat": 22.426559448242188,
+      "startLng": 114.29328155517578
+    },
+    {
+      "id": "9300481",
+      "tileScore": 50,
+      "name": "Sai Sha to Country Park",
+      "distanceM": 5227.2001953125,
+      "avgGrade": 0.05739210173487663,
+      "startLat": 22.395612716674805,
+      "startLng": 114.28411102294922
+    },
+    {
+      "id": "3279318",
+      "tileScore": 86,
+      "name": "PTC first climb",
+      "distanceM": 894.806884765625,
+      "avgGrade": 10.561018943786621,
+      "startLat": 22.400009155273438,
+      "startLng": 114.32412719726562
+    },
+    {
+      "id": "642467",
+      "tileScore": 42,
+      "name": "Pak Tam Rd Hill",
+      "distanceM": 1585.4300537109375,
+      "avgGrade": 5.953958034515381,
+      "startLat": 22.407270431518555,
+      "startLng": 114.32559967041016
+    },
+    {
+      "id": "5969214",
+      "tileScore": 117,
+      "name": "Hoi Ha 1st Climb",
+      "distanceM": 2937,
+      "avgGrade": 5.035750865936279,
+      "startLat": 22.400062561035156,
+      "startLng": 114.32377624511719
+    },
+    {
+      "id": "2813461",
+      "tileScore": 2,
+      "name": "Sai Kung Sai Wan Rd Climb",
+      "distanceM": 1162.70947265625,
+      "avgGrade": 9.92517375946045,
+      "startLat": 22.407981872558594,
+      "startLng": 114.34659576416016
+    },
+    {
+      "id": "1676333",
+      "tileScore": 1,
+      "name": "Trail Climb",
+      "distanceM": 531.2739868164062,
+      "avgGrade": 15.810276985168457,
+      "startLat": 22.418031692504883,
+      "startLng": 114.30564880371094
+    },
+    {
+      "id": "3306405",
+      "tileScore": 15,
+      "name": "Top Speed",
+      "distanceM": 1440.638671875,
+      "avgGrade": -6.580591201782227,
+      "startLat": 22.394786834716797,
+      "startLng": 114.33027648925781
+    },
+    {
+      "id": "30308647",
+      "tileScore": 17,
+      "name": "Pik Uk -Wong Shek Out & Back",
+      "distanceM": 44123,
+      "avgGrade": 0.009065566584467888,
+      "startLat": 22.340442657470703,
+      "startLng": 114.2474136352539
+    },
+    {
+      "id": "10562698",
+      "tileScore": 25,
+      "name": "Reservoir Start - Finish ",
+      "distanceM": 8826.2998046875,
+      "avgGrade": 0.09403713792562485,
+      "startLat": 22.39798355102539,
+      "startLng": 114.3258056640625
+    },
+    {
+      "id": "909509",
+      "tileScore": 31,
+      "name": "Pak Tong to Hoi Ha n Wong Shek",
+      "distanceM": 18775,
+      "avgGrade": -0.011185086332261562,
+      "startLat": 22.399974822998047,
+      "startLng": 114.32353973388672
+    },
+    {
+      "id": "13282361",
+      "tileScore": 6,
+      "name": "Pavilion to peak climb",
+      "distanceM": 3524.300048828125,
+      "avgGrade": 2.349402666091919,
+      "startLat": 22.394588470458984,
+      "startLng": 114.33059692382812
+    },
+    {
+      "id": "37895310",
+      "tileScore": 40,
+      "name": "Exit Bomb",
+      "distanceM": 1966.199951171875,
+      "avgGrade": -6.0014238357543945,
+      "startLat": 22.420310974121094,
+      "startLng": 114.33161926269531
+    },
+    {
+      "id": "37471398",
+      "tileScore": 21,
+      "name": "R200 CP2 to CP3",
+      "distanceM": 22055.599609375,
+      "avgGrade": 0.033551570028066635,
+      "startLat": 22.39604377746582,
+      "startLng": 114.31844329833984
+    }
+  ]
+}

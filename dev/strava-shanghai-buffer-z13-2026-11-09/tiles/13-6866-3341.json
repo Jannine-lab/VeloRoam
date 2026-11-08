@@ -1,0 +1,29 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-03T06:04:33.554Z",
+  "tile": {
+    "z": 13,
+    "x": 6866,
+    "y": 3341
+  },
+  "segments": [
+    {
+      "id": "20577306",
+      "tileScore": 4,
+      "name": "Chongming Island Tour Bridge 2",
+      "distanceM": 767.4000244140625,
+      "avgGrade": 2.2152724266052246,
+      "startLat": 31.459962844848633,
+      "startLng": 121.76350402832031
+    },
+    {
+      "id": "20577297",
+      "tileScore": 10,
+      "name": "Chongming Island Tour Bridge",
+      "distanceM": 1723.0999755859375,
+      "avgGrade": 2.112471580505371,
+      "startLat": 31.42271614074707,
+      "startLng": 121.7335433959961
+    }
+  ]
+}

@@ -1,0 +1,65 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-08T22:40:33.446Z",
+  "tile": {
+    "z": 13,
+    "x": 6804,
+    "y": 3344
+  },
+  "segments": [
+    {
+      "id": "30069485",
+      "tileScore": 10,
+      "name": "慢城南路-茅叔路N-S段",
+      "distanceM": 7023.5,
+      "avgGrade": -0.3075389564037323,
+      "startLat": 31.378461837768555,
+      "startLng": 119.06644439697266
+    },
+    {
+      "id": "38848121",
+      "tileScore": 4,
+      "name": "游子山+慢城国际（起伏）",
+      "distanceM": 38217.6015625,
+      "avgGrade": 0.2407267987728119,
+      "startLat": 31.33848762512207,
+      "startLng": 118.97871398925781
+    },
+    {
+      "id": "36443461",
+      "tileScore": 195,
+      "name": "慢城赛段-游子山逆时针绕圈-GICC",
+      "distanceM": 8757.900390625,
+      "avgGrade": 0.049098528921604156,
+      "startLat": 31.351768493652344,
+      "startLng": 119.02254486083984
+    },
+    {
+      "id": "37879900",
+      "tileScore": 6,
+      "name": "青山水库-老桠路-枕松云居-S-N",
+      "distanceM": 10955.900390625,
+      "avgGrade": -0.036510005593299866,
+      "startLat": 31.35107421875,
+      "startLng": 119.03668975830078
+    },
+    {
+      "id": "42201135",
+      "tileScore": 9,
+      "name": "last ",
+      "distanceM": 678,
+      "avgGrade": -1.1504424810409546,
+      "startLat": 31.349502563476562,
+      "startLng": 119.01458740234375
+    },
+    {
+      "id": "10259950",
+      "tileScore": 64,
+      "name": "Gaochun Youzi mountain",
+      "distanceM": 1538.300048828125,
+      "avgGrade": 8.1128511428833,
+      "startLat": 31.342945098876953,
+      "startLng": 119.0071029663086
+    }
+  ]
+}

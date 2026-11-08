@@ -1,0 +1,137 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-08T22:47:55.473Z",
+  "tile": {
+    "z": 13,
+    "x": 6687,
+    "y": 3560
+  },
+  "segments": [
+    {
+      "id": "38495787",
+      "tileScore": 29,
+      "name": "松山湖南边-修路到尽头",
+      "distanceM": 8437.7001953125,
+      "avgGrade": 0.016592200845479965,
+      "startLat": 22.895065307617188,
+      "startLng": 113.8748779296875
+    },
+    {
+      "id": "39065479",
+      "tileScore": 5,
+      "name": "Songshan Lake Loop (Clockwise - NW Start)",
+      "distanceM": 14541.900390625,
+      "avgGrade": -0.006876680534332991,
+      "startLat": 22.896446228027344,
+      "startLng": 113.8578109741211
+    },
+    {
+      "id": "14318056",
+      "tileScore": 30,
+      "name": "短跑",
+      "distanceM": 2374.39990234375,
+      "avgGrade": 0.08002021163702011,
+      "startLat": 22.892202377319336,
+      "startLng": 113.8862075805664
+    },
+    {
+      "id": "25004103",
+      "tileScore": 2,
+      "name": "Songshang Lake Clockwise 1st Climb ",
+      "distanceM": 897.7000122070312,
+      "avgGrade": 1.403586983680725,
+      "startLat": 22.892793655395508,
+      "startLng": 113.9020767211914
+    },
+    {
+      "id": "23206771",
+      "tileScore": 4,
+      "name": "Segment with out name - KP",
+      "distanceM": 1083.0999755859375,
+      "avgGrade": -0.8494136929512024,
+      "startLat": 22.908254623413086,
+      "startLng": 113.8637924194336
+    },
+    {
+      "id": "25004124",
+      "tileScore": 3,
+      "name": "Songshang Lake Clockwise Double Climb",
+      "distanceM": 982.2000122070312,
+      "avgGrade": 0.9875789284706116,
+      "startLat": 22.87936782836914,
+      "startLng": 113.88924407958984
+    },
+    {
+      "id": "31543534",
+      "tileScore": 70,
+      "name": "松山湖sprint",
+      "distanceM": 378.8999938964844,
+      "avgGrade": 1.741884469985962,
+      "startLat": 22.913307189941406,
+      "startLng": 113.88253021240234
+    },
+    {
+      "id": "38239385",
+      "tileScore": 2,
+      "name": "学府路小坡",
+      "distanceM": 792.2999877929688,
+      "avgGrade": 0.9339897036552429,
+      "startLat": 22.899015426635742,
+      "startLng": 113.86888885498047
+    },
+    {
+      "id": "12326300",
+      "tileScore": 5,
+      "name": "Sprint to the Bar!",
+      "distanceM": 2875.300048828125,
+      "avgGrade": -0.28518763184547424,
+      "startLat": 22.932668685913086,
+      "startLng": 113.8912353515625
+    },
+    {
+      "id": "25004053",
+      "tileScore": 16,
+      "name": "Ahhhhhh Sprint!",
+      "distanceM": 1850.4000244140625,
+      "avgGrade": -0.15672287344932556,
+      "startLat": 22.909269332885742,
+      "startLng": 113.88480377197266
+    },
+    {
+      "id": "38249470",
+      "tileScore": 74,
+      "name": "红棉路 - 提速RD",
+      "distanceM": 433.8999938964844,
+      "avgGrade": 0.32265499234199524,
+      "startLat": 22.907489776611328,
+      "startLng": 113.88032531738281
+    },
+    {
+      "id": "40920345",
+      "tileScore": 40,
+      "name": "环松山湖（顺时针）",
+      "distanceM": 20766.80078125,
+      "avgGrade": -0.014446135610342026,
+      "startLat": 22.896211624145508,
+      "startLng": 113.86019134521484
+    },
+    {
+      "id": "39713531",
+      "tileScore": 31,
+      "name": "松湖水库内圈",
+      "distanceM": 14385.900390625,
+      "avgGrade": 0.0034756253007799387,
+      "startLat": 22.896528244018555,
+      "startLng": 113.85846710205078
+    },
+    {
+      "id": "22356212",
+      "tileScore": 268,
+      "name": "松山湖广场绕圈",
+      "distanceM": 3533.10009765625,
+      "avgGrade": -0.005660750903189182,
+      "startLat": 22.910127639770508,
+      "startLng": 113.88304138183594
+    }
+  ]
+}

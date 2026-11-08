@@ -1,0 +1,92 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-08T22:59:16.713Z",
+  "tile": {
+    "z": 13,
+    "x": 6845,
+    "y": 3341
+  },
+  "segments": [
+    {
+      "id": "9300083",
+      "tileScore": 2,
+      "name": "Manli Lake TT course",
+      "distanceM": 5391,
+      "avgGrade": -0.0037098866887390614,
+      "startLat": 31.454788208007812,
+      "startLng": 120.85321044921875
+    },
+    {
+      "id": "39436239",
+      "tileScore": 132,
+      "name": "昆山好路大战",
+      "distanceM": 5244.89990234375,
+      "avgGrade": 0.04194550961256027,
+      "startLat": 31.45490074157715,
+      "startLng": 120.8441390991211
+    },
+    {
+      "id": "38745540",
+      "tileScore": 171,
+      "name": "大禹路-城北路",
+      "distanceM": 2463.5,
+      "avgGrade": -0.10554089397192001,
+      "startLat": 31.456327438354492,
+      "startLng": 120.8443832397461
+    },
+    {
+      "id": "3828998",
+      "tileScore": 3,
+      "name": "down the lake on the east side",
+      "distanceM": 17166.642578125,
+      "avgGrade": -0.0005825265543535352,
+      "startLat": 31.491178512573242,
+      "startLng": 120.84818267822266
+    },
+    {
+      "id": "33020158",
+      "tileScore": 116,
+      "name": "傀儡湖C",
+      "distanceM": 1991.4000244140625,
+      "avgGrade": -0.07030230015516281,
+      "startLat": 31.434871673583984,
+      "startLng": 120.84861755371094
+    },
+    {
+      "id": "38745052",
+      "tileScore": 226,
+      "name": "M-circle of YCH(B2Bridge 50K)",
+      "distanceM": 50491.30078125,
+      "avgGrade": 0.0023766469676047564,
+      "startLat": 31.388383865356445,
+      "startLng": 120.71324157714844
+    },
+    {
+      "id": "21150423",
+      "tileScore": 3,
+      "name": "X003 (Eastbound)",
+      "distanceM": 2095.199951171875,
+      "avgGrade": -0.028636885806918144,
+      "startLat": 31.461458206176758,
+      "startLng": 120.8451919555664
+    },
+    {
+      "id": "24694910",
+      "tileScore": 7,
+      "name": "Northern YCH Peninsula Village Rd (Southbound)",
+      "distanceM": 4633.7001953125,
+      "avgGrade": -0.012948615476489067,
+      "startLat": 31.48841094970703,
+      "startLng": 120.81268310546875
+    },
+    {
+      "id": "14330832",
+      "tileScore": 128,
+      "name": "Chasing South",
+      "distanceM": 6620.5,
+      "avgGrade": 0.021146439015865326,
+      "startLat": 31.49148941040039,
+      "startLng": 120.84745788574219
+    }
+  ]
+}

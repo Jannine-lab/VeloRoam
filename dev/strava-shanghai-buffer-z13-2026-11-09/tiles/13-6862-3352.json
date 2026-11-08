@@ -1,0 +1,74 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-03T06:09:17.833Z",
+  "tile": {
+    "z": 13,
+    "x": 6862,
+    "y": 3352
+  },
+  "segments": [
+    {
+      "id": "34999557",
+      "tileScore": 5,
+      "name": "沪南公路（航头～浦东图书馆）",
+      "distanceM": 19467.30078125,
+      "avgGrade": -0.0020547276362776756,
+      "startLat": 31.029277801513672,
+      "startLng": 121.59368896484375
+    },
+    {
+      "id": "27707575",
+      "tileScore": 180,
+      "name": "Red Bridge South Loop",
+      "distanceM": 1950.300048828125,
+      "avgGrade": 0.05127416178584099,
+      "startLat": 31.01851463317871,
+      "startLng": 121.56085968017578
+    },
+    {
+      "id": "28360675",
+      "tileScore": 8,
+      "name": "Along the canal",
+      "distanceM": 1736,
+      "avgGrade": 0.18433180451393127,
+      "startLat": 31.017452239990234,
+      "startLng": 121.56175994873047
+    },
+    {
+      "id": "38796148",
+      "tileScore": 13,
+      "name": "slanaC s'neevrehS fo k8",
+      "distanceM": 7686.7998046875,
+      "avgGrade": 0.026018628850579262,
+      "startLat": 31.017501831054688,
+      "startLng": 121.56170654296875
+    },
+    {
+      "id": "32373035",
+      "tileScore": 34,
+      "name": "Xianxin Rd Hangsan Rd to highway",
+      "distanceM": 3776.5,
+      "avgGrade": -0.010591818019747734,
+      "startLat": 31.040267944335938,
+      "startLng": 121.52677154541016
+    },
+    {
+      "id": "30399568",
+      "tileScore": 8,
+      "name": "HangTang Bridge South",
+      "distanceM": 589.4000244140625,
+      "avgGrade": 2.0020360946655273,
+      "startLat": 31.01227569580078,
+      "startLng": 121.5950698852539
+    },
+    {
+      "id": "28905832",
+      "tileScore": 8,
+      "name": "Dumplings. Almost there.",
+      "distanceM": 8881.7998046875,
+      "avgGrade": -0.024769755080342293,
+      "startLat": 31.02743911743164,
+      "startLng": 121.51651763916016
+    }
+  ]
+}

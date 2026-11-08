@@ -1,0 +1,20 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-08T22:24:34.445Z",
+  "tile": {
+    "z": 13,
+    "x": 6791,
+    "y": 3308
+  },
+  "segments": [
+    {
+      "id": "41659403",
+      "tileScore": 10,
+      "name": "去看银杏王-YC",
+      "distanceM": 537.7999877929688,
+      "avgGrade": 7.140200614929199,
+      "startLat": 32.67677307128906,
+      "startLng": 118.4616928100586
+    }
+  ]
+}

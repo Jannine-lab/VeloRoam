@@ -1,0 +1,20 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-03T06:04:19.285Z",
+  "tile": {
+    "z": 13,
+    "x": 6849,
+    "y": 3341
+  },
+  "segments": [
+    {
+      "id": "22915982",
+      "tileScore": 1,
+      "name": "12.5K North of Kunshan (Eastbound)",
+      "distanceM": 12680.900390625,
+      "avgGrade": 0.01734892651438713,
+      "startLat": 31.442026138305664,
+      "startLng": 120.88185119628906
+    }
+  ]
+}

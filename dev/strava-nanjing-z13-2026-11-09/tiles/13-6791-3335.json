@@ -1,0 +1,38 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-08T22:37:38.992Z",
+  "tile": {
+    "z": 13,
+    "x": 6791,
+    "y": 3335
+  },
+  "segments": [
+    {
+      "id": "36636535",
+      "tileScore": 2,
+      "name": "CAISHI TO DONGTU",
+      "distanceM": 10002,
+      "avgGrade": -0.029993999749422073,
+      "startLat": 31.656423568725586,
+      "startLng": 118.46157836914062
+    },
+    {
+      "id": "24005593",
+      "tileScore": 75,
+      "name": "滨江公园绕圈",
+      "distanceM": 9105.099609375,
+      "avgGrade": -0.01317942701280117,
+      "startLat": 31.659223556518555,
+      "startLng": 118.45654296875
+    },
+    {
+      "id": "37303503",
+      "tileScore": 4,
+      "name": "小九华山隧道爬坡",
+      "distanceM": 946.2000122070312,
+      "avgGrade": 1.1836820840835571,
+      "startLat": 31.676395416259766,
+      "startLng": 118.45166778564453
+    }
+  ]
+}

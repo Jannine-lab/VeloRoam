@@ -1,0 +1,20 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-03T06:07:23.695Z",
+  "tile": {
+    "z": 13,
+    "x": 6874,
+    "y": 3346
+  },
+  "segments": [
+    {
+      "id": "11593490",
+      "tileScore": 12,
+      "name": "Hengsha Jetty (Eastbound) - Monument → End",
+      "distanceM": 18920.599609375,
+      "avgGrade": 0,
+      "startLat": 31.29738426208496,
+      "startLng": 121.89747619628906
+    }
+  ]
+}

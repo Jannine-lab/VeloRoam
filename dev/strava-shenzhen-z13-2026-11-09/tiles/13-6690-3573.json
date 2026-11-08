@@ -1,0 +1,236 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-08T22:52:41.180Z",
+  "tile": {
+    "z": 13,
+    "x": 6690,
+    "y": 3573
+  },
+  "segments": [
+    {
+      "id": "5791656",
+      "tileScore": 125,
+      "name": "荃灣至沙倉10KM",
+      "distanceM": 9635.7001953125,
+      "avgGrade": 0.06849528104066849,
+      "startLat": 22.370330810546875,
+      "startLng": 114.10121154785156
+    },
+    {
+      "id": "15161659",
+      "tileScore": 8,
+      "name": "So Kwun Wat water catchment",
+      "distanceM": 2421.60009765625,
+      "avgGrade": -0.18995705246925354,
+      "startLat": 22.37906265258789,
+      "startLng": 113.99661254882812
+    },
+    {
+      "id": "10722085",
+      "tileScore": 5,
+      "name": "豆腐隊「半塘上斜往黃泥敦」",
+      "distanceM": 1165.699951171875,
+      "avgGrade": 12.636184692382812,
+      "startLat": 22.385116577148438,
+      "startLng": 114.02010345458984
+    },
+    {
+      "id": "36755267",
+      "tileScore": 5,
+      "name": "一腳觀塘至轉車站 [Fung]",
+      "distanceM": 29225,
+      "avgGrade": 0.00889649335294962,
+      "startLat": 22.312467575073242,
+      "startLng": 114.2257080078125
+    },
+    {
+      "id": "33877200",
+      "tileScore": 27,
+      "name": "康城大冷",
+      "distanceM": 130482.203125,
+      "avgGrade": 0,
+      "startLat": 22.29688835144043,
+      "startLng": 114.26518249511719
+    },
+    {
+      "id": "32810404",
+      "tileScore": 54,
+      "name": "Tai Lam clockwise",
+      "distanceM": 2422.10009765625,
+      "avgGrade": -0.016514593735337257,
+      "startLat": 22.37238311767578,
+      "startLng": 114.02171325683594
+    },
+    {
+      "id": "30767599",
+      "tileScore": 3,
+      "name": "Siu Lam Fresh Water Service Reservoir 1990",
+      "distanceM": 947.5,
+      "avgGrade": 7.282321929931641,
+      "startLat": 22.366762161254883,
+      "startLng": 114.00688171386719
+    },
+    {
+      "id": "13964376",
+      "tileScore": 16,
+      "name": "Cheeky Up",
+      "distanceM": 268.3999938964844,
+      "avgGrade": 23.099851608276367,
+      "startLat": 22.381868362426758,
+      "startLng": 114.01546478271484
+    },
+    {
+      "id": "11583469",
+      "tileScore": 125,
+      "name": "~*Sprint*~",
+      "distanceM": 366.29998779296875,
+      "avgGrade": 2.9484028816223145,
+      "startLat": 22.355731964111328,
+      "startLng": 114.02802276611328
+    },
+    {
+      "id": "5779096",
+      "tileScore": 4,
+      "name": "Climb to water catchment",
+      "distanceM": 585.9000244140625,
+      "avgGrade": 10.769756317138672,
+      "startLat": 22.37526512145996,
+      "startLng": 113.99725341796875
+    },
+    {
+      "id": "23798881",
+      "tileScore": 4,
+      "name": "RCCHKG_ED_Tai_Lam_Routine",
+      "distanceM": 29155.30078125,
+      "avgGrade": 1.4577109813690186,
+      "startLat": 22.370813369750977,
+      "startLng": 114.09672546386719
+    },
+    {
+      "id": "12939986",
+      "tileScore": 4,
+      "name": "2nd sector to wall",
+      "distanceM": 831.0999755859375,
+      "avgGrade": 0.6978702545166016,
+      "startLat": 22.37870979309082,
+      "startLng": 114.0173110961914
+    },
+    {
+      "id": "35776864",
+      "tileScore": 12,
+      "name": "南昌<>沙倉",
+      "distanceM": 38325.69921875,
+      "avgGrade": -0.018786350265145302,
+      "startLat": 22.327791213989258,
+      "startLng": 114.15133666992188
+    },
+    {
+      "id": "11104974",
+      "tileScore": 34,
+      "name": "race the light",
+      "distanceM": 125.9000015258789,
+      "avgGrade": 7.386814594268799,
+      "startLat": 22.36626434326172,
+      "startLng": 114.00984191894531
+    },
+    {
+      "id": "10647591",
+      "tileScore": 111,
+      "name": "大欖懲教斜路至堤壩",
+      "distanceM": 488,
+      "avgGrade": 11.803277969360352,
+      "startLat": 22.3726749420166,
+      "startLng": 114.0215835571289
+    },
+    {
+      "id": "36106399",
+      "tileScore": 9,
+      "name": "NSW - SHAN SHING",
+      "distanceM": 90205.8984375,
+      "avgGrade": -0.013968043960630894,
+      "startLat": 22.44609260559082,
+      "startLng": 114.04883575439453
+    },
+    {
+      "id": "28448274",
+      "tileScore": 23,
+      "name": "Castle Bay to Gold Coast Rolling Sprint ",
+      "distanceM": 1498.4000244140625,
+      "avgGrade": -0.9076348543167114,
+      "startLat": 22.366313934326172,
+      "startLng": 114.00690460205078
+    },
+    {
+      "id": "3838426",
+      "tileScore": 457,
+      "name": "沙倉來回 (細圈)",
+      "distanceM": 6000.10986328125,
+      "avgGrade": 0.036666058003902435,
+      "startLat": 22.36136817932129,
+      "startLng": 114.04540252685547
+    },
+    {
+      "id": "19881013",
+      "tileScore": 19,
+      "name": "大欖角雷達站短坡",
+      "distanceM": 545.4000244140625,
+      "avgGrade": 11.991199493408203,
+      "startLat": 22.364547729492188,
+      "startLng": 114.02311706542969
+    },
+    {
+      "id": "1866797",
+      "tileScore": 3,
+      "name": "Climb to start of Tai Lam trail",
+      "distanceM": 1285.83203125,
+      "avgGrade": 5.373668193817139,
+      "startLat": 22.378509521484375,
+      "startLng": 114.010498046875
+    },
+    {
+      "id": "14190893",
+      "tileScore": 42,
+      "name": "青山公路 - 嘉和里山段",
+      "distanceM": 325.79998779296875,
+      "avgGrade": -2.7624309062957764,
+      "startLat": 22.367448806762695,
+      "startLng": 114.00064849853516
+    },
+    {
+      "id": "20114371",
+      "tileScore": 19,
+      "name": "荃灣麗城至元朗西(海安路行人燈位經青公至元朗朗邊中轉屋藍色路牌)",
+      "distanceM": 24964.5,
+      "avgGrade": 0.0416591577231884,
+      "startLat": 22.372472763061523,
+      "startLng": 114.10540771484375
+    },
+    {
+      "id": "34863988",
+      "tileScore": 4,
+      "name": "So Kwun Wat Climb",
+      "distanceM": 583.9000244140625,
+      "avgGrade": 3.699263572692871,
+      "startLat": 22.37563705444336,
+      "startLng": 114.0007553100586
+    },
+    {
+      "id": "38840312",
+      "tileScore": 22,
+      "name": "The GT ",
+      "distanceM": 95767,
+      "avgGrade": 0.04740672558546066,
+      "startLat": 22.326505661010742,
+      "startLng": 114.15650939941406
+    },
+    {
+      "id": "3078375",
+      "tileScore": 79,
+      "name": "The Burn...",
+      "distanceM": 281.75,
+      "avgGrade": 7.806955337524414,
+      "startLat": 22.372549057006836,
+      "startLng": 114.02626037597656
+    }
+  ]
+}

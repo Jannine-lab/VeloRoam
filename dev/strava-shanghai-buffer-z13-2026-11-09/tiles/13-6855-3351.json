@@ -1,0 +1,47 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-03T06:09:32.917Z",
+  "tile": {
+    "z": 13,
+    "x": 6855,
+    "y": 3351
+  },
+  "segments": [
+    {
+      "id": "21131679",
+      "tileScore": 25,
+      "name": "Chenghua Smash #1",
+      "distanceM": 1090.9000244140625,
+      "avgGrade": -0.09166743606328964,
+      "startLat": 31.069332122802734,
+      "startLng": 121.25730895996094
+    },
+    {
+      "id": "21131664",
+      "tileScore": 17,
+      "name": "Maixin Smash",
+      "distanceM": 2223.89990234375,
+      "avgGrade": 0.008993210271000862,
+      "startLat": 31.06745719909668,
+      "startLng": 121.28152465820312
+    },
+    {
+      "id": "27327757",
+      "tileScore": 8,
+      "name": "Shanghai Tour de France 上海环法 - Full Tour (100km)",
+      "distanceM": 100065.796875,
+      "avgGrade": 0.002498356159776449,
+      "startLat": 31.153793334960938,
+      "startLng": 121.20298767089844
+    },
+    {
+      "id": "29343674",
+      "tileScore": 2,
+      "name": "BTP-CN-150",
+      "distanceM": 8229.7998046875,
+      "avgGrade": 0.03888308256864548,
+      "startLat": 31.046218872070312,
+      "startLng": 121.25434875488281
+    }
+  ]
+}

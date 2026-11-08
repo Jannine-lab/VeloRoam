@@ -1,0 +1,83 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-08T22:49:26.737Z",
+  "tile": {
+    "z": 13,
+    "x": 6702,
+    "y": 3564
+  },
+  "segments": [
+    {
+      "id": "18337125",
+      "tileScore": 4,
+      "name": "进港路KOM",
+      "distanceM": 1073.4000244140625,
+      "avgGrade": 3.428358554840088,
+      "startLat": 22.725446701049805,
+      "startLng": 114.53307342529297
+    },
+    {
+      "id": "32280219",
+      "tileScore": 5,
+      "name": "SZC Summer Challenge 125km",
+      "distanceM": 122493.796875,
+      "avgGrade": -0.015184441581368446,
+      "startLat": 22.55707550048828,
+      "startLng": 114.21763610839844
+    },
+    {
+      "id": "39688561",
+      "tileScore": 1,
+      "name": "惠澳大道三和-北环20km全段",
+      "distanceM": 19615,
+      "avgGrade": 0.02956920675933361,
+      "startLat": 22.883039474487305,
+      "startLng": 114.49260711669922
+    },
+    {
+      "id": "36053377",
+      "tileScore": 5,
+      "name": "中兴北路 往西",
+      "distanceM": 5468.2998046875,
+      "avgGrade": 0.04754677042365074,
+      "startLat": 22.7497615814209,
+      "startLng": 114.54924011230469
+    },
+    {
+      "id": "18337152",
+      "tileScore": 72,
+      "name": "大亚湾-霞涌ITT",
+      "distanceM": 8638.2998046875,
+      "avgGrade": 0.06714283674955368,
+      "startLat": 22.750207901000977,
+      "startLng": 114.55348205566406
+    },
+    {
+      "id": "39968844",
+      "tileScore": 2,
+      "name": "泰兴路2km绕圈",
+      "distanceM": 2070.699951171875,
+      "avgGrade": 0,
+      "startLat": 22.754579544067383,
+      "startLng": 114.52311706542969
+    },
+    {
+      "id": "16874484",
+      "tileScore": 4,
+      "name": "Stage 2 疏港大道绕圈",
+      "distanceM": 4546.10009765625,
+      "avgGrade": 0.2111700177192688,
+      "startLat": 22.705698013305664,
+      "startLng": 114.55443572998047
+    },
+    {
+      "id": "40771431",
+      "tileScore": 44,
+      "name": "被大货车追着屁股跑",
+      "distanceM": 2664.5,
+      "avgGrade": -0.007506099063903093,
+      "startLat": 22.75193977355957,
+      "startLng": 114.55917358398438
+    }
+  ]
+}

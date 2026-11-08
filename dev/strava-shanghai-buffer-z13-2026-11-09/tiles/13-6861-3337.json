@@ -1,0 +1,74 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-03T06:02:45.762Z",
+  "tile": {
+    "z": 13,
+    "x": 6861,
+    "y": 3337
+  },
+  "segments": [
+    {
+      "id": "36318104",
+      "tileScore": 1,
+      "name": "陈海公路tt(建设公路-北新公路)",
+      "distanceM": 8695.400390625,
+      "avgGrade": -0.011500333435833454,
+      "startLat": 31.6409854888916,
+      "startLng": 121.44751739501953
+    },
+    {
+      "id": "1667233",
+      "tileScore": 1,
+      "name": "Chongming short 2",
+      "distanceM": 39860.80078125,
+      "avgGrade": -0.008027937263250351,
+      "startLat": 31.660154342651367,
+      "startLng": 121.40385437011719
+    },
+    {
+      "id": "39028872",
+      "tileScore": 1,
+      "name": "新申公路(新河码头-崇明大道)",
+      "distanceM": 1148,
+      "avgGrade": -0.15679442882537842,
+      "startLat": 31.57058334350586,
+      "startLng": 121.50399780273438
+    },
+    {
+      "id": "33136229",
+      "tileScore": 19,
+      "name": "Tuancheng Hwy",
+      "distanceM": 20729.400390625,
+      "avgGrade": -0.013507385738193989,
+      "startLat": 31.633817672729492,
+      "startLng": 121.43010711669922
+    },
+    {
+      "id": "39049967",
+      "tileScore": 1,
+      "name": "北新公路(陈海公路-团城公路)",
+      "distanceM": 1950.5,
+      "avgGrade": 0.02563445270061493,
+      "startLat": 31.602968215942383,
+      "startLng": 121.52897644042969
+    },
+    {
+      "id": "33065310",
+      "tileScore": 12,
+      "name": "ChongMing Avenue iTT",
+      "distanceM": 18537.400390625,
+      "avgGrade": 0,
+      "startLat": 31.544097900390625,
+      "startLng": 121.59672546386719
+    },
+    {
+      "id": "39112791",
+      "tileScore": 10,
+      "name": "团城公路(北新公路-蟠龙公路)",
+      "distanceM": 4699.2998046875,
+      "avgGrade": 0.010639882646501064,
+      "startLat": 31.589710235595703,
+      "startLng": 121.51580810546875
+    }
+  ]
+}

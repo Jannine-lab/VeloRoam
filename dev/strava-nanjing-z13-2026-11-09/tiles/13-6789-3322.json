@@ -1,0 +1,20 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-08T22:33:54.231Z",
+  "tile": {
+    "z": 13,
+    "x": 6789,
+    "y": 3322
+  },
+  "segments": [
+    {
+      "id": "36621543",
+      "tileScore": 5,
+      "name": "cd-洪武西路到碧桂园",
+      "distanceM": 26468.400390625,
+      "avgGrade": -0.13978932797908783,
+      "startLat": 32.25999450683594,
+      "startLng": 118.21556854248047
+    }
+  ]
+}

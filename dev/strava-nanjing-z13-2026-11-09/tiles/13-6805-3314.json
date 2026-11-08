@@ -1,0 +1,20 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-08T22:26:22.471Z",
+  "tile": {
+    "z": 13,
+    "x": 6805,
+    "y": 3314
+  },
+  "segments": [
+    {
+      "id": "30216553",
+      "tileScore": 22,
+      "name": "移居—月塘集",
+      "distanceM": 4977.7998046875,
+      "avgGrade": 0.03214271366596222,
+      "startLat": 32.445220947265625,
+      "startLng": 119.05318450927734
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-08T22:25:44.976Z",
+  "tile": {
+    "z": 13,
+    "x": 6807,
+    "y": 3309
+  },
+  "segments": [
+    {
+      "id": "34446671",
+      "tileScore": 1,
+      "name": "南尖—新华",
+      "distanceM": 6107.10009765625,
+      "avgGrade": 0.2308788299560547,
+      "startLat": 32.68759536743164,
+      "startLng": 119.18770599365234
+    }
+  ]
+}

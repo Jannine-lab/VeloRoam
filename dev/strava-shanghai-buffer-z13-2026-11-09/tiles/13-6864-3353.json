@@ -1,0 +1,173 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-03T06:10:38.612Z",
+  "tile": {
+    "z": 13,
+    "x": 6864,
+    "y": 3353
+  },
+  "segments": [
+    {
+      "id": "40767944",
+      "tileScore": 22,
+      "name": "大业公路",
+      "distanceM": 5153.39990234375,
+      "avgGrade": 0.019404664635658264,
+      "startLat": 30.9862117767334,
+      "startLng": 121.596435546875
+    },
+    {
+      "id": "30450614",
+      "tileScore": 24,
+      "name": "“海王杯”第二赛段",
+      "distanceM": 21629.400390625,
+      "avgGrade": 0.0527060404419899,
+      "startLat": 30.94480323791504,
+      "startLng": 121.8846435546875
+    },
+    {
+      "id": "36806896",
+      "tileScore": 61,
+      "name": "DaZhi River - ChuanNanFeng to ShenJiang - West bound",
+      "distanceM": 11378.7001953125,
+      "avgGrade": 0.010546020232141018,
+      "startLat": 31.011137008666992,
+      "startLng": 121.76981353759766
+    },
+    {
+      "id": "38796148",
+      "tileScore": 13,
+      "name": "slanaC s'neevrehS fo k8",
+      "distanceM": 7686.7998046875,
+      "avgGrade": 0.026018628850579262,
+      "startLat": 31.017501831054688,
+      "startLng": 121.56170654296875
+    },
+    {
+      "id": "38041689",
+      "tileScore": 11,
+      "name": "大叶冲向汇骏",
+      "distanceM": 1460.699951171875,
+      "avgGrade": 0.027384132146835327,
+      "startLat": 30.988378524780273,
+      "startLng": 121.68125915527344
+    },
+    {
+      "id": "20305708",
+      "tileScore": 4,
+      "name": "大叶公路（六奉-沪杭）",
+      "distanceM": 25125.5,
+      "avgGrade": 0.023084117099642754,
+      "startLat": 30.988019943237305,
+      "startLng": 121.69689178466797
+    },
+    {
+      "id": "35222756",
+      "tileScore": 66,
+      "name": "新路线",
+      "distanceM": 6031.7998046875,
+      "avgGrade": 0.006631519645452499,
+      "startLat": 31.000469207763672,
+      "startLng": 121.69573211669922
+    },
+    {
+      "id": "20127491",
+      "tileScore": 262,
+      "name": "Nanshen Bridge",
+      "distanceM": 534.4000244140625,
+      "avgGrade": 0.18712574243545532,
+      "startLat": 31.014453887939453,
+      "startLng": 121.6505126953125
+    },
+    {
+      "id": "39074343",
+      "tileScore": 20,
+      "name": "大叶公路 瓦洪to六奉",
+      "distanceM": 3544.800048828125,
+      "avgGrade": 0.03385240212082863,
+      "startLat": 30.986356735229492,
+      "startLng": 121.65930938720703
+    },
+    {
+      "id": "28359417",
+      "tileScore": 70,
+      "name": "Canals Straight ",
+      "distanceM": 17928.80078125,
+      "avgGrade": 0.012270759791135788,
+      "startLat": 31.01532554626465,
+      "startLng": 121.65323638916016
+    },
+    {
+      "id": "42377503",
+      "tileScore": 3,
+      "name": "大叶公路S2跨线桥",
+      "distanceM": 1019.5999755859375,
+      "avgGrade": -0.0196155346930027,
+      "startLat": 30.987001419067383,
+      "startLng": 121.67646026611328
+    },
+    {
+      "id": "25225795",
+      "tileScore": 2,
+      "name": "Northbound on Xinfeng",
+      "distanceM": 6358.7998046875,
+      "avgGrade": 0.0251619815826416,
+      "startLat": 30.92991065979004,
+      "startLng": 121.63762664794922
+    },
+    {
+      "id": "42079725",
+      "tileScore": 3,
+      "name": "Markus Bruengger (R.I.P. | G.O.A.T.) Memory Ride",
+      "distanceM": 64397.30078125,
+      "avgGrade": -0.006522012874484062,
+      "startLat": 31.224090576171875,
+      "startLng": 121.55386352539062
+    },
+    {
+      "id": "41031597",
+      "tileScore": 2,
+      "name": "Xinchang Gravel Segement1",
+      "distanceM": 1188.9000244140625,
+      "avgGrade": 0.15140044689178467,
+      "startLat": 31.01361846923828,
+      "startLng": 121.64176177978516
+    },
+    {
+      "id": "36906612",
+      "tileScore": 10,
+      "name": "药指导！博鸡！启动！",
+      "distanceM": 4222.39990234375,
+      "avgGrade": 0.0189465694129467,
+      "startLat": 30.98530387878418,
+      "startLng": 121.65914154052734
+    },
+    {
+      "id": "14680359",
+      "tileScore": 24,
+      "name": "East XinHuan Rd",
+      "distanceM": 2940.39990234375,
+      "avgGrade": 0.04421167075634003,
+      "startLat": 31.012834548950195,
+      "startLng": 121.65058135986328
+    },
+    {
+      "id": "38210621",
+      "tileScore": 51,
+      "name": "rush dazhi",
+      "distanceM": 651,
+      "avgGrade": 1.2288786172866821,
+      "startLat": 31.020862579345703,
+      "startLng": 121.65031433105469
+    },
+    {
+      "id": "31043683",
+      "tileScore": 33,
+      "name": "Dazhi river sprint I ",
+      "distanceM": 1002,
+      "avgGrade": 0.019960079342126846,
+      "startLat": 31.01472282409668,
+      "startLng": 121.6699447631836
+    }
+  ]
+}

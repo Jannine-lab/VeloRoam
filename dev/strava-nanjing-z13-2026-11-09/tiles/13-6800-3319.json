@@ -1,0 +1,29 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-08T22:31:25.131Z",
+  "tile": {
+    "z": 13,
+    "x": 6800,
+    "y": 3319
+  },
+  "segments": [
+    {
+      "id": "39638900",
+      "tileScore": 16,
+      "name": "环科路东南往西北",
+      "distanceM": 9762,
+      "avgGrade": 0.059414055198431015,
+      "startLat": 32.2256965637207,
+      "startLng": 118.88593292236328
+    },
+    {
+      "id": "39404823",
+      "tileScore": 9,
+      "name": "六合滁河东段",
+      "distanceM": 13213.7001953125,
+      "avgGrade": 0.006811112631112337,
+      "startLat": 32.31703567504883,
+      "startLng": 118.84432220458984
+    }
+  ]
+}

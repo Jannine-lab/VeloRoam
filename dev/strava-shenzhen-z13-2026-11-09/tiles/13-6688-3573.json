@@ -1,0 +1,74 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-08T22:52:43.834Z",
+  "tile": {
+    "z": 13,
+    "x": 6688,
+    "y": 3573
+  },
+  "segments": [
+    {
+      "id": "757108",
+      "tileScore": 8,
+      "name": "Lung Mun Road first climb out",
+      "distanceM": 852.5499877929688,
+      "avgGrade": 4.48041296005249,
+      "startLat": 22.371097564697266,
+      "startLng": 113.92700958251953
+    },
+    {
+      "id": "1491801",
+      "tileScore": 5,
+      "name": "Castle Peak Power Station climb (Tuen Mun bound)",
+      "distanceM": 745.0070190429688,
+      "avgGrade": 1.7315436601638794,
+      "startLat": 22.384628295898438,
+      "startLng": 113.92110443115234
+    },
+    {
+      "id": "1866881",
+      "tileScore": 14,
+      "name": "Tuen Mun to Lung Kwu Tan (Full)",
+      "distanceM": 10108.279296875,
+      "avgGrade": 0.08211074024438858,
+      "startLat": 22.37584114074707,
+      "startLng": 113.95995330810547
+    },
+    {
+      "id": "28032640",
+      "tileScore": 53,
+      "name": "Tunnel small lap",
+      "distanceM": 1665.5999755859375,
+      "avgGrade": -0.07204610854387283,
+      "startLat": 22.361568450927734,
+      "startLng": 113.94908142089844
+    },
+    {
+      "id": "19529494",
+      "tileScore": 1,
+      "name": "Terraces",
+      "distanceM": 2646.89990234375,
+      "avgGrade": 3.755336284637451,
+      "startLat": 22.369789123535156,
+      "startLng": 113.93657684326172
+    },
+    {
+      "id": "31237983",
+      "tileScore": 2,
+      "name": "Fishermen's Cemetery climb",
+      "distanceM": 487.6000061035156,
+      "avgGrade": 10.04922103881836,
+      "startLat": 22.373441696166992,
+      "startLng": 113.92997741699219
+    },
+    {
+      "id": "29994939",
+      "tileScore": 30,
+      "name": "浩和街 + 浩逸街 （南行）",
+      "distanceM": 1254,
+      "avgGrade": 0.03189792484045029,
+      "startLat": 22.366413116455078,
+      "startLng": 113.9476318359375
+    }
+  ]
+}

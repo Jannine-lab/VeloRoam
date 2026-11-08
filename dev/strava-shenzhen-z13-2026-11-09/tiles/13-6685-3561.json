@@ -1,0 +1,119 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-08T22:48:52.058Z",
+  "tile": {
+    "z": 13,
+    "x": 6685,
+    "y": 3561
+  },
+  "segments": [
+    {
+      "id": "28499932",
+      "tileScore": 16,
+      "name": "环大岭山<风柜口起点>",
+      "distanceM": 24131.80078125,
+      "avgGrade": -0.03232249617576599,
+      "startLat": 22.860000610351562,
+      "startLng": 113.77369689941406
+    },
+    {
+      "id": "4252498",
+      "tileScore": 2,
+      "name": "Huadengzhan Road Climb",
+      "distanceM": 927.9000244140625,
+      "avgGrade": 8.729389190673828,
+      "startLat": 22.848907470703125,
+      "startLng": 113.77617645263672
+    },
+    {
+      "id": "35978033",
+      "tileScore": 9,
+      "name": "G107松岗至杨屋",
+      "distanceM": 10208.099609375,
+      "avgGrade": 0.21747437119483948,
+      "startLat": 22.78008460998535,
+      "startLng": 113.83658599853516
+    },
+    {
+      "id": "918245",
+      "tileScore": 42,
+      "name": "风柜口路 Climb",
+      "distanceM": 1229.030029296875,
+      "avgGrade": 6.565780162811279,
+      "startLat": 22.849559783935547,
+      "startLng": 113.77703094482422
+    },
+    {
+      "id": "15677549",
+      "tileScore": 5,
+      "name": "X883 Sprint",
+      "distanceM": 1489.699951171875,
+      "avgGrade": -0.22823387384414673,
+      "startLat": 22.870473861694336,
+      "startLng": 113.80133056640625
+    },
+    {
+      "id": "3125289",
+      "tileScore": 1,
+      "name": "鸡公仔步道 Climb",
+      "distanceM": 1812.7099609375,
+      "avgGrade": 10.018204689025879,
+      "startLat": 22.84794807434082,
+      "startLng": 113.79570007324219
+    },
+    {
+      "id": "35526962",
+      "tileScore": 40,
+      "name": "大岭山入口",
+      "distanceM": 1158.4000244140625,
+      "avgGrade": 3.6084253787994385,
+      "startLat": 22.860441207885742,
+      "startLng": 113.78887939453125
+    },
+    {
+      "id": "14540852",
+      "tileScore": 9,
+      "name": "Small bump + arrival dalingshan",
+      "distanceM": 571.4000244140625,
+      "avgGrade": -0.4200209975242615,
+      "startLat": 22.860538482666016,
+      "startLng": 113.7892074584961
+    },
+    {
+      "id": "31509922",
+      "tileScore": 2,
+      "name": "大白马标准版壹",
+      "distanceM": 72662.203125,
+      "avgGrade": -0.00027524627512320876,
+      "startLat": 22.840572357177734,
+      "startLng": 113.77523040771484
+    },
+    {
+      "id": "14540908",
+      "tileScore": 7,
+      "name": "Sanlin Park Entrance",
+      "distanceM": 1060.5,
+      "avgGrade": 1.9990570545196533,
+      "startLat": 22.829626083374023,
+      "startLng": 113.78314208984375
+    },
+    {
+      "id": "15668258",
+      "tileScore": 2,
+      "name": "Nice Hills",
+      "distanceM": 2730.300048828125,
+      "avgGrade": 1.6115446090698242,
+      "startLat": 22.84189796447754,
+      "startLng": 113.77764129638672
+    },
+    {
+      "id": "36442678",
+      "tileScore": 29,
+      "name": "风柜口二段坡",
+      "distanceM": 667.7999877929688,
+      "avgGrade": 6.543875694274902,
+      "startLat": 22.860422134399414,
+      "startLng": 113.77594757080078
+    }
+  ]
+}

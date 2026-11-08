@@ -1,0 +1,245 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-08T22:51:24.054Z",
+  "tile": {
+    "z": 13,
+    "x": 6687,
+    "y": 3570
+  },
+  "segments": [
+    {
+      "id": "41685622",
+      "tileScore": 8,
+      "name": "荔林公园骑行道",
+      "distanceM": 802,
+      "avgGrade": 1.7206981182098389,
+      "startLat": 22.512714385986328,
+      "startLng": 113.90502166748047
+    },
+    {
+      "id": "16564748",
+      "tileScore": 10,
+      "name": "Long way round",
+      "distanceM": 823.2000122070312,
+      "avgGrade": -0.2672497630119324,
+      "startLat": 22.48626708984375,
+      "startLng": 113.89290618896484
+    },
+    {
+      "id": "22940213",
+      "tileScore": 6,
+      "name": "xinghai Bridge to Chiwan Rd.",
+      "distanceM": 6694.2998046875,
+      "avgGrade": 0.017925698310136795,
+      "startLat": 22.52235984802246,
+      "startLng": 113.88292694091797
+    },
+    {
+      "id": "28435235",
+      "tileScore": 11,
+      "name": "Road to sky 左炮台20趟",
+      "distanceM": 25927.599609375,
+      "avgGrade": 0.15736126899719238,
+      "startLat": 22.472381591796875,
+      "startLng": 113.88749694824219
+    },
+    {
+      "id": "30717154",
+      "tileScore": 9,
+      "name": "这是一堵墙",
+      "distanceM": 489,
+      "avgGrade": 9.325153350830078,
+      "startLat": 22.496217727661133,
+      "startLng": 113.88111114501953
+    },
+    {
+      "id": "16564649",
+      "tileScore": 6,
+      "name": "Ferruccio's finest",
+      "distanceM": 559.7999877929688,
+      "avgGrade": -0.17863522469997406,
+      "startLat": 22.480382919311523,
+      "startLng": 113.90756225585938
+    },
+    {
+      "id": "26912451",
+      "tileScore": 2,
+      "name": "DescenteDeLaMortAprèsLeCalvaire",
+      "distanceM": 352.5,
+      "avgGrade": -1.8156028985977173,
+      "startLat": 22.475276947021484,
+      "startLng": 113.87462615966797
+    },
+    {
+      "id": "30558284",
+      "tileScore": 63,
+      "name": "牛羊山爬升",
+      "distanceM": 1037.9000244140625,
+      "avgGrade": 5.9157915115356445,
+      "startLat": 22.484535217285156,
+      "startLng": 113.88410949707031
+    },
+    {
+      "id": "3936063",
+      "tileScore": 19,
+      "name": "深圳蛇口大南山",
+      "distanceM": 2036.5999755859375,
+      "avgGrade": 12.132966995239258,
+      "startLat": 22.50718116760254,
+      "startLng": 113.90693664550781
+    },
+    {
+      "id": "42138067",
+      "tileScore": 11,
+      "name": "小南山爬坡!",
+      "distanceM": 1864.9000244140625,
+      "avgGrade": 4.043112277984619,
+      "startLat": 22.484180450439453,
+      "startLng": 113.89266204833984
+    },
+    {
+      "id": "21065225",
+      "tileScore": 2,
+      "name": "Jingshan Middle Climb 01",
+      "distanceM": 302.5,
+      "avgGrade": 0.46280989050865173,
+      "startLat": 22.485448837280273,
+      "startLng": 113.9033432006836
+    },
+    {
+      "id": "20290510",
+      "tileScore": 5,
+      "name": "左炮台 / Zuopaotai Rd. Sprint",
+      "distanceM": 745.2999877929688,
+      "avgGrade": -1.0733932256698608,
+      "startLat": 22.474628448486328,
+      "startLng": 113.89000701904297
+    },
+    {
+      "id": "37515238",
+      "tileScore": 2,
+      "name": "山樾湾直线下坡冲刺",
+      "distanceM": 1071.699951171875,
+      "avgGrade": -0.46654847264289856,
+      "startLat": 22.49603271484375,
+      "startLng": 113.88043212890625
+    },
+    {
+      "id": "24890606",
+      "tileScore": 4,
+      "name": "BeastTurn",
+      "distanceM": 420.20001220703125,
+      "avgGrade": -0.5711565613746643,
+      "startLat": 22.495948791503906,
+      "startLng": 113.8707275390625
+    },
+    {
+      "id": "20290422",
+      "tileScore": 20,
+      "name": " 紫禁山 / The Forbidden Mountain",
+      "distanceM": 2370.5,
+      "avgGrade": 8.411727905273438,
+      "startLat": 22.486289978027344,
+      "startLng": 113.88756561279297
+    },
+    {
+      "id": "18104371",
+      "tileScore": 4,
+      "name": "New Shekou Ferry Race Track",
+      "distanceM": 627.7999877929688,
+      "avgGrade": 0,
+      "startLat": 22.475311279296875,
+      "startLng": 113.90364837646484
+    },
+    {
+      "id": "11679423",
+      "tileScore": 6,
+      "name": "S3 to Mawan Port",
+      "distanceM": 7622.10009765625,
+      "avgGrade": -0.057726871222257614,
+      "startLat": 22.522674560546875,
+      "startLng": 113.8834457397461
+    },
+    {
+      "id": "17710001",
+      "tileScore": 13,
+      "name": "Breakaway finish...hold off the sprint",
+      "distanceM": 448.3999938964844,
+      "avgGrade": 5.151650428771973,
+      "startLat": 22.494842529296875,
+      "startLng": 113.88740539550781
+    },
+    {
+      "id": "5436109",
+      "tileScore": 4,
+      "name": "Qingqing Road Climb",
+      "distanceM": 1129.0999755859375,
+      "avgGrade": 25.63103485107422,
+      "startLat": 22.500659942626953,
+      "startLng": 113.9128646850586
+    },
+    {
+      "id": "16564725",
+      "tileScore": 6,
+      "name": "We're off to never never land",
+      "distanceM": 500,
+      "avgGrade": 1.3600000143051147,
+      "startLat": 22.47736167907715,
+      "startLng": 113.90272521972656
+    },
+    {
+      "id": "4450119",
+      "tileScore": 1,
+      "name": "Qingqing Road Climb",
+      "distanceM": 828.7999877929688,
+      "avgGrade": 11.848455429077148,
+      "startLat": 22.49384307861328,
+      "startLng": 113.89993286132812
+    },
+    {
+      "id": "32375336",
+      "tileScore": 7,
+      "name": "Up to Checkpoint Charlie",
+      "distanceM": 728.0999755859375,
+      "avgGrade": 3.213844060897827,
+      "startLat": 22.507919311523438,
+      "startLng": 113.89420318603516
+    },
+    {
+      "id": "39440798",
+      "tileScore": 25,
+      "name": "华英路下半段减速带到坡顶",
+      "distanceM": 519.2000122070312,
+      "avgGrade": 4.583975315093994,
+      "startLat": 22.484243392944336,
+      "startLng": 113.89256286621094
+    },
+    {
+      "id": "30008572",
+      "tileScore": 5,
+      "name": "Two bridges loop",
+      "distanceM": 1622.199951171875,
+      "avgGrade": 0,
+      "startLat": 22.51552963256836,
+      "startLng": 113.88407135009766
+    },
+    {
+      "id": "648655",
+      "tileScore": 7,
+      "name": "Nan Shan Ascent",
+      "distanceM": 1288.6600341796875,
+      "avgGrade": 6.472140312194824,
+      "startLat": 22.48829460144043,
+      "startLng": 113.90699768066406
+    },
+    {
+      "id": "26912492",
+      "tileScore": 2,
+      "name": "Hospital Loop + ChiWan",
+      "distanceM": 57742.3984375,
+      "avgGrade": -0.016971930861473083,
+      "startLat": 22.484697341918945,
+      "startLng": 113.93070220947266
+    }
+  ]
+}

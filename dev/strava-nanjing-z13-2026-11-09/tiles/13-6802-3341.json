@@ -1,0 +1,47 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-08T22:39:20.812Z",
+  "tile": {
+    "z": 13,
+    "x": 6802,
+    "y": 3341
+  },
+  "segments": [
+    {
+      "id": "39678619",
+      "tileScore": 29,
+      "name": "天镜路大直道TT",
+      "distanceM": 1717.699951171875,
+      "avgGrade": 0.058217380195856094,
+      "startLat": 31.446895599365234,
+      "startLng": 118.95674133300781
+    },
+    {
+      "id": "33010904",
+      "tileScore": 14,
+      "name": "石臼湖东半圈TopK",
+      "distanceM": 34885.80078125,
+      "avgGrade": -0.012325932271778584,
+      "startLat": 31.53363037109375,
+      "startLng": 118.89861297607422
+    },
+    {
+      "id": "33978370",
+      "tileScore": 8,
+      "name": "一冲到顶",
+      "distanceM": 509.3999938964844,
+      "avgGrade": 0.4711425304412842,
+      "startLat": 31.429075241088867,
+      "startLng": 118.93585205078125
+    },
+    {
+      "id": "21728651",
+      "tileScore": 6,
+      "name": "20190908 环石臼湖自行车赛 Shijiu Lake Criterium",
+      "distanceM": 86061,
+      "avgGrade": 0.009992912411689758,
+      "startLat": 31.57097816467285,
+      "startLng": 118.89986419677734
+    }
+  ]
+}

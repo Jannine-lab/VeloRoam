@@ -1,0 +1,47 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-03T06:10:56.380Z",
+  "tile": {
+    "z": 13,
+    "x": 6867,
+    "y": 3356
+  },
+  "segments": [
+    {
+      "id": "7431974",
+      "tileScore": 3,
+      "name": "TT lovers 2 Clockwise - Guaranted by Roberto",
+      "distanceM": 30336.900390625,
+      "avgGrade": 0.00032963158446364105,
+      "startLat": 31.04207992553711,
+      "startLng": 121.85521697998047
+    },
+    {
+      "id": "34268172",
+      "tileScore": 18,
+      "name": "Wanshui Rd E to W",
+      "distanceM": 1209.199951171875,
+      "avgGrade": 0.14058881998062134,
+      "startLat": 30.866069793701172,
+      "startLng": 121.7773666381836
+    },
+    {
+      "id": "34130678",
+      "tileScore": 12,
+      "name": "芦五公路 云水路-南芦公路",
+      "distanceM": 5964,
+      "avgGrade": 0,
+      "startLat": 30.867446899414062,
+      "startLng": 121.77898406982422
+    },
+    {
+      "id": "40227376",
+      "tileScore": 8,
+      "name": "12KM TTT",
+      "distanceM": 12133.599609375,
+      "avgGrade": -0.019779784604907036,
+      "startLat": 30.86695098876953,
+      "startLng": 121.65801239013672
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-03T06:04:33.554Z",
+  "tile": {
+    "z": 13,
+    "x": 6867,
+    "y": 3341
+  },
+  "segments": [
+    {
+      "id": "40511416",
+      "tileScore": 4,
+      "name": "2025东滩骑行",
+      "distanceM": 46937,
+      "avgGrade": -0.0004261030990164727,
+      "startLat": 31.485496520996094,
+      "startLng": 121.83615112304688
+    },
+    {
+      "id": "36134759",
+      "tileScore": 4,
+      "name": "崇明 099 Seaside",
+      "distanceM": 1356.9000244140625,
+      "avgGrade": 0,
+      "startLat": 31.442363739013672,
+      "startLng": 121.82697296142578
+    },
+    {
+      "id": "37787432",
+      "tileScore": 4,
+      "name": "爽歪歪路线",
+      "distanceM": 7516.7998046875,
+      "avgGrade": 0.002660706639289856,
+      "startLat": 31.44730567932129,
+      "startLng": 121.81324005126953
+    },
+    {
+      "id": "36134751",
+      "tileScore": 25,
+      "name": "崇明 001 Seaside",
+      "distanceM": 3292.89990234375,
+      "avgGrade": 0,
+      "startLat": 31.452009201049805,
+      "startLng": 121.81343078613281
+    },
+    {
+      "id": "13352521",
+      "tileScore": 35,
+      "name": "LanHai Rd",
+      "distanceM": 2722,
+      "avgGrade": 0,
+      "startLat": 31.465700149536133,
+      "startLng": 121.8138656616211
+    }
+  ]
+}

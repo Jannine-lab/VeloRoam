@@ -1,0 +1,173 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-03T05:35:42.086Z",
+  "tile": {
+    "z": 13,
+    "x": 6859,
+    "y": 3350
+  },
+  "segments": [
+    {
+      "id": "6936509",
+      "tileScore": 4,
+      "name": "Longwu Rd (Longshui > S20 Outer Ring)",
+      "distanceM": 5077.7998046875,
+      "avgGrade": -0.003938713576644659,
+      "startLat": 31.171098709106445,
+      "startLng": 121.44029235839844
+    },
+    {
+      "id": "34777759",
+      "tileScore": 5,
+      "name": "三林滨江 003 Riverside",
+      "distanceM": 1786.199951171875,
+      "avgGrade": -0.03359086439013481,
+      "startLat": 31.12932014465332,
+      "startLng": 121.46735382080078
+    },
+    {
+      "id": "38663066",
+      "tileScore": 1,
+      "name": "浦江 030 U Turn Short",
+      "distanceM": 797.7000122070312,
+      "avgGrade": -0.05014416575431824,
+      "startLat": 31.109346389770508,
+      "startLng": 121.46624755859375
+    },
+    {
+      "id": "36140881",
+      "tileScore": 5,
+      "name": "景东路北向南",
+      "distanceM": 3861,
+      "avgGrade": -0.015540014952421188,
+      "startLat": 31.120092391967773,
+      "startLng": 121.44490814208984
+    },
+    {
+      "id": "5425955",
+      "tileScore": 7,
+      "name": "Factory Ave Return",
+      "distanceM": 5762.7001953125,
+      "avgGrade": 0,
+      "startLat": 31.055204391479492,
+      "startLng": 121.46072387695312
+    },
+    {
+      "id": "40713481",
+      "tileScore": 366,
+      "name": "J's LTA Extension",
+      "distanceM": 3057,
+      "avgGrade": -0.05233889818191528,
+      "startLat": 31.127174377441406,
+      "startLng": 121.45921325683594
+    },
+    {
+      "id": "21036682",
+      "tileScore": 7,
+      "name": "Minpu Tues - Park to LP with extension",
+      "distanceM": 56914,
+      "avgGrade": -0.006325332447886467,
+      "startLat": 31.213491439819336,
+      "startLng": 121.46663665771484
+    },
+    {
+      "id": "11951366",
+      "tileScore": 3,
+      "name": "Chunshen Pond Bridge (Southbound)",
+      "distanceM": 144.89999389648438,
+      "avgGrade": -0.7591442465782166,
+      "startLat": 31.0975284576416,
+      "startLng": 121.45159912109375
+    },
+    {
+      "id": "17392119",
+      "tileScore": 12,
+      "name": "Xumei Lu Smash",
+      "distanceM": 725.7999877929688,
+      "avgGrade": 0.08266739547252655,
+      "startLat": 31.12639045715332,
+      "startLng": 121.45088195800781
+    },
+    {
+      "id": "27873586",
+      "tileScore": 1,
+      "name": "Eastbound over bridge",
+      "distanceM": 1476.4000244140625,
+      "avgGrade": -0.02709292806684971,
+      "startLat": 31.114036560058594,
+      "startLng": 121.43034362792969
+    },
+    {
+      "id": "11774580",
+      "tileScore": 1,
+      "name": "Laohumin Lu, northbound",
+      "distanceM": 1821.5,
+      "avgGrade": -0.021959923207759857,
+      "startLat": 31.110172271728516,
+      "startLng": 121.42564392089844
+    },
+    {
+      "id": "17888512",
+      "tileScore": 88,
+      "name": "Longteng Tramadol Blast",
+      "distanceM": 720.2000122070312,
+      "avgGrade": 0.8608720302581787,
+      "startLat": 31.1278133392334,
+      "startLng": 121.45895385742188
+    },
+    {
+      "id": "40743598",
+      "tileScore": 210,
+      "name": "New Extended Longteng Loop 🦊",
+      "distanceM": 10408.5,
+      "avgGrade": -0.005764519330114126,
+      "startLat": 31.15691566467285,
+      "startLng": 121.45661926269531
+    },
+    {
+      "id": "21384969",
+      "tileScore": 20,
+      "name": "Huajing Lu",
+      "distanceM": 2705.10009765625,
+      "avgGrade": -0.036967210471630096,
+      "startLat": 31.121915817260742,
+      "startLng": 121.45122528076172
+    },
+    {
+      "id": "35421256",
+      "tileScore": 11,
+      "name": "Jingcheng Loop",
+      "distanceM": 1315,
+      "avgGrade": -0.045627374202013016,
+      "startLat": 31.124048233032227,
+      "startLng": 121.42901611328125
+    },
+    {
+      "id": "38659188",
+      "tileScore": 1,
+      "name": "浦江 029 Riverside Forest",
+      "distanceM": 562.4000244140625,
+      "avgGrade": -0.17780938744544983,
+      "startLat": 31.09889793395996,
+      "startLng": 121.46582794189453
+    },
+    {
+      "id": "32445632",
+      "tileScore": 1,
+      "name": "King Kong go brrr!",
+      "distanceM": 3971.60009765625,
+      "avgGrade": -0.010071507655084133,
+      "startLat": 31.120525360107422,
+      "startLng": 121.43445587158203
+    },
+    {
+      "id": "11774573",
+      "tileScore": 18,
+      "name": "Hongmei Nan Lu, northbound",
+      "distanceM": 8066.2001953125,
+      "avgGrade": 0.022315340116620064,
+      "startLat": 31.04073715209961,
+      "startLng": 121.45146942138672
+    }
+  ]
+}

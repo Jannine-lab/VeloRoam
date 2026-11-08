@@ -1,0 +1,191 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-08T22:51:42.634Z",
+  "tile": {
+    "z": 13,
+    "x": 6690,
+    "y": 3572
+  },
+  "segments": [
+    {
+      "id": "678272",
+      "tileScore": 54,
+      "name": "Tai Tong Shan Rd Climb",
+      "distanceM": 1146.9200439453125,
+      "avgGrade": 7.725172519683838,
+      "startLat": 22.39626693725586,
+      "startLng": 114.0454330444336
+    },
+    {
+      "id": "9481203",
+      "tileScore": 5,
+      "name": "開心伯公坳",
+      "distanceM": 1044.199951171875,
+      "avgGrade": -5.975866794586182,
+      "startLat": 22.3971004486084,
+      "startLng": 114.03385162353516
+    },
+    {
+      "id": "1491774",
+      "tileScore": 207,
+      "name": "Tai Tong Shan Climb (ends at car park)",
+      "distanceM": 1691.010009765625,
+      "avgGrade": 7.285629749298096,
+      "startLat": 22.415937423706055,
+      "startLng": 114.0246353149414
+    },
+    {
+      "id": "10837225",
+      "tileScore": 14,
+      "name": "*五柳路 > 南生圍入口",
+      "distanceM": 8678.7001953125,
+      "avgGrade": -0.0483943447470665,
+      "startLat": 22.42234230041504,
+      "startLng": 113.98533630371094
+    },
+    {
+      "id": "36159705",
+      "tileScore": 19,
+      "name": "tai shu ha out",
+      "distanceM": 729.5,
+      "avgGrade": -4.386566162109375,
+      "startLat": 22.415529251098633,
+      "startLng": 114.03797912597656
+    },
+    {
+      "id": "10722099",
+      "tileScore": 4,
+      "name": "豆腐隊「黃泥敦」",
+      "distanceM": 1057.0999755859375,
+      "avgGrade": -10.64232349395752,
+      "startLat": 22.401901245117188,
+      "startLng": 114.01708221435547
+    },
+    {
+      "id": "11171111",
+      "tileScore": 62,
+      "name": "Tai Shu Ha Road (Anti-Clockwise)",
+      "distanceM": 4004,
+      "avgGrade": -0.114885114133358,
+      "startLat": 22.41510009765625,
+      "startLng": 114.03807830810547
+    },
+    {
+      "id": "16860183",
+      "tileScore": 1,
+      "name": "伯公尾B段",
+      "distanceM": 328.70001220703125,
+      "avgGrade": -7.575296401977539,
+      "startLat": 22.40354347229004,
+      "startLng": 114.02696228027344
+    },
+    {
+      "id": "20153625",
+      "tileScore": 2,
+      "name": "Beyond Dead Dog",
+      "distanceM": 2845.800048828125,
+      "avgGrade": 2.783048629760742,
+      "startLat": 22.414579391479492,
+      "startLng": 114.0054931640625
+    },
+    {
+      "id": "19752788",
+      "tileScore": 5,
+      "name": " 元朗公路旁小斜",
+      "distanceM": 697.2000122070312,
+      "avgGrade": 3.1267929077148438,
+      "startLat": 22.43362808227539,
+      "startLng": 114.00261688232422
+    },
+    {
+      "id": "10722085",
+      "tileScore": 5,
+      "name": "豆腐隊「半塘上斜往黃泥敦」",
+      "distanceM": 1165.699951171875,
+      "avgGrade": 12.636184692382812,
+      "startLat": 22.385116577148438,
+      "startLng": 114.02010345458984
+    },
+    {
+      "id": "11123063",
+      "tileScore": 32,
+      "name": "Tai Tong to Large Lawn",
+      "distanceM": 4508.2998046875,
+      "avgGrade": 0.9715413451194763,
+      "startLat": 22.416025161743164,
+      "startLng": 114.02434539794922
+    },
+    {
+      "id": "10729364",
+      "tileScore": 4,
+      "name": "高速公路邊 (藍地-唐人新村)",
+      "distanceM": 4918.39990234375,
+      "avgGrade": 0.06506180763244629,
+      "startLat": 22.41581916809082,
+      "startLng": 113.98199462890625
+    },
+    {
+      "id": "38840312",
+      "tileScore": 22,
+      "name": "The GT ",
+      "distanceM": 95767,
+      "avgGrade": 0.04740672558546066,
+      "startLat": 22.326505661010742,
+      "startLng": 114.15650939941406
+    },
+    {
+      "id": "36706061",
+      "tileScore": 4,
+      "name": "Dead man hill",
+      "distanceM": 2516.699951171875,
+      "avgGrade": 9.0396146774292,
+      "startLat": 22.423044204711914,
+      "startLng": 113.99760437011719
+    },
+    {
+      "id": "22365851",
+      "tileScore": 2,
+      "name": "Rutty Return",
+      "distanceM": 1553.5,
+      "avgGrade": -14.180882453918457,
+      "startLat": 22.396745681762695,
+      "startLng": 114.00727844238281
+    },
+    {
+      "id": "14995489",
+      "tileScore": 34,
+      "name": "Po Leung Camp to Car Park Climb ",
+      "distanceM": 807.9000244140625,
+      "avgGrade": 7.327639102935791,
+      "startLat": 22.411237716674805,
+      "startLng": 114.0307846069336
+    },
+    {
+      "id": "27607586",
+      "tileScore": 3,
+      "name": "Ready for adventure?",
+      "distanceM": 1463.5999755859375,
+      "avgGrade": 5.17901086807251,
+      "startLat": 22.416183471679688,
+      "startLng": 113.9905776977539
+    },
+    {
+      "id": "1443227",
+      "tileScore": 1,
+      "name": "大道村路 Climb",
+      "distanceM": 1328.1199951171875,
+      "avgGrade": 9.321587562561035,
+      "startLat": 22.42959976196289,
+      "startLng": 114.0110855102539
+    },
+    {
+      "id": "38658135",
+      "tileScore": 33,
+      "name": "Short interval",
+      "distanceM": 502.8999938964844,
+      "avgGrade": 4.295088291168213,
+      "startLat": 22.416099548339844,
+      "startLng": 114.02440643310547
+    }
+  ]
+}

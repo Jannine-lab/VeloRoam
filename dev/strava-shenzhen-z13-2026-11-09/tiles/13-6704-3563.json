@@ -1,0 +1,47 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-08T22:49:29.339Z",
+  "tile": {
+    "z": 13,
+    "x": 6704,
+    "y": 3563
+  },
+  "segments": [
+    {
+      "id": "18337152",
+      "tileScore": 72,
+      "name": "大亚湾-霞涌ITT",
+      "distanceM": 8638.2998046875,
+      "avgGrade": 0.06714283674955368,
+      "startLat": 22.750207901000977,
+      "startLng": 114.55348205566406
+    },
+    {
+      "id": "35935270",
+      "tileScore": 11,
+      "name": "石化大道东转盘 → 十里银滩",
+      "distanceM": 8464.099609375,
+      "avgGrade": -0.047258421778678894,
+      "startLat": 22.771326065063477,
+      "startLng": 114.63906860351562
+    },
+    {
+      "id": "32280219",
+      "tileScore": 5,
+      "name": "SZC Summer Challenge 125km",
+      "distanceM": 122493.796875,
+      "avgGrade": -0.015184441581368446,
+      "startLat": 22.55707550048828,
+      "startLng": 114.21763610839844
+    },
+    {
+      "id": "35528174",
+      "tileScore": 1,
+      "name": "China 2",
+      "distanceM": 6356.7001953125,
+      "avgGrade": -0.009438859298825264,
+      "startLat": 22.743867874145508,
+      "startLng": 114.57455444335938
+    }
+  ]
+}

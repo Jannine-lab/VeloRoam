@@ -1,0 +1,20 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-08T22:48:35.177Z",
+  "tile": {
+    "z": 13,
+    "x": 6695,
+    "y": 3562
+  },
+  "segments": [
+    {
+      "id": "1110694",
+      "tileScore": 3,
+      "name": "县道 Climb",
+      "distanceM": 1295.5899658203125,
+      "avgGrade": 6.5143561363220215,
+      "startLat": 22.822656631469727,
+      "startLng": 114.21654510498047
+    }
+  ]
+}

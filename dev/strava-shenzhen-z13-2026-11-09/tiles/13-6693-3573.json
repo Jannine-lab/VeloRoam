@@ -1,0 +1,200 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-08T22:52:32.644Z",
+  "tile": {
+    "z": 13,
+    "x": 6693,
+    "y": 3573
+  },
+  "segments": [
+    {
+      "id": "3436202",
+      "tileScore": 1,
+      "name": "Shing Mun Reservoir Jogging Trail Climb",
+      "distanceM": 832.5296020507812,
+      "avgGrade": 9.93393325805664,
+      "startLat": 22.384925842285156,
+      "startLng": 114.14097595214844
+    },
+    {
+      "id": "4836778",
+      "tileScore": 18,
+      "name": "Lower Shing Mun Road Climb",
+      "distanceM": 1179.300048828125,
+      "avgGrade": 10.769100189208984,
+      "startLat": 22.369009017944336,
+      "startLng": 114.16532135009766
+    },
+    {
+      "id": "15580329",
+      "tileScore": 69,
+      "name": "Tai Po Road Climb",
+      "distanceM": 1767.199951171875,
+      "avgGrade": 3.6102309226989746,
+      "startLat": 22.34322166442871,
+      "startLng": 114.1567153930664
+    },
+    {
+      "id": "11365344",
+      "tileScore": 19,
+      "name": "Full Sha Tin Heights climb. Flyover to gate.",
+      "distanceM": 1051.800048828125,
+      "avgGrade": 11.0857572555542,
+      "startLat": 22.370824813842773,
+      "startLng": 114.17367553710938
+    },
+    {
+      "id": "36106399",
+      "tileScore": 9,
+      "name": "NSW - SHAN SHING",
+      "distanceM": 90205.8984375,
+      "avgGrade": -0.013968043960630894,
+      "startLat": 22.44609260559082,
+      "startLng": 114.04883575439453
+    },
+    {
+      "id": "2564298",
+      "tileScore": 6,
+      "name": "Wilson Trail Sec. 6 Climb",
+      "distanceM": 773.765625,
+      "avgGrade": 14.099250793457031,
+      "startLat": 22.36920166015625,
+      "startLng": 114.14592742919922
+    },
+    {
+      "id": "19218146",
+      "tileScore": 4,
+      "name": " 橋底到石圍角新村",
+      "distanceM": 434.79998779296875,
+      "avgGrade": 6.991720199584961,
+      "startLat": 22.37225914001465,
+      "startLng": 114.13615417480469
+    },
+    {
+      "id": "10372340",
+      "tileScore": 42,
+      "name": "大埔道 (大圍積運街斜 - 深水埗嘉頓)",
+      "distanceM": 6815.89990234375,
+      "avgGrade": -0.02200736477971077,
+      "startLat": 22.37148666381836,
+      "startLng": 114.17528533935547
+    },
+    {
+      "id": "4824942",
+      "tileScore": 8,
+      "name": "Shing Mun Reservoir Uphill",
+      "distanceM": 2452.5,
+      "avgGrade": 3.4536187648773193,
+      "startLat": 22.381986618041992,
+      "startLng": 114.13733673095703
+    },
+    {
+      "id": "27492621",
+      "tileScore": 3,
+      "name": "針山礦場",
+      "distanceM": 383.20001220703125,
+      "avgGrade": 11.586638450622559,
+      "startLat": 22.376192092895508,
+      "startLng": 114.15873718261719
+    },
+    {
+      "id": "27683549",
+      "tileScore": 1,
+      "name": "Shing Mum Climb To The Top CCW",
+      "distanceM": 405.5,
+      "avgGrade": 14.944513320922852,
+      "startLat": 22.389612197875977,
+      "startLng": 114.15325164794922
+    },
+    {
+      "id": "42358983",
+      "tileScore": 73,
+      "name": "香港單車節2026(56公里組)",
+      "distanceM": 54847.3984375,
+      "avgGrade": -0.016773812472820282,
+      "startLat": 22.301021575927734,
+      "startLng": 114.15717315673828
+    },
+    {
+      "id": "667287",
+      "tileScore": 15,
+      "name": "Kam Shan (Golden Hill Rd)",
+      "distanceM": 1613.97998046875,
+      "avgGrade": 7.558859825134277,
+      "startLat": 22.353654861450195,
+      "startLng": 114.15229034423828
+    },
+    {
+      "id": "33877200",
+      "tileScore": 27,
+      "name": "康城大冷",
+      "distanceM": 130482.203125,
+      "avgGrade": 0,
+      "startLat": 22.29688835144043,
+      "startLng": 114.26518249511719
+    },
+    {
+      "id": "38840312",
+      "tileScore": 22,
+      "name": "The GT ",
+      "distanceM": 95767,
+      "avgGrade": 0.04740672558546066,
+      "startLat": 22.326505661010742,
+      "startLng": 114.15650939941406
+    },
+    {
+      "id": "33684762",
+      "tileScore": 17,
+      "name": "Sprint before decent",
+      "distanceM": 507.29998779296875,
+      "avgGrade": -1.0250344276428223,
+      "startLat": 22.355073928833008,
+      "startLng": 114.15818786621094
+    },
+    {
+      "id": "6434264",
+      "tileScore": 6,
+      "name": "Maclehose Trail Sec. 7 Climb",
+      "distanceM": 553.2999877929688,
+      "avgGrade": 15.579252243041992,
+      "startLat": 22.38128089904785,
+      "startLng": 114.14861297607422
+    },
+    {
+      "id": "4104364",
+      "tileScore": 100,
+      "name": "MFB 華景山路 Wah King Hill Rd. (Climb)",
+      "distanceM": 1599.0999755859375,
+      "avgGrade": 6.065912246704102,
+      "startLat": 22.35112762451172,
+      "startLng": 114.13410949707031
+    },
+    {
+      "id": "17084964",
+      "tileScore": 3,
+      "name": "Escape from Shing Mun Reservoir",
+      "distanceM": 2236.800048828125,
+      "avgGrade": -0.05364806950092316,
+      "startLat": 22.39683723449707,
+      "startLng": 114.15131378173828
+    },
+    {
+      "id": "5734629",
+      "tileScore": 177,
+      "name": "Tai Po RD Climb ,Zero CP",
+      "distanceM": 3325.89990234375,
+      "avgGrade": 3.1389999389648438,
+      "startLat": 22.371625900268555,
+      "startLng": 114.17455291748047
+    },
+    {
+      "id": "6894243",
+      "tileScore": 8,
+      "name": "crazy steep",
+      "distanceM": 315.20001220703125,
+      "avgGrade": 16.497461318969727,
+      "startLat": 22.376510620117188,
+      "startLng": 114.15055847167969
+    }
+  ]
+}

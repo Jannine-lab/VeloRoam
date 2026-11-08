@@ -1,0 +1,29 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-03T06:11:07.447Z",
+  "tile": {
+    "z": 13,
+    "x": 6859,
+    "y": 3355
+  },
+  "segments": [
+    {
+      "id": "40236759",
+      "tileScore": 5,
+      "name": "吴泾奉贤",
+      "distanceM": 47205,
+      "avgGrade": -0.04702891781926155,
+      "startLat": 31.037860870361328,
+      "startLng": 121.44114685058594
+    },
+    {
+      "id": "20183938",
+      "tileScore": 3,
+      "name": "The gym sprint",
+      "distanceM": 986,
+      "avgGrade": -0.1115618646144867,
+      "startLat": 30.93053436279297,
+      "startLng": 121.44881439208984
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-08T22:48:21.553Z",
+  "tile": {
+    "z": 13,
+    "x": 6705,
+    "y": 3560
+  },
+  "segments": [
+    {
+      "id": "39246436",
+      "tileScore": 2,
+      "name": "新村-西山村10km起伏（by lql）",
+      "distanceM": 10194.2001953125,
+      "avgGrade": 0.9515214562416077,
+      "startLat": 22.834049224853516,
+      "startLng": 114.72612762451172
+    },
+    {
+      "id": "39541536",
+      "tileScore": 12,
+      "name": "白花-惠东站起伏（by lql）",
+      "distanceM": 11511,
+      "avgGrade": 0.019112152978777885,
+      "startLat": 22.946529388427734,
+      "startLng": 114.65972137451172
+    },
+    {
+      "id": "31038236",
+      "tileScore": 1,
+      "name": "Qingshan’ao Ascent South",
+      "distanceM": 852.4000244140625,
+      "avgGrade": 6.123885631561279,
+      "startLat": 22.892568588256836,
+      "startLng": 114.66654968261719
+    }
+  ]
+}

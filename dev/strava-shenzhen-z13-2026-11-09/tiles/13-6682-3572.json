@@ -1,0 +1,38 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-08T22:51:34.528Z",
+  "tile": {
+    "z": 13,
+    "x": 6682,
+    "y": 3572
+  },
+  "segments": [
+    {
+      "id": "26012875",
+      "tileScore": 71,
+      "name": "淇澳岛绕圈",
+      "distanceM": 5270,
+      "avgGrade": 0.0037950663827359676,
+      "startLat": 22.40467071533203,
+      "startLng": 113.64127349853516
+    },
+    {
+      "id": "38534015",
+      "tileScore": 8,
+      "name": "Qi'Ao \"The Hill\"",
+      "distanceM": 590.0999755859375,
+      "avgGrade": 4.10099983215332,
+      "startLat": 22.42856788635254,
+      "startLng": 113.64138793945312
+    },
+    {
+      "id": "19979337",
+      "tileScore": 15,
+      "name": "溏淇路",
+      "distanceM": 8996.599609375,
+      "avgGrade": -0.0022230620961636305,
+      "startLat": 22.37018585205078,
+      "startLng": 113.59868621826172
+    }
+  ]
+}

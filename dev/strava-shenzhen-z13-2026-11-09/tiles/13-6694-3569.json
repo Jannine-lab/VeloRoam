@@ -1,0 +1,155 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-08T22:51:15.610Z",
+  "tile": {
+    "z": 13,
+    "x": 6694,
+    "y": 3569
+  },
+  "segments": [
+    {
+      "id": "36169154",
+      "tileScore": 7,
+      "name": "STK U-turn",
+      "distanceM": 3332.10009765625,
+      "avgGrade": 0.03001110441982746,
+      "startLat": 22.53505516052246,
+      "startLng": 114.20879364013672
+    },
+    {
+      "id": "13907651",
+      "tileScore": 1,
+      "name": "三鄉亭> 禾徑山路",
+      "distanceM": 886.9000244140625,
+      "avgGrade": 0.16912841796875,
+      "startLat": 22.535486221313477,
+      "startLng": 114.16509246826172
+    },
+    {
+      "id": "10847545",
+      "tileScore": 42,
+      "name": "PSF Sprint",
+      "distanceM": 1047.4000244140625,
+      "avgGrade": 2.7114760875701904,
+      "startLat": 22.530418395996094,
+      "startLng": 114.1996841430664
+    },
+    {
+      "id": "3030461",
+      "tileScore": 16,
+      "name": "Robin's Nest Climb",
+      "distanceM": 2889.81005859375,
+      "avgGrade": 12.429925918579102,
+      "startLat": 22.528827667236328,
+      "startLng": 114.17830657958984
+    },
+    {
+      "id": "5636158",
+      "tileScore": 44,
+      "name": "400M to Ping Che",
+      "distanceM": 14825.7001953125,
+      "avgGrade": -0.1578340232372284,
+      "startLat": 22.476943969726562,
+      "startLng": 114.23654174804688
+    },
+    {
+      "id": "36106399",
+      "tileScore": 9,
+      "name": "NSW - SHAN SHING",
+      "distanceM": 90205.8984375,
+      "avgGrade": -0.013968043960630894,
+      "startLat": 22.44609260559082,
+      "startLng": 114.04883575439453
+    },
+    {
+      "id": "18242102",
+      "tileScore": 31,
+      "name": "Wo Hang before descent",
+      "distanceM": 1250.9000244140625,
+      "avgGrade": 1.1351826190948486,
+      "startLat": 22.521541595458984,
+      "startLng": 114.18121337890625
+    },
+    {
+      "id": "31023178",
+      "tileScore": 11,
+      "name": "Nam Chung Rd",
+      "distanceM": 1164.0999755859375,
+      "avgGrade": 1.8555107116699219,
+      "startLat": 22.524372100830078,
+      "startLng": 114.20832824707031
+    },
+    {
+      "id": "10371810",
+      "tileScore": 36,
+      "name": "鹿頸路 ( BB士多 )",
+      "distanceM": 2376,
+      "avgGrade": 1.2457913160324097,
+      "startLat": 22.534622192382812,
+      "startLng": 114.20846557617188
+    },
+    {
+      "id": "36205070",
+      "tileScore": 2,
+      "name": "Ng Chow Rd",
+      "distanceM": 1518.9000244140625,
+      "avgGrade": -0.5398643612861633,
+      "startLat": 22.531124114990234,
+      "startLng": 114.16992950439453
+    },
+    {
+      "id": "22383147",
+      "tileScore": 3,
+      "name": "Robin's Nest entrance climb ",
+      "distanceM": 319,
+      "avgGrade": 16.300941467285156,
+      "startLat": 22.52837562561035,
+      "startLng": 114.17909240722656
+    },
+    {
+      "id": "5413246",
+      "tileScore": 29,
+      "name": "Bridge to Helipad at Luk Keng",
+      "distanceM": 1080.9000244140625,
+      "avgGrade": 11.027847290039062,
+      "startLat": 22.514177322387695,
+      "startLng": 114.207275390625
+    },
+    {
+      "id": "38840312",
+      "tileScore": 22,
+      "name": "The GT ",
+      "distanceM": 95767,
+      "avgGrade": 0.04740672558546066,
+      "startLat": 22.326505661010742,
+      "startLng": 114.15650939941406
+    },
+    {
+      "id": "38560647",
+      "tileScore": 2,
+      "name": "鶴藪排小路出馬尾下",
+      "distanceM": 1288.5,
+      "avgGrade": -0.9080325961112976,
+      "startLat": 22.503337860107422,
+      "startLng": 114.17574310302734
+    },
+    {
+      "id": "9154225",
+      "tileScore": 56,
+      "name": "Sha Kung Sprint",
+      "distanceM": 4240.2998046875,
+      "avgGrade": -0.4810980558395386,
+      "startLat": 22.524953842163086,
+      "startLng": 114.1893081665039
+    },
+    {
+      "id": "36205053",
+      "tileScore": 3,
+      "name": "Robin's Nest Jeep Track",
+      "distanceM": 1120.300048828125,
+      "avgGrade": 0.5355708599090576,
+      "startLat": 22.52132797241211,
+      "startLng": 114.1748275756836
+    }
+  ]
+}

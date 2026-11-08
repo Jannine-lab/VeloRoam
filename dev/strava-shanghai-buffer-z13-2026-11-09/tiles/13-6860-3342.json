@@ -1,0 +1,65 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-03T06:04:27.860Z",
+  "tile": {
+    "z": 13,
+    "x": 6860,
+    "y": 3342
+  },
+  "segments": [
+    {
+      "id": "23669149",
+      "tileScore": 3,
+      "name": "Baoshan Coastal",
+      "distanceM": 1344.800048828125,
+      "avgGrade": -0.14872100949287415,
+      "startLat": 31.404998779296875,
+      "startLng": 121.49886322021484
+    },
+    {
+      "id": "38513163",
+      "tileScore": 6,
+      "name": "Tongji 路 高架下",
+      "distanceM": 2609.5,
+      "avgGrade": 0.007664303760975599,
+      "startLat": 31.39708137512207,
+      "startLng": 121.47528839111328
+    },
+    {
+      "id": "36318095",
+      "tileScore": 6,
+      "name": "宝南线高速轮渡 Baonan Highspeed Ferry",
+      "distanceM": 26661.30078125,
+      "avgGrade": 0.010502113960683346,
+      "startLat": 31.418088912963867,
+      "startLng": 121.49427795410156
+    },
+    {
+      "id": "32724531",
+      "tileScore": 2,
+      "name": "乌漆嘛黑",
+      "distanceM": 24503.5,
+      "avgGrade": 0.026118718087673187,
+      "startLat": 31.306806564331055,
+      "startLng": 121.4298324584961
+    },
+    {
+      "id": "39010612",
+      "tileScore": 4,
+      "name": "Pangu Rd",
+      "distanceM": 5183.89990234375,
+      "avgGrade": -0.038580991327762604,
+      "startLat": 31.41421127319336,
+      "startLng": 121.4900131225586
+    },
+    {
+      "id": "34989107",
+      "tileScore": 3,
+      "name": "塘后路is the BEST！",
+      "distanceM": 1298.0999755859375,
+      "avgGrade": -0.030814267694950104,
+      "startLat": 31.393400192260742,
+      "startLng": 121.50228881835938
+    }
+  ]
+}

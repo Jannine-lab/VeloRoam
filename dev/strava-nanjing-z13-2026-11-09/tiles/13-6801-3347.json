@@ -1,0 +1,20 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-08T22:41:03.348Z",
+  "tile": {
+    "z": 13,
+    "x": 6801,
+    "y": 3347
+  },
+  "segments": [
+    {
+      "id": "42434700",
+      "tileScore": 5,
+      "name": "狸桥-水阳小山头起伏路-GICC",
+      "distanceM": 13373.099609375,
+      "avgGrade": 0.1929246038198471,
+      "startLat": 31.2109432220459,
+      "startLng": 118.91954803466797
+    }
+  ]
+}

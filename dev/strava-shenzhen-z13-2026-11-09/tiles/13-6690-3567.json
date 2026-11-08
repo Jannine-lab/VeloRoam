@@ -1,0 +1,173 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-08T22:50:26.728Z",
+  "tile": {
+    "z": 13,
+    "x": 6690,
+    "y": 3567
+  },
+  "segments": [
+    {
+      "id": "38550814",
+      "tileScore": 2,
+      "name": "Longhua Blivd Part1",
+      "distanceM": 2026.199951171875,
+      "avgGrade": -0.18260784447193146,
+      "startLat": 22.603239059448242,
+      "startLng": 114.0422134399414
+    },
+    {
+      "id": "39294205",
+      "tileScore": 14,
+      "name": "周六早起去福田",
+      "distanceM": 23830.5,
+      "avgGrade": -0.14351356029510498,
+      "startLat": 22.70380973815918,
+      "startLng": 114.04383087158203
+    },
+    {
+      "id": "38872961",
+      "tileScore": 7,
+      "name": "音乐公园半圈",
+      "distanceM": 1468.699951171875,
+      "avgGrade": -0.8170490860939026,
+      "startLat": 22.598873138427734,
+      "startLng": 114.03713989257812
+    },
+    {
+      "id": "39466338",
+      "tileScore": 17,
+      "name": "国际科教城绿道登顶",
+      "distanceM": 1608.699951171875,
+      "avgGrade": 2.9340460300445557,
+      "startLat": 22.60530662536621,
+      "startLng": 114.00177001953125
+    },
+    {
+      "id": "36688308",
+      "tileScore": 2,
+      "name": "开市客绕圈",
+      "distanceM": 1796.199951171875,
+      "avgGrade": -0.0445384718477726,
+      "startLat": 22.628456115722656,
+      "startLng": 114.01112365722656
+    },
+    {
+      "id": "17194093",
+      "tileScore": 25,
+      "name": "Little TT before the climb",
+      "distanceM": 643.7999877929688,
+      "avgGrade": -0.46598324179649353,
+      "startLat": 22.599559783935547,
+      "startLng": 114.00277709960938
+    },
+    {
+      "id": "38550822",
+      "tileScore": 3,
+      "name": "Minzhi Blvd Part1",
+      "distanceM": 1837.300048828125,
+      "avgGrade": -0.4190932512283325,
+      "startLat": 22.617589950561523,
+      "startLng": 114.03706359863281
+    },
+    {
+      "id": "36085913",
+      "tileScore": 67,
+      "name": "北站爬到顶",
+      "distanceM": 1523.800048828125,
+      "avgGrade": 5.355033874511719,
+      "startLat": 22.609586715698242,
+      "startLng": 114.01831817626953
+    },
+    {
+      "id": "38583538",
+      "tileScore": 11,
+      "name": "Minkang Rd Climb",
+      "distanceM": 1213.300048828125,
+      "avgGrade": 1.516525149345398,
+      "startLat": 22.617589950561523,
+      "startLng": 114.03775024414062
+    },
+    {
+      "id": "36554626",
+      "tileScore": 91,
+      "name": "西丽起伏大套餐（北站南科丽康宝石）",
+      "distanceM": 24765,
+      "avgGrade": -0.031496062874794006,
+      "startLat": 22.602205276489258,
+      "startLng": 114.00679779052734
+    },
+    {
+      "id": "38583517",
+      "tileScore": 3,
+      "name": "Longhua Blvd Climb",
+      "distanceM": 2163.89990234375,
+      "avgGrade": 0.813346266746521,
+      "startLat": 22.634963989257812,
+      "startLng": 114.02456665039062
+    },
+    {
+      "id": "32371952",
+      "tileScore": 7,
+      "name": "CTL",
+      "distanceM": 46607.6015625,
+      "avgGrade": -0.11285713315010071,
+      "startLat": 22.54962730407715,
+      "startLng": 114.05906677246094
+    },
+    {
+      "id": "42174771",
+      "tileScore": 7,
+      "name": "民治北到五和",
+      "distanceM": 1648.300048828125,
+      "avgGrade": 0.10920341312885284,
+      "startLat": 22.633256912231445,
+      "startLng": 114.03533935546875
+    },
+    {
+      "id": "36085909",
+      "tileScore": 48,
+      "name": "玉龙路爬到顶",
+      "distanceM": 1421.800048828125,
+      "avgGrade": 5.260936737060547,
+      "startLat": 22.59496307373047,
+      "startLng": 114.02236938476562
+    },
+    {
+      "id": "29071013",
+      "tileScore": 82,
+      "name": "短坡上留仙大道桥",
+      "distanceM": 367.70001220703125,
+      "avgGrade": 0.7070981860160828,
+      "startLat": 22.616113662719727,
+      "startLng": 114.0248794555664
+    },
+    {
+      "id": "11679457",
+      "tileScore": 116,
+      "name": "Liuxian Climb",
+      "distanceM": 1514.4000244140625,
+      "avgGrade": 3.0243000984191895,
+      "startLat": 22.603010177612305,
+      "startLng": 114.0079574584961
+    },
+    {
+      "id": "33264106",
+      "tileScore": 2,
+      "name": "民治中学绕圈",
+      "distanceM": 1254.5999755859375,
+      "avgGrade": -0.06376534700393677,
+      "startLat": 22.6309814453125,
+      "startLng": 114.02326202392578
+    },
+    {
+      "id": "11679434",
+      "tileScore": 38,
+      "name": "liuxian to zhiyuan middle road",
+      "distanceM": 7345.7001953125,
+      "avgGrade": 0.9202662706375122,
+      "startLat": 22.583751678466797,
+      "startLng": 113.95663452148438
+    }
+  ]
+}

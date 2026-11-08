@@ -1,0 +1,20 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-08T22:39:23.370Z",
+  "tile": {
+    "z": 13,
+    "x": 6805,
+    "y": 3341
+  },
+  "segments": [
+    {
+      "id": "29695829",
+      "tileScore": 5,
+      "name": "芝沙线S-E",
+      "distanceM": 8601.400390625,
+      "avgGrade": -0.19066663086414337,
+      "startLat": 31.443134307861328,
+      "startLng": 119.00859832763672
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-08T22:37:49.293Z",
+  "tile": {
+    "z": 13,
+    "x": 6792,
+    "y": 3338
+  },
+  "segments": [
+    {
+      "id": "30951004",
+      "tileScore": 1,
+      "name": "大青山绕圈",
+      "distanceM": 30740,
+      "avgGrade": 0.007807416841387749,
+      "startLat": 31.4949893951416,
+      "startLng": 118.49745178222656
+    }
+  ]
+}

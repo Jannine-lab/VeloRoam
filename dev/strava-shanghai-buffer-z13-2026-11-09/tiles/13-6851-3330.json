@@ -1,0 +1,20 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-03T05:57:47.690Z",
+  "tile": {
+    "z": 13,
+    "x": 6851,
+    "y": 3330
+  },
+  "segments": [
+    {
+      "id": "39774409",
+      "tileScore": 4,
+      "name": "叠港路冲向广州路",
+      "distanceM": 13892.400390625,
+      "avgGrade": -0.03167199343442917,
+      "startLat": 31.91737174987793,
+      "startLng": 121.08952331542969
+    }
+  ]
+}

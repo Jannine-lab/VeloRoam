@@ -1,0 +1,92 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-08T22:51:51.660Z",
+  "tile": {
+    "z": 13,
+    "x": 6693,
+    "y": 3572
+  },
+  "segments": [
+    {
+      "id": "17762684",
+      "tileScore": 5,
+      "name": "Pun Shan Chau Climb",
+      "distanceM": 1000.5999755859375,
+      "avgGrade": 6.196281909942627,
+      "startLat": 22.4371337890625,
+      "startLng": 114.16434478759766
+    },
+    {
+      "id": "27831377",
+      "tileScore": 1,
+      "name": "Boulder Ridge",
+      "distanceM": 1523.5,
+      "avgGrade": -7.515589237213135,
+      "startLat": 22.417236328125,
+      "startLng": 114.138916015625
+    },
+    {
+      "id": "14549203",
+      "tileScore": 16,
+      "name": "It's okay to swear here",
+      "distanceM": 597.7999877929688,
+      "avgGrade": 15.055201530456543,
+      "startLat": 22.39375877380371,
+      "startLng": 114.15870666503906
+    },
+    {
+      "id": "27220849",
+      "tileScore": 2,
+      "name": "Lead Mine Woods",
+      "distanceM": 467.5,
+      "avgGrade": -23.165775299072266,
+      "startLat": 22.41285514831543,
+      "startLng": 114.153564453125
+    },
+    {
+      "id": "23812154",
+      "tileScore": 16,
+      "name": "The Ball Crusher",
+      "distanceM": 1957.199951171875,
+      "avgGrade": 10.218679428100586,
+      "startLat": 22.392200469970703,
+      "startLng": 114.1551513671875
+    },
+    {
+      "id": "6210844",
+      "tileScore": 1,
+      "name": "Maclehose Trail Sec. 8 Climb",
+      "distanceM": 708.2000122070312,
+      "avgGrade": 17.184410095214844,
+      "startLat": 22.41004180908203,
+      "startLng": 114.13970184326172
+    },
+    {
+      "id": "27683549",
+      "tileScore": 1,
+      "name": "Shing Mum Climb To The Top CCW",
+      "distanceM": 405.5,
+      "avgGrade": 14.944513320922852,
+      "startLat": 22.389612197875977,
+      "startLng": 114.15325164794922
+    },
+    {
+      "id": "17084964",
+      "tileScore": 3,
+      "name": "Escape from Shing Mun Reservoir",
+      "distanceM": 2236.800048828125,
+      "avgGrade": -0.05364806950092316,
+      "startLat": 22.39683723449707,
+      "startLng": 114.15131378173828
+    },
+    {
+      "id": "6772960",
+      "tileScore": 7,
+      "name": "Tai Tat Yan",
+      "distanceM": 1636.4000244140625,
+      "avgGrade": 7.50427770614624,
+      "startLat": 22.43684959411621,
+      "startLng": 114.16455841064453
+    }
+  ]
+}

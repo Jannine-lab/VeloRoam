@@ -1,0 +1,65 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-08T23:01:03.764Z",
+  "tile": {
+    "z": 13,
+    "x": 6852,
+    "y": 3363
+  },
+  "segments": [
+    {
+      "id": "10543400",
+      "tileScore": 22,
+      "name": "jiulong climbing",
+      "distanceM": 1314.9000244140625,
+      "avgGrade": 4.776028633117676,
+      "startLat": 30.610363006591797,
+      "startLng": 121.1290283203125
+    },
+    {
+      "id": "14862471",
+      "tileScore": 23,
+      "name": "拥军坡",
+      "distanceM": 981.2000122070312,
+      "avgGrade": 6.869139671325684,
+      "startLat": 30.60182762145996,
+      "startLng": 121.1175765991211
+    },
+    {
+      "id": "40548938",
+      "tileScore": 26,
+      "name": "九龙山 002",
+      "distanceM": 3188,
+      "avgGrade": 0.24466750025749207,
+      "startLat": 30.604764938354492,
+      "startLng": 121.13343811035156
+    },
+    {
+      "id": "9062644",
+      "tileScore": 59,
+      "name": "jiulongshan \"cauberg\"",
+      "distanceM": 770,
+      "avgGrade": 9.48051929473877,
+      "startLat": 30.62279510498047,
+      "startLng": 121.13668060302734
+    },
+    {
+      "id": "40595138",
+      "tileScore": 26,
+      "name": "jiulongshan \"Domancy\"",
+      "distanceM": 885.0999755859375,
+      "avgGrade": 4.564455986022949,
+      "startLat": 30.602956771850586,
+      "startLng": 121.1181869506836
+    },
+    {
+      "id": "40594544",
+      "tileScore": 38,
+      "name": "九龙山水上乐园爬坡",
+      "distanceM": 585.2999877929688,
+      "avgGrade": 7.551682949066162,
+      "startLat": 30.60143280029297,
+      "startLng": 121.1280746459961
+    }
+  ]
+}

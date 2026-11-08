@@ -1,0 +1,65 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-08T22:35:43.137Z",
+  "tile": {
+    "z": 13,
+    "x": 6806,
+    "y": 3328
+  },
+  "segments": [
+    {
+      "id": "29734676",
+      "tileScore": 3,
+      "name": "The way to heaven-G104",
+      "distanceM": 2042.800048828125,
+      "avgGrade": 0.05874290317296982,
+      "startLat": 31.927806854248047,
+      "startLng": 119.1485824584961
+    },
+    {
+      "id": "37340342",
+      "tileScore": 3,
+      "name": "S243 N-S",
+      "distanceM": 13770.599609375,
+      "avgGrade": -0.014523694291710854,
+      "startLat": 31.93971824645996,
+      "startLng": 119.12068176269531
+    },
+    {
+      "id": "41391448",
+      "tileScore": 26,
+      "name": "通宁路—志力超市路口",
+      "distanceM": 10014.400390625,
+      "avgGrade": 0.1837354153394699,
+      "startLat": 31.939453125,
+      "startLng": 119.1200180053711
+    },
+    {
+      "id": "6121894",
+      "tileScore": 19,
+      "name": "104 句容 To 江宁",
+      "distanceM": 22433.19921875,
+      "avgGrade": 0.05349214747548103,
+      "startLat": 31.912412643432617,
+      "startLng": 119.13887786865234
+    },
+    {
+      "id": "33175112",
+      "tileScore": 1,
+      "name": "Jurong W road to S",
+      "distanceM": 6097.5,
+      "avgGrade": -0.3903239071369171,
+      "startLat": 31.983238220214844,
+      "startLng": 119.12000274658203
+    },
+    {
+      "id": "42164673",
+      "tileScore": 17,
+      "name": "狂飙句容河岸（S-N）",
+      "distanceM": 9376.599609375,
+      "avgGrade": 0.014930784702301025,
+      "startLat": 31.863876342773438,
+      "startLng": 119.0906753540039
+    }
+  ]
+}

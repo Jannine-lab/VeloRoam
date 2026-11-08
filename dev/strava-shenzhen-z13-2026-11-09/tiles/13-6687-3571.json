@@ -1,0 +1,38 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-08T22:51:39.760Z",
+  "tile": {
+    "z": 13,
+    "x": 6687,
+    "y": 3571
+  },
+  "segments": [
+    {
+      "id": "28435235",
+      "tileScore": 11,
+      "name": "Road to sky 左炮台20趟",
+      "distanceM": 25927.599609375,
+      "avgGrade": 0.15736126899719238,
+      "startLat": 22.472381591796875,
+      "startLng": 113.88749694824219
+    },
+    {
+      "id": "26912492",
+      "tileScore": 2,
+      "name": "Hospital Loop + ChiWan",
+      "distanceM": 57742.3984375,
+      "avgGrade": -0.016971930861473083,
+      "startLat": 22.484697341918945,
+      "startLng": 113.93070220947266
+    },
+    {
+      "id": "11679423",
+      "tileScore": 6,
+      "name": "S3 to Mawan Port",
+      "distanceM": 7622.10009765625,
+      "avgGrade": -0.057726871222257614,
+      "startLat": 22.522674560546875,
+      "startLng": 113.8834457397461
+    }
+  ]
+}

@@ -1,0 +1,65 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-03T06:06:43.547Z",
+  "tile": {
+    "z": 13,
+    "x": 6846,
+    "y": 3345
+  },
+  "segments": [
+    {
+      "id": "40911380",
+      "tileScore": 3,
+      "name": "GuCheng Rd",
+      "distanceM": 12157.7998046875,
+      "avgGrade": 0.026320552453398705,
+      "startLat": 31.28523826599121,
+      "startLng": 120.89583587646484
+    },
+    {
+      "id": "40329073",
+      "tileScore": 7,
+      "name": "Z型穿越",
+      "distanceM": 564.4000244140625,
+      "avgGrade": -0.5669737458229065,
+      "startLat": 31.277572631835938,
+      "startLng": 120.84683990478516
+    },
+    {
+      "id": "41474724",
+      "tileScore": 3,
+      "name": "沪光路",
+      "distanceM": 1241,
+      "avgGrade": 0.08058017492294312,
+      "startLat": 31.28508949279785,
+      "startLng": 120.8950424194336
+    },
+    {
+      "id": "7414101",
+      "tileScore": 1,
+      "name": "Wusong River Bridge heading south",
+      "distanceM": 429.3999938964844,
+      "avgGrade": -0.18630647659301758,
+      "startLat": 31.318374633789062,
+      "startLng": 120.88754272460938
+    },
+    {
+      "id": "8936618",
+      "tileScore": 5,
+      "name": "S343 Yangguang West Rd (Eastbound)",
+      "distanceM": 3861.10009765625,
+      "avgGrade": -0.09841755032539368,
+      "startLat": 31.28226089477539,
+      "startLng": 120.87537384033203
+    },
+    {
+      "id": "38927756",
+      "tileScore": 4,
+      "name": "非机动车安全通道",
+      "distanceM": 630.5999755859375,
+      "avgGrade": -0.1268633008003235,
+      "startLat": 31.27962875366211,
+      "startLng": 120.85591125488281
+    }
+  ]
+}

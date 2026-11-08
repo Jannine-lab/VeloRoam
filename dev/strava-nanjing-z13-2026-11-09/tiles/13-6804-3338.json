@@ -1,0 +1,83 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-08T22:38:27.370Z",
+  "tile": {
+    "z": 13,
+    "x": 6804,
+    "y": 3338
+  },
+  "segments": [
+    {
+      "id": "30233469",
+      "tileScore": 6,
+      "name": "cd-X305傅家边",
+      "distanceM": 4296.2001953125,
+      "avgGrade": 0.22345326840877533,
+      "startLat": 31.543254852294922,
+      "startLng": 119.0359115600586
+    },
+    {
+      "id": "37480695",
+      "tileScore": 11,
+      "name": "wenjun-无想禅寺→竹海爬坡起点起伏路",
+      "distanceM": 4378.7998046875,
+      "avgGrade": 0.4932858645915985,
+      "startLat": 31.596961975097656,
+      "startLng": 119.02447509765625
+    },
+    {
+      "id": "20979509",
+      "tileScore": 4,
+      "name": "20181111环溧水自行车赛 Lishui Criterium",
+      "distanceM": 139486.90625,
+      "avgGrade": 0.00444486178457737,
+      "startLat": 31.613245010375977,
+      "startLng": 119.02008056640625
+    },
+    {
+      "id": "39988087",
+      "tileScore": 4,
+      "name": "郭兴庄园骑游环线",
+      "distanceM": 13761.2001953125,
+      "avgGrade": 0.016713658347725868,
+      "startLat": 31.590219497680664,
+      "startLng": 118.99111938476562
+    },
+    {
+      "id": "21210659",
+      "tileScore": 28,
+      "name": "无想山E-W",
+      "distanceM": 13808.900390625,
+      "avgGrade": -0.12455735355615616,
+      "startLat": 31.583858489990234,
+      "startLng": 119.07856750488281
+    },
+    {
+      "id": "39051044",
+      "tileScore": 21,
+      "name": "环无想山赛段",
+      "distanceM": 24712.400390625,
+      "avgGrade": 0.017400171607732773,
+      "startLat": 31.60159683227539,
+      "startLng": 119.06743621826172
+    },
+    {
+      "id": "19305235",
+      "tileScore": 1,
+      "name": "18K in between the hills (ToL-2018)",
+      "distanceM": 18212.5,
+      "avgGrade": 0.010432395152747631,
+      "startLat": 31.59682273864746,
+      "startLng": 119.02420043945312
+    },
+    {
+      "id": "33348570",
+      "tileScore": 16,
+      "name": "Lishui S middle short to E",
+      "distanceM": 4066.39990234375,
+      "avgGrade": 1.1263033151626587,
+      "startLat": 31.5779972076416,
+      "startLng": 119.03023529052734
+    }
+  ]
+}

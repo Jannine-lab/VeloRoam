@@ -1,0 +1,110 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-08T22:34:29.921Z",
+  "tile": {
+    "z": 13,
+    "x": 6805,
+    "y": 3325
+  },
+  "segments": [
+    {
+      "id": "40872698",
+      "tileScore": 10,
+      "name": "TY_买完烤鸭必须加脚回家",
+      "distanceM": 5761.39990234375,
+      "avgGrade": 0.17009754478931427,
+      "startLat": 32.009765625,
+      "startLng": 119.11238098144531
+    },
+    {
+      "id": "40290025",
+      "tileScore": 30,
+      "name": "奥莱到龙尚_TY逃课去骑车",
+      "distanceM": 6153.7001953125,
+      "avgGrade": 0.04550107941031456,
+      "startLat": 32.02328109741211,
+      "startLng": 119.05860137939453
+    },
+    {
+      "id": "25786420",
+      "tileScore": 3,
+      "name": "20200920环南京汤山站全程组 Tour de Nanjing Tangshan Stage Full Length",
+      "distanceM": 79233.296875,
+      "avgGrade": 0.00025241912226192653,
+      "startLat": 32.04627990722656,
+      "startLng": 119.05066680908203
+    },
+    {
+      "id": "35100065",
+      "tileScore": 3,
+      "name": "拆迁后从奥特莱斯回家的新路",
+      "distanceM": 2670.300048828125,
+      "avgGrade": -0.13481631875038147,
+      "startLat": 32.030792236328125,
+      "startLng": 119.0458984375
+    },
+    {
+      "id": "36755845",
+      "tileScore": 61,
+      "name": "西部干线+S122宁张线 间歇专线",
+      "distanceM": 33812.30078125,
+      "avgGrade": -0.031053787097334862,
+      "startLat": 32.109764099121094,
+      "startLng": 119.05423736572266
+    },
+    {
+      "id": "37058661",
+      "tileScore": 41,
+      "name": "金乌温泉 风景真美",
+      "distanceM": 4765.39990234375,
+      "avgGrade": 0.4385780990123749,
+      "startLat": 32.05934143066406,
+      "startLng": 119.04877471923828
+    },
+    {
+      "id": "40290100",
+      "tileScore": 13,
+      "name": "TY-汤山蒙马特_爬团子尖前的热身",
+      "distanceM": 1302.800048828125,
+      "avgGrade": 0.4144918620586395,
+      "startLat": 32.04975509643555,
+      "startLng": 119.06263732910156
+    },
+    {
+      "id": "42127630",
+      "tileScore": 118,
+      "name": "园博园团练路线itt",
+      "distanceM": 62612,
+      "avgGrade": 0,
+      "startLat": 31.94707489013672,
+      "startLng": 118.91030883789062
+    },
+    {
+      "id": "34017185",
+      "tileScore": 12,
+      "name": "S112 - Tangshan - Garden Expo W",
+      "distanceM": 15587,
+      "avgGrade": -0.29511773586273193,
+      "startLat": 32.037925720214844,
+      "startLng": 119.01712036132812
+    },
+    {
+      "id": "31876866",
+      "tileScore": 3,
+      "name": "spin around the block",
+      "distanceM": 1543,
+      "avgGrade": 0.03888528794050217,
+      "startLat": 32.03462600708008,
+      "startLng": 119.05976867675781
+    },
+    {
+      "id": "31649724",
+      "tileScore": 68,
+      "name": "汤山环镇西路 北向南爬坡",
+      "distanceM": 550.4000244140625,
+      "avgGrade": 5.087209224700928,
+      "startLat": 32.059104919433594,
+      "startLng": 119.04881286621094
+    }
+  ]
+}

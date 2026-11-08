@@ -1,0 +1,47 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-03T06:12:45.976Z",
+  "tile": {
+    "z": 13,
+    "x": 6861,
+    "y": 3358
+  },
+  "segments": [
+    {
+      "id": "29178514",
+      "tileScore": 4,
+      "name": "beach street",
+      "distanceM": 4225.7998046875,
+      "avgGrade": 0.04259548336267471,
+      "startLat": 30.823251724243164,
+      "startLng": 121.52932739257812
+    },
+    {
+      "id": "32896150",
+      "tileScore": 27,
+      "name": "海湾 gogogo",
+      "distanceM": 770.5,
+      "avgGrade": 0.2076573669910431,
+      "startLat": 30.826234817504883,
+      "startLng": 121.51199340820312
+    },
+    {
+      "id": "41265790",
+      "tileScore": 22,
+      "name": "上海大学生公路车公开赛终点冲刺",
+      "distanceM": 508.1000061035156,
+      "avgGrade": 0.3936232924461365,
+      "startLat": 30.818191528320312,
+      "startLng": 121.52195739746094
+    },
+    {
+      "id": "27606406",
+      "tileScore": 10,
+      "name": "push push push",
+      "distanceM": 949.2999877929688,
+      "avgGrade": 0.16854524612426758,
+      "startLat": 30.83327865600586,
+      "startLng": 121.53263854980469
+    }
+  ]
+}

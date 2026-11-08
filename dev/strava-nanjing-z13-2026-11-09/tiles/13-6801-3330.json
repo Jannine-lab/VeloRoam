@@ -1,0 +1,38 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-08T22:35:31.013Z",
+  "tile": {
+    "z": 13,
+    "x": 6801,
+    "y": 3330
+  },
+  "segments": [
+    {
+      "id": "25786420",
+      "tileScore": 3,
+      "name": "20200920环南京汤山站全程组 Tour de Nanjing Tangshan Stage Full Length",
+      "distanceM": 79233.296875,
+      "avgGrade": 0.00025241912226192653,
+      "startLat": 32.04627990722656,
+      "startLng": 119.05066680908203
+    },
+    {
+      "id": "36722777",
+      "tileScore": 7,
+      "name": "福英路itt（龙眠大道路口到吉印大道路口）",
+      "distanceM": 2870,
+      "avgGrade": -0.12543554604053497,
+      "startLat": 31.896377563476562,
+      "startLng": 118.91455841064453
+    },
+    {
+      "id": "36024337",
+      "tileScore": 13,
+      "name": "溧水河牛牛段",
+      "distanceM": 3345.800048828125,
+      "avgGrade": -0.01793293096125126,
+      "startLat": 31.865135192871094,
+      "startLng": 118.8617172241211
+    }
+  ]
+}

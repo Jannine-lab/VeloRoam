@@ -1,0 +1,47 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-08T22:36:23.062Z",
+  "tile": {
+    "z": 13,
+    "x": 6791,
+    "y": 3330
+  },
+  "segments": [
+    {
+      "id": "24020431",
+      "tileScore": 1,
+      "name": "WuJiang-XiangQuan",
+      "distanceM": 10530,
+      "avgGrade": 0.034188032150268555,
+      "startLat": 31.861270904541016,
+      "startLng": 118.44914245605469
+    },
+    {
+      "id": "38604179",
+      "tileScore": 24,
+      "name": "Z娃娃直达乌江",
+      "distanceM": 46539.5,
+      "avgGrade": 0.01246253214776516,
+      "startLat": 32.0407600402832,
+      "startLng": 118.65608978271484
+    },
+    {
+      "id": "38406871",
+      "tileScore": 21,
+      "name": "微风：快到乌江桥",
+      "distanceM": 1928,
+      "avgGrade": 0.02074688859283924,
+      "startLat": 31.845632553100586,
+      "startLng": 118.48664093017578
+    },
+    {
+      "id": "8895021",
+      "tileScore": 1,
+      "name": "lozho_浦口至乌江",
+      "distanceM": 22185.900390625,
+      "avgGrade": 0,
+      "startLat": 32.031639099121094,
+      "startLng": 118.60091400146484
+    }
+  ]
+}

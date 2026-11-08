@@ -1,0 +1,65 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-08T22:57:20.283Z",
+  "tile": {
+    "z": 13,
+    "x": 6867,
+    "y": 3348
+  },
+  "segments": [
+    {
+      "id": "6881545",
+      "tileScore": 11,
+      "name": "Sea Wall Dash",
+      "distanceM": 1039.699951171875,
+      "avgGrade": 0,
+      "startLat": 31.200204849243164,
+      "startLng": 121.78651428222656
+    },
+    {
+      "id": "42191774",
+      "tileScore": 1,
+      "name": "河滨北路itt",
+      "distanceM": 2223.300048828125,
+      "avgGrade": -0.05397382378578186,
+      "startLat": 31.179845809936523,
+      "startLng": 121.78453826904297
+    },
+    {
+      "id": "36528594",
+      "tileScore": 13,
+      "name": "A380从这里起飞",
+      "distanceM": 1711,
+      "avgGrade": 0.03506721183657646,
+      "startLat": 31.162595748901367,
+      "startLng": 121.80205535888672
+    },
+    {
+      "id": "34714589",
+      "tileScore": 49,
+      "name": "🌲🌲🌲 Seawall Plus iTT",
+      "distanceM": 2150.60009765625,
+      "avgGrade": -0.046498652547597885,
+      "startLat": 31.2117977142334,
+      "startLng": 121.76439666748047
+    },
+    {
+      "id": "26067552",
+      "tileScore": 65,
+      "name": "Hidden from the sea NB",
+      "distanceM": 1566.4000244140625,
+      "avgGrade": -0.10214505344629288,
+      "startLat": 31.181156158447266,
+      "startLng": 121.80069732666016
+    },
+    {
+      "id": "27401582",
+      "tileScore": 6,
+      "name": "DP Airport Loop part 1",
+      "distanceM": 38720,
+      "avgGrade": 0.004648760426789522,
+      "startLat": 31.236400604248047,
+      "startLng": 121.59383392333984
+    }
+  ]
+}

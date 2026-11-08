@@ -1,0 +1,146 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-08T22:50:44.626Z",
+  "tile": {
+    "z": 13,
+    "x": 6699,
+    "y": 3567
+  },
+  "segments": [
+    {
+      "id": "11131712",
+      "tileScore": 8,
+      "name": "Gaoyuan to Gaoling climbing",
+      "distanceM": 2825.199951171875,
+      "avgGrade": 3.10066556930542,
+      "startLat": 22.63066291809082,
+      "startLng": 114.43353271484375
+    },
+    {
+      "id": "33771084",
+      "tileScore": 31,
+      "name": "金沙大道-官湖",
+      "distanceM": 8851.900390625,
+      "avgGrade": -0.173973947763443,
+      "startLat": 22.59329605102539,
+      "startLng": 114.46704864501953
+    },
+    {
+      "id": "33420766",
+      "tileScore": 32,
+      "name": "葵鹏路短坡两连击N-S",
+      "distanceM": 1697.4000244140625,
+      "avgGrade": 1.6613643169403076,
+      "startLat": 22.604251861572266,
+      "startLng": 114.42698669433594
+    },
+    {
+      "id": "29194287",
+      "tileScore": 33,
+      "name": "沿海起伏路",
+      "distanceM": 2603.39990234375,
+      "avgGrade": -0.24583236873149872,
+      "startLat": 22.613330841064453,
+      "startLng": 114.37942504882812
+    },
+    {
+      "id": "38312949",
+      "tileScore": 8,
+      "name": "大梅沙-东涌",
+      "distanceM": 51781.5,
+      "avgGrade": -0.019118797034025192,
+      "startLat": 22.5883731842041,
+      "startLng": 114.28683471679688
+    },
+    {
+      "id": "29431201",
+      "tileScore": 19,
+      "name": "Verified_Segment(官湖村_比克电池厂)",
+      "distanceM": 1773,
+      "avgGrade": 1.8725324869155884,
+      "startLat": 22.605649948120117,
+      "startLng": 114.42594146728516
+    },
+    {
+      "id": "23070645",
+      "tileScore": 67,
+      "name": "往渔具杂货店前最后一个小坡（长度600米）",
+      "distanceM": 568.0999755859375,
+      "avgGrade": 4.858299732208252,
+      "startLat": 22.614486694335938,
+      "startLng": 114.40625762939453
+    },
+    {
+      "id": "29431101",
+      "tileScore": 53,
+      "name": "Verified_Segment(官湖村_下村)",
+      "distanceM": 585,
+      "avgGrade": 5.19658088684082,
+      "startLat": 22.604032516479492,
+      "startLng": 114.42698669433594
+    },
+    {
+      "id": "16873878",
+      "tileScore": 19,
+      "name": "土洋Too young桥下拉爆",
+      "distanceM": 658.2999877929688,
+      "avgGrade": 0.36457541584968567,
+      "startLat": 22.615798950195312,
+      "startLng": 114.39409637451172
+    },
+    {
+      "id": "18301804",
+      "tileScore": 13,
+      "name": "兰兰上坡开拖",
+      "distanceM": 908.2999877929688,
+      "avgGrade": 1.8936474323272705,
+      "startLat": 22.620439529418945,
+      "startLng": 114.41596221923828
+    },
+    {
+      "id": "32280219",
+      "tileScore": 5,
+      "name": "SZC Summer Challenge 125km",
+      "distanceM": 122493.796875,
+      "avgGrade": -0.015184441581368446,
+      "startLat": 22.55707550048828,
+      "startLng": 114.21763610839844
+    },
+    {
+      "id": "19697174",
+      "tileScore": 137,
+      "name": "把胡航宇拉吐血赛段",
+      "distanceM": 14208.900390625,
+      "avgGrade": 0.22802609205245972,
+      "startLat": 22.601953506469727,
+      "startLng": 114.31241607666016
+    },
+    {
+      "id": "33393193",
+      "tileScore": 16,
+      "name": "波老师赛段：坝光之约（去程）",
+      "distanceM": 7012.2001953125,
+      "avgGrade": 0.24243460595607758,
+      "startLat": 22.630859375,
+      "startLng": 114.43318939208984
+    },
+    {
+      "id": "36326061",
+      "tileScore": 16,
+      "name": "圆形建筑",
+      "distanceM": 853,
+      "avgGrade": 1.1957796812057495,
+      "startLat": 22.620155334472656,
+      "startLng": 114.4173812866211
+    },
+    {
+      "id": "24227264",
+      "tileScore": 4,
+      "name": "11T team coastal training route",
+      "distanceM": 91079.796875,
+      "avgGrade": -0.029424747452139854,
+      "startLat": 22.61153221130371,
+      "startLng": 114.12039947509766
+    }
+  ]
+}

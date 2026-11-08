@@ -1,0 +1,47 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-08T22:59:35.712Z",
+  "tile": {
+    "z": 13,
+    "x": 6845,
+    "y": 3347
+  },
+  "segments": [
+    {
+      "id": "32737264",
+      "tileScore": 4,
+      "name": "Lakeside from underpass to crossroads.",
+      "distanceM": 2394.300048828125,
+      "avgGrade": 0.15035709738731384,
+      "startLat": 31.20564079284668,
+      "startLng": 120.84504699707031
+    },
+    {
+      "id": "40537521",
+      "tileScore": 8,
+      "name": "环澄湖",
+      "distanceM": 43049.19921875,
+      "avgGrade": 0.012543787248432636,
+      "startLat": 31.252605438232422,
+      "startLng": 120.79975891113281
+    },
+    {
+      "id": "29418120",
+      "tileScore": 2,
+      "name": "水八仙公园环湖路（southbound)",
+      "distanceM": 2307.60009765625,
+      "avgGrade": -0.034668050706386566,
+      "startLat": 31.237850189208984,
+      "startLng": 120.79644012451172
+    },
+    {
+      "id": "40405020",
+      "tileScore": 9,
+      "name": "澄湖训练",
+      "distanceM": 15113,
+      "avgGrade": -0.007940184324979782,
+      "startLat": 31.244274139404297,
+      "startLng": 120.86615753173828
+    }
+  ]
+}

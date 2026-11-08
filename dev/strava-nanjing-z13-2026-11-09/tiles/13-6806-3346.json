@@ -1,0 +1,20 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-08T22:40:49.375Z",
+  "tile": {
+    "z": 13,
+    "x": 6806,
+    "y": 3346
+  },
+  "segments": [
+    {
+      "id": "37793115",
+      "tileScore": 4,
+      "name": "2024首届环高淳自行车赛",
+      "distanceM": 140964.90625,
+      "avgGrade": 0.0008512757485732436,
+      "startLat": 31.38558006286621,
+      "startLng": 118.87738800048828
+    }
+  ]
+}

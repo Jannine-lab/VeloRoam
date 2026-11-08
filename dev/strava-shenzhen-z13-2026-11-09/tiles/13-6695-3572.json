@@ -1,0 +1,218 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-08T22:51:54.527Z",
+  "tile": {
+    "z": 13,
+    "x": 6695,
+    "y": 3572
+  },
+  "segments": [
+    {
+      "id": "5050652",
+      "tileScore": 64,
+      "name": "西沙-MOS->SK",
+      "distanceM": 5524,
+      "avgGrade": 0.14120203256607056,
+      "startLat": 22.430505752563477,
+      "startLng": 114.25653839111328
+    },
+    {
+      "id": "25745121",
+      "tileScore": 10,
+      "name": "Starfish climb",
+      "distanceM": 422.5,
+      "avgGrade": 1.5621302127838135,
+      "startLat": 22.43323516845703,
+      "startLng": 114.24337005615234
+    },
+    {
+      "id": "11935059",
+      "tileScore": 40,
+      "name": "Tai Wai to Tai Po",
+      "distanceM": 12323.7001953125,
+      "avgGrade": 0.0032457783818244934,
+      "startLat": 22.3743839263916,
+      "startLng": 114.18074035644531
+    },
+    {
+      "id": "34223693",
+      "tileScore": 5,
+      "name": "yuen long to tai po twin bridge",
+      "distanceM": 34870.8984375,
+      "avgGrade": -0.013765059411525726,
+      "startLat": 22.444385528564453,
+      "startLng": 114.04415893554688
+    },
+    {
+      "id": "6599742",
+      "tileScore": 484,
+      "name": "Real A Kung Kok Climb",
+      "distanceM": 1335.0999755859375,
+      "avgGrade": 9.033031463623047,
+      "startLat": 22.397005081176758,
+      "startLng": 114.21135711669922
+    },
+    {
+      "id": "37496517",
+      "tileScore": 25,
+      "name": "西沙路泥涌段短暫美好時光",
+      "distanceM": 1308.5,
+      "avgGrade": 0.7183797955513,
+      "startLat": 22.430908203125,
+      "startLng": 114.25322723388672
+    },
+    {
+      "id": "8518370",
+      "tileScore": 11,
+      "name": "TKO direct MTB ride to Wah Shan",
+      "distanceM": 42259.80078125,
+      "avgGrade": -0.05300545692443848,
+      "startLat": 22.331056594848633,
+      "startLng": 114.25001525878906
+    },
+    {
+      "id": "27439830",
+      "tileScore": 25,
+      "name": "Tai Po (Tai Wong Yeh Temple) to Pak Tam Chung / 大埔(大王爺廟)至北潭涌",
+      "distanceM": 25706,
+      "avgGrade": 0.031121138483285904,
+      "startLat": 22.4453067779541,
+      "startLng": 114.17774200439453
+    },
+    {
+      "id": "36106399",
+      "tileScore": 9,
+      "name": "NSW - SHAN SHING",
+      "distanceM": 90205.8984375,
+      "avgGrade": -0.013968043960630894,
+      "startLat": 22.44609260559082,
+      "startLng": 114.04883575439453
+    },
+    {
+      "id": "3659526",
+      "tileScore": 237,
+      "name": "The Entire MTL climb",
+      "distanceM": 1819.7452392578125,
+      "avgGrade": 4.550200462341309,
+      "startLat": 22.404300689697266,
+      "startLng": 114.2214126586914
+    },
+    {
+      "id": "15372641",
+      "tileScore": 10,
+      "name": "Tai Shui Hang Curve",
+      "distanceM": 308.1000061035156,
+      "avgGrade": -0.5842258930206299,
+      "startLat": 22.40605354309082,
+      "startLng": 114.21912384033203
+    },
+    {
+      "id": "9414440",
+      "tileScore": 68,
+      "name": "Hang Ming St Exit to Kam Fung 1st gate",
+      "distanceM": 530.5999755859375,
+      "avgGrade": 0.7915567755699158,
+      "startLat": 22.41655158996582,
+      "startLng": 114.22300720214844
+    },
+    {
+      "id": "9389615",
+      "tileScore": 22,
+      "name": "Nin Wah Road Uphill",
+      "distanceM": 540.4000244140625,
+      "avgGrade": 1.091783881187439,
+      "startLat": 22.431562423706055,
+      "startLng": 114.25271606445312
+    },
+    {
+      "id": "9466629",
+      "tileScore": 22,
+      "name": "MOS Climb",
+      "distanceM": 4173.7001953125,
+      "avgGrade": 7.118383884429932,
+      "startLat": 22.41663360595703,
+      "startLng": 114.23123168945312
+    },
+    {
+      "id": "13901630",
+      "tileScore": 17,
+      "name": "Sai Kung to MOS Sai Sa",
+      "distanceM": 11611.900390625,
+      "avgGrade": 0.015501338988542557,
+      "startLat": 22.360387802124023,
+      "startLng": 114.25455474853516
+    },
+    {
+      "id": "6815609",
+      "tileScore": 242,
+      "name": "Straight stretch to Tai Po",
+      "distanceM": 4966.7001953125,
+      "avgGrade": 0.02013409323990345,
+      "startLat": 22.423725128173828,
+      "startLng": 114.21483612060547
+    },
+    {
+      "id": "34658496",
+      "tileScore": 46,
+      "name": "Deep Throat MTL (OUT)",
+      "distanceM": 941.2999877929688,
+      "avgGrade": -0.48868587613105774,
+      "startLat": 22.400074005126953,
+      "startLng": 114.23046875
+    },
+    {
+      "id": "33877200",
+      "tileScore": 27,
+      "name": "康城大冷",
+      "distanceM": 130482.203125,
+      "avgGrade": 0,
+      "startLat": 22.29688835144043,
+      "startLng": 114.26518249511719
+    },
+    {
+      "id": "11769736",
+      "tileScore": 71,
+      "name": "MOS 1+2",
+      "distanceM": 2431.39990234375,
+      "avgGrade": 7.756847858428955,
+      "startLat": 22.41761016845703,
+      "startLng": 114.23224639892578
+    },
+    {
+      "id": "14100505",
+      "tileScore": 68,
+      "name": "Red Road Sprint to MOS",
+      "distanceM": 626,
+      "avgGrade": -0.3194888234138489,
+      "startLat": 22.40218734741211,
+      "startLng": 114.21459197998047
+    },
+    {
+      "id": "11769305",
+      "tileScore": 48,
+      "name": "MOS 1st Climb",
+      "distanceM": 974.4000244140625,
+      "avgGrade": 4.761904716491699,
+      "startLat": 22.417560577392578,
+      "startLng": 114.23221588134766
+    },
+    {
+      "id": "16470540",
+      "tileScore": 2,
+      "name": "躍動沙田 - 破風之旅 2017",
+      "distanceM": 13605.599609375,
+      "avgGrade": -0.013229846023023129,
+      "startLat": 22.425277709960938,
+      "startLng": 114.21023559570312
+    },
+    {
+      "id": "6435859",
+      "tileScore": 63,
+      "name": "馬場對面河(MOS-ST)",
+      "distanceM": 695.4000244140625,
+      "avgGrade": -0.2588438391685486,
+      "startLat": 22.401744842529297,
+      "startLng": 114.21414184570312
+    }
+  ]
+}

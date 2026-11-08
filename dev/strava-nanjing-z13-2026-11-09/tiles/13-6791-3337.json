@@ -1,0 +1,29 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-08T22:37:46.642Z",
+  "tile": {
+    "z": 13,
+    "x": 6791,
+    "y": 3337
+  },
+  "segments": [
+    {
+      "id": "34908862",
+      "tileScore": 6,
+      "name": "采石江堤逆时针u圈",
+      "distanceM": 10518.7001953125,
+      "avgGrade": 0.0019013755954802036,
+      "startLat": 31.626441955566406,
+      "startLng": 118.46012878417969
+    },
+    {
+      "id": "36636535",
+      "tileScore": 2,
+      "name": "CAISHI TO DONGTU",
+      "distanceM": 10002,
+      "avgGrade": -0.029993999749422073,
+      "startLat": 31.656423568725586,
+      "startLng": 118.46157836914062
+    }
+  ]
+}

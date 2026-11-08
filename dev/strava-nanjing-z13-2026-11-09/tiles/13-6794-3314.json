@@ -1,0 +1,20 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-08T22:26:29.179Z",
+  "tile": {
+    "z": 13,
+    "x": 6794,
+    "y": 3314
+  },
+  "segments": [
+    {
+      "id": "34376664",
+      "tileScore": 1,
+      "name": "来安（二段）—施官",
+      "distanceM": 10805.2001953125,
+      "avgGrade": -0.13697108626365662,
+      "startLat": 32.45902633666992,
+      "startLng": 118.45683288574219
+    }
+  ]
+}

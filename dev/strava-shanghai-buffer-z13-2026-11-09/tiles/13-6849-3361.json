@@ -1,0 +1,47 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-03T06:13:25.252Z",
+  "tile": {
+    "z": 13,
+    "x": 6849,
+    "y": 3361
+  },
+  "segments": [
+    {
+      "id": "13715792",
+      "tileScore": 8,
+      "name": "Tour of Jiaxing 2016",
+      "distanceM": 136646.203125,
+      "avgGrade": 0.008196349255740643,
+      "startLat": 30.74317169189453,
+      "startLng": 120.83653259277344
+    },
+    {
+      "id": "32283371",
+      "tileScore": 7,
+      "name": "DongHu Lap",
+      "distanceM": 2723.5,
+      "avgGrade": 0.018358729779720306,
+      "startLat": 30.7020206451416,
+      "startLng": 121.02018737792969
+    },
+    {
+      "id": "33563642",
+      "tileScore": 5,
+      "name": "金平湖大道_嘉兴方向",
+      "distanceM": 4358.7001953125,
+      "avgGrade": -0.05965081602334976,
+      "startLat": 30.67514991760254,
+      "startLng": 121.00177001953125
+    },
+    {
+      "id": "19336298",
+      "tileScore": 3,
+      "name": "とにかく競争。。。",
+      "distanceM": 612.0999755859375,
+      "avgGrade": 0.0653487965464592,
+      "startLat": 30.71192169189453,
+      "startLng": 120.99107360839844
+    }
+  ]
+}

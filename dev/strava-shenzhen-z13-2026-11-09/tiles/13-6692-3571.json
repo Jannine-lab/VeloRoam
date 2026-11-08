@@ -1,0 +1,209 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-08T22:51:48.832Z",
+  "tile": {
+    "z": 13,
+    "x": 6692,
+    "y": 3571
+  },
+  "segments": [
+    {
+      "id": "12225213",
+      "tileScore": 32,
+      "name": "Lam Kam to Twisk Top Climb (whole)",
+      "distanceM": 10286.900390625,
+      "avgGrade": 4.250065803527832,
+      "startLat": 22.459228515625,
+      "startLng": 114.14567565917969
+    },
+    {
+      "id": "6501245",
+      "tileScore": 2,
+      "name": "Fan Kam Road Climb",
+      "distanceM": 1737.4000244140625,
+      "avgGrade": 17.065731048583984,
+      "startLat": 22.465309143066406,
+      "startLng": 114.10578918457031
+    },
+    {
+      "id": "2669010",
+      "tileScore": 214,
+      "name": "SK to BB",
+      "distanceM": 9725.6650390625,
+      "avgGrade": 8.815817832946777,
+      "startLat": 22.4313907623291,
+      "startLng": 114.10456085205078
+    },
+    {
+      "id": "34419870",
+      "tileScore": 9,
+      "name": "Kam Sheung Road section from Sheung Tsuen - Lin Fa Tai",
+      "distanceM": 1775,
+      "avgGrade": -1.600000023841858,
+      "startLat": 22.431640625,
+      "startLng": 114.1031723022461
+    },
+    {
+      "id": "22941094",
+      "tileScore": 8,
+      "name": "Airfield Riverside Westbound",
+      "distanceM": 1571.9000244140625,
+      "avgGrade": -1.1514726877212524,
+      "startLat": 22.433122634887695,
+      "startLng": 114.08728790283203
+    },
+    {
+      "id": "38840312",
+      "tileScore": 22,
+      "name": "The GT ",
+      "distanceM": 95767,
+      "avgGrade": 0.04740672558546066,
+      "startLat": 22.326505661010742,
+      "startLng": 114.15650939941406
+    },
+    {
+      "id": "11118673",
+      "tileScore": 19,
+      "name": "Kam Tai Rd Sprint",
+      "distanceM": 1278.699951171875,
+      "avgGrade": -0.23461328446865082,
+      "startLat": 22.442617416381836,
+      "startLng": 114.08311462402344
+    },
+    {
+      "id": "5530361",
+      "tileScore": 15,
+      "name": "Kam Tin roundabout -  Kam Tai Road",
+      "distanceM": 2420.39990234375,
+      "avgGrade": -1.330358624458313,
+      "startLat": 22.431734085083008,
+      "startLng": 114.10354614257812
+    },
+    {
+      "id": "24846627",
+      "tileScore": 8,
+      "name": "Flying by the airfield ",
+      "distanceM": 493.8999938964844,
+      "avgGrade": 0.9313626289367676,
+      "startLat": 22.432842254638672,
+      "startLng": 114.08316040039062
+    },
+    {
+      "id": "16237279",
+      "tileScore": 14,
+      "name": "上村至元朗",
+      "distanceM": 6656.39990234375,
+      "avgGrade": -0.5438375473022461,
+      "startLat": 22.431499481201172,
+      "startLng": 114.10427856445312
+    },
+    {
+      "id": "2649462",
+      "tileScore": 1,
+      "name": "Fung Kat Heung Rd Climb",
+      "distanceM": 3496.25244140625,
+      "avgGrade": 15.511126518249512,
+      "startLat": 22.446922302246094,
+      "startLng": 114.0647201538086
+    },
+    {
+      "id": "19387314",
+      "tileScore": 15,
+      "name": "FAN KAM Down to KAM TIN ROAD Rabove",
+      "distanceM": 2248.60009765625,
+      "avgGrade": -1.9478787183761597,
+      "startLat": 22.457881927490234,
+      "startLng": 114.0998306274414
+    },
+    {
+      "id": "3280934",
+      "tileScore": 1,
+      "name": "Tai To Yan Path Climb",
+      "distanceM": 1208.2396240234375,
+      "avgGrade": 13.333885192871094,
+      "startLat": 22.44292640686035,
+      "startLng": 114.1121597290039
+    },
+    {
+      "id": "40461460",
+      "tileScore": 1,
+      "name": "Ca姐溫馨8字冷下集(鹿頸400米至石崗油站)",
+      "distanceM": 17652.900390625,
+      "avgGrade": 0.05551495775580406,
+      "startLat": 22.476028442382812,
+      "startLng": 114.23654174804688
+    },
+    {
+      "id": "3280933",
+      "tileScore": 2,
+      "name": "Tai To Yan Path Climb",
+      "distanceM": 1248.5987548828125,
+      "avgGrade": 17.78792381286621,
+      "startLat": 22.434417724609375,
+      "startLng": 114.11724853515625
+    },
+    {
+      "id": "1760207",
+      "tileScore": 49,
+      "name": "Lam Kam Road from Tai Po to Kadoorie Farm",
+      "distanceM": 4395.8388671875,
+      "avgGrade": 3.0893125534057617,
+      "startLat": 22.460044860839844,
+      "startLng": 114.14599609375
+    },
+    {
+      "id": "3425002",
+      "tileScore": 4,
+      "name": "Fan Kam Road Climb",
+      "distanceM": 2098.659912109375,
+      "avgGrade": 12.96578598022461,
+      "startLat": 22.46344757080078,
+      "startLng": 114.06916046142578
+    },
+    {
+      "id": "8412398",
+      "tileScore": 592,
+      "name": "Shek Kong to Twist Top",
+      "distanceM": 4916.7998046875,
+      "avgGrade": 8.298080444335938,
+      "startLat": 22.431533813476562,
+      "startLng": 114.10465240478516
+    },
+    {
+      "id": "760081",
+      "tileScore": 107,
+      "name": "林錦公路 Climb",
+      "distanceM": 1121.280029296875,
+      "avgGrade": 7.553732395172119,
+      "startLat": 22.439929962158203,
+      "startLng": 114.12407684326172
+    },
+    {
+      "id": "10930299",
+      "tileScore": 93,
+      "name": "石崗牌 part 1.",
+      "distanceM": 2015,
+      "avgGrade": 8.97270393371582,
+      "startLat": 22.431339263916016,
+      "startLng": 114.10452270507812
+    },
+    {
+      "id": "1177931",
+      "tileScore": 74,
+      "name": "I HATE THIS CLIMB",
+      "distanceM": 1220.8299560546875,
+      "avgGrade": 9.567497253417969,
+      "startLat": 22.431486129760742,
+      "startLng": 114.10623931884766
+    },
+    {
+      "id": "13151143",
+      "tileScore": 22,
+      "name": "粉錦公路(八鄉迴旋處－燈位)",
+      "distanceM": 7210.7998046875,
+      "avgGrade": -0.03605702519416809,
+      "startLat": 22.441652297973633,
+      "startLng": 114.08954620361328
+    }
+  ]
+}

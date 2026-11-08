@@ -1,0 +1,29 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-08T22:38:24.795Z",
+  "tile": {
+    "z": 13,
+    "x": 6807,
+    "y": 3339
+  },
+  "segments": [
+    {
+      "id": "20979509",
+      "tileScore": 4,
+      "name": "20181111环溧水自行车赛 Lishui Criterium",
+      "distanceM": 139486.90625,
+      "avgGrade": 0.00444486178457737,
+      "startLat": 31.613245010375977,
+      "startLng": 119.02008056640625
+    },
+    {
+      "id": "34978735",
+      "tileScore": 1,
+      "name": "芳山金顶禅寺前小萌坡",
+      "distanceM": 512.2000122070312,
+      "avgGrade": 7.379929542541504,
+      "startLat": 31.506601333618164,
+      "startLng": 119.15242767333984
+    }
+  ]
+}

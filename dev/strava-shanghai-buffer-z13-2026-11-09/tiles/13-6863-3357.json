@@ -1,0 +1,65 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-03T06:12:45.976Z",
+  "tile": {
+    "z": 13,
+    "x": 6863,
+    "y": 3357
+  },
+  "segments": [
+    {
+      "id": "34906724",
+      "tileScore": 19,
+      "name": "🌬turbine turbo set",
+      "distanceM": 8190.39990234375,
+      "avgGrade": -0.014651298522949219,
+      "startLat": 30.83193016052246,
+      "startLng": 121.57391357421875
+    },
+    {
+      "id": "37594697",
+      "tileScore": 2,
+      "name": "星疆路（随塘河路-G228）",
+      "distanceM": 2400.89990234375,
+      "avgGrade": -0.1166229397058487,
+      "startLat": 30.857881546020508,
+      "startLng": 121.60870361328125
+    },
+    {
+      "id": "34876506",
+      "tileScore": 7,
+      "name": "随塘河路（靶场-五四）",
+      "distanceM": 18125.900390625,
+      "avgGrade": -0.011033935472369194,
+      "startLat": 30.842056274414062,
+      "startLng": 121.54557037353516
+    },
+    {
+      "id": "20936572",
+      "tileScore": 87,
+      "name": "Avenue of trees to Plum Park",
+      "distanceM": 10112.099609375,
+      "avgGrade": 0.07713531702756882,
+      "startLat": 30.847942352294922,
+      "startLng": 121.569580078125
+    },
+    {
+      "id": "42418978",
+      "tileScore": 36,
+      "name": "Challenge Shanghai Bike Lap",
+      "distanceM": 18642.5,
+      "avgGrade": 0.019310714676976204,
+      "startLat": 30.848499298095703,
+      "startLng": 121.65251922607422
+    },
+    {
+      "id": "20936603",
+      "tileScore": 15,
+      "name": "Seawall",
+      "distanceM": 7833.10009765625,
+      "avgGrade": 0.00765980314463377,
+      "startLat": 30.84857749938965,
+      "startLng": 121.65276336669922
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-08T22:50:47.522Z",
+  "tile": {
+    "z": 13,
+    "x": 6701,
+    "y": 3567
+  },
+  "segments": [
+    {
+      "id": "37178284",
+      "tileScore": 8,
+      "name": "鹏飞路热身",
+      "distanceM": 4955,
+      "avgGrade": -1.2956609725952148,
+      "startLat": 22.602806091308594,
+      "startLng": 114.45875549316406
+    },
+    {
+      "id": "35173545",
+      "tileScore": 12,
+      "name": "Ruipeng Blvd（N-S）",
+      "distanceM": 2431.39990234375,
+      "avgGrade": -0.9295056462287903,
+      "startLat": 22.5986328125,
+      "startLng": 114.48393249511719
+    },
+    {
+      "id": "32925187",
+      "tileScore": 2,
+      "name": "银滩路",
+      "distanceM": 2260.800048828125,
+      "avgGrade": 0.2432767003774643,
+      "startLat": 22.59535026550293,
+      "startLng": 114.50420379638672
+    }
+  ]
+}

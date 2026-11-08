@@ -1,0 +1,20 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-03T05:59:15.309Z",
+  "tile": {
+    "z": 13,
+    "x": 6861,
+    "y": 3332
+  },
+  "segments": [
+    {
+      "id": "34736390",
+      "tileScore": 15,
+      "name": "头兴港闸至红阳港闸",
+      "distanceM": 4814.7001953125,
+      "avgGrade": 0.0020769727416336536,
+      "startLat": 31.75172996520996,
+      "startLng": 121.59171295166016
+    }
+  ]
+}

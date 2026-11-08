@@ -1,0 +1,20 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-08T22:26:26.950Z",
+  "tile": {
+    "z": 13,
+    "x": 6799,
+    "y": 3315
+  },
+  "segments": [
+    {
+      "id": "33885498",
+      "tileScore": 25,
+      "name": "马玉线 NtoS [月独线]→[万州路]",
+      "distanceM": 8741.2001953125,
+      "avgGrade": -0.3615064322948456,
+      "startLat": 32.44102096557617,
+      "startLng": 118.81224822998047
+    }
+  ]
+}

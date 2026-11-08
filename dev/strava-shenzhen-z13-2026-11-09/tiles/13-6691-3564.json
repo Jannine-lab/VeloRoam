@@ -1,0 +1,38 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-08T22:49:10.777Z",
+  "tile": {
+    "z": 13,
+    "x": 6691,
+    "y": 3564
+  },
+  "segments": [
+    {
+      "id": "34742896",
+      "tileScore": 5,
+      "name": "观光路桂花段冲刺",
+      "distanceM": 1870.0999755859375,
+      "avgGrade": 0.2780599892139435,
+      "startLat": 22.725740432739258,
+      "startLng": 114.06523895263672
+    },
+    {
+      "id": "10018181",
+      "tileScore": 1,
+      "name": "Mission Mill MTB 1 lap",
+      "distanceM": 8344.2998046875,
+      "avgGrade": -0.5944177508354187,
+      "startLat": 22.72089385986328,
+      "startLng": 114.07095336914062
+    },
+    {
+      "id": "29467855",
+      "tileScore": 9,
+      "name": "观澜高尔夫绕圈",
+      "distanceM": 9562.599609375,
+      "avgGrade": -0.0010457407915964723,
+      "startLat": 22.74744415283203,
+      "startLng": 114.07554626464844
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-08T22:36:36.223Z",
+  "tile": {
+    "z": 13,
+    "x": 6795,
+    "y": 3332
+  },
+  "segments": [
+    {
+      "id": "26333525",
+      "tileScore": 7,
+      "name": "20201108 黄龙岘全程组",
+      "distanceM": 87971.8984375,
+      "avgGrade": 0.005456287879496813,
+      "startLat": 31.781736373901367,
+      "startLng": 118.6873779296875
+    }
+  ]
+}

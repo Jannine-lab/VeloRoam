@@ -1,0 +1,20 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-03T06:04:30.645Z",
+  "tile": {
+    "z": 13,
+    "x": 6864,
+    "y": 3341
+  },
+  "segments": [
+    {
+      "id": "41209528",
+      "tileScore": 18,
+      "name": "长兴岛沿河绿道西向东",
+      "distanceM": 15990.900390625,
+      "avgGrade": 0.007504267618060112,
+      "startLat": 31.443313598632812,
+      "startLng": 121.57453155517578
+    }
+  ]
+}

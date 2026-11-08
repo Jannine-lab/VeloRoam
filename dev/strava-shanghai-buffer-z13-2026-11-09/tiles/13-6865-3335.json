@@ -1,0 +1,20 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-03T06:01:46.586Z",
+  "tile": {
+    "z": 13,
+    "x": 6865,
+    "y": 3335
+  },
+  "segments": [
+    {
+      "id": "37234923",
+      "tileScore": 2,
+      "name": "65km-80km",
+      "distanceM": 15101.400390625,
+      "avgGrade": 0.030460752546787262,
+      "startLat": 31.573959350585938,
+      "startLng": 121.69788360595703
+    }
+  ]
+}

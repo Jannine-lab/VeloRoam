@@ -1,0 +1,137 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-08T22:52:29.893Z",
+  "tile": {
+    "z": 13,
+    "x": 6696,
+    "y": 3574
+  },
+  "segments": [
+    {
+      "id": "5614070",
+      "tileScore": 39,
+      "name": "清水灣道UP",
+      "distanceM": 541.2000122070312,
+      "avgGrade": 9.645232200622559,
+      "startLat": 22.323307037353516,
+      "startLng": 114.26904296875
+    },
+    {
+      "id": "3224339",
+      "tileScore": 2,
+      "name": "Clear Water Bay Road Climb",
+      "distanceM": 1526.3331298828125,
+      "avgGrade": 8.542977333068848,
+      "startLat": 22.33713150024414,
+      "startLng": 114.26929473876953
+    },
+    {
+      "id": "1777083",
+      "tileScore": 2,
+      "name": "University Rd Climb",
+      "distanceM": 1415.7357177734375,
+      "avgGrade": 7.826516628265381,
+      "startLat": 22.349687576293945,
+      "startLng": 114.25535583496094
+    },
+    {
+      "id": "37471398",
+      "tileScore": 21,
+      "name": "R200 CP2 to CP3",
+      "distanceM": 22055.599609375,
+      "avgGrade": 0.033551570028066635,
+      "startLat": 22.39604377746582,
+      "startLng": 114.31844329833984
+    },
+    {
+      "id": "30308647",
+      "tileScore": 17,
+      "name": "Pik Uk -Wong Shek Out & Back",
+      "distanceM": 44123,
+      "avgGrade": 0.009065566584467888,
+      "startLat": 22.340442657470703,
+      "startLng": 114.2474136352539
+    },
+    {
+      "id": "14287299",
+      "tileScore": 25,
+      "name": "To the Hill - TT Sprint",
+      "distanceM": 1244,
+      "avgGrade": 1.278135061264038,
+      "startLat": 22.338491439819336,
+      "startLng": 114.25884246826172
+    },
+    {
+      "id": "15785233",
+      "tileScore": 36,
+      "name": "去銀線極速",
+      "distanceM": 1421.300048828125,
+      "avgGrade": -4.43256139755249,
+      "startLat": 22.316892623901367,
+      "startLng": 114.28093719482422
+    },
+    {
+      "id": "5639541",
+      "tileScore": 36,
+      "name": "銀線灣至大坳門",
+      "distanceM": 4358.10009765625,
+      "avgGrade": 0.752621591091156,
+      "startLat": 22.322729110717773,
+      "startLng": 114.269287109375
+    },
+    {
+      "id": "30906245",
+      "tileScore": 11,
+      "name": "Sai Kung - Hang Hao",
+      "distanceM": 9466.5,
+      "avgGrade": 0,
+      "startLat": 22.38360595703125,
+      "startLng": 114.27102661132812
+    },
+    {
+      "id": "33877200",
+      "tileScore": 27,
+      "name": "康城大冷",
+      "distanceM": 130482.203125,
+      "avgGrade": 0,
+      "startLat": 22.29688835144043,
+      "startLng": 114.26518249511719
+    },
+    {
+      "id": "38237765",
+      "tileScore": 1,
+      "name": "Tai Po Tsai Reservoir Loop",
+      "distanceM": 610.2999877929688,
+      "avgGrade": -0.06554153561592102,
+      "startLat": 22.332643508911133,
+      "startLng": 114.260986328125
+    },
+    {
+      "id": "13224209",
+      "tileScore": 4,
+      "name": "科大北閘落斜",
+      "distanceM": 828,
+      "avgGrade": -8.90096664428711,
+      "startLat": 22.33779525756836,
+      "startLng": 114.26287078857422
+    },
+    {
+      "id": "11488997",
+      "tileScore": 7,
+      "name": "Silver Crest Climb",
+      "distanceM": 987.2999877929688,
+      "avgGrade": 6.097437381744385,
+      "startLat": 22.324649810791016,
+      "startLng": 114.27017211914062
+    },
+    {
+      "id": "16461064",
+      "tileScore": 4,
+      "name": "Ap Tsai Shan (UP)",
+      "distanceM": 408.6000061035156,
+      "avgGrade": 2.37395977973938,
+      "startLat": 22.321123123168945,
+      "startLng": 114.26243591308594
+    }
+  ]
+}

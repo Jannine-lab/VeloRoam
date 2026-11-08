@@ -1,0 +1,29 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-08T22:37:05.341Z",
+  "tile": {
+    "z": 13,
+    "x": 6809,
+    "y": 3333
+  },
+  "segments": [
+    {
+      "id": "42176261",
+      "tileScore": 3,
+      "name": "春天线（旺旺超市- G104）",
+      "distanceM": 5496.7998046875,
+      "avgGrade": -0.1892009824514389,
+      "startLat": 31.794078826904297,
+      "startLng": 119.23483276367188
+    },
+    {
+      "id": "32967178",
+      "tileScore": 93,
+      "name": "虞宁线",
+      "distanceM": 7702.5,
+      "avgGrade": -0.7426160573959351,
+      "startLat": 31.763151168823242,
+      "startLng": 119.2907943725586
+    }
+  ]
+}

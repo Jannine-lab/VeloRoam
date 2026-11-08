@@ -1,0 +1,20 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-08T22:37:00.290Z",
+  "tile": {
+    "z": 13,
+    "x": 6805,
+    "y": 3333
+  },
+  "segments": [
+    {
+      "id": "38059447",
+      "tileScore": 6,
+      "name": "🚴煤气包到340尽头(走怪坡)",
+      "distanceM": 53321.3984375,
+      "avgGrade": 0.006376426666975021,
+      "startLat": 31.70641326904297,
+      "startLng": 118.58607482910156
+    }
+  ]
+}

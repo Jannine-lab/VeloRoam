@@ -1,0 +1,83 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-08T22:48:49.241Z",
+  "tile": {
+    "z": 13,
+    "x": 6687,
+    "y": 3562
+  },
+  "segments": [
+    {
+      "id": "34146700",
+      "tileScore": 1,
+      "name": "卫星基地缓下",
+      "distanceM": 784.5,
+      "avgGrade": -4.028043746948242,
+      "startLat": 22.824007034301758,
+      "startLng": 113.8885498046875
+    },
+    {
+      "id": "38075290",
+      "tileScore": 31,
+      "name": "罗田森林公园一圈",
+      "distanceM": 6025,
+      "avgGrade": -0.006639004219323397,
+      "startLat": 22.835033416748047,
+      "startLng": 113.88421630859375
+    },
+    {
+      "id": "29410496",
+      "tileScore": 4,
+      "name": "Maozhou River Road (east direction)",
+      "distanceM": 3135,
+      "avgGrade": 0.057416267693042755,
+      "startLat": 22.801197052001953,
+      "startLng": 113.88846588134766
+    },
+    {
+      "id": "42269433",
+      "tileScore": 1,
+      "name": "home sweet home权志陈",
+      "distanceM": 2731.300048828125,
+      "avgGrade": 0,
+      "startLat": 22.797134399414062,
+      "startLng": 113.88471221923828
+    },
+    {
+      "id": "33988452",
+      "tileScore": 11,
+      "name": "鹤兜山路北行",
+      "distanceM": 3081.60009765625,
+      "avgGrade": 0.7593458294868469,
+      "startLat": 22.828933715820312,
+      "startLng": 113.8694076538086
+    },
+    {
+      "id": "31926640",
+      "tileScore": 19,
+      "name": "公常路-茅洲河-沿河休闲",
+      "distanceM": 5390,
+      "avgGrade": -0.18923933804035187,
+      "startLat": 22.784624099731445,
+      "startLng": 113.91056060791016
+    },
+    {
+      "id": "41267219",
+      "tileScore": 20,
+      "name": "文起东古墓-光明能源生态园 Wen Qidong Gumu - Guangming Energy Ecological Garden",
+      "distanceM": 7446.2001953125,
+      "avgGrade": 0.8245816230773926,
+      "startLat": 22.789813995361328,
+      "startLng": 113.9216079711914
+    },
+    {
+      "id": "38970000",
+      "tileScore": 9,
+      "name": "茅洲河西往东后半段",
+      "distanceM": 16219.900390625,
+      "avgGrade": 0.11220783740282059,
+      "startLat": 22.795166015625,
+      "startLng": 113.85015106201172
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-03T06:01:15.613Z",
+  "tile": {
+    "z": 13,
+    "x": 6869,
+    "y": 3334
+  },
+  "segments": [
+    {
+      "id": "34821141",
+      "tileScore": 3,
+      "name": "xinhu",
+      "distanceM": 1475.0999755859375,
+      "avgGrade": 0.12202562391757965,
+      "startLat": 31.710500717163086,
+      "startLng": 121.8949966430664
+    },
+    {
+      "id": "39140106",
+      "tileScore": 23,
+      "name": "Zui Xian Road - W to E",
+      "distanceM": 4895.2001953125,
+      "avgGrade": -0.004085634835064411,
+      "startLat": 31.69190216064453,
+      "startLng": 121.88713073730469
+    },
+    {
+      "id": "10311608",
+      "tileScore": 3,
+      "name": "The road with 10000 people",
+      "distanceM": 1067.9000244140625,
+      "avgGrade": -0.1498267650604248,
+      "startLat": 31.691410064697266,
+      "startLng": 121.86035919189453
+    },
+    {
+      "id": "27491768",
+      "tileScore": 11,
+      "name": "10km - Segment 1",
+      "distanceM": 10005.099609375,
+      "avgGrade": -0.033982668071985245,
+      "startLat": 31.698945999145508,
+      "startLng": 121.85762786865234
+    }
+  ]
+}

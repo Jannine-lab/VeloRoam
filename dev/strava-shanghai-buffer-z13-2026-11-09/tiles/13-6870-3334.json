@@ -1,0 +1,38 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-03T06:01:32.266Z",
+  "tile": {
+    "z": 13,
+    "x": 6870,
+    "y": 3334
+  },
+  "segments": [
+    {
+      "id": "37504745",
+      "tileScore": 8,
+      "name": "恒大-沿海骑行道",
+      "distanceM": 4002.300048828125,
+      "avgGrade": 0.09994252771139145,
+      "startLat": 31.707469940185547,
+      "startLng": 121.93167114257812
+    },
+    {
+      "id": "39140106",
+      "tileScore": 23,
+      "name": "Zui Xian Road - W to E",
+      "distanceM": 4895.2001953125,
+      "avgGrade": -0.004085634835064411,
+      "startLat": 31.69190216064453,
+      "startLng": 121.88713073730469
+    },
+    {
+      "id": "27491768",
+      "tileScore": 11,
+      "name": "10km - Segment 1",
+      "distanceM": 10005.099609375,
+      "avgGrade": -0.033982668071985245,
+      "startLat": 31.698945999145508,
+      "startLng": 121.85762786865234
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-03T05:59:09.094Z",
+  "tile": {
+    "z": 13,
+    "x": 6870,
+    "y": 3332
+  },
+  "segments": [
+    {
+      "id": "41973174",
+      "tileScore": 3,
+      "name": "炮弹坑瓜路",
+      "distanceM": 6084.39990234375,
+      "avgGrade": -0.03287094831466675,
+      "startLat": 31.757091522216797,
+      "startLng": 121.91101837158203
+    }
+  ]
+}

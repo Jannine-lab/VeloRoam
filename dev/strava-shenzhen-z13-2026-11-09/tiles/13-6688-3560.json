@@ -1,0 +1,47 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-08T22:47:55.473Z",
+  "tile": {
+    "z": 13,
+    "x": 6688,
+    "y": 3560
+  },
+  "segments": [
+    {
+      "id": "12326300",
+      "tileScore": 5,
+      "name": "Sprint to the Bar!",
+      "distanceM": 2875.300048828125,
+      "avgGrade": -0.28518763184547424,
+      "startLat": 22.932668685913086,
+      "startLng": 113.8912353515625
+    },
+    {
+      "id": "41090976",
+      "tileScore": 2,
+      "name": "大朗柬埔寨绕圈",
+      "distanceM": 11071.5,
+      "avgGrade": -0.010838639922440052,
+      "startLat": 22.870044708251953,
+      "startLng": 113.91222381591797
+    },
+    {
+      "id": "29224088",
+      "tileScore": 7,
+      "name": "叼毛猪发现的神秘绿道",
+      "distanceM": 3902.699951171875,
+      "avgGrade": 0.061495888978242874,
+      "startLat": 22.875585556030273,
+      "startLng": 113.96954345703125
+    },
+    {
+      "id": "39065479",
+      "tileScore": 5,
+      "name": "Songshan Lake Loop (Clockwise - NW Start)",
+      "distanceM": 14541.900390625,
+      "avgGrade": -0.006876680534332991,
+      "startLat": 22.896446228027344,
+      "startLng": 113.8578109741211
+    }
+  ]
+}

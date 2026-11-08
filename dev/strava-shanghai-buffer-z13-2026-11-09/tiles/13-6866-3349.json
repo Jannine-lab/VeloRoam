@@ -1,0 +1,119 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-08T23:02:08.656Z",
+  "tile": {
+    "z": 13,
+    "x": 6866,
+    "y": 3349
+  },
+  "segments": [
+    {
+      "id": "39444355",
+      "tileScore": 10,
+      "name": "航程路冲桥",
+      "distanceM": 541,
+      "avgGrade": 1.4232901334762573,
+      "startLat": 31.151779174804688,
+      "startLng": 121.72928619384766
+    },
+    {
+      "id": "33455606",
+      "tileScore": 2,
+      "name": "South on Lingkong",
+      "distanceM": 2746.10009765625,
+      "avgGrade": -0.1602272242307663,
+      "startLat": 31.153141021728516,
+      "startLng": 121.73644256591797
+    },
+    {
+      "id": "28524639",
+      "tileScore": 2,
+      "name": "Back from Drinkstand short",
+      "distanceM": 4126.2001953125,
+      "avgGrade": -0.00969414971768856,
+      "startLat": 31.093839645385742,
+      "startLng": 121.77166748046875
+    },
+    {
+      "id": "38520605",
+      "tileScore": 3,
+      "name": "7公里热身",
+      "distanceM": 6655.5,
+      "avgGrade": -0.006010066717863083,
+      "startLat": 31.14158058166504,
+      "startLng": 121.74400329589844
+    },
+    {
+      "id": "28599619",
+      "tileScore": 5,
+      "name": "Behind Airport East ",
+      "distanceM": 305.29998779296875,
+      "avgGrade": -0.458565354347229,
+      "startLat": 31.149499893188477,
+      "startLng": 121.76974487304688
+    },
+    {
+      "id": "27401582",
+      "tileScore": 6,
+      "name": "DP Airport Loop part 1",
+      "distanceM": 38720,
+      "avgGrade": 0.004648760426789522,
+      "startLat": 31.236400604248047,
+      "startLng": 121.59383392333984
+    },
+    {
+      "id": "38900316",
+      "tileScore": 11,
+      "name": "航城路（川南奉公路-凌空路）",
+      "distanceM": 1469.5,
+      "avgGrade": -0.013610071502625942,
+      "startLat": 31.156919479370117,
+      "startLng": 121.75157165527344
+    },
+    {
+      "id": "38823487",
+      "tileScore": 22,
+      "name": "航城中路（凌空路-川沙路）",
+      "distanceM": 2532.60009765625,
+      "avgGrade": -0.03553660213947296,
+      "startLat": 31.153610229492188,
+      "startLng": 121.73607635498047
+    },
+    {
+      "id": "39022339",
+      "tileScore": 17,
+      "name": "国航 3km 绕圈",
+      "distanceM": 3067.699951171875,
+      "avgGrade": -0.13039083778858185,
+      "startLat": 31.163381576538086,
+      "startLng": 121.77267456054688
+    },
+    {
+      "id": "40251335",
+      "tileScore": 9,
+      "name": "凌空路  闻居起点开冲",
+      "distanceM": 966,
+      "avgGrade": 0.2277432680130005,
+      "startLat": 31.13170051574707,
+      "startLng": 121.74903106689453
+    },
+    {
+      "id": "39296124",
+      "tileScore": 7,
+      "name": "Behind the Airport (New)",
+      "distanceM": 702.7999877929688,
+      "avgGrade": 0.05691519379615784,
+      "startLat": 31.138315200805664,
+      "startLng": 121.77047729492188
+    },
+    {
+      "id": "34411159",
+      "tileScore": 1,
+      "name": "Puxin Lu South",
+      "distanceM": 5139.39990234375,
+      "avgGrade": 0.031132038682699203,
+      "startLat": 31.14849853515625,
+      "startLng": 121.72673034667969
+    }
+  ]
+}

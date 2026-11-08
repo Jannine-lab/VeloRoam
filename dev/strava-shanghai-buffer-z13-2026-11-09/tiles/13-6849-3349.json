@@ -1,0 +1,128 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-03T06:07:56.874Z",
+  "tile": {
+    "z": 13,
+    "x": 6849,
+    "y": 3349
+  },
+  "segments": [
+    {
+      "id": "40234825",
+      "tileScore": 16,
+      "name": "【XYH】决战黄浦江",
+      "distanceM": 2202.89990234375,
+      "avgGrade": -0.1180262416601181,
+      "startLat": 31.182964324951172,
+      "startLng": 121.00260925292969
+    },
+    {
+      "id": "40318658",
+      "tileScore": 4,
+      "name": "SHA: Dianshan Lake - Songze Rd (channel path), 21km",
+      "distanceM": 21030.5,
+      "avgGrade": -0.001901999581605196,
+      "startLat": 31.148513793945312,
+      "startLng": 120.99622344970703
+    },
+    {
+      "id": "5163098",
+      "tileScore": 159,
+      "name": "Dianshan TT short",
+      "distanceM": 7128,
+      "avgGrade": -0.028058363124728203,
+      "startLat": 31.146223068237305,
+      "startLng": 121.01192474365234
+    },
+    {
+      "id": "42155611",
+      "tileScore": 19,
+      "name": "淀山湖大环加太浦河95km",
+      "distanceM": 98464.203125,
+      "avgGrade": 0.00020311950356699526,
+      "startLat": 31.100807189941406,
+      "startLng": 121.01215362548828
+    },
+    {
+      "id": "30074996",
+      "tileScore": 1,
+      "name": "LG-08",
+      "distanceM": 3575.39990234375,
+      "avgGrade": 0.044750239700078964,
+      "startLat": 31.177448272705078,
+      "startLng": 121.03191375732422
+    },
+    {
+      "id": "40311254",
+      "tileScore": 76,
+      "name": "2.22KM 湖边侧风段",
+      "distanceM": 2220.60009765625,
+      "avgGrade": -0.027019726112484932,
+      "startLat": 31.144140243530273,
+      "startLng": 120.98046875
+    },
+    {
+      "id": "35444071",
+      "tileScore": 22,
+      "name": "race sprint",
+      "distanceM": 511.70001220703125,
+      "avgGrade": -0.23451240360736847,
+      "startLat": 31.162303924560547,
+      "startLng": 120.99398040771484
+    },
+    {
+      "id": "38897849",
+      "tileScore": 1,
+      "name": "公制世纪 - KOM",
+      "distanceM": 101772.296875,
+      "avgGrade": -0.0031442742329090834,
+      "startLat": 31.17006492614746,
+      "startLng": 121.2751235961914
+    },
+    {
+      "id": "17111113",
+      "tileScore": 3,
+      "name": "Dianshanhu bridge",
+      "distanceM": 3827.89990234375,
+      "avgGrade": 0.03657357767224312,
+      "startLat": 31.112234115600586,
+      "startLng": 121.00028228759766
+    },
+    {
+      "id": "28899205",
+      "tileScore": 48,
+      "name": "Yinghu Straight",
+      "distanceM": 3569.39990234375,
+      "avgGrade": 0.02801591157913208,
+      "startLat": 31.162336349487305,
+      "startLng": 120.9891128540039
+    },
+    {
+      "id": "38288037",
+      "tileScore": 8,
+      "name": "VKCC 口木的秘密训练路线",
+      "distanceM": 54715.8984375,
+      "avgGrade": 0.0018276222981512547,
+      "startLat": 31.079866409301758,
+      "startLng": 120.9510726928711
+    },
+    {
+      "id": "12132871",
+      "tileScore": 157,
+      "name": "北岸繞圈",
+      "distanceM": 13610.599609375,
+      "avgGrade": -0.019102757796645164,
+      "startLat": 31.146255493164062,
+      "startLng": 121.0080337524414
+    },
+    {
+      "id": "38551336",
+      "tileScore": 71,
+      "name": "14KM北岸绕圈-冲刺火车启动",
+      "distanceM": 1303.0999755859375,
+      "avgGrade": 0.0767400860786438,
+      "startLat": 31.148109436035156,
+      "startLng": 121.02670288085938
+    }
+  ]
+}

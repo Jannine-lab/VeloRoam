@@ -1,0 +1,20 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-08T22:35:14.846Z",
+  "tile": {
+    "z": 13,
+    "x": 6789,
+    "y": 3329
+  },
+  "segments": [
+    {
+      "id": "24020431",
+      "tileScore": 1,
+      "name": "WuJiang-XiangQuan",
+      "distanceM": 10530,
+      "avgGrade": 0.034188032150268555,
+      "startLat": 31.861270904541016,
+      "startLng": 118.44914245605469
+    }
+  ]
+}

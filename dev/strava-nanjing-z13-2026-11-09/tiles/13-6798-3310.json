@@ -1,0 +1,20 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-08T22:26:00.204Z",
+  "tile": {
+    "z": 13,
+    "x": 6798,
+    "y": 3310
+  },
+  "segments": [
+    {
+      "id": "30243655",
+      "tileScore": 28,
+      "name": "天长99公路西往东之于洼—新街段",
+      "distanceM": 6474,
+      "avgGrade": 0.049428485333919525,
+      "startLat": 32.61481475830078,
+      "startLng": 118.7804946899414
+    }
+  ]
+}

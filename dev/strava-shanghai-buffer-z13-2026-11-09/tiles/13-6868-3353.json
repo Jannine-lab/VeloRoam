@@ -1,0 +1,29 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-03T06:10:41.742Z",
+  "tile": {
+    "z": 13,
+    "x": 6868,
+    "y": 3353
+  },
+  "segments": [
+    {
+      "id": "28359417",
+      "tileScore": 70,
+      "name": "Canals Straight ",
+      "distanceM": 17928.80078125,
+      "avgGrade": 0.012270759791135788,
+      "startLat": 31.01532554626465,
+      "startLng": 121.65323638916016
+    },
+    {
+      "id": "38915113",
+      "tileScore": 131,
+      "name": "大治河10公里TT-西向",
+      "distanceM": 10005.400390625,
+      "avgGrade": 0.01799028553068638,
+      "startLat": 31.00803565979004,
+      "startLng": 121.85486602783203
+    }
+  ]
+}

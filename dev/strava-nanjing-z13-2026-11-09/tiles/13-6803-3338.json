@@ -1,0 +1,101 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-08T22:38:29.970Z",
+  "tile": {
+    "z": 13,
+    "x": 6803,
+    "y": 3338
+  },
+  "segments": [
+    {
+      "id": "39988087",
+      "tileScore": 4,
+      "name": "郭兴庄园骑游环线",
+      "distanceM": 13761.2001953125,
+      "avgGrade": 0.016713658347725868,
+      "startLat": 31.590219497680664,
+      "startLng": 118.99111938476562
+    },
+    {
+      "id": "39051044",
+      "tileScore": 21,
+      "name": "环无想山赛段",
+      "distanceM": 24712.400390625,
+      "avgGrade": 0.017400171607732773,
+      "startLat": 31.60159683227539,
+      "startLng": 119.06743621826172
+    },
+    {
+      "id": "40227823",
+      "tileScore": 7,
+      "name": "蒲塘到博望",
+      "distanceM": 9284.2001953125,
+      "avgGrade": 0.14433123171329498,
+      "startLat": 31.566001892089844,
+      "startLng": 118.98736572265625
+    },
+    {
+      "id": "29762969",
+      "tileScore": 41,
+      "name": "S123 石臼湖路-S341",
+      "distanceM": 7760.2001953125,
+      "avgGrade": -0.15978969633579254,
+      "startLat": 31.489532470703125,
+      "startLng": 118.99662780761719
+    },
+    {
+      "id": "33010909",
+      "tileScore": 16,
+      "name": "石臼湖东上半段冲刺TopK",
+      "distanceM": 4318.7998046875,
+      "avgGrade": 0,
+      "startLat": 31.550260543823242,
+      "startLng": 118.95625305175781
+    },
+    {
+      "id": "21728651",
+      "tileScore": 6,
+      "name": "20190908 环石臼湖自行车赛 Shijiu Lake Criterium",
+      "distanceM": 86061,
+      "avgGrade": 0.009992912411689758,
+      "startLat": 31.57097816467285,
+      "startLng": 118.89986419677734
+    },
+    {
+      "id": "20979509",
+      "tileScore": 4,
+      "name": "20181111环溧水自行车赛 Lishui Criterium",
+      "distanceM": 139486.90625,
+      "avgGrade": 0.00444486178457737,
+      "startLat": 31.613245010375977,
+      "startLng": 119.02008056640625
+    },
+    {
+      "id": "19305235",
+      "tileScore": 1,
+      "name": "18K in between the hills (ToL-2018)",
+      "distanceM": 18212.5,
+      "avgGrade": 0.010432395152747631,
+      "startLat": 31.59682273864746,
+      "startLng": 119.02420043945312
+    },
+    {
+      "id": "40319092",
+      "tileScore": 10,
+      "name": "悦居至蒲塘 ",
+      "distanceM": 7996.7001953125,
+      "avgGrade": -0.11004538834095001,
+      "startLat": 31.63779640197754,
+      "startLng": 119.01093292236328
+    },
+    {
+      "id": "33010904",
+      "tileScore": 14,
+      "name": "石臼湖东半圈TopK",
+      "distanceM": 34885.80078125,
+      "avgGrade": -0.012325932271778584,
+      "startLat": 31.53363037109375,
+      "startLng": 118.89861297607422
+    }
+  ]
+}

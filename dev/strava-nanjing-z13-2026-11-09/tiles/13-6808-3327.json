@@ -1,0 +1,20 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-08T22:34:43.050Z",
+  "tile": {
+    "z": 13,
+    "x": 6808,
+    "y": 3327
+  },
+  "segments": [
+    {
+      "id": "29908164",
+      "tileScore": 27,
+      "name": "S243 from Jurong",
+      "distanceM": 20347,
+      "avgGrade": -0.01769302599132061,
+      "startLat": 31.9627628326416,
+      "startLng": 119.20352172851562
+    }
+  ]
+}

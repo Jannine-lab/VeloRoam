@@ -1,0 +1,38 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-08T22:38:06.128Z",
+  "tile": {
+    "z": 13,
+    "x": 6802,
+    "y": 3336
+  },
+  "segments": [
+    {
+      "id": "35628469",
+      "tileScore": 32,
+      "name": "from 天生桥 to 石湫",
+      "distanceM": 6936,
+      "avgGrade": -0.2710496187210083,
+      "startLat": 31.63878059387207,
+      "startLng": 118.97588348388672
+    },
+    {
+      "id": "15269856",
+      "tileScore": 2,
+      "name": "xiaomaoshan",
+      "distanceM": 1265.5,
+      "avgGrade": 9.553536415100098,
+      "startLat": 31.633392333984375,
+      "startLng": 118.94286346435547
+    },
+    {
+      "id": "20979509",
+      "tileScore": 4,
+      "name": "20181111环溧水自行车赛 Lishui Criterium",
+      "distanceM": 139486.90625,
+      "avgGrade": 0.00444486178457737,
+      "startLat": 31.613245010375977,
+      "startLng": 119.02008056640625
+    }
+  ]
+}

@@ -1,0 +1,164 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-08T22:59:35.712Z",
+  "tile": {
+    "z": 13,
+    "x": 6844,
+    "y": 3346
+  },
+  "segments": [
+    {
+      "id": "11586735",
+      "tileScore": 6,
+      "name": "Cheguo Rd (North-East Bound)",
+      "distanceM": 1510.0999755859375,
+      "avgGrade": 0.19866235554218292,
+      "startLat": 31.25251579284668,
+      "startLng": 120.75763702392578
+    },
+    {
+      "id": "12762052",
+      "tileScore": 3,
+      "name": "Che Fang Bridge (Southbound)",
+      "distanceM": 383.79998779296875,
+      "avgGrade": 0.26055237650871277,
+      "startLat": 31.246740341186523,
+      "startLng": 120.76368713378906
+    },
+    {
+      "id": "38918201",
+      "tileScore": 2,
+      "name": "DongFang Road to Luzhi",
+      "distanceM": 12027.900390625,
+      "avgGrade": 0,
+      "startLat": 31.24398422241211,
+      "startLng": 120.70996856689453
+    },
+    {
+      "id": "21279851",
+      "tileScore": 2,
+      "name": "Last km to accelerate a bit",
+      "distanceM": 1023,
+      "avgGrade": 0.05865103006362915,
+      "startLat": 31.254751205444336,
+      "startLng": 120.80854797363281
+    },
+    {
+      "id": "40537521",
+      "tileScore": 8,
+      "name": "环澄湖",
+      "distanceM": 43049.19921875,
+      "avgGrade": 0.012543787248432636,
+      "startLat": 31.252605438232422,
+      "startLng": 120.79975891113281
+    },
+    {
+      "id": "39988582",
+      "tileScore": 21,
+      "name": "车坊大桥",
+      "distanceM": 1495.4000244140625,
+      "avgGrade": 0.6152200102806091,
+      "startLat": 31.244029998779297,
+      "startLng": 120.77037048339844
+    },
+    {
+      "id": "15213957",
+      "tileScore": 6,
+      "name": "X301 + Sanma Rd",
+      "distanceM": 2949.89990234375,
+      "avgGrade": 0.02711956389248371,
+      "startLat": 31.265920639038086,
+      "startLng": 120.77711486816406
+    },
+    {
+      "id": "17886225",
+      "tileScore": 2,
+      "name": "Changbang Rd (Southbound)",
+      "distanceM": 825.7000122070312,
+      "avgGrade": -0.12110935896635056,
+      "startLat": 31.25504493713379,
+      "startLng": 120.78041076660156
+    },
+    {
+      "id": "14194265",
+      "tileScore": 9,
+      "name": "Zhang's Zig-Zag (Eastbound)",
+      "distanceM": 7297.39990234375,
+      "avgGrade": -0.05755474418401718,
+      "startLat": 31.252534866333008,
+      "startLng": 120.79891204833984
+    },
+    {
+      "id": "40490430",
+      "tileScore": 7,
+      "name": "Chenghu strat",
+      "distanceM": 1771.699951171875,
+      "avgGrade": 0.13546311855316162,
+      "startLat": 31.26726531982422,
+      "startLng": 120.79817199707031
+    },
+    {
+      "id": "14194229",
+      "tileScore": 2,
+      "name": "Changbang Rd (Westbound)",
+      "distanceM": 1982,
+      "avgGrade": 0,
+      "startLat": 31.255216598510742,
+      "startLng": 120.79656219482422
+    },
+    {
+      "id": "41163087",
+      "tileScore": 8,
+      "name": "苏同黎右转江兴东路",
+      "distanceM": 12098.900390625,
+      "avgGrade": 0.0016530428547412157,
+      "startLat": 31.242969512939453,
+      "startLng": 120.7718505859375
+    },
+    {
+      "id": "22105952",
+      "tileScore": 4,
+      "name": "Zhongnan St (ZXDDD) + Jinyan Rd",
+      "distanceM": 5329.89990234375,
+      "avgGrade": 0.018762078136205673,
+      "startLat": 31.31037139892578,
+      "startLng": 120.75257110595703
+    },
+    {
+      "id": "8361862",
+      "tileScore": 1,
+      "name": "X301 x Wusong River Bridge (Westbound)",
+      "distanceM": 937.2000122070312,
+      "avgGrade": 0.2240716964006424,
+      "startLat": 31.26615333557129,
+      "startLng": 120.77599334716797
+    },
+    {
+      "id": "41209991",
+      "tileScore": 3,
+      "name": "Maqian Rd reverse",
+      "distanceM": 1140.800048828125,
+      "avgGrade": -0.12272089719772339,
+      "startLat": 31.2587833404541,
+      "startLng": 120.80534362792969
+    },
+    {
+      "id": "12963051",
+      "tileScore": 2,
+      "name": "003 Country Rd (Eastbound)",
+      "distanceM": 1953.0999755859375,
+      "avgGrade": -0.030720394104719162,
+      "startLat": 31.243440628051758,
+      "startLng": 120.77371978759766
+    },
+    {
+      "id": "17884096",
+      "tileScore": 10,
+      "name": "Jinshan Rd (Northbound)",
+      "distanceM": 4544.39990234375,
+      "avgGrade": -0.035208169370889664,
+      "startLat": 31.207523345947266,
+      "startLng": 120.78133392333984
+    }
+  ]
+}

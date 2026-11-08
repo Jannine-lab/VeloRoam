@@ -1,0 +1,38 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-08T22:57:32.226Z",
+  "tile": {
+    "z": 13,
+    "x": 6868,
+    "y": 3350
+  },
+  "segments": [
+    {
+      "id": "39436580",
+      "tileScore": 1,
+      "name": "松间柏油小径",
+      "distanceM": 975,
+      "avgGrade": 0.020512821152806282,
+      "startLat": 31.093341827392578,
+      "startLng": 121.83308410644531
+    },
+    {
+      "id": "39436646",
+      "tileScore": 1,
+      "name": "Jungang after the light",
+      "distanceM": 1812.5,
+      "avgGrade": 0.04413793236017227,
+      "startLat": 31.07817268371582,
+      "startLng": 121.84212493896484
+    },
+    {
+      "id": "11297194",
+      "tileScore": 9,
+      "name": "PVG N to S from the Sea Wall Turn Off",
+      "distanceM": 6008.7001953125,
+      "avgGrade": -0.0033285068348050117,
+      "startLat": 31.161985397338867,
+      "startLng": 121.81363677978516
+    }
+  ]
+}

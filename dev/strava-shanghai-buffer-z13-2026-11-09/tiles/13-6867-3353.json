@@ -1,0 +1,74 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-03T06:10:41.742Z",
+  "tile": {
+    "z": 13,
+    "x": 6867,
+    "y": 3353
+  },
+  "segments": [
+    {
+      "id": "30450614",
+      "tileScore": 24,
+      "name": "“海王杯”第二赛段",
+      "distanceM": 21629.400390625,
+      "avgGrade": 0.0527060404419899,
+      "startLat": 30.94480323791504,
+      "startLng": 121.8846435546875
+    },
+    {
+      "id": "33671231",
+      "tileScore": 32,
+      "name": "三三公路双桥",
+      "distanceM": 4175.2001953125,
+      "avgGrade": 0.10059397667646408,
+      "startLat": 30.97541618347168,
+      "startLng": 121.80868530273438
+    },
+    {
+      "id": "38915113",
+      "tileScore": 131,
+      "name": "大治河10公里TT-西向",
+      "distanceM": 10005.400390625,
+      "avgGrade": 0.01799028553068638,
+      "startLat": 31.00803565979004,
+      "startLng": 121.85486602783203
+    },
+    {
+      "id": "28359417",
+      "tileScore": 70,
+      "name": "Canals Straight ",
+      "distanceM": 17928.80078125,
+      "avgGrade": 0.012270759791135788,
+      "startLat": 31.01532554626465,
+      "startLng": 121.65323638916016
+    },
+    {
+      "id": "42433647",
+      "tileScore": 1,
+      "name": "33 bridge#2",
+      "distanceM": 755.5999755859375,
+      "avgGrade": -0.0264690313488245,
+      "startLat": 30.978836059570312,
+      "startLng": 121.79339599609375
+    },
+    {
+      "id": "21072597",
+      "tileScore": 24,
+      "name": "临港大道Bridge-West to East",
+      "distanceM": 451.70001220703125,
+      "avgGrade": 1.9481956958770752,
+      "startLat": 30.98436737060547,
+      "startLng": 121.79407501220703
+    },
+    {
+      "id": "29849589",
+      "tileScore": 15,
+      "name": "东大最终决战",
+      "distanceM": 2925.10009765625,
+      "avgGrade": 0.2666575610637665,
+      "startLat": 30.988916397094727,
+      "startLng": 121.76823425292969
+    }
+  ]
+}

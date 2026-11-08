@@ -1,0 +1,101 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-08T23:02:08.656Z",
+  "tile": {
+    "z": 13,
+    "x": 6865,
+    "y": 3348
+  },
+  "segments": [
+    {
+      "id": "5717565",
+      "tileScore": 8,
+      "name": "Huaxia East Rd x Canals Bridge Blast on Cycling Lane (Eastbound)",
+      "distanceM": 769,
+      "avgGrade": -0.11703510582447052,
+      "startLat": 31.20205307006836,
+      "startLng": 121.69953155517578
+    },
+    {
+      "id": "37093928",
+      "tileScore": 6,
+      "name": "home cycling",
+      "distanceM": 2131.89990234375,
+      "avgGrade": -0.009381303563714027,
+      "startLat": 31.173986434936523,
+      "startLng": 121.6881332397461
+    },
+    {
+      "id": "39326041",
+      "tileScore": 5,
+      "name": "SUPER C的训练赛段(晚上十点你还会爱我吗)",
+      "distanceM": 31948.099609375,
+      "avgGrade": -0.005634137894958258,
+      "startLat": 31.1982364654541,
+      "startLng": 121.73193359375
+    },
+    {
+      "id": "20304993",
+      "tileScore": 10,
+      "name": "Yaolong & Huaxia Hot Blast",
+      "distanceM": 29317,
+      "avgGrade": -0.008527475409209728,
+      "startLat": 31.14801597595215,
+      "startLng": 121.47225952148438
+    },
+    {
+      "id": "14700693",
+      "tileScore": 9,
+      "name": "Time to sprint",
+      "distanceM": 1376.300048828125,
+      "avgGrade": -0.1525830179452896,
+      "startLat": 31.17170524597168,
+      "startLng": 121.68431854248047
+    },
+    {
+      "id": "6371687",
+      "tileScore": 6,
+      "name": "Chuansha Rd to Huadong Rd Sprint",
+      "distanceM": 1404.4000244140625,
+      "avgGrade": -0.02848191373050213,
+      "startLat": 31.202117919921875,
+      "startLng": 121.6913833618164
+    },
+    {
+      "id": "39320505",
+      "tileScore": 4,
+      "name": "川沙路（航程路-川周公路）",
+      "distanceM": 3512.800048828125,
+      "avgGrade": 0.025620587170124054,
+      "startLat": 31.147180557250977,
+      "startLng": 121.7106704711914
+    },
+    {
+      "id": "29669166",
+      "tileScore": 5,
+      "name": "Back to the city",
+      "distanceM": 11189.5,
+      "avgGrade": -0.05898386985063553,
+      "startLat": 31.209815979003906,
+      "startLng": 121.74333953857422
+    },
+    {
+      "id": "15336818",
+      "tileScore": 8,
+      "name": "Hell pass ",
+      "distanceM": 375.6000061035156,
+      "avgGrade": 0.18636848032474518,
+      "startLat": 31.17686653137207,
+      "startLng": 121.69819641113281
+    },
+    {
+      "id": "40794634",
+      "tileScore": 15,
+      "name": "润川路绕圈",
+      "distanceM": 2732.39990234375,
+      "avgGrade": 0.03659786283969879,
+      "startLat": 31.191511154174805,
+      "startLng": 121.72564697265625
+    }
+  ]
+}

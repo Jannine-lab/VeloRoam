@@ -1,0 +1,29 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-08T22:27:41.200Z",
+  "tile": {
+    "z": 13,
+    "x": 6801,
+    "y": 3318
+  },
+  "segments": [
+    {
+      "id": "38768899",
+      "tileScore": 5,
+      "name": "灵岩山顺时针绕圈",
+      "distanceM": 7952.60009765625,
+      "avgGrade": -0.002514900639653206,
+      "startLat": 32.29624938964844,
+      "startLng": 118.8801040649414
+    },
+    {
+      "id": "22250770",
+      "tileScore": 24,
+      "name": "灵岩山",
+      "distanceM": 1994,
+      "avgGrade": 7.011033058166504,
+      "startLat": 32.29561233520508,
+      "startLng": 118.87993621826172
+    }
+  ]
+}

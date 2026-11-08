@@ -1,0 +1,20 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-08T22:26:02.476Z",
+  "tile": {
+    "z": 13,
+    "x": 6794,
+    "y": 3310
+  },
+  "segments": [
+    {
+      "id": "41510979",
+      "tileScore": 9,
+      "name": "王集—何郢",
+      "distanceM": 6268,
+      "avgGrade": 0.0829610750079155,
+      "startLat": 32.62406539916992,
+      "startLng": 118.60926818847656
+    }
+  ]
+}

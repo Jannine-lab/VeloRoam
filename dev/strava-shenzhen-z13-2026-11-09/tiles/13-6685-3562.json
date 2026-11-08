@@ -1,0 +1,119 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-08T22:48:52.058Z",
+  "tile": {
+    "z": 13,
+    "x": 6685,
+    "y": 3562
+  },
+  "segments": [
+    {
+      "id": "16861835",
+      "tileScore": 8,
+      "name": "Lianhu Lu light to light",
+      "distanceM": 764.4000244140625,
+      "avgGrade": -0.07849293947219849,
+      "startLat": 22.82895278930664,
+      "startLng": 113.78335571289062
+    },
+    {
+      "id": "40404229",
+      "tileScore": 18,
+      "name": "长安-正果拉练  入隧道前",
+      "distanceM": 58242,
+      "avgGrade": 0.0065245009027421474,
+      "startLat": 22.82621955871582,
+      "startLng": 113.8212890625
+    },
+    {
+      "id": "33432874",
+      "tileScore": 11,
+      "name": "体育公园绕圈",
+      "distanceM": 1864.5,
+      "avgGrade": 0,
+      "startLat": 22.82265853881836,
+      "startLng": 113.79251861572266
+    },
+    {
+      "id": "14540908",
+      "tileScore": 7,
+      "name": "Sanlin Park Entrance",
+      "distanceM": 1060.5,
+      "avgGrade": 1.9990570545196533,
+      "startLat": 22.829626083374023,
+      "startLng": 113.78314208984375
+    },
+    {
+      "id": "15327524",
+      "tileScore": 3,
+      "name": "Changshi Rd Back",
+      "distanceM": 1290.300048828125,
+      "avgGrade": -0.6975122094154358,
+      "startLat": 22.828378677368164,
+      "startLng": 113.78318786621094
+    },
+    {
+      "id": "36354649",
+      "tileScore": 5,
+      "name": "塘下涌立交深圳方向",
+      "distanceM": 1320.800048828125,
+      "avgGrade": -0.151423379778862,
+      "startLat": 22.805017471313477,
+      "startLng": 113.81775665283203
+    },
+    {
+      "id": "15317596",
+      "tileScore": 5,
+      "name": "Quick sprint back",
+      "distanceM": 622.7999877929688,
+      "avgGrade": -0.28901731967926025,
+      "startLat": 22.81334114074707,
+      "startLng": 113.78535461425781
+    },
+    {
+      "id": "15327634",
+      "tileScore": 2,
+      "name": "Changqing N Road",
+      "distanceM": 1199.5,
+      "avgGrade": 0.6169236898422241,
+      "startLat": 22.81709861755371,
+      "startLng": 113.79612731933594
+    },
+    {
+      "id": "35978033",
+      "tileScore": 9,
+      "name": "G107松岗至杨屋",
+      "distanceM": 10208.099609375,
+      "avgGrade": 0.21747437119483948,
+      "startLat": 22.78008460998535,
+      "startLng": 113.83658599853516
+    },
+    {
+      "id": "15667747",
+      "tileScore": 1,
+      "name": "Wushahuan E Rd",
+      "distanceM": 1204.800048828125,
+      "avgGrade": 0.016600266098976135,
+      "startLat": 22.799148559570312,
+      "startLng": 113.78611755371094
+    },
+    {
+      "id": "14638043",
+      "tileScore": 6,
+      "name": "Sprint final ",
+      "distanceM": 530.7999877929688,
+      "avgGrade": 0.941974401473999,
+      "startLat": 22.816606521606445,
+      "startLng": 113.79682159423828
+    },
+    {
+      "id": "15308225",
+      "tileScore": 2,
+      "name": "358 to Hengzheng Rd",
+      "distanceM": 776.7999877929688,
+      "avgGrade": -0.12873326241970062,
+      "startLat": 22.8017635345459,
+      "startLng": 113.78594970703125
+    }
+  ]
+}

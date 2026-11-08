@@ -1,0 +1,14 @@
+{
+  "implementationHash": "dc4b631ee0e7e4187ea65aede895d9ef516ce0524204c39279ac1b106d4918a5",
+  "files": [
+    "src/controllers/ideaController.ts",
+    "src/services/ideaModel.ts",
+    "src/services/ideaToolAgent.ts",
+    "src/prompts/ideaPrompts.ts",
+    "src/services/ideaAgentGraph.ts",
+    "src/services/ideaIntent.ts",
+    "src/services/ideaTagPreferences.ts",
+    "src/evals/ideaEvaluation.ts",
+    "src/evals/ideaEvalCases.ts"
+  ]
+}

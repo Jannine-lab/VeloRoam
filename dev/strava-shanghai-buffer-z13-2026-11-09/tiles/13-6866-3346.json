@@ -1,0 +1,92 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-03T06:07:17.882Z",
+  "tile": {
+    "z": 13,
+    "x": 6866,
+    "y": 3346
+  },
+  "segments": [
+    {
+      "id": "16695526",
+      "tileScore": 7,
+      "name": "to the sea",
+      "distanceM": 30088.599609375,
+      "avgGrade": 0.015952887013554573,
+      "startLat": 31.223649978637695,
+      "startLng": 121.50944519042969
+    },
+    {
+      "id": "7356280",
+      "tileScore": 55,
+      "name": "renmintang lu south",
+      "distanceM": 1041.5,
+      "avgGrade": -0.10561690479516983,
+      "startLat": 31.24848747253418,
+      "startLng": 121.73719024658203
+    },
+    {
+      "id": "5402929",
+      "tileScore": 44,
+      "name": "Canal Sprint - MTB's only",
+      "distanceM": 1331.5999755859375,
+      "avgGrade": 0.5331931710243225,
+      "startLat": 31.258943557739258,
+      "startLng": 121.7277603149414
+    },
+    {
+      "id": "5402909",
+      "tileScore": 1,
+      "name": "Harbour Wall Ride (MTB's Only)",
+      "distanceM": 4394.5,
+      "avgGrade": -0.1183297261595726,
+      "startLat": 31.2641658782959,
+      "startLng": 121.74012756347656
+    },
+    {
+      "id": "41473969",
+      "tileScore": 50,
+      "name": "Let's catch the Professor in the jungle",
+      "distanceM": 1323.5,
+      "avgGrade": 0,
+      "startLat": 31.252685546875,
+      "startLng": 121.7322998046875
+    },
+    {
+      "id": "41273309",
+      "tileScore": 25,
+      "name": "人民塘路北段",
+      "distanceM": 10043.099609375,
+      "avgGrade": -0.01593133620917797,
+      "startLat": 31.27474021911621,
+      "startLng": 121.71453857421875
+    },
+    {
+      "id": "41037895",
+      "tileScore": 49,
+      "name": "缓和一下气氛",
+      "distanceM": 3000.699951171875,
+      "avgGrade": 0.0666511133313179,
+      "startLat": 31.264598846435547,
+      "startLng": 121.71259307861328
+    },
+    {
+      "id": "6844731",
+      "tileScore": 19,
+      "name": "Sea wall dash",
+      "distanceM": 1201.5999755859375,
+      "avgGrade": 0.4577230215072632,
+      "startLat": 31.266536712646484,
+      "startLng": 121.7389907836914
+    },
+    {
+      "id": "39512339",
+      "tileScore": 27,
+      "name": "Haitanger Rd",
+      "distanceM": 1376.5999755859375,
+      "avgGrade": 0.058114197105169296,
+      "startLat": 31.26152992248535,
+      "startLng": 121.7341079711914
+    }
+  ]
+}

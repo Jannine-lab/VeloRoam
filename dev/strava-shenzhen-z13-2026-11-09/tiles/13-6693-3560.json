@@ -1,0 +1,47 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-08T22:48:03.072Z",
+  "tile": {
+    "z": 13,
+    "x": 6693,
+    "y": 3560
+  },
+  "segments": [
+    {
+      "id": "5684351",
+      "tileScore": 3,
+      "name": "Lengshuikeng Street Climb",
+      "distanceM": 1129,
+      "avgGrade": 13.631531715393066,
+      "startLat": 22.872774124145508,
+      "startLng": 114.14594268798828
+    },
+    {
+      "id": "5684352",
+      "tileScore": 3,
+      "name": "Lengshuikeng Street Climb",
+      "distanceM": 1271.0999755859375,
+      "avgGrade": 12.744866371154785,
+      "startLat": 22.87705421447754,
+      "startLng": 114.13426208496094
+    },
+    {
+      "id": "5684350",
+      "tileScore": 4,
+      "name": "Bailang Xinwei Street Climb",
+      "distanceM": 1400.800048828125,
+      "avgGrade": 9.416048049926758,
+      "startLat": 22.876211166381836,
+      "startLng": 114.15788269042969
+    },
+    {
+      "id": "866548",
+      "tileScore": 16,
+      "name": "Qingxi Forest Park 720m climb",
+      "distanceM": 6557.85009765625,
+      "avgGrade": 9.169093132019043,
+      "startLat": 22.8758487701416,
+      "startLng": 114.15540313720703
+    }
+  ]
+}

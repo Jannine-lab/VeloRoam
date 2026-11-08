@@ -1,0 +1,74 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-03T06:12:45.976Z",
+  "tile": {
+    "z": 13,
+    "x": 6862,
+    "y": 3357
+  },
+  "segments": [
+    {
+      "id": "29178514",
+      "tileScore": 4,
+      "name": "beach street",
+      "distanceM": 4225.7998046875,
+      "avgGrade": 0.04259548336267471,
+      "startLat": 30.823251724243164,
+      "startLng": 121.52932739257812
+    },
+    {
+      "id": "20936603",
+      "tileScore": 15,
+      "name": "Seawall",
+      "distanceM": 7833.10009765625,
+      "avgGrade": 0.00765980314463377,
+      "startLat": 30.84857749938965,
+      "startLng": 121.65276336669922
+    },
+    {
+      "id": "34906724",
+      "tileScore": 19,
+      "name": "🌬turbine turbo set",
+      "distanceM": 8190.39990234375,
+      "avgGrade": -0.014651298522949219,
+      "startLat": 30.83193016052246,
+      "startLng": 121.57391357421875
+    },
+    {
+      "id": "8362606",
+      "tileScore": 3,
+      "name": "Yanqian Highway South",
+      "distanceM": 18638.69921875,
+      "avgGrade": 0.009120807982981205,
+      "startLat": 31.005619049072266,
+      "startLng": 121.52973937988281
+    },
+    {
+      "id": "20936572",
+      "tileScore": 87,
+      "name": "Avenue of trees to Plum Park",
+      "distanceM": 10112.099609375,
+      "avgGrade": 0.07713531702756882,
+      "startLat": 30.847942352294922,
+      "startLng": 121.569580078125
+    },
+    {
+      "id": "34876506",
+      "tileScore": 7,
+      "name": "随塘河路（靶场-五四）",
+      "distanceM": 18125.900390625,
+      "avgGrade": -0.011033935472369194,
+      "startLat": 30.842056274414062,
+      "startLng": 121.54557037353516
+    },
+    {
+      "id": "34355371",
+      "tileScore": 7,
+      "name": "海马路",
+      "distanceM": 3593.10009765625,
+      "avgGrade": 0.011132447980344296,
+      "startLat": 30.836389541625977,
+      "startLng": 121.57099914550781
+    }
+  ]
+}

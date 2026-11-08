@@ -1,0 +1,281 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-03T06:07:35.599Z",
+  "tile": {
+    "z": 13,
+    "x": 6863,
+    "y": 3348
+  },
+  "segments": [
+    {
+      "id": "38915262",
+      "tileScore": 108,
+      "name": "沔北冲刺 E->W S20跨线桥",
+      "distanceM": 858.5,
+      "avgGrade": 0.20966802537441254,
+      "startLat": 31.176767349243164,
+      "startLng": 121.64686584472656
+    },
+    {
+      "id": "10077784",
+      "tileScore": 8,
+      "name": "2nd Sister",
+      "distanceM": 308.79998779296875,
+      "avgGrade": 2.5906736850738525,
+      "startLat": 31.196231842041016,
+      "startLng": 121.6199722290039
+    },
+    {
+      "id": "5709745",
+      "tileScore": 4,
+      "name": "Zhangjiang Rd From Gaoke Middle Rd To Huaxia Elevated Rd (Southbound)",
+      "distanceM": 1584.5999755859375,
+      "avgGrade": 0.11990407854318619,
+      "startLat": 31.201171875,
+      "startLng": 121.61754608154297
+    },
+    {
+      "id": "21789103",
+      "tileScore": 24,
+      "name": "Shenjiang Rd North",
+      "distanceM": 10352,
+      "avgGrade": -0.013523956760764122,
+      "startLat": 31.203109741210938,
+      "startLng": 121.62128448486328
+    },
+    {
+      "id": "38620971",
+      "tileScore": 12,
+      "name": "张江 099 Bridge",
+      "distanceM": 505.70001220703125,
+      "avgGrade": 0.5141388177871704,
+      "startLat": 31.192441940307617,
+      "startLng": 121.60832977294922
+    },
+    {
+      "id": "28674220",
+      "tileScore": 7,
+      "name": "Dawn Raiders South Section",
+      "distanceM": 1938.199951171875,
+      "avgGrade": 0,
+      "startLat": 31.175159454345703,
+      "startLng": 121.61469268798828
+    },
+    {
+      "id": "2534843",
+      "tileScore": 14,
+      "name": "Jinke Road",
+      "distanceM": 4446.01318359375,
+      "avgGrade": 0.024741340428590775,
+      "startLat": 31.177852630615234,
+      "startLng": 121.59830474853516
+    },
+    {
+      "id": "35170184",
+      "tileScore": 8,
+      "name": "半个俄罗斯方块",
+      "distanceM": 26143.30078125,
+      "avgGrade": 0.011475215665996075,
+      "startLat": 31.18340492248535,
+      "startLng": 121.61776733398438
+    },
+    {
+      "id": "11652107",
+      "tileScore": 8,
+      "name": "JQ to KQ Disney Right turn",
+      "distanceM": 13486.5,
+      "avgGrade": -0.0029659289866685867,
+      "startLat": 31.239465713500977,
+      "startLng": 121.59770965576172
+    },
+    {
+      "id": "39326041",
+      "tileScore": 6,
+      "name": "SUPER C的训练赛段(晚上十点你还会爱我吗)",
+      "distanceM": 31948.099609375,
+      "avgGrade": -0.005634137894958258,
+      "startLat": 31.1982364654541,
+      "startLng": 121.73193359375
+    },
+    {
+      "id": "28094335",
+      "tileScore": 3,
+      "name": "____DP_V2.x_______",
+      "distanceM": 28802.900390625,
+      "avgGrade": -0.01735936477780342,
+      "startLat": 31.197185516357422,
+      "startLng": 121.53400421142578
+    },
+    {
+      "id": "7363437",
+      "tileScore": 6,
+      "name": "SBCU Rollers",
+      "distanceM": 1795,
+      "avgGrade": -0.17827297747135162,
+      "startLat": 31.201555252075195,
+      "startLng": 121.62045288085938
+    },
+    {
+      "id": "15484457",
+      "tileScore": 40,
+      "name": "Jinke Kangxin Huaxia to Hunan",
+      "distanceM": 15852.7001953125,
+      "avgGrade": 0.006308073177933693,
+      "startLat": 31.169862747192383,
+      "startLng": 121.60026550292969
+    },
+    {
+      "id": "38620746",
+      "tileScore": 52,
+      "name": "商飞 099 Sprint",
+      "distanceM": 904.4000244140625,
+      "avgGrade": -0.15479876101016998,
+      "startLat": 31.176034927368164,
+      "startLng": 121.61605072021484
+    },
+    {
+      "id": "36849446",
+      "tileScore": 83,
+      "name": "TRC",
+      "distanceM": 2920.300048828125,
+      "avgGrade": 0,
+      "startLat": 31.17807960510254,
+      "startLng": 121.66089630126953
+    },
+    {
+      "id": "42079725",
+      "tileScore": 3,
+      "name": "Markus Bruengger (R.I.P. | G.O.A.T.) Memory Ride",
+      "distanceM": 64397.30078125,
+      "avgGrade": -0.006522012874484062,
+      "startLat": 31.224090576171875,
+      "startLng": 121.55386352539062
+    },
+    {
+      "id": "35927579",
+      "tileScore": 4,
+      "name": "金桥-滴水湖-云山路绕圈",
+      "distanceM": 150058.90625,
+      "avgGrade": 0.0018659341149032116,
+      "startLat": 31.22467041015625,
+      "startLng": 121.62055969238281
+    },
+    {
+      "id": "27401582",
+      "tileScore": 8,
+      "name": "DP Airport Loop part 1",
+      "distanceM": 38720,
+      "avgGrade": 0.004648760426789522,
+      "startLat": 31.236400604248047,
+      "startLng": 121.59383392333984
+    },
+    {
+      "id": "38915287",
+      "tileScore": 91,
+      "name": "沔北冲刺 E->W 02",
+      "distanceM": 823,
+      "avgGrade": -0.024301335215568542,
+      "startLat": 31.17240333557129,
+      "startLng": 121.63565063476562
+    },
+    {
+      "id": "18858104",
+      "tileScore": 12,
+      "name": "Sunhuan Road",
+      "distanceM": 2514.800048828125,
+      "avgGrade": -0.01988229714334011,
+      "startLat": 31.188905715942383,
+      "startLng": 121.63246154785156
+    },
+    {
+      "id": "22336529",
+      "tileScore": 39,
+      "name": "The Bridge 筑桥",
+      "distanceM": 851.2999877929688,
+      "avgGrade": 0.14096088707447052,
+      "startLat": 31.191059112548828,
+      "startLng": 121.59698486328125
+    },
+    {
+      "id": "10551147",
+      "tileScore": 40,
+      "name": "Shenjiang-Huaxia-Jinke dinka doo",
+      "distanceM": 2064.199951171875,
+      "avgGrade": 0.009688983671367168,
+      "startLat": 31.18447494506836,
+      "startLng": 121.61791229248047
+    },
+    {
+      "id": "13011992",
+      "tileScore": 2,
+      "name": "Jinqiao to Disney and back",
+      "distanceM": 42188.80078125,
+      "avgGrade": 0.00521465390920639,
+      "startLat": 31.235240936279297,
+      "startLng": 121.5843734741211
+    },
+    {
+      "id": "10343136",
+      "tileScore": 11,
+      "name": "Shenjiang Southbound",
+      "distanceM": 8812.599609375,
+      "avgGrade": 0.003404216840863228,
+      "startLat": 31.19952964782715,
+      "startLng": 121.62015533447266
+    },
+    {
+      "id": "27480936",
+      "tileScore": 16,
+      "name": "ShanghaiTech Loop",
+      "distanceM": 3645.5,
+      "avgGrade": -0.0027431079652160406,
+      "startLat": 31.18259048461914,
+      "startLng": 121.58906555175781
+    },
+    {
+      "id": "8011508",
+      "tileScore": 1,
+      "name": "Ziwei Rd | Yindong Rd",
+      "distanceM": 1901.5,
+      "avgGrade": 0.07888508588075638,
+      "startLat": 31.202159881591797,
+      "startLng": 121.6088638305664
+    },
+    {
+      "id": "40267076",
+      "tileScore": 2,
+      "name": "孙桥蒋桥村村通",
+      "distanceM": 16826.19921875,
+      "avgGrade": -0.03090418502688408,
+      "startLat": 31.180830001831055,
+      "startLng": 121.63630676269531
+    },
+    {
+      "id": "20304993",
+      "tileScore": 11,
+      "name": "Yaolong & Huaxia Hot Blast",
+      "distanceM": 29317,
+      "avgGrade": -0.008527475409209728,
+      "startLat": 31.14801597595215,
+      "startLng": 121.47225952148438
+    },
+    {
+      "id": "29669166",
+      "tileScore": 6,
+      "name": "Back to the city",
+      "distanceM": 11189.5,
+      "avgGrade": -0.05898386985063553,
+      "startLat": 31.209815979003906,
+      "startLng": 121.74333953857422
+    },
+    {
+      "id": "10077772",
+      "tileScore": 18,
+      "name": "1st sister",
+      "distanceM": 297.20001220703125,
+      "avgGrade": 2.8263795375823975,
+      "startLat": 31.189971923828125,
+      "startLng": 121.61896514892578
+    }
+  ]
+}

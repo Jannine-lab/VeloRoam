@@ -1,0 +1,38 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-08T22:35:20.135Z",
+  "tile": {
+    "z": 13,
+    "x": 6793,
+    "y": 3328
+  },
+  "segments": [
+    {
+      "id": "38495500",
+      "tileScore": 55,
+      "name": "微风：疯子路N-S",
+      "distanceM": 4090.699951171875,
+      "avgGrade": -0.009778277017176151,
+      "startLat": 31.946916580200195,
+      "startLng": 118.56035614013672
+    },
+    {
+      "id": "38604179",
+      "tileScore": 24,
+      "name": "Z娃娃直达乌江",
+      "distanceM": 46539.5,
+      "avgGrade": 0.01246253214776516,
+      "startLat": 32.0407600402832,
+      "startLng": 118.65608978271484
+    },
+    {
+      "id": "8895021",
+      "tileScore": 1,
+      "name": "lozho_浦口至乌江",
+      "distanceM": 22185.900390625,
+      "avgGrade": 0,
+      "startLat": 32.031639099121094,
+      "startLng": 118.60091400146484
+    }
+  ]
+}

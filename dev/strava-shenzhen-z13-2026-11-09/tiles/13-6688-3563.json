@@ -1,0 +1,155 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-08T22:49:05.528Z",
+  "tile": {
+    "z": 13,
+    "x": 6688,
+    "y": 3563
+  },
+  "segments": [
+    {
+      "id": "31868124",
+      "tileScore": 6,
+      "name": "聚丰路 2 车道上坡",
+      "distanceM": 2388,
+      "avgGrade": 0.3936348557472229,
+      "startLat": 22.77134895324707,
+      "startLng": 113.91845703125
+    },
+    {
+      "id": "38970000",
+      "tileScore": 9,
+      "name": "茅洲河西往东后半段",
+      "distanceM": 16219.900390625,
+      "avgGrade": 0.11220783740282059,
+      "startLat": 22.795166015625,
+      "startLng": 113.85015106201172
+    },
+    {
+      "id": "27443904",
+      "tileScore": 35,
+      "name": "圳园路",
+      "distanceM": 2581.199951171875,
+      "avgGrade": 0.7903301119804382,
+      "startLat": 22.788461685180664,
+      "startLng": 113.94779968261719
+    },
+    {
+      "id": "38232295",
+      "tileScore": 6,
+      "name": "XdS Course (1st Part)",
+      "distanceM": 1315.5,
+      "avgGrade": 3.3599390983581543,
+      "startLat": 22.79738426208496,
+      "startLng": 113.92778778076172
+    },
+    {
+      "id": "12161930",
+      "tileScore": 5,
+      "name": "牛山公园单圈",
+      "distanceM": 3557.800048828125,
+      "avgGrade": 0,
+      "startLat": 22.756921768188477,
+      "startLng": 113.93775177001953
+    },
+    {
+      "id": "37391477",
+      "tileScore": 139,
+      "name": "光明短坡",
+      "distanceM": 788.2000122070312,
+      "avgGrade": 2.33443284034729,
+      "startLat": 22.780406951904297,
+      "startLng": 113.9312515258789
+    },
+    {
+      "id": "41267219",
+      "tileScore": 20,
+      "name": "文起东古墓-光明能源生态园 Wen Qidong Gumu - Guangming Energy Ecological Garden",
+      "distanceM": 7446.2001953125,
+      "avgGrade": 0.8245816230773926,
+      "startLat": 22.789813995361328,
+      "startLng": 113.9216079711914
+    },
+    {
+      "id": "37099735",
+      "tileScore": 15,
+      "name": "有氧套餐！",
+      "distanceM": 31289.80078125,
+      "avgGrade": 0.08245498687028885,
+      "startLat": 22.58894157409668,
+      "startLng": 113.91793060302734
+    },
+    {
+      "id": "31926692",
+      "tileScore": 39,
+      "name": "茅洲河，深理工，沿河景观",
+      "distanceM": 2136.5,
+      "avgGrade": 0,
+      "startLat": 22.7822208404541,
+      "startLng": 113.91095733642578
+    },
+    {
+      "id": "40809172",
+      "tileScore": 4,
+      "name": "环光明田园",
+      "distanceM": 6761.10009765625,
+      "avgGrade": 0.01774859055876732,
+      "startLat": 22.782861709594727,
+      "startLng": 113.94572448730469
+    },
+    {
+      "id": "34660287",
+      "tileScore": 236,
+      "name": "光明站起始绕圈",
+      "distanceM": 5212.60009765625,
+      "avgGrade": 0,
+      "startLat": 22.773666381835938,
+      "startLng": 113.94007873535156
+    },
+    {
+      "id": "31926640",
+      "tileScore": 19,
+      "name": "公常路-茅洲河-沿河休闲",
+      "distanceM": 5390,
+      "avgGrade": -0.18923933804035187,
+      "startLat": 22.784624099731445,
+      "startLng": 113.91056060791016
+    },
+    {
+      "id": "33728635",
+      "tileScore": 4,
+      "name": "文少的华裕路短冲",
+      "distanceM": 691.5,
+      "avgGrade": -1.0412147045135498,
+      "startLat": 22.76054573059082,
+      "startLng": 113.9271240234375
+    },
+    {
+      "id": "29410496",
+      "tileScore": 4,
+      "name": "Maozhou River Road (east direction)",
+      "distanceM": 3135,
+      "avgGrade": 0.057416267693042755,
+      "startLat": 22.801197052001953,
+      "startLng": 113.88846588134766
+    },
+    {
+      "id": "40372738",
+      "tileScore": 13,
+      "name": "喜德盛大顶岭骑行驿站绕圈 XDS DaDingLing Cycling Station",
+      "distanceM": 2878.699951171875,
+      "avgGrade": -0.05558064579963684,
+      "startLat": 22.760103225708008,
+      "startLng": 113.95819854736328
+    },
+    {
+      "id": "40262116",
+      "tileScore": 54,
+      "name": "后山",
+      "distanceM": 3176.60009765625,
+      "avgGrade": 0.23295345902442932,
+      "startLat": 22.791229248046875,
+      "startLng": 113.92047119140625
+    }
+  ]
+}

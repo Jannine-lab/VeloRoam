@@ -1,0 +1,299 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-03T06:08:09.571Z",
+  "tile": {
+    "z": 13,
+    "x": 6863,
+    "y": 3349
+  },
+  "segments": [
+    {
+      "id": "18037988",
+      "tileScore": 2,
+      "name": "Xiuyan Sprint",
+      "distanceM": 624,
+      "avgGrade": -0.09615384787321091,
+      "startLat": 31.143020629882812,
+      "startLng": 121.63447570800781
+    },
+    {
+      "id": "28704056",
+      "tileScore": 53,
+      "name": "Kangxin Bridge South Climb",
+      "distanceM": 322.29998779296875,
+      "avgGrade": 1.9857276678085327,
+      "startLat": 31.15509796142578,
+      "startLng": 121.60431671142578
+    },
+    {
+      "id": "40042149",
+      "tileScore": 19,
+      "name": "汤巷公园北侧西向东冲刺",
+      "distanceM": 1161.4000244140625,
+      "avgGrade": -0.15498535335063934,
+      "startLat": 31.14702033996582,
+      "startLng": 121.5927963256836
+    },
+    {
+      "id": "35170184",
+      "tileScore": 8,
+      "name": "半个俄罗斯方块",
+      "distanceM": 26143.30078125,
+      "avgGrade": 0.011475215665996075,
+      "startLat": 31.18340492248535,
+      "startLng": 121.61776733398438
+    },
+    {
+      "id": "13773996",
+      "tileScore": 17,
+      "name": "Goodbye Mickey",
+      "distanceM": 2205.199951171875,
+      "avgGrade": -0.01813894510269165,
+      "startLat": 31.131235122680664,
+      "startLng": 121.64893341064453
+    },
+    {
+      "id": "39326041",
+      "tileScore": 6,
+      "name": "SUPER C的训练赛段(晚上十点你还会爱我吗)",
+      "distanceM": 31948.099609375,
+      "avgGrade": -0.005634137894958258,
+      "startLat": 31.1982364654541,
+      "startLng": 121.73193359375
+    },
+    {
+      "id": "15484457",
+      "tileScore": 40,
+      "name": "Jinke Kangxin Huaxia to Hunan",
+      "distanceM": 15852.7001953125,
+      "avgGrade": 0.006308073177933693,
+      "startLat": 31.169862747192383,
+      "startLng": 121.60026550292969
+    },
+    {
+      "id": "11703194",
+      "tileScore": 24,
+      "name": "Kangxin Straight",
+      "distanceM": 3320.800048828125,
+      "avgGrade": -0.012045290321111679,
+      "startLat": 31.15013313293457,
+      "startLng": 121.60641479492188
+    },
+    {
+      "id": "35750447",
+      "tileScore": 14,
+      "name": "E'Kangqiao Rd (Jinke Rd - Hufeng Hwy)",
+      "distanceM": 1124.199951171875,
+      "avgGrade": -0.017790429294109344,
+      "startLat": 31.155563354492188,
+      "startLng": 121.60356140136719
+    },
+    {
+      "id": "18858234",
+      "tileScore": 3,
+      "name": "Xiupu Road. From South Shenjiang Rd to Kangshen Road",
+      "distanceM": 5532.39990234375,
+      "avgGrade": 0.048803411424160004,
+      "startLat": 31.133995056152344,
+      "startLng": 121.6273193359375
+    },
+    {
+      "id": "5758417",
+      "tileScore": 320,
+      "name": "Maglev - North (end of the ride)",
+      "distanceM": 1869.5,
+      "avgGrade": -0.09628242999315262,
+      "startLat": 31.163257598876953,
+      "startLng": 121.602294921875
+    },
+    {
+      "id": "11652107",
+      "tileScore": 8,
+      "name": "JQ to KQ Disney Right turn",
+      "distanceM": 13486.5,
+      "avgGrade": -0.0029659289866685867,
+      "startLat": 31.239465713500977,
+      "startLng": 121.59770965576172
+    },
+    {
+      "id": "10675878",
+      "tileScore": 6,
+      "name": "Wanlongzhuan x S20/S1/S2 Expy Under Path (North-East Bound)",
+      "distanceM": 826.5999755859375,
+      "avgGrade": 0.21775949001312256,
+      "startLat": 31.157028198242188,
+      "startLng": 121.64014434814453
+    },
+    {
+      "id": "29164642",
+      "tileScore": 5,
+      "name": "Mianxin North",
+      "distanceM": 1582.0999755859375,
+      "avgGrade": 0.050565704703330994,
+      "startLat": 31.137765884399414,
+      "startLng": 121.63648986816406
+    },
+    {
+      "id": "28674220",
+      "tileScore": 7,
+      "name": "Dawn Raiders South Section",
+      "distanceM": 1938.199951171875,
+      "avgGrade": 0,
+      "startLat": 31.175159454345703,
+      "startLng": 121.61469268798828
+    },
+    {
+      "id": "42079725",
+      "tileScore": 3,
+      "name": "Markus Bruengger (R.I.P. | G.O.A.T.) Memory Ride",
+      "distanceM": 64397.30078125,
+      "avgGrade": -0.006522012874484062,
+      "startLat": 31.224090576171875,
+      "startLng": 121.55386352539062
+    },
+    {
+      "id": "17286495",
+      "tileScore": 17,
+      "name": "Hunan to top of Xiyuan",
+      "distanceM": 6286.2001953125,
+      "avgGrade": 0,
+      "startLat": 31.137054443359375,
+      "startLng": 121.56934356689453
+    },
+    {
+      "id": "28094335",
+      "tileScore": 3,
+      "name": "____DP_V2.x_______",
+      "distanceM": 28802.900390625,
+      "avgGrade": -0.01735936477780342,
+      "startLat": 31.197185516357422,
+      "startLng": 121.53400421142578
+    },
+    {
+      "id": "40042155",
+      "tileScore": 2,
+      "name": "周邓到秀浦路南向北",
+      "distanceM": 1495.9000244140625,
+      "avgGrade": -0.05347951129078865,
+      "startLat": 31.118459701538086,
+      "startLng": 121.60154724121094
+    },
+    {
+      "id": "27401582",
+      "tileScore": 8,
+      "name": "DP Airport Loop part 1",
+      "distanceM": 38720,
+      "avgGrade": 0.004648760426789522,
+      "startLat": 31.236400604248047,
+      "startLng": 121.59383392333984
+    },
+    {
+      "id": "32847705",
+      "tileScore": 33,
+      "name": "Yuqiao stage（Luoshan Rd-Keyuan Rd）",
+      "distanceM": 1060.199951171875,
+      "avgGrade": -0.16977928578853607,
+      "startLat": 31.157848358154297,
+      "startLng": 121.58793640136719
+    },
+    {
+      "id": "10343136",
+      "tileScore": 11,
+      "name": "Shenjiang Southbound",
+      "distanceM": 8812.599609375,
+      "avgGrade": 0.003404216840863228,
+      "startLat": 31.19952964782715,
+      "startLng": 121.62015533447266
+    },
+    {
+      "id": "38915293",
+      "tileScore": 88,
+      "name": "沔北冲刺 E->W 03",
+      "distanceM": 1377.9000244140625,
+      "avgGrade": 0.11611872911453247,
+      "startLat": 31.165225982666016,
+      "startLng": 121.61700439453125
+    },
+    {
+      "id": "41945494",
+      "tileScore": 10,
+      "name": "Kangqiao Kicker",
+      "distanceM": 35387.6015625,
+      "avgGrade": -0.0022606789134442806,
+      "startLat": 31.137094497680664,
+      "startLng": 121.5704116821289
+    },
+    {
+      "id": "5210340",
+      "tileScore": 15,
+      "name": "JCB Highway",
+      "distanceM": 1307.5,
+      "avgGrade": 0,
+      "startLat": 31.14019012451172,
+      "startLng": 121.61231231689453
+    },
+    {
+      "id": "13011992",
+      "tileScore": 2,
+      "name": "Jinqiao to Disney and back",
+      "distanceM": 42188.80078125,
+      "avgGrade": 0.00521465390920639,
+      "startLat": 31.235240936279297,
+      "startLng": 121.5843734741211
+    },
+    {
+      "id": "26067590",
+      "tileScore": 13,
+      "name": "Maixin to the bridge",
+      "distanceM": 1914.199951171875,
+      "avgGrade": -0.020896458998322487,
+      "startLat": 31.15323829650879,
+      "startLng": 121.63397216796875
+    },
+    {
+      "id": "40267076",
+      "tileScore": 2,
+      "name": "孙桥蒋桥村村通",
+      "distanceM": 16826.19921875,
+      "avgGrade": -0.03090418502688408,
+      "startLat": 31.180830001831055,
+      "startLng": 121.63630676269531
+    },
+    {
+      "id": "14324639",
+      "tileScore": 6,
+      "name": "Xiupu Rd (from Shenjiang to Kangxin)",
+      "distanceM": 1416.5999755859375,
+      "avgGrade": 0.007059155963361263,
+      "startLat": 31.13399887084961,
+      "startLng": 121.62708282470703
+    },
+    {
+      "id": "14324645",
+      "tileScore": 4,
+      "name": "Kangxin Rd (from Xiupu to Shangfei)",
+      "distanceM": 3310.39990234375,
+      "avgGrade": -0.0815611407160759,
+      "startLat": 31.133285522460938,
+      "startLng": 121.61168670654297
+    },
+    {
+      "id": "6720943",
+      "tileScore": 206,
+      "name": "Shenjiang Lu Bridge",
+      "distanceM": 305.29998779296875,
+      "avgGrade": 0.2292826771736145,
+      "startLat": 31.152690887451172,
+      "startLng": 121.62138366699219
+    },
+    {
+      "id": "35927579",
+      "tileScore": 4,
+      "name": "金桥-滴水湖-云山路绕圈",
+      "distanceM": 150058.90625,
+      "avgGrade": 0.0018659341149032116,
+      "startLat": 31.22467041015625,
+      "startLng": 121.62055969238281
+    }
+  ]
+}

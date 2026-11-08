@@ -1,0 +1,110 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-03T06:06:46.563Z",
+  "tile": {
+    "z": 13,
+    "x": 6853,
+    "y": 3345
+  },
+  "segments": [
+    {
+      "id": "31512024",
+      "tileScore": 18,
+      "name": "East Changji Road Bridge(Eastbound)",
+      "distanceM": 1017.2000122070312,
+      "avgGrade": -0.03932363539934158,
+      "startLat": 31.297155380249023,
+      "startLng": 121.19184112548828
+    },
+    {
+      "id": "25237628",
+      "tileScore": 25,
+      "name": "AutoPark Bridge",
+      "distanceM": 890.2000122070312,
+      "avgGrade": 0.08986745029687881,
+      "startLat": 31.28148651123047,
+      "startLng": 121.17536163330078
+    },
+    {
+      "id": "28709026",
+      "tileScore": 1,
+      "name": "NQSF-002",
+      "distanceM": 16507.30078125,
+      "avgGrade": 0.00605792598798871,
+      "startLat": 31.21061134338379,
+      "startLng": 121.27330017089844
+    },
+    {
+      "id": "38331395",
+      "tileScore": 21,
+      "name": "曹安转墨玉路冲刺",
+      "distanceM": 1104.300048828125,
+      "avgGrade": 0.16299918293952942,
+      "startLat": 31.290180206298828,
+      "startLng": 121.17070770263672
+    },
+    {
+      "id": "39015525",
+      "tileScore": 10,
+      "name": "安亭～嘉松中路",
+      "distanceM": 5469,
+      "avgGrade": 0,
+      "startLat": 31.290559768676758,
+      "startLng": 121.15928649902344
+    },
+    {
+      "id": "32316107",
+      "tileScore": 1,
+      "name": "JSJ-Anting-CAGL-40",
+      "distanceM": 39514.6015625,
+      "avgGrade": -0.00556756230071187,
+      "startLat": 31.2432804107666,
+      "startLng": 121.33163452148438
+    },
+    {
+      "id": "14915915",
+      "tileScore": 27,
+      "name": "Moyu S. Rd Bridge Climb",
+      "distanceM": 620.2000122070312,
+      "avgGrade": -0.11286681890487671,
+      "startLat": 31.275251388549805,
+      "startLng": 121.16059875488281
+    },
+    {
+      "id": "24972511",
+      "tileScore": 5,
+      "name": "Greenway west to Moyu lu",
+      "distanceM": 814.7999877929688,
+      "avgGrade": -0.2945508062839508,
+      "startLat": 31.280963897705078,
+      "startLng": 121.15159606933594
+    },
+    {
+      "id": "34631052",
+      "tileScore": 10,
+      "name": "Out of Anting to Taicang",
+      "distanceM": 7637.10009765625,
+      "avgGrade": -0.010475180111825466,
+      "startLat": 31.312946319580078,
+      "startLng": 121.16061401367188
+    },
+    {
+      "id": "27404963",
+      "tileScore": 27,
+      "name": "安亭大桥",
+      "distanceM": 467,
+      "avgGrade": 1.9271949529647827,
+      "startLat": 31.287250518798828,
+      "startLng": 121.1910400390625
+    },
+    {
+      "id": "31221443",
+      "tileScore": 7,
+      "name": "安亭儿童乐园-Bikehome",
+      "distanceM": 47152.19921875,
+      "avgGrade": -0.009755642153322697,
+      "startLat": 31.239341735839844,
+      "startLng": 121.36277770996094
+    }
+  ]
+}

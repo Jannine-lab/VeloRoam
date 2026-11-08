@@ -1,0 +1,308 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-08T22:34:12.926Z",
+  "tile": {
+    "z": 13,
+    "x": 6801,
+    "y": 3324
+  },
+  "segments": [
+    {
+      "id": "16170708",
+      "tileScore": 13,
+      "name": "Sprint 仙鹤门到徐庄",
+      "distanceM": 821,
+      "avgGrade": -0.828258216381073,
+      "startLat": 32.08642578125,
+      "startLng": 118.89873504638672
+    },
+    {
+      "id": "37040166",
+      "tileScore": 10,
+      "name": "Commute+PM 2/2",
+      "distanceM": 15768.900390625,
+      "avgGrade": -0.03424461930990219,
+      "startLat": 32.087982177734375,
+      "startLng": 118.90943145751953
+    },
+    {
+      "id": "6137974",
+      "tileScore": 1,
+      "name": "XianYingNorthRoad(WenYuanRoad to XianLingDaDao)",
+      "distanceM": 1123.4000244140625,
+      "avgGrade": 0.24924336373806,
+      "startLat": 32.0987663269043,
+      "startLng": 118.89869689941406
+    },
+    {
+      "id": "28908813",
+      "tileScore": 30,
+      "name": " Fischl's Fun Bridge back",
+      "distanceM": 609.7000122070312,
+      "avgGrade": -0.32803016901016235,
+      "startLat": 32.06889724731445,
+      "startLng": 118.90345764160156
+    },
+    {
+      "id": "37329649",
+      "tileScore": 11,
+      "name": "仙林大道狂飙-万达茂到环陵路-kan",
+      "distanceM": 11798.599609375,
+      "avgGrade": 0.05085349082946777,
+      "startLat": 32.121097564697266,
+      "startLng": 118.97796630859375
+    },
+    {
+      "id": "37056382",
+      "tileScore": 11,
+      "name": "XXYY Climb",
+      "distanceM": 646.0999755859375,
+      "avgGrade": 1.6251353025436401,
+      "startLat": 32.095550537109375,
+      "startLng": 118.90201568603516
+    },
+    {
+      "id": "30431028",
+      "tileScore": 14,
+      "name": "兄弟买挂不？",
+      "distanceM": 1971.5999755859375,
+      "avgGrade": 0.040576182305812836,
+      "startLat": 32.06543731689453,
+      "startLng": 118.8846206665039
+    },
+    {
+      "id": "31207078",
+      "tileScore": 6,
+      "name": "一路向东20KM~黄埔路—经天路",
+      "distanceM": 20139.30078125,
+      "avgGrade": 0.061571154743433,
+      "startLat": 32.0417594909668,
+      "startLng": 118.80626678466797
+    },
+    {
+      "id": "29932429",
+      "tileScore": 5,
+      "name": "Danny's Wednesday Round",
+      "distanceM": 21920.19921875,
+      "avgGrade": -0.038320817053318024,
+      "startLat": 32.08832931518555,
+      "startLng": 118.89706420898438
+    },
+    {
+      "id": "12108894",
+      "tileScore": 825,
+      "name": "环陵路一圈",
+      "distanceM": 22156.900390625,
+      "avgGrade": 0.009477860294282436,
+      "startLat": 32.060935974121094,
+      "startLng": 118.80840301513672
+    },
+    {
+      "id": "6098750",
+      "tileScore": 6,
+      "name": "HuanlingRod to XianYinRoad",
+      "distanceM": 4085.60009765625,
+      "avgGrade": -0.19825729727745056,
+      "startLat": 32.06449890136719,
+      "startLng": 118.88265228271484
+    },
+    {
+      "id": "6098736",
+      "tileScore": 263,
+      "name": "ZiJingMountainGreenRoad East Seg 3",
+      "distanceM": 801.2000122070312,
+      "avgGrade": 0.06240639090538025,
+      "startLat": 32.07126998901367,
+      "startLng": 118.8798599243164
+    },
+    {
+      "id": "13238375",
+      "tileScore": 3,
+      "name": "岔路口到仙尧路",
+      "distanceM": 3059.699951171875,
+      "avgGrade": 0.03268294408917427,
+      "startLat": 32.09526443481445,
+      "startLng": 118.85826873779297
+    },
+    {
+      "id": "35007642",
+      "tileScore": 9,
+      "name": "Xianyin North Road uphill 2.0",
+      "distanceM": 1171.300048828125,
+      "avgGrade": 1.4513788223266602,
+      "startLat": 32.099586486816406,
+      "startLng": 118.89802551269531
+    },
+    {
+      "id": "35223250",
+      "tileScore": 3,
+      "name": "Cristal Hill Loop",
+      "distanceM": 2883.89990234375,
+      "avgGrade": 0.013870107010006905,
+      "startLat": 32.082664489746094,
+      "startLng": 118.9014892578125
+    },
+    {
+      "id": "37842632",
+      "tileScore": 16,
+      "name": "聚宝山公路爬坡一圈",
+      "distanceM": 2577,
+      "avgGrade": 0.007760962005704641,
+      "startLat": 32.10029602050781,
+      "startLng": 118.87311553955078
+    },
+    {
+      "id": "36477431",
+      "tileScore": 9,
+      "name": "石刻公园南门【环陵前的热身准备】",
+      "distanceM": 654.4000244140625,
+      "avgGrade": 0.9168704152107239,
+      "startLat": 32.087486267089844,
+      "startLng": 118.9175033569336
+    },
+    {
+      "id": "31797937",
+      "tileScore": 16,
+      "name": "LingShanNorthRoad full E->W",
+      "distanceM": 5340.10009765625,
+      "avgGrade": 0.172281414270401,
+      "startLat": 32.09602737426758,
+      "startLng": 118.94969940185547
+    },
+    {
+      "id": "12950237",
+      "tileScore": 10,
+      "name": "环中山陵",
+      "distanceM": 21962.80078125,
+      "avgGrade": -0.025497660040855408,
+      "startLat": 32.05926513671875,
+      "startLng": 118.81375122070312
+    },
+    {
+      "id": "35251692",
+      "tileScore": 2,
+      "name": "放学！",
+      "distanceM": 885.5999755859375,
+      "avgGrade": -0.1580849140882492,
+      "startLat": 32.08226013183594,
+      "startLng": 118.91426849365234
+    },
+    {
+      "id": "39883787",
+      "tileScore": 8,
+      "name": "西部干线环线段 1/2",
+      "distanceM": 39352.30078125,
+      "avgGrade": 0.04472419619560242,
+      "startLat": 32.06488800048828,
+      "startLng": 118.88341522216797
+    },
+    {
+      "id": "35461432",
+      "tileScore": 16,
+      "name": "石狮路到仙鹤门地铁站",
+      "distanceM": 1890.800048828125,
+      "avgGrade": 0.1798180639743805,
+      "startLat": 32.069332122802734,
+      "startLng": 118.90406036376953
+    },
+    {
+      "id": "38451386",
+      "tileScore": 3,
+      "name": "ul - Pass Skyways 云中食品店",
+      "distanceM": 674.2000122070312,
+      "avgGrade": -0.23731830716133118,
+      "startLat": 32.091182708740234,
+      "startLng": 118.90735626220703
+    },
+    {
+      "id": "36644267",
+      "tileScore": 221,
+      "name": "ZiJingMountainGreenRoad East Seg 2.5",
+      "distanceM": 640.2000122070312,
+      "avgGrade": 0.8747266530990601,
+      "startLat": 32.078758239746094,
+      "startLng": 118.87327575683594
+    },
+    {
+      "id": "39650871",
+      "tileScore": 409,
+      "name": "环陵路个人计时赛",
+      "distanceM": 4441.60009765625,
+      "avgGrade": -0.11257204413414001,
+      "startLat": 32.09468078613281,
+      "startLng": 118.85567474365234
+    },
+    {
+      "id": "26900677",
+      "tileScore": 17,
+      "name": "Upwards Benma Rd",
+      "distanceM": 1939.800048828125,
+      "avgGrade": 0.649551510810852,
+      "startLat": 32.078914642333984,
+      "startLng": 118.9044418334961
+    },
+    {
+      "id": "30512184",
+      "tileScore": 5,
+      "name": "头陀岭起点抓恐龙（某些路段在修路）",
+      "distanceM": 52271.3984375,
+      "avgGrade": -0.7338621020317078,
+      "startLat": 32.072391510009766,
+      "startLng": 118.83885192871094
+    },
+    {
+      "id": "6137971",
+      "tileScore": 8,
+      "name": "WenYuanRoad(WenlanRoad to XianYingRoad)",
+      "distanceM": 1271.199951171875,
+      "avgGrade": 0.38546255230903625,
+      "startLat": 32.10325241088867,
+      "startLng": 118.91144561767578
+    },
+    {
+      "id": "16063785",
+      "tileScore": 18,
+      "name": "Suning Escape",
+      "distanceM": 2441.60009765625,
+      "avgGrade": -0.5406290888786316,
+      "startLat": 32.098670959472656,
+      "startLng": 118.87831115722656
+    },
+    {
+      "id": "34185018",
+      "tileScore": 13,
+      "name": "打工人提神上坡路",
+      "distanceM": 541.5999755859375,
+      "avgGrade": 2.437223196029663,
+      "startLat": 32.089744567871094,
+      "startLng": 118.88459014892578
+    },
+    {
+      "id": "36079191",
+      "tileScore": 7,
+      "name": "2024元旦100km骑行",
+      "distanceM": 88661.296875,
+      "avgGrade": 0.01646716333925724,
+      "startLat": 32.070831298828125,
+      "startLng": 118.81453704833984
+    },
+    {
+      "id": "24917933",
+      "tileScore": 1,
+      "name": "Tour de Nanjing Day 2 - Route",
+      "distanceM": 23581.19921875,
+      "avgGrade": 0.004240666516125202,
+      "startLat": 32.09357452392578,
+      "startLng": 118.90508270263672
+    },
+    {
+      "id": "14492378",
+      "tileScore": 13,
+      "name": "问爷爷好--向南",
+      "distanceM": 5636.7998046875,
+      "avgGrade": -0.024836786091327667,
+      "startLat": 32.10050582885742,
+      "startLng": 118.88607788085938
+    }
+  ]
+}

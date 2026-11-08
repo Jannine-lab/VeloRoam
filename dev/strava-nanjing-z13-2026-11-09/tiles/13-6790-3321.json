@@ -1,0 +1,29 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-08T22:29:14.572Z",
+  "tile": {
+    "z": 13,
+    "x": 6790,
+    "y": 3321
+  },
+  "segments": [
+    {
+      "id": "36621543",
+      "tileScore": 5,
+      "name": "cd-洪武西路到碧桂园",
+      "distanceM": 26468.400390625,
+      "avgGrade": -0.13978932797908783,
+      "startLat": 32.25999450683594,
+      "startLng": 118.21556854248047
+    },
+    {
+      "id": "35357284",
+      "tileScore": 7,
+      "name": "宁滁快速路-滁州大道",
+      "distanceM": 19344,
+      "avgGrade": 0.021712159737944603,
+      "startLat": 32.16609573364258,
+      "startLng": 118.52716064453125
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-08T22:33:00.106Z",
+  "tile": {
+    "z": 13,
+    "x": 6808,
+    "y": 3322
+  },
+  "segments": [
+    {
+      "id": "32674088",
+      "tileScore": 20,
+      "name": "Andrey’s Hill",
+      "distanceM": 3038.800048828125,
+      "avgGrade": 1.6190601587295532,
+      "startLat": 32.14944839477539,
+      "startLng": 119.17726135253906
+    },
+    {
+      "id": "40158936",
+      "tileScore": 23,
+      "name": "G312镇江-南京-LL",
+      "distanceM": 32373.900390625,
+      "avgGrade": -0.044480275362730026,
+      "startLat": 32.17245864868164,
+      "startLng": 119.366943359375
+    }
+  ]
+}

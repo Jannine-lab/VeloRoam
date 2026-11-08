@@ -1,0 +1,128 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-03T06:07:50.324Z",
+  "tile": {
+    "z": 13,
+    "x": 6853,
+    "y": 3348
+  },
+  "segments": [
+    {
+      "id": "36962149",
+      "tileScore": 51,
+      "name": "蟠龙天地走到底",
+      "distanceM": 18617.099609375,
+      "avgGrade": -0.021485622972249985,
+      "startLat": 31.188560485839844,
+      "startLng": 121.2720718383789
+    },
+    {
+      "id": "8274275",
+      "tileScore": 6,
+      "name": "Songhualu (HuQingPing->Songze)",
+      "distanceM": 3084.60009765625,
+      "avgGrade": -0.05835440754890442,
+      "startLat": 31.149059295654297,
+      "startLng": 121.16690826416016
+    },
+    {
+      "id": "27307755",
+      "tileScore": 1,
+      "name": "BTP-CN-007",
+      "distanceM": 3007.39990234375,
+      "avgGrade": 0.046551838517189026,
+      "startLat": 31.192140579223633,
+      "startLng": 121.18306732177734
+    },
+    {
+      "id": "32729676",
+      "tileScore": 15,
+      "name": "XuShan rd",
+      "distanceM": 2917.699951171875,
+      "avgGrade": 0,
+      "startLat": 31.216739654541016,
+      "startLng": 121.1642837524414
+    },
+    {
+      "id": "28905034",
+      "tileScore": 6,
+      "name": "NQSF-00101",
+      "distanceM": 817.0999755859375,
+      "avgGrade": 0,
+      "startLat": 31.18900489807129,
+      "startLng": 121.1812744140625
+    },
+    {
+      "id": "34326424",
+      "tileScore": 51,
+      "name": "Songze Avenue Westbound - Jiasong to Zhaochong",
+      "distanceM": 3518.39990234375,
+      "avgGrade": 0.1080036386847496,
+      "startLat": 31.176984786987305,
+      "startLng": 121.21894836425781
+    },
+    {
+      "id": "37027201",
+      "tileScore": 7,
+      "name": "ER speedy circuit ",
+      "distanceM": 75940.3984375,
+      "avgGrade": -0.010534577071666718,
+      "startLat": 31.1991024017334,
+      "startLng": 121.27393341064453
+    },
+    {
+      "id": "34348432",
+      "tileScore": 4,
+      "name": "T bridge Qingpu",
+      "distanceM": 1459.0999755859375,
+      "avgGrade": 0,
+      "startLat": 31.163660049438477,
+      "startLng": 121.18537139892578
+    },
+    {
+      "id": "27310647",
+      "tileScore": 6,
+      "name": "Shanghai Tour de France 上海环法 - Longwy-Lille",
+      "distanceM": 7654.2998046875,
+      "avgGrade": 0.014371007680892944,
+      "startLat": 31.19185447692871,
+      "startLng": 121.17996215820312
+    },
+    {
+      "id": "33131059",
+      "tileScore": 3,
+      "name": "Tech Loop S+L",
+      "distanceM": 20361.69921875,
+      "avgGrade": 0.021609198302030563,
+      "startLat": 31.235458374023438,
+      "startLng": 121.1602783203125
+    },
+    {
+      "id": "27327757",
+      "tileScore": 8,
+      "name": "Shanghai Tour de France 上海环法 - Full Tour (100km)",
+      "distanceM": 100065.796875,
+      "avgGrade": 0.002498356159776449,
+      "startLat": 31.153793334960938,
+      "startLng": 121.20298767089844
+    },
+    {
+      "id": "37257490",
+      "tileScore": 3,
+      "name": "重固镇 to 沪常 无人段冲刺",
+      "distanceM": 1340.0999755859375,
+      "avgGrade": 0.01492425985634327,
+      "startLat": 31.202842712402344,
+      "startLng": 121.18055725097656
+    },
+    {
+      "id": "36721237",
+      "tileScore": 22,
+      "name": "SHA: Songze Rd, 1st bridge after Dianshan lake, 0.6km",
+      "distanceM": 659.4000244140625,
+      "avgGrade": 0,
+      "startLat": 31.176570892333984,
+      "startLng": 121.15419006347656
+    }
+  ]
+}

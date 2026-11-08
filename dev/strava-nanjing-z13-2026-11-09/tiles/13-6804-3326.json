@@ -1,0 +1,65 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-08T22:34:29.921Z",
+  "tile": {
+    "z": 13,
+    "x": 6804,
+    "y": 3326
+  },
+  "segments": [
+    {
+      "id": "39935829",
+      "tileScore": 17,
+      "name": "宁峰转弯",
+      "distanceM": 1357.199951171875,
+      "avgGrade": -0.2357795387506485,
+      "startLat": 31.995317459106445,
+      "startLng": 119.01668548583984
+    },
+    {
+      "id": "42127630",
+      "tileScore": 118,
+      "name": "园博园团练路线itt",
+      "distanceM": 62612,
+      "avgGrade": 0,
+      "startLat": 31.94707489013672,
+      "startLng": 118.91030883789062
+    },
+    {
+      "id": "36848115",
+      "tileScore": 11,
+      "name": "青龙山山地马拉松标准单圈",
+      "distanceM": 37025.30078125,
+      "avgGrade": -0.002160684671252966,
+      "startLat": 32.01175308227539,
+      "startLng": 118.94888305664062
+    },
+    {
+      "id": "39690226",
+      "tileScore": 33,
+      "name": "清风大道爽骑",
+      "distanceM": 9358.400390625,
+      "avgGrade": 0.047016583383083344,
+      "startLat": 32.0264892578125,
+      "startLng": 119.0456771850586
+    },
+    {
+      "id": "35869815",
+      "tileScore": 25,
+      "name": "Roger's Segment-汤山月季园彩虹路",
+      "distanceM": 1667.300048828125,
+      "avgGrade": 0.01199544221162796,
+      "startLat": 32.01250076293945,
+      "startLng": 119.03851318359375
+    },
+    {
+      "id": "35869811",
+      "tileScore": 7,
+      "name": "Roger's Segment-谭山水库-宁峰路",
+      "distanceM": 654.7000122070312,
+      "avgGrade": -1.1302886009216309,
+      "startLat": 32.00532913208008,
+      "startLng": 119.0253677368164
+    }
+  ]
+}

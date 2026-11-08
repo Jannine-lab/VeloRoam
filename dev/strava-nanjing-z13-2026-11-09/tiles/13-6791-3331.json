@@ -1,0 +1,20 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-08T22:36:23.062Z",
+  "tile": {
+    "z": 13,
+    "x": 6791,
+    "y": 3331
+  },
+  "segments": [
+    {
+      "id": "39729096",
+      "tileScore": 12,
+      "name": "G346 含山往马和轮渡    东归回家咯😘",
+      "distanceM": 29630.19921875,
+      "avgGrade": 0.012824752368032932,
+      "startLat": 31.752607345581055,
+      "startLng": 118.15011596679688
+    }
+  ]
+}

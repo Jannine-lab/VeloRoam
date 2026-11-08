@@ -1,0 +1,83 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-03T06:09:17.833Z",
+  "tile": {
+    "z": 13,
+    "x": 6863,
+    "y": 3352
+  },
+  "segments": [
+    {
+      "id": "15809001",
+      "tileScore": 192,
+      "name": "kangxin-xinhuanbei",
+      "distanceM": 3789.39990234375,
+      "avgGrade": 0.1293080747127533,
+      "startLat": 31.03432273864746,
+      "startLng": 121.6377182006836
+    },
+    {
+      "id": "28905832",
+      "tileScore": 8,
+      "name": "Dumplings. Almost there.",
+      "distanceM": 8881.7998046875,
+      "avgGrade": -0.024769755080342293,
+      "startLat": 31.02743911743164,
+      "startLng": 121.51651763916016
+    },
+    {
+      "id": "42079725",
+      "tileScore": 3,
+      "name": "Markus Bruengger (R.I.P. | G.O.A.T.) Memory Ride",
+      "distanceM": 64397.30078125,
+      "avgGrade": -0.006522012874484062,
+      "startLat": 31.224090576171875,
+      "startLng": 121.55386352539062
+    },
+    {
+      "id": "28686221",
+      "tileScore": 3,
+      "name": "Hangdu Bridge South",
+      "distanceM": 518.2999877929688,
+      "avgGrade": 2.1223230361938477,
+      "startLat": 31.02057647705078,
+      "startLng": 121.60677337646484
+    },
+    {
+      "id": "38796148",
+      "tileScore": 13,
+      "name": "slanaC s'neevrehS fo k8",
+      "distanceM": 7686.7998046875,
+      "avgGrade": 0.026018628850579262,
+      "startLat": 31.017501831054688,
+      "startLng": 121.56170654296875
+    },
+    {
+      "id": "15484457",
+      "tileScore": 40,
+      "name": "Jinke Kangxin Huaxia to Hunan",
+      "distanceM": 15852.7001953125,
+      "avgGrade": 0.006308073177933693,
+      "startLat": 31.169862747192383,
+      "startLng": 121.60026550292969
+    },
+    {
+      "id": "28863850",
+      "tileScore": 12,
+      "name": "Coffee Thirst",
+      "distanceM": 2104.800048828125,
+      "avgGrade": 0.057012543082237244,
+      "startLat": 31.02779197692871,
+      "startLng": 121.60114288330078
+    },
+    {
+      "id": "41945494",
+      "tileScore": 10,
+      "name": "Kangqiao Kicker",
+      "distanceM": 35387.6015625,
+      "avgGrade": -0.0022606789134442806,
+      "startLat": 31.137094497680664,
+      "startLng": 121.5704116821289
+    }
+  ]
+}

@@ -1,0 +1,128 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-08T22:51:12.766Z",
+  "tile": {
+    "z": 13,
+    "x": 6695,
+    "y": 3569
+  },
+  "segments": [
+    {
+      "id": "1443219",
+      "tileScore": 2,
+      "name": "海景路 Climb",
+      "distanceM": 806.3250122070312,
+      "avgGrade": 13.29365062713623,
+      "startLat": 22.537710189819336,
+      "startLng": 114.25377655029297
+    },
+    {
+      "id": "20450993",
+      "tileScore": 139,
+      "name": "BB最後直路",
+      "distanceM": 426.70001220703125,
+      "avgGrade": -4.45277738571167,
+      "startLat": 22.521377563476562,
+      "startLng": 114.22342681884766
+    },
+    {
+      "id": "777939",
+      "tileScore": 331,
+      "name": "Bride Pool whole",
+      "distanceM": 14073.5,
+      "avgGrade": 0.12292607128620148,
+      "startLat": 22.477754592895508,
+      "startLng": 114.23775482177734
+    },
+    {
+      "id": "36106399",
+      "tileScore": 9,
+      "name": "NSW - SHAN SHING",
+      "distanceM": 90205.8984375,
+      "avgGrade": -0.013968043960630894,
+      "startLat": 22.44609260559082,
+      "startLng": 114.04883575439453
+    },
+    {
+      "id": "3128391",
+      "tileScore": 1,
+      "name": "Tiu Tang Lung Path Climb",
+      "distanceM": 1478.51123046875,
+      "avgGrade": 11.653702735900879,
+      "startLat": 22.529541015625,
+      "startLng": 114.2368392944336
+    },
+    {
+      "id": "32464144",
+      "tileScore": 91,
+      "name": "1st Ramp Climb to BBQ site",
+      "distanceM": 1091.9000244140625,
+      "avgGrade": 5.476691722869873,
+      "startLat": 22.520973205566406,
+      "startLng": 114.22608947753906
+    },
+    {
+      "id": "10371810",
+      "tileScore": 36,
+      "name": "鹿頸路 ( BB士多 )",
+      "distanceM": 2376,
+      "avgGrade": 1.2457913160324097,
+      "startLat": 22.534622192382812,
+      "startLng": 114.20846557617188
+    },
+    {
+      "id": "1443225",
+      "tileScore": 1,
+      "name": "Bride'S Pool Rd Climb",
+      "distanceM": 1654.4200439453125,
+      "avgGrade": 11.218568801879883,
+      "startLat": 22.520591735839844,
+      "startLng": 114.25154876708984
+    },
+    {
+      "id": "5636158",
+      "tileScore": 44,
+      "name": "400M to Ping Che",
+      "distanceM": 14825.7001953125,
+      "avgGrade": -0.1578340232372284,
+      "startLat": 22.476943969726562,
+      "startLng": 114.23654174804688
+    },
+    {
+      "id": "1003732",
+      "tileScore": 380,
+      "name": "climb Wu Kau Tang",
+      "distanceM": 1832.6300048828125,
+      "avgGrade": 6.078794956207275,
+      "startLat": 22.524370193481445,
+      "startLng": 114.2187728881836
+    },
+    {
+      "id": "36169154",
+      "tileScore": 7,
+      "name": "STK U-turn",
+      "distanceM": 3332.10009765625,
+      "avgGrade": 0.03001110441982746,
+      "startLat": 22.53505516052246,
+      "startLng": 114.20879364013672
+    },
+    {
+      "id": "1615764",
+      "tileScore": 1,
+      "name": "Wu Kau Tang Country Trail Climb",
+      "distanceM": 863.781005859375,
+      "avgGrade": 10.245427131652832,
+      "startLat": 22.51810073852539,
+      "startLng": 114.23486328125
+    },
+    {
+      "id": "38840312",
+      "tileScore": 22,
+      "name": "The GT ",
+      "distanceM": 95767,
+      "avgGrade": 0.04740672558546066,
+      "startLat": 22.326505661010742,
+      "startLng": 114.15650939941406
+    }
+  ]
+}

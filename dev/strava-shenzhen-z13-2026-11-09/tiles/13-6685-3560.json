@@ -1,0 +1,155 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-08T22:47:50.186Z",
+  "tile": {
+    "z": 13,
+    "x": 6685,
+    "y": 3560
+  },
+  "segments": [
+    {
+      "id": "15677549",
+      "tileScore": 5,
+      "name": "X883 Sprint",
+      "distanceM": 1489.699951171875,
+      "avgGrade": -0.22823387384414673,
+      "startLat": 22.870473861694336,
+      "startLng": 113.80133056640625
+    },
+    {
+      "id": "8418003",
+      "tileScore": 6,
+      "name": "Dalingshan 1st Section Climb",
+      "distanceM": 1033.199951171875,
+      "avgGrade": 7.80100679397583,
+      "startLat": 22.907190322875977,
+      "startLng": 113.79492950439453
+    },
+    {
+      "id": "31509922",
+      "tileScore": 2,
+      "name": "大白马标准版壹",
+      "distanceM": 72662.203125,
+      "avgGrade": -0.00027524627512320876,
+      "startLat": 22.840572357177734,
+      "startLng": 113.77523040771484
+    },
+    {
+      "id": "22660109",
+      "tileScore": 1,
+      "name": "On the way to big Buddha - Long Segment",
+      "distanceM": 4908.39990234375,
+      "avgGrade": 0.12631407380104065,
+      "startLat": 22.933595657348633,
+      "startLng": 113.82931518554688
+    },
+    {
+      "id": "35978040",
+      "tileScore": 2,
+      "name": "G107杨屋至同沙",
+      "distanceM": 15945.400390625,
+      "avgGrade": 0.01379708293825388,
+      "startLat": 22.85747528076172,
+      "startLng": 113.83477020263672
+    },
+    {
+      "id": "15686183",
+      "tileScore": 4,
+      "name": "Flat part",
+      "distanceM": 583.5,
+      "avgGrade": 0.17137961089611053,
+      "startLat": 22.91037940979004,
+      "startLng": 113.80135345458984
+    },
+    {
+      "id": "15677569",
+      "tileScore": 18,
+      "name": "X883 Little Climb",
+      "distanceM": 378.20001220703125,
+      "avgGrade": 2.7498676776885986,
+      "startLat": 22.881988525390625,
+      "startLng": 113.80499267578125
+    },
+    {
+      "id": "14827119",
+      "tileScore": 119,
+      "name": "馬山climb",
+      "distanceM": 2013,
+      "avgGrade": 8.862394332885742,
+      "startLat": 22.898761749267578,
+      "startLng": 113.7625961303711
+    },
+    {
+      "id": "37905088",
+      "tileScore": 7,
+      "name": "c",
+      "distanceM": 541.7000122070312,
+      "avgGrade": 1.4768321514129639,
+      "startLat": 22.908462524414062,
+      "startLng": 113.80207824707031
+    },
+    {
+      "id": "18231690",
+      "tileScore": 137,
+      "name": "马山仙景牌坊",
+      "distanceM": 704.2999877929688,
+      "avgGrade": 9.229021072387695,
+      "startLat": 22.90605926513672,
+      "startLng": 113.78421020507812
+    },
+    {
+      "id": "12658428",
+      "tileScore": 2,
+      "name": "厚大路A",
+      "distanceM": 9246,
+      "avgGrade": 0.10599178820848465,
+      "startLat": 22.908432006835938,
+      "startLng": 113.73878479003906
+    },
+    {
+      "id": "15677585",
+      "tileScore": 20,
+      "name": "X883 Downhill",
+      "distanceM": 771.7999877929688,
+      "avgGrade": -2.1249027252197266,
+      "startLat": 22.889484405517578,
+      "startLng": 113.80596923828125
+    },
+    {
+      "id": "9367820",
+      "tileScore": 38,
+      "name": "馬山東線(上坡)",
+      "distanceM": 3919.800048828125,
+      "avgGrade": 2.665952444076538,
+      "startLat": 22.879653930664062,
+      "startLng": 113.80130004882812
+    },
+    {
+      "id": "15686204",
+      "tileScore": 4,
+      "name": "Down and flat",
+      "distanceM": 561.2000122070312,
+      "avgGrade": -0.7127584218978882,
+      "startLat": 22.914419174194336,
+      "startLng": 113.79081726074219
+    },
+    {
+      "id": "28499932",
+      "tileScore": 16,
+      "name": "环大岭山<风柜口起点>",
+      "distanceM": 24131.80078125,
+      "avgGrade": -0.03232249617576599,
+      "startLat": 22.860000610351562,
+      "startLng": 113.77369689941406
+    },
+    {
+      "id": "15654247",
+      "tileScore": 54,
+      "name": "Last Steep Section",
+      "distanceM": 560.2999877929688,
+      "avgGrade": 10.030341148376465,
+      "startLat": 22.90487289428711,
+      "startLng": 113.77207946777344
+    }
+  ]
+}

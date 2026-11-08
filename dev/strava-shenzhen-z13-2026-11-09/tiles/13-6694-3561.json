@@ -1,0 +1,110 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-08T22:48:37.784Z",
+  "tile": {
+    "z": 13,
+    "x": 6694,
+    "y": 3561
+  },
+  "segments": [
+    {
+      "id": "1284322",
+      "tileScore": 8,
+      "name": "S358 to TieChang",
+      "distanceM": 2000.0999755859375,
+      "avgGrade": 3.0998449325561523,
+      "startLat": 22.842754364013672,
+      "startLng": 114.19274139404297
+    },
+    {
+      "id": "17685900",
+      "tileScore": 5,
+      "name": "Qingxi North Ring Westbound TT segment ",
+      "distanceM": 2302.39990234375,
+      "avgGrade": 0.052119530737400055,
+      "startLat": 22.84189224243164,
+      "startLng": 114.19190979003906
+    },
+    {
+      "id": "31302211",
+      "tileScore": 5,
+      "name": "清溪湖小坡",
+      "distanceM": 419.5,
+      "avgGrade": 4.004767417907715,
+      "startLat": 22.87329864501953,
+      "startLng": 114.17218780517578
+    },
+    {
+      "id": "26119468",
+      "tileScore": 1,
+      "name": "清溪东",
+      "distanceM": 1692,
+      "avgGrade": -0.21276594698429108,
+      "startLat": 22.840444564819336,
+      "startLng": 114.1922836303711
+    },
+    {
+      "id": "26140044",
+      "tileScore": 2,
+      "name": "清林路",
+      "distanceM": 378.29998779296875,
+      "avgGrade": 7.8244781494140625,
+      "startLat": 22.86664390563965,
+      "startLng": 114.17987823486328
+    },
+    {
+      "id": "17685886",
+      "tileScore": 5,
+      "name": "TieChang Southbound",
+      "distanceM": 661.9000244140625,
+      "avgGrade": 3.9583020210266113,
+      "startLat": 22.856822967529297,
+      "startLng": 114.20669555664062
+    },
+    {
+      "id": "41102448",
+      "tileScore": 4,
+      "name": "北环路西行银瓶路口-香芒",
+      "distanceM": 6287.89990234375,
+      "avgGrade": -0.3673722445964813,
+      "startLat": 22.84214973449707,
+      "startLng": 114.19110870361328
+    },
+    {
+      "id": "38571153",
+      "tileScore": 1,
+      "name": "Smash it past the school",
+      "distanceM": 883,
+      "avgGrade": -0.5889014601707458,
+      "startLat": 22.851184844970703,
+      "startLng": 114.17109680175781
+    },
+    {
+      "id": "4996400",
+      "tileScore": 9,
+      "name": "Slight climb to Qingxi Park Gate",
+      "distanceM": 3031.10009765625,
+      "avgGrade": 1.4582164287567139,
+      "startLat": 22.86541175842285,
+      "startLng": 114.17790985107422
+    },
+    {
+      "id": "30576098",
+      "tileScore": 1,
+      "name": "I do practical things for the masses",
+      "distanceM": 315.29998779296875,
+      "avgGrade": 5.962575435638428,
+      "startLat": 22.846973419189453,
+      "startLng": 114.17900085449219
+    },
+    {
+      "id": "41102491",
+      "tileScore": 13,
+      "name": "新清大道北环-红干10.8km强度",
+      "distanceM": 10794.2001953125,
+      "avgGrade": 0.3640844225883484,
+      "startLat": 22.843660354614258,
+      "startLng": 114.19273376464844
+    }
+  ]
+}

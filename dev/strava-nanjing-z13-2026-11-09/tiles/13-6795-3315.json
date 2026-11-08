@@ -1,0 +1,20 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-08T22:26:29.179Z",
+  "tile": {
+    "z": 13,
+    "x": 6795,
+    "y": 3315
+  },
+  "segments": [
+    {
+      "id": "34556400",
+      "tileScore": 2,
+      "name": "裴集（独山镇）—高场",
+      "distanceM": 7978.7998046875,
+      "avgGrade": -0.010026570409536362,
+      "startLat": 32.406578063964844,
+      "startLng": 118.64579010009766
+    }
+  ]
+}

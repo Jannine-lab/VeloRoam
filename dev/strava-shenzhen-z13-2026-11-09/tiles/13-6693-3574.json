@@ -1,0 +1,227 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-08T22:52:32.644Z",
+  "tile": {
+    "z": 13,
+    "x": 6693,
+    "y": 3574
+  },
+  "segments": [
+    {
+      "id": "38726410",
+      "tileScore": 4,
+      "name": "Beacon Height Climb",
+      "distanceM": 517.7999877929688,
+      "avgGrade": 5.639243125915527,
+      "startLat": 22.339675903320312,
+      "startLng": 114.16529083251953
+    },
+    {
+      "id": "38840312",
+      "tileScore": 22,
+      "name": "The GT ",
+      "distanceM": 95767,
+      "avgGrade": 0.04740672558546066,
+      "startLat": 22.326505661010742,
+      "startLng": 114.15650939941406
+    },
+    {
+      "id": "41530375",
+      "tileScore": 2,
+      "name": "Cheung Yuen Road climb to Tai Po Road",
+      "distanceM": 751.4000244140625,
+      "avgGrade": 1.6768697500228882,
+      "startLat": 22.348960876464844,
+      "startLng": 114.14610290527344
+    },
+    {
+      "id": "16207724",
+      "tileScore": 103,
+      "name": "HKC 1st climb ",
+      "distanceM": 1074.800048828125,
+      "avgGrade": 1.7305545806884766,
+      "startLat": 22.31304359436035,
+      "startLng": 114.16183471679688
+    },
+    {
+      "id": "7204518",
+      "tileScore": 52,
+      "name": "貨碼南路-北行",
+      "distanceM": 4136.7998046875,
+      "avgGrade": 0.04351189360022545,
+      "startLat": 22.32952308654785,
+      "startLng": 114.14360046386719
+    },
+    {
+      "id": "10372340",
+      "tileScore": 42,
+      "name": "大埔道 (大圍積運街斜 - 深水埗嘉頓)",
+      "distanceM": 6815.89990234375,
+      "avgGrade": -0.02200736477971077,
+      "startLat": 22.37148666381836,
+      "startLng": 114.17528533935547
+    },
+    {
+      "id": "42359174",
+      "tileScore": 26,
+      "name": "單車節中九龍繞道來回(暫)",
+      "distanceM": 8302.599609375,
+      "avgGrade": 0.04817768186330795,
+      "startLat": 22.311704635620117,
+      "startLng": 114.16344451904297
+    },
+    {
+      "id": "37471413",
+      "tileScore": 4,
+      "name": "R200 CP4 to CP5",
+      "distanceM": 11418.400390625,
+      "avgGrade": -0.09983885288238525,
+      "startLat": 22.29934310913086,
+      "startLng": 114.23705291748047
+    },
+    {
+      "id": "42171808",
+      "tileScore": 120,
+      "name": "Tsing Kwai Highway",
+      "distanceM": 7442.10009765625,
+      "avgGrade": 0.09405946731567383,
+      "startLat": 22.314916610717773,
+      "startLng": 114.16082763671875
+    },
+    {
+      "id": "15645361",
+      "tileScore": 21,
+      "name": "Steep AF Piper's Hill track",
+      "distanceM": 446.1000061035156,
+      "avgGrade": 13.943062782287598,
+      "startLat": 22.348907470703125,
+      "startLng": 114.15373229980469
+    },
+    {
+      "id": "35776864",
+      "tileScore": 12,
+      "name": "南昌<>沙倉",
+      "distanceM": 38325.69921875,
+      "avgGrade": -0.018786350265145302,
+      "startLat": 22.327791213989258,
+      "startLng": 114.15133666992188
+    },
+    {
+      "id": "15580329",
+      "tileScore": 69,
+      "name": "Tai Po Road Climb",
+      "distanceM": 1767.199951171875,
+      "avgGrade": 3.6102309226989746,
+      "startLat": 22.34322166442871,
+      "startLng": 114.1567153930664
+    },
+    {
+      "id": "36106399",
+      "tileScore": 9,
+      "name": "NSW - SHAN SHING",
+      "distanceM": 90205.8984375,
+      "avgGrade": -0.013968043960630894,
+      "startLat": 22.44609260559082,
+      "startLng": 114.04883575439453
+    },
+    {
+      "id": "42358983",
+      "tileScore": 73,
+      "name": "香港單車節2026(56公里組)",
+      "distanceM": 54847.3984375,
+      "avgGrade": -0.016773812472820282,
+      "startLat": 22.301021575927734,
+      "startLng": 114.15717315673828
+    },
+    {
+      "id": "37936539",
+      "tileScore": 76,
+      "name": "單車節 青葵公路3號碼頭 Descent",
+      "distanceM": 655.7000122070312,
+      "avgGrade": -1.769101858139038,
+      "startLat": 22.341758728027344,
+      "startLng": 114.1303939819336
+    },
+    {
+      "id": "33877200",
+      "tileScore": 27,
+      "name": "康城大冷",
+      "distanceM": 130482.203125,
+      "avgGrade": 0,
+      "startLat": 22.29688835144043,
+      "startLng": 114.26518249511719
+    },
+    {
+      "id": "14089180",
+      "tileScore": 145,
+      "name": "Terminal Sprint - Full Out",
+      "distanceM": 1842.800048828125,
+      "avgGrade": -0.06511829793453217,
+      "startLat": 22.32291030883789,
+      "startLng": 114.12255859375
+    },
+    {
+      "id": "16207728",
+      "tileScore": 68,
+      "name": "HKC 2nd climb",
+      "distanceM": 1444,
+      "avgGrade": 1.481994390487671,
+      "startLat": 22.34433937072754,
+      "startLng": 114.12648010253906
+    },
+    {
+      "id": "19140861",
+      "tileScore": 109,
+      "name": "單車節南灣山口-尖山入口",
+      "distanceM": 7096.39990234375,
+      "avgGrade": 0.11836987733840942,
+      "startLat": 22.334211349487305,
+      "startLng": 114.10755157470703
+    },
+    {
+      "id": "10063927",
+      "tileScore": 110,
+      "name": "貨櫃碼頭南路",
+      "distanceM": 2554.39990234375,
+      "avgGrade": -0.03914813697338104,
+      "startLat": 22.331422805786133,
+      "startLng": 114.13394165039062
+    },
+    {
+      "id": "13947764",
+      "tileScore": 62,
+      "name": "大埔道 ,九龍方向(下坡) - 油站至燈位",
+      "distanceM": 1794.9000244140625,
+      "avgGrade": -4.696640491485596,
+      "startLat": 22.344036102294922,
+      "startLng": 114.1540298461914
+    },
+    {
+      "id": "13282456",
+      "tileScore": 91,
+      "name": "Tsing Sha Highway Climb ",
+      "distanceM": 2330.699951171875,
+      "avgGrade": 1.9221693277359009,
+      "startLat": 22.336034774780273,
+      "startLng": 114.14454650878906
+    },
+    {
+      "id": "4104364",
+      "tileScore": 100,
+      "name": "MFB 華景山路 Wah King Hill Rd. (Climb)",
+      "distanceM": 1599.0999755859375,
+      "avgGrade": 6.065912246704102,
+      "startLat": 22.35112762451172,
+      "startLng": 114.13410949707031
+    },
+    {
+      "id": "36755267",
+      "tileScore": 5,
+      "name": "一腳觀塘至轉車站 [Fung]",
+      "distanceM": 29225,
+      "avgGrade": 0.00889649335294962,
+      "startLat": 22.312467575073242,
+      "startLng": 114.2257080078125
+    }
+  ]
+}

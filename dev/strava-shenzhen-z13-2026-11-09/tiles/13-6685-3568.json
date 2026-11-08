@@ -1,0 +1,20 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-08T22:50:21.256Z",
+  "tile": {
+    "z": 13,
+    "x": 6685,
+    "y": 3568
+  },
+  "segments": [
+    {
+      "id": "4988016",
+      "tileScore": 29,
+      "name": "廣深臨江高速",
+      "distanceM": 24966.69921875,
+      "avgGrade": 0.0064085363410413265,
+      "startLat": 22.53104591369629,
+      "startLng": 113.87958526611328
+    }
+  ]
+}

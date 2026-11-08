@@ -1,0 +1,83 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-08T22:59:38.416Z",
+  "tile": {
+    "z": 13,
+    "x": 6844,
+    "y": 3349
+  },
+  "segments": [
+    {
+      "id": "38954443",
+      "tileScore": 4,
+      "name": "TongJing RD E to W",
+      "distanceM": 28885.30078125,
+      "avgGrade": -0.04777516424655914,
+      "startLat": 31.166654586791992,
+      "startLng": 120.9546127319336
+    },
+    {
+      "id": "39133945",
+      "tileScore": 5,
+      "name": "双排同里啦-去程",
+      "distanceM": 16797.5,
+      "avgGrade": 0.015478493645787239,
+      "startLat": 31.08608055114746,
+      "startLng": 120.8979263305664
+    },
+    {
+      "id": "41451629",
+      "tileScore": 11,
+      "name": "呼吸负氧离子",
+      "distanceM": 2773.60009765625,
+      "avgGrade": -0.028843380510807037,
+      "startLat": 31.160579681396484,
+      "startLng": 120.80882263183594
+    },
+    {
+      "id": "12762021",
+      "tileScore": 9,
+      "name": "Tanzihu Bridge (Northbound)",
+      "distanceM": 452.3999938964844,
+      "avgGrade": 1.326259970664978,
+      "startLat": 31.150663375854492,
+      "startLng": 120.76229858398438
+    },
+    {
+      "id": "41451643",
+      "tileScore": 4,
+      "name": "shortcut ",
+      "distanceM": 815.7999877929688,
+      "avgGrade": 0.2941897511482239,
+      "startLat": 31.161434173583984,
+      "startLng": 120.80520629882812
+    },
+    {
+      "id": "4081071",
+      "tileScore": 10,
+      "name": "Southern Ride through Countryside",
+      "distanceM": 7996,
+      "avgGrade": 0.001250625355169177,
+      "startLat": 31.177043914794922,
+      "startLng": 120.7610092163086
+    },
+    {
+      "id": "13151065",
+      "tileScore": 1,
+      "name": "Dongguan Rd (Westbound)",
+      "distanceM": 3339.300048828125,
+      "avgGrade": -0.05390351265668869,
+      "startLat": 31.153135299682617,
+      "startLng": 120.80268859863281
+    },
+    {
+      "id": "40537521",
+      "tileScore": 8,
+      "name": "环澄湖",
+      "distanceM": 43049.19921875,
+      "avgGrade": 0.012543787248432636,
+      "startLat": 31.252605438232422,
+      "startLng": 120.79975891113281
+    }
+  ]
+}

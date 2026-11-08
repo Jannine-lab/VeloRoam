@@ -1,0 +1,74 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-03T06:11:10.259Z",
+  "tile": {
+    "z": 13,
+    "x": 6856,
+    "y": 3356
+  },
+  "segments": [
+    {
+      "id": "20963433",
+      "tileScore": 21,
+      "name": "Jinshan Seawall Dash",
+      "distanceM": 25176.30078125,
+      "avgGrade": -0.00397198973223567,
+      "startLat": 30.948577880859375,
+      "startLng": 121.31785583496094
+    },
+    {
+      "id": "35259832",
+      "tileScore": 5,
+      "name": "松金公路G1503桥（北向南）",
+      "distanceM": 504.1000061035156,
+      "avgGrade": 0.7934933304786682,
+      "startLat": 30.876970291137695,
+      "startLng": 121.30571746826172
+    },
+    {
+      "id": "13669592",
+      "tileScore": 9,
+      "name": "001松金",
+      "distanceM": 4758.39990234375,
+      "avgGrade": 0.01260928064584732,
+      "startLat": 30.8367977142334,
+      "startLng": 121.29680633544922
+    },
+    {
+      "id": "34843568",
+      "tileScore": 1,
+      "name": "全心路（西向东）",
+      "distanceM": 1997.300048828125,
+      "avgGrade": -0.1001351848244667,
+      "startLat": 30.86861801147461,
+      "startLng": 121.28173828125
+    },
+    {
+      "id": "21921636",
+      "tileScore": 19,
+      "name": "Col de Qijialou",
+      "distanceM": 532.2000122070312,
+      "avgGrade": 0.8267568349838257,
+      "startLat": 30.881610870361328,
+      "startLng": 121.32601165771484
+    },
+    {
+      "id": "34393102",
+      "tileScore": 17,
+      "name": "Cheting Hwy N-S",
+      "distanceM": 13921,
+      "avgGrade": -0.017240140587091446,
+      "startLat": 31.015979766845703,
+      "startLng": 121.30183410644531
+    },
+    {
+      "id": "35095289",
+      "tileScore": 3,
+      "name": "大亭公路（南亭公路-亭卫公路）",
+      "distanceM": 2171.60009765625,
+      "avgGrade": -0.04604899883270264,
+      "startLat": 30.893997192382812,
+      "startLng": 121.34678649902344
+    }
+  ]
+}

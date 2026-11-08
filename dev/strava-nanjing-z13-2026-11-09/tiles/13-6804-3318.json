@@ -1,0 +1,29 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-08T22:31:19.795Z",
+  "tile": {
+    "z": 13,
+    "x": 6804,
+    "y": 3318
+  },
+  "segments": [
+    {
+      "id": "38204933",
+      "tileScore": 6,
+      "name": "长山路茶园爬坡",
+      "distanceM": 1538,
+      "avgGrade": 2.197659492492676,
+      "startLat": 32.318580627441406,
+      "startLng": 119.04120635986328
+    },
+    {
+      "id": "36668999",
+      "tileScore": 9,
+      "name": "长山路北往南",
+      "distanceM": 10900.5,
+      "avgGrade": -0.13393880426883698,
+      "startLat": 32.40562057495117,
+      "startLng": 119.03903198242188
+    }
+  ]
+}

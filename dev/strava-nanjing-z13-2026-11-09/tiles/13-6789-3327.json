@@ -1,0 +1,20 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-08T22:35:12.131Z",
+  "tile": {
+    "z": 13,
+    "x": 6789,
+    "y": 3327
+  },
+  "segments": [
+    {
+      "id": "41762834",
+      "tileScore": 5,
+      "name": "微风：江桥线",
+      "distanceM": 3916.89990234375,
+      "avgGrade": -0.444228857755661,
+      "startLat": 31.969736099243164,
+      "startLng": 118.38328552246094
+    }
+  ]
+}

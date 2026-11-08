@@ -1,0 +1,29 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-08T22:33:59.510Z",
+  "tile": {
+    "z": 13,
+    "x": 6791,
+    "y": 3325
+  },
+  "segments": [
+    {
+      "id": "22340558",
+      "tileScore": 2,
+      "name": "20191124环南京浦口站 Tour de Nanjing Pukou Stage",
+      "distanceM": 83933.796875,
+      "avgGrade": -0.022875171154737473,
+      "startLat": 32.127662658691406,
+      "startLng": 118.59455108642578
+    },
+    {
+      "id": "28476745",
+      "tileScore": 1,
+      "name": "cd-汤泉楚韵花香至老山西部干线北入口",
+      "distanceM": 2974.300048828125,
+      "avgGrade": 0.34966209530830383,
+      "startLat": 32.05915451049805,
+      "startLng": 118.47232055664062
+    }
+  ]
+}

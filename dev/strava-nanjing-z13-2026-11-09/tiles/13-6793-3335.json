@@ -1,0 +1,29 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-08T22:37:36.429Z",
+  "tile": {
+    "z": 13,
+    "x": 6793,
+    "y": 3335
+  },
+  "segments": [
+    {
+      "id": "36635079",
+      "tileScore": 3,
+      "name": "THE EVANDRO'S LAKE",
+      "distanceM": 733.2999877929688,
+      "avgGrade": 0.5727533102035522,
+      "startLat": 31.687103271484375,
+      "startLng": 118.55866241455078
+    },
+    {
+      "id": "39980978",
+      "tileScore": 11,
+      "name": "长途后的向西归家路",
+      "distanceM": 2693,
+      "avgGrade": -0.57185298204422,
+      "startLat": 31.657012939453125,
+      "startLng": 118.57476806640625
+    }
+  ]
+}

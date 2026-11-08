@@ -1,0 +1,20 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-03T06:01:15.613Z",
+  "tile": {
+    "z": 13,
+    "x": 6867,
+    "y": 3334
+  },
+  "segments": [
+    {
+      "id": "27480297",
+      "tileScore": 40,
+      "name": "S356 Junction to Cosco Junction",
+      "distanceM": 20174.599609375,
+      "avgGrade": -0.020818255841732025,
+      "startLat": 31.7596378326416,
+      "startLng": 121.66297149658203
+    }
+  ]
+}

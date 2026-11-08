@@ -1,0 +1,200 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-08T22:34:29.921Z",
+  "tile": {
+    "z": 13,
+    "x": 6804,
+    "y": 3325
+  },
+  "segments": [
+    {
+      "id": "38451302",
+      "tileScore": 13,
+      "name": "ul - Tangshan shortcut leg",
+      "distanceM": 1062,
+      "avgGrade": 0.979284405708313,
+      "startLat": 32.04164505004883,
+      "startLng": 119.00337982177734
+    },
+    {
+      "id": "25786420",
+      "tileScore": 3,
+      "name": "20200920环南京汤山站全程组 Tour de Nanjing Tangshan Stage Full Length",
+      "distanceM": 79233.296875,
+      "avgGrade": 0.00025241912226192653,
+      "startLat": 32.04627990722656,
+      "startLng": 119.05066680908203
+    },
+    {
+      "id": "38154153",
+      "tileScore": 45,
+      "name": "climb to mountain—🐟",
+      "distanceM": 1003.0999755859375,
+      "avgGrade": 0.9370949864387512,
+      "startLat": 32.05398941040039,
+      "startLng": 119.0259780883789
+    },
+    {
+      "id": "37701103",
+      "tileScore": 43,
+      "name": "Down the hill of Tang",
+      "distanceM": 4221.2001953125,
+      "avgGrade": -0.9855017066001892,
+      "startLat": 32.03791809082031,
+      "startLng": 119.01548767089844
+    },
+    {
+      "id": "36848115",
+      "tileScore": 11,
+      "name": "青龙山山地马拉松标准单圈",
+      "distanceM": 37025.30078125,
+      "avgGrade": -0.002160684671252966,
+      "startLat": 32.01175308227539,
+      "startLng": 118.94888305664062
+    },
+    {
+      "id": "40290025",
+      "tileScore": 30,
+      "name": "奥莱到龙尚_TY逃课去骑车",
+      "distanceM": 6153.7001953125,
+      "avgGrade": 0.04550107941031456,
+      "startLat": 32.02328109741211,
+      "startLng": 119.05860137939453
+    },
+    {
+      "id": "38154145",
+      "tileScore": 28,
+      "name": "不知道干到什么地方的爬坡—🐟",
+      "distanceM": 648.7999877929688,
+      "avgGrade": 3.930332899093628,
+      "startLat": 32.058048248291016,
+      "startLng": 119.02606201171875
+    },
+    {
+      "id": "31649724",
+      "tileScore": 68,
+      "name": "汤山环镇西路 北向南爬坡",
+      "distanceM": 550.4000244140625,
+      "avgGrade": 5.087209224700928,
+      "startLat": 32.059104919433594,
+      "startLng": 119.04881286621094
+    },
+    {
+      "id": "31869612",
+      "tileScore": 30,
+      "name": "S122 hill (3 lakes - Tangshan)",
+      "distanceM": 1321.800048828125,
+      "avgGrade": 2.6025116443634033,
+      "startLat": 32.04173278808594,
+      "startLng": 118.99748992919922
+    },
+    {
+      "id": "35739807",
+      "tileScore": 29,
+      "name": "S122 Climb E->W @ Tangshan",
+      "distanceM": 2412.699951171875,
+      "avgGrade": 1.301446557044983,
+      "startLat": 32.031036376953125,
+      "startLng": 119.04280090332031
+    },
+    {
+      "id": "35652158",
+      "tileScore": 67,
+      "name": "汤山山顶公园爬坡",
+      "distanceM": 2563.5,
+      "avgGrade": 7.17768669128418,
+      "startLat": 32.0568733215332,
+      "startLng": 119.04705047607422
+    },
+    {
+      "id": "36755845",
+      "tileScore": 61,
+      "name": "西部干线+S122宁张线 间歇专线",
+      "distanceM": 33812.30078125,
+      "avgGrade": -0.031053787097334862,
+      "startLat": 32.109764099121094,
+      "startLng": 119.05423736572266
+    },
+    {
+      "id": "13288336",
+      "tileScore": 9,
+      "name": "雷纳 Renard S122 汤山奥莱至麒麟门社区",
+      "distanceM": 13282.900390625,
+      "avgGrade": -0.11292714625597,
+      "startLat": 32.0302734375,
+      "startLng": 119.04493713378906
+    },
+    {
+      "id": "41620766",
+      "tileScore": 8,
+      "name": "汤山国家地质公园博物馆Climb -川",
+      "distanceM": 685,
+      "avgGrade": 5.576642036437988,
+      "startLat": 32.05898666381836,
+      "startLng": 119.03416442871094
+    },
+    {
+      "id": "37058661",
+      "tileScore": 41,
+      "name": "金乌温泉 风景真美",
+      "distanceM": 4765.39990234375,
+      "avgGrade": 0.4385780990123749,
+      "startLat": 32.05934143066406,
+      "startLng": 119.04877471923828
+    },
+    {
+      "id": "42433218",
+      "tileScore": 6,
+      "name": "去钓鱼",
+      "distanceM": 814.5,
+      "avgGrade": 0.7857581377029419,
+      "startLat": 32.03220748901367,
+      "startLng": 119.00611114501953
+    },
+    {
+      "id": "39641832",
+      "tileScore": 21,
+      "name": "惊恐大喇叭，冲冲冲，逃出升天",
+      "distanceM": 616.5,
+      "avgGrade": 0.746147632598877,
+      "startLat": 32.03230667114258,
+      "startLng": 119.00667572021484
+    },
+    {
+      "id": "42127630",
+      "tileScore": 118,
+      "name": "园博园团练路线itt",
+      "distanceM": 62612,
+      "avgGrade": 0,
+      "startLat": 31.94707489013672,
+      "startLng": 118.91030883789062
+    },
+    {
+      "id": "34017185",
+      "tileScore": 12,
+      "name": "S112 - Tangshan - Garden Expo W",
+      "distanceM": 15587,
+      "avgGrade": -0.29511773586273193,
+      "startLat": 32.037925720214844,
+      "startLng": 119.01712036132812
+    },
+    {
+      "id": "35100065",
+      "tileScore": 3,
+      "name": "拆迁后从奥特莱斯回家的新路",
+      "distanceM": 2670.300048828125,
+      "avgGrade": -0.13481631875038147,
+      "startLat": 32.030792236328125,
+      "startLng": 119.0458984375
+    },
+    {
+      "id": "29469770",
+      "tileScore": 18,
+      "name": "X426 from E",
+      "distanceM": 4204.5,
+      "avgGrade": -0.5565465688705444,
+      "startLat": 32.0593376159668,
+      "startLng": 119.03720092773438
+    }
+  ]
+}

@@ -1,0 +1,83 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-03T06:10:38.612Z",
+  "tile": {
+    "z": 13,
+    "x": 6862,
+    "y": 3353
+  },
+  "segments": [
+    {
+      "id": "34868745",
+      "tileScore": 7,
+      "name": "Taimei Rd Heading East",
+      "distanceM": 2710.800048828125,
+      "avgGrade": 0.14755792915821075,
+      "startLat": 30.99370002746582,
+      "startLng": 121.56340026855469
+    },
+    {
+      "id": "40286924",
+      "tileScore": 5,
+      "name": "大叶公路～泰青公路",
+      "distanceM": 29365.69921875,
+      "avgGrade": 0.015664534643292427,
+      "startLat": 30.942710876464844,
+      "startLng": 121.26114654541016
+    },
+    {
+      "id": "30399568",
+      "tileScore": 8,
+      "name": "HangTang Bridge South",
+      "distanceM": 589.4000244140625,
+      "avgGrade": 2.0020360946655273,
+      "startLat": 31.01227569580078,
+      "startLng": 121.5950698852539
+    },
+    {
+      "id": "20305708",
+      "tileScore": 4,
+      "name": "大叶公路（六奉-沪杭）",
+      "distanceM": 25125.5,
+      "avgGrade": 0.023084117099642754,
+      "startLat": 30.988019943237305,
+      "startLng": 121.69689178466797
+    },
+    {
+      "id": "40767944",
+      "tileScore": 22,
+      "name": "大业公路",
+      "distanceM": 5153.39990234375,
+      "avgGrade": 0.019404664635658264,
+      "startLat": 30.9862117767334,
+      "startLng": 121.596435546875
+    },
+    {
+      "id": "27707575",
+      "tileScore": 180,
+      "name": "Red Bridge South Loop",
+      "distanceM": 1950.300048828125,
+      "avgGrade": 0.05127416178584099,
+      "startLat": 31.01851463317871,
+      "startLng": 121.56085968017578
+    },
+    {
+      "id": "35762536",
+      "tileScore": 45,
+      "name": "航唐公路半程加油站",
+      "distanceM": 5768.60009765625,
+      "avgGrade": 0.017335228621959686,
+      "startLat": 30.934066772460938,
+      "startLng": 121.60254669189453
+    },
+    {
+      "id": "29598861",
+      "tileScore": 2,
+      "name": "丰桥南路（西向东）",
+      "distanceM": 2593.39990234375,
+      "avgGrade": 0,
+      "startLat": 31.008325576782227,
+      "startLng": 121.5749740600586
+    }
+  ]
+}

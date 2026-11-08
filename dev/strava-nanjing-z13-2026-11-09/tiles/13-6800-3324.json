@@ -1,0 +1,191 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-08T22:34:12.926Z",
+  "tile": {
+    "z": 13,
+    "x": 6800,
+    "y": 3324
+  },
+  "segments": [
+    {
+      "id": "5847935",
+      "tileScore": 14,
+      "name": "PM Gravel Trail of Sweat and Tears",
+      "distanceM": 1535,
+      "avgGrade": 10.143322944641113,
+      "startLat": 32.07437515258789,
+      "startLng": 118.85670471191406
+    },
+    {
+      "id": "6098580",
+      "tileScore": 677,
+      "name": "ZiJingMountainGreenRoad East Seg 1",
+      "distanceM": 1167.199951171875,
+      "avgGrade": 1.3879369497299194,
+      "startLat": 32.09458541870117,
+      "startLng": 118.85567474365234
+    },
+    {
+      "id": "6098591",
+      "tileScore": 195,
+      "name": "ZiJingMountainGreenRoad East Seg 2",
+      "distanceM": 1136.5999755859375,
+      "avgGrade": -1.7332395315170288,
+      "startLat": 32.08604431152344,
+      "startLng": 118.86263275146484
+    },
+    {
+      "id": "16063261",
+      "tileScore": 23,
+      "name": "Round the Bend",
+      "distanceM": 1355.300048828125,
+      "avgGrade": -0.6788164973258972,
+      "startLat": 32.095733642578125,
+      "startLng": 118.85535430908203
+    },
+    {
+      "id": "30512184",
+      "tileScore": 5,
+      "name": "头陀岭起点抓恐龙（某些路段在修路）",
+      "distanceM": 52271.3984375,
+      "avgGrade": -0.7338621020317078,
+      "startLat": 32.072391510009766,
+      "startLng": 118.83885192871094
+    },
+    {
+      "id": "36079191",
+      "tileScore": 7,
+      "name": "2024元旦100km骑行",
+      "distanceM": 88661.296875,
+      "avgGrade": 0.01646716333925724,
+      "startLat": 32.070831298828125,
+      "startLng": 118.81453704833984
+    },
+    {
+      "id": "13238375",
+      "tileScore": 3,
+      "name": "岔路口到仙尧路",
+      "distanceM": 3059.699951171875,
+      "avgGrade": 0.03268294408917427,
+      "startLat": 32.09526443481445,
+      "startLng": 118.85826873779297
+    },
+    {
+      "id": "17603317",
+      "tileScore": 356,
+      "name": "电动门被封后在门内起点到顶 翾",
+      "distanceM": 4609.60009765625,
+      "avgGrade": 7.2414093017578125,
+      "startLat": 32.055355072021484,
+      "startLng": 118.87650299072266
+    },
+    {
+      "id": "12950237",
+      "tileScore": 10,
+      "name": "环中山陵",
+      "distanceM": 21962.80078125,
+      "avgGrade": -0.025497660040855408,
+      "startLat": 32.05926513671875,
+      "startLng": 118.81375122070312
+    },
+    {
+      "id": "20129939",
+      "tileScore": 5,
+      "name": "防火道",
+      "distanceM": 2082,
+      "avgGrade": -0.4274735748767853,
+      "startLat": 32.0647087097168,
+      "startLng": 118.87010192871094
+    },
+    {
+      "id": "12108894",
+      "tileScore": 825,
+      "name": "环陵路一圈",
+      "distanceM": 22156.900390625,
+      "avgGrade": 0.009477860294282436,
+      "startLat": 32.060935974121094,
+      "startLng": 118.80840301513672
+    },
+    {
+      "id": "37842632",
+      "tileScore": 16,
+      "name": "聚宝山公路爬坡一圈",
+      "distanceM": 2577,
+      "avgGrade": 0.007760962005704641,
+      "startLat": 32.10029602050781,
+      "startLng": 118.87311553955078
+    },
+    {
+      "id": "6098557",
+      "tileScore": 168,
+      "name": "ZiJingMountainGreenRoad North Seg 2",
+      "distanceM": 2881.5,
+      "avgGrade": 0.3817456066608429,
+      "startLat": 32.08564758300781,
+      "startLng": 118.82830047607422
+    },
+    {
+      "id": "31343234",
+      "tileScore": 14,
+      "name": "尧红路西向东",
+      "distanceM": 2629,
+      "avgGrade": -0.20540128648281097,
+      "startLat": 32.107147216796875,
+      "startLng": 118.85075378417969
+    },
+    {
+      "id": "8137831",
+      "tileScore": 4,
+      "name": "PM Northern pedestrian back road",
+      "distanceM": 1513,
+      "avgGrade": 0.660938560962677,
+      "startLat": 32.08809280395508,
+      "startLng": 118.83644104003906
+    },
+    {
+      "id": "8701294",
+      "tileScore": 2,
+      "name": "新庄-岔路口",
+      "distanceM": 6229.2998046875,
+      "avgGrade": 0.5506236553192139,
+      "startLat": 32.08022689819336,
+      "startLng": 118.80477905273438
+    },
+    {
+      "id": "6098546",
+      "tileScore": 142,
+      "name": "ZiJingMountainGreenRoad North Seg 1",
+      "distanceM": 3578.300048828125,
+      "avgGrade": 0.3996311128139496,
+      "startLat": 32.060829162597656,
+      "startLng": 118.8084487915039
+    },
+    {
+      "id": "22241332",
+      "tileScore": 2,
+      "name": "yi 爬中山陵",
+      "distanceM": 605.5999755859375,
+      "avgGrade": 11.9220609664917,
+      "startLat": 32.05863571166992,
+      "startLng": 118.84868621826172
+    },
+    {
+      "id": "39650871",
+      "tileScore": 409,
+      "name": "环陵路个人计时赛",
+      "distanceM": 4441.60009765625,
+      "avgGrade": -0.11257204413414001,
+      "startLat": 32.09468078613281,
+      "startLng": 118.85567474365234
+    },
+    {
+      "id": "32165817",
+      "tileScore": 12,
+      "name": "小平路后加速冲刺",
+      "distanceM": 569.0999755859375,
+      "avgGrade": 6.079774856567383,
+      "startLat": 32.06903076171875,
+      "startLng": 118.85120391845703
+    }
+  ]
+}

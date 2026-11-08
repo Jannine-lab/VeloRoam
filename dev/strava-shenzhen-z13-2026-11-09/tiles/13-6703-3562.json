@@ -1,0 +1,20 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-08T22:48:24.130Z",
+  "tile": {
+    "z": 13,
+    "x": 6703,
+    "y": 3562
+  },
+  "segments": [
+    {
+      "id": "28621534",
+      "tileScore": 2,
+      "name": "梅园爬坡",
+      "distanceM": 2486.10009765625,
+      "avgGrade": 3.9338722229003906,
+      "startLat": 22.840911865234375,
+      "startLng": 114.56641387939453
+    }
+  ]
+}

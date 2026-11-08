@@ -1,0 +1,56 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-08T22:52:41.180Z",
+  "tile": {
+    "z": 13,
+    "x": 6689,
+    "y": 3574
+  },
+  "segments": [
+    {
+      "id": "25409553",
+      "tileScore": 71,
+      "name": "Zone7 Cheung Tung TT (South) (8km)",
+      "distanceM": 7965.7998046875,
+      "avgGrade": -0.15064400434494019,
+      "startLat": 22.33328628540039,
+      "startLng": 114.03199768066406
+    },
+    {
+      "id": "10836690",
+      "tileScore": 101,
+      "name": "DB to TC",
+      "distanceM": 5159.7001953125,
+      "avgGrade": -0.015504777431488037,
+      "startLat": 22.30999183654785,
+      "startLng": 113.9902114868164
+    },
+    {
+      "id": "5440728",
+      "tileScore": 331,
+      "name": "Cheung Tung Road TT (South) ",
+      "distanceM": 10920,
+      "avgGrade": -0.10989011824131012,
+      "startLat": 22.333391189575195,
+      "startLng": 114.03206634521484
+    },
+    {
+      "id": "37909553",
+      "tileScore": 2,
+      "name": "Expo to Hong Kong-Zhuhai-Macao Port",
+      "distanceM": 1589.4000244140625,
+      "avgGrade": 0.025166727602481842,
+      "startLat": 22.319074630737305,
+      "startLng": 113.94290161132812
+    },
+    {
+      "id": "12574576",
+      "tileScore": 59,
+      "name": "DB to Olympic turnoff",
+      "distanceM": 2625.800048828125,
+      "avgGrade": 0.007616726215928793,
+      "startLat": 22.309846878051758,
+      "startLng": 113.99007415771484
+    }
+  ]
+}

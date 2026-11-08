@@ -1,0 +1,38 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-08T22:35:25.484Z",
+  "tile": {
+    "z": 13,
+    "x": 6796,
+    "y": 3329
+  },
+  "segments": [
+    {
+      "id": "41274512",
+      "tileScore": 3,
+      "name": "银杏湖大道顺风飞驰",
+      "distanceM": 6646.39990234375,
+      "avgGrade": -0.04965093731880188,
+      "startLat": 31.8472843170166,
+      "startLng": 118.68263244628906
+    },
+    {
+      "id": "36644087",
+      "tileScore": 5,
+      "name": "莲花湖公园绕圈｜ ArthurW.",
+      "distanceM": 3701.60009765625,
+      "avgGrade": 0.021612275391817093,
+      "startLat": 31.91155433654785,
+      "startLng": 118.65762329101562
+    },
+    {
+      "id": "25857443",
+      "tileScore": 3,
+      "name": "20200926环南京雨花台站 Tour de Nanjing Yuhuatai Stage",
+      "distanceM": 46733.5,
+      "avgGrade": -0.00042795855551958084,
+      "startLat": 31.995834350585938,
+      "startLng": 118.77606201171875
+    }
+  ]
+}

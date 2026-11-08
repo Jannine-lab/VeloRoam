@@ -1,0 +1,20 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-08T22:27:41.200Z",
+  "tile": {
+    "z": 13,
+    "x": 6802,
+    "y": 3318
+  },
+  "segments": [
+    {
+      "id": "40549099",
+      "tileScore": 11,
+      "name": "红光小营—横梁",
+      "distanceM": 5654,
+      "avgGrade": 0.12026882916688919,
+      "startLat": 32.27147674560547,
+      "startLng": 118.94132232666016
+    }
+  ]
+}

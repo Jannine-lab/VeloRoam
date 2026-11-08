@@ -1,0 +1,215 @@
+[
+  {
+    "id": "distance-20",
+    "category": "distance",
+    "split": "development",
+    "repeat": 1,
+    "passed": true,
+    "turns": [
+      {
+        "idea": "我想骑20公里",
+        "expected": {
+          "fields": {
+            "contextIntent.targetKm": 20,
+            "contextIntent.requestType": "route"
+          }
+        },
+        "status": 200,
+        "durationMs": 3513,
+        "checks": [
+          {
+            "name": "valid_response",
+            "passed": true
+          },
+          {
+            "name": "field:contextIntent.targetKm",
+            "passed": true,
+            "expected": 20,
+            "actual": 20
+          },
+          {
+            "name": "field:contextIntent.requestType",
+            "passed": true,
+            "expected": "route",
+            "actual": "route"
+          }
+        ],
+        "response": {
+          "message": "已完成需求解析（固定规划器评测）",
+          "items": [],
+          "route": {
+            "legs": [],
+            "stops": [],
+            "distanceKm": 20,
+            "durationMin": 90,
+            "hasEstimatedTime": true
+          },
+          "meta": {
+            "requestId": "7291ea53-e767-48bb-9c51-78c207d910e2",
+            "promptVersion": "idea-2026-11-09.v1",
+            "model": "deepseek-chat",
+            "modelCalls": 1,
+            "inputTokens": 1952,
+            "outputTokens": 159,
+            "modelDurationMs": 3478,
+            "elapsedMs": 3499,
+            "toolCalls": []
+          },
+          "title": "规划20公里骑行路线",
+          "contextIntent": {
+            "mode": "route",
+            "requestType": "route",
+            "place": null,
+            "origin": null,
+            "destination": null,
+            "returnToStart": false,
+            "needsSegment": false,
+            "segmentName": null,
+            "needsPoint": false,
+            "pointName": null,
+            "pointKind": null,
+            "order": [],
+            "stops": [],
+            "preferences": [],
+            "preferredTags": [],
+            "avoidTags": [],
+            "minKm": null,
+            "maxKm": null,
+            "targetKm": 20,
+            "targetMinutes": null,
+            "minMinutes": null,
+            "maxMinutes": null,
+            "timeScope": null,
+            "stopMinutes": null
+          },
+          "placeContext": null
+        }
+      }
+    ]
+  },
+  {
+    "id": "lookup-segment",
+    "category": "lookup",
+    "split": "holdout",
+    "repeat": 1,
+    "passed": true,
+    "turns": [
+      {
+        "idea": "介绍一下滨江练习段",
+        "expected": {
+          "fields": {},
+          "candidateIds": [
+            "segment:101"
+          ],
+          "toolAnyOf": [
+            "search_candidates"
+          ],
+          "noRoute": true
+        },
+        "status": 200,
+        "durationMs": 5776,
+        "checks": [
+          {
+            "name": "valid_response",
+            "passed": true
+          },
+          {
+            "name": "candidate_identity",
+            "passed": true,
+            "expected": [
+              "segment:101"
+            ],
+            "actual": [
+              "segment:101"
+            ]
+          },
+          {
+            "name": "tool_selection",
+            "passed": true,
+            "expected": [
+              "search_candidates"
+            ],
+            "actual": [
+              "search_candidates"
+            ]
+          },
+          {
+            "name": "no_fabricated_route",
+            "passed": true
+          }
+        ],
+        "response": {
+          "message": "找到与“滨江练习段”名称相关的数据库记录或地点附近的路段和点位；名称相近不一定是同一个地点，附近不代表处于区域边界内。你可以选择一个，或继续说明想去的区域。",
+          "items": [
+            {
+              "id": "segment:101",
+              "type": "segment",
+              "name": "滨江练习段",
+              "lat": 31.2,
+              "lng": 121.4,
+              "distanceKm": 10,
+              "hazardous": false,
+              "tags": {
+                "climbing": "unknown",
+                "loop": "unknown",
+                "out_and_back": "unknown",
+                "long_distance": "unknown",
+                "popular": "matched",
+                "highly_starred": "unknown"
+              },
+              "coordinates": [
+                {
+                  "lat": 31.2,
+                  "lng": 121.4
+                },
+                {
+                  "lat": 31.21,
+                  "lng": 121.41
+                }
+              ],
+              "reason": "名称相关的数据库记录"
+            }
+          ],
+          "options": [
+            "选择滨江练习段"
+          ],
+          "meta": {
+            "requestId": "277cdd5b-2dfb-4421-b9ec-430e5f408f5b",
+            "promptVersion": "idea-2026-11-09.v1",
+            "model": "deepseek-chat",
+            "modelCalls": 3,
+            "inputTokens": 5890,
+            "outputTokens": 473,
+            "modelDurationMs": 5762,
+            "elapsedMs": 5775,
+            "toolCalls": [
+              {
+                "name": "search_candidates",
+                "status": "ok",
+                "durationMs": 2
+              }
+            ]
+          },
+          "title": "介绍滨江练习段",
+          "contextIntent": null,
+          "placeContext": {
+            "query": "滨江练习段",
+            "terms": [
+              "滨江",
+              "练习段"
+            ],
+            "candidates": [
+              {
+                "id": "segment:101",
+                "name": "滨江练习段",
+                "type": "segment"
+              }
+            ],
+            "selectedId": "segment:101",
+            "area": null
+          }
+        }
+      }
+    ]
+  }
+]

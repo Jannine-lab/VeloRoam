@@ -1,0 +1,20 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-03T05:59:11.161Z",
+  "tile": {
+    "z": 13,
+    "x": 6866,
+    "y": 3332
+  },
+  "segments": [
+    {
+      "id": "41626593",
+      "tileScore": 19,
+      "name": "The long way home",
+      "distanceM": 23625.19921875,
+      "avgGrade": 0.010158644057810307,
+      "startLat": 31.702730178833008,
+      "startLng": 121.85640716552734
+    }
+  ]
+}

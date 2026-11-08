@@ -1,0 +1,191 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-08T22:52:29.893Z",
+  "tile": {
+    "z": 13,
+    "x": 6696,
+    "y": 3573
+  },
+  "segments": [
+    {
+      "id": "13901630",
+      "tileScore": 17,
+      "name": "Sai Kung to MOS Sai Sa",
+      "distanceM": 11611.900390625,
+      "avgGrade": 0.015501338988542557,
+      "startLat": 22.360387802124023,
+      "startLng": 114.25455474853516
+    },
+    {
+      "id": "9300481",
+      "tileScore": 50,
+      "name": "Sai Sha to Country Park",
+      "distanceM": 5227.2001953125,
+      "avgGrade": 0.05739210173487663,
+      "startLat": 22.395612716674805,
+      "startLng": 114.28411102294922
+    },
+    {
+      "id": "27439830",
+      "tileScore": 25,
+      "name": "Tai Po (Tai Wong Yeh Temple) to Pak Tam Chung / 大埔(大王爺廟)至北潭涌",
+      "distanceM": 25706,
+      "avgGrade": 0.031121138483285904,
+      "startLat": 22.4453067779541,
+      "startLng": 114.17774200439453
+    },
+    {
+      "id": "30308647",
+      "tileScore": 17,
+      "name": "Pik Uk -Wong Shek Out & Back",
+      "distanceM": 44123,
+      "avgGrade": 0.009065566584467888,
+      "startLat": 22.340442657470703,
+      "startLng": 114.2474136352539
+    },
+    {
+      "id": "10063425",
+      "tileScore": 40,
+      "name": "Tai Mon Tsai Youth Camp climb",
+      "distanceM": 548,
+      "avgGrade": 3.8686130046844482,
+      "startLat": 22.389684677124023,
+      "startLng": 114.30111694335938
+    },
+    {
+      "id": "3886697",
+      "tileScore": 22,
+      "name": "Sai Sha road to Yan Yee Road",
+      "distanceM": 2060.478271484375,
+      "avgGrade": 0.1310361623764038,
+      "startLat": 22.395706176757812,
+      "startLng": 114.28353118896484
+    },
+    {
+      "id": "30906245",
+      "tileScore": 11,
+      "name": "Sai Kung - Hang Hao",
+      "distanceM": 9466.5,
+      "avgGrade": 0,
+      "startLat": 22.38360595703125,
+      "startLng": 114.27102661132812
+    },
+    {
+      "id": "3286567",
+      "tileScore": 25,
+      "name": "Pak Kong Road Climb",
+      "distanceM": 541.5599975585938,
+      "avgGrade": 23.966026306152344,
+      "startLat": 22.379878997802734,
+      "startLng": 114.2684555053711
+    },
+    {
+      "id": "33877200",
+      "tileScore": 27,
+      "name": "康城大冷",
+      "distanceM": 130482.203125,
+      "avgGrade": 0,
+      "startLat": 22.29688835144043,
+      "startLng": 114.26518249511719
+    },
+    {
+      "id": "37471398",
+      "tileScore": 21,
+      "name": "R200 CP2 to CP3",
+      "distanceM": 22055.599609375,
+      "avgGrade": 0.033551570028066635,
+      "startLat": 22.39604377746582,
+      "startLng": 114.31844329833984
+    },
+    {
+      "id": "38802133",
+      "tileScore": 3,
+      "name": "Habitat Road Climb",
+      "distanceM": 500.3999938964844,
+      "avgGrade": 8.073541641235352,
+      "startLat": 22.367631912231445,
+      "startLng": 114.2593765258789
+    },
+    {
+      "id": "36876765",
+      "tileScore": 15,
+      "name": "Climb and Descent to Tui Min Hoi",
+      "distanceM": 1283.0999755859375,
+      "avgGrade": -1.465201497077942,
+      "startLat": 22.377155303955078,
+      "startLng": 114.26478576660156
+    },
+    {
+      "id": "3089871",
+      "tileScore": 3,
+      "name": "Pak Kong Road Climb",
+      "distanceM": 907.4299926757812,
+      "avgGrade": 9.564738273620605,
+      "startLat": 22.37776756286621,
+      "startLng": 114.26039123535156
+    },
+    {
+      "id": "26693548",
+      "tileScore": 20,
+      "name": "Pak Sha Wan Memorial Climb",
+      "distanceM": 362.70001220703125,
+      "avgGrade": 2.646815538406372,
+      "startLat": 22.36362648010254,
+      "startLng": 114.25867462158203
+    },
+    {
+      "id": "27097710",
+      "tileScore": 1,
+      "name": " 大水井古道 uphill",
+      "distanceM": 1486,
+      "avgGrade": 8.061911582946777,
+      "startLat": 22.385255813598633,
+      "startLng": 114.25993347167969
+    },
+    {
+      "id": "3886715",
+      "tileScore": 23,
+      "name": "Yan Yee Road to Barriers",
+      "distanceM": 3209.056884765625,
+      "avgGrade": 0.17450374364852905,
+      "startLat": 22.39155387878418,
+      "startLng": 114.29717254638672
+    },
+    {
+      "id": "2414463",
+      "tileScore": 24,
+      "name": "Cheuk Yeung Climb",
+      "distanceM": 2215.0751953125,
+      "avgGrade": 11.769220352172852,
+      "startLat": 22.388856887817383,
+      "startLng": 114.2737045288086
+    },
+    {
+      "id": "8955688",
+      "tileScore": 14,
+      "name": "SK to Marina Cove",
+      "distanceM": 3862.300048828125,
+      "avgGrade": -0.17865002155303955,
+      "startLat": 22.38334083557129,
+      "startLng": 114.27090454101562
+    },
+    {
+      "id": "7425353",
+      "tileScore": 33,
+      "name": "SaiSha roundabout to SK roundabout sprint",
+      "distanceM": 1485.699951171875,
+      "avgGrade": 0.20192502439022064,
+      "startLat": 22.395431518554688,
+      "startLng": 114.2832260131836
+    },
+    {
+      "id": "5562444",
+      "tileScore": 17,
+      "name": "Wai Man Road Climb",
+      "distanceM": 397.70001220703125,
+      "avgGrade": 22.22780990600586,
+      "startLat": 22.387523651123047,
+      "startLng": 114.27484130859375
+    }
+  ]
+}

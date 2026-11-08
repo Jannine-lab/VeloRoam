@@ -1,0 +1,47 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-08T22:35:43.137Z",
+  "tile": {
+    "z": 13,
+    "x": 6807,
+    "y": 3328
+  },
+  "segments": [
+    {
+      "id": "29734676",
+      "tileScore": 3,
+      "name": "The way to heaven-G104",
+      "distanceM": 2042.800048828125,
+      "avgGrade": 0.05874290317296982,
+      "startLat": 31.927806854248047,
+      "startLng": 119.1485824584961
+    },
+    {
+      "id": "38809511",
+      "tileScore": 9,
+      "name": "高铁站刷圈",
+      "distanceM": 1468.9000244140625,
+      "avgGrade": 0,
+      "startLat": 31.92151641845703,
+      "startLng": 119.1694107055664
+    },
+    {
+      "id": "38291997",
+      "tileScore": 10,
+      "name": "加把劲！马上到句容！",
+      "distanceM": 8247.5,
+      "avgGrade": 0.14064867794513702,
+      "startLat": 31.861675262451172,
+      "startLng": 119.10040283203125
+    },
+    {
+      "id": "6121894",
+      "tileScore": 19,
+      "name": "104 句容 To 江宁",
+      "distanceM": 22433.19921875,
+      "avgGrade": 0.05349214747548103,
+      "startLat": 31.912412643432617,
+      "startLng": 119.13887786865234
+    }
+  ]
+}

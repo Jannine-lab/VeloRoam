@@ -1,0 +1,272 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-08T22:52:38.257Z",
+  "tile": {
+    "z": 13,
+    "x": 6691,
+    "y": 3573
+  },
+  "segments": [
+    {
+      "id": "13541253",
+      "tileScore": 47,
+      "name": "Bus Stop to Hotel Sprint (climb) ",
+      "distanceM": 452.3999938964844,
+      "avgGrade": 2.2104332447052,
+      "startLat": 22.36766815185547,
+      "startLng": 114.07418823242188
+    },
+    {
+      "id": "20114371",
+      "tileScore": 19,
+      "name": "荃灣麗城至元朗西(海安路行人燈位經青公至元朗朗邊中轉屋藍色路牌)",
+      "distanceM": 24964.5,
+      "avgGrade": 0.0416591577231884,
+      "startLat": 22.372472763061523,
+      "startLng": 114.10540771484375
+    },
+    {
+      "id": "695422",
+      "tileScore": 25,
+      "name": "Tai Lam Tunnel Climb",
+      "distanceM": 1551.0799560546875,
+      "avgGrade": 6.756495475769043,
+      "startLat": 22.3973331451416,
+      "startLng": 114.05438232421875
+    },
+    {
+      "id": "13651819",
+      "tileScore": 3,
+      "name": "Ma Wan Drainage Climb_Up",
+      "distanceM": 244.60000610351562,
+      "avgGrade": 8.99427604675293,
+      "startLat": 22.35462760925293,
+      "startLng": 114.0602035522461
+    },
+    {
+      "id": "6454321",
+      "tileScore": 88,
+      "name": "嘉頓斜往深井方向",
+      "distanceM": 544.0999755859375,
+      "avgGrade": 2.573056221008301,
+      "startLat": 22.367942810058594,
+      "startLng": 114.07464599609375
+    },
+    {
+      "id": "35776864",
+      "tileScore": 12,
+      "name": "南昌<>沙倉",
+      "distanceM": 38325.69921875,
+      "avgGrade": -0.018786350265145302,
+      "startLat": 22.327791213989258,
+      "startLng": 114.15133666992188
+    },
+    {
+      "id": "23300588",
+      "tileScore": 10,
+      "name": "越野單車徑 青龍頭段 1st climb from gate",
+      "distanceM": 731.5999755859375,
+      "avgGrade": 11.61837100982666,
+      "startLat": 22.37002944946289,
+      "startLng": 114.05107116699219
+    },
+    {
+      "id": "23798881",
+      "tileScore": 4,
+      "name": "RCCHKG_ED_Tai_Lam_Routine",
+      "distanceM": 29155.30078125,
+      "avgGrade": 1.4577109813690186,
+      "startLat": 22.370813369750977,
+      "startLng": 114.09672546386719
+    },
+    {
+      "id": "10659661",
+      "tileScore": 72,
+      "name": "Tsing Ma Bridge out and back",
+      "distanceM": 5492.39990234375,
+      "avgGrade": -0.025489766150712967,
+      "startLat": 22.352811813354492,
+      "startLng": 114.08594512939453
+    },
+    {
+      "id": "1866833",
+      "tileScore": 89,
+      "name": "Tin Fu Tsai Climb",
+      "distanceM": 3578.0537109375,
+      "avgGrade": 6.260480880737305,
+      "startLat": 22.398210525512695,
+      "startLng": 114.04871368408203
+    },
+    {
+      "id": "16254748",
+      "tileScore": 3,
+      "name": "Mini-Moo",
+      "distanceM": 750.9000244140625,
+      "avgGrade": -7.870555877685547,
+      "startLat": 22.3808650970459,
+      "startLng": 114.05545043945312
+    },
+    {
+      "id": "3838426",
+      "tileScore": 457,
+      "name": "沙倉來回 (細圈)",
+      "distanceM": 6000.10986328125,
+      "avgGrade": 0.036666058003902435,
+      "startLat": 22.36136817932129,
+      "startLng": 114.04540252685547
+    },
+    {
+      "id": "36106399",
+      "tileScore": 9,
+      "name": "NSW - SHAN SHING",
+      "distanceM": 90205.8984375,
+      "avgGrade": -0.013968043960630894,
+      "startLat": 22.44609260559082,
+      "startLng": 114.04883575439453
+    },
+    {
+      "id": "6115070",
+      "tileScore": 9,
+      "name": "Ting Kau Climb",
+      "distanceM": 897.9000244140625,
+      "avgGrade": 9.021048545837402,
+      "startLat": 22.370540618896484,
+      "startLng": 114.07894897460938
+    },
+    {
+      "id": "13834545",
+      "tileScore": 57,
+      "name": "Final Sprint from 回旋處到橋底",
+      "distanceM": 285.70001220703125,
+      "avgGrade": 0.14000700414180756,
+      "startLat": 22.36136245727539,
+      "startLng": 114.04556274414062
+    },
+    {
+      "id": "6378290",
+      "tileScore": 83,
+      "name": "嘉頓斜",
+      "distanceM": 658.4000244140625,
+      "avgGrade": 2.582016944885254,
+      "startLat": 22.364168167114258,
+      "startLng": 114.06596374511719
+    },
+    {
+      "id": "42358983",
+      "tileScore": 73,
+      "name": "香港單車節2026(56公里組)",
+      "distanceM": 54847.3984375,
+      "avgGrade": -0.016773812472820282,
+      "startLat": 22.301021575927734,
+      "startLng": 114.15717315673828
+    },
+    {
+      "id": "35514125",
+      "tileScore": 17,
+      "name": "PFAM - TLCP Climb S3",
+      "distanceM": 1789.300048828125,
+      "avgGrade": 4.912535667419434,
+      "startLat": 22.392004013061523,
+      "startLng": 114.06153869628906
+    },
+    {
+      "id": "33877200",
+      "tileScore": 27,
+      "name": "康城大冷",
+      "distanceM": 130482.203125,
+      "avgGrade": 0,
+      "startLat": 22.29688835144043,
+      "startLng": 114.26518249511719
+    },
+    {
+      "id": "27915803",
+      "tileScore": 1,
+      "name": "Escaping the park rangers",
+      "distanceM": 343.29998779296875,
+      "avgGrade": 7.573551177978516,
+      "startLat": 22.370580673217773,
+      "startLng": 114.05318450927734
+    },
+    {
+      "id": "15095343",
+      "tileScore": 51,
+      "name": "汀蘭居至汀九村",
+      "distanceM": 1362.4000244140625,
+      "avgGrade": 0.42571932077407837,
+      "startLat": 22.36751365661621,
+      "startLng": 114.09117889404297
+    },
+    {
+      "id": "11512594",
+      "tileScore": 45,
+      "name": "tai lam climb-short",
+      "distanceM": 447.1000061035156,
+      "avgGrade": 10.601655006408691,
+      "startLat": 22.389678955078125,
+      "startLng": 114.04351043701172
+    },
+    {
+      "id": "19787944",
+      "tileScore": 75,
+      "name": "豪景 - 浪翠 上坡",
+      "distanceM": 672.9000244140625,
+      "avgGrade": 2.37776780128479,
+      "startLat": 22.36133575439453,
+      "startLng": 114.04647064208984
+    },
+    {
+      "id": "38840312",
+      "tileScore": 22,
+      "name": "The GT ",
+      "distanceM": 95767,
+      "avgGrade": 0.04740672558546066,
+      "startLat": 22.326505661010742,
+      "startLng": 114.15650939941406
+    },
+    {
+      "id": "3414612",
+      "tileScore": 10,
+      "name": "Tai Lam Tunnel Climb",
+      "distanceM": 323.2699890136719,
+      "avgGrade": 25.54902458190918,
+      "startLat": 22.383806228637695,
+      "startLng": 114.060302734375
+    },
+    {
+      "id": "36755267",
+      "tileScore": 5,
+      "name": "一腳觀塘至轉車站 [Fung]",
+      "distanceM": 29225,
+      "avgGrade": 0.00889649335294962,
+      "startLat": 22.312467575073242,
+      "startLng": 114.2257080078125
+    },
+    {
+      "id": "5791656",
+      "tileScore": 125,
+      "name": "荃灣至沙倉10KM",
+      "distanceM": 9635.7001953125,
+      "avgGrade": 0.06849528104066849,
+      "startLat": 22.370330810546875,
+      "startLng": 114.10121154785156
+    },
+    {
+      "id": "678829",
+      "tileScore": 41,
+      "name": "旭昇道 Climb",
+      "distanceM": 1057.72998046875,
+      "avgGrade": 8.054451942443848,
+      "startLat": 22.385875701904297,
+      "startLng": 114.05686950683594
+    },
+    {
+      "id": "10679901",
+      "tileScore": 130,
+      "name": "浪翠園上斜",
+      "distanceM": 270.6000061035156,
+      "avgGrade": 4.286770343780518,
+      "startLat": 22.364282608032227,
+      "startLng": 114.05500030517578
+    }
+  ]
+}

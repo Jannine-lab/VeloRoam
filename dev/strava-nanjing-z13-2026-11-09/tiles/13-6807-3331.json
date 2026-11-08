@@ -1,0 +1,20 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-08T22:35:56.497Z",
+  "tile": {
+    "z": 13,
+    "x": 6807,
+    "y": 3331
+  },
+  "segments": [
+    {
+      "id": "40036899",
+      "tileScore": 13,
+      "name": "x305小起伏 （后白至郭庄）",
+      "distanceM": 14052.900390625,
+      "avgGrade": 0.039849426597356796,
+      "startLat": 31.80217170715332,
+      "startLng": 119.18756866455078
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-08T22:41:31.618Z",
+  "tile": {
+    "z": 13,
+    "x": 6796,
+    "y": 3348
+  },
+  "segments": [
+    {
+      "id": "41660385",
+      "tileScore": 16,
+      "name": "金宝圩大环线",
+      "distanceM": 51461.6015625,
+      "avgGrade": -0.002914794720709324,
+      "startLat": 31.158809661865234,
+      "startLng": 118.73988342285156
+    }
+  ]
+}

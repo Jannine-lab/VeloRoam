@@ -1,0 +1,20 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-03T06:02:45.762Z",
+  "tile": {
+    "z": 13,
+    "x": 6859,
+    "y": 3338
+  },
+  "segments": [
+    {
+      "id": "36359274",
+      "tileScore": 3,
+      "name": "the ferry",
+      "distanceM": 29391.400390625,
+      "avgGrade": -0.0017011777963489294,
+      "startLat": 31.469480514526367,
+      "startLng": 121.41571044921875
+    }
+  ]
+}

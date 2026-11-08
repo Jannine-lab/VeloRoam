@@ -1,0 +1,20 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-08T22:40:41.138Z",
+  "tile": {
+    "z": 13,
+    "x": 6810,
+    "y": 3344
+  },
+  "segments": [
+    {
+      "id": "41505383",
+      "tileScore": 12,
+      "name": "360到底，拉到头！",
+      "distanceM": 33369,
+      "avgGrade": -0.010788456536829472,
+      "startLat": 31.31865692138672,
+      "startLng": 119.30333709716797
+    }
+  ]
+}

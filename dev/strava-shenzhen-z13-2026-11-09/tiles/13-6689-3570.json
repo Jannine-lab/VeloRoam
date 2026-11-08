@@ -1,0 +1,38 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-08T22:51:21.330Z",
+  "tile": {
+    "z": 13,
+    "x": 6689,
+    "y": 3570
+  },
+  "segments": [
+    {
+      "id": "33710587",
+      "tileScore": 4,
+      "name": "HK Bridge run",
+      "distanceM": 1540.800048828125,
+      "avgGrade": 0,
+      "startLat": 22.488292694091797,
+      "startLng": 113.94668579101562
+    },
+    {
+      "id": "26506800",
+      "tileScore": 3,
+      "name": "Deep Bay Road Climb after Tin Yuet Road Junction ",
+      "distanceM": 337.1000061035156,
+      "avgGrade": 3.5004448890686035,
+      "startLat": 22.47783851623535,
+      "startLng": 113.99424743652344
+    },
+    {
+      "id": "14713304",
+      "tileScore": 4,
+      "name": "Tin Yuet Rd & Deep Bay Rd intersaction to Round-about ",
+      "distanceM": 2347.10009765625,
+      "avgGrade": 0.7498615384101868,
+      "startLat": 22.477521896362305,
+      "startLng": 113.9940185546875
+    }
+  ]
+}

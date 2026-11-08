@@ -1,0 +1,173 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-08T22:52:56.785Z",
+  "tile": {
+    "z": 13,
+    "x": 6684,
+    "y": 3560
+  },
+  "segments": [
+    {
+      "id": "28499932",
+      "tileScore": 16,
+      "name": "环大岭山<风柜口起点>",
+      "distanceM": 24131.80078125,
+      "avgGrade": -0.03232249617576599,
+      "startLat": 22.860000610351562,
+      "startLng": 113.77369689941406
+    },
+    {
+      "id": "15319477",
+      "tileScore": 25,
+      "name": "Xinxi Rd Climb",
+      "distanceM": 967.5999755859375,
+      "avgGrade": 5.41546106338501,
+      "startLat": 22.897388458251953,
+      "startLng": 113.7502670288086
+    },
+    {
+      "id": "918246",
+      "tileScore": 156,
+      "name": "新溪路 Climb",
+      "distanceM": 1913.3900146484375,
+      "avgGrade": 10.551897048950195,
+      "startLat": 22.891080856323242,
+      "startLng": 113.75607299804688
+    },
+    {
+      "id": "15654247",
+      "tileScore": 54,
+      "name": "Last Steep Section",
+      "distanceM": 560.2999877929688,
+      "avgGrade": 10.030341148376465,
+      "startLat": 22.90487289428711,
+      "startLng": 113.77207946777344
+    },
+    {
+      "id": "14540885",
+      "tileScore": 23,
+      "name": "Tom Simpson Memorial ",
+      "distanceM": 370.20001220703125,
+      "avgGrade": 13.614262580871582,
+      "startLat": 22.883785247802734,
+      "startLng": 113.76673889160156
+    },
+    {
+      "id": "39631715",
+      "tileScore": 17,
+      "name": "厚虎路神秘小道",
+      "distanceM": 2110.300048828125,
+      "avgGrade": 0.009477325715124607,
+      "startLat": 22.87194061279297,
+      "startLng": 113.72437286376953
+    },
+    {
+      "id": "18721260",
+      "tileScore": 6,
+      "name": "Hill view golf course S to N",
+      "distanceM": 4276.39990234375,
+      "avgGrade": -0.17304274439811707,
+      "startLat": 22.910737991333008,
+      "startLng": 113.7388916015625
+    },
+    {
+      "id": "15686229",
+      "tileScore": 8,
+      "name": "Down X235",
+      "distanceM": 876.2000122070312,
+      "avgGrade": -3.4923534393310547,
+      "startLat": 22.917949676513672,
+      "startLng": 113.75019073486328
+    },
+    {
+      "id": "34418129",
+      "tileScore": 38,
+      "name": "大岭山-白石山-暗道",
+      "distanceM": 1314.5,
+      "avgGrade": 8.626853942871094,
+      "startLat": 22.90157699584961,
+      "startLng": 113.73089599609375
+    },
+    {
+      "id": "12658428",
+      "tileScore": 2,
+      "name": "厚大路A",
+      "distanceM": 9246,
+      "avgGrade": 0.10599178820848465,
+      "startLat": 22.908432006835938,
+      "startLng": 113.73878479003906
+    },
+    {
+      "id": "37184157",
+      "tileScore": 10,
+      "name": "Concrete Steepness",
+      "distanceM": 1910.199951171875,
+      "avgGrade": 3.0468013286590576,
+      "startLat": 22.907745361328125,
+      "startLng": 113.75144958496094
+    },
+    {
+      "id": "31164292",
+      "tileScore": 5,
+      "name": "环湖路to白石山路口",
+      "distanceM": 3904.39990234375,
+      "avgGrade": 0.0665915384888649,
+      "startLat": 22.907451629638672,
+      "startLng": 113.73661041259766
+    },
+    {
+      "id": "35475898",
+      "tileScore": 1,
+      "name": "因封路发现的路1   下陡坡段",
+      "distanceM": 1938.9000244140625,
+      "avgGrade": -4.43550443649292,
+      "startLat": 22.88680648803711,
+      "startLng": 113.75010681152344
+    },
+    {
+      "id": "31509922",
+      "tileScore": 2,
+      "name": "大白马标准版壹",
+      "distanceM": 72662.203125,
+      "avgGrade": -0.00027524627512320876,
+      "startLat": 22.840572357177734,
+      "startLng": 113.77523040771484
+    },
+    {
+      "id": "14477400",
+      "tileScore": 83,
+      "name": "Chinese Mortirolo !!",
+      "distanceM": 3365,
+      "avgGrade": 10.365527153015137,
+      "startLat": 22.86985206604004,
+      "startLng": 113.76460266113281
+    },
+    {
+      "id": "34196425",
+      "tileScore": 18,
+      "name": "last climb if you turn left at the junction",
+      "distanceM": 1683.5999755859375,
+      "avgGrade": 4.668567180633545,
+      "startLat": 22.87980079650879,
+      "startLng": 113.7421646118164
+    },
+    {
+      "id": "14827119",
+      "tileScore": 119,
+      "name": "馬山climb",
+      "distanceM": 2013,
+      "avgGrade": 8.862394332885742,
+      "startLat": 22.898761749267578,
+      "startLng": 113.7625961303711
+    },
+    {
+      "id": "34418165",
+      "tileScore": 21,
+      "name": "白石山-暗道至山顶",
+      "distanceM": 6164.2001953125,
+      "avgGrade": 3.387300968170166,
+      "startLat": 22.901517868041992,
+      "startLng": 113.7308349609375
+    }
+  ]
+}

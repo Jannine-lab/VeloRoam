@@ -1,0 +1,236 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-08T22:52:38.257Z",
+  "tile": {
+    "z": 13,
+    "x": 6692,
+    "y": 3573
+  },
+  "segments": [
+    {
+      "id": "30185973",
+      "tileScore": 13,
+      "name": "荃灣西站 海濱公園",
+      "distanceM": 719.2999877929688,
+      "avgGrade": 0.583901047706604,
+      "startLat": 22.366975784301758,
+      "startLng": 114.11084747314453
+    },
+    {
+      "id": "28210675",
+      "tileScore": 35,
+      "name": "Tsuen Wan Cycleway Belvedere Square to Tsuen Wan West Station",
+      "distanceM": 1390.5,
+      "avgGrade": 0.08629989624023438,
+      "startLat": 22.37026023864746,
+      "startLng": 114.10131072998047
+    },
+    {
+      "id": "36106399",
+      "tileScore": 9,
+      "name": "NSW - SHAN SHING",
+      "distanceM": 90205.8984375,
+      "avgGrade": -0.013968043960630894,
+      "startLat": 22.44609260559082,
+      "startLng": 114.04883575439453
+    },
+    {
+      "id": "7204518",
+      "tileScore": 52,
+      "name": "貨碼南路-北行",
+      "distanceM": 4136.7998046875,
+      "avgGrade": 0.04351189360022545,
+      "startLat": 22.32952308654785,
+      "startLng": 114.14360046386719
+    },
+    {
+      "id": "5315365",
+      "tileScore": 83,
+      "name": "Twisk TW section 2",
+      "distanceM": 3539,
+      "avgGrade": 7.640576362609863,
+      "startLat": 22.38970184326172,
+      "startLng": 114.10470581054688
+    },
+    {
+      "id": "10659661",
+      "tileScore": 72,
+      "name": "Tsing Ma Bridge out and back",
+      "distanceM": 5492.39990234375,
+      "avgGrade": -0.025489766150712967,
+      "startLat": 22.352811813354492,
+      "startLng": 114.08594512939453
+    },
+    {
+      "id": "42358983",
+      "tileScore": 73,
+      "name": "香港單車節2026(56公里組)",
+      "distanceM": 54847.3984375,
+      "avgGrade": -0.016773812472820282,
+      "startLat": 22.301021575927734,
+      "startLng": 114.15717315673828
+    },
+    {
+      "id": "1386123",
+      "tileScore": 7,
+      "name": "Tsuen Wan Market St Climb",
+      "distanceM": 457.3399963378906,
+      "avgGrade": 17.599475860595703,
+      "startLat": 22.36785316467285,
+      "startLng": 114.11563110351562
+    },
+    {
+      "id": "38840312",
+      "tileScore": 22,
+      "name": "The GT ",
+      "distanceM": 95767,
+      "avgGrade": 0.04740672558546066,
+      "startLat": 22.326505661010742,
+      "startLng": 114.15650939941406
+    },
+    {
+      "id": "33877200",
+      "tileScore": 27,
+      "name": "康城大冷",
+      "distanceM": 130482.203125,
+      "avgGrade": 0,
+      "startLat": 22.29688835144043,
+      "startLng": 114.26518249511719
+    },
+    {
+      "id": "19668968",
+      "tileScore": 51,
+      "name": "汀蘭居至體育館",
+      "distanceM": 867.5,
+      "avgGrade": -1.8213257789611816,
+      "startLat": 22.36829376220703,
+      "startLng": 114.09265899658203
+    },
+    {
+      "id": "10063927",
+      "tileScore": 110,
+      "name": "貨櫃碼頭南路",
+      "distanceM": 2554.39990234375,
+      "avgGrade": -0.03914813697338104,
+      "startLat": 22.331422805786133,
+      "startLng": 114.13394165039062
+    },
+    {
+      "id": "28477241",
+      "tileScore": 6,
+      "name": "HK BMX Main Track",
+      "distanceM": 307.79998779296875,
+      "avgGrade": -0.649772584438324,
+      "startLat": 22.352468490600586,
+      "startLng": 114.11731719970703
+    },
+    {
+      "id": "36755267",
+      "tileScore": 5,
+      "name": "一腳觀塘至轉車站 [Fung]",
+      "distanceM": 29225,
+      "avgGrade": 0.00889649335294962,
+      "startLat": 22.312467575073242,
+      "startLng": 114.2257080078125
+    },
+    {
+      "id": "35776864",
+      "tileScore": 12,
+      "name": "南昌<>沙倉",
+      "distanceM": 38325.69921875,
+      "avgGrade": -0.018786350265145302,
+      "startLat": 22.327791213989258,
+      "startLng": 114.15133666992188
+    },
+    {
+      "id": "42171808",
+      "tileScore": 120,
+      "name": "Tsing Kwai Highway",
+      "distanceM": 7442.10009765625,
+      "avgGrade": 0.09405946731567383,
+      "startLat": 22.314916610717773,
+      "startLng": 114.16082763671875
+    },
+    {
+      "id": "23798881",
+      "tileScore": 4,
+      "name": "RCCHKG_ED_Tai_Lam_Routine",
+      "distanceM": 29155.30078125,
+      "avgGrade": 1.4577109813690186,
+      "startLat": 22.370813369750977,
+      "startLng": 114.09672546386719
+    },
+    {
+      "id": "16207728",
+      "tileScore": 68,
+      "name": "HKC 2nd climb",
+      "distanceM": 1444,
+      "avgGrade": 1.481994390487671,
+      "startLat": 22.34433937072754,
+      "startLng": 114.12648010253906
+    },
+    {
+      "id": "37936535",
+      "tileScore": 68,
+      "name": "單車節 長青橋 Descent",
+      "distanceM": 846.5,
+      "avgGrade": -1.7011222839355469,
+      "startLat": 22.351783752441406,
+      "startLng": 114.11775207519531
+    },
+    {
+      "id": "1174279",
+      "tileScore": 44,
+      "name": "Wing Shun Street",
+      "distanceM": 778.8389892578125,
+      "avgGrade": 2.285274028778076,
+      "startLat": 22.354869842529297,
+      "startLng": 114.11672973632812
+    },
+    {
+      "id": "1746963",
+      "tileScore": 246,
+      "name": "Tsuen Wan route twisk ",
+      "distanceM": 6274.9736328125,
+      "avgGrade": 5.9729084968566895,
+      "startLat": 22.37618637084961,
+      "startLng": 114.11998748779297
+    },
+    {
+      "id": "20114371",
+      "tileScore": 19,
+      "name": "荃灣麗城至元朗西(海安路行人燈位經青公至元朗朗邊中轉屋藍色路牌)",
+      "distanceM": 24964.5,
+      "avgGrade": 0.0416591577231884,
+      "startLat": 22.372472763061523,
+      "startLng": 114.10540771484375
+    },
+    {
+      "id": "5791656",
+      "tileScore": 125,
+      "name": "荃灣至沙倉10KM",
+      "distanceM": 9635.7001953125,
+      "avgGrade": 0.06849528104066849,
+      "startLat": 22.370330810546875,
+      "startLng": 114.10121154785156
+    },
+    {
+      "id": "28477453",
+      "tileScore": 11,
+      "name": "Tsing Yi N Bridge Westbound",
+      "distanceM": 628,
+      "avgGrade": 2.1974523067474365,
+      "startLat": 22.361106872558594,
+      "startLng": 114.11473846435547
+    },
+    {
+      "id": "15095343",
+      "tileScore": 51,
+      "name": "汀蘭居至汀九村",
+      "distanceM": 1362.4000244140625,
+      "avgGrade": 0.42571932077407837,
+      "startLat": 22.36751365661621,
+      "startLng": 114.09117889404297
+    }
+  ]
+}

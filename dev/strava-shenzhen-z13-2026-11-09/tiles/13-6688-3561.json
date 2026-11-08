@@ -1,0 +1,128 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-08T22:48:49.241Z",
+  "tile": {
+    "z": 13,
+    "x": 6688,
+    "y": 3561
+  },
+  "segments": [
+    {
+      "id": "41139369",
+      "tileScore": 30,
+      "name": "超绝两连陡坡",
+      "distanceM": 531.7999877929688,
+      "avgGrade": 5.114704608917236,
+      "startLat": 22.837299346923828,
+      "startLng": 113.91806030273438
+    },
+    {
+      "id": "5981453",
+      "tileScore": 19,
+      "name": "G9411 Guanfo Expressway Climb",
+      "distanceM": 2491.199951171875,
+      "avgGrade": 4.07835578918457,
+      "startLat": 22.860774993896484,
+      "startLng": 113.94636535644531
+    },
+    {
+      "id": "17638216",
+      "tileScore": 2,
+      "name": "59% up and down",
+      "distanceM": 1836.0999755859375,
+      "avgGrade": -4.34072208404541,
+      "startLat": 22.86896514892578,
+      "startLng": 113.92813873291016
+    },
+    {
+      "id": "11184624",
+      "tileScore": 20,
+      "name": "Luotian Single Track A - Out",
+      "distanceM": 3777.199951171875,
+      "avgGrade": -0.5453774929046631,
+      "startLat": 22.854042053222656,
+      "startLng": 113.93251037597656
+    },
+    {
+      "id": "11461989",
+      "tileScore": 15,
+      "name": "Dalang Wall - First Climb only uphill ",
+      "distanceM": 453.79998779296875,
+      "avgGrade": 6.985456466674805,
+      "startLat": 22.858009338378906,
+      "startLng": 113.91670989990234
+    },
+    {
+      "id": "11184635",
+      "tileScore": 10,
+      "name": "Luotian Single Track B - Out",
+      "distanceM": 5000.2001953125,
+      "avgGrade": -0.22199112176895142,
+      "startLat": 22.8548641204834,
+      "startLng": 113.93253326416016
+    },
+    {
+      "id": "11468758",
+      "tileScore": 1,
+      "name": "Dalang - Antenna Climb ",
+      "distanceM": 177.60000610351562,
+      "avgGrade": 5.461711883544922,
+      "startLat": 22.867700576782227,
+      "startLng": 113.94224548339844
+    },
+    {
+      "id": "33929819",
+      "tileScore": 1,
+      "name": "绕过大铁门加练之回程后半段",
+      "distanceM": 1962.199951171875,
+      "avgGrade": 0.7440627813339233,
+      "startLat": 22.839021682739258,
+      "startLng": 113.90848541259766
+    },
+    {
+      "id": "13811026",
+      "tileScore": 25,
+      "name": "LP took a dump in here",
+      "distanceM": 305.79998779296875,
+      "avgGrade": 10.562458992004395,
+      "startLat": 22.852664947509766,
+      "startLng": 113.93016052246094
+    },
+    {
+      "id": "42365056",
+      "tileScore": 1,
+      "name": "罗田 禾差岭 爬坡",
+      "distanceM": 3717.89990234375,
+      "avgGrade": 2.4099626541137695,
+      "startLat": 22.86711311340332,
+      "startLng": 113.95027160644531
+    },
+    {
+      "id": "38768737",
+      "tileScore": 23,
+      "name": "林场逆时针一圈",
+      "distanceM": 15184.7998046875,
+      "avgGrade": 0.16595542430877686,
+      "startLat": 22.846145629882812,
+      "startLng": 113.91943359375
+    },
+    {
+      "id": "11462007",
+      "tileScore": 43,
+      "name": "Dalang Wall - Second Climb",
+      "distanceM": 2121.300048828125,
+      "avgGrade": 5.260924816131592,
+      "startLat": 22.846267700195312,
+      "startLng": 113.9225082397461
+    },
+    {
+      "id": "41090976",
+      "tileScore": 2,
+      "name": "大朗柬埔寨绕圈",
+      "distanceM": 11071.5,
+      "avgGrade": -0.010838639922440052,
+      "startLat": 22.870044708251953,
+      "startLng": 113.91222381591797
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-08T22:38:32.592Z",
+  "tile": {
+    "z": 13,
+    "x": 6800,
+    "y": 3338
+  },
+  "segments": [
+    {
+      "id": "21728651",
+      "tileScore": 6,
+      "name": "20190908 环石臼湖自行车赛 Shijiu Lake Criterium",
+      "distanceM": 86061,
+      "avgGrade": 0.009992912411689758,
+      "startLat": 31.57097816467285,
+      "startLng": 118.89986419677734
+    },
+    {
+      "id": "37366487",
+      "tileScore": 16,
+      "name": "去石臼湖喽 （S445薛津至博望）",
+      "distanceM": 18091.599609375,
+      "avgGrade": 0.015476795844733715,
+      "startLat": 31.570514678955078,
+      "startLng": 118.6612777709961
+    },
+    {
+      "id": "40227741",
+      "tileScore": 15,
+      "name": "收费站冲刺",
+      "distanceM": 2538.699951171875,
+      "avgGrade": -0.0866585224866867,
+      "startLat": 31.558528900146484,
+      "startLng": 118.86614227294922
+    }
+  ]
+}

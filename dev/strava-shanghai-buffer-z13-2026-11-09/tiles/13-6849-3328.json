@@ -1,0 +1,29 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-08T22:57:42.822Z",
+  "tile": {
+    "z": 13,
+    "x": 6849,
+    "y": 3328
+  },
+  "segments": [
+    {
+      "id": "39278137",
+      "tileScore": 17,
+      "name": "军山到海门",
+      "distanceM": 20888.5,
+      "avgGrade": 0.01148957572877407,
+      "startLat": 31.941015243530273,
+      "startLng": 120.904296875
+    },
+    {
+      "id": "36840940",
+      "tileScore": 5,
+      "name": "张芝山绕圈。",
+      "distanceM": 2420.199951171875,
+      "avgGrade": 0.041318900883197784,
+      "startLat": 31.915620803833008,
+      "startLng": 121.02644348144531
+    }
+  ]
+}

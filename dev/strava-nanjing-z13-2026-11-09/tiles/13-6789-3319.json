@@ -1,0 +1,20 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-08T22:29:09.538Z",
+  "tile": {
+    "z": 13,
+    "x": 6789,
+    "y": 3319
+  },
+  "segments": [
+    {
+      "id": "37907987",
+      "tileScore": 7,
+      "name": "温格高在爬会峰大桥",
+      "distanceM": 855.7999877929688,
+      "avgGrade": 0.39728906750679016,
+      "startLat": 32.287376403808594,
+      "startLng": 118.34552001953125
+    }
+  ]
+}

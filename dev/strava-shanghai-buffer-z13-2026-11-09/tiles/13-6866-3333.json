@@ -1,0 +1,29 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-03T06:01:15.613Z",
+  "tile": {
+    "z": 13,
+    "x": 6866,
+    "y": 3333
+  },
+  "segments": [
+    {
+      "id": "41626593",
+      "tileScore": 19,
+      "name": "The long way home",
+      "distanceM": 23625.19921875,
+      "avgGrade": 0.010158644057810307,
+      "startLat": 31.702730178833008,
+      "startLng": 121.85640716552734
+    },
+    {
+      "id": "27480297",
+      "tileScore": 40,
+      "name": "S356 Junction to Cosco Junction",
+      "distanceM": 20174.599609375,
+      "avgGrade": -0.020818255841732025,
+      "startLat": 31.7596378326416,
+      "startLng": 121.66297149658203
+    }
+  ]
+}

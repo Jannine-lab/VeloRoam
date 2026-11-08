@@ -1,0 +1,155 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-03T05:35:42.086Z",
+  "tile": {
+    "z": 13,
+    "x": 6858,
+    "y": 3350
+  },
+  "segments": [
+    {
+      "id": "30564546",
+      "tileScore": 3,
+      "name": "FMG-23",
+      "distanceM": 35947.6015625,
+      "avgGrade": 0.02837463468313217,
+      "startLat": 31.019447326660156,
+      "startLng": 121.3215560913086
+    },
+    {
+      "id": "40840877",
+      "tileScore": 32,
+      "name": "星河湾小圈",
+      "distanceM": 1832.0999755859375,
+      "avgGrade": -0.06549860537052155,
+      "startLat": 31.093618392944336,
+      "startLng": 121.40187072753906
+    },
+    {
+      "id": "15606974",
+      "tileScore": 4,
+      "name": "Longming southbound",
+      "distanceM": 6817,
+      "avgGrade": -0.008801525458693504,
+      "startLat": 31.186445236206055,
+      "startLng": 121.3686294555664
+    },
+    {
+      "id": "16317617",
+      "tileScore": 2,
+      "name": "Minhang Triangle Circuit",
+      "distanceM": 20807.099609375,
+      "avgGrade": 0.03171994164586067,
+      "startLat": 31.16872787475586,
+      "startLng": 121.429443359375
+    },
+    {
+      "id": "12003151",
+      "tileScore": 1,
+      "name": "Minhang Interchange --> Songjiang East Toll",
+      "distanceM": 11005.900390625,
+      "avgGrade": -0.016354864463210106,
+      "startLat": 31.114397048950195,
+      "startLng": 121.37725067138672
+    },
+    {
+      "id": "18950789",
+      "tileScore": 19,
+      "name": "Xinzhuang Underpass",
+      "distanceM": 726.2999877929688,
+      "avgGrade": 0.027536829933524132,
+      "startLat": 31.122835159301758,
+      "startLng": 121.3855972290039
+    },
+    {
+      "id": "14799842",
+      "tileScore": 9,
+      "name": "Humin Road Speed Freak Tunnel Northbound",
+      "distanceM": 462.29998779296875,
+      "avgGrade": 1.0166558027267456,
+      "startLat": 31.105712890625,
+      "startLng": 121.37754821777344
+    },
+    {
+      "id": "18626945",
+      "tileScore": 2,
+      "name": "Lianhua Nan Lu from Humin Lu",
+      "distanceM": 4720.7001953125,
+      "avgGrade": -0.05719490721821785,
+      "startLat": 31.13558006286621,
+      "startLng": 121.39970397949219
+    },
+    {
+      "id": "29363565",
+      "tileScore": 2,
+      "name": "莲花南路TT",
+      "distanceM": 8960,
+      "avgGrade": -0.0033482140861451626,
+      "startLat": 31.026090621948242,
+      "startLng": 121.44632720947266
+    },
+    {
+      "id": "14717649",
+      "tileScore": 6,
+      "name": "Fury Road South",
+      "distanceM": 389.5,
+      "avgGrade": 0.15404364466667175,
+      "startLat": 31.13047218322754,
+      "startLng": 121.41577911376953
+    },
+    {
+      "id": "39219946",
+      "tileScore": 14,
+      "name": "沪闵路淀浦河桥",
+      "distanceM": 656.9000244140625,
+      "avgGrade": 0.060892071574926376,
+      "startLat": 31.131990432739258,
+      "startLng": 121.39573669433594
+    },
+    {
+      "id": "30564472",
+      "tileScore": 6,
+      "name": "FMG-16",
+      "distanceM": 1602.5,
+      "avgGrade": 0.12480498850345612,
+      "startLat": 31.104612350463867,
+      "startLng": 121.3879623413086
+    },
+    {
+      "id": "15735849",
+      "tileScore": 2,
+      "name": "Hongxin Lu x Dianpu He bridge (Southbound)",
+      "distanceM": 785.7999877929688,
+      "avgGrade": 0,
+      "startLat": 31.132587432861328,
+      "startLng": 121.3788070678711
+    },
+    {
+      "id": "27502862",
+      "tileScore": 3,
+      "name": "畹町小圈",
+      "distanceM": 1845.5,
+      "avgGrade": 0.11920887976884842,
+      "startLat": 31.114032745361328,
+      "startLng": 121.39742279052734
+    },
+    {
+      "id": "33397216",
+      "tileScore": 6,
+      "name": "The back straight ",
+      "distanceM": 2169.199951171875,
+      "avgGrade": -0.07375991344451904,
+      "startLat": 31.077707290649414,
+      "startLng": 121.3924560546875
+    },
+    {
+      "id": "15735874",
+      "tileScore": 4,
+      "name": "Longming Lu x Dianpu He bridge (northbound)",
+      "distanceM": 565.0999755859375,
+      "avgGrade": -0.21235179901123047,
+      "startLat": 31.12778663635254,
+      "startLng": 121.38578796386719
+    }
+  ]
+}

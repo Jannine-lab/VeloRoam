@@ -1,0 +1,29 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-08T22:38:27.370Z",
+  "tile": {
+    "z": 13,
+    "x": 6804,
+    "y": 3339
+  },
+  "segments": [
+    {
+      "id": "20979509",
+      "tileScore": 4,
+      "name": "20181111环溧水自行车赛 Lishui Criterium",
+      "distanceM": 139486.90625,
+      "avgGrade": 0.00444486178457737,
+      "startLat": 31.613245010375977,
+      "startLng": 119.02008056640625
+    },
+    {
+      "id": "39051044",
+      "tileScore": 21,
+      "name": "环无想山赛段",
+      "distanceM": 24712.400390625,
+      "avgGrade": 0.017400171607732773,
+      "startLat": 31.60159683227539,
+      "startLng": 119.06743621826172
+    }
+  ]
+}

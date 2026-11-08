@@ -1,0 +1,29 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-03T05:51:36.223Z",
+  "tile": {
+    "z": 13,
+    "x": 6848,
+    "y": 3330
+  },
+  "segments": [
+    {
+      "id": "36291813",
+      "tileScore": 7,
+      "name": "Laohonggang Inner Lap ",
+      "distanceM": 2644.800048828125,
+      "avgGrade": 0.01512401644140482,
+      "startLat": 31.878820419311523,
+      "startLng": 120.942626953125
+    },
+    {
+      "id": "19341570",
+      "tileScore": 12,
+      "name": "东方大道（S223→S336）",
+      "distanceM": 8305.7001953125,
+      "avgGrade": 0.030099809169769287,
+      "startLat": 31.842491149902344,
+      "startLng": 120.97276306152344
+    }
+  ]
+}

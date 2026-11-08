@@ -1,0 +1,146 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-08T22:33:05.367Z",
+  "tile": {
+    "z": 13,
+    "x": 6804,
+    "y": 3323
+  },
+  "segments": [
+    {
+      "id": "35183786",
+      "tileScore": 1,
+      "name": "越野路线（南农大基地）",
+      "distanceM": 1118.4000244140625,
+      "avgGrade": -0.23247496783733368,
+      "startLat": 32.099525451660156,
+      "startLng": 119.02237701416016
+    },
+    {
+      "id": "30069366",
+      "tileScore": 45,
+      "name": "桦墅N-S",
+      "distanceM": 4192.60009765625,
+      "avgGrade": 0.1240280419588089,
+      "startLat": 32.11672592163086,
+      "startLng": 119.01630401611328
+    },
+    {
+      "id": "31987045",
+      "tileScore": 19,
+      "name": "桦墅射乌山 QQ666",
+      "distanceM": 622.5,
+      "avgGrade": 8.77108383178711,
+      "startLat": 32.10758590698242,
+      "startLng": 119.03616333007812
+    },
+    {
+      "id": "30489577",
+      "tileScore": 11,
+      "name": "过了地铁站—向宝华进发",
+      "distanceM": 6173,
+      "avgGrade": -0.08423781394958496,
+      "startLat": 32.118473052978516,
+      "startLng": 118.97061920166016
+    },
+    {
+      "id": "40145676",
+      "tileScore": 29,
+      "name": "显俊你下坡慢一点",
+      "distanceM": 557.4000244140625,
+      "avgGrade": -2.368137836456299,
+      "startLat": 32.10741424560547,
+      "startLng": 119.02237701416016
+    },
+    {
+      "id": "35765181",
+      "tileScore": 33,
+      "name": "ul - Xianlin - Baohua Garden Expo Loop",
+      "distanceM": 34483.80078125,
+      "avgGrade": 0.011599649675190449,
+      "startLat": 32.095947265625,
+      "startLng": 118.91744232177734
+    },
+    {
+      "id": "36848061",
+      "tileScore": 36,
+      "name": "进村的小萌坡",
+      "distanceM": 508.20001220703125,
+      "avgGrade": 2.9319164752960205,
+      "startLat": 32.11679458618164,
+      "startLng": 119.01629638671875
+    },
+    {
+      "id": "35183466",
+      "tileScore": 8,
+      "name": "湖法路+新河路",
+      "distanceM": 2280.300048828125,
+      "avgGrade": -0.7192035913467407,
+      "startLat": 32.09070587158203,
+      "startLng": 119.00836181640625
+    },
+    {
+      "id": "39883787",
+      "tileScore": 8,
+      "name": "西部干线环线段 1/2",
+      "distanceM": 39352.30078125,
+      "avgGrade": 0.04472419619560242,
+      "startLat": 32.06488800048828,
+      "startLng": 118.88341522216797
+    },
+    {
+      "id": "34464535",
+      "tileScore": 3,
+      "name": "Around the lake new",
+      "distanceM": 1763.4000244140625,
+      "avgGrade": -0.21549279987812042,
+      "startLat": 32.10786056518555,
+      "startLng": 119.02337646484375
+    },
+    {
+      "id": "18421491",
+      "tileScore": 16,
+      "name": "west of Baohua sprint",
+      "distanceM": 2624.5,
+      "avgGrade": -0.6858449578285217,
+      "startLat": 32.1099967956543,
+      "startLng": 119.05342864990234
+    },
+    {
+      "id": "36601508",
+      "tileScore": 31,
+      "name": "射乌山爬坡",
+      "distanceM": 1179.800048828125,
+      "avgGrade": 12.781826972961426,
+      "startLat": 32.100120544433594,
+      "startLng": 119.0322036743164
+    },
+    {
+      "id": "28793100",
+      "tileScore": 14,
+      "name": "3rd ring road from Xianlin av.",
+      "distanceM": 1930.9000244140625,
+      "avgGrade": -0.1864415556192398,
+      "startLat": 32.1232795715332,
+      "startLng": 119.0025634765625
+    },
+    {
+      "id": "42339405",
+      "tileScore": 8,
+      "name": "射乌山北坡完整路段Climb",
+      "distanceM": 1466.800048828125,
+      "avgGrade": 7.3766021728515625,
+      "startLat": 32.10590744018555,
+      "startLng": 119.02836608886719
+    },
+    {
+      "id": "35188737",
+      "tileScore": 5,
+      "name": "桦墅出村小路",
+      "distanceM": 501.20001220703125,
+      "avgGrade": 4.788507461547852,
+      "startLat": 32.11181640625,
+      "startLng": 119.02175903320312
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "tiles": 20,
+  "unique": 60,
+  "existing": 58,
+  "missing": [
+    {
+      "id": "9700322",
+      "tileScore": 1,
+      "name": "New link Kangxin > Nanliu towards E (by Roberto)",
+      "distanceM": 6975.5,
+      "avgGrade": 0.1003512293100357,
+      "startLat": 31.120750427246094,
+      "startLng": 121.61693572998047
+    },
+    {
+      "id": "42473274",
+      "tileScore": 9,
+      "name": "六奉公路",
+      "distanceM": 1582.4000244140625,
+      "avgGrade": 0.18958543241024017,
+      "startLat": 31.0685977935791,
+      "startLng": 121.68588256835938
+    }
+  ]
+}

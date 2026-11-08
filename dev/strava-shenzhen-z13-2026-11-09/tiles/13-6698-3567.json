@@ -1,0 +1,173 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-08T22:50:42.026Z",
+  "tile": {
+    "z": 13,
+    "x": 6698,
+    "y": 3567
+  },
+  "segments": [
+    {
+      "id": "24227264",
+      "tileScore": 4,
+      "name": "11T team coastal training route",
+      "distanceM": 91079.796875,
+      "avgGrade": -0.029424747452139854,
+      "startLat": 22.61153221130371,
+      "startLng": 114.12039947509766
+    },
+    {
+      "id": "16873878",
+      "tileScore": 19,
+      "name": "土洋Too young桥下拉爆",
+      "distanceM": 658.2999877929688,
+      "avgGrade": 0.36457541584968567,
+      "startLat": 22.615798950195312,
+      "startLng": 114.39409637451172
+    },
+    {
+      "id": "17524925",
+      "tileScore": 116,
+      "name": "深葵路（溪涌-万科17英里上坡）",
+      "distanceM": 657.9000244140625,
+      "avgGrade": 6.596746921539307,
+      "startLat": 22.613569259643555,
+      "startLng": 114.35835266113281
+    },
+    {
+      "id": "19697174",
+      "tileScore": 137,
+      "name": "把胡航宇拉吐血赛段",
+      "distanceM": 14208.900390625,
+      "avgGrade": 0.22802609205245972,
+      "startLat": 22.601953506469727,
+      "startLng": 114.31241607666016
+    },
+    {
+      "id": "41248622",
+      "tileScore": 107,
+      "name": "kiw每晚玫瑰拉练",
+      "distanceM": 15773.2001953125,
+      "avgGrade": -0.02789541706442833,
+      "startLat": 22.589433670043945,
+      "startLng": 114.27698516845703
+    },
+    {
+      "id": "29431259",
+      "tileScore": 38,
+      "name": "Verified_Segment(贝仔角_华侨)",
+      "distanceM": 1080.0999755859375,
+      "avgGrade": 3.203406810760498,
+      "startLat": 22.60133171081543,
+      "startLng": 114.34587097167969
+    },
+    {
+      "id": "29431229",
+      "tileScore": 41,
+      "name": "Verified_Segment(溪涌_贝仔角)",
+      "distanceM": 648.5999755859375,
+      "avgGrade": 5.920444011688232,
+      "startLat": 22.60938835144043,
+      "startLng": 114.35472106933594
+    },
+    {
+      "id": "18301923",
+      "tileScore": 68,
+      "name": "玫瑰海岸陡坡冲刺",
+      "distanceM": 398.20001220703125,
+      "avgGrade": 2.712204933166504,
+      "startLat": 22.613195419311523,
+      "startLng": 114.3740005493164
+    },
+    {
+      "id": "17959999",
+      "tileScore": 13,
+      "name": "溪坪路CLIMB",
+      "distanceM": 1119.4000244140625,
+      "avgGrade": 5.717348575592041,
+      "startLat": 22.60938835144043,
+      "startLng": 114.35438537597656
+    },
+    {
+      "id": "28994104",
+      "tileScore": 8,
+      "name": "Mt Maluan-17 Ying Li Dirt Trail DH",
+      "distanceM": 4161,
+      "avgGrade": -2.4080748558044434,
+      "startLat": 22.63759994506836,
+      "startLng": 114.3511962890625
+    },
+    {
+      "id": "32370767",
+      "tileScore": 19,
+      "name": "罗屋至洞背gravel路",
+      "distanceM": 2688,
+      "avgGrade": -1.1532738208770752,
+      "startLat": 22.638317108154297,
+      "startLng": 114.3467025756836
+    },
+    {
+      "id": "29194287",
+      "tileScore": 33,
+      "name": "沿海起伏路",
+      "distanceM": 2603.39990234375,
+      "avgGrade": -0.24583236873149872,
+      "startLat": 22.613330841064453,
+      "startLng": 114.37942504882812
+    },
+    {
+      "id": "29625410",
+      "tileScore": 36,
+      "name": "华侨玫瑰海岸",
+      "distanceM": 7795,
+      "avgGrade": -0.07184092700481415,
+      "startLat": 22.60704231262207,
+      "startLng": 114.32526397705078
+    },
+    {
+      "id": "1285221",
+      "tileScore": 4,
+      "name": "盐坝高速 Climb",
+      "distanceM": 1797.0699462890625,
+      "avgGrade": 6.566499710083008,
+      "startLat": 22.610729217529297,
+      "startLng": 114.3648681640625
+    },
+    {
+      "id": "32280219",
+      "tileScore": 5,
+      "name": "SZC Summer Challenge 125km",
+      "distanceM": 122493.796875,
+      "avgGrade": -0.015184441581368446,
+      "startLat": 22.55707550048828,
+      "startLng": 114.21763610839844
+    },
+    {
+      "id": "38312949",
+      "tileScore": 8,
+      "name": "大梅沙-东涌",
+      "distanceM": 51781.5,
+      "avgGrade": -0.019118797034025192,
+      "startLat": 22.5883731842041,
+      "startLng": 114.28683471679688
+    },
+    {
+      "id": "35315636",
+      "tileScore": 5,
+      "name": "穿越马峦山",
+      "distanceM": 21918.30078125,
+      "avgGrade": 0.4516773819923401,
+      "startLat": 22.672239303588867,
+      "startLng": 114.28423309326172
+    },
+    {
+      "id": "22764426",
+      "tileScore": 30,
+      "name": "玫瑰海岸巴士站-万科17英里巴士站",
+      "distanceM": 999.0999755859375,
+      "avgGrade": 4.423981666564941,
+      "startLat": 22.6134033203125,
+      "startLng": 114.37237548828125
+    }
+  ]
+}

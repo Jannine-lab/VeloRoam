@@ -1,0 +1,65 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-03T06:02:48.695Z",
+  "tile": {
+    "z": 13,
+    "x": 6862,
+    "y": 3338
+  },
+  "segments": [
+    {
+      "id": "28005476",
+      "tileScore": 2,
+      "name": "20210411环崇明岛100公里组",
+      "distanceM": 97375,
+      "avgGrade": 0.006161745637655258,
+      "startLat": 31.4849796295166,
+      "startLng": 121.8353042602539
+    },
+    {
+      "id": "1667233",
+      "tileScore": 1,
+      "name": "Chongming short 2",
+      "distanceM": 39860.80078125,
+      "avgGrade": -0.008027937263250351,
+      "startLat": 31.660154342651367,
+      "startLng": 121.40385437011719
+    },
+    {
+      "id": "23655861",
+      "tileScore": 6,
+      "name": "tc attack",
+      "distanceM": 689.7000122070312,
+      "avgGrade": 0.08699434995651245,
+      "startLat": 31.56000518798828,
+      "startLng": 121.59516143798828
+    },
+    {
+      "id": "33065310",
+      "tileScore": 12,
+      "name": "ChongMing Avenue iTT",
+      "distanceM": 18537.400390625,
+      "avgGrade": 0,
+      "startLat": 31.544097900390625,
+      "startLng": 121.59672546386719
+    },
+    {
+      "id": "33136229",
+      "tileScore": 19,
+      "name": "Tuancheng Hwy",
+      "distanceM": 20729.400390625,
+      "avgGrade": -0.013507385738193989,
+      "startLat": 31.633817672729492,
+      "startLng": 121.43010711669922
+    },
+    {
+      "id": "39097330",
+      "tileScore": 13,
+      "name": "反穿崇明环岛景观道(堡镇码头-新河码头)",
+      "distanceM": 12352,
+      "avgGrade": 0,
+      "startLat": 31.531965255737305,
+      "startLng": 121.60026550292969
+    }
+  ]
+}

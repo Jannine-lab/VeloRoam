@@ -1,0 +1,20 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-08T22:49:00.006Z",
+  "tile": {
+    "z": 13,
+    "x": 6683,
+    "y": 3564
+  },
+  "segments": [
+    {
+      "id": "33748490",
+      "tileScore": 5,
+      "name": "滨海湾大桥",
+      "distanceM": 607.5999755859375,
+      "avgGrade": 2.4028966426849365,
+      "startLat": 22.75292205810547,
+      "startLng": 113.72036743164062
+    }
+  ]
+}

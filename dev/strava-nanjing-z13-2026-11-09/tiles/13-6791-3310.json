@@ -1,0 +1,20 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-08T22:26:04.758Z",
+  "tile": {
+    "z": 13,
+    "x": 6791,
+    "y": 3310
+  },
+  "segments": [
+    {
+      "id": "33099146",
+      "tileScore": 8,
+      "name": "屯仓水库Gravel",
+      "distanceM": 10477.400390625,
+      "avgGrade": -0.021952010691165924,
+      "startLat": 32.574459075927734,
+      "startLng": 118.47987365722656
+    }
+  ]
+}

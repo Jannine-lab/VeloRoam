@@ -1,0 +1,119 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-08T22:51:21.330Z",
+  "tile": {
+    "z": 13,
+    "x": 6690,
+    "y": 3570
+  },
+  "segments": [
+    {
+      "id": "26506800",
+      "tileScore": 3,
+      "name": "Deep Bay Road Climb after Tin Yuet Road Junction ",
+      "distanceM": 337.1000061035156,
+      "avgGrade": 3.5004448890686035,
+      "startLat": 22.47783851623535,
+      "startLng": 113.99424743652344
+    },
+    {
+      "id": "33946374",
+      "tileScore": 1,
+      "name": "邊境輞井OFF ROAD",
+      "distanceM": 708.7999877929688,
+      "avgGrade": 0.19751694798469543,
+      "startLat": 22.476165771484375,
+      "startLng": 114.01034545898438
+    },
+    {
+      "id": "31652660",
+      "tileScore": 47,
+      "name": "保税区绕圈",
+      "distanceM": 4938.39990234375,
+      "avgGrade": -0.040498945862054825,
+      "startLat": 22.51091957092285,
+      "startLng": 114.03677368164062
+    },
+    {
+      "id": "9152194",
+      "tileScore": 2,
+      "name": "Hong Kong Wetland border ",
+      "distanceM": 8184.89990234375,
+      "avgGrade": 0.0024435240775346756,
+      "startLat": 22.485614776611328,
+      "startLng": 114.0113754272461
+    },
+    {
+      "id": "38353558",
+      "tileScore": 2,
+      "name": "红树林内部道路",
+      "distanceM": 12710.2998046875,
+      "avgGrade": 0.012588215991854668,
+      "startLat": 22.52973175048828,
+      "startLng": 113.99994659423828
+    },
+    {
+      "id": "7312193",
+      "tileScore": 1,
+      "name": "Tsim Bet Shui",
+      "distanceM": 251.3000030517578,
+      "avgGrade": 8.038201332092285,
+      "startLat": 22.486116409301758,
+      "startLng": 114.01119232177734
+    },
+    {
+      "id": "7046812",
+      "tileScore": 8,
+      "name": "Wetland Rumble",
+      "distanceM": 1747.800048828125,
+      "avgGrade": 0.14303696155548096,
+      "startLat": 22.4744815826416,
+      "startLng": 114.0259017944336
+    },
+    {
+      "id": "9971087",
+      "tileScore": 50,
+      "name": "天影路天橋",
+      "distanceM": 817.2999877929688,
+      "avgGrade": -0.293649822473526,
+      "startLat": 22.471223831176758,
+      "startLng": 114.00198364257812
+    },
+    {
+      "id": "33525481",
+      "tileScore": 1,
+      "name": "TaiSangWai Sprint",
+      "distanceM": 508.70001220703125,
+      "avgGrade": 0.3145272433757782,
+      "startLat": 22.474430084228516,
+      "startLng": 114.03619384765625
+    },
+    {
+      "id": "14713304",
+      "tileScore": 4,
+      "name": "Tin Yuet Rd & Deep Bay Rd intersaction to Round-about ",
+      "distanceM": 2347.10009765625,
+      "avgGrade": 0.7498615384101868,
+      "startLat": 22.477521896362305,
+      "startLng": 113.9940185546875
+    },
+    {
+      "id": "3826715",
+      "tileScore": 169,
+      "name": "Tin Shui Wai APR'13",
+      "distanceM": 7111.0400390625,
+      "avgGrade": 0.004218756686896086,
+      "startLat": 22.46685791015625,
+      "startLng": 113.9953842163086
+    },
+    {
+      "id": "8851233",
+      "tileScore": 5,
+      "name": "Wetland Rumble 2",
+      "distanceM": 1220.5999755859375,
+      "avgGrade": 0.37686383724212646,
+      "startLat": 22.46588897705078,
+      "startLng": 114.01651763916016
+    }
+  ]
+}

@@ -1,0 +1,792 @@
+TAP version 13
+# 🔌 [Database] Connecting to MySQL at: 106.15.229.219:3306/veloroam
+# Subtest: native tools feed real grounding and reuse request reads while returning trace metadata
+ok 1 - native tools feed real grounding and reuse request reads while returning trace metadata
+  ---
+  duration_ms: 44.128792
+  type: 'test'
+  ...
+# Subtest: plans without optional budget or experience and preserves later user constraints
+ok 2 - plans without optional budget or experience and preserves later user constraints
+  ---
+  duration_ms: 47.714708
+  type: 'test'
+  ...
+# Subtest: a model destination clarification does not override the default destination
+ok 3 - a model destination clarification does not override the default destination
+  ---
+  duration_ms: 32.977959
+  type: 'test'
+  ...
+# Subtest: a model does not repeat preference questions when both requirements are known
+ok 4 - a model does not repeat preference questions when both requirements are known
+  ---
+  duration_ms: 83.788459
+  type: 'test'
+  ...
+# Subtest: a generic model clarification does not repeat known route requirements
+ok 5 - a generic model clarification does not repeat known route requirements
+  ---
+  duration_ms: 8.542416
+  type: 'test'
+  ...
+# Subtest: asks when the order of requested stops is genuinely unclear
+ok 6 - asks when the order of requested stops is genuinely unclear
+  ---
+  duration_ms: 5.102334
+  type: 'test'
+  ...
+# Subtest: plans a requested area without a budget but does not ignore an explicit incompatible distance
+ok 7 - plans a requested area without a budget but does not ignore an explicit incompatible distance
+  ---
+  duration_ms: 1.524041
+  type: 'test'
+  ...
+# Subtest: automatically returns to current location, applies 10% bounds and uses tags
+ok 8 - automatically returns to current location, applies 10% bounds and uses tags
+  ---
+  duration_ms: 0.645667
+  type: 'test'
+  ...
+# Subtest: time target selects a closer estimated ride among equally matched candidates
+ok 9 - time target selects a closer estimated ride among equally matched candidates
+  ---
+  duration_ms: 0.844416
+  type: 'test'
+  ...
+# Subtest: a named origin with no stated end uses the current location; explicit return uses origin
+ok 10 - a named origin with no stated end uses the current location; explicit return uses origin
+  ---
+  duration_ms: 4.411083
+  type: 'test'
+  ...
+# Subtest: unknown stop duration is disclosed when a time limit includes stops
+ok 11 - unknown stop duration is disclosed when a time limit includes stops
+  ---
+  duration_ms: 1.52525
+  type: 'test'
+  ...
+# Subtest: known stops are included in total time and explicit avoidances are qualified
+ok 12 - known stops are included in total time and explicit avoidances are qualified
+  ---
+  duration_ms: 2.828583
+  type: 'test'
+  ...
+# Subtest: grounded place dialogue remembers a selected candidate and plans with its fresh identity
+ok 13 - grounded place dialogue remembers a selected candidate and plans with its fresh identity
+  ---
+  duration_ms: 38.412083
+  type: 'test'
+  ...
+# Subtest: an area is not forced to match a segment with the same name
+ok 14 - an area is not forced to match a segment with the same name
+  ---
+  duration_ms: 7.688916
+  type: 'test'
+  ...
+# Subtest: a fabricated or stale candidate id cannot be used for planning
+ok 15 - a fabricated or stale candidate id cannot be used for planning
+  ---
+  duration_ms: 12.285584
+  type: 'test'
+  ...
+# Subtest: does not lose an unresolved place when the model omits it on a later route turn
+ok 16 - does not lose an unresolved place when the model omits it on a later route turn
+  ---
+  duration_ms: 8.801292
+  type: 'test'
+  ...
+# Subtest: an explicitly new conversation clears the previous focus
+ok 17 - an explicitly new conversation clears the previous focus
+  ---
+  duration_ms: 2.90975
+  type: 'test'
+  ...
+# Subtest: autonomous loop does not require saved POIs and keeps the selected navigation route
+ok 18 - autonomous loop does not require saved POIs and keeps the selected navigation route
+  ---
+  duration_ms: 0.226041
+  type: 'test'
+  ...
+# Subtest: combines an explicitly requested segment with generated waypoints
+ok 19 - combines an explicitly requested segment with generated waypoints
+  ---
+  duration_ms: 0.380541
+  type: 'test'
+  ...
+# Subtest: does not present an unverified route as an exact original-road return
+ok 20 - does not present an unverified route as an exact original-road return
+  ---
+  duration_ms: 0.140042
+  type: 'test'
+  ...
+# Subtest: accepts a later explicit relaxation of original-road return
+ok 21 - accepts a later explicit relaxation of original-road return
+  ---
+  duration_ms: 0.112333
+  type: 'test'
+  ...
+# Subtest: passes ordered segment and cafe to the autonomous generator without dropping either
+ok 22 - passes ordered segment and cafe to the autonomous generator without dropping either
+  ---
+  duration_ms: 0.267084
+  type: 'test'
+  ...
+# Subtest: selecting a segment preserves the other requested stops
+ok 23 - selecting a segment preserves the other requested stops
+  ---
+  duration_ms: 4.159
+  type: 'test'
+  ...
+# Subtest: discloses that a named-road avoidance cannot be verified on connection roads
+ok 24 - discloses that a named-road avoidance cannot be verified on connection roads
+  ---
+  duration_ms: 3.839417
+  type: 'test'
+  ...
+# Subtest: discloses when an area and fixed stops have not been jointly verified
+ok 25 - discloses when an area and fixed stops have not been jointly verified
+  ---
+  duration_ms: 1.666584
+  type: 'test'
+  ...
+# 🔌 [Database] Connecting to MySQL at: 106.15.229.219:3306/veloroam
+# [IdeaDistanceRecommendations] Request received
+# [IdeaDistanceRecommendations] Request received
+# Subtest: streams real stages and result while preserving JSON responses
+ok 26 - streams real stages and result while preserving JSON responses
+  ---
+  duration_ms: 14.281084
+  type: 'test'
+  ...
+# 🔌 [Database] Connecting to MySQL at: 106.15.229.219:3306/veloroam
+# Subtest: plans to the selected stored segment, follows its geometry, and returns to the origin
+ok 27 - plans to the selected stored segment, follows its geometry, and returns to the origin
+  ---
+  duration_ms: 7.63275
+  type: 'test'
+  ...
+# Subtest: rejects invalid inputs, missing segments and incomplete geometries
+ok 28 - rejects invalid inputs, missing segments and incomplete geometries
+  ---
+  duration_ms: 0.289666
+  type: 'test'
+  ...
+# Subtest: an expected refusal cannot turn an HTTP error or blank answer into a successful sample
+ok 29 - an expected refusal cannot turn an HTTP error or blank answer into a successful sample
+  ---
+  duration_ms: 0.511541
+  type: 'test'
+  ...
+# Subtest: evaluates constraints and candidate identities independently of free-form wording
+ok 30 - evaluates constraints and candidate identities independently of free-form wording
+  ---
+  duration_ms: 4.815916
+  type: 'test'
+  ...
+# Subtest: failed or merely proposed tools never count as successful tool selection
+ok 31 - failed or merely proposed tools never count as successful tool selection
+  ---
+  duration_ms: 0.172333
+  type: 'test'
+  ...
+# Subtest: computes nearest-rank latency percentiles and handles missing observations explicitly
+ok 32 - computes nearest-rank latency percentiles and handles missing observations explicitly
+  ---
+  duration_ms: 0.100458
+  type: 'test'
+  ...
+# Subtest: matches whole line segments and deduplicates signal poles at one junction
+ok 33 - matches whole line segments and deduplicates signal poles at one junction
+  ---
+  duration_ms: 6.063166
+  type: 'test'
+  ...
+# Subtest: chooses fewer signals within the 50 percent detour budget
+ok 34 - chooses fewer signals within the 50 percent detour budget
+  ---
+  duration_ms: 1.176291
+  type: 'test'
+  ...
+# Subtest: falls back to the shortest candidate when signal data is unavailable
+ok 35 - falls back to the shortest candidate when signal data is unavailable
+  ---
+  duration_ms: 0.145459
+  type: 'test'
+  ...
+# Subtest: proposes different coordinates without relying on database points
+ok 36 - proposes different coordinates without relying on database points
+  ---
+  duration_ms: 1.028625
+  type: 'test'
+  ...
+# Subtest: keeps generated target-area reference near the focus without requiring the centre
+ok 37 - keeps generated target-area reference near the focus without requiring the centre
+  ---
+  duration_ms: 0.147917
+  type: 'test'
+  ...
+# Subtest: compares navigated routes using distance bounds, and retains failures for debugging
+ok 38 - compares navigated routes using distance bounds, and retains failures for debugging
+  ---
+  duration_ms: 51.719125
+  type: 'test'
+  ...
+# Subtest: retries a bounded number of alternatives and never accepts an out-of-budget route
+ok 39 - retries a bounded number of alternatives and never accepts an out-of-budget route
+  ---
+  duration_ms: 0.661291
+  type: 'test'
+  ...
+# Subtest: a time target ranks by time when distance was only estimated
+ok 40 - a time target ranks by time when distance was only estimated
+  ---
+  duration_ms: 0.723792
+  type: 'test'
+  ...
+# Subtest: preserves an explicitly selected segment between generated waypoints
+ok 41 - preserves an explicitly selected segment between generated waypoints
+  ---
+  duration_ms: 0.11375
+  type: 'test'
+  ...
+# Subtest: prefers less repeated navigation geometry among routes within budget
+ok 42 - prefers less repeated navigation geometry among routes within budget
+  ---
+  duration_ms: 1.222834
+  type: 'test'
+  ...
+# Subtest: cannot prefer a low-overlap route outside the budget
+ok 43 - cannot prefer a low-overlap route outside the budget
+  ---
+  duration_ms: 3.454167
+  type: 'test'
+  ...
+# Subtest: retry scales the closest navigated shape instead of switching direction
+ok 44 - retry scales the closest navigated shape instead of switching direction
+  ---
+  duration_ms: 1.221
+  type: 'test'
+  ...
+# Subtest: uses points along provider trajectories and revalidates connections
+ok 45 - uses points along provider trajectories and revalidates connections
+  ---
+  duration_ms: 4.075417
+  type: 'test'
+  ...
+# Subtest: rejects road suggestions when navigation does not reach the proposed location
+ok 46 - rejects road suggestions when navigation does not reach the proposed location
+  ---
+  duration_ms: 0.410333
+  type: 'test'
+  ...
+# Subtest: keeps segment orientation while connecting it to provider-derived waypoints
+ok 47 - keeps segment orientation while connecting it to provider-derived waypoints
+  ---
+  duration_ms: 2.993625
+  type: 'test'
+  ...
+# Subtest: when too short, retries use farther samples from the previous navigation trajectories
+ok 48 - when too short, retries use farther samples from the previous navigation trajectories
+  ---
+  duration_ms: 0.383125
+  type: 'test'
+  ...
+# Subtest: refines one waypoint per combination while preserving the fixed segment
+ok 49 - refines one waypoint per combination while preserving the fixed segment
+  ---
+  duration_ms: 0.664333
+  type: 'test'
+  ...
+# Subtest: keeps a valid baseline when every refinement exceeds the hard budget
+ok 50 - keeps a valid baseline when every refinement exceeds the hard budget
+  ---
+  duration_ms: 0.241958
+  type: 'test'
+  ...
+# Subtest: individual refinements preserve the target direction waypoint
+ok 51 - individual refinements preserve the target direction waypoint
+  ---
+  duration_ms: 0.36325
+  type: 'test'
+  ...
+# Subtest: a candidate must meet both distance and time limits before ranking
+ok 52 - a candidate must meet both distance and time limits before ranking
+  ---
+  duration_ms: 0.384833
+  type: 'test'
+  ...
+# Subtest: does not penalize repetition when the rider explicitly wants an out-and-back
+ok 53 - does not penalize repetition when the rider explicitly wants an out-and-back
+  ---
+  duration_ms: 0.467
+  type: 'test'
+  ...
+# Subtest: keeps multiple fixed stops in order while generating surrounding points
+ok 54 - keeps multiple fixed stops in order while generating surrounding points
+  ---
+  duration_ms: 5.304583
+  type: 'test'
+  ...
+# Subtest: rejects missing, reordered, and reversed fixed stops
+ok 55 - rejects missing, reordered, and reversed fixed stops
+  ---
+  duration_ms: 0.161625
+  type: 'test'
+  ...
+# Subtest: does not accept a candidate that silently drops required stops even if its budget matches
+ok 56 - does not accept a candidate that silently drops required stops even if its budget matches
+  ---
+  duration_ms: 0.2105
+  type: 'test'
+  ...
+# Subtest: compares navigated candidates and enforces total-distance constraints before preference rank
+ok 57 - compares navigated candidates and enforces total-distance constraints before preference rank
+  ---
+  duration_ms: 5.723542
+  type: 'test'
+  ...
+# Subtest: uses ±10% only for a target without explicit distance bounds
+ok 58 - uses ±10% only for a target without explicit distance bounds
+  ---
+  duration_ms: 1.131625
+  type: 'test'
+  ...
+# Subtest: enforces explicit time bounds and includes known stops in total time
+ok 59 - enforces explicit time bounds and includes known stops in total time
+  ---
+  duration_ms: 0.4785
+  type: 'test'
+  ...
+# Subtest: continues when one route fails and does not invent a result outside constraints
+ok 60 - continues when one route fails and does not invent a result outside constraints
+  ---
+  duration_ms: 5.918583
+  type: 'test'
+  ...
+# Subtest: respects a bounded number of routing attempts
+ok 61 - respects a bounded number of routing attempts
+  ---
+  duration_ms: 0.500333
+  type: 'test'
+  ...
+# Subtest: returns only real calculated routes within each target range and avoids duplicates
+ok 62 - returns only real calculated routes within each target range and avoids duplicates
+  ---
+  duration_ms: 1.280042
+  type: 'test'
+  ...
+# Subtest: returns empty slots when navigation fails or distances fall outside tolerance
+ok 63 - returns empty slots when navigation fails or distances fall outside tolerance
+  ---
+  duration_ms: 0.233125
+  type: 'test'
+  ...
+# Subtest: reports actual completed route calculations, including failed candidates
+ok 64 - reports actual completed route calculations, including failed candidates
+  ---
+  duration_ms: 0.205458
+  type: 'test'
+  ...
+# Subtest: within the total-distance range selects the higher-scoring segment over the closest distance
+ok 65 - within the total-distance range selects the higher-scoring segment over the closest distance
+  ---
+  duration_ms: 0.258708
+  type: 'test'
+  ...
+# Subtest: returns the selected segment detail without mixing it with another candidate
+ok 66 - returns the selected segment detail without mixing it with another candidate
+  ---
+  duration_ms: 0.225625
+  type: 'test'
+  ...
+# Subtest: ranks the three valid round trips by score across the full 20–80 km range
+ok 67 - ranks the three valid round trips by score across the full 20–80 km range
+  ---
+  duration_ms: 0.266083
+  type: 'test'
+  ...
+# Subtest: uses valid model choices, removing duplicates and bounding their number
+ok 68 - uses valid model choices, removing duplicates and bounding their number
+  ---
+  duration_ms: 0.809959
+  type: 'test'
+  ...
+# Subtest: keeps unspecified constraints empty and preserves explicit time and tag context
+ok 69 - keeps unspecified constraints empty and preserves explicit time and tag context
+  ---
+  duration_ms: 0.267833
+  type: 'test'
+  ...
+# Subtest: provides context-appropriate choices when the model omits them
+ok 70 - provides context-appropriate choices when the model omits them
+  ---
+  duration_ms: 0.120583
+  type: 'test'
+  ...
+# Subtest: rejects blank, malformed and typed-wrong intent output instead of silently dropping constraints
+ok 71 - rejects blank, malformed and typed-wrong intent output instead of silently dropping constraints
+  ---
+  duration_ms: 10.191792
+  type: 'test'
+  ...
+# Subtest: preserves simultaneous budget bounds and explicit exclusions without manufacturing defaults
+ok 72 - preserves simultaneous budget bounds and explicit exclusions without manufacturing defaults
+  ---
+  duration_ms: 3.035917
+  type: 'test'
+  ...
+# Subtest: rejects hallucinated and duplicate selection ids against the exact supplied evidence
+ok 73 - rejects hallucinated and duplicate selection ids against the exact supplied evidence
+  ---
+  duration_ms: 2.32075
+  type: 'test'
+  ...
+# Subtest: validates explanation schema and refuses unregistered prompts
+ok 74 - validates explanation schema and refuses unregistered prompts
+  ---
+  duration_ms: 2.574917
+  type: 'test'
+  ...
+# Subtest: assembles connections around the original segment in requested order and returns to start
+ok 75 - assembles connections around the original segment in requested order and returns to start
+  ---
+  duration_ms: 3.464208
+  type: 'test'
+  ...
+# Subtest: honors point before segment without imposing a round trip
+ok 76 - honors point before segment without imposing a round trip
+  ---
+  duration_ms: 1.259292
+  type: 'test'
+  ...
+# Subtest: rejects unconnected provider geometry instead of fabricating a link
+ok 77 - rejects unconnected provider geometry instead of fabricating a link
+  ---
+  duration_ms: 0.409625
+  type: 'test'
+  ...
+# Subtest: estimates time when the provider has no duration
+ok 78 - estimates time when the provider has no duration
+  ---
+  duration_ms: 0.122
+  type: 'test'
+  ...
+# Subtest: counts each traversal in loop and out-and-back geometry instead of stored distance
+ok 79 - counts each traversal in loop and out-and-back geometry instead of stored distance
+  ---
+  duration_ms: 0.341208
+  type: 'test'
+  ...
+# Subtest: rejects adjacent legs with a gap even when each provider endpoint is individually near the waypoint
+ok 80 - rejects adjacent legs with a gap even when each provider endpoint is individually near the waypoint
+  ---
+  duration_ms: 4.195625
+  type: 'test'
+  ...
+# Subtest: reports measured junction gap without fabricating geometry
+ok 81 - reports measured junction gap without fabricating geometry
+  ---
+  duration_ms: 1.253917
+  type: 'test'
+  ...
+# Subtest: loads only candidate tags and keeps missing tag rows unknown
+ok 82 - loads only candidate tags and keeps missing tag rows unknown
+  ---
+  duration_ms: 4.247458
+  type: 'test'
+  ...
+# Subtest: missing tag table degrades to unknown but other database errors propagate
+ok 83 - missing tag table degrades to unknown but other database errors propagate
+  ---
+  duration_ms: 0.589833
+  type: 'test'
+  ...
+# Subtest: known matching tags rank first, explicit exclusions remove matches, unknown remains
+ok 84 - known matching tags rank first, explicit exclusions remove matches, unknown remains
+  ---
+  duration_ms: 0.655125
+  type: 'test'
+  ...
+# Subtest: executes native tool requests and sends actual bounded evidence back before final output
+ok 85 - executes native tool requests and sends actual bounded evidence back before final output
+  ---
+  duration_ms: 3.982542
+  type: 'test'
+  ...
+# Subtest: requires native grounding when an initial JSON answer bypasses tools for a named lookup
+ok 86 - requires native grounding when an initial JSON answer bypasses tools for a named lookup
+  ---
+  duration_ms: 0.915084
+  type: 'test'
+  ...
+# Subtest: final model wording cannot erase the lookup associated with retrieved evidence
+ok 87 - final model wording cannot erase the lookup associated with retrieved evidence
+  ---
+  duration_ms: 0.478208
+  type: 'test'
+  ...
+# Subtest: unknown tools and malformed arguments never reach backend services
+ok 88 - unknown tools and malformed arguments never reach backend services
+  ---
+  duration_ms: 0.705875
+  type: 'test'
+  ...
+# Subtest: identical calls reuse request-scoped results and still consume the call budget
+ok 89 - identical calls reuse request-scoped results and still consume the call budget
+  ---
+  duration_ms: 0.572417
+  type: 'test'
+  ...
+# Subtest: a selected id is freshly checked and a missing record is not replaced by a related candidate
+ok 90 - a selected id is freshly checked and a missing record is not replaced by a related candidate
+  ---
+  duration_ms: 0.522833
+  type: 'test'
+  ...
+# Subtest: a fabricated id cannot trigger an arbitrary lookup
+ok 91 - a fabricated id cannot trigger an arbitrary lookup
+  ---
+  duration_ms: 0.25425
+  type: 'test'
+  ...
+# Subtest: tool failure is reported as unavailable rather than an empty successful retrieval
+ok 92 - tool failure is reported as unavailable rather than an empty successful retrieval
+  ---
+  duration_ms: 1.445292
+  type: 'test'
+  ...
+# Subtest: times out an unresponsive tool without waiting indefinitely
+ok 93 - times out an unresponsive tool without waiting indefinitely
+  ---
+  duration_ms: 12.412041
+  type: 'test'
+  ...
+# Subtest: bounds backend executions and forces a final model turn after exhausting the tool budget
+ok 94 - bounds backend executions and forces a final model turn after exhausting the tool budget
+  ---
+  duration_ms: 0.865833
+  type: 'test'
+  ...
+# Subtest: rejects duplicate protocol ids and invalid final output
+ok 95 - rejects duplicate protocol ids and invalid final output
+  ---
+  duration_ms: 0.931416
+  type: 'test'
+  ...
+# Subtest: the request deadline aborts model work and is cleaned up after failure
+ok 96 - the request deadline aborts model work and is cleaned up after failure
+  ---
+  duration_ms: 14.35925
+  type: 'test'
+  ...
+# Subtest: samples by travelled distance instead of point index
+ok 97 - samples by travelled distance instead of point index
+  ---
+  duration_ms: 3.783959
+  type: 'test'
+  ...
+# Subtest: keeps the target-direction reference close to the requested location
+ok 98 - keeps the target-direction reference close to the requested location
+  ---
+  duration_ms: 1.146208
+  type: 'test'
+  ...
+# Subtest: rejects points close to the current anchor and invalid geometry
+ok 99 - rejects points close to the current anchor and invalid geometry
+  ---
+  duration_ms: 0.805542
+  type: 'test'
+  ...
+# Subtest: matches a signal to the middle of a long route segment
+ok 100 - matches a signal to the middle of a long route segment
+  ---
+  duration_ms: 0.858292
+  type: 'test'
+  ...
+# Subtest: merges poles at one junction and highlights direction ambiguity
+ok 101 - merges poles at one junction and highlights direction ambiguity
+  ---
+  duration_ms: 0.720458
+  type: 'test'
+  ...
+# Subtest: keeps nearby but unconfirmed signals out of the matched count
+ok 102 - keeps nearby but unconfirmed signals out of the matched count
+  ---
+  duration_ms: 0.272708
+  type: 'test'
+  ...
+# Subtest: does not include signals outside the review corridor
+ok 103 - does not include signals outside the review corridor
+  ---
+  duration_ms: 0.568334
+  type: 'test'
+  ...
+# segmentScore tests passed
+# Subtest: src/services/segmentScore.test.ts
+ok 16 - src/services/segmentScore.test.ts
+  ---
+  duration_ms: 338.014916
+  type: 'test'
+  ...
+# Subtest: independent labels distinguish a climbing loop and an out-and-back
+ok 105 - independent labels distinguish a climbing loop and an out-and-back
+  ---
+  duration_ms: 3.20475
+  type: 'test'
+  ...
+# Subtest: unknown and known zeros have different semantics for climbing and geometry
+ok 106 - unknown and known zeros have different semantics for climbing and geometry
+  ---
+  duration_ms: 0.922042
+  type: 'test'
+  ...
+# Subtest: midrank handles ties and known zero observations
+ok 107 - midrank handles ties and known zero observations
+  ---
+  duration_ms: 0.167417
+  type: 'test'
+  ...
+# Subtest: database verification tolerates floating roundoff but rejects changed counts or values
+ok 108 - database verification tolerates floating roundoff but rejects changed counts or values
+  ---
+  duration_ms: 0.199708
+  type: 'test'
+  ...
+# Subtest: normalizes municipality aliases and independently classifies participation and stars
+ok 109 - normalizes municipality aliases and independently classifies participation and stars
+  ---
+  duration_ms: 1.08125
+  type: 'test'
+  ...
+# Subtest: references exclude private routes and deduplicate exact directed geometry
+ok 110 - references exclude private routes and deduplicate exact directed geometry
+  ---
+  duration_ms: 0.267833
+  type: 'test'
+  ...
+# Subtest: uses province reference when city sample is too small and does not mix countries
+ok 111 - uses province reference when city sample is too small and does not mix countries
+  ---
+  duration_ms: 0.950291
+  type: 'test'
+  ...
+# Subtest: missing social metrics never create a label from a single percentile
+ok 112 - missing social metrics never create a label from a single percentile
+  ---
+  duration_ms: 1.1015
+  type: 'test'
+  ...
+# Subtest: normalization retains true detail zeros and does not invent base zero values
+ok 113 - normalization retains true detail zeros and does not invent base zero values
+  ---
+  duration_ms: 1.179791
+  type: 'test'
+  ...
+# Subtest: a circle is closed and has little reverse coverage
+ok 114 - a circle is closed and has little reverse coverage
+  ---
+  duration_ms: 7.319708
+  type: 'test'
+  ...
+# Subtest: an original-path out-and-back has high reverse and ordered coverage
+ok 115 - an original-path out-and-back has high reverse and ordered coverage
+  ---
+  duration_ms: 7.358875
+  type: 'test'
+  ...
+# Subtest: a short final sampling cell does not prevent an ordered out-and-back match
+ok 116 - a short final sampling cell does not prevent an ordered out-and-back match
+  ---
+  duration_ms: 8.905209
+  type: 'test'
+  ...
+# Subtest: a reliable open line skips unneeded shape metrics without inventing zero values
+ok 117 - a reliable open line skips unneeded shape metrics without inventing zero values
+  ---
+  duration_ms: 0.308833
+  type: 'test'
+  ...
+# Subtest: same-direction repeated laps preserve their full length without becoming an out-and-back
+ok 118 - same-direction repeated laps preserve their full length without becoming an out-and-back
+  ---
+  duration_ms: 3.380083
+  type: 'test'
+  ...
+# Subtest: a figure-eight crossing does not turn the whole geometry into reverse coverage
+ok 119 - a figure-eight crossing does not turn the whole geometry into reverse coverage
+  ---
+  duration_ms: 1.734
+  type: 'test'
+  ...
+# Subtest: a substantial shared stem plus circuit produces mixed shape coverage
+ok 120 - a substantial shared stem plus circuit produces mixed shape coverage
+  ---
+  duration_ms: 6.09925
+  type: 'test'
+  ...
+# Subtest: near parallel opposite roads remain uncertain instead of being confidently collapsed
+ok 121 - near parallel opposite roads remain uncertain instead of being confidently collapsed
+  ---
+  duration_ms: 4.695166
+  type: 'test'
+  ...
+# Subtest: short repeated shuttles with a cancelling heading window are uncertain, not circular
+ok 122 - short repeated shuttles with a cancelling heading window are uncertain, not circular
+  ---
+  duration_ms: 0.571083
+  type: 'test'
+  ...
+# Subtest: malformed vertices are rejected rather than dropped or joined across
+ok 123 - malformed vertices are rejected rather than dropped or joined across
+  ---
+  duration_ms: 0.649334
+  type: 'test'
+  ...
+# Subtest: GeoJSON, JSON text and WKT agree; fingerprint preserves travel direction and removes only consecutive duplicates
+ok 124 - GeoJSON, JSON text and WKT agree; fingerprint preserves travel direction and removes only consecutive duplicates
+  ---
+  duration_ms: 6.920208
+  type: 'test'
+  ...
+# Subtest: distance disagreement makes dependent length and shape uncertain
+ok 125 - distance disagreement makes dependent length and shape uncertain
+  ---
+  duration_ms: 0.297917
+  type: 'test'
+  ...
+# Subtest: sparse shape retains a computable traversal length
+ok 126 - sparse shape retains a computable traversal length
+  ---
+  duration_ms: 0.068875
+  type: 'test'
+  ...
+# Subtest: resource limits preserve length but expose unknown shape
+ok 127 - resource limits preserve length but expose unknown shape
+  ---
+  duration_ms: 4.904083
+  type: 'test'
+  ...
+# Segment visibility checks passed.
+# Subtest: src/services/segmentVisibility.test.ts
+ok 19 - src/services/segmentVisibility.test.ts
+  ---
+  duration_ms: 279.473625
+  type: 'test'
+  ...
+# Strava request budget checks passed.
+# Subtest: src/services/stravaRateBudget.test.ts
+ok 20 - src/services/stravaRateBudget.test.ts
+  ---
+  duration_ms: 210.902875
+  type: 'test'
+  ...
+1..129
+# tests 129
+# suites 0
+# pass 129
+# fail 0
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 3819.909125

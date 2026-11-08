@@ -1,0 +1,92 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-03T06:04:58.252Z",
+  "tile": {
+    "z": 13,
+    "x": 6859,
+    "y": 3343
+  },
+  "segments": [
+    {
+      "id": "36952955",
+      "tileScore": 6,
+      "name": "Planck",
+      "distanceM": 512.5,
+      "avgGrade": 0.6634146571159363,
+      "startLat": 31.35852813720703,
+      "startLng": 121.43525695800781
+    },
+    {
+      "id": "35118658",
+      "tileScore": 12,
+      "name": "Chopin climb",
+      "distanceM": 521.5999755859375,
+      "avgGrade": -0.2300613522529602,
+      "startLat": 31.354093551635742,
+      "startLng": 121.45640563964844
+    },
+    {
+      "id": "32724531",
+      "tileScore": 2,
+      "name": "乌漆嘛黑",
+      "distanceM": 24503.5,
+      "avgGrade": 0.026118718087673187,
+      "startLat": 31.306806564331055,
+      "startLng": 121.4298324584961
+    },
+    {
+      "id": "10470340",
+      "tileScore": 2,
+      "name": "Into the seabreeze",
+      "distanceM": 5086.7998046875,
+      "avgGrade": -0.04914681240916252,
+      "startLat": 31.363632202148438,
+      "startLng": 121.40119934082031
+    },
+    {
+      "id": "34224428",
+      "tileScore": 2,
+      "name": "Koppenberg of Shanghai (上海的科彭博格爬坡)",
+      "distanceM": 514.4000244140625,
+      "avgGrade": 1.1275272369384766,
+      "startLat": 31.37032127380371,
+      "startLng": 121.4457778930664
+    },
+    {
+      "id": "34704091",
+      "tileScore": 1,
+      "name": "Avenue des Champs-Elysées",
+      "distanceM": 507.5,
+      "avgGrade": 0.13793103396892548,
+      "startLat": 31.365610122680664,
+      "startLng": 121.43364715576172
+    },
+    {
+      "id": "27328035",
+      "tileScore": 8,
+      "name": "Going back",
+      "distanceM": 4539.7001953125,
+      "avgGrade": 0.030839040875434875,
+      "startLat": 31.403160095214844,
+      "startLng": 121.43616485595703
+    },
+    {
+      "id": "34221652",
+      "tileScore": 2,
+      "name": "Thomas Mann",
+      "distanceM": 537.2000122070312,
+      "avgGrade": -0.5026060938835144,
+      "startLat": 31.361797332763672,
+      "startLng": 121.44168853759766
+    },
+    {
+      "id": "37134597",
+      "tileScore": 8,
+      "name": "江杨南北and keep riding",
+      "distanceM": 28191.19921875,
+      "avgGrade": -0.014898266643285751,
+      "startLat": 31.322021484375,
+      "startLng": 121.46370697021484
+    }
+  ]
+}

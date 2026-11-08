@@ -1,0 +1,83 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-03T06:09:48.949Z",
+  "tile": {
+    "z": 13,
+    "x": 6855,
+    "y": 3353
+  },
+  "segments": [
+    {
+      "id": "21927240",
+      "tileScore": 5,
+      "name": "TheNewElevatedEastBound",
+      "distanceM": 2176.10009765625,
+      "avgGrade": 0.2849133610725403,
+      "startLat": 30.981611251831055,
+      "startLng": 121.25971221923828
+    },
+    {
+      "id": "39537555",
+      "tileScore": 4,
+      "name": "玉阳洞泾港桥",
+      "distanceM": 599.5999755859375,
+      "avgGrade": 0.4336223900318146,
+      "startLat": 30.989452362060547,
+      "startLng": 121.259521484375
+    },
+    {
+      "id": "30259022",
+      "tileScore": 2,
+      "name": "Songhui Dong Road",
+      "distanceM": 2636.5,
+      "avgGrade": 0.17826664447784424,
+      "startLat": 31.00472068786621,
+      "startLng": 121.26019287109375
+    },
+    {
+      "id": "13917180",
+      "tileScore": 3,
+      "name": "北松公路至松江",
+      "distanceM": 4290.7998046875,
+      "avgGrade": 0.05127249285578728,
+      "startLat": 31.016141891479492,
+      "startLng": 121.30204772949219
+    },
+    {
+      "id": "21927227",
+      "tileScore": 2,
+      "name": "TheNewElevatedWestBound",
+      "distanceM": 2420.199951171875,
+      "avgGrade": -0.07437402009963989,
+      "startLat": 30.98154067993164,
+      "startLng": 121.25799560546875
+    },
+    {
+      "id": "30258982",
+      "tileScore": 1,
+      "name": "Cheting & MaoTing Road",
+      "distanceM": 2299.5,
+      "avgGrade": -0.047836486250162125,
+      "startLat": 31.004838943481445,
+      "startLng": 121.30197143554688
+    },
+    {
+      "id": "32907919",
+      "tileScore": 3,
+      "name": "申嘉湖高速冲两冲",
+      "distanceM": 9174.900390625,
+      "avgGrade": -0.013079160824418068,
+      "startLat": 30.981382369995117,
+      "startLng": 121.18412780761719
+    },
+    {
+      "id": "30259017",
+      "tileScore": 1,
+      "name": "Songwei North Road n.3",
+      "distanceM": 1838.5,
+      "avgGrade": -0.04351373389363289,
+      "startLat": 31.01009178161621,
+      "startLng": 121.26103973388672
+    }
+  ]
+}

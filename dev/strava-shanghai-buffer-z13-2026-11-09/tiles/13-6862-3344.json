@@ -1,0 +1,110 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-03T06:04:55.214Z",
+  "tile": {
+    "z": 13,
+    "x": 6862,
+    "y": 3344
+  },
+  "segments": [
+    {
+      "id": "32683128",
+      "tileScore": 2,
+      "name": "Pudong North Road",
+      "distanceM": 2370.800048828125,
+      "avgGrade": -0.07592374086380005,
+      "startLat": 31.334430694580078,
+      "startLng": 121.5679702758789
+    },
+    {
+      "id": "34803804",
+      "tileScore": 3,
+      "name": "Rush In The Ferry",
+      "distanceM": 1184.5,
+      "avgGrade": 0.033769525587558746,
+      "startLat": 31.32424545288086,
+      "startLng": 121.57272338867188
+    },
+    {
+      "id": "41415180",
+      "tileScore": 98,
+      "name": "SLCC 森兰夜刷",
+      "distanceM": 7029.2001953125,
+      "avgGrade": 0.04552438482642174,
+      "startLat": 31.31844711303711,
+      "startLng": 121.59465026855469
+    },
+    {
+      "id": "34530082",
+      "tileScore": 2,
+      "name": "YangGao Lu Top",
+      "distanceM": 3332.199951171875,
+      "avgGrade": -0.030010202899575233,
+      "startLat": 31.355037689208984,
+      "startLng": 121.58131408691406
+    },
+    {
+      "id": "35431814",
+      "tileScore": 4,
+      "name": "The return dash",
+      "distanceM": 7358.89990234375,
+      "avgGrade": 0.027177974581718445,
+      "startLat": 31.31833267211914,
+      "startLng": 121.58500671386719
+    },
+    {
+      "id": "16613263",
+      "tileScore": 4,
+      "name": "Temple Loop",
+      "distanceM": 2148.300048828125,
+      "avgGrade": 0.004654843360185623,
+      "startLat": 31.320505142211914,
+      "startLng": 121.5892562866211
+    },
+    {
+      "id": "34630078",
+      "tileScore": 6,
+      "name": "三嫩ferry",
+      "distanceM": 623.5,
+      "avgGrade": -0.2886928617954254,
+      "startLat": 31.317615509033203,
+      "startLng": 121.54975128173828
+    },
+    {
+      "id": "35274092",
+      "tileScore": 69,
+      "name": "WTZ Back",
+      "distanceM": 2099.10009765625,
+      "avgGrade": 0.04763946309685707,
+      "startLat": 31.340002059936523,
+      "startLng": 121.60222625732422
+    },
+    {
+      "id": "34803764",
+      "tileScore": 1,
+      "name": "Pudong Rd.N2S",
+      "distanceM": 3152,
+      "avgGrade": 0.03172588720917702,
+      "startLat": 31.322755813598633,
+      "startLng": 121.57368469238281
+    },
+    {
+      "id": "37879942",
+      "tileScore": 2,
+      "name": "Langu Rd. N-S",
+      "distanceM": 2625.800048828125,
+      "avgGrade": 0.04570035636425018,
+      "startLat": 31.317893981933594,
+      "startLng": 121.5941162109375
+    },
+    {
+      "id": "26282494",
+      "tileScore": 2,
+      "name": "Dongtang to north",
+      "distanceM": 1457.5,
+      "avgGrade": 0.013722127303481102,
+      "startLat": 31.30653953552246,
+      "startLng": 121.5625991821289
+    }
+  ]
+}

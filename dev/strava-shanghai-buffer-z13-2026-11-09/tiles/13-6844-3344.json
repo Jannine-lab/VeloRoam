@@ -1,0 +1,92 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-08T22:59:27.551Z",
+  "tile": {
+    "z": 13,
+    "x": 6844,
+    "y": 3344
+  },
+  "segments": [
+    {
+      "id": "38829270",
+      "tileScore": 7,
+      "name": "唯胜路N to S",
+      "distanceM": 8732.400390625,
+      "avgGrade": 0.025193532928824425,
+      "startLat": 31.375648498535156,
+      "startLng": 120.79234313964844
+    },
+    {
+      "id": "9739176",
+      "tileScore": 5,
+      "name": "Shahu Ecological Park Loop (Clockwise)",
+      "distanceM": 4983.7001953125,
+      "avgGrade": 0,
+      "startLat": 31.3325138092041,
+      "startLng": 120.76374816894531
+    },
+    {
+      "id": "11431021",
+      "tileScore": 1,
+      "name": "Suhong East Rd x Qingqiupu Bridge (Westbound)",
+      "distanceM": 366.20001220703125,
+      "avgGrade": 0.27307480573654175,
+      "startLat": 31.352245330810547,
+      "startLng": 120.79788970947266
+    },
+    {
+      "id": "8299135",
+      "tileScore": 4,
+      "name": "Qing Qiu Pu Bridge (Westbound)",
+      "distanceM": 636.9000244140625,
+      "avgGrade": -0.3925262987613678,
+      "startLat": 31.337966918945312,
+      "startLng": 120.80513000488281
+    },
+    {
+      "id": "8351819",
+      "tileScore": 1,
+      "name": "Xiandai Avenue to SCAC",
+      "distanceM": 8968.7001953125,
+      "avgGrade": -0.4482254981994629,
+      "startLat": 31.335399627685547,
+      "startLng": 120.79078674316406
+    },
+    {
+      "id": "13151217",
+      "tileScore": 3,
+      "name": "Shahu Circuit (Westbound)",
+      "distanceM": 790.9000244140625,
+      "avgGrade": -0.5436844229698181,
+      "startLat": 31.33312225341797,
+      "startLng": 120.77264404296875
+    },
+    {
+      "id": "12982548",
+      "tileScore": 1,
+      "name": "Xinghua St (Zhongxin E Ave → Shahu Park)",
+      "distanceM": 3442.699951171875,
+      "avgGrade": -0.04647514969110489,
+      "startLat": 31.312602996826172,
+      "startLng": 120.76608276367188
+    },
+    {
+      "id": "11632457",
+      "tileScore": 1,
+      "name": "Gates Straightaway TT",
+      "distanceM": 7008.2998046875,
+      "avgGrade": -0.011415036395192146,
+      "startLat": 31.319839477539062,
+      "startLng": 120.72129821777344
+    },
+    {
+      "id": "40659469",
+      "tileScore": 2,
+      "name": "ChangYang St",
+      "distanceM": 6142.7001953125,
+      "avgGrade": 0.04558256268501282,
+      "startLat": 31.293292999267578,
+      "startLng": 120.78673553466797
+    }
+  ]
+}

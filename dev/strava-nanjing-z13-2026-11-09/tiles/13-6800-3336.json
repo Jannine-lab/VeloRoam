@@ -1,0 +1,47 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-08T22:38:03.516Z",
+  "tile": {
+    "z": 13,
+    "x": 6800,
+    "y": 3336
+  },
+  "segments": [
+    {
+      "id": "38232151",
+      "tileScore": 7,
+      "name": "cd-四进山水库捷径去溧水P2",
+      "distanceM": 881,
+      "avgGrade": 3.564131736755371,
+      "startLat": 31.64508819580078,
+      "startLng": 118.82857513427734
+    },
+    {
+      "id": "16788333",
+      "tileScore": 4,
+      "name": "四进山（桃花坡瞭望塔）",
+      "distanceM": 2912.300048828125,
+      "avgGrade": 10.507159233093262,
+      "startLat": 31.632570266723633,
+      "startLng": 118.84285736083984
+    },
+    {
+      "id": "21271266",
+      "tileScore": 34,
+      "name": "Likair-sijingshan climb excluding last climb",
+      "distanceM": 2515.60009765625,
+      "avgGrade": 8.888535499572754,
+      "startLat": 31.63831329345703,
+      "startLng": 118.81880950927734
+    },
+    {
+      "id": "31678319",
+      "tileScore": 10,
+      "name": "SiJingShan last steep part",
+      "distanceM": 865.7999877929688,
+      "avgGrade": 12.658812522888184,
+      "startLat": 31.64016342163086,
+      "startLng": 118.82644653320312
+    }
+  ]
+}

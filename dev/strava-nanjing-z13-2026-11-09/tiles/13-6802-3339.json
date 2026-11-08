@@ -1,0 +1,38 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-08T22:38:29.970Z",
+  "tile": {
+    "z": 13,
+    "x": 6802,
+    "y": 3339
+  },
+  "segments": [
+    {
+      "id": "20979509",
+      "tileScore": 4,
+      "name": "20181111环溧水自行车赛 Lishui Criterium",
+      "distanceM": 139486.90625,
+      "avgGrade": 0.00444486178457737,
+      "startLat": 31.613245010375977,
+      "startLng": 119.02008056640625
+    },
+    {
+      "id": "32992728",
+      "tileScore": 9,
+      "name": "石臼湖大桥到向阳",
+      "distanceM": 4318.7998046875,
+      "avgGrade": 0.04399370402097702,
+      "startLat": 31.53458023071289,
+      "startLng": 118.89620208740234
+    },
+    {
+      "id": "33010904",
+      "tileScore": 14,
+      "name": "石臼湖东半圈TopK",
+      "distanceM": 34885.80078125,
+      "avgGrade": -0.012325932271778584,
+      "startLat": 31.53363037109375,
+      "startLng": 118.89861297607422
+    }
+  ]
+}

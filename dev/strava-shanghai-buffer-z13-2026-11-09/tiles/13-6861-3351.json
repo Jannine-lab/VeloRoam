@@ -1,0 +1,83 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-03T06:09:21.092Z",
+  "tile": {
+    "z": 13,
+    "x": 6861,
+    "y": 3351
+  },
+  "segments": [
+    {
+      "id": "33072474",
+      "tileScore": 22,
+      "name": "妈妈叫回家恰饭。。",
+      "distanceM": 6467.89990234375,
+      "avgGrade": 0.040198519825935364,
+      "startLat": 31.07023811340332,
+      "startLng": 121.5897216796875
+    },
+    {
+      "id": "35170184",
+      "tileScore": 8,
+      "name": "半个俄罗斯方块",
+      "distanceM": 26143.30078125,
+      "avgGrade": 0.011475215665996075,
+      "startLat": 31.18340492248535,
+      "startLng": 121.61776733398438
+    },
+    {
+      "id": "34429951",
+      "tileScore": 3,
+      "name": "康桥 099",
+      "distanceM": 2521.89990234375,
+      "avgGrade": 0.04758317023515701,
+      "startLat": 31.087181091308594,
+      "startLng": 121.53952026367188
+    },
+    {
+      "id": "24824459",
+      "tileScore": 1,
+      "name": "Tour de Shenjiahu  X4",
+      "distanceM": 18822.599609375,
+      "avgGrade": -0.010625524446368217,
+      "startLat": 31.054100036621094,
+      "startLng": 121.50882720947266
+    },
+    {
+      "id": "39785181",
+      "tileScore": 5,
+      "name": "万芳路冲刺",
+      "distanceM": 3782.5,
+      "avgGrade": -0.01057501696050167,
+      "startLat": 31.074010848999023,
+      "startLng": 121.53507232666016
+    },
+    {
+      "id": "8767219",
+      "tileScore": 9,
+      "name": "San Lu Hwy South ( S20 to S32)",
+      "distanceM": 9014.900390625,
+      "avgGrade": -0.00665564788505435,
+      "startLat": 31.132736206054688,
+      "startLng": 121.4984359741211
+    },
+    {
+      "id": "38679106",
+      "tileScore": 3,
+      "name": "三鲁公路 098",
+      "distanceM": 1357.300048828125,
+      "avgGrade": 0.19155676662921906,
+      "startLat": 31.08848762512207,
+      "startLng": 121.51554870605469
+    },
+    {
+      "id": "4268623",
+      "tileScore": 6,
+      "name": "Suzhao Rd",
+      "distanceM": 1813.4000244140625,
+      "avgGrade": 0.1102900579571724,
+      "startLat": 31.092941284179688,
+      "startLng": 121.537353515625
+    }
+  ]
+}

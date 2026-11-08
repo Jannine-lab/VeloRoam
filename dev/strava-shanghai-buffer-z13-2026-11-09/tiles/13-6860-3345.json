@@ -1,0 +1,209 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-03T06:06:53.200Z",
+  "tile": {
+    "z": 13,
+    "x": 6860,
+    "y": 3345
+  },
+  "segments": [
+    {
+      "id": "28716799",
+      "tileScore": 29,
+      "name": "SiPing",
+      "distanceM": 804.0999755859375,
+      "avgGrade": 0.04974506050348282,
+      "startLat": 31.27724838256836,
+      "startLng": 121.49772644042969
+    },
+    {
+      "id": "28920458",
+      "tileScore": 3,
+      "name": "Inner Ring Northern Hemisphere",
+      "distanceM": 14540.599609375,
+      "avgGrade": 0.001375459018163383,
+      "startLat": 31.212167739868164,
+      "startLng": 121.40843963623047
+    },
+    {
+      "id": "17677714",
+      "tileScore": 3,
+      "name": "逸仙高架到城区路线",
+      "distanceM": 6122.39990234375,
+      "avgGrade": -0.07023389637470245,
+      "startLat": 31.243263244628906,
+      "startLng": 121.46307373046875
+    },
+    {
+      "id": "37406312",
+      "tileScore": 13,
+      "name": "To B No.1",
+      "distanceM": 616.2999877929688,
+      "avgGrade": 0,
+      "startLat": 31.304927825927734,
+      "startLng": 121.4905014038086
+    },
+    {
+      "id": "32724531",
+      "tileScore": 2,
+      "name": "乌漆嘛黑",
+      "distanceM": 24503.5,
+      "avgGrade": 0.026118718087673187,
+      "startLat": 31.306806564331055,
+      "startLng": 121.4298324584961
+    },
+    {
+      "id": "13337911",
+      "tileScore": 18,
+      "name": "Siping Science Pk South Sprint",
+      "distanceM": 702.4000244140625,
+      "avgGrade": -0.3416856527328491,
+      "startLat": 31.288137435913086,
+      "startLng": 121.503662109375
+    },
+    {
+      "id": "10443203",
+      "tileScore": 2,
+      "name": "政立路（from国定路to淞沪路）",
+      "distanceM": 655.9000244140625,
+      "avgGrade": -0.09147736430168152,
+      "startLat": 31.3099422454834,
+      "startLng": 121.49907684326172
+    },
+    {
+      "id": "14933605",
+      "tileScore": 5,
+      "name": "Escape Railway!!!（Back Home）",
+      "distanceM": 583,
+      "avgGrade": -0.10291595011949539,
+      "startLat": 31.308269500732422,
+      "startLng": 121.46491241455078
+    },
+    {
+      "id": "13347146",
+      "tileScore": 10,
+      "name": "Songhu 1.4km",
+      "distanceM": 1401.699951171875,
+      "avgGrade": 0.04280516505241394,
+      "startLat": 31.322193145751953,
+      "startLng": 121.50200653076172
+    },
+    {
+      "id": "28862389",
+      "tileScore": 6,
+      "name": "Dalian",
+      "distanceM": 1961.0999755859375,
+      "avgGrade": 0.09178522229194641,
+      "startLat": 31.277557373046875,
+      "startLng": 121.49629974365234
+    },
+    {
+      "id": "35856479",
+      "tileScore": 3,
+      "name": "连场线westward（大连路-大场）",
+      "distanceM": 14133.900390625,
+      "avgGrade": 0.0028300751000642776,
+      "startLat": 31.25510025024414,
+      "startLng": 121.51271057128906
+    },
+    {
+      "id": "28716779",
+      "tileScore": 2,
+      "name": "FuXing",
+      "distanceM": 871.0999755859375,
+      "avgGrade": 0.09183790534734726,
+      "startLat": 31.282550811767578,
+      "startLng": 121.50433349609375
+    },
+    {
+      "id": "35052209",
+      "tileScore": 15,
+      "name": "一股“清”流",
+      "distanceM": 1266,
+      "avgGrade": -0.03159557655453682,
+      "startLat": 31.315805435180664,
+      "startLng": 121.49351501464844
+    },
+    {
+      "id": "33848177",
+      "tileScore": 5,
+      "name": "to Jiangwan",
+      "distanceM": 1767.5999755859375,
+      "avgGrade": 0.03394433110952377,
+      "startLat": 31.272207260131836,
+      "startLng": 121.47515869140625
+    },
+    {
+      "id": "24017584",
+      "tileScore": 7,
+      "name": "Tongji Sprint S-1",
+      "distanceM": 365.79998779296875,
+      "avgGrade": -0.43739745020866394,
+      "startLat": 31.282655715942383,
+      "startLng": 121.4954833984375
+    },
+    {
+      "id": "17743275",
+      "tileScore": 11,
+      "name": "ChangZhong E-W A",
+      "distanceM": 3383.60009765625,
+      "avgGrade": 0.023643456399440765,
+      "startLat": 31.310056686401367,
+      "startLng": 121.4802474975586
+    },
+    {
+      "id": "13337964",
+      "tileScore": 2,
+      "name": "Guoquan Rd",
+      "distanceM": 491.8999938964844,
+      "avgGrade": -0.04065867140889168,
+      "startLat": 31.291593551635742,
+      "startLng": 121.50594329833984
+    },
+    {
+      "id": "36812336",
+      "tileScore": 6,
+      "name": "场中路PUSH",
+      "distanceM": 925,
+      "avgGrade": 0.15135134756565094,
+      "startLat": 31.31009292602539,
+      "startLng": 121.480224609375
+    },
+    {
+      "id": "35586803",
+      "tileScore": 8,
+      "name": "江场西路-场中路大圈-康美Pro GO Go GO！",
+      "distanceM": 5737.7998046875,
+      "avgGrade": 0,
+      "startLat": 31.30636978149414,
+      "startLng": 121.46304321289062
+    },
+    {
+      "id": "19238662",
+      "tileScore": 4,
+      "name": "Quyang",
+      "distanceM": 2305,
+      "avgGrade": -0.060737527906894684,
+      "startLat": 31.28887176513672,
+      "startLng": 121.48664093017578
+    },
+    {
+      "id": "22431799",
+      "tileScore": 2,
+      "name": "Rush Hour from Xujiahui to Wujiaochang",
+      "distanceM": 17675.30078125,
+      "avgGrade": -0.08146961778402328,
+      "startLat": 31.195659637451172,
+      "startLng": 121.43431854248047
+    },
+    {
+      "id": "13622746",
+      "tileScore": 15,
+      "name": "Zhongshan 500m",
+      "distanceM": 503.79998779296875,
+      "avgGrade": -0.39698296785354614,
+      "startLat": 31.287593841552734,
+      "startLng": 121.5044174194336
+    }
+  ]
+}

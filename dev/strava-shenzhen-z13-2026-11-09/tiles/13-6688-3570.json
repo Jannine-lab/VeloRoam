@@ -1,0 +1,209 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-08T22:51:24.054Z",
+  "tile": {
+    "z": 13,
+    "x": 6688,
+    "y": 3570
+  },
+  "segments": [
+    {
+      "id": "30369178",
+      "tileScore": 6,
+      "name": "工业八路可以冲一下",
+      "distanceM": 484.20001220703125,
+      "avgGrade": -0.02065262198448181,
+      "startLat": 22.503419876098633,
+      "startLng": 113.9281234741211
+    },
+    {
+      "id": "5436109",
+      "tileScore": 4,
+      "name": "Qingqing Road Climb",
+      "distanceM": 1129.0999755859375,
+      "avgGrade": 25.63103485107422,
+      "startLat": 22.500659942626953,
+      "startLng": 113.9128646850586
+    },
+    {
+      "id": "33360550",
+      "tileScore": 7,
+      "name": "JW",
+      "distanceM": 10826.7998046875,
+      "avgGrade": 0.10529427230358124,
+      "startLat": 22.497615814208984,
+      "startLng": 113.9465103149414
+    },
+    {
+      "id": "41133666",
+      "tileScore": 17,
+      "name": "Peninsula drag",
+      "distanceM": 1437,
+      "avgGrade": -4.077939987182617,
+      "startLat": 22.48464584350586,
+      "startLng": 113.92587280273438
+    },
+    {
+      "id": "16564649",
+      "tileScore": 6,
+      "name": "Ferruccio's finest",
+      "distanceM": 559.7999877929688,
+      "avgGrade": -0.17863522469997406,
+      "startLat": 22.480382919311523,
+      "startLng": 113.90756225585938
+    },
+    {
+      "id": "41685622",
+      "tileScore": 8,
+      "name": "荔林公园骑行道",
+      "distanceM": 802,
+      "avgGrade": 1.7206981182098389,
+      "startLat": 22.512714385986328,
+      "startLng": 113.90502166748047
+    },
+    {
+      "id": "38490894",
+      "tileScore": 6,
+      "name": "Sihai drag",
+      "distanceM": 751.2999877929688,
+      "avgGrade": 0.9583388566970825,
+      "startLat": 22.49348258972168,
+      "startLng": 113.92010498046875
+    },
+    {
+      "id": "21659536",
+      "tileScore": 3,
+      "name": "Almost home ;)",
+      "distanceM": 310.20001220703125,
+      "avgGrade": 1.6763378381729126,
+      "startLat": 22.493511199951172,
+      "startLng": 113.9227523803711
+    },
+    {
+      "id": "17202457",
+      "tileScore": 6,
+      "name": "Dodgin buses on top of sea world",
+      "distanceM": 821,
+      "avgGrade": -0.13398295640945435,
+      "startLat": 22.482463836669922,
+      "startLng": 113.90812683105469
+    },
+    {
+      "id": "18104371",
+      "tileScore": 4,
+      "name": "New Shekou Ferry Race Track",
+      "distanceM": 627.7999877929688,
+      "avgGrade": 0,
+      "startLat": 22.475311279296875,
+      "startLng": 113.90364837646484
+    },
+    {
+      "id": "15780217",
+      "tileScore": 179,
+      "name": " Part of Shenzhen Bay (火炬广场－观桥公园）",
+      "distanceM": 3510,
+      "avgGrade": -0.1339031457901001,
+      "startLat": 22.520246505737305,
+      "startLng": 113.94950103759766
+    },
+    {
+      "id": "3936063",
+      "tileScore": 19,
+      "name": "深圳蛇口大南山",
+      "distanceM": 2036.5999755859375,
+      "avgGrade": 12.132966995239258,
+      "startLat": 22.50718116760254,
+      "startLng": 113.90693664550781
+    },
+    {
+      "id": "11455946",
+      "tileScore": 105,
+      "name": "Shenzhen Bay east bound",
+      "distanceM": 9594.2001953125,
+      "avgGrade": 0.006253778003156185,
+      "startLat": 22.491491317749023,
+      "startLng": 113.94763946533203
+    },
+    {
+      "id": "34965137",
+      "tileScore": 11,
+      "name": "望海路 希尔顿→东角头",
+      "distanceM": 3060.10009765625,
+      "avgGrade": 0.01960720308125019,
+      "startLat": 22.484506607055664,
+      "startLng": 113.912109375
+    },
+    {
+      "id": "26912492",
+      "tileScore": 2,
+      "name": "Hospital Loop + ChiWan",
+      "distanceM": 57742.3984375,
+      "avgGrade": -0.016971930861473083,
+      "startLat": 22.484697341918945,
+      "startLng": 113.93070220947266
+    },
+    {
+      "id": "33710587",
+      "tileScore": 4,
+      "name": "HK Bridge run",
+      "distanceM": 1540.800048828125,
+      "avgGrade": 0,
+      "startLat": 22.488292694091797,
+      "startLng": 113.94668579101562
+    },
+    {
+      "id": "36324019",
+      "tileScore": 2,
+      "name": "深圳南山画龙",
+      "distanceM": 52149.3984375,
+      "avgGrade": 0.030681081116199493,
+      "startLat": 22.543649673461914,
+      "startLng": 113.95297241210938
+    },
+    {
+      "id": "8151601",
+      "tileScore": 170,
+      "name": "科苑一圈TT",
+      "distanceM": 2903.10009765625,
+      "avgGrade": 0.003444593632593751,
+      "startLat": 22.491838455200195,
+      "startLng": 113.93843841552734
+    },
+    {
+      "id": "648655",
+      "tileScore": 7,
+      "name": "Nan Shan Ascent",
+      "distanceM": 1288.6600341796875,
+      "avgGrade": 6.472140312194824,
+      "startLat": 22.48829460144043,
+      "startLng": 113.90699768066406
+    },
+    {
+      "id": "36318043",
+      "tileScore": 8,
+      "name": "XinggongRdLoop",
+      "distanceM": 715.2000122070312,
+      "avgGrade": 0.04194631054997444,
+      "startLat": 22.507875442504883,
+      "startLng": 113.91523742675781
+    },
+    {
+      "id": "36307827",
+      "tileScore": 3,
+      "name": "WestGongye8thUp2Jail",
+      "distanceM": 933.5,
+      "avgGrade": 1.060524821281433,
+      "startLat": 22.50233268737793,
+      "startLng": 113.9198226928711
+    },
+    {
+      "id": "15327344",
+      "tileScore": 5,
+      "name": "Shenzhen - Shenzhen Bay Beach Park Westward (Jul 3 2017 New Open)",
+      "distanceM": 5509.89990234375,
+      "avgGrade": 0.05263253673911095,
+      "startLat": 22.488800048828125,
+      "startLng": 113.9398193359375
+    }
+  ]
+}

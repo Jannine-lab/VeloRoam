@@ -1,0 +1,173 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-08T22:50:26.728Z",
+  "tile": {
+    "z": 13,
+    "x": 6689,
+    "y": 3567
+  },
+  "segments": [
+    {
+      "id": "36554626",
+      "tileScore": 91,
+      "name": "西丽起伏大套餐（北站南科丽康宝石）",
+      "distanceM": 24765,
+      "avgGrade": -0.031496062874794006,
+      "startLat": 22.602205276489258,
+      "startLng": 114.00679779052734
+    },
+    {
+      "id": "23476165",
+      "tileScore": 67,
+      "name": "二线间歇赛段  LiKang Rolling Hill HIIT",
+      "distanceM": 2365.800048828125,
+      "avgGrade": 0.515681803226471,
+      "startLat": 22.633581161499023,
+      "startLng": 113.96549224853516
+    },
+    {
+      "id": "17209077",
+      "tileScore": 37,
+      "name": "Climb to Xili Loop",
+      "distanceM": 1140.5999755859375,
+      "avgGrade": 0.6926179528236389,
+      "startLat": 22.59556007385254,
+      "startLng": 113.99027252197266
+    },
+    {
+      "id": "30754398",
+      "tileScore": 83,
+      "name": "Sprint SZU北门",
+      "distanceM": 339.70001220703125,
+      "avgGrade": 4.533411979675293,
+      "startLat": 22.6087589263916,
+      "startLng": 113.98108673095703
+    },
+    {
+      "id": "37565825",
+      "tileScore": 9,
+      "name": "沁园路-大勘村",
+      "distanceM": 2703.300048828125,
+      "avgGrade": 0.2663411498069763,
+      "startLat": 22.598417282104492,
+      "startLng": 113.96184539794922
+    },
+    {
+      "id": "23545309",
+      "tileScore": 37,
+      "name": "大勘村东行2.7KM",
+      "distanceM": 2716.5,
+      "avgGrade": 0.17669795453548431,
+      "startLat": 22.623638153076172,
+      "startLng": 113.9771499633789
+    },
+    {
+      "id": "40651011",
+      "tileScore": 2,
+      "name": "环广东-CRC俱乐部",
+      "distanceM": 502.5,
+      "avgGrade": 2.766169309616089,
+      "startLat": 22.623504638671875,
+      "startLng": 113.9701156616211
+    },
+    {
+      "id": "36540987",
+      "tileScore": 35,
+      "name": "沙河绿道-福光消防站至深南路",
+      "distanceM": 8840.099609375,
+      "avgGrade": -0.3099512457847595,
+      "startLat": 22.595399856567383,
+      "startLng": 113.98641967773438
+    },
+    {
+      "id": "27106636",
+      "tileScore": 3,
+      "name": "果场Gravel从西向东",
+      "distanceM": 2066.10009765625,
+      "avgGrade": -0.1742413341999054,
+      "startLat": 22.622854232788086,
+      "startLng": 113.94306182861328
+    },
+    {
+      "id": "5890586",
+      "tileScore": 68,
+      "name": "From Fulincun to Baimang. Decent hilly road 6/7",
+      "distanceM": 9364.2001953125,
+      "avgGrade": 0.14523398876190186,
+      "startLat": 22.605180740356445,
+      "startLng": 113.98954010009766
+    },
+    {
+      "id": "35728662",
+      "tileScore": 3,
+      "name": "DT 丽康坡1",
+      "distanceM": 523.4000244140625,
+      "avgGrade": 11.578142166137695,
+      "startLat": 22.625715255737305,
+      "startLng": 113.97889709472656
+    },
+    {
+      "id": "17194133",
+      "tileScore": 12,
+      "name": "Who likes the zoo?",
+      "distanceM": 361.5,
+      "avgGrade": 5.892116069793701,
+      "startLat": 22.592472076416016,
+      "startLng": 113.95946502685547
+    },
+    {
+      "id": "40482789",
+      "tileScore": 68,
+      "name": "丽康路向东",
+      "distanceM": 11098.2001953125,
+      "avgGrade": -0.06577643007040024,
+      "startLat": 22.629308700561523,
+      "startLng": 113.93569946289062
+    },
+    {
+      "id": "20047613",
+      "tileScore": 46,
+      "name": "Likang Road Westward",
+      "distanceM": 6291.89990234375,
+      "avgGrade": -0.13668367266654968,
+      "startLat": 22.624980926513672,
+      "startLng": 113.97712707519531
+    },
+    {
+      "id": "38279586",
+      "tileScore": 24,
+      "name": "丽水路开冲",
+      "distanceM": 2635.800048828125,
+      "avgGrade": -0.015175658278167248,
+      "startLat": 22.59391975402832,
+      "startLng": 113.97710418701172
+    },
+    {
+      "id": "38599202",
+      "tileScore": 10,
+      "name": "西丽湖好玩坡2",
+      "distanceM": 693.0999755859375,
+      "avgGrade": 2.986582040786743,
+      "startLat": 22.626680374145508,
+      "startLng": 113.95742797851562
+    },
+    {
+      "id": "39999421",
+      "tileScore": 5,
+      "name": "骑完回宿舍",
+      "distanceM": 693.7999877929688,
+      "avgGrade": -0.028826750814914703,
+      "startLat": 22.59583854675293,
+      "startLng": 113.98674774169922
+    },
+    {
+      "id": "39466338",
+      "tileScore": 17,
+      "name": "国际科教城绿道登顶",
+      "distanceM": 1608.699951171875,
+      "avgGrade": 2.9340460300445557,
+      "startLat": 22.60530662536621,
+      "startLng": 114.00177001953125
+    }
+  ]
+}

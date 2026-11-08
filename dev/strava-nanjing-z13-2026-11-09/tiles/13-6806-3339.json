@@ -1,0 +1,29 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-08T22:38:24.795Z",
+  "tile": {
+    "z": 13,
+    "x": 6806,
+    "y": 3339
+  },
+  "segments": [
+    {
+      "id": "30233393",
+      "tileScore": 1,
+      "name": "cd-蒲杜线西往东",
+      "distanceM": 4198.7998046875,
+      "avgGrade": 0.2381632775068283,
+      "startLat": 31.529525756835938,
+      "startLng": 119.08055114746094
+    },
+    {
+      "id": "20979509",
+      "tileScore": 4,
+      "name": "20181111环溧水自行车赛 Lishui Criterium",
+      "distanceM": 139486.90625,
+      "avgGrade": 0.00444486178457737,
+      "startLat": 31.613245010375977,
+      "startLng": 119.02008056640625
+    }
+  ]
+}

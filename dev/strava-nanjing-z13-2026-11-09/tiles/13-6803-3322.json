@@ -1,0 +1,65 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-08T22:33:08.118Z",
+  "tile": {
+    "z": 13,
+    "x": 6803,
+    "y": 3322
+  },
+  "segments": [
+    {
+      "id": "34265475",
+      "tileScore": 9,
+      "name": "欢乐谷东南小山逆时针爬坡",
+      "distanceM": 640.9000244140625,
+      "avgGrade": 6.4596662521362305,
+      "startLat": 32.16200637817383,
+      "startLng": 118.99685668945312
+    },
+    {
+      "id": "30907577",
+      "tileScore": 7,
+      "name": "JintianRd (天佑→三杯) KSprint",
+      "distanceM": 1896.4000244140625,
+      "avgGrade": -0.2161991149187088,
+      "startLat": 32.13809585571289,
+      "startLng": 118.98698425292969
+    },
+    {
+      "id": "5051397",
+      "tileScore": 4,
+      "name": "南京收费站 到 宝华山",
+      "distanceM": 20786,
+      "avgGrade": 0.14336572587490082,
+      "startLat": 32.104984283447266,
+      "startLng": 118.88829803466797
+    },
+    {
+      "id": "39530835",
+      "tileScore": 14,
+      "name": "欢乐谷_LOOP",
+      "distanceM": 4865.10009765625,
+      "avgGrade": -0.01644364930689335,
+      "startLat": 32.16802978515625,
+      "startLng": 118.9973373413086
+    },
+    {
+      "id": "33089784",
+      "tileScore": 10,
+      "name": "up Qixia Ave",
+      "distanceM": 1586.5,
+      "avgGrade": 1.1219666004180908,
+      "startLat": 32.14591598510742,
+      "startLng": 118.97409057617188
+    },
+    {
+      "id": "29795852",
+      "tileScore": 4,
+      "name": "QiXiaShan E side",
+      "distanceM": 2783.199951171875,
+      "avgGrade": -0.5173900723457336,
+      "startLat": 32.14628982543945,
+      "startLng": 118.97452545166016
+    }
+  ]
+}

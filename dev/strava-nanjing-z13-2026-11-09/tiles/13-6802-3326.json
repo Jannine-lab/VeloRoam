@@ -1,0 +1,200 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-08T22:34:15.626Z",
+  "tile": {
+    "z": 13,
+    "x": 6802,
+    "y": 3326
+  },
+  "segments": [
+    {
+      "id": "35281866",
+      "tileScore": 17,
+      "name": "龙尚湖回程冲冲冲",
+      "distanceM": 2009.699951171875,
+      "avgGrade": -0.04478280246257782,
+      "startLat": 32.02096939086914,
+      "startLng": 118.96135711669922
+    },
+    {
+      "id": "37986873",
+      "tileScore": 14,
+      "name": "众彩后起伏路",
+      "distanceM": 6192.10009765625,
+      "avgGrade": 0.0968976616859436,
+      "startLat": 31.966859817504883,
+      "startLng": 118.88992309570312
+    },
+    {
+      "id": "33226110",
+      "tileScore": 9,
+      "name": "Longshang firetrail S to N",
+      "distanceM": 3214.10009765625,
+      "avgGrade": -0.2613484263420105,
+      "startLat": 32.013607025146484,
+      "startLng": 118.95135498046875
+    },
+    {
+      "id": "20978654",
+      "tileScore": 30,
+      "name": "Likair-大连山北段爬坡",
+      "distanceM": 1661.300048828125,
+      "avgGrade": 9.534701347351074,
+      "startLat": 32.013832092285156,
+      "startLng": 118.96923828125
+    },
+    {
+      "id": "38253405",
+      "tileScore": 60,
+      "name": "青龙山到佘村",
+      "distanceM": 1886.9000244140625,
+      "avgGrade": -1.3673220872879028,
+      "startLat": 31.99803924560547,
+      "startLng": 118.93737030029297
+    },
+    {
+      "id": "31253149",
+      "tileScore": 10,
+      "name": "QingLong W flat offroad",
+      "distanceM": 4428.60009765625,
+      "avgGrade": 0.054193202406167984,
+      "startLat": 32.04568862915039,
+      "startLng": 118.9753646850586
+    },
+    {
+      "id": "33460315",
+      "tileScore": 25,
+      "name": "大连山西 烂水泥路爬坡",
+      "distanceM": 934.5,
+      "avgGrade": 12.134831428527832,
+      "startLat": 32.007789611816406,
+      "startLng": 118.95218658447266
+    },
+    {
+      "id": "25786420",
+      "tileScore": 3,
+      "name": "20200920环南京汤山站全程组 Tour de Nanjing Tangshan Stage Full Length",
+      "distanceM": 79233.296875,
+      "avgGrade": 0.00025241912226192653,
+      "startLat": 32.04627990722656,
+      "startLng": 119.05066680908203
+    },
+    {
+      "id": "31700731",
+      "tileScore": 9,
+      "name": "Tower to Hidden Dragon ",
+      "distanceM": 3857.199951171875,
+      "avgGrade": -3.2821736335754395,
+      "startLat": 32.00248718261719,
+      "startLng": 118.95652770996094
+    },
+    {
+      "id": "37976458",
+      "tileScore": 3,
+      "name": "长山砾石路段",
+      "distanceM": 2135.10009765625,
+      "avgGrade": 0.09367243200540543,
+      "startLat": 31.983123779296875,
+      "startLng": 118.90888214111328
+    },
+    {
+      "id": "36876424",
+      "tileScore": 59,
+      "name": "从七甲进入林场热身",
+      "distanceM": 734.4000244140625,
+      "avgGrade": 1.0893245935440063,
+      "startLat": 32.00059509277344,
+      "startLng": 118.93575286865234
+    },
+    {
+      "id": "39742885",
+      "tileScore": 111,
+      "name": "榨干你的体能坡",
+      "distanceM": 1697.5,
+      "avgGrade": 8.648012161254883,
+      "startLat": 32.01507568359375,
+      "startLng": 118.95271301269531
+    },
+    {
+      "id": "38223391",
+      "tileScore": 5,
+      "name": "军禁冲刺",
+      "distanceM": 570.2999877929688,
+      "avgGrade": -2.0690863132476807,
+      "startLat": 32.002628326416016,
+      "startLng": 118.92312622070312
+    },
+    {
+      "id": "36885074",
+      "tileScore": 7,
+      "name": "五条岭五上五下",
+      "distanceM": 30226.30078125,
+      "avgGrade": -0.01521853543817997,
+      "startLat": 32.0115966796875,
+      "startLng": 118.94951629638672
+    },
+    {
+      "id": "42127630",
+      "tileScore": 118,
+      "name": "园博园团练路线itt",
+      "distanceM": 62612,
+      "avgGrade": 0,
+      "startLat": 31.94707489013672,
+      "startLng": 118.91030883789062
+    },
+    {
+      "id": "33460320",
+      "tileScore": 3,
+      "name": "小川藏线の捷径 向北",
+      "distanceM": 1352.4000244140625,
+      "avgGrade": 1.7450459003448486,
+      "startLat": 32.00288391113281,
+      "startLng": 118.9407730102539
+    },
+    {
+      "id": "16334813",
+      "tileScore": 17,
+      "name": "CangLongYan lake I climb",
+      "distanceM": 2394.5,
+      "avgGrade": 5.5209856033325195,
+      "startLat": 31.993968963623047,
+      "startLng": 118.96551513671875
+    },
+    {
+      "id": "20401995",
+      "tileScore": 167,
+      "name": "青龙山起伏路W-E",
+      "distanceM": 3286.300048828125,
+      "avgGrade": 0.9311383366584778,
+      "startLat": 31.998750686645508,
+      "startLng": 118.93706512451172
+    },
+    {
+      "id": "40505799",
+      "tileScore": 12,
+      "name": "一起推车吧~",
+      "distanceM": 781.7000122070312,
+      "avgGrade": 17.16771125793457,
+      "startLat": 32.00399398803711,
+      "startLng": 118.92057037353516
+    },
+    {
+      "id": "36848115",
+      "tileScore": 11,
+      "name": "青龙山山地马拉松标准单圈",
+      "distanceM": 37025.30078125,
+      "avgGrade": -0.002160684671252966,
+      "startLat": 32.01175308227539,
+      "startLng": 118.94888305664062
+    },
+    {
+      "id": "36084499",
+      "tileScore": 5,
+      "name": "佘村越野黑线",
+      "distanceM": 7516.7998046875,
+      "avgGrade": 0.18891017138957977,
+      "startLat": 31.98575210571289,
+      "startLng": 118.92647552490234
+    }
+  ]
+}

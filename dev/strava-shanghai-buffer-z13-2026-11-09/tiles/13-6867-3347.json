@@ -1,0 +1,20 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-03T06:07:32.283Z",
+  "tile": {
+    "z": 13,
+    "x": 6867,
+    "y": 3347
+  },
+  "segments": [
+    {
+      "id": "6881545",
+      "tileScore": 12,
+      "name": "Sea Wall Dash",
+      "distanceM": 1039.699951171875,
+      "avgGrade": 0,
+      "startLat": 31.200204849243164,
+      "startLng": 121.78651428222656
+    }
+  ]
+}

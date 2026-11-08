@@ -1,0 +1,290 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-08T22:51:18.484Z",
+  "tile": {
+    "z": 13,
+    "x": 6692,
+    "y": 3570
+  },
+  "segments": [
+    {
+      "id": "32198866",
+      "tileScore": 12,
+      "name": "青山道(古洞段)",
+      "distanceM": 1669,
+      "avgGrade": 0.13780707120895386,
+      "startLat": 22.503156661987305,
+      "startLng": 114.10751342773438
+    },
+    {
+      "id": "27763638",
+      "tileScore": 13,
+      "name": "上水寶石湖路天橋(南行) / Po Shek Wu Road bridge (southbound)",
+      "distanceM": 342.5,
+      "avgGrade": 0.8759124279022217,
+      "startLat": 22.50577735900879,
+      "startLng": 114.12545776367188
+    },
+    {
+      "id": "15806953",
+      "tileScore": 2,
+      "name": "Ping Kong Rd, Southwards",
+      "distanceM": 649.0999755859375,
+      "avgGrade": -0.07702972739934921,
+      "startLat": 22.495634078979492,
+      "startLng": 114.12308502197266
+    },
+    {
+      "id": "40955962",
+      "tileScore": 17,
+      "name": "FAIRVIEW PARK to EDEN MANOR",
+      "distanceM": 9899.7998046875,
+      "avgGrade": 0.04040485620498657,
+      "startLat": 22.473743438720703,
+      "startLng": 114.05089569091797
+    },
+    {
+      "id": "28279444",
+      "tileScore": 13,
+      "name": "Kwu Tung Rd 2nd Climb (Wet Market Direction) ",
+      "distanceM": 408.29998779296875,
+      "avgGrade": 2.155277967453003,
+      "startLat": 22.50358009338379,
+      "startLng": 114.0947265625
+    },
+    {
+      "id": "31877724",
+      "tileScore": 1,
+      "name": "Hang Tau to Tong Kung Ling",
+      "distanceM": 1211.199951171875,
+      "avgGrade": 1.5521796941757202,
+      "startLat": 22.491960525512695,
+      "startLng": 114.10490417480469
+    },
+    {
+      "id": "12369135",
+      "tileScore": 8,
+      "name": "松柏塱sprint",
+      "distanceM": 301.1000061035156,
+      "avgGrade": 1.095981478691101,
+      "startLat": 22.50303840637207,
+      "startLng": 114.1220932006836
+    },
+    {
+      "id": "14932088",
+      "tileScore": 6,
+      "name": "Kwu Tung Road Sprint (East) ",
+      "distanceM": 2926,
+      "avgGrade": -0.1982228308916092,
+      "startLat": 22.497007369995117,
+      "startLng": 114.07904052734375
+    },
+    {
+      "id": "9993067",
+      "tileScore": 22,
+      "name": "穿越高球場",
+      "distanceM": 1698.4000244140625,
+      "avgGrade": -0.8831841945648193,
+      "startLat": 22.482742309570312,
+      "startLng": 114.11372375488281
+    },
+    {
+      "id": "26035297",
+      "tileScore": 22,
+      "name": "博愛-雙魚河跳上跳落左穿右插單車徑(on9先踩)",
+      "distanceM": 12141.7001953125,
+      "avgGrade": -0.013177727349102497,
+      "startLat": 22.44454574584961,
+      "startLng": 114.0413818359375
+    },
+    {
+      "id": "20314773",
+      "tileScore": 10,
+      "name": "青山公路(新田村路口至落馬洲路口)",
+      "distanceM": 1373.199951171875,
+      "avgGrade": 0.29129040241241455,
+      "startLat": 22.495281219482422,
+      "startLng": 114.07328033447266
+    },
+    {
+      "id": "5809511",
+      "tileScore": 3,
+      "name": "Ki Lun Pass",
+      "distanceM": 1123.800048828125,
+      "avgGrade": 3.025449514389038,
+      "startLat": 22.496599197387695,
+      "startLng": 114.10005950927734
+    },
+    {
+      "id": "13638544",
+      "tileScore": 16,
+      "name": "Climb to Kwu Tung Road ",
+      "distanceM": 96.9000015258789,
+      "avgGrade": 6.398348331451416,
+      "startLat": 22.503360748291016,
+      "startLng": 114.1056900024414
+    },
+    {
+      "id": "38840312",
+      "tileScore": 22,
+      "name": "The GT ",
+      "distanceM": 95767,
+      "avgGrade": 0.04740672558546066,
+      "startLat": 22.326505661010742,
+      "startLng": 114.15650939941406
+    },
+    {
+      "id": "42174929",
+      "tileScore": 15,
+      "name": "古洞北路 softy incline descend",
+      "distanceM": 749.7999877929688,
+      "avgGrade": -1.6004267930984497,
+      "startLat": 22.51102066040039,
+      "startLng": 114.09515380859375
+    },
+    {
+      "id": "17045620",
+      "tileScore": 11,
+      "name": "Lok Ma Chau Road - up to roundabout",
+      "distanceM": 949.2000122070312,
+      "avgGrade": -0.08428149670362473,
+      "startLat": 22.503917694091797,
+      "startLng": 114.0824966430664
+    },
+    {
+      "id": "13151143",
+      "tileScore": 22,
+      "name": "粉錦公路(八鄉迴旋處－燈位)",
+      "distanceM": 7210.7998046875,
+      "avgGrade": -0.03605702519416809,
+      "startLat": 22.441652297973633,
+      "startLng": 114.08954620361328
+    },
+    {
+      "id": "7959113",
+      "tileScore": 11,
+      "name": "Tin Kwong Po",
+      "distanceM": 470.6000061035156,
+      "avgGrade": 0.44623884558677673,
+      "startLat": 22.505945205688477,
+      "startLng": 114.11829376220703
+    },
+    {
+      "id": "34223693",
+      "tileScore": 5,
+      "name": "yuen long to tai po twin bridge",
+      "distanceM": 34870.8984375,
+      "avgGrade": -0.013765059411525726,
+      "startLat": 22.444385528564453,
+      "startLng": 114.04415893554688
+    },
+    {
+      "id": "34316256",
+      "tileScore": 15,
+      "name": "fanling hwy bikelane downhill",
+      "distanceM": 507.20001220703125,
+      "avgGrade": -1.3604100942611694,
+      "startLat": 22.50456428527832,
+      "startLng": 114.09017944335938
+    },
+    {
+      "id": "14492021",
+      "tileScore": 1,
+      "name": "羅湖至落馬洲",
+      "distanceM": 7067.60009765625,
+      "avgGrade": -0.24053426086902618,
+      "startLat": 22.527307510375977,
+      "startLng": 114.11078643798828
+    },
+    {
+      "id": "33322629",
+      "tileScore": 1,
+      "name": "Cheung Lek to Ki Lun Au gravel",
+      "distanceM": 1721.5,
+      "avgGrade": 1.678768515586853,
+      "startLat": 22.483884811401367,
+      "startLng": 114.10106658935547
+    },
+    {
+      "id": "36106399",
+      "tileScore": 9,
+      "name": "NSW - SHAN SHING",
+      "distanceM": 90205.8984375,
+      "avgGrade": -0.013968043960630894,
+      "startLat": 22.44609260559082,
+      "startLng": 114.04883575439453
+    },
+    {
+      "id": "33877200",
+      "tileScore": 27,
+      "name": "康城大冷",
+      "distanceM": 130482.203125,
+      "avgGrade": 0,
+      "startLat": 22.29688835144043,
+      "startLng": 114.26518249511719
+    },
+    {
+      "id": "4755331",
+      "tileScore": 8,
+      "name": "Castle Peak Road (kwu Tung) Climb",
+      "distanceM": 646.7999877929688,
+      "avgGrade": 19.10946273803711,
+      "startLat": 22.500381469726562,
+      "startLng": 114.12024688720703
+    },
+    {
+      "id": "6583585",
+      "tileScore": 2,
+      "name": "San Wan Road Climb",
+      "distanceM": 442.1000061035156,
+      "avgGrade": 22.30264663696289,
+      "startLat": 22.502403259277344,
+      "startLng": 114.12569427490234
+    },
+    {
+      "id": "33525505",
+      "tileScore": 1,
+      "name": "龍潭古廟長瀝FunGravel",
+      "distanceM": 613,
+      "avgGrade": -1.076672077178955,
+      "startLat": 22.477405548095703,
+      "startLng": 114.09651184082031
+    },
+    {
+      "id": "5013272",
+      "tileScore": 4,
+      "name": "青公(潭尾油站-馬會高球)",
+      "distanceM": 10170.5,
+      "avgGrade": 0.04326237365603447,
+      "startLat": 22.46607208251953,
+      "startLng": 114.05384063720703
+    },
+    {
+      "id": "34980101",
+      "tileScore": 9,
+      "name": "Sheung Yue River 上水方向",
+      "distanceM": 1545.199951171875,
+      "avgGrade": -0.1553197056055069,
+      "startLat": 22.503517150878906,
+      "startLng": 114.10494232177734
+    },
+    {
+      "id": "33322623",
+      "tileScore": 7,
+      "name": "Ping Kong Ng Uk Tsuen to Fan Kam",
+      "distanceM": 2142.10009765625,
+      "avgGrade": 0.9756780862808228,
+      "startLat": 22.489971160888672,
+      "startLng": 114.12329864501953
+    },
+    {
+      "id": "34980154",
+      "tileScore": 12,
+      "name": "River Sutlej 大水管方向",
+      "distanceM": 1040.5,
+      "avgGrade": 0.11532916873693466,
+      "startLat": 22.50861930847168,
+      "startLng": 114.11851501464844
+    }
+  ]
+}

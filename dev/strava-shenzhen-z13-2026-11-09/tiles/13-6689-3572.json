@@ -1,0 +1,173 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-08T22:51:42.634Z",
+  "tile": {
+    "z": 13,
+    "x": 6689,
+    "y": 3572
+  },
+  "segments": [
+    {
+      "id": "21386697",
+      "tileScore": 24,
+      "name": "Damn lift",
+      "distanceM": 1566.699951171875,
+      "avgGrade": -0.16595391929149628,
+      "startLat": 22.427181243896484,
+      "startLng": 113.9896011352539
+    },
+    {
+      "id": "33473959",
+      "tileScore": 5,
+      "name": "Yan Po Road By ChungHY",
+      "distanceM": 705.9000244140625,
+      "avgGrade": 0.9066439867019653,
+      "startLat": 22.414743423461914,
+      "startLng": 113.97444152832031
+    },
+    {
+      "id": "8733633",
+      "tileScore": 44,
+      "name": "Tuen Mun River Run",
+      "distanceM": 1393,
+      "avgGrade": -0.07896625995635986,
+      "startLat": 22.38397789001465,
+      "startLng": 113.96709442138672
+    },
+    {
+      "id": "4038504",
+      "tileScore": 44,
+      "name": "山景斜",
+      "distanceM": 1372.5999755859375,
+      "avgGrade": -0.05828355252742767,
+      "startLat": 22.39600944519043,
+      "startLng": 113.96615600585938
+    },
+    {
+      "id": "27607586",
+      "tileScore": 3,
+      "name": "Ready for adventure?",
+      "distanceM": 1463.5999755859375,
+      "avgGrade": 5.17901086807251,
+      "startLat": 22.416183471679688,
+      "startLng": 113.9905776977539
+    },
+    {
+      "id": "9485922",
+      "tileScore": 23,
+      "name": "Yuen Long to Siu Hong Cycle Lane (TM Direction)",
+      "distanceM": 5103.7001953125,
+      "avgGrade": 0.06269960850477219,
+      "startLat": 22.444162368774414,
+      "startLng": 114.01599884033203
+    },
+    {
+      "id": "10837225",
+      "tileScore": 14,
+      "name": "*五柳路 > 南生圍入口",
+      "distanceM": 8678.7001953125,
+      "avgGrade": -0.0483943447470665,
+      "startLat": 22.42234230041504,
+      "startLng": 113.98533630371094
+    },
+    {
+      "id": "16075127",
+      "tileScore": 26,
+      "name": "屯門醫院站-澤豐站",
+      "distanceM": 467.5,
+      "avgGrade": -2.5882351398468018,
+      "startLat": 22.40760612487793,
+      "startLng": 113.97713470458984
+    },
+    {
+      "id": "18951470",
+      "tileScore": 30,
+      "name": "洪水橋至三聖",
+      "distanceM": 5161.10009765625,
+      "avgGrade": -0.04650171473622322,
+      "startLat": 22.432941436767578,
+      "startLng": 113.99633026123047
+    },
+    {
+      "id": "10729364",
+      "tileScore": 4,
+      "name": "高速公路邊 (藍地-唐人新村)",
+      "distanceM": 4918.39990234375,
+      "avgGrade": 0.06506180763244629,
+      "startLat": 22.41581916809082,
+      "startLng": 113.98199462890625
+    },
+    {
+      "id": "33877200",
+      "tileScore": 27,
+      "name": "康城大冷",
+      "distanceM": 130482.203125,
+      "avgGrade": 0,
+      "startLat": 22.29688835144043,
+      "startLng": 114.26518249511719
+    },
+    {
+      "id": "6446857",
+      "tileScore": 2,
+      "name": "Tin King Road Climb",
+      "distanceM": 1249.300048828125,
+      "avgGrade": 11.926678657531738,
+      "startLat": 22.407459259033203,
+      "startLng": 113.94293212890625
+    },
+    {
+      "id": "14261098",
+      "tileScore": 12,
+      "name": "菠蘿山入口至下白泥出口",
+      "distanceM": 3807.5,
+      "avgGrade": -0.963887095451355,
+      "startLat": 22.404626846313477,
+      "startLng": 113.95901489257812
+    },
+    {
+      "id": "30428963",
+      "tileScore": 6,
+      "name": "Hong Po Road 康寶路",
+      "distanceM": 1326,
+      "avgGrade": 3.680241584777832,
+      "startLat": 22.417102813720703,
+      "startLng": 113.97684478759766
+    },
+    {
+      "id": "16075144",
+      "tileScore": 44,
+      "name": "兆康站衝刺（南行）",
+      "distanceM": 726.0999755859375,
+      "avgGrade": 0.7850158214569092,
+      "startLat": 22.415264129638672,
+      "startLng": 113.98014068603516
+    },
+    {
+      "id": "31877742",
+      "tileScore": 7,
+      "name": "Tin  Ha Road _ Castle Peak RD to San Sang Tsuen",
+      "distanceM": 1145,
+      "avgGrade": -0.6462882161140442,
+      "startLat": 22.430532455444336,
+      "startLng": 113.99305725097656
+    },
+    {
+      "id": "5925082",
+      "tileScore": 45,
+      "name": "青山寺",
+      "distanceM": 856.5,
+      "avgGrade": 18.003501892089844,
+      "startLat": 22.391887664794922,
+      "startLng": 113.96610260009766
+    },
+    {
+      "id": "20114371",
+      "tileScore": 19,
+      "name": "荃灣麗城至元朗西(海安路行人燈位經青公至元朗朗邊中轉屋藍色路牌)",
+      "distanceM": 24964.5,
+      "avgGrade": 0.0416591577231884,
+      "startLat": 22.372472763061523,
+      "startLng": 114.10540771484375
+    }
+  ]
+}

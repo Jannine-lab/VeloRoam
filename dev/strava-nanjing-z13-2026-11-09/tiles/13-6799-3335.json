@@ -1,0 +1,65 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-08T22:37:28.686Z",
+  "tile": {
+    "z": 13,
+    "x": 6799,
+    "y": 3335
+  },
+  "segments": [
+    {
+      "id": "29966507",
+      "tileScore": 4,
+      "name": "cd-四进山迎驾路到小店",
+      "distanceM": 5712.2001953125,
+      "avgGrade": 0.46216869354248047,
+      "startLat": 31.678688049316406,
+      "startLng": 118.83145141601562
+    },
+    {
+      "id": "38327848",
+      "tileScore": 2,
+      "name": "出蟠龙湖到丹阳",
+      "distanceM": 8840.2998046875,
+      "avgGrade": -0.29863241314888,
+      "startLat": 31.65740966796875,
+      "startLng": 118.79342651367188
+    },
+    {
+      "id": "14678857",
+      "tileScore": 4,
+      "name": "S38 - Changhe Highway crossroad",
+      "distanceM": 7545.5,
+      "avgGrade": 0.0927705243229866,
+      "startLat": 31.67291259765625,
+      "startLng": 118.89064025878906
+    },
+    {
+      "id": "30472207",
+      "tileScore": 2,
+      "name": "看见水库开始划火柴",
+      "distanceM": 364.5,
+      "avgGrade": 6.035665512084961,
+      "startLat": 31.65392303466797,
+      "startLng": 118.80623626708984
+    },
+    {
+      "id": "30552760",
+      "tileScore": 7,
+      "name": "蟠龙湖逆时针第一个陡坡",
+      "distanceM": 318,
+      "avgGrade": 7.735849380493164,
+      "startLat": 31.666532516479492,
+      "startLng": 118.79693603515625
+    },
+    {
+      "id": "14678922",
+      "tileScore": 3,
+      "name": "Changhe Highway - Jiangjun Av",
+      "distanceM": 5633.89990234375,
+      "avgGrade": -0.1419975608587265,
+      "startLat": 31.688724517822266,
+      "startLng": 118.8186264038086
+    }
+  ]
+}

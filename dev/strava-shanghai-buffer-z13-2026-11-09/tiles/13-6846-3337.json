@@ -1,0 +1,47 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-03T06:02:37.086Z",
+  "tile": {
+    "z": 13,
+    "x": 6846,
+    "y": 3337
+  },
+  "segments": [
+    {
+      "id": "16215665",
+      "tileScore": 1,
+      "name": "Rick's Ramp",
+      "distanceM": 570.0999755859375,
+      "avgGrade": 1.613752007484436,
+      "startLat": 31.602731704711914,
+      "startLng": 120.86312866210938
+    },
+    {
+      "id": "16215650",
+      "tileScore": 2,
+      "name": "G204 (X003 to SE Connecting Line)",
+      "distanceM": 6291.7001953125,
+      "avgGrade": 0.08582735806703568,
+      "startLat": 31.6523494720459,
+      "startLng": 120.84453582763672
+    },
+    {
+      "id": "16215835",
+      "tileScore": 1,
+      "name": "Southbound Lines",
+      "distanceM": 5438.2998046875,
+      "avgGrade": -0.04780905693769455,
+      "startLat": 31.5935001373291,
+      "startLng": 120.86048126220703
+    },
+    {
+      "id": "35469110",
+      "tileScore": 2,
+      "name": "新手刷刷刷",
+      "distanceM": 2724,
+      "avgGrade": -0.10279001295566559,
+      "startLat": 31.63058090209961,
+      "startLng": 120.85453796386719
+    }
+  ]
+}

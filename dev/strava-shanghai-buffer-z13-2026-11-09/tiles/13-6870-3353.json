@@ -1,0 +1,47 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-03T06:10:44.556Z",
+  "tile": {
+    "z": 13,
+    "x": 6870,
+    "y": 3353
+  },
+  "segments": [
+    {
+      "id": "30069344",
+      "tileScore": 5,
+      "name": "Donghai Avenue by Ljb",
+      "distanceM": 6623.7001953125,
+      "avgGrade": 0.004529190249741077,
+      "startLat": 30.919910430908203,
+      "startLng": 121.92915344238281
+    },
+    {
+      "id": "8369944",
+      "tileScore": 18,
+      "name": "Seawall In",
+      "distanceM": 8969.7998046875,
+      "avgGrade": -0.006689112167805433,
+      "startLat": 30.922943115234375,
+      "startLng": 121.97227478027344
+    },
+    {
+      "id": "29375073",
+      "tileScore": 9,
+      "name": "临港赛段",
+      "distanceM": 60189.80078125,
+      "avgGrade": 0.005316515453159809,
+      "startLat": 30.911985397338867,
+      "startLng": 121.93582153320312
+    },
+    {
+      "id": "8419347",
+      "tileScore": 3,
+      "name": "Pudong S-E Seawall 1st section",
+      "distanceM": 8551.7001953125,
+      "avgGrade": 0,
+      "startLat": 31.073909759521484,
+      "startLng": 121.89143371582031
+    }
+  ]
+}

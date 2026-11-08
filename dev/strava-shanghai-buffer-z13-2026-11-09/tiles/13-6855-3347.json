@@ -1,0 +1,200 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-03T06:07:47.199Z",
+  "tile": {
+    "z": 13,
+    "x": 6855,
+    "y": 3347
+  },
+  "segments": [
+    {
+      "id": "29011852",
+      "tileScore": 2,
+      "name": "JDz002",
+      "distanceM": 9132.2998046875,
+      "avgGrade": 0.013140172697603703,
+      "startLat": 31.2169189453125,
+      "startLng": 121.27173614501953
+    },
+    {
+      "id": "42008025",
+      "tileScore": 11,
+      "name": "Bikehome安亭乡村版去程",
+      "distanceM": 23945.19921875,
+      "avgGrade": 0,
+      "startLat": 31.206161499023438,
+      "startLng": 121.25885772705078
+    },
+    {
+      "id": "8208076",
+      "tileScore": 20,
+      "name": "BeiHwy  to Brit School 1KM sprint",
+      "distanceM": 1023.5,
+      "avgGrade": 0,
+      "startLat": 31.207948684692383,
+      "startLng": 121.26846313476562
+    },
+    {
+      "id": "27743438",
+      "tileScore": 4,
+      "name": "Cemetery 2 SRC",
+      "distanceM": 56811.30078125,
+      "avgGrade": 0,
+      "startLat": 31.20186996459961,
+      "startLng": 121.27755737304688
+    },
+    {
+      "id": "30390327",
+      "tileScore": 17,
+      "name": "BTP-S10",
+      "distanceM": 3897.300048828125,
+      "avgGrade": -0.0025658789090812206,
+      "startLat": 31.203502655029297,
+      "startLng": 121.24878692626953
+    },
+    {
+      "id": "12744748",
+      "tileScore": 19,
+      "name": "J's FM Straight",
+      "distanceM": 803.2999877929688,
+      "avgGrade": 0.13693514466285706,
+      "startLat": 31.20392417907715,
+      "startLng": 121.28052520751953
+    },
+    {
+      "id": "40943463",
+      "tileScore": 7,
+      "name": "SAS Puxi Loop",
+      "distanceM": 1381.699951171875,
+      "avgGrade": 0,
+      "startLat": 31.205604553222656,
+      "startLng": 121.27720642089844
+    },
+    {
+      "id": "39173768",
+      "tileScore": 78,
+      "name": "jack最喜欢的半瓜路",
+      "distanceM": 2834.199951171875,
+      "avgGrade": 0.007056665141135454,
+      "startLat": 31.25140953063965,
+      "startLng": 121.28150939941406
+    },
+    {
+      "id": "11606920",
+      "tileScore": 2,
+      "name": "Mingzhu to Jiasong",
+      "distanceM": 3733,
+      "avgGrade": 0.09375837445259094,
+      "startLat": 31.20376968383789,
+      "startLng": 121.2525634765625
+    },
+    {
+      "id": "3936835",
+      "tileScore": 2,
+      "name": "Apocalypse (Outer Ring-Jidi Lu)",
+      "distanceM": 5849.10009765625,
+      "avgGrade": -0.025644971057772636,
+      "startLat": 31.225740432739258,
+      "startLng": 121.34654235839844
+    },
+    {
+      "id": "27775488",
+      "tileScore": 2,
+      "name": "BTP-CN-026",
+      "distanceM": 2581.199951171875,
+      "avgGrade": 0.1084766834974289,
+      "startLat": 31.206111907958984,
+      "startLng": 121.28277587890625
+    },
+    {
+      "id": "28338206",
+      "tileScore": 18,
+      "name": "BTP-CS007",
+      "distanceM": 1661.9000244140625,
+      "avgGrade": -0.18051627278327942,
+      "startLat": 31.210256576538086,
+      "startLng": 121.2971420288086
+    },
+    {
+      "id": "24463386",
+      "tileScore": 3,
+      "name": "First of All, Ain't no Mistakes Allowed",
+      "distanceM": 2018.4000244140625,
+      "avgGrade": -0.05945303291082382,
+      "startLat": 31.204029083251953,
+      "startLng": 121.25882720947266
+    },
+    {
+      "id": "30384821",
+      "tileScore": 3,
+      "name": "THL-4",
+      "distanceM": 116824.5,
+      "avgGrade": -0.0025679543614387512,
+      "startLat": 31.206161499023438,
+      "startLng": 121.28252410888672
+    },
+    {
+      "id": "8013617",
+      "tileScore": 20,
+      "name": "Baole sprint - town to SRC gate",
+      "distanceM": 415.70001220703125,
+      "avgGrade": 0,
+      "startLat": 31.20773696899414,
+      "startLng": 121.28421020507812
+    },
+    {
+      "id": "28338162",
+      "tileScore": 4,
+      "name": "BTP-CS002",
+      "distanceM": 482.5,
+      "avgGrade": 0.041450779885053635,
+      "startLat": 31.238563537597656,
+      "startLng": 121.2624282836914
+    },
+    {
+      "id": "8150397",
+      "tileScore": 7,
+      "name": "Beiqing Finish - ShenhaiEX to JinFeng",
+      "distanceM": 1300.0999755859375,
+      "avgGrade": 0,
+      "startLat": 31.206640243530273,
+      "startLng": 121.26178741455078
+    },
+    {
+      "id": "28709026",
+      "tileScore": 1,
+      "name": "NQSF-002",
+      "distanceM": 16507.30078125,
+      "avgGrade": 0.00605792598798871,
+      "startLat": 31.21061134338379,
+      "startLng": 121.27330017089844
+    },
+    {
+      "id": "30564546",
+      "tileScore": 3,
+      "name": "FMG-23",
+      "distanceM": 35947.6015625,
+      "avgGrade": 0.02837463468313217,
+      "startLat": 31.019447326660156,
+      "startLng": 121.3215560913086
+    },
+    {
+      "id": "20227784",
+      "tileScore": 23,
+      "name": "the unnameable",
+      "distanceM": 1814.800048828125,
+      "avgGrade": 0.08816398680210114,
+      "startLat": 31.210866928100586,
+      "startLng": 121.25511169433594
+    },
+    {
+      "id": "36595170",
+      "tileScore": 38,
+      "name": "凤星路东侧绕圈",
+      "distanceM": 3471.89990234375,
+      "avgGrade": -0.2016187161207199,
+      "startLat": 31.22123908996582,
+      "startLng": 121.23021697998047
+    }
+  ]
+}

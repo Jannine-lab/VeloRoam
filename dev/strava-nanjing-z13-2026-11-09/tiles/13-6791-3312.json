@@ -1,0 +1,20 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-08T22:26:07.007Z",
+  "tile": {
+    "z": 13,
+    "x": 6791,
+    "y": 3312
+  },
+  "segments": [
+    {
+      "id": "38153867",
+      "tileScore": 24,
+      "name": "舜山—屯仓",
+      "distanceM": 4748.60009765625,
+      "avgGrade": 0.44855326414108276,
+      "startLat": 32.5400505065918,
+      "startLng": 118.43651580810547
+    }
+  ]
+}

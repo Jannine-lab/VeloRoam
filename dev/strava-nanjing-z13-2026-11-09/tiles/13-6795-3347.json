@@ -1,0 +1,29 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-08T22:41:11.154Z",
+  "tile": {
+    "z": 13,
+    "x": 6795,
+    "y": 3347
+  },
+  "segments": [
+    {
+      "id": "40158899",
+      "tileScore": 13,
+      "name": "杨黄路itt",
+      "distanceM": 8242.400390625,
+      "avgGrade": -0.016985345631837845,
+      "startLat": 31.2059383392334,
+      "startLng": 118.6175308227539
+    },
+    {
+      "id": "38659832",
+      "tileScore": 9,
+      "name": "新芜大道itt",
+      "distanceM": 4567.39990234375,
+      "avgGrade": 0.26273152232170105,
+      "startLat": 31.20814323425293,
+      "startLng": 118.62317657470703
+    }
+  ]
+}

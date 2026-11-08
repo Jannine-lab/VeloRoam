@@ -1,0 +1,101 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-03T06:02:51.783Z",
+  "tile": {
+    "z": 13,
+    "x": 6867,
+    "y": 3337
+  },
+  "segments": [
+    {
+      "id": "40962244",
+      "tileScore": 2,
+      "name": "Riverside Trail W-E",
+      "distanceM": 2798.199951171875,
+      "avgGrade": -0.07862196862697601,
+      "startLat": 31.58032989501953,
+      "startLng": 121.79353332519531
+    },
+    {
+      "id": "40144982",
+      "tileScore": 12,
+      "name": "Back to the origin",
+      "distanceM": 3730.89990234375,
+      "avgGrade": 0.05896700173616409,
+      "startLat": 31.596424102783203,
+      "startLng": 121.80479431152344
+    },
+    {
+      "id": "40202769",
+      "tileScore": 6,
+      "name": "flat is fast the obverse",
+      "distanceM": 2260.89990234375,
+      "avgGrade": 0.03096112050116062,
+      "startLat": 31.596487045288086,
+      "startLng": 121.80493927001953
+    },
+    {
+      "id": "39086499",
+      "tileScore": 12,
+      "name": "崇明东半岛北贴ITT",
+      "distanceM": 25298.099609375,
+      "avgGrade": 0.0023717195726931095,
+      "startLat": 31.578561782836914,
+      "startLng": 121.9088363647461
+    },
+    {
+      "id": "39318039",
+      "tileScore": 3,
+      "name": "IGC_Muddy up&down 2",
+      "distanceM": 2538.300048828125,
+      "avgGrade": -0.047275736927986145,
+      "startLat": 31.590673446655273,
+      "startLng": 121.80162048339844
+    },
+    {
+      "id": "41426417",
+      "tileScore": 1,
+      "name": "E-W ride under tree ",
+      "distanceM": 3533.60009765625,
+      "avgGrade": -0.039619654417037964,
+      "startLat": 31.58863639831543,
+      "startLng": 121.7728500366211
+    },
+    {
+      "id": "40145084",
+      "tileScore": 3,
+      "name": "Very stinky the road leads to the origin",
+      "distanceM": 4407.2001953125,
+      "avgGrade": -0.024959156289696693,
+      "startLat": 31.60839080810547,
+      "startLng": 121.7886962890625
+    },
+    {
+      "id": "40548218",
+      "tileScore": 6,
+      "name": "秋季崇明瓜全程",
+      "distanceM": 69191.8984375,
+      "avgGrade": 0.017632121220231056,
+      "startLat": 31.462778091430664,
+      "startLng": 121.8483657836914
+    },
+    {
+      "id": "40145049",
+      "tileScore": 12,
+      "name": "Very  straight  concrete roads bounce around and real trail",
+      "distanceM": 4028.60009765625,
+      "avgGrade": -0.032269272953271866,
+      "startLat": 31.59567642211914,
+      "startLng": 121.82903289794922
+    },
+    {
+      "id": "39318037",
+      "tileScore": 11,
+      "name": "IGC_Muddy up&down 1",
+      "distanceM": 2050.89990234375,
+      "avgGrade": -0.11702179908752441,
+      "startLat": 31.596454620361328,
+      "startLng": 121.77958679199219
+    }
+  ]
+}

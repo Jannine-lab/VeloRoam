@@ -1,0 +1,29 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-08T22:51:00.537Z",
+  "tile": {
+    "z": 13,
+    "x": 6700,
+    "y": 3570
+  },
+  "segments": [
+    {
+      "id": "22482963",
+      "tileScore": 3,
+      "name": "All ID Climbs And Decents",
+      "distanceM": 52568.1015625,
+      "avgGrade": -0.05041080340743065,
+      "startLat": 22.533960342407227,
+      "startLng": 114.50653839111328
+    },
+    {
+      "id": "18272111",
+      "tileScore": 9,
+      "name": "大鹏海边CLIMB（世纪海景酒店后面起）",
+      "distanceM": 2189.800048828125,
+      "avgGrade": 6.6490092277526855,
+      "startLat": 22.51129913330078,
+      "startLng": 114.4784164428711
+    }
+  ]
+}

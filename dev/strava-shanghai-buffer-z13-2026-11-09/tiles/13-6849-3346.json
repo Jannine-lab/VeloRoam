@@ -1,0 +1,47 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-03T06:06:43.547Z",
+  "tile": {
+    "z": 13,
+    "x": 6849,
+    "y": 3346
+  },
+  "segments": [
+    {
+      "id": "26145492",
+      "tileScore": 38,
+      "name": "S343 Shengxiang East Rd (East->west)",
+      "distanceM": 2479.699951171875,
+      "avgGrade": -0.05645844340324402,
+      "startLat": 31.262134552001953,
+      "startLng": 121.04002380371094
+    },
+    {
+      "id": "39080962",
+      "tileScore": 13,
+      "name": "一个响亮的巴掌",
+      "distanceM": 2531.10009765625,
+      "avgGrade": -0.01580340601503849,
+      "startLat": 31.276466369628906,
+      "startLng": 120.9574966430664
+    },
+    {
+      "id": "26145519",
+      "tileScore": 13,
+      "name": "S343 Shengxiang Middle Rd (East->West)",
+      "distanceM": 1902.0999755859375,
+      "avgGrade": 0.05257347226142883,
+      "startLat": 31.263916015625,
+      "startLng": 121.01283264160156
+    },
+    {
+      "id": "30690110",
+      "tileScore": 6,
+      "name": "FDA-3",
+      "distanceM": 6622.2001953125,
+      "avgGrade": 0.021141011267900467,
+      "startLat": 31.32841682434082,
+      "startLng": 121.01768493652344
+    }
+  ]
+}

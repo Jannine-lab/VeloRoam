@@ -1,0 +1,20 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-03T05:57:57.391Z",
+  "tile": {
+    "z": 13,
+    "x": 6867,
+    "y": 3330
+  },
+  "segments": [
+    {
+      "id": "35083902",
+      "tileScore": 2,
+      "name": "汇龙-近海-东元-南阳绕圈",
+      "distanceM": 49685.1015625,
+      "avgGrade": -0.008050703443586826,
+      "startLat": 31.814849853515625,
+      "startLng": 121.70249938964844
+    }
+  ]
+}

@@ -1,0 +1,83 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-08T22:59:24.748Z",
+  "tile": {
+    "z": 13,
+    "x": 6845,
+    "y": 3342
+  },
+  "segments": [
+    {
+      "id": "33020101",
+      "tileScore": 11,
+      "name": "傀儡湖A",
+      "distanceM": 1202.9000244140625,
+      "avgGrade": 0.04987946152687073,
+      "startLat": 31.39671516418457,
+      "startLng": 120.84426879882812
+    },
+    {
+      "id": "39436239",
+      "tileScore": 132,
+      "name": "昆山好路大战",
+      "distanceM": 5244.89990234375,
+      "avgGrade": 0.04194550961256027,
+      "startLat": 31.45490074157715,
+      "startLng": 120.8441390991211
+    },
+    {
+      "id": "10407939",
+      "tileScore": 163,
+      "name": "Marcus' Meander",
+      "distanceM": 1583.199951171875,
+      "avgGrade": -0.06316321343183517,
+      "startLat": 31.409143447875977,
+      "startLng": 120.84526824951172
+    },
+    {
+      "id": "40911387",
+      "tileScore": 5,
+      "name": "小桥三连击！",
+      "distanceM": 1789.4000244140625,
+      "avgGrade": 0,
+      "startLat": 31.39303207397461,
+      "startLng": 120.85649871826172
+    },
+    {
+      "id": "33036065",
+      "tileScore": 35,
+      "name": "Ma'anshan west ave(森林公园→环湖路)",
+      "distanceM": 5423.10009765625,
+      "avgGrade": 0.011063782498240471,
+      "startLat": 31.391244888305664,
+      "startLng": 120.89065551757812
+    },
+    {
+      "id": "26758706",
+      "tileScore": 2,
+      "name": "YCH Lakeside Park Shortcut (Southbound)",
+      "distanceM": 2437,
+      "avgGrade": 0.04103405773639679,
+      "startLat": 31.402795791625977,
+      "startLng": 120.83924102783203
+    },
+    {
+      "id": "38745052",
+      "tileScore": 226,
+      "name": "M-circle of YCH(B2Bridge 50K)",
+      "distanceM": 50491.30078125,
+      "avgGrade": 0.0023766469676047564,
+      "startLat": 31.388383865356445,
+      "startLng": 120.71324157714844
+    },
+    {
+      "id": "3828998",
+      "tileScore": 3,
+      "name": "down the lake on the east side",
+      "distanceM": 17166.642578125,
+      "avgGrade": -0.0005825265543535352,
+      "startLat": 31.491178512573242,
+      "startLng": 120.84818267822266
+    }
+  ]
+}
