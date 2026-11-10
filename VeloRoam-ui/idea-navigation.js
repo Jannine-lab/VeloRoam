@@ -36,6 +36,32 @@
     return { url: `https://www.google.com/maps/dir/?${params}`, note: '地图将重新规划途经路段的往返路线，完整轨迹可导出 GPX。' };
   }
 
-  if (typeof module !== 'undefined' && module.exports) module.exports = { buildIdeaNavigation };
-  else root.buildIdeaNavigation = buildIdeaNavigation;
+  function buildIdeaMapNavigation(route, name, provider, platform) {
+    const leg = route?.legs?.find(item => item.type === 'segment' && Array.isArray(item.points) && item.points.length >= 2);
+    const firstLegPoints = route?.legs?.[0]?.points;
+    const point = leg?.points?.[0] || route?.stops?.[1]?.point || (Array.isArray(firstLegPoints) ? firstLegPoints[firstLegPoints.length - 1] : null);
+    if (!point || point.lat == null || point.lng == null || !Number.isFinite(Number(point.lat)) || !Number.isFinite(Number(point.lng)) || Math.abs(Number(point.lat)) > 90 || Math.abs(Number(point.lng)) > 180) throw new Error('路段起点不完整，暂时无法导航。');
+    const lat = Number(point.lat), lng = Number(point.lng);
+    if (provider === 'apple') {
+      if (platform !== 'ios') throw new Error('苹果地图 App 仅在 Apple 设备上可用，请选择高德或百度地图。');
+      return `maps://?${new URLSearchParams({ daddr: `${lat},${lng}` })}`;
+    }
+    if (provider === 'amap') {
+      const domestic = lng > 73 && lng < 135 && lat > 18 && lat < 53;
+      const coord = domestic ? toGcj02({ lat, lng }) : { lat, lng };
+      const params = new URLSearchParams({ sourceApplication: 'VeloRoam', dlat: String(coord.lat), dlon: String(coord.lng), dname: name || '路段起点', dev: '0', t: '3' });
+      return `${platform === 'ios' ? 'iosamap://path' : 'amapuri://route/plan'}?${params}`;
+    }
+    if (provider === 'baidu') {
+      const params = new URLSearchParams({ destination: `${lat},${lng}`, coord_type: 'wgs84', src: `${platform === 'ios' ? 'ios' : 'andr'}.VeloRoam.VeloRoam` });
+      if (platform === 'ios') return `baidumap://map/ridenavi?${params}`;
+      if (platform === 'harmony') return `baidumap://map/bikenavi?${params}`;
+      params.set('origin', '我的位置'); params.set('mode', 'riding');
+      return `bdapp://map/direction?${params}`;
+    }
+    throw new Error('请选择地图。');
+  }
+
+  if (typeof module !== 'undefined' && module.exports) module.exports = { buildIdeaNavigation, buildIdeaMapNavigation };
+  else { root.buildIdeaNavigation = buildIdeaNavigation; root.buildIdeaMapNavigation = buildIdeaMapNavigation; }
 })(typeof globalThis !== 'undefined' ? globalThis : this);

@@ -36,3 +36,25 @@ test('rejects missing or invalid route points', () => {
   assert.throws(() => buildIdeaNavigation(route({ lat: null, lng: 2 }, { lat: 1, lng: 2 }, { lat: 1, lng: 2 })), /起终点/);
   assert.throws(() => buildIdeaNavigation(route({ lat: 48, lng: 2 }, { lat: 49, lng: 2 }, null)), /返回点/);
 });
+
+test('builds platform-specific map links to the segment start', () => {
+  const { buildIdeaMapNavigation } = require('./idea-navigation.js');
+  const sample = route({ lat: 31.2304, lng: 121.4737 }, { lat: 31.24, lng: 121.48 }, { lat: 31, lng: 121 });
+  assert.match(buildIdeaMapNavigation(sample, '骑行', 'amap', 'ios'), /^iosamap:\/\/path\?/);
+  assert.match(buildIdeaMapNavigation(sample, '骑行', 'amap', 'android'), /^amapuri:\/\/route\/plan\?/);
+  for (const [platform, prefix] of [['ios', 'baidumap://map/ridenavi'], ['android', 'bdapp://map/direction'], ['harmony', 'baidumap://map/bikenavi']]) {
+    const link = new URL(buildIdeaMapNavigation(sample, '骑行', 'baidu', platform));
+    assert.ok(link.href.startsWith(prefix));
+    assert.equal(link.searchParams.get('destination'), '31.2304,121.4737');
+    assert.equal(link.searchParams.get('coord_type'), 'wgs84');
+  }
+  assert.match(buildIdeaMapNavigation(sample, '骑行', 'apple', 'ios'), /^maps:\/\/\?/);
+  assert.throws(() => buildIdeaMapNavigation(sample, '骑行', 'apple', 'android'), /仅在 Apple/);
+});
+
+test('navigates to the first destination when a complete route has no segment', () => {
+  const { buildIdeaMapNavigation } = require('./idea-navigation.js');
+  const route = { stops: [{ point: { lat: 31, lng: 121 } }, { point: { lat: 31.2, lng: 121.4 } }], legs: [{ type: 'navigation', points: [{ lat: 31, lng: 121 }, { lat: 31.2, lng: 121.4 }] }] };
+  const url = new URL(buildIdeaMapNavigation(route, '路线', 'baidu', 'ios'));
+  assert.equal(url.searchParams.get('destination'), '31.2,121.4');
+});

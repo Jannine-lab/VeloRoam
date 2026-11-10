@@ -21,12 +21,13 @@
     integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin="" />
 
   <!-- Custom CSS Style -->
-  <link rel="stylesheet" href="style.css?v=20261107-chat-route-sheet">
+  <link rel="stylesheet" href="style.css?v=20261110-complete-route-actions">
 </head>
 
 <body>
 
-  <div class="app-message" id="app-message" role="status" aria-live="polite" aria-atomic="true" hidden><i class="fa-solid fa-circle-exclamation" aria-hidden="true"></i><span></span></div>
+  <div class="app-message" id="app-message" role="status" aria-live="polite" aria-atomic="true" hidden><i
+      class="fa-solid fa-circle-exclamation" aria-hidden="true"></i><span></span></div>
 
   <!-- 1. 全屏地图容器 -->
   <div id="map"></div>
@@ -37,8 +38,10 @@
     <div class="startup-wordmark" aria-hidden="true"><span class="startup-wordmark-velo">Velo</span><span
         class="startup-wordmark-roam">Roam</span></div>
   </div>
-  <div class="startup-location-status route-planning-status" id="route-planning-status" role="status" aria-label="正在规划路线，请稍候" hidden>
-    <div class="startup-wordmark" aria-hidden="true"><span class="startup-wordmark-velo">Velo</span><span class="startup-wordmark-roam">Roam</span></div>
+  <div class="startup-location-status route-planning-status" id="route-planning-status" role="status"
+    aria-label="正在规划路线，请稍候" hidden>
+    <div class="startup-wordmark" aria-hidden="true"><span class="startup-wordmark-velo">Velo</span><span
+        class="startup-wordmark-roam">Roam</span></div>
   </div>
 
   <!-- 2. 地图右侧浮动操作面板 (仿苹果地图悬浮键) -->
@@ -55,6 +58,20 @@
     <button class="map-action-btn" id="btn-recenter" title="定位当前位置">
       <i class="fa-solid fa-location-arrow"></i>
     </button>
+    <div class="map-planning-modes" role="group" aria-label="骑行规划模式">
+      <button type="button" class="map-action-btn" id="btn-mode-ai" title="AI 规划" aria-label="AI 规划"
+        aria-controls="ai-planning-view" aria-pressed="true">
+        <svg width="22" height="22" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+          <path
+            d="M17.5 2c.35 2.6 1.7 3.95 4.3 4.3-2.6.35-3.95 1.7-4.3 4.3-.35-2.6-1.7-3.95-4.3-4.3 2.6-.35 3.95-1.7 4.3-4.3Z" />
+          <path d="M9.5 5c.7 4.8 3.2 7.3 8 8-4.8.7-7.3 3.2-8 8-.7-4.8-3.2-7.3-8-8 4.8-.7 7.3-3.2 8-8Z" />
+        </svg>
+      </button>
+      <button type="button" class="map-action-btn" id="btn-mode-traditional" title="传统导航" aria-label="传统导航"
+        aria-controls="traditional-navigation-view" aria-pressed="false">
+        <i class="fa-solid fa-route" aria-hidden="true"></i>
+      </button>
+    </div>
   </div>
 
   <!-- 热门点位热力图颜色图例 -->
@@ -430,22 +447,64 @@
       aria-labelledby="place-details-title" hidden>
       <div class="segment-detail-heading">
         <h2 class="strava-panel-title" id="place-details-title">--</h2>
-        <button type="button" class="segment-popover-close" id="place-details-close" aria-label="关闭地点详情"><i class="fa-solid fa-xmark" aria-hidden="true"></i></button>
+        <button type="button" class="segment-popover-close" id="place-details-close" aria-label="关闭地点详情"><i
+            class="fa-solid fa-xmark" aria-hidden="true"></i></button>
       </div>
       <p class="place-details-address" id="place-details-address"></p>
       <p class="place-details-rating" id="place-details-rating" hidden></p>
       <p class="place-details-origin" id="place-details-origin"></p>
       <p class="place-details-message" id="place-details-message" role="status" aria-live="polite" hidden></p>
-      <div class="map-detail-actions place-detail-actions"><button type="button" id="place-add-to-chat">添加到聊天</button>
-      <button type="button" id="place-details-go">
-        <i class="fa-solid fa-location-arrow" aria-hidden="true"></i>
-        <span>前往</span>
-      </button></div>
+
+    </section>
+    <div class="map-detail-actions place-detail-actions" id="place-detail-actions" hidden><button type="button"
+        id="place-add-to-chat">添加到聊天</button>
+      <button type="button" id="place-details-go">前往</button>
+    </div>
+    <section class="navigation-route-panel" id="navigation-route-panel" aria-labelledby="navigation-route-title" hidden>
+      <header class="segment-detail-heading">
+        <h2 class="strava-panel-title" id="navigation-route-title">路线</h2>
+        <button class="segment-popover-close" id="navigation-close" type="button" aria-label="关闭路线详情"><i
+            class="fa-solid fa-xmark" aria-hidden="true"></i></button>
+      </header>
+      <div class="navigation-route-content">
+        <div class="segment-detail-grid" aria-label="路线数据">
+          <div><span>路线距离</span><strong id="navigation-route-distance"></strong></div>
+          <div><span>预计骑行（25 km/h）</span><strong id="navigation-route-duration"></strong></div>
+        </div>
+        <ol class="navigation-stops" id="navigation-stops" aria-label="路线途经顺序"></ol>
+        <div class="navigation-stop-picker" id="navigation-stop-picker" hidden>
+          <form id="navigation-stop-search" role="search" aria-label="搜索途经点">
+            <div class="location-search-field traditional-search-field">
+              <i class="fa-solid fa-magnifying-glass idea-search-icon" aria-hidden="true"></i>
+              <input type="search" class="traditional-search-input" id="navigation-stop-input" aria-label="搜索途经地点或路段"
+                placeholder="搜索途经地点或路段" maxlength="120" autocomplete="off" enterkeyhint="search">
+            </div>
+          </form>
+          <p class="idea-place-search-message" id="navigation-stop-status" role="status"></p>
+          <div id="navigation-stop-results" role="group" aria-label="可添加的途经点"></div>
+        </div>
+        <div class="navigation-route-info">
+          <p id="navigation-route-status" role="status"></p>
+          <details id="navigation-route-legs" hidden>
+            <summary class="idea-progress-title">路线分段</summary>
+            <ol id="navigation-route-leg-list" class="idea-route-legs"></ol>
+          </details>
+        </div>
+      </div>
+      <div class="navigation-route-footer">
+        <div class="map-detail-actions">
+          <button id="navigation-add-stop" type="button" aria-expanded="false"
+            aria-controls="navigation-stop-picker">添加途经点</button>
+          <button id="navigation-export-gpx" type="button">导出 GPX 文件</button>
+          <button id="navigation-replan" type="button" hidden>更新路线</button>
+        </div>
+      </div>
     </section>
     <section class="strava-details-panel idea-route-panel" id="idea-route-panel" aria-label="骑行路线详情" aria-hidden="true">
       <div class="segment-detail-heading">
         <h2 class="strava-panel-title" id="idea-route-title"></h2>
-        <button type="button" class="segment-popover-close" id="idea-route-popover-close" aria-label="关闭路线详情"><i class="fa-solid fa-xmark" aria-hidden="true"></i></button>
+        <button type="button" class="segment-popover-close" id="idea-route-popover-close" aria-label="关闭路线详情"><i
+            class="fa-solid fa-xmark" aria-hidden="true"></i></button>
       </div>
       <div class="segment-detail-grid" aria-label="路线数据">
         <div><span>路线距离</span><strong id="idea-route-distance">--</strong></div>
@@ -456,6 +515,7 @@
       <ol class="idea-route-legs" id="idea-route-legs" hidden></ol>
       <p class="idea-route-note" id="idea-route-note" hidden></p>
     </section>
+    <div id="idea-route-actions" class="nearby-route-footer" hidden></div>
     <section class="nearby-route-detail" id="nearby-route-detail" aria-label="推荐路线详情" hidden></section>
     <div id="map-detail-actions" class="map-detail-actions" hidden>
       <button type="button" id="segment-add-to-chat">添加到聊天</button>
@@ -467,88 +527,125 @@
   <section class="idea-sheet idea-entry" id="idea-sheet" aria-label="骑行想法">
     <button type="button" class="idea-handle" id="idea-sheet-handle" aria-label="展开骑行想法" aria-expanded="false"></button>
 
-    <header class="idea-header">
-      <button type="button" class="idea-back" id="idea-back" aria-label="返回骑行想法首页" hidden>
-        <i class="fa-solid fa-chevron-left" aria-hidden="true"></i>
-      </button>
-      <div class="idea-heading">
-        <h2 id="idea-title">今天，想骑向哪里？</h2>
-        <h2 class="idea-title-sizer" id="idea-title-sizer" aria-hidden="true">今天，想骑向哪里？</h2>
-      </div>
-      <div class="idea-actions" hidden>
-        <div class="idea-more" aria-hidden="true"><svg viewBox="0 0 48 48" fill="currentColor">
-            <circle cx="12" cy="24" r="3" />
-            <circle cx="24" cy="24" r="3" />
-            <circle cx="36" cy="24" r="3" />
-          </svg></div>
-        <select id="idea-more" class="idea-native-menu" aria-label="更多操作">
-          <option value="" selected disabled hidden></option>
-          <option value="history">历史对话</option>
-          <option value="new">新建对话</option>
-        </select>
-      </div>
-    </header>
+    <div class="planning-view" id="ai-planning-view">
+      <header class="idea-header">
+        <button type="button" class="idea-back" id="idea-back" aria-label="返回骑行想法首页" hidden>
+          <i class="fa-solid fa-chevron-left" aria-hidden="true"></i>
+        </button>
+        <div class="idea-heading">
+          <h2 id="idea-title">今天，想骑向哪里？</h2>
+          <h2 class="idea-title-sizer" id="idea-title-sizer" aria-hidden="true">今天，想骑向哪里？</h2>
+        </div>
+        <div class="idea-actions" hidden>
+          <div class="idea-more" aria-hidden="true"><svg viewBox="0 0 48 48" fill="currentColor">
+              <circle cx="12" cy="24" r="3" />
+              <circle cx="24" cy="24" r="3" />
+              <circle cx="36" cy="24" r="3" />
+            </svg></div>
+          <select id="idea-more" class="idea-native-menu" aria-label="更多操作">
+            <option value="history">历史对话</option>
+            <option value="new">新建对话</option>
+          </select>
+        </div>
+      </header>
 
-    <span class="sr-only" id="idea-search-status" role="status" aria-live="polite"></span>
+      <span class="sr-only" id="idea-search-status" role="status" aria-live="polite"></span>
 
-    <div class="idea-content" id="idea-content" aria-live="polite" inert>
-      <section class="idea-nearby" aria-label="推荐路线">
-        <div class="idea-nearby-list"></div>
-        <div class="idea-nearby-waiting" aria-hidden="true">
-          <div class="idea-nearby-skeleton">
-            <div class="idea-nearby-card idea-nearby-skeleton-card">
-              <div class="idea-nearby-route idea-nearby-summary">
-                <span class="idea-nearby-summary-heading"><i class="idea-skeleton-title"></i><i class="idea-skeleton-disclosure"></i></span>
-                <span class="idea-nearby-summary-stats">
-                  <span class="idea-nearby-summary-stat"><span><i></i></span><span><i></i></span></span>
-                  <span class="idea-nearby-summary-stat"><span><i></i></span><span><i></i></span></span>
-                </span>
+      <div class="idea-content" id="idea-content" aria-live="polite" inert>
+        <section class="idea-nearby" aria-label="推荐路线">
+          <div class="idea-nearby-list"></div>
+          <div class="idea-nearby-waiting" aria-hidden="true">
+            <div class="idea-nearby-skeleton">
+              <div class="idea-nearby-card idea-nearby-skeleton-card">
+                <div class="idea-nearby-route idea-nearby-summary">
+                  <span class="idea-nearby-summary-heading"><i class="idea-skeleton-title"></i><i
+                      class="idea-skeleton-disclosure"></i></span>
+                  <span class="idea-nearby-summary-stats">
+                    <span class="idea-nearby-summary-stat"><span><i></i></span><span><i></i></span></span>
+                    <span class="idea-nearby-summary-stat"><span><i></i></span><span><i></i></span></span>
+                  </span>
+                </div>
               </div>
-            </div>
-            <div class="idea-nearby-card idea-nearby-skeleton-card">
-              <div class="idea-nearby-route idea-nearby-summary">
-                <span class="idea-nearby-summary-heading"><i class="idea-skeleton-title"></i><i class="idea-skeleton-disclosure"></i></span>
-                <span class="idea-nearby-summary-stats">
-                  <span class="idea-nearby-summary-stat"><span><i></i></span><span><i></i></span></span>
-                  <span class="idea-nearby-summary-stat"><span><i></i></span><span><i></i></span></span>
-                </span>
+              <div class="idea-nearby-card idea-nearby-skeleton-card">
+                <div class="idea-nearby-route idea-nearby-summary">
+                  <span class="idea-nearby-summary-heading"><i class="idea-skeleton-title"></i><i
+                      class="idea-skeleton-disclosure"></i></span>
+                  <span class="idea-nearby-summary-stats">
+                    <span class="idea-nearby-summary-stat"><span><i></i></span><span><i></i></span></span>
+                    <span class="idea-nearby-summary-stat"><span><i></i></span><span><i></i></span></span>
+                  </span>
+                </div>
               </div>
-            </div>
-            <div class="idea-nearby-card idea-nearby-skeleton-card">
-              <div class="idea-nearby-route idea-nearby-summary">
-                <span class="idea-nearby-summary-heading"><i class="idea-skeleton-title"></i><i class="idea-skeleton-disclosure"></i></span>
-                <span class="idea-nearby-summary-stats">
-                  <span class="idea-nearby-summary-stat"><span><i></i></span><span><i></i></span></span>
-                  <span class="idea-nearby-summary-stat"><span><i></i></span><span><i></i></span></span>
-                </span>
+              <div class="idea-nearby-card idea-nearby-skeleton-card">
+                <div class="idea-nearby-route idea-nearby-summary">
+                  <span class="idea-nearby-summary-heading"><i class="idea-skeleton-title"></i><i
+                      class="idea-skeleton-disclosure"></i></span>
+                  <span class="idea-nearby-summary-stats">
+                    <span class="idea-nearby-summary-stat"><span><i></i></span><span><i></i></span></span>
+                    <span class="idea-nearby-summary-stat"><span><i></i></span><span><i></i></span></span>
+                  </span>
+                </div>
               </div>
             </div>
           </div>
-        </div>
-      </section>
-    </div>
-    <section class="idea-history" id="idea-history-panel" aria-label="会话历史" hidden>
-      <div class="idea-history-header">
-        <h3>会话历史</h3><button type="button" id="idea-history-back">返回对话</button>
+        </section>
       </div>
-      <div class="idea-history-list" id="idea-history-list"></div>
-    </section>
+      <section class="idea-history" id="idea-history-panel" aria-label="会话历史" hidden>
+        <div class="idea-history-header">
+          <h3>会话历史</h3><button type="button" id="idea-history-back">返回对话</button>
+        </div>
+        <div class="idea-history-list" id="idea-history-list"></div>
+      </section>
 
-    <div class="idea-compose-area">
-      <div class="idea-add-menu" id="idea-add-menu" hidden><button type="button" data-reference-type="segment">选择路段</button><button type="button" data-reference-type="place">选择地点</button></div>
-      <div class="idea-place-results" id="idea-place-results" aria-label="地点搜索结果" aria-live="polite" hidden></div>
-      <form class="idea-compose" id="idea-form">
-      <div class="idea-input-wrap"><div class="idea-add-control"><button type="button" id="idea-add-button" aria-label="添加引用" aria-controls="idea-add-menu" aria-expanded="false"><i class="fa-solid fa-plus idea-search-icon" aria-hidden="true"></i></button></div><label class="sr-only" for="idea-input">输入骑行想法，按回车发送</label><span
-          class="idea-input-prompt" id="idea-input-prompt" aria-hidden="true">今天，想骑向哪里？</span>
-        <div class="idea-input-body"><div id="idea-references" class="idea-references" aria-label="待发送的引用" hidden></div><div class="idea-input-editor">
-          <div class="idea-text-mirror" aria-hidden="true">
-            <div class="idea-text-mirror-inner"><span id="idea-input-mirror"></span><span class="idea-input-hint">键入回车与 AI 对话</span></div>
-          </div><textarea id="idea-input" rows="1" maxlength="500" placeholder="输入骑行想法，或添加路段、地点" enterkeyhint="send"
-            aria-describedby="idea-input-help"></textarea>
-        </div></div><span class="sr-only" id="idea-input-help">使用添加引用选择路段或地点，按回车发送。</span><button type="submit" class="idea-send" id="idea-send" aria-label="发送" hidden><i class="fa-solid fa-arrow-up" aria-hidden="true"></i></button>
-      </div><button class="idea-voice" type="button" disabled aria-label="语音输入即将上线"><i class="fa-solid fa-microphone"
-          aria-hidden="true"></i></button>
+      <div class="idea-compose-area">
+        <div class="idea-place-results" id="idea-place-results" aria-label="地点搜索结果" aria-live="polite" hidden></div>
+        <form class="idea-compose" id="idea-form">
+          <div class="idea-input-wrap">
+            <div class="idea-add-control"><i class="fa-solid fa-plus idea-search-icon" aria-hidden="true"></i><select
+                id="idea-add-menu" aria-label="添加引用">
+                <option value="segment">选择路段</option>
+                <option value="place">选择地点</option>
+              </select></div><label class="sr-only" for="idea-input">输入骑行想法，按回车发送</label><span class="idea-input-prompt"
+              id="idea-input-prompt" aria-hidden="true">今天，想骑向哪里？</span>
+            <div class="idea-input-body">
+              <div class="idea-input-editor"><div id="idea-input" contenteditable="true" role="textbox" aria-multiline="true" aria-label="输入骑行想法" aria-describedby="idea-input-help" data-placeholder="输入骑行想法，或添加路段、地点" enterkeyhint="send"></div></div>
+            </div><span class="sr-only" id="idea-input-help">使用添加引用选择路段或地点，按回车发送。</span><button type="submit"
+              class="idea-send" id="idea-send" aria-label="发送" hidden><i class="fa-solid fa-arrow-up"
+                aria-hidden="true"></i></button>
+          </div><button class="idea-voice" type="button" disabled aria-label="语音输入即将上线"><i
+              class="fa-solid fa-microphone" aria-hidden="true"></i></button>
+        </form>
+      </div>
+    </div>
+
+    <div class="planning-view" id="traditional-navigation-view" hidden>
+      <form class="traditional-search" id="traditional-search" role="search" aria-label="导航搜索">
+        <div class="location-search-field traditional-search-field">
+          <i class="fa-solid fa-magnifying-glass idea-search-icon" aria-hidden="true"></i>
+          <label class="sr-only" for="traditional-search-input">搜索地点或路段</label>
+          <input type="search" class="traditional-search-input" id="traditional-search-input" maxlength="120"
+            placeholder="搜索地点或路段" autocomplete="off" enterkeyhint="search">
+        </div>
       </form>
+      <div class="idea-content traditional-content" id="traditional-content" inert>
+        <div id="traditional-search-suggestions">
+          <section id="traditional-search-history" aria-labelledby="traditional-history-title" hidden>
+            <div class="idea-history-header traditional-suggestion-heading">
+              <h3 id="traditional-history-title">最近搜索</h3>
+              <button id="traditional-history-clear" type="button" aria-label="清空搜索历史">清空</button>
+            </div>
+            <div class="traditional-history-terms" id="traditional-history-terms"></div>
+          </section>
+          <section aria-labelledby="traditional-nearby-title">
+            <div class="idea-history-header traditional-suggestion-heading">
+              <h3 id="traditional-nearby-title">附近高分路段</h3>
+            </div>
+            <div id="traditional-nearby-segments"></div>
+          </section>
+        </div>
+        <p class="idea-place-search-message" id="traditional-search-status" role="status"></p>
+        <div id="traditional-search-results" role="group" aria-label="搜索结果"></div>
+      </div>
     </div>
   </section>
 
@@ -561,9 +658,9 @@
 
   <!-- Custom JS Application Logic -->
   <script src="idea-gpx.js?v=20261106"></script>
-  <script src="idea-navigation.js?v=20261107"></script>
+  <script src="idea-navigation.js?v=20261110-native-map-app"></script>
   <script src="idea-recommendation-cache.js?v=20261106-three-routes"></script>
-  <script src="app.js?v=20261107-chat-route-sheet"></script>
+  <script src="app.js?v=20261110-native-map-app"></script>
 </body>
 
 </html>

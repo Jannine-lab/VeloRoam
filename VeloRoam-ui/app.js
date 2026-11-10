@@ -51,8 +51,10 @@ let locationSearchRequestId = 0;
 let selectedPlace = null;
 let placeRouteActive = false;
 let placeRouteLayer = null;
+let placeStopPreviewLayer = null;
 let placeRouteRequest = null;
-let placeRouteRequestId = 0;
+let placeNavigation = null;
+const MAX_NAVIGATION_STOPS = 5;
 let loadedStravaSegments = new Map(); // 缓存和去重当前渲染在地图上的 Strava 路段 (ID -> Group)
 let loadedHotPoints = new Map();      // 缓存当前视口已渲染的热门点位 (ID -> Marker)
 let minScoreFilter = 50;              // 评分筛选阈值 (随 Zoom 动态变化)
@@ -244,6 +246,7 @@ function initMap() {
   stravaGroup = L.layerGroup().addTo(map);
   homeRecommendationRouteLayer = L.layerGroup().addTo(map);
   placeRouteLayer = L.layerGroup().addTo(map);
+  placeStopPreviewLayer = L.layerGroup().addTo(map);
   if (HOT_POINT_DISPLAY_ENABLED) {
     hotPointHeatmapLayer = createHotPointHeatmapLayer().addTo(map);
     hotPointGroup = L.layerGroup().addTo(map);
@@ -287,7 +290,7 @@ function mapBottomSheetObstruction(assumeHalf = false) {
   const entry = document.getElementById('idea-sheet');
   const detail = document.getElementById('map-detail-sheet');
   const entryHalf = entry?.classList.contains('is-open') && !entry.classList.contains('is-full');
-  const detailHalf = detail && !detail.hidden && detail.querySelector('#strava-details-panel.active, #place-details-panel.active, #idea-route-panel.active, #nearby-route-detail.active') &&
+  const detailHalf = detail && !detail.hidden && detail.querySelector('#strava-details-panel.active, #place-details-panel.active, #idea-route-panel.active, #nearby-route-detail.active, #navigation-route-panel.active') &&
     !detail.classList.contains('is-full') && !detail.classList.contains('is-collapsed');
   if (!entryHalf && !detailHalf && !assumeHalf) return 0;
   const mapRect = map.getContainer().getBoundingClientRect();
@@ -965,10 +968,20 @@ function positionSegmentPopover() {
   sheet.style.setProperty('--segment-popover-left', `${left}px`);
   sheet.style.setProperty('--segment-popover-top', `${top}px`);
 }
+// Every new map detail starts at the same mobile detent, regardless of the
+// previously visible sheet. Later updates to the same detail keep its state.
+function prepareMapDetailView() {
+  const sheet = document.getElementById('map-detail-sheet');
+  sheet.classList.remove('is-full', 'is-collapsed');
+  const handle = document.getElementById('map-detail-handle');
+  handle.setAttribute('aria-expanded', 'true');
+  handle.setAttribute('aria-label', isDesktopMap() ? '关闭地图详情' : '展开地图详情');
+  document.dispatchEvent(new Event('map-detail-opening'));
+}
 function syncMapDetailSheet() {
   const sheet = document.getElementById('map-detail-sheet');
   if (!sheet) return;
-  const visible = ['strava-details-panel', 'place-details-panel', 'idea-route-panel', 'nearby-route-detail']
+  const visible = ['strava-details-panel', 'place-details-panel', 'idea-route-panel', 'nearby-route-detail', 'navigation-route-panel']
     .some(id => document.getElementById(id)?.classList.contains('active'));
   const ideaSheet = document.getElementById('idea-sheet');
   const routePopover = isDesktopMap() && compositeRoutePopover && document.getElementById('idea-route-panel')?.classList.contains('active');
@@ -982,15 +995,13 @@ function syncMapDetailSheet() {
     sheet.classList.toggle('is-route-popover', routePopover);
   }
   document.getElementById('map-detail-actions').hidden = !document.getElementById('strava-details-panel')?.classList.contains('active');
+  document.getElementById('place-detail-actions').hidden = !document.getElementById('place-details-panel')?.classList.contains('active');
   clearTimeout(mapDetailHideTimer);
   const revision = ++mapDetailRevision;
   if (visible) {
     const opening = sheet.hidden || !sheet.classList.contains('is-visible');
-    if (opening) {
-      sheet.classList.toggle('is-full', ideaSheet.classList.contains('is-full'));
-    }
     const handle = document.getElementById('map-detail-handle');
-    handle.setAttribute('aria-expanded', String(sheet.classList.contains('is-full')));
+    handle.setAttribute('aria-expanded', String(!sheet.classList.contains('is-collapsed')));
     handle.setAttribute('aria-label', window.matchMedia('(min-width: 768px)').matches ? '关闭地图详情' : (sheet.classList.contains('is-full') ? '收起地图详情' : '展开地图详情'));
     ideaSheet.inert = !segmentPopover;
     sheet.hidden = false;
@@ -1017,6 +1028,7 @@ function syncMapDetailSheet() {
   }
 }
 function closeMapDetailSheet() {
+  if (placeRouteActive) closePlaceNavigation();
   if (document.getElementById('strava-details-panel')?.classList.contains('active')) closeStravaSegmentDetails();
   if (document.getElementById('place-details-panel')?.classList.contains('active')) clearSelectedPlace();
   if (document.getElementById('idea-route-panel')?.classList.contains('active')) closeIdeaRoutePanel();
@@ -1069,7 +1081,7 @@ function closeStravaSegmentDetails(shouldRestoreSegments = true) {
   stravaDirectionLayer?.clearLayers();
   segmentNavigationRequest?.abort();
   segmentNavigationRequest = null;
-  setRoutePlanningLoading(false);
+  if (!placeRouteRequest) setRoutePlanningLoading(false);
   segmentNavigationLayer?.clearLayers();
   restoreExplorationSegments('segment');
   activeDetailSegment = null;
@@ -1115,6 +1127,135 @@ function debounce(func, delay) {
   };
   debounced.cancel = () => clearTimeout(timer);
   return debounced;
+}
+
+async function fetchAddressSuggestions(query, signal) {
+  const response = await fetch(`${API_BASE_URL}/routes/search-address?q=${encodeURIComponent(query)}`, { signal });
+  if (!response.ok) throw new Error(`Address search failed: ${response.status}`);
+  const data = await response.json();
+  if (!Array.isArray(data)) throw new Error('Invalid address search response');
+  return data.filter(item => item.lat != null && item.lon != null && Number.isFinite(Number(item.lat)) && Number.isFinite(Number(item.lon)));
+}
+
+function searchLoadedSegments(query) {
+  const terms = query.toLocaleLowerCase().split(/\s+/);
+  const fuzzy = (needle, haystack) => {
+    let index = 0;
+    for (const char of haystack) if (char === needle[index]) index++;
+    return index === needle.length;
+  };
+  return [...loadedStravaSegments.values()].map(entry => entry.seg).filter(item => {
+    const text = [item.name, item.id, item.distanceKm, item.avgGrade, item.averageGrade, item.maxGrade, item.elevationGain, item.city, item.state]
+      .filter(value => value != null).join(' ').toLocaleLowerCase();
+    return terms.every(term => text.includes(term) || fuzzy(term, text));
+  });
+}
+
+function createSearchResultButton(iconName, name, subtitle, onSelect) {
+  const button = document.createElement('button');
+  button.type = 'button';
+  button.className = 'idea-place-result';
+  const icon = document.createElement('i');
+  icon.className = `fa-solid ${iconName}`;
+  icon.setAttribute('aria-hidden', 'true');
+  const text = document.createElement('span');
+  const title = document.createElement('strong');
+  title.textContent = name;
+  const detail = document.createElement('small');
+  detail.textContent = subtitle;
+  text.append(title, detail);
+  button.append(icon, text);
+  button.addEventListener('click', onSelect);
+  return button;
+}
+
+function bindNavigationSearch(form, input, status, results, onSelect, { onQueryChange } = {}) {
+  let request = null;
+  const searchSegments = async (query, signal) => {
+    const response = await fetch(`${API_BASE_URL}/routes/strava-segments/search?q=${encodeURIComponent(query)}`, { signal });
+    if (!response.ok) throw new Error('Segment search failed');
+    const data = await response.json();
+    if (!Array.isArray(data)) throw new Error('Invalid segment search response');
+    return data;
+  };
+  const search = async () => {
+    const query = input.value.trim();
+    if (!query) return;
+    const controller = new AbortController();
+    request = controller;
+    const timeout = setTimeout(() => controller.abort(), 12000);
+    const sources = [
+      { type: 'segment', label: '路段', icon: 'fa-route', fetchItems: searchSegments },
+      { type: 'place', label: '地点', icon: 'fa-location-dot', fetchItems: fetchAddressSuggestions }
+    ];
+    const failed = [];
+    const center = map?.getCenter();
+    let count = 0;
+    status.textContent = '正在检索路段和地点';
+    const pending = sources.map(async source => {
+      const items = await source.fetchItems(query, controller.signal).catch(() => null);
+      return { ...source, items };
+    });
+    // Start both searches together, then present the results in source order.
+    for (const response of pending) {
+      const { type, label, icon, items } = await response;
+      if (request !== controller) break;
+      if (!items) {
+        failed.push(label);
+        continue;
+      }
+      const group = document.createElement('div');
+      try {
+        for (const item of items) {
+          let detail = item.address || '暂无详细地址';
+          if (type === 'segment') {
+            const start = item.coordinates[0];
+            const offset = center && start ? getLatLngDistance(center.lat, center.lng, start.lat, start.lng) / 1000 : null;
+            detail = [item.city || item.state, `编号 ${item.id}`, `${item.distanceKm.toFixed(1)} 公里`,
+              Number.isFinite(offset) ? `距地图中心 ${offset.toFixed(1)} 公里` : null].filter(Boolean).join(' · ');
+          }
+          const name = item.name || `未命名${label}`;
+          const button = createSearchResultButton(icon, name, `${label} · ${detail}`, () => onSelect(type, item, button));
+          group.append(button);
+          count++;
+        }
+      } catch (_) {
+        failed.push(label);
+      }
+      if (group.childElementCount) results.append(group);
+    }
+    clearTimeout(timeout);
+    if (request !== controller) return;
+    request = null;
+    status.textContent = '';
+    if (failed.length || !count) {
+      const feedback = document.createElement('p');
+      feedback.className = 'idea-search-feedback';
+      feedback.setAttribute('role', 'status');
+      feedback.textContent = failed.length ? `${failed.join('和')}暂时无法检索，按回车重试。` : '未找到匹配的地点或路段';
+      results.append(feedback);
+    }
+  };
+  const deferredSearch = debounce(search, 300);
+  const cancel = () => {
+    deferredSearch.cancel();
+    const previous = request;
+    request = null;
+    previous?.abort();
+    status.textContent = '';
+  };
+  const refresh = (defer = false) => {
+    cancel();
+    results.replaceChildren();
+    const query = input.value.trim();
+    onQueryChange?.(query);
+    if (defer && query) deferredSearch();
+    else search();
+  };
+  input.addEventListener('input', event => { if (!event.isComposing) refresh(true); });
+  input.addEventListener('compositionend', () => refresh(true));
+  form.addEventListener('submit', event => { event.preventDefault(); refresh(); });
+  return { refresh, cancel };
 }
 
 async function autocompleteSearch(query, type, index = null) {
@@ -1380,6 +1521,8 @@ function focusMapOnSearchResult(item) {
     zIndexOffset: 800
   }).addTo(map);
 
+  prepareMapDetailView();
+  syncPlaceDetailsVisibility();
   flyToVisibleMapCenter([lat, lng], Math.max(map.getZoom(), 16), {
     animate: true,
     duration: 1.1
@@ -1387,7 +1530,6 @@ function focusMapOnSearchResult(item) {
 
   homeRecommendationSearchOpen = false;
   syncHomeRecommendationVisibility();
-  syncPlaceDetailsVisibility();
   updateLocationSearchStatus(`已定位到 ${displayName}`);
 }
 
@@ -1397,6 +1539,9 @@ function syncPlaceDetailsVisibility() {
   const visible = Boolean(selectedPlace) && !placeRouteActive;
   panel.hidden = !visible;
   panel.classList.toggle('active', visible);
+  const navigationPanel = document.getElementById('navigation-route-panel');
+  navigationPanel.hidden = !placeRouteActive;
+  navigationPanel.classList.toggle('active', placeRouteActive);
   document.body.classList.toggle('place-selected-mode', visible);
   if (visible) {
     document.getElementById('place-details-title').textContent = selectedPlace.name;
@@ -1413,16 +1558,19 @@ function syncPlaceDetailsVisibility() {
 }
 
 function clearSelectedPlace() {
-  placeRouteRequestId++;
+  if (placeRouteRequest && !segmentNavigationRequest) setRoutePlanningLoading(false);
   placeRouteRequest?.abort();
   placeRouteRequest = null;
   placeRouteActive = false;
+  placeNavigation = null;
   selectedPlace = null;
+  document.dispatchEvent(new Event('place-navigation-reset'));
   placeRouteLayer?.clearLayers();
+  placeStopPreviewLayer?.clearLayers();
   const button = document.getElementById('place-details-go');
   if (button) {
     button.disabled = false;
-    button.querySelector('span').textContent = '前往';
+    button.textContent = '前往';
   }
   const message = document.getElementById('place-details-message');
   if (message) message.hidden = true;
@@ -1433,6 +1581,11 @@ function clearSelectedPlace() {
   syncHomeRecommendationVisibility();
 }
 
+function closePlaceNavigation() {
+  clearSelectedPlace();
+  document.dispatchEvent(new Event('place-navigation-closed'));
+}
+
 function bindPlaceDetailsEvents() {
   document.getElementById('place-details-close')?.addEventListener('click', () => {
     clearSelectedPlace();
@@ -1440,72 +1593,350 @@ function bindPlaceDetailsEvents() {
     document.getElementById('location-search-clear').hidden = true;
   });
   document.getElementById('place-details-go')?.addEventListener('click', planRouteToSelectedPlace);
+
+  const add = document.getElementById('navigation-add-stop');
+  const picker = document.getElementById('navigation-stop-picker');
+  const searchInput = document.getElementById('navigation-stop-input');
+  const search = bindNavigationSearch(document.getElementById('navigation-stop-search'), searchInput,
+    document.getElementById('navigation-stop-status'), document.getElementById('navigation-stop-results'), (type, item) => {
+      if (!placeNavigation || placeRouteRequest || placeNavigation.stops.length >= MAX_NAVIGATION_STOPS) return;
+      const name = item.name || (type === 'segment' ? '骑行路段' : '途经地点');
+      const validPoint = point => point && point.lat != null && point.lng != null &&
+        Number.isFinite(Number(point.lat)) && Number.isFinite(Number(point.lng)) &&
+        Math.abs(Number(point.lat)) <= 90 && Math.abs(Number(point.lng)) <= 180;
+      const coordinates = type === 'segment' ? item.coordinates : [{ lat: item.lat, lng: item.lon }];
+      if (!Array.isArray(coordinates) || coordinates.length < (type === 'segment' ? 2 : 1) || !coordinates.every(validPoint)) {
+        showAppMessage('该位置缺少有效坐标，请重新选择。');
+        return;
+      }
+      placeNavigation.stops.push(type === 'segment'
+        ? { type, id: String(item.id), name, coordinates }
+        : { type: 'point', name, point: { lat: Number(item.lat), lng: Number(item.lon) } });
+      placeNavigation.error = '';
+      setPickerOpen(false);
+      renderNavigationEditor();
+      if (type === 'segment') {
+        const points = coordinates.map(point => [Number(point.lat), Number(point.lng)]);
+        map.fitBounds(L.latLngBounds(points), visibleMapFitOptions({ padding: [36, 36], maxZoom: 16 }));
+      } else {
+        flyToVisibleMapCenter([Number(item.lat), Number(item.lon)], Math.max(map.getZoom(), 15));
+      }
+      document.getElementById('navigation-stops').children[placeNavigation.stops.length].focus({ preventScroll: true });
+    });
+  const setPickerOpen = open => {
+    picker.hidden = !open;
+    add.textContent = open ? '取消添加' : '添加途经点';
+    add.setAttribute('aria-expanded', String(open));
+    if (open) {
+      search.refresh();
+      searchInput.focus();
+    } else {
+      search.cancel();
+      searchInput.value = '';
+    }
+  };
+  add.addEventListener('click', () => setPickerOpen(picker.hidden));
+  document.getElementById('navigation-close').addEventListener('click', closePlaceNavigation);
+  document.getElementById('navigation-export-gpx').addEventListener('click', exportPlaceNavigationGPX);
+  document.querySelector('#navigation-route-legs > summary').append(createDisclosureChevron());
+  document.getElementById('navigation-replan').addEventListener('click', () => {
+    setPickerOpen(false);
+    planRouteToSelectedPlace();
+  });
+  document.addEventListener('place-navigation-reset', () => setPickerOpen(false));
+}
+
+function exportPlaceNavigationGPX() {
+  if (!placeNavigation?.exportRoute || placeRouteRequest) return;
+  const { stops, plannedStops, exportRoute, startName, endName } = placeNavigation;
+  if (stops.length !== plannedStops.length || stops.some((stop, index) => stop !== plannedStops[index])) return;
+  try {
+    const name = `${startName}至${endName}`;
+    const gpx = window.buildIdeaGPX(exportRoute, name);
+    const url = URL.createObjectURL(new Blob([gpx], { type: 'application/gpx+xml;charset=utf-8' }));
+    const link = document.createElement('a');
+    link.href = url;
+    link.download = `${name.replace(/[\\/:*?"<>|]/g, '_')}.gpx`;
+    document.body.append(link);
+    link.click();
+    link.remove();
+    setTimeout(() => URL.revokeObjectURL(url), 30000);
+  } catch (error) {
+    showAppMessage(error.message || '导出失败，请重试。');
+  }
+}
+
+function bindNavigationStopDrag(handle, row, index, moveStop) {
+  let drag = null;
+
+  const updateTarget = () => {
+    const center = drag.centerY + drag.y - drag.startY;
+    const position = drag.otherRows.findIndex(item => {
+      const rect = item.getBoundingClientRect();
+      return center < rect.top + rect.height / 2;
+    });
+    const target = position === -1 ? drag.rows.length - 1 : position;
+    if (target === drag.target) return;
+    drag.indicator?.classList.remove('is-drop-before', 'is-drop-after');
+    drag.target = target;
+    drag.indicator = target === index ? null : drag.rows[target];
+    drag.indicator?.classList.add(target < index ? 'is-drop-before' : 'is-drop-after');
+  };
+  const scrollWhileDragging = () => {
+    if (!drag || !row.isConnected) return;
+    const { top, bottom } = drag.scroller.getBoundingClientRect();
+    const edge = Math.min(32, (bottom - top) / 3);
+    if (drag.y < top + edge) drag.scroller.scrollTop -= 8;
+    else if (drag.y > bottom - edge) drag.scroller.scrollTop += 8;
+    updateTarget();
+    drag.frame = requestAnimationFrame(scrollWhileDragging);
+  };
+  const finishDrag = (drop, pointerId) => {
+    if (drag?.pointerId !== pointerId) return;
+    const { target, indicator, frame } = drag;
+    drag = null;
+    cancelAnimationFrame(frame);
+    row.classList.remove('is-reordering');
+    indicator?.classList.remove('is-drop-before', 'is-drop-after');
+    if (handle.hasPointerCapture(pointerId)) handle.releasePointerCapture(pointerId);
+    if (drop && target !== index) moveStop(target);
+  };
+
+  handle.addEventListener('pointerdown', event => {
+    if (handle.disabled || !event.isPrimary || event.button !== 0 || drag) return;
+    const rows = Array.from(row.parentElement.children).slice(1, -1);
+    const rect = row.getBoundingClientRect();
+    handle.setPointerCapture(event.pointerId);
+    drag = {
+      pointerId: event.pointerId, startY: event.clientY, y: event.clientY,
+      centerY: rect.top + rect.height / 2, rows, otherRows: rows.filter(item => item !== row),
+      scroller: row.closest('.navigation-route-content'), target: index, indicator: null, frame: 0
+    };
+  });
+  handle.addEventListener('pointermove', event => {
+    if (drag?.pointerId !== event.pointerId) return;
+    drag.y = event.clientY;
+    if (!drag.frame) {
+      if (Math.abs(drag.y - drag.startY) < 5) return;
+      row.classList.add('is-reordering');
+      drag.frame = requestAnimationFrame(scrollWhileDragging);
+    }
+    updateTarget();
+  });
+  handle.addEventListener('pointerup', event => finishDrag(true, event.pointerId));
+  handle.addEventListener('pointercancel', event => finishDrag(false, event.pointerId));
+  handle.addEventListener('lostpointercapture', event => finishDrag(false, event.pointerId));
+  handle.addEventListener('keydown', event => {
+    if (drag && event.key === 'Escape') {
+      event.stopPropagation();
+      finishDrag(false, drag.pointerId);
+    } else if (!drag && (event.key === 'ArrowUp' || event.key === 'ArrowDown')) {
+      event.preventDefault();
+      moveStop(index + (event.key === 'ArrowUp' ? -1 : 1));
+    }
+  });
+}
+
+function renderNavigationPreview(stops, dirty) {
+  placeStopPreviewLayer?.clearLayers();
+  placeRouteLayer?.eachLayer(layer => {
+    if (layer instanceof L.Polyline) layer.setStyle({ opacity: dirty ? .3 : .96 });
+    else if (layer instanceof L.CircleMarker) layer.setStyle({ opacity: dirty ? .3 : 1, fillOpacity: dirty ? .3 : 1 });
+  });
+  if (!dirty || !placeStopPreviewLayer) return;
+  stops.forEach(stop => {
+    if (stop.type === 'segment' && Array.isArray(stop.coordinates) && stop.coordinates.length >= 2) {
+      L.polyline(stop.coordinates.map(point => [Number(point.lat), Number(point.lng)]), {
+        pane: 'ideaRoutes', color: PLANNED_SEGMENT_COLOR, weight: 6, opacity: .95,
+        dashArray: '8 6', interactive: false
+      }).addTo(placeStopPreviewLayer);
+    } else if (stop.type === 'point') {
+      L.circleMarker([stop.point.lat, stop.point.lng], {
+        pane: 'ideaRoutes', radius: 7, color: '#fff', weight: 2,
+        fillColor: '#ff9100', fillOpacity: 1, interactive: false
+      }).addTo(placeStopPreviewLayer);
+    }
+  });
+}
+
+function renderNavigationEditor() {
+  const { startName, endName, stops, plannedStops, error } = placeNavigation;
+  const list = document.getElementById('navigation-stops');
+  const loading = Boolean(placeRouteRequest);
+  const dirty = stops.length !== plannedStops.length || stops.some((stop, index) => stop !== plannedStops[index]);
+  renderNavigationPreview(stops, dirty);
+  list.replaceChildren();
+  [{ name: startName, type: '起点' }, ...stops, { name: endName, type: '终点' }].forEach((stop, index) => {
+    const row = document.createElement('li');
+    row.tabIndex = -1;
+    const label = document.createElement('div');
+    const type = document.createElement('span');
+    type.textContent = stop.type === 'segment' ? '途经路段' : stop.type === 'point' ? '途经地点' : stop.type;
+    const name = document.createElement('strong');
+    name.textContent = stop.name;
+    label.append(type, name);
+    row.append(label);
+    if (index > 0 && index <= stops.length) {
+      const stopIndex = index - 1;
+      const actions = document.createElement('div');
+      actions.className = 'navigation-stop-actions';
+      const createAction = (label, iconName) => {
+        const button = document.createElement('button');
+        button.type = 'button';
+        button.setAttribute('aria-label', label);
+        const icon = document.createElement('i');
+        icon.className = `fa-solid ${iconName}`;
+        icon.setAttribute('aria-hidden', 'true');
+        button.append(icon);
+        return button;
+      };
+      const remove = createAction(`移除${stop.name}`, 'fa-trash-can');
+      remove.disabled = loading;
+      remove.addEventListener('click', () => {
+        if (placeRouteRequest || !row.isConnected) return;
+        stops.splice(stopIndex, 1);
+        placeNavigation.error = '';
+        renderNavigationEditor();
+        list.children[index].focus({ preventScroll: true });
+      });
+      actions.append(remove);
+      if (stops.length > 1) {
+        const grip = createAction(`调整${stop.name}的顺序`, 'fa-grip-lines');
+        grip.className = 'navigation-stop-grip';
+        grip.title = '拖拽排序，或按上下方向键调整顺序';
+        grip.setAttribute('aria-keyshortcuts', 'ArrowUp ArrowDown');
+        grip.disabled = loading;
+        bindNavigationStopDrag(grip, row, stopIndex, target => {
+          if (placeRouteRequest || !row.isConnected || target < 0 || target >= stops.length || target === stopIndex) return;
+          const [moved] = stops.splice(stopIndex, 1);
+          stops.splice(target, 0, moved);
+          placeNavigation.error = '';
+          renderNavigationEditor();
+          list.children[target + 1].querySelector('.navigation-stop-grip').focus();
+        });
+        actions.append(grip);
+      }
+      row.append(actions);
+    }
+    list.append(row);
+  });
+  document.getElementById('navigation-add-stop').disabled = loading || stops.length >= MAX_NAVIGATION_STOPS;
+  document.getElementById('navigation-export-gpx').disabled = loading || dirty || !placeNavigation.exportRoute;
+  const replan = document.getElementById('navigation-replan');
+  replan.hidden = !dirty;
+  replan.disabled = loading;
+  replan.textContent = loading ? '规划中…' : '更新路线';
+  const status = document.getElementById('navigation-route-status');
+  status.classList.toggle('is-loading', loading);
+  status.textContent = loading ? '正在按新顺序规划…'
+    : dirty ? error || '途经顺序已修改，请更新路线。' : '';
+  document.getElementById('navigation-route-legs').hidden = loading || dirty || !plannedStops.length;
 }
 
 async function planRouteToSelectedPlace() {
-  if (!selectedPlace) return;
+  if (!selectedPlace || placeRouteRequest) return;
   const message = document.getElementById('place-details-message');
   const button = document.getElementById('place-details-go');
-  const buttonLabel = button.querySelector('span');
   if (!origin) {
     showAppMessage('正在获取当前位置，请稍后再试');
     return;
   }
 
-  const requestId = ++placeRouteRequestId;
-  placeRouteRequest?.abort();
+  const navigation = placeNavigation ??= {
+    start: { lat: Number(origin.lat), lng: Number(origin.lng) },
+    end: { lat: selectedPlace.lat, lng: selectedPlace.lng },
+    startName: document.getElementById('origin-input')?.value || '当前位置',
+    endName: selectedPlace.name,
+    stops: [], plannedStops: [], error: ''
+  };
+  const stops = [...navigation.stops];
   const controller = new AbortController();
   placeRouteRequest = controller;
   let timedOut = false;
   const timeout = setTimeout(() => {
     timedOut = true;
     controller.abort();
-  }, 25000);
+  }, stops.length ? 65000 : 25000);
   button.disabled = true;
-  buttonLabel.textContent = '规划中…';
+  button.textContent = '规划中…';
   message.textContent = '正在寻找红绿灯更少的骑行路线';
   message.hidden = false;
+  if (placeRouteActive) renderNavigationEditor();
+  setRoutePlanningLoading(true);
 
   try {
-    const response = await fetch(`${API_BASE_URL}/routes/plan-fewest-signals`, {
+    const endpoint = stops.length ? 'plan-with-stops' : 'plan-fewest-signals';
+    const response = await fetch(`${API_BASE_URL}/routes/${endpoint}`, {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
       signal: controller.signal,
       body: JSON.stringify({
-        origin: { lat: Number(origin.lat), lng: Number(origin.lng) },
-        destination: { lat: selectedPlace.lat, lng: selectedPlace.lng }
+        origin: navigation.start, destination: navigation.end,
+        originName: navigation.startName, destinationName: navigation.endName,
+        stops: stops.map(({ type, id, name, point }) => ({ type, id, name, point }))
       })
     });
-    if (!response.ok) throw new Error(`Route planning failed: ${response.status}`);
     const route = await response.json();
-    if (requestId !== placeRouteRequestId) return;
-    if (!route.polyline || !Number.isFinite(Number(route.distanceKm))) throw new Error('Invalid route');
-
-    const points = decodePolyline(route.polyline);
-    if (points.length < 2) throw new Error('Invalid route geometry');
+    if (placeRouteRequest !== controller || controller.signal.aborted) return;
+    if (!response.ok) throw new Error('Route planning failed');
+    const legs = stops.length ? route.legs : [{ type: 'connection', points: route.polyline ? decodePolyline(route.polyline) : [] }];
+    if (!Number.isFinite(route.distanceKm) || !legs?.length || legs.some(leg => leg.points.length < 2)) {
+      throw new Error('Invalid route geometry');
+    }
+    const path = legs.map(leg => ({ ...leg, points: stops.length ? leg.points.map(point => [point.lat, point.lng]) : leg.points }));
+    const bounds = L.latLngBounds(path.flatMap(leg => leg.points));
+    const opening = !placeRouteActive;
     placeRouteLayer.clearLayers();
-    L.polyline(points, {
-      color: '#00e676', weight: 5, opacity: 0.96, lineCap: 'round', lineJoin: 'round',
-      interactive: false, pane: 'plannedRoutes', className: 'place-navigation-line'
-    }).addTo(placeRouteLayer);
+    for (const leg of path) {
+      L.polyline(leg.points, {
+        color: leg.type === 'segment' ? PLANNED_SEGMENT_COLOR : '#00e676', weight: 5, opacity: 0.96,
+        interactive: false, pane: 'plannedRoutes', className: 'place-navigation-line'
+      }).addTo(placeRouteLayer);
+    }
+    if (stops.length) route.stops.slice(1, -1).forEach(({ point, name }) => {
+      const label = document.createElement('span');
+      label.textContent = name;
+      L.circleMarker(point, { pane: 'plannedRoutes', radius: 5, color: '#fff', weight: 2,
+        fillColor: '#00805a', fillOpacity: 1 }).bindTooltip(label).addTo(placeRouteLayer);
+    });
     if (map.hasLayer(stravaGroup)) map.removeLayer(stravaGroup);
     if (map.hasLayer(polylineGroup)) map.removeLayer(polylineGroup);
     if (map.hasLayer(homeRecommendationRouteLayer)) map.removeLayer(homeRecommendationRouteLayer);
     placeRouteActive = true;
+    navigation.plannedStops = stops;
+    navigation.exportRoute = { legs: path.map(leg => ({ points: leg.points.map(([lat, lng]) => ({ lat, lng })) })) };
+    navigation.error = '';
+    const duration = Math.max(1, Math.round(route.distanceKm / 25 * 60));
+    const hours = Math.floor(duration / 60);
+    const minutes = duration % 60;
+    const time = hours ? `${hours} 小时${minutes ? ` ${minutes} 分钟` : ''}` : `${minutes} 分钟`;
+    document.getElementById('navigation-route-duration').textContent = duration > 0 ? `约 ${time}` : '—';
+    document.getElementById('navigation-route-distance').textContent = `${route.distanceKm.toFixed(1)} 公里`;
+    const routeDetails = document.getElementById('navigation-route-legs');
+    routeDetails.hidden = !stops.length;
+    if (opening) routeDetails.open = false;
+    renderCompositeLegs(document.getElementById('navigation-route-leg-list'), stops.length ? legs : []);
+    if (opening) prepareMapDetailView();
     syncPlaceDetailsVisibility();
     syncHomeRecommendationVisibility();
-    map.fitBounds(L.latLngBounds(points), { paddingTopLeft: [36, 70], paddingBottomRight: [36, 100] });
-    updateLocationSearchStatus(`骑行路线已规划，约 ${Number(route.distanceKm).toFixed(1)} 公里`);
-  } catch (error) {
-    if (requestId !== placeRouteRequestId) return;
-    message.hidden = true;
-    showAppMessage(timedOut ? '路线规划超时，请重试' : '路线规划暂不可用，请重试');
+    map.fitBounds(bounds,
+      visibleMapFitOptions({ paddingTopLeft: [isDesktopMap() ? 468 : 36, 64], paddingBottomRight: [36, 48], maxZoom: 16 }));
+    document.getElementById('navigation-close').focus({ preventScroll: true });
+    updateLocationSearchStatus(`骑行路线已规划，约 ${route.distanceKm.toFixed(1)} 公里`);
+  } catch (_) {
+    if (placeRouteRequest !== controller) return;
+    const errorMessage = timedOut ? '路线规划超时，请重试。' : '路线规划暂不可用，请调整途经点或重试。';
+    if (placeRouteActive) navigation.error = `${errorMessage} 地图仍显示上一次规划的路线。`;
+    else message.textContent = timedOut ? errorMessage : '暂时无法规划到这个地点，请重试。';
   } finally {
     clearTimeout(timeout);
-    if (requestId === placeRouteRequestId) {
+    if (placeRouteRequest === controller) {
       placeRouteRequest = null;
+      if (!segmentNavigationRequest) setRoutePlanningLoading(false);
+      if (placeRouteActive) message.hidden = true;
       button.disabled = false;
-      buttonLabel.textContent = '前往';
+      button.textContent = '前往';
+      if (placeRouteActive) renderNavigationEditor();
     }
   }
 }
@@ -3394,6 +3825,7 @@ async function fetchStravaSegmentsSilently(force = false, recommendationRequestI
   if (currentZoom <= 9 || currentZoom > 16) {
     console.log(`[StravaRadar] 当前缩放等级 (${currentZoom}) 不在允许探索范围 [10-16] 内，清空未选中图层。`);
     clearTimeout(exploreDebounceTimer);
+    exploreDebounceTimer = null;
     lastExploreZoom = null;
     clearUnselectedSegments();
     return;
@@ -3405,6 +3837,7 @@ async function fetchStravaSegmentsSilently(force = false, recommendationRequestI
   // 1. 防抖拦截：只有在拖动/缩放完全静止 600ms 后才进行真正的请求触发
   clearTimeout(exploreDebounceTimer);
   exploreDebounceTimer = setTimeout(async () => {
+    exploreDebounceTimer = null;
     const currentCenter = map.getCenter();
 
     // 2. 空间微小位移过滤：若中心点平移位移小于 350 米，则直接忽略以节省性能
@@ -3520,6 +3953,7 @@ async function fetchStravaSegmentsSilently(force = false, recommendationRequestI
       });
 
       console.log(`🚴 [Strava] 视口静默增量刷新：共渲染了 ${addedCount} 条全新探索出的路段。当前客户端缓存渲染中: ${loadedStravaSegments.size}`);
+      map.fire('stravasegmentsloaded');
     } catch (error) {
       console.warn(`[Strava] 静默视口探索请求被跳过或失败:`, error.message);
       if (recommendationRequestId === homeRecommendationRequestId && isHomeRecommendationEligible()) {
@@ -3591,7 +4025,7 @@ function showStravaSegmentDetails(seg, trigger = null) {
   panel.inert = false;
   document.getElementById('map-detail-actions').inert = false;
   panel.classList.add('active');
-  if (!isDesktopMap()) document.dispatchEvent(new Event('segment-detail-open'));
+  prepareMapDetailView();
   renderRouteDirections(stravaDirectionLayer, seg.coordinates);
   if (selectedPlace) clearSelectedPlace();
   syncMapDetailSheet();
@@ -3700,18 +4134,39 @@ let ideaRouteRequest = null;
 let ideaActiveRoute = null;
 
 function ideaRideTimeRange(distanceKm) {
-  return `预计 ${Math.round(distanceKm * 2)} 分钟至 ${Math.round(distanceKm * 2.4)} 分钟`;
+  const formatDuration = minutes => {
+    const hours = Math.floor(minutes / 60);
+    const remainder = minutes % 60;
+    if (!hours) return `${remainder} 分钟`;
+    return remainder ? `${hours} 小时 ${remainder} 分钟` : `${hours} 小时`;
+  };
+  return `预计 ${formatDuration(Math.round(distanceKm * 2))}`;
+}
+
+function addSearchClearButton(input) {
+  const button = document.createElement('button');
+  button.type = 'button'; button.className = 'field-clear'; button.setAttribute('aria-label', '清空搜索');
+  const icon = document.createElement('i'); icon.className = 'fa-solid fa-circle-xmark'; icon.setAttribute('aria-hidden', 'true'); button.append(icon);
+  button.addEventListener('pointerdown', event => event.preventDefault());
+  button.addEventListener('click', () => { input.value = ''; input.dispatchEvent(new Event('input', { bubbles: true })); input.focus({ preventScroll: true }); });
+  input.insertAdjacentElement('afterend', button);
 }
 
 document.addEventListener('DOMContentLoaded', () => {
   const sheet = document.getElementById('idea-sheet');
+  ['traditional-search-input', 'navigation-stop-input'].forEach(id => addSearchClearButton(document.getElementById(id)));
   const backdrop = document.getElementById('idea-backdrop');
+  const aiView = document.getElementById('ai-planning-view');
+  const traditionalView = document.getElementById('traditional-navigation-view');
+  const aiModeButton = document.getElementById('btn-mode-ai');
+  const traditionalModeButton = document.getElementById('btn-mode-traditional');
+  const traditionalInput = document.getElementById('traditional-search-input');
+  const traditionalContent = document.getElementById('traditional-content');
+  let planningMode = 'ai';
   const content = document.getElementById('idea-content');
   const placeResults = document.getElementById('idea-place-results');
   const searchStatus = document.getElementById('idea-search-status');
   const input = document.getElementById('idea-input');
-  const inputMirror = document.getElementById('idea-input-mirror');
-  const mirrorInner = sheet.querySelector('.idea-text-mirror-inner');
   const handle = document.getElementById('idea-sheet-handle');
   const title = document.getElementById('idea-title');
   const titleSizer = document.getElementById('idea-title-sizer');
@@ -3731,26 +4186,61 @@ document.addEventListener('DOMContentLoaded', () => {
   let placeContext = null;
   let sessionTitle = '';
   let pendingReferences = [];
-  const references = document.getElementById('idea-references');
-  const addButton = document.getElementById('idea-add-button');
   const addMenu = document.getElementById('idea-add-menu');
   const sendButton = document.getElementById('idea-send');
-  const renderReferences = () => {
-    references.replaceChildren();
-    references.hidden = !pendingReferences.length;
-    pendingReferences.forEach((ref, index) => {
-      const chip = document.createElement('span'); chip.className = `idea-reference-chip is-${ref.type}`;
-      const label = document.createElement('span'); label.textContent = ref.item.name || '未命名'; label.setAttribute('aria-label', `${ref.type === 'segment' ? '路段' : ref.type === 'route' ? '路线' : '地点'}：${label.textContent}`);
-      const remove = document.createElement('button'); remove.type = 'button'; remove.setAttribute('aria-label', `移除${label.textContent}`); remove.textContent = '×';
-      remove.addEventListener('click', () => { pendingReferences.splice(index, 1); renderReferences(); input.focus(); });
-      chip.append(label, remove); references.append(chip);
-    });
+  let savedIdeaRange = null;
+  let nextReferenceId = 0;
+  const serializeIdea = (includeReferences = false) => {
+    const walk = node => {
+      if (node.nodeType === Node.TEXT_NODE) return node.nodeValue || '';
+      if (node.nodeType !== Node.ELEMENT_NODE) return '';
+      if (node.classList.contains('idea-reference-chip')) return includeReferences ? (node.querySelector('span')?.textContent || '') : '';
+      if (node.tagName === 'BR') return '\n';
+      const text = [...node.childNodes].map(walk).join('');
+      return node !== input && ['DIV', 'P'].includes(node.tagName) ? `\n${text}` : text;
+    };
+    return walk(input).replace(/\u200b/g, '');
   };
+  const ideaText = () => serializeIdea(false);
+  Object.defineProperty(input, 'value', {
+    get: ideaText,
+    set: value => { input.replaceChildren(); pendingReferences = []; if (value) input.textContent = value; savedIdeaRange = null; }
+  });
+  const syncReferences = () => {
+    const ids = new Set([...input.querySelectorAll('.idea-reference-chip')].map(node => node.dataset.referenceId));
+    pendingReferences = pendingReferences.filter(ref => ids.has(ref.key));
+  };
+  const renderReferences = () => {
+    const ids = new Set(pendingReferences.map(ref => ref.key));
+    input.querySelectorAll('.idea-reference-chip').forEach(node => { if (!ids.has(node.dataset.referenceId)) node.remove(); });
+  };
+  document.addEventListener('selectionchange', () => {
+    const selection = window.getSelection();
+    if (selection?.rangeCount && input.contains(selection.anchorNode) && input.contains(selection.focusNode)) savedIdeaRange = selection.getRangeAt(0).cloneRange();
+  });
+  input.addEventListener('click', event => {
+    const remove = event.target.closest('.idea-reference-remove');
+    if (!remove) return;
+    remove.closest('.idea-reference-chip').remove(); syncReferences();
+    input.dispatchEvent(new Event('input', { bubbles: true })); input.focus({ preventScroll: true });
+  });
   const addReference = (type, item) => {
-    if (!pendingReferences.some(ref => ref.type === type && (ref.item.id != null ? ref.item.id === item.id : ref.item.name === item.name && String(ref.item.lat) === String(item.lat)))) pendingReferences.push({ type, item: { ...item } });
-    renderReferences();
+    if (planningMode !== 'ai') setPlanningMode('ai');
+    if (pendingReferences.some(ref => ref.type === type && (ref.item.id != null ? ref.item.id === item.id : ref.item.name === item.name && String(ref.item.lat) === String(item.lat)))) { input.focus({ preventScroll: true }); return; }
+    const key = String(++nextReferenceId);
+    const ref = { key, type, item: { ...item } }; pendingReferences.push(ref);
+    const chip = document.createElement('span'); chip.className = `idea-reference-chip is-${type}`; chip.contentEditable = 'false'; chip.dataset.referenceId = key;
+    const label = document.createElement('span'); label.textContent = item.name || '未命名';
+    const remove = document.createElement('button'); remove.type = 'button'; remove.className = 'idea-reference-remove'; remove.setAttribute('aria-label', `移除${label.textContent}`);
+    const icon = document.createElement('i'); icon.className = 'fa-solid fa-xmark'; icon.setAttribute('aria-hidden', 'true'); remove.append(icon); chip.append(label, remove);
     if (!expanded) setExpanded('half');
     input.focus({ preventScroll: true });
+    const selection = window.getSelection();
+    const range = savedIdeaRange && input.contains(savedIdeaRange.commonAncestorContainer) ? savedIdeaRange : document.createRange();
+    if (!savedIdeaRange || !input.contains(savedIdeaRange.commonAncestorContainer)) { range.selectNodeContents(input); range.collapse(false); }
+    range.deleteContents(); range.insertNode(chip); range.setStartAfter(chip); range.collapse(true);
+    selection.removeAllRanges(); selection.addRange(range); savedIdeaRange = range.cloneRange();
+    input.dispatchEvent(new Event('input', { bubbles: true }));
   };
   let referencedSegment = null;
   let referencedRoute = null;
@@ -3789,30 +4279,32 @@ document.addEventListener('DOMContentLoaded', () => {
     }, delay);
   };
   document.addEventListener('nearby-route-close', () => closeNearbyRouteView({ focus: true }));
-  const openRouteDetail = (copy, route, routeName, selected = null) => {
-    const detail = document.getElementById('nearby-route-detail');
-    copy.classList.add('is-expanded');
-    const copyPanel = copy.querySelector('.idea-nearby-details');
-    copyPanel.removeAttribute('id'); copyPanel.inert = false;
-    const copyHeading = copy.querySelector('.idea-nearby-summary-heading');
-    copyHeading.querySelector('.idea-nearby-disclosure')?.remove();
-    const closeButton = document.createElement('button'); closeButton.type = 'button'; closeButton.className = 'segment-popover-close nearby-route-close';
-    closeButton.setAttribute('aria-label', '关闭路线详情');
-    const icon = document.createElement('i'); icon.className = 'fa-solid fa-xmark'; icon.setAttribute('aria-hidden', 'true'); closeButton.append(icon);
-    closeButton.addEventListener('click', () => closeNearbyRouteView({ focus: true, returnToRecommendations: true }));
-    copyHeading.append(closeButton);
-    copy.querySelector('.idea-nearby-actions')?.remove();
+  const createRouteActions = (route, routeName, noteContainer) => {
     const copyActions = document.createElement('div'); copyActions.className = 'idea-nearby-actions';
     const exportButton = document.createElement('button'); exportButton.type = 'button'; exportButton.textContent = '导出 GPX 文件';
-    const navigateButton = document.createElement('button'); navigateButton.type = 'button'; navigateButton.textContent = '导航';
-    copyActions.append(exportButton, navigateButton);
-    const navigationNote = document.createElement('p'); navigationNote.className = 'nearby-route-navigation-note';
-    let navigation;
-    try { navigation = window.buildIdeaNavigation(route, routeName); navigationNote.textContent = navigation.note; }
-    catch (_) { navigationNote.textContent = '路线缺少导航所需的位置信息。'; navigateButton.disabled = true; }
-    copy.querySelector('.idea-nearby-summary').append(navigationNote);
-    navigateButton.addEventListener('click', () => {
-      if (navigation) window.open(navigation.url, '_blank', 'noopener,noreferrer');
+    const navigationControl = document.createElement('div'); navigationControl.className = 'idea-navigation-control';
+    const navigationLabel = document.createElement('span'); navigationLabel.textContent = '导航'; navigationLabel.setAttribute('aria-hidden', 'true');
+    const navigationSelect = document.createElement('select'); navigationSelect.setAttribute('aria-label', '选择导航地图');
+    [['', ''], ['apple', '苹果地图'], ['amap', '高德地图'], ['baidu', '百度地图']].forEach(([value, text]) => {
+      const option = document.createElement('option'); option.value = value; option.textContent = text;
+      if (!value) { option.disabled = true; option.hidden = true; option.selected = true; }
+      navigationSelect.append(option);
+    });
+    navigationControl.append(navigationLabel, navigationSelect); copyActions.append(exportButton, navigationControl);
+    const navigationNote = document.createElement('p'); navigationNote.className = 'nearby-route-navigation-note'; navigationNote.setAttribute('role', 'status');
+    try { window.buildIdeaMapNavigation(route, routeName, 'amap', 'android'); navigationNote.textContent = '地图将重新规划至路线中的目标位置，完整路线可导出 GPX。'; }
+    catch (_) { navigationNote.textContent = '路线缺少导航所需的位置信息。'; navigationSelect.disabled = true; }
+    noteContainer.append(navigationNote);
+    navigationSelect.addEventListener('change', () => {
+      const provider = navigationSelect.value; navigationSelect.value = '';
+      const agent = navigator.userAgent;
+      const platform = /iPhone|iPad|iPod/i.test(agent) || (navigator.platform === 'MacIntel' && navigator.maxTouchPoints > 1) ? 'ios' : /HarmonyOS|OpenHarmony/i.test(agent) ? 'harmony' : /Android/i.test(agent) ? 'android' : 'other';
+      if (platform === 'other') { navigationNote.textContent = '请在手机上选择已安装的地图 App 进行导航。'; return; }
+      try {
+        const url = window.buildIdeaMapNavigation(route, routeName, provider, platform);
+        navigationNote.textContent = provider === 'apple' ? '正在尝试打开苹果地图 App，请在地图中选择骑行；若未打开，请检查是否安装及浏览器是否允许跳转。' : '正在尝试打开地图；若未打开，请检查是否安装以及浏览器是否允许跳转。';
+        window.location.href = url;
+      } catch (error) { navigationNote.textContent = error.message || '地图暂时无法打开，请重试。'; }
     });
     const status = document.createElement('p'); status.className = 'idea-nearby-export-status'; status.setAttribute('role', 'status');
     exportButton.addEventListener('click', () => {
@@ -3827,6 +4319,31 @@ document.addEventListener('DOMContentLoaded', () => {
       getDetailDetents();
     });
     const footer = document.createElement('div'); footer.className = 'nearby-route-footer'; footer.append(copyActions, status);
+    return footer;
+  };
+  document.addEventListener('idea-route-actions-update', event => {
+    const container = document.getElementById('idea-route-actions');
+    container.replaceChildren();
+    if (!event.detail) { container.hidden = true; return; }
+    const note = document.createElement('p');
+    container.append(createRouteActions(event.detail.route, event.detail.name, note), note);
+    container.hidden = false;
+  });
+  const openRouteDetail = (copy, route, routeName, selected = null) => {
+    const detail = document.getElementById('nearby-route-detail');
+    copy.classList.add('is-expanded');
+    const copyPanel = copy.querySelector('.idea-nearby-details');
+    copyPanel.removeAttribute('id'); copyPanel.inert = false;
+    const copyHeading = copy.querySelector('.idea-nearby-summary-heading');
+    copyHeading.querySelector('.idea-nearby-disclosure')?.remove();
+    const closeButton = document.createElement('button'); closeButton.type = 'button'; closeButton.className = 'segment-popover-close nearby-route-close';
+    closeButton.setAttribute('aria-label', '关闭路线详情');
+    const icon = document.createElement('i'); icon.className = 'fa-solid fa-xmark'; icon.setAttribute('aria-hidden', 'true'); closeButton.append(icon);
+    closeButton.addEventListener('click', () => closeNearbyRouteView({ focus: true, returnToRecommendations: true }));
+    copyHeading.append(closeButton);
+    copy.querySelector('.idea-nearby-actions')?.remove();
+    const footer = createRouteActions(route, routeName, copy.querySelector('.idea-nearby-summary'));
+    prepareMapDetailView();
     detail.replaceChildren(copy, footer); detail.hidden = false; detail.inert = false; detail.classList.add('active'); copy.scrollTop = 0;
     nearbyRouteView = { selected };
     showCompositeIdeaRoute({ route, recommended: true }, close);
@@ -3985,7 +4502,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const hasCurrentConversation = Boolean(referencedSegment || referencedRoute || content.querySelector('.idea-user-message'));
     const showingHistory = !historyPanel.hidden;
     sheet.classList.toggle('has-idea-conversation', hasCurrentConversation);
-    input.placeholder = hasCurrentConversation ? '一起探索你的骑行想法' : '检索地点或回车与 AI 对话';
+    input.dataset.placeholder = hasCurrentConversation ? '一起探索你的骑行想法' : '输入骑行想法，或添加路段、地点';
     prompt.textContent = hasCurrentConversation ? '一起探索你的骑行想法' : baseTitle;
     back.hidden = !hasCurrentConversation && !showingHistory;
     back.setAttribute('aria-label', showingHistory ? '返回对话' : '返回骑行想法首页');
@@ -4000,11 +4517,11 @@ document.addEventListener('DOMContentLoaded', () => {
   };
   const saveConversation = () => {
     const firstMessage = content.querySelector('.idea-user-message')?.textContent?.trim();
-    if (!firstMessage && !referencedSegment && !referencedRoute) return;
+    if (!firstMessage && !referencedSegment && !referencedRoute && !input.value.trim() && !pendingReferences.length) return;
     sessions.set(currentSessionId, {
-      id: currentSessionId, title: sessionTitle || limitIdeaTitle(firstMessage || referencedSegment?.name || referencedRoute?.name || '骑行对话'), sessionTitle,
+      id: currentSessionId, title: sessionTitle || limitIdeaTitle(firstMessage || referencedSegment?.name || referencedRoute?.name || input.value.trim() || pendingReferences[0]?.item.name || '骑行对话'), sessionTitle,
       history: history.map(turn => ({ ...turn })), previousIntent, placeContext, referencedSegment, referencedRoute, nodes: [...content.childNodes],
-      draft: input.value, updatedAt: Date.now()
+      draft: input.value, draftHtml: input.innerHTML, draftReferences: pendingReferences.map(ref => ({ ...ref, item: { ...ref.item } })), updatedAt: Date.now()
     });
   };
   const cancelConversationWork = () => {
@@ -4023,12 +4540,12 @@ document.addEventListener('DOMContentLoaded', () => {
     sessionTitle = segmentReference || routeReference ? limitIdeaTitle(`关于 ${(segmentReference || routeReference).name || '骑行路线'}`) : '';
     greetingIndex++; animateIdeaTitle(sessionTitle || greeting());
     content.replaceChildren(...emptyContent.map(node => node.cloneNode(true)));
-    pendingReferences = [];
+    pendingReferences = []; input.value = '';
     if (segmentReference) addReference('segment', segmentReference);
     if (routeReference) addReference('route', routeReference);
     referencedSegment = null; referencedRoute = null;
     renderReferences();
-    input.value = ''; clearPlaceSearch(); resizeIdeaInput();
+    clearPlaceSearch(); resizeIdeaInput();
     showConversation();
     closeIdeaRoutePanel(); ideaMapLayer?.clearLayers(); ideaActiveRoute = null; restoreExplorationSegments('idea');
     if (!expanded) setExpanded(true);
@@ -4038,7 +4555,6 @@ document.addEventListener('DOMContentLoaded', () => {
     if (!referencedSegment && !referencedRoute) requestGreeting();
   };
   const restoreConversation = session => {
-    pendingReferences = []; renderReferences();
     cancelGreeting();
     if (session.id !== currentSessionId) {
       cancelConversationWork();
@@ -4052,7 +4568,10 @@ document.addEventListener('DOMContentLoaded', () => {
       sessionTitle = limitIdeaTitle(session.sessionTitle || session.title);
       animateIdeaTitle(sessionTitle);
       content.replaceChildren(...session.nodes);
-      input.value = session.draft || ''; clearPlaceSearch(); resizeIdeaInput();
+      input.value = session.draft || '';
+      if (session.draftHtml != null) input.innerHTML = session.draftHtml;
+      pendingReferences = (session.draftReferences || []).map(ref => ({ ...ref, item: { ...ref.item } }));
+      savedIdeaRange = null; clearPlaceSearch(); resizeIdeaInput(); syncSendButton();
       closeIdeaRoutePanel(); ideaMapLayer?.clearLayers(); ideaActiveRoute = null; restoreExplorationSegments('idea');
     }
     showConversation();
@@ -4083,9 +4602,13 @@ document.addEventListener('DOMContentLoaded', () => {
     }
     document.getElementById('idea-history-back').focus({ preventScroll: true });
   };
+  [more, addMenu].forEach(select => {
+    select.selectedIndex = -1;
+    select.addEventListener('pointerdown', () => { select.selectedIndex = -1; });
+  });
   more.addEventListener('change', () => {
     const action = more.value;
-    more.value = '';
+    more.selectedIndex = -1;
     if (action === 'history') openHistory();
     else if (action === 'new') resetConversation();
   });
@@ -4139,6 +4662,13 @@ document.addEventListener('DOMContentLoaded', () => {
     renderIdeaTitle();
   };
 
+  let placeResultsCloseTimer = null;
+  const showPlaceResults = () => {
+    clearTimeout(placeResultsCloseTimer);
+    placeResults.classList.remove('is-closing');
+    placeResults.inert = false;
+    placeResults.hidden = false;
+  };
   const clearPlaceSearch = () => {
     clearTimeout(placeSearchTimer);
     placeSearchController?.abort();
@@ -4146,8 +4676,13 @@ document.addEventListener('DOMContentLoaded', () => {
     placeSearchVersion++;
     placeSearch = { query: '', status: 'idle', results: [], promise: null };
     placeSearchLoading = false;
-    placeResults.replaceChildren();
-    placeResults.hidden = true;
+    clearTimeout(placeResultsCloseTimer);
+    if (placeResults.hidden || window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+      placeResults.replaceChildren(); placeResults.hidden = true; placeResults.classList.remove('is-closing');
+    } else {
+      placeResults.inert = true; placeResults.classList.add('is-closing');
+      placeResultsCloseTimer = setTimeout(() => { placeResults.hidden = true; placeResults.replaceChildren(); placeResults.classList.remove('is-closing'); syncIdeaStatus(); }, 200);
+    }
     syncIdeaStatus();
   };
   const submitIdeaDirect = () => {
@@ -4156,38 +4691,25 @@ document.addEventListener('DOMContentLoaded', () => {
   const renderPlaceSearch = (status, results = []) => {
     placeResults.replaceChildren();
     placeSearchLoading = status === 'loading';
-    placeResults.hidden = status === 'idle';
+    if (status === 'idle') placeResults.hidden = true; else showPlaceResults();
     syncIdeaStatus();
     if (status !== 'results') {
-      const message = document.createElement('p'); message.className = 'idea-place-search-message';
+      const message = document.createElement('p'); message.className = status === 'loading' ? 'idea-place-search-message' : 'idea-search-feedback';
       message.textContent = status === 'loading' ? '正在检索地点…' : status === 'empty' ? '未找到相关地点' : '地点检索暂时不可用，请稍后重试';
       placeResults.append(message);
     }
     if (status === 'results') {
       results.forEach(item => {
-        const button = document.createElement('button');
-        button.type = 'button';
-        button.className = 'idea-place-result';
-        const icon = document.createElement('i');
-        icon.className = 'fa-solid fa-location-dot';
-        icon.setAttribute('aria-hidden', 'true');
-        const text = document.createElement('span');
-        const name = document.createElement('strong');
-        name.textContent = item.name || '未命名地点';
-        const address = document.createElement('small');
-        address.textContent = item.address || '暂无详细地址';
-        text.append(name, address);
-        button.append(icon, text);
-        button.addEventListener('click', () => {
-          closeNearbyRouteView();
-          clearPlaceSearch();
-          input.value = '';
-          resizeIdeaInput();
-          input.blur();
-          setExpanded('half', { allowDesktopHalf: true });
-          focusMapOnSearchResult(item);
-        });
-        placeResults.append(button);
+        placeResults.append(createSearchResultButton('fa-location-dot', item.name || '未命名地点',
+          item.address || '暂无详细地址', () => {
+            closeNearbyRouteView();
+            clearPlaceSearch();
+            input.value = '';
+            resizeIdeaInput();
+            input.blur();
+            setExpanded('half', { allowDesktopHalf: true });
+            focusMapOnSearchResult(item);
+          }));
       });
       return;
     }
@@ -4202,12 +4724,8 @@ document.addEventListener('DOMContentLoaded', () => {
     renderPlaceSearch('loading');
     const promise = (async () => {
       try {
-        const response = await fetch(`${API_BASE_URL}/routes/search-address?q=${encodeURIComponent(query)}`, { signal: controller.signal });
-        if (!response.ok) throw new Error(`Address search failed: ${response.status}`);
-        const data = await response.json();
+        const results = await fetchAddressSuggestions(query, controller.signal);
         if (version !== placeSearchVersion || input.value.trim() !== query) return null;
-        if (!Array.isArray(data)) throw new Error('Invalid address search response');
-        const results = data.filter(item => item.lat != null && item.lon != null && Number.isFinite(Number(item.lat)) && Number.isFinite(Number(item.lon)));
         const status = results.length ? 'results' : 'empty';
         placeSearch = { query, status, results, promise: null };
         renderPlaceSearch(status, results);
@@ -4225,56 +4743,44 @@ document.addEventListener('DOMContentLoaded', () => {
     placeSearch = { query, status: 'loading', results: [], promise };
     return promise;
   };
-  const closeAddMenu = () => { addMenu.hidden = true; addButton.setAttribute('aria-expanded', 'false'); };
-  addButton.addEventListener('pointerdown', event => event.preventDefault());
-  addButton.addEventListener('click', () => { const opening = addMenu.hidden; if (opening && !expanded) setExpanded('half'); addMenu.hidden = !opening; addButton.setAttribute('aria-expanded', String(opening)); });
-  document.addEventListener('pointerdown', event => { if (!event.target.closest('#idea-add-menu, #idea-add-button')) closeAddMenu(); });
-  addMenu.addEventListener('pointerdown', event => event.preventDefault());
-  addMenu.addEventListener('keydown', event => { if (event.key === 'Escape') { event.stopPropagation(); closeAddMenu(); addButton.focus(); } });
-  addMenu.addEventListener('click', event => {
-    const type = event.target.closest('[data-reference-type]')?.dataset.referenceType;
+  addMenu.addEventListener('change', () => {
+    const type = addMenu.value;
+    addMenu.selectedIndex = -1;
     if (!type) return;
-    closeAddMenu();
     if (!expanded) setExpanded('half');
     clearPlaceSearch();
-    placeResults.hidden = false;
+    showPlaceResults();
+    placeResults.replaceChildren();
+    const heading = document.createElement('div'); heading.className = 'idea-reference-heading';
+    const title = document.createElement('strong'); const defaultTitle = type === 'segment' ? '选择路段' : '选择地点'; title.textContent = defaultTitle; title.setAttribute('aria-live', 'polite');
+    const setSearching = active => { title.textContent = active ? '正在检索' : defaultTitle; title.classList.toggle('is-searching', active); };
+    const closeSearch = document.createElement('button'); closeSearch.type = 'button'; closeSearch.className = 'idea-reference-close'; closeSearch.setAttribute('aria-label', '关闭搜索'); closeSearch.innerHTML = '<i class="fa-solid fa-xmark" aria-hidden="true"></i>';
+    closeSearch.addEventListener('click', () => { clearPlaceSearch(); addMenu.focus({ preventScroll: true }); });
+    heading.append(title, closeSearch);
     const bar = document.createElement('form'); bar.className = 'idea-reference-search';
     const search = document.createElement('input'); search.type = 'search';
     search.placeholder = type === 'segment' ? '名称、编号、距离或坡度' : '搜索地点名称或地址';
     search.setAttribute('aria-label', search.placeholder);
     const submit = document.createElement('button'); submit.type = 'submit'; submit.textContent = '搜索';
-    const closeSearch = document.createElement('button'); closeSearch.type = 'button'; closeSearch.textContent = '关闭';
-    closeSearch.addEventListener('click', () => { clearPlaceSearch(); input.focus(); });
     const results = document.createElement('div'); results.className = 'idea-reference-results'; results.setAttribute('aria-live', 'polite');
-    results.textContent = type === 'segment' ? '搜索当前地图已加载的路段' : '输入名称或地址搜索地点';
-    bar.append(search, submit, closeSearch); placeResults.append(results, bar); search.focus();
+    const searchField = document.createElement('div'); searchField.className = 'idea-reference-search-field'; searchField.append(search, submit); addSearchClearButton(search);
+    bar.append(searchField); placeResults.append(heading, results, bar); search.focus();
+    placeResults.onkeydown = event => { if (event.key === 'Escape') { event.preventDefault(); event.stopPropagation(); closeSearch.click(); } };
     let searchVersion = 0;
     const runSearch = async () => {
       const query = search.value.trim(); if (!query) return;
       const version = ++searchVersion;
-      results.textContent = '正在搜索…';
+      setSearching(true);
+      results.textContent = '';
       try {
-        let items;
-        if (type === 'segment') {
-          const terms = query.toLocaleLowerCase().split(/\s+/).filter(Boolean);
-          const fuzzy = (needle, haystack) => { let index = 0; for (const char of haystack) if (char === needle[index]) index++; return index === needle.length; };
-          items = [...loadedStravaSegments.values()].map(entry => entry.seg).filter(item => {
-            const text = [item.name, item.id, item.distanceKm, item.avgGrade, item.averageGrade, item.maxGrade, item.elevationGain, item.city, item.state].filter(value => value != null).join(' ').toLocaleLowerCase();
-            return terms.every(term => text.includes(term) || fuzzy(term, text));
-          });
-        } else {
-          const response = await fetch(`${API_BASE_URL}/routes/search-address?q=${encodeURIComponent(query)}`);
-          if (!response.ok) throw new Error('search failed');
-          items = await response.json();
-          if (!Array.isArray(items)) throw new Error('invalid results');
-          items = items.filter(item => Number.isFinite(Number(item.lat)) && Number.isFinite(Number(item.lon)));
-        }
+        const items = type === 'segment' ? searchLoadedSegments(query) : await fetchAddressSuggestions(query);
         if (version !== searchVersion || !bar.isConnected) return;
         results.replaceChildren();
-        if (!items.length) { results.textContent = type === 'segment' ? '当前地图没有匹配的路段，请移动地图后重试。' : '未找到相关地点'; return; }
+        if (!items.length) return;
         items.slice(0, 20).forEach(item => {
           const row = document.createElement('div'); row.className = 'idea-reference-result';
           const info = document.createElement('span');
+          const icon = document.createElement('i'); icon.className = type === 'segment' ? 'fa-solid fa-route idea-reference-icon' : 'fa-solid fa-location-dot idea-reference-icon'; icon.setAttribute('aria-hidden', 'true');
           const name = document.createElement('strong'); name.textContent = item.name || '未命名';
           const meta = document.createElement('small'); meta.textContent = type === 'segment' ? (item.distanceKm != null ? `${Number(item.distanceKm).toFixed(1)} 公里` : '路段') : (item.address || '暂无详细地址');
           info.append(name, meta);
@@ -4282,16 +4788,38 @@ document.addEventListener('DOMContentLoaded', () => {
           view.addEventListener('click', () => { clearPlaceSearch(); input.blur(); if (type === 'segment') showStravaSegmentDetails(item); else focusMapOnSearchResult(item); });
           const add = document.createElement('button'); add.type = 'button'; add.textContent = '引用';
           add.addEventListener('click', () => { clearPlaceSearch(); addReference(type, item); });
-          row.append(info, view, add); results.append(row);
+          view.setAttribute('aria-label', `查看${item.name || '详情'}`); add.setAttribute('aria-label', `引用${item.name || '此结果'}`);
+          row.append(icon, info, view, add); results.append(row);
         });
       } catch (error) {
-        if (version === searchVersion && bar.isConnected) results.textContent = '搜索暂时不可用，请重试。';
+        if (version === searchVersion && bar.isConnected) { results.textContent = '搜索暂时不可用，请点击搜索重试。'; }
+      } finally {
+        if (version === searchVersion && bar.isConnected) setSearching(false);
       }
     };
     let searchTimer;
-    search.addEventListener('input', () => { clearTimeout(searchTimer); searchVersion++; if (!search.value.trim()) { results.textContent = ''; return; } searchTimer = setTimeout(runSearch, 300); });
+    search.addEventListener('input', () => { clearTimeout(searchTimer); searchVersion++; setSearching(false); if (!search.value.trim()) { results.textContent = ''; return; } searchTimer = setTimeout(runSearch, 300); });
     bar.addEventListener('submit', event => { event.preventDefault(); clearTimeout(searchTimer); runSearch(); });
   });
+  // Keep gestures within the search results, including overscroll at its edges.
+  let referenceTouchY = null;
+  placeResults.addEventListener('touchstart', event => {
+    const results = event.target.closest('.idea-reference-results');
+    referenceTouchY = results && event.touches.length === 1 ? event.touches[0].clientY : null;
+    event.stopPropagation();
+  }, { passive: true });
+  placeResults.addEventListener('touchmove', event => {
+    event.stopPropagation();
+    const results = event.target.closest('.idea-reference-results');
+    if (!results || referenceTouchY === null || event.touches.length !== 1) return;
+    const y = event.touches[0].clientY, delta = y - referenceTouchY;
+    referenceTouchY = y;
+    const top = results.scrollTop <= 0;
+    const bottom = results.scrollTop + results.clientHeight >= results.scrollHeight - 1;
+    if (((delta > 0 && top) || (delta < 0 && bottom)) && event.cancelable) event.preventDefault();
+  }, { passive: false });
+  placeResults.addEventListener('touchend', () => { referenceTouchY = null; });
+  placeResults.addEventListener('touchcancel', () => { referenceTouchY = null; });
   const syncIdeaEntryHeight = () => {
     if (expanded) return;
     const height = getComputedStyle(sheet).getPropertyValue('--idea-collapsed-height').trim();
@@ -4304,19 +4832,26 @@ document.addEventListener('DOMContentLoaded', () => {
     next = sheetState !== 'collapsed';
     expanded = next;
     sheet.classList.toggle('is-full', sheetState === 'full');
-    if (!next) {
+    if (!next && planningMode === 'ai') {
       showConversation();
     }
     sheet.classList.toggle('is-open', next);
+    const sheetName = planningMode === 'ai' ? '骑行想法' : '传统导航';
     handle.setAttribute('aria-expanded', String(next));
-    handle.setAttribute('aria-label', next ? '收起骑行想法' : '展开骑行想法');
+    handle.setAttribute('aria-label', `${next ? '收起' : '展开'}${sheetName}`);
     content.inert = !next;
+    traditionalContent.inert = !next;
     if (next) {
-      loadNearbyRoutes();
+      if (planningMode === 'ai') loadNearbyRoutes();
+      else {
+        renderTraditionalNearby();
+        if (!traditionalInput.value.trim() && !lastExploreCenter && !exploreDebounceTimer) fetchStravaSegmentsSilently();
+      }
       sheet.setAttribute('role', 'dialog');
     } else {
       sheet.removeAttribute('role');
       input.blur();
+      traditionalInput.blur();
       requestAnimationFrame(syncIdeaEntryHeight);
     }
     backdrop.classList.remove('is-open');
@@ -4324,11 +4859,171 @@ document.addEventListener('DOMContentLoaded', () => {
     sheet.removeAttribute('aria-modal');
   };
   const close = () => setExpanded(false);
+
+  const traditionalForm = document.getElementById('traditional-search');
+  const suggestions = document.getElementById('traditional-search-suggestions');
+  const searchHistory = document.getElementById('traditional-search-history');
+  const historyTerms = document.getElementById('traditional-history-terms');
+  const nearbySegments = document.getElementById('traditional-nearby-segments');
+  const historyKey = 'veloroam-traditional-search-history';
+  const historyLimit = 6;
+  let recentSearches = [];
+  try {
+    const saved = JSON.parse(localStorage.getItem(historyKey));
+    if (Array.isArray(saved)) recentSearches = saved.filter(term => typeof term === 'string' && term.trim() && term.length <= 120).slice(0, historyLimit);
+  } catch (_) { /* Keep search history in memory when storage is unavailable. */ }
+
+  const renderTraditionalHistory = () => {
+    searchHistory.hidden = recentSearches.length === 0;
+    historyTerms.replaceChildren(...recentSearches.map(term => {
+      const button = document.createElement('button');
+      button.type = 'button';
+      button.textContent = term;
+      button.addEventListener('click', () => {
+        traditionalInput.value = term;
+        traditionalForm.requestSubmit();
+      });
+      return button;
+    }));
+  };
+  const saveTraditionalHistory = () => {
+    try { localStorage.setItem(historyKey, JSON.stringify(recentSearches)); }
+    catch (_) { /* Keep the current session's history. */ }
+    renderTraditionalHistory();
+  };
+  const rememberTraditionalQuery = () => {
+    const query = traditionalInput.value.trim();
+    if (!query || query === recentSearches[0]) return;
+    const normalized = query.toLocaleLowerCase();
+    recentSearches = [query, ...recentSearches.filter(term => term.toLocaleLowerCase() !== normalized)].slice(0, historyLimit);
+    saveTraditionalHistory();
+  };
+  const openTraditionalResult = (type, item, button) => {
+    traditionalInput.blur();
+    if (type === 'segment') {
+      showStravaSegmentDetails(item, button);
+      dimAllOtherSegments(item.id);
+      drawSingleStravaSegment(item, false);
+      const points = item.coordinates.map(point => [point.lat, point.lng]);
+      map.fitBounds(L.latLngBounds(points), visibleMapFitOptions({ padding: [36, 36], maxZoom: 16 }));
+    } else {
+      focusMapOnSearchResult(item);
+    }
+    document.getElementById(type === 'segment' ? 'segment-popover-close' : 'place-details-close').focus({ preventScroll: true });
+  };
+  const renderTraditionalNearby = () => {
+    if (planningMode !== 'traditional' || !expanded || suggestions.hidden) return;
+    const center = map.getCenter();
+    const ranked = [];
+    for (const segment of allFetchedSegments.values()) {
+      const score = getSegmentDisplayScore(segment);
+      const length = Number(segment.distanceKm);
+      if (!(score > 0) || !(segment.coordinates?.length >= 2) || !Number.isFinite(length) || length <= 0) continue;
+      const start = segmentStartPoint(segment);
+      if (!start) continue;
+      const distance = getLatLngDistance(center.lat, center.lng, start.lat, start.lng) / 1000;
+      if (distance <= 5) ranked.push({ segment, score, distance, length });
+    }
+    ranked.sort((a, b) => b.score - a.score || a.distance - b.distance);
+    if (!ranked.length) {
+      const message = document.createElement('p');
+      message.className = 'idea-search-feedback';
+      message.textContent = '附近暂未加载到有评分的路段';
+      nearbySegments.replaceChildren(message);
+      return;
+    }
+    nearbySegments.replaceChildren(...ranked.slice(0, 5).map(({ segment, score, distance, length }) => {
+      const scoreLabel = score.toLocaleString('zh-CN', { maximumFractionDigits: 1 });
+      const detail = `评分 ${scoreLabel} · ${length.toFixed(1)} 公里 · 距地图中心 ${distance.toFixed(1)} 公里`;
+      const button = createSearchResultButton('fa-route', segment.name || '未命名路段', detail,
+        () => openTraditionalResult('segment', segment, button));
+      return button;
+    }));
+  };
+  const traditionalSearch = bindNavigationSearch(traditionalForm, traditionalInput,
+    document.getElementById('traditional-search-status'), document.getElementById('traditional-search-results'), (type, item, button) => {
+      rememberTraditionalQuery();
+      openTraditionalResult(type, item, button);
+    }, { onQueryChange: query => {
+      suggestions.hidden = Boolean(query);
+      if (!query) renderTraditionalNearby();
+    } });
+  traditionalForm.addEventListener('submit', rememberTraditionalQuery);
+  document.getElementById('traditional-history-clear').addEventListener('click', () => {
+    recentSearches = [];
+    saveTraditionalHistory();
+  });
+  renderTraditionalHistory();
+  map.on('moveend stravasegmentsloaded', renderTraditionalNearby);
+  const reducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)');
+  let modeAnimations = [];
+  const switchPlanningView = (outgoing, incoming) => {
+    const animate = !reducedMotion.matches && typeof incoming.animate === 'function';
+    const startingFrame = view => {
+      if (view.hidden) return { opacity: 0, transform: 'translateY(6px)' };
+      const style = getComputedStyle(view);
+      return { opacity: style.opacity, transform: style.transform };
+    };
+    const from = animate && startingFrame(outgoing);
+    const to = animate && startingFrame(incoming);
+    modeAnimations.forEach(animation => animation.cancel());
+    modeAnimations = [];
+    outgoing.inert = true;
+    incoming.hidden = false;
+    incoming.inert = false;
+    if (!animate) {
+      outgoing.hidden = true;
+      return;
+    }
+    const exit = outgoing.animate([from, { opacity: 0, transform: 'translateY(-5px)' }],
+      { duration: 160, easing: 'ease-out', fill: 'forwards' });
+    exit.onfinish = () => {
+      if (outgoing.inert) outgoing.hidden = true;
+      exit.cancel();
+    };
+    modeAnimations = [exit, incoming.animate([to, { opacity: 1, transform: 'translateY(0)' }],
+      { duration: 240, easing: 'cubic-bezier(.2, .8, .2, 1)' })];
+  };
+  const setPlanningMode = mode => {
+    if (mode === planningMode && expanded && !sheet.inert) return;
+    closeMapDetailSheet();
+    if (mode !== planningMode) {
+      const isAI = mode === 'ai';
+      planningMode = mode;
+      switchPlanningView(isAI ? traditionalView : aiView, isAI ? aiView : traditionalView);
+      aiModeButton.setAttribute('aria-pressed', String(isAI));
+      traditionalModeButton.setAttribute('aria-pressed', String(!isAI));
+      sheet.setAttribute('aria-label', isAI ? '骑行想法' : '传统导航');
+      if (isAI) {
+        traditionalSearch.cancel();
+        requestAnimationFrame(resizeIdeaInput);
+      } else {
+        clearPlaceSearch();
+        traditionalSearch.refresh();
+      }
+    }
+    setExpanded(expanded ? sheetState : 'half', { allowDesktopHalf: true });
+  };
+  aiModeButton.addEventListener('click', () => setPlanningMode('ai'));
+  traditionalModeButton.addEventListener('click', () => setPlanningMode('traditional'));
+  traditionalInput.addEventListener('focus', () => { if (!expanded) setExpanded('half', { allowDesktopHalf: true }); });
+  document.addEventListener('place-navigation-closed', () => {
+    if (planningMode === 'traditional') setExpanded('half', { allowDesktopHalf: true });
+  });
+
   document.getElementById('segment-navigate').addEventListener('click', () => {
     if (!desktopSheet.matches && detailSheet.classList.contains('is-collapsed')) setDetailState('half');
     navigateSegmentRoundTrip();
   });
-  document.addEventListener('segment-detail-open', () => setExpanded('collapsed'));
+  document.addEventListener('map-detail-opening', () => {
+    if (!desktopSheet.matches) {
+      if (sheet.contains(document.activeElement)) document.activeElement.blur();
+      setExpanded('collapsed');
+    }
+  });
+  document.getElementById('place-details-close').addEventListener('click', () => {
+    if (!desktopSheet.matches) setExpanded('half', { allowDesktopHalf: true });
+  });
   document.getElementById('segment-popover-close').addEventListener('click', () => {
     if (desktopSheet.matches) { closeStravaSegmentDetails(); return; }
     const panel = document.getElementById('strava-details-panel');
@@ -4394,14 +5089,16 @@ document.addEventListener('DOMContentLoaded', () => {
   const nearbyDetailActive = () => document.getElementById('nearby-route-detail').classList.contains('active');
   const segmentDetailActive = () => document.getElementById('strava-details-panel').classList.contains('active');
   const ideaRouteDetailActive = () => document.getElementById('idea-route-panel').classList.contains('active');
-  const compactDetailActive = () => nearbyDetailActive() || segmentDetailActive() || ideaRouteDetailActive();
+  const placeDetailActive = () => document.getElementById('place-details-panel').classList.contains('active');
+  const compactDetailActive = () => nearbyDetailActive() || segmentDetailActive() || ideaRouteDetailActive() || placeDetailActive();
   const getDetailDetents = () => {
     const detents = getSheetDetents();
     if (!compactDetailActive()) return detents;
     const nearby = nearbyDetailActive();
     const segment = segmentDetailActive();
-    const heading = detailSheet.querySelector(nearby ? '.idea-nearby-summary-heading' : segment ? '#strava-details-panel .segment-detail-heading' : '#idea-route-panel .segment-detail-heading');
-    const footer = nearby ? detailSheet.querySelector('.nearby-route-footer') : segment ? detailSheet.querySelector('#map-detail-actions') : null;
+    const place = placeDetailActive();
+    const heading = detailSheet.querySelector(nearby ? '.idea-nearby-summary-heading' : segment ? '#strava-details-panel .segment-detail-heading' : place ? '#place-details-panel .segment-detail-heading' : '#idea-route-panel .segment-detail-heading');
+    const footer = nearby ? detailSheet.querySelector('.nearby-route-footer') : segment ? detailSheet.querySelector('#map-detail-actions') : place ? detailSheet.querySelector('#place-detail-actions') : detailSheet.querySelector('#idea-route-actions:not([hidden])');
     const style = getComputedStyle(detailSheet);
     const summary = nearby && detailSheet.querySelector('.idea-nearby-summary');
     const summaryStyle = summary && getComputedStyle(summary);
@@ -4420,6 +5117,7 @@ document.addEventListener('DOMContentLoaded', () => {
       detailSheet.querySelector('.nearby-route-detail .idea-nearby-card').scrollTop = 0;
     }
     if (state === 'collapsed' && segmentDetailActive()) document.getElementById('strava-details-panel').scrollTop = 0;
+    if (state === 'collapsed' && placeDetailActive()) document.getElementById('place-details-panel').scrollTop = 0;
     if (state === 'collapsed' && ideaRouteDetailActive()) document.getElementById('idea-route-panel').scrollTop = 0;
     detailSheet.classList.toggle('is-full', state === 'full');
     detailSheet.classList.toggle('is-collapsed', state === 'collapsed');
@@ -4428,7 +5126,7 @@ document.addEventListener('DOMContentLoaded', () => {
   };
   document.addEventListener('chat-route-open', () => {
     input.blur();
-    setExpanded('collapsed');
+    if (!desktopSheet.matches) setExpanded('collapsed');
     setDetailState('half');
   });
   let detailDragStart = null;
@@ -4460,7 +5158,7 @@ document.addEventListener('DOMContentLoaded', () => {
     detailDragHeight = Math.max(collapsed, Math.min(full, detailStartHeight + detailDragDistance));
     const layout = getSheetDragLayout(detailDragHeight, collapsed, half, full, document.documentElement.clientWidth);
     if (compactDetailActive() && detailDragHeight <= half) {
-      layout.width = document.documentElement.clientWidth - 16;
+      layout.width = document.documentElement.clientWidth;
       layout.bottomInset = 0;
       layout.bottomRadius = 0;
     }
@@ -4498,7 +5196,7 @@ document.addEventListener('DOMContentLoaded', () => {
     if (desktopSheet.matches) { closeMapDetailSheet(); return; }
     if (detailDragged) { detailDragged = false; return; }
     if (detailSheet.classList.contains('is-collapsed')) setDetailState('half');
-    else if (detailSheet.classList.contains('is-full') && compactDetailActive()) setDetailState('half');
+    else if (detailSheet.classList.contains('is-full') && (compactDetailActive() || placeRouteActive)) setDetailState('half');
     else if (detailSheet.classList.contains('is-full')) closeMapDetailSheet();
     else {
       setDetailState('full');
@@ -4516,7 +5214,7 @@ document.addEventListener('DOMContentLoaded', () => {
     if (detailTouchStart === null) return;
     const y = event.touches[0].clientY;
     const delta = detailTouchStart - y;
-    const scroller = event.target.closest('.idea-route-panel, .place-details-panel, .idea-segment-detail, .nearby-route-detail .idea-nearby-card, .nearby-route-detail');
+    const scroller = event.target.closest('.navigation-route-content, .idea-route-panel, .place-details-panel, .idea-segment-detail, .nearby-route-detail .idea-nearby-card, .nearby-route-detail');
     const atTop = !scroller || scroller.scrollTop <= 0;
     const atBottom = !scroller || scroller.scrollTop + scroller.clientHeight >= scroller.scrollHeight - 1;
     const canMove = delta > 0 ? !detailSheet.classList.contains('is-full') && (atTop || atBottom) : atTop;
@@ -4528,22 +5226,15 @@ document.addEventListener('DOMContentLoaded', () => {
   detailSheet.addEventListener('keydown', event => { if (event.key === 'Escape') closeMapDetailSheet(); });
 
   const resizeIdeaInput = () => {
-    inputMirror.textContent = input.value;
-    mirrorInner.style.transform = 'none';
-    input.style.height = 'auto';
     const viewportHeight = window.visualViewport?.height || window.innerHeight;
-    const limit = Math.min(240, Math.max(72, Math.floor(viewportHeight * 0.3)));
-    const textHeight = input.scrollHeight;
-    const hint = mirrorInner.querySelector('.idea-input-hint');
-    hint.classList.toggle('is-wrapped', Boolean(input.value) && mirrorInner.scrollHeight > textHeight + 1);
-    input.style.height = `${Math.min(textHeight, limit)}px`;
-    input.style.overflowY = input.scrollHeight > limit ? 'auto' : 'hidden';
-    mirrorInner.style.transform = `translateY(${-input.scrollTop}px)`;
+    input.style.maxHeight = `${Math.min(240, Math.max(72, Math.floor(viewportHeight * 0.3)))}px`;
+    input.classList.toggle('is-empty', !input.value.trim() && !input.querySelector('.idea-reference-chip'));
   };
   sendButton.addEventListener('pointerdown', event => event.preventDefault());
-  input.addEventListener('scroll', () => { mirrorInner.style.transform = `translateY(${-input.scrollTop}px)`; });
   const syncSendButton = () => { sendButton.hidden = !input.value.trim(); };
-  input.addEventListener('input', () => { resizeIdeaInput(); syncSendButton(); });
+  input.addEventListener('input', () => { syncReferences(); resizeIdeaInput(); syncSendButton(); });
+  input.addEventListener('beforeinput', event => { if (!event.isComposing && event.inputType === 'insertText' && event.data && input.value.length + event.data.length > 500 && window.getSelection()?.isCollapsed) event.preventDefault(); });
+  input.addEventListener('paste', event => { event.preventDefault(); const text = (event.clipboardData?.getData('text/plain') || '').slice(0, Math.max(0, 500 - input.value.length)); document.execCommand('insertText', false, text); });
   input.addEventListener('focus', () => {
     if (sheetState !== 'full') setExpanded('full');
     requestAnimationFrame(resizeIdeaInput);
@@ -4886,7 +5577,7 @@ document.addEventListener('DOMContentLoaded', () => {
   let touchDragging = false;
   sheet.addEventListener('touchstart', event => {
     if (desktopSheet.matches) return;
-    if (event.target.closest('.idea-handle, textarea, input, select')) return;
+    if (event.target.closest('.idea-handle, .idea-place-results, textarea, input, select, [contenteditable]')) return;
     touchStart = event.touches[0].clientY; touchDragging = false;
   }, { passive: true });
   sheet.addEventListener('touchmove', event => {
@@ -4903,7 +5594,7 @@ document.addEventListener('DOMContentLoaded', () => {
   sheet.addEventListener('touchend', () => { if (touchDragging) finishDrag(); touchStart = null; touchDragging = false; });
   sheet.addEventListener('touchcancel', () => { if (touchDragging) finishDrag(true); touchStart = null; touchDragging = false; });
   sheet.addEventListener('keydown', event => {
-    if (event.key === 'Escape' && !addMenu.hidden) { event.preventDefault(); closeAddMenu(); return; }
+    if (event.key === 'Escape' && event.target === addMenu) return;
     if (event.key === 'Escape' && event.target === more) return;
     if (event.key === 'Escape') { if (!historyPanel.hidden) { showConversation(); more.focus({ preventScroll: true }); } else close(); return; }
 
@@ -4914,7 +5605,7 @@ document.addEventListener('DOMContentLoaded', () => {
   });
   document.getElementById('idea-form').addEventListener('submit', async event => {
     event.preventDefault();
-    const idea = input.value.trim();
+    const idea = serializeIdea(true).trim();
     const submittedReferences = pendingReferences.map(ref => ({ type: ref.type, item: { ...ref.item } }));
     if (!idea) { input.focus(); return; }
     if (ideaSending) return;
@@ -4953,8 +5644,9 @@ document.addEventListener('DOMContentLoaded', () => {
     content.querySelector('.idea-examples')?.remove();
     const sourceRect = input.getBoundingClientRect();
     const bubble = document.createElement('div'); bubble.className = 'idea-user-message';
-    submittedReferences.forEach(ref => { const chip = document.createElement('span'); chip.className = `idea-message-reference is-${ref.type}`; chip.textContent = ref.item.name || '未命名'; chip.setAttribute('aria-label', `${ref.type === 'segment' ? '路段' : ref.type === 'route' ? '路线' : '地点'}：${chip.textContent}`); bubble.append(chip); });
-    const messageText = document.createElement('span'); messageText.textContent = idea; bubble.append(messageText);
+    const message = input.cloneNode(true);
+    message.querySelectorAll('.idea-reference-chip').forEach(chip => { const label = chip.querySelector('span'); const badge = document.createElement('span'); badge.className = chip.className.replace('idea-reference-chip', 'idea-message-reference'); badge.textContent = label?.textContent || ''; chip.replaceWith(badge); });
+    bubble.append(...message.childNodes);
     pendingReferences = []; renderReferences();
     content.append(bubble); input.value = ''; resizeIdeaInput(); syncSendButton();
     syncIdeaNavigation();
@@ -4962,11 +5654,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const heading = document.createElement('button'); heading.type = 'button'; heading.className = 'idea-progress-title is-thinking';
     heading.setAttribute('aria-expanded', 'true');
     const headingText = document.createElement('span'); headingText.textContent = '正在思考';
-    const chevron = document.createElementNS('http://www.w3.org/2000/svg', 'svg');
-    chevron.setAttribute('viewBox', '0 0 1024 1024'); chevron.setAttribute('aria-hidden', 'true');
-    const path = document.createElementNS('http://www.w3.org/2000/svg', 'path');
-    path.setAttribute('d', 'M192 384l320 320 320-320-90.5-90.5L512 522.7 282.5 293.5z'); path.setAttribute('fill', 'currentColor'); chevron.append(path);
-    heading.append(headingText, chevron);
+    heading.append(headingText, createDisclosureChevron());
     const steps = document.createElement('ol'); steps.className = 'idea-progress-steps is-loading';
     heading.addEventListener('click', () => { const expanded = heading.getAttribute('aria-expanded') !== 'true'; heading.setAttribute('aria-expanded', String(expanded)); steps.hidden = !expanded; });
     status.append(heading, steps); content.append(status);
@@ -5118,6 +5806,17 @@ async function readIdeaStream(response, onProgress, onTitle = () => { }) {
   return result;
 }
 
+function createDisclosureChevron() {
+  const chevron = document.createElementNS('http://www.w3.org/2000/svg', 'svg');
+  chevron.setAttribute('viewBox', '0 0 1024 1024');
+  chevron.setAttribute('aria-hidden', 'true');
+  const path = document.createElementNS('http://www.w3.org/2000/svg', 'path');
+  path.setAttribute('d', 'M192 384l320 320 320-320-90.5-90.5L512 522.7 282.5 293.5z');
+  path.setAttribute('fill', 'currentColor');
+  chevron.append(path);
+  return chevron;
+}
+
 function renderCompositeLegs(list, legs) {
   list.replaceChildren();
   (legs || []).forEach(leg => {
@@ -5140,9 +5839,12 @@ function closeIdeaRoutePanel() {
   const panel = document.getElementById('idea-route-panel');
   panel?.classList.remove('active');
   panel?.setAttribute('aria-hidden', 'true');
+  document.dispatchEvent(new CustomEvent('idea-route-actions-update', { detail: null }));
   syncMapDetailSheet();
 }
 function showIdeaRoutePanel(trigger = null) {
+  if (!ideaActiveRoute) return;
+  if (document.getElementById('nearby-route-detail')?.classList.contains('active')) document.dispatchEvent(new Event('nearby-route-close'));
   if (!ideaActiveRoute) return;
   document.getElementById('map-detail-sheet').classList.remove('is-closing-route');
   document.getElementById('idea-route-panel').inert = false;
@@ -5170,8 +5872,10 @@ function showIdeaRoutePanel(trigger = null) {
   note.textContent = composite ? [composite.distanceNote, composite.note, '出发前请查看沿途天气，并留意路况变化。'].filter(Boolean).join(' ') : '';
   note.hidden = !note.textContent;
   const panel = document.getElementById('idea-route-panel');
+  prepareMapDetailView();
   panel.classList.add('active');
   panel.removeAttribute('aria-hidden');
+  document.dispatchEvent(new CustomEvent('idea-route-actions-update', { detail: composite ? { route, name: '完整骑行路线' } : null }));
   const directionPoints = composite
     ? route.legs.flatMap(leg => leg.points || [])
     : route.polyline ? decodePolyline(route.polyline) : [];
@@ -5219,25 +5923,29 @@ function showCompositeIdeaRoute(data, close) {
 }
 
 function showIdeaOnMap(item, close) {
+  if (document.getElementById('nearby-route-detail')?.classList.contains('active')) document.dispatchEvent(new Event('nearby-route-close'));
   clearIdeaSegmentPreview();
   closeIdeaRoutePanel(); ideaActiveRoute = null;
+  prepareMapDetailView();
   restoreExplorationSegments('idea');
   if (!ideaMapLayer) ideaMapLayer = L.layerGroup().addTo(map);
   ideaMapLayer.clearLayers();
   if (item.type === 'segment' && item.coordinates?.length) {
     const line = L.polyline(item.coordinates.map(p => [p.lat, p.lng]), { color: '#66e9a0', weight: 5 }).addTo(ideaMapLayer);
-    map.fitBounds(line.getBounds(), visibleMapFitOptions({ padding: [60, 60], maxZoom: 16 }));
+    map.fitBounds(line.getBounds(), visibleMapFitOptions({ padding: [60, 60], maxZoom: 16 }, true));
   } else {
     const marker = L.circleMarker([item.lat, item.lng], { radius: 9, color: '#d9ffe5', fillColor: '#00e676', fillOpacity: 1, weight: 3 }).addTo(ideaMapLayer);
     const showPlace = () => {
       closeStravaSegmentDetails();
+      closeIdeaRoutePanel();
+      if (selectedPlace) clearSelectedPlace();
       selectedPlace = { lat: Number(item.lat), lng: Number(item.lng), name: item.name || '未命名地点', address: item.address || '', rating: item.rating };
-      placeRouteActive = false;
+      prepareMapDetailView();
       syncPlaceDetailsVisibility();
     };
     marker.on('click', event => { L.DomEvent.stopPropagation(event); showPlace(); });
-    map.flyTo([item.lat, item.lng], 15);
     showPlace();
+    flyToVisibleMapCenter([item.lat, item.lng], 15);
     return;
   }
   if (item.type === 'segment') {
