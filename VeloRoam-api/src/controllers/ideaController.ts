@@ -262,6 +262,28 @@ export interface IdeaControllerDependencies {
   resolve: typeof resolvePlace; search: typeof searchNamedPlaces; isConfigured: () => boolean; toolCaller?: ToolModelCall;
 }
 
+function routeConfirmation(intent: ConversationIntent): object {
+  const end = intent.returnToStart ? (intent.origin || '当前位置（返回出发地）') : (intent.destination || '当前位置');
+  const distance = [intent.targetKm != null ? `全程目标约 ${intent.targetKm} 公里` : '', intent.minKm != null ? `不少于 ${intent.minKm} 公里` : '', intent.maxKm != null ? `不超过 ${intent.maxKm} 公里` : ''].filter(Boolean).join('，');
+  const time = [intent.targetMinutes != null ? `目标约 ${intent.targetMinutes} 分钟` : '', intent.minMinutes != null ? `不少于 ${intent.minMinutes} 分钟` : '', intent.maxMinutes != null ? `不超过 ${intent.maxMinutes} 分钟` : ''].filter(Boolean).join('，');
+  const stops = intent.stops.map(s => s.name || s.kind || (s.type === 'segment' ? '骑行路段' : '途经点'));
+  if (!stops.length) {
+    if (intent.needsSegment) stops.push(intent.segmentName || '骑行路段');
+    if (intent.needsPoint) stops.push(intent.pointName || intent.pointKind || '途经点');
+  }
+  const lines = [`出发：${intent.origin || '当前位置'}`, `结束：${end}`];
+  if (intent.place) lines.push(`目标区域：${intent.place}（作为方向参考）`);
+  if (stops.length) lines.push(`途经顺序：${stops.join(' → ')}`);
+  if (distance) lines.push(`距离：${distance}`);
+  if (time) lines.push(`时间：${time}${intent.timeScope === 'total' ? '（含停留）' : intent.timeScope === 'riding' ? '（骑行时间）' : ''}`);
+  if (intent.stopMinutes != null) lines.push(`停留：${intent.stopMinutes} 分钟`);
+  if (intent.preferences.length) lines.push(`体验与要求：${intent.preferences.join('、')}`);
+  const tags: Record<string, string> = { climbing: '爬坡', loop: '绕圈路段', out_and_back: '往返路段', long_distance: '长距离路段', popular: '热门路段', highly_starred: '高评分路段' };
+  if (intent.preferredTags.length) lines.push(`偏好路段：${intent.preferredTags.map(tag => tags[tag]).join('、')}`);
+  if (intent.avoidTags.length) lines.push(`希望避开：${intent.avoidTags.map(tag => tags[tag]).join('、')}`);
+  return { message: `我理解的骑行需求是：\n${lines.join('\n')}\n请确认这些条件，或直接告诉我需要修改的地方。`, options: ['确认，开始规划'], items: [] };
+}
+
 export function createIdeaController(overrides: Partial<IdeaControllerDependencies> = {}) {
   const baseDeps: IdeaControllerDependencies = { model: invokeIdeaJson, plan: planFromIntent, near: candidatesNear,
     resolve: resolveRoutePlace, search: searchNamedPlaces, isConfigured: () => !!process.env.DEEPSEEK_API_KEY, ...overrides };
@@ -297,6 +319,7 @@ export function createIdeaController(overrides: Partial<IdeaControllerDependenci
   let conversationTitle = '';
   let conversationIntent = sanitizeConversationIntent(req.body?.previousIntent);
   let placeContext: PlaceContext | null = sanitizePlaceContext(req.body?.placeContext);
+  const confirmed = conversationIntent?.confirmationPending === true && /^(确认，开始规划|确认,开始规划|确认|确定|是的|没错|可以|好|好的|对|对的|行|开始规划)[。！!\s]*$/.test(idea);
   const stream = (req.get('accept') || '').includes('text/event-stream');
   if (stream) {
     res.status(200).set({ 'Content-Type': 'text/event-stream; charset=utf-8', 'Cache-Control': 'no-cache, no-transform', 'X-Accel-Buffering': 'no' });
@@ -312,8 +335,8 @@ export function createIdeaController(overrides: Partial<IdeaControllerDependenci
   };
   try {
     sendEvent('progress', { stage: '理解你的消息' });
-    return await runIdeaGraph({
-    interpret: () => interpret({ previousIntent: conversationIntent, placeContext, history, idea }),
+    const result = await runIdeaGraph({
+    interpret: () => confirmed ? Promise.resolve({ ...conversationIntent, mode: 'route', confirmationPending: false, selectedCandidateId: placeContext?.selectedId || null }) : interpret({ previousIntent: conversationIntent, placeContext, history, idea }),
     shouldGround: intent => { if (intent.newConversation === true) { placeContext = null; conversationIntent = null; } return Boolean((intent.lookup && typeof intent.lookup.name === 'string' && intent.lookup.name.trim()) || intent.selectedCandidateId || (placeContext && ['route', 'recommend'].includes(intent.mode))); },
     ground: async intent => {
       const lookupName = typeof intent.lookup?.name === 'string' ? intent.lookup.name.trim().slice(0, 80) : '';
@@ -337,25 +360,25 @@ export function createIdeaController(overrides: Partial<IdeaControllerDependenci
     },
     respond: async (intent, grounding) => {
     const updatedIntent = sanitizeConversationIntent(intent);
-    if (updatedIntent && !updatedIntent.requestType && intent.mode === 'clarify' && conversationIntent?.requestType && ['budget', 'budget_and_preference', 'preference', 'order', 'destination'].includes(intent.clarificationKind)) updatedIntent.requestType = conversationIntent.requestType;
-    if (updatedIntent) conversationIntent = updatedIntent;
+    if (updatedIntent && !updatedIntent.requestType && intent.mode === 'clarify' && conversationIntent?.requestType && ['budget', 'budget_and_preference', 'preference', 'order', 'destination', 'scope'].includes(intent.clarificationKind)) updatedIntent.requestType = conversationIntent.requestType;
+    if (updatedIntent) conversationIntent = { ...updatedIntent, confirmationPending: false };
     if (typeof intent.title === 'string') {
       const rawTitle = intent.title.replace(/[\r\n]/g, ' ').trim();
       conversationTitle = Array.from(rawTitle).slice(0, 20).join('');
       if (conversationTitle && !history.length) sendEvent('title', { title: conversationTitle });
     }
-    if (!['answer', 'clarify', 'route', 'recommend'].includes(intent.mode)) return finish({ message: '你希望我帮你规划路线，还是推荐骑行路段或休息点？', options: clarificationOptions(null, 'purpose'), items: [] });
+    if (!['answer', 'clarify', 'route', 'recommend'].includes(intent.mode)) return { message: '你希望我帮你规划路线，还是推荐骑行路段或休息点？', options: clarificationOptions(null, 'purpose'), items: [] };
     const routeRequest = !!conversationIntent && (intent.mode === 'route' || (intent.mode === 'clarify' && conversationIntent.requestType === 'route'));
     if (grounding && (grounding.lookupName || grounding.selected) && !routeRequest && intent.mode !== 'clarify') {
       const candidates: Candidate[] = grounding.selected ? [grounding.selected] : grounding.candidates;
-      if (!candidates.length) return finish({ message: `暂未找到与“${placeContext?.query}”相关的可用路段或点位，也无法确认具体位置。可以提供所在区域或更具体的名称。`, items: [] });
+      if (!candidates.length) return { message: `暂未找到与“${placeContext?.query}”相关的可用路段或点位，也无法确认具体位置。可以提供所在区域或更具体的名称。`, items: [] };
       const items = candidates.slice(0, 6).map(candidate => ({ ...candidate, reason: grounding.matches.some((match: Candidate) => match.id === candidate.id) ? '名称相关的数据库记录' : '地点附近的数据库记录' }));
       placeContext = { ...placeContext!, candidates: items.map(x => ({ id: x.id, name: x.name, type: x.type })) };
-      return finish({ message: `找到与“${placeContext.query}”名称相关的数据库记录或地点附近的路段和点位；名称相近不一定是同一个地点，附近不代表处于区域边界内。你可以选择一个，或继续说明想去的区域。`, items, options: items.slice(0, 3).map(x => `选择${x.name}`) });
+      return { message: `找到与“${placeContext.query}”名称相关的数据库记录或地点附近的路段和点位；名称相近不一定是同一个地点，附近不代表处于区域边界内。你可以选择一个，或继续说明想去的区域。`, items, options: items.slice(0, 3).map(x => `选择${x.name}`) };
     }
-    if (intent.mode === 'answer' || (intent.mode === 'clarify' && (!routeRequest || intent.clarificationKind === 'order'))) {
+    if (intent.mode === 'answer' || (intent.mode === 'clarify' && (!routeRequest || intent.clarificationKind === 'order' || intent.clarificationKind === 'scope'))) {
       const reply = typeof intent.reply === 'string' ? intent.reply.trim().slice(0, 1200) : '';
-      return finish({ message: reply || '能再具体说说你的想法吗？', options: intent.mode === 'clarify' ? clarificationOptions(intent.options, intent.clarificationKind) : [], items: [] });
+      return { message: reply || '能再具体说说你的想法吗？', options: intent.mode === 'clarify' ? clarificationOptions(intent.options, intent.clarificationKind) : [], items: [] };
     }
     // Selection sees all recent user preferences, not only an elliptical follow-up.
     const combinedIdea = [...history.filter((turn: { role: string }) => turn.role === 'user').map((turn: { content: string }) => turn.content), idea].join('\n').slice(-5000);
@@ -367,39 +390,41 @@ export function createIdeaController(overrides: Partial<IdeaControllerDependenci
         const type = selected.type;
         const originalStops = conversationIntent.stops;
         const matches = originalStops.map((stop, index) => ({ stop, index })).filter(({ stop }) => stop.type === type && (!stop.name || stop.name === focus || stop.name === selected.name));
-        if (matches.length > 1 || (!matches.length && originalStops.length)) return finish({ message: '已选中该地点；请告诉我它在其他途经点之前还是之后。', items: [] });
+        if (matches.length > 1 || (!matches.length && originalStops.length)) return { message: '已选中该地点；请告诉我它在其他途经点之前还是之后。', items: [] };
         const selectedStop = { type, name: selected.name, kind: null };
         const preservedStops = originalStops.length ? originalStops.map((stop, index) => index === matches[0].index ? selectedStop : stop) : [selectedStop];
         conversationIntent = { ...conversationIntent, needsSegment: type === 'segment' || conversationIntent.needsSegment, segmentName: type === 'segment' ? selected.name : conversationIntent.segmentName, needsPoint: type === 'point' || conversationIntent.needsPoint, pointName: type === 'point' ? selected.name : conversationIntent.pointName, stops: preservedStops, order: preservedStops.map(stop => stop.type).slice(0, 2) };
-        return finish(await deps.plan(conversationIntent, combinedIdea, req.body.origin, req.body.originSource, stage => sendEvent('progress', { stage }), {
+        if (!confirmed) { conversationIntent.confirmationPending = true; return routeConfirmation(conversationIntent); }
+        return deps.plan(conversationIntent, combinedIdea, req.body.origin, req.body.originSource, stage => sendEvent('progress', { stage }), {
           named: async (center, name, preferences) => type === 'segment' && name === selected.name ? [selected] : findNamedSegments(center, name, preferences),
           model: async (system, input) => type === 'segment' && Array.isArray((input as any).segments) && (input as any).segments.some((item: any) => item.id === selected.id) ? { ids: [selected.id] } : deps.model(system, input),
           resolve: async name => name === selected.name ? { lat: selected.lat, lng: selected.lng } : resolveRoutePlace(name)
-        }));
+        });
       }
       if (focus && conversationIntent.segmentName === focus && placeContext?.area) {
         conversationIntent = { ...conversationIntent, place: focus, needsSegment: false, segmentName: null, stops: conversationIntent.stops.filter(stop => stop.type !== 'segment' || stop.name !== focus), order: conversationIntent.order.filter(type => type !== 'segment') };
       } else if (focus && !placeContext?.area) {
-        return finish({ message: `还无法确定“${focus}”具体指哪个路段或地点，请从已检索到的候选中选择，或提供更具体的位置。`, options: (placeContext?.candidates || []).slice(0, 3).map(x => `选择${x.name}`), items: [] });
+        return { message: `还无法确定“${focus}”具体指哪个路段或地点，请从已检索到的候选中选择，或提供更具体的位置。`, options: (placeContext?.candidates || []).slice(0, 3).map(x => `选择${x.name}`), items: [] };
       }
       if (focus && placeContext?.area && !conversationIntent.place) conversationIntent = { ...conversationIntent, place: focus };
+      if (!confirmed) { conversationIntent.confirmationPending = true; return routeConfirmation(conversationIntent); }
       const planned: any = await deps.plan(conversationIntent, combinedIdea, req.body.origin, req.body.originSource, stage => sendEvent('progress', { stage }));
       if (focus && placeContext?.area && planned.route) planned.note = [planned.note, '候选按地点中心附近检索，尚未校验行政区边界或区域内绕圈。'].filter(Boolean).join(' ');
-      return finish(planned);
+      return planned;
     }
     let center: Point = req.body.center;
     let area = '当前地图中心附近';
     if (typeof intent.place === 'string' && intent.place.trim()) {
       sendEvent('progress', { stage: '正在查找指定地点' });
       const found = await deps.resolve(intent.place.trim().slice(0, 80));
-      if (!found) return finish({ message: `暂时无法找到“${intent.place.slice(0, 80)}”，请尝试更具体的上海地点。`, items: [] });
+      if (!found) return { message: `暂时无法找到“${intent.place.slice(0, 80)}”，请尝试更具体的上海地点。`, items: [] };
       center = found;
       area = `${intent.place.slice(0, 80)}附近`;
     }
     sendEvent('progress', { stage: '正在检索附近点位与骑行路段' });
     const tagPreferences = requestedRouteTags(conversationIntent || { preferences: [], preferredTags: [], avoidTags: [] });
     const candidates = rankCandidatesByTags(await deps.near(center, .13, tagPreferences), tagPreferences);
-    if (!candidates.length) return finish({ message: `${area}暂时没有可推荐的点位或路段，请移动地图或换个地点试试。`, items: [] });
+    if (!candidates.length) return { message: `${area}暂时没有可推荐的点位或路段，请移动地图或换个地点试试。`, items: [] };
     sendEvent('progress', { stage: '正在结合想法筛选推荐' });
     const selection = await deps.model(RECOMMENDATION_PROMPT, { intent, idea: combinedIdea, area, candidates: candidates.map(({ coordinates, ...candidate }) => candidate) });
     const ids = new Set<string>();
@@ -411,9 +436,10 @@ export function createIdeaController(overrides: Partial<IdeaControllerDependenci
     });
     const rankedItems = rankCandidatesByTags(items, tagPreferences);
     if (rankedItems.length) placeContext = { query: area, terms: [], area: null, selectedId: null, candidates: rankedItems.map(x => ({ id: x.id, type: x.type, name: x.name })) };
-    return finish({ message: rankedItems.length ? `为你找到${area}的推荐` : '暂时没有找到符合想法的结果，请换个描述试试。', center, area, items: rankedItems });
+    return { message: rankedItems.length ? `为你找到${area}的推荐` : '暂时没有找到符合想法的结果，请换个描述试试。', center, area, items: rankedItems };
     }
-    });
+    }, metrics.requestId);
+    return finish(result);
   } catch (error: any) {
     console.error('[IdeaRecommendation] Request failed:', error.code || error.message);
     return finish({ error: '推荐暂时不可用，请稍后重试。' }, 502);

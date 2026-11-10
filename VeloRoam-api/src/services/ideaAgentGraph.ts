@@ -1,4 +1,6 @@
 import { Annotation, END, START, StateGraph } from '@langchain/langgraph';
+import { langSmithProjectCallbacks } from '../config/langsmith';
+import { IDEA_PROMPT_VERSION } from '../prompts/ideaPrompts';
 
 export interface PlaceCandidateRef { id: string; type: 'point' | 'segment'; name: string }
 export interface PlaceContext { query: string; terms: string[]; candidates: PlaceCandidateRef[]; selectedId: string | null; area: string | null }
@@ -30,7 +32,7 @@ export async function runIdeaGraph<T>(steps: {
   shouldGround: (interpretation: any) => boolean;
   ground: (interpretation: any) => Promise<any>;
   respond: (interpretation: any, grounding: any) => Promise<T>;
-}): Promise<T> {
+}, requestId: string): Promise<T> {
   const graph = new StateGraph(State)
     .addNode('interpret', async () => ({ interpretation: await steps.interpret() }))
     .addNode('ground', async state => ({ grounding: await steps.ground(state.interpretation) }))
@@ -40,6 +42,11 @@ export async function runIdeaGraph<T>(steps: {
     .addEdge('ground', 'respond')
     .addEdge('respond', END)
     .compile();
-  const state = await graph.invoke({});
+  const state = await graph.invoke({}, {
+    callbacks: langSmithProjectCallbacks(),
+    runName: 'veloroam.idea.recommendations',
+    runId: requestId,
+    metadata: { request_id: requestId, prompt_version: IDEA_PROMPT_VERSION }
+  });
   return state.result as T;
 }

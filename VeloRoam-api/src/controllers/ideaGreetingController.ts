@@ -1,6 +1,7 @@
 import { Request, Response } from 'express';
 import axios from 'axios';
 import { ChatDeepSeek } from '@langchain/deepseek';
+import { langSmithProjectCallbacks } from '../config/langsmith';
 import { wgs84ToGcj02 } from '../utils/polyline';
 
 type Point = { lat: number; lng: number };
@@ -65,7 +66,7 @@ export const ideaGreeting = async (req: Request, res: Response) => {
     const response = await model.invoke([
       ['system', '你为骑行应用撰写对话开始前的标题。只输出JSON：{"greeting":"..."}。根据提供的当地时段、城市及当前天气，写一句自然、克制、有质感的中文问候或轻巧的问题，含标点必须为12到20个字符，不用emoji、引号或营销腔。根据给出的表达方向变化句式，不要反复使用“准备出发”或“想去哪骑行”等固定套话。只使用提供的信息；地点或天气为null时不要猜测或提及。天气是附近的模型估计，不要宣称适合安全骑行；遇到雨雪或雷雨不要鼓励立即出发。'],
       ['human', JSON.stringify({ localTime, location, weather, style, locationPrecision: !reliable || !position ? '未知' : source === 'ip' ? '城市大致位置' : '附近' })]
-    ]);
+    ], { runName: 'veloroam.idea.greeting', callbacks: langSmithProjectCallbacks() });
     if (typeof response.content !== 'string' || response.response_metadata?.finish_reason === 'length') throw new Error('Invalid greeting');
     const parsed = JSON.parse(response.content);
     const greeting = typeof parsed.greeting === 'string' ? Array.from(parsed.greeting.replace(/[\r\n]+/g, ' ').replace(/^[“”"']+|[“”"']+$/g, '').trim()).slice(0, 20).join('') : '';

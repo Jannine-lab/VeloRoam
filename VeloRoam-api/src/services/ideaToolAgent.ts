@@ -1,5 +1,6 @@
 import { performance } from 'node:perf_hooks';
 import { AIMessage, BaseMessage, HumanMessage, SystemMessage, ToolMessage } from '@langchain/core/messages';
+import { DynamicTool } from '@langchain/core/tools';
 import { z } from 'zod';
 import type { Candidate } from '../controllers/ideaController';
 import { INTENT_PROMPT, TOOL_POLICY_PROMPT } from '../prompts/ideaPrompts';
@@ -89,7 +90,7 @@ export async function runIdeaToolAgent(options: {
         if (!call.id || callIds.has(call.id)) throw new Error('Missing or duplicate tool call id');
         callIds.add(call.id);
         if (round === 2 || metrics.toolCalls.length >= 4) { status = 'budget'; result = { error: 'tool_budget_exceeded' }; }
-        else if (!parsed?.success) { status = 'invalid'; result = { error: 'invalid_tool_or_arguments' }; }
+        else if (!definition || !parsed?.success) { status = 'invalid'; result = { error: 'invalid_tool_or_arguments' }; }
         else {
           const args = parsed.data as { name?: string; terms?: string[]; id?: string };
           const key = `${call.name}:${stableJson(args)}`;
@@ -97,7 +98,7 @@ export async function runIdeaToolAgent(options: {
           else {
             options.onProgress?.(call.name === 'resolve_place' ? '正在解析地点' : '正在核实路段与点位');
             try {
-              result = await bounded(async () => {
+              const execute = async () => {
                 if (call.name === 'search_candidates') {
                   // Keep the factual query grounded even if the model drops lookup in its final JSON.
                   lookupEvidence ??= { name: args.name!, terms: args.terms || [], kind: 'ambiguous' };
@@ -112,7 +113,13 @@ export async function runIdeaToolAgent(options: {
                 if (!ref) return { status: 'not_found', candidate: null };
                 const candidate = (await options.search(ref.name, [])).find(item => item.id === args.id && item.hazardous !== true);
                 return { status: candidate ? 'found' : 'not_found', candidate: candidate ? summary(candidate) : null };
-              }, controller.signal, options.toolTimeoutMs ?? 8000);
+              };
+              const tool = new DynamicTool({
+                name: definition.name,
+                description: definition.description,
+                func: () => bounded(execute, controller.signal, options.toolTimeoutMs ?? 8000)
+              });
+              result = await tool.invoke(JSON.stringify(args), { runName: definition.name });
               cache.set(key, result);
             } catch { status = 'error'; result = { error: 'tool_unavailable' }; }
           }

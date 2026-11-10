@@ -4,8 +4,8 @@ import { recommendIdeas } from '../controllers/ideaController';
 import { ideaDistanceRecommendations } from '../controllers/ideaDistanceController';
 import { ideaGreeting } from '../controllers/ideaGreetingController';
 import { planSegmentRoundTrip } from '../controllers/segmentRoundTripController';
-import { planFewestSignals, planRoute } from '../controllers/routeController';
-import { getStravaSegments, getStravaSegmentDetail } from '../controllers/stravaController';
+import { planFewestSignals, planRoute, planRouteWithStops } from '../controllers/routeController';
+import { getStravaSegments, getStravaSegmentDetail, searchStravaSegments } from '../controllers/stravaController';
 import { reverseGeocode, searchAddress } from '../controllers/geocodeController';
 import { getHotPoints, getScenicDiscoveries, getScenicMapPoints } from '../controllers/hotPointController';
 
@@ -19,9 +19,11 @@ router.post('/idea-greeting', ideaGreeting);
 router.post('/segment-round-trip', planSegmentRoundTrip);
 router.post('/plan', planRoute);
 router.post('/plan-fewest-signals', planFewestSignals);
+router.post('/plan-with-stops', planRouteWithStops);
 
 // GET /api/routes/strava-segments
 router.get('/strava-segments', getStravaSegments);
+router.get('/strava-segments/search', searchStravaSegments);
 router.get('/strava-segments/:id', getStravaSegmentDetail);
 
 // GET /api/routes/hot-points

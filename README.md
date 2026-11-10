@@ -115,6 +115,14 @@ npm run eval:idea -- --concurrency=2
 
 评测使用固定替身检索和规划数据，不能代表真实地图算路质量。评测范围、工具调用及输出说明见[评测文档](docs/ai-tool-use-and-evaluation.md)。需要检查自主路线候选时，可按[调试说明](docs/autonomous-route-generator.md)启用仅限本机访问的调试页面。
 
+### LangSmith 追踪
+
+将 [环境变量示例](VeloRoam-api/.env.example) 中的 LangSmith 配置复制到后端 `.env`，填写 `LANGSMITH_API_KEY`，设置 `LANGSMITH_TRACING=true` 后重启 API。已有追踪项目时，将其 Tracing Project ID 填入 `LANGSMITH_PROJECT_ID`，VeloRoam 会优先使用该 ID。也可以按名称配置 `LANGSMITH_PROJECT`，示例名称为 `veloroam`。如果工作区按 Agent 和环境组织追踪，可将目标环境的 `tracer_session_name` 用作项目名。使用跨工作区密钥时填写 `LANGSMITH_WORKSPACE_ID`，非默认区域则设置 `LANGSMITH_ENDPOINT`。[LangSmith 配置文档](https://docs.langchain.com/langsmith/trace-with-langchain) · [按项目 ID 写入](https://docs.langchain.com/langsmith/trace-with-api)
+
+发起一次「骑行想法」对话后，在 LangSmith 查找 `veloroam.idea.recommendations`。响应中的 `meta.requestId` 对应该轮 Trace ID。展开记录可查看意图理解、检索和响应节点，以及 DeepSeek 调用和实际执行的检索工具。首页 AI 问候以 `veloroam.idea.greeting` 单独记录。
+
+示例配置隐藏输入和输出，仍可查看调用耗时、错误、Token 用量和提示词版本。调试合成用例时，可将 `LANGSMITH_HIDE_INPUTS` 和 `LANGSMITH_HIDE_OUTPUTS` 设为 `false` 查看内容。开启内容记录后，用户消息、历史和路线位置可能会发送到 LangSmith。[LangSmith 隐私设置](https://docs.langchain.com/langsmith/mask-inputs-outputs)
+
 ## 数据采集与接口
 
 - `ENABLE_CRAWLER=true` 可在数据库初始化成功后启动 Strava 采集调度；`ENABLE_HOT_POINT_CRAWLER=true` 启动高德点位采集。两者默认不启动，会消耗外部 API 配额并写入数据库。

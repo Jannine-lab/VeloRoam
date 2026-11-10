@@ -38,7 +38,7 @@ export const ideaIntentSchema = z.object({
   lookup: z.object({ name: text, terms: z.array(z.string().min(2).max(80)).max(3), kind: z.enum(['area', 'segment', 'point', 'ambiguous']) }).nullable().optional(),
   selectedCandidateId: candidateIdSchema.nullable().optional(), title: z.string().max(80).optional(),
   reply: z.string().max(1200).nullable().optional(), options: z.array(z.string().max(80)).max(3).optional(),
-  clarificationKind: z.enum(['budget', 'budget_and_preference', 'destination', 'order', 'preference', 'purpose']).nullable().optional(),
+  clarificationKind: z.enum(['budget', 'budget_and_preference', 'destination', 'order', 'preference', 'purpose', 'scope']).nullable().optional(),
   preferences: z.array(z.string().max(80)).max(8).optional(), preferredTags: z.array(z.enum(ROUTE_TAGS)).max(6).optional(), avoidTags: z.array(z.enum(ROUTE_TAGS)).max(6).optional(),
   stops: z.array(z.object({ type: z.enum(['point', 'segment']), name: text, kind: text }).strict()).max(8).optional(),
   place: text, origin: text, destination: text, returnToStart: z.boolean().optional(), needsSegment: z.boolean().optional(),

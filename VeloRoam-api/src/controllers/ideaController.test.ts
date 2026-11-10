@@ -29,13 +29,45 @@ test('native tools feed real grounding and reuse request reads while returning t
   assert.doesNotMatch(result.body.message, /无依据/);
 });
 
-async function invoke(controller: ReturnType<typeof createIdeaController>, body: object): Promise<{ status: number; body: any }> {
+async function invokeRaw(controller: ReturnType<typeof createIdeaController>, body: object): Promise<{ status: number; body: any }> {
   let code = 200; let payload: any;
   const req = { body, get: () => '' } as unknown as Request;
   const res = { status(value: number) { code = value; return this; }, json(value: any) { payload = value; return value; } } as unknown as Response;
   await controller(req, res);
   return { status: code, body: payload };
 }
+
+async function invoke(controller: ReturnType<typeof createIdeaController>, body: any): Promise<{ status: number; body: any }> {
+  const first = await invokeRaw(controller, body);
+  if (!first.body.contextIntent?.confirmationPending) return first;
+  return invokeRaw(controller, { ...body, idea: '确认，开始规划', previousIntent: first.body.contextIntent, placeContext: first.body.placeContext });
+}
+
+test('confirmation preserves the shown intent; edits require a fresh confirmation', async () => {
+  let planned: ConversationIntent | null = null;
+  const controller = createIdeaController({ isConfigured: () => true,
+    model: async (_system, input: any) => ({ mode: 'route', targetKm: input.idea.includes('40') ? 40 : 30, preferences: ['轻松'] }),
+    plan: async value => { planned = value; return { message: '已规划' }; } });
+  const first = await invokeRaw(controller, { idea: '轻松骑30公里', center: origin, origin });
+  assert.match(first.body.message, /全程目标约 30 公里/);
+  assert.equal(planned, null);
+  const edited = await invokeRaw(controller, { idea: '改成40公里', center: origin, origin, previousIntent: first.body.contextIntent });
+  assert.match(edited.body.message, /全程目标约 40 公里/);
+  assert.equal(planned, null);
+  const result = await invokeRaw(controller, { idea: '确认，开始规划', center: origin, origin, previousIntent: edited.body.contextIntent });
+  assert.equal(result.body.message, '已规划');
+  assert.equal((planned as ConversationIntent | null)?.targetKm, 40);
+});
+
+test('a clarification about distance scope does not start planning', async () => {
+  let planned = false;
+  const controller = createIdeaController({ isConfigured: () => true,
+    model: async () => ({ mode: 'clarify', requestType: 'route', clarificationKind: 'scope', reply: '50公里是全程还是到达后骑行？' }),
+    plan: async () => { planned = true; return {}; } });
+  const result = await invokeRaw(controller, { idea: '到那里再骑50公里', center: origin, origin });
+  assert.match(result.body.message, /全程还是/);
+  assert.equal(planned, false);
+});
 
 test('plans without optional budget or experience and preserves later user constraints', async () => {
   const answers = [

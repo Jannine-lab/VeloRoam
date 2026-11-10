@@ -1,10 +1,11 @@
-export type ClarificationKind = 'purpose' | 'destination' | 'order' | 'preference' | 'budget' | 'budget_and_preference';
+export type ClarificationKind = 'purpose' | 'destination' | 'order' | 'preference' | 'budget' | 'budget_and_preference' | 'scope';
 
 export const ROUTE_TAGS = ['climbing', 'loop', 'out_and_back', 'long_distance', 'popular', 'highly_starred'] as const;
 export type RouteTag = typeof ROUTE_TAGS[number];
 export type TagStatus = 'matched' | 'not_matched' | 'unknown';
 export type RouteTagStatuses = Record<RouteTag, TagStatus>;
 export interface ConversationIntent {
+  confirmationPending: boolean;
   mode: 'route' | 'recommend' | 'clarify';
   requestType: 'route' | 'recommend' | null;
   place: string | null; origin: string | null; destination: string | null; returnToStart: boolean;
@@ -30,6 +31,7 @@ export function sanitizeConversationIntent(value: any): ConversationIntent | nul
     value.mode === 'route' || value.mode === 'recommend' ? value.mode : null;
   const preferences: string[] = Array.isArray(value.preferences) ? value.preferences.filter((v: unknown): v is string => typeof v === 'string' && !!v.trim()).slice(0, 8).map((v: string) => v.trim().slice(0, 80)) : [];
   return {
+    confirmationPending: value.confirmationPending === true,
     mode: value.mode, requestType, place: text(value.place), origin: text(value.origin), destination: text(value.destination),
     returnToStart: value.returnToStart === true, needsSegment: value.needsSegment === true,
     segmentName: text(value.segmentName), needsPoint: value.needsPoint === true,
@@ -56,6 +58,7 @@ export function clarificationOptions(value: unknown, kind: unknown): string[] {
     case 'preference': return ['轻松休闲骑行', '想骑热门路段', '希望途中有休息补给'];
     case 'budget': return ['约30公里', '约50公里', '约两小时'];
     case 'budget_and_preference': return ['轻松骑约30公里', '骑热门路段约50公里', '爬坡训练约两小时'];
+    case 'scope': return ['这是全程里程', '这是到达后骑行的里程'];
     default: return ['规划完整骑行路线', '推荐骑行路段', '推荐休息补给点'];
   }
 }

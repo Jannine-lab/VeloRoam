@@ -3,6 +3,14 @@ export interface LatLng {
   lng: number;
 }
 
+export function parseWktLineString(wkt: string): LatLng[] {
+  const coordinates = wkt?.match(/^LINESTRING\s*\(([^()]+)\)$/i)?.[1];
+  return coordinates ? coordinates.split(',').map(pair => {
+    const [lng, lat] = pair.trim().split(/\s+/).map(Number);
+    return { lat, lng };
+  }) : [];
+}
+
 /**
  * Encodes an array of LatLng points into a Google Polyline string.
  */

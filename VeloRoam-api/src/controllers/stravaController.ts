@@ -3,26 +3,7 @@ import { query } from '../config/db';
 import { exploreStravaSegments, StravaSegmentDetailError } from '../services/stravaService';
 import { getStoredOrFetchStravaSegmentDetail } from '../services/stravaSegmentDetailStore';
 import { getSegmentDisplayScore, getSegmentVisibleFromZoom } from '../services/segmentVisibility';
-
-/**
- * 将 MySQL 返回的 LINESTRING(lng1 lat1, lng2 lat2, ...) WKT 文本解析为前端所需的 [{lat, lng}] 坐标格式
- */
-function parseWktLineString(wkt: string): Array<{ lat: number, lng: number }> {
-  if (!wkt || !wkt.startsWith('LINESTRING')) return [];
-
-  // 正则提取括号内部的所有坐标对
-  const matches = wkt.match(/\(([^)]+)\)/);
-  if (!matches || !matches[1]) return [];
-
-  const pairs = matches[1].split(',');
-  return pairs.map(pair => {
-    const [lngStr, latStr] = pair.trim().split(/\s+/);
-    return {
-      lat: parseFloat(latStr),
-      lng: parseFloat(lngStr)
-    };
-  });
-}
+import { parseWktLineString } from '../utils/polyline';
 
 /**
  * 将实时从 API 获取的新段数据异步 Upsert 写入 MySQL
@@ -243,6 +224,36 @@ export const getStravaSegments = async (req: Request, res: Response) => {
     });
   }
 };
+
+export async function searchStravaSegments(req: Request, res: Response) {
+  const term = typeof req.query.q === 'string' ? req.query.q.trim() : '';
+  if (!term || term.length > 120) return res.status(400).json({ error: '请输入有效的路段名称或编号。' });
+
+  const escapeLike = (value: string) => value.replace(/[!%_]/g, '!$&');
+  const name = escapeLike(term);
+  const fuzzy = Array.from(term.replace(/\s+/g, ''), escapeLike).join('%');
+  const id = term.replace(/^segment:/i, '');
+  const idPattern = /^\d{1,20}$/.test(id) ? `%${id}%` : '';
+  try {
+    const { rows } = await query(`SELECT CAST(s.id AS CHAR) AS id, s.name, s.distance_km AS distanceKm,
+      s.avg_grade AS avgGrade, s.raw_score AS rawScore, s.strava_score AS stravaScore, d.hazardous, d.city, d.state,
+      ST_AsText(s.geom) AS geometry
+      FROM strava_segments s LEFT JOIN strava_segment_details d ON d.segment_id = s.id
+      WHERE (d.is_private IS NULL OR d.is_private = 0)
+        AND (CAST(s.id AS CHAR) LIKE ? OR s.name LIKE ? ESCAPE '!')
+      ORDER BY (CAST(s.id AS CHAR) = ?) DESC, (s.name = ?) DESC,
+        (s.name LIKE ? ESCAPE '!') DESC, (s.name LIKE ? ESCAPE '!') DESC,
+        COALESCE(s.strava_score, s.raw_score) DESC, s.id
+      LIMIT 30`, [idPattern, `%${fuzzy}%`, id, term, `${name}%`, `%${name}%`]);
+    return res.json(rows.map(({ geometry, ...row }: any) => ({
+      ...row, coordinates: parseWktLineString(geometry), distanceKm: Number(row.distanceKm),
+      avgGrade: Number(row.avgGrade), rawScore: Number(row.rawScore), hazardous: Boolean(row.hazardous)
+    })).filter((item: any) => item.coordinates.length >= 2));
+  } catch (error) {
+    console.error('[StravaController] Segment search failed:', error instanceof Error ? error.message : 'unknown error');
+    return res.status(503).json({ error: '路段搜索暂时不可用。' });
+  }
+}
 
 export async function getStravaSegmentDetail(req: Request, res: Response) {
   const rawId = req.params.id;
