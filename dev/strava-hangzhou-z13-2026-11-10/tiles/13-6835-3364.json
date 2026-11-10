@@ -1,0 +1,20 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T20:18:44.170Z",
+  "tile": {
+    "z": 13,
+    "x": 6835,
+    "y": 3364
+  },
+  "segments": [
+    {
+      "id": "36920579",
+      "tileScore": 15,
+      "name": "2024环桐全程",
+      "distanceM": 119494.3984375,
+      "avgGrade": 0.0018410905031487346,
+      "startLat": 30.630979537963867,
+      "startLng": 120.58904266357422
+    }
+  ]
+}

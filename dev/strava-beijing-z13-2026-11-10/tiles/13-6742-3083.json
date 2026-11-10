@@ -1,0 +1,20 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T19:51:43.063Z",
+  "tile": {
+    "z": 13,
+    "x": 6742,
+    "y": 3083
+  },
+  "segments": [
+    {
+      "id": "42075454",
+      "tileScore": 2,
+      "name": "营盘东沟climb",
+      "distanceM": 1655.300048828125,
+      "avgGrade": 5.219597816467285,
+      "startLat": 40.59859085083008,
+      "startLng": 116.26544952392578
+    }
+  ]
+}

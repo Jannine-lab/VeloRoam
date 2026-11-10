@@ -1,0 +1,20 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T19:42:20.135Z",
+  "tile": {
+    "z": 13,
+    "x": 6759,
+    "y": 3103
+  },
+  "segments": [
+    {
+      "id": "31876354",
+      "tileScore": 2,
+      "name": "南线（杨庄-石碑）",
+      "distanceM": 9692.2998046875,
+      "avgGrade": 0.01857144385576248,
+      "startLat": 39.93199920654297,
+      "startLng": 117.07160949707031
+    }
+  ]
+}

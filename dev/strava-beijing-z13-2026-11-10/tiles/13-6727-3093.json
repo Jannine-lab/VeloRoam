@@ -1,0 +1,29 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T19:51:03.839Z",
+  "tile": {
+    "z": 13,
+    "x": 6727,
+    "y": 3093
+  },
+  "segments": [
+    {
+      "id": "33959459",
+      "tileScore": 6,
+      "name": "官厅水库-东花园",
+      "distanceM": 22546.5,
+      "avgGrade": -0.021289335563778877,
+      "startLat": 40.23995590209961,
+      "startLng": 115.61015319824219
+    },
+    {
+      "id": "20247754",
+      "tileScore": 3,
+      "name": "鲁贝爬坡段",
+      "distanceM": 3125.39990234375,
+      "avgGrade": 2.0413386821746826,
+      "startLat": 40.23641586303711,
+      "startLng": 115.61030578613281
+    }
+  ]
+}

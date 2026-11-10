@@ -1,0 +1,65 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T19:56:28.592Z",
+  "tile": {
+    "z": 13,
+    "x": 6764,
+    "y": 3118
+  },
+  "segments": [
+    {
+      "id": "18157663",
+      "tileScore": 1,
+      "name": "龍鳳河北堤新路-順騎",
+      "distanceM": 9507.7998046875,
+      "avgGrade": -0.025242432951927185,
+      "startLat": 39.446617126464844,
+      "startLng": 117.18480682373047
+    },
+    {
+      "id": "33013477",
+      "tileScore": 3,
+      "name": "BTAC LongfengRiver-DaHuangPu",
+      "distanceM": 16353.7998046875,
+      "avgGrade": -0.059924907982349396,
+      "startLat": 39.28273010253906,
+      "startLng": 117.37332153320312
+    },
+    {
+      "id": "15342627",
+      "tileScore": 1,
+      "name": "下堤回",
+      "distanceM": 1523.5,
+      "avgGrade": -0.11814900487661362,
+      "startLat": 39.41012191772461,
+      "startLng": 117.25467681884766
+    },
+    {
+      "id": "15908446",
+      "tileScore": 1,
+      "name": "x605(龍鳳河-s307)",
+      "distanceM": 1748.300048828125,
+      "avgGrade": -0.06863810867071152,
+      "startLat": 39.387271881103516,
+      "startLng": 117.28369140625
+    },
+    {
+      "id": "12578757",
+      "tileScore": 1,
+      "name": "X605(柳河)",
+      "distanceM": 5944.10009765625,
+      "avgGrade": 0.05047021433711052,
+      "startLat": 39.44786071777344,
+      "startLng": 117.25172424316406
+    },
+    {
+      "id": "12578767",
+      "tileScore": 1,
+      "name": "大D(龍鳳河段-回)",
+      "distanceM": 2458,
+      "avgGrade": 0.008136697113513947,
+      "startLat": 39.405147552490234,
+      "startLng": 117.28479766845703
+    }
+  ]
+}

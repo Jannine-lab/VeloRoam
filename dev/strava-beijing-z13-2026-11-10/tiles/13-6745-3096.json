@@ -1,0 +1,119 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T19:35:50.145Z",
+  "tile": {
+    "z": 13,
+    "x": 6745,
+    "y": 3096
+  },
+  "segments": [
+    {
+      "id": "36668466",
+      "tileScore": 8,
+      "name": "温榆河北岸-安立路到未来科学城",
+      "distanceM": 5952,
+      "avgGrade": 0,
+      "startLat": 40.152339935302734,
+      "startLng": 116.40753936767578
+    },
+    {
+      "id": "32607603",
+      "tileScore": 4,
+      "name": "Pikachu！",
+      "distanceM": 158177.40625,
+      "avgGrade": 0.022632816806435585,
+      "startLat": 40.14248275756836,
+      "startLng": 116.59239959716797
+    },
+    {
+      "id": "39951264",
+      "tileScore": 58,
+      "name": "秦北路（怀昌路→顺沙路）",
+      "distanceM": 6353.89990234375,
+      "avgGrade": -0.36040857434272766,
+      "startLat": 40.23256301879883,
+      "startLng": 116.45664978027344
+    },
+    {
+      "id": "41227591",
+      "tileScore": 2,
+      "name": "下苑村-清河绿道（N-S）",
+      "distanceM": 18456.400390625,
+      "avgGrade": -0.12190892547369003,
+      "startLat": 40.230281829833984,
+      "startLng": 116.45222473144531
+    },
+    {
+      "id": "17254061",
+      "tileScore": 21,
+      "name": "Le Champs South Bound",
+      "distanceM": 5699.5,
+      "avgGrade": 0.04561803489923477,
+      "startLat": 40.150474548339844,
+      "startLng": 116.40785217285156
+    },
+    {
+      "id": "20465752",
+      "tileScore": 5,
+      "name": "Turn right at the Strawberry",
+      "distanceM": 4727.5,
+      "avgGrade": -0.021152829751372337,
+      "startLat": 40.17552185058594,
+      "startLng": 116.40190887451172
+    },
+    {
+      "id": "40439494",
+      "tileScore": 1,
+      "name": "沙沟河瓜路2",
+      "distanceM": 1618.4000244140625,
+      "avgGrade": 0.11122096329927444,
+      "startLat": 40.1624641418457,
+      "startLng": 116.4295425415039
+    },
+    {
+      "id": "40439473",
+      "tileScore": 1,
+      "name": "沙沟河瓜路1",
+      "distanceM": 886.5,
+      "avgGrade": -0.20304569602012634,
+      "startLat": 40.167991638183594,
+      "startLng": 116.43669891357422
+    },
+    {
+      "id": "37586309",
+      "tileScore": 6,
+      "name": "温榆河右堤路太阳城到亚太实验学校",
+      "distanceM": 2124.5,
+      "avgGrade": 0.05648387596011162,
+      "startLat": 40.150115966796875,
+      "startLng": 116.40657043457031
+    },
+    {
+      "id": "39958821",
+      "tileScore": 8,
+      "name": "顺沙路（秦北路→天北路）",
+      "distanceM": 6645.10009765625,
+      "avgGrade": 0.006019473075866699,
+      "startLat": 40.17475128173828,
+      "startLng": 116.4515380859375
+    },
+    {
+      "id": "15287130",
+      "tileScore": 1,
+      "name": "Fire Cracker Alley",
+      "distanceM": 874.5,
+      "avgGrade": 0.25157231092453003,
+      "startLat": 40.1557502746582,
+      "startLng": 116.45045471191406
+    },
+    {
+      "id": "14860510",
+      "tileScore": 9,
+      "name": "Future City Ave Sprint",
+      "distanceM": 1185.5,
+      "avgGrade": -0.10122311115264893,
+      "startLat": 40.137977600097656,
+      "startLng": 116.45416259765625
+    }
+  ]
+}

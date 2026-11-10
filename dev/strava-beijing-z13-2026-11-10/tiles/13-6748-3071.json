@@ -1,0 +1,20 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T20:07:02.350Z",
+  "tile": {
+    "z": 13,
+    "x": 6748,
+    "y": 3071
+  },
+  "segments": [
+    {
+      "id": "22195981",
+      "tileScore": 1,
+      "name": "the famous X509 climb",
+      "distanceM": 19037.80078125,
+      "avgGrade": 3.110128164291382,
+      "startLat": 41.01752853393555,
+      "startLng": 116.56130981445312
+    }
+  ]
+}

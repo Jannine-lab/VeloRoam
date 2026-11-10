@@ -1,0 +1,20 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T19:44:39.920Z",
+  "tile": {
+    "z": 13,
+    "x": 6761,
+    "y": 3107
+  },
+  "segments": [
+    {
+      "id": "39074622",
+      "tileScore": 24,
+      "name": " 去往西罗村 道路条件极好！Hc",
+      "distanceM": 7051.89990234375,
+      "avgGrade": -0.008508345112204552,
+      "startLat": 39.76115036010742,
+      "startLng": 117.178466796875
+    }
+  ]
+}

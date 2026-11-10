@@ -1,0 +1,20 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T19:46:28.310Z",
+  "tile": {
+    "z": 13,
+    "x": 6726,
+    "y": 3102
+  },
+  "segments": [
+    {
+      "id": "29957755",
+      "tileScore": 31,
+      "name": "龙门涧N-S",
+      "distanceM": 7088.7998046875,
+      "avgGrade": -2.121656656265259,
+      "startLat": 39.98713684082031,
+      "startLng": 115.56932830810547
+    }
+  ]
+}

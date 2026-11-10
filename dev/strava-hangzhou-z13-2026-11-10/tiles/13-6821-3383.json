@@ -1,0 +1,38 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T20:22:31.752Z",
+  "tile": {
+    "z": 13,
+    "x": 6821,
+    "y": 3383
+  },
+  "segments": [
+    {
+      "id": "36892658",
+      "tileScore": 34,
+      "name": "桥与桥",
+      "distanceM": 5058.89990234375,
+      "avgGrade": 0.015813713893294334,
+      "startLat": 29.873050689697266,
+      "startLng": 119.76506805419922
+    },
+    {
+      "id": "37236744",
+      "tileScore": 64,
+      "name": "疏港绕圈两圈",
+      "distanceM": 36415.69921875,
+      "avgGrade": -0.010435059666633606,
+      "startLat": 29.83998680114746,
+      "startLng": 119.73678588867188
+    },
+    {
+      "id": "18439074",
+      "tileScore": 1,
+      "name": "Sander's Swan Song (Tonglu CC)",
+      "distanceM": 8565.7001953125,
+      "avgGrade": 0.48332303762435913,
+      "startLat": 29.87366485595703,
+      "startLng": 119.76809692382812
+    }
+  ]
+}

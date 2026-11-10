@@ -1,0 +1,20 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T19:56:21.212Z",
+  "tile": {
+    "z": 13,
+    "x": 6752,
+    "y": 3081
+  },
+  "segments": [
+    {
+      "id": "39249745",
+      "tileScore": 3,
+      "name": "珍惜这段柏油路吧！",
+      "distanceM": 5666,
+      "avgGrade": 1.1242499351501465,
+      "startLat": 40.63037109375,
+      "startLng": 116.75224304199219
+    }
+  ]
+}

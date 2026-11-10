@@ -1,0 +1,29 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T20:19:13.648Z",
+  "tile": {
+    "z": 13,
+    "x": 6841,
+    "y": 3371
+  },
+  "segments": [
+    {
+      "id": "32862859",
+      "tileScore": 2,
+      "name": "1.3w塘没有车",
+      "distanceM": 3322,
+      "avgGrade": -0.09030704200267792,
+      "startLat": 30.319429397583008,
+      "startLng": 120.65354919433594
+    },
+    {
+      "id": "39147961",
+      "tileScore": 3,
+      "name": "好路，但是我不知道这是什么路（S-N）",
+      "distanceM": 4573,
+      "avgGrade": 0.013120490126311779,
+      "startLat": 30.29258918762207,
+      "startLng": 120.6455307006836
+    }
+  ]
+}

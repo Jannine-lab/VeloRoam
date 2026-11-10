@@ -1,0 +1,29 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T20:17:24.747Z",
+  "tile": {
+    "z": 13,
+    "x": 6833,
+    "y": 3366
+  },
+  "segments": [
+    {
+      "id": "37824504",
+      "tileScore": 12,
+      "name": "321 go!",
+      "distanceM": 2353.89990234375,
+      "avgGrade": -0.05947576090693474,
+      "startLat": 30.501020431518555,
+      "startLng": 120.27105712890625
+    },
+    {
+      "id": "35869364",
+      "tileScore": 6,
+      "name": "博桐线",
+      "distanceM": 1606.5,
+      "avgGrade": -0.06224711984395981,
+      "startLat": 30.5052433013916,
+      "startLng": 120.29827880859375
+    }
+  ]
+}

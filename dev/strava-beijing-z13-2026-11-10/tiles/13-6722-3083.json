@@ -1,0 +1,20 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T20:02:03.238Z",
+  "tile": {
+    "z": 13,
+    "x": 6722,
+    "y": 3083
+  },
+  "segments": [
+    {
+      "id": "36628619",
+      "tileScore": 1,
+      "name": "花家梁爬坡",
+      "distanceM": 5306.5,
+      "avgGrade": 5.527184009552002,
+      "startLat": 40.64670181274414,
+      "startLng": 115.3818130493164
+    }
+  ]
+}

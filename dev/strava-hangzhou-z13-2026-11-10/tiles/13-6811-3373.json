@@ -1,0 +1,20 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T20:25:10.537Z",
+  "tile": {
+    "z": 13,
+    "x": 6811,
+    "y": 3373
+  },
+  "segments": [
+    {
+      "id": "36601632",
+      "tileScore": 7,
+      "name": "记住这场大雨吧年轻人（1）",
+      "distanceM": 13012.7001953125,
+      "avgGrade": 1.855110764503479,
+      "startLat": 30.199308395385742,
+      "startLng": 119.30426788330078
+    }
+  ]
+}

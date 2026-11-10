@@ -1,0 +1,47 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T20:42:26.069Z",
+  "tile": {
+    "z": 13,
+    "x": 6788,
+    "y": 3392
+  },
+  "segments": [
+    {
+      "id": "13903773",
+      "tileScore": 211,
+      "name": "X022 盈丰村 10公里爬坡",
+      "distanceM": 11418.900390625,
+      "avgGrade": 5.457618236541748,
+      "startLat": 29.584901809692383,
+      "startLng": 118.32276153564453
+    },
+    {
+      "id": "33350531",
+      "tileScore": 21,
+      "name": "cd-汾口到璜尖村",
+      "distanceM": 29351.400390625,
+      "avgGrade": 0.8156339526176453,
+      "startLat": 29.422534942626953,
+      "startLng": 118.5295181274414
+    },
+    {
+      "id": "6583490",
+      "tileScore": 68,
+      "name": "County Road Climb",
+      "distanceM": 8374.2001953125,
+      "avgGrade": 5.56471061706543,
+      "startLat": 29.505455017089844,
+      "startLng": 118.34171295166016
+    },
+    {
+      "id": "41056405",
+      "tileScore": 4,
+      "name": "打狼坞陡坡",
+      "distanceM": 3954.60009765625,
+      "avgGrade": 8.2637939453125,
+      "startLat": 29.508869171142578,
+      "startLng": 118.34925079345703
+    }
+  ]
+}

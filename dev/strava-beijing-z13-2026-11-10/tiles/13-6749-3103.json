@@ -1,0 +1,164 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T19:34:26.355Z",
+  "tile": {
+    "z": 13,
+    "x": 6749,
+    "y": 3103
+  },
+  "segments": [
+    {
+      "id": "14780096",
+      "tileScore": 4,
+      "name": "常营-徐辛庄",
+      "distanceM": 12189.900390625,
+      "avgGrade": -0.04922107979655266,
+      "startLat": 39.92420959472656,
+      "startLng": 116.58627319335938
+    },
+    {
+      "id": "13674360",
+      "tileScore": 54,
+      "name": "G102 4th ring to Wenyu river",
+      "distanceM": 12670.2998046875,
+      "avgGrade": -0.09155268967151642,
+      "startLat": 39.92164993286133,
+      "startLng": 116.4916000366211
+    },
+    {
+      "id": "39147907",
+      "tileScore": 5,
+      "name": "晓景文化园cross loop",
+      "distanceM": 880.5999755859375,
+      "avgGrade": -0.04542357474565506,
+      "startLat": 39.943058013916016,
+      "startLng": 116.5848617553711
+    },
+    {
+      "id": "11630931",
+      "tileScore": 3,
+      "name": "金榆路(皮村路口-朝阳北路口)",
+      "distanceM": 6217.10009765625,
+      "avgGrade": 0.06433867663145065,
+      "startLat": 39.97994613647461,
+      "startLng": 116.60870361328125
+    },
+    {
+      "id": "28991633",
+      "tileScore": 3,
+      "name": "西马庄小树林冲刺路段",
+      "distanceM": 1228.300048828125,
+      "avgGrade": -0.08141333609819412,
+      "startLat": 39.91221618652344,
+      "startLng": 116.61937713623047
+    },
+    {
+      "id": "29539557",
+      "tileScore": 16,
+      "name": "物资学院前热身赛段",
+      "distanceM": 1256.4000244140625,
+      "avgGrade": -0.09551098197698593,
+      "startLat": 39.92497634887695,
+      "startLng": 116.61853790283203
+    },
+    {
+      "id": "28686160",
+      "tileScore": 9,
+      "name": "Take me home Sprint",
+      "distanceM": 331.79998779296875,
+      "avgGrade": 0.12055455148220062,
+      "startLat": 39.93143081665039,
+      "startLng": 116.60102081298828
+    },
+    {
+      "id": "41829726",
+      "tileScore": 1,
+      "name": "798-二高",
+      "distanceM": 20552.69921875,
+      "avgGrade": -0.0778486579656601,
+      "startLat": 39.98301696777344,
+      "startLng": 116.48594665527344
+    },
+    {
+      "id": "29375579",
+      "tileScore": 7,
+      "name": "Watch out the speed bump",
+      "distanceM": 1747.9000244140625,
+      "avgGrade": 0.057211510837078094,
+      "startLat": 39.93153381347656,
+      "startLng": 116.60531616210938
+    },
+    {
+      "id": "17428908",
+      "tileScore": 20,
+      "name": "西马庄弯道",
+      "distanceM": 1013.7999877929688,
+      "avgGrade": 0,
+      "startLat": 39.917842864990234,
+      "startLng": 116.63154602050781
+    },
+    {
+      "id": "31848002",
+      "tileScore": 1,
+      "name": "让我看看还有谁刷了10圈杨闸环岛",
+      "distanceM": 3259,
+      "avgGrade": -0.01841055415570736,
+      "startLat": 39.91151809692383,
+      "startLng": 116.59391784667969
+    },
+    {
+      "id": "5337205",
+      "tileScore": 4,
+      "name": "Leg Stretcher",
+      "distanceM": 1877.9000244140625,
+      "avgGrade": 0.031950585544109344,
+      "startLat": 39.94453430175781,
+      "startLng": 116.62156677246094
+    },
+    {
+      "id": "19721521",
+      "tileScore": 5,
+      "name": "叠泉",
+      "distanceM": 5840.10009765625,
+      "avgGrade": 0,
+      "startLat": 39.9378662109375,
+      "startLng": 116.58457946777344
+    },
+    {
+      "id": "29398953",
+      "tileScore": 6,
+      "name": "G102 - tree-lined cruise",
+      "distanceM": 2134.300048828125,
+      "avgGrade": -0.004685376770794392,
+      "startLat": 39.91105651855469,
+      "startLng": 116.59567260742188
+    },
+    {
+      "id": "37144731",
+      "tileScore": 4,
+      "name": "叠泉折返",
+      "distanceM": 8424.099609375,
+      "avgGrade": 0.10208805650472641,
+      "startLat": 39.93802261352539,
+      "startLng": 116.5882797241211
+    },
+    {
+      "id": "29375520",
+      "tileScore": 4,
+      "name": "小心右侧开门杀！",
+      "distanceM": 1016.2000122070312,
+      "avgGrade": 0.05904349312186241,
+      "startLat": 39.92494583129883,
+      "startLng": 116.61512756347656
+    },
+    {
+      "id": "21511250",
+      "tileScore": 2,
+      "name": "Dr Phil's TTT, 4th Ring Road and return.",
+      "distanceM": 52287.80078125,
+      "avgGrade": -0.00688497070223093,
+      "startLat": 39.932437896728516,
+      "startLng": 116.48710632324219
+    }
+  ]
+}

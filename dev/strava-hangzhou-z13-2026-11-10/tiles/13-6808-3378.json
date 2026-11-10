@@ -1,0 +1,74 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T20:26:53.543Z",
+  "tile": {
+    "z": 13,
+    "x": 6808,
+    "y": 3378
+  },
+  "segments": [
+    {
+      "id": "37080542",
+      "tileScore": 5,
+      "name": "🚴🏻来鸿亭⛰️",
+      "distanceM": 7151.7998046875,
+      "avgGrade": 4.868704319000244,
+      "startLat": 30.03668975830078,
+      "startLng": 119.19252014160156
+    },
+    {
+      "id": "38516678",
+      "tileScore": 12,
+      "name": "万家放个坡🥇",
+      "distanceM": 1086.5,
+      "avgGrade": -1.5278416872024536,
+      "startLat": 30.04323387145996,
+      "startLng": 119.17423248291016
+    },
+    {
+      "id": "16054169",
+      "tileScore": 21,
+      "name": "NWC 2017 - the smooth tarmac",
+      "distanceM": 16463.900390625,
+      "avgGrade": 0.6924240589141846,
+      "startLat": 30.102827072143555,
+      "startLng": 119.21599578857422
+    },
+    {
+      "id": "19027992",
+      "tileScore": 5,
+      "name": "Hengtangcun Climb",
+      "distanceM": 4235.39990234375,
+      "avgGrade": 4.027955055236816,
+      "startLat": 30.03996467590332,
+      "startLng": 119.25362396240234
+    },
+    {
+      "id": "40876651",
+      "tileScore": 5,
+      "name": "油盐田gravel climb",
+      "distanceM": 2787.5,
+      "avgGrade": 5.926457405090332,
+      "startLat": 30.02217674255371,
+      "startLng": 119.21871185302734
+    },
+    {
+      "id": "40948229",
+      "tileScore": 24,
+      "name": "昌化-湍口标准段👑（水南村-湍口红绿灯）",
+      "distanceM": 19085.5,
+      "avgGrade": 0.1687144786119461,
+      "startLat": 30.15559959411621,
+      "startLng": 119.22450256347656
+    },
+    {
+      "id": "39844072",
+      "tileScore": 5,
+      "name": "新龙坑gravel climb",
+      "distanceM": 1826.5,
+      "avgGrade": 5.8034491539001465,
+      "startLat": 30.05785369873047,
+      "startLng": 119.21250915527344
+    }
+  ]
+}

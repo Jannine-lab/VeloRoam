@@ -1,0 +1,29 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T20:22:58.132Z",
+  "tile": {
+    "z": 13,
+    "x": 6823,
+    "y": 3386
+  },
+  "segments": [
+    {
+      "id": "40919472",
+      "tileScore": 22,
+      "name": "大桃园",
+      "distanceM": 4185,
+      "avgGrade": 2.207885265350342,
+      "startLat": 29.76078224182129,
+      "startLng": 119.81852722167969
+    },
+    {
+      "id": "39727790",
+      "tileScore": 4,
+      "name": "松山到杨家岭古道 玩水好地方",
+      "distanceM": 7637.7998046875,
+      "avgGrade": 2.6683075428009033,
+      "startLat": 29.69584083557129,
+      "startLng": 119.90369415283203
+    }
+  ]
+}

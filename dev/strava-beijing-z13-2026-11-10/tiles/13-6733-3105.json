@@ -1,0 +1,20 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T19:39:55.518Z",
+  "tile": {
+    "z": 13,
+    "x": 6733,
+    "y": 3105
+  },
+  "segments": [
+    {
+      "id": "37385742",
+      "tileScore": 1,
+      "name": "白湖",
+      "distanceM": 994.4000244140625,
+      "avgGrade": 3.016894578933716,
+      "startLat": 39.86397933959961,
+      "startLng": 115.88249206542969
+    }
+  ]
+}

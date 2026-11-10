@@ -1,0 +1,20 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T19:45:48.328Z",
+  "tile": {
+    "z": 13,
+    "x": 6729,
+    "y": 3110
+  },
+  "segments": [
+    {
+      "id": "41857632",
+      "tileScore": 3,
+      "name": "四合村climb",
+      "distanceM": 2634.39990234375,
+      "avgGrade": 5.466140270233154,
+      "startLat": 39.71442413330078,
+      "startLng": 115.71975708007812
+    }
+  ]
+}

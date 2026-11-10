@@ -1,0 +1,29 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T20:26:30.114Z",
+  "tile": {
+    "z": 13,
+    "x": 6809,
+    "y": 3373
+  },
+  "segments": [
+    {
+      "id": "38891412",
+      "tileScore": 12,
+      "name": "昌黄线热身了",
+      "distanceM": 10278.2001953125,
+      "avgGrade": 2.3058512210845947,
+      "startLat": 30.204334259033203,
+      "startLng": 119.22392272949219
+    },
+    {
+      "id": "39066204",
+      "tileScore": 17,
+      "name": "昌孙线climb",
+      "distanceM": 13197.900390625,
+      "avgGrade": 1.5047848224639893,
+      "startLat": 30.183439254760742,
+      "startLng": 119.23047637939453
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T20:02:40.892Z",
+  "tile": {
+    "z": 13,
+    "x": 6763,
+    "y": 3080
+  },
+  "segments": [
+    {
+      "id": "38891359",
+      "tileScore": 8,
+      "name": "金山岭隧道前爬坡",
+      "distanceM": 1639.300048828125,
+      "avgGrade": 4.440919876098633,
+      "startLat": 40.69510269165039,
+      "startLng": 117.24495697021484
+    }
+  ]
+}

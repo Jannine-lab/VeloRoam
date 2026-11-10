@@ -1,0 +1,65 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T20:32:10.330Z",
+  "tile": {
+    "z": 13,
+    "x": 6809,
+    "y": 3391
+  },
+  "segments": [
+    {
+      "id": "26068030",
+      "tileScore": 11,
+      "name": "洋溪岭建德方向",
+      "distanceM": 1435,
+      "avgGrade": 4.013937473297119,
+      "startLat": 29.56328582763672,
+      "startLng": 119.24163055419922
+    },
+    {
+      "id": "17819401",
+      "tileScore": 8,
+      "name": "小环湖",
+      "distanceM": 102884,
+      "avgGrade": -0.008358928374946117,
+      "startLat": 29.475658416748047,
+      "startLng": 119.21735382080078
+    },
+    {
+      "id": "26068063",
+      "tileScore": 14,
+      "name": "淡竹建德方向",
+      "distanceM": 829,
+      "avgGrade": 4.559710502624512,
+      "startLat": 29.560867309570312,
+      "startLng": 119.22704315185547
+    },
+    {
+      "id": "17856742",
+      "tileScore": 51,
+      "name": "JD TO CA",
+      "distanceM": 1036.5,
+      "avgGrade": 5.364206314086914,
+      "startLat": 29.57851219177246,
+      "startLng": 119.26085662841797
+    },
+    {
+      "id": "27874149",
+      "tileScore": 30,
+      "name": "高岭1",
+      "distanceM": 4060.89990234375,
+      "avgGrade": 8.431628227233887,
+      "startLat": 29.553550720214844,
+      "startLng": 119.2744369506836
+    },
+    {
+      "id": "27874213",
+      "tileScore": 7,
+      "name": "高岭陡坡",
+      "distanceM": 766,
+      "avgGrade": 10.261096954345703,
+      "startLat": 29.552804946899414,
+      "startLng": 119.27352142333984
+    }
+  ]
+}

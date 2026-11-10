@@ -1,0 +1,20 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T20:40:47.585Z",
+  "tile": {
+    "z": 13,
+    "x": 6799,
+    "y": 3400
+  },
+  "segments": [
+    {
+      "id": "39282509",
+      "tileScore": 39,
+      "name": "太真洞口—后叶隧道",
+      "distanceM": 6437.10009765625,
+      "avgGrade": 4.523776054382324,
+      "startLat": 29.19124984741211,
+      "startLng": 118.8221206665039
+    }
+  ]
+}

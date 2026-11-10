@@ -1,0 +1,20 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T19:54:22.141Z",
+  "tile": {
+    "z": 13,
+    "x": 6720,
+    "y": 3104
+  },
+  "segments": [
+    {
+      "id": "28796146",
+      "tileScore": 3,
+      "name": "想吃饭吗？先爬了这段坡",
+      "distanceM": 749,
+      "avgGrade": 4.993324279785156,
+      "startLat": 39.884796142578125,
+      "startLng": 115.32806396484375
+    }
+  ]
+}

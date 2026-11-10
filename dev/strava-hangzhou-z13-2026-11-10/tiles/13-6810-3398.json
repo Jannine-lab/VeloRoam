@@ -1,0 +1,20 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T20:35:05.778Z",
+  "tile": {
+    "z": 13,
+    "x": 6810,
+    "y": 3398
+  },
+  "segments": [
+    {
+      "id": "30523700",
+      "tileScore": 1,
+      "name": "新叶村-大慈岩镇",
+      "distanceM": 7152.7001953125,
+      "avgGrade": 0.078292116522789,
+      "startLat": 29.3294677734375,
+      "startLng": 119.33426666259766
+    }
+  ]
+}

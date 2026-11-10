@@ -1,0 +1,20 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T20:30:22.441Z",
+  "tile": {
+    "z": 13,
+    "x": 6814,
+    "y": 3393
+  },
+  "segments": [
+    {
+      "id": "39616512",
+      "tileScore": 21,
+      "name": "冲啊，到顶就是下坡到里黄",
+      "distanceM": 2137.5,
+      "avgGrade": 3.6257312297821045,
+      "startLat": 29.49570083618164,
+      "startLng": 119.47010803222656
+    }
+  ]
+}

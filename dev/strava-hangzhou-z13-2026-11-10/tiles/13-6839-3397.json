@@ -1,0 +1,20 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T20:31:09.741Z",
+  "tile": {
+    "z": 13,
+    "x": 6839,
+    "y": 3397
+  },
+  "segments": [
+    {
+      "id": "34158111",
+      "tileScore": 1,
+      "name": "冲 大塘光",
+      "distanceM": 1279.199951171875,
+      "avgGrade": 3.6272671222686768,
+      "startLat": 29.342350006103516,
+      "startLng": 120.57593536376953
+    }
+  ]
+}

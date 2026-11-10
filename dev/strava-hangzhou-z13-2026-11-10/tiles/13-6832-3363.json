@@ -1,0 +1,20 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T20:18:29.290Z",
+  "tile": {
+    "z": 13,
+    "x": 6832,
+    "y": 3363
+  },
+  "segments": [
+    {
+      "id": "35833556",
+      "tileScore": 9,
+      "name": "羊肉面最后一个小桥",
+      "distanceM": 509.20001220703125,
+      "avgGrade": 2.0031423568725586,
+      "startLat": 30.60097885131836,
+      "startLng": 120.2525863647461
+    }
+  ]
+}

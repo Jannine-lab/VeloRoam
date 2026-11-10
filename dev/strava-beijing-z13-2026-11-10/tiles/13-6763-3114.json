@@ -1,0 +1,38 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T19:50:57.886Z",
+  "tile": {
+    "z": 13,
+    "x": 6763,
+    "y": 3114
+  },
+  "segments": [
+    {
+      "id": "35104740",
+      "tileScore": 8,
+      "name": "津围线S-N宝坻南",
+      "distanceM": 13834.599609375,
+      "avgGrade": 0.044815171509981155,
+      "startLat": 39.563228607177734,
+      "startLng": 117.223388671875
+    },
+    {
+      "id": "12578663",
+      "tileScore": 4,
+      "name": "青龍灣左堤-1",
+      "distanceM": 7522.89990234375,
+      "avgGrade": -0.037219688296318054,
+      "startLat": 39.55802536010742,
+      "startLng": 117.22029113769531
+    },
+    {
+      "id": "23119490",
+      "tileScore": 3,
+      "name": "BTAC Xianghe Pancake",
+      "distanceM": 38763.8984375,
+      "avgGrade": -0.02012181468307972,
+      "startLat": 39.64692306518555,
+      "startLng": 117.0410385131836
+    }
+  ]
+}

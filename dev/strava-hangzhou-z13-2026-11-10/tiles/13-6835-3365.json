@@ -1,0 +1,20 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T20:17:39.597Z",
+  "tile": {
+    "z": 13,
+    "x": 6835,
+    "y": 3365
+  },
+  "segments": [
+    {
+      "id": "39199575",
+      "tileScore": 14,
+      "name": "让我看看谁上了高速",
+      "distanceM": 50313.6015625,
+      "avgGrade": 0.0037763151340186596,
+      "startLat": 30.54092025756836,
+      "startLng": 120.4897232055664
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T20:21:53.675Z",
+  "tile": {
+    "z": 13,
+    "x": 6818,
+    "y": 3363
+  },
+  "segments": [
+    {
+      "id": "27968952",
+      "tileScore": 4,
+      "name": "灵峰山起伏路",
+      "distanceM": 12078.599609375,
+      "avgGrade": -0.0231814943253994,
+      "startLat": 30.596477508544922,
+      "startLng": 119.64539337158203
+    },
+    {
+      "id": "34883024",
+      "tileScore": 12,
+      "name": "灵峰北坡",
+      "distanceM": 1147.699951171875,
+      "avgGrade": 2.6400628089904785,
+      "startLat": 30.61726951599121,
+      "startLng": 119.62921905517578
+    },
+    {
+      "id": "35034585",
+      "tileScore": 6,
+      "name": "灵峰Bike车道Climb",
+      "distanceM": 894.9000244140625,
+      "avgGrade": 3.017096996307373,
+      "startLat": 30.617462158203125,
+      "startLng": 119.6290054321289
+    },
+    {
+      "id": "37684590",
+      "tileScore": 22,
+      "name": "龙山公馆→余村235国道段",
+      "distanceM": 4689,
+      "avgGrade": 0.32416293025016785,
+      "startLat": 30.60709571838379,
+      "startLng": 119.67037963867188
+    },
+    {
+      "id": "9427832",
+      "tileScore": 15,
+      "name": "To the Tunnel!",
+      "distanceM": 886.9000244140625,
+      "avgGrade": 5.592513084411621,
+      "startLat": 30.608007431030273,
+      "startLng": 119.64370727539062
+    }
+  ]
+}

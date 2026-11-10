@@ -1,0 +1,29 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T20:36:39.398Z",
+  "tile": {
+    "z": 13,
+    "x": 6807,
+    "y": 3397
+  },
+  "segments": [
+    {
+      "id": "16219021",
+      "tileScore": 9,
+      "name": "OLD VERSION - cheak point 1",
+      "distanceM": 10665.599609375,
+      "avgGrade": 0.573807418346405,
+      "startLat": 29.327539443969727,
+      "startLng": 119.17975616455078
+    },
+    {
+      "id": "33047763",
+      "tileScore": 23,
+      "name": "航头-大同缓坡计时",
+      "distanceM": 6095.60009765625,
+      "avgGrade": 0.5036419630050659,
+      "startLat": 29.33675193786621,
+      "startLng": 119.17879486083984
+    }
+  ]
+}

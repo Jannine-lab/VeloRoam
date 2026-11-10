@@ -1,0 +1,56 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T20:34:10.012Z",
+  "tile": {
+    "z": 13,
+    "x": 6815,
+    "y": 3399
+  },
+  "segments": [
+    {
+      "id": "33182531",
+      "tileScore": 14,
+      "name": "荷包塘",
+      "distanceM": 740.5,
+      "avgGrade": 2.727886438369751,
+      "startLat": 29.249183654785156,
+      "startLng": 119.49012756347656
+    },
+    {
+      "id": "33182500",
+      "tileScore": 22,
+      "name": "里豹山 双击！",
+      "distanceM": 1705.4000244140625,
+      "avgGrade": 0.9264689087867737,
+      "startLat": 29.271564483642578,
+      "startLng": 119.53672790527344
+    },
+    {
+      "id": "39724173",
+      "tileScore": 5,
+      "name": "Fucking H↑一口气浦兰线来回",
+      "distanceM": 86810.203125,
+      "avgGrade": 0.006220467388629913,
+      "startLat": 29.24191665649414,
+      "startLng": 119.47900390625
+    },
+    {
+      "id": "33182512",
+      "tileScore": 26,
+      "name": "出城就干 5岭连发",
+      "distanceM": 4171.2998046875,
+      "avgGrade": 0.7767362594604492,
+      "startLat": 29.24541664123535,
+      "startLng": 119.48535919189453
+    },
+    {
+      "id": "42219464",
+      "tileScore": 24,
+      "name": "Hi bicycle太阳岭环线 安全第一",
+      "distanceM": 87060.5,
+      "avgGrade": 0.004824231378734112,
+      "startLat": 29.2420597076416,
+      "startLng": 119.47916412353516
+    }
+  ]
+}

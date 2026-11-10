@@ -1,0 +1,20 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T20:30:22.441Z",
+  "tile": {
+    "z": 13,
+    "x": 6815,
+    "y": 3393
+  },
+  "segments": [
+    {
+      "id": "40622610",
+      "tileScore": 2,
+      "name": "环兰江-官塘-午塘",
+      "distanceM": 60269.80078125,
+      "avgGrade": 0.0008296028827317059,
+      "startLat": 29.306703567504883,
+      "startLng": 119.53008270263672
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T19:47:25.144Z",
+  "tile": {
+    "z": 13,
+    "x": 6754,
+    "y": 3118
+  },
+  "segments": [
+    {
+      "id": "9684462",
+      "tileScore": 3,
+      "name": "Xinlong river",
+      "distanceM": 3941.5,
+      "avgGrade": 0.045667894184589386,
+      "startLat": 39.42359924316406,
+      "startLng": 116.83657836914062
+    },
+    {
+      "id": "32712857",
+      "tileScore": 16,
+      "name": "京岚线之廊坊脱逃",
+      "distanceM": 9308.599609375,
+      "avgGrade": -0.0010742753511294723,
+      "startLat": 39.46958923339844,
+      "startLng": 116.78204345703125
+    }
+  ]
+}

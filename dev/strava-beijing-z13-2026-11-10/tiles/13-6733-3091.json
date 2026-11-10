@@ -1,0 +1,29 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T19:46:38.199Z",
+  "tile": {
+    "z": 13,
+    "x": 6733,
+    "y": 3091
+  },
+  "segments": [
+    {
+      "id": "36971298",
+      "tileScore": 2,
+      "name": "葡萄大道东段",
+      "distanceM": 7986.7001953125,
+      "avgGrade": 0.1151915043592453,
+      "startLat": 40.31640625,
+      "startLng": 115.80725860595703
+    },
+    {
+      "id": "37453877",
+      "tileScore": 2,
+      "name": "孔雀城爬坡",
+      "distanceM": 2411.800048828125,
+      "avgGrade": 1.8658263683319092,
+      "startLat": 40.341182708740234,
+      "startLng": 115.89485931396484
+    }
+  ]
+}

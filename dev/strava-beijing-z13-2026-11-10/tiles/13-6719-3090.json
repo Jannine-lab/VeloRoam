@@ -1,0 +1,20 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T20:01:48.541Z",
+  "tile": {
+    "z": 13,
+    "x": 6719,
+    "y": 3090
+  },
+  "segments": [
+    {
+      "id": "42427947",
+      "tileScore": 7,
+      "name": "2026涿鹿",
+      "distanceM": 42706.30078125,
+      "avgGrade": -0.008897984400391579,
+      "startLat": 40.37781524658203,
+      "startLng": 115.18963623046875
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T20:03:48.210Z",
+  "tile": {
+    "z": 13,
+    "x": 6721,
+    "y": 3085
+  },
+  "segments": [
+    {
+      "id": "31003533",
+      "tileScore": 1,
+      "name": "段家堡",
+      "distanceM": 17829.400390625,
+      "avgGrade": 3.020853281021118,
+      "startLat": 40.48323059082031,
+      "startLng": 115.31974029541016
+    }
+  ]
+}

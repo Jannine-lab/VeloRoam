@@ -1,0 +1,20 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T20:06:07.945Z",
+  "tile": {
+    "z": 13,
+    "x": 6735,
+    "y": 3073
+  },
+  "segments": [
+    {
+      "id": "40393323",
+      "tileScore": 1,
+      "name": "the famous 趙家莊 climb",
+      "distanceM": 4455.39990234375,
+      "avgGrade": 2.177133321762085,
+      "startLat": 40.943389892578125,
+      "startLng": 115.9760971069336
+    }
+  ]
+}

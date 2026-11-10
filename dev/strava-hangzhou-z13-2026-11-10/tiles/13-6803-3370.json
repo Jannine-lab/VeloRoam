@@ -1,0 +1,47 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T20:30:54.175Z",
+  "tile": {
+    "z": 13,
+    "x": 6803,
+    "y": 3370
+  },
+  "segments": [
+    {
+      "id": "39201376",
+      "tileScore": 1,
+      "name": "马上到浙江了climb",
+      "distanceM": 3227.300048828125,
+      "avgGrade": 7.616273403167725,
+      "startLat": 30.36335563659668,
+      "startLng": 118.97877502441406
+    },
+    {
+      "id": "39201393",
+      "tileScore": 1,
+      "name": "爬个陡坡到浙江climb",
+      "distanceM": 775.7000122070312,
+      "avgGrade": 7.863864898681641,
+      "startLat": 30.356718063354492,
+      "startLng": 118.95814514160156
+    },
+    {
+      "id": "35721816",
+      "tileScore": 5,
+      "name": "Ningdun to Jingzhou",
+      "distanceM": 70412.3984375,
+      "avgGrade": 1.488232135772705,
+      "startLat": 30.4671630859375,
+      "startLng": 119.11399841308594
+    },
+    {
+      "id": "35721087",
+      "tileScore": 29,
+      "name": "Nanji Climb",
+      "distanceM": 13782.5,
+      "avgGrade": 3.312171220779419,
+      "startLat": 30.369855880737305,
+      "startLng": 119.0434799194336
+    }
+  ]
+}

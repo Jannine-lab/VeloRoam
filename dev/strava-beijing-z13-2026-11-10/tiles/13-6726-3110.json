@@ -1,0 +1,56 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T19:48:09.279Z",
+  "tile": {
+    "z": 13,
+    "x": 6726,
+    "y": 3110
+  },
+  "segments": [
+    {
+      "id": "34335526",
+      "tileScore": 14,
+      "name": "六渡 - 红娘口",
+      "distanceM": 12069.599609375,
+      "avgGrade": 0.5087161064147949,
+      "startLat": 39.637977600097656,
+      "startLng": 115.62602233886719
+    },
+    {
+      "id": "1413151",
+      "tileScore": 232,
+      "name": "红井路 Climb",
+      "distanceM": 13671.7998046875,
+      "avgGrade": 4.338858127593994,
+      "startLat": 39.683677673339844,
+      "startLng": 115.59426879882812
+    },
+    {
+      "id": "15294833",
+      "tileScore": 11,
+      "name": "X017 climb to the top",
+      "distanceM": 22640.599609375,
+      "avgGrade": 3.7463672161102295,
+      "startLat": 39.683223724365234,
+      "startLng": 115.58781433105469
+    },
+    {
+      "id": "18785068",
+      "tileScore": 11,
+      "name": "六十红井一疗程",
+      "distanceM": 55250.5,
+      "avgGrade": 0.15456873178482056,
+      "startLat": 39.638362884521484,
+      "startLng": 115.62660217285156
+    },
+    {
+      "id": "14744092",
+      "tileScore": 29,
+      "name": "红井路缓上赛段",
+      "distanceM": 1981.5,
+      "avgGrade": 3.34594988822937,
+      "startLat": 39.68379211425781,
+      "startLng": 115.5943832397461
+    }
+  ]
+}

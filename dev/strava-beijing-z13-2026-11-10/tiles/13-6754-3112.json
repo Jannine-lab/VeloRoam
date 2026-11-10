@@ -1,0 +1,20 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T19:41:38.342Z",
+  "tile": {
+    "z": 13,
+    "x": 6754,
+    "y": 3112
+  },
+  "segments": [
+    {
+      "id": "35424809",
+      "tileScore": 1,
+      "name": "yhong高村科技创新园绕圈",
+      "distanceM": 1521.800048828125,
+      "avgGrade": -0.03942699357867241,
+      "startLat": 39.627532958984375,
+      "startLng": 116.832275390625
+    }
+  ]
+}

@@ -1,0 +1,74 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T19:38:49.848Z",
+  "tile": {
+    "z": 13,
+    "x": 6746,
+    "y": 3095
+  },
+  "segments": [
+    {
+      "id": "20945147",
+      "tileScore": 25,
+      "name": "白马路西段",
+      "distanceM": 5704.7001953125,
+      "avgGrade": -0.1156940832734108,
+      "startLat": 40.18046951293945,
+      "startLng": 116.52152252197266
+    },
+    {
+      "id": "9721501",
+      "tileScore": 17,
+      "name": "HuaichangRd-ChangjinRd",
+      "distanceM": 2692.60009765625,
+      "avgGrade": -0.304538369178772,
+      "startLat": 40.23497009277344,
+      "startLng": 116.48811340332031
+    },
+    {
+      "id": "40339394",
+      "tileScore": 19,
+      "name": "白马路最西段",
+      "distanceM": 2163.39990234375,
+      "avgGrade": -0.09244707226753235,
+      "startLat": 40.18495178222656,
+      "startLng": 116.47785949707031
+    },
+    {
+      "id": "41373287",
+      "tileScore": 5,
+      "name": "大西路（顺沙路→昌金路）",
+      "distanceM": 3560.10009765625,
+      "avgGrade": 0.10112075507640839,
+      "startLat": 40.17561721801758,
+      "startLng": 116.46590423583984
+    },
+    {
+      "id": "34309265",
+      "tileScore": 1,
+      "name": "被雨哥哄骗去大杨山",
+      "distanceM": 25255,
+      "avgGrade": 0.07681646943092346,
+      "startLat": 40.170005798339844,
+      "startLng": 116.64603424072266
+    },
+    {
+      "id": "27702246",
+      "tileScore": 2,
+      "name": "Strawberry Loop Part 2 of 3",
+      "distanceM": 10550.900390625,
+      "avgGrade": -0.00947786495089531,
+      "startLat": 40.205039978027344,
+      "startLng": 116.39994049072266
+    },
+    {
+      "id": "9721507",
+      "tileScore": 18,
+      "name": "GaoixaRd-BaimaRd",
+      "distanceM": 2864.39990234375,
+      "avgGrade": -0.07680491358041763,
+      "startLat": 40.20840072631836,
+      "startLng": 116.48968505859375
+    }
+  ]
+}

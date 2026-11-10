@@ -1,0 +1,29 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T20:35:18.002Z",
+  "tile": {
+    "z": 13,
+    "x": 6798,
+    "y": 3383
+  },
+  "segments": [
+    {
+      "id": "20038515",
+      "tileScore": 3,
+      "name": "叶门线 Full Climb to 安徽 Border",
+      "distanceM": 8777,
+      "avgGrade": 3.7621054649353027,
+      "startLat": 29.808664321899414,
+      "startLng": 118.81367492675781
+    },
+    {
+      "id": "21837497",
+      "tileScore": 2,
+      "name": "Concrete Climb to Weiping",
+      "distanceM": 9246.2998046875,
+      "avgGrade": 3.173161268234253,
+      "startLat": 29.886005401611328,
+      "startLng": 118.73822021484375
+    }
+  ]
+}

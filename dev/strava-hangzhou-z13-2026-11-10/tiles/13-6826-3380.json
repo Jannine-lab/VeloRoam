@@ -1,0 +1,29 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T20:17:51.068Z",
+  "tile": {
+    "z": 13,
+    "x": 6826,
+    "y": 3380
+  },
+  "segments": [
+    {
+      "id": "38720265",
+      "tileScore": 80,
+      "name": "觃口climb",
+      "distanceM": 3190.60009765625,
+      "avgGrade": 1.002946138381958,
+      "startLat": 29.962974548339844,
+      "startLng": 120.0074234008789
+    },
+    {
+      "id": "39456856",
+      "tileScore": 23,
+      "name": "饿死了赶着吃饭加两脚",
+      "distanceM": 4746.60009765625,
+      "avgGrade": -0.39185941219329834,
+      "startLat": 29.96125602722168,
+      "startLng": 120.00687408447266
+    }
+  ]
+}

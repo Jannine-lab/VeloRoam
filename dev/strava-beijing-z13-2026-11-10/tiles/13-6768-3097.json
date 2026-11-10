@@ -1,0 +1,47 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T19:56:26.137Z",
+  "tile": {
+    "z": 13,
+    "x": 6768,
+    "y": 3097
+  },
+  "segments": [
+    {
+      "id": "38222863",
+      "tileScore": 16,
+      "name": "通武线（津围二线至北京界段）",
+      "distanceM": 9435.7001953125,
+      "avgGrade": 0.9389870762825012,
+      "startLat": 40.113216400146484,
+      "startLng": 117.49581146240234
+    },
+    {
+      "id": "37166701",
+      "tileScore": 13,
+      "name": "反爬磨津路起伏拉扯",
+      "distanceM": 4223.10009765625,
+      "avgGrade": 3.154081106185913,
+      "startLat": 40.12046432495117,
+      "startLng": 117.41122436523438
+    },
+    {
+      "id": "2748005",
+      "tileScore": 27,
+      "name": "S301 Climb",
+      "distanceM": 3169.340087890625,
+      "avgGrade": 3.4517574310302734,
+      "startLat": 40.13510513305664,
+      "startLng": 117.4241714477539
+    },
+    {
+      "id": "4260897",
+      "tileScore": 8,
+      "name": "Chenglong Road Climb",
+      "distanceM": 1593.800048828125,
+      "avgGrade": 8.213075637817383,
+      "startLat": 40.14006042480469,
+      "startLng": 117.46550750732422
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T19:50:40.645Z",
+  "tile": {
+    "z": 13,
+    "x": 6759,
+    "y": 3088
+  },
+  "segments": [
+    {
+      "id": "32950303",
+      "tileScore": 39,
+      "name": "白龙潭7KM反爬（拱门-山顶）",
+      "distanceM": 7028.2001953125,
+      "avgGrade": 5.122221946716309,
+      "startLat": 40.40370559692383,
+      "startLng": 117.05125427246094
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T19:38:30.630Z",
+  "tile": {
+    "z": 13,
+    "x": 6746,
+    "y": 3113
+  },
+  "segments": [
+    {
+      "id": "41596519",
+      "tileScore": 4,
+      "name": "上班前的最后冲刺",
+      "distanceM": 1823.4000244140625,
+      "avgGrade": 0,
+      "startLat": 39.57318115234375,
+      "startLng": 116.45629119873047
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T20:26:25.219Z",
+  "tile": {
+    "z": 13,
+    "x": 6808,
+    "y": 3372
+  },
+  "segments": [
+    {
+      "id": "38891381",
+      "tileScore": 9,
+      "name": "乱石堆",
+      "distanceM": 515,
+      "avgGrade": -12.038835525512695,
+      "startLat": 30.274518966674805,
+      "startLng": 119.19689178466797
+    },
+    {
+      "id": "38891430",
+      "tileScore": 21,
+      "name": "道场平down",
+      "distanceM": 5977.5,
+      "avgGrade": -5.453784942626953,
+      "startLat": 30.277124404907227,
+      "startLng": 119.19294738769531
+    },
+    {
+      "id": "37638355",
+      "tileScore": 30,
+      "name": "道场坪climb gravel",
+      "distanceM": 6890.2001953125,
+      "avgGrade": 5.459928512573242,
+      "startLat": 30.275310516357422,
+      "startLng": 119.23004150390625
+    },
+    {
+      "id": "38891378",
+      "tileScore": 4,
+      "name": "陡坡climb",
+      "distanceM": 1387.699951171875,
+      "avgGrade": 4.91460657119751,
+      "startLat": 30.279651641845703,
+      "startLng": 119.20755004882812
+    }
+  ]
+}

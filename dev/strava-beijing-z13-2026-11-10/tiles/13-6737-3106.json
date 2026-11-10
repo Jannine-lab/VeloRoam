@@ -1,0 +1,56 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T19:37:37.086Z",
+  "tile": {
+    "z": 13,
+    "x": 6737,
+    "y": 3106
+  },
+  "segments": [
+    {
+      "id": "29806681",
+      "tileScore": 5,
+      "name": "超哥的晨练之良三路",
+      "distanceM": 49289.5,
+      "avgGrade": 0.07668976485729218,
+      "startLat": 39.80913543701172,
+      "startLng": 116.2022476196289
+    },
+    {
+      "id": "32782223",
+      "tileScore": 37,
+      "name": "魯坨路出隧道大橋上坡",
+      "distanceM": 572.7000122070312,
+      "avgGrade": 2.863628387451172,
+      "startLat": 39.841331481933594,
+      "startLng": 116.06852722167969
+    },
+    {
+      "id": "15978061",
+      "tileScore": 5,
+      "name": "Full Beijing International Tri Loop",
+      "distanceM": 38777.6015625,
+      "avgGrade": -0.016504373401403427,
+      "startLat": 39.861778259277344,
+      "startLng": 116.2039566040039
+    },
+    {
+      "id": "41157119",
+      "tileScore": 59,
+      "name": "小鲁勇闯鲁坨路",
+      "distanceM": 5348,
+      "avgGrade": -1.0695587396621704,
+      "startLat": 39.86817169189453,
+      "startLng": 116.03217315673828
+    },
+    {
+      "id": "29724323",
+      "tileScore": 10,
+      "name": "千灵山爬坡",
+      "distanceM": 2996.800048828125,
+      "avgGrade": 2.6294713020324707,
+      "startLat": 39.836917877197266,
+      "startLng": 116.11524200439453
+    }
+  ]
+}

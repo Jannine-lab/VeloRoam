@@ -1,0 +1,20 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T19:39:17.544Z",
+  "tile": {
+    "z": 13,
+    "x": 6752,
+    "y": 3111
+  },
+  "segments": [
+    {
+      "id": "33058809",
+      "tileScore": 3,
+      "name": "采林路非机起飞啦",
+      "distanceM": 4200.2001953125,
+      "avgGrade": -0.1023760735988617,
+      "startLat": 39.66102981567383,
+      "startLng": 116.72200775146484
+    }
+  ]
+}

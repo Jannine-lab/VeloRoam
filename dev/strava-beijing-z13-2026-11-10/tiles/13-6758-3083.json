@@ -1,0 +1,20 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T19:57:09.616Z",
+  "tile": {
+    "z": 13,
+    "x": 6758,
+    "y": 3083
+  },
+  "segments": [
+    {
+      "id": "35408277",
+      "tileScore": 6,
+      "name": "半城子水库缓下高铁路段",
+      "distanceM": 7291.5,
+      "avgGrade": -0.7460741996765137,
+      "startLat": 40.6197624206543,
+      "startLng": 117.03528594970703
+    }
+  ]
+}

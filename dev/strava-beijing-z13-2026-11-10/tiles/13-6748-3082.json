@@ -1,0 +1,38 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T19:52:23.388Z",
+  "tile": {
+    "z": 13,
+    "x": 6748,
+    "y": 3082
+  },
+  "segments": [
+    {
+      "id": "29634327",
+      "tileScore": 2,
+      "name": "平长山路十八弯",
+      "distanceM": 6930,
+      "avgGrade": -4.984127044677734,
+      "startLat": 40.61647033691406,
+      "startLng": 116.55361938476562
+    },
+    {
+      "id": "40244012",
+      "tileScore": 14,
+      "name": "大黄木厂村反爬",
+      "distanceM": 1240.300048828125,
+      "avgGrade": 6.2081756591796875,
+      "startLat": 40.643455505371094,
+      "startLng": 116.5691146850586
+    },
+    {
+      "id": "42075442",
+      "tileScore": 8,
+      "name": "大黄木厂climb",
+      "distanceM": 8010.5,
+      "avgGrade": 4.319331169128418,
+      "startLat": 40.6844596862793,
+      "startLng": 116.56954956054688
+    }
+  ]
+}

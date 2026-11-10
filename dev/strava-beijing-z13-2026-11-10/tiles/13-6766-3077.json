@@ -1,0 +1,20 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T20:07:44.570Z",
+  "tile": {
+    "z": 13,
+    "x": 6766,
+    "y": 3077
+  },
+  "segments": [
+    {
+      "id": "5492041",
+      "tileScore": 3,
+      "name": "National Road Climb",
+      "distanceM": 4166.39990234375,
+      "avgGrade": 4.613095283508301,
+      "startLat": 40.797847747802734,
+      "startLng": 117.36109924316406
+    }
+  ]
+}

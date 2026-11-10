@@ -1,0 +1,38 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T19:43:02.684Z",
+  "tile": {
+    "z": 13,
+    "x": 6730,
+    "y": 3109
+  },
+  "segments": [
+    {
+      "id": "38622780",
+      "tileScore": 7,
+      "name": "冲进大滩梨树园",
+      "distanceM": 3219.699951171875,
+      "avgGrade": 7.888934135437012,
+      "startLat": 39.7304801940918,
+      "startLng": 115.77557373046875
+    },
+    {
+      "id": "41869060",
+      "tileScore": 3,
+      "name": "大草岭之被🐶猛追误入岔路",
+      "distanceM": 1601.199951171875,
+      "avgGrade": 6.7949042320251465,
+      "startLat": 39.7435417175293,
+      "startLng": 115.78132629394531
+    },
+    {
+      "id": "41857652",
+      "tileScore": 5,
+      "name": "杏黄村climb",
+      "distanceM": 2852.5,
+      "avgGrade": 5.868535995483398,
+      "startLat": 39.73025131225586,
+      "startLng": 115.77568817138672
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T20:11:08.800Z",
+  "tile": {
+    "z": 13,
+    "x": 6720,
+    "y": 3071
+  },
+  "segments": [
+    {
+      "id": "24918923",
+      "tileScore": 15,
+      "name": "\"Surprise - Surprise - Surprise.....\" SERK-Chongli-KOM (Including off-road section to the top)",
+      "distanceM": 13636.099609375,
+      "avgGrade": 5.419437885284424,
+      "startLat": 40.994483947753906,
+      "startLng": 115.29354095458984
+    },
+    {
+      "id": "34734736",
+      "tileScore": 7,
+      "name": "虔诚等冰哥速速摇上来救援！",
+      "distanceM": 1324.699951171875,
+      "avgGrade": 3.2007246017456055,
+      "startLat": 41.00445556640625,
+      "startLng": 115.31172180175781
+    },
+    {
+      "id": "34734696",
+      "tileScore": 22,
+      "name": "崇礼站到长城岭高原训练基地",
+      "distanceM": 14549.400390625,
+      "avgGrade": 2.699767589569092,
+      "startLat": 41.004329681396484,
+      "startLng": 115.31106567382812
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T20:36:31.997Z",
+  "tile": {
+    "z": 13,
+    "x": 6797,
+    "y": 3381
+  },
+  "segments": [
+    {
+      "id": "36692811",
+      "tileScore": 2,
+      "name": "Sharp Mulberry",
+      "distanceM": 2409.89990234375,
+      "avgGrade": 7.353001594543457,
+      "startLat": 29.951963424682617,
+      "startLng": 118.7159423828125
+    },
+    {
+      "id": "26139911",
+      "tileScore": 2,
+      "name": "Nicoles Hike",
+      "distanceM": 3914.699951171875,
+      "avgGrade": 6.493473052978516,
+      "startLat": 29.95184326171875,
+      "startLng": 118.70951843261719
+    },
+    {
+      "id": "27644846",
+      "tileScore": 3,
+      "name": "I hope it is not all like this",
+      "distanceM": 499.29998779296875,
+      "avgGrade": 12.177047729492188,
+      "startLat": 29.950698852539062,
+      "startLng": 118.71302032470703
+    }
+  ]
+}

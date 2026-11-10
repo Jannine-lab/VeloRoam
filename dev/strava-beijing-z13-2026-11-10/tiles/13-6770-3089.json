@@ -1,0 +1,20 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T20:03:19.801Z",
+  "tile": {
+    "z": 13,
+    "x": 6770,
+    "y": 3089
+  },
+  "segments": [
+    {
+      "id": "24694576",
+      "tileScore": 1,
+      "name": "八品叶至兴隆下坡",
+      "distanceM": 12515.400390625,
+      "avgGrade": -1.4765808582305908,
+      "startLat": 40.3882942199707,
+      "startLng": 117.62187194824219
+    }
+  ]
+}

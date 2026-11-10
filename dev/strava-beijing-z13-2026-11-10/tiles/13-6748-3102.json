@@ -1,0 +1,128 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T19:34:26.355Z",
+  "tile": {
+    "z": 13,
+    "x": 6748,
+    "y": 3102
+  },
+  "segments": [
+    {
+      "id": "21511250",
+      "tileScore": 2,
+      "name": "Dr Phil's TTT, 4th Ring Road and return.",
+      "distanceM": 52287.80078125,
+      "avgGrade": -0.00688497070223093,
+      "startLat": 39.932437896728516,
+      "startLng": 116.48710632324219
+    },
+    {
+      "id": "11623102",
+      "tileScore": 22,
+      "name": "机场第二高速(金盏桥-管庄路口)",
+      "distanceM": 7115.60009765625,
+      "avgGrade": -0.07588959485292435,
+      "startLat": 40.001914978027344,
+      "startLng": 116.58734893798828
+    },
+    {
+      "id": "38095391",
+      "tileScore": 61,
+      "name": "OASIS从东坝大街路口到康各庄路口",
+      "distanceM": 2361.5,
+      "avgGrade": -0.08469193428754807,
+      "startLat": 39.977359771728516,
+      "startLng": 116.57572174072266
+    },
+    {
+      "id": "10439808",
+      "tileScore": 3,
+      "name": "Binhe to Dongba公园",
+      "distanceM": 1689.300048828125,
+      "avgGrade": -0.0591961145401001,
+      "startLat": 39.971824645996094,
+      "startLng": 116.56590270996094
+    },
+    {
+      "id": "10439825",
+      "tileScore": 41,
+      "name": "S51 via to bahe crossing",
+      "distanceM": 1867.199951171875,
+      "avgGrade": -0.10711225867271423,
+      "startLat": 39.94265365600586,
+      "startLng": 116.58162689208984
+    },
+    {
+      "id": "19256076",
+      "tileScore": 1,
+      "name": "Bahe 1st segment",
+      "distanceM": 6935.2998046875,
+      "avgGrade": -0.14995746314525604,
+      "startLat": 39.96220779418945,
+      "startLng": 116.5040512084961
+    },
+    {
+      "id": "41850914",
+      "tileScore": 30,
+      "name": "Oasis从管庄路飞驰到金盏桥北掉头（修路后）",
+      "distanceM": 9499.2001953125,
+      "avgGrade": -0.027370726689696312,
+      "startLat": 39.93164825439453,
+      "startLng": 116.58389282226562
+    },
+    {
+      "id": "10439806",
+      "tileScore": 15,
+      "name": "Canal to Binhe rd",
+      "distanceM": 579.0999755859375,
+      "avgGrade": 0.6216542720794678,
+      "startLat": 39.97074508666992,
+      "startLng": 116.55947875976562
+    },
+    {
+      "id": "10439812",
+      "tileScore": 1,
+      "name": "Dongba公园 to S51 side",
+      "distanceM": 694.5,
+      "avgGrade": -0.2591792643070221,
+      "startLat": 39.95710754394531,
+      "startLng": 116.5700454711914
+    },
+    {
+      "id": "40532611",
+      "tileScore": 224,
+      "name": "机场二高-金盏闸",
+      "distanceM": 6576.10009765625,
+      "avgGrade": -0.012165265157818794,
+      "startLat": 39.964202880859375,
+      "startLng": 116.57881164550781
+    },
+    {
+      "id": "10439800",
+      "tileScore": 2,
+      "name": "Canal road",
+      "distanceM": 3421.60009765625,
+      "avgGrade": -0.08183306455612183,
+      "startLat": 39.99814224243164,
+      "startLng": 116.54267883300781
+    },
+    {
+      "id": "41829726",
+      "tileScore": 1,
+      "name": "798-二高",
+      "distanceM": 20552.69921875,
+      "avgGrade": -0.0778486579656601,
+      "startLat": 39.98301696777344,
+      "startLng": 116.48594665527344
+    },
+    {
+      "id": "9700729",
+      "tileScore": 4,
+      "name": "road to canal",
+      "distanceM": 4305.5,
+      "avgGrade": -0.1068400889635086,
+      "startLat": 40.001869201660156,
+      "startLng": 116.55915832519531
+    }
+  ]
+}

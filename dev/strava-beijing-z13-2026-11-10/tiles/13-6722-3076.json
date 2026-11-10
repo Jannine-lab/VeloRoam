@@ -1,0 +1,20 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T20:07:54.577Z",
+  "tile": {
+    "z": 13,
+    "x": 6722,
+    "y": 3076
+  },
+  "segments": [
+    {
+      "id": "35459427",
+      "tileScore": 29,
+      "name": "喜鹊梁铺装路段E-W",
+      "distanceM": 4595.7998046875,
+      "avgGrade": 1.359937310218811,
+      "startLat": 40.833560943603516,
+      "startLng": 115.36082458496094
+    }
+  ]
+}

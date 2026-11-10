@@ -1,0 +1,29 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T20:06:20.314Z",
+  "tile": {
+    "z": 13,
+    "x": 6769,
+    "y": 3080
+  },
+  "segments": [
+    {
+      "id": "38087377",
+      "tileScore": 8,
+      "name": "双凤寺爬坡（由西向东）",
+      "distanceM": 3298.699951171875,
+      "avgGrade": 5.062600612640381,
+      "startLat": 40.697845458984375,
+      "startLng": 117.50032043457031
+    },
+    {
+      "id": "5610617",
+      "tileScore": 1,
+      "name": "Shangluan Line Climb",
+      "distanceM": 3178.39990234375,
+      "avgGrade": 3.6307578086853027,
+      "startLat": 40.69504165649414,
+      "startLng": 117.47550964355469
+    }
+  ]
+}

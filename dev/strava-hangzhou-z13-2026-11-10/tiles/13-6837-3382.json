@@ -1,0 +1,29 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T20:20:23.726Z",
+  "tile": {
+    "z": 13,
+    "x": 6837,
+    "y": 3382
+  },
+  "segments": [
+    {
+      "id": "37427337",
+      "tileScore": 32,
+      "name": "纯爬坡段",
+      "distanceM": 4803.89990234375,
+      "avgGrade": 1.3384957313537598,
+      "startLat": 29.91330909729004,
+      "startLng": 120.50006103515625
+    },
+    {
+      "id": "37309346",
+      "tileScore": 51,
+      "name": "痛苦面具过后的快乐冲",
+      "distanceM": 2468.5,
+      "avgGrade": -1.9445008039474487,
+      "startLat": 29.874059677124023,
+      "startLng": 120.48750305175781
+    }
+  ]
+}

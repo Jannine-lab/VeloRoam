@@ -1,0 +1,20 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T19:53:30.705Z",
+  "tile": {
+    "z": 13,
+    "x": 6723,
+    "y": 3096
+  },
+  "segments": [
+    {
+      "id": "19849360",
+      "tileScore": 1,
+      "name": "S241短暂的缓冲冷却时间",
+      "distanceM": 2017.4000244140625,
+      "avgGrade": -4.31248140335083,
+      "startLat": 40.1456413269043,
+      "startLng": 115.48800659179688
+    }
+  ]
+}

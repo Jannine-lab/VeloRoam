@@ -1,0 +1,29 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T20:29:49.228Z",
+  "tile": {
+    "z": 13,
+    "x": 6806,
+    "y": 3384
+  },
+  "segments": [
+    {
+      "id": "5269355",
+      "tileScore": 11,
+      "name": "昌文线 - Changwen Xian ",
+      "distanceM": 11633,
+      "avgGrade": 0.10573369264602661,
+      "startLat": 29.75299644470215,
+      "startLng": 119.1852035522461
+    },
+    {
+      "id": "32502740",
+      "tileScore": 1,
+      "name": "WenChang climb -short ",
+      "distanceM": 730.9000244140625,
+      "avgGrade": 4.774935245513916,
+      "startLat": 29.80791473388672,
+      "startLng": 119.13810729980469
+    }
+  ]
+}

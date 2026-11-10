@@ -1,0 +1,20 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T20:22:19.468Z",
+  "tile": {
+    "z": 13,
+    "x": 6838,
+    "y": 3384
+  },
+  "segments": [
+    {
+      "id": "23075166",
+      "tileScore": 123,
+      "name": "驻日岭爬坡（黄壤坞岔口-坡顶）",
+      "distanceM": 4833,
+      "avgGrade": 2.0111732482910156,
+      "startLat": 29.812820434570312,
+      "startLng": 120.54313659667969
+    }
+  ]
+}

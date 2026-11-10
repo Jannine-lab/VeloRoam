@@ -1,0 +1,20 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T20:30:00.240Z",
+  "tile": {
+    "z": 13,
+    "x": 6805,
+    "y": 3379
+  },
+  "segments": [
+    {
+      "id": "24224622",
+      "tileScore": 64,
+      "name": "The Ironed Mullet",
+      "distanceM": 16337.5,
+      "avgGrade": 4.432746887207031,
+      "startLat": 29.994754791259766,
+      "startLng": 119.09507751464844
+    }
+  ]
+}

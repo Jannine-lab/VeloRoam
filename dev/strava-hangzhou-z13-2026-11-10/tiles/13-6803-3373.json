@@ -1,0 +1,38 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T20:30:46.754Z",
+  "tile": {
+    "z": 13,
+    "x": 6803,
+    "y": 3373
+  },
+  "segments": [
+    {
+      "id": "34372177",
+      "tileScore": 160,
+      "name": "FirstSix Climb",
+      "distanceM": 6009.89990234375,
+      "avgGrade": 4.842010498046875,
+      "startLat": 30.277637481689453,
+      "startLng": 119.0074691772461
+    },
+    {
+      "id": "34959797",
+      "tileScore": 646,
+      "name": "浙西纯爬坡段(HC)",
+      "distanceM": 22880.099609375,
+      "avgGrade": 3.766591787338257,
+      "startLat": 30.279924392700195,
+      "startLng": 119.00922393798828
+    },
+    {
+      "id": "34378160",
+      "tileScore": 719,
+      "name": "2023骑闯天路太子尖  东南一柱堪擎天",
+      "distanceM": 46319,
+      "avgGrade": 2.5449600219726562,
+      "startLat": 30.17902946472168,
+      "startLng": 119.12055206298828
+    }
+  ]
+}

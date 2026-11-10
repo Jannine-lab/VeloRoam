@@ -1,0 +1,29 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T19:53:50.735Z",
+  "tile": {
+    "z": 13,
+    "x": 6763,
+    "y": 3118
+  },
+  "segments": [
+    {
+      "id": "15342627",
+      "tileScore": 1,
+      "name": "下堤回",
+      "distanceM": 1523.5,
+      "avgGrade": -0.11814900487661362,
+      "startLat": 39.41012191772461,
+      "startLng": 117.25467681884766
+    },
+    {
+      "id": "18157663",
+      "tileScore": 1,
+      "name": "龍鳳河北堤新路-順騎",
+      "distanceM": 9507.7998046875,
+      "avgGrade": -0.025242432951927185,
+      "startLat": 39.446617126464844,
+      "startLng": 117.18480682373047
+    }
+  ]
+}

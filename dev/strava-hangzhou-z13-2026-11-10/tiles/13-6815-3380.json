@@ -1,0 +1,20 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T20:23:50.918Z",
+  "tile": {
+    "z": 13,
+    "x": 6815,
+    "y": 3380
+  },
+  "segments": [
+    {
+      "id": "36488579",
+      "tileScore": 36,
+      "name": "天井山爬坡",
+      "distanceM": 8053.2001953125,
+      "avgGrade": 4.110167503356934,
+      "startLat": 29.969284057617188,
+      "startLng": 119.53178405761719
+    }
+  ]
+}

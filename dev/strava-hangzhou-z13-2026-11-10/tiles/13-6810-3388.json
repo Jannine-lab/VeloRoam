@@ -1,0 +1,20 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T20:29:03.513Z",
+  "tile": {
+    "z": 13,
+    "x": 6810,
+    "y": 3388
+  },
+  "segments": [
+    {
+      "id": "41755390",
+      "tileScore": 3,
+      "name": "百富线climb",
+      "distanceM": 16366.099609375,
+      "avgGrade": 2.1031277179718018,
+      "startLat": 29.660274505615234,
+      "startLng": 119.22676849365234
+    }
+  ]
+}

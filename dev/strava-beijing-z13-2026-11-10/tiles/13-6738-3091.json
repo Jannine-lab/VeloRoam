@@ -1,0 +1,47 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T19:43:12.535Z",
+  "tile": {
+    "z": 13,
+    "x": 6738,
+    "y": 3091
+  },
+  "segments": [
+    {
+      "id": "11184157",
+      "tileScore": 165,
+      "name": "G110 climb",
+      "distanceM": 15784.2998046875,
+      "avgGrade": 3.018188953399658,
+      "startLat": 40.299102783203125,
+      "startLng": 116.18196868896484
+    },
+    {
+      "id": "36761542",
+      "tileScore": 50,
+      "name": "九仙庙climb",
+      "distanceM": 6192.60009765625,
+      "avgGrade": 6.7354583740234375,
+      "startLat": 40.28638458251953,
+      "startLng": 116.07156372070312
+    },
+    {
+      "id": "36819025",
+      "tileScore": 8,
+      "name": "西三岔村climb",
+      "distanceM": 1398,
+      "avgGrade": 7.846923828125,
+      "startLat": 40.33487319946289,
+      "startLng": 116.13702392578125
+    },
+    {
+      "id": "36819031",
+      "tileScore": 10,
+      "name": "西三岔支线climb",
+      "distanceM": 646.2999877929688,
+      "avgGrade": 10.258393287658691,
+      "startLat": 40.33208084106445,
+      "startLng": 116.12995147705078
+    }
+  ]
+}

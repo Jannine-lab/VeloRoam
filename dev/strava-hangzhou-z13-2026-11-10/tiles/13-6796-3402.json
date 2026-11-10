@@ -1,0 +1,20 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T20:42:04.543Z",
+  "tile": {
+    "z": 13,
+    "x": 6796,
+    "y": 3402
+  },
+  "segments": [
+    {
+      "id": "27620388",
+      "tileScore": 31,
+      "name": "新桥-芙蓉水库",
+      "distanceM": 13994.900390625,
+      "avgGrade": -0.8503097295761108,
+      "startLat": 29.1580867767334,
+      "startLng": 118.69691467285156
+    }
+  ]
+}

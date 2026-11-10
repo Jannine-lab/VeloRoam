@@ -1,0 +1,20 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T20:32:21.357Z",
+  "tile": {
+    "z": 13,
+    "x": 6810,
+    "y": 3394
+  },
+  "segments": [
+    {
+      "id": "16218675",
+      "tileScore": 3,
+      "name": "方益权普通训练绕圈爬坡",
+      "distanceM": 2262.800048828125,
+      "avgGrade": 6.788050174713135,
+      "startLat": 29.428686141967773,
+      "startLng": 119.30810546875
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T19:35:30.410Z",
+  "tile": {
+    "z": 13,
+    "x": 6744,
+    "y": 3111
+  },
+  "segments": [
+    {
+      "id": "41199320",
+      "tileScore": 1,
+      "name": "世界月季主题园绕圈-北门起点",
+      "distanceM": 3012.89990234375,
+      "avgGrade": 0.01991436816751957,
+      "startLat": 39.67375183105469,
+      "startLng": 116.41533660888672
+    },
+    {
+      "id": "40281941",
+      "tileScore": 1,
+      "name": "【推荐】桂大路从北到南",
+      "distanceM": 9249.5,
+      "avgGrade": -0.05405697599053383,
+      "startLat": 39.69002914428711,
+      "startLng": 116.3658676147461
+    },
+    {
+      "id": "35705448",
+      "tileScore": 18,
+      "name": "庞安路-黄马路tt",
+      "distanceM": 11370.2001953125,
+      "avgGrade": 0.07035935670137405,
+      "startLat": 39.61646270751953,
+      "startLng": 116.40950775146484
+    },
+    {
+      "id": "41898620",
+      "tileScore": 2,
+      "name": "Under and over with JC_Cycling",
+      "distanceM": 3671.699951171875,
+      "avgGrade": 0.010894136503338814,
+      "startLat": 39.67366409301758,
+      "startLng": 116.3949203491211
+    }
+  ]
+}

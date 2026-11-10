@@ -1,0 +1,20 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T20:36:49.350Z",
+  "tile": {
+    "z": 13,
+    "x": 6796,
+    "y": 3383
+  },
+  "segments": [
+    {
+      "id": "5344289",
+      "tileScore": 2,
+      "name": "深渡到威坪",
+      "distanceM": 47333.5,
+      "avgGrade": -0.0004225337179377675,
+      "startLat": 29.866865158081055,
+      "startLng": 118.60987091064453
+    }
+  ]
+}

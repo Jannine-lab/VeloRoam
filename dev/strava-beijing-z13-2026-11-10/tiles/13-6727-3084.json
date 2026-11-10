@@ -1,0 +1,47 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T19:58:17.891Z",
+  "tile": {
+    "z": 13,
+    "x": 6727,
+    "y": 3084
+  },
+  "segments": [
+    {
+      "id": "12271010",
+      "tileScore": 3,
+      "name": "Old S241 Provincial Road Final Climb",
+      "distanceM": 1895.300048828125,
+      "avgGrade": 5.402838230133057,
+      "startLat": 40.57160186767578,
+      "startLng": 115.65603637695312
+    },
+    {
+      "id": "37496349",
+      "tileScore": 4,
+      "name": "长安岭七星庙爬坡赛",
+      "distanceM": 3871.5,
+      "avgGrade": 5.811700820922852,
+      "startLat": 40.54050827026367,
+      "startLng": 115.64013671875
+    },
+    {
+      "id": "34256813",
+      "tileScore": 3,
+      "name": "Don’t Get Dropped!!!",
+      "distanceM": 1946.300048828125,
+      "avgGrade": 9.279145240783691,
+      "startLat": 40.55146026611328,
+      "startLng": 115.65523529052734
+    },
+    {
+      "id": "12270997",
+      "tileScore": 1,
+      "name": "S241 Provincial Road False Flat",
+      "distanceM": 14599.599609375,
+      "avgGrade": 1.9000520706176758,
+      "startLat": 40.67354965209961,
+      "startLng": 115.72968292236328
+    }
+  ]
+}

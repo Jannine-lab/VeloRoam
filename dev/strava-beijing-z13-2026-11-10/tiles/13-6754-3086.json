@@ -1,0 +1,74 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T19:49:58.834Z",
+  "tile": {
+    "z": 13,
+    "x": 6754,
+    "y": 3086
+  },
+  "segments": [
+    {
+      "id": "34137283",
+      "tileScore": 50,
+      "name": "2023-04-15环密云水库拉力赛climb 02",
+      "distanceM": 802.5,
+      "avgGrade": 4.8598127365112305,
+      "startLat": 40.499263763427734,
+      "startLng": 116.81592559814453
+    },
+    {
+      "id": "17444363",
+      "tileScore": 52,
+      "name": "环密云水库",
+      "distanceM": 99223.3984375,
+      "avgGrade": 0.017334621399641037,
+      "startLat": 40.473995208740234,
+      "startLng": 116.87325286865234
+    },
+    {
+      "id": "25731744",
+      "tileScore": 39,
+      "name": "Epic Boutard Secret Drop Zone",
+      "distanceM": 5886.60009765625,
+      "avgGrade": 0.6761118173599243,
+      "startLat": 40.553199768066406,
+      "startLng": 116.81373596191406
+    },
+    {
+      "id": "19165201",
+      "tileScore": 46,
+      "name": "密云水库起伏路",
+      "distanceM": 19491.599609375,
+      "avgGrade": 0.948100745677948,
+      "startLat": 40.47593307495117,
+      "startLng": 116.82794952392578
+    },
+    {
+      "id": "36828848",
+      "tileScore": 19,
+      "name": "Epic YanQi to Miyun",
+      "distanceM": 95911.8984375,
+      "avgGrade": -0.2003922313451767,
+      "startLat": 40.43746566772461,
+      "startLng": 116.57965087890625
+    },
+    {
+      "id": "13235823",
+      "tileScore": 77,
+      "name": "水库西线-石城最高点",
+      "distanceM": 3685.10009765625,
+      "avgGrade": 2.9958481788635254,
+      "startLat": 40.47970962524414,
+      "startLng": 116.8126449584961
+    },
+    {
+      "id": "13235802",
+      "tileScore": 70,
+      "name": "水库西线爬坡起点-白河大桥",
+      "distanceM": 10255.5,
+      "avgGrade": 0.6806104183197021,
+      "startLat": 40.479759216308594,
+      "startLng": 116.8126449584961
+    }
+  ]
+}

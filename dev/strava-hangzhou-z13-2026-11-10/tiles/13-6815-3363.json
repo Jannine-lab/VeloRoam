@@ -1,0 +1,20 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T20:24:08.363Z",
+  "tile": {
+    "z": 13,
+    "x": 6815,
+    "y": 3363
+  },
+  "segments": [
+    {
+      "id": "27902666",
+      "tileScore": 7,
+      "name": "Chenjiashan",
+      "distanceM": 4486.7998046875,
+      "avgGrade": 3.5816171169281006,
+      "startLat": 30.6361026763916,
+      "startLng": 119.50328826904297
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T20:24:36.638Z",
+  "tile": {
+    "z": 13,
+    "x": 6821,
+    "y": 3387
+  },
+  "segments": [
+    {
+      "id": "41516488",
+      "tileScore": 9,
+      "name": "华家塘",
+      "distanceM": 5535,
+      "avgGrade": 1.817524790763855,
+      "startLat": 29.7343692779541,
+      "startLng": 119.80384826660156
+    },
+    {
+      "id": "42309918",
+      "tileScore": 2,
+      "name": "华家塘供水站 起点有瓜路",
+      "distanceM": 764.5,
+      "avgGrade": 4.630477428436279,
+      "startLat": 29.695701599121094,
+      "startLng": 119.78169250488281
+    }
+  ]
+}

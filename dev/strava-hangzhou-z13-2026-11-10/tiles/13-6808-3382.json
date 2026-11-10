@@ -1,0 +1,20 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T20:27:56.975Z",
+  "tile": {
+    "z": 13,
+    "x": 6808,
+    "y": 3382
+  },
+  "segments": [
+    {
+      "id": "38604939",
+      "tileScore": 4,
+      "name": "梅茆线climb",
+      "distanceM": 2193.89990234375,
+      "avgGrade": 6.0166826248168945,
+      "startLat": 29.898488998413086,
+      "startLng": 119.18106079101562
+    }
+  ]
+}

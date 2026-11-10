@@ -1,0 +1,56 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T19:43:07.606Z",
+  "tile": {
+    "z": 13,
+    "x": 6731,
+    "y": 3099
+  },
+  "segments": [
+    {
+      "id": "5552714",
+      "tileScore": 6,
+      "name": "Country Road Climb",
+      "distanceM": 421.1000061035156,
+      "avgGrade": 22.274993896484375,
+      "startLat": 40.05450439453125,
+      "startLng": 115.82781982421875
+    },
+    {
+      "id": "27875554",
+      "tileScore": 20,
+      "name": "X610（付家台-南石洋大峡谷碑）",
+      "distanceM": 4317.2998046875,
+      "avgGrade": 0.32427674531936646,
+      "startLat": 40.015869140625,
+      "startLng": 115.82373809814453
+    },
+    {
+      "id": "27443437",
+      "tileScore": 12,
+      "name": "珍珠湖美丽缓下",
+      "distanceM": 9497.599609375,
+      "avgGrade": -0.4274764060974121,
+      "startLat": 40.04977798461914,
+      "startLng": 115.8010025024414
+    },
+    {
+      "id": "5552713",
+      "tileScore": 10,
+      "name": "Village Road Climb",
+      "distanceM": 354.29998779296875,
+      "avgGrade": 26.898109436035156,
+      "startLat": 40.07616424560547,
+      "startLng": 115.8259048461914
+    },
+    {
+      "id": "21500953",
+      "tileScore": 75,
+      "name": "南石洋大峡谷石碑到士博途终点的古典路赛段",
+      "distanceM": 15171,
+      "avgGrade": 1.9932767152786255,
+      "startLat": 40.049049377441406,
+      "startLng": 115.82856750488281
+    }
+  ]
+}

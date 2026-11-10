@@ -1,0 +1,20 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T19:52:20.901Z",
+  "tile": {
+    "z": 13,
+    "x": 6767,
+    "y": 3107
+  },
+  "segments": [
+    {
+      "id": "14502114",
+      "tileScore": 3,
+      "name": "S101(-s303)",
+      "distanceM": 6399.7998046875,
+      "avgGrade": 0.012500390410423279,
+      "startLat": 39.76399230957031,
+      "startLng": 117.397216796875
+    }
+  ]
+}

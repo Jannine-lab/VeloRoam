@@ -1,0 +1,20 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T19:59:59.271Z",
+  "tile": {
+    "z": 13,
+    "x": 6725,
+    "y": 3084
+  },
+  "segments": [
+    {
+      "id": "42067997",
+      "tileScore": 4,
+      "name": "颠死我了",
+      "distanceM": 8718.7998046875,
+      "avgGrade": -6.2806806564331055,
+      "startLat": 40.57217788696289,
+      "startLng": 115.55435180664062
+    }
+  ]
+}

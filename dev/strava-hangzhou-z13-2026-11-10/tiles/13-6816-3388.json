@@ -1,0 +1,29 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T20:26:10.412Z",
+  "tile": {
+    "z": 13,
+    "x": 6816,
+    "y": 3388
+  },
+  "segments": [
+    {
+      "id": "39500739",
+      "tileScore": 2,
+      "name": "凯皇训练坡",
+      "distanceM": 7643.7998046875,
+      "avgGrade": 0.9811873435974121,
+      "startLat": 29.6994571685791,
+      "startLng": 119.57782745361328
+    },
+    {
+      "id": "28122100",
+      "tileScore": 2,
+      "name": "Qiantan to Anren 狂拉",
+      "distanceM": 11905.7998046875,
+      "avgGrade": -0.023517949506640434,
+      "startLat": 29.619415283203125,
+      "startLng": 119.53386688232422
+    }
+  ]
+}

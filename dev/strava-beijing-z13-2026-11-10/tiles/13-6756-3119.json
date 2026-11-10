@@ -1,0 +1,20 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T19:48:48.999Z",
+  "tile": {
+    "z": 13,
+    "x": 6756,
+    "y": 3119
+  },
+  "segments": [
+    {
+      "id": "9353544",
+      "tileScore": 3,
+      "name": "d'arenberg forest",
+      "distanceM": 8009.89990234375,
+      "avgGrade": 0.01997528038918972,
+      "startLat": 39.39859390258789,
+      "startLng": 116.93527221679688
+    }
+  ]
+}

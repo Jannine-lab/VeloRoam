@@ -1,0 +1,20 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T20:25:30.816Z",
+  "tile": {
+    "z": 13,
+    "x": 6811,
+    "y": 3375
+  },
+  "segments": [
+    {
+      "id": "39058667",
+      "tileScore": 4,
+      "name": "329-仁里",
+      "distanceM": 92852.5,
+      "avgGrade": 0.46719256043434143,
+      "startLat": 30.2049503326416,
+      "startLng": 119.64678955078125
+    }
+  ]
+}

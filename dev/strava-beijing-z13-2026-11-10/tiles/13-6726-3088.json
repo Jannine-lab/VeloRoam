@@ -1,0 +1,29 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T19:53:59.847Z",
+  "tile": {
+    "z": 13,
+    "x": 6726,
+    "y": 3088
+  },
+  "segments": [
+    {
+      "id": "32852772",
+      "tileScore": 7,
+      "name": "环城路-杨家山爬坡计时赛",
+      "distanceM": 5449,
+      "avgGrade": 2.3600659370422363,
+      "startLat": 40.41191482543945,
+      "startLng": 115.54556274414062
+    },
+    {
+      "id": "37497207",
+      "tileScore": 11,
+      "name": "怀来东沟爬坡赛",
+      "distanceM": 23170.69921875,
+      "avgGrade": 3.0253725051879883,
+      "startLat": 40.408023834228516,
+      "startLng": 115.6043930053711
+    }
+  ]
+}

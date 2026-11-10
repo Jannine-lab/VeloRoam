@@ -1,0 +1,47 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T20:22:58.132Z",
+  "tile": {
+    "z": 13,
+    "x": 6822,
+    "y": 3386
+  },
+  "segments": [
+    {
+      "id": "40919472",
+      "tileScore": 22,
+      "name": "大桃园",
+      "distanceM": 4185,
+      "avgGrade": 2.207885265350342,
+      "startLat": 29.76078224182129,
+      "startLng": 119.81852722167969
+    },
+    {
+      "id": "35407309",
+      "tileScore": 55,
+      "name": "柴雅线 桥头 ↗ 隧道口",
+      "distanceM": 5152.10009765625,
+      "avgGrade": 2.208807945251465,
+      "startLat": 29.73405647277832,
+      "startLng": 119.80580139160156
+    },
+    {
+      "id": "41516488",
+      "tileScore": 9,
+      "name": "华家塘",
+      "distanceM": 5535,
+      "avgGrade": 1.817524790763855,
+      "startLat": 29.7343692779541,
+      "startLng": 119.80384826660156
+    },
+    {
+      "id": "38933374",
+      "tileScore": 64,
+      "name": "上店—大源",
+      "distanceM": 5439.5,
+      "avgGrade": 1.1839324235916138,
+      "startLat": 29.777179718017578,
+      "startLng": 119.81370544433594
+    }
+  ]
+}

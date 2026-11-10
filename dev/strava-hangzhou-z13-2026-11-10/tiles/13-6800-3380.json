@@ -1,0 +1,74 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T20:33:08.996Z",
+  "tile": {
+    "z": 13,
+    "x": 6800,
+    "y": 3380
+  },
+  "segments": [
+    {
+      "id": "20506251",
+      "tileScore": 19,
+      "name": "Black Coffee",
+      "distanceM": 1058.300048828125,
+      "avgGrade": 5.763960838317871,
+      "startLat": 29.965709686279297,
+      "startLng": 118.84976959228516
+    },
+    {
+      "id": "20506218",
+      "tileScore": 18,
+      "name": "Chocolate Croissant",
+      "distanceM": 875.9000244140625,
+      "avgGrade": 4.658066272735596,
+      "startLat": 29.952850341796875,
+      "startLng": 118.85086059570312
+    },
+    {
+      "id": "20506065",
+      "tileScore": 6,
+      "name": "Jerry's Jitters",
+      "distanceM": 8937.2998046875,
+      "avgGrade": -1.9603235721588135,
+      "startLat": 29.98578643798828,
+      "startLng": 118.84530639648438
+    },
+    {
+      "id": "37740169",
+      "tileScore": 36,
+      "name": "金川to淳安【DQ】",
+      "distanceM": 8209.5,
+      "avgGrade": 0.02558012120425701,
+      "startLat": 29.98009490966797,
+      "startLng": 118.84507751464844
+    },
+    {
+      "id": "29905628",
+      "tileScore": 23,
+      "name": "mmmmm hopefully the last segment",
+      "distanceM": 926.7000122070312,
+      "avgGrade": 5.78396463394165,
+      "startLat": 29.96172523498535,
+      "startLng": 118.87390899658203
+    },
+    {
+      "id": "42428232",
+      "tileScore": 1,
+      "name": "Clean Slate 26",
+      "distanceM": 113029.5,
+      "avgGrade": -0.006016128696501255,
+      "startLat": 30.0743350982666,
+      "startLng": 118.81914520263672
+    },
+    {
+      "id": "38905686",
+      "tileScore": 144,
+      "name": "Warming Up",
+      "distanceM": 8124.60009765625,
+      "avgGrade": 4.475297451019287,
+      "startLat": 30.007274627685547,
+      "startLng": 118.80046844482422
+    }
+  ]
+}

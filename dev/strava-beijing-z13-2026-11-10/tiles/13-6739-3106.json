@@ -1,0 +1,65 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T19:35:07.493Z",
+  "tile": {
+    "z": 13,
+    "x": 6739,
+    "y": 3106
+  },
+  "segments": [
+    {
+      "id": "15978061",
+      "tileScore": 5,
+      "name": "Full Beijing International Tri Loop",
+      "distanceM": 38777.6015625,
+      "avgGrade": -0.016504373401403427,
+      "startLat": 39.861778259277344,
+      "startLng": 116.2039566040039
+    },
+    {
+      "id": "34899004",
+      "tileScore": 9,
+      "name": "飞机道还有路权么……",
+      "distanceM": 2073.800048828125,
+      "avgGrade": 0.44363006949424744,
+      "startLat": 39.82160186767578,
+      "startLng": 116.17153930664062
+    },
+    {
+      "id": "23580317",
+      "tileScore": 2,
+      "name": "镇岗塔南向北",
+      "distanceM": 757,
+      "avgGrade": 1.8494055271148682,
+      "startLat": 39.8094482421875,
+      "startLng": 116.15772247314453
+    },
+    {
+      "id": "37199285",
+      "tileScore": 2,
+      "name": "云岗北环路小陡坡",
+      "distanceM": 614,
+      "avgGrade": 2.4755699634552,
+      "startLat": 39.816184997558594,
+      "startLng": 116.1474380493164
+    },
+    {
+      "id": "34898989",
+      "tileScore": 2,
+      "name": "阳阳出门上班爬个坡",
+      "distanceM": 1854,
+      "avgGrade": -0.3775620460510254,
+      "startLat": 39.840980529785156,
+      "startLng": 116.16899108886719
+    },
+    {
+      "id": "10359243",
+      "tileScore": 2,
+      "name": "Downhill!!!",
+      "distanceM": 2506,
+      "avgGrade": -2.218675136566162,
+      "startLat": 39.846412658691406,
+      "startLng": 116.13750457763672
+    }
+  ]
+}

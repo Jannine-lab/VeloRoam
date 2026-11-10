@@ -1,0 +1,20 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T19:53:48.254Z",
+  "tile": {
+    "z": 13,
+    "x": 6761,
+    "y": 3120
+  },
+  "segments": [
+    {
+      "id": "13540564",
+      "tileScore": 4,
+      "name": " 京津快速(x527-五間房道)",
+      "distanceM": 4666.2998046875,
+      "avgGrade": -0.04714656248688698,
+      "startLat": 39.38461685180664,
+      "startLng": 117.12098693847656
+    }
+  ]
+}

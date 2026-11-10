@@ -1,0 +1,20 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T20:27:49.597Z",
+  "tile": {
+    "z": 13,
+    "x": 6807,
+    "y": 3371
+  },
+  "segments": [
+    {
+      "id": "39201927",
+      "tileScore": 1,
+      "name": "前左拐浙西天池",
+      "distanceM": 1348.9000244140625,
+      "avgGrade": 11.505671501159668,
+      "startLat": 30.33064079284668,
+      "startLng": 119.15174102783203
+    }
+  ]
+}

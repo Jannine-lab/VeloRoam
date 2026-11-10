@@ -1,0 +1,20 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T19:43:57.229Z",
+  "tile": {
+    "z": 13,
+    "x": 6758,
+    "y": 3111
+  },
+  "segments": [
+    {
+      "id": "13679646",
+      "tileScore": 2,
+      "name": "Goin' Southbound",
+      "distanceM": 27983.19921875,
+      "avgGrade": 0.0028588580898940563,
+      "startLat": 39.71125030517578,
+      "startLng": 117.00829315185547
+    }
+  ]
+}

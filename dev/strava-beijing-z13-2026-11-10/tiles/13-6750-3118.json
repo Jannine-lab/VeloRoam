@@ -1,0 +1,20 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T19:45:13.889Z",
+  "tile": {
+    "z": 13,
+    "x": 6750,
+    "y": 3118
+  },
+  "segments": [
+    {
+      "id": "37426839",
+      "tileScore": 37,
+      "name": "廊坊永清一路不停",
+      "distanceM": 14959,
+      "avgGrade": 0.009358914569020271,
+      "startLat": 39.45412826538086,
+      "startLng": 116.6565170288086
+    }
+  ]
+}

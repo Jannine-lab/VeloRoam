@@ -1,0 +1,29 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T20:38:22.393Z",
+  "tile": {
+    "z": 13,
+    "x": 6792,
+    "y": 3378
+  },
+  "segments": [
+    {
+      "id": "40274562",
+      "tileScore": 1,
+      "name": "申脯肉赶回歙县起伏路itt",
+      "distanceM": 18520.69921875,
+      "avgGrade": -0.34987878799438477,
+      "startLat": 30.099056243896484,
+      "startLng": 118.49578857421875
+    },
+    {
+      "id": "34640204",
+      "tileScore": 3,
+      "name": "Songkeng Line 1 full",
+      "distanceM": 11021.2998046875,
+      "avgGrade": -4.237249851226807,
+      "startLat": 30.09029769897461,
+      "startLng": 118.45013427734375
+    }
+  ]
+}

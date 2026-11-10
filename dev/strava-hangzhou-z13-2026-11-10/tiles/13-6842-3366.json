@@ -1,0 +1,56 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T20:22:07.107Z",
+  "tile": {
+    "z": 13,
+    "x": 6842,
+    "y": 3366
+  },
+  "segments": [
+    {
+      "id": "32431463",
+      "tileScore": 83,
+      "name": "Juan Lake Park Sector 2",
+      "distanceM": 2226.60009765625,
+      "avgGrade": -0.00898230541497469,
+      "startLat": 30.497846603393555,
+      "startLng": 120.73114776611328
+    },
+    {
+      "id": "35877090",
+      "tileScore": 36,
+      "name": "冲冲冲",
+      "distanceM": 4966.2001953125,
+      "avgGrade": 0.07249003648757935,
+      "startLat": 30.46152114868164,
+      "startLng": 120.68739318847656
+    },
+    {
+      "id": "32431469",
+      "tileScore": 78,
+      "name": "Juan Lake Park Sector 3",
+      "distanceM": 1175.699951171875,
+      "avgGrade": 0.05103342607617378,
+      "startLat": 30.505943298339844,
+      "startLng": 120.71707916259766
+    },
+    {
+      "id": "29554802",
+      "tileScore": 310,
+      "name": "鹃湖绕圈",
+      "distanceM": 6205.60009765625,
+      "avgGrade": -0.0032228955533355474,
+      "startLat": 30.51478385925293,
+      "startLng": 120.72075653076172
+    },
+    {
+      "id": "41402565",
+      "tileScore": 37,
+      "name": "城南最速之领军人专属绕圈",
+      "distanceM": 1088.800048828125,
+      "avgGrade": 0.11021307110786438,
+      "startLat": 30.50847816467285,
+      "startLng": 120.67772674560547
+    }
+  ]
+}

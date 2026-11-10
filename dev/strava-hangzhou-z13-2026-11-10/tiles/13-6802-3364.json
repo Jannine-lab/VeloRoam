@@ -1,0 +1,20 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T20:31:47.923Z",
+  "tile": {
+    "z": 13,
+    "x": 6802,
+    "y": 3364
+  },
+  "segments": [
+    {
+      "id": "38653362",
+      "tileScore": 9,
+      "name": "二里冲",
+      "distanceM": 1260.0999755859375,
+      "avgGrade": 3.1981587409973145,
+      "startLat": 30.575016021728516,
+      "startLng": 118.9426040649414
+    }
+  ]
+}

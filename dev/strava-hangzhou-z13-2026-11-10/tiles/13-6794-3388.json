@@ -1,0 +1,20 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T20:38:53.787Z",
+  "tile": {
+    "z": 13,
+    "x": 6794,
+    "y": 3388
+  },
+  "segments": [
+    {
+      "id": "34502292",
+      "tileScore": 2,
+      "name": "cd-街口大桥-长垓",
+      "distanceM": 32542.599609375,
+      "avgGrade": 0.7202866673469543,
+      "startLat": 29.751001358032227,
+      "startLng": 118.72647094726562
+    }
+  ]
+}

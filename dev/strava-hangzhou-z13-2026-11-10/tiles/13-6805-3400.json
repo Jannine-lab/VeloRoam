@@ -1,0 +1,20 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T20:38:27.324Z",
+  "tile": {
+    "z": 13,
+    "x": 6805,
+    "y": 3400
+  },
+  "segments": [
+    {
+      "id": "42360006",
+      "tileScore": 2,
+      "name": "大力山下坡",
+      "distanceM": 9529.400390625,
+      "avgGrade": -5.486179351806641,
+      "startLat": 29.220386505126953,
+      "startLng": 119.0721206665039
+    }
+  ]
+}

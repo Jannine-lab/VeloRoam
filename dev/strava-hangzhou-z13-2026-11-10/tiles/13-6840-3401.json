@@ -1,0 +1,29 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T20:34:58.224Z",
+  "tile": {
+    "z": 13,
+    "x": 6840,
+    "y": 3401
+  },
+  "segments": [
+    {
+      "id": "35478777",
+      "tileScore": 6,
+      "name": "玉山镇到九和乡",
+      "distanceM": 8834.7998046875,
+      "avgGrade": -0.8194865584373474,
+      "startLat": 29.221464157104492,
+      "startLng": 120.67180633544922
+    },
+    {
+      "id": "33834475",
+      "tileScore": 17,
+      "name": "双联 — 九溪 缓坡",
+      "distanceM": 1895.5,
+      "avgGrade": 2.532313346862793,
+      "startLat": 29.18771743774414,
+      "startLng": 120.58728790283203
+    }
+  ]
+}

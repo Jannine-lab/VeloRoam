@@ -1,0 +1,110 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T19:53:38.118Z",
+  "tile": {
+    "z": 13,
+    "x": 6752,
+    "y": 3082
+  },
+  "segments": [
+    {
+      "id": "36828848",
+      "tileScore": 19,
+      "name": "Epic YanQi to Miyun",
+      "distanceM": 95911.8984375,
+      "avgGrade": -0.2003922313451767,
+      "startLat": 40.43746566772461,
+      "startLng": 116.57965087890625
+    },
+    {
+      "id": "18059702",
+      "tileScore": 19,
+      "name": "Unfound Climb #1",
+      "distanceM": 2720.699951171875,
+      "avgGrade": 6.843826770782471,
+      "startLat": 40.63871383666992,
+      "startLng": 116.7387466430664
+    },
+    {
+      "id": "13135327",
+      "tileScore": 28,
+      "name": "黑龙潭-四合堂路口",
+      "distanceM": 14814.2001953125,
+      "avgGrade": 0.3712654113769531,
+      "startLat": 40.56228256225586,
+      "startLng": 116.79549407958984
+    },
+    {
+      "id": "18059905",
+      "tileScore": 31,
+      "name": "Unfound Climb #2",
+      "distanceM": 2339.199951171875,
+      "avgGrade": 6.335499286651611,
+      "startLat": 40.647125244140625,
+      "startLng": 116.72904205322266
+    },
+    {
+      "id": "39249745",
+      "tileScore": 3,
+      "name": "珍惜这段柏油路吧！",
+      "distanceM": 5666,
+      "avgGrade": 1.1242499351501465,
+      "startLat": 40.63037109375,
+      "startLng": 116.75224304199219
+    },
+    {
+      "id": "28280611",
+      "tileScore": 72,
+      "name": "清凉谷风景区人多坡陡",
+      "distanceM": 635.7000122070312,
+      "avgGrade": 6.92150354385376,
+      "startLat": 40.634002685546875,
+      "startLng": 116.74116516113281
+    },
+    {
+      "id": "13135414",
+      "tileScore": 33,
+      "name": "四合堂路口-望京台",
+      "distanceM": 9506,
+      "avgGrade": 2.7477383613586426,
+      "startLat": 40.63435363769531,
+      "startLng": 116.740234375
+    },
+    {
+      "id": "3876383",
+      "tileScore": 20,
+      "name": "Provincial Road Climb",
+      "distanceM": 859.96240234375,
+      "avgGrade": 14.209301948547363,
+      "startLat": 40.621952056884766,
+      "startLng": 116.76702880859375
+    },
+    {
+      "id": "24667562",
+      "tileScore": 12,
+      "name": "云蒙山 W-E",
+      "distanceM": 31777.599609375,
+      "avgGrade": -0.5242686867713928,
+      "startLat": 40.60121154785156,
+      "startLng": 116.66267395019531
+    },
+    {
+      "id": "9057567",
+      "tileScore": 71,
+      "name": "千尺珍珠瀑",
+      "distanceM": 1158.199951171875,
+      "avgGrade": 4.524261951446533,
+      "startLat": 40.615989685058594,
+      "startLng": 116.71505737304688
+    },
+    {
+      "id": "13135374",
+      "tileScore": 55,
+      "name": "四合堂路口-白河大峡谷标识",
+      "distanceM": 4180,
+      "avgGrade": 4.37799072265625,
+      "startLat": 40.634056091308594,
+      "startLng": 116.73998260498047
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T19:48:39.562Z",
+  "tile": {
+    "z": 13,
+    "x": 6763,
+    "y": 3096
+  },
+  "segments": [
+    {
+      "id": "8124517",
+      "tileScore": 5,
+      "name": "TTT to the bus",
+      "distanceM": 8340.2998046875,
+      "avgGrade": -0.8416963815689087,
+      "startLat": 40.2225456237793,
+      "startLng": 117.19609069824219
+    },
+    {
+      "id": "31870485",
+      "tileScore": 19,
+      "name": "金海湖返程（水峪桥－泃河桥）",
+      "distanceM": 13218.900390625,
+      "avgGrade": -0.2889801859855652,
+      "startLat": 40.17561340332031,
+      "startLng": 117.27317810058594
+    },
+    {
+      "id": "21977877",
+      "tileScore": 18,
+      "name": "拉爆天天和混沌",
+      "distanceM": 7138.7001953125,
+      "avgGrade": 3.381568193435669,
+      "startLat": 40.14909362792969,
+      "startLng": 117.23016357421875
+    }
+  ]
+}

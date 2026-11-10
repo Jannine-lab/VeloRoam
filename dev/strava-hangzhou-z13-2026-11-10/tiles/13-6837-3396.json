@@ -1,0 +1,20 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T20:29:15.825Z",
+  "tile": {
+    "z": 13,
+    "x": 6837,
+    "y": 3396
+  },
+  "segments": [
+    {
+      "id": "38873712",
+      "tileScore": 3,
+      "name": "歌胡线去程爬坡",
+      "distanceM": 6545.5,
+      "avgGrade": 2.985257148742676,
+      "startLat": 29.31499481201172,
+      "startLng": 120.44871520996094
+    }
+  ]
+}

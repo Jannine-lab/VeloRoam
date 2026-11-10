@@ -1,0 +1,38 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T19:57:12.086Z",
+  "tile": {
+    "z": 13,
+    "x": 6769,
+    "y": 3095
+  },
+  "segments": [
+    {
+      "id": "4194160",
+      "tileScore": 7,
+      "name": "Changcheng Highway Climb",
+      "distanceM": 2530.5,
+      "avgGrade": 7.192255020141602,
+      "startLat": 40.20721435546875,
+      "startLng": 117.50225067138672
+    },
+    {
+      "id": "35502109",
+      "tileScore": 26,
+      "name": "和谐杯京津冀国际公路自行车路线全程",
+      "distanceM": 21887.30078125,
+      "avgGrade": 1.010631799697876,
+      "startLat": 40.068790435791016,
+      "startLng": 117.47228240966797
+    },
+    {
+      "id": "35275839",
+      "tileScore": 21,
+      "name": "哇哦 起伏路",
+      "distanceM": 6229.10009765625,
+      "avgGrade": -0.28575557470321655,
+      "startLat": 40.17948913574219,
+      "startLng": 117.46862030029297
+    }
+  ]
+}

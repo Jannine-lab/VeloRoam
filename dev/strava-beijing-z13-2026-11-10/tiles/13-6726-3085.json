@@ -1,0 +1,20 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T19:58:17.891Z",
+  "tile": {
+    "z": 13,
+    "x": 6726,
+    "y": 3085
+  },
+  "segments": [
+    {
+      "id": "40118043",
+      "tileScore": 2,
+      "name": "极速狂飙",
+      "distanceM": 5995.39990234375,
+      "avgGrade": -3.3625781536102295,
+      "startLat": 40.52976989746094,
+      "startLng": 115.61812591552734
+    }
+  ]
+}

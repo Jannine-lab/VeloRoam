@@ -1,0 +1,29 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T20:35:18.002Z",
+  "tile": {
+    "z": 13,
+    "x": 6798,
+    "y": 3382
+  },
+  "segments": [
+    {
+      "id": "21837497",
+      "tileScore": 2,
+      "name": "Concrete Climb to Weiping",
+      "distanceM": 9246.2998046875,
+      "avgGrade": 3.173161268234253,
+      "startLat": 29.886005401611328,
+      "startLng": 118.73822021484375
+    },
+    {
+      "id": "33166896",
+      "tileScore": 1,
+      "name": "Down to the villages",
+      "distanceM": 3293.10009765625,
+      "avgGrade": 6.90534782409668,
+      "startLat": 29.914121627807617,
+      "startLng": 118.74993896484375
+    }
+  ]
+}

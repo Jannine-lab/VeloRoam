@@ -1,0 +1,38 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T19:45:01.563Z",
+  "tile": {
+    "z": 13,
+    "x": 6731,
+    "y": 3112
+  },
+  "segments": [
+    {
+      "id": "38827748",
+      "tileScore": 95,
+      "name": "战备路完整二连击",
+      "distanceM": 17925.69921875,
+      "avgGrade": 0.2064075618982315,
+      "startLat": 39.66007614135742,
+      "startLng": 115.89327239990234
+    },
+    {
+      "id": "5539677",
+      "tileScore": 28,
+      "name": "Provincial Road Climb",
+      "distanceM": 977,
+      "avgGrade": 8.300921440124512,
+      "startLat": 39.636165618896484,
+      "startLng": 115.82164764404297
+    },
+    {
+      "id": "9685412",
+      "tileScore": 314,
+      "name": "战备路2坡",
+      "distanceM": 4605,
+      "avgGrade": 4.8208465576171875,
+      "startLat": 39.64545440673828,
+      "startLng": 115.82997131347656
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T20:40:31.340Z",
+  "tile": {
+    "z": 13,
+    "x": 6790,
+    "y": 3386
+  },
+  "segments": [
+    {
+      "id": "35783357",
+      "tileScore": 16,
+      "name": "白际狮石环线",
+      "distanceM": 123199,
+      "avgGrade": 0.015584542416036129,
+      "startLat": 29.718013763427734,
+      "startLng": 118.32083129882812
+    },
+    {
+      "id": "41570502",
+      "tileScore": 51,
+      "name": "后塘陡坡",
+      "distanceM": 743.7000122070312,
+      "avgGrade": 5.432298183441162,
+      "startLat": 29.739896774291992,
+      "startLng": 118.42009735107422
+    }
+  ]
+}

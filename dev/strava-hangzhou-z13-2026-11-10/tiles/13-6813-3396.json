@@ -1,0 +1,65 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T20:32:44.311Z",
+  "tile": {
+    "z": 13,
+    "x": 6813,
+    "y": 3396
+  },
+  "segments": [
+    {
+      "id": "37767586",
+      "tileScore": 24,
+      "name": "朱家路口到蒋塔村",
+      "distanceM": 4778.2998046875,
+      "avgGrade": 4.683674335479736,
+      "startLat": 29.371450424194336,
+      "startLng": 119.42814636230469
+    },
+    {
+      "id": "37950196",
+      "tileScore": 9,
+      "name": "「TEUK」Beyond  击溃”  余粮山",
+      "distanceM": 2927.699951171875,
+      "avgGrade": 6.913276672363281,
+      "startLat": 29.379745483398438,
+      "startLng": 119.42400360107422
+    },
+    {
+      "id": "34018790",
+      "tileScore": 27,
+      "name": "甘溪— 朱家",
+      "distanceM": 7171.2001953125,
+      "avgGrade": 0.9022199511528015,
+      "startLat": 29.316978454589844,
+      "startLng": 119.40327453613281
+    },
+    {
+      "id": "40062667",
+      "tileScore": 72,
+      "name": "里黄大洋 小环兰江",
+      "distanceM": 68143.6015625,
+      "avgGrade": -0.0026414806488901377,
+      "startLat": 29.23687171936035,
+      "startLng": 119.43478393554688
+    },
+    {
+      "id": "21662649",
+      "tileScore": 25,
+      "name": "Meso Mountain",
+      "distanceM": 6490.5,
+      "avgGrade": 2.7147369384765625,
+      "startLat": 29.360942840576172,
+      "startLng": 119.42330169677734
+    },
+    {
+      "id": "41665610",
+      "tileScore": 20,
+      "name": "Hi bicycle朱家到太平桥全力干！",
+      "distanceM": 870,
+      "avgGrade": -1.517241358757019,
+      "startLat": 29.38482093811035,
+      "startLng": 119.42455291748047
+    }
+  ]
+}

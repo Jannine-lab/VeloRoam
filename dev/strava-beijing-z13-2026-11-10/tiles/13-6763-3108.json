@@ -1,0 +1,20 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T19:47:52.952Z",
+  "tile": {
+    "z": 13,
+    "x": 6763,
+    "y": 3108
+  },
+  "segments": [
+    {
+      "id": "35104677",
+      "tileScore": 11,
+      "name": "冲进宝坻城区",
+      "distanceM": 7224.2998046875,
+      "avgGrade": 0.004152651410549879,
+      "startLat": 39.76036834716797,
+      "startLng": 117.18302154541016
+    }
+  ]
+}

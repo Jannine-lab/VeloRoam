@@ -1,0 +1,137 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T19:47:20.238Z",
+  "tile": {
+    "z": 13,
+    "x": 6748,
+    "y": 3086
+  },
+  "segments": [
+    {
+      "id": "3899447",
+      "tileScore": 2,
+      "name": "Fanqi Road Climb",
+      "distanceM": 685.9569091796875,
+      "avgGrade": 21.781600952148438,
+      "startLat": 40.51320266723633,
+      "startLng": 116.57635498046875
+    },
+    {
+      "id": "13658947",
+      "tileScore": 367,
+      "name": "Fanqi Road 2nd Climb to Tower",
+      "distanceM": 11231.7001953125,
+      "avgGrade": 4.25046968460083,
+      "startLat": 40.46647644042969,
+      "startLng": 116.59436798095703
+    },
+    {
+      "id": "16866490",
+      "tileScore": 213,
+      "name": "范崎路爬坡全程（神堂峪路口起点）",
+      "distanceM": 25331.69921875,
+      "avgGrade": 2.828866720199585,
+      "startLat": 40.410213470458984,
+      "startLng": 116.63158416748047
+    },
+    {
+      "id": "16874982",
+      "tileScore": 16,
+      "name": "范崎路缓上（北-南）",
+      "distanceM": 12474.900390625,
+      "avgGrade": 1.9238630533218384,
+      "startLat": 40.56614685058594,
+      "startLng": 116.5512466430664
+    },
+    {
+      "id": "41687444",
+      "tileScore": 5,
+      "name": "头道梁climb",
+      "distanceM": 1062.300048828125,
+      "avgGrade": 6.363550662994385,
+      "startLat": 40.505950927734375,
+      "startLng": 116.58287811279297
+    },
+    {
+      "id": "31929291",
+      "tileScore": 4,
+      "name": "BRM200-耀骑北京-BJ-R001",
+      "distanceM": 194072.59375,
+      "avgGrade": -0.00005152710946276784,
+      "startLat": 40.14736557006836,
+      "startLng": 116.37285614013672
+    },
+    {
+      "id": "36828848",
+      "tileScore": 19,
+      "name": "Epic YanQi to Miyun",
+      "distanceM": 95911.8984375,
+      "avgGrade": -0.2003922313451767,
+      "startLat": 40.43746566772461,
+      "startLng": 116.57965087890625
+    },
+    {
+      "id": "38733370",
+      "tileScore": 28,
+      "name": "范崎路起点一脚不停四海镇",
+      "distanceM": 68264.796875,
+      "avgGrade": 0.9058841466903687,
+      "startLat": 40.36000442504883,
+      "startLng": 116.65359497070312
+    },
+    {
+      "id": "2603143",
+      "tileScore": 7,
+      "name": "县道 Climb",
+      "distanceM": 366.9213562011719,
+      "avgGrade": 22.294902801513672,
+      "startLat": 40.490234375,
+      "startLng": 116.5679702758789
+    },
+    {
+      "id": "15142378",
+      "tileScore": 43,
+      "name": "tower everest",
+      "distanceM": 5573.2001953125,
+      "avgGrade": 5.375726699829102,
+      "startLat": 40.49177169799805,
+      "startLng": 116.56533813476562
+    },
+    {
+      "id": "6542290",
+      "tileScore": 11,
+      "name": "Fanqi Road Climb",
+      "distanceM": 864.5999755859375,
+      "avgGrade": 9.784871101379395,
+      "startLat": 40.492191314697266,
+      "startLng": 116.5710220336914
+    },
+    {
+      "id": "4658659",
+      "tileScore": 8,
+      "name": "John O'Loghlen climb to his house (Great Wall of China)",
+      "distanceM": 6491,
+      "avgGrade": 2.224618673324585,
+      "startLat": 40.480316162109375,
+      "startLng": 116.5715560913086
+    },
+    {
+      "id": "3985592",
+      "tileScore": 3,
+      "name": "Fanqi Road Climb",
+      "distanceM": 1520.5,
+      "avgGrade": 5.761262893676758,
+      "startLat": 40.480281829833984,
+      "startLng": 116.5716552734375
+    },
+    {
+      "id": "39668375",
+      "tileScore": 38,
+      "name": "范崎路二坡前5km",
+      "distanceM": 5196.89990234375,
+      "avgGrade": 3.244241714477539,
+      "startLat": 40.46810531616211,
+      "startLng": 116.5924301147461
+    }
+  ]
+}

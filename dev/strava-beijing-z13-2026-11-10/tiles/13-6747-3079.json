@@ -1,0 +1,20 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T19:57:31.753Z",
+  "tile": {
+    "z": 13,
+    "x": 6747,
+    "y": 3079
+  },
+  "segments": [
+    {
+      "id": "27959188",
+      "tileScore": 19,
+      "name": "宝碾路45km缓下是不是真的",
+      "distanceM": 45887.8984375,
+      "avgGrade": -1.005929708480835,
+      "startLat": 40.90877151489258,
+      "startLng": 116.42647552490234
+    }
+  ]
+}

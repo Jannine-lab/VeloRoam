@@ -1,0 +1,38 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T19:46:19.667Z",
+  "tile": {
+    "z": 13,
+    "x": 6726,
+    "y": 3105
+  },
+  "segments": [
+    {
+      "id": "39456084",
+      "tileScore": 16,
+      "name": "the famous 黄安坨 climb",
+      "distanceM": 20597.400390625,
+      "avgGrade": 3.0100886821746826,
+      "startLat": 39.92502212524414,
+      "startLng": 115.56786346435547
+    },
+    {
+      "id": "32417519",
+      "tileScore": 11,
+      "name": "百花山景区停车场gravel至黄安坨",
+      "distanceM": 6816.89990234375,
+      "avgGrade": -0.5867769718170166,
+      "startLat": 39.84042739868164,
+      "startLng": 115.57303619384766
+    },
+    {
+      "id": "32060562",
+      "tileScore": 11,
+      "name": "百花山买票才能玩的gravel",
+      "distanceM": 11210.099609375,
+      "avgGrade": 7.936593055725098,
+      "startLat": 39.839202880859375,
+      "startLng": 115.63398742675781
+    }
+  ]
+}

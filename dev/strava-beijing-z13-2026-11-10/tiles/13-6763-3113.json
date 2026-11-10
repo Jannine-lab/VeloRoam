@@ -1,0 +1,29 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T19:49:40.917Z",
+  "tile": {
+    "z": 13,
+    "x": 6763,
+    "y": 3113
+  },
+  "segments": [
+    {
+      "id": "35104740",
+      "tileScore": 8,
+      "name": "津围线S-N宝坻南",
+      "distanceM": 13834.599609375,
+      "avgGrade": 0.044815171509981155,
+      "startLat": 39.563228607177734,
+      "startLng": 117.223388671875
+    },
+    {
+      "id": "23119490",
+      "tileScore": 3,
+      "name": "BTAC Xianghe Pancake",
+      "distanceM": 38763.8984375,
+      "avgGrade": -0.02012181468307972,
+      "startLat": 39.64692306518555,
+      "startLng": 117.0410385131836
+    }
+  ]
+}

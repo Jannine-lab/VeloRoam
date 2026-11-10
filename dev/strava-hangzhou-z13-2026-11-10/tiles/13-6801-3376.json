@@ -1,0 +1,29 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T20:32:41.856Z",
+  "tile": {
+    "z": 13,
+    "x": 6801,
+    "y": 3376
+  },
+  "segments": [
+    {
+      "id": "37591418",
+      "tileScore": 1,
+      "name": "清凉峰游步道去程【DQ】",
+      "distanceM": 3215.199951171875,
+      "avgGrade": 1.1134610176086426,
+      "startLat": 30.110841751098633,
+      "startLng": 118.89833068847656
+    },
+    {
+      "id": "12789673",
+      "tileScore": 45,
+      "name": "Botanical Garden Cloud Climb",
+      "distanceM": 10574.2001953125,
+      "avgGrade": 4.917629718780518,
+      "startLat": 30.10304069519043,
+      "startLng": 118.9283218383789
+    }
+  ]
+}

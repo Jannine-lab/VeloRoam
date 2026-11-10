@@ -1,0 +1,47 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T20:34:30.494Z",
+  "tile": {
+    "z": 13,
+    "x": 6798,
+    "y": 3378
+  },
+  "segments": [
+    {
+      "id": "20447056",
+      "tileScore": 14,
+      "name": "B@stard Lite",
+      "distanceM": 2939,
+      "avgGrade": 9.37053394317627,
+      "startLat": 30.051103591918945,
+      "startLng": 118.76018524169922
+    },
+    {
+      "id": "42428232",
+      "tileScore": 1,
+      "name": "Clean Slate 26",
+      "distanceM": 113029.5,
+      "avgGrade": -0.006016128696501255,
+      "startLat": 30.0743350982666,
+      "startLng": 118.81914520263672
+    },
+    {
+      "id": "32408047",
+      "tileScore": 1,
+      "name": "Chain's Lament",
+      "distanceM": 1858.5999755859375,
+      "avgGrade": 5.477241039276123,
+      "startLat": 30.03773307800293,
+      "startLng": 118.78203582763672
+    },
+    {
+      "id": "17867290",
+      "tileScore": 53,
+      "name": "Turn to turn",
+      "distanceM": 6520.89990234375,
+      "avgGrade": 6.259871959686279,
+      "startLat": 30.021480560302734,
+      "startLng": 118.77569580078125
+    }
+  ]
+}

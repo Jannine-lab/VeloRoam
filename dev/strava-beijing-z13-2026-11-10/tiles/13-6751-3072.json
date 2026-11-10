@@ -1,0 +1,20 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T20:05:28.398Z",
+  "tile": {
+    "z": 13,
+    "x": 6751,
+    "y": 3072
+  },
+  "segments": [
+    {
+      "id": "34106547",
+      "tileScore": 1,
+      "name": "五道營子 climb, westbound",
+      "distanceM": 5449.60009765625,
+      "avgGrade": 4.181958198547363,
+      "startLat": 40.95981979370117,
+      "startLng": 116.74479675292969
+    }
+  ]
+}

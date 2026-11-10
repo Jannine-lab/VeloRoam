@@ -1,0 +1,20 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T19:41:28.523Z",
+  "tile": {
+    "z": 13,
+    "x": 6738,
+    "y": 3092
+  },
+  "segments": [
+    {
+      "id": "30402586",
+      "tileScore": 2,
+      "name": "虎峪半路捉虎被逮捕",
+      "distanceM": 2047.4000244140625,
+      "avgGrade": 2.627722978591919,
+      "startLat": 40.272705078125,
+      "startLng": 116.1456527709961
+    }
+  ]
+}

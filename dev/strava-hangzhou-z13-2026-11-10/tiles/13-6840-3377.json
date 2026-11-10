@@ -1,0 +1,20 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T20:20:28.660Z",
+  "tile": {
+    "z": 13,
+    "x": 6840,
+    "y": 3377
+  },
+  "segments": [
+    {
+      "id": "36590252",
+      "tileScore": 5,
+      "name": "于越中路（E-W）",
+      "distanceM": 6793.89990234375,
+      "avgGrade": 0.02796626277267933,
+      "startLat": 30.09000015258789,
+      "startLng": 120.59690856933594
+    }
+  ]
+}

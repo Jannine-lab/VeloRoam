@@ -1,0 +1,20 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T20:25:05.468Z",
+  "tile": {
+    "z": 13,
+    "x": 6810,
+    "y": 3371
+  },
+  "segments": [
+    {
+      "id": "38006825",
+      "tileScore": 4,
+      "name": "文阳到淤潜前",
+      "distanceM": 16952.900390625,
+      "avgGrade": -0.6866081953048706,
+      "startLat": 30.31235122680664,
+      "startLng": 119.3114013671875
+    }
+  ]
+}

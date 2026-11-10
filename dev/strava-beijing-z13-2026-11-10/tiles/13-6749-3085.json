@@ -1,0 +1,29 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T19:49:50.805Z",
+  "tile": {
+    "z": 13,
+    "x": 6749,
+    "y": 3085
+  },
+  "segments": [
+    {
+      "id": "7030726",
+      "tileScore": 4,
+      "name": "Beiwan Climb 北湾",
+      "distanceM": 2944.60009765625,
+      "avgGrade": 6.656251907348633,
+      "startLat": 40.5318489074707,
+      "startLng": 116.5721664428711
+    },
+    {
+      "id": "41687423",
+      "tileScore": 4,
+      "name": "北林climb",
+      "distanceM": 1225.0999755859375,
+      "avgGrade": 6.938209533691406,
+      "startLat": 40.52821731567383,
+      "startLng": 116.58267974853516
+    }
+  ]
+}

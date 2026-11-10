@@ -1,0 +1,20 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T19:43:49.780Z",
+  "tile": {
+    "z": 13,
+    "x": 6730,
+    "y": 3110
+  },
+  "segments": [
+    {
+      "id": "39115056",
+      "tileScore": 16,
+      "name": "三流水村后山刺激爬坡",
+      "distanceM": 3340.5,
+      "avgGrade": 7.723394870758057,
+      "startLat": 39.70254135131836,
+      "startLng": 115.7627182006836
+    }
+  ]
+}

@@ -1,0 +1,182 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T19:34:38.680Z",
+  "tile": {
+    "z": 13,
+    "x": 6748,
+    "y": 3100
+  },
+  "segments": [
+    {
+      "id": "9700969",
+      "tileScore": 6,
+      "name": "北京 Arboretum SE",
+      "distanceM": 2664.199951171875,
+      "avgGrade": -0.3528263568878174,
+      "startLat": 40.048179626464844,
+      "startLng": 116.5382308959961
+    },
+    {
+      "id": "10328706",
+      "tileScore": 24,
+      "name": "Chase the bus!",
+      "distanceM": 3608.39990234375,
+      "avgGrade": 0.08868195861577988,
+      "startLat": 40.025489807128906,
+      "startLng": 116.54609680175781
+    },
+    {
+      "id": "10302260",
+      "tileScore": 25,
+      "name": "Grasse Rd-Beijing Greenway",
+      "distanceM": 2589.10009765625,
+      "avgGrade": -0.07724691927433014,
+      "startLat": 40.03147888183594,
+      "startLng": 116.56706237792969
+    },
+    {
+      "id": "17149602",
+      "tileScore": 2,
+      "name": "Donald Dumpty",
+      "distanceM": 3798.89990234375,
+      "avgGrade": -0.02105872705578804,
+      "startLat": 40.0404052734375,
+      "startLng": 116.55062866210938
+    },
+    {
+      "id": "37135167",
+      "tileScore": 8,
+      "name": "路过罗红艺术馆的天柱东路",
+      "distanceM": 2768,
+      "avgGrade": -0.1011560708284378,
+      "startLat": 40.060508728027344,
+      "startLng": 116.56433868408203
+    },
+    {
+      "id": "8176505",
+      "tileScore": 12,
+      "name": "Finishing The River Loop",
+      "distanceM": 3006.60009765625,
+      "avgGrade": -0.07982438802719116,
+      "startLat": 40.036190032958984,
+      "startLng": 116.56391906738281
+    },
+    {
+      "id": "15043438",
+      "tileScore": 3,
+      "name": "康营村",
+      "distanceM": 2211.89990234375,
+      "avgGrade": -0.1717980057001114,
+      "startLat": 40.039310455322266,
+      "startLng": 116.52804565429688
+    },
+    {
+      "id": "29585957",
+      "tileScore": 10,
+      "name": "Airport Expressway Crossing",
+      "distanceM": 941.2999877929688,
+      "avgGrade": -0.4143206477165222,
+      "startLat": 40.032798767089844,
+      "startLng": 116.56625366210938
+    },
+    {
+      "id": "41227416",
+      "tileScore": 11,
+      "name": "Riverside Loose Gravel",
+      "distanceM": 1438.199951171875,
+      "avgGrade": 0.027812542393803596,
+      "startLat": 40.03580093383789,
+      "startLng": 116.56090545654297
+    },
+    {
+      "id": "38188353",
+      "tileScore": 5,
+      "name": "东苇路（苇沟-金盏 N-S）",
+      "distanceM": 1926.5999755859375,
+      "avgGrade": 0.1245717853307724,
+      "startLat": 40.02556610107422,
+      "startLng": 116.548095703125
+    },
+    {
+      "id": "23314213",
+      "tileScore": 9,
+      "name": "Dump uphill",
+      "distanceM": 307.20001220703125,
+      "avgGrade": -1.46484375,
+      "startLat": 40.04387283325195,
+      "startLng": 116.54232025146484
+    },
+    {
+      "id": "28252541",
+      "tileScore": 3,
+      "name": "金港赛道逆时针一圈",
+      "distanceM": 2368.199951171875,
+      "avgGrade": 0.27869266271591187,
+      "startLat": 40.01512145996094,
+      "startLng": 116.56134796142578
+    },
+    {
+      "id": "6546846",
+      "tileScore": 3,
+      "name": "SEC1 Offroad along the Expressway (North side heading East)",
+      "distanceM": 1304,
+      "avgGrade": 0.09969325363636017,
+      "startLat": 40.0329475402832,
+      "startLng": 116.56073760986328
+    },
+    {
+      "id": "17244296",
+      "tileScore": 10,
+      "name": "Riverside 1.5 km dirt sprint ",
+      "distanceM": 1638.199951171875,
+      "avgGrade": 0.02441704273223877,
+      "startLat": 40.04350662231445,
+      "startLng": 116.54489135742188
+    },
+    {
+      "id": "41224750",
+      "tileScore": 16,
+      "name": "温榆河绿道 Wenyu Greenway N-S",
+      "distanceM": 12112.2001953125,
+      "avgGrade": -0.016512276604771614,
+      "startLat": 40.04772186279297,
+      "startLng": 116.5392837524414
+    },
+    {
+      "id": "38279868",
+      "tileScore": 16,
+      "name": "Kangying Middle Road W to E",
+      "distanceM": 1601.0999755859375,
+      "avgGrade": -0.31228530406951904,
+      "startLat": 40.030296325683594,
+      "startLng": 116.52538299560547
+    },
+    {
+      "id": "39155906",
+      "tileScore": 6,
+      "name": "四玮路-李天路 （E-W）",
+      "distanceM": 6195.10009765625,
+      "avgGrade": 0.07102387398481369,
+      "startLat": 40.04502868652344,
+      "startLng": 116.63241577148438
+    },
+    {
+      "id": "1479779",
+      "tileScore": 17,
+      "name": "WenYu River SW part",
+      "distanceM": 3427.669921875,
+      "avgGrade": 0.335511714220047,
+      "startLat": 40.01154327392578,
+      "startLng": 116.59337615966797
+    },
+    {
+      "id": "42175804",
+      "tileScore": 2,
+      "name": "骑车比开车快的通勤",
+      "distanceM": 37951.69921875,
+      "avgGrade": -0.10223521292209625,
+      "startLat": 39.905982971191406,
+      "startLng": 116.25113677978516
+    }
+  ]
+}

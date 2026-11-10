@@ -1,0 +1,20 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T20:39:55.464Z",
+  "tile": {
+    "z": 13,
+    "x": 6801,
+    "y": 3399
+  },
+  "segments": [
+    {
+      "id": "34435826",
+      "tileScore": 21,
+      "name": "上方-灰坪爬坡",
+      "distanceM": 7473.2998046875,
+      "avgGrade": 5.060682773590088,
+      "startLat": 29.266345977783203,
+      "startLng": 118.91412353515625
+    }
+  ]
+}

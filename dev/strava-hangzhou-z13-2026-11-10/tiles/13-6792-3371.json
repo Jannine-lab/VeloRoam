@@ -1,0 +1,20 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T20:38:04.533Z",
+  "tile": {
+    "z": 13,
+    "x": 6792,
+    "y": 3371
+  },
+  "segments": [
+    {
+      "id": "39860156",
+      "tileScore": 24,
+      "name": "蔡家桥加油站到新桥",
+      "distanceM": 6883.7998046875,
+      "avgGrade": 0.386414498090744,
+      "startLat": 30.341995239257812,
+      "startLng": 118.47549438476562
+    }
+  ]
+}

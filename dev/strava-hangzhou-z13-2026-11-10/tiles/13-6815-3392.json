@@ -1,0 +1,29 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T20:29:08.433Z",
+  "tile": {
+    "z": 13,
+    "x": 6815,
+    "y": 3392
+  },
+  "segments": [
+    {
+      "id": "40622610",
+      "tileScore": 2,
+      "name": "环兰江-官塘-午塘",
+      "distanceM": 60269.80078125,
+      "avgGrade": 0.0008296028827317059,
+      "startLat": 29.306703567504883,
+      "startLng": 119.53008270263672
+    },
+    {
+      "id": "42335736",
+      "tileScore": 1,
+      "name": "新安绿道最野路段",
+      "distanceM": 2668,
+      "avgGrade": 1.4542728662490845,
+      "startLat": 29.529447555541992,
+      "startLng": 119.52667236328125
+    }
+  ]
+}

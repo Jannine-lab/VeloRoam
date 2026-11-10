@@ -1,0 +1,20 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T19:39:22.491Z",
+  "tile": {
+    "z": 13,
+    "x": 6752,
+    "y": 3096
+  },
+  "segments": [
+    {
+      "id": "31541747",
+      "tileScore": 9,
+      "name": "大曹庄路口-北小营加油站",
+      "distanceM": 11604.7998046875,
+      "avgGrade": -0.05687301605939865,
+      "startLat": 40.17129135131836,
+      "startLng": 116.85482788085938
+    }
+  ]
+}

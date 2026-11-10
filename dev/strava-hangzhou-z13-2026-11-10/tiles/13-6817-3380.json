@@ -1,0 +1,65 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T20:22:45.684Z",
+  "tile": {
+    "z": 13,
+    "x": 6817,
+    "y": 3380
+  },
+  "segments": [
+    {
+      "id": "31677668",
+      "tileScore": 1,
+      "name": "毛毛的cp2小短坡",
+      "distanceM": 664.7999877929688,
+      "avgGrade": 5.776173114776611,
+      "startLat": 29.980344772338867,
+      "startLng": 119.61882019042969
+    },
+    {
+      "id": "38511505",
+      "tileScore": 1,
+      "name": "水库人家climb",
+      "distanceM": 510.5,
+      "avgGrade": 7.522037029266357,
+      "startLat": 29.961238861083984,
+      "startLng": 119.59400939941406
+    },
+    {
+      "id": "40569224",
+      "tileScore": 3,
+      "name": "龙门寺climb",
+      "distanceM": 1706,
+      "avgGrade": 8.692848205566406,
+      "startLat": 29.9585018157959,
+      "startLng": 119.59221649169922
+    },
+    {
+      "id": "22621216",
+      "tileScore": 6,
+      "name": "崤山爬坡",
+      "distanceM": 5056.10009765625,
+      "avgGrade": 6.768062591552734,
+      "startLat": 29.98576545715332,
+      "startLng": 119.61995697021484
+    },
+    {
+      "id": "38511490",
+      "tileScore": 4,
+      "name": "云田半亩民宿全程climb",
+      "distanceM": 5354.39990234375,
+      "avgGrade": 6.562826633453369,
+      "startLat": 29.952104568481445,
+      "startLng": 119.59110260009766
+    },
+    {
+      "id": "38511480",
+      "tileScore": 3,
+      "name": "富阳芳芳农场climb",
+      "distanceM": 1336.199951171875,
+      "avgGrade": 10.926507949829102,
+      "startLat": 29.960521697998047,
+      "startLng": 119.61529541015625
+    }
+  ]
+}

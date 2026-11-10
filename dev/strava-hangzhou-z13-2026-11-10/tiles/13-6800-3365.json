@@ -1,0 +1,20 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T20:33:06.369Z",
+  "tile": {
+    "z": 13,
+    "x": 6800,
+    "y": 3365
+  },
+  "segments": [
+    {
+      "id": "36325784",
+      "tileScore": 36,
+      "name": "Huiyunchansi Climb",
+      "distanceM": 852,
+      "avgGrade": 9.436619758605957,
+      "startLat": 30.552549362182617,
+      "startLng": 118.85710144042969
+    }
+  ]
+}

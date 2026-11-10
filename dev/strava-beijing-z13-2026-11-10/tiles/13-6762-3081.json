@@ -1,0 +1,29 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T20:02:40.892Z",
+  "tile": {
+    "z": 13,
+    "x": 6762,
+    "y": 3081
+  },
+  "segments": [
+    {
+      "id": "35232473",
+      "tileScore": 5,
+      "name": "2023 BRM300 CP4",
+      "distanceM": 50172.69921875,
+      "avgGrade": -0.2495381087064743,
+      "startLat": 40.381126403808594,
+      "startLng": 117.14585876464844
+    },
+    {
+      "id": "39133524",
+      "tileScore": 2,
+      "name": "京沈线（太师屯-古北口 S-N）",
+      "distanceM": 21391.400390625,
+      "avgGrade": 0.1229466050863266,
+      "startLat": 40.53996276855469,
+      "startLng": 117.12752532958984
+    }
+  ]
+}

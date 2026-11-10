@@ -1,0 +1,56 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T20:30:44.169Z",
+  "tile": {
+    "z": 13,
+    "x": 6803,
+    "y": 3371
+  },
+  "segments": [
+    {
+      "id": "32999053",
+      "tileScore": 4,
+      "name": "华光潭水库观光",
+      "distanceM": 6251.2001953125,
+      "avgGrade": -0.4159201383590698,
+      "startLat": 30.285114288330078,
+      "startLng": 119.02181243896484
+    },
+    {
+      "id": "35721087",
+      "tileScore": 29,
+      "name": "Nanji Climb",
+      "distanceM": 13782.5,
+      "avgGrade": 3.312171220779419,
+      "startLat": 30.369855880737305,
+      "startLng": 119.0434799194336
+    },
+    {
+      "id": "39058667",
+      "tileScore": 4,
+      "name": "329-仁里",
+      "distanceM": 92852.5,
+      "avgGrade": 0.46719256043434143,
+      "startLat": 30.2049503326416,
+      "startLng": 119.64678955078125
+    },
+    {
+      "id": "35721816",
+      "tileScore": 5,
+      "name": "Ningdun to Jingzhou",
+      "distanceM": 70412.3984375,
+      "avgGrade": 1.488232135772705,
+      "startLat": 30.4671630859375,
+      "startLng": 119.11399841308594
+    },
+    {
+      "id": "16736255",
+      "tileScore": 3,
+      "name": "茶亭-马川climb",
+      "distanceM": 3892.39990234375,
+      "avgGrade": 4.32124137878418,
+      "startLat": 30.309438705444336,
+      "startLng": 118.98189544677734
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T20:39:46.642Z",
+  "tile": {
+    "z": 13,
+    "x": 6795,
+    "y": 3392
+  },
+  "segments": [
+    {
+      "id": "14216323",
+      "tileScore": 12,
+      "name": "汾口镇-姜家镇",
+      "distanceM": 17518.099609375,
+      "avgGrade": 0.018266821280121803,
+      "startLat": 29.42822265625,
+      "startLng": 118.55276489257812
+    }
+  ]
+}

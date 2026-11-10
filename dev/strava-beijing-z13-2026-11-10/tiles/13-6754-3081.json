@@ -1,0 +1,29 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T19:57:07.127Z",
+  "tile": {
+    "z": 13,
+    "x": 6754,
+    "y": 3081
+  },
+  "segments": [
+    {
+      "id": "11575110",
+      "tileScore": 9,
+      "name": "Serk Sandy Switchback Climb",
+      "distanceM": 7420.10009765625,
+      "avgGrade": 6.999905586242676,
+      "startLat": 40.67061996459961,
+      "startLng": 116.83057403564453
+    },
+    {
+      "id": "34158481",
+      "tileScore": 1,
+      "name": "养蜂人之路",
+      "distanceM": 577,
+      "avgGrade": 16.845754623413086,
+      "startLat": 40.65678787231445,
+      "startLng": 116.83810424804688
+    }
+  ]
+}

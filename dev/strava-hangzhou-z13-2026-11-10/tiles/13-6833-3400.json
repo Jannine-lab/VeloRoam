@@ -1,0 +1,29 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T20:31:50.836Z",
+  "tile": {
+    "z": 13,
+    "x": 6833,
+    "y": 3400
+  },
+  "segments": [
+    {
+      "id": "40242354",
+      "tileScore": 24,
+      "name": "三都胜境",
+      "distanceM": 1061.699951171875,
+      "avgGrade": 6.668550491333008,
+      "startLat": 29.211618423461914,
+      "startLng": 120.29205322265625
+    },
+    {
+      "id": "35595175",
+      "tileScore": 56,
+      "name": "来龙山拐角到横店隧道口",
+      "distanceM": 3177,
+      "avgGrade": 4.113944053649902,
+      "startLat": 29.233110427856445,
+      "startLng": 120.28546142578125
+    }
+  ]
+}

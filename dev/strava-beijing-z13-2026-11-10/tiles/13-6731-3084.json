@@ -1,0 +1,20 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T19:54:41.960Z",
+  "tile": {
+    "z": 13,
+    "x": 6731,
+    "y": 3084
+  },
+  "segments": [
+    {
+      "id": "5424979",
+      "tileScore": 13,
+      "name": "County Road Climb",
+      "distanceM": 5678.2001953125,
+      "avgGrade": 16.11073875427246,
+      "startLat": 40.57723617553711,
+      "startLng": 115.77594757080078
+    }
+  ]
+}

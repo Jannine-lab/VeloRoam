@@ -1,0 +1,92 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T20:11:33.389Z",
+  "tile": {
+    "z": 13,
+    "x": 6719,
+    "y": 3072
+  },
+  "segments": [
+    {
+      "id": "32417572",
+      "tileScore": 38,
+      "name": "富龙小丁线 A-Line",
+      "distanceM": 1963.4000244140625,
+      "avgGrade": -9.473362922668457,
+      "startLat": 40.96690368652344,
+      "startLng": 115.30554962158203
+    },
+    {
+      "id": "35581349",
+      "tileScore": 2,
+      "name": "咱就是说富龙山上小镇后面有多陡",
+      "distanceM": 782,
+      "avgGrade": 6.547314643859863,
+      "startLat": 40.977760314941406,
+      "startLng": 115.29254913330078
+    },
+    {
+      "id": "32714188",
+      "tileScore": 143,
+      "name": "Wanlong Descent",
+      "distanceM": 6912.10009765625,
+      "avgGrade": -3.5474023818969727,
+      "startLat": 40.967247009277344,
+      "startLng": 115.37239074707031
+    },
+    {
+      "id": "35581381",
+      "tileScore": 142,
+      "name": "崇礼新的东环路完美 TT 赛段-下坡段",
+      "distanceM": 3019.699951171875,
+      "avgGrade": -1.2584031820297241,
+      "startLat": 40.97216033935547,
+      "startLng": 115.28614044189453
+    },
+    {
+      "id": "32984008",
+      "tileScore": 15,
+      "name": " 富龙黑线 （black line）",
+      "distanceM": 2236.699951171875,
+      "avgGrade": -17.324628829956055,
+      "startLat": 40.96107482910156,
+      "startLng": 115.30811309814453
+    },
+    {
+      "id": "34944600",
+      "tileScore": 11,
+      "name": "拐弯就是缓上",
+      "distanceM": 2200,
+      "avgGrade": 0.8545454740524292,
+      "startLat": 40.945289611816406,
+      "startLng": 115.26361083984375
+    },
+    {
+      "id": "25799405",
+      "tileScore": 9,
+      "name": "骑士之巅 stage 2 草原天路",
+      "distanceM": 88261,
+      "avgGrade": 0.09811808168888092,
+      "startLat": 40.977210998535156,
+      "startLng": 115.28495788574219
+    },
+    {
+      "id": "41720176",
+      "tileScore": 15,
+      "name": "University Worlds Crit Lap",
+      "distanceM": 2756.800048828125,
+      "avgGrade": -0.07254788279533386,
+      "startLat": 40.973262786865234,
+      "startLng": 115.28548431396484
+    },
+    {
+      "id": "32895606",
+      "tileScore": 44,
+      "name": "富龙蓝线比赛赛段",
+      "distanceM": 3173.39990234375,
+      "avgGrade": -7.859078884124756,
+      "startLat": 40.964385986328125,
+      "startLng": 115.30127716064453
+    }
+  ]
+}

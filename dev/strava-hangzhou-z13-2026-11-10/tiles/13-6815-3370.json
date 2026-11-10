@@ -1,0 +1,29 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T20:22:48.121Z",
+  "tile": {
+    "z": 13,
+    "x": 6815,
+    "y": 3370
+  },
+  "segments": [
+    {
+      "id": "33744562",
+      "tileScore": 2,
+      "name": "东天目下坡极速段",
+      "distanceM": 514.2000122070312,
+      "avgGrade": -7.273434162139893,
+      "startLat": 30.33637046813965,
+      "startLng": 119.50199127197266
+    },
+    {
+      "id": "39251493",
+      "tileScore": 16,
+      "name": "东天目climb",
+      "distanceM": 5104.7001953125,
+      "avgGrade": 3.769075393676758,
+      "startLat": 30.31562614440918,
+      "startLng": 119.51386260986328
+    }
+  ]
+}

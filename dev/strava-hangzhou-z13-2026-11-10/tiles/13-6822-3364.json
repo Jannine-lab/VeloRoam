@@ -1,0 +1,110 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T20:19:46.837Z",
+  "tile": {
+    "z": 13,
+    "x": 6822,
+    "y": 3364
+  },
+  "segments": [
+    {
+      "id": "11493976",
+      "tileScore": 645,
+      "name": "莫南 5公里爬坡",
+      "distanceM": 5174,
+      "avgGrade": 4.99420166015625,
+      "startLat": 30.5897159576416,
+      "startLng": 119.82672119140625
+    },
+    {
+      "id": "32288823",
+      "tileScore": 190,
+      "name": "莫干岭爬坡（加油站-岔路口小木屋）",
+      "distanceM": 11780.7001953125,
+      "avgGrade": 2.895413637161255,
+      "startLat": 30.559879302978516,
+      "startLng": 119.85363006591797
+    },
+    {
+      "id": "38745863",
+      "tileScore": 61,
+      "name": "White Towel",
+      "distanceM": 6003.60009765625,
+      "avgGrade": 3.111466407775879,
+      "startLat": 30.584861755371094,
+      "startLng": 119.7961654663086
+    },
+    {
+      "id": "9623213",
+      "tileScore": 5,
+      "name": "Difa Line (South-East Bound)",
+      "distanceM": 22451,
+      "avgGrade": 0.09531869739294052,
+      "startLat": 30.620582580566406,
+      "startLng": 119.71905517578125
+    },
+    {
+      "id": "7241316",
+      "tileScore": 1,
+      "name": "Slippery Concrete Killer Climb",
+      "distanceM": 389,
+      "avgGrade": 12.59640121459961,
+      "startLat": 30.598796844482422,
+      "startLng": 119.81990814208984
+    },
+    {
+      "id": "854334",
+      "tileScore": 114,
+      "name": "省道 Climb",
+      "distanceM": 1736.2900390625,
+      "avgGrade": 5.0912861824035645,
+      "startLat": 30.590187072753906,
+      "startLng": 119.8266372680664
+    },
+    {
+      "id": "39726503",
+      "tileScore": 44,
+      "name": "3分钟小短坡",
+      "distanceM": 1566.5,
+      "avgGrade": 4.340887546539307,
+      "startLat": 30.57777214050293,
+      "startLng": 119.81753540039062
+    },
+    {
+      "id": "29046943",
+      "tileScore": 52,
+      "name": "El Peque NEW road",
+      "distanceM": 714,
+      "avgGrade": 3.165266275405884,
+      "startLat": 30.595123291015625,
+      "startLng": 119.82088470458984
+    },
+    {
+      "id": "35960113",
+      "tileScore": 9,
+      "name": "本来应该是个环线，那我独占一个KOM",
+      "distanceM": 54169.1015625,
+      "avgGrade": 0.007015069480985403,
+      "startLat": 30.605941772460938,
+      "startLng": 119.89738464355469
+    },
+    {
+      "id": "35451772",
+      "tileScore": 24,
+      "name": "环莫干山",
+      "distanceM": 94126.8984375,
+      "avgGrade": 0.003612144850194454,
+      "startLat": 30.55729866027832,
+      "startLng": 119.84944915771484
+    },
+    {
+      "id": "29685849",
+      "tileScore": 32,
+      "name": "S304伐头-里瑶坞",
+      "distanceM": 8278.599609375,
+      "avgGrade": 1.5799771547317505,
+      "startLat": 30.553062438964844,
+      "startLng": 119.85418701171875
+    }
+  ]
+}

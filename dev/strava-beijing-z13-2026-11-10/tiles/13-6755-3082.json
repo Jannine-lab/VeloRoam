@@ -1,0 +1,20 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T19:54:24.688Z",
+  "tile": {
+    "z": 13,
+    "x": 6755,
+    "y": 3082
+  },
+  "segments": [
+    {
+      "id": "3764916",
+      "tileScore": 15,
+      "name": "X008 climb northbound",
+      "distanceM": 18492.76953125,
+      "avgGrade": 1.8807319402694702,
+      "startLat": 40.60089111328125,
+      "startLng": 116.86941528320312
+    }
+  ]
+}

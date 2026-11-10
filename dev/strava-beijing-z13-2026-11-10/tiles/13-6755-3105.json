@@ -1,0 +1,29 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T19:38:38.055Z",
+  "tile": {
+    "z": 13,
+    "x": 6755,
+    "y": 3105
+  },
+  "segments": [
+    {
+      "id": "34443826",
+      "tileScore": 1,
+      "name": "捷酷永祥路西东5.2KM",
+      "distanceM": 5204.10009765625,
+      "avgGrade": -0.042274363338947296,
+      "startLat": 39.869049072265625,
+      "startLng": 116.87734985351562
+    },
+    {
+      "id": "22448360",
+      "tileScore": 2,
+      "name": "Teapot's Showtime",
+      "distanceM": 63057.6015625,
+      "avgGrade": 0.021250411868095398,
+      "startLat": 39.869224548339844,
+      "startLng": 116.87718200683594
+    }
+  ]
+}

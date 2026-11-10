@@ -1,0 +1,38 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T19:56:57.215Z",
+  "tile": {
+    "z": 13,
+    "x": 6735,
+    "y": 3080
+  },
+  "segments": [
+    {
+      "id": "41485152",
+      "tileScore": 46,
+      "name": "shit road",
+      "distanceM": 3133.60009765625,
+      "avgGrade": -1.1105437278747559,
+      "startLat": 40.707271575927734,
+      "startLng": 115.9501953125
+    },
+    {
+      "id": "30017063",
+      "tileScore": 8,
+      "name": "slightly steep",
+      "distanceM": 7457.39990234375,
+      "avgGrade": 5.661490440368652,
+      "startLat": 40.69097900390625,
+      "startLng": 116.013427734375
+    },
+    {
+      "id": "41485146",
+      "tileScore": 67,
+      "name": "shit road climb",
+      "distanceM": 1257.4000244140625,
+      "avgGrade": 4.055988311767578,
+      "startLat": 40.69516372680664,
+      "startLng": 115.98297119140625
+    }
+  ]
+}

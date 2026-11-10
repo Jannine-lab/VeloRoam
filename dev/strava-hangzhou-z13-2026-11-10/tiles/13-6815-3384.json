@@ -1,0 +1,65 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T20:25:08.065Z",
+  "tile": {
+    "z": 13,
+    "x": 6815,
+    "y": 3384
+  },
+  "segments": [
+    {
+      "id": "38520609",
+      "tileScore": 4,
+      "name": "静林天池to狮子山climb",
+      "distanceM": 711.7000122070312,
+      "avgGrade": 6.91302490234375,
+      "startLat": 29.810232162475586,
+      "startLng": 119.50260925292969
+    },
+    {
+      "id": "40544719",
+      "tileScore": 2,
+      "name": "蒋家坞gravel climb",
+      "distanceM": 1423.5999755859375,
+      "avgGrade": 10.227592468261719,
+      "startLat": 29.842992782592773,
+      "startLng": 119.49850463867188
+    },
+    {
+      "id": "38209953",
+      "tileScore": 15,
+      "name": "🚴🏻碎石陡坡⛰️",
+      "distanceM": 2213.199951171875,
+      "avgGrade": 7.7263689041137695,
+      "startLat": 29.807809829711914,
+      "startLng": 119.51925659179688
+    },
+    {
+      "id": "20640086",
+      "tileScore": 24,
+      "name": "白云村  新村",
+      "distanceM": 11741.900390625,
+      "avgGrade": 5.058806419372559,
+      "startLat": 29.849502563476562,
+      "startLng": 119.55101013183594
+    },
+    {
+      "id": "27871110",
+      "tileScore": 24,
+      "name": "Wrong Way son!",
+      "distanceM": 7732.7001953125,
+      "avgGrade": 6.0910162925720215,
+      "startLat": 29.780643463134766,
+      "startLng": 119.50203704833984
+    },
+    {
+      "id": "18936239",
+      "tileScore": 21,
+      "name": "Tonglu CC Pagoda to Coffee Mountain",
+      "distanceM": 5104.7001953125,
+      "avgGrade": 5.555664539337158,
+      "startLat": 29.811159133911133,
+      "startLng": 119.54827117919922
+    }
+  ]
+}

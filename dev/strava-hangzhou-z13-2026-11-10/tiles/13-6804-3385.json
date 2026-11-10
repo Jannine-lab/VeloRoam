@@ -1,0 +1,29 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T20:31:56.724Z",
+  "tile": {
+    "z": 13,
+    "x": 6804,
+    "y": 3385
+  },
+  "segments": [
+    {
+      "id": "39622906",
+      "tileScore": 2,
+      "name": "金紫尖climb",
+      "distanceM": 6247.5,
+      "avgGrade": 2.9803922176361084,
+      "startLat": 29.763641357421875,
+      "startLng": 119.01107025146484
+    },
+    {
+      "id": "39622903",
+      "tileScore": 1,
+      "name": "桐木岭climb",
+      "distanceM": 13811,
+      "avgGrade": 2.283686876296997,
+      "startLat": 29.764545440673828,
+      "startLng": 119.01158905029297
+    }
+  ]
+}

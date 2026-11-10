@@ -1,0 +1,29 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T20:42:21.176Z",
+  "tile": {
+    "z": 13,
+    "x": 6787,
+    "y": 3386
+  },
+  "segments": [
+    {
+      "id": "37910190",
+      "tileScore": 13,
+      "name": "cd-齐云大道到黄山市",
+      "distanceM": 13529.599609375,
+      "avgGrade": -0.17738883197307587,
+      "startLat": 29.78152084350586,
+      "startLng": 118.1904296875
+    },
+    {
+      "id": "40657392",
+      "tileScore": 3,
+      "name": "Huangshan north lap",
+      "distanceM": 39189.3984375,
+      "avgGrade": 0.026027444750070572,
+      "startLat": 29.720693588256836,
+      "startLng": 118.29390716552734
+    }
+  ]
+}

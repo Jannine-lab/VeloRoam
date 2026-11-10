@@ -1,0 +1,47 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T20:43:13.843Z",
+  "tile": {
+    "z": 13,
+    "x": 6789,
+    "y": 3401
+  },
+  "segments": [
+    {
+      "id": "36716862",
+      "tileScore": 1,
+      "name": "瑞泊独家酒店陡坡段",
+      "distanceM": 506.1000061035156,
+      "avgGrade": 8.219719886779785,
+      "startLat": 29.153968811035156,
+      "startLng": 118.37367248535156
+    },
+    {
+      "id": "35651583",
+      "tileScore": 4,
+      "name": "桃溪岔路口-山洞",
+      "distanceM": 916.5,
+      "avgGrade": 3.120567560195923,
+      "startLat": 29.1564884185791,
+      "startLng": 118.38179016113281
+    },
+    {
+      "id": "28148181",
+      "tileScore": 24,
+      "name": "密赛岭短坡",
+      "distanceM": 650,
+      "avgGrade": 5.292307376861572,
+      "startLat": 29.164066314697266,
+      "startLng": 118.39179229736328
+    },
+    {
+      "id": "38653292",
+      "tileScore": 1,
+      "name": "2025环浙步道-开化站 未修改版本",
+      "distanceM": 119608,
+      "avgGrade": 0,
+      "startLat": 29.145221710205078,
+      "startLng": 118.3876724243164
+    }
+  ]
+}

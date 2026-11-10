@@ -1,0 +1,65 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T20:33:43.475Z",
+  "tile": {
+    "z": 13,
+    "x": 6800,
+    "y": 3381
+  },
+  "segments": [
+    {
+      "id": "20506218",
+      "tileScore": 18,
+      "name": "Chocolate Croissant",
+      "distanceM": 875.9000244140625,
+      "avgGrade": 4.658066272735596,
+      "startLat": 29.952850341796875,
+      "startLng": 118.85086059570312
+    },
+    {
+      "id": "42428232",
+      "tileScore": 1,
+      "name": "Clean Slate 26",
+      "distanceM": 113029.5,
+      "avgGrade": -0.006016128696501255,
+      "startLat": 30.0743350982666,
+      "startLng": 118.81914520263672
+    },
+    {
+      "id": "41597233",
+      "tileScore": 3,
+      "name": "JB Little Green Snake",
+      "distanceM": 4472.2001953125,
+      "avgGrade": 4.024864673614502,
+      "startLat": 29.934711456298828,
+      "startLng": 118.88662719726562
+    },
+    {
+      "id": "37526465",
+      "tileScore": 40,
+      "name": "屏三线放坡到长岭村超市",
+      "distanceM": 15355.2998046875,
+      "avgGrade": -3.0719034671783447,
+      "startLat": 29.936607360839844,
+      "startLng": 118.85533142089844
+    },
+    {
+      "id": "20038675",
+      "tileScore": 57,
+      "name": "Mosquito Bite",
+      "distanceM": 1192.4000244140625,
+      "avgGrade": 4.126132488250732,
+      "startLat": 29.9432373046875,
+      "startLng": 118.8521957397461
+    },
+    {
+      "id": "37740169",
+      "tileScore": 36,
+      "name": "金川to淳安【DQ】",
+      "distanceM": 8209.5,
+      "avgGrade": 0.02558012120425701,
+      "startLat": 29.98009490966797,
+      "startLng": 118.84507751464844
+    }
+  ]
+}

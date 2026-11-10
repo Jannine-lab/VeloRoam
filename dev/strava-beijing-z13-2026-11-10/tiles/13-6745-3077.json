@@ -1,0 +1,20 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T20:00:07.146Z",
+  "tile": {
+    "z": 13,
+    "x": 6745,
+    "y": 3077
+  },
+  "segments": [
+    {
+      "id": "35749399",
+      "tileScore": 2,
+      "name": "The famous 牛屎路",
+      "distanceM": 5708.60009765625,
+      "avgGrade": 6.223942756652832,
+      "startLat": 40.78608703613281,
+      "startLng": 116.47533416748047
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T19:43:07.606Z",
+  "tile": {
+    "z": 13,
+    "x": 6731,
+    "y": 3098
+  },
+  "segments": [
+    {
+      "id": "21500953",
+      "tileScore": 75,
+      "name": "南石洋大峡谷石碑到士博途终点的古典路赛段",
+      "distanceM": 15171,
+      "avgGrade": 1.9932767152786255,
+      "startLat": 40.049049377441406,
+      "startLng": 115.82856750488281
+    },
+    {
+      "id": "5552712",
+      "tileScore": 6,
+      "name": "Village Road Climb",
+      "distanceM": 691.4000244140625,
+      "avgGrade": 13.696846008300781,
+      "startLat": 40.083412170410156,
+      "startLng": 115.81635284423828
+    },
+    {
+      "id": "41227968",
+      "tileScore": 13,
+      "name": "彦祖被骂惨了的gravel烂路-千万别走",
+      "distanceM": 2885.699951171875,
+      "avgGrade": -1.8435735702514648,
+      "startLat": 40.11481475830078,
+      "startLng": 115.85104370117188
+    }
+  ]
+}

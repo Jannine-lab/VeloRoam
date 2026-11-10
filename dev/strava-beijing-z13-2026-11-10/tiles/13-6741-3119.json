@@ -1,0 +1,20 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T19:44:30.098Z",
+  "tile": {
+    "z": 13,
+    "x": 6741,
+    "y": 3119
+  },
+  "segments": [
+    {
+      "id": "34131043",
+      "tileScore": 2,
+      "name": "固雄线（SLA1到固东线）",
+      "distanceM": 20457.30078125,
+      "avgGrade": 0.06745757907629013,
+      "startLat": 39.23117446899414,
+      "startLng": 116.26217651367188
+    }
+  ]
+}

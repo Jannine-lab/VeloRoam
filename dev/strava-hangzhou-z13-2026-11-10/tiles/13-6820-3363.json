@@ -1,0 +1,56 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T20:20:50.885Z",
+  "tile": {
+    "z": 13,
+    "x": 6820,
+    "y": 3363
+  },
+  "segments": [
+    {
+      "id": "9623213",
+      "tileScore": 5,
+      "name": "Difa Line (South-East Bound)",
+      "distanceM": 22451,
+      "avgGrade": 0.09531869739294052,
+      "startLat": 30.620582580566406,
+      "startLng": 119.71905517578125
+    },
+    {
+      "id": "35380961",
+      "tileScore": 18,
+      "name": "绕城南路（安吉大道至凤凰国际）爬坡",
+      "distanceM": 1034.300048828125,
+      "avgGrade": 1.8756647109985352,
+      "startLat": 30.622642517089844,
+      "startLng": 119.71857452392578
+    },
+    {
+      "id": "854333",
+      "tileScore": 108,
+      "name": "递筏线 Climb",
+      "distanceM": 5251.39013671875,
+      "avgGrade": 5.49186897277832,
+      "startLat": 30.602567672729492,
+      "startLng": 119.74630737304688
+    },
+    {
+      "id": "17640763",
+      "tileScore": 16,
+      "name": "Huancheng NE",
+      "distanceM": 4869.60009765625,
+      "avgGrade": -0.22999835014343262,
+      "startLat": 30.60460662841797,
+      "startLng": 119.6800537109375
+    },
+    {
+      "id": "35451772",
+      "tileScore": 24,
+      "name": "环莫干山",
+      "distanceM": 94126.8984375,
+      "avgGrade": 0.003612144850194454,
+      "startLat": 30.55729866027832,
+      "startLng": 119.84944915771484
+    }
+  ]
+}

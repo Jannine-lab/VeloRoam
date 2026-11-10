@@ -1,0 +1,20 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T19:54:07.273Z",
+  "tile": {
+    "z": 13,
+    "x": 6760,
+    "y": 3086
+  },
+  "segments": [
+    {
+      "id": "32768773",
+      "tileScore": 22,
+      "name": "白龙潭爬坡",
+      "distanceM": 7037.2998046875,
+      "avgGrade": 4.461938381195068,
+      "startLat": 40.49930953979492,
+      "startLng": 117.05928039550781
+    }
+  ]
+}

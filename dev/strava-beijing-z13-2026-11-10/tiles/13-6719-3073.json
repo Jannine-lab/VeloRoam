@@ -1,0 +1,20 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T20:10:52.768Z",
+  "tile": {
+    "z": 13,
+    "x": 6719,
+    "y": 3073
+  },
+  "segments": [
+    {
+      "id": "39577336",
+      "tileScore": 167,
+      "name": "滑雪人的缓上热身😊",
+      "distanceM": 6000.10009765625,
+      "avgGrade": 1.7033050060272217,
+      "startLat": 40.9413948059082,
+      "startLng": 115.26802825927734
+    }
+  ]
+}

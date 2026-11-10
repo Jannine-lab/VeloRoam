@@ -1,0 +1,20 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T19:47:15.152Z",
+  "tile": {
+    "z": 13,
+    "x": 6728,
+    "y": 3113
+  },
+  "segments": [
+    {
+      "id": "14775641",
+      "tileScore": 27,
+      "name": "云居寺到六渡",
+      "distanceM": 19486.80078125,
+      "avgGrade": 0.13342364132404327,
+      "startLat": 39.60468673706055,
+      "startLng": 115.7720947265625
+    }
+  ]
+}

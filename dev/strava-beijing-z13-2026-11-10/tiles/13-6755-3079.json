@@ -1,0 +1,20 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T19:59:54.306Z",
+  "tile": {
+    "z": 13,
+    "x": 6755,
+    "y": 3079
+  },
+  "segments": [
+    {
+      "id": "39249709",
+      "tileScore": 2,
+      "name": "兄弟我活了！",
+      "distanceM": 8420,
+      "avgGrade": -3.121140241622925,
+      "startLat": 40.719154357910156,
+      "startLng": 116.82434844970703
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T20:28:06.745Z",
+  "tile": {
+    "z": 13,
+    "x": 6807,
+    "y": 3375
+  },
+  "segments": [
+    {
+      "id": "34394010",
+      "tileScore": 7,
+      "name": "Last climb to Changhua",
+      "distanceM": 5081.10009765625,
+      "avgGrade": 1.9405248165130615,
+      "startLat": 30.12050437927246,
+      "startLng": 119.18753051757812
+    },
+    {
+      "id": "22226224",
+      "tileScore": 180,
+      "name": "白甲线爬坡",
+      "distanceM": 15945.900390625,
+      "avgGrade": 4.919133186340332,
+      "startLat": 30.182241439819336,
+      "startLng": 119.16349029541016
+    },
+    {
+      "id": "37890931",
+      "tileScore": 80,
+      "name": "8300-龙岗红绿灯路口🚦",
+      "distanceM": 7146.5,
+      "avgGrade": 0.2770587205886841,
+      "startLat": 30.175968170166016,
+      "startLng": 119.19634246826172
+    },
+    {
+      "id": "39058667",
+      "tileScore": 4,
+      "name": "329-仁里",
+      "distanceM": 92852.5,
+      "avgGrade": 0.46719256043434143,
+      "startLat": 30.2049503326416,
+      "startLng": 119.64678955078125
+    }
+  ]
+}

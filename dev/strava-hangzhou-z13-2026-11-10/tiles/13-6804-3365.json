@@ -1,0 +1,20 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T20:29:51.698Z",
+  "tile": {
+    "z": 13,
+    "x": 6804,
+    "y": 3365
+  },
+  "segments": [
+    {
+      "id": "39226122",
+      "tileScore": 9,
+      "name": "中医院中德小镇到东入口",
+      "distanceM": 59345.1015625,
+      "avgGrade": 0.025275886058807373,
+      "startLat": 30.607820510864258,
+      "startLng": 118.99944305419922
+    }
+  ]
+}

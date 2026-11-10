@@ -1,0 +1,20 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T19:50:57.886Z",
+  "tile": {
+    "z": 13,
+    "x": 6762,
+    "y": 3115
+  },
+  "segments": [
+    {
+      "id": "14234066",
+      "tileScore": 2,
+      "name": "崔楊公路(S101-S243)",
+      "distanceM": 3208.60009765625,
+      "avgGrade": -0.03739948943257332,
+      "startLat": 39.526634216308594,
+      "startLng": 117.17571258544922
+    }
+  ]
+}

@@ -1,0 +1,65 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T20:23:18.287Z",
+  "tile": {
+    "z": 13,
+    "x": 6817,
+    "y": 3381
+  },
+  "segments": [
+    {
+      "id": "35690462",
+      "tileScore": 5,
+      "name": "新淳线高翔村climb",
+      "distanceM": 2309,
+      "avgGrade": 3.100909471511841,
+      "startLat": 29.91012954711914,
+      "startLng": 119.55918884277344
+    },
+    {
+      "id": "38517276",
+      "tileScore": 3,
+      "name": "童家坞climb",
+      "distanceM": 1591.9000244140625,
+      "avgGrade": 3.900998830795288,
+      "startLat": 29.949899673461914,
+      "startLng": 119.59121704101562
+    },
+    {
+      "id": "35658976",
+      "tileScore": 12,
+      "name": "杭州市to千岛湖镇",
+      "distanceM": 145213,
+      "avgGrade": 0.0798826590180397,
+      "startLat": 30.197845458984375,
+      "startLng": 120.12736511230469
+    },
+    {
+      "id": "19834282",
+      "tileScore": 9,
+      "name": "TheCliff",
+      "distanceM": 1251.5999755859375,
+      "avgGrade": 3.691275119781494,
+      "startLat": 29.924898147583008,
+      "startLng": 119.59141540527344
+    },
+    {
+      "id": "38511490",
+      "tileScore": 4,
+      "name": "云田半亩民宿全程climb",
+      "distanceM": 5354.39990234375,
+      "avgGrade": 6.562826633453369,
+      "startLat": 29.952104568481445,
+      "startLng": 119.59110260009766
+    },
+    {
+      "id": "35690477",
+      "tileScore": 4,
+      "name": "新淳线桐岭村climb",
+      "distanceM": 3504.10009765625,
+      "avgGrade": 1.3070403337478638,
+      "startLat": 29.926998138427734,
+      "startLng": 119.59392547607422
+    }
+  ]
+}

@@ -1,0 +1,146 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T19:34:46.051Z",
+  "tile": {
+    "z": 13,
+    "x": 6739,
+    "y": 3105
+  },
+  "segments": [
+    {
+      "id": "11608328",
+      "tileScore": 6,
+      "name": "园博园ITT",
+      "distanceM": 2923.60009765625,
+      "avgGrade": 0.08209057152271271,
+      "startLat": 39.864967346191406,
+      "startLng": 116.17976379394531
+    },
+    {
+      "id": "39329024",
+      "tileScore": 16,
+      "name": "石门营-京良路快线",
+      "distanceM": 25699.099609375,
+      "avgGrade": -0.18988992273807526,
+      "startLat": 39.89262771606445,
+      "startLng": 116.10195922851562
+    },
+    {
+      "id": "34821026",
+      "tileScore": 11,
+      "name": "TEB 园博园长顺-射击",
+      "distanceM": 1366.5999755859375,
+      "avgGrade": 0.058539438992738724,
+      "startLat": 39.86598205566406,
+      "startLng": 116.17841339111328
+    },
+    {
+      "id": "40749110",
+      "tileScore": 19,
+      "name": "Spint",
+      "distanceM": 631,
+      "avgGrade": 0.15847861766815186,
+      "startLat": 39.872440338134766,
+      "startLng": 116.1823501586914
+    },
+    {
+      "id": "39103844",
+      "tileScore": 33,
+      "name": "铁道桥后二连坡",
+      "distanceM": 524.4000244140625,
+      "avgGrade": 1.0297483205795288,
+      "startLat": 39.874874114990234,
+      "startLng": 116.16670989990234
+    },
+    {
+      "id": "17492329",
+      "tileScore": 52,
+      "name": "假园博园",
+      "distanceM": 6087.7001953125,
+      "avgGrade": -0.026282504200935364,
+      "startLat": 39.86024856567383,
+      "startLng": 116.19591522216797
+    },
+    {
+      "id": "10359243",
+      "tileScore": 2,
+      "name": "Downhill!!!",
+      "distanceM": 2506,
+      "avgGrade": -2.218675136566162,
+      "startLat": 39.846412658691406,
+      "startLng": 116.13750457763672
+    },
+    {
+      "id": "13168971",
+      "tileScore": 34,
+      "name": "CN Beijing Tri Sprint Yuanbo Ave S-N",
+      "distanceM": 2247.300048828125,
+      "avgGrade": 0.33818361163139343,
+      "startLat": 39.86070251464844,
+      "startLng": 116.1964111328125
+    },
+    {
+      "id": "10359248",
+      "tileScore": 1,
+      "name": "False Climb Beijing Tri",
+      "distanceM": 3442.39990234375,
+      "avgGrade": -0.06971880048513412,
+      "startLat": 39.846832275390625,
+      "startLng": 116.16749572753906
+    },
+    {
+      "id": "41151067",
+      "tileScore": 6,
+      "name": "home 2坡",
+      "distanceM": 782.2000122070312,
+      "avgGrade": 1.917668104171753,
+      "startLat": 39.85521697998047,
+      "startLng": 116.17771911621094
+    },
+    {
+      "id": "15978061",
+      "tileScore": 5,
+      "name": "Full Beijing International Tri Loop",
+      "distanceM": 38777.6015625,
+      "avgGrade": -0.016504373401403427,
+      "startLat": 39.861778259277344,
+      "startLng": 116.2039566040039
+    },
+    {
+      "id": "35800440",
+      "tileScore": 5,
+      "name": "是坡就建一个",
+      "distanceM": 509.29998779296875,
+      "avgGrade": 2.4739840030670166,
+      "startLat": 39.86530303955078,
+      "startLng": 116.16303253173828
+    },
+    {
+      "id": "35800406",
+      "tileScore": 7,
+      "name": "抄近道去戒必须热热身",
+      "distanceM": 1329.9000244140625,
+      "avgGrade": 1.9399954080581665,
+      "startLat": 39.85552215576172,
+      "startLng": 116.17777252197266
+    },
+    {
+      "id": "13168992",
+      "tileScore": 6,
+      "name": "CN Beijing Tri Yuanboyuan S Rd from Yuanbo Ave to Yuanbo West 1st Rd ",
+      "distanceM": 519,
+      "avgGrade": 0.5780346393585205,
+      "startLat": 39.86021423339844,
+      "startLng": 116.19580078125
+    },
+    {
+      "id": "35800338",
+      "tileScore": 2,
+      "name": "xr上班要迟到啦",
+      "distanceM": 1647.5,
+      "avgGrade": -0.2549317181110382,
+      "startLat": 39.85223388671875,
+      "startLng": 116.18809509277344
+    }
+  ]
+}

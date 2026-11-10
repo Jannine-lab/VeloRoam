@@ -1,0 +1,20 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T20:40:45.078Z",
+  "tile": {
+    "z": 13,
+    "x": 6801,
+    "y": 3401
+  },
+  "segments": [
+    {
+      "id": "34431429",
+      "tileScore": 45,
+      "name": "明果-香坞隧道",
+      "distanceM": 7415,
+      "avgGrade": 2.975050449371338,
+      "startLat": 29.162109375,
+      "startLng": 118.90975189208984
+    }
+  ]
+}

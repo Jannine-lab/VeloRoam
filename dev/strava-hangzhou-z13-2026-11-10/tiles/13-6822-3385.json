@@ -1,0 +1,20 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T20:22:58.132Z",
+  "tile": {
+    "z": 13,
+    "x": 6822,
+    "y": 3385
+  },
+  "segments": [
+    {
+      "id": "38933374",
+      "tileScore": 64,
+      "name": "上店—大源",
+      "distanceM": 5439.5,
+      "avgGrade": 1.1839324235916138,
+      "startLat": 29.777179718017578,
+      "startLng": 119.81370544433594
+    }
+  ]
+}

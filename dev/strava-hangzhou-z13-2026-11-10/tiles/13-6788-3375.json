@@ -1,0 +1,20 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T20:40:17.771Z",
+  "tile": {
+    "z": 13,
+    "x": 6788,
+    "y": 3375
+  },
+  "segments": [
+    {
+      "id": "39007703",
+      "tileScore": 2,
+      "name": "鹊岭老公路爬坡",
+      "distanceM": 2456.39990234375,
+      "avgGrade": 4.20127010345459,
+      "startLat": 30.178415298461914,
+      "startLng": 118.33110809326172
+    }
+  ]
+}

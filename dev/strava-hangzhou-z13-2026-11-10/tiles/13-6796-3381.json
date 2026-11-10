@@ -1,0 +1,56 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T20:36:31.997Z",
+  "tile": {
+    "z": 13,
+    "x": 6796,
+    "y": 3381
+  },
+  "segments": [
+    {
+      "id": "42067605",
+      "tileScore": 2,
+      "name": "这里有条近路",
+      "distanceM": 609.2999877929688,
+      "avgGrade": 8.206137657165527,
+      "startLat": 29.931474685668945,
+      "startLng": 118.66262817382812
+    },
+    {
+      "id": "26315530",
+      "tileScore": 1,
+      "name": "Double trouble - 2nd part",
+      "distanceM": 3067.60009765625,
+      "avgGrade": 6.011214256286621,
+      "startLat": 29.933557510375977,
+      "startLng": 118.68025970458984
+    },
+    {
+      "id": "17843037",
+      "tileScore": 3,
+      "name": "Forbidden by the Coach Climb",
+      "distanceM": 2594,
+      "avgGrade": 11.480340003967285,
+      "startLat": 29.942161560058594,
+      "startLng": 118.66642761230469
+    },
+    {
+      "id": "26315510",
+      "tileScore": 15,
+      "name": "Single trouble",
+      "distanceM": 3053.199951171875,
+      "avgGrade": 6.773221492767334,
+      "startLat": 29.935007095336914,
+      "startLng": 118.665283203125
+    },
+    {
+      "id": "27605767",
+      "tileScore": 1,
+      "name": "Pig Farm Crawl",
+      "distanceM": 535.9000244140625,
+      "avgGrade": 3.3401753902435303,
+      "startLat": 29.95368194580078,
+      "startLng": 118.69146728515625
+    }
+  ]
+}

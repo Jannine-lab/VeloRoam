@@ -1,0 +1,29 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T20:20:50.885Z",
+  "tile": {
+    "z": 13,
+    "x": 6820,
+    "y": 3364
+  },
+  "segments": [
+    {
+      "id": "35451772",
+      "tileScore": 24,
+      "name": "环莫干山",
+      "distanceM": 94126.8984375,
+      "avgGrade": 0.003612144850194454,
+      "startLat": 30.55729866027832,
+      "startLng": 119.84944915771484
+    },
+    {
+      "id": "34785587",
+      "tileScore": 38,
+      "name": "双一ITT",
+      "distanceM": 6351.5,
+      "avgGrade": 0.5290089249610901,
+      "startLat": 30.574220657348633,
+      "startLng": 119.7206802368164
+    }
+  ]
+}

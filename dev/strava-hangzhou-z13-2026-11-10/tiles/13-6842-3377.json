@@ -1,0 +1,38 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T20:21:43.767Z",
+  "tile": {
+    "z": 13,
+    "x": 6842,
+    "y": 3377
+  },
+  "segments": [
+    {
+      "id": "36482816",
+      "tileScore": 2,
+      "name": "曹娥江堤三江大桥到镇塘殿村",
+      "distanceM": 7129.5,
+      "avgGrade": 0.019636720418930054,
+      "startLat": 30.128925323486328,
+      "startLng": 120.63431549072266
+    },
+    {
+      "id": "33717020",
+      "tileScore": 14,
+      "name": "袍江大桥 northbound",
+      "distanceM": 2146,
+      "avgGrade": 0.11183597147464752,
+      "startLat": 30.091754913330078,
+      "startLng": 120.67314147949219
+    },
+    {
+      "id": "39282339",
+      "tileScore": 35,
+      "name": "小胖的塘路训练路",
+      "distanceM": 20439.400390625,
+      "avgGrade": 0.009785022586584091,
+      "startLat": 30.074539184570312,
+      "startLng": 120.79976654052734
+    }
+  ]
+}

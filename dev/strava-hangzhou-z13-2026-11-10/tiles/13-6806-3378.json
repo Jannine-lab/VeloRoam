@@ -1,0 +1,47 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T20:28:23.279Z",
+  "tile": {
+    "z": 13,
+    "x": 6806,
+    "y": 3378
+  },
+  "segments": [
+    {
+      "id": "38518079",
+      "tileScore": 1,
+      "name": "罗心里-湍口",
+      "distanceM": 6656.2001953125,
+      "avgGrade": -0.991556704044342,
+      "startLat": 30.036104202270508,
+      "startLng": 119.10641479492188
+    },
+    {
+      "id": "38796712",
+      "tileScore": 1,
+      "name": "里田坪climb",
+      "distanceM": 11139.7001953125,
+      "avgGrade": 2.922879457473755,
+      "startLat": 30.049650192260742,
+      "startLng": 119.15428924560547
+    },
+    {
+      "id": "36273867",
+      "tileScore": 4,
+      "name": "塘秀村-岔口村",
+      "distanceM": 4177.5,
+      "avgGrade": -2.503889799118042,
+      "startLat": 30.043027877807617,
+      "startLng": 119.06468963623047
+    },
+    {
+      "id": "38796720",
+      "tileScore": 2,
+      "name": "龙门脚climb",
+      "distanceM": 5019.89990234375,
+      "avgGrade": 5.370624542236328,
+      "startLat": 30.060678482055664,
+      "startLng": 119.10321044921875
+    }
+  ]
+}

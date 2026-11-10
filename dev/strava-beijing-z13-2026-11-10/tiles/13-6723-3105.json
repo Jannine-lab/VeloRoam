@@ -1,0 +1,29 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T19:51:26.077Z",
+  "tile": {
+    "z": 13,
+    "x": 6723,
+    "y": 3105
+  },
+  "segments": [
+    {
+      "id": "1413118",
+      "tileScore": 21,
+      "name": "省道 Climb",
+      "distanceM": 2447.679931640625,
+      "avgGrade": 3.8566815853118896,
+      "startLat": 39.859718322753906,
+      "startLng": 115.4622802734375
+    },
+    {
+      "id": "34037044",
+      "tileScore": 73,
+      "name": "九龙到北京界",
+      "distanceM": 19615.30078125,
+      "avgGrade": 2.629580020904541,
+      "startLat": 39.803001403808594,
+      "startLng": 115.40788269042969
+    }
+  ]
+}

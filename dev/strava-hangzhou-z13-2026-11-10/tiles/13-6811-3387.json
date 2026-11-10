@@ -1,0 +1,20 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T20:29:03.513Z",
+  "tile": {
+    "z": 13,
+    "x": 6811,
+    "y": 3387
+  },
+  "segments": [
+    {
+      "id": "28054193",
+      "tileScore": 8,
+      "name": "百富线-毛岭坞脚爬坡",
+      "distanceM": 3562.89990234375,
+      "avgGrade": 5.529203414916992,
+      "startLat": 29.72731590270996,
+      "startLng": 119.31761169433594
+    }
+  ]
+}

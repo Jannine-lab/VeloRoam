@@ -1,0 +1,20 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T20:38:34.728Z",
+  "tile": {
+    "z": 13,
+    "x": 6792,
+    "y": 3366
+  },
+  "segments": [
+    {
+      "id": "18805239",
+      "tileScore": 5,
+      "name": "cd-榔桥镇至桃岭公路西坡起点",
+      "distanceM": 10993.7998046875,
+      "avgGrade": 0.6112536191940308,
+      "startLat": 30.51252555847168,
+      "startLng": 118.46083068847656
+    }
+  ]
+}

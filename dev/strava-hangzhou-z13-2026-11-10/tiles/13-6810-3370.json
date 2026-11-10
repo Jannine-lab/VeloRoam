@@ -1,0 +1,47 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T20:25:17.980Z",
+  "tile": {
+    "z": 13,
+    "x": 6810,
+    "y": 3370
+  },
+  "segments": [
+    {
+      "id": "35911577",
+      "tileScore": 9,
+      "name": "千秋关 E2W",
+      "distanceM": 1920.5999755859375,
+      "avgGrade": 5.269186496734619,
+      "startLat": 30.35163688659668,
+      "startLng": 119.2957992553711
+    },
+    {
+      "id": "33712901",
+      "tileScore": 5,
+      "name": "欢迎来到安徽Welcome to Anhui",
+      "distanceM": 3225,
+      "avgGrade": -1.699224829673767,
+      "startLat": 30.36414337158203,
+      "startLng": 119.27889251708984
+    },
+    {
+      "id": "32117314",
+      "tileScore": 2,
+      "name": "cd-千秋乡小陡坡",
+      "distanceM": 1146.0999755859375,
+      "avgGrade": 10.836750984191895,
+      "startLat": 30.36649513244629,
+      "startLng": 119.27330780029297
+    },
+    {
+      "id": "32117281",
+      "tileScore": 21,
+      "name": "cd-千秋关北往南爬坡",
+      "distanceM": 2285.300048828125,
+      "avgGrade": 6.721218109130859,
+      "startLat": 30.362079620361328,
+      "startLng": 119.2796859741211
+    }
+  ]
+}

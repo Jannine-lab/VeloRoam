@@ -1,0 +1,47 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T20:34:30.494Z",
+  "tile": {
+    "z": 13,
+    "x": 6799,
+    "y": 3377
+  },
+  "segments": [
+    {
+      "id": "42428232",
+      "tileScore": 1,
+      "name": "Clean Slate 26",
+      "distanceM": 113029.5,
+      "avgGrade": -0.006016128696501255,
+      "startLat": 30.0743350982666,
+      "startLng": 118.81914520263672
+    },
+    {
+      "id": "17473631",
+      "tileScore": 114,
+      "name": "Wildhomestay YC Finish",
+      "distanceM": 3590.39990234375,
+      "avgGrade": 2.010918140411377,
+      "startLat": 30.047460556030273,
+      "startLng": 118.82258605957031
+    },
+    {
+      "id": "15187886",
+      "tileScore": 4,
+      "name": "The new Roubaix",
+      "distanceM": 1484.699951171875,
+      "avgGrade": 2.8288543224334717,
+      "startLat": 30.072357177734375,
+      "startLng": 118.82308197021484
+    },
+    {
+      "id": "25143385",
+      "tileScore": 4,
+      "name": "Owen's recovery spin",
+      "distanceM": 1461.5999755859375,
+      "avgGrade": 11.13847827911377,
+      "startLat": 30.0723934173584,
+      "startLng": 118.82564544677734
+    }
+  ]
+}

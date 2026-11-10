@@ -1,0 +1,47 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T19:40:07.859Z",
+  "tile": {
+    "z": 13,
+    "x": 6746,
+    "y": 3092
+  },
+  "segments": [
+    {
+      "id": "14107946",
+      "tileScore": 154,
+      "name": "Shayukuo Reservoir",
+      "distanceM": 4191.2998046875,
+      "avgGrade": 0.7396273612976074,
+      "startLat": 40.2729377746582,
+      "startLng": 116.49301147460938
+    },
+    {
+      "id": "6113252",
+      "tileScore": 68,
+      "name": "Mountain Bar",
+      "distanceM": 917.2000122070312,
+      "avgGrade": 3.3144350051879883,
+      "startLat": 40.27789306640625,
+      "startLng": 116.48965454101562
+    },
+    {
+      "id": "40115635",
+      "tileScore": 22,
+      "name": "说是能到大杨山但实际什么都没有的书画山重点",
+      "distanceM": 1075.5999755859375,
+      "avgGrade": 1.8780217170715332,
+      "startLat": 40.29376220703125,
+      "startLng": 116.46893310546875
+    },
+    {
+      "id": "40096877",
+      "tileScore": 5,
+      "name": "还真有人骑车来过这",
+      "distanceM": 942.5999755859375,
+      "avgGrade": -0.4455760717391968,
+      "startLat": 40.294071197509766,
+      "startLng": 116.46395111083984
+    }
+  ]
+}

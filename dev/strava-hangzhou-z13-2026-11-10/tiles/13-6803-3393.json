@@ -1,0 +1,56 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T20:36:41.890Z",
+  "tile": {
+    "z": 13,
+    "x": 6803,
+    "y": 3393
+  },
+  "segments": [
+    {
+      "id": "14269378",
+      "tileScore": 4,
+      "name": "千岛湖村-凤凰隧道",
+      "distanceM": 38428.5,
+      "avgGrade": -0.02862458862364292,
+      "startLat": 29.47867202758789,
+      "startLng": 119.12246704101562
+    },
+    {
+      "id": "12341077",
+      "tileScore": 14,
+      "name": "Baixiao X621 return",
+      "distanceM": 2298.10009765625,
+      "avgGrade": 3.9249815940856934,
+      "startLat": 29.498674392700195,
+      "startLng": 119.0180435180664
+    },
+    {
+      "id": "26235564",
+      "tileScore": 20,
+      "name": "OD Climb",
+      "distanceM": 1859.4000244140625,
+      "avgGrade": 4.614391803741455,
+      "startLat": 29.495891571044922,
+      "startLng": 118.99172973632812
+    },
+    {
+      "id": "31700615",
+      "tileScore": 3,
+      "name": "白里线A",
+      "distanceM": 2552.199951171875,
+      "avgGrade": 5.75973653793335,
+      "startLat": 29.49660873413086,
+      "startLng": 118.98934936523438
+    },
+    {
+      "id": "17819401",
+      "tileScore": 8,
+      "name": "小环湖",
+      "distanceM": 102884,
+      "avgGrade": -0.008358928374946117,
+      "startLat": 29.475658416748047,
+      "startLng": 119.21735382080078
+    }
+  ]
+}

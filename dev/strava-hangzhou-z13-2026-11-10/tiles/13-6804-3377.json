@@ -1,0 +1,83 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T20:29:44.313Z",
+  "tile": {
+    "z": 13,
+    "x": 6804,
+    "y": 3377
+  },
+  "segments": [
+    {
+      "id": "19032974",
+      "tileScore": 15,
+      "name": "To Xuechuancun after descent",
+      "distanceM": 4016.699951171875,
+      "avgGrade": -4.207434177398682,
+      "startLat": 30.068899154663086,
+      "startLng": 119.01519012451172
+    },
+    {
+      "id": "28727212",
+      "tileScore": 30,
+      "name": "Chain's_水库到牵牛岗岔路口最后一坡！干！",
+      "distanceM": 2200.89990234375,
+      "avgGrade": 4.752601146697998,
+      "startLat": 30.085145950317383,
+      "startLng": 119.03504180908203
+    },
+    {
+      "id": "21243419",
+      "tileScore": 52,
+      "name": "Post-Wedding Climb",
+      "distanceM": 8648.2001953125,
+      "avgGrade": 5.268148422241211,
+      "startLat": 30.07688331604004,
+      "startLng": 119.01781463623047
+    },
+    {
+      "id": "34099541",
+      "tileScore": 8,
+      "name": "紫燕 冲 学川 的大直道",
+      "distanceM": 1083.5999755859375,
+      "avgGrade": 5.850867748260498,
+      "startLat": 30.088260650634766,
+      "startLng": 119.05728912353516
+    },
+    {
+      "id": "24250800",
+      "tileScore": 41,
+      "name": "Cold leg power climb",
+      "distanceM": 453.6000061035156,
+      "avgGrade": 2.777777910232544,
+      "startLat": 30.068632125854492,
+      "startLng": 119.01500701904297
+    },
+    {
+      "id": "9564841",
+      "tileScore": 521,
+      "name": "牵牛岗爬坡（好路）",
+      "distanceM": 20534.5,
+      "avgGrade": 4.920499801635742,
+      "startLat": 30.076786041259766,
+      "startLng": 119.017822265625
+    },
+    {
+      "id": "16054119",
+      "tileScore": 45,
+      "name": "NWC 2017 - 1st climb",
+      "distanceM": 5141.60009765625,
+      "avgGrade": 4.181577682495117,
+      "startLat": 30.084888458251953,
+      "startLng": 118.98925018310547
+    },
+    {
+      "id": "37895000",
+      "tileScore": 1,
+      "name": "Dirty Daming North",
+      "distanceM": 2767.5,
+      "avgGrade": 10.312556266784668,
+      "startLat": 30.07094383239746,
+      "startLng": 119.0341796875
+    }
+  ]
+}

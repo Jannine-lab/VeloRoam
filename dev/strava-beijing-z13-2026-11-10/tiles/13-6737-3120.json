@@ -1,0 +1,20 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T19:48:11.788Z",
+  "tile": {
+    "z": 13,
+    "x": 6737,
+    "y": 3120
+  },
+  "segments": [
+    {
+      "id": "39398029",
+      "tileScore": 9,
+      "name": "高碑店—涿州：西堤南向北",
+      "distanceM": 17003.30078125,
+      "avgGrade": 0.02587733045220375,
+      "startLat": 39.32763671875,
+      "startLng": 116.09539794921875
+    }
+  ]
+}

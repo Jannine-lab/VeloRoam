@@ -1,0 +1,20 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T19:54:39.492Z",
+  "tile": {
+    "z": 13,
+    "x": 6765,
+    "y": 3117
+  },
+  "segments": [
+    {
+      "id": "12578745",
+      "tileScore": 1,
+      "name": "八坨路",
+      "distanceM": 3268.60009765625,
+      "avgGrade": -0.1652083545923233,
+      "startLat": 39.48377990722656,
+      "startLng": 117.33141326904297
+    }
+  ]
+}

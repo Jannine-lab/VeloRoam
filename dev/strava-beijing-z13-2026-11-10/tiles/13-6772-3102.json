@@ -1,0 +1,20 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T20:00:26.466Z",
+  "tile": {
+    "z": 13,
+    "x": 6772,
+    "y": 3102
+  },
+  "segments": [
+    {
+      "id": "38754856",
+      "tileScore": 12,
+      "name": "火速前往团城",
+      "distanceM": 1231.800048828125,
+      "avgGrade": 2.6302971839904785,
+      "startLat": 39.958099365234375,
+      "startLng": 117.62027740478516
+    }
+  ]
+}

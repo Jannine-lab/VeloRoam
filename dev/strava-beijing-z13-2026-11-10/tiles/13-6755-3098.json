@@ -1,0 +1,20 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T19:39:39.733Z",
+  "tile": {
+    "z": 13,
+    "x": 6755,
+    "y": 3098
+  },
+  "segments": [
+    {
+      "id": "34085408",
+      "tileScore": 2,
+      "name": "顺平南线（木孙路 -环岛）",
+      "distanceM": 18297.099609375,
+      "avgGrade": -0.09946931153535843,
+      "startLat": 40.09992980957031,
+      "startLng": 116.9121322631836
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T19:58:54.351Z",
+  "tile": {
+    "z": 13,
+    "x": 6729,
+    "y": 3083
+  },
+  "segments": [
+    {
+      "id": "18786436",
+      "tileScore": 64,
+      "name": "海坨大放坡（出京）",
+      "distanceM": 18743.69921875,
+      "avgGrade": -2.1703290939331055,
+      "startLat": 40.533382415771484,
+      "startLng": 115.74681091308594
+    }
+  ]
+}

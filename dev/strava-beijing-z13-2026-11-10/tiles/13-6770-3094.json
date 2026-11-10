@@ -1,0 +1,20 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T19:59:56.764Z",
+  "tile": {
+    "z": 13,
+    "x": 6770,
+    "y": 3094
+  },
+  "segments": [
+    {
+      "id": "4194160",
+      "tileScore": 7,
+      "name": "Changcheng Highway Climb",
+      "distanceM": 2530.5,
+      "avgGrade": 7.192255020141602,
+      "startLat": 40.20721435546875,
+      "startLng": 117.50225067138672
+    }
+  ]
+}

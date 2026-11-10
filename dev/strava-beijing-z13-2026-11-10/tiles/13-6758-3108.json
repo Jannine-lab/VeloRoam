@@ -1,0 +1,20 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T19:43:10.073Z",
+  "tile": {
+    "z": 13,
+    "x": 6758,
+    "y": 3108
+  },
+  "segments": [
+    {
+      "id": "13152227",
+      "tileScore": 4,
+      "name": "S361(金辛庒村)",
+      "distanceM": 5544.7998046875,
+      "avgGrade": 0.007213966455310583,
+      "startLat": 39.7485466003418,
+      "startLng": 117.00682067871094
+    }
+  ]
+}

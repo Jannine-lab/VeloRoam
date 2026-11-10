@@ -1,0 +1,38 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T19:48:09.279Z",
+  "tile": {
+    "z": 13,
+    "x": 6727,
+    "y": 3110
+  },
+  "segments": [
+    {
+      "id": "25252799",
+      "tileScore": 12,
+      "name": "六石路下坡中混入了一些起伏路",
+      "distanceM": 2086.199951171875,
+      "avgGrade": 0.34512510895729065,
+      "startLat": 39.68321990966797,
+      "startLng": 115.64310455322266
+    },
+    {
+      "id": "18785068",
+      "tileScore": 11,
+      "name": "六十红井一疗程",
+      "distanceM": 55250.5,
+      "avgGrade": 0.15456873178482056,
+      "startLat": 39.638362884521484,
+      "startLng": 115.62660217285156
+    },
+    {
+      "id": "12012968",
+      "tileScore": 48,
+      "name": "Sportive Second Climb",
+      "distanceM": 19612,
+      "avgGrade": 3.882316827774048,
+      "startLat": 39.64317321777344,
+      "startLng": 115.62580108642578
+    }
+  ]
+}

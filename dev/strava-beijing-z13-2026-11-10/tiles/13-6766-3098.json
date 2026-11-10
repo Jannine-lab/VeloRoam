@@ -1,0 +1,20 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T19:53:01.728Z",
+  "tile": {
+    "z": 13,
+    "x": 6766,
+    "y": 3098
+  },
+  "segments": [
+    {
+      "id": "35900511",
+      "tileScore": 17,
+      "name": "大岭西沟爬坡",
+      "distanceM": 2250.39990234375,
+      "avgGrade": 7.53643798828125,
+      "startLat": 40.08894348144531,
+      "startLng": 117.36031341552734
+    }
+  ]
+}

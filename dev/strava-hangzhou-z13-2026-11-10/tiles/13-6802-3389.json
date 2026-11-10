@@ -1,0 +1,38 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T20:35:15.365Z",
+  "tile": {
+    "z": 13,
+    "x": 6802,
+    "y": 3389
+  },
+  "segments": [
+    {
+      "id": "13907039",
+      "tileScore": 45,
+      "name": "淳开线 陆家埠-牛思岭",
+      "distanceM": 5790.89990234375,
+      "avgGrade": 0.5992160439491272,
+      "startLat": 29.635555267333984,
+      "startLng": 118.96383666992188
+    },
+    {
+      "id": "10850833",
+      "tileScore": 6,
+      "name": "Xiao Jinshan Bridge (North-East Bound)",
+      "distanceM": 480.20001220703125,
+      "avgGrade": -3.706789016723633,
+      "startLat": 29.625444412231445,
+      "startLng": 118.93587493896484
+    },
+    {
+      "id": "4418811",
+      "tileScore": 49,
+      "name": "Chunkai Line Climb",
+      "distanceM": 502.6000061035156,
+      "avgGrade": 18.662952423095703,
+      "startLat": 29.63359260559082,
+      "startLng": 118.95691680908203
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T19:44:54.149Z",
+  "tile": {
+    "z": 13,
+    "x": 6748,
+    "y": 3089
+  },
+  "segments": [
+    {
+      "id": "8786200",
+      "tileScore": 38,
+      "name": "跃进桥-慕田峪环岛 Huaihuang RD",
+      "distanceM": 14857.099609375,
+      "avgGrade": 1.007599115371704,
+      "startLat": 40.33633041381836,
+      "startLng": 116.62022399902344
+    },
+    {
+      "id": "32607603",
+      "tileScore": 4,
+      "name": "Pikachu！",
+      "distanceM": 158177.40625,
+      "avgGrade": 0.022632816806435585,
+      "startLat": 40.14248275756836,
+      "startLng": 116.59239959716797
+    },
+    {
+      "id": "31116368",
+      "tileScore": 16,
+      "name": "驼岭一路干到怀黄路Wahoo！",
+      "distanceM": 33033.69921875,
+      "avgGrade": -0.9941362738609314,
+      "startLat": 40.405067443847656,
+      "startLng": 116.39430236816406
+    },
+    {
+      "id": "5596680",
+      "tileScore": 5,
+      "name": "County Road Climb",
+      "distanceM": 1092.699951171875,
+      "avgGrade": 13.974557876586914,
+      "startLat": 40.39341354370117,
+      "startLng": 116.55750274658203
+    },
+    {
+      "id": "34384370",
+      "tileScore": 19,
+      "name": "灵慧寺爬坡（西三村口牌楼-灵慧寺停车场）",
+      "distanceM": 4176.39990234375,
+      "avgGrade": 2.480605125427246,
+      "startLat": 40.362823486328125,
+      "startLng": 116.5898208618164
+    }
+  ]
+}

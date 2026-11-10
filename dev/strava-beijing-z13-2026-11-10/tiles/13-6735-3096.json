@@ -1,0 +1,38 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T19:40:33.062Z",
+  "tile": {
+    "z": 13,
+    "x": 6735,
+    "y": 3096
+  },
+  "segments": [
+    {
+      "id": "40544716",
+      "tileScore": 10,
+      "name": "王峪村小爬坡",
+      "distanceM": 2175.300048828125,
+      "avgGrade": 3.870730400085449,
+      "startLat": 40.144832611083984,
+      "startLng": 116.0218505859375
+    },
+    {
+      "id": "40540842",
+      "tileScore": 4,
+      "name": "小水峪村爬坡",
+      "distanceM": 2637.5,
+      "avgGrade": 3.7611372470855713,
+      "startLat": 40.13603210449219,
+      "startLng": 115.99805450439453
+    },
+    {
+      "id": "40432981",
+      "tileScore": 3,
+      "name": "水涧climb",
+      "distanceM": 2079.39990234375,
+      "avgGrade": 5.443878173828125,
+      "startLat": 40.136043548583984,
+      "startLng": 115.9870376586914
+    }
+  ]
+}

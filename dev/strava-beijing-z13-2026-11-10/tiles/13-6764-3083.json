@@ -1,0 +1,38 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T20:02:08.169Z",
+  "tile": {
+    "z": 13,
+    "x": 6764,
+    "y": 3083
+  },
+  "segments": [
+    {
+      "id": "22287487",
+      "tileScore": 2,
+      "name": "塔溝 climb",
+      "distanceM": 6453.5,
+      "avgGrade": 3.732858180999756,
+      "startLat": 40.620609283447266,
+      "startLng": 117.25900268554688
+    },
+    {
+      "id": "30222836",
+      "tileScore": 3,
+      "name": "马太路 steep climb from bottom to last village",
+      "distanceM": 1164,
+      "avgGrade": 8.676976203918457,
+      "startLat": 40.59021759033203,
+      "startLng": 117.27310943603516
+    },
+    {
+      "id": "39052762",
+      "tileScore": 6,
+      "name": "马太路水泥路爬坡（小桥到垭口）",
+      "distanceM": 2042.300048828125,
+      "avgGrade": 7.481760501861572,
+      "startLat": 40.60409927368164,
+      "startLng": 117.2889633178711
+    }
+  ]
+}

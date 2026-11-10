@@ -1,0 +1,56 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T19:39:44.665Z",
+  "tile": {
+    "z": 13,
+    "x": 6745,
+    "y": 3114
+  },
+  "segments": [
+    {
+      "id": "38818620",
+      "tileScore": 3,
+      "name": "Last 1KM to launch",
+      "distanceM": 1182.0999755859375,
+      "avgGrade": -0.03383808210492134,
+      "startLat": 39.55447006225586,
+      "startLng": 116.42182922363281
+    },
+    {
+      "id": "41596519",
+      "tileScore": 4,
+      "name": "上班前的最后冲刺",
+      "distanceM": 1823.4000244140625,
+      "avgGrade": 0,
+      "startLat": 39.57318115234375,
+      "startLng": 116.45629119873047
+    },
+    {
+      "id": "41596505",
+      "tileScore": 3,
+      "name": "中央公园绕圈",
+      "distanceM": 2734.10009765625,
+      "avgGrade": 0.007315021473914385,
+      "startLat": 39.55201721191406,
+      "startLng": 116.45330810546875
+    },
+    {
+      "id": "40215199",
+      "tileScore": 3,
+      "name": "大礼路",
+      "distanceM": 9850.5,
+      "avgGrade": 0.012182123027741909,
+      "startLat": 39.560699462890625,
+      "startLng": 116.47944641113281
+    },
+    {
+      "id": "34786739",
+      "tileScore": 9,
+      "name": "永兴河北路到庞安路",
+      "distanceM": 8734.400390625,
+      "avgGrade": 0.04121633991599083,
+      "startLat": 39.53661346435547,
+      "startLng": 116.42156219482422
+    }
+  ]
+}

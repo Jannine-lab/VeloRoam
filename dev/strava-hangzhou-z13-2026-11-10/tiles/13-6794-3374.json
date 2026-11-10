@@ -1,0 +1,29 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T20:36:54.324Z",
+  "tile": {
+    "z": 13,
+    "x": 6794,
+    "y": 3374
+  },
+  "segments": [
+    {
+      "id": "27598349",
+      "tileScore": 7,
+      "name": "Short & Sharp 1",
+      "distanceM": 1591.4000244140625,
+      "avgGrade": 5.8187761306762695,
+      "startLat": 30.19955062866211,
+      "startLng": 118.59888458251953
+    },
+    {
+      "id": "39200785",
+      "tileScore": 5,
+      "name": "白沙路一直到板桥头的坡顶",
+      "distanceM": 15632.599609375,
+      "avgGrade": 1.6043397188186646,
+      "startLat": 30.2874755859375,
+      "startLng": 118.54690551757812
+    }
+  ]
+}

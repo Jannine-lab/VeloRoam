@@ -1,0 +1,29 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T20:16:34.148Z",
+  "tile": {
+    "z": 13,
+    "x": 6826,
+    "y": 3367
+  },
+  "segments": [
+    {
+      "id": "31953775",
+      "tileScore": 11,
+      "name": "湘溪ITT",
+      "distanceM": 7679.2001953125,
+      "avgGrade": -0.02604437991976738,
+      "startLat": 30.485532760620117,
+      "startLng": 119.95288848876953
+    },
+    {
+      "id": "41817973",
+      "tileScore": 4,
+      "name": "乌木桥水库climb",
+      "distanceM": 1527.199951171875,
+      "avgGrade": 4.321634292602539,
+      "startLat": 30.449840545654297,
+      "startLng": 120.02192687988281
+    }
+  ]
+}

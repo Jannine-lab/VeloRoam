@@ -1,0 +1,20 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T19:50:40.645Z",
+  "tile": {
+    "z": 13,
+    "x": 6758,
+    "y": 3089
+  },
+  "segments": [
+    {
+      "id": "40313284",
+      "tileScore": 3,
+      "name": "大水冲毁了通往达峪的桥",
+      "distanceM": 1752,
+      "avgGrade": 0.7191780805587769,
+      "startLat": 40.39885711669922,
+      "startLng": 116.9850845336914
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T20:27:25.334Z",
+  "tile": {
+    "z": 13,
+    "x": 6808,
+    "y": 3379
+  },
+  "segments": [
+    {
+      "id": "40876651",
+      "tileScore": 5,
+      "name": "油盐田gravel climb",
+      "distanceM": 2787.5,
+      "avgGrade": 5.926457405090332,
+      "startLat": 30.02217674255371,
+      "startLng": 119.21871185302734
+    },
+    {
+      "id": "40879596",
+      "tileScore": 7,
+      "name": "有趣的小瓜路",
+      "distanceM": 535.5999755859375,
+      "avgGrade": 7.505600929260254,
+      "startLat": 29.98930549621582,
+      "startLng": 119.19998931884766
+    },
+    {
+      "id": "37582324",
+      "tileScore": 1,
+      "name": "二联村【DQ】",
+      "distanceM": 3182.300048828125,
+      "avgGrade": -0.6724696159362793,
+      "startLat": 29.99779510498047,
+      "startLng": 119.20659637451172
+    },
+    {
+      "id": "19028352",
+      "tileScore": 5,
+      "name": "Chengdong Line Climb",
+      "distanceM": 3420.699951171875,
+      "avgGrade": 6.466512203216553,
+      "startLat": 30.006967544555664,
+      "startLng": 119.21056365966797
+    },
+    {
+      "id": "37080542",
+      "tileScore": 5,
+      "name": "🚴🏻来鸿亭⛰️",
+      "distanceM": 7151.7998046875,
+      "avgGrade": 4.868704319000244,
+      "startLat": 30.03668975830078,
+      "startLng": 119.19252014160156
+    }
+  ]
+}

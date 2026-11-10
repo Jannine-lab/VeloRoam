@@ -1,0 +1,200 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T19:35:52.627Z",
+  "tile": {
+    "z": 13,
+    "x": 6746,
+    "y": 3097
+  },
+  "segments": [
+    {
+      "id": "34338002",
+      "tileScore": 9,
+      "name": "Bridge 2 Bridge",
+      "distanceM": 568,
+      "avgGrade": 0.2816901206970215,
+      "startLat": 40.12189483642578,
+      "startLng": 116.46187591552734
+    },
+    {
+      "id": "9800258",
+      "tileScore": 11,
+      "name": "未来科技城北区绕圈",
+      "distanceM": 5434,
+      "avgGrade": 0.011041590012609959,
+      "startLat": 40.126678466796875,
+      "startLng": 116.46251678466797
+    },
+    {
+      "id": "10384709",
+      "tileScore": 3,
+      "name": "ShunyuRd-BeiqijiaBridge",
+      "distanceM": 2341.800048828125,
+      "avgGrade": -0.08540438860654831,
+      "startLat": 40.137054443359375,
+      "startLng": 116.49249267578125
+    },
+    {
+      "id": "36668466",
+      "tileScore": 8,
+      "name": "温榆河北岸-安立路到未来科学城",
+      "distanceM": 5952,
+      "avgGrade": 0,
+      "startLat": 40.152339935302734,
+      "startLng": 116.40753936767578
+    },
+    {
+      "id": "24414502",
+      "tileScore": 158,
+      "name": "未来科学城双桥绕圈",
+      "distanceM": 3121.89990234375,
+      "avgGrade": 0.05125083774328232,
+      "startLat": 40.117591857910156,
+      "startLng": 116.46190643310547
+    },
+    {
+      "id": "33971528",
+      "tileScore": 6,
+      "name": "小雨爆胎2+2路段",
+      "distanceM": 2906.89990234375,
+      "avgGrade": 0.1720045506954193,
+      "startLat": 40.11737060546875,
+      "startLng": 116.4616470336914
+    },
+    {
+      "id": "16268792",
+      "tileScore": 2,
+      "name": "Science park Full Loop ITT (New Road)",
+      "distanceM": 24602.30078125,
+      "avgGrade": -0.008942252956330776,
+      "startLat": 40.08061981201172,
+      "startLng": 116.507568359375
+    },
+    {
+      "id": "17254061",
+      "tileScore": 21,
+      "name": "Le Champs South Bound",
+      "distanceM": 5699.5,
+      "avgGrade": 0.04561803489923477,
+      "startLat": 40.150474548339844,
+      "startLng": 116.40785217285156
+    },
+    {
+      "id": "34696901",
+      "tileScore": 1,
+      "name": "环西拐弯带冲刺",
+      "distanceM": 515.7000122070312,
+      "avgGrade": -0.6592980623245239,
+      "startLat": 40.11885452270508,
+      "startLng": 116.46185302734375
+    },
+    {
+      "id": "28385411",
+      "tileScore": 3,
+      "name": "Science Park Loop (2018) SEMI SKIMMED",
+      "distanceM": 23349,
+      "avgGrade": 0.0055676898919045925,
+      "startLat": 40.08030700683594,
+      "startLng": 116.50840759277344
+    },
+    {
+      "id": "41227591",
+      "tileScore": 2,
+      "name": "下苑村-清河绿道（N-S）",
+      "distanceM": 18456.400390625,
+      "avgGrade": -0.12190892547369003,
+      "startLat": 40.230281829833984,
+      "startLng": 116.45222473144531
+    },
+    {
+      "id": "10384729",
+      "tileScore": 7,
+      "name": "Gaoliyngzhen Boulevard",
+      "distanceM": 2983.800048828125,
+      "avgGrade": -0.20778873562812805,
+      "startLat": 40.164573669433594,
+      "startLng": 116.49505615234375
+    },
+    {
+      "id": "30813354",
+      "tileScore": 6,
+      "name": "温榆河越野线路",
+      "distanceM": 384.8999938964844,
+      "avgGrade": 2.702000617980957,
+      "startLat": 40.110435485839844,
+      "startLng": 116.48529052734375
+    },
+    {
+      "id": "31781281",
+      "tileScore": 10,
+      "name": "Tianbei to Gaobai Rd",
+      "distanceM": 2296.39990234375,
+      "avgGrade": -0.06967427581548691,
+      "startLat": 40.11836242675781,
+      "startLng": 116.51725769042969
+    },
+    {
+      "id": "32212025",
+      "tileScore": 10,
+      "name": "鲁瞳东路",
+      "distanceM": 1223.5999755859375,
+      "avgGrade": -0.08172605186700821,
+      "startLat": 40.1093864440918,
+      "startLng": 116.47396087646484
+    },
+    {
+      "id": "38087178",
+      "tileScore": 5,
+      "name": "定泗路-未来科学城（S-N）",
+      "distanceM": 5565.10009765625,
+      "avgGrade": 0.048516646027565,
+      "startLat": 40.093666076660156,
+      "startLng": 116.47651672363281
+    },
+    {
+      "id": "8036161",
+      "tileScore": 15,
+      "name": "Head Down West to East between lights",
+      "distanceM": 2238.5,
+      "avgGrade": -0.22336386144161224,
+      "startLat": 40.136051177978516,
+      "startLng": 116.4930191040039
+    },
+    {
+      "id": "15437362",
+      "tileScore": 23,
+      "name": "Qinbei north",
+      "distanceM": 3283,
+      "avgGrade": 0,
+      "startLat": 40.13721466064453,
+      "startLng": 116.4628677368164
+    },
+    {
+      "id": "16418930",
+      "tileScore": 15,
+      "name": "未来科技城ITT",
+      "distanceM": 6876.5,
+      "avgGrade": -0.008725369349122047,
+      "startLat": 40.12141418457031,
+      "startLng": 116.4508056640625
+    },
+    {
+      "id": "9405385",
+      "tileScore": 29,
+      "name": "Science Park East Bridge (southbound)",
+      "distanceM": 749.9000244140625,
+      "avgGrade": -0.3200426697731018,
+      "startLat": 40.123985290527344,
+      "startLng": 116.47164154052734
+    },
+    {
+      "id": "16766287",
+      "tileScore": 11,
+      "name": "Gina T's Road",
+      "distanceM": 4836.7001953125,
+      "avgGrade": 0,
+      "startLat": 40.09458541870117,
+      "startLng": 116.48419189453125
+    }
+  ]
+}

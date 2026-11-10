@@ -1,0 +1,29 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T20:05:18.737Z",
+  "tile": {
+    "z": 13,
+    "x": 6766,
+    "y": 3081
+  },
+  "segments": [
+    {
+      "id": "5612620",
+      "tileScore": 38,
+      "name": "Country Road Climb",
+      "distanceM": 2379.89990234375,
+      "avgGrade": 3.479137659072876,
+      "startLat": 40.65363693237305,
+      "startLng": 117.34284973144531
+    },
+    {
+      "id": "33173319",
+      "tileScore": 3,
+      "name": "Serk NWC 2022 3laps",
+      "distanceM": 36997.5,
+      "avgGrade": 0.008649232797324657,
+      "startLat": 40.64820861816406,
+      "startLng": 117.33667755126953
+    }
+  ]
+}

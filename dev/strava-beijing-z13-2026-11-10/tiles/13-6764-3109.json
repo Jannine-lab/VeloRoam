@@ -1,0 +1,20 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T19:50:11.138Z",
+  "tile": {
+    "z": 13,
+    "x": 6764,
+    "y": 3109
+  },
+  "segments": [
+    {
+      "id": "34131339",
+      "tileScore": 26,
+      "name": "西外环（唐通公路-朝阳大道）",
+      "distanceM": 3819.800048828125,
+      "avgGrade": -0.07068432867527008,
+      "startLat": 39.72732925415039,
+      "startLng": 117.26611328125
+    }
+  ]
+}

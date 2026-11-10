@@ -1,0 +1,20 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T20:37:47.129Z",
+  "tile": {
+    "z": 13,
+    "x": 6807,
+    "y": 3399
+  },
+  "segments": [
+    {
+      "id": "16219021",
+      "tileScore": 9,
+      "name": "OLD VERSION - cheak point 1",
+      "distanceM": 10665.599609375,
+      "avgGrade": 0.573807418346405,
+      "startLat": 29.327539443969727,
+      "startLng": 119.17975616455078
+    }
+  ]
+}

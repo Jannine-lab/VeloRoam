@@ -1,0 +1,20 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T19:48:46.526Z",
+  "tile": {
+    "z": 13,
+    "x": 6759,
+    "y": 3090
+  },
+  "segments": [
+    {
+      "id": "36712324",
+      "tileScore": 8,
+      "name": "火郎峪隧道爬坡（西-东）",
+      "distanceM": 2317,
+      "avgGrade": 4.45403528213501,
+      "startLat": 40.35675048828125,
+      "startLng": 117.04413604736328
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T20:22:34.239Z",
+  "tile": {
+    "z": 13,
+    "x": 6824,
+    "y": 3385
+  },
+  "segments": [
+    {
+      "id": "38529203",
+      "tileScore": 5,
+      "name": "费家村climb",
+      "distanceM": 3556.60009765625,
+      "avgGrade": 5.204408645629883,
+      "startLat": 29.79108428955078,
+      "startLng": 119.91725158691406
+    }
+  ]
+}

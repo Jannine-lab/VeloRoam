@@ -1,0 +1,29 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T19:45:31.037Z",
+  "tile": {
+    "z": 13,
+    "x": 6761,
+    "y": 3108
+  },
+  "segments": [
+    {
+      "id": "34118311",
+      "tileScore": 5,
+      "name": "唐通线渠口段W-E",
+      "distanceM": 9742.2001953125,
+      "avgGrade": -0.011291083879768848,
+      "startLat": 39.765079498291016,
+      "startLng": 117.07121276855469
+    },
+    {
+      "id": "22448360",
+      "tileScore": 2,
+      "name": "Teapot's Showtime",
+      "distanceM": 63057.6015625,
+      "avgGrade": 0.021250411868095398,
+      "startLat": 39.869224548339844,
+      "startLng": 116.87718200683594
+    }
+  ]
+}

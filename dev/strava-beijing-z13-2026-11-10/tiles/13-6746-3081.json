@@ -1,0 +1,56 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T19:54:46.865Z",
+  "tile": {
+    "z": 13,
+    "x": 6746,
+    "y": 3081
+  },
+  "segments": [
+    {
+      "id": "2380844",
+      "tileScore": 72,
+      "name": "County Rd Climb",
+      "distanceM": 4490,
+      "avgGrade": 5.300668239593506,
+      "startLat": 40.63927459716797,
+      "startLng": 116.49669647216797
+    },
+    {
+      "id": "21566621",
+      "tileScore": 194,
+      "name": "正确的仓米古道爬坡赛段",
+      "distanceM": 7338.7001953125,
+      "avgGrade": 4.8155670166015625,
+      "startLat": 40.683616638183594,
+      "startLng": 116.4623031616211
+    },
+    {
+      "id": "35332155",
+      "tileScore": 16,
+      "name": "百里画廊（茂陵至四海顶）",
+      "distanceM": 149721.90625,
+      "avgGrade": 0.4735445976257324,
+      "startLat": 40.31157302856445,
+      "startLng": 116.22599029541016
+    },
+    {
+      "id": "19049814",
+      "tileScore": 6,
+      "name": "Sishi hwy sprint climb north",
+      "distanceM": 675.5999755859375,
+      "avgGrade": 3.345174789428711,
+      "startLat": 40.66941833496094,
+      "startLng": 116.47929382324219
+    },
+    {
+      "id": "38848179",
+      "tileScore": 23,
+      "name": "海培再不练看看你还能陪的了谁",
+      "distanceM": 1084.800048828125,
+      "avgGrade": 6.323746681213379,
+      "startLat": 40.66374969482422,
+      "startLng": 116.48346710205078
+    }
+  ]
+}

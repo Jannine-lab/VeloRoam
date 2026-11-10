@@ -1,0 +1,20 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T20:30:51.692Z",
+  "tile": {
+    "z": 13,
+    "x": 6842,
+    "y": 3396
+  },
+  "segments": [
+    {
+      "id": "39340780",
+      "tileScore": 7,
+      "name": "奖山—小岭头 建了民宿",
+      "distanceM": 10081.5,
+      "avgGrade": 4.239448547363281,
+      "startLat": 29.38187599182129,
+      "startLng": 120.67449188232422
+    }
+  ]
+}

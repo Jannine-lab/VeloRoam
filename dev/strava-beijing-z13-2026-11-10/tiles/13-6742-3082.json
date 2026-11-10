@@ -1,0 +1,20 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T19:51:43.063Z",
+  "tile": {
+    "z": 13,
+    "x": 6742,
+    "y": 3082
+  },
+  "segments": [
+    {
+      "id": "40244048",
+      "tileScore": 3,
+      "name": "石槽村climb",
+      "distanceM": 6339.2998046875,
+      "avgGrade": 4.303314208984375,
+      "startLat": 40.66260528564453,
+      "startLng": 116.29991149902344
+    }
+  ]
+}

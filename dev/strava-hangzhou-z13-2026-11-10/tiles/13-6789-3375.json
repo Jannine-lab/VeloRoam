@@ -1,0 +1,20 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T20:40:17.771Z",
+  "tile": {
+    "z": 13,
+    "x": 6789,
+    "y": 3375
+  },
+  "segments": [
+    {
+      "id": "38960917",
+      "tileScore": 5,
+      "name": "高甲滑翔伞基地",
+      "distanceM": 3028.300048828125,
+      "avgGrade": 13.489416122436523,
+      "startLat": 30.164228439331055,
+      "startLng": 118.36373138427734
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T20:01:02.473Z",
+  "tile": {
+    "z": 13,
+    "x": 6738,
+    "y": 3076
+  },
+  "segments": [
+    {
+      "id": "32427486",
+      "tileScore": 5,
+      "name": "Y076 eastbound climb",
+      "distanceM": 6702.2001953125,
+      "avgGrade": 3.950941562652588,
+      "startLat": 40.83867645263672,
+      "startLng": 116.06614685058594
+    }
+  ]
+}

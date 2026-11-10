@@ -1,0 +1,65 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T19:50:43.123Z",
+  "tile": {
+    "z": 13,
+    "x": 6761,
+    "y": 3090
+  },
+  "segments": [
+    {
+      "id": "10851084",
+      "tileScore": 32,
+      "name": "X007 to the Teapot",
+      "distanceM": 15493.5,
+      "avgGrade": 4.6135478019714355,
+      "startLat": 40.34272766113281,
+      "startLng": 117.14065551757812
+    },
+    {
+      "id": "33134168",
+      "tileScore": 15,
+      "name": "快到啦",
+      "distanceM": 2103.699951171875,
+      "avgGrade": -1.540143609046936,
+      "startLat": 40.35342025756836,
+      "startLng": 117.17769622802734
+    },
+    {
+      "id": "39163900",
+      "tileScore": 9,
+      "name": "镇罗营-密兴路（S-N）",
+      "distanceM": 11868.400390625,
+      "avgGrade": 0.20306022465229034,
+      "startLat": 40.342437744140625,
+      "startLng": 117.13543701171875
+    },
+    {
+      "id": "1330651",
+      "tileScore": 15,
+      "name": "Provincial Rd Climb",
+      "distanceM": 3485.2099609375,
+      "avgGrade": 5.629518985748291,
+      "startLat": 40.34519958496094,
+      "startLng": 117.13497924804688
+    },
+    {
+      "id": "18420091",
+      "tileScore": 19,
+      "name": "平谷绕圈一疗程",
+      "distanceM": 69596.6015625,
+      "avgGrade": -0.04741610959172249,
+      "startLat": 40.24191665649414,
+      "startLng": 117.20172119140625
+    },
+    {
+      "id": "36900128",
+      "tileScore": 13,
+      "name": "平程路（张家台）",
+      "distanceM": 5029.10009765625,
+      "avgGrade": 4.0802531242370605,
+      "startLat": 40.40834045410156,
+      "startLng": 117.1396713256836
+    }
+  ]
+}

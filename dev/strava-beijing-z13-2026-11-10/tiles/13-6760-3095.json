@@ -1,0 +1,29 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T19:47:45.592Z",
+  "tile": {
+    "z": 13,
+    "x": 6760,
+    "y": 3095
+  },
+  "segments": [
+    {
+      "id": "30291045",
+      "tileScore": 8,
+      "name": "昌金路起伏 (平程路口-丁山路口）",
+      "distanceM": 18373.900390625,
+      "avgGrade": 0.04898252710700035,
+      "startLat": 40.189537048339844,
+      "startLng": 117.10107421875
+    },
+    {
+      "id": "37458174",
+      "tileScore": 19,
+      "name": "太后缓下",
+      "distanceM": 2914,
+      "avgGrade": -1.9698009490966797,
+      "startLat": 40.21834945678711,
+      "startLng": 117.11238098144531
+    }
+  ]
+}

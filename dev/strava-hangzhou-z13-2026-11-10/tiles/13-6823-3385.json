@@ -1,0 +1,29 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T20:22:58.132Z",
+  "tile": {
+    "z": 13,
+    "x": 6823,
+    "y": 3385
+  },
+  "segments": [
+    {
+      "id": "38529196",
+      "tileScore": 5,
+      "name": "菩提坞水库climb",
+      "distanceM": 824.2999877929688,
+      "avgGrade": -3.166322708129883,
+      "startLat": 29.789268493652344,
+      "startLng": 119.87327575683594
+    },
+    {
+      "id": "40656471",
+      "tileScore": 2,
+      "name": "牛峰岭古道穿越down",
+      "distanceM": 2650.89990234375,
+      "avgGrade": -13.851899147033691,
+      "startLat": 29.80767059326172,
+      "startLng": 119.877685546875
+    }
+  ]
+}

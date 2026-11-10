@@ -1,0 +1,110 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T20:18:26.811Z",
+  "tile": {
+    "z": 13,
+    "x": 6820,
+    "y": 3369
+  },
+  "segments": [
+    {
+      "id": "5028978",
+      "tileScore": 5,
+      "name": "Wanxue Line Climb",
+      "distanceM": 485.70001220703125,
+      "avgGrade": 18.859376907348633,
+      "startLat": 30.408050537109375,
+      "startLng": 119.73128509521484
+    },
+    {
+      "id": "33282223",
+      "tileScore": 5,
+      "name": "杭州白水涧冲刺",
+      "distanceM": 529.5,
+      "avgGrade": 4.683663845062256,
+      "startLat": 30.374704360961914,
+      "startLng": 119.7216567993164
+    },
+    {
+      "id": "12518471",
+      "tileScore": 1008,
+      "name": "大麓寺爬坡",
+      "distanceM": 7310.2001953125,
+      "avgGrade": 6.166726112365723,
+      "startLat": 30.421682357788086,
+      "startLng": 119.7377700805664
+    },
+    {
+      "id": "31789202",
+      "tileScore": 7,
+      "name": "白水涧",
+      "distanceM": 6158.2998046875,
+      "avgGrade": 1.7082637548446655,
+      "startLat": 30.33900260925293,
+      "startLng": 119.75088500976562
+    },
+    {
+      "id": "38159445",
+      "tileScore": 1,
+      "name": "都是好路",
+      "distanceM": 1109.300048828125,
+      "avgGrade": -12.494365692138672,
+      "startLat": 30.40027618408203,
+      "startLng": 119.75220489501953
+    },
+    {
+      "id": "38159452",
+      "tileScore": 2,
+      "name": "路好，不陡",
+      "distanceM": 618.9000244140625,
+      "avgGrade": 9.177573204040527,
+      "startLat": 30.407228469848633,
+      "startLng": 119.74893188476562
+    },
+    {
+      "id": "21522436",
+      "tileScore": 10,
+      "name": "cd-Bonus of final peak climb of Dalushi",
+      "distanceM": 1013,
+      "avgGrade": 12.971372604370117,
+      "startLat": 30.410669326782227,
+      "startLng": 119.71257019042969
+    },
+    {
+      "id": "31980012",
+      "tileScore": 31,
+      "name": "大麓寺后段爬坡",
+      "distanceM": 1984.5999755859375,
+      "avgGrade": 6.338808536529541,
+      "startLat": 30.416799545288086,
+      "startLng": 119.72135162353516
+    },
+    {
+      "id": "21512971",
+      "tileScore": 28,
+      "name": "Langtangwu",
+      "distanceM": 2343.699951171875,
+      "avgGrade": 4.966506004333496,
+      "startLat": 30.413969039916992,
+      "startLng": 119.73789978027344
+    },
+    {
+      "id": "41365921",
+      "tileScore": 29,
+      "name": "235-颅鸟-大麓寺",
+      "distanceM": 30575.599609375,
+      "avgGrade": 1.8740434646606445,
+      "startLat": 30.417753219604492,
+      "startLng": 119.89888763427734
+    },
+    {
+      "id": "35935001",
+      "tileScore": 79,
+      "name": "白水口爬坡",
+      "distanceM": 4581,
+      "avgGrade": 6.12093448638916,
+      "startLat": 30.372093200683594,
+      "startLng": 119.71331787109375
+    }
+  ]
+}

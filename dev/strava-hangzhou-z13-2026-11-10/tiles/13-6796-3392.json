@@ -1,0 +1,29 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T20:38:56.254Z",
+  "tile": {
+    "z": 13,
+    "x": 6796,
+    "y": 3392
+  },
+  "segments": [
+    {
+      "id": "39449419",
+      "tileScore": 193,
+      "name": "郑鸠线枫岭KOM👑！",
+      "distanceM": 14283.5,
+      "avgGrade": 1.4856302738189697,
+      "startLat": 29.48705291748047,
+      "startLng": 118.68869018554688
+    },
+    {
+      "id": "36668425",
+      "tileScore": 56,
+      "name": "0.3 550m 7.3%",
+      "distanceM": 549.7999877929688,
+      "avgGrade": 7.3481268882751465,
+      "startLat": 29.525205612182617,
+      "startLng": 118.68172454833984
+    }
+  ]
+}

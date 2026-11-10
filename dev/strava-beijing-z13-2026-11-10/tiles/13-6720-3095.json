@@ -1,0 +1,20 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T19:56:52.278Z",
+  "tile": {
+    "z": 13,
+    "x": 6720,
+    "y": 3095
+  },
+  "segments": [
+    {
+      "id": "42036563",
+      "tileScore": 2,
+      "name": "浩然&Shirley进击狼窝村",
+      "distanceM": 3707.89990234375,
+      "avgGrade": 5.151163578033447,
+      "startLat": 40.20884323120117,
+      "startLng": 115.35873413085938
+    }
+  ]
+}

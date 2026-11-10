@@ -1,0 +1,20 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T19:45:40.908Z",
+  "tile": {
+    "z": 13,
+    "x": 6760,
+    "y": 3098
+  },
+  "segments": [
+    {
+      "id": "42121706",
+      "tileScore": 2,
+      "name": "朱大路itt 东向西",
+      "distanceM": 7804.7998046875,
+      "avgGrade": 0.4817548096179962,
+      "startLat": 40.10831069946289,
+      "startLng": 117.17328643798828
+    }
+  ]
+}

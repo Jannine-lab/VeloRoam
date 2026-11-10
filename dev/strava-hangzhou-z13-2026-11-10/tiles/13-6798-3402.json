@@ -1,0 +1,20 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T20:41:23.348Z",
+  "tile": {
+    "z": 13,
+    "x": 6798,
+    "y": 3402
+  },
+  "segments": [
+    {
+      "id": "38301875",
+      "tileScore": 4,
+      "name": "寺桥—七里",
+      "distanceM": 10447.2998046875,
+      "avgGrade": 3.6392178535461426,
+      "startLat": 29.08272933959961,
+      "startLng": 118.76045989990234
+    }
+  ]
+}

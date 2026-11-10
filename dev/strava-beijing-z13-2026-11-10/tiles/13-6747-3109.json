@@ -1,0 +1,38 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T19:34:43.600Z",
+  "tile": {
+    "z": 13,
+    "x": 6747,
+    "y": 3109
+  },
+  "segments": [
+    {
+      "id": "36956030",
+      "tileScore": 10,
+      "name": "奔驰绕圈",
+      "distanceM": 6238.2001953125,
+      "avgGrade": 0.016030265018343925,
+      "startLat": 39.75385665893555,
+      "startLng": 116.51521301269531
+    },
+    {
+      "id": "16441076",
+      "tileScore": 2,
+      "name": "Boxing 3rd Bridge",
+      "distanceM": 611.7000122070312,
+      "avgGrade": 1.8636586666107178,
+      "startLat": 39.73378372192383,
+      "startLng": 116.5155029296875
+    },
+    {
+      "id": "25531705",
+      "tileScore": 2,
+      "name": "Mercedes Benz / BBAC MFA Sprint",
+      "distanceM": 1942.699951171875,
+      "avgGrade": -0.23678384721279144,
+      "startLat": 39.7338752746582,
+      "startLng": 116.49597930908203
+    }
+  ]
+}

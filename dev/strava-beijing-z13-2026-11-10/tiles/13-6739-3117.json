@@ -1,0 +1,20 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T19:42:56.899Z",
+  "tile": {
+    "z": 13,
+    "x": 6739,
+    "y": 3117
+  },
+  "segments": [
+    {
+      "id": "34538586",
+      "tileScore": 7,
+      "name": "廊涿 ITT 计时赛段",
+      "distanceM": 8808.2001953125,
+      "avgGrade": 0.01589428074657917,
+      "startLat": 39.463260650634766,
+      "startLng": 116.19967651367188
+    }
+  ]
+}

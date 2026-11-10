@@ -1,0 +1,20 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T20:31:32.013Z",
+  "tile": {
+    "z": 13,
+    "x": 6840,
+    "y": 3398
+  },
+  "segments": [
+    {
+      "id": "33777397",
+      "tileScore": 9,
+      "name": "佐桥线 ↘ 厦城 ",
+      "distanceM": 1755.4000244140625,
+      "avgGrade": -3.452204465866089,
+      "startLat": 29.298757553100586,
+      "startLng": 120.588623046875
+    }
+  ]
+}

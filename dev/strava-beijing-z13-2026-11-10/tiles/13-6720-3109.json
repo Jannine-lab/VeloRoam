@@ -1,0 +1,20 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T19:55:23.338Z",
+  "tile": {
+    "z": 13,
+    "x": 6720,
+    "y": 3109
+  },
+  "segments": [
+    {
+      "id": "24224875",
+      "tileScore": 17,
+      "name": "东大岭爬坡计时赛段",
+      "distanceM": 4854.89990234375,
+      "avgGrade": 4.622134208679199,
+      "startLat": 39.71711730957031,
+      "startLng": 115.35480499267578
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T20:34:45.355Z",
+  "tile": {
+    "z": 13,
+    "x": 6798,
+    "y": 3365
+  },
+  "segments": [
+    {
+      "id": "32823255",
+      "tileScore": 43,
+      "name": "皖南川藏线-全段LSD(宁国青龙乡到蔡村镇）",
+      "distanceM": 128064.6015625,
+      "avgGrade": 0.007808559108525515,
+      "startLat": 30.63506507873535,
+      "startLng": 118.9490737915039
+    },
+    {
+      "id": "15726105",
+      "tileScore": 4,
+      "name": "final 11K of Ningguo GF 2017",
+      "distanceM": 11032.7998046875,
+      "avgGrade": 0.05166412889957428,
+      "startLat": 30.537540435791016,
+      "startLng": 118.79520416259766
+    }
+  ]
+}

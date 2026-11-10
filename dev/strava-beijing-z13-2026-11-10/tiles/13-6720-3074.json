@@ -1,0 +1,20 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T20:09:55.213Z",
+  "tile": {
+    "z": 13,
+    "x": 6720,
+    "y": 3074
+  },
+  "segments": [
+    {
+      "id": "41857591",
+      "tileScore": 27,
+      "name": "加油站到多乐美地",
+      "distanceM": 7139.10009765625,
+      "avgGrade": 3.081620931625366,
+      "startLat": 40.90715789794922,
+      "startLng": 115.33306121826172
+    }
+  ]
+}

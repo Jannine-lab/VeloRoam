@@ -1,0 +1,38 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T20:12:27.233Z",
+  "tile": {
+    "z": 13,
+    "x": 6722,
+    "y": 3067
+  },
+  "segments": [
+    {
+      "id": "35568915",
+      "tileScore": 22,
+      "name": "崇礼桦皮岭绝佳风景up",
+      "distanceM": 36694.8984375,
+      "avgGrade": 1.613848328590393,
+      "startLat": 40.982913970947266,
+      "startLng": 115.2889175415039
+    },
+    {
+      "id": "25809441",
+      "tileScore": 3,
+      "name": "白菜田climb",
+      "distanceM": 16672.69921875,
+      "avgGrade": 2.3475501537323,
+      "startLat": 41.12149429321289,
+      "startLng": 115.39710235595703
+    },
+    {
+      "id": "25799405",
+      "tileScore": 9,
+      "name": "骑士之巅 stage 2 草原天路",
+      "distanceM": 88261,
+      "avgGrade": 0.09811808168888092,
+      "startLat": 40.977210998535156,
+      "startLng": 115.28495788574219
+    }
+  ]
+}

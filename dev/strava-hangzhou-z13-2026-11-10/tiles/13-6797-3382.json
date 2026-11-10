@@ -1,0 +1,20 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T20:36:31.997Z",
+  "tile": {
+    "z": 13,
+    "x": 6797,
+    "y": 3382
+  },
+  "segments": [
+    {
+      "id": "21837497",
+      "tileScore": 2,
+      "name": "Concrete Climb to Weiping",
+      "distanceM": 9246.2998046875,
+      "avgGrade": 3.173161268234253,
+      "startLat": 29.886005401611328,
+      "startLng": 118.73822021484375
+    }
+  ]
+}

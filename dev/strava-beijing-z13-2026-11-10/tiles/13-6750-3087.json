@@ -1,0 +1,47 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T19:47:57.921Z",
+  "tile": {
+    "z": 13,
+    "x": 6750,
+    "y": 3087
+  },
+  "segments": [
+    {
+      "id": "13283229",
+      "tileScore": 8,
+      "name": "Woo hoo!",
+      "distanceM": 3608.10009765625,
+      "avgGrade": -3.918959856033325,
+      "startLat": 40.46061325073242,
+      "startLng": 116.65384674072266
+    },
+    {
+      "id": "35950086",
+      "tileScore": 11,
+      "name": "分水岭爬坡全程",
+      "distanceM": 18150,
+      "avgGrade": 2.941046953201294,
+      "startLat": 40.412353515625,
+      "startLng": 116.67535400390625
+    },
+    {
+      "id": "37952055",
+      "tileScore": 5,
+      "name": "绕开河防口隧道climb",
+      "distanceM": 545,
+      "avgGrade": 5.9449543952941895,
+      "startLat": 40.46125030517578,
+      "startLng": 116.65515899658203
+    },
+    {
+      "id": "25652962",
+      "tileScore": 5,
+      "name": "G111 climb N-S",
+      "distanceM": 1278.300048828125,
+      "avgGrade": 3.176093101501465,
+      "startLat": 40.479576110839844,
+      "startLng": 116.65690612792969
+    }
+  ]
+}

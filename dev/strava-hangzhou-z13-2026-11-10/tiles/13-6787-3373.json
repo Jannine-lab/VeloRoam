@@ -1,0 +1,20 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T20:41:20.871Z",
+  "tile": {
+    "z": 13,
+    "x": 6787,
+    "y": 3373
+  },
+  "segments": [
+    {
+      "id": "41286266",
+      "tileScore": 8,
+      "name": "cd-Y007西往东绝美路线",
+      "distanceM": 21333,
+      "avgGrade": 0.48469504714012146,
+      "startLat": 30.29364776611328,
+      "startLng": 118.24443817138672
+    }
+  ]
+}

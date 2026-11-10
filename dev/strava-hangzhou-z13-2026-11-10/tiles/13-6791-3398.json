@@ -1,0 +1,20 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T20:42:43.398Z",
+  "tile": {
+    "z": 13,
+    "x": 6791,
+    "y": 3398
+  },
+  "segments": [
+    {
+      "id": "38653292",
+      "tileScore": 1,
+      "name": "2025环浙步道-开化站 未修改版本",
+      "distanceM": 119608,
+      "avgGrade": 0,
+      "startLat": 29.145221710205078,
+      "startLng": 118.3876724243164
+    }
+  ]
+}

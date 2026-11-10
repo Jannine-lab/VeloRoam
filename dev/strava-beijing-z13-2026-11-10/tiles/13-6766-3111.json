@@ -1,0 +1,20 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T19:53:35.645Z",
+  "tile": {
+    "z": 13,
+    "x": 6766,
+    "y": 3111
+  },
+  "segments": [
+    {
+      "id": "14502079",
+      "tileScore": 6,
+      "name": "S370-S304",
+      "distanceM": 7733.10009765625,
+      "avgGrade": -0.17586737871170044,
+      "startLat": 39.66361999511719,
+      "startLng": 117.33258056640625
+    }
+  ]
+}

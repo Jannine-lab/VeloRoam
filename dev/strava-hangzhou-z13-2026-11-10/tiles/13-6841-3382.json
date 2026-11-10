@@ -1,0 +1,92 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T20:22:14.507Z",
+  "tile": {
+    "z": 13,
+    "x": 6841,
+    "y": 3382
+  },
+  "segments": [
+    {
+      "id": "4808673",
+      "tileScore": 62,
+      "name": "Pingwang Line Climb",
+      "distanceM": 2135,
+      "avgGrade": 6.196721076965332,
+      "startLat": 29.891756057739258,
+      "startLng": 120.63299560546875
+    },
+    {
+      "id": "37533349",
+      "tileScore": 135,
+      "name": "欢迎来到<<新平王>>",
+      "distanceM": 1850.699951171875,
+      "avgGrade": 0.7888906598091125,
+      "startLat": 29.905759811401367,
+      "startLng": 120.63712310791016
+    },
+    {
+      "id": "28052979",
+      "tileScore": 32,
+      "name": "平水—越城",
+      "distanceM": 7614.2998046875,
+      "avgGrade": -0.08667901158332825,
+      "startLat": 29.90671730041504,
+      "startLng": 120.63668060302734
+    },
+    {
+      "id": "26728486",
+      "tileScore": 129,
+      "name": "新平王climb（隧道后）",
+      "distanceM": 2000.0999755859375,
+      "avgGrade": 4.234788417816162,
+      "startLat": 29.88697052001953,
+      "startLng": 120.67886352539062
+    },
+    {
+      "id": "32069365",
+      "tileScore": 125,
+      "name": "到富盛前的西上线爬坡",
+      "distanceM": 1714.300048828125,
+      "avgGrade": 2.6249780654907227,
+      "startLat": 29.913358688354492,
+      "startLng": 120.66442108154297
+    },
+    {
+      "id": "5879650",
+      "tileScore": 385,
+      "name": "ShaoXing Big Hill (all of it)",
+      "distanceM": 4759.5,
+      "avgGrade": 4.899674415588379,
+      "startLat": 29.892183303833008,
+      "startLng": 120.63600158691406
+    },
+    {
+      "id": "4808676",
+      "tileScore": 85,
+      "name": "Pingwang Line Climb",
+      "distanceM": 642.5999755859375,
+      "avgGrade": 13.352007865905762,
+      "startLat": 29.894826889038086,
+      "startLng": 120.65646362304688
+    },
+    {
+      "id": "41423343",
+      "tileScore": 316,
+      "name": "2026最美平王线自行车爬坡赛",
+      "distanceM": 39860.8984375,
+      "avgGrade": 1.125915288925171,
+      "startLat": 29.89307403564453,
+      "startLng": 120.64781188964844
+    },
+    {
+      "id": "26728077",
+      "tileScore": 1177,
+      "name": "新平王climb（隧道前）",
+      "distanceM": 2126.800048828125,
+      "avgGrade": 5.397780418395996,
+      "startLat": 29.9070987701416,
+      "startLng": 120.65487670898438
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T19:49:03.840Z",
+  "tile": {
+    "z": 13,
+    "x": 6724,
+    "y": 3104
+  },
+  "segments": [
+    {
+      "id": "42157523",
+      "tileScore": 4,
+      "name": "道沟村移步异景",
+      "distanceM": 4316.10009765625,
+      "avgGrade": 4.921109199523926,
+      "startLat": 39.889530181884766,
+      "startLng": 115.47715759277344
+    }
+  ]
+}

@@ -1,0 +1,65 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T20:26:07.943Z",
+  "tile": {
+    "z": 13,
+    "x": 6810,
+    "y": 3379
+  },
+  "segments": [
+    {
+      "id": "38081234",
+      "tileScore": 6,
+      "name": "后面瓜路通马山村【DQ】",
+      "distanceM": 1963.699951171875,
+      "avgGrade": 6.803483486175537,
+      "startLat": 29.997119903564453,
+      "startLng": 119.29132843017578
+    },
+    {
+      "id": "38081248",
+      "tileScore": 3,
+      "name": "高联村to寺岭脚【DQ】",
+      "distanceM": 9894.2001953125,
+      "avgGrade": 5.199005603790283,
+      "startLat": 29.955703735351562,
+      "startLng": 119.33699035644531
+    },
+    {
+      "id": "38760545",
+      "tileScore": 5,
+      "name": "马瓜climb",
+      "distanceM": 1159.5999755859375,
+      "avgGrade": 5.864091396331787,
+      "startLat": 30.01310157775879,
+      "startLng": 119.29386901855469
+    },
+    {
+      "id": "19040163",
+      "tileScore": 1,
+      "name": "Yangshen Climb last 2K",
+      "distanceM": 2205.5,
+      "avgGrade": 5.558830261230469,
+      "startLat": 30.020919799804688,
+      "startLng": 119.32376861572266
+    },
+    {
+      "id": "42398667",
+      "tileScore": 1,
+      "name": "龙王塘-庵边gravel descent",
+      "distanceM": 3256.89990234375,
+      "avgGrade": -8.848905563354492,
+      "startLat": 30.02214813232422,
+      "startLng": 119.29255676269531
+    },
+    {
+      "id": "38760552",
+      "tileScore": 4,
+      "name": "马山to寺领脚",
+      "distanceM": 1172.5,
+      "avgGrade": -9.756929397583008,
+      "startLat": 30.01174545288086,
+      "startLng": 119.29329681396484
+    }
+  ]
+}

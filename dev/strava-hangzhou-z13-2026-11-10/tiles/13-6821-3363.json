@@ -1,0 +1,83 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T20:20:50.885Z",
+  "tile": {
+    "z": 13,
+    "x": 6821,
+    "y": 3363
+  },
+  "segments": [
+    {
+      "id": "18701072",
+      "tileScore": 19,
+      "name": "莫干山前坡",
+      "distanceM": 1772.9000244140625,
+      "avgGrade": 8.314062118530273,
+      "startLat": 30.628799438476562,
+      "startLng": 119.7873306274414
+    },
+    {
+      "id": "9549607",
+      "tileScore": 71,
+      "name": "ChangLong Short segment climb",
+      "distanceM": 2397.699951171875,
+      "avgGrade": 4.754556179046631,
+      "startLat": 30.59577751159668,
+      "startLng": 119.75936889648438
+    },
+    {
+      "id": "9623213",
+      "tileScore": 5,
+      "name": "Difa Line (South-East Bound)",
+      "distanceM": 22451,
+      "avgGrade": 0.09531869739294052,
+      "startLat": 30.620582580566406,
+      "startLng": 119.71905517578125
+    },
+    {
+      "id": "18709176",
+      "tileScore": 127,
+      "name": "高坞岭反坡",
+      "distanceM": 1490.300048828125,
+      "avgGrade": 4.670200347900391,
+      "startLat": 30.614107131958008,
+      "startLng": 119.76940155029297
+    },
+    {
+      "id": "854333",
+      "tileScore": 108,
+      "name": "递筏线 Climb",
+      "distanceM": 5251.39013671875,
+      "avgGrade": 5.49186897277832,
+      "startLat": 30.602567672729492,
+      "startLng": 119.74630737304688
+    },
+    {
+      "id": "35451772",
+      "tileScore": 24,
+      "name": "环莫干山",
+      "distanceM": 94126.8984375,
+      "avgGrade": 0.003612144850194454,
+      "startLat": 30.55729866027832,
+      "startLng": 119.84944915771484
+    },
+    {
+      "id": "1367241",
+      "tileScore": 34,
+      "name": "递筏线 Climb",
+      "distanceM": 658.5050048828125,
+      "avgGrade": 12.892939567565918,
+      "startLat": 30.600374221801758,
+      "startLng": 119.75416564941406
+    },
+    {
+      "id": "38745863",
+      "tileScore": 61,
+      "name": "White Towel",
+      "distanceM": 6003.60009765625,
+      "avgGrade": 3.111466407775879,
+      "startLat": 30.584861755371094,
+      "startLng": 119.7961654663086
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T19:58:59.265Z",
+  "tile": {
+    "z": 13,
+    "x": 6719,
+    "y": 3110
+  },
+  "segments": [
+    {
+      "id": "27858696",
+      "tileScore": 3,
+      "name": "G108一间房正爬（路口-隧道口）",
+      "distanceM": 1127,
+      "avgGrade": 8.562555313110352,
+      "startLat": 39.68711853027344,
+      "startLng": 115.3086166381836
+    },
+    {
+      "id": "24224686",
+      "tileScore": 3,
+      "name": "野三坡正爬battle赛段-第三坡爬坡",
+      "distanceM": 1268.699951171875,
+      "avgGrade": 2.8533143997192383,
+      "startLat": 39.68841552734375,
+      "startLng": 115.30896759033203
+    },
+    {
+      "id": "24224639",
+      "tileScore": 1,
+      "name": "野三坡正爬battle赛段-第二坡爬坡",
+      "distanceM": 2465.5,
+      "avgGrade": 2.8229568004608154,
+      "startLat": 39.66691589355469,
+      "startLng": 115.29186248779297
+    }
+  ]
+}

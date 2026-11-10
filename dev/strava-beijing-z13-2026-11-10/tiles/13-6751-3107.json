@@ -1,0 +1,20 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T19:35:12.409Z",
+  "tile": {
+    "z": 13,
+    "x": 6751,
+    "y": 3107
+  },
+  "segments": [
+    {
+      "id": "37554306",
+      "tileScore": 8,
+      "name": "张采路北向南齐善庄到后街",
+      "distanceM": 6911.39990234375,
+      "avgGrade": -0.03472523391246796,
+      "startLat": 39.829219818115234,
+      "startLng": 116.69633483886719
+    }
+  ]
+}

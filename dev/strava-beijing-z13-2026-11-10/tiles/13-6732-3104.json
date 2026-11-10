@@ -1,0 +1,20 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T19:39:55.518Z",
+  "tile": {
+    "z": 13,
+    "x": 6732,
+    "y": 3104
+  },
+  "segments": [
+    {
+      "id": "37385501",
+      "tileScore": 8,
+      "name": "班陈路-北京环卫集团♻️经济园",
+      "distanceM": 8182.7998046875,
+      "avgGrade": 1.8306691646575928,
+      "startLat": 39.82765197753906,
+      "startLng": 115.89107513427734
+    }
+  ]
+}

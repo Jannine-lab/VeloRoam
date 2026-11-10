@@ -1,0 +1,29 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T20:36:29.525Z",
+  "tile": {
+    "z": 13,
+    "x": 6797,
+    "y": 3364
+  },
+  "segments": [
+    {
+      "id": "35911640",
+      "tileScore": 39,
+      "name": "盘岭 N2S",
+      "distanceM": 4647.7001953125,
+      "avgGrade": 3.950340986251831,
+      "startLat": 30.61324119567871,
+      "startLng": 118.72603607177734
+    },
+    {
+      "id": "34303418",
+      "tileScore": 25,
+      "name": "S207分水岭",
+      "distanceM": 2562.60009765625,
+      "avgGrade": 5.529540538787842,
+      "startLat": 30.559404373168945,
+      "startLng": 118.72042846679688
+    }
+  ]
+}

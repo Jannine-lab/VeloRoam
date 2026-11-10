@@ -1,0 +1,29 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T19:56:23.669Z",
+  "tile": {
+    "z": 13,
+    "x": 6762,
+    "y": 3087
+  },
+  "segments": [
+    {
+      "id": "35232473",
+      "tileScore": 5,
+      "name": "2023 BRM300 CP4",
+      "distanceM": 50172.69921875,
+      "avgGrade": -0.2495381087064743,
+      "startLat": 40.381126403808594,
+      "startLng": 117.14585876464844
+    },
+    {
+      "id": "42250105",
+      "tileScore": 2,
+      "name": "沙太路爬坡S1(北-南)",
+      "distanceM": 2199.89990234375,
+      "avgGrade": 5.06386661529541,
+      "startLat": 40.46845245361328,
+      "startLng": 117.17411041259766
+    }
+  ]
+}

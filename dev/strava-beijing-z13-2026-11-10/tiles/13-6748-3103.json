@@ -1,0 +1,191 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T19:34:26.355Z",
+  "tile": {
+    "z": 13,
+    "x": 6748,
+    "y": 3103
+  },
+  "segments": [
+    {
+      "id": "39759244",
+      "tileScore": 29,
+      "name": "青年路地铁-黄渠地铁",
+      "distanceM": 5201.10009765625,
+      "avgGrade": -0.10766952484846115,
+      "startLat": 39.92169952392578,
+      "startLng": 116.51229095458984
+    },
+    {
+      "id": "14780096",
+      "tileScore": 4,
+      "name": "常营-徐辛庄",
+      "distanceM": 12189.900390625,
+      "avgGrade": -0.04922107979655266,
+      "startLat": 39.92420959472656,
+      "startLng": 116.58627319335938
+    },
+    {
+      "id": "41829726",
+      "tileScore": 1,
+      "name": "798-二高",
+      "distanceM": 20552.69921875,
+      "avgGrade": -0.0778486579656601,
+      "startLat": 39.98301696777344,
+      "startLng": 116.48594665527344
+    },
+    {
+      "id": "35607244",
+      "tileScore": 3,
+      "name": "传媒北门骑向二外",
+      "distanceM": 598.2000122070312,
+      "avgGrade": -0.1337345391511917,
+      "startLat": 39.91463088989258,
+      "startLng": 116.54914093017578
+    },
+    {
+      "id": "18756756",
+      "tileScore": 3,
+      "name": "乡,,,,公交快速路带我回家~Take Me Home, Bus Road~",
+      "distanceM": 8776.2998046875,
+      "avgGrade": -0.11166436970233917,
+      "startLat": 39.91494369506836,
+      "startLng": 116.46460723876953
+    },
+    {
+      "id": "41850914",
+      "tileScore": 30,
+      "name": "Oasis从管庄路飞驰到金盏桥北掉头（修路后）",
+      "distanceM": 9499.2001953125,
+      "avgGrade": -0.027370726689696312,
+      "startLat": 39.93164825439453,
+      "startLng": 116.58389282226562
+    },
+    {
+      "id": "8961016",
+      "tileScore": 20,
+      "name": "ChaoYang Bei Bridge",
+      "distanceM": 1121.5999755859375,
+      "avgGrade": -0.10699000954627991,
+      "startLat": 39.922245025634766,
+      "startLng": 116.53162384033203
+    },
+    {
+      "id": "11416348",
+      "tileScore": 88,
+      "name": "Try not to get dropped here!",
+      "distanceM": 1941.699951171875,
+      "avgGrade": 0.06180151179432869,
+      "startLat": 39.94108200073242,
+      "startLng": 116.58099365234375
+    },
+    {
+      "id": "10439825",
+      "tileScore": 41,
+      "name": "S51 via to bahe crossing",
+      "distanceM": 1867.199951171875,
+      "avgGrade": -0.10711225867271423,
+      "startLat": 39.94265365600586,
+      "startLng": 116.58162689208984
+    },
+    {
+      "id": "32186399",
+      "tileScore": 2,
+      "name": "这个b班就上到这",
+      "distanceM": 12158.400390625,
+      "avgGrade": 0.07155546545982361,
+      "startLat": 39.92258071899414,
+      "startLng": 116.54744720458984
+    },
+    {
+      "id": "29375579",
+      "tileScore": 7,
+      "name": "Watch out the speed bump",
+      "distanceM": 1747.9000244140625,
+      "avgGrade": 0.057211510837078094,
+      "startLat": 39.93153381347656,
+      "startLng": 116.60531616210938
+    },
+    {
+      "id": "21511250",
+      "tileScore": 2,
+      "name": "Dr Phil's TTT, 4th Ring Road and return.",
+      "distanceM": 52287.80078125,
+      "avgGrade": -0.00688497070223093,
+      "startLat": 39.932437896728516,
+      "startLng": 116.48710632324219
+    },
+    {
+      "id": "31112710",
+      "tileScore": 12,
+      "name": "幺家店路E-W",
+      "distanceM": 3805.5,
+      "avgGrade": 0.09985547512769699,
+      "startLat": 39.931129455566406,
+      "startLng": 116.58325958251953
+    },
+    {
+      "id": "13674360",
+      "tileScore": 54,
+      "name": "G102 4th ring to Wenyu river",
+      "distanceM": 12670.2998046875,
+      "avgGrade": -0.09155268967151642,
+      "startLat": 39.92164993286133,
+      "startLng": 116.4916000366211
+    },
+    {
+      "id": "37975887",
+      "tileScore": 1,
+      "name": "OASIS定福庄小鲁贝路",
+      "distanceM": 923.9000244140625,
+      "avgGrade": 0.04329473152756691,
+      "startLat": 39.93090057373047,
+      "startLng": 116.55828094482422
+    },
+    {
+      "id": "35240933",
+      "tileScore": 1,
+      "name": "常营马拉松绕圈",
+      "distanceM": 5815,
+      "avgGrade": 0,
+      "startLat": 39.93107604980469,
+      "startLng": 116.57687377929688
+    },
+    {
+      "id": "39147907",
+      "tileScore": 5,
+      "name": "晓景文化园cross loop",
+      "distanceM": 880.5999755859375,
+      "avgGrade": -0.04542357474565506,
+      "startLat": 39.943058013916016,
+      "startLng": 116.5848617553711
+    },
+    {
+      "id": "32202471",
+      "tileScore": 29,
+      "name": "姚家园路ITT aka. Try not to get dropped plus",
+      "distanceM": 8329.599609375,
+      "avgGrade": 0.08163657039403915,
+      "startLat": 39.94015884399414,
+      "startLng": 116.58036804199219
+    },
+    {
+      "id": "19721521",
+      "tileScore": 5,
+      "name": "叠泉",
+      "distanceM": 5840.10009765625,
+      "avgGrade": 0,
+      "startLat": 39.9378662109375,
+      "startLng": 116.58457946777344
+    },
+    {
+      "id": "37639153",
+      "tileScore": 20,
+      "name": "OASIS从姚家园南路过桥到幺家店路",
+      "distanceM": 1060.199951171875,
+      "avgGrade": -0.07545746117830276,
+      "startLat": 39.92884826660156,
+      "startLng": 116.53193664550781
+    }
+  ]
+}

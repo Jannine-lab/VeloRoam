@@ -1,0 +1,83 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T19:52:30.815Z",
+  "tile": {
+    "z": 13,
+    "x": 6759,
+    "y": 3120
+  },
+  "segments": [
+    {
+      "id": "21231104",
+      "tileScore": 4,
+      "name": "terraplen sprint",
+      "distanceM": 1707.300048828125,
+      "avgGrade": -0.06442921608686447,
+      "startLat": 39.35197067260742,
+      "startLng": 117.01119995117188
+    },
+    {
+      "id": "17004040",
+      "tileScore": 1,
+      "name": "Into to Tianjin",
+      "distanceM": 7029.89990234375,
+      "avgGrade": -0.017069943249225616,
+      "startLat": 39.40118408203125,
+      "startLng": 117.07017517089844
+    },
+    {
+      "id": "9375966",
+      "tileScore": 2,
+      "name": "Scenic ride home",
+      "distanceM": 4578.60009765625,
+      "avgGrade": 0.0021840736735612154,
+      "startLat": 39.331111907958984,
+      "startLng": 117.05253601074219
+    },
+    {
+      "id": "36863316",
+      "tileScore": 19,
+      "name": "进津深槽崩一发",
+      "distanceM": 4208.2998046875,
+      "avgGrade": -0.03802010416984558,
+      "startLat": 39.352725982666016,
+      "startLng": 117.06744384765625
+    },
+    {
+      "id": "32911183",
+      "tileScore": 10,
+      "name": "Sendero temebroso",
+      "distanceM": 3116,
+      "avgGrade": -0.03209242597222328,
+      "startLat": 39.36996078491211,
+      "startLng": 117.01542663574219
+    },
+    {
+      "id": "25531435",
+      "tileScore": 43,
+      "name": "狂魔TTT土桥-天津北环",
+      "distanceM": 81881.296875,
+      "avgGrade": -0.013922592625021935,
+      "startLat": 39.86214065551758,
+      "startLng": 116.71361541748047
+    },
+    {
+      "id": "9700836",
+      "tileScore": 3,
+      "name": "Get out of town Qianjin",
+      "distanceM": 4088.300048828125,
+      "avgGrade": 0.024460043758153915,
+      "startLat": 39.35832977294922,
+      "startLng": 117.05059051513672
+    },
+    {
+      "id": "25603422",
+      "tileScore": 7,
+      "name": "京津公路桥一站河西务",
+      "distanceM": 45510.1015625,
+      "avgGrade": 0.007470868993550539,
+      "startLat": 39.24434280395508,
+      "startLng": 117.11282348632812
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T20:28:06.745Z",
+  "tile": {
+    "z": 13,
+    "x": 6807,
+    "y": 3376
+  },
+  "segments": [
+    {
+      "id": "34099482",
+      "tileScore": 5,
+      "name": "大坞里路口冲个小坡",
+      "distanceM": 719.5999755859375,
+      "avgGrade": 2.390216827392578,
+      "startLat": 30.11444091796875,
+      "startLng": 119.15345764160156
+    },
+    {
+      "id": "41681253",
+      "tileScore": 17,
+      "name": "河桥-蒲村(山和海)",
+      "distanceM": 16439.69921875,
+      "avgGrade": 0.4659452438354492,
+      "startLat": 30.104167938232422,
+      "startLng": 119.22815704345703
+    },
+    {
+      "id": "34394010",
+      "tileScore": 7,
+      "name": "Last climb to Changhua",
+      "distanceM": 5081.10009765625,
+      "avgGrade": 1.9405248165130615,
+      "startLat": 30.12050437927246,
+      "startLng": 119.18753051757812
+    }
+  ]
+}

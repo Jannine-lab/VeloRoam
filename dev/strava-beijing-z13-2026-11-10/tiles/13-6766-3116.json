@@ -1,0 +1,38 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T19:57:02.174Z",
+  "tile": {
+    "z": 13,
+    "x": 6766,
+    "y": 3116
+  },
+  "segments": [
+    {
+      "id": "13207576",
+      "tileScore": 5,
+      "name": "青龍灣左堤-1-2",
+      "distanceM": 8081.60009765625,
+      "avgGrade": 0,
+      "startLat": 39.47990036010742,
+      "startLng": 117.34176635742188
+    },
+    {
+      "id": "12578677",
+      "tileScore": 1,
+      "name": "青龍灣左堤-2",
+      "distanceM": 5450.7998046875,
+      "avgGrade": -0.011007558554410934,
+      "startLat": 39.51740646362305,
+      "startLng": 117.2947006225586
+    },
+    {
+      "id": "23119490",
+      "tileScore": 3,
+      "name": "BTAC Xianghe Pancake",
+      "distanceM": 38763.8984375,
+      "avgGrade": -0.02012181468307972,
+      "startLat": 39.64692306518555,
+      "startLng": 117.0410385131836
+    }
+  ]
+}

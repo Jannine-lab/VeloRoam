@@ -1,0 +1,65 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T20:22:24.376Z",
+  "tile": {
+    "z": 13,
+    "x": 6818,
+    "y": 3382
+  },
+  "segments": [
+    {
+      "id": "38511471",
+      "tileScore": 10,
+      "name": "灵线climb",
+      "distanceM": 3015,
+      "avgGrade": 6.076285362243652,
+      "startLat": 29.907718658447266,
+      "startLng": 119.64934539794922
+    },
+    {
+      "id": "28860936",
+      "tileScore": 5,
+      "name": "芳香线到208",
+      "distanceM": 7465.7001953125,
+      "avgGrade": -2.8021483421325684,
+      "startLat": 29.897090911865234,
+      "startLng": 119.67000579833984
+    },
+    {
+      "id": "20640055",
+      "tileScore": 5,
+      "name": "Three Step Kicker ",
+      "distanceM": 2760.89990234375,
+      "avgGrade": 6.512369155883789,
+      "startLat": 29.90050506591797,
+      "startLng": 119.66258239746094
+    },
+    {
+      "id": "25978371",
+      "tileScore": 7,
+      "name": "方埠to渌渚镇爬坡",
+      "distanceM": 4795.2001953125,
+      "avgGrade": 3.4617953300476074,
+      "startLat": 29.873586654663086,
+      "startLng": 119.64654541015625
+    },
+    {
+      "id": "38551403",
+      "tileScore": 2,
+      "name": "别犹豫，真好路Downhill",
+      "distanceM": 2668.300048828125,
+      "avgGrade": -8.675935745239258,
+      "startLat": 29.91792869567871,
+      "startLng": 119.6656494140625
+    },
+    {
+      "id": "21980098",
+      "tileScore": 59,
+      "name": "新龙线爬坡后程",
+      "distanceM": 4293.39990234375,
+      "avgGrade": 4.760795593261719,
+      "startLat": 29.90810775756836,
+      "startLng": 119.64421844482422
+    }
+  ]
+}

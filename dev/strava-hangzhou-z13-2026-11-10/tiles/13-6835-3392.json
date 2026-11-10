@@ -1,0 +1,29 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T20:43:34.684Z",
+  "tile": {
+    "z": 13,
+    "x": 6835,
+    "y": 3392
+  },
+  "segments": [
+    {
+      "id": "36467463",
+      "tileScore": 5,
+      "name": "中山村最后1km陡坡",
+      "distanceM": 860.2999877929688,
+      "avgGrade": 12.437521934509277,
+      "startLat": 29.507509231567383,
+      "startLng": 120.40093231201172
+    },
+    {
+      "id": "36467454",
+      "tileScore": 5,
+      "name": "捣臼湾陡坡还没完",
+      "distanceM": 2239.5,
+      "avgGrade": 7.6356329917907715,
+      "startLat": 29.514968872070312,
+      "startLng": 120.4170913696289
+    }
+  ]
+}

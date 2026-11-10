@@ -1,0 +1,29 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T19:52:11.008Z",
+  "tile": {
+    "z": 13,
+    "x": 6729,
+    "y": 3088
+  },
+  "segments": [
+    {
+      "id": "34539927",
+      "tileScore": 1,
+      "name": "环官厅湖-怀来大桥",
+      "distanceM": 52914.5,
+      "avgGrade": 0.00018898412236012518,
+      "startLat": 40.402462005615234,
+      "startLng": 115.87396240234375
+    },
+    {
+      "id": "12271843",
+      "tileScore": 3,
+      "name": "G110 Highway to Hell",
+      "distanceM": 20449.900390625,
+      "avgGrade": -0.45672595500946045,
+      "startLat": 40.384727478027344,
+      "startLng": 115.60127258300781
+    }
+  ]
+}

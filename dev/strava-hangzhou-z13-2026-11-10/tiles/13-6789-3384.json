@@ -1,0 +1,47 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T20:41:10.973Z",
+  "tile": {
+    "z": 13,
+    "x": 6789,
+    "y": 3384
+  },
+  "segments": [
+    {
+      "id": "38885024",
+      "tileScore": 5,
+      "name": "Linchang Downhill Drift",
+      "distanceM": 2707.5,
+      "avgGrade": -0.3545706272125244,
+      "startLat": 29.809030532836914,
+      "startLng": 118.34646606445312
+    },
+    {
+      "id": "38885059",
+      "tileScore": 28,
+      "name": "Yongjia-Shezhou Speed Link",
+      "distanceM": 4074.60009765625,
+      "avgGrade": -0.17179599404335022,
+      "startLat": 29.835491180419922,
+      "startLng": 118.35200500488281
+    },
+    {
+      "id": "39231273",
+      "tileScore": 17,
+      "name": "发哥带水煮蛋赶着上班晨骑小环线",
+      "distanceM": 60110.1015625,
+      "avgGrade": 0.0113125741481781,
+      "startLat": 29.719371795654297,
+      "startLng": 118.338134765625
+    },
+    {
+      "id": "35057582",
+      "tileScore": 114,
+      "name": "（环屯线）篁墩-长龄桥段",
+      "distanceM": 11325.2001953125,
+      "avgGrade": 0.21544873714447021,
+      "startLat": 29.768260955810547,
+      "startLng": 118.36276245117188
+    }
+  ]
+}

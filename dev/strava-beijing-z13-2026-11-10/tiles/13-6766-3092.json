@@ -1,0 +1,20 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T19:55:55.007Z",
+  "tile": {
+    "z": 13,
+    "x": 6766,
+    "y": 3092
+  },
+  "segments": [
+    {
+      "id": "35496961",
+      "tileScore": 2,
+      "name": "烂路后的超陡坡加餐",
+      "distanceM": 1162.5999755859375,
+      "avgGrade": 13.796663284301758,
+      "startLat": 40.286888122558594,
+      "startLng": 117.36809539794922
+    }
+  ]
+}

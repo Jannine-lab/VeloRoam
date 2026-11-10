@@ -1,0 +1,20 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T19:58:41.962Z",
+  "tile": {
+    "z": 13,
+    "x": 6770,
+    "y": 3099
+  },
+  "segments": [
+    {
+      "id": "34549441",
+      "tileScore": 22,
+      "name": "NSRC邦喜二线去程KOM👑",
+      "distanceM": 9779.599609375,
+      "avgGrade": -0.02454088255763054,
+      "startLat": 40.06193542480469,
+      "startLng": 117.47549438476562
+    }
+  ]
+}

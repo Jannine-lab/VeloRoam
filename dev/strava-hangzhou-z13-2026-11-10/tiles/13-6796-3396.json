@@ -1,0 +1,38 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T20:40:02.898Z",
+  "tile": {
+    "z": 13,
+    "x": 6796,
+    "y": 3396
+  },
+  "segments": [
+    {
+      "id": "39850900",
+      "tileScore": 17,
+      "name": "枫树岭—大溪边长缓坡",
+      "distanceM": 14562.2998046875,
+      "avgGrade": 1.6261167526245117,
+      "startLat": 29.374414443969727,
+      "startLng": 118.68367004394531
+    },
+    {
+      "id": "12133108",
+      "tileScore": 68,
+      "name": "千岛湖 薛家源村下坡",
+      "distanceM": 1665.199951171875,
+      "avgGrade": -4.467931747436523,
+      "startLat": 29.370756149291992,
+      "startLng": 118.70138549804688
+    },
+    {
+      "id": "10821809",
+      "tileScore": 10,
+      "name": "Xuejiayuan Bridge (North-West Bound)",
+      "distanceM": 304.8999938964844,
+      "avgGrade": 0.6559528112411499,
+      "startLat": 29.3792781829834,
+      "startLng": 118.68744659423828
+    }
+  ]
+}

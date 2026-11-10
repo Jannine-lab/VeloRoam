@@ -1,0 +1,29 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T19:35:50.145Z",
+  "tile": {
+    "z": 13,
+    "x": 6743,
+    "y": 3096
+  },
+  "segments": [
+    {
+      "id": "30576018",
+      "tileScore": 5,
+      "name": "机场联络线",
+      "distanceM": 3712.10009765625,
+      "avgGrade": 0.09698014706373215,
+      "startLat": 40.149749755859375,
+      "startLng": 116.3353042602539
+    },
+    {
+      "id": "35118860",
+      "tileScore": 2,
+      "name": "什么b路啊",
+      "distanceM": 592,
+      "avgGrade": 0.03378378599882126,
+      "startLat": 40.16482925415039,
+      "startLng": 116.3306884765625
+    }
+  ]
+}

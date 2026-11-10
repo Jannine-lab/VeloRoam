@@ -1,0 +1,29 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T20:41:10.973Z",
+  "tile": {
+    "z": 13,
+    "x": 6789,
+    "y": 3383
+  },
+  "segments": [
+    {
+      "id": "38885059",
+      "tileScore": 28,
+      "name": "Yongjia-Shezhou Speed Link",
+      "distanceM": 4074.60009765625,
+      "avgGrade": -0.17179599404335022,
+      "startLat": 29.835491180419922,
+      "startLng": 118.35200500488281
+    },
+    {
+      "id": "38885137",
+      "tileScore": 14,
+      "name": "Qiankou Whisper ITT",
+      "distanceM": 8754,
+      "avgGrade": 0.3769705295562744,
+      "startLat": 29.871980667114258,
+      "startLng": 118.37965393066406
+    }
+  ]
+}

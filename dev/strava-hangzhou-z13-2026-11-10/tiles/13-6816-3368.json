@@ -1,0 +1,137 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T20:21:51.230Z",
+  "tile": {
+    "z": 13,
+    "x": 6816,
+    "y": 3368
+  },
+  "segments": [
+    {
+      "id": "18702207",
+      "tileScore": 102,
+      "name": "市岭发夹弯开始的爬坡",
+      "distanceM": 4785.2001953125,
+      "avgGrade": 5.04263162612915,
+      "startLat": 30.440187454223633,
+      "startLng": 119.59210968017578
+    },
+    {
+      "id": "39141879",
+      "tileScore": 23,
+      "name": "殷勤坞climb",
+      "distanceM": 1415.4000244140625,
+      "avgGrade": 6.726013660430908,
+      "startLat": 30.43930435180664,
+      "startLng": 119.53070068359375
+    },
+    {
+      "id": "3701943",
+      "tileScore": 14,
+      "name": "Provincial Road Climb",
+      "distanceM": 767.2066650390625,
+      "avgGrade": 13.306398391723633,
+      "startLat": 30.43440055847168,
+      "startLng": 119.57867431640625
+    },
+    {
+      "id": "20897595",
+      "tileScore": 98,
+      "name": "临安-市岭",
+      "distanceM": 4951.60009765625,
+      "avgGrade": 4.503594875335693,
+      "startLat": 30.419599533081055,
+      "startLng": 119.5657958984375
+    },
+    {
+      "id": "5865678",
+      "tileScore": 17,
+      "name": "Provincial Road Climb",
+      "distanceM": 365.79998779296875,
+      "avgGrade": 22.416622161865234,
+      "startLat": 30.42686653137207,
+      "startLng": 119.56420135498047
+    },
+    {
+      "id": "19802404",
+      "tileScore": 126,
+      "name": "临安白沙",
+      "distanceM": 3984.60009765625,
+      "avgGrade": 6.6932692527771,
+      "startLat": 30.4183406829834,
+      "startLng": 119.56476593017578
+    },
+    {
+      "id": "41211446",
+      "tileScore": 21,
+      "name": "在山里坐牢",
+      "distanceM": 1639.5,
+      "avgGrade": 5.843245029449463,
+      "startLat": 30.424030303955078,
+      "startLng": 119.5238037109375
+    },
+    {
+      "id": "8135002",
+      "tileScore": 55,
+      "name": "taihuyuanS205 line climb",
+      "distanceM": 22022.5,
+      "avgGrade": 2.6295833587646484,
+      "startLat": 30.320430755615234,
+      "startLng": 119.60966491699219
+    },
+    {
+      "id": "34621131",
+      "tileScore": 11,
+      "name": "#董岭龙王单日疗程(实际海拔不到2000)",
+      "distanceM": 94840.6015625,
+      "avgGrade": 0.04660451412200928,
+      "startLat": 30.51348876953125,
+      "startLng": 119.47992706298828
+    },
+    {
+      "id": "32352713",
+      "tileScore": 9,
+      "name": "我犯了什么错要跟山猫来爬墙",
+      "distanceM": 2662.10009765625,
+      "avgGrade": 6.836708068847656,
+      "startLat": 30.428356170654297,
+      "startLng": 119.57088470458984
+    },
+    {
+      "id": "8602463",
+      "tileScore": 40,
+      "name": "Shiling climb",
+      "distanceM": 3067.199951171875,
+      "avgGrade": 6.328247547149658,
+      "startLat": 30.43817138671875,
+      "startLng": 119.59141540527344
+    },
+    {
+      "id": "10107493",
+      "tileScore": 3,
+      "name": "董岭",
+      "distanceM": 12518,
+      "avgGrade": 6.056079387664795,
+      "startLat": 30.509069442749023,
+      "startLng": 119.57017517089844
+    },
+    {
+      "id": "39159052",
+      "tileScore": 31,
+      "name": "龙须山一直顶",
+      "distanceM": 3077.699951171875,
+      "avgGrade": 7.362640857696533,
+      "startLat": 30.429231643676758,
+      "startLng": 119.55812072753906
+    },
+    {
+      "id": "9241120",
+      "tileScore": 86,
+      "name": "董岭",
+      "distanceM": 15565,
+      "avgGrade": 4.256986618041992,
+      "startLat": 30.52800178527832,
+      "startLng": 119.55545043945312
+    }
+  ]
+}

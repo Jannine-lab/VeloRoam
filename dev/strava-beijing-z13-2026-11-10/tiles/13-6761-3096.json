@@ -1,0 +1,29 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T19:46:09.724Z",
+  "tile": {
+    "z": 13,
+    "x": 6761,
+    "y": 3096
+  },
+  "segments": [
+    {
+      "id": "17703824",
+      "tileScore": 4,
+      "name": "和影姐小志一起刷圈",
+      "distanceM": 1457.800048828125,
+      "avgGrade": -0.09603512287139893,
+      "startLat": 40.180274963378906,
+      "startLng": 117.13139343261719
+    },
+    {
+      "id": "38887081",
+      "tileScore": 4,
+      "name": "这里不适合测FTP",
+      "distanceM": 10370.5,
+      "avgGrade": 0.021214021369814873,
+      "startLat": 40.16385269165039,
+      "startLng": 117.15084838867188
+    }
+  ]
+}

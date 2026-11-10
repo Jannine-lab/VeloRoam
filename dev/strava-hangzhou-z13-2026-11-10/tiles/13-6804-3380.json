@@ -1,0 +1,20 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T20:30:00.240Z",
+  "tile": {
+    "z": 13,
+    "x": 6804,
+    "y": 3380
+  },
+  "segments": [
+    {
+      "id": "37496104",
+      "tileScore": 7,
+      "name": "瑶山天坪越野线",
+      "distanceM": 11970.2998046875,
+      "avgGrade": 5.826086044311523,
+      "startLat": 29.981464385986328,
+      "startLng": 119.0407485961914
+    }
+  ]
+}

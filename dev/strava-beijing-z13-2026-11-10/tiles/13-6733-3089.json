@@ -1,0 +1,29 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T19:48:56.422Z",
+  "tile": {
+    "z": 13,
+    "x": 6733,
+    "y": 3089
+  },
+  "segments": [
+    {
+      "id": "34539927",
+      "tileScore": 1,
+      "name": "环官厅湖-怀来大桥",
+      "distanceM": 52914.5,
+      "avgGrade": 0.00018898412236012518,
+      "startLat": 40.402462005615234,
+      "startLng": 115.87396240234375
+    },
+    {
+      "id": "37526380",
+      "tileScore": 6,
+      "name": "康张路（北-南）",
+      "distanceM": 13853,
+      "avgGrade": 0.059192955493927,
+      "startLat": 40.4764404296875,
+      "startLng": 115.84318542480469
+    }
+  ]
+}

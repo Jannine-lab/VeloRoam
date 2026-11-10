@@ -1,0 +1,20 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T20:38:58.721Z",
+  "tile": {
+    "z": 13,
+    "x": 6793,
+    "y": 3383
+  },
+  "segments": [
+    {
+      "id": "33934322",
+      "tileScore": 11,
+      "name": "an area of scenic beauty",
+      "distanceM": 23392.80078125,
+      "avgGrade": -0.03419855609536171,
+      "startLat": 29.852100372314453,
+      "startLng": 118.49465942382812
+    }
+  ]
+}

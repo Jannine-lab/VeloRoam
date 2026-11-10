@@ -1,0 +1,29 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T19:44:17.737Z",
+  "tile": {
+    "z": 13,
+    "x": 6729,
+    "y": 3102
+  },
+  "segments": [
+    {
+      "id": "42438697",
+      "tileScore": 2,
+      "name": "肖主将：川臼水库的秘境爬坡",
+      "distanceM": 2699.199951171875,
+      "avgGrade": 3.2305870056152344,
+      "startLat": 39.97708511352539,
+      "startLng": 115.73139190673828
+    },
+    {
+      "id": "39149832",
+      "tileScore": 13,
+      "name": "双龙峡climb",
+      "distanceM": 1522.9000244140625,
+      "avgGrade": 5.568323612213135,
+      "startLat": 39.964359283447266,
+      "startLng": 115.7149658203125
+    }
+  ]
+}

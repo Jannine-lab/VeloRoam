@@ -1,0 +1,20 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T19:42:29.893Z",
+  "tile": {
+    "z": 13,
+    "x": 6746,
+    "y": 3091
+  },
+  "segments": [
+    {
+      "id": "18593849",
+      "tileScore": 9,
+      "name": "Yiduhecun 一渡河村 climb",
+      "distanceM": 4780.2998046875,
+      "avgGrade": 4.464155197143555,
+      "startLat": 40.34004592895508,
+      "startLng": 116.4998550415039
+    }
+  ]
+}

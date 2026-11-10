@@ -1,0 +1,29 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T20:25:17.980Z",
+  "tile": {
+    "z": 13,
+    "x": 6810,
+    "y": 3369
+  },
+  "segments": [
+    {
+      "id": "33712901",
+      "tileScore": 5,
+      "name": "欢迎来到安徽Welcome to Anhui",
+      "distanceM": 3225,
+      "avgGrade": -1.699224829673767,
+      "startLat": 30.36414337158203,
+      "startLng": 119.27889251708984
+    },
+    {
+      "id": "32117536",
+      "tileScore": 2,
+      "name": "cd-G329仙霞镇北往南10公里狂飙",
+      "distanceM": 9878.099609375,
+      "avgGrade": 0.3158501982688904,
+      "startLat": 30.47182846069336,
+      "startLng": 119.2360610961914
+    }
+  ]
+}

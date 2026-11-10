@@ -1,0 +1,47 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T20:36:07.314Z",
+  "tile": {
+    "z": 13,
+    "x": 6797,
+    "y": 3377
+  },
+  "segments": [
+    {
+      "id": "34104751",
+      "tileScore": 4,
+      "name": "Diesel legs",
+      "distanceM": 9589.400390625,
+      "avgGrade": -0.3483012616634369,
+      "startLat": 30.10085105895996,
+      "startLng": 118.71123504638672
+    },
+    {
+      "id": "29679772",
+      "tileScore": 20,
+      "name": "This is The End",
+      "distanceM": 480.3999938964844,
+      "avgGrade": 5.93255615234375,
+      "startLat": 30.077526092529297,
+      "startLng": 118.73536682128906
+    },
+    {
+      "id": "25623089",
+      "tileScore": 3,
+      "name": "New Black",
+      "distanceM": 3874.60009765625,
+      "avgGrade": 1.0710783004760742,
+      "startLat": 30.051525115966797,
+      "startLng": 118.7276382446289
+    },
+    {
+      "id": "37663798",
+      "tileScore": 17,
+      "name": "平银隧道口停车场-鄣山景区入口",
+      "distanceM": 3308.39990234375,
+      "avgGrade": 4.310240745544434,
+      "startLat": 30.0830078125,
+      "startLng": 118.72676086425781
+    }
+  ]
+}

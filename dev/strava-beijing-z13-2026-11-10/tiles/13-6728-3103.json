@@ -1,0 +1,29 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T19:44:17.737Z",
+  "tile": {
+    "z": 13,
+    "x": 6728,
+    "y": 3103
+  },
+  "segments": [
+    {
+      "id": "24717084",
+      "tileScore": 32,
+      "name": "马栏村爬坡",
+      "distanceM": 6237.5,
+      "avgGrade": 3.5062122344970703,
+      "startLat": 39.968204498291016,
+      "startLng": 115.69086456298828
+    },
+    {
+      "id": "42403248",
+      "tileScore": 2,
+      "name": "肖主将：上达摩爬坡全程",
+      "distanceM": 5692.2001953125,
+      "avgGrade": 7.16243314743042,
+      "startLat": 39.929500579833984,
+      "startLng": 115.63997650146484
+    }
+  ]
+}

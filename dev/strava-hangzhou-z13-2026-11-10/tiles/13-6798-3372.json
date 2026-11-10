@@ -1,0 +1,20 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T20:34:04.718Z",
+  "tile": {
+    "z": 13,
+    "x": 6798,
+    "y": 3372
+  },
+  "segments": [
+    {
+      "id": "33006187",
+      "tileScore": 8,
+      "name": "克黄线-徽山大道",
+      "distanceM": 12742.099609375,
+      "avgGrade": 0.6890543699264526,
+      "startLat": 30.27566909790039,
+      "startLng": 118.74169158935547
+    }
+  ]
+}

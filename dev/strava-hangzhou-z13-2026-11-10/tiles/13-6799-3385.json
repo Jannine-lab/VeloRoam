@@ -1,0 +1,29 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T20:36:19.592Z",
+  "tile": {
+    "z": 13,
+    "x": 6799,
+    "y": 3385
+  },
+  "segments": [
+    {
+      "id": "37692756",
+      "tileScore": 1,
+      "name": "叶家村to隧道口【DQ】",
+      "distanceM": 8478,
+      "avgGrade": -0.13210663199424744,
+      "startLat": 29.807039260864258,
+      "startLng": 118.81405639648438
+    },
+    {
+      "id": "32978901",
+      "tileScore": 8,
+      "name": "New road to WeiPing",
+      "distanceM": 10005.2001953125,
+      "avgGrade": -0.317834734916687,
+      "startLat": 29.824907302856445,
+      "startLng": 118.857177734375
+    }
+  ]
+}

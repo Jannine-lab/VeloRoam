@@ -1,0 +1,20 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T20:30:22.441Z",
+  "tile": {
+    "z": 13,
+    "x": 6814,
+    "y": 3394
+  },
+  "segments": [
+    {
+      "id": "40062667",
+      "tileScore": 72,
+      "name": "里黄大洋 小环兰江",
+      "distanceM": 68143.6015625,
+      "avgGrade": -0.0026414806488901377,
+      "startLat": 29.23687171936035,
+      "startLng": 119.43478393554688
+    }
+  ]
+}

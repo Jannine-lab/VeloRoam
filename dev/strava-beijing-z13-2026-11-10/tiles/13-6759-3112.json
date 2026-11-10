@@ -1,0 +1,38 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T19:45:26.115Z",
+  "tile": {
+    "z": 13,
+    "x": 6759,
+    "y": 3112
+  },
+  "segments": [
+    {
+      "id": "13152184",
+      "tileScore": 1,
+      "name": "X521(大良鎮-下伍旗鎮)",
+      "distanceM": 13593.099609375,
+      "avgGrade": 0.02059868536889553,
+      "startLat": 39.51017379760742,
+      "startLng": 117.09521484375
+    },
+    {
+      "id": "23119490",
+      "tileScore": 3,
+      "name": "BTAC Xianghe Pancake",
+      "distanceM": 38763.8984375,
+      "avgGrade": -0.02012181468307972,
+      "startLat": 39.64692306518555,
+      "startLng": 117.0410385131836
+    },
+    {
+      "id": "13152191",
+      "tileScore": 1,
+      "name": "X535(紅寺段)",
+      "distanceM": 1902.699951171875,
+      "avgGrade": 0,
+      "startLat": 39.62910461425781,
+      "startLng": 117.0488052368164
+    }
+  ]
+}

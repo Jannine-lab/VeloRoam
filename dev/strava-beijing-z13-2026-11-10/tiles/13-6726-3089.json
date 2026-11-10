@@ -1,0 +1,29 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T19:53:59.847Z",
+  "tile": {
+    "z": 13,
+    "x": 6726,
+    "y": 3089
+  },
+  "segments": [
+    {
+      "id": "12271843",
+      "tileScore": 3,
+      "name": "G110 Highway to Hell",
+      "distanceM": 20449.900390625,
+      "avgGrade": -0.45672595500946045,
+      "startLat": 40.384727478027344,
+      "startLng": 115.60127258300781
+    },
+    {
+      "id": "37497207",
+      "tileScore": 11,
+      "name": "怀来东沟爬坡赛",
+      "distanceM": 23170.69921875,
+      "avgGrade": 3.0253725051879883,
+      "startLat": 40.408023834228516,
+      "startLng": 115.6043930053711
+    }
+  ]
+}

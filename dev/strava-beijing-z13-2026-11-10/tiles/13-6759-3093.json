@@ -1,0 +1,29 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T19:47:02.870Z",
+  "tile": {
+    "z": 13,
+    "x": 6759,
+    "y": 3093
+  },
+  "segments": [
+    {
+      "id": "36900147",
+      "tileScore": 14,
+      "name": "平关（镇罗营-密三路）",
+      "distanceM": 15451.2998046875,
+      "avgGrade": -1.185660719871521,
+      "startLat": 40.34165954589844,
+      "startLng": 117.13523864746094
+    },
+    {
+      "id": "15206975",
+      "tileScore": 8,
+      "name": "Village Sprint",
+      "distanceM": 1859.300048828125,
+      "avgGrade": -0.7583498954772949,
+      "startLat": 40.26884460449219,
+      "startLng": 117.04158020019531
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T19:55:08.538Z",
+  "tile": {
+    "z": 13,
+    "x": 6721,
+    "y": 3101
+  },
+  "segments": [
+    {
+      "id": "41981051",
+      "tileScore": 11,
+      "name": "到谢家堡",
+      "distanceM": 10152.7998046875,
+      "avgGrade": -3.577338218688965,
+      "startLat": 40.01659393310547,
+      "startLng": 115.40377044677734
+    }
+  ]
+}

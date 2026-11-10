@@ -1,0 +1,29 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T19:58:36.994Z",
+  "tile": {
+    "z": 13,
+    "x": 6757,
+    "y": 3081
+  },
+  "segments": [
+    {
+      "id": "5410015",
+      "tileScore": 2,
+      "name": "County Road Climb",
+      "distanceM": 1778.699951171875,
+      "avgGrade": 4.711306095123291,
+      "startLat": 40.67875289916992,
+      "startLng": 116.95943450927734
+    },
+    {
+      "id": "4414094",
+      "tileScore": 2,
+      "name": "Beijing Pelaton breakaway climb",
+      "distanceM": 15589,
+      "avgGrade": 1.8307781219482422,
+      "startLat": 40.624969482421875,
+      "startLng": 117.02896881103516
+    }
+  ]
+}

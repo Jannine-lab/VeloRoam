@@ -1,0 +1,20 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T19:58:46.947Z",
+  "tile": {
+    "z": 13,
+    "x": 6768,
+    "y": 3092
+  },
+  "segments": [
+    {
+      "id": "22140974",
+      "tileScore": 4,
+      "name": "京津冀比赛(起点-隧道入口)",
+      "distanceM": 44582.5,
+      "avgGrade": 1.1138900518417358,
+      "startLat": 40.18198776245117,
+      "startLng": 117.2860336303711
+    }
+  ]
+}

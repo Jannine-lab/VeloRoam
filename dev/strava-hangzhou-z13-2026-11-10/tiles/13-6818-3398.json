@@ -1,0 +1,47 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T20:31:36.945Z",
+  "tile": {
+    "z": 13,
+    "x": 6818,
+    "y": 3398
+  },
+  "segments": [
+    {
+      "id": "37614177",
+      "tileScore": 3,
+      "name": "溪源村路段",
+      "distanceM": 2579.39990234375,
+      "avgGrade": 1.7368379831314087,
+      "startLat": 29.303707122802734,
+      "startLng": 119.6269302368164
+    },
+    {
+      "id": "39724173",
+      "tileScore": 5,
+      "name": "Fucking H↑一口气浦兰线来回",
+      "distanceM": 86810.203125,
+      "avgGrade": 0.006220467388629913,
+      "startLat": 29.24191665649414,
+      "startLng": 119.47900390625
+    },
+    {
+      "id": "42219464",
+      "tileScore": 24,
+      "name": "Hi bicycle太阳岭环线 安全第一",
+      "distanceM": 87060.5,
+      "avgGrade": 0.004824231378734112,
+      "startLat": 29.2420597076416,
+      "startLng": 119.47916412353516
+    },
+    {
+      "id": "33182551",
+      "tileScore": 8,
+      "name": "东山龙潭小五岩",
+      "distanceM": 2592.199951171875,
+      "avgGrade": 1.3193426132202148,
+      "startLat": 29.308517456054688,
+      "startLng": 119.60501861572266
+    }
+  ]
+}

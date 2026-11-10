@@ -1,0 +1,25 @@
+{
+  "mode": "apply",
+  "source": "/Users/jannine/Desktop/VeloRoam/dev/strava-beijing-z13-2026-11-10/candidates.json",
+  "startedAt": "2026-11-09T20:13:43.985Z",
+  "finishedAt": "2026-11-09T20:13:57.107Z",
+  "sourceIds": 4049,
+  "existing": 328,
+  "alreadyScored": 317,
+  "eligible": 11,
+  "updated": 11,
+  "verified": 11,
+  "updatedIds": [
+    "11168382",
+    "11943103",
+    "15901218",
+    "15901353",
+    "15910218",
+    "23821035",
+    "23934432",
+    "24490911",
+    "25242938",
+    "37230470",
+    "39155901"
+  ]
+}

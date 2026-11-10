@@ -1,0 +1,65 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T20:31:14.716Z",
+  "tile": {
+    "z": 13,
+    "x": 6803,
+    "y": 3377
+  },
+  "segments": [
+    {
+      "id": "4914281",
+      "tileScore": 32,
+      "name": "Provincial Road Climb",
+      "distanceM": 1105.5,
+      "avgGrade": 7.743102073669434,
+      "startLat": 30.078659057617188,
+      "startLng": 118.97474670410156
+    },
+    {
+      "id": "12404118",
+      "tileScore": 7,
+      "name": "A cheeky Damingshan",
+      "distanceM": 1658.800048828125,
+      "avgGrade": 4.153604984283447,
+      "startLat": 30.073312759399414,
+      "startLng": 118.99681091308594
+    },
+    {
+      "id": "40404698",
+      "tileScore": 11,
+      "name": "attack！",
+      "distanceM": 756,
+      "avgGrade": 1.640211582183838,
+      "startLat": 30.101545333862305,
+      "startLng": 118.99579620361328
+    },
+    {
+      "id": "16054119",
+      "tileScore": 45,
+      "name": "NWC 2017 - 1st climb",
+      "distanceM": 5141.60009765625,
+      "avgGrade": 4.181577682495117,
+      "startLat": 30.084888458251953,
+      "startLng": 118.98925018310547
+    },
+    {
+      "id": "12789679",
+      "tileScore": 42,
+      "name": "Short climb after a much larger climb",
+      "distanceM": 4610.5,
+      "avgGrade": 2.702526807785034,
+      "startLat": 30.086593627929688,
+      "startLng": 118.98115539550781
+    },
+    {
+      "id": "41544795",
+      "tileScore": 25,
+      "name": "白果—清凉峰镇",
+      "distanceM": 5262.7998046875,
+      "avgGrade": -0.7182488441467285,
+      "startLat": 30.095489501953125,
+      "startLng": 118.99000549316406
+    }
+  ]
+}

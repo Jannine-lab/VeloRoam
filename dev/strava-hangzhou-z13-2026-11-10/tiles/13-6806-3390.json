@@ -1,0 +1,56 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T20:32:31.735Z",
+  "tile": {
+    "z": 13,
+    "x": 6806,
+    "y": 3390
+  },
+  "segments": [
+    {
+      "id": "30152615",
+      "tileScore": 1,
+      "name": "珍珠岛TTT上坡段",
+      "distanceM": 1305.199951171875,
+      "avgGrade": 1.608948826789856,
+      "startLat": 29.596464157104492,
+      "startLng": 119.09837341308594
+    },
+    {
+      "id": "40938899",
+      "tileScore": 11,
+      "name": "Intercontinental out and back",
+      "distanceM": 21620.19921875,
+      "avgGrade": -0.009250608272850513,
+      "startLat": 29.551006317138672,
+      "startLng": 119.11785125732422
+    },
+    {
+      "id": "36565210",
+      "tileScore": 12,
+      "name": "千岛湖AUV车队热身路线",
+      "distanceM": 1776.699951171875,
+      "avgGrade": 0.022513648495078087,
+      "startLat": 29.608150482177734,
+      "startLng": 119.09477996826172
+    },
+    {
+      "id": "17819401",
+      "tileScore": 8,
+      "name": "小环湖",
+      "distanceM": 102884,
+      "avgGrade": -0.008358928374946117,
+      "startLat": 29.475658416748047,
+      "startLng": 119.21735382080078
+    },
+    {
+      "id": "10761603",
+      "tileScore": 2,
+      "name": "珍珠岛TTT",
+      "distanceM": 10045.400390625,
+      "avgGrade": -0.04977402836084366,
+      "startLat": 29.59638786315918,
+      "startLng": 119.09715270996094
+    }
+  ]
+}

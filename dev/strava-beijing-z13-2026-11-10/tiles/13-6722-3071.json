@@ -1,0 +1,38 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T20:11:18.641Z",
+  "tile": {
+    "z": 13,
+    "x": 6722,
+    "y": 3071
+  },
+  "segments": [
+    {
+      "id": "24918923",
+      "tileScore": 15,
+      "name": "\"Surprise - Surprise - Surprise.....\" SERK-Chongli-KOM (Including off-road section to the top)",
+      "distanceM": 13636.099609375,
+      "avgGrade": 5.419437885284424,
+      "startLat": 40.994483947753906,
+      "startLng": 115.29354095458984
+    },
+    {
+      "id": "35404186",
+      "tileScore": 15,
+      "name": "好好的路怎么突然Gravel了起来",
+      "distanceM": 3907.39990234375,
+      "avgGrade": 9.484567642211914,
+      "startLat": 40.9714241027832,
+      "startLng": 115.3953628540039
+    },
+    {
+      "id": "34734696",
+      "tileScore": 22,
+      "name": "崇礼站到长城岭高原训练基地",
+      "distanceM": 14549.400390625,
+      "avgGrade": 2.699767589569092,
+      "startLat": 41.004329681396484,
+      "startLng": 115.31106567382812
+    }
+  ]
+}

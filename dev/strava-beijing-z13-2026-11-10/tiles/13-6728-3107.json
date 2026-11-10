@@ -1,0 +1,20 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T19:44:32.535Z",
+  "tile": {
+    "z": 13,
+    "x": 6728,
+    "y": 3107
+  },
+  "segments": [
+    {
+      "id": "41098724",
+      "tileScore": 18,
+      "name": "大青杠-第一段",
+      "distanceM": 1681,
+      "avgGrade": 12.575848579406738,
+      "startLat": 39.7889518737793,
+      "startLng": 115.67682647705078
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T20:02:43.415Z",
+  "tile": {
+    "z": 13,
+    "x": 6768,
+    "y": 3087
+  },
+  "segments": [
+    {
+      "id": "35513630",
+      "tileScore": 7,
+      "name": "罗圈沟",
+      "distanceM": 10013.5,
+      "avgGrade": 1.8644829988479614,
+      "startLat": 40.440574645996094,
+      "startLng": 117.4864501953125
+    }
+  ]
+}

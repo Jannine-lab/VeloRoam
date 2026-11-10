@@ -1,0 +1,20 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T19:57:44.425Z",
+  "tile": {
+    "z": 13,
+    "x": 6741,
+    "y": 3079
+  },
+  "segments": [
+    {
+      "id": "42075467",
+      "tileScore": 2,
+      "name": "红水路climb",
+      "distanceM": 12171.2001953125,
+      "avgGrade": 1.881490707397461,
+      "startLat": 40.66535568237305,
+      "startLng": 116.2913589477539
+    }
+  ]
+}

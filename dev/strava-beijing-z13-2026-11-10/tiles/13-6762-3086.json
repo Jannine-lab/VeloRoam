@@ -1,0 +1,38 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T19:56:23.669Z",
+  "tile": {
+    "z": 13,
+    "x": 6762,
+    "y": 3086
+  },
+  "segments": [
+    {
+      "id": "42359364",
+      "tileScore": 6,
+      "name": "五十一蹬长城climb",
+      "distanceM": 8911,
+      "avgGrade": 5.299068450927734,
+      "startLat": 40.4976692199707,
+      "startLng": 117.18132019042969
+    },
+    {
+      "id": "42250056",
+      "tileScore": 2,
+      "name": "沙太路（不老屯-北庄村）",
+      "distanceM": 4632.7998046875,
+      "avgGrade": 0.5828009247779846,
+      "startLat": 40.53249740600586,
+      "startLng": 117.133056640625
+    },
+    {
+      "id": "35232473",
+      "tileScore": 5,
+      "name": "2023 BRM300 CP4",
+      "distanceM": 50172.69921875,
+      "avgGrade": -0.2495381087064743,
+      "startLat": 40.381126403808594,
+      "startLng": 117.14585876464844
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T19:53:01.728Z",
+  "tile": {
+    "z": 13,
+    "x": 6766,
+    "y": 3099
+  },
+  "segments": [
+    {
+      "id": "34540498",
+      "tileScore": 41,
+      "name": "NO SPICY RACING CLUB盘山KOM",
+      "distanceM": 22832,
+      "avgGrade": 0.01226348988711834,
+      "startLat": 40.04734802246094,
+      "startLng": 117.37718963623047
+    }
+  ]
+}

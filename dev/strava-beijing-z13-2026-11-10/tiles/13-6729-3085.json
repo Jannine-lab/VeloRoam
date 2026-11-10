@@ -1,0 +1,74 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T19:56:33.536Z",
+  "tile": {
+    "z": 13,
+    "x": 6729,
+    "y": 3085
+  },
+  "segments": [
+    {
+      "id": "18786436",
+      "tileScore": 64,
+      "name": "海坨大放坡（出京）",
+      "distanceM": 18743.69921875,
+      "avgGrade": -2.1703290939331055,
+      "startLat": 40.533382415771484,
+      "startLng": 115.74681091308594
+    },
+    {
+      "id": "4807252",
+      "tileScore": 13,
+      "name": "County Road Climb",
+      "distanceM": 929.7000122070312,
+      "avgGrade": 10.132301330566406,
+      "startLat": 40.52926254272461,
+      "startLng": 115.75347900390625
+    },
+    {
+      "id": "31659429",
+      "tileScore": 767,
+      "name": "松山爬坡全程-路口到检查站(2022冬奥后)",
+      "distanceM": 16449.599609375,
+      "avgGrade": 4.8913044929504395,
+      "startLat": 40.481170654296875,
+      "startLng": 115.82749938964844
+    },
+    {
+      "id": "28285943",
+      "tileScore": 3,
+      "name": "Black Forest XC Big Circle",
+      "distanceM": 1371.5999755859375,
+      "avgGrade": -0.11665208637714386,
+      "startLat": 40.53406524658203,
+      "startLng": 115.72570037841797
+    },
+    {
+      "id": "8316111",
+      "tileScore": 6,
+      "name": "Tour of Beijing final climb",
+      "distanceM": 1058.5999755859375,
+      "avgGrade": 6.820328712463379,
+      "startLat": 40.53342819213867,
+      "startLng": 115.73694610595703
+    },
+    {
+      "id": "28081796",
+      "tileScore": 19,
+      "name": "大海陀反爬全程",
+      "distanceM": 4660.60009765625,
+      "avgGrade": 3.7956488132476807,
+      "startLat": 40.563045501708984,
+      "startLng": 115.74718475341797
+    },
+    {
+      "id": "17770479",
+      "tileScore": 106,
+      "name": "松山最后7公里",
+      "distanceM": 7066.39990234375,
+      "avgGrade": 5.748330116271973,
+      "startLat": 40.52064514160156,
+      "startLng": 115.77082061767578
+    }
+  ]
+}

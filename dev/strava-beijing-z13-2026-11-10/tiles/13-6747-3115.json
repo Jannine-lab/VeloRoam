@@ -1,0 +1,29 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T19:39:53.049Z",
+  "tile": {
+    "z": 13,
+    "x": 6747,
+    "y": 3115
+  },
+  "segments": [
+    {
+      "id": "34721266",
+      "tileScore": 35,
+      "name": "廊涿线",
+      "distanceM": 2043,
+      "avgGrade": 0.09789524972438812,
+      "startLat": 39.50920867919922,
+      "startLng": 116.5595474243164
+    },
+    {
+      "id": "39233019",
+      "tileScore": 30,
+      "name": "临空大道N-S",
+      "distanceM": 7394.39990234375,
+      "avgGrade": -0.008114248514175415,
+      "startLat": 39.548892974853516,
+      "startLng": 116.5036392211914
+    }
+  ]
+}

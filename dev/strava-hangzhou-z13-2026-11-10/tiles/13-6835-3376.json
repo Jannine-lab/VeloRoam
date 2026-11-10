@@ -1,0 +1,47 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T20:16:41.921Z",
+  "tile": {
+    "z": 13,
+    "x": 6835,
+    "y": 3376
+  },
+  "segments": [
+    {
+      "id": "37836883",
+      "tileScore": 38,
+      "name": "DaLingSi Climb",
+      "distanceM": 656,
+      "avgGrade": 11.920731544494629,
+      "startLat": 30.11208724975586,
+      "startLng": 120.38289642333984
+    },
+    {
+      "id": "37745291",
+      "tileScore": 11,
+      "name": "仙岩洞寺破水泥路climb",
+      "distanceM": 1665.5,
+      "avgGrade": 9.222455978393555,
+      "startLat": 30.144325256347656,
+      "startLng": 120.38152313232422
+    },
+    {
+      "id": "38975349",
+      "tileScore": 8,
+      "name": "西小江大桥西向东冲坡",
+      "distanceM": 510.8999938964844,
+      "avgGrade": 1.487570881843567,
+      "startLat": 30.131282806396484,
+      "startLng": 120.39724731445312
+    },
+    {
+      "id": "15416090",
+      "tileScore": 92,
+      "name": "xitianzhu climb",
+      "distanceM": 2240.10009765625,
+      "avgGrade": 6.9193339347839355,
+      "startLat": 30.12069320678711,
+      "startLng": 120.38260650634766
+    }
+  ]
+}

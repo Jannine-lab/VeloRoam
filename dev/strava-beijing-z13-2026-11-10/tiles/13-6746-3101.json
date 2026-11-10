@@ -1,0 +1,281 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T19:34:28.823Z",
+  "tile": {
+    "z": 13,
+    "x": 6746,
+    "y": 3101
+  },
+  "segments": [
+    {
+      "id": "31896139",
+      "tileScore": 9,
+      "name": "等了一个世纪的红绿灯后冲一波",
+      "distanceM": 1287.0999755859375,
+      "avgGrade": -0.02330821380019188,
+      "startLat": 39.97966384887695,
+      "startLng": 116.44927215576172
+    },
+    {
+      "id": "20840061",
+      "tileScore": 3,
+      "name": "酒仙桥北路：逃离大山子",
+      "distanceM": 595.2000122070312,
+      "avgGrade": -0.1344086080789566,
+      "startLat": 39.986568450927734,
+      "startLng": 116.48387908935547
+    },
+    {
+      "id": "32186399",
+      "tileScore": 2,
+      "name": "这个b班就上到这",
+      "distanceM": 12158.400390625,
+      "avgGrade": 0.07155546545982361,
+      "startLat": 39.92258071899414,
+      "startLng": 116.54744720458984
+    },
+    {
+      "id": "14301656",
+      "tileScore": 2,
+      "name": "Round the Hetao Shu bend",
+      "distanceM": 1046.199951171875,
+      "avgGrade": 0.32498565316200256,
+      "startLat": 40.00239181518555,
+      "startLng": 116.45191192626953
+    },
+    {
+      "id": "41829726",
+      "tileScore": 1,
+      "name": "798-二高",
+      "distanceM": 20552.69921875,
+      "avgGrade": -0.0778486579656601,
+      "startLat": 39.98301696777344,
+      "startLng": 116.48594665527344
+    },
+    {
+      "id": "26141643",
+      "tileScore": 19,
+      "name": "Optimus Prime and Bumblebee",
+      "distanceM": 1080.300048828125,
+      "avgGrade": 0.0647968128323555,
+      "startLat": 39.98262023925781,
+      "startLng": 116.47595977783203
+    },
+    {
+      "id": "36749117",
+      "tileScore": 35,
+      "name": "让我看看是谁上班骑这么快",
+      "distanceM": 2692.5,
+      "avgGrade": 0.12627668678760529,
+      "startLat": 40.01028823852539,
+      "startLng": 116.50861358642578
+    },
+    {
+      "id": "39525243",
+      "tileScore": 12,
+      "name": "到家前最后一哆嗦",
+      "distanceM": 742.7999877929688,
+      "avgGrade": -0.05385029315948486,
+      "startLat": 39.99183654785156,
+      "startLng": 116.48858642578125
+    },
+    {
+      "id": "37511464",
+      "tileScore": 12,
+      "name": "Wenyu River to Ba River",
+      "distanceM": 13779.7001953125,
+      "avgGrade": 0.07547333836555481,
+      "startLat": 40.0565071105957,
+      "startLng": 116.53984832763672
+    },
+    {
+      "id": "31922232",
+      "tileScore": 21,
+      "name": "回家突然来劲儿了",
+      "distanceM": 4374.10009765625,
+      "avgGrade": 0.00914473831653595,
+      "startLat": 40.01974105834961,
+      "startLng": 116.51414489746094
+    },
+    {
+      "id": "26141634",
+      "tileScore": 7,
+      "name": "Nehemiah 8:10",
+      "distanceM": 1164.9000244140625,
+      "avgGrade": 0.12876641750335693,
+      "startLat": 39.9918098449707,
+      "startLng": 116.48622131347656
+    },
+    {
+      "id": "41719408",
+      "tileScore": 1,
+      "name": "望京-鸟巢（E-W）",
+      "distanceM": 8838.2001953125,
+      "avgGrade": 0.09843634068965912,
+      "startLat": 39.98912811279297,
+      "startLng": 116.48005676269531
+    },
+    {
+      "id": "41965727",
+      "tileScore": 6,
+      "name": "恒电Sprint",
+      "distanceM": 1299.9000244140625,
+      "avgGrade": 0.0769289955496788,
+      "startLat": 40.01288986206055,
+      "startLng": 116.46713256835938
+    },
+    {
+      "id": "8114657",
+      "tileScore": 7,
+      "name": "JXQ N>>S",
+      "distanceM": 754.7999877929688,
+      "avgGrade": 0.02649708464741707,
+      "startLat": 39.97866439819336,
+      "startLng": 116.4834213256836
+    },
+    {
+      "id": "41456848",
+      "tileScore": 12,
+      "name": "大山子-太阳宫（N-S）",
+      "distanceM": 4127.10009765625,
+      "avgGrade": 0.09692035615444183,
+      "startLat": 39.987579345703125,
+      "startLng": 116.4810791015625
+    },
+    {
+      "id": "17668418",
+      "tileScore": 57,
+      "name": "Furong St to S50",
+      "distanceM": 2038.0999755859375,
+      "avgGrade": -0.3336440920829773,
+      "startLat": 39.98771286010742,
+      "startLng": 116.48196411132812
+    },
+    {
+      "id": "41659305",
+      "tileScore": 20,
+      "name": "电子城东路-来广营东路（W-E）",
+      "distanceM": 3826,
+      "avgGrade": 0.05488761141896248,
+      "startLat": 40.007049560546875,
+      "startLng": 116.48686981201172
+    },
+    {
+      "id": "39382415",
+      "tileScore": 4,
+      "name": "芳园西路（W-E）",
+      "distanceM": 1821.5999755859375,
+      "avgGrade": -0.05489679053425789,
+      "startLat": 39.96681594848633,
+      "startLng": 116.46908569335938
+    },
+    {
+      "id": "39479613",
+      "tileScore": 1,
+      "name": "",
+      "distanceM": 7845.7998046875,
+      "avgGrade": -0.04588441923260689,
+      "startLat": 39.9858512878418,
+      "startLng": 116.47920227050781
+    },
+    {
+      "id": "4202141",
+      "tileScore": 1,
+      "name": "Huajiadi street northwestbound",
+      "distanceM": 2883.10009765625,
+      "avgGrade": 0.3537858724594116,
+      "startLat": 39.97145462036133,
+      "startLng": 116.48356628417969
+    },
+    {
+      "id": "13640224",
+      "tileScore": 2,
+      "name": "Wangjing Central Park Loop",
+      "distanceM": 1280.800048828125,
+      "avgGrade": 0.1561523973941803,
+      "startLat": 39.99427795410156,
+      "startLng": 116.47167205810547
+    },
+    {
+      "id": "39159640",
+      "tileScore": 9,
+      "name": "容和路单圈（半程）",
+      "distanceM": 3236.300048828125,
+      "avgGrade": 0.037079378962516785,
+      "startLat": 40.00830841064453,
+      "startLng": 116.48788452148438
+    },
+    {
+      "id": "12743591",
+      "tileScore": 5,
+      "name": "四元西桥北向南爬坡",
+      "distanceM": 456.70001220703125,
+      "avgGrade": 0.9634333848953247,
+      "startLat": 39.977664947509766,
+      "startLng": 116.46086883544922
+    },
+    {
+      "id": "42175804",
+      "tileScore": 2,
+      "name": "骑车比开车快的通勤",
+      "distanceM": 37951.69921875,
+      "avgGrade": -0.10223521292209625,
+      "startLat": 39.905982971191406,
+      "startLng": 116.25113677978516
+    },
+    {
+      "id": "39149672",
+      "tileScore": 2,
+      "name": "宏泰街（W-E）",
+      "distanceM": 1085.5999755859375,
+      "avgGrade": 0.09211496263742447,
+      "startLat": 40.00063705444336,
+      "startLng": 116.47334289550781
+    },
+    {
+      "id": "4995923",
+      "tileScore": 28,
+      "name": "798 to Laiguangyin East",
+      "distanceM": 4873.7001953125,
+      "avgGrade": 0.01641463302075863,
+      "startLat": 39.988677978515625,
+      "startLng": 116.48301696777344
+    },
+    {
+      "id": "26141628",
+      "tileScore": 3,
+      "name": "Nice Curves",
+      "distanceM": 943.2999877929688,
+      "avgGrade": 0.6572670340538025,
+      "startLat": 40.00186538696289,
+      "startLng": 116.4840087890625
+    },
+    {
+      "id": "37511458",
+      "tileScore": 12,
+      "name": "3rd Ring to Wenyu River",
+      "distanceM": 13751.5,
+      "avgGrade": -0.09017197787761688,
+      "startLat": 39.95709991455078,
+      "startLng": 116.44827270507812
+    },
+    {
+      "id": "26141636",
+      "tileScore": 4,
+      "name": "Panda Express",
+      "distanceM": 469.29998779296875,
+      "avgGrade": 0.4261666536331177,
+      "startLat": 39.98356246948242,
+      "startLng": 116.47602844238281
+    },
+    {
+      "id": "41659290",
+      "tileScore": 3,
+      "name": "北小河绿道一疗程",
+      "distanceM": 7747,
+      "avgGrade": -0.019362332299351692,
+      "startLat": 40.00328063964844,
+      "startLng": 116.48402404785156
+    }
+  ]
+}

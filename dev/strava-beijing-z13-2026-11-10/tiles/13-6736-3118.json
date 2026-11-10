@@ -1,0 +1,20 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T19:45:54.903Z",
+  "tile": {
+    "z": 13,
+    "x": 6736,
+    "y": 3118
+  },
+  "segments": [
+    {
+      "id": "39035918",
+      "tileScore": 3,
+      "name": "京深路-肖官营",
+      "distanceM": 40175.80078125,
+      "avgGrade": -0.023894980549812317,
+      "startLat": 39.66836929321289,
+      "startLng": 116.1402587890625
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T20:33:30.620Z",
+  "tile": {
+    "z": 13,
+    "x": 6806,
+    "y": 3391
+  },
+  "segments": [
+    {
+      "id": "40938899",
+      "tileScore": 11,
+      "name": "Intercontinental out and back",
+      "distanceM": 21620.19921875,
+      "avgGrade": -0.009250608272850513,
+      "startLat": 29.551006317138672,
+      "startLng": 119.11785125732422
+    },
+    {
+      "id": "33620761",
+      "tileScore": 2,
+      "name": "夏承涛路",
+      "distanceM": 592.2000122070312,
+      "avgGrade": 11.212428092956543,
+      "startLat": 29.553495407104492,
+      "startLng": 119.11478424072266
+    }
+  ]
+}

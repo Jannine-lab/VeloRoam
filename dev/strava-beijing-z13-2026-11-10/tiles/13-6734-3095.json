@@ -1,0 +1,83 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T19:41:40.798Z",
+  "tile": {
+    "z": 13,
+    "x": 6734,
+    "y": 3095
+  },
+  "segments": [
+    {
+      "id": "12084593",
+      "tileScore": 1,
+      "name": "SERK Bee Hive Climb",
+      "distanceM": 1573,
+      "avgGrade": 5.073108673095703,
+      "startLat": 40.20436096191406,
+      "startLng": 115.93453216552734
+    },
+    {
+      "id": "5865996",
+      "tileScore": 4,
+      "name": "Hexian Road Climb",
+      "distanceM": 8411.400390625,
+      "avgGrade": 5.335616111755371,
+      "startLat": 40.23571014404297,
+      "startLng": 115.98345184326172
+    },
+    {
+      "id": "24636310",
+      "tileScore": 43,
+      "name": "流村-白杨沟-高崖口-流村",
+      "distanceM": 52937.5,
+      "avgGrade": -0.01246753241866827,
+      "startLat": 40.1710090637207,
+      "startLng": 116.05884552001953
+    },
+    {
+      "id": "13306759",
+      "tileScore": 196,
+      "name": "之字坡结束-白羊沟测试终点",
+      "distanceM": 7120.5,
+      "avgGrade": 4.946281909942627,
+      "startLat": 40.2406005859375,
+      "startLng": 115.96900177001953
+    },
+    {
+      "id": "24647656",
+      "tileScore": 91,
+      "name": "反爬白羊沟缓上",
+      "distanceM": 8825.400390625,
+      "avgGrade": 1.5138124227523804,
+      "startLat": 40.156307220458984,
+      "startLng": 115.87583923339844
+    },
+    {
+      "id": "37162252",
+      "tileScore": 8,
+      "name": "小心扎胎嗷",
+      "distanceM": 3544.699951171875,
+      "avgGrade": 5.929980278015137,
+      "startLat": 40.20462417602539,
+      "startLng": 115.93457794189453
+    },
+    {
+      "id": "24371827",
+      "tileScore": 190,
+      "name": "白杨沟爬坡最后3公里",
+      "distanceM": 2745.5,
+      "avgGrade": 6.293935298919678,
+      "startLat": 40.2296142578125,
+      "startLng": 115.93669128417969
+    },
+    {
+      "id": "19092875",
+      "tileScore": 648,
+      "name": "2018 白杨沟爬坡赛",
+      "distanceM": 14929.900390625,
+      "avgGrade": 4.045572757720947,
+      "startLat": 40.19498825073242,
+      "startLng": 116.0189437866211
+    }
+  ]
+}

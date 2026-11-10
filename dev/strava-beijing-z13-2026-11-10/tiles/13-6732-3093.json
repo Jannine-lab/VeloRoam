@@ -1,0 +1,20 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T19:44:59.084Z",
+  "tile": {
+    "z": 13,
+    "x": 6732,
+    "y": 3093
+  },
+  "segments": [
+    {
+      "id": "37737706",
+      "tileScore": 8,
+      "name": "正爬辛房村",
+      "distanceM": 5495,
+      "avgGrade": 2.8753411769866943,
+      "startLat": 40.28742980957031,
+      "startLng": 115.83101654052734
+    }
+  ]
+}

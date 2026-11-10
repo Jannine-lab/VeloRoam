@@ -1,0 +1,29 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T19:46:07.288Z",
+  "tile": {
+    "z": 13,
+    "x": 6752,
+    "y": 3088
+  },
+  "segments": [
+    {
+      "id": "31828155",
+      "tileScore": 32,
+      "name": "西统路ITT（路口慢点别被车怼了）",
+      "distanceM": 13127.7998046875,
+      "avgGrade": -0.18281814455986023,
+      "startLat": 40.479148864746094,
+      "startLng": 116.8111572265625
+    },
+    {
+      "id": "32282490",
+      "tileScore": 10,
+      "name": "西统高速公路",
+      "distanceM": 3804.5,
+      "avgGrade": 0.18924957513809204,
+      "startLat": 40.39712142944336,
+      "startLng": 116.7499008178711
+    }
+  ]
+}

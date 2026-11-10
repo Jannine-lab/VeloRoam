@@ -1,0 +1,29 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T19:52:38.329Z",
+  "tile": {
+    "z": 13,
+    "x": 6730,
+    "y": 3086
+  },
+  "segments": [
+    {
+      "id": "31659429",
+      "tileScore": 767,
+      "name": "松山爬坡全程-路口到检查站(2022冬奥后)",
+      "distanceM": 16449.599609375,
+      "avgGrade": 4.8913044929504395,
+      "startLat": 40.481170654296875,
+      "startLng": 115.82749938964844
+    },
+    {
+      "id": "4807247",
+      "tileScore": 20,
+      "name": "County Road Climb",
+      "distanceM": 667.7000122070312,
+      "avgGrade": 12.490639686584473,
+      "startLat": 40.508216857910156,
+      "startLng": 115.79135131835938
+    }
+  ]
+}

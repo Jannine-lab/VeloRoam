@@ -1,0 +1,56 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T20:32:29.207Z",
+  "tile": {
+    "z": 13,
+    "x": 6801,
+    "y": 3374
+  },
+  "segments": [
+    {
+      "id": "34959797",
+      "tileScore": 646,
+      "name": "浙西纯爬坡段(HC)",
+      "distanceM": 22880.099609375,
+      "avgGrade": 3.766591787338257,
+      "startLat": 30.279924392700195,
+      "startLng": 119.00922393798828
+    },
+    {
+      "id": "34378160",
+      "tileScore": 719,
+      "name": "2023骑闯天路太子尖  东南一柱堪擎天",
+      "distanceM": 46319,
+      "avgGrade": 2.5449600219726562,
+      "startLat": 30.17902946472168,
+      "startLng": 119.12055206298828
+    },
+    {
+      "id": "11663226",
+      "tileScore": 385,
+      "name": "lozho_华浪线北坡Hard",
+      "distanceM": 6328,
+      "avgGrade": 5.5625786781311035,
+      "startLat": 30.190763473510742,
+      "startLng": 118.91389465332031
+    },
+    {
+      "id": "39963328",
+      "tileScore": 46,
+      "name": "这段放坡要加脚",
+      "distanceM": 1987.0999755859375,
+      "avgGrade": -3.5730462074279785,
+      "startLat": 30.19272232055664,
+      "startLng": 118.91548919677734
+    },
+    {
+      "id": "35721816",
+      "tileScore": 5,
+      "name": "Ningdun to Jingzhou",
+      "distanceM": 70412.3984375,
+      "avgGrade": 1.488232135772705,
+      "startLat": 30.4671630859375,
+      "startLng": 119.11399841308594
+    }
+  ]
+}

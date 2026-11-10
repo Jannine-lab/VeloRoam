@@ -1,0 +1,137 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T20:31:29.544Z",
+  "tile": {
+    "z": 13,
+    "x": 6802,
+    "y": 3380
+  },
+  "segments": [
+    {
+      "id": "37740201",
+      "tileScore": 39,
+      "name": "金陵天路【DQ】",
+      "distanceM": 8305,
+      "avgGrade": 7.198073863983154,
+      "startLat": 29.94025993347168,
+      "startLng": 118.94456481933594
+    },
+    {
+      "id": "25635908",
+      "tileScore": 6,
+      "name": "Potential Everest Segment",
+      "distanceM": 513,
+      "avgGrade": -9.707602500915527,
+      "startLat": 29.98845863342285,
+      "startLng": 118.91687774658203
+    },
+    {
+      "id": "42432517",
+      "tileScore": 2,
+      "name": "Will be clean soon",
+      "distanceM": 3392,
+      "avgGrade": 9.545990943908691,
+      "startLat": 29.963642120361328,
+      "startLng": 118.93830871582031
+    },
+    {
+      "id": "41672898",
+      "tileScore": 5,
+      "name": "金陵天路climb",
+      "distanceM": 3489.699951171875,
+      "avgGrade": 8.37894344329834,
+      "startLat": 29.982179641723633,
+      "startLng": 118.9525375366211
+    },
+    {
+      "id": "25336034",
+      "tileScore": 5,
+      "name": "Party people",
+      "distanceM": 7316.60009765625,
+      "avgGrade": -2.5421643257141113,
+      "startLat": 29.989578247070312,
+      "startLng": 118.92867279052734
+    },
+    {
+      "id": "20506602",
+      "tileScore": 5,
+      "name": "Spin to Jinling Village",
+      "distanceM": 3649.10009765625,
+      "avgGrade": 2.806171417236328,
+      "startLat": 29.940317153930664,
+      "startLng": 118.94449615478516
+    },
+    {
+      "id": "39640027",
+      "tileScore": 1,
+      "name": "隐将-上庵堂climb",
+      "distanceM": 8816.5,
+      "avgGrade": 4.673056125640869,
+      "startLat": 29.970354080200195,
+      "startLng": 118.9862289428711
+    },
+    {
+      "id": "37740236",
+      "tileScore": 1,
+      "name": "板桥村爬坡【DQ】",
+      "distanceM": 2018.0999755859375,
+      "avgGrade": 3.7510528564453125,
+      "startLat": 29.991439819335938,
+      "startLng": 118.92208099365234
+    },
+    {
+      "id": "42428232",
+      "tileScore": 1,
+      "name": "Clean Slate 26",
+      "distanceM": 113029.5,
+      "avgGrade": -0.006016128696501255,
+      "startLat": 30.0743350982666,
+      "startLng": 118.81914520263672
+    },
+    {
+      "id": "37740271",
+      "tileScore": 44,
+      "name": "胡家坪村热身坡【DQ】",
+      "distanceM": 3360.5,
+      "avgGrade": 8.903436660766602,
+      "startLat": 29.94837760925293,
+      "startLng": 118.91738891601562
+    },
+    {
+      "id": "37740283",
+      "tileScore": 17,
+      "name": "上源爬坡【DQ】",
+      "distanceM": 4345.10009765625,
+      "avgGrade": 1.9101977348327637,
+      "startLat": 29.964651107788086,
+      "startLng": 118.9267807006836
+    },
+    {
+      "id": "40445806",
+      "tileScore": 10,
+      "name": "金陵天路gravel descent",
+      "distanceM": 529.0999755859375,
+      "avgGrade": -9.639009475708008,
+      "startLat": 29.971546173095703,
+      "startLng": 118.95012664794922
+    },
+    {
+      "id": "24079037",
+      "tileScore": 45,
+      "name": "Audrey's Gravel Bollocks Buster",
+      "distanceM": 1215.5,
+      "avgGrade": 11.25462818145752,
+      "startLat": 29.989517211914062,
+      "startLng": 118.92864227294922
+    },
+    {
+      "id": "12587279",
+      "tileScore": 54,
+      "name": "South Hill 2 Loop",
+      "distanceM": 10584.099609375,
+      "avgGrade": 4.115607261657715,
+      "startLat": 29.937746047973633,
+      "startLng": 118.88874816894531
+    }
+  ]
+}

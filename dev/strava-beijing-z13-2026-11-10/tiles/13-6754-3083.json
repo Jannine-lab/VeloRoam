@@ -1,0 +1,56 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T19:54:24.688Z",
+  "tile": {
+    "z": 13,
+    "x": 6754,
+    "y": 3083
+  },
+  "segments": [
+    {
+      "id": "29418270",
+      "tileScore": 31,
+      "name": "真是个小坡",
+      "distanceM": 2805.39990234375,
+      "avgGrade": 2.6769802570343018,
+      "startLat": 40.592288970947266,
+      "startLng": 116.83056640625
+    },
+    {
+      "id": "17444363",
+      "tileScore": 52,
+      "name": "环密云水库",
+      "distanceM": 99223.3984375,
+      "avgGrade": 0.017334621399641037,
+      "startLat": 40.473995208740234,
+      "startLng": 116.87325286865234
+    },
+    {
+      "id": "19165201",
+      "tileScore": 46,
+      "name": "密云水库起伏路",
+      "distanceM": 19491.599609375,
+      "avgGrade": 0.948100745677948,
+      "startLat": 40.47593307495117,
+      "startLng": 116.82794952392578
+    },
+    {
+      "id": "3574958",
+      "tileScore": 6,
+      "name": "Liuxin Road climb westbound",
+      "distanceM": 2218.525390625,
+      "avgGrade": 4.1828179359436035,
+      "startLat": 40.6027946472168,
+      "startLng": 116.86325073242188
+    },
+    {
+      "id": "42448614",
+      "tileScore": 1,
+      "name": "Epic ShiPaoGou Climb",
+      "distanceM": 8302.7001953125,
+      "avgGrade": 3.3940765857696533,
+      "startLat": 40.603294372558594,
+      "startLng": 116.84005737304688
+    }
+  ]
+}

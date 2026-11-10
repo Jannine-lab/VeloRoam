@@ -1,0 +1,29 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T20:07:54.577Z",
+  "tile": {
+    "z": 13,
+    "x": 6722,
+    "y": 3077
+  },
+  "segments": [
+    {
+      "id": "37276039",
+      "tileScore": 3,
+      "name": "李家堡正盘台15km爬坡",
+      "distanceM": 14619.099609375,
+      "avgGrade": 5.064607620239258,
+      "startLat": 40.68984603881836,
+      "startLng": 115.38711547851562
+    },
+    {
+      "id": "36783537",
+      "tileScore": 8,
+      "name": "正盘台爬坡",
+      "distanceM": 4835.39990234375,
+      "avgGrade": 6.717127799987793,
+      "startLat": 40.77106857299805,
+      "startLng": 115.418212890625
+    }
+  ]
+}

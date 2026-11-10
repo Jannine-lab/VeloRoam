@@ -1,0 +1,20 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T19:43:22.768Z",
+  "tile": {
+    "z": 13,
+    "x": 6758,
+    "y": 3099
+  },
+  "segments": [
+    {
+      "id": "40035710",
+      "tileScore": 6,
+      "name": "来一圈",
+      "distanceM": 946.2000122070312,
+      "avgGrade": 0.021137181669473648,
+      "startLat": 40.06092834472656,
+      "startLng": 116.9964370727539
+    }
+  ]
+}

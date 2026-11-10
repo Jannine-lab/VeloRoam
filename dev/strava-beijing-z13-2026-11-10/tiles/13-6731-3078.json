@@ -1,0 +1,20 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T20:01:46.088Z",
+  "tile": {
+    "z": 13,
+    "x": 6731,
+    "y": 3078
+  },
+  "segments": [
+    {
+      "id": "25810944",
+      "tileScore": 48,
+      "name": "239国道climb",
+      "distanceM": 12205.400390625,
+      "avgGrade": 2.0941550731658936,
+      "startLat": 40.723445892333984,
+      "startLng": 115.81907653808594
+    }
+  ]
+}

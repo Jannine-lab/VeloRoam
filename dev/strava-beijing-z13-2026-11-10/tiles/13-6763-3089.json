@@ -1,0 +1,20 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T19:54:09.749Z",
+  "tile": {
+    "z": 13,
+    "x": 6763,
+    "y": 3089
+  },
+  "segments": [
+    {
+      "id": "42359354",
+      "tileScore": 3,
+      "name": "杨家台climb",
+      "distanceM": 9699.900390625,
+      "avgGrade": 2.9278652667999268,
+      "startLat": 40.41630935668945,
+      "startLng": 117.171630859375
+    }
+  ]
+}

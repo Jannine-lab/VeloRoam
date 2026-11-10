@@ -1,0 +1,20 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T20:28:48.178Z",
+  "tile": {
+    "z": 13,
+    "x": 6840,
+    "y": 3394
+  },
+  "segments": [
+    {
+      "id": "34157949",
+      "tileScore": 142,
+      "name": "皮包山 ↗ 贵门",
+      "distanceM": 4885.2998046875,
+      "avgGrade": 5.551347732543945,
+      "startLat": 29.438446044921875,
+      "startLng": 120.60738372802734
+    }
+  ]
+}

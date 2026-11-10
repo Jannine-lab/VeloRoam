@@ -1,0 +1,29 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T19:54:37.024Z",
+  "tile": {
+    "z": 13,
+    "x": 6724,
+    "y": 3091
+  },
+  "segments": [
+    {
+      "id": "20248988",
+      "tileScore": 1,
+      "name": "少年 你要被断龙了",
+      "distanceM": 537.2999877929688,
+      "avgGrade": 2.456727981567383,
+      "startLat": 40.32098388671875,
+      "startLng": 115.5314712524414
+    },
+    {
+      "id": "37128227",
+      "tileScore": 22,
+      "name": "怀来老君山爬墙计时赛",
+      "distanceM": 2656,
+      "avgGrade": 8.787651062011719,
+      "startLat": 40.3330078125,
+      "startLng": 115.52738189697266
+    }
+  ]
+}

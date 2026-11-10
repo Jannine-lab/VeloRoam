@@ -1,0 +1,38 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T20:25:40.765Z",
+  "tile": {
+    "z": 13,
+    "x": 6811,
+    "y": 3377
+  },
+  "segments": [
+    {
+      "id": "40510710",
+      "tileScore": 1,
+      "name": "野猪塘down",
+      "distanceM": 1292.5,
+      "avgGrade": -9.88781452178955,
+      "startLat": 30.090112686157227,
+      "startLng": 119.32093048095703
+    },
+    {
+      "id": "39844297",
+      "tileScore": 2,
+      "name": "茶叶山climb",
+      "distanceM": 3876.800048828125,
+      "avgGrade": 2.2492778301239014,
+      "startLat": 30.0748348236084,
+      "startLng": 119.36824035644531
+    },
+    {
+      "id": "39844355",
+      "tileScore": 3,
+      "name": "双坑村climb",
+      "distanceM": 2277.800048828125,
+      "avgGrade": 4.319958209991455,
+      "startLat": 30.103530883789062,
+      "startLng": 119.34182739257812
+    }
+  ]
+}

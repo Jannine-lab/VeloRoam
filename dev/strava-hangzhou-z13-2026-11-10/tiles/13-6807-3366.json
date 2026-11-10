@@ -1,0 +1,29 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T20:28:33.149Z",
+  "tile": {
+    "z": 13,
+    "x": 6807,
+    "y": 3366
+  },
+  "segments": [
+    {
+      "id": "32117545",
+      "tileScore": 2,
+      "name": "cd-G329中溪镇10公里西往东缓上",
+      "distanceM": 10404.400390625,
+      "avgGrade": 0.1922263652086258,
+      "startLat": 30.49645233154297,
+      "startLng": 119.142333984375
+    },
+    {
+      "id": "32117512",
+      "tileScore": 1,
+      "name": "cd-宁墩至G329",
+      "distanceM": 4194.89990234375,
+      "avgGrade": -0.26222318410873413,
+      "startLat": 30.46385955810547,
+      "startLng": 119.12065887451172
+    }
+  ]
+}

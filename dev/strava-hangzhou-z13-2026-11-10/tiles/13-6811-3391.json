@@ -1,0 +1,20 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T20:31:04.072Z",
+  "tile": {
+    "z": 13,
+    "x": 6811,
+    "y": 3391
+  },
+  "segments": [
+    {
+      "id": "22019494",
+      "tileScore": 44,
+      "name": "薛上",
+      "distanceM": 6471.5,
+      "avgGrade": 5.9986090660095215,
+      "startLat": 29.560279846191406,
+      "startLng": 119.3061752319336
+    }
+  ]
+}

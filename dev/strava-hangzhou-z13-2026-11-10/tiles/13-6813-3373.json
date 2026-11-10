@@ -1,0 +1,29 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T20:23:55.880Z",
+  "tile": {
+    "z": 13,
+    "x": 6813,
+    "y": 3373
+  },
+  "segments": [
+    {
+      "id": "37860227",
+      "tileScore": 1,
+      "name": "龙岭",
+      "distanceM": 27964.099609375,
+      "avgGrade": -1.0112966299057007,
+      "startLat": 30.32215118408203,
+      "startLng": 119.45536041259766
+    },
+    {
+      "id": "32936065",
+      "tileScore": 21,
+      "name": "临安-於潜",
+      "distanceM": 31334.80078125,
+      "avgGrade": 0.1614817976951599,
+      "startLat": 30.231800079345703,
+      "startLng": 119.67792510986328
+    }
+  ]
+}

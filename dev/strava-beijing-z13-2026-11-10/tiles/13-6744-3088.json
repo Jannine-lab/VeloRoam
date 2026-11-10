@@ -1,0 +1,38 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T19:44:25.176Z",
+  "tile": {
+    "z": 13,
+    "x": 6744,
+    "y": 3088
+  },
+  "segments": [
+    {
+      "id": "42127503",
+      "tileScore": 5,
+      "name": "无法回头的路",
+      "distanceM": 815.0999755859375,
+      "avgGrade": 14.893877029418945,
+      "startLat": 40.414024353027344,
+      "startLng": 116.36888885498047
+    },
+    {
+      "id": "17394155",
+      "tileScore": 7,
+      "name": "Provincial Road to Bus Stop",
+      "distanceM": 2506.199951171875,
+      "avgGrade": 5.187135696411133,
+      "startLat": 40.445152282714844,
+      "startLng": 116.41254425048828
+    },
+    {
+      "id": "7139800",
+      "tileScore": 23,
+      "name": "Sancha Climb",
+      "distanceM": 7068,
+      "avgGrade": 4.1284661293029785,
+      "startLat": 40.417213439941406,
+      "startLng": 116.44315338134766
+    }
+  ]
+}

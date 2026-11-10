@@ -1,0 +1,20 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T20:41:42.378Z",
+  "tile": {
+    "z": 13,
+    "x": 6787,
+    "y": 3379
+  },
+  "segments": [
+    {
+      "id": "37544077",
+      "tileScore": 39,
+      "name": "呈阳爬坡一脚定乾坤",
+      "distanceM": 5630.60009765625,
+      "avgGrade": 6.1858415603637695,
+      "startLat": 30.009559631347656,
+      "startLng": 118.28974914550781
+    }
+  ]
+}

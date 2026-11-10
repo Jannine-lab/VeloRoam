@@ -1,0 +1,20 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T20:00:46.208Z",
+  "tile": {
+    "z": 13,
+    "x": 6732,
+    "y": 3079
+  },
+  "segments": [
+    {
+      "id": "39503149",
+      "tileScore": 10,
+      "name": "雕鹗-->隔河寨隧道",
+      "distanceM": 13272.7998046875,
+      "avgGrade": -0.7941052317619324,
+      "startLat": 40.720951080322266,
+      "startLng": 115.82086181640625
+    }
+  ]
+}

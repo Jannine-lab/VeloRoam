@@ -1,0 +1,56 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T20:36:27.044Z",
+  "tile": {
+    "z": 13,
+    "x": 6801,
+    "y": 3390
+  },
+  "segments": [
+    {
+      "id": "38834319",
+      "tileScore": 74,
+      "name": "最后6.7",
+      "distanceM": 6729,
+      "avgGrade": 0.00891662947833538,
+      "startLat": 29.583879470825195,
+      "startLng": 118.89347076416016
+    },
+    {
+      "id": "33313659",
+      "tileScore": 27,
+      "name": "114KM 最后一坡",
+      "distanceM": 2650.10009765625,
+      "avgGrade": 1.8565336465835571,
+      "startLat": 29.583984375,
+      "startLng": 118.88847351074219
+    },
+    {
+      "id": "36580986",
+      "tileScore": 3,
+      "name": "界首-淳练线28m",
+      "distanceM": 13852.7001953125,
+      "avgGrade": -0.14581994712352753,
+      "startLat": 29.608665466308594,
+      "startLng": 118.91712188720703
+    },
+    {
+      "id": "5935106",
+      "tileScore": 37,
+      "name": "Chunshi Line Climb",
+      "distanceM": 541,
+      "avgGrade": 31.146026611328125,
+      "startLat": 29.606678009033203,
+      "startLng": 118.91749572753906
+    },
+    {
+      "id": "2652843",
+      "tileScore": 20,
+      "name": "淳施线 Climb",
+      "distanceM": 405.27032470703125,
+      "avgGrade": 29.38564109802246,
+      "startLat": 29.599990844726562,
+      "startLng": 118.91146087646484
+    }
+  ]
+}

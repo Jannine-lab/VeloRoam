@@ -1,0 +1,20 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T19:39:11.936Z",
+  "tile": {
+    "z": 13,
+    "x": 6736,
+    "y": 3111
+  },
+  "segments": [
+    {
+      "id": "33044144",
+      "tileScore": 2,
+      "name": "高老湿到北理工上班路线",
+      "distanceM": 59155.6015625,
+      "avgGrade": 0.03042822703719139,
+      "startLat": 39.66828155517578,
+      "startLng": 116.05886840820312
+    }
+  ]
+}

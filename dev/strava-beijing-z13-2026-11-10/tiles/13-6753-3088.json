@@ -1,0 +1,20 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T19:46:07.288Z",
+  "tile": {
+    "z": 13,
+    "x": 6753,
+    "y": 3088
+  },
+  "segments": [
+    {
+      "id": "36371853",
+      "tileScore": 12,
+      "name": "京密引水渠东岸",
+      "distanceM": 9109.7998046875,
+      "avgGrade": 0.16685327887535095,
+      "startLat": 40.44977569580078,
+      "startLng": 116.81441497802734
+    }
+  ]
+}

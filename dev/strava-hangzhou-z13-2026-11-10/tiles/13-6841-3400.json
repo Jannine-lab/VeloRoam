@@ -1,0 +1,20 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T20:33:13.961Z",
+  "tile": {
+    "z": 13,
+    "x": 6841,
+    "y": 3400
+  },
+  "segments": [
+    {
+      "id": "35478777",
+      "tileScore": 6,
+      "name": "玉山镇到九和乡",
+      "distanceM": 8834.7998046875,
+      "avgGrade": -0.8194865584373474,
+      "startLat": 29.221464157104492,
+      "startLng": 120.67180633544922
+    }
+  ]
+}

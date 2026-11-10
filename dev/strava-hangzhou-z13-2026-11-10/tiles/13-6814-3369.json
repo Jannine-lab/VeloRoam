@@ -1,0 +1,56 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T20:22:48.121Z",
+  "tile": {
+    "z": 13,
+    "x": 6814,
+    "y": 3369
+  },
+  "segments": [
+    {
+      "id": "14248445",
+      "tileScore": 3,
+      "name": "LONGWANGSHAN desent",
+      "distanceM": 19360.900390625,
+      "avgGrade": -5.146454811096191,
+      "startLat": 30.40850830078125,
+      "startLng": 119.46644592285156
+    },
+    {
+      "id": "4899176",
+      "tileScore": 4,
+      "name": "Shenwang Line Climb",
+      "distanceM": 2007.5999755859375,
+      "avgGrade": 10.724247932434082,
+      "startLat": 30.41444969177246,
+      "startLng": 119.46359252929688
+    },
+    {
+      "id": "38057678",
+      "tileScore": 5,
+      "name": "田青塘拐弯别走错，到顶掉头走水泥路",
+      "distanceM": 953.2000122070312,
+      "avgGrade": 8.707511901855469,
+      "startLat": 30.388444900512695,
+      "startLng": 119.4864501953125
+    },
+    {
+      "id": "38057928",
+      "tileScore": 36,
+      "name": "田青塘穿到龙王山",
+      "distanceM": 3412.5,
+      "avgGrade": 11.340659141540527,
+      "startLat": 30.38862419128418,
+      "startLng": 119.48648834228516
+    },
+    {
+      "id": "33712824",
+      "tileScore": 12,
+      "name": "天目大峡谷",
+      "distanceM": 2894.199951171875,
+      "avgGrade": 6.046576023101807,
+      "startLat": 30.36775779724121,
+      "startLng": 119.47168731689453
+    }
+  ]
+}

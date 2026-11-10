@@ -1,0 +1,47 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T19:58:36.994Z",
+  "tile": {
+    "z": 13,
+    "x": 6757,
+    "y": 3080
+  },
+  "segments": [
+    {
+      "id": "3764916",
+      "tileScore": 15,
+      "name": "X008 climb northbound",
+      "distanceM": 18492.76953125,
+      "avgGrade": 1.8807319402694702,
+      "startLat": 40.60089111328125,
+      "startLng": 116.86941528320312
+    },
+    {
+      "id": "18785328",
+      "tileScore": 18,
+      "name": "响水谷",
+      "distanceM": 2539.800048828125,
+      "avgGrade": 5.307504653930664,
+      "startLat": 40.687904357910156,
+      "startLng": 116.93547058105469
+    },
+    {
+      "id": "4414094",
+      "tileScore": 2,
+      "name": "Beijing Pelaton breakaway climb",
+      "distanceM": 15589,
+      "avgGrade": 1.8307781219482422,
+      "startLat": 40.624969482421875,
+      "startLng": 117.02896881103516
+    },
+    {
+      "id": "5410015",
+      "tileScore": 2,
+      "name": "County Road Climb",
+      "distanceM": 1778.699951171875,
+      "avgGrade": 4.711306095123291,
+      "startLat": 40.67875289916992,
+      "startLng": 116.95943450927734
+    }
+  ]
+}

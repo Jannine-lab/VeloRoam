@@ -1,0 +1,38 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T20:27:49.597Z",
+  "tile": {
+    "z": 13,
+    "x": 6806,
+    "y": 3372
+  },
+  "segments": [
+    {
+      "id": "38891343",
+      "tileScore": 5,
+      "name": "大源潭水库",
+      "distanceM": 1358.5,
+      "avgGrade": 0,
+      "startLat": 30.26795768737793,
+      "startLng": 119.13916015625
+    },
+    {
+      "id": "35098880",
+      "tileScore": 14,
+      "name": "吴越古道",
+      "distanceM": 6974.7998046875,
+      "avgGrade": 5.677582263946533,
+      "startLat": 30.238712310791016,
+      "startLng": 119.09707641601562
+    },
+    {
+      "id": "14393343",
+      "tileScore": 152,
+      "name": "浙西天池爬坡",
+      "distanceM": 14509.2001953125,
+      "avgGrade": 5.706724166870117,
+      "startLat": 30.257762908935547,
+      "startLng": 119.07039642333984
+    }
+  ]
+}

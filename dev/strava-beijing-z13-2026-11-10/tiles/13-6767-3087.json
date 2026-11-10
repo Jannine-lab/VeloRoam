@@ -1,0 +1,47 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T20:00:33.871Z",
+  "tile": {
+    "z": 13,
+    "x": 6767,
+    "y": 3087
+  },
+  "segments": [
+    {
+      "id": "15980879",
+      "tileScore": 3,
+      "name": "Short-n-sharp",
+      "distanceM": 590.5999755859375,
+      "avgGrade": 9.00778865814209,
+      "startLat": 40.46985626220703,
+      "startLng": 117.4158935546875
+    },
+    {
+      "id": "35706229",
+      "tileScore": 4,
+      "name": "小黄岩河最后陡坡",
+      "distanceM": 1622.800048828125,
+      "avgGrade": 6.753758907318115,
+      "startLat": 40.47420120239258,
+      "startLng": 117.40852355957031
+    },
+    {
+      "id": "35513630",
+      "tileScore": 7,
+      "name": "罗圈沟",
+      "distanceM": 10013.5,
+      "avgGrade": 1.8644829988479614,
+      "startLat": 40.440574645996094,
+      "startLng": 117.4864501953125
+    },
+    {
+      "id": "10663618",
+      "tileScore": 10,
+      "name": "石门山到罗圈沟爬坡",
+      "distanceM": 23747.80078125,
+      "avgGrade": 2.0161867141723633,
+      "startLat": 40.48835372924805,
+      "startLng": 117.24122619628906
+    }
+  ]
+}

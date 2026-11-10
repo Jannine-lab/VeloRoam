@@ -1,0 +1,29 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T20:12:39.553Z",
+  "tile": {
+    "z": 13,
+    "x": 6720,
+    "y": 3067
+  },
+  "segments": [
+    {
+      "id": "39545145",
+      "tileScore": 35,
+      "name": "芍药沟瓦房沟",
+      "distanceM": 8557.5,
+      "avgGrade": 5.630148887634277,
+      "startLat": 41.056941986083984,
+      "startLng": 115.33252716064453
+    },
+    {
+      "id": "39545151",
+      "tileScore": 25,
+      "name": "反爬瓦房沟",
+      "distanceM": 8459,
+      "avgGrade": 4.348031997680664,
+      "startLat": 41.16648483276367,
+      "startLng": 115.26874542236328
+    }
+  ]
+}

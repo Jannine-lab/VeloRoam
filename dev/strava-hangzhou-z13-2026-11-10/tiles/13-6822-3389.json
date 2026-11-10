@@ -1,0 +1,20 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T20:25:33.307Z",
+  "tile": {
+    "z": 13,
+    "x": 6822,
+    "y": 3389
+  },
+  "segments": [
+    {
+      "id": "26382250",
+      "tileScore": 3,
+      "name": "大姑源柏油路",
+      "distanceM": 5601.5,
+      "avgGrade": 1.4710345268249512,
+      "startLat": 29.592769622802734,
+      "startLng": 119.85536193847656
+    }
+  ]
+}

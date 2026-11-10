@@ -1,0 +1,20 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T20:42:59.122Z",
+  "tile": {
+    "z": 13,
+    "x": 6787,
+    "y": 3394
+  },
+  "segments": [
+    {
+      "id": "37903180",
+      "tileScore": 33,
+      "name": "茶籽岭隧道一路反爬",
+      "distanceM": 12846.900390625,
+      "avgGrade": 1.3917754888534546,
+      "startLat": 29.42841911315918,
+      "startLng": 118.3045883178711
+    }
+  ]
+}

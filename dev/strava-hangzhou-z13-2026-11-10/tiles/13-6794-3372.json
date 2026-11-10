@@ -1,0 +1,20 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T20:36:51.883Z",
+  "tile": {
+    "z": 13,
+    "x": 6794,
+    "y": 3372
+  },
+  "segments": [
+    {
+      "id": "39155026",
+      "tileScore": 7,
+      "name": "黄家岭",
+      "distanceM": 4519.60009765625,
+      "avgGrade": 6.367820739746094,
+      "startLat": 30.283506393432617,
+      "startLng": 118.58002471923828
+    }
+  ]
+}

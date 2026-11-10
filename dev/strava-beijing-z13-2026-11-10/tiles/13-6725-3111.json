@@ -1,0 +1,29 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T19:50:48.029Z",
+  "tile": {
+    "z": 13,
+    "x": 6725,
+    "y": 3111
+  },
+  "segments": [
+    {
+      "id": "33312587",
+      "tileScore": 24,
+      "name": "FY此路不通",
+      "distanceM": 6510.39990234375,
+      "avgGrade": 0.2826247215270996,
+      "startLat": 39.63679885864258,
+      "startLng": 115.58377075195312
+    },
+    {
+      "id": "41344467",
+      "tileScore": 50,
+      "name": "十渡-三坡",
+      "distanceM": 30793.30078125,
+      "avgGrade": 0.2669411897659302,
+      "startLat": 39.63737869262695,
+      "startLng": 115.5823974609375
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T20:37:23.915Z",
+  "tile": {
+    "z": 13,
+    "x": 6799,
+    "y": 3390
+  },
+  "segments": [
+    {
+      "id": "34376125",
+      "tileScore": 4,
+      "name": "富石村A",
+      "distanceM": 3937.5,
+      "avgGrade": 6.024127006530762,
+      "startLat": 29.616567611694336,
+      "startLng": 118.80486297607422
+    },
+    {
+      "id": "36675316",
+      "tileScore": 1,
+      "name": "坑口climb",
+      "distanceM": 1506.4000244140625,
+      "avgGrade": 8.895380020141602,
+      "startLat": 29.57904815673828,
+      "startLng": 118.79383087158203
+    }
+  ]
+}

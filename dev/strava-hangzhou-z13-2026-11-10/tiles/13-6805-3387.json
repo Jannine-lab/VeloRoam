@@ -1,0 +1,29 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T20:32:58.777Z",
+  "tile": {
+    "z": 13,
+    "x": 6805,
+    "y": 3387
+  },
+  "segments": [
+    {
+      "id": "39042483",
+      "tileScore": 20,
+      "name": "The Wiggly Bit",
+      "distanceM": 4739.2998046875,
+      "avgGrade": 0.126600980758667,
+      "startLat": 29.705358505249023,
+      "startLng": 119.07754516601562
+    },
+    {
+      "id": "42444011",
+      "tileScore": 7,
+      "name": "2026 STC 千岛湖铁三 1Lap",
+      "distanceM": 43543,
+      "avgGrade": 0.0002296580350957811,
+      "startLat": 29.655094146728516,
+      "startLng": 119.01878356933594
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T19:39:24.963Z",
+  "tile": {
+    "z": 13,
+    "x": 6739,
+    "y": 3112
+  },
+  "segments": [
+    {
+      "id": "33734650",
+      "tileScore": 18,
+      "name": "小清河北向封闭路",
+      "distanceM": 3238.10009765625,
+      "avgGrade": 0.07411754131317139,
+      "startLat": 39.60642623901367,
+      "startLng": 116.15762329101562
+    }
+  ]
+}

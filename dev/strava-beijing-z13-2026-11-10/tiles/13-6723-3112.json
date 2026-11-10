@@ -1,0 +1,20 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T19:54:04.818Z",
+  "tile": {
+    "z": 13,
+    "x": 6723,
+    "y": 3112
+  },
+  "segments": [
+    {
+      "id": "41344467",
+      "tileScore": 50,
+      "name": "十渡-三坡",
+      "distanceM": 30793.30078125,
+      "avgGrade": 0.2669411897659302,
+      "startLat": 39.63737869262695,
+      "startLng": 115.5823974609375
+    }
+  ]
+}

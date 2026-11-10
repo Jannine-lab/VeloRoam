@@ -1,0 +1,47 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T20:25:20.462Z",
+  "tile": {
+    "z": 13,
+    "x": 6836,
+    "y": 3390
+  },
+  "segments": [
+    {
+      "id": "38996460",
+      "tileScore": 5,
+      "name": "2025.04.20 HEROS诸暨站",
+      "distanceM": 102975.3984375,
+      "avgGrade": 0.0009711057064123452,
+      "startLat": 29.67771339416504,
+      "startLng": 120.24307250976562
+    },
+    {
+      "id": "26036275",
+      "tileScore": 1,
+      "name": "环湖岔口—雄踞",
+      "distanceM": 3342.10009765625,
+      "avgGrade": 0.7719696760177612,
+      "startLat": 29.606441497802734,
+      "startLng": 120.4185562133789
+    },
+    {
+      "id": "26036219",
+      "tileScore": 7,
+      "name": "倒掉火墙 这山名字就是这么怪",
+      "distanceM": 1148.4000244140625,
+      "avgGrade": 6.565656661987305,
+      "startLat": 29.5716552734375,
+      "startLng": 120.43394470214844
+    },
+    {
+      "id": "20342896",
+      "tileScore": 15,
+      "name": "L'Etape Zhuji - Côte de Sizhai (official)",
+      "distanceM": 2140.89990234375,
+      "avgGrade": 4.680274963378906,
+      "startLat": 29.590219497680664,
+      "startLng": 120.41935729980469
+    }
+  ]
+}

@@ -1,0 +1,317 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T19:35:02.578Z",
+  "tile": {
+    "z": 13,
+    "x": 6747,
+    "y": 3099
+  },
+  "segments": [
+    {
+      "id": "41161680",
+      "tileScore": 29,
+      "name": "孙河小缓上",
+      "distanceM": 508.1000061035156,
+      "avgGrade": 1.0824640989303589,
+      "startLat": 40.04914093017578,
+      "startLng": 116.53169250488281
+    },
+    {
+      "id": "33037995",
+      "tileScore": 7,
+      "name": "Eddie's Sprint Home Pt2",
+      "distanceM": 509.3999938964844,
+      "avgGrade": -0.35335689783096313,
+      "startLat": 40.07228469848633,
+      "startLng": 116.51847839355469
+    },
+    {
+      "id": "42350262",
+      "tileScore": 16,
+      "name": "正爬小天路",
+      "distanceM": 910.7999877929688,
+      "avgGrade": 0.37329819798469543,
+      "startLat": 40.07621383666992,
+      "startLng": 116.49273681640625
+    },
+    {
+      "id": "9008001",
+      "tileScore": 7,
+      "name": "Yosemite Sprint",
+      "distanceM": 818.7000122070312,
+      "avgGrade": -0.6229388117790222,
+      "startLat": 40.072021484375,
+      "startLng": 116.51042175292969
+    },
+    {
+      "id": "41791915",
+      "tileScore": 30,
+      "name": "青甸湖大圈",
+      "distanceM": 2784,
+      "avgGrade": 0.07902298867702484,
+      "startLat": 40.04975509643555,
+      "startLng": 116.52017974853516
+    },
+    {
+      "id": "10653417",
+      "tileScore": 5,
+      "name": "Eddie's Sprint Home",
+      "distanceM": 986.4000244140625,
+      "avgGrade": 0,
+      "startLat": 40.06746292114258,
+      "startLng": 116.529296875
+    },
+    {
+      "id": "8176505",
+      "tileScore": 12,
+      "name": "Finishing The River Loop",
+      "distanceM": 3006.60009765625,
+      "avgGrade": -0.07982438802719116,
+      "startLat": 40.036190032958984,
+      "startLng": 116.56391906738281
+    },
+    {
+      "id": "10599955",
+      "tileScore": 17,
+      "name": "Dead Ayi N-S till Gahood",
+      "distanceM": 4604.5,
+      "avgGrade": -0.034748613834381104,
+      "startLat": 40.093475341796875,
+      "startLng": 116.48596954345703
+    },
+    {
+      "id": "41227517",
+      "tileScore": 14,
+      "name": "京密路（来广营东-白马路 S-N）",
+      "distanceM": 20074.400390625,
+      "avgGrade": 0.009464791044592857,
+      "startLat": 40.02456283569336,
+      "startLng": 116.51789855957031
+    },
+    {
+      "id": "15676359",
+      "tileScore": 6,
+      "name": "逃亡",
+      "distanceM": 2461.10009765625,
+      "avgGrade": -0.08532769978046417,
+      "startLat": 40.061187744140625,
+      "startLng": 116.5651626586914
+    },
+    {
+      "id": "39258200",
+      "tileScore": 7,
+      "name": "黄康路辅路（E-W）",
+      "distanceM": 3707.39990234375,
+      "avgGrade": -0.008091924712061882,
+      "startLat": 40.04209899902344,
+      "startLng": 116.51414489746094
+    },
+    {
+      "id": "31837204",
+      "tileScore": 11,
+      "name": "Traffic Light Luck",
+      "distanceM": 4123.5,
+      "avgGrade": 0.00485024880617857,
+      "startLat": 40.108829498291016,
+      "startLng": 116.51690673828125
+    },
+    {
+      "id": "37511458",
+      "tileScore": 12,
+      "name": "3rd Ring to Wenyu River",
+      "distanceM": 13751.5,
+      "avgGrade": -0.09017197787761688,
+      "startLat": 39.95709991455078,
+      "startLng": 116.44827270507812
+    },
+    {
+      "id": "31878328",
+      "tileScore": 11,
+      "name": "Swoosh Down The Road",
+      "distanceM": 930.7000122070312,
+      "avgGrade": 0.021489201113581657,
+      "startLat": 40.056785583496094,
+      "startLng": 116.51449584960938
+    },
+    {
+      "id": "41719582",
+      "tileScore": 68,
+      "name": "我倒是看看Scott和Dogma哪个快",
+      "distanceM": 5009.7001953125,
+      "avgGrade": -0.11178314685821533,
+      "startLat": 40.07814407348633,
+      "startLng": 116.48936462402344
+    },
+    {
+      "id": "42142875",
+      "tileScore": 6,
+      "name": "国展绕圈（1号门）",
+      "distanceM": 5213,
+      "avgGrade": -0.0422021858394146,
+      "startLat": 40.065589904785156,
+      "startLng": 116.54542541503906
+    },
+    {
+      "id": "36623698",
+      "tileScore": 24,
+      "name": "Qing River to Wenyu",
+      "distanceM": 3299.60009765625,
+      "avgGrade": -0.04242938756942749,
+      "startLat": 40.079063415527344,
+      "startLng": 116.48291778564453
+    },
+    {
+      "id": "41224750",
+      "tileScore": 16,
+      "name": "温榆河绿道 Wenyu Greenway N-S",
+      "distanceM": 12112.2001953125,
+      "avgGrade": -0.016512276604771614,
+      "startLat": 40.04772186279297,
+      "startLng": 116.5392837524414
+    },
+    {
+      "id": "28093797",
+      "tileScore": 31,
+      "name": "上班路上的高白路（火沙路-京密路）",
+      "distanceM": 5814.7998046875,
+      "avgGrade": -0.018917245790362358,
+      "startLat": 40.08856964111328,
+      "startLng": 116.4861831665039
+    },
+    {
+      "id": "4485049",
+      "tileScore": 13,
+      "name": "Dead Ayi Road",
+      "distanceM": 1569.5,
+      "avgGrade": 0.03822873532772064,
+      "startLat": 40.05752944946289,
+      "startLng": 116.54000091552734
+    },
+    {
+      "id": "34062444",
+      "tileScore": 32,
+      "name": "温榆河大桥来一发",
+      "distanceM": 501.1000061035156,
+      "avgGrade": 0.7982438206672668,
+      "startLat": 40.05316925048828,
+      "startLng": 116.53486633300781
+    },
+    {
+      "id": "37336722",
+      "tileScore": 19,
+      "name": "Tianbei - Gaobai ITT",
+      "distanceM": 737.7999877929688,
+      "avgGrade": 0.13553808629512787,
+      "startLat": 40.06309509277344,
+      "startLng": 116.5481185913086
+    },
+    {
+      "id": "34761491",
+      "tileScore": 3,
+      "name": "拐个弯冲向祥云",
+      "distanceM": 1668.0999755859375,
+      "avgGrade": 0,
+      "startLat": 40.07046890258789,
+      "startLng": 116.53632354736328
+    },
+    {
+      "id": "37511464",
+      "tileScore": 12,
+      "name": "Wenyu River to Ba River",
+      "distanceM": 13779.7001953125,
+      "avgGrade": 0.07547333836555481,
+      "startLat": 40.0565071105957,
+      "startLng": 116.53984832763672
+    },
+    {
+      "id": "32592722",
+      "tileScore": 38,
+      "name": "New road (N)",
+      "distanceM": 545.2000122070312,
+      "avgGrade": 0.036683786660432816,
+      "startLat": 40.04557800292969,
+      "startLng": 116.51573181152344
+    },
+    {
+      "id": "33370061",
+      "tileScore": 13,
+      "name": "RG to Lionmart",
+      "distanceM": 516.5,
+      "avgGrade": -0.05808325484395027,
+      "startLat": 40.06254577636719,
+      "startLng": 116.53538513183594
+    },
+    {
+      "id": "16460768",
+      "tileScore": 11,
+      "name": "AnhuaSt-Europlaza",
+      "distanceM": 2196.5,
+      "avgGrade": -0.09105394780635834,
+      "startLat": 40.08081817626953,
+      "startLng": 116.52630615234375
+    },
+    {
+      "id": "9700969",
+      "tileScore": 6,
+      "name": "北京 Arboretum SE",
+      "distanceM": 2664.199951171875,
+      "avgGrade": -0.3528263568878174,
+      "startLat": 40.048179626464844,
+      "startLng": 116.5382308959961
+    },
+    {
+      "id": "40761275",
+      "tileScore": 3,
+      "name": "顺黄路 → 京密",
+      "distanceM": 2883.89990234375,
+      "avgGrade": -0.20805159211158752,
+      "startLat": 40.0571403503418,
+      "startLng": 116.50191497802734
+    },
+    {
+      "id": "39030172",
+      "tileScore": 5,
+      "name": "No Parking Outbound",
+      "distanceM": 1488,
+      "avgGrade": -0.17473118007183075,
+      "startLat": 40.04184341430664,
+      "startLng": 116.50341033935547
+    },
+    {
+      "id": "32695064",
+      "tileScore": 20,
+      "name": "Down to Europlaza",
+      "distanceM": 584.4000244140625,
+      "avgGrade": 0.15400411188602448,
+      "startLat": 40.07002639770508,
+      "startLng": 116.53614044189453
+    },
+    {
+      "id": "15676201",
+      "tileScore": 12,
+      "name": "河骑",
+      "distanceM": 789.9000244140625,
+      "avgGrade": -0.44309407472610474,
+      "startLat": 40.0720100402832,
+      "startLng": 116.53527069091797
+    },
+    {
+      "id": "27595515",
+      "tileScore": 2,
+      "name": "Wenyu horse trail 温榆马道",
+      "distanceM": 2373.199951171875,
+      "avgGrade": 0,
+      "startLat": 40.06857681274414,
+      "startLng": 116.51809692382812
+    },
+    {
+      "id": "33159858",
+      "tileScore": 12,
+      "name": "尽心尽力陪好锤哥",
+      "distanceM": 3280.10009765625,
+      "avgGrade": -0.2560897469520569,
+      "startLat": 40.04005813598633,
+      "startLng": 116.52738952636719
+    }
+  ]
+}

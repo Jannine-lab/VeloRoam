@@ -1,0 +1,20 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T20:42:40.935Z",
+  "tile": {
+    "z": 13,
+    "x": 6787,
+    "y": 3390
+  },
+  "segments": [
+    {
+      "id": "37384594",
+      "tileScore": 44,
+      "name": "璜源到汊口缓下局",
+      "distanceM": 11813.599609375,
+      "avgGrade": -0.8998103141784668,
+      "startLat": 29.54616928100586,
+      "startLng": 118.25476837158203
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T19:34:26.355Z",
+  "tile": {
+    "z": 13,
+    "x": 6749,
+    "y": 3102
+  },
+  "segments": [
+    {
+      "id": "14690332",
+      "tileScore": 5,
+      "name": "金榆路（皮村路-焦沙路）",
+      "distanceM": 2535.60009765625,
+      "avgGrade": 0.18141663074493408,
+      "startLat": 39.980682373046875,
+      "startLng": 116.60846710205078
+    },
+    {
+      "id": "40532611",
+      "tileScore": 224,
+      "name": "机场二高-金盏闸",
+      "distanceM": 6576.10009765625,
+      "avgGrade": -0.012165265157818794,
+      "startLat": 39.964202880859375,
+      "startLng": 116.57881164550781
+    },
+    {
+      "id": "11630931",
+      "tileScore": 3,
+      "name": "金榆路(皮村路口-朝阳北路口)",
+      "distanceM": 6217.10009765625,
+      "avgGrade": 0.06433867663145065,
+      "startLat": 39.97994613647461,
+      "startLng": 116.60870361328125
+    },
+    {
+      "id": "5337205",
+      "tileScore": 4,
+      "name": "Leg Stretcher",
+      "distanceM": 1877.9000244140625,
+      "avgGrade": 0.031950585544109344,
+      "startLat": 39.94453430175781,
+      "startLng": 116.62156677246094
+    },
+    {
+      "id": "21511250",
+      "tileScore": 2,
+      "name": "Dr Phil's TTT, 4th Ring Road and return.",
+      "distanceM": 52287.80078125,
+      "avgGrade": -0.00688497070223093,
+      "startLat": 39.932437896728516,
+      "startLng": 116.48710632324219
+    }
+  ]
+}

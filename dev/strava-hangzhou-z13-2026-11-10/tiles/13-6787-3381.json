@@ -1,0 +1,29 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T20:42:02.063Z",
+  "tile": {
+    "z": 13,
+    "x": 6787,
+    "y": 3381
+  },
+  "segments": [
+    {
+      "id": "41168959",
+      "tileScore": 22,
+      "name": "坞石岭北向南",
+      "distanceM": 597.9000244140625,
+      "avgGrade": 5.25171422958374,
+      "startLat": 29.948728561401367,
+      "startLng": 118.30197143554688
+    },
+    {
+      "id": "35396666",
+      "tileScore": 68,
+      "name": "呈坎-灵山climb",
+      "distanceM": 2394.5,
+      "avgGrade": 6.214241027832031,
+      "startLat": 29.931161880493164,
+      "startLng": 118.2974853515625
+    }
+  ]
+}

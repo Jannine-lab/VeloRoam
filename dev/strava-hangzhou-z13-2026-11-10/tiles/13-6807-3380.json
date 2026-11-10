@@ -1,0 +1,47 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T20:28:38.267Z",
+  "tile": {
+    "z": 13,
+    "x": 6807,
+    "y": 3380
+  },
+  "segments": [
+    {
+      "id": "40876644",
+      "tileScore": 7,
+      "name": "天井塘gravel climb",
+      "distanceM": 1216,
+      "avgGrade": 6.858552932739258,
+      "startLat": 29.995912551879883,
+      "startLng": 119.17330169677734
+    },
+    {
+      "id": "37582370",
+      "tileScore": 4,
+      "name": "昌瑶线鲁贝【DQ】",
+      "distanceM": 6567.2998046875,
+      "avgGrade": 3.5387449264526367,
+      "startLat": 29.950355529785156,
+      "startLng": 119.21161651611328
+    },
+    {
+      "id": "32967477",
+      "tileScore": 3,
+      "name": "Concrete or Gravel?",
+      "distanceM": 1521.5,
+      "avgGrade": 6.664475917816162,
+      "startLat": 29.961597442626953,
+      "startLng": 119.17204284667969
+    },
+    {
+      "id": "39200977",
+      "tileScore": 2,
+      "name": "石排村爬坡",
+      "distanceM": 4551,
+      "avgGrade": 6.9655022621154785,
+      "startLat": 29.940265655517578,
+      "startLng": 119.1590576171875
+    }
+  ]
+}

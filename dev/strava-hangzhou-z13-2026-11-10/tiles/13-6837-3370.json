@@ -1,0 +1,47 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T20:17:09.263Z",
+  "tile": {
+    "z": 13,
+    "x": 6837,
+    "y": 3370
+  },
+  "segments": [
+    {
+      "id": "20144700",
+      "tileScore": 15,
+      "name": "Heading West",
+      "distanceM": 19817.69921875,
+      "avgGrade": 0.03128516674041748,
+      "startLat": 30.377811431884766,
+      "startLng": 120.5882339477539
+    },
+    {
+      "id": "40532235",
+      "tileScore": 1,
+      "name": "长五线【南→北】",
+      "distanceM": 2980.5,
+      "avgGrade": -0.02013085037469864,
+      "startLat": 30.332117080688477,
+      "startLng": 120.46469116210938
+    },
+    {
+      "id": "36767660",
+      "tileScore": 9,
+      "name": "Cao E 160k",
+      "distanceM": 160674.90625,
+      "avgGrade": -0.0019915990997105837,
+      "startLat": 30.229711532592773,
+      "startLng": 120.21782684326172
+    },
+    {
+      "id": "39720130",
+      "tileScore": 31,
+      "name": "好路哐哐骑（东向西）",
+      "distanceM": 6656,
+      "avgGrade": -0.003004807746037841,
+      "startLat": 30.381017684936523,
+      "startLng": 120.49810028076172
+    }
+  ]
+}

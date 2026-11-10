@@ -1,0 +1,20 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T19:48:22.266Z",
+  "tile": {
+    "z": 13,
+    "x": 6727,
+    "y": 3096
+  },
+  "segments": [
+    {
+      "id": "17967425",
+      "tileScore": 12,
+      "name": "幽州峡谷挂壁公路溜达骑",
+      "distanceM": 6852.10009765625,
+      "avgGrade": 0.18680404126644135,
+      "startLat": 40.1821174621582,
+      "startLng": 115.61866760253906
+    }
+  ]
+}

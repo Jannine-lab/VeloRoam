@@ -1,0 +1,29 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T20:05:48.378Z",
+  "tile": {
+    "z": 13,
+    "x": 6752,
+    "y": 3072
+  },
+  "segments": [
+    {
+      "id": "37482025",
+      "tileScore": 7,
+      "name": "X523 from km [212] to [220]",
+      "distanceM": 7602.89990234375,
+      "avgGrade": 4.408843994140625,
+      "startLat": 40.96104049682617,
+      "startLng": 116.74584197998047
+    },
+    {
+      "id": "34106547",
+      "tileScore": 1,
+      "name": "五道營子 climb, westbound",
+      "distanceM": 5449.60009765625,
+      "avgGrade": 4.181958198547363,
+      "startLat": 40.95981979370117,
+      "startLng": 116.74479675292969
+    }
+  ]
+}

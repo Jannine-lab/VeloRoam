@@ -1,0 +1,146 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T19:37:51.853Z",
+  "tile": {
+    "z": 13,
+    "x": 6748,
+    "y": 3097
+  },
+  "segments": [
+    {
+      "id": "20277810",
+      "tileScore": 1,
+      "name": "1/2 Hour of Power (天北-顺于-京密）",
+      "distanceM": 17416.599609375,
+      "avgGrade": -0.021818265318870544,
+      "startLat": 40.08529281616211,
+      "startLng": 116.52310943603516
+    },
+    {
+      "id": "34415238",
+      "tileScore": 3,
+      "name": "首都机场绕圈（顺时针）",
+      "distanceM": 27443.400390625,
+      "avgGrade": 0.0010931589640676975,
+      "startLat": 40.106719970703125,
+      "startLng": 116.62333679199219
+    },
+    {
+      "id": "37511412",
+      "tileScore": 1,
+      "name": "天道酬勤王",
+      "distanceM": 25563.30078125,
+      "avgGrade": -0.16899226605892181,
+      "startLat": 40.24485397338867,
+      "startLng": 116.7874755859375
+    },
+    {
+      "id": "33985257",
+      "tileScore": 4,
+      "name": "冲冲冲！！！",
+      "distanceM": 4932.5,
+      "avgGrade": -0.1581348180770874,
+      "startLat": 40.116302490234375,
+      "startLng": 116.5649185180664
+    },
+    {
+      "id": "38099285",
+      "tileScore": 12,
+      "name": "首都机场货运路（S-N）",
+      "distanceM": 6961.5,
+      "avgGrade": 0.048840053379535675,
+      "startLat": 40.06010818481445,
+      "startLng": 116.5830078125
+    },
+    {
+      "id": "39450738",
+      "tileScore": 2,
+      "name": "沐泽乌托邦夏至高温认证“yue～”",
+      "distanceM": 923.2999877929688,
+      "avgGrade": 0,
+      "startLat": 40.13019943237305,
+      "startLng": 116.53890991210938
+    },
+    {
+      "id": "16268792",
+      "tileScore": 2,
+      "name": "Science park Full Loop ITT (New Road)",
+      "distanceM": 24602.30078125,
+      "avgGrade": -0.008942252956330776,
+      "startLat": 40.08061981201172,
+      "startLng": 116.507568359375
+    },
+    {
+      "id": "34347658",
+      "tileScore": 15,
+      "name": "鱼哥出京刷kom专用路段",
+      "distanceM": 1226.699951171875,
+      "avgGrade": 0.09782343357801437,
+      "startLat": 40.117919921875,
+      "startLng": 116.5637435913086
+    },
+    {
+      "id": "8036116",
+      "tileScore": 7,
+      "name": "North Airport Expressway Bridge Sprint",
+      "distanceM": 857.2000122070312,
+      "avgGrade": -0.5016332268714905,
+      "startLat": 40.124794006347656,
+      "startLng": 116.54804229736328
+    },
+    {
+      "id": "35721219",
+      "tileScore": 3,
+      "name": "绕圈圈~",
+      "distanceM": 6321.2998046875,
+      "avgGrade": -0.12655624747276306,
+      "startLat": 40.129981994628906,
+      "startLng": 116.54925537109375
+    },
+    {
+      "id": "33370049",
+      "tileScore": 4,
+      "name": "TianBei to HuoShi rd",
+      "distanceM": 2373.5,
+      "avgGrade": 0.037918686866760254,
+      "startLat": 40.11844253540039,
+      "startLng": 116.51956176757812
+    },
+    {
+      "id": "41373275",
+      "tileScore": 1,
+      "name": "顺沙路（天北路→京密路）",
+      "distanceM": 6415.89990234375,
+      "avgGrade": 0.04987609013915062,
+      "startLat": 40.15121078491211,
+      "startLng": 116.51770782470703
+    },
+    {
+      "id": "41227517",
+      "tileScore": 14,
+      "name": "京密路（来广营东-白马路 S-N）",
+      "distanceM": 20074.400390625,
+      "avgGrade": 0.009464791044592857,
+      "startLat": 40.02456283569336,
+      "startLng": 116.51789855957031
+    },
+    {
+      "id": "35469138",
+      "tileScore": 17,
+      "name": "赶紧回家",
+      "distanceM": 1738.9000244140625,
+      "avgGrade": 0.011501523666083813,
+      "startLat": 40.12713623046875,
+      "startLng": 116.57425689697266
+    },
+    {
+      "id": "32607603",
+      "tileScore": 4,
+      "name": "Pikachu！",
+      "distanceM": 158177.40625,
+      "avgGrade": 0.022632816806435585,
+      "startLat": 40.14248275756836,
+      "startLng": 116.59239959716797
+    }
+  ]
+}

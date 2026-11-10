@@ -1,0 +1,92 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T20:18:26.811Z",
+  "tile": {
+    "z": 13,
+    "x": 6821,
+    "y": 3370
+  },
+  "segments": [
+    {
+      "id": "31789202",
+      "tileScore": 7,
+      "name": "白水涧",
+      "distanceM": 6158.2998046875,
+      "avgGrade": 1.7082637548446655,
+      "startLat": 30.33900260925293,
+      "startLng": 119.75088500976562
+    },
+    {
+      "id": "30465969",
+      "tileScore": 205,
+      "name": "风笑岭",
+      "distanceM": 1381.0999755859375,
+      "avgGrade": 7.182680606842041,
+      "startLat": 30.372142791748047,
+      "startLng": 119.76498413085938
+    },
+    {
+      "id": "4737647",
+      "tileScore": 7,
+      "name": "Follow the stream to the reservoir past the gate.",
+      "distanceM": 8488.7998046875,
+      "avgGrade": 2.3053905963897705,
+      "startLat": 30.344209671020508,
+      "startLng": 119.82286071777344
+    },
+    {
+      "id": "39155547",
+      "tileScore": 11,
+      "name": "2025.5.11大径山公路车赛",
+      "distanceM": 51535,
+      "avgGrade": -0.015135345049202442,
+      "startLat": 30.382959365844727,
+      "startLng": 119.85260009765625
+    },
+    {
+      "id": "35574744",
+      "tileScore": 21,
+      "name": "长径线水库短坡",
+      "distanceM": 812.0999755859375,
+      "avgGrade": 6.3785247802734375,
+      "startLat": 30.371971130371094,
+      "startLng": 119.7900161743164
+    },
+    {
+      "id": "38852217",
+      "tileScore": 16,
+      "name": "径山下坡",
+      "distanceM": 2949,
+      "avgGrade": -3.8860630989074707,
+      "startLat": 30.38736343383789,
+      "startLng": 119.7774429321289
+    },
+    {
+      "id": "35139658",
+      "tileScore": 98,
+      "name": "洪村 to 风笑岭",
+      "distanceM": 5198,
+      "avgGrade": 3.7091188430786133,
+      "startLat": 30.34358787536621,
+      "startLng": 119.7707290649414
+    },
+    {
+      "id": "38143684",
+      "tileScore": 2,
+      "name": "cx小清新",
+      "distanceM": 2120.89990234375,
+      "avgGrade": -1.7445424795150757,
+      "startLat": 30.349931716918945,
+      "startLng": 119.78912353515625
+    },
+    {
+      "id": "35595414",
+      "tileScore": 18,
+      "name": "风啸岭圈圈糖",
+      "distanceM": 14556.900390625,
+      "avgGrade": -0.045339323580265045,
+      "startLat": 30.345787048339844,
+      "startLng": 119.7715072631836
+    }
+  ]
+}

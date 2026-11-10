@@ -1,0 +1,20 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T19:51:08.736Z",
+  "tile": {
+    "z": 13,
+    "x": 6733,
+    "y": 3087
+  },
+  "segments": [
+    {
+      "id": "32746241",
+      "tileScore": 3,
+      "name": "曲径通幽处",
+      "distanceM": 6589.2001953125,
+      "avgGrade": -0.018211618065834045,
+      "startLat": 40.454654693603516,
+      "startLng": 115.95846557617188
+    }
+  ]
+}

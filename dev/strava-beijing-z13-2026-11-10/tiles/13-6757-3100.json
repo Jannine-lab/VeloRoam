@@ -1,0 +1,20 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T19:40:42.908Z",
+  "tile": {
+    "z": 13,
+    "x": 6757,
+    "y": 3100
+  },
+  "segments": [
+    {
+      "id": "42334717",
+      "tileScore": 2,
+      "name": "蒋谭线（齐心路→密三路）",
+      "distanceM": 6500.5,
+      "avgGrade": -0.12152910977602005,
+      "startLat": 40.015010833740234,
+      "startLng": 116.93199920654297
+    }
+  ]
+}

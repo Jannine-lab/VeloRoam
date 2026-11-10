@@ -1,0 +1,38 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T20:26:53.543Z",
+  "tile": {
+    "z": 13,
+    "x": 6809,
+    "y": 3378
+  },
+  "segments": [
+    {
+      "id": "19027992",
+      "tileScore": 5,
+      "name": "Hengtangcun Climb",
+      "distanceM": 4235.39990234375,
+      "avgGrade": 4.027955055236816,
+      "startLat": 30.03996467590332,
+      "startLng": 119.25362396240234
+    },
+    {
+      "id": "19032897",
+      "tileScore": 3,
+      "name": "Tangwankou to Hanjia",
+      "distanceM": 8976.7998046875,
+      "avgGrade": 2.7337136268615723,
+      "startLat": 30.036083221435547,
+      "startLng": 119.3191909790039
+    },
+    {
+      "id": "37263502",
+      "tileScore": 1,
+      "name": "🚴雪山百货补给一波⛰️",
+      "distanceM": 4677.7998046875,
+      "avgGrade": 3.290008068084717,
+      "startLat": 30.039579391479492,
+      "startLng": 119.25367736816406
+    }
+  ]
+}

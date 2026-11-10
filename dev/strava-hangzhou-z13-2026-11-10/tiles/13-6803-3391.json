@@ -1,0 +1,65 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T20:36:04.850Z",
+  "tile": {
+    "z": 13,
+    "x": 6803,
+    "y": 3391
+  },
+  "segments": [
+    {
+      "id": "40353154",
+      "tileScore": 34,
+      "name": "千岛湖最后五公里",
+      "distanceM": 5134.2998046875,
+      "avgGrade": -0.05453518405556679,
+      "startLat": 29.55974006652832,
+      "startLng": 118.9715347290039
+    },
+    {
+      "id": "10767036",
+      "tileScore": 6,
+      "name": "Shang Jiang Bu Bridge (Southbound)",
+      "distanceM": 1268.5999755859375,
+      "avgGrade": 0.2837773859500885,
+      "startLat": 29.539655685424805,
+      "startLng": 118.96633911132812
+    },
+    {
+      "id": "10767006",
+      "tileScore": 14,
+      "name": "Jiepai Bridge (Southbound)",
+      "distanceM": 294.8999938964844,
+      "avgGrade": 2.8484232425689697,
+      "startLat": 29.54936981201172,
+      "startLng": 118.96817779541016
+    },
+    {
+      "id": "17819401",
+      "tileScore": 8,
+      "name": "小环湖",
+      "distanceM": 102884,
+      "avgGrade": -0.008358928374946117,
+      "startLat": 29.475658416748047,
+      "startLng": 119.21735382080078
+    },
+    {
+      "id": "35812832",
+      "tileScore": 55,
+      "name": "千岛湖第一段45km",
+      "distanceM": 46688,
+      "avgGrade": 0.0406956821680069,
+      "startLat": 29.6170654296875,
+      "startLng": 119.03804779052734
+    },
+    {
+      "id": "14269378",
+      "tileScore": 4,
+      "name": "千岛湖村-凤凰隧道",
+      "distanceM": 38428.5,
+      "avgGrade": -0.02862458862364292,
+      "startLat": 29.47867202758789,
+      "startLng": 119.12246704101562
+    }
+  ]
+}

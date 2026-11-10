@@ -1,0 +1,20 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T19:47:27.611Z",
+  "tile": {
+    "z": 13,
+    "x": 6760,
+    "y": 3113
+  },
+  "segments": [
+    {
+      "id": "13152184",
+      "tileScore": 1,
+      "name": "X521(大良鎮-下伍旗鎮)",
+      "distanceM": 13593.099609375,
+      "avgGrade": 0.02059868536889553,
+      "startLat": 39.51017379760742,
+      "startLng": 117.09521484375
+    }
+  ]
+}

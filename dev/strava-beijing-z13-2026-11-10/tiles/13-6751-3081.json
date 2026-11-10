@@ -1,0 +1,20 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T19:55:33.233Z",
+  "tile": {
+    "z": 13,
+    "x": 6751,
+    "y": 3081
+  },
+  "segments": [
+    {
+      "id": "36823171",
+      "tileScore": 22,
+      "name": "青石岭",
+      "distanceM": 4434.10009765625,
+      "avgGrade": 4.109063625335693,
+      "startLat": 40.6529655456543,
+      "startLng": 116.69731140136719
+    }
+  ]
+}

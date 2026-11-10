@@ -1,0 +1,29 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T19:49:43.419Z",
+  "tile": {
+    "z": 13,
+    "x": 6735,
+    "y": 3086
+  },
+  "segments": [
+    {
+      "id": "25224746",
+      "tileScore": 7,
+      "name": "龙庆峡缓下",
+      "distanceM": 6284,
+      "avgGrade": -0.7733927369117737,
+      "startLat": 40.532203674316406,
+      "startLng": 116.01082611083984
+    },
+    {
+      "id": "31923238",
+      "tileScore": 21,
+      "name": "g7",
+      "distanceM": 11124.2998046875,
+      "avgGrade": -0.14742501080036163,
+      "startLat": 40.445274353027344,
+      "startLng": 116.01528930664062
+    }
+  ]
+}

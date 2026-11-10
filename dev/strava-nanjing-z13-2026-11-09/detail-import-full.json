@@ -11,9 +11,9 @@
     },
     "completeTiles": 943
   },
-  "status": "waiting_quota",
+  "status": "failed",
   "startedAt": "2026-11-08T23:05:45.081Z",
-  "finishedAt": null,
+  "finishedAt": "2026-11-09T03:45:43.674Z",
   "sourceCount": 1544,
   "existingIds": [
     "13363658",
@@ -2900,12 +2900,7373 @@
       "stravaScore": 18,
       "rawScore": 21.72,
       "pointCount": 37
+    },
+    {
+      "id": "26033892",
+      "name": "cd-溧阳一号公路瓦屋山旅游大道北往南",
+      "stravaScore": 9,
+      "rawScore": 26.19,
+      "pointCount": 141
+    },
+    {
+      "id": "26033906",
+      "name": "cd-S341东往西至S246",
+      "stravaScore": 5,
+      "rawScore": 11.24,
+      "pointCount": 29
+    },
+    {
+      "id": "26215772",
+      "name": "仙灵陵园南坡",
+      "stravaScore": 15,
+      "rawScore": 9.77,
+      "pointCount": 67
+    },
+    {
+      "id": "26215814",
+      "name": "管子山防火道短坡",
+      "stravaScore": 5,
+      "rawScore": 22.32,
+      "pointCount": 20
+    },
+    {
+      "id": "26491955",
+      "name": "Brridge (Soutbound)",
+      "stravaScore": 76,
+      "rawScore": 6.14,
+      "pointCount": 3
+    },
+    {
+      "id": "26644767",
+      "name": "安怀村 N-S",
+      "stravaScore": 2,
+      "rawScore": 3.34,
+      "pointCount": 31
+    },
+    {
+      "id": "26861598",
+      "name": "小川藏",
+      "stravaScore": 74,
+      "rawScore": 25.57,
+      "pointCount": 432
+    },
+    {
+      "id": "27318338",
+      "name": "大岘水库茶山",
+      "stravaScore": 32,
+      "rawScore": 33.51,
+      "pointCount": 30
+    },
+    {
+      "id": "27355651",
+      "name": "尖山绕圈",
+      "stravaScore": 5,
+      "rawScore": 18.67,
+      "pointCount": 109
+    },
+    {
+      "id": "27563740",
+      "name": "ov-郁金香路到卡子门大街 西往东",
+      "stravaScore": 7,
+      "rawScore": 4.03,
+      "pointCount": 32
+    },
+    {
+      "id": "27612281",
+      "name": "花火单车前刷一刷",
+      "stravaScore": 6,
+      "rawScore": 1.03,
+      "pointCount": 9
+    },
+    {
+      "id": "27612505",
+      "name": "坦克达门口刷一下啊rush by store of Tank Da",
+      "stravaScore": 8,
+      "rawScore": 2.85,
+      "pointCount": 7
+    },
+    {
+      "id": "27675243",
+      "name": "你以为不快 其实你可以很快",
+      "stravaScore": 5,
+      "rawScore": 1.11,
+      "pointCount": 12
+    },
+    {
+      "id": "27683945",
+      "name": "闪电 无限黄龙岘 to宁丹大道回程",
+      "stravaScore": 30,
+      "rawScore": 10.98,
+      "pointCount": 28
+    },
+    {
+      "id": "27916326",
+      "name": "白马闪电-穿越富贵山隧道",
+      "stravaScore": 12,
+      "rawScore": 2.49,
+      "pointCount": 16
+    },
+    {
+      "id": "27930803",
+      "name": "老校区爬坡",
+      "stravaScore": 6,
+      "rawScore": 22.5,
+      "pointCount": 35
+    },
+    {
+      "id": "27987384",
+      "name": "放松！回家路",
+      "stravaScore": 12,
+      "rawScore": 2.51,
+      "pointCount": 20
+    },
+    {
+      "id": "28338983",
+      "name": "Wenlan lu (Xuelin->Jiuxianghe West lu)",
+      "stravaScore": 6,
+      "rawScore": 6.56,
+      "pointCount": 42
+    },
+    {
+      "id": "28469480",
+      "name": "滨江路-大桥下起点-南向北",
+      "stravaScore": 21,
+      "rawScore": 9.85,
+      "pointCount": 39
+    },
+    {
+      "id": "28476745",
+      "name": "cd-汤泉楚韵花香至老山西部干线北入口",
+      "stravaScore": 1,
+      "rawScore": 6.85,
+      "pointCount": 38
+    },
+    {
+      "id": "28476773",
+      "name": "cd-浦口秦家山贡南小爬坡",
+      "stravaScore": 12,
+      "rawScore": 10.32,
+      "pointCount": 65
+    },
+    {
+      "id": "28609495",
+      "name": "石塘互联网小镇爬坡",
+      "stravaScore": 55,
+      "rawScore": 14.59,
+      "pointCount": 69
+    },
+    {
+      "id": "28740070",
+      "name": "干饭王搞完宵夜消消食",
+      "stravaScore": 1,
+      "rawScore": 16.41,
+      "pointCount": 136
+    },
+    {
+      "id": "28793100",
+      "name": "3rd ring road from Xianlin av.",
+      "stravaScore": 14,
+      "rawScore": 3.86,
+      "pointCount": 15
+    },
+    {
+      "id": "28830147",
+      "name": "太平门路下坡",
+      "stravaScore": 129,
+      "rawScore": 1.7,
+      "pointCount": 25
+    },
+    {
+      "id": "28830610",
+      "name": "回家辣",
+      "stravaScore": 6,
+      "rawScore": 5.77,
+      "pointCount": 33
+    },
+    {
+      "id": "28871159",
+      "name": "New Parking lot from East",
+      "stravaScore": 7,
+      "rawScore": 9.62,
+      "pointCount": 45
+    },
+    {
+      "id": "28908813",
+      "name": " Fischl's Fun Bridge back",
+      "stravaScore": 30,
+      "rawScore": 1.22,
+      "pointCount": 4
+    },
+    {
+      "id": "28911056",
+      "name": "向着长江大桥冲刺！",
+      "stravaScore": 22,
+      "rawScore": 1.89,
+      "pointCount": 14
+    },
+    {
+      "id": "29008660",
+      "name": "meteor—滨江折返单圈",
+      "stravaScore": 149,
+      "rawScore": 58.16,
+      "pointCount": 226
+    },
+    {
+      "id": "29040461",
+      "name": "泰山新村至浦珠中路-熊por",
+      "stravaScore": 7,
+      "rawScore": 9.45,
+      "pointCount": 105
+    },
+    {
+      "id": "29101488",
+      "name": "Up corkscrew ramp",
+      "stravaScore": 20,
+      "rawScore": 16.56,
+      "pointCount": 56
+    },
+    {
+      "id": "29101589",
+      "name": "七上八下多起伏路赛段",
+      "stravaScore": 20,
+      "rawScore": 17.25,
+      "pointCount": 94
+    },
+    {
+      "id": "29166985",
+      "name": "即将开始环陵",
+      "stravaScore": 32,
+      "rawScore": 3.76,
+      "pointCount": 12
+    },
+    {
+      "id": "29190440",
+      "name": "芜湖长江大桥上桥（东段）",
+      "stravaScore": 28,
+      "rawScore": 9.89,
+      "pointCount": 7
+    },
+    {
+      "id": "29190499",
+      "name": "芜湖长江大桥上桥（西段）",
+      "stravaScore": 10,
+      "rawScore": 10.44,
+      "pointCount": 7
+    },
+    {
+      "id": "29208235",
+      "name": "水西门干饭人最快",
+      "stravaScore": 5,
+      "rawScore": 5.23,
+      "pointCount": 29
+    },
+    {
+      "id": "29208275",
+      "name": "干饭人下山进城路线",
+      "stravaScore": 16,
+      "rawScore": 3.4,
+      "pointCount": 35
+    },
+    {
+      "id": "29350883",
+      "name": "过中山东路口后100米到第一个公交站台",
+      "stravaScore": 5,
+      "rawScore": 0.61,
+      "pointCount": 4
+    },
+    {
+      "id": "29438592",
+      "name": "黄山岭路口-八里山庄©Wen",
+      "stravaScore": 13,
+      "rawScore": 6.06,
+      "pointCount": 29
+    },
+    {
+      "id": "29469770",
+      "name": "X426 from E",
+      "stravaScore": 18,
+      "rawScore": 8.41,
+      "pointCount": 31
+    },
+    {
+      "id": "29469905",
+      "name": "MengBei Metro st. to Expo rondo",
+      "stravaScore": 59,
+      "rawScore": 2.54,
+      "pointCount": 17
+    },
+    {
+      "id": "29501517",
+      "name": "mk_XL Expo North In The Trees",
+      "stravaScore": 110,
+      "rawScore": 8.44,
+      "pointCount": 91
+    },
+    {
+      "id": "29501559",
+      "name": "Garden Expo to E",
+      "stravaScore": 68,
+      "rawScore": 11.81,
+      "pointCount": 117
+    },
+    {
+      "id": "29515192",
+      "name": "S002 S climb",
+      "stravaScore": 169,
+      "rawScore": 13.84,
+      "pointCount": 15
+    },
+    {
+      "id": "29563722",
+      "name": "四褐山爬坡",
+      "stravaScore": 85,
+      "rawScore": 33.68,
+      "pointCount": 28
+    },
+    {
+      "id": "29575706",
+      "name": "逃离黄龙岘",
+      "stravaScore": 43,
+      "rawScore": 5.32,
+      "pointCount": 33
+    },
+    {
+      "id": "29585530",
+      "name": "八卦洲角绕圈ITT",
+      "stravaScore": 9,
+      "rawScore": 28.5,
+      "pointCount": 72
+    },
+    {
+      "id": "29598425",
+      "name": "芜屯路回程",
+      "stravaScore": 11,
+      "rawScore": 24.65,
+      "pointCount": 78
+    },
+    {
+      "id": "29598504",
+      "name": "渣西小爬坡",
+      "stravaScore": 19,
+      "rawScore": 11.19,
+      "pointCount": 34
+    },
+    {
+      "id": "29599118",
+      "name": "地铁站前小热身",
+      "stravaScore": 20,
+      "rawScore": 3.49,
+      "pointCount": 18
+    },
+    {
+      "id": "29623455",
+      "name": "GuangZhi rd. (Wanda to new HW)",
+      "stravaScore": 2,
+      "rawScore": 2.96,
+      "pointCount": 10
+    },
+    {
+      "id": "29629044",
+      "name": "宁南大桥上坡",
+      "stravaScore": 20,
+      "rawScore": 5.71,
+      "pointCount": 38
+    },
+    {
+      "id": "29667491",
+      "name": "固城湖西畔·零起伏ITT",
+      "stravaScore": 22,
+      "rawScore": 6.95,
+      "pointCount": 14
+    },
+    {
+      "id": "29678804",
+      "name": "上坝夹江大桥 [江北段爬坡]",
+      "stravaScore": 20,
+      "rawScore": 8.9,
+      "pointCount": 21
+    },
+    {
+      "id": "29678821",
+      "name": "爱的魔力绕圈圈",
+      "stravaScore": 26,
+      "rawScore": 3.6,
+      "pointCount": 64
+    },
+    {
+      "id": "29691589",
+      "name": "芜太公路（双湖路—宁高县）",
+      "stravaScore": 8,
+      "rawScore": 11.18,
+      "pointCount": 36
+    },
+    {
+      "id": "29691612",
+      "name": "固城~漆桥河大桥GOGOGO!",
+      "stravaScore": 10,
+      "rawScore": 4.76,
+      "pointCount": 4
+    },
+    {
+      "id": "29695786",
+      "name": "固城~秀山小山丘",
+      "stravaScore": 48,
+      "rawScore": 27.48,
+      "pointCount": 73
+    },
+    {
+      "id": "29695829",
+      "name": "芝沙线S-E",
+      "stravaScore": 5,
+      "rawScore": 17.2,
+      "pointCount": 113
+    },
+    {
+      "id": "29695914",
+      "name": "辛亥线-固城终点3KM",
+      "stravaScore": 9,
+      "rawScore": 6.68,
+      "pointCount": 21
+    },
+    {
+      "id": "29702296",
+      "name": "XianQi av. (Xianlin av. to MengBei)",
+      "stravaScore": 5,
+      "rawScore": 10.66,
+      "pointCount": 74
+    },
+    {
+      "id": "29734676",
+      "name": "The way to heaven-G104",
+      "stravaScore": 3,
+      "rawScore": 4.39,
+      "pointCount": 50
+    },
+    {
+      "id": "29736703",
+      "name": "干饭人 干饭魂 干到句容不烦神",
+      "stravaScore": 15,
+      "rawScore": 7.2,
+      "pointCount": 17
+    },
+    {
+      "id": "29736972",
+      "name": "大青山北进环山",
+      "stravaScore": 31,
+      "rawScore": 21.96,
+      "pointCount": 275
+    },
+    {
+      "id": "29737334",
+      "name": "梅龙路 东向西 加油站对面补给开始",
+      "stravaScore": 51,
+      "rawScore": 16.78,
+      "pointCount": 70
+    },
+    {
+      "id": "29737399",
+      "name": "隐藏路线-林间小路至豆腐村",
+      "stravaScore": 3,
+      "rawScore": 6.37,
+      "pointCount": 52
+    },
+    {
+      "id": "29756711",
+      "name": "cd-大山口林场小爬坡",
+      "stravaScore": 24,
+      "rawScore": 17.04,
+      "pointCount": 36
+    },
+    {
+      "id": "29762969",
+      "name": "S123 石臼湖路-S341",
+      "stravaScore": 41,
+      "rawScore": 15.52,
+      "pointCount": 88
+    },
+    {
+      "id": "29768608",
+      "name": "灵谷寺转盘至白马公园",
+      "stravaScore": 78,
+      "rawScore": 15.09,
+      "pointCount": 174
+    },
+    {
+      "id": "29792692",
+      "name": "Lingshan North new from E",
+      "stravaScore": 75,
+      "rawScore": 2.68,
+      "pointCount": 20
+    },
+    {
+      "id": "29795852",
+      "name": "QiXiaShan E side",
+      "stravaScore": 4,
+      "rawScore": 5.57,
+      "pointCount": 66
+    },
+    {
+      "id": "29802204",
+      "name": "Xianlin North E->W",
+      "stravaScore": 2,
+      "rawScore": 4.8,
+      "pointCount": 17
+    },
+    {
+      "id": "29826114",
+      "name": "奔向省界收费站",
+      "stravaScore": 1,
+      "rawScore": 2.87,
+      "pointCount": 27
+    },
+    {
+      "id": "29835572",
+      "name": "固城湖大堤3KM",
+      "stravaScore": 19,
+      "rawScore": 6.25,
+      "pointCount": 19
+    },
+    {
+      "id": "29866897",
+      "name": "环江心洲（GPS偏移版）",
+      "stravaScore": 18,
+      "rawScore": 44.23,
+      "pointCount": 234
+    },
+    {
+      "id": "29885637",
+      "name": "NJUPT_Xianlin_loop",
+      "stravaScore": 6,
+      "rawScore": 25,
+      "pointCount": 123
+    },
+    {
+      "id": "29895402",
+      "name": "数字大桥桥桥",
+      "stravaScore": 7,
+      "rawScore": 1.62,
+      "pointCount": 10
+    },
+    {
+      "id": "29906781",
+      "name": "X305: West Avenue of Jurong - 3 fingers lake",
+      "stravaScore": 56,
+      "rawScore": 15.1,
+      "pointCount": 147
+    },
+    {
+      "id": "29919949",
+      "name": "洲头到上桥",
+      "stravaScore": 15,
+      "rawScore": 7.64,
+      "pointCount": 52
+    },
+    {
+      "id": "29928450",
+      "name": "下桥—弘阳广场",
+      "stravaScore": 11,
+      "rawScore": 3.14,
+      "pointCount": 20
+    },
+    {
+      "id": "29932429",
+      "name": "Danny's Wednesday Round",
+      "stravaScore": 5,
+      "rawScore": 43.84,
+      "pointCount": 306
+    },
+    {
+      "id": "29957569",
+      "name": "石龙路起伏路下坡-枫",
+      "stravaScore": 28,
+      "rawScore": 1.98,
+      "pointCount": 28
+    },
+    {
+      "id": "29966507",
+      "name": "cd-四进山迎驾路到小店",
+      "stravaScore": 4,
+      "rawScore": 12.92,
+      "pointCount": 128
+    },
+    {
+      "id": "29968544",
+      "name": "灵谷寺转盘向南",
+      "stravaScore": 19,
+      "rawScore": 2.25,
+      "pointCount": 32
+    },
+    {
+      "id": "30035816",
+      "name": "JianNan Reservoir curving (from XuanZiyan lake)",
+      "stravaScore": 12,
+      "rawScore": 9.96,
+      "pointCount": 255
+    },
+    {
+      "id": "30069366",
+      "name": "桦墅N-S",
+      "stravaScore": 45,
+      "rawScore": 8.69,
+      "pointCount": 129
+    },
+    {
+      "id": "30069442",
+      "name": "慢城枫彩园-牡丹园N-S段",
+      "stravaScore": 8,
+      "rawScore": 6.41,
+      "pointCount": 103
+    },
+    {
+      "id": "30069485",
+      "name": "慢城南路-茅叔路N-S段",
+      "stravaScore": 10,
+      "rawScore": 14.05,
+      "pointCount": 189
+    },
+    {
+      "id": "30069525",
+      "name": "无想山北面绿道E-W",
+      "stravaScore": 1,
+      "rawScore": 16.28,
+      "pointCount": 213
+    },
+    {
+      "id": "30082252",
+      "name": "博爱路downroad",
+      "stravaScore": 48,
+      "rawScore": 1.7,
+      "pointCount": 29
+    },
+    {
+      "id": "30101522",
+      "name": "中山码头-浦口码头（轮渡看运气）",
+      "stravaScore": 9,
+      "rawScore": 3.84,
+      "pointCount": 45
+    },
+    {
+      "id": "30114473",
+      "name": "干饭人 汉中门大街",
+      "stravaScore": 7,
+      "rawScore": 1.6,
+      "pointCount": 18
+    },
+    {
+      "id": "30153014",
+      "name": "溧水万驰赛车场",
+      "stravaScore": 5,
+      "rawScore": 18.85,
+      "pointCount": 97
+    },
+    {
+      "id": "30233387",
+      "name": "cd-曹山北往南爬坡",
+      "stravaScore": 8,
+      "rawScore": 17.78,
+      "pointCount": 60
+    },
+    {
+      "id": "30233393",
+      "name": "cd-蒲杜线西往东",
+      "stravaScore": 1,
+      "rawScore": 9,
+      "pointCount": 72
+    },
+    {
+      "id": "30233428",
+      "name": "cd-曹山京林禅寺门口小坡北往南",
+      "stravaScore": 6,
+      "rawScore": 12.88,
+      "pointCount": 62
+    },
+    {
+      "id": "30233469",
+      "name": "cd-X305傅家边",
+      "stravaScore": 6,
+      "rawScore": 9.19,
+      "pointCount": 38
+    },
+    {
+      "id": "30244156",
+      "name": "环药科（东小环）",
+      "stravaScore": 1,
+      "rawScore": 19.96,
+      "pointCount": 52
+    },
+    {
+      "id": "30269804",
+      "name": "01",
+      "stravaScore": 71,
+      "rawScore": 21.72,
+      "pointCount": 15
+    },
+    {
+      "id": "30269832",
+      "name": "02",
+      "stravaScore": 72,
+      "rawScore": 27.96,
+      "pointCount": 31
+    },
+    {
+      "id": "30269859",
+      "name": "03",
+      "stravaScore": 14,
+      "rawScore": 19.8,
+      "pointCount": 17
+    },
+    {
+      "id": "30269873",
+      "name": "04",
+      "stravaScore": 16,
+      "rawScore": 13.31,
+      "pointCount": 15
+    },
+    {
+      "id": "30282978",
+      "name": "S122 last hill",
+      "stravaScore": 80,
+      "rawScore": 13.39,
+      "pointCount": 4
+    },
+    {
+      "id": "30310059",
+      "name": "祖堂下坡右转到牛首大道红绿灯",
+      "stravaScore": 32,
+      "rawScore": 4.27,
+      "pointCount": 10
+    },
+    {
+      "id": "30392169",
+      "name": "梅花谷路 东至西 远望钟山",
+      "stravaScore": 101,
+      "rawScore": 1.58,
+      "pointCount": 28
+    },
+    {
+      "id": "30409797",
+      "name": "濮塘海信爬坡",
+      "stravaScore": 19,
+      "rawScore": 10.85,
+      "pointCount": 11
+    },
+    {
+      "id": "30430676",
+      "name": "mk_quick northwards",
+      "stravaScore": 3,
+      "rawScore": 1.46,
+      "pointCount": 11
+    },
+    {
+      "id": "30431028",
+      "name": "兄弟买挂不？",
+      "stravaScore": 14,
+      "rawScore": 3.94,
+      "pointCount": 49
+    },
+    {
+      "id": "30453647",
+      "name": "经过南财（别走快车道）",
+      "stravaScore": 7,
+      "rawScore": 1.75,
+      "pointCount": 11
+    },
+    {
+      "id": "30467350",
+      "name": "海信前",
+      "stravaScore": 23,
+      "rawScore": 9.8,
+      "pointCount": 9
+    },
+    {
+      "id": "30472207",
+      "name": "看见水库开始划火柴",
+      "stravaScore": 2,
+      "rawScore": 18.73,
+      "pointCount": 11
+    },
+    {
+      "id": "30489577",
+      "name": "过了地铁站—向宝华进发",
+      "stravaScore": 11,
+      "rawScore": 12.35,
+      "pointCount": 69
+    },
+    {
+      "id": "30489594",
+      "name": "经过南大仙林（不要走快车道）",
+      "stravaScore": 20,
+      "rawScore": 1.99,
+      "pointCount": 14
+    },
+    {
+      "id": "30512184",
+      "name": "头陀岭起点抓恐龙（某些路段在修路）",
+      "stravaScore": 5,
+      "rawScore": 104.54,
+      "pointCount": 1209
+    },
+    {
+      "id": "30524548",
+      "name": "Yego's hill",
+      "stravaScore": 70,
+      "rawScore": 13.42,
+      "pointCount": 15
+    },
+    {
+      "id": "30540975",
+      "name": "ov-陶上线入口至甘泉消防水池爬坡",
+      "stravaScore": 18,
+      "rawScore": 51.06,
+      "pointCount": 42
+    },
+    {
+      "id": "30552503",
+      "name": "老山西南陡坡",
+      "stravaScore": 114,
+      "rawScore": 40.6,
+      "pointCount": 16
+    },
+    {
+      "id": "30552760",
+      "name": "蟠龙湖逆时针第一个陡坡",
+      "stravaScore": 7,
+      "rawScore": 23.74,
+      "pointCount": 13
+    },
+    {
+      "id": "30552774",
+      "name": "起伏爬坡",
+      "stravaScore": 3,
+      "rawScore": 23.68,
+      "pointCount": 82
+    },
+    {
+      "id": "30558677",
+      "name": "西部干线itt突围之旅",
+      "stravaScore": 72,
+      "rawScore": 23.57,
+      "pointCount": 124
+    },
+    {
+      "id": "30562115",
+      "name": "赭洛山爬坡 红色陡坡",
+      "stravaScore": 33,
+      "rawScore": 57.1,
+      "pointCount": 32
+    },
+    {
+      "id": "30562124",
+      "name": "赭洛山爬坡 五采线到山顶",
+      "stravaScore": 21,
+      "rawScore": 39.45,
+      "pointCount": 87
+    },
+    {
+      "id": "30627509",
+      "name": "龙山陡坡段",
+      "stravaScore": 8,
+      "rawScore": 41.19,
+      "pointCount": 15
+    },
+    {
+      "id": "30664002",
+      "name": "应天大街-金陵制造局路段狂飙",
+      "stravaScore": 14,
+      "rawScore": 0.76,
+      "pointCount": 10
+    },
+    {
+      "id": "30708432",
+      "name": "上清水河大桥【南到北】",
+      "stravaScore": 15,
+      "rawScore": 7.04,
+      "pointCount": 9
+    },
+    {
+      "id": "30712713",
+      "name": "干饭人爬坡赛",
+      "stravaScore": 65,
+      "rawScore": 11.55,
+      "pointCount": 41
+    },
+    {
+      "id": "30748433",
+      "name": "NJU梅林climb",
+      "stravaScore": 9,
+      "rawScore": 45.62,
+      "pointCount": 20
+    },
+    {
+      "id": "30777323",
+      "name": "紫园爬坡",
+      "stravaScore": 70,
+      "rawScore": 9.34,
+      "pointCount": 8
+    },
+    {
+      "id": "30930237",
+      "name": "To Pagoda",
+      "stravaScore": 3,
+      "rawScore": 22.51,
+      "pointCount": 15
+    },
+    {
+      "id": "30930602",
+      "name": "月牙湖畔 苜蓿园大街热身",
+      "stravaScore": 15,
+      "rawScore": 3.49,
+      "pointCount": 12
+    },
+    {
+      "id": "30931351",
+      "name": "溪田综合起伏路",
+      "stravaScore": 51,
+      "rawScore": 7.54,
+      "pointCount": 21
+    },
+    {
+      "id": "30951004",
+      "name": "大青山绕圈",
+      "stravaScore": 1,
+      "rawScore": 61.48,
+      "pointCount": 583
+    },
+    {
+      "id": "31071831",
+      "name": "一路坟头上宝塔   旺仔",
+      "stravaScore": 8,
+      "rawScore": 35.85,
+      "pointCount": 153
+    },
+    {
+      "id": "31117304",
+      "name": "S340石塘竹海—宁丹阳线",
+      "stravaScore": 10,
+      "rawScore": 10.28,
+      "pointCount": 43
+    },
+    {
+      "id": "31168510",
+      "name": "黄龙岘晏湖到朱门",
+      "stravaScore": 23,
+      "rawScore": 7.47,
+      "pointCount": 73
+    },
+    {
+      "id": "31207078",
+      "name": "一路向东20KM~黄埔路—经天路",
+      "stravaScore": 6,
+      "rawScore": 40.58,
+      "pointCount": 430
+    },
+    {
+      "id": "31247299",
+      "name": "River bank from Red bridge",
+      "stravaScore": 6,
+      "rawScore": 2.72,
+      "pointCount": 20
+    },
+    {
+      "id": "31253149",
+      "name": "QingLong W flat offroad",
+      "stravaScore": 10,
+      "rawScore": 9.16,
+      "pointCount": 230
+    },
+    {
+      "id": "31340203",
+      "name": "和园后山",
+      "stravaScore": 10,
+      "rawScore": 14.39,
+      "pointCount": 20
+    },
+    {
+      "id": "31343234",
+      "name": "尧红路西向东",
+      "stravaScore": 14,
+      "rawScore": 5.26,
+      "pointCount": 23
+    },
+    {
+      "id": "31343657",
+      "name": "恒业路东至西",
+      "stravaScore": 1,
+      "rawScore": 2.69,
+      "pointCount": 8
+    },
+    {
+      "id": "31394084",
+      "name": "Bridge to Bridge ",
+      "stravaScore": 11,
+      "rawScore": 2.48,
+      "pointCount": 29
+    },
+    {
+      "id": "31420344",
+      "name": "Qixia Av S338 #2 back",
+      "stravaScore": 11,
+      "rawScore": 11.1,
+      "pointCount": 53
+    },
+    {
+      "id": "31420354",
+      "name": "Qixia Av S338 #1 back",
+      "stravaScore": 2,
+      "rawScore": 4.19,
+      "pointCount": 21
+    },
+    {
+      "id": "31456293",
+      "name": "ov- 经五立交",
+      "stravaScore": 10,
+      "rawScore": 0.92,
+      "pointCount": 9
+    },
+    {
+      "id": "31465572",
+      "name": "浦洲路只有一个王          阿旺",
+      "stravaScore": 12,
+      "rawScore": 2.41,
+      "pointCount": 12
+    },
+    {
+      "id": "31469221",
+      "name": "山水大道南向北",
+      "stravaScore": 7,
+      "rawScore": 10.15,
+      "pointCount": 53
+    },
+    {
+      "id": "31469431",
+      "name": "江心洲西侧-灯塔向南2km",
+      "stravaScore": 105,
+      "rawScore": 4.1,
+      "pointCount": 14
+    },
+    {
+      "id": "31476496",
+      "name": "松鼠小镇(南)~碧桂园(路口)",
+      "stravaScore": 50,
+      "rawScore": 8.14,
+      "pointCount": 35
+    },
+    {
+      "id": "31518839",
+      "name": "QinHuai banking to W short 2",
+      "stravaScore": 4,
+      "rawScore": 3.08,
+      "pointCount": 19
+    },
+    {
+      "id": "31518847",
+      "name": "QinHuai banking to W short 1",
+      "stravaScore": 4,
+      "rawScore": 6.92,
+      "pointCount": 38
+    },
+    {
+      "id": "31565533",
+      "name": "WuXiang mt. avenue E->W",
+      "stravaScore": 11,
+      "rawScore": 9,
+      "pointCount": 39
+    },
+    {
+      "id": "31649724",
+      "name": "汤山环镇西路 北向南爬坡",
+      "stravaScore": 68,
+      "rawScore": 16.4,
+      "pointCount": 12
+    },
+    {
+      "id": "31671597",
+      "name": "肚子不饿吗？",
+      "stravaScore": 1,
+      "rawScore": 1.36,
+      "pointCount": 18
+    },
+    {
+      "id": "31678319",
+      "name": "SiJingShan last steep part",
+      "stravaScore": 10,
+      "rawScore": 44.83,
+      "pointCount": 49
+    },
+    {
+      "id": "31685134",
+      "name": "ov-gaoli到珍珠泉",
+      "stravaScore": 19,
+      "rawScore": 6.28,
+      "pointCount": 52
+    },
+    {
+      "id": "31685148",
+      "name": "ov-沿山大道到浦珠中路",
+      "stravaScore": 1,
+      "rawScore": 5.51,
+      "pointCount": 55
+    },
+    {
+      "id": "31687048",
+      "name": "Arndt's hill",
+      "stravaScore": 68,
+      "rawScore": 5.81,
+      "pointCount": 15
+    },
+    {
+      "id": "31693018",
+      "name": "隧道宁丹2k冲刺",
+      "stravaScore": 19,
+      "rawScore": 3.6,
+      "pointCount": 20
+    },
+    {
+      "id": "31700731",
+      "name": "Tower to Hidden Dragon ",
+      "stravaScore": 9,
+      "rawScore": 7.71,
+      "pointCount": 126
+    },
+    {
+      "id": "31701114",
+      "name": "01 back",
+      "stravaScore": 2,
+      "rawScore": 18.4,
+      "pointCount": 22
+    },
+    {
+      "id": "31769772",
+      "name": "宝塔山下山去汤泉吃饭路上",
+      "stravaScore": 6,
+      "rawScore": 3.37,
+      "pointCount": 16
+    },
+    {
+      "id": "31772675",
+      "name": "大fish 小行桥n-s",
+      "stravaScore": 5,
+      "rawScore": 3.48,
+      "pointCount": 23
+    },
+    {
+      "id": "31773174",
+      "name": "大fish 雨润大街s-n",
+      "stravaScore": 6,
+      "rawScore": 3.11,
+      "pointCount": 31
+    },
+    {
+      "id": "31787493",
+      "name": "大阳垾湿地公园～甜",
+      "stravaScore": 8,
+      "rawScore": 20.64,
+      "pointCount": 133
+    },
+    {
+      "id": "31797937",
+      "name": "LingShanNorthRoad full E->W",
+      "stravaScore": 16,
+      "rawScore": 11.28,
+      "pointCount": 74
+    },
+    {
+      "id": "31805192",
+      "name": "秦淮河绿道 天元中路-诚信大道",
+      "stravaScore": 6,
+      "rawScore": 4.69,
+      "pointCount": 60
+    },
+    {
+      "id": "31811777",
+      "name": "宝塔山爬坡全程_⛄️",
+      "stravaScore": 40,
+      "rawScore": 20.24,
+      "pointCount": 202
+    },
+    {
+      "id": "31848003",
+      "name": "Pingdawa new road from S",
+      "stravaScore": 9,
+      "rawScore": 24.46,
+      "pointCount": 81
+    },
+    {
+      "id": "31848066",
+      "name": "Pingdawa new road from N",
+      "stravaScore": 58,
+      "rawScore": 25.84,
+      "pointCount": 129
+    },
+    {
+      "id": "31869612",
+      "name": "S122 hill (3 lakes - Tangshan)",
+      "stravaScore": 30,
+      "rawScore": 10.44,
+      "pointCount": 12
+    },
+    {
+      "id": "31876866",
+      "name": "spin around the block",
+      "stravaScore": 3,
+      "rawScore": 18.09,
+      "pointCount": 32
+    },
+    {
+      "id": "31903916",
+      "name": "ov-陶吴到横溪",
+      "stravaScore": 6,
+      "rawScore": 14.71,
+      "pointCount": 70
+    },
+    {
+      "id": "31944658",
+      "name": "紫金山-鲁贝赛",
+      "stravaScore": 9,
+      "rawScore": 1.48,
+      "pointCount": 30
+    },
+    {
+      "id": "31945848",
+      "name": "汤泉饭后5KM计时",
+      "stravaScore": 40,
+      "rawScore": 10,
+      "pointCount": 48
+    },
+    {
+      "id": "31945906",
+      "name": "【岔琥路】5KM计时（西 → 东）",
+      "stravaScore": 35,
+      "rawScore": 10.49,
+      "pointCount": 109
+    },
+    {
+      "id": "31962593",
+      "name": "万景园北到南-托德",
+      "stravaScore": 12,
+      "rawScore": 2.56,
+      "pointCount": 29
+    },
+    {
+      "id": "31987045",
+      "name": "桦墅射乌山 QQ666",
+      "stravaScore": 19,
+      "rawScore": 27.65,
+      "pointCount": 34
+    },
+    {
+      "id": "32054299",
+      "name": "丫髻山提前先热个身吧 翾",
+      "stravaScore": 24,
+      "rawScore": 24.47,
+      "pointCount": 24
+    },
+    {
+      "id": "32064219",
+      "name": "茅山大道---福源社区",
+      "stravaScore": 36,
+      "rawScore": 19.75,
+      "pointCount": 94
+    },
+    {
+      "id": "32121097",
+      "name": "和尚岘水库短坡",
+      "stravaScore": 13,
+      "rawScore": 15.17,
+      "pointCount": 22
+    },
+    {
+      "id": "32129986",
+      "name": "回家小坡",
+      "stravaScore": 1,
+      "rawScore": 10.01,
+      "pointCount": 12
+    },
+    {
+      "id": "32165817",
+      "name": "小平路后加速冲刺",
+      "stravaScore": 12,
+      "rawScore": 19.44,
+      "pointCount": 24
+    },
+    {
+      "id": "32229135",
+      "name": "攻！向大桥前进！",
+      "stravaScore": 103,
+      "rawScore": 3.35,
+      "pointCount": 17
+    },
+    {
+      "id": "32381528",
+      "name": "远离江心洲-夹江大桥上坡",
+      "stravaScore": 23,
+      "rawScore": 6.6,
+      "pointCount": 10
+    },
+    {
+      "id": "32381745",
+      "name": "【限时路段】长江三桥单程骑行",
+      "stravaScore": 3,
+      "rawScore": 10.94,
+      "pointCount": 46
+    },
+    {
+      "id": "32403415",
+      "name": "Need of speed",
+      "stravaScore": 70,
+      "rawScore": 2.46,
+      "pointCount": 30
+    },
+    {
+      "id": "32438796",
+      "name": "大山一圈",
+      "stravaScore": 4,
+      "rawScore": 16.77,
+      "pointCount": 51
+    },
+    {
+      "id": "32508026",
+      "name": "机场二通道N--S",
+      "stravaScore": 1,
+      "rawScore": 4.76,
+      "pointCount": 81
+    },
+    {
+      "id": "32512141",
+      "name": "虎踞北路小缓坡",
+      "stravaScore": 11,
+      "rawScore": 4,
+      "pointCount": 17
+    },
+    {
+      "id": "32539448",
+      "name": "Baijia Lake Inner Loop",
+      "stravaScore": 16,
+      "rawScore": 20.7,
+      "pointCount": 53
+    },
+    {
+      "id": "32583531",
+      "name": "邮局路downroad",
+      "stravaScore": 21,
+      "rawScore": 1.9,
+      "pointCount": 25
+    },
+    {
+      "id": "32616074",
+      "name": "033县道爬坡",
+      "stravaScore": 4,
+      "rawScore": 10.92,
+      "pointCount": 21
+    },
+    {
+      "id": "32629328",
+      "name": "南阳路到大青山",
+      "stravaScore": 3,
+      "rawScore": 28.14,
+      "pointCount": 222
+    },
+    {
+      "id": "32674088",
+      "name": "Andrey’s Hill",
+      "stravaScore": 20,
+      "rawScore": 10.88,
+      "pointCount": 51
+    },
+    {
+      "id": "32738914",
+      "name": "夜骑踏频练习",
+      "stravaScore": 4,
+      "rawScore": 1.25,
+      "pointCount": 13
+    },
+    {
+      "id": "32755437",
+      "name": "中央门到新街口",
+      "stravaScore": 2,
+      "rawScore": 10.51,
+      "pointCount": 149
+    },
+    {
+      "id": "32879642",
+      "name": "Bancang to West",
+      "stravaScore": 8,
+      "rawScore": 1.49,
+      "pointCount": 13
+    },
+    {
+      "id": "32896249",
+      "name": "运粮河东路 S-N",
+      "stravaScore": 5,
+      "rawScore": 3.39,
+      "pointCount": 37
+    },
+    {
+      "id": "32908474",
+      "name": "兜率寺---大门入口起",
+      "stravaScore": 79,
+      "rawScore": 32.21,
+      "pointCount": 48
+    },
+    {
+      "id": "32915327",
+      "name": "黄龙岘茶壶到正方大道",
+      "stravaScore": 21,
+      "rawScore": 20.63,
+      "pointCount": 268
+    },
+    {
+      "id": "32926404",
+      "name": "无为长江大堤拉练",
+      "stravaScore": 11,
+      "rawScore": 59.47,
+      "pointCount": 634
+    },
+    {
+      "id": "32934880",
+      "name": "别特么拦着我，我要光速下班",
+      "stravaScore": 1,
+      "rawScore": 4.97,
+      "pointCount": 57
+    },
+    {
+      "id": "32967154",
+      "name": "李塔水库冲刺",
+      "stravaScore": 42,
+      "rawScore": 1.02,
+      "pointCount": 7
+    },
+    {
+      "id": "32967178",
+      "name": "虞宁线",
+      "stravaScore": 93,
+      "rawScore": 15.41,
+      "pointCount": 58
+    },
+    {
+      "id": "32992674",
+      "name": "246辛庄路下坡",
+      "stravaScore": 4,
+      "rawScore": 3.52,
+      "pointCount": 37
+    },
+    {
+      "id": "32992728",
+      "name": "石臼湖大桥到向阳",
+      "stravaScore": 9,
+      "rawScore": 8.64,
+      "pointCount": 106
+    },
+    {
+      "id": "32992743",
+      "name": "石臼湖向阳到东北角",
+      "stravaScore": 7,
+      "rawScore": 5.54,
+      "pointCount": 71
+    },
+    {
+      "id": "32992787",
+      "name": "246郊野书屋向北冲刺",
+      "stravaScore": 10,
+      "rawScore": 9.57,
+      "pointCount": 114
+    },
+    {
+      "id": "32992820",
+      "name": "天生桥太阳岛冲刺TopK",
+      "stravaScore": 11,
+      "rawScore": 3.6,
+      "pointCount": 39
+    },
+    {
+      "id": "32992824",
+      "name": "天生桥北冲刺TopK",
+      "stravaScore": 20,
+      "rawScore": 1.99,
+      "pointCount": 31
+    },
+    {
+      "id": "32992832",
+      "name": "大桥预备TopK",
+      "stravaScore": 33,
+      "rawScore": 4.03,
+      "pointCount": 51
+    },
+    {
+      "id": "33010904",
+      "name": "石臼湖东半圈TopK",
+      "stravaScore": 14,
+      "rawScore": 69.77,
+      "pointCount": 906
+    },
+    {
+      "id": "33010909",
+      "name": "石臼湖东上半段冲刺TopK",
+      "stravaScore": 16,
+      "rawScore": 8.64,
+      "pointCount": 103
+    },
+    {
+      "id": "33010911",
+      "name": "石臼湖东下半段冲刺TopK",
+      "stravaScore": 17,
+      "rawScore": 11.53,
+      "pointCount": 135
+    },
+    {
+      "id": "33071523",
+      "name": "超级转圈圈（3/4圈）",
+      "stravaScore": 5,
+      "rawScore": 2.46,
+      "pointCount": 36
+    },
+    {
+      "id": "33089784",
+      "name": "up Qixia Ave",
+      "stravaScore": 10,
+      "rawScore": 6.47,
+      "pointCount": 14
+    },
+    {
+      "id": "33089845",
+      "name": "Helmuts along the park",
+      "stravaScore": 12,
+      "rawScore": 1.55,
+      "pointCount": 18
+    },
+    {
+      "id": "33103458",
+      "name": "看谁最顶",
+      "stravaScore": 7,
+      "rawScore": 19.36,
+      "pointCount": 32
+    },
+    {
+      "id": "33175112",
+      "name": "Jurong W road to S",
+      "stravaScore": 1,
+      "rawScore": 12.2,
+      "pointCount": 41
+    },
+    {
+      "id": "33218640",
+      "name": "warmup",
+      "stravaScore": 28,
+      "rawScore": 5.29,
+      "pointCount": 21
+    },
+    {
+      "id": "33226110",
+      "name": "Longshang firetrail S to N",
+      "stravaScore": 9,
+      "rawScore": 6.43,
+      "pointCount": 114
+    },
+    {
+      "id": "33232348",
+      "name": "S246 South to North",
+      "stravaScore": 20,
+      "rawScore": 42.88,
+      "pointCount": 179
+    },
+    {
+      "id": "33232968",
+      "name": "运粮河西路狂飙",
+      "stravaScore": 16,
+      "rawScore": 2.98,
+      "pointCount": 16
+    },
+    {
+      "id": "33247898",
+      "name": "园博园小朋友浅爬",
+      "stravaScore": 17,
+      "rawScore": 15.11,
+      "pointCount": 33
+    },
+    {
+      "id": "33348570",
+      "name": "Lishui S middle short to E",
+      "stravaScore": 16,
+      "rawScore": 11.43,
+      "pointCount": 210
+    },
+    {
+      "id": "33387701",
+      "name": "小心猴出没（乾元观）",
+      "stravaScore": 41,
+      "rawScore": 7.86,
+      "pointCount": 94
+    },
+    {
+      "id": "33446259",
+      "name": "茅山索道爬坡【红绿灯start】",
+      "stravaScore": 231,
+      "rawScore": 25.92,
+      "pointCount": 32
+    },
+    {
+      "id": "33451117",
+      "name": "游仙路（S340-仙姑）",
+      "stravaScore": 24,
+      "rawScore": 14.67,
+      "pointCount": 191
+    },
+    {
+      "id": "33460315",
+      "name": "大连山西 烂水泥路爬坡",
+      "stravaScore": 25,
+      "rawScore": 43.17,
+      "pointCount": 54
+    },
+    {
+      "id": "33460320",
+      "name": "小川藏线の捷径 向北",
+      "stravaScore": 3,
+      "rawScore": 7.8,
+      "pointCount": 53
+    },
+    {
+      "id": "33550634",
+      "name": "临江桥冲刺",
+      "stravaScore": 15,
+      "rawScore": 6.41,
+      "pointCount": 13
+    },
+    {
+      "id": "33573389",
+      "name": "神山坟+精英赛赛道上坡",
+      "stravaScore": 5,
+      "rawScore": 18.16,
+      "pointCount": 63
+    },
+    {
+      "id": "33658124",
+      "name": "南京捷安特杨公井店“买自行车来这里，然后科巷吃东西”",
+      "stravaScore": 11,
+      "rawScore": 1.92,
+      "pointCount": 23
+    },
+    {
+      "id": "33677289",
+      "name": "雕塑公园内圈",
+      "stravaScore": 52,
+      "rawScore": 27.48,
+      "pointCount": 84
+    },
+    {
+      "id": "33782813",
+      "name": "西部干线 水库往汤山下坡",
+      "stravaScore": 71,
+      "rawScore": 5.14,
+      "pointCount": 21
+    },
+    {
+      "id": "33789314",
+      "name": "前往兔子农场！",
+      "stravaScore": 11,
+      "rawScore": 3.4,
+      "pointCount": 46
+    },
+    {
+      "id": "33877850",
+      "name": "老虎岗下坡冲冲冲",
+      "stravaScore": 48,
+      "rawScore": 2.56,
+      "pointCount": 31
+    },
+    {
+      "id": "33885404",
+      "name": "阿旺回家路",
+      "stravaScore": 2,
+      "rawScore": 11.3,
+      "pointCount": 146
+    },
+    {
+      "id": "33927247",
+      "name": "瓦屋山后山【西边小起伏路】",
+      "stravaScore": 40,
+      "rawScore": 14.12,
+      "pointCount": 190
+    },
+    {
+      "id": "33930357",
+      "name": "李塔水库下坡冲冲冲",
+      "stravaScore": 29,
+      "rawScore": 4.39,
+      "pointCount": 61
+    },
+    {
+      "id": "33930376",
+      "name": "九龙山下坡冲冲冲",
+      "stravaScore": 46,
+      "rawScore": 3.76,
+      "pointCount": 75
+    },
+    {
+      "id": "33930385",
+      "name": "最美瓦屋山西边路",
+      "stravaScore": 27,
+      "rawScore": 4.99,
+      "pointCount": 61
+    },
+    {
+      "id": "33930398",
+      "name": "下山回家冲冲冲",
+      "stravaScore": 46,
+      "rawScore": 4.31,
+      "pointCount": 58
+    },
+    {
+      "id": "33978370",
+      "name": "一冲到顶",
+      "stravaScore": 8,
+      "rawScore": 17.52,
+      "pointCount": 20
+    },
+    {
+      "id": "34026574",
+      "name": "花奔大桥缓坡-GICC",
+      "stravaScore": 28,
+      "rawScore": 8.04,
+      "pointCount": 12
+    },
+    {
+      "id": "34026588",
+      "name": "南北干线平路TT南段-GICC",
+      "stravaScore": 12,
+      "rawScore": 5.78,
+      "pointCount": 22
+    },
+    {
+      "id": "34026602",
+      "name": "南北干线平路TT北段-GICC",
+      "stravaScore": 17,
+      "rawScore": 4.53,
+      "pointCount": 18
+    },
+    {
+      "id": "34098722",
+      "name": "Country side ramp 1",
+      "stravaScore": 28,
+      "rawScore": 16.14,
+      "pointCount": 28
+    },
+    {
+      "id": "34098822",
+      "name": "Country side Ramp 3",
+      "stravaScore": 44,
+      "rawScore": 26.5,
+      "pointCount": 27
+    },
+    {
+      "id": "34114379",
+      "name": "红山南路to南京站突围",
+      "stravaScore": 6,
+      "rawScore": 3.02,
+      "pointCount": 37
+    },
+    {
+      "id": "34114392",
+      "name": "龙蟠路大战电动车",
+      "stravaScore": 10,
+      "rawScore": 2.4,
+      "pointCount": 19
+    },
+    {
+      "id": "34114422",
+      "name": "狂飙昆仑路",
+      "stravaScore": 12,
+      "rawScore": 3.94,
+      "pointCount": 17
+    },
+    {
+      "id": "34114708",
+      "name": "一路向北",
+      "stravaScore": 5,
+      "rawScore": 7.86,
+      "pointCount": 74
+    },
+    {
+      "id": "34114844",
+      "name": "尧新大道下坡",
+      "stravaScore": 9,
+      "rawScore": 4.56,
+      "pointCount": 32
+    },
+    {
+      "id": "34121574",
+      "name": "六郎环圩赛道",
+      "stravaScore": 6,
+      "rawScore": 125.2,
+      "pointCount": 1074
+    },
+    {
+      "id": "34137481",
+      "name": "赤乌路",
+      "stravaScore": 9,
+      "rawScore": 4.26,
+      "pointCount": 38
+    },
+    {
+      "id": "34150558",
+      "name": "02 back",
+      "stravaScore": 23,
+      "rawScore": 15.81,
+      "pointCount": 47
+    },
+    {
+      "id": "34160239",
+      "name": "博望最后一公里冲刺",
+      "stravaScore": 13,
+      "rawScore": 2.14,
+      "pointCount": 29
+    },
+    {
+      "id": "34196667",
+      "name": "Strawberry fields",
+      "stravaScore": 40,
+      "rawScore": 7.81,
+      "pointCount": 58
+    },
+    {
+      "id": "34209495",
+      "name": "最后一段回家吃肉啦",
+      "stravaScore": 28,
+      "rawScore": 10.48,
+      "pointCount": 60
+    },
+    {
+      "id": "34220400",
+      "name": "旅大线小缓坡",
+      "stravaScore": 4,
+      "rawScore": 10.76,
+      "pointCount": 56
+    },
+    {
+      "id": "34246549",
+      "name": "NKA环仙灵陵园",
+      "stravaScore": 2,
+      "rawScore": 32.69,
+      "pointCount": 282
+    },
+    {
+      "id": "34246560",
+      "name": "二通道绕圈",
+      "stravaScore": 2,
+      "rawScore": 20.88,
+      "pointCount": 77
+    },
+    {
+      "id": "34265475",
+      "name": "欢乐谷东南小山逆时针爬坡",
+      "stravaScore": 9,
+      "rawScore": 20.78,
+      "pointCount": 35
+    },
+    {
+      "id": "34283009",
+      "name": "大青山万山村岔口到山顶观景护栏",
+      "stravaScore": 35,
+      "rawScore": 40.22,
+      "pointCount": 168
+    },
+    {
+      "id": "34283728",
+      "name": "黄池三岔口到方特二期",
+      "stravaScore": 12,
+      "rawScore": 24.93,
+      "pointCount": 67
+    },
+    {
+      "id": "34285789",
+      "name": "大志哥哥说出门就要拉爆你",
+      "stravaScore": 12,
+      "rawScore": 13.84,
+      "pointCount": 27
+    },
+    {
+      "id": "34290914",
+      "name": "青云禅寺VO₂ max",
+      "stravaScore": 25,
+      "rawScore": 21.14,
+      "pointCount": 51
+    },
+    {
+      "id": "34290960",
+      "name": "袁泽桥冲冲刺",
+      "stravaScore": 17,
+      "rawScore": 8.3,
+      "pointCount": 5
+    },
+    {
+      "id": "34308982",
+      "name": "雨花北路菜市场之路",
+      "stravaScore": 8,
+      "rawScore": 10.12,
+      "pointCount": 25
+    },
+    {
+      "id": "34309839",
+      "name": "怎么说我也是个坡吧",
+      "stravaScore": 100,
+      "rawScore": 11.8,
+      "pointCount": 27
+    },
+    {
+      "id": "34322986",
+      "name": "竹海湖xc下坡-⛄️",
+      "stravaScore": 4,
+      "rawScore": 1.17,
+      "pointCount": 39
+    },
+    {
+      "id": "34325909",
+      "name": "瓦屋山线 E-W（瓦屋山脚-G104）",
+      "stravaScore": 14,
+      "rawScore": 13.5,
+      "pointCount": 192
+    },
+    {
+      "id": "34326951",
+      "name": "G104 N-S（瓦屋山线-S341）",
+      "stravaScore": 2,
+      "rawScore": 15.36,
+      "pointCount": 37
+    },
+    {
+      "id": "34353178",
+      "name": "花津桥爬坡冲刺",
+      "stravaScore": 14,
+      "rawScore": 5.52,
+      "pointCount": 8
+    },
+    {
+      "id": "34353202",
+      "name": "S341冲向南京",
+      "stravaScore": 7,
+      "rawScore": 12.32,
+      "pointCount": 75
+    },
+    {
+      "id": "34354191",
+      "name": "福山大桥冲刺",
+      "stravaScore": 21,
+      "rawScore": 8.8,
+      "pointCount": 5
+    },
+    {
+      "id": "34354238",
+      "name": "🛕小亭子—U形船坞🚢GRAVEL-⛄️",
+      "stravaScore": 1,
+      "rawScore": 1.68,
+      "pointCount": 78
+    },
+    {
+      "id": "34370436",
+      "name": "南陵渡大桥",
+      "stravaScore": 41,
+      "rawScore": 2.45,
+      "pointCount": 10
+    },
+    {
+      "id": "34378468",
+      "name": "固城湖大桥南北冲刺-GICC",
+      "stravaScore": 42,
+      "rawScore": 9.75,
+      "pointCount": 10
+    },
+    {
+      "id": "34388339",
+      "name": "福山大桥冲刺",
+      "stravaScore": 15,
+      "rawScore": 8.7,
+      "pointCount": 5
+    },
+    {
+      "id": "34405239",
+      "name": "2023中国山地自行车公开赛南京浦口站赛道一圈",
+      "stravaScore": 7,
+      "rawScore": 9.48,
+      "pointCount": 376
+    },
+    {
+      "id": "34418831",
+      "name": "迎湖桃源TT",
+      "stravaScore": 4,
+      "rawScore": 4.93,
+      "pointCount": 65
+    },
+    {
+      "id": "34418841",
+      "name": "湖滨大道西TT-GICC",
+      "stravaScore": 4,
+      "rawScore": 3.67,
+      "pointCount": 47
+    },
+    {
+      "id": "34420899",
+      "name": "正方中路巡航",
+      "stravaScore": 23,
+      "rawScore": 4.73,
+      "pointCount": 42
+    },
+    {
+      "id": "34423656",
+      "name": "吃马鞍山金鹰麦麦🍔_⛄️",
+      "stravaScore": 6,
+      "rawScore": 14.58,
+      "pointCount": 165
+    },
+    {
+      "id": "34423739",
+      "name": "👋拜拜马鞍山-G205_⛄️",
+      "stravaScore": 6,
+      "rawScore": 28.28,
+      "pointCount": 177
+    },
+    {
+      "id": "34435434",
+      "name": "2023云幽谷绕圈赛",
+      "stravaScore": 1,
+      "rawScore": 21.13,
+      "pointCount": 98
+    },
+    {
+      "id": "34442719",
+      "name": "燕城大道(海赋尚城-燕熙台)",
+      "stravaScore": 1,
+      "rawScore": 1.14,
+      "pointCount": 7
+    },
+    {
+      "id": "34446318",
+      "name": "tangshan gravel section",
+      "stravaScore": 1,
+      "rawScore": 4.93,
+      "pointCount": 98
+    },
+    {
+      "id": "34464535",
+      "name": "Around the lake new",
+      "stravaScore": 3,
+      "rawScore": 18.53,
+      "pointCount": 68
+    },
+    {
+      "id": "34472819",
+      "name": "奥体绕圈圈",
+      "stravaScore": 7,
+      "rawScore": 21.73,
+      "pointCount": 99
+    },
+    {
+      "id": "34556477",
+      "name": "🏫兴隆大街itt金陵河西+金陵高职技术_⛄️",
+      "stravaScore": 7,
+      "rawScore": 3.55,
+      "pointCount": 25
+    },
+    {
+      "id": "34565134",
+      "name": "前方连续转弯请减速慢行",
+      "stravaScore": 2,
+      "rawScore": 13.2,
+      "pointCount": 19
+    },
+    {
+      "id": "34598344",
+      "name": "南研BA地块，冲吧少年",
+      "stravaScore": 14,
+      "rawScore": 6.88,
+      "pointCount": 12
+    },
+    {
+      "id": "34630942",
+      "name": "NKA清河路-应天大街 北到南",
+      "stravaScore": 8,
+      "rawScore": 3.22,
+      "pointCount": 35
+    },
+    {
+      "id": "34651495",
+      "name": "New speeding playground 2023",
+      "stravaScore": 19,
+      "rawScore": 4.01,
+      "pointCount": 35
+    },
+    {
+      "id": "34656606",
+      "name": "方山北门至山顶",
+      "stravaScore": 111,
+      "rawScore": 37.83,
+      "pointCount": 107
+    },
+    {
+      "id": "34735144",
+      "name": "石子路狂奔（南向北）",
+      "stravaScore": 11,
+      "rawScore": 7.78,
+      "pointCount": 48
+    },
+    {
+      "id": "34743051",
+      "name": "九龙入水",
+      "stravaScore": 2,
+      "rawScore": 40.03,
+      "pointCount": 212
+    },
+    {
+      "id": "34753759",
+      "name": "尧新大道混战电动车",
+      "stravaScore": 1,
+      "rawScore": 4.83,
+      "pointCount": 52
+    },
+    {
+      "id": "34769814",
+      "name": "红山路下坡冲刺",
+      "stravaScore": 10,
+      "rawScore": 2.04,
+      "pointCount": 17
+    },
+    {
+      "id": "34769818",
+      "name": "华跃冲刺",
+      "stravaScore": 6,
+      "rawScore": 1.34,
+      "pointCount": 12
+    },
+    {
+      "id": "34805973",
+      "name": "共青团路爬坡",
+      "stravaScore": 9,
+      "rawScore": 8.59,
+      "pointCount": 71
+    },
+    {
+      "id": "34806005",
+      "name": "安德门北街下坡请捏紧刹车注意行人",
+      "stravaScore": 5,
+      "rawScore": 1.17,
+      "pointCount": 16
+    },
+    {
+      "id": "34815581",
+      "name": "林场一圈逆时针",
+      "stravaScore": 5,
+      "rawScore": 28.39,
+      "pointCount": 317
+    },
+    {
+      "id": "34816206",
+      "name": "花奔大桥缓坡东-西向-GICC",
+      "stravaScore": 9,
+      "rawScore": 8.28,
+      "pointCount": 5
+    },
+    {
+      "id": "34821318",
+      "name": "过了铁道来爬坡",
+      "stravaScore": 13,
+      "rawScore": 4.65,
+      "pointCount": 13
+    },
+    {
+      "id": "34888720",
+      "name": "反方向的钟 鲁港回程冲刺",
+      "stravaScore": 8,
+      "rawScore": 5.62,
+      "pointCount": 24
+    },
+    {
+      "id": "34888825",
+      "name": "绿技师 我来了",
+      "stravaScore": 8,
+      "rawScore": 1.37,
+      "pointCount": 9
+    },
+    {
+      "id": "34888829",
+      "name": "肆动 广济桥冲刺 1",
+      "stravaScore": 6,
+      "rawScore": 2.88,
+      "pointCount": 7
+    },
+    {
+      "id": "34889638",
+      "name": "反方向的钟 回家开冲",
+      "stravaScore": 10,
+      "rawScore": 1.11,
+      "pointCount": 7
+    },
+    {
+      "id": "34893489",
+      "name": "二环加油站 冲刺！！",
+      "stravaScore": 9,
+      "rawScore": 1.19,
+      "pointCount": 11
+    },
+    {
+      "id": "34898233",
+      "name": "汇通路down to仙林大道",
+      "stravaScore": 9,
+      "rawScore": 3.57,
+      "pointCount": 17
+    },
+    {
+      "id": "34898788",
+      "name": "肆动专属 碧桂园大提 热身冲刺",
+      "stravaScore": 7,
+      "rawScore": 13.24,
+      "pointCount": 69
+    },
+    {
+      "id": "34898816",
+      "name": "芜当江提 高速巡航中。。。",
+      "stravaScore": 24,
+      "rawScore": 6.12,
+      "pointCount": 59
+    },
+    {
+      "id": "34898904",
+      "name": "反方向的钟 回家高速巡航中",
+      "stravaScore": 23,
+      "rawScore": 2.01,
+      "pointCount": 9
+    },
+    {
+      "id": "34900356",
+      "name": "三环路到峨山东路",
+      "stravaScore": 10,
+      "rawScore": 9.85,
+      "pointCount": 35
+    },
+    {
+      "id": "34900382",
+      "name": "肆动 芜石路高速巡航中（小耳朵 绿技师专属路段）",
+      "stravaScore": 8,
+      "rawScore": 5.59,
+      "pointCount": 26
+    },
+    {
+      "id": "34906125",
+      "name": "大寨路 起伏路段全程",
+      "stravaScore": 65,
+      "rawScore": 6.57,
+      "pointCount": 20
+    },
+    {
+      "id": "34908862",
+      "name": "采石江堤逆时针u圈",
+      "stravaScore": 6,
+      "rawScore": 21.04,
+      "pointCount": 168
+    },
+    {
+      "id": "34915801",
+      "name": "jiye-秦淮河大桥-新能源大道",
+      "stravaScore": 7,
+      "rawScore": 2.12,
+      "pointCount": 13
+    },
+    {
+      "id": "34915912",
+      "name": "jiye-如意湖冲刺-越秀路",
+      "stravaScore": 3,
+      "rawScore": 3.13,
+      "pointCount": 9
+    },
+    {
+      "id": "34915969",
+      "name": "jiye-滨淮大道至淮源大道-虞宁线",
+      "stravaScore": 3,
+      "rawScore": 6.37,
+      "pointCount": 23
+    },
+    {
+      "id": "34932968",
+      "name": "肆动单车中山桥小小坡",
+      "stravaScore": 10,
+      "rawScore": 2,
+      "pointCount": 14
+    },
+    {
+      "id": "34943000",
+      "name": "其东线W2E",
+      "stravaScore": 5,
+      "rawScore": 5.2,
+      "pointCount": 38
+    },
+    {
+      "id": "34959553",
+      "name": "jiye-跨机场高速桥-秣周东路",
+      "stravaScore": 11,
+      "rawScore": 6.41,
+      "pointCount": 5
+    },
+    {
+      "id": "34959933",
+      "name": "jiye-禄铜线至横溪路牌-东向西-虞宁线",
+      "stravaScore": 7,
+      "rawScore": 16.31,
+      "pointCount": 55
+    },
+    {
+      "id": "34959957",
+      "name": "jiye-虞宁线至天禄大道-南向北-金航路",
+      "stravaScore": 18,
+      "rawScore": 15.51,
+      "pointCount": 72
+    },
+    {
+      "id": "34968913",
+      "name": "jiye-秣周东路至正方中路-北向南-苏源大道",
+      "stravaScore": 3,
+      "rawScore": 5.96,
+      "pointCount": 25
+    },
+    {
+      "id": "34968975",
+      "name": "jiye-过东大路至高速出口-双龙大道",
+      "stravaScore": 17,
+      "rawScore": 2.82,
+      "pointCount": 10
+    },
+    {
+      "id": "34978735",
+      "name": "芳山金顶禅寺前小萌坡",
+      "stravaScore": 1,
+      "rawScore": 23.22,
+      "pointCount": 23
+    },
+    {
+      "id": "34980991",
+      "name": "Jiuxianghe E Road",
+      "stravaScore": 19,
+      "rawScore": 3.04,
+      "pointCount": 20
+    },
+    {
+      "id": "34981018",
+      "name": "经天路 to 仙林大道",
+      "stravaScore": 3,
+      "rawScore": 5.53,
+      "pointCount": 43
+    },
+    {
+      "id": "34987118",
+      "name": "Wanda Mall East",
+      "stravaScore": 3,
+      "rawScore": 2.28,
+      "pointCount": 12
+    },
+    {
+      "id": "35001498",
+      "name": "肆动 峨山东路绕圈返程",
+      "stravaScore": 19,
+      "rawScore": 7.12,
+      "pointCount": 25
+    },
+    {
+      "id": "35001553",
+      "name": "肆动 三环路高速巡航中段",
+      "stravaScore": 14,
+      "rawScore": 3.21,
+      "pointCount": 16
+    },
+    {
+      "id": "35007642",
+      "name": "Xianyin North Road uphill 2.0",
+      "stravaScore": 9,
+      "rawScore": 6.84,
+      "pointCount": 25
+    },
+    {
+      "id": "35015420",
+      "name": "jiye-石塘下坡至小丹阳路口-虞宁线",
+      "stravaScore": 21,
+      "rawScore": 2.13,
+      "pointCount": 12
+    },
+    {
+      "id": "35015762",
+      "name": "jiye-出丹阳至虞宁线十字路口-宁丹公路",
+      "stravaScore": 6,
+      "rawScore": 17.22,
+      "pointCount": 101
+    },
+    {
+      "id": "35031086",
+      "name": "冲刺上桥",
+      "stravaScore": 18,
+      "rawScore": 3.78,
+      "pointCount": 7
+    },
+    {
+      "id": "35033474",
+      "name": "肆动 湾石路到陶辛水韵",
+      "stravaScore": 27,
+      "rawScore": 18.11,
+      "pointCount": 59
+    },
+    {
+      "id": "35040418",
+      "name": "反方向的钟 陶辛水韵回家荆十路巡航中1",
+      "stravaScore": 9,
+      "rawScore": 16.36,
+      "pointCount": 60
+    },
+    {
+      "id": "35040737",
+      "name": "肆动 澛石路返程冲刺",
+      "stravaScore": 30,
+      "rawScore": 5.91,
+      "pointCount": 29
+    },
+    {
+      "id": "35040841",
+      "name": "反方向的钟 荆十路返程冲刺2",
+      "stravaScore": 5,
+      "rawScore": 15.69,
+      "pointCount": 95
+    },
+    {
+      "id": "35040921",
+      "name": "肆动 铁路桥冲刺",
+      "stravaScore": 18,
+      "rawScore": 7.69,
+      "pointCount": 35
+    },
+    {
+      "id": "35048238",
+      "name": "黄龙岘内部小起伏",
+      "stravaScore": 5,
+      "rawScore": 1.98,
+      "pointCount": 48
+    },
+    {
+      "id": "35082968",
+      "name": "九华北路G205国道至太白©",
+      "stravaScore": 5,
+      "rawScore": 20.29,
+      "pointCount": 94
+    },
+    {
+      "id": "35088231",
+      "name": "琥珀泉之路到林场|5km",
+      "stravaScore": 2,
+      "rawScore": 10,
+      "pointCount": 96
+    },
+    {
+      "id": "35092001",
+      "name": "降福殿全程",
+      "stravaScore": 16,
+      "rawScore": 43.56,
+      "pointCount": 124
+    },
+    {
+      "id": "35094282",
+      "name": "jiye-金航路加油站至柘塘-天禄大道",
+      "stravaScore": 2,
+      "rawScore": 7.77,
+      "pointCount": 30
+    },
+    {
+      "id": "35100065",
+      "name": "拆迁后从奥特莱斯回家的新路",
+      "stravaScore": 3,
+      "rawScore": 5.34,
+      "pointCount": 37
+    },
+    {
+      "id": "35100894",
+      "name": "中北学院冲向大学城之路",
+      "stravaScore": 8,
+      "rawScore": 1.42,
+      "pointCount": 12
+    },
+    {
+      "id": "35108456",
+      "name": "jiye-丹阳大道至吉印大道-秣周中路",
+      "stravaScore": 7,
+      "rawScore": 1.22,
+      "pointCount": 8
+    },
+    {
+      "id": "35108474",
+      "name": "jiye-吉印大道至将军大道-秣周中路",
+      "stravaScore": 4,
+      "rawScore": 5.1,
+      "pointCount": 34
+    },
+    {
+      "id": "35128415",
+      "name": "jiye-过路口至中兴西路-淮源大道",
+      "stravaScore": 1,
+      "rawScore": 1.46,
+      "pointCount": 7
+    },
+    {
+      "id": "35144264",
+      "name": "清水河路南向北",
+      "stravaScore": 5,
+      "rawScore": 11.08,
+      "pointCount": 21
+    },
+    {
+      "id": "35144309",
+      "name": "205国道南陵段",
+      "stravaScore": 68,
+      "rawScore": 50.28,
+      "pointCount": 194
+    },
+    {
+      "id": "35152224",
+      "name": "横山完整爬坡",
+      "stravaScore": 167,
+      "rawScore": 51.12,
+      "pointCount": 153
+    },
+    {
+      "id": "35169970",
+      "name": "岗亭出发环方山",
+      "stravaScore": 1,
+      "rawScore": 43.02,
+      "pointCount": 378
+    },
+    {
+      "id": "35179480",
+      "name": "临江桥~松鼠小镇(东)",
+      "stravaScore": 16,
+      "rawScore": 11.68,
+      "pointCount": 59
+    },
+    {
+      "id": "35183445",
+      "name": "园博园（铁轨-省道）",
+      "stravaScore": 189,
+      "rawScore": 7.15,
+      "pointCount": 35
+    },
+    {
+      "id": "35183466",
+      "name": "湖法路+新河路",
+      "stravaScore": 8,
+      "rawScore": 4.56,
+      "pointCount": 39
+    },
+    {
+      "id": "35183786",
+      "name": "越野路线（南农大基地）",
+      "stravaScore": 1,
+      "rawScore": 2.24,
+      "pointCount": 44
+    },
+    {
+      "id": "35188341",
+      "name": "淳马线（西向东）",
+      "stravaScore": 3,
+      "rawScore": 29.49,
+      "pointCount": 158
+    },
+    {
+      "id": "35188396",
+      "name": "西卓路（东向西）",
+      "stravaScore": 13,
+      "rawScore": 12.73,
+      "pointCount": 48
+    },
+    {
+      "id": "35188420",
+      "name": "庙山爬坡（南向北）",
+      "stravaScore": 28,
+      "rawScore": 7.97,
+      "pointCount": 51
+    },
+    {
+      "id": "35188446",
+      "name": "越野路线（梨花柏家爬坡）",
+      "stravaScore": 2,
+      "rawScore": 13.92,
+      "pointCount": 75
+    },
+    {
+      "id": "35188496",
+      "name": "巨宝路（东向西）",
+      "stravaScore": 7,
+      "rawScore": 12.06,
+      "pointCount": 33
+    },
+    {
+      "id": "35188546",
+      "name": "后窑路-上窑湾-窑湾水库",
+      "stravaScore": 16,
+      "rawScore": 8.28,
+      "pointCount": 113
+    },
+    {
+      "id": "35188567",
+      "name": "后巷路（西向东）",
+      "stravaScore": 9,
+      "rawScore": 9.58,
+      "pointCount": 48
+    },
+    {
+      "id": "35188737",
+      "name": "桦墅出村小路",
+      "stravaScore": 5,
+      "rawScore": 15.4,
+      "pointCount": 21
+    },
+    {
+      "id": "35197362",
+      "name": "凤鸣湖路回家冲刺",
+      "stravaScore": 24,
+      "rawScore": 4.43,
+      "pointCount": 27
+    },
+    {
+      "id": "35214686",
+      "name": "Lamb's Hill",
+      "stravaScore": 15,
+      "rawScore": 22.42,
+      "pointCount": 14
+    },
+    {
+      "id": "35223250",
+      "name": "Cristal Hill Loop",
+      "stravaScore": 3,
+      "rawScore": 20.77,
+      "pointCount": 45
+    },
+    {
+      "id": "35237203",
+      "name": "让我看看是谁在秦淮河大桥上突围",
+      "stravaScore": 33,
+      "rawScore": 3.06,
+      "pointCount": 17
+    },
+    {
+      "id": "35251692",
+      "name": "放学！",
+      "stravaScore": 2,
+      "rawScore": 1.77,
+      "pointCount": 17
+    },
+    {
+      "id": "35262974",
+      "name": "XianLin Lake Loop X2",
+      "stravaScore": 8,
+      "rawScore": 26.52,
+      "pointCount": 97
+    },
+    {
+      "id": "35281100",
+      "name": "jiye-秣周中路至水阁路-吉印大道",
+      "stravaScore": 8,
+      "rawScore": 3.43,
+      "pointCount": 14
+    },
+    {
+      "id": "35281113",
+      "name": "jiye-绕南师附中至吉印大道-兰台街",
+      "stravaScore": 10,
+      "rawScore": 2.27,
+      "pointCount": 26
+    },
+    {
+      "id": "35281866",
+      "name": "龙尚湖回程冲冲冲",
+      "stravaScore": 17,
+      "rawScore": 4.02,
+      "pointCount": 79
+    },
+    {
+      "id": "35281870",
+      "name": "进入佘村",
+      "stravaScore": 15,
+      "rawScore": 10.13,
+      "pointCount": 109
+    },
+    {
+      "id": "35290519",
+      "name": "jiye-苏源大道至将军大道-吉印大道",
+      "stravaScore": 16,
+      "rawScore": 6.06,
+      "pointCount": 30
+    },
+    {
+      "id": "35301443",
+      "name": "羲和路 -> 石坝路",
+      "stravaScore": 5,
+      "rawScore": 9.77,
+      "pointCount": 43
+    },
+    {
+      "id": "35338329",
+      "name": "上清水河桥【北到南】",
+      "stravaScore": 9,
+      "rawScore": 7.79,
+      "pointCount": 4
+    },
+    {
+      "id": "35383324",
+      "name": "八卦洲-绿色通道",
+      "stravaScore": 19,
+      "rawScore": 6.53,
+      "pointCount": 39
+    },
+    {
+      "id": "35387115",
+      "name": "龙山公园绕圈",
+      "stravaScore": 5,
+      "rawScore": 24.28,
+      "pointCount": 66
+    },
+    {
+      "id": "35390079",
+      "name": "jiye-正方中路至银杏湖大道-将军大道",
+      "stravaScore": 10,
+      "rawScore": 4.01,
+      "pointCount": 23
+    },
+    {
+      "id": "35405179",
+      "name": "西部干线 6 连坡之 NO.2",
+      "stravaScore": 109,
+      "rawScore": 11.29,
+      "pointCount": 18
+    },
+    {
+      "id": "35405184",
+      "name": "西部干线 6 连坡之 NO.1",
+      "stravaScore": 108,
+      "rawScore": 4.75,
+      "pointCount": 14
+    },
+    {
+      "id": "35461432",
+      "name": "石狮路到仙鹤门地铁站",
+      "stravaScore": 16,
+      "rawScore": 4.38,
+      "pointCount": 30
+    },
+    {
+      "id": "35484379",
+      "name": "40速度拉爆卷心菜一姐颜露",
+      "stravaScore": 45,
+      "rawScore": 4.65,
+      "pointCount": 8
+    },
+    {
+      "id": "35492466",
+      "name": "溧白路",
+      "stravaScore": 30,
+      "rawScore": 23.09,
+      "pointCount": 196
+    },
+    {
+      "id": "35513016",
+      "name": "修车之旅",
+      "stravaScore": 23,
+      "rawScore": 3.04,
+      "pointCount": 26
+    },
+    {
+      "id": "35514791",
+      "name": "S204溧水小起伏",
+      "stravaScore": 2,
+      "rawScore": 10.39,
+      "pointCount": 93
+    },
+    {
+      "id": "35516033",
+      "name": "from Baima to Lishui",
+      "stravaScore": 50,
+      "rawScore": 24.48,
+      "pointCount": 187
+    },
+    {
+      "id": "35516056",
+      "name": "中山东路 从琴音大道至溧白路",
+      "stravaScore": 21,
+      "rawScore": 10.16,
+      "pointCount": 72
+    },
+    {
+      "id": "35519913",
+      "name": "赵家河桥©",
+      "stravaScore": 16,
+      "rawScore": 7.24,
+      "pointCount": 27
+    },
+    {
+      "id": "35543880",
+      "name": "东南大学校内东门三环路",
+      "stravaScore": 2,
+      "rawScore": 2.83,
+      "pointCount": 28
+    },
+    {
+      "id": "35558647",
+      "name": "104国道，加油干！",
+      "stravaScore": 5,
+      "rawScore": 29.57,
+      "pointCount": 86
+    },
+    {
+      "id": "35595485",
+      "name": "和县沈家山-沈巷",
+      "stravaScore": 1,
+      "rawScore": 59.1,
+      "pointCount": 155
+    },
+    {
+      "id": "35600774",
+      "name": "小龙山南 眺望句容",
+      "stravaScore": 3,
+      "rawScore": 6.43,
+      "pointCount": 118
+    },
+    {
+      "id": "35600786",
+      "name": "工厂爬坡",
+      "stravaScore": 11,
+      "rawScore": 30.3,
+      "pointCount": 46
+    },
+    {
+      "id": "35628469",
+      "name": "from 天生桥 to 石湫",
+      "stravaScore": 32,
+      "rawScore": 13.87,
+      "pointCount": 149
+    },
+    {
+      "id": "35638742",
+      "name": "黄龙岘⛰️盘山山路小爬坡📈",
+      "stravaScore": 3,
+      "rawScore": 25.26,
+      "pointCount": 26
+    },
+    {
+      "id": "35652158",
+      "name": "汤山山顶公园爬坡",
+      "stravaScore": 67,
+      "rawScore": 36.73,
+      "pointCount": 91
+    },
+    {
+      "id": "35658247",
+      "name": "等这条烂路修好 轨迹也就没了 纪念一下吧 v2023",
+      "stravaScore": 19,
+      "rawScore": 4.81,
+      "pointCount": 61
+    },
+    {
+      "id": "35659377",
+      "name": "金陵小镇周边观光旅游",
+      "stravaScore": 17,
+      "rawScore": 6.57,
+      "pointCount": 10
+    },
+    {
+      "id": "35659387",
+      "name": "黄龙岘路途小林道",
+      "stravaScore": 19,
+      "rawScore": 3.8,
+      "pointCount": 26
+    },
+    {
+      "id": "35661789",
+      "name": "downhill",
+      "stravaScore": 52,
+      "rawScore": 2.68,
+      "pointCount": 28
+    },
+    {
+      "id": "35679780",
+      "name": "抄个近道去溧水",
+      "stravaScore": 2,
+      "rawScore": 3.36,
+      "pointCount": 63
+    },
+    {
+      "id": "35702144",
+      "name": "W·往生之地爬坡Climb",
+      "stravaScore": 59,
+      "rawScore": 13.09,
+      "pointCount": 44
+    },
+    {
+      "id": "35709051",
+      "name": "南医dai的小路5",
+      "stravaScore": 7,
+      "rawScore": 2.94,
+      "pointCount": 20
+    },
+    {
+      "id": "35709059",
+      "name": "南医dai的小路6",
+      "stravaScore": 33,
+      "rawScore": 2.33,
+      "pointCount": 19
+    },
+    {
+      "id": "35718703",
+      "name": "新能源大道 W-E",
+      "stravaScore": 2,
+      "rawScore": 28.47,
+      "pointCount": 320
+    },
+    {
+      "id": "35718763",
+      "name": "新能源大道 E-W（2/3）",
+      "stravaScore": 2,
+      "rawScore": 6.71,
+      "pointCount": 55
+    },
+    {
+      "id": "35735121",
+      "name": "S338-栖霞寺旁的一座桥climb",
+      "stravaScore": 16,
+      "rawScore": 10.42,
+      "pointCount": 15
+    },
+    {
+      "id": "35735223",
+      "name": "离开仑山水库前的最后一个坡",
+      "stravaScore": 41,
+      "rawScore": 9.48,
+      "pointCount": 15
+    },
+    {
+      "id": "35739046",
+      "name": "妙峰路爬坡",
+      "stravaScore": 31,
+      "rawScore": 17.41,
+      "pointCount": 25
+    },
+    {
+      "id": "35739807",
+      "name": "S122 Climb E->W @ Tangshan",
+      "stravaScore": 29,
+      "rawScore": 8.73,
+      "pointCount": 19
+    },
+    {
+      "id": "35739852",
+      "name": "X103 【山东村缓上】",
+      "stravaScore": 37,
+      "rawScore": 11.61,
+      "pointCount": 38
+    },
+    {
+      "id": "35760519",
+      "name": "新海线高架桥东-西-GICC",
+      "stravaScore": 11,
+      "rawScore": 4.56,
+      "pointCount": 8
+    },
+    {
+      "id": "35760548",
+      "name": "漆桥河大桥东-西-GICC",
+      "stravaScore": 4,
+      "rawScore": 5.09,
+      "pointCount": 9
+    },
+    {
+      "id": "35765181",
+      "name": "ul - Xianlin - Baohua Garden Expo Loop",
+      "stravaScore": 33,
+      "rawScore": 68.97,
+      "pointCount": 408
+    },
+    {
+      "id": "35765466",
+      "name": "快去四福喝咖啡",
+      "stravaScore": 2,
+      "rawScore": 1.24,
+      "pointCount": 27
+    },
+    {
+      "id": "35766888",
+      "name": "🧝🏻‍♀️娘娘山水泥路爬坡🫥",
+      "stravaScore": 94,
+      "rawScore": 52.41,
+      "pointCount": 71
+    },
+    {
+      "id": "35818634",
+      "name": "漳河大桥冲刺©",
+      "stravaScore": 63,
+      "rawScore": 7.33,
+      "pointCount": 3
+    },
+    {
+      "id": "35821801",
+      "name": "🐟个人绕圈赛",
+      "stravaScore": 4,
+      "rawScore": 68.76,
+      "pointCount": 507
+    },
+    {
+      "id": "35861065",
+      "name": "上丁庄-西部干线-全程水泥烂路",
+      "stravaScore": 18,
+      "rawScore": 10.57,
+      "pointCount": 116
+    },
+    {
+      "id": "35869815",
+      "name": "Roger's Segment-汤山月季园彩虹路",
+      "stravaScore": 25,
+      "rawScore": 3.33,
+      "pointCount": 77
+    },
+    {
+      "id": "35881367",
+      "name": "Ro_HOME",
+      "stravaScore": 9,
+      "rawScore": 8.87,
+      "pointCount": 73
+    },
+    {
+      "id": "35882008",
+      "name": "洞玄观前圣诞坡-雅",
+      "stravaScore": 57,
+      "rawScore": 30.12,
+      "pointCount": 24
+    },
+    {
+      "id": "35887953",
+      "name": "荆山河大提到湾石路",
+      "stravaScore": 20,
+      "rawScore": 35.16,
+      "pointCount": 370
+    },
+    {
+      "id": "35887964",
+      "name": "荆山河大提到峨山东路",
+      "stravaScore": 7,
+      "rawScore": 5.72,
+      "pointCount": 51
+    },
+    {
+      "id": "35910337",
+      "name": "W·茅山水库冲刺！",
+      "stravaScore": 1,
+      "rawScore": 2.31,
+      "pointCount": 7
+    },
+    {
+      "id": "35910344",
+      "name": "W·二圣水库冲刺！",
+      "stravaScore": 22,
+      "rawScore": 2.5,
+      "pointCount": 13
+    },
+    {
+      "id": "35910394",
+      "name": "W·神女湖冲刺！",
+      "stravaScore": 66,
+      "rawScore": 1.1,
+      "pointCount": 12
+    },
+    {
+      "id": "35923379",
+      "name": "数字大道铁心桥爬坡段",
+      "stravaScore": 16,
+      "rawScore": 4.59,
+      "pointCount": 15
+    },
+    {
+      "id": "35929752",
+      "name": "鱼嘴公园-向西2KM个人计时赛-一泽",
+      "stravaScore": 18,
+      "rawScore": 4.04,
+      "pointCount": 25
+    },
+    {
+      "id": "35940188",
+      "name": "MAX-梅子冲鸭",
+      "stravaScore": 41,
+      "rawScore": 42.4,
+      "pointCount": 48
+    },
+    {
+      "id": "36024331",
+      "name": "外秦淮方山绿道水处理厂-吉印大桥冲刺",
+      "stravaScore": 9,
+      "rawScore": 3.08,
+      "pointCount": 37
+    },
+    {
+      "id": "36024337",
+      "name": "溧水河牛牛段",
+      "stravaScore": 13,
+      "rawScore": 6.69,
+      "pointCount": 92
+    },
+    {
+      "id": "36039191",
+      "name": "212县道（行香-边城）",
+      "stravaScore": 8,
+      "rawScore": 13.18,
+      "pointCount": 68
+    },
+    {
+      "id": "36039192",
+      "name": "冲向仑山湖",
+      "stravaScore": 6,
+      "rawScore": 8.36,
+      "pointCount": 27
+    },
+    {
+      "id": "36039197",
+      "name": "冲向观景台",
+      "stravaScore": 22,
+      "rawScore": 2,
+      "pointCount": 32
+    },
+    {
+      "id": "36039230",
+      "name": "行香-S265",
+      "stravaScore": 15,
+      "rawScore": 21.2,
+      "pointCount": 116
+    },
+    {
+      "id": "36072528",
+      "name": "五马渡幕府山冲刺",
+      "stravaScore": 20,
+      "rawScore": 7.19,
+      "pointCount": 47
+    },
+    {
+      "id": "36079191",
+      "name": "2024元旦100km骑行",
+      "stravaScore": 7,
+      "rawScore": 177.32,
+      "pointCount": 1844
+    },
+    {
+      "id": "36084499",
+      "name": "佘村越野黑线",
+      "stravaScore": 5,
+      "rawScore": 30.63,
+      "pointCount": 392
+    },
+    {
+      "id": "36109082",
+      "name": "下坡后climb2",
+      "stravaScore": 37,
+      "rawScore": 6.5,
+      "pointCount": 6
+    },
+    {
+      "id": "36179785",
+      "name": "华为门口冲冲冲",
+      "stravaScore": 17,
+      "rawScore": 2.5,
+      "pointCount": 9
+    },
+    {
+      "id": "36179793",
+      "name": "雨花大道高架到软件大道转盘小上坡",
+      "stravaScore": 16,
+      "rawScore": 4.23,
+      "pointCount": 9
+    },
+    {
+      "id": "36189459",
+      "name": "绿都大道秦淮新河爬坡S-N",
+      "stravaScore": 28,
+      "rawScore": 6.2,
+      "pointCount": 12
+    },
+    {
+      "id": "36191059",
+      "name": "青山驿站下坡",
+      "stravaScore": 9,
+      "rawScore": 7.93,
+      "pointCount": 110
+    },
+    {
+      "id": "36191066",
+      "name": "Park Entry DH",
+      "stravaScore": 18,
+      "rawScore": 3.35,
+      "pointCount": 58
+    },
+    {
+      "id": "36191103",
+      "name": "涂山大道到太白湖",
+      "stravaScore": 18,
+      "rawScore": 9.68,
+      "pointCount": 68
+    },
+    {
+      "id": "36291672",
+      "name": "微风：狮平线出口到银泉路下坡",
+      "stravaScore": 9,
+      "rawScore": 3.59,
+      "pointCount": 31
+    },
+    {
+      "id": "36306770",
+      "name": "磨盘山 北climb",
+      "stravaScore": 91,
+      "rawScore": 14.39,
+      "pointCount": 33
+    },
+    {
+      "id": "36315872",
+      "name": "夏蓦-七里河特大桥（北往南）",
+      "stravaScore": 162,
+      "rawScore": 4.29,
+      "pointCount": 5
+    },
+    {
+      "id": "36325375",
+      "name": "微风-沿山大道到生态路小路缓坡",
+      "stravaScore": 12,
+      "rawScore": 11.63,
+      "pointCount": 28
+    },
+    {
+      "id": "36371822",
+      "name": "将军大道向绕越高速冲刺",
+      "stravaScore": 17,
+      "rawScore": 2.73,
+      "pointCount": 21
+    },
+    {
+      "id": "36430810",
+      "name": "回家小缓坡-kan",
+      "stravaScore": 15,
+      "rawScore": 8.98,
+      "pointCount": 19
+    },
+    {
+      "id": "36443461",
+      "name": "慢城赛段-游子山逆时针绕圈-GICC",
+      "stravaScore": 195,
+      "rawScore": 17.52,
+      "pointCount": 210
+    },
+    {
+      "id": "36467449",
+      "name": "中山桥到春江明月（注意来往车辆）",
+      "stravaScore": 11,
+      "rawScore": 8.71,
+      "pointCount": 98
+    },
+    {
+      "id": "36477431",
+      "name": "石刻公园南门【环陵前的热身准备】",
+      "stravaScore": 9,
+      "rawScore": 4.01,
+      "pointCount": 10
+    },
+    {
+      "id": "36483985",
+      "name": "S246江宁去溧水的第一个大桥",
+      "stravaScore": 12,
+      "rawScore": 4.88,
+      "pointCount": 9
+    },
+    {
+      "id": "36500751",
+      "name": "江边路到红云桥，隔江远眺江心洲",
+      "stravaScore": 14,
+      "rawScore": 5.73,
+      "pointCount": 50
+    },
+    {
+      "id": "36565481",
+      "name": "毛纺厂路",
+      "stravaScore": 3,
+      "rawScore": 1.43,
+      "pointCount": 7
+    },
+    {
+      "id": "36565490",
+      "name": "微风-柳园路",
+      "stravaScore": 6,
+      "rawScore": 2.03,
+      "pointCount": 18
+    },
+    {
+      "id": "36601508",
+      "name": "射乌山爬坡",
+      "stravaScore": 31,
+      "rawScore": 45.76,
+      "pointCount": 74
+    },
+    {
+      "id": "36608095",
+      "name": "上面有个大佛头",
+      "stravaScore": 22,
+      "rawScore": 32.06,
+      "pointCount": 46
+    },
+    {
+      "id": "36619990",
+      "name": "Bratton Bridge (back to NIS)",
+      "stravaScore": 19,
+      "rawScore": 3.98,
+      "pointCount": 17
+    },
+    {
+      "id": "36621600",
+      "name": "cd-黄山岭路到滁河大桥",
+      "stravaScore": 10,
+      "rawScore": 10.65,
+      "pointCount": 48
+    },
+    {
+      "id": "36635079",
+      "name": "THE EVANDRO'S LAKE",
+      "stravaScore": 3,
+      "rawScore": 3.27,
+      "pointCount": 30
+    },
+    {
+      "id": "36636535",
+      "name": "CAISHI TO DONGTU",
+      "stravaScore": 2,
+      "rawScore": 20,
+      "pointCount": 247
+    },
+    {
+      "id": "36641796",
+      "name": "明外郭——金陵",
+      "stravaScore": 16,
+      "rawScore": 6.08,
+      "pointCount": 26
+    },
+    {
+      "id": "36644267",
+      "name": "ZiJingMountainGreenRoad East Seg 2.5",
+      "stravaScore": 221,
+      "rawScore": 3.98,
+      "pointCount": 11
+    },
+    {
+      "id": "36713273",
+      "name": "九龙湖-四牌楼通勤：双龙大道线",
+      "stravaScore": 2,
+      "rawScore": 38.53,
+      "pointCount": 744
+    },
+    {
+      "id": "36713299",
+      "name": "卡子门下坡控车挑战",
+      "stravaScore": 11,
+      "rawScore": 3.03,
+      "pointCount": 45
+    },
+    {
+      "id": "36715105",
+      "name": "莘庄绕圈-顺时针",
+      "stravaScore": 20,
+      "rawScore": 22.75,
+      "pointCount": 90
+    },
+    {
+      "id": "36716970",
+      "name": "双拥路 西到东，旁边还有坦克大炮 好威风",
+      "stravaScore": 32,
+      "rawScore": 5.84,
+      "pointCount": 38
+    },
+    {
+      "id": "36721858",
+      "name": "通向北山湖的起伏路（S-N）",
+      "stravaScore": 9,
+      "rawScore": 3.61,
+      "pointCount": 17
+    },
+    {
+      "id": "36721866",
+      "name": "仑山湖-女子监狱",
+      "stravaScore": 44,
+      "rawScore": 10.41,
+      "pointCount": 71
+    },
+    {
+      "id": "36730959",
+      "name": "江东桥北热身爬坡",
+      "stravaScore": 6,
+      "rawScore": 9.2,
+      "pointCount": 10
+    },
+    {
+      "id": "36730977",
+      "name": "芜当江提 东绕圈",
+      "stravaScore": 24,
+      "rawScore": 16.7,
+      "pointCount": 143
+    },
+    {
+      "id": "36739655",
+      "name": "东庐山爬坡",
+      "stravaScore": 6,
+      "rawScore": 21.15,
+      "pointCount": 45
+    },
+    {
+      "id": "36748968",
+      "name": "过了圆盘努力踩-kan",
+      "stravaScore": 6,
+      "rawScore": 6.06,
+      "pointCount": 27
+    },
+    {
+      "id": "36749203",
+      "name": "报恩寺无红绿灯",
+      "stravaScore": 2,
+      "rawScore": 3.37,
+      "pointCount": 61
+    },
+    {
+      "id": "36755845",
+      "name": "西部干线+S122宁张线 间歇专线",
+      "stravaScore": 61,
+      "rawScore": 67.62,
+      "pointCount": 388
+    },
+    {
+      "id": "36761697",
+      "name": "伏牛山爬坡",
+      "stravaScore": 17,
+      "rawScore": 10.31,
+      "pointCount": 40
+    },
+    {
+      "id": "36783584",
+      "name": "河定桥北2南方花园s-n",
+      "stravaScore": 8,
+      "rawScore": 2.75,
+      "pointCount": 25
+    },
+    {
+      "id": "36801654",
+      "name": "大青山~黄池返程",
+      "stravaScore": 18,
+      "rawScore": 24.01,
+      "pointCount": 114
+    },
+    {
+      "id": "36815273",
+      "name": "浦合路之犀牛望月",
+      "stravaScore": 95,
+      "rawScore": 14.46,
+      "pointCount": 15
+    },
+    {
+      "id": "36848061",
+      "name": "进村的小萌坡",
+      "stravaScore": 36,
+      "rawScore": 9.72,
+      "pointCount": 24
+    },
+    {
+      "id": "36848115",
+      "name": "青龙山山地马拉松标准单圈",
+      "stravaScore": 11,
+      "rawScore": 89.05,
+      "pointCount": 1306
+    },
+    {
+      "id": "36876423",
+      "name": "电塔杂草路爬坡_从分岔路开始",
+      "stravaScore": 7,
+      "rawScore": 35.94,
+      "pointCount": 55
+    },
+    {
+      "id": "36876424",
+      "name": "从七甲进入林场热身",
+      "stravaScore": 59,
+      "rawScore": 4.77,
+      "pointCount": 28
+    },
+    {
+      "id": "36876435",
+      "name": "村口小爬坡",
+      "stravaScore": 15,
+      "rawScore": 19.68,
+      "pointCount": 88
+    },
+    {
+      "id": "36878217",
+      "name": "夏蓦-终点前最后一个冲刺弯到岔路口",
+      "stravaScore": 133,
+      "rawScore": 1.01,
+      "pointCount": 6
+    },
+    {
+      "id": "36885074",
+      "name": "五条岭五上五下",
+      "stravaScore": 7,
+      "rawScore": 75.45,
+      "pointCount": 1382
+    },
+    {
+      "id": "36885591",
+      "name": "Off 柘宁西路 to 龙袜路",
+      "stravaScore": 1,
+      "rawScore": 22.14,
+      "pointCount": 250
+    },
+    {
+      "id": "36892860",
+      "name": "旺仔_雨花东路",
+      "stravaScore": 6,
+      "rawScore": 2.64,
+      "pointCount": 21
+    },
+    {
+      "id": "36893191",
+      "name": "江心洲骑累了吧",
+      "stravaScore": 18,
+      "rawScore": 6.84,
+      "pointCount": 73
+    },
+    {
+      "id": "36893333",
+      "name": "to 芜",
+      "stravaScore": 7,
+      "rawScore": 28.05,
+      "pointCount": 132
+    },
+    {
+      "id": "36905809",
+      "name": "雕塑公园南侧缓坡©",
+      "stravaScore": 56,
+      "rawScore": 3.19,
+      "pointCount": 5
+    },
+    {
+      "id": "36915012",
+      "name": "茶叶生态园入口 climb到顶",
+      "stravaScore": 5,
+      "rawScore": 13.04,
+      "pointCount": 107
+    },
+    {
+      "id": "36915220",
+      "name": "石塘竹海山间被封印的密道 路面打滑 注意安全",
+      "stravaScore": 5,
+      "rawScore": 3.97,
+      "pointCount": 107
+    },
+    {
+      "id": "36935519",
+      "name": "秦淮路狂飙-kan",
+      "stravaScore": 6,
+      "rawScore": 7.52,
+      "pointCount": 28
+    },
+    {
+      "id": "36951532",
+      "name": "吉山社区-正方中路起伏",
+      "stravaScore": 22,
+      "rawScore": 5.95,
+      "pointCount": 64
+    },
+    {
+      "id": "36953299",
+      "name": "W·灵谷寺西路UP！",
+      "stravaScore": 2,
+      "rawScore": 8.27,
+      "pointCount": 18
+    },
+    {
+      "id": "36962914",
+      "name": "大叔-环陵 第二个红绿灯",
+      "stravaScore": 2,
+      "rawScore": 1.41,
+      "pointCount": 13
+    },
+    {
+      "id": "36962927",
+      "name": "大叔-环陵 第五个红绿灯",
+      "stravaScore": 9,
+      "rawScore": 1.02,
+      "pointCount": 17
+    },
+    {
+      "id": "36962953",
+      "name": "虹悦城-subway应天大街",
+      "stravaScore": 9,
+      "rawScore": 2.92,
+      "pointCount": 31
+    },
+    {
+      "id": "36984383",
+      "name": "郁金香路上坡-向华为东门进发",
+      "stravaScore": 16,
+      "rawScore": 8.58,
+      "pointCount": 8
+    },
+    {
+      "id": "36991664",
+      "name": "YNG大佬们带你吃辣堡",
+      "stravaScore": 58,
+      "rawScore": 11.52,
+      "pointCount": 104
+    },
+    {
+      "id": "36993012",
+      "name": "Golden Eagle Mall",
+      "stravaScore": 7,
+      "rawScore": 1.3,
+      "pointCount": 8
+    },
+    {
+      "id": "36995124",
+      "name": "微风：一条小路到长城",
+      "stravaScore": 25,
+      "rawScore": 32.5,
+      "pointCount": 26
+    },
+    {
+      "id": "37040166",
+      "name": "Commute+PM 2/2",
+      "stravaScore": 10,
+      "rawScore": 31.54,
+      "pointCount": 476
+    },
+    {
+      "id": "37046416",
+      "name": "W·邮局路（烤包子不错）",
+      "stravaScore": 5,
+      "rawScore": 4.56,
+      "pointCount": 25
+    },
+    {
+      "id": "37046497",
+      "name": "W·转盘到马群南路",
+      "stravaScore": 15,
+      "rawScore": 1.92,
+      "pointCount": 14
+    },
+    {
+      "id": "37046503",
+      "name": "W·钟秀街",
+      "stravaScore": 6,
+      "rawScore": 2.17,
+      "pointCount": 21
+    },
+    {
+      "id": "37056382",
+      "name": "XXYY Climb",
+      "stravaScore": 11,
+      "rawScore": 6.09,
+      "pointCount": 11
+    },
+    {
+      "id": "37058661",
+      "name": "金乌温泉 风景真美",
+      "stravaScore": 41,
+      "rawScore": 10.73,
+      "pointCount": 90
+    },
+    {
+      "id": "37058997",
+      "name": "昆山湖到宣城",
+      "stravaScore": 19,
+      "rawScore": 21.78,
+      "pointCount": 95
+    },
+    {
+      "id": "37066411",
+      "name": "太阳宫后段陡坡-🐟",
+      "stravaScore": 20,
+      "rawScore": 46.04,
+      "pointCount": 49
+    },
+    {
+      "id": "37066477",
+      "name": "太阳宫前段陡坡-🐟",
+      "stravaScore": 16,
+      "rawScore": 32.52,
+      "pointCount": 28
+    },
+    {
+      "id": "37069280",
+      "name": "园博园爬坡KOM！！！",
+      "stravaScore": 10,
+      "rawScore": 29.37,
+      "pointCount": 232
+    },
+    {
+      "id": "37070944",
+      "name": "漳河大桥西至东",
+      "stravaScore": 105,
+      "rawScore": 6.25,
+      "pointCount": 6
+    },
+    {
+      "id": "37081711",
+      "name": "振新路巡航",
+      "stravaScore": 6,
+      "rawScore": 9.03,
+      "pointCount": 55
+    },
+    {
+      "id": "37085494",
+      "name": "是我想要的下坡",
+      "stravaScore": 17,
+      "rawScore": 5.81,
+      "pointCount": 19
+    },
+    {
+      "id": "37102656",
+      "name": "曹山入口小爬坡",
+      "stravaScore": 12,
+      "rawScore": 12.39,
+      "pointCount": 15
+    },
+    {
+      "id": "37112041",
+      "name": "两个铁锁之间小起伏路",
+      "stravaScore": 101,
+      "rawScore": 10.61,
+      "pointCount": 47
+    },
+    {
+      "id": "37155405",
+      "name": "环方山起步猛蹬",
+      "stravaScore": 143,
+      "rawScore": 4.65,
+      "pointCount": 12
+    },
+    {
+      "id": "37193147",
+      "name": "微风：水杉大道s-n",
+      "stravaScore": 20,
+      "rawScore": 2.22,
+      "pointCount": 29
+    },
+    {
+      "id": "37193201",
+      "name": "浦仪公路：江山路-滨江大道",
+      "stravaScore": 12,
+      "rawScore": 2.94,
+      "pointCount": 14
+    },
+    {
+      "id": "37303503",
+      "name": "小九华山隧道爬坡",
+      "stravaScore": 4,
+      "rawScore": 5.49,
+      "pointCount": 17
+    },
+    {
+      "id": "37329649",
+      "name": "仙林大道狂飙-万达茂到环陵路-kan",
+      "stravaScore": 11,
+      "rawScore": 23.9,
+      "pointCount": 175
+    },
+    {
+      "id": "37340342",
+      "name": "S243 N-S",
+      "stravaScore": 3,
+      "rawScore": 27.54,
+      "pointCount": 232
+    },
+    {
+      "id": "37352620",
+      "name": "白马禅寺北坡",
+      "stravaScore": 9,
+      "rawScore": 21.41,
+      "pointCount": 36
+    },
+    {
+      "id": "37366487",
+      "name": "去石臼湖喽 （S445薛津至博望）",
+      "stravaScore": 16,
+      "rawScore": 36.18,
+      "pointCount": 120
+    },
+    {
+      "id": "37369766",
+      "name": "全力摇车！向城北万象汇捷安特冲刺！",
+      "stravaScore": 4,
+      "rawScore": 6.03,
+      "pointCount": 18
+    },
+    {
+      "id": "37390377",
+      "name": "幕府山铁石岗小坡",
+      "stravaScore": 2,
+      "rawScore": 7.37,
+      "pointCount": 90
+    },
+    {
+      "id": "37418821",
+      "name": "老山中套ITT (1/3)",
+      "stravaScore": 25,
+      "rawScore": 28.99,
+      "pointCount": 420
+    },
+    {
+      "id": "37427295",
+      "name": "黄龙岘林场防火道南坡-新",
+      "stravaScore": 4,
+      "rawScore": 20.82,
+      "pointCount": 107
+    },
+    {
+      "id": "37435035",
+      "name": "中华门上高架坡",
+      "stravaScore": 8,
+      "rawScore": 2.38,
+      "pointCount": 12
+    },
+    {
+      "id": "37457266",
+      "name": "牌楼巷-五台山爬坡",
+      "stravaScore": 8,
+      "rawScore": 8.5,
+      "pointCount": 18
+    },
+    {
+      "id": "37458416",
+      "name": "环湖tt",
+      "stravaScore": 25,
+      "rawScore": 11.41,
+      "pointCount": 105
+    },
+    {
+      "id": "37458531",
+      "name": "南北加油站tt",
+      "stravaScore": 15,
+      "rawScore": 5.78,
+      "pointCount": 33
+    },
+    {
+      "id": "37474805",
+      "name": "环方山高速压弯",
+      "stravaScore": 75,
+      "rawScore": 1.26,
+      "pointCount": 27
+    },
+    {
+      "id": "37480695",
+      "name": "wenjun-无想禅寺→竹海爬坡起点起伏路",
+      "stravaScore": 11,
+      "rawScore": 10.26,
+      "pointCount": 125
+    },
+    {
+      "id": "37480887",
+      "name": "wenjun-无想禅寺西侧沿水库起伏路",
+      "stravaScore": 8,
+      "rawScore": 4.27,
+      "pointCount": 61
+    },
+    {
+      "id": "37490446",
+      "name": "瑶池-桠阳线-双望路东西段",
+      "stravaScore": 8,
+      "rawScore": 12.1,
+      "pointCount": 91
+    },
+    {
+      "id": "37558834",
+      "name": "涂山大道后段",
+      "stravaScore": 15,
+      "rawScore": 10.48,
+      "pointCount": 42
+    },
+    {
+      "id": "37622628",
+      "name": "ZTEr端到端下班路(将军山园区)",
+      "stravaScore": 2,
+      "rawScore": 9.3,
+      "pointCount": 65
+    },
+    {
+      "id": "37629463",
+      "name": "返程冲刺",
+      "stravaScore": 3,
+      "rawScore": 14.21,
+      "pointCount": 145
+    },
+    {
+      "id": "37629477",
+      "name": "青弋江提 过桥后冲刺",
+      "stravaScore": 6,
+      "rawScore": 22.02,
+      "pointCount": 206
+    },
+    {
+      "id": "37630071",
+      "name": "国际路一路有倪",
+      "stravaScore": 8,
+      "rawScore": 2.72,
+      "pointCount": 18
+    },
+    {
+      "id": "37664992",
+      "name": "汉口路小坡",
+      "stravaScore": 10,
+      "rawScore": 7.06,
+      "pointCount": 8
+    },
+    {
+      "id": "37666357",
+      "name": "南北全程TTT-大桥到螃蟹城/顺时针",
+      "stravaScore": 3,
+      "rawScore": 43.59,
+      "pointCount": 452
+    },
+    {
+      "id": "37666415",
+      "name": "花山大桥-南北干线-东-西",
+      "stravaScore": 21,
+      "rawScore": 7.94,
+      "pointCount": 44
+    },
+    {
+      "id": "37670346",
+      "name": "屁屁按摩大师-(南京到马鞍山）",
+      "stravaScore": 12,
+      "rawScore": 8.64,
+      "pointCount": 66
+    },
+    {
+      "id": "37671030",
+      "name": "huajinnanlu",
+      "stravaScore": 5,
+      "rawScore": 3.01,
+      "pointCount": 37
+    },
+    {
+      "id": "37685314",
+      "name": "茅山下水库-墓东水库",
+      "stravaScore": 99,
+      "rawScore": 19.32,
+      "pointCount": 246
+    },
+    {
+      "id": "37701991",
+      "name": "🚴岔路口到上国安寺(340 CLUB)",
+      "stravaScore": 22,
+      "rawScore": 8.61,
+      "pointCount": 33
+    },
+    {
+      "id": "37709826",
+      "name": "YNG  赤山湖ITT  训练路线",
+      "stravaScore": 55,
+      "rawScore": 16.12,
+      "pointCount": 45
+    },
+    {
+      "id": "37724619",
+      "name": "南大出门就是干",
+      "stravaScore": 12,
+      "rawScore": 3.73,
+      "pointCount": 25
+    },
+    {
+      "id": "37725083",
+      "name": "诗仙路狠狠开干",
+      "stravaScore": 41,
+      "rawScore": 10.78,
+      "pointCount": 52
+    },
+    {
+      "id": "37732634",
+      "name": "市民中心绕1圈-顺时针",
+      "stravaScore": 5,
+      "rawScore": 20.11,
+      "pointCount": 49
+    },
+    {
+      "id": "37737257",
+      "name": "鲁港大桥爬坡 干！！",
+      "stravaScore": 48,
+      "rawScore": 7.32,
+      "pointCount": 4
+    },
+    {
+      "id": "37739588",
+      "name": "园博园（下坡）Leo Huang",
+      "stravaScore": 47,
+      "rawScore": 3.05,
+      "pointCount": 43
+    },
+    {
+      "id": "37739807",
+      "name": "园博园让你爆心率的18.5%",
+      "stravaScore": 151,
+      "rawScore": 18.92,
+      "pointCount": 29
+    },
+    {
+      "id": "37740411",
+      "name": "澛港大桥到龙湖路交叉©",
+      "stravaScore": 35,
+      "rawScore": 16.12,
+      "pointCount": 68
+    },
+    {
+      "id": "37744552",
+      "name": "清水亭东itt—🐟",
+      "stravaScore": 34,
+      "rawScore": 3.23,
+      "pointCount": 21
+    },
+    {
+      "id": "37793115",
+      "name": "2024首届环高淳自行车赛",
+      "stravaScore": 4,
+      "rawScore": 281.93,
+      "pointCount": 1994
+    },
+    {
+      "id": "37793846",
+      "name": "上桥前加脚",
+      "stravaScore": 11,
+      "rawScore": 8.32,
+      "pointCount": 30
+    },
+    {
+      "id": "37793885",
+      "name": "下桥狂飙",
+      "stravaScore": 12,
+      "rawScore": 14.36,
+      "pointCount": 57
+    },
+    {
+      "id": "37812716",
+      "name": "x205",
+      "stravaScore": 2,
+      "rawScore": 18.24,
+      "pointCount": 166
+    },
+    {
+      "id": "37812743",
+      "name": "水阳江风光线",
+      "stravaScore": 8,
+      "rawScore": 17.3,
+      "pointCount": 102
+    },
+    {
+      "id": "37815780",
+      "name": "有一点小坡",
+      "stravaScore": 13,
+      "rawScore": 5.22,
+      "pointCount": 11
+    },
+    {
+      "id": "37816599",
+      "name": "这也是个桥，不冲一下？",
+      "stravaScore": 7,
+      "rawScore": 8.62,
+      "pointCount": 4
+    },
+    {
+      "id": "37816616",
+      "name": "这个桥有点长，稳着点？",
+      "stravaScore": 19,
+      "rawScore": 8.14,
+      "pointCount": 4
+    },
+    {
+      "id": "37816629",
+      "name": "青山大桥(S-N)",
+      "stravaScore": 4,
+      "rawScore": 6.71,
+      "pointCount": 2
+    },
+    {
+      "id": "37820375",
+      "name": "环湖固城桥后-第1段湖边",
+      "stravaScore": 10,
+      "rawScore": 4.66,
+      "pointCount": 41
+    },
+    {
+      "id": "37820554",
+      "name": "环湖固城桥后-第2段湖边",
+      "stravaScore": 20,
+      "rawScore": 3.17,
+      "pointCount": 27
+    },
+    {
+      "id": "37823402",
+      "name": "环湖漆桥河大桥后-湖边",
+      "stravaScore": 21,
+      "rawScore": 5.45,
+      "pointCount": 31
+    },
+    {
+      "id": "37842632",
+      "name": "聚宝山公路爬坡一圈",
+      "stravaScore": 16,
+      "rawScore": 5.15,
+      "pointCount": 146
+    },
+    {
+      "id": "37866453",
+      "name": "微风：高绰线返骑",
+      "stravaScore": 6,
+      "rawScore": 13.42,
+      "pointCount": 57
+    },
+    {
+      "id": "37871947",
+      "name": "Max无念白统治区",
+      "stravaScore": 182,
+      "rawScore": 2.49,
+      "pointCount": 20
+    },
+    {
+      "id": "37872735",
+      "name": "党校～～河梗高速桥辣堡📣",
+      "stravaScore": 27,
+      "rawScore": 34.34,
+      "pointCount": 331
+    },
+    {
+      "id": "37879823",
+      "name": "大山-红旗路-漆桥-E-W",
+      "stravaScore": 3,
+      "rawScore": 15.34,
+      "pointCount": 52
+    },
+    {
+      "id": "37879862",
+      "name": "房车营地酒店-桃李村-西东",
+      "stravaScore": 1,
+      "rawScore": 15.66,
+      "pointCount": 253
+    },
+    {
+      "id": "37879900",
+      "name": "青山水库-老桠路-枕松云居-S-N",
+      "stravaScore": 6,
+      "rawScore": 21.91,
+      "pointCount": 295
+    },
+    {
+      "id": "37882545",
+      "name": "园博园内二连坡 进攻发起点 别掉队",
+      "stravaScore": 159,
+      "rawScore": 20.67,
+      "pointCount": 91
+    },
+    {
+      "id": "37891065",
+      "name": "襄滁河堤（全椒→古河）",
+      "stravaScore": 15,
+      "rawScore": 105.33,
+      "pointCount": 729
+    },
+    {
+      "id": "37902111",
+      "name": "顺风50冲冲冲",
+      "stravaScore": 9,
+      "rawScore": 4.4,
+      "pointCount": 22
+    },
+    {
+      "id": "37913128",
+      "name": "爬完太阳宫去降福殿喽",
+      "stravaScore": 2,
+      "rawScore": 17.05,
+      "pointCount": 347
+    },
+    {
+      "id": "37928531",
+      "name": "东龙路N-S last hill",
+      "stravaScore": 6,
+      "rawScore": 6.44,
+      "pointCount": 22
+    },
+    {
+      "id": "37939359",
+      "name": "花山段3km爬坡-269省道-服务区到大花山水库",
+      "stravaScore": 10,
+      "rawScore": 8.76,
+      "pointCount": 39
+    },
+    {
+      "id": "37939376",
+      "name": "269省道固城大桥冲刺",
+      "stravaScore": 13,
+      "rawScore": 6.72,
+      "pointCount": 5
+    },
+    {
+      "id": "37952374",
+      "name": "冲向二茅的三连击",
+      "stravaScore": 32,
+      "rawScore": 14.27,
+      "pointCount": 39
+    },
+    {
+      "id": "37976344",
+      "name": "Along the railway",
+      "stravaScore": 2,
+      "rawScore": 7.86,
+      "pointCount": 53
+    },
+    {
+      "id": "37976458",
+      "name": "长山砾石路段",
+      "stravaScore": 3,
+      "rawScore": 4.57,
+      "pointCount": 110
+    },
+    {
+      "id": "37986873",
+      "name": "众彩后起伏路",
+      "stravaScore": 14,
+      "rawScore": 12.68,
+      "pointCount": 146
+    },
+    {
+      "id": "37997559",
+      "name": "万宁宫放坡冲冲冲",
+      "stravaScore": 2,
+      "rawScore": 1.07,
+      "pointCount": 22
+    },
+    {
+      "id": "38003858",
+      "name": "大青山滑翔伞新路N-S",
+      "stravaScore": 19,
+      "rawScore": 44.21,
+      "pointCount": 20
+    },
+    {
+      "id": "38039984",
+      "name": "滨江校区itt",
+      "stravaScore": 2,
+      "rawScore": 21.57,
+      "pointCount": 110
+    },
+    {
+      "id": "38054829",
+      "name": "红花路EtoW",
+      "stravaScore": 7,
+      "rawScore": 3,
+      "pointCount": 19
+    },
+    {
+      "id": "38059447",
+      "name": "🚴煤气包到340尽头(走怪坡)",
+      "stravaScore": 6,
+      "rawScore": 106.64,
+      "pointCount": 497
+    },
+    {
+      "id": "38069157",
+      "name": "体育公园横穿N-S",
+      "stravaScore": 4,
+      "rawScore": 1.86,
+      "pointCount": 18
+    },
+    {
+      "id": "38080033",
+      "name": "水墨大捻公开赛",
+      "stravaScore": 6,
+      "rawScore": 21.06,
+      "pointCount": 93
+    },
+    {
+      "id": "38081297",
+      "name": "瓦屋山后山",
+      "stravaScore": 90,
+      "rawScore": 39.38,
+      "pointCount": 116
+    },
+    {
+      "id": "38087267",
+      "name": "赵亚夫short climb",
+      "stravaScore": 25,
+      "rawScore": 19.8,
+      "pointCount": 36
+    },
+    {
+      "id": "38099343",
+      "name": "延茅路 E-W（墓东段起伏路）",
+      "stravaScore": 4,
+      "rawScore": 9.44,
+      "pointCount": 32
+    },
+    {
+      "id": "38104268",
+      "name": "袁泽桥南向北上桥",
+      "stravaScore": 30,
+      "rawScore": 6.23,
+      "pointCount": 14
+    },
+    {
+      "id": "38120274",
+      "name": "干饭人冲冲冲",
+      "stravaScore": 44,
+      "rawScore": 2.34,
+      "pointCount": 19
+    },
+    {
+      "id": "38134247",
+      "name": "南体仙林校区KOM爬坡",
+      "stravaScore": 1,
+      "rawScore": 21.61,
+      "pointCount": 34
+    },
+    {
+      "id": "38135807",
+      "name": "行石路 N-S",
+      "stravaScore": 9,
+      "rawScore": 12.73,
+      "pointCount": 84
+    },
+    {
+      "id": "38139634",
+      "name": "溧水河大桥限高杆到方山大桥限高杆",
+      "stravaScore": 47,
+      "rawScore": 10.82,
+      "pointCount": 109
+    },
+    {
+      "id": "38154136",
+      "name": "climb—🐟",
+      "stravaScore": 22,
+      "rawScore": 11.01,
+      "pointCount": 17
+    },
+    {
+      "id": "38154145",
+      "name": "不知道干到什么地方的爬坡—🐟",
+      "stravaScore": 28,
+      "rawScore": 13,
+      "pointCount": 35
+    },
+    {
+      "id": "38154153",
+      "name": "climb to mountain—🐟",
+      "stravaScore": 45,
+      "rawScore": 4.71,
+      "pointCount": 51
+    },
+    {
+      "id": "38181194",
+      "name": "矿场到青山街",
+      "stravaScore": 25,
+      "rawScore": 6.65,
+      "pointCount": 58
+    },
+    {
+      "id": "38184946",
+      "name": "磨盘山北  Climb（北上方山1/4）",
+      "stravaScore": 69,
+      "rawScore": 24.8,
+      "pointCount": 54
+    },
+    {
+      "id": "38188833",
+      "name": "诗仙路过詹村陡坡",
+      "stravaScore": 26,
+      "rawScore": 12,
+      "pointCount": 12
+    },
+    {
+      "id": "38205139",
+      "name": "technical rough section",
+      "stravaScore": 4,
+      "rawScore": 5.23,
+      "pointCount": 40
+    },
+    {
+      "id": "38205680",
+      "name": "过青山河起伏路到坡顶",
+      "stravaScore": 11,
+      "rawScore": 5.16,
+      "pointCount": 20
+    },
+    {
+      "id": "38218583",
+      "name": "大马山-到顶请左转",
+      "stravaScore": 267,
+      "rawScore": 39.71,
+      "pointCount": 68
+    },
+    {
+      "id": "38219352",
+      "name": "江边绿道 涵碧楼到渡江纪念馆",
+      "stravaScore": 17,
+      "rawScore": 7.58,
+      "pointCount": 53
+    },
+    {
+      "id": "38232151",
+      "name": "cd-四进山水库捷径去溧水P2",
+      "stravaScore": 7,
+      "rawScore": 12.56,
+      "pointCount": 38
+    },
+    {
+      "id": "38232361",
+      "name": "天真1",
+      "stravaScore": 143,
+      "rawScore": 22.16,
+      "pointCount": 23
+    },
+    {
+      "id": "38232886",
+      "name": "荆山河大提开始热身",
+      "stravaScore": 10,
+      "rawScore": 3.45,
+      "pointCount": 35
+    },
+    {
+      "id": "38253196",
+      "name": "2024.12.7浦口ITT",
+      "stravaScore": 365,
+      "rawScore": 14.39,
+      "pointCount": 210
+    },
+    {
+      "id": "38253405",
+      "name": "青龙山到佘村",
+      "stravaScore": 60,
+      "rawScore": 3.77,
+      "pointCount": 50
+    },
+    {
+      "id": "38253426",
+      "name": "龙出没climb",
+      "stravaScore": 18,
+      "rawScore": 18.84,
+      "pointCount": 23
+    },
+    {
+      "id": "38254810",
+      "name": "中江桥南北",
+      "stravaScore": 8,
+      "rawScore": 2.89,
+      "pointCount": 17
+    },
+    {
+      "id": "38254820",
+      "name": "下穿！",
+      "stravaScore": 20,
+      "rawScore": 2.83,
+      "pointCount": 34
+    },
+    {
+      "id": "38257178",
+      "name": "汤泉ITT起步",
+      "stravaScore": 171,
+      "rawScore": 9.31,
+      "pointCount": 38
+    },
+    {
+      "id": "38268288",
+      "name": "015县道烂路",
+      "stravaScore": 8,
+      "rawScore": 14.32,
+      "pointCount": 138
+    },
+    {
+      "id": "38268849",
+      "name": "清和路口往南到红绿灯",
+      "stravaScore": 10,
+      "rawScore": 3.42,
+      "pointCount": 23
+    },
+    {
+      "id": "38291997",
+      "name": "加把劲！马上到句容！",
+      "stravaScore": 10,
+      "rawScore": 16.8,
+      "pointCount": 44
+    },
+    {
+      "id": "38296572",
+      "name": "去茅山温泉泡个澡~",
+      "stravaScore": 10,
+      "rawScore": 3.85,
+      "pointCount": 4
+    },
+    {
+      "id": "38296579",
+      "name": "句春路去程",
+      "stravaScore": 28,
+      "rawScore": 15.93,
+      "pointCount": 67
+    },
+    {
+      "id": "38301465",
+      "name": "江堤东到西段",
+      "stravaScore": 20,
+      "rawScore": 34.15,
+      "pointCount": 304
+    },
+    {
+      "id": "38304943",
+      "name": "孔镇-晶杭公路-西东",
+      "stravaScore": 10,
+      "rawScore": 17.86,
+      "pointCount": 77
+    },
+    {
+      "id": "38308981",
+      "name": "花津南路到安师大",
+      "stravaScore": 7,
+      "rawScore": 13.02,
+      "pointCount": 71
+    },
+    {
+      "id": "38314359",
+      "name": "赭山路到港一路站",
+      "stravaScore": 9,
+      "rawScore": 9.86,
+      "pointCount": 95
+    },
+    {
+      "id": "38314368",
+      "name": "中和路",
+      "stravaScore": 5,
+      "rawScore": 2.25,
+      "pointCount": 15
+    },
+    {
+      "id": "38317336",
+      "name": "大马山野道推车到顶",
+      "stravaScore": 5,
+      "rawScore": 83.72,
+      "pointCount": 50
+    },
+    {
+      "id": "38318285",
+      "name": "出矿场到太白",
+      "stravaScore": 10,
+      "rawScore": 8.01,
+      "pointCount": 53
+    },
+    {
+      "id": "38318291",
+      "name": "warm up for the hill",
+      "stravaScore": 9,
+      "rawScore": 6.39,
+      "pointCount": 23
+    },
+    {
+      "id": "38318409",
+      "name": "青山路北上",
+      "stravaScore": 19,
+      "rawScore": 5.62,
+      "pointCount": 34
+    },
+    {
+      "id": "38318421",
+      "name": "涂山大道中段（西→东）",
+      "stravaScore": 7,
+      "rawScore": 6.29,
+      "pointCount": 21
+    },
+    {
+      "id": "38322267",
+      "name": "你飞轮够吗",
+      "stravaScore": 2,
+      "rawScore": 41.01,
+      "pointCount": 97
+    },
+    {
+      "id": "38327815",
+      "name": "穿山瓜路",
+      "stravaScore": 5,
+      "rawScore": 2.39,
+      "pointCount": 68
+    },
+    {
+      "id": "38327835",
+      "name": "新市镇去横山",
+      "stravaScore": 1,
+      "rawScore": 11,
+      "pointCount": 55
+    },
+    {
+      "id": "38327848",
+      "name": "出蟠龙湖到丹阳",
+      "stravaScore": 2,
+      "rawScore": 17.68,
+      "pointCount": 191
+    },
+    {
+      "id": "38328801",
+      "name": "滁河南岸【京沪高铁桥到宝塔山】",
+      "stravaScore": 13,
+      "rawScore": 13.23,
+      "pointCount": 123
+    },
+    {
+      "id": "38336419",
+      "name": "S445右拐去石臼湖",
+      "stravaScore": 4,
+      "rawScore": 16.72,
+      "pointCount": 137
+    },
+    {
+      "id": "38343038",
+      "name": "田家炳门口",
+      "stravaScore": 8,
+      "rawScore": 2.35,
+      "pointCount": 12
+    },
+    {
+      "id": "38343053",
+      "name": "汀棠公园到银湖路",
+      "stravaScore": 5,
+      "rawScore": 2.51,
+      "pointCount": 27
+    },
+    {
+      "id": "38343074",
+      "name": "右拐上堤",
+      "stravaScore": 5,
+      "rawScore": 4.01,
+      "pointCount": 33
+    },
+    {
+      "id": "38346842",
+      "name": "石塘穿越北→南",
+      "stravaScore": 68,
+      "rawScore": 7.47,
+      "pointCount": 118
+    },
+    {
+      "id": "38346858",
+      "name": "南下第二个坡",
+      "stravaScore": 5,
+      "rawScore": 12.69,
+      "pointCount": 44
+    },
+    {
+      "id": "38346862",
+      "name": "向山南下第一个坡",
+      "stravaScore": 5,
+      "rawScore": 20.08,
+      "pointCount": 38
+    },
+    {
+      "id": "38346867",
+      "name": "向山→S445",
+      "stravaScore": 6,
+      "rawScore": 22.83,
+      "pointCount": 298
+    },
+    {
+      "id": "38352524",
+      "name": "穿铁路回家",
+      "stravaScore": 4,
+      "rawScore": 2.58,
+      "pointCount": 32
+    },
+    {
+      "id": "38365183",
+      "name": "从河堤回程",
+      "stravaScore": 9,
+      "rawScore": 8.85,
+      "pointCount": 57
+    },
+    {
+      "id": "38365434",
+      "name": "南下回查湾",
+      "stravaScore": 7,
+      "rawScore": 4.92,
+      "pointCount": 32
+    },
+    {
+      "id": "38394639",
+      "name": "nowhere to nowhere 0125",
+      "stravaScore": 7,
+      "rawScore": 2.93,
+      "pointCount": 24
+    },
+    {
+      "id": "38404888",
+      "name": "微风：高旺通往乌江之路",
+      "stravaScore": 27,
+      "rawScore": 16.27,
+      "pointCount": 91
+    },
+    {
+      "id": "38406871",
+      "name": "微风：快到乌江桥",
+      "stravaScore": 21,
+      "rawScore": 3.86,
+      "pointCount": 21
+    },
+    {
+      "id": "38406892",
+      "name": "微风：来福路（2）",
+      "stravaScore": 1,
+      "rawScore": 8.19,
+      "pointCount": 40
+    },
+    {
+      "id": "38407076",
+      "name": "微风：戎桥水库起伏路",
+      "stravaScore": 6,
+      "rawScore": 4.11,
+      "pointCount": 59
+    },
+    {
+      "id": "38414296",
+      "name": "龙谷绕圈（减速带多）//JOJAD",
+      "stravaScore": 2,
+      "rawScore": 21.26,
+      "pointCount": 62
+    },
+    {
+      "id": "38451302",
+      "name": "ul - Tangshan shortcut leg",
+      "stravaScore": 13,
+      "rawScore": 5.12,
+      "pointCount": 17
+    },
+    {
+      "id": "38451386",
+      "name": "ul - Pass Skyways 云中食品店",
+      "stravaScore": 3,
+      "rawScore": 1.35,
+      "pointCount": 11
+    },
+    {
+      "id": "38471438",
+      "name": "甘泉湖东坡",
+      "stravaScore": 1,
+      "rawScore": 36.51,
+      "pointCount": 58
+    },
+    {
+      "id": "38471480",
+      "name": "黄龙蚬林场南边xc爬坡",
+      "stravaScore": 3,
+      "rawScore": 16.62,
+      "pointCount": 49
+    },
+    {
+      "id": "38495500",
+      "name": "微风：疯子路N-S",
+      "stravaScore": 55,
+      "rawScore": 8.18,
+      "pointCount": 43
+    },
+    {
+      "id": "38596183",
+      "name": "ul - Rolling countryside road",
+      "stravaScore": 42,
+      "rawScore": 4.82,
+      "pointCount": 36
+    },
+    {
+      "id": "38604179",
+      "name": "Z娃娃直达乌江",
+      "stravaScore": 24,
+      "rawScore": 93.08,
+      "pointCount": 758
+    },
+    {
+      "id": "38620563",
+      "name": "珩琅山路高架itt",
+      "stravaScore": 32,
+      "rawScore": 5.36,
+      "pointCount": 12
+    },
+    {
+      "id": "38659832",
+      "name": "新芜大道itt",
+      "stravaScore": 9,
+      "rawScore": 10.03,
+      "pointCount": 45
+    },
+    {
+      "id": "38663927",
+      "name": "River NiuShouShan lap",
+      "stravaScore": 4,
+      "rawScore": 29.72,
+      "pointCount": 200
+    },
+    {
+      "id": "38670435",
+      "name": "mtc-十二中放学冲刺",
+      "stravaScore": 6,
+      "rawScore": 2.72,
+      "pointCount": 21
+    },
+    {
+      "id": "38670467",
+      "name": "mtc-itt渡江胜利纪念碑至环宇城",
+      "stravaScore": 7,
+      "rawScore": 8.67,
+      "pointCount": 81
+    },
+    {
+      "id": "38688199",
+      "name": "句茅路最后的决战，全力！！！",
+      "stravaScore": 21,
+      "rawScore": 4.35,
+      "pointCount": 2
+    },
+    {
+      "id": "38727490",
+      "name": "大茅峰西边乡道（N-S）",
+      "stravaScore": 69,
+      "rawScore": 4.13,
+      "pointCount": 42
+    },
+    {
+      "id": "38733881",
+      "name": "松鼠小镇-响水涧-松鼠小镇50公里平路",
+      "stravaScore": 8,
+      "rawScore": 114.85,
+      "pointCount": 1067
+    },
+    {
+      "id": "38744877",
+      "name": "青山村起伏路（E-W）",
+      "stravaScore": 28,
+      "rawScore": 8.26,
+      "pointCount": 40
+    },
+    {
+      "id": "38768875",
+      "name": "微风：老山大环",
+      "stravaScore": 58,
+      "rawScore": 107.98,
+      "pointCount": 1227
+    },
+    {
+      "id": "38791591",
+      "name": "永锦路N-S//JOJAD",
+      "stravaScore": 2,
+      "rawScore": 4.51,
+      "pointCount": 14
+    },
+    {
+      "id": "38797344",
+      "name": "环湖第一座水闸-第二座水闸-西东",
+      "stravaScore": 11,
+      "rawScore": 11.46,
+      "pointCount": 57
+    },
+    {
+      "id": "38797516",
+      "name": "环湖还有2km到晚照小院-西东",
+      "stravaScore": 6,
+      "rawScore": 4.29,
+      "pointCount": 12
+    },
+    {
+      "id": "38833634",
+      "name": "微风：滨江最后冲刺王",
+      "stravaScore": 209,
+      "rawScore": 1.04,
+      "pointCount": 5
+    },
+    {
+      "id": "38848121",
+      "name": "游子山+慢城国际（起伏）",
+      "stravaScore": 4,
+      "rawScore": 77.04,
+      "pointCount": 752
+    },
+    {
+      "id": "38848404",
+      "name": "延茅路->春城路->句茅路牛肉汤岔路口",
+      "stravaScore": 1,
+      "rawScore": 13.87,
+      "pointCount": 46
+    },
+    {
+      "id": "38853249",
+      "name": "G104-石臼湖",
+      "stravaScore": 5,
+      "rawScore": 103.18,
+      "pointCount": 1144
+    },
+    {
+      "id": "38859718",
+      "name": "水墨XC肠道延长线一圈",
+      "stravaScore": 60,
+      "rawScore": 22.24,
+      "pointCount": 263
+    },
+    {
+      "id": "38876677",
+      "name": "南京站冲到南林大",
+      "stravaScore": 13,
+      "rawScore": 3.08,
+      "pointCount": 27
+    },
+    {
+      "id": "38882239",
+      "name": "天元西路冲刺",
+      "stravaScore": 21,
+      "rawScore": 2.22,
+      "pointCount": 8
+    },
+    {
+      "id": "38900222",
+      "name": "ul - Nanjing outer city wall dam road",
+      "stravaScore": 1,
+      "rawScore": 4.68,
+      "pointCount": 34
+    },
+    {
+      "id": "38905719",
+      "name": "301县道从宝堰回来石头路",
+      "stravaScore": 4,
+      "rawScore": 10.98,
+      "pointCount": 41
+    },
+    {
+      "id": "38905729",
+      "name": "回句春路最后的冲击",
+      "stravaScore": 23,
+      "rawScore": 5.75,
+      "pointCount": 22
+    },
+    {
+      "id": "38914315",
+      "name": "SSK - 松鼠小镇 → 星立方（二环路）",
+      "stravaScore": 3,
+      "rawScore": 26.99,
+      "pointCount": 147
+    },
+    {
+      "id": "38918490",
+      "name": "泰山街道-朱家山河爬坡//JOJAD",
+      "stravaScore": 9,
+      "rawScore": 7.77,
+      "pointCount": 21
+    },
+    {
+      "id": "38931970",
+      "name": "ul - Some small climbing",
+      "stravaScore": 47,
+      "rawScore": 13.55,
+      "pointCount": 27
+    },
+    {
+      "id": "38969415",
+      "name": "环牛首山大套",
+      "stravaScore": 47,
+      "rawScore": 91.66,
+      "pointCount": 679
+    },
+    {
+      "id": "38992227",
+      "name": "环石臼湖：丹阳路冲刺 S-N",
+      "stravaScore": 36,
+      "rawScore": 28.15,
+      "pointCount": 149
+    },
+    {
+      "id": "39035180",
+      "name": "沿山大道冲冲坡//JOJAD",
+      "stravaScore": 18,
+      "rawScore": 2.45,
+      "pointCount": 17
+    },
+    {
+      "id": "39051044",
+      "name": "环无想山赛段",
+      "stravaScore": 21,
+      "rawScore": 49.42,
+      "pointCount": 208
+    },
+    {
+      "id": "39072645",
+      "name": "从玄武大道去仙林的快速通道 桢",
+      "stravaScore": 7,
+      "rawScore": 7.88,
+      "pointCount": 70
+    },
+    {
+      "id": "39133971",
+      "name": "吉印大道-诚信大道",
+      "stravaScore": 26,
+      "rawScore": 3.83,
+      "pointCount": 31
+    },
+    {
+      "id": "39136173",
+      "name": "向翠屏山出发-ESP",
+      "stravaScore": 6,
+      "rawScore": 5.18,
+      "pointCount": 31
+    },
+    {
+      "id": "39143382",
+      "name": "进村爬坡——🐟",
+      "stravaScore": 29,
+      "rawScore": 8.35,
+      "pointCount": 36
+    },
+    {
+      "id": "39175122",
+      "name": "环山-无想山西冲破",
+      "stravaScore": 43,
+      "rawScore": 8.11,
+      "pointCount": 7
+    },
+    {
+      "id": "39175164",
+      "name": "金湖小起伏",
+      "stravaScore": 5,
+      "rawScore": 8.72,
+      "pointCount": 20
+    },
+    {
+      "id": "39175179",
+      "name": "东屏回家冲刺坡",
+      "stravaScore": 6,
+      "rawScore": 14.02,
+      "pointCount": 12
+    },
+    {
+      "id": "39200124",
+      "name": "泗陇水库竹林起伏路",
+      "stravaScore": 30,
+      "rawScore": 9.39,
+      "pointCount": 148
+    },
+    {
+      "id": "39201936",
+      "name": "疯狂追击大表哥",
+      "stravaScore": 11,
+      "rawScore": 22.06,
+      "pointCount": 97
+    },
+    {
+      "id": "39215580",
+      "name": "东麒路西向东巡航",
+      "stravaScore": 9,
+      "rawScore": 8.89,
+      "pointCount": 63
+    },
+    {
+      "id": "39215617",
+      "name": "我看看谁跑我前面去了？",
+      "stravaScore": 28,
+      "rawScore": 18.17,
+      "pointCount": 91
+    },
+    {
+      "id": "39246418",
+      "name": "方山烈士陵园旁的爬坡—🐟",
+      "stravaScore": 14,
+      "rawScore": 22.35,
+      "pointCount": 16
+    },
+    {
+      "id": "39267059",
+      "name": "环牛首山中套",
+      "stravaScore": 24,
+      "rawScore": 81.47,
+      "pointCount": 529
+    },
+    {
+      "id": "39282236",
+      "name": "南向北-狮平线后加两脚",
+      "stravaScore": 38,
+      "rawScore": 14.46,
+      "pointCount": 43
+    },
+    {
+      "id": "39295171",
+      "name": "汤山矿坑工地XC越野-LL",
+      "stravaScore": 4,
+      "rawScore": 23.3,
+      "pointCount": 31
+    },
+    {
+      "id": "39321468",
+      "name": "固城-漆桥itt-GICC",
+      "stravaScore": 5,
+      "rawScore": 14.49,
+      "pointCount": 54
+    },
+    {
+      "id": "39358914",
+      "name": "好开心！又去环0拉！冲冲冲！",
+      "stravaScore": 29,
+      "rawScore": 1.61,
+      "pointCount": 14
+    },
+    {
+      "id": "39359655",
+      "name": "陈桥-花海",
+      "stravaScore": 21,
+      "rawScore": 17.31,
+      "pointCount": 165
+    },
+    {
+      "id": "39367340",
+      "name": "经典东屏路线1.0",
+      "stravaScore": 4,
+      "rawScore": 90.23,
+      "pointCount": 557
+    },
+    {
+      "id": "39401428",
+      "name": "星火路热身//JOJAD",
+      "stravaScore": 20,
+      "rawScore": 1.61,
+      "pointCount": 14
+    },
+    {
+      "id": "39401947",
+      "name": "濮塘GO HOME",
+      "stravaScore": 12,
+      "rawScore": 13.35,
+      "pointCount": 105
+    },
+    {
+      "id": "39409670",
+      "name": "横陆路W-E-YC",
+      "stravaScore": 1,
+      "rawScore": 6.78,
+      "pointCount": 67
+    },
+    {
+      "id": "39418547",
+      "name": "gogogo起飞喽",
+      "stravaScore": 11,
+      "rawScore": 5.5,
+      "pointCount": 17
+    },
+    {
+      "id": "39426594",
+      "name": "小心飞哥偷鸡",
+      "stravaScore": 71,
+      "rawScore": 1.03,
+      "pointCount": 8
+    },
+    {
+      "id": "39455182",
+      "name": "泰工路-桥北热身",
+      "stravaScore": 1,
+      "rawScore": 11.9,
+      "pointCount": 128
+    },
+    {
+      "id": "39455200",
+      "name": "万寿路1号桥N-S",
+      "stravaScore": 2,
+      "rawScore": 3.77,
+      "pointCount": 11
+    },
+    {
+      "id": "39455205",
+      "name": "七里桥-滨江热身",
+      "stravaScore": 3,
+      "rawScore": 9.78,
+      "pointCount": 92
+    },
+    {
+      "id": "39466718",
+      "name": "方山究极小小圈",
+      "stravaScore": 500,
+      "rawScore": 35.38,
+      "pointCount": 190
+    },
+    {
+      "id": "39473534",
+      "name": "MM 下班",
+      "stravaScore": 7,
+      "rawScore": 10.06,
+      "pointCount": 77
+    },
+    {
+      "id": "39475825",
+      "name": "所街-水西门大街",
+      "stravaScore": 9,
+      "rawScore": 2.85,
+      "pointCount": 32
+    },
+    {
+      "id": "39475863",
+      "name": "童卫路-月牙湖",
+      "stravaScore": 11,
+      "rawScore": 2.33,
+      "pointCount": 29
+    },
+    {
+      "id": "39515564",
+      "name": "江堤🚴‍♂️福山大桥@渣湾渡口",
+      "stravaScore": 25,
+      "rawScore": 21.89,
+      "pointCount": 225
+    },
+    {
+      "id": "39515593",
+      "name": "江堤🚴福山大桥@清水河大桥",
+      "stravaScore": 34,
+      "rawScore": 22.36,
+      "pointCount": 217
+    },
+    {
+      "id": "39542121",
+      "name": "永济大道西向东",
+      "stravaScore": 143,
+      "rawScore": 7.99,
+      "pointCount": 56
+    },
+    {
+      "id": "39609610",
+      "name": "冲过西善桥 N---S",
+      "stravaScore": 5,
+      "rawScore": 2.51,
+      "pointCount": 8
+    },
+    {
+      "id": "39641832",
+      "name": "惊恐大喇叭，冲冲冲，逃出升天",
+      "stravaScore": 21,
+      "rawScore": 3.33,
+      "pointCount": 6
+    },
+    {
+      "id": "39650871",
+      "name": "环陵路个人计时赛",
+      "stravaScore": 409,
+      "rawScore": 8.88,
+      "pointCount": 64
+    },
+    {
+      "id": "39662251",
+      "name": "S445大顺风",
+      "stravaScore": 17,
+      "rawScore": 49.34,
+      "pointCount": 179
+    },
+    {
+      "id": "39662276",
+      "name": "秘密潜入天空之境",
+      "stravaScore": 1,
+      "rawScore": 11.77,
+      "pointCount": 137
+    },
+    {
+      "id": "39672018",
+      "name": "微风：绕城公路（西北→）",
+      "stravaScore": 29,
+      "rawScore": 4.84,
+      "pointCount": 23
+    },
+    {
+      "id": "39678619",
+      "name": "天镜路大直道TT",
+      "stravaScore": 29,
+      "rawScore": 3.74,
+      "pointCount": 8
+    },
+    {
+      "id": "39681608",
+      "name": "谁是方山轰坡王",
+      "stravaScore": 273,
+      "rawScore": 2.81,
+      "pointCount": 7
+    },
+    {
+      "id": "39690226",
+      "name": "清风大道爽骑",
+      "stravaScore": 33,
+      "rawScore": 18.72,
+      "pointCount": 89
+    },
+    {
+      "id": "39724343",
+      "name": "水阁路冲一下",
+      "stravaScore": 22,
+      "rawScore": 2.21,
+      "pointCount": 8
+    },
+    {
+      "id": "39724348",
+      "name": "宁丹大道缓上（修路版）",
+      "stravaScore": 33,
+      "rawScore": 6.18,
+      "pointCount": 16
+    },
+    {
+      "id": "39725166",
+      "name": "不老村",
+      "stravaScore": 71,
+      "rawScore": 2,
+      "pointCount": 36
+    },
+    {
+      "id": "39726615",
+      "name": "谁的马和汽渡最快？（向马鞍山方向",
+      "stravaScore": 3,
+      "rawScore": 6.17,
+      "pointCount": 49
+    },
+    {
+      "id": "39727989",
+      "name": "紫东阁climb",
+      "stravaScore": 68,
+      "rawScore": 18.72,
+      "pointCount": 46
+    },
+    {
+      "id": "39728848",
+      "name": " S126南下G235",
+      "stravaScore": 3,
+      "rawScore": 22.9,
+      "pointCount": 150
+    },
+    {
+      "id": "39728894",
+      "name": "新海线   石臼湖北上S340 A",
+      "stravaScore": 20,
+      "rawScore": 20.99,
+      "pointCount": 105
+    },
+    {
+      "id": "39729096",
+      "name": "G346 含山往马和轮渡    东归回家咯😘",
+      "stravaScore": 12,
+      "rawScore": 59.26,
+      "pointCount": 256
+    },
+    {
+      "id": "39729151",
+      "name": "S340返程最后的冲刺 ",
+      "stravaScore": 21,
+      "rawScore": 3.82,
+      "pointCount": 26
+    },
+    {
+      "id": "39729195",
+      "name": "去黄龙岘喽A（x001 ） 马鞍山北上江宁 ",
+      "stravaScore": 3,
+      "rawScore": 17.28,
+      "pointCount": 106
+    },
+    {
+      "id": "39742885",
+      "name": "榨干你的体能坡",
+      "stravaScore": 111,
+      "rawScore": 34.19,
+      "pointCount": 58
+    },
+    {
+      "id": "39746367",
+      "name": "扬子江生态公园平路冲刺 东-->西",
+      "stravaScore": 18,
+      "rawScore": 5.97,
+      "pointCount": 78
+    },
+    {
+      "id": "39768927",
+      "name": "环玄武湖（内圈）",
+      "stravaScore": 8,
+      "rawScore": 36.92,
+      "pointCount": 166
+    },
+    {
+      "id": "39785731",
+      "name": "回南京的村道小起伏",
+      "stravaScore": 25,
+      "rawScore": 11.86,
+      "pointCount": 106
+    },
+    {
+      "id": "40573107",
+      "name": "老山东路南坡",
+      "stravaScore": 1,
+      "rawScore": 23.98,
+      "pointCount": 40
+    },
+    {
+      "id": "40589782",
+      "name": "溧水瑞豹越野路线9",
+      "stravaScore": 1,
+      "rawScore": 5.87,
+      "pointCount": 118
+    },
+    {
+      "id": "40612969",
+      "name": "cd-江宁红衫秘境",
+      "stravaScore": 25,
+      "rawScore": 4.66,
+      "pointCount": 53
+    },
+    {
+      "id": "40612978",
+      "name": "cd-正方中路速冲到银杏湖大道",
+      "stravaScore": 23,
+      "rawScore": 4.3,
+      "pointCount": 23
+    },
+    {
+      "id": "40634080",
+      "name": "家门口间歇小坡~Lin",
+      "stravaScore": 3,
+      "rawScore": 5.95,
+      "pointCount": 26
+    },
+    {
+      "id": "40667894",
+      "name": "白马山庄龙源路陡坡",
+      "stravaScore": 19,
+      "rawScore": 33.76,
+      "pointCount": 19
+    },
+    {
+      "id": "40698324",
+      "name": "上元门至红枫路计时赛段（永济—新港—栖霞）",
+      "stravaScore": 17,
+      "rawScore": 48.8,
+      "pointCount": 258
+    },
+    {
+      "id": "40698635",
+      "name": "石硊桥北向南",
+      "stravaScore": 40,
+      "rawScore": 5.51,
+      "pointCount": 8
+    },
+    {
+      "id": "40836413",
+      "name": "扬禄线ITT",
+      "stravaScore": 10,
+      "rawScore": 17.14,
+      "pointCount": 53
+    },
+    {
+      "id": "40868736",
+      "name": "TY_不好好学习就进路边工厂",
+      "stravaScore": 10,
+      "rawScore": 2.75,
+      "pointCount": 33
+    },
+    {
+      "id": "40868742",
+      "name": "TY_淳化街道破破烂烂",
+      "stravaScore": 1,
+      "rawScore": 11.28,
+      "pointCount": 93
+    },
+    {
+      "id": "40872653",
+      "name": "TY_桥上风大，姿势必须更aero",
+      "stravaScore": 30,
+      "rawScore": 2.82,
+      "pointCount": 30
+    },
+    {
+      "id": "40872676",
+      "name": "TY_追逐S6（小心环岛路牙，设计很不合理）",
+      "stravaScore": 15,
+      "rawScore": 7.6,
+      "pointCount": 35
+    },
+    {
+      "id": "40872698",
+      "name": "TY_买完烤鸭必须加脚回家",
+      "stravaScore": 10,
+      "rawScore": 12.12,
+      "pointCount": 79
+    },
+    {
+      "id": "40915309",
+      "name": "高旺向老山进发",
+      "stravaScore": 40,
+      "rawScore": 16.78,
+      "pointCount": 145
+    },
+    {
+      "id": "40943747",
+      "name": "慢！我撞了逆行老太赔了1500块！",
+      "stravaScore": 80,
+      "rawScore": 3.51,
+      "pointCount": 24
+    },
+    {
+      "id": "40948191",
+      "name": "半边山下-竹林爬坡",
+      "stravaScore": 9,
+      "rawScore": 17.97,
+      "pointCount": 34
+    },
+    {
+      "id": "41009971",
+      "name": "扬子江大道 - 湘江路 至 河西大街",
+      "stravaScore": 1,
+      "rawScore": 12.18,
+      "pointCount": 158
+    },
+    {
+      "id": "41056458",
+      "name": "当高桥东向西",
+      "stravaScore": 9,
+      "rawScore": 8.21,
+      "pointCount": 4
+    },
+    {
+      "id": "41056470",
+      "name": "当高桥西向东",
+      "stravaScore": 4,
+      "rawScore": 7.93,
+      "pointCount": 6
+    },
+    {
+      "id": "41056525",
+      "name": "孙家宕大桥东向西",
+      "stravaScore": 5,
+      "rawScore": 7.37,
+      "pointCount": 8
+    },
+    {
+      "id": "41056544",
+      "name": "孙家宕大桥西向东",
+      "stravaScore": 4,
+      "rawScore": 8.36,
+      "pointCount": 7
+    },
+    {
+      "id": "41102878",
+      "name": "希望轮渡还没下班",
+      "stravaScore": 9,
+      "rawScore": 3.68,
+      "pointCount": 45
+    },
+    {
+      "id": "41119671",
+      "name": "文靖路秦淮河桥爬坡",
+      "stravaScore": 47,
+      "rawScore": 6.78,
+      "pointCount": 15
+    },
+    {
+      "id": "41120361",
+      "name": "大马山口到铁链入口",
+      "stravaScore": 50,
+      "rawScore": 7.19,
+      "pointCount": 111
+    },
+    {
+      "id": "41188607",
+      "name": "将军山下山右转沿秦淮河至将军大道",
+      "stravaScore": 31,
+      "rawScore": 1.99,
+      "pointCount": 21
+    },
+    {
+      "id": "41258372",
+      "name": "管委会至横山",
+      "stravaScore": 85,
+      "rawScore": 41.48,
+      "pointCount": 140
+    },
+    {
+      "id": "41274512",
+      "name": "银杏湖大道顺风飞驰",
+      "stravaScore": 3,
+      "rawScore": 13.29,
+      "pointCount": 64
+    },
+    {
+      "id": "41274562",
+      "name": "黄龙岘走绿道穿过全是民宿的村子到古官道入口",
+      "stravaScore": 11,
+      "rawScore": 5.79,
+      "pointCount": 96
+    },
+    {
+      "id": "41350432",
+      "name": "仑山内部",
+      "stravaScore": 11,
+      "rawScore": 4.58,
+      "pointCount": 12
+    },
+    {
+      "id": "41384320",
+      "name": "回校最后一个直道冲刺！",
+      "stravaScore": 104,
+      "rawScore": 1.02,
+      "pointCount": 5
+    },
+    {
+      "id": "41391448",
+      "name": "通宁路—志力超市路口",
+      "stravaScore": 26,
+      "rawScore": 20.63,
+      "pointCount": 66
+    },
+    {
+      "id": "41395257",
+      "name": "暴走-张西路水杉大道N-S",
+      "stravaScore": 44,
+      "rawScore": 5.76,
+      "pointCount": 25
+    },
+    {
+      "id": "41414916",
+      "name": "BZ-青龙绿带法院至检察院",
+      "stravaScore": 7,
+      "rawScore": 4.21,
+      "pointCount": 33
+    },
+    {
+      "id": "41428511",
+      "name": "高丽小缓坡",
+      "stravaScore": 7,
+      "rawScore": 6.75,
+      "pointCount": 9
+    },
+    {
+      "id": "41444050",
+      "name": "鲁贝吧！勇士 by Scott",
+      "stravaScore": 14,
+      "rawScore": 2.1,
+      "pointCount": 17
+    },
+    {
+      "id": "41444995",
+      "name": "在矿场边上狂飙",
+      "stravaScore": 28,
+      "rawScore": 3.2,
+      "pointCount": 25
+    },
+    {
+      "id": "41445031",
+      "name": "句蜀路（空青村-中亭子）",
+      "stravaScore": 45,
+      "rawScore": 7.86,
+      "pointCount": 53
+    },
+    {
+      "id": "41449623",
+      "name": "逃离匪集-YC",
+      "stravaScore": 24,
+      "rawScore": 1.92,
+      "pointCount": 34
+    },
+    {
+      "id": "41505383",
+      "name": "360到底，拉到头！",
+      "stravaScore": 12,
+      "rawScore": 66.74,
+      "pointCount": 282
+    },
+    {
+      "id": "41538132",
+      "name": "凤鸣湖大桥冲刺",
+      "stravaScore": 143,
+      "rawScore": 6.11,
+      "pointCount": 7
+    },
+    {
+      "id": "41538171",
+      "name": "凤鸣湖单圈",
+      "stravaScore": 180,
+      "rawScore": 28.15,
+      "pointCount": 64
+    },
+    {
+      "id": "41586094",
+      "name": "苗圃越野路下坡",
+      "stravaScore": 4,
+      "rawScore": 1.41,
+      "pointCount": 45
+    },
+    {
+      "id": "41608909",
+      "name": "cd-向山镇杜塘路小坡",
+      "stravaScore": 15,
+      "rawScore": 13.69,
+      "pointCount": 26
+    },
+    {
+      "id": "41620766",
+      "name": "汤山国家地质公园博物馆Climb -川",
+      "stravaScore": 8,
+      "rawScore": 18.17,
+      "pointCount": 38
+    },
+    {
+      "id": "41632898",
+      "name": "云姐训练路线",
+      "stravaScore": 12,
+      "rawScore": 137.18,
+      "pointCount": 1727
+    },
+    {
+      "id": "41637490",
+      "name": "骑完江心洲赶回将军路上课",
+      "stravaScore": 7,
+      "rawScore": 33.55,
+      "pointCount": 297
+    },
+    {
+      "id": "41648247",
+      "name": "废弃矿区宿舍楼旁 Climb",
+      "stravaScore": 18,
+      "rawScore": 12.71,
+      "pointCount": 14
+    },
+    {
+      "id": "41653938",
+      "name": "ul - Qilinmen Av. 麒麟门大道 to Expo Garden 园博园 Roundabout",
+      "stravaScore": 58,
+      "rawScore": 3.79,
+      "pointCount": 34
+    },
+    {
+      "id": "41660385",
+      "name": "金宝圩大环线",
+      "stravaScore": 16,
+      "rawScore": 117.92,
+      "pointCount": 854
+    },
+    {
+      "id": "41697659",
+      "name": "郎川河边浪路",
+      "stravaScore": 3,
+      "rawScore": 17.49,
+      "pointCount": 197
+    },
+    {
+      "id": "41760711",
+      "name": "教官巡山完毕回家咯",
+      "stravaScore": 16,
+      "rawScore": 3.06,
+      "pointCount": 32
+    },
+    {
+      "id": "41762834",
+      "name": "微风：江桥线",
+      "stravaScore": 5,
+      "rawScore": 7.83,
+      "pointCount": 64
+    },
+    {
+      "id": "41762843",
+      "name": "微风：九华路",
+      "stravaScore": 12,
+      "rawScore": 6.83,
+      "pointCount": 41
+    },
+    {
+      "id": "41769841",
+      "name": "回程勇敢的出击吧",
+      "stravaScore": 11,
+      "rawScore": 6.8,
+      "pointCount": 11
+    },
+    {
+      "id": "41809799",
+      "name": "一个近道",
+      "stravaScore": 8,
+      "rawScore": 2.82,
+      "pointCount": 10
+    },
+    {
+      "id": "41809845",
+      "name": "TY_湖熟到七里岗",
+      "stravaScore": 1,
+      "rawScore": 13.63,
+      "pointCount": 149
+    },
+    {
+      "id": "41810302",
+      "name": "TY_上堰descending",
+      "stravaScore": 8,
+      "rawScore": 2.38,
+      "pointCount": 42
+    },
+    {
+      "id": "41843438",
+      "name": "何必绕路 直接穿插回南京",
+      "stravaScore": 9,
+      "rawScore": 9.74,
+      "pointCount": 67
+    },
+    {
+      "id": "41871768",
+      "name": "远眺高骊山！",
+      "stravaScore": 22,
+      "rawScore": 3.34,
+      "pointCount": 6
+    },
+    {
+      "id": "41871795",
+      "name": "仑山湖茶场小坡",
+      "stravaScore": 4,
+      "rawScore": 10.6,
+      "pointCount": 9
+    },
+    {
+      "id": "41871813",
+      "name": "穿越光明村（S-N）",
+      "stravaScore": 10,
+      "rawScore": 5.2,
+      "pointCount": 23
+    },
+    {
+      "id": "41947714",
+      "name": "SSK-方特绕圈-5.8km",
+      "stravaScore": 16,
+      "rawScore": 26.45,
+      "pointCount": 81
+    },
+    {
+      "id": "42006367",
+      "name": "骑完回宿舍",
+      "stravaScore": 7,
+      "rawScore": 1.21,
+      "pointCount": 32
+    },
+    {
+      "id": "42013462",
+      "name": "东苑-天宝阁",
+      "stravaScore": 1,
+      "rawScore": 11.04,
+      "pointCount": 29
+    },
+    {
+      "id": "42047598",
+      "name": "SSK-长江一桥（东往西）",
+      "stravaScore": 12,
+      "rawScore": 11.82,
+      "pointCount": 20
+    },
+    {
+      "id": "42063605",
+      "name": "胜太西路到天元西路去打工",
+      "stravaScore": 6,
+      "rawScore": 4,
+      "pointCount": 22
+    },
+    {
+      "id": "42112457",
+      "name": "水库急转弯下坡",
+      "stravaScore": 171,
+      "rawScore": 1.19,
+      "pointCount": 17
+    },
+    {
+      "id": "42127630",
+      "name": "园博园团练路线itt",
+      "stravaScore": 118,
+      "rawScore": 125.22,
+      "pointCount": 1007
+    },
+    {
+      "id": "42164660",
+      "name": "赤山热身坡（到景区电动门）",
+      "stravaScore": 16,
+      "rawScore": 17.81,
+      "pointCount": 13
+    },
+    {
+      "id": "42164673",
+      "name": "狂飙句容河岸（S-N）",
+      "stravaScore": 17,
+      "rawScore": 18.75,
+      "pointCount": 117
+    },
+    {
+      "id": "42175096",
+      "name": "金山村茅山福道（N-S）",
+      "stravaScore": 6,
+      "rawScore": 13.72,
+      "pointCount": 160
+    },
+    {
+      "id": "42175106",
+      "name": "穿越桃山（砾石路）",
+      "stravaScore": 1,
+      "rawScore": 5.09,
+      "pointCount": 72
+    },
+    {
+      "id": "42176252",
+      "name": "春天线（何庄村-正明超市）",
+      "stravaScore": 6,
+      "rawScore": 9.16,
+      "pointCount": 46
+    },
+    {
+      "id": "42176256",
+      "name": "春天线（延茅路-何庄村）",
+      "stravaScore": 10,
+      "rawScore": 9.04,
+      "pointCount": 65
+    },
+    {
+      "id": "42176261",
+      "name": "春天线（旺旺超市- G104）",
+      "stravaScore": 3,
+      "rawScore": 10.99,
+      "pointCount": 81
+    },
+    {
+      "id": "42176300",
+      "name": "冲向坡顶看看茅山小瑞士",
+      "stravaScore": 4,
+      "rawScore": 12.08,
+      "pointCount": 37
+    },
+    {
+      "id": "42191694",
+      "name": "瓦屋山庄的后山小坡",
+      "stravaScore": 2,
+      "rawScore": 29.07,
+      "pointCount": 29
+    },
+    {
+      "id": "42201135",
+      "name": "last ",
+      "stravaScore": 9,
+      "rawScore": 1.36,
+      "pointCount": 13
+    },
+    {
+      "id": "42204960",
+      "name": "SSK-方特冲刺路段",
+      "stravaScore": 5,
+      "rawScore": 1.6,
+      "pointCount": 7
+    },
+    {
+      "id": "42214128",
+      "name": "句容河北岸(灵顺桥->佑桥农业生态园路口)",
+      "stravaScore": 7,
+      "rawScore": 8.49,
+      "pointCount": 48
+    },
+    {
+      "id": "42218688",
+      "name": "微风：宝塔山边小路",
+      "stravaScore": 7,
+      "rawScore": 10.63,
+      "pointCount": 106
+    },
+    {
+      "id": "42254314",
+      "name": "马锅巴放风ing",
+      "stravaScore": 5,
+      "rawScore": 23.59,
+      "pointCount": 41
+    },
+    {
+      "id": "42339346",
+      "name": "东流村山道Climb",
+      "stravaScore": 10,
+      "rawScore": 10.56,
+      "pointCount": 26
+    },
+    {
+      "id": "42339405",
+      "name": "射乌山北坡完整路段Climb",
+      "stravaScore": 8,
+      "rawScore": 30.13,
+      "pointCount": 79
+    },
+    {
+      "id": "42339968",
+      "name": "王庄水库彩虹路",
+      "stravaScore": 7,
+      "rawScore": 2.68,
+      "pointCount": 18
+    },
+    {
+      "id": "42354985",
+      "name": "2026 南京铁人三项自行车单圈",
+      "stravaScore": 95,
+      "rawScore": 33.53,
+      "pointCount": 97
+    },
+    {
+      "id": "42392218",
+      "name": "白马大道（E-W）",
+      "stravaScore": 2,
+      "rawScore": 9.4,
+      "pointCount": 35
+    },
+    {
+      "id": "42392222",
+      "name": "郭云线（白马大道-金湖村）",
+      "stravaScore": 3,
+      "rawScore": 12.96,
+      "pointCount": 108
+    },
+    {
+      "id": "42392226",
+      "name": "浮山茶场科研所 Climb",
+      "stravaScore": 4,
+      "rawScore": 37.63,
+      "pointCount": 53
+    },
+    {
+      "id": "42392237",
+      "name": "狂飙东屏湖西岸（青龙桥-牌坊）",
+      "stravaScore": 6,
+      "rawScore": 12.21,
+      "pointCount": 170
+    },
+    {
+      "id": "42392252",
+      "name": "S340（白鹿村-天王镇）",
+      "stravaScore": 2,
+      "rawScore": 14.81,
+      "pointCount": 57
+    },
+    {
+      "id": "42419465",
+      "name": "中兴门口过桥洞",
+      "stravaScore": 1,
+      "rawScore": 1.07,
+      "pointCount": 5
+    },
+    {
+      "id": "42419481",
+      "name": "从景枫到花神庙",
+      "stravaScore": 3,
+      "rawScore": 14.63,
+      "pointCount": 89
+    },
+    {
+      "id": "42422509",
+      "name": "白杨路平路计时赛（南-北）",
+      "stravaScore": 5,
+      "rawScore": 2.47,
+      "pointCount": 10
+    },
+    {
+      "id": "42433218",
+      "name": "去钓鱼",
+      "stravaScore": 6,
+      "rawScore": 4.03,
+      "pointCount": 21
+    },
+    {
+      "id": "42434700",
+      "name": "狸桥-水阳小山头起伏路-GICC",
+      "stravaScore": 5,
+      "rawScore": 27.35,
+      "pointCount": 251
+    },
+    {
+      "id": "42434710",
+      "name": "水阳小山头爬坡-GICC",
+      "stravaScore": 16,
+      "rawScore": 12.71,
+      "pointCount": 14
+    },
+    {
+      "id": "42459700",
+      "name": "蓝色桥",
+      "stravaScore": 3,
+      "rawScore": 1.55,
+      "pointCount": 8
     }
   ],
   "skippedConcurrent": [],
-  "failed": [],
-  "verifiedIds": [],
+  "failed": [
+    {
+      "id": "32598215",
+      "reason": "Out of range value for column 'effort_count' at row 1"
+    },
+    {
+      "id": "36278009",
+      "reason": "Strava segment detail unavailable"
+    },
+    {
+      "id": "38400972",
+      "reason": "Out of range value for column 'effort_count' at row 1"
+    },
+    {
+      "id": "39282279",
+      "reason": "connect ETIMEDOUT"
+    },
+    {
+      "id": "39295161",
+      "reason": "Strava segment detail unavailable"
+    },
+    {
+      "id": "39792960",
+      "reason": "read EADDRNOTAVAIL"
+    },
+    {
+      "id": "39833649",
+      "reason": "read EADDRNOTAVAIL"
+    },
+    {
+      "id": "39863574",
+      "reason": "Can't add new command when connection is in closed state"
+    },
+    {
+      "id": "39883787",
+      "reason": "Can't add new command when connection is in closed state"
+    },
+    {
+      "id": "39899392",
+      "reason": "Can't add new command when connection is in closed state"
+    },
+    {
+      "id": "39899395",
+      "reason": "Can't add new command when connection is in closed state"
+    },
+    {
+      "id": "39927510",
+      "reason": "Can't add new command when connection is in closed state"
+    },
+    {
+      "id": "39935835",
+      "reason": "Can't add new command when connection is in closed state"
+    },
+    {
+      "id": "39945497",
+      "reason": "Can't add new command when connection is in closed state"
+    },
+    {
+      "id": "39980994",
+      "reason": "Can't add new command when connection is in closed state"
+    },
+    {
+      "id": "39988087",
+      "reason": "Can't add new command when connection is in closed state"
+    },
+    {
+      "id": "40029843",
+      "reason": "Can't add new command when connection is in closed state"
+    },
+    {
+      "id": "40036899",
+      "reason": "Can't add new command when connection is in closed state"
+    },
+    {
+      "id": "40069753",
+      "reason": "Can't add new command when connection is in closed state"
+    },
+    {
+      "id": "40069759",
+      "reason": "Can't add new command when connection is in closed state"
+    },
+    {
+      "id": "40069763",
+      "reason": "Can't add new command when connection is in closed state"
+    },
+    {
+      "id": "40069765",
+      "reason": "Can't add new command when connection is in closed state"
+    },
+    {
+      "id": "40103622",
+      "reason": "Can't add new command when connection is in closed state"
+    },
+    {
+      "id": "40110387",
+      "reason": "Can't add new command when connection is in closed state"
+    },
+    {
+      "id": "40111152",
+      "reason": "Can't add new command when connection is in closed state"
+    },
+    {
+      "id": "40123239",
+      "reason": "Can't add new command when connection is in closed state"
+    },
+    {
+      "id": "40133513",
+      "reason": "Can't add new command when connection is in closed state"
+    },
+    {
+      "id": "40145676",
+      "reason": "Can't add new command when connection is in closed state"
+    },
+    {
+      "id": "40153140",
+      "reason": "Can't add new command when connection is in closed state"
+    },
+    {
+      "id": "40158899",
+      "reason": "Can't add new command when connection is in closed state"
+    },
+    {
+      "id": "40222994",
+      "reason": "Can't add new command when connection is in closed state"
+    },
+    {
+      "id": "40226254",
+      "reason": "Can't add new command when connection is in closed state"
+    },
+    {
+      "id": "40227741",
+      "reason": "Can't add new command when connection is in closed state"
+    },
+    {
+      "id": "40227823",
+      "reason": "Can't add new command when connection is in closed state"
+    },
+    {
+      "id": "40230013",
+      "reason": "Can't add new command when connection is in closed state"
+    },
+    {
+      "id": "40242175",
+      "reason": "Can't add new command when connection is in closed state"
+    },
+    {
+      "id": "40257033",
+      "reason": "Can't add new command when connection is in closed state"
+    },
+    {
+      "id": "40268378",
+      "reason": "Can't add new command when connection is in closed state"
+    },
+    {
+      "id": "40268566",
+      "reason": "Can't add new command when connection is in closed state"
+    },
+    {
+      "id": "40290025",
+      "reason": "Can't add new command when connection is in closed state"
+    },
+    {
+      "id": "40290100",
+      "reason": "Can't add new command when connection is in closed state"
+    },
+    {
+      "id": "40319092",
+      "reason": "Can't add new command when connection is in closed state"
+    },
+    {
+      "id": "40320306",
+      "reason": "Can't add new command when connection is in closed state"
+    },
+    {
+      "id": "40339946",
+      "reason": "Can't add new command when connection is in closed state"
+    },
+    {
+      "id": "40411078",
+      "reason": "Can't add new command when connection is in closed state"
+    },
+    {
+      "id": "40411094",
+      "reason": "Can't add new command when connection is in closed state"
+    },
+    {
+      "id": "40411627",
+      "reason": "Can't add new command when connection is in closed state"
+    },
+    {
+      "id": "40457652",
+      "reason": "Can't add new command when connection is in closed state"
+    },
+    {
+      "id": "40485609",
+      "reason": "Can't add new command when connection is in closed state"
+    },
+    {
+      "id": "40505799",
+      "reason": "Can't add new command when connection is in closed state"
+    },
+    {
+      "id": "40531885",
+      "reason": "Can't add new command when connection is in closed state"
+    },
+    {
+      "id": "40541320",
+      "reason": "Can't add new command when connection is in closed state"
+    },
+    {
+      "id": "40567580",
+      "reason": "Can't add new command when connection is in closed state"
+    },
+    {
+      "id": "40573072",
+      "reason": "connect ETIMEDOUT"
+    }
+  ],
+  "verifiedIds": [
+    "1530562",
+    "4426210",
+    "4899298",
+    "4913923",
+    "5051397",
+    "5327698",
+    "5631080",
+    "5847935",
+    "6098541",
+    "6098546",
+    "6098557",
+    "6098580",
+    "6098736",
+    "6098750",
+    "6121865",
+    "6121894",
+    "6137838",
+    "6137934",
+    "6137971",
+    "6137974",
+    "6361446",
+    "6882004",
+    "7686442",
+    "7934380",
+    "8137831",
+    "8182896",
+    "8182916",
+    "8194871",
+    "8701278",
+    "8701294",
+    "8784585",
+    "8895021",
+    "9203613",
+    "9203718",
+    "10102003",
+    "10102016",
+    "10115103",
+    "10259950",
+    "10327505",
+    "10741316",
+    "10803856",
+    "11036383",
+    "11111805",
+    "11476756",
+    "11519214",
+    "11519233",
+    "11607745",
+    "11699558",
+    "11744684",
+    "11921363",
+    "11955898",
+    "12076911",
+    "12266282",
+    "12266347",
+    "12266389",
+    "12266846",
+    "12267010",
+    "12273012",
+    "12277598",
+    "12457858",
+    "12950237",
+    "13232979",
+    "13238375",
+    "13286379",
+    "13288336",
+    "13353256",
+    "13353424",
+    "13371571",
+    "13378259",
+    "13588351",
+    "13632965",
+    "13632970",
+    "13653180",
+    "13695089",
+    "13758542",
+    "13829056",
+    "14324912",
+    "14492378",
+    "14492413",
+    "14492633",
+    "14492680",
+    "14678830",
+    "14678857",
+    "14678888",
+    "14678922",
+    "14682380",
+    "14825707",
+    "15151349",
+    "15269856",
+    "15328107",
+    "15339378",
+    "15645117",
+    "16063261",
+    "16063785",
+    "16129706",
+    "16170708",
+    "16207446",
+    "16391085",
+    "16437733",
+    "16479270",
+    "16576745",
+    "16788333",
+    "16844701",
+    "16957247",
+    "16957335",
+    "17284752",
+    "17284786",
+    "17332407",
+    "17555197",
+    "17603141",
+    "17657461",
+    "18421167",
+    "18421613",
+    "18453732",
+    "18472209",
+    "18496293",
+    "18766858",
+    "18857675",
+    "19235410",
+    "19291926",
+    "19305235",
+    "19386675",
+    "19387648",
+    "19551165",
+    "19551270",
+    "19551277",
+    "19564860",
+    "19564866",
+    "19564881",
+    "19564935",
+    "19746532",
+    "19771873",
+    "20057463",
+    "20129939",
+    "20401995",
+    "20415799",
+    "20432495",
+    "20603384",
+    "20634003",
+    "20724766",
+    "20833217",
+    "20843414",
+    "20923209",
+    "20978654",
+    "20979509",
+    "21050328",
+    "21132636",
+    "21132836",
+    "21133854",
+    "21134426",
+    "21161178",
+    "21210659",
+    "21210692",
+    "21271266",
+    "21310639",
+    "21440980",
+    "21728651",
+    "21756476",
+    "21760279",
+    "21815092",
+    "21897662",
+    "21929773",
+    "22115547",
+    "22118869",
+    "22137701",
+    "22241332",
+    "22261725",
+    "22307757",
+    "22326360",
+    "22471425",
+    "22838828",
+    "22967440",
+    "23041182",
+    "23083014",
+    "23158409",
+    "23532969",
+    "23632063",
+    "23648979",
+    "23735533",
+    "23832593",
+    "24020431",
+    "24643862",
+    "24917933",
+    "25128523",
+    "25311377",
+    "25857443",
+    "25908402",
+    "25908763",
+    "26021371",
+    "26033863",
+    "26033878",
+    "26033892",
+    "26033906",
+    "26215772",
+    "26215814",
+    "26491955",
+    "26644767",
+    "26861598",
+    "27318338",
+    "27355651",
+    "27563740",
+    "27612281",
+    "27612505",
+    "27675243",
+    "27683945",
+    "27916326",
+    "27930803",
+    "27987384",
+    "28338983",
+    "28469480",
+    "28476745",
+    "28476773",
+    "28609495",
+    "28740070",
+    "28793100",
+    "28830147",
+    "28830610",
+    "28871159",
+    "28908813",
+    "28911056",
+    "29008660",
+    "29040461",
+    "29101488",
+    "29101589",
+    "29166985",
+    "29190440",
+    "29190499",
+    "29208235",
+    "29208275",
+    "29350883",
+    "29438592",
+    "29469770",
+    "29469905",
+    "29501517",
+    "29501559",
+    "29515192",
+    "29563722",
+    "29575706",
+    "29585530",
+    "29598425",
+    "29598504",
+    "29599118",
+    "29623455",
+    "29629044",
+    "29667491",
+    "29678804",
+    "29678821",
+    "29691589",
+    "29691612",
+    "29695786",
+    "29695829",
+    "29695914",
+    "29702296",
+    "29734676",
+    "29736703",
+    "29736972",
+    "29737334",
+    "29737399",
+    "29756711",
+    "29762969",
+    "29768608",
+    "29792692",
+    "29795852",
+    "29802204",
+    "29826114",
+    "29835572",
+    "29866897",
+    "29885637",
+    "29895402",
+    "29906781",
+    "29919949",
+    "29928450",
+    "29932429",
+    "29957569",
+    "29966507",
+    "29968544",
+    "30035816",
+    "30069366",
+    "30069442",
+    "30069485",
+    "30069525",
+    "30082252",
+    "30101522",
+    "30114473",
+    "30153014",
+    "30233387",
+    "30233393",
+    "30233428",
+    "30233469",
+    "30244156",
+    "30269804",
+    "30269832",
+    "30269859",
+    "30269873",
+    "30282978",
+    "30310059",
+    "30392169",
+    "30409797",
+    "30430676",
+    "30431028",
+    "30453647",
+    "30467350",
+    "30472207",
+    "30489577",
+    "30489594",
+    "30512184",
+    "30524548",
+    "30540975",
+    "30552503",
+    "30552760",
+    "30552774",
+    "30558677",
+    "30562115",
+    "30562124",
+    "30627509",
+    "30664002",
+    "30708432",
+    "30712713",
+    "30748433",
+    "30777323",
+    "30930237",
+    "30930602",
+    "30931351",
+    "30951004",
+    "31071831",
+    "31117304",
+    "31168510",
+    "31207078",
+    "31247299",
+    "31253149",
+    "31340203",
+    "31343234",
+    "31343657",
+    "31394084",
+    "31420344",
+    "31420354",
+    "31456293",
+    "31465572",
+    "31469221",
+    "31469431",
+    "31476496",
+    "31518839",
+    "31518847",
+    "31565533",
+    "31649724",
+    "31671597",
+    "31678319",
+    "31685134",
+    "31685148",
+    "31687048",
+    "31693018",
+    "31700731",
+    "31701114",
+    "31769772",
+    "31772675",
+    "31773174",
+    "31787493",
+    "31797937",
+    "31805192",
+    "31811777",
+    "31848003",
+    "31848066",
+    "31869612",
+    "31876866",
+    "31903916",
+    "31944658",
+    "31945848",
+    "31945906",
+    "31962593",
+    "31987045",
+    "32054299",
+    "32064219",
+    "32121097",
+    "32129986",
+    "32165817",
+    "32229135",
+    "32381528",
+    "32381745",
+    "32403415",
+    "32438796",
+    "32508026",
+    "32512141",
+    "32539448",
+    "32583531",
+    "32616074",
+    "32629328",
+    "32674088",
+    "32738914",
+    "32755437",
+    "32879642",
+    "32896249",
+    "32908474",
+    "32915327",
+    "32926404",
+    "32934880",
+    "32967154",
+    "32967178",
+    "32992674",
+    "32992728",
+    "32992743",
+    "32992787",
+    "32992820",
+    "32992824",
+    "32992832",
+    "33010904",
+    "33010909",
+    "33010911",
+    "33071523",
+    "33089784",
+    "33089845",
+    "33103458",
+    "33175112",
+    "33218640",
+    "33226110",
+    "33232348",
+    "33232968",
+    "33247898",
+    "33348570",
+    "33387701",
+    "33446259",
+    "33451117",
+    "33460315",
+    "33460320",
+    "33550634",
+    "33573389",
+    "33658124",
+    "33677289",
+    "33782813",
+    "33789314",
+    "33877850",
+    "33885404",
+    "33927247",
+    "33930357",
+    "33930376",
+    "33930385",
+    "33930398",
+    "33978370",
+    "34026574",
+    "34026588",
+    "34026602",
+    "34098722",
+    "34098822",
+    "34114379",
+    "34114392",
+    "34114422",
+    "34114708",
+    "34114844",
+    "34121574",
+    "34137481",
+    "34150558",
+    "34160239",
+    "34196667",
+    "34209495",
+    "34220400",
+    "34246549",
+    "34246560",
+    "34265475",
+    "34283009",
+    "34283728",
+    "34285789",
+    "34290914",
+    "34290960",
+    "34308982",
+    "34309839",
+    "34322986",
+    "34325909",
+    "34326951",
+    "34353178",
+    "34353202",
+    "34354191",
+    "34354238",
+    "34370436",
+    "34378468",
+    "34388339",
+    "34405239",
+    "34418831",
+    "34418841",
+    "34420899",
+    "34423656",
+    "34423739",
+    "34435434",
+    "34442719",
+    "34446318",
+    "34464535",
+    "34472819",
+    "34556477",
+    "34565134",
+    "34598344",
+    "34630942",
+    "34651495",
+    "34656606",
+    "34735144",
+    "34743051",
+    "34753759",
+    "34769814",
+    "34769818",
+    "34805973",
+    "34806005",
+    "34815581",
+    "34816206",
+    "34821318",
+    "34888720",
+    "34888825",
+    "34888829",
+    "34889638",
+    "34893489",
+    "34898233",
+    "34898788",
+    "34898816",
+    "34898904",
+    "34900356",
+    "34900382",
+    "34906125",
+    "34908862",
+    "34915801",
+    "34915912",
+    "34915969",
+    "34932968",
+    "34943000",
+    "34959553",
+    "34959933",
+    "34959957",
+    "34968913",
+    "34968975",
+    "34978735",
+    "34980991",
+    "34981018",
+    "34987118",
+    "35001498",
+    "35001553",
+    "35007642",
+    "35015420",
+    "35015762",
+    "35031086",
+    "35033474",
+    "35040418",
+    "35040737",
+    "35040841",
+    "35040921",
+    "35048238",
+    "35082968",
+    "35088231",
+    "35092001",
+    "35094282",
+    "35100065",
+    "35100894",
+    "35108456",
+    "35108474",
+    "35128415",
+    "35144264",
+    "35144309",
+    "35152224",
+    "35169970",
+    "35179480",
+    "35183445",
+    "35183466",
+    "35183786",
+    "35188341",
+    "35188396",
+    "35188420",
+    "35188446",
+    "35188496",
+    "35188546",
+    "35188567",
+    "35188737",
+    "35197362",
+    "35214686",
+    "35223250",
+    "35237203",
+    "35251692",
+    "35262974",
+    "35281100",
+    "35281113",
+    "35281866",
+    "35281870",
+    "35290519",
+    "35301443",
+    "35338329",
+    "35383324",
+    "35387115",
+    "35390079",
+    "35405179",
+    "35405184",
+    "35461432",
+    "35484379",
+    "35492466",
+    "35513016",
+    "35514791",
+    "35516033",
+    "35516056",
+    "35519913",
+    "35543880",
+    "35558647",
+    "35595485",
+    "35600774",
+    "35600786",
+    "35628469",
+    "35638742",
+    "35652158",
+    "35658247",
+    "35659377",
+    "35659387",
+    "35661789",
+    "35679780",
+    "35702144",
+    "35709051",
+    "35709059",
+    "35718703",
+    "35718763",
+    "35735121",
+    "35735223",
+    "35739046",
+    "35739807",
+    "35739852",
+    "35760519",
+    "35760548",
+    "35765181",
+    "35765466",
+    "35766888",
+    "35818634",
+    "35821801",
+    "35861065",
+    "35869815",
+    "35881367",
+    "35882008",
+    "35887953",
+    "35887964",
+    "35910337",
+    "35910344",
+    "35910394",
+    "35923379",
+    "35929752",
+    "35940188",
+    "36024331",
+    "36024337",
+    "36039191",
+    "36039192",
+    "36039197",
+    "36039230",
+    "36072528",
+    "36079191",
+    "36084499",
+    "36109082",
+    "36179785",
+    "36179793",
+    "36189459",
+    "36191059",
+    "36191066",
+    "36191103",
+    "36291672",
+    "36306770",
+    "36315872",
+    "36325375",
+    "36371822",
+    "36430810",
+    "36443461",
+    "36467449",
+    "36477431",
+    "36483985",
+    "36500751",
+    "36565481",
+    "36565490",
+    "36601508",
+    "36608095",
+    "36619990",
+    "36621600",
+    "36635079",
+    "36636535",
+    "36641796",
+    "36644267",
+    "36713273",
+    "36713299",
+    "36715105",
+    "36716970",
+    "36721858",
+    "36721866",
+    "36730959",
+    "36730977",
+    "36739655",
+    "36748968",
+    "36749203",
+    "36755845",
+    "36761697",
+    "36783584",
+    "36801654",
+    "36815273",
+    "36848061",
+    "36848115",
+    "36876423",
+    "36876424",
+    "36876435",
+    "36878217",
+    "36885074",
+    "36885591",
+    "36892860",
+    "36893191",
+    "36893333",
+    "36905809",
+    "36915012",
+    "36915220",
+    "36935519",
+    "36951532",
+    "36953299",
+    "36962914",
+    "36962927",
+    "36962953",
+    "36984383",
+    "36991664",
+    "36993012",
+    "36995124",
+    "37040166",
+    "37046416",
+    "37046497",
+    "37046503",
+    "37056382",
+    "37058661",
+    "37058997",
+    "37066411",
+    "37066477",
+    "37069280",
+    "37070944",
+    "37081711",
+    "37085494",
+    "37102656",
+    "37112041",
+    "37155405",
+    "37193147",
+    "37193201",
+    "37303503",
+    "37329649",
+    "37340342",
+    "37352620",
+    "37366487",
+    "37369766",
+    "37390377",
+    "37418821",
+    "37427295",
+    "37435035",
+    "37457266",
+    "37458416",
+    "37458531",
+    "37474805",
+    "37480695",
+    "37480887",
+    "37490446",
+    "37558834",
+    "37622628",
+    "37629463",
+    "37629477",
+    "37630071",
+    "37664992",
+    "37666357",
+    "37666415",
+    "37670346",
+    "37671030",
+    "37685314",
+    "37701991",
+    "37709826",
+    "37724619",
+    "37725083",
+    "37732634",
+    "37737257",
+    "37739588",
+    "37739807",
+    "37740411",
+    "37744552",
+    "37793115",
+    "37793846",
+    "37793885",
+    "37812716",
+    "37812743",
+    "37815780",
+    "37816599",
+    "37816616",
+    "37816629",
+    "37820375",
+    "37820554",
+    "37823402",
+    "37842632",
+    "37866453",
+    "37871947",
+    "37872735",
+    "37879823",
+    "37879862",
+    "37879900",
+    "37882545",
+    "37891065",
+    "37902111",
+    "37913128",
+    "37928531",
+    "37939359",
+    "37939376",
+    "37952374",
+    "37976344",
+    "37976458",
+    "37986873",
+    "37997559",
+    "38003858",
+    "38039984",
+    "38054829",
+    "38059447",
+    "38069157",
+    "38080033",
+    "38081297",
+    "38087267",
+    "38099343",
+    "38104268",
+    "38120274",
+    "38134247",
+    "38135807",
+    "38139634",
+    "38154136",
+    "38154145",
+    "38154153",
+    "38181194",
+    "38184946",
+    "38188833",
+    "38205139",
+    "38205680",
+    "38218583",
+    "38219352",
+    "38232151",
+    "38232361",
+    "38232886",
+    "38253196",
+    "38253405",
+    "38253426",
+    "38254810",
+    "38254820",
+    "38257178",
+    "38268288",
+    "38268849",
+    "38291997",
+    "38296572",
+    "38296579",
+    "38301465",
+    "38304943",
+    "38308981",
+    "38314359",
+    "38314368",
+    "38317336",
+    "38318285",
+    "38318291",
+    "38318409",
+    "38318421",
+    "38322267",
+    "38327815",
+    "38327835",
+    "38327848",
+    "38328801",
+    "38336419",
+    "38343038",
+    "38343053",
+    "38343074",
+    "38346842",
+    "38346858",
+    "38346862",
+    "38346867",
+    "38352524",
+    "38365183",
+    "38365434",
+    "38394639",
+    "38404888",
+    "38406871",
+    "38406892",
+    "38407076",
+    "38414296",
+    "38451302",
+    "38451386",
+    "38471438",
+    "38471480",
+    "38495500",
+    "38596183",
+    "38604179",
+    "38620563",
+    "38659832",
+    "38663927",
+    "38670435",
+    "38670467",
+    "38688199",
+    "38727490",
+    "38733881",
+    "38744877",
+    "38768875",
+    "38791591",
+    "38797344",
+    "38797516",
+    "38833634",
+    "38848121",
+    "38848404",
+    "38853249",
+    "38859718",
+    "38876677",
+    "38882239",
+    "38900222",
+    "38905719",
+    "38905729",
+    "38914315",
+    "38918490",
+    "38931970",
+    "38969415",
+    "38992227",
+    "39035180",
+    "39051044",
+    "39072645",
+    "39133971",
+    "39136173",
+    "39143382",
+    "39175122",
+    "39175164",
+    "39175179",
+    "39200124",
+    "39201936",
+    "39215580",
+    "39215617",
+    "39246418",
+    "39267059",
+    "39282236",
+    "39295171",
+    "39321468",
+    "39358914",
+    "39359655",
+    "39367340",
+    "39401428",
+    "39401947",
+    "39409670",
+    "39418547",
+    "39426594",
+    "39455182",
+    "39455200",
+    "39455205",
+    "39466718",
+    "39473534",
+    "39475825",
+    "39475863",
+    "39515564",
+    "39515593",
+    "39542121",
+    "39609610",
+    "39641832",
+    "39650871",
+    "39662251",
+    "39662276",
+    "39672018",
+    "39678619",
+    "39681608",
+    "39690226",
+    "39724343",
+    "39724348",
+    "39725166",
+    "39726615",
+    "39727989",
+    "39728848",
+    "39728894",
+    "39729096",
+    "39729151",
+    "39729195",
+    "39742885",
+    "39746367",
+    "39768927",
+    "39785731",
+    "40573107",
+    "40589782",
+    "40612969",
+    "40612978",
+    "40634080",
+    "40667894",
+    "40698324",
+    "40698635",
+    "40836413",
+    "40868736",
+    "40868742",
+    "40872653",
+    "40872676",
+    "40872698",
+    "40915309",
+    "40943747",
+    "40948191",
+    "41009971",
+    "41056458",
+    "41056470",
+    "41056525",
+    "41056544",
+    "41102878",
+    "41119671",
+    "41120361",
+    "41188607",
+    "41258372",
+    "41274512",
+    "41274562",
+    "41350432",
+    "41384320",
+    "41391448",
+    "41395257",
+    "41414916",
+    "41428511",
+    "41444050",
+    "41444995",
+    "41445031",
+    "41449623",
+    "41505383",
+    "41538132",
+    "41538171",
+    "41586094",
+    "41608909",
+    "41620766",
+    "41632898",
+    "41637490",
+    "41648247",
+    "41653938",
+    "41660385",
+    "41697659",
+    "41760711",
+    "41762834",
+    "41762843",
+    "41769841",
+    "41809799",
+    "41809845",
+    "41810302",
+    "41843438",
+    "41871768",
+    "41871795",
+    "41871813",
+    "41947714",
+    "42006367",
+    "42013462",
+    "42047598",
+    "42063605",
+    "42112457",
+    "42127630",
+    "42164660",
+    "42164673",
+    "42175096",
+    "42175106",
+    "42176252",
+    "42176256",
+    "42176261",
+    "42176300",
+    "42191694",
+    "42201135",
+    "42204960",
+    "42214128",
+    "42218688",
+    "42254314",
+    "42339346",
+    "42339405",
+    "42339968",
+    "42354985",
+    "42392218",
+    "42392222",
+    "42392226",
+    "42392237",
+    "42392252",
+    "42419465",
+    "42419481",
+    "42422509",
+    "42433218",
+    "42434700",
+    "42434710",
+    "42459700"
+  ],
   "stopped": false,
-  "quotaWaits": 3,
-  "nextRequestAt": "2026-11-08T23:45:03.000Z"
+  "quotaWaits": 14,
+  "nextRequestAt": null
 }

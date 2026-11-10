@@ -1,0 +1,20 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T19:56:57.215Z",
+  "tile": {
+    "z": 13,
+    "x": 6735,
+    "y": 3081
+  },
+  "segments": [
+    {
+      "id": "39877569",
+      "tileScore": 9,
+      "name": "保皇寺 → 上莊子",
+      "distanceM": 10298,
+      "avgGrade": -3.943484306335449,
+      "startLat": 40.60862731933594,
+      "startLng": 115.99586486816406
+    }
+  ]
+}

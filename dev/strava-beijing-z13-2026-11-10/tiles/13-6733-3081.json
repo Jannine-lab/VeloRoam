@@ -1,0 +1,20 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T19:56:59.702Z",
+  "tile": {
+    "z": 13,
+    "x": 6733,
+    "y": 3081
+  },
+  "segments": [
+    {
+      "id": "39901251",
+      "tileScore": 3,
+      "name": "the famous 孫莊村 climb",
+      "distanceM": 5458.5,
+      "avgGrade": 5.770816326141357,
+      "startLat": 40.698204040527344,
+      "startLng": 115.92495727539062
+    }
+  ]
+}

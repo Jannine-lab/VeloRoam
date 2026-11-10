@@ -1,0 +1,47 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T20:28:35.783Z",
+  "tile": {
+    "z": 13,
+    "x": 6809,
+    "y": 3383
+  },
+  "segments": [
+    {
+      "id": "35658976",
+      "tileScore": 12,
+      "name": "杭州市to千岛湖镇",
+      "distanceM": 145213,
+      "avgGrade": 0.0798826590180397,
+      "startLat": 30.197845458984375,
+      "startLng": 120.12736511230469
+    },
+    {
+      "id": "33356355",
+      "tileScore": 6,
+      "name": "kengheng line descend",
+      "distanceM": 5218.89990234375,
+      "avgGrade": -4.100481033325195,
+      "startLat": 29.872207641601562,
+      "startLng": 119.20755767822266
+    },
+    {
+      "id": "5344379",
+      "tileScore": 5,
+      "name": "千岛湖大桥到百江镇",
+      "distanceM": 42419.3984375,
+      "avgGrade": -0.06294289976358414,
+      "startLat": 29.637163162231445,
+      "startLng": 119.04692077636719
+    },
+    {
+      "id": "37263546",
+      "tileScore": 2,
+      "name": "阿磊转角农户家吃饭了",
+      "distanceM": 2671.199951171875,
+      "avgGrade": 0.9022162556648254,
+      "startLat": 29.843645095825195,
+      "startLng": 119.2563705444336
+    }
+  ]
+}

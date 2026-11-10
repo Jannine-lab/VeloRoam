@@ -1,0 +1,20 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T20:26:41.222Z",
+  "tile": {
+    "z": 13,
+    "x": 6808,
+    "y": 3369
+  },
+  "segments": [
+    {
+      "id": "32117477",
+      "tileScore": 1,
+      "name": "cd-唐古拉漂流至万家乡",
+      "distanceM": 6484,
+      "avgGrade": -0.5397902131080627,
+      "startLat": 30.372268676757812,
+      "startLng": 119.18247985839844
+    }
+  ]
+}

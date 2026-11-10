@@ -1,0 +1,65 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T20:21:53.675Z",
+  "tile": {
+    "z": 13,
+    "x": 6819,
+    "y": 3363
+  },
+  "segments": [
+    {
+      "id": "35451772",
+      "tileScore": 24,
+      "name": "环莫干山",
+      "distanceM": 94126.8984375,
+      "avgGrade": 0.003612144850194454,
+      "startLat": 30.55729866027832,
+      "startLng": 119.84944915771484
+    },
+    {
+      "id": "37684590",
+      "tileScore": 22,
+      "name": "龙山公馆→余村235国道段",
+      "distanceM": 4689,
+      "avgGrade": 0.32416293025016785,
+      "startLat": 30.60709571838379,
+      "startLng": 119.67037963867188
+    },
+    {
+      "id": "17640763",
+      "tileScore": 16,
+      "name": "Huancheng NE",
+      "distanceM": 4869.60009765625,
+      "avgGrade": -0.22999835014343262,
+      "startLat": 30.60460662841797,
+      "startLng": 119.6800537109375
+    },
+    {
+      "id": "20607316",
+      "tileScore": 17,
+      "name": "凤凰山",
+      "distanceM": 424.1000061035156,
+      "avgGrade": 10.37491226196289,
+      "startLat": 30.62211799621582,
+      "startLng": 119.7059555053711
+    },
+    {
+      "id": "9368515",
+      "tileScore": 27,
+      "name": "HuangShuang Climb",
+      "distanceM": 2005.0999755859375,
+      "avgGrade": 2.5534887313842773,
+      "startLat": 30.604137420654297,
+      "startLng": 119.67989349365234
+    },
+    {
+      "id": "35034385",
+      "tileScore": 19,
+      "name": "大盘小飞飞飞飞",
+      "distanceM": 973.5999755859375,
+      "avgGrade": 2.115858793258667,
+      "startLat": 30.60222816467285,
+      "startLng": 119.6938705444336
+    }
+  ]
+}

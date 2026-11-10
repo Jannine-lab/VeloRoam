@@ -1,0 +1,20 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T20:37:52.086Z",
+  "tile": {
+    "z": 13,
+    "x": 6795,
+    "y": 3381
+  },
+  "segments": [
+    {
+      "id": "20450070",
+      "tileScore": 2,
+      "name": "Flagstone path",
+      "distanceM": 5965.2001953125,
+      "avgGrade": 0.1341111660003662,
+      "startLat": 29.886960983276367,
+      "startLng": 118.62879943847656
+    }
+  ]
+}

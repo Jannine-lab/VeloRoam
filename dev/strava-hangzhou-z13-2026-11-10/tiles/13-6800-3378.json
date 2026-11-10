@@ -1,0 +1,47 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T20:33:01.316Z",
+  "tile": {
+    "z": 13,
+    "x": 6800,
+    "y": 3378
+  },
+  "segments": [
+    {
+      "id": "12404076",
+      "tileScore": 32,
+      "name": "Highway Climb",
+      "distanceM": 8522,
+      "avgGrade": 2.47477126121521,
+      "startLat": 30.047250747680664,
+      "startLng": 118.82368469238281
+    },
+    {
+      "id": "12587247",
+      "tileScore": 9,
+      "name": "Half on, Half Off",
+      "distanceM": 6091.39990234375,
+      "avgGrade": 4.570377826690674,
+      "startLat": 30.04128074645996,
+      "startLng": 118.84868621826172
+    },
+    {
+      "id": "32246521",
+      "tileScore": 39,
+      "name": "Push to the border",
+      "distanceM": 2332.300048828125,
+      "avgGrade": 5.085109233856201,
+      "startLat": 30.042964935302734,
+      "startLng": 118.86685943603516
+    },
+    {
+      "id": "40274139",
+      "tileScore": 7,
+      "name": "Up to Meijiawu",
+      "distanceM": 502.70001220703125,
+      "avgGrade": 7.638751029968262,
+      "startLat": 30.060321807861328,
+      "startLng": 118.8559799194336
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T19:59:01.824Z",
+  "tile": {
+    "z": 13,
+    "x": 6760,
+    "y": 3083
+  },
+  "segments": [
+    {
+      "id": "38898133",
+      "tileScore": 44,
+      "name": "哥慢点😭给海培脑子都整缺氧了",
+      "distanceM": 8366,
+      "avgGrade": 0.16017213463783264,
+      "startLat": 40.56318283081055,
+      "startLng": 117.0147476196289
+    },
+    {
+      "id": "17444363",
+      "tileScore": 52,
+      "name": "环密云水库",
+      "distanceM": 99223.3984375,
+      "avgGrade": 0.017334621399641037,
+      "startLat": 40.473995208740234,
+      "startLng": 116.87325286865234
+    },
+    {
+      "id": "11600387",
+      "tileScore": 2,
+      "name": "Rolling Hills north of Miyun Reservoir",
+      "distanceM": 11550.400390625,
+      "avgGrade": 1.1358914375305176,
+      "startLat": 40.5987548828125,
+      "startLng": 117.09622955322266
+    }
+  ]
+}

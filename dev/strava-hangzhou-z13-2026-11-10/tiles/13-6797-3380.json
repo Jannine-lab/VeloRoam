@@ -1,0 +1,65 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T20:36:17.120Z",
+  "tile": {
+    "z": 13,
+    "x": 6797,
+    "y": 3380
+  },
+  "segments": [
+    {
+      "id": "36692811",
+      "tileScore": 2,
+      "name": "Sharp Mulberry",
+      "distanceM": 2409.89990234375,
+      "avgGrade": 7.353001594543457,
+      "startLat": 29.951963424682617,
+      "startLng": 118.7159423828125
+    },
+    {
+      "id": "17534111",
+      "tileScore": 24,
+      "name": "Poshan Direct",
+      "distanceM": 2697.199951171875,
+      "avgGrade": 6.72549295425415,
+      "startLat": 29.977523803710938,
+      "startLng": 118.71820831298828
+    },
+    {
+      "id": "20450259",
+      "tileScore": 5,
+      "name": "Red rocks",
+      "distanceM": 1614.699951171875,
+      "avgGrade": 9.698395729064941,
+      "startLat": 29.963340759277344,
+      "startLng": 118.73884582519531
+    },
+    {
+      "id": "19747286",
+      "tileScore": 21,
+      "name": "Little South",
+      "distanceM": 9949.5,
+      "avgGrade": 7.059650897979736,
+      "startLat": 29.996849060058594,
+      "startLng": 118.74286651611328
+    },
+    {
+      "id": "25623121",
+      "tileScore": 13,
+      "name": "Village Sprints",
+      "distanceM": 2754.89990234375,
+      "avgGrade": 2.471959114074707,
+      "startLat": 29.99220085144043,
+      "startLng": 118.7264404296875
+    },
+    {
+      "id": "30010643",
+      "tileScore": 5,
+      "name": "湖墩寨小坡",
+      "distanceM": 892.7000122070312,
+      "avgGrade": 2.330009937286377,
+      "startLat": 29.990962982177734,
+      "startLng": 118.72528076171875
+    }
+  ]
+}

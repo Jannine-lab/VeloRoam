@@ -1,0 +1,20 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T20:34:10.012Z",
+  "tile": {
+    "z": 13,
+    "x": 6812,
+    "y": 3398
+  },
+  "segments": [
+    {
+      "id": "39937642",
+      "tileScore": 1,
+      "name": "黄店-童店起伏路",
+      "distanceM": 5406.7998046875,
+      "avgGrade": 0.4808759391307831,
+      "startLat": 29.313430786132812,
+      "startLng": 119.3984375
+    }
+  ]
+}

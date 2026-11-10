@@ -1,0 +1,218 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T19:33:53.217Z",
+  "tile": {
+    "z": 13,
+    "x": 6740,
+    "y": 3105
+  },
+  "segments": [
+    {
+      "id": "17247046",
+      "tileScore": 3,
+      "name": "园博桥",
+      "distanceM": 403.8999938964844,
+      "avgGrade": 1.386481761932373,
+      "startLat": 39.86787414550781,
+      "startLng": 116.21778869628906
+    },
+    {
+      "id": "18095030",
+      "tileScore": 3,
+      "name": "大瓦窑-水魔方",
+      "distanceM": 3328.199951171875,
+      "avgGrade": -0.18929150700569153,
+      "startLat": 39.856441497802734,
+      "startLng": 116.23275756835938
+    },
+    {
+      "id": "39329024",
+      "tileScore": 16,
+      "name": "石门营-京良路快线",
+      "distanceM": 25699.099609375,
+      "avgGrade": -0.18988992273807526,
+      "startLat": 39.89262771606445,
+      "startLng": 116.10195922851562
+    },
+    {
+      "id": "13168992",
+      "tileScore": 6,
+      "name": "CN Beijing Tri Yuanboyuan S Rd from Yuanbo Ave to Yuanbo West 1st Rd ",
+      "distanceM": 519,
+      "avgGrade": 0.5780346393585205,
+      "startLat": 39.86021423339844,
+      "startLng": 116.19580078125
+    },
+    {
+      "id": "31844821",
+      "tileScore": 3,
+      "name": "让我看看是谁在违法的边缘疯狂试探",
+      "distanceM": 613.0999755859375,
+      "avgGrade": 0.35883215069770813,
+      "startLat": 39.84503173828125,
+      "startLng": 116.20245361328125
+    },
+    {
+      "id": "39728951",
+      "tileScore": 25,
+      "name": "过园博地铁站开始拉扯",
+      "distanceM": 508.79998779296875,
+      "avgGrade": 0.7075471878051758,
+      "startLat": 39.85911560058594,
+      "startLng": 116.19686126708984
+    },
+    {
+      "id": "33044144",
+      "tileScore": 2,
+      "name": "高老湿到北理工上班路线",
+      "distanceM": 59155.6015625,
+      "avgGrade": 0.03042822703719139,
+      "startLat": 39.66828155517578,
+      "startLng": 116.05886840820312
+    },
+    {
+      "id": "39633172",
+      "tileScore": 3,
+      "name": "永定绿道南向北",
+      "distanceM": 7060.7001953125,
+      "avgGrade": -0.048153866082429886,
+      "startLat": 39.79904556274414,
+      "startLng": 116.25653076171875
+    },
+    {
+      "id": "10359248",
+      "tileScore": 1,
+      "name": "False Climb Beijing Tri",
+      "distanceM": 3442.39990234375,
+      "avgGrade": -0.06971880048513412,
+      "startLat": 39.846832275390625,
+      "startLng": 116.16749572753906
+    },
+    {
+      "id": "39479290",
+      "tileScore": 3,
+      "name": "长阳至正阳大街",
+      "distanceM": 21365.400390625,
+      "avgGrade": 0.014977487735450268,
+      "startLat": 39.74923324584961,
+      "startLng": 116.17430114746094
+    },
+    {
+      "id": "35428737",
+      "tileScore": 6,
+      "name": "卢沟桥路",
+      "distanceM": 3603.300048828125,
+      "avgGrade": -0.13876168429851532,
+      "startLat": 39.848121643066406,
+      "startLng": 116.22650146484375
+    },
+    {
+      "id": "39542767",
+      "tileScore": 27,
+      "name": "我就通个勤怎么上五十了",
+      "distanceM": 513.4000244140625,
+      "avgGrade": -0.779119610786438,
+      "startLat": 39.848663330078125,
+      "startLng": 116.22747802734375
+    },
+    {
+      "id": "35800338",
+      "tileScore": 2,
+      "name": "xr上班要迟到啦",
+      "distanceM": 1647.5,
+      "avgGrade": -0.2549317181110382,
+      "startLat": 39.85223388671875,
+      "startLng": 116.18809509277344
+    },
+    {
+      "id": "17492329",
+      "tileScore": 52,
+      "name": "假园博园",
+      "distanceM": 6087.7001953125,
+      "avgGrade": -0.026282504200935364,
+      "startLat": 39.86024856567383,
+      "startLng": 116.19591522216797
+    },
+    {
+      "id": "13633044",
+      "tileScore": 8,
+      "name": "Yongding Bridge Sprint",
+      "distanceM": 1015.9000244140625,
+      "avgGrade": 2.4214980602264404,
+      "startLat": 39.86789321899414,
+      "startLng": 116.21732330322266
+    },
+    {
+      "id": "13168971",
+      "tileScore": 34,
+      "name": "CN Beijing Tri Sprint Yuanbo Ave S-N",
+      "distanceM": 2247.300048828125,
+      "avgGrade": 0.33818361163139343,
+      "startLat": 39.86070251464844,
+      "startLng": 116.1964111328125
+    },
+    {
+      "id": "31139814",
+      "tileScore": 13,
+      "name": "张仪村-埃剃剃（南段）NS",
+      "distanceM": 1645.9000244140625,
+      "avgGrade": -0.09113554656505585,
+      "startLat": 39.87076950073242,
+      "startLng": 116.2248764038086
+    },
+    {
+      "id": "13160986",
+      "tileScore": 38,
+      "name": "永定河左堤路-卢沟桥至京良路",
+      "distanceM": 10162.7001953125,
+      "avgGrade": -0.08659116178750992,
+      "startLat": 39.84562683105469,
+      "startLng": 116.21726989746094
+    },
+    {
+      "id": "11745002",
+      "tileScore": 7,
+      "name": "杜家坎-雕塑园",
+      "distanceM": 2176.699951171875,
+      "avgGrade": -0.18835853040218353,
+      "startLat": 39.84271240234375,
+      "startLng": 116.20378875732422
+    },
+    {
+      "id": "18359097",
+      "tileScore": 5,
+      "name": "园博园内tt",
+      "distanceM": 6035.5,
+      "avgGrade": 0.05301963537931442,
+      "startLat": 39.86198425292969,
+      "startLng": 116.203857421875
+    },
+    {
+      "id": "18942922",
+      "tileScore": 1,
+      "name": "5th Ring Rd（石丰桥-孙庄子）",
+      "distanceM": 4958.7001953125,
+      "avgGrade": -0.20973239839076996,
+      "startLat": 39.873538970947266,
+      "startLng": 116.20216369628906
+    },
+    {
+      "id": "21440650",
+      "tileScore": 5,
+      "name": "猴哥猴哥你又刷园博",
+      "distanceM": 2635.300048828125,
+      "avgGrade": 0.08348195999860764,
+      "startLat": 39.871524810791016,
+      "startLng": 116.22488403320312
+    },
+    {
+      "id": "15978061",
+      "tileScore": 5,
+      "name": "Full Beijing International Tri Loop",
+      "distanceM": 38777.6015625,
+      "avgGrade": -0.016504373401403427,
+      "startLat": 39.861778259277344,
+      "startLng": 116.2039566040039
+    }
+  ]
+}

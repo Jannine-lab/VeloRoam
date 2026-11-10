@@ -1,0 +1,20 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T20:35:46.784Z",
+  "tile": {
+    "z": 13,
+    "x": 6797,
+    "y": 3370
+  },
+  "segments": [
+    {
+      "id": "39919941",
+      "tileScore": 17,
+      "name": "驾校到滑度",
+      "distanceM": 13684.099609375,
+      "avgGrade": -0.09500077366828918,
+      "startLat": 30.325172424316406,
+      "startLng": 118.56751251220703
+    }
+  ]
+}

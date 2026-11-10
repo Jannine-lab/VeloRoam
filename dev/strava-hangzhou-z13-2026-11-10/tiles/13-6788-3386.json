@@ -1,0 +1,20 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T20:41:33.186Z",
+  "tile": {
+    "z": 13,
+    "x": 6788,
+    "y": 3386
+  },
+  "segments": [
+    {
+      "id": "35783357",
+      "tileScore": 16,
+      "name": "白际狮石环线",
+      "distanceM": 123199,
+      "avgGrade": 0.015584542416036129,
+      "startLat": 29.718013763427734,
+      "startLng": 118.32083129882812
+    }
+  ]
+}

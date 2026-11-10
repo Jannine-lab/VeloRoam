@@ -1,0 +1,29 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T20:26:25.219Z",
+  "tile": {
+    "z": 13,
+    "x": 6808,
+    "y": 3371
+  },
+  "segments": [
+    {
+      "id": "32117445",
+      "tileScore": 1,
+      "name": "cd-大佛地爬坡东往西",
+      "distanceM": 677.2999877929688,
+      "avgGrade": 8.209065437316895,
+      "startLat": 30.333131790161133,
+      "startLng": 119.21461486816406
+    },
+    {
+      "id": "39201425",
+      "tileScore": 1,
+      "name": "筲箕湾climb",
+      "distanceM": 1616.699951171875,
+      "avgGrade": 8.276118278503418,
+      "startLat": 30.329753875732422,
+      "startLng": 119.21640014648438
+    }
+  ]
+}

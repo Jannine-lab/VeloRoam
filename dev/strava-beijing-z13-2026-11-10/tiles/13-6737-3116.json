@@ -1,0 +1,29 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T19:43:47.326Z",
+  "tile": {
+    "z": 13,
+    "x": 6737,
+    "y": 3116
+  },
+  "segments": [
+    {
+      "id": "39035918",
+      "tileScore": 3,
+      "name": "京深路-肖官营",
+      "distanceM": 40175.80078125,
+      "avgGrade": -0.023894980549812317,
+      "startLat": 39.66836929321289,
+      "startLng": 116.1402587890625
+    },
+    {
+      "id": "34538586",
+      "tileScore": 7,
+      "name": "廊涿 ITT 计时赛段",
+      "distanceM": 8808.2001953125,
+      "avgGrade": 0.01589428074657917,
+      "startLat": 39.463260650634766,
+      "startLng": 116.19967651367188
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "mode": "apply",
+  "source": "/Users/jannine/Desktop/VeloRoam/dev/strava-hangzhou-z13-2026-11-10/candidates.json",
+  "startedAt": "2026-11-09T20:44:04.250Z",
+  "finishedAt": "2026-11-09T20:44:18.752Z",
+  "sourceIds": 4672,
+  "existing": 38,
+  "alreadyScored": 30,
+  "eligible": 8,
+  "updated": 8,
+  "verified": 8,
+  "updatedIds": [
+    "26663575",
+    "33740239",
+    "35222483",
+    "35237336",
+    "36988380",
+    "37108709",
+    "37385332",
+    "39841919"
+  ]
+}

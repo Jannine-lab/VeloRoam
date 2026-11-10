@@ -1,0 +1,20 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T20:23:50.918Z",
+  "tile": {
+    "z": 13,
+    "x": 6814,
+    "y": 3380
+  },
+  "segments": [
+    {
+      "id": "38760561",
+      "tileScore": 2,
+      "name": "我去前面探探路climb",
+      "distanceM": 1838.300048828125,
+      "avgGrade": 6.070826053619385,
+      "startLat": 29.980085372924805,
+      "startLng": 119.44253540039062
+    }
+  ]
+}

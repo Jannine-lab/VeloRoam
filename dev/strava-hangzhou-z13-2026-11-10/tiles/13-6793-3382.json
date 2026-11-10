@@ -1,0 +1,20 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T20:38:51.309Z",
+  "tile": {
+    "z": 13,
+    "x": 6793,
+    "y": 3382
+  },
+  "segments": [
+    {
+      "id": "41564153",
+      "tileScore": 40,
+      "name": "北岸瞻淇",
+      "distanceM": 6366.2998046875,
+      "avgGrade": -0.32672038674354553,
+      "startLat": 29.90455436706543,
+      "startLng": 118.56449890136719
+    }
+  ]
+}

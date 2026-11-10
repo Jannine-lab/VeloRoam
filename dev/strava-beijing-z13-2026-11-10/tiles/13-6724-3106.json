@@ -1,0 +1,20 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T19:49:30.953Z",
+  "tile": {
+    "z": 13,
+    "x": 6724,
+    "y": 3106
+  },
+  "segments": [
+    {
+      "id": "32755597",
+      "tileScore": 35,
+      "name": "张公路爬坡全程",
+      "distanceM": 4880.2998046875,
+      "avgGrade": 6.97498083114624,
+      "startLat": 39.84840393066406,
+      "startLng": 115.55023956298828
+    }
+  ]
+}

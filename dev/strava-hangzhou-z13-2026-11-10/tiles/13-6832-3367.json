@@ -1,0 +1,20 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T20:16:31.637Z",
+  "tile": {
+    "z": 13,
+    "x": 6832,
+    "y": 3367
+  },
+  "segments": [
+    {
+      "id": "38179925",
+      "tileScore": 3,
+      "name": "临杭公路S→N",
+      "distanceM": 1112.4000244140625,
+      "avgGrade": -0.07191658020019531,
+      "startLat": 30.464191436767578,
+      "startLng": 120.27177429199219
+    }
+  ]
+}

@@ -1,0 +1,92 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T20:12:08.346Z",
+  "tile": {
+    "z": 13,
+    "x": 6719,
+    "y": 3071
+  },
+  "segments": [
+    {
+      "id": "35569061",
+      "tileScore": 4,
+      "name": "爬个翠云山排酸",
+      "distanceM": 2453.699951171875,
+      "avgGrade": 2.168154239654541,
+      "startLat": 40.98317337036133,
+      "startLng": 115.2890853881836
+    },
+    {
+      "id": "41720176",
+      "tileScore": 15,
+      "name": "University Worlds Crit Lap",
+      "distanceM": 2756.800048828125,
+      "avgGrade": -0.07254788279533386,
+      "startLat": 40.973262786865234,
+      "startLng": 115.28548431396484
+    },
+    {
+      "id": "35337598",
+      "tileScore": 10,
+      "name": "崇礼高铁前缓坡",
+      "distanceM": 2528,
+      "avgGrade": 2.492088556289673,
+      "startLat": 40.992164611816406,
+      "startLng": 115.28800201416016
+    },
+    {
+      "id": "24918923",
+      "tileScore": 15,
+      "name": "\"Surprise - Surprise - Surprise.....\" SERK-Chongli-KOM (Including off-road section to the top)",
+      "distanceM": 13636.099609375,
+      "avgGrade": 5.419437885284424,
+      "startLat": 40.994483947753906,
+      "startLng": 115.29354095458984
+    },
+    {
+      "id": "39792196",
+      "tileScore": 21,
+      "name": "暴力突围爽一下！",
+      "distanceM": 1432,
+      "avgGrade": 0.6145251393318176,
+      "startLat": 40.980506896972656,
+      "startLng": 115.29290008544922
+    },
+    {
+      "id": "34734736",
+      "tileScore": 7,
+      "name": "虔诚等冰哥速速摇上来救援！",
+      "distanceM": 1324.699951171875,
+      "avgGrade": 3.2007246017456055,
+      "startLat": 41.00445556640625,
+      "startLng": 115.31172180175781
+    },
+    {
+      "id": "34734696",
+      "tileScore": 22,
+      "name": "崇礼站到长城岭高原训练基地",
+      "distanceM": 14549.400390625,
+      "avgGrade": 2.699767589569092,
+      "startLat": 41.004329681396484,
+      "startLng": 115.31106567382812
+    },
+    {
+      "id": "25799405",
+      "tileScore": 9,
+      "name": "骑士之巅 stage 2 草原天路",
+      "distanceM": 88261,
+      "avgGrade": 0.09811808168888092,
+      "startLat": 40.977210998535156,
+      "startLng": 115.28495788574219
+    },
+    {
+      "id": "35568915",
+      "tileScore": 22,
+      "name": "崇礼桦皮岭绝佳风景up",
+      "distanceM": 36694.8984375,
+      "avgGrade": 1.613848328590393,
+      "startLat": 40.982913970947266,
+      "startLng": 115.2889175415039
+    }
+  ]
+}

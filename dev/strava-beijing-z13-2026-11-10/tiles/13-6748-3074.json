@@ -1,0 +1,20 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T20:03:00.744Z",
+  "tile": {
+    "z": 13,
+    "x": 6748,
+    "y": 3074
+  },
+  "segments": [
+    {
+      "id": "32112495",
+      "tileScore": 23,
+      "name": "庄喇路缓下",
+      "distanceM": 7310.89990234375,
+      "avgGrade": -2.5359394550323486,
+      "startLat": 40.88937759399414,
+      "startLng": 116.52964782714844
+    }
+  ]
+}

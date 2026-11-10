@@ -1,0 +1,20 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T20:34:20.145Z",
+  "tile": {
+    "z": 13,
+    "x": 6802,
+    "y": 3387
+  },
+  "segments": [
+    {
+      "id": "25679773",
+      "tileScore": 1,
+      "name": "山百线 山后-百照",
+      "distanceM": 9367,
+      "avgGrade": 4.338635444641113,
+      "startLat": 29.668092727661133,
+      "startLng": 118.93558502197266
+    }
+  ]
+}

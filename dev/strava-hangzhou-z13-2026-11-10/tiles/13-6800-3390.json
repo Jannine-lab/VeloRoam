@@ -1,0 +1,29 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T20:36:27.044Z",
+  "tile": {
+    "z": 13,
+    "x": 6800,
+    "y": 3390
+  },
+  "segments": [
+    {
+      "id": "28512672",
+      "tileScore": 7,
+      "name": "墈上村",
+      "distanceM": 3321.199951171875,
+      "avgGrade": 6.341081619262695,
+      "startLat": 29.573713302612305,
+      "startLng": 118.86294555664062
+    },
+    {
+      "id": "38834319",
+      "tileScore": 74,
+      "name": "最后6.7",
+      "distanceM": 6729,
+      "avgGrade": 0.00891662947833538,
+      "startLat": 29.583879470825195,
+      "startLng": 118.89347076416016
+    }
+  ]
+}

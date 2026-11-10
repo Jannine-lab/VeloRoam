@@ -1,0 +1,20 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T19:40:02.900Z",
+  "tile": {
+    "z": 13,
+    "x": 6756,
+    "y": 3103
+  },
+  "segments": [
+    {
+      "id": "38193184",
+      "tileScore": 1,
+      "name": "福喜路南向北",
+      "distanceM": 5705.7998046875,
+      "avgGrade": 0.04907286912202835,
+      "startLat": 39.88597106933594,
+      "startLng": 116.90928649902344
+    }
+  ]
+}

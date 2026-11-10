@@ -1,0 +1,38 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T20:38:58.721Z",
+  "tile": {
+    "z": 13,
+    "x": 6792,
+    "y": 3384
+  },
+  "segments": [
+    {
+      "id": "33934322",
+      "tileScore": 11,
+      "name": "an area of scenic beauty",
+      "distanceM": 23392.80078125,
+      "avgGrade": -0.03419855609536171,
+      "startLat": 29.852100372314453,
+      "startLng": 118.49465942382812
+    },
+    {
+      "id": "39866883",
+      "tileScore": 12,
+      "name": " 薇格格不算太野的坡3号",
+      "distanceM": 2213.60009765625,
+      "avgGrade": 4.8608598709106445,
+      "startLat": 29.846155166625977,
+      "startLng": 118.49785614013672
+    },
+    {
+      "id": "40850556",
+      "tileScore": 3,
+      "name": "瀹潭村爬坡",
+      "distanceM": 987.5999755859375,
+      "avgGrade": 6.034832000732422,
+      "startLat": 29.838102340698242,
+      "startLng": 118.51480865478516
+    }
+  ]
+}

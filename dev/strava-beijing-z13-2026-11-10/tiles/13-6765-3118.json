@@ -1,0 +1,29 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T19:56:28.592Z",
+  "tile": {
+    "z": 13,
+    "x": 6765,
+    "y": 3118
+  },
+  "segments": [
+    {
+      "id": "33013477",
+      "tileScore": 3,
+      "name": "BTAC LongfengRiver-DaHuangPu",
+      "distanceM": 16353.7998046875,
+      "avgGrade": -0.059924907982349396,
+      "startLat": 39.28273010253906,
+      "startLng": 117.37332153320312
+    },
+    {
+      "id": "15908417",
+      "tileScore": 1,
+      "name": "龍鳳河(x605-s307)",
+      "distanceM": 2751.5,
+      "avgGrade": 0.04361257702112198,
+      "startLat": 39.40298843383789,
+      "startLng": 117.29044342041016
+    }
+  ]
+}

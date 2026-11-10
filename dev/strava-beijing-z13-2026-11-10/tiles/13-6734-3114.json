@@ -1,0 +1,20 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T19:43:17.829Z",
+  "tile": {
+    "z": 13,
+    "x": 6734,
+    "y": 3114
+  },
+  "segments": [
+    {
+      "id": "27193591",
+      "tileScore": 21,
+      "name": "北京房山到保定 107大平路",
+      "distanceM": 109245.203125,
+      "avgGrade": -0.026911936700344086,
+      "startLat": 39.71782684326172,
+      "startLng": 116.12931060791016
+    }
+  ]
+}

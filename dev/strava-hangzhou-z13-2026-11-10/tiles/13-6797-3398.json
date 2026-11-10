@@ -1,0 +1,29 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T20:40:52.502Z",
+  "tile": {
+    "z": 13,
+    "x": 6797,
+    "y": 3398
+  },
+  "segments": [
+    {
+      "id": "38301964",
+      "tileScore": 5,
+      "name": "冲衍（演）昌水库",
+      "distanceM": 671,
+      "avgGrade": 5.871833324432373,
+      "startLat": 29.287092208862305,
+      "startLng": 118.72417449951172
+    },
+    {
+      "id": "28357629",
+      "tileScore": 23,
+      "name": "雷公岭到枫树岭",
+      "distanceM": 20761,
+      "avgGrade": -1.3303791284561157,
+      "startLat": 29.192279815673828,
+      "startLng": 118.6906509399414
+    }
+  ]
+}

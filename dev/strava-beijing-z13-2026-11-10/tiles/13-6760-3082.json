@@ -1,0 +1,29 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T19:59:01.824Z",
+  "tile": {
+    "z": 13,
+    "x": 6760,
+    "y": 3082
+  },
+  "segments": [
+    {
+      "id": "35232473",
+      "tileScore": 5,
+      "name": "2023 BRM300 CP4",
+      "distanceM": 50172.69921875,
+      "avgGrade": -0.2495381087064743,
+      "startLat": 40.381126403808594,
+      "startLng": 117.14585876464844
+    },
+    {
+      "id": "11600387",
+      "tileScore": 2,
+      "name": "Rolling Hills north of Miyun Reservoir",
+      "distanceM": 11550.400390625,
+      "avgGrade": 1.1358914375305176,
+      "startLat": 40.5987548828125,
+      "startLng": 117.09622955322266
+    }
+  ]
+}

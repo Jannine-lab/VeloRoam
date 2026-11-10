@@ -1,0 +1,20 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T19:45:06.475Z",
+  "tile": {
+    "z": 13,
+    "x": 6739,
+    "y": 3118
+  },
+  "segments": [
+    {
+      "id": "39997252",
+      "tileScore": 3,
+      "name": "韵pro的“秘密小道”",
+      "distanceM": 5654.89990234375,
+      "avgGrade": 0.021220535039901733,
+      "startLat": 39.40584945678711,
+      "startLng": 116.18891906738281
+    }
+  ]
+}

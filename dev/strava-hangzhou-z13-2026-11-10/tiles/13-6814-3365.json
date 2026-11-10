@@ -1,0 +1,20 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T20:23:35.750Z",
+  "tile": {
+    "z": 13,
+    "x": 6814,
+    "y": 3365
+  },
+  "segments": [
+    {
+      "id": "35627128",
+      "tileScore": 11,
+      "name": "老石坎水库小坡 GO！",
+      "distanceM": 538.2000122070312,
+      "avgGrade": 4.440728187561035,
+      "startLat": 30.541542053222656,
+      "startLng": 119.47968292236328
+    }
+  ]
+}

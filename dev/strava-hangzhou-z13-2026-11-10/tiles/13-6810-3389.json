@@ -1,0 +1,20 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T20:29:54.195Z",
+  "tile": {
+    "z": 13,
+    "x": 6810,
+    "y": 3389
+  },
+  "segments": [
+    {
+      "id": "24541465",
+      "tileScore": 2,
+      "name": "山岭尖",
+      "distanceM": 8342.2998046875,
+      "avgGrade": 5.128082275390625,
+      "startLat": 29.58704376220703,
+      "startLng": 119.27615356445312
+    }
+  ]
+}

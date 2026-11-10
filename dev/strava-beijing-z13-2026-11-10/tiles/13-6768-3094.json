@@ -1,0 +1,47 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T19:57:12.086Z",
+  "tile": {
+    "z": 13,
+    "x": 6768,
+    "y": 3094
+  },
+  "segments": [
+    {
+      "id": "22140974",
+      "tileScore": 4,
+      "name": "京津冀比赛(起点-隧道入口)",
+      "distanceM": 44582.5,
+      "avgGrade": 1.1138900518417358,
+      "startLat": 40.18198776245117,
+      "startLng": 117.2860336303711
+    },
+    {
+      "id": "34896802",
+      "tileScore": 6,
+      "name": "蓟县起伏路",
+      "distanceM": 8268.7001953125,
+      "avgGrade": 0.6990216374397278,
+      "startLat": 40.14742660522461,
+      "startLng": 117.39958190917969
+    },
+    {
+      "id": "30390592",
+      "tileScore": 224,
+      "name": "太平寨",
+      "distanceM": 4154.60009765625,
+      "avgGrade": 4.693592548370361,
+      "startLat": 40.23893356323242,
+      "startLng": 117.44342041015625
+    },
+    {
+      "id": "36914203",
+      "tileScore": 6,
+      "name": "花市爬坡 Flower Market Climb",
+      "distanceM": 14837,
+      "avgGrade": 1.632405400276184,
+      "startLat": 40.24555206298828,
+      "startLng": 117.43762969970703
+    }
+  ]
+}

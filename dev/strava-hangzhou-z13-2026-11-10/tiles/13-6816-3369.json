@@ -1,0 +1,56 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T20:21:24.460Z",
+  "tile": {
+    "z": 13,
+    "x": 6816,
+    "y": 3369
+  },
+  "segments": [
+    {
+      "id": "8135002",
+      "tileScore": 55,
+      "name": "taihuyuanS205 line climb",
+      "distanceM": 22022.5,
+      "avgGrade": 2.6295833587646484,
+      "startLat": 30.320430755615234,
+      "startLng": 119.60966491699219
+    },
+    {
+      "id": "30430575",
+      "tileScore": 24,
+      "name": "横渡村",
+      "distanceM": 1949,
+      "avgGrade": 1.9189327955245972,
+      "startLat": 30.36111831665039,
+      "startLng": 119.56385803222656
+    },
+    {
+      "id": "31521581",
+      "tileScore": 9,
+      "name": "神龙川",
+      "distanceM": 2558.60009765625,
+      "avgGrade": 4.705698490142822,
+      "startLat": 30.36665153503418,
+      "startLng": 119.56446838378906
+    },
+    {
+      "id": "31679104",
+      "tileScore": 52,
+      "name": "指南村-塘顶仙境",
+      "distanceM": 2109,
+      "avgGrade": 6.443811893463135,
+      "startLat": 30.364940643310547,
+      "startLng": 119.57308197021484
+    },
+    {
+      "id": "41368281",
+      "tileScore": 13,
+      "name": "阳山坞climb",
+      "distanceM": 3314.39990234375,
+      "avgGrade": 4.495534896850586,
+      "startLat": 30.382579803466797,
+      "startLng": 119.55438995361328
+    }
+  ]
+}

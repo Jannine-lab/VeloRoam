@@ -1,0 +1,245 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T19:34:28.823Z",
+  "tile": {
+    "z": 13,
+    "x": 6747,
+    "y": 3100
+  },
+  "segments": [
+    {
+      "id": "31922232",
+      "tileScore": 21,
+      "name": "回家突然来劲儿了",
+      "distanceM": 4374.10009765625,
+      "avgGrade": 0.00914473831653595,
+      "startLat": 40.01974105834961,
+      "startLng": 116.51414489746094
+    },
+    {
+      "id": "36698629",
+      "tileScore": 4,
+      "name": "Lanebridge to Xiangjiang",
+      "distanceM": 995,
+      "avgGrade": 0.14070351421833038,
+      "startLat": 40.023380279541016,
+      "startLng": 116.50566101074219
+    },
+    {
+      "id": "41791915",
+      "tileScore": 30,
+      "name": "青甸湖大圈",
+      "distanceM": 2784,
+      "avgGrade": 0.07902298867702484,
+      "startLat": 40.04975509643555,
+      "startLng": 116.52017974853516
+    },
+    {
+      "id": "10328706",
+      "tileScore": 24,
+      "name": "Chase the bus!",
+      "distanceM": 3608.39990234375,
+      "avgGrade": 0.08868195861577988,
+      "startLat": 40.025489807128906,
+      "startLng": 116.54609680175781
+    },
+    {
+      "id": "15043438",
+      "tileScore": 3,
+      "name": "康营村",
+      "distanceM": 2211.89990234375,
+      "avgGrade": -0.1717980057001114,
+      "startLat": 40.039310455322266,
+      "startLng": 116.52804565429688
+    },
+    {
+      "id": "38217980",
+      "tileScore": 1,
+      "name": "京顺东街-梓林路（N-S）",
+      "distanceM": 1401.300048828125,
+      "avgGrade": -0.14986084401607513,
+      "startLat": 40.02358627319336,
+      "startLng": 116.51823425292969
+    },
+    {
+      "id": "23314213",
+      "tileScore": 9,
+      "name": "Dump uphill",
+      "distanceM": 307.20001220703125,
+      "avgGrade": -1.46484375,
+      "startLat": 40.04387283325195,
+      "startLng": 116.54232025146484
+    },
+    {
+      "id": "4995923",
+      "tileScore": 28,
+      "name": "798 to Laiguangyin East",
+      "distanceM": 4873.7001953125,
+      "avgGrade": 0.01641463302075863,
+      "startLat": 39.988677978515625,
+      "startLng": 116.48301696777344
+    },
+    {
+      "id": "33159858",
+      "tileScore": 12,
+      "name": "尽心尽力陪好锤哥",
+      "distanceM": 3280.10009765625,
+      "avgGrade": -0.2560897469520569,
+      "startLat": 40.04005813598633,
+      "startLng": 116.52738952636719
+    },
+    {
+      "id": "39258200",
+      "tileScore": 7,
+      "name": "黄康路辅路（E-W）",
+      "distanceM": 3707.39990234375,
+      "avgGrade": -0.008091924712061882,
+      "startLat": 40.04209899902344,
+      "startLng": 116.51414489746094
+    },
+    {
+      "id": "38279868",
+      "tileScore": 16,
+      "name": "Kangying Middle Road W to E",
+      "distanceM": 1601.0999755859375,
+      "avgGrade": -0.31228530406951904,
+      "startLat": 40.030296325683594,
+      "startLng": 116.52538299560547
+    },
+    {
+      "id": "25956840",
+      "tileScore": 59,
+      "name": "Jingmi Sprint",
+      "distanceM": 1209.5,
+      "avgGrade": -0.7937164306640625,
+      "startLat": 40.023738861083984,
+      "startLng": 116.51704406738281
+    },
+    {
+      "id": "7226327",
+      "tileScore": 27,
+      "name": "WAB Tri Jingmi Straight",
+      "distanceM": 1574.300048828125,
+      "avgGrade": -0.15244869887828827,
+      "startLat": 40.02314758300781,
+      "startLng": 116.51656341552734
+    },
+    {
+      "id": "9700969",
+      "tileScore": 6,
+      "name": "北京 Arboretum SE",
+      "distanceM": 2664.199951171875,
+      "avgGrade": -0.3528263568878174,
+      "startLat": 40.048179626464844,
+      "startLng": 116.5382308959961
+    },
+    {
+      "id": "17149602",
+      "tileScore": 2,
+      "name": "Donald Dumpty",
+      "distanceM": 3798.89990234375,
+      "avgGrade": -0.02105872705578804,
+      "startLat": 40.0404052734375,
+      "startLng": 116.55062866210938
+    },
+    {
+      "id": "38126775",
+      "tileScore": 9,
+      "name": "香江北路（W-E）",
+      "distanceM": 2192.89990234375,
+      "avgGrade": -0.0410415418446064,
+      "startLat": 40.032466888427734,
+      "startLng": 116.49789428710938
+    },
+    {
+      "id": "37511464",
+      "tileScore": 12,
+      "name": "Wenyu River to Ba River",
+      "distanceM": 13779.7001953125,
+      "avgGrade": 0.07547333836555481,
+      "startLat": 40.0565071105957,
+      "startLng": 116.53984832763672
+    },
+    {
+      "id": "39030172",
+      "tileScore": 5,
+      "name": "No Parking Outbound",
+      "distanceM": 1488,
+      "avgGrade": -0.17473118007183075,
+      "startLat": 40.04184341430664,
+      "startLng": 116.50341033935547
+    },
+    {
+      "id": "41659305",
+      "tileScore": 20,
+      "name": "电子城东路-来广营东路（W-E）",
+      "distanceM": 3826,
+      "avgGrade": 0.05488761141896248,
+      "startLat": 40.007049560546875,
+      "startLng": 116.48686981201172
+    },
+    {
+      "id": "27997962",
+      "tileScore": 7,
+      "name": "Maquanying West Road",
+      "distanceM": 1554.5,
+      "avgGrade": 0.1929880976676941,
+      "startLat": 40.01081848144531,
+      "startLng": 116.50785827636719
+    },
+    {
+      "id": "35618830",
+      "tileScore": 23,
+      "name": "京平高速到观塘广场",
+      "distanceM": 709.5,
+      "avgGrade": 0.056377727538347244,
+      "startLat": 40.039283752441406,
+      "startLng": 116.52674102783203
+    },
+    {
+      "id": "42175804",
+      "tileScore": 2,
+      "name": "骑车比开车快的通勤",
+      "distanceM": 37951.69921875,
+      "avgGrade": -0.10223521292209625,
+      "startLat": 39.905982971191406,
+      "startLng": 116.25113677978516
+    },
+    {
+      "id": "37511458",
+      "tileScore": 12,
+      "name": "3rd Ring to Wenyu River",
+      "distanceM": 13751.5,
+      "avgGrade": -0.09017197787761688,
+      "startLat": 39.95709991455078,
+      "startLng": 116.44827270507812
+    },
+    {
+      "id": "32592731",
+      "tileScore": 19,
+      "name": "Sketchy Golf Course (N)",
+      "distanceM": 840.5,
+      "avgGrade": 0.38072577118873596,
+      "startLat": 40.03334045410156,
+      "startLng": 116.51411437988281
+    },
+    {
+      "id": "32202423",
+      "tileScore": 18,
+      "name": "吸住京密路的摩托（京平-来广营东路）",
+      "distanceM": 1719.9000244140625,
+      "avgGrade": 0.04651433229446411,
+      "startLat": 40.03776931762695,
+      "startLng": 116.52601623535156
+    },
+    {
+      "id": "41227517",
+      "tileScore": 14,
+      "name": "京密路（来广营东-白马路 S-N）",
+      "distanceM": 20074.400390625,
+      "avgGrade": 0.009464791044592857,
+      "startLat": 40.02456283569336,
+      "startLng": 116.51789855957031
+    }
+  ]
+}

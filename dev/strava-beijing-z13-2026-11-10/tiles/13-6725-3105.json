@@ -1,0 +1,74 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T19:49:03.840Z",
+  "tile": {
+    "z": 13,
+    "x": 6725,
+    "y": 3105
+  },
+  "segments": [
+    {
+      "id": "41817797",
+      "tileScore": 9,
+      "name": "百花谷climb",
+      "distanceM": 718.5999755859375,
+      "avgGrade": 9.128861427307129,
+      "startLat": 39.85462188720703,
+      "startLng": 115.55441284179688
+    },
+    {
+      "id": "32755597",
+      "tileScore": 35,
+      "name": "张公路爬坡全程",
+      "distanceM": 4880.2998046875,
+      "avgGrade": 6.97498083114624,
+      "startLat": 39.84840393066406,
+      "startLng": 115.55023956298828
+    },
+    {
+      "id": "39456084",
+      "tileScore": 16,
+      "name": "the famous 黄安坨 climb",
+      "distanceM": 20597.400390625,
+      "avgGrade": 3.0100886821746826,
+      "startLat": 39.92502212524414,
+      "startLng": 115.56786346435547
+    },
+    {
+      "id": "32417519",
+      "tileScore": 11,
+      "name": "百花山景区停车场gravel至黄安坨",
+      "distanceM": 6816.89990234375,
+      "avgGrade": -0.5867769718170166,
+      "startLat": 39.84042739868164,
+      "startLng": 115.57303619384766
+    },
+    {
+      "id": "41817767",
+      "tileScore": 7,
+      "name": "艾峪路climb",
+      "distanceM": 1877.300048828125,
+      "avgGrade": 7.436211585998535,
+      "startLat": 39.84703826904297,
+      "startLng": 115.54900360107422
+    },
+    {
+      "id": "41817808",
+      "tileScore": 5,
+      "name": "黄梯路climb",
+      "distanceM": 1440.699951171875,
+      "avgGrade": 5.302977561950684,
+      "startLat": 39.86286544799805,
+      "startLng": 115.55516815185547
+    },
+    {
+      "id": "41817778",
+      "tileScore": 8,
+      "name": " 简昌路climb",
+      "distanceM": 2402.10009765625,
+      "avgGrade": 7.918071746826172,
+      "startLat": 39.853515625,
+      "startLng": 115.54943084716797
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T19:38:30.630Z",
+  "tile": {
+    "z": 13,
+    "x": 6746,
+    "y": 3112
+  },
+  "segments": [
+    {
+      "id": "28937640",
+      "tileScore": 6,
+      "name": "至保定tt路段",
+      "distanceM": 6156.7001953125,
+      "avgGrade": -0.012993973679840565,
+      "startLat": 39.65528106689453,
+      "startLng": 116.42327117919922
+    }
+  ]
+}

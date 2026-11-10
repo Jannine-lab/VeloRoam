@@ -1,0 +1,20 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T20:02:08.169Z",
+  "tile": {
+    "z": 13,
+    "x": 6765,
+    "y": 3082
+  },
+  "segments": [
+    {
+      "id": "38887013",
+      "tileScore": 9,
+      "name": "新城子→马场",
+      "distanceM": 5959.89990234375,
+      "avgGrade": -1.2953237295150757,
+      "startLat": 40.63713836669922,
+      "startLng": 117.31950378417969
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T19:46:30.779Z",
+  "tile": {
+    "z": 13,
+    "x": 6757,
+    "y": 3116
+  },
+  "segments": [
+    {
+      "id": "31754443",
+      "tileScore": 9,
+      "name": "高王路（大东线-104）",
+      "distanceM": 9709.400390625,
+      "avgGrade": 0.01235915720462799,
+      "startLat": 39.47751235961914,
+      "startLng": 116.94180297851562
+    }
+  ]
+}

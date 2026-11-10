@@ -1,0 +1,155 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T19:35:52.627Z",
+  "tile": {
+    "z": 13,
+    "x": 6747,
+    "y": 3097
+  },
+  "segments": [
+    {
+      "id": "28385411",
+      "tileScore": 3,
+      "name": "Science Park Loop (2018) SEMI SKIMMED",
+      "distanceM": 23349,
+      "avgGrade": 0.0055676898919045925,
+      "startLat": 40.08030700683594,
+      "startLng": 116.50840759277344
+    },
+    {
+      "id": "38052267",
+      "tileScore": 3,
+      "name": "天北路南下北六环（N-S）",
+      "distanceM": 17395.5,
+      "avgGrade": -0.1741829812526703,
+      "startLat": 40.288002014160156,
+      "startLng": 116.54334259033203
+    },
+    {
+      "id": "31781281",
+      "tileScore": 10,
+      "name": "Tianbei to Gaobai Rd",
+      "distanceM": 2296.39990234375,
+      "avgGrade": -0.06967427581548691,
+      "startLat": 40.11836242675781,
+      "startLng": 116.51725769042969
+    },
+    {
+      "id": "33370049",
+      "tileScore": 4,
+      "name": "TianBei to HuoShi rd",
+      "distanceM": 2373.5,
+      "avgGrade": 0.037918686866760254,
+      "startLat": 40.11844253540039,
+      "startLng": 116.51956176757812
+    },
+    {
+      "id": "37598627",
+      "tileScore": 13,
+      "name": "残联10圈",
+      "distanceM": 26397,
+      "avgGrade": -0.0022729854099452496,
+      "startLat": 40.11763000488281,
+      "startLng": 116.51152038574219
+    },
+    {
+      "id": "37346642",
+      "tileScore": 28,
+      "name": "董各庄桥-白马路刷一刷",
+      "distanceM": 6317.39990234375,
+      "avgGrade": 0.14246366918087006,
+      "startLat": 40.122501373291016,
+      "startLng": 116.51982116699219
+    },
+    {
+      "id": "15897473",
+      "tileScore": 16,
+      "name": "Come on Boro",
+      "distanceM": 1469.9000244140625,
+      "avgGrade": -0.12245731055736542,
+      "startLat": 40.11534881591797,
+      "startLng": 116.535400390625
+    },
+    {
+      "id": "42462306",
+      "tileScore": 1,
+      "name": "追回范姐",
+      "distanceM": 3011.39990234375,
+      "avgGrade": 0.03984857350587845,
+      "startLat": 40.15115737915039,
+      "startLng": 116.51731872558594
+    },
+    {
+      "id": "12893093",
+      "tileScore": 32,
+      "name": "Houshayu Bridge",
+      "distanceM": 589.4000244140625,
+      "avgGrade": -0.35629454255104065,
+      "startLat": 40.12370681762695,
+      "startLng": 116.5359115600586
+    },
+    {
+      "id": "10378827",
+      "tileScore": 5,
+      "name": "Shuipocun Sprint",
+      "distanceM": 1423.199951171875,
+      "avgGrade": 0.14052839577198029,
+      "startLat": 40.132381439208984,
+      "startLng": 116.52095031738281
+    },
+    {
+      "id": "39450738",
+      "tileScore": 2,
+      "name": "沐泽乌托邦夏至高温认证“yue～”",
+      "distanceM": 923.2999877929688,
+      "avgGrade": 0,
+      "startLat": 40.13019943237305,
+      "startLng": 116.53890991210938
+    },
+    {
+      "id": "20277810",
+      "tileScore": 1,
+      "name": "1/2 Hour of Power (天北-顺于-京密）",
+      "distanceM": 17416.599609375,
+      "avgGrade": -0.021818265318870544,
+      "startLat": 40.08529281616211,
+      "startLng": 116.52310943603516
+    },
+    {
+      "id": "16268792",
+      "tileScore": 2,
+      "name": "Science park Full Loop ITT (New Road)",
+      "distanceM": 24602.30078125,
+      "avgGrade": -0.008942252956330776,
+      "startLat": 40.08061981201172,
+      "startLng": 116.507568359375
+    },
+    {
+      "id": "8036161",
+      "tileScore": 15,
+      "name": "Head Down West to East between lights",
+      "distanceM": 2238.5,
+      "avgGrade": -0.22336386144161224,
+      "startLat": 40.136051177978516,
+      "startLng": 116.4930191040039
+    },
+    {
+      "id": "25172888",
+      "tileScore": 6,
+      "name": "裕安之最北段",
+      "distanceM": 1324.5999755859375,
+      "avgGrade": 0.04529669135808945,
+      "startLat": 40.13205337524414,
+      "startLng": 116.53782653808594
+    },
+    {
+      "id": "4398629",
+      "tileScore": 14,
+      "name": "Get On The Bus!",
+      "distanceM": 2552.199951171875,
+      "avgGrade": -0.2703549861907959,
+      "startLat": 40.11988830566406,
+      "startLng": 116.51898193359375
+    }
+  ]
+}

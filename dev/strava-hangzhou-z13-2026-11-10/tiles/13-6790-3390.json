@@ -1,0 +1,20 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T20:41:13.462Z",
+  "tile": {
+    "z": 13,
+    "x": 6790,
+    "y": 3390
+  },
+  "segments": [
+    {
+      "id": "41721154",
+      "tileScore": 6,
+      "name": "岭后",
+      "distanceM": 2118.699951171875,
+      "avgGrade": 2.010666847229004,
+      "startLat": 29.621564865112305,
+      "startLng": 118.41624450683594
+    }
+  ]
+}

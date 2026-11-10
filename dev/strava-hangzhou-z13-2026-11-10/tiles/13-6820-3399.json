@@ -1,0 +1,47 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T20:33:03.836Z",
+  "tile": {
+    "z": 13,
+    "x": 6820,
+    "y": 3399
+  },
+  "segments": [
+    {
+      "id": "38011164",
+      "tileScore": 40,
+      "name": "千人安后山",
+      "distanceM": 587.5,
+      "avgGrade": 5.514893531799316,
+      "startLat": 29.225658416748047,
+      "startLng": 119.73681640625
+    },
+    {
+      "id": "40608852",
+      "tileScore": 446,
+      "name": "越龙山爬坡赛段",
+      "distanceM": 11127,
+      "avgGrade": 7.941044330596924,
+      "startLat": 29.28510093688965,
+      "startLng": 119.70234680175781
+    },
+    {
+      "id": "42219464",
+      "tileScore": 24,
+      "name": "Hi bicycle太阳岭环线 安全第一",
+      "distanceM": 87060.5,
+      "avgGrade": 0.004824231378734112,
+      "startLat": 29.2420597076416,
+      "startLng": 119.47916412353516
+    },
+    {
+      "id": "26644735",
+      "tileScore": 10,
+      "name": "螺蛳尖  梅家村口—水泥路坡顶",
+      "distanceM": 5897.2001953125,
+      "avgGrade": 8.271722793579102,
+      "startLat": 29.235942840576172,
+      "startLng": 119.75733947753906
+    }
+  ]
+}

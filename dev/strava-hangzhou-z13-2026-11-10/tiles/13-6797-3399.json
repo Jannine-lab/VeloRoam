@@ -1,0 +1,29 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T20:41:30.709Z",
+  "tile": {
+    "z": 13,
+    "x": 6797,
+    "y": 3399
+  },
+  "segments": [
+    {
+      "id": "37898234",
+      "tileScore": 1,
+      "name": "cd-其岭爬坡东往西",
+      "distanceM": 6421.7998046875,
+      "avgGrade": 7.3157057762146,
+      "startLat": 29.250314712524414,
+      "startLng": 118.70267486572266
+    },
+    {
+      "id": "28357629",
+      "tileScore": 23,
+      "name": "雷公岭到枫树岭",
+      "distanceM": 20761,
+      "avgGrade": -1.3303791284561157,
+      "startLat": 29.192279815673828,
+      "startLng": 118.6906509399414
+    }
+  ]
+}

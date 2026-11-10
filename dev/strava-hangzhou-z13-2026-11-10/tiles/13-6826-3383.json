@@ -1,0 +1,29 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T20:20:43.486Z",
+  "tile": {
+    "z": 13,
+    "x": 6826,
+    "y": 3383
+  },
+  "segments": [
+    {
+      "id": "33804327",
+      "tileScore": 3,
+      "name": "里黄弹隐藏陡坡",
+      "distanceM": 1418.0999755859375,
+      "avgGrade": 11.705803871154785,
+      "startLat": 29.858728408813477,
+      "startLng": 120.01505279541016
+    },
+    {
+      "id": "33804335",
+      "tileScore": 6,
+      "name": "上石梯",
+      "distanceM": 2832,
+      "avgGrade": 9.68220329284668,
+      "startLat": 29.848403930664062,
+      "startLng": 120.03592681884766
+    }
+  ]
+}

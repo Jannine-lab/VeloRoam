@@ -1,0 +1,74 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T19:44:27.630Z",
+  "tile": {
+    "z": 13,
+    "x": 6746,
+    "y": 3089
+  },
+  "segments": [
+    {
+      "id": "37417768",
+      "tileScore": 3,
+      "name": "正爬龙泉庄",
+      "distanceM": 2546.10009765625,
+      "avgGrade": 1.4532029628753662,
+      "startLat": 40.41126251220703,
+      "startLng": 116.47188568115234
+    },
+    {
+      "id": "31116368",
+      "tileScore": 16,
+      "name": "驼岭一路干到怀黄路Wahoo！",
+      "distanceM": 33033.69921875,
+      "avgGrade": -0.9941362738609314,
+      "startLat": 40.405067443847656,
+      "startLng": 116.39430236816406
+    },
+    {
+      "id": "32607603",
+      "tileScore": 4,
+      "name": "Pikachu！",
+      "distanceM": 158177.40625,
+      "avgGrade": 0.022632816806435585,
+      "startLat": 40.14248275756836,
+      "startLng": 116.59239959716797
+    },
+    {
+      "id": "42378162",
+      "tileScore": 2,
+      "name": "绕村一圈以示尊重",
+      "distanceM": 894.5999755859375,
+      "avgGrade": -0.022356361150741577,
+      "startLat": 40.39934539794922,
+      "startLng": 116.4845962524414
+    },
+    {
+      "id": "14994662",
+      "tileScore": 9,
+      "name": "Nanyecun descent",
+      "distanceM": 5079.5,
+      "avgGrade": -1.0040358304977417,
+      "startLat": 40.41706466674805,
+      "startLng": 116.44647216796875
+    },
+    {
+      "id": "41868870",
+      "tileScore": 2,
+      "name": "静之湖-宽沟（W-E）",
+      "distanceM": 58590.6015625,
+      "avgGrade": 0.01962772198021412,
+      "startLat": 40.24061584472656,
+      "startLng": 116.43830871582031
+    },
+    {
+      "id": "37843999",
+      "tileScore": 3,
+      "name": "沙景路N->S",
+      "distanceM": 1311.5,
+      "avgGrade": -0.44224169850349426,
+      "startLat": 40.411399841308594,
+      "startLng": 116.48213195800781
+    }
+  ]
+}

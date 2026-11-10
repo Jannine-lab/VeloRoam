@@ -1,0 +1,47 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T20:26:53.543Z",
+  "tile": {
+    "z": 13,
+    "x": 6808,
+    "y": 3377
+  },
+  "segments": [
+    {
+      "id": "39844157",
+      "tileScore": 4,
+      "name": "石室寺climb",
+      "distanceM": 2797.10009765625,
+      "avgGrade": 6.127775192260742,
+      "startLat": 30.085050582885742,
+      "startLng": 119.23352813720703
+    },
+    {
+      "id": "38516642",
+      "tileScore": 5,
+      "name": "河桥上坡2连爬 ① W-E",
+      "distanceM": 681.7000122070312,
+      "avgGrade": 2.0096817016601562,
+      "startLat": 30.102783203125,
+      "startLng": 119.21541595458984
+    },
+    {
+      "id": "16054169",
+      "tileScore": 21,
+      "name": "NWC 2017 - the smooth tarmac",
+      "distanceM": 16463.900390625,
+      "avgGrade": 0.6924240589141846,
+      "startLat": 30.102827072143555,
+      "startLng": 119.21599578857422
+    },
+    {
+      "id": "40948229",
+      "tileScore": 24,
+      "name": "昌化-湍口标准段👑（水南村-湍口红绿灯）",
+      "distanceM": 19085.5,
+      "avgGrade": 0.1687144786119461,
+      "startLat": 30.15559959411621,
+      "startLng": 119.22450256347656
+    }
+  ]
+}

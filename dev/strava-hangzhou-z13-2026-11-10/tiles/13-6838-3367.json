@@ -1,0 +1,20 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T20:18:41.699Z",
+  "tile": {
+    "z": 13,
+    "x": 6838,
+    "y": 3367
+  },
+  "segments": [
+    {
+      "id": "37436590",
+      "tileScore": 10,
+      "name": "城际铁路TT（周王庙→长安）",
+      "distanceM": 4351.7001953125,
+      "avgGrade": 0.11030172556638718,
+      "startLat": 30.451974868774414,
+      "startLng": 120.5014877319336
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T19:43:02.684Z",
+  "tile": {
+    "z": 13,
+    "x": 6731,
+    "y": 3109
+  },
+  "segments": [
+    {
+      "id": "38139335",
+      "tileScore": 13,
+      "name": "药王谷 葫芦棚 南大岭 飛戈",
+      "distanceM": 7068.60009765625,
+      "avgGrade": 9.73035717010498,
+      "startLat": 39.71299362182617,
+      "startLng": 115.84136962890625
+    },
+    {
+      "id": "41857676",
+      "tileScore": 7,
+      "name": "大草岭climb",
+      "distanceM": 5853.2998046875,
+      "avgGrade": 7.506876468658447,
+      "startLat": 39.746517181396484,
+      "startLng": 115.77035522460938
+    }
+  ]
+}

@@ -1,0 +1,128 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T20:20:26.183Z",
+  "tile": {
+    "z": 13,
+    "x": 6819,
+    "y": 3367
+  },
+  "segments": [
+    {
+      "id": "40174159",
+      "tileScore": 27,
+      "name": "the rollin' cable climb",
+      "distanceM": 4580.7998046875,
+      "avgGrade": 3.161019802093506,
+      "startLat": 30.469850540161133,
+      "startLng": 119.65910339355469
+    },
+    {
+      "id": "18410175",
+      "tileScore": 127,
+      "name": "Shanchuanxiang (山川乡) Climb ",
+      "distanceM": 5988.2001953125,
+      "avgGrade": 2.7554190158843994,
+      "startLat": 30.514678955078125,
+      "startLng": 119.6776123046875
+    },
+    {
+      "id": "34714211",
+      "tileScore": 3,
+      "name": "百丈森林古道",
+      "distanceM": 552,
+      "avgGrade": 9.1304349899292,
+      "startLat": 30.482240676879883,
+      "startLng": 119.70407104492188
+    },
+    {
+      "id": "37368803",
+      "tileScore": 12,
+      "name": "24道湾骑游道climb w2e",
+      "distanceM": 1729,
+      "avgGrade": 5.8762288093566895,
+      "startLat": 30.470903396606445,
+      "startLng": 119.66218566894531
+    },
+    {
+      "id": "39433582",
+      "tileScore": 196,
+      "name": "晨练山川100速通车",
+      "distanceM": 100004.296875,
+      "avgGrade": 0.0013999397633597255,
+      "startLat": 30.288415908813477,
+      "startLng": 119.96621704101562
+    },
+    {
+      "id": "14750812",
+      "tileScore": 25,
+      "name": "后畈村爬坡",
+      "distanceM": 1278.199951171875,
+      "avgGrade": 4.756689071655273,
+      "startLat": 30.45353889465332,
+      "startLng": 119.70509338378906
+    },
+    {
+      "id": "36707523",
+      "tileScore": 17,
+      "name": "云上草原抄近路",
+      "distanceM": 510.8999938964844,
+      "avgGrade": 11.117635726928711,
+      "startLat": 30.454925537109375,
+      "startLng": 119.6631851196289
+    },
+    {
+      "id": "38802131",
+      "tileScore": 3,
+      "name": "公路车Gravel road",
+      "distanceM": 2358.10009765625,
+      "avgGrade": -7.412747383117676,
+      "startLat": 30.4770450592041,
+      "startLng": 119.70257568359375
+    },
+    {
+      "id": "40812867",
+      "tileScore": 116,
+      "name": "上白兰climb",
+      "distanceM": 1277,
+      "avgGrade": 8.191072463989258,
+      "startLat": 30.477012634277344,
+      "startLng": 119.68085479736328
+    },
+    {
+      "id": "18842256",
+      "tileScore": 31,
+      "name": "山川乡到鸬鸟镇TTT",
+      "distanceM": 4627.60009765625,
+      "avgGrade": -0.9162416458129883,
+      "startLat": 30.45283317565918,
+      "startLng": 119.70298767089844
+    },
+    {
+      "id": "39695463",
+      "tileScore": 59,
+      "name": "四邻水库-山川顶点",
+      "distanceM": 17633.599609375,
+      "avgGrade": 1.221531629562378,
+      "startLat": 30.41947364807129,
+      "startLng": 119.7879638671875
+    },
+    {
+      "id": "38809001",
+      "tileScore": 3,
+      "name": "仙岩村-百丈平森林天堂古道Cimb",
+      "distanceM": 3840.60009765625,
+      "avgGrade": 6.884340763092041,
+      "startLat": 30.50382423400879,
+      "startLng": 119.7179946899414
+    },
+    {
+      "id": "34511262",
+      "tileScore": 3,
+      "name": "云上草原初段爬坡",
+      "distanceM": 522.9000244140625,
+      "avgGrade": 8.299866676330566,
+      "startLat": 30.464994430541992,
+      "startLng": 119.66957092285156
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T19:40:25.696Z",
+  "tile": {
+    "z": 13,
+    "x": 6753,
+    "y": 3112
+  },
+  "segments": [
+    {
+      "id": "41690984",
+      "tileScore": 11,
+      "name": "深得我心",
+      "distanceM": 15397.5,
+      "avgGrade": 0.02078259363770485,
+      "startLat": 39.59580993652344,
+      "startLng": 116.77799224853516
+    }
+  ]
+}

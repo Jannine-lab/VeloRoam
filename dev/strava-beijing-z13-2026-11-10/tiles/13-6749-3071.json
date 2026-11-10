@@ -1,0 +1,29 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T20:07:02.350Z",
+  "tile": {
+    "z": 13,
+    "x": 6749,
+    "y": 3071
+  },
+  "segments": [
+    {
+      "id": "25989601",
+      "tileScore": 37,
+      "name": "帽山沟门桥-怀丰隧道",
+      "distanceM": 7691,
+      "avgGrade": 2.7486672401428223,
+      "startLat": 40.98335266113281,
+      "startLng": 116.61088562011719
+    },
+    {
+      "id": "40339323",
+      "tileScore": 15,
+      "name": "京加路S-N",
+      "distanceM": 11729.2001953125,
+      "avgGrade": 1.1117552518844604,
+      "startLat": 40.905067443847656,
+      "startLng": 116.61528778076172
+    }
+  ]
+}

@@ -1,0 +1,65 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T20:17:53.526Z",
+  "tile": {
+    "z": 13,
+    "x": 6825,
+    "y": 3365
+  },
+  "segments": [
+    {
+      "id": "4914090",
+      "tileScore": 6,
+      "name": "湖州到彭公",
+      "distanceM": 63600.30078125,
+      "avgGrade": 0.012893022038042545,
+      "startLat": 30.89427375793457,
+      "startLng": 120.04374694824219
+    },
+    {
+      "id": "36483678",
+      "tileScore": 3,
+      "name": "冲出莫干山，回到104",
+      "distanceM": 3149.300048828125,
+      "avgGrade": -0.03810370713472366,
+      "startLat": 30.558420181274414,
+      "startLng": 119.94914245605469
+    },
+    {
+      "id": "31686715",
+      "tileScore": 11,
+      "name": "武康-筏头",
+      "distanceM": 8928.5,
+      "avgGrade": 0.5174441337585449,
+      "startLat": 30.55027961730957,
+      "startLng": 119.94100952148438
+    },
+    {
+      "id": "33103791",
+      "tileScore": 5,
+      "name": "Deqing Radar Station Dirt Climb",
+      "distanceM": 2040.5,
+      "avgGrade": 12.585151672363281,
+      "startLat": 30.538494110107422,
+      "startLng": 119.93895721435547
+    },
+    {
+      "id": "5499939",
+      "tileScore": 1,
+      "name": "余杭镇到埭溪",
+      "distanceM": 59156.3984375,
+      "avgGrade": -0.018594777211546898,
+      "startLat": 30.253528594970703,
+      "startLng": 119.9469985961914
+    },
+    {
+      "id": "30254860",
+      "tileScore": 19,
+      "name": "德清到石濑村14km赛段",
+      "distanceM": 13668.2998046875,
+      "avgGrade": 0.1126694604754448,
+      "startLat": 30.52863121032715,
+      "startLng": 119.94998931884766
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T20:01:14.815Z",
+  "tile": {
+    "z": 13,
+    "x": 6750,
+    "y": 3077
+  },
+  "segments": [
+    {
+      "id": "39206489",
+      "tileScore": 2,
+      "name": "the complete 古石溝 climb",
+      "distanceM": 7819,
+      "avgGrade": 2.738201856613159,
+      "startLat": 40.75801086425781,
+      "startLng": 116.66230773925781
+    }
+  ]
+}

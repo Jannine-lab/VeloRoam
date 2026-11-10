@@ -1,0 +1,47 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T19:58:54.351Z",
+  "tile": {
+    "z": 13,
+    "x": 6729,
+    "y": 3081
+  },
+  "segments": [
+    {
+      "id": "18786436",
+      "tileScore": 64,
+      "name": "海坨大放坡（出京）",
+      "distanceM": 18743.69921875,
+      "avgGrade": -2.1703290939331055,
+      "startLat": 40.533382415771484,
+      "startLng": 115.74681091308594
+    },
+    {
+      "id": "35324494",
+      "tileScore": 49,
+      "name": "大海坨 -> 雕鹗",
+      "distanceM": 9149.099609375,
+      "avgGrade": -1.2132340669631958,
+      "startLat": 40.67619323730469,
+      "startLng": 115.73226165771484
+    },
+    {
+      "id": "39304337",
+      "tileScore": 28,
+      "name": "Second descent ",
+      "distanceM": 6250.2001953125,
+      "avgGrade": -1.6511472463607788,
+      "startLat": 40.622440338134766,
+      "startLng": 115.72430419921875
+    },
+    {
+      "id": "12270997",
+      "tileScore": 1,
+      "name": "S241 Provincial Road False Flat",
+      "distanceM": 14599.599609375,
+      "avgGrade": 1.9000520706176758,
+      "startLat": 40.67354965209961,
+      "startLng": 115.72968292236328
+    }
+  ]
+}

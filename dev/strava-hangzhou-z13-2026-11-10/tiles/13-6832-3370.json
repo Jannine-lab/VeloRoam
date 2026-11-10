@@ -1,0 +1,29 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T20:15:58.383Z",
+  "tile": {
+    "z": 13,
+    "x": 6832,
+    "y": 3370
+  },
+  "segments": [
+    {
+      "id": "38016218",
+      "tileScore": 4,
+      "name": "宏昌路美食一条街",
+      "distanceM": 4357.60009765625,
+      "avgGrade": -0.03671745955944061,
+      "startLat": 30.342041015625,
+      "startLng": 120.22844696044922
+    },
+    {
+      "id": "35869433",
+      "tileScore": 4,
+      "name": "临丁路西向东",
+      "distanceM": 10721,
+      "avgGrade": 0.018654976040124893,
+      "startLat": 30.350000381469727,
+      "startLng": 120.18907165527344
+    }
+  ]
+}

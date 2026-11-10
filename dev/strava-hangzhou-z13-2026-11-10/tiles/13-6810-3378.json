@@ -1,0 +1,29 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T20:25:40.765Z",
+  "tile": {
+    "z": 13,
+    "x": 6810,
+    "y": 3378
+  },
+  "segments": [
+    {
+      "id": "19032897",
+      "tileScore": 3,
+      "name": "Tangwankou to Hanjia",
+      "distanceM": 8976.7998046875,
+      "avgGrade": 2.7337136268615723,
+      "startLat": 30.036083221435547,
+      "startLng": 119.3191909790039
+    },
+    {
+      "id": "42398667",
+      "tileScore": 1,
+      "name": "龙王塘-庵边gravel descent",
+      "distanceM": 3256.89990234375,
+      "avgGrade": -8.848905563354492,
+      "startLat": 30.02214813232422,
+      "startLng": 119.29255676269531
+    }
+  ]
+}

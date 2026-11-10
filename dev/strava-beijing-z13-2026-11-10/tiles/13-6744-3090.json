@@ -1,0 +1,20 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T19:42:22.610Z",
+  "tile": {
+    "z": 13,
+    "x": 6744,
+    "y": 3090
+  },
+  "segments": [
+    {
+      "id": "14815175",
+      "tileScore": 31,
+      "name": "九渡河路口-团泉村",
+      "distanceM": 7940.60009765625,
+      "avgGrade": -0.5541142821311951,
+      "startLat": 40.36190414428711,
+      "startLng": 116.36016845703125
+    }
+  ]
+}

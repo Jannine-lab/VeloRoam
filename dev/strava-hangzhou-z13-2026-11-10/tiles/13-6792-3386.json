@@ -1,0 +1,20 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T20:39:31.788Z",
+  "tile": {
+    "z": 13,
+    "x": 6792,
+    "y": 3386
+  },
+  "segments": [
+    {
+      "id": "36881521",
+      "tileScore": 65,
+      "name": "森村爬坡",
+      "distanceM": 13267.099609375,
+      "avgGrade": 1.435128927230835,
+      "startLat": 29.76612091064453,
+      "startLng": 118.42540740966797
+    }
+  ]
+}

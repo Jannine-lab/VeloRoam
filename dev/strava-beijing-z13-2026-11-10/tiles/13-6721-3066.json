@@ -1,0 +1,20 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T20:12:39.553Z",
+  "tile": {
+    "z": 13,
+    "x": 6721,
+    "y": 3066
+  },
+  "segments": [
+    {
+      "id": "35275485",
+      "tileScore": 19,
+      "name": "草原天路-崇礼 一路缓下",
+      "distanceM": 17909.80078125,
+      "avgGrade": -1.9028687477111816,
+      "startLat": 41.23680114746094,
+      "startLng": 115.39912414550781
+    }
+  ]
+}

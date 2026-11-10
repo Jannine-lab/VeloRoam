@@ -1,0 +1,20 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T19:45:31.037Z",
+  "tile": {
+    "z": 13,
+    "x": 6760,
+    "y": 3109
+  },
+  "segments": [
+    {
+      "id": "34395757",
+      "tileScore": 1,
+      "name": "路面颠簸",
+      "distanceM": 11453.900390625,
+      "avgGrade": -0.0034922603517770767,
+      "startLat": 39.70868682861328,
+      "startLng": 117.20036315917969
+    }
+  ]
+}

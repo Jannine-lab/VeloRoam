@@ -1,0 +1,29 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T20:23:40.709Z",
+  "tile": {
+    "z": 13,
+    "x": 6834,
+    "y": 3387
+  },
+  "segments": [
+    {
+      "id": "39832732",
+      "tileScore": 1,
+      "name": "云溪九里爬坡段-船新版本",
+      "distanceM": 2863.5,
+      "avgGrade": 5.343111515045166,
+      "startLat": 29.74026107788086,
+      "startLng": 120.33332061767578
+    },
+    {
+      "id": "33549727",
+      "tileScore": 19,
+      "name": "五院 — 东兴  右拐去龙石洞岗",
+      "distanceM": 4354,
+      "avgGrade": 0.9600367546081543,
+      "startLat": 29.70591163635254,
+      "startLng": 120.32159423828125
+    }
+  ]
+}

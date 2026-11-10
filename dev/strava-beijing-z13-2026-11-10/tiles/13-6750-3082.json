@@ -1,0 +1,65 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T19:52:59.255Z",
+  "tile": {
+    "z": 13,
+    "x": 6750,
+    "y": 3082
+  },
+  "segments": [
+    {
+      "id": "24667562",
+      "tileScore": 12,
+      "name": "云蒙山 W-E",
+      "distanceM": 31777.599609375,
+      "avgGrade": -0.5242686867713928,
+      "startLat": 40.60121154785156,
+      "startLng": 116.66267395019531
+    },
+    {
+      "id": "24667783",
+      "tileScore": 15,
+      "name": "琉璃庙-云梦仙境起点",
+      "distanceM": 3251.5,
+      "avgGrade": 1.6976779699325562,
+      "startLat": 40.62441635131836,
+      "startLng": 116.64545440673828
+    },
+    {
+      "id": "33117656",
+      "tileScore": 6,
+      "name": "VLCC突突姜进攻时刻",
+      "distanceM": 1884.9000244140625,
+      "avgGrade": -1.0610642433166504,
+      "startLat": 40.612281799316406,
+      "startLng": 116.65618896484375
+    },
+    {
+      "id": "32043688",
+      "tileScore": 27,
+      "name": "东北口关三岔口-琉璃庙",
+      "distanceM": 17361,
+      "avgGrade": -1.6162663698196411,
+      "startLat": 40.56476593017578,
+      "startLng": 116.54985046386719
+    },
+    {
+      "id": "36828848",
+      "tileScore": 19,
+      "name": "Epic YanQi to Miyun",
+      "distanceM": 95911.8984375,
+      "avgGrade": -0.2003922313451767,
+      "startLat": 40.43746566772461,
+      "startLng": 116.57965087890625
+    },
+    {
+      "id": "1191002",
+      "tileScore": 14,
+      "name": "National Rd Climb",
+      "distanceM": 2187.27001953125,
+      "avgGrade": 5.449641227722168,
+      "startLat": 40.6209831237793,
+      "startLng": 116.6871566772461
+    }
+  ]
+}

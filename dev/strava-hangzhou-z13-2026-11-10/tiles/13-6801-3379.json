@@ -1,0 +1,20 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T20:33:08.996Z",
+  "tile": {
+    "z": 13,
+    "x": 6801,
+    "y": 3379
+  },
+  "segments": [
+    {
+      "id": "37740236",
+      "tileScore": 1,
+      "name": "板桥村爬坡【DQ】",
+      "distanceM": 2018.0999755859375,
+      "avgGrade": 3.7510528564453125,
+      "startLat": 29.991439819335938,
+      "startLng": 118.92208099365234
+    }
+  ]
+}

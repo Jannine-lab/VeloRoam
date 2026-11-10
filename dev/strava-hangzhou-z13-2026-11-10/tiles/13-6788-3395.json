@@ -1,0 +1,20 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T20:42:51.764Z",
+  "tile": {
+    "z": 13,
+    "x": 6788,
+    "y": 3395
+  },
+  "segments": [
+    {
+      "id": "37550696",
+      "tileScore": 3,
+      "name": "石柱村→齐溪镇【DQ】",
+      "distanceM": 13889.2001953125,
+      "avgGrade": 0.8877401351928711,
+      "startLat": 29.354991912841797,
+      "startLng": 118.39256286621094
+    }
+  ]
+}

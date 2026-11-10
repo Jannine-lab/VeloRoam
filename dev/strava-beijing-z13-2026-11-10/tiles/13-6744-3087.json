@@ -1,0 +1,128 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T19:46:43.164Z",
+  "tile": {
+    "z": 13,
+    "x": 6744,
+    "y": 3087
+  },
+  "segments": [
+    {
+      "id": "18040351",
+      "tileScore": 224,
+      "name": "反爬四海",
+      "distanceM": 6281.39990234375,
+      "avgGrade": 2.8210270404815674,
+      "startLat": 40.523921966552734,
+      "startLng": 116.4040298461914
+    },
+    {
+      "id": "35870603",
+      "tileScore": 86,
+      "name": "四永计时赛段(昌赤路新线版本)",
+      "distanceM": 113957.3984375,
+      "avgGrade": 0.006669158581644297,
+      "startLat": 40.29890823364258,
+      "startLng": 116.24783325195312
+    },
+    {
+      "id": "42151792",
+      "tileScore": 3,
+      "name": "三岔村第二密道",
+      "distanceM": 1671.4000244140625,
+      "avgGrade": 11.475409507751465,
+      "startLat": 40.46243667602539,
+      "startLng": 116.39994049072266
+    },
+    {
+      "id": "13540954",
+      "tileScore": 180,
+      "name": "Sihai Climb (Tour of Beijing KOM sector)",
+      "distanceM": 7181.2998046875,
+      "avgGrade": 6.057399272918701,
+      "startLat": 40.4643440246582,
+      "startLng": 116.33660888671875
+    },
+    {
+      "id": "17394155",
+      "tileScore": 7,
+      "name": "Provincial Road to Bus Stop",
+      "distanceM": 2506.199951171875,
+      "avgGrade": 5.187135696411133,
+      "startLat": 40.445152282714844,
+      "startLng": 116.41254425048828
+    },
+    {
+      "id": "31929291",
+      "tileScore": 4,
+      "name": "BRM200-耀骑北京-BJ-R001",
+      "distanceM": 194072.59375,
+      "avgGrade": -0.00005152710946276784,
+      "startLat": 40.14736557006836,
+      "startLng": 116.37285614013672
+    },
+    {
+      "id": "1252364",
+      "tileScore": 5,
+      "name": "Provincial Rd Climb",
+      "distanceM": 1121.199951171875,
+      "avgGrade": 8.669282913208008,
+      "startLat": 40.45896911621094,
+      "startLng": 116.3994369506836
+    },
+    {
+      "id": "41481057",
+      "tileScore": 10,
+      "name": "静之湖-四海（S-N）",
+      "distanceM": 57643.6015625,
+      "avgGrade": 1.0089584589004517,
+      "startLat": 40.24079895019531,
+      "startLng": 116.43891143798828
+    },
+    {
+      "id": "41535021",
+      "tileScore": 10,
+      "name": "Max的四海老路gravel-花溪谷入",
+      "distanceM": 3174.5,
+      "avgGrade": 7.421640872955322,
+      "startLat": 40.47945022583008,
+      "startLng": 116.35687255859375
+    },
+    {
+      "id": "38122430",
+      "tileScore": 11,
+      "name": "四永（望百路+昌赤新线+暖马路版）",
+      "distanceM": 116117.8984375,
+      "avgGrade": 0.019290737807750702,
+      "startLat": 40.29729080200195,
+      "startLng": 116.2466812133789
+    },
+    {
+      "id": "7139800",
+      "tileScore": 23,
+      "name": "Sancha Climb",
+      "distanceM": 7068,
+      "avgGrade": 4.1284661293029785,
+      "startLat": 40.417213439941406,
+      "startLng": 116.44315338134766
+    },
+    {
+      "id": "35332155",
+      "tileScore": 16,
+      "name": "百里画廊（茂陵至四海顶）",
+      "distanceM": 149721.90625,
+      "avgGrade": 0.4735445976257324,
+      "startLat": 40.31157302856445,
+      "startLng": 116.22599029541016
+    },
+    {
+      "id": "37325034",
+      "tileScore": 35,
+      "name": "快到顶了500瓦进攻一波拉掉老k",
+      "distanceM": 569.5999755859375,
+      "avgGrade": 5.442415714263916,
+      "startLat": 40.48093032836914,
+      "startLng": 116.36817932128906
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T19:55:42.562Z",
+  "tile": {
+    "z": 13,
+    "x": 6768,
+    "y": 3099
+  },
+  "segments": [
+    {
+      "id": "37174707",
+      "tileScore": 9,
+      "name": "马上回家了这怎么还要在坡上拉扯",
+      "distanceM": 504.5,
+      "avgGrade": 4.2021803855896,
+      "startLat": 40.078399658203125,
+      "startLng": 117.44074249267578
+    },
+    {
+      "id": "34696302",
+      "tileScore": 22,
+      "name": "磨盘峪爬坡（全程） Mopanyu Climb ",
+      "distanceM": 6557.10009765625,
+      "avgGrade": 3.6022021770477295,
+      "startLat": 40.06843566894531,
+      "startLng": 117.44512939453125
+    },
+    {
+      "id": "34696317",
+      "tileScore": 32,
+      "name": "燕山东大街",
+      "distanceM": 4722.39990234375,
+      "avgGrade": 0.17787566781044006,
+      "startLat": 40.070796966552734,
+      "startLng": 117.48576354980469
+    }
+  ]
+}

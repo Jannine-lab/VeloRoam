@@ -1,0 +1,38 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T20:26:22.716Z",
+  "tile": {
+    "z": 13,
+    "x": 6810,
+    "y": 3363
+  },
+  "segments": [
+    {
+      "id": "41613903",
+      "tileScore": 21,
+      "name": "上天之路（别推车哦）",
+      "distanceM": 615.7999877929688,
+      "avgGrade": 13.770705223083496,
+      "startLat": 30.609952926635742,
+      "startLng": 119.29816436767578
+    },
+    {
+      "id": "41529306",
+      "tileScore": 123,
+      "name": "TREK100安吉黄浦江源",
+      "distanceM": 94210.296875,
+      "avgGrade": 0.012949752621352673,
+      "startLat": 30.606224060058594,
+      "startLng": 119.41857147216797
+    },
+    {
+      "id": "21658054",
+      "tileScore": 2,
+      "name": "X034 Country Rd Climb to Foling",
+      "distanceM": 5038,
+      "avgGrade": 2.838428020477295,
+      "startLat": 30.654281616210938,
+      "startLng": 119.27466583251953
+    }
+  ]
+}

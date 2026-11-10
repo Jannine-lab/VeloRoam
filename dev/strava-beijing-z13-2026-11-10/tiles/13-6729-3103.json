@@ -1,0 +1,20 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T19:44:17.737Z",
+  "tile": {
+    "z": 13,
+    "x": 6729,
+    "y": 3103
+  },
+  "segments": [
+    {
+      "id": "40065351",
+      "tileScore": 22,
+      "name": "老龙窝云海停车场全程",
+      "distanceM": 9806.5,
+      "avgGrade": 4.641819477081299,
+      "startLat": 39.92011642456055,
+      "startLng": 115.78331756591797
+    }
+  ]
+}

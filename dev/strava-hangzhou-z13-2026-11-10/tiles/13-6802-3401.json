@@ -1,0 +1,20 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T20:39:57.942Z",
+  "tile": {
+    "z": 13,
+    "x": 6802,
+    "y": 3401
+  },
+  "segments": [
+    {
+      "id": "39282669",
+      "tileScore": 51,
+      "name": "出了电站小桥冲个坡",
+      "distanceM": 762.0999755859375,
+      "avgGrade": 3.411625623703003,
+      "startLat": 29.153154373168945,
+      "startLng": 118.91949462890625
+    }
+  ]
+}

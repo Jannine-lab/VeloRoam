@@ -1,0 +1,20 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T20:30:39.144Z",
+  "tile": {
+    "z": 13,
+    "x": 6804,
+    "y": 3381
+  },
+  "segments": [
+    {
+      "id": "39639999",
+      "tileScore": 8,
+      "name": "秋源-隐将climb",
+      "distanceM": 6225.7998046875,
+      "avgGrade": 1.8150277137756348,
+      "startLat": 29.933778762817383,
+      "startLng": 119.00997924804688
+    }
+  ]
+}

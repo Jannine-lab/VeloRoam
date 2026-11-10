@@ -1,0 +1,20 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T19:41:33.416Z",
+  "tile": {
+    "z": 13,
+    "x": 6751,
+    "y": 3092
+  },
+  "segments": [
+    {
+      "id": "39381541",
+      "tileScore": 4,
+      "name": "杨雁路（南→北）",
+      "distanceM": 9952.2001953125,
+      "avgGrade": 0.154739648103714,
+      "startLat": 40.282379150390625,
+      "startLng": 116.66805267333984
+    }
+  ]
+}

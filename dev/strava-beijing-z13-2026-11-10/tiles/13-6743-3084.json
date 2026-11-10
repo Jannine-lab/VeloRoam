@@ -1,0 +1,83 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T19:49:11.257Z",
+  "tile": {
+    "z": 13,
+    "x": 6743,
+    "y": 3084
+  },
+  "segments": [
+    {
+      "id": "13758545",
+      "tileScore": 75,
+      "name": "四季花海到永宁",
+      "distanceM": 19401.900390625,
+      "avgGrade": -1.2132833003997803,
+      "startLat": 40.55815124511719,
+      "startLng": 116.33842468261719
+    },
+    {
+      "id": "38122430",
+      "tileScore": 11,
+      "name": "四永（望百路+昌赤新线+暖马路版）",
+      "distanceM": 116117.8984375,
+      "avgGrade": 0.019290737807750702,
+      "startLat": 40.29729080200195,
+      "startLng": 116.2466812133789
+    },
+    {
+      "id": "13328836",
+      "tileScore": 60,
+      "name": "四季花海（E-W）",
+      "distanceM": 7140.7001953125,
+      "avgGrade": 1.5222597122192383,
+      "startLat": 40.52988052368164,
+      "startLng": 116.40296936035156
+    },
+    {
+      "id": "38848168",
+      "tileScore": 44,
+      "name": "海培一脚不需要蹬 Lily姐在后面狂蹬猛追",
+      "distanceM": 3714.300048828125,
+      "avgGrade": -2.2669143676757812,
+      "startLat": 40.558902740478516,
+      "startLng": 116.34101867675781
+    },
+    {
+      "id": "37825301",
+      "tileScore": 21,
+      "name": "大庙路climb",
+      "distanceM": 2257.300048828125,
+      "avgGrade": 5.218624114990234,
+      "startLat": 40.56010437011719,
+      "startLng": 116.34362030029297
+    },
+    {
+      "id": "25989325",
+      "tileScore": 8,
+      "name": "Sharp left in to a wall",
+      "distanceM": 1731.9000244140625,
+      "avgGrade": 5.866389274597168,
+      "startLat": 40.57847595214844,
+      "startLng": 116.3571548461914
+    },
+    {
+      "id": "25989415",
+      "tileScore": 16,
+      "name": "The great climb of patience, inner piece and silent longing for a masseuse ",
+      "distanceM": 10247.5,
+      "avgGrade": 2.584044933319092,
+      "startLat": 40.578189849853516,
+      "startLng": 116.41796875
+    },
+    {
+      "id": "35870603",
+      "tileScore": 86,
+      "name": "四永计时赛段(昌赤路新线版本)",
+      "distanceM": 113957.3984375,
+      "avgGrade": 0.006669158581644297,
+      "startLat": 40.29890823364258,
+      "startLng": 116.24783325195312
+    }
+  ]
+}

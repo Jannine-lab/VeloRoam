@@ -1,0 +1,20 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T20:37:16.591Z",
+  "tile": {
+    "z": 13,
+    "x": 6794,
+    "y": 3378
+  },
+  "segments": [
+    {
+      "id": "37670477",
+      "tileScore": 21,
+      "name": "龙川景区-杨柳桥牌坊",
+      "distanceM": 10998.2998046875,
+      "avgGrade": -0.1709355115890503,
+      "startLat": 30.076839447021484,
+      "startLng": 118.66120910644531
+    }
+  ]
+}

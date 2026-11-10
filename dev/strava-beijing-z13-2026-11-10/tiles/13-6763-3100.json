@@ -1,0 +1,20 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T19:47:22.706Z",
+  "tile": {
+    "z": 13,
+    "x": 6763,
+    "y": 3100
+  },
+  "segments": [
+    {
+      "id": "21963286",
+      "tileScore": 56,
+      "name": "宝平路爬坡",
+      "distanceM": 9670,
+      "avgGrade": 2.3557395935058594,
+      "startLat": 40.04124069213867,
+      "startLng": 117.2386703491211
+    }
+  ]
+}

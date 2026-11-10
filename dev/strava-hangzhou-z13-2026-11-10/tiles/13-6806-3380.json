@@ -1,0 +1,29 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T20:28:38.267Z",
+  "tile": {
+    "z": 13,
+    "x": 6806,
+    "y": 3380
+  },
+  "segments": [
+    {
+      "id": "30215840",
+      "tileScore": 10,
+      "name": "阿里一哥甜区一带一路",
+      "distanceM": 6703.7998046875,
+      "avgGrade": 2.09135103225708,
+      "startLat": 29.92259407043457,
+      "startLng": 119.13600158691406
+    },
+    {
+      "id": "24224594",
+      "tileScore": 1,
+      "name": "The Curly Mullet",
+      "distanceM": 5237.2998046875,
+      "avgGrade": 3.3605103492736816,
+      "startLat": 29.95919418334961,
+      "startLng": 119.08275604248047
+    }
+  ]
+}

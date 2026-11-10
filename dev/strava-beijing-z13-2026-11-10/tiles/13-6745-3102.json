@@ -1,0 +1,362 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T19:33:45.805Z",
+  "tile": {
+    "z": 13,
+    "x": 6745,
+    "y": 3102
+  },
+  "segments": [
+    {
+      "id": "10652833",
+      "tileScore": 15,
+      "name": "Shoot up the 4th Ring",
+      "distanceM": 7825.60009765625,
+      "avgGrade": 0.08561643958091736,
+      "startLat": 39.93245315551758,
+      "startLng": 116.48394012451172
+    },
+    {
+      "id": "26162737",
+      "tileScore": 29,
+      "name": "Sprint to Phoenix",
+      "distanceM": 1046.4000244140625,
+      "avgGrade": -0.13379204273223877,
+      "startLat": 39.95069122314453,
+      "startLng": 116.43931579589844
+    },
+    {
+      "id": "25989924",
+      "tileScore": 9,
+      "name": "马甸桥到和平西桥",
+      "distanceM": 3213.300048828125,
+      "avgGrade": -0.08091370016336441,
+      "startLat": 39.966556549072266,
+      "startLng": 116.37340545654297
+    },
+    {
+      "id": "34229350",
+      "tileScore": 7,
+      "name": "惠新东街-北土城东路向北至惠新东桥",
+      "distanceM": 1160,
+      "avgGrade": 0.017241379246115685,
+      "startLat": 39.976322174072266,
+      "startLng": 116.41840362548828
+    },
+    {
+      "id": "28698218",
+      "tileScore": 3,
+      "name": "caoshan回家最后一哆嗦",
+      "distanceM": 403.3999938964844,
+      "avgGrade": -0.3966286778450012,
+      "startLat": 39.967472076416016,
+      "startLng": 116.41860961914062
+    },
+    {
+      "id": "42468711",
+      "tileScore": 1,
+      "name": "外馆斜街（W-E）",
+      "distanceM": 2582.89990234375,
+      "avgGrade": -0.03871617093682289,
+      "startLat": 39.96182632446289,
+      "startLng": 116.3893051147461
+    },
+    {
+      "id": "33665510",
+      "tileScore": 5,
+      "name": "芍药居了 回家一哆嗦",
+      "distanceM": 894.5999755859375,
+      "avgGrade": -0.11178180575370789,
+      "startLat": 39.975643157958984,
+      "startLng": 116.42568969726562
+    },
+    {
+      "id": "37710221",
+      "tileScore": 5,
+      "name": "三环内环-朝阳路起止",
+      "distanceM": 48864.6015625,
+      "avgGrade": 0.0006139414035715163,
+      "startLat": 39.9173698425293,
+      "startLng": 116.45520782470703
+    },
+    {
+      "id": "26119573",
+      "tileScore": 4,
+      "name": "Junction 2 river",
+      "distanceM": 658.2000122070312,
+      "avgGrade": 0.21270132064819336,
+      "startLat": 39.96179962158203,
+      "startLng": 116.44062805175781
+    },
+    {
+      "id": "26130966",
+      "tileScore": 13,
+      "name": "Luke I am your father",
+      "distanceM": 550.9000244140625,
+      "avgGrade": -0.1452169120311737,
+      "startLat": 39.961971282958984,
+      "startLng": 116.44135284423828
+    },
+    {
+      "id": "10283910",
+      "tileScore": 43,
+      "name": "East Second Ring Road",
+      "distanceM": 4165.2001953125,
+      "avgGrade": 0.0720253512263298,
+      "startLat": 39.94462585449219,
+      "startLng": 116.42716979980469
+    },
+    {
+      "id": "37196172",
+      "tileScore": 10,
+      "name": "小街桥-滨河路-东土城路-三元西桥",
+      "distanceM": 2930.199951171875,
+      "avgGrade": -0.09555661678314209,
+      "startLat": 39.948970794677734,
+      "startLng": 116.41960144042969
+    },
+    {
+      "id": "42175804",
+      "tileScore": 2,
+      "name": "骑车比开车快的通勤",
+      "distanceM": 37951.69921875,
+      "avgGrade": -0.10223521292209625,
+      "startLat": 39.905982971191406,
+      "startLng": 116.25113677978516
+    },
+    {
+      "id": "35727377",
+      "tileScore": 7,
+      "name": "strava·哈哈鹿·请求关注",
+      "distanceM": 1007.2999877929688,
+      "avgGrade": -0.3573910593986511,
+      "startLat": 39.96731948852539,
+      "startLng": 116.40503692626953
+    },
+    {
+      "id": "35727408",
+      "tileScore": 7,
+      "name": "到公司的最后一个冲刺·鹿",
+      "distanceM": 1784.0999755859375,
+      "avgGrade": 0.06726080179214478,
+      "startLat": 39.967628479003906,
+      "startLng": 116.43022918701172
+    },
+    {
+      "id": "37223898",
+      "tileScore": 4,
+      "name": "东三环 · 内环辅路 | 三元桥-分钟寺桥",
+      "distanceM": 10803,
+      "avgGrade": -0.0647968128323555,
+      "startLat": 39.95619583129883,
+      "startLng": 116.44828033447266
+    },
+    {
+      "id": "32968970",
+      "tileScore": 5,
+      "name": "祖国母亲节日快乐",
+      "distanceM": 61708.19921875,
+      "avgGrade": -0.013936559669673443,
+      "startLat": 39.88629150390625,
+      "startLng": 116.41233825683594
+    },
+    {
+      "id": "2297404",
+      "tileScore": 42,
+      "name": "4th RR East, Wangjing-Siyuan West, eastbound",
+      "distanceM": 852.5021362304688,
+      "avgGrade": -0.22287389636039734,
+      "startLat": 39.97910690307617,
+      "startLng": 116.44888305664062
+    },
+    {
+      "id": "4244290",
+      "tileScore": 28,
+      "name": "Old City Wall (2nd Ring Inner) - Jianguomen eastside start",
+      "distanceM": 32748.19921875,
+      "avgGrade": 0,
+      "startLat": 39.907413482666016,
+      "startLng": 116.42849731445312
+    },
+    {
+      "id": "12743584",
+      "tileScore": 10,
+      "name": "四元西桥南向北爬坡",
+      "distanceM": 680,
+      "avgGrade": 0.5882353186607361,
+      "startLat": 39.97011184692383,
+      "startLng": 116.45053100585938
+    },
+    {
+      "id": "28952114",
+      "tileScore": 44,
+      "name": "二环外环北半圈",
+      "distanceM": 14992.7001953125,
+      "avgGrade": 0.03801850229501724,
+      "startLat": 39.90991973876953,
+      "startLng": 116.42970275878906
+    },
+    {
+      "id": "41456848",
+      "tileScore": 12,
+      "name": "大山子-太阳宫（N-S）",
+      "distanceM": 4127.10009765625,
+      "avgGrade": 0.09692035615444183,
+      "startLat": 39.987579345703125,
+      "startLng": 116.4810791015625
+    },
+    {
+      "id": "24526046",
+      "tileScore": 28,
+      "name": "不捏着刹车还骑不过我爹",
+      "distanceM": 13150.7001953125,
+      "avgGrade": -0.08060407638549805,
+      "startLat": 39.92338180541992,
+      "startLng": 116.35057067871094
+    },
+    {
+      "id": "41043878",
+      "tileScore": 2,
+      "name": "信达中心Crit",
+      "distanceM": 1562.0999755859375,
+      "avgGrade": -0.051213108003139496,
+      "startLat": 39.94041442871094,
+      "startLng": 116.43209838867188
+    },
+    {
+      "id": "35806087",
+      "tileScore": 3,
+      "name": "下班拐进东三环·哈哈鹿",
+      "distanceM": 553.5999755859375,
+      "avgGrade": 0.18063583970069885,
+      "startLat": 39.94868087768555,
+      "startLng": 116.45594787597656
+    },
+    {
+      "id": "34648044",
+      "tileScore": 6,
+      "name": "通勤爬坡-1",
+      "distanceM": 614.4000244140625,
+      "avgGrade": 0.1302083432674408,
+      "startLat": 39.96107864379883,
+      "startLng": 116.44075775146484
+    },
+    {
+      "id": "32691652",
+      "tileScore": 4,
+      "name": "慢慢堵着吧，我先走了",
+      "distanceM": 747.5,
+      "avgGrade": 0.21404682099819183,
+      "startLat": 39.97071838378906,
+      "startLng": 116.42559051513672
+    },
+    {
+      "id": "12443283",
+      "tileScore": 38,
+      "name": "京密路（三元桥-四元桥）",
+      "distanceM": 1258.4000244140625,
+      "avgGrade": -0.2542911469936371,
+      "startLat": 39.96200180053711,
+      "startLng": 116.45353698730469
+    },
+    {
+      "id": "34757444",
+      "tileScore": 5,
+      "name": "北京北三环路段骑行",
+      "distanceM": 13000.599609375,
+      "avgGrade": -0.0630740150809288,
+      "startLat": 39.96163558959961,
+      "startLng": 116.3043212890625
+    },
+    {
+      "id": "10448084",
+      "tileScore": 25,
+      "name": "2nd ring drag",
+      "distanceM": 528.4000244140625,
+      "avgGrade": 0.26495078206062317,
+      "startLat": 39.948299407958984,
+      "startLng": 116.4171371459961
+    },
+    {
+      "id": "17127389",
+      "tileScore": 37,
+      "name": "与题主将神交赛段",
+      "distanceM": 455.6000061035156,
+      "avgGrade": 0.1316944658756256,
+      "startLat": 39.9484748840332,
+      "startLng": 116.42591857910156
+    },
+    {
+      "id": "15450500",
+      "tileScore": 33,
+      "name": "2nd Ring Rd. (Tonghui River)",
+      "distanceM": 33832,
+      "avgGrade": 0.00295578152872622,
+      "startLat": 39.902320861816406,
+      "startLng": 116.43033599853516
+    },
+    {
+      "id": "31193490",
+      "tileScore": 15,
+      "name": "四环内环半圈_北",
+      "distanceM": 32409.19921875,
+      "avgGrade": -0.04072917625308037,
+      "startLat": 39.90775680541992,
+      "startLng": 116.26834869384766
+    },
+    {
+      "id": "19267650",
+      "tileScore": 4,
+      "name": "地坛公园大圈",
+      "distanceM": 3422.300048828125,
+      "avgGrade": -0.04090816155076027,
+      "startLat": 39.955665588378906,
+      "startLng": 116.40187072753906
+    },
+    {
+      "id": "2220990",
+      "tileScore": 9,
+      "name": "He Ping Li Xi Lu (from Tian Feng Li Market)",
+      "distanceM": 1781.580078125,
+      "avgGrade": 0.044903457164764404,
+      "startLat": 39.96323013305664,
+      "startLng": 116.41206359863281
+    },
+    {
+      "id": "37511458",
+      "tileScore": 12,
+      "name": "3rd Ring to Wenyu River",
+      "distanceM": 13751.5,
+      "avgGrade": -0.09017197787761688,
+      "startLat": 39.95709991455078,
+      "startLng": 116.44827270507812
+    },
+    {
+      "id": "39058280",
+      "tileScore": 2,
+      "name": "和你最爱的宝贝骑个双心吧",
+      "distanceM": 39443.5,
+      "avgGrade": 0.00760581623762846,
+      "startLat": 39.93310546875,
+      "startLng": 116.38347625732422
+    },
+    {
+      "id": "2629649",
+      "tileScore": 3,
+      "name": "Hepingli West Street Southbound",
+      "distanceM": 1017.5266723632812,
+      "avgGrade": -0.4324324429035187,
+      "startLat": 39.96717834472656,
+      "startLng": 116.41150665283203
+    },
+    {
+      "id": "28589858",
+      "tileScore": 1,
+      "name": "北三-北二（和平里东街）",
+      "distanceM": 2036.5,
+      "avgGrade": 0.03437269851565361,
+      "startLat": 39.96744155883789,
+      "startLng": 116.41850280761719
+    }
+  ]
+}

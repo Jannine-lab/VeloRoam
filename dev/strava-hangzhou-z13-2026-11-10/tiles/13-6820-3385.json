@@ -1,0 +1,38 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T20:23:38.232Z",
+  "tile": {
+    "z": 13,
+    "x": 6820,
+    "y": 3385
+  },
+  "segments": [
+    {
+      "id": "32217585",
+      "tileScore": 36,
+      "name": "大奇山爬坡",
+      "distanceM": 2064.199951171875,
+      "avgGrade": 3.6430578231811523,
+      "startLat": 29.780595779418945,
+      "startLng": 119.69781494140625
+    },
+    {
+      "id": "41993764",
+      "tileScore": 5,
+      "name": "桐庐一院-岩桥",
+      "distanceM": 2739,
+      "avgGrade": -0.4819277226924896,
+      "startLat": 29.793794631958008,
+      "startLng": 119.72026062011719
+    },
+    {
+      "id": "37345653",
+      "tileScore": 22,
+      "name": "RABBIT SQUAD",
+      "distanceM": 1080.300048828125,
+      "avgGrade": 5.776173114776611,
+      "startLat": 29.78037452697754,
+      "startLng": 119.72573852539062
+    }
+  ]
+}

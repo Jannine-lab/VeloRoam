@@ -1,0 +1,20 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T20:30:59.123Z",
+  "tile": {
+    "z": 13,
+    "x": 6817,
+    "y": 3396
+  },
+  "segments": [
+    {
+      "id": "41566439",
+      "tileScore": 144,
+      "name": "米筛岭 1+1",
+      "distanceM": 3102.60009765625,
+      "avgGrade": 6.697608470916748,
+      "startLat": 29.391210556030273,
+      "startLng": 119.60980224609375
+    }
+  ]
+}

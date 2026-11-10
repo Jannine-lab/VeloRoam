@@ -1,0 +1,38 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T20:39:55.464Z",
+  "tile": {
+    "z": 13,
+    "x": 6800,
+    "y": 3400
+  },
+  "segments": [
+    {
+      "id": "34431429",
+      "tileScore": 45,
+      "name": "明果-香坞隧道",
+      "distanceM": 7415,
+      "avgGrade": 2.975050449371338,
+      "startLat": 29.162109375,
+      "startLng": 118.90975189208984
+    },
+    {
+      "id": "39282509",
+      "tileScore": 39,
+      "name": "太真洞口—后叶隧道",
+      "distanceM": 6437.10009765625,
+      "avgGrade": 4.523776054382324,
+      "startLat": 29.19124984741211,
+      "startLng": 118.8221206665039
+    },
+    {
+      "id": "34494427",
+      "tileScore": 77,
+      "name": "太真-香坞隧道",
+      "distanceM": 2388.5,
+      "avgGrade": 5.811178684234619,
+      "startLat": 29.18482208251953,
+      "startLng": 118.8427963256836
+    }
+  ]
+}

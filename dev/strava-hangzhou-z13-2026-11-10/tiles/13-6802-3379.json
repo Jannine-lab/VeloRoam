@@ -1,0 +1,38 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T20:31:29.544Z",
+  "tile": {
+    "z": 13,
+    "x": 6802,
+    "y": 3379
+  },
+  "segments": [
+    {
+      "id": "39640027",
+      "tileScore": 1,
+      "name": "隐将-上庵堂climb",
+      "distanceM": 8816.5,
+      "avgGrade": 4.673056125640869,
+      "startLat": 29.970354080200195,
+      "startLng": 118.9862289428711
+    },
+    {
+      "id": "24675357",
+      "tileScore": 7,
+      "name": "Grind it up",
+      "distanceM": 4307.60009765625,
+      "avgGrade": 12.067044258117676,
+      "startLat": 29.997329711914062,
+      "startLng": 118.95753479003906
+    },
+    {
+      "id": "37740236",
+      "tileScore": 1,
+      "name": "板桥村爬坡【DQ】",
+      "distanceM": 2018.0999755859375,
+      "avgGrade": 3.7510528564453125,
+      "startLat": 29.991439819335938,
+      "startLng": 118.92208099365234
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T19:50:06.235Z",
+  "tile": {
+    "z": 13,
+    "x": 6725,
+    "y": 3099
+  },
+  "segments": [
+    {
+      "id": "29503293",
+      "tileScore": 17,
+      "name": "Legs",
+      "distanceM": 902.7000122070312,
+      "avgGrade": 9.83715534210205,
+      "startLat": 40.05482864379883,
+      "startLng": 115.5365982055664
+    },
+    {
+      "id": "41530774",
+      "tileScore": 5,
+      "name": "Longmengou-Huangcaoliang XC",
+      "distanceM": 7959.2998046875,
+      "avgGrade": 5.19141149520874,
+      "startLat": 40.07930374145508,
+      "startLng": 115.56364440917969
+    }
+  ]
+}

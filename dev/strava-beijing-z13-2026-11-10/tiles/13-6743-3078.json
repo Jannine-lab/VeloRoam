@@ -1,0 +1,20 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T19:57:29.283Z",
+  "tile": {
+    "z": 13,
+    "x": 6743,
+    "y": 3078
+  },
+  "segments": [
+    {
+      "id": "31583298",
+      "tileScore": 111,
+      "name": "The famous 茨頂 climb",
+      "distanceM": 7773.7998046875,
+      "avgGrade": 4.912655353546143,
+      "startLat": 40.74599838256836,
+      "startLng": 116.36366271972656
+    }
+  ]
+}

@@ -1,0 +1,65 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T20:16:34.148Z",
+  "tile": {
+    "z": 13,
+    "x": 6827,
+    "y": 3368
+  },
+  "segments": [
+    {
+      "id": "35806818",
+      "tileScore": 5,
+      "name": "良塘线（北向南）",
+      "distanceM": 4908.7001953125,
+      "avgGrade": 0.05296717956662178,
+      "startLat": 30.428335189819336,
+      "startLng": 120.04375457763672
+    },
+    {
+      "id": "41470312",
+      "tileScore": 288,
+      "name": "苕溪GFWS TT赛段",
+      "distanceM": 20949.19921875,
+      "avgGrade": 0.04105168581008911,
+      "startLat": 30.3968505859375,
+      "startLng": 119.97447204589844
+    },
+    {
+      "id": "28724255",
+      "tileScore": 75,
+      "name": "Along the river ",
+      "distanceM": 3001.10009765625,
+      "avgGrade": 0.09329912066459656,
+      "startLat": 30.42376708984375,
+      "startLng": 120.02194213867188
+    },
+    {
+      "id": "29575158",
+      "tileScore": 6,
+      "name": "虾仁线TT PLUS",
+      "distanceM": 6300.5,
+      "avgGrade": 0.009523053653538227,
+      "startLat": 30.442562103271484,
+      "startLng": 120.05797576904297
+    },
+    {
+      "id": "29575138",
+      "tileScore": 7,
+      "name": "虾仁线TT（N-S）",
+      "distanceM": 6194.60009765625,
+      "avgGrade": 0.0742582231760025,
+      "startLat": 30.488983154296875,
+      "startLng": 120.03829193115234
+    },
+    {
+      "id": "41559797",
+      "tileScore": 10,
+      "name": "最后的冲刺",
+      "distanceM": 901.7999877929688,
+      "avgGrade": 1.4637391567230225,
+      "startLat": 30.45128059387207,
+      "startLng": 120.04911041259766
+    }
+  ]
+}

@@ -1,0 +1,92 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T19:52:59.255Z",
+  "tile": {
+    "z": 13,
+    "x": 6751,
+    "y": 3082
+  },
+  "segments": [
+    {
+      "id": "24667562",
+      "tileScore": 12,
+      "name": "云蒙山 W-E",
+      "distanceM": 31777.599609375,
+      "avgGrade": -0.5242686867713928,
+      "startLat": 40.60121154785156,
+      "startLng": 116.66267395019531
+    },
+    {
+      "id": "7284735",
+      "tileScore": 1,
+      "name": "Dongyucun Backside",
+      "distanceM": 2625.800048828125,
+      "avgGrade": 0.24373523890972137,
+      "startLat": 40.622379302978516,
+      "startLng": 116.68145751953125
+    },
+    {
+      "id": "36828848",
+      "tileScore": 19,
+      "name": "Epic YanQi to Miyun",
+      "distanceM": 95911.8984375,
+      "avgGrade": -0.2003922313451767,
+      "startLat": 40.43746566772461,
+      "startLng": 116.57965087890625
+    },
+    {
+      "id": "13135414",
+      "tileScore": 33,
+      "name": "四合堂路口-望京台",
+      "distanceM": 9506,
+      "avgGrade": 2.7477383613586426,
+      "startLat": 40.63435363769531,
+      "startLng": 116.740234375
+    },
+    {
+      "id": "2610405",
+      "tileScore": 16,
+      "name": "省道 Climb",
+      "distanceM": 629.0507202148438,
+      "avgGrade": 14.451509475708008,
+      "startLat": 40.62152099609375,
+      "startLng": 116.70579528808594
+    },
+    {
+      "id": "36823171",
+      "tileScore": 22,
+      "name": "青石岭",
+      "distanceM": 4434.10009765625,
+      "avgGrade": 4.109063625335693,
+      "startLat": 40.6529655456543,
+      "startLng": 116.69731140136719
+    },
+    {
+      "id": "31693850",
+      "tileScore": 53,
+      "name": "云梦仙境—望京台",
+      "distanceM": 2021.699951171875,
+      "avgGrade": 4.145026683807373,
+      "startLat": 40.6193962097168,
+      "startLng": 116.69015502929688
+    },
+    {
+      "id": "1191002",
+      "tileScore": 14,
+      "name": "National Rd Climb",
+      "distanceM": 2187.27001953125,
+      "avgGrade": 5.449641227722168,
+      "startLat": 40.6209831237793,
+      "startLng": 116.6871566772461
+    },
+    {
+      "id": "9057567",
+      "tileScore": 71,
+      "name": "千尺珍珠瀑",
+      "distanceM": 1158.199951171875,
+      "avgGrade": 4.524261951446533,
+      "startLat": 40.615989685058594,
+      "startLng": 116.71505737304688
+    }
+  ]
+}

@@ -1,0 +1,74 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T20:17:01.858Z",
+  "tile": {
+    "z": 13,
+    "x": 6823,
+    "y": 3372
+  },
+  "segments": [
+    {
+      "id": "36141023",
+      "tileScore": 11,
+      "name": "科技大道中段 E to W",
+      "distanceM": 4258.7998046875,
+      "avgGrade": 0.1080116480588913,
+      "startLat": 30.28339958190918,
+      "startLng": 119.90752410888672
+    },
+    {
+      "id": "39520331",
+      "tileScore": 13,
+      "name": "上田村小环线",
+      "distanceM": 41498.19921875,
+      "avgGrade": -0.020241841673851013,
+      "startLat": 30.25385284423828,
+      "startLng": 119.74592590332031
+    },
+    {
+      "id": "38184844",
+      "tileScore": 23,
+      "name": "舟青线 E to W itt",
+      "distanceM": 7443.2001953125,
+      "avgGrade": -0.021496132016181946,
+      "startLat": 30.293485641479492,
+      "startLng": 119.88876342773438
+    },
+    {
+      "id": "41751221",
+      "tileScore": 6,
+      "name": "滨河路绕圈赛",
+      "distanceM": 2713,
+      "avgGrade": 0,
+      "startLat": 30.26899528503418,
+      "startLng": 119.8319320678711
+    },
+    {
+      "id": "38258352",
+      "tileScore": 14,
+      "name": "南苕溪Gravel（第二段）",
+      "distanceM": 2555.39990234375,
+      "avgGrade": -0.03913281485438347,
+      "startLat": 30.26746368408203,
+      "startLng": 119.8826904296875
+    },
+    {
+      "id": "33206458",
+      "tileScore": 8,
+      "name": "科技大道 W-E TT",
+      "distanceM": 2990,
+      "avgGrade": -0.19397993385791779,
+      "startLat": 30.259201049804688,
+      "startLng": 119.8259506225586
+    },
+    {
+      "id": "34616148",
+      "tileScore": 10,
+      "name": "小坡嗯冲",
+      "distanceM": 597.5999755859375,
+      "avgGrade": 0.9036144018173218,
+      "startLat": 30.27838134765625,
+      "startLng": 119.86639404296875
+    }
+  ]
+}

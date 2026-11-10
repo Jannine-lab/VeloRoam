@@ -1,0 +1,20 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T19:59:54.306Z",
+  "tile": {
+    "z": 13,
+    "x": 6754,
+    "y": 3078
+  },
+  "segments": [
+    {
+      "id": "7284703",
+      "tileScore": 25,
+      "name": "X207 Climb",
+      "distanceM": 4190.7998046875,
+      "avgGrade": 4.910757064819336,
+      "startLat": 40.77641677856445,
+      "startLng": 116.81626892089844
+    }
+  ]
+}

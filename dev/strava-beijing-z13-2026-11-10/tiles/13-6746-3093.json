@@ -1,0 +1,65 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T19:40:07.859Z",
+  "tile": {
+    "z": 13,
+    "x": 6746,
+    "y": 3093
+  },
+  "segments": [
+    {
+      "id": "37421743",
+      "tileScore": 6,
+      "name": "良善庄爬坡",
+      "distanceM": 2233.10009765625,
+      "avgGrade": 3.8869731426239014,
+      "startLat": 40.25141906738281,
+      "startLng": 116.49925231933594
+    },
+    {
+      "id": "34770021",
+      "tileScore": 49,
+      "name": "到底特么哪儿是书画山？",
+      "distanceM": 1367.199951171875,
+      "avgGrade": 0.4534815847873688,
+      "startLat": 40.26246643066406,
+      "startLng": 116.50066375732422
+    },
+    {
+      "id": "14107946",
+      "tileScore": 154,
+      "name": "Shayukuo Reservoir",
+      "distanceM": 4191.2998046875,
+      "avgGrade": 0.7396273612976074,
+      "startLat": 40.2729377746582,
+      "startLng": 116.49301147460938
+    },
+    {
+      "id": "6113252",
+      "tileScore": 68,
+      "name": "Mountain Bar",
+      "distanceM": 917.2000122070312,
+      "avgGrade": 3.3144350051879883,
+      "startLat": 40.27789306640625,
+      "startLng": 116.48965454101562
+    },
+    {
+      "id": "34566182",
+      "tileScore": 4,
+      "name": "正爬文瀚路",
+      "distanceM": 2092,
+      "avgGrade": 1.6730401515960693,
+      "startLat": 40.23779296875,
+      "startLng": 116.476806640625
+    },
+    {
+      "id": "14790715",
+      "tileScore": 3,
+      "name": "Herculean Climb. Some 31% sections. ",
+      "distanceM": 1254.800048828125,
+      "avgGrade": 15.986611366271973,
+      "startLat": 40.260780334472656,
+      "startLng": 116.49359893798828
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T20:37:09.150Z",
+  "tile": {
+    "z": 13,
+    "x": 6795,
+    "y": 3369
+  },
+  "segments": [
+    {
+      "id": "39200828",
+      "tileScore": 3,
+      "name": "乌岭沟的机耕路到林业站",
+      "distanceM": 2976.10009765625,
+      "avgGrade": 7.375424385070801,
+      "startLat": 30.378429412841797,
+      "startLng": 118.6433334350586
+    }
+  ]
+}

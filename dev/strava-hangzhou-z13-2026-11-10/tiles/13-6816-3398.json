@@ -1,0 +1,74 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T20:32:34.298Z",
+  "tile": {
+    "z": 13,
+    "x": 6816,
+    "y": 3398
+  },
+  "segments": [
+    {
+      "id": "42219464",
+      "tileScore": 24,
+      "name": "Hi bicycle太阳岭环线 安全第一",
+      "distanceM": 87060.5,
+      "avgGrade": 0.004824231378734112,
+      "startLat": 29.2420597076416,
+      "startLng": 119.47916412353516
+    },
+    {
+      "id": "33182487",
+      "tileScore": 7,
+      "name": "潘大山背2连杀",
+      "distanceM": 2013.699951171875,
+      "avgGrade": 1.231563687324524,
+      "startLat": 29.29178810119629,
+      "startLng": 119.56355285644531
+    },
+    {
+      "id": "33182500",
+      "tileScore": 22,
+      "name": "里豹山 双击！",
+      "distanceM": 1705.4000244140625,
+      "avgGrade": 0.9264689087867737,
+      "startLat": 29.271564483642578,
+      "startLng": 119.53672790527344
+    },
+    {
+      "id": "41048432",
+      "tileScore": 1,
+      "name": "建董线 351—兰溪北高速",
+      "distanceM": 8258,
+      "avgGrade": 0.8064907193183899,
+      "startLat": 29.30087661743164,
+      "startLng": 119.53715515136719
+    },
+    {
+      "id": "39724173",
+      "tileScore": 5,
+      "name": "Fucking H↑一口气浦兰线来回",
+      "distanceM": 86810.203125,
+      "avgGrade": 0.006220467388629913,
+      "startLat": 29.24191665649414,
+      "startLng": 119.47900390625
+    },
+    {
+      "id": "33182523",
+      "tileScore": 8,
+      "name": "坑塘拢",
+      "distanceM": 823.7000122070312,
+      "avgGrade": 2.500910520553589,
+      "startLat": 29.274913787841797,
+      "startLng": 119.5421142578125
+    },
+    {
+      "id": "41642592",
+      "tileScore": 41,
+      "name": "Hi bicycle普兰线返程itt",
+      "distanceM": 6403.5,
+      "avgGrade": -0.615288496017456,
+      "startLat": 29.308881759643555,
+      "startLng": 119.6061019897461
+    }
+  ]
+}

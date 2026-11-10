@@ -1,0 +1,74 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T20:33:08.996Z",
+  "tile": {
+    "z": 13,
+    "x": 6801,
+    "y": 3380
+  },
+  "segments": [
+    {
+      "id": "20506065",
+      "tileScore": 6,
+      "name": "Jerry's Jitters",
+      "distanceM": 8937.2998046875,
+      "avgGrade": -1.9603235721588135,
+      "startLat": 29.98578643798828,
+      "startLng": 118.84530639648438
+    },
+    {
+      "id": "20506020",
+      "tileScore": 17,
+      "name": "The Pimple",
+      "distanceM": 1105.5999755859375,
+      "avgGrade": 5.842981338500977,
+      "startLat": 29.961196899414062,
+      "startLng": 118.8743896484375
+    },
+    {
+      "id": "29905628",
+      "tileScore": 23,
+      "name": "mmmmm hopefully the last segment",
+      "distanceM": 926.7000122070312,
+      "avgGrade": 5.78396463394165,
+      "startLat": 29.96172523498535,
+      "startLng": 118.87390899658203
+    },
+    {
+      "id": "25635908",
+      "tileScore": 6,
+      "name": "Potential Everest Segment",
+      "distanceM": 513,
+      "avgGrade": -9.707602500915527,
+      "startLat": 29.98845863342285,
+      "startLng": 118.91687774658203
+    },
+    {
+      "id": "37740271",
+      "tileScore": 44,
+      "name": "胡家坪村热身坡【DQ】",
+      "distanceM": 3360.5,
+      "avgGrade": 8.903436660766602,
+      "startLat": 29.94837760925293,
+      "startLng": 118.91738891601562
+    },
+    {
+      "id": "42428232",
+      "tileScore": 1,
+      "name": "Clean Slate 26",
+      "distanceM": 113029.5,
+      "avgGrade": -0.006016128696501255,
+      "startLat": 30.0743350982666,
+      "startLng": 118.81914520263672
+    },
+    {
+      "id": "12587279",
+      "tileScore": 54,
+      "name": "South Hill 2 Loop",
+      "distanceM": 10584.099609375,
+      "avgGrade": 4.115607261657715,
+      "startLat": 29.937746047973633,
+      "startLng": 118.88874816894531
+    }
+  ]
+}

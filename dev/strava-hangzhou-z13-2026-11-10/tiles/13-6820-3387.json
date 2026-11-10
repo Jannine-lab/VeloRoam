@@ -1,0 +1,29 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T20:24:36.638Z",
+  "tile": {
+    "z": 13,
+    "x": 6820,
+    "y": 3387
+  },
+  "segments": [
+    {
+      "id": "805474",
+      "tileScore": 4,
+      "name": "西华线 Climb",
+      "distanceM": 2986.60009765625,
+      "avgGrade": 6.040313243865967,
+      "startLat": 29.697099685668945,
+      "startLng": 119.71944427490234
+    },
+    {
+      "id": "26504153",
+      "tileScore": 169,
+      "name": "白云源   电站桥头—景区停车场",
+      "distanceM": 8285.5,
+      "avgGrade": 3.166978359222412,
+      "startLat": 29.699766159057617,
+      "startLng": 119.67337799072266
+    }
+  ]
+}

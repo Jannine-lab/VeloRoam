@@ -1,0 +1,47 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T19:48:09.279Z",
+  "tile": {
+    "z": 13,
+    "x": 6727,
+    "y": 3111
+  },
+  "segments": [
+    {
+      "id": "18785068",
+      "tileScore": 11,
+      "name": "六十红井一疗程",
+      "distanceM": 55250.5,
+      "avgGrade": 0.15456873178482056,
+      "startLat": 39.638362884521484,
+      "startLng": 115.62660217285156
+    },
+    {
+      "id": "5687997",
+      "tileScore": 5,
+      "name": "County Road Climb",
+      "distanceM": 1659.199951171875,
+      "avgGrade": 5.074735164642334,
+      "startLat": 39.66457748413086,
+      "startLng": 115.62572479248047
+    },
+    {
+      "id": "12012968",
+      "tileScore": 48,
+      "name": "Sportive Second Climb",
+      "distanceM": 19612,
+      "avgGrade": 3.882316827774048,
+      "startLat": 39.64317321777344,
+      "startLng": 115.62580108642578
+    },
+    {
+      "id": "34335526",
+      "tileScore": 14,
+      "name": "六渡 - 红娘口",
+      "distanceM": 12069.599609375,
+      "avgGrade": 0.5087161064147949,
+      "startLat": 39.637977600097656,
+      "startLng": 115.62602233886719
+    }
+  ]
+}

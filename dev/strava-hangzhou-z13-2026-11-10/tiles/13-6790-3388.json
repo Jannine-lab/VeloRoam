@@ -1,0 +1,29 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T20:40:59.910Z",
+  "tile": {
+    "z": 13,
+    "x": 6790,
+    "y": 3388
+  },
+  "segments": [
+    {
+      "id": "42296503",
+      "tileScore": 16,
+      "name": "柿树岭反爬",
+      "distanceM": 2094.800048828125,
+      "avgGrade": 11.877028465270996,
+      "startLat": 29.671167373657227,
+      "startLng": 118.43309020996094
+    },
+    {
+      "id": "39201131",
+      "tileScore": 9,
+      "name": "屯溪到石门",
+      "distanceM": 16314.5,
+      "avgGrade": 0.670569121837616,
+      "startLat": 29.688800811767578,
+      "startLng": 118.32185363769531
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T19:48:48.999Z",
+  "tile": {
+    "z": 13,
+    "x": 6757,
+    "y": 3119
+  },
+  "segments": [
+    {
+      "id": "10326881",
+      "tileScore": 2,
+      "name": "Longfeng heading south",
+      "distanceM": 6247.7001953125,
+      "avgGrade": 0.019207067787647247,
+      "startLat": 39.43537902832031,
+      "startLng": 116.9601058959961
+    },
+    {
+      "id": "31754443",
+      "tileScore": 9,
+      "name": "高王路（大东线-104）",
+      "distanceM": 9709.400390625,
+      "avgGrade": 0.01235915720462799,
+      "startLat": 39.47751235961914,
+      "startLng": 116.94180297851562
+    }
+  ]
+}

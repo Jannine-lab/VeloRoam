@@ -1,0 +1,38 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T20:16:56.853Z",
+  "tile": {
+    "z": 13,
+    "x": 6835,
+    "y": 3368
+  },
+  "segments": [
+    {
+      "id": "10522807",
+      "tileScore": 3,
+      "name": "lozho_2015马自骑余杭至上海",
+      "distanceM": 110540.203125,
+      "avgGrade": -0.014112512581050396,
+      "startLat": 30.393516540527344,
+      "startLng": 120.34187316894531
+    },
+    {
+      "id": "35645012",
+      "tileScore": 3,
+      "name": "下沙to嘉兴",
+      "distanceM": 67304,
+      "avgGrade": 0.01292642392218113,
+      "startLat": 30.326765060424805,
+      "startLng": 120.37503814697266
+    },
+    {
+      "id": "33853617",
+      "tileScore": 39,
+      "name": "万朵城to东方学院",
+      "distanceM": 10556.900390625,
+      "avgGrade": -0.026522938162088394,
+      "startLat": 30.425281524658203,
+      "startLng": 120.36243438720703
+    }
+  ]
+}

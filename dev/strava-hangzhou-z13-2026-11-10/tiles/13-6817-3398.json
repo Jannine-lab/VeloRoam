@@ -1,0 +1,29 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T20:32:34.298Z",
+  "tile": {
+    "z": 13,
+    "x": 6817,
+    "y": 3398
+  },
+  "segments": [
+    {
+      "id": "39724173",
+      "tileScore": 5,
+      "name": "Fucking H↑一口气浦兰线来回",
+      "distanceM": 86810.203125,
+      "avgGrade": 0.006220467388629913,
+      "startLat": 29.24191665649414,
+      "startLng": 119.47900390625
+    },
+    {
+      "id": "42219464",
+      "tileScore": 24,
+      "name": "Hi bicycle太阳岭环线 安全第一",
+      "distanceM": 87060.5,
+      "avgGrade": 0.004824231378734112,
+      "startLat": 29.2420597076416,
+      "startLng": 119.47916412353516
+    }
+  ]
+}

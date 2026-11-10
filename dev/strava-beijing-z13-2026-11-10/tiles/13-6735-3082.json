@@ -1,0 +1,38 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T19:54:14.695Z",
+  "tile": {
+    "z": 13,
+    "x": 6735,
+    "y": 3082
+  },
+  "segments": [
+    {
+      "id": "39877569",
+      "tileScore": 9,
+      "name": "保皇寺 → 上莊子",
+      "distanceM": 10298,
+      "avgGrade": -3.943484306335449,
+      "startLat": 40.60862731933594,
+      "startLng": 115.99586486816406
+    },
+    {
+      "id": "4639878",
+      "tileScore": 3,
+      "name": "Chenjia Houshan Tunnel Climb",
+      "distanceM": 1230.800048828125,
+      "avgGrade": 8.555410385131836,
+      "startLat": 40.61705780029297,
+      "startLng": 115.99259948730469
+    },
+    {
+      "id": "18819224",
+      "tileScore": 2,
+      "name": "Gravel Descent",
+      "distanceM": 5824.89990234375,
+      "avgGrade": -5.950316905975342,
+      "startLat": 40.61542510986328,
+      "startLng": 116.01016235351562
+    }
+  ]
+}

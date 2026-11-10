@@ -1,0 +1,56 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T19:46:43.164Z",
+  "tile": {
+    "z": 13,
+    "x": 6745,
+    "y": 3087
+  },
+  "segments": [
+    {
+      "id": "7139800",
+      "tileScore": 23,
+      "name": "Sancha Climb",
+      "distanceM": 7068,
+      "avgGrade": 4.1284661293029785,
+      "startLat": 40.417213439941406,
+      "startLng": 116.44315338134766
+    },
+    {
+      "id": "7226921",
+      "tileScore": 9,
+      "name": "XiangShuiHu 32RMB Climb",
+      "distanceM": 9635.7001953125,
+      "avgGrade": 4.265388011932373,
+      "startLat": 40.42778778076172,
+      "startLng": 116.43485260009766
+    },
+    {
+      "id": "16391160",
+      "tileScore": 1,
+      "name": "Concrete path climb to Dazhenyu village park ",
+      "distanceM": 413.3999938964844,
+      "avgGrade": 8.805031776428223,
+      "startLat": 40.44942855834961,
+      "startLng": 116.44568634033203
+    },
+    {
+      "id": "17394155",
+      "tileScore": 7,
+      "name": "Provincial Road to Bus Stop",
+      "distanceM": 2506.199951171875,
+      "avgGrade": 5.187135696411133,
+      "startLat": 40.445152282714844,
+      "startLng": 116.41254425048828
+    },
+    {
+      "id": "17667711",
+      "tileScore": 3,
+      "name": "洞台村 to  大榛峪村",
+      "distanceM": 2703,
+      "avgGrade": 1.7092119455337524,
+      "startLat": 40.42795181274414,
+      "startLng": 116.43473052978516
+    }
+  ]
+}

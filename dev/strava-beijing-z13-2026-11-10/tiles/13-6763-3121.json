@@ -1,0 +1,29 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T19:56:04.863Z",
+  "tile": {
+    "z": 13,
+    "x": 6763,
+    "y": 3121
+  },
+  "segments": [
+    {
+      "id": "38746961",
+      "tileScore": 2,
+      "name": "九园公路（北杨线-津围线）",
+      "distanceM": 6187.39990234375,
+      "avgGrade": -0.025859003886580467,
+      "startLat": 39.320491790771484,
+      "startLng": 117.2816162109375
+    },
+    {
+      "id": "23814547",
+      "tileScore": 2,
+      "name": "BTAC HJ Special Edition",
+      "distanceM": 3401.89990234375,
+      "avgGrade": -0.09994415193796158,
+      "startLat": 39.31218719482422,
+      "startLng": 117.24263000488281
+    }
+  ]
+}

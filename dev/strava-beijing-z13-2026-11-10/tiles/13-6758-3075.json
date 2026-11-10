@@ -1,0 +1,20 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T20:05:50.864Z",
+  "tile": {
+    "z": 13,
+    "x": 6758,
+    "y": 3075
+  },
+  "segments": [
+    {
+      "id": "41261508",
+      "tileScore": 1,
+      "name": "陡坡放坡请注意",
+      "distanceM": 1574.300048828125,
+      "avgGrade": -8.562536239624023,
+      "startLat": 40.85001754760742,
+      "startLng": 116.98847961425781
+    }
+  ]
+}

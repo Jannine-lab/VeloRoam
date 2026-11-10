@@ -1,0 +1,38 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T20:08:55.230Z",
+  "tile": {
+    "z": 13,
+    "x": 6723,
+    "y": 3075
+  },
+  "segments": [
+    {
+      "id": "37149847",
+      "tileScore": 27,
+      "name": "Blue Cobra to wood drop",
+      "distanceM": 4586.2001953125,
+      "avgGrade": -8.102568626403809,
+      "startLat": 40.87491989135742,
+      "startLng": 115.42985534667969
+    },
+    {
+      "id": "34286630",
+      "tileScore": 10,
+      "name": "出太舞乱石岗下坡",
+      "distanceM": 4827.7998046875,
+      "avgGrade": -8.090641021728516,
+      "startLat": 40.87517166137695,
+      "startLng": 115.45333099365234
+    },
+    {
+      "id": "34286604",
+      "tileScore": 5,
+      "name": "出太舞乱石岗爬坡",
+      "distanceM": 1085.699951171875,
+      "avgGrade": 11.292254447937012,
+      "startLat": 40.8828239440918,
+      "startLng": 115.44840240478516
+    }
+  ]
+}

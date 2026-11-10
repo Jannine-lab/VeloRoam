@@ -1,0 +1,20 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T19:45:40.908Z",
+  "tile": {
+    "z": 13,
+    "x": 6760,
+    "y": 3099
+  },
+  "segments": [
+    {
+      "id": "36791529",
+      "tileScore": 7,
+      "name": "灵山到蝎子山驿站",
+      "distanceM": 5532.7001953125,
+      "avgGrade": 2.895512104034424,
+      "startLat": 40.04072952270508,
+      "startLng": 117.0821762084961
+    }
+  ]
+}

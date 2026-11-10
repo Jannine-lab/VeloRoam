@@ -1,0 +1,20 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T20:41:44.842Z",
+  "tile": {
+    "z": 13,
+    "x": 6795,
+    "y": 3397
+  },
+  "segments": [
+    {
+      "id": "39850900",
+      "tileScore": 17,
+      "name": "枫树岭—大溪边长缓坡",
+      "distanceM": 14562.2998046875,
+      "avgGrade": 1.6261167526245117,
+      "startLat": 29.374414443969727,
+      "startLng": 118.68367004394531
+    }
+  ]
+}

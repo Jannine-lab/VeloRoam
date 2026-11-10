@@ -1,0 +1,20 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T19:44:51.688Z",
+  "tile": {
+    "z": 13,
+    "x": 6761,
+    "y": 3100
+  },
+  "segments": [
+    {
+      "id": "37191007",
+      "tileScore": 47,
+      "name": "前蒋福山村▲爬坡",
+      "distanceM": 6467.2001953125,
+      "avgGrade": 2.5204107761383057,
+      "startLat": 39.999778747558594,
+      "startLng": 117.1634521484375
+    }
+  ]
+}

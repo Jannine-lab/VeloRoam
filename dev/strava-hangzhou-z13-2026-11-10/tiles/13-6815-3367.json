@@ -1,0 +1,20 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T20:23:03.095Z",
+  "tile": {
+    "z": 13,
+    "x": 6815,
+    "y": 3367
+  },
+  "segments": [
+    {
+      "id": "38115558",
+      "tileScore": 101,
+      "name": "浙北大峡谷全程",
+      "distanceM": 12539.5,
+      "avgGrade": 3.3892898559570312,
+      "startLat": 30.50604248046875,
+      "startLng": 119.47544860839844
+    }
+  ]
+}

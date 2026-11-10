@@ -1,0 +1,56 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T20:34:30.494Z",
+  "tile": {
+    "z": 13,
+    "x": 6799,
+    "y": 3378
+  },
+  "segments": [
+    {
+      "id": "35320798",
+      "tileScore": 28,
+      "name": "Sanyang Smash",
+      "distanceM": 3138.89990234375,
+      "avgGrade": -0.2962821424007416,
+      "startLat": 30.033218383789062,
+      "startLng": 118.81370544433594
+    },
+    {
+      "id": "42428232",
+      "tileScore": 1,
+      "name": "Clean Slate 26",
+      "distanceM": 113029.5,
+      "avgGrade": -0.006016128696501255,
+      "startLat": 30.0743350982666,
+      "startLng": 118.81914520263672
+    },
+    {
+      "id": "17473631",
+      "tileScore": 114,
+      "name": "Wildhomestay YC Finish",
+      "distanceM": 3590.39990234375,
+      "avgGrade": 2.010918140411377,
+      "startLat": 30.047460556030273,
+      "startLng": 118.82258605957031
+    },
+    {
+      "id": "12404076",
+      "tileScore": 32,
+      "name": "Highway Climb",
+      "distanceM": 8522,
+      "avgGrade": 2.47477126121521,
+      "startLat": 30.047250747680664,
+      "startLng": 118.82368469238281
+    },
+    {
+      "id": "25335749",
+      "tileScore": 22,
+      "name": "Shiiiiiit...aaaaah...nnnng",
+      "distanceM": 4369.7998046875,
+      "avgGrade": 6.965993881225586,
+      "startLat": 30.035320281982422,
+      "startLng": 118.81256103515625
+    }
+  ]
+}

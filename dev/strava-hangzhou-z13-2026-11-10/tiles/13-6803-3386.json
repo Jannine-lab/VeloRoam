@@ -1,0 +1,38 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T20:33:18.931Z",
+  "tile": {
+    "z": 13,
+    "x": 6803,
+    "y": 3386
+  },
+  "segments": [
+    {
+      "id": "40804088",
+      "tileScore": 4,
+      "name": "茂金线爬坡",
+      "distanceM": 10266.5,
+      "avgGrade": 5.7234697341918945,
+      "startLat": 29.69678497314453,
+      "startLng": 119.01847076416016
+    },
+    {
+      "id": "39622912",
+      "tileScore": 4,
+      "name": "官田climb",
+      "distanceM": 1901.800048828125,
+      "avgGrade": 2.6185719966888428,
+      "startLat": 29.751298904418945,
+      "startLng": 118.9951171875
+    },
+    {
+      "id": "26471888",
+      "tileScore": 2,
+      "name": "新田村爬坡",
+      "distanceM": 5283.2998046875,
+      "avgGrade": 5.659341812133789,
+      "startLat": 29.763246536254883,
+      "startLng": 119.013427734375
+    }
+  ]
+}

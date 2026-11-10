@@ -1,0 +1,20 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T20:04:38.187Z",
+  "tile": {
+    "z": 13,
+    "x": 6731,
+    "y": 3075
+  },
+  "segments": [
+    {
+      "id": "28080719",
+      "tileScore": 4,
+      "name": "岭头爬坡赛段",
+      "distanceM": 4887.10009765625,
+      "avgGrade": 3.5685784816741943,
+      "startLat": 40.857078552246094,
+      "startLng": 115.82734680175781
+    }
+  ]
+}

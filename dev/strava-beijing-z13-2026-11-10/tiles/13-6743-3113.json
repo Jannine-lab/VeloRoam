@@ -1,0 +1,20 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T19:38:28.157Z",
+  "tile": {
+    "z": 13,
+    "x": 6743,
+    "y": 3113
+  },
+  "segments": [
+    {
+      "id": "32280060",
+      "tileScore": 181,
+      "name": "京开路(收费站—瓜乡桥)",
+      "distanceM": 10084.2998046875,
+      "avgGrade": 0.017849529162049294,
+      "startLat": 39.53071975708008,
+      "startLng": 116.31942749023438
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T20:09:02.633Z",
+  "tile": {
+    "z": 13,
+    "x": 6768,
+    "y": 3077
+  },
+  "segments": [
+    {
+      "id": "37354234",
+      "tileScore": 4,
+      "name": "涝洼梁爬坡计时赛",
+      "distanceM": 6906.89990234375,
+      "avgGrade": 5.950571060180664,
+      "startLat": 40.78878402709961,
+      "startLng": 117.42438507080078
+    }
+  ]
+}

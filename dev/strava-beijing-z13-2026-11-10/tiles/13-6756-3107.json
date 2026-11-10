@@ -1,0 +1,20 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T19:40:35.526Z",
+  "tile": {
+    "z": 13,
+    "x": 6756,
+    "y": 3107
+  },
+  "segments": [
+    {
+      "id": "37670475",
+      "tileScore": 12,
+      "name": "领子小亭子由北向南到高铁桥",
+      "distanceM": 5696.7001953125,
+      "avgGrade": -0.056172873824834824,
+      "startLat": 39.84525680541992,
+      "startLng": 116.9144287109375
+    }
+  ]
+}

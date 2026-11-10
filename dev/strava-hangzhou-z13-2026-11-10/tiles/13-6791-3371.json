@@ -1,0 +1,20 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T20:39:06.143Z",
+  "tile": {
+    "z": 13,
+    "x": 6791,
+    "y": 3371
+  },
+  "segments": [
+    {
+      "id": "41286269",
+      "tileScore": 13,
+      "name": "cd-庙守到蔡家桥",
+      "distanceM": 17387.30078125,
+      "avgGrade": -0.5452255010604858,
+      "startLat": 30.23723030090332,
+      "startLng": 118.37336730957031
+    }
+  ]
+}

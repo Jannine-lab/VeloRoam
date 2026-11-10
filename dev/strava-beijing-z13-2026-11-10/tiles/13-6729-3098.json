@@ -1,0 +1,65 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T19:45:23.670Z",
+  "tile": {
+    "z": 13,
+    "x": 6729,
+    "y": 3098
+  },
+  "segments": [
+    {
+      "id": "4156356",
+      "tileScore": 65,
+      "name": "Shit road",
+      "distanceM": 7327,
+      "avgGrade": 5.863245487213135,
+      "startLat": 40.07883834838867,
+      "startLng": 115.73075866699219
+    },
+    {
+      "id": "37114478",
+      "tileScore": 4,
+      "name": "新增地点：赵海培你就带我骑好路是吧？",
+      "distanceM": 3096.39990234375,
+      "avgGrade": 0.775093674659729,
+      "startLat": 40.09934616088867,
+      "startLng": 115.71018981933594
+    },
+    {
+      "id": "31962841",
+      "tileScore": 8,
+      "name": "斋幽路（沿向路口-幽州村口）",
+      "distanceM": 12813.400390625,
+      "avgGrade": 0.3964599668979645,
+      "startLat": 40.06744384765625,
+      "startLng": 115.71537780761719
+    },
+    {
+      "id": "37658286",
+      "tileScore": 2,
+      "name": "进向阳口村 LX",
+      "distanceM": 661.7999877929688,
+      "avgGrade": 2.2514355182647705,
+      "startLat": 40.0926628112793,
+      "startLng": 115.75137329101562
+    },
+    {
+      "id": "30176090",
+      "tileScore": 4,
+      "name": "向阳口村-丰沙线永定河七号桥【Gravel】",
+      "distanceM": 3271.199951171875,
+      "avgGrade": 1.1616531610488892,
+      "startLat": 40.09146499633789,
+      "startLng": 115.75009155273438
+    },
+    {
+      "id": "4145652",
+      "tileScore": 8,
+      "name": "County Road Climb",
+      "distanceM": 990.0999755859375,
+      "avgGrade": 13.675385475158691,
+      "startLat": 40.07876968383789,
+      "startLng": 115.7335205078125
+    }
+  ]
+}

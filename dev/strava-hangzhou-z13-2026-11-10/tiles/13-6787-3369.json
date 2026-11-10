@@ -1,0 +1,29 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T20:41:25.789Z",
+  "tile": {
+    "z": 13,
+    "x": 6787,
+    "y": 3369
+  },
+  "segments": [
+    {
+      "id": "36625979",
+      "tileScore": 36,
+      "name": "麻岭",
+      "distanceM": 3524.39990234375,
+      "avgGrade": 4.988083362579346,
+      "startLat": 30.397960662841797,
+      "startLng": 118.2733383178711
+    },
+    {
+      "id": "35034099",
+      "tileScore": 37,
+      "name": "麻岭正爬",
+      "distanceM": 8849.2998046875,
+      "avgGrade": 4.409388542175293,
+      "startLat": 30.348485946655273,
+      "startLng": 118.25630950927734
+    }
+  ]
+}

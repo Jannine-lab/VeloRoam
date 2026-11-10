@@ -1,0 +1,92 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T19:35:52.627Z",
+  "tile": {
+    "z": 13,
+    "x": 6746,
+    "y": 3096
+  },
+  "segments": [
+    {
+      "id": "20465752",
+      "tileScore": 5,
+      "name": "Turn right at the Strawberry",
+      "distanceM": 4727.5,
+      "avgGrade": -0.021152829751372337,
+      "startLat": 40.17552185058594,
+      "startLng": 116.40190887451172
+    },
+    {
+      "id": "39958821",
+      "tileScore": 8,
+      "name": "顺沙路（秦北路→天北路）",
+      "distanceM": 6645.10009765625,
+      "avgGrade": 0.006019473075866699,
+      "startLat": 40.17475128173828,
+      "startLng": 116.4515380859375
+    },
+    {
+      "id": "15437362",
+      "tileScore": 23,
+      "name": "Qinbei north",
+      "distanceM": 3283,
+      "avgGrade": 0,
+      "startLat": 40.13721466064453,
+      "startLng": 116.4628677368164
+    },
+    {
+      "id": "41227591",
+      "tileScore": 2,
+      "name": "下苑村-清河绿道（N-S）",
+      "distanceM": 18456.400390625,
+      "avgGrade": -0.12190892547369003,
+      "startLat": 40.230281829833984,
+      "startLng": 116.45222473144531
+    },
+    {
+      "id": "15287130",
+      "tileScore": 1,
+      "name": "Fire Cracker Alley",
+      "distanceM": 874.5,
+      "avgGrade": 0.25157231092453003,
+      "startLat": 40.1557502746582,
+      "startLng": 116.45045471191406
+    },
+    {
+      "id": "41373287",
+      "tileScore": 5,
+      "name": "大西路（顺沙路→昌金路）",
+      "distanceM": 3560.10009765625,
+      "avgGrade": 0.10112075507640839,
+      "startLat": 40.17561721801758,
+      "startLng": 116.46590423583984
+    },
+    {
+      "id": "14860543",
+      "tileScore": 6,
+      "name": "Market Town Madness",
+      "distanceM": 2941.199951171875,
+      "avgGrade": 0,
+      "startLat": 40.17494583129883,
+      "startLng": 116.46076965332031
+    },
+    {
+      "id": "32607603",
+      "tileScore": 4,
+      "name": "Pikachu！",
+      "distanceM": 158177.40625,
+      "avgGrade": 0.022632816806435585,
+      "startLat": 40.14248275756836,
+      "startLng": 116.59239959716797
+    },
+    {
+      "id": "10384729",
+      "tileScore": 7,
+      "name": "Gaoliyngzhen Boulevard",
+      "distanceM": 2983.800048828125,
+      "avgGrade": -0.20778873562812805,
+      "startLat": 40.164573669433594,
+      "startLng": 116.49505615234375
+    }
+  ]
+}

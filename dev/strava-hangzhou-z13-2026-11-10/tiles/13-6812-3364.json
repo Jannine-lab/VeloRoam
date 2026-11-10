@@ -1,0 +1,20 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T20:25:15.499Z",
+  "tile": {
+    "z": 13,
+    "x": 6812,
+    "y": 3364
+  },
+  "segments": [
+    {
+      "id": "41529306",
+      "tileScore": 123,
+      "name": "TREK100安吉黄浦江源",
+      "distanceM": 94210.296875,
+      "avgGrade": 0.012949752621352673,
+      "startLat": 30.606224060058594,
+      "startLng": 119.41857147216797
+    }
+  ]
+}

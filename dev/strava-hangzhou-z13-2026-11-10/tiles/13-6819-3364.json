@@ -1,0 +1,47 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T20:21:53.675Z",
+  "tile": {
+    "z": 13,
+    "x": 6819,
+    "y": 3364
+  },
+  "segments": [
+    {
+      "id": "35451772",
+      "tileScore": 24,
+      "name": "环莫干山",
+      "distanceM": 94126.8984375,
+      "avgGrade": 0.003612144850194454,
+      "startLat": 30.55729866027832,
+      "startLng": 119.84944915771484
+    },
+    {
+      "id": "9368515",
+      "tileScore": 27,
+      "name": "HuangShuang Climb",
+      "distanceM": 2005.0999755859375,
+      "avgGrade": 2.5534887313842773,
+      "startLat": 30.604137420654297,
+      "startLng": 119.67989349365234
+    },
+    {
+      "id": "21037972",
+      "tileScore": 39,
+      "name": "凤凰水库最后爬坡",
+      "distanceM": 608.7999877929688,
+      "avgGrade": 3.4986860752105713,
+      "startLat": 30.588668823242188,
+      "startLng": 119.69466400146484
+    },
+    {
+      "id": "34785587",
+      "tileScore": 38,
+      "name": "双一ITT",
+      "distanceM": 6351.5,
+      "avgGrade": 0.5290089249610901,
+      "startLat": 30.574220657348633,
+      "startLng": 119.7206802368164
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T19:43:32.657Z",
+  "tile": {
+    "z": 13,
+    "x": 6733,
+    "y": 3095
+  },
+  "segments": [
+    {
+      "id": "37162252",
+      "tileScore": 8,
+      "name": "小心扎胎嗷",
+      "distanceM": 3544.699951171875,
+      "avgGrade": 5.929980278015137,
+      "startLat": 40.20462417602539,
+      "startLng": 115.93457794189453
+    },
+    {
+      "id": "30037306",
+      "tileScore": 16,
+      "name": "长峪城爬坡",
+      "distanceM": 6286.5,
+      "avgGrade": 2.284259796142578,
+      "startLat": 40.16339874267578,
+      "startLng": 115.89501190185547
+    },
+    {
+      "id": "40352325",
+      "tileScore": 1,
+      "name": "长峪城穿越云中阁全是好路",
+      "distanceM": 2020.199951171875,
+      "avgGrade": 9.880209922790527,
+      "startLat": 40.206207275390625,
+      "startLng": 115.8987045288086
+    },
+    {
+      "id": "25172272",
+      "tileScore": 148,
+      "name": "Yangu Climb Full. Shut up Legs! 燕古",
+      "distanceM": 8084.2998046875,
+      "avgGrade": 5.04681921005249,
+      "startLat": 40.17312240600586,
+      "startLng": 115.92363739013672
+    },
+    {
+      "id": "37348801",
+      "tileScore": 46,
+      "name": "云中阁全程爬坡赛段",
+      "distanceM": 8147.7001953125,
+      "avgGrade": 5.21987771987915,
+      "startLat": 40.17245101928711,
+      "startLng": 115.92390441894531
+    }
+  ]
+}

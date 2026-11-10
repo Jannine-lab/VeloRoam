@@ -1,0 +1,20 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T20:29:36.900Z",
+  "tile": {
+    "z": 13,
+    "x": 6805,
+    "y": 3368
+  },
+  "segments": [
+    {
+      "id": "35721816",
+      "tileScore": 5,
+      "name": "Ningdun to Jingzhou",
+      "distanceM": 70412.3984375,
+      "avgGrade": 1.488232135772705,
+      "startLat": 30.4671630859375,
+      "startLng": 119.11399841308594
+    }
+  ]
+}

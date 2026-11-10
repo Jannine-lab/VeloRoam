@@ -1,0 +1,38 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T20:36:17.120Z",
+  "tile": {
+    "z": 13,
+    "x": 6796,
+    "y": 3380
+  },
+  "segments": [
+    {
+      "id": "23831285",
+      "tileScore": 12,
+      "name": "平行高速好路小坡蹬蹬瞪",
+      "distanceM": 2931.5,
+      "avgGrade": 0.5321508049964905,
+      "startLat": 29.955564498901367,
+      "startLng": 118.65769958496094
+    },
+    {
+      "id": "32310031",
+      "tileScore": 2,
+      "name": "Northern rubbish",
+      "distanceM": 11199,
+      "avgGrade": -0.5232610106468201,
+      "startLat": 30.020639419555664,
+      "startLng": 118.71087646484375
+    },
+    {
+      "id": "27605767",
+      "tileScore": 1,
+      "name": "Pig Farm Crawl",
+      "distanceM": 535.9000244140625,
+      "avgGrade": 3.3401753902435303,
+      "startLat": 29.95368194580078,
+      "startLng": 118.69146728515625
+    }
+  ]
+}

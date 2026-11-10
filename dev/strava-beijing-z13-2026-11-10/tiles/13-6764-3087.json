@@ -1,0 +1,29 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T19:58:44.454Z",
+  "tile": {
+    "z": 13,
+    "x": 6764,
+    "y": 3087
+  },
+  "segments": [
+    {
+      "id": "42359394",
+      "tileScore": 4,
+      "name": "米铺村climb",
+      "distanceM": 7778.10009765625,
+      "avgGrade": 4.0935444831848145,
+      "startLat": 40.48618698120117,
+      "startLng": 117.24314880371094
+    },
+    {
+      "id": "10663618",
+      "tileScore": 10,
+      "name": "石门山到罗圈沟爬坡",
+      "distanceM": 23747.80078125,
+      "avgGrade": 2.0161867141723633,
+      "startLat": 40.48835372924805,
+      "startLng": 117.24122619628906
+    }
+  ]
+}

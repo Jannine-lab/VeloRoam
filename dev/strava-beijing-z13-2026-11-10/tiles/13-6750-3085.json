@@ -1,0 +1,65 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T19:50:21.080Z",
+  "tile": {
+    "z": 13,
+    "x": 6750,
+    "y": 3085
+  },
+  "segments": [
+    {
+      "id": "3707681",
+      "tileScore": 3,
+      "name": "Fenshuiling Tunnel Climb",
+      "distanceM": 1644.822021484375,
+      "avgGrade": 7.028210163116455,
+      "startLat": 40.531307220458984,
+      "startLng": 116.66707611083984
+    },
+    {
+      "id": "29846660",
+      "tileScore": 16,
+      "name": "云蒙峡路口-x020最高点",
+      "distanceM": 3984,
+      "avgGrade": 5.336345195770264,
+      "startLat": 40.53476333618164,
+      "startLng": 116.667236328125
+    },
+    {
+      "id": "38198373",
+      "tileScore": 17,
+      "name": "京加路2-S-N（岔路口）",
+      "distanceM": 6006.7998046875,
+      "avgGrade": 2.846773624420166,
+      "startLat": 40.48383712768555,
+      "startLng": 116.6565933227539
+    },
+    {
+      "id": "35950086",
+      "tileScore": 11,
+      "name": "分水岭爬坡全程",
+      "distanceM": 18150,
+      "avgGrade": 2.941046953201294,
+      "startLat": 40.412353515625,
+      "startLng": 116.67535400390625
+    },
+    {
+      "id": "3707682",
+      "tileScore": 14,
+      "name": "Jingjia Road Climb",
+      "distanceM": 1387.943115234375,
+      "avgGrade": 9.409221649169922,
+      "startLat": 40.54239273071289,
+      "startLng": 116.66888427734375
+    },
+    {
+      "id": "5696524",
+      "tileScore": 4,
+      "name": "National Road Climb",
+      "distanceM": 882.0999755859375,
+      "avgGrade": 9.998866081237793,
+      "startLat": 40.50844955444336,
+      "startLng": 116.66083526611328
+    }
+  ]
+}

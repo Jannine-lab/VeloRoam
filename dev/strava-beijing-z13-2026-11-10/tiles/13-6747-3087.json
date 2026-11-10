@@ -1,0 +1,47 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T19:46:48.119Z",
+  "tile": {
+    "z": 13,
+    "x": 6747,
+    "y": 3087
+  },
+  "segments": [
+    {
+      "id": "41529859",
+      "tileScore": 3,
+      "name": "Towards Zheng Bei Lou Trailhead",
+      "distanceM": 621,
+      "avgGrade": 2.544283390045166,
+      "startLat": 40.47007369995117,
+      "startLng": 116.52863311767578
+    },
+    {
+      "id": "41529831",
+      "tileScore": 7,
+      "name": "2nd Concrete Road to Trailhead",
+      "distanceM": 768.5,
+      "avgGrade": 3.8516592979431152,
+      "startLat": 40.46540069580078,
+      "startLng": 116.51870727539062
+    },
+    {
+      "id": "40393233",
+      "tileScore": 2,
+      "name": "6th District's Old Concrete Road",
+      "distanceM": 1683.0999755859375,
+      "avgGrade": 6.060245990753174,
+      "startLat": 40.46979522705078,
+      "startLng": 116.5311508178711
+    },
+    {
+      "id": "4658659",
+      "tileScore": 8,
+      "name": "John O'Loghlen climb to his house (Great Wall of China)",
+      "distanceM": 6491,
+      "avgGrade": 2.224618673324585,
+      "startLat": 40.480316162109375,
+      "startLng": 116.5715560913086
+    }
+  ]
+}

@@ -1,0 +1,182 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T19:35:02.578Z",
+  "tile": {
+    "z": 13,
+    "x": 6747,
+    "y": 3098
+  },
+  "segments": [
+    {
+      "id": "28947329",
+      "tileScore": 5,
+      "name": "Dragon Bay Corner (Southbound)",
+      "distanceM": 735,
+      "avgGrade": -0.31292518973350525,
+      "startLat": 40.08518600463867,
+      "startLng": 116.51322937011719
+    },
+    {
+      "id": "17628243",
+      "tileScore": 13,
+      "name": "Stephen Ts Sprint Home",
+      "distanceM": 2227.10009765625,
+      "avgGrade": 0,
+      "startLat": 40.09172439575195,
+      "startLng": 116.49769592285156
+    },
+    {
+      "id": "9684495",
+      "tileScore": 19,
+      "name": "Aroma Roundabout-Yuyang Rd",
+      "distanceM": 1616.0999755859375,
+      "avgGrade": 0,
+      "startLat": 40.096195220947266,
+      "startLng": 116.51669311523438
+    },
+    {
+      "id": "15676201",
+      "tileScore": 12,
+      "name": "河骑",
+      "distanceM": 789.9000244140625,
+      "avgGrade": -0.44309407472610474,
+      "startLat": 40.0720100402832,
+      "startLng": 116.53527069091797
+    },
+    {
+      "id": "36690464",
+      "tileScore": 1,
+      "name": "安富街树林没了",
+      "distanceM": 2288.10009765625,
+      "avgGrade": -0.08740876615047455,
+      "startLat": 40.11137008666992,
+      "startLng": 116.54423522949219
+    },
+    {
+      "id": "16268792",
+      "tileScore": 2,
+      "name": "Science park Full Loop ITT (New Road)",
+      "distanceM": 24602.30078125,
+      "avgGrade": -0.008942252956330776,
+      "startLat": 40.08061981201172,
+      "startLng": 116.507568359375
+    },
+    {
+      "id": "37598627",
+      "tileScore": 13,
+      "name": "残联10圈",
+      "distanceM": 26397,
+      "avgGrade": -0.0022729854099452496,
+      "startLat": 40.11763000488281,
+      "startLng": 116.51152038574219
+    },
+    {
+      "id": "9008001",
+      "tileScore": 7,
+      "name": "Yosemite Sprint",
+      "distanceM": 818.7000122070312,
+      "avgGrade": -0.6229388117790222,
+      "startLat": 40.072021484375,
+      "startLng": 116.51042175292969
+    },
+    {
+      "id": "42142875",
+      "tileScore": 6,
+      "name": "国展绕圈（1号门）",
+      "distanceM": 5213,
+      "avgGrade": -0.0422021858394146,
+      "startLat": 40.065589904785156,
+      "startLng": 116.54542541503906
+    },
+    {
+      "id": "20277810",
+      "tileScore": 1,
+      "name": "1/2 Hour of Power (天北-顺于-京密）",
+      "distanceM": 17416.599609375,
+      "avgGrade": -0.021818265318870544,
+      "startLat": 40.08529281616211,
+      "startLng": 116.52310943603516
+    },
+    {
+      "id": "28196132",
+      "tileScore": 10,
+      "name": "Tianbei Lu Final Stretch Pt 2",
+      "distanceM": 611.9000244140625,
+      "avgGrade": 0.03268507868051529,
+      "startLat": 40.084739685058594,
+      "startLng": 116.52320861816406
+    },
+    {
+      "id": "31837204",
+      "tileScore": 11,
+      "name": "Traffic Light Luck",
+      "distanceM": 4123.5,
+      "avgGrade": 0.00485024880617857,
+      "startLat": 40.108829498291016,
+      "startLng": 116.51690673828125
+    },
+    {
+      "id": "4398629",
+      "tileScore": 14,
+      "name": "Get On The Bus!",
+      "distanceM": 2552.199951171875,
+      "avgGrade": -0.2703549861907959,
+      "startLat": 40.11988830566406,
+      "startLng": 116.51898193359375
+    },
+    {
+      "id": "34761491",
+      "tileScore": 3,
+      "name": "拐个弯冲向祥云",
+      "distanceM": 1668.0999755859375,
+      "avgGrade": 0,
+      "startLat": 40.07046890258789,
+      "startLng": 116.53632354736328
+    },
+    {
+      "id": "28438986",
+      "tileScore": 1,
+      "name": "火沙路",
+      "distanceM": 8488,
+      "avgGrade": -0.02827521227300167,
+      "startLat": 40.101036071777344,
+      "startLng": 116.554443359375
+    },
+    {
+      "id": "32806899",
+      "tileScore": 8,
+      "name": "Luoma Roundabout",
+      "distanceM": 520.2000122070312,
+      "avgGrade": -0.07689350098371506,
+      "startLat": 40.097808837890625,
+      "startLng": 116.51802062988281
+    },
+    {
+      "id": "10554861",
+      "tileScore": 6,
+      "name": "Emer's Mum",
+      "distanceM": 1359.5,
+      "avgGrade": -0.1471129059791565,
+      "startLat": 40.0843391418457,
+      "startLng": 116.50183868408203
+    },
+    {
+      "id": "16460768",
+      "tileScore": 11,
+      "name": "AnhuaSt-Europlaza",
+      "distanceM": 2196.5,
+      "avgGrade": -0.09105394780635834,
+      "startLat": 40.08081817626953,
+      "startLng": 116.52630615234375
+    },
+    {
+      "id": "28385411",
+      "tileScore": 3,
+      "name": "Science Park Loop (2018) SEMI SKIMMED",
+      "distanceM": 23349,
+      "avgGrade": 0.0055676898919045925,
+      "startLat": 40.08030700683594,
+      "startLng": 116.50840759277344
+    }
+  ]
+}

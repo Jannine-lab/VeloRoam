@@ -1,0 +1,29 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T20:42:26.069Z",
+  "tile": {
+    "z": 13,
+    "x": 6789,
+    "y": 3392
+  },
+  "segments": [
+    {
+      "id": "41056405",
+      "tileScore": 4,
+      "name": "打狼坞陡坡",
+      "distanceM": 3954.60009765625,
+      "avgGrade": 8.2637939453125,
+      "startLat": 29.508869171142578,
+      "startLng": 118.34925079345703
+    },
+    {
+      "id": "33350531",
+      "tileScore": 21,
+      "name": "cd-汾口到璜尖村",
+      "distanceM": 29351.400390625,
+      "avgGrade": 0.8156339526176453,
+      "startLat": 29.422534942626953,
+      "startLng": 118.5295181274414
+    }
+  ]
+}

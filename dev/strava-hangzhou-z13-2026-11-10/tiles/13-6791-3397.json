@@ -1,0 +1,20 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T20:42:43.398Z",
+  "tile": {
+    "z": 13,
+    "x": 6791,
+    "y": 3397
+  },
+  "segments": [
+    {
+      "id": "33350451",
+      "tileScore": 3,
+      "name": "cd-淳开线 霞山村到宏鲍村",
+      "distanceM": 10292.7998046875,
+      "avgGrade": -0.2545468807220459,
+      "startLat": 29.332988739013672,
+      "startLng": 118.40409851074219
+    }
+  ]
+}

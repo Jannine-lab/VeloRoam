@@ -1,0 +1,38 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T19:57:29.283Z",
+  "tile": {
+    "z": 13,
+    "x": 6745,
+    "y": 3078
+  },
+  "segments": [
+    {
+      "id": "19049902",
+      "tileScore": 4,
+      "name": "三间房村 to 窑沟",
+      "distanceM": 5342.2001953125,
+      "avgGrade": 0.4305342137813568,
+      "startLat": 40.74984359741211,
+      "startLng": 116.461669921875
+    },
+    {
+      "id": "19049911",
+      "tileScore": 4,
+      "name": "窑沟 to huasi rd",
+      "distanceM": 2433.60009765625,
+      "avgGrade": 0.5670611262321472,
+      "startLat": 40.753135681152344,
+      "startLng": 116.41956329345703
+    },
+    {
+      "id": "38048121",
+      "tileScore": 32,
+      "name": "千沙公路放坡至滴水湖",
+      "distanceM": 22426,
+      "avgGrade": -1.2298225164413452,
+      "startLat": 40.73629379272461,
+      "startLng": 116.36222076416016
+    }
+  ]
+}

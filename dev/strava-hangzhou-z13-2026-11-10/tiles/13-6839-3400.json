@@ -1,0 +1,29 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T20:32:56.308Z",
+  "tile": {
+    "z": 13,
+    "x": 6839,
+    "y": 3400
+  },
+  "segments": [
+    {
+      "id": "33834394",
+      "tileScore": 14,
+      "name": "坟山岗",
+      "distanceM": 4231.7998046875,
+      "avgGrade": 3.8848717212677,
+      "startLat": 29.212038040161133,
+      "startLng": 120.54387664794922
+    },
+    {
+      "id": "35683563",
+      "tileScore": 14,
+      "name": "尖岩上东风",
+      "distanceM": 4368.7001953125,
+      "avgGrade": 8.071050643920898,
+      "startLat": 29.215818405151367,
+      "startLng": 120.54540252685547
+    }
+  ]
+}

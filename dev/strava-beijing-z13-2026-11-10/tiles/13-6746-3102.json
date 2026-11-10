@@ -1,0 +1,371 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T19:33:48.263Z",
+  "tile": {
+    "z": 13,
+    "x": 6746,
+    "y": 3102
+  },
+  "segments": [
+    {
+      "id": "9254664",
+      "tileScore": 6,
+      "name": "NvRenJie to 4th on XiaoYunLu",
+      "distanceM": 1053.0999755859375,
+      "avgGrade": -0.2468901425600052,
+      "startLat": 39.95901870727539,
+      "startLng": 116.46044158935547
+    },
+    {
+      "id": "37015889",
+      "tileScore": 13,
+      "name": "Chaoyang station W-E 火车驶向云外梦安魂于九霄",
+      "distanceM": 511.6000061035156,
+      "avgGrade": 1.6810007095336914,
+      "startLat": 39.94455337524414,
+      "startLng": 116.49551391601562
+    },
+    {
+      "id": "12443283",
+      "tileScore": 38,
+      "name": "京密路（三元桥-四元桥）",
+      "distanceM": 1258.4000244140625,
+      "avgGrade": -0.2542911469936371,
+      "startLat": 39.96200180053711,
+      "startLng": 116.45353698730469
+    },
+    {
+      "id": "31193490",
+      "tileScore": 15,
+      "name": "四环内环半圈_北",
+      "distanceM": 32409.19921875,
+      "avgGrade": -0.04072917625308037,
+      "startLat": 39.90775680541992,
+      "startLng": 116.26834869384766
+    },
+    {
+      "id": "8278391",
+      "tileScore": 114,
+      "name": "Chaoyang Park East",
+      "distanceM": 2364.199951171875,
+      "avgGrade": 0.01268928125500679,
+      "startLat": 39.95453643798828,
+      "startLng": 116.48234558105469
+    },
+    {
+      "id": "37049602",
+      "tileScore": 5,
+      "name": "抄近路去上班",
+      "distanceM": 2870.5,
+      "avgGrade": 0.020902281627058983,
+      "startLat": 39.96442413330078,
+      "startLng": 116.51478576660156
+    },
+    {
+      "id": "32186399",
+      "tileScore": 2,
+      "name": "这个b班就上到这",
+      "distanceM": 12158.400390625,
+      "avgGrade": 0.07155546545982361,
+      "startLat": 39.92258071899414,
+      "startLng": 116.54744720458984
+    },
+    {
+      "id": "41505952",
+      "tileScore": 30,
+      "name": "东四环ˆ北路（四元桥→四惠桥）",
+      "distanceM": 7260,
+      "avgGrade": -0.002754820976406336,
+      "startLat": 39.9678955078125,
+      "startLng": 116.46540069580078
+    },
+    {
+      "id": "12263730",
+      "tileScore": 24,
+      "name": "朝阳公园东四环一路向北",
+      "distanceM": 2636.10009765625,
+      "avgGrade": 0.07586965709924698,
+      "startLat": 39.93278503417969,
+      "startLng": 116.48414611816406
+    },
+    {
+      "id": "35806087",
+      "tileScore": 3,
+      "name": "下班拐进东三环·哈哈鹿",
+      "distanceM": 553.5999755859375,
+      "avgGrade": 0.18063583970069885,
+      "startLat": 39.94868087768555,
+      "startLng": 116.45594787597656
+    },
+    {
+      "id": "8114657",
+      "tileScore": 7,
+      "name": "JXQ N>>S",
+      "distanceM": 754.7999877929688,
+      "avgGrade": 0.02649708464741707,
+      "startLat": 39.97866439819336,
+      "startLng": 116.4834213256836
+    },
+    {
+      "id": "32776723",
+      "tileScore": 10,
+      "name": "东风小圈",
+      "distanceM": 2435.10009765625,
+      "avgGrade": -0.049279291182756424,
+      "startLat": 39.9525146484375,
+      "startLng": 116.49415588378906
+    },
+    {
+      "id": "34517049",
+      "tileScore": 5,
+      "name": "酒仙桥路拥堵路段突围",
+      "distanceM": 1656.4000244140625,
+      "avgGrade": -0.08452065289020538,
+      "startLat": 39.971073150634766,
+      "startLng": 116.48368835449219
+    },
+    {
+      "id": "26141643",
+      "tileScore": 19,
+      "name": "Optimus Prime and Bumblebee",
+      "distanceM": 1080.300048828125,
+      "avgGrade": 0.0647968128323555,
+      "startLat": 39.98262023925781,
+      "startLng": 116.47595977783203
+    },
+    {
+      "id": "37230066",
+      "tileScore": 22,
+      "name": "东四环 · 内环辅路 | 四元桥-十八里店桥",
+      "distanceM": 15106,
+      "avgGrade": -0.00661988602951169,
+      "startLat": 39.96771240234375,
+      "startLng": 116.46417999267578
+    },
+    {
+      "id": "37511464",
+      "tileScore": 12,
+      "name": "Wenyu River to Ba River",
+      "distanceM": 13779.7001953125,
+      "avgGrade": 0.07547333836555481,
+      "startLat": 40.0565071105957,
+      "startLng": 116.53984832763672
+    },
+    {
+      "id": "12743591",
+      "tileScore": 5,
+      "name": "四元西桥北向南爬坡",
+      "distanceM": 456.70001220703125,
+      "avgGrade": 0.9634333848953247,
+      "startLat": 39.977664947509766,
+      "startLng": 116.46086883544922
+    },
+    {
+      "id": "37710221",
+      "tileScore": 5,
+      "name": "三环内环-朝阳路起止",
+      "distanceM": 48864.6015625,
+      "avgGrade": 0.0006139414035715163,
+      "startLat": 39.9173698425293,
+      "startLng": 116.45520782470703
+    },
+    {
+      "id": "29779893",
+      "tileScore": 6,
+      "name": "Work day sprint",
+      "distanceM": 835,
+      "avgGrade": 0.23952096700668335,
+      "startLat": 39.970611572265625,
+      "startLng": 116.49674224853516
+    },
+    {
+      "id": "42175804",
+      "tileScore": 2,
+      "name": "骑车比开车快的通勤",
+      "distanceM": 37951.69921875,
+      "avgGrade": -0.10223521292209625,
+      "startLat": 39.905982971191406,
+      "startLng": 116.25113677978516
+    },
+    {
+      "id": "37986376",
+      "tileScore": 18,
+      "name": "姚家园到双新桥最怕红灯亮",
+      "distanceM": 1169.0999755859375,
+      "avgGrade": 0.4276793897151947,
+      "startLat": 39.93321228027344,
+      "startLng": 116.48407745361328
+    },
+    {
+      "id": "39479613",
+      "tileScore": 1,
+      "name": "",
+      "distanceM": 7845.7998046875,
+      "avgGrade": -0.04588441923260689,
+      "startLat": 39.9858512878418,
+      "startLng": 116.47920227050781
+    },
+    {
+      "id": "3505409",
+      "tileScore": 10,
+      "name": "3rd Ring up to Liangmaqiao",
+      "distanceM": 2748.132568359375,
+      "avgGrade": -0.07277490943670273,
+      "startLat": 39.921993255615234,
+      "startLng": 116.45600891113281
+    },
+    {
+      "id": "12743584",
+      "tileScore": 10,
+      "name": "四元西桥南向北爬坡",
+      "distanceM": 680,
+      "avgGrade": 0.5882353186607361,
+      "startLat": 39.97011184692383,
+      "startLng": 116.45053100585938
+    },
+    {
+      "id": "35258721",
+      "tileScore": 2,
+      "name": "通勤の小路",
+      "distanceM": 5951.2998046875,
+      "avgGrade": 0.05713037773966789,
+      "startLat": 39.914573669433594,
+      "startLng": 116.47212219238281
+    },
+    {
+      "id": "4138353",
+      "tileScore": 15,
+      "name": "四元桥 eastbound",
+      "distanceM": 825,
+      "avgGrade": 0.3030302822589874,
+      "startLat": 39.97149658203125,
+      "startLng": 116.45991516113281
+    },
+    {
+      "id": "35646315",
+      "tileScore": 5,
+      "name": "东风南路至驼房营南路",
+      "distanceM": 663,
+      "avgGrade": -0.030165914446115494,
+      "startLat": 39.952430725097656,
+      "startLng": 116.49476623535156
+    },
+    {
+      "id": "4202141",
+      "tileScore": 1,
+      "name": "Huajiadi street northwestbound",
+      "distanceM": 2883.10009765625,
+      "avgGrade": 0.3537858724594116,
+      "startLat": 39.97145462036133,
+      "startLng": 116.48356628417969
+    },
+    {
+      "id": "41463761",
+      "tileScore": 5,
+      "name": "酒仙桥-朗园（W-E）",
+      "distanceM": 2187.5,
+      "avgGrade": -0.03199999779462814,
+      "startLat": 39.96590042114258,
+      "startLng": 116.48453521728516
+    },
+    {
+      "id": "9074993",
+      "tileScore": 15,
+      "name": "Lucky St. to 4th W to E",
+      "distanceM": 902.2000122070312,
+      "avgGrade": -0.6761249899864197,
+      "startLat": 39.95270538330078,
+      "startLng": 116.47090911865234
+    },
+    {
+      "id": "37223898",
+      "tileScore": 4,
+      "name": "东三环 · 内环辅路 | 三元桥-分钟寺桥",
+      "distanceM": 10803,
+      "avgGrade": -0.0647968128323555,
+      "startLat": 39.95619583129883,
+      "startLng": 116.44828033447266
+    },
+    {
+      "id": "36623674",
+      "tileScore": 37,
+      "name": "Liangmaqiao to Fangyaun South",
+      "distanceM": 894.7999877929688,
+      "avgGrade": 0,
+      "startLat": 39.95765686035156,
+      "startLng": 116.4810791015625
+    },
+    {
+      "id": "2297404",
+      "tileScore": 42,
+      "name": "4th RR East, Wangjing-Siyuan West, eastbound",
+      "distanceM": 852.5021362304688,
+      "avgGrade": -0.22287389636039734,
+      "startLat": 39.97910690307617,
+      "startLng": 116.44888305664062
+    },
+    {
+      "id": "32097913",
+      "tileScore": 6,
+      "name": "爬个小坡回东坝！",
+      "distanceM": 946.9000244140625,
+      "avgGrade": -0.0844862163066864,
+      "startLat": 39.95333480834961,
+      "startLng": 116.49884033203125
+    },
+    {
+      "id": "37511458",
+      "tileScore": 12,
+      "name": "3rd Ring to Wenyu River",
+      "distanceM": 13751.5,
+      "avgGrade": -0.09017197787761688,
+      "startLat": 39.95709991455078,
+      "startLng": 116.44827270507812
+    },
+    {
+      "id": "39382415",
+      "tileScore": 4,
+      "name": "芳园西路（W-E）",
+      "distanceM": 1821.5999755859375,
+      "avgGrade": -0.05489679053425789,
+      "startLat": 39.96681594848633,
+      "startLng": 116.46908569335938
+    },
+    {
+      "id": "37562586",
+      "tileScore": 10,
+      "name": "驼房营路到庄园西路",
+      "distanceM": 2639.699951171875,
+      "avgGrade": -0.08334280550479889,
+      "startLat": 39.970436096191406,
+      "startLng": 116.49838256835938
+    },
+    {
+      "id": "10652833",
+      "tileScore": 15,
+      "name": "Shoot up the 4th Ring",
+      "distanceM": 7825.60009765625,
+      "avgGrade": 0.08561643958091736,
+      "startLat": 39.93245315551758,
+      "startLng": 116.48394012451172
+    },
+    {
+      "id": "39587789",
+      "tileScore": 33,
+      "name": "泛海豪宅一圈",
+      "distanceM": 2858,
+      "avgGrade": -0.006997900549322367,
+      "startLat": 39.93955612182617,
+      "startLng": 116.48423767089844
+    },
+    {
+      "id": "41456848",
+      "tileScore": 12,
+      "name": "大山子-太阳宫（N-S）",
+      "distanceM": 4127.10009765625,
+      "avgGrade": 0.09692035615444183,
+      "startLat": 39.987579345703125,
+      "startLng": 116.4810791015625
+    }
+  ]
+}

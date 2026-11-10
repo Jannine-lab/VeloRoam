@@ -1,0 +1,29 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T19:52:33.297Z",
+  "tile": {
+    "z": 13,
+    "x": 6762,
+    "y": 3116
+  },
+  "segments": [
+    {
+      "id": "15908472",
+      "tileScore": 7,
+      "name": "s101(x533-s323)",
+      "distanceM": 2524.699951171875,
+      "avgGrade": 0,
+      "startLat": 39.457576751708984,
+      "startLng": 117.17753601074219
+    },
+    {
+      "id": "15908489",
+      "tileScore": 1,
+      "name": "后崔路(s101-x605)",
+      "distanceM": 1625.800048828125,
+      "avgGrade": -0.0615081824362278,
+      "startLat": 39.485572814941406,
+      "startLng": 117.17618560791016
+    }
+  ]
+}

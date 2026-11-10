@@ -1,0 +1,20 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T20:24:36.638Z",
+  "tile": {
+    "z": 13,
+    "x": 6820,
+    "y": 3388
+  },
+  "segments": [
+    {
+      "id": "24943521",
+      "tileScore": 12,
+      "name": "S210 潘岭路口—芦茨",
+      "distanceM": 17888.19921875,
+      "avgGrade": -1.8000694513320923,
+      "startLat": 29.563762664794922,
+      "startLng": 119.74529266357422
+    }
+  ]
+}

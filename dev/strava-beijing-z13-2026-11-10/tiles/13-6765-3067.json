@@ -1,0 +1,20 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T20:12:19.861Z",
+  "tile": {
+    "z": 13,
+    "x": 6765,
+    "y": 3067
+  },
+  "segments": [
+    {
+      "id": "34639797",
+      "tileScore": 1,
+      "name": "the fabulous 岔溝門 climb",
+      "distanceM": 6420.89990234375,
+      "avgGrade": 5.250042915344238,
+      "startLat": 41.1453971862793,
+      "startLng": 117.29601287841797
+    }
+  ]
+}

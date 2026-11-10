@@ -1,0 +1,29 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T19:39:09.481Z",
+  "tile": {
+    "z": 13,
+    "x": 6749,
+    "y": 3094
+  },
+  "segments": [
+    {
+      "id": "33115277",
+      "tileScore": 1,
+      "name": "北木路e-w",
+      "distanceM": 9220.400390625,
+      "avgGrade": 0.04338206350803375,
+      "startLat": 40.237754821777344,
+      "startLng": 116.63762664794922
+    },
+    {
+      "id": "22250413",
+      "tileScore": 10,
+      "name": "拉拉拉",
+      "distanceM": 416.8999938964844,
+      "avgGrade": 2.3986566066741943,
+      "startLat": 40.24424743652344,
+      "startLng": 116.62920379638672
+    }
+  ]
+}

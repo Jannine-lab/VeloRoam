@@ -1,0 +1,38 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T20:35:44.322Z",
+  "tile": {
+    "z": 13,
+    "x": 6799,
+    "y": 3383
+  },
+  "segments": [
+    {
+      "id": "20038515",
+      "tileScore": 3,
+      "name": "叶门线 Full Climb to 安徽 Border",
+      "distanceM": 8777,
+      "avgGrade": 3.7621054649353027,
+      "startLat": 29.808664321899414,
+      "startLng": 118.81367492675781
+    },
+    {
+      "id": "37688268",
+      "tileScore": 10,
+      "name": "真正在天上飞的路【DQ】",
+      "distanceM": 1935.199951171875,
+      "avgGrade": 2.4390242099761963,
+      "startLat": 29.882408142089844,
+      "startLng": 118.82837677001953
+    },
+    {
+      "id": "35321021",
+      "tileScore": 4,
+      "name": "Up they went",
+      "distanceM": 6441.2998046875,
+      "avgGrade": 6.883703708648682,
+      "startLat": 29.835697174072266,
+      "startLng": 118.8237533569336
+    }
+  ]
+}

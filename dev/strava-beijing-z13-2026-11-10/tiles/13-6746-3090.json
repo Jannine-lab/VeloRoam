@@ -1,0 +1,38 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T19:42:29.893Z",
+  "tile": {
+    "z": 13,
+    "x": 6746,
+    "y": 3090
+  },
+  "segments": [
+    {
+      "id": "37561020",
+      "tileScore": 12,
+      "name": "陈家峪爬坡",
+      "distanceM": 4747.5,
+      "avgGrade": 3.361769437789917,
+      "startLat": 40.34651565551758,
+      "startLng": 116.51739501953125
+    },
+    {
+      "id": "11144364",
+      "tileScore": 6,
+      "name": "The Great Wall",
+      "distanceM": 941.2999877929688,
+      "avgGrade": 19.57930564880371,
+      "startLat": 40.35881423950195,
+      "startLng": 116.4653549194336
+    },
+    {
+      "id": "18593849",
+      "tileScore": 9,
+      "name": "Yiduhecun 一渡河村 climb",
+      "distanceM": 4780.2998046875,
+      "avgGrade": 4.464155197143555,
+      "startLat": 40.34004592895508,
+      "startLng": 116.4998550415039
+    }
+  ]
+}

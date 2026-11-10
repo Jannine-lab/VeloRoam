@@ -1,0 +1,20 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T19:53:28.224Z",
+  "tile": {
+    "z": 13,
+    "x": 6765,
+    "y": 3093
+  },
+  "segments": [
+    {
+      "id": "35108380",
+      "tileScore": 6,
+      "name": "陡子峪赛段",
+      "distanceM": 13660.900390625,
+      "avgGrade": 2.791909694671631,
+      "startLat": 40.23984909057617,
+      "startLng": 117.32334899902344
+    }
+  ]
+}

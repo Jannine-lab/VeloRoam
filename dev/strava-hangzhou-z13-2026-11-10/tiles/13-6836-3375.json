@@ -1,0 +1,92 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T20:17:22.283Z",
+  "tile": {
+    "z": 13,
+    "x": 6836,
+    "y": 3375
+  },
+  "segments": [
+    {
+      "id": "35951828",
+      "tileScore": 5,
+      "name": "Driving School",
+      "distanceM": 1953.699951171875,
+      "avgGrade": -12.816706657409668,
+      "startLat": 30.180191040039062,
+      "startLng": 120.42959594726562
+    },
+    {
+      "id": "37295496",
+      "tileScore": 25,
+      "name": "航坞山脚冲一冲",
+      "distanceM": 545.5,
+      "avgGrade": 0.18331804871559143,
+      "startLat": 30.174589157104492,
+      "startLng": 120.44158935546875
+    },
+    {
+      "id": "33200780",
+      "tileScore": 46,
+      "name": "航坞山西-新",
+      "distanceM": 2427.39990234375,
+      "avgGrade": 7.267035007476807,
+      "startLat": 30.18197250366211,
+      "startLng": 120.41777038574219
+    },
+    {
+      "id": "12336051",
+      "tileScore": 768,
+      "name": "航坞山全程",
+      "distanceM": 3177.699951171875,
+      "avgGrade": 6.608553409576416,
+      "startLat": 30.171958923339844,
+      "startLng": 120.43524169921875
+    },
+    {
+      "id": "30876471",
+      "tileScore": 3,
+      "name": "Dongling North Road sprint stage",
+      "distanceM": 3327.10009765625,
+      "avgGrade": -0.02705058455467224,
+      "startLat": 30.16239356994629,
+      "startLng": 120.40483093261719
+    },
+    {
+      "id": "34339990",
+      "tileScore": 1,
+      "name": "群联绕圈Sprint section",
+      "distanceM": 737.2000122070312,
+      "avgGrade": 0,
+      "startLat": 30.167970657348633,
+      "startLng": 120.44027709960938
+    },
+    {
+      "id": "37295491",
+      "tileScore": 19,
+      "name": "路况这么好，还不进攻？",
+      "distanceM": 836.7000122070312,
+      "avgGrade": -0.02390342950820923,
+      "startLat": 30.184839248657227,
+      "startLng": 120.44406127929688
+    },
+    {
+      "id": "32343394",
+      "tileScore": 48,
+      "name": "H53-Checkpoint 1",
+      "distanceM": 545.4000244140625,
+      "avgGrade": 6.3806376457214355,
+      "startLat": 30.171722412109375,
+      "startLng": 120.43578338623047
+    },
+    {
+      "id": "29342783",
+      "tileScore": 6,
+      "name": "群联绕圈",
+      "distanceM": 5629.10009765625,
+      "avgGrade": -0.021317794919013977,
+      "startLat": 30.16942024230957,
+      "startLng": 120.45332336425781
+    }
+  ]
+}

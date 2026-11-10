@@ -1,0 +1,29 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T20:08:15.259Z",
+  "tile": {
+    "z": 13,
+    "x": 6764,
+    "y": 3075
+  },
+  "segments": [
+    {
+      "id": "34781700",
+      "tileScore": 1,
+      "name": "S354 要子沟 climb",
+      "distanceM": 2727,
+      "avgGrade": 2.6916024684906006,
+      "startLat": 40.89216232299805,
+      "startLng": 117.2557373046875
+    },
+    {
+      "id": "34781730",
+      "tileScore": 3,
+      "name": "S354 平坊-巴克什营",
+      "distanceM": 27235.599609375,
+      "avgGrade": -0.8760592937469482,
+      "startLat": 40.89216232299805,
+      "startLng": 117.2557373046875
+    }
+  ]
+}

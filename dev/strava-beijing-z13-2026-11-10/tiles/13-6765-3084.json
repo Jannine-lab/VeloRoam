@@ -1,0 +1,20 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T20:00:04.501Z",
+  "tile": {
+    "z": 13,
+    "x": 6765,
+    "y": 3084
+  },
+  "segments": [
+    {
+      "id": "37161776",
+      "tileScore": 10,
+      "name": "大黄岩河烂路放坡颠死个人",
+      "distanceM": 29234.400390625,
+      "avgGrade": -2.3137125968933105,
+      "startLat": 40.49690628051758,
+      "startLng": 117.42688751220703
+    }
+  ]
+}

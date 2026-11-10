@@ -1,0 +1,56 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T20:25:40.765Z",
+  "tile": {
+    "z": 13,
+    "x": 6811,
+    "y": 3378
+  },
+  "segments": [
+    {
+      "id": "38192422",
+      "tileScore": 3,
+      "name": "上马山  吃西瓜",
+      "distanceM": 4049.300048828125,
+      "avgGrade": 6.297384738922119,
+      "startLat": 30.04326057434082,
+      "startLng": 119.32769012451172
+    },
+    {
+      "id": "19032897",
+      "tileScore": 3,
+      "name": "Tangwankou to Hanjia",
+      "distanceM": 8976.7998046875,
+      "avgGrade": 2.7337136268615723,
+      "startLat": 30.036083221435547,
+      "startLng": 119.3191909790039
+    },
+    {
+      "id": "38760584",
+      "tileScore": 7,
+      "name": "青山殿to马山路口",
+      "distanceM": 3847.89990234375,
+      "avgGrade": 3.3836636543273926,
+      "startLat": 30.043987274169922,
+      "startLng": 119.350341796875
+    },
+    {
+      "id": "37080602",
+      "tileScore": 3,
+      "name": "🚴🏻马上就结束了别松脚⛰️",
+      "distanceM": 1204.800048828125,
+      "avgGrade": 3.519256353378296,
+      "startLat": 30.035154342651367,
+      "startLng": 119.32083129882812
+    },
+    {
+      "id": "40160071",
+      "tileScore": 1,
+      "name": "小缓坡",
+      "distanceM": 942.5,
+      "avgGrade": 4.816976070404053,
+      "startLat": 30.051382064819336,
+      "startLng": 119.32159423828125
+    }
+  ]
+}

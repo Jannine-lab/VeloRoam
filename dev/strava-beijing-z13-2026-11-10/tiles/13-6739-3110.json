@@ -1,0 +1,29 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T19:37:54.331Z",
+  "tile": {
+    "z": 13,
+    "x": 6739,
+    "y": 3110
+  },
+  "segments": [
+    {
+      "id": "37528237",
+      "tileScore": 3,
+      "name": "大学城鲁贝西岸",
+      "distanceM": 1399.0999755859375,
+      "avgGrade": 0.171538844704628,
+      "startLat": 39.69596862792969,
+      "startLng": 116.15975189208984
+    },
+    {
+      "id": "39475598",
+      "tileScore": 7,
+      "name": "小清河东侧北向南SEG3",
+      "distanceM": 5037.5,
+      "avgGrade": -0.08734491467475891,
+      "startLat": 39.706932067871094,
+      "startLng": 116.19542694091797
+    }
+  ]
+}

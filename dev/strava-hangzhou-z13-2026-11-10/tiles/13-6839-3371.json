@@ -1,0 +1,29 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T20:17:56.028Z",
+  "tile": {
+    "z": 13,
+    "x": 6839,
+    "y": 3371
+  },
+  "segments": [
+    {
+      "id": "23868600",
+      "tileScore": 2,
+      "name": "江东大道e-w",
+      "distanceM": 15409.099609375,
+      "avgGrade": 0.018171081319451332,
+      "startLat": 30.30754852294922,
+      "startLng": 120.59674835205078
+    },
+    {
+      "id": "34376636",
+      "tileScore": 4,
+      "name": "江东一路W-E",
+      "distanceM": 5491.60009765625,
+      "avgGrade": 0.0109257772564888,
+      "startLat": 30.322341918945312,
+      "startLng": 120.49195098876953
+    }
+  ]
+}

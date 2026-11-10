@@ -1,0 +1,83 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T19:35:07.493Z",
+  "tile": {
+    "z": 13,
+    "x": 6738,
+    "y": 3106
+  },
+  "segments": [
+    {
+      "id": "37199285",
+      "tileScore": 2,
+      "name": "云岗北环路小陡坡",
+      "distanceM": 614,
+      "avgGrade": 2.4755699634552,
+      "startLat": 39.816184997558594,
+      "startLng": 116.1474380493164
+    },
+    {
+      "id": "25584756",
+      "tileScore": 10,
+      "name": "大灰厂路爬戒台寺",
+      "distanceM": 10554.099609375,
+      "avgGrade": 2.402857780456543,
+      "startLat": 39.80862045288086,
+      "startLng": 116.12328338623047
+    },
+    {
+      "id": "10351072",
+      "tileScore": 1,
+      "name": "Up, up and over",
+      "distanceM": 2889.60009765625,
+      "avgGrade": -1.6888151168823242,
+      "startLat": 39.8480339050293,
+      "startLng": 116.1371841430664
+    },
+    {
+      "id": "29724323",
+      "tileScore": 10,
+      "name": "千灵山爬坡",
+      "distanceM": 2996.800048828125,
+      "avgGrade": 2.6294713020324707,
+      "startLat": 39.836917877197266,
+      "startLng": 116.11524200439453
+    },
+    {
+      "id": "41712061",
+      "tileScore": 21,
+      "name": "大灰厂冲刺",
+      "distanceM": 3005.699951171875,
+      "avgGrade": -0.419203519821167,
+      "startLat": 39.8364372253418,
+      "startLng": 116.1169662475586
+    },
+    {
+      "id": "31934634",
+      "tileScore": 3,
+      "name": "灵湖路爽的一批",
+      "distanceM": 2798.800048828125,
+      "avgGrade": -1.2219523191452026,
+      "startLat": 39.83665466308594,
+      "startLng": 116.10903930664062
+    },
+    {
+      "id": "10359233",
+      "tileScore": 3,
+      "name": "Rolling Hills Beijing Tri",
+      "distanceM": 2213.89990234375,
+      "avgGrade": 2.195221185684204,
+      "startLat": 39.82299041748047,
+      "startLng": 116.13155364990234
+    },
+    {
+      "id": "15978061",
+      "tileScore": 5,
+      "name": "Full Beijing International Tri Loop",
+      "distanceM": 38777.6015625,
+      "avgGrade": -0.016504373401403427,
+      "startLat": 39.861778259277344,
+      "startLng": 116.2039566040039
+    }
+  ]
+}

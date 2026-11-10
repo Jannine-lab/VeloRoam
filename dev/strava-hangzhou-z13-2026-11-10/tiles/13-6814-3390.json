@@ -1,0 +1,20 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T20:28:09.203Z",
+  "tile": {
+    "z": 13,
+    "x": 6814,
+    "y": 3390
+  },
+  "segments": [
+    {
+      "id": "39042560",
+      "tileScore": 13,
+      "name": "G320 建德-乾潭",
+      "distanceM": 24345.5,
+      "avgGrade": -0.0008215070702135563,
+      "startLat": 29.51140022277832,
+      "startLng": 119.30841064453125
+    }
+  ]
+}

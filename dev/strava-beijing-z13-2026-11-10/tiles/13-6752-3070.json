@@ -1,0 +1,20 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T20:07:32.408Z",
+  "tile": {
+    "z": 13,
+    "x": 6752,
+    "y": 3070
+  },
+  "segments": [
+    {
+      "id": "37700524",
+      "tileScore": 1,
+      "name": "the famous 東溝 climb",
+      "distanceM": 3602.699951171875,
+      "avgGrade": 7.455519676208496,
+      "startLat": 41.0211296081543,
+      "startLng": 116.74642944335938
+    }
+  ]
+}

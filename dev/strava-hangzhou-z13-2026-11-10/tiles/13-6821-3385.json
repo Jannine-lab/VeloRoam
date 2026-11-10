@@ -1,0 +1,29 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T20:23:38.232Z",
+  "tile": {
+    "z": 13,
+    "x": 6821,
+    "y": 3385
+  },
+  "segments": [
+    {
+      "id": "42444331",
+      "tileScore": 2,
+      "name": "出隧道冲回家",
+      "distanceM": 2883.699951171875,
+      "avgGrade": -2.2054998874664307,
+      "startLat": 29.78754425048828,
+      "startLng": 119.79066467285156
+    },
+    {
+      "id": "38933409",
+      "tileScore": 72,
+      "name": "肖岭大坝新路",
+      "distanceM": 760.5,
+      "avgGrade": 4.260354995727539,
+      "startLat": 29.792749404907227,
+      "startLng": 119.7895736694336
+    }
+  ]
+}

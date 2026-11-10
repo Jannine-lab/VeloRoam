@@ -1,0 +1,20 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T20:34:42.796Z",
+  "tile": {
+    "z": 13,
+    "x": 6807,
+    "y": 3393
+  },
+  "segments": [
+    {
+      "id": "17819401",
+      "tileScore": 8,
+      "name": "小环湖",
+      "distanceM": 102884,
+      "avgGrade": -0.008358928374946117,
+      "startLat": 29.475658416748047,
+      "startLng": 119.21735382080078
+    }
+  ]
+}

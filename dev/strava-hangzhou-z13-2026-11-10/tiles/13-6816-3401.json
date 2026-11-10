@@ -1,0 +1,47 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T20:33:56.209Z",
+  "tile": {
+    "z": 13,
+    "x": 6816,
+    "y": 3401
+  },
+  "segments": [
+    {
+      "id": "38004555",
+      "tileScore": 4,
+      "name": "【SOCC】阈值训练Route3-8MinVo2max*4",
+      "distanceM": 2677.39990234375,
+      "avgGrade": 5.949801921844482,
+      "startLat": 29.167423248291016,
+      "startLng": 119.57383728027344
+    },
+    {
+      "id": "41401189",
+      "tileScore": 26,
+      "name": "玲珑岩至前店 返程大火收汁",
+      "distanceM": 7043,
+      "avgGrade": -0.5963367819786072,
+      "startLat": 29.183029174804688,
+      "startLng": 119.56334686279297
+    },
+    {
+      "id": "37391861",
+      "tileScore": 220,
+      "name": "「TEUK」Beyond 击溃-玲珑岩",
+      "distanceM": 6861.10009765625,
+      "avgGrade": 4.3141770362854,
+      "startLat": 29.184293746948242,
+      "startLng": 119.56391906738281
+    },
+    {
+      "id": "39937569",
+      "tileScore": 7,
+      "name": "一路冲刺到庙后",
+      "distanceM": 1883.0999755859375,
+      "avgGrade": 3.29244327545166,
+      "startLat": 29.187339782714844,
+      "startLng": 119.55747985839844
+    }
+  ]
+}

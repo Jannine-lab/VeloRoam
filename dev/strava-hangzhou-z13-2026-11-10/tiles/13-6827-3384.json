@@ -1,0 +1,20 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T20:20:43.486Z",
+  "tile": {
+    "z": 13,
+    "x": 6827,
+    "y": 3384
+  },
+  "segments": [
+    {
+      "id": "33849006",
+      "tileScore": 1,
+      "name": "新三 到 五云岭脚",
+      "distanceM": 3332.199951171875,
+      "avgGrade": 3.973351001739502,
+      "startLat": 29.81497573852539,
+      "startLng": 119.98632049560547
+    }
+  ]
+}

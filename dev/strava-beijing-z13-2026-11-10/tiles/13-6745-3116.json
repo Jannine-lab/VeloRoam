@@ -1,0 +1,20 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T19:41:57.937Z",
+  "tile": {
+    "z": 13,
+    "x": 6745,
+    "y": 3116
+  },
+  "segments": [
+    {
+      "id": "37373660",
+      "tileScore": 16,
+      "name": "itt追飞机",
+      "distanceM": 4155.39990234375,
+      "avgGrade": -0.02406507357954979,
+      "startLat": 39.52466583251953,
+      "startLng": 116.42481231689453
+    }
+  ]
+}

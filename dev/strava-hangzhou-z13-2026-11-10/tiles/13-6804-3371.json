@@ -1,0 +1,38 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T20:29:13.370Z",
+  "tile": {
+    "z": 13,
+    "x": 6804,
+    "y": 3371
+  },
+  "segments": [
+    {
+      "id": "40445665",
+      "tileScore": 5,
+      "name": "孝岭gravel descent",
+      "distanceM": 2533.10009765625,
+      "avgGrade": -10.990486145019531,
+      "startLat": 30.3173770904541,
+      "startLng": 119.01704406738281
+    },
+    {
+      "id": "40836037",
+      "tileScore": 9,
+      "name": "这里有一面墙gravel",
+      "distanceM": 3606.5,
+      "avgGrade": 10.664078712463379,
+      "startLat": 30.335458755493164,
+      "startLng": 119.0209732055664
+    },
+    {
+      "id": "41673004",
+      "tileScore": 2,
+      "name": "华川村climb",
+      "distanceM": 3690.89990234375,
+      "avgGrade": 5.521688461303711,
+      "startLat": 30.29355812072754,
+      "startLng": 119.02259063720703
+    }
+  ]
+}

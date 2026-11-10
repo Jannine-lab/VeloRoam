@@ -1,0 +1,20 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T19:50:33.239Z",
+  "tile": {
+    "z": 13,
+    "x": 6760,
+    "y": 3117
+  },
+  "segments": [
+    {
+      "id": "36586303",
+      "tileScore": 3,
+      "name": "一路顺风",
+      "distanceM": 150016.40625,
+      "avgGrade": -0.0015998249873518944,
+      "startLat": 39.87700653076172,
+      "startLng": 116.66964721679688
+    }
+  ]
+}

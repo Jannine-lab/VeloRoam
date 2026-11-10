@@ -1,0 +1,20 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T20:29:01.021Z",
+  "tile": {
+    "z": 13,
+    "x": 6812,
+    "y": 3389
+  },
+  "segments": [
+    {
+      "id": "37414705",
+      "tileScore": 3,
+      "name": "七坞爬坡",
+      "distanceM": 3635.800048828125,
+      "avgGrade": 5.170801639556885,
+      "startLat": 29.61711311340332,
+      "startLng": 119.35914611816406
+    }
+  ]
+}

@@ -1,0 +1,74 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T19:42:54.453Z",
+  "tile": {
+    "z": 13,
+    "x": 6748,
+    "y": 3091
+  },
+  "segments": [
+    {
+      "id": "29469781",
+      "tileScore": 7,
+      "name": "\"左？右？\"\"左吧\"\"左\"",
+      "distanceM": 3869.800048828125,
+      "avgGrade": 0.09302806854248047,
+      "startLat": 40.29703140258789,
+      "startLng": 116.59789276123047
+    },
+    {
+      "id": "31116368",
+      "tileScore": 16,
+      "name": "驼岭一路干到怀黄路Wahoo！",
+      "distanceM": 33033.69921875,
+      "avgGrade": -0.9941362738609314,
+      "startLat": 40.405067443847656,
+      "startLng": 116.39430236816406
+    },
+    {
+      "id": "17042779",
+      "tileScore": 4,
+      "name": "Qiaoping Rd Ascent",
+      "distanceM": 1527.199951171875,
+      "avgGrade": 1.1393400430679321,
+      "startLat": 40.3141975402832,
+      "startLng": 116.57047271728516
+    },
+    {
+      "id": "34309244",
+      "tileScore": 4,
+      "name": "环怀柔水库",
+      "distanceM": 21146.5,
+      "avgGrade": 0.0018915659748017788,
+      "startLat": 40.295631408691406,
+      "startLng": 116.59709167480469
+    },
+    {
+      "id": "14890870",
+      "tileScore": 5,
+      "name": "Eco Village Run",
+      "distanceM": 2794.89990234375,
+      "avgGrade": 0,
+      "startLat": 40.32770538330078,
+      "startLng": 116.55573272705078
+    },
+    {
+      "id": "14890849",
+      "tileScore": 9,
+      "name": "Elephant playground sprint",
+      "distanceM": 2319.89990234375,
+      "avgGrade": 0.08621060848236084,
+      "startLat": 40.31398010253906,
+      "startLng": 116.5696792602539
+    },
+    {
+      "id": "11156414",
+      "tileScore": 20,
+      "name": "宽沟（怀长路-怀黄路）",
+      "distanceM": 10309,
+      "avgGrade": 0.27548742294311523,
+      "startLat": 40.29652786254883,
+      "startLng": 116.59757232666016
+    }
+  ]
+}

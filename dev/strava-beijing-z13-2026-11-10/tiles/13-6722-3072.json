@@ -1,0 +1,65 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T20:10:23.950Z",
+  "tile": {
+    "z": 13,
+    "x": 6722,
+    "y": 3072
+  },
+  "segments": [
+    {
+      "id": "37382189",
+      "tileScore": 28,
+      "name": "红花梁路口到云顶山顶长坡",
+      "distanceM": 12132.2998046875,
+      "avgGrade": 4.226733684539795,
+      "startLat": 40.90949249267578,
+      "startLng": 115.39227294921875
+    },
+    {
+      "id": "35404186",
+      "tileScore": 15,
+      "name": "好好的路怎么突然Gravel了起来",
+      "distanceM": 3907.39990234375,
+      "avgGrade": 9.484567642211914,
+      "startLat": 40.9714241027832,
+      "startLng": 115.3953628540039
+    },
+    {
+      "id": "39527869",
+      "tileScore": 25,
+      "name": "太子城至云顶蓄水池",
+      "distanceM": 5525.10009765625,
+      "avgGrade": 4.99900484085083,
+      "startLat": 40.921512603759766,
+      "startLng": 115.44139099121094
+    },
+    {
+      "id": "24918923",
+      "tileScore": 15,
+      "name": "\"Surprise - Surprise - Surprise.....\" SERK-Chongli-KOM (Including off-road section to the top)",
+      "distanceM": 13636.099609375,
+      "avgGrade": 5.419437885284424,
+      "startLat": 40.994483947753906,
+      "startLng": 115.29354095458984
+    },
+    {
+      "id": "35581281",
+      "tileScore": 17,
+      "name": "云顶大酒店补给点-梧桐路封路铁门-冬奥会后完美路况",
+      "distanceM": 4315.7998046875,
+      "avgGrade": 7.284860134124756,
+      "startLat": 40.947975158691406,
+      "startLng": 115.42998504638672
+    },
+    {
+      "id": "23586843",
+      "tileScore": 12,
+      "name": "崇礼七连发夹弯",
+      "distanceM": 1116.5,
+      "avgGrade": 8.508732795715332,
+      "startLat": 40.97201156616211,
+      "startLng": 115.42823791503906
+    }
+  ]
+}

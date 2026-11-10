@@ -1,0 +1,20 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T19:54:37.024Z",
+  "tile": {
+    "z": 13,
+    "x": 6724,
+    "y": 3090
+  },
+  "segments": [
+    {
+      "id": "40158790",
+      "tileScore": 4,
+      "name": "怀来南外环（东向西）",
+      "distanceM": 6350.60009765625,
+      "avgGrade": 0.031493086367845535,
+      "startLat": 40.37712097167969,
+      "startLng": 115.52706146240234
+    }
+  ]
+}

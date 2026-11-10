@@ -1,0 +1,137 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T20:21:51.230Z",
+  "tile": {
+    "z": 13,
+    "x": 6817,
+    "y": 3367
+  },
+  "segments": [
+    {
+      "id": "3666611",
+      "tileScore": 49,
+      "name": "Provincial Road Climb",
+      "distanceM": 1246.5841064453125,
+      "avgGrade": 7.011070251464844,
+      "startLat": 30.454402923583984,
+      "startLng": 119.59275817871094
+    },
+    {
+      "id": "8135041",
+      "tileScore": 1413,
+      "name": "天荒坪半程",
+      "distanceM": 10886.099609375,
+      "avgGrade": 4.570047855377197,
+      "startLat": 30.475177764892578,
+      "startLng": 119.60591888427734
+    },
+    {
+      "id": "33833005",
+      "tileScore": 7,
+      "name": "叶修的飞驰人生",
+      "distanceM": 1584.0999755859375,
+      "avgGrade": -0.47345495223999023,
+      "startLat": 30.472740173339844,
+      "startLng": 119.60620880126953
+    },
+    {
+      "id": "27377104",
+      "tileScore": 5,
+      "name": "天池—东坞村公路cx扛车赛_⛄️",
+      "distanceM": 824.2000122070312,
+      "avgGrade": -35.45256042480469,
+      "startLat": 30.470260620117188,
+      "startLng": 119.58316040039062
+    },
+    {
+      "id": "39781224",
+      "tileScore": 203,
+      "name": "天荒坪前半程（余村到牌坊）",
+      "distanceM": 7405.10009765625,
+      "avgGrade": 3.239659309387207,
+      "startLat": 30.519643783569336,
+      "startLng": 119.61943817138672
+    },
+    {
+      "id": "37616215",
+      "tileScore": 21,
+      "name": "Why the fuck is there a ski resort? ",
+      "distanceM": 3068.5,
+      "avgGrade": 5.618380546569824,
+      "startLat": 30.470748901367188,
+      "startLng": 119.58343505859375
+    },
+    {
+      "id": "37382061",
+      "tileScore": 42,
+      "name": "下坡回家冲冲冲",
+      "distanceM": 24279.30078125,
+      "avgGrade": -3.270275592803955,
+      "startLat": 30.463111877441406,
+      "startLng": 119.58880615234375
+    },
+    {
+      "id": "26152541",
+      "tileScore": 176,
+      "name": "大鱼线Climb",
+      "distanceM": 6800.60009765625,
+      "avgGrade": 4.511366844177246,
+      "startLat": 30.460561752319336,
+      "startLng": 119.6054916381836
+    },
+    {
+      "id": "3666609",
+      "tileScore": 41,
+      "name": "Provincial Road Climb",
+      "distanceM": 671.30810546875,
+      "avgGrade": 15.13481330871582,
+      "startLat": 30.48386573791504,
+      "startLng": 119.6019515991211
+    },
+    {
+      "id": "12345823",
+      "tileScore": 17,
+      "name": "天池Climb",
+      "distanceM": 11013.7001953125,
+      "avgGrade": 4.737735748291016,
+      "startLat": 30.472900390625,
+      "startLng": 119.61067199707031
+    },
+    {
+      "id": "3666612",
+      "tileScore": 54,
+      "name": "Provincial Road Climb",
+      "distanceM": 1315.1485595703125,
+      "avgGrade": 6.79035758972168,
+      "startLat": 30.45965003967285,
+      "startLng": 119.59701538085938
+    },
+    {
+      "id": "37351151",
+      "tileScore": 3,
+      "name": "环杭1 城西→104→江南天池→235返程",
+      "distanceM": 154840.59375,
+      "avgGrade": 0.020149754360318184,
+      "startLat": 30.351224899291992,
+      "startLng": 120.07047271728516
+    },
+    {
+      "id": "4807774",
+      "tileScore": 107,
+      "name": "Provincial Road Climb",
+      "distanceM": 355.20001220703125,
+      "avgGrade": 23.141891479492188,
+      "startLat": 30.47784423828125,
+      "startLng": 119.60626983642578
+    },
+    {
+      "id": "27376978",
+      "tileScore": 345,
+      "name": "天荒坪半程爬坡（牌坊—隧道后小亭子）_⛄️",
+      "distanceM": 4497.60009765625,
+      "avgGrade": 4.678050518035889,
+      "startLat": 30.47539520263672,
+      "startLng": 119.60581970214844
+    }
+  ]
+}

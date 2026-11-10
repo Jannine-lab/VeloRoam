@@ -1,0 +1,29 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T19:46:48.119Z",
+  "tile": {
+    "z": 13,
+    "x": 6746,
+    "y": 3087
+  },
+  "segments": [
+    {
+      "id": "7226921",
+      "tileScore": 9,
+      "name": "XiangShuiHu 32RMB Climb",
+      "distanceM": 9635.7001953125,
+      "avgGrade": 4.265388011932373,
+      "startLat": 40.42778778076172,
+      "startLng": 116.43485260009766
+    },
+    {
+      "id": "17925006",
+      "tileScore": 6,
+      "name": "Up the Wall",
+      "distanceM": 2330.60009765625,
+      "avgGrade": 7.817729473114014,
+      "startLat": 40.46633529663086,
+      "startLng": 116.46836853027344
+    }
+  ]
+}

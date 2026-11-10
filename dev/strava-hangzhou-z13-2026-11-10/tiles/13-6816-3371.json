@@ -1,0 +1,38 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T20:21:12.040Z",
+  "tile": {
+    "z": 13,
+    "x": 6816,
+    "y": 3371
+  },
+  "segments": [
+    {
+      "id": "31729373",
+      "tileScore": 2,
+      "name": "夏村DOWN",
+      "distanceM": 3697.699951171875,
+      "avgGrade": -2.0445141792297363,
+      "startLat": 30.32829475402832,
+      "startLng": 119.5631103515625
+    },
+    {
+      "id": "40174154",
+      "tileScore": 17,
+      "name": "浪白线itt",
+      "distanceM": 12663.7998046875,
+      "avgGrade": -1.2302783727645874,
+      "startLat": 30.307031631469727,
+      "startLng": 119.49585723876953
+    },
+    {
+      "id": "39251487",
+      "tileScore": 7,
+      "name": "众潘线climb",
+      "distanceM": 1464.199951171875,
+      "avgGrade": 4.876382827758789,
+      "startLat": 30.32920265197754,
+      "startLng": 119.57789611816406
+    }
+  ]
+}

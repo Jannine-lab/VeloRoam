@@ -1,0 +1,20 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T20:02:10.645Z",
+  "tile": {
+    "z": 13,
+    "x": 6734,
+    "y": 3076
+  },
+  "segments": [
+    {
+      "id": "28199103",
+      "tileScore": 1,
+      "name": "赤城-样田(G112缓下)",
+      "distanceM": 9273,
+      "avgGrade": -0.5521406531333923,
+      "startLat": 40.86399841308594,
+      "startLng": 115.86121368408203
+    }
+  ]
+}

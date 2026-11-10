@@ -1,0 +1,308 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T19:33:45.805Z",
+  "tile": {
+    "z": 13,
+    "x": 6745,
+    "y": 3103
+  },
+  "segments": [
+    {
+      "id": "15450500",
+      "tileScore": 33,
+      "name": "2nd Ring Rd. (Tonghui River)",
+      "distanceM": 33832,
+      "avgGrade": 0.00295578152872622,
+      "startLat": 39.902320861816406,
+      "startLng": 116.43033599853516
+    },
+    {
+      "id": "4244290",
+      "tileScore": 28,
+      "name": "Old City Wall (2nd Ring Inner) - Jianguomen eastside start",
+      "distanceM": 32748.19921875,
+      "avgGrade": 0,
+      "startLat": 39.907413482666016,
+      "startLng": 116.42849731445312
+    },
+    {
+      "id": "42175804",
+      "tileScore": 2,
+      "name": "骑车比开车快的通勤",
+      "distanceM": 37951.69921875,
+      "avgGrade": -0.10223521292209625,
+      "startLat": 39.905982971191406,
+      "startLng": 116.25113677978516
+    },
+    {
+      "id": "40643120",
+      "tileScore": 4,
+      "name": "金宝街（西→东）",
+      "distanceM": 1381,
+      "avgGrade": -0.3620564639568329,
+      "startLat": 39.914085388183594,
+      "startLng": 116.41173553466797
+    },
+    {
+      "id": "10283910",
+      "tileScore": 43,
+      "name": "East Second Ring Road",
+      "distanceM": 4165.2001953125,
+      "avgGrade": 0.0720253512263298,
+      "startLat": 39.94462585449219,
+      "startLng": 116.42716979980469
+    },
+    {
+      "id": "24660162",
+      "tileScore": 5,
+      "name": "From the WFC E3rd Side  Sprint challenge",
+      "distanceM": 879.0999755859375,
+      "avgGrade": 0.13650323450565338,
+      "startLat": 39.917762756347656,
+      "startLng": 116.45509338378906
+    },
+    {
+      "id": "11425128",
+      "tileScore": 17,
+      "name": "Worker Stadium Sprint",
+      "distanceM": 1078.800048828125,
+      "avgGrade": 0.129773810505867,
+      "startLat": 39.932838439941406,
+      "startLng": 116.4439468383789
+    },
+    {
+      "id": "39058280",
+      "tileScore": 2,
+      "name": "和你最爱的宝贝骑个双心吧",
+      "distanceM": 39443.5,
+      "avgGrade": 0.00760581623762846,
+      "startLat": 39.93310546875,
+      "startLng": 116.38347625732422
+    },
+    {
+      "id": "24526046",
+      "tileScore": 28,
+      "name": "不捏着刹车还骑不过我爹",
+      "distanceM": 13150.7001953125,
+      "avgGrade": -0.08060407638549805,
+      "startLat": 39.92338180541992,
+      "startLng": 116.35057067871094
+    },
+    {
+      "id": "15910333",
+      "tileScore": 2,
+      "name": "When Did Regis Become a Saint?",
+      "distanceM": 396.20001220703125,
+      "avgGrade": -0.2523977756500244,
+      "startLat": 39.90729904174805,
+      "startLng": 116.43495178222656
+    },
+    {
+      "id": "31573496",
+      "tileScore": 2,
+      "name": "上班来一发",
+      "distanceM": 14044.099609375,
+      "avgGrade": 0.03845031186938286,
+      "startLat": 39.80784225463867,
+      "startLng": 116.4660415649414
+    },
+    {
+      "id": "36554807",
+      "tileScore": 7,
+      "name": "南小街休闲ride",
+      "distanceM": 875.5999755859375,
+      "avgGrade": -0.4111466407775879,
+      "startLat": 39.914791107177734,
+      "startLng": 116.42057800292969
+    },
+    {
+      "id": "4038137",
+      "tileScore": 6,
+      "name": "簋街（东-西）",
+      "distanceM": 631.2999877929688,
+      "avgGrade": 0.44352924823760986,
+      "startLat": 39.939720153808594,
+      "startLng": 116.41864013671875
+    },
+    {
+      "id": "37767543",
+      "tileScore": 11,
+      "name": "神武门到小街",
+      "distanceM": 2508,
+      "avgGrade": -0.14752790331840515,
+      "startLat": 39.921878814697266,
+      "startLng": 116.39073944091797
+    },
+    {
+      "id": "33568255",
+      "tileScore": 2,
+      "name": "北京生肖路線補完計画 “兔”飞猛进 Chinese zodiac rabbit",
+      "distanceM": 54731.69921875,
+      "avgGrade": 0.00018270946748089045,
+      "startLat": 39.93940353393555,
+      "startLng": 116.38691711425781
+    },
+    {
+      "id": "15910371",
+      "tileScore": 10,
+      "name": "Racing past The Place",
+      "distanceM": 533.7000122070312,
+      "avgGrade": 0.8244332075119019,
+      "startLat": 39.912540435791016,
+      "startLng": 116.44437408447266
+    },
+    {
+      "id": "3591668",
+      "tileScore": 11,
+      "name": "大佛寺东街6号 Climb",
+      "distanceM": 773.054931640625,
+      "avgGrade": 16.300128936767578,
+      "startLat": 39.93242645263672,
+      "startLng": 116.41837310791016
+    },
+    {
+      "id": "41043878",
+      "tileScore": 2,
+      "name": "信达中心Crit",
+      "distanceM": 1562.0999755859375,
+      "avgGrade": -0.051213108003139496,
+      "startLat": 39.94041442871094,
+      "startLng": 116.43209838867188
+    },
+    {
+      "id": "28952114",
+      "tileScore": 44,
+      "name": "二环外环北半圈",
+      "distanceM": 14992.7001953125,
+      "avgGrade": 0.03801850229501724,
+      "startLat": 39.90991973876953,
+      "startLng": 116.42970275878906
+    },
+    {
+      "id": "17499043",
+      "tileScore": 2,
+      "name": "Gulou Street to Dongzhimen",
+      "distanceM": 3575,
+      "avgGrade": -0.1846153885126114,
+      "startLat": 39.939388275146484,
+      "startLng": 116.39713287353516
+    },
+    {
+      "id": "32968970",
+      "tileScore": 5,
+      "name": "祖国母亲节日快乐",
+      "distanceM": 61708.19921875,
+      "avgGrade": -0.013936559669673443,
+      "startLat": 39.88629150390625,
+      "startLng": 116.41233825683594
+    },
+    {
+      "id": "34719983",
+      "tileScore": 2,
+      "name": "北京赵登禹路路口至东四环中路辅路路口（平安里西路——西地安门街——东地安门街——张自忠路——东四十条街——工人体育场北路——农展馆南路——朝阳公园南路）",
+      "distanceM": 10410.7998046875,
+      "avgGrade": -0.14119952917099,
+      "startLat": 39.930870056152344,
+      "startLng": 116.36197662353516
+    },
+    {
+      "id": "37223898",
+      "tileScore": 4,
+      "name": "东三环 · 内环辅路 | 三元桥-分钟寺桥",
+      "distanceM": 10803,
+      "avgGrade": -0.0647968128323555,
+      "startLat": 39.95619583129883,
+      "startLng": 116.44828033447266
+    },
+    {
+      "id": "22259655",
+      "tileScore": 2,
+      "name": "美惠下班",
+      "distanceM": 21087.099609375,
+      "avgGrade": 0.11855589598417282,
+      "startLat": 39.93239212036133,
+      "startLng": 116.42526245117188
+    },
+    {
+      "id": "32178545",
+      "tileScore": 36,
+      "name": "东直门-朝阳门 LX",
+      "distanceM": 1212.699951171875,
+      "avgGrade": -0.03298424929380417,
+      "startLat": 39.93727111816406,
+      "startLng": 116.4273452758789
+    },
+    {
+      "id": "12385815",
+      "tileScore": 5,
+      "name": "Gongti North Road",
+      "distanceM": 1441.4000244140625,
+      "avgGrade": -0.16650478541851044,
+      "startLat": 39.9322395324707,
+      "startLng": 116.43807983398438
+    },
+    {
+      "id": "32870590",
+      "tileScore": 27,
+      "name": "工体西路我的家",
+      "distanceM": 629.0999755859375,
+      "avgGrade": -0.270227313041687,
+      "startLat": 39.93223190307617,
+      "startLng": 116.42938232421875
+    },
+    {
+      "id": "37710221",
+      "tileScore": 5,
+      "name": "三环内环-朝阳路起止",
+      "distanceM": 48864.6015625,
+      "avgGrade": 0.0006139414035715163,
+      "startLat": 39.9173698425293,
+      "startLng": 116.45520782470703
+    },
+    {
+      "id": "28831005",
+      "tileScore": 3,
+      "name": "东四南大街",
+      "distanceM": 2055.10009765625,
+      "avgGrade": -0.01946377381682396,
+      "startLat": 39.90829086303711,
+      "startLng": 116.41190338134766
+    },
+    {
+      "id": "13269809",
+      "tileScore": 7,
+      "name": "Workers Unite",
+      "distanceM": 392.20001220703125,
+      "avgGrade": -0.8414074778556824,
+      "startLat": 39.92205047607422,
+      "startLng": 116.44424438476562
+    },
+    {
+      "id": "13262267",
+      "tileScore": 8,
+      "name": "Ringing the Jingguang",
+      "distanceM": 392,
+      "avgGrade": -0.5102040767669678,
+      "startLat": 39.92433547973633,
+      "startLng": 116.45530700683594
+    },
+    {
+      "id": "32704103",
+      "tileScore": 1,
+      "name": "二环冲向RE干饭",
+      "distanceM": 1786.699951171875,
+      "avgGrade": -0.06156601756811142,
+      "startLat": 39.91183853149414,
+      "startLng": 116.42979431152344
+    },
+    {
+      "id": "37755394",
+      "tileScore": 27,
+      "name": "朝内大街冲刺",
+      "distanceM": 535.9000244140625,
+      "avgGrade": 0.018660197034478188,
+      "startLat": 39.92319107055664,
+      "startLng": 116.42701721191406
+    }
+  ]
+}

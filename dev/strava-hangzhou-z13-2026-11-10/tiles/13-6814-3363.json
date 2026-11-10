@@ -1,0 +1,29 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T20:24:08.363Z",
+  "tile": {
+    "z": 13,
+    "x": 6814,
+    "y": 3363
+  },
+  "segments": [
+    {
+      "id": "39494936",
+      "tileScore": 5,
+      "name": "ttt路段",
+      "distanceM": 7484.2998046875,
+      "avgGrade": -0.1309407651424408,
+      "startLat": 30.615062713623047,
+      "startLng": 119.4605712890625
+    },
+    {
+      "id": "39508955",
+      "tileScore": 2,
+      "name": "杭垓itt最后冲刺",
+      "distanceM": 529.4000244140625,
+      "avgGrade": 1.5489232540130615,
+      "startLat": 30.6136474609375,
+      "startLng": 119.45802307128906
+    }
+  ]
+}

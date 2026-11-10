@@ -1,0 +1,47 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T20:20:26.183Z",
+  "tile": {
+    "z": 13,
+    "x": 6818,
+    "y": 3367
+  },
+  "segments": [
+    {
+      "id": "37368803",
+      "tileScore": 12,
+      "name": "24道湾骑游道climb w2e",
+      "distanceM": 1729,
+      "avgGrade": 5.8762288093566895,
+      "startLat": 30.470903396606445,
+      "startLng": 119.66218566894531
+    },
+    {
+      "id": "41371088",
+      "tileScore": 28,
+      "name": "长龙景区可骑",
+      "distanceM": 2156,
+      "avgGrade": -7.19851541519165,
+      "startLat": 30.443397521972656,
+      "startLng": 119.62583923339844
+    },
+    {
+      "id": "40174159",
+      "tileScore": 27,
+      "name": "the rollin' cable climb",
+      "distanceM": 4580.7998046875,
+      "avgGrade": 3.161019802093506,
+      "startLat": 30.469850540161133,
+      "startLng": 119.65910339355469
+    },
+    {
+      "id": "36707523",
+      "tileScore": 17,
+      "name": "云上草原抄近路",
+      "distanceM": 510.8999938964844,
+      "avgGrade": 11.117635726928711,
+      "startLat": 30.454925537109375,
+      "startLng": 119.6631851196289
+    }
+  ]
+}

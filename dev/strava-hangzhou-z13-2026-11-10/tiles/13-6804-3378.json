@@ -1,0 +1,110 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T20:29:44.313Z",
+  "tile": {
+    "z": 13,
+    "x": 6804,
+    "y": 3378
+  },
+  "segments": [
+    {
+      "id": "37895000",
+      "tileScore": 1,
+      "name": "Dirty Daming North",
+      "distanceM": 2767.5,
+      "avgGrade": 10.312556266784668,
+      "startLat": 30.07094383239746,
+      "startLng": 119.0341796875
+    },
+    {
+      "id": "24224622",
+      "tileScore": 64,
+      "name": "The Ironed Mullet",
+      "distanceM": 16337.5,
+      "avgGrade": 4.432746887207031,
+      "startLat": 29.994754791259766,
+      "startLng": 119.09507751464844
+    },
+    {
+      "id": "23306773",
+      "tileScore": 72,
+      "name": "徐pp Po Gai Down",
+      "distanceM": 3154.300048828125,
+      "avgGrade": -5.414830684661865,
+      "startLat": 30.02989387512207,
+      "startLng": 119.00292205810547
+    },
+    {
+      "id": "36799613",
+      "tileScore": 9,
+      "name": "天坪供水站小陡坡",
+      "distanceM": 853,
+      "avgGrade": 13.458381652832031,
+      "startLat": 30.025312423706055,
+      "startLng": 119.01734161376953
+    },
+    {
+      "id": "27646068",
+      "tileScore": 9,
+      "name": "JR's pain cave",
+      "distanceM": 2011.5,
+      "avgGrade": 7.586378574371338,
+      "startLat": 30.02796173095703,
+      "startLng": 119.0198745727539
+    },
+    {
+      "id": "29475190",
+      "tileScore": 20,
+      "name": "天坪口粮坡",
+      "distanceM": 7971.5,
+      "avgGrade": 6.53829288482666,
+      "startLat": 30.018177032470703,
+      "startLng": 119.04107666015625
+    },
+    {
+      "id": "24250800",
+      "tileScore": 41,
+      "name": "Cold leg power climb",
+      "distanceM": 453.6000061035156,
+      "avgGrade": 2.777777910232544,
+      "startLat": 30.068632125854492,
+      "startLng": 119.01500701904297
+    },
+    {
+      "id": "21243419",
+      "tileScore": 52,
+      "name": "Post-Wedding Climb",
+      "distanceM": 8648.2001953125,
+      "avgGrade": 5.268148422241211,
+      "startLat": 30.07688331604004,
+      "startLng": 119.01781463623047
+    },
+    {
+      "id": "38796737",
+      "tileScore": 1,
+      "name": "漆岭climb",
+      "distanceM": 2134.39990234375,
+      "avgGrade": 9.145427703857422,
+      "startLat": 30.035381317138672,
+      "startLng": 119.05377960205078
+    },
+    {
+      "id": "19032974",
+      "tileScore": 15,
+      "name": "To Xuechuancun after descent",
+      "distanceM": 4016.699951171875,
+      "avgGrade": -4.207434177398682,
+      "startLat": 30.068899154663086,
+      "startLng": 119.01519012451172
+    },
+    {
+      "id": "9564841",
+      "tileScore": 521,
+      "name": "牵牛岗爬坡（好路）",
+      "distanceM": 20534.5,
+      "avgGrade": 4.920499801635742,
+      "startLat": 30.076786041259766,
+      "startLng": 119.017822265625
+    }
+  ]
+}

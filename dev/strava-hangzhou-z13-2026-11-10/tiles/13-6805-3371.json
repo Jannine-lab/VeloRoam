@@ -1,0 +1,29 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T20:29:13.370Z",
+  "tile": {
+    "z": 13,
+    "x": 6805,
+    "y": 3371
+  },
+  "segments": [
+    {
+      "id": "40836056",
+      "tileScore": 5,
+      "name": "西坑gravel",
+      "distanceM": 2333.300048828125,
+      "avgGrade": -0.00857155118137598,
+      "startLat": 30.2950439453125,
+      "startLng": 119.06942749023438
+    },
+    {
+      "id": "14393343",
+      "tileScore": 152,
+      "name": "浙西天池爬坡",
+      "distanceM": 14509.2001953125,
+      "avgGrade": 5.706724166870117,
+      "startLat": 30.257762908935547,
+      "startLng": 119.07039642333984
+    }
+  ]
+}

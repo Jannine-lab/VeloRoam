@@ -1,0 +1,20 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T20:35:25.903Z",
+  "tile": {
+    "z": 13,
+    "x": 6813,
+    "y": 3400
+  },
+  "segments": [
+    {
+      "id": "37976875",
+      "tileScore": 7,
+      "name": "新330国道-环城西路",
+      "distanceM": 2706,
+      "avgGrade": -0.2808573544025421,
+      "startLat": 29.224023818969727,
+      "startLng": 119.38970947265625
+    }
+  ]
+}

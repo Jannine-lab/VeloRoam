@@ -1,0 +1,20 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T20:04:25.650Z",
+  "tile": {
+    "z": 13,
+    "x": 6770,
+    "y": 3121
+  },
+  "segments": [
+    {
+      "id": "16124432",
+      "tileScore": 4,
+      "name": "潮白新河(s121-g205)",
+      "distanceM": 9078.900390625,
+      "avgGrade": 0.024232011288404465,
+      "startLat": 39.28167724609375,
+      "startLng": 117.56588745117188
+    }
+  ]
+}

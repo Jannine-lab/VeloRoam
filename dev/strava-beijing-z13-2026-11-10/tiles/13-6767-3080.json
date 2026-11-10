@@ -1,0 +1,29 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T20:06:20.314Z",
+  "tile": {
+    "z": 13,
+    "x": 6767,
+    "y": 3080
+  },
+  "segments": [
+    {
+      "id": "39133548",
+      "tileScore": 5,
+      "name": "抄金山岭阿那亚后门",
+      "distanceM": 4004.5,
+      "avgGrade": 5.496316909790039,
+      "startLat": 40.70454406738281,
+      "startLng": 117.41072845458984
+    },
+    {
+      "id": "35589474",
+      "tileScore": 13,
+      "name": "涝洼金山岭优质缓下",
+      "distanceM": 18258,
+      "avgGrade": -2.024317979812622,
+      "startLat": 40.700016021728516,
+      "startLng": 117.4236831665039
+    }
+  ]
+}

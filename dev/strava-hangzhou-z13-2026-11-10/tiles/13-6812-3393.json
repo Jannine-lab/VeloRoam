@@ -1,0 +1,20 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T20:31:22.171Z",
+  "tile": {
+    "z": 13,
+    "x": 6812,
+    "y": 3393
+  },
+  "segments": [
+    {
+      "id": "38716979",
+      "tileScore": 2,
+      "name": "新安江绿道旧⚠️",
+      "distanceM": 3205.5,
+      "avgGrade": 0.2870067059993744,
+      "startLat": 29.494897842407227,
+      "startLng": 119.38456726074219
+    }
+  ]
+}

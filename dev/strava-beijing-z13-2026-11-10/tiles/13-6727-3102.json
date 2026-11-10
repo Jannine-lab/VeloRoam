@@ -1,0 +1,47 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T19:46:28.310Z",
+  "tile": {
+    "z": 13,
+    "x": 6727,
+    "y": 3102
+  },
+  "segments": [
+    {
+      "id": "5685328",
+      "tileScore": 10,
+      "name": "County Road Climb",
+      "distanceM": 4505.7998046875,
+      "avgGrade": 3.7507214546203613,
+      "startLat": 39.97081756591797,
+      "startLng": 115.65423583984375
+    },
+    {
+      "id": "24717055",
+      "tileScore": 5,
+      "name": "黄岭西村爬坡",
+      "distanceM": 1681,
+      "avgGrade": 5.865556240081787,
+      "startLat": 39.970741271972656,
+      "startLng": 115.65345764160156
+    },
+    {
+      "id": "33123046",
+      "tileScore": 8,
+      "name": "109从军庄一路干到北京界",
+      "distanceM": 89936.3984375,
+      "avgGrade": 1.4218937158584595,
+      "startLat": 39.99515914916992,
+      "startLng": 116.08763885498047
+    },
+    {
+      "id": "24942369",
+      "tileScore": 83,
+      "name": "斋堂水库爬坡全程赛段",
+      "distanceM": 6933.7001953125,
+      "avgGrade": 0.5740081071853638,
+      "startLat": 39.9675407409668,
+      "startLng": 115.67243194580078
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T20:12:50.332Z",
+  "tile": {
+    "z": 13,
+    "x": 6719,
+    "y": 3066
+  },
+  "segments": [
+    {
+      "id": "25799405",
+      "tileScore": 9,
+      "name": "骑士之巅 stage 2 草原天路",
+      "distanceM": 88261,
+      "avgGrade": 0.09811808168888092,
+      "startLat": 40.977210998535156,
+      "startLng": 115.28495788574219
+    },
+    {
+      "id": "39442344",
+      "tileScore": 8,
+      "name": "45km 连续上坡",
+      "distanceM": 45328.69921875,
+      "avgGrade": 1.6007518768310547,
+      "startLat": 40.92094802856445,
+      "startLng": 115.12449645996094
+    },
+    {
+      "id": "39545151",
+      "tileScore": 25,
+      "name": "反爬瓦房沟",
+      "distanceM": 8459,
+      "avgGrade": 4.348031997680664,
+      "startLat": 41.16648483276367,
+      "startLng": 115.26874542236328
+    }
+  ]
+}

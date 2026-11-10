@@ -1,0 +1,110 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T19:35:50.145Z",
+  "tile": {
+    "z": 13,
+    "x": 6745,
+    "y": 3097
+  },
+  "segments": [
+    {
+      "id": "36668466",
+      "tileScore": 8,
+      "name": "温榆河北岸-安立路到未来科学城",
+      "distanceM": 5952,
+      "avgGrade": 0,
+      "startLat": 40.152339935302734,
+      "startLng": 116.40753936767578
+    },
+    {
+      "id": "36969777",
+      "tileScore": 1,
+      "name": "环西起点到水库大坝",
+      "distanceM": 30289.400390625,
+      "avgGrade": 0.23374512791633606,
+      "startLat": 40.11746597290039,
+      "startLng": 116.4490966796875
+    },
+    {
+      "id": "28385411",
+      "tileScore": 3,
+      "name": "Science Park Loop (2018) SEMI SKIMMED",
+      "distanceM": 23349,
+      "avgGrade": 0.0055676898919045925,
+      "startLat": 40.08030700683594,
+      "startLng": 116.50840759277344
+    },
+    {
+      "id": "9800258",
+      "tileScore": 11,
+      "name": "未来科技城北区绕圈",
+      "distanceM": 5434,
+      "avgGrade": 0.011041590012609959,
+      "startLat": 40.126678466796875,
+      "startLng": 116.46251678466797
+    },
+    {
+      "id": "41586769",
+      "tileScore": 1,
+      "name": "hi,慢下来，快乐才是意义",
+      "distanceM": 11219,
+      "avgGrade": -0.021392282098531723,
+      "startLat": 40.0458984375,
+      "startLng": 116.41036224365234
+    },
+    {
+      "id": "17534910",
+      "tileScore": 10,
+      "name": "New Road Sprint E2W",
+      "distanceM": 990.7000122070312,
+      "avgGrade": -0.0403754897415638,
+      "startLat": 40.138126373291016,
+      "startLng": 116.441650390625
+    },
+    {
+      "id": "17534897",
+      "tileScore": 14,
+      "name": "New Bridge W2E",
+      "distanceM": 751.5999755859375,
+      "avgGrade": 1.357104778289795,
+      "startLat": 40.13787841796875,
+      "startLng": 116.44184875488281
+    },
+    {
+      "id": "17254061",
+      "tileScore": 21,
+      "name": "Le Champs South Bound",
+      "distanceM": 5699.5,
+      "avgGrade": 0.04561803489923477,
+      "startLat": 40.150474548339844,
+      "startLng": 116.40785217285156
+    },
+    {
+      "id": "33971528",
+      "tileScore": 6,
+      "name": "小雨爆胎2+2路段",
+      "distanceM": 2906.89990234375,
+      "avgGrade": 0.1720045506954193,
+      "startLat": 40.11737060546875,
+      "startLng": 116.4616470336914
+    },
+    {
+      "id": "14860510",
+      "tileScore": 9,
+      "name": "Future City Ave Sprint",
+      "distanceM": 1185.5,
+      "avgGrade": -0.10122311115264893,
+      "startLat": 40.137977600097656,
+      "startLng": 116.45416259765625
+    },
+    {
+      "id": "16418930",
+      "tileScore": 15,
+      "name": "未来科技城ITT",
+      "distanceM": 6876.5,
+      "avgGrade": -0.008725369349122047,
+      "startLat": 40.12141418457031,
+      "startLng": 116.4508056640625
+    }
+  ]
+}

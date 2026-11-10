@@ -1,0 +1,20 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T20:02:05.698Z",
+  "tile": {
+    "z": 13,
+    "x": 6771,
+    "y": 3091
+  },
+  "segments": [
+    {
+      "id": "41371628",
+      "tileScore": 3,
+      "name": "大鹿圈村-南双洞村（S-N）",
+      "distanceM": 27569.80078125,
+      "avgGrade": 1.6822755336761475,
+      "startLat": 40.28717041015625,
+      "startLng": 117.70136260986328
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T19:54:44.433Z",
+  "tile": {
+    "z": 13,
+    "x": 6745,
+    "y": 3081
+  },
+  "segments": [
+    {
+      "id": "35332155",
+      "tileScore": 16,
+      "name": "百里画廊（茂陵至四海顶）",
+      "distanceM": 149721.90625,
+      "avgGrade": 0.4735445976257324,
+      "startLat": 40.31157302856445,
+      "startLng": 116.22599029541016
+    }
+  ]
+}

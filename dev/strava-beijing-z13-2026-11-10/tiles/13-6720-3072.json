@@ -1,0 +1,29 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T20:11:08.800Z",
+  "tile": {
+    "z": 13,
+    "x": 6720,
+    "y": 3072
+  },
+  "segments": [
+    {
+      "id": "34734667",
+      "tileScore": 30,
+      "name": "黄土嘴村想掉头回家o(╯□╰)o",
+      "distanceM": 2048.300048828125,
+      "avgGrade": 4.198603630065918,
+      "startLat": 40.97534942626953,
+      "startLng": 115.34636688232422
+    },
+    {
+      "id": "32714188",
+      "tileScore": 143,
+      "name": "Wanlong Descent",
+      "distanceM": 6912.10009765625,
+      "avgGrade": -3.5474023818969727,
+      "startLat": 40.967247009277344,
+      "startLng": 115.37239074707031
+    }
+  ]
+}

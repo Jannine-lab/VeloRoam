@@ -1,0 +1,38 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T20:35:55.040Z",
+  "tile": {
+    "z": 13,
+    "x": 6805,
+    "y": 3394
+  },
+  "segments": [
+    {
+      "id": "41570975",
+      "tileScore": 12,
+      "name": "圣诞树加餐一下",
+      "distanceM": 994,
+      "avgGrade": 9.295775413513184,
+      "startLat": 29.454822540283203,
+      "startLng": 119.0705337524414
+    },
+    {
+      "id": "16218748",
+      "tileScore": 48,
+      "name": "石林主要爬坡",
+      "distanceM": 5504,
+      "avgGrade": 6.148255825042725,
+      "startLat": 29.435558319091797,
+      "startLng": 119.07276153564453
+    },
+    {
+      "id": "2821313",
+      "tileScore": 20,
+      "name": "富西线 Climb",
+      "distanceM": 1091.4539794921875,
+      "avgGrade": 10.609253883361816,
+      "startLat": 29.437475204467773,
+      "startLng": 119.06970977783203
+    }
+  ]
+}

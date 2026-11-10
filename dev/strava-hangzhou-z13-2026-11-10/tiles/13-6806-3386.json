@@ -1,0 +1,20 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T20:30:36.671Z",
+  "tile": {
+    "z": 13,
+    "x": 6806,
+    "y": 3386
+  },
+  "segments": [
+    {
+      "id": "42444011",
+      "tileScore": 7,
+      "name": "2026 STC 千岛湖铁三 1Lap",
+      "distanceM": 43543,
+      "avgGrade": 0.0002296580350957811,
+      "startLat": 29.655094146728516,
+      "startLng": 119.01878356933594
+    }
+  ]
+}

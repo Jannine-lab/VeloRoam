@@ -1,0 +1,29 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T19:35:30.410Z",
+  "tile": {
+    "z": 13,
+    "x": 6743,
+    "y": 3111
+  },
+  "segments": [
+    {
+      "id": "40281941",
+      "tileScore": 1,
+      "name": "【推荐】桂大路从北到南",
+      "distanceM": 9249.5,
+      "avgGrade": -0.05405697599053383,
+      "startLat": 39.69002914428711,
+      "startLng": 116.3658676147461
+    },
+    {
+      "id": "41875938",
+      "tileScore": 3,
+      "name": "JC_Cycling Z2",
+      "distanceM": 4099,
+      "avgGrade": -0.058550864458084106,
+      "startLat": 39.66950988769531,
+      "startLng": 116.36592102050781
+    }
+  ]
+}

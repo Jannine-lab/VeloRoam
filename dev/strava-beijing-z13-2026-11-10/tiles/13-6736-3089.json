@@ -1,0 +1,47 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T19:46:04.808Z",
+  "tile": {
+    "z": 13,
+    "x": 6736,
+    "y": 3089
+  },
+  "segments": [
+    {
+      "id": "37113836",
+      "tileScore": 4,
+      "name": "掉头过来必须拉扯一波",
+      "distanceM": 1332.199951171875,
+      "avgGrade": 0.5104338526725769,
+      "startLat": 40.40829849243164,
+      "startLng": 116.02076721191406
+    },
+    {
+      "id": "26406631",
+      "tileScore": 14,
+      "name": "南山环线快乐TTT",
+      "distanceM": 7650.7998046875,
+      "avgGrade": 0.2221989929676056,
+      "startLat": 40.368125915527344,
+      "startLng": 115.96028900146484
+    },
+    {
+      "id": "26406605",
+      "tileScore": 10,
+      "name": "水关长城backside another way",
+      "distanceM": 2989.699951171875,
+      "avgGrade": 5.3784661293029785,
+      "startLat": 40.3806037902832,
+      "startLng": 116.0379867553711
+    },
+    {
+      "id": "30020457",
+      "tileScore": 6,
+      "name": "音乐谷放坡",
+      "distanceM": 3926.800048828125,
+      "avgGrade": -4.553325653076172,
+      "startLat": 40.362796783447266,
+      "startLng": 116.0450210571289
+    }
+  ]
+}

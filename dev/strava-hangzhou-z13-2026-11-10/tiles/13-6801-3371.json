@@ -1,0 +1,29 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T20:32:23.918Z",
+  "tile": {
+    "z": 13,
+    "x": 6801,
+    "y": 3371
+  },
+  "segments": [
+    {
+      "id": "23738562",
+      "tileScore": 19,
+      "name": "Climbing Tea G330 ",
+      "distanceM": 14413.2001953125,
+      "avgGrade": 3.3580329418182373,
+      "startLat": 30.34095573425293,
+      "startLng": 118.79660034179688
+    },
+    {
+      "id": "38907186",
+      "tileScore": 15,
+      "name": "一开始以为是起伏路",
+      "distanceM": 5601.39990234375,
+      "avgGrade": 3.0099618434906006,
+      "startLat": 30.294540405273438,
+      "startLng": 118.92103576660156
+    }
+  ]
+}

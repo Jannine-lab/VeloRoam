@@ -1,0 +1,38 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T19:52:30.815Z",
+  "tile": {
+    "z": 13,
+    "x": 6759,
+    "y": 3121
+  },
+  "segments": [
+    {
+      "id": "9389484",
+      "tileScore": 1,
+      "name": "Majiakou",
+      "distanceM": 1935.0999755859375,
+      "avgGrade": -0.1033538356423378,
+      "startLat": 39.302398681640625,
+      "startLng": 117.05913543701172
+    },
+    {
+      "id": "21230857",
+      "tileScore": 1,
+      "name": "Frente a la burbuja inmobiliaria",
+      "distanceM": 2528.699951171875,
+      "avgGrade": 0,
+      "startLat": 39.333805084228516,
+      "startLng": 117.05877685546875
+    },
+    {
+      "id": "9375966",
+      "tileScore": 2,
+      "name": "Scenic ride home",
+      "distanceM": 4578.60009765625,
+      "avgGrade": 0.0021840736735612154,
+      "startLat": 39.331111907958984,
+      "startLng": 117.05253601074219
+    }
+  ]
+}

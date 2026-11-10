@@ -1,0 +1,110 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T20:30:00.240Z",
+  "tile": {
+    "z": 13,
+    "x": 6804,
+    "y": 3379
+  },
+  "segments": [
+    {
+      "id": "38796737",
+      "tileScore": 1,
+      "name": "漆岭climb",
+      "distanceM": 2134.39990234375,
+      "avgGrade": 9.145427703857422,
+      "startLat": 30.035381317138672,
+      "startLng": 119.05377960205078
+    },
+    {
+      "id": "40256214",
+      "tileScore": 4,
+      "name": "林道陡坡（水泥路）",
+      "distanceM": 1719.800048828125,
+      "avgGrade": 10.163972854614258,
+      "startLat": 29.994367599487305,
+      "startLng": 119.01011657714844
+    },
+    {
+      "id": "27646068",
+      "tileScore": 9,
+      "name": "JR's pain cave",
+      "distanceM": 2011.5,
+      "avgGrade": 7.586378574371338,
+      "startLat": 30.02796173095703,
+      "startLng": 119.0198745727539
+    },
+    {
+      "id": "29475190",
+      "tileScore": 20,
+      "name": "天坪口粮坡",
+      "distanceM": 7971.5,
+      "avgGrade": 6.53829288482666,
+      "startLat": 30.018177032470703,
+      "startLng": 119.04107666015625
+    },
+    {
+      "id": "37991937",
+      "tileScore": 2,
+      "name": "4. Dirty Half Daming South",
+      "distanceM": 5095,
+      "avgGrade": 6.869480133056641,
+      "startLat": 29.997547149658203,
+      "startLng": 119.01119995117188
+    },
+    {
+      "id": "24224622",
+      "tileScore": 64,
+      "name": "The Ironed Mullet",
+      "distanceM": 16337.5,
+      "avgGrade": 4.432746887207031,
+      "startLat": 29.994754791259766,
+      "startLng": 119.09507751464844
+    },
+    {
+      "id": "37496119",
+      "tileScore": 18,
+      "name": "天坪牵牛岗土路",
+      "distanceM": 7391.7001953125,
+      "avgGrade": 7.889930725097656,
+      "startLat": 30.020381927490234,
+      "startLng": 119.0170669555664
+    },
+    {
+      "id": "36799613",
+      "tileScore": 9,
+      "name": "天坪供水站小陡坡",
+      "distanceM": 853,
+      "avgGrade": 13.458381652832031,
+      "startLat": 30.025312423706055,
+      "startLng": 119.01734161376953
+    },
+    {
+      "id": "37496104",
+      "tileScore": 7,
+      "name": "瑶山天坪越野线",
+      "distanceM": 11970.2998046875,
+      "avgGrade": 5.826086044311523,
+      "startLat": 29.981464385986328,
+      "startLng": 119.0407485961914
+    },
+    {
+      "id": "9564841",
+      "tileScore": 521,
+      "name": "牵牛岗爬坡（好路）",
+      "distanceM": 20534.5,
+      "avgGrade": 4.920499801635742,
+      "startLat": 30.076786041259766,
+      "startLng": 119.017822265625
+    },
+    {
+      "id": "23306773",
+      "tileScore": 72,
+      "name": "徐pp Po Gai Down",
+      "distanceM": 3154.300048828125,
+      "avgGrade": -5.414830684661865,
+      "startLat": 30.02989387512207,
+      "startLng": 119.00292205810547
+    }
+  ]
+}

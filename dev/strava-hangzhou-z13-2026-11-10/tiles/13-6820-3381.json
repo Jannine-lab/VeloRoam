@@ -1,0 +1,20 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T20:21:26.925Z",
+  "tile": {
+    "z": 13,
+    "x": 6820,
+    "y": 3381
+  },
+  "segments": [
+    {
+      "id": "39108113",
+      "tileScore": 8,
+      "name": "一条好路 冲冲冲",
+      "distanceM": 8420,
+      "avgGrade": -0.04156769812107086,
+      "startLat": 29.895549774169922,
+      "startLng": 119.75469207763672
+    }
+  ]
+}

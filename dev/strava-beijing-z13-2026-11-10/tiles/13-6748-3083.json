@@ -1,0 +1,56 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T19:52:23.388Z",
+  "tile": {
+    "z": 13,
+    "x": 6748,
+    "y": 3083
+  },
+  "segments": [
+    {
+      "id": "36828848",
+      "tileScore": 19,
+      "name": "Epic YanQi to Miyun",
+      "distanceM": 95911.8984375,
+      "avgGrade": -0.2003922313451767,
+      "startLat": 40.43746566772461,
+      "startLng": 116.57965087890625
+    },
+    {
+      "id": "29634327",
+      "tileScore": 2,
+      "name": "平长山路十八弯",
+      "distanceM": 6930,
+      "avgGrade": -4.984127044677734,
+      "startLat": 40.61647033691406,
+      "startLng": 116.55361938476562
+    },
+    {
+      "id": "29634297",
+      "tileScore": 5,
+      "name": "宝崎路挂壁全程越野",
+      "distanceM": 8700.400390625,
+      "avgGrade": 4.517033576965332,
+      "startLat": 40.58005905151367,
+      "startLng": 116.56729888916016
+    },
+    {
+      "id": "7339507",
+      "tileScore": 5,
+      "name": "S323 backroad",
+      "distanceM": 12058.7001953125,
+      "avgGrade": 0.8508379459381104,
+      "startLat": 40.62997055053711,
+      "startLng": 116.62333679199219
+    },
+    {
+      "id": "32043688",
+      "tileScore": 27,
+      "name": "东北口关三岔口-琉璃庙",
+      "distanceM": 17361,
+      "avgGrade": -1.6162663698196411,
+      "startLat": 40.56476593017578,
+      "startLng": 116.54985046386719
+    }
+  ]
+}

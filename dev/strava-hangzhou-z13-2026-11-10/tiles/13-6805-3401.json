@@ -1,0 +1,20 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T20:39:08.627Z",
+  "tile": {
+    "z": 13,
+    "x": 6805,
+    "y": 3401
+  },
+  "segments": [
+    {
+      "id": "38191878",
+      "tileScore": 1,
+      "name": "大乘寺不停脚",
+      "distanceM": 2744.60009765625,
+      "avgGrade": 9.53144359588623,
+      "startLat": 29.154300689697266,
+      "startLng": 119.06979370117188
+    }
+  ]
+}

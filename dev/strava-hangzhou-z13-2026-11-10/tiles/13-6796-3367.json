@@ -1,0 +1,20 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T20:35:59.943Z",
+  "tile": {
+    "z": 13,
+    "x": 6796,
+    "y": 3367
+  },
+  "segments": [
+    {
+      "id": "37890665",
+      "tileScore": 3,
+      "name": "文岩路(方塘-云乐)",
+      "distanceM": 14971.099609375,
+      "avgGrade": 0.6024941205978394,
+      "startLat": 30.474838256835938,
+      "startLng": 118.72306823730469
+    }
+  ]
+}

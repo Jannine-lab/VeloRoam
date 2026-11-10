@@ -1,0 +1,20 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T20:08:34.135Z",
+  "tile": {
+    "z": 13,
+    "x": 6750,
+    "y": 3069
+  },
+  "segments": [
+    {
+      "id": "32630881",
+      "tileScore": 49,
+      "name": "怀丰-北京边界爬坡",
+      "distanceM": 3343,
+      "avgGrade": 5.459168434143066,
+      "startLat": 41.04571533203125,
+      "startLng": 116.635009765625
+    }
+  ]
+}

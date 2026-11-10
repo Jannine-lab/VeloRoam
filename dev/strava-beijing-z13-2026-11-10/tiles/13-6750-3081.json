@@ -1,0 +1,20 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T19:55:33.233Z",
+  "tile": {
+    "z": 13,
+    "x": 6750,
+    "y": 3081
+  },
+  "segments": [
+    {
+      "id": "2414899",
+      "tileScore": 25,
+      "name": "安岭梁隧道 Climb",
+      "distanceM": 860.211181640625,
+      "avgGrade": 15.91490364074707,
+      "startLat": 40.662452697753906,
+      "startLng": 116.65557098388672
+    }
+  ]
+}

@@ -1,0 +1,83 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T20:23:13.351Z",
+  "tile": {
+    "z": 13,
+    "x": 6815,
+    "y": 3378
+  },
+  "segments": [
+    {
+      "id": "40569244",
+      "tileScore": 5,
+      "name": "鳌山gravel down 完整版",
+      "distanceM": 2283.699951171875,
+      "avgGrade": -14.502779960632324,
+      "startLat": 30.072412490844727,
+      "startLng": 119.489990234375
+    },
+    {
+      "id": "38673437",
+      "tileScore": 3,
+      "name": "就是干！",
+      "distanceM": 974.2000122070312,
+      "avgGrade": 8.458222389221191,
+      "startLat": 30.065956115722656,
+      "startLng": 119.50823974609375
+    },
+    {
+      "id": "30385300",
+      "tileScore": 6,
+      "name": "晒秋back climb",
+      "distanceM": 3013.199951171875,
+      "avgGrade": 4.294437885284424,
+      "startLat": 30.057697296142578,
+      "startLng": 119.48789978027344
+    },
+    {
+      "id": "40569254",
+      "tileScore": 10,
+      "name": "珊瑚岭gravel down",
+      "distanceM": 2139.300048828125,
+      "avgGrade": -6.375916957855225,
+      "startLat": 30.04197120666504,
+      "startLng": 119.48785400390625
+    },
+    {
+      "id": "40569252",
+      "tileScore": 11,
+      "name": "朱村坞gravel climb",
+      "distanceM": 1096.800048828125,
+      "avgGrade": 7.749817371368408,
+      "startLat": 30.04273223876953,
+      "startLng": 119.49213409423828
+    },
+    {
+      "id": "40569271",
+      "tileScore": 6,
+      "name": "小轮车速降老H摔车",
+      "distanceM": 1311.9000244140625,
+      "avgGrade": -13.232715606689453,
+      "startLat": 30.031774520874023,
+      "startLng": 119.50096130371094
+    },
+    {
+      "id": "40569259",
+      "tileScore": 14,
+      "name": "巨龙岭gravel climb",
+      "distanceM": 2673.300048828125,
+      "avgGrade": 8.177159309387207,
+      "startLat": 30.029129028320312,
+      "startLng": 119.49232482910156
+    },
+    {
+      "id": "42169664",
+      "tileScore": 3,
+      "name": "马岭下坡-法道",
+      "distanceM": 12910,
+      "avgGrade": -1.2811774015426636,
+      "startLat": 30.06277084350586,
+      "startLng": 119.50337982177734
+    }
+  ]
+}

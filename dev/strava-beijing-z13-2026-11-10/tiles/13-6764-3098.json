@@ -1,0 +1,38 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T19:50:23.545Z",
+  "tile": {
+    "z": 13,
+    "x": 6764,
+    "y": 3098
+  },
+  "segments": [
+    {
+      "id": "21963286",
+      "tileScore": 56,
+      "name": "宝平路爬坡",
+      "distanceM": 9670,
+      "avgGrade": 2.3557395935058594,
+      "startLat": 40.04124069213867,
+      "startLng": 117.2386703491211
+    },
+    {
+      "id": "32997732",
+      "tileScore": 2,
+      "name": "BTAC Evading Border Patrol",
+      "distanceM": 845,
+      "avgGrade": 6.662722110748291,
+      "startLat": 40.11198043823242,
+      "startLng": 117.24725341796875
+    },
+    {
+      "id": "16096735",
+      "tileScore": 34,
+      "name": "盘山后山爬坡段",
+      "distanceM": 7119.10009765625,
+      "avgGrade": 7.742551803588867,
+      "startLat": 40.07065963745117,
+      "startLng": 117.29288482666016
+    }
+  ]
+}

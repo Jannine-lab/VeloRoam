@@ -1,0 +1,83 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T19:44:27.630Z",
+  "tile": {
+    "z": 13,
+    "x": 6747,
+    "y": 3088
+  },
+  "segments": [
+    {
+      "id": "14994696",
+      "tileScore": 9,
+      "name": "Deshuiwan ascent",
+      "distanceM": 2959.89990234375,
+      "avgGrade": 1.7838441133499146,
+      "startLat": 40.41282272338867,
+      "startLng": 116.5066909790039
+    },
+    {
+      "id": "37053647",
+      "tileScore": 8,
+      "name": "北沟村爬坡(村石碑-村委会)",
+      "distanceM": 1274.9000244140625,
+      "avgGrade": 3.310063362121582,
+      "startLat": 40.42169952392578,
+      "startLng": 116.53726959228516
+    },
+    {
+      "id": "31116368",
+      "tileScore": 16,
+      "name": "驼岭一路干到怀黄路Wahoo！",
+      "distanceM": 33033.69921875,
+      "avgGrade": -0.9941362738609314,
+      "startLat": 40.405067443847656,
+      "startLng": 116.39430236816406
+    },
+    {
+      "id": "1150789",
+      "tileScore": 84,
+      "name": "Mutianyu Great Wall",
+      "distanceM": 2495.110107421875,
+      "avgGrade": 4.797402858734131,
+      "startLat": 40.41532516479492,
+      "startLng": 116.53912353515625
+    },
+    {
+      "id": "42305202",
+      "tileScore": 5,
+      "name": "渤海所一道",
+      "distanceM": 1455.800048828125,
+      "avgGrade": 8.064294815063477,
+      "startLat": 40.416831970214844,
+      "startLng": 116.5113525390625
+    },
+    {
+      "id": "32607603",
+      "tileScore": 4,
+      "name": "Pikachu！",
+      "distanceM": 158177.40625,
+      "avgGrade": 0.022632816806435585,
+      "startLat": 40.14248275756836,
+      "startLng": 116.59239959716797
+    },
+    {
+      "id": "42305218",
+      "tileScore": 4,
+      "name": "渤海所二道（小心泥石流）",
+      "distanceM": 2298.199951171875,
+      "avgGrade": 7.301366329193115,
+      "startLat": 40.41726303100586,
+      "startLng": 116.50059509277344
+    },
+    {
+      "id": "8786200",
+      "tileScore": 38,
+      "name": "跃进桥-慕田峪环岛 Huaihuang RD",
+      "distanceM": 14857.099609375,
+      "avgGrade": 1.007599115371704,
+      "startLat": 40.33633041381836,
+      "startLng": 116.62022399902344
+    }
+  ]
+}

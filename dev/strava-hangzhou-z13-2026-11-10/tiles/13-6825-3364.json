@@ -1,0 +1,47 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T20:19:01.143Z",
+  "tile": {
+    "z": 13,
+    "x": 6825,
+    "y": 3364
+  },
+  "segments": [
+    {
+      "id": "4914090",
+      "tileScore": 6,
+      "name": "湖州到彭公",
+      "distanceM": 63600.30078125,
+      "avgGrade": 0.012893022038042545,
+      "startLat": 30.89427375793457,
+      "startLng": 120.04374694824219
+    },
+    {
+      "id": "29024626",
+      "tileScore": 13,
+      "name": "Flee MoGan mountain",
+      "distanceM": 4909,
+      "avgGrade": -0.39926666021347046,
+      "startLat": 30.596193313598633,
+      "startLng": 119.90352630615234
+    },
+    {
+      "id": "32732949",
+      "tileScore": 3,
+      "name": "晚间京岚线乌漆嘛黑",
+      "distanceM": 15191,
+      "avgGrade": -0.001316568930633366,
+      "startLat": 30.69717788696289,
+      "startLng": 120.0510482788086
+    },
+    {
+      "id": "5499939",
+      "tileScore": 1,
+      "name": "余杭镇到埭溪",
+      "distanceM": 59156.3984375,
+      "avgGrade": -0.018594777211546898,
+      "startLat": 30.253528594970703,
+      "startLng": 119.9469985961914
+    }
+  ]
+}

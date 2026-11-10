@@ -1,0 +1,65 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T20:19:44.350Z",
+  "tile": {
+    "z": 13,
+    "x": 6819,
+    "y": 3369
+  },
+  "segments": [
+    {
+      "id": "40903148",
+      "tileScore": 5,
+      "name": "狗石坞-十亩田",
+      "distanceM": 1385.199951171875,
+      "avgGrade": -6.121859550476074,
+      "startLat": 30.392623901367188,
+      "startLng": 119.6626205444336
+    },
+    {
+      "id": "35935001",
+      "tileScore": 79,
+      "name": "白水口爬坡",
+      "distanceM": 4581,
+      "avgGrade": 6.12093448638916,
+      "startLat": 30.372093200683594,
+      "startLng": 119.71331787109375
+    },
+    {
+      "id": "30121686",
+      "tileScore": 91,
+      "name": "银坪",
+      "distanceM": 3802.60009765625,
+      "avgGrade": 6.048492908477783,
+      "startLat": 30.369800567626953,
+      "startLng": 119.67510986328125
+    },
+    {
+      "id": "35935003",
+      "tileScore": 7,
+      "name": "寺前坞短坡",
+      "distanceM": 737.9000244140625,
+      "avgGrade": 8.673261642456055,
+      "startLat": 30.37686538696289,
+      "startLng": 119.700927734375
+    },
+    {
+      "id": "21522436",
+      "tileScore": 10,
+      "name": "cd-Bonus of final peak climb of Dalushi",
+      "distanceM": 1013,
+      "avgGrade": 12.971372604370117,
+      "startLat": 30.410669326782227,
+      "startLng": 119.71257019042969
+    },
+    {
+      "id": "40903157",
+      "tileScore": 7,
+      "name": "十亩田-繁盛农场climb",
+      "distanceM": 2809.89990234375,
+      "avgGrade": 8.121285438537598,
+      "startLat": 30.39084815979004,
+      "startLng": 119.6740951538086
+    }
+  ]
+}

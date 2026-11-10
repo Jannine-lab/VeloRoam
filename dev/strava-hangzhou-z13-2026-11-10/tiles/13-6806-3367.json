@@ -1,0 +1,38 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T20:28:14.152Z",
+  "tile": {
+    "z": 13,
+    "x": 6806,
+    "y": 3367
+  },
+  "segments": [
+    {
+      "id": "32117512",
+      "tileScore": 1,
+      "name": "cd-宁墩至G329",
+      "distanceM": 4194.89990234375,
+      "avgGrade": -0.26222318410873413,
+      "startLat": 30.46385955810547,
+      "startLng": 119.12065887451172
+    },
+    {
+      "id": "32117506",
+      "tileScore": 2,
+      "name": "cd-万家乡至宁墩镇超爽起伏路",
+      "distanceM": 7863.2001953125,
+      "avgGrade": -0.3942415118217468,
+      "startLat": 30.405895233154297,
+      "startLng": 119.13742065429688
+    },
+    {
+      "id": "35721816",
+      "tileScore": 5,
+      "name": "Ningdun to Jingzhou",
+      "distanceM": 70412.3984375,
+      "avgGrade": 1.488232135772705,
+      "startLat": 30.4671630859375,
+      "startLng": 119.11399841308594
+    }
+  ]
+}

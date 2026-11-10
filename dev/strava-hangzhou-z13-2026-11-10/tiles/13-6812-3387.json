@@ -1,0 +1,20 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T20:28:04.312Z",
+  "tile": {
+    "z": 13,
+    "x": 6812,
+    "y": 3387
+  },
+  "segments": [
+    {
+      "id": "38237591",
+      "tileScore": 2,
+      "name": "区区500米山路而已",
+      "distanceM": 572.2000122070312,
+      "avgGrade": -0.10485844314098358,
+      "startLat": 29.699560165405273,
+      "startLng": 119.39016723632812
+    }
+  ]
+}

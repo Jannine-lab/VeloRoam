@@ -1,0 +1,38 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T20:34:20.145Z",
+  "tile": {
+    "z": 13,
+    "x": 6803,
+    "y": 3387
+  },
+  "segments": [
+    {
+      "id": "24845658",
+      "tileScore": 1,
+      "name": "东汉爬坡",
+      "distanceM": 4664.60009765625,
+      "avgGrade": 5.638211250305176,
+      "startLat": 29.69579315185547,
+      "startLng": 119.0152816772461
+    },
+    {
+      "id": "25679773",
+      "tileScore": 1,
+      "name": "山百线 山后-百照",
+      "distanceM": 9367,
+      "avgGrade": 4.338635444641113,
+      "startLat": 29.668092727661133,
+      "startLng": 118.93558502197266
+    },
+    {
+      "id": "40804088",
+      "tileScore": 4,
+      "name": "茂金线爬坡",
+      "distanceM": 10266.5,
+      "avgGrade": 5.7234697341918945,
+      "startLat": 29.69678497314453,
+      "startLng": 119.01847076416016
+    }
+  ]
+}

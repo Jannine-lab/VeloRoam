@@ -1,0 +1,20 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T20:41:54.676Z",
+  "tile": {
+    "z": 13,
+    "x": 6789,
+    "y": 3388
+  },
+  "segments": [
+    {
+      "id": "39201131",
+      "tileScore": 9,
+      "name": "屯溪到石门",
+      "distanceM": 16314.5,
+      "avgGrade": 0.670569121837616,
+      "startLat": 29.688800811767578,
+      "startLng": 118.32185363769531
+    }
+  ]
+}

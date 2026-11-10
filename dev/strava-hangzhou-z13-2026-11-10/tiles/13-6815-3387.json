@@ -1,0 +1,47 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T20:26:58.472Z",
+  "tile": {
+    "z": 13,
+    "x": 6815,
+    "y": 3387
+  },
+  "segments": [
+    {
+      "id": "35910307",
+      "tileScore": 3,
+      "name": "BPBP MainLine Top 2 Platform",
+      "distanceM": 1307.800048828125,
+      "avgGrade": -15.415200233459473,
+      "startLat": 29.715999603271484,
+      "startLng": 119.48644256591797
+    },
+    {
+      "id": "38189172",
+      "tileScore": 14,
+      "name": "乾潭到胥领",
+      "distanceM": 15537.2998046875,
+      "avgGrade": 0.7195587158203125,
+      "startLat": 29.631196975708008,
+      "startLng": 119.52735137939453
+    },
+    {
+      "id": "28063095",
+      "tileScore": 4,
+      "name": "BPBP mainline platform to bottom",
+      "distanceM": 2100,
+      "avgGrade": -11.157142639160156,
+      "startLat": 29.71002960205078,
+      "startLng": 119.48744201660156
+    },
+    {
+      "id": "40753973",
+      "tileScore": 2,
+      "name": "湖顶寺新修的水泥路",
+      "distanceM": 3001.199951171875,
+      "avgGrade": -13.554577827453613,
+      "startLat": 29.728946685791016,
+      "startLng": 119.50969696044922
+    }
+  ]
+}

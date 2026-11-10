@@ -1,0 +1,29 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T20:20:36.070Z",
+  "tile": {
+    "z": 13,
+    "x": 6818,
+    "y": 3378
+  },
+  "segments": [
+    {
+      "id": "31779968",
+      "tileScore": 14,
+      "name": "湘溪三溪口后半程",
+      "distanceM": 7711,
+      "avgGrade": -1.1956944465637207,
+      "startLat": 30.081146240234375,
+      "startLng": 119.66836547851562
+    },
+    {
+      "id": "31548928",
+      "tileScore": 2,
+      "name": "枫林咽泉 ",
+      "distanceM": 1255.300048828125,
+      "avgGrade": 6.0861945152282715,
+      "startLat": 30.051128387451172,
+      "startLng": 119.61962890625
+    }
+  ]
+}

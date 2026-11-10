@@ -1,0 +1,20 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T20:17:14.807Z",
+  "tile": {
+    "z": 13,
+    "x": 6830,
+    "y": 3365
+  },
+  "segments": [
+    {
+      "id": "36510998",
+      "tileScore": 3,
+      "name": "环杨路TT",
+      "distanceM": 3341.800048828125,
+      "avgGrade": 0.059847988188266754,
+      "startLat": 30.52242088317871,
+      "startLng": 120.17644500732422
+    }
+  ]
+}

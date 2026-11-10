@@ -1,0 +1,56 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T20:29:44.313Z",
+  "tile": {
+    "z": 13,
+    "x": 6805,
+    "y": 3378
+  },
+  "segments": [
+    {
+      "id": "38796720",
+      "tileScore": 2,
+      "name": "龙门脚climb",
+      "distanceM": 5019.89990234375,
+      "avgGrade": 5.370624542236328,
+      "startLat": 30.060678482055664,
+      "startLng": 119.10321044921875
+    },
+    {
+      "id": "36273882",
+      "tileScore": 4,
+      "name": "秀上KOM",
+      "distanceM": 3713.199951171875,
+      "avgGrade": 4.949908256530762,
+      "startLat": 30.043237686157227,
+      "startLng": 119.06449890136719
+    },
+    {
+      "id": "38796737",
+      "tileScore": 1,
+      "name": "漆岭climb",
+      "distanceM": 2134.39990234375,
+      "avgGrade": 9.145427703857422,
+      "startLat": 30.035381317138672,
+      "startLng": 119.05377960205078
+    },
+    {
+      "id": "38796712",
+      "tileScore": 1,
+      "name": "里田坪climb",
+      "distanceM": 11139.7001953125,
+      "avgGrade": 2.922879457473755,
+      "startLat": 30.049650192260742,
+      "startLng": 119.15428924560547
+    },
+    {
+      "id": "36273867",
+      "tileScore": 4,
+      "name": "塘秀村-岔口村",
+      "distanceM": 4177.5,
+      "avgGrade": -2.503889799118042,
+      "startLat": 30.043027877807617,
+      "startLng": 119.06468963623047
+    }
+  ]
+}

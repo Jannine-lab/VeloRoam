@@ -1,0 +1,20 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T20:28:28.244Z",
+  "tile": {
+    "z": 13,
+    "x": 6817,
+    "y": 3391
+  },
+  "segments": [
+    {
+      "id": "23340246",
+      "tileScore": 7,
+      "name": "吃饭只能去三都",
+      "distanceM": 5204.7001953125,
+      "avgGrade": -0.580244779586792,
+      "startLat": 29.533010482788086,
+      "startLng": 119.61522674560547
+    }
+  ]
+}

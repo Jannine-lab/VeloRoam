@@ -1,0 +1,20 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T19:46:55.527Z",
+  "tile": {
+    "z": 13,
+    "x": 6757,
+    "y": 3090
+  },
+  "segments": [
+    {
+      "id": "35232453",
+      "tileScore": 3,
+      "name": "2023 BRM300 CP1",
+      "distanceM": 49925.6015625,
+      "avgGrade": 0.06970372051000595,
+      "startLat": 40.20161056518555,
+      "startLng": 116.72323608398438
+    }
+  ]
+}

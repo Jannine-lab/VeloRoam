@@ -1,0 +1,20 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T19:59:09.796Z",
+  "tile": {
+    "z": 13,
+    "x": 6766,
+    "y": 3089
+  },
+  "segments": [
+    {
+      "id": "42359401",
+      "tileScore": 2,
+      "name": "思家岭climb",
+      "distanceM": 8759.7001953125,
+      "avgGrade": 2.1621744632720947,
+      "startLat": 40.39541244506836,
+      "startLng": 117.33135223388672
+    }
+  ]
+}

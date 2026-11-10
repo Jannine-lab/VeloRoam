@@ -1,0 +1,29 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T20:42:54.224Z",
+  "tile": {
+    "z": 13,
+    "x": 6792,
+    "y": 3402
+  },
+  "segments": [
+    {
+      "id": "37898433",
+      "tileScore": 2,
+      "name": "cd-林山到利平",
+      "distanceM": 10229.099609375,
+      "avgGrade": -0.3011017441749573,
+      "startLat": 29.143444061279297,
+      "startLng": 118.5068130493164
+    },
+    {
+      "id": "38653292",
+      "tileScore": 1,
+      "name": "2025环浙步道-开化站 未修改版本",
+      "distanceM": 119608,
+      "avgGrade": 0,
+      "startLat": 29.145221710205078,
+      "startLng": 118.3876724243164
+    }
+  ]
+}

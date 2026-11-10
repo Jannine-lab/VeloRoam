@@ -1,0 +1,20 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T20:29:10.897Z",
+  "tile": {
+    "z": 13,
+    "x": 6807,
+    "y": 3382
+  },
+  "segments": [
+    {
+      "id": "37589085",
+      "tileScore": 2,
+      "name": "昌文线G330超级好路【DQ】",
+      "distanceM": 3333.39990234375,
+      "avgGrade": -0.3779924511909485,
+      "startLat": 29.91595458984375,
+      "startLng": 119.13774871826172
+    }
+  ]
+}

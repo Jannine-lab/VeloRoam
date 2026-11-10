@@ -1,0 +1,65 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T19:37:51.853Z",
+  "tile": {
+    "z": 13,
+    "x": 6748,
+    "y": 3096
+  },
+  "segments": [
+    {
+      "id": "37346630",
+      "tileScore": 41,
+      "name": "马坡桥-火寺路路口刷一刷",
+      "distanceM": 6408,
+      "avgGrade": 0.12484394013881683,
+      "startLat": 40.17033386230469,
+      "startLng": 116.6292724609375
+    },
+    {
+      "id": "32607603",
+      "tileScore": 4,
+      "name": "Pikachu！",
+      "distanceM": 158177.40625,
+      "avgGrade": 0.022632816806435585,
+      "startLat": 40.14248275756836,
+      "startLng": 116.59239959716797
+    },
+    {
+      "id": "37154151",
+      "tileScore": 3,
+      "name": "去奥水训练路线",
+      "distanceM": 8780.900390625,
+      "avgGrade": -0.16626997292041779,
+      "startLat": 40.17231369018555,
+      "startLng": 116.58326721191406
+    },
+    {
+      "id": "41373275",
+      "tileScore": 1,
+      "name": "顺沙路（天北路→京密路）",
+      "distanceM": 6415.89990234375,
+      "avgGrade": 0.04987609013915062,
+      "startLat": 40.15121078491211,
+      "startLng": 116.51770782470703
+    },
+    {
+      "id": "13540653",
+      "tileScore": 10,
+      "name": "Car assembly row",
+      "distanceM": 3450.199951171875,
+      "avgGrade": -0.12173207104206085,
+      "startLat": 40.208160400390625,
+      "startLng": 116.55033111572266
+    },
+    {
+      "id": "15667458",
+      "tileScore": 51,
+      "name": "HuoSi2TianBei",
+      "distanceM": 2432.699951171875,
+      "avgGrade": 0.008221318013966084,
+      "startLat": 40.17537307739258,
+      "startLng": 116.55401611328125
+    }
+  ]
+}

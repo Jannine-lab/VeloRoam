@@ -1,0 +1,38 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T20:38:02.087Z",
+  "tile": {
+    "z": 13,
+    "x": 6794,
+    "y": 3383
+  },
+  "segments": [
+    {
+      "id": "33934322",
+      "tileScore": 11,
+      "name": "an area of scenic beauty",
+      "distanceM": 23392.80078125,
+      "avgGrade": -0.03419855609536171,
+      "startLat": 29.852100372314453,
+      "startLng": 118.49465942382812
+    },
+    {
+      "id": "38030159",
+      "tileScore": 10,
+      "name": "🚴🏻六连击⛰️",
+      "distanceM": 834.5,
+      "avgGrade": 5.24865198135376,
+      "startLat": 29.84961700439453,
+      "startLng": 118.60289764404297
+    },
+    {
+      "id": "41606573",
+      "tileScore": 11,
+      "name": "深渡北岸",
+      "distanceM": 8834.7998046875,
+      "avgGrade": 0.40068817138671875,
+      "startLat": 29.867570877075195,
+      "startLng": 118.60835266113281
+    }
+  ]
+}

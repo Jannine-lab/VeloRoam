@@ -1,0 +1,20 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T20:25:30.816Z",
+  "tile": {
+    "z": 13,
+    "x": 6810,
+    "y": 3375
+  },
+  "segments": [
+    {
+      "id": "40010672",
+      "tileScore": 2,
+      "name": "上庄村to浪山村缓坡",
+      "distanceM": 5694,
+      "avgGrade": 1.332982063293457,
+      "startLat": 30.165071487426758,
+      "startLng": 119.30260467529297
+    }
+  ]
+}

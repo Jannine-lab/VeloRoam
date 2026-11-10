@@ -1,0 +1,20 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T20:00:02.024Z",
+  "tile": {
+    "z": 13,
+    "x": 6723,
+    "y": 3121
+  },
+  "segments": [
+    {
+      "id": "22027852",
+      "tileScore": 1,
+      "name": "西关大桥-龙西道口",
+      "distanceM": 34651.30078125,
+      "avgGrade": 0.25569024682044983,
+      "startLat": 39.345977783203125,
+      "startLng": 115.47753143310547
+    }
+  ]
+}

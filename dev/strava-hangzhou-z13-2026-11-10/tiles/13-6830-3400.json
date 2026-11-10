@@ -1,0 +1,29 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T20:31:44.712Z",
+  "tile": {
+    "z": 13,
+    "x": 6830,
+    "y": 3400
+  },
+  "segments": [
+    {
+      "id": "33124366",
+      "tileScore": 3,
+      "name": "拜山鸿珠寺",
+      "distanceM": 987.5,
+      "avgGrade": 10.02531623840332,
+      "startLat": 29.203493118286133,
+      "startLng": 120.14630126953125
+    },
+    {
+      "id": "40781295",
+      "tileScore": 8,
+      "name": "画狮岩",
+      "distanceM": 910.2999877929688,
+      "avgGrade": 14.127211570739746,
+      "startLat": 29.20387077331543,
+      "startLng": 120.15238189697266
+    }
+  ]
+}

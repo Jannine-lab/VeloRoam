@@ -1,0 +1,29 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T20:34:10.012Z",
+  "tile": {
+    "z": 13,
+    "x": 6813,
+    "y": 3398
+  },
+  "segments": [
+    {
+      "id": "35440519",
+      "tileScore": 41,
+      "name": "「TEUK」Beyond Star”冲刺黄店",
+      "distanceM": 6612.7998046875,
+      "avgGrade": 0.17844180762767792,
+      "startLat": 29.248777389526367,
+      "startLng": 119.4283447265625
+    },
+    {
+      "id": "40062667",
+      "tileScore": 72,
+      "name": "里黄大洋 小环兰江",
+      "distanceM": 68143.6015625,
+      "avgGrade": -0.0026414806488901377,
+      "startLat": 29.23687171936035,
+      "startLng": 119.43478393554688
+    }
+  ]
+}

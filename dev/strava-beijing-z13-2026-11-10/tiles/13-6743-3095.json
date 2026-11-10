@@ -1,0 +1,47 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T19:38:47.381Z",
+  "tile": {
+    "z": 13,
+    "x": 6743,
+    "y": 3095
+  },
+  "segments": [
+    {
+      "id": "2536375",
+      "tileScore": 4,
+      "name": "Find yourself a truck.",
+      "distanceM": 3891.860107421875,
+      "avgGrade": 0.005139010492712259,
+      "startLat": 40.20518493652344,
+      "startLng": 116.39420318603516
+    },
+    {
+      "id": "41855389",
+      "tileScore": 19,
+      "name": "怀昌路-南邵到崔村",
+      "distanceM": 7448.5,
+      "avgGrade": 0.002685104263946414,
+      "startLat": 40.193363189697266,
+      "startLng": 116.28282165527344
+    },
+    {
+      "id": "36239169",
+      "tileScore": 5,
+      "name": "怀昌路全程",
+      "distanceM": 35708.80078125,
+      "avgGrade": -0.003920602146536112,
+      "startLat": 40.29088592529297,
+      "startLng": 116.5829086303711
+    },
+    {
+      "id": "30576018",
+      "tileScore": 5,
+      "name": "机场联络线",
+      "distanceM": 3712.10009765625,
+      "avgGrade": 0.09698014706373215,
+      "startLat": 40.149749755859375,
+      "startLng": 116.3353042602539
+    }
+  ]
+}

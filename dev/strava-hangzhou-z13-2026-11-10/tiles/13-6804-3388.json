@@ -1,0 +1,74 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T20:32:58.777Z",
+  "tile": {
+    "z": 13,
+    "x": 6804,
+    "y": 3388
+  },
+  "segments": [
+    {
+      "id": "37688070",
+      "tileScore": 55,
+      "name": "小缓坡【DQ】",
+      "distanceM": 895.5,
+      "avgGrade": 3.6180906295776367,
+      "startLat": 29.684293746948242,
+      "startLng": 119.0419921875
+    },
+    {
+      "id": "10850956",
+      "tileScore": 11,
+      "name": "Jinxian Tunnel (North-East Bound)",
+      "distanceM": 311,
+      "avgGrade": 12.218649864196777,
+      "startLat": 29.6514892578125,
+      "startLng": 119.00556182861328
+    },
+    {
+      "id": "28097263",
+      "tileScore": 36,
+      "name": "2021强者如斯ITT（去程）",
+      "distanceM": 5268.2001953125,
+      "avgGrade": 0.03037090413272381,
+      "startLat": 29.654525756835938,
+      "startLng": 119.01744842529297
+    },
+    {
+      "id": "39042496",
+      "tileScore": 13,
+      "name": "The Shortcut",
+      "distanceM": 1612.300048828125,
+      "avgGrade": 0.5209948420524597,
+      "startLat": 29.6755428314209,
+      "startLng": 119.0241928100586
+    },
+    {
+      "id": "42444011",
+      "tileScore": 7,
+      "name": "2026 STC 千岛湖铁三 1Lap",
+      "distanceM": 43543,
+      "avgGrade": 0.0002296580350957811,
+      "startLat": 29.655094146728516,
+      "startLng": 119.01878356933594
+    },
+    {
+      "id": "41373935",
+      "tileScore": 3,
+      "name": "慢坑冲坡",
+      "distanceM": 732.5,
+      "avgGrade": 3.8498294353485107,
+      "startLat": 29.662370681762695,
+      "startLng": 118.9986801147461
+    },
+    {
+      "id": "37907173",
+      "tileScore": 19,
+      "name": "千岛湖大桥前最后的进攻",
+      "distanceM": 1769.800048828125,
+      "avgGrade": 0.05650356039404869,
+      "startLat": 29.65434455871582,
+      "startLng": 119.0184555053711
+    }
+  ]
+}

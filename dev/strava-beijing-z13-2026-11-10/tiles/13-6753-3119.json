@@ -1,0 +1,20 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T19:45:57.360Z",
+  "tile": {
+    "z": 13,
+    "x": 6753,
+    "y": 3119
+  },
+  "segments": [
+    {
+      "id": "34924670",
+      "tileScore": 3,
+      "name": "三通道往返",
+      "distanceM": 30398.400390625,
+      "avgGrade": -0.01118479948490858,
+      "startLat": 39.45552062988281,
+      "startLng": 116.76181030273438
+    }
+  ]
+}

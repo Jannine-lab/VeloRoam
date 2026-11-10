@@ -1,0 +1,47 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T20:16:24.231Z",
+  "tile": {
+    "z": 13,
+    "x": 6829,
+    "y": 3368
+  },
+  "segments": [
+    {
+      "id": "42449469",
+      "tileScore": 9,
+      "name": "Duckland Loop CCW",
+      "distanceM": 3068.60009765625,
+      "avgGrade": -0.03258815035223961,
+      "startLat": 30.42487907409668,
+      "startLng": 120.14903259277344
+    },
+    {
+      "id": "39382914",
+      "tileScore": 3,
+      "name": "新区路itt",
+      "distanceM": 2609.60009765625,
+      "avgGrade": -0.022992029786109924,
+      "startLat": 30.42216682434082,
+      "startLng": 120.10807037353516
+    },
+    {
+      "id": "36751427",
+      "tileScore": 7,
+      "name": "塘栖运河公园",
+      "distanceM": 6446.7998046875,
+      "avgGrade": -0.00930694304406643,
+      "startLat": 30.46320915222168,
+      "startLng": 120.14761352539062
+    },
+    {
+      "id": "39382919",
+      "tileScore": 4,
+      "name": "仙桃路itt",
+      "distanceM": 3013.89990234375,
+      "avgGrade": 0,
+      "startLat": 30.393835067749023,
+      "startLng": 120.12142944335938
+    }
+  ]
+}

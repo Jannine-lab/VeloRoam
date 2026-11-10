@@ -1,0 +1,20 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T20:33:18.931Z",
+  "tile": {
+    "z": 13,
+    "x": 6802,
+    "y": 3385
+  },
+  "segments": [
+    {
+      "id": "35322685",
+      "tileScore": 1,
+      "name": "Up along the river",
+      "distanceM": 19841.30078125,
+      "avgGrade": 0.8956066370010376,
+      "startLat": 29.69945526123047,
+      "startLng": 118.86942291259766
+    }
+  ]
+}

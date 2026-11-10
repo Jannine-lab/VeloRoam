@@ -1,0 +1,38 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T19:51:18.631Z",
+  "tile": {
+    "z": 13,
+    "x": 6764,
+    "y": 3097
+  },
+  "segments": [
+    {
+      "id": "21963286",
+      "tileScore": 56,
+      "name": "宝平路爬坡",
+      "distanceM": 9670,
+      "avgGrade": 2.3557395935058594,
+      "startLat": 40.04124069213867,
+      "startLng": 117.2386703491211
+    },
+    {
+      "id": "32997732",
+      "tileScore": 2,
+      "name": "BTAC Evading Border Patrol",
+      "distanceM": 845,
+      "avgGrade": 6.662722110748291,
+      "startLat": 40.11198043823242,
+      "startLng": 117.24725341796875
+    },
+    {
+      "id": "21977877",
+      "tileScore": 18,
+      "name": "拉爆天天和混沌",
+      "distanceM": 7138.7001953125,
+      "avgGrade": 3.381568193435669,
+      "startLat": 40.14909362792969,
+      "startLng": 117.23016357421875
+    }
+  ]
+}

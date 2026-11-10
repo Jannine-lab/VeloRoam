@@ -1,0 +1,29 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T20:32:05.062Z",
+  "tile": {
+    "z": 13,
+    "x": 6835,
+    "y": 3399
+  },
+  "segments": [
+    {
+      "id": "30718697",
+      "tileScore": 6,
+      "name": "孟婆殿S1 游马地—桃尖",
+      "distanceM": 4026.5,
+      "avgGrade": 10.515336036682129,
+      "startLat": 29.255605697631836,
+      "startLng": 120.39044952392578
+    },
+    {
+      "id": "41620155",
+      "tileScore": 41,
+      "name": "扑龟岩Climb",
+      "distanceM": 3621.699951171875,
+      "avgGrade": 9.117264747619629,
+      "startLat": 29.24352264404297,
+      "startLng": 120.41552734375
+    }
+  ]
+}

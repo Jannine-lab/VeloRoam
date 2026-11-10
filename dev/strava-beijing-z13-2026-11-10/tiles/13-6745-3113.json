@@ -1,0 +1,20 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T19:38:28.157Z",
+  "tile": {
+    "z": 13,
+    "x": 6745,
+    "y": 3113
+  },
+  "segments": [
+    {
+      "id": "34786739",
+      "tileScore": 9,
+      "name": "永兴河北路到庞安路",
+      "distanceM": 8734.400390625,
+      "avgGrade": 0.04121633991599083,
+      "startLat": 39.53661346435547,
+      "startLng": 116.42156219482422
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T19:51:18.631Z",
+  "tile": {
+    "z": 13,
+    "x": 6765,
+    "y": 3096
+  },
+  "segments": [
+    {
+      "id": "35108946",
+      "tileScore": 8,
+      "name": "瓜上金海湖大坝（旁边的路更好走）",
+      "distanceM": 502,
+      "avgGrade": 7.071713447570801,
+      "startLat": 40.17087173461914,
+      "startLng": 117.2976303100586
+    },
+    {
+      "id": "28489027",
+      "tileScore": 3,
+      "name": "紫气东来缓上",
+      "distanceM": 2100,
+      "avgGrade": 1.3714286088943481,
+      "startLat": 40.179901123046875,
+      "startLng": 117.34967041015625
+    },
+    {
+      "id": "2748057",
+      "tileScore": 8,
+      "name": "Huanhu Rd Climb",
+      "distanceM": 2653.93994140625,
+      "avgGrade": 4.529012680053711,
+      "startLat": 40.17108154296875,
+      "startLng": 117.27668762207031
+    }
+  ]
+}

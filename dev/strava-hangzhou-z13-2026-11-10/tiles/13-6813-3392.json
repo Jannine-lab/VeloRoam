@@ -1,0 +1,20 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T20:30:02.686Z",
+  "tile": {
+    "z": 13,
+    "x": 6813,
+    "y": 3392
+  },
+  "segments": [
+    {
+      "id": "37777719",
+      "tileScore": 4,
+      "name": "冲冲坡",
+      "distanceM": 9481.2001953125,
+      "avgGrade": -0.05695481598377228,
+      "startLat": 29.535123825073242,
+      "startLng": 119.40306854248047
+    }
+  ]
+}

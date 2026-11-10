@@ -1,0 +1,47 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T19:54:24.688Z",
+  "tile": {
+    "z": 13,
+    "x": 6755,
+    "y": 3083
+  },
+  "segments": [
+    {
+      "id": "3764916",
+      "tileScore": 15,
+      "name": "X008 climb northbound",
+      "distanceM": 18492.76953125,
+      "avgGrade": 1.8807319402694702,
+      "startLat": 40.60089111328125,
+      "startLng": 116.86941528320312
+    },
+    {
+      "id": "17444363",
+      "tileScore": 52,
+      "name": "环密云水库",
+      "distanceM": 99223.3984375,
+      "avgGrade": 0.017334621399641037,
+      "startLat": 40.473995208740234,
+      "startLng": 116.87325286865234
+    },
+    {
+      "id": "38039383",
+      "tileScore": 16,
+      "name": "过桥后的搓板路到不老屯",
+      "distanceM": 10770.599609375,
+      "avgGrade": 0.08727461844682693,
+      "startLat": 40.5938720703125,
+      "startLng": 116.8716049194336
+    },
+    {
+      "id": "3574958",
+      "tileScore": 6,
+      "name": "Liuxin Road climb westbound",
+      "distanceM": 2218.525390625,
+      "avgGrade": 4.1828179359436035,
+      "startLat": 40.6027946472168,
+      "startLng": 116.86325073242188
+    }
+  ]
+}

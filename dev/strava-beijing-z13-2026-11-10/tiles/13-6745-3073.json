@@ -1,0 +1,20 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T20:04:45.880Z",
+  "tile": {
+    "z": 13,
+    "x": 6745,
+    "y": 3073
+  },
+  "segments": [
+    {
+      "id": "24946809",
+      "tileScore": 2,
+      "name": "五菱宏光叫回走错路的小飞象",
+      "distanceM": 1518.5999755859375,
+      "avgGrade": 1.442117691040039,
+      "startLat": 40.90947723388672,
+      "startLng": 116.42752838134766
+    }
+  ]
+}

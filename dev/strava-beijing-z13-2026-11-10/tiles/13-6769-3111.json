@@ -1,0 +1,20 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T19:56:18.749Z",
+  "tile": {
+    "z": 13,
+    "x": 6769,
+    "y": 3111
+  },
+  "segments": [
+    {
+      "id": "14928019",
+      "tileScore": 3,
+      "name": "林亭口拐弯到终点",
+      "distanceM": 374.70001220703125,
+      "avgGrade": 0.3736322224140167,
+      "startLat": 39.64923858642578,
+      "startLng": 117.48129272460938
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T19:41:26.038Z",
+  "tile": {
+    "z": 13,
+    "x": 6756,
+    "y": 3109
+  },
+  "segments": [
+    {
+      "id": "17712583",
+      "tileScore": 2,
+      "name": "天下第一城赛道",
+      "distanceM": 4219.5,
+      "avgGrade": 0.0023699491284787655,
+      "startLat": 39.71268844604492,
+      "startLng": 116.90074157714844
+    }
+  ]
+}

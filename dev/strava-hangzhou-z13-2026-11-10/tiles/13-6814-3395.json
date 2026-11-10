@@ -1,0 +1,20 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T20:31:34.479Z",
+  "tile": {
+    "z": 13,
+    "x": 6814,
+    "y": 3395
+  },
+  "segments": [
+    {
+      "id": "37767586",
+      "tileScore": 24,
+      "name": "朱家路口到蒋塔村",
+      "distanceM": 4778.2998046875,
+      "avgGrade": 4.683674335479736,
+      "startLat": 29.371450424194336,
+      "startLng": 119.42814636230469
+    }
+  ]
+}

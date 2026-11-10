@@ -1,0 +1,38 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T19:47:12.707Z",
+  "tile": {
+    "z": 13,
+    "x": 6741,
+    "y": 3086
+  },
+  "segments": [
+    {
+      "id": "37646138",
+      "tileScore": 1,
+      "name": "马蹄湾climb",
+      "distanceM": 3006.60009765625,
+      "avgGrade": 3.8914389610290527,
+      "startLat": 40.49473571777344,
+      "startLng": 116.23994445800781
+    },
+    {
+      "id": "37646152",
+      "tileScore": 1,
+      "name": "五座山climb",
+      "distanceM": 2987.800048828125,
+      "avgGrade": 4.277394771575928,
+      "startLat": 40.48799133300781,
+      "startLng": 116.23626708984375
+    },
+    {
+      "id": "31237265",
+      "tileScore": 11,
+      "name": "营王路下坡全程",
+      "distanceM": 5377.2001953125,
+      "avgGrade": -1.748121738433838,
+      "startLat": 40.48418045043945,
+      "startLng": 116.23005676269531
+    }
+  ]
+}

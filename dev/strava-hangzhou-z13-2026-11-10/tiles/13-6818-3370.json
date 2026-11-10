@@ -1,0 +1,56 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T20:19:44.350Z",
+  "tile": {
+    "z": 13,
+    "x": 6818,
+    "y": 3370
+  },
+  "segments": [
+    {
+      "id": "37160521",
+      "tileScore": 39,
+      "name": "大鱼线 第③部分",
+      "distanceM": 5033.39990234375,
+      "avgGrade": 2.539039134979248,
+      "startLat": 30.36789894104004,
+      "startLng": 119.67797088623047
+    },
+    {
+      "id": "33282284",
+      "tileScore": 32,
+      "name": "木工山爬坡",
+      "distanceM": 3302.300048828125,
+      "avgGrade": 6.855827331542969,
+      "startLat": 30.374103546142578,
+      "startLng": 119.64595031738281
+    },
+    {
+      "id": "7844796",
+      "tileScore": 257,
+      "name": "Full Dayu Line",
+      "distanceM": 23096.30078125,
+      "avgGrade": 2.9052271842956543,
+      "startLat": 30.340858459472656,
+      "startLng": 119.71572875976562
+    },
+    {
+      "id": "3659228",
+      "tileScore": 12,
+      "name": "Dayu Line Climb",
+      "distanceM": 861.0227661132812,
+      "avgGrade": 10.267130851745605,
+      "startLat": 30.3739013671875,
+      "startLng": 119.64497375488281
+    },
+    {
+      "id": "37351151",
+      "tileScore": 3,
+      "name": "环杭1 城西→104→江南天池→235返程",
+      "distanceM": 154840.59375,
+      "avgGrade": 0.020149754360318184,
+      "startLat": 30.351224899291992,
+      "startLng": 120.07047271728516
+    }
+  ]
+}

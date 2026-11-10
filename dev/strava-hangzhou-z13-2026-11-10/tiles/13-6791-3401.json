@@ -1,0 +1,20 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T20:43:06.474Z",
+  "tile": {
+    "z": 13,
+    "x": 6791,
+    "y": 3401
+  },
+  "segments": [
+    {
+      "id": "35651536",
+      "tileScore": 18,
+      "name": "加油站-源塘路口",
+      "distanceM": 17110.599609375,
+      "avgGrade": 0.5528736114501953,
+      "startLat": 29.13792610168457,
+      "startLng": 118.43138122558594
+    }
+  ]
+}

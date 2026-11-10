@@ -1,0 +1,65 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T19:49:33.412Z",
+  "tile": {
+    "z": 13,
+    "x": 6724,
+    "y": 3100
+  },
+  "segments": [
+    {
+      "id": "29503265",
+      "tileScore": 36,
+      "name": "Hope you enjoyed the ride down into a dead end road",
+      "distanceM": 5984.2001953125,
+      "avgGrade": 7.416196346282959,
+      "startLat": 40.052879333496094,
+      "startLng": 115.52790069580078
+    },
+    {
+      "id": "2336187",
+      "tileScore": 1,
+      "name": "县道 Climb",
+      "distanceM": 926.3800048828125,
+      "avgGrade": 8.754317283630371,
+      "startLat": 40.03080368041992,
+      "startLng": 115.49699401855469
+    },
+    {
+      "id": "13373085",
+      "tileScore": 626,
+      "name": "灵山计时全程",
+      "distanceM": 16574,
+      "avgGrade": 5.333654880523682,
+      "startLat": 39.95085906982422,
+      "startLng": 115.4861068725586
+    },
+    {
+      "id": "28713831",
+      "tileScore": 44,
+      "name": "灵山顶最后冲刺",
+      "distanceM": 324.29998779296875,
+      "avgGrade": 7.770583152770996,
+      "startLat": 40.04336166381836,
+      "startLng": 115.49652862548828
+    },
+    {
+      "id": "19677302",
+      "tileScore": 109,
+      "name": "灵山绕圈",
+      "distanceM": 60000.80078125,
+      "avgGrade": -0.005333262495696545,
+      "startLat": 39.94923400878906,
+      "startLng": 115.48558044433594
+    },
+    {
+      "id": "18996152",
+      "tileScore": 28,
+      "name": "灵山后半",
+      "distanceM": 3813.800048828125,
+      "avgGrade": 5.957313060760498,
+      "startLat": 40.01418685913086,
+      "startLng": 115.49324798583984
+    }
+  ]
+}

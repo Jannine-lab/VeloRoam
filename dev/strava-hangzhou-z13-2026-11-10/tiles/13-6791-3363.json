@@ -1,0 +1,20 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T20:39:41.713Z",
+  "tile": {
+    "z": 13,
+    "x": 6791,
+    "y": 3363
+  },
+  "segments": [
+    {
+      "id": "35667641",
+      "tileScore": 9,
+      "name": "冲向皖南川藏线（G205起伏路）",
+      "distanceM": 18450,
+      "avgGrade": 0.4032520055770874,
+      "startLat": 30.66166114807129,
+      "startLng": 118.4513931274414
+    }
+  ]
+}

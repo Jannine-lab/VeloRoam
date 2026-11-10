@@ -1,0 +1,20 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T20:19:39.402Z",
+  "tile": {
+    "z": 13,
+    "x": 6840,
+    "y": 3375
+  },
+  "segments": [
+    {
+      "id": "39475746",
+      "tileScore": 22,
+      "name": "村间好路（W-E）",
+      "distanceM": 4712.7001953125,
+      "avgGrade": 0.025463109835982323,
+      "startLat": 30.155250549316406,
+      "startLng": 120.55754089355469
+    }
+  ]
+}

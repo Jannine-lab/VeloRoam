@@ -1,0 +1,56 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T19:35:25.411Z",
+  "tile": {
+    "z": 13,
+    "x": 6749,
+    "y": 3098
+  },
+  "segments": [
+    {
+      "id": "16220181",
+      "tileScore": 15,
+      "name": "Airport East Rd 6th Ring Bridge 机场东路六环桥",
+      "distanceM": 1451.300048828125,
+      "avgGrade": 0.013780748471617699,
+      "startLat": 40.08855056762695,
+      "startLng": 116.62310791015625
+    },
+    {
+      "id": "34415238",
+      "tileScore": 3,
+      "name": "首都机场绕圈（顺时针）",
+      "distanceM": 27443.400390625,
+      "avgGrade": 0.0010931589640676975,
+      "startLat": 40.106719970703125,
+      "startLng": 116.62333679199219
+    },
+    {
+      "id": "16219425",
+      "tileScore": 18,
+      "name": "Airport East Rd - Shunping to 6th Ring 机场东路-顺平路到六环 ",
+      "distanceM": 3098.800048828125,
+      "avgGrade": -0.032270558178424835,
+      "startLat": 40.11594009399414,
+      "startLng": 116.62342834472656
+    },
+    {
+      "id": "41310050",
+      "tileScore": 1,
+      "name": "机场东路-小中河（N-S）",
+      "distanceM": 8459.900390625,
+      "avgGrade": -0.024822989478707314,
+      "startLat": 40.11521911621094,
+      "startLng": 116.6234130859375
+    },
+    {
+      "id": "16219496",
+      "tileScore": 5,
+      "name": "Airport Express 机场东路",
+      "distanceM": 10213.099609375,
+      "avgGrade": -0.05091500282287598,
+      "startLat": 40.137786865234375,
+      "startLng": 116.62342071533203
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T20:19:06.233Z",
+  "tile": {
+    "z": 13,
+    "x": 6822,
+    "y": 3380
+  },
+  "segments": [
+    {
+      "id": "36529261",
+      "tileScore": 26,
+      "name": "蒋大线长缓坡",
+      "distanceM": 8839.7001953125,
+      "avgGrade": 2.031743049621582,
+      "startLat": 29.988117218017578,
+      "startLng": 119.87251281738281
+    },
+    {
+      "id": "34265486",
+      "tileScore": 56,
+      "name": "蒋大线last climb",
+      "distanceM": 1839.800048828125,
+      "avgGrade": 5.5984344482421875,
+      "startLat": 29.9492244720459,
+      "startLng": 119.78720092773438
+    },
+    {
+      "id": "24768432",
+      "tileScore": 20,
+      "name": "上里山",
+      "distanceM": 998.5,
+      "avgGrade": 7.431146621704102,
+      "startLat": 29.960037231445312,
+      "startLng": 119.80646514892578
+    },
+    {
+      "id": "34136910",
+      "tileScore": 31,
+      "name": "蒋大线",
+      "distanceM": 8557.599609375,
+      "avgGrade": 2.243619680404663,
+      "startLat": 29.89803695678711,
+      "startLng": 119.7608642578125
+    }
+  ]
+}

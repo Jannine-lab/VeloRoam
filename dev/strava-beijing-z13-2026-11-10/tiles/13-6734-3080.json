@@ -1,0 +1,29 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T19:56:57.215Z",
+  "tile": {
+    "z": 13,
+    "x": 6734,
+    "y": 3080
+  },
+  "segments": [
+    {
+      "id": "39503149",
+      "tileScore": 10,
+      "name": "雕鹗-->隔河寨隧道",
+      "distanceM": 13272.7998046875,
+      "avgGrade": -0.7941052317619324,
+      "startLat": 40.720951080322266,
+      "startLng": 115.82086181640625
+    },
+    {
+      "id": "41485152",
+      "tileScore": 46,
+      "name": "shit road",
+      "distanceM": 3133.60009765625,
+      "avgGrade": -1.1105437278747559,
+      "startLat": 40.707271575927734,
+      "startLng": 115.9501953125
+    }
+  ]
+}

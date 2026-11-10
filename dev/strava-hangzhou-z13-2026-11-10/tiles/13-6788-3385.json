@@ -1,0 +1,38 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T20:41:33.186Z",
+  "tile": {
+    "z": 13,
+    "x": 6788,
+    "y": 3385
+  },
+  "segments": [
+    {
+      "id": "40657392",
+      "tileScore": 3,
+      "name": "Huangshan north lap",
+      "distanceM": 39189.3984375,
+      "avgGrade": 0.026027444750070572,
+      "startLat": 29.720693588256836,
+      "startLng": 118.29390716552734
+    },
+    {
+      "id": "37920631",
+      "tileScore": 11,
+      "name": "老胡的家",
+      "distanceM": 1695.199951171875,
+      "avgGrade": 0.3893345892429352,
+      "startLat": 29.800941467285156,
+      "startLng": 118.32105255126953
+    },
+    {
+      "id": "41569850",
+      "tileScore": 73,
+      "name": "VO2max测试",
+      "distanceM": 5228.10009765625,
+      "avgGrade": -0.4208029806613922,
+      "startLat": 29.8064022064209,
+      "startLng": 118.338134765625
+    }
+  ]
+}

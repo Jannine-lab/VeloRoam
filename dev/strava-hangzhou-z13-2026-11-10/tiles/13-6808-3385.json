@@ -1,0 +1,56 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T20:29:20.765Z",
+  "tile": {
+    "z": 13,
+    "x": 6808,
+    "y": 3385
+  },
+  "segments": [
+    {
+      "id": "35658976",
+      "tileScore": 12,
+      "name": "杭州市to千岛湖镇",
+      "distanceM": 145213,
+      "avgGrade": 0.0798826590180397,
+      "startLat": 30.197845458984375,
+      "startLng": 120.12736511230469
+    },
+    {
+      "id": "34393519",
+      "tileScore": 3,
+      "name": "沙岭A",
+      "distanceM": 3530.10009765625,
+      "avgGrade": 4.249171733856201,
+      "startLat": 29.7929630279541,
+      "startLng": 119.19474029541016
+    },
+    {
+      "id": "5344379",
+      "tileScore": 5,
+      "name": "千岛湖大桥到百江镇",
+      "distanceM": 42419.3984375,
+      "avgGrade": -0.06294289976358414,
+      "startLat": 29.637163162231445,
+      "startLng": 119.04692077636719
+    },
+    {
+      "id": "5269030",
+      "tileScore": 2,
+      "name": "潭唐线到溪口村 - Tantang Xian to Xikou Cun",
+      "distanceM": 10974.400390625,
+      "avgGrade": -0.25878408551216125,
+      "startLat": 29.785058975219727,
+      "startLng": 119.20038604736328
+    },
+    {
+      "id": "19834289",
+      "tileScore": 6,
+      "name": "FlyingDown",
+      "distanceM": 8480,
+      "avgGrade": -0.8514150977134705,
+      "startLat": 29.813413619995117,
+      "startLng": 119.22774505615234
+    }
+  ]
+}

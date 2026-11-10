@@ -1,0 +1,20 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T19:51:11.212Z",
+  "tile": {
+    "z": 13,
+    "x": 6737,
+    "y": 3085
+  },
+  "segments": [
+    {
+      "id": "24875434",
+      "tileScore": 4,
+      "name": "沈家营到管理处",
+      "distanceM": 17143.30078125,
+      "avgGrade": 0.3826567828655243,
+      "startLat": 40.479278564453125,
+      "startLng": 116.03162384033203
+    }
+  ]
+}

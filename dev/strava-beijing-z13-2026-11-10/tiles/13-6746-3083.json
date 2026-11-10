@@ -1,0 +1,47 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T19:49:23.590Z",
+  "tile": {
+    "z": 13,
+    "x": 6746,
+    "y": 3083
+  },
+  "segments": [
+    {
+      "id": "19049867",
+      "tileScore": 18,
+      "name": "Chuanbao rd descent north 2nd part",
+      "distanceM": 6529.2001953125,
+      "avgGrade": -1.3569809198379517,
+      "startLat": 40.5926513671875,
+      "startLng": 116.47935485839844
+    },
+    {
+      "id": "25567350",
+      "tileScore": 24,
+      "name": "X211缓上",
+      "distanceM": 18637.400390625,
+      "avgGrade": 0.9904814958572388,
+      "startLat": 40.63142395019531,
+      "startLng": 116.4942855834961
+    },
+    {
+      "id": "19049877",
+      "tileScore": 22,
+      "name": "南湾 climb north",
+      "distanceM": 411.3999938964844,
+      "avgGrade": 3.9863879680633545,
+      "startLat": 40.589111328125,
+      "startLng": 116.4764175415039
+    },
+    {
+      "id": "35332155",
+      "tileScore": 16,
+      "name": "百里画廊（茂陵至四海顶）",
+      "distanceM": 149721.90625,
+      "avgGrade": 0.4735445976257324,
+      "startLat": 40.31157302856445,
+      "startLng": 116.22599029541016
+    }
+  ]
+}

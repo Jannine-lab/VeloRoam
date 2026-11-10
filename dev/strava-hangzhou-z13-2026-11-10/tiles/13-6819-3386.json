@@ -1,0 +1,20 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T20:24:24.199Z",
+  "tile": {
+    "z": 13,
+    "x": 6819,
+    "y": 3386
+  },
+  "segments": [
+    {
+      "id": "35407373",
+      "tileScore": 6,
+      "name": "S210 东拐G320小缓坡  ",
+      "distanceM": 2207.39990234375,
+      "avgGrade": 1.2231584787368774,
+      "startLat": 29.759662628173828,
+      "startLng": 119.65753936767578
+    }
+  ]
+}

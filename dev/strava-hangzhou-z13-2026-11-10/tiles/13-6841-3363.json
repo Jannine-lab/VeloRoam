@@ -1,0 +1,20 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T20:21:48.716Z",
+  "tile": {
+    "z": 13,
+    "x": 6841,
+    "y": 3363
+  },
+  "segments": [
+    {
+      "id": "32804176",
+      "tileScore": 37,
+      "name": "G524洪合至海宁路段南向北",
+      "distanceM": 12013.900390625,
+      "avgGrade": -0.02413870580494404,
+      "startLat": 30.67552947998047,
+      "startLng": 120.65263366699219
+    }
+  ]
+}

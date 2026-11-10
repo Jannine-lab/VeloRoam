@@ -1,0 +1,164 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T19:34:38.680Z",
+  "tile": {
+    "z": 13,
+    "x": 6749,
+    "y": 3101
+  },
+  "segments": [
+    {
+      "id": "1479776",
+      "tileScore": 139,
+      "name": "WenYu River SE part",
+      "distanceM": 4660.10009765625,
+      "avgGrade": 0.00858350656926632,
+      "startLat": 39.986854553222656,
+      "startLng": 116.63540649414062
+    },
+    {
+      "id": "41224750",
+      "tileScore": 16,
+      "name": "温榆河绿道 Wenyu Greenway N-S",
+      "distanceM": 12112.2001953125,
+      "avgGrade": -0.016512276604771614,
+      "startLat": 40.04772186279297,
+      "startLng": 116.5392837524414
+    },
+    {
+      "id": "34656564",
+      "tileScore": 192,
+      "name": "溫榆河小療程",
+      "distanceM": 23870,
+      "avgGrade": -0.0033514872193336487,
+      "startLat": 39.9312744140625,
+      "startLng": 116.64291381835938
+    },
+    {
+      "id": "10279590",
+      "tileScore": 3,
+      "name": "Smells like China",
+      "distanceM": 2397.800048828125,
+      "avgGrade": -0.20852448046207428,
+      "startLat": 40.00150680541992,
+      "startLng": 116.56394958496094
+    },
+    {
+      "id": "41850914",
+      "tileScore": 30,
+      "name": "Oasis从管庄路飞驰到金盏桥北掉头（修路后）",
+      "distanceM": 9499.2001953125,
+      "avgGrade": -0.027370726689696312,
+      "startLat": 39.93164825439453,
+      "startLng": 116.58389282226562
+    },
+    {
+      "id": "41849676",
+      "tileScore": 16,
+      "name": "二高辅绕圈5KM",
+      "distanceM": 4995.2001953125,
+      "avgGrade": -0.016015375033020973,
+      "startLat": 39.993865966796875,
+      "startLng": 116.57975769042969
+    },
+    {
+      "id": "11630931",
+      "tileScore": 3,
+      "name": "金榆路(皮村路口-朝阳北路口)",
+      "distanceM": 6217.10009765625,
+      "avgGrade": 0.06433867663145065,
+      "startLat": 39.97994613647461,
+      "startLng": 116.60870361328125
+    },
+    {
+      "id": "32060154",
+      "tileScore": 97,
+      "name": "温榆河(尹各庄桥～金榆桥)",
+      "distanceM": 5387.2998046875,
+      "avgGrade": -0.025987043976783752,
+      "startLat": 39.98772048950195,
+      "startLng": 116.63937377929688
+    },
+    {
+      "id": "40688147",
+      "tileScore": 11,
+      "name": "温榆河Gravel Road（斯普瑞斯段→东窑村段）",
+      "distanceM": 1320.9000244140625,
+      "avgGrade": -0.09084714949131012,
+      "startLat": 40.014827728271484,
+      "startLng": 116.59085845947266
+    },
+    {
+      "id": "28232116",
+      "tileScore": 4,
+      "name": "过了二高突突一下子",
+      "distanceM": 1089.199951171875,
+      "avgGrade": 0.05508630350232124,
+      "startLat": 40.0018424987793,
+      "startLng": 116.58992004394531
+    },
+    {
+      "id": "6856765",
+      "tileScore": 111,
+      "name": "Airport Express Sprint",
+      "distanceM": 605.7999877929688,
+      "avgGrade": 0.19808518886566162,
+      "startLat": 40.0055046081543,
+      "startLng": 116.59020233154297
+    },
+    {
+      "id": "25943209",
+      "tileScore": 1,
+      "name": "Western wind sprint",
+      "distanceM": 2538.699951171875,
+      "avgGrade": -0.1260487586259842,
+      "startLat": 39.9774284362793,
+      "startLng": 116.57799530029297
+    },
+    {
+      "id": "21511250",
+      "tileScore": 2,
+      "name": "Dr Phil's TTT, 4th Ring Road and return.",
+      "distanceM": 52287.80078125,
+      "avgGrade": -0.00688497070223093,
+      "startLat": 39.932437896728516,
+      "startLng": 116.48710632324219
+    },
+    {
+      "id": "11623102",
+      "tileScore": 22,
+      "name": "机场第二高速(金盏桥-管庄路口)",
+      "distanceM": 7115.60009765625,
+      "avgGrade": -0.07588959485292435,
+      "startLat": 40.001914978027344,
+      "startLng": 116.58734893798828
+    },
+    {
+      "id": "41300519",
+      "tileScore": 1,
+      "name": "Wenyu Left Bank Rolling Hills",
+      "distanceM": 1138,
+      "avgGrade": 0.017574692144989967,
+      "startLat": 40.01093673706055,
+      "startLng": 116.61605834960938
+    },
+    {
+      "id": "28202051",
+      "tileScore": 88,
+      "name": "After warm up test",
+      "distanceM": 7189.7998046875,
+      "avgGrade": 0.033380623906850815,
+      "startLat": 39.95262908935547,
+      "startLng": 116.63874816894531
+    },
+    {
+      "id": "14690332",
+      "tileScore": 5,
+      "name": "金榆路（皮村路-焦沙路）",
+      "distanceM": 2535.60009765625,
+      "avgGrade": 0.18141663074493408,
+      "startLat": 39.980682373046875,
+      "startLng": 116.60846710205078
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T20:36:34.451Z",
+  "tile": {
+    "z": 13,
+    "x": 6813,
+    "y": 3402
+  },
+  "segments": [
+    {
+      "id": "38890597",
+      "tileScore": 6,
+      "name": "兰贺线去金华",
+      "distanceM": 16302,
+      "avgGrade": -0.013495277613401413,
+      "startLat": 29.09977912902832,
+      "startLng": 119.35162353515625
+    }
+  ]
+}

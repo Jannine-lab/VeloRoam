@@ -1,0 +1,29 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T20:07:44.570Z",
+  "tile": {
+    "z": 13,
+    "x": 6768,
+    "y": 3079
+  },
+  "segments": [
+    {
+      "id": "5610620",
+      "tileScore": 3,
+      "name": "Shangluan Line Climb",
+      "distanceM": 2725.800048828125,
+      "avgGrade": 5.180130481719971,
+      "startLat": 40.72393035888672,
+      "startLng": 117.47808074951172
+    },
+    {
+      "id": "37020618",
+      "tileScore": 1,
+      "name": "the complete 兩間房 climb",
+      "distanceM": 16059.900390625,
+      "avgGrade": 3.2279155254364014,
+      "startLat": 40.7384147644043,
+      "startLng": 117.3429946899414
+    }
+  ]
+}

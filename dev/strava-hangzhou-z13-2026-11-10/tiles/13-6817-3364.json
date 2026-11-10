@@ -1,0 +1,38 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T20:23:00.606Z",
+  "tile": {
+    "z": 13,
+    "x": 6817,
+    "y": 3364
+  },
+  "segments": [
+    {
+      "id": "27377387",
+      "tileScore": 40,
+      "name": "315县道+白缸线itt_⛄️",
+      "distanceM": 10287.099609375,
+      "avgGrade": -0.7485103011131287,
+      "startLat": 30.53465461730957,
+      "startLng": 119.5580062866211
+    },
+    {
+      "id": "33074816",
+      "tileScore": 26,
+      "name": "Liuping Line short",
+      "distanceM": 9626.400390625,
+      "avgGrade": 1.5291281938552856,
+      "startLat": 30.569093704223633,
+      "startLng": 119.60005187988281
+    },
+    {
+      "id": "36324771",
+      "tileScore": 5,
+      "name": "湿身苦战龙王溪",
+      "distanceM": 3430.89990234375,
+      "avgGrade": 0.5479611754417419,
+      "startLat": 30.608949661254883,
+      "startLng": 119.59315490722656
+    }
+  ]
+}

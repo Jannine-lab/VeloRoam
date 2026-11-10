@@ -1,0 +1,29 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T20:32:23.918Z",
+  "tile": {
+    "z": 13,
+    "x": 6800,
+    "y": 3372
+  },
+  "segments": [
+    {
+      "id": "39351556",
+      "tileScore": 6,
+      "name": "🚴仁里山间烂路climb⛰",
+      "distanceM": 3934.5,
+      "avgGrade": 2.9940271377563477,
+      "startLat": 30.29414176940918,
+      "startLng": 118.89319610595703
+    },
+    {
+      "id": "36526896",
+      "tileScore": 10,
+      "name": "岛石-家朋",
+      "distanceM": 14244.2998046875,
+      "avgGrade": -1.7080515623092651,
+      "startLat": 30.294002532958984,
+      "startLng": 118.89190673828125
+    }
+  ]
+}

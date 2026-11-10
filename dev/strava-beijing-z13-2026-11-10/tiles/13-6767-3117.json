@@ -1,0 +1,29 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T19:57:02.174Z",
+  "tile": {
+    "z": 13,
+    "x": 6767,
+    "y": 3117
+  },
+  "segments": [
+    {
+      "id": "13021029",
+      "tileScore": 9,
+      "name": "青龍灣左堤(大唐庒鎮段)",
+      "distanceM": 11677.900390625,
+      "avgGrade": 0.03939064219594002,
+      "startLat": 39.35511016845703,
+      "startLng": 117.48192596435547
+    },
+    {
+      "id": "13207576",
+      "tileScore": 5,
+      "name": "青龍灣左堤-1-2",
+      "distanceM": 8081.60009765625,
+      "avgGrade": 0,
+      "startLat": 39.47990036010742,
+      "startLng": 117.34176635742188
+    }
+  ]
+}

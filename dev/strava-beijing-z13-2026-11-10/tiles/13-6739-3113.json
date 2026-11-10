@@ -1,0 +1,20 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T19:39:24.963Z",
+  "tile": {
+    "z": 13,
+    "x": 6739,
+    "y": 3113
+  },
+  "segments": [
+    {
+      "id": "28960749",
+      "tileScore": 2,
+      "name": "范佬回家硬邦邦",
+      "distanceM": 21110.19921875,
+      "avgGrade": -0.07579274475574493,
+      "startLat": 39.75798034667969,
+      "startLng": 116.21328735351562
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T20:28:06.745Z",
+  "tile": {
+    "z": 13,
+    "x": 6806,
+    "y": 3376
+  },
+  "segments": [
+    {
+      "id": "41681253",
+      "tileScore": 17,
+      "name": "河桥-蒲村(山和海)",
+      "distanceM": 16439.69921875,
+      "avgGrade": 0.4659452438354492,
+      "startLat": 30.104167938232422,
+      "startLng": 119.22815704345703
+    }
+  ]
+}

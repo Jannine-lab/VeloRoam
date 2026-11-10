@@ -1,0 +1,20 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T19:59:37.417Z",
+  "tile": {
+    "z": 13,
+    "x": 6758,
+    "y": 3081
+  },
+  "segments": [
+    {
+      "id": "4414094",
+      "tileScore": 2,
+      "name": "Beijing Pelaton breakaway climb",
+      "distanceM": 15589,
+      "avgGrade": 1.8307781219482422,
+      "startLat": 40.624969482421875,
+      "startLng": 117.02896881103516
+    }
+  ]
+}

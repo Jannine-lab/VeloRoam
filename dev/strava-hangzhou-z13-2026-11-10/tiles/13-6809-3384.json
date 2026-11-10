@@ -1,0 +1,38 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T20:28:35.783Z",
+  "tile": {
+    "z": 13,
+    "x": 6809,
+    "y": 3384
+  },
+  "segments": [
+    {
+      "id": "35658976",
+      "tileScore": 12,
+      "name": "杭州市to千岛湖镇",
+      "distanceM": 145213,
+      "avgGrade": 0.0798826590180397,
+      "startLat": 30.197845458984375,
+      "startLng": 120.12736511230469
+    },
+    {
+      "id": "5344379",
+      "tileScore": 5,
+      "name": "千岛湖大桥到百江镇",
+      "distanceM": 42419.3984375,
+      "avgGrade": -0.06294289976358414,
+      "startLat": 29.637163162231445,
+      "startLng": 119.04692077636719
+    },
+    {
+      "id": "19834289",
+      "tileScore": 6,
+      "name": "FlyingDown",
+      "distanceM": 8480,
+      "avgGrade": -0.8514150977134705,
+      "startLat": 29.813413619995117,
+      "startLng": 119.22774505615234
+    }
+  ]
+}

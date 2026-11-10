@@ -1,0 +1,20 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T20:34:17.527Z",
+  "tile": {
+    "z": 13,
+    "x": 6798,
+    "y": 3376
+  },
+  "segments": [
+    {
+      "id": "14136348",
+      "tileScore": 14,
+      "name": "徽杭古道爬坡",
+      "distanceM": 30268.80078125,
+      "avgGrade": 3.7332170009613037,
+      "startLat": 30.143230438232422,
+      "startLng": 118.75184631347656
+    }
+  ]
+}

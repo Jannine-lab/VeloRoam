@@ -1,0 +1,29 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T19:56:33.536Z",
+  "tile": {
+    "z": 13,
+    "x": 6728,
+    "y": 3084
+  },
+  "segments": [
+    {
+      "id": "37497207",
+      "tileScore": 11,
+      "name": "怀来东沟爬坡赛",
+      "distanceM": 23170.69921875,
+      "avgGrade": 3.0253725051879883,
+      "startLat": 40.408023834228516,
+      "startLng": 115.6043930053711
+    },
+    {
+      "id": "34256813",
+      "tileScore": 3,
+      "name": "Don’t Get Dropped!!!",
+      "distanceM": 1946.300048828125,
+      "avgGrade": 9.279145240783691,
+      "startLat": 40.55146026611328,
+      "startLng": 115.65523529052734
+    }
+  ]
+}

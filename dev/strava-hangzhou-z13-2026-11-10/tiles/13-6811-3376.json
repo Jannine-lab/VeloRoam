@@ -1,0 +1,29 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T20:25:30.816Z",
+  "tile": {
+    "z": 13,
+    "x": 6811,
+    "y": 3376
+  },
+  "segments": [
+    {
+      "id": "39844355",
+      "tileScore": 3,
+      "name": "双坑村climb",
+      "distanceM": 2277.800048828125,
+      "avgGrade": 4.319958209991455,
+      "startLat": 30.103530883789062,
+      "startLng": 119.34182739257812
+    },
+    {
+      "id": "40010672",
+      "tileScore": 2,
+      "name": "上庄村to浪山村缓坡",
+      "distanceM": 5694,
+      "avgGrade": 1.332982063293457,
+      "startLat": 30.165071487426758,
+      "startLng": 119.30260467529297
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T20:17:56.028Z",
+  "tile": {
+    "z": 13,
+    "x": 6838,
+    "y": 3371
+  },
+  "segments": [
+    {
+      "id": "42186214",
+      "tileScore": 1,
+      "name": "南沙路",
+      "distanceM": 1946.4000244140625,
+      "avgGrade": 0.1849568486213684,
+      "startLat": 30.31728744506836,
+      "startLng": 120.49092102050781
+    },
+    {
+      "id": "34376636",
+      "tileScore": 4,
+      "name": "江东一路W-E",
+      "distanceM": 5491.60009765625,
+      "avgGrade": 0.0109257772564888,
+      "startLat": 30.322341918945312,
+      "startLng": 120.49195098876953
+    },
+    {
+      "id": "37415086",
+      "tileScore": 3,
+      "name": "河景路（E-W）first bridge",
+      "distanceM": 514.2000122070312,
+      "avgGrade": 0.7779074311256409,
+      "startLat": 30.29737091064453,
+      "startLng": 120.5349349975586
+    },
+    {
+      "id": "23868600",
+      "tileScore": 2,
+      "name": "江东大道e-w",
+      "distanceM": 15409.099609375,
+      "avgGrade": 0.018171081319451332,
+      "startLat": 30.30754852294922,
+      "startLng": 120.59674835205078
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T20:34:25.216Z",
+  "tile": {
+    "z": 13,
+    "x": 6798,
+    "y": 3368
+  },
+  "segments": [
+    {
+      "id": "40670697",
+      "tileScore": 10,
+      "name": "方胡路南爬坡",
+      "distanceM": 3664.89990234375,
+      "avgGrade": 5.217059135437012,
+      "startLat": 30.41762351989746,
+      "startLng": 118.74581909179688
+    },
+    {
+      "id": "39007640",
+      "tileScore": 19,
+      "name": "方胡路北爬坡",
+      "distanceM": 3526.5,
+      "avgGrade": 5.163760185241699,
+      "startLat": 30.43752098083496,
+      "startLng": 118.73429107666016
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T20:31:14.716Z",
+  "tile": {
+    "z": 13,
+    "x": 6802,
+    "y": 3377
+  },
+  "segments": [
+    {
+      "id": "12789679",
+      "tileScore": 42,
+      "name": "Short climb after a much larger climb",
+      "distanceM": 4610.5,
+      "avgGrade": 2.702526807785034,
+      "startLat": 30.086593627929688,
+      "startLng": 118.98115539550781
+    },
+    {
+      "id": "12789673",
+      "tileScore": 45,
+      "name": "Botanical Garden Cloud Climb",
+      "distanceM": 10574.2001953125,
+      "avgGrade": 4.917629718780518,
+      "startLat": 30.10304069519043,
+      "startLng": 118.9283218383789
+    }
+  ]
+}

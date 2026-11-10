@@ -1,0 +1,29 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T20:27:00.941Z",
+  "tile": {
+    "z": 13,
+    "x": 6812,
+    "y": 3385
+  },
+  "segments": [
+    {
+      "id": "33424558",
+      "tileScore": 25,
+      "name": "天井村爬坡",
+      "distanceM": 3208,
+      "avgGrade": 6.290523529052734,
+      "startLat": 29.771743774414062,
+      "startLng": 119.39720916748047
+    },
+    {
+      "id": "38229617",
+      "tileScore": 1,
+      "name": "阳田古村 climb",
+      "distanceM": 2147,
+      "avgGrade": 6.483465194702148,
+      "startLat": 29.766733169555664,
+      "startLng": 119.38796997070312
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T19:58:25.411Z",
+  "tile": {
+    "z": 13,
+    "x": 6750,
+    "y": 3078
+  },
+  "segments": [
+    {
+      "id": "42336611",
+      "tileScore": 19,
+      "name": "喇叭沟门缓下（喇叭沟-汤河口）",
+      "distanceM": 44635.1015625,
+      "avgGrade": -1.0937581062316895,
+      "startLat": 40.951507568359375,
+      "startLng": 116.49972534179688
+    },
+    {
+      "id": "29545915",
+      "tileScore": 8,
+      "name": "走国道回汤河口",
+      "distanceM": 27107.5,
+      "avgGrade": -0.5548280477523804,
+      "startLat": 40.87208557128906,
+      "startLng": 116.64643859863281
+    },
+    {
+      "id": "39206489",
+      "tileScore": 2,
+      "name": "the complete 古石溝 climb",
+      "distanceM": 7819,
+      "avgGrade": 2.738201856613159,
+      "startLat": 40.75801086425781,
+      "startLng": 116.66230773925781
+    }
+  ]
+}

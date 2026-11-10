@@ -1,0 +1,38 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T19:48:16.744Z",
+  "tile": {
+    "z": 13,
+    "x": 6759,
+    "y": 3116
+  },
+  "segments": [
+    {
+      "id": "13679646",
+      "tileScore": 2,
+      "name": "Goin' Southbound",
+      "distanceM": 27983.19921875,
+      "avgGrade": 0.0028588580898940563,
+      "startLat": 39.71125030517578,
+      "startLng": 117.00829315185547
+    },
+    {
+      "id": "39937741",
+      "tileScore": 3,
+      "name": "北运河东漫水路",
+      "distanceM": 6787.10009765625,
+      "avgGrade": -0.029467666521668434,
+      "startLat": 39.48432540893555,
+      "startLng": 117.02777862548828
+    },
+    {
+      "id": "12763298",
+      "tileScore": 2,
+      "name": "S323(上丰庒-逆時針)",
+      "distanceM": 1864.5999755859375,
+      "avgGrade": 0.17161858081817627,
+      "startLat": 39.48623275756836,
+      "startLng": 117.05007934570312
+    }
+  ]
+}

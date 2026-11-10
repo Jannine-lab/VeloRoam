@@ -1,0 +1,20 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T19:44:15.266Z",
+  "tile": {
+    "z": 13,
+    "x": 6728,
+    "y": 3106
+  },
+  "segments": [
+    {
+      "id": "37616616",
+      "tileScore": 24,
+      "name": "秋林铺路climb",
+      "distanceM": 13855,
+      "avgGrade": 4.358715057373047,
+      "startLat": 39.84345245361328,
+      "startLng": 115.70223999023438
+    }
+  ]
+}

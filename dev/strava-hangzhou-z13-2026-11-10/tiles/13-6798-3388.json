@@ -1,0 +1,20 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T20:36:44.358Z",
+  "tile": {
+    "z": 13,
+    "x": 6798,
+    "y": 3388
+  },
+  "segments": [
+    {
+      "id": "29124849",
+      "tileScore": 12,
+      "name": "鸠坑乡爬坡",
+      "distanceM": 3633.199951171875,
+      "avgGrade": 3.32489275932312,
+      "startLat": 29.673500061035156,
+      "startLng": 118.77181243896484
+    }
+  ]
+}

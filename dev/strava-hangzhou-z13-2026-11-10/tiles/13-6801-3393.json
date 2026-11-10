@@ -1,0 +1,38 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T20:37:49.619Z",
+  "tile": {
+    "z": 13,
+    "x": 6801,
+    "y": 3393
+  },
+  "segments": [
+    {
+      "id": "10821713",
+      "tileScore": 9,
+      "name": "Lingyou + Yuntang Bridges (South-West Bound)",
+      "distanceM": 627.2999877929688,
+      "avgGrade": 0.8289494514465332,
+      "startLat": 29.479755401611328,
+      "startLng": 118.91370391845703
+    },
+    {
+      "id": "29825979",
+      "tileScore": 14,
+      "name": "P哥说我手麻了",
+      "distanceM": 19549,
+      "avgGrade": -0.17085273563861847,
+      "startLat": 29.384519577026367,
+      "startLng": 118.72450256347656
+    },
+    {
+      "id": "35812832",
+      "tileScore": 55,
+      "name": "千岛湖第一段45km",
+      "distanceM": 46688,
+      "avgGrade": 0.0406956821680069,
+      "startLat": 29.6170654296875,
+      "startLng": 119.03804779052734
+    }
+  ]
+}

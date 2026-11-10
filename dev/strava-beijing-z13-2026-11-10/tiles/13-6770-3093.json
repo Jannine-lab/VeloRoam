@@ -1,0 +1,20 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T20:01:07.387Z",
+  "tile": {
+    "z": 13,
+    "x": 6770,
+    "y": 3093
+  },
+  "segments": [
+    {
+      "id": "36914203",
+      "tileScore": 6,
+      "name": "花市爬坡 Flower Market Climb",
+      "distanceM": 14837,
+      "avgGrade": 1.632405400276184,
+      "startLat": 40.24555206298828,
+      "startLng": 117.43762969970703
+    }
+  ]
+}

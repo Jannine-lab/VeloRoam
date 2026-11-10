@@ -1,0 +1,29 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T19:55:50.029Z",
+  "tile": {
+    "z": 13,
+    "x": 6766,
+    "y": 3114
+  },
+  "segments": [
+    {
+      "id": "14502042",
+      "tileScore": 8,
+      "name": "S220( 祥瑞-s326)",
+      "distanceM": 5108.5,
+      "avgGrade": 0.003915043547749519,
+      "startLat": 39.545047760009766,
+      "startLng": 117.33409118652344
+    },
+    {
+      "id": "13159172",
+      "tileScore": 2,
+      "name": "祥瑞大街(穆家鋪村)",
+      "distanceM": 3484.39990234375,
+      "avgGrade": 0,
+      "startLat": 39.54387283325195,
+      "startLng": 117.33648681640625
+    }
+  ]
+}

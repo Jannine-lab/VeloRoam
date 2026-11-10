@@ -1,0 +1,29 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T20:25:17.980Z",
+  "tile": {
+    "z": 13,
+    "x": 6811,
+    "y": 3370
+  },
+  "segments": [
+    {
+      "id": "38057703",
+      "tileScore": 4,
+      "name": "Super good road",
+      "distanceM": 10369.900390625,
+      "avgGrade": -2.430110216140747,
+      "startLat": 30.377613067626953,
+      "startLng": 119.33921813964844
+    },
+    {
+      "id": "33796161",
+      "tileScore": 8,
+      "name": "云梯畲族路段",
+      "distanceM": 8434.2998046875,
+      "avgGrade": 0.1790308654308319,
+      "startLat": 30.35254669189453,
+      "startLng": 119.3491439819336
+    }
+  ]
+}

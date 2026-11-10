@@ -1,0 +1,47 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T20:34:22.765Z",
+  "tile": {
+    "z": 13,
+    "x": 6800,
+    "y": 3383
+  },
+  "segments": [
+    {
+      "id": "37526465",
+      "tileScore": 40,
+      "name": "屏三线放坡到长岭村超市",
+      "distanceM": 15355.2998046875,
+      "avgGrade": -3.0719034671783447,
+      "startLat": 29.936607360839844,
+      "startLng": 118.85533142089844
+    },
+    {
+      "id": "32293027",
+      "tileScore": 35,
+      "name": "Slate 3 ",
+      "distanceM": 8615.2998046875,
+      "avgGrade": 4.884333610534668,
+      "startLat": 29.836435317993164,
+      "startLng": 118.86457824707031
+    },
+    {
+      "id": "19150116",
+      "tileScore": 5,
+      "name": "mmmmm.......",
+      "distanceM": 7225.5,
+      "avgGrade": 6.748321533203125,
+      "startLat": 29.848512649536133,
+      "startLng": 118.86597442626953
+    },
+    {
+      "id": "37691503",
+      "tileScore": 9,
+      "name": "路好景美山缓一定要来哦【DQ】",
+      "distanceM": 6014.5,
+      "avgGrade": 3.4350321292877197,
+      "startLat": 29.852170944213867,
+      "startLng": 118.85809326171875
+    }
+  ]
+}

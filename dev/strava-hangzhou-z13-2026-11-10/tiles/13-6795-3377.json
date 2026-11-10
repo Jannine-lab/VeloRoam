@@ -1,0 +1,20 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T20:37:16.591Z",
+  "tile": {
+    "z": 13,
+    "x": 6795,
+    "y": 3377
+  },
+  "segments": [
+    {
+      "id": "19291847",
+      "tileScore": 5,
+      "name": "cd-绩溪县城-扬溪镇",
+      "distanceM": 5188.2998046875,
+      "avgGrade": 0.08480619639158249,
+      "startLat": 30.077390670776367,
+      "startLng": 118.57372283935547
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T20:03:12.331Z",
+  "tile": {
+    "z": 13,
+    "x": 6770,
+    "y": 3119
+  },
+  "segments": [
+    {
+      "id": "13215805",
+      "tileScore": 2,
+      "name": "潮白新河(G205往S307)",
+      "distanceM": 12345.900390625,
+      "avgGrade": -0.012959768064320087,
+      "startLat": 39.36109924316406,
+      "startLng": 117.52098846435547
+    }
+  ]
+}

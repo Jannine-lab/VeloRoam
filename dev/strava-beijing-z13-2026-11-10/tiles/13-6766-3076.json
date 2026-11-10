@@ -1,0 +1,29 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T20:07:57.089Z",
+  "tile": {
+    "z": 13,
+    "x": 6766,
+    "y": 3076
+  },
+  "segments": [
+    {
+      "id": "37354268",
+      "tileScore": 7,
+      "name": "高速口冲刺",
+      "distanceM": 12684.7998046875,
+      "avgGrade": 0.8119954466819763,
+      "startLat": 40.92218017578125,
+      "startLng": 117.31375885009766
+    },
+    {
+      "id": "5492041",
+      "tileScore": 3,
+      "name": "National Road Climb",
+      "distanceM": 4166.39990234375,
+      "avgGrade": 4.613095283508301,
+      "startLat": 40.797847747802734,
+      "startLng": 117.36109924316406
+    }
+  ]
+}

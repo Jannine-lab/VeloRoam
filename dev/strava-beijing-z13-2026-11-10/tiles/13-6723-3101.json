@@ -1,0 +1,65 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T19:52:00.371Z",
+  "tile": {
+    "z": 13,
+    "x": 6723,
+    "y": 3101
+  },
+  "segments": [
+    {
+      "id": "4156176",
+      "tileScore": 13,
+      "name": "County Road Climb",
+      "distanceM": 1571.0999755859375,
+      "avgGrade": 8.128063201904297,
+      "startLat": 39.99545669555664,
+      "startLng": 115.47711181640625
+    },
+    {
+      "id": "4156177",
+      "tileScore": 9,
+      "name": "County Road Climb",
+      "distanceM": 682.5999755859375,
+      "avgGrade": 13.88807487487793,
+      "startLat": 40.00445556640625,
+      "startLng": 115.4804916381836
+    },
+    {
+      "id": "4156175",
+      "tileScore": 1,
+      "name": "Lingshan Road Climb",
+      "distanceM": 1957.5999755859375,
+      "avgGrade": 6.145279884338379,
+      "startLat": 39.98136901855469,
+      "startLng": 115.48104858398438
+    },
+    {
+      "id": "13372957",
+      "tileScore": 54,
+      "name": "灵山爬坡前段（灵山路口-售票处)",
+      "distanceM": 5423.60009765625,
+      "avgGrade": 3.6617743968963623,
+      "startLat": 39.95001983642578,
+      "startLng": 115.4858169555664
+    },
+    {
+      "id": "19677302",
+      "tileScore": 109,
+      "name": "灵山绕圈",
+      "distanceM": 60000.80078125,
+      "avgGrade": -0.005333262495696545,
+      "startLat": 39.94923400878906,
+      "startLng": 115.48558044433594
+    },
+    {
+      "id": "13373085",
+      "tileScore": 626,
+      "name": "灵山计时全程",
+      "distanceM": 16574,
+      "avgGrade": 5.333654880523682,
+      "startLat": 39.95085906982422,
+      "startLng": 115.4861068725586
+    }
+  ]
+}

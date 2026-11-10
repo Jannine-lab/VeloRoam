@@ -1,0 +1,101 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T19:51:57.901Z",
+  "tile": {
+    "z": 13,
+    "x": 6754,
+    "y": 3084
+  },
+  "segments": [
+    {
+      "id": "36828848",
+      "tileScore": 19,
+      "name": "Epic YanQi to Miyun",
+      "distanceM": 95911.8984375,
+      "avgGrade": -0.2003922313451767,
+      "startLat": 40.43746566772461,
+      "startLng": 116.57965087890625
+    },
+    {
+      "id": "19165201",
+      "tileScore": 46,
+      "name": "密云水库起伏路",
+      "distanceM": 19491.599609375,
+      "avgGrade": 0.948100745677948,
+      "startLat": 40.47593307495117,
+      "startLng": 116.82794952392578
+    },
+    {
+      "id": "35555720",
+      "tileScore": 28,
+      "name": "密云水库大桥直线冲刺鸭！",
+      "distanceM": 502.8999938964844,
+      "avgGrade": -0.47723203897476196,
+      "startLat": 40.554988861083984,
+      "startLng": 116.81451416015625
+    },
+    {
+      "id": "13235802",
+      "tileScore": 70,
+      "name": "水库西线爬坡起点-白河大桥",
+      "distanceM": 10255.5,
+      "avgGrade": 0.6806104183197021,
+      "startLat": 40.479759216308594,
+      "startLng": 116.8126449584961
+    },
+    {
+      "id": "37679930",
+      "tileScore": 33,
+      "name": "河北村爬坡",
+      "distanceM": 931.5999755859375,
+      "avgGrade": 4.411764621734619,
+      "startLat": 40.574100494384766,
+      "startLng": 116.8265609741211
+    },
+    {
+      "id": "25731744",
+      "tileScore": 39,
+      "name": "Epic Boutard Secret Drop Zone",
+      "distanceM": 5886.60009765625,
+      "avgGrade": 0.6761118173599243,
+      "startLat": 40.553199768066406,
+      "startLng": 116.81373596191406
+    },
+    {
+      "id": "39103892",
+      "tileScore": 14,
+      "name": "黑龙潭小牛牛（你懂的）",
+      "distanceM": 4034.10009765625,
+      "avgGrade": 0.12642225623130798,
+      "startLat": 40.559722900390625,
+      "startLng": 116.81378173828125
+    },
+    {
+      "id": "17444363",
+      "tileScore": 52,
+      "name": "环密云水库",
+      "distanceM": 99223.3984375,
+      "avgGrade": 0.017334621399641037,
+      "startLat": 40.473995208740234,
+      "startLng": 116.87325286865234
+    },
+    {
+      "id": "34132111",
+      "tileScore": 40,
+      "name": "2023-04-15环密云水库拉力赛climb 04",
+      "distanceM": 670.5999755859375,
+      "avgGrade": 3.757828950881958,
+      "startLat": 40.5460090637207,
+      "startLng": 116.8155517578125
+    },
+    {
+      "id": "24930769",
+      "tileScore": 9,
+      "name": "Final Teaser",
+      "distanceM": 444,
+      "avgGrade": 2.207207202911377,
+      "startLat": 40.57341003417969,
+      "startLng": 116.8257827758789
+    }
+  ]
+}

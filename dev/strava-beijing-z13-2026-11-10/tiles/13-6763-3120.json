@@ -1,0 +1,29 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T19:56:04.863Z",
+  "tile": {
+    "z": 13,
+    "x": 6763,
+    "y": 3120
+  },
+  "segments": [
+    {
+      "id": "13540582",
+      "tileScore": 9,
+      "name": "楊北公路(s219起)",
+      "distanceM": 4727.5,
+      "avgGrade": 0.05076678842306137,
+      "startLat": 39.322357177734375,
+      "startLng": 117.28059387207031
+    },
+    {
+      "id": "36586303",
+      "tileScore": 3,
+      "name": "一路顺风",
+      "distanceM": 150016.40625,
+      "avgGrade": -0.0015998249873518944,
+      "startLat": 39.87700653076172,
+      "startLng": 116.66964721679688
+    }
+  ]
+}

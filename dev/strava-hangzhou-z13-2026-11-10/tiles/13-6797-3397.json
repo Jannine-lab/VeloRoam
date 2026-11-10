@@ -1,0 +1,20 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T20:40:52.502Z",
+  "tile": {
+    "z": 13,
+    "x": 6797,
+    "y": 3397
+  },
+  "segments": [
+    {
+      "id": "28357629",
+      "tileScore": 23,
+      "name": "雷公岭到枫树岭",
+      "distanceM": 20761,
+      "avgGrade": -1.3303791284561157,
+      "startLat": 29.192279815673828,
+      "startLng": 118.6906509399414
+    }
+  ]
+}

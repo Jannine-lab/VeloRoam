@@ -1,0 +1,20 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T20:34:27.797Z",
+  "tile": {
+    "z": 13,
+    "x": 6839,
+    "y": 3402
+  },
+  "segments": [
+    {
+      "id": "33834538",
+      "tileScore": 2,
+      "name": "西岭—岭西  老路起飞",
+      "distanceM": 3780.60009765625,
+      "avgGrade": -2.13193678855896,
+      "startLat": 29.120952606201172,
+      "startLng": 120.59519958496094
+    }
+  ]
+}

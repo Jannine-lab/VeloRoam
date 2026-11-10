@@ -1,0 +1,29 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T19:43:02.684Z",
+  "tile": {
+    "z": 13,
+    "x": 6731,
+    "y": 3110
+  },
+  "segments": [
+    {
+      "id": "35935325",
+      "tileScore": 8,
+      "name": "涞水沥climb（非推车路线）",
+      "distanceM": 3073.60009765625,
+      "avgGrade": 5.153565883636475,
+      "startLat": 39.69472122192383,
+      "startLng": 115.8424072265625
+    },
+    {
+      "id": "38867747",
+      "tileScore": 4,
+      "name": "棺材山水泥路Climb",
+      "distanceM": 730,
+      "avgGrade": 18.301368713378906,
+      "startLat": 39.690086364746094,
+      "startLng": 115.82138061523438
+    }
+  ]
+}

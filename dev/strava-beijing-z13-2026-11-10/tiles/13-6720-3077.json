@@ -1,0 +1,20 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T20:08:55.230Z",
+  "tile": {
+    "z": 13,
+    "x": 6720,
+    "y": 3077
+  },
+  "segments": [
+    {
+      "id": "35459421",
+      "tileScore": 37,
+      "name": "常峪口to喜鹊梁山顶",
+      "distanceM": 31175.30078125,
+      "avgGrade": 2.9792816638946533,
+      "startLat": 40.7634162902832,
+      "startLng": 115.13938903808594
+    }
+  ]
+}

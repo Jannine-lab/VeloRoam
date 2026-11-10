@@ -1,0 +1,29 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T20:23:50.918Z",
+  "tile": {
+    "z": 13,
+    "x": 6814,
+    "y": 3379
+  },
+  "segments": [
+    {
+      "id": "40612884",
+      "tileScore": 3,
+      "name": "龙王庙下撤到石塘村gravel ",
+      "distanceM": 4344.7001953125,
+      "avgGrade": -8.70946216583252,
+      "startLat": 30.013530731201172,
+      "startLng": 119.5006332397461
+    },
+    {
+      "id": "42169664",
+      "tileScore": 3,
+      "name": "马岭下坡-法道",
+      "distanceM": 12910,
+      "avgGrade": -1.2811774015426636,
+      "startLat": 30.06277084350586,
+      "startLng": 119.50337982177734
+    }
+  ]
+}

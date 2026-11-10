@@ -1,0 +1,20 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T20:38:37.194Z",
+  "tile": {
+    "z": 13,
+    "x": 6792,
+    "y": 3380
+  },
+  "segments": [
+    {
+      "id": "40274562",
+      "tileScore": 1,
+      "name": "申脯肉赶回歙县起伏路itt",
+      "distanceM": 18520.69921875,
+      "avgGrade": -0.34987878799438477,
+      "startLat": 30.099056243896484,
+      "startLng": 118.49578857421875
+    }
+  ]
+}

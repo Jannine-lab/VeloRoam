@@ -1,0 +1,20 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T20:43:32.208Z",
+  "tile": {
+    "z": 13,
+    "x": 6831,
+    "y": 3385
+  },
+  "segments": [
+    {
+      "id": "34521551",
+      "tileScore": 3,
+      "name": "诸暨三环绕圈",
+      "distanceM": 47038.3984375,
+      "avgGrade": 0.0008503691060468554,
+      "startLat": 29.662784576416016,
+      "startLng": 120.24070739746094
+    }
+  ]
+}

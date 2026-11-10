@@ -1,0 +1,29 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T20:19:36.958Z",
+  "tile": {
+    "z": 13,
+    "x": 6837,
+    "y": 3364
+  },
+  "segments": [
+    {
+      "id": "39199575",
+      "tileScore": 14,
+      "name": "让我看看谁上了高速",
+      "distanceM": 50313.6015625,
+      "avgGrade": 0.0037763151340186596,
+      "startLat": 30.54092025756836,
+      "startLng": 120.4897232055664
+    },
+    {
+      "id": "35645012",
+      "tileScore": 3,
+      "name": "下沙to嘉兴",
+      "distanceM": 67304,
+      "avgGrade": 0.01292642392218113,
+      "startLat": 30.326765060424805,
+      "startLng": 120.37503814697266
+    }
+  ]
+}

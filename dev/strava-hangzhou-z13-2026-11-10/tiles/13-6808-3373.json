@@ -1,0 +1,47 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T20:26:30.114Z",
+  "tile": {
+    "z": 13,
+    "x": 6808,
+    "y": 3373
+  },
+  "segments": [
+    {
+      "id": "38891430",
+      "tileScore": 21,
+      "name": "道场平down",
+      "distanceM": 5977.5,
+      "avgGrade": -5.453784942626953,
+      "startLat": 30.277124404907227,
+      "startLng": 119.19294738769531
+    },
+    {
+      "id": "38891412",
+      "tileScore": 12,
+      "name": "昌黄线热身了",
+      "distanceM": 10278.2001953125,
+      "avgGrade": 2.3058512210845947,
+      "startLat": 30.204334259033203,
+      "startLng": 119.22392272949219
+    },
+    {
+      "id": "39127139",
+      "tileScore": 62,
+      "name": "火火线real climb",
+      "distanceM": 3886.60009765625,
+      "avgGrade": 6.272834777832031,
+      "startLat": 30.249847412109375,
+      "startLng": 119.17298126220703
+    },
+    {
+      "id": "36413679",
+      "tileScore": 70,
+      "name": "🚴🏻火莲第三根⛰️",
+      "distanceM": 10210.400390625,
+      "avgGrade": 4.236856460571289,
+      "startLat": 30.208993911743164,
+      "startLng": 119.18984985351562
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T19:43:22.768Z",
+  "tile": {
+    "z": 13,
+    "x": 6758,
+    "y": 3098
+  },
+  "segments": [
+    {
+      "id": "41389155",
+      "tileScore": 15,
+      "name": "巡河路南线口到崔杏路口",
+      "distanceM": 5491.2998046875,
+      "avgGrade": 0.0072842491790652275,
+      "startLat": 40.080665588378906,
+      "startLng": 117.02730560302734
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T20:26:27.665Z",
+  "tile": {
+    "z": 13,
+    "x": 6819,
+    "y": 3390
+  },
+  "segments": [
+    {
+      "id": "33797730",
+      "tileScore": 1,
+      "name": "后源溪边老黄牛",
+      "distanceM": 1313.199951171875,
+      "avgGrade": 3.152604341506958,
+      "startLat": 29.564199447631836,
+      "startLng": 119.6999740600586
+    }
+  ]
+}

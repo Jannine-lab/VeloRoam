@@ -1,0 +1,20 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T20:27:12.749Z",
+  "tile": {
+    "z": 13,
+    "x": 6808,
+    "y": 3366
+  },
+  "segments": [
+    {
+      "id": "32117545",
+      "tileScore": 2,
+      "name": "cd-G329中溪镇10公里西往东缓上",
+      "distanceM": 10404.400390625,
+      "avgGrade": 0.1922263652086258,
+      "startLat": 30.49645233154297,
+      "startLng": 119.142333984375
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T20:07:44.570Z",
+  "tile": {
+    "z": 13,
+    "x": 6769,
+    "y": 3079
+  },
+  "segments": [
+    {
+      "id": "5610620",
+      "tileScore": 3,
+      "name": "Shangluan Line Climb",
+      "distanceM": 2725.800048828125,
+      "avgGrade": 5.180130481719971,
+      "startLat": 40.72393035888672,
+      "startLng": 117.47808074951172
+    },
+    {
+      "id": "5610617",
+      "tileScore": 1,
+      "name": "Shangluan Line Climb",
+      "distanceM": 3178.39990234375,
+      "avgGrade": 3.6307578086853027,
+      "startLat": 40.69504165649414,
+      "startLng": 117.47550964355469
+    }
+  ]
+}

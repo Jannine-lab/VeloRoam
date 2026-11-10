@@ -1,0 +1,20 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T20:41:30.709Z",
+  "tile": {
+    "z": 13,
+    "x": 6796,
+    "y": 3399
+  },
+  "segments": [
+    {
+      "id": "37898234",
+      "tileScore": 1,
+      "name": "cd-其岭爬坡东往西",
+      "distanceM": 6421.7998046875,
+      "avgGrade": 7.3157057762146,
+      "startLat": 29.250314712524414,
+      "startLng": 118.70267486572266
+    }
+  ]
+}

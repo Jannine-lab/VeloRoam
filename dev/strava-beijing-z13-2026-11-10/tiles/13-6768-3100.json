@@ -1,0 +1,20 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T19:55:20.876Z",
+  "tile": {
+    "z": 13,
+    "x": 6768,
+    "y": 3100
+  },
+  "segments": [
+    {
+      "id": "41338722",
+      "tileScore": 1,
+      "name": "水库南路",
+      "distanceM": 6765,
+      "avgGrade": -0.09608277678489685,
+      "startLat": 40.02230453491211,
+      "startLng": 117.4292221069336
+    }
+  ]
+}

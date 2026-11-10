@@ -1,0 +1,56 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T20:16:26.675Z",
+  "tile": {
+    "z": 13,
+    "x": 6835,
+    "y": 3369
+  },
+  "segments": [
+    {
+      "id": "34793404",
+      "tileScore": 3,
+      "name": "Wenhai North Road (N-S)",
+      "distanceM": 6378.7998046875,
+      "avgGrade": -0.01567693054676056,
+      "startLat": 30.383264541625977,
+      "startLng": 120.412109375
+    },
+    {
+      "id": "35645012",
+      "tileScore": 3,
+      "name": "下沙to嘉兴",
+      "distanceM": 67304,
+      "avgGrade": 0.01292642392218113,
+      "startLat": 30.326765060424805,
+      "startLng": 120.37503814697266
+    },
+    {
+      "id": "37013490",
+      "tileScore": 9,
+      "name": "外翁线冲桥",
+      "distanceM": 542.5999755859375,
+      "avgGrade": 0.1842978298664093,
+      "startLat": 30.388582229614258,
+      "startLng": 120.39710998535156
+    },
+    {
+      "id": "10522807",
+      "tileScore": 3,
+      "name": "lozho_2015马自骑余杭至上海",
+      "distanceM": 110540.203125,
+      "avgGrade": -0.014112512581050396,
+      "startLat": 30.393516540527344,
+      "startLng": 120.34187316894531
+    },
+    {
+      "id": "35132386",
+      "tileScore": 7,
+      "name": "盐官回程check P2",
+      "distanceM": 5333.60009765625,
+      "avgGrade": -0.003749812487512827,
+      "startLat": 30.391923904418945,
+      "startLng": 120.41321563720703
+    }
+  ]
+}

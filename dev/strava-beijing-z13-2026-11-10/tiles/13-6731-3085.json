@@ -1,0 +1,20 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T19:54:41.960Z",
+  "tile": {
+    "z": 13,
+    "x": 6731,
+    "y": 3085
+  },
+  "segments": [
+    {
+      "id": "32615695",
+      "tileScore": 14,
+      "name": "北自联延庆站松山爬坡赛",
+      "distanceM": 6418.7001953125,
+      "avgGrade": 7.524888038635254,
+      "startLat": 40.5269889831543,
+      "startLng": 115.78572845458984
+    }
+  ]
+}

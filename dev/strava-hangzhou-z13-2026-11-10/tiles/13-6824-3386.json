@@ -1,0 +1,20 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T20:22:34.239Z",
+  "tile": {
+    "z": 13,
+    "x": 6824,
+    "y": 3386
+  },
+  "segments": [
+    {
+      "id": "29746946",
+      "tileScore": 6,
+      "name": "张胡 直达 龙门脚",
+      "distanceM": 3473.800048828125,
+      "avgGrade": 1.8711497783660889,
+      "startLat": 29.712955474853516,
+      "startLng": 119.92465209960938
+    }
+  ]
+}

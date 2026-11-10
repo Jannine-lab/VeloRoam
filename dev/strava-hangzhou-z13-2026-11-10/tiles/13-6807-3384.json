@@ -1,0 +1,38 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T20:29:49.228Z",
+  "tile": {
+    "z": 13,
+    "x": 6807,
+    "y": 3384
+  },
+  "segments": [
+    {
+      "id": "34393519",
+      "tileScore": 3,
+      "name": "沙岭A",
+      "distanceM": 3530.10009765625,
+      "avgGrade": 4.249171733856201,
+      "startLat": 29.7929630279541,
+      "startLng": 119.19474029541016
+    },
+    {
+      "id": "32502740",
+      "tileScore": 1,
+      "name": "WenChang climb -short ",
+      "distanceM": 730.9000244140625,
+      "avgGrade": 4.774935245513916,
+      "startLat": 29.80791473388672,
+      "startLng": 119.13810729980469
+    },
+    {
+      "id": "5269030",
+      "tileScore": 2,
+      "name": "潭唐线到溪口村 - Tantang Xian to Xikou Cun",
+      "distanceM": 10974.400390625,
+      "avgGrade": -0.25878408551216125,
+      "startLat": 29.785058975219727,
+      "startLng": 119.20038604736328
+    }
+  ]
+}

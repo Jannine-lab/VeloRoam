@@ -1,0 +1,29 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T20:28:48.178Z",
+  "tile": {
+    "z": 13,
+    "x": 6841,
+    "y": 3394
+  },
+  "segments": [
+    {
+      "id": "22520746",
+      "tileScore": 6,
+      "name": "蒋山爬坡段",
+      "distanceM": 3249,
+      "avgGrade": 5.4724531173706055,
+      "startLat": 29.44188117980957,
+      "startLng": 120.68412780761719
+    },
+    {
+      "id": "26022110",
+      "tileScore": 177,
+      "name": "贵门爬坡赛路段",
+      "distanceM": 13351.599609375,
+      "avgGrade": 1.897899866104126,
+      "startLat": 29.449304580688477,
+      "startLng": 120.70510864257812
+    }
+  ]
+}

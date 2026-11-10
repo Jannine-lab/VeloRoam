@@ -1,0 +1,20 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T19:50:06.235Z",
+  "tile": {
+    "z": 13,
+    "x": 6724,
+    "y": 3098
+  },
+  "segments": [
+    {
+      "id": "35038045",
+      "tileScore": 9,
+      "name": "杏树洼-麻黄峪山顶",
+      "distanceM": 20645.19921875,
+      "avgGrade": 4.4242730140686035,
+      "startLat": 40.24871063232422,
+      "startLng": 115.54336547851562
+    }
+  ]
+}

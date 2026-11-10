@@ -1,0 +1,56 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T19:34:41.149Z",
+  "tile": {
+    "z": 13,
+    "x": 6744,
+    "y": 3108
+  },
+  "segments": [
+    {
+      "id": "34428354",
+      "tileScore": 14,
+      "name": "兴亦路西东B2.02KM",
+      "distanceM": 2020.699951171875,
+      "avgGrade": -0.11877071857452393,
+      "startLat": 39.74140548706055,
+      "startLng": 116.37245178222656
+    },
+    {
+      "id": "34103962",
+      "tileScore": 36,
+      "name": "永远怀念中国的第一座机场—南苑机场",
+      "distanceM": 874.5999755859375,
+      "avgGrade": -0.1600731760263443,
+      "startLat": 39.763450622558594,
+      "startLng": 116.38350677490234
+    },
+    {
+      "id": "41898688",
+      "tileScore": 3,
+      "name": "TURN ON YOUR LIGHTS!!! It’s dark in here.",
+      "distanceM": 1966.0999755859375,
+      "avgGrade": -0.06103453412652016,
+      "startLat": 39.7647590637207,
+      "startLng": 116.39807891845703
+    },
+    {
+      "id": "41898674",
+      "tileScore": 5,
+      "name": "Better watch out! Going easy with JC_Cycling",
+      "distanceM": 2352.699951171875,
+      "avgGrade": 0.09350958466529846,
+      "startLat": 39.7432746887207,
+      "startLng": 116.39907836914062
+    },
+    {
+      "id": "37486929",
+      "tileScore": 3,
+      "name": "通勤",
+      "distanceM": 22011.5,
+      "avgGrade": 0.06178588420152664,
+      "startLat": 39.80058670043945,
+      "startLng": 116.46553802490234
+    }
+  ]
+}

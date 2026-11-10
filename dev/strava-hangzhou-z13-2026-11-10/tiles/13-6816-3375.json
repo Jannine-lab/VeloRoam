@@ -1,0 +1,47 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T20:21:36.387Z",
+  "tile": {
+    "z": 13,
+    "x": 6816,
+    "y": 3375
+  },
+  "segments": [
+    {
+      "id": "39887421",
+      "tileScore": 2,
+      "name": "临安黄泥岗往南下坡到富阳（瓜路）",
+      "distanceM": 3124,
+      "avgGrade": -9.026888847351074,
+      "startLat": 30.18821907043457,
+      "startLng": 119.53624725341797
+    },
+    {
+      "id": "40696723",
+      "tileScore": 6,
+      "name": "石铜山环浙步道down",
+      "distanceM": 1988,
+      "avgGrade": -11.076458930969238,
+      "startLat": 30.16490936279297,
+      "startLng": 119.52552795410156
+    },
+    {
+      "id": "37058708",
+      "tileScore": 9,
+      "name": "万市到临安ITT",
+      "distanceM": 13423.5,
+      "avgGrade": 0.079710952937603,
+      "startLat": 30.102455139160156,
+      "startLng": 119.5661392211914
+    },
+    {
+      "id": "40327916",
+      "tileScore": 10,
+      "name": "美女山gravel  climb",
+      "distanceM": 3296,
+      "avgGrade": 9.277913093566895,
+      "startLat": 30.176166534423828,
+      "startLng": 119.54576873779297
+    }
+  ]
+}

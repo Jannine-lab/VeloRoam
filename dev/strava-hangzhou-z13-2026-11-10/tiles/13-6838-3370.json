@@ -1,0 +1,20 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T20:18:08.445Z",
+  "tile": {
+    "z": 13,
+    "x": 6838,
+    "y": 3370
+  },
+  "segments": [
+    {
+      "id": "39147946",
+      "tileScore": 4,
+      "name": "观十五（E-W）最好一段",
+      "distanceM": 9899,
+      "avgGrade": 0.01818365603685379,
+      "startLat": 30.34701919555664,
+      "startLng": 120.60884857177734
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T19:42:37.277Z",
+  "tile": {
+    "z": 13,
+    "x": 6741,
+    "y": 3117
+  },
+  "segments": [
+    {
+      "id": "37280234",
+      "tileScore": 1,
+      "name": "孔雀大道赛段",
+      "distanceM": 6564.5,
+      "avgGrade": 0.018280142918229103,
+      "startLat": 39.4598503112793,
+      "startLng": 116.30048370361328
+    }
+  ]
+}

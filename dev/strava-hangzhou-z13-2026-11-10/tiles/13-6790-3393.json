@@ -1,0 +1,29 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T20:42:16.248Z",
+  "tile": {
+    "z": 13,
+    "x": 6790,
+    "y": 3393
+  },
+  "segments": [
+    {
+      "id": "34024696",
+      "tileScore": 4,
+      "name": "毛山岗光伏电厂Climb",
+      "distanceM": 5850.60009765625,
+      "avgGrade": 6.864253520965576,
+      "startLat": 29.47014617919922,
+      "startLng": 118.41670227050781
+    },
+    {
+      "id": "33350531",
+      "tileScore": 21,
+      "name": "cd-汾口到璜尖村",
+      "distanceM": 29351.400390625,
+      "avgGrade": 0.8156339526176453,
+      "startLat": 29.422534942626953,
+      "startLng": 118.5295181274414
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T20:17:14.807Z",
+  "tile": {
+    "z": 13,
+    "x": 6831,
+    "y": 3366
+  },
+  "segments": [
+    {
+      "id": "37939233",
+      "tileScore": 10,
+      "name": "塘姚线-烧烤店E-W",
+      "distanceM": 5883.10009765625,
+      "avgGrade": -0.013598272576928139,
+      "startLat": 30.505329132080078,
+      "startLng": 120.26002502441406
+    }
+  ]
+}

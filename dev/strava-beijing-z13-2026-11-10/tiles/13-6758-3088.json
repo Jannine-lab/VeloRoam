@@ -1,0 +1,38 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T19:50:40.645Z",
+  "tile": {
+    "z": 13,
+    "x": 6758,
+    "y": 3088
+  },
+  "segments": [
+    {
+      "id": "31878965",
+      "tileScore": 1,
+      "name": "GC rider不带风（doge)",
+      "distanceM": 1449,
+      "avgGrade": -0.12422359734773636,
+      "startLat": 40.457584381103516,
+      "startLng": 117.00470733642578
+    },
+    {
+      "id": "13079519",
+      "tileScore": 2,
+      "name": "大南线",
+      "distanceM": 50055.69921875,
+      "avgGrade": 0.0027968843933194876,
+      "startLat": 40.400848388671875,
+      "startLng": 116.84300994873047
+    },
+    {
+      "id": "30119925",
+      "tileScore": 4,
+      "name": "密云水库沿着河边骑根本停不下来",
+      "distanceM": 13803.099609375,
+      "avgGrade": -0.16735370457172394,
+      "startLat": 40.45586013793945,
+      "startLng": 117.00457763671875
+    }
+  ]
+}

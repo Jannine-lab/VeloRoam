@@ -1,0 +1,20 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T20:19:16.111Z",
+  "tile": {
+    "z": 13,
+    "x": 6841,
+    "y": 3374
+  },
+  "segments": [
+    {
+      "id": "36097017",
+      "tileScore": 8,
+      "name": "杭绍甬高速（南阳-盖北）",
+      "distanceM": 41731.30078125,
+      "avgGrade": -0.01533621083945036,
+      "startLat": 30.253936767578125,
+      "startLng": 120.4556884765625
+    }
+  ]
+}

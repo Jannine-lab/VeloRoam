@@ -1,0 +1,47 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T20:32:34.298Z",
+  "tile": {
+    "z": 13,
+    "x": 6816,
+    "y": 3397
+  },
+  "segments": [
+    {
+      "id": "41048432",
+      "tileScore": 1,
+      "name": "建董线 351—兰溪北高速",
+      "distanceM": 8258,
+      "avgGrade": 0.8064907193183899,
+      "startLat": 29.30087661743164,
+      "startLng": 119.53715515136719
+    },
+    {
+      "id": "41642592",
+      "tileScore": 41,
+      "name": "Hi bicycle普兰线返程itt",
+      "distanceM": 6403.5,
+      "avgGrade": -0.615288496017456,
+      "startLat": 29.308881759643555,
+      "startLng": 119.6061019897461
+    },
+    {
+      "id": "40622610",
+      "tileScore": 2,
+      "name": "环兰江-官塘-午塘",
+      "distanceM": 60269.80078125,
+      "avgGrade": 0.0008296028827317059,
+      "startLat": 29.306703567504883,
+      "startLng": 119.53008270263672
+    },
+    {
+      "id": "41048479",
+      "tileScore": 9,
+      "name": "下章—麻车",
+      "distanceM": 10119.5,
+      "avgGrade": -0.027669351547956467,
+      "startLat": 29.33759307861328,
+      "startLng": 119.53722381591797
+    }
+  ]
+}

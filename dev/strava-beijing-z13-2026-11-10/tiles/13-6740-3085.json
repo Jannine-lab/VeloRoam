@@ -1,0 +1,20 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T19:49:48.344Z",
+  "tile": {
+    "z": 13,
+    "x": 6740,
+    "y": 3085
+  },
+  "segments": [
+    {
+      "id": "31237307",
+      "tileScore": 3,
+      "name": "王家堡——永宁镇下坡",
+      "distanceM": 7124.2998046875,
+      "avgGrade": -0.9853599667549133,
+      "startLat": 40.52669143676758,
+      "startLng": 116.24581909179688
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T19:40:05.392Z",
+  "tile": {
+    "z": 13,
+    "x": 6742,
+    "y": 3092
+  },
+  "segments": [
+    {
+      "id": "34481779",
+      "tileScore": 81,
+      "name": "银山塔林Climb",
+      "distanceM": 1789.199951171875,
+      "avgGrade": 4.4712724685668945,
+      "startLat": 40.30559539794922,
+      "startLng": 116.33001708984375
+    },
+    {
+      "id": "29192415",
+      "tileScore": 18,
+      "name": "东水峪冲向果园",
+      "distanceM": 686.5,
+      "avgGrade": 5.957756519317627,
+      "startLat": 40.30882263183594,
+      "startLng": 116.27592468261719
+    }
+  ]
+}

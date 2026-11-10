@@ -1,0 +1,20 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T20:33:24.051Z",
+  "tile": {
+    "z": 13,
+    "x": 6809,
+    "y": 3394
+  },
+  "segments": [
+    {
+      "id": "32450996",
+      "tileScore": 19,
+      "name": "更楼-寿昌",
+      "distanceM": 8853.099609375,
+      "avgGrade": 0.3467711806297302,
+      "startLat": 29.42841911315918,
+      "startLng": 119.26319885253906
+    }
+  ]
+}

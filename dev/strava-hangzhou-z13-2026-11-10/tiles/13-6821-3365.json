@@ -1,0 +1,74 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T20:19:41.904Z",
+  "tile": {
+    "z": 13,
+    "x": 6821,
+    "y": 3365
+  },
+  "segments": [
+    {
+      "id": "38982345",
+      "tileScore": 58,
+      "name": "热身坡climb",
+      "distanceM": 2042.199951171875,
+      "avgGrade": 3.5745766162872314,
+      "startLat": 30.526262283325195,
+      "startLng": 119.7819595336914
+    },
+    {
+      "id": "18709124",
+      "tileScore": 97,
+      "name": "石鹰村爬坡",
+      "distanceM": 754.5999755859375,
+      "avgGrade": 7.633183002471924,
+      "startLat": 30.549463272094727,
+      "startLng": 119.75968170166016
+    },
+    {
+      "id": "35451772",
+      "tileScore": 24,
+      "name": "环莫干山",
+      "distanceM": 94126.8984375,
+      "avgGrade": 0.003612144850194454,
+      "startLat": 30.55729866027832,
+      "startLng": 119.84944915771484
+    },
+    {
+      "id": "29099890",
+      "tileScore": 89,
+      "name": "First Climb Wall",
+      "distanceM": 939.0999755859375,
+      "avgGrade": 8.231285095214844,
+      "startLat": 30.55540657043457,
+      "startLng": 119.76968383789062
+    },
+    {
+      "id": "37390596",
+      "tileScore": 34,
+      "name": "30%反爬王位山到小店",
+      "distanceM": 10983.2001953125,
+      "avgGrade": 4.077136039733887,
+      "startLat": 30.490148544311523,
+      "startLng": 119.76806640625
+    },
+    {
+      "id": "14193521",
+      "tileScore": 49,
+      "name": " 安吉德清交界 甘岭  ",
+      "distanceM": 836,
+      "avgGrade": 9.37799072265625,
+      "startLat": 30.531904220581055,
+      "startLng": 119.75892639160156
+    },
+    {
+      "id": "9623027",
+      "tileScore": 25,
+      "name": "Qianbai Line (Westbound)",
+      "distanceM": 13843.7001953125,
+      "avgGrade": 0.818422794342041,
+      "startLat": 30.554012298583984,
+      "startLng": 119.85509490966797
+    }
+  ]
+}

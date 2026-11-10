@@ -1,0 +1,20 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T20:02:40.892Z",
+  "tile": {
+    "z": 13,
+    "x": 6762,
+    "y": 3080
+  },
+  "segments": [
+    {
+      "id": "39133524",
+      "tileScore": 2,
+      "name": "京沈线（太师屯-古北口 S-N）",
+      "distanceM": 21391.400390625,
+      "avgGrade": 0.1229466050863266,
+      "startLat": 40.53996276855469,
+      "startLng": 117.12752532958984
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T20:30:39.144Z",
+  "tile": {
+    "z": 13,
+    "x": 6804,
+    "y": 3382
+  },
+  "segments": [
+    {
+      "id": "37688154",
+      "tileScore": 3,
+      "name": "屏门to胡坑【DQ】",
+      "distanceM": 9547.2998046875,
+      "avgGrade": 2.09902286529541,
+      "startLat": 29.86713218688965,
+      "startLng": 119.03520202636719
+    }
+  ]
+}

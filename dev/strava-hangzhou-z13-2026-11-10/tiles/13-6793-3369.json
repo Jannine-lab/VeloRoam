@@ -1,0 +1,29 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T20:38:09.461Z",
+  "tile": {
+    "z": 13,
+    "x": 6793,
+    "y": 3369
+  },
+  "segments": [
+    {
+      "id": "37890641",
+      "tileScore": 5,
+      "name": "文岩路(云乐-蔡家桥)",
+      "distanceM": 23440.599609375,
+      "avgGrade": -0.3873620927333832,
+      "startLat": 30.44552993774414,
+      "startLng": 118.627197265625
+    },
+    {
+      "id": "39920163",
+      "tileScore": 2,
+      "name": "八仙华云爬坡",
+      "distanceM": 2365.5,
+      "avgGrade": 6.387656211853027,
+      "startLat": 30.392030715942383,
+      "startLng": 118.56413269042969
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T20:41:30.709Z",
+  "tile": {
+    "z": 13,
+    "x": 6797,
+    "y": 3400
+  },
+  "segments": [
+    {
+      "id": "29825411",
+      "tileScore": 21,
+      "name": "界牌岭",
+      "distanceM": 3728.5,
+      "avgGrade": 3.6690359115600586,
+      "startLat": 29.22612762451172,
+      "startLng": 118.70726776123047
+    },
+    {
+      "id": "28357629",
+      "tileScore": 23,
+      "name": "雷公岭到枫树岭",
+      "distanceM": 20761,
+      "avgGrade": -1.3303791284561157,
+      "startLat": 29.192279815673828,
+      "startLng": 118.6906509399414
+    }
+  ]
+}

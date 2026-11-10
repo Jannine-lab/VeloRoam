@@ -1,0 +1,29 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T20:36:41.890Z",
+  "tile": {
+    "z": 13,
+    "x": 6802,
+    "y": 3393
+  },
+  "segments": [
+    {
+      "id": "13907274",
+      "tileScore": 21,
+      "name": "狂暴的小三轮",
+      "distanceM": 2373.10009765625,
+      "avgGrade": 0.4761704206466675,
+      "startLat": 29.48887062072754,
+      "startLng": 118.93161010742188
+    },
+    {
+      "id": "35812832",
+      "tileScore": 55,
+      "name": "千岛湖第一段45km",
+      "distanceM": 46688,
+      "avgGrade": 0.0406956821680069,
+      "startLat": 29.6170654296875,
+      "startLng": 119.03804779052734
+    }
+  ]
+}

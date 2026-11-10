@@ -1,0 +1,38 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T20:07:44.570Z",
+  "tile": {
+    "z": 13,
+    "x": 6768,
+    "y": 3078
+  },
+  "segments": [
+    {
+      "id": "37354234",
+      "tileScore": 4,
+      "name": "涝洼梁爬坡计时赛",
+      "distanceM": 6906.89990234375,
+      "avgGrade": 5.950571060180664,
+      "startLat": 40.78878402709961,
+      "startLng": 117.42438507080078
+    },
+    {
+      "id": "32924755",
+      "tileScore": 1,
+      "name": "The famous 大石門 climb",
+      "distanceM": 5895.5,
+      "avgGrade": 6.598252773284912,
+      "startLat": 40.73457336425781,
+      "startLng": 117.40223693847656
+    },
+    {
+      "id": "37271646",
+      "tileScore": 8,
+      "name": "兩間房 → 小石門 → 上灤線 [94→86]",
+      "distanceM": 19279.599609375,
+      "avgGrade": 4.3356709480285645,
+      "startLat": 40.7337532043457,
+      "startLng": 117.3499526977539
+    }
+  ]
+}

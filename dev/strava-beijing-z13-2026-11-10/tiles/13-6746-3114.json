@@ -1,0 +1,29 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T19:39:53.049Z",
+  "tile": {
+    "z": 13,
+    "x": 6746,
+    "y": 3114
+  },
+  "segments": [
+    {
+      "id": "41596519",
+      "tileScore": 4,
+      "name": "上班前的最后冲刺",
+      "distanceM": 1823.4000244140625,
+      "avgGrade": 0,
+      "startLat": 39.57318115234375,
+      "startLng": 116.45629119873047
+    },
+    {
+      "id": "40215199",
+      "tileScore": 3,
+      "name": "大礼路",
+      "distanceM": 9850.5,
+      "avgGrade": 0.012182123027741909,
+      "startLat": 39.560699462890625,
+      "startLng": 116.47944641113281
+    }
+  ]
+}

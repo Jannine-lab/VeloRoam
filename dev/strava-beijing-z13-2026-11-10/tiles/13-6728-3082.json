@@ -1,0 +1,20 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T19:58:54.351Z",
+  "tile": {
+    "z": 13,
+    "x": 6728,
+    "y": 3082
+  },
+  "segments": [
+    {
+      "id": "12270997",
+      "tileScore": 1,
+      "name": "S241 Provincial Road False Flat",
+      "distanceM": 14599.599609375,
+      "avgGrade": 1.9000520706176758,
+      "startLat": 40.67354965209961,
+      "startLng": 115.72968292236328
+    }
+  ]
+}

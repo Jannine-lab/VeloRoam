@@ -1,0 +1,173 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T20:21:51.230Z",
+  "tile": {
+    "z": 13,
+    "x": 6817,
+    "y": 3368
+  },
+  "segments": [
+    {
+      "id": "37114218",
+      "tileScore": 3,
+      "name": "西山最后精华路段（推车警告）",
+      "distanceM": 527,
+      "avgGrade": 7.70398473739624,
+      "startLat": 30.411434173583984,
+      "startLng": 119.60209655761719
+    },
+    {
+      "id": "18702207",
+      "tileScore": 102,
+      "name": "市岭发夹弯开始的爬坡",
+      "distanceM": 4785.2001953125,
+      "avgGrade": 5.04263162612915,
+      "startLat": 30.440187454223633,
+      "startLng": 119.59210968017578
+    },
+    {
+      "id": "15859559",
+      "tileScore": 83,
+      "name": "Dawai Climb -- From bottom to intersection",
+      "distanceM": 3669.39990234375,
+      "avgGrade": 4.374011993408203,
+      "startLat": 30.43753433227539,
+      "startLng": 119.5990982055664
+    },
+    {
+      "id": "37351151",
+      "tileScore": 3,
+      "name": "环杭1 城西→104→江南天池→235返程",
+      "distanceM": 154840.59375,
+      "avgGrade": 0.020149754360318184,
+      "startLat": 30.351224899291992,
+      "startLng": 120.07047271728516
+    },
+    {
+      "id": "3701943",
+      "tileScore": 14,
+      "name": "Provincial Road Climb",
+      "distanceM": 767.2066650390625,
+      "avgGrade": 13.306398391723633,
+      "startLat": 30.43440055847168,
+      "startLng": 119.57867431640625
+    },
+    {
+      "id": "24372039",
+      "tileScore": 9,
+      "name": "云上草原3级跳STEP2 青草坞",
+      "distanceM": 1946.699951171875,
+      "avgGrade": 9.071762084960938,
+      "startLat": 30.442962646484375,
+      "startLng": 119.6170425415039
+    },
+    {
+      "id": "8602463",
+      "tileScore": 40,
+      "name": "Shiling climb",
+      "distanceM": 3067.199951171875,
+      "avgGrade": 6.328247547149658,
+      "startLat": 30.43817138671875,
+      "startLng": 119.59141540527344
+    },
+    {
+      "id": "24371749",
+      "tileScore": 10,
+      "name": "云上草原3级跳",
+      "distanceM": 6484.7998046875,
+      "avgGrade": 5.517517566680908,
+      "startLat": 30.432655334472656,
+      "startLng": 119.608154296875
+    },
+    {
+      "id": "7844796",
+      "tileScore": 257,
+      "name": "Full Dayu Line",
+      "distanceM": 23096.30078125,
+      "avgGrade": 2.9052271842956543,
+      "startLat": 30.340858459472656,
+      "startLng": 119.71572875976562
+    },
+    {
+      "id": "26152541",
+      "tileScore": 176,
+      "name": "大鱼线Climb",
+      "distanceM": 6800.60009765625,
+      "avgGrade": 4.511366844177246,
+      "startLat": 30.460561752319336,
+      "startLng": 119.6054916381836
+    },
+    {
+      "id": "34502475",
+      "tileScore": 70,
+      "name": "鱼林线-龙山村",
+      "distanceM": 10233.7001953125,
+      "avgGrade": -4.422642707824707,
+      "startLat": 30.417808532714844,
+      "startLng": 119.61910247802734
+    },
+    {
+      "id": "40517192",
+      "tileScore": 46,
+      "name": "林家塘-九亩新路岔路口",
+      "distanceM": 4957.89990234375,
+      "avgGrade": 5.8129448890686035,
+      "startLat": 30.42283058166504,
+      "startLng": 119.6086196899414
+    },
+    {
+      "id": "12345823",
+      "tileScore": 17,
+      "name": "天池Climb",
+      "distanceM": 11013.7001953125,
+      "avgGrade": 4.737735748291016,
+      "startLat": 30.472900390625,
+      "startLng": 119.61067199707031
+    },
+    {
+      "id": "3701940",
+      "tileScore": 16,
+      "name": "Provincial Road Climb",
+      "distanceM": 817.0733642578125,
+      "avgGrade": 15.151144981384277,
+      "startLat": 30.43876838684082,
+      "startLng": 119.59229278564453
+    },
+    {
+      "id": "29539963",
+      "tileScore": 26,
+      "name": "*****",
+      "distanceM": 3379.39990234375,
+      "avgGrade": 9.966266632080078,
+      "startLat": 30.4133243560791,
+      "startLng": 119.59247589111328
+    },
+    {
+      "id": "24930903",
+      "tileScore": 82,
+      "name": "临安东坑",
+      "distanceM": 11999.099609375,
+      "avgGrade": 4.563675403594971,
+      "startLat": 30.352750778198242,
+      "startLng": 119.59040832519531
+    },
+    {
+      "id": "7859723",
+      "tileScore": 71,
+      "name": "Dayu Line final climb",
+      "distanceM": 2283.89990234375,
+      "avgGrade": 4.728753566741943,
+      "startLat": 30.42282485961914,
+      "startLng": 119.60855865478516
+    },
+    {
+      "id": "36337671",
+      "tileScore": 7,
+      "name": "西山-龙达农庄不知名小路",
+      "distanceM": 3368.5,
+      "avgGrade": 7.190144062042236,
+      "startLat": 30.410917282104492,
+      "startLng": 119.61187744140625
+    }
+  ]
+}

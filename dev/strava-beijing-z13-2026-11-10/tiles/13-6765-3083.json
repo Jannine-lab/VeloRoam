@@ -1,0 +1,20 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T20:02:08.169Z",
+  "tile": {
+    "z": 13,
+    "x": 6765,
+    "y": 3083
+  },
+  "segments": [
+    {
+      "id": "32728653",
+      "tileScore": 2,
+      "name": "do you come here often?",
+      "distanceM": 6660.2001953125,
+      "avgGrade": 4.1980719566345215,
+      "startLat": 40.613014221191406,
+      "startLng": 117.31641387939453
+    }
+  ]
+}

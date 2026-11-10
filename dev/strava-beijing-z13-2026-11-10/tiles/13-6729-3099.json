@@ -1,0 +1,92 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T19:45:23.670Z",
+  "tile": {
+    "z": 13,
+    "x": 6729,
+    "y": 3099
+  },
+  "segments": [
+    {
+      "id": "4156356",
+      "tileScore": 65,
+      "name": "Shit road",
+      "distanceM": 7327,
+      "avgGrade": 5.863245487213135,
+      "startLat": 40.07883834838867,
+      "startLng": 115.73075866699219
+    },
+    {
+      "id": "30260494",
+      "tileScore": 106,
+      "name": "青杨路爬坡(小桥-东岭村后最高点)LX",
+      "distanceM": 15700.5,
+      "avgGrade": 3.6559348106384277,
+      "startLat": 40.01408386230469,
+      "startLng": 115.80913543701172
+    },
+    {
+      "id": "4145652",
+      "tileScore": 8,
+      "name": "County Road Climb",
+      "distanceM": 990.0999755859375,
+      "avgGrade": 13.675385475158691,
+      "startLat": 40.07876968383789,
+      "startLng": 115.7335205078125
+    },
+    {
+      "id": "4145656",
+      "tileScore": 11,
+      "name": "Country Road Climb",
+      "distanceM": 529.2999877929688,
+      "avgGrade": 20.139806747436523,
+      "startLat": 40.06777572631836,
+      "startLng": 115.74393463134766
+    },
+    {
+      "id": "4145653",
+      "tileScore": 10,
+      "name": "County Road Climb",
+      "distanceM": 1010.2999877929688,
+      "avgGrade": 10.264278411865234,
+      "startLat": 40.075035095214844,
+      "startLng": 115.7304916381836
+    },
+    {
+      "id": "38797120",
+      "tileScore": 74,
+      "name": "VLCC斋幽路爬坡（沿龙路口到顶）",
+      "distanceM": 6023.39990234375,
+      "avgGrade": 4.636916160583496,
+      "startLat": 40.06269073486328,
+      "startLng": 115.71133422851562
+    },
+    {
+      "id": "31962841",
+      "tileScore": 8,
+      "name": "斋幽路（沿向路口-幽州村口）",
+      "distanceM": 12813.400390625,
+      "avgGrade": 0.3964599668979645,
+      "startLat": 40.06744384765625,
+      "startLng": 115.71537780761719
+    },
+    {
+      "id": "33971550",
+      "tileScore": 28,
+      "name": "小雨开心放坡爆胎路段",
+      "distanceM": 1769.300048828125,
+      "avgGrade": -4.962414741516113,
+      "startLat": 40.05147171020508,
+      "startLng": 115.70254516601562
+    },
+    {
+      "id": "30225056",
+      "tileScore": 50,
+      "name": "双大路东段爬坡(斋幽路小桥-天津关隧道口)LX",
+      "distanceM": 15430,
+      "avgGrade": 3.8496434688568115,
+      "startLat": 40.0633544921875,
+      "startLng": 115.7107162475586
+    }
+  ]
+}

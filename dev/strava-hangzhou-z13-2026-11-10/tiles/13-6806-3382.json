@@ -1,0 +1,20 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T20:29:10.897Z",
+  "tile": {
+    "z": 13,
+    "x": 6806,
+    "y": 3382
+  },
+  "segments": [
+    {
+      "id": "23306511",
+      "tileScore": 2,
+      "name": "昌文线-瑶山溪 P1",
+      "distanceM": 5721.10009765625,
+      "avgGrade": 0.49640801548957825,
+      "startLat": 29.874156951904297,
+      "startLng": 119.1242446899414
+    }
+  ]
+}

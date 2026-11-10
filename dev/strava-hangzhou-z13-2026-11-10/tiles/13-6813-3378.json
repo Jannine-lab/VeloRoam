@@ -1,0 +1,20 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T20:24:29.162Z",
+  "tile": {
+    "z": 13,
+    "x": 6813,
+    "y": 3378
+  },
+  "segments": [
+    {
+      "id": "40388367",
+      "tileScore": 9,
+      "name": "云湖山DOWN（新水泥路）",
+      "distanceM": 3515.800048828125,
+      "avgGrade": -7.002673149108887,
+      "startLat": 30.071807861328125,
+      "startLng": 119.42951965332031
+    }
+  ]
+}

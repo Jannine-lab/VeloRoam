@@ -1,0 +1,29 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T20:27:59.419Z",
+  "tile": {
+    "z": 13,
+    "x": 6807,
+    "y": 3369
+  },
+  "segments": [
+    {
+      "id": "32117506",
+      "tileScore": 2,
+      "name": "cd-万家乡至宁墩镇超爽起伏路",
+      "distanceM": 7863.2001953125,
+      "avgGrade": -0.3942415118217468,
+      "startLat": 30.405895233154297,
+      "startLng": 119.13742065429688
+    },
+    {
+      "id": "32117477",
+      "tileScore": 1,
+      "name": "cd-唐古拉漂流至万家乡",
+      "distanceM": 6484,
+      "avgGrade": -0.5397902131080627,
+      "startLat": 30.372268676757812,
+      "startLng": 119.18247985839844
+    }
+  ]
+}

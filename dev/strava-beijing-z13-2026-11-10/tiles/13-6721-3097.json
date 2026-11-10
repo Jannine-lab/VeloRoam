@@ -1,0 +1,20 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T19:56:02.382Z",
+  "tile": {
+    "z": 13,
+    "x": 6721,
+    "y": 3097
+  },
+  "segments": [
+    {
+      "id": "34734112",
+      "tileScore": 1,
+      "name": "太平堡-鲍家口-孔涧正爬",
+      "distanceM": 11009.900390625,
+      "avgGrade": 3.591313123703003,
+      "startLat": 40.13739013671875,
+      "startLng": 115.36943817138672
+    }
+  ]
+}

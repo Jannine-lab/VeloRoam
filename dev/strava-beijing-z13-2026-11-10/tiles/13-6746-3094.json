@@ -1,0 +1,83 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T19:38:49.848Z",
+  "tile": {
+    "z": 13,
+    "x": 6746,
+    "y": 3094
+  },
+  "segments": [
+    {
+      "id": "9721501",
+      "tileScore": 17,
+      "name": "HuaichangRd-ChangjinRd",
+      "distanceM": 2692.60009765625,
+      "avgGrade": -0.304538369178772,
+      "startLat": 40.23497009277344,
+      "startLng": 116.48811340332031
+    },
+    {
+      "id": "34566182",
+      "tileScore": 4,
+      "name": "正爬文瀚路",
+      "distanceM": 2092,
+      "avgGrade": 1.6730401515960693,
+      "startLat": 40.23779296875,
+      "startLng": 116.476806640625
+    },
+    {
+      "id": "39951264",
+      "tileScore": 58,
+      "name": "秦北路（怀昌路→顺沙路）",
+      "distanceM": 6353.89990234375,
+      "avgGrade": -0.36040857434272766,
+      "startLat": 40.23256301879883,
+      "startLng": 116.45664978027344
+    },
+    {
+      "id": "9721496",
+      "tileScore": 11,
+      "name": "Huaichang Rd (E-W)",
+      "distanceM": 3135.89990234375,
+      "avgGrade": 0,
+      "startLat": 40.23976135253906,
+      "startLng": 116.52389526367188
+    },
+    {
+      "id": "41227591",
+      "tileScore": 2,
+      "name": "下苑村-清河绿道（N-S）",
+      "distanceM": 18456.400390625,
+      "avgGrade": -0.12190892547369003,
+      "startLat": 40.230281829833984,
+      "startLng": 116.45222473144531
+    },
+    {
+      "id": "36239169",
+      "tileScore": 5,
+      "name": "怀昌路全程",
+      "distanceM": 35708.80078125,
+      "avgGrade": -0.003920602146536112,
+      "startLat": 40.29088592529297,
+      "startLng": 116.5829086303711
+    },
+    {
+      "id": "31929291",
+      "tileScore": 4,
+      "name": "BRM200-耀骑北京-BJ-R001",
+      "distanceM": 194072.59375,
+      "avgGrade": -0.00005152710946276784,
+      "startLat": 40.14736557006836,
+      "startLng": 116.37285614013672
+    },
+    {
+      "id": "28093336",
+      "tileScore": 22,
+      "name": "静之湖-下西市",
+      "distanceM": 4646.89990234375,
+      "avgGrade": -0.06455916911363602,
+      "startLat": 40.22737121582031,
+      "startLng": 116.43595123291016
+    }
+  ]
+}

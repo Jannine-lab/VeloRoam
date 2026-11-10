@@ -1,0 +1,38 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T19:51:28.570Z",
+  "tile": {
+    "z": 13,
+    "x": 6723,
+    "y": 3103
+  },
+  "segments": [
+    {
+      "id": "10399124",
+      "tileScore": 58,
+      "name": "上西铺水库-北京界",
+      "distanceM": 7235.10009765625,
+      "avgGrade": 4.11328125,
+      "startLat": 39.881282806396484,
+      "startLng": 115.47077178955078
+    },
+    {
+      "id": "34037044",
+      "tileScore": 73,
+      "name": "九龙到北京界",
+      "distanceM": 19615.30078125,
+      "avgGrade": 2.629580020904541,
+      "startLat": 39.803001403808594,
+      "startLng": 115.40788269042969
+    },
+    {
+      "id": "40102789",
+      "tileScore": 3,
+      "name": "双天路climb",
+      "distanceM": 2624,
+      "avgGrade": 7.362804412841797,
+      "startLat": 39.949440002441406,
+      "startLng": 115.48171997070312
+    }
+  ]
+}

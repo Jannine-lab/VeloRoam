@@ -1,0 +1,29 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T20:29:08.433Z",
+  "tile": {
+    "z": 13,
+    "x": 6814,
+    "y": 3391
+  },
+  "segments": [
+    {
+      "id": "22449173",
+      "tileScore": 24,
+      "name": "严州大桥",
+      "distanceM": 575.0999755859375,
+      "avgGrade": 1.147626519203186,
+      "startLat": 29.535171508789062,
+      "startLng": 119.48566436767578
+    },
+    {
+      "id": "39042560",
+      "tileScore": 13,
+      "name": "G320 建德-乾潭",
+      "distanceM": 24345.5,
+      "avgGrade": -0.0008215070702135563,
+      "startLat": 29.51140022277832,
+      "startLng": 119.30841064453125
+    }
+  ]
+}

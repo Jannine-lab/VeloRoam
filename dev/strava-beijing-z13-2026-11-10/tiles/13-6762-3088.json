@@ -1,0 +1,65 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T19:54:09.749Z",
+  "tile": {
+    "z": 13,
+    "x": 6762,
+    "y": 3088
+  },
+  "segments": [
+    {
+      "id": "39163900",
+      "tileScore": 9,
+      "name": "镇罗营-密兴路（S-N）",
+      "distanceM": 11868.400390625,
+      "avgGrade": 0.20306022465229034,
+      "startLat": 40.342437744140625,
+      "startLng": 117.13543701171875
+    },
+    {
+      "id": "42359354",
+      "tileScore": 3,
+      "name": "杨家台climb",
+      "distanceM": 9699.900390625,
+      "avgGrade": 2.9278652667999268,
+      "startLat": 40.41630935668945,
+      "startLng": 117.171630859375
+    },
+    {
+      "id": "42250130",
+      "tileScore": 3,
+      "name": "沙太路爬坡S2(北-南)",
+      "distanceM": 1731.5,
+      "avgGrade": 5.4172682762146,
+      "startLat": 40.43168258666992,
+      "startLng": 117.17584991455078
+    },
+    {
+      "id": "37746282",
+      "tileScore": 19,
+      "name": "密兴路（北沟-王各庄）",
+      "distanceM": 11255.900390625,
+      "avgGrade": -1.5405254364013672,
+      "startLat": 40.42192077636719,
+      "startLng": 117.1853256225586
+    },
+    {
+      "id": "35232473",
+      "tileScore": 5,
+      "name": "2023 BRM300 CP4",
+      "distanceM": 50172.69921875,
+      "avgGrade": -0.2495381087064743,
+      "startLat": 40.381126403808594,
+      "startLng": 117.14585876464844
+    },
+    {
+      "id": "5610619",
+      "tileScore": 5,
+      "name": "Provincial Road Climb",
+      "distanceM": 1992.300048828125,
+      "avgGrade": 4.557546615600586,
+      "startLat": 40.41524887084961,
+      "startLng": 117.1707534790039
+    }
+  ]
+}

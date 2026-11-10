@@ -1,0 +1,29 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T19:45:28.582Z",
+  "tile": {
+    "z": 13,
+    "x": 6731,
+    "y": 3095
+  },
+  "segments": [
+    {
+      "id": "40352303",
+      "tileScore": 7,
+      "name": "样边长城Gravel放坡",
+      "distanceM": 4705.89990234375,
+      "avgGrade": -7.182473182678223,
+      "startLat": 40.2301025390625,
+      "startLng": 115.80084228515625
+    },
+    {
+      "id": "34855430",
+      "tileScore": 3,
+      "name": "镇边城至大营盘顶，路上全是坑",
+      "distanceM": 9447.2998046875,
+      "avgGrade": 2.5139458179473877,
+      "startLat": 40.172733306884766,
+      "startLng": 115.8150405883789
+    }
+  ]
+}

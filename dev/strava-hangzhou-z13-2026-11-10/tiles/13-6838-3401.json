@@ -1,0 +1,38 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T20:34:27.797Z",
+  "tile": {
+    "z": 13,
+    "x": 6838,
+    "y": 3401
+  },
+  "segments": [
+    {
+      "id": "38734669",
+      "tileScore": 1,
+      "name": "上横山 水出田 右拐还有 左拐去天秀 下坡柏油到孔潭",
+      "distanceM": 2627.10009765625,
+      "avgGrade": 3.0604088306427,
+      "startLat": 29.15711784362793,
+      "startLng": 120.53501892089844
+    },
+    {
+      "id": "36416420",
+      "tileScore": 6,
+      "name": "歇一歇看看风景",
+      "distanceM": 3689.5,
+      "avgGrade": 5.323214530944824,
+      "startLat": 29.14536476135254,
+      "startLng": 120.5136947631836
+    },
+    {
+      "id": "38297088",
+      "tileScore": 6,
+      "name": "磐山云隐Climb",
+      "distanceM": 1282.5,
+      "avgGrade": 5.1617937088012695,
+      "startLat": 29.154054641723633,
+      "startLng": 120.52534484863281
+    }
+  ]
+}

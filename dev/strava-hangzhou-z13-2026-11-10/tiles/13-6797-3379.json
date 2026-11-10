@@ -1,0 +1,38 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T20:36:17.120Z",
+  "tile": {
+    "z": 13,
+    "x": 6797,
+    "y": 3379
+  },
+  "segments": [
+    {
+      "id": "17846980",
+      "tileScore": 6,
+      "name": "Sprint to the Overpass",
+      "distanceM": 2267.39990234375,
+      "avgGrade": -0.5821645855903625,
+      "startLat": 30.005306243896484,
+      "startLng": 118.74763488769531
+    },
+    {
+      "id": "25623121",
+      "tileScore": 13,
+      "name": "Village Sprints",
+      "distanceM": 2754.89990234375,
+      "avgGrade": 2.471959114074707,
+      "startLat": 29.99220085144043,
+      "startLng": 118.7264404296875
+    },
+    {
+      "id": "32310031",
+      "tileScore": 2,
+      "name": "Northern rubbish",
+      "distanceM": 11199,
+      "avgGrade": -0.5232610106468201,
+      "startLat": 30.020639419555664,
+      "startLng": 118.71087646484375
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T20:34:12.470Z",
+  "tile": {
+    "z": 13,
+    "x": 6798,
+    "y": 3374
+  },
+  "segments": [
+    {
+      "id": "11770599",
+      "tileScore": 7,
+      "name": "伏岭下坡到胡家",
+      "distanceM": 8911.2001953125,
+      "avgGrade": -1.8628243207931519,
+      "startLat": 30.16876220703125,
+      "startLng": 118.76299285888672
+    }
+  ]
+}

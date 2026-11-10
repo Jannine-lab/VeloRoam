@@ -1,0 +1,65 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T20:16:26.675Z",
+  "tile": {
+    "z": 13,
+    "x": 6835,
+    "y": 3370
+  },
+  "segments": [
+    {
+      "id": "34793404",
+      "tileScore": 3,
+      "name": "Wenhai North Road (N-S)",
+      "distanceM": 6378.7998046875,
+      "avgGrade": -0.01567693054676056,
+      "startLat": 30.383264541625977,
+      "startLng": 120.412109375
+    },
+    {
+      "id": "28832135",
+      "tileScore": 2,
+      "name": "上班路",
+      "distanceM": 8692.7001953125,
+      "avgGrade": 0.002300781197845936,
+      "startLat": 30.343935012817383,
+      "startLng": 120.37796783447266
+    },
+    {
+      "id": "35645012",
+      "tileScore": 3,
+      "name": "下沙to嘉兴",
+      "distanceM": 67304,
+      "avgGrade": 0.01292642392218113,
+      "startLat": 30.326765060424805,
+      "startLng": 120.37503814697266
+    },
+    {
+      "id": "21172602",
+      "tileScore": 9,
+      "name": "Last 3KM",
+      "distanceM": 2792.39990234375,
+      "avgGrade": -0.12892135977745056,
+      "startLat": 30.328062057495117,
+      "startLng": 120.39927673339844
+    },
+    {
+      "id": "40412556",
+      "tileScore": 4,
+      "name": "犁田gravel",
+      "distanceM": 8703.900390625,
+      "avgGrade": 0,
+      "startLat": 30.352975845336914,
+      "startLng": 120.35833740234375
+    },
+    {
+      "id": "34793461",
+      "tileScore": 2,
+      "name": "Chunchao R. S-N",
+      "distanceM": 5349.39990234375,
+      "avgGrade": 0.01869368553161621,
+      "startLat": 30.32630729675293,
+      "startLng": 120.38501739501953
+    }
+  ]
+}

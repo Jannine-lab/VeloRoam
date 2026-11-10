@@ -1,0 +1,20 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T19:59:17.209Z",
+  "tile": {
+    "z": 13,
+    "x": 6770,
+    "y": 3110
+  },
+  "segments": [
+    {
+      "id": "33065797",
+      "tileScore": 8,
+      "name": "马上到唐山了",
+      "distanceM": 2541.800048828125,
+      "avgGrade": 0.055079080164432526,
+      "startLat": 39.705528259277344,
+      "startLng": 117.53170776367188
+    }
+  ]
+}

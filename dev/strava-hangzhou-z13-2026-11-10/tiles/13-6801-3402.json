@@ -1,0 +1,29 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T20:40:45.078Z",
+  "tile": {
+    "z": 13,
+    "x": 6801,
+    "y": 3402
+  },
+  "segments": [
+    {
+      "id": "29256585",
+      "tileScore": 88,
+      "name": "万善寺小缓坡",
+      "distanceM": 1602.4000244140625,
+      "avgGrade": 5.217174053192139,
+      "startLat": 29.102869033813477,
+      "startLng": 118.88993835449219
+    },
+    {
+      "id": "39282425",
+      "tileScore": 33,
+      "name": "板桥—太真",
+      "distanceM": 14040.5,
+      "avgGrade": 0.6538228392601013,
+      "startLat": 29.102733612060547,
+      "startLng": 118.88995361328125
+    }
+  ]
+}

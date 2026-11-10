@@ -1,0 +1,56 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T20:33:21.597Z",
+  "tile": {
+    "z": 13,
+    "x": 6800,
+    "y": 3364
+  },
+  "segments": [
+    {
+      "id": "15726045",
+      "tileScore": 19,
+      "name": "Full 3rd climb of Ningguo GF 2017",
+      "distanceM": 6643.39990234375,
+      "avgGrade": 2.3060481548309326,
+      "startLat": 30.575790405273438,
+      "startLng": 118.84159851074219
+    },
+    {
+      "id": "15726012",
+      "tileScore": 41,
+      "name": "1st climb Ningguo GF 2017",
+      "distanceM": 917.9000244140625,
+      "avgGrade": 8.17082405090332,
+      "startLat": 30.59174919128418,
+      "startLng": 118.87262725830078
+    },
+    {
+      "id": "15672451",
+      "tileScore": 7,
+      "name": "last climb on way back",
+      "distanceM": 1218.4000244140625,
+      "avgGrade": 3.824688196182251,
+      "startLat": 30.57610511779785,
+      "startLng": 118.85111236572266
+    },
+    {
+      "id": "32823255",
+      "tileScore": 43,
+      "name": "皖南川藏线-全段LSD(宁国青龙乡到蔡村镇）",
+      "distanceM": 128064.6015625,
+      "avgGrade": 0.007808559108525515,
+      "startLat": 30.63506507873535,
+      "startLng": 118.9490737915039
+    },
+    {
+      "id": "39223437",
+      "tileScore": 20,
+      "name": "东风桥到观景台",
+      "distanceM": 3680.199951171875,
+      "avgGrade": 2.8585402965545654,
+      "startLat": 30.59276008605957,
+      "startLng": 118.87283325195312
+    }
+  ]
+}

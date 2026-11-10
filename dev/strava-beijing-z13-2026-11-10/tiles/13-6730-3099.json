@@ -1,0 +1,47 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T19:43:07.606Z",
+  "tile": {
+    "z": 13,
+    "x": 6730,
+    "y": 3099
+  },
+  "segments": [
+    {
+      "id": "30260494",
+      "tileScore": 106,
+      "name": "青杨路爬坡(小桥-东岭村后最高点)LX",
+      "distanceM": 15700.5,
+      "avgGrade": 3.6559348106384277,
+      "startLat": 40.01408386230469,
+      "startLng": 115.80913543701172
+    },
+    {
+      "id": "5539663",
+      "tileScore": 15,
+      "name": "Country Road Climb",
+      "distanceM": 1122.300048828125,
+      "avgGrade": 11.36950969696045,
+      "startLat": 40.05023956298828,
+      "startLng": 115.78945922851562
+    },
+    {
+      "id": "27437511",
+      "tileScore": 22,
+      "name": "珍珠湖大坝",
+      "distanceM": 651.2999877929688,
+      "avgGrade": 1.5814523696899414,
+      "startLat": 40.05342483520508,
+      "startLng": 115.78437805175781
+    },
+    {
+      "id": "15052001",
+      "tileScore": 17,
+      "name": "Small ascent",
+      "distanceM": 2877.60009765625,
+      "avgGrade": 6.567973613739014,
+      "startLat": 40.0490608215332,
+      "startLng": 115.7889175415039
+    }
+  ]
+}

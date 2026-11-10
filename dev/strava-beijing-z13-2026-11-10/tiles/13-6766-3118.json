@@ -1,0 +1,20 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T19:58:56.816Z",
+  "tile": {
+    "z": 13,
+    "x": 6766,
+    "y": 3118
+  },
+  "segments": [
+    {
+      "id": "14501845",
+      "tileScore": 8,
+      "name": "S307(往北)",
+      "distanceM": 7243.10009765625,
+      "avgGrade": -0.022089989855885506,
+      "startLat": 39.376136779785156,
+      "startLng": 117.3311538696289
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T20:20:31.104Z",
+  "tile": {
+    "z": 13,
+    "x": 6822,
+    "y": 3382
+  },
+  "segments": [
+    {
+      "id": "30065357",
+      "tileScore": 5,
+      "name": "场口公路管理站—文体中心",
+      "distanceM": 5877,
+      "avgGrade": -0.1361238807439804,
+      "startLat": 29.87760353088379,
+      "startLng": 119.82588958740234
+    },
+    {
+      "id": "29657161",
+      "tileScore": 38,
+      "name": "窄后线 杭州至桐庐",
+      "distanceM": 11474.2998046875,
+      "avgGrade": 0.0348605141043663,
+      "startLat": 29.953527450561523,
+      "startLng": 119.86062622070312
+    },
+    {
+      "id": "34837510",
+      "tileScore": 38,
+      "name": "场口绿道go窄溪方向",
+      "distanceM": 6203.5,
+      "avgGrade": -0.006447972729802132,
+      "startLat": 29.93807601928711,
+      "startLng": 119.85940551757812
+    },
+    {
+      "id": "25978507",
+      "tileScore": 4,
+      "name": "新桐乡堤坝",
+      "distanceM": 3163.699951171875,
+      "avgGrade": -0.012643423862755299,
+      "startLat": 29.926668167114258,
+      "startLng": 119.84004211425781
+    },
+    {
+      "id": "18439074",
+      "tileScore": 1,
+      "name": "Sander's Swan Song (Tonglu CC)",
+      "distanceM": 8565.7001953125,
+      "avgGrade": 0.48332303762435913,
+      "startLat": 29.87366485595703,
+      "startLng": 119.76809692382812
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T19:47:35.611Z",
+  "tile": {
+    "z": 13,
+    "x": 6735,
+    "y": 3088
+  },
+  "segments": [
+    {
+      "id": "31923238",
+      "tileScore": 21,
+      "name": "g7",
+      "distanceM": 11124.2998046875,
+      "avgGrade": -0.14742501080036163,
+      "startLat": 40.445274353027344,
+      "startLng": 116.01528930664062
+    },
+    {
+      "id": "27338402",
+      "tileScore": 5,
+      "name": "妫川路 N-S",
+      "distanceM": 8389.099609375,
+      "avgGrade": 0.5793231725692749,
+      "startLat": 40.43520736694336,
+      "startLng": 115.97992706298828
+    }
+  ]
+}

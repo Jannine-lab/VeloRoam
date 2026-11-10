@@ -1,0 +1,20 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T19:52:35.788Z",
+  "tile": {
+    "z": 13,
+    "x": 6726,
+    "y": 3091
+  },
+  "segments": [
+    {
+      "id": "39583326",
+      "tileScore": 1,
+      "name": "湿地公园自行车专用赛段",
+      "distanceM": 14568.400390625,
+      "avgGrade": 0.002745668636634946,
+      "startLat": 40.33100128173828,
+      "startLng": 115.57228088378906
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T19:43:59.678Z",
+  "tile": {
+    "z": 13,
+    "x": 6737,
+    "y": 3091
+  },
+  "segments": [
+    {
+      "id": "36868763",
+      "tileScore": 19,
+      "name": "四沙路",
+      "distanceM": 3139.10009765625,
+      "avgGrade": 10.053836822509766,
+      "startLat": 40.30888748168945,
+      "startLng": 116.05314636230469
+    },
+    {
+      "id": "36761542",
+      "tileScore": 50,
+      "name": "九仙庙climb",
+      "distanceM": 6192.60009765625,
+      "avgGrade": 6.7354583740234375,
+      "startLat": 40.28638458251953,
+      "startLng": 116.07156372070312
+    }
+  ]
+}

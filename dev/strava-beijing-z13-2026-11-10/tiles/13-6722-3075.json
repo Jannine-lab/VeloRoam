@@ -1,0 +1,47 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T20:09:12.482Z",
+  "tile": {
+    "z": 13,
+    "x": 6722,
+    "y": 3075
+  },
+  "segments": [
+    {
+      "id": "39840609",
+      "tileScore": 4,
+      "name": "Kicker to blue",
+      "distanceM": 1056.5999755859375,
+      "avgGrade": -2.8109028339385986,
+      "startLat": 40.88008117675781,
+      "startLng": 115.4366455078125
+    },
+    {
+      "id": "37149847",
+      "tileScore": 27,
+      "name": "Blue Cobra to wood drop",
+      "distanceM": 4586.2001953125,
+      "avgGrade": -8.102568626403809,
+      "startLat": 40.87491989135742,
+      "startLng": 115.42985534667969
+    },
+    {
+      "id": "40204264",
+      "tileScore": 33,
+      "name": "太舞眼鏡蛇2",
+      "distanceM": 2752.10009765625,
+      "avgGrade": -17.804584503173828,
+      "startLat": 40.87480545043945,
+      "startLng": 115.42964935302734
+    },
+    {
+      "id": "32960649",
+      "tileScore": 24,
+      "name": "From top lift to blue line intersection",
+      "distanceM": 2391,
+      "avgGrade": -8.28105354309082,
+      "startLat": 40.874786376953125,
+      "startLng": 115.42970275878906
+    }
+  ]
+}

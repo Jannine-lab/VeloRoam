@@ -1,0 +1,20 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T20:20:28.660Z",
+  "tile": {
+    "z": 13,
+    "x": 6841,
+    "y": 3378
+  },
+  "segments": [
+    {
+      "id": "32983541",
+      "tileScore": 3,
+      "name": "群贤路",
+      "distanceM": 7751.60009765625,
+      "avgGrade": -0.011610506102442741,
+      "startLat": 30.039060592651367,
+      "startLng": 120.73695373535156
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T20:31:27.069Z",
+  "tile": {
+    "z": 13,
+    "x": 6807,
+    "y": 3388
+  },
+  "segments": [
+    {
+      "id": "28647715",
+      "tileScore": 4,
+      "name": "汪家-上坪",
+      "distanceM": 11668.2998046875,
+      "avgGrade": 1.9111610651016235,
+      "startLat": 29.634998321533203,
+      "startLng": 119.1258773803711
+    }
+  ]
+}

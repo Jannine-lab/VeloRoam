@@ -1,0 +1,29 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T20:33:08.996Z",
+  "tile": {
+    "z": 13,
+    "x": 6800,
+    "y": 3379
+  },
+  "segments": [
+    {
+      "id": "38905686",
+      "tileScore": 144,
+      "name": "Warming Up",
+      "distanceM": 8124.60009765625,
+      "avgGrade": 4.475297451019287,
+      "startLat": 30.007274627685547,
+      "startLng": 118.80046844482422
+    },
+    {
+      "id": "42428232",
+      "tileScore": 1,
+      "name": "Clean Slate 26",
+      "distanceM": 113029.5,
+      "avgGrade": -0.006016128696501255,
+      "startLat": 30.0743350982666,
+      "startLng": 118.81914520263672
+    }
+  ]
+}

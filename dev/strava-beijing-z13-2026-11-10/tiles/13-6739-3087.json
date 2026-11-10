@@ -1,0 +1,29 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T19:47:55.442Z",
+  "tile": {
+    "z": 13,
+    "x": 6739,
+    "y": 3087
+  },
+  "segments": [
+    {
+      "id": "40226651",
+      "tileScore": 63,
+      "name": "南山环线东向西昌赤路口-柳沟",
+      "distanceM": 12379.900390625,
+      "avgGrade": 0.2108256071805954,
+      "startLat": 40.49900817871094,
+      "startLng": 116.18592071533203
+    },
+    {
+      "id": "41403848",
+      "tileScore": 2,
+      "name": "四司村climb",
+      "distanceM": 2160.60009765625,
+      "avgGrade": 2.304915428161621,
+      "startLat": 40.47304153442383,
+      "startLng": 116.15845489501953
+    }
+  ]
+}

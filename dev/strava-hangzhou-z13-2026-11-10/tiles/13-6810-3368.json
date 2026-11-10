@@ -1,0 +1,20 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T20:25:17.980Z",
+  "tile": {
+    "z": 13,
+    "x": 6810,
+    "y": 3368
+  },
+  "segments": [
+    {
+      "id": "32117536",
+      "tileScore": 2,
+      "name": "cd-G329仙霞镇北往南10公里狂飙",
+      "distanceM": 9878.099609375,
+      "avgGrade": 0.3158501982688904,
+      "startLat": 30.47182846069336,
+      "startLng": 119.2360610961914
+    }
+  ]
+}

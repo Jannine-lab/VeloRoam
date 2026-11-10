@@ -1,0 +1,20 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T20:42:26.069Z",
+  "tile": {
+    "z": 13,
+    "x": 6788,
+    "y": 3391
+  },
+  "segments": [
+    {
+      "id": "13903773",
+      "tileScore": 211,
+      "name": "X022 盈丰村 10公里爬坡",
+      "distanceM": 11418.900390625,
+      "avgGrade": 5.457618236541748,
+      "startLat": 29.584901809692383,
+      "startLng": 118.32276153564453
+    }
+  ]
+}

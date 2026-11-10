@@ -1,0 +1,20 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T19:46:38.199Z",
+  "tile": {
+    "z": 13,
+    "x": 6733,
+    "y": 3090
+  },
+  "segments": [
+    {
+      "id": "37526380",
+      "tileScore": 6,
+      "name": "康张路（北-南）",
+      "distanceM": 13853,
+      "avgGrade": 0.059192955493927,
+      "startLat": 40.4764404296875,
+      "startLng": 115.84318542480469
+    }
+  ]
+}

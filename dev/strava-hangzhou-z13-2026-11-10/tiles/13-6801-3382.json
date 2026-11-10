@@ -1,0 +1,20 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T20:33:43.475Z",
+  "tile": {
+    "z": 13,
+    "x": 6801,
+    "y": 3382
+  },
+  "segments": [
+    {
+      "id": "37616025",
+      "tileScore": 20,
+      "name": "马山村→荷花坪村【DQ】",
+      "distanceM": 5434.10009765625,
+      "avgGrade": 0.4195726811885834,
+      "startLat": 29.89006233215332,
+      "startLng": 118.93431854248047
+    }
+  ]
+}

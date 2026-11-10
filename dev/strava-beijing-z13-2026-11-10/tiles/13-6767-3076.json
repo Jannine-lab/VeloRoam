@@ -1,0 +1,29 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T20:07:57.089Z",
+  "tile": {
+    "z": 13,
+    "x": 6767,
+    "y": 3076
+  },
+  "segments": [
+    {
+      "id": "5492041",
+      "tileScore": 3,
+      "name": "National Road Climb",
+      "distanceM": 4166.39990234375,
+      "avgGrade": 4.613095283508301,
+      "startLat": 40.797847747802734,
+      "startLng": 117.36109924316406
+    },
+    {
+      "id": "26008993",
+      "tileScore": 2,
+      "name": "G101长山峪爬坡(北京方向)",
+      "distanceM": 1469.9000244140625,
+      "avgGrade": 4.857473373413086,
+      "startLat": 40.84901428222656,
+      "startLng": 117.40596008300781
+    }
+  ]
+}

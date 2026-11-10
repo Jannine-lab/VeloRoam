@@ -1,0 +1,20 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T20:22:26.824Z",
+  "tile": {
+    "z": 13,
+    "x": 6842,
+    "y": 3379
+  },
+  "segments": [
+    {
+      "id": "34987213",
+      "tileScore": 5,
+      "name": "G104（越东南路-白富线）",
+      "distanceM": 12572.599609375,
+      "avgGrade": -0.01749837026000023,
+      "startLat": 30.004732131958008,
+      "startLng": 120.62360382080078
+    }
+  ]
+}

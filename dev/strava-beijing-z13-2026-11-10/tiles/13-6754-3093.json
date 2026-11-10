@@ -1,0 +1,20 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T19:43:44.881Z",
+  "tile": {
+    "z": 13,
+    "x": 6754,
+    "y": 3093
+  },
+  "segments": [
+    {
+      "id": "33953831",
+      "tileScore": 4,
+      "name": "木孙路（顺密路-顺平路）",
+      "distanceM": 17802.900390625,
+      "avgGrade": -0.07414522022008896,
+      "startLat": 40.265838623046875,
+      "startLng": 116.79450988769531
+    }
+  ]
+}

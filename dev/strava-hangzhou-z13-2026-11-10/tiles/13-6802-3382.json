@@ -1,0 +1,38 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T20:32:05.062Z",
+  "tile": {
+    "z": 13,
+    "x": 6802,
+    "y": 3382
+  },
+  "segments": [
+    {
+      "id": "29871163",
+      "tileScore": 11,
+      "name": "Dump Truck Out",
+      "distanceM": 2578.10009765625,
+      "avgGrade": 5.709630966186523,
+      "startLat": 29.890981674194336,
+      "startLng": 118.94115447998047
+    },
+    {
+      "id": "37616025",
+      "tileScore": 20,
+      "name": "马山村→荷花坪村【DQ】",
+      "distanceM": 5434.10009765625,
+      "avgGrade": 0.4195726811885834,
+      "startLat": 29.89006233215332,
+      "startLng": 118.93431854248047
+    },
+    {
+      "id": "25336053",
+      "tileScore": 8,
+      "name": "Fondue",
+      "distanceM": 4866.7998046875,
+      "avgGrade": 5.699843883514404,
+      "startLat": 29.91079330444336,
+      "startLng": 118.95903778076172
+    }
+  ]
+}

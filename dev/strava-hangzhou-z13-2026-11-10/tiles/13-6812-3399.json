@@ -1,0 +1,20 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T20:34:10.012Z",
+  "tile": {
+    "z": 13,
+    "x": 6812,
+    "y": 3399
+  },
+  "segments": [
+    {
+      "id": "38022528",
+      "tileScore": 5,
+      "name": "汪高到永昌冲刺一波",
+      "distanceM": 2334.800048828125,
+      "avgGrade": -0.4026041030883789,
+      "startLat": 29.225749969482422,
+      "startLng": 119.38148498535156
+    }
+  ]
+}

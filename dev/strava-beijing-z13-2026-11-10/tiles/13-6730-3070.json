@@ -1,0 +1,29 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T20:08:48.410Z",
+  "tile": {
+    "z": 13,
+    "x": 6730,
+    "y": 3070
+  },
+  "segments": [
+    {
+      "id": "28080650",
+      "tileScore": 1,
+      "name": "云州乡-赤城县(G239)",
+      "distanceM": 13587.400390625,
+      "avgGrade": -0.5976125001907349,
+      "startLat": 41.026302337646484,
+      "startLng": 115.77043151855469
+    },
+    {
+      "id": "12255374",
+      "tileScore": 2,
+      "name": "S241 to zhangcheng Expy",
+      "distanceM": 66922.8984375,
+      "avgGrade": 0.6996110677719116,
+      "startLat": 41.02937316894531,
+      "startLng": 115.76947021484375
+    }
+  ]
+}

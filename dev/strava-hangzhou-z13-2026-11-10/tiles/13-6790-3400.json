@@ -1,0 +1,29 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T20:42:56.681Z",
+  "tile": {
+    "z": 13,
+    "x": 6790,
+    "y": 3400
+  },
+  "segments": [
+    {
+      "id": "38653292",
+      "tileScore": 1,
+      "name": "2025环浙步道-开化站 未修改版本",
+      "distanceM": 119608,
+      "avgGrade": 0,
+      "startLat": 29.145221710205078,
+      "startLng": 118.3876724243164
+    },
+    {
+      "id": "40877499",
+      "tileScore": 6,
+      "name": "开马线  底本—密赛",
+      "distanceM": 13101.7001953125,
+      "avgGrade": -0.14349283277988434,
+      "startLat": 29.263851165771484,
+      "startLng": 118.43231964111328
+    }
+  ]
+}

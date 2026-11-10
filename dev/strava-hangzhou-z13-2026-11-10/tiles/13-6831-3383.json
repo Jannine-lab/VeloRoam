@@ -1,0 +1,20 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T20:20:33.586Z",
+  "tile": {
+    "z": 13,
+    "x": 6831,
+    "y": 3383
+  },
+  "segments": [
+    {
+      "id": "15995842",
+      "tileScore": 36,
+      "name": "大桥",
+      "distanceM": 3546,
+      "avgGrade": 10.11280345916748,
+      "startLat": 29.868698120117188,
+      "startLng": 120.22374725341797
+    }
+  ]
+}

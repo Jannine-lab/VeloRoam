@@ -1,0 +1,20 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T20:09:14.947Z",
+  "tile": {
+    "z": 13,
+    "x": 6767,
+    "y": 3075
+  },
+  "segments": [
+    {
+      "id": "26008993",
+      "tileScore": 2,
+      "name": "G101长山峪爬坡(北京方向)",
+      "distanceM": 1469.9000244140625,
+      "avgGrade": 4.857473373413086,
+      "startLat": 40.84901428222656,
+      "startLng": 117.40596008300781
+    }
+  ]
+}

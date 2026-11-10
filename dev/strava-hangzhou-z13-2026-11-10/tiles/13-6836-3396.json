@@ -1,0 +1,20 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T20:29:15.825Z",
+  "tile": {
+    "z": 13,
+    "x": 6836,
+    "y": 3396
+  },
+  "segments": [
+    {
+      "id": "36549782",
+      "tileScore": 12,
+      "name": "新宅—葛宅",
+      "distanceM": 5485.7998046875,
+      "avgGrade": 0.597907304763794,
+      "startLat": 29.34872055053711,
+      "startLng": 120.41354370117188
+    }
+  ]
+}

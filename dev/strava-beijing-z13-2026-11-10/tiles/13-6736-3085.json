@@ -1,0 +1,38 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T19:51:11.212Z",
+  "tile": {
+    "z": 13,
+    "x": 6736,
+    "y": 3085
+  },
+  "segments": [
+    {
+      "id": "34308702",
+      "tileScore": 21,
+      "name": "旧小reverse",
+      "distanceM": 5669.7001953125,
+      "avgGrade": 0.44799548387527466,
+      "startLat": 40.548500061035156,
+      "startLng": 116.07870483398438
+    },
+    {
+      "id": "24875434",
+      "tileScore": 4,
+      "name": "沈家营到管理处",
+      "distanceM": 17143.30078125,
+      "avgGrade": 0.3826567828655243,
+      "startLat": 40.479278564453125,
+      "startLng": 116.03162384033203
+    },
+    {
+      "id": "25055825",
+      "tileScore": 1,
+      "name": "X001",
+      "distanceM": 5009.10009765625,
+      "avgGrade": -0.7546265721321106,
+      "startLat": 40.527530670166016,
+      "startLng": 116.0139389038086
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T20:41:20.871Z",
+  "tile": {
+    "z": 13,
+    "x": 6787,
+    "y": 3374
+  },
+  "segments": [
+    {
+      "id": "40657381",
+      "tileScore": 3,
+      "name": "Huangshanshi",
+      "distanceM": 43485.69921875,
+      "avgGrade": 0.6466493606567383,
+      "startLat": 30.294288635253906,
+      "startLng": 118.1305160522461
+    }
+  ]
+}

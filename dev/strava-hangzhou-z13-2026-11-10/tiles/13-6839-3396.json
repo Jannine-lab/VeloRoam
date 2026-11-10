@@ -1,0 +1,20 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T20:29:41.819Z",
+  "tile": {
+    "z": 13,
+    "x": 6839,
+    "y": 3396
+  },
+  "segments": [
+    {
+      "id": "34158036",
+      "tileScore": 1,
+      "name": "丰潭村爬坡",
+      "distanceM": 1896.9000244140625,
+      "avgGrade": 4.554800033569336,
+      "startLat": 29.368907928466797,
+      "startLng": 120.5935287475586
+    }
+  ]
+}

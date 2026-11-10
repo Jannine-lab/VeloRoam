@@ -1,0 +1,20 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T20:02:40.892Z",
+  "tile": {
+    "z": 13,
+    "x": 6763,
+    "y": 3081
+  },
+  "segments": [
+    {
+      "id": "31405206",
+      "tileScore": 2,
+      "name": "G101到古北水镇",
+      "distanceM": 7041.39990234375,
+      "avgGrade": 0.7157667279243469,
+      "startLat": 40.63973617553711,
+      "startLng": 117.18669128417969
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T19:38:28.157Z",
+  "tile": {
+    "z": 13,
+    "x": 6744,
+    "y": 3113
+  },
+  "segments": [
+    {
+      "id": "34786739",
+      "tileScore": 9,
+      "name": "永兴河北路到庞安路",
+      "distanceM": 8734.400390625,
+      "avgGrade": 0.04121633991599083,
+      "startLat": 39.53661346435547,
+      "startLng": 116.42156219482422
+    },
+    {
+      "id": "39964112",
+      "tileScore": 16,
+      "name": "魏石路南段- Wild Stone Road South",
+      "distanceM": 6493.7998046875,
+      "avgGrade": -0.04619791358709335,
+      "startLat": 39.59056854248047,
+      "startLng": 116.38391876220703
+    }
+  ]
+}

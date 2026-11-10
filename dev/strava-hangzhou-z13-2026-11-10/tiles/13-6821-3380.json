@@ -1,0 +1,29 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T20:19:56.799Z",
+  "tile": {
+    "z": 13,
+    "x": 6821,
+    "y": 3380
+  },
+  "segments": [
+    {
+      "id": "31413637",
+      "tileScore": 23,
+      "name": "双胜线两个坡和起伏路",
+      "distanceM": 8114.2998046875,
+      "avgGrade": 0.3919007182121277,
+      "startLat": 29.960620880126953,
+      "startLng": 119.75773620605469
+    },
+    {
+      "id": "33181780",
+      "tileScore": 38,
+      "name": "黑山顶",
+      "distanceM": 1172.5,
+      "avgGrade": 13.185501098632812,
+      "startLat": 29.996841430664062,
+      "startLng": 119.75946044921875
+    }
+  ]
+}

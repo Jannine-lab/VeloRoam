@@ -1,0 +1,74 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T20:26:20.249Z",
+  "tile": {
+    "z": 13,
+    "x": 6841,
+    "y": 3389
+  },
+  "segments": [
+    {
+      "id": "35330863",
+      "tileScore": 23,
+      "name": "谷来-丰田岭爬坡",
+      "distanceM": 4207.7001953125,
+      "avgGrade": 3.0372886657714844,
+      "startLat": 29.66429328918457,
+      "startLng": 120.63435363769531
+    },
+    {
+      "id": "12707207",
+      "tileScore": 60,
+      "name": "Qiancun Climb",
+      "distanceM": 8284.400390625,
+      "avgGrade": 2.7388827800750732,
+      "startLat": 29.592872619628906,
+      "startLng": 120.6826171875
+    },
+    {
+      "id": "36448943",
+      "tileScore": 114,
+      "name": "山王村climb",
+      "distanceM": 2532.60009765625,
+      "avgGrade": 4.114348888397217,
+      "startLat": 29.635591506958008,
+      "startLng": 120.63688659667969
+    },
+    {
+      "id": "31332347",
+      "tileScore": 110,
+      "name": "丰田岭climb",
+      "distanceM": 3993.699951171875,
+      "avgGrade": 3.2851741313934326,
+      "startLat": 29.619272232055664,
+      "startLng": 120.65691375732422
+    },
+    {
+      "id": "36902907",
+      "tileScore": 5,
+      "name": "#王坛最速の男人（起终点为王坛；途径崇任/谷来）",
+      "distanceM": 65773.296875,
+      "avgGrade": 0.027062654495239258,
+      "startLat": 29.791797637939453,
+      "startLng": 120.67940521240234
+    },
+    {
+      "id": "24537689",
+      "tileScore": 1,
+      "name": "itt",
+      "distanceM": 26910,
+      "avgGrade": 0.11445559561252594,
+      "startLat": 29.47347640991211,
+      "startLng": 120.76372528076172
+    },
+    {
+      "id": "36448919",
+      "tileScore": 18,
+      "name": "支倒线climb",
+      "distanceM": 1153.199951171875,
+      "avgGrade": 4.682621955871582,
+      "startLat": 29.62699317932129,
+      "startLng": 120.66100311279297
+    }
+  ]
+}

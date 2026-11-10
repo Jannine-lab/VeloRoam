@@ -1,0 +1,92 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T19:40:05.392Z",
+  "tile": {
+    "z": 13,
+    "x": 6744,
+    "y": 3093
+  },
+  "segments": [
+    {
+      "id": "9866749",
+      "tileScore": 26,
+      "name": "Ansi road last uphill sprint",
+      "distanceM": 666.2999877929688,
+      "avgGrade": 1.5008255243301392,
+      "startLat": 40.24978256225586,
+      "startLng": 116.39720153808594
+    },
+    {
+      "id": "13684959",
+      "tileScore": 1,
+      "name": "慈悲峪1",
+      "distanceM": 16131.7001953125,
+      "avgGrade": 1.9439984560012817,
+      "startLat": 40.24105453491211,
+      "startLng": 116.41455841064453
+    },
+    {
+      "id": "32823384",
+      "tileScore": 39,
+      "name": "冲出慈悲峪",
+      "distanceM": 1049.300048828125,
+      "avgGrade": -3.4689791202545166,
+      "startLat": 40.24874496459961,
+      "startLng": 116.40361785888672
+    },
+    {
+      "id": "1744692",
+      "tileScore": 31,
+      "name": "Provincial Rd Climb",
+      "distanceM": 1557.5615234375,
+      "avgGrade": 5.200642108917236,
+      "startLat": 40.26421356201172,
+      "startLng": 116.39376831054688
+    },
+    {
+      "id": "21361938",
+      "tileScore": 56,
+      "name": "大杨山路口到铁路桥放坡",
+      "distanceM": 9759.400390625,
+      "avgGrade": -1.4857470989227295,
+      "startLat": 40.28359603881836,
+      "startLng": 116.35916900634766
+    },
+    {
+      "id": "32607603",
+      "tileScore": 4,
+      "name": "Pikachu！",
+      "distanceM": 158177.40625,
+      "avgGrade": 0.022632816806435585,
+      "startLat": 40.14248275756836,
+      "startLng": 116.59239959716797
+    },
+    {
+      "id": "32108226",
+      "tileScore": 12,
+      "name": "大胖猫发现这边路段少就弄了一个",
+      "distanceM": 6496,
+      "avgGrade": 1.5055419206619263,
+      "startLat": 40.22887420654297,
+      "startLng": 116.40767669677734
+    },
+    {
+      "id": "11898242",
+      "tileScore": 14,
+      "name": "安四路－桃下路",
+      "distanceM": 11142.400390625,
+      "avgGrade": 2.6349799633026123,
+      "startLat": 40.25478744506836,
+      "startLng": 116.39276123046875
+    },
+    {
+      "id": "41570870",
+      "tileScore": 2,
+      "name": "安四路-望百路（S-N）",
+      "distanceM": 32454.900390625,
+      "avgGrade": 1.0013896226882935,
+      "startLat": 40.229881286621094,
+      "startLng": 116.40816497802734
+    }
+  ]
+}

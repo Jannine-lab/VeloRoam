@@ -1,0 +1,92 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T19:53:11.560Z",
+  "tile": {
+    "z": 13,
+    "x": 6733,
+    "y": 3085
+  },
+  "segments": [
+    {
+      "id": "29230506",
+      "tileScore": 3,
+      "name": "奋战冬奥之一刻也不能停",
+      "distanceM": 36028.30078125,
+      "avgGrade": -0.007494109217077494,
+      "startLat": 40.519588470458984,
+      "startLng": 115.94754028320312
+    },
+    {
+      "id": "35536867",
+      "tileScore": 53,
+      "name": "反爬玉渡山",
+      "distanceM": 1262.9000244140625,
+      "avgGrade": 6.635521411895752,
+      "startLat": 40.54010772705078,
+      "startLng": 115.88982391357422
+    },
+    {
+      "id": "42309081",
+      "tileScore": 3,
+      "name": "古龙路WtoE优质小坡2",
+      "distanceM": 724,
+      "avgGrade": 4.475138187408447,
+      "startLat": 40.51186752319336,
+      "startLng": 115.89634704589844
+    },
+    {
+      "id": "1577208",
+      "tileScore": 4,
+      "name": "延庆骑游大赛-公路女子组路线",
+      "distanceM": 44093.1015625,
+      "avgGrade": 0.1705482304096222,
+      "startLat": 40.45556640625,
+      "startLng": 115.97019958496094
+    },
+    {
+      "id": "5068225",
+      "tileScore": 11,
+      "name": "County Road Climb",
+      "distanceM": 959.5,
+      "avgGrade": 9.494527816772461,
+      "startLat": 40.52661895751953,
+      "startLng": 115.88821411132812
+    },
+    {
+      "id": "27864571",
+      "tileScore": 5,
+      "name": "古龙路-玉渡山岔口",
+      "distanceM": 4775.89990234375,
+      "avgGrade": 0.23032307624816895,
+      "startLat": 40.5196647644043,
+      "startLng": 115.94756317138672
+    },
+    {
+      "id": "5068222",
+      "tileScore": 6,
+      "name": "County Road Climb",
+      "distanceM": 786.0999755859375,
+      "avgGrade": 17.35148048400879,
+      "startLat": 40.5161247253418,
+      "startLng": 115.89987182617188
+    },
+    {
+      "id": "5068223",
+      "tileScore": 9,
+      "name": "County Road Climb",
+      "distanceM": 537.9000244140625,
+      "avgGrade": 16.787506103515625,
+      "startLat": 40.5183219909668,
+      "startLng": 115.8883285522461
+    },
+    {
+      "id": "8330867",
+      "tileScore": 151,
+      "name": "Yudushan",
+      "distanceM": 7092.39990234375,
+      "avgGrade": 6.313800811767578,
+      "startLat": 40.51374053955078,
+      "startLng": 115.89164733886719
+    }
+  ]
+}

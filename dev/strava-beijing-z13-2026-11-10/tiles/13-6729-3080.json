@@ -1,0 +1,20 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T20:01:04.920Z",
+  "tile": {
+    "z": 13,
+    "x": 6729,
+    "y": 3080
+  },
+  "segments": [
+    {
+      "id": "35324494",
+      "tileScore": 49,
+      "name": "大海坨 -> 雕鹗",
+      "distanceM": 9149.099609375,
+      "avgGrade": -1.2132340669631958,
+      "startLat": 40.67619323730469,
+      "startLng": 115.73226165771484
+    }
+  ]
+}

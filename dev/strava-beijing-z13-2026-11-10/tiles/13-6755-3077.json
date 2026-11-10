@@ -1,0 +1,29 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T20:03:09.839Z",
+  "tile": {
+    "z": 13,
+    "x": 6755,
+    "y": 3077
+  },
+  "segments": [
+    {
+      "id": "29431265",
+      "tileScore": 8,
+      "name": "x207 downhill",
+      "distanceM": 2232.39990234375,
+      "avgGrade": -5.18724250793457,
+      "startLat": 40.782474517822266,
+      "startLng": 116.85065460205078
+    },
+    {
+      "id": "37666682",
+      "tileScore": 1,
+      "name": "牤牛沟climb(坡度不止5.7",
+      "distanceM": 1755.300048828125,
+      "avgGrade": 5.674243927001953,
+      "startLat": 40.783660888671875,
+      "startLng": 116.88385009765625
+    }
+  ]
+}

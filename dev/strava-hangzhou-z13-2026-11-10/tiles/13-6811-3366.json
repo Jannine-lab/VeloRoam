@@ -1,0 +1,29 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T20:25:48.172Z",
+  "tile": {
+    "z": 13,
+    "x": 6811,
+    "y": 3366
+  },
+  "segments": [
+    {
+      "id": "39198962",
+      "tileScore": 2,
+      "name": "春天瓜路猎杀时刻",
+      "distanceM": 3735,
+      "avgGrade": -6.8433732986450195,
+      "startLat": 30.502872467041016,
+      "startLng": 119.35808563232422
+    },
+    {
+      "id": "8357751",
+      "tileScore": 10,
+      "name": "2014_10_18 Anji Hillrace",
+      "distanceM": 10782.5,
+      "avgGrade": 4.907952785491943,
+      "startLat": 30.471397399902344,
+      "startLng": 119.36688995361328
+    }
+  ]
+}

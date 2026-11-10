@@ -1,0 +1,29 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T20:28:35.783Z",
+  "tile": {
+    "z": 13,
+    "x": 6808,
+    "y": 3383
+  },
+  "segments": [
+    {
+      "id": "33356355",
+      "tileScore": 6,
+      "name": "kengheng line descend",
+      "distanceM": 5218.89990234375,
+      "avgGrade": -4.100481033325195,
+      "startLat": 29.872207641601562,
+      "startLng": 119.20755767822266
+    },
+    {
+      "id": "40919504",
+      "tileScore": 3,
+      "name": "即将消失的gravel",
+      "distanceM": 1827.199951171875,
+      "avgGrade": 9.48992919921875,
+      "startLat": 29.847192764282227,
+      "startLng": 119.19334411621094
+    }
+  ]
+}

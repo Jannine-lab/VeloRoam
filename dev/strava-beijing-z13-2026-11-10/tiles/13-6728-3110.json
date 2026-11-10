@@ -1,0 +1,56 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T19:45:48.328Z",
+  "tile": {
+    "z": 13,
+    "x": 6728,
+    "y": 3110
+  },
+  "segments": [
+    {
+      "id": "12012968",
+      "tileScore": 48,
+      "name": "Sportive Second Climb",
+      "distanceM": 19612,
+      "avgGrade": 3.882316827774048,
+      "startLat": 39.64317321777344,
+      "startLng": 115.62580108642578
+    },
+    {
+      "id": "36733406",
+      "tileScore": 12,
+      "name": "新增地点：妹妹你别拉了海培马上抽筋了",
+      "distanceM": 1872.9000244140625,
+      "avgGrade": 4.495701789855957,
+      "startLat": 39.70311737060547,
+      "startLng": 115.67416381835938
+    },
+    {
+      "id": "12399150",
+      "tileScore": 117,
+      "name": "六石（限高架到垭口）",
+      "distanceM": 8588.900390625,
+      "avgGrade": 4.892361164093018,
+      "startLat": 39.7274169921875,
+      "startLng": 115.68893432617188
+    },
+    {
+      "id": "18785068",
+      "tileScore": 11,
+      "name": "六十红井一疗程",
+      "distanceM": 55250.5,
+      "avgGrade": 0.15456873178482056,
+      "startLat": 39.638362884521484,
+      "startLng": 115.62660217285156
+    },
+    {
+      "id": "4387547",
+      "tileScore": 8,
+      "name": "Liushi Road Climb",
+      "distanceM": 883.5,
+      "avgGrade": 9.25862979888916,
+      "startLat": 39.70580291748047,
+      "startLng": 115.68175506591797
+    }
+  ]
+}

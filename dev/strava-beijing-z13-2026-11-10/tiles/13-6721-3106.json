@@ -1,0 +1,20 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T19:54:22.141Z",
+  "tile": {
+    "z": 13,
+    "x": 6721,
+    "y": 3106
+  },
+  "segments": [
+    {
+      "id": "24225036",
+      "tileScore": 6,
+      "name": "从九龙镇爽哥继续拉扯走错路到北龙门",
+      "distanceM": 5455.7001953125,
+      "avgGrade": 0.9897905588150024,
+      "startLat": 39.810218811035156,
+      "startLng": 115.40225982666016
+    }
+  ]
+}

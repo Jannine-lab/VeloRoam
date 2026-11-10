@@ -1,0 +1,20 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T19:59:54.306Z",
+  "tile": {
+    "z": 13,
+    "x": 6755,
+    "y": 3078
+  },
+  "segments": [
+    {
+      "id": "29431265",
+      "tileScore": 8,
+      "name": "x207 downhill",
+      "distanceM": 2232.39990234375,
+      "avgGrade": -5.18724250793457,
+      "startLat": 40.782474517822266,
+      "startLng": 116.85065460205078
+    }
+  ]
+}

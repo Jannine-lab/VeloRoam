@@ -1,0 +1,47 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T20:34:55.750Z",
+  "tile": {
+    "z": 13,
+    "x": 6798,
+    "y": 3380
+  },
+  "segments": [
+    {
+      "id": "22337974",
+      "tileScore": 20,
+      "name": "Fast section - Up",
+      "distanceM": 7772,
+      "avgGrade": 1.5440040826797485,
+      "startLat": 30.00115394592285,
+      "startLng": 118.75499725341797
+    },
+    {
+      "id": "19747286",
+      "tileScore": 21,
+      "name": "Little South",
+      "distanceM": 9949.5,
+      "avgGrade": 7.059650897979736,
+      "startLat": 29.996849060058594,
+      "startLng": 118.74286651611328
+    },
+    {
+      "id": "21243468",
+      "tileScore": 17,
+      "name": "Southbound Bump to Wumu",
+      "distanceM": 1739.9000244140625,
+      "avgGrade": 4.494511127471924,
+      "startLat": 29.99836540222168,
+      "startLng": 118.75625610351562
+    },
+    {
+      "id": "20341683",
+      "tileScore": 22,
+      "name": "Vlads Extended",
+      "distanceM": 17938.80078125,
+      "avgGrade": 3.555421829223633,
+      "startLat": 30.00111198425293,
+      "startLng": 118.75499725341797
+    }
+  ]
+}

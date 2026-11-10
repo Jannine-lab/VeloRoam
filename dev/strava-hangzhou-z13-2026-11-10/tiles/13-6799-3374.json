@@ -1,0 +1,47 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T20:34:12.470Z",
+  "tile": {
+    "z": 13,
+    "x": 6799,
+    "y": 3374
+  },
+  "segments": [
+    {
+      "id": "25706754",
+      "tileScore": 41,
+      "name": "Guigui's kingdom",
+      "distanceM": 10357.5,
+      "avgGrade": -4.304127216339111,
+      "startLat": 30.19109535217285,
+      "startLng": 118.81766510009766
+    },
+    {
+      "id": "39267395",
+      "tileScore": 26,
+      "name": "皖浙天路最后一个弯冲啊",
+      "distanceM": 510.20001220703125,
+      "avgGrade": 4.900039196014404,
+      "startLat": 30.19498634338379,
+      "startLng": 118.81257629394531
+    },
+    {
+      "id": "29167017",
+      "tileScore": 106,
+      "name": "Vending Machine Up, Up & Away",
+      "distanceM": 14191.599609375,
+      "avgGrade": 5.183348178863525,
+      "startLat": 30.2249698638916,
+      "startLng": 118.8028564453125
+    },
+    {
+      "id": "35721816",
+      "tileScore": 5,
+      "name": "Ningdun to Jingzhou",
+      "distanceM": 70412.3984375,
+      "avgGrade": 1.488232135772705,
+      "startLat": 30.4671630859375,
+      "startLng": 119.11399841308594
+    }
+  ]
+}

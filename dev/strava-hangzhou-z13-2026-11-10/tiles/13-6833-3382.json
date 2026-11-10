@@ -1,0 +1,29 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T20:19:03.636Z",
+  "tile": {
+    "z": 13,
+    "x": 6833,
+    "y": 3382
+  },
+  "segments": [
+    {
+      "id": "39533512",
+      "tileScore": 3,
+      "name": "10km",
+      "distanceM": 9992,
+      "avgGrade": 0.0540432333946228,
+      "startLat": 29.861278533935547,
+      "startLng": 120.32577514648438
+    },
+    {
+      "id": "40585006",
+      "tileScore": 4,
+      "name": "柯诸高速西向东",
+      "distanceM": 13388.900390625,
+      "avgGrade": 0.4152693748474121,
+      "startLat": 29.885894775390625,
+      "startLng": 120.30606842041016
+    }
+  ]
+}

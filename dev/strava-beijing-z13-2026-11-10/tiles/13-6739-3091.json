@@ -1,0 +1,65 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T19:43:12.535Z",
+  "tile": {
+    "z": 13,
+    "x": 6739,
+    "y": 3091
+  },
+  "segments": [
+    {
+      "id": "36682942",
+      "tileScore": 4,
+      "name": "解字石大庄科铁炉村一疗程",
+      "distanceM": 45095.3984375,
+      "avgGrade": 0.018183672800660133,
+      "startLat": 40.32073211669922,
+      "startLng": 116.21757507324219
+    },
+    {
+      "id": "34157723",
+      "tileScore": 88,
+      "name": "碓臼峪全程（泰陵小卖部-边城子）",
+      "distanceM": 7195.2998046875,
+      "avgGrade": 4.911539554595947,
+      "startLat": 40.32242965698242,
+      "startLng": 116.21553039550781
+    },
+    {
+      "id": "26328942",
+      "tileScore": 5,
+      "name": "锥子石 ROAD TO SKY",
+      "distanceM": 2411.89990234375,
+      "avgGrade": 9.900908470153809,
+      "startLat": 40.34589767456055,
+      "startLng": 116.17182922363281
+    },
+    {
+      "id": "11184157",
+      "tileScore": 165,
+      "name": "G110 climb",
+      "distanceM": 15784.2998046875,
+      "avgGrade": 3.018188953399658,
+      "startLat": 40.299102783203125,
+      "startLng": 116.18196868896484
+    },
+    {
+      "id": "26162430",
+      "tileScore": 27,
+      "name": "双龙山 everesting plan",
+      "distanceM": 1801.199951171875,
+      "avgGrade": 9.693537712097168,
+      "startLat": 40.34425354003906,
+      "startLng": 116.17742919921875
+    },
+    {
+      "id": "38081274",
+      "tileScore": 11,
+      "name": "黄花峪climb",
+      "distanceM": 1313.5,
+      "avgGrade": 6.4255805015563965,
+      "startLat": 40.31449890136719,
+      "startLng": 116.16888427734375
+    }
+  ]
+}

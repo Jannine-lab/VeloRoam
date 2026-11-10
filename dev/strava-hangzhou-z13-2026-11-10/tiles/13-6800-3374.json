@@ -1,0 +1,38 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T20:32:29.207Z",
+  "tile": {
+    "z": 13,
+    "x": 6800,
+    "y": 3374
+  },
+  "segments": [
+    {
+      "id": "25706754",
+      "tileScore": 41,
+      "name": "Guigui's kingdom",
+      "distanceM": 10357.5,
+      "avgGrade": -4.304127216339111,
+      "startLat": 30.19109535217285,
+      "startLng": 118.81766510009766
+    },
+    {
+      "id": "12597369",
+      "tileScore": 6,
+      "name": "Xscape Carry the Bike",
+      "distanceM": 2490.300048828125,
+      "avgGrade": 7.886599540710449,
+      "startLat": 30.1851863861084,
+      "startLng": 118.86576843261719
+    },
+    {
+      "id": "35721816",
+      "tileScore": 5,
+      "name": "Ningdun to Jingzhou",
+      "distanceM": 70412.3984375,
+      "avgGrade": 1.488232135772705,
+      "startLat": 30.4671630859375,
+      "startLng": 119.11399841308594
+    }
+  ]
+}

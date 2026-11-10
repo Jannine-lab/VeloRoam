@@ -1,0 +1,20 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T19:39:02.104Z",
+  "tile": {
+    "z": 13,
+    "x": 6754,
+    "y": 3106
+  },
+  "segments": [
+    {
+      "id": "23755804",
+      "tileScore": 1,
+      "name": "唐通线（E-W）",
+      "distanceM": 3419.89990234375,
+      "avgGrade": 0.02339249663054943,
+      "startLat": 39.81327819824219,
+      "startLng": 116.86299896240234
+    }
+  ]
+}

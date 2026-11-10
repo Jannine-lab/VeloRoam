@@ -1,0 +1,20 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T19:45:57.360Z",
+  "tile": {
+    "z": 13,
+    "x": 6752,
+    "y": 3118
+  },
+  "segments": [
+    {
+      "id": "26077362",
+      "tileScore": 8,
+      "name": "G105大城县到廊坊一路突突ride",
+      "distanceM": 80815.8984375,
+      "avgGrade": 0.008909137919545174,
+      "startLat": 38.741294860839844,
+      "startLng": 116.66389465332031
+    }
+  ]
+}

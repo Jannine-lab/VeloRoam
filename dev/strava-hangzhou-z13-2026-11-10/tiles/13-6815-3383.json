@@ -1,0 +1,29 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T20:25:08.065Z",
+  "tile": {
+    "z": 13,
+    "x": 6815,
+    "y": 3383
+  },
+  "segments": [
+    {
+      "id": "40544220",
+      "tileScore": 4,
+      "name": "坞口水库climb",
+      "distanceM": 969,
+      "avgGrade": 5.841073513031006,
+      "startLat": 29.868122100830078,
+      "startLng": 119.50859832763672
+    },
+    {
+      "id": "40544719",
+      "tileScore": 2,
+      "name": "蒋家坞gravel climb",
+      "distanceM": 1423.5999755859375,
+      "avgGrade": 10.227592468261719,
+      "startLat": 29.842992782592773,
+      "startLng": 119.49850463867188
+    }
+  ]
+}

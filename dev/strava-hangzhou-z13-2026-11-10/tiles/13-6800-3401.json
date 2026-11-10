@@ -1,0 +1,47 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T20:40:45.078Z",
+  "tile": {
+    "z": 13,
+    "x": 6800,
+    "y": 3401
+  },
+  "segments": [
+    {
+      "id": "39282425",
+      "tileScore": 33,
+      "name": "板桥—太真",
+      "distanceM": 14040.5,
+      "avgGrade": 0.6538228392601013,
+      "startLat": 29.102733612060547,
+      "startLng": 118.88995361328125
+    },
+    {
+      "id": "34494427",
+      "tileScore": 77,
+      "name": "太真-香坞隧道",
+      "distanceM": 2388.5,
+      "avgGrade": 5.811178684234619,
+      "startLat": 29.18482208251953,
+      "startLng": 118.8427963256836
+    },
+    {
+      "id": "34431429",
+      "tileScore": 45,
+      "name": "明果-香坞隧道",
+      "distanceM": 7415,
+      "avgGrade": 2.975050449371338,
+      "startLat": 29.162109375,
+      "startLng": 118.90975189208984
+    },
+    {
+      "id": "29282359",
+      "tileScore": 25,
+      "name": "太真反七里",
+      "distanceM": 11964.900390625,
+      "avgGrade": 4.416250705718994,
+      "startLat": 29.183271408081055,
+      "startLng": 118.82904052734375
+    }
+  ]
+}

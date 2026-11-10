@@ -1,0 +1,20 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T19:55:50.029Z",
+  "tile": {
+    "z": 13,
+    "x": 6767,
+    "y": 3114
+  },
+  "segments": [
+    {
+      "id": "12578720",
+      "tileScore": 9,
+      "name": "潮白河右岸堤路",
+      "distanceM": 8726.7998046875,
+      "avgGrade": 0.018334325402975082,
+      "startLat": 39.482364654541016,
+      "startLng": 117.45568084716797
+    }
+  ]
+}

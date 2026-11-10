@@ -1,0 +1,20 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T20:26:12.873Z",
+  "tile": {
+    "z": 13,
+    "x": 6813,
+    "y": 3384
+  },
+  "segments": [
+    {
+      "id": "27895167",
+      "tileScore": 10,
+      "name": "夏塘溪朔源",
+      "distanceM": 17183.099609375,
+      "avgGrade": 1.2861474752426147,
+      "startLat": 29.909095764160156,
+      "startLng": 119.48478698730469
+    }
+  ]
+}

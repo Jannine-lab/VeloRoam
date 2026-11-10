@@ -1,0 +1,20 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T19:57:07.127Z",
+  "tile": {
+    "z": 13,
+    "x": 6754,
+    "y": 3080
+  },
+  "segments": [
+    {
+      "id": "11575110",
+      "tileScore": 9,
+      "name": "Serk Sandy Switchback Climb",
+      "distanceM": 7420.10009765625,
+      "avgGrade": 6.999905586242676,
+      "startLat": 40.67061996459961,
+      "startLng": 116.83057403564453
+    }
+  ]
+}

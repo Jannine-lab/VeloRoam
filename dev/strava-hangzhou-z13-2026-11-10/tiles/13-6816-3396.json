@@ -1,0 +1,20 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T20:30:59.123Z",
+  "tile": {
+    "z": 13,
+    "x": 6816,
+    "y": 3396
+  },
+  "segments": [
+    {
+      "id": "41048432",
+      "tileScore": 1,
+      "name": "建董线 351—兰溪北高速",
+      "distanceM": 8258,
+      "avgGrade": 0.8064907193183899,
+      "startLat": 29.30087661743164,
+      "startLng": 119.53715515136719
+    }
+  ]
+}

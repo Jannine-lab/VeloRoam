@@ -1,0 +1,128 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T20:33:08.996Z",
+  "tile": {
+    "z": 13,
+    "x": 6801,
+    "y": 3381
+  },
+  "segments": [
+    {
+      "id": "41597233",
+      "tileScore": 3,
+      "name": "JB Little Green Snake",
+      "distanceM": 4472.2001953125,
+      "avgGrade": 4.024864673614502,
+      "startLat": 29.934711456298828,
+      "startLng": 118.88662719726562
+    },
+    {
+      "id": "25980714",
+      "tileScore": 2,
+      "name": "You think its a short cut",
+      "distanceM": 634.5,
+      "avgGrade": 8.06934642791748,
+      "startLat": 29.921249389648438,
+      "startLng": 118.90815734863281
+    },
+    {
+      "id": "20257208",
+      "tileScore": 19,
+      "name": "Lost frogs climb",
+      "distanceM": 2696.699951171875,
+      "avgGrade": 6.111173152923584,
+      "startLat": 29.934324264526367,
+      "startLng": 118.8869400024414
+    },
+    {
+      "id": "25980734",
+      "tileScore": 69,
+      "name": "Sense of humour failure ",
+      "distanceM": 1266.5,
+      "avgGrade": 9.443347930908203,
+      "startLat": 29.945648193359375,
+      "startLng": 118.88285064697266
+    },
+    {
+      "id": "37533557",
+      "tileScore": 24,
+      "name": "前往中共淳安县旧址【DQ】",
+      "distanceM": 2135.300048828125,
+      "avgGrade": 3.212663173675537,
+      "startLat": 29.937604904174805,
+      "startLng": 118.88877868652344
+    },
+    {
+      "id": "20506020",
+      "tileScore": 17,
+      "name": "The Pimple",
+      "distanceM": 1105.5999755859375,
+      "avgGrade": 5.842981338500977,
+      "startLat": 29.961196899414062,
+      "startLng": 118.8743896484375
+    },
+    {
+      "id": "20506065",
+      "tileScore": 6,
+      "name": "Jerry's Jitters",
+      "distanceM": 8937.2998046875,
+      "avgGrade": -1.9603235721588135,
+      "startLat": 29.98578643798828,
+      "startLng": 118.84530639648438
+    },
+    {
+      "id": "35337898",
+      "tileScore": 23,
+      "name": "爬上严家水库",
+      "distanceM": 1794.300048828125,
+      "avgGrade": 2.7085771560668945,
+      "startLat": 29.920686721801758,
+      "startLng": 118.9085693359375
+    },
+    {
+      "id": "42428232",
+      "tileScore": 1,
+      "name": "Clean Slate 26",
+      "distanceM": 113029.5,
+      "avgGrade": -0.006016128696501255,
+      "startLat": 30.0743350982666,
+      "startLng": 118.81914520263672
+    },
+    {
+      "id": "37616025",
+      "tileScore": 20,
+      "name": "马山村→荷花坪村【DQ】",
+      "distanceM": 5434.10009765625,
+      "avgGrade": 0.4195726811885834,
+      "startLat": 29.89006233215332,
+      "startLng": 118.93431854248047
+    },
+    {
+      "id": "37550650",
+      "tileScore": 26,
+      "name": "严家水库【DQ】",
+      "distanceM": 3575.199951171875,
+      "avgGrade": 0.7412172555923462,
+      "startLat": 29.928300857543945,
+      "startLng": 118.9112319946289
+    },
+    {
+      "id": "12587279",
+      "tileScore": 54,
+      "name": "South Hill 2 Loop",
+      "distanceM": 10584.099609375,
+      "avgGrade": 4.115607261657715,
+      "startLat": 29.937746047973633,
+      "startLng": 118.88874816894531
+    },
+    {
+      "id": "37740271",
+      "tileScore": 44,
+      "name": "胡家坪村热身坡【DQ】",
+      "distanceM": 3360.5,
+      "avgGrade": 8.903436660766602,
+      "startLat": 29.94837760925293,
+      "startLng": 118.91738891601562
+    }
+  ]
+}

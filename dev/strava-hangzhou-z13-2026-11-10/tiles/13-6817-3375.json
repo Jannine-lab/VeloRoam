@@ -1,0 +1,47 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T20:21:36.387Z",
+  "tile": {
+    "z": 13,
+    "x": 6817,
+    "y": 3375
+  },
+  "segments": [
+    {
+      "id": "40281848",
+      "tileScore": 3,
+      "name": "腊梅观景平台，直走五尖山山顶死路，右转龙头坪瓜路",
+      "distanceM": 811.7000122070312,
+      "avgGrade": 8.476037979125977,
+      "startLat": 30.158231735229492,
+      "startLng": 119.5886459350586
+    },
+    {
+      "id": "26472391",
+      "tileScore": 2,
+      "name": "胥高线NtoS Final Climb",
+      "distanceM": 2882.699951171875,
+      "avgGrade": 1.9079334735870361,
+      "startLat": 30.18949317932129,
+      "startLng": 119.61276245117188
+    },
+    {
+      "id": "37058708",
+      "tileScore": 9,
+      "name": "万市到临安ITT",
+      "distanceM": 13423.5,
+      "avgGrade": 0.079710952937603,
+      "startLat": 30.102455139160156,
+      "startLng": 119.5661392211914
+    },
+    {
+      "id": "40431962",
+      "tileScore": 3,
+      "name": "新岭古道gravel down",
+      "distanceM": 1010.5999755859375,
+      "avgGrade": -14.42707347869873,
+      "startLat": 30.144718170166016,
+      "startLng": 119.6121597290039
+    }
+  ]
+}

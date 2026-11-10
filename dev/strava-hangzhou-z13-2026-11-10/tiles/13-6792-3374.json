@@ -1,0 +1,47 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T20:38:06.997Z",
+  "tile": {
+    "z": 13,
+    "x": 6792,
+    "y": 3374
+  },
+  "segments": [
+    {
+      "id": "40202360",
+      "tileScore": 43,
+      "name": "南门到镇头",
+      "distanceM": 16103.599609375,
+      "avgGrade": 0.8085148334503174,
+      "startLat": 30.273866653442383,
+      "startLng": 118.52750396728516
+    },
+    {
+      "id": "14694707",
+      "tileScore": 4,
+      "name": "lozho_016乡道金岭隧道前爬坡",
+      "distanceM": 1697.800048828125,
+      "avgGrade": 6.514312267303467,
+      "startLat": 30.18621063232422,
+      "startLng": 118.480224609375
+    },
+    {
+      "id": "35877001",
+      "tileScore": 4,
+      "name": "X084（版书镇）西往东爬坡",
+      "distanceM": 3283.89990234375,
+      "avgGrade": 3.958707571029663,
+      "startLat": 30.22789764404297,
+      "startLng": 118.46015167236328
+    },
+    {
+      "id": "27586837",
+      "tileScore": 35,
+      "name": "Shuichuan Climb",
+      "distanceM": 5541.2001953125,
+      "avgGrade": 4.269833087921143,
+      "startLat": 30.231613159179688,
+      "startLng": 118.50460052490234
+    }
+  ]
+}

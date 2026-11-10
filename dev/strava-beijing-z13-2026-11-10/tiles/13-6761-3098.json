@@ -1,0 +1,38 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T19:45:40.908Z",
+  "tile": {
+    "z": 13,
+    "x": 6761,
+    "y": 3098
+  },
+  "segments": [
+    {
+      "id": "40357017",
+      "tileScore": 7,
+      "name": "防火道",
+      "distanceM": 536.9000244140625,
+      "avgGrade": 9.9459867477417,
+      "startLat": 40.10441970825195,
+      "startLng": 117.1328125
+    },
+    {
+      "id": "42121706",
+      "tileScore": 2,
+      "name": "朱大路itt 东向西",
+      "distanceM": 7804.7998046875,
+      "avgGrade": 0.4817548096179962,
+      "startLat": 40.10831069946289,
+      "startLng": 117.17328643798828
+    },
+    {
+      "id": "18617197",
+      "tileScore": 40,
+      "name": "夏大路盘山TT路段",
+      "distanceM": 7164,
+      "avgGrade": -0.08096035569906235,
+      "startLat": 40.10957717895508,
+      "startLng": 117.17991638183594
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T20:26:25.219Z",
+  "tile": {
+    "z": 13,
+    "x": 6809,
+    "y": 3372
+  },
+  "segments": [
+    {
+      "id": "39066217",
+      "tileScore": 1,
+      "name": "轿岭climb",
+      "distanceM": 679.7999877929688,
+      "avgGrade": 13.68049430847168,
+      "startLat": 30.27129364013672,
+      "startLng": 119.25786590576172
+    },
+    {
+      "id": "37638355",
+      "tileScore": 30,
+      "name": "道场坪climb gravel",
+      "distanceM": 6890.2001953125,
+      "avgGrade": 5.459928512573242,
+      "startLat": 30.275310516357422,
+      "startLng": 119.23004150390625
+    },
+    {
+      "id": "36601656",
+      "tileScore": 4,
+      "name": "为了传说中那22%的坡度，冲啊",
+      "distanceM": 21363,
+      "avgGrade": 2.0090811252593994,
+      "startLat": 30.187570571899414,
+      "startLng": 119.29080963134766
+    },
+    {
+      "id": "38891412",
+      "tileScore": 12,
+      "name": "昌黄线热身了",
+      "distanceM": 10278.2001953125,
+      "avgGrade": 2.3058512210845947,
+      "startLat": 30.204334259033203,
+      "startLng": 119.22392272949219
+    },
+    {
+      "id": "39066204",
+      "tileScore": 17,
+      "name": "昌孙线climb",
+      "distanceM": 13197.900390625,
+      "avgGrade": 1.5047848224639893,
+      "startLat": 30.183439254760742,
+      "startLng": 119.23047637939453
+    }
+  ]
+}

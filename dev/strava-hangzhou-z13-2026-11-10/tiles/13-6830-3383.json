@@ -1,0 +1,20 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T20:20:33.586Z",
+  "tile": {
+    "z": 13,
+    "x": 6830,
+    "y": 3383
+  },
+  "segments": [
+    {
+      "id": "35598664",
+      "tileScore": 4,
+      "name": "时代大道入口-振浦路",
+      "distanceM": 87451.703125,
+      "avgGrade": 0.047569118440151215,
+      "startLat": 30.157529830932617,
+      "startLng": 120.1781005859375
+    }
+  ]
+}

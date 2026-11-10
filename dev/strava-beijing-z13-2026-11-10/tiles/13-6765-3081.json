@@ -1,0 +1,20 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T20:03:50.647Z",
+  "tile": {
+    "z": 13,
+    "x": 6765,
+    "y": 3081
+  },
+  "segments": [
+    {
+      "id": "35589474",
+      "tileScore": 13,
+      "name": "涝洼金山岭优质缓下",
+      "distanceM": 18258,
+      "avgGrade": -2.024317979812622,
+      "startLat": 40.700016021728516,
+      "startLng": 117.4236831665039
+    }
+  ]
+}

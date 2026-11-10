@@ -1,0 +1,92 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T19:44:27.630Z",
+  "tile": {
+    "z": 13,
+    "x": 6747,
+    "y": 3089
+  },
+  "segments": [
+    {
+      "id": "41868870",
+      "tileScore": 2,
+      "name": "静之湖-宽沟（W-E）",
+      "distanceM": 58590.6015625,
+      "avgGrade": 0.01962772198021412,
+      "startLat": 40.24061584472656,
+      "startLng": 116.43830871582031
+    },
+    {
+      "id": "14994662",
+      "tileScore": 9,
+      "name": "Nanyecun descent",
+      "distanceM": 5079.5,
+      "avgGrade": -1.0040358304977417,
+      "startLat": 40.41706466674805,
+      "startLng": 116.44647216796875
+    },
+    {
+      "id": "18815935",
+      "tileScore": 15,
+      "name": "桃峪 到 五渡河",
+      "distanceM": 4303.89990234375,
+      "avgGrade": -0.999093770980835,
+      "startLat": 40.39564514160156,
+      "startLng": 116.50585174560547
+    },
+    {
+      "id": "18815923",
+      "tileScore": 6,
+      "name": "渤海所村 到 桃峪 first climb",
+      "distanceM": 1813.800048828125,
+      "avgGrade": -0.49619582295417786,
+      "startLat": 40.41172790527344,
+      "startLng": 116.50337982177734
+    },
+    {
+      "id": "18815964",
+      "tileScore": 12,
+      "name": "五渡河 到 X009",
+      "distanceM": 4498.2001953125,
+      "avgGrade": -0.6624872088432312,
+      "startLat": 40.38050079345703,
+      "startLng": 116.53939819335938
+    },
+    {
+      "id": "32607603",
+      "tileScore": 4,
+      "name": "Pikachu！",
+      "distanceM": 158177.40625,
+      "avgGrade": 0.022632816806435585,
+      "startLat": 40.14248275756836,
+      "startLng": 116.59239959716797
+    },
+    {
+      "id": "14994696",
+      "tileScore": 9,
+      "name": "Deshuiwan ascent",
+      "distanceM": 2959.89990234375,
+      "avgGrade": 1.7838441133499146,
+      "startLat": 40.41282272338867,
+      "startLng": 116.5066909790039
+    },
+    {
+      "id": "31116368",
+      "tileScore": 16,
+      "name": "驼岭一路干到怀黄路Wahoo！",
+      "distanceM": 33033.69921875,
+      "avgGrade": -0.9941362738609314,
+      "startLat": 40.405067443847656,
+      "startLng": 116.39430236816406
+    },
+    {
+      "id": "8786200",
+      "tileScore": 38,
+      "name": "跃进桥-慕田峪环岛 Huaihuang RD",
+      "distanceM": 14857.099609375,
+      "avgGrade": 1.007599115371704,
+      "startLat": 40.33633041381836,
+      "startLng": 116.62022399902344
+    }
+  ]
+}

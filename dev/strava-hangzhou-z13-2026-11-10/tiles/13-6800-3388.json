@@ -1,0 +1,38 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T20:35:36.950Z",
+  "tile": {
+    "z": 13,
+    "x": 6800,
+    "y": 3388
+  },
+  "segments": [
+    {
+      "id": "13907107",
+      "tileScore": 8,
+      "name": "千岛湖X706 云岭上 下坡",
+      "distanceM": 1735.5,
+      "avgGrade": -4.160184383392334,
+      "startLat": 29.645523071289062,
+      "startLng": 118.82719421386719
+    },
+    {
+      "id": "39042528",
+      "tileScore": 14,
+      "name": "Nanpu Bridge Sling",
+      "distanceM": 2781.199951171875,
+      "avgGrade": -0.16539622843265533,
+      "startLat": 29.65890884399414,
+      "startLng": 118.83338928222656
+    },
+    {
+      "id": "36620381",
+      "tileScore": 89,
+      "name": "山猫率先发动了核武器",
+      "distanceM": 17035.80078125,
+      "avgGrade": -0.014087979681789875,
+      "startLat": 29.669666290283203,
+      "startLng": 118.85494232177734
+    }
+  ]
+}

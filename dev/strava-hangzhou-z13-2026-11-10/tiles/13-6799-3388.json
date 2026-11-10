@@ -1,0 +1,29 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T20:36:44.358Z",
+  "tile": {
+    "z": 13,
+    "x": 6799,
+    "y": 3388
+  },
+  "segments": [
+    {
+      "id": "34502390",
+      "tileScore": 2,
+      "name": "cd-千威线 大桥到威坪小桥",
+      "distanceM": 8045.89990234375,
+      "avgGrade": 0.014914427883923054,
+      "startLat": 29.669084548950195,
+      "startLng": 118.8249740600586
+    },
+    {
+      "id": "39042528",
+      "tileScore": 14,
+      "name": "Nanpu Bridge Sling",
+      "distanceM": 2781.199951171875,
+      "avgGrade": -0.16539622843265533,
+      "startLat": 29.65890884399414,
+      "startLng": 118.83338928222656
+    }
+  ]
+}

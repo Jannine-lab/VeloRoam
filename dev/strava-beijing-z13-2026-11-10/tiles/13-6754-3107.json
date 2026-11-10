@@ -1,0 +1,29 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T19:39:02.104Z",
+  "tile": {
+    "z": 13,
+    "x": 6754,
+    "y": 3107
+  },
+  "segments": [
+    {
+      "id": "30214790",
+      "tileScore": 1,
+      "name": "西集-新堤路",
+      "distanceM": 3027.10009765625,
+      "avgGrade": 0.01982095092535019,
+      "startLat": 39.797210693359375,
+      "startLng": 116.81293487548828
+    },
+    {
+      "id": "17714574",
+      "tileScore": 2,
+      "name": "环北京通州itt",
+      "distanceM": 6802,
+      "avgGrade": -0.04704498499631882,
+      "startLat": 39.7816276550293,
+      "startLng": 116.8128890991211
+    }
+  ]
+}

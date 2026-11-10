@@ -1,0 +1,20 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T19:51:47.972Z",
+  "tile": {
+    "z": 13,
+    "x": 6747,
+    "y": 3081
+  },
+  "segments": [
+    {
+      "id": "24847624",
+      "tileScore": 5,
+      "name": "川宝路 (小铺村-宝山检查站)",
+      "distanceM": 15719.7998046875,
+      "avgGrade": -0.9745671153068542,
+      "startLat": 40.640438079833984,
+      "startLng": 116.49958038330078
+    }
+  ]
+}

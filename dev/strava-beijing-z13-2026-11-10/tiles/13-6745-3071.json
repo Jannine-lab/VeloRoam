@@ -1,0 +1,38 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T20:06:46.973Z",
+  "tile": {
+    "z": 13,
+    "x": 6745,
+    "y": 3071
+  },
+  "segments": [
+    {
+      "id": "35549895",
+      "tileScore": 4,
+      "name": "裙pro说再也不相信豆豆规划的路线了",
+      "distanceM": 6635.89990234375,
+      "avgGrade": -5.922331809997559,
+      "startLat": 41.0055046081543,
+      "startLng": 116.41888427734375
+    },
+    {
+      "id": "35549932",
+      "tileScore": 7,
+      "name": "庙梁爬坡全都是好路",
+      "distanceM": 4187.2001953125,
+      "avgGrade": 5.583683967590332,
+      "startLat": 40.99798583984375,
+      "startLng": 116.39737701416016
+    },
+    {
+      "id": "22195981",
+      "tileScore": 1,
+      "name": "the famous X509 climb",
+      "distanceM": 19037.80078125,
+      "avgGrade": 3.110128164291382,
+      "startLat": 41.01752853393555,
+      "startLng": 116.56130981445312
+    }
+  ]
+}

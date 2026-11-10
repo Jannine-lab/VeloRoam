@@ -1,0 +1,65 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T20:41:10.973Z",
+  "tile": {
+    "z": 13,
+    "x": 6788,
+    "y": 3384
+  },
+  "segments": [
+    {
+      "id": "40657392",
+      "tileScore": 3,
+      "name": "Huangshan north lap",
+      "distanceM": 39189.3984375,
+      "avgGrade": 0.026027444750070572,
+      "startLat": 29.720693588256836,
+      "startLng": 118.29390716552734
+    },
+    {
+      "id": "35057582",
+      "tileScore": 114,
+      "name": "（环屯线）篁墩-长龄桥段",
+      "distanceM": 11325.2001953125,
+      "avgGrade": 0.21544873714447021,
+      "startLat": 29.768260955810547,
+      "startLng": 118.36276245117188
+    },
+    {
+      "id": "39231273",
+      "tileScore": 17,
+      "name": "发哥带水煮蛋赶着上班晨骑小环线",
+      "distanceM": 60110.1015625,
+      "avgGrade": 0.0113125741481781,
+      "startLat": 29.719371795654297,
+      "startLng": 118.338134765625
+    },
+    {
+      "id": "38885024",
+      "tileScore": 5,
+      "name": "Linchang Downhill Drift",
+      "distanceM": 2707.5,
+      "avgGrade": -0.3545706272125244,
+      "startLat": 29.809030532836914,
+      "startLng": 118.34646606445312
+    },
+    {
+      "id": "41569850",
+      "tileScore": 73,
+      "name": "VO2max测试",
+      "distanceM": 5228.10009765625,
+      "avgGrade": -0.4208029806613922,
+      "startLat": 29.8064022064209,
+      "startLng": 118.338134765625
+    },
+    {
+      "id": "41279689",
+      "tileScore": 17,
+      "name": "cd-黄山北站到迎宾大道路口",
+      "distanceM": 4805,
+      "avgGrade": -0.2913631796836853,
+      "startLat": 29.817237854003906,
+      "startLng": 118.27206420898438
+    }
+  ]
+}

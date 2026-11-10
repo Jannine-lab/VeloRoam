@@ -1,0 +1,29 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T19:58:36.994Z",
+  "tile": {
+    "z": 13,
+    "x": 6756,
+    "y": 3080
+  },
+  "segments": [
+    {
+      "id": "3764916",
+      "tileScore": 15,
+      "name": "X008 climb northbound",
+      "distanceM": 18492.76953125,
+      "avgGrade": 1.8807319402694702,
+      "startLat": 40.60089111328125,
+      "startLng": 116.86941528320312
+    },
+    {
+      "id": "18785328",
+      "tileScore": 18,
+      "name": "响水谷",
+      "distanceM": 2539.800048828125,
+      "avgGrade": 5.307504653930664,
+      "startLat": 40.687904357910156,
+      "startLng": 116.93547058105469
+    }
+  ]
+}

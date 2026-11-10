@@ -1,0 +1,83 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T20:17:29.733Z",
+  "tile": {
+    "z": 13,
+    "x": 6826,
+    "y": 3366
+  },
+  "segments": [
+    {
+      "id": "34586704",
+      "tileScore": 40,
+      "name": "下渚湖の最速传说",
+      "distanceM": 10419.5,
+      "avgGrade": 0.02879216894507408,
+      "startLat": 30.540603637695312,
+      "startLng": 120.01641082763672
+    },
+    {
+      "id": "39489802",
+      "tileScore": 5,
+      "name": "每日每夜的大脚板拉练",
+      "distanceM": 13753.7001953125,
+      "avgGrade": -0.013087387196719646,
+      "startLat": 30.528749465942383,
+      "startLng": 119.97735595703125
+    },
+    {
+      "id": "35927889",
+      "tileScore": 7,
+      "name": "Deiqing Weather Station (Steep Only)",
+      "distanceM": 570.4000244140625,
+      "avgGrade": 15.112201690673828,
+      "startLat": 30.522750854492188,
+      "startLng": 119.98294067382812
+    },
+    {
+      "id": "24595188",
+      "tileScore": 34,
+      "name": "YunXiu Temple Climb",
+      "distanceM": 1924,
+      "avgGrade": 7.931392669677734,
+      "startLat": 30.50773811340332,
+      "startLng": 119.99423217773438
+    },
+    {
+      "id": "34664861",
+      "tileScore": 7,
+      "name": "奇幻谷爬坡+隧道",
+      "distanceM": 2017.4000244140625,
+      "avgGrade": 0.08922374993562698,
+      "startLat": 30.51573944091797,
+      "startLng": 120.01355743408203
+    },
+    {
+      "id": "31953775",
+      "tileScore": 11,
+      "name": "湘溪ITT",
+      "distanceM": 7679.2001953125,
+      "avgGrade": -0.02604437991976738,
+      "startLat": 30.485532760620117,
+      "startLng": 119.95288848876953
+    },
+    {
+      "id": "28592233",
+      "tileScore": 13,
+      "name": "SZL Tunnel KOM",
+      "distanceM": 1505.800048828125,
+      "avgGrade": 1.0359941720962524,
+      "startLat": 30.515668869018555,
+      "startLng": 120.01356506347656
+    },
+    {
+      "id": "31248504",
+      "tileScore": 4,
+      "name": "上渚山新路北向南",
+      "distanceM": 2062,
+      "avgGrade": -0.01939864084124565,
+      "startLat": 30.512876510620117,
+      "startLng": 120.01407623291016
+    }
+  ]
+}

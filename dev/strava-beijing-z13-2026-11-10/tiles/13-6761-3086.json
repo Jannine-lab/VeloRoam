@@ -1,0 +1,29 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T19:54:07.273Z",
+  "tile": {
+    "z": 13,
+    "x": 6761,
+    "y": 3086
+  },
+  "segments": [
+    {
+      "id": "42250056",
+      "tileScore": 2,
+      "name": "沙太路（不老屯-北庄村）",
+      "distanceM": 4632.7998046875,
+      "avgGrade": 0.5828009247779846,
+      "startLat": 40.53249740600586,
+      "startLng": 117.133056640625
+    },
+    {
+      "id": "35232473",
+      "tileScore": 5,
+      "name": "2023 BRM300 CP4",
+      "distanceM": 50172.69921875,
+      "avgGrade": -0.2495381087064743,
+      "startLat": 40.381126403808594,
+      "startLng": 117.14585876464844
+    }
+  ]
+}

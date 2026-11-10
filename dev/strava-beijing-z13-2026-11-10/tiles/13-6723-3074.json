@@ -1,0 +1,29 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T20:09:12.482Z",
+  "tile": {
+    "z": 13,
+    "x": 6723,
+    "y": 3074
+  },
+  "segments": [
+    {
+      "id": "39899727",
+      "tileScore": 7,
+      "name": "最后3km",
+      "distanceM": 2722.89990234375,
+      "avgGrade": 1.5938888788223267,
+      "startLat": 40.91816329956055,
+      "startLng": 115.44300842285156
+    },
+    {
+      "id": "34286604",
+      "tileScore": 5,
+      "name": "出太舞乱石岗爬坡",
+      "distanceM": 1085.699951171875,
+      "avgGrade": 11.292254447937012,
+      "startLat": 40.8828239440918,
+      "startLng": 115.44840240478516
+    }
+  ]
+}

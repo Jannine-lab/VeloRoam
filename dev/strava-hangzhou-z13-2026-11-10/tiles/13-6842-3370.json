@@ -1,0 +1,29 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T20:21:04.640Z",
+  "tile": {
+    "z": 13,
+    "x": 6842,
+    "y": 3370
+  },
+  "segments": [
+    {
+      "id": "38192254",
+      "tileScore": 24,
+      "name": "2024钱塘ITT",
+      "distanceM": 9506.400390625,
+      "avgGrade": 0.0021038458216935396,
+      "startLat": 30.27930450439453,
+      "startLng": 120.69673919677734
+    },
+    {
+      "id": "36767660",
+      "tileScore": 9,
+      "name": "Cao E 160k",
+      "distanceM": 160674.90625,
+      "avgGrade": -0.0019915990997105837,
+      "startLat": 30.229711532592773,
+      "startLng": 120.21782684326172
+    }
+  ]
+}

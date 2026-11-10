@@ -1,0 +1,101 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T19:47:20.238Z",
+  "tile": {
+    "z": 13,
+    "x": 6749,
+    "y": 3087
+  },
+  "segments": [
+    {
+      "id": "16874959",
+      "tileScore": 66,
+      "name": "范崎路爬坡（北-南）",
+      "distanceM": 3034.60009765625,
+      "avgGrade": 5.536149978637695,
+      "startLat": 40.465213775634766,
+      "startLng": 116.59420013427734
+    },
+    {
+      "id": "38733370",
+      "tileScore": 28,
+      "name": "范崎路起点一脚不停四海镇",
+      "distanceM": 68264.796875,
+      "avgGrade": 0.9058841466903687,
+      "startLat": 40.36000442504883,
+      "startLng": 116.65359497070312
+    },
+    {
+      "id": "2559901",
+      "tileScore": 13,
+      "name": "县道 Climb",
+      "distanceM": 507,
+      "avgGrade": 16.52859878540039,
+      "startLat": 40.45978546142578,
+      "startLng": 116.5900650024414
+    },
+    {
+      "id": "13658947",
+      "tileScore": 367,
+      "name": "Fanqi Road 2nd Climb to Tower",
+      "distanceM": 11231.7001953125,
+      "avgGrade": 4.25046968460083,
+      "startLat": 40.46647644042969,
+      "startLng": 116.59436798095703
+    },
+    {
+      "id": "31929291",
+      "tileScore": 4,
+      "name": "BRM200-耀骑北京-BJ-R001",
+      "distanceM": 194072.59375,
+      "avgGrade": -0.00005152710946276784,
+      "startLat": 40.14736557006836,
+      "startLng": 116.37285614013672
+    },
+    {
+      "id": "36828848",
+      "tileScore": 19,
+      "name": "Epic YanQi to Miyun",
+      "distanceM": 95911.8984375,
+      "avgGrade": -0.2003922313451767,
+      "startLat": 40.43746566772461,
+      "startLng": 116.57965087890625
+    },
+    {
+      "id": "39668375",
+      "tileScore": 38,
+      "name": "范崎路二坡前5km",
+      "distanceM": 5196.89990234375,
+      "avgGrade": 3.244241714477539,
+      "startLat": 40.46810531616211,
+      "startLng": 116.5924301147461
+    },
+    {
+      "id": "41687458",
+      "tileScore": 2,
+      "name": "交界河climb 前半  (后面真是河了，下次再来)",
+      "distanceM": 2019,
+      "avgGrade": 4.3189697265625,
+      "startLat": 40.466148376464844,
+      "startLng": 116.59564208984375
+    },
+    {
+      "id": "16866490",
+      "tileScore": 213,
+      "name": "范崎路爬坡全程（神堂峪路口起点）",
+      "distanceM": 25331.69921875,
+      "avgGrade": 2.828866720199585,
+      "startLat": 40.410213470458984,
+      "startLng": 116.63158416748047
+    },
+    {
+      "id": "1460967",
+      "tileScore": 5,
+      "name": "县道 Climb",
+      "distanceM": 6736.06005859375,
+      "avgGrade": 4.572446823120117,
+      "startLat": 40.419578552246094,
+      "startLng": 116.59650421142578
+    }
+  ]
+}

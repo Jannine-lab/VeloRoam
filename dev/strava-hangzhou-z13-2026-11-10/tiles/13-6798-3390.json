@@ -1,0 +1,20 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T20:37:26.372Z",
+  "tile": {
+    "z": 13,
+    "x": 6798,
+    "y": 3390
+  },
+  "segments": [
+    {
+      "id": "41491586",
+      "tileScore": 35,
+      "name": "冠军岭下到梓潼镇",
+      "distanceM": 7626.7998046875,
+      "avgGrade": -2.5226831436157227,
+      "startLat": 29.573087692260742,
+      "startLng": 118.70475769042969
+    }
+  ]
+}

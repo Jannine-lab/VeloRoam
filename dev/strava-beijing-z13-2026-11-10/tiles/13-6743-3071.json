@@ -1,0 +1,20 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T20:06:46.973Z",
+  "tile": {
+    "z": 13,
+    "x": 6743,
+    "y": 3071
+  },
+  "segments": [
+    {
+      "id": "40078154",
+      "tileScore": 1,
+      "name": "Y070 westbound",
+      "distanceM": 3737.5,
+      "avgGrade": 7.106354713439941,
+      "startLat": 40.98257827758789,
+      "startLng": 116.35997009277344
+    }
+  ]
+}

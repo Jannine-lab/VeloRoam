@@ -1,0 +1,65 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T20:17:53.526Z",
+  "tile": {
+    "z": 13,
+    "x": 6824,
+    "y": 3365
+  },
+  "segments": [
+    {
+      "id": "31686715",
+      "tileScore": 11,
+      "name": "武康-筏头",
+      "distanceM": 8928.5,
+      "avgGrade": 0.5174441337585449,
+      "startLat": 30.55027961730957,
+      "startLng": 119.94100952148438
+    },
+    {
+      "id": "3718236",
+      "tileScore": 14,
+      "name": "Provincial Road Climb",
+      "distanceM": 1100.5400390625,
+      "avgGrade": 9.194984436035156,
+      "startLat": 30.536828994750977,
+      "startLng": 119.89404296875
+    },
+    {
+      "id": "31691561",
+      "tileScore": 1,
+      "name": "Khazad-dûm",
+      "distanceM": 1208.800048828125,
+      "avgGrade": 10.53937816619873,
+      "startLat": 30.558141708374023,
+      "startLng": 119.88490295410156
+    },
+    {
+      "id": "39570552",
+      "tileScore": 4,
+      "name": "蛇蛇乐园🐍",
+      "distanceM": 930.7000122070312,
+      "avgGrade": 2.9225313663482666,
+      "startLat": 30.556827545166016,
+      "startLng": 119.91102600097656
+    },
+    {
+      "id": "34048644",
+      "tileScore": 133,
+      "name": "对河口大坝冲刺",
+      "distanceM": 524.2999877929688,
+      "avgGrade": 6.2178144454956055,
+      "startLat": 30.533390045166016,
+      "startLng": 119.89404296875
+    },
+    {
+      "id": "34048585",
+      "tileScore": 49,
+      "name": "对河口北突围",
+      "distanceM": 6538.7001953125,
+      "avgGrade": -0.4985700249671936,
+      "startLat": 30.555410385131836,
+      "startLng": 119.857177734375
+    }
+  ]
+}

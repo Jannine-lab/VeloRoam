@@ -1,0 +1,38 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T19:34:21.396Z",
+  "tile": {
+    "z": 13,
+    "x": 6748,
+    "y": 3105
+  },
+  "segments": [
+    {
+      "id": "13021090",
+      "tileScore": 1,
+      "name": "万通路",
+      "distanceM": 2355.800048828125,
+      "avgGrade": -0.16130401194095612,
+      "startLat": 39.85599899291992,
+      "startLng": 116.57228088378906
+    },
+    {
+      "id": "20660189",
+      "tileScore": 4,
+      "name": "马家湾湿地公园 Sprint Forward",
+      "distanceM": 1498,
+      "avgGrade": 0.033377837389707565,
+      "startLat": 39.84272384643555,
+      "startLng": 116.54454040527344
+    },
+    {
+      "id": "9257940",
+      "tileScore": 6,
+      "name": "京哈高速辅路",
+      "distanceM": 6307.60009765625,
+      "avgGrade": -0.0697571188211441,
+      "startLat": 39.86943817138672,
+      "startLng": 116.49153137207031
+    }
+  ]
+}

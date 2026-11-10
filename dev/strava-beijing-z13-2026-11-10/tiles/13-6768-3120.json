@@ -1,0 +1,20 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T20:02:38.432Z",
+  "tile": {
+    "z": 13,
+    "x": 6768,
+    "y": 3120
+  },
+  "segments": [
+    {
+      "id": "22159718",
+      "tileScore": 1,
+      "name": "G112潘莊鎮",
+      "distanceM": 2036.9000244140625,
+      "avgGrade": -0.0687318965792656,
+      "startLat": 39.350547790527344,
+      "startLng": 117.48072052001953
+    }
+  ]
+}

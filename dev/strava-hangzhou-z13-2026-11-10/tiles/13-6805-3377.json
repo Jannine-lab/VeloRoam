@@ -1,0 +1,29 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T20:29:44.313Z",
+  "tile": {
+    "z": 13,
+    "x": 6805,
+    "y": 3377
+  },
+  "segments": [
+    {
+      "id": "38796712",
+      "tileScore": 1,
+      "name": "里田坪climb",
+      "distanceM": 11139.7001953125,
+      "avgGrade": 2.922879457473755,
+      "startLat": 30.049650192260742,
+      "startLng": 119.15428924560547
+    },
+    {
+      "id": "34099541",
+      "tileScore": 8,
+      "name": "紫燕 冲 学川 的大直道",
+      "distanceM": 1083.5999755859375,
+      "avgGrade": 5.850867748260498,
+      "startLat": 30.088260650634766,
+      "startLng": 119.05728912353516
+    }
+  ]
+}

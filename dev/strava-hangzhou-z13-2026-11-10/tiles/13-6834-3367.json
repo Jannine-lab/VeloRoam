@@ -1,0 +1,20 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T20:16:56.853Z",
+  "tile": {
+    "z": 13,
+    "x": 6834,
+    "y": 3367
+  },
+  "segments": [
+    {
+      "id": "41604473",
+      "tileScore": 18,
+      "name": "明智大桥返程冲坡",
+      "distanceM": 504.1000061035156,
+      "avgGrade": 1.745685338973999,
+      "startLat": 30.478347778320312,
+      "startLng": 120.32644653320312
+    }
+  ]
+}

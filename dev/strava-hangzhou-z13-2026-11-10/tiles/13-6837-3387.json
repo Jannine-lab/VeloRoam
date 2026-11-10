@@ -1,0 +1,56 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T20:24:03.440Z",
+  "tile": {
+    "z": 13,
+    "x": 6837,
+    "y": 3387
+  },
+  "segments": [
+    {
+      "id": "41349945",
+      "tileScore": 8,
+      "name": "绛霞村climb",
+      "distanceM": 1978,
+      "avgGrade": 8.463094711303711,
+      "startLat": 29.717126846313477,
+      "startLng": 120.46633911132812
+    },
+    {
+      "id": "42098400",
+      "tileScore": 7,
+      "name": "下连湾#y",
+      "distanceM": 1848,
+      "avgGrade": 6.7748918533325195,
+      "startLat": 29.711505889892578,
+      "startLng": 120.48907470703125
+    },
+    {
+      "id": "22504884",
+      "tileScore": 259,
+      "name": "皂溪村-榧王观景台",
+      "distanceM": 10290.2001953125,
+      "avgGrade": 4.6393656730651855,
+      "startLat": 29.73614501953125,
+      "startLng": 120.4883804321289
+    },
+    {
+      "id": "38291352",
+      "tileScore": 45,
+      "name": "丁家坞爬坡（东向西）",
+      "distanceM": 1900,
+      "avgGrade": 8.252632141113281,
+      "startLat": 29.724201202392578,
+      "startLng": 120.48297119140625
+    },
+    {
+      "id": "31914269",
+      "tileScore": 22,
+      "name": "三叠瀑",
+      "distanceM": 2517.89990234375,
+      "avgGrade": 7.045553684234619,
+      "startLat": 29.69669532775879,
+      "startLng": 120.4999008178711
+    }
+  ]
+}

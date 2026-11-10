@@ -1,0 +1,20 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T20:05:18.737Z",
+  "tile": {
+    "z": 13,
+    "x": 6768,
+    "y": 3083
+  },
+  "segments": [
+    {
+      "id": "30119747",
+      "tileScore": 15,
+      "name": "都谁从北边爬了雾灵山？",
+      "distanceM": 21095,
+      "avgGrade": 5.886703014373779,
+      "startLat": 40.64777755737305,
+      "startLng": 117.42639923095703
+    }
+  ]
+}

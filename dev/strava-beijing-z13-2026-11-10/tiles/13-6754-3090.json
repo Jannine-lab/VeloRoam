@@ -1,0 +1,65 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T19:45:43.367Z",
+  "tile": {
+    "z": 13,
+    "x": 6754,
+    "y": 3090
+  },
+  "segments": [
+    {
+      "id": "5901290",
+      "tileScore": 1,
+      "name": "Guoyuan Road Climb",
+      "distanceM": 444.70001220703125,
+      "avgGrade": 24.37598419189453,
+      "startLat": 40.3637580871582,
+      "startLng": 116.82793426513672
+    },
+    {
+      "id": "36565975",
+      "tileScore": 1,
+      "name": "密云左堤路",
+      "distanceM": 5797.5,
+      "avgGrade": 0.22423458099365234,
+      "startLat": 40.35074234008789,
+      "startLng": 116.83868408203125
+    },
+    {
+      "id": "35232453",
+      "tileScore": 3,
+      "name": "2023 BRM300 CP1",
+      "distanceM": 49925.6015625,
+      "avgGrade": 0.06970372051000595,
+      "startLat": 40.20161056518555,
+      "startLng": 116.72323608398438
+    },
+    {
+      "id": "32607603",
+      "tileScore": 4,
+      "name": "Pikachu！",
+      "distanceM": 158177.40625,
+      "avgGrade": 0.022632816806435585,
+      "startLat": 40.14248275756836,
+      "startLng": 116.59239959716797
+    },
+    {
+      "id": "31405220",
+      "tileScore": 6,
+      "name": "京沈路新南路岔口-密西路",
+      "distanceM": 3364.699951171875,
+      "avgGrade": 0.43986091017723083,
+      "startLat": 40.35512924194336,
+      "startLng": 116.7900619506836
+    },
+    {
+      "id": "41338608",
+      "tileScore": 4,
+      "name": "顺潮街（南→北）",
+      "distanceM": 2955.199951171875,
+      "avgGrade": 0.3079317808151245,
+      "startLat": 40.34141540527344,
+      "startLng": 116.8301010131836
+    }
+  ]
+}

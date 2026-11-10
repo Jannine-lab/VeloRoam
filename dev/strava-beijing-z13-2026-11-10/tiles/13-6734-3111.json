@@ -1,0 +1,29 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T19:40:12.760Z",
+  "tile": {
+    "z": 13,
+    "x": 6734,
+    "y": 3111
+  },
+  "segments": [
+    {
+      "id": "34656582",
+      "tileScore": 20,
+      "name": "阎周路东向西10公里",
+      "distanceM": 10117.400390625,
+      "avgGrade": 0.26291337609291077,
+      "startLat": 39.682918548583984,
+      "startLng": 116.05435180664062
+    },
+    {
+      "id": "34418466",
+      "tileScore": 23,
+      "name": "阎周路 1灯",
+      "distanceM": 3163,
+      "avgGrade": -0.6259880065917969,
+      "startLat": 39.65959548950195,
+      "startLng": 115.9345474243164
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T20:39:03.688Z",
+  "tile": {
+    "z": 13,
+    "x": 6800,
+    "y": 3398
+  },
+  "segments": [
+    {
+      "id": "39282533",
+      "tileScore": 16,
+      "name": "上方—仙洞 这里就是小黄连吗",
+      "distanceM": 7912,
+      "avgGrade": 1.1804853677749634,
+      "startLat": 29.274009704589844,
+      "startLng": 118.91423034667969
+    }
+  ]
+}

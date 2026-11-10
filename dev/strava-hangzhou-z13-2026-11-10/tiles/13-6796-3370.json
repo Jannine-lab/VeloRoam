@@ -1,0 +1,29 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T20:35:46.784Z",
+  "tile": {
+    "z": 13,
+    "x": 6796,
+    "y": 3370
+  },
+  "segments": [
+    {
+      "id": "39007794",
+      "tileScore": 4,
+      "name": "白云山爬坡看映山红",
+      "distanceM": 2967.5,
+      "avgGrade": 13.850042343139648,
+      "startLat": 30.37249183654785,
+      "startLng": 118.6883316040039
+    },
+    {
+      "id": "39919941",
+      "tileScore": 17,
+      "name": "驾校到滑度",
+      "distanceM": 13684.099609375,
+      "avgGrade": -0.09500077366828918,
+      "startLat": 30.325172424316406,
+      "startLng": 118.56751251220703
+    }
+  ]
+}

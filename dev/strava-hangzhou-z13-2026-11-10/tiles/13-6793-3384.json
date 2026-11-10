@@ -1,0 +1,38 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T20:38:58.721Z",
+  "tile": {
+    "z": 13,
+    "x": 6793,
+    "y": 3384
+  },
+  "segments": [
+    {
+      "id": "38175544",
+      "tileScore": 8,
+      "name": "翻越三座山",
+      "distanceM": 11337.099609375,
+      "avgGrade": 0.40927577018737793,
+      "startLat": 29.804035186767578,
+      "startLng": 118.54942321777344
+    },
+    {
+      "id": "33934322",
+      "tileScore": 11,
+      "name": "an area of scenic beauty",
+      "distanceM": 23392.80078125,
+      "avgGrade": -0.03419855609536171,
+      "startLat": 29.852100372314453,
+      "startLng": 118.49465942382812
+    },
+    {
+      "id": "40850536",
+      "tileScore": 1,
+      "name": "上岩放坡至岔口",
+      "distanceM": 1514.4000244140625,
+      "avgGrade": -7.3956685066223145,
+      "startLat": 29.80801773071289,
+      "startLng": 118.57006072998047
+    }
+  ]
+}

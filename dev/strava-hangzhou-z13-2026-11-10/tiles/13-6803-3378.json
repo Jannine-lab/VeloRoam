@@ -1,0 +1,47 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T20:31:14.716Z",
+  "tile": {
+    "z": 13,
+    "x": 6803,
+    "y": 3378
+  },
+  "segments": [
+    {
+      "id": "12404118",
+      "tileScore": 7,
+      "name": "A cheeky Damingshan",
+      "distanceM": 1658.800048828125,
+      "avgGrade": 4.153604984283447,
+      "startLat": 30.073312759399414,
+      "startLng": 118.99681091308594
+    },
+    {
+      "id": "23306773",
+      "tileScore": 72,
+      "name": "徐pp Po Gai Down",
+      "distanceM": 3154.300048828125,
+      "avgGrade": -5.414830684661865,
+      "startLat": 30.02989387512207,
+      "startLng": 119.00292205810547
+    },
+    {
+      "id": "41849804",
+      "tileScore": 4,
+      "name": "千亩田草甸自然生态保护区",
+      "distanceM": 2012.800048828125,
+      "avgGrade": -5.574324131011963,
+      "startLat": 30.0195255279541,
+      "startLng": 118.98050689697266
+    },
+    {
+      "id": "9564841",
+      "tileScore": 521,
+      "name": "牵牛岗爬坡（好路）",
+      "distanceM": 20534.5,
+      "avgGrade": 4.920499801635742,
+      "startLat": 30.076786041259766,
+      "startLng": 119.017822265625
+    }
+  ]
+}

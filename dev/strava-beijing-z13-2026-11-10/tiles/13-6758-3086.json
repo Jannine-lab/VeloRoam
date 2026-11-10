@@ -1,0 +1,29 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T19:52:46.917Z",
+  "tile": {
+    "z": 13,
+    "x": 6758,
+    "y": 3086
+  },
+  "segments": [
+    {
+      "id": "17444363",
+      "tileScore": 52,
+      "name": "环密云水库",
+      "distanceM": 99223.3984375,
+      "avgGrade": 0.017334621399641037,
+      "startLat": 40.473995208740234,
+      "startLng": 116.87325286865234
+    },
+    {
+      "id": "31878898",
+      "tileScore": 23,
+      "name": "又是起伏路",
+      "distanceM": 4609,
+      "avgGrade": -0.4643089473247528,
+      "startLat": 40.5041618347168,
+      "startLng": 117.05068969726562
+    }
+  ]
+}

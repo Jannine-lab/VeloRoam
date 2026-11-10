@@ -1,0 +1,56 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T19:50:21.080Z",
+  "tile": {
+    "z": 13,
+    "x": 6750,
+    "y": 3084
+  },
+  "segments": [
+    {
+      "id": "21508050",
+      "tileScore": 10,
+      "name": "分水岭隧道爬坡xz",
+      "distanceM": 3695.5,
+      "avgGrade": 3.425788164138794,
+      "startLat": 40.59965515136719,
+      "startLng": 116.66278076171875
+    },
+    {
+      "id": "35950086",
+      "tileScore": 11,
+      "name": "分水岭爬坡全程",
+      "distanceM": 18150,
+      "avgGrade": 2.941046953201294,
+      "startLat": 40.412353515625,
+      "startLng": 116.67535400390625
+    },
+    {
+      "id": "13284383",
+      "tileScore": 7,
+      "name": "云蒙山森林公园",
+      "distanceM": 2088.800048828125,
+      "avgGrade": 5.390655040740967,
+      "startLat": 40.568138122558594,
+      "startLng": 116.67264556884766
+    },
+    {
+      "id": "3707682",
+      "tileScore": 14,
+      "name": "Jingjia Road Climb",
+      "distanceM": 1387.943115234375,
+      "avgGrade": 9.409221649169922,
+      "startLat": 40.54239273071289,
+      "startLng": 116.66888427734375
+    },
+    {
+      "id": "29846660",
+      "tileScore": 16,
+      "name": "云蒙峡路口-x020最高点",
+      "distanceM": 3984,
+      "avgGrade": 5.336345195770264,
+      "startLat": 40.53476333618164,
+      "startLng": 116.667236328125
+    }
+  ]
+}

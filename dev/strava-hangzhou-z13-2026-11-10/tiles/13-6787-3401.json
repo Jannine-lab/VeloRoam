@@ -1,0 +1,38 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T20:43:22.374Z",
+  "tile": {
+    "z": 13,
+    "x": 6787,
+    "y": 3401
+  },
+  "segments": [
+    {
+      "id": "37904232",
+      "tileScore": 6,
+      "name": "cd-篁岸到芳村",
+      "distanceM": 13299.400390625,
+      "avgGrade": 0.463178813457489,
+      "startLat": 29.13600730895996,
+      "startLng": 118.269287109375
+    },
+    {
+      "id": "36761840",
+      "tileScore": 4,
+      "name": "有氧套餐PLUS版",
+      "distanceM": 174508.09375,
+      "avgGrade": 0.017305785790085793,
+      "startLat": 29.13044548034668,
+      "startLng": 118.38563537597656
+    },
+    {
+      "id": "38653292",
+      "tileScore": 1,
+      "name": "2025环浙步道-开化站 未修改版本",
+      "distanceM": 119608,
+      "avgGrade": 0,
+      "startLat": 29.145221710205078,
+      "startLng": 118.3876724243164
+    }
+  ]
+}

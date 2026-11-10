@@ -1,0 +1,20 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T19:42:37.277Z",
+  "tile": {
+    "z": 13,
+    "x": 6741,
+    "y": 3116
+  },
+  "segments": [
+    {
+      "id": "33765433",
+      "tileScore": 6,
+      "name": "世外桃源（北向） 冲冲冲",
+      "distanceM": 10348.900390625,
+      "avgGrade": 0.08503319323062897,
+      "startLat": 39.48716354370117,
+      "startLng": 116.28337097167969
+    }
+  ]
+}

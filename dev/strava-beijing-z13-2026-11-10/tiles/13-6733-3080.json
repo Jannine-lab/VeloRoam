@@ -1,0 +1,29 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T19:58:12.936Z",
+  "tile": {
+    "z": 13,
+    "x": 6733,
+    "y": 3080
+  },
+  "segments": [
+    {
+      "id": "39503149",
+      "tileScore": 10,
+      "name": "雕鹗-->隔河寨隧道",
+      "distanceM": 13272.7998046875,
+      "avgGrade": -0.7941052317619324,
+      "startLat": 40.720951080322266,
+      "startLng": 115.82086181640625
+    },
+    {
+      "id": "39901251",
+      "tileScore": 3,
+      "name": "the famous 孫莊村 climb",
+      "distanceM": 5458.5,
+      "avgGrade": 5.770816326141357,
+      "startLat": 40.698204040527344,
+      "startLng": 115.92495727539062
+    }
+  ]
+}

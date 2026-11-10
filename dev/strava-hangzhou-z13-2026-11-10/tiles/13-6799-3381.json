@@ -1,0 +1,29 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T20:35:18.002Z",
+  "tile": {
+    "z": 13,
+    "x": 6799,
+    "y": 3381
+  },
+  "segments": [
+    {
+      "id": "24930560",
+      "tileScore": 8,
+      "name": "Drews Droppings",
+      "distanceM": 4339,
+      "avgGrade": 6.513020992279053,
+      "startLat": 29.94124412536621,
+      "startLng": 118.77977752685547
+    },
+    {
+      "id": "20341683",
+      "tileScore": 22,
+      "name": "Vlads Extended",
+      "distanceM": 17938.80078125,
+      "avgGrade": 3.555421829223633,
+      "startLat": 30.00111198425293,
+      "startLng": 118.75499725341797
+    }
+  ]
+}

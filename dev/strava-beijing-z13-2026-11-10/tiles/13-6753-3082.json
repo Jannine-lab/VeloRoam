@@ -1,0 +1,47 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T19:53:38.118Z",
+  "tile": {
+    "z": 13,
+    "x": 6753,
+    "y": 3082
+  },
+  "segments": [
+    {
+      "id": "24667562",
+      "tileScore": 12,
+      "name": "云蒙山 W-E",
+      "distanceM": 31777.599609375,
+      "avgGrade": -0.5242686867713928,
+      "startLat": 40.60121154785156,
+      "startLng": 116.66267395019531
+    },
+    {
+      "id": "36828848",
+      "tileScore": 19,
+      "name": "Epic YanQi to Miyun",
+      "distanceM": 95911.8984375,
+      "avgGrade": -0.2003922313451767,
+      "startLat": 40.43746566772461,
+      "startLng": 116.57965087890625
+    },
+    {
+      "id": "3876383",
+      "tileScore": 20,
+      "name": "Provincial Road Climb",
+      "distanceM": 859.96240234375,
+      "avgGrade": 14.209301948547363,
+      "startLat": 40.621952056884766,
+      "startLng": 116.76702880859375
+    },
+    {
+      "id": "13135327",
+      "tileScore": 28,
+      "name": "黑龙潭-四合堂路口",
+      "distanceM": 14814.2001953125,
+      "avgGrade": 0.3712654113769531,
+      "startLat": 40.56228256225586,
+      "startLng": 116.79549407958984
+    }
+  ]
+}

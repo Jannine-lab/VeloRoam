@@ -1,0 +1,20 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T20:04:00.842Z",
+  "tile": {
+    "z": 13,
+    "x": 6772,
+    "y": 3116
+  },
+  "segments": [
+    {
+      "id": "42092441",
+      "tileScore": 1,
+      "name": "沿西关引河好骑到哭（XA）",
+      "distanceM": 26245.19921875,
+      "avgGrade": 0.000762044102884829,
+      "startLat": 39.450355529785156,
+      "startLng": 117.75723266601562
+    }
+  ]
+}

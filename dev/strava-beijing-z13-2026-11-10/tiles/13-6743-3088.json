@@ -1,0 +1,110 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T19:44:25.176Z",
+  "tile": {
+    "z": 13,
+    "x": 6743,
+    "y": 3088
+  },
+  "segments": [
+    {
+      "id": "694191",
+      "tileScore": 62,
+      "name": "Ansi Rd main climb",
+      "distanceM": 7538.72021484375,
+      "avgGrade": 4.843009948730469,
+      "startLat": 40.44317626953125,
+      "startLng": 116.32634735107422
+    },
+    {
+      "id": "35870603",
+      "tileScore": 86,
+      "name": "四永计时赛段(昌赤路新线版本)",
+      "distanceM": 113957.3984375,
+      "avgGrade": 0.006669158581644297,
+      "startLat": 40.29890823364258,
+      "startLng": 116.24783325195312
+    },
+    {
+      "id": "3899458",
+      "tileScore": 2,
+      "name": "Ansi Road Climb",
+      "distanceM": 457.26507568359375,
+      "avgGrade": 19.65886688232422,
+      "startLat": 40.43368148803711,
+      "startLng": 116.33222961425781
+    },
+    {
+      "id": "7687219",
+      "tileScore": 8,
+      "name": "Sihai Climb (China Coordinates)",
+      "distanceM": 10750,
+      "avgGrade": 4.826046466827393,
+      "startLat": 40.44023513793945,
+      "startLng": 116.33045959472656
+    },
+    {
+      "id": "31929291",
+      "tileScore": 4,
+      "name": "BRM200-耀骑北京-BJ-R001",
+      "distanceM": 194072.59375,
+      "avgGrade": -0.00005152710946276784,
+      "startLat": 40.14736557006836,
+      "startLng": 116.37285614013672
+    },
+    {
+      "id": "38232180",
+      "tileScore": 3,
+      "name": "东宫climb",
+      "distanceM": 1408.5999755859375,
+      "avgGrade": 9.612380981445312,
+      "startLat": 40.406070709228516,
+      "startLng": 116.3559341430664
+    },
+    {
+      "id": "18253781",
+      "tileScore": 45,
+      "name": "Max的商店到杏树台石头",
+      "distanceM": 8391.400390625,
+      "avgGrade": 2.5597636699676514,
+      "startLat": 40.41118621826172,
+      "startLng": 116.34137725830078
+    },
+    {
+      "id": "4138095",
+      "tileScore": 9,
+      "name": "Ansi Road Climb",
+      "distanceM": 1546,
+      "avgGrade": 5.258732318878174,
+      "startLat": 40.403167724609375,
+      "startLng": 116.34678649902344
+    },
+    {
+      "id": "41810750",
+      "tileScore": 11,
+      "name": "路过白云道观，直插鹞子峪！",
+      "distanceM": 7016.89990234375,
+      "avgGrade": -5.810258388519287,
+      "startLat": 40.44992446899414,
+      "startLng": 116.30203247070312
+    },
+    {
+      "id": "38122430",
+      "tileScore": 11,
+      "name": "四永（望百路+昌赤新线+暖马路版）",
+      "distanceM": 116117.8984375,
+      "avgGrade": 0.019290737807750702,
+      "startLat": 40.29729080200195,
+      "startLng": 116.2466812133789
+    },
+    {
+      "id": "41481057",
+      "tileScore": 10,
+      "name": "静之湖-四海（S-N）",
+      "distanceM": 57643.6015625,
+      "avgGrade": 1.0089584589004517,
+      "startLat": 40.24079895019531,
+      "startLng": 116.43891143798828
+    }
+  ]
+}

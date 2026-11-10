@@ -1,0 +1,20 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T20:31:56.724Z",
+  "tile": {
+    "z": 13,
+    "x": 6805,
+    "y": 3385
+  },
+  "segments": [
+    {
+      "id": "37688170",
+      "tileScore": 1,
+      "name": "塘边村旧公路爬坡【DQ】",
+      "distanceM": 1307.4000244140625,
+      "avgGrade": 4.420988082885742,
+      "startLat": 29.774499893188477,
+      "startLng": 119.07466125488281
+    }
+  ]
+}

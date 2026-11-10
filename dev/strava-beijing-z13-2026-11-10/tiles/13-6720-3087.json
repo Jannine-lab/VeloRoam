@@ -1,0 +1,29 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T20:02:35.927Z",
+  "tile": {
+    "z": 13,
+    "x": 6720,
+    "y": 3087
+  },
+  "segments": [
+    {
+      "id": "5721887",
+      "tileScore": 1,
+      "name": "Jingzhang Expressway Climb",
+      "distanceM": 1689.199951171875,
+      "avgGrade": 4.795169353485107,
+      "startLat": 40.47218322753906,
+      "startLng": 115.32600402832031
+    },
+    {
+      "id": "5721884",
+      "tileScore": 1,
+      "name": "Jingzhang Expressway Climb",
+      "distanceM": 2487.800048828125,
+      "avgGrade": 3.5171639919281006,
+      "startLat": 40.45077133178711,
+      "startLng": 115.35205841064453
+    }
+  ]
+}

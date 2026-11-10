@@ -1,0 +1,56 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T20:23:13.351Z",
+  "tile": {
+    "z": 13,
+    "x": 6815,
+    "y": 3377
+  },
+  "segments": [
+    {
+      "id": "40648550",
+      "tileScore": 4,
+      "name": "起伏路到池塘gravel",
+      "distanceM": 2150.800048828125,
+      "avgGrade": 0.38125351071357727,
+      "startLat": 30.088903427124023,
+      "startLng": 119.50011444091797
+    },
+    {
+      "id": "40648545",
+      "tileScore": 7,
+      "name": "老山头gravel climb",
+      "distanceM": 3072.60009765625,
+      "avgGrade": 9.939464569091797,
+      "startLat": 30.093738555908203,
+      "startLng": 119.51548767089844
+    },
+    {
+      "id": "40569236",
+      "tileScore": 9,
+      "name": "鳌山gravel climb",
+      "distanceM": 2687.60009765625,
+      "avgGrade": 8.513172149658203,
+      "startLat": 30.095550537109375,
+      "startLng": 119.48892211914062
+    },
+    {
+      "id": "40569244",
+      "tileScore": 5,
+      "name": "鳌山gravel down 完整版",
+      "distanceM": 2283.699951171875,
+      "avgGrade": -14.502779960632324,
+      "startLat": 30.072412490844727,
+      "startLng": 119.489990234375
+    },
+    {
+      "id": "30371083",
+      "tileScore": 3,
+      "name": "杏福绿道小坡",
+      "distanceM": 756.4000244140625,
+      "avgGrade": 7.5885772705078125,
+      "startLat": 30.10399627685547,
+      "startLng": 119.48371124267578
+    }
+  ]
+}

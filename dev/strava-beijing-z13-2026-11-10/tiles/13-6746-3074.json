@@ -1,0 +1,38 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T20:02:48.334Z",
+  "tile": {
+    "z": 13,
+    "x": 6746,
+    "y": 3074
+  },
+  "segments": [
+    {
+      "id": "27959257",
+      "tileScore": 37,
+      "name": "喇碾路climb",
+      "distanceM": 2547.800048828125,
+      "avgGrade": 7.017819404602051,
+      "startLat": 40.91454315185547,
+      "startLng": 116.48770904541016
+    },
+    {
+      "id": "35668955",
+      "tileScore": 3,
+      "name": "爬起来接着放",
+      "distanceM": 1214.5999755859375,
+      "avgGrade": -7.722707271575928,
+      "startLat": 40.91037368774414,
+      "startLng": 116.47653198242188
+    },
+    {
+      "id": "20487888",
+      "tileScore": 25,
+      "name": "乱石窖",
+      "distanceM": 5147,
+      "avgGrade": 6.038469314575195,
+      "startLat": 40.90898513793945,
+      "startLng": 116.42792510986328
+    }
+  ]
+}

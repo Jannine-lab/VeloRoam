@@ -1,0 +1,20 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T20:00:36.330Z",
+  "tile": {
+    "z": 13,
+    "x": 6748,
+    "y": 3077
+  },
+  "segments": [
+    {
+      "id": "35723197",
+      "tileScore": 68,
+      "name": "庄喇路爬坡全程",
+      "distanceM": 24277.80078125,
+      "avgGrade": 2.0174810886383057,
+      "startLat": 40.731807708740234,
+      "startLng": 116.6251220703125
+    }
+  ]
+}

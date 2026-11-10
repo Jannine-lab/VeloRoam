@@ -1,0 +1,20 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T20:27:56.975Z",
+  "tile": {
+    "z": 13,
+    "x": 6808,
+    "y": 3381
+  },
+  "segments": [
+    {
+      "id": "37582370",
+      "tileScore": 4,
+      "name": "昌瑶线鲁贝【DQ】",
+      "distanceM": 6567.2998046875,
+      "avgGrade": 3.5387449264526367,
+      "startLat": 29.950355529785156,
+      "startLng": 119.21161651611328
+    }
+  ]
+}

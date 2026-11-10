@@ -1,0 +1,38 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T19:39:09.481Z",
+  "tile": {
+    "z": 13,
+    "x": 6748,
+    "y": 3095
+  },
+  "segments": [
+    {
+      "id": "34309265",
+      "tileScore": 1,
+      "name": "被雨哥哄骗去大杨山",
+      "distanceM": 25255,
+      "avgGrade": 0.07681646943092346,
+      "startLat": 40.170005798339844,
+      "startLng": 116.64603424072266
+    },
+    {
+      "id": "35646907",
+      "tileScore": 2,
+      "name": "火寺路-北到南",
+      "distanceM": 4707.60009765625,
+      "avgGrade": -0.14019882678985596,
+      "startLat": 40.25212097167969,
+      "startLng": 116.55168151855469
+    },
+    {
+      "id": "13540653",
+      "tileScore": 10,
+      "name": "Car assembly row",
+      "distanceM": 3450.199951171875,
+      "avgGrade": -0.12173207104206085,
+      "startLat": 40.208160400390625,
+      "startLng": 116.55033111572266
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T20:41:15.906Z",
+  "tile": {
+    "z": 13,
+    "x": 6792,
+    "y": 3393
+  },
+  "segments": [
+    {
+      "id": "34502253",
+      "tileScore": 5,
+      "name": "cd-中州-汾口",
+      "distanceM": 11015.2001953125,
+      "avgGrade": -0.4466555118560791,
+      "startLat": 29.465274810791016,
+      "startLng": 118.46741485595703
+    },
+    {
+      "id": "33350531",
+      "tileScore": 21,
+      "name": "cd-汾口到璜尖村",
+      "distanceM": 29351.400390625,
+      "avgGrade": 0.8156339526176453,
+      "startLat": 29.422534942626953,
+      "startLng": 118.5295181274414
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T20:21:41.323Z",
+  "tile": {
+    "z": 13,
+    "x": 6837,
+    "y": 3384
+  },
+  "segments": [
+    {
+      "id": "12707385",
+      "tileScore": 44,
+      "name": "Changzheng Climb",
+      "distanceM": 9398.900390625,
+      "avgGrade": 0.9788379073143005,
+      "startLat": 29.803342819213867,
+      "startLng": 120.42772674560547
+    }
+  ]
+}

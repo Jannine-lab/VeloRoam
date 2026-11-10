@@ -1,0 +1,29 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T20:11:18.641Z",
+  "tile": {
+    "z": 13,
+    "x": 6723,
+    "y": 3071
+  },
+  "segments": [
+    {
+      "id": "8315093",
+      "tileScore": 16,
+      "name": "Chongli summit finish",
+      "distanceM": 3948.199951171875,
+      "avgGrade": 7.375513076782227,
+      "startLat": 41.010066986083984,
+      "startLng": 115.44783020019531
+    },
+    {
+      "id": "34734696",
+      "tileScore": 22,
+      "name": "崇礼站到长城岭高原训练基地",
+      "distanceM": 14549.400390625,
+      "avgGrade": 2.699767589569092,
+      "startLat": 41.004329681396484,
+      "startLng": 115.31106567382812
+    }
+  ]
+}

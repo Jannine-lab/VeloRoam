@@ -1,0 +1,20 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T20:36:44.358Z",
+  "tile": {
+    "z": 13,
+    "x": 6799,
+    "y": 3387
+  },
+  "segments": [
+    {
+      "id": "34502390",
+      "tileScore": 2,
+      "name": "cd-千威线 大桥到威坪小桥",
+      "distanceM": 8045.89990234375,
+      "avgGrade": 0.014914427883923054,
+      "startLat": 29.669084548950195,
+      "startLng": 118.8249740600586
+    }
+  ]
+}

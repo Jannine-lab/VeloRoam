@@ -1,0 +1,29 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T20:25:30.816Z",
+  "tile": {
+    "z": 13,
+    "x": 6810,
+    "y": 3376
+  },
+  "segments": [
+    {
+      "id": "19028479",
+      "tileScore": 4,
+      "name": "Jingyun Line 8K (Eastbound)",
+      "distanceM": 8117.2001953125,
+      "avgGrade": 0.6504706144332886,
+      "startLat": 30.120941162109375,
+      "startLng": 119.24410247802734
+    },
+    {
+      "id": "40010672",
+      "tileScore": 2,
+      "name": "上庄村to浪山村缓坡",
+      "distanceM": 5694,
+      "avgGrade": 1.332982063293457,
+      "startLat": 30.165071487426758,
+      "startLng": 119.30260467529297
+    }
+  ]
+}

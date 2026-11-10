@@ -1,0 +1,38 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T19:46:19.667Z",
+  "tile": {
+    "z": 13,
+    "x": 6727,
+    "y": 3104
+  },
+  "segments": [
+    {
+      "id": "39843423",
+      "tileScore": 7,
+      "name": "这才是正宗回头弯！",
+      "distanceM": 604,
+      "avgGrade": -20.844369888305664,
+      "startLat": 39.88522720336914,
+      "startLng": 115.64411926269531
+    },
+    {
+      "id": "41917952",
+      "tileScore": 6,
+      "name": "洪水峪柏油路放坡",
+      "distanceM": 6869,
+      "avgGrade": -6.260008335113525,
+      "startLat": 39.8949089050293,
+      "startLng": 115.6510009765625
+    },
+    {
+      "id": "41903870",
+      "tileScore": 8,
+      "name": "洪水峪到岔路口",
+      "distanceM": 2418.89990234375,
+      "avgGrade": 9.19426155090332,
+      "startLat": 39.90801239013672,
+      "startLng": 115.6549301147461
+    }
+  ]
+}

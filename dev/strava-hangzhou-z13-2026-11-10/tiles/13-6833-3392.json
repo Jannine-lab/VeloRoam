@@ -1,0 +1,29 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T20:25:58.059Z",
+  "tile": {
+    "z": 13,
+    "x": 6833,
+    "y": 3392
+  },
+  "segments": [
+    {
+      "id": "38441162",
+      "tileScore": 39,
+      "name": "萃溪 穿棠里 去S211",
+      "distanceM": 705.2999877929688,
+      "avgGrade": 3.8848717212677,
+      "startLat": 29.529542922973633,
+      "startLng": 120.30951690673828
+    },
+    {
+      "id": "37457736",
+      "tileScore": 30,
+      "name": "X318至观景台（training）",
+      "distanceM": 18634.099609375,
+      "avgGrade": 2.8302950859069824,
+      "startLat": 29.555299758911133,
+      "startLng": 120.30938720703125
+    }
+  ]
+}

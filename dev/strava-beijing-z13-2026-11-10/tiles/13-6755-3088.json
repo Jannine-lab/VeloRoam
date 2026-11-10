@@ -1,0 +1,29 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T19:47:43.105Z",
+  "tile": {
+    "z": 13,
+    "x": 6755,
+    "y": 3088
+  },
+  "segments": [
+    {
+      "id": "14511309",
+      "tileScore": 18,
+      "name": "南线下",
+      "distanceM": 5451.10009765625,
+      "avgGrade": -0.6805965900421143,
+      "startLat": 40.451019287109375,
+      "startLng": 116.89752960205078
+    },
+    {
+      "id": "37028639",
+      "tileScore": 8,
+      "name": "密云小南pro版",
+      "distanceM": 23760.80078125,
+      "avgGrade": 0.011784114874899387,
+      "startLat": 40.40140914916992,
+      "startLng": 116.843017578125
+    }
+  ]
+}

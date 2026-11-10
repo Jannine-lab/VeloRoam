@@ -1,0 +1,38 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T19:50:03.762Z",
+  "tile": {
+    "z": 13,
+    "x": 6724,
+    "y": 3109
+  },
+  "segments": [
+    {
+      "id": "15294833",
+      "tileScore": 11,
+      "name": "X017 climb to the top",
+      "distanceM": 22640.599609375,
+      "avgGrade": 3.7463672161102295,
+      "startLat": 39.683223724365234,
+      "startLng": 115.58781433105469
+    },
+    {
+      "id": "33446023",
+      "tileScore": 6,
+      "name": "森水路爬坡（隧道口）",
+      "distanceM": 6204.10009765625,
+      "avgGrade": 6.769716739654541,
+      "startLat": 39.71665573120117,
+      "startLng": 115.53290557861328
+    },
+    {
+      "id": "33343381",
+      "tileScore": 3,
+      "name": "悬崖上的村落",
+      "distanceM": 5629.5,
+      "avgGrade": 4.380495548248291,
+      "startLat": 39.733245849609375,
+      "startLng": 115.52876281738281
+    }
+  ]
+}

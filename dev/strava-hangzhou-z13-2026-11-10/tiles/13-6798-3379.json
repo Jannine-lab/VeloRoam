@@ -1,0 +1,110 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T20:34:55.750Z",
+  "tile": {
+    "z": 13,
+    "x": 6798,
+    "y": 3379
+  },
+  "segments": [
+    {
+      "id": "21243468",
+      "tileScore": 17,
+      "name": "Southbound Bump to Wumu",
+      "distanceM": 1739.9000244140625,
+      "avgGrade": 4.494511127471924,
+      "startLat": 29.99836540222168,
+      "startLng": 118.75625610351562
+    },
+    {
+      "id": "42428232",
+      "tileScore": 1,
+      "name": "Clean Slate 26",
+      "distanceM": 113029.5,
+      "avgGrade": -0.006016128696501255,
+      "startLat": 30.0743350982666,
+      "startLng": 118.81914520263672
+    },
+    {
+      "id": "17846980",
+      "tileScore": 6,
+      "name": "Sprint to the Overpass",
+      "distanceM": 2267.39990234375,
+      "avgGrade": -0.5821645855903625,
+      "startLat": 30.005306243896484,
+      "startLng": 118.74763488769531
+    },
+    {
+      "id": "27605745",
+      "tileScore": 4,
+      "name": "Got to catch that train! ",
+      "distanceM": 6682.60009765625,
+      "avgGrade": 0.511776864528656,
+      "startLat": 30.00899314880371,
+      "startLng": 118.74986267089844
+    },
+    {
+      "id": "17855158",
+      "tileScore": 32,
+      "name": "Second Hill After Sanyang Village",
+      "distanceM": 1464.0999755859375,
+      "avgGrade": 4.849395751953125,
+      "startLat": 30.020917892456055,
+      "startLng": 118.77543640136719
+    },
+    {
+      "id": "22337974",
+      "tileScore": 20,
+      "name": "Fast section - Up",
+      "distanceM": 7772,
+      "avgGrade": 1.5440040826797485,
+      "startLat": 30.00115394592285,
+      "startLng": 118.75499725341797
+    },
+    {
+      "id": "19747286",
+      "tileScore": 21,
+      "name": "Little South",
+      "distanceM": 9949.5,
+      "avgGrade": 7.059650897979736,
+      "startLat": 29.996849060058594,
+      "startLng": 118.74286651611328
+    },
+    {
+      "id": "20341683",
+      "tileScore": 22,
+      "name": "Vlads Extended",
+      "distanceM": 17938.80078125,
+      "avgGrade": 3.555421829223633,
+      "startLat": 30.00111198425293,
+      "startLng": 118.75499725341797
+    },
+    {
+      "id": "17867290",
+      "tileScore": 53,
+      "name": "Turn to turn",
+      "distanceM": 6520.89990234375,
+      "avgGrade": 6.259871959686279,
+      "startLat": 30.021480560302734,
+      "startLng": 118.77569580078125
+    },
+    {
+      "id": "41604334",
+      "tileScore": 49,
+      "name": "First Hill After Sanyang Bypass",
+      "distanceM": 1247.0999755859375,
+      "avgGrade": 4.795124530792236,
+      "startLat": 30.02189826965332,
+      "startLng": 118.78795623779297
+    },
+    {
+      "id": "15437633",
+      "tileScore": 45,
+      "name": "West Back",
+      "distanceM": 3524.199951171875,
+      "avgGrade": 3.9952330589294434,
+      "startLat": 30.009180068969727,
+      "startLng": 118.74813842773438
+    }
+  ]
+}

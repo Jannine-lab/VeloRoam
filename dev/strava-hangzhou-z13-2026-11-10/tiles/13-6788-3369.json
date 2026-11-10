@@ -1,0 +1,20 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T20:40:15.291Z",
+  "tile": {
+    "z": 13,
+    "x": 6788,
+    "y": 3369
+  },
+  "segments": [
+    {
+      "id": "42155419",
+      "tileScore": 7,
+      "name": "兴隆乡爬坡",
+      "distanceM": 2648.10009765625,
+      "avgGrade": 5.739964485168457,
+      "startLat": 30.368553161621094,
+      "startLng": 118.30748748779297
+    }
+  ]
+}

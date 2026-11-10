@@ -1,0 +1,47 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T19:47:07.795Z",
+  "tile": {
+    "z": 13,
+    "x": 6727,
+    "y": 3101
+  },
+  "segments": [
+    {
+      "id": "32159859",
+      "tileScore": 59,
+      "name": "新兴村到灵岳寺",
+      "distanceM": 6330.5,
+      "avgGrade": 5.955295562744141,
+      "startLat": 39.98257064819336,
+      "startLng": 115.68830871582031
+    },
+    {
+      "id": "5685328",
+      "tileScore": 10,
+      "name": "County Road Climb",
+      "distanceM": 4505.7998046875,
+      "avgGrade": 3.7507214546203613,
+      "startLat": 39.97081756591797,
+      "startLng": 115.65423583984375
+    },
+    {
+      "id": "33223908",
+      "tileScore": 5,
+      "name": "门票一张的赛段你来不来",
+      "distanceM": 2991.5,
+      "avgGrade": 6.317900657653809,
+      "startLat": 40.00130844116211,
+      "startLng": 115.63429260253906
+    },
+    {
+      "id": "5685327",
+      "tileScore": 6,
+      "name": "Baiyu Tunnel Climb",
+      "distanceM": 6723.10009765625,
+      "avgGrade": 4.640716552734375,
+      "startLat": 39.99757766723633,
+      "startLng": 115.63723754882812
+    }
+  ]
+}

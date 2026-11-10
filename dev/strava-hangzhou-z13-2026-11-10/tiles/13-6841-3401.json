@@ -1,0 +1,20 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T20:34:58.224Z",
+  "tile": {
+    "z": 13,
+    "x": 6841,
+    "y": 3401
+  },
+  "segments": [
+    {
+      "id": "16636217",
+      "tileScore": 10,
+      "name": "磐新线 万苍乡-尚湖镇",
+      "distanceM": 6257.7001953125,
+      "avgGrade": 0.4314684271812439,
+      "startLat": 29.19171714782715,
+      "startLng": 120.68568420410156
+    }
+  ]
+}

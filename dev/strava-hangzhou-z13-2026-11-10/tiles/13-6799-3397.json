@@ -1,0 +1,20 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T20:40:00.435Z",
+  "tile": {
+    "z": 13,
+    "x": 6799,
+    "y": 3397
+  },
+  "segments": [
+    {
+      "id": "34283581",
+      "tileScore": 3,
+      "name": "马岭A",
+      "distanceM": 4443.60009765625,
+      "avgGrade": 4.329822540283203,
+      "startLat": 29.31580352783203,
+      "startLng": 118.78782653808594
+    }
+  ]
+}

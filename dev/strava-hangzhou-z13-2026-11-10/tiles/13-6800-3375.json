@@ -1,0 +1,92 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T20:32:41.856Z",
+  "tile": {
+    "z": 13,
+    "x": 6800,
+    "y": 3375
+  },
+  "segments": [
+    {
+      "id": "12597369",
+      "tileScore": 6,
+      "name": "Xscape Carry the Bike",
+      "distanceM": 2490.300048828125,
+      "avgGrade": 7.886599540710449,
+      "startLat": 30.1851863861084,
+      "startLng": 118.86576843261719
+    },
+    {
+      "id": "25706754",
+      "tileScore": 41,
+      "name": "Guigui's kingdom",
+      "distanceM": 10357.5,
+      "avgGrade": -4.304127216339111,
+      "startLat": 30.19109535217285,
+      "startLng": 118.81766510009766
+    },
+    {
+      "id": "41311388",
+      "tileScore": 66,
+      "name": "太子尖放坡追逐(南)到颊口村",
+      "distanceM": 31090.30078125,
+      "avgGrade": -3.453167200088501,
+      "startLat": 30.172243118286133,
+      "startLng": 118.89197540283203
+    },
+    {
+      "id": "5887950",
+      "tileScore": 3,
+      "name": "Country Road Climb",
+      "distanceM": 3428.10009765625,
+      "avgGrade": 11.843295097351074,
+      "startLat": 30.148914337158203,
+      "startLng": 118.84736633300781
+    },
+    {
+      "id": "37890905",
+      "tileScore": 204,
+      "name": "龙岗-太子尖 南线KOM👑",
+      "distanceM": 45836.19921875,
+      "avgGrade": 2.6188907623291016,
+      "startLat": 30.16309928894043,
+      "startLng": 119.11538696289062
+    },
+    {
+      "id": "30019172",
+      "tileScore": 88,
+      "name": "太子尖标准爬坡",
+      "distanceM": 13067.400390625,
+      "avgGrade": 5.291029453277588,
+      "startLat": 30.155597686767578,
+      "startLng": 118.8673324584961
+    },
+    {
+      "id": "29909519",
+      "tileScore": 251,
+      "name": "新路-华浪线南坡",
+      "distanceM": 20002.900390625,
+      "avgGrade": 4.872293472290039,
+      "startLat": 30.1416015625,
+      "startLng": 118.92479705810547
+    },
+    {
+      "id": "35721816",
+      "tileScore": 5,
+      "name": "Ningdun to Jingzhou",
+      "distanceM": 70412.3984375,
+      "avgGrade": 1.488232135772705,
+      "startLat": 30.4671630859375,
+      "startLng": 119.11399841308594
+    },
+    {
+      "id": "14136348",
+      "tileScore": 14,
+      "name": "徽杭古道爬坡",
+      "distanceM": 30268.80078125,
+      "avgGrade": 3.7332170009613037,
+      "startLat": 30.143230438232422,
+      "startLng": 118.75184631347656
+    }
+  ]
+}

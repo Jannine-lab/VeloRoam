@@ -1,0 +1,38 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T19:37:56.794Z",
+  "tile": {
+    "z": 13,
+    "x": 6736,
+    "y": 3108
+  },
+  "segments": [
+    {
+      "id": "8574770",
+      "tileScore": 15,
+      "name": "南北区红绿灯",
+      "distanceM": 1296,
+      "avgGrade": 0.14660494029521942,
+      "startLat": 39.7327766418457,
+      "startLng": 116.0534896850586
+    },
+    {
+      "id": "8584728",
+      "tileScore": 9,
+      "name": "新镇到河北镇",
+      "distanceM": 16250.900390625,
+      "avgGrade": 0.3070599138736725,
+      "startLat": 39.7327995300293,
+      "startLng": 116.05347442626953
+    },
+    {
+      "id": "31639914",
+      "tileScore": 6,
+      "name": "良坨路W-E",
+      "distanceM": 4906.10009765625,
+      "avgGrade": -0.5014166235923767,
+      "startLat": 39.775733947753906,
+      "startLng": 116.02961730957031
+    }
+  ]
+}

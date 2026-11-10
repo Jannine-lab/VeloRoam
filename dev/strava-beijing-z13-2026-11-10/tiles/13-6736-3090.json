@@ -1,0 +1,47 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T19:43:59.678Z",
+  "tile": {
+    "z": 13,
+    "x": 6736,
+    "y": 3090
+  },
+  "segments": [
+    {
+      "id": "27551143",
+      "tileScore": 1,
+      "name": "青龙桥车站",
+      "distanceM": 433.70001220703125,
+      "avgGrade": 4.380908489227295,
+      "startLat": 40.34646987915039,
+      "startLng": 116.01570129394531
+    },
+    {
+      "id": "26406605",
+      "tileScore": 10,
+      "name": "水关长城backside another way",
+      "distanceM": 2989.699951171875,
+      "avgGrade": 5.3784661293029785,
+      "startLat": 40.3806037902832,
+      "startLng": 116.0379867553711
+    },
+    {
+      "id": "12789406",
+      "tileScore": 27,
+      "name": "Shuiguan Great Wall",
+      "distanceM": 4182.5,
+      "avgGrade": 5.829049587249756,
+      "startLat": 40.340728759765625,
+      "startLng": 116.04037475585938
+    },
+    {
+      "id": "30020457",
+      "tileScore": 6,
+      "name": "音乐谷放坡",
+      "distanceM": 3926.800048828125,
+      "avgGrade": -4.553325653076172,
+      "startLat": 40.362796783447266,
+      "startLng": 116.0450210571289
+    }
+  ]
+}

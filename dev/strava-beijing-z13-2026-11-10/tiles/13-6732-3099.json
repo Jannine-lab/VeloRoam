@@ -1,0 +1,119 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T19:41:23.577Z",
+  "tile": {
+    "z": 13,
+    "x": 6732,
+    "y": 3099
+  },
+  "segments": [
+    {
+      "id": "5325575",
+      "tileScore": 1,
+      "name": "County Road Climb",
+      "distanceM": 6230.39990234375,
+      "avgGrade": 5.607986927032471,
+      "startLat": 40.0440559387207,
+      "startLng": 115.86656951904297
+    },
+    {
+      "id": "38005409",
+      "tileScore": 56,
+      "name": "戒谭大高菩东",
+      "distanceM": 141339.90625,
+      "avgGrade": 0.024762999266386032,
+      "startLat": 39.883644104003906,
+      "startLng": 116.08847045898438
+    },
+    {
+      "id": "5442194",
+      "tileScore": 9,
+      "name": "County Road Climb",
+      "distanceM": 3490.800048828125,
+      "avgGrade": 7.19605827331543,
+      "startLat": 40.064823150634766,
+      "startLng": 115.87924194335938
+    },
+    {
+      "id": "27886645",
+      "tileScore": 144,
+      "name": "菩萨鹿第一个长坡",
+      "distanceM": 4029.89990234375,
+      "avgGrade": 4.51127815246582,
+      "startLat": 40.049560546875,
+      "startLng": 115.8824234008789
+    },
+    {
+      "id": "25207392",
+      "tileScore": 97,
+      "name": "大村放坡到检查站",
+      "distanceM": 10085,
+      "avgGrade": -4.846802234649658,
+      "startLat": 40.092891693115234,
+      "startLng": 115.85045623779297
+    },
+    {
+      "id": "22050734",
+      "tileScore": 2,
+      "name": "高崖口村到大村顶",
+      "distanceM": 35926.80078125,
+      "avgGrade": 1.6233006715774536,
+      "startLat": 40.134185791015625,
+      "startLng": 115.99026489257812
+    },
+    {
+      "id": "42111498",
+      "tileScore": 8,
+      "name": "I know a shortcut in Gaoqin Rd 2#",
+      "distanceM": 2377.10009765625,
+      "avgGrade": 2.1286439895629883,
+      "startLat": 40.06595993041992,
+      "startLng": 115.85161590576172
+    },
+    {
+      "id": "12618795",
+      "tileScore": 31,
+      "name": "大村爬坡尾段",
+      "distanceM": 2973.5,
+      "avgGrade": 3.3697659969329834,
+      "startLat": 40.07111740112305,
+      "startLng": 115.85543823242188
+    },
+    {
+      "id": "4509158",
+      "tileScore": 263,
+      "name": "大村爬坡全程",
+      "distanceM": 10926.900390625,
+      "avgGrade": 4.517292022705078,
+      "startLat": 40.038326263427734,
+      "startLng": 115.87004089355469
+    },
+    {
+      "id": "12662508",
+      "tileScore": 179,
+      "name": "菩萨鹿正爬全程",
+      "distanceM": 12557.7001953125,
+      "avgGrade": 2.3013768196105957,
+      "startLat": 40.03826141357422,
+      "startLng": 115.8712158203125
+    },
+    {
+      "id": "31447117",
+      "tileScore": 8,
+      "name": "大爷求求您了 让我们过去吧",
+      "distanceM": 2012.300048828125,
+      "avgGrade": 1.9182029962539673,
+      "startLat": 40.06512451171875,
+      "startLng": 115.88005828857422
+    },
+    {
+      "id": "34349336",
+      "tileScore": 7,
+      "name": "毛儿岩沟climb",
+      "distanceM": 4509.60009765625,
+      "avgGrade": 7.078233242034912,
+      "startLat": 40.07568359375,
+      "startLng": 115.89230346679688
+    }
+  ]
+}

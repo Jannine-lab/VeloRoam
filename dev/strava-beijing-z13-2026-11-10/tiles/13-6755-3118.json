@@ -1,0 +1,29 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T19:47:25.144Z",
+  "tile": {
+    "z": 13,
+    "x": 6755,
+    "y": 3118
+  },
+  "segments": [
+    {
+      "id": "9353544",
+      "tileScore": 3,
+      "name": "d'arenberg forest",
+      "distanceM": 8009.89990234375,
+      "avgGrade": 0.01997528038918972,
+      "startLat": 39.39859390258789,
+      "startLng": 116.93527221679688
+    },
+    {
+      "id": "32712857",
+      "tileScore": 16,
+      "name": "京岚线之廊坊脱逃",
+      "distanceM": 9308.599609375,
+      "avgGrade": -0.0010742753511294723,
+      "startLat": 39.46958923339844,
+      "startLng": 116.78204345703125
+    }
+  ]
+}

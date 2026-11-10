@@ -1,0 +1,20 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T19:41:43.293Z",
+  "tile": {
+    "z": 13,
+    "x": 6736,
+    "y": 3115
+  },
+  "segments": [
+    {
+      "id": "21315667",
+      "tileScore": 2,
+      "name": "腾飞大街休闲骑",
+      "distanceM": 8169.2998046875,
+      "avgGrade": 0.017137330025434494,
+      "startLat": 39.521202087402344,
+      "startLng": 116.05062866210938
+    }
+  ]
+}

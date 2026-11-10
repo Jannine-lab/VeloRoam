@@ -1,0 +1,38 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T20:19:08.705Z",
+  "tile": {
+    "z": 13,
+    "x": 6827,
+    "y": 3381
+  },
+  "segments": [
+    {
+      "id": "38720265",
+      "tileScore": 80,
+      "name": "觃口climb",
+      "distanceM": 3190.60009765625,
+      "avgGrade": 1.002946138381958,
+      "startLat": 29.962974548339844,
+      "startLng": 120.0074234008789
+    },
+    {
+      "id": "38465766",
+      "tileScore": 20,
+      "name": "up and down",
+      "distanceM": 11679.7001953125,
+      "avgGrade": -0.10787948220968246,
+      "startLat": 29.903440475463867,
+      "startLng": 120.1055679321289
+    },
+    {
+      "id": "38720266",
+      "tileScore": 55,
+      "name": "觃口-上官",
+      "distanceM": 5918.89990234375,
+      "avgGrade": 2.3653042316436768,
+      "startLat": 29.937599182128906,
+      "startLng": 120.02265167236328
+    }
+  ]
+}

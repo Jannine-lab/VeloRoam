@@ -1,0 +1,74 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T20:26:58.472Z",
+  "tile": {
+    "z": 13,
+    "x": 6814,
+    "y": 3387
+  },
+  "segments": [
+    {
+      "id": "32825014",
+      "tileScore": 37,
+      "name": "攀登勇峰",
+      "distanceM": 6508.5,
+      "avgGrade": 5.81393575668335,
+      "startLat": 29.72334861755371,
+      "startLng": 119.4574966430664
+    },
+    {
+      "id": "28063095",
+      "tileScore": 4,
+      "name": "BPBP mainline platform to bottom",
+      "distanceM": 2100,
+      "avgGrade": -11.157142639160156,
+      "startLat": 29.71002960205078,
+      "startLng": 119.48744201660156
+    },
+    {
+      "id": "38189181",
+      "tileScore": 12,
+      "name": "胥领到大坝",
+      "distanceM": 6499.60009765625,
+      "avgGrade": 2.1201305389404297,
+      "startLat": 29.72370719909668,
+      "startLng": 119.45703125
+    },
+    {
+      "id": "39464369",
+      "tileScore": 2,
+      "name": "2025 Giant 越野越有趣",
+      "distanceM": 3005,
+      "avgGrade": -0.09317804127931595,
+      "startLat": 29.68667221069336,
+      "startLng": 119.48588562011719
+    },
+    {
+      "id": "35910307",
+      "tileScore": 3,
+      "name": "BPBP MainLine Top 2 Platform",
+      "distanceM": 1307.800048828125,
+      "avgGrade": -15.415200233459473,
+      "startLat": 29.715999603271484,
+      "startLng": 119.48644256591797
+    },
+    {
+      "id": "28360376",
+      "tileScore": 2,
+      "name": "BPBP Wall Ride to Bottom of Fast Section",
+      "distanceM": 405.5,
+      "avgGrade": -20.764488220214844,
+      "startLat": 29.701955795288086,
+      "startLng": 119.4866714477539
+    },
+    {
+      "id": "38189172",
+      "tileScore": 14,
+      "name": "乾潭到胥领",
+      "distanceM": 15537.2998046875,
+      "avgGrade": 0.7195587158203125,
+      "startLat": 29.631196975708008,
+      "startLng": 119.52735137939453
+    }
+  ]
+}

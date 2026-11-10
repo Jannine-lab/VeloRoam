@@ -1,0 +1,29 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T20:34:17.527Z",
+  "tile": {
+    "z": 13,
+    "x": 6799,
+    "y": 3376
+  },
+  "segments": [
+    {
+      "id": "5887950",
+      "tileScore": 3,
+      "name": "Country Road Climb",
+      "distanceM": 3428.10009765625,
+      "avgGrade": 11.843295097351074,
+      "startLat": 30.148914337158203,
+      "startLng": 118.84736633300781
+    },
+    {
+      "id": "14136348",
+      "tileScore": 14,
+      "name": "徽杭古道爬坡",
+      "distanceM": 30268.80078125,
+      "avgGrade": 3.7332170009613037,
+      "startLat": 30.143230438232422,
+      "startLng": 118.75184631347656
+    }
+  ]
+}

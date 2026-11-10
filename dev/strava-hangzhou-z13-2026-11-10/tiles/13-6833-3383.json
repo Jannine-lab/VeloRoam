@@ -1,0 +1,29 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T20:20:38.544Z",
+  "tile": {
+    "z": 13,
+    "x": 6833,
+    "y": 3383
+  },
+  "segments": [
+    {
+      "id": "35677260",
+      "tileScore": 32,
+      "name": "快逃！柯诸高速修路，全是烂路",
+      "distanceM": 11918.7998046875,
+      "avgGrade": 0.006712085567414761,
+      "startLat": 29.87831687927246,
+      "startLng": 120.29871368408203
+    },
+    {
+      "id": "39533512",
+      "tileScore": 3,
+      "name": "10km",
+      "distanceM": 9992,
+      "avgGrade": 0.0540432333946228,
+      "startLat": 29.861278533935547,
+      "startLng": 120.32577514648438
+    }
+  ]
+}

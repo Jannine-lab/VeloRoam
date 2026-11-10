@@ -1,0 +1,29 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T20:33:01.316Z",
+  "tile": {
+    "z": 13,
+    "x": 6800,
+    "y": 3377
+  },
+  "segments": [
+    {
+      "id": "12587247",
+      "tileScore": 9,
+      "name": "Half on, Half Off",
+      "distanceM": 6091.39990234375,
+      "avgGrade": 4.570377826690674,
+      "startLat": 30.04128074645996,
+      "startLng": 118.84868621826172
+    },
+    {
+      "id": "25143385",
+      "tileScore": 4,
+      "name": "Owen's recovery spin",
+      "distanceM": 1461.5999755859375,
+      "avgGrade": 11.13847827911377,
+      "startLat": 30.0723934173584,
+      "startLng": 118.82564544677734
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T20:12:50.332Z",
+  "tile": {
+    "z": 13,
+    "x": 6719,
+    "y": 3067
+  },
+  "segments": [
+    {
+      "id": "39545151",
+      "tileScore": 25,
+      "name": "反爬瓦房沟",
+      "distanceM": 8459,
+      "avgGrade": 4.348031997680664,
+      "startLat": 41.16648483276367,
+      "startLng": 115.26874542236328
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T20:23:13.351Z",
+  "tile": {
+    "z": 13,
+    "x": 6814,
+    "y": 3378
+  },
+  "segments": [
+    {
+      "id": "42169664",
+      "tileScore": 3,
+      "name": "马岭下坡-法道",
+      "distanceM": 12910,
+      "avgGrade": -1.2811774015426636,
+      "startLat": 30.06277084350586,
+      "startLng": 119.50337982177734
+    },
+    {
+      "id": "40612892",
+      "tileScore": 1,
+      "name": "盛家村gravel down",
+      "distanceM": 1480.5,
+      "avgGrade": -11.212428092956543,
+      "startLat": 30.031112670898438,
+      "startLng": 119.46907806396484
+    },
+    {
+      "id": "40569254",
+      "tileScore": 10,
+      "name": "珊瑚岭gravel down",
+      "distanceM": 2139.300048828125,
+      "avgGrade": -6.375916957855225,
+      "startLat": 30.04197120666504,
+      "startLng": 119.48785400390625
+    },
+    {
+      "id": "40569244",
+      "tileScore": 5,
+      "name": "鳌山gravel down 完整版",
+      "distanceM": 2283.699951171875,
+      "avgGrade": -14.502779960632324,
+      "startLat": 30.072412490844727,
+      "startLng": 119.489990234375
+    },
+    {
+      "id": "41383252",
+      "tileScore": 19,
+      "name": "法横线climb(山和海)",
+      "distanceM": 5984.2998046875,
+      "avgGrade": 2.6736629009246826,
+      "startLat": 30.0476016998291,
+      "startLng": 119.46366882324219
+    }
+  ]
+}

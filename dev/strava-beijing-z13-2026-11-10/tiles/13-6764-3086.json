@@ -1,0 +1,20 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T19:58:44.454Z",
+  "tile": {
+    "z": 13,
+    "x": 6764,
+    "y": 3086
+  },
+  "segments": [
+    {
+      "id": "10663618",
+      "tileScore": 10,
+      "name": "石门山到罗圈沟爬坡",
+      "distanceM": 23747.80078125,
+      "avgGrade": 2.0161867141723633,
+      "startLat": 40.48835372924805,
+      "startLng": 117.24122619628906
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T19:53:09.119Z",
+  "tile": {
+    "z": 13,
+    "x": 6765,
+    "y": 3114
+  },
+  "segments": [
+    {
+      "id": "14502042",
+      "tileScore": 8,
+      "name": "S220( 祥瑞-s326)",
+      "distanceM": 5108.5,
+      "avgGrade": 0.003915043547749519,
+      "startLat": 39.545047760009766,
+      "startLng": 117.33409118652344
+    }
+  ]
+}

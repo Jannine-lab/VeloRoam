@@ -1,0 +1,47 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T20:32:29.207Z",
+  "tile": {
+    "z": 13,
+    "x": 6801,
+    "y": 3373
+  },
+  "segments": [
+    {
+      "id": "32361176",
+      "tileScore": 5,
+      "name": "cd-倒上线东往西缓下",
+      "distanceM": 11272.2001953125,
+      "avgGrade": -1.1497312784194946,
+      "startLat": 30.23084831237793,
+      "startLng": 118.89395141601562
+    },
+    {
+      "id": "35721816",
+      "tileScore": 5,
+      "name": "Ningdun to Jingzhou",
+      "distanceM": 70412.3984375,
+      "avgGrade": 1.488232135772705,
+      "startLat": 30.4671630859375,
+      "startLng": 119.11399841308594
+    },
+    {
+      "id": "38880785",
+      "tileScore": 19,
+      "name": "加练2",
+      "distanceM": 6257.10009765625,
+      "avgGrade": 5.015102863311768,
+      "startLat": 30.243013381958008,
+      "startLng": 118.91634368896484
+    },
+    {
+      "id": "40310658",
+      "tileScore": 9,
+      "name": "皖浙交界浅浅热身",
+      "distanceM": 508.3999938964844,
+      "avgGrade": 10.896931648254395,
+      "startLat": 30.22722625732422,
+      "startLng": 118.89256286621094
+    }
+  ]
+}

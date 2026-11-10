@@ -1,0 +1,38 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T20:06:36.978Z",
+  "tile": {
+    "z": 13,
+    "x": 6767,
+    "y": 3079
+  },
+  "segments": [
+    {
+      "id": "37020618",
+      "tileScore": 1,
+      "name": "the complete 兩間房 climb",
+      "distanceM": 16059.900390625,
+      "avgGrade": 3.2279155254364014,
+      "startLat": 40.7384147644043,
+      "startLng": 117.3429946899414
+    },
+    {
+      "id": "32924755",
+      "tileScore": 1,
+      "name": "The famous 大石門 climb",
+      "distanceM": 5895.5,
+      "avgGrade": 6.598252773284912,
+      "startLat": 40.73457336425781,
+      "startLng": 117.40223693847656
+    },
+    {
+      "id": "37271646",
+      "tileScore": 8,
+      "name": "兩間房 → 小石門 → 上灤線 [94→86]",
+      "distanceM": 19279.599609375,
+      "avgGrade": 4.3356709480285645,
+      "startLat": 40.7337532043457,
+      "startLng": 117.3499526977539
+    }
+  ]
+}

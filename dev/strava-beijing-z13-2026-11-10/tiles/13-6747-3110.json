@@ -1,0 +1,20 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T19:35:32.881Z",
+  "tile": {
+    "z": 13,
+    "x": 6747,
+    "y": 3110
+  },
+  "segments": [
+    {
+      "id": "35162673",
+      "tileScore": 15,
+      "name": "打工人萎靡不振",
+      "distanceM": 6438.7998046875,
+      "avgGrade": -0.06833571195602417,
+      "startLat": 39.720008850097656,
+      "startLng": 116.46171569824219
+    }
+  ]
+}

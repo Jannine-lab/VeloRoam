@@ -1,0 +1,29 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T19:57:31.753Z",
+  "tile": {
+    "z": 13,
+    "x": 6746,
+    "y": 3079
+  },
+  "segments": [
+    {
+      "id": "19049898",
+      "tileScore": 2,
+      "name": "三潭沟村 to 三间房村",
+      "distanceM": 7165,
+      "avgGrade": 0.4912770390510559,
+      "startLat": 40.69748306274414,
+      "startLng": 116.45126342773438
+    },
+    {
+      "id": "38048121",
+      "tileScore": 32,
+      "name": "千沙公路放坡至滴水湖",
+      "distanceM": 22426,
+      "avgGrade": -1.2298225164413452,
+      "startLat": 40.73629379272461,
+      "startLng": 116.36222076416016
+    }
+  ]
+}

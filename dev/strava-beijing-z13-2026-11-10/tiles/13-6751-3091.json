@@ -1,0 +1,47 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T19:43:25.229Z",
+  "tile": {
+    "z": 13,
+    "x": 6751,
+    "y": 3091
+  },
+  "segments": [
+    {
+      "id": "30997049",
+      "tileScore": 16,
+      "name": "Tonghuailu Northbound from G101 通怀路G101北向",
+      "distanceM": 15189.2998046875,
+      "avgGrade": 0.3634137213230133,
+      "startLat": 40.32937240600586,
+      "startLng": 116.71984100341797
+    },
+    {
+      "id": "35959673",
+      "tileScore": 6,
+      "name": "ucaser的冬训第四段",
+      "distanceM": 5716.5,
+      "avgGrade": -0.08746610581874847,
+      "startLat": 40.32741928100586,
+      "startLng": 116.71993255615234
+    },
+    {
+      "id": "39381541",
+      "tileScore": 4,
+      "name": "杨雁路（南→北）",
+      "distanceM": 9952.2001953125,
+      "avgGrade": 0.154739648103714,
+      "startLat": 40.282379150390625,
+      "startLng": 116.66805267333984
+    },
+    {
+      "id": "37913261",
+      "tileScore": 9,
+      "name": "通怀路（北神路-右堤路）",
+      "distanceM": 14918.7001953125,
+      "avgGrade": -0.14880654215812683,
+      "startLat": 40.40927505493164,
+      "startLng": 116.71452331542969
+    }
+  ]
+}

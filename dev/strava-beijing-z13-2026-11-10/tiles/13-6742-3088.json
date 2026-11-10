@@ -1,0 +1,29 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T19:44:25.176Z",
+  "tile": {
+    "z": 13,
+    "x": 6742,
+    "y": 3088
+  },
+  "segments": [
+    {
+      "id": "41810750",
+      "tileScore": 11,
+      "name": "路过白云道观，直插鹞子峪！",
+      "distanceM": 7016.89990234375,
+      "avgGrade": -5.810258388519287,
+      "startLat": 40.44992446899414,
+      "startLng": 116.30203247070312
+    },
+    {
+      "id": "38874094",
+      "tileScore": 3,
+      "name": "旺泉沟后山",
+      "distanceM": 728,
+      "avgGrade": 5.384615421295166,
+      "startLat": 40.42057418823242,
+      "startLng": 116.27914428710938
+    }
+  ]
+}

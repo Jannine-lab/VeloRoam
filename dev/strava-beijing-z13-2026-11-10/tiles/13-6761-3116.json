@@ -1,0 +1,20 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T19:50:33.239Z",
+  "tile": {
+    "z": 13,
+    "x": 6761,
+    "y": 3116
+  },
+  "segments": [
+    {
+      "id": "14234071",
+      "tileScore": 1,
+      "name": "S243(S211-S323)",
+      "distanceM": 4566,
+      "avgGrade": 0.013140604831278324,
+      "startLat": 39.51536560058594,
+      "startLng": 117.13826751708984
+    }
+  ]
+}

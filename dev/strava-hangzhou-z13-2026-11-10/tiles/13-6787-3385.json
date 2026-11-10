@@ -1,0 +1,29 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T20:42:21.176Z",
+  "tile": {
+    "z": 13,
+    "x": 6787,
+    "y": 3385
+  },
+  "segments": [
+    {
+      "id": "41279687",
+      "tileScore": 4,
+      "name": "cd-梅林大道到黄山北高铁站",
+      "distanceM": 3869.699951171875,
+      "avgGrade": 0.21707108616828918,
+      "startLat": 29.78203773498535,
+      "startLng": 118.25917053222656
+    },
+    {
+      "id": "40657392",
+      "tileScore": 3,
+      "name": "Huangshan north lap",
+      "distanceM": 39189.3984375,
+      "avgGrade": 0.026027444750070572,
+      "startLat": 29.720693588256836,
+      "startLng": 118.29390716552734
+    }
+  ]
+}

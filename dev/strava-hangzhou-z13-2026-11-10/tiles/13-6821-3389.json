@@ -1,0 +1,20 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T20:25:45.677Z",
+  "tile": {
+    "z": 13,
+    "x": 6821,
+    "y": 3389
+  },
+  "segments": [
+    {
+      "id": "41016269",
+      "tileScore": 3,
+      "name": "石笋—山皇庙",
+      "distanceM": 3319.10009765625,
+      "avgGrade": 6.236630439758301,
+      "startLat": 29.625579833984375,
+      "startLng": 119.74663543701172
+    }
+  ]
+}

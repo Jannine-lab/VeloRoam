@@ -1,0 +1,47 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T20:37:52.086Z",
+  "tile": {
+    "z": 13,
+    "x": 6795,
+    "y": 3382
+  },
+  "segments": [
+    {
+      "id": "41572604",
+      "tileScore": 14,
+      "name": "定潭深渡大桥",
+      "distanceM": 2481.60009765625,
+      "avgGrade": -0.04029658064246178,
+      "startLat": 29.88013458251953,
+      "startLng": 118.62569427490234
+    },
+    {
+      "id": "5344289",
+      "tileScore": 2,
+      "name": "深渡到威坪",
+      "distanceM": 47333.5,
+      "avgGrade": -0.0004225337179377675,
+      "startLat": 29.866865158081055,
+      "startLng": 118.60987091064453
+    },
+    {
+      "id": "20450070",
+      "tileScore": 2,
+      "name": "Flagstone path",
+      "distanceM": 5965.2001953125,
+      "avgGrade": 0.1341111660003662,
+      "startLat": 29.886960983276367,
+      "startLng": 118.62879943847656
+    },
+    {
+      "id": "41606573",
+      "tileScore": 11,
+      "name": "深渡北岸",
+      "distanceM": 8834.7998046875,
+      "avgGrade": 0.40068817138671875,
+      "startLat": 29.867570877075195,
+      "startLng": 118.60835266113281
+    }
+  ]
+}

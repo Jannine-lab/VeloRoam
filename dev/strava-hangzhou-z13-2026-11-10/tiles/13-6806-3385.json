@@ -1,0 +1,29 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T20:30:36.671Z",
+  "tile": {
+    "z": 13,
+    "x": 6806,
+    "y": 3385
+  },
+  "segments": [
+    {
+      "id": "5269355",
+      "tileScore": 11,
+      "name": "昌文线 - Changwen Xian ",
+      "distanceM": 11633,
+      "avgGrade": 0.10573369264602661,
+      "startLat": 29.75299644470215,
+      "startLng": 119.1852035522461
+    },
+    {
+      "id": "39147508",
+      "tileScore": 4,
+      "name": "昌文线·柴山路口至隧道爬坡",
+      "distanceM": 2745.800048828125,
+      "avgGrade": 5.42282772064209,
+      "startLat": 29.8011474609375,
+      "startLng": 119.12718200683594
+    }
+  ]
+}

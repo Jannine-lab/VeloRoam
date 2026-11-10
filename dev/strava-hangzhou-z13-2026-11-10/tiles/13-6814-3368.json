@@ -1,0 +1,101 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T20:23:03.095Z",
+  "tile": {
+    "z": 13,
+    "x": 6814,
+    "y": 3368
+  },
+  "segments": [
+    {
+      "id": "38057685",
+      "tileScore": 15,
+      "name": "Gravel？公路车咔咔就是干",
+      "distanceM": 1966.4000244140625,
+      "avgGrade": -0.6916192173957825,
+      "startLat": 30.411563873291016,
+      "startLng": 119.486328125
+    },
+    {
+      "id": "17836677",
+      "tileScore": 116,
+      "name": "qianduan",
+      "distanceM": 7595.39990234375,
+      "avgGrade": 4.184111595153809,
+      "startLat": 30.495731353759766,
+      "startLng": 119.4626693725586
+    },
+    {
+      "id": "4899176",
+      "tileScore": 4,
+      "name": "Shenwang Line Climb",
+      "distanceM": 2007.5999755859375,
+      "avgGrade": 10.724247932434082,
+      "startLat": 30.41444969177246,
+      "startLng": 119.46359252929688
+    },
+    {
+      "id": "33796185",
+      "tileScore": 30,
+      "name": "看见终点了！冲！Come on！",
+      "distanceM": 2513.10009765625,
+      "avgGrade": 5.5628509521484375,
+      "startLat": 30.420740127563477,
+      "startLng": 119.45978546142578
+    },
+    {
+      "id": "38057692",
+      "tileScore": 63,
+      "name": "龙王山顶新修的沥青好路",
+      "distanceM": 1804.5,
+      "avgGrade": 5.342199802398682,
+      "startLat": 30.418405532836914,
+      "startLng": 119.47660827636719
+    },
+    {
+      "id": "32117626",
+      "tileScore": 24,
+      "name": "cd-深王线大王庙",
+      "distanceM": 2820.300048828125,
+      "avgGrade": 7.070169448852539,
+      "startLat": 30.442893981933594,
+      "startLng": 119.44892883300781
+    },
+    {
+      "id": "4070785",
+      "tileScore": 21,
+      "name": "Shenwang Line Climb",
+      "distanceM": 998,
+      "avgGrade": 9.368738174438477,
+      "startLat": 30.438804626464844,
+      "startLng": 119.45709991455078
+    },
+    {
+      "id": "11804516",
+      "tileScore": 338,
+      "name": "龙王山",
+      "distanceM": 18715.099609375,
+      "avgGrade": 5.03443717956543,
+      "startLat": 30.495023727416992,
+      "startLng": 119.46316528320312
+    },
+    {
+      "id": "34621131",
+      "tileScore": 11,
+      "name": "#董岭龙王单日疗程(实际海拔不到2000)",
+      "distanceM": 94840.6015625,
+      "avgGrade": 0.04660451412200928,
+      "startLat": 30.51348876953125,
+      "startLng": 119.47992706298828
+    },
+    {
+      "id": "14248445",
+      "tileScore": 3,
+      "name": "LONGWANGSHAN desent",
+      "distanceM": 19360.900390625,
+      "avgGrade": -5.146454811096191,
+      "startLat": 30.40850830078125,
+      "startLng": 119.46644592285156
+    }
+  ]
+}

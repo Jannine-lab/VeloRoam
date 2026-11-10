@@ -1,0 +1,20 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T20:27:40.236Z",
+  "tile": {
+    "z": 13,
+    "x": 6809,
+    "y": 3363
+  },
+  "segments": [
+    {
+      "id": "39502493",
+      "tileScore": 2,
+      "name": "下坡到安徽",
+      "distanceM": 2484.39990234375,
+      "avgGrade": -3.7031073570251465,
+      "startLat": 30.606008529663086,
+      "startLng": 119.2579345703125
+    }
+  ]
+}

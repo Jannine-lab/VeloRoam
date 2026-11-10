@@ -1,0 +1,20 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T20:38:32.286Z",
+  "tile": {
+    "z": 13,
+    "x": 6794,
+    "y": 3386
+  },
+  "segments": [
+    {
+      "id": "40318688",
+      "tileScore": 16,
+      "name": "蜈蚣岭字碑爬坡",
+      "distanceM": 4585.39990234375,
+      "avgGrade": 6.20229434967041,
+      "startLat": 29.725505828857422,
+      "startLng": 118.62310791015625
+    }
+  ]
+}

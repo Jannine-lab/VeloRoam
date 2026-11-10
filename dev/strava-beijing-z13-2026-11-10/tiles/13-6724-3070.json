@@ -1,0 +1,20 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T20:10:45.422Z",
+  "tile": {
+    "z": 13,
+    "x": 6724,
+    "y": 3070
+  },
+  "segments": [
+    {
+      "id": "37805598",
+      "tileScore": 24,
+      "name": "KK",
+      "distanceM": 2867.300048828125,
+      "avgGrade": 4.380427837371826,
+      "startLat": 41.023765563964844,
+      "startLng": 115.5367660522461
+    }
+  ]
+}

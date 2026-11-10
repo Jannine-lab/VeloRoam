@@ -1,0 +1,20 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T19:57:14.588Z",
+  "tile": {
+    "z": 13,
+    "x": 6767,
+    "y": 3090
+  },
+  "segments": [
+    {
+      "id": "35453339",
+      "tileScore": 1,
+      "name": "趙北溝 climb, stage 2",
+      "distanceM": 831.0999755859375,
+      "avgGrade": 2.7553844451904297,
+      "startLat": 40.348106384277344,
+      "startLng": 117.37523651123047
+    }
+  ]
+}

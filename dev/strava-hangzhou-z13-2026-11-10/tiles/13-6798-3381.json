@@ -1,0 +1,29 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T20:35:18.002Z",
+  "tile": {
+    "z": 13,
+    "x": 6798,
+    "y": 3381
+  },
+  "segments": [
+    {
+      "id": "26139620",
+      "tileScore": 18,
+      "name": "Corks Highway",
+      "distanceM": 3360.300048828125,
+      "avgGrade": -0.6308960914611816,
+      "startLat": 29.94440269470215,
+      "startLng": 118.76973724365234
+    },
+    {
+      "id": "24930560",
+      "tileScore": 8,
+      "name": "Drews Droppings",
+      "distanceM": 4339,
+      "avgGrade": 6.513020992279053,
+      "startLat": 29.94124412536621,
+      "startLng": 118.77977752685547
+    }
+  ]
+}

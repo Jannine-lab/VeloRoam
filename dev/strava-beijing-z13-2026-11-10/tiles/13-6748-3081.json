@@ -1,0 +1,20 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T19:55:15.920Z",
+  "tile": {
+    "z": 13,
+    "x": 6748,
+    "y": 3081
+  },
+  "segments": [
+    {
+      "id": "42075442",
+      "tileScore": 8,
+      "name": "大黄木厂climb",
+      "distanceM": 8010.5,
+      "avgGrade": 4.319331169128418,
+      "startLat": 40.6844596862793,
+      "startLng": 116.56954956054688
+    }
+  ]
+}

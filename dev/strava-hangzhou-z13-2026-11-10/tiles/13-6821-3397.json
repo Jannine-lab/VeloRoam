@@ -1,0 +1,29 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T20:31:19.684Z",
+  "tile": {
+    "z": 13,
+    "x": 6821,
+    "y": 3397
+  },
+  "segments": [
+    {
+      "id": "39724173",
+      "tileScore": 5,
+      "name": "Fucking H↑一口气浦兰线来回",
+      "distanceM": 86810.203125,
+      "avgGrade": 0.006220467388629913,
+      "startLat": 29.24191665649414,
+      "startLng": 119.47900390625
+    },
+    {
+      "id": "33146963",
+      "tileScore": 25,
+      "name": "G351 墩头 — 柏社",
+      "distanceM": 11461.599609375,
+      "avgGrade": -0.28268304467201233,
+      "startLat": 29.350757598876953,
+      "startLng": 119.77357482910156
+    }
+  ]
+}

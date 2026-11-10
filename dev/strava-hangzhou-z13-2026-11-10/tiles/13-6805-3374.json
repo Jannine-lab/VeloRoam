@@ -1,0 +1,29 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T20:29:18.284Z",
+  "tile": {
+    "z": 13,
+    "x": 6805,
+    "y": 3374
+  },
+  "segments": [
+    {
+      "id": "28977705",
+      "tileScore": 11,
+      "name": "Miao_大龙湾后山全段",
+      "distanceM": 7481.39990234375,
+      "avgGrade": 3.534097909927368,
+      "startLat": 30.177894592285156,
+      "startLng": 119.11930084228516
+    },
+    {
+      "id": "39095021",
+      "tileScore": 5,
+      "name": "新建村climb",
+      "distanceM": 9651.2001953125,
+      "avgGrade": 5.209714889526367,
+      "startLat": 30.192014694213867,
+      "startLng": 119.11568450927734
+    }
+  ]
+}

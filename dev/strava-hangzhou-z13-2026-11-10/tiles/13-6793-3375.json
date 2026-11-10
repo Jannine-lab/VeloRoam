@@ -1,0 +1,20 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T20:38:14.900Z",
+  "tile": {
+    "z": 13,
+    "x": 6793,
+    "y": 3375
+  },
+  "segments": [
+    {
+      "id": "40202360",
+      "tileScore": 43,
+      "name": "南门到镇头",
+      "distanceM": 16103.599609375,
+      "avgGrade": 0.8085148334503174,
+      "startLat": 30.273866653442383,
+      "startLng": 118.52750396728516
+    }
+  ]
+}

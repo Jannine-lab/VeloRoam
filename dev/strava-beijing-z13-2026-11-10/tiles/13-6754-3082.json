@@ -1,0 +1,20 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T19:54:24.688Z",
+  "tile": {
+    "z": 13,
+    "x": 6754,
+    "y": 3082
+  },
+  "segments": [
+    {
+      "id": "42448614",
+      "tileScore": 1,
+      "name": "Epic ShiPaoGou Climb",
+      "distanceM": 8302.7001953125,
+      "avgGrade": 3.3940765857696533,
+      "startLat": 40.603294372558594,
+      "startLng": 116.84005737304688
+    }
+  ]
+}

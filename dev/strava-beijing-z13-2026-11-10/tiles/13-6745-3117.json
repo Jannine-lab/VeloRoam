@@ -1,0 +1,20 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T19:41:57.937Z",
+  "tile": {
+    "z": 13,
+    "x": 6745,
+    "y": 3117
+  },
+  "segments": [
+    {
+      "id": "37945411",
+      "tileScore": 9,
+      "name": "左堤路（G106检查站-天堂河）",
+      "distanceM": 18715.400390625,
+      "avgGrade": -0.03633371368050575,
+      "startLat": 39.47592544555664,
+      "startLng": 116.31153106689453
+    }
+  ]
+}

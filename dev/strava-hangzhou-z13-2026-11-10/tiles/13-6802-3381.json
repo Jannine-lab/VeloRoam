@@ -1,0 +1,47 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T20:32:05.062Z",
+  "tile": {
+    "z": 13,
+    "x": 6802,
+    "y": 3381
+  },
+  "segments": [
+    {
+      "id": "20506602",
+      "tileScore": 5,
+      "name": "Spin to Jinling Village",
+      "distanceM": 3649.10009765625,
+      "avgGrade": 2.806171417236328,
+      "startLat": 29.940317153930664,
+      "startLng": 118.94449615478516
+    },
+    {
+      "id": "42428232",
+      "tileScore": 1,
+      "name": "Clean Slate 26",
+      "distanceM": 113029.5,
+      "avgGrade": -0.006016128696501255,
+      "startLat": 30.0743350982666,
+      "startLng": 118.81914520263672
+    },
+    {
+      "id": "37740201",
+      "tileScore": 39,
+      "name": "金陵天路【DQ】",
+      "distanceM": 8305,
+      "avgGrade": 7.198073863983154,
+      "startLat": 29.94025993347168,
+      "startLng": 118.94456481933594
+    },
+    {
+      "id": "37740271",
+      "tileScore": 44,
+      "name": "胡家坪村热身坡【DQ】",
+      "distanceM": 3360.5,
+      "avgGrade": 8.903436660766602,
+      "startLat": 29.94837760925293,
+      "startLng": 118.91738891601562
+    }
+  ]
+}

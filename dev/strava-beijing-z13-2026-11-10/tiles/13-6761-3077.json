@@ -1,0 +1,20 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T20:04:43.236Z",
+  "tile": {
+    "z": 13,
+    "x": 6761,
+    "y": 3077
+  },
+  "segments": [
+    {
+      "id": "40585543",
+      "tileScore": 1,
+      "name": "the fabulous 付家店 climb",
+      "distanceM": 1801.800048828125,
+      "avgGrade": 8.774558067321777,
+      "startLat": 40.802520751953125,
+      "startLng": 117.12250518798828
+    }
+  ]
+}

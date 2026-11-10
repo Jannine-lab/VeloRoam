@@ -1,0 +1,20 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T20:36:14.665Z",
+  "tile": {
+    "z": 13,
+    "x": 6811,
+    "y": 3399
+  },
+  "segments": [
+    {
+      "id": "42448595",
+      "tileScore": 31,
+      "name": "兰溪越野赛单圈",
+      "distanceM": 2443.60009765625,
+      "avgGrade": -0.1964314877986908,
+      "startLat": 29.26395606994629,
+      "startLng": 119.33067321777344
+    }
+  ]
+}

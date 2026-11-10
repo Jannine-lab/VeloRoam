@@ -1,0 +1,20 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T20:17:22.283Z",
+  "tile": {
+    "z": 13,
+    "x": 6836,
+    "y": 3376
+  },
+  "segments": [
+    {
+      "id": "34987303",
+      "tileScore": 8,
+      "name": "群贤路（钱清-柯桥）",
+      "distanceM": 10954.599609375,
+      "avgGrade": 0.051120076328516006,
+      "startLat": 30.12327766418457,
+      "startLng": 120.41268920898438
+    }
+  ]
+}

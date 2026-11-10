@@ -1,0 +1,20 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T19:41:30.965Z",
+  "tile": {
+    "z": 13,
+    "x": 6757,
+    "y": 3098
+  },
+  "segments": [
+    {
+      "id": "39163986",
+      "tileScore": 5,
+      "name": "龙塘路（W-E）",
+      "distanceM": 26281.400390625,
+      "avgGrade": 0.01750287413597107,
+      "startLat": 40.05823516845703,
+      "startLng": 116.64350128173828
+    }
+  ]
+}

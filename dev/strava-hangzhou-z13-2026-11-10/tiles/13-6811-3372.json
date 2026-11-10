@@ -1,0 +1,38 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T20:25:05.468Z",
+  "tile": {
+    "z": 13,
+    "x": 6811,
+    "y": 3372
+  },
+  "segments": [
+    {
+      "id": "39066325",
+      "tileScore": 2,
+      "name": "横岭脚climb",
+      "distanceM": 3203,
+      "avgGrade": 6.749921798706055,
+      "startLat": 30.277786254882812,
+      "startLng": 119.33393859863281
+    },
+    {
+      "id": "38006825",
+      "tileScore": 4,
+      "name": "文阳到淤潜前",
+      "distanceM": 16952.900390625,
+      "avgGrade": -0.6866081953048706,
+      "startLat": 30.31235122680664,
+      "startLng": 119.3114013671875
+    },
+    {
+      "id": "36601632",
+      "tileScore": 7,
+      "name": "记住这场大雨吧年轻人（1）",
+      "distanceM": 13012.7001953125,
+      "avgGrade": 1.855110764503479,
+      "startLat": 30.199308395385742,
+      "startLng": 119.30426788330078
+    }
+  ]
+}

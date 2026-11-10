@@ -1,0 +1,38 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T19:49:03.840Z",
+  "tile": {
+    "z": 13,
+    "x": 6725,
+    "y": 3104
+  },
+  "segments": [
+    {
+      "id": "39456084",
+      "tileScore": 16,
+      "name": "the famous 黄安坨 climb",
+      "distanceM": 20597.400390625,
+      "avgGrade": 3.0100886821746826,
+      "startLat": 39.92502212524414,
+      "startLng": 115.56786346435547
+    },
+    {
+      "id": "41817811",
+      "tileScore": 7,
+      "name": "黄安村climb",
+      "distanceM": 2118.10009765625,
+      "avgGrade": 5.740994453430176,
+      "startLat": 39.883689880371094,
+      "startLng": 115.55159759521484
+    },
+    {
+      "id": "41817823",
+      "tileScore": 7,
+      "name": "龙王路climb",
+      "distanceM": 2558.699951171875,
+      "avgGrade": 4.244342803955078,
+      "startLat": 39.88650131225586,
+      "startLng": 115.55428314208984
+    }
+  ]
+}

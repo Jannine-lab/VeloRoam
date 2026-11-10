@@ -1,0 +1,20 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T20:17:51.068Z",
+  "tile": {
+    "z": 13,
+    "x": 6827,
+    "y": 3380
+  },
+  "segments": [
+    {
+      "id": "38852148",
+      "tileScore": 1,
+      "name": "陈村to三山坞山塘climb",
+      "distanceM": 3812.10009765625,
+      "avgGrade": 3.3210043907165527,
+      "startLat": 29.973979949951172,
+      "startLng": 120.05587768554688
+    }
+  ]
+}

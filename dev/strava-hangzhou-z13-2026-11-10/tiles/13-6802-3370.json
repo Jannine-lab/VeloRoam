@@ -1,0 +1,29 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T20:43:24.825Z",
+  "tile": {
+    "z": 13,
+    "x": 6802,
+    "y": 3370
+  },
+  "segments": [
+    {
+      "id": "39201376",
+      "tileScore": 1,
+      "name": "马上到浙江了climb",
+      "distanceM": 3227.300048828125,
+      "avgGrade": 7.616273403167725,
+      "startLat": 30.36335563659668,
+      "startLng": 118.97877502441406
+    },
+    {
+      "id": "39201393",
+      "tileScore": 1,
+      "name": "爬个陡坡到浙江climb",
+      "distanceM": 775.7000122070312,
+      "avgGrade": 7.863864898681641,
+      "startLat": 30.356718063354492,
+      "startLng": 118.95814514160156
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T20:36:17.120Z",
+  "tile": {
+    "z": 13,
+    "x": 6796,
+    "y": 3379
+  },
+  "segments": [
+    {
+      "id": "32310031",
+      "tileScore": 2,
+      "name": "Northern rubbish",
+      "distanceM": 11199,
+      "avgGrade": -0.5232610106468201,
+      "startLat": 30.020639419555664,
+      "startLng": 118.71087646484375
+    },
+    {
+      "id": "29679757",
+      "tileScore": 12,
+      "name": "Just a peak",
+      "distanceM": 446,
+      "avgGrade": 13.318385124206543,
+      "startLat": 30.00663185119629,
+      "startLng": 118.6567153930664
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T20:33:36.056Z",
+  "tile": {
+    "z": 13,
+    "x": 6832,
+    "y": 3401
+  },
+  "segments": [
+    {
+      "id": "33810354",
+      "tileScore": 23,
+      "name": "官清岭 ↘ 大联",
+      "distanceM": 5020.39990234375,
+      "avgGrade": -1.5217911005020142,
+      "startLat": 29.191822052001953,
+      "startLng": 120.24209594726562
+    },
+    {
+      "id": "42387610",
+      "tileScore": 2,
+      "name": "官清岭-梨川三岔口",
+      "distanceM": 2164.5,
+      "avgGrade": 5.913605690002441,
+      "startLat": 29.18486785888672,
+      "startLng": 120.23763275146484
+    }
+  ]
+}

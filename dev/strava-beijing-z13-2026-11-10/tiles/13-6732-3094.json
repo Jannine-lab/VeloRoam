@@ -1,0 +1,29 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T19:43:32.657Z",
+  "tile": {
+    "z": 13,
+    "x": 6732,
+    "y": 3094
+  },
+  "segments": [
+    {
+      "id": "36918752",
+      "tileScore": 37,
+      "name": "青灰岭到老虎头",
+      "distanceM": 3511.10009765625,
+      "avgGrade": 8.948762893676758,
+      "startLat": 40.22378921508789,
+      "startLng": 115.87841796875
+    },
+    {
+      "id": "40352310",
+      "tileScore": 16,
+      "name": "青灰岭大风车Gravel全程",
+      "distanceM": 5596,
+      "avgGrade": 0.16082915663719177,
+      "startLat": 40.230194091796875,
+      "startLng": 115.8897476196289
+    }
+  ]
+}

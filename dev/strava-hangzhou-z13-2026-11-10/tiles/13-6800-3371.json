@@ -1,0 +1,20 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T20:32:23.918Z",
+  "tile": {
+    "z": 13,
+    "x": 6800,
+    "y": 3371
+  },
+  "segments": [
+    {
+      "id": "23738562",
+      "tileScore": 19,
+      "name": "Climbing Tea G330 ",
+      "distanceM": 14413.2001953125,
+      "avgGrade": 3.3580329418182373,
+      "startLat": 30.34095573425293,
+      "startLng": 118.79660034179688
+    }
+  ]
+}

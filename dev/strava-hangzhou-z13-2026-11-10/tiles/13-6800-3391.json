@@ -1,0 +1,65 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T20:37:06.668Z",
+  "tile": {
+    "z": 13,
+    "x": 6800,
+    "y": 3391
+  },
+  "segments": [
+    {
+      "id": "35513083",
+      "tileScore": 3,
+      "name": "XCO Asiangames ",
+      "distanceM": 5039.60009765625,
+      "avgGrade": 0.8532423377037048,
+      "startLat": 29.549121856689453,
+      "startLng": 118.84529876708984
+    },
+    {
+      "id": "38834319",
+      "tileScore": 74,
+      "name": "最后6.7",
+      "distanceM": 6729,
+      "avgGrade": 0.00891662947833538,
+      "startLat": 29.583879470825195,
+      "startLng": 118.89347076416016
+    },
+    {
+      "id": "36668475",
+      "tileScore": 83,
+      "name": "XX XX",
+      "distanceM": 542.2000122070312,
+      "avgGrade": 3.2091479301452637,
+      "startLat": 29.56975746154785,
+      "startLng": 118.85836029052734
+    },
+    {
+      "id": "41473257",
+      "tileScore": 6,
+      "name": "Max was here ",
+      "distanceM": 1972.4000244140625,
+      "avgGrade": 0.08111944794654846,
+      "startLat": 29.55052375793457,
+      "startLng": 118.84127044677734
+    },
+    {
+      "id": "34678388",
+      "tileScore": 4,
+      "name": "亚运村TT终点冲刺不要命",
+      "distanceM": 1730.800048828125,
+      "avgGrade": -0.5662121176719666,
+      "startLat": 29.55729866027832,
+      "startLng": 118.83002471923828
+    },
+    {
+      "id": "33298271",
+      "tileScore": 20,
+      "name": "淳开线Velodrom边爬坡",
+      "distanceM": 1806.800048828125,
+      "avgGrade": 0.19924728572368622,
+      "startLat": 29.557939529418945,
+      "startLng": 118.84757232666016
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T20:10:26.451Z",
+  "tile": {
+    "z": 13,
+    "x": 6764,
+    "y": 3073
+  },
+  "segments": [
+    {
+      "id": "37354204",
+      "tileScore": 11,
+      "name": "平坊爬坡计时赛",
+      "distanceM": 4160.2001953125,
+      "avgGrade": 1.9470218420028687,
+      "startLat": 40.892879486083984,
+      "startLng": 117.25578308105469
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T20:41:57.126Z",
+  "tile": {
+    "z": 13,
+    "x": 6787,
+    "y": 3363
+  },
+  "segments": [
+    {
+      "id": "35034558",
+      "tileScore": 4,
+      "name": "桃花潭返程至泾县",
+      "distanceM": 41227.8984375,
+      "avgGrade": -0.07567691057920456,
+      "startLat": 30.49595069885254,
+      "startLng": 118.1290283203125
+    }
+  ]
+}

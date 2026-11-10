@@ -1,0 +1,47 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T19:43:49.780Z",
+  "tile": {
+    "z": 13,
+    "x": 6730,
+    "y": 3111
+  },
+  "segments": [
+    {
+      "id": "38247319",
+      "tileScore": 20,
+      "name": "白云坨climb 全程",
+      "distanceM": 7131,
+      "avgGrade": 11.176553726196289,
+      "startLat": 39.662654876708984,
+      "startLng": 115.80908203125
+    },
+    {
+      "id": "38247330",
+      "tileScore": 7,
+      "name": "白云坨climb final 1KM",
+      "distanceM": 1007.5999755859375,
+      "avgGrade": 16.673282623291016,
+      "startLat": 39.64687728881836,
+      "startLng": 115.77887725830078
+    },
+    {
+      "id": "37360046",
+      "tileScore": 3,
+      "name": "白云坨陡坡(到农家院)",
+      "distanceM": 853.7000122070312,
+      "avgGrade": 15.860372543334961,
+      "startLat": 39.65617370605469,
+      "startLng": 115.79537200927734
+    },
+    {
+      "id": "20741586",
+      "tileScore": 13,
+      "name": "五眼井爬坡",
+      "distanceM": 4555.10009765625,
+      "avgGrade": 8.27204704284668,
+      "startLat": 39.67207336425781,
+      "startLng": 115.79486846923828
+    }
+  ]
+}

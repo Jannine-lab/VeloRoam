@@ -1,0 +1,29 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T19:35:27.902Z",
+  "tile": {
+    "z": 13,
+    "x": 6738,
+    "y": 3108
+  },
+  "segments": [
+    {
+      "id": "39283941",
+      "tileScore": 23,
+      "name": "月华北大街进城",
+      "distanceM": 1271.4000244140625,
+      "avgGrade": 0.20449897646903992,
+      "startLat": 39.74201583862305,
+      "startLng": 116.13665771484375
+    },
+    {
+      "id": "13170449",
+      "tileScore": 14,
+      "name": "良三路 向南",
+      "distanceM": 4201.5,
+      "avgGrade": -0.07854337245225906,
+      "startLat": 39.793495178222656,
+      "startLng": 116.138671875
+    }
+  ]
+}

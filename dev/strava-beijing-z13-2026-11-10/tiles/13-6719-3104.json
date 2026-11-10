@@ -1,0 +1,20 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T19:57:17.080Z",
+  "tile": {
+    "z": 13,
+    "x": 6719,
+    "y": 3104
+  },
+  "segments": [
+    {
+      "id": "41585401",
+      "tileScore": 10,
+      "name": "西灵山县道爬坡全程",
+      "distanceM": 23754.099609375,
+      "avgGrade": 3.8081846237182617,
+      "startLat": 39.893253326416016,
+      "startLng": 115.2789535522461
+    }
+  ]
+}

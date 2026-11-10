@@ -1,0 +1,20 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T19:56:09.996Z",
+  "tile": {
+    "z": 13,
+    "x": 6736,
+    "y": 3080
+  },
+  "segments": [
+    {
+      "id": "35000302",
+      "tileScore": 1,
+      "name": "VLCC六勇士误入朝阳观陡坡赛段",
+      "distanceM": 987.2000122070312,
+      "avgGrade": 8.812804222106934,
+      "startLat": 40.695404052734375,
+      "startLng": 116.0541763305664
+    }
+  ]
+}

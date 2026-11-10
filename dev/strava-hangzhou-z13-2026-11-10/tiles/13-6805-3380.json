@@ -1,0 +1,20 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T20:30:00.240Z",
+  "tile": {
+    "z": 13,
+    "x": 6805,
+    "y": 3380
+  },
+  "segments": [
+    {
+      "id": "24224594",
+      "tileScore": 1,
+      "name": "The Curly Mullet",
+      "distanceM": 5237.2998046875,
+      "avgGrade": 3.3605103492736816,
+      "startLat": 29.95919418334961,
+      "startLng": 119.08275604248047
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T20:36:14.665Z",
+  "tile": {
+    "z": 13,
+    "x": 6810,
+    "y": 3400
+  },
+  "segments": [
+    {
+      "id": "39157806",
+      "tileScore": 4,
+      "name": "环兰溪之长乐-水亭",
+      "distanceM": 9939,
+      "avgGrade": -0.10866284370422363,
+      "startLat": 29.255294799804688,
+      "startLng": 119.27627563476562
+    },
+    {
+      "id": "38209328",
+      "tileScore": 17,
+      "name": "游埠-诸葛",
+      "distanceM": 11985.900390625,
+      "avgGrade": 0.1518450826406479,
+      "startLat": 29.140750885009766,
+      "startLng": 119.31551361083984
+    }
+  ]
+}

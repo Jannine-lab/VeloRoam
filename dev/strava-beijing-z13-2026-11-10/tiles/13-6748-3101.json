@@ -1,0 +1,119 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T19:34:38.680Z",
+  "tile": {
+    "z": 13,
+    "x": 6748,
+    "y": 3101
+  },
+  "segments": [
+    {
+      "id": "25943209",
+      "tileScore": 1,
+      "name": "Western wind sprint",
+      "distanceM": 2538.699951171875,
+      "avgGrade": -0.1260487586259842,
+      "startLat": 39.9774284362793,
+      "startLng": 116.57799530029297
+    },
+    {
+      "id": "11623102",
+      "tileScore": 22,
+      "name": "机场第二高速(金盏桥-管庄路口)",
+      "distanceM": 7115.60009765625,
+      "avgGrade": -0.07588959485292435,
+      "startLat": 40.001914978027344,
+      "startLng": 116.58734893798828
+    },
+    {
+      "id": "41849676",
+      "tileScore": 16,
+      "name": "二高辅绕圈5KM",
+      "distanceM": 4995.2001953125,
+      "avgGrade": -0.016015375033020973,
+      "startLat": 39.993865966796875,
+      "startLng": 116.57975769042969
+    },
+    {
+      "id": "25116388",
+      "tileScore": 1,
+      "name": "长店大街竞速【下班】",
+      "distanceM": 2380.300048828125,
+      "avgGrade": -0.19745409488677979,
+      "startLat": 40.00623321533203,
+      "startLng": 116.52857208251953
+    },
+    {
+      "id": "10279590",
+      "tileScore": 3,
+      "name": "Smells like China",
+      "distanceM": 2397.800048828125,
+      "avgGrade": -0.20852448046207428,
+      "startLat": 40.00150680541992,
+      "startLng": 116.56394958496094
+    },
+    {
+      "id": "38188353",
+      "tileScore": 5,
+      "name": "东苇路（苇沟-金盏 N-S）",
+      "distanceM": 1926.5999755859375,
+      "avgGrade": 0.1245717853307724,
+      "startLat": 40.02556610107422,
+      "startLng": 116.548095703125
+    },
+    {
+      "id": "9700729",
+      "tileScore": 4,
+      "name": "road to canal",
+      "distanceM": 4305.5,
+      "avgGrade": -0.1068400889635086,
+      "startLat": 40.001869201660156,
+      "startLng": 116.55915832519531
+    },
+    {
+      "id": "38095391",
+      "tileScore": 61,
+      "name": "OASIS从东坝大街路口到康各庄路口",
+      "distanceM": 2361.5,
+      "avgGrade": -0.08469193428754807,
+      "startLat": 39.977359771728516,
+      "startLng": 116.57572174072266
+    },
+    {
+      "id": "21511250",
+      "tileScore": 2,
+      "name": "Dr Phil's TTT, 4th Ring Road and return.",
+      "distanceM": 52287.80078125,
+      "avgGrade": -0.00688497070223093,
+      "startLat": 39.932437896728516,
+      "startLng": 116.48710632324219
+    },
+    {
+      "id": "10439800",
+      "tileScore": 2,
+      "name": "Canal road",
+      "distanceM": 3421.60009765625,
+      "avgGrade": -0.08183306455612183,
+      "startLat": 39.99814224243164,
+      "startLng": 116.54267883300781
+    },
+    {
+      "id": "41829726",
+      "tileScore": 1,
+      "name": "798-二高",
+      "distanceM": 20552.69921875,
+      "avgGrade": -0.0778486579656601,
+      "startLat": 39.98301696777344,
+      "startLng": 116.48594665527344
+    },
+    {
+      "id": "41850914",
+      "tileScore": 30,
+      "name": "Oasis从管庄路飞驰到金盏桥北掉头（修路后）",
+      "distanceM": 9499.2001953125,
+      "avgGrade": -0.027370726689696312,
+      "startLat": 39.93164825439453,
+      "startLng": 116.58389282226562
+    }
+  ]
+}

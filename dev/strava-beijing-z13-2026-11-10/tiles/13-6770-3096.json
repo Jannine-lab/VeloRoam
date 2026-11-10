@@ -1,0 +1,20 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T19:59:19.660Z",
+  "tile": {
+    "z": 13,
+    "x": 6770,
+    "y": 3096
+  },
+  "segments": [
+    {
+      "id": "24694876",
+      "tileScore": 2,
+      "name": "马营公路下坡",
+      "distanceM": 17217.69921875,
+      "avgGrade": -1.3730056285858154,
+      "startLat": 40.17522048950195,
+      "startLng": 117.50125122070312
+    }
+  ]
+}

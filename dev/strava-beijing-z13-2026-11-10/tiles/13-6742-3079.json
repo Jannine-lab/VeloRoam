@@ -1,0 +1,20 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T19:57:29.283Z",
+  "tile": {
+    "z": 13,
+    "x": 6742,
+    "y": 3079
+  },
+  "segments": [
+    {
+      "id": "41572451",
+      "tileScore": 11,
+      "name": "茨顶之巅-瓜路",
+      "distanceM": 925,
+      "avgGrade": 11.54594612121582,
+      "startLat": 40.74468231201172,
+      "startLng": 116.32197570800781
+    }
+  ]
+}

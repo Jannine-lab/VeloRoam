@@ -1,0 +1,92 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T20:17:29.733Z",
+  "tile": {
+    "z": 13,
+    "x": 6826,
+    "y": 3365
+  },
+  "segments": [
+    {
+      "id": "29605002",
+      "tileScore": 7,
+      "name": "SZL Tunnel Sprint ",
+      "distanceM": 308.70001220703125,
+      "avgGrade": 0,
+      "startLat": 30.535131454467773,
+      "startLng": 120.00890350341797
+    },
+    {
+      "id": "31823051",
+      "tileScore": 5,
+      "name": "塔山烂坡",
+      "distanceM": 977.2000122070312,
+      "avgGrade": 0.7163323760032654,
+      "startLat": 30.52878189086914,
+      "startLng": 119.9772720336914
+    },
+    {
+      "id": "36928975",
+      "tileScore": 3,
+      "name": "俯瞰莫干山语",
+      "distanceM": 1247.699951171875,
+      "avgGrade": 3.782960891723633,
+      "startLat": 30.534988403320312,
+      "startLng": 119.99889373779297
+    },
+    {
+      "id": "40384076",
+      "tileScore": 8,
+      "name": "德清大道冲桥W-E",
+      "distanceM": 842.5,
+      "avgGrade": 0.04747774451971054,
+      "startLat": 30.548776626586914,
+      "startLng": 119.97554016113281
+    },
+    {
+      "id": "34586704",
+      "tileScore": 40,
+      "name": "下渚湖の最速传说",
+      "distanceM": 10419.5,
+      "avgGrade": 0.02879216894507408,
+      "startLat": 30.540603637695312,
+      "startLng": 120.01641082763672
+    },
+    {
+      "id": "35927889",
+      "tileScore": 7,
+      "name": "Deiqing Weather Station (Steep Only)",
+      "distanceM": 570.4000244140625,
+      "avgGrade": 15.112201690673828,
+      "startLat": 30.522750854492188,
+      "startLng": 119.98294067382812
+    },
+    {
+      "id": "34664861",
+      "tileScore": 7,
+      "name": "奇幻谷爬坡+隧道",
+      "distanceM": 2017.4000244140625,
+      "avgGrade": 0.08922374993562698,
+      "startLat": 30.51573944091797,
+      "startLng": 120.01355743408203
+    },
+    {
+      "id": "28592233",
+      "tileScore": 13,
+      "name": "SZL Tunnel KOM",
+      "distanceM": 1505.800048828125,
+      "avgGrade": 1.0359941720962524,
+      "startLat": 30.515668869018555,
+      "startLng": 120.01356506347656
+    },
+    {
+      "id": "39489802",
+      "tileScore": 5,
+      "name": "每日每夜的大脚板拉练",
+      "distanceM": 13753.7001953125,
+      "avgGrade": -0.013087387196719646,
+      "startLat": 30.528749465942383,
+      "startLng": 119.97735595703125
+    }
+  ]
+}

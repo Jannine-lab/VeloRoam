@@ -1,0 +1,29 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T20:38:24.846Z",
+  "tile": {
+    "z": 13,
+    "x": 6796,
+    "y": 3389
+  },
+  "segments": [
+    {
+      "id": "40412631",
+      "tileScore": 9,
+      "name": "这里下坡不推荐使用没有内胎的真空胎😊",
+      "distanceM": 13431.599609375,
+      "avgGrade": -4.087376117706299,
+      "startLat": 29.652681350708008,
+      "startLng": 118.65013885498047
+    },
+    {
+      "id": "34531402",
+      "tileScore": 3,
+      "name": "尹山村 climb",
+      "distanceM": 6115.2001953125,
+      "avgGrade": 5.985086441040039,
+      "startLat": 29.62281036376953,
+      "startLng": 118.67888641357422
+    }
+  ]
+}

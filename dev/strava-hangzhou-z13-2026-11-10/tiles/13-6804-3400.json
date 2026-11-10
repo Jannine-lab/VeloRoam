@@ -1,0 +1,20 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T20:38:27.324Z",
+  "tile": {
+    "z": 13,
+    "x": 6804,
+    "y": 3400
+  },
+  "segments": [
+    {
+      "id": "33467215",
+      "tileScore": 48,
+      "name": "隐柿东坪",
+      "distanceM": 11206.900390625,
+      "avgGrade": 2.75187611579895,
+      "startLat": 29.156330108642578,
+      "startLng": 119.01497650146484
+    }
+  ]
+}

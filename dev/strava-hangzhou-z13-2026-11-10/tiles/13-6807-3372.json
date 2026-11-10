@@ -1,0 +1,56 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T20:27:49.597Z",
+  "tile": {
+    "z": 13,
+    "x": 6807,
+    "y": 3372
+  },
+  "segments": [
+    {
+      "id": "38891368",
+      "tileScore": 6,
+      "name": "Downhill on a gravel road",
+      "distanceM": 6288.2998046875,
+      "avgGrade": -5.0904059410095215,
+      "startLat": 30.26042366027832,
+      "startLng": 119.15003204345703
+    },
+    {
+      "id": "38891343",
+      "tileScore": 5,
+      "name": "大源潭水库",
+      "distanceM": 1358.5,
+      "avgGrade": 0,
+      "startLat": 30.26795768737793,
+      "startLng": 119.13916015625
+    },
+    {
+      "id": "35608646",
+      "tileScore": 205,
+      "name": "联沃线全程",
+      "distanceM": 12232.5,
+      "avgGrade": 7.501328945159912,
+      "startLat": 30.188684463500977,
+      "startLng": 119.17704010009766
+    },
+    {
+      "id": "36812088",
+      "tileScore": 48,
+      "name": "黎明前的黑暗",
+      "distanceM": 1011.2999877929688,
+      "avgGrade": 9.374073028564453,
+      "startLat": 30.262956619262695,
+      "startLng": 119.14362335205078
+    },
+    {
+      "id": "36812030",
+      "tileScore": 119,
+      "name": "联沃线最陡段（听说你想休闲骑）",
+      "distanceM": 5097.89990234375,
+      "avgGrade": 12.185409545898438,
+      "startLat": 30.231529235839844,
+      "startLng": 119.16219329833984
+    }
+  ]
+}

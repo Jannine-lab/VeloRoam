@@ -1,0 +1,13 @@
+{
+  "mode": "apply",
+  "source": "/Users/jannine/Desktop/VeloRoam/dev/strava-nanjing-z13-2026-11-09/candidates.json",
+  "startedAt": "2026-11-09T03:45:46.696Z",
+  "finishedAt": "2026-11-09T03:45:50.522Z",
+  "sourceIds": 1544,
+  "existing": 1490,
+  "alreadyScored": 1490,
+  "eligible": 0,
+  "updated": 0,
+  "verified": 0,
+  "updatedIds": []
+}

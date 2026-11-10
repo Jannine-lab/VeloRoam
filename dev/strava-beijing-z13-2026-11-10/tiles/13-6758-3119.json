@@ -1,0 +1,65 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T19:50:30.768Z",
+  "tile": {
+    "z": 13,
+    "x": 6758,
+    "y": 3119
+  },
+  "segments": [
+    {
+      "id": "40102188",
+      "tileScore": 2,
+      "name": "保你骑玩笑哈哈",
+      "distanceM": 1804.0999755859375,
+      "avgGrade": 0.03325757756829262,
+      "startLat": 39.36688995361328,
+      "startLng": 117.01082611083984
+    },
+    {
+      "id": "32911183",
+      "tileScore": 10,
+      "name": "Sendero temebroso",
+      "distanceM": 3116,
+      "avgGrade": -0.03209242597222328,
+      "startLat": 39.36996078491211,
+      "startLng": 117.01542663574219
+    },
+    {
+      "id": "9361715",
+      "tileScore": 5,
+      "name": "Florentina village bike path",
+      "distanceM": 1726.300048828125,
+      "avgGrade": 0.08109830319881439,
+      "startLat": 39.37141036987305,
+      "startLng": 117.01334381103516
+    },
+    {
+      "id": "33147728",
+      "tileScore": 4,
+      "name": "V1 Auto World Criterium Lap",
+      "distanceM": 4353.7001953125,
+      "avgGrade": 0.018375175073742867,
+      "startLat": 39.38306427001953,
+      "startLng": 116.99178314208984
+    },
+    {
+      "id": "39816918",
+      "tileScore": 31,
+      "name": "翠亨路全程",
+      "distanceM": 14804.400390625,
+      "avgGrade": -0.010807598009705544,
+      "startLat": 39.387569427490234,
+      "startLng": 117.0242919921875
+    },
+    {
+      "id": "39817399",
+      "tileScore": 21,
+      "name": "All-out Sprint",
+      "distanceM": 588.7000122070312,
+      "avgGrade": 0.03397316113114357,
+      "startLat": 39.38300323486328,
+      "startLng": 117.02113342285156
+    }
+  ]
+}

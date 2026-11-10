@@ -1,0 +1,20 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T20:38:39.661Z",
+  "tile": {
+    "z": 13,
+    "x": 6806,
+    "y": 3401
+  },
+  "segments": [
+    {
+      "id": "34345039",
+      "tileScore": 3,
+      "name": "351国道 衢州进城方向",
+      "distanceM": 21323.599609375,
+      "avgGrade": 0.0731583833694458,
+      "startLat": 29.19340705871582,
+      "startLng": 119.19373321533203
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T20:28:38.267Z",
+  "tile": {
+    "z": 13,
+    "x": 6807,
+    "y": 3379
+  },
+  "segments": [
+    {
+      "id": "40876644",
+      "tileScore": 7,
+      "name": "天井塘gravel climb",
+      "distanceM": 1216,
+      "avgGrade": 6.858552932739258,
+      "startLat": 29.995912551879883,
+      "startLng": 119.17330169677734
+    },
+    {
+      "id": "40948168",
+      "tileScore": 1,
+      "name": "湍考线全程（爬坡段）🥇",
+      "distanceM": 6751.60009765625,
+      "avgGrade": 1.774394154548645,
+      "startLat": 30.04370880126953,
+      "startLng": 119.16201782226562
+    },
+    {
+      "id": "29033264",
+      "tileScore": 9,
+      "name": "坑口-湍口",
+      "distanceM": 3882.89990234375,
+      "avgGrade": -1.390713095664978,
+      "startLat": 30.019197463989258,
+      "startLng": 119.12625885009766
+    },
+    {
+      "id": "16054169",
+      "tileScore": 21,
+      "name": "NWC 2017 - the smooth tarmac",
+      "distanceM": 16463.900390625,
+      "avgGrade": 0.6924240589141846,
+      "startLat": 30.102827072143555,
+      "startLng": 119.21599578857422
+    }
+  ]
+}

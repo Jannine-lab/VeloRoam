@@ -1,0 +1,47 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T20:22:21.906Z",
+  "tile": {
+    "z": 13,
+    "x": 6817,
+    "y": 3365
+  },
+  "segments": [
+    {
+      "id": "27377387",
+      "tileScore": 40,
+      "name": "315县道+白缸线itt_⛄️",
+      "distanceM": 10287.099609375,
+      "avgGrade": -0.7485103011131287,
+      "startLat": 30.53465461730957,
+      "startLng": 119.5580062866211
+    },
+    {
+      "id": "39120142",
+      "tileScore": 4,
+      "name": "A Du Nice",
+      "distanceM": 924.4000244140625,
+      "avgGrade": 5.94980525970459,
+      "startLat": 30.55849838256836,
+      "startLng": 119.59965515136719
+    },
+    {
+      "id": "29908549",
+      "tileScore": 21,
+      "name": "余村 (eastbound)",
+      "distanceM": 2219.199951171875,
+      "avgGrade": 5.263157844543457,
+      "startLat": 30.529497146606445,
+      "startLng": 119.60196685791016
+    },
+    {
+      "id": "33074816",
+      "tileScore": 26,
+      "name": "Liuping Line short",
+      "distanceM": 9626.400390625,
+      "avgGrade": 1.5291281938552856,
+      "startLat": 30.569093704223633,
+      "startLng": 119.60005187988281
+    }
+  ]
+}

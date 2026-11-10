@@ -1,0 +1,29 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T20:34:30.494Z",
+  "tile": {
+    "z": 13,
+    "x": 6798,
+    "y": 3377
+  },
+  "segments": [
+    {
+      "id": "37663798",
+      "tileScore": 17,
+      "name": "平银隧道口停车场-鄣山景区入口",
+      "distanceM": 3308.39990234375,
+      "avgGrade": 4.310240745544434,
+      "startLat": 30.0830078125,
+      "startLng": 118.72676086425781
+    },
+    {
+      "id": "32289880",
+      "tileScore": 2,
+      "name": "Dongshang burn",
+      "distanceM": 953.7000122070312,
+      "avgGrade": 14.008598327636719,
+      "startLat": 30.106189727783203,
+      "startLng": 118.77847290039062
+    }
+  ]
+}

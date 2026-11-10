@@ -1,0 +1,47 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T19:52:51.872Z",
+  "tile": {
+    "z": 13,
+    "x": 6763,
+    "y": 3090
+  },
+  "segments": [
+    {
+      "id": "18420091",
+      "tileScore": 19,
+      "name": "平谷绕圈一疗程",
+      "distanceM": 69596.6015625,
+      "avgGrade": -0.04741610959172249,
+      "startLat": 40.24191665649414,
+      "startLng": 117.20172119140625
+    },
+    {
+      "id": "10851084",
+      "tileScore": 32,
+      "name": "X007 to the Teapot",
+      "distanceM": 15493.5,
+      "avgGrade": 4.6135478019714355,
+      "startLat": 40.34272766113281,
+      "startLng": 117.14065551757812
+    },
+    {
+      "id": "42359354",
+      "tileScore": 3,
+      "name": "杨家台climb",
+      "distanceM": 9699.900390625,
+      "avgGrade": 2.9278652667999268,
+      "startLat": 40.41630935668945,
+      "startLng": 117.171630859375
+    },
+    {
+      "id": "716962",
+      "tileScore": 17,
+      "name": "关玻路 Climb",
+      "distanceM": 2763.300048828125,
+      "avgGrade": 3.937321186065674,
+      "startLat": 40.35425567626953,
+      "startLng": 117.18915557861328
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T20:39:29.289Z",
+  "tile": {
+    "z": 13,
+    "x": 6790,
+    "y": 3377
+  },
+  "segments": [
+    {
+      "id": "34640175",
+      "tileScore": 2,
+      "name": "Songkeng Line 4 B",
+      "distanceM": 1567.5,
+      "avgGrade": -16.344497680664062,
+      "startLat": 30.084339141845703,
+      "startLng": 118.42684936523438
+    },
+    {
+      "id": "35817460",
+      "tileScore": 4,
+      "name": "Songkeng Line 12 full",
+      "distanceM": 4725.5,
+      "avgGrade": -4.58364200592041,
+      "startLat": 30.08894157409668,
+      "startLng": 118.42591857910156
+    }
+  ]
+}

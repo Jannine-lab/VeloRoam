@@ -1,0 +1,20 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T19:56:31.070Z",
+  "tile": {
+    "z": 13,
+    "x": 6724,
+    "y": 3088
+  },
+  "segments": [
+    {
+      "id": "39440903",
+      "tileScore": 4,
+      "name": "高速桥至陈家铺爬坡赛段",
+      "distanceM": 13951.900390625,
+      "avgGrade": 2.2491559982299805,
+      "startLat": 40.42873001098633,
+      "startLng": 115.51093292236328
+    }
+  ]
+}

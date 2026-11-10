@@ -1,0 +1,29 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T19:39:44.665Z",
+  "tile": {
+    "z": 13,
+    "x": 6744,
+    "y": 3114
+  },
+  "segments": [
+    {
+      "id": "40215199",
+      "tileScore": 3,
+      "name": "大礼路",
+      "distanceM": 9850.5,
+      "avgGrade": 0.012182123027741909,
+      "startLat": 39.560699462890625,
+      "startLng": 116.47944641113281
+    },
+    {
+      "id": "39964112",
+      "tileScore": 16,
+      "name": "魏石路南段- Wild Stone Road South",
+      "distanceM": 6493.7998046875,
+      "avgGrade": -0.04619791358709335,
+      "startLat": 39.59056854248047,
+      "startLng": 116.38391876220703
+    }
+  ]
+}

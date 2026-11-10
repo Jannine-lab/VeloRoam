@@ -1,0 +1,29 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T20:18:41.699Z",
+  "tile": {
+    "z": 13,
+    "x": 6839,
+    "y": 3368
+  },
+  "segments": [
+    {
+      "id": "10522807",
+      "tileScore": 3,
+      "name": "lozho_2015马自骑余杭至上海",
+      "distanceM": 110540.203125,
+      "avgGrade": -0.014112512581050396,
+      "startLat": 30.393516540527344,
+      "startLng": 120.34187316894531
+    },
+    {
+      "id": "28781149",
+      "tileScore": 34,
+      "name": "输入最后拉一把",
+      "distanceM": 1120,
+      "avgGrade": 0.2589285671710968,
+      "startLat": 30.41441535949707,
+      "startLng": 120.56051635742188
+    }
+  ]
+}

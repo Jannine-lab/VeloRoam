@@ -1,0 +1,20 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T19:40:30.601Z",
+  "tile": {
+    "z": 13,
+    "x": 6754,
+    "y": 3111
+  },
+  "segments": [
+    {
+      "id": "37071461",
+      "tileScore": 6,
+      "name": "凤港路-高王公路ITT",
+      "distanceM": 4089.800048828125,
+      "avgGrade": 0.03912171721458435,
+      "startLat": 39.642704010009766,
+      "startLng": 116.83517456054688
+    }
+  ]
+}

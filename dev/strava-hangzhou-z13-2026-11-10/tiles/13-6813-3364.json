@@ -1,0 +1,38 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T20:25:15.499Z",
+  "tile": {
+    "z": 13,
+    "x": 6813,
+    "y": 3364
+  },
+  "segments": [
+    {
+      "id": "37637014",
+      "tileScore": 9,
+      "name": "小起伏看风景",
+      "distanceM": 3393.699951171875,
+      "avgGrade": 0.5333411693572998,
+      "startLat": 30.60654067993164,
+      "startLng": 119.40880584716797
+    },
+    {
+      "id": "41529306",
+      "tileScore": 123,
+      "name": "TREK100安吉黄浦江源",
+      "distanceM": 94210.296875,
+      "avgGrade": 0.012949752621352673,
+      "startLat": 30.606224060058594,
+      "startLng": 119.41857147216797
+    },
+    {
+      "id": "40584939",
+      "tileScore": 3,
+      "name": "赋石水库S2N",
+      "distanceM": 6004,
+      "avgGrade": -0.1748834103345871,
+      "startLat": 30.574569702148438,
+      "startLng": 119.42826843261719
+    }
+  ]
+}

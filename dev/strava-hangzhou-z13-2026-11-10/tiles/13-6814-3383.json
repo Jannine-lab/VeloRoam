@@ -1,0 +1,29 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T20:25:08.065Z",
+  "tile": {
+    "z": 13,
+    "x": 6814,
+    "y": 3383
+  },
+  "segments": [
+    {
+      "id": "27895167",
+      "tileScore": 10,
+      "name": "夏塘溪朔源",
+      "distanceM": 17183.099609375,
+      "avgGrade": 1.2861474752426147,
+      "startLat": 29.909095764160156,
+      "startLng": 119.48478698730469
+    },
+    {
+      "id": "40544225",
+      "tileScore": 2,
+      "name": "洪坑村climb（水泥路）",
+      "distanceM": 7078,
+      "avgGrade": 5.487425804138184,
+      "startLat": 29.869203567504883,
+      "startLng": 119.45326232910156
+    }
+  ]
+}

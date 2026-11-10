@@ -1,0 +1,65 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T20:25:55.627Z",
+  "tile": {
+    "z": 13,
+    "x": 6815,
+    "y": 3385
+  },
+  "segments": [
+    {
+      "id": "35791022",
+      "tileScore": 12,
+      "name": "钟山小坡",
+      "distanceM": 1752.5,
+      "avgGrade": 3.503566265106201,
+      "startLat": 29.765443801879883,
+      "startLng": 119.5360336303711
+    },
+    {
+      "id": "38520593",
+      "tileScore": 1,
+      "name": "陇西村to金家山climb",
+      "distanceM": 3037.39990234375,
+      "avgGrade": 5.893198013305664,
+      "startLat": 29.7733097076416,
+      "startLng": 119.51332092285156
+    },
+    {
+      "id": "38520597",
+      "tileScore": 1,
+      "name": "金家山滑翔伞基地climb",
+      "distanceM": 1738.5,
+      "avgGrade": 7.25913143157959,
+      "startLat": 29.786415100097656,
+      "startLng": 119.50630187988281
+    },
+    {
+      "id": "27895642",
+      "tileScore": 22,
+      "name": "陈家-范家岭",
+      "distanceM": 2037.800048828125,
+      "avgGrade": 2.5223278999328613,
+      "startLat": 29.75522232055664,
+      "startLng": 119.50988006591797
+    },
+    {
+      "id": "38520579",
+      "tileScore": 3,
+      "name": "龙峰山climb",
+      "distanceM": 5294.2998046875,
+      "avgGrade": 6.90176248550415,
+      "startLat": 29.769548416137695,
+      "startLng": 119.52654266357422
+    },
+    {
+      "id": "27871110",
+      "tileScore": 24,
+      "name": "Wrong Way son!",
+      "distanceM": 7732.7001953125,
+      "avgGrade": 6.0910162925720215,
+      "startLat": 29.780643463134766,
+      "startLng": 119.50203704833984
+    }
+  ]
+}

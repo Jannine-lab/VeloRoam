@@ -1,0 +1,20 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T20:17:22.283Z",
+  "tile": {
+    "z": 13,
+    "x": 6837,
+    "y": 3376
+  },
+  "segments": [
+    {
+      "id": "36590713",
+      "tileScore": 2,
+      "name": "于越西路（E-W）",
+      "distanceM": 6318.10009765625,
+      "avgGrade": -0.01266203448176384,
+      "startLat": 30.104530334472656,
+      "startLng": 120.53022003173828
+    }
+  ]
+}

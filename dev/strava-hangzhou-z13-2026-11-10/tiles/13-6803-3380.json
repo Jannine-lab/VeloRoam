@@ -1,0 +1,47 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T20:31:29.544Z",
+  "tile": {
+    "z": 13,
+    "x": 6803,
+    "y": 3380
+  },
+  "segments": [
+    {
+      "id": "39640011",
+      "tileScore": 1,
+      "name": "隐年线climb",
+      "distanceM": 3701.699951171875,
+      "avgGrade": 6.656400680541992,
+      "startLat": 29.970291137695312,
+      "startLng": 118.98568725585938
+    },
+    {
+      "id": "39640020",
+      "tileScore": 1,
+      "name": "三峰村有很多人住的climb",
+      "distanceM": 1212.300048828125,
+      "avgGrade": 7.060958385467529,
+      "startLat": 29.974681854248047,
+      "startLng": 118.96643829345703
+    },
+    {
+      "id": "39640027",
+      "tileScore": 1,
+      "name": "隐将-上庵堂climb",
+      "distanceM": 8816.5,
+      "avgGrade": 4.673056125640869,
+      "startLat": 29.970354080200195,
+      "startLng": 118.9862289428711
+    },
+    {
+      "id": "39639999",
+      "tileScore": 8,
+      "name": "秋源-隐将climb",
+      "distanceM": 6225.7998046875,
+      "avgGrade": 1.8150277137756348,
+      "startLat": 29.933778762817383,
+      "startLng": 119.00997924804688
+    }
+  ]
+}

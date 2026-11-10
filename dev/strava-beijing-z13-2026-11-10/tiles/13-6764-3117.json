@@ -1,0 +1,29 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T19:54:39.492Z",
+  "tile": {
+    "z": 13,
+    "x": 6764,
+    "y": 3117
+  },
+  "segments": [
+    {
+      "id": "12578737",
+      "tileScore": 1,
+      "name": "大黃堡路",
+      "distanceM": 3413,
+      "avgGrade": 0.08789920806884766,
+      "startLat": 39.462894439697266,
+      "startLng": 117.2867202758789
+    },
+    {
+      "id": "12578757",
+      "tileScore": 1,
+      "name": "X605(柳河)",
+      "distanceM": 5944.10009765625,
+      "avgGrade": 0.05047021433711052,
+      "startLat": 39.44786071777344,
+      "startLng": 117.25172424316406
+    }
+  ]
+}

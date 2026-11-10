@@ -1,0 +1,92 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T20:31:29.544Z",
+  "tile": {
+    "z": 13,
+    "x": 6803,
+    "y": 3379
+  },
+  "segments": [
+    {
+      "id": "40817500",
+      "tileScore": 8,
+      "name": "雪景无敌gravel",
+      "distanceM": 2387.199951171875,
+      "avgGrade": 9.190683364868164,
+      "startLat": 30.021615982055664,
+      "startLng": 118.99164581298828
+    },
+    {
+      "id": "23306773",
+      "tileScore": 72,
+      "name": "徐pp Po Gai Down",
+      "distanceM": 3154.300048828125,
+      "avgGrade": -5.414830684661865,
+      "startLat": 30.02989387512207,
+      "startLng": 119.00292205810547
+    },
+    {
+      "id": "41696977",
+      "tileScore": 1,
+      "name": "子皮源",
+      "distanceM": 1163.5,
+      "avgGrade": -12.840567588806152,
+      "startLat": 30.013099670410156,
+      "startLng": 118.9986801147461
+    },
+    {
+      "id": "37991937",
+      "tileScore": 2,
+      "name": "4. Dirty Half Daming South",
+      "distanceM": 5095,
+      "avgGrade": 6.869480133056641,
+      "startLat": 29.997547149658203,
+      "startLng": 119.01119995117188
+    },
+    {
+      "id": "37496119",
+      "tileScore": 18,
+      "name": "天坪牵牛岗土路",
+      "distanceM": 7391.7001953125,
+      "avgGrade": 7.889930725097656,
+      "startLat": 30.020381927490234,
+      "startLng": 119.0170669555664
+    },
+    {
+      "id": "40256220",
+      "tileScore": 10,
+      "name": "铁门到牵牛岗climb",
+      "distanceM": 617.5999755859375,
+      "avgGrade": 12.597149848937988,
+      "startLat": 30.021987915039062,
+      "startLng": 119.00033569335938
+    },
+    {
+      "id": "37496104",
+      "tileScore": 7,
+      "name": "瑶山天坪越野线",
+      "distanceM": 11970.2998046875,
+      "avgGrade": 5.826086044311523,
+      "startLat": 29.981464385986328,
+      "startLng": 119.0407485961914
+    },
+    {
+      "id": "41849804",
+      "tileScore": 4,
+      "name": "千亩田草甸自然生态保护区",
+      "distanceM": 2012.800048828125,
+      "avgGrade": -5.574324131011963,
+      "startLat": 30.0195255279541,
+      "startLng": 118.98050689697266
+    },
+    {
+      "id": "9564841",
+      "tileScore": 521,
+      "name": "牵牛岗爬坡（好路）",
+      "distanceM": 20534.5,
+      "avgGrade": 4.920499801635742,
+      "startLat": 30.076786041259766,
+      "startLng": 119.017822265625
+    }
+  ]
+}

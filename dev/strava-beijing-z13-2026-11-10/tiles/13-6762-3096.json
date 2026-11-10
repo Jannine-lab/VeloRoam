@@ -1,0 +1,20 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T19:48:39.562Z",
+  "tile": {
+    "z": 13,
+    "x": 6762,
+    "y": 3096
+  },
+  "segments": [
+    {
+      "id": "38887081",
+      "tileScore": 4,
+      "name": "这里不适合测FTP",
+      "distanceM": 10370.5,
+      "avgGrade": 0.021214021369814873,
+      "startLat": 40.16385269165039,
+      "startLng": 117.15084838867188
+    }
+  ]
+}

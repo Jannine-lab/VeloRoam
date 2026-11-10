@@ -1,0 +1,10 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T20:42:38.356Z",
+  "tile": {
+    "z": 13,
+    "x": 6789,
+    "y": 3394
+  },
+  "segments": []
+}

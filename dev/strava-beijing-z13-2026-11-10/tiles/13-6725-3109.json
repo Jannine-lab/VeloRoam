@@ -1,0 +1,38 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T19:50:03.762Z",
+  "tile": {
+    "z": 13,
+    "x": 6725,
+    "y": 3109
+  },
+  "segments": [
+    {
+      "id": "15294833",
+      "tileScore": 11,
+      "name": "X017 climb to the top",
+      "distanceM": 22640.599609375,
+      "avgGrade": 3.7463672161102295,
+      "startLat": 39.683223724365234,
+      "startLng": 115.58781433105469
+    },
+    {
+      "id": "2336183",
+      "tileScore": 2,
+      "name": "County Rd Climb",
+      "distanceM": 752.4099731445312,
+      "avgGrade": 11.948431968688965,
+      "startLat": 39.7099494934082,
+      "startLng": 115.54419708251953
+    },
+    {
+      "id": "33446023",
+      "tileScore": 6,
+      "name": "森水路爬坡（隧道口）",
+      "distanceM": 6204.10009765625,
+      "avgGrade": 6.769716739654541,
+      "startLat": 39.71665573120117,
+      "startLng": 115.53290557861328
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T19:38:44.904Z",
+  "tile": {
+    "z": 13,
+    "x": 6754,
+    "y": 3103
+  },
+  "segments": [
+    {
+      "id": "42341353",
+      "tileScore": 1,
+      "name": "G102（福成路→燕顺路）",
+      "distanceM": 5061,
+      "avgGrade": 0,
+      "startLat": 39.94544982910156,
+      "startLng": 116.84132385253906
+    },
+    {
+      "id": "14454386",
+      "tileScore": 2,
+      "name": "速刷南外环",
+      "distanceM": 14319.7998046875,
+      "avgGrade": -0.00838000513613224,
+      "startLat": 39.93524169921875,
+      "startLng": 116.78929901123047
+    }
+  ]
+}

@@ -1,0 +1,65 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T20:21:07.081Z",
+  "tile": {
+    "z": 13,
+    "x": 6819,
+    "y": 3365
+  },
+  "segments": [
+    {
+      "id": "39433582",
+      "tileScore": 196,
+      "name": "晨练山川100速通车",
+      "distanceM": 100004.296875,
+      "avgGrade": 0.0013999397633597255,
+      "startLat": 30.288415908813477,
+      "startLng": 119.96621704101562
+    },
+    {
+      "id": "18702270",
+      "tileScore": 12,
+      "name": "釜托寺",
+      "distanceM": 3096.199951171875,
+      "avgGrade": 4.360183238983154,
+      "startLat": 30.533723831176758,
+      "startLng": 119.71160125732422
+    },
+    {
+      "id": "32869061",
+      "tileScore": 64,
+      "name": "幽岭隧道爬坡",
+      "distanceM": 2007.699951171875,
+      "avgGrade": 3.127957582473755,
+      "startLat": 30.53147315979004,
+      "startLng": 119.68206787109375
+    },
+    {
+      "id": "37351151",
+      "tileScore": 3,
+      "name": "环杭1 城西→104→江南天池→235返程",
+      "distanceM": 154840.59375,
+      "avgGrade": 0.020149754360318184,
+      "startLat": 30.351224899291992,
+      "startLng": 120.07047271728516
+    },
+    {
+      "id": "18658865",
+      "tileScore": 2,
+      "name": "S04 (18K-Northbound)",
+      "distanceM": 18925.19921875,
+      "avgGrade": -0.11413353681564331,
+      "startLat": 30.485986709594727,
+      "startLng": 119.76972198486328
+    },
+    {
+      "id": "13646676",
+      "tileScore": 8,
+      "name": "Yashancun hill village climb (321m) ",
+      "distanceM": 2042.199951171875,
+      "avgGrade": 7.883654594421387,
+      "startLat": 30.54975700378418,
+      "startLng": 119.70565032958984
+    }
+  ]
+}

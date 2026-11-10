@@ -1,0 +1,38 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T20:23:58.373Z",
+  "tile": {
+    "z": 13,
+    "x": 6813,
+    "y": 3370
+  },
+  "segments": [
+    {
+      "id": "39936336",
+      "tileScore": 2,
+      "name": "天目山镇←→西天目山半山腰保安亭（环线）",
+      "distanceM": 52064.6015625,
+      "avgGrade": 0.005377934314310551,
+      "startLat": 30.205394744873047,
+      "startLng": 119.48296356201172
+    },
+    {
+      "id": "2612240",
+      "tileScore": 8,
+      "name": "浪白线 Climb",
+      "distanceM": 2385,
+      "avgGrade": 7.224318504333496,
+      "startLat": 30.361337661743164,
+      "startLng": 119.44158935546875
+    },
+    {
+      "id": "9788270",
+      "tileScore": 46,
+      "name": "First half of Tianmu climb",
+      "distanceM": 7445.2998046875,
+      "avgGrade": 5.5793585777282715,
+      "startLat": 30.337980270385742,
+      "startLng": 119.45699310302734
+    }
+  ]
+}

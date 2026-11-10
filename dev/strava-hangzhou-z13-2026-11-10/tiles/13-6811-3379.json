@@ -1,0 +1,38 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T20:26:07.943Z",
+  "tile": {
+    "z": 13,
+    "x": 6811,
+    "y": 3379
+  },
+  "segments": [
+    {
+      "id": "38192422",
+      "tileScore": 3,
+      "name": "上马山  吃西瓜",
+      "distanceM": 4049.300048828125,
+      "avgGrade": 6.297384738922119,
+      "startLat": 30.04326057434082,
+      "startLng": 119.32769012451172
+    },
+    {
+      "id": "19040163",
+      "tileScore": 1,
+      "name": "Yangshen Climb last 2K",
+      "distanceM": 2205.5,
+      "avgGrade": 5.558830261230469,
+      "startLat": 30.020919799804688,
+      "startLng": 119.32376861572266
+    },
+    {
+      "id": "41862700",
+      "tileScore": 2,
+      "name": "天井空down",
+      "distanceM": 6033.7998046875,
+      "avgGrade": -7.093373775482178,
+      "startLat": 29.999637603759766,
+      "startLng": 119.33695220947266
+    }
+  ]
+}

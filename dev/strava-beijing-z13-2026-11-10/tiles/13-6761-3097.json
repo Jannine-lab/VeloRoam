@@ -1,0 +1,20 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T19:46:09.724Z",
+  "tile": {
+    "z": 13,
+    "x": 6761,
+    "y": 3097
+  },
+  "segments": [
+    {
+      "id": "31870485",
+      "tileScore": 19,
+      "name": "金海湖返程（水峪桥－泃河桥）",
+      "distanceM": 13218.900390625,
+      "avgGrade": -0.2889801859855652,
+      "startLat": 40.17561340332031,
+      "startLng": 117.27317810058594
+    }
+  ]
+}

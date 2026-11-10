@@ -1,0 +1,65 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T20:26:12.873Z",
+  "tile": {
+    "z": 13,
+    "x": 6813,
+    "y": 3383
+  },
+  "segments": [
+    {
+      "id": "42398721",
+      "tileScore": 2,
+      "name": "船坞坪gravel climb",
+      "distanceM": 2917.10009765625,
+      "avgGrade": 11.669122695922852,
+      "startLat": 29.867225646972656,
+      "startLng": 119.40801239013672
+    },
+    {
+      "id": "40544225",
+      "tileScore": 2,
+      "name": "洪坑村climb（水泥路）",
+      "distanceM": 7078,
+      "avgGrade": 5.487425804138184,
+      "startLat": 29.869203567504883,
+      "startLng": 119.45326232910156
+    },
+    {
+      "id": "28062296",
+      "tileScore": 1,
+      "name": "紫燕山庄陡坡决斗",
+      "distanceM": 617.2999877929688,
+      "avgGrade": 11.922889709472656,
+      "startLat": 29.84868049621582,
+      "startLng": 119.40533447265625
+    },
+    {
+      "id": "27885463",
+      "tileScore": 1,
+      "name": "桐庐紫燕山爬坡赛",
+      "distanceM": 6631.2998046875,
+      "avgGrade": 6.065175533294678,
+      "startLat": 29.858224868774414,
+      "startLng": 119.3832778930664
+    },
+    {
+      "id": "40544230",
+      "tileScore": 6,
+      "name": "长湾gravel down（可以骑公路车的瓜路）",
+      "distanceM": 6523.10009765625,
+      "avgGrade": -5.432999610900879,
+      "startLat": 29.869874954223633,
+      "startLng": 119.43392181396484
+    },
+    {
+      "id": "40544228",
+      "tileScore": 4,
+      "name": "洪坑-元宝山gravel climb",
+      "distanceM": 893.0999755859375,
+      "avgGrade": 6.06874942779541,
+      "startLat": 29.85856056213379,
+      "startLng": 119.42462158203125
+    }
+  ]
+}

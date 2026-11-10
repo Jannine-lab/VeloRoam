@@ -1,0 +1,29 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T20:06:46.973Z",
+  "tile": {
+    "z": 13,
+    "x": 6745,
+    "y": 3070
+  },
+  "segments": [
+    {
+      "id": "22195981",
+      "tileScore": 1,
+      "name": "the famous X509 climb",
+      "distanceM": 19037.80078125,
+      "avgGrade": 3.110128164291382,
+      "startLat": 41.01752853393555,
+      "startLng": 116.56130981445312
+    },
+    {
+      "id": "35549895",
+      "tileScore": 4,
+      "name": "裙pro说再也不相信豆豆规划的路线了",
+      "distanceM": 6635.89990234375,
+      "avgGrade": -5.922331809997559,
+      "startLat": 41.0055046081543,
+      "startLng": 116.41888427734375
+    }
+  ]
+}

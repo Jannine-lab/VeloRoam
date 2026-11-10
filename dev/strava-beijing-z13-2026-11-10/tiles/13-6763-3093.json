@@ -1,0 +1,110 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T19:51:21.100Z",
+  "tile": {
+    "z": 13,
+    "x": 6763,
+    "y": 3093
+  },
+  "segments": [
+    {
+      "id": "18420091",
+      "tileScore": 19,
+      "name": "平谷绕圈一疗程",
+      "distanceM": 69596.6015625,
+      "avgGrade": -0.04741610959172249,
+      "startLat": 40.24191665649414,
+      "startLng": 117.20172119140625
+    },
+    {
+      "id": "3624740",
+      "tileScore": 20,
+      "name": "熊南路 Climb",
+      "distanceM": 456.2998352050781,
+      "avgGrade": 21.32369041442871,
+      "startLat": 40.24611282348633,
+      "startLng": 117.2105941772461
+    },
+    {
+      "id": "5241577",
+      "tileScore": 15,
+      "name": "Xiongnan Road Climb",
+      "distanceM": 467,
+      "avgGrade": 17.408994674682617,
+      "startLat": 40.260711669921875,
+      "startLng": 117.20828247070312
+    },
+    {
+      "id": "35758196",
+      "tileScore": 13,
+      "name": "熊南路缓坡+熊南路Climb",
+      "distanceM": 19032.80078125,
+      "avgGrade": 3.5764575004577637,
+      "startLat": 40.192020416259766,
+      "startLng": 117.13034057617188
+    },
+    {
+      "id": "12903727",
+      "tileScore": 17,
+      "name": "驴友广场-四座楼",
+      "distanceM": 5656.10009765625,
+      "avgGrade": 5.6540727615356445,
+      "startLat": 40.27772521972656,
+      "startLng": 117.20726776123047
+    },
+    {
+      "id": "39509378",
+      "tileScore": 44,
+      "name": "骑意丨九曲十八弯爬坡",
+      "distanceM": 9819.599609375,
+      "avgGrade": 3.8718481063842773,
+      "startLat": 40.25957489013672,
+      "startLng": 117.24362182617188
+    },
+    {
+      "id": "6952882",
+      "tileScore": 7,
+      "name": "Sizuolou climb complete",
+      "distanceM": 16635.69921875,
+      "avgGrade": 5.398029327392578,
+      "startLat": 40.23817443847656,
+      "startLng": 117.2037582397461
+    },
+    {
+      "id": "11654247",
+      "tileScore": 144,
+      "name": "熊儿寨--驴友广场",
+      "distanceM": 13156.7001953125,
+      "avgGrade": 3.7441000938415527,
+      "startLat": 40.28805160522461,
+      "startLng": 117.12928009033203
+    },
+    {
+      "id": "5241576",
+      "tileScore": 13,
+      "name": "Xiongnan Road Climb",
+      "distanceM": 951.4000244140625,
+      "avgGrade": 13.212108612060547,
+      "startLat": 40.24817657470703,
+      "startLng": 117.21139526367188
+    },
+    {
+      "id": "16544927",
+      "tileScore": 320,
+      "name": "北寨村红绿灯-驴友广场",
+      "distanceM": 10382.599609375,
+      "avgGrade": 5.395565509796143,
+      "startLat": 40.238426208496094,
+      "startLng": 117.19912719726562
+    },
+    {
+      "id": "17010142",
+      "tileScore": 62,
+      "name": "熊南路-驴友广场最后5公里（熊儿寨方向）",
+      "distanceM": 5026.7001953125,
+      "avgGrade": 6.198897838592529,
+      "startLat": 40.281349182128906,
+      "startLng": 117.18827056884766
+    }
+  ]
+}

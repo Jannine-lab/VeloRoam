@@ -1,0 +1,20 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T19:52:35.788Z",
+  "tile": {
+    "z": 13,
+    "x": 6726,
+    "y": 3090
+  },
+  "segments": [
+    {
+      "id": "12271843",
+      "tileScore": 3,
+      "name": "G110 Highway to Hell",
+      "distanceM": 20449.900390625,
+      "avgGrade": -0.45672595500946045,
+      "startLat": 40.384727478027344,
+      "startLng": 115.60127258300781
+    }
+  ]
+}

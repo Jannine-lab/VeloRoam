@@ -1,0 +1,92 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T19:49:50.805Z",
+  "tile": {
+    "z": 13,
+    "x": 6748,
+    "y": 3085
+  },
+  "segments": [
+    {
+      "id": "16874982",
+      "tileScore": 16,
+      "name": "范崎路缓上（北-南）",
+      "distanceM": 12474.900390625,
+      "avgGrade": 1.9238630533218384,
+      "startLat": 40.56614685058594,
+      "startLng": 116.5512466430664
+    },
+    {
+      "id": "29598958",
+      "tileScore": 22,
+      "name": "范崎路（北湾村-三岔口）",
+      "distanceM": 7071.2998046875,
+      "avgGrade": -1.5499271154403687,
+      "startLat": 40.53205108642578,
+      "startLng": 116.57115936279297
+    },
+    {
+      "id": "7030726",
+      "tileScore": 4,
+      "name": "Beiwan Climb 北湾",
+      "distanceM": 2944.60009765625,
+      "avgGrade": 6.656251907348633,
+      "startLat": 40.5318489074707,
+      "startLng": 116.5721664428711
+    },
+    {
+      "id": "41687423",
+      "tileScore": 4,
+      "name": "北林climb",
+      "distanceM": 1225.0999755859375,
+      "avgGrade": 6.938209533691406,
+      "startLat": 40.52821731567383,
+      "startLng": 116.58267974853516
+    },
+    {
+      "id": "36828848",
+      "tileScore": 19,
+      "name": "Epic YanQi to Miyun",
+      "distanceM": 95911.8984375,
+      "avgGrade": -0.2003922313451767,
+      "startLat": 40.43746566772461,
+      "startLng": 116.57965087890625
+    },
+    {
+      "id": "31929291",
+      "tileScore": 4,
+      "name": "BRM200-耀骑北京-BJ-R001",
+      "distanceM": 194072.59375,
+      "avgGrade": -0.00005152710946276784,
+      "startLat": 40.14736557006836,
+      "startLng": 116.37285614013672
+    },
+    {
+      "id": "38733370",
+      "tileScore": 28,
+      "name": "范崎路起点一脚不停四海镇",
+      "distanceM": 68264.796875,
+      "avgGrade": 0.9058841466903687,
+      "startLat": 40.36000442504883,
+      "startLng": 116.65359497070312
+    },
+    {
+      "id": "3899449",
+      "tileScore": 1,
+      "name": "Fanqi Road Climb",
+      "distanceM": 699.2272338867188,
+      "avgGrade": 16.29004669189453,
+      "startLat": 40.543914794921875,
+      "startLng": 116.57401275634766
+    },
+    {
+      "id": "3899447",
+      "tileScore": 2,
+      "name": "Fanqi Road Climb",
+      "distanceM": 685.9569091796875,
+      "avgGrade": 21.781600952148438,
+      "startLat": 40.51320266723633,
+      "startLng": 116.57635498046875
+    }
+  ]
+}

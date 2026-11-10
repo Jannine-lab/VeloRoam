@@ -1,0 +1,20 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T19:56:26.137Z",
+  "tile": {
+    "z": 13,
+    "x": 6768,
+    "y": 3096
+  },
+  "segments": [
+    {
+      "id": "37170135",
+      "tileScore": 7,
+      "name": "营树路缓下竞速",
+      "distanceM": 4255.39990234375,
+      "avgGrade": -2.0397613048553467,
+      "startLat": 40.155311584472656,
+      "startLng": 117.49068450927734
+    }
+  ]
+}

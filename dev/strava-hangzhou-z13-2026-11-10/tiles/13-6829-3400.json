@@ -1,0 +1,38 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T20:31:44.712Z",
+  "tile": {
+    "z": 13,
+    "x": 6829,
+    "y": 3400
+  },
+  "segments": [
+    {
+      "id": "33124366",
+      "tileScore": 3,
+      "name": "拜山鸿珠寺",
+      "distanceM": 987.5,
+      "avgGrade": 10.02531623840332,
+      "startLat": 29.203493118286133,
+      "startLng": 120.14630126953125
+    },
+    {
+      "id": "41210934",
+      "tileScore": 2,
+      "name": "王坞坑到小水库",
+      "distanceM": 1431,
+      "avgGrade": 3.8993711471557617,
+      "startLat": 29.220888137817383,
+      "startLng": 120.10566711425781
+    },
+    {
+      "id": "35715885",
+      "tileScore": 38,
+      "name": "画溪 到 坑口村",
+      "distanceM": 5586.10009765625,
+      "avgGrade": -0.1360519975423813,
+      "startLat": 29.201879501342773,
+      "startLng": 120.14610290527344
+    }
+  ]
+}

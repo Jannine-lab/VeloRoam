@@ -1,0 +1,20 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T20:36:07.314Z",
+  "tile": {
+    "z": 13,
+    "x": 6797,
+    "y": 3378
+  },
+  "segments": [
+    {
+      "id": "25623089",
+      "tileScore": 3,
+      "name": "New Black",
+      "distanceM": 3874.60009765625,
+      "avgGrade": 1.0710783004760742,
+      "startLat": 30.051525115966797,
+      "startLng": 118.7276382446289
+    }
+  ]
+}

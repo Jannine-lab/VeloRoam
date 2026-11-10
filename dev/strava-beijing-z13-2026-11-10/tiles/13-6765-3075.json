@@ -1,0 +1,20 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T20:08:15.259Z",
+  "tile": {
+    "z": 13,
+    "x": 6765,
+    "y": 3075
+  },
+  "segments": [
+    {
+      "id": "37354268",
+      "tileScore": 7,
+      "name": "高速口冲刺",
+      "distanceM": 12684.7998046875,
+      "avgGrade": 0.8119954466819763,
+      "startLat": 40.92218017578125,
+      "startLng": 117.31375885009766
+    }
+  ]
+}

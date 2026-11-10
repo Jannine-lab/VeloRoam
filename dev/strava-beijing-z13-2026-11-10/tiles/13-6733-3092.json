@@ -1,0 +1,20 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T19:44:59.084Z",
+  "tile": {
+    "z": 13,
+    "x": 6733,
+    "y": 3092
+  },
+  "segments": [
+    {
+      "id": "41403810",
+      "tileScore": 4,
+      "name": "黄台子climb",
+      "distanceM": 7042.39990234375,
+      "avgGrade": 3.016017198562622,
+      "startLat": 40.319122314453125,
+      "startLng": 115.93333435058594
+    }
+  ]
+}

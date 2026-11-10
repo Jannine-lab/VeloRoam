@@ -1,0 +1,20 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T20:27:20.397Z",
+  "tile": {
+    "z": 13,
+    "x": 6811,
+    "y": 3384
+  },
+  "segments": [
+    {
+      "id": "28054429",
+      "tileScore": 12,
+      "name": "上畈—天子地口",
+      "distanceM": 3275.5,
+      "avgGrade": 0.8731490969657898,
+      "startLat": 29.822032928466797,
+      "startLng": 119.33797454833984
+    }
+  ]
+}

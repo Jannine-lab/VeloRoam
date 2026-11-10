@@ -1,0 +1,20 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T19:35:09.958Z",
+  "tile": {
+    "z": 13,
+    "x": 6749,
+    "y": 3109
+  },
+  "segments": [
+    {
+      "id": "34443750",
+      "tileScore": 4,
+      "name": "漷马路西东9.92KM",
+      "distanceM": 9926.599609375,
+      "avgGrade": -0.04432534798979759,
+      "startLat": 39.737796783447266,
+      "startLng": 116.57120513916016
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T19:58:59.265Z",
+  "tile": {
+    "z": 13,
+    "x": 6719,
+    "y": 3111
+  },
+  "segments": [
+    {
+      "id": "36490111",
+      "tileScore": 2,
+      "name": "二哥的路书里没有gravel是不完整的",
+      "distanceM": 1285.300048828125,
+      "avgGrade": -0.7157862186431885,
+      "startLat": 39.646114349365234,
+      "startLng": 115.28575134277344
+    },
+    {
+      "id": "24224639",
+      "tileScore": 1,
+      "name": "野三坡正爬battle赛段-第二坡爬坡",
+      "distanceM": 2465.5,
+      "avgGrade": 2.8229568004608154,
+      "startLat": 39.66691589355469,
+      "startLng": 115.29186248779297
+    }
+  ]
+}

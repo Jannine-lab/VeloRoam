@@ -1,0 +1,47 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T20:41:15.906Z",
+  "tile": {
+    "z": 13,
+    "x": 6793,
+    "y": 3394
+  },
+  "segments": [
+    {
+      "id": "33350531",
+      "tileScore": 21,
+      "name": "cd-汾口到璜尖村",
+      "distanceM": 29351.400390625,
+      "avgGrade": 0.8156339526176453,
+      "startLat": 29.422534942626953,
+      "startLng": 118.5295181274414
+    },
+    {
+      "id": "14216323",
+      "tileScore": 12,
+      "name": "汾口镇-姜家镇",
+      "distanceM": 17518.099609375,
+      "avgGrade": 0.018266821280121803,
+      "startLat": 29.42822265625,
+      "startLng": 118.55276489257812
+    },
+    {
+      "id": "10821882",
+      "tileScore": 4,
+      "name": "Fen Kou Er Bridge (Northbound)",
+      "distanceM": 239.5,
+      "avgGrade": 0.2505219280719757,
+      "startLat": 29.431272506713867,
+      "startLng": 118.55290222167969
+    },
+    {
+      "id": "34502253",
+      "tileScore": 5,
+      "name": "cd-中州-汾口",
+      "distanceM": 11015.2001953125,
+      "avgGrade": -0.4466555118560791,
+      "startLat": 29.465274810791016,
+      "startLng": 118.46741485595703
+    }
+  ]
+}

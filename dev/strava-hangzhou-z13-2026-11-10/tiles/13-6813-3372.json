@@ -1,0 +1,29 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T20:23:53.411Z",
+  "tile": {
+    "z": 13,
+    "x": 6813,
+    "y": 3372
+  },
+  "segments": [
+    {
+      "id": "37860234",
+      "tileScore": 3,
+      "name": "龙岭",
+      "distanceM": 4348.39990234375,
+      "avgGrade": 3.122987747192383,
+      "startLat": 30.292097091674805,
+      "startLng": 119.45047760009766
+    },
+    {
+      "id": "37860227",
+      "tileScore": 1,
+      "name": "龙岭",
+      "distanceM": 27964.099609375,
+      "avgGrade": -1.0112966299057007,
+      "startLat": 30.32215118408203,
+      "startLng": 119.45536041259766
+    }
+  ]
+}

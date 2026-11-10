@@ -1,0 +1,47 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T20:42:06.989Z",
+  "tile": {
+    "z": 13,
+    "x": 6787,
+    "y": 3383
+  },
+  "segments": [
+    {
+      "id": "41279700",
+      "tileScore": 29,
+      "name": "cd-潜口到前山",
+      "distanceM": 7572.10009765625,
+      "avgGrade": -0.07659698277711868,
+      "startLat": 29.86277198791504,
+      "startLng": 118.2982406616211
+    },
+    {
+      "id": "38885137",
+      "tileScore": 14,
+      "name": "Qiankou Whisper ITT",
+      "distanceM": 8754,
+      "avgGrade": 0.3769705295562744,
+      "startLat": 29.871980667114258,
+      "startLng": 118.37965393066406
+    },
+    {
+      "id": "41279697",
+      "tileScore": 16,
+      "name": "cd-迎宾大道到潜口村",
+      "distanceM": 2019.9000244140625,
+      "avgGrade": 0.7723154425621033,
+      "startLat": 29.846607208251953,
+      "startLng": 118.3091049194336
+    },
+    {
+      "id": "37065592",
+      "tileScore": 29,
+      "name": "小環第一段高速坡",
+      "distanceM": 2877.39990234375,
+      "avgGrade": 2.397998332977295,
+      "startLat": 29.86541748046875,
+      "startLng": 118.29621887207031
+    }
+  ]
+}

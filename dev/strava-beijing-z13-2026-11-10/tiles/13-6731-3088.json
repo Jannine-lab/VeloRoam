@@ -1,0 +1,20 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T19:50:38.203Z",
+  "tile": {
+    "z": 13,
+    "x": 6731,
+    "y": 3088
+  },
+  "segments": [
+    {
+      "id": "25825048",
+      "tileScore": 1,
+      "name": "country road take me home 官厅水库的水泥小路",
+      "distanceM": 7593.10009765625,
+      "avgGrade": 0.05531337857246399,
+      "startLat": 40.43266296386719,
+      "startLng": 115.79290008544922
+    }
+  ]
+}

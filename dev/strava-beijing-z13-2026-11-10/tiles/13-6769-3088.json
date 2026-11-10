@@ -1,0 +1,29 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T20:01:31.039Z",
+  "tile": {
+    "z": 13,
+    "x": 6769,
+    "y": 3088
+  },
+  "segments": [
+    {
+      "id": "35513630",
+      "tileScore": 7,
+      "name": "罗圈沟",
+      "distanceM": 10013.5,
+      "avgGrade": 1.8644829988479614,
+      "startLat": 40.440574645996094,
+      "startLng": 117.4864501953125
+    },
+    {
+      "id": "30119693",
+      "tileScore": 24,
+      "name": "都谁骑了雾灵山？",
+      "distanceM": 26030.599609375,
+      "avgGrade": 4.5143022537231445,
+      "startLat": 40.444087982177734,
+      "startLng": 117.50552368164062
+    }
+  ]
+}

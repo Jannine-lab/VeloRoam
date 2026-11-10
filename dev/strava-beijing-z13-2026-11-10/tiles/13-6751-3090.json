@@ -1,0 +1,65 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T19:43:25.229Z",
+  "tile": {
+    "z": 13,
+    "x": 6751,
+    "y": 3090
+  },
+  "segments": [
+    {
+      "id": "39381541",
+      "tileScore": 4,
+      "name": "杨雁路（南→北）",
+      "distanceM": 9952.2001953125,
+      "avgGrade": 0.154739648103714,
+      "startLat": 40.282379150390625,
+      "startLng": 116.66805267333984
+    },
+    {
+      "id": "11156357",
+      "tileScore": 11,
+      "name": "雁栖湖路口-邮局 京加路",
+      "distanceM": 5036,
+      "avgGrade": -0.6115965247154236,
+      "startLat": 40.39553451538086,
+      "startLng": 116.68174743652344
+    },
+    {
+      "id": "30997049",
+      "tileScore": 16,
+      "name": "Tonghuailu Northbound from G101 通怀路G101北向",
+      "distanceM": 15189.2998046875,
+      "avgGrade": 0.3634137213230133,
+      "startLat": 40.32937240600586,
+      "startLng": 116.71984100341797
+    },
+    {
+      "id": "40239319",
+      "tileScore": 10,
+      "name": "新胜路冲刺赛段",
+      "distanceM": 1025.5,
+      "avgGrade": 0.09751340746879578,
+      "startLat": 40.374183654785156,
+      "startLng": 116.69839477539062
+    },
+    {
+      "id": "37913261",
+      "tileScore": 9,
+      "name": "通怀路（北神路-右堤路）",
+      "distanceM": 14918.7001953125,
+      "avgGrade": -0.14880654215812683,
+      "startLat": 40.40927505493164,
+      "startLng": 116.71452331542969
+    },
+    {
+      "id": "35959666",
+      "tileScore": 11,
+      "name": "ucaser的冬训第二段",
+      "distanceM": 4616,
+      "avgGrade": -0.17331022024154663,
+      "startLat": 40.40993118286133,
+      "startLng": 116.71477508544922
+    }
+  ]
+}

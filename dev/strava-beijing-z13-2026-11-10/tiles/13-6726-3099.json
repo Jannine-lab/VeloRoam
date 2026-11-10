@@ -1,0 +1,29 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T19:47:50.484Z",
+  "tile": {
+    "z": 13,
+    "x": 6726,
+    "y": 3099
+  },
+  "segments": [
+    {
+      "id": "27710328",
+      "tileScore": 11,
+      "name": "一线天越野",
+      "distanceM": 9680.099609375,
+      "avgGrade": 5.867708206176758,
+      "startLat": 40.05614471435547,
+      "startLng": 115.66928100585938
+    },
+    {
+      "id": "41530774",
+      "tileScore": 5,
+      "name": "Longmengou-Huangcaoliang XC",
+      "distanceM": 7959.2998046875,
+      "avgGrade": 5.19141149520874,
+      "startLat": 40.07930374145508,
+      "startLng": 115.56364440917969
+    }
+  ]
+}

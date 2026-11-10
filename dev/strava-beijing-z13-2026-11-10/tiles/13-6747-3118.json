@@ -1,0 +1,20 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T19:44:12.776Z",
+  "tile": {
+    "z": 13,
+    "x": 6747,
+    "y": 3118
+  },
+  "segments": [
+    {
+      "id": "37397710",
+      "tileScore": 21,
+      "name": "幸福大道至临空大桥",
+      "distanceM": 16503.400390625,
+      "avgGrade": 0.038779888302087784,
+      "startLat": 39.35080337524414,
+      "startLng": 116.48636627197266
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T20:34:53.011Z",
+  "tile": {
+    "z": 13,
+    "x": 6804,
+    "y": 3392
+  },
+  "segments": [
+    {
+      "id": "25431431",
+      "tileScore": 1,
+      "name": "出岭上民宿的爬坡路",
+      "distanceM": 3023.10009765625,
+      "avgGrade": 0.11908306181430817,
+      "startLat": 29.51355743408203,
+      "startLng": 119.03385162353516
+    },
+    {
+      "id": "14269378",
+      "tileScore": 4,
+      "name": "千岛湖村-凤凰隧道",
+      "distanceM": 38428.5,
+      "avgGrade": -0.02862458862364292,
+      "startLat": 29.47867202758789,
+      "startLng": 119.12246704101562
+    },
+    {
+      "id": "17819401",
+      "tileScore": 8,
+      "name": "小环湖",
+      "distanceM": 102884,
+      "avgGrade": -0.008358928374946117,
+      "startLat": 29.475658416748047,
+      "startLng": 119.21735382080078
+    },
+    {
+      "id": "12341077",
+      "tileScore": 14,
+      "name": "Baixiao X621 return",
+      "distanceM": 2298.10009765625,
+      "avgGrade": 3.9249815940856934,
+      "startLat": 29.498674392700195,
+      "startLng": 119.0180435180664
+    }
+  ]
+}

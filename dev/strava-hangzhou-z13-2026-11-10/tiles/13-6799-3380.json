@@ -1,0 +1,47 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T20:34:55.750Z",
+  "tile": {
+    "z": 13,
+    "x": 6799,
+    "y": 3380
+  },
+  "segments": [
+    {
+      "id": "22337974",
+      "tileScore": 20,
+      "name": "Fast section - Up",
+      "distanceM": 7772,
+      "avgGrade": 1.5440040826797485,
+      "startLat": 30.00115394592285,
+      "startLng": 118.75499725341797
+    },
+    {
+      "id": "21243453",
+      "tileScore": 18,
+      "name": "Yingkengcun to Waterfall",
+      "distanceM": 1250.199951171875,
+      "avgGrade": 7.08686637878418,
+      "startLat": 29.961414337158203,
+      "startLng": 118.80067443847656
+    },
+    {
+      "id": "34188778",
+      "tileScore": 3,
+      "name": "Double Abandonment",
+      "distanceM": 2065.60009765625,
+      "avgGrade": 8.994965553283691,
+      "startLat": 29.990991592407227,
+      "startLng": 118.81838989257812
+    },
+    {
+      "id": "20341683",
+      "tileScore": 22,
+      "name": "Vlads Extended",
+      "distanceM": 17938.80078125,
+      "avgGrade": 3.555421829223633,
+      "startLat": 30.00111198425293,
+      "startLng": 118.75499725341797
+    }
+  ]
+}

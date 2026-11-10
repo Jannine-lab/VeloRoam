@@ -1,0 +1,20 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T19:47:50.484Z",
+  "tile": {
+    "z": 13,
+    "x": 6727,
+    "y": 3098
+  },
+  "segments": [
+    {
+      "id": "34643406",
+      "tileScore": 27,
+      "name": "🏆石羊沟XC下坡20公里 ",
+      "distanceM": 22192.80078125,
+      "avgGrade": -3.856205463409424,
+      "startLat": 40.10726547241211,
+      "startLng": 115.55376434326172
+    }
+  ]
+}

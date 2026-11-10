@@ -1,0 +1,38 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T20:03:37.775Z",
+  "tile": {
+    "z": 13,
+    "x": 6767,
+    "y": 3082
+  },
+  "segments": [
+    {
+      "id": "33173319",
+      "tileScore": 3,
+      "name": "Serk NWC 2022 3laps",
+      "distanceM": 36997.5,
+      "avgGrade": 0.008649232797324657,
+      "startLat": 40.64820861816406,
+      "startLng": 117.33667755126953
+    },
+    {
+      "id": "38887097",
+      "tileScore": 9,
+      "name": "涝洼→遥桥起伏路",
+      "distanceM": 10955.7001953125,
+      "avgGrade": -0.8178391456604004,
+      "startLat": 40.686248779296875,
+      "startLng": 117.4605712890625
+    },
+    {
+      "id": "33173338",
+      "tileScore": 2,
+      "name": "Yaoqiaoyu reservoir steep climb of dam ",
+      "distanceM": 558.2999877929688,
+      "avgGrade": 6.555615425109863,
+      "startLat": 40.63233184814453,
+      "startLng": 117.37934112548828
+    }
+  ]
+}

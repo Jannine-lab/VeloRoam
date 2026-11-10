@@ -1,0 +1,38 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T20:36:49.350Z",
+  "tile": {
+    "z": 13,
+    "x": 6796,
+    "y": 3385
+  },
+  "segments": [
+    {
+      "id": "41570523",
+      "tileScore": 4,
+      "name": "街口小川老路",
+      "distanceM": 16770.900390625,
+      "avgGrade": 0.022658295929431915,
+      "startLat": 29.751779556274414,
+      "startLng": 118.72694396972656
+    },
+    {
+      "id": "5342776",
+      "tileScore": 6,
+      "name": "Yifan Tunnel Climb",
+      "distanceM": 473.20001220703125,
+      "avgGrade": 17.223161697387695,
+      "startLat": 29.795270919799805,
+      "startLng": 118.67713928222656
+    },
+    {
+      "id": "5344289",
+      "tileScore": 2,
+      "name": "深渡到威坪",
+      "distanceM": 47333.5,
+      "avgGrade": -0.0004225337179377675,
+      "startLat": 29.866865158081055,
+      "startLng": 118.60987091064453
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T19:55:42.562Z",
+  "tile": {
+    "z": 13,
+    "x": 6768,
+    "y": 3098
+  },
+  "segments": [
+    {
+      "id": "32043926",
+      "tileScore": 4,
+      "name": "磨津路Climb",
+      "distanceM": 3543.800048828125,
+      "avgGrade": 5.118799209594727,
+      "startLat": 40.08662414550781,
+      "startLng": 117.44918823242188
+    },
+    {
+      "id": "32043978",
+      "tileScore": 3,
+      "name": "神秘谷Climb",
+      "distanceM": 2943.699951171875,
+      "avgGrade": 3.3427319526672363,
+      "startLat": 40.08612823486328,
+      "startLng": 117.44873809814453
+    },
+    {
+      "id": "37166701",
+      "tileScore": 13,
+      "name": "反爬磨津路起伏拉扯",
+      "distanceM": 4223.10009765625,
+      "avgGrade": 3.154081106185913,
+      "startLat": 40.12046432495117,
+      "startLng": 117.41122436523438
+    },
+    {
+      "id": "34696302",
+      "tileScore": 22,
+      "name": "磨盘峪爬坡（全程） Mopanyu Climb ",
+      "distanceM": 6557.10009765625,
+      "avgGrade": 3.6022021770477295,
+      "startLat": 40.06843566894531,
+      "startLng": 117.44512939453125
+    },
+    {
+      "id": "37174707",
+      "tileScore": 9,
+      "name": "马上回家了这怎么还要在坡上拉扯",
+      "distanceM": 504.5,
+      "avgGrade": 4.2021803855896,
+      "startLat": 40.078399658203125,
+      "startLng": 117.44074249267578
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T20:29:10.897Z",
+  "tile": {
+    "z": 13,
+    "x": 6807,
+    "y": 3381
+  },
+  "segments": [
+    {
+      "id": "39200977",
+      "tileScore": 2,
+      "name": "石排村爬坡",
+      "distanceM": 4551,
+      "avgGrade": 6.9655022621154785,
+      "startLat": 29.940265655517578,
+      "startLng": 119.1590576171875
+    },
+    {
+      "id": "30215840",
+      "tileScore": 10,
+      "name": "阿里一哥甜区一带一路",
+      "distanceM": 6703.7998046875,
+      "avgGrade": 2.09135103225708,
+      "startLat": 29.92259407043457,
+      "startLng": 119.13600158691406
+    }
+  ]
+}

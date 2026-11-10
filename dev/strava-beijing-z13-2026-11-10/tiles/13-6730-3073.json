@@ -1,0 +1,20 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T20:07:17.527Z",
+  "tile": {
+    "z": 13,
+    "x": 6730,
+    "y": 3073
+  },
+  "segments": [
+    {
+      "id": "39695132",
+      "tileScore": 60,
+      "name": "漫长缓上到野鸡山隧道爬坡前",
+      "distanceM": 32792.30078125,
+      "avgGrade": 1.326530933380127,
+      "startLat": 40.883609771728516,
+      "startLng": 115.84932708740234
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T20:21:26.925Z",
+  "tile": {
+    "z": 13,
+    "x": 6821,
+    "y": 3381
+  },
+  "segments": [
+    {
+      "id": "34265486",
+      "tileScore": 56,
+      "name": "蒋大线last climb",
+      "distanceM": 1839.800048828125,
+      "avgGrade": 5.5984344482421875,
+      "startLat": 29.9492244720459,
+      "startLng": 119.78720092773438
+    },
+    {
+      "id": "34136910",
+      "tileScore": 31,
+      "name": "蒋大线",
+      "distanceM": 8557.599609375,
+      "avgGrade": 2.243619680404663,
+      "startLat": 29.89803695678711,
+      "startLng": 119.7608642578125
+    }
+  ]
+}

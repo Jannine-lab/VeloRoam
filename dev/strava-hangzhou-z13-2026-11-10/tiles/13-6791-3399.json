@@ -1,0 +1,29 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T20:42:56.681Z",
+  "tile": {
+    "z": 13,
+    "x": 6791,
+    "y": 3399
+  },
+  "segments": [
+    {
+      "id": "38653292",
+      "tileScore": 1,
+      "name": "2025环浙步道-开化站 未修改版本",
+      "distanceM": 119608,
+      "avgGrade": 0,
+      "startLat": 29.145221710205078,
+      "startLng": 118.3876724243164
+    },
+    {
+      "id": "36021402",
+      "tileScore": 2,
+      "name": "青山爬坡路段",
+      "distanceM": 4571.2998046875,
+      "avgGrade": 4.9788899421691895,
+      "startLat": 29.26005744934082,
+      "startLng": 118.470703125
+    }
+  ]
+}

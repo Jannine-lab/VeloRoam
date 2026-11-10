@@ -1,0 +1,20 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T20:25:02.961Z",
+  "tile": {
+    "z": 13,
+    "x": 6817,
+    "y": 3386
+  },
+  "segments": [
+    {
+      "id": "38520572",
+      "tileScore": 8,
+      "name": "冷草线直通香榧基地climb",
+      "distanceM": 6679.2998046875,
+      "avgGrade": 7.91699743270874,
+      "startLat": 29.780481338500977,
+      "startLng": 119.58344268798828
+    }
+  ]
+}

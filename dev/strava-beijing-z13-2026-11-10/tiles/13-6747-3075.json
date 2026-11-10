@@ -1,0 +1,38 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T20:02:48.334Z",
+  "tile": {
+    "z": 13,
+    "x": 6747,
+    "y": 3075
+  },
+  "segments": [
+    {
+      "id": "35723197",
+      "tileScore": 68,
+      "name": "庄喇路爬坡全程",
+      "distanceM": 24277.80078125,
+      "avgGrade": 2.0174810886383057,
+      "startLat": 40.731807708740234,
+      "startLng": 116.6251220703125
+    },
+    {
+      "id": "8365231",
+      "tileScore": 62,
+      "name": "Labagoumen Climb",
+      "distanceM": 4508.2998046875,
+      "avgGrade": 4.698001384735107,
+      "startLat": 40.85410690307617,
+      "startLng": 116.53178405761719
+    },
+    {
+      "id": "20487930",
+      "tileScore": 7,
+      "name": "庄喇路拐弯处",
+      "distanceM": 2158.60009765625,
+      "avgGrade": 4.873528957366943,
+      "startLat": 40.88874053955078,
+      "startLng": 116.52950286865234
+    }
+  ]
+}

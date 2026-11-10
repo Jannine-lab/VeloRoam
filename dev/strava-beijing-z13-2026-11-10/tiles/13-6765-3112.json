@@ -1,0 +1,20 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T19:51:38.089Z",
+  "tile": {
+    "z": 13,
+    "x": 6765,
+    "y": 3112
+  },
+  "segments": [
+    {
+      "id": "14502059",
+      "tileScore": 16,
+      "name": "S220(S326-潮白新河)",
+      "distanceM": 8523.400390625,
+      "avgGrade": 0.07508740574121475,
+      "startLat": 39.59268569946289,
+      "startLng": 117.31631469726562
+    }
+  ]
+}

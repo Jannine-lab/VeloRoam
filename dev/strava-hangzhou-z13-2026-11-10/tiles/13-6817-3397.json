@@ -1,0 +1,56 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T20:32:34.298Z",
+  "tile": {
+    "z": 13,
+    "x": 6817,
+    "y": 3397
+  },
+  "segments": [
+    {
+      "id": "33182551",
+      "tileScore": 8,
+      "name": "东山龙潭小五岩",
+      "distanceM": 2592.199951171875,
+      "avgGrade": 1.3193426132202148,
+      "startLat": 29.308517456054688,
+      "startLng": 119.60501861572266
+    },
+    {
+      "id": "42219464",
+      "tileScore": 24,
+      "name": "Hi bicycle太阳岭环线 安全第一",
+      "distanceM": 87060.5,
+      "avgGrade": 0.004824231378734112,
+      "startLat": 29.2420597076416,
+      "startLng": 119.47916412353516
+    },
+    {
+      "id": "41642592",
+      "tileScore": 41,
+      "name": "Hi bicycle普兰线返程itt",
+      "distanceM": 6403.5,
+      "avgGrade": -0.615288496017456,
+      "startLat": 29.308881759643555,
+      "startLng": 119.6061019897461
+    },
+    {
+      "id": "39724173",
+      "tileScore": 5,
+      "name": "Fucking H↑一口气浦兰线来回",
+      "distanceM": 86810.203125,
+      "avgGrade": 0.006220467388629913,
+      "startLat": 29.24191665649414,
+      "startLng": 119.47900390625
+    },
+    {
+      "id": "41048395",
+      "tileScore": 2,
+      "name": "柏社—里坞塘 S319",
+      "distanceM": 6969.39990234375,
+      "avgGrade": -0.14348436892032623,
+      "startLat": 29.33512306213379,
+      "startLng": 119.64437866210938
+    }
+  ]
+}

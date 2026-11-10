@@ -1,0 +1,29 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T19:49:30.953Z",
+  "tile": {
+    "z": 13,
+    "x": 6724,
+    "y": 3108
+  },
+  "segments": [
+    {
+      "id": "2610298",
+      "tileScore": 2,
+      "name": "国道 Climb",
+      "distanceM": 466.342041015625,
+      "avgGrade": 19.365215301513672,
+      "startLat": 39.769351959228516,
+      "startLng": 115.49311065673828
+    },
+    {
+      "id": "33343381",
+      "tileScore": 3,
+      "name": "悬崖上的村落",
+      "distanceM": 5629.5,
+      "avgGrade": 4.380495548248291,
+      "startLat": 39.733245849609375,
+      "startLng": 115.52876281738281
+    }
+  ]
+}

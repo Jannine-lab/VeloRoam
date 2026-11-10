@@ -1,0 +1,56 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T20:27:52.078Z",
+  "tile": {
+    "z": 13,
+    "x": 6807,
+    "y": 3373
+  },
+  "segments": [
+    {
+      "id": "38891368",
+      "tileScore": 6,
+      "name": "Downhill on a gravel road",
+      "distanceM": 6288.2998046875,
+      "avgGrade": -5.0904059410095215,
+      "startLat": 30.26042366027832,
+      "startLng": 119.15003204345703
+    },
+    {
+      "id": "35608646",
+      "tileScore": 205,
+      "name": "联沃线全程",
+      "distanceM": 12232.5,
+      "avgGrade": 7.501328945159912,
+      "startLat": 30.188684463500977,
+      "startLng": 119.17704010009766
+    },
+    {
+      "id": "36812030",
+      "tileScore": 119,
+      "name": "联沃线最陡段（听说你想休闲骑）",
+      "distanceM": 5097.89990234375,
+      "avgGrade": 12.185409545898438,
+      "startLat": 30.231529235839844,
+      "startLng": 119.16219329833984
+    },
+    {
+      "id": "39127139",
+      "tileScore": 62,
+      "name": "火火线real climb",
+      "distanceM": 3886.60009765625,
+      "avgGrade": 6.272834777832031,
+      "startLat": 30.249847412109375,
+      "startLng": 119.17298126220703
+    },
+    {
+      "id": "36413679",
+      "tileScore": 70,
+      "name": "🚴🏻火莲第三根⛰️",
+      "distanceM": 10210.400390625,
+      "avgGrade": 4.236856460571289,
+      "startLat": 30.208993911743164,
+      "startLng": 119.18984985351562
+    }
+  ]
+}

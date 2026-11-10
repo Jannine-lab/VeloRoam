@@ -1,0 +1,29 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T20:03:53.170Z",
+  "tile": {
+    "z": 13,
+    "x": 6731,
+    "y": 3076
+  },
+  "segments": [
+    {
+      "id": "28080719",
+      "tileScore": 4,
+      "name": "岭头爬坡赛段",
+      "distanceM": 4887.10009765625,
+      "avgGrade": 3.5685784816741943,
+      "startLat": 40.857078552246094,
+      "startLng": 115.82734680175781
+    },
+    {
+      "id": "25810944",
+      "tileScore": 48,
+      "name": "239国道climb",
+      "distanceM": 12205.400390625,
+      "avgGrade": 2.0941550731658936,
+      "startLat": 40.723445892333984,
+      "startLng": 115.81907653808594
+    }
+  ]
+}

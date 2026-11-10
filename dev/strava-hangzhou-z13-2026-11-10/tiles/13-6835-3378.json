@@ -1,0 +1,38 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T20:17:17.297Z",
+  "tile": {
+    "z": 13,
+    "x": 6835,
+    "y": 3378
+  },
+  "segments": [
+    {
+      "id": "40010400",
+      "tileScore": 120,
+      "name": "小圈（红绿灯注意安全⚠️）",
+      "distanceM": 41547.5,
+      "avgGrade": 0.00481376750394702,
+      "startLat": 29.938013076782227,
+      "startLng": 120.3590087890625
+    },
+    {
+      "id": "28592198",
+      "tileScore": 126,
+      "name": "钱茅线Climb",
+      "distanceM": 7836.5,
+      "avgGrade": 0.5589230060577393,
+      "startLat": 30.05925178527832,
+      "startLng": 120.36151885986328
+    },
+    {
+      "id": "39714196",
+      "tileScore": 2,
+      "name": "双叶通村公路",
+      "distanceM": 5653.89990234375,
+      "avgGrade": 3.615203380584717,
+      "startLat": 30.032211303710938,
+      "startLng": 120.36642456054688
+    }
+  ]
+}

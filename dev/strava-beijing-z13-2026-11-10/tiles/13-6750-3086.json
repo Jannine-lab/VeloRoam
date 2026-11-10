@@ -1,0 +1,38 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T19:47:57.921Z",
+  "tile": {
+    "z": 13,
+    "x": 6750,
+    "y": 3086
+  },
+  "segments": [
+    {
+      "id": "35950086",
+      "tileScore": 11,
+      "name": "分水岭爬坡全程",
+      "distanceM": 18150,
+      "avgGrade": 2.941046953201294,
+      "startLat": 40.412353515625,
+      "startLng": 116.67535400390625
+    },
+    {
+      "id": "38198373",
+      "tileScore": 17,
+      "name": "京加路2-S-N（岔路口）",
+      "distanceM": 6006.7998046875,
+      "avgGrade": 2.846773624420166,
+      "startLat": 40.48383712768555,
+      "startLng": 116.6565933227539
+    },
+    {
+      "id": "5696524",
+      "tileScore": 4,
+      "name": "National Road Climb",
+      "distanceM": 882.0999755859375,
+      "avgGrade": 9.998866081237793,
+      "startLat": 40.50844955444336,
+      "startLng": 116.66083526611328
+    }
+  ]
+}

@@ -1,0 +1,92 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T20:21:51.230Z",
+  "tile": {
+    "z": 13,
+    "x": 6816,
+    "y": 3366
+  },
+  "segments": [
+    {
+      "id": "18650378",
+      "tileScore": 42,
+      "name": "Yangshan Climb (Southbound)",
+      "distanceM": 1606.9000244140625,
+      "avgGrade": 3.9143693447113037,
+      "startLat": 30.522403717041016,
+      "startLng": 119.54083251953125
+    },
+    {
+      "id": "39141889",
+      "tileScore": 17,
+      "name": "过了这个坡都下坡了",
+      "distanceM": 2804.199951171875,
+      "avgGrade": 2.7886741161346436,
+      "startLat": 30.513946533203125,
+      "startLng": 119.50733947753906
+    },
+    {
+      "id": "34621131",
+      "tileScore": 11,
+      "name": "#董岭龙王单日疗程(实际海拔不到2000)",
+      "distanceM": 94840.6015625,
+      "avgGrade": 0.04660451412200928,
+      "startLat": 30.51348876953125,
+      "startLng": 119.47992706298828
+    },
+    {
+      "id": "37070706",
+      "tileScore": 2,
+      "name": "陆家坞烂路下坡",
+      "distanceM": 1011,
+      "avgGrade": -5.361028671264648,
+      "startLat": 30.524028778076172,
+      "startLng": 119.5396728515625
+    },
+    {
+      "id": "10107493",
+      "tileScore": 3,
+      "name": "董岭",
+      "distanceM": 12518,
+      "avgGrade": 6.056079387664795,
+      "startLat": 30.509069442749023,
+      "startLng": 119.57017517089844
+    },
+    {
+      "id": "33074816",
+      "tileScore": 26,
+      "name": "Liuping Line short",
+      "distanceM": 9626.400390625,
+      "avgGrade": 1.5291281938552856,
+      "startLat": 30.569093704223633,
+      "startLng": 119.60005187988281
+    },
+    {
+      "id": "9241120",
+      "tileScore": 86,
+      "name": "董岭",
+      "distanceM": 15565,
+      "avgGrade": 4.256986618041992,
+      "startLat": 30.52800178527832,
+      "startLng": 119.55545043945312
+    },
+    {
+      "id": "41626441",
+      "tileScore": 324,
+      "name": "安吉红石崖景区公路",
+      "distanceM": 9553.7998046875,
+      "avgGrade": 7.84399938583374,
+      "startLat": 30.492919921875,
+      "startLng": 119.52472686767578
+    },
+    {
+      "id": "41686446",
+      "tileScore": 11,
+      "name": "Rush to Longwang Village",
+      "distanceM": 6267.10009765625,
+      "avgGrade": 1.5876561403274536,
+      "startLat": 30.528301239013672,
+      "startLng": 119.55528259277344
+    }
+  ]
+}

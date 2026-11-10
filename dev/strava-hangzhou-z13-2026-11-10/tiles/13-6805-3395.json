@@ -1,0 +1,38 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T20:36:36.946Z",
+  "tile": {
+    "z": 13,
+    "x": 6805,
+    "y": 3395
+  },
+  "segments": [
+    {
+      "id": "16218748",
+      "tileScore": 48,
+      "name": "石林主要爬坡",
+      "distanceM": 5504,
+      "avgGrade": 6.148255825042725,
+      "startLat": 29.435558319091797,
+      "startLng": 119.07276153564453
+    },
+    {
+      "id": "34712468",
+      "tileScore": 21,
+      "name": "灵栖-石林の爬坡",
+      "distanceM": 9273,
+      "avgGrade": 4.3135986328125,
+      "startLat": 29.370363235473633,
+      "startLng": 119.05986022949219
+    },
+    {
+      "id": "34564673",
+      "tileScore": 19,
+      "name": "后半程下坡",
+      "distanceM": 8058.39990234375,
+      "avgGrade": -0.32760846614837646,
+      "startLat": 29.416866302490234,
+      "startLng": 119.04814910888672
+    }
+  ]
+}

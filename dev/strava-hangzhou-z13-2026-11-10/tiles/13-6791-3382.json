@@ -1,0 +1,20 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T20:39:44.191Z",
+  "tile": {
+    "z": 13,
+    "x": 6791,
+    "y": 3382
+  },
+  "segments": [
+    {
+      "id": "33878382",
+      "tileScore": 4,
+      "name": "徽州古城",
+      "distanceM": 1004.0999755859375,
+      "avgGrade": 0.22906085848808289,
+      "startLat": 29.87955093383789,
+      "startLng": 118.43439483642578
+    }
+  ]
+}

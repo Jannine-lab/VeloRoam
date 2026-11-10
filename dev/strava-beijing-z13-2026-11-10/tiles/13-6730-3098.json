@@ -1,0 +1,29 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T19:43:07.606Z",
+  "tile": {
+    "z": 13,
+    "x": 6730,
+    "y": 3098
+  },
+  "segments": [
+    {
+      "id": "37658286",
+      "tileScore": 2,
+      "name": "进向阳口村 LX",
+      "distanceM": 661.7999877929688,
+      "avgGrade": 2.2514355182647705,
+      "startLat": 40.0926628112793,
+      "startLng": 115.75137329101562
+    },
+    {
+      "id": "30176090",
+      "tileScore": 4,
+      "name": "向阳口村-丰沙线永定河七号桥【Gravel】",
+      "distanceM": 3271.199951171875,
+      "avgGrade": 1.1616531610488892,
+      "startLat": 40.09146499633789,
+      "startLng": 115.75009155273438
+    }
+  ]
+}

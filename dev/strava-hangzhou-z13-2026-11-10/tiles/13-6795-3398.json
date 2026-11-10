@@ -1,0 +1,20 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T20:41:44.842Z",
+  "tile": {
+    "z": 13,
+    "x": 6795,
+    "y": 3398
+  },
+  "segments": [
+    {
+      "id": "37898295",
+      "tileScore": 2,
+      "name": "cd-铜山水库到茂田村",
+      "distanceM": 5215.10009765625,
+      "avgGrade": 0.7823435664176941,
+      "startLat": 29.296939849853516,
+      "startLng": 118.63219451904297
+    }
+  ]
+}

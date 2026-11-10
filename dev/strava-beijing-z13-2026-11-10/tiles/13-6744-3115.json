@@ -1,0 +1,38 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T19:39:44.665Z",
+  "tile": {
+    "z": 13,
+    "x": 6744,
+    "y": 3115
+  },
+  "segments": [
+    {
+      "id": "40215196",
+      "tileScore": 21,
+      "name": "Speed Test 永兴河北路",
+      "distanceM": 5873.10009765625,
+      "avgGrade": 0.020432140678167343,
+      "startLat": 39.53364181518555,
+      "startLng": 116.36677551269531
+    },
+    {
+      "id": "39964112",
+      "tileScore": 16,
+      "name": "魏石路南段- Wild Stone Road South",
+      "distanceM": 6493.7998046875,
+      "avgGrade": -0.04619791358709335,
+      "startLat": 39.59056854248047,
+      "startLng": 116.38391876220703
+    },
+    {
+      "id": "37373673",
+      "tileScore": 2,
+      "name": "机场大道1",
+      "distanceM": 2045.5,
+      "avgGrade": 0.08799804747104645,
+      "startLat": 39.52311325073242,
+      "startLng": 116.40127563476562
+    }
+  ]
+}

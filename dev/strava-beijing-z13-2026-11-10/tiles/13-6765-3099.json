@@ -1,0 +1,38 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T19:50:23.545Z",
+  "tile": {
+    "z": 13,
+    "x": 6765,
+    "y": 3099
+  },
+  "segments": [
+    {
+      "id": "12640801",
+      "tileScore": 78,
+      "name": "彩沟路，小法老——龙哥互相伤害啊～",
+      "distanceM": 5050.5,
+      "avgGrade": 6.898327350616455,
+      "startLat": 40.06863021850586,
+      "startLng": 117.32587432861328
+    },
+    {
+      "id": "34540498",
+      "tileScore": 41,
+      "name": "NO SPICY RACING CLUB盘山KOM",
+      "distanceM": 22832,
+      "avgGrade": 0.01226348988711834,
+      "startLat": 40.04734802246094,
+      "startLng": 117.37718963623047
+    },
+    {
+      "id": "16096735",
+      "tileScore": 34,
+      "name": "盘山后山爬坡段",
+      "distanceM": 7119.10009765625,
+      "avgGrade": 7.742551803588867,
+      "startLat": 40.07065963745117,
+      "startLng": 117.29288482666016
+    }
+  ]
+}

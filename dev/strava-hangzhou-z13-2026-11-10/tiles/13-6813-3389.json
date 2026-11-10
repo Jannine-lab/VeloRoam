@@ -1,0 +1,20 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T20:29:01.021Z",
+  "tile": {
+    "z": 13,
+    "x": 6813,
+    "y": 3389
+  },
+  "segments": [
+    {
+      "id": "37414738",
+      "tileScore": 1,
+      "name": "和长线爬坡",
+      "distanceM": 3617,
+      "avgGrade": 3.428255319595337,
+      "startLat": 29.64734649658203,
+      "startLng": 119.40685272216797
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T19:45:01.563Z",
+  "tile": {
+    "z": 13,
+    "x": 6730,
+    "y": 3112
+  },
+  "segments": [
+    {
+      "id": "39140673",
+      "tileScore": 5,
+      "name": "冲向工商银行",
+      "distanceM": 1996.300048828125,
+      "avgGrade": 3.296097755432129,
+      "startLat": 39.60977554321289,
+      "startLng": 115.76799011230469
+    }
+  ]
+}

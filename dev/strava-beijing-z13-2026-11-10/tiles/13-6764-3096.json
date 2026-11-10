@@ -1,0 +1,47 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T19:51:18.631Z",
+  "tile": {
+    "z": 13,
+    "x": 6764,
+    "y": 3096
+  },
+  "segments": [
+    {
+      "id": "10454583",
+      "tileScore": 3,
+      "name": "For The Hell Of It Sprint II",
+      "distanceM": 412.29998779296875,
+      "avgGrade": -0.33955857157707214,
+      "startLat": 40.178138732910156,
+      "startLng": 117.28815460205078
+    },
+    {
+      "id": "2748057",
+      "tileScore": 8,
+      "name": "Huanhu Rd Climb",
+      "distanceM": 2653.93994140625,
+      "avgGrade": 4.529012680053711,
+      "startLat": 40.17108154296875,
+      "startLng": 117.27668762207031
+    },
+    {
+      "id": "10454577",
+      "tileScore": 3,
+      "name": "For The Hell Of It Sprint I",
+      "distanceM": 905.7999877929688,
+      "avgGrade": 0.5299183130264282,
+      "startLat": 40.17536926269531,
+      "startLng": 117.27722930908203
+    },
+    {
+      "id": "31870485",
+      "tileScore": 19,
+      "name": "金海湖返程（水峪桥－泃河桥）",
+      "distanceM": 13218.900390625,
+      "avgGrade": -0.2889801859855652,
+      "startLat": 40.17561340332031,
+      "startLng": 117.27317810058594
+    }
+  ]
+}

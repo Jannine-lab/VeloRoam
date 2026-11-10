@@ -1,0 +1,20 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T20:21:41.323Z",
+  "tile": {
+    "z": 13,
+    "x": 6836,
+    "y": 3383
+  },
+  "segments": [
+    {
+      "id": "30981384",
+      "tileScore": 53,
+      "name": "枫店线 老新屋—视南",
+      "distanceM": 4285.39990234375,
+      "avgGrade": 0.23801745474338531,
+      "startLat": 29.876819610595703,
+      "startLng": 120.39752197265625
+    }
+  ]
+}

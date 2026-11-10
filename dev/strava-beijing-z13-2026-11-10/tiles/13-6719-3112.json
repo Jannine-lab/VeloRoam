@@ -1,0 +1,20 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T19:59:34.763Z",
+  "tile": {
+    "z": 13,
+    "x": 6719,
+    "y": 3112
+  },
+  "segments": [
+    {
+      "id": "24224448",
+      "tileScore": 2,
+      "name": "副将们抛弃各自主将纷纷突围",
+      "distanceM": 9674.2998046875,
+      "avgGrade": 0.21293531358242035,
+      "startLat": 39.59599685668945,
+      "startLng": 115.23533630371094
+    }
+  ]
+}

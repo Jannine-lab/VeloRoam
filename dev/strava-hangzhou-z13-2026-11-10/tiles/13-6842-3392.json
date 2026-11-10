@@ -1,0 +1,29 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T20:28:20.772Z",
+  "tile": {
+    "z": 13,
+    "x": 6842,
+    "y": 3392
+  },
+  "segments": [
+    {
+      "id": "35770865",
+      "tileScore": 5,
+      "name": "新527象山至长乐",
+      "distanceM": 26154.80078125,
+      "avgGrade": 0.1720525473356247,
+      "startLat": 29.584543228149414,
+      "startLng": 120.78923797607422
+    },
+    {
+      "id": "24537689",
+      "tileScore": 1,
+      "name": "itt",
+      "distanceM": 26910,
+      "avgGrade": 0.11445559561252594,
+      "startLat": 29.47347640991211,
+      "startLng": 120.76372528076172
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T19:43:30.154Z",
+  "tile": {
+    "z": 13,
+    "x": 6757,
+    "y": 3113
+  },
+  "segments": [
+    {
+      "id": "36586303",
+      "tileScore": 3,
+      "name": "一路顺风",
+      "distanceM": 150016.40625,
+      "avgGrade": -0.0015998249873518944,
+      "startLat": 39.87700653076172,
+      "startLng": 116.66964721679688
+    },
+    {
+      "id": "9858724",
+      "tileScore": 9,
+      "name": "4th 20K to Tianjin",
+      "distanceM": 20088.19921875,
+      "avgGrade": -0.0248902328312397,
+      "startLat": 39.64143753051758,
+      "startLng": 116.94256591796875
+    },
+    {
+      "id": "25531435",
+      "tileScore": 43,
+      "name": "狂魔TTT土桥-天津北环",
+      "distanceM": 81881.296875,
+      "avgGrade": -0.013922592625021935,
+      "startLat": 39.86214065551758,
+      "startLng": 116.71361541748047
+    },
+    {
+      "id": "25603422",
+      "tileScore": 7,
+      "name": "京津公路桥一站河西务",
+      "distanceM": 45510.1015625,
+      "avgGrade": 0.007470868993550539,
+      "startLat": 39.24434280395508,
+      "startLng": 117.11282348632812
+    }
+  ]
+}

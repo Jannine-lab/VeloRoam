@@ -1,0 +1,20 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T20:39:21.819Z",
+  "tile": {
+    "z": 13,
+    "x": 6791,
+    "y": 3376
+  },
+  "segments": [
+    {
+      "id": "36820061",
+      "tileScore": 15,
+      "name": "胡适故居隧道前缓上坡E",
+      "distanceM": 3961.60009765625,
+      "avgGrade": 3.3420839309692383,
+      "startLat": 30.09522819519043,
+      "startLng": 118.4942855834961
+    }
+  ]
+}

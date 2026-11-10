@@ -1,0 +1,29 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T20:09:12.482Z",
+  "tile": {
+    "z": 13,
+    "x": 6722,
+    "y": 3074
+  },
+  "segments": [
+    {
+      "id": "34968565",
+      "tileScore": 10,
+      "name": "太舞mini水库-山顶铺装路面climb",
+      "distanceM": 1824.699951171875,
+      "avgGrade": 10.029046058654785,
+      "startLat": 40.88689041137695,
+      "startLng": 115.42747497558594
+    },
+    {
+      "id": "40204264",
+      "tileScore": 33,
+      "name": "太舞眼鏡蛇2",
+      "distanceM": 2752.10009765625,
+      "avgGrade": -17.804584503173828,
+      "startLat": 40.87480545043945,
+      "startLng": 115.42964935302734
+    }
+  ]
+}

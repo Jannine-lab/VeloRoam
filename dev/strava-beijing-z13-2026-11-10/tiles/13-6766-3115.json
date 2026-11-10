@@ -1,0 +1,20 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T19:55:50.029Z",
+  "tile": {
+    "z": 13,
+    "x": 6766,
+    "y": 3115
+  },
+  "segments": [
+    {
+      "id": "14501969",
+      "tileScore": 3,
+      "name": "珠江南環西路",
+      "distanceM": 2926.800048828125,
+      "avgGrade": -0.02050020545721054,
+      "startLat": 39.52506637573242,
+      "startLng": 117.39451599121094
+    }
+  ]
+}

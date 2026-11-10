@@ -1,0 +1,20 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T19:39:57.974Z",
+  "tile": {
+    "z": 13,
+    "x": 6733,
+    "y": 3102
+  },
+  "segments": [
+    {
+      "id": "21977705",
+      "tileScore": 6,
+      "name": "大台中心灰地",
+      "distanceM": 576.7000122070312,
+      "avgGrade": 8.115138053894043,
+      "startLat": 39.958343505859375,
+      "startLng": 115.92225646972656
+    }
+  ]
+}

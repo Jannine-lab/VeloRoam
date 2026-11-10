@@ -1,0 +1,20 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-09T19:44:02.147Z",
+  "tile": {
+    "z": 13,
+    "x": 6758,
+    "y": 3097
+  },
+  "segments": [
+    {
+      "id": "27538887",
+      "tileScore": 1,
+      "name": "回家-顺平路",
+      "distanceM": 11169.099609375,
+      "avgGrade": 0.10564861446619034,
+      "startLat": 40.14412307739258,
+      "startLng": 117.07506561279297
+    }
+  ]
+}
