@@ -63,6 +63,10 @@ const allFetchedHotPoints = new Map();// 全局记录该会话抓取到的热门
 let selectedSegmentId = null;         // 当前选中正在查看的路段 ID (用于未选路段淡化)
 let plannedRouteSelected = false;     // 规划路线被选中时，地图探索路段保持淡化
 const DIMMED_SEGMENT_OPACITY = 0.3;
+const SEGMENT_LINE_WIDTH = 2.5;
+const SEGMENT_SELECTED_WIDTH = 4;
+const SEGMENT_HOVER_WIDTH = 4.5;
+const SEGMENT_DIMMED_WIDTH = 2;
 let plannedRouteLayerOwner = null;
 let restoreStravaLayer = false;
 function hideExplorationSegments(owner) {
@@ -315,8 +319,10 @@ function visibleMapFitOptions(options, assumeHalf = false) {
   if (!obstruction) return options;
   const topLeft = options.paddingTopLeft || options.padding || [0, 0];
   const bottomRight = options.paddingBottomRight || options.padding || [0, 0];
-  return { ...options, paddingTopLeft: topLeft,
-    paddingBottomRight: [bottomRight[0], Math.max(bottomRight[1], obstruction + topLeft[1])] };
+  return {
+    ...options, paddingTopLeft: topLeft,
+    paddingBottomRight: [bottomRight[0], Math.max(bottomRight[1], obstruction + topLeft[1])]
+  };
 }
 
 let scenicMapTimer = null;
@@ -906,12 +912,12 @@ function dimAllOtherSegments(activeSegId) {
 
     if (!plannedRouteSelected && Number(id) === selectedSegmentId) {
       // 激活路段保持发光高亮状态
-      if (visiblePolyline) visiblePolyline.setStyle({ opacity: 1.0, weight: 6.0 });
+      if (visiblePolyline) visiblePolyline.setStyle({ opacity: 1.0, weight: SEGMENT_SELECTED_WIDTH });
       if (startMarker) startMarker.setStyle({ opacity: 1.0, fillOpacity: 1.0 });
       if (endMarker) endMarker.setStyle({ opacity: 1.0, fillOpacity: 1.0 });
     } else {
       // 其他路段淡化并变细以突显被选路段
-      if (visiblePolyline) visiblePolyline.setStyle({ opacity: DIMMED_SEGMENT_OPACITY, weight: 3 });
+      if (visiblePolyline) visiblePolyline.setStyle({ opacity: DIMMED_SEGMENT_OPACITY, weight: SEGMENT_DIMMED_WIDTH });
       if (startMarker) startMarker.setStyle({ opacity: DIMMED_SEGMENT_OPACITY, fillOpacity: DIMMED_SEGMENT_OPACITY });
       if (endMarker) endMarker.setStyle({ opacity: DIMMED_SEGMENT_OPACITY, fillOpacity: DIMMED_SEGMENT_OPACITY });
     }
@@ -939,7 +945,7 @@ function restoreAllSegmentsOpacity() {
       const endMarker = layers[3];
       const originalColor = getSegmentColor(score);
 
-      if (visiblePolyline) visiblePolyline.setStyle({ opacity: 0.85, weight: 4.5, color: originalColor });
+      if (visiblePolyline) visiblePolyline.setStyle({ opacity: 0.85, weight: SEGMENT_LINE_WIDTH, color: originalColor });
       if (startMarker) startMarker.setStyle({ opacity: 0.95, fillOpacity: 1.0 });
       if (endMarker) endMarker.setStyle({ opacity: 0.95, fillOpacity: 1.0 });
     }
@@ -1212,7 +1218,7 @@ function bindNavigationSearch(form, input, status, results, onSelect, { onQueryC
             const start = item.coordinates[0];
             const offset = center && start ? getLatLngDistance(center.lat, center.lng, start.lat, start.lng) / 1000 : null;
             detail = [item.city || item.state, `编号 ${item.id}`, `${item.distanceKm.toFixed(1)} 公里`,
-              Number.isFinite(offset) ? `距地图中心 ${offset.toFixed(1)} 公里` : null].filter(Boolean).join(' · ');
+            Number.isFinite(offset) ? `距地图中心 ${offset.toFixed(1)} 公里` : null].filter(Boolean).join(' · ');
           }
           const name = item.name || `未命名${label}`;
           const button = createSearchResultButton(icon, name, `${label} · ${detail}`, () => onSelect(type, item, button));
@@ -1896,8 +1902,10 @@ async function planRouteToSelectedPlace() {
     if (stops.length) route.stops.slice(1, -1).forEach(({ point, name }) => {
       const label = document.createElement('span');
       label.textContent = name;
-      L.circleMarker(point, { pane: 'plannedRoutes', radius: 5, color: '#fff', weight: 2,
-        fillColor: '#00805a', fillOpacity: 1 }).bindTooltip(label).addTo(placeRouteLayer);
+      L.circleMarker(point, {
+        pane: 'plannedRoutes', radius: 5, color: '#fff', weight: 2,
+        fillColor: '#00805a', fillOpacity: 1
+      }).bindTooltip(label).addTo(placeRouteLayer);
     });
     if (map.hasLayer(stravaGroup)) map.removeLayer(stravaGroup);
     if (map.hasLayer(polylineGroup)) map.removeLayer(polylineGroup);
@@ -3446,7 +3454,7 @@ function drawSingleStravaSegment(seg, animate = true) {
 
   // 计算初始的 Leaflet options 属性，确保 Leaflet 缩放重构 SVG 时依然维持高亮/淡化状态
   const polylineOpacity = isDimmed ? DIMMED_SEGMENT_OPACITY : (selectedSegmentId !== null && Number(selectedSegmentId) === segId ? 1.0 : 0.85);
-  const polylineWeight = isDimmed ? 3 : (selectedSegmentId !== null && Number(selectedSegmentId) === segId ? 6.0 : 4.5);
+  const polylineWeight = isDimmed ? SEGMENT_DIMMED_WIDTH : (selectedSegmentId !== null && Number(selectedSegmentId) === segId ? SEGMENT_SELECTED_WIDTH : SEGMENT_LINE_WIDTH);
   const markerOpacity = isDimmed ? DIMMED_SEGMENT_OPACITY : 0.95;
 
   // 4.1 可见的高精豪华彩色折线 (无交互以防止干扰点击热区)
@@ -3461,6 +3469,7 @@ function drawSingleStravaSegment(seg, animate = true) {
 
   // 4.2 隐形的极宽点击热区折线 (解决手机端不容易点到的痛点，热区宽度增加至 28px！)
   const hitAreaPolyline = L.polyline(latlngs, {
+    className: 'segment-hit-area',
     color: 'transparent',
     weight: 28,
     opacity: 0,
@@ -3514,9 +3523,20 @@ function drawSingleStravaSegment(seg, animate = true) {
     }
   }
 
+  // Leaflet's sticky tooltip follows pointer movement along the hit area.
+  // Bind only on hover-capable desktop input devices, never on touch screens.
+  if (window.matchMedia('(hover: hover) and (pointer: fine)').matches && seg.name?.trim()) {
+    const label = document.createElement('span');
+    label.textContent = seg.name.trim();
+    hitAreaPolyline.bindTooltip(label, {
+      sticky: true, direction: 'top', offset: [0, -12], className: 'segment-hover-tooltip'
+    });
+  }
+
   // 6. 点击热区折线事件绑定：阻止冒泡，弹出底部详情卡片，并将其他路段变暗
   hitAreaPolyline.on('click', (e) => {
     L.DomEvent.stopPropagation(e);
+    hitAreaPolyline.closeTooltip();
     showStravaSegmentDetails(seg, e.originalEvent);
     dimAllOtherSegments(segId);
   });
@@ -3527,7 +3547,7 @@ function drawSingleStravaSegment(seg, animate = true) {
 
     visiblePolyline.setStyle({
       color: getGlowColor(getSegmentDisplayScore(seg)),
-      weight: 6.5,
+      weight: SEGMENT_HOVER_WIDTH,
       opacity: 1.0
     });
 
@@ -3538,7 +3558,7 @@ function drawSingleStravaSegment(seg, animate = true) {
 
     visiblePolyline.setStyle({
       color: segColor,
-      weight: 4.5,
+      weight: SEGMENT_LINE_WIDTH,
       opacity: 0.85
     });
 
@@ -4184,6 +4204,7 @@ document.addEventListener('DOMContentLoaded', () => {
   let history = [];
   let previousIntent = null;
   let placeContext = null;
+  let pendingMoreSearch = null;
   let sessionTitle = '';
   let pendingReferences = [];
   const addMenu = document.getElementById('idea-add-menu');
@@ -4291,21 +4312,21 @@ document.addEventListener('DOMContentLoaded', () => {
       navigationSelect.append(option);
     });
     navigationControl.append(navigationLabel, navigationSelect); copyActions.append(exportButton, navigationControl);
-    const navigationNote = document.createElement('p'); navigationNote.className = 'nearby-route-navigation-note'; navigationNote.setAttribute('role', 'status');
-    try { window.buildIdeaMapNavigation(route, routeName, 'amap', 'android'); navigationNote.textContent = '地图将重新规划至路线中的目标位置，完整路线可导出 GPX。'; }
-    catch (_) { navigationNote.textContent = '路线缺少导航所需的位置信息。'; navigationSelect.disabled = true; }
-    noteContainer.append(navigationNote);
-    navigationSelect.addEventListener('change', () => {
-      const provider = navigationSelect.value; navigationSelect.value = '';
-      const agent = navigator.userAgent;
-      const platform = /iPhone|iPad|iPod/i.test(agent) || (navigator.platform === 'MacIntel' && navigator.maxTouchPoints > 1) ? 'ios' : /HarmonyOS|OpenHarmony/i.test(agent) ? 'harmony' : /Android/i.test(agent) ? 'android' : 'other';
-      if (platform === 'other') { navigationNote.textContent = '请在手机上选择已安装的地图 App 进行导航。'; return; }
-      try {
-        const url = window.buildIdeaMapNavigation(route, routeName, provider, platform);
-        navigationNote.textContent = provider === 'apple' ? '正在尝试打开苹果地图 App，请在地图中选择骑行；若未打开，请检查是否安装及浏览器是否允许跳转。' : '正在尝试打开地图；若未打开，请检查是否安装以及浏览器是否允许跳转。';
-        window.location.href = url;
-      } catch (error) { navigationNote.textContent = error.message || '地图暂时无法打开，请重试。'; }
-    });
+    // const navigationNote = document.createElement('p'); navigationNote.className = 'nearby-route-navigation-note'; navigationNote.setAttribute('role', 'status');
+    // try { window.buildIdeaMapNavigation(route, routeName, 'amap', 'android'); navigationNote.textContent = '地图将重新规划至路线中的目标位置，完整路线可导出 GPX。'; }
+    // catch (_) { navigationNote.textContent = '路线缺少导航所需的位置信息。'; navigationSelect.disabled = true; }
+    // noteContainer.append(navigationNote);
+    // navigationSelect.addEventListener('change', () => {
+    //   const provider = navigationSelect.value; navigationSelect.value = '';
+    //   const agent = navigator.userAgent;
+    //   const platform = /iPhone|iPad|iPod/i.test(agent) || (navigator.platform === 'MacIntel' && navigator.maxTouchPoints > 1) ? 'ios' : /HarmonyOS|OpenHarmony/i.test(agent) ? 'harmony' : /Android/i.test(agent) ? 'android' : 'other';
+    //   if (platform === 'other') { navigationNote.textContent = '请在手机上选择已安装的地图 App 进行导航。'; return; }
+    //   try {
+    //     const url = window.buildIdeaMapNavigation(route, routeName, provider, platform);
+    //     navigationNote.textContent = provider === 'apple' ? '正在尝试打开苹果地图 App，请在地图中选择骑行；若未打开，请检查是否安装及浏览器是否允许跳转。' : '正在尝试打开地图；若未打开，请检查是否安装以及浏览器是否允许跳转。';
+    //     window.location.href = url;
+    //   } catch (error) { navigationNote.textContent = error.message || '地图暂时无法打开，请重试。'; }
+    // });
     const status = document.createElement('p'); status.className = 'idea-nearby-export-status'; status.setAttribute('role', 'status');
     exportButton.addEventListener('click', () => {
       try {
@@ -4371,7 +4392,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const inner = document.createElement('div'); inner.className = 'idea-nearby-details-inner';
     const facts = document.createElement('dl'); facts.className = 'segment-detail-grid idea-nearby-facts';
     [['平均坡度', segment.avgGrade ?? segment.averageGrade, '%'], ['最大坡度', segment.maxGrade ?? segment.maximumGrade, '%'],
-      ['累计爬升', segment.totalElevationGain ?? segment.elevationGainM, ' 米'], ['骑行人数', segment.athleteCount, ' 人'], ['完成次数', segment.effortCount, ' 次']].forEach(([label, value, suffix]) => {
+    ['累计爬升', segment.totalElevationGain ?? segment.elevationGainM, ' 米'], ['骑行人数', segment.athleteCount, ' 人'], ['完成次数', segment.effortCount, ' 次']].forEach(([label, value, suffix]) => {
       if (value == null || !Number.isFinite(Number(value))) return;
       const item = document.createElement('div'); const term = document.createElement('dt'); const description = document.createElement('dd');
       term.textContent = label; description.textContent = `${Number(value).toLocaleString()}${suffix}`; item.append(term, description); facts.append(item);
@@ -4495,6 +4516,7 @@ document.addEventListener('DOMContentLoaded', () => {
       if (data.distanceNote) parts.push(data.distanceNote);
       if (data.note) parts.push(data.note);
     }
+    if (Array.isArray(data.alternatives) && data.alternatives.length) parts.push(`备选路线：${data.alternatives.map((item, i) => `${i + 1}. ${Number(item.route?.distanceKm).toFixed(1)} 公里，经过${(item.added || []).join('、')}`).join('；')}。`);
     if (Array.isArray(data.items) && data.items.length) parts.push(`推荐结果：${data.items.map((item, i) => `${i + 1}. ${item.name}（${item.type === 'segment' ? '路段' : '点位'}${Number.isFinite(item.distanceKm) ? `，${item.distanceKm.toFixed(1)} 公里` : ''}）${item.reason || ''}`).join('；')}`);
     return parts.filter(Boolean).join('\n');
   };
@@ -4944,10 +4966,12 @@ document.addEventListener('DOMContentLoaded', () => {
     document.getElementById('traditional-search-status'), document.getElementById('traditional-search-results'), (type, item, button) => {
       rememberTraditionalQuery();
       openTraditionalResult(type, item, button);
-    }, { onQueryChange: query => {
+    }, {
+    onQueryChange: query => {
       suggestions.hidden = Boolean(query);
       if (!query) renderTraditionalNearby();
-    } });
+    }
+  });
   traditionalForm.addEventListener('submit', rememberTraditionalQuery);
   document.getElementById('traditional-history-clear').addEventListener('click', () => {
     recentSearches = [];
@@ -5391,8 +5415,10 @@ document.addEventListener('DOMContentLoaded', () => {
           });
           const addButton = document.createElement('button'); addButton.type = 'button'; addButton.textContent = '添加到聊天';
           const addRouteToChat = () => {
-            const reference = { name: name.textContent, distanceKm: Number(route.distanceKm),
-              legs: route.legs.map(leg => ({ type: leg.type, name: leg.name || '', distanceKm: Number(leg.distanceKm) })) };
+            const reference = {
+              name: name.textContent, distanceKm: Number(route.distanceKm),
+              legs: route.legs.map(leg => ({ type: leg.type, name: leg.name || '', distanceKm: Number(leg.distanceKm) }))
+            };
             const detailOpen = !document.getElementById('map-detail-sheet').hidden;
             const delay = detailOpen && !window.matchMedia('(prefers-reduced-motion: reduce)').matches ? 340 : 0;
             closeNearbyRouteView();
@@ -5443,7 +5469,7 @@ document.addEventListener('DOMContentLoaded', () => {
           { opacity: 0, transform: 'translateY(14px)' },
           { opacity: 1, transform: 'translateY(0)' }
         ], { duration: 480, delay: Math.min(index, 2) * 60, easing: 'cubic-bezier(.2,.8,.2,1)', fill: 'backwards' }));
-        exitAnimation.finished.catch(() => {}).finally(() => {
+        exitAnimation.finished.catch(() => { }).finally(() => {
           if (nearbySkeletonExit !== exitAnimation) return;
           nearbySkeletonExit = null;
           placeholder.classList.remove('is-visible');
@@ -5609,6 +5635,9 @@ document.addEventListener('DOMContentLoaded', () => {
     const submittedReferences = pendingReferences.map(ref => ({ type: ref.type, item: { ...ref.item } }));
     if (!idea) { input.focus(); return; }
     if (ideaSending) return;
+    const moreRequest = pendingMoreSearch;
+    pendingMoreSearch = null;
+    let moreSucceeded = false;
     clearPlaceSearch();
     cancelGreeting();
     ideaRequest?.abort();
@@ -5660,21 +5689,80 @@ document.addEventListener('DOMContentLoaded', () => {
     status.append(heading, steps); content.append(status);
     content.scrollTop = content.scrollHeight;
     animateIdeaMessage(bubble, sourceRect);
+    let firstRouteShown = false;
+    let alternativeProgress = null;
+    let alternativeHeading = null;
+    const shownAlternatives = new Set();
     const addStep = stage => {
+      if (firstRouteShown) return;
       const previous = steps.lastElementChild;
       if (previous) previous.classList.add('done');
       const step = document.createElement('li'); step.textContent = stage; steps.append(step);
       content.scrollTop = content.scrollHeight;
     };
+    const appendRouteCard = (data, label, before = null) => {
+      if (!data?.route) return;
+      const card = document.createElement('article'); card.className = 'idea-card idea-composite-card';
+      const type = document.createElement('div'); type.className = 'idea-card-type'; type.textContent = label;
+      const title = document.createElement('h3'); title.textContent = `${Number(data.route.distanceKm).toFixed(1)} 公里 · 约 ${Math.round(data.route.durationMin)} 分钟`;
+      const sequence = document.createElement('p'); sequence.textContent = data.route.stops.map(stop => stop.name).join(' → ');
+      const legs = document.createElement('ol'); legs.className = 'idea-route-legs'; renderCompositeLegs(legs, data.route.legs);
+      const note = document.createElement('p'); note.className = 'idea-composite-note'; note.textContent = [data.distanceNote, data.note].filter(Boolean).join(' ');
+      const actions = document.createElement('div'); actions.className = 'idea-card-actions';
+      const show = document.createElement('button'); show.type = 'button'; show.textContent = '查看完整路线'; show.addEventListener('click', () => { if (currentSessionId !== sessionAtSubmit) return; remember('assistant', `用户查看了路线：${data.route.stops.map(stop => stop.name).join(' → ')}，总里程 ${Number(data.route.distanceKm).toFixed(1)} 公里。`); showCompositeIdeaRoute(data, close); });
+      actions.append(show); card.append(type, title, sequence, legs, note, actions);
+      if (before) content.insertBefore(card, before); else content.append(card);
+    };
+    const addAlternativeCard = data => {
+      if (!data?.route) return;
+      const key = Array.isArray(data.added) && data.added.length ? [...data.added].sort().join('\u0000') : `${data.route.distanceKm}:${data.route.stops.map(stop => stop.name).join('|')}`;
+      if (shownAlternatives.has(key)) return;
+      shownAlternatives.add(key);
+      const nearBottom = content.scrollHeight - content.scrollTop - content.clientHeight < 100;
+      appendRouteCard(data, `备选路线 ${shownAlternatives.size}`, alternativeProgress);
+      if (nearBottom) content.scrollTop = content.scrollHeight;
+    };
+    const routeEvent = (event, data) => {
+      if (ideaRequest !== request || sessionEpoch !== epoch) return;
+      if (event === 'route_first' && data.route && !firstRouteShown) {
+        firstRouteShown = true;
+        if (steps.lastElementChild) steps.lastElementChild.classList.add('done');
+        headingText.textContent = '思考完成'; heading.classList.remove('is-thinking'); heading.setAttribute('aria-expanded', 'false'); steps.hidden = true;
+        const answer = document.createElement('p'); answer.className = 'idea-answer'; answer.textContent = data.message || '已生成第一条骑行路线。'; content.append(answer);
+        appendRouteCard(data, '推荐路线');
+        alternativeProgress = document.createElement('div'); alternativeProgress.className = 'idea-progress'; alternativeProgress.setAttribute('role', 'status');
+        const title = document.createElement('button'); title.type = 'button'; title.className = 'idea-progress-title is-thinking'; title.setAttribute('aria-expanded', 'true');
+        alternativeHeading = document.createElement('span'); alternativeHeading.textContent = '正在生成其他路线';
+        const alternativeSteps = document.createElement('ol'); alternativeSteps.className = 'idea-progress-steps is-loading';
+        const step = document.createElement('li'); step.textContent = '正在查找并验证沿途高分路段'; alternativeSteps.append(step);
+        title.append(alternativeHeading, createDisclosureChevron());
+        title.addEventListener('click', () => { const expanded = title.getAttribute('aria-expanded') !== 'true'; title.setAttribute('aria-expanded', String(expanded)); alternativeSteps.hidden = !expanded; });
+        alternativeProgress.append(title, alternativeSteps); content.append(alternativeProgress);
+        content.scrollTop = content.scrollHeight;
+        const initialScrollTop = content.scrollTop;
+        setTimeout(() => {
+          if (firstRouteShown && ideaRequest === request && alternativeProgress?.isConnected && Math.abs(content.scrollTop - initialScrollTop) < 8) content.scrollTop = content.scrollHeight;
+        }, 350);
+      } else if (event === 'route_alternative') addAlternativeCard(data);
+      else if (event === 'route_alternatives_done' && alternativeHeading) {
+        alternativeHeading.textContent = data.status === 'unavailable' ? (data.count ? `已生成 ${data.count} 条备选路线，部分搜索未完成` : '其他路线暂时无法生成') : data.count ? `已生成 ${data.count} 条备选路线` : data.status === 'not_applicable' ? '当前条件下暂不支持生成备选路线' : '暂未找到符合条件的其他路线';
+        alternativeHeading.parentElement.classList.remove('is-thinking'); alternativeHeading.parentElement.setAttribute('aria-expanded', 'false');
+        const alternativeSteps = alternativeProgress.querySelector('.idea-progress-steps');
+        alternativeSteps.firstElementChild.textContent = data.status === 'unavailable' ? '部分搜索或路线校验未完成' : '沿途路段搜索和路线校验已结束';
+        alternativeSteps.classList.remove('is-loading'); alternativeSteps.hidden = true;
+      }
+    };
     try {
       const center = map.getCenter();
-      const response = await fetch(`${API_BASE_URL}/routes/idea-recommendations`, { method: 'POST', headers: { 'Content-Type': 'application/json', 'Accept': 'text/event-stream' }, body: JSON.stringify({ idea, center: { lat: center.lat, lng: center.lng }, origin: origin && ['manual', 'gps', 'ip'].includes(originLocationSource) && Number.isFinite(Number(origin.lat)) && Number.isFinite(Number(origin.lng)) ? { lat: Number(origin.lat), lng: Number(origin.lng) } : null, originSource: originLocationSource === 'gps' && Date.now() - originGpsTimestamp >= 60000 ? 'gps-stale' : originLocationSource, history: priorHistory, previousIntent, placeContext }), signal: request.signal });
+      const response = await fetch(`${API_BASE_URL}/routes/idea-recommendations`, { method: 'POST', headers: { 'Content-Type': 'application/json', 'Accept': 'text/event-stream' }, body: JSON.stringify({ idea, center: { lat: center.lat, lng: center.lng }, origin: origin && ['manual', 'gps', 'ip'].includes(originLocationSource) && Number.isFinite(Number(origin.lat)) && Number.isFinite(Number(origin.lng)) ? { lat: Number(origin.lat), lng: Number(origin.lng) } : null, originSource: originLocationSource === 'gps' && Date.now() - originGpsTimestamp >= 60000 ? 'gps-stale' : originLocationSource, history: priorHistory, previousIntent, placeContext, ...(moreRequest ? { moreSearch: moreRequest.search } : {}) }), signal: request.signal });
       let data;
       if (!response.ok) { const error = await response.json(); throw new Error(error.error || '推荐暂时不可用，请稍后重试。'); }
       if ((response.headers.get('content-type') || '').includes('text/event-stream')) {
-        data = await readIdeaStream(response, addStep, value => { if (sessionEpoch === epoch && ideaRequest === request) setTitle(value); });
+        data = await readIdeaStream(response, addStep, value => { if (sessionEpoch === epoch && ideaRequest === request) setTitle(value); }, routeEvent);
       } else { data = await response.json(); }
       if (ideaRequest !== request || sessionEpoch !== epoch) return;
+      moreSucceeded = true;
+      if (moreRequest) moreRequest.button.hidden = true;
       setTitle(data.title || idea);
       if (Object.prototype.hasOwnProperty.call(data, 'contextIntent')) previousIntent = data.contextIntent;
       if (Object.prototype.hasOwnProperty.call(data, 'placeContext')) placeContext = data.placeContext;
@@ -5682,17 +5770,34 @@ document.addEventListener('DOMContentLoaded', () => {
       if (steps.lastElementChild) steps.lastElementChild.classList.add('done');
       headingText.textContent = '思考完成';
       heading.classList.remove('is-thinking'); heading.setAttribute('aria-expanded', 'false'); steps.hidden = true;
-      const answer = document.createElement('p'); answer.className = 'idea-answer'; answer.textContent = data.message || ''; content.append(answer);
+      if (!firstRouteShown) { const answer = document.createElement('p'); answer.className = 'idea-answer'; answer.textContent = data.message || ''; content.append(answer); }
+      const choices = document.createElement('div'); choices.className = 'idea-card-actions';
       if (Array.isArray(data.options) && data.options.length) {
-        const choices = document.createElement('div'); choices.className = 'idea-card-actions';
         data.options.slice(0, 3).forEach(option => {
           if (typeof option !== 'string' || !option.trim()) return;
           const button = document.createElement('button'); button.type = 'button'; button.textContent = option;
           button.addEventListener('click', () => { if (currentSessionId !== sessionAtSubmit || ideaSending) return; input.value = option; submitIdeaDirect(); });
           choices.append(button);
         });
-        content.append(choices);
       }
+      if (data.moreSearch && typeof data.moreSearch.query === 'string' && data.moreSearch.center) {
+        const moreButton = document.createElement('button'); moreButton.type = 'button'; moreButton.className = 'idea-search-more';
+        moreButton.textContent = '更多';
+        moreButton.setAttribute('aria-label', `搜索更多与${data.moreSearch.query}相关的路段和地点`);
+        const contextAtRender = placeContext;
+        moreButton.addEventListener('click', () => {
+          if (currentSessionId !== sessionAtSubmit || ideaSending) return;
+          if (placeContext !== contextAtRender) { showAppMessage('请在最新的搜索结果中查找更多相关内容。'); return; }
+          const draft = input.value;
+          moreButton.disabled = true;
+          pendingMoreSearch = { search: data.moreSearch, button: moreButton };
+          input.value = '查看更多相关路段和地点';
+          submitIdeaDirect();
+          if (draft) { input.value = draft; resizeIdeaInput(); }
+        });
+        choices.append(moreButton);
+      }
+      if (choices.childElementCount) content.append(choices);
       if (data.needsOrigin) {
         const locate = document.createElement('button'); locate.type = 'button'; locate.className = 'idea-locate'; locate.textContent = '使用当前位置重新规划';
         const locateStatus = document.createElement('p'); locateStatus.className = 'idea-route-status'; locateStatus.setAttribute('role', 'status');
@@ -5706,18 +5811,8 @@ document.addEventListener('DOMContentLoaded', () => {
         });
         content.append(locate, locateStatus);
       }
-      if (data.route) {
-        const card = document.createElement('article'); card.className = 'idea-card idea-composite-card';
-        const type = document.createElement('div'); type.className = 'idea-card-type'; type.textContent = '完整骑行路线';
-        const title = document.createElement('h3'); title.textContent = `${Number(data.route.distanceKm).toFixed(1)} 公里 · 约 ${Math.round(data.route.durationMin)} 分钟`;
-        const sequence = document.createElement('p'); sequence.textContent = data.route.stops.map(stop => stop.name).join(' → ');
-        const legs = document.createElement('ol'); legs.className = 'idea-route-legs';
-        renderCompositeLegs(legs, data.route.legs);
-        const note = document.createElement('p'); note.className = 'idea-composite-note'; note.textContent = [data.distanceNote, data.note].filter(Boolean).join(' ');
-        const actions = document.createElement('div'); actions.className = 'idea-card-actions';
-        const show = document.createElement('button'); show.type = 'button'; show.textContent = '查看完整路线'; show.addEventListener('click', () => { if (currentSessionId !== sessionAtSubmit) return; remember('assistant', `用户查看了路线：${data.route.stops.map(stop => stop.name).join(' → ')}，总里程 ${Number(data.route.distanceKm).toFixed(1)} 公里。`); showCompositeIdeaRoute(data, close); });
-        actions.append(show); card.append(type, title, sequence, legs, note, actions); content.append(card);
-      }
+      if (data.route && !firstRouteShown) appendRouteCard(data, '推荐路线');
+      if (Array.isArray(data.alternatives)) data.alternatives.forEach(addAlternativeCard);
       const items = Array.isArray(data.items) ? data.items : [];
       items.forEach(item => {
         const card = document.createElement('article'); card.className = 'idea-card';
@@ -5739,8 +5834,9 @@ document.addEventListener('DOMContentLoaded', () => {
       content.scrollTop = content.scrollHeight;
     } catch (error) {
       if (error.name !== 'AbortError') {
-        headingText.textContent = '思考未完成';
-        status.classList.add('has-error');
+        headingText.textContent = firstRouteShown ? '思考完成' : '思考未完成';
+        if (firstRouteShown && alternativeHeading) { alternativeHeading.textContent = '其他路线生成中断，已保留第一条路线'; alternativeHeading.parentElement.classList.remove('is-thinking'); const moreSteps = alternativeProgress.querySelector('.idea-progress-steps'); moreSteps.classList.remove('is-loading'); moreSteps.hidden = true; alternativeHeading.parentElement.setAttribute('aria-expanded', 'false'); }
+        else status.classList.add('has-error');
         const message = document.createElement('p');
         message.className = 'idea-route-status';
         message.textContent = error instanceof TypeError ? '网络连接失败，请稍后重试。' : (error.message || '网络连接失败，请稍后重试。');
@@ -5751,16 +5847,21 @@ document.addEventListener('DOMContentLoaded', () => {
         retry.addEventListener('click', () => {
           if (currentSessionId !== sessionAtSubmit || ideaSending) return;
           const draft = input.value;
+          if (moreRequest) { pendingMoreSearch = moreRequest; moreRequest.button.disabled = true; }
           input.value = idea;
           submitIdeaDirect();
           if (draft) { input.value = draft; resizeIdeaInput(); }
         });
         content.append(message, retry);
       }
-      else { headingText.textContent = '已取消'; }
+      else if (firstRouteShown && alternativeHeading) {
+        alternativeHeading.textContent = '已停止生成其他路线'; alternativeHeading.parentElement.classList.remove('is-thinking'); alternativeHeading.parentElement.setAttribute('aria-expanded', 'false');
+        const moreSteps = alternativeProgress.querySelector('.idea-progress-steps'); moreSteps.classList.remove('is-loading'); moreSteps.hidden = true;
+      } else { headingText.textContent = '已取消'; }
       heading.classList.remove('is-thinking');
     } finally {
       steps.classList.remove('is-loading');
+      if (moreRequest && !moreSucceeded) moreRequest.button.disabled = false;
       if (ideaRequest === request) { ideaSending = false; ideaRequest = null; }
     }
   });
@@ -5780,7 +5881,7 @@ function animateIdeaMessage(bubble, sourceRect) {
   animation.finished.catch(() => { }).finally(() => { flying.remove(); bubble.style.visibility = ''; });
 }
 
-async function readIdeaStream(response, onProgress, onTitle = () => { }) {
+async function readIdeaStream(response, onProgress, onTitle = () => { }, onRouteEvent = () => { }) {
   if (!response.body) throw new Error('推荐服务未返回结果，请重试。');
   const reader = response.body.getReader();
   const decoder = new TextDecoder();
@@ -5792,6 +5893,7 @@ async function readIdeaStream(response, onProgress, onTitle = () => { }) {
     const payload = JSON.parse(data.join('\n'));
     if (event === 'progress') onProgress(payload.stage);
     else if (event === 'title') onTitle(payload.title);
+    else if (['route_first', 'route_alternative', 'route_alternatives_progress', 'route_alternatives_done'].includes(event)) onRouteEvent(event, payload);
     else if (event === 'result') result = payload;
     else if (event === 'error') throw new Error(payload.error || '推荐暂时不可用，请稍后重试。');
   };

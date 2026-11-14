@@ -20,6 +20,7 @@ const first = createSegment();
 const second = createSegment();
 const context = {
   DIMMED_SEGMENT_OPACITY: 0.3,
+  SEGMENT_DIMMED_WIDTH: 2, SEGMENT_SELECTED_WIDTH: 4, SEGMENT_LINE_WIDTH: 2.5,
   selectedSegmentId: null, plannedRouteSelected: false,
   loadedStravaSegments: new Map([[1, first], [2, second]]),
   getSegmentDisplayScore: () => 10, isSegmentVisibleAtCurrentZoom: () => true,

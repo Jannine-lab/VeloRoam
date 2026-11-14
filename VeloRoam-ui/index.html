@@ -21,7 +21,7 @@
     integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin="" />
 
   <!-- Custom CSS Style -->
-  <link rel="stylesheet" href="style.css?v=20261110-complete-route-actions">
+  <link rel="stylesheet" href="style.css?v=20261114-segment-focus">
 </head>
 
 <body>
@@ -340,7 +340,7 @@
       <input type="search" id="location-search-input" class="location-search-input" placeholder="搜索地址或地点"
         aria-label="搜索地址或地点" autocomplete="off" enterkeyhint="search">
       <button type="button" class="location-search-clear" id="location-search-clear" aria-label="清空搜索" hidden>
-        <i class="fa-solid fa-circle-xmark"></i>
+        <i class="fa-solid fa-circle-xmark" style="font-size: 16px;"></i>
       </button>
       <div class="location-search-results" id="location-search-results" role="listbox" aria-label="地址搜索结果"></div>
     </div>
@@ -608,7 +608,10 @@
               </select></div><label class="sr-only" for="idea-input">输入骑行想法，按回车发送</label><span class="idea-input-prompt"
               id="idea-input-prompt" aria-hidden="true">今天，想骑向哪里？</span>
             <div class="idea-input-body">
-              <div class="idea-input-editor"><div id="idea-input" contenteditable="true" role="textbox" aria-multiline="true" aria-label="输入骑行想法" aria-describedby="idea-input-help" data-placeholder="输入骑行想法，或添加路段、地点" enterkeyhint="send"></div></div>
+              <div class="idea-input-editor">
+                <div id="idea-input" contenteditable="true" role="textbox" aria-multiline="true" aria-label="输入骑行想法"
+                  aria-describedby="idea-input-help" data-placeholder="输入骑行想法，或添加路段、地点" enterkeyhint="send"></div>
+              </div>
             </div><span class="sr-only" id="idea-input-help">使用添加引用选择路段或地点，按回车发送。</span><button type="submit"
               class="idea-send" id="idea-send" aria-label="发送" hidden><i class="fa-solid fa-arrow-up"
                 aria-hidden="true"></i></button>
@@ -660,7 +663,7 @@
   <script src="idea-gpx.js?v=20261106"></script>
   <script src="idea-navigation.js?v=20261110-native-map-app"></script>
   <script src="idea-recommendation-cache.js?v=20261106-three-routes"></script>
-  <script src="app.js?v=20261110-native-map-app"></script>
+  <script src="app.js?v=20261114-multiple-route-stream"></script>
 </body>
 
 </html>
