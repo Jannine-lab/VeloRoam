@@ -1,0 +1,101 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-14T07:15:56.845Z",
+  "tile": {
+    "z": 13,
+    "x": 6834,
+    "y": 3352
+  },
+  "segments": [
+    {
+      "id": "15356228",
+      "tileScore": 43,
+      "name": "东山itt训练路线",
+      "distanceM": 55574.1015625,
+      "avgGrade": 0.002339219208806753,
+      "startLat": 31.18752098083496,
+      "startLng": 120.4769515991211
+    },
+    {
+      "id": "34803837",
+      "tileScore": 53,
+      "name": "青蛙村三连击",
+      "distanceM": 2931.300048828125,
+      "avgGrade": 0.006822911556810141,
+      "startLat": 31.056859970092773,
+      "startLng": 120.33834075927734
+    },
+    {
+      "id": "33401272",
+      "tileScore": 47,
+      "name": "东西山超级有氧",
+      "distanceM": 137358.703125,
+      "avgGrade": 0.00873624999076128,
+      "startLat": 31.187084197998047,
+      "startLng": 120.4767837524414
+    },
+    {
+      "id": "13458706",
+      "tileScore": 33,
+      "name": "6km sprint - HuangShan Hwy before turning left",
+      "distanceM": 6192.7001953125,
+      "avgGrade": -0.11949553340673447,
+      "startLat": 31.04010772705078,
+      "startLng": 120.32730865478516
+    },
+    {
+      "id": "15330583",
+      "tileScore": 57,
+      "name": "dongshan 30KM",
+      "distanceM": 30081.900390625,
+      "avgGrade": -0.006648516282439232,
+      "startLat": 31.187458038330078,
+      "startLng": 120.47698974609375
+    },
+    {
+      "id": "3491706",
+      "tileScore": 10,
+      "name": "Chinese Toscany",
+      "distanceM": 4208.828125,
+      "avgGrade": 0,
+      "startLat": 31.049022674560547,
+      "startLng": 120.33037567138672
+    },
+    {
+      "id": "40218970",
+      "tileScore": 68,
+      "name": "老钱顺手扒了青蛙内裤骑上sl8就开始冲刺",
+      "distanceM": 780.5999755859375,
+      "avgGrade": -1.0248527526855469,
+      "startLat": 31.040037155151367,
+      "startLng": 120.32759857177734
+    },
+    {
+      "id": "9018562",
+      "tileScore": 8,
+      "name": "Shortcut to save energy for Dongshan climb",
+      "distanceM": 4234.60009765625,
+      "avgGrade": 0.07084494829177856,
+      "startLat": 31.065486907958984,
+      "startLng": 120.35739135742188
+    },
+    {
+      "id": "17386232",
+      "tileScore": 53,
+      "name": "环东山（东山宾馆—码头)",
+      "distanceM": 16815.80078125,
+      "avgGrade": -0.03330201283097267,
+      "startLat": 31.09560775756836,
+      "startLng": 120.41627502441406
+    },
+    {
+      "id": "7585239",
+      "tileScore": 2,
+      "name": "To the cemetery",
+      "distanceM": 1369.0999755859375,
+      "avgGrade": 2.2934772968292236,
+      "startLat": 31.037639617919922,
+      "startLng": 120.33566284179688
+    }
+  ]
+}

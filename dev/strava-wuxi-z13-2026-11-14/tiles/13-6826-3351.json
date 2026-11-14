@@ -1,0 +1,29 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-14T07:10:50.461Z",
+  "tile": {
+    "z": 13,
+    "x": 6826,
+    "y": 3351
+  },
+  "segments": [
+    {
+      "id": "40564534",
+      "tileScore": 34,
+      "name": "环太湖",
+      "distanceM": 151856.5,
+      "avgGrade": 0.0009219230269081891,
+      "startLat": 31.187686920166016,
+      "startLng": 120.47770690917969
+    },
+    {
+      "id": "31210353",
+      "tileScore": 80,
+      "name": "5kmITT夹浦-合溪新港路(滨湖大道）",
+      "distanceM": 5749.2998046875,
+      "avgGrade": 0.09044579416513443,
+      "startLat": 31.09895133972168,
+      "startLng": 119.94747924804688
+    }
+  ]
+}

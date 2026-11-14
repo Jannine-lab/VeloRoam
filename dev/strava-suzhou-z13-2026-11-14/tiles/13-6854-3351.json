@@ -1,0 +1,227 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-14T07:26:23.817Z",
+  "tile": {
+    "z": 13,
+    "x": 6854,
+    "y": 3351
+  },
+  "segments": [
+    {
+      "id": "40051554",
+      "tileScore": 107,
+      "name": "骑客晨练前半段",
+      "distanceM": 17343.099609375,
+      "avgGrade": 0.00576598197221756,
+      "startLat": 31.14890480041504,
+      "startLng": 121.22411346435547
+    },
+    {
+      "id": "30390315",
+      "tileScore": 6,
+      "name": "BTP-S5",
+      "distanceM": 7978.10009765625,
+      "avgGrade": -0.021308330819010735,
+      "startLat": 31.095489501953125,
+      "startLng": 121.29185485839844
+    },
+    {
+      "id": "12672767",
+      "tileScore": 1,
+      "name": "Mingzhong to Chenhua Road TT",
+      "distanceM": 12403.7001953125,
+      "avgGrade": -0.0032248441129922867,
+      "startLat": 31.086641311645508,
+      "startLng": 121.35372161865234
+    },
+    {
+      "id": "17819961",
+      "tileScore": 83,
+      "name": "人民北路真男人♂对决",
+      "distanceM": 1651,
+      "avgGrade": 0.024227742105722427,
+      "startLat": 31.088638305664062,
+      "startLng": 121.21744537353516
+    },
+    {
+      "id": "2718283",
+      "tileScore": 42,
+      "name": "Jiasong South to Sheshan X23",
+      "distanceM": 7445.669921875,
+      "avgGrade": -0.03223336860537529,
+      "startLat": 31.1546573638916,
+      "startLng": 121.22248840332031
+    },
+    {
+      "id": "37027201",
+      "tileScore": 6,
+      "name": "ER speedy circuit ",
+      "distanceM": 75940.3984375,
+      "avgGrade": -0.010534577071666718,
+      "startLat": 31.1991024017334,
+      "startLng": 121.27393341064453
+    },
+    {
+      "id": "31239809",
+      "tileScore": 10,
+      "name": "广富林冲冲冲",
+      "distanceM": 307.8999938964844,
+      "avgGrade": -0.7145177125930786,
+      "startLat": 31.0707950592041,
+      "startLng": 121.22744750976562
+    },
+    {
+      "id": "30259042",
+      "tileScore": 16,
+      "name": "Songjiang Renmin North Road",
+      "distanceM": 1493.5,
+      "avgGrade": 0.0066956812515854836,
+      "startLat": 31.051803588867188,
+      "startLng": 121.21735382080078
+    },
+    {
+      "id": "37724746",
+      "tileScore": 8,
+      "name": "青浦快运",
+      "distanceM": 66769.3984375,
+      "avgGrade": -0.013179689645767212,
+      "startLat": 31.176237106323242,
+      "startLng": 121.27295684814453
+    },
+    {
+      "id": "30259012",
+      "tileScore": 4,
+      "name": "Guyang North Road",
+      "distanceM": 4497.2001953125,
+      "avgGrade": 0.035577692091464996,
+      "startLat": 31.059492111206055,
+      "startLng": 121.23114776611328
+    },
+    {
+      "id": "9625902",
+      "tileScore": 261,
+      "name": "龙源绕圈",
+      "distanceM": 7345,
+      "avgGrade": 0.0027229406405240297,
+      "startLat": 31.072731018066406,
+      "startLng": 121.19745635986328
+    },
+    {
+      "id": "36108431",
+      "tileScore": 23,
+      "name": "嘉松南路冲桥",
+      "distanceM": 954,
+      "avgGrade": 0.1467505246400833,
+      "startLat": 31.053722381591797,
+      "startLng": 121.2274169921875
+    },
+    {
+      "id": "2800659",
+      "tileScore": 3,
+      "name": "Shenzhuan Hwy Short",
+      "distanceM": 5337.22998046875,
+      "avgGrade": -0.11241849511861801,
+      "startLat": 31.08367156982422,
+      "startLng": 121.17442321777344
+    },
+    {
+      "id": "27327757",
+      "tileScore": 7,
+      "name": "Shanghai Tour de France 上海环法 - Full Tour (100km)",
+      "distanceM": 100065.796875,
+      "avgGrade": 0.002498356159776449,
+      "startLat": 31.153793334960938,
+      "startLng": 121.20298767089844
+    },
+    {
+      "id": "42345837",
+      "tileScore": 26,
+      "name": "6哥带你刷两山",
+      "distanceM": 52786.69921875,
+      "avgGrade": -0.002652183175086975,
+      "startLat": 31.17475128173828,
+      "startLng": 121.30008697509766
+    },
+    {
+      "id": "21131689",
+      "tileScore": 20,
+      "name": "Tong Bo Tang Bridge (westbound)",
+      "distanceM": 1500.0999755859375,
+      "avgGrade": 0.03999733179807663,
+      "startLat": 31.07075309753418,
+      "startLng": 121.24424743652344
+    },
+    {
+      "id": "36675451",
+      "tileScore": 1,
+      "name": "Uni Town to YKPS",
+      "distanceM": 5466.10009765625,
+      "avgGrade": 0.005488373804837465,
+      "startLat": 31.056684494018555,
+      "startLng": 121.22724914550781
+    },
+    {
+      "id": "37670079",
+      "tileScore": 6,
+      "name": "Chenhua to Shenzhuan",
+      "distanceM": 1593.5999755859375,
+      "avgGrade": 0.03765060007572174,
+      "startLat": 31.07167625427246,
+      "startLng": 121.22759246826172
+    },
+    {
+      "id": "37119463",
+      "tileScore": 50,
+      "name": "Fat Leaf Sprint",
+      "distanceM": 508,
+      "avgGrade": 0.07874015718698502,
+      "startLat": 31.07151985168457,
+      "startLng": 121.20308685302734
+    },
+    {
+      "id": "4325628",
+      "tileScore": 12,
+      "name": "Jiuzhai",
+      "distanceM": 7446.39990234375,
+      "avgGrade": -0.11817790567874908,
+      "startLat": 31.069772720336914,
+      "startLng": 121.20173645019531
+    },
+    {
+      "id": "6467827",
+      "tileScore": 19,
+      "name": "1mile after right off Jaisong to Sheshan split",
+      "distanceM": 1556.0999755859375,
+      "avgGrade": 0,
+      "startLat": 31.089115142822266,
+      "startLng": 121.22514343261719
+    },
+    {
+      "id": "9625925",
+      "tileScore": 232,
+      "name": "辰花路拉爆冲刺",
+      "distanceM": 1702.800048828125,
+      "avgGrade": 0.12919896841049194,
+      "startLat": 31.071367263793945,
+      "startLng": 121.21575164794922
+    },
+    {
+      "id": "34643436",
+      "tileScore": 8,
+      "name": "广富林印象城荡腿",
+      "distanceM": 1837.0999755859375,
+      "avgGrade": -0.05987698212265968,
+      "startLat": 31.061859130859375,
+      "startLng": 121.19718170166016
+    },
+    {
+      "id": "8025523",
+      "tileScore": 58,
+      "name": "Jaisong 2K frm Playa cutoff to Shenzhuan",
+      "distanceM": 1798.4000244140625,
+      "avgGrade": 0,
+      "startLat": 31.105634689331055,
+      "startLng": 121.22461700439453
+    }
+  ]
+}

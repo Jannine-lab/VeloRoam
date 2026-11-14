@@ -1,0 +1,92 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-14T07:26:26.108Z",
+  "tile": {
+    "z": 13,
+    "x": 6852,
+    "y": 3353
+  },
+  "segments": [
+    {
+      "id": "40145204",
+      "tileScore": 16,
+      "name": "Biotope to Songzheng Hwy",
+      "distanceM": 2475.300048828125,
+      "avgGrade": 0,
+      "startLat": 31.011642456054688,
+      "startLng": 121.12437438964844
+    },
+    {
+      "id": "30026001",
+      "tileScore": 16,
+      "name": "CC-12",
+      "distanceM": 4523.89990234375,
+      "avgGrade": -0.03315723314881325,
+      "startLat": 30.99749755859375,
+      "startLng": 121.1362533569336
+    },
+    {
+      "id": "40134344",
+      "tileScore": 25,
+      "name": "Steamtrain to Songzheng Bridge",
+      "distanceM": 4290.7001953125,
+      "avgGrade": -0.018644975498318672,
+      "startLat": 30.963443756103516,
+      "startLng": 121.15601348876953
+    },
+    {
+      "id": "29922300",
+      "tileScore": 13,
+      "name": "油墩冲冲冲",
+      "distanceM": 903.4000244140625,
+      "avgGrade": -0.1439008116722107,
+      "startLat": 30.98133087158203,
+      "startLng": 121.16493225097656
+    },
+    {
+      "id": "32298852",
+      "tileScore": 22,
+      "name": "泖河浦江骑行第一段",
+      "distanceM": 1836.199951171875,
+      "avgGrade": -0.10892059653997421,
+      "startLat": 30.996870040893555,
+      "startLng": 121.13552856445312
+    },
+    {
+      "id": "11987585",
+      "tileScore": 11,
+      "name": "Xietang Bridge (North-East Bound)",
+      "distanceM": 682.2999877929688,
+      "avgGrade": 0.0293126180768013,
+      "startLat": 30.97605323791504,
+      "startLng": 121.14606475830078
+    },
+    {
+      "id": "11987455",
+      "tileScore": 18,
+      "name": "Songzheng Hwy Xietang Bridge (South-West Bound)",
+      "distanceM": 657.4000244140625,
+      "avgGrade": 0.10648007690906525,
+      "startLat": 30.997079849243164,
+      "startLng": 121.13513946533203
+    },
+    {
+      "id": "40976501",
+      "tileScore": 11,
+      "name": "Canal Tour",
+      "distanceM": 31244.30078125,
+      "avgGrade": 0.01024186797440052,
+      "startLat": 31.025711059570312,
+      "startLng": 121.04932403564453
+    },
+    {
+      "id": "32298836",
+      "tileScore": 19,
+      "name": "小昆山-松蒸公路",
+      "distanceM": 5336.7998046875,
+      "avgGrade": -0.011242692358791828,
+      "startLat": 31.04421043395996,
+      "startLng": 121.1271743774414
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-14T06:59:54.036Z",
+  "tile": {
+    "z": 13,
+    "x": 6820,
+    "y": 3304
+  },
+  "segments": [
+    {
+      "id": "34069998",
+      "tileScore": 6,
+      "name": "北澄子河大桥",
+      "distanceM": 1308.0999755859375,
+      "avgGrade": -0.061157405376434326,
+      "startLat": 32.829994201660156,
+      "startLng": 119.7488784790039
+    }
+  ]
+}

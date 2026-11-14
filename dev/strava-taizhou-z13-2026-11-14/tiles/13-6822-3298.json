@@ -1,0 +1,29 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-14T07:03:02.570Z",
+  "tile": {
+    "z": 13,
+    "x": 6822,
+    "y": 3298
+  },
+  "segments": [
+    {
+      "id": "30798490",
+      "tileScore": 9,
+      "name": "油菜花三公里真男人决斗",
+      "distanceM": 3039.5,
+      "avgGrade": 0.013160059228539467,
+      "startLat": 33.005489349365234,
+      "startLng": 119.81156921386719
+    },
+    {
+      "id": "38997746",
+      "tileScore": 9,
+      "name": "2025千垛绕圈赛最后的冲刺",
+      "distanceM": 510.5,
+      "avgGrade": -0.2742409408092499,
+      "startLat": 33.02956771850586,
+      "startLng": 119.81222534179688
+    }
+  ]
+}

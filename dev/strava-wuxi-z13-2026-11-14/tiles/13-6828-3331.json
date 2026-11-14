@@ -1,0 +1,20 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-14T07:09:38.359Z",
+  "tile": {
+    "z": 13,
+    "x": 6828,
+    "y": 3331
+  },
+  "segments": [
+    {
+      "id": "32384749",
+      "tileScore": 4,
+      "name": "青洋北路—芙蓉大道—戚月路—潞横路",
+      "distanceM": 33482.5,
+      "avgGrade": -0.010154558345675468,
+      "startLat": 31.762529373168945,
+      "startLng": 120.03639221191406
+    }
+  ]
+}

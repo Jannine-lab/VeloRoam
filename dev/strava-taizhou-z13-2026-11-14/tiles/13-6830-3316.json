@@ -1,0 +1,20 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-14T06:56:28.434Z",
+  "tile": {
+    "z": 13,
+    "x": 6830,
+    "y": 3316
+  },
+  "segments": [
+    {
+      "id": "24368130",
+      "tileScore": 13,
+      "name": "Jiangyan - Huangqiao",
+      "distanceM": 29432.30078125,
+      "avgGrade": -0.0115519342944026,
+      "startLat": 32.48557662963867,
+      "startLng": 120.16735076904297
+    }
+  ]
+}

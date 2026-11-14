@@ -1,5 +1,13 @@
 {
-  "status": "waiting_for_shenzhen",
-  "updatedAt": "2026-11-08T23:03:25.883Z",
-  "precedingPid": 29781
+  "status": "needs_attention",
+  "updatedAt": "2026-11-11T11:44:49.766Z",
+  "precedingPid": 29781,
+  "importResult": {
+    "code": 1,
+    "signal": null
+  },
+  "scoresResult": {
+    "code": 1,
+    "signal": null
+  }
 }

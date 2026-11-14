@@ -1,0 +1,20 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-14T06:38:27.701Z",
+  "tile": {
+    "z": 13,
+    "x": 6747,
+    "y": 3265
+  },
+  "segments": [
+    {
+      "id": "36160171",
+      "tileScore": 4,
+      "name": "明德小学到白果寺爬坡",
+      "distanceM": 518.4000244140625,
+      "avgGrade": 8.950616836547852,
+      "startLat": 34.231685638427734,
+      "startLng": 116.52879333496094
+    }
+  ]
+}

@@ -1,0 +1,110 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-14T07:07:11.858Z",
+  "tile": {
+    "z": 13,
+    "x": 6837,
+    "y": 3344
+  },
+  "segments": [
+    {
+      "id": "22815618",
+      "tileScore": 8,
+      "name": "Taihu Avenue Bridge Westbound",
+      "distanceM": 919.2999877929688,
+      "avgGrade": 0.7832045555114746,
+      "startLat": 31.324234008789062,
+      "startLng": 120.48615264892578
+    },
+    {
+      "id": "16416218",
+      "tileScore": 30,
+      "name": "太阳山（到尽头）",
+      "distanceM": 5940.7998046875,
+      "avgGrade": 4.251952648162842,
+      "startLat": 31.346078872680664,
+      "startLng": 120.46772766113281
+    },
+    {
+      "id": "15962040",
+      "tileScore": 14,
+      "name": "Dayangshan Forest Hill climb",
+      "distanceM": 3836.60009765625,
+      "avgGrade": 6.208621978759766,
+      "startLat": 31.346221923828125,
+      "startLng": 120.4677963256836
+    },
+    {
+      "id": "37437294",
+      "tileScore": 9,
+      "name": "Tour of Yangshan shushan",
+      "distanceM": 13662.099609375,
+      "avgGrade": -0.004391711205244064,
+      "startLat": 31.326528549194336,
+      "startLng": 120.466064453125
+    },
+    {
+      "id": "12363347",
+      "tileScore": 4,
+      "name": "Taihu Ave (Tayuan Rd → S230)",
+      "distanceM": 14132.2001953125,
+      "avgGrade": 0.0028304157312959433,
+      "startLat": 31.329225540161133,
+      "startLng": 120.5454330444336
+    },
+    {
+      "id": "10207398",
+      "tileScore": 1,
+      "name": "Double Dead-end Bump",
+      "distanceM": 942.7000122070312,
+      "avgGrade": 3.171740770339966,
+      "startLat": 31.360105514526367,
+      "startLng": 120.46976470947266
+    },
+    {
+      "id": "29597248",
+      "tileScore": 7,
+      "name": "Speedway Highway kilometre",
+      "distanceM": 1022.7000122070312,
+      "avgGrade": 0.09778038412332535,
+      "startLat": 31.324012756347656,
+      "startLng": 120.46223449707031
+    },
+    {
+      "id": "39891568",
+      "tileScore": 5,
+      "name": "苏州五峰环线 （玉山路起止）",
+      "distanceM": 33626.3984375,
+      "avgGrade": 0.008326790295541286,
+      "startLat": 31.283851623535156,
+      "startLng": 120.51029968261719
+    },
+    {
+      "id": "15459439",
+      "tileScore": 9,
+      "name": "Niudawu TaihuAve Wto E",
+      "distanceM": 2453.60009765625,
+      "avgGrade": -0.016302576288580894,
+      "startLat": 31.322797775268555,
+      "startLng": 120.46485137939453
+    },
+    {
+      "id": "32936180",
+      "tileScore": 3,
+      "name": "山神山路N-S",
+      "distanceM": 2014,
+      "avgGrade": 0.3972194492816925,
+      "startLat": 31.344741821289062,
+      "startLng": 120.47038269042969
+    },
+    {
+      "id": "34613531",
+      "tileScore": 9,
+      "name": "镇湖绿豆汤至建林路",
+      "distanceM": 16606.599609375,
+      "avgGrade": 0.010839063674211502,
+      "startLat": 31.32973861694336,
+      "startLng": 120.34431457519531
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-14T07:16:41.446Z",
+  "tile": {
+    "z": 13,
+    "x": 6847,
+    "y": 3337
+  },
+  "segments": [
+    {
+      "id": "12896417",
+      "tileScore": 4,
+      "name": "追击者3号",
+      "distanceM": 3465.60009765625,
+      "avgGrade": 0,
+      "startLat": 31.600587844848633,
+      "startLng": 120.94068145751953
+    }
+  ]
+}

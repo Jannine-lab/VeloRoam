@@ -1,0 +1,65 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-14T07:18:54.109Z",
+  "tile": {
+    "z": 13,
+    "x": 6854,
+    "y": 3340
+  },
+  "segments": [
+    {
+      "id": "32262835",
+      "tileScore": 8,
+      "name": "太浏快速路GOGOGO！",
+      "distanceM": 7411.5,
+      "avgGrade": 0.02698509208858013,
+      "startLat": 31.48724937438965,
+      "startLng": 121.17823791503906
+    },
+    {
+      "id": "38255001",
+      "tileScore": 18,
+      "name": "浏太太TT短版",
+      "distanceM": 4711.5,
+      "avgGrade": 0.03395945951342583,
+      "startLat": 31.504558563232422,
+      "startLng": 121.25090789794922
+    },
+    {
+      "id": "41189803",
+      "tileScore": 4,
+      "name": "JIA DING BEST ONE",
+      "distanceM": 2426.60009765625,
+      "avgGrade": 0.049451906234025955,
+      "startLat": 31.47791290283203,
+      "startLng": 121.25726318359375
+    },
+    {
+      "id": "15276248",
+      "tileScore": 2,
+      "name": "Bypass",
+      "distanceM": 3567.800048828125,
+      "avgGrade": -0.03363417461514473,
+      "startLat": 31.522750854492188,
+      "startLng": 121.20423889160156
+    },
+    {
+      "id": "40676306",
+      "tileScore": 10,
+      "name": "🐯发现的好路",
+      "distanceM": 9029.7998046875,
+      "avgGrade": -0.015504218637943268,
+      "startLat": 31.45059585571289,
+      "startLng": 121.219482421875
+    },
+    {
+      "id": "42169473",
+      "tileScore": 4,
+      "name": "Ruijin Hospital",
+      "distanceM": 3381.800048828125,
+      "avgGrade": 0.029570050537586212,
+      "startLat": 31.487722396850586,
+      "startLng": 121.20645904541016
+    }
+  ]
+}

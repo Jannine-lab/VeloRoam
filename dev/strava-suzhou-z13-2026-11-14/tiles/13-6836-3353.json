@@ -1,0 +1,38 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-14T07:15:44.046Z",
+  "tile": {
+    "z": 13,
+    "x": 6836,
+    "y": 3353
+  },
+  "segments": [
+    {
+      "id": "37944995",
+      "tileScore": 34,
+      "name": "七都沿湖绿道",
+      "distanceM": 6608.5,
+      "avgGrade": 0.009079216048121452,
+      "startLat": 31.005584716796875,
+      "startLng": 120.47152709960938
+    },
+    {
+      "id": "40564534",
+      "tileScore": 34,
+      "name": "环太湖",
+      "distanceM": 151856.5,
+      "avgGrade": 0.0009219230269081891,
+      "startLat": 31.187686920166016,
+      "startLng": 120.47770690917969
+    },
+    {
+      "id": "17302831",
+      "tileScore": 16,
+      "name": "Taihu south westbound",
+      "distanceM": 34238.8984375,
+      "avgGrade": 0.039136771112680435,
+      "startLat": 31.003751754760742,
+      "startLng": 120.47329711914062
+    }
+  ]
+}

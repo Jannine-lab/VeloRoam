@@ -1,5 +1,13 @@
 {
-  "status": "importing_full",
-  "updatedAt": "2026-11-09T03:45:56.599Z",
-  "precedingPid": 27918
+  "status": "needs_attention",
+  "updatedAt": "2026-11-11T08:05:49.705Z",
+  "precedingPid": 27918,
+  "importResult": {
+    "code": 1,
+    "signal": null
+  },
+  "scoresResult": {
+    "code": 0,
+    "signal": null
+  }
 }

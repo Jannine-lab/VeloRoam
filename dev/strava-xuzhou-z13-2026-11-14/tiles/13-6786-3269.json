@@ -1,0 +1,20 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-14T06:42:23.226Z",
+  "tile": {
+    "z": 13,
+    "x": 6786,
+    "y": 3269
+  },
+  "segments": [
+    {
+      "id": "37481632",
+      "tileScore": 31,
+      "name": "环湖大道北线",
+      "distanceM": 22511.69921875,
+      "avgGrade": -0.034648649394512177,
+      "startLat": 34.24565124511719,
+      "startLng": 118.18888092041016
+    }
+  ]
+}

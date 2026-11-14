@@ -1,0 +1,56 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-14T07:25:20.661Z",
+  "tile": {
+    "z": 13,
+    "x": 6843,
+    "y": 3340
+  },
+  "segments": [
+    {
+      "id": "38017180",
+      "tileScore": 3,
+      "name": "盛泽荡S4",
+      "distanceM": 1811.5,
+      "avgGrade": -0.03312172368168831,
+      "startLat": 31.47038459777832,
+      "startLng": 120.72012329101562
+    },
+    {
+      "id": "38017177",
+      "tileScore": 6,
+      "name": "盛泽荡S3",
+      "distanceM": 1720.5,
+      "avgGrade": 0.05812263861298561,
+      "startLat": 31.48359489440918,
+      "startLng": 120.71176147460938
+    },
+    {
+      "id": "40772411",
+      "tileScore": 4,
+      "name": "去大风车咖啡店",
+      "distanceM": 3688.699951171875,
+      "avgGrade": 0.07048553973436356,
+      "startLat": 31.487939834594727,
+      "startLng": 120.72946166992188
+    },
+    {
+      "id": "31150865",
+      "tileScore": 12,
+      "name": "月季园悠闲的下午",
+      "distanceM": 10817,
+      "avgGrade": -0.012942589819431305,
+      "startLat": 31.46404457092285,
+      "startLng": 120.68812561035156
+    },
+    {
+      "id": "11466756",
+      "tileScore": 4,
+      "name": "Country road from YCH to X202",
+      "distanceM": 3234.199951171875,
+      "avgGrade": 0.055655185133218765,
+      "startLat": 31.498645782470703,
+      "startLng": 120.75780487060547
+    }
+  ]
+}

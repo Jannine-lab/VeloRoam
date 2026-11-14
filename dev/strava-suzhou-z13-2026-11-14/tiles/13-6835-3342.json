@@ -1,0 +1,38 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-14T07:06:25.988Z",
+  "tile": {
+    "z": 13,
+    "x": 6835,
+    "y": 3342
+  },
+  "segments": [
+    {
+      "id": "21864305",
+      "tileScore": 37,
+      "name": "Taihu Coastline G312-Dongshan (70K)",
+      "distanceM": 69272.3984375,
+      "avgGrade": 0.0020210070069879293,
+      "startLat": 31.449859619140625,
+      "startLng": 120.41646575927734
+    },
+    {
+      "id": "14061215",
+      "tileScore": 3,
+      "name": "Yuting Road",
+      "distanceM": 2859.10009765625,
+      "avgGrade": -0.059459272772073746,
+      "startLat": 31.410871505737305,
+      "startLng": 120.40463256835938
+    },
+    {
+      "id": "40880638",
+      "tileScore": 118,
+      "name": "北太湖",
+      "distanceM": 12818.099609375,
+      "avgGrade": -0.009361762553453445,
+      "startLat": 31.431507110595703,
+      "startLng": 120.40818786621094
+    }
+  ]
+}

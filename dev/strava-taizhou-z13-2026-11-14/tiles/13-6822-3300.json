@@ -1,0 +1,20 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-14T07:01:48.742Z",
+  "tile": {
+    "z": 13,
+    "x": 6822,
+    "y": 3300
+  },
+  "segments": [
+    {
+      "id": "28783292",
+      "tileScore": 12,
+      "name": "做长安北路最快的男人",
+      "distanceM": 5474.2001953125,
+      "avgGrade": -0.0073070041835308075,
+      "startLat": 32.959022521972656,
+      "startLng": 119.83719635009766
+    }
+  ]
+}

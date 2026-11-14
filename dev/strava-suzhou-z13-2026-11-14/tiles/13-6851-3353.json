@@ -1,0 +1,74 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-14T07:26:26.108Z",
+  "tile": {
+    "z": 13,
+    "x": 6851,
+    "y": 3353
+  },
+  "segments": [
+    {
+      "id": "20191789",
+      "tileScore": 23,
+      "name": "Bridges",
+      "distanceM": 2004.5999755859375,
+      "avgGrade": 0.019954105839133263,
+      "startLat": 31.021507263183594,
+      "startLng": 121.08607482910156
+    },
+    {
+      "id": "40248036",
+      "tileScore": 1,
+      "name": "Songzheng HW to DaZheng River",
+      "distanceM": 2053,
+      "avgGrade": -0.08280564844608307,
+      "startLat": 30.9898624420166,
+      "startLng": 121.11181640625
+    },
+    {
+      "id": "17079911",
+      "tileScore": 110,
+      "name": "Classic canal reverse",
+      "distanceM": 15373.900390625,
+      "avgGrade": 0.015610872767865658,
+      "startLat": 31.007339477539062,
+      "startLng": 121.10590362548828
+    },
+    {
+      "id": "40826281",
+      "tileScore": 4,
+      "name": "泖岛公路",
+      "distanceM": 2004.199951171875,
+      "avgGrade": 0.00997904408723116,
+      "startLat": 31.0065975189209,
+      "startLng": 121.10659790039062
+    },
+    {
+      "id": "18594624",
+      "tileScore": 58,
+      "name": "round the bend to 225",
+      "distanceM": 5027.89990234375,
+      "avgGrade": 0.05966705456376076,
+      "startLat": 31.012176513671875,
+      "startLng": 121.09524536132812
+    },
+    {
+      "id": "40976501",
+      "tileScore": 11,
+      "name": "Canal Tour",
+      "distanceM": 31244.30078125,
+      "avgGrade": 0.01024186797440052,
+      "startLat": 31.025711059570312,
+      "startLng": 121.04932403564453
+    },
+    {
+      "id": "36101860",
+      "tileScore": 26,
+      "name": "大江大河第一段",
+      "distanceM": 2512.5,
+      "avgGrade": -0.04776119440793991,
+      "startLat": 31.025047302246094,
+      "startLng": 121.09870910644531
+    }
+  ]
+}

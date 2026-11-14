@@ -1,0 +1,110 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-14T07:09:17.375Z",
+  "tile": {
+    "z": 13,
+    "x": 6840,
+    "y": 3347
+  },
+  "segments": [
+    {
+      "id": "32206794",
+      "tileScore": 52,
+      "name": "友新 RUSH",
+      "distanceM": 2659,
+      "avgGrade": 0.026325685903429985,
+      "startLat": 31.254610061645508,
+      "startLng": 120.5992202758789
+    },
+    {
+      "id": "33841787",
+      "tileScore": 2,
+      "name": "南湖路",
+      "distanceM": 511.1000061035156,
+      "avgGrade": 0.1173938512802124,
+      "startLat": 31.232101440429688,
+      "startLng": 120.62730407714844
+    },
+    {
+      "id": "32405083",
+      "tileScore": 43,
+      "name": "环石湖 吴中大道",
+      "distanceM": 1922.300048828125,
+      "avgGrade": 0.078031525015831,
+      "startLat": 31.231897354125977,
+      "startLng": 120.6071548461914
+    },
+    {
+      "id": "35198644",
+      "tileScore": 29,
+      "name": "致能大道冲刺（环岛到岔路口）",
+      "distanceM": 1085,
+      "avgGrade": 0.036866359412670135,
+      "startLat": 31.22685432434082,
+      "startLng": 120.58830261230469
+    },
+    {
+      "id": "35198339",
+      "tileScore": 37,
+      "name": "大学城环岛冲刺",
+      "distanceM": 508.8999938964844,
+      "avgGrade": -0.19650226831436157,
+      "startLat": 31.22173500061035,
+      "startLng": 120.59078216552734
+    },
+    {
+      "id": "34733917",
+      "tileScore": 50,
+      "name": "环石湖东门起点",
+      "distanceM": 11804.2001953125,
+      "avgGrade": -0.02372037060558796,
+      "startLat": 31.254789352416992,
+      "startLng": 120.59906005859375
+    },
+    {
+      "id": "25518542",
+      "tileScore": 7,
+      "name": "passing Stone Lake (Northbound)",
+      "distanceM": 8369.7001953125,
+      "avgGrade": 0.09558287262916565,
+      "startLat": 31.187639236450195,
+      "startLng": 120.60665130615234
+    },
+    {
+      "id": "16357924",
+      "tileScore": 11,
+      "name": "East Taihu Lake-Pangjiatang Circle (clockwise)",
+      "distanceM": 11355.7998046875,
+      "avgGrade": 0.01937336102128029,
+      "startLat": 31.184101104736328,
+      "startLng": 120.61280822753906
+    },
+    {
+      "id": "41323403",
+      "tileScore": 9,
+      "name": "苏州湾好路",
+      "distanceM": 1706.300048828125,
+      "avgGrade": -0.01172126829624176,
+      "startLat": 31.203060150146484,
+      "startLng": 120.60899353027344
+    },
+    {
+      "id": "39918661",
+      "tileScore": 4,
+      "name": "YinShan Lake to Wangshan",
+      "distanceM": 12482.099609375,
+      "avgGrade": 0.009613767266273499,
+      "startLat": 31.241424560546875,
+      "startLng": 120.69671630859375
+    },
+    {
+      "id": "33603225",
+      "tileScore": 10,
+      "name": "吴中大道极限操作",
+      "distanceM": 12635.599609375,
+      "avgGrade": 0.011079806834459305,
+      "startLat": 31.228336334228516,
+      "startLng": 120.60233306884766
+    }
+  ]
+}

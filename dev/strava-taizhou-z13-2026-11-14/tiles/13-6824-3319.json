@@ -1,0 +1,29 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-14T06:56:37.579Z",
+  "tile": {
+    "z": 13,
+    "x": 6824,
+    "y": 3319
+  },
+  "segments": [
+    {
+      "id": "36717132",
+      "tileScore": 7,
+      "name": "临江路（泰州大桥-海军文化园）",
+      "distanceM": 2112.89990234375,
+      "avgGrade": -0.09465663135051727,
+      "startLat": 32.25025939941406,
+      "startLng": 119.88957214355469
+    },
+    {
+      "id": "24368074",
+      "tileScore": 10,
+      "name": "TX - WY narrow",
+      "distanceM": 15081.7998046875,
+      "avgGrade": -0.009282711893320084,
+      "startLat": 32.150089263916016,
+      "startLng": 119.97655487060547
+    }
+  ]
+}

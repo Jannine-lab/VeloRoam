@@ -1,0 +1,20 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-14T06:39:14.652Z",
+  "tile": {
+    "z": 13,
+    "x": 6772,
+    "y": 3250
+  },
+  "segments": [
+    {
+      "id": "37317242",
+      "tileScore": 24,
+      "name": "峄城坛山爬坡",
+      "distanceM": 914.5,
+      "avgGrade": 12.29086971282959,
+      "startLat": 34.77345657348633,
+      "startLng": 117.59892272949219
+    }
+  ]
+}

@@ -1,0 +1,74 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-14T07:07:34.115Z",
+  "tile": {
+    "z": 13,
+    "x": 6834,
+    "y": 3347
+  },
+  "segments": [
+    {
+      "id": "41053063",
+      "tileScore": 55,
+      "name": "World Cup Riders",
+      "distanceM": 1273.699951171875,
+      "avgGrade": 0.6437937021255493,
+      "startLat": 31.219606399536133,
+      "startLng": 120.36388397216797
+    },
+    {
+      "id": "21864305",
+      "tileScore": 37,
+      "name": "Taihu Coastline G312-Dongshan (70K)",
+      "distanceM": 69272.3984375,
+      "avgGrade": 0.0020210070069879293,
+      "startLat": 31.449859619140625,
+      "startLng": 120.41646575927734
+    },
+    {
+      "id": "41053076",
+      "tileScore": 33,
+      "name": "Twist Ride ",
+      "distanceM": 802.4000244140625,
+      "avgGrade": -5.907278060913086,
+      "startLat": 31.218463897705078,
+      "startLng": 120.36712646484375
+    },
+    {
+      "id": "33401272",
+      "tileScore": 47,
+      "name": "东西山超级有氧",
+      "distanceM": 137358.703125,
+      "avgGrade": 0.00873624999076128,
+      "startLat": 31.187084197998047,
+      "startLng": 120.4767837524414
+    },
+    {
+      "id": "41052993",
+      "tileScore": 86,
+      "name": "XTERRA Suzhou 2026 MTB loop",
+      "distanceM": 9482.5,
+      "avgGrade": 0.07382019609212875,
+      "startLat": 31.21739387512207,
+      "startLng": 120.37039184570312
+    },
+    {
+      "id": "8516722",
+      "tileScore": 65,
+      "name": "3-bridge to xishan ",
+      "distanceM": 7046.60009765625,
+      "avgGrade": 0.022705987095832825,
+      "startLat": 31.21292495727539,
+      "startLng": 120.36573791503906
+    },
+    {
+      "id": "3485058",
+      "tileScore": 96,
+      "name": "Dong Qichangmu Hills",
+      "distanceM": 3958.46875,
+      "avgGrade": 0.16420775651931763,
+      "startLat": 31.231708526611328,
+      "startLng": 120.3827896118164
+    }
+  ]
+}

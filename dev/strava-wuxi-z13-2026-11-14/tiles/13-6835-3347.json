@@ -1,0 +1,110 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-14T07:07:34.115Z",
+  "tile": {
+    "z": 13,
+    "x": 6835,
+    "y": 3347
+  },
+  "segments": [
+    {
+      "id": "21864305",
+      "tileScore": 37,
+      "name": "Taihu Coastline G312-Dongshan (70K)",
+      "distanceM": 69272.3984375,
+      "avgGrade": 0.0020210070069879293,
+      "startLat": 31.449859619140625,
+      "startLng": 120.41646575927734
+    },
+    {
+      "id": "33401272",
+      "tileScore": 47,
+      "name": "东西山超级有氧",
+      "distanceM": 137358.703125,
+      "avgGrade": 0.00873624999076128,
+      "startLat": 31.187084197998047,
+      "startLng": 120.4767837524414
+    },
+    {
+      "id": "41053108",
+      "tileScore": 36,
+      "name": "Taihu Plunge",
+      "distanceM": 546.5999755859375,
+      "avgGrade": -16.941089630126953,
+      "startLat": 31.22167205810547,
+      "startLng": 120.37067413330078
+    },
+    {
+      "id": "41053173",
+      "tileScore": 17,
+      "name": "XTERRA Taihu Bike Park",
+      "distanceM": 692.7000122070312,
+      "avgGrade": -0.05774505436420441,
+      "startLat": 31.2164363861084,
+      "startLng": 120.39447784423828
+    },
+    {
+      "id": "15071653",
+      "tileScore": 1,
+      "name": "Suzhou Criterium Lap",
+      "distanceM": 3265.60009765625,
+      "avgGrade": -0.055120039731264114,
+      "startLat": 31.21399688720703,
+      "startLng": 120.40904235839844
+    },
+    {
+      "id": "41053076",
+      "tileScore": 33,
+      "name": "Twist Ride ",
+      "distanceM": 802.4000244140625,
+      "avgGrade": -5.907278060913086,
+      "startLat": 31.218463897705078,
+      "startLng": 120.36712646484375
+    },
+    {
+      "id": "3485058",
+      "tileScore": 96,
+      "name": "Dong Qichangmu Hills",
+      "distanceM": 3958.46875,
+      "avgGrade": 0.16420775651931763,
+      "startLat": 31.231708526611328,
+      "startLng": 120.3827896118164
+    },
+    {
+      "id": "15122571",
+      "tileScore": 3,
+      "name": "Sunwu Rd (Eastbound)",
+      "distanceM": 6921.10009765625,
+      "avgGrade": -0.037566281855106354,
+      "startLat": 31.240894317626953,
+      "startLng": 120.3917465209961
+    },
+    {
+      "id": "21082092",
+      "tileScore": 11,
+      "name": "Yuyangshan Climb",
+      "distanceM": 2075.39990234375,
+      "avgGrade": 6.880601406097412,
+      "startLat": 31.232139587402344,
+      "startLng": 120.38579559326172
+    },
+    {
+      "id": "41052993",
+      "tileScore": 86,
+      "name": "XTERRA Suzhou 2026 MTB loop",
+      "distanceM": 9482.5,
+      "avgGrade": 0.07382019609212875,
+      "startLat": 31.21739387512207,
+      "startLng": 120.37039184570312
+    },
+    {
+      "id": "10678266",
+      "tileScore": 30,
+      "name": "Per's Passage (Eastbound)",
+      "distanceM": 12419.7998046875,
+      "avgGrade": -0.004025829490274191,
+      "startLat": 31.218647003173828,
+      "startLng": 120.38814544677734
+    }
+  ]
+}

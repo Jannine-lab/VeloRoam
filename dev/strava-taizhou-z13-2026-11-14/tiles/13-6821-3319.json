@@ -1,0 +1,20 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-14T06:56:48.875Z",
+  "tile": {
+    "z": 13,
+    "x": 6821,
+    "y": 3319
+  },
+  "segments": [
+    {
+      "id": "37032529",
+      "tileScore": 15,
+      "name": "S238至环岛公路单程（FQ996）",
+      "distanceM": 4026.60009765625,
+      "avgGrade": 0.0645706057548523,
+      "startLat": 32.2701416015625,
+      "startLng": 119.77610778808594
+    }
+  ]
+}

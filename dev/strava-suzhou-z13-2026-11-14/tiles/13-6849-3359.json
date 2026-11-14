@@ -1,0 +1,38 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-14T07:20:33.131Z",
+  "tile": {
+    "z": 13,
+    "x": 6849,
+    "y": 3359
+  },
+  "segments": [
+    {
+      "id": "37753166",
+      "tileScore": 1,
+      "name": "大云小树林",
+      "distanceM": 8170.7001953125,
+      "avgGrade": 0,
+      "startLat": 30.802045822143555,
+      "startLng": 120.97689056396484
+    },
+    {
+      "id": "13715792",
+      "tileScore": 7,
+      "name": "Tour of Jiaxing 2016",
+      "distanceM": 136646.203125,
+      "avgGrade": 0.008196349255740643,
+      "startLat": 30.74317169189453,
+      "startLng": 120.83653259277344
+    },
+    {
+      "id": "39095689",
+      "tileScore": 1,
+      "name": "2025平湖，麒麟汇走错路的路口",
+      "distanceM": 97391,
+      "avgGrade": -0.0010267889592796564,
+      "startLat": 30.767906188964844,
+      "startLng": 120.98878479003906
+    }
+  ]
+}

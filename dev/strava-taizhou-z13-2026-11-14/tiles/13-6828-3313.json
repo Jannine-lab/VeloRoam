@@ -1,0 +1,20 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-14T06:55:39.705Z",
+  "tile": {
+    "z": 13,
+    "x": 6828,
+    "y": 3313
+  },
+  "segments": [
+    {
+      "id": "38617661",
+      "tileScore": 72,
+      "name": "到顶冲啊",
+      "distanceM": 720.5,
+      "avgGrade": 0.9715474843978882,
+      "startLat": 32.47679138183594,
+      "startLng": 120.08694458007812
+    }
+  ]
+}

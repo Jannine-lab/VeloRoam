@@ -1,0 +1,38 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-14T07:13:34.566Z",
+  "tile": {
+    "z": 13,
+    "x": 6815,
+    "y": 3326
+  },
+  "segments": [
+    {
+      "id": "38908140",
+      "tileScore": 9,
+      "name": "沪霍线（海昌-北二环延伸）",
+      "distanceM": 880,
+      "avgGrade": -0.022727273404598236,
+      "startLat": 32.00117111206055,
+      "startLng": 119.51698303222656
+    },
+    {
+      "id": "35948077",
+      "tileScore": 21,
+      "name": "丹伏路 W-E（丹西路-观鹤北路）",
+      "distanceM": 2991.5,
+      "avgGrade": -0.05348487198352814,
+      "startLat": 32.015625,
+      "startLng": 119.46685791015625
+    },
+    {
+      "id": "33632133",
+      "tileScore": 9,
+      "name": "北二环 E-W（G312-美乐）",
+      "distanceM": 2441.5,
+      "avgGrade": -0.016383370384573936,
+      "startLat": 32.009490966796875,
+      "startLng": 119.51726531982422
+    }
+  ]
+}

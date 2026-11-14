@@ -1,0 +1,56 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-14T07:06:25.988Z",
+  "tile": {
+    "z": 13,
+    "x": 6834,
+    "y": 3343
+  },
+  "segments": [
+    {
+      "id": "40880638",
+      "tileScore": 118,
+      "name": "北太湖",
+      "distanceM": 12818.099609375,
+      "avgGrade": -0.009361762553453445,
+      "startLat": 31.431507110595703,
+      "startLng": 120.40818786621094
+    },
+    {
+      "id": "21864305",
+      "tileScore": 37,
+      "name": "Taihu Coastline G312-Dongshan (70K)",
+      "distanceM": 69272.3984375,
+      "avgGrade": 0.0020210070069879293,
+      "startLat": 31.449859619140625,
+      "startLng": 120.41646575927734
+    },
+    {
+      "id": "39851827",
+      "tileScore": 10,
+      "name": "贡山路（N-S）",
+      "distanceM": 2249.300048828125,
+      "avgGrade": 0.12448316812515259,
+      "startLat": 31.344968795776367,
+      "startLng": 120.34040069580078
+    },
+    {
+      "id": "40139306",
+      "tileScore": 66,
+      "name": "马山驿站-太湖大道底",
+      "distanceM": 2349.800048828125,
+      "avgGrade": 0.01702272519469261,
+      "startLat": 31.36243438720703,
+      "startLng": 120.32949829101562
+    },
+    {
+      "id": "21763222",
+      "tileScore": 50,
+      "name": "Zhenhuzhen Southbound ",
+      "distanceM": 11326.2001953125,
+      "avgGrade": 0.0070632691495120525,
+      "startLat": 31.358295440673828,
+      "startLng": 120.358642578125
+    }
+  ]
+}

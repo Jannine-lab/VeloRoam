@@ -1,0 +1,20 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-14T07:18:11.171Z",
+  "tile": {
+    "z": 13,
+    "x": 6835,
+    "y": 3359
+  },
+  "segments": [
+    {
+      "id": "28885699",
+      "tileScore": 49,
+      "name": "南浔大道绕圈",
+      "distanceM": 20220.69921875,
+      "avgGrade": -0.006923598237335682,
+      "startLat": 30.756929397583008,
+      "startLng": 120.40325927734375
+    }
+  ]
+}

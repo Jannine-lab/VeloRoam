@@ -1,0 +1,20 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-14T06:55:32.026Z",
+  "tile": {
+    "z": 13,
+    "x": 6825,
+    "y": 3315
+  },
+  "segments": [
+    {
+      "id": "37972859",
+      "tileScore": 19,
+      "name": "周山河刷圈",
+      "distanceM": 4937.39990234375,
+      "avgGrade": -0.024304289370775223,
+      "startLat": 32.43534851074219,
+      "startLng": 119.93583679199219
+    }
+  ]
+}

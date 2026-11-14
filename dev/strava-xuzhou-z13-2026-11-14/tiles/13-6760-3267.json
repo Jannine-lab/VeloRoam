@@ -1,0 +1,38 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-14T06:21:56.281Z",
+  "tile": {
+    "z": 13,
+    "x": 6760,
+    "y": 3267
+  },
+  "segments": [
+    {
+      "id": "36736320",
+      "tileScore": 8,
+      "name": "HanWang Rainbow Slope",
+      "distanceM": 1680.199951171875,
+      "avgGrade": 3.023449420928955,
+      "startLat": 34.165340423583984,
+      "startLng": 117.06890869140625
+    },
+    {
+      "id": "36842429",
+      "tileScore": 11,
+      "name": "汉王第二个小缓坡到起点",
+      "distanceM": 3909.199951171875,
+      "avgGrade": -0.03581295162439346,
+      "startLat": 34.16969299316406,
+      "startLng": 117.0575942993164
+    },
+    {
+      "id": "27539032",
+      "tileScore": 62,
+      "name": "汉王班井小坡",
+      "distanceM": 1388.300048828125,
+      "avgGrade": 4.040913105010986,
+      "startLat": 34.190589904785156,
+      "startLng": 117.07965087890625
+    }
+  ]
+}

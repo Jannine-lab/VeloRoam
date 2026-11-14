@@ -1,0 +1,20 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-14T06:57:47.209Z",
+  "tile": {
+    "z": 13,
+    "x": 6831,
+    "y": 3310
+  },
+  "segments": [
+    {
+      "id": "36892801",
+      "tileScore": 6,
+      "name": "353 西 204-229",
+      "distanceM": 18937.400390625,
+      "avgGrade": -0.024290557950735092,
+      "startLat": 32.60813903808594,
+      "startLng": 120.35259246826172
+    }
+  ]
+}

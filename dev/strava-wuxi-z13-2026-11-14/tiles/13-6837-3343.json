@@ -1,0 +1,74 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-14T07:06:41.303Z",
+  "tile": {
+    "z": 13,
+    "x": 6837,
+    "y": 3343
+  },
+  "segments": [
+    {
+      "id": "17833428",
+      "tileScore": 3,
+      "name": "Wuxi to Suzhou G312",
+      "distanceM": 13550.2998046875,
+      "avgGrade": -0.0014759821351617575,
+      "startLat": 31.470468521118164,
+      "startLng": 120.39439392089844
+    },
+    {
+      "id": "8595022",
+      "tileScore": 4,
+      "name": "YangShan Boardwalk Heading East",
+      "distanceM": 3071,
+      "avgGrade": 0.38749590516090393,
+      "startLat": 31.363468170166016,
+      "startLng": 120.45523071289062
+    },
+    {
+      "id": "30816042",
+      "tileScore": 1,
+      "name": "Welcome to Suzhou浒墅关大道（西北-东南）",
+      "distanceM": 6338.89990234375,
+      "avgGrade": 0.03786145895719528,
+      "startLat": 31.402376174926758,
+      "startLng": 120.48539733886719
+    },
+    {
+      "id": "15962040",
+      "tileScore": 14,
+      "name": "Dayangshan Forest Hill climb",
+      "distanceM": 3836.60009765625,
+      "avgGrade": 6.208621978759766,
+      "startLat": 31.346221923828125,
+      "startLng": 120.4677963256836
+    },
+    {
+      "id": "16416218",
+      "tileScore": 30,
+      "name": "太阳山（到尽头）",
+      "distanceM": 5940.7998046875,
+      "avgGrade": 4.251952648162842,
+      "startLat": 31.346078872680664,
+      "startLng": 120.46772766113281
+    },
+    {
+      "id": "37437294",
+      "tileScore": 9,
+      "name": "Tour of Yangshan shushan",
+      "distanceM": 13662.099609375,
+      "avgGrade": -0.004391711205244064,
+      "startLat": 31.326528549194336,
+      "startLng": 120.466064453125
+    },
+    {
+      "id": "10207398",
+      "tileScore": 1,
+      "name": "Double Dead-end Bump",
+      "distanceM": 942.7000122070312,
+      "avgGrade": 3.171740770339966,
+      "startLat": 31.360105514526367,
+      "startLng": 120.46976470947266
+    }
+  ]
+}

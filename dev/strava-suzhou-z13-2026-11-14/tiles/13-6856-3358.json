@@ -1,0 +1,83 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-14T07:26:35.865Z",
+  "tile": {
+    "z": 13,
+    "x": 6856,
+    "y": 3358
+  },
+  "segments": [
+    {
+      "id": "37815993",
+      "tileScore": 5,
+      "name": "Super Saiyan Dash",
+      "distanceM": 5192.7001953125,
+      "avgGrade": 0.05007028952240944,
+      "startLat": 30.78205108642578,
+      "startLng": 121.33010864257812
+    },
+    {
+      "id": "20549697",
+      "tileScore": 5,
+      "name": "漕廊公路（秦弯路to杭州湾大道）",
+      "distanceM": 5393.5,
+      "avgGrade": -0.02966533601284027,
+      "startLat": 30.78919219970703,
+      "startLng": 121.25402069091797
+    },
+    {
+      "id": "14324164",
+      "tileScore": 26,
+      "name": "金山体育馆绕圈",
+      "distanceM": 2044.5999755859375,
+      "avgGrade": 0,
+      "startLat": 30.784509658813477,
+      "startLng": 121.32494354248047
+    },
+    {
+      "id": "37552760",
+      "tileScore": 26,
+      "name": "Straight & Smooth",
+      "distanceM": 7098.2001953125,
+      "avgGrade": -0.02817615680396557,
+      "startLat": 30.76449966430664,
+      "startLng": 121.33218383789062
+    },
+    {
+      "id": "36399181",
+      "tileScore": 27,
+      "name": "送一个拉爆",
+      "distanceM": 16154.5,
+      "avgGrade": 0,
+      "startLat": 30.80158233642578,
+      "startLng": 121.30693054199219
+    },
+    {
+      "id": "25156525",
+      "tileScore": 2,
+      "name": "松金公路往南",
+      "distanceM": 4521.39990234375,
+      "avgGrade": 0.013270226307213306,
+      "startLat": 30.789785385131836,
+      "startLng": 121.2902603149414
+    },
+    {
+      "id": "13668582",
+      "tileScore": 14,
+      "name": "U谷绕圈",
+      "distanceM": 2652.699951171875,
+      "avgGrade": 0.007539487909525633,
+      "startLat": 30.832258224487305,
+      "startLng": 121.3086166381836
+    },
+    {
+      "id": "21378219",
+      "tileScore": 37,
+      "name": "金山体育中心北圈（北环路to漕廊公路）",
+      "distanceM": 4579.7998046875,
+      "avgGrade": 0.008734005503356457,
+      "startLat": 30.789316177368164,
+      "startLng": 121.32658386230469
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-14T07:06:37.510Z",
+  "tile": {
+    "z": 13,
+    "x": 6834,
+    "y": 3337
+  },
+  "segments": [
+    {
+      "id": "21846718",
+      "tileScore": 5,
+      "name": "Xingtang Bridge Go！",
+      "distanceM": 2276.10009765625,
+      "avgGrade": -0.1669522374868393,
+      "startLat": 31.618730545043945,
+      "startLng": 120.35926818847656
+    },
+    {
+      "id": "21593942",
+      "tileScore": 1,
+      "name": "Xihu RD Westbound",
+      "distanceM": 3780.5,
+      "avgGrade": 0.2724507451057434,
+      "startLat": 31.587167739868164,
+      "startLng": 120.34933471679688
+    }
+  ]
+}

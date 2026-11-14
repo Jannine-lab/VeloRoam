@@ -1,0 +1,83 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-14T07:16:52.570Z",
+  "tile": {
+    "z": 13,
+    "x": 6852,
+    "y": 3347
+  },
+  "segments": [
+    {
+      "id": "42008025",
+      "tileScore": 11,
+      "name": "Bikehome安亭乡村版去程",
+      "distanceM": 23945.19921875,
+      "avgGrade": 0,
+      "startLat": 31.206161499023438,
+      "startLng": 121.25885772705078
+    },
+    {
+      "id": "26620388",
+      "tileScore": 3,
+      "name": "qingpu to strawberry fields",
+      "distanceM": 8105.39990234375,
+      "avgGrade": 0.049349818378686905,
+      "startLat": 31.177356719970703,
+      "startLng": 121.116943359375
+    },
+    {
+      "id": "33131059",
+      "tileScore": 3,
+      "name": "Tech Loop S+L",
+      "distanceM": 20361.69921875,
+      "avgGrade": 0.021609198302030563,
+      "startLat": 31.235458374023438,
+      "startLng": 121.1602783203125
+    },
+    {
+      "id": "40602129",
+      "tileScore": 14,
+      "name": "Yaoxi Rd",
+      "distanceM": 3401.60009765625,
+      "avgGrade": -0.011759172193706036,
+      "startLat": 31.20533561706543,
+      "startLng": 121.14054107666016
+    },
+    {
+      "id": "32729640",
+      "tileScore": 6,
+      "name": "Rice Fields",
+      "distanceM": 1076.4000244140625,
+      "avgGrade": -0.018580453470349312,
+      "startLat": 31.217058181762695,
+      "startLng": 121.1444091796875
+    },
+    {
+      "id": "29761894",
+      "tileScore": 11,
+      "name": "S26 Yannancun Bridge",
+      "distanceM": 570.4000244140625,
+      "avgGrade": 0.7363253831863403,
+      "startLat": 31.2174129486084,
+      "startLng": 121.1573257446289
+    },
+    {
+      "id": "38647983",
+      "tileScore": 5,
+      "name": "XiangyangheRd Northbound",
+      "distanceM": 2152.89990234375,
+      "avgGrade": 0.03715917840600014,
+      "startLat": 31.20206069946289,
+      "startLng": 121.132080078125
+    },
+    {
+      "id": "38714662",
+      "tileScore": 14,
+      "name": "许家堰乡间好路",
+      "distanceM": 2650,
+      "avgGrade": 0.06792452931404114,
+      "startLat": 31.21702766418457,
+      "startLng": 121.15325164794922
+    }
+  ]
+}

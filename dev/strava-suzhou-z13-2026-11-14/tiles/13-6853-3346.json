@@ -1,0 +1,173 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-14T07:18:07.520Z",
+  "tile": {
+    "z": 13,
+    "x": 6853,
+    "y": 3346
+  },
+  "segments": [
+    {
+      "id": "31889059",
+      "tileScore": 13,
+      "name": "Zhaochong rd to highway gate",
+      "distanceM": 3436.699951171875,
+      "avgGrade": 0.005819536279886961,
+      "startLat": 31.248165130615234,
+      "startLng": 121.1787338256836
+    },
+    {
+      "id": "42008025",
+      "tileScore": 11,
+      "name": "Bikehome安亭乡村版去程",
+      "distanceM": 23945.19921875,
+      "avgGrade": 0,
+      "startLat": 31.206161499023438,
+      "startLng": 121.25885772705078
+    },
+    {
+      "id": "27902288",
+      "tileScore": 10,
+      "name": "BTP-CN-066",
+      "distanceM": 3380.39990234375,
+      "avgGrade": -0.029582297429442406,
+      "startLat": 31.278202056884766,
+      "startLng": 121.21244812011719
+    },
+    {
+      "id": "28724121",
+      "tileScore": 3,
+      "name": "博园路东向全程",
+      "distanceM": 14911.7998046875,
+      "avgGrade": -0.008047318086028099,
+      "startLat": 31.282058715820312,
+      "startLng": 121.16080474853516
+    },
+    {
+      "id": "25426607",
+      "tileScore": 29,
+      "name": "Jihe smash",
+      "distanceM": 2712.199951171875,
+      "avgGrade": -0.014748175628483295,
+      "startLat": 31.247711181640625,
+      "startLng": 121.20835876464844
+    },
+    {
+      "id": "34705937",
+      "tileScore": 91,
+      "name": "博园路竞速",
+      "distanceM": 7067.2998046875,
+      "avgGrade": 0.2745037078857422,
+      "startLat": 31.266040802001953,
+      "startLng": 121.20018005371094
+    },
+    {
+      "id": "14915915",
+      "tileScore": 24,
+      "name": "Moyu S. Rd Bridge Climb",
+      "distanceM": 620.2000122070312,
+      "avgGrade": -0.11286681890487671,
+      "startLat": 31.275251388549805,
+      "startLng": 121.16059875488281
+    },
+    {
+      "id": "25237628",
+      "tileScore": 23,
+      "name": "AutoPark Bridge",
+      "distanceM": 890.2000122070312,
+      "avgGrade": 0.08986745029687881,
+      "startLat": 31.28148651123047,
+      "startLng": 121.17536163330078
+    },
+    {
+      "id": "32333821",
+      "tileScore": 34,
+      "name": "TWIN_CLIMB_Jihe_Hwy_2km",
+      "distanceM": 2011.9000244140625,
+      "avgGrade": -0.049704261124134064,
+      "startLat": 31.247373580932617,
+      "startLng": 121.15843963623047
+    },
+    {
+      "id": "28821897",
+      "tileScore": 6,
+      "name": "FC-00101",
+      "distanceM": 1855.0999755859375,
+      "avgGrade": 0.0862487182021141,
+      "startLat": 31.248369216918945,
+      "startLng": 121.20945739746094
+    },
+    {
+      "id": "32086248",
+      "tileScore": 4,
+      "name": "U-Turn under highway",
+      "distanceM": 1687.199951171875,
+      "avgGrade": -0.02370791882276535,
+      "startLat": 31.27158546447754,
+      "startLng": 121.15641784667969
+    },
+    {
+      "id": "24987091",
+      "tileScore": 17,
+      "name": "Tour de Anting new town",
+      "distanceM": 3743.60009765625,
+      "avgGrade": -0.032054707407951355,
+      "startLat": 31.27336883544922,
+      "startLng": 121.16352081298828
+    },
+    {
+      "id": "12376956",
+      "tileScore": 10,
+      "name": "Anzhi Lu climb",
+      "distanceM": 694.0999755859375,
+      "avgGrade": 0.08644287288188934,
+      "startLat": 31.266263961791992,
+      "startLng": 121.19098663330078
+    },
+    {
+      "id": "3564362",
+      "tileScore": 17,
+      "name": "Boyuan Road East Segment 1",
+      "distanceM": 4809.97998046875,
+      "avgGrade": -0.03742203861474991,
+      "startLat": 31.282207489013672,
+      "startLng": 121.1611328125
+    },
+    {
+      "id": "32729620",
+      "tileScore": 7,
+      "name": "into the dark",
+      "distanceM": 1153.699951171875,
+      "avgGrade": 0.05200658738613129,
+      "startLat": 31.24696159362793,
+      "startLng": 121.15913391113281
+    },
+    {
+      "id": "31221443",
+      "tileScore": 7,
+      "name": "安亭儿童乐园-Bikehome",
+      "distanceM": 47152.19921875,
+      "avgGrade": -0.009755642153322697,
+      "startLat": 31.239341735839844,
+      "startLng": 121.36277770996094
+    },
+    {
+      "id": "2766097",
+      "tileScore": 9,
+      "name": "Jiasong North - Boyuan to Songze",
+      "distanceM": 10168.91015625,
+      "avgGrade": -0.02261798270046711,
+      "startLat": 31.26540756225586,
+      "startLng": 121.19969177246094
+    },
+    {
+      "id": "8362911",
+      "tileScore": 13,
+      "name": "Nan'ande Rd Straight Sprint to Lights",
+      "distanceM": 353,
+      "avgGrade": 0,
+      "startLat": 31.270034790039062,
+      "startLng": 121.16246032714844
+    }
+  ]
+}

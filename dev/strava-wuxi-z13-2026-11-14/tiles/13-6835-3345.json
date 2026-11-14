@@ -1,0 +1,47 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-14T07:06:50.876Z",
+  "tile": {
+    "z": 13,
+    "x": 6835,
+    "y": 3345
+  },
+  "segments": [
+    {
+      "id": "13678613",
+      "tileScore": 14,
+      "name": "Tongxin road climb other entrance",
+      "distanceM": 2672.800048828125,
+      "avgGrade": 6.899131774902344,
+      "startLat": 31.295591354370117,
+      "startLng": 120.37923431396484
+    },
+    {
+      "id": "5227141",
+      "tileScore": 25,
+      "name": "Tongxin Road Climb",
+      "distanceM": 1593.800048828125,
+      "avgGrade": 10.52202320098877,
+      "startLat": 31.27526092529297,
+      "startLng": 120.38983917236328
+    },
+    {
+      "id": "14061234",
+      "tileScore": 5,
+      "name": "S230 - Taihu Dadao to Tashan Road",
+      "distanceM": 4752,
+      "avgGrade": -0.033670030534267426,
+      "startLat": 31.344045639038086,
+      "startLng": 120.40119171142578
+    },
+    {
+      "id": "3485675",
+      "tileScore": 4,
+      "name": "intermediate \"hill\"",
+      "distanceM": 3630.28125,
+      "avgGrade": 0.06611023843288422,
+      "startLat": 31.276472091674805,
+      "startLng": 120.33692169189453
+    }
+  ]
+}

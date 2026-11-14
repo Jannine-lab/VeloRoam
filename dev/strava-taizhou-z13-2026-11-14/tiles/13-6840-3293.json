@@ -1,0 +1,20 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-14T07:04:49.054Z",
+  "tile": {
+    "z": 13,
+    "x": 6840,
+    "y": 3293
+  },
+  "segments": [
+    {
+      "id": "37914332",
+      "tileScore": 1,
+      "name": "海融广场到大丰",
+      "distanceM": 10050.599609375,
+      "avgGrade": -0.007959723472595215,
+      "startLat": 33.237056732177734,
+      "startLng": 120.71399688720703
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-14T07:07:55.062Z",
+  "tile": {
+    "z": 13,
+    "x": 6838,
+    "y": 3334
+  },
+  "segments": [
+    {
+      "id": "32468355",
+      "tileScore": 2,
+      "name": "340省道20公里 冲冲冲",
+      "distanceM": 20533,
+      "avgGrade": -0.014610626734793186,
+      "startLat": 31.65806770324707,
+      "startLng": 120.31031799316406
+    }
+  ]
+}

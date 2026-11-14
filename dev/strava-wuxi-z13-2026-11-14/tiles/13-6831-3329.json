@@ -1,0 +1,20 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-14T07:09:15.322Z",
+  "tile": {
+    "z": 13,
+    "x": 6831,
+    "y": 3329
+  },
+  "segments": [
+    {
+      "id": "41208778",
+      "tileScore": 4,
+      "name": "靖澄道",
+      "distanceM": 11424.599609375,
+      "avgGrade": 0.010503650642931461,
+      "startLat": 31.801908493041992,
+      "startLng": 120.26963806152344
+    }
+  ]
+}

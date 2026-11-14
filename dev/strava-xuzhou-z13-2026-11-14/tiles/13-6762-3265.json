@@ -1,0 +1,20 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-14T06:26:46.239Z",
+  "tile": {
+    "z": 13,
+    "x": 6762,
+    "y": 3265
+  },
+  "segments": [
+    {
+      "id": "26142048",
+      "tileScore": 17,
+      "name": "Hudong Rd. ITT, N to S",
+      "distanceM": 2159.300048828125,
+      "avgGrade": -0.12040939182043076,
+      "startLat": 34.24517059326172,
+      "startLng": 117.1724853515625
+    }
+  ]
+}

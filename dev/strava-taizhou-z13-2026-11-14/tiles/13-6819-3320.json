@@ -1,0 +1,47 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-14T06:57:24.747Z",
+  "tile": {
+    "z": 13,
+    "x": 6819,
+    "y": 3320
+  },
+  "segments": [
+    {
+      "id": "35564611",
+      "tileScore": 11,
+      "name": "造船厂小起伏赛段",
+      "distanceM": 830.4000244140625,
+      "avgGrade": 0.5539499521255493,
+      "startLat": 32.22686767578125,
+      "startLng": 119.68115997314453
+    },
+    {
+      "id": "35090674",
+      "tileScore": 34,
+      "name": "Yangtse sidearm",
+      "distanceM": 4864.5,
+      "avgGrade": -0.03289135545492172,
+      "startLat": 32.24492645263672,
+      "startLng": 119.69493103027344
+    },
+    {
+      "id": "35564637",
+      "tileScore": 28,
+      "name": "冲向大路机场ITT赛段",
+      "distanceM": 2368.10009765625,
+      "avgGrade": -0.23647649586200714,
+      "startLat": 32.244754791259766,
+      "startLng": 119.69769287109375
+    },
+    {
+      "id": "33404801",
+      "tileScore": 215,
+      "name": "夏蓦-五峰山",
+      "distanceM": 1937.5,
+      "avgGrade": 5.398709774017334,
+      "startLat": 32.22773361206055,
+      "startLng": 119.6939926147461
+    }
+  ]
+}

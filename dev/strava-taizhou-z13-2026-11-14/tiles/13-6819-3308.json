@@ -1,0 +1,20 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-14T06:57:39.534Z",
+  "tile": {
+    "z": 13,
+    "x": 6819,
+    "y": 3308
+  },
+  "segments": [
+    {
+      "id": "22051540",
+      "tileScore": 1,
+      "name": "S352扬州段",
+      "distanceM": 20275.19921875,
+      "avgGrade": 0.0019728534389287233,
+      "startLat": 32.73698806762695,
+      "startLng": 119.87641143798828
+    }
+  ]
+}

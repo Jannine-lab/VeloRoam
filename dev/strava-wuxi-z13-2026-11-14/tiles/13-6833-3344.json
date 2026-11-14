@@ -1,0 +1,47 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-14T07:06:47.185Z",
+  "tile": {
+    "z": 13,
+    "x": 6833,
+    "y": 3344
+  },
+  "segments": [
+    {
+      "id": "23648399",
+      "tileScore": 32,
+      "name": "Midwest Taihu Peninsula Peak (Eastbound)",
+      "distanceM": 687.5,
+      "avgGrade": 1.5127272605895996,
+      "startLat": 31.313819885253906,
+      "startLng": 120.31690979003906
+    },
+    {
+      "id": "21864305",
+      "tileScore": 37,
+      "name": "Taihu Coastline G312-Dongshan (70K)",
+      "distanceM": 69272.3984375,
+      "avgGrade": 0.0020210070069879293,
+      "startLat": 31.449859619140625,
+      "startLng": 120.41646575927734
+    },
+    {
+      "id": "40139262",
+      "tileScore": 53,
+      "name": "太湖大道底-三洋",
+      "distanceM": 6087.5,
+      "avgGrade": 0.006570841651409864,
+      "startLat": 31.340852737426758,
+      "startLng": 120.32687377929688
+    },
+    {
+      "id": "21763222",
+      "tileScore": 50,
+      "name": "Zhenhuzhen Southbound ",
+      "distanceM": 11326.2001953125,
+      "avgGrade": 0.0070632691495120525,
+      "startLat": 31.358295440673828,
+      "startLng": 120.358642578125
+    }
+  ]
+}

@@ -1,0 +1,83 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-14T07:15:07.036Z",
+  "tile": {
+    "z": 13,
+    "x": 6846,
+    "y": 3344
+  },
+  "segments": [
+    {
+      "id": "22263996",
+      "tileScore": 8,
+      "name": "苏州回上海（中新大道东）",
+      "distanceM": 11227,
+      "avgGrade": -0.03919123485684395,
+      "startLat": 31.31157875061035,
+      "startLng": 120.76634216308594
+    },
+    {
+      "id": "8677498",
+      "tileScore": 4,
+      "name": "Jie Pujiang Bridge (Eastbound)",
+      "distanceM": 952.4000244140625,
+      "avgGrade": 0.02099957875907421,
+      "startLat": 31.325807571411133,
+      "startLng": 120.84925079345703
+    },
+    {
+      "id": "7414101",
+      "tileScore": 1,
+      "name": "Wusong River Bridge heading south",
+      "distanceM": 429.3999938964844,
+      "avgGrade": -0.18630647659301758,
+      "startLat": 31.318374633789062,
+      "startLng": 120.88754272460938
+    },
+    {
+      "id": "40911380",
+      "tileScore": 1,
+      "name": "GuCheng Rd",
+      "distanceM": 12157.7998046875,
+      "avgGrade": 0.026320552453398705,
+      "startLat": 31.28523826599121,
+      "startLng": 120.89583587646484
+    },
+    {
+      "id": "40536434",
+      "tileScore": 3,
+      "name": "East Section of Jiepu Port Bridge",
+      "distanceM": 519.2999877929688,
+      "avgGrade": 1.6945888996124268,
+      "startLat": 31.342273712158203,
+      "startLng": 120.85433197021484
+    },
+    {
+      "id": "40536441",
+      "tileScore": 7,
+      "name": "West Section of Jiepu Port Bridge",
+      "distanceM": 511.8999938964844,
+      "avgGrade": 1.6409454345703125,
+      "startLat": 31.339250564575195,
+      "startLng": 120.84492492675781
+    },
+    {
+      "id": "14908003",
+      "tileScore": 2,
+      "name": "Nandujia Port Overpass",
+      "distanceM": 1210.5,
+      "avgGrade": -0.44609665870666504,
+      "startLat": 31.348468780517578,
+      "startLng": 120.88138580322266
+    },
+    {
+      "id": "19039997",
+      "tileScore": 1,
+      "name": "Yuanfeng Rd 7K (Eastbound)",
+      "distanceM": 7015.7001953125,
+      "avgGrade": -0.01425374485552311,
+      "startLat": 31.3255672454834,
+      "startLng": 120.8484878540039
+    }
+  ]
+}

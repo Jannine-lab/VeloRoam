@@ -1,0 +1,20 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-14T07:21:54.697Z",
+  "tile": {
+    "z": 13,
+    "x": 6843,
+    "y": 3326
+  },
+  "segments": [
+    {
+      "id": "30964499",
+      "tileScore": 11,
+      "name": "看沪苏通长江公铁大桥",
+      "distanceM": 1449.5,
+      "avgGrade": 0.006898930761963129,
+      "startLat": 31.986806869506836,
+      "startLng": 120.73289489746094
+    }
+  ]
+}

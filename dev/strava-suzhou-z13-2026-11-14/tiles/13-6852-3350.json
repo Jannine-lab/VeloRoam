@@ -1,0 +1,92 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-14T07:17:20.273Z",
+  "tile": {
+    "z": 13,
+    "x": 6852,
+    "y": 3350
+  },
+  "segments": [
+    {
+      "id": "22757685",
+      "tileScore": 22,
+      "name": "Sunday funday!",
+      "distanceM": 2829.89990234375,
+      "avgGrade": 0.08480864763259888,
+      "startLat": 31.11964988708496,
+      "startLng": 121.1318359375
+    },
+    {
+      "id": "5564637",
+      "tileScore": 33,
+      "name": "Sichengonglu to Shenzhuangonglu via Fushouyuan",
+      "distanceM": 4804.60009765625,
+      "avgGrade": 0.033301420509815216,
+      "startLat": 31.12005043029785,
+      "startLng": 121.1304702758789
+    },
+    {
+      "id": "37357955",
+      "tileScore": 42,
+      "name": "六合一小冲一波",
+      "distanceM": 693.5999755859375,
+      "avgGrade": 0.6632064580917358,
+      "startLat": 31.09732437133789,
+      "startLng": 121.12629699707031
+    },
+    {
+      "id": "30768094",
+      "tileScore": 2,
+      "name": "JR002",
+      "distanceM": 16654.099609375,
+      "avgGrade": 0.010808149352669716,
+      "startLat": 31.087905883789062,
+      "startLng": 121.1983871459961
+    },
+    {
+      "id": "37357966",
+      "tileScore": 28,
+      "name": "Pont vers la forêt reverse",
+      "distanceM": 527,
+      "avgGrade": 1.100569248199463,
+      "startLat": 31.103609085083008,
+      "startLng": 121.1161880493164
+    },
+    {
+      "id": "36894166",
+      "tileScore": 5,
+      "name": "ER - Babies Arm",
+      "distanceM": 56876.1015625,
+      "avgGrade": 0,
+      "startLat": 31.179828643798828,
+      "startLng": 121.28097534179688
+    },
+    {
+      "id": "16703113",
+      "tileScore": 1,
+      "name": "SheShan Circuit 1",
+      "distanceM": 12649.2001953125,
+      "avgGrade": 0.058501727879047394,
+      "startLat": 31.092121124267578,
+      "startLng": 121.15868377685547
+    },
+    {
+      "id": "27743438",
+      "tileScore": 3,
+      "name": "Cemetery 2 SRC",
+      "distanceM": 56811.30078125,
+      "avgGrade": 0,
+      "startLat": 31.20186996459961,
+      "startLng": 121.27755737304688
+    },
+    {
+      "id": "6597758",
+      "tileScore": 16,
+      "name": "Fengjingcun Rd Canal Bridge #3 (Northbound)",
+      "distanceM": 168.8000030517578,
+      "avgGrade": 1.7772512435913086,
+      "startLat": 31.116748809814453,
+      "startLng": 121.13066864013672
+    }
+  ]
+}

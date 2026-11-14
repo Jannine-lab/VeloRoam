@@ -1,0 +1,47 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-14T07:07:59.278Z",
+  "tile": {
+    "z": 13,
+    "x": 6840,
+    "y": 3343
+  },
+  "segments": [
+    {
+      "id": "39381967",
+      "tileScore": 54,
+      "name": "YouYiHe Road Bridge Climb",
+      "distanceM": 1007.7999877929688,
+      "avgGrade": 1.2899384498596191,
+      "startLat": 31.359434127807617,
+      "startLng": 120.58636474609375
+    },
+    {
+      "id": "13448958",
+      "tileScore": 2,
+      "name": "The Smile",
+      "distanceM": 637.7999877929688,
+      "avgGrade": 0.12543116509914398,
+      "startLat": 31.37198829650879,
+      "startLng": 120.60405731201172
+    },
+    {
+      "id": "35601357",
+      "tileScore": 7,
+      "name": "太阳路-春申湖中路",
+      "distanceM": 3340.5,
+      "avgGrade": -0.03592276573181152,
+      "startLat": 31.411924362182617,
+      "startLng": 120.62542724609375
+    },
+    {
+      "id": "25822676",
+      "tileScore": 3,
+      "name": "RenminRD. Cross Huning Highway south",
+      "distanceM": 723.5,
+      "avgGrade": -0.41465097665786743,
+      "startLat": 31.353702545166016,
+      "startLng": 120.6073226928711
+    }
+  ]
+}

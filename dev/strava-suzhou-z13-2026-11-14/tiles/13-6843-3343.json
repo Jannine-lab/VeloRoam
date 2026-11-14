@@ -1,0 +1,191 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-14T07:14:59.904Z",
+  "tile": {
+    "z": 13,
+    "x": 6843,
+    "y": 3343
+  },
+  "segments": [
+    {
+      "id": "21073528",
+      "tileScore": 16,
+      "name": "Let's call it a climb",
+      "distanceM": 907.4000244140625,
+      "avgGrade": 1.78532075881958,
+      "startLat": 31.354557037353516,
+      "startLng": 120.73307037353516
+    },
+    {
+      "id": "3666298",
+      "tileScore": 46,
+      "name": "YCH Peninsula Bridge Southwards",
+      "distanceM": 190,
+      "avgGrade": 0,
+      "startLat": 31.38774871826172,
+      "startLng": 120.73460388183594
+    },
+    {
+      "id": "15578554",
+      "tileScore": 6,
+      "name": "TREK South Loop w/o cross roads",
+      "distanceM": 2352.89990234375,
+      "avgGrade": 0.05525096878409386,
+      "startLat": 31.375656127929688,
+      "startLng": 120.78479766845703
+    },
+    {
+      "id": "38745052",
+      "tileScore": 218,
+      "name": "M-circle of YCH(B2Bridge 50K)",
+      "distanceM": 50491.30078125,
+      "avgGrade": 0.0023766469676047564,
+      "startLat": 31.388383865356445,
+      "startLng": 120.71324157714844
+    },
+    {
+      "id": "38784466",
+      "tileScore": 1,
+      "name": "观澜丽宫-北门顺时针",
+      "distanceM": 1051.0999755859375,
+      "avgGrade": -0.11416611075401306,
+      "startLat": 31.37421417236328,
+      "startLng": 120.71704864501953
+    },
+    {
+      "id": "40496734",
+      "tileScore": 4,
+      "name": "another road",
+      "distanceM": 4819.5,
+      "avgGrade": 0.045647889375686646,
+      "startLat": 31.4106388092041,
+      "startLng": 120.77167510986328
+    },
+    {
+      "id": "39631300",
+      "tileScore": 26,
+      "name": "530半岛火柴棍大战",
+      "distanceM": 6637.7998046875,
+      "avgGrade": -0.04820874333381653,
+      "startLat": 31.38666534423828,
+      "startLng": 120.734619140625
+    },
+    {
+      "id": "13019668",
+      "tileScore": 12,
+      "name": "Middle Ring Expy Bridge (Eastbound)",
+      "distanceM": 662.5999755859375,
+      "avgGrade": 0.5885904431343079,
+      "startLat": 31.38332748413086,
+      "startLng": 120.71656036376953
+    },
+    {
+      "id": "41176597",
+      "tileScore": 41,
+      "name": "汀舟路",
+      "distanceM": 861.2000122070312,
+      "avgGrade": -0.11611704528331757,
+      "startLat": 31.389198303222656,
+      "startLng": 120.75456237792969
+    },
+    {
+      "id": "41693421",
+      "tileScore": 16,
+      "name": "半岛绿道without阳澄西湖",
+      "distanceM": 17130.80078125,
+      "avgGrade": 0.0011674878187477589,
+      "startLat": 31.4024715423584,
+      "startLng": 120.78372955322266
+    },
+    {
+      "id": "40867166",
+      "tileScore": 7,
+      "name": "水杉绿道",
+      "distanceM": 2234.89990234375,
+      "avgGrade": 0.04474473372101784,
+      "startLat": 31.38661766052246,
+      "startLng": 120.71388244628906
+    },
+    {
+      "id": "10262587",
+      "tileScore": 27,
+      "name": "Stretch after S/F Of Fast Loops (Southbound)",
+      "distanceM": 1344.9000244140625,
+      "avgGrade": 0.22306491434574127,
+      "startLat": 31.400705337524414,
+      "startLng": 120.74890899658203
+    },
+    {
+      "id": "41798036",
+      "tileScore": 8,
+      "name": "水泽路集合啦",
+      "distanceM": 6794,
+      "avgGrade": 0,
+      "startLat": 31.37588119506836,
+      "startLng": 120.7916259765625
+    },
+    {
+      "id": "11437474",
+      "tileScore": 3,
+      "name": "Middle Ring East Line x Railway Underpass (Northbound)",
+      "distanceM": 352,
+      "avgGrade": 0.05681817978620529,
+      "startLat": 31.35516929626465,
+      "startLng": 120.75995635986328
+    },
+    {
+      "id": "15256121",
+      "tileScore": 7,
+      "name": "Kuayucun EtoW",
+      "distanceM": 2767.39990234375,
+      "avgGrade": 0.007226999849081039,
+      "startLat": 31.37141990661621,
+      "startLng": 120.74658203125
+    },
+    {
+      "id": "12141566",
+      "tileScore": 10,
+      "name": "11K Yangchenghu Ave (Westbound)",
+      "distanceM": 11387.7998046875,
+      "avgGrade": 0.017562653869390488,
+      "startLat": 31.38125228881836,
+      "startLng": 120.83155822753906
+    },
+    {
+      "id": "39677713",
+      "tileScore": 30,
+      "name": "决战潭溪路之渊",
+      "distanceM": 537.2000122070312,
+      "avgGrade": 0,
+      "startLat": 31.383010864257812,
+      "startLng": 120.74131774902344
+    },
+    {
+      "id": "38925188",
+      "tileScore": 294,
+      "name": "决战水泽之巅",
+      "distanceM": 2199.699951171875,
+      "avgGrade": 0.03636859357357025,
+      "startLat": 31.401386260986328,
+      "startLng": 120.74724578857422
+    },
+    {
+      "id": "11405359",
+      "tileScore": 2,
+      "name": "Fengting Rd (Westbound)",
+      "distanceM": 11067.2001953125,
+      "avgGrade": -0.005421425681561232,
+      "startLat": 31.367603302001953,
+      "startLng": 120.79261016845703
+    },
+    {
+      "id": "39677675",
+      "tileScore": 43,
+      "name": "始皇帝又要突围拉！",
+      "distanceM": 991.2999877929688,
+      "avgGrade": -0.5447392463684082,
+      "startLat": 31.38666534423828,
+      "startLng": 120.734619140625
+    }
+  ]
+}

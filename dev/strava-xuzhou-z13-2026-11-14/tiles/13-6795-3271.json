@@ -1,0 +1,20 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-14T06:49:17.436Z",
+  "tile": {
+    "z": 13,
+    "x": 6795,
+    "y": 3271
+  },
+  "segments": [
+    {
+      "id": "28313168",
+      "tileScore": 3,
+      "name": "阿登B段",
+      "distanceM": 19818.599609375,
+      "avgGrade": 0.0020183061715215445,
+      "startLat": 33.99324417114258,
+      "startLng": 118.57132720947266
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-14T07:20:36.941Z",
+  "tile": {
+    "z": 13,
+    "x": 6826,
+    "y": 3356
+  },
+  "segments": [
+    {
+      "id": "35144286",
+      "tileScore": 11,
+      "name": "创业大道狂飙",
+      "distanceM": 7633.5,
+      "avgGrade": 0.005240060389041901,
+      "startLat": 30.87373161315918,
+      "startLng": 120.02396392822266
+    },
+    {
+      "id": "37693148",
+      "tileScore": 22,
+      "name": "仙顶寺爬坡",
+      "distanceM": 1288.300048828125,
+      "avgGrade": 9.299076080322266,
+      "startLat": 30.865341186523438,
+      "startLng": 120.00993347167969
+    }
+  ]
+}

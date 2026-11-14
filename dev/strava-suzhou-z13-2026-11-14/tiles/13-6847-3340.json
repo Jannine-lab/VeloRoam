@@ -1,0 +1,20 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-14T07:15:51.487Z",
+  "tile": {
+    "z": 13,
+    "x": 6847,
+    "y": 3340
+  },
+  "segments": [
+    {
+      "id": "20169914",
+      "tileScore": 4,
+      "name": "YCH TOP Three Bridge WtoE rush",
+      "distanceM": 7901.89990234375,
+      "avgGrade": -0.015186221338808537,
+      "startLat": 31.48989486694336,
+      "startLng": 120.83085632324219
+    }
+  ]
+}

@@ -1,0 +1,83 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-14T07:16:00.338Z",
+  "tile": {
+    "z": 13,
+    "x": 6848,
+    "y": 3350
+  },
+  "segments": [
+    {
+      "id": "38897849",
+      "tileScore": 1,
+      "name": "公制世纪 - KOM",
+      "distanceM": 101772.296875,
+      "avgGrade": -0.0031442742329090834,
+      "startLat": 31.17006492614746,
+      "startLng": 121.2751235961914
+    },
+    {
+      "id": "17111162",
+      "tileScore": 34,
+      "name": "Dianshanhu West bike path",
+      "distanceM": 6946.2001953125,
+      "avgGrade": -0.11085197329521179,
+      "startLat": 31.112680435180664,
+      "startLng": 120.92161560058594
+    },
+    {
+      "id": "10654060",
+      "tileScore": 30,
+      "name": "G318 x Mao River Bridge (Westbound)",
+      "distanceM": 565.5,
+      "avgGrade": 0.9549071788787842,
+      "startLat": 31.09188461303711,
+      "startLng": 120.98188018798828
+    },
+    {
+      "id": "38405230",
+      "tileScore": 28,
+      "name": "14KM-东方绿洲到商榻超市",
+      "distanceM": 16984.80078125,
+      "avgGrade": -0.00824266392737627,
+      "startLat": 31.100879669189453,
+      "startLng": 121.01265716552734
+    },
+    {
+      "id": "5858979",
+      "tileScore": 13,
+      "name": "GrandView G 2 Xujing",
+      "distanceM": 37196.30078125,
+      "avgGrade": 0.01828138716518879,
+      "startLat": 31.067720413208008,
+      "startLng": 120.91679382324219
+    },
+    {
+      "id": "32060640",
+      "tileScore": 47,
+      "name": "这里有李琦晟爆掉的2条胎",
+      "distanceM": 3956.199951171875,
+      "avgGrade": 0.012638390995562077,
+      "startLat": 31.100893020629883,
+      "startLng": 121.01290893554688
+    },
+    {
+      "id": "22068484",
+      "tileScore": 8,
+      "name": "G318 上海-湖州",
+      "distanceM": 133169.203125,
+      "avgGrade": -0.002553143072873354,
+      "startLat": 31.17106056213379,
+      "startLng": 121.32220458984375
+    },
+    {
+      "id": "42155611",
+      "tileScore": 21,
+      "name": "淀山湖大环加太浦河95km",
+      "distanceM": 98464.203125,
+      "avgGrade": 0.00020311950356699526,
+      "startLat": 31.100807189941406,
+      "startLng": 121.01215362548828
+    }
+  ]
+}

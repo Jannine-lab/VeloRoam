@@ -1,0 +1,191 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-14T07:17:05.661Z",
+  "tile": {
+    "z": 13,
+    "x": 6851,
+    "y": 3349
+  },
+  "segments": [
+    {
+      "id": "36938079",
+      "tileScore": 27,
+      "name": "盈朱路 北岸方向",
+      "distanceM": 4668,
+      "avgGrade": 0.02570694126188755,
+      "startLat": 31.1521053314209,
+      "startLng": 121.07681274414062
+    },
+    {
+      "id": "10241504",
+      "tileScore": 1,
+      "name": "Caoying Rd from Dianshanhu Ave to Yinggang Rd ",
+      "distanceM": 1900.800048828125,
+      "avgGrade": -0.04208754003047943,
+      "startLat": 31.144441604614258,
+      "startLng": 121.08918762207031
+    },
+    {
+      "id": "24845912",
+      "tileScore": 19,
+      "name": "李琦晟自行车劝退一疗程",
+      "distanceM": 20250,
+      "avgGrade": -0.008888889104127884,
+      "startLat": 31.15504264831543,
+      "startLng": 121.23126220703125
+    },
+    {
+      "id": "40318658",
+      "tileScore": 4,
+      "name": "SHA: Dianshan Lake - Songze Rd (channel path), 21km",
+      "distanceM": 21030.5,
+      "avgGrade": -0.001901999581605196,
+      "startLat": 31.148513793945312,
+      "startLng": 120.99622344970703
+    },
+    {
+      "id": "39496940",
+      "tileScore": 8,
+      "name": "小外滩狂飙",
+      "distanceM": 2828.39990234375,
+      "avgGrade": 0.014142271131277084,
+      "startLat": 31.14501953125,
+      "startLng": 121.13612365722656
+    },
+    {
+      "id": "37724746",
+      "tileScore": 8,
+      "name": "青浦快运",
+      "distanceM": 66769.3984375,
+      "avgGrade": -0.013179689645767212,
+      "startLat": 31.176237106323242,
+      "startLng": 121.27295684814453
+    },
+    {
+      "id": "5858979",
+      "tileScore": 13,
+      "name": "GrandView G 2 Xujing",
+      "distanceM": 37196.30078125,
+      "avgGrade": 0.01828138716518879,
+      "startLat": 31.067720413208008,
+      "startLng": 120.91679382324219
+    },
+    {
+      "id": "30074936",
+      "tileScore": 19,
+      "name": "LG-03",
+      "distanceM": 14774.2001953125,
+      "avgGrade": 0.028427934274077415,
+      "startLat": 31.1706485748291,
+      "startLng": 121.23775482177734
+    },
+    {
+      "id": "11488859",
+      "tileScore": 10,
+      "name": "East Da Ying Bridge (Westbound)",
+      "distanceM": 403.20001220703125,
+      "avgGrade": 0.421627014875412,
+      "startLat": 31.138883590698242,
+      "startLng": 121.1115951538086
+    },
+    {
+      "id": "27327757",
+      "tileScore": 7,
+      "name": "Shanghai Tour de France 上海环法 - Full Tour (100km)",
+      "distanceM": 100065.796875,
+      "avgGrade": 0.002498356159776449,
+      "startLat": 31.153793334960938,
+      "startLng": 121.20298767089844
+    },
+    {
+      "id": "33091134",
+      "tileScore": 17,
+      "name": "吃完kfc就骑的动了",
+      "distanceM": 1546.800048828125,
+      "avgGrade": 0.025859838351607323,
+      "startLat": 31.162662506103516,
+      "startLng": 121.08109283447266
+    },
+    {
+      "id": "30074986",
+      "tileScore": 24,
+      "name": "LG-07",
+      "distanceM": 4255.2001953125,
+      "avgGrade": 0.032900918275117874,
+      "startLat": 31.163185119628906,
+      "startLng": 121.13705444335938
+    },
+    {
+      "id": "35414010",
+      "tileScore": 20,
+      "name": "淀山湖大道冲刺！（漕盈-珠溪）",
+      "distanceM": 5145.2998046875,
+      "avgGrade": 0.0038870424032211304,
+      "startLat": 31.143390655517578,
+      "startLng": 121.08831024169922
+    },
+    {
+      "id": "39496954",
+      "tileScore": 17,
+      "name": "冲向青浦大道",
+      "distanceM": 2584.199951171875,
+      "avgGrade": -0.1393081098794937,
+      "startLat": 31.14466094970703,
+      "startLng": 121.09768676757812
+    },
+    {
+      "id": "37422806",
+      "tileScore": 24,
+      "name": "五浦汇绕圈X5【2号桥起点】",
+      "distanceM": 13733.5,
+      "avgGrade": 0,
+      "startLat": 31.141189575195312,
+      "startLng": 121.07335662841797
+    },
+    {
+      "id": "40749015",
+      "tileScore": 5,
+      "name": "天恩桥路",
+      "distanceM": 2906.10009765625,
+      "avgGrade": 0.01032311376184225,
+      "startLat": 31.153160095214844,
+      "startLng": 121.0774917602539
+    },
+    {
+      "id": "30384821",
+      "tileScore": 2,
+      "name": "THL-4",
+      "distanceM": 116824.5,
+      "avgGrade": -0.0025679543614387512,
+      "startLat": 31.206161499023438,
+      "startLng": 121.28252410888672
+    },
+    {
+      "id": "38897849",
+      "tileScore": 1,
+      "name": "公制世纪 - KOM",
+      "distanceM": 101772.296875,
+      "avgGrade": -0.0031442742329090834,
+      "startLat": 31.17006492614746,
+      "startLng": 121.2751235961914
+    },
+    {
+      "id": "32086257",
+      "tileScore": 17,
+      "name": "Qingpu Last Bridge",
+      "distanceM": 769.4000244140625,
+      "avgGrade": 0,
+      "startLat": 31.162128448486328,
+      "startLng": 121.09004974365234
+    },
+    {
+      "id": "22068484",
+      "tileScore": 8,
+      "name": "G318 上海-湖州",
+      "distanceM": 133169.203125,
+      "avgGrade": -0.002553143072873354,
+      "startLat": 31.17106056213379,
+      "startLng": 121.32220458984375
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-14T07:25:22.601Z",
+  "tile": {
+    "z": 13,
+    "x": 6843,
+    "y": 3341
+  },
+  "segments": [
+    {
+      "id": "12649989",
+      "tileScore": 180,
+      "name": "YCH North to LJH",
+      "distanceM": 7725.2998046875,
+      "avgGrade": 0.04271678626537323,
+      "startLat": 31.387466430664062,
+      "startLng": 120.71316528320312
+    },
+    {
+      "id": "38745052",
+      "tileScore": 218,
+      "name": "M-circle of YCH(B2Bridge 50K)",
+      "distanceM": 50491.30078125,
+      "avgGrade": 0.0023766469676047564,
+      "startLat": 31.388383865356445,
+      "startLng": 120.71324157714844
+    },
+    {
+      "id": "31150865",
+      "tileScore": 12,
+      "name": "月季园悠闲的下午",
+      "distanceM": 10817,
+      "avgGrade": -0.012942589819431305,
+      "startLat": 31.46404457092285,
+      "startLng": 120.68812561035156
+    },
+    {
+      "id": "23526218",
+      "tileScore": 221,
+      "name": "Up da Lake",
+      "distanceM": 12626.5,
+      "avgGrade": 0.009503821842372417,
+      "startLat": 31.38671112060547,
+      "startLng": 120.7130355834961
+    },
+    {
+      "id": "23491431",
+      "tileScore": 85,
+      "name": "YCH-New Road",
+      "distanceM": 4760.7998046875,
+      "avgGrade": -0.07141657173633575,
+      "startLat": 31.442302703857422,
+      "startLng": 120.7556381225586
+    }
+  ]
+}

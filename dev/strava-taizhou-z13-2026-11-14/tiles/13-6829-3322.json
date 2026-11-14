@@ -1,0 +1,29 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-14T06:58:08.246Z",
+  "tile": {
+    "z": 13,
+    "x": 6829,
+    "y": 3322
+  },
+  "segments": [
+    {
+      "id": "39468359",
+      "tileScore": 5,
+      "name": "如皋奔赴泰兴",
+      "distanceM": 52521.1015625,
+      "avgGrade": 0.013708775863051414,
+      "startLat": 32.36159133911133,
+      "startLng": 120.55076599121094
+    },
+    {
+      "id": "34937865",
+      "tileScore": 11,
+      "name": "S334back",
+      "distanceM": 20726.099609375,
+      "avgGrade": 0.007719735149294138,
+      "startLat": 32.22407150268555,
+      "startLng": 120.25872039794922
+    }
+  ]
+}

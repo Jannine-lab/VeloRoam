@@ -1,0 +1,92 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-14T07:06:16.739Z",
+  "tile": {
+    "z": 13,
+    "x": 6834,
+    "y": 3340
+  },
+  "segments": [
+    {
+      "id": "35188732",
+      "tileScore": 10,
+      "name": "Park to bullet and back (TT) ",
+      "distanceM": 6549.89990234375,
+      "avgGrade": 0,
+      "startLat": 31.452713012695312,
+      "startLng": 120.32496643066406
+    },
+    {
+      "id": "35222701",
+      "tileScore": 5,
+      "name": "Final Sprint 1 (E-W) ",
+      "distanceM": 1258.699951171875,
+      "avgGrade": -0.3575116991996765,
+      "startLat": 31.465185165405273,
+      "startLng": 120.36241149902344
+    },
+    {
+      "id": "17009345",
+      "tileScore": 4,
+      "name": "Pig, just a joke..",
+      "distanceM": 10603.5,
+      "avgGrade": -0.033007968217134476,
+      "startLat": 31.488378524780273,
+      "startLng": 120.3644027709961
+    },
+    {
+      "id": "37783283",
+      "tileScore": 6,
+      "name": "Binhu Bullet CCW",
+      "distanceM": 714.5999755859375,
+      "avgGrade": 0.05597536638379097,
+      "startLat": 31.464988708496094,
+      "startLng": 120.34812927246094
+    },
+    {
+      "id": "36962127",
+      "tileScore": 2,
+      "name": "George's bridge! ",
+      "distanceM": 508.8999938964844,
+      "avgGrade": 0.8842601180076599,
+      "startLat": 31.469100952148438,
+      "startLng": 120.36532592773438
+    },
+    {
+      "id": "16556060",
+      "tileScore": 18,
+      "name": "Juqu road to gas station",
+      "distanceM": 6543.60009765625,
+      "avgGrade": 0.009169264696538448,
+      "startLat": 31.471773147583008,
+      "startLng": 120.33702850341797
+    },
+    {
+      "id": "40962801",
+      "tileScore": 49,
+      "name": "All the way along the lake (E-W)",
+      "distanceM": 19889.69921875,
+      "avgGrade": 0.0030166367068886757,
+      "startLat": 31.448610305786133,
+      "startLng": 120.40274047851562
+    },
+    {
+      "id": "35445875",
+      "tileScore": 5,
+      "name": "吴都路西至东-cheng",
+      "distanceM": 4708.60009765625,
+      "avgGrade": -0.06158943474292755,
+      "startLat": 31.4837703704834,
+      "startLng": 120.27407836914062
+    },
+    {
+      "id": "12893198",
+      "tileScore": 22,
+      "name": "Taihu Shore Bicycle Path (Wangyu River to Fish Market)",
+      "distanceM": 6530.7001953125,
+      "avgGrade": 0.027562130242586136,
+      "startLat": 31.446502685546875,
+      "startLng": 120.40375518798828
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-14T07:16:04.043Z",
+  "tile": {
+    "z": 13,
+    "x": 6841,
+    "y": 3355
+  },
+  "segments": [
+    {
+      "id": "38068588",
+      "tileScore": 14,
+      "name": "平盛路 (Southbound)",
+      "distanceM": 4756.60009765625,
+      "avgGrade": -0.05886557698249817,
+      "startLat": 30.968746185302734,
+      "startLng": 120.63072967529297
+    }
+  ]
+}

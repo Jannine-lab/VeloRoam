@@ -1,0 +1,236 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-14T07:25:28.485Z",
+  "tile": {
+    "z": 13,
+    "x": 6843,
+    "y": 3345
+  },
+  "segments": [
+    {
+      "id": "8800596",
+      "tileScore": 10,
+      "name": "Songtao street southbound 1",
+      "distanceM": 427.3999938964844,
+      "avgGrade": 0.42115116119384766,
+      "startLat": 31.28138542175293,
+      "startLng": 120.72972869873047
+    },
+    {
+      "id": "15145962",
+      "tileScore": 2,
+      "name": "From white thingy to red thingy",
+      "distanceM": 1670.800048828125,
+      "avgGrade": -0.01197031419724226,
+      "startLat": 31.282501220703125,
+      "startLng": 120.7208251953125
+    },
+    {
+      "id": "10050943",
+      "tileScore": 1,
+      "name": "Gongyao Rd (Eastbound)",
+      "distanceM": 737.7000122070312,
+      "avgGrade": 0.1084451675415039,
+      "startLat": 31.30080795288086,
+      "startLng": 120.75711059570312
+    },
+    {
+      "id": "23469085",
+      "tileScore": 6,
+      "name": "Jinji&Dushu Lakes",
+      "distanceM": 25429,
+      "avgGrade": 0.01651657558977604,
+      "startLat": 31.306800842285156,
+      "startLng": 120.72010803222656
+    },
+    {
+      "id": "8301145",
+      "tileScore": 3,
+      "name": "Songtao St x Xietang River Bridge (Northbound)",
+      "distanceM": 653.7999877929688,
+      "avgGrade": -0.1376567780971527,
+      "startLat": 31.301864624023438,
+      "startLng": 120.73007202148438
+    },
+    {
+      "id": "9489853",
+      "tileScore": 3,
+      "name": "Qixin St Loop (Anticlockwise)",
+      "distanceM": 699.0999755859375,
+      "avgGrade": -0.014304105192422867,
+      "startLat": 31.315330505371094,
+      "startLng": 120.72528076171875
+    },
+    {
+      "id": "22105952",
+      "tileScore": 4,
+      "name": "Zhongnan St (ZXDDD) + Jinyan Rd",
+      "distanceM": 5329.89990234375,
+      "avgGrade": 0.018762078136205673,
+      "startLat": 31.31037139892578,
+      "startLng": 120.75257110595703
+    },
+    {
+      "id": "15153390",
+      "tileScore": 2,
+      "name": "Zhongnan St x Xietang River Bridge (Southbound)",
+      "distanceM": 764.7000122070312,
+      "avgGrade": -0.02615404687821865,
+      "startLat": 31.303163528442383,
+      "startLng": 120.75261688232422
+    },
+    {
+      "id": "10069982",
+      "tileScore": 1,
+      "name": "Xingtang St x Xietang River Bridge (Northbound)",
+      "distanceM": 362.1000061035156,
+      "avgGrade": 0.27616679668426514,
+      "startLat": 31.301780700683594,
+      "startLng": 120.74156188964844
+    },
+    {
+      "id": "23580769",
+      "tileScore": 6,
+      "name": "Xingtang Rd approach",
+      "distanceM": 3355.39990234375,
+      "avgGrade": -0.06556595116853714,
+      "startLat": 31.31162452697754,
+      "startLng": 120.7398452758789
+    },
+    {
+      "id": "8547215",
+      "tileScore": 5,
+      "name": "Dushu Lake Ave (Xingtang St → Songtao St)",
+      "distanceM": 1353,
+      "avgGrade": 0.036954913288354874,
+      "startLat": 31.282506942749023,
+      "startLng": 120.74475860595703
+    },
+    {
+      "id": "11261501",
+      "tileScore": 5,
+      "name": "Zhongxin East Ave (Xingtang > Zhongnan)",
+      "distanceM": 1130.199951171875,
+      "avgGrade": -0.15926384925842285,
+      "startLat": 31.31051254272461,
+      "startLng": 120.73993682861328
+    },
+    {
+      "id": "42381781",
+      "tileScore": 43,
+      "name": "JJH530 LOOP",
+      "distanceM": 14881,
+      "avgGrade": -0.059135809540748596,
+      "startLat": 31.301347732543945,
+      "startLng": 120.71953582763672
+    },
+    {
+      "id": "8481636",
+      "tileScore": 2,
+      "name": "Zhongxin Avenue East",
+      "distanceM": 8045.39990234375,
+      "avgGrade": -0.006214731372892857,
+      "startLat": 31.310014724731445,
+      "startLng": 120.72364807128906
+    },
+    {
+      "id": "25958085",
+      "tileScore": 7,
+      "name": "Eastern part of Jinjihu avenue eastbound",
+      "distanceM": 5737.7998046875,
+      "avgGrade": 0.033113736659288406,
+      "startLat": 31.29302406311035,
+      "startLng": 120.74217987060547
+    },
+    {
+      "id": "11234829",
+      "tileScore": 2,
+      "name": "Zhongxin Ave E (Zhongnan > Xinghu)",
+      "distanceM": 2918.699951171875,
+      "avgGrade": -0.013704732060432434,
+      "startLat": 31.311161041259766,
+      "startLng": 120.75164031982422
+    },
+    {
+      "id": "8247183",
+      "tileScore": 52,
+      "name": "You'an St (Southbound)",
+      "distanceM": 1381.0999755859375,
+      "avgGrade": -0.07964666187763214,
+      "startLat": 31.320159912109375,
+      "startLng": 120.70692443847656
+    },
+    {
+      "id": "8800509",
+      "tileScore": 3,
+      "name": "Songtao street southbound 3",
+      "distanceM": 614.2999877929688,
+      "avgGrade": -0.11395083367824554,
+      "startLat": 31.29397201538086,
+      "startLng": 120.72966766357422
+    },
+    {
+      "id": "8341358",
+      "tileScore": 78,
+      "name": "Jinji Lake South on Jinjihu Ave (Westbound)",
+      "distanceM": 2720.10009765625,
+      "avgGrade": -0.10661372542381287,
+      "startLat": 31.301477432250977,
+      "startLng": 120.71969604492188
+    },
+    {
+      "id": "18394267",
+      "tileScore": 1,
+      "name": "Crossing Xietang River Thrice",
+      "distanceM": 2187.39990234375,
+      "avgGrade": 0.018286550417542458,
+      "startLat": 31.298418045043945,
+      "startLng": 120.75486755371094
+    },
+    {
+      "id": "8341340",
+      "tileScore": 259,
+      "name": "Huanzhou Rd (Anticlockwise)",
+      "distanceM": 1482.4000244140625,
+      "avgGrade": 0.020237453281879425,
+      "startLat": 31.31045913696289,
+      "startLng": 120.71928405761719
+    },
+    {
+      "id": "21759225",
+      "tileScore": 3,
+      "name": "German Villa Sprint (Westbound)",
+      "distanceM": 530.2999877929688,
+      "avgGrade": 0.03771449998021126,
+      "startLat": 31.306337356567383,
+      "startLng": 120.72958374023438
+    },
+    {
+      "id": "22547843",
+      "tileScore": 8,
+      "name": "White Thingy Inbound",
+      "distanceM": 2002.800048828125,
+      "avgGrade": -0.11483921855688095,
+      "startLat": 31.262779235839844,
+      "startLng": 120.72357177734375
+    },
+    {
+      "id": "8721468",
+      "tileScore": 7,
+      "name": "Xinghu street southbound",
+      "distanceM": 1865.5,
+      "avgGrade": -0.10184936970472336,
+      "startLat": 31.32701873779297,
+      "startLng": 120.7158432006836
+    },
+    {
+      "id": "10146416",
+      "tileScore": 1,
+      "name": "Xietang Lao Jie Southern Zig-Zag (Westbound)",
+      "distanceM": 1123.0999755859375,
+      "avgGrade": 0.1068471223115921,
+      "startLat": 31.3017520904541,
+      "startLng": 120.74008178710938
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-14T07:21:20.304Z",
+  "tile": {
+    "z": 13,
+    "x": 6826,
+    "y": 3357
+  },
+  "segments": [
+    {
+      "id": "34198187",
+      "tileScore": 11,
+      "name": " 楂树坞绕圈",
+      "distanceM": 4401.60009765625,
+      "avgGrade": -0.027262812480330467,
+      "startLat": 30.842140197753906,
+      "startLng": 120.00611114501953
+    }
+  ]
+}

@@ -1,0 +1,83 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-14T07:25:24.411Z",
+  "tile": {
+    "z": 13,
+    "x": 6854,
+    "y": 3343
+  },
+  "segments": [
+    {
+      "id": "18131769",
+      "tileScore": 4,
+      "name": "Shengxin Road Straight South",
+      "distanceM": 16619.099609375,
+      "avgGrade": 0.010830910876393318,
+      "startLat": 31.431230545043945,
+      "startLng": 121.18557739257812
+    },
+    {
+      "id": "25652399",
+      "tileScore": 24,
+      "name": "Pujiang Jiaoye Park ",
+      "distanceM": 10514.2001953125,
+      "avgGrade": 0.02092408388853073,
+      "startLat": 31.36074447631836,
+      "startLng": 121.21723937988281
+    },
+    {
+      "id": "41484352",
+      "tileScore": 10,
+      "name": "嘉定绿道（漳翔路->嘉安公路）",
+      "distanceM": 5211.5,
+      "avgGrade": -0.026863668113946915,
+      "startLat": 31.328369140625,
+      "startLng": 121.24053192138672
+    },
+    {
+      "id": "40952059",
+      "tileScore": 15,
+      "name": "胜竹路-绿意路",
+      "distanceM": 1460.300048828125,
+      "avgGrade": 0.013695815578103065,
+      "startLat": 31.388776779174805,
+      "startLng": 121.21662139892578
+    },
+    {
+      "id": "34489521",
+      "tileScore": 37,
+      "name": "PARKCYCLING 猎骑大圈",
+      "distanceM": 6456.5,
+      "avgGrade": 0,
+      "startLat": 31.36835479736328,
+      "startLng": 121.19298553466797
+    },
+    {
+      "id": "36269037",
+      "tileScore": 6,
+      "name": "嘉定 001 Sheraton",
+      "distanceM": 1315.5999755859375,
+      "avgGrade": 0.10641532391309738,
+      "startLat": 31.39523696899414,
+      "startLng": 121.24063873291016
+    },
+    {
+      "id": "41743225",
+      "tileScore": 6,
+      "name": "PARKCYCLING猎骑一号门冲刺",
+      "distanceM": 505.3999938964844,
+      "avgGrade": -0.07914523035287857,
+      "startLat": 31.362224578857422,
+      "startLng": 121.2025375366211
+    },
+    {
+      "id": "40956661",
+      "tileScore": 3,
+      "name": "嘉定到安亭最快路线",
+      "distanceM": 8401.7001953125,
+      "avgGrade": -0.0261851754039526,
+      "startLat": 31.358226776123047,
+      "startLng": 121.21436309814453
+    }
+  ]
+}

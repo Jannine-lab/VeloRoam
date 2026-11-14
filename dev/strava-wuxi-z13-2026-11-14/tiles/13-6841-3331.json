@@ -1,0 +1,29 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-14T07:10:34.806Z",
+  "tile": {
+    "z": 13,
+    "x": 6841,
+    "y": 3331
+  },
+  "segments": [
+    {
+      "id": "35376299",
+      "tileScore": 13,
+      "name": "通杀（返程）",
+      "distanceM": 38499.80078125,
+      "avgGrade": -0.0015584497014060616,
+      "startLat": 31.98116683959961,
+      "startLng": 120.73014068603516
+    },
+    {
+      "id": "37774816",
+      "tileScore": 7,
+      "name": "弘吴大道冲冲冲",
+      "distanceM": 4476,
+      "avgGrade": -0.07149240374565125,
+      "startLat": 31.828998565673828,
+      "startLng": 120.66238403320312
+    }
+  ]
+}

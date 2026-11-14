@@ -1,0 +1,101 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-14T07:07:37.998Z",
+  "tile": {
+    "z": 13,
+    "x": 6839,
+    "y": 3344
+  },
+  "segments": [
+    {
+      "id": "30965033",
+      "tileScore": 3,
+      "name": "与沪宁城际动车竞速",
+      "distanceM": 359.8999938964844,
+      "avgGrade": 0.388996958732605,
+      "startLat": 31.329286575317383,
+      "startLng": 120.56703186035156
+    },
+    {
+      "id": "12363347",
+      "tileScore": 4,
+      "name": "Taihu Ave (Tayuan Rd → S230)",
+      "distanceM": 14132.2001953125,
+      "avgGrade": 0.0028304157312959433,
+      "startLat": 31.329225540161133,
+      "startLng": 120.5454330444336
+    },
+    {
+      "id": "17490619",
+      "tileScore": 5,
+      "name": "苏州 北环快速路B",
+      "distanceM": 5098.10009765625,
+      "avgGrade": -0.02353818155825138,
+      "startLat": 31.330841064453125,
+      "startLng": 120.63581085205078
+    },
+    {
+      "id": "25879496",
+      "tileScore": 1,
+      "name": "Grand Canal Bridge (Eastbound)",
+      "distanceM": 648.5999755859375,
+      "avgGrade": 1.387603998184204,
+      "startLat": 31.328807830810547,
+      "startLng": 120.5475845336914
+    },
+    {
+      "id": "37504888",
+      "tileScore": 15,
+      "name": "老钱你内裤颠掉了",
+      "distanceM": 743.5999755859375,
+      "avgGrade": 0.02689618058502674,
+      "startLat": 31.35146713256836,
+      "startLng": 120.57398986816406
+    },
+    {
+      "id": "32187244",
+      "tileScore": 3,
+      "name": "Gusu Eto W",
+      "distanceM": 1680.699951171875,
+      "avgGrade": -0.11899804323911667,
+      "startLat": 31.341136932373047,
+      "startLng": 120.58440399169922
+    },
+    {
+      "id": "20963883",
+      "tileScore": 38,
+      "name": "Xitang River Road To Middle Ring North",
+      "distanceM": 5650.2998046875,
+      "avgGrade": -0.0035396351013332605,
+      "startLat": 31.34080696105957,
+      "startLng": 120.58148193359375
+    },
+    {
+      "id": "14879224",
+      "tileScore": 2,
+      "name": "MofangJi E to W",
+      "distanceM": 4430.60009765625,
+      "avgGrade": 0.027084367349743843,
+      "startLat": 31.34943962097168,
+      "startLng": 120.61124420166016
+    },
+    {
+      "id": "35413594",
+      "tileScore": 3,
+      "name": "Hanshan Bridge--Danger!",
+      "distanceM": 1221.0999755859375,
+      "avgGrade": -0.18016542494297028,
+      "startLat": 31.328004837036133,
+      "startLng": 120.5650863647461
+    },
+    {
+      "id": "39381967",
+      "tileScore": 54,
+      "name": "YouYiHe Road Bridge Climb",
+      "distanceM": 1007.7999877929688,
+      "avgGrade": 1.2899384498596191,
+      "startLat": 31.359434127807617,
+      "startLng": 120.58636474609375
+    }
+  ]
+}

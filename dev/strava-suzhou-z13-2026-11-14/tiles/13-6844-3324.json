@@ -1,0 +1,29 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-14T07:22:42.446Z",
+  "tile": {
+    "z": 13,
+    "x": 6844,
+    "y": 3324
+  },
+  "segments": [
+    {
+      "id": "38004047",
+      "tileScore": 3,
+      "name": "Chengbei Ave",
+      "distanceM": 12856.400390625,
+      "avgGrade": 0.012445162981748581,
+      "startLat": 32.044593811035156,
+      "startLng": 120.7610855102539
+    },
+    {
+      "id": "41299618",
+      "tileScore": 5,
+      "name": "冲桥间歇绕圈",
+      "distanceM": 8070.5,
+      "avgGrade": -0.034694258123636246,
+      "startLat": 32.07514953613281,
+      "startLng": 120.77122497558594
+    }
+  ]
+}

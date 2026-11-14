@@ -1,0 +1,20 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-14T06:38:13.113Z",
+  "tile": {
+    "z": 13,
+    "x": 6755,
+    "y": 3252
+  },
+  "segments": [
+    {
+      "id": "35190018",
+      "tileScore": 7,
+      "name": "沛敬路上凯总专治各种不服",
+      "distanceM": 10427.900390625,
+      "avgGrade": -0.013425521552562714,
+      "startLat": 34.62590026855469,
+      "startLng": 116.88667297363281
+    }
+  ]
+}

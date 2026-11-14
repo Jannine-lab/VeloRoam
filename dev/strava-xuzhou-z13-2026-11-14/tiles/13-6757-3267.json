@@ -1,0 +1,20 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-14T06:28:20.870Z",
+  "tile": {
+    "z": 13,
+    "x": 6757,
+    "y": 3267
+  },
+  "segments": [
+    {
+      "id": "31221797",
+      "tileScore": 7,
+      "name": "进隧道前的最后一个坡",
+      "distanceM": 569.0999755859375,
+      "avgGrade": 3.795466661453247,
+      "startLat": 34.193450927734375,
+      "startLng": 116.93948364257812
+    }
+  ]
+}

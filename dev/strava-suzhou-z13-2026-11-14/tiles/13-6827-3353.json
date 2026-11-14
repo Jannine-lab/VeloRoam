@@ -1,0 +1,47 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-14T07:18:14.867Z",
+  "tile": {
+    "z": 13,
+    "x": 6827,
+    "y": 3353
+  },
+  "segments": [
+    {
+      "id": "36900818",
+      "tileScore": 316,
+      "name": "北向南 湖边猛冲to新塘",
+      "distanceM": 13295.099609375,
+      "avgGrade": -0.018051762133836746,
+      "startLat": 31.03922462463379,
+      "startLng": 119.98934173583984
+    },
+    {
+      "id": "40564534",
+      "tileScore": 34,
+      "name": "环太湖",
+      "distanceM": 151856.5,
+      "avgGrade": 0.0009219230269081891,
+      "startLat": 31.187686920166016,
+      "startLng": 120.47770690917969
+    },
+    {
+      "id": "5478057",
+      "tileScore": 146,
+      "name": "Qiang Jia to Stone Heads",
+      "distanceM": 1500.5,
+      "avgGrade": 0.09996667504310608,
+      "startLat": 30.99074935913086,
+      "startLng": 120.06680297851562
+    },
+    {
+      "id": "40948798",
+      "tileScore": 73,
+      "name": "图影大道到太湖边",
+      "distanceM": 2157.89990234375,
+      "avgGrade": 0.04634135216474533,
+      "startLat": 30.97372817993164,
+      "startLng": 120.05448150634766
+    }
+  ]
+}

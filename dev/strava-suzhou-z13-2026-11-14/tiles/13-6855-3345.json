@@ -1,0 +1,164 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-14T07:20:02.931Z",
+  "tile": {
+    "z": 13,
+    "x": 6855,
+    "y": 3345
+  },
+  "segments": [
+    {
+      "id": "31221443",
+      "tileScore": 7,
+      "name": "安亭儿童乐园-Bikehome",
+      "distanceM": 47152.19921875,
+      "avgGrade": -0.009755642153322697,
+      "startLat": 31.239341735839844,
+      "startLng": 121.36277770996094
+    },
+    {
+      "id": "33040005",
+      "tileScore": 111,
+      "name": "嘉金跨线桥",
+      "distanceM": 692.7999877929688,
+      "avgGrade": 0.028868360444903374,
+      "startLat": 31.298437118530273,
+      "startLng": 121.25301361083984
+    },
+    {
+      "id": "18131769",
+      "tileScore": 4,
+      "name": "Shengxin Road Straight South",
+      "distanceM": 16619.099609375,
+      "avgGrade": 0.010830910876393318,
+      "startLat": 31.431230545043945,
+      "startLng": 121.18557739257812
+    },
+    {
+      "id": "34228266",
+      "tileScore": 11,
+      "name": "出发爬坡追不上美娜",
+      "distanceM": 664.9000244140625,
+      "avgGrade": 1.6243044137954712,
+      "startLat": 31.319440841674805,
+      "startLng": 121.26809692382812
+    },
+    {
+      "id": "29885575",
+      "tileScore": 3,
+      "name": "SBD-007",
+      "distanceM": 5933.2001953125,
+      "avgGrade": -0.01853974163532257,
+      "startLat": 31.332109451293945,
+      "startLng": 121.28026580810547
+    },
+    {
+      "id": "29391081",
+      "tileScore": 3,
+      "name": "胜辛南路大桥（南）",
+      "distanceM": 300.79998779296875,
+      "avgGrade": 0.332446813583374,
+      "startLat": 31.311025619506836,
+      "startLng": 121.26126861572266
+    },
+    {
+      "id": "29558279",
+      "tileScore": 3,
+      "name": "NQSF-0205",
+      "distanceM": 5837.2001953125,
+      "avgGrade": -0.11306790262460709,
+      "startLat": 31.33285903930664,
+      "startLng": 121.25965118408203
+    },
+    {
+      "id": "40902839",
+      "tileScore": 2,
+      "name": "惠平路500m爬桥（北～南）",
+      "distanceM": 517,
+      "avgGrade": 2.4371373653411865,
+      "startLat": 31.284086227416992,
+      "startLng": 121.28491973876953
+    },
+    {
+      "id": "29558248",
+      "tileScore": 3,
+      "name": "NQSF-0201",
+      "distanceM": 5655.5,
+      "avgGrade": -0.024754663929343224,
+      "startLat": 31.24627685546875,
+      "startLng": 121.2858657836914
+    },
+    {
+      "id": "32011709",
+      "tileScore": 11,
+      "name": "上海葛隆检查站",
+      "distanceM": 20198.900390625,
+      "avgGrade": -0.011881834827363491,
+      "startLat": 31.301441192626953,
+      "startLng": 121.2960205078125
+    },
+    {
+      "id": "37614706",
+      "tileScore": 146,
+      "name": "金昌路BIG LOOP",
+      "distanceM": 29913,
+      "avgGrade": -0.0020058169029653072,
+      "startLat": 31.27105712890625,
+      "startLng": 121.36869049072266
+    },
+    {
+      "id": "37099797",
+      "tileScore": 67,
+      "name": "金昌西-翔江 sprint",
+      "distanceM": 749.2999877929688,
+      "avgGrade": -0.0800747349858284,
+      "startLat": 31.292512893676758,
+      "startLng": 121.27275848388672
+    },
+    {
+      "id": "21597298",
+      "tileScore": 61,
+      "name": "Jinchang Wind Tunnel West",
+      "distanceM": 4419.7001953125,
+      "avgGrade": -0.004525193944573402,
+      "startLat": 31.288049697875977,
+      "startLng": 121.2865219116211
+    },
+    {
+      "id": "39209488",
+      "tileScore": 2,
+      "name": "金昌路（十字路口）～沪宜公路",
+      "distanceM": 2357.5,
+      "avgGrade": -0.04241781309247017,
+      "startLat": 31.292139053344727,
+      "startLng": 121.27421569824219
+    },
+    {
+      "id": "39338860",
+      "tileScore": 34,
+      "name": "南翔~翔江公路",
+      "distanceM": 2616,
+      "avgGrade": 0.1223241537809372,
+      "startLat": 31.284929275512695,
+      "startLng": 121.30001831054688
+    },
+    {
+      "id": "24173882",
+      "tileScore": 8,
+      "name": "It's a Xiangfang Thang (eb)",
+      "distanceM": 3097.89990234375,
+      "avgGrade": -0.012911972589790821,
+      "startLat": 31.307710647583008,
+      "startLng": 121.21809387207031
+    },
+    {
+      "id": "37691711",
+      "tileScore": 8,
+      "name": "惠平隧道",
+      "distanceM": 508.70001220703125,
+      "avgGrade": -0.1572636216878891,
+      "startLat": 31.284666061401367,
+      "startLng": 121.28584289550781
+    }
+  ]
+}

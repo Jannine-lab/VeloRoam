@@ -1,0 +1,92 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-14T07:15:12.753Z",
+  "tile": {
+    "z": 13,
+    "x": 6845,
+    "y": 3343
+  },
+  "segments": [
+    {
+      "id": "14279086",
+      "tileScore": 1,
+      "name": "Qianjin W Rd (Eastbound)",
+      "distanceM": 10293.099609375,
+      "avgGrade": -0.011658295057713985,
+      "startLat": 31.379955291748047,
+      "startLng": 120.8251953125
+    },
+    {
+      "id": "31484057",
+      "tileScore": 4,
+      "name": "312(Zhenchuan Road Eastbound)",
+      "distanceM": 2319.60009765625,
+      "avgGrade": -0.08622176200151443,
+      "startLat": 31.368459701538086,
+      "startLng": 120.84602355957031
+    },
+    {
+      "id": "12141566",
+      "tileScore": 10,
+      "name": "11K Yangchenghu Ave (Westbound)",
+      "distanceM": 11387.7998046875,
+      "avgGrade": 0.017562653869390488,
+      "startLat": 31.38125228881836,
+      "startLng": 120.83155822753906
+    },
+    {
+      "id": "38745052",
+      "tileScore": 218,
+      "name": "M-circle of YCH(B2Bridge 50K)",
+      "distanceM": 50491.30078125,
+      "avgGrade": 0.0023766469676047564,
+      "startLat": 31.388383865356445,
+      "startLng": 120.71324157714844
+    },
+    {
+      "id": "3424881",
+      "tileScore": 249,
+      "name": "Pain Bridge",
+      "distanceM": 1606.328125,
+      "avgGrade": 0.19297809898853302,
+      "startLat": 31.379934310913086,
+      "startLng": 120.82320404052734
+    },
+    {
+      "id": "3828998",
+      "tileScore": 3,
+      "name": "down the lake on the east side",
+      "distanceM": 17166.642578125,
+      "avgGrade": -0.0005825265543535352,
+      "startLat": 31.491178512573242,
+      "startLng": 120.84818267822266
+    },
+    {
+      "id": "26758706",
+      "tileScore": 2,
+      "name": "YCH Lakeside Park Shortcut (Southbound)",
+      "distanceM": 2437,
+      "avgGrade": 0.04103405773639679,
+      "startLat": 31.402795791625977,
+      "startLng": 120.83924102783203
+    },
+    {
+      "id": "33036065",
+      "tileScore": 36,
+      "name": "Ma'anshan west ave(森林公园→环湖路)",
+      "distanceM": 5423.10009765625,
+      "avgGrade": 0.011063782498240471,
+      "startLat": 31.391244888305664,
+      "startLng": 120.89065551757812
+    },
+    {
+      "id": "26047069",
+      "tileScore": 7,
+      "name": "Concrete Sprint",
+      "distanceM": 1166.300048828125,
+      "avgGrade": -0.017148246988654137,
+      "startLat": 31.359682083129883,
+      "startLng": 120.8190689086914
+    }
+  ]
+}

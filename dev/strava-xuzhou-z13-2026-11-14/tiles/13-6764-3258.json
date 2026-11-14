@@ -1,0 +1,29 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-14T06:30:48.876Z",
+  "tile": {
+    "z": 13,
+    "x": 6764,
+    "y": 3258
+  },
+  "segments": [
+    {
+      "id": "39489140",
+      "tileScore": 8,
+      "name": "塔山爬坡由西至东",
+      "distanceM": 1906.5,
+      "avgGrade": 2.76947283744812,
+      "startLat": 34.5124397277832,
+      "startLng": 117.27062225341797
+    },
+    {
+      "id": "39489193",
+      "tileScore": 4,
+      "name": "塔山由东至西",
+      "distanceM": 2258.5,
+      "avgGrade": 1.5585565567016602,
+      "startLat": 34.49951934814453,
+      "startLng": 117.3099136352539
+    }
+  ]
+}

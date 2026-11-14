@@ -1,0 +1,110 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-14T07:15:08.832Z",
+  "tile": {
+    "z": 13,
+    "x": 6845,
+    "y": 3346
+  },
+  "segments": [
+    {
+      "id": "40329073",
+      "tileScore": 4,
+      "name": "Z型穿越",
+      "distanceM": 564.4000244140625,
+      "avgGrade": -0.5669737458229065,
+      "startLat": 31.277572631835938,
+      "startLng": 120.84683990478516
+    },
+    {
+      "id": "41203638",
+      "tileScore": 2,
+      "name": "合兴西路",
+      "distanceM": 1144.5,
+      "avgGrade": -0.034949760884046555,
+      "startLat": 31.26285743713379,
+      "startLng": 120.8348388671875
+    },
+    {
+      "id": "38927719",
+      "tileScore": 3,
+      "name": "穿越小学生",
+      "distanceM": 570.5999755859375,
+      "avgGrade": -0.17525412142276764,
+      "startLat": 31.278087615966797,
+      "startLng": 120.8364028930664
+    },
+    {
+      "id": "41209939",
+      "tileScore": 2,
+      "name": "Maqian Rd",
+      "distanceM": 1471.199951171875,
+      "avgGrade": 0.04078303277492523,
+      "startLat": 31.26776123046875,
+      "startLng": 120.80921936035156
+    },
+    {
+      "id": "38918201",
+      "tileScore": 2,
+      "name": "DongFang Road to Luzhi",
+      "distanceM": 12027.900390625,
+      "avgGrade": 0,
+      "startLat": 31.24398422241211,
+      "startLng": 120.70996856689453
+    },
+    {
+      "id": "21279851",
+      "tileScore": 2,
+      "name": "Last km to accelerate a bit",
+      "distanceM": 1023,
+      "avgGrade": 0.05865103006362915,
+      "startLat": 31.254751205444336,
+      "startLng": 120.80854797363281
+    },
+    {
+      "id": "10171731",
+      "tileScore": 1,
+      "name": "Hubin Rd (Southbound)",
+      "distanceM": 4302.2998046875,
+      "avgGrade": 0.032540734857320786,
+      "startLat": 31.262523651123047,
+      "startLng": 120.83473205566406
+    },
+    {
+      "id": "10303334",
+      "tileScore": 1,
+      "name": "Changhong South Rd x S58 Overpass (Southbound)",
+      "distanceM": 638.7000122070312,
+      "avgGrade": -0.18788163363933563,
+      "startLat": 31.258251190185547,
+      "startLng": 120.83631896972656
+    },
+    {
+      "id": "14194265",
+      "tileScore": 8,
+      "name": "Zhang's Zig-Zag (Eastbound)",
+      "distanceM": 7297.39990234375,
+      "avgGrade": -0.05755474418401718,
+      "startLat": 31.252534866333008,
+      "startLng": 120.79891204833984
+    },
+    {
+      "id": "40867223",
+      "tileScore": 5,
+      "name": "Lu Sheng Rd",
+      "distanceM": 1320.5,
+      "avgGrade": 0.03029155544936657,
+      "startLat": 31.28235626220703,
+      "startLng": 120.81645202636719
+    },
+    {
+      "id": "38811571",
+      "tileScore": 6,
+      "name": "星泽冲冲冲",
+      "distanceM": 2232,
+      "avgGrade": 0.008960573002696037,
+      "startLat": 31.283275604248047,
+      "startLng": 120.81717681884766
+    }
+  ]
+}

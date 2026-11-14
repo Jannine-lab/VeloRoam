@@ -1,0 +1,20 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-14T06:49:41.070Z",
+  "tile": {
+    "z": 13,
+    "x": 6793,
+    "y": 3252
+  },
+  "segments": [
+    {
+      "id": "39969679",
+      "tileScore": 2,
+      "name": "青松岭itt",
+      "distanceM": 5246.7998046875,
+      "avgGrade": 0.019059235230088234,
+      "startLat": 34.69369125366211,
+      "startLng": 118.5570068359375
+    }
+  ]
+}

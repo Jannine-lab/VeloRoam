@@ -1,0 +1,38 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-14T07:08:52.973Z",
+  "tile": {
+    "z": 13,
+    "x": 6833,
+    "y": 3330
+  },
+  "segments": [
+    {
+      "id": "34418150",
+      "tileScore": 53,
+      "name": "花山南麓",
+      "distanceM": 3241,
+      "avgGrade": 6.584387302398682,
+      "startLat": 31.84796714782715,
+      "startLng": 120.2819595336914
+    },
+    {
+      "id": "42235146",
+      "tileScore": 13,
+      "name": "三大道",
+      "distanceM": 45566.6015625,
+      "avgGrade": -0.001316753914579749,
+      "startLat": 31.882034301757812,
+      "startLng": 120.3324203491211
+    },
+    {
+      "id": "37504717",
+      "tileScore": 62,
+      "name": "小sdd绕圈",
+      "distanceM": 9161.900390625,
+      "avgGrade": 0,
+      "startLat": 31.8450927734375,
+      "startLng": 120.26274871826172
+    }
+  ]
+}

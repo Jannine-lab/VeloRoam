@@ -1,0 +1,29 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-14T07:08:18.730Z",
+  "tile": {
+    "z": 13,
+    "x": 6826,
+    "y": 3335
+  },
+  "segments": [
+    {
+      "id": "37316183",
+      "tileScore": 3,
+      "name": "Towards Luoyang along the canal ",
+      "distanceM": 7316.7998046875,
+      "avgGrade": 0.060135580599308014,
+      "startLat": 31.664146423339844,
+      "startLng": 120.00008392333984
+    },
+    {
+      "id": "31091747",
+      "tileScore": 5,
+      "name": "夏城路-阳湖大桥至西湖路段",
+      "distanceM": 7298.2001953125,
+      "avgGrade": 0.07125044614076614,
+      "startLat": 31.735769271850586,
+      "startLng": 119.97342681884766
+    }
+  ]
+}

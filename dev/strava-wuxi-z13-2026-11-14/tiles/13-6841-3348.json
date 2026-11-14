@@ -1,0 +1,65 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-14T07:10:11.238Z",
+  "tile": {
+    "z": 13,
+    "x": 6841,
+    "y": 3348
+  },
+  "segments": [
+    {
+      "id": "7965527",
+      "tileScore": 2,
+      "name": "Jiangling East Rd x G15W Changtai Expy (Eastbound)",
+      "distanceM": 1003.5,
+      "avgGrade": -0.13951171934604645,
+      "startLat": 31.181682586669922,
+      "startLng": 120.67190551757812
+    },
+    {
+      "id": "8391785",
+      "tileScore": 1,
+      "name": "Jiangxing Bridge (Eastbound)",
+      "distanceM": 802.9000244140625,
+      "avgGrade": 0.03736455366015434,
+      "startLat": 31.172592163085938,
+      "startLng": 120.6451187133789
+    },
+    {
+      "id": "7963233",
+      "tileScore": 1,
+      "name": "Jiangling Bridge (Eastbound)",
+      "distanceM": 653.4000244140625,
+      "avgGrade": -0.15304560959339142,
+      "startLat": 31.181148529052734,
+      "startLng": 120.64920806884766
+    },
+    {
+      "id": "35232544",
+      "tileScore": 11,
+      "name": "苏州湾弯弯弯",
+      "distanceM": 2414.10009765625,
+      "avgGrade": 0.00828466098755598,
+      "startLat": 31.198362350463867,
+      "startLng": 120.63690185546875
+    },
+    {
+      "id": "30976926",
+      "tileScore": 4,
+      "name": "WusongJiang bridge southbound ",
+      "distanceM": 1511.300048828125,
+      "avgGrade": -0.39039239287376404,
+      "startLat": 31.201496124267578,
+      "startLng": 120.6631088256836
+    },
+    {
+      "id": "16357924",
+      "tileScore": 11,
+      "name": "East Taihu Lake-Pangjiatang Circle (clockwise)",
+      "distanceM": 11355.7998046875,
+      "avgGrade": 0.01937336102128029,
+      "startLat": 31.184101104736328,
+      "startLng": 120.61280822753906
+    }
+  ]
+}

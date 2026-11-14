@@ -1,0 +1,110 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-14T07:14:56.330Z",
+  "tile": {
+    "z": 13,
+    "x": 6843,
+    "y": 3347
+  },
+  "segments": [
+    {
+      "id": "40655722",
+      "tileScore": 1,
+      "name": "北联村",
+      "distanceM": 4259.89990234375,
+      "avgGrade": -0.014084838330745697,
+      "startLat": 31.17818260192871,
+      "startLng": 120.7516860961914
+    },
+    {
+      "id": "41988951",
+      "tileScore": 6,
+      "name": "New Gaodian Bridge(W→E)",
+      "distanceM": 620.5,
+      "avgGrade": 0.09669621288776398,
+      "startLat": 31.238561630249023,
+      "startLng": 120.72137451171875
+    },
+    {
+      "id": "11586637",
+      "tileScore": 2,
+      "name": "Gao Dian Bridge (Eastbound)",
+      "distanceM": 248,
+      "avgGrade": -0.24193549156188965,
+      "startLat": 31.24077033996582,
+      "startLng": 120.7207260131836
+    },
+    {
+      "id": "16357908",
+      "tileScore": 4,
+      "name": "Wusongjiang Rd and Tongjin Ave(Southbound)",
+      "distanceM": 8980.2998046875,
+      "avgGrade": 0.03340645506978035,
+      "startLat": 31.2428035736084,
+      "startLng": 120.7089614868164
+    },
+    {
+      "id": "31274086",
+      "tileScore": 3,
+      "name": "Songwei road W to E",
+      "distanceM": 2821.199951171875,
+      "avgGrade": 0.05671345442533493,
+      "startLat": 31.211788177490234,
+      "startLng": 120.69209289550781
+    },
+    {
+      "id": "18944351",
+      "tileScore": 6,
+      "name": "X203 x S58 Overpass (Northbound)",
+      "distanceM": 574.4000244140625,
+      "avgGrade": 0.24373258650302887,
+      "startLat": 31.218305587768555,
+      "startLng": 120.72175598144531
+    },
+    {
+      "id": "18502701",
+      "tileScore": 10,
+      "name": "Dangtou x Wusong River Bridge (Southbound)",
+      "distanceM": 686.7000122070312,
+      "avgGrade": 1.3979904651641846,
+      "startLat": 31.204139709472656,
+      "startLng": 120.71941375732422
+    },
+    {
+      "id": "14060724",
+      "tileScore": 11,
+      "name": "Xihuan Rd (Northbound)",
+      "distanceM": 3487.60009765625,
+      "avgGrade": -0.08028443902730942,
+      "startLat": 31.17844009399414,
+      "startLng": 120.7475357055664
+    },
+    {
+      "id": "41163087",
+      "tileScore": 8,
+      "name": "苏同黎右转江兴东路",
+      "distanceM": 12098.900390625,
+      "avgGrade": 0.0016530428547412157,
+      "startLat": 31.242969512939453,
+      "startLng": 120.7718505859375
+    },
+    {
+      "id": "11437612",
+      "tileScore": 1,
+      "name": "Hanshu West Rd (Westbound)",
+      "distanceM": 1134.0999755859375,
+      "avgGrade": -0.3879728615283966,
+      "startLat": 31.211200714111328,
+      "startLng": 120.7588882446289
+    },
+    {
+      "id": "33698133",
+      "tileScore": 26,
+      "name": "Tongjing N to S 3km TT",
+      "distanceM": 3063.800048828125,
+      "avgGrade": -0.039167046546936035,
+      "startLat": 31.208093643188477,
+      "startLng": 120.7217788696289
+    }
+  ]
+}

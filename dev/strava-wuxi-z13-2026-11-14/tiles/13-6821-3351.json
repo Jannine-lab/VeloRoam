@@ -1,0 +1,29 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-14T07:12:12.378Z",
+  "tile": {
+    "z": 13,
+    "x": 6821,
+    "y": 3351
+  },
+  "segments": [
+    {
+      "id": "37109182",
+      "tileScore": 47,
+      "name": "浙江省自行车队训练路线",
+      "distanceM": 3301.699951171875,
+      "avgGrade": 0,
+      "startLat": 31.051780700683594,
+      "startLng": 119.80554962158203
+    },
+    {
+      "id": "41585443",
+      "tileScore": 55,
+      "name": "起伏pro",
+      "distanceM": 22687.19921875,
+      "avgGrade": 0.6823230385780334,
+      "startLat": 31.036949157714844,
+      "startLng": 119.82157135009766
+    }
+  ]
+}

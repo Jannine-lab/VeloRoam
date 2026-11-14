@@ -1,0 +1,20 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-14T07:00:48.209Z",
+  "tile": {
+    "z": 13,
+    "x": 6838,
+    "y": 3315
+  },
+  "segments": [
+    {
+      "id": "42454279",
+      "tileScore": 2,
+      "name": "超六大叔-雪袁线204到花市路",
+      "distanceM": 7690.60009765625,
+      "avgGrade": 0.01300288736820221,
+      "startLat": 32.409793853759766,
+      "startLng": 120.45451354980469
+    }
+  ]
+}

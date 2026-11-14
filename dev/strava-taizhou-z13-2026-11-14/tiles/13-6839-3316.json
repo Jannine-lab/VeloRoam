@@ -1,0 +1,20 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-14T07:01:59.164Z",
+  "tile": {
+    "z": 13,
+    "x": 6839,
+    "y": 3316
+  },
+  "segments": [
+    {
+      "id": "39468359",
+      "tileScore": 5,
+      "name": "如皋奔赴泰兴",
+      "distanceM": 52521.1015625,
+      "avgGrade": 0.013708775863051414,
+      "startLat": 32.36159133911133,
+      "startLng": 120.55076599121094
+    }
+  ]
+}

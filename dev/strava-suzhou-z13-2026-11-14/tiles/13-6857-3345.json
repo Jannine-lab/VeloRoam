@@ -1,0 +1,146 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-14T07:21:07.329Z",
+  "tile": {
+    "z": 13,
+    "x": 6857,
+    "y": 3345
+  },
+  "segments": [
+    {
+      "id": "38007773",
+      "tileScore": 2,
+      "name": "Zhengnan Rd Curve",
+      "distanceM": 2233.60009765625,
+      "avgGrade": -0.008954155258834362,
+      "startLat": 31.28661346435547,
+      "startLng": 121.36048126220703
+    },
+    {
+      "id": "41123475",
+      "tileScore": 1,
+      "name": "上海西～中冶祥腾（线路1）",
+      "distanceM": 10495,
+      "avgGrade": 0.019056692719459534,
+      "startLat": 31.26365852355957,
+      "startLng": 121.3976821899414
+    },
+    {
+      "id": "15442745",
+      "tileScore": 6,
+      "name": "Double Dips",
+      "distanceM": 935.7999877929688,
+      "avgGrade": 0,
+      "startLat": 31.28288459777832,
+      "startLng": 121.34976959228516
+    },
+    {
+      "id": "34479021",
+      "tileScore": 35,
+      "name": "祁连山路northward（古浪路→南大路）",
+      "distanceM": 1616.699951171875,
+      "avgGrade": 0.03711263835430145,
+      "startLat": 31.286209106445312,
+      "startLng": 121.37471008300781
+    },
+    {
+      "id": "38912597",
+      "tileScore": 9,
+      "name": "南大路",
+      "distanceM": 5523.5,
+      "avgGrade": 0.0036208927631378174,
+      "startLat": 31.301517486572266,
+      "startLng": 121.40791320800781
+    },
+    {
+      "id": "35728421",
+      "tileScore": 7,
+      "name": "LJ在这条路上称王称霸",
+      "distanceM": 9878.599609375,
+      "avgGrade": -0.02631951868534088,
+      "startLat": 31.279767990112305,
+      "startLng": 121.37374877929688
+    },
+    {
+      "id": "33197955",
+      "tileScore": 13,
+      "name": "Fengxiang Rd Bridge E-W",
+      "distanceM": 952.7000122070312,
+      "avgGrade": -0.1154613196849823,
+      "startLat": 31.310680389404297,
+      "startLng": 121.3666763305664
+    },
+    {
+      "id": "28409724",
+      "tileScore": 3,
+      "name": "蓝色路线·Morning-1",
+      "distanceM": 9906,
+      "avgGrade": -0.06864526867866516,
+      "startLat": 31.29651641845703,
+      "startLng": 121.32026672363281
+    },
+    {
+      "id": "39702741",
+      "tileScore": 152,
+      "name": "金昌路itt最后一段",
+      "distanceM": 3215.300048828125,
+      "avgGrade": -0.06842285394668579,
+      "startLat": 31.28264808654785,
+      "startLng": 121.30937957763672
+    },
+    {
+      "id": "34563684",
+      "tileScore": 16,
+      "name": "祁连山路southward（上大路→南大路）",
+      "distanceM": 891.0999755859375,
+      "avgGrade": 0.11222085356712341,
+      "startLat": 31.309600830078125,
+      "startLng": 121.37608337402344
+    },
+    {
+      "id": "36461608",
+      "tileScore": 7,
+      "name": "桃浦绕圈赛",
+      "distanceM": 6973.7998046875,
+      "avgGrade": 0.01147150807082653,
+      "startLat": 31.285930633544922,
+      "startLng": 121.37409210205078
+    },
+    {
+      "id": "15417130",
+      "tileScore": 9,
+      "name": "Nanda Lu westbound",
+      "distanceM": 2184.300048828125,
+      "avgGrade": 0.02746875397861004,
+      "startLat": 31.3010311126709,
+      "startLng": 121.37505340576172
+    },
+    {
+      "id": "32517364",
+      "tileScore": 1,
+      "name": "Shangda-Qilianshan-Guchen-Hutai-Shangda Rd Lap",
+      "distanceM": 10728.2998046875,
+      "avgGrade": -0.009321141056716442,
+      "startLat": 31.31358528137207,
+      "startLng": 121.39315795898438
+    },
+    {
+      "id": "37614706",
+      "tileScore": 146,
+      "name": "金昌路BIG LOOP",
+      "distanceM": 29913,
+      "avgGrade": -0.0020058169029653072,
+      "startLat": 31.27105712890625,
+      "startLng": 121.36869049072266
+    },
+    {
+      "id": "13732534",
+      "tileScore": 3,
+      "name": "Zhennan Lu bridge (westbound)",
+      "distanceM": 968.4000244140625,
+      "avgGrade": 0.24783147871494293,
+      "startLat": 31.287307739257812,
+      "startLng": 121.35973358154297
+    }
+  ]
+}

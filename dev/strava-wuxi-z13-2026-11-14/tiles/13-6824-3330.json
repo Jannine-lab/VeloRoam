@@ -1,0 +1,20 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-14T07:11:03.933Z",
+  "tile": {
+    "z": 13,
+    "x": 6824,
+    "y": 3330
+  },
+  "segments": [
+    {
+      "id": "25646829",
+      "tileScore": 23,
+      "name": "常州机场-龙江路",
+      "distanceM": 13710.2001953125,
+      "avgGrade": -0.03063412755727768,
+      "startLat": 31.905200958251953,
+      "startLng": 119.7859115600586
+    }
+  ]
+}

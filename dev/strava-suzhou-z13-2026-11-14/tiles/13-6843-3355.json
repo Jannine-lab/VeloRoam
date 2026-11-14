@@ -1,0 +1,20 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-14T07:16:16.897Z",
+  "tile": {
+    "z": 13,
+    "x": 6843,
+    "y": 3355
+  },
+  "segments": [
+    {
+      "id": "41273861",
+      "tileScore": 22,
+      "name": "乡间的路",
+      "distanceM": 10911.7001953125,
+      "avgGrade": -0.0054986849427223206,
+      "startLat": 30.968467712402344,
+      "startLng": 120.76834106445312
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-14T07:20:33.131Z",
+  "tile": {
+    "z": 13,
+    "x": 6849,
+    "y": 3358
+  },
+  "segments": [
+    {
+      "id": "37753166",
+      "tileScore": 1,
+      "name": "大云小树林",
+      "distanceM": 8170.7001953125,
+      "avgGrade": 0,
+      "startLat": 30.802045822143555,
+      "startLng": 120.97689056396484
+    }
+  ]
+}

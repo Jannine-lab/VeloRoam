@@ -1,0 +1,47 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-14T07:07:08.312Z",
+  "tile": {
+    "z": 13,
+    "x": 6829,
+    "y": 3342
+  },
+  "segments": [
+    {
+      "id": "33211801",
+      "tileScore": 167,
+      "name": "海边的风",
+      "distanceM": 7240,
+      "avgGrade": 0.2209944725036621,
+      "startLat": 31.446762084960938,
+      "startLng": 120.12973022460938
+    },
+    {
+      "id": "33795817",
+      "tileScore": 1207,
+      "name": "马山绝望坡",
+      "distanceM": 715.4000244140625,
+      "avgGrade": 4.445065498352051,
+      "startLat": 31.41864776611328,
+      "startLng": 120.1262435913086
+    },
+    {
+      "id": "14485953",
+      "tileScore": 330,
+      "name": "马山大圈 Mashan Circuit",
+      "distanceM": 58948.69921875,
+      "avgGrade": 0.0011874731862917542,
+      "startLat": 31.55048942565918,
+      "startLng": 120.18302154541016
+    },
+    {
+      "id": "7298841",
+      "tileScore": 343,
+      "name": "4.44km(Lucky number segment)@Qilidi(EN-WS)[七里堤 铺装路on-road]",
+      "distanceM": 4446.5,
+      "avgGrade": 0.31935229897499084,
+      "startLat": 31.413484573364258,
+      "startLng": 120.10343170166016
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-14T07:03:17.455Z",
+  "tile": {
+    "z": 13,
+    "x": 6820,
+    "y": 3298
+  },
+  "segments": [
+    {
+      "id": "37142731",
+      "tileScore": 9,
+      "name": "三岔口到李中五公里向西赛段",
+      "distanceM": 5019,
+      "avgGrade": 0.00796971470117569,
+      "startLat": 33.04370880126953,
+      "startLng": 119.78237915039062
+    }
+  ]
+}

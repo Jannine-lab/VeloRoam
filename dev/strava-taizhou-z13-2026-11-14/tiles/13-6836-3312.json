@@ -1,0 +1,20 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-14T06:59:52.233Z",
+  "tile": {
+    "z": 13,
+    "x": 6836,
+    "y": 3312
+  },
+  "segments": [
+    {
+      "id": "37812673",
+      "tileScore": 38,
+      "name": "s77如海河",
+      "distanceM": 3624.5,
+      "avgGrade": 0.0027590012177824974,
+      "startLat": 32.53459930419922,
+      "startLng": 120.43797302246094
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-14T06:38:50.995Z",
+  "tile": {
+    "z": 13,
+    "x": 6755,
+    "y": 3281
+  },
+  "segments": [
+    {
+      "id": "34307559",
+      "tileScore": 1,
+      "name": "西三环",
+      "distanceM": 16911.900390625,
+      "avgGrade": 0.035477977246046066,
+      "startLat": 33.58676528930664,
+      "startLng": 116.92362213134766
+    }
+  ]
+}

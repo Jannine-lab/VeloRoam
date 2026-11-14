@@ -1,0 +1,20 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-14T06:39:52.626Z",
+  "tile": {
+    "z": 13,
+    "x": 6774,
+    "y": 3250
+  },
+  "segments": [
+    {
+      "id": "42384751",
+      "tileScore": 2,
+      "name": "峨山寨山",
+      "distanceM": 634,
+      "avgGrade": 10.662460327148438,
+      "startLat": 34.77935028076172,
+      "startLng": 117.70169830322266
+    }
+  ]
+}

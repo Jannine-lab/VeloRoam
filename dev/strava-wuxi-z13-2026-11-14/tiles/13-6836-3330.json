@@ -1,0 +1,29 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-14T07:09:19.222Z",
+  "tile": {
+    "z": 13,
+    "x": 6836,
+    "y": 3330
+  },
+  "segments": [
+    {
+      "id": "41474168",
+      "tileScore": 13,
+      "name": "环城东（敔山湾-四小道起点）",
+      "distanceM": 66675.203125,
+      "avgGrade": 0.005999232176691294,
+      "startLat": 31.902143478393555,
+      "startLng": 120.35093688964844
+    },
+    {
+      "id": "39480171",
+      "tileScore": 17,
+      "name": "芙蓉大道来回",
+      "distanceM": 21801.400390625,
+      "avgGrade": 0,
+      "startLat": 31.86187744140625,
+      "startLng": 120.49009704589844
+    }
+  ]
+}

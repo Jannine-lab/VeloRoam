@@ -1,0 +1,137 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-14T07:20:06.792Z",
+  "tile": {
+    "z": 13,
+    "x": 6856,
+    "y": 3346
+  },
+  "segments": [
+    {
+      "id": "42255794",
+      "tileScore": 11,
+      "name": "新路开通，冲啊",
+      "distanceM": 842.2000122070312,
+      "avgGrade": -0.07124198973178864,
+      "startLat": 31.242733001708984,
+      "startLng": 121.30131530761719
+    },
+    {
+      "id": "30528544",
+      "tileScore": 4,
+      "name": "HJ-004",
+      "distanceM": 1362.699951171875,
+      "avgGrade": 0.6751302480697632,
+      "startLat": 31.265722274780273,
+      "startLng": 121.31616973876953
+    },
+    {
+      "id": "26803644",
+      "tileScore": 5,
+      "name": "BTP-05CN",
+      "distanceM": 7649.2998046875,
+      "avgGrade": 0.08758971095085144,
+      "startLat": 31.232864379882812,
+      "startLng": 121.2995834350586
+    },
+    {
+      "id": "17897478",
+      "tileScore": 60,
+      "name": "Lintao Smash",
+      "distanceM": 743,
+      "avgGrade": 0.13458949327468872,
+      "startLat": 31.25027084350586,
+      "startLng": 121.32940673828125
+    },
+    {
+      "id": "36634325",
+      "tileScore": 57,
+      "name": "HAILAN E to W",
+      "distanceM": 972.4000244140625,
+      "avgGrade": 0.041135337203741074,
+      "startLat": 31.266300201416016,
+      "startLng": 121.32646942138672
+    },
+    {
+      "id": "30528553",
+      "tileScore": 4,
+      "name": "HJ-006",
+      "distanceM": 893,
+      "avgGrade": 0.24636057019233704,
+      "startLat": 31.243240356445312,
+      "startLng": 121.31587219238281
+    },
+    {
+      "id": "7442832",
+      "tileScore": 1,
+      "name": "Jinshajiang West Rd (Eastbound)",
+      "distanceM": 5435.39990234375,
+      "avgGrade": 0.04967435821890831,
+      "startLat": 31.244314193725586,
+      "startLng": 121.28707885742188
+    },
+    {
+      "id": "39173785",
+      "tileScore": 68,
+      "name": "看看谁超过了偷老师",
+      "distanceM": 15884.5,
+      "avgGrade": -0.015109068714082241,
+      "startLat": 31.263944625854492,
+      "startLng": 121.3708267211914
+    },
+    {
+      "id": "29148720",
+      "tileScore": 6,
+      "name": "G318（华翔路）",
+      "distanceM": 12786.7998046875,
+      "avgGrade": 0.040666937828063965,
+      "startLat": 31.170894622802734,
+      "startLng": 121.32331848144531
+    },
+    {
+      "id": "26095531",
+      "tileScore": 29,
+      "name": "华翔路铁路桥（南~北）",
+      "distanceM": 537.5,
+      "avgGrade": 3.200000047683716,
+      "startLat": 31.276277542114258,
+      "startLng": 121.30753326416016
+    },
+    {
+      "id": "31221443",
+      "tileScore": 7,
+      "name": "安亭儿童乐园-Bikehome",
+      "distanceM": 47152.19921875,
+      "avgGrade": -0.009755642153322697,
+      "startLat": 31.239341735839844,
+      "startLng": 121.36277770996094
+    },
+    {
+      "id": "7966537",
+      "tileScore": 62,
+      "name": "Longnan Lu",
+      "distanceM": 3657.800048828125,
+      "avgGrade": -0.032806605100631714,
+      "startLat": 31.265897750854492,
+      "startLng": 121.35903930664062
+    },
+    {
+      "id": "38974646",
+      "tileScore": 10,
+      "name": "J's Taopu/Longnan TT",
+      "distanceM": 10157,
+      "avgGrade": -0.05907256156206131,
+      "startLat": 31.262096405029297,
+      "startLng": 121.39192199707031
+    },
+    {
+      "id": "29179357",
+      "tileScore": 10,
+      "name": "JR&Biel - 002",
+      "distanceM": 322.6000061035156,
+      "avgGrade": -0.7749534845352173,
+      "startLat": 31.24458885192871,
+      "startLng": 121.28812408447266
+    }
+  ]
+}

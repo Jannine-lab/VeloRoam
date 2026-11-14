@@ -1,0 +1,20 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-14T06:18:19.239Z",
+  "tile": {
+    "z": 13,
+    "x": 6765,
+    "y": 3265
+  },
+  "segments": [
+    {
+      "id": "38786219",
+      "tileScore": 4,
+      "name": "和平路（汉源大道至高新路）",
+      "distanceM": 5589.2001953125,
+      "avgGrade": 0.08587990701198578,
+      "startLat": 34.255760192871094,
+      "startLng": 117.2693862915039
+    }
+  ]
+}

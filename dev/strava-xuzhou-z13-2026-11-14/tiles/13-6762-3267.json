@@ -1,0 +1,20 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-14T06:19:15.761Z",
+  "tile": {
+    "z": 13,
+    "x": 6762,
+    "y": 3267
+  },
+  "segments": [
+    {
+      "id": "12995175",
+      "tileScore": 15,
+      "name": "环泉山",
+      "distanceM": 9237.900390625,
+      "avgGrade": -0.00649498263373971,
+      "startLat": 34.21775817871094,
+      "startLng": 117.1645278930664
+    }
+  ]
+}

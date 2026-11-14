@@ -1,0 +1,20 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-14T06:59:55.986Z",
+  "tile": {
+    "z": 13,
+    "x": 6824,
+    "y": 3326
+  },
+  "segments": [
+    {
+      "id": "41710855",
+      "tileScore": 9,
+      "name": "幸福二桥-西来桥",
+      "distanceM": 779.9000244140625,
+      "avgGrade": 0.4359533190727234,
+      "startLat": 32.00400161743164,
+      "startLng": 119.90750885009766
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-14T06:50:42.197Z",
+  "tile": {
+    "z": 13,
+    "x": 6793,
+    "y": 3246
+  },
+  "segments": [
+    {
+      "id": "41690887",
+      "tileScore": 7,
+      "name": "沭河路华夏路南向北缓上",
+      "distanceM": 848.2999877929688,
+      "avgGrade": 1.980431318283081,
+      "startLat": 34.94921112060547,
+      "startLng": 118.5459213256836
+    }
+  ]
+}

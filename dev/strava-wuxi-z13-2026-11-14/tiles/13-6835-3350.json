@@ -1,0 +1,164 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-14T07:09:46.569Z",
+  "tile": {
+    "z": 13,
+    "x": 6835,
+    "y": 3350
+  },
+  "segments": [
+    {
+      "id": "9615256",
+      "tileScore": 59,
+      "name": "New Dong Shan climb",
+      "distanceM": 9108.400390625,
+      "avgGrade": 2.3670456409454346,
+      "startLat": 31.048776626586914,
+      "startLng": 120.37242889404297
+    },
+    {
+      "id": "20213117",
+      "tileScore": 41,
+      "name": "环湖路to东山宾馆",
+      "distanceM": 1181.199951171875,
+      "avgGrade": -0.11852353066205978,
+      "startLat": 31.094263076782227,
+      "startLng": 120.42092895507812
+    },
+    {
+      "id": "15356228",
+      "tileScore": 43,
+      "name": "东山itt训练路线",
+      "distanceM": 55574.1015625,
+      "avgGrade": 0.002339219208806753,
+      "startLat": 31.18752098083496,
+      "startLng": 120.4769515991211
+    },
+    {
+      "id": "34466456",
+      "tileScore": 16,
+      "name": "三连起伏",
+      "distanceM": 1673.800048828125,
+      "avgGrade": -0.3465169072151184,
+      "startLat": 31.09366226196289,
+      "startLng": 120.37571716308594
+    },
+    {
+      "id": "17386232",
+      "tileScore": 53,
+      "name": "环东山（东山宾馆—码头)",
+      "distanceM": 16815.80078125,
+      "avgGrade": -0.03330201283097267,
+      "startLat": 31.09560775756836,
+      "startLng": 120.41627502441406
+    },
+    {
+      "id": "33401272",
+      "tileScore": 47,
+      "name": "东西山超级有氧",
+      "distanceM": 137358.703125,
+      "avgGrade": 0.00873624999076128,
+      "startLat": 31.187084197998047,
+      "startLng": 120.4767837524414
+    },
+    {
+      "id": "13549497",
+      "tileScore": 62,
+      "name": "The 12 Hairpins",
+      "distanceM": 753,
+      "avgGrade": 10.146081924438477,
+      "startLat": 31.09159278869629,
+      "startLng": 120.38380432128906
+    },
+    {
+      "id": "35198267",
+      "tileScore": 96,
+      "name": "东山itt三连击",
+      "distanceM": 942.0999755859375,
+      "avgGrade": 2.080458641052246,
+      "startLat": 31.113393783569336,
+      "startLng": 120.3989486694336
+    },
+    {
+      "id": "7907330",
+      "tileScore": 3,
+      "name": "Dongshan last climb eastbound",
+      "distanceM": 1430.699951171875,
+      "avgGrade": 7.688543796539307,
+      "startLat": 31.089492797851562,
+      "startLng": 120.38809967041016
+    },
+    {
+      "id": "8369973",
+      "tileScore": 42,
+      "name": "Dai Xin Wan Bridge (Northbound)",
+      "distanceM": 896,
+      "avgGrade": 2.0535714626312256,
+      "startLat": 31.107297897338867,
+      "startLng": 120.40562438964844
+    },
+    {
+      "id": "8370018",
+      "tileScore": 55,
+      "name": "Molifeng Huanshan Rd (Anticlockwise)",
+      "distanceM": 10512.900390625,
+      "avgGrade": -0.04375576600432396,
+      "startLat": 31.09756088256836,
+      "startLng": 120.4084243774414
+    },
+    {
+      "id": "7907292",
+      "tileScore": 5,
+      "name": "Dongshan up and down eastbound",
+      "distanceM": 8979.2001953125,
+      "avgGrade": -0.02895580790936947,
+      "startLat": 31.066984176635742,
+      "startLng": 120.38294982910156
+    },
+    {
+      "id": "34466417",
+      "tileScore": 14,
+      "name": "洞庭山水厂短坡",
+      "distanceM": 521.4000244140625,
+      "avgGrade": 1.3041809797286987,
+      "startLat": 31.0892391204834,
+      "startLng": 120.37415313720703
+    },
+    {
+      "id": "15330583",
+      "tileScore": 57,
+      "name": "dongshan 30KM",
+      "distanceM": 30081.900390625,
+      "avgGrade": -0.006648516282439232,
+      "startLat": 31.187458038330078,
+      "startLng": 120.47698974609375
+    },
+    {
+      "id": "15437321",
+      "tileScore": 65,
+      "name": "磨砺峰1km",
+      "distanceM": 995,
+      "avgGrade": 12.562814712524414,
+      "startLat": 31.092041015625,
+      "startLng": 120.4017105102539
+    },
+    {
+      "id": "8369988",
+      "tileScore": 95,
+      "name": "Feng Qi Bridge (Southbound)",
+      "distanceM": 466.1000061035156,
+      "avgGrade": -0.8152756690979004,
+      "startLat": 31.11068344116211,
+      "startLng": 120.38627624511719
+    },
+    {
+      "id": "29407764",
+      "tileScore": 8,
+      "name": "back to temple ",
+      "distanceM": 1883.9000244140625,
+      "avgGrade": 2.367429256439209,
+      "startLat": 31.10396385192871,
+      "startLng": 120.39897155761719
+    }
+  ]
+}

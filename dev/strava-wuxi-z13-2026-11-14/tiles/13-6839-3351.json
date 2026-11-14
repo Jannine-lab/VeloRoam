@@ -1,0 +1,83 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-14T07:10:38.896Z",
+  "tile": {
+    "z": 13,
+    "x": 6839,
+    "y": 3351
+  },
+  "segments": [
+    {
+      "id": "6722261",
+      "tileScore": 10,
+      "name": "Taihu Road Climb",
+      "distanceM": 779.2999877929688,
+      "avgGrade": 13.832926750183105,
+      "startLat": 31.070497512817383,
+      "startLng": 120.57218933105469
+    },
+    {
+      "id": "34312007",
+      "tileScore": 132,
+      "name": "秘密基地团练过去",
+      "distanceM": 6811.7001953125,
+      "avgGrade": -0.06165861710906029,
+      "startLat": 31.093950271606445,
+      "startLng": 120.59021759033203
+    },
+    {
+      "id": "40564534",
+      "tileScore": 34,
+      "name": "环太湖",
+      "distanceM": 151856.5,
+      "avgGrade": 0.0009219230269081891,
+      "startLat": 31.187686920166016,
+      "startLng": 120.47770690917969
+    },
+    {
+      "id": "21131943",
+      "tileScore": 1,
+      "name": "Dianshan Lake Checkpoint to Taihu",
+      "distanceM": 49375.1015625,
+      "avgGrade": -0.004050624556839466,
+      "startLat": 31.06794548034668,
+      "startLng": 120.91667938232422
+    },
+    {
+      "id": "38760724",
+      "tileScore": 39,
+      "name": "S230（钟秀南路-太湖绿洲）",
+      "distanceM": 8324.599609375,
+      "avgGrade": -0.0192201416939497,
+      "startLat": 31.08186912536621,
+      "startLng": 120.58846282958984
+    },
+    {
+      "id": "37956787",
+      "tileScore": 6,
+      "name": "我知道一条捷径！",
+      "distanceM": 1556.199951171875,
+      "avgGrade": 0.16707363724708557,
+      "startLat": 31.057723999023438,
+      "startLng": 120.55109405517578
+    },
+    {
+      "id": "41463327",
+      "tileScore": 64,
+      "name": "太湖→太浦河→京杭大运河",
+      "distanceM": 40081.3984375,
+      "avgGrade": -0.005488830152899027,
+      "startLat": 31.093950271606445,
+      "startLng": 120.59027099609375
+    },
+    {
+      "id": "40300720",
+      "tileScore": 52,
+      "name": "Taihu Lake loop",
+      "distanceM": 40864.30078125,
+      "avgGrade": 0.0058730971068143845,
+      "startLat": 31.129648208618164,
+      "startLng": 120.58360290527344
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-14T07:10:38.896Z",
+  "tile": {
+    "z": 13,
+    "x": 6839,
+    "y": 3350
+  },
+  "segments": [
+    {
+      "id": "39709365",
+      "tileScore": 19,
+      "name": "Suzhou Bay Dreamy Water World",
+      "distanceM": 6161.39990234375,
+      "avgGrade": 0.02272210828959942,
+      "startLat": 31.146087646484375,
+      "startLng": 120.58636474609375
+    },
+    {
+      "id": "40300720",
+      "tileScore": 52,
+      "name": "Taihu Lake loop",
+      "distanceM": 40864.30078125,
+      "avgGrade": 0.0058730971068143845,
+      "startLat": 31.129648208618164,
+      "startLng": 120.58360290527344
+    },
+    {
+      "id": "30384821",
+      "tileScore": 2,
+      "name": "THL-4",
+      "distanceM": 116824.5,
+      "avgGrade": -0.0025679543614387512,
+      "startLat": 31.206161499023438,
+      "startLng": 121.28252410888672
+    }
+  ]
+}

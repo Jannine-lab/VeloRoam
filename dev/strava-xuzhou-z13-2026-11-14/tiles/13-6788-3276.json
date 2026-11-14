@@ -1,0 +1,20 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-14T06:46:08.479Z",
+  "tile": {
+    "z": 13,
+    "x": 6788,
+    "y": 3276
+  },
+  "segments": [
+    {
+      "id": "37499308",
+      "tileScore": 4,
+      "name": "洋河大道财贸城至张庄",
+      "distanceM": 4801.7998046875,
+      "avgGrade": 0.010412761941552162,
+      "startLat": 33.8803596496582,
+      "startLng": 118.31549072265625
+    }
+  ]
+}

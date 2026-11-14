@@ -1,0 +1,119 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-14T07:21:47.157Z",
+  "tile": {
+    "z": 13,
+    "x": 6856,
+    "y": 3354
+  },
+  "segments": [
+    {
+      "id": "40647315",
+      "tileScore": 4,
+      "name": "Fengxian South Canals",
+      "distanceM": 20461.400390625,
+      "avgGrade": 0.010751952417194843,
+      "startLat": 30.976587295532227,
+      "startLng": 121.3487319946289
+    },
+    {
+      "id": "40108837",
+      "tileScore": 2,
+      "name": "Village road canals alternative",
+      "distanceM": 3742,
+      "avgGrade": -0.02137894183397293,
+      "startLat": 30.969959259033203,
+      "startLng": 121.29243469238281
+    },
+    {
+      "id": "19722099",
+      "tileScore": 17,
+      "name": "Unleash",
+      "distanceM": 4590.7001953125,
+      "avgGrade": -0.01306990161538124,
+      "startLat": 30.942699432373047,
+      "startLng": 121.26417541503906
+    },
+    {
+      "id": "41066952",
+      "tileScore": 25,
+      "name": "zqcc半程itt",
+      "distanceM": 2200.300048828125,
+      "avgGrade": -0.018179340288043022,
+      "startLat": 30.96681022644043,
+      "startLng": 121.29386138916016
+    },
+    {
+      "id": "24881993",
+      "tileScore": 41,
+      "name": "江北climb",
+      "distanceM": 530.2000122070312,
+      "avgGrade": 0.32063373923301697,
+      "startLat": 30.97859764099121,
+      "startLng": 121.30380249023438
+    },
+    {
+      "id": "34393102",
+      "tileScore": 15,
+      "name": "Cheting Hwy N-S",
+      "distanceM": 13921,
+      "avgGrade": -0.017240140587091446,
+      "startLat": 31.015979766845703,
+      "startLng": 121.30183410644531
+    },
+    {
+      "id": "40286924",
+      "tileScore": 5,
+      "name": "大叶公路～泰青公路",
+      "distanceM": 29365.69921875,
+      "avgGrade": 0.015664534643292427,
+      "startLat": 30.942710876464844,
+      "startLng": 121.26114654541016
+    },
+    {
+      "id": "20963433",
+      "tileScore": 20,
+      "name": "Jinshan Seawall Dash",
+      "distanceM": 25176.30078125,
+      "avgGrade": -0.00397198973223567,
+      "startLat": 30.948577880859375,
+      "startLng": 121.31785583496094
+    },
+    {
+      "id": "30974305",
+      "tileScore": 1,
+      "name": "米市渡河畔TT 第二段",
+      "distanceM": 3771.10009765625,
+      "avgGrade": 0.026517460122704506,
+      "startLat": 30.96816062927246,
+      "startLng": 121.31678771972656
+    },
+    {
+      "id": "19141023",
+      "tileScore": 17,
+      "name": "WeekDayCanal",
+      "distanceM": 15982.099609375,
+      "avgGrade": -0.005005600396543741,
+      "startLat": 30.955711364746094,
+      "startLng": 121.18595123291016
+    },
+    {
+      "id": "40029519",
+      "tileScore": 18,
+      "name": "Bridge to Canals ",
+      "distanceM": 1662.0999755859375,
+      "avgGrade": -0.06016485393047333,
+      "startLat": 30.978506088256836,
+      "startLng": 121.30272674560547
+    },
+    {
+      "id": "41440051",
+      "tileScore": 94,
+      "name": "冲向叶榭镇",
+      "distanceM": 2550.39990234375,
+      "avgGrade": -0.007841907441616058,
+      "startLat": 30.954910278320312,
+      "startLng": 121.35580444335938
+    }
+  ]
+}

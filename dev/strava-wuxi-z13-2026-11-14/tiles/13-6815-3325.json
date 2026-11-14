@@ -1,0 +1,56 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-14T07:14:18.011Z",
+  "tile": {
+    "z": 13,
+    "x": 6815,
+    "y": 3325
+  },
+  "segments": [
+    {
+      "id": "41917757",
+      "tileScore": 7,
+      "name": "丹西公路（司徒拐口-鱼跃厂区）",
+      "distanceM": 5084,
+      "avgGrade": 0.14555467665195465,
+      "startLat": 32.016258239746094,
+      "startLng": 119.46670532226562
+    },
+    {
+      "id": "33542796",
+      "tileScore": 8,
+      "name": "G312 N-S（丹西路-北二环）",
+      "distanceM": 4964.39990234375,
+      "avgGrade": 0.05035855621099472,
+      "startLat": 32.05405044555664,
+      "startLng": 119.51956176757812
+    },
+    {
+      "id": "12773560",
+      "tileScore": 22,
+      "name": "Empty The Tank",
+      "distanceM": 3233.800048828125,
+      "avgGrade": 0.05566206946969032,
+      "startLat": 32.05782699584961,
+      "startLng": 119.52598571777344
+    },
+    {
+      "id": "39859691",
+      "tileScore": 3,
+      "name": "冲向桃林的村间水泥路",
+      "distanceM": 3738.60009765625,
+      "avgGrade": 0.17118707299232483,
+      "startLat": 32.04713821411133,
+      "startLng": 119.50747680664062
+    },
+    {
+      "id": "12773346",
+      "tileScore": 5,
+      "name": "G312 South",
+      "distanceM": 9587.5,
+      "avgGrade": -0.23989570140838623,
+      "startLat": 32.130619049072266,
+      "startLng": 119.47042083740234
+    }
+  ]
+}

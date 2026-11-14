@@ -1,0 +1,20 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-14T07:06:52.729Z",
+  "tile": {
+    "z": 13,
+    "x": 6828,
+    "y": 3339
+  },
+  "segments": [
+    {
+      "id": "34786057",
+      "tileScore": 9,
+      "name": "Longyan Rd small climb",
+      "distanceM": 1532.300048828125,
+      "avgGrade": 1.2203876972198486,
+      "startLat": 31.507347106933594,
+      "startLng": 120.06884765625
+    }
+  ]
+}

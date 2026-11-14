@@ -1,0 +1,20 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-14T06:41:11.910Z",
+  "tile": {
+    "z": 13,
+    "x": 6745,
+    "y": 3272
+  },
+  "segments": [
+    {
+      "id": "36218939",
+      "tileScore": 1,
+      "name": "从芒山到大转盘究竟可以多快",
+      "distanceM": 28193.099609375,
+      "avgGrade": 0.001418786938302219,
+      "startLat": 34.17485809326172,
+      "startLng": 116.50027465820312
+    }
+  ]
+}

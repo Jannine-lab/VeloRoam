@@ -1,0 +1,83 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-14T07:09:44.434Z",
+  "tile": {
+    "z": 13,
+    "x": 6833,
+    "y": 3350
+  },
+  "segments": [
+    {
+      "id": "26416884",
+      "tileScore": 24,
+      "name": "X206 Bump (Northbound)",
+      "distanceM": 993.9000244140625,
+      "avgGrade": 1.1671193838119507,
+      "startLat": 31.096202850341797,
+      "startLng": 120.28448486328125
+    },
+    {
+      "id": "26011033",
+      "tileScore": 21,
+      "name": "Xishan Eastern Diversion (CCW)",
+      "distanceM": 5355.60009765625,
+      "avgGrade": 0.018672043457627296,
+      "startLat": 31.111591339111328,
+      "startLng": 120.3166732788086
+    },
+    {
+      "id": "26404128",
+      "tileScore": 12,
+      "name": "Back from Baoshan Temple",
+      "distanceM": 1129.699951171875,
+      "avgGrade": -1.7349739074707031,
+      "startLat": 31.113134384155273,
+      "startLng": 120.28717041015625
+    },
+    {
+      "id": "33401272",
+      "tileScore": 47,
+      "name": "东西山超级有氧",
+      "distanceM": 137358.703125,
+      "avgGrade": 0.00873624999076128,
+      "startLat": 31.187084197998047,
+      "startLng": 120.4767837524414
+    },
+    {
+      "id": "16570089",
+      "tileScore": 22,
+      "name": "XISHAN ITT2",
+      "distanceM": 12911.2998046875,
+      "avgGrade": -0.0015490306541323662,
+      "startLat": 31.12991714477539,
+      "startLng": 120.23184967041016
+    },
+    {
+      "id": "24383568",
+      "tileScore": 9,
+      "name": "笠帽不到顶",
+      "distanceM": 1688.300048828125,
+      "avgGrade": 11.633003234863281,
+      "startLat": 31.120893478393555,
+      "startLng": 120.28076934814453
+    },
+    {
+      "id": "11775783",
+      "tileScore": 17,
+      "name": "Xishan south loop",
+      "distanceM": 9192.5,
+      "avgGrade": 0.0010878433240577579,
+      "startLat": 31.09244728088379,
+      "startLng": 120.28221893310547
+    },
+    {
+      "id": "26416872",
+      "tileScore": 4,
+      "name": "Around the Village",
+      "distanceM": 5265.39990234375,
+      "avgGrade": -0.03038705699145794,
+      "startLat": 31.1063289642334,
+      "startLng": 120.29823303222656
+    }
+  ]
+}

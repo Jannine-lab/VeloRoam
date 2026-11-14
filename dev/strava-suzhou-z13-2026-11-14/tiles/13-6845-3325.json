@@ -1,0 +1,47 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-14T07:24:13.556Z",
+  "tile": {
+    "z": 13,
+    "x": 6845,
+    "y": 3325
+  },
+  "segments": [
+    {
+      "id": "39278183",
+      "tileScore": 1,
+      "name": "永和路飞奔",
+      "distanceM": 7981.5,
+      "avgGrade": -0.007517383899539709,
+      "startLat": 32.05760955810547,
+      "startLng": 120.89878845214844
+    },
+    {
+      "id": "26227496",
+      "tileScore": 3,
+      "name": "Scenic Road by the TL Canal",
+      "distanceM": 2956.89990234375,
+      "avgGrade": -0.033819202333688736,
+      "startLat": 32.03821563720703,
+      "startLng": 120.8423843383789
+    },
+    {
+      "id": "39278236",
+      "tileScore": 2,
+      "name": "江海大道（工农路 to 迪卡侬）",
+      "distanceM": 4332.2001953125,
+      "avgGrade": 0.032316144555807114,
+      "startLat": 32.04576873779297,
+      "startLng": 120.874267578125
+    },
+    {
+      "id": "38058513",
+      "tileScore": 6,
+      "name": "桥桥",
+      "distanceM": 708.5,
+      "avgGrade": -0.7762879133224487,
+      "startLat": 32.040985107421875,
+      "startLng": 120.84041595458984
+    }
+  ]
+}

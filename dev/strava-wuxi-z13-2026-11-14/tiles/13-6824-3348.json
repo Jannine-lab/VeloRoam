@@ -1,0 +1,92 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-14T07:10:46.696Z",
+  "tile": {
+    "z": 13,
+    "x": 6824,
+    "y": 3348
+  },
+  "segments": [
+    {
+      "id": "35799547",
+      "tileScore": 4,
+      "name": "Chasing the unknown",
+      "distanceM": 2879.699951171875,
+      "avgGrade": -0.17710177600383759,
+      "startLat": 31.19683265686035,
+      "startLng": 119.89921569824219
+    },
+    {
+      "id": "36686762",
+      "tileScore": 19,
+      "name": "阿宽40巡航训练段-北向",
+      "distanceM": 8777.2998046875,
+      "avgGrade": -0.0410148911178112,
+      "startLat": 31.10076332092285,
+      "startLng": 119.94638061523438
+    },
+    {
+      "id": "34881639",
+      "tileScore": 299,
+      "name": "S360上坝回程上坡",
+      "distanceM": 7540,
+      "avgGrade": 0.9336870312690735,
+      "startLat": 31.1938533782959,
+      "startLng": 119.8943862915039
+    },
+    {
+      "id": "17657571",
+      "tileScore": 2,
+      "name": "cd-丁蜀到父子岭",
+      "distanceM": 13584.5,
+      "avgGrade": -0.0014722661580890417,
+      "startLat": 31.22429847717285,
+      "startLng": 119.85391998291016
+    },
+    {
+      "id": "38587721",
+      "tileScore": 14,
+      "name": "Test new road temporarily ",
+      "distanceM": 1127.0999755859375,
+      "avgGrade": 0.04436163604259491,
+      "startLat": 31.179996490478516,
+      "startLng": 119.91055297851562
+    },
+    {
+      "id": "42462292",
+      "tileScore": 3,
+      "name": "小卖部到收费站热身",
+      "distanceM": 20750,
+      "avgGrade": -0.03566265106201172,
+      "startLat": 31.073932647705078,
+      "startLng": 119.88568878173828
+    },
+    {
+      "id": "4899298",
+      "tileScore": 3,
+      "name": "南京中华门到余杭高速",
+      "distanceM": 177379.09375,
+      "avgGrade": -0.04870923236012459,
+      "startLat": 32.015663146972656,
+      "startLng": 118.77684020996094
+    },
+    {
+      "id": "40564534",
+      "tileScore": 34,
+      "name": "环太湖",
+      "distanceM": 151856.5,
+      "avgGrade": 0.0009219230269081891,
+      "startLat": 31.187686920166016,
+      "startLng": 120.47770690917969
+    },
+    {
+      "id": "25879348",
+      "tileScore": 21,
+      "name": "Yixing Bump (Northbound)",
+      "distanceM": 642,
+      "avgGrade": 2.0249221324920654,
+      "startLat": 31.202730178833008,
+      "startLng": 119.89125061035156
+    }
+  ]
+}

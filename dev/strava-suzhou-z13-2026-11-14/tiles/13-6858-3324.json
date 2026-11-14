@@ -1,0 +1,20 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-14T07:24:11.489Z",
+  "tile": {
+    "z": 13,
+    "x": 6858,
+    "y": 3324
+  },
+  "segments": [
+    {
+      "id": "35199866",
+      "tileScore": 1,
+      "name": "cd-通州湾#3",
+      "distanceM": 7971.60009765625,
+      "avgGrade": 0.022580159828066826,
+      "startLat": 32.16307830810547,
+      "startLng": 121.37200164794922
+    }
+  ]
+}

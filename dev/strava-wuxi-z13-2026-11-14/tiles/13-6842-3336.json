@@ -1,0 +1,101 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-14T07:09:15.322Z",
+  "tile": {
+    "z": 13,
+    "x": 6842,
+    "y": 3336
+  },
+  "segments": [
+    {
+      "id": "32385399",
+      "tileScore": 53,
+      "name": "虞山南路(到尚湖大桥)",
+      "distanceM": 3484.699951171875,
+      "avgGrade": 0.07461187243461609,
+      "startLat": 31.647619247436523,
+      "startLng": 120.72957611083984
+    },
+    {
+      "id": "12914413",
+      "tileScore": 21,
+      "name": "Shanghu Bottom Corner CCW",
+      "distanceM": 4025.699951171875,
+      "avgGrade": -0.03974464163184166,
+      "startLat": 31.630369186401367,
+      "startLng": 120.71864318847656
+    },
+    {
+      "id": "12914431",
+      "tileScore": 33,
+      "name": "Shanghu Bridge to Yanyu",
+      "distanceM": 3802,
+      "avgGrade": 0.02104155719280243,
+      "startLat": 31.655424118041992,
+      "startLng": 120.69327545166016
+    },
+    {
+      "id": "15195148",
+      "tileScore": 1,
+      "name": "Ken's Konnektor (Northbound)",
+      "distanceM": 371.5,
+      "avgGrade": -0.053835801780223846,
+      "startLat": 31.625329971313477,
+      "startLng": 120.7142562866211
+    },
+    {
+      "id": "10505779",
+      "tileScore": 5,
+      "name": "Pascal’s Power Bridge (Southbound)",
+      "distanceM": 719.9000244140625,
+      "avgGrade": -0.26392555236816406,
+      "startLat": 31.623811721801758,
+      "startLng": 120.71055603027344
+    },
+    {
+      "id": "38135860",
+      "tileScore": 7,
+      "name": "西三环itt",
+      "distanceM": 9676,
+      "avgGrade": -0.05994212627410889,
+      "startLat": 31.68532943725586,
+      "startLng": 120.68697357177734
+    },
+    {
+      "id": "31416448",
+      "tileScore": 112,
+      "name": "尚湖冲刺硬邦邦干",
+      "distanceM": 1319.0999755859375,
+      "avgGrade": 0.015161853283643723,
+      "startLat": 31.64628791809082,
+      "startLng": 120.67501831054688
+    },
+    {
+      "id": "38431061",
+      "tileScore": 1,
+      "name": "元和路",
+      "distanceM": 4457.10009765625,
+      "avgGrade": -0.01794889196753502,
+      "startLat": 31.621219635009766,
+      "startLng": 120.6961898803711
+    },
+    {
+      "id": "14382659",
+      "tileScore": 17,
+      "name": "Crossing Shanghu (Southbound)",
+      "distanceM": 2054.39990234375,
+      "avgGrade": -0.058411214500665665,
+      "startLat": 31.655290603637695,
+      "startLng": 120.69216918945312
+    },
+    {
+      "id": "13068959",
+      "tileScore": 86,
+      "name": "Shanghu Top CCW",
+      "distanceM": 7059.7998046875,
+      "avgGrade": -0.016997648403048515,
+      "startLat": 31.662185668945312,
+      "startLng": 120.68495178222656
+    }
+  ]
+}

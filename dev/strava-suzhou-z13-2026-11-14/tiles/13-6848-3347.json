@@ -1,0 +1,47 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-14T07:15:31.318Z",
+  "tile": {
+    "z": 13,
+    "x": 6848,
+    "y": 3347
+  },
+  "segments": [
+    {
+      "id": "22098099",
+      "tileScore": 2,
+      "name": "Forest Cycle Path (Westbound)",
+      "distanceM": 1071.5999755859375,
+      "avgGrade": 0.0373273640871048,
+      "startLat": 31.23415184020996,
+      "startLng": 120.93903350830078
+    },
+    {
+      "id": "12392773",
+      "tileScore": 10,
+      "name": "S224 (Dianshanhu to Golf Club)",
+      "distanceM": 7762.10009765625,
+      "avgGrade": 0.010306489653885365,
+      "startLat": 31.190719604492188,
+      "startLng": 120.95619201660156
+    },
+    {
+      "id": "22090880",
+      "tileScore": 2,
+      "name": "S58 Bridge (Westbound)",
+      "distanceM": 570.2999877929688,
+      "avgGrade": 0.35069260001182556,
+      "startLat": 31.223949432373047,
+      "startLng": 120.94184112548828
+    },
+    {
+      "id": "26244567",
+      "tileScore": 1,
+      "name": "25K Scenic Country Roads (Northbound)",
+      "distanceM": 24641.80078125,
+      "avgGrade": 0.04707448184490204,
+      "startLat": 31.152658462524414,
+      "startLng": 120.92338562011719
+    }
+  ]
+}

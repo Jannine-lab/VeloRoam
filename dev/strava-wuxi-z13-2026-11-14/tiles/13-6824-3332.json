@@ -1,0 +1,29 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-14T07:10:16.954Z",
+  "tile": {
+    "z": 13,
+    "x": 6824,
+    "y": 3332
+  },
+  "segments": [
+    {
+      "id": "995596",
+      "tileScore": 2,
+      "name": "YunHe Large Bridge Towards North",
+      "distanceM": 525.9769897460938,
+      "avgGrade": 1.0456273555755615,
+      "startLat": 31.799245834350586,
+      "startLng": 119.90754699707031
+    },
+    {
+      "id": "23511933",
+      "tileScore": 3,
+      "name": "Qingfeng Park Lap",
+      "distanceM": 3047.5,
+      "avgGrade": -0.00984413456171751,
+      "startLat": 31.802370071411133,
+      "startLng": 119.89875030517578
+    }
+  ]
+}

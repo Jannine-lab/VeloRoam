@@ -1,0 +1,47 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-14T07:20:08.676Z",
+  "tile": {
+    "z": 13,
+    "x": 6844,
+    "y": 3360
+  },
+  "segments": [
+    {
+      "id": "34100572",
+      "tileScore": 4,
+      "name": "同济小圈",
+      "distanceM": 1621.800048828125,
+      "avgGrade": -0.3206314146518707,
+      "startLat": 30.738740921020508,
+      "startLng": 120.78157043457031
+    },
+    {
+      "id": "33563666",
+      "tileScore": 7,
+      "name": "由拳路冲一把",
+      "distanceM": 733,
+      "avgGrade": 0.23192360997200012,
+      "startLat": 30.732210159301758,
+      "startLng": 120.78521728515625
+    },
+    {
+      "id": "38022698",
+      "tileScore": 2,
+      "name": "纺工路荡腿",
+      "distanceM": 3170.89990234375,
+      "avgGrade": -0.006307357456535101,
+      "startLat": 30.74003028869629,
+      "startLng": 120.76703643798828
+    },
+    {
+      "id": "13715792",
+      "tileScore": 7,
+      "name": "Tour of Jiaxing 2016",
+      "distanceM": 136646.203125,
+      "avgGrade": 0.008196349255740643,
+      "startLat": 30.74317169189453,
+      "startLng": 120.83653259277344
+    }
+  ]
+}

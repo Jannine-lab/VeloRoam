@@ -1,0 +1,29 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-14T07:10:11.238Z",
+  "tile": {
+    "z": 13,
+    "x": 6841,
+    "y": 3349
+  },
+  "segments": [
+    {
+      "id": "10837518",
+      "tileScore": 2,
+      "name": "lozho_2015环太湖吴江绕圈赛业余组",
+      "distanceM": 44660,
+      "avgGrade": 0,
+      "startLat": 31.141447067260742,
+      "startLng": 120.584716796875
+    },
+    {
+      "id": "11921515",
+      "tileScore": 6,
+      "name": "Canal Bridge (Eastbound)",
+      "distanceM": 1416.699951171875,
+      "avgGrade": 0.21175973117351532,
+      "startLat": 31.139141082763672,
+      "startLng": 120.65467834472656
+    }
+  ]
+}

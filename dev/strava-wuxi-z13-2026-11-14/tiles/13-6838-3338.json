@@ -1,0 +1,47 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-14T07:07:00.441Z",
+  "tile": {
+    "z": 13,
+    "x": 6838,
+    "y": 3338
+  },
+  "segments": [
+    {
+      "id": "19529402",
+      "tileScore": 8,
+      "name": "金城快速路20km晚间冲刺",
+      "distanceM": 21159.400390625,
+      "avgGrade": -0.016068508848547935,
+      "startLat": 31.569589614868164,
+      "startLng": 120.39192962646484
+    },
+    {
+      "id": "32863237",
+      "tileScore": 8,
+      "name": "宛山大桥 北到南",
+      "distanceM": 865.9000244140625,
+      "avgGrade": -0.046194709837436676,
+      "startLat": 31.583410263061523,
+      "startLng": 120.53448486328125
+    },
+    {
+      "id": "39259145",
+      "tileScore": 19,
+      "name": "宛山湖三桥来一遍",
+      "distanceM": 8812.5,
+      "avgGrade": 0.0022695036605000496,
+      "startLat": 31.57549285888672,
+      "startLng": 120.5295639038086
+    },
+    {
+      "id": "32159270",
+      "tileScore": 1,
+      "name": "Wanshan Lake Bridge S2N",
+      "distanceM": 5760.5,
+      "avgGrade": 0.02430344559252262,
+      "startLat": 31.574993133544922,
+      "startLng": 120.5326919555664
+    }
+  ]
+}

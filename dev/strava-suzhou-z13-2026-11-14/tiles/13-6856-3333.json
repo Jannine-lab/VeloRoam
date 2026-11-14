@@ -1,0 +1,29 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-14T07:22:29.248Z",
+  "tile": {
+    "z": 13,
+    "x": 6856,
+    "y": 3333
+  },
+  "segments": [
+    {
+      "id": "40311453",
+      "tileScore": 25,
+      "name": "2025 TREK100",
+      "distanceM": 108150.3984375,
+      "avgGrade": -0.006842323578894138,
+      "startLat": 31.624710083007812,
+      "startLng": 121.41840362548828
+    },
+    {
+      "id": "39120133",
+      "tileScore": 1,
+      "name": "宏海公路(庙镇-新海镇)",
+      "distanceM": 16209,
+      "avgGrade": 0.0006169412517920136,
+      "startLat": 31.71405792236328,
+      "startLng": 121.34687042236328
+    }
+  ]
+}

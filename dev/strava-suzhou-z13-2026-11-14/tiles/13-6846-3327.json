@@ -1,0 +1,47 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-14T07:22:04.294Z",
+  "tile": {
+    "z": 13,
+    "x": 6846,
+    "y": 3327
+  },
+  "segments": [
+    {
+      "id": "36860797",
+      "tileScore": 4,
+      "name": "日常一小时",
+      "distanceM": 17094.400390625,
+      "avgGrade": -0.0023399475030601025,
+      "startLat": 32.02214431762695,
+      "startLng": 120.82946014404297
+    },
+    {
+      "id": "39278224",
+      "tileScore": 11,
+      "name": "工农路（军山 to 江海大道）",
+      "distanceM": 11311.099609375,
+      "avgGrade": 0.008840873837471008,
+      "startLat": 31.945648193359375,
+      "startLng": 120.90045928955078
+    },
+    {
+      "id": "34630432",
+      "tileScore": 13,
+      "name": "GONGNONG Road Short sprint",
+      "distanceM": 1956.199951171875,
+      "avgGrade": 0.337388813495636,
+      "startLat": 31.967723846435547,
+      "startLng": 120.8877944946289
+    },
+    {
+      "id": "39278214",
+      "tileScore": 3,
+      "name": "跃龙路越到军山",
+      "distanceM": 9907.900390625,
+      "avgGrade": -0.018167320638895035,
+      "startLat": 32.01780319213867,
+      "startLng": 120.8551254272461
+    }
+  ]
+}

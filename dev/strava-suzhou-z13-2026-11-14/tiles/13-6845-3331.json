@@ -1,0 +1,20 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-14T07:19:38.353Z",
+  "tile": {
+    "z": 13,
+    "x": 6845,
+    "y": 3331
+  },
+  "segments": [
+    {
+      "id": "39182185",
+      "tileScore": 20,
+      "name": "饼饼要掉了前面快拉",
+      "distanceM": 1017.7999877929688,
+      "avgGrade": -0.31440359354019165,
+      "startLat": 31.839157104492188,
+      "startLng": 120.80713653564453
+    }
+  ]
+}

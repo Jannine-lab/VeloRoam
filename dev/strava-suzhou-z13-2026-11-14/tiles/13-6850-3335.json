@@ -1,0 +1,20 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-14T07:25:14.765Z",
+  "tile": {
+    "z": 13,
+    "x": 6850,
+    "y": 3335
+  },
+  "segments": [
+    {
+      "id": "39170642",
+      "tileScore": 16,
+      "name": "湘王路-塘东路（单飞训练考核）",
+      "distanceM": 8625.5,
+      "avgGrade": 0.01623094268143177,
+      "startLat": 31.63774299621582,
+      "startLng": 121.0691146850586
+    }
+  ]
+}

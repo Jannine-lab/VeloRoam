@@ -1,0 +1,146 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-14T07:07:13.836Z",
+  "tile": {
+    "z": 13,
+    "x": 6836,
+    "y": 3346
+  },
+  "segments": [
+    {
+      "id": "39891568",
+      "tileScore": 5,
+      "name": "苏州五峰环线 （玉山路起止）",
+      "distanceM": 33626.3984375,
+      "avgGrade": 0.008326790295541286,
+      "startLat": 31.283851623535156,
+      "startLng": 120.51029968261719
+    },
+    {
+      "id": "18370783",
+      "tileScore": 20,
+      "name": "Qionglong Intermezzo Climb on way back",
+      "distanceM": 560.5999755859375,
+      "avgGrade": 7.313592910766602,
+      "startLat": 31.2514591217041,
+      "startLng": 120.42656707763672
+    },
+    {
+      "id": "14680097",
+      "tileScore": 13,
+      "name": "Qionglong Hairpin Climb™",
+      "distanceM": 826.7000122070312,
+      "avgGrade": 9.144792556762695,
+      "startLat": 31.247716903686523,
+      "startLng": 120.43482971191406
+    },
+    {
+      "id": "18370671",
+      "tileScore": 9,
+      "name": "Songhai Rd to start QL climb",
+      "distanceM": 2283.800048828125,
+      "avgGrade": 0.2539626955986023,
+      "startLat": 31.269084930419922,
+      "startLng": 120.44097137451172
+    },
+    {
+      "id": "33431420",
+      "tileScore": 14,
+      "name": "别院-问泉亭 climb",
+      "distanceM": 1056.199951171875,
+      "avgGrade": 14.050369262695312,
+      "startLat": 31.2718505859375,
+      "startLng": 120.42943572998047
+    },
+    {
+      "id": "37686390",
+      "tileScore": 13,
+      "name": "环香山路-白马寺路",
+      "distanceM": 6803.89990234375,
+      "avgGrade": -0.061729300767183304,
+      "startLat": 31.25667953491211,
+      "startLng": 120.40483856201172
+    },
+    {
+      "id": "20469565",
+      "tileScore": 41,
+      "name": "穹窿山右侧登顶！（请绕过山下左侧铁门~山顶铁门）",
+      "distanceM": 4895.89990234375,
+      "avgGrade": 5.0001020431518555,
+      "startLat": 31.248924255371094,
+      "startLng": 120.4354019165039
+    },
+    {
+      "id": "3294021",
+      "tileScore": 2,
+      "name": "舟山路 Climb",
+      "distanceM": 676,
+      "avgGrade": 15.325443267822266,
+      "startLat": 31.264301300048828,
+      "startLng": 120.4253158569336
+    },
+    {
+      "id": "23927574",
+      "tileScore": 1,
+      "name": "科技城至吴中大道",
+      "distanceM": 22233.900390625,
+      "avgGrade": -0.001799054560251534,
+      "startLat": 31.339780807495117,
+      "startLng": 120.42162322998047
+    },
+    {
+      "id": "34933026",
+      "tileScore": 2,
+      "name": "孙武苑climb",
+      "distanceM": 1679,
+      "avgGrade": 5.300774574279785,
+      "startLat": 31.262575149536133,
+      "startLng": 120.42353820800781
+    },
+    {
+      "id": "18370815",
+      "tileScore": 2,
+      "name": "Qionglong Climb to Cemetary",
+      "distanceM": 815.2999877929688,
+      "avgGrade": 6.206304550170898,
+      "startLat": 31.245786666870117,
+      "startLng": 120.43428039550781
+    },
+    {
+      "id": "22744215",
+      "tileScore": 3,
+      "name": "Sun Tzu Temple Guard Chase Segment",
+      "distanceM": 862.4000244140625,
+      "avgGrade": 9.461966514587402,
+      "startLat": 31.271066665649414,
+      "startLng": 120.4347915649414
+    },
+    {
+      "id": "18371069",
+      "tileScore": 3,
+      "name": "Songhai & Longong Rd",
+      "distanceM": 1854,
+      "avgGrade": -0.4314994513988495,
+      "startLat": 31.252037048339844,
+      "startLng": 120.43698120117188
+    },
+    {
+      "id": "14499496",
+      "tileScore": 1,
+      "name": "Maopeng Rd x S9 Overpass (Westbound)",
+      "distanceM": 346.79998779296875,
+      "avgGrade": 1.614763617515564,
+      "startLat": 31.24939727783203,
+      "startLng": 120.45487976074219
+    },
+    {
+      "id": "10230107",
+      "tileScore": 2,
+      "name": "Qiongling Rd (Westbound)",
+      "distanceM": 6561.7001953125,
+      "avgGrade": -0.0960117056965828,
+      "startLat": 31.259403228759766,
+      "startLng": 120.49449157714844
+    }
+  ]
+}

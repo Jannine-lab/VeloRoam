@@ -1,0 +1,20 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-14T06:39:49.700Z",
+  "tile": {
+    "z": 13,
+    "x": 6756,
+    "y": 3251
+  },
+  "segments": [
+    {
+      "id": "41955314",
+      "tileScore": 10,
+      "name": "千岛湖团练",
+      "distanceM": 11001.099609375,
+      "avgGrade": 0.03454200178384781,
+      "startLat": 34.7603874206543,
+      "startLng": 116.93295288085938
+    }
+  ]
+}

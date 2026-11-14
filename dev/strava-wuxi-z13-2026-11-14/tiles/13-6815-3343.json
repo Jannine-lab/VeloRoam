@@ -1,0 +1,20 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-14T07:13:02.753Z",
+  "tile": {
+    "z": 13,
+    "x": 6815,
+    "y": 3343
+  },
+  "segments": [
+    {
+      "id": "42162563",
+      "tileScore": 11,
+      "name": "辉子路",
+      "distanceM": 6052.89990234375,
+      "avgGrade": 0.06938822567462921,
+      "startLat": 31.40013885498047,
+      "startLng": 119.50504302978516
+    }
+  ]
+}

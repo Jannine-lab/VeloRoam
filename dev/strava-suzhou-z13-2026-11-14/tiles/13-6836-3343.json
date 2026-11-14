@@ -1,0 +1,38 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-14T07:06:41.303Z",
+  "tile": {
+    "z": 13,
+    "x": 6836,
+    "y": 3343
+  },
+  "segments": [
+    {
+      "id": "33462364",
+      "tileScore": 1,
+      "name": "W to E Kunlunshan",
+      "distanceM": 2460.699951171875,
+      "avgGrade": 0.008127768523991108,
+      "startLat": 31.364688873291016,
+      "startLng": 120.4087142944336
+    },
+    {
+      "id": "37437294",
+      "tileScore": 9,
+      "name": "Tour of Yangshan shushan",
+      "distanceM": 13662.099609375,
+      "avgGrade": -0.004391711205244064,
+      "startLat": 31.326528549194336,
+      "startLng": 120.466064453125
+    },
+    {
+      "id": "14061227",
+      "tileScore": 9,
+      "name": "S230 - G312 to Taihu Dadao",
+      "distanceM": 8838.900390625,
+      "avgGrade": -0.05430540069937706,
+      "startLat": 31.409561157226562,
+      "startLng": 120.44099426269531
+    }
+  ]
+}

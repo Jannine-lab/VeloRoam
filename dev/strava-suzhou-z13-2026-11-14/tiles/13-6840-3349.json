@@ -1,0 +1,74 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-14T07:10:11.238Z",
+  "tile": {
+    "z": 13,
+    "x": 6840,
+    "y": 3349
+  },
+  "segments": [
+    {
+      "id": "25858567",
+      "tileScore": 16,
+      "name": "S230 x Pangjia Pond Bridge (Southbound)",
+      "distanceM": 3034.89990234375,
+      "avgGrade": 0.08567003905773163,
+      "startLat": 31.186840057373047,
+      "startLng": 120.60652923583984
+    },
+    {
+      "id": "39709365",
+      "tileScore": 19,
+      "name": "Suzhou Bay Dreamy Water World",
+      "distanceM": 6161.39990234375,
+      "avgGrade": 0.02272210828959942,
+      "startLat": 31.146087646484375,
+      "startLng": 120.58636474609375
+    },
+    {
+      "id": "10837518",
+      "tileScore": 2,
+      "name": "lozho_2015环太湖吴江绕圈赛业余组",
+      "distanceM": 44660,
+      "avgGrade": 0,
+      "startLat": 31.141447067260742,
+      "startLng": 120.584716796875
+    },
+    {
+      "id": "40165993",
+      "tileScore": 21,
+      "name": "万公堤（Southbound）",
+      "distanceM": 2694.60009765625,
+      "avgGrade": 0.04453350976109505,
+      "startLat": 31.17934226989746,
+      "startLng": 120.6209487915039
+    },
+    {
+      "id": "30384821",
+      "tileScore": 2,
+      "name": "THL-4",
+      "distanceM": 116824.5,
+      "avgGrade": -0.0025679543614387512,
+      "startLat": 31.206161499023438,
+      "startLng": 121.28252410888672
+    },
+    {
+      "id": "40564534",
+      "tileScore": 34,
+      "name": "环太湖",
+      "distanceM": 151856.5,
+      "avgGrade": 0.0009219230269081891,
+      "startLat": 31.187686920166016,
+      "startLng": 120.47770690917969
+    },
+    {
+      "id": "38685075",
+      "tileScore": 21,
+      "name": "东太湖生态园（Southbound）",
+      "distanceM": 2351.199951171875,
+      "avgGrade": -0.09356924146413803,
+      "startLat": 31.161312103271484,
+      "startLng": 120.60287475585938
+    }
+  ]
+}

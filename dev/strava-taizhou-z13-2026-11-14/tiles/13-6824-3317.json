@@ -1,0 +1,29 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-14T06:56:07.393Z",
+  "tile": {
+    "z": 13,
+    "x": 6824,
+    "y": 3317
+  },
+  "segments": [
+    {
+      "id": "30990396",
+      "tileScore": 11,
+      "name": "Jinguo Road Overpass Eastbound",
+      "distanceM": 599.9000244140625,
+      "avgGrade": 0.06667777895927429,
+      "startLat": 32.338260650634766,
+      "startLng": 119.91871643066406
+    },
+    {
+      "id": "30990385",
+      "tileScore": 53,
+      "name": "Jinguo Rd Overpass Westbound",
+      "distanceM": 590.4000244140625,
+      "avgGrade": 1.1009485721588135,
+      "startLat": 32.3385009765625,
+      "startLng": 119.93061828613281
+    }
+  ]
+}

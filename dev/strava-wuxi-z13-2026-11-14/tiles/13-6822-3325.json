@@ -1,0 +1,20 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-14T07:00:11.303Z",
+  "tile": {
+    "z": 13,
+    "x": 6822,
+    "y": 3325
+  },
+  "segments": [
+    {
+      "id": "33834782",
+      "tileScore": 1,
+      "name": "丹东公路（姚家村-天王寺）赛段",
+      "distanceM": 2761.199951171875,
+      "avgGrade": 0.05070259049534798,
+      "startLat": 32.06426239013672,
+      "startLng": 119.79511260986328
+    }
+  ]
+}

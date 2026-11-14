@@ -1,0 +1,29 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-14T06:50:08.577Z",
+  "tile": {
+    "z": 13,
+    "x": 6795,
+    "y": 3279
+  },
+  "segments": [
+    {
+      "id": "39126431",
+      "tileScore": 1,
+      "name": "cd-泗睢线东往西1",
+      "distanceM": 22213.30078125,
+      "avgGrade": 0.007202891632914543,
+      "startLat": 33.757259368896484,
+      "startLng": 118.62247467041016
+    },
+    {
+      "id": "5712880",
+      "tileScore": 1,
+      "name": "泗阳到泗洪",
+      "distanceM": 57125.5,
+      "avgGrade": 0.005251595284789801,
+      "startLat": 33.73418045043945,
+      "startLng": 118.7104721069336
+    }
+  ]
+}

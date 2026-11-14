@@ -1,0 +1,20 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-14T06:46:20.777Z",
+  "tile": {
+    "z": 13,
+    "x": 6751,
+    "y": 3244
+  },
+  "segments": [
+    {
+      "id": "39134306",
+      "tileScore": 13,
+      "name": "cd-滨湖公路沛县到鱼台刑教练TT带风",
+      "distanceM": 23544.19921875,
+      "avgGrade": -0.018688254058361053,
+      "startLat": 34.94463348388672,
+      "startLng": 116.84210968017578
+    }
+  ]
+}

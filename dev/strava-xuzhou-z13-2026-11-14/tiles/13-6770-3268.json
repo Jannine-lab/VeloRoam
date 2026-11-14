@@ -1,0 +1,20 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-14T06:28:00.621Z",
+  "tile": {
+    "z": 13,
+    "x": 6770,
+    "y": 3268
+  },
+  "segments": [
+    {
+      "id": "38786263",
+      "tileScore": 5,
+      "name": "观光路（崔贺庄水库至市区）",
+      "distanceM": 22571.30078125,
+      "avgGrade": -0.011519053019583225,
+      "startLat": 34.12554168701172,
+      "startLng": 117.51371002197266
+    }
+  ]
+}

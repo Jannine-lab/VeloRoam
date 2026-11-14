@@ -1,0 +1,56 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-14T07:16:11.468Z",
+  "tile": {
+    "z": 13,
+    "x": 6849,
+    "y": 3343
+  },
+  "segments": [
+    {
+      "id": "14284788",
+      "tileScore": 1,
+      "name": "X104 (Westbound)",
+      "distanceM": 15180.7001953125,
+      "avgGrade": 0.026349246501922607,
+      "startLat": 31.381698608398438,
+      "startLng": 121.14749145507812
+    },
+    {
+      "id": "33036099",
+      "tileScore": 3,
+      "name": "景王路东行",
+      "distanceM": 1704.800048828125,
+      "avgGrade": 0.08212106674909592,
+      "startLat": 31.371490478515625,
+      "startLng": 121.00720977783203
+    },
+    {
+      "id": "33036093",
+      "tileScore": 1,
+      "name": "景王路bridge东行",
+      "distanceM": 730,
+      "avgGrade": -0.630137026309967,
+      "startLat": 31.372392654418945,
+      "startLng": 120.98033142089844
+    },
+    {
+      "id": "14279642",
+      "tileScore": 3,
+      "name": "Super Mario Kart Through The City",
+      "distanceM": 10934.099609375,
+      "avgGrade": 0.016462260857224464,
+      "startLat": 31.38591194152832,
+      "startLng": 120.99835205078125
+    },
+    {
+      "id": "36976065",
+      "tileScore": 9,
+      "name": " Qianjin E Rd River Bridge (Westbound)",
+      "distanceM": 1144.300048828125,
+      "avgGrade": -0.12234554439783096,
+      "startLat": 31.385683059692383,
+      "startLng": 120.99082946777344
+    }
+  ]
+}

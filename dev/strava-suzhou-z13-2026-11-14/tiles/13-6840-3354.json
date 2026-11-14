@@ -1,0 +1,47 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-14T07:15:55.072Z",
+  "tile": {
+    "z": 13,
+    "x": 6840,
+    "y": 3354
+  },
+  "segments": [
+    {
+      "id": "38263102",
+      "tileScore": 22,
+      "name": "长湖申线大桥（Northbound）",
+      "distanceM": 1467,
+      "avgGrade": -0.10906611382961273,
+      "startLat": 30.967573165893555,
+      "startLng": 120.60954284667969
+    },
+    {
+      "id": "22068484",
+      "tileScore": 8,
+      "name": "G318 上海-湖州",
+      "distanceM": 133169.203125,
+      "avgGrade": -0.002553143072873354,
+      "startLat": 31.17106056213379,
+      "startLng": 121.32220458984375
+    },
+    {
+      "id": "37313994",
+      "tileScore": 47,
+      "name": "江城大道盛泽到甄嬛路 无红绿灯",
+      "distanceM": 15979.7998046875,
+      "avgGrade": -0.012515801005065441,
+      "startLat": 30.923242568969727,
+      "startLng": 120.60259246826172
+    },
+    {
+      "id": "39041393",
+      "tileScore": 30,
+      "name": "新运河大桥（Eastbound）",
+      "distanceM": 775,
+      "avgGrade": 0.43870970606803894,
+      "startLat": 30.976055145263672,
+      "startLng": 120.62053680419922
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-14T06:50:05.567Z",
+  "tile": {
+    "z": 13,
+    "x": 6789,
+    "y": 3245
+  },
+  "segments": [
+    {
+      "id": "34512420",
+      "tileScore": 14,
+      "name": "拉爆战神",
+      "distanceM": 5657.39990234375,
+      "avgGrade": 0.007070385850965977,
+      "startLat": 34.9681282043457,
+      "startLng": 118.40465545654297
+    }
+  ]
+}

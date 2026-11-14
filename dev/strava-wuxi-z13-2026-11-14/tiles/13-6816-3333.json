@@ -1,0 +1,20 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-14T07:12:53.273Z",
+  "tile": {
+    "z": 13,
+    "x": 6816,
+    "y": 3333
+  },
+  "segments": [
+    {
+      "id": "38286695",
+      "tileScore": 1,
+      "name": "狂飙白龙荡（S-N）",
+      "distanceM": 4354.2998046875,
+      "avgGrade": -0.03674528747797012,
+      "startLat": 31.707881927490234,
+      "startLng": 119.50669860839844
+    }
+  ]
+}

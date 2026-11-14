@@ -1,0 +1,20 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-14T06:40:48.855Z",
+  "tile": {
+    "z": 13,
+    "x": 6753,
+    "y": 3250
+  },
+  "segments": [
+    {
+      "id": "28357260",
+      "tileScore": 4,
+      "name": "2021大运河系列赛 沛县绕圈",
+      "distanceM": 10068.400390625,
+      "avgGrade": -0.00794565211981535,
+      "startLat": 34.81364440917969,
+      "startLng": 116.77886199951172
+    }
+  ]
+}

@@ -1,0 +1,83 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-14T07:15:14.697Z",
+  "tile": {
+    "z": 13,
+    "x": 6844,
+    "y": 3351
+  },
+  "segments": [
+    {
+      "id": "41047313",
+      "tileScore": 8,
+      "name": "莘七线",
+      "distanceM": 5526.39990234375,
+      "avgGrade": 0.007237985264509916,
+      "startLat": 31.080209732055664,
+      "startLng": 120.77625274658203
+    },
+    {
+      "id": "21131943",
+      "tileScore": 1,
+      "name": "Dianshan Lake Checkpoint to Taihu",
+      "distanceM": 49375.1015625,
+      "avgGrade": -0.004050624556839466,
+      "startLat": 31.06794548034668,
+      "startLng": 120.91667938232422
+    },
+    {
+      "id": "22796874",
+      "tileScore": 10,
+      "name": "Wujiang Ave TT Westbound",
+      "distanceM": 13186.7001953125,
+      "avgGrade": -0.0030333593022078276,
+      "startLat": 31.076005935668945,
+      "startLng": 120.83527374267578
+    },
+    {
+      "id": "39910047",
+      "tileScore": 4,
+      "name": "穿越金家坝",
+      "distanceM": 3976.300048828125,
+      "avgGrade": 0.05029801279306412,
+      "startLat": 31.11540412902832,
+      "startLng": 120.79776000976562
+    },
+    {
+      "id": "38517060",
+      "tileScore": 22,
+      "name": "Double Bump (Westbound)",
+      "distanceM": 1376.800048828125,
+      "avgGrade": 0.1452643722295761,
+      "startLat": 31.08438491821289,
+      "startLng": 120.79437255859375
+    },
+    {
+      "id": "41481063",
+      "tileScore": 3,
+      "name": "飞跃南站",
+      "distanceM": 2729,
+      "avgGrade": 0.014657382853329182,
+      "startLat": 31.053735733032227,
+      "startLng": 120.79447937011719
+    },
+    {
+      "id": "38128585",
+      "tileScore": 12,
+      "name": "吴江大道 中段（Eastbound）",
+      "distanceM": 12575,
+      "avgGrade": -0.007952285930514336,
+      "startLat": 31.08803367614746,
+      "startLng": 120.64781951904297
+    },
+    {
+      "id": "35469122",
+      "tileScore": 4,
+      "name": "从周庄镇、湖青坪到运河 ",
+      "distanceM": 34445.80078125,
+      "avgGrade": -0.01799929141998291,
+      "startLat": 31.094715118408203,
+      "startLng": 120.84705352783203
+    }
+  ]
+}

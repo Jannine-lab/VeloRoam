@@ -1,0 +1,380 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-14T07:21:30.008Z",
+  "tile": {
+    "z": 13,
+    "x": 6858,
+    "y": 3348
+  },
+  "segments": [
+    {
+      "id": "14970673",
+      "tileScore": 6,
+      "name": "Gubei CN to HQ",
+      "distanceM": 1857.699951171875,
+      "avgGrade": 0.06459600478410721,
+      "startLat": 31.219331741333008,
+      "startLng": 121.39413452148438
+    },
+    {
+      "id": "36111952",
+      "tileScore": 106,
+      "name": "2023 HH Airport Loop",
+      "distanceM": 32885.30078125,
+      "avgGrade": -0.007298094220459461,
+      "startLat": 31.197797775268555,
+      "startLng": 121.41617584228516
+    },
+    {
+      "id": "22324048",
+      "tileScore": 8,
+      "name": "The Skinny (eb)",
+      "distanceM": 657.9000244140625,
+      "avgGrade": -0.2735978364944458,
+      "startLat": 31.16781997680664,
+      "startLng": 121.39168548583984
+    },
+    {
+      "id": "20014980",
+      "tileScore": 3,
+      "name": "Hechuan Lu (northbound)",
+      "distanceM": 6394.39990234375,
+      "avgGrade": -0.06568247079849243,
+      "startLat": 31.13213539123535,
+      "startLng": 121.3893814086914
+    },
+    {
+      "id": "12562160",
+      "tileScore": 20,
+      "name": "Qinzhou > Wuzhong",
+      "distanceM": 578.5999755859375,
+      "avgGrade": 0.3456619381904602,
+      "startLat": 31.18292808532715,
+      "startLng": 121.40968322753906
+    },
+    {
+      "id": "6200620",
+      "tileScore": 31,
+      "name": "Hongqiao Road Climb",
+      "distanceM": 724.0999755859375,
+      "avgGrade": 19.22386360168457,
+      "startLat": 31.200870513916016,
+      "startLng": 121.38795471191406
+    },
+    {
+      "id": "35700365",
+      "tileScore": 4,
+      "name": "Office to Hospital",
+      "distanceM": 3733.5,
+      "avgGrade": -0.04285522922873497,
+      "startLat": 31.169429779052734,
+      "startLng": 121.38343048095703
+    },
+    {
+      "id": "10677506",
+      "tileScore": 12,
+      "name": "Panyu sprint (Kaixuan - Hongqiao)",
+      "distanceM": 472.3999938964844,
+      "avgGrade": 0.5292125344276428,
+      "startLat": 31.19252586364746,
+      "startLng": 121.42008972167969
+    },
+    {
+      "id": "8541137",
+      "tileScore": 10,
+      "name": "Zhongshan West Rd (from wuzhong rd X to changning rd X)",
+      "distanceM": 3029.5,
+      "avgGrade": -0.05281399190425873,
+      "startLat": 31.197885513305664,
+      "startLng": 121.41188049316406
+    },
+    {
+      "id": "11585802",
+      "tileScore": 15,
+      "name": "beat the traffic",
+      "distanceM": 550.7999877929688,
+      "avgGrade": 2.1968045234680176,
+      "startLat": 31.191316604614258,
+      "startLng": 121.4167709350586
+    },
+    {
+      "id": "21322644",
+      "tileScore": 6,
+      "name": "Lianhua Rd Caobao Rd to Yishan Rd (Northbound)",
+      "distanceM": 971.0999755859375,
+      "avgGrade": -0.11327361315488815,
+      "startLat": 31.161317825317383,
+      "startLng": 121.39014434814453
+    },
+    {
+      "id": "11881788",
+      "tileScore": 4,
+      "name": "Guilin to Guiping",
+      "distanceM": 1032,
+      "avgGrade": -0.11627906560897827,
+      "startLat": 31.168577194213867,
+      "startLng": 121.41334533691406
+    },
+    {
+      "id": "32557816",
+      "tileScore": 5,
+      "name": "HUAGUANG",
+      "distanceM": 796.7000122070312,
+      "avgGrade": -0.12551777064800262,
+      "startLat": 31.187461853027344,
+      "startLng": 121.37401580810547
+    },
+    {
+      "id": "16317617",
+      "tileScore": 3,
+      "name": "Minhang Triangle Circuit",
+      "distanceM": 20807.099609375,
+      "avgGrade": 0.03171994164586067,
+      "startLat": 31.16872787475586,
+      "startLng": 121.429443359375
+    },
+    {
+      "id": "21322650",
+      "tileScore": 9,
+      "name": "Lianhua Rd Yishan Rd to Wuzhong Rd (Northbound)",
+      "distanceM": 1075.5,
+      "avgGrade": 0.20455601811408997,
+      "startLat": 31.170623779296875,
+      "startLng": 121.38695526123047
+    },
+    {
+      "id": "35043761",
+      "tileScore": 15,
+      "name": "南丹-虹桥（番禺大拐弯）",
+      "distanceM": 1674.800048828125,
+      "avgGrade": -0.5851444602012634,
+      "startLat": 31.190929412841797,
+      "startLng": 121.43133544921875
+    },
+    {
+      "id": "1515348",
+      "tileScore": 2,
+      "name": "Gubei To Qibao",
+      "distanceM": 8051.5,
+      "avgGrade": 0.0037260139361023903,
+      "startLat": 31.182998657226562,
+      "startLng": 121.39078521728516
+    },
+    {
+      "id": "10634583",
+      "tileScore": 4,
+      "name": "Lao Wai Jie Sprint",
+      "distanceM": 1454.699951171875,
+      "avgGrade": -0.08936550468206406,
+      "startLat": 31.193336486816406,
+      "startLng": 121.38013458251953
+    },
+    {
+      "id": "39571505",
+      "tileScore": 13,
+      "name": "漕宝路RUN*3",
+      "distanceM": 501.8999938964844,
+      "avgGrade": -0.3984857201576233,
+      "startLat": 31.170198440551758,
+      "startLng": 121.4263916015625
+    },
+    {
+      "id": "13926923",
+      "tileScore": 14,
+      "name": "Tianlin Cycling Superhighway",
+      "distanceM": 591.0999755859375,
+      "avgGrade": -0.7782101035118103,
+      "startLat": 31.17351722717285,
+      "startLng": 121.41911315917969
+    },
+    {
+      "id": "14717706",
+      "tileScore": 3,
+      "name": "Humin -> Caobao",
+      "distanceM": 1496.699951171875,
+      "avgGrade": -0.30066144466400146,
+      "startLat": 31.154951095581055,
+      "startLng": 121.4188461303711
+    },
+    {
+      "id": "11588120",
+      "tileScore": 11,
+      "name": "Hongqiao Lu - Panyu Lu to Huaihai Lu - westbound",
+      "distanceM": 475.29998779296875,
+      "avgGrade": 0.31559014320373535,
+      "startLat": 31.19588851928711,
+      "startLng": 121.42312622070312
+    },
+    {
+      "id": "37431019",
+      "tileScore": 14,
+      "name": "Caobao 1k sprint to Guilin Park",
+      "distanceM": 1136.9000244140625,
+      "avgGrade": -0.07036678493022919,
+      "startLat": 31.17017364501953,
+      "startLng": 121.42604064941406
+    },
+    {
+      "id": "7036885",
+      "tileScore": 46,
+      "name": "Sprint past the Park",
+      "distanceM": 463.20001220703125,
+      "avgGrade": -0.6908462643623352,
+      "startLat": 31.19875144958496,
+      "startLng": 121.406005859375
+    },
+    {
+      "id": "7966482",
+      "tileScore": 4,
+      "name": "Gubei Lu, heading North",
+      "distanceM": 1332.300048828125,
+      "avgGrade": 0.067552350461483,
+      "startLat": 31.19095230102539,
+      "startLng": 121.39703369140625
+    },
+    {
+      "id": "5630841",
+      "tileScore": 2,
+      "name": "Caobao Rd (Westbound)",
+      "distanceM": 8238.900390625,
+      "avgGrade": -0.018206315115094185,
+      "startLat": 31.170284271240234,
+      "startLng": 121.42921447753906
+    },
+    {
+      "id": "39792090",
+      "tileScore": 5,
+      "name": "Tour de Xinglian",
+      "distanceM": 1105,
+      "avgGrade": 0.07239818572998047,
+      "startLat": 31.178129196166992,
+      "startLng": 121.40465545654297
+    },
+    {
+      "id": "13659579",
+      "tileScore": 6,
+      "name": "Qinzhou Cycling Superhighway",
+      "distanceM": 946.5,
+      "avgGrade": 0.20073957741260529,
+      "startLat": 31.18242835998535,
+      "startLng": 121.40990447998047
+    },
+    {
+      "id": "36112090",
+      "tileScore": 55,
+      "name": "Tulips Sams",
+      "distanceM": 46121.80078125,
+      "avgGrade": 0.004336344078183174,
+      "startLat": 31.19768524169922,
+      "startLng": 121.41617584228516
+    },
+    {
+      "id": "21762400",
+      "tileScore": 50,
+      "name": "HongQiao 1K Sprint",
+      "distanceM": 1083.4000244140625,
+      "avgGrade": -0.1292228102684021,
+      "startLat": 31.20113754272461,
+      "startLng": 121.38692474365234
+    },
+    {
+      "id": "10541863",
+      "tileScore": 3,
+      "name": "40 km Shanghaï Loop",
+      "distanceM": 38644.5,
+      "avgGrade": 0.0015526142669841647,
+      "startLat": 31.193662643432617,
+      "startLng": 121.46837615966797
+    },
+    {
+      "id": "12302059",
+      "tileScore": 29,
+      "name": "Gubei Lu - Wuzhong Lu to Qinzhou Lu - southbound",
+      "distanceM": 543.0999755859375,
+      "avgGrade": 0.3866690993309021,
+      "startLat": 31.18616485595703,
+      "startLng": 121.4000015258789
+    },
+    {
+      "id": "36516350",
+      "tileScore": 3,
+      "name": "经典通勤上班线路A-虹桥绕道至凯旋卡红绿灯不停车",
+      "distanceM": 21577.099609375,
+      "avgGrade": -0.04634543135762215,
+      "startLat": 31.27074432373047,
+      "startLng": 121.52769470214844
+    },
+    {
+      "id": "26661851",
+      "tileScore": 7,
+      "name": "Wuzhong Rd (Eastbound)",
+      "distanceM": 7929.10009765625,
+      "avgGrade": -0.002522354479879141,
+      "startLat": 31.163288116455078,
+      "startLng": 121.34059143066406
+    },
+    {
+      "id": "34326504",
+      "tileScore": 3,
+      "name": "Wumei Road Westbound - Hongmei to Hechuan",
+      "distanceM": 957.0999755859375,
+      "avgGrade": -0.052241142839193344,
+      "startLat": 31.183788299560547,
+      "startLng": 121.38494110107422
+    },
+    {
+      "id": "6157088",
+      "tileScore": 3,
+      "name": "Caohejing Hi-Tech Park - Guiqing Rd (Southbound)",
+      "distanceM": 910.2999877929688,
+      "avgGrade": 0.6261671781539917,
+      "startLat": 31.173786163330078,
+      "startLng": 121.4009780883789
+    },
+    {
+      "id": "12002946",
+      "tileScore": 29,
+      "name": "Hongqiao Rd (Westbound)",
+      "distanceM": 8196.400390625,
+      "avgGrade": -0.18422722816467285,
+      "startLat": 31.19579315185547,
+      "startLng": 121.43344116210938
+    },
+    {
+      "id": "5654531",
+      "tileScore": 2,
+      "name": "Yan'an Warm-up",
+      "distanceM": 8362.2001953125,
+      "avgGrade": -0.05979287624359131,
+      "startLat": 31.225984573364258,
+      "startLng": 121.45022583007812
+    },
+    {
+      "id": "13969066",
+      "tileScore": 29,
+      "name": "HQ Reverse Piledriver",
+      "distanceM": 506.6000061035156,
+      "avgGrade": 1.0461902618408203,
+      "startLat": 31.197509765625,
+      "startLng": 121.41710662841797
+    },
+    {
+      "id": "6157946",
+      "tileScore": 2,
+      "name": "Caohejing Hi-Tech Park - Qinjiang Rd (Eastbound)",
+      "distanceM": 915.5,
+      "avgGrade": 0.27307480573654175,
+      "startLat": 31.17630958557129,
+      "startLng": 121.39443969726562
+    },
+    {
+      "id": "30082420",
+      "tileScore": 3,
+      "name": "TT-03",
+      "distanceM": 7024.2001953125,
+      "avgGrade": -0.005694598890841007,
+      "startLat": 31.211637496948242,
+      "startLng": 121.39579772949219
+    }
+  ]
+}

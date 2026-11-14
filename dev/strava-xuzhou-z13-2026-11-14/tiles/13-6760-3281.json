@@ -1,0 +1,29 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-14T06:37:36.410Z",
+  "tile": {
+    "z": 13,
+    "x": 6760,
+    "y": 3281
+  },
+  "segments": [
+    {
+      "id": "34726922",
+      "tileScore": 2,
+      "name": "南堤路E→W",
+      "distanceM": 7061.39990234375,
+      "avgGrade": -0.08780128508806229,
+      "startLat": 33.675418853759766,
+      "startLng": 117.07711029052734
+    },
+    {
+      "id": "34307578",
+      "tileScore": 4,
+      "name": "宿州大道南",
+      "distanceM": 9524.099609375,
+      "avgGrade": -0.04514862224459648,
+      "startLat": 33.66355895996094,
+      "startLng": 117.0986328125
+    }
+  ]
+}

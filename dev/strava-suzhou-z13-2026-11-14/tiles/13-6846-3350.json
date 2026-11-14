@@ -1,0 +1,128 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-14T07:15:33.079Z",
+  "tile": {
+    "z": 13,
+    "x": 6846,
+    "y": 3350
+  },
+  "segments": [
+    {
+      "id": "42155611",
+      "tileScore": 21,
+      "name": "淀山湖大环加太浦河95km",
+      "distanceM": 98464.203125,
+      "avgGrade": 0.00020311950356699526,
+      "startLat": 31.100807189941406,
+      "startLng": 121.01215362548828
+    },
+    {
+      "id": "38551324",
+      "tileScore": 9,
+      "name": "WangYang Dang-Sprint",
+      "distanceM": 563.5,
+      "avgGrade": -0.39041703939437866,
+      "startLat": 31.129039764404297,
+      "startLng": 120.87078857421875
+    },
+    {
+      "id": "39035774",
+      "tileScore": 3,
+      "name": "曲水善湾",
+      "distanceM": 577.7999877929688,
+      "avgGrade": -0.31152647733688354,
+      "startLat": 31.093257904052734,
+      "startLng": 120.8543472290039
+    },
+    {
+      "id": "27369844",
+      "tileScore": 31,
+      "name": "进击大观园",
+      "distanceM": 5048.5,
+      "avgGrade": -0.05150044336915016,
+      "startLat": 31.094207763671875,
+      "startLng": 120.84943389892578
+    },
+    {
+      "id": "41055902",
+      "tileScore": 2,
+      "name": "周湖-X204",
+      "distanceM": 3247.300048828125,
+      "avgGrade": 0.006158962845802307,
+      "startLat": 31.09255027770996,
+      "startLng": 120.86016845703125
+    },
+    {
+      "id": "21131943",
+      "tileScore": 1,
+      "name": "Dianshan Lake Checkpoint to Taihu",
+      "distanceM": 49375.1015625,
+      "avgGrade": -0.004050624556839466,
+      "startLat": 31.06794548034668,
+      "startLng": 120.91667938232422
+    },
+    {
+      "id": "42185743",
+      "tileScore": 44,
+      "name": "Party for 14KM",
+      "distanceM": 16373.7001953125,
+      "avgGrade": 0.01710059493780136,
+      "startLat": 31.09241485595703,
+      "startLng": 120.90294647216797
+    },
+    {
+      "id": "41067028",
+      "tileScore": 18,
+      "name": "318-汾湖大道-元荡",
+      "distanceM": 13408.599609375,
+      "avgGrade": 0.013424220494925976,
+      "startLat": 31.021909713745117,
+      "startLng": 120.9017333984375
+    },
+    {
+      "id": "41608184",
+      "tileScore": 8,
+      "name": "商周公路(Westbound)",
+      "distanceM": 6586.60009765625,
+      "avgGrade": 0.009109403938055038,
+      "startLat": 31.131389617919922,
+      "startLng": 120.85545349121094
+    },
+    {
+      "id": "39133945",
+      "tileScore": 5,
+      "name": "双排同里啦-去程",
+      "distanceM": 16797.5,
+      "avgGrade": 0.015478493645787239,
+      "startLat": 31.08608055114746,
+      "startLng": 120.8979263305664
+    },
+    {
+      "id": "26404554",
+      "tileScore": 6,
+      "name": "Cycling Bridge NW",
+      "distanceM": 393.5,
+      "avgGrade": -0.050825923681259155,
+      "startLat": 31.11349105834961,
+      "startLng": 120.85794830322266
+    },
+    {
+      "id": "34976985",
+      "tileScore": 8,
+      "name": "周庄南边的十八弯",
+      "distanceM": 4595,
+      "avgGrade": 0.004352557007223368,
+      "startLat": 31.110576629638672,
+      "startLng": 120.85445404052734
+    },
+    {
+      "id": "40659117",
+      "tileScore": 6,
+      "name": "园区路",
+      "distanceM": 2623.300048828125,
+      "avgGrade": 0.04955590143799782,
+      "startLat": 31.124570846557617,
+      "startLng": 120.86576080322266
+    }
+  ]
+}

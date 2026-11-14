@@ -1,0 +1,83 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-14T07:18:05.687Z",
+  "tile": {
+    "z": 13,
+    "x": 6854,
+    "y": 3347
+  },
+  "segments": [
+    {
+      "id": "2766097",
+      "tileScore": 9,
+      "name": "Jiasong North - Boyuan to Songze",
+      "distanceM": 10168.91015625,
+      "avgGrade": -0.02261798270046711,
+      "startLat": 31.26540756225586,
+      "startLng": 121.19969177246094
+    },
+    {
+      "id": "39159239",
+      "tileScore": 6,
+      "name": "凤重绕圈",
+      "distanceM": 4523.89990234375,
+      "avgGrade": -0.008841928094625473,
+      "startLat": 31.215965270996094,
+      "startLng": 121.21371459960938
+    },
+    {
+      "id": "36807017",
+      "tileScore": 2,
+      "name": "华志路-华腾路-新府中路-嘉松中路  绕圈",
+      "distanceM": 2968.199951171875,
+      "avgGrade": 0.23583315312862396,
+      "startLat": 31.234071731567383,
+      "startLng": 121.22193145751953
+    },
+    {
+      "id": "42008025",
+      "tileScore": 11,
+      "name": "Bikehome安亭乡村版去程",
+      "distanceM": 23945.19921875,
+      "avgGrade": 0,
+      "startLat": 31.206161499023438,
+      "startLng": 121.25885772705078
+    },
+    {
+      "id": "11606920",
+      "tileScore": 2,
+      "name": "Mingzhu to Jiasong",
+      "distanceM": 3733,
+      "avgGrade": 0.09375837445259094,
+      "startLat": 31.20376968383789,
+      "startLng": 121.2525634765625
+    },
+    {
+      "id": "36595170",
+      "tileScore": 37,
+      "name": "凤星路东侧绕圈",
+      "distanceM": 3471.89990234375,
+      "avgGrade": -0.2016187161207199,
+      "startLat": 31.22123908996582,
+      "startLng": 121.23021697998047
+    },
+    {
+      "id": "20227784",
+      "tileScore": 21,
+      "name": "the unnameable",
+      "distanceM": 1814.800048828125,
+      "avgGrade": 0.08816398680210114,
+      "startLat": 31.210866928100586,
+      "startLng": 121.25511169433594
+    },
+    {
+      "id": "20152313",
+      "tileScore": 10,
+      "name": "Xinfeng Smash",
+      "distanceM": 1260.9000244140625,
+      "avgGrade": -0.25378698110580444,
+      "startLat": 31.208919525146484,
+      "startLng": 121.22478485107422
+    }
+  ]
+}

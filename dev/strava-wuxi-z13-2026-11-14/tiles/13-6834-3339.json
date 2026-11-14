@@ -1,0 +1,38 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-14T07:06:20.464Z",
+  "tile": {
+    "z": 13,
+    "x": 6834,
+    "y": 3339
+  },
+  "segments": [
+    {
+      "id": "30067026",
+      "tileScore": 6,
+      "name": "Wuxi: Canal road",
+      "distanceM": 10053.599609375,
+      "avgGrade": 0.023872045800089836,
+      "startLat": 31.528690338134766,
+      "startLng": 120.3405990600586
+    },
+    {
+      "id": "10162580",
+      "tileScore": 2,
+      "name": "S230 to Y-junction of canal (Northbound)",
+      "distanceM": 10003.599609375,
+      "avgGrade": -0.011995681561529636,
+      "startLat": 31.467239379882812,
+      "startLng": 120.40790557861328
+    },
+    {
+      "id": "5128198",
+      "tileScore": 3,
+      "name": "Fengnian Bridge",
+      "distanceM": 210,
+      "avgGrade": 1.1428570747375488,
+      "startLat": 31.516937255859375,
+      "startLng": 120.35987091064453
+    }
+  ]
+}

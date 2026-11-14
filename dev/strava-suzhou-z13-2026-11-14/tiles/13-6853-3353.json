@@ -1,0 +1,56 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-14T07:19:59.348Z",
+  "tile": {
+    "z": 13,
+    "x": 6853,
+    "y": 3353
+  },
+  "segments": [
+    {
+      "id": "30026001",
+      "tileScore": 16,
+      "name": "CC-12",
+      "distanceM": 4523.89990234375,
+      "avgGrade": -0.03315723314881325,
+      "startLat": 30.99749755859375,
+      "startLng": 121.1362533569336
+    },
+    {
+      "id": "30281829",
+      "tileScore": 2,
+      "name": "FNC-007",
+      "distanceM": 22714.19921875,
+      "avgGrade": 0.0017610129434615374,
+      "startLat": 30.96060562133789,
+      "startLng": 121.1836929321289
+    },
+    {
+      "id": "32907919",
+      "tileScore": 3,
+      "name": "申嘉湖高速冲两冲",
+      "distanceM": 9174.900390625,
+      "avgGrade": -0.013079160824418068,
+      "startLat": 30.981382369995117,
+      "startLng": 121.18412780761719
+    },
+    {
+      "id": "29922300",
+      "tileScore": 13,
+      "name": "油墩冲冲冲",
+      "distanceM": 903.4000244140625,
+      "avgGrade": -0.1439008116722107,
+      "startLat": 30.98133087158203,
+      "startLng": 121.16493225097656
+    },
+    {
+      "id": "28851571",
+      "tileScore": 25,
+      "name": "Chenta RD from G60 to Gande RD",
+      "distanceM": 5991.5,
+      "avgGrade": 0.0100141866132617,
+      "startLat": 31.021358489990234,
+      "startLng": 121.18119812011719
+    }
+  ]
+}

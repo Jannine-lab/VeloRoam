@@ -1,0 +1,20 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-14T07:03:28.270Z",
+  "tile": {
+    "z": 13,
+    "x": 6839,
+    "y": 3324
+  },
+  "segments": [
+    {
+      "id": "18205348",
+      "tileScore": 3,
+      "name": "2013年南通赛",
+      "distanceM": 24561.099609375,
+      "avgGrade": -0.0008142957813106477,
+      "startLat": 32.060001373291016,
+      "startLng": 120.6133804321289
+    }
+  ]
+}

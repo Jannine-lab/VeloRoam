@@ -1,0 +1,146 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-14T07:08:22.739Z",
+  "tile": {
+    "z": 13,
+    "x": 6840,
+    "y": 3344
+  },
+  "segments": [
+    {
+      "id": "14879224",
+      "tileScore": 2,
+      "name": "MofangJi E to W",
+      "distanceM": 4430.60009765625,
+      "avgGrade": 0.027084367349743843,
+      "startLat": 31.34943962097168,
+      "startLng": 120.61124420166016
+    },
+    {
+      "id": "42386711",
+      "tileScore": 10,
+      "name": "北园路(Westbound)",
+      "distanceM": 1067.800048828125,
+      "avgGrade": -0.14984078705310822,
+      "startLat": 31.329265594482422,
+      "startLng": 120.63292694091797
+    },
+    {
+      "id": "8538606",
+      "tileScore": 1,
+      "name": "Beihai Long (Northbound)",
+      "distanceM": 805.7999877929688,
+      "avgGrade": 0.2730206251144409,
+      "startLat": 31.31702995300293,
+      "startLng": 120.59922790527344
+    },
+    {
+      "id": "8692258",
+      "tileScore": 3,
+      "name": "Xibei St (Eastbound)",
+      "distanceM": 639.2999877929688,
+      "avgGrade": 0.23463162779808044,
+      "startLat": 31.323280334472656,
+      "startLng": 120.6160888671875
+    },
+    {
+      "id": "26671679",
+      "tileScore": 2,
+      "name": "Pingjiang RD》",
+      "distanceM": 1069.5999755859375,
+      "avgGrade": 0.07479431480169296,
+      "startLat": 31.311460494995117,
+      "startLng": 120.63058471679688
+    },
+    {
+      "id": "42356416",
+      "tileScore": 2,
+      "name": "惠济桥(Eastbound)",
+      "distanceM": 507.3999938964844,
+      "avgGrade": -0.039416633546352386,
+      "startLat": 31.326644897460938,
+      "startLng": 120.59767150878906
+    },
+    {
+      "id": "25822676",
+      "tileScore": 3,
+      "name": "RenminRD. Cross Huning Highway south",
+      "distanceM": 723.5,
+      "avgGrade": -0.41465097665786743,
+      "startLat": 31.353702545166016,
+      "startLng": 120.6073226928711
+    },
+    {
+      "id": "16978673",
+      "tileScore": 3,
+      "name": "guangji north road",
+      "distanceM": 1365,
+      "avgGrade": -0.029304029420018196,
+      "startLat": 31.325651168823242,
+      "startLng": 120.59962463378906
+    },
+    {
+      "id": "11405391",
+      "tileScore": 2,
+      "name": "Qimen Outer St x Railway Underpass (Northbound)",
+      "distanceM": 423.79998779296875,
+      "avgGrade": -0.49551674723625183,
+      "startLat": 31.33254051208496,
+      "startLng": 120.62202453613281
+    },
+    {
+      "id": "22130536",
+      "tileScore": 5,
+      "name": "桃花坞鲁贝-BlossomRoubaix",
+      "distanceM": 680.5,
+      "avgGrade": 0.11756061762571335,
+      "startLat": 31.322994232177734,
+      "startLng": 120.61551666259766
+    },
+    {
+      "id": "42063405",
+      "tileScore": 5,
+      "name": "齐门桥 至 陆泾路南端",
+      "distanceM": 6074.89990234375,
+      "avgGrade": -0.06584470719099045,
+      "startLat": 31.331071853637695,
+      "startLng": 120.62173461914062
+    },
+    {
+      "id": "17490619",
+      "tileScore": 5,
+      "name": "苏州 北环快速路B",
+      "distanceM": 5098.10009765625,
+      "avgGrade": -0.02353818155825138,
+      "startLat": 31.330841064453125,
+      "startLng": 120.63581085205078
+    },
+    {
+      "id": "34368566",
+      "tileScore": 5,
+      "name": "Around Gusu Ancient City--Xiangmen",
+      "distanceM": 16310.099609375,
+      "avgGrade": -0.004904936067759991,
+      "startLat": 31.313356399536133,
+      "startLng": 120.63802337646484
+    },
+    {
+      "id": "39381967",
+      "tileScore": 54,
+      "name": "YouYiHe Road Bridge Climb",
+      "distanceM": 1007.7999877929688,
+      "avgGrade": 1.2899384498596191,
+      "startLat": 31.359434127807617,
+      "startLng": 120.58636474609375
+    },
+    {
+      "id": "38550707",
+      "tileScore": 17,
+      "name": "苏州古城穿越",
+      "distanceM": 60706.1015625,
+      "avgGrade": 0.02668595127761364,
+      "startLat": 31.302093505859375,
+      "startLng": 120.60486602783203
+    }
+  ]
+}

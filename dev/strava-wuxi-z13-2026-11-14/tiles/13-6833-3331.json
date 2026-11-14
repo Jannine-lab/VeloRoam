@@ -1,0 +1,29 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-14T07:08:52.973Z",
+  "tile": {
+    "z": 13,
+    "x": 6833,
+    "y": 3331
+  },
+  "segments": [
+    {
+      "id": "32562229",
+      "tileScore": 3,
+      "name": "中山-峭花路",
+      "distanceM": 2381.39990234375,
+      "avgGrade": -0.020996052771806717,
+      "startLat": 31.817110061645508,
+      "startLng": 120.30325317382812
+    },
+    {
+      "id": "37504717",
+      "tileScore": 62,
+      "name": "小sdd绕圈",
+      "distanceM": 9161.900390625,
+      "avgGrade": 0,
+      "startLat": 31.8450927734375,
+      "startLng": 120.26274871826172
+    }
+  ]
+}

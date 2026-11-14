@@ -1,0 +1,137 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-14T07:21:56.445Z",
+  "tile": {
+    "z": 13,
+    "x": 6858,
+    "y": 3351
+  },
+  "segments": [
+    {
+      "id": "23156055",
+      "tileScore": 36,
+      "name": "Yuanjiang Lu Gaosu overpass",
+      "distanceM": 597.4000244140625,
+      "avgGrade": 0.06695681065320969,
+      "startLat": 31.06014060974121,
+      "startLng": 121.41654968261719
+    },
+    {
+      "id": "35131995",
+      "tileScore": 11,
+      "name": "紫薇绕圈",
+      "distanceM": 2077.89990234375,
+      "avgGrade": 0.028875306248664856,
+      "startLat": 31.075244903564453,
+      "startLng": 121.38481140136719
+    },
+    {
+      "id": "29363565",
+      "tileScore": 3,
+      "name": "莲花南路TT",
+      "distanceM": 8960,
+      "avgGrade": -0.0033482140861451626,
+      "startLat": 31.026090621948242,
+      "startLng": 121.44632720947266
+    },
+    {
+      "id": "33397216",
+      "tileScore": 4,
+      "name": "The back straight ",
+      "distanceM": 2169.199951171875,
+      "avgGrade": -0.07375991344451904,
+      "startLat": 31.077707290649414,
+      "startLng": 121.3924560546875
+    },
+    {
+      "id": "30564546",
+      "tileScore": 2,
+      "name": "FMG-23",
+      "distanceM": 35947.6015625,
+      "avgGrade": 0.02837463468313217,
+      "startLat": 31.019447326660156,
+      "startLng": 121.3215560913086
+    },
+    {
+      "id": "22985518",
+      "tileScore": 1,
+      "name": "S4 Footbridge#1",
+      "distanceM": 305.79998779296875,
+      "avgGrade": -0.06540222465991974,
+      "startLat": 31.067651748657227,
+      "startLng": 121.40850830078125
+    },
+    {
+      "id": "30082437",
+      "tileScore": 6,
+      "name": "TT-09",
+      "distanceM": 1580.9000244140625,
+      "avgGrade": -0.1771143078804016,
+      "startLat": 31.056013107299805,
+      "startLng": 121.40220642089844
+    },
+    {
+      "id": "15566575",
+      "tileScore": 3,
+      "name": "Zhuanxing Lu overpass (westbound) ",
+      "distanceM": 865.5999755859375,
+      "avgGrade": -0.11552680283784866,
+      "startLat": 31.07508087158203,
+      "startLng": 121.409912109375
+    },
+    {
+      "id": "41093492",
+      "tileScore": 55,
+      "name": "The Suckers Segment",
+      "distanceM": 5200,
+      "avgGrade": 0.1538461595773697,
+      "startLat": 31.065645217895508,
+      "startLng": 121.44151306152344
+    },
+    {
+      "id": "13917007",
+      "tileScore": 1,
+      "name": "中春路TT",
+      "distanceM": 5485.89990234375,
+      "avgGrade": -0.03645709902048111,
+      "startLat": 31.087270736694336,
+      "startLng": 121.37234497070312
+    },
+    {
+      "id": "29374965",
+      "tileScore": 13,
+      "name": "光华路",
+      "distanceM": 2852.300048828125,
+      "avgGrade": 0.035059425979852676,
+      "startLat": 31.069730758666992,
+      "startLng": 121.37875366210938
+    },
+    {
+      "id": "37094671",
+      "tileScore": 7,
+      "name": "Head to Guanghua",
+      "distanceM": 5858.89990234375,
+      "avgGrade": -0.020481660962104797,
+      "startLat": 31.120601654052734,
+      "startLng": 121.35736846923828
+    },
+    {
+      "id": "22985488",
+      "tileScore": 3,
+      "name": "Dushi Rd",
+      "distanceM": 1031.5999755859375,
+      "avgGrade": -0.2035672813653946,
+      "startLat": 31.056739807128906,
+      "startLng": 121.40901184082031
+    },
+    {
+      "id": "22985479",
+      "tileScore": 8,
+      "name": "Dingjia Bridge",
+      "distanceM": 572.9000244140625,
+      "avgGrade": 0.1396404206752777,
+      "startLat": 31.053247451782227,
+      "startLng": 121.40367889404297
+    }
+  ]
+}

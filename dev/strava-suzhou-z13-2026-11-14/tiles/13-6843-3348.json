@@ -1,0 +1,164 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-14T07:15:01.676Z",
+  "tile": {
+    "z": 13,
+    "x": 6843,
+    "y": 3348
+  },
+  "segments": [
+    {
+      "id": "14060724",
+      "tileScore": 11,
+      "name": "Xihuan Rd (Northbound)",
+      "distanceM": 3487.60009765625,
+      "avgGrade": -0.08028443902730942,
+      "startLat": 31.17844009399414,
+      "startLng": 120.7475357055664
+    },
+    {
+      "id": "39057522",
+      "tileScore": 9,
+      "name": "Sutongli (Wujiang Ave-X301)",
+      "distanceM": 11407.400390625,
+      "avgGrade": -0.014025982469320297,
+      "startLat": 31.084575653076172,
+      "startLng": 120.7213363647461
+    },
+    {
+      "id": "7980390",
+      "tileScore": 7,
+      "name": "New Tun Pu Bridge (Eastbound)",
+      "distanceM": 603.7999877929688,
+      "avgGrade": 0.26498839259147644,
+      "startLat": 31.17437744140625,
+      "startLng": 120.7425537109375
+    },
+    {
+      "id": "30035982",
+      "tileScore": 1,
+      "name": "North Sprint to nowhere",
+      "distanceM": 789,
+      "avgGrade": -0.1013941690325737,
+      "startLat": 31.164966583251953,
+      "startLng": 120.71746826171875
+    },
+    {
+      "id": "18102431",
+      "tileScore": 3,
+      "name": "Terry's Tiny Farewell Segment",
+      "distanceM": 742.4000244140625,
+      "avgGrade": -0.08081896603107452,
+      "startLat": 31.1771183013916,
+      "startLng": 120.7599105834961
+    },
+    {
+      "id": "18502701",
+      "tileScore": 10,
+      "name": "Dangtou x Wusong River Bridge (Southbound)",
+      "distanceM": 686.7000122070312,
+      "avgGrade": 1.3979904651641846,
+      "startLat": 31.204139709472656,
+      "startLng": 120.71941375732422
+    },
+    {
+      "id": "33698133",
+      "tileScore": 26,
+      "name": "Tongjing N to S 3km TT",
+      "distanceM": 3063.800048828125,
+      "avgGrade": -0.039167046546936035,
+      "startLat": 31.208093643188477,
+      "startLng": 120.7217788696289
+    },
+    {
+      "id": "16357908",
+      "tileScore": 4,
+      "name": "Wusongjiang Rd and Tongjin Ave(Southbound)",
+      "distanceM": 8980.2998046875,
+      "avgGrade": 0.03340645506978035,
+      "startLat": 31.2428035736084,
+      "startLng": 120.7089614868164
+    },
+    {
+      "id": "42434350",
+      "tileScore": 3,
+      "name": "日",
+      "distanceM": 2474.300048828125,
+      "avgGrade": -0.008083093911409378,
+      "startLat": 31.178070068359375,
+      "startLng": 120.7515640258789
+    },
+    {
+      "id": "39503717",
+      "tileScore": 17,
+      "name": "苏同黎（松汾线-周松线）",
+      "distanceM": 2938.699951171875,
+      "avgGrade": -0.03402865305542946,
+      "startLat": 31.15226173400879,
+      "startLng": 120.7516860961914
+    },
+    {
+      "id": "37408198",
+      "tileScore": 12,
+      "name": "Tongli Last Sprint",
+      "distanceM": 1512.300048828125,
+      "avgGrade": -0.06612444669008255,
+      "startLat": 31.172489166259766,
+      "startLng": 120.72900390625
+    },
+    {
+      "id": "14194253",
+      "tileScore": 3,
+      "name": "Subei Rd (Northbound)",
+      "distanceM": 1875.699951171875,
+      "avgGrade": 0.010662686079740524,
+      "startLat": 31.162893295288086,
+      "startLng": 120.76153564453125
+    },
+    {
+      "id": "41163087",
+      "tileScore": 8,
+      "name": "苏同黎右转江兴东路",
+      "distanceM": 12098.900390625,
+      "avgGrade": 0.0016530428547412157,
+      "startLat": 31.242969512939453,
+      "startLng": 120.7718505859375
+    },
+    {
+      "id": "4081071",
+      "tileScore": 9,
+      "name": "Southern Ride through Countryside",
+      "distanceM": 7996,
+      "avgGrade": 0.001250625355169177,
+      "startLat": 31.177043914794922,
+      "startLng": 120.7610092163086
+    },
+    {
+      "id": "38954443",
+      "tileScore": 4,
+      "name": "TongJing RD E to W",
+      "distanceM": 28885.30078125,
+      "avgGrade": -0.04777516424655914,
+      "startLat": 31.166654586791992,
+      "startLng": 120.9546127319336
+    },
+    {
+      "id": "23619739",
+      "tileScore": 1,
+      "name": "2.5K Dead End Rd",
+      "distanceM": 2474.699951171875,
+      "avgGrade": 0.06465429812669754,
+      "startLat": 31.174535751342773,
+      "startLng": 120.74031066894531
+    },
+    {
+      "id": "40655722",
+      "tileScore": 1,
+      "name": "北联村",
+      "distanceM": 4259.89990234375,
+      "avgGrade": -0.014084838330745697,
+      "startLat": 31.17818260192871,
+      "startLng": 120.7516860961914
+    }
+  ]
+}

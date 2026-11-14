@@ -1,0 +1,83 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-14T07:19:59.348Z",
+  "tile": {
+    "z": 13,
+    "x": 6854,
+    "y": 3352
+  },
+  "segments": [
+    {
+      "id": "30259036",
+      "tileScore": 5,
+      "name": "Wenxiang Road",
+      "distanceM": 2300.60009765625,
+      "avgGrade": 0.1173606812953949,
+      "startLat": 31.04472541809082,
+      "startLng": 121.23049926757812
+    },
+    {
+      "id": "30259042",
+      "tileScore": 16,
+      "name": "Songjiang Renmin North Road",
+      "distanceM": 1493.5,
+      "avgGrade": 0.0066956812515854836,
+      "startLat": 31.051803588867188,
+      "startLng": 121.21735382080078
+    },
+    {
+      "id": "20081907",
+      "tileScore": 6,
+      "name": "Gavin lost PNS & ASSOS",
+      "distanceM": 340.29998779296875,
+      "avgGrade": 0.08815751224756241,
+      "startLat": 31.051288604736328,
+      "startLng": 121.2038345336914
+    },
+    {
+      "id": "36108431",
+      "tileScore": 23,
+      "name": "嘉松南路冲桥",
+      "distanceM": 954,
+      "avgGrade": 0.1467505246400833,
+      "startLat": 31.053722381591797,
+      "startLng": 121.2274169921875
+    },
+    {
+      "id": "38921790",
+      "tileScore": 7,
+      "name": "光星滨河绕圈",
+      "distanceM": 2052.800048828125,
+      "avgGrade": -0.029228370636701584,
+      "startLat": 31.045276641845703,
+      "startLng": 121.2372817993164
+    },
+    {
+      "id": "8286825",
+      "tileScore": 17,
+      "name": "Wencheng Rd Shen Jing Tang Bridge (Westbound)",
+      "distanceM": 427.8999938964844,
+      "avgGrade": -0.6543585062026978,
+      "startLat": 31.034351348876953,
+      "startLng": 121.20206451416016
+    },
+    {
+      "id": "30259012",
+      "tileScore": 4,
+      "name": "Guyang North Road",
+      "distanceM": 4497.2001953125,
+      "avgGrade": 0.035577692091464996,
+      "startLat": 31.059492111206055,
+      "startLng": 121.23114776611328
+    },
+    {
+      "id": "36675451",
+      "tileScore": 1,
+      "name": "Uni Town to YKPS",
+      "distanceM": 5466.10009765625,
+      "avgGrade": 0.005488373804837465,
+      "startLat": 31.056684494018555,
+      "startLng": 121.22724914550781
+    }
+  ]
+}

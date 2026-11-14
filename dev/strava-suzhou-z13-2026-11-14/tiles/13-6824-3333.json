@@ -1,0 +1,56 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-14T07:10:16.954Z",
+  "tile": {
+    "z": 13,
+    "x": 6824,
+    "y": 3333
+  },
+  "segments": [
+    {
+      "id": "37435505",
+      "tileScore": 7,
+      "name": "长虹西路-武宜河段缓坡//JOJAD",
+      "distanceM": 776.5,
+      "avgGrade": 0.30907920002937317,
+      "startLat": 31.724166870117188,
+      "startLng": 119.88831329345703
+    },
+    {
+      "id": "995545",
+      "tileScore": 4,
+      "name": "ZhongLou Large Bridge Towards North",
+      "distanceM": 506.67401123046875,
+      "avgGrade": 0.2960331439971924,
+      "startLat": 31.749170303344727,
+      "startLng": 119.8823013305664
+    },
+    {
+      "id": "41305964",
+      "tileScore": 7,
+      "name": "皇粮浜绕圈🐘",
+      "distanceM": 2806.5,
+      "avgGrade": 0,
+      "startLat": 31.75655746459961,
+      "startLng": 119.8982162475586
+    },
+    {
+      "id": "911015",
+      "tileScore": 8,
+      "name": "XinLong Large Bridge Towards North",
+      "distanceM": 434.9649963378906,
+      "avgGrade": 1.5865716934204102,
+      "startLat": 31.7434139251709,
+      "startLng": 119.92280578613281
+    },
+    {
+      "id": "31091632",
+      "tileScore": 9,
+      "name": "G312国道-钟楼大桥至阳湖大桥段",
+      "distanceM": 8605.7998046875,
+      "avgGrade": -0.01626809872686863,
+      "startLat": 31.750730514526367,
+      "startLng": 119.88571166992188
+    }
+  ]
+}

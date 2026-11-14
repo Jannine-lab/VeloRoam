@@ -1,0 +1,38 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-14T06:48:19.319Z",
+  "tile": {
+    "z": 13,
+    "x": 6783,
+    "y": 3245
+  },
+  "segments": [
+    {
+      "id": "41322534",
+      "tileScore": 9,
+      "name": "Langgong Temple Reverse Climbing (Ending at parking lot)",
+      "distanceM": 903.2999877929688,
+      "avgGrade": 5.623823642730713,
+      "startLat": 34.989200592041016,
+      "startLng": 118.10893249511719
+    },
+    {
+      "id": "41322490",
+      "tileScore": 4,
+      "name": "郎公寺正爬转弯到停车场",
+      "distanceM": 928.4000244140625,
+      "avgGrade": 1.1848341226577759,
+      "startLat": 34.98973846435547,
+      "startLng": 118.12831115722656
+    },
+    {
+      "id": "41322545",
+      "tileScore": 1,
+      "name": "郎公寺后山顺时针爬坡一疗程",
+      "distanceM": 3109.60009765625,
+      "avgGrade": 2.17391300201416,
+      "startLat": 34.98952865600586,
+      "startLng": 118.11194610595703
+    }
+  ]
+}

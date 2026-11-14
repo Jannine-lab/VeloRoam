@@ -1,0 +1,236 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-14T07:17:20.273Z",
+  "tile": {
+    "z": 13,
+    "x": 6852,
+    "y": 3351
+  },
+  "segments": [
+    {
+      "id": "37724746",
+      "tileScore": 8,
+      "name": "青浦快运",
+      "distanceM": 66769.3984375,
+      "avgGrade": -0.013179689645767212,
+      "startLat": 31.176237106323242,
+      "startLng": 121.27295684814453
+    },
+    {
+      "id": "38340800",
+      "tileScore": 35,
+      "name": "龙源路至太阳岛辣堡前热身",
+      "distanceM": 12976.599609375,
+      "avgGrade": -0.016953593119978905,
+      "startLat": 31.071630477905273,
+      "startLng": 121.19587707519531
+    },
+    {
+      "id": "32102464",
+      "tileScore": 24,
+      "name": "Villa segment to Shenzhuan Hwy  ",
+      "distanceM": 3591.300048828125,
+      "avgGrade": -0.013922534883022308,
+      "startLat": 31.062870025634766,
+      "startLng": 121.11974334716797
+    },
+    {
+      "id": "35443627",
+      "tileScore": 30,
+      "name": "小昆山田园铁三 Bike 1 Lap",
+      "distanceM": 7466.2998046875,
+      "avgGrade": -0.040180545300245285,
+      "startLat": 31.05215072631836,
+      "startLng": 121.10599517822266
+    },
+    {
+      "id": "27743438",
+      "tileScore": 3,
+      "name": "Cemetery 2 SRC",
+      "distanceM": 56811.30078125,
+      "avgGrade": 0,
+      "startLat": 31.20186996459961,
+      "startLng": 121.27755737304688
+    },
+    {
+      "id": "27327757",
+      "tileScore": 7,
+      "name": "Shanghai Tour de France 上海环法 - Full Tour (100km)",
+      "distanceM": 100065.796875,
+      "avgGrade": 0.002498356159776449,
+      "startLat": 31.153793334960938,
+      "startLng": 121.20298767089844
+    },
+    {
+      "id": "40051554",
+      "tileScore": 107,
+      "name": "骑客晨练前半段",
+      "distanceM": 17343.099609375,
+      "avgGrade": 0.00576598197221756,
+      "startLat": 31.14890480041504,
+      "startLng": 121.22411346435547
+    },
+    {
+      "id": "8274260",
+      "tileScore": 51,
+      "name": "赵昆公路",
+      "distanceM": 2276.39990234375,
+      "avgGrade": 0.0658935159444809,
+      "startLat": 31.055179595947266,
+      "startLng": 121.14254760742188
+    },
+    {
+      "id": "38769178",
+      "tileScore": 82,
+      "name": "走马塘肘赢泥头车",
+      "distanceM": 1395.300048828125,
+      "avgGrade": -0.014333834871649742,
+      "startLat": 31.047704696655273,
+      "startLng": 121.13034057617188
+    },
+    {
+      "id": "8274306",
+      "tileScore": 45,
+      "name": "佘天昆公路-向东",
+      "distanceM": 2751.60009765625,
+      "avgGrade": -0.10902747511863708,
+      "startLat": 31.07249641418457,
+      "startLng": 121.1431884765625
+    },
+    {
+      "id": "6597682",
+      "tileScore": 19,
+      "name": "Jiujiang Hwy Canal Bridge #2 (Northbound)",
+      "distanceM": 84.19999694824219,
+      "avgGrade": 0.9501187801361084,
+      "startLat": 31.08924674987793,
+      "startLng": 121.12889099121094
+    },
+    {
+      "id": "5564637",
+      "tileScore": 33,
+      "name": "Sichengonglu to Shenzhuangonglu via Fushouyuan",
+      "distanceM": 4804.60009765625,
+      "avgGrade": 0.033301420509815216,
+      "startLat": 31.12005043029785,
+      "startLng": 121.1304702758789
+    },
+    {
+      "id": "35083261",
+      "tileScore": 17,
+      "name": "进军摩天轮",
+      "distanceM": 941.5,
+      "avgGrade": 0.15932023525238037,
+      "startLat": 31.051170349121094,
+      "startLng": 121.15521240234375
+    },
+    {
+      "id": "32539661",
+      "tileScore": 72,
+      "name": "Two Mountain ITT(辰花路龙源路至佘天昆公路）",
+      "distanceM": 5728.60009765625,
+      "avgGrade": 0,
+      "startLat": 31.071548461914062,
+      "startLng": 121.19673919677734
+    },
+    {
+      "id": "8013731",
+      "tileScore": 63,
+      "name": "Shenzhuan back bridge to Qianxin Hwy",
+      "distanceM": 9962.2998046875,
+      "avgGrade": 0.03814380243420601,
+      "startLat": 31.079086303710938,
+      "startLng": 121.06366729736328
+    },
+    {
+      "id": "40698369",
+      "tileScore": 29,
+      "name": "昆港北向 半程",
+      "distanceM": 2594.39990234375,
+      "avgGrade": -0.007708911318331957,
+      "startLat": 31.057340621948242,
+      "startLng": 121.12728881835938
+    },
+    {
+      "id": "37027201",
+      "tileScore": 6,
+      "name": "ER speedy circuit ",
+      "distanceM": 75940.3984375,
+      "avgGrade": -0.010534577071666718,
+      "startLat": 31.1991024017334,
+      "startLng": 121.27393341064453
+    },
+    {
+      "id": "42345837",
+      "tileScore": 26,
+      "name": "6哥带你刷两山",
+      "distanceM": 52786.69921875,
+      "avgGrade": -0.002652183175086975,
+      "startLat": 31.17475128173828,
+      "startLng": 121.30008697509766
+    },
+    {
+      "id": "32370472",
+      "tileScore": 23,
+      "name": "Even though there's flab I possess the gift of gab",
+      "distanceM": 2188.10009765625,
+      "avgGrade": -0.018280699849128723,
+      "startLat": 31.075809478759766,
+      "startLng": 121.15234375
+    },
+    {
+      "id": "29969719",
+      "tileScore": 5,
+      "name": "CNB-02",
+      "distanceM": 9227.400390625,
+      "avgGrade": 0.015172204934060574,
+      "startLat": 31.07892417907715,
+      "startLng": 121.11650085449219
+    },
+    {
+      "id": "21731246",
+      "tileScore": 56,
+      "name": "Crossing G1501 Bridge Sprint Reverse",
+      "distanceM": 349.5,
+      "avgGrade": 1.8311874866485596,
+      "startLat": 31.062267303466797,
+      "startLng": 121.12230682373047
+    },
+    {
+      "id": "6597673",
+      "tileScore": 23,
+      "name": "Jiujiang Hwy Canal Bridge #1 (Northbound)",
+      "distanceM": 229.60000610351562,
+      "avgGrade": -0.04355400800704956,
+      "startLat": 31.08389663696289,
+      "startLng": 121.12799072265625
+    },
+    {
+      "id": "23820479",
+      "tileScore": 88,
+      "name": "辰花路天坑酒店段",
+      "distanceM": 2454.5,
+      "avgGrade": 0.02444489859044552,
+      "startLat": 31.07147789001465,
+      "startLng": 121.17084503173828
+    },
+    {
+      "id": "30768094",
+      "tileScore": 2,
+      "name": "JR002",
+      "distanceM": 16654.099609375,
+      "avgGrade": 0.010808149352669716,
+      "startLat": 31.087905883789062,
+      "startLng": 121.1983871459961
+    },
+    {
+      "id": "9512584",
+      "tileScore": 29,
+      "name": "Xinbang Tang Bridge (Southbound)",
+      "distanceM": 111.4000015258789,
+      "avgGrade": 1.974865436553955,
+      "startLat": 31.07442855834961,
+      "startLng": 121.14952087402344
+    }
+  ]
+}

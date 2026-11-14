@@ -1,0 +1,20 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-14T07:12:29.380Z",
+  "tile": {
+    "z": 13,
+    "x": 6818,
+    "y": 3330
+  },
+  "segments": [
+    {
+      "id": "38276064",
+      "tileScore": 3,
+      "name": "X002（折柳-珥陵）",
+      "distanceM": 6896.60009765625,
+      "avgGrade": 0.07249949127435684,
+      "startLat": 31.873502731323242,
+      "startLng": 119.67063903808594
+    }
+  ]
+}

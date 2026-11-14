@@ -1,0 +1,38 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-14T07:06:52.729Z",
+  "tile": {
+    "z": 13,
+    "x": 6829,
+    "y": 3339
+  },
+  "segments": [
+    {
+      "id": "15126703",
+      "tileScore": 4,
+      "name": "Liulv road S to n ITT(6.2km)",
+      "distanceM": 6243,
+      "avgGrade": -0.025628704577684402,
+      "startLat": 31.514507293701172,
+      "startLng": 120.12130737304688
+    },
+    {
+      "id": "14485953",
+      "tileScore": 330,
+      "name": "马山大圈 Mashan Circuit",
+      "distanceM": 58948.69921875,
+      "avgGrade": 0.0011874731862917542,
+      "startLat": 31.55048942565918,
+      "startLng": 120.18302154541016
+    },
+    {
+      "id": "35467745",
+      "tileScore": 113,
+      "name": "十八弯回城桥",
+      "distanceM": 1997.300048828125,
+      "avgGrade": 0.6108246445655823,
+      "startLat": 31.51170539855957,
+      "startLng": 120.13172912597656
+    }
+  ]
+}

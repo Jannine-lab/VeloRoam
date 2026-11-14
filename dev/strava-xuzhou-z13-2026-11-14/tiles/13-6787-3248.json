@@ -1,0 +1,20 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-14T06:48:21.393Z",
+  "tile": {
+    "z": 13,
+    "x": 6787,
+    "y": 3248
+  },
+  "segments": [
+    {
+      "id": "36615477",
+      "tileScore": 3,
+      "name": "武河湿地-付庄走一遭",
+      "distanceM": 14687.099609375,
+      "avgGrade": 0.040852177888154984,
+      "startLat": 34.81955337524414,
+      "startLng": 118.28394317626953
+    }
+  ]
+}

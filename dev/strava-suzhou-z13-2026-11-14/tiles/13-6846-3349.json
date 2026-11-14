@@ -1,0 +1,191 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-14T07:15:16.567Z",
+  "tile": {
+    "z": 13,
+    "x": 6846,
+    "y": 3349
+  },
+  "segments": [
+    {
+      "id": "40366717",
+      "tileScore": 3,
+      "name": "同周公路→淀山湖",
+      "distanceM": 26875.900390625,
+      "avgGrade": 0.008929933421313763,
+      "startLat": 31.156139373779297,
+      "startLng": 120.87418365478516
+    },
+    {
+      "id": "39545950",
+      "tileScore": 2,
+      "name": "白路瓜路",
+      "distanceM": 8818,
+      "avgGrade": -0.21320027112960815,
+      "startLat": 31.15410614013672,
+      "startLng": 120.89579010009766
+    },
+    {
+      "id": "22249275",
+      "tileScore": 5,
+      "name": "Westside Mingjingdan Shoreline Path (Southbound)",
+      "distanceM": 4439.5,
+      "avgGrade": 0.03604009374976158,
+      "startLat": 31.18701171875,
+      "startLng": 120.8481674194336
+    },
+    {
+      "id": "38897849",
+      "tileScore": 1,
+      "name": "公制世纪 - KOM",
+      "distanceM": 101772.296875,
+      "avgGrade": -0.0031442742329090834,
+      "startLat": 31.17006492614746,
+      "startLng": 121.2751235961914
+    },
+    {
+      "id": "40876102",
+      "tileScore": 3,
+      "name": "禁止超车！",
+      "distanceM": 896.4000244140625,
+      "avgGrade": 0.11155734211206436,
+      "startLat": 31.135251998901367,
+      "startLng": 120.88683319091797
+    },
+    {
+      "id": "26244512",
+      "tileScore": 3,
+      "name": "Looping onto the Bridge",
+      "distanceM": 2519.300048828125,
+      "avgGrade": 0.1587742567062378,
+      "startLat": 31.16335105895996,
+      "startLng": 120.87342071533203
+    },
+    {
+      "id": "38954443",
+      "tileScore": 4,
+      "name": "TongJing RD E to W",
+      "distanceM": 28885.30078125,
+      "avgGrade": -0.04777516424655914,
+      "startLat": 31.166654586791992,
+      "startLng": 120.9546127319336
+    },
+    {
+      "id": "40659117",
+      "tileScore": 6,
+      "name": "园区路",
+      "distanceM": 2623.300048828125,
+      "avgGrade": 0.04955590143799782,
+      "startLat": 31.124570846557617,
+      "startLng": 120.86576080322266
+    },
+    {
+      "id": "21511294",
+      "tileScore": 6,
+      "name": "X304 till G15 West bound",
+      "distanceM": 3342,
+      "avgGrade": 0.011968880891799927,
+      "startLat": 31.15538215637207,
+      "startLng": 120.86949920654297
+    },
+    {
+      "id": "40405020",
+      "tileScore": 9,
+      "name": "澄湖训练",
+      "distanceM": 15113,
+      "avgGrade": -0.007940184324979782,
+      "startLat": 31.244274139404297,
+      "startLng": 120.86615753173828
+    },
+    {
+      "id": "39843642",
+      "tileScore": 7,
+      "name": "飞跃周庄",
+      "distanceM": 2540,
+      "avgGrade": -0.04724409431219101,
+      "startLat": 31.1292724609375,
+      "startLng": 120.85107421875
+    },
+    {
+      "id": "41203647",
+      "tileScore": 27,
+      "name": "石楠花魔法攻击",
+      "distanceM": 3364.10009765625,
+      "avgGrade": 0,
+      "startLat": 31.179777145385742,
+      "startLng": 120.88554382324219
+    },
+    {
+      "id": "19040008",
+      "tileScore": 12,
+      "name": "Tongzhou Rd x Baidang Bridge (Westbound)",
+      "distanceM": 1523.300048828125,
+      "avgGrade": -0.013129389844834805,
+      "startLat": 31.15985679626465,
+      "startLng": 120.89301300048828
+    },
+    {
+      "id": "41057436",
+      "tileScore": 19,
+      "name": "王港路口沿荡骑到烂路",
+      "distanceM": 5364.2001953125,
+      "avgGrade": 0.07829686254262924,
+      "startLat": 31.136058807373047,
+      "startLng": 120.90351867675781
+    },
+    {
+      "id": "39843721",
+      "tileScore": 12,
+      "name": "锦周公路",
+      "distanceM": 3464.10009765625,
+      "avgGrade": -0.040414538234472275,
+      "startLat": 31.155187606811523,
+      "startLng": 120.87067413330078
+    },
+    {
+      "id": "41203588",
+      "tileScore": 7,
+      "name": "大桥路",
+      "distanceM": 4066.300048828125,
+      "avgGrade": 0.04426628723740578,
+      "startLat": 31.131654739379883,
+      "startLng": 120.84768676757812
+    },
+    {
+      "id": "41608184",
+      "tileScore": 8,
+      "name": "商周公路(Westbound)",
+      "distanceM": 6586.60009765625,
+      "avgGrade": 0.009109403938055038,
+      "startLat": 31.131389617919922,
+      "startLng": 120.85545349121094
+    },
+    {
+      "id": "38551324",
+      "tileScore": 9,
+      "name": "WangYang Dang-Sprint",
+      "distanceM": 563.5,
+      "avgGrade": -0.39041703939437866,
+      "startLat": 31.129039764404297,
+      "startLng": 120.87078857421875
+    },
+    {
+      "id": "30384821",
+      "tileScore": 2,
+      "name": "THL-4",
+      "distanceM": 116824.5,
+      "avgGrade": -0.0025679543614387512,
+      "startLat": 31.206161499023438,
+      "startLng": 121.28252410888672
+    },
+    {
+      "id": "22249295",
+      "tileScore": 2,
+      "name": "Mingjingdan Shoreline Path (CCW)",
+      "distanceM": 10996.2998046875,
+      "avgGrade": 0.04728863388299942,
+      "startLat": 31.166597366333008,
+      "startLng": 120.87250518798828
+    }
+  ]
+}

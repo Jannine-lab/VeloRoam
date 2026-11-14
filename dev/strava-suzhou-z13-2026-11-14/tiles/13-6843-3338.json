@@ -1,0 +1,38 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-14T07:15:21.967Z",
+  "tile": {
+    "z": 13,
+    "x": 6843,
+    "y": 3338
+  },
+  "segments": [
+    {
+      "id": "35165761",
+      "tileScore": 37,
+      "name": "最后一个冲刺",
+      "distanceM": 1235.800048828125,
+      "avgGrade": -0.016183849424123764,
+      "startLat": 31.558549880981445,
+      "startLng": 120.75225830078125
+    },
+    {
+      "id": "10284227",
+      "tileScore": 1,
+      "name": "X204 (Southbound)",
+      "distanceM": 5129.5,
+      "avgGrade": 0.02144458517432213,
+      "startLat": 31.559480667114258,
+      "startLng": 120.76502227783203
+    },
+    {
+      "id": "40790554",
+      "tileScore": 605,
+      "name": "昆承湖小圈",
+      "distanceM": 17250.30078125,
+      "avgGrade": -0.012753401882946491,
+      "startLat": 31.5965576171875,
+      "startLng": 120.76250457763672
+    }
+  ]
+}

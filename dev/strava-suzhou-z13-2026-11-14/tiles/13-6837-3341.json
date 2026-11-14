@@ -1,0 +1,47 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-14T07:06:31.820Z",
+  "tile": {
+    "z": 13,
+    "x": 6837,
+    "y": 3341
+  },
+  "segments": [
+    {
+      "id": "21864471",
+      "tileScore": 3,
+      "name": "Huanhong S Rd + Nankai Rd",
+      "distanceM": 3662.39990234375,
+      "avgGrade": -0.038226302713155746,
+      "startLat": 31.448026657104492,
+      "startLng": 120.4568099975586
+    },
+    {
+      "id": "17923686",
+      "tileScore": 2,
+      "name": "Wuxi —> Suzhou G312 North Side",
+      "distanceM": 20429.099609375,
+      "avgGrade": -0.019579913467168808,
+      "startLat": 31.500911712646484,
+      "startLng": 120.45547485351562
+    },
+    {
+      "id": "41951095",
+      "tileScore": 4,
+      "name": "Long way to the bridge ",
+      "distanceM": 27068.599609375,
+      "avgGrade": -0.009605225175619125,
+      "startLat": 31.52006721496582,
+      "startLng": 120.57653045654297
+    },
+    {
+      "id": "33610939",
+      "tileScore": 4,
+      "name": "TT from Caohu Lake 12km",
+      "distanceM": 11786.599609375,
+      "avgGrade": 0.015271579846739769,
+      "startLat": 31.4779109954834,
+      "startLng": 120.56510925292969
+    }
+  ]
+}

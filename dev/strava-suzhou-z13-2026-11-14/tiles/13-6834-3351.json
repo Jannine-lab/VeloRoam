@@ -1,0 +1,101 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-14T07:09:46.569Z",
+  "tile": {
+    "z": 13,
+    "x": 6834,
+    "y": 3351
+  },
+  "segments": [
+    {
+      "id": "18922438",
+      "tileScore": 10,
+      "name": "Big hill No 1 around Dongshan peninsular - clockwise",
+      "distanceM": 445.79998779296875,
+      "avgGrade": 2.7366530895233154,
+      "startLat": 31.077238082885742,
+      "startLng": 120.35481262207031
+    },
+    {
+      "id": "34803837",
+      "tileScore": 53,
+      "name": "青蛙村三连击",
+      "distanceM": 2931.300048828125,
+      "avgGrade": 0.006822911556810141,
+      "startLat": 31.056859970092773,
+      "startLng": 120.33834075927734
+    },
+    {
+      "id": "3491706",
+      "tileScore": 10,
+      "name": "Chinese Toscany",
+      "distanceM": 4208.828125,
+      "avgGrade": 0,
+      "startLat": 31.049022674560547,
+      "startLng": 120.33037567138672
+    },
+    {
+      "id": "8370018",
+      "tileScore": 55,
+      "name": "Molifeng Huanshan Rd (Anticlockwise)",
+      "distanceM": 10512.900390625,
+      "avgGrade": -0.04375576600432396,
+      "startLat": 31.09756088256836,
+      "startLng": 120.4084243774414
+    },
+    {
+      "id": "15356228",
+      "tileScore": 43,
+      "name": "东山itt训练路线",
+      "distanceM": 55574.1015625,
+      "avgGrade": 0.002339219208806753,
+      "startLat": 31.18752098083496,
+      "startLng": 120.4769515991211
+    },
+    {
+      "id": "17386232",
+      "tileScore": 53,
+      "name": "环东山（东山宾馆—码头)",
+      "distanceM": 16815.80078125,
+      "avgGrade": -0.03330201283097267,
+      "startLat": 31.09560775756836,
+      "startLng": 120.41627502441406
+    },
+    {
+      "id": "9018562",
+      "tileScore": 8,
+      "name": "Shortcut to save energy for Dongshan climb",
+      "distanceM": 4234.60009765625,
+      "avgGrade": 0.07084494829177856,
+      "startLat": 31.065486907958984,
+      "startLng": 120.35739135742188
+    },
+    {
+      "id": "4795376",
+      "tileScore": 25,
+      "name": "Wanshan Road to nice house on the point",
+      "distanceM": 1370.699951171875,
+      "avgGrade": 1.0578536987304688,
+      "startLat": 31.085954666137695,
+      "startLng": 120.36856842041016
+    },
+    {
+      "id": "33401272",
+      "tileScore": 47,
+      "name": "东西山超级有氧",
+      "distanceM": 137358.703125,
+      "avgGrade": 0.00873624999076128,
+      "startLat": 31.187084197998047,
+      "startLng": 120.4767837524414
+    },
+    {
+      "id": "15330583",
+      "tileScore": 57,
+      "name": "dongshan 30KM",
+      "distanceM": 30081.900390625,
+      "avgGrade": -0.006648516282439232,
+      "startLat": 31.187458038330078,
+      "startLng": 120.47698974609375
+    }
+  ]
+}

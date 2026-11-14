@@ -1,0 +1,20 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-14T07:13:25.011Z",
+  "tile": {
+    "z": 13,
+    "x": 6815,
+    "y": 3330
+  },
+  "segments": [
+    {
+      "id": "37169953",
+      "tileScore": 18,
+      "name": "直荣线 W-E（延西线-G233）",
+      "distanceM": 13004.599609375,
+      "avgGrade": -0.010765422135591507,
+      "startLat": 31.854143142700195,
+      "startLng": 119.45391082763672
+    }
+  ]
+}

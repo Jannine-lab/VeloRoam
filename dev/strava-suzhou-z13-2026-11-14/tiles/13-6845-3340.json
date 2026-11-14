@@ -1,0 +1,101 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-14T07:15:18.404Z",
+  "tile": {
+    "z": 13,
+    "x": 6845,
+    "y": 3340
+  },
+  "segments": [
+    {
+      "id": "24694866",
+      "tileScore": 1,
+      "name": "Five Bridges (Northbound)",
+      "distanceM": 2385.300048828125,
+      "avgGrade": 0.02515406906604767,
+      "startLat": 31.472665786743164,
+      "startLng": 120.81200408935547
+    },
+    {
+      "id": "5326060",
+      "tileScore": 33,
+      "name": "over the highway bridge sprint towards the south",
+      "distanceM": 1466.9000244140625,
+      "avgGrade": 0.006817097309976816,
+      "startLat": 31.491147994995117,
+      "startLng": 120.84819793701172
+    },
+    {
+      "id": "20169914",
+      "tileScore": 4,
+      "name": "YCH TOP Three Bridge WtoE rush",
+      "distanceM": 7901.89990234375,
+      "avgGrade": -0.015186221338808537,
+      "startLat": 31.48989486694336,
+      "startLng": 120.83085632324219
+    },
+    {
+      "id": "24694910",
+      "tileScore": 7,
+      "name": "Northern YCH Peninsula Village Rd (Southbound)",
+      "distanceM": 4633.7001953125,
+      "avgGrade": -0.012948615476489067,
+      "startLat": 31.48841094970703,
+      "startLng": 120.81268310546875
+    },
+    {
+      "id": "14330832",
+      "tileScore": 126,
+      "name": "Chasing South",
+      "distanceM": 6620.5,
+      "avgGrade": 0.021146439015865326,
+      "startLat": 31.49148941040039,
+      "startLng": 120.84745788574219
+    },
+    {
+      "id": "38745052",
+      "tileScore": 218,
+      "name": "M-circle of YCH(B2Bridge 50K)",
+      "distanceM": 50491.30078125,
+      "avgGrade": 0.0023766469676047564,
+      "startLat": 31.388383865356445,
+      "startLng": 120.71324157714844
+    },
+    {
+      "id": "38180255",
+      "tileScore": 125,
+      "name": "一飞冲天！",
+      "distanceM": 505.1000061035156,
+      "avgGrade": 0.395961195230484,
+      "startLat": 31.491737365722656,
+      "startLng": 120.8379898071289
+    },
+    {
+      "id": "3828998",
+      "tileScore": 3,
+      "name": "down the lake on the east side",
+      "distanceM": 17166.642578125,
+      "avgGrade": -0.0005825265543535352,
+      "startLat": 31.491178512573242,
+      "startLng": 120.84818267822266
+    },
+    {
+      "id": "41565907",
+      "tileScore": 2,
+      "name": "马上就回家了",
+      "distanceM": 4134.2998046875,
+      "avgGrade": 0.05805094167590141,
+      "startLat": 31.50362777709961,
+      "startLng": 120.8444595336914
+    },
+    {
+      "id": "4144894",
+      "tileScore": 148,
+      "name": "Top of YCH West to East",
+      "distanceM": 7485.10009765625,
+      "avgGrade": 0.020039811730384827,
+      "startLat": 31.500064849853516,
+      "startLng": 120.77239990234375
+    }
+  ]
+}

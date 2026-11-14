@@ -1,0 +1,119 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-14T07:06:18.590Z",
+  "tile": {
+    "z": 13,
+    "x": 6832,
+    "y": 3339
+  },
+  "segments": [
+    {
+      "id": "31103756",
+      "tileScore": 4,
+      "name": "Full trail 卧龙山庄-宝界山",
+      "distanceM": 6887.39990234375,
+      "avgGrade": -0.6359438896179199,
+      "startLat": 31.46829605102539,
+      "startLng": 120.2383041381836
+    },
+    {
+      "id": "35446087",
+      "tileScore": 17,
+      "name": "山水西路顺时针按摩大腿-cheng",
+      "distanceM": 11360.599609375,
+      "avgGrade": -0.04225129261612892,
+      "startLat": 31.425649642944336,
+      "startLng": 120.22897338867188
+    },
+    {
+      "id": "35145102",
+      "tileScore": 14,
+      "name": "大浮大圈顺时针 长广溪桥起终点",
+      "distanceM": 21947.099609375,
+      "avgGrade": 0.008201539516448975,
+      "startLat": 31.493125915527344,
+      "startLng": 120.2537612915039
+    },
+    {
+      "id": "24372581",
+      "tileScore": 2,
+      "name": "金城西路蠡湖段",
+      "distanceM": 2309.800048828125,
+      "avgGrade": -0.008658758364617825,
+      "startLat": 31.52392578125,
+      "startLng": 120.26904296875
+    },
+    {
+      "id": "28716879",
+      "tileScore": 21,
+      "name": "YYY蠡湖大桥由北往南",
+      "distanceM": 1123.199951171875,
+      "avgGrade": -0.017806267365813255,
+      "startLat": 31.522951126098633,
+      "startLng": 120.2669906616211
+    },
+    {
+      "id": "34245975",
+      "tileScore": 176,
+      "name": "蠡湖小圈(LI HU small circle)",
+      "distanceM": 9307.7001953125,
+      "avgGrade": -0.027933862060308456,
+      "startLat": 31.542009353637695,
+      "startLng": 120.24009704589844
+    },
+    {
+      "id": "20963798",
+      "tileScore": 73,
+      "name": "宝界stealth climb",
+      "distanceM": 1585.5,
+      "avgGrade": 5.575528144836426,
+      "startLat": 31.519609451293945,
+      "startLng": 120.23204040527344
+    },
+    {
+      "id": "6947209",
+      "tileScore": 30,
+      "name": "3km@Shanshui E.Rd.[山水东路3公里铺装路on-road]",
+      "distanceM": 3047.300048828125,
+      "avgGrade": 0.09188462048768997,
+      "startLat": 31.5157527923584,
+      "startLng": 120.23865509033203
+    },
+    {
+      "id": "16940294",
+      "tileScore": 1,
+      "name": "Down and Out",
+      "distanceM": 4210.2998046875,
+      "avgGrade": -0.1615086793899536,
+      "startLat": 31.538738250732422,
+      "startLng": 120.2530517578125
+    },
+    {
+      "id": "22679793",
+      "tileScore": 8,
+      "name": "Huanhu RD Near Liyuan Park",
+      "distanceM": 1416.9000244140625,
+      "avgGrade": -0.01411532238125801,
+      "startLat": 31.52420425415039,
+      "startLng": 120.2559585571289
+    },
+    {
+      "id": "2754067",
+      "tileScore": 92,
+      "name": "Shili Changjing - Bogongdao",
+      "distanceM": 4620.8291015625,
+      "avgGrade": -0.20775173604488373,
+      "startLat": 31.516176223754883,
+      "startLng": 120.23845672607422
+    },
+    {
+      "id": "31103711",
+      "tileScore": 4,
+      "name": "final climb north bound",
+      "distanceM": 337.5,
+      "avgGrade": 4.622221946716309,
+      "startLat": 31.50537109375,
+      "startLng": 120.23466491699219
+    }
+  ]
+}

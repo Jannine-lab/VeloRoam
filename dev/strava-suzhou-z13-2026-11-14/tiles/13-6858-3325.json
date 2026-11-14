@@ -1,0 +1,20 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-14T07:24:11.489Z",
+  "tile": {
+    "z": 13,
+    "x": 6858,
+    "y": 3325
+  },
+  "segments": [
+    {
+      "id": "33892511",
+      "tileScore": 4,
+      "name": "鲜花小镇---吕四港（尽情感受海风吧）",
+      "distanceM": 43901.6015625,
+      "avgGrade": 0.002733385656028986,
+      "startLat": 32.05081558227539,
+      "startLng": 121.104736328125
+    }
+  ]
+}

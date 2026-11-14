@@ -1,0 +1,83 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-14T07:09:55.095Z",
+  "tile": {
+    "z": 13,
+    "x": 6824,
+    "y": 3347
+  },
+  "segments": [
+    {
+      "id": "17657571",
+      "tileScore": 2,
+      "name": "cd-丁蜀到父子岭",
+      "distanceM": 13584.5,
+      "avgGrade": -0.0014722661580890417,
+      "startLat": 31.22429847717285,
+      "startLng": 119.85391998291016
+    },
+    {
+      "id": "40548201",
+      "tileScore": 6,
+      "name": "拉个间歇训练",
+      "distanceM": 5024.60009765625,
+      "avgGrade": 0,
+      "startLat": 31.2117862701416,
+      "startLng": 119.88639831542969
+    },
+    {
+      "id": "35799547",
+      "tileScore": 4,
+      "name": "Chasing the unknown",
+      "distanceM": 2879.699951171875,
+      "avgGrade": -0.17710177600383759,
+      "startLat": 31.19683265686035,
+      "startLng": 119.89921569824219
+    },
+    {
+      "id": "41139115",
+      "tileScore": 16,
+      "name": "taihu300push",
+      "distanceM": 2331.39990234375,
+      "avgGrade": 0.025735609233379364,
+      "startLat": 31.21796417236328,
+      "startLng": 119.9040298461914
+    },
+    {
+      "id": "38279531",
+      "tileScore": 14,
+      "name": "太湖堤坝_南段",
+      "distanceM": 11537.7998046875,
+      "avgGrade": 0.04160238429903984,
+      "startLat": 31.310375213623047,
+      "startLng": 119.93177795410156
+    },
+    {
+      "id": "25879348",
+      "tileScore": 21,
+      "name": "Yixing Bump (Northbound)",
+      "distanceM": 642,
+      "avgGrade": 2.0249221324920654,
+      "startLat": 31.202730178833008,
+      "startLng": 119.89125061035156
+    },
+    {
+      "id": "40564534",
+      "tileScore": 34,
+      "name": "环太湖",
+      "distanceM": 151856.5,
+      "avgGrade": 0.0009219230269081891,
+      "startLat": 31.187686920166016,
+      "startLng": 120.47770690917969
+    },
+    {
+      "id": "4899298",
+      "tileScore": 3,
+      "name": "南京中华门到余杭高速",
+      "distanceM": 177379.09375,
+      "avgGrade": -0.04870923236012459,
+      "startLat": 32.015663146972656,
+      "startLng": 118.77684020996094
+    }
+  ]
+}

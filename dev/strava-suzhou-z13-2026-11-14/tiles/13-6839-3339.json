@@ -1,0 +1,47 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-14T07:07:00.441Z",
+  "tile": {
+    "z": 13,
+    "x": 6839,
+    "y": 3339
+  },
+  "segments": [
+    {
+      "id": "35849866",
+      "tileScore": 6,
+      "name": "Ezhendang Lakeside going North",
+      "distanceM": 2480,
+      "avgGrade": 0.07258064299821854,
+      "startLat": 31.5170955657959,
+      "startLng": 120.55107116699219
+    },
+    {
+      "id": "41100880",
+      "tileScore": 7,
+      "name": "鲁贝冲冲冲，只有最强者能成为王！！",
+      "distanceM": 52570.69921875,
+      "avgGrade": 0.004184840712696314,
+      "startLat": 31.779027938842773,
+      "startLng": 120.82551574707031
+    },
+    {
+      "id": "41951095",
+      "tileScore": 4,
+      "name": "Long way to the bridge ",
+      "distanceM": 27068.599609375,
+      "avgGrade": -0.009605225175619125,
+      "startLat": 31.52006721496582,
+      "startLng": 120.57653045654297
+    },
+    {
+      "id": "34786083",
+      "tileScore": 6,
+      "name": "Along Wanyu river",
+      "distanceM": 6349,
+      "avgGrade": 0.047251537442207336,
+      "startLat": 31.56031036376953,
+      "startLng": 120.59242248535156
+    }
+  ]
+}

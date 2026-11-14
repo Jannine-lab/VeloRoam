@@ -1,0 +1,65 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-14T07:10:03.161Z",
+  "tile": {
+    "z": 13,
+    "x": 6831,
+    "y": 3350
+  },
+  "segments": [
+    {
+      "id": "33401272",
+      "tileScore": 47,
+      "name": "东西山超级有氧",
+      "distanceM": 137358.703125,
+      "avgGrade": 0.00873624999076128,
+      "startLat": 31.187084197998047,
+      "startLng": 120.4767837524414
+    },
+    {
+      "id": "26021578",
+      "tileScore": 25,
+      "name": "Tunnel of Brad",
+      "distanceM": 895.7999877929688,
+      "avgGrade": -0.8260772824287415,
+      "startLat": 31.101524353027344,
+      "startLng": 120.23001861572266
+    },
+    {
+      "id": "14080798",
+      "tileScore": 21,
+      "name": "Celebrity Cemetery Climb",
+      "distanceM": 1427,
+      "avgGrade": 2.8030834197998047,
+      "startLat": 31.12420654296875,
+      "startLng": 120.20867156982422
+    },
+    {
+      "id": "41604239",
+      "tileScore": 30,
+      "name": "小彩蛋 1号",
+      "distanceM": 3722.800048828125,
+      "avgGrade": 0.19340281188488007,
+      "startLat": 31.127151489257812,
+      "startLng": 120.22826385498047
+    },
+    {
+      "id": "35923441",
+      "tileScore": 35,
+      "name": "西山最难二个坡",
+      "distanceM": 4668.2998046875,
+      "avgGrade": -0.00856842938810587,
+      "startLat": 31.11742401123047,
+      "startLng": 120.20885467529297
+    },
+    {
+      "id": "16570089",
+      "tileScore": 22,
+      "name": "XISHAN ITT2",
+      "distanceM": 12911.2998046875,
+      "avgGrade": -0.0015490306541323662,
+      "startLat": 31.12991714477539,
+      "startLng": 120.23184967041016
+    }
+  ]
+}

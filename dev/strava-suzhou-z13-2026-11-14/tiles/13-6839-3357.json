@@ -1,0 +1,38 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-14T07:16:39.639Z",
+  "tile": {
+    "z": 13,
+    "x": 6839,
+    "y": 3357
+  },
+  "segments": [
+    {
+      "id": "39922080",
+      "tileScore": 78,
+      "name": "乡间小路拐弯到加油站",
+      "distanceM": 4914.60009765625,
+      "avgGrade": 0,
+      "startLat": 30.83539581298828,
+      "startLng": 120.54373931884766
+    },
+    {
+      "id": "38939247",
+      "tileScore": 66,
+      "name": "思古大桥Dash Reverse",
+      "distanceM": 920.2000122070312,
+      "avgGrade": 0.19560964405536652,
+      "startLat": 30.83668327331543,
+      "startLng": 120.55267333984375
+    },
+    {
+      "id": "39661782",
+      "tileScore": 80,
+      "name": "RedPigs顺时针绕圈",
+      "distanceM": 46247.8984375,
+      "avgGrade": -0.018162988126277924,
+      "startLat": 30.761287689208984,
+      "startLng": 120.62166595458984
+    }
+  ]
+}

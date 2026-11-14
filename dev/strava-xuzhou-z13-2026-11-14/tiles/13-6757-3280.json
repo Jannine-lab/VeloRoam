@@ -1,0 +1,29 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-14T06:36:28.231Z",
+  "tile": {
+    "z": 13,
+    "x": 6757,
+    "y": 3280
+  },
+  "segments": [
+    {
+      "id": "34307149",
+      "tileScore": 5,
+      "name": "唐河桥至丁集",
+      "distanceM": 9199.5,
+      "avgGrade": 0.05000271648168564,
+      "startLat": 33.71826934814453,
+      "startLng": 116.95848083496094
+    },
+    {
+      "id": "34307559",
+      "tileScore": 1,
+      "name": "西三环",
+      "distanceM": 16911.900390625,
+      "avgGrade": 0.035477977246046066,
+      "startLat": 33.58676528930664,
+      "startLng": 116.92362213134766
+    }
+  ]
+}

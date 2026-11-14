@@ -1,0 +1,65 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-14T07:06:43.291Z",
+  "tile": {
+    "z": 13,
+    "x": 6831,
+    "y": 3337
+  },
+  "segments": [
+    {
+      "id": "10461236",
+      "tileScore": 1,
+      "name": "Huishan Warm-up Loop (Anticlockwise)",
+      "distanceM": 848.7999877929688,
+      "avgGrade": -0.16493874788284302,
+      "startLat": 31.57802963256836,
+      "startLng": 120.22687530517578
+    },
+    {
+      "id": "2206084",
+      "tileScore": 50,
+      "name": "钱荣路159号 Climb",
+      "distanceM": 942.0659790039062,
+      "avgGrade": 11.369426727294922,
+      "startLat": 31.57818603515625,
+      "startLng": 120.2292709350586
+    },
+    {
+      "id": "37154421",
+      "tileScore": 4,
+      "name": "职教园7km圈",
+      "distanceM": 6956.2998046875,
+      "avgGrade": -0.02300073206424713,
+      "startLat": 31.5867862701416,
+      "startLng": 120.18718719482422
+    },
+    {
+      "id": "32459396",
+      "tileScore": 14,
+      "name": "Qianrong Rd. N->S 钱荣路 由北向南方向",
+      "distanceM": 4110.89990234375,
+      "avgGrade": -0.08757206052541733,
+      "startLat": 31.592273712158203,
+      "startLng": 120.22982025146484
+    },
+    {
+      "id": "8701894",
+      "tileScore": 3,
+      "name": "XC Climb@Shunkeshan hill[舜柯山越野爬坡off-road]",
+      "distanceM": 1345.699951171875,
+      "avgGrade": 8.293082237243652,
+      "startLat": 31.588489532470703,
+      "startLng": 120.22115325927734
+    },
+    {
+      "id": "936847",
+      "tileScore": 506,
+      "name": "HuiShan Hill",
+      "distanceM": 5782.56982421875,
+      "avgGrade": 4.3198561668396,
+      "startLat": 31.57672691345215,
+      "startLng": 120.22569274902344
+    }
+  ]
+}

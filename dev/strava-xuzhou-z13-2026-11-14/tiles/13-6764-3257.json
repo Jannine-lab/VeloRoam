@@ -1,0 +1,20 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-14T06:30:48.876Z",
+  "tile": {
+    "z": 13,
+    "x": 6764,
+    "y": 3257
+  },
+  "segments": [
+    {
+      "id": "39553222",
+      "tileScore": 1,
+      "name": "西里由西向东爬坡",
+      "distanceM": 1092.5999755859375,
+      "avgGrade": 1.903715968132019,
+      "startLat": 34.52941131591797,
+      "startLng": 117.26878356933594
+    }
+  ]
+}

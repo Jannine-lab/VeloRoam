@@ -1,0 +1,20 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-14T06:30:32.194Z",
+  "tile": {
+    "z": 13,
+    "x": 6769,
+    "y": 3260
+  },
+  "segments": [
+    {
+      "id": "18205297",
+      "tileScore": 3,
+      "name": "2013年徐州赛",
+      "distanceM": 20277.30078125,
+      "avgGrade": 0.021699141710996628,
+      "startLat": 34.435218811035156,
+      "startLng": 117.45744323730469
+    }
+  ]
+}

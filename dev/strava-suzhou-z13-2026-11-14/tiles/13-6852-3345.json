@@ -1,0 +1,74 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-14T07:16:48.771Z",
+  "tile": {
+    "z": 13,
+    "x": 6852,
+    "y": 3345
+  },
+  "segments": [
+    {
+      "id": "22264078",
+      "tileScore": 6,
+      "name": "苏州回上海（昆山~安亭）",
+      "distanceM": 24057.19921875,
+      "avgGrade": -0.03491678088903427,
+      "startLat": 31.33888816833496,
+      "startLng": 120.90005493164062
+    },
+    {
+      "id": "39022768",
+      "tileScore": 15,
+      "name": "Wusong River Greenway Section 4 (Eastbound)",
+      "distanceM": 4615.7998046875,
+      "avgGrade": 0.008665886707603931,
+      "startLat": 31.275123596191406,
+      "startLng": 121.10271453857422
+    },
+    {
+      "id": "31116203",
+      "tileScore": 6,
+      "name": "Qinan Road-Caoxin Road",
+      "distanceM": 637.7000122070312,
+      "avgGrade": -0.0940881296992302,
+      "startLat": 31.29059600830078,
+      "startLng": 121.14996337890625
+    },
+    {
+      "id": "32491860",
+      "tileScore": 2,
+      "name": "冲击！光明路站！",
+      "distanceM": 953.2999877929688,
+      "avgGrade": 0.08391901850700378,
+      "startLat": 31.296110153198242,
+      "startLng": 121.12130737304688
+    },
+    {
+      "id": "32491841",
+      "tileScore": 7,
+      "name": "泥头车对对碰！！！",
+      "distanceM": 1611.699951171875,
+      "avgGrade": 0.13650183379650116,
+      "startLat": 31.29472541809082,
+      "startLng": 121.137451171875
+    },
+    {
+      "id": "32274641",
+      "tileScore": 4,
+      "name": "chen feng sprint",
+      "distanceM": 892.0999755859375,
+      "avgGrade": 0.033628515899181366,
+      "startLat": 31.284940719604492,
+      "startLng": 121.14647674560547
+    },
+    {
+      "id": "24972511",
+      "tileScore": 5,
+      "name": "Greenway west to Moyu lu",
+      "distanceM": 814.7999877929688,
+      "avgGrade": -0.2945508062839508,
+      "startLat": 31.280963897705078,
+      "startLng": 121.15159606933594
+    }
+  ]
+}

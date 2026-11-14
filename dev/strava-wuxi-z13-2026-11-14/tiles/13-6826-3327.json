@@ -1,0 +1,20 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-14T07:01:16.489Z",
+  "tile": {
+    "z": 13,
+    "x": 6826,
+    "y": 3327
+  },
+  "segments": [
+    {
+      "id": "38313534",
+      "tileScore": 2,
+      "name": "王师北定",
+      "distanceM": 3489,
+      "avgGrade": -0.11464603245258331,
+      "startLat": 31.971633911132812,
+      "startLng": 119.98744201660156
+    }
+  ]
+}

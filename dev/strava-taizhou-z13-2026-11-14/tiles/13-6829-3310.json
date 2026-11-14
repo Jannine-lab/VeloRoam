@@ -1,0 +1,20 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-14T06:57:04.346Z",
+  "tile": {
+    "z": 13,
+    "x": 6829,
+    "y": 3310
+  },
+  "segments": [
+    {
+      "id": "40703093",
+      "tileScore": 10,
+      "name": "353西向东",
+      "distanceM": 6422.39990234375,
+      "avgGrade": 0.02179870568215847,
+      "startLat": 32.603759765625,
+      "startLng": 120.0833969116211
+    }
+  ]
+}

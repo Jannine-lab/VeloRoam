@@ -1,0 +1,110 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-14T07:06:14.739Z",
+  "tile": {
+    "z": 13,
+    "x": 6832,
+    "y": 3341
+  },
+  "segments": [
+    {
+      "id": "41273306",
+      "tileScore": 3,
+      "name": "XC circle-S@TGS[塘鿍山小圈off-road]",
+      "distanceM": 1209.0999755859375,
+      "avgGrade": 0.03308245912194252,
+      "startLat": 31.446102142333984,
+      "startLng": 120.25065612792969
+    },
+    {
+      "id": "8034576",
+      "tileScore": 6,
+      "name": "Changguangxiqiao - Shangshui  - Yuanxi Rd. Circle anti-clockwise[长广溪桥-山水东路-缘溪道(逆时针绕圈)]",
+      "distanceM": 20233.400390625,
+      "avgGrade": 0.03558472543954849,
+      "startLat": 31.49383544921875,
+      "startLng": 120.25764465332031
+    },
+    {
+      "id": "6731476",
+      "tileScore": 9,
+      "name": "Wuxi No Name hill WtB",
+      "distanceM": 1604,
+      "avgGrade": 3.1920199394226074,
+      "startLat": 31.447677612304688,
+      "startLng": 120.2384262084961
+    },
+    {
+      "id": "25414155",
+      "tileScore": 14,
+      "name": "Panlang Rd Climb Loop",
+      "distanceM": 10530.2998046875,
+      "avgGrade": -0.03988490626215935,
+      "startLat": 31.446733474731445,
+      "startLng": 120.23834991455078
+    },
+    {
+      "id": "36836607",
+      "tileScore": 28,
+      "name": "bingo",
+      "distanceM": 21878.69921875,
+      "avgGrade": -0.01828262209892273,
+      "startLat": 31.476436614990234,
+      "startLng": 120.25367736816406
+    },
+    {
+      "id": "36496590",
+      "tileScore": 15,
+      "name": "容庄-盘龙两山连爬",
+      "distanceM": 5344.89990234375,
+      "avgGrade": 0.005612827371805906,
+      "startLat": 31.462539672851562,
+      "startLng": 120.24067687988281
+    },
+    {
+      "id": "33484546",
+      "tileScore": 15,
+      "name": "山水东路N-S",
+      "distanceM": 2553.5,
+      "avgGrade": -0.2036420702934265,
+      "startLat": 31.446630477905273,
+      "startLng": 120.23834991455078
+    },
+    {
+      "id": "7807729",
+      "tileScore": 32,
+      "name": "Climb @ Xue Lang Shan (From Gate N.)",
+      "distanceM": 1918.4000244140625,
+      "avgGrade": 5.890325546264648,
+      "startLat": 31.460317611694336,
+      "startLng": 120.25311279296875
+    },
+    {
+      "id": "5513572",
+      "tileScore": 20,
+      "name": "Xuelangshan Climb",
+      "distanceM": 1460.5999755859375,
+      "avgGrade": 1.0132821798324585,
+      "startLat": 31.46674156188965,
+      "startLng": 120.2489242553711
+    },
+    {
+      "id": "23672604",
+      "tileScore": 24,
+      "name": " MT.  Loop clockwise",
+      "distanceM": 7947.2001953125,
+      "avgGrade": 0,
+      "startLat": 31.4616641998291,
+      "startLng": 120.25032043457031
+    },
+    {
+      "id": "35145102",
+      "tileScore": 14,
+      "name": "大浮大圈顺时针 长广溪桥起终点",
+      "distanceM": 21947.099609375,
+      "avgGrade": 0.008201539516448975,
+      "startLat": 31.493125915527344,
+      "startLng": 120.2537612915039
+    }
+  ]
+}

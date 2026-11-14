@@ -1,0 +1,182 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-14T07:09:11.526Z",
+  "tile": {
+    "z": 13,
+    "x": 6842,
+    "y": 3343
+  },
+  "segments": [
+    {
+      "id": "13019668",
+      "tileScore": 12,
+      "name": "Middle Ring Expy Bridge (Eastbound)",
+      "distanceM": 662.5999755859375,
+      "avgGrade": 0.5885904431343079,
+      "startLat": 31.38332748413086,
+      "startLng": 120.71656036376953
+    },
+    {
+      "id": "10675620",
+      "tileScore": 38,
+      "name": "Yangchenghu Bridge (Northbound)",
+      "distanceM": 288.6000061035156,
+      "avgGrade": -0.17325018346309662,
+      "startLat": 31.38585090637207,
+      "startLng": 120.71308135986328
+    },
+    {
+      "id": "13788467",
+      "tileScore": 26,
+      "name": "Thang's Tussenweggetje",
+      "distanceM": 652.7999877929688,
+      "avgGrade": -0.030637256801128387,
+      "startLat": 31.351354598999023,
+      "startLng": 120.70573425292969
+    },
+    {
+      "id": "38784466",
+      "tileScore": 1,
+      "name": "观澜丽宫-北门顺时针",
+      "distanceM": 1051.0999755859375,
+      "avgGrade": -0.11416611075401306,
+      "startLat": 31.37421417236328,
+      "startLng": 120.71704864501953
+    },
+    {
+      "id": "9898069",
+      "tileScore": 4,
+      "name": "Xinghu St (McDonalds Exit to Weicheng Rd)",
+      "distanceM": 1302.199951171875,
+      "avgGrade": -0.03071724809706211,
+      "startLat": 31.364238739013672,
+      "startLng": 120.71253967285156
+    },
+    {
+      "id": "35485870",
+      "tileScore": 1,
+      "name": "一路向南",
+      "distanceM": 15026.7998046875,
+      "avgGrade": -0.02262623980641365,
+      "startLat": 31.454683303833008,
+      "startLng": 120.67469787597656
+    },
+    {
+      "id": "40867166",
+      "tileScore": 7,
+      "name": "水杉绿道",
+      "distanceM": 2234.89990234375,
+      "avgGrade": 0.04474473372101784,
+      "startLat": 31.38661766052246,
+      "startLng": 120.71388244628906
+    },
+    {
+      "id": "12649989",
+      "tileScore": 180,
+      "name": "YCH North to LJH",
+      "distanceM": 7725.2998046875,
+      "avgGrade": 0.04271678626537323,
+      "startLat": 31.387466430664062,
+      "startLng": 120.71316528320312
+    },
+    {
+      "id": "23526218",
+      "tileScore": 221,
+      "name": "Up da Lake",
+      "distanceM": 12626.5,
+      "avgGrade": 0.009503821842372417,
+      "startLat": 31.38671112060547,
+      "startLng": 120.7130355834961
+    },
+    {
+      "id": "10570549",
+      "tileScore": 1,
+      "name": "Yujing Rd (Northbound)",
+      "distanceM": 1465.4000244140625,
+      "avgGrade": -0.18425002694129944,
+      "startLat": 31.34239959716797,
+      "startLng": 120.69679260253906
+    },
+    {
+      "id": "38745052",
+      "tileScore": 218,
+      "name": "M-circle of YCH(B2Bridge 50K)",
+      "distanceM": 50491.30078125,
+      "avgGrade": 0.0023766469676047564,
+      "startLat": 31.388383865356445,
+      "startLng": 120.71324157714844
+    },
+    {
+      "id": "14255479",
+      "tileScore": 7,
+      "name": "YCH Ave Kuayang Rd to McD",
+      "distanceM": 3456.10009765625,
+      "avgGrade": -0.034721218049526215,
+      "startLat": 31.357973098754883,
+      "startLng": 120.67585754394531
+    },
+    {
+      "id": "14254414",
+      "tileScore": 1,
+      "name": "Middle Ring Expy: 20KM",
+      "distanceM": 19522.80078125,
+      "avgGrade": 0.06863769143819809,
+      "startLat": 31.386428833007812,
+      "startLng": 120.70919036865234
+    },
+    {
+      "id": "12141566",
+      "tileScore": 10,
+      "name": "11K Yangchenghu Ave (Westbound)",
+      "distanceM": 11387.7998046875,
+      "avgGrade": 0.017562653869390488,
+      "startLat": 31.38125228881836,
+      "startLng": 120.83155822753906
+    },
+    {
+      "id": "21728109",
+      "tileScore": 2,
+      "name": "Let's go to Church",
+      "distanceM": 7053.60009765625,
+      "avgGrade": 0.011341726407408714,
+      "startLat": 31.38500213623047,
+      "startLng": 120.7073745727539
+    },
+    {
+      "id": "10641393",
+      "tileScore": 9,
+      "name": "West YCHP Lake Side Cycling Lane - Over-Water Bridge #1 (Westbound)",
+      "distanceM": 1589.9000244140625,
+      "avgGrade": -0.056607335805892944,
+      "startLat": 31.372167587280273,
+      "startLng": 120.69925689697266
+    },
+    {
+      "id": "10570570",
+      "tileScore": 1,
+      "name": "Tingrong St (Northbound)",
+      "distanceM": 590.5,
+      "avgGrade": 0.44030481576919556,
+      "startLat": 31.354562759399414,
+      "startLng": 120.69020080566406
+    },
+    {
+      "id": "5671337",
+      "tileScore": 2,
+      "name": "hammering down the long straigth",
+      "distanceM": 2240.60009765625,
+      "avgGrade": -0.058020174503326416,
+      "startLat": 31.38225746154785,
+      "startLng": 120.70773315429688
+    },
+    {
+      "id": "8310360",
+      "tileScore": 3,
+      "name": "Xinghu St x G2 Huning Expy Bridge (Northbound)",
+      "distanceM": 443.8999938964844,
+      "avgGrade": -0.24780356884002686,
+      "startLat": 31.352434158325195,
+      "startLng": 120.71368408203125
+    }
+  ]
+}

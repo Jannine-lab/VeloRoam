@@ -1,0 +1,119 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-14T07:07:11.858Z",
+  "tile": {
+    "z": 13,
+    "x": 6836,
+    "y": 3345
+  },
+  "segments": [
+    {
+      "id": "23927574",
+      "tileScore": 1,
+      "name": "科技城至吴中大道",
+      "distanceM": 22233.900390625,
+      "avgGrade": -0.001799054560251534,
+      "startLat": 31.339780807495117,
+      "startLng": 120.42162322998047
+    },
+    {
+      "id": "40875512",
+      "tileScore": 4,
+      "name": "The wall",
+      "distanceM": 960.7999877929688,
+      "avgGrade": 13.114070892333984,
+      "startLat": 31.308643341064453,
+      "startLng": 120.44600677490234
+    },
+    {
+      "id": "11774716",
+      "tileScore": 70,
+      "name": "Yupingshan Ascent (Anticlockwise) ",
+      "distanceM": 1169.4000244140625,
+      "avgGrade": 7.739011287689209,
+      "startLat": 31.307180404663086,
+      "startLng": 120.42699432373047
+    },
+    {
+      "id": "39891568",
+      "tileScore": 5,
+      "name": "苏州五峰环线 （玉山路起止）",
+      "distanceM": 33626.3984375,
+      "avgGrade": 0.008326790295541286,
+      "startLat": 31.283851623535156,
+      "startLng": 120.51029968261719
+    },
+    {
+      "id": "12151242",
+      "tileScore": 5,
+      "name": "Sprint towards Yupingshan",
+      "distanceM": 1181.300048828125,
+      "avgGrade": 0.42326250672340393,
+      "startLat": 31.302446365356445,
+      "startLng": 120.4135971069336
+    },
+    {
+      "id": "11899456",
+      "tileScore": 2,
+      "name": "X007 (Southbound to 412 Country Rd)",
+      "distanceM": 2936.89990234375,
+      "avgGrade": 0.0408594086766243,
+      "startLat": 31.3209171295166,
+      "startLng": 120.44722747802734
+    },
+    {
+      "id": "21701523",
+      "tileScore": 4,
+      "name": "Village Climb",
+      "distanceM": 649.2000122070312,
+      "avgGrade": 8.471965789794922,
+      "startLat": 31.294008255004883,
+      "startLng": 120.43617248535156
+    },
+    {
+      "id": "25980073",
+      "tileScore": 2,
+      "name": "David’s Shortcut #1",
+      "distanceM": 886.5,
+      "avgGrade": 0.4737732410430908,
+      "startLat": 31.28748893737793,
+      "startLng": 120.42829895019531
+    },
+    {
+      "id": "41510880",
+      "tileScore": 1,
+      "name": "真山爬坡",
+      "distanceM": 945,
+      "avgGrade": 9.0687837600708,
+      "startLat": 31.297691345214844,
+      "startLng": 120.44329833984375
+    },
+    {
+      "id": "37982355",
+      "tileScore": 8,
+      "name": "五峰山穿越主线",
+      "distanceM": 2566.10009765625,
+      "avgGrade": 0.023381786420941353,
+      "startLat": 31.278915405273438,
+      "startLng": 120.46665954589844
+    },
+    {
+      "id": "10230107",
+      "tileScore": 2,
+      "name": "Qiongling Rd (Westbound)",
+      "distanceM": 6561.7001953125,
+      "avgGrade": -0.0960117056965828,
+      "startLat": 31.259403228759766,
+      "startLng": 120.49449157714844
+    },
+    {
+      "id": "39252247",
+      "tileScore": 3,
+      "name": "Gabb's Dead End",
+      "distanceM": 522.4000244140625,
+      "avgGrade": 8.537519454956055,
+      "startLat": 31.296003341674805,
+      "startLng": 120.42340850830078
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-14T06:21:56.281Z",
+  "tile": {
+    "z": 13,
+    "x": 6759,
+    "y": 3265
+  },
+  "segments": [
+    {
+      "id": "35403916",
+      "tileScore": 5,
+      "name": "千佛寺mini坡",
+      "distanceM": 561.9000244140625,
+      "avgGrade": 12.137391090393066,
+      "startLat": 34.26209259033203,
+      "startLng": 117.05432891845703
+    }
+  ]
+}

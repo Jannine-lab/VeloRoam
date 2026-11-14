@@ -1,0 +1,56 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-14T07:07:59.278Z",
+  "tile": {
+    "z": 13,
+    "x": 6840,
+    "y": 3342
+  },
+  "segments": [
+    {
+      "id": "35601357",
+      "tileScore": 7,
+      "name": "太阳路-春申湖中路",
+      "distanceM": 3340.5,
+      "avgGrade": -0.03592276573181152,
+      "startLat": 31.411924362182617,
+      "startLng": 120.62542724609375
+    },
+    {
+      "id": "17923686",
+      "tileScore": 2,
+      "name": "Wuxi —> Suzhou G312 North Side",
+      "distanceM": 20429.099609375,
+      "avgGrade": -0.019579913467168808,
+      "startLat": 31.500911712646484,
+      "startLng": 120.45547485351562
+    },
+    {
+      "id": "30964980",
+      "tileScore": 5,
+      "name": "沿御窑路从黄埭荡到京沪高铁桥底",
+      "distanceM": 3198,
+      "avgGrade": 0.12507817149162292,
+      "startLat": 31.408201217651367,
+      "startLng": 120.6060562133789
+    },
+    {
+      "id": "34203256",
+      "tileScore": 6,
+      "name": "凯 荷塘月色公园五公里绕圈",
+      "distanceM": 4988.7998046875,
+      "avgGrade": -0.020044900476932526,
+      "startLat": 31.403234481811523,
+      "startLng": 120.58230590820312
+    },
+    {
+      "id": "14254414",
+      "tileScore": 1,
+      "name": "Middle Ring Expy: 20KM",
+      "distanceM": 19522.80078125,
+      "avgGrade": 0.06863769143819809,
+      "startLat": 31.386428833007812,
+      "startLng": 120.70919036865234
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-14T06:42:10.146Z",
+  "tile": {
+    "z": 13,
+    "x": 6770,
+    "y": 3246
+  },
+  "segments": [
+    {
+      "id": "37093591",
+      "tileScore": 7,
+      "name": "夹谷山爬坡",
+      "distanceM": 1802.800048828125,
+      "avgGrade": 7.8988237380981445,
+      "startLat": 34.92433166503906,
+      "startLng": 117.52576446533203
+    }
+  ]
+}

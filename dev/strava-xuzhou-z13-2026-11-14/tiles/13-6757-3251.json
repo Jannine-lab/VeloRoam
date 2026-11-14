@@ -1,0 +1,20 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-14T06:39:10.296Z",
+  "tile": {
+    "z": 13,
+    "x": 6757,
+    "y": 3251
+  },
+  "segments": [
+    {
+      "id": "41955333",
+      "tileScore": 8,
+      "name": "千岛湖 东环 湖西堤绕圈",
+      "distanceM": 27152.599609375,
+      "avgGrade": -0.008102355524897575,
+      "startLat": 34.814353942871094,
+      "startLng": 116.92657470703125
+    }
+  ]
+}

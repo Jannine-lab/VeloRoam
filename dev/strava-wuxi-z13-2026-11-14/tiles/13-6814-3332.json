@@ -1,0 +1,20 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-14T07:13:19.102Z",
+  "tile": {
+    "z": 13,
+    "x": 6814,
+    "y": 3332
+  },
+  "segments": [
+    {
+      "id": "40584704",
+      "tileScore": 10,
+      "name": "建社线 S-N（金茅路-白乾公路）",
+      "distanceM": 5318,
+      "avgGrade": 0.011282436549663544,
+      "startLat": 31.775602340698242,
+      "startLng": 119.50218200683594
+    }
+  ]
+}

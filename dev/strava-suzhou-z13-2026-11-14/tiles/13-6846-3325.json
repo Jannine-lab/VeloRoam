@@ -1,0 +1,56 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-14T07:24:13.556Z",
+  "tile": {
+    "z": 13,
+    "x": 6846,
+    "y": 3325
+  },
+  "segments": [
+    {
+      "id": "39154956",
+      "tileScore": 14,
+      "name": "Hua Qiang to Feng Ya Xi Ting",
+      "distanceM": 24200.400390625,
+      "avgGrade": 0.0016528653213754296,
+      "startLat": 32.0452766418457,
+      "startLng": 120.8616943359375
+    },
+    {
+      "id": "26227496",
+      "tileScore": 3,
+      "name": "Scenic Road by the TL Canal",
+      "distanceM": 2956.89990234375,
+      "avgGrade": -0.033819202333688736,
+      "startLat": 32.03821563720703,
+      "startLng": 120.8423843383789
+    },
+    {
+      "id": "39278224",
+      "tileScore": 11,
+      "name": "工农路（军山 to 江海大道）",
+      "distanceM": 11311.099609375,
+      "avgGrade": 0.008840873837471008,
+      "startLat": 31.945648193359375,
+      "startLng": 120.90045928955078
+    },
+    {
+      "id": "39278183",
+      "tileScore": 1,
+      "name": "永和路飞奔",
+      "distanceM": 7981.5,
+      "avgGrade": -0.007517383899539709,
+      "startLat": 32.05760955810547,
+      "startLng": 120.89878845214844
+    },
+    {
+      "id": "39278236",
+      "tileScore": 2,
+      "name": "江海大道（工农路 to 迪卡侬）",
+      "distanceM": 4332.2001953125,
+      "avgGrade": 0.032316144555807114,
+      "startLat": 32.04576873779297,
+      "startLng": 120.874267578125
+    }
+  ]
+}

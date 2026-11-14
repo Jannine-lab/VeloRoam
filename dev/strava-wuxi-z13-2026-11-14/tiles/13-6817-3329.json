@@ -1,0 +1,20 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-14T07:13:21.045Z",
+  "tile": {
+    "z": 13,
+    "x": 6817,
+    "y": 3329
+  },
+  "segments": [
+    {
+      "id": "38275983",
+      "tileScore": 2,
+      "name": "珥陵-横塘（丹西公路-G312）",
+      "distanceM": 4882.89990234375,
+      "avgGrade": -0.008191852830350399,
+      "startLat": 31.886747360229492,
+      "startLng": 119.59406280517578
+    }
+  ]
+}

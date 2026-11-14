@@ -1,0 +1,38 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-14T07:06:45.225Z",
+  "tile": {
+    "z": 13,
+    "x": 6837,
+    "y": 3337
+  },
+  "segments": [
+    {
+      "id": "34586563",
+      "tileScore": 2,
+      "name": "锡沪路直线",
+      "distanceM": 6651.2998046875,
+      "avgGrade": 0.06915941834449768,
+      "startLat": 31.611818313598633,
+      "startLng": 120.49181365966797
+    },
+    {
+      "id": "29896460",
+      "tileScore": 2,
+      "name": "Xishan Ave bridge westbound",
+      "distanceM": 542.2000122070312,
+      "avgGrade": 0.66396164894104,
+      "startLat": 31.580732345581055,
+      "startLng": 120.48600006103516
+    },
+    {
+      "id": "29896475",
+      "tileScore": 3,
+      "name": "around WanShanHu",
+      "distanceM": 5384.39990234375,
+      "avgGrade": -0.01485773641616106,
+      "startLat": 31.599308013916016,
+      "startLng": 120.5093002319336
+    }
+  ]
+}

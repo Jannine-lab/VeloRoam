@@ -1,0 +1,245 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-14T07:09:34.505Z",
+  "tile": {
+    "z": 13,
+    "x": 6842,
+    "y": 3344
+  },
+  "segments": [
+    {
+      "id": "8299193",
+      "tileScore": 110,
+      "name": "Jinji Lake North On Xiandai Ave (Eastbound)",
+      "distanceM": 2024.800048828125,
+      "avgGrade": 0.05926511436700821,
+      "startLat": 31.32468605041504,
+      "startLng": 120.6745834350586
+    },
+    {
+      "id": "42063405",
+      "tileScore": 5,
+      "name": "齐门桥 至 陆泾路南端",
+      "distanceM": 6074.89990234375,
+      "avgGrade": -0.06584470719099045,
+      "startLat": 31.331071853637695,
+      "startLng": 120.62173461914062
+    },
+    {
+      "id": "3407839",
+      "tileScore": 3,
+      "name": "Bridge up sprint",
+      "distanceM": 586.5794677734375,
+      "avgGrade": -0.017047390341758728,
+      "startLat": 31.35219383239746,
+      "startLng": 120.67637634277344
+    },
+    {
+      "id": "8247183",
+      "tileScore": 52,
+      "name": "You'an St (Southbound)",
+      "distanceM": 1381.0999755859375,
+      "avgGrade": -0.07964666187763214,
+      "startLat": 31.320159912109375,
+      "startLng": 120.70692443847656
+    },
+    {
+      "id": "15725922",
+      "tileScore": 1,
+      "name": "G312-Xingming St to Xinghu St(Eastbound)",
+      "distanceM": 5241.2001953125,
+      "avgGrade": -0.05723879858851433,
+      "startLat": 31.330923080444336,
+      "startLng": 120.65724182128906
+    },
+    {
+      "id": "11422563",
+      "tileScore": 2,
+      "name": "Shenhu West Rd (Westbound)",
+      "distanceM": 3017.10009765625,
+      "avgGrade": 0.12594875693321228,
+      "startLat": 31.33530044555664,
+      "startLng": 120.7279281616211
+    },
+    {
+      "id": "10570549",
+      "tileScore": 1,
+      "name": "Yujing Rd (Northbound)",
+      "distanceM": 1465.4000244140625,
+      "avgGrade": -0.18425002694129944,
+      "startLat": 31.34239959716797,
+      "startLng": 120.69679260253906
+    },
+    {
+      "id": "8310360",
+      "tileScore": 3,
+      "name": "Xinghu St x G2 Huning Expy Bridge (Northbound)",
+      "distanceM": 443.8999938964844,
+      "avgGrade": -0.24780356884002686,
+      "startLat": 31.352434158325195,
+      "startLng": 120.71368408203125
+    },
+    {
+      "id": "9327322",
+      "tileScore": 5,
+      "name": "Zhihe West Road (West bound)",
+      "distanceM": 1397.300048828125,
+      "avgGrade": 0.09303656965494156,
+      "startLat": 31.34222984313965,
+      "startLng": 120.710693359375
+    },
+    {
+      "id": "42381781",
+      "tileScore": 43,
+      "name": "JJH530 LOOP",
+      "distanceM": 14881,
+      "avgGrade": -0.059135809540748596,
+      "startLat": 31.301347732543945,
+      "startLng": 120.71953582763672
+    },
+    {
+      "id": "11405359",
+      "tileScore": 2,
+      "name": "Fengting Rd (Westbound)",
+      "distanceM": 11067.2001953125,
+      "avgGrade": -0.005421425681561232,
+      "startLat": 31.367603302001953,
+      "startLng": 120.79261016845703
+    },
+    {
+      "id": "22033505",
+      "tileScore": 5,
+      "name": "Kuayang Rd Underpass (Northbound)",
+      "distanceM": 347.20001220703125,
+      "avgGrade": 0,
+      "startLat": 31.33649253845215,
+      "startLng": 120.68047332763672
+    },
+    {
+      "id": "8721468",
+      "tileScore": 7,
+      "name": "Xinghu street southbound",
+      "distanceM": 1865.5,
+      "avgGrade": -0.10184936970472336,
+      "startLat": 31.32701873779297,
+      "startLng": 120.7158432006836
+    },
+    {
+      "id": "13788467",
+      "tileScore": 26,
+      "name": "Thang's Tussenweggetje",
+      "distanceM": 652.7999877929688,
+      "avgGrade": -0.030637256801128387,
+      "startLat": 31.351354598999023,
+      "startLng": 120.70573425292969
+    },
+    {
+      "id": "15222262",
+      "tileScore": 4,
+      "name": "G312 SIP WtoE",
+      "distanceM": 8329.599609375,
+      "avgGrade": -0.007203226909041405,
+      "startLat": 31.3336181640625,
+      "startLng": 120.6710205078125
+    },
+    {
+      "id": "31519169",
+      "tileScore": 101,
+      "name": "Elmo's HIIT Sprint",
+      "distanceM": 613.4000244140625,
+      "avgGrade": 1.1900880336761475,
+      "startLat": 31.325164794921875,
+      "startLng": 120.6779556274414
+    },
+    {
+      "id": "33841895",
+      "tileScore": 79,
+      "name": "Xiandai Ave",
+      "distanceM": 651.2999877929688,
+      "avgGrade": -0.046061720699071884,
+      "startLat": 31.32711410522461,
+      "startLng": 120.68861389160156
+    },
+    {
+      "id": "8391986",
+      "tileScore": 1,
+      "name": "Metro Line 1 - Nanshi Jie Sta. → Xinghu Jie Sta.",
+      "distanceM": 1413.0999755859375,
+      "avgGrade": 0.3679852783679962,
+      "startLat": 31.326475143432617,
+      "startLng": 120.72831726074219
+    },
+    {
+      "id": "42071308",
+      "tileScore": 92,
+      "name": "该进攻了",
+      "distanceM": 523,
+      "avgGrade": -0.03824091702699661,
+      "startLat": 31.323673248291016,
+      "startLng": 120.70143127441406
+    },
+    {
+      "id": "22033522",
+      "tileScore": 1,
+      "name": "Loujiang Overpass + Underpass Cycle Path",
+      "distanceM": 1181.199951171875,
+      "avgGrade": 0.033863864839076996,
+      "startLat": 31.33479118347168,
+      "startLng": 120.69502258300781
+    },
+    {
+      "id": "10386096",
+      "tileScore": 11,
+      "name": "Xinghu St Southbound (Suhong Middle Rd > W Shenhu)",
+      "distanceM": 450,
+      "avgGrade": 0.3333333432674408,
+      "startLat": 31.337047576904297,
+      "startLng": 120.71480560302734
+    },
+    {
+      "id": "9566181",
+      "tileScore": 3,
+      "name": "Metro Line 1 - Times Square Sta. → Xinghu Jie Sta.",
+      "distanceM": 671.4000244140625,
+      "avgGrade": 0.26809653639793396,
+      "startLat": 31.32442855834961,
+      "startLng": 120.7090072631836
+    },
+    {
+      "id": "10682330",
+      "tileScore": 13,
+      "name": "Qianzhuang Railway Underpass (Southbound)",
+      "distanceM": 269.79998779296875,
+      "avgGrade": 0.22238695621490479,
+      "startLat": 31.34465789794922,
+      "startLng": 120.70990753173828
+    },
+    {
+      "id": "23469085",
+      "tileScore": 6,
+      "name": "Jinji&Dushu Lakes",
+      "distanceM": 25429,
+      "avgGrade": 0.01651657558977604,
+      "startLat": 31.306800842285156,
+      "startLng": 120.72010803222656
+    },
+    {
+      "id": "8351819",
+      "tileScore": 1,
+      "name": "Xiandai Avenue to SCAC",
+      "distanceM": 8968.7001953125,
+      "avgGrade": -0.4482254981994629,
+      "startLat": 31.335399627685547,
+      "startLng": 120.79078674316406
+    },
+    {
+      "id": "11615116",
+      "tileScore": 1,
+      "name": "Fengming St (Southbound)",
+      "distanceM": 787.2999877929688,
+      "avgGrade": -0.635081946849823,
+      "startLat": 31.332927703857422,
+      "startLng": 120.6864242553711
+    }
+  ]
+}

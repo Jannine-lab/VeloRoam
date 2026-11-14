@@ -1,0 +1,29 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-14T06:30:40.503Z",
+  "tile": {
+    "z": 13,
+    "x": 6759,
+    "y": 3273
+  },
+  "segments": [
+    {
+      "id": "29316060",
+      "tileScore": 27,
+      "name": "草场缓坡南至北",
+      "distanceM": 1383.0999755859375,
+      "avgGrade": 9.008749008178711,
+      "startLat": 33.960487365722656,
+      "startLng": 117.05123901367188
+    },
+    {
+      "id": "29308179",
+      "tileScore": 2,
+      "name": "Caochang Climb. N to S",
+      "distanceM": 852.0999755859375,
+      "avgGrade": 10.09271240234375,
+      "startLat": 33.97285079956055,
+      "startLng": 117.04278564453125
+    }
+  ]
+}

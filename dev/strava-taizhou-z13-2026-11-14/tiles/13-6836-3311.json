@@ -1,0 +1,20 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-14T06:59:52.233Z",
+  "tile": {
+    "z": 13,
+    "x": 6836,
+    "y": 3311
+  },
+  "segments": [
+    {
+      "id": "32445812",
+      "tileScore": 9,
+      "name": "北2（最后的冲刺）",
+      "distanceM": 2067.60009765625,
+      "avgGrade": 0.29019153118133545,
+      "startLat": 32.55964660644531,
+      "startLng": 120.41593933105469
+    }
+  ]
+}

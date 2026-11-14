@@ -1,0 +1,83 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-14T07:09:17.375Z",
+  "tile": {
+    "z": 13,
+    "x": 6841,
+    "y": 3347
+  },
+  "segments": [
+    {
+      "id": "33841787",
+      "tileScore": 2,
+      "name": "南湖路",
+      "distanceM": 511.1000061035156,
+      "avgGrade": 0.1173938512802124,
+      "startLat": 31.232101440429688,
+      "startLng": 120.62730407714844
+    },
+    {
+      "id": "39918661",
+      "tileScore": 4,
+      "name": "YinShan Lake to Wangshan",
+      "distanceM": 12482.099609375,
+      "avgGrade": 0.009613767266273499,
+      "startLat": 31.241424560546875,
+      "startLng": 120.69671630859375
+    },
+    {
+      "id": "33841793",
+      "tileScore": 3,
+      "name": "枫泾南路",
+      "distanceM": 634.4000244140625,
+      "avgGrade": -0.09457755088806152,
+      "startLat": 31.233219146728516,
+      "startLng": 120.63309478759766
+    },
+    {
+      "id": "25979778",
+      "tileScore": 4,
+      "name": "Yishan Bridge (Westbound)",
+      "distanceM": 410.70001220703125,
+      "avgGrade": 1.5096176862716675,
+      "startLat": 31.235050201416016,
+      "startLng": 120.65882873535156
+    },
+    {
+      "id": "11580120",
+      "tileScore": 4,
+      "name": "Yinshan Bridge (Westbound)",
+      "distanceM": 326.8999938964844,
+      "avgGrade": -0.45885592699050903,
+      "startLat": 31.241382598876953,
+      "startLng": 120.65567779541016
+    },
+    {
+      "id": "8424398",
+      "tileScore": 2,
+      "name": "Zhongshan North Rd x S58 Huchang Expy Overpass (Southbound)",
+      "distanceM": 796.7000122070312,
+      "avgGrade": -0.17572486400604248,
+      "startLat": 31.222841262817383,
+      "startLng": 120.64216613769531
+    },
+    {
+      "id": "39043154",
+      "tileScore": 8,
+      "name": "来！干掉电动车！",
+      "distanceM": 1275.0999755859375,
+      "avgGrade": -0.06274017691612244,
+      "startLat": 31.236190795898438,
+      "startLng": 120.6807632446289
+    },
+    {
+      "id": "33841801",
+      "tileScore": 4,
+      "name": "枫泾路白云街",
+      "distanceM": 3326.89990234375,
+      "avgGrade": 0.08716823905706406,
+      "startLat": 31.23360252380371,
+      "startLng": 120.6330795288086
+    }
+  ]
+}

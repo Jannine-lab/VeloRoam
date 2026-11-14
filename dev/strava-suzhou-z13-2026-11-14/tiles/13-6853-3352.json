@@ -1,0 +1,173 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-14T07:19:59.348Z",
+  "tile": {
+    "z": 13,
+    "x": 6853,
+    "y": 3352
+  },
+  "segments": [
+    {
+      "id": "41587216",
+      "tileScore": 2,
+      "name": "Bridge Up, Bridge Down",
+      "distanceM": 1023.7999877929688,
+      "avgGrade": 0.04883766546845436,
+      "startLat": 31.054513931274414,
+      "startLng": 121.1830062866211
+    },
+    {
+      "id": "40304926",
+      "tileScore": 2,
+      "name": "Wenxiang Road to Chenghua Road",
+      "distanceM": 2979.199951171875,
+      "avgGrade": 0,
+      "startLat": 31.043378829956055,
+      "startLng": 121.17667388916016
+    },
+    {
+      "id": "30281829",
+      "tileScore": 2,
+      "name": "FNC-007",
+      "distanceM": 22714.19921875,
+      "avgGrade": 0.0017610129434615374,
+      "startLat": 30.96060562133789,
+      "startLng": 121.1836929321289
+    },
+    {
+      "id": "27319668",
+      "tileScore": 4,
+      "name": "Shanghai Tour de France 上海环法 - Bayonne-Perpignan",
+      "distanceM": 6554.5,
+      "avgGrade": 0.07170645892620087,
+      "startLat": 31.02676773071289,
+      "startLng": 121.11128997802734
+    },
+    {
+      "id": "27319679",
+      "tileScore": 19,
+      "name": "Shanghai Tour de France 上海环法 - Argelès-Montpellier",
+      "distanceM": 2990.39990234375,
+      "avgGrade": 0.006688068155199289,
+      "startLat": 31.044111251831055,
+      "startLng": 121.17743682861328
+    },
+    {
+      "id": "40584622",
+      "tileScore": 14,
+      "name": "漂移过弯",
+      "distanceM": 562.7000122070312,
+      "avgGrade": 0.21325750648975372,
+      "startLat": 31.019811630249023,
+      "startLng": 121.18160247802734
+    },
+    {
+      "id": "20081907",
+      "tileScore": 6,
+      "name": "Gavin lost PNS & ASSOS",
+      "distanceM": 340.29998779296875,
+      "avgGrade": 0.08815751224756241,
+      "startLat": 31.051288604736328,
+      "startLng": 121.2038345336914
+    },
+    {
+      "id": "2718620",
+      "tileScore": 8,
+      "name": "Songjiang: Thames Town Big Loop",
+      "distanceM": 2575.429931640625,
+      "avgGrade": 0.007765783928334713,
+      "startLat": 31.03217124938965,
+      "startLng": 121.19349670410156
+    },
+    {
+      "id": "27327757",
+      "tileScore": 7,
+      "name": "Shanghai Tour de France 上海环法 - Full Tour (100km)",
+      "distanceM": 100065.796875,
+      "avgGrade": 0.002498356159776449,
+      "startLat": 31.153793334960938,
+      "startLng": 121.20298767089844
+    },
+    {
+      "id": "37099786",
+      "tileScore": 55,
+      "name": "广富林路桥东",
+      "distanceM": 655.9000244140625,
+      "avgGrade": 1.6465924978256226,
+      "startLat": 31.051679611206055,
+      "startLng": 121.16072082519531
+    },
+    {
+      "id": "28851670",
+      "tileScore": 13,
+      "name": "Guangfulin RD - Sanxin N. RD to A30",
+      "distanceM": 4560.2998046875,
+      "avgGrade": -0.03069973550736904,
+      "startLat": 31.055267333984375,
+      "startLng": 121.1819076538086
+    },
+    {
+      "id": "20502721",
+      "tileScore": 27,
+      "name": "Pushing hard on the bridge",
+      "distanceM": 372.20001220703125,
+      "avgGrade": -0.16120365262031555,
+      "startLat": 31.040992736816406,
+      "startLng": 121.19508361816406
+    },
+    {
+      "id": "28851571",
+      "tileScore": 25,
+      "name": "Chenta RD from G60 to Gande RD",
+      "distanceM": 5991.5,
+      "avgGrade": 0.0100141866132617,
+      "startLat": 31.021358489990234,
+      "startLng": 121.18119812011719
+    },
+    {
+      "id": "36675451",
+      "tileScore": 1,
+      "name": "Uni Town to YKPS",
+      "distanceM": 5466.10009765625,
+      "avgGrade": 0.005488373804837465,
+      "startLat": 31.056684494018555,
+      "startLng": 121.22724914550781
+    },
+    {
+      "id": "39575739",
+      "tileScore": 13,
+      "name": "东升港路S->N",
+      "distanceM": 1581,
+      "avgGrade": -0.20240354537963867,
+      "startLat": 31.025182723999023,
+      "startLng": 121.1712417602539
+    },
+    {
+      "id": "33343794",
+      "tileScore": 19,
+      "name": "龙源路(南)",
+      "distanceM": 4585.2998046875,
+      "avgGrade": -0.03489411994814873,
+      "startLat": 31.086694717407227,
+      "startLng": 121.19856262207031
+    },
+    {
+      "id": "8286825",
+      "tileScore": 17,
+      "name": "Wencheng Rd Shen Jing Tang Bridge (Westbound)",
+      "distanceM": 427.8999938964844,
+      "avgGrade": -0.6543585062026978,
+      "startLat": 31.034351348876953,
+      "startLng": 121.20206451416016
+    },
+    {
+      "id": "32907409",
+      "tileScore": 38,
+      "name": "Longyuan Rd. No Traffic Light Dash (N-S)",
+      "distanceM": 1084.9000244140625,
+      "avgGrade": 0.07373951375484467,
+      "startLat": 31.061603546142578,
+      "startLng": 121.19636535644531
+    }
+  ]
+}

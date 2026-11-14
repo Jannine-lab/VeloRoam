@@ -1,0 +1,38 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-14T07:12:06.685Z",
+  "tile": {
+    "z": 13,
+    "x": 6819,
+    "y": 3347
+  },
+  "segments": [
+    {
+      "id": "33131298",
+      "tileScore": 15,
+      "name": "Chengguang Temple in Yixing",
+      "distanceM": 528.9000244140625,
+      "avgGrade": 9.188881874084473,
+      "startLat": 31.22142219543457,
+      "startLng": 119.69440460205078
+    },
+    {
+      "id": "41716429",
+      "tileScore": 12,
+      "name": "痛苦的上坡结束接着来个缓下进攻",
+      "distanceM": 3760,
+      "avgGrade": -0.18617022037506104,
+      "startLat": 31.251150131225586,
+      "startLng": 119.72221374511719
+    },
+    {
+      "id": "37023234",
+      "tileScore": 38,
+      "name": "阳灵遂道-观景台",
+      "distanceM": 4077.60009765625,
+      "avgGrade": 1.868746280670166,
+      "startLat": 31.244813919067383,
+      "startLng": 119.68266296386719
+    }
+  ]
+}

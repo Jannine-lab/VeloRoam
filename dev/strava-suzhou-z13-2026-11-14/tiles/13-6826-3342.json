@@ -1,0 +1,38 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-14T07:07:43.936Z",
+  "tile": {
+    "z": 13,
+    "x": 6826,
+    "y": 3342
+  },
+  "segments": [
+    {
+      "id": "31855774",
+      "tileScore": 23,
+      "name": "渎边公路-周铁加油站",
+      "distanceM": 10699.2001953125,
+      "avgGrade": -0.014954389072954655,
+      "startLat": 31.33303451538086,
+      "startLng": 119.93399047851562
+    },
+    {
+      "id": "35232046",
+      "tileScore": 19,
+      "name": "Yixing Greenway taihu lake part 2",
+      "distanceM": 13460.900390625,
+      "avgGrade": -0.06834609806537628,
+      "startLat": 31.320579528808594,
+      "startLng": 119.93292999267578
+    },
+    {
+      "id": "40564534",
+      "tileScore": 34,
+      "name": "环太湖",
+      "distanceM": 151856.5,
+      "avgGrade": 0.0009219230269081891,
+      "startLat": 31.187686920166016,
+      "startLng": 120.47770690917969
+    }
+  ]
+}

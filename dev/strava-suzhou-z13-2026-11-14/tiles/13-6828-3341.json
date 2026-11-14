@@ -1,0 +1,47 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-14T07:06:49.037Z",
+  "tile": {
+    "z": 13,
+    "x": 6828,
+    "y": 3341
+  },
+  "segments": [
+    {
+      "id": "7541979",
+      "tileScore": 205,
+      "name": "ITT Segment 10km@Mashan West side[马山西侧10公里个人计时赛段 铺装路on-road]",
+      "distanceM": 10174,
+      "avgGrade": -0.1454688310623169,
+      "startLat": 31.381092071533203,
+      "startLng": 120.06436920166016
+    },
+    {
+      "id": "14485953",
+      "tileScore": 330,
+      "name": "马山大圈 Mashan Circuit",
+      "distanceM": 58948.69921875,
+      "avgGrade": 0.0011874731862917542,
+      "startLat": 31.55048942565918,
+      "startLng": 120.18302154541016
+    },
+    {
+      "id": "41046512",
+      "tileScore": 83,
+      "name": "这个才叫禅意小坡",
+      "distanceM": 911.5,
+      "avgGrade": 1.1629183292388916,
+      "startLat": 31.42560577392578,
+      "startLng": 120.10053253173828
+    },
+    {
+      "id": "16737912",
+      "tileScore": 26,
+      "name": "CZ taihu",
+      "distanceM": 7182.89990234375,
+      "avgGrade": 0.027843907475471497,
+      "startLat": 31.456262588500977,
+      "startLng": 120.08014678955078
+    }
+  ]
+}

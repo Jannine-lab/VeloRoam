@@ -1,0 +1,56 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-14T07:11:57.203Z",
+  "tile": {
+    "z": 13,
+    "x": 6820,
+    "y": 3349
+  },
+  "segments": [
+    {
+      "id": "20812818",
+      "tileScore": 15,
+      "name": "西川torque",
+      "distanceM": 1495.699951171875,
+      "avgGrade": 1.1232199668884277,
+      "startLat": 31.14622688293457,
+      "startLng": 119.75164031982422
+    },
+    {
+      "id": "35821889",
+      "tileScore": 17,
+      "name": "西川岭 东 climb",
+      "distanceM": 2524,
+      "avgGrade": 2.305863857269287,
+      "startLat": 31.16021728515625,
+      "startLng": 119.72757720947266
+    },
+    {
+      "id": "41951566",
+      "tileScore": 10,
+      "name": "对面就是五通山",
+      "distanceM": 1625,
+      "avgGrade": 8.295384407043457,
+      "startLat": 31.164155960083008,
+      "startLng": 119.70821380615234
+    },
+    {
+      "id": "36189951",
+      "tileScore": 569,
+      "name": "五通山climb（篮球场-山顶餐厅）",
+      "distanceM": 7575.7998046875,
+      "avgGrade": 5.441009521484375,
+      "startLat": 31.138444900512695,
+      "startLng": 119.68711853027344
+    },
+    {
+      "id": "37888801",
+      "tileScore": 111,
+      "name": "缓坡决战！！",
+      "distanceM": 8027.5,
+      "avgGrade": 1.1385860443115234,
+      "startLat": 31.122230529785156,
+      "startLng": 119.74952697753906
+    }
+  ]
+}

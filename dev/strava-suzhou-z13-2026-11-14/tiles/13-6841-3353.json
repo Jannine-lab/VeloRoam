@@ -1,0 +1,101 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-14T07:15:27.564Z",
+  "tile": {
+    "z": 13,
+    "x": 6841,
+    "y": 3353
+  },
+  "segments": [
+    {
+      "id": "38634701",
+      "tileScore": 4,
+      "name": "立交桥到立交桥",
+      "distanceM": 2930.89990234375,
+      "avgGrade": 0.08870995044708252,
+      "startLat": 31.01209831237793,
+      "startLng": 120.61461639404297
+    },
+    {
+      "id": "38634728",
+      "tileScore": 14,
+      "name": "平望到黎里",
+      "distanceM": 5491.7001953125,
+      "avgGrade": -0.22943715751171112,
+      "startLat": 31.0046329498291,
+      "startLng": 120.6452407836914
+    },
+    {
+      "id": "39041436",
+      "tileScore": 14,
+      "name": "平望大桥（Northbound）",
+      "distanceM": 649.2000122070312,
+      "avgGrade": 0.24645717442035675,
+      "startLat": 30.99344825744629,
+      "startLng": 120.63652038574219
+    },
+    {
+      "id": "41463327",
+      "tileScore": 64,
+      "name": "太湖→太浦河→京杭大运河",
+      "distanceM": 40081.3984375,
+      "avgGrade": -0.005488830152899027,
+      "startLat": 31.093950271606445,
+      "startLng": 120.59027099609375
+    },
+    {
+      "id": "22068484",
+      "tileScore": 8,
+      "name": "G318 上海-湖州",
+      "distanceM": 133169.203125,
+      "avgGrade": -0.002553143072873354,
+      "startLat": 31.17106056213379,
+      "startLng": 121.32220458984375
+    },
+    {
+      "id": "34121959",
+      "tileScore": 11,
+      "name": "DOWN THE PING WANG CANAL BRIDGE 2 FENHU VILLAGE VIA G318",
+      "distanceM": 13389.400390625,
+      "avgGrade": -0.08514197170734406,
+      "startLat": 31.004714965820312,
+      "startLng": 120.64533233642578
+    },
+    {
+      "id": "15518506",
+      "tileScore": 74,
+      "name": "S227 Pingwang-Songling(Northbound)",
+      "distanceM": 11378.7001953125,
+      "avgGrade": 0.01406135968863964,
+      "startLat": 31.005901336669922,
+      "startLng": 120.64395904541016
+    },
+    {
+      "id": "40398792",
+      "tileScore": 12,
+      "name": "746公交",
+      "distanceM": 5225.10009765625,
+      "avgGrade": -0.019138390198349953,
+      "startLat": 30.986896514892578,
+      "startLng": 120.695556640625
+    },
+    {
+      "id": "40986412",
+      "tileScore": 11,
+      "name": "太浦河北岸从头到尾",
+      "distanceM": 58174.1015625,
+      "avgGrade": -0.006875912193208933,
+      "startLat": 31.01245880126953,
+      "startLng": 120.48320770263672
+    },
+    {
+      "id": "35281623",
+      "tileScore": 24,
+      "name": "G318京杭运河桥",
+      "distanceM": 861.5,
+      "avgGrade": 0.2089378833770752,
+      "startLat": 31.003835678100586,
+      "startLng": 120.65059661865234
+    }
+  ]
+}

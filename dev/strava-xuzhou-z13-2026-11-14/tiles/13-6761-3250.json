@@ -1,0 +1,20 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-14T06:38:18.112Z",
+  "tile": {
+    "z": 13,
+    "x": 6761,
+    "y": 3250
+  },
+  "segments": [
+    {
+      "id": "39282986",
+      "tileScore": 2,
+      "name": "微山奥体西圈",
+      "distanceM": 2265.699951171875,
+      "avgGrade": -0.008827293291687965,
+      "startLat": 34.774959564208984,
+      "startLng": 117.12957000732422
+    }
+  ]
+}

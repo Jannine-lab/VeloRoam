@@ -1,0 +1,20 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-14T07:16:20.557Z",
+  "tile": {
+    "z": 13,
+    "x": 6850,
+    "y": 3340
+  },
+  "segments": [
+    {
+      "id": "22916014",
+      "tileScore": 2,
+      "name": "Taicang Double Whammy (Northbound)",
+      "distanceM": 2472.5,
+      "avgGrade": 0.04853387176990509,
+      "startLat": 31.484619140625,
+      "startLng": 121.052001953125
+    }
+  ]
+}

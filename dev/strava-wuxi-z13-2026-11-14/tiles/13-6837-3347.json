@@ -1,0 +1,119 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-14T07:07:51.416Z",
+  "tile": {
+    "z": 13,
+    "x": 6837,
+    "y": 3347
+  },
+  "segments": [
+    {
+      "id": "10678266",
+      "tileScore": 30,
+      "name": "Per's Passage (Eastbound)",
+      "distanceM": 12419.7998046875,
+      "avgGrade": -0.004025829490274191,
+      "startLat": 31.218647003173828,
+      "startLng": 120.38814544677734
+    },
+    {
+      "id": "33698481",
+      "tileScore": 21,
+      "name": "出门咯！！",
+      "distanceM": 518.9000244140625,
+      "avgGrade": 0.1927153617143631,
+      "startLat": 31.2259464263916,
+      "startLng": 120.45638275146484
+    },
+    {
+      "id": "37686390",
+      "tileScore": 13,
+      "name": "环香山路-白马寺路",
+      "distanceM": 6803.89990234375,
+      "avgGrade": -0.061729300767183304,
+      "startLat": 31.25667953491211,
+      "startLng": 120.40483856201172
+    },
+    {
+      "id": "33672216",
+      "tileScore": 5,
+      "name": "胥王庙爬坡",
+      "distanceM": 1031.300048828125,
+      "avgGrade": 7.388732433319092,
+      "startLat": 31.214414596557617,
+      "startLng": 120.48580932617188
+    },
+    {
+      "id": "15122571",
+      "tileScore": 3,
+      "name": "Sunwu Rd (Eastbound)",
+      "distanceM": 6921.10009765625,
+      "avgGrade": -0.037566281855106354,
+      "startLat": 31.240894317626953,
+      "startLng": 120.3917465209961
+    },
+    {
+      "id": "20535844",
+      "tileScore": 1,
+      "name": "宝袋西路",
+      "distanceM": 13334.7001953125,
+      "avgGrade": -0.014998462982475758,
+      "startLat": 31.2228946685791,
+      "startLng": 120.48023986816406
+    },
+    {
+      "id": "33401272",
+      "tileScore": 47,
+      "name": "东西山超级有氧",
+      "distanceM": 137358.703125,
+      "avgGrade": 0.00873624999076128,
+      "startLat": 31.187084197998047,
+      "startLng": 120.4767837524414
+    },
+    {
+      "id": "21864305",
+      "tileScore": 37,
+      "name": "Taihu Coastline G312-Dongshan (70K)",
+      "distanceM": 69272.3984375,
+      "avgGrade": 0.0020210070069879293,
+      "startLat": 31.449859619140625,
+      "startLng": 120.41646575927734
+    },
+    {
+      "id": "23927574",
+      "tileScore": 1,
+      "name": "科技城至吴中大道",
+      "distanceM": 22233.900390625,
+      "avgGrade": -0.001799054560251534,
+      "startLat": 31.339780807495117,
+      "startLng": 120.42162322998047
+    },
+    {
+      "id": "36057269",
+      "tileScore": 3,
+      "name": "灵岩山到取水口",
+      "distanceM": 10924.599609375,
+      "avgGrade": -0.007322922348976135,
+      "startLat": 31.2730655670166,
+      "startLng": 120.50218963623047
+    },
+    {
+      "id": "13828855",
+      "tileScore": 31,
+      "name": "X204 from X303 to Xuyu Rd",
+      "distanceM": 5008.7001953125,
+      "avgGrade": 0.03194441646337509,
+      "startLat": 31.188425064086914,
+      "startLng": 120.47735595703125
+    },
+    {
+      "id": "26611499",
+      "tileScore": 7,
+      "name": "Taihu 300km extension",
+      "distanceM": 37416.69921875,
+      "avgGrade": -0.014432058669626713,
+      "startLat": 31.227924346923828,
+      "startLng": 120.44613647460938
+    }
+  ]
+}

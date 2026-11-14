@@ -1,0 +1,38 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-14T07:16:54.508Z",
+  "tile": {
+    "z": 13,
+    "x": 6835,
+    "y": 3356
+  },
+  "segments": [
+    {
+      "id": "39037040",
+      "tileScore": 9,
+      "name": "前往南浔",
+      "distanceM": 9125,
+      "avgGrade": -0.021917808800935745,
+      "startLat": 30.94916343688965,
+      "startLng": 120.3641128540039
+    },
+    {
+      "id": "39041361",
+      "tileScore": 48,
+      "name": "Double Bump (Southbound)",
+      "distanceM": 1388.0999755859375,
+      "avgGrade": 0.08644910156726837,
+      "startLat": 30.895618438720703,
+      "startLng": 120.37413787841797
+    },
+    {
+      "id": "22068484",
+      "tileScore": 8,
+      "name": "G318 上海-湖州",
+      "distanceM": 133169.203125,
+      "avgGrade": -0.002553143072873354,
+      "startLat": 31.17106056213379,
+      "startLng": 121.32220458984375
+    }
+  ]
+}

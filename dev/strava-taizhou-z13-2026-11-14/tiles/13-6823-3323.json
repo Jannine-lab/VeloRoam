@@ -1,0 +1,38 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-14T06:58:17.296Z",
+  "tile": {
+    "z": 13,
+    "x": 6823,
+    "y": 3323
+  },
+  "segments": [
+    {
+      "id": "41710800",
+      "tileScore": 7,
+      "name": "八桥加油站-油坊",
+      "distanceM": 5565.89990234375,
+      "avgGrade": 0.0035933090839535,
+      "startLat": 32.094627380371094,
+      "startLng": 119.88639831542969
+    },
+    {
+      "id": "37823843",
+      "tileScore": 29,
+      "name": "Homebound Sprint",
+      "distanceM": 11005.900390625,
+      "avgGrade": -0.023623691871762276,
+      "startLat": 32.130191802978516,
+      "startLng": 119.87174987792969
+    },
+    {
+      "id": "37823837",
+      "tileScore": 4,
+      "name": "Along the small Yangtzi to South Point",
+      "distanceM": 18823.400390625,
+      "avgGrade": -0.002125014550983906,
+      "startLat": 32.1309700012207,
+      "startLng": 119.79022216796875
+    }
+  ]
+}

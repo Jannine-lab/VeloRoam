@@ -1,0 +1,47 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-14T07:16:26.265Z",
+  "tile": {
+    "z": 13,
+    "x": 6843,
+    "y": 3334
+  },
+  "segments": [
+    {
+      "id": "41100880",
+      "tileScore": 7,
+      "name": "鲁贝冲冲冲，只有最强者能成为王！！",
+      "distanceM": 52570.69921875,
+      "avgGrade": 0.004184840712696314,
+      "startLat": 31.779027938842773,
+      "startLng": 120.82551574707031
+    },
+    {
+      "id": "16215475",
+      "tileScore": 1,
+      "name": "Wangyu River Canal Rd 1 (Northbound)",
+      "distanceM": 6488.39990234375,
+      "avgGrade": 0.027741814032197,
+      "startLat": 31.690824508666992,
+      "startLng": 120.68592834472656
+    },
+    {
+      "id": "35075210",
+      "tileScore": 7,
+      "name": "g204狂飙",
+      "distanceM": 2409.39990234375,
+      "avgGrade": 0.03320328891277313,
+      "startLat": 31.713380813598633,
+      "startLng": 120.77664947509766
+    },
+    {
+      "id": "35376299",
+      "tileScore": 13,
+      "name": "通杀（返程）",
+      "distanceM": 38499.80078125,
+      "avgGrade": -0.0015584497014060616,
+      "startLat": 31.98116683959961,
+      "startLng": 120.73014068603516
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-14T07:11:38.507Z",
+  "tile": {
+    "z": 13,
+    "x": 6821,
+    "y": 3333
+  },
+  "segments": [
+    {
+      "id": "32061476",
+      "tileScore": 3,
+      "name": "金武快速路",
+      "distanceM": 17759.80078125,
+      "avgGrade": 0.001126138842664659,
+      "startLat": 31.734973907470703,
+      "startLng": 119.80149841308594
+    }
+  ]
+}

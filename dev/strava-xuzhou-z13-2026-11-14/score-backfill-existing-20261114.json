@@ -1,0 +1,27 @@
+{
+  "mode": "apply",
+  "source": "/Users/jannine/Desktop/VeloRoam/dev/strava-xuzhou-z13-2026-11-14/candidates.json",
+  "startedAt": "2026-11-14T07:29:02.247Z",
+  "finishedAt": "2026-11-14T07:29:05.339Z",
+  "sourceIds": 212,
+  "existing": 13,
+  "alreadyScored": 0,
+  "eligible": 13,
+  "updated": 13,
+  "verified": 13,
+  "updatedIds": [
+    "27539032",
+    "27585976",
+    "31221797",
+    "35190018",
+    "36528106",
+    "36528111",
+    "37009126",
+    "38513091",
+    "38786184",
+    "38786285",
+    "39795151",
+    "39928431",
+    "39928440"
+  ]
+}

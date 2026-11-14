@@ -1,0 +1,65 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-14T07:09:13.325Z",
+  "tile": {
+    "z": 13,
+    "x": 6831,
+    "y": 3331
+  },
+  "segments": [
+    {
+      "id": "38822783",
+      "tileScore": 31,
+      "name": "秦望山绕圈",
+      "distanceM": 1538.9000244140625,
+      "avgGrade": -0.15595555305480957,
+      "startLat": 31.82679557800293,
+      "startLng": 120.19245147705078
+    },
+    {
+      "id": "32303453",
+      "tileScore": 11,
+      "name": "江阴大道连续起伏路",
+      "distanceM": 6701.10009765625,
+      "avgGrade": 0.023876676335930824,
+      "startLat": 31.80961036682129,
+      "startLng": 120.20256805419922
+    },
+    {
+      "id": "23874472",
+      "tileScore": 37,
+      "name": "Into Temple Heaven",
+      "distanceM": 769.2999877929688,
+      "avgGrade": 15.507604598999023,
+      "startLat": 31.824209213256836,
+      "startLng": 120.18582916259766
+    },
+    {
+      "id": "25855802",
+      "tileScore": 88,
+      "name": "Hill challenge",
+      "distanceM": 961.2999877929688,
+      "avgGrade": 11.20357894897461,
+      "startLat": 31.832332611083984,
+      "startLng": 120.1991958618164
+    },
+    {
+      "id": "34411859",
+      "tileScore": 33,
+      "name": "四大道",
+      "distanceM": 30482.30078125,
+      "avgGrade": -0.024276383221149445,
+      "startLat": 31.826173782348633,
+      "startLng": 120.26504516601562
+    },
+    {
+      "id": "41208778",
+      "tileScore": 4,
+      "name": "靖澄道",
+      "distanceM": 11424.599609375,
+      "avgGrade": 0.010503650642931461,
+      "startLat": 31.801908493041992,
+      "startLng": 120.26963806152344
+    }
+  ]
+}

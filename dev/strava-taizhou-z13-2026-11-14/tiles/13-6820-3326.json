@@ -1,0 +1,20 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-14T07:00:33.239Z",
+  "tile": {
+    "z": 13,
+    "x": 6820,
+    "y": 3326
+  },
+  "segments": [
+    {
+      "id": "33834797",
+      "tileScore": 14,
+      "name": "九曲河边边（独山村段）",
+      "distanceM": 2326.5,
+      "avgGrade": -0.017193209379911423,
+      "startLat": 32.02878952026367,
+      "startLng": 119.75052642822266
+    }
+  ]
+}

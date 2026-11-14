@@ -1,0 +1,38 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-14T07:12:21.560Z",
+  "tile": {
+    "z": 13,
+    "x": 6820,
+    "y": 3329
+  },
+  "segments": [
+    {
+      "id": "30066918",
+      "tileScore": 2,
+      "name": "G312: ChangZhou-> DanYang",
+      "distanceM": 28762.80078125,
+      "avgGrade": 0.020860278978943825,
+      "startLat": 31.80023765563965,
+      "startLng": 119.85284423828125
+    },
+    {
+      "id": "34761043",
+      "tileScore": 7,
+      "name": "丹吕公路大桥再顶一顶",
+      "distanceM": 501.79998779296875,
+      "avgGrade": 2.152251720428467,
+      "startLat": 31.91592025756836,
+      "startLng": 119.7361068725586
+    },
+    {
+      "id": "38279554",
+      "tileScore": 7,
+      "name": " 010乡道（折柳-吕城）",
+      "distanceM": 6035.39990234375,
+      "avgGrade": -0.009941346012055874,
+      "startLat": 31.906408309936523,
+      "startLng": 119.66683197021484
+    }
+  ]
+}

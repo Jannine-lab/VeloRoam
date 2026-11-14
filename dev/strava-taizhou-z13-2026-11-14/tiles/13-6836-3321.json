@@ -1,0 +1,20 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-14T07:00:55.432Z",
+  "tile": {
+    "z": 13,
+    "x": 6836,
+    "y": 3321
+  },
+  "segments": [
+    {
+      "id": "39115991",
+      "tileScore": 3,
+      "name": "回程的风都是甜的",
+      "distanceM": 23038.900390625,
+      "avgGrade": 0.0008680969476699829,
+      "startLat": 32.217559814453125,
+      "startLng": 120.40586853027344
+    }
+  ]
+}

@@ -1,0 +1,83 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-14T07:06:18.590Z",
+  "tile": {
+    "z": 13,
+    "x": 6832,
+    "y": 3338
+  },
+  "segments": [
+    {
+      "id": "10162639",
+      "tileScore": 12,
+      "name": "Qingshan Temple Climb (Anticlockwise)",
+      "distanceM": 773.5999755859375,
+      "avgGrade": 4.3304033279418945,
+      "startLat": 31.57076072692871,
+      "startLng": 120.2616958618164
+    },
+    {
+      "id": "34660364",
+      "tileScore": 8,
+      "name": "梁清路",
+      "distanceM": 2608.199951171875,
+      "avgGrade": -0.02300436981022358,
+      "startLat": 31.576318740844727,
+      "startLng": 120.28617858886719
+    },
+    {
+      "id": "29665216",
+      "tileScore": 4,
+      "name": "Qingshan Temple Climb (Clockwise)",
+      "distanceM": 857.5999755859375,
+      "avgGrade": 2.122201681137085,
+      "startLat": 31.568275451660156,
+      "startLng": 120.25407409667969
+    },
+    {
+      "id": "9008316",
+      "tileScore": 1,
+      "name": "Downhill@Baishaquan [白沙泉越野下坡 off-road]",
+      "distanceM": 537.4000244140625,
+      "avgGrade": -20.58057403564453,
+      "startLat": 31.574874877929688,
+      "startLng": 120.238525390625
+    },
+    {
+      "id": "16825778",
+      "tileScore": 5,
+      "name": "Roasted Potatoes",
+      "distanceM": 4219.2001953125,
+      "avgGrade": -0.2275312840938568,
+      "startLat": 31.542505264282227,
+      "startLng": 120.25395965576172
+    },
+    {
+      "id": "11769637",
+      "tileScore": 23,
+      "name": "惠山 climb",
+      "distanceM": 5735.2998046875,
+      "avgGrade": 5.031994819641113,
+      "startLat": 31.575206756591797,
+      "startLng": 120.230712890625
+    },
+    {
+      "id": "34245975",
+      "tileScore": 176,
+      "name": "蠡湖小圈(LI HU small circle)",
+      "distanceM": 9307.7001953125,
+      "avgGrade": -0.027933862060308456,
+      "startLat": 31.542009353637695,
+      "startLng": 120.24009704589844
+    },
+    {
+      "id": "30067026",
+      "tileScore": 6,
+      "name": "Wuxi: Canal road",
+      "distanceM": 10053.599609375,
+      "avgGrade": 0.023872045800089836,
+      "startLat": 31.528690338134766,
+      "startLng": 120.3405990600586
+    }
+  ]
+}

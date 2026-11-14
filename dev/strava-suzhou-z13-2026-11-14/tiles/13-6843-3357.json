@@ -1,0 +1,29 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-14T07:16:56.326Z",
+  "tile": {
+    "z": 13,
+    "x": 6843,
+    "y": 3357
+  },
+  "segments": [
+    {
+      "id": "37767823",
+      "tileScore": 41,
+      "name": "南张浜大桥",
+      "distanceM": 655.2000122070312,
+      "avgGrade": -0.1526251584291458,
+      "startLat": 30.856496810913086,
+      "startLng": 120.7284164428711
+    },
+    {
+      "id": "37767818",
+      "tileScore": 52,
+      "name": "鳗鲡港大桥",
+      "distanceM": 894.5,
+      "avgGrade": 0.11179430037736893,
+      "startLat": 30.834972381591797,
+      "startLng": 120.74061584472656
+    }
+  ]
+}

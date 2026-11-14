@@ -1,0 +1,47 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-14T07:09:40.367Z",
+  "tile": {
+    "z": 13,
+    "x": 6842,
+    "y": 3334
+  },
+  "segments": [
+    {
+      "id": "32993232",
+      "tileScore": 10,
+      "name": "西塘公路—虞山脚下",
+      "distanceM": 17643.099609375,
+      "avgGrade": 0.015303432941436768,
+      "startLat": 31.791915893554688,
+      "startLng": 120.60678100585938
+    },
+    {
+      "id": "41100880",
+      "tileScore": 7,
+      "name": "鲁贝冲冲冲，只有最强者能成为王！！",
+      "distanceM": 52570.69921875,
+      "avgGrade": 0.004184840712696314,
+      "startLat": 31.779027938842773,
+      "startLng": 120.82551574707031
+    },
+    {
+      "id": "16215475",
+      "tileScore": 1,
+      "name": "Wangyu River Canal Rd 1 (Northbound)",
+      "distanceM": 6488.39990234375,
+      "avgGrade": 0.027741814032197,
+      "startLat": 31.690824508666992,
+      "startLng": 120.68592834472656
+    },
+    {
+      "id": "35376299",
+      "tileScore": 13,
+      "name": "通杀（返程）",
+      "distanceM": 38499.80078125,
+      "avgGrade": -0.0015584497014060616,
+      "startLat": 31.98116683959961,
+      "startLng": 120.73014068603516
+    }
+  ]
+}

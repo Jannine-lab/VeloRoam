@@ -1,0 +1,47 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-14T06:19:15.761Z",
+  "tile": {
+    "z": 13,
+    "x": 6764,
+    "y": 3266
+  },
+  "segments": [
+    {
+      "id": "39719992",
+      "tileScore": 30,
+      "name": "拐了弯发射",
+      "distanceM": 945.5,
+      "avgGrade": 0.4653622508049011,
+      "startLat": 34.20237731933594,
+      "startLng": 117.24919128417969
+    },
+    {
+      "id": "38786285",
+      "tileScore": 9,
+      "name": "彭祖大道（汉源大道至大龙湖方向）",
+      "distanceM": 2845.39990234375,
+      "avgGrade": 0,
+      "startLat": 34.23090744018555,
+      "startLng": 117.27848052978516
+    },
+    {
+      "id": "31872328",
+      "tileScore": 35,
+      "name": "Dalong Lake Loop Ride",
+      "distanceM": 8257.400390625,
+      "avgGrade": 0.0024220698978751898,
+      "startLat": 34.20137405395508,
+      "startLng": 117.27008819580078
+    },
+    {
+      "id": "41621546",
+      "tileScore": 11,
+      "name": "徐州铁三骑行",
+      "distanceM": 37716.30078125,
+      "avgGrade": 0.013256867416203022,
+      "startLat": 34.20806884765625,
+      "startLng": 117.26596069335938
+    }
+  ]
+}

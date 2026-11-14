@@ -1,0 +1,29 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-14T07:20:29.213Z",
+  "tile": {
+    "z": 13,
+    "x": 6846,
+    "y": 3360
+  },
+  "segments": [
+    {
+      "id": "34592458",
+      "tileScore": 2,
+      "name": "高速桥下至大桥镇",
+      "distanceM": 5711.10009765625,
+      "avgGrade": 0.010505856946110725,
+      "startLat": 30.794479370117188,
+      "startLng": 120.88578033447266
+    },
+    {
+      "id": "13715792",
+      "tileScore": 7,
+      "name": "Tour of Jiaxing 2016",
+      "distanceM": 136646.203125,
+      "avgGrade": 0.008196349255740643,
+      "startLat": 30.74317169189453,
+      "startLng": 120.83653259277344
+    }
+  ]
+}

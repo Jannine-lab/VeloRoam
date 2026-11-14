@@ -1,0 +1,20 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-14T06:42:42.910Z",
+  "tile": {
+    "z": 13,
+    "x": 6771,
+    "y": 3246
+  },
+  "segments": [
+    {
+      "id": "36205536",
+      "tileScore": 15,
+      "name": "定盘山口爬坡",
+      "distanceM": 1299.5,
+      "avgGrade": 6.756444931030273,
+      "startLat": 34.95722579956055,
+      "startLng": 117.58663940429688
+    }
+  ]
+}

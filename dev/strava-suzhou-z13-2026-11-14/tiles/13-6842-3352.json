@@ -1,0 +1,20 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-14T07:15:27.564Z",
+  "tile": {
+    "z": 13,
+    "x": 6842,
+    "y": 3352
+  },
+  "segments": [
+    {
+      "id": "40212263",
+      "tileScore": 2,
+      "name": "村间穿行",
+      "distanceM": 3397.300048828125,
+      "avgGrade": 0.05887027829885483,
+      "startLat": 31.061141967773438,
+      "startLng": 120.7107925415039
+    }
+  ]
+}

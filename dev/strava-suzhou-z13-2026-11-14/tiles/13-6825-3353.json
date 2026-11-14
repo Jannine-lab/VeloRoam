@@ -1,0 +1,20 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-14T07:19:47.909Z",
+  "tile": {
+    "z": 13,
+    "x": 6825,
+    "y": 3353
+  },
+  "segments": [
+    {
+      "id": "17657591",
+      "tileScore": 2,
+      "name": "cd-父子岭到长兴",
+      "distanceM": 18634.400390625,
+      "avgGrade": -0.004293135367333889,
+      "startLat": 31.137378692626953,
+      "startLng": 119.93272399902344
+    }
+  ]
+}

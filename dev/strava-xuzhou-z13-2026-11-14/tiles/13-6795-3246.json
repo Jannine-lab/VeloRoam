@@ -1,0 +1,29 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-14T06:50:55.934Z",
+  "tile": {
+    "z": 13,
+    "x": 6795,
+    "y": 3246
+  },
+  "segments": [
+    {
+      "id": "39396232",
+      "tileScore": 2,
+      "name": "蒙山路to沭河大道",
+      "distanceM": 4309.10009765625,
+      "avgGrade": -0.10675082355737686,
+      "startLat": 34.95597457885742,
+      "startLng": 118.60875701904297
+    },
+    {
+      "id": "35349386",
+      "tileScore": 2,
+      "name": "沭河西线",
+      "distanceM": 31922,
+      "avgGrade": 0.05168848857283592,
+      "startLat": 34.954559326171875,
+      "startLng": 118.6120834350586
+    }
+  ]
+}

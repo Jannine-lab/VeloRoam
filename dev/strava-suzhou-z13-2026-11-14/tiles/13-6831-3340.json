@@ -1,0 +1,47 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-14T07:06:24.221Z",
+  "tile": {
+    "z": 13,
+    "x": 6831,
+    "y": 3340
+  },
+  "segments": [
+    {
+      "id": "31103756",
+      "tileScore": 4,
+      "name": "Full trail 卧龙山庄-宝界山",
+      "distanceM": 6887.39990234375,
+      "avgGrade": -0.6359438896179199,
+      "startLat": 31.46829605102539,
+      "startLng": 120.2383041381836
+    },
+    {
+      "id": "35145102",
+      "tileScore": 14,
+      "name": "大浮大圈顺时针 长广溪桥起终点",
+      "distanceM": 21947.099609375,
+      "avgGrade": 0.008201539516448975,
+      "startLat": 31.493125915527344,
+      "startLng": 120.2537612915039
+    },
+    {
+      "id": "35446087",
+      "tileScore": 17,
+      "name": "山水西路顺时针按摩大腿-cheng",
+      "distanceM": 11360.599609375,
+      "avgGrade": -0.04225129261612892,
+      "startLat": 31.425649642944336,
+      "startLng": 120.22897338867188
+    },
+    {
+      "id": "19530265",
+      "tileScore": 2,
+      "name": "XC Climb@Baojieshan last trail[宝界山终段XC爬坡]",
+      "distanceM": 771.7000122070312,
+      "avgGrade": 5.68873929977417,
+      "startLat": 31.501420974731445,
+      "startLng": 120.23448944091797
+    }
+  ]
+}

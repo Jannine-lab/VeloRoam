@@ -1,0 +1,20 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-14T07:00:27.718Z",
+  "tile": {
+    "z": 13,
+    "x": 6823,
+    "y": 3302
+  },
+  "segments": [
+    {
+      "id": "40161755",
+      "tileScore": 1,
+      "name": "城区竞速",
+      "distanceM": 5003.7998046875,
+      "avgGrade": -0.023981774225831032,
+      "startLat": 32.90932083129883,
+      "startLng": 119.84642791748047
+    }
+  ]
+}

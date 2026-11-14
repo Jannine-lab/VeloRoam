@@ -1,0 +1,38 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-14T07:06:37.510Z",
+  "tile": {
+    "z": 13,
+    "x": 6834,
+    "y": 3336
+  },
+  "segments": [
+    {
+      "id": "21846718",
+      "tileScore": 5,
+      "name": "Xingtang Bridge Go！",
+      "distanceM": 2276.10009765625,
+      "avgGrade": -0.1669522374868393,
+      "startLat": 31.618730545043945,
+      "startLng": 120.35926818847656
+    },
+    {
+      "id": "32468355",
+      "tileScore": 2,
+      "name": "340省道20公里 冲冲冲",
+      "distanceM": 20533,
+      "avgGrade": -0.014610626734793186,
+      "startLat": 31.65806770324707,
+      "startLng": 120.31031799316406
+    },
+    {
+      "id": "39697661",
+      "tileScore": 9,
+      "name": "中惠大道",
+      "distanceM": 3760.300048828125,
+      "avgGrade": -0.037231072783470154,
+      "startLat": 31.65982437133789,
+      "startLng": 120.35070037841797
+    }
+  ]
+}

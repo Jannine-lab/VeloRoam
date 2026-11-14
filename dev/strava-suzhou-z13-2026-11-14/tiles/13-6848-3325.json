@@ -1,0 +1,47 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-14T07:23:28.676Z",
+  "tile": {
+    "z": 13,
+    "x": 6848,
+    "y": 3325
+  },
+  "segments": [
+    {
+      "id": "39103395",
+      "tileScore": 6,
+      "name": "钟秀中路走几遍",
+      "distanceM": 5641.89990234375,
+      "avgGrade": 0.021269429475069046,
+      "startLat": 32.039459228515625,
+      "startLng": 121.00570678710938
+    },
+    {
+      "id": "38038465",
+      "tileScore": 6,
+      "name": "TongshengAve",
+      "distanceM": 8304.099609375,
+      "avgGrade": -0.002408448839560151,
+      "startLat": 32.04521942138672,
+      "startLng": 120.9437026977539
+    },
+    {
+      "id": "19330750",
+      "tileScore": 4,
+      "name": "S335",
+      "distanceM": 5387.60009765625,
+      "avgGrade": 0.011136683635413647,
+      "startLat": 32.046119689941406,
+      "startLng": 120.96329498291016
+    },
+    {
+      "id": "39154956",
+      "tileScore": 14,
+      "name": "Hua Qiang to Feng Ya Xi Ting",
+      "distanceM": 24200.400390625,
+      "avgGrade": 0.0016528653213754296,
+      "startLat": 32.0452766418457,
+      "startLng": 120.8616943359375
+    }
+  ]
+}

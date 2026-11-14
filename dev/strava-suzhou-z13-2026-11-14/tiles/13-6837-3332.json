@@ -1,0 +1,20 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-14T07:08:11.219Z",
+  "tile": {
+    "z": 13,
+    "x": 6837,
+    "y": 3332
+  },
+  "segments": [
+    {
+      "id": "37131474",
+      "tileScore": 6,
+      "name": "华士公园绕圈",
+      "distanceM": 10509.2998046875,
+      "avgGrade": 0.013321534730494022,
+      "startLat": 31.82175064086914,
+      "startLng": 120.45854949951172
+    }
+  ]
+}

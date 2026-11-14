@@ -1,0 +1,20 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-14T07:12:57.190Z",
+  "tile": {
+    "z": 13,
+    "x": 6815,
+    "y": 3341
+  },
+  "segments": [
+    {
+      "id": "33561934",
+      "tileScore": 11,
+      "name": "南山大道 N-S（S239-G104）",
+      "distanceM": 8307.099609375,
+      "avgGrade": -0.019260631874203682,
+      "startLat": 31.478782653808594,
+      "startLng": 119.50662231445312
+    }
+  ]
+}

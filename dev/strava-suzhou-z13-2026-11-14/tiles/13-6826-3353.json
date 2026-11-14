@@ -1,0 +1,20 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-14T07:19:47.909Z",
+  "tile": {
+    "z": 13,
+    "x": 6826,
+    "y": 3353
+  },
+  "segments": [
+    {
+      "id": "30912679",
+      "tileScore": 10,
+      "name": "高铁路北向南",
+      "distanceM": 4086.699951171875,
+      "avgGrade": 0.04893924295902252,
+      "startLat": 31.029712677001953,
+      "startLng": 119.97392272949219
+    }
+  ]
+}

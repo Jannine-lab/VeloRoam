@@ -1,0 +1,38 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-14T07:06:20.464Z",
+  "tile": {
+    "z": 13,
+    "x": 6835,
+    "y": 3339
+  },
+  "segments": [
+    {
+      "id": "10162580",
+      "tileScore": 2,
+      "name": "S230 to Y-junction of canal (Northbound)",
+      "distanceM": 10003.599609375,
+      "avgGrade": -0.011995681561529636,
+      "startLat": 31.467239379882812,
+      "startLng": 120.40790557861328
+    },
+    {
+      "id": "32502432",
+      "tileScore": 2,
+      "name": "Meicun - G2 highway bridge climbing",
+      "distanceM": 503,
+      "avgGrade": 0.8747515082359314,
+      "startLat": 31.536962509155273,
+      "startLng": 120.40568542480469
+    },
+    {
+      "id": "16737969",
+      "tileScore": 1,
+      "name": "airport express",
+      "distanceM": 5722.5,
+      "avgGrade": -0.21319355070590973,
+      "startLat": 31.516149520874023,
+      "startLng": 120.3873062133789
+    }
+  ]
+}

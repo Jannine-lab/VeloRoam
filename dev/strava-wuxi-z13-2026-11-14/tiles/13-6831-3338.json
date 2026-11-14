@@ -1,0 +1,137 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-14T07:06:27.831Z",
+  "tile": {
+    "z": 13,
+    "x": 6831,
+    "y": 3338
+  },
+  "segments": [
+    {
+      "id": "40438609",
+      "tileScore": 15,
+      "name": "渔港路W-E",
+      "distanceM": 4341.7998046875,
+      "avgGrade": 0.05527661368250847,
+      "startLat": 31.550260543823242,
+      "startLng": 120.18736267089844
+    },
+    {
+      "id": "32459396",
+      "tileScore": 14,
+      "name": "Qianrong Rd. N->S 钱荣路 由北向南方向",
+      "distanceM": 4110.89990234375,
+      "avgGrade": -0.08757206052541733,
+      "startLat": 31.592273712158203,
+      "startLng": 120.22982025146484
+    },
+    {
+      "id": "40411249",
+      "tileScore": 21,
+      "name": "梅园（西-东）",
+      "distanceM": 3601.199951171875,
+      "avgGrade": -0.016661113128066063,
+      "startLat": 31.55154037475586,
+      "startLng": 120.18724060058594
+    },
+    {
+      "id": "34245975",
+      "tileScore": 176,
+      "name": "蠡湖小圈(LI HU small circle)",
+      "distanceM": 9307.7001953125,
+      "avgGrade": -0.027933862060308456,
+      "startLat": 31.542009353637695,
+      "startLng": 120.24009704589844
+    },
+    {
+      "id": "34785706",
+      "tileScore": 5,
+      "name": "Jinyuan Rd (W-E) ",
+      "distanceM": 5791.7998046875,
+      "avgGrade": 0.10877446830272675,
+      "startLat": 31.549989700317383,
+      "startLng": 120.18719482421875
+    },
+    {
+      "id": "10461236",
+      "tileScore": 1,
+      "name": "Huishan Warm-up Loop (Anticlockwise)",
+      "distanceM": 848.7999877929688,
+      "avgGrade": -0.16493874788284302,
+      "startLat": 31.57802963256836,
+      "startLng": 120.22687530517578
+    },
+    {
+      "id": "2206084",
+      "tileScore": 50,
+      "name": "钱荣路159号 Climb",
+      "distanceM": 942.0659790039062,
+      "avgGrade": 11.369426727294922,
+      "startLat": 31.57818603515625,
+      "startLng": 120.2292709350586
+    },
+    {
+      "id": "29867148",
+      "tileScore": 4,
+      "name": "湖景公墓",
+      "distanceM": 1006.9000244140625,
+      "avgGrade": 5.065051078796387,
+      "startLat": 31.558366775512695,
+      "startLng": 120.19686126708984
+    },
+    {
+      "id": "37154421",
+      "tileScore": 4,
+      "name": "职教园7km圈",
+      "distanceM": 6956.2998046875,
+      "avgGrade": -0.02300073206424713,
+      "startLat": 31.5867862701416,
+      "startLng": 120.18718719482422
+    },
+    {
+      "id": "2754067",
+      "tileScore": 92,
+      "name": "Shili Changjing - Bogongdao",
+      "distanceM": 4620.8291015625,
+      "avgGrade": -0.20775173604488373,
+      "startLat": 31.516176223754883,
+      "startLng": 120.23845672607422
+    },
+    {
+      "id": "10461198",
+      "tileScore": 28,
+      "name": "Qinglongshan Rd Climb (Eastbound)",
+      "distanceM": 688,
+      "avgGrade": 6.526162624359131,
+      "startLat": 31.57755470275879,
+      "startLng": 120.19383239746094
+    },
+    {
+      "id": "936847",
+      "tileScore": 506,
+      "name": "HuiShan Hill",
+      "distanceM": 5782.56982421875,
+      "avgGrade": 4.3198561668396,
+      "startLat": 31.57672691345215,
+      "startLng": 120.22569274902344
+    },
+    {
+      "id": "34786003",
+      "tileScore": 10,
+      "name": "Crossing until tunnel",
+      "distanceM": 2019.800048828125,
+      "avgGrade": 1.4209327697753906,
+      "startLat": 31.553808212280273,
+      "startLng": 120.2106704711914
+    },
+    {
+      "id": "11769637",
+      "tileScore": 23,
+      "name": "惠山 climb",
+      "distanceM": 5735.2998046875,
+      "avgGrade": 5.031994819641113,
+      "startLat": 31.575206756591797,
+      "startLng": 120.230712890625
+    }
+  ]
+}

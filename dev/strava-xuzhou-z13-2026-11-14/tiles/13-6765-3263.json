@@ -1,0 +1,20 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-14T06:21:56.281Z",
+  "tile": {
+    "z": 13,
+    "x": 6765,
+    "y": 3263
+  },
+  "segments": [
+    {
+      "id": "37009126",
+      "tileScore": 6,
+      "name": "1.5公里封路段",
+      "distanceM": 1564.9000244140625,
+      "avgGrade": 0.0766822099685669,
+      "startLat": 34.33811950683594,
+      "startLng": 117.33365631103516
+    }
+  ]
+}

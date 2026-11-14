@@ -1,0 +1,20 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-14T06:49:56.228Z",
+  "tile": {
+    "z": 13,
+    "x": 6793,
+    "y": 3250
+  },
+  "segments": [
+    {
+      "id": "41691573",
+      "tileScore": 11,
+      "name": "恐龙园爬坡（E—W）",
+      "distanceM": 2334.800048828125,
+      "avgGrade": 2.3984923362731934,
+      "startLat": 34.81235885620117,
+      "startLng": 118.52116394042969
+    }
+  ]
+}

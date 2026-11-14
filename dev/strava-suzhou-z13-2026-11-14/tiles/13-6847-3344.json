@@ -1,0 +1,74 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-14T07:15:29.551Z",
+  "tile": {
+    "z": 13,
+    "x": 6847,
+    "y": 3344
+  },
+  "segments": [
+    {
+      "id": "22264078",
+      "tileScore": 6,
+      "name": "苏州回上海（昆山~安亭）",
+      "distanceM": 24057.19921875,
+      "avgGrade": -0.03491678088903427,
+      "startLat": 31.33888816833496,
+      "startLng": 120.90005493164062
+    },
+    {
+      "id": "40496797",
+      "tileScore": 16,
+      "name": "江浦南路",
+      "distanceM": 11342.900390625,
+      "avgGrade": 0.008816087618470192,
+      "startLat": 31.382366180419922,
+      "startLng": 120.92025756835938
+    },
+    {
+      "id": "8677511",
+      "tileScore": 4,
+      "name": "G312 Xinnan West Rd (Eastbound)",
+      "distanceM": 4575.2998046875,
+      "avgGrade": 0.019670840352773666,
+      "startLat": 31.338579177856445,
+      "startLng": 120.8941421508789
+    },
+    {
+      "id": "19032921",
+      "tileScore": 12,
+      "name": "X204 x Wusong River Bridge (Southbound)",
+      "distanceM": 889.5,
+      "avgGrade": 0.35975268483161926,
+      "startLat": 31.31993293762207,
+      "startLng": 120.922119140625
+    },
+    {
+      "id": "25984785",
+      "tileScore": 16,
+      "name": "Jiangpu South Rd from Yuanfeng Rd to Songhu West Rd（Southbond）",
+      "distanceM": 10292.2998046875,
+      "avgGrade": -0.009716001339256763,
+      "startLat": 31.328493118286133,
+      "startLng": 120.92188262939453
+    },
+    {
+      "id": "19039997",
+      "tileScore": 1,
+      "name": "Yuanfeng Rd 7K (Eastbound)",
+      "distanceM": 7015.7001953125,
+      "avgGrade": -0.01425374485552311,
+      "startLat": 31.3255672454834,
+      "startLng": 120.8484878540039
+    },
+    {
+      "id": "15026022",
+      "tileScore": 17,
+      "name": "Bladerunner Segment",
+      "distanceM": 2163.89990234375,
+      "avgGrade": 0.1062895730137825,
+      "startLat": 31.34187126159668,
+      "startLng": 120.92164611816406
+    }
+  ]
+}

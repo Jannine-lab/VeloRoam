@@ -1,0 +1,38 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-14T07:07:37.998Z",
+  "tile": {
+    "z": 13,
+    "x": 6838,
+    "y": 3344
+  },
+  "segments": [
+    {
+      "id": "15382628",
+      "tileScore": 1,
+      "name": "Neon Mall Underpass",
+      "distanceM": 1558.5,
+      "avgGrade": 0,
+      "startLat": 31.358619689941406,
+      "startLng": 120.53947448730469
+    },
+    {
+      "id": "12363347",
+      "tileScore": 4,
+      "name": "Taihu Ave (Tayuan Rd → S230)",
+      "distanceM": 14132.2001953125,
+      "avgGrade": 0.0028304157312959433,
+      "startLat": 31.329225540161133,
+      "startLng": 120.5454330444336
+    },
+    {
+      "id": "15070477",
+      "tileScore": 12,
+      "name": "Penjia SW to NE",
+      "distanceM": 550.2000122070312,
+      "avgGrade": 0.9451109170913696,
+      "startLat": 31.350257873535156,
+      "startLng": 120.52735900878906
+    }
+  ]
+}

@@ -1,0 +1,65 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-14T07:20:21.914Z",
+  "tile": {
+    "z": 13,
+    "x": 6828,
+    "y": 3357
+  },
+  "segments": [
+    {
+      "id": "4914090",
+      "tileScore": 6,
+      "name": "湖州到彭公",
+      "distanceM": 63600.30078125,
+      "avgGrade": 0.012893022038042545,
+      "startLat": 30.89427375793457,
+      "startLng": 120.04374694824219
+    },
+    {
+      "id": "37717647",
+      "tileScore": 18,
+      "name": "菰城路→岘山路",
+      "distanceM": 7622,
+      "avgGrade": -0.00787194911390543,
+      "startLat": 30.788375854492188,
+      "startLng": 120.10963439941406
+    },
+    {
+      "id": "5478023",
+      "tileScore": 7,
+      "name": "South Stree Sprint (南街冲刺）",
+      "distanceM": 614.2999877929688,
+      "avgGrade": 1.1720657348632812,
+      "startLat": 30.85892105102539,
+      "startLng": 120.09439086914062
+    },
+    {
+      "id": "5526760",
+      "tileScore": 9,
+      "name": "埭溪到南浔",
+      "distanceM": 50911.69921875,
+      "avgGrade": -0.0041247885674238205,
+      "startLat": 30.662630081176758,
+      "startLng": 120.00719451904297
+    },
+    {
+      "id": "25961744",
+      "tileScore": 3,
+      "name": "Russian mountain ",
+      "distanceM": 12266.400390625,
+      "avgGrade": 0.293484628200531,
+      "startLat": 30.828048706054688,
+      "startLng": 120.07001495361328
+    },
+    {
+      "id": "35174589",
+      "tileScore": 171,
+      "name": "岘山路北坡",
+      "distanceM": 690.9000244140625,
+      "avgGrade": 5.644811153411865,
+      "startLat": 30.835737228393555,
+      "startLng": 120.09497833251953
+    }
+  ]
+}

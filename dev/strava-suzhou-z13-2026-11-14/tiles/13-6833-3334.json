@@ -1,0 +1,20 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-14T07:06:56.849Z",
+  "tile": {
+    "z": 13,
+    "x": 6833,
+    "y": 3334
+  },
+  "segments": [
+    {
+      "id": "42378329",
+      "tileScore": 18,
+      "name": "霞客湾单圈",
+      "distanceM": 5234.60009765625,
+      "avgGrade": -0.07259389758110046,
+      "startLat": 31.71236228942871,
+      "startLng": 120.31058502197266
+    }
+  ]
+}

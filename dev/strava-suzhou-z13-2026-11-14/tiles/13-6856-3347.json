@@ -1,0 +1,290 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-14T07:20:06.792Z",
+  "tile": {
+    "z": 13,
+    "x": 6856,
+    "y": 3347
+  },
+  "segments": [
+    {
+      "id": "3936835",
+      "tileScore": 2,
+      "name": "Apocalypse (Outer Ring-Jidi Lu)",
+      "distanceM": 5849.10009765625,
+      "avgGrade": -0.025644971057772636,
+      "startLat": 31.225740432739258,
+      "startLng": 121.34654235839844
+    },
+    {
+      "id": "39173776",
+      "tileScore": 65,
+      "name": "是lynn先发起进攻的",
+      "distanceM": 1092.800048828125,
+      "avgGrade": -0.01830160990357399,
+      "startLat": 31.234050750732422,
+      "startLng": 121.29840850830078
+    },
+    {
+      "id": "14943274",
+      "tileScore": 24,
+      "name": "Xinghong to Tianshan Sprint",
+      "distanceM": 786.7000122070312,
+      "avgGrade": -0.05084530636668205,
+      "startLat": 31.20341682434082,
+      "startLng": 121.2996826171875
+    },
+    {
+      "id": "35418098",
+      "tileScore": 81,
+      "name": "big shenlan loop",
+      "distanceM": 10668.5,
+      "avgGrade": -0.022496134042739868,
+      "startLat": 31.218183517456055,
+      "startLng": 121.3186264038086
+    },
+    {
+      "id": "42255794",
+      "tileScore": 11,
+      "name": "新路开通，冲啊",
+      "distanceM": 842.2000122070312,
+      "avgGrade": -0.07124198973178864,
+      "startLat": 31.242733001708984,
+      "startLng": 121.30131530761719
+    },
+    {
+      "id": "14872844",
+      "tileScore": 11,
+      "name": "Passing the airport on Tianshan road",
+      "distanceM": 5839.2998046875,
+      "avgGrade": 0.023975476622581482,
+      "startLat": 31.217174530029297,
+      "startLng": 121.30880737304688
+    },
+    {
+      "id": "27103510",
+      "tileScore": 57,
+      "name": "2nd Wattage Section",
+      "distanceM": 2409.89990234375,
+      "avgGrade": 0.04149549454450607,
+      "startLat": 31.189592361450195,
+      "startLng": 121.3069839477539
+    },
+    {
+      "id": "28338206",
+      "tileScore": 16,
+      "name": "BTP-CS007",
+      "distanceM": 1661.9000244140625,
+      "avgGrade": -0.18051627278327942,
+      "startLat": 31.210256576538086,
+      "startLng": 121.2971420288086
+    },
+    {
+      "id": "32312455",
+      "tileScore": 12,
+      "name": "Power off the lights",
+      "distanceM": 1517.800048828125,
+      "avgGrade": -0.10541573911905289,
+      "startLat": 31.225868225097656,
+      "startLng": 121.3392562866211
+    },
+    {
+      "id": "41727278",
+      "tileScore": 6,
+      "name": "虹桥环机场线~",
+      "distanceM": 15865.400390625,
+      "avgGrade": -0.010084838606417179,
+      "startLat": 31.22117805480957,
+      "startLng": 121.33946228027344
+    },
+    {
+      "id": "6744041",
+      "tileScore": 2,
+      "name": "Huamei Rd (Westbound)",
+      "distanceM": 575.5,
+      "avgGrade": 0.15638574957847595,
+      "startLat": 31.2225341796875,
+      "startLng": 121.3294677734375
+    },
+    {
+      "id": "36111952",
+      "tileScore": 106,
+      "name": "2023 HH Airport Loop",
+      "distanceM": 32885.30078125,
+      "avgGrade": -0.007298094220459461,
+      "startLat": 31.197797775268555,
+      "startLng": 121.41617584228516
+    },
+    {
+      "id": "30528553",
+      "tileScore": 4,
+      "name": "HJ-006",
+      "distanceM": 893,
+      "avgGrade": 0.24636057019233704,
+      "startLat": 31.243240356445312,
+      "startLng": 121.31587219238281
+    },
+    {
+      "id": "39697568",
+      "tileScore": 40,
+      "name": "申兰路冲冲冲",
+      "distanceM": 688.7000122070312,
+      "avgGrade": -0.11616088449954987,
+      "startLat": 31.21796417236328,
+      "startLng": 121.31097412109375
+    },
+    {
+      "id": "27367161",
+      "tileScore": 27,
+      "name": "Huaxiang-Beidi Bridge",
+      "distanceM": 628,
+      "avgGrade": -0.3980891704559326,
+      "startLat": 31.21245765686035,
+      "startLng": 121.29896545410156
+    },
+    {
+      "id": "37558021",
+      "tileScore": 1,
+      "name": "医生与电瓶车的故事",
+      "distanceM": 16616.19921875,
+      "avgGrade": 0.01624920219182968,
+      "startLat": 31.214859008789062,
+      "startLng": 121.3038101196289
+    },
+    {
+      "id": "24989686",
+      "tileScore": 197,
+      "name": "Wattage time !!!",
+      "distanceM": 5103.89990234375,
+      "avgGrade": -0.003918572328984737,
+      "startLat": 31.17098045349121,
+      "startLng": 121.3231430053711
+    },
+    {
+      "id": "11854905",
+      "tileScore": 19,
+      "name": "Jamin - Tianshan to Yinggang Sprint ",
+      "distanceM": 2713.60009765625,
+      "avgGrade": 0.003685141447931528,
+      "startLat": 31.21072769165039,
+      "startLng": 121.298583984375
+    },
+    {
+      "id": "34287181",
+      "tileScore": 26,
+      "name": "Sternstraße",
+      "distanceM": 1235.5999755859375,
+      "avgGrade": -0.04046617075800896,
+      "startLat": 31.211931228637695,
+      "startLng": 121.30004119873047
+    },
+    {
+      "id": "36524837",
+      "tileScore": 32,
+      "name": "Tianshan Rd Sprint AIRPORT!",
+      "distanceM": 778.9000244140625,
+      "avgGrade": -0.12838618457317352,
+      "startLat": 31.219085693359375,
+      "startLng": 121.3279800415039
+    },
+    {
+      "id": "12057928",
+      "tileScore": 434,
+      "name": "shen lan burger king back",
+      "distanceM": 2762.800048828125,
+      "avgGrade": 0.021717099472880363,
+      "startLat": 31.190826416015625,
+      "startLng": 121.31883239746094
+    },
+    {
+      "id": "12254383",
+      "tileScore": 5,
+      "name": "Shenkun Rd South Bound",
+      "distanceM": 2725.800048828125,
+      "avgGrade": 0.06603565812110901,
+      "startLat": 31.21251106262207,
+      "startLng": 121.3209228515625
+    },
+    {
+      "id": "26803644",
+      "tileScore": 5,
+      "name": "BTP-05CN",
+      "distanceM": 7649.2998046875,
+      "avgGrade": 0.08758971095085144,
+      "startLat": 31.232864379882812,
+      "startLng": 121.2995834350586
+    },
+    {
+      "id": "34479772",
+      "tileScore": 1,
+      "name": "Shenbin Road  northbound w/o tunnel ",
+      "distanceM": 3672.199951171875,
+      "avgGrade": -0.021785305812954903,
+      "startLat": 31.182662963867188,
+      "startLng": 121.3139419555664
+    },
+    {
+      "id": "14943327",
+      "tileScore": 23,
+      "name": "Aite Rd Climb & Sprint 2 End",
+      "distanceM": 1782.800048828125,
+      "avgGrade": 0.07852815836668015,
+      "startLat": 31.232601165771484,
+      "startLng": 121.3023910522461
+    },
+    {
+      "id": "7980305",
+      "tileScore": 19,
+      "name": "Beiqing Hwy x Railway Overpass (Eastbound)",
+      "distanceM": 614.9000244140625,
+      "avgGrade": 0.06505122780799866,
+      "startLat": 31.2163143157959,
+      "startLng": 121.28910827636719
+    },
+    {
+      "id": "35850240",
+      "tileScore": 17,
+      "name": "how to cope with this uneven road & traffic jams 🤨",
+      "distanceM": 698.7000122070312,
+      "avgGrade": 0,
+      "startLat": 31.202173233032227,
+      "startLng": 121.28890991210938
+    },
+    {
+      "id": "6744171",
+      "tileScore": 6,
+      "name": "Ninghong Rd Tunnel (Westbound)",
+      "distanceM": 682.5,
+      "avgGrade": -0.6886447072029114,
+      "startLat": 31.2127628326416,
+      "startLng": 121.31909942626953
+    },
+    {
+      "id": "33097414",
+      "tileScore": 255,
+      "name": "香榧王镜神全力冲刺",
+      "distanceM": 718.5999755859375,
+      "avgGrade": -0.08349569141864777,
+      "startLat": 31.209348678588867,
+      "startLng": 121.31674194335938
+    },
+    {
+      "id": "39173768",
+      "tileScore": 75,
+      "name": "jack最喜欢的半瓜路",
+      "distanceM": 2834.199951171875,
+      "avgGrade": 0.007056665141135454,
+      "startLat": 31.25140953063965,
+      "startLng": 121.28150939941406
+    },
+    {
+      "id": "29148720",
+      "tileScore": 6,
+      "name": "G318（华翔路）",
+      "distanceM": 12786.7998046875,
+      "avgGrade": 0.040666937828063965,
+      "startLat": 31.170894622802734,
+      "startLng": 121.32331848144531
+    }
+  ]
+}

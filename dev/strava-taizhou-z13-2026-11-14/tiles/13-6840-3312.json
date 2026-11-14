@@ -1,0 +1,20 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-14T07:02:19.059Z",
+  "tile": {
+    "z": 13,
+    "x": 6840,
+    "y": 3312
+  },
+  "segments": [
+    {
+      "id": "35617212",
+      "tileScore": 14,
+      "name": "328-小洋口",
+      "distanceM": 32260,
+      "avgGrade": 0.0006199628114700317,
+      "startLat": 32.53045654296875,
+      "startLng": 120.5565414428711
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-14T07:06:49.037Z",
+  "tile": {
+    "z": 13,
+    "x": 6829,
+    "y": 3341
+  },
+  "segments": [
+    {
+      "id": "33211801",
+      "tileScore": 167,
+      "name": "海边的风",
+      "distanceM": 7240,
+      "avgGrade": 0.2209944725036621,
+      "startLat": 31.446762084960938,
+      "startLng": 120.12973022460938
+    },
+    {
+      "id": "33211807",
+      "tileScore": 104,
+      "name": "千波激荡",
+      "distanceM": 2133.10009765625,
+      "avgGrade": 0.018752049654722214,
+      "startLat": 31.446298599243164,
+      "startLng": 120.10674285888672
+    },
+    {
+      "id": "14485953",
+      "tileScore": 330,
+      "name": "马山大圈 Mashan Circuit",
+      "distanceM": 58948.69921875,
+      "avgGrade": 0.0011874731862917542,
+      "startLat": 31.55048942565918,
+      "startLng": 120.18302154541016
+    }
+  ]
+}

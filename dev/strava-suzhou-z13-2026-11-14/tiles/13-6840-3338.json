@@ -1,0 +1,47 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-14T07:07:49.657Z",
+  "tile": {
+    "z": 13,
+    "x": 6840,
+    "y": 3338
+  },
+  "segments": [
+    {
+      "id": "12319329",
+      "tileScore": 2,
+      "name": "Canal ride southbound",
+      "distanceM": 8083.10009765625,
+      "avgGrade": -0.018557237461209297,
+      "startLat": 31.626943588256836,
+      "startLng": 120.6078109741211
+    },
+    {
+      "id": "19529402",
+      "tileScore": 8,
+      "name": "金城快速路20km晚间冲刺",
+      "distanceM": 21159.400390625,
+      "avgGrade": -0.016068508848547935,
+      "startLat": 31.569589614868164,
+      "startLng": 120.39192962646484
+    },
+    {
+      "id": "41100880",
+      "tileScore": 7,
+      "name": "鲁贝冲冲冲，只有最强者能成为王！！",
+      "distanceM": 52570.69921875,
+      "avgGrade": 0.004184840712696314,
+      "startLat": 31.779027938842773,
+      "startLng": 120.82551574707031
+    },
+    {
+      "id": "34786083",
+      "tileScore": 6,
+      "name": "Along Wanyu river",
+      "distanceM": 6349,
+      "avgGrade": 0.047251537442207336,
+      "startLat": 31.56031036376953,
+      "startLng": 120.59242248535156
+    }
+  ]
+}

@@ -1,0 +1,173 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-14T07:25:28.485Z",
+  "tile": {
+    "z": 13,
+    "x": 6843,
+    "y": 3344
+  },
+  "segments": [
+    {
+      "id": "24944036",
+      "tileScore": 4,
+      "name": "Xiandai (Liulu Rd to Bridge Sprint)",
+      "distanceM": 359.79998779296875,
+      "avgGrade": 1.0283490419387817,
+      "startLat": 31.32967185974121,
+      "startLng": 120.74412536621094
+    },
+    {
+      "id": "8391986",
+      "tileScore": 1,
+      "name": "Metro Line 1 - Nanshi Jie Sta. → Xinghu Jie Sta.",
+      "distanceM": 1413.0999755859375,
+      "avgGrade": 0.3679852783679962,
+      "startLat": 31.326475143432617,
+      "startLng": 120.72831726074219
+    },
+    {
+      "id": "8351819",
+      "tileScore": 1,
+      "name": "Xiandai Avenue to SCAC",
+      "distanceM": 8968.7001953125,
+      "avgGrade": -0.4482254981994629,
+      "startLat": 31.335399627685547,
+      "startLng": 120.79078674316406
+    },
+    {
+      "id": "9739176",
+      "tileScore": 5,
+      "name": "Shahu Ecological Park Loop (Clockwise)",
+      "distanceM": 4983.7001953125,
+      "avgGrade": 0,
+      "startLat": 31.3325138092041,
+      "startLng": 120.76374816894531
+    },
+    {
+      "id": "8721468",
+      "tileScore": 7,
+      "name": "Xinghu street southbound",
+      "distanceM": 1865.5,
+      "avgGrade": -0.10184936970472336,
+      "startLat": 31.32701873779297,
+      "startLng": 120.7158432006836
+    },
+    {
+      "id": "11405359",
+      "tileScore": 2,
+      "name": "Fengting Rd (Westbound)",
+      "distanceM": 11067.2001953125,
+      "avgGrade": -0.005421425681561232,
+      "startLat": 31.367603302001953,
+      "startLng": 120.79261016845703
+    },
+    {
+      "id": "11422563",
+      "tileScore": 2,
+      "name": "Shenhu West Rd (Westbound)",
+      "distanceM": 3017.10009765625,
+      "avgGrade": 0.12594875693321228,
+      "startLat": 31.33530044555664,
+      "startLng": 120.7279281616211
+    },
+    {
+      "id": "9489853",
+      "tileScore": 3,
+      "name": "Qixin St Loop (Anticlockwise)",
+      "distanceM": 699.0999755859375,
+      "avgGrade": -0.014304105192422867,
+      "startLat": 31.315330505371094,
+      "startLng": 120.72528076171875
+    },
+    {
+      "id": "23580769",
+      "tileScore": 6,
+      "name": "Xingtang Rd approach",
+      "distanceM": 3355.39990234375,
+      "avgGrade": -0.06556595116853714,
+      "startLat": 31.31162452697754,
+      "startLng": 120.7398452758789
+    },
+    {
+      "id": "11632457",
+      "tileScore": 1,
+      "name": "Gates Straightaway TT",
+      "distanceM": 7008.2998046875,
+      "avgGrade": -0.011415036395192146,
+      "startLat": 31.319839477539062,
+      "startLng": 120.72129821777344
+    },
+    {
+      "id": "15222262",
+      "tileScore": 4,
+      "name": "G312 SIP WtoE",
+      "distanceM": 8329.599609375,
+      "avgGrade": -0.007203226909041405,
+      "startLat": 31.3336181640625,
+      "startLng": 120.6710205078125
+    },
+    {
+      "id": "33558564",
+      "tileScore": 2,
+      "name": "Baitang Road Sprint",
+      "distanceM": 540.9000244140625,
+      "avgGrade": 0.18487705290317535,
+      "startLat": 31.338897705078125,
+      "startLng": 120.7391586303711
+    },
+    {
+      "id": "10746919",
+      "tileScore": 3,
+      "name": "Suhong E Rd Westbound (Zhongnan to Xingtang)",
+      "distanceM": 976.9000244140625,
+      "avgGrade": 0.4504043459892273,
+      "startLat": 31.343961715698242,
+      "startLng": 120.7513656616211
+    },
+    {
+      "id": "21073528",
+      "tileScore": 16,
+      "name": "Let's call it a climb",
+      "distanceM": 907.4000244140625,
+      "avgGrade": 1.78532075881958,
+      "startLat": 31.354557037353516,
+      "startLng": 120.73307037353516
+    },
+    {
+      "id": "12893783",
+      "tileScore": 1,
+      "name": "Botanical Garden Sprint (Westbound)",
+      "distanceM": 920.7999877929688,
+      "avgGrade": 0.18462206423282623,
+      "startLat": 31.329458236694336,
+      "startLng": 120.73906707763672
+    },
+    {
+      "id": "21073484",
+      "tileScore": 28,
+      "name": "Big Bump (Northbound)",
+      "distanceM": 1037.5999755859375,
+      "avgGrade": 1.5227447748184204,
+      "startLat": 31.34235954284668,
+      "startLng": 120.73961639404297
+    },
+    {
+      "id": "8148539",
+      "tileScore": 5,
+      "name": "Nanshi Jie to Jinliang Jie W to E",
+      "distanceM": 632.5,
+      "avgGrade": -0.17391304671764374,
+      "startLat": 31.327957153320312,
+      "startLng": 120.72909545898438
+    },
+    {
+      "id": "9566205",
+      "tileScore": 2,
+      "name": "Metro Line 1 - Nanshi Jie Sta. → Xingtang Jie Sta.",
+      "distanceM": 983.5999755859375,
+      "avgGrade": 0.18300122022628784,
+      "startLat": 31.32640266418457,
+      "startLng": 120.72917175292969
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-14T07:13:25.011Z",
+  "tile": {
+    "z": 13,
+    "x": 6814,
+    "y": 3331
+  },
+  "segments": [
+    {
+      "id": "40584704",
+      "tileScore": 10,
+      "name": "建社线 S-N（金茅路-白乾公路）",
+      "distanceM": 5318,
+      "avgGrade": 0.011282436549663544,
+      "startLat": 31.775602340698242,
+      "startLng": 119.50218200683594
+    },
+    {
+      "id": "40642864",
+      "tileScore": 8,
+      "name": "X302 E-W（延西线-S265）",
+      "distanceM": 5882.5,
+      "avgGrade": 0.09519762545824051,
+      "startLat": 31.828266143798828,
+      "startLng": 119.4476089477539
+    },
+    {
+      "id": "38866970",
+      "tileScore": 6,
+      "name": "直荣公路-金茅公路",
+      "distanceM": 2939.5,
+      "avgGrade": -0.11566593497991562,
+      "startLat": 31.85401153564453,
+      "startLng": 119.45345306396484
+    }
+  ]
+}

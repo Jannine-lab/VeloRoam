@@ -1,0 +1,218 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-14T07:26:26.108Z",
+  "tile": {
+    "z": 13,
+    "x": 6851,
+    "y": 3352
+  },
+  "segments": [
+    {
+      "id": "40029577",
+      "tileScore": 3,
+      "name": "Canals - Section 2",
+      "distanceM": 751,
+      "avgGrade": 0.026631157845258713,
+      "startLat": 31.04547882080078,
+      "startLng": 121.1023941040039
+    },
+    {
+      "id": "29969719",
+      "tileScore": 5,
+      "name": "CNB-02",
+      "distanceM": 9227.400390625,
+      "avgGrade": 0.015172204934060574,
+      "startLat": 31.07892417907715,
+      "startLng": 121.11650085449219
+    },
+    {
+      "id": "40029557",
+      "tileScore": 14,
+      "name": "Canals - Section 1",
+      "distanceM": 1032.300048828125,
+      "avgGrade": -0.09687106311321259,
+      "startLat": 31.03693199157715,
+      "startLng": 121.10686492919922
+    },
+    {
+      "id": "36101860",
+      "tileScore": 26,
+      "name": "大江大河第一段",
+      "distanceM": 2512.5,
+      "avgGrade": -0.04776119440793991,
+      "startLat": 31.025047302246094,
+      "startLng": 121.09870910644531
+    },
+    {
+      "id": "23633945",
+      "tileScore": 6,
+      "name": "熙总在这里游泳",
+      "distanceM": 352,
+      "avgGrade": -1.5340909957885742,
+      "startLat": 31.03252410888672,
+      "startLng": 121.09669494628906
+    },
+    {
+      "id": "32687348",
+      "tileScore": 30,
+      "name": "Canal riverbank",
+      "distanceM": 2329.300048828125,
+      "avgGrade": -0.025758810341358185,
+      "startLat": 31.03269386291504,
+      "startLng": 121.0963363647461
+    },
+    {
+      "id": "40505345",
+      "tileScore": 11,
+      "name": "Canals XKS #1",
+      "distanceM": 859.9000244140625,
+      "avgGrade": 0.1395511031150818,
+      "startLat": 31.03639030456543,
+      "startLng": 121.10858154296875
+    },
+    {
+      "id": "38340800",
+      "tileScore": 35,
+      "name": "龙源路至太阳岛辣堡前热身",
+      "distanceM": 12976.599609375,
+      "avgGrade": -0.016953593119978905,
+      "startLat": 31.071630477905273,
+      "startLng": 121.19587707519531
+    },
+    {
+      "id": "17079911",
+      "tileScore": 110,
+      "name": "Classic canal reverse",
+      "distanceM": 15373.900390625,
+      "avgGrade": 0.015610872767865658,
+      "startLat": 31.007339477539062,
+      "startLng": 121.10590362548828
+    },
+    {
+      "id": "32956173",
+      "tileScore": 64,
+      "name": "Sun Island Hwy UP",
+      "distanceM": 4203.2001953125,
+      "avgGrade": -0.023791396990418434,
+      "startLat": 31.043256759643555,
+      "startLng": 121.08158874511719
+    },
+    {
+      "id": "40976501",
+      "tileScore": 11,
+      "name": "Canal Tour",
+      "distanceM": 31244.30078125,
+      "avgGrade": 0.01024186797440052,
+      "startLat": 31.025711059570312,
+      "startLng": 121.04932403564453
+    },
+    {
+      "id": "27327757",
+      "tileScore": 7,
+      "name": "Shanghai Tour de France 上海环法 - Full Tour (100km)",
+      "distanceM": 100065.796875,
+      "avgGrade": 0.002498356159776449,
+      "startLat": 31.153793334960938,
+      "startLng": 121.20298767089844
+    },
+    {
+      "id": "32184852",
+      "tileScore": 46,
+      "name": "village curves",
+      "distanceM": 2072.800048828125,
+      "avgGrade": -0.038595136255025864,
+      "startLat": 31.03247833251953,
+      "startLng": 121.09602355957031
+    },
+    {
+      "id": "39972025",
+      "tileScore": 3,
+      "name": "乡村水路",
+      "distanceM": 2620.199951171875,
+      "avgGrade": -0.14502710103988647,
+      "startLat": 31.05801010131836,
+      "startLng": 121.07633972167969
+    },
+    {
+      "id": "18594624",
+      "tileScore": 58,
+      "name": "round the bend to 225",
+      "distanceM": 5027.89990234375,
+      "avgGrade": 0.05966705456376076,
+      "startLat": 31.012176513671875,
+      "startLng": 121.09524536132812
+    },
+    {
+      "id": "27319668",
+      "tileScore": 4,
+      "name": "Shanghai Tour de France 上海环法 - Bayonne-Perpignan",
+      "distanceM": 6554.5,
+      "avgGrade": 0.07170645892620087,
+      "startLat": 31.02676773071289,
+      "startLng": 121.11128997802734
+    },
+    {
+      "id": "28971973",
+      "tileScore": 79,
+      "name": "Sun Island East Bund",
+      "distanceM": 4060.89990234375,
+      "avgGrade": -0.024625083431601524,
+      "startLat": 31.034610748291016,
+      "startLng": 121.08087921142578
+    },
+    {
+      "id": "20191789",
+      "tileScore": 23,
+      "name": "Bridges",
+      "distanceM": 2004.5999755859375,
+      "avgGrade": 0.019954105839133263,
+      "startLat": 31.021507263183594,
+      "startLng": 121.08607482910156
+    },
+    {
+      "id": "30025992",
+      "tileScore": 1,
+      "name": "CC-10",
+      "distanceM": 6999.10009765625,
+      "avgGrade": 0.045720163732767105,
+      "startLat": 31.028165817260742,
+      "startLng": 121.08979034423828
+    },
+    {
+      "id": "27319649",
+      "tileScore": 10,
+      "name": "Shanghai Tour de France 上海环法 - Arcachon-Biarritz",
+      "distanceM": 1129.0999755859375,
+      "avgGrade": -0.28341156244277954,
+      "startLat": 31.037206649780273,
+      "startLng": 121.10863494873047
+    },
+    {
+      "id": "40304910",
+      "tileScore": 19,
+      "name": "Past the giant egg",
+      "distanceM": 1973.0999755859375,
+      "avgGrade": -0.09122700244188309,
+      "startLat": 31.050254821777344,
+      "startLng": 121.12084197998047
+    },
+    {
+      "id": "35443627",
+      "tileScore": 30,
+      "name": "小昆山田园铁三 Bike 1 Lap",
+      "distanceM": 7466.2998046875,
+      "avgGrade": -0.040180545300245285,
+      "startLat": 31.05215072631836,
+      "startLng": 121.10599517822266
+    },
+    {
+      "id": "35108291",
+      "tileScore": 48,
+      "name": "带乐乐回家吃饭",
+      "distanceM": 1701.5,
+      "avgGrade": -0.011754333972930908,
+      "startLat": 31.03762435913086,
+      "startLng": 121.1086654663086
+    }
+  ]
+}

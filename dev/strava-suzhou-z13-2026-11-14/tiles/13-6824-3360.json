@@ -1,0 +1,119 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-14T07:23:40.859Z",
+  "tile": {
+    "z": 13,
+    "x": 6824,
+    "y": 3360
+  },
+  "segments": [
+    {
+      "id": "38634669",
+      "tileScore": 12,
+      "name": "Rocky fire road climb 🚵 ",
+      "distanceM": 5489.5,
+      "avgGrade": 4.095090389251709,
+      "startLat": 30.744144439697266,
+      "startLng": 119.94226837158203
+    },
+    {
+      "id": "35641117",
+      "tileScore": 3,
+      "name": "浙北秘境环线",
+      "distanceM": 46672.19921875,
+      "avgGrade": -0.005570768378674984,
+      "startLat": 30.643512725830078,
+      "startLng": 119.87511444091797
+    },
+    {
+      "id": "31643570",
+      "tileScore": 73,
+      "name": "莫干山回长兴的最后一个坡",
+      "distanceM": 521.0999755859375,
+      "avgGrade": 7.023604393005371,
+      "startLat": 30.720239639282227,
+      "startLng": 119.89270782470703
+    },
+    {
+      "id": "32137467",
+      "tileScore": 18,
+      "name": "大岗山要命骑",
+      "distanceM": 2408.300048828125,
+      "avgGrade": 12.51505184173584,
+      "startLat": 30.743980407714844,
+      "startLng": 119.89070129394531
+    },
+    {
+      "id": "27906109",
+      "tileScore": 11,
+      "name": "new climb",
+      "distanceM": 8381.099609375,
+      "avgGrade": 2.1166672706604004,
+      "startLat": 30.777860641479492,
+      "startLng": 119.90153503417969
+    },
+    {
+      "id": "38127661",
+      "tileScore": 28,
+      "name": "All the way to no where ",
+      "distanceM": 2270.199951171875,
+      "avgGrade": 6.669016361236572,
+      "startLat": 30.717853546142578,
+      "startLng": 119.9353256225586
+    },
+    {
+      "id": "38104737",
+      "tileScore": 41,
+      "name": "石家坞rampas inhumanas!",
+      "distanceM": 1245.800048828125,
+      "avgGrade": 8.524642944335938,
+      "startLat": 30.748937606811523,
+      "startLng": 119.9053955078125
+    },
+    {
+      "id": "38090292",
+      "tileScore": 23,
+      "name": "三山村ramp",
+      "distanceM": 880.2000122070312,
+      "avgGrade": -1.3406044244766235,
+      "startLat": 30.733261108398438,
+      "startLng": 119.88390350341797
+    },
+    {
+      "id": "36621537",
+      "tileScore": 13,
+      "name": "凌泽EcL起伏路教学",
+      "distanceM": 21373.5,
+      "avgGrade": 0.9048588275909424,
+      "startLat": 30.576679229736328,
+      "startLng": 119.89435577392578
+    },
+    {
+      "id": "34453726",
+      "tileScore": 39,
+      "name": "埭昆线南向北",
+      "distanceM": 5378.39990234375,
+      "avgGrade": 2.859586477279663,
+      "startLat": 30.694910049438477,
+      "startLng": 119.9216537475586
+    },
+    {
+      "id": "38440900",
+      "tileScore": 16,
+      "name": "风电场路",
+      "distanceM": 1785.9000244140625,
+      "avgGrade": 12.492300987243652,
+      "startLat": 30.72202491760254,
+      "startLng": 119.8929214477539
+    },
+    {
+      "id": "34428056",
+      "tileScore": 38,
+      "name": "The frist climb",
+      "distanceM": 1475,
+      "avgGrade": 5.654237270355225,
+      "startLat": 30.733150482177734,
+      "startLng": 119.88482666015625
+    }
+  ]
+}

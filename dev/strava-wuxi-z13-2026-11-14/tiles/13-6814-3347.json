@@ -1,0 +1,29 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-14T07:13:17.321Z",
+  "tile": {
+    "z": 13,
+    "x": 6814,
+    "y": 3347
+  },
+  "segments": [
+    {
+      "id": "31840400",
+      "tileScore": 28,
+      "name": "Ping-Heng Rd ",
+      "distanceM": 3881.800048828125,
+      "avgGrade": -0.6337266564369202,
+      "startLat": 31.195510864257812,
+      "startLng": 119.47691345214844
+    },
+    {
+      "id": "41403808",
+      "tileScore": 25,
+      "name": "检测最后还有没有",
+      "distanceM": 9342.2998046875,
+      "avgGrade": -0.4688352942466736,
+      "startLat": 31.23021125793457,
+      "startLng": 119.45426940917969
+    }
+  ]
+}

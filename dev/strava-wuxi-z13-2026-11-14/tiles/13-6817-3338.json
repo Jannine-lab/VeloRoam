@@ -1,0 +1,29 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-14T07:12:15.927Z",
+  "tile": {
+    "z": 13,
+    "x": 6817,
+    "y": 3338
+  },
+  "segments": [
+    {
+      "id": "855860",
+      "tileScore": 6,
+      "name": "ShanXia River Bridge Towards South West",
+      "distanceM": 451.43798828125,
+      "avgGrade": 1.3291980028152466,
+      "startLat": 31.559478759765625,
+      "startLng": 119.59493255615234
+    },
+    {
+      "id": "33556129",
+      "tileScore": 1,
+      "name": "S239 E-W（长荡湖大道-南山大道）",
+      "distanceM": 16263.5,
+      "avgGrade": -0.015986718237400055,
+      "startLat": 31.591808319091797,
+      "startLng": 119.6152572631836
+    }
+  ]
+}

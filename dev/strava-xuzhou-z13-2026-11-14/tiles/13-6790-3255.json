@@ -1,0 +1,20 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-14T06:53:31.459Z",
+  "tile": {
+    "z": 13,
+    "x": 6790,
+    "y": 3255
+  },
+  "segments": [
+    {
+      "id": "28252588",
+      "tileScore": 3,
+      "name": "没想好名字路段",
+      "distanceM": 4830,
+      "avgGrade": 0.04968944191932678,
+      "startLat": 34.61851119995117,
+      "startLng": 118.42005157470703
+    }
+  ]
+}

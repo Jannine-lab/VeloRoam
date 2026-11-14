@@ -1,0 +1,20 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-14T07:01:37.059Z",
+  "tile": {
+    "z": 13,
+    "x": 6826,
+    "y": 3299
+  },
+  "segments": [
+    {
+      "id": "37976617",
+      "tileScore": 5,
+      "name": "马堡国小绿山马冲冲冲",
+      "distanceM": 4994.39990234375,
+      "avgGrade": -0.04004485160112381,
+      "startLat": 33.0181884765625,
+      "startLng": 119.9771728515625
+    }
+  ]
+}

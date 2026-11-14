@@ -1,0 +1,20 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-14T06:39:14.652Z",
+  "tile": {
+    "z": 13,
+    "x": 6771,
+    "y": 3251
+  },
+  "segments": [
+    {
+      "id": "42085861",
+      "tileScore": 3,
+      "name": "福兴桥绕圈",
+      "distanceM": 5757.60009765625,
+      "avgGrade": -0.003473669523373246,
+      "startLat": 34.753753662109375,
+      "startLng": 117.59445190429688
+    }
+  ]
+}

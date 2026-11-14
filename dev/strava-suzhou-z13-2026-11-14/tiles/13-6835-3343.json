@@ -1,0 +1,56 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-14T07:06:25.988Z",
+  "tile": {
+    "z": 13,
+    "x": 6835,
+    "y": 3343
+  },
+  "segments": [
+    {
+      "id": "14061227",
+      "tileScore": 9,
+      "name": "S230 - G312 to Taihu Dadao",
+      "distanceM": 8838.900390625,
+      "avgGrade": -0.05430540069937706,
+      "startLat": 31.409561157226562,
+      "startLng": 120.44099426269531
+    },
+    {
+      "id": "33462364",
+      "tileScore": 1,
+      "name": "W to E Kunlunshan",
+      "distanceM": 2460.699951171875,
+      "avgGrade": 0.008127768523991108,
+      "startLat": 31.364688873291016,
+      "startLng": 120.4087142944336
+    },
+    {
+      "id": "31028850",
+      "tileScore": 3,
+      "name": "Dirty bird",
+      "distanceM": 1382.5999755859375,
+      "avgGrade": -0.02893099933862686,
+      "startLat": 31.377222061157227,
+      "startLng": 120.40083312988281
+    },
+    {
+      "id": "40880638",
+      "tileScore": 118,
+      "name": "北太湖",
+      "distanceM": 12818.099609375,
+      "avgGrade": -0.009361762553453445,
+      "startLat": 31.431507110595703,
+      "startLng": 120.40818786621094
+    },
+    {
+      "id": "21864305",
+      "tileScore": 37,
+      "name": "Taihu Coastline G312-Dongshan (70K)",
+      "distanceM": 69272.3984375,
+      "avgGrade": 0.0020210070069879293,
+      "startLat": 31.449859619140625,
+      "startLng": 120.41646575927734
+    }
+  ]
+}

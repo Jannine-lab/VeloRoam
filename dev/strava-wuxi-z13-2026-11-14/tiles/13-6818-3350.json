@@ -1,0 +1,38 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-14T07:12:25.574Z",
+  "tile": {
+    "z": 13,
+    "x": 6818,
+    "y": 3350
+  },
+  "segments": [
+    {
+      "id": "39433200",
+      "tileScore": 4,
+      "name": "XC赛道@Meishan[长兴煤山off-road]",
+      "distanceM": 5708.2998046875,
+      "avgGrade": 0.04204404354095459,
+      "startLat": 31.090206146240234,
+      "startLng": 119.6557388305664
+    },
+    {
+      "id": "37085601",
+      "tileScore": 45,
+      "name": "S338E-W to 安徽界",
+      "distanceM": 4776.60009765625,
+      "avgGrade": 2.286144971847534,
+      "startLat": 31.120824813842773,
+      "startLng": 119.68193817138672
+    },
+    {
+      "id": "36100499",
+      "tileScore": 38,
+      "name": "S338 去浙江还要爬个坡",
+      "distanceM": 4149.60009765625,
+      "avgGrade": 2.4098708629608154,
+      "startLat": 31.10093116760254,
+      "startLng": 119.60059356689453
+    }
+  ]
+}

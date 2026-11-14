@@ -1,0 +1,74 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-14T07:23:48.819Z",
+  "tile": {
+    "z": 13,
+    "x": 6849,
+    "y": 3325
+  },
+  "segments": [
+    {
+      "id": "39154956",
+      "tileScore": 14,
+      "name": "Hua Qiang to Feng Ya Xi Ting",
+      "distanceM": 24200.400390625,
+      "avgGrade": 0.0016528653213754296,
+      "startLat": 32.0452766418457,
+      "startLng": 120.8616943359375
+    },
+    {
+      "id": "35587906",
+      "tileScore": 56,
+      "name": "西亭北到南",
+      "distanceM": 7529.2998046875,
+      "avgGrade": 0.005312579218298197,
+      "startLat": 32.11660385131836,
+      "startLng": 121.00270080566406
+    },
+    {
+      "id": "37112943",
+      "tileScore": 30,
+      "name": "江海大道 长上坡",
+      "distanceM": 1091.300048828125,
+      "avgGrade": 0.036653533577919006,
+      "startLat": 32.04799270629883,
+      "startLng": 121.00324249267578
+    },
+    {
+      "id": "19330750",
+      "tileScore": 4,
+      "name": "S335",
+      "distanceM": 5387.60009765625,
+      "avgGrade": 0.011136683635413647,
+      "startLat": 32.046119689941406,
+      "startLng": 120.96329498291016
+    },
+    {
+      "id": "39103395",
+      "tileScore": 6,
+      "name": "钟秀中路走几遍",
+      "distanceM": 5641.89990234375,
+      "avgGrade": 0.021269429475069046,
+      "startLat": 32.039459228515625,
+      "startLng": 121.00570678710938
+    },
+    {
+      "id": "37383009",
+      "tileScore": 24,
+      "name": "一路有倪上桥使劲踩",
+      "distanceM": 1521.5,
+      "avgGrade": 0.5915215015411377,
+      "startLat": 32.03154754638672,
+      "startLng": 121.01084899902344
+    },
+    {
+      "id": "37684615",
+      "tileScore": 32,
+      "name": "Tonglv Bridge",
+      "distanceM": 806.7000122070312,
+      "avgGrade": 1.1900334358215332,
+      "startLat": 32.052223205566406,
+      "startLng": 121.009521484375
+    }
+  ]
+}

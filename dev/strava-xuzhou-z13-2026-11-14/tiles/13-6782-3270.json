@@ -1,0 +1,20 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-14T06:39:07.224Z",
+  "tile": {
+    "z": 13,
+    "x": 6782,
+    "y": 3270
+  },
+  "segments": [
+    {
+      "id": "17005074",
+      "tileScore": 2,
+      "name": "皂河-收费站 (15km)",
+      "distanceM": 14934.900390625,
+      "avgGrade": -0.0669572651386261,
+      "startLat": 34.02602005004883,
+      "startLng": 118.09638977050781
+    }
+  ]
+}

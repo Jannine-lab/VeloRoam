@@ -1,0 +1,20 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-14T06:58:29.944Z",
+  "tile": {
+    "z": 13,
+    "x": 6828,
+    "y": 3323
+  },
+  "segments": [
+    {
+      "id": "36996047",
+      "tileScore": 23,
+      "name": "镇海路南延S→N段",
+      "distanceM": 8308.7998046875,
+      "avgGrade": 0.02166377753019333,
+      "startLat": 32.08658218383789,
+      "startLng": 120.11122131347656
+    }
+  ]
+}

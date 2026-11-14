@@ -1,0 +1,173 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-14T07:20:06.792Z",
+  "tile": {
+    "z": 13,
+    "x": 6855,
+    "y": 3346
+  },
+  "segments": [
+    {
+      "id": "40828545",
+      "tileScore": 1,
+      "name": "Wusong River Greenway Section 2.5 (Westbound)",
+      "distanceM": 953.0999755859375,
+      "avgGrade": 0,
+      "startLat": 31.26119041442871,
+      "startLng": 121.2498779296875
+    },
+    {
+      "id": "17376176",
+      "tileScore": 9,
+      "name": "Xiang Jiang Smash",
+      "distanceM": 666.5999755859375,
+      "avgGrade": 0.030003000050783157,
+      "startLat": 31.27154541015625,
+      "startLng": 121.27214813232422
+    },
+    {
+      "id": "7442832",
+      "tileScore": 1,
+      "name": "Jinshajiang West Rd (Eastbound)",
+      "distanceM": 5435.39990234375,
+      "avgGrade": 0.04967435821890831,
+      "startLat": 31.244314193725586,
+      "startLng": 121.28707885742188
+    },
+    {
+      "id": "40484846",
+      "tileScore": 2,
+      "name": "Wusong River Greenway Section 1 (Eastbound)",
+      "distanceM": 766.7000122070312,
+      "avgGrade": 0.05217164382338524,
+      "startLat": 31.250457763671875,
+      "startLng": 121.2743148803711
+    },
+    {
+      "id": "28735607",
+      "tileScore": 25,
+      "name": "SBT-007",
+      "distanceM": 2648.699951171875,
+      "avgGrade": 0.022652622312307358,
+      "startLat": 31.26484489440918,
+      "startLng": 121.24407958984375
+    },
+    {
+      "id": "39173768",
+      "tileScore": 75,
+      "name": "jack最喜欢的半瓜路",
+      "distanceM": 2834.199951171875,
+      "avgGrade": 0.007056665141135454,
+      "startLat": 31.25140953063965,
+      "startLng": 121.28150939941406
+    },
+    {
+      "id": "29011839",
+      "tileScore": 6,
+      "name": "Jd001",
+      "distanceM": 1048.5999755859375,
+      "avgGrade": 0.11443829536437988,
+      "startLat": 31.24446678161621,
+      "startLng": 121.2863998413086
+    },
+    {
+      "id": "29179357",
+      "tileScore": 10,
+      "name": "JR&Biel - 002",
+      "distanceM": 322.6000061035156,
+      "avgGrade": -0.7749534845352173,
+      "startLat": 31.24458885192871,
+      "startLng": 121.28812408447266
+    },
+    {
+      "id": "39173785",
+      "tileScore": 68,
+      "name": "看看谁超过了偷老师",
+      "distanceM": 15884.5,
+      "avgGrade": -0.015109068714082241,
+      "startLat": 31.263944625854492,
+      "startLng": 121.3708267211914
+    },
+    {
+      "id": "7442528",
+      "tileScore": 50,
+      "name": "Cao'an Hwy x Railway Underpass (Westbound)",
+      "distanceM": 776.4000244140625,
+      "avgGrade": -0.025759916752576828,
+      "startLat": 31.270708084106445,
+      "startLng": 121.28390502929688
+    },
+    {
+      "id": "40484415",
+      "tileScore": 10,
+      "name": "Wusong River Greenway Section 2 (Eastbound)",
+      "distanceM": 2590.60009765625,
+      "avgGrade": -0.0386010967195034,
+      "startLat": 31.26067352294922,
+      "startLng": 121.25103759765625
+    },
+    {
+      "id": "31221443",
+      "tileScore": 7,
+      "name": "安亭儿童乐园-Bikehome",
+      "distanceM": 47152.19921875,
+      "avgGrade": -0.009755642153322697,
+      "startLat": 31.239341735839844,
+      "startLng": 121.36277770996094
+    },
+    {
+      "id": "26803644",
+      "tileScore": 5,
+      "name": "BTP-05CN",
+      "distanceM": 7649.2998046875,
+      "avgGrade": 0.08758971095085144,
+      "startLat": 31.232864379882812,
+      "startLng": 121.2995834350586
+    },
+    {
+      "id": "34705937",
+      "tileScore": 91,
+      "name": "博园路竞速",
+      "distanceM": 7067.2998046875,
+      "avgGrade": 0.2745037078857422,
+      "startLat": 31.266040802001953,
+      "startLng": 121.20018005371094
+    },
+    {
+      "id": "28308770",
+      "tileScore": 4,
+      "name": "纪鹤东路闵行/嘉定 跨界桥",
+      "distanceM": 433.3999938964844,
+      "avgGrade": -0.04614674672484398,
+      "startLat": 31.244447708129883,
+      "startLng": 121.2808837890625
+    },
+    {
+      "id": "29558248",
+      "tileScore": 3,
+      "name": "NQSF-0201",
+      "distanceM": 5655.5,
+      "avgGrade": -0.024754663929343224,
+      "startLat": 31.24627685546875,
+      "startLng": 121.2858657836914
+    },
+    {
+      "id": "20046963",
+      "tileScore": 11,
+      "name": "triple threat",
+      "distanceM": 2192.5,
+      "avgGrade": 0.08209806680679321,
+      "startLat": 31.24844741821289,
+      "startLng": 121.26316833496094
+    },
+    {
+      "id": "28724121",
+      "tileScore": 3,
+      "name": "博园路东向全程",
+      "distanceM": 14911.7998046875,
+      "avgGrade": -0.008047318086028099,
+      "startLat": 31.282058715820312,
+      "startLng": 121.16080474853516
+    }
+  ]
+}

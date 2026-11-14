@@ -1,0 +1,20 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-14T06:55:33.970Z",
+  "tile": {
+    "z": 13,
+    "x": 6824,
+    "y": 3312
+  },
+  "segments": [
+    {
+      "id": "41389443",
+      "tileScore": 37,
+      "name": "长江大道济川路口至青年路",
+      "distanceM": 8503.599609375,
+      "avgGrade": -0.08231807500123978,
+      "startLat": 32.47348403930664,
+      "startLng": 119.86650848388672
+    }
+  ]
+}

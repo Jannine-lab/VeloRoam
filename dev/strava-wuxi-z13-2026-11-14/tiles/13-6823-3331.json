@@ -1,0 +1,38 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-14T07:11:30.879Z",
+  "tile": {
+    "z": 13,
+    "x": 6823,
+    "y": 3331
+  },
+  "segments": [
+    {
+      "id": "38058678",
+      "tileScore": 63,
+      "name": "星港路西往东",
+      "distanceM": 4516.2998046875,
+      "avgGrade": -0.011071009561419487,
+      "startLat": 31.84044075012207,
+      "startLng": 119.8094482421875
+    },
+    {
+      "id": "25644928",
+      "tileScore": 18,
+      "name": "运河路西往东-无红绿灯平路",
+      "distanceM": 7263.60009765625,
+      "avgGrade": -0.05506911128759384,
+      "startLat": 31.850929260253906,
+      "startLng": 119.82508087158203
+    },
+    {
+      "id": "30066918",
+      "tileScore": 2,
+      "name": "G312: ChangZhou-> DanYang",
+      "distanceM": 28762.80078125,
+      "avgGrade": 0.020860278978943825,
+      "startLat": 31.80023765563965,
+      "startLng": 119.85284423828125
+    }
+  ]
+}

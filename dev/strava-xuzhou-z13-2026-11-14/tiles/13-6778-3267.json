@@ -1,0 +1,20 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-14T06:34:54.018Z",
+  "tile": {
+    "z": 13,
+    "x": 6778,
+    "y": 3267
+  },
+  "segments": [
+    {
+      "id": "18815988",
+      "tileScore": 38,
+      "name": "巨山爬坡",
+      "distanceM": 1063.699951171875,
+      "avgGrade": 13.312024116516113,
+      "startLat": 34.161338806152344,
+      "startLng": 117.86182403564453
+    }
+  ]
+}

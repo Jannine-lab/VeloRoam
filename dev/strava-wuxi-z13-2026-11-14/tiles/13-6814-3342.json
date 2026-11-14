@@ -1,0 +1,65 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-14T07:13:02.753Z",
+  "tile": {
+    "z": 13,
+    "x": 6814,
+    "y": 3342
+  },
+  "segments": [
+    {
+      "id": "4899298",
+      "tileScore": 3,
+      "name": "南京中华门到余杭高速",
+      "distanceM": 177379.09375,
+      "avgGrade": -0.04870923236012459,
+      "startLat": 32.015663146972656,
+      "startLng": 118.77684020996094
+    },
+    {
+      "id": "28667035",
+      "tileScore": 3,
+      "name": "★夜骑天目湖常规路线★高铁桥",
+      "distanceM": 22157.099609375,
+      "avgGrade": 0.0009026452316902578,
+      "startLat": 31.395864486694336,
+      "startLng": 119.45689392089844
+    },
+    {
+      "id": "28640310",
+      "tileScore": 21,
+      "name": "Time to show the real technique",
+      "distanceM": 4277.7001953125,
+      "avgGrade": -0.04675409570336342,
+      "startLat": 31.387733459472656,
+      "startLng": 119.47301483154297
+    },
+    {
+      "id": "4913992",
+      "tileScore": 5,
+      "name": "溧阳到宜兴",
+      "distanceM": 30296.400390625,
+      "avgGrade": -0.010232239030301571,
+      "startLat": 31.40678596496582,
+      "startLng": 119.46601104736328
+    },
+    {
+      "id": "41966575",
+      "tileScore": 4,
+      "name": "Tour de SLZ",
+      "distanceM": 1864.0999755859375,
+      "avgGrade": -0.042916152626276016,
+      "startLat": 31.41884422302246,
+      "startLng": 119.46604919433594
+    },
+    {
+      "id": "28641306",
+      "tileScore": 21,
+      "name": "分手在高铁桥下",
+      "distanceM": 968.7000122070312,
+      "avgGrade": -0.3096933960914612,
+      "startLat": 31.387418746948242,
+      "startLng": 119.45436096191406
+    }
+  ]
+}

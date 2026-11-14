@@ -1,0 +1,20 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-14T07:01:50.921Z",
+  "tile": {
+    "z": 13,
+    "x": 6828,
+    "y": 3299
+  },
+  "segments": [
+    {
+      "id": "36821120",
+      "tileScore": 1,
+      "name": "安丰229南段大决斗",
+      "distanceM": 6489.5,
+      "avgGrade": 0.012327605858445168,
+      "startLat": 33.01740264892578,
+      "startLng": 120.09086608886719
+    }
+  ]
+}

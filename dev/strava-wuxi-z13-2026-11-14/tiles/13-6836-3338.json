@@ -1,0 +1,29 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-14T07:06:35.586Z",
+  "tile": {
+    "z": 13,
+    "x": 6836,
+    "y": 3338
+  },
+  "segments": [
+    {
+      "id": "32594051",
+      "tileScore": 1,
+      "name": "Xishan Rd. Sprint",
+      "distanceM": 4266,
+      "avgGrade": 0.03984997794032097,
+      "startLat": 31.577964782714844,
+      "startLng": 120.38858032226562
+    },
+    {
+      "id": "19529402",
+      "tileScore": 8,
+      "name": "金城快速路20km晚间冲刺",
+      "distanceM": 21159.400390625,
+      "avgGrade": -0.016068508848547935,
+      "startLat": 31.569589614868164,
+      "startLng": 120.39192962646484
+    }
+  ]
+}

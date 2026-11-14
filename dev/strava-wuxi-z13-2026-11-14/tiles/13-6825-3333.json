@@ -1,0 +1,47 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-14T07:10:16.954Z",
+  "tile": {
+    "z": 13,
+    "x": 6825,
+    "y": 3333
+  },
+  "segments": [
+    {
+      "id": "31803989",
+      "tileScore": 18,
+      "name": "龙城大桥 S-N",
+      "distanceM": 709.0999755859375,
+      "avgGrade": 1.8474122285842896,
+      "startLat": 31.737401962280273,
+      "startLng": 119.95246124267578
+    },
+    {
+      "id": "948108",
+      "tileScore": 8,
+      "name": "WuJin Large Bridge Towards South",
+      "distanceM": 542.6480102539062,
+      "avgGrade": 0.23954303562641144,
+      "startLat": 31.747175216674805,
+      "startLng": 119.93904113769531
+    },
+    {
+      "id": "32911184",
+      "tileScore": 2,
+      "name": "常州花园街大桥S-N",
+      "distanceM": 598.2000122070312,
+      "avgGrade": 2.1397526264190674,
+      "startLat": 31.738126754760742,
+      "startLng": 119.9444351196289
+    },
+    {
+      "id": "31091632",
+      "tileScore": 9,
+      "name": "G312国道-钟楼大桥至阳湖大桥段",
+      "distanceM": 8605.7998046875,
+      "avgGrade": -0.01626809872686863,
+      "startLat": 31.750730514526367,
+      "startLng": 119.88571166992188
+    }
+  ]
+}

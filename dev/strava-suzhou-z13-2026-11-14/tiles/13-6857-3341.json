@@ -1,0 +1,29 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-14T07:21:35.502Z",
+  "tile": {
+    "z": 13,
+    "x": 6857,
+    "y": 3341
+  },
+  "segments": [
+    {
+      "id": "37231070",
+      "tileScore": 28,
+      "name": "富长路后半段",
+      "distanceM": 5589.2001953125,
+      "avgGrade": -0.017891647294163704,
+      "startLat": 31.418840408325195,
+      "startLng": 121.39128112792969
+    },
+    {
+      "id": "27202541",
+      "tileScore": 7,
+      "name": "Panjing grand straight road",
+      "distanceM": 15455.5,
+      "avgGrade": -0.016822488978505135,
+      "startLat": 31.48887825012207,
+      "startLng": 121.32933807373047
+    }
+  ]
+}

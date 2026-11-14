@@ -1,0 +1,38 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-14T07:07:15.832Z",
+  "tile": {
+    "z": 13,
+    "x": 6838,
+    "y": 3343
+  },
+  "segments": [
+    {
+      "id": "15070446",
+      "tileScore": 3,
+      "name": "Aeon Mall underpass",
+      "distanceM": 959.9000244140625,
+      "avgGrade": 1.6876757144927979,
+      "startLat": 31.368101119995117,
+      "startLng": 120.52506256103516
+    },
+    {
+      "id": "30816042",
+      "tileScore": 1,
+      "name": "Welcome to Suzhou浒墅关大道（西北-东南）",
+      "distanceM": 6338.89990234375,
+      "avgGrade": 0.03786145895719528,
+      "startLat": 31.402376174926758,
+      "startLng": 120.48539733886719
+    },
+    {
+      "id": "15382628",
+      "tileScore": 1,
+      "name": "Neon Mall Underpass",
+      "distanceM": 1558.5,
+      "avgGrade": 0,
+      "startLat": 31.358619689941406,
+      "startLng": 120.53947448730469
+    }
+  ]
+}

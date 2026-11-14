@@ -1,0 +1,20 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-14T07:16:07.873Z",
+  "tile": {
+    "z": 13,
+    "x": 6849,
+    "y": 3347
+  },
+  "segments": [
+    {
+      "id": "12360005",
+      "tileScore": 6,
+      "name": "Late for work",
+      "distanceM": 1390.9000244140625,
+      "avgGrade": -0.06470631062984467,
+      "startLat": 31.212324142456055,
+      "startLng": 121.00697326660156
+    }
+  ]
+}

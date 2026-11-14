@@ -1,0 +1,56 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-14T07:11:34.542Z",
+  "tile": {
+    "z": 13,
+    "x": 6821,
+    "y": 3347
+  },
+  "segments": [
+    {
+      "id": "38135482",
+      "tileScore": 16,
+      "name": "中超咖啡",
+      "distanceM": 1312,
+      "avgGrade": 8.231707572937012,
+      "startLat": 31.234092712402344,
+      "startLng": 119.76142120361328
+    },
+    {
+      "id": "41182939",
+      "tileScore": 12,
+      "name": "Hilly circuit",
+      "distanceM": 4574.5,
+      "avgGrade": -0.9749699234962463,
+      "startLat": 31.198312759399414,
+      "startLng": 119.75149536132812
+    },
+    {
+      "id": "34816568",
+      "tileScore": 32,
+      "name": "阳羡美庐坡",
+      "distanceM": 3096.60009765625,
+      "avgGrade": 1.7632242441177368,
+      "startLat": 31.238069534301758,
+      "startLng": 119.77083587646484
+    },
+    {
+      "id": "36807023",
+      "tileScore": 15,
+      "name": "悬脚岭北段放坡",
+      "distanceM": 9932.7001953125,
+      "avgGrade": -1.8182367086410522,
+      "startLat": 31.16756248474121,
+      "startLng": 119.70333862304688
+    },
+    {
+      "id": "34816580",
+      "tileScore": 21,
+      "name": "阳羡湖坡",
+      "distanceM": 1341.0999755859375,
+      "avgGrade": 3.534411907196045,
+      "startLat": 31.220897674560547,
+      "startLng": 119.76168060302734
+    }
+  ]
+}

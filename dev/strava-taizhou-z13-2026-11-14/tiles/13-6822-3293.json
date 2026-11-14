@@ -1,0 +1,20 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-14T07:04:21.712Z",
+  "tile": {
+    "z": 13,
+    "x": 6822,
+    "y": 3293
+  },
+  "segments": [
+    {
+      "id": "35528241",
+      "tileScore": 78,
+      "name": "蟒蛇河绿道",
+      "distanceM": 23905.900390625,
+      "avgGrade": -0.008366135880351067,
+      "startLat": 33.32904052734375,
+      "startLng": 119.9661636352539
+    }
+  ]
+}

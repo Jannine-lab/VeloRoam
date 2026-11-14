@@ -1,0 +1,1608 @@
+{
+  "mode": "apply",
+  "source": "/Users/jannine/Desktop/VeloRoam/dev/strava-shanghai-buffer-z13-2026-11-09/fresh-candidates.json",
+  "tile": {
+    "zoom": 13,
+    "bounds": {
+      "south": 30.615,
+      "west": 120.79,
+      "north": 31.94,
+      "east": 122.26
+    },
+    "airportBounds": {
+      "south": 31.08,
+      "west": 121.72,
+      "north": 31.2,
+      "east": 121.9
+    },
+    "completeTiles": 226
+  },
+  "status": "failed",
+  "startedAt": "2026-11-11T08:05:56.426Z",
+  "finishedAt": "2026-11-11T11:44:46.278Z",
+  "sourceCount": 340,
+  "existingIds": [
+    "3361098",
+    "3361140",
+    "3424881",
+    "3527112",
+    "4144894",
+    "5717565",
+    "6371687",
+    "6881545",
+    "8361862",
+    "8419347",
+    "8618151",
+    "8677498",
+    "9300083",
+    "10051298",
+    "10051585",
+    "10303334",
+    "10343129",
+    "10343139",
+    "10343149",
+    "10407939",
+    "10522807",
+    "10641344",
+    "11297194",
+    "11586735",
+    "12762021",
+    "13151065",
+    "13246149",
+    "13627389",
+    "13715792",
+    "14107787",
+    "14194265",
+    "14279086",
+    "14700693",
+    "15239938",
+    "15336818",
+    "16215650",
+    "17720572",
+    "17720599",
+    "18356972",
+    "18804703",
+    "19039997",
+    "19341570",
+    "20169914",
+    "20304993",
+    "20370724",
+    "21131943",
+    "21150423",
+    "21279851",
+    "21280174",
+    "21511294",
+    "21854679",
+    "21854688",
+    "22068484",
+    "22083408",
+    "22263996",
+    "23526218",
+    "24366520",
+    "24694866",
+    "26067552",
+    "26404039",
+    "27369844",
+    "27401582",
+    "28524639",
+    "28599619",
+    "29246211",
+    "29669166",
+    "30384821",
+    "31484057",
+    "32117675",
+    "32455219",
+    "33020158",
+    "33036065",
+    "33455606",
+    "33538202",
+    "33563752",
+    "33683923",
+    "34064421",
+    "34411159",
+    "34496606",
+    "34714589",
+    "34942168",
+    "35083902",
+    "35241609",
+    "35241819",
+    "35469122",
+    "35713349",
+    "35713376",
+    "35767613",
+    "35927579",
+    "36528594",
+    "36746285",
+    "36840940",
+    "37093928",
+    "37253344",
+    "37327567",
+    "37626506",
+    "37629875",
+    "37740506",
+    "38111761",
+    "38322431",
+    "38467962",
+    "38517060",
+    "38520605",
+    "38823487",
+    "38897849",
+    "38900316",
+    "38954443",
+    "39022339",
+    "39024573",
+    "39089386",
+    "39133945",
+    "39212463",
+    "39278137",
+    "39296124",
+    "39316262",
+    "39320505",
+    "39326041",
+    "39436580",
+    "39436638",
+    "39436646",
+    "39444355",
+    "39507070",
+    "39760643",
+    "39767095",
+    "39774409",
+    "39843642",
+    "39910047",
+    "40005908",
+    "40251335",
+    "40261484",
+    "40262073",
+    "40273772",
+    "40329073",
+    "40405020",
+    "40536434",
+    "40536441",
+    "40537521",
+    "40794634",
+    "40826342",
+    "40892081",
+    "40986412",
+    "41015629",
+    "41055902",
+    "41203609",
+    "41267620",
+    "41273309",
+    "41305164",
+    "41383934",
+    "41945494",
+    "42079725",
+    "42155611",
+    "42191774",
+    "42284960"
+  ],
+  "missingIds": [
+    "39324741",
+    "33906434",
+    "36860797",
+    "40906822",
+    "39278214",
+    "39278224",
+    "10460635",
+    "35865877",
+    "34383899",
+    "39774405",
+    "39280791",
+    "39182185",
+    "41100880",
+    "39486660",
+    "35376347",
+    "35075210",
+    "41645916",
+    "39507086",
+    "38556848",
+    "12703528",
+    "38140942",
+    "38431654",
+    "38431269",
+    "35169689",
+    "12896317",
+    "41394197",
+    "35383500",
+    "40790554",
+    "35492950",
+    "35391309",
+    "35500463",
+    "38583039",
+    "35165761",
+    "13159909",
+    "10284227",
+    "41565907",
+    "8789824",
+    "23491431",
+    "38745052",
+    "38327243",
+    "40772411",
+    "3828998",
+    "14330832",
+    "5326060",
+    "38180255",
+    "24694910",
+    "39436239",
+    "38745540",
+    "40496734",
+    "35187916",
+    "3500702",
+    "41693421",
+    "10198009",
+    "40786221",
+    "33020101",
+    "40911387",
+    "26758706",
+    "38829270",
+    "12141566",
+    "11430989",
+    "11430931",
+    "11431073",
+    "38237531",
+    "11430967",
+    "38905449",
+    "41798036",
+    "3658912",
+    "11405359",
+    "26047069",
+    "9739176",
+    "11431021",
+    "8299135",
+    "8351819",
+    "13151217",
+    "12982548",
+    "11632457",
+    "40659469",
+    "22330016",
+    "32263162",
+    "9692554",
+    "10050943",
+    "12945835",
+    "31193715",
+    "40772374",
+    "25958085",
+    "8481636",
+    "31193721",
+    "8936555",
+    "40867223",
+    "38811571",
+    "8677479",
+    "13638744",
+    "39419379",
+    "40627806",
+    "12762052",
+    "38918201",
+    "39988582",
+    "15213957",
+    "17886225",
+    "40490430",
+    "14194229",
+    "41163087",
+    "22105952",
+    "41209991",
+    "12963051",
+    "17884096",
+    "29418120",
+    "41203638",
+    "38927719",
+    "13151069",
+    "40627835",
+    "32737264",
+    "4081071",
+    "37341083",
+    "41451629",
+    "38546401",
+    "39024597",
+    "39024551",
+    "12962823",
+    "41196946",
+    "41451612",
+    "41451643",
+    "37686821",
+    "41203588",
+    "41577643",
+    "37725240",
+    "9700322",
+    "40613556",
+    "41613379",
+    "16223856",
+    "21720544",
+    "22796874",
+    "41047313",
+    "38128585",
+    "41481063",
+    "38927817",
+    "42473274",
+    "14872783",
+    "38760752",
+    "21977950",
+    "35078688",
+    "39843684",
+    "38886248",
+    "34121959",
+    "34600438",
+    "34602197",
+    "37504197",
+    "38720017",
+    "34602147",
+    "41269450",
+    "41273861",
+    "41317719",
+    "34600383",
+    "41208775",
+    "41005877",
+    "39567372",
+    "41190429",
+    "42397509",
+    "21731618",
+    "41269544",
+    "34369538",
+    "41326665",
+    "41267940",
+    "35855574",
+    "37622791",
+    "41451371",
+    "39326981",
+    "37963863",
+    "38022698",
+    "34100572",
+    "33563666",
+    "33563702",
+    "37251006",
+    "38177424",
+    "37645447",
+    "34203909",
+    "19025070",
+    "18909786",
+    "40203578",
+    "33538173",
+    "33538143",
+    "40548938",
+    "10543400",
+    "14862471",
+    "9062644",
+    "40595138",
+    "40594544"
+  ],
+  "imported": [
+    {
+      "id": "39324741",
+      "name": "通杀iTT计时赛（常金线）",
+      "stravaScore": 27,
+      "rawScore": 33.05,
+      "pointCount": 128
+    },
+    {
+      "id": "33906434",
+      "name": "军山绕圈",
+      "stravaScore": 217,
+      "rawScore": 24.64,
+      "pointCount": 93
+    },
+    {
+      "id": "36860797",
+      "name": "日常一小时",
+      "stravaScore": 5,
+      "rawScore": 34.19,
+      "pointCount": 243
+    },
+    {
+      "id": "40906822",
+      "name": "军山之路",
+      "stravaScore": 17,
+      "rawScore": 2.42,
+      "pointCount": 28
+    },
+    {
+      "id": "39278214",
+      "name": "跃龙路越到军山",
+      "stravaScore": 3,
+      "rawScore": 19.82,
+      "pointCount": 149
+    },
+    {
+      "id": "39278224",
+      "name": "工农路（军山 to 江海大道）",
+      "stravaScore": 11,
+      "rawScore": 22.62,
+      "pointCount": 133
+    },
+    {
+      "id": "10460635",
+      "name": "トレーニング001",
+      "stravaScore": 5,
+      "rawScore": 14.58,
+      "pointCount": 266
+    },
+    {
+      "id": "35865877",
+      "name": "下班冲击营船港桥",
+      "stravaScore": 26,
+      "rawScore": 3.38,
+      "pointCount": 21
+    },
+    {
+      "id": "34383899",
+      "name": "Xingsheng Lake Loop",
+      "stravaScore": 6,
+      "rawScore": 31.99,
+      "pointCount": 395
+    },
+    {
+      "id": "39774405",
+      "name": "常乐到高架itt",
+      "stravaScore": 1,
+      "rawScore": 18.91,
+      "pointCount": 52
+    },
+    {
+      "id": "39280791",
+      "name": "重生之我在启东环法",
+      "stravaScore": 14,
+      "rawScore": 9.9,
+      "pointCount": 34
+    },
+    {
+      "id": "39182185",
+      "name": "饼饼要掉了前面快拉",
+      "stravaScore": 23,
+      "rawScore": 2.04,
+      "pointCount": 6
+    },
+    {
+      "id": "41100880",
+      "name": "鲁贝冲冲冲，只有最强者能成为王！！",
+      "stravaScore": 6,
+      "rawScore": 105.14,
+      "pointCount": 926
+    },
+    {
+      "id": "39486660",
+      "name": "喝完咖啡赶紧回家不然又得挨骂  ",
+      "stravaScore": 3,
+      "rawScore": 41.55,
+      "pointCount": 150
+    },
+    {
+      "id": "35376347",
+      "name": "高铁站10圈itt",
+      "stravaScore": 86,
+      "rawScore": 41.65,
+      "pointCount": 409
+    },
+    {
+      "id": "35075210",
+      "name": "g204狂飙",
+      "stravaScore": 7,
+      "rawScore": 4.82,
+      "pointCount": 20
+    },
+    {
+      "id": "41645916",
+      "name": "跨越沪武高速桥(北→南)",
+      "stravaScore": 12,
+      "rawScore": 6.11,
+      "pointCount": 7
+    },
+    {
+      "id": "39507086",
+      "name": "梅塘修路骑不了，那就三环到塘桥桥~",
+      "stravaScore": 36,
+      "rawScore": 12.39,
+      "pointCount": 38
+    },
+    {
+      "id": "38556848",
+      "name": "G204  古里 to 周行",
+      "stravaScore": 8,
+      "rawScore": 14.11,
+      "pointCount": 48
+    },
+    {
+      "id": "12703528",
+      "name": "Mad dog laps",
+      "stravaScore": 1,
+      "rawScore": 18.35,
+      "pointCount": 31
+    },
+    {
+      "id": "38140942",
+      "name": "新体绕圈",
+      "stravaScore": 12,
+      "rawScore": 19.94,
+      "pointCount": 52
+    },
+    {
+      "id": "38431654",
+      "name": "北三环",
+      "stravaScore": 10,
+      "rawScore": 15.73,
+      "pointCount": 161
+    },
+    {
+      "id": "38431269",
+      "name": "昭文路",
+      "stravaScore": 8,
+      "rawScore": 4.79,
+      "pointCount": 49
+    },
+    {
+      "id": "35169689",
+      "name": "路过萝卜家门口记得喂德华",
+      "stravaScore": 14,
+      "rawScore": 1,
+      "pointCount": 6
+    },
+    {
+      "id": "12896317",
+      "name": "虞东1号",
+      "stravaScore": 1,
+      "rawScore": 8.42,
+      "pointCount": 31
+    },
+    {
+      "id": "41394197",
+      "name": "089Unity Circle",
+      "stravaScore": 40,
+      "rawScore": 17.36,
+      "pointCount": 34
+    },
+    {
+      "id": "35383500",
+      "name": "常熟理工itt",
+      "stravaScore": 3,
+      "rawScore": 18.1,
+      "pointCount": 54
+    },
+    {
+      "id": "40790554",
+      "name": "昆承湖小圈",
+      "stravaScore": 644,
+      "rawScore": 34.5,
+      "pointCount": 204
+    },
+    {
+      "id": "35492950",
+      "name": "东南犄角旮旯黑练",
+      "stravaScore": 2,
+      "rawScore": 20.94,
+      "pointCount": 51
+    },
+    {
+      "id": "35391309",
+      "name": "鸡鸡湖UWC-右拐",
+      "stravaScore": 15,
+      "rawScore": 7.44,
+      "pointCount": 32
+    },
+    {
+      "id": "35500463",
+      "name": "昆承大道上桥",
+      "stravaScore": 84,
+      "rawScore": 4.34,
+      "pointCount": 3
+    },
+    {
+      "id": "38583039",
+      "name": "阳澄湖返回30秒冲刺",
+      "stravaScore": 19,
+      "rawScore": 2.35,
+      "pointCount": 10
+    },
+    {
+      "id": "35165761",
+      "name": "最后一个冲刺",
+      "stravaScore": 35,
+      "rawScore": 2.47,
+      "pointCount": 17
+    },
+    {
+      "id": "13159909",
+      "name": "Connector between YCH and Kuncheng Lake (Northbound)",
+      "stravaScore": 2,
+      "rawScore": 19.72,
+      "pointCount": 92
+    },
+    {
+      "id": "10284227",
+      "name": "X204 (Southbound)",
+      "stravaScore": 1,
+      "rawScore": 10.26,
+      "pointCount": 73
+    },
+    {
+      "id": "41565907",
+      "name": "马上就回家了",
+      "stravaScore": 2,
+      "rawScore": 8.57,
+      "pointCount": 52
+    },
+    {
+      "id": "8789824",
+      "name": "139 Village road northbound",
+      "stravaScore": 38,
+      "rawScore": 9.63,
+      "pointCount": 62
+    },
+    {
+      "id": "23491431",
+      "name": "YCH-New Road",
+      "stravaScore": 87,
+      "rawScore": 9.52,
+      "pointCount": 53
+    },
+    {
+      "id": "38745052",
+      "name": "M-circle of YCH(B2Bridge 50K)",
+      "stravaScore": 226,
+      "rawScore": 100.98,
+      "pointCount": 606
+    },
+    {
+      "id": "38327243",
+      "name": "大风车十八弯",
+      "stravaScore": 80,
+      "rawScore": 2.24,
+      "pointCount": 27
+    },
+    {
+      "id": "40772411",
+      "name": "去大风车咖啡店",
+      "stravaScore": 4,
+      "rawScore": 7.68,
+      "pointCount": 37
+    },
+    {
+      "id": "3828998",
+      "name": "down the lake on the east side",
+      "stravaScore": 3,
+      "rawScore": 34.33,
+      "pointCount": 249
+    },
+    {
+      "id": "14330832",
+      "name": "Chasing South",
+      "stravaScore": 128,
+      "rawScore": 13.24,
+      "pointCount": 62
+    },
+    {
+      "id": "5326060",
+      "name": "over the highway bridge sprint towards the south",
+      "stravaScore": 36,
+      "rawScore": 2.93,
+      "pointCount": 13
+    },
+    {
+      "id": "38180255",
+      "name": "一飞冲天！",
+      "stravaScore": 129,
+      "rawScore": 2.21,
+      "pointCount": 2
+    },
+    {
+      "id": "24694910",
+      "name": "Northern YCH Peninsula Village Rd (Southbound)",
+      "stravaScore": 7,
+      "rawScore": 9.27,
+      "pointCount": 82
+    },
+    {
+      "id": "39436239",
+      "name": "昆山好路大战",
+      "stravaScore": 132,
+      "rawScore": 10.49,
+      "pointCount": 75
+    },
+    {
+      "id": "38745540",
+      "name": "大禹路-城北路",
+      "stravaScore": 171,
+      "rawScore": 4.93,
+      "pointCount": 32
+    },
+    {
+      "id": "40496734",
+      "name": "another road",
+      "stravaScore": 4,
+      "rawScore": 9.64,
+      "pointCount": 114
+    },
+    {
+      "id": "35187916",
+      "name": "半岛团练要迟到了，你咋还不着急？",
+      "stravaScore": 255,
+      "rawScore": 11.9,
+      "pointCount": 64
+    },
+    {
+      "id": "3500702",
+      "name": "TWo Bridges Pursuit",
+      "stravaScore": 203,
+      "rawScore": 2.9,
+      "pointCount": 6
+    },
+    {
+      "id": "41693421",
+      "name": "半岛绿道without阳澄西湖",
+      "stravaScore": 15,
+      "rawScore": 49.26,
+      "pointCount": 439
+    },
+    {
+      "id": "10198009",
+      "name": "Bike Track (Northern Peak to End of Tarmac)",
+      "stravaScore": 13,
+      "rawScore": 4.01,
+      "pointCount": 47
+    },
+    {
+      "id": "40786221",
+      "name": "绕一下",
+      "stravaScore": 34,
+      "rawScore": 16.88,
+      "pointCount": 102
+    },
+    {
+      "id": "33020101",
+      "name": "傀儡湖A",
+      "stravaScore": 11,
+      "rawScore": 2.41,
+      "pointCount": 12
+    },
+    {
+      "id": "40911387",
+      "name": "小桥三连击！",
+      "stravaScore": 5,
+      "rawScore": 3.58,
+      "pointCount": 36
+    },
+    {
+      "id": "26758706",
+      "name": "YCH Lakeside Park Shortcut (Southbound)",
+      "stravaScore": 2,
+      "rawScore": 4.87,
+      "pointCount": 83
+    },
+    {
+      "id": "38829270",
+      "name": "唯胜路N to S",
+      "stravaScore": 7,
+      "rawScore": 17.46,
+      "pointCount": 107
+    },
+    {
+      "id": "12141566",
+      "name": "11K Yangchenghu Ave (Westbound)",
+      "stravaScore": 11,
+      "rawScore": 22.78,
+      "pointCount": 75
+    },
+    {
+      "id": "11430989",
+      "name": "Weisheng Rd x Loujiang River Bridge (Southbound)",
+      "stravaScore": 2,
+      "rawScore": 0.97,
+      "pointCount": 19
+    },
+    {
+      "id": "11430931",
+      "name": "Yilingshan St x Railway Underpass (Southbound)",
+      "stravaScore": 2,
+      "rawScore": 1.81,
+      "pointCount": 9
+    },
+    {
+      "id": "11431073",
+      "name": "Gexiang St x Railway Underpass (Southbound)",
+      "stravaScore": 6,
+      "rawScore": 0.62,
+      "pointCount": 13
+    },
+    {
+      "id": "38237531",
+      "name": "徐雯路",
+      "stravaScore": 3,
+      "rawScore": 6.41,
+      "pointCount": 80
+    },
+    {
+      "id": "11430967",
+      "name": "Weisheng Rd x Railway Underpass (Northbound)",
+      "stravaScore": 9,
+      "rawScore": 0.65,
+      "pointCount": 14
+    },
+    {
+      "id": "38905449",
+      "name": "冲向武则天",
+      "stravaScore": 223,
+      "rawScore": 2.14,
+      "pointCount": 9
+    },
+    {
+      "id": "41798036",
+      "name": "水泽路集合啦",
+      "stravaScore": 7,
+      "rawScore": 13.59,
+      "pointCount": 79
+    },
+    {
+      "id": "3658912",
+      "name": "Huning Express Way Services entrance to Bridge of Pain",
+      "stravaScore": 1,
+      "rawScore": 6.36,
+      "pointCount": 19
+    },
+    {
+      "id": "11405359",
+      "name": "Fengting Rd (Westbound)",
+      "stravaScore": 1,
+      "rawScore": 22.13,
+      "pointCount": 356
+    },
+    {
+      "id": "26047069",
+      "name": "Concrete Sprint",
+      "stravaScore": 7,
+      "rawScore": 2.33,
+      "pointCount": 31
+    },
+    {
+      "id": "9739176",
+      "name": "Shahu Ecological Park Loop (Clockwise)",
+      "stravaScore": 5,
+      "rawScore": 24.97,
+      "pointCount": 143
+    },
+    {
+      "id": "11431021",
+      "name": "Suhong East Rd x Qingqiupu Bridge (Westbound)",
+      "stravaScore": 1,
+      "rawScore": 1.63,
+      "pointCount": 6
+    },
+    {
+      "id": "8299135",
+      "name": "Qing Qiu Pu Bridge (Westbound)",
+      "stravaScore": 4,
+      "rawScore": 1.27,
+      "pointCount": 7
+    },
+    {
+      "id": "8351819",
+      "name": "Xiandai Avenue to SCAC",
+      "stravaScore": 1,
+      "rawScore": 17.94,
+      "pointCount": 103
+    },
+    {
+      "id": "13151217",
+      "name": "Shahu Circuit (Westbound)",
+      "stravaScore": 3,
+      "rawScore": 1.58,
+      "pointCount": 10
+    },
+    {
+      "id": "12982548",
+      "name": "Xinghua St (Zhongxin E Ave → Shahu Park)",
+      "stravaScore": 1,
+      "rawScore": 6.89,
+      "pointCount": 46
+    },
+    {
+      "id": "11632457",
+      "name": "Gates Straightaway TT",
+      "stravaScore": 1,
+      "rawScore": 14.02,
+      "pointCount": 213
+    },
+    {
+      "id": "40659469",
+      "name": "ChangYang St",
+      "stravaScore": 2,
+      "rawScore": 12.29,
+      "pointCount": 79
+    },
+    {
+      "id": "22330016",
+      "name": "Shengpu Rd (Northbound)",
+      "stravaScore": 2,
+      "rawScore": 4.54,
+      "pointCount": 29
+    },
+    {
+      "id": "32263162",
+      "name": "Xinghua St Bridge South over the river",
+      "stravaScore": 1,
+      "rawScore": 1.38,
+      "pointCount": 6
+    },
+    {
+      "id": "9692554",
+      "name": "Dongyan Rd (Westbound)",
+      "stravaScore": 1,
+      "rawScore": 11.18,
+      "pointCount": 205
+    },
+    {
+      "id": "10050943",
+      "name": "Gongyao Rd (Eastbound)",
+      "stravaScore": 1,
+      "rawScore": 1.78,
+      "pointCount": 7
+    },
+    {
+      "id": "12945835",
+      "name": "Xinghua St (Gangtian > Zhongxin E (Northbound)",
+      "stravaScore": 1,
+      "rawScore": 1.69,
+      "pointCount": 9
+    },
+    {
+      "id": "31193715",
+      "name": "New bridge to SIP ",
+      "stravaScore": 1,
+      "rawScore": 2.63,
+      "pointCount": 9
+    },
+    {
+      "id": "40772374",
+      "name": "New Road to SIP",
+      "stravaScore": 2,
+      "rawScore": 2.14,
+      "pointCount": 10
+    },
+    {
+      "id": "25958085",
+      "name": "Eastern part of Jinjihu avenue eastbound",
+      "stravaScore": 6,
+      "rawScore": 11.48,
+      "pointCount": 81
+    },
+    {
+      "id": "8481636",
+      "name": "Zhongxin Avenue East",
+      "stravaScore": 2,
+      "rawScore": 16.09,
+      "pointCount": 231
+    },
+    {
+      "id": "31193721",
+      "name": "left turn to the park ",
+      "stravaScore": 1,
+      "rawScore": 1.49,
+      "pointCount": 11
+    },
+    {
+      "id": "8936555",
+      "name": "Wusong River Bridge (Eastbound)",
+      "stravaScore": 6,
+      "rawScore": 2.21,
+      "pointCount": 11
+    },
+    {
+      "id": "40867223",
+      "name": "Lu Sheng Rd",
+      "stravaScore": 6,
+      "rawScore": 2.64,
+      "pointCount": 14
+    },
+    {
+      "id": "38811571",
+      "name": "星泽冲冲冲",
+      "stravaScore": 6,
+      "rawScore": 4.46,
+      "pointCount": 32
+    },
+    {
+      "id": "8677479",
+      "name": "Zhongxin Ave East x Canal Bridge (Eastbound)",
+      "stravaScore": 5,
+      "rawScore": 1.34,
+      "pointCount": 9
+    },
+    {
+      "id": "13638744",
+      "name": "The Gauntlet",
+      "stravaScore": 4,
+      "rawScore": 1.7,
+      "pointCount": 9
+    },
+    {
+      "id": "39419379",
+      "name": "New Shengpu bridge",
+      "stravaScore": 6,
+      "rawScore": 2.69,
+      "pointCount": 17
+    },
+    {
+      "id": "40627806",
+      "name": "迎宾西路",
+      "stravaScore": 8,
+      "rawScore": 2.47,
+      "pointCount": 15
+    },
+    {
+      "id": "12762052",
+      "name": "Che Fang Bridge (Southbound)",
+      "stravaScore": 3,
+      "rawScore": 1.67,
+      "pointCount": 4
+    },
+    {
+      "id": "38918201",
+      "name": "DongFang Road to Luzhi",
+      "stravaScore": 2,
+      "rawScore": 24.06,
+      "pointCount": 162
+    },
+    {
+      "id": "39988582",
+      "name": "车坊大桥",
+      "stravaScore": 21,
+      "rawScore": 4.79,
+      "pointCount": 13
+    },
+    {
+      "id": "15213957",
+      "name": "X301 + Sanma Rd",
+      "stravaScore": 6,
+      "rawScore": 5.9,
+      "pointCount": 28
+    },
+    {
+      "id": "17886225",
+      "name": "Changbang Rd (Southbound)",
+      "stravaScore": 2,
+      "rawScore": 1.65,
+      "pointCount": 7
+    },
+    {
+      "id": "40490430",
+      "name": "Chenghu strat",
+      "stravaScore": 7,
+      "rawScore": 3.84,
+      "pointCount": 42
+    },
+    {
+      "id": "14194229",
+      "name": "Changbang Rd (Westbound)",
+      "stravaScore": 2,
+      "rawScore": 3.96,
+      "pointCount": 22
+    },
+    {
+      "id": "41163087",
+      "name": "苏同黎右转江兴东路",
+      "stravaScore": 8,
+      "rawScore": 24.2,
+      "pointCount": 126
+    },
+    {
+      "id": "22105952",
+      "name": "Zhongnan St (ZXDDD) + Jinyan Rd",
+      "stravaScore": 4,
+      "rawScore": 10.66,
+      "pointCount": 73
+    },
+    {
+      "id": "41209991",
+      "name": "Maqian Rd reverse",
+      "stravaScore": 3,
+      "rawScore": 2.28,
+      "pointCount": 20
+    },
+    {
+      "id": "12963051",
+      "name": "003 Country Rd (Eastbound)",
+      "stravaScore": 2,
+      "rawScore": 3.91,
+      "pointCount": 32
+    },
+    {
+      "id": "17884096",
+      "name": "Jinshan Rd (Northbound)",
+      "stravaScore": 10,
+      "rawScore": 9.09,
+      "pointCount": 60
+    },
+    {
+      "id": "29418120",
+      "name": "水八仙公园环湖路（southbound)",
+      "stravaScore": 2,
+      "rawScore": 4.62,
+      "pointCount": 23
+    },
+    {
+      "id": "41203638",
+      "name": "合兴西路",
+      "stravaScore": 2,
+      "rawScore": 2.29,
+      "pointCount": 17
+    },
+    {
+      "id": "38927719",
+      "name": "穿越小学生",
+      "stravaScore": 3,
+      "rawScore": 1.14,
+      "pointCount": 10
+    },
+    {
+      "id": "13151069",
+      "name": "158 Country Rd (Southbound)",
+      "stravaScore": 2,
+      "rawScore": 5.91,
+      "pointCount": 43
+    },
+    {
+      "id": "40627835",
+      "name": "澄湖itt",
+      "stravaScore": 7,
+      "rawScore": 4.56,
+      "pointCount": 39
+    },
+    {
+      "id": "32737264",
+      "name": "Lakeside from underpass to crossroads.",
+      "stravaScore": 4,
+      "rawScore": 5.39,
+      "pointCount": 34
+    },
+    {
+      "id": "4081071",
+      "name": "Southern Ride through Countryside",
+      "stravaScore": 10,
+      "rawScore": 15.99,
+      "pointCount": 76
+    },
+    {
+      "id": "37341083",
+      "name": "澄湖黄泥兜gravel",
+      "stravaScore": 7,
+      "rawScore": 7.22,
+      "pointCount": 103
+    },
+    {
+      "id": "41451629",
+      "name": "呼吸负氧离子",
+      "stravaScore": 11,
+      "rawScore": 5.55,
+      "pointCount": 28
+    },
+    {
+      "id": "38546401",
+      "name": "HengGang RD 绿道",
+      "stravaScore": 5,
+      "rawScore": 4.21,
+      "pointCount": 52
+    },
+    {
+      "id": "39024597",
+      "name": "澄湖小道",
+      "stravaScore": 6,
+      "rawScore": 2.54,
+      "pointCount": 25
+    },
+    {
+      "id": "39024551",
+      "name": "林荫小道",
+      "stravaScore": 8,
+      "rawScore": 2.68,
+      "pointCount": 12
+    },
+    {
+      "id": "12962823",
+      "name": "Huanzhen West Rd to S5 Underpass (Northbound)",
+      "stravaScore": 8,
+      "rawScore": 3.8,
+      "pointCount": 14
+    },
+    {
+      "id": "41196946",
+      "name": "澄湖明镜荡交界",
+      "stravaScore": 4,
+      "rawScore": 1.69,
+      "pointCount": 9
+    },
+    {
+      "id": "41451612",
+      "name": "Dead Road",
+      "stravaScore": 2,
+      "rawScore": 2.67,
+      "pointCount": 23
+    },
+    {
+      "id": "41451643",
+      "name": "shortcut ",
+      "stravaScore": 4,
+      "rawScore": 2.53,
+      "pointCount": 14
+    },
+    {
+      "id": "37686821",
+      "name": "冲一下就到加油站了",
+      "stravaScore": 9,
+      "rawScore": 2.62,
+      "pointCount": 9
+    },
+    {
+      "id": "41203588",
+      "name": "大桥路",
+      "stravaScore": 9,
+      "rawScore": 8.13,
+      "pointCount": 54
+    },
+    {
+      "id": "41577643",
+      "name": "转弯进周庄",
+      "stravaScore": 4,
+      "rawScore": 7.37,
+      "pointCount": 33
+    },
+    {
+      "id": "37725240",
+      "name": "真空加速通道-East",
+      "stravaScore": 29,
+      "rawScore": 1.1,
+      "pointCount": 5
+    },
+    {
+      "id": "9700322",
+      "name": "New link Kangxin > Nanliu towards E (by Roberto)",
+      "stravaScore": 1,
+      "rawScore": 14.25,
+      "pointCount": 66
+    },
+    {
+      "id": "40613556",
+      "name": "周庄回吴江",
+      "stravaScore": 4,
+      "rawScore": 20.12,
+      "pointCount": 109
+    },
+    {
+      "id": "41613379",
+      "name": "抄近路过去",
+      "stravaScore": 5,
+      "rawScore": 7.42,
+      "pointCount": 56
+    },
+    {
+      "id": "16223856",
+      "name": "X201 until highway",
+      "stravaScore": 18,
+      "rawScore": 11.37,
+      "pointCount": 217
+    },
+    {
+      "id": "21720544",
+      "name": "X302 to Zhouzhuang",
+      "stravaScore": 3,
+      "rawScore": 4.68,
+      "pointCount": 28
+    },
+    {
+      "id": "22796874",
+      "name": "Wujiang Ave TT Westbound",
+      "stravaScore": 12,
+      "rawScore": 26.37,
+      "pointCount": 101
+    },
+    {
+      "id": "41047313",
+      "name": "莘七线",
+      "stravaScore": 8,
+      "rawScore": 11.05,
+      "pointCount": 47
+    },
+    {
+      "id": "38128585",
+      "name": "吴江大道 中段（Eastbound）",
+      "stravaScore": 13,
+      "rawScore": 25.15,
+      "pointCount": 135
+    },
+    {
+      "id": "41481063",
+      "name": "飞跃南站",
+      "stravaScore": 3,
+      "rawScore": 5.46,
+      "pointCount": 54
+    },
+    {
+      "id": "38927817",
+      "name": "佩奇小尾巴",
+      "stravaScore": 9,
+      "rawScore": 2.24,
+      "pointCount": 25
+    },
+    {
+      "id": "42473274",
+      "name": "六奉公路",
+      "stravaScore": 9,
+      "rawScore": 3.76,
+      "pointCount": 35
+    },
+    {
+      "id": "14872783",
+      "name": "Linhu Road Westwards",
+      "stravaScore": 3,
+      "rawScore": 21.56,
+      "pointCount": 65
+    },
+    {
+      "id": "38760752",
+      "name": "黎星到芦墟",
+      "stravaScore": 10,
+      "rawScore": 13.48,
+      "pointCount": 61
+    },
+    {
+      "id": "21977950",
+      "name": "Taipu River Southbank Path (Eastbound)",
+      "stravaScore": 3,
+      "rawScore": 59.31,
+      "pointCount": 348
+    },
+    {
+      "id": "35078688",
+      "name": "Sizhou Temple Flyby",
+      "stravaScore": 2,
+      "rawScore": 3.03,
+      "pointCount": 28
+    },
+    {
+      "id": "39843684",
+      "name": "三白荡南侧",
+      "stravaScore": 7,
+      "rawScore": 3.56,
+      "pointCount": 16
+    },
+    {
+      "id": "38886248",
+      "name": "村间小路",
+      "stravaScore": 12,
+      "rawScore": 5.78,
+      "pointCount": 36
+    },
+    {
+      "id": "34121959",
+      "name": "DOWN THE PING WANG CANAL BRIDGE 2 FENHU VILLAGE VIA G318",
+      "stravaScore": 11,
+      "rawScore": 26.78,
+      "pointCount": 139
+    },
+    {
+      "id": "34600438",
+      "name": "陶庄环线 ",
+      "stravaScore": 5,
+      "rawScore": 40.84,
+      "pointCount": 280
+    },
+    {
+      "id": "34602197",
+      "name": "我是午夜DJ 冲刺段",
+      "stravaScore": 23,
+      "rawScore": 1.75,
+      "pointCount": 8
+    },
+    {
+      "id": "37504197",
+      "name": "绿豆汤 冲啊！",
+      "stravaScore": 28,
+      "rawScore": 4.98,
+      "pointCount": 43
+    },
+    {
+      "id": "38720017",
+      "name": "湖边弯弯绕小路",
+      "stravaScore": 25,
+      "rawScore": 5.27,
+      "pointCount": 79
+    },
+    {
+      "id": "34602147",
+      "name": "我是午夜DJ",
+      "stravaScore": 68,
+      "rawScore": 8.74,
+      "pointCount": 30
+    },
+    {
+      "id": "41269450",
+      "name": "一条小路",
+      "stravaScore": 9,
+      "rawScore": 50.19,
+      "pointCount": 267
+    },
+    {
+      "id": "41273861",
+      "name": "乡间的路",
+      "stravaScore": 21,
+      "rawScore": 21.82,
+      "pointCount": 173
+    },
+    {
+      "id": "41317719",
+      "name": "跨过省界",
+      "stravaScore": 5,
+      "rawScore": 8.21,
+      "pointCount": 47
+    },
+    {
+      "id": "34600383",
+      "name": "下桥冲刺 东向西",
+      "stravaScore": 11,
+      "rawScore": 1.32,
+      "pointCount": 7
+    },
+    {
+      "id": "41208775",
+      "name": "长荡",
+      "stravaScore": 11,
+      "rawScore": 8.01,
+      "pointCount": 67
+    },
+    {
+      "id": "41005877",
+      "name": "rolling in",
+      "stravaScore": 11,
+      "rawScore": 1.16,
+      "pointCount": 19
+    },
+    {
+      "id": "39567372",
+      "name": "洪三线itt",
+      "stravaScore": 61,
+      "rawScore": 11.19,
+      "pointCount": 48
+    },
+    {
+      "id": "41190429",
+      "name": "重新插入大天线",
+      "stravaScore": 20,
+      "rawScore": 4.62,
+      "pointCount": 22
+    },
+    {
+      "id": "42397509",
+      "name": "2026环嘉兴全程组",
+      "stravaScore": 13,
+      "rawScore": 181.15,
+      "pointCount": 919
+    },
+    {
+      "id": "21731618",
+      "name": "三环西",
+      "stravaScore": 11,
+      "rawScore": 25.25,
+      "pointCount": 95
+    },
+    {
+      "id": "41269544",
+      "name": "发射",
+      "stravaScore": 6,
+      "rawScore": 53.9,
+      "pointCount": 299
+    },
+    {
+      "id": "34369538",
+      "name": "湘家荡",
+      "stravaScore": 11,
+      "rawScore": 28.56,
+      "pointCount": 153
+    }
+  ],
+  "skippedConcurrent": [],
+  "failed": [
+    {
+      "id": "41326665",
+      "reason": "Connection lost: The server closed the connection."
+    },
+    {
+      "id": "41267940",
+      "reason": "Connection lost: The server closed the connection."
+    },
+    {
+      "id": "35855574",
+      "reason": "Connection lost: The server closed the connection."
+    },
+    {
+      "id": "37622791",
+      "reason": "Connection lost: The server closed the connection."
+    },
+    {
+      "id": "41451371",
+      "reason": "Connection lost: The server closed the connection."
+    },
+    {
+      "id": "39326981",
+      "reason": "Connection lost: The server closed the connection."
+    },
+    {
+      "id": "37963863",
+      "reason": "Connection lost: The server closed the connection."
+    },
+    {
+      "id": "38022698",
+      "reason": "Connection lost: The server closed the connection."
+    },
+    {
+      "id": "34100572",
+      "reason": "Connection lost: The server closed the connection."
+    },
+    {
+      "id": "33563666",
+      "reason": "Connection lost: The server closed the connection."
+    },
+    {
+      "id": "33563702",
+      "reason": "Connection lost: The server closed the connection."
+    },
+    {
+      "id": "37251006",
+      "reason": "Connection lost: The server closed the connection."
+    },
+    {
+      "id": "38177424",
+      "reason": "Connection lost: The server closed the connection."
+    },
+    {
+      "id": "37645447",
+      "reason": "Connection lost: The server closed the connection."
+    },
+    {
+      "id": "34203909",
+      "reason": "Connection lost: The server closed the connection."
+    },
+    {
+      "id": "19025070",
+      "reason": "Connection lost: The server closed the connection."
+    },
+    {
+      "id": "18909786",
+      "reason": "Connection lost: The server closed the connection."
+    },
+    {
+      "id": "40203578",
+      "reason": "Connection lost: The server closed the connection."
+    },
+    {
+      "id": "33538173",
+      "reason": "Connection lost: The server closed the connection."
+    },
+    {
+      "id": "33538143",
+      "reason": "Connection lost: The server closed the connection."
+    },
+    {
+      "id": "40548938",
+      "reason": "Connection lost: The server closed the connection."
+    },
+    {
+      "id": "10543400",
+      "reason": "Connection lost: The server closed the connection."
+    },
+    {
+      "id": "14862471",
+      "reason": "Connection lost: The server closed the connection."
+    },
+    {
+      "id": "9062644",
+      "reason": "Connection lost: The server closed the connection."
+    },
+    {
+      "id": "40595138",
+      "reason": "Connection lost: The server closed the connection."
+    },
+    {
+      "id": "40594544",
+      "reason": "Connection lost: The server closed the connection."
+    }
+  ],
+  "verifiedIds": [],
+  "stopped": false,
+  "quotaWaits": 2,
+  "nextRequestAt": null
+}

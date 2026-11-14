@@ -1,0 +1,29 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-14T06:49:47.143Z",
+  "tile": {
+    "z": 13,
+    "x": 6796,
+    "y": 3257
+  },
+  "segments": [
+    {
+      "id": "41037208",
+      "tileScore": 6,
+      "name": "李安线itt",
+      "distanceM": 3961.10009765625,
+      "avgGrade": -0.20448866486549377,
+      "startLat": 34.549381256103516,
+      "startLng": 118.67739868164062
+    },
+    {
+      "id": "37408661",
+      "tileScore": 40,
+      "name": "水晶城红绿灯到朱沟",
+      "distanceM": 16497.80078125,
+      "avgGrade": 0.11395459622144699,
+      "startLat": 34.54231262207031,
+      "startLng": 118.72966766357422
+    }
+  ]
+}

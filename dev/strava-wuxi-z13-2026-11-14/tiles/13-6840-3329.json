@@ -1,0 +1,20 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-14T07:11:19.127Z",
+  "tile": {
+    "z": 13,
+    "x": 6840,
+    "y": 3329
+  },
+  "segments": [
+    {
+      "id": "39767268",
+      "tileScore": 15,
+      "name": "登顶二环之巅冲冲冲！",
+      "distanceM": 4451.7998046875,
+      "avgGrade": 0.23810593783855438,
+      "startLat": 31.8609561920166,
+      "startLng": 120.57498168945312
+    }
+  ]
+}

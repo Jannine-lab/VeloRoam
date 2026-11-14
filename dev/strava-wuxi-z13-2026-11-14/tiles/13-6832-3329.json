@@ -1,0 +1,20 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-14T07:08:55.010Z",
+  "tile": {
+    "z": 13,
+    "x": 6832,
+    "y": 3329
+  },
+  "segments": [
+    {
+      "id": "39530463",
+      "tileScore": 5,
+      "name": "RH25630",
+      "distanceM": 2545.89990234375,
+      "avgGrade": -0.23567304015159607,
+      "startLat": 31.904237747192383,
+      "startLng": 120.26614379882812
+    }
+  ]
+}

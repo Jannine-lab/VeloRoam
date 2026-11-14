@@ -1,0 +1,56 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-14T07:12:42.580Z",
+  "tile": {
+    "z": 13,
+    "x": 6817,
+    "y": 3347
+  },
+  "segments": [
+    {
+      "id": "39154913",
+      "tileScore": 5,
+      "name": "溜一圈",
+      "distanceM": 44987.6015625,
+      "avgGrade": 0.015559843741357327,
+      "startLat": 31.204551696777344,
+      "startLng": 119.57231903076172
+    },
+    {
+      "id": "41773319",
+      "tileScore": 24,
+      "name": "辉子说40巡航只要100瓦",
+      "distanceM": 4879.2998046875,
+      "avgGrade": -0.8935707807540894,
+      "startLat": 31.222679138183594,
+      "startLng": 119.6480712890625
+    },
+    {
+      "id": "31340623",
+      "tileScore": 6,
+      "name": "111",
+      "distanceM": 5249.89990234375,
+      "avgGrade": -0.6209642291069031,
+      "startLat": 31.2054386138916,
+      "startLng": 119.5838851928711
+    },
+    {
+      "id": "39217922",
+      "tileScore": 11,
+      "name": "Speed up trough the village ",
+      "distanceM": 2297.5,
+      "avgGrade": -1.3536452054977417,
+      "startLat": 31.184572219848633,
+      "startLng": 119.60260772705078
+    },
+    {
+      "id": "41840066",
+      "tileScore": 26,
+      "name": "超哥上坡进攻",
+      "distanceM": 905.5,
+      "avgGrade": 1.9878519773483276,
+      "startLat": 31.211389541625977,
+      "startLng": 119.61226654052734
+    }
+  ]
+}

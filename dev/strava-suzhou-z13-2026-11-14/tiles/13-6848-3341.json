@@ -1,0 +1,47 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-14T07:15:51.487Z",
+  "tile": {
+    "z": 13,
+    "x": 6848,
+    "y": 3341
+  },
+  "segments": [
+    {
+      "id": "26986604",
+      "tileScore": 2,
+      "name": "MAHLE-Suzhou-S3",
+      "distanceM": 1380.0999755859375,
+      "avgGrade": 0.028983406722545624,
+      "startLat": 31.454870223999023,
+      "startLng": 120.96395111083984
+    },
+    {
+      "id": "22915982",
+      "tileScore": 2,
+      "name": "12.5K North of Kunshan (Eastbound)",
+      "distanceM": 12680.900390625,
+      "avgGrade": 0.01734892651438713,
+      "startLat": 31.442026138305664,
+      "startLng": 120.88185119628906
+    },
+    {
+      "id": "41421574",
+      "tileScore": 2,
+      "name": "杨林塘itt",
+      "distanceM": 3823.10009765625,
+      "avgGrade": 0.04708220809698105,
+      "startLat": 31.46310806274414,
+      "startLng": 120.94042205810547
+    },
+    {
+      "id": "33080870",
+      "tileScore": 4,
+      "name": "长江北路下行",
+      "distanceM": 10034.2001953125,
+      "avgGrade": 0.025911381468176842,
+      "startLat": 31.477319717407227,
+      "startLng": 120.94438171386719
+    }
+  ]
+}

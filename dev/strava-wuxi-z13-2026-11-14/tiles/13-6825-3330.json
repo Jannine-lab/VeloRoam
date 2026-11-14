@@ -1,0 +1,20 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-14T07:11:03.933Z",
+  "tile": {
+    "z": 13,
+    "x": 6825,
+    "y": 3330
+  },
+  "segments": [
+    {
+      "id": "35414131",
+      "tileScore": 9,
+      "name": "黄转长",
+      "distanceM": 996.7000122070312,
+      "avgGrade": -0.07023176550865173,
+      "startLat": 31.84480094909668,
+      "startLng": 119.94892120361328
+    }
+  ]
+}

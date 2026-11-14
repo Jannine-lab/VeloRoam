@@ -1,0 +1,101 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-14T06:19:15.761Z",
+  "tile": {
+    "z": 13,
+    "x": 6761,
+    "y": 3266
+  },
+  "segments": [
+    {
+      "id": "32542249",
+      "tileScore": 14,
+      "name": "小南湖路段",
+      "distanceM": 3123,
+      "avgGrade": -0.01921229623258114,
+      "startLat": 34.22880554199219,
+      "startLng": 117.15934753417969
+    },
+    {
+      "id": "35662688",
+      "tileScore": 2,
+      "name": "拉犁山高级道+林道",
+      "distanceM": 996.5,
+      "avgGrade": -7.987957954406738,
+      "startLat": 34.217525482177734,
+      "startLng": 117.12460327148438
+    },
+    {
+      "id": "41622169",
+      "tileScore": 19,
+      "name": "珠山冲刺",
+      "distanceM": 554.2999877929688,
+      "avgGrade": 1.8401587009429932,
+      "startLat": 34.22722625732422,
+      "startLng": 117.1431655883789
+    },
+    {
+      "id": "35744741",
+      "tileScore": 9,
+      "name": "三环南湖小坡（奥莱-矿大北门方向）",
+      "distanceM": 747.7000122070312,
+      "avgGrade": 3.316838264465332,
+      "startLat": 34.229034423828125,
+      "startLng": 117.12721252441406
+    },
+    {
+      "id": "33900403",
+      "tileScore": 2,
+      "name": "泉山UCI全程",
+      "distanceM": 843.4000244140625,
+      "avgGrade": -16.729904174804688,
+      "startLat": 34.204532623291016,
+      "startLng": 117.15235137939453
+    },
+    {
+      "id": "34923346",
+      "tileScore": 9,
+      "name": " ↙",
+      "distanceM": 4223.2001953125,
+      "avgGrade": 0.06630043685436249,
+      "startLat": 34.2291145324707,
+      "startLng": 117.12601470947266
+    },
+    {
+      "id": "12995175",
+      "tileScore": 15,
+      "name": "环泉山",
+      "distanceM": 9237.900390625,
+      "avgGrade": -0.00649498263373971,
+      "startLat": 34.21775817871094,
+      "startLng": 117.1645278930664
+    },
+    {
+      "id": "28678808",
+      "tileScore": 22,
+      "name": "Huxi Rd from Zhushan to Kaiyuan Hotel",
+      "distanceM": 3513.199951171875,
+      "avgGrade": 0.005692815873771906,
+      "startLat": 34.23664855957031,
+      "startLng": 117.13932800292969
+    },
+    {
+      "id": "28357142",
+      "tileScore": 4,
+      "name": "CUMT ",
+      "distanceM": 3100.699951171875,
+      "avgGrade": -0.02580062486231327,
+      "startLat": 34.216957092285156,
+      "startLng": 117.13818359375
+    },
+    {
+      "id": "29059137",
+      "tileScore": 9,
+      "name": "Daxue Rd itt",
+      "distanceM": 2041,
+      "avgGrade": -0.4899559020996094,
+      "startLat": 34.20465087890625,
+      "startLng": 117.13679504394531
+    }
+  ]
+}

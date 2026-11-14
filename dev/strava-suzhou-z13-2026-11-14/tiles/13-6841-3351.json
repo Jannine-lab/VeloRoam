@@ -1,0 +1,101 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-14T07:11:07.720Z",
+  "tile": {
+    "z": 13,
+    "x": 6841,
+    "y": 3351
+  },
+  "segments": [
+    {
+      "id": "37944926",
+      "tileScore": 2,
+      "name": "吴江大道（苏震桃至中山南路）",
+      "distanceM": 3642.60009765625,
+      "avgGrade": 0.054905835539102554,
+      "startLat": 31.091394424438477,
+      "startLng": 120.60116577148438
+    },
+    {
+      "id": "21131943",
+      "tileScore": 1,
+      "name": "Dianshan Lake Checkpoint to Taihu",
+      "distanceM": 49375.1015625,
+      "avgGrade": -0.004050624556839466,
+      "startLat": 31.06794548034668,
+      "startLng": 120.91667938232422
+    },
+    {
+      "id": "41222613",
+      "tileScore": 1,
+      "name": "横穿八坼",
+      "distanceM": 10090.2998046875,
+      "avgGrade": -0.023785218596458435,
+      "startLat": 31.061786651611328,
+      "startLng": 120.7188949584961
+    },
+    {
+      "id": "41372443",
+      "tileScore": 14,
+      "name": "Sprint！",
+      "distanceM": 1590.800048828125,
+      "avgGrade": -0.06286145001649857,
+      "startLat": 31.066160202026367,
+      "startLng": 120.63612365722656
+    },
+    {
+      "id": "15518506",
+      "tileScore": 74,
+      "name": "S227 Pingwang-Songling(Northbound)",
+      "distanceM": 11378.7001953125,
+      "avgGrade": 0.01406135968863964,
+      "startLat": 31.005901336669922,
+      "startLng": 120.64395904541016
+    },
+    {
+      "id": "38128585",
+      "tileScore": 12,
+      "name": "吴江大道 中段（Eastbound）",
+      "distanceM": 12575,
+      "avgGrade": -0.007952285930514336,
+      "startLat": 31.08803367614746,
+      "startLng": 120.64781951904297
+    },
+    {
+      "id": "30384821",
+      "tileScore": 2,
+      "name": "THL-4",
+      "distanceM": 116824.5,
+      "avgGrade": -0.0025679543614387512,
+      "startLat": 31.206161499023438,
+      "startLng": 121.28252410888672
+    },
+    {
+      "id": "41463327",
+      "tileScore": 64,
+      "name": "太湖→太浦河→京杭大运河",
+      "distanceM": 40081.3984375,
+      "avgGrade": -0.005488830152899027,
+      "startLat": 31.093950271606445,
+      "startLng": 120.59027099609375
+    },
+    {
+      "id": "40404665",
+      "tileScore": 25,
+      "name": "八坼大桥",
+      "distanceM": 550.2999877929688,
+      "avgGrade": 2.144284963607788,
+      "startLat": 31.084861755371094,
+      "startLng": 120.67167663574219
+    },
+    {
+      "id": "34472549",
+      "tileScore": 10,
+      "name": "胜地生态公园小圈",
+      "distanceM": 3800.39990234375,
+      "avgGrade": 0.03157562389969826,
+      "startLat": 31.086103439331055,
+      "startLng": 120.64091491699219
+    }
+  ]
+}

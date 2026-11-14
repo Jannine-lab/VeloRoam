@@ -1,0 +1,173 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-14T07:14:25.451Z",
+  "tile": {
+    "z": 13,
+    "x": 6842,
+    "y": 3345
+  },
+  "segments": [
+    {
+      "id": "23469085",
+      "tileScore": 6,
+      "name": "Jinji&Dushu Lakes",
+      "distanceM": 25429,
+      "avgGrade": 0.01651657558977604,
+      "startLat": 31.306800842285156,
+      "startLng": 120.72010803222656
+    },
+    {
+      "id": "35182744",
+      "tileScore": 88,
+      "name": "Jinjihu 1000m E-W",
+      "distanceM": 1002.9000244140625,
+      "avgGrade": -0.11965300887823105,
+      "startLat": 31.300270080566406,
+      "startLng": 120.704345703125
+    },
+    {
+      "id": "8341358",
+      "tileScore": 78,
+      "name": "Jinji Lake South on Jinjihu Ave (Westbound)",
+      "distanceM": 2720.10009765625,
+      "avgGrade": -0.10661372542381287,
+      "startLat": 31.301477432250977,
+      "startLng": 120.71969604492188
+    },
+    {
+      "id": "8341340",
+      "tileScore": 259,
+      "name": "Huanzhou Rd (Anticlockwise)",
+      "distanceM": 1482.4000244140625,
+      "avgGrade": 0.020237453281879425,
+      "startLat": 31.31045913696289,
+      "startLng": 120.71928405761719
+    },
+    {
+      "id": "41123919",
+      "tileScore": 7,
+      "name": "DRS Enabled",
+      "distanceM": 2464.5,
+      "avgGrade": 0.008115236647427082,
+      "startLat": 31.2711181640625,
+      "startLng": 120.68204498291016
+    },
+    {
+      "id": "8362551",
+      "tileScore": 34,
+      "name": "Xihualin St (Southbound)",
+      "distanceM": 914.0999755859375,
+      "avgGrade": -0.14221638441085815,
+      "startLat": 31.296510696411133,
+      "startLng": 120.71327209472656
+    },
+    {
+      "id": "5820957",
+      "tileScore": 21,
+      "name": "Last sprint before first beer",
+      "distanceM": 694.4000244140625,
+      "avgGrade": 0,
+      "startLat": 31.308826446533203,
+      "startLng": 120.67508697509766
+    },
+    {
+      "id": "42381781",
+      "tileScore": 43,
+      "name": "JJH530 LOOP",
+      "distanceM": 14881,
+      "avgGrade": -0.059135809540748596,
+      "startLat": 31.301347732543945,
+      "startLng": 120.71953582763672
+    },
+    {
+      "id": "8337616",
+      "tileScore": 2,
+      "name": "Jinji Golf Club Inbound",
+      "distanceM": 1559.4000244140625,
+      "avgGrade": 0.051301781088113785,
+      "startLat": 31.298200607299805,
+      "startLng": 120.69711303710938
+    },
+    {
+      "id": "29876598",
+      "tileScore": 3,
+      "name": "Last Sprint To Kempiski ",
+      "distanceM": 308.3999938964844,
+      "avgGrade": 1.5564202070236206,
+      "startLat": 31.288558959960938,
+      "startLng": 120.7017593383789
+    },
+    {
+      "id": "8369631",
+      "tileScore": 5,
+      "name": "Ligongdi Rollercoaster Bridges (Westbound)",
+      "distanceM": 1422.800048828125,
+      "avgGrade": 0.484959214925766,
+      "startLat": 31.302955627441406,
+      "startLng": 120.69206237792969
+    },
+    {
+      "id": "8247183",
+      "tileScore": 52,
+      "name": "You'an St (Southbound)",
+      "distanceM": 1381.0999755859375,
+      "avgGrade": -0.07964666187763214,
+      "startLat": 31.320159912109375,
+      "startLng": 120.70692443847656
+    },
+    {
+      "id": "22243380",
+      "tileScore": 26,
+      "name": "The Last Push",
+      "distanceM": 947.9000244140625,
+      "avgGrade": 0.02109927125275135,
+      "startLat": 31.29922866821289,
+      "startLng": 120.67363739013672
+    },
+    {
+      "id": "10627359",
+      "tileScore": 54,
+      "name": "2 BBLs",
+      "distanceM": 6084.7998046875,
+      "avgGrade": 0.013147516176104546,
+      "startLat": 31.2959041595459,
+      "startLng": 120.71340942382812
+    },
+    {
+      "id": "8341418",
+      "tileScore": 45,
+      "name": "Jinjihu Ave x Jinji Lake Canal Bridge #1 (Westbound)",
+      "distanceM": 353.79998779296875,
+      "avgGrade": -0.9609948992729187,
+      "startLat": 31.30104637145996,
+      "startLng": 120.70901489257812
+    },
+    {
+      "id": "9692637",
+      "tileScore": 19,
+      "name": "Shigang Rd x Jinji-Dushu Lake Canal Bridge (Eastbound)",
+      "distanceM": 383.6000061035156,
+      "avgGrade": 1.3816475868225098,
+      "startLat": 31.295568466186523,
+      "startLng": 120.7076644897461
+    },
+    {
+      "id": "6523641",
+      "tileScore": 52,
+      "name": "Xinggang Street Climb",
+      "distanceM": 544.2999877929688,
+      "avgGrade": 16.828954696655273,
+      "startLat": 31.303707122802734,
+      "startLng": 120.67769622802734
+    },
+    {
+      "id": "8352363",
+      "tileScore": 49,
+      "name": "Jinjihu Ave x Jinji Lake Canal Bridge #2 (Westbound)",
+      "distanceM": 573.0999755859375,
+      "avgGrade": 0.2966323494911194,
+      "startLat": 31.298412322998047,
+      "startLng": 120.69058227539062
+    }
+  ]
+}

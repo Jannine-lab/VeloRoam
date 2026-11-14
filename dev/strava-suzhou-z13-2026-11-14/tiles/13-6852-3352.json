@@ -1,0 +1,110 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-14T07:26:23.817Z",
+  "tile": {
+    "z": 13,
+    "x": 6852,
+    "y": 3352
+  },
+  "segments": [
+    {
+      "id": "28851670",
+      "tileScore": 13,
+      "name": "Guangfulin RD - Sanxin N. RD to A30",
+      "distanceM": 4560.2998046875,
+      "avgGrade": -0.03069973550736904,
+      "startLat": 31.055267333984375,
+      "startLng": 121.1819076538086
+    },
+    {
+      "id": "40304926",
+      "tileScore": 2,
+      "name": "Wenxiang Road to Chenghua Road",
+      "distanceM": 2979.199951171875,
+      "avgGrade": 0,
+      "startLat": 31.043378829956055,
+      "startLng": 121.17667388916016
+    },
+    {
+      "id": "40304910",
+      "tileScore": 19,
+      "name": "Past the giant egg",
+      "distanceM": 1973.0999755859375,
+      "avgGrade": -0.09122700244188309,
+      "startLat": 31.050254821777344,
+      "startLng": 121.12084197998047
+    },
+    {
+      "id": "32298836",
+      "tileScore": 19,
+      "name": "小昆山-松蒸公路",
+      "distanceM": 5336.7998046875,
+      "avgGrade": -0.011242692358791828,
+      "startLat": 31.04421043395996,
+      "startLng": 121.1271743774414
+    },
+    {
+      "id": "27319668",
+      "tileScore": 4,
+      "name": "Shanghai Tour de France 上海环法 - Bayonne-Perpignan",
+      "distanceM": 6554.5,
+      "avgGrade": 0.07170645892620087,
+      "startLat": 31.02676773071289,
+      "startLng": 121.11128997802734
+    },
+    {
+      "id": "38769178",
+      "tileScore": 82,
+      "name": "走马塘肘赢泥头车",
+      "distanceM": 1395.300048828125,
+      "avgGrade": -0.014333834871649742,
+      "startLat": 31.047704696655273,
+      "startLng": 121.13034057617188
+    },
+    {
+      "id": "27327757",
+      "tileScore": 7,
+      "name": "Shanghai Tour de France 上海环法 - Full Tour (100km)",
+      "distanceM": 100065.796875,
+      "avgGrade": 0.002498356159776449,
+      "startLat": 31.153793334960938,
+      "startLng": 121.20298767089844
+    },
+    {
+      "id": "35108291",
+      "tileScore": 48,
+      "name": "带乐乐回家吃饭",
+      "distanceM": 1701.5,
+      "avgGrade": -0.011754333972930908,
+      "startLat": 31.03762435913086,
+      "startLng": 121.1086654663086
+    },
+    {
+      "id": "35443627",
+      "tileScore": 30,
+      "name": "小昆山田园铁三 Bike 1 Lap",
+      "distanceM": 7466.2998046875,
+      "avgGrade": -0.040180545300245285,
+      "startLat": 31.05215072631836,
+      "startLng": 121.10599517822266
+    },
+    {
+      "id": "38340800",
+      "tileScore": 35,
+      "name": "龙源路至太阳岛辣堡前热身",
+      "distanceM": 12976.599609375,
+      "avgGrade": -0.016953593119978905,
+      "startLat": 31.071630477905273,
+      "startLng": 121.19587707519531
+    },
+    {
+      "id": "35083261",
+      "tileScore": 17,
+      "name": "进军摩天轮",
+      "distanceM": 941.5,
+      "avgGrade": 0.15932023525238037,
+      "startLat": 31.051170349121094,
+      "startLng": 121.15521240234375
+    }
+  ]
+}

@@ -1,0 +1,200 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-14T07:16:37.894Z",
+  "tile": {
+    "z": 13,
+    "x": 6850,
+    "y": 3350
+  },
+  "segments": [
+    {
+      "id": "10653973",
+      "tileScore": 16,
+      "name": "Connecting Rd #2 (Southbound)",
+      "distanceM": 2567.199951171875,
+      "avgGrade": -0.015581177547574043,
+      "startLat": 31.140033721923828,
+      "startLng": 121.02726745605469
+    },
+    {
+      "id": "641725",
+      "tileScore": 3,
+      "name": "start stretch",
+      "distanceM": 1739.7900390625,
+      "avgGrade": 0.2643982172012329,
+      "startLat": 31.124361038208008,
+      "startLng": 121.03978729248047
+    },
+    {
+      "id": "27310786",
+      "tileScore": 49,
+      "name": "Shanghai Tour de France 上海环法 - Mont-Saint-Michel-Roscoff",
+      "distanceM": 4010.5,
+      "avgGrade": -0.05236254632472992,
+      "startLat": 31.131629943847656,
+      "startLng": 121.05794525146484
+    },
+    {
+      "id": "27327757",
+      "tileScore": 7,
+      "name": "Shanghai Tour de France 上海环法 - Full Tour (100km)",
+      "distanceM": 100065.796875,
+      "avgGrade": 0.002498356159776449,
+      "startLat": 31.153793334960938,
+      "startLng": 121.20298767089844
+    },
+    {
+      "id": "5858979",
+      "tileScore": 13,
+      "name": "GrandView G 2 Xujing",
+      "distanceM": 37196.30078125,
+      "avgGrade": 0.01828138716518879,
+      "startLat": 31.067720413208008,
+      "startLng": 120.91679382324219
+    },
+    {
+      "id": "11488840",
+      "tileScore": 10,
+      "name": "Zhu Mao River Bridge (Westbound)",
+      "distanceM": 464.1000061035156,
+      "avgGrade": -0.08618832379579544,
+      "startLat": 31.10590934753418,
+      "startLng": 121.0592269897461
+    },
+    {
+      "id": "39608772",
+      "tileScore": 5,
+      "name": "朱中绕圈",
+      "distanceM": 1296.4000244140625,
+      "avgGrade": -0.007713668514043093,
+      "startLat": 31.104236602783203,
+      "startLng": 121.03980255126953
+    },
+    {
+      "id": "641724",
+      "tileScore": 1,
+      "name": "headwind stretch",
+      "distanceM": 1673.97998046875,
+      "avgGrade": -0.2867383360862732,
+      "startLat": 31.11006736755371,
+      "startLng": 121.02928161621094
+    },
+    {
+      "id": "22068484",
+      "tileScore": 8,
+      "name": "G318 上海-湖州",
+      "distanceM": 133169.203125,
+      "avgGrade": -0.002553143072873354,
+      "startLat": 31.17106056213379,
+      "startLng": 121.32220458984375
+    },
+    {
+      "id": "37724746",
+      "tileScore": 8,
+      "name": "青浦快运",
+      "distanceM": 66769.3984375,
+      "avgGrade": -0.013179689645767212,
+      "startLat": 31.176237106323242,
+      "startLng": 121.27295684814453
+    },
+    {
+      "id": "39016125",
+      "tileScore": 7,
+      "name": "I don't want to eat in the school canteen.",
+      "distanceM": 1311.199951171875,
+      "avgGrade": -0.07626602053642273,
+      "startLat": 31.11859703063965,
+      "startLng": 121.05867004394531
+    },
+    {
+      "id": "641726",
+      "tileScore": 5,
+      "name": "third stretch",
+      "distanceM": 1053.1600341796875,
+      "avgGrade": 0,
+      "startLat": 31.125732421875,
+      "startLng": 121.02872467041016
+    },
+    {
+      "id": "24845912",
+      "tileScore": 19,
+      "name": "李琦晟自行车劝退一疗程",
+      "distanceM": 20250,
+      "avgGrade": -0.008888889104127884,
+      "startLat": 31.15504264831543,
+      "startLng": 121.23126220703125
+    },
+    {
+      "id": "11488815",
+      "tileScore": 7,
+      "name": "East Hou Pu Bridge (Southbound)",
+      "distanceM": 161.1999969482422,
+      "avgGrade": 0.12406947463750839,
+      "startLat": 31.109987258911133,
+      "startLng": 121.06294250488281
+    },
+    {
+      "id": "26247289",
+      "tileScore": 25,
+      "name": "复兴路（北向南）",
+      "distanceM": 2453.5,
+      "avgGrade": 0.00815161969512701,
+      "startLat": 31.100805282592773,
+      "startLng": 121.02961730957031
+    },
+    {
+      "id": "37029670",
+      "tileScore": 5,
+      "name": "Doctor必须是KOM",
+      "distanceM": 3999.10009765625,
+      "avgGrade": 0.025005627423524857,
+      "startLat": 31.105819702148438,
+      "startLng": 121.05935668945312
+    },
+    {
+      "id": "38897849",
+      "tileScore": 1,
+      "name": "公制世纪 - KOM",
+      "distanceM": 101772.296875,
+      "avgGrade": -0.0031442742329090834,
+      "startLat": 31.17006492614746,
+      "startLng": 121.2751235961914
+    },
+    {
+      "id": "27318652",
+      "tileScore": 7,
+      "name": "Shanghai Tour de France 上海环法 - Concarneau-Vannes",
+      "distanceM": 5432.10009765625,
+      "avgGrade": 0.007363634184002876,
+      "startLat": 31.100961685180664,
+      "startLng": 121.01705932617188
+    },
+    {
+      "id": "20822328",
+      "tileScore": 10,
+      "name": "朱枫公路 Climb",
+      "distanceM": 382.8999938964844,
+      "avgGrade": 1.5669888257980347,
+      "startLat": 31.0926513671875,
+      "startLng": 121.04988098144531
+    },
+    {
+      "id": "11488806",
+      "tileScore": 8,
+      "name": "West Bang Bridge (Southbound)",
+      "distanceM": 166.1999969482422,
+      "avgGrade": 0.1805054098367691,
+      "startLat": 31.116483688354492,
+      "startLng": 121.06553649902344
+    },
+    {
+      "id": "42155611",
+      "tileScore": 21,
+      "name": "淀山湖大环加太浦河95km",
+      "distanceM": 98464.203125,
+      "avgGrade": 0.00020311950356699526,
+      "startLat": 31.100807189941406,
+      "startLng": 121.01215362548828
+    }
+  ]
+}

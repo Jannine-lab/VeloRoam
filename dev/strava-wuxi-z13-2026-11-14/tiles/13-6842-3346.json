@@ -1,0 +1,128 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-14T07:10:18.934Z",
+  "tile": {
+    "z": 13,
+    "x": 6842,
+    "y": 3346
+  },
+  "segments": [
+    {
+      "id": "8369740",
+      "tileScore": 1,
+      "name": "Yihu Rd (Eastbound)",
+      "distanceM": 1023.9000244140625,
+      "avgGrade": 0.039066314697265625,
+      "startLat": 31.241443634033203,
+      "startLng": 120.6972427368164
+    },
+    {
+      "id": "10314020",
+      "tileScore": 1,
+      "name": "passing the Dushu Lake Church (Southbound)",
+      "distanceM": 767.2000122070312,
+      "avgGrade": -0.09124087542295456,
+      "startLat": 31.276945114135742,
+      "startLng": 120.71773529052734
+    },
+    {
+      "id": "24662182",
+      "tileScore": 4,
+      "name": "Wan Shou St left turn from Yue Song Rd",
+      "distanceM": 1952.300048828125,
+      "avgGrade": -0.04097730666399002,
+      "startLat": 31.258201599121094,
+      "startLng": 120.71707916259766
+    },
+    {
+      "id": "23469085",
+      "tileScore": 6,
+      "name": "Jinji&Dushu Lakes",
+      "distanceM": 25429,
+      "avgGrade": 0.01651657558977604,
+      "startLat": 31.306800842285156,
+      "startLng": 120.72010803222656
+    },
+    {
+      "id": "38918201",
+      "tileScore": 2,
+      "name": "DongFang Road to Luzhi",
+      "distanceM": 12027.900390625,
+      "avgGrade": 0,
+      "startLat": 31.24398422241211,
+      "startLng": 120.70996856689453
+    },
+    {
+      "id": "10313965",
+      "tileScore": 2,
+      "name": "Yueliangwan Rd (Clockwise)",
+      "distanceM": 1222,
+      "avgGrade": -0.3273322582244873,
+      "startLat": 31.26746940612793,
+      "startLng": 120.7186508178711
+    },
+    {
+      "id": "8362543",
+      "tileScore": 12,
+      "name": "Bridge X301 northbound",
+      "distanceM": 1178.199951171875,
+      "avgGrade": 0,
+      "startLat": 31.257844924926758,
+      "startLng": 120.6935806274414
+    },
+    {
+      "id": "11586597",
+      "tileScore": 1,
+      "name": "Tonghu Rd (Eastbound)",
+      "distanceM": 659.0999755859375,
+      "avgGrade": -0.19723865389823914,
+      "startLat": 31.242225646972656,
+      "startLng": 120.6690673828125
+    },
+    {
+      "id": "41123919",
+      "tileScore": 7,
+      "name": "DRS Enabled",
+      "distanceM": 2464.5,
+      "avgGrade": 0.008115236647427082,
+      "startLat": 31.2711181640625,
+      "startLng": 120.68204498291016
+    },
+    {
+      "id": "39918661",
+      "tileScore": 4,
+      "name": "YinShan Lake to Wangshan",
+      "distanceM": 12482.099609375,
+      "avgGrade": 0.009613767266273499,
+      "startLat": 31.241424560546875,
+      "startLng": 120.69671630859375
+    },
+    {
+      "id": "34811913",
+      "tileScore": 21,
+      "name": "YinShanLake#2",
+      "distanceM": 11137.2998046875,
+      "avgGrade": 0.0053873020224273205,
+      "startLat": 31.241302490234375,
+      "startLng": 120.6966552734375
+    },
+    {
+      "id": "16357908",
+      "tileScore": 4,
+      "name": "Wusongjiang Rd and Tongjin Ave(Southbound)",
+      "distanceM": 8980.2998046875,
+      "avgGrade": 0.03340645506978035,
+      "startLat": 31.2428035736084,
+      "startLng": 120.7089614868164
+    },
+    {
+      "id": "34761788",
+      "tileScore": 14,
+      "name": "翻过这座山，做最硬的男人",
+      "distanceM": 1889.5999755859375,
+      "avgGrade": 0.07408975809812546,
+      "startLat": 31.248933792114258,
+      "startLng": 120.72691345214844
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-14T07:15:49.688Z",
+  "tile": {
+    "z": 13,
+    "x": 6845,
+    "y": 3338
+  },
+  "segments": [
+    {
+      "id": "20370724",
+      "tileScore": 33,
+      "name": "沙家浜风景区",
+      "distanceM": 20145.400390625,
+      "avgGrade": -0.0079422602429986,
+      "startLat": 31.55223274230957,
+      "startLng": 121.00159454345703
+    }
+  ]
+}

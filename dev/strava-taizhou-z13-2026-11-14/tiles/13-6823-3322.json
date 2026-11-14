@@ -1,0 +1,20 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-14T06:57:30.260Z",
+  "tile": {
+    "z": 13,
+    "x": 6823,
+    "y": 3322
+  },
+  "segments": [
+    {
+      "id": "37823843",
+      "tileScore": 29,
+      "name": "Homebound Sprint",
+      "distanceM": 11005.900390625,
+      "avgGrade": -0.023623691871762276,
+      "startLat": 32.130191802978516,
+      "startLng": 119.87174987792969
+    }
+  ]
+}

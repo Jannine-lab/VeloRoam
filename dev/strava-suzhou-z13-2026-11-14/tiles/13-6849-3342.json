@@ -1,0 +1,47 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-14T07:16:11.468Z",
+  "tile": {
+    "z": 13,
+    "x": 6849,
+    "y": 3342
+  },
+  "segments": [
+    {
+      "id": "33080889",
+      "tileScore": 15,
+      "name": "kuntai road bridge",
+      "distanceM": 774.9000244140625,
+      "avgGrade": -0.07742934674024582,
+      "startLat": 31.397220611572266,
+      "startLng": 120.99707794189453
+    },
+    {
+      "id": "33036044",
+      "tileScore": 15,
+      "name": "Dongtinghu bridge",
+      "distanceM": 560.9000244140625,
+      "avgGrade": 1.4262791872024536,
+      "startLat": 31.398681640625,
+      "startLng": 121.0260009765625
+    },
+    {
+      "id": "33019133",
+      "tileScore": 8,
+      "name": "S339下行last0.6km",
+      "distanceM": 573.5999755859375,
+      "avgGrade": 0.13947001099586487,
+      "startLat": 31.426605224609375,
+      "startLng": 121.02281951904297
+    },
+    {
+      "id": "33103289",
+      "tileScore": 10,
+      "name": "between dongtinghu rd..&changjiang rd.",
+      "distanceM": 4759.39990234375,
+      "avgGrade": 0.00840442068874836,
+      "startLat": 31.403419494628906,
+      "startLng": 121.0238265991211
+    }
+  ]
+}

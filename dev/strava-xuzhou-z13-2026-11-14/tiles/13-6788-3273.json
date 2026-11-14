@@ -1,0 +1,20 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-14T06:44:59.607Z",
+  "tile": {
+    "z": 13,
+    "x": 6788,
+    "y": 3273
+  },
+  "segments": [
+    {
+      "id": "40924686",
+      "tileScore": 12,
+      "name": "运东大道（S-N）",
+      "distanceM": 1302.9000244140625,
+      "avgGrade": 0.15350371599197388,
+      "startLat": 33.971832275390625,
+      "startLng": 118.31504821777344
+    }
+  ]
+}

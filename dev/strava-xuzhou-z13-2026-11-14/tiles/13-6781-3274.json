@@ -1,0 +1,20 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-14T06:40:10.923Z",
+  "tile": {
+    "z": 13,
+    "x": 6781,
+    "y": 3274
+  },
+  "segments": [
+    {
+      "id": "40260135",
+      "tileScore": 1,
+      "name": "睢宁外环",
+      "distanceM": 29128.900390625,
+      "avgGrade": 0.009612446650862694,
+      "startLat": 33.88330078125,
+      "startLng": 117.95005798339844
+    }
+  ]
+}

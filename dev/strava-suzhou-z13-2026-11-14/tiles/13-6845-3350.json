@@ -1,0 +1,146 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-14T07:15:33.079Z",
+  "tile": {
+    "z": 13,
+    "x": 6845,
+    "y": 3350
+  },
+  "segments": [
+    {
+      "id": "38897849",
+      "tileScore": 1,
+      "name": "公制世纪 - KOM",
+      "distanceM": 101772.296875,
+      "avgGrade": -0.0031442742329090834,
+      "startLat": 31.17006492614746,
+      "startLng": 121.2751235961914
+    },
+    {
+      "id": "41613379",
+      "tileScore": 5,
+      "name": "抄近路过去",
+      "distanceM": 3707.800048828125,
+      "avgGrade": 0.010788068175315857,
+      "startLat": 31.111116409301758,
+      "startLng": 120.831298828125
+    },
+    {
+      "id": "30384821",
+      "tileScore": 2,
+      "name": "THL-4",
+      "distanceM": 116824.5,
+      "avgGrade": -0.0025679543614387512,
+      "startLat": 31.206161499023438,
+      "startLng": 121.28252410888672
+    },
+    {
+      "id": "21720544",
+      "tileScore": 4,
+      "name": "X302 to Zhouzhuang",
+      "distanceM": 2338.60009765625,
+      "avgGrade": 0.008552124723792076,
+      "startLat": 31.095378875732422,
+      "startLng": 120.8460922241211
+    },
+    {
+      "id": "27369844",
+      "tileScore": 31,
+      "name": "进击大观园",
+      "distanceM": 5048.5,
+      "avgGrade": -0.05150044336915016,
+      "startLat": 31.094207763671875,
+      "startLng": 120.84943389892578
+    },
+    {
+      "id": "26404039",
+      "tileScore": 14,
+      "name": "Another Bridge (w)",
+      "distanceM": 666.4000244140625,
+      "avgGrade": 0.09003601223230362,
+      "startLat": 31.114559173583984,
+      "startLng": 120.819580078125
+    },
+    {
+      "id": "16223856",
+      "tileScore": 17,
+      "name": "X201 until highway",
+      "distanceM": 5684.2998046875,
+      "avgGrade": 0.0017592315562069416,
+      "startLat": 31.0914363861084,
+      "startLng": 120.84539794921875
+    },
+    {
+      "id": "35469122",
+      "tileScore": 4,
+      "name": "从周庄镇、湖青坪到运河 ",
+      "distanceM": 34445.80078125,
+      "avgGrade": -0.01799929141998291,
+      "startLat": 31.094715118408203,
+      "startLng": 120.84705352783203
+    },
+    {
+      "id": "15239938",
+      "tileScore": 6,
+      "name": "Zhouzhuang Pagoda Bridge (Northbound)",
+      "distanceM": 380.79998779296875,
+      "avgGrade": 1.7331933975219727,
+      "startLat": 31.120166778564453,
+      "startLng": 120.84159088134766
+    },
+    {
+      "id": "39133945",
+      "tileScore": 5,
+      "name": "双排同里啦-去程",
+      "distanceM": 16797.5,
+      "avgGrade": 0.015478493645787239,
+      "startLat": 31.08608055114746,
+      "startLng": 120.8979263305664
+    },
+    {
+      "id": "41055902",
+      "tileScore": 2,
+      "name": "周湖-X204",
+      "distanceM": 3247.300048828125,
+      "avgGrade": 0.006158962845802307,
+      "startLat": 31.09255027770996,
+      "startLng": 120.86016845703125
+    },
+    {
+      "id": "40613556",
+      "tileScore": 4,
+      "name": "周庄回吴江",
+      "distanceM": 10057.7001953125,
+      "avgGrade": 0.01590820960700512,
+      "startLat": 31.11195182800293,
+      "startLng": 120.83985137939453
+    },
+    {
+      "id": "21131943",
+      "tileScore": 1,
+      "name": "Dianshan Lake Checkpoint to Taihu",
+      "distanceM": 49375.1015625,
+      "avgGrade": -0.004050624556839466,
+      "startLat": 31.06794548034668,
+      "startLng": 120.91667938232422
+    },
+    {
+      "id": "41577643",
+      "tileScore": 4,
+      "name": "转弯进周庄",
+      "distanceM": 3537,
+      "avgGrade": 0.05089058727025986,
+      "startLat": 31.151132583618164,
+      "startLng": 120.82865142822266
+    },
+    {
+      "id": "39843642",
+      "tileScore": 7,
+      "name": "飞跃周庄",
+      "distanceM": 2540,
+      "avgGrade": -0.04724409431219101,
+      "startLat": 31.1292724609375,
+      "startLng": 120.85107421875
+    }
+  ]
+}

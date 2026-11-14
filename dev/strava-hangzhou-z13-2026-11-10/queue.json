@@ -1,5 +1,13 @@
 {
-  "status": "waiting_for_beijing",
-  "updatedAt": "2026-11-09T20:44:34.262Z",
-  "precedingPid": 68965
+  "status": "needs_attention",
+  "updatedAt": "2026-11-11T12:17:49.857Z",
+  "precedingPid": 68965,
+  "importResult": {
+    "code": 1,
+    "signal": null
+  },
+  "scoresResult": {
+    "code": 1,
+    "signal": null
+  }
 }

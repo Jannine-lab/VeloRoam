@@ -1,0 +1,74 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-14T07:16:52.570Z",
+  "tile": {
+    "z": 13,
+    "x": 6851,
+    "y": 3346
+  },
+  "segments": [
+    {
+      "id": "39175939",
+      "tileScore": 10,
+      "name": "Tour de France_ Champs Elysées",
+      "distanceM": 2324.800048828125,
+      "avgGrade": -0.060220230370759964,
+      "startLat": 31.27227020263672,
+      "startLng": 121.09696197509766
+    },
+    {
+      "id": "39022768",
+      "tileScore": 15,
+      "name": "Wusong River Greenway Section 4 (Eastbound)",
+      "distanceM": 4615.7998046875,
+      "avgGrade": 0.008665886707603931,
+      "startLat": 31.275123596191406,
+      "startLng": 121.10271453857422
+    },
+    {
+      "id": "8936948",
+      "tileScore": 8,
+      "name": "X452 Baishi Hwy (Eastbound)",
+      "distanceM": 7827.5,
+      "avgGrade": 0.03577132150530815,
+      "startLat": 31.254072189331055,
+      "startLng": 121.05731964111328
+    },
+    {
+      "id": "40484857",
+      "tileScore": 6,
+      "name": "Wusong River Greenway Section 5 (Southbound)",
+      "distanceM": 884.9000244140625,
+      "avgGrade": 0,
+      "startLat": 31.281539916992188,
+      "startLng": 121.08287048339844
+    },
+    {
+      "id": "31333704",
+      "tileScore": 10,
+      "name": "万科魅力花园顺时针绕圈",
+      "distanceM": 2543.10009765625,
+      "avgGrade": -0.007864417508244514,
+      "startLat": 31.279415130615234,
+      "startLng": 121.07076263427734
+    },
+    {
+      "id": "40723380",
+      "tileScore": 6,
+      "name": "Xinsheng Rd (Baishi Hwy -> Huchang Expy)",
+      "distanceM": 3515.39990234375,
+      "avgGrade": 0.19343461096286774,
+      "startLat": 31.25838851928711,
+      "startLng": 121.09618377685547
+    },
+    {
+      "id": "40357429",
+      "tileScore": 7,
+      "name": "青赵公路（白石公路-北青公路路口）",
+      "distanceM": 7421.2001953125,
+      "avgGrade": -0.006737454328685999,
+      "startLat": 31.245920181274414,
+      "startLng": 121.08159637451172
+    }
+  ]
+}

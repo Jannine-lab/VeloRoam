@@ -1,0 +1,29 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-14T06:58:28.157Z",
+  "tile": {
+    "z": 13,
+    "x": 6821,
+    "y": 3323
+  },
+  "segments": [
+    {
+      "id": "37823837",
+      "tileScore": 4,
+      "name": "Along the small Yangtzi to South Point",
+      "distanceM": 18823.400390625,
+      "avgGrade": -0.002125014550983906,
+      "startLat": 32.1309700012207,
+      "startLng": 119.79022216796875
+    },
+    {
+      "id": "37052662",
+      "tileScore": 7,
+      "name": "彩虹道至姚桥返程拉扯赛段（FQ996）",
+      "distanceM": 6968.60009765625,
+      "avgGrade": -0.005740033928304911,
+      "startLat": 32.11473083496094,
+      "startLng": 119.785888671875
+    }
+  ]
+}

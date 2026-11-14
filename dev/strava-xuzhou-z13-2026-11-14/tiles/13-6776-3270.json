@@ -1,0 +1,20 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-14T06:33:02.623Z",
+  "tile": {
+    "z": 13,
+    "x": 6776,
+    "y": 3270
+  },
+  "segments": [
+    {
+      "id": "37749682",
+      "tileScore": 2,
+      "name": "2024大运河徐州站",
+      "distanceM": 17343.900390625,
+      "avgGrade": -0.003459429834038019,
+      "startLat": 34.08185958862305,
+      "startLng": 117.79832458496094
+    }
+  ]
+}

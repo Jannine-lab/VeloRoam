@@ -1,0 +1,128 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-14T07:16:37.894Z",
+  "tile": {
+    "z": 13,
+    "x": 6849,
+    "y": 3351
+  },
+  "segments": [
+    {
+      "id": "26247313",
+      "tileScore": 10,
+      "name": "沈砖公路-先锋村",
+      "distanceM": 3933.800048828125,
+      "avgGrade": 0,
+      "startLat": 31.07807731628418,
+      "startLng": 121.02821350097656
+    },
+    {
+      "id": "40659113",
+      "tileScore": 9,
+      "name": "蓝色珠链绿道-北岸",
+      "distanceM": 1399.699951171875,
+      "avgGrade": 0.3429306149482727,
+      "startLat": 31.074199676513672,
+      "startLng": 120.98847961425781
+    },
+    {
+      "id": "36685513",
+      "tileScore": 3,
+      "name": "GG's wetland detour",
+      "distanceM": 6752.2001953125,
+      "avgGrade": 0.02961997501552105,
+      "startLat": 31.077356338500977,
+      "startLng": 121.0015640258789
+    },
+    {
+      "id": "30025969",
+      "tileScore": 46,
+      "name": "CC-02",
+      "distanceM": 2476.60009765625,
+      "avgGrade": -0.004037793725728989,
+      "startLat": 31.088865280151367,
+      "startLng": 120.97933959960938
+    },
+    {
+      "id": "26247357",
+      "tileScore": 21,
+      "name": "练西公路（东向西）",
+      "distanceM": 8140.2998046875,
+      "avgGrade": 0.022112207487225533,
+      "startLat": 31.04954719543457,
+      "startLng": 121.03935241699219
+    },
+    {
+      "id": "20757005",
+      "tileScore": 94,
+      "name": "太浦河ITT",
+      "distanceM": 6713.89990234375,
+      "avgGrade": 0.0059577892534434795,
+      "startLat": 31.076200485229492,
+      "startLng": 121.00354766845703
+    },
+    {
+      "id": "26898800",
+      "tileScore": 162,
+      "name": "太浦河TTT",
+      "distanceM": 20211.400390625,
+      "avgGrade": 0.006926783826202154,
+      "startLat": 31.079971313476562,
+      "startLng": 120.99723815917969
+    },
+    {
+      "id": "35075122",
+      "tileScore": 30,
+      "name": "郊野公园",
+      "distanceM": 2617.10009765625,
+      "avgGrade": 0.03438920900225639,
+      "startLat": 31.06662940979004,
+      "startLng": 120.97833251953125
+    },
+    {
+      "id": "42155611",
+      "tileScore": 21,
+      "name": "淀山湖大环加太浦河95km",
+      "distanceM": 98464.203125,
+      "avgGrade": 0.00020311950356699526,
+      "startLat": 31.100807189941406,
+      "startLng": 121.01215362548828
+    },
+    {
+      "id": "42328928",
+      "tileScore": 13,
+      "name": "逃出生天",
+      "distanceM": 689,
+      "avgGrade": -0.08708272874355316,
+      "startLat": 31.079565048217773,
+      "startLng": 121.0013198852539
+    },
+    {
+      "id": "32192847",
+      "tileScore": 20,
+      "name": "LanLuGang Forest",
+      "distanceM": 4596.39990234375,
+      "avgGrade": -0.0043512312695384026,
+      "startLat": 31.078067779541016,
+      "startLng": 121.0284423828125
+    },
+    {
+      "id": "36812417",
+      "tileScore": 4,
+      "name": "Pergola, Pergola and another Pergola",
+      "distanceM": 722.9000244140625,
+      "avgGrade": -0.08299902826547623,
+      "startLat": 31.05867576599121,
+      "startLng": 121.00411224365234
+    },
+    {
+      "id": "39211628",
+      "tileScore": 11,
+      "name": "华为练秋湖Loop X1",
+      "distanceM": 6035.39990234375,
+      "avgGrade": 0.02651025727391243,
+      "startLat": 31.074743270874023,
+      "startLng": 120.9878158569336
+    }
+  ]
+}

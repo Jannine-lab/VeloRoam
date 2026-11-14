@@ -1,0 +1,29 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-14T07:12:44.734Z",
+  "tile": {
+    "z": 13,
+    "x": 6818,
+    "y": 3351
+  },
+  "segments": [
+    {
+      "id": "41585443",
+      "tileScore": 55,
+      "name": "起伏pro",
+      "distanceM": 22687.19921875,
+      "avgGrade": 0.6823230385780334,
+      "startLat": 31.036949157714844,
+      "startLng": 119.82157135009766
+    },
+    {
+      "id": "39433200",
+      "tileScore": 4,
+      "name": "XC赛道@Meishan[长兴煤山off-road]",
+      "distanceM": 5708.2998046875,
+      "avgGrade": 0.04204404354095459,
+      "startLat": 31.090206146240234,
+      "startLng": 119.6557388305664
+    }
+  ]
+}

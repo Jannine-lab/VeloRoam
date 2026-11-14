@@ -1,0 +1,29 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-14T07:09:32.519Z",
+  "tile": {
+    "z": 13,
+    "x": 6841,
+    "y": 3332
+  },
+  "segments": [
+    {
+      "id": "40392235",
+      "tileScore": 9,
+      "name": "张家港凤凰itt赛",
+      "distanceM": 8280.900390625,
+      "avgGrade": -0.1014382466673851,
+      "startLat": 31.77201271057129,
+      "startLng": 120.63447570800781
+    },
+    {
+      "id": "35376299",
+      "tileScore": 13,
+      "name": "通杀（返程）",
+      "distanceM": 38499.80078125,
+      "avgGrade": -0.0015584497014060616,
+      "startLat": 31.98116683959961,
+      "startLng": 120.73014068603516
+    }
+  ]
+}

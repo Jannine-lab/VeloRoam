@@ -1,0 +1,20 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-14T06:50:52.879Z",
+  "tile": {
+    "z": 13,
+    "x": 6794,
+    "y": 3244
+  },
+  "segments": [
+    {
+      "id": "35349386",
+      "tileScore": 2,
+      "name": "沭河西线",
+      "distanceM": 31922,
+      "avgGrade": 0.05168848857283592,
+      "startLat": 34.954559326171875,
+      "startLng": 118.6120834350586
+    }
+  ]
+}

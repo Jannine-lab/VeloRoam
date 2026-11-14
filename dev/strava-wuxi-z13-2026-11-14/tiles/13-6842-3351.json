@@ -1,0 +1,65 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-14T07:11:28.674Z",
+  "tile": {
+    "z": 13,
+    "x": 6842,
+    "y": 3351
+  },
+  "segments": [
+    {
+      "id": "40212263",
+      "tileScore": 2,
+      "name": "村间穿行",
+      "distanceM": 3397.300048828125,
+      "avgGrade": 0.05887027829885483,
+      "startLat": 31.061141967773438,
+      "startLng": 120.7107925415039
+    },
+    {
+      "id": "21131943",
+      "tileScore": 1,
+      "name": "Dianshan Lake Checkpoint to Taihu",
+      "distanceM": 49375.1015625,
+      "avgGrade": -0.004050624556839466,
+      "startLat": 31.06794548034668,
+      "startLng": 120.91667938232422
+    },
+    {
+      "id": "30384821",
+      "tileScore": 2,
+      "name": "THL-4",
+      "distanceM": 116824.5,
+      "avgGrade": -0.0025679543614387512,
+      "startLat": 31.206161499023438,
+      "startLng": 121.28252410888672
+    },
+    {
+      "id": "41222613",
+      "tileScore": 1,
+      "name": "横穿八坼",
+      "distanceM": 10090.2998046875,
+      "avgGrade": -0.023785218596458435,
+      "startLat": 31.061786651611328,
+      "startLng": 120.7188949584961
+    },
+    {
+      "id": "22796874",
+      "tileScore": 10,
+      "name": "Wujiang Ave TT Westbound",
+      "distanceM": 13186.7001953125,
+      "avgGrade": -0.0030333593022078276,
+      "startLat": 31.076005935668945,
+      "startLng": 120.83527374267578
+    },
+    {
+      "id": "38128585",
+      "tileScore": 12,
+      "name": "吴江大道 中段（Eastbound）",
+      "distanceM": 12575,
+      "avgGrade": -0.007952285930514336,
+      "startLat": 31.08803367614746,
+      "startLng": 120.64781951904297
+    }
+  ]
+}

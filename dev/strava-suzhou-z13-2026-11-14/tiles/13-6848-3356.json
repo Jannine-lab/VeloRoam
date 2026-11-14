@@ -1,0 +1,29 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-14T07:18:03.861Z",
+  "tile": {
+    "z": 13,
+    "x": 6848,
+    "y": 3356
+  },
+  "segments": [
+    {
+      "id": "37361466",
+      "tileScore": 13,
+      "name": "两个小缓坡",
+      "distanceM": 1020.5,
+      "avgGrade": 0.07839294523000717,
+      "startLat": 30.875869750976562,
+      "startLng": 120.94744873046875
+    },
+    {
+      "id": "41383440",
+      "tileScore": 6,
+      "name": "姚庄欢迎您",
+      "distanceM": 998.7000122070312,
+      "avgGrade": 0.380494624376297,
+      "startLat": 30.897253036499023,
+      "startLng": 120.95877075195312
+    }
+  ]
+}

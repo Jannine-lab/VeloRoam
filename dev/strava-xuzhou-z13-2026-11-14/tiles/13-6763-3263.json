@@ -1,0 +1,20 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-14T06:26:46.239Z",
+  "tile": {
+    "z": 13,
+    "x": 6763,
+    "y": 3263
+  },
+  "segments": [
+    {
+      "id": "41620224",
+      "tileScore": 12,
+      "name": "有氧训练",
+      "distanceM": 3883,
+      "avgGrade": 0.03090394102036953,
+      "startLat": 34.3183708190918,
+      "startLng": 117.21693420410156
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-14T07:15:49.688Z",
+  "tile": {
+    "z": 13,
+    "x": 6845,
+    "y": 3339
+  },
+  "segments": [
+    {
+      "id": "41565907",
+      "tileScore": 2,
+      "name": "马上就回家了",
+      "distanceM": 4134.2998046875,
+      "avgGrade": 0.05805094167590141,
+      "startLat": 31.50362777709961,
+      "startLng": 120.8444595336914
+    },
+    {
+      "id": "29246211",
+      "tileScore": 3,
+      "name": "Steel Bridge southbound",
+      "distanceM": 325.6000061035156,
+      "avgGrade": 1.4127763509750366,
+      "startLat": 31.524314880371094,
+      "startLng": 120.84967041015625
+    }
+  ]
+}

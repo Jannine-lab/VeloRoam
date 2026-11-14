@@ -1,0 +1,20 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-14T07:08:38.964Z",
+  "tile": {
+    "z": 13,
+    "x": 6839,
+    "y": 3332
+  },
+  "segments": [
+    {
+      "id": "41474168",
+      "tileScore": 13,
+      "name": "环城东（敔山湾-四小道起点）",
+      "distanceM": 66675.203125,
+      "avgGrade": 0.005999232176691294,
+      "startLat": 31.902143478393555,
+      "startLng": 120.35093688964844
+    }
+  ]
+}

@@ -1,0 +1,218 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-14T07:21:11.237Z",
+  "tile": {
+    "z": 13,
+    "x": 6857,
+    "y": 3346
+  },
+  "segments": [
+    {
+      "id": "10928314",
+      "tileScore": 13,
+      "name": "Jingchang Lu to Longnan Lu tunnels",
+      "distanceM": 619.2000122070312,
+      "avgGrade": -0.11304908990859985,
+      "startLat": 31.275548934936523,
+      "startLng": 121.34429931640625
+    },
+    {
+      "id": "21597487",
+      "tileScore": 4,
+      "name": "312 inside west",
+      "distanceM": 3247.5,
+      "avgGrade": 0.03079291805624962,
+      "startLat": 31.247758865356445,
+      "startLng": 121.38819122314453
+    },
+    {
+      "id": "31221443",
+      "tileScore": 7,
+      "name": "安亭儿童乐园-Bikehome",
+      "distanceM": 47152.19921875,
+      "avgGrade": -0.009755642153322697,
+      "startLat": 31.239341735839844,
+      "startLng": 121.36277770996094
+    },
+    {
+      "id": "38974646",
+      "tileScore": 10,
+      "name": "J's Taopu/Longnan TT",
+      "distanceM": 10157,
+      "avgGrade": -0.05907256156206131,
+      "startLat": 31.262096405029297,
+      "startLng": 121.39192199707031
+    },
+    {
+      "id": "24860059",
+      "tileScore": 229,
+      "name": "Jinchang extension eb",
+      "distanceM": 2286.60009765625,
+      "avgGrade": 0.052479665726423264,
+      "startLat": 31.27562141418457,
+      "startLng": 121.34500885009766
+    },
+    {
+      "id": "41304268",
+      "tileScore": 127,
+      "name": "Jinchangstr.",
+      "distanceM": 6202,
+      "avgGrade": -0.006449532695114613,
+      "startLat": 31.282506942749023,
+      "startLng": 121.30982971191406
+    },
+    {
+      "id": "39173785",
+      "tileScore": 68,
+      "name": "看看谁超过了偷老师",
+      "distanceM": 15884.5,
+      "avgGrade": -0.015109068714082241,
+      "startLat": 31.263944625854492,
+      "startLng": 121.3708267211914
+    },
+    {
+      "id": "41400470",
+      "tileScore": 4,
+      "name": "金鼎路冲冲冲次",
+      "distanceM": 638.7000122070312,
+      "avgGrade": 0.06262721121311188,
+      "startLat": 31.260135650634766,
+      "startLng": 121.37007141113281
+    },
+    {
+      "id": "15059689",
+      "tileScore": 12,
+      "name": "Fenghua highway to Fenghua Highway bridge (westbound)",
+      "distanceM": 1248.199951171875,
+      "avgGrade": -0.048069220036268234,
+      "startLat": 31.245012283325195,
+      "startLng": 121.34806060791016
+    },
+    {
+      "id": "28357243",
+      "tileScore": 267,
+      "name": "Jin\bChang  Flat Road Sprint！",
+      "distanceM": 1056.4000244140625,
+      "avgGrade": -0.0757288858294487,
+      "startLat": 31.273683547973633,
+      "startLng": 121.35552215576172
+    },
+    {
+      "id": "37419410",
+      "tileScore": 49,
+      "name": "长宁绿道南向北下半段",
+      "distanceM": 1856.699951171875,
+      "avgGrade": -0.4093283712863922,
+      "startLat": 31.22559356689453,
+      "startLng": 121.34307098388672
+    },
+    {
+      "id": "28409724",
+      "tileScore": 3,
+      "name": "蓝色路线·Morning-1",
+      "distanceM": 9906,
+      "avgGrade": -0.06864526867866516,
+      "startLat": 31.29651641845703,
+      "startLng": 121.32026672363281
+    },
+    {
+      "id": "36467457",
+      "tileScore": 302,
+      "name": "金昌路1公里个人计时赛",
+      "distanceM": 1527.9000244140625,
+      "avgGrade": 0.02617972530424595,
+      "startLat": 31.272741317749023,
+      "startLng": 121.36058807373047
+    },
+    {
+      "id": "29885589",
+      "tileScore": 2,
+      "name": "SBD-011",
+      "distanceM": 731.9000244140625,
+      "avgGrade": 0.2322721779346466,
+      "startLat": 31.277210235595703,
+      "startLng": 121.33663177490234
+    },
+    {
+      "id": "38007773",
+      "tileScore": 2,
+      "name": "Zhengnan Rd Curve",
+      "distanceM": 2233.60009765625,
+      "avgGrade": -0.008954155258834362,
+      "startLat": 31.28661346435547,
+      "startLng": 121.36048126220703
+    },
+    {
+      "id": "39171079",
+      "tileScore": 4,
+      "name": "上班运气好的试试看",
+      "distanceM": 3642,
+      "avgGrade": -0.010982976295053959,
+      "startLat": 31.243946075439453,
+      "startLng": 121.36442565917969
+    },
+    {
+      "id": "37614706",
+      "tileScore": 146,
+      "name": "金昌路BIG LOOP",
+      "distanceM": 29913,
+      "avgGrade": -0.0020058169029653072,
+      "startLat": 31.27105712890625,
+      "startLng": 121.36869049072266
+    },
+    {
+      "id": "41123475",
+      "tileScore": 1,
+      "name": "上海西～中冶祥腾（线路1）",
+      "distanceM": 10495,
+      "avgGrade": 0.019056692719459534,
+      "startLat": 31.26365852355957,
+      "startLng": 121.3976821899414
+    },
+    {
+      "id": "39686390",
+      "tileScore": 66,
+      "name": "金沙江路不冲桥！成为车佬也枉然！",
+      "distanceM": 787.4000244140625,
+      "avgGrade": -0.02540004998445511,
+      "startLat": 31.24434471130371,
+      "startLng": 121.33979797363281
+    },
+    {
+      "id": "41423190",
+      "tileScore": 396,
+      "name": "金昌路最后个路口冲刺",
+      "distanceM": 502,
+      "avgGrade": -0.3585657477378845,
+      "startLat": 31.27100944519043,
+      "startLng": 121.36876678466797
+    },
+    {
+      "id": "7442832",
+      "tileScore": 1,
+      "name": "Jinshajiang West Rd (Eastbound)",
+      "distanceM": 5435.39990234375,
+      "avgGrade": 0.04967435821890831,
+      "startLat": 31.244314193725586,
+      "startLng": 121.28707885742188
+    },
+    {
+      "id": "39702741",
+      "tileScore": 152,
+      "name": "金昌路itt最后一段",
+      "distanceM": 3215.300048828125,
+      "avgGrade": -0.06842285394668579,
+      "startLat": 31.28264808654785,
+      "startLng": 121.30937957763672
+    },
+    {
+      "id": "7966537",
+      "tileScore": 62,
+      "name": "Longnan Lu",
+      "distanceM": 3657.800048828125,
+      "avgGrade": -0.032806605100631714,
+      "startLat": 31.265897750854492,
+      "startLng": 121.35903930664062
+    }
+  ]
+}

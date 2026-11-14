@@ -1,0 +1,29 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-14T06:32:35.003Z",
+  "tile": {
+    "z": 13,
+    "x": 6756,
+    "y": 3274
+  },
+  "segments": [
+    {
+      "id": "37874156",
+      "tileScore": 7,
+      "name": "淮北六健会单圈",
+      "distanceM": 9375,
+      "avgGrade": 0.08106666803359985,
+      "startLat": 33.93171310424805,
+      "startLng": 116.90852355957031
+    },
+    {
+      "id": "40517495",
+      "tileScore": 5,
+      "name": "东外环绕圈",
+      "distanceM": 24070.30078125,
+      "avgGrade": 0.0029081483371555805,
+      "startLat": 33.9191780090332,
+      "startLng": 116.86628723144531
+    }
+  ]
+}

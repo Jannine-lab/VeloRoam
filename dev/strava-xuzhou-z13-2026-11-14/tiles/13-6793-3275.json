@@ -1,0 +1,20 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-14T06:48:47.233Z",
+  "tile": {
+    "z": 13,
+    "x": 6793,
+    "y": 3275
+  },
+  "segments": [
+    {
+      "id": "39126431",
+      "tileScore": 1,
+      "name": "cd-泗睢线东往西1",
+      "distanceM": 22213.30078125,
+      "avgGrade": 0.007202891632914543,
+      "startLat": 33.757259368896484,
+      "startLng": 118.62247467041016
+    }
+  ]
+}

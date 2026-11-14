@@ -1,0 +1,20 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-14T07:12:00.997Z",
+  "tile": {
+    "z": 13,
+    "x": 6823,
+    "y": 3328
+  },
+  "segments": [
+    {
+      "id": "38964181",
+      "tileScore": 5,
+      "name": "政泰路无红绿灯go!",
+      "distanceM": 6107.39990234375,
+      "avgGrade": 0.029472442343831062,
+      "startLat": 31.901626586914062,
+      "startLng": 119.82328796386719
+    }
+  ]
+}

@@ -1,0 +1,74 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-14T07:06:54.712Z",
+  "tile": {
+    "z": 13,
+    "x": 6839,
+    "y": 3340
+  },
+  "segments": [
+    {
+      "id": "41100880",
+      "tileScore": 7,
+      "name": "鲁贝冲冲冲，只有最强者能成为王！！",
+      "distanceM": 52570.69921875,
+      "avgGrade": 0.004184840712696314,
+      "startLat": 31.779027938842773,
+      "startLng": 120.82551574707031
+    },
+    {
+      "id": "39060888",
+      "tileScore": 10,
+      "name": "漕湖该死的路桩",
+      "distanceM": 1196.9000244140625,
+      "avgGrade": 0.016709832474589348,
+      "startLat": 31.471664428710938,
+      "startLng": 120.5889663696289
+    },
+    {
+      "id": "13448928",
+      "tileScore": 2,
+      "name": "Cao Lake Southern Concrete Rd to Fang Bridge (Eastbound)",
+      "distanceM": 2969.89990234375,
+      "avgGrade": -0.006734233349561691,
+      "startLat": 31.477813720703125,
+      "startLng": 120.5478286743164
+    },
+    {
+      "id": "33610939",
+      "tileScore": 4,
+      "name": "TT from Caohu Lake 12km",
+      "distanceM": 11786.599609375,
+      "avgGrade": 0.015271579846739769,
+      "startLat": 31.4779109954834,
+      "startLng": 120.56510925292969
+    },
+    {
+      "id": "21779829",
+      "tileScore": 5,
+      "name": "Fang Bridge (Northbound)",
+      "distanceM": 2060.800048828125,
+      "avgGrade": 0.02911490760743618,
+      "startLat": 31.47503662109375,
+      "startLng": 120.57653045654297
+    },
+    {
+      "id": "33914204",
+      "tileScore": 12,
+      "name": "CAO Lake Full Circle",
+      "distanceM": 7479.2998046875,
+      "avgGrade": -0.010696188546717167,
+      "startLat": 31.471534729003906,
+      "startLng": 120.58929443359375
+    },
+    {
+      "id": "41951095",
+      "tileScore": 4,
+      "name": "Long way to the bridge ",
+      "distanceM": 27068.599609375,
+      "avgGrade": -0.009605225175619125,
+      "startLat": 31.52006721496582,
+      "startLng": 120.57653045654297
+    }
+  ]
+}

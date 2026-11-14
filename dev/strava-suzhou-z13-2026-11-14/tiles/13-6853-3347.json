@@ -1,0 +1,101 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-14T07:18:05.687Z",
+  "tile": {
+    "z": 13,
+    "x": 6853,
+    "y": 3347
+  },
+  "segments": [
+    {
+      "id": "37257490",
+      "tileScore": 3,
+      "name": "重固镇 to 沪常 无人段冲刺",
+      "distanceM": 1340.0999755859375,
+      "avgGrade": 0.01492425985634327,
+      "startLat": 31.202842712402344,
+      "startLng": 121.18055725097656
+    },
+    {
+      "id": "39509860",
+      "tileScore": 12,
+      "name": "山周公路N",
+      "distanceM": 1724.4000244140625,
+      "avgGrade": -0.04639294743537903,
+      "startLat": 31.21800994873047,
+      "startLng": 121.15994262695312
+    },
+    {
+      "id": "39159239",
+      "tileScore": 6,
+      "name": "凤重绕圈",
+      "distanceM": 4523.89990234375,
+      "avgGrade": -0.008841928094625473,
+      "startLat": 31.215965270996094,
+      "startLng": 121.21371459960938
+    },
+    {
+      "id": "29761894",
+      "tileScore": 11,
+      "name": "S26 Yannancun Bridge",
+      "distanceM": 570.4000244140625,
+      "avgGrade": 0.7363253831863403,
+      "startLat": 31.2174129486084,
+      "startLng": 121.1573257446289
+    },
+    {
+      "id": "30000173",
+      "tileScore": 7,
+      "name": "Xiuheng Road",
+      "distanceM": 1265.699951171875,
+      "avgGrade": -0.1264122724533081,
+      "startLat": 31.218116760253906,
+      "startLng": 121.17793273925781
+    },
+    {
+      "id": "32729676",
+      "tileScore": 15,
+      "name": "XuShan rd",
+      "distanceM": 2917.699951171875,
+      "avgGrade": 0,
+      "startLat": 31.216739654541016,
+      "startLng": 121.1642837524414
+    },
+    {
+      "id": "33131059",
+      "tileScore": 3,
+      "name": "Tech Loop S+L",
+      "distanceM": 20361.69921875,
+      "avgGrade": 0.021609198302030563,
+      "startLat": 31.235458374023438,
+      "startLng": 121.1602783203125
+    },
+    {
+      "id": "31889059",
+      "tileScore": 13,
+      "name": "Zhaochong rd to highway gate",
+      "distanceM": 3436.699951171875,
+      "avgGrade": 0.005819536279886961,
+      "startLat": 31.248165130615234,
+      "startLng": 121.1787338256836
+    },
+    {
+      "id": "42008025",
+      "tileScore": 11,
+      "name": "Bikehome安亭乡村版去程",
+      "distanceM": 23945.19921875,
+      "avgGrade": 0,
+      "startLat": 31.206161499023438,
+      "startLng": 121.25885772705078
+    },
+    {
+      "id": "32729620",
+      "tileScore": 7,
+      "name": "into the dark",
+      "distanceM": 1153.699951171875,
+      "avgGrade": 0.05200658738613129,
+      "startLat": 31.24696159362793,
+      "startLng": 121.15913391113281
+    }
+  ]
+}

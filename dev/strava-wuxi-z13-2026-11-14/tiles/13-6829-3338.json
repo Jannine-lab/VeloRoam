@@ -1,0 +1,20 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-14T07:06:52.729Z",
+  "tile": {
+    "z": 13,
+    "x": 6829,
+    "y": 3338
+  },
+  "segments": [
+    {
+      "id": "15126703",
+      "tileScore": 4,
+      "name": "Liulv road S to n ITT(6.2km)",
+      "distanceM": 6243,
+      "avgGrade": -0.025628704577684402,
+      "startLat": 31.514507293701172,
+      "startLng": 120.12130737304688
+    }
+  ]
+}

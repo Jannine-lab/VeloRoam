@@ -1,0 +1,20 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-14T07:12:27.449Z",
+  "tile": {
+    "z": 13,
+    "x": 6817,
+    "y": 3344
+  },
+  "segments": [
+    {
+      "id": "42467085",
+      "tileScore": 2,
+      "name": "年级大了干什么都心累",
+      "distanceM": 5484.39990234375,
+      "avgGrade": -0.018233535811305046,
+      "startLat": 31.32672691345215,
+      "startLng": 119.60186004638672
+    }
+  ]
+}

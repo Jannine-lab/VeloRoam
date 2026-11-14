@@ -1,0 +1,56 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-14T07:15:21.967Z",
+  "tile": {
+    "z": 13,
+    "x": 6844,
+    "y": 3339
+  },
+  "segments": [
+    {
+      "id": "8789824",
+      "tileScore": 38,
+      "name": "139 Village road northbound",
+      "distanceM": 4814,
+      "avgGrade": -0.004154549445956945,
+      "startLat": 31.499637603759766,
+      "startLng": 120.7820053100586
+    },
+    {
+      "id": "38583039",
+      "tileScore": 20,
+      "name": "阳澄湖返回30秒冲刺",
+      "distanceM": 874.7000122070312,
+      "avgGrade": 0.16005487740039825,
+      "startLat": 31.540687561035156,
+      "startLng": 120.78648376464844
+    },
+    {
+      "id": "32117675",
+      "tileScore": 2,
+      "name": "First bit north towards Canals",
+      "distanceM": 2323.199951171875,
+      "avgGrade": -0.11191459745168686,
+      "startLat": 31.50139617919922,
+      "startLng": 120.77265930175781
+    },
+    {
+      "id": "41565907",
+      "tileScore": 2,
+      "name": "马上就回家了",
+      "distanceM": 4134.2998046875,
+      "avgGrade": 0.05805094167590141,
+      "startLat": 31.50362777709961,
+      "startLng": 120.8444595336914
+    },
+    {
+      "id": "13159909",
+      "tileScore": 2,
+      "name": "Connector between YCH and Kuncheng Lake (Northbound)",
+      "distanceM": 9860.599609375,
+      "avgGrade": -0.014197919517755508,
+      "startLat": 31.501338958740234,
+      "startLng": 120.77267456054688
+    }
+  ]
+}

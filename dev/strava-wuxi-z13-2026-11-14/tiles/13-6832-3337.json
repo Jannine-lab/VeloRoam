@@ -1,0 +1,92 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-14T07:06:33.674Z",
+  "tile": {
+    "z": 13,
+    "x": 6832,
+    "y": 3337
+  },
+  "segments": [
+    {
+      "id": "11769637",
+      "tileScore": 23,
+      "name": "惠山 climb",
+      "distanceM": 5735.2998046875,
+      "avgGrade": 5.031994819641113,
+      "startLat": 31.575206756591797,
+      "startLng": 120.230712890625
+    },
+    {
+      "id": "2206084",
+      "tileScore": 50,
+      "name": "钱荣路159号 Climb",
+      "distanceM": 942.0659790039062,
+      "avgGrade": 11.369426727294922,
+      "startLat": 31.57818603515625,
+      "startLng": 120.2292709350586
+    },
+    {
+      "id": "39515861",
+      "tileScore": 4,
+      "name": "京杭大运河-锡澄运河",
+      "distanceM": 15913.7001953125,
+      "avgGrade": -0.02702074497938156,
+      "startLat": 31.58618927001953,
+      "startLng": 120.29010772705078
+    },
+    {
+      "id": "936847",
+      "tileScore": 506,
+      "name": "HuiShan Hill",
+      "distanceM": 5782.56982421875,
+      "avgGrade": 4.3198561668396,
+      "startLat": 31.57672691345215,
+      "startLng": 120.22569274902344
+    },
+    {
+      "id": "41724835",
+      "tileScore": 5,
+      "name": "不绕圈你怎么变强？",
+      "distanceM": 1563.5,
+      "avgGrade": 0.06395906955003738,
+      "startLat": 31.617589950561523,
+      "startLng": 120.24009704589844
+    },
+    {
+      "id": "22308048",
+      "tileScore": 2,
+      "name": "Canal West Road unknown Bridge",
+      "distanceM": 685.4000244140625,
+      "avgGrade": 0.058360084891319275,
+      "startLat": 31.619159698486328,
+      "startLng": 120.25895690917969
+    },
+    {
+      "id": "30067026",
+      "tileScore": 6,
+      "name": "Wuxi: Canal road",
+      "distanceM": 10053.599609375,
+      "avgGrade": 0.023872045800089836,
+      "startLat": 31.528690338134766,
+      "startLng": 120.3405990600586
+    },
+    {
+      "id": "34454220",
+      "tileScore": 4,
+      "name": "江海西路",
+      "distanceM": 3183.300048828125,
+      "avgGrade": -0.10994879901409149,
+      "startLat": 31.617393493652344,
+      "startLng": 120.23126983642578
+    },
+    {
+      "id": "22308151",
+      "tileScore": 1,
+      "name": "Beitang Avenue",
+      "distanceM": 2229.699951171875,
+      "avgGrade": 0.044849082827568054,
+      "startLat": 31.59770393371582,
+      "startLng": 120.27166748046875
+    }
+  ]
+}

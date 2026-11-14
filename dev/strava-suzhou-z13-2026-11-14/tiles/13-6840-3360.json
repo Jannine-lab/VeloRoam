@@ -1,0 +1,29 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-14T07:19:36.537Z",
+  "tile": {
+    "z": 13,
+    "x": 6840,
+    "y": 3360
+  },
+  "segments": [
+    {
+      "id": "37019556",
+      "tileScore": 17,
+      "name": "乌镇-嘉湖公路",
+      "distanceM": 14608.599609375,
+      "avgGrade": -0.026012076064944267,
+      "startLat": 30.760883331298828,
+      "startLng": 120.71070861816406
+    },
+    {
+      "id": "39661782",
+      "tileScore": 80,
+      "name": "RedPigs顺时针绕圈",
+      "distanceM": 46247.8984375,
+      "avgGrade": -0.018162988126277924,
+      "startLat": 30.761287689208984,
+      "startLng": 120.62166595458984
+    }
+  ]
+}

@@ -1,0 +1,74 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-14T07:06:47.185Z",
+  "tile": {
+    "z": 13,
+    "x": 6833,
+    "y": 3345
+  },
+  "segments": [
+    {
+      "id": "23648399",
+      "tileScore": 32,
+      "name": "Midwest Taihu Peninsula Peak (Eastbound)",
+      "distanceM": 687.5,
+      "avgGrade": 1.5127272605895996,
+      "startLat": 31.313819885253906,
+      "startLng": 120.31690979003906
+    },
+    {
+      "id": "21864305",
+      "tileScore": 37,
+      "name": "Taihu Coastline G312-Dongshan (70K)",
+      "distanceM": 69272.3984375,
+      "avgGrade": 0.0020210070069879293,
+      "startLat": 31.449859619140625,
+      "startLng": 120.41646575927734
+    },
+    {
+      "id": "21763222",
+      "tileScore": 50,
+      "name": "Zhenhuzhen Southbound ",
+      "distanceM": 11326.2001953125,
+      "avgGrade": 0.0070632691495120525,
+      "startLat": 31.358295440673828,
+      "startLng": 120.358642578125
+    },
+    {
+      "id": "34812541",
+      "tileScore": 25,
+      "name": "大址头桥向西600米",
+      "distanceM": 519.5999755859375,
+      "avgGrade": -0.1539645791053772,
+      "startLat": 31.312862396240234,
+      "startLng": 120.3150405883789
+    },
+    {
+      "id": "40139262",
+      "tileScore": 53,
+      "name": "太湖大道底-三洋",
+      "distanceM": 6087.5,
+      "avgGrade": 0.006570841651409864,
+      "startLat": 31.340852737426758,
+      "startLng": 120.32687377929688
+    },
+    {
+      "id": "39394918",
+      "tileScore": 4,
+      "name": "Third Cuppenberg ☕",
+      "distanceM": 502.6000061035156,
+      "avgGrade": 1.9100676774978638,
+      "startLat": 31.31499481201172,
+      "startLng": 120.29612731933594
+    },
+    {
+      "id": "39851850",
+      "tileScore": 61,
+      "name": "西京湾（三洋-疗养院）",
+      "distanceM": 4129.7001953125,
+      "avgGrade": 0.1791897714138031,
+      "startLat": 31.309892654418945,
+      "startLng": 120.28241729736328
+    }
+  ]
+}

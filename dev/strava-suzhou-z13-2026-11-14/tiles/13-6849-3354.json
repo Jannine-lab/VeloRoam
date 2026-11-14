@@ -1,0 +1,47 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-14T07:17:54.179Z",
+  "tile": {
+    "z": 13,
+    "x": 6849,
+    "y": 3354
+  },
+  "segments": [
+    {
+      "id": "40134313",
+      "tileScore": 2,
+      "name": "Canals from Temple to Bridge ",
+      "distanceM": 2589.300048828125,
+      "avgGrade": -0.03089638240635395,
+      "startLat": 30.958236694335938,
+      "startLng": 121.02253723144531
+    },
+    {
+      "id": "40134299",
+      "tileScore": 11,
+      "name": "Parital Island Loop between bridges",
+      "distanceM": 2736.89990234375,
+      "avgGrade": -0.0292301494628191,
+      "startLat": 30.947431564331055,
+      "startLng": 121.02080535888672
+    },
+    {
+      "id": "36812404",
+      "tileScore": 7,
+      "name": "Right, Left and Up to Liantang Town",
+      "distanceM": 5134.60009765625,
+      "avgGrade": 0.07011257112026215,
+      "startLat": 30.964426040649414,
+      "startLng": 121.0219497680664
+    },
+    {
+      "id": "30716383",
+      "tileScore": 7,
+      "name": "顺时针 环松江 西段",
+      "distanceM": 17517.30078125,
+      "avgGrade": -0.0011417284840717912,
+      "startLat": 30.938447952270508,
+      "startLng": 121.01915740966797
+    }
+  ]
+}

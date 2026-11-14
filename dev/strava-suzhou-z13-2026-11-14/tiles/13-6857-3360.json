@@ -1,0 +1,56 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-14T07:24:00.006Z",
+  "tile": {
+    "z": 13,
+    "x": 6857,
+    "y": 3360
+  },
+  "segments": [
+    {
+      "id": "37794187",
+      "tileScore": 16,
+      "name": "Shiny Gyrados",
+      "distanceM": 4658.39990234375,
+      "avgGrade": -0.2575991749763489,
+      "startLat": 30.71805191040039,
+      "startLng": 121.32170104980469
+    },
+    {
+      "id": "21921502",
+      "tileScore": 17,
+      "name": "For Mother Russia",
+      "distanceM": 2553.699951171875,
+      "avgGrade": 0.09398128092288971,
+      "startLat": 30.749300003051758,
+      "startLng": 121.35252380371094
+    },
+    {
+      "id": "38692781",
+      "tileScore": 36,
+      "name": "2024 STC 金山 自行车 1圈",
+      "distanceM": 8713,
+      "avgGrade": -0.006886261515319347,
+      "startLat": 30.720529556274414,
+      "startLng": 121.35421752929688
+    },
+    {
+      "id": "34808100",
+      "tileScore": 26,
+      "name": "沪杭公路 奉柘公路-龙泉港",
+      "distanceM": 13102.7998046875,
+      "avgGrade": -0.015263913199305534,
+      "startLat": 30.826845169067383,
+      "startLng": 121.46806335449219
+    },
+    {
+      "id": "20963433",
+      "tileScore": 20,
+      "name": "Jinshan Seawall Dash",
+      "distanceM": 25176.30078125,
+      "avgGrade": -0.00397198973223567,
+      "startLat": 30.948577880859375,
+      "startLng": 121.31785583496094
+    }
+  ]
+}

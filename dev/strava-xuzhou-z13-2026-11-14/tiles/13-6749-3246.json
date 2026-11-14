@@ -1,0 +1,20 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-14T06:52:54.699Z",
+  "tile": {
+    "z": 13,
+    "x": 6749,
+    "y": 3246
+  },
+  "segments": [
+    {
+      "id": "39725543",
+      "tileScore": 4,
+      "name": "唐马桥至郭楼驿站冲刺",
+      "distanceM": 2719,
+      "avgGrade": 0.1176903247833252,
+      "startLat": 34.948211669921875,
+      "startLng": 116.64019775390625
+    }
+  ]
+}

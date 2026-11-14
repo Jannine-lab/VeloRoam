@@ -1,0 +1,56 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-14T07:23:46.953Z",
+  "tile": {
+    "z": 13,
+    "x": 6857,
+    "y": 3358
+  },
+  "segments": [
+    {
+      "id": "37771400",
+      "tileScore": 63,
+      "name": "漕卫公路东向西龙泉港桥上坡",
+      "distanceM": 651.5999755859375,
+      "avgGrade": 1.96439528465271,
+      "startLat": 30.792865753173828,
+      "startLng": 121.36925506591797
+    },
+    {
+      "id": "20963433",
+      "tileScore": 20,
+      "name": "Jinshan Seawall Dash",
+      "distanceM": 25176.30078125,
+      "avgGrade": -0.00397198973223567,
+      "startLat": 30.948577880859375,
+      "startLng": 121.31785583496094
+    },
+    {
+      "id": "36321018",
+      "tileScore": 46,
+      "name": "Caowei Hwy EtoW",
+      "distanceM": 13547.400390625,
+      "avgGrade": 0.03838374838232994,
+      "startLat": 30.786436080932617,
+      "startLng": 121.41214752197266
+    },
+    {
+      "id": "33226901",
+      "tileScore": 5,
+      "name": "ShengJiaGang Bridge - Caolang Hwy",
+      "distanceM": 969.4000244140625,
+      "avgGrade": 0.06189395859837532,
+      "startLat": 30.80023956298828,
+      "startLng": 121.37065887451172
+    },
+    {
+      "id": "36332973",
+      "tileScore": 93,
+      "name": "G228漕卫（浦卫公路-亭卫公路）",
+      "distanceM": 5798.2001953125,
+      "avgGrade": 0.02069607935845852,
+      "startLat": 30.786470413208008,
+      "startLng": 121.41207122802734
+    }
+  ]
+}

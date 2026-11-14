@@ -1,0 +1,29 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-14T06:48:54.854Z",
+  "tile": {
+    "z": 13,
+    "x": 6791,
+    "y": 3252
+  },
+  "segments": [
+    {
+      "id": "37447236",
+      "tileScore": 5,
+      "name": "清泉寺爬坡 W-E",
+      "distanceM": 1812.800048828125,
+      "avgGrade": 4.203442096710205,
+      "startLat": 34.711463928222656,
+      "startLng": 118.44622039794922
+    },
+    {
+      "id": "28252459",
+      "tileScore": 15,
+      "name": "清泉寺爬坡段",
+      "distanceM": 1846,
+      "avgGrade": 4.658721446990967,
+      "startLat": 34.701717376708984,
+      "startLng": 118.47655487060547
+    }
+  ]
+}

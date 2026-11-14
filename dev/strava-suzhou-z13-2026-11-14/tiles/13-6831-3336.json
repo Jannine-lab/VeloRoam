@@ -1,0 +1,29 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-14T07:06:43.291Z",
+  "tile": {
+    "z": 13,
+    "x": 6831,
+    "y": 3336
+  },
+  "segments": [
+    {
+      "id": "34454220",
+      "tileScore": 4,
+      "name": "江海西路",
+      "distanceM": 3183.300048828125,
+      "avgGrade": -0.10994879901409149,
+      "startLat": 31.617393493652344,
+      "startLng": 120.23126983642578
+    },
+    {
+      "id": "30066980",
+      "tileScore": 4,
+      "name": "G312: WuXi -> ChangZhou",
+      "distanceM": 21382.19921875,
+      "avgGrade": 0.022448578849434853,
+      "startLat": 31.631433486938477,
+      "startLng": 120.19734191894531
+    }
+  ]
+}

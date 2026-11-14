@@ -1,0 +1,20 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-14T06:57:49.011Z",
+  "tile": {
+    "z": 13,
+    "x": 6824,
+    "y": 3305
+  },
+  "segments": [
+    {
+      "id": "31603883",
+      "tileScore": 1,
+      "name": "训练中心最快的男人",
+      "distanceM": 2057.699951171875,
+      "avgGrade": 0.11663507670164108,
+      "startLat": 32.781551361083984,
+      "startLng": 119.88764190673828
+    }
+  ]
+}

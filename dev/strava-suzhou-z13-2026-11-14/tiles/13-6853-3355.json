@@ -1,0 +1,47 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-14T07:20:40.547Z",
+  "tile": {
+    "z": 13,
+    "x": 6853,
+    "y": 3355
+  },
+  "segments": [
+    {
+      "id": "19765686",
+      "tileScore": 17,
+      "name": "MondayBridgesInterval",
+      "distanceM": 5730.2998046875,
+      "avgGrade": -0.003490218659862876,
+      "startLat": 30.937641143798828,
+      "startLng": 121.1915512084961
+    },
+    {
+      "id": "36987661",
+      "tileScore": 3,
+      "name": "掘石港南岸（朱泾-张泾）",
+      "distanceM": 4782.89990234375,
+      "avgGrade": -0.004181563388556242,
+      "startLat": 30.90888023376465,
+      "startLng": 121.18099975585938
+    },
+    {
+      "id": "27855194",
+      "tileScore": 8,
+      "name": "叶新公路（朱枫-辰塔路口）",
+      "distanceM": 15753.099609375,
+      "avgGrade": 0,
+      "startLat": 30.93653678894043,
+      "startLng": 121.02174377441406
+    },
+    {
+      "id": "32924496",
+      "tileScore": 4,
+      "name": "泖港大桥-亭枫公路",
+      "distanceM": 4834.5,
+      "avgGrade": 0.016547730192542076,
+      "startLat": 30.9368896484375,
+      "startLng": 121.18673706054688
+    }
+  ]
+}

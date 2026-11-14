@@ -1,0 +1,74 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-14T07:15:08.832Z",
+  "tile": {
+    "z": 13,
+    "x": 6846,
+    "y": 3346
+  },
+  "segments": [
+    {
+      "id": "25958214",
+      "tileScore": 3,
+      "name": "Yanghelou Shortcut",
+      "distanceM": 811.7999877929688,
+      "avgGrade": 0.07390982657670975,
+      "startLat": 31.254919052124023,
+      "startLng": 120.88926696777344
+    },
+    {
+      "id": "41451509",
+      "tileScore": 4,
+      "name": "Nanxin Rd （eastbound）",
+      "distanceM": 970.7000122070312,
+      "avgGrade": 0.061811063438653946,
+      "startLat": 31.275344848632812,
+      "startLng": 120.88508605957031
+    },
+    {
+      "id": "40405020",
+      "tileScore": 9,
+      "name": "澄湖训练",
+      "distanceM": 15113,
+      "avgGrade": -0.007940184324979782,
+      "startLat": 31.244274139404297,
+      "startLng": 120.86615753173828
+    },
+    {
+      "id": "10171731",
+      "tileScore": 1,
+      "name": "Hubin Rd (Southbound)",
+      "distanceM": 4302.2998046875,
+      "avgGrade": 0.032540734857320786,
+      "startLat": 31.262523651123047,
+      "startLng": 120.83473205566406
+    },
+    {
+      "id": "14194265",
+      "tileScore": 8,
+      "name": "Zhang's Zig-Zag (Eastbound)",
+      "distanceM": 7297.39990234375,
+      "avgGrade": -0.05755474418401718,
+      "startLat": 31.252534866333008,
+      "startLng": 120.79891204833984
+    },
+    {
+      "id": "15577781",
+      "tileScore": 6,
+      "name": "X201 from ZZZ to police station",
+      "distanceM": 3995.199951171875,
+      "avgGrade": 0.055066078901290894,
+      "startLat": 31.24496841430664,
+      "startLng": 120.86589050292969
+    },
+    {
+      "id": "41421524",
+      "tileScore": 4,
+      "name": "莲花路小径",
+      "distanceM": 2062.89990234375,
+      "avgGrade": 0.058170534670352936,
+      "startLat": 31.274185180664062,
+      "startLng": 120.88349151611328
+    }
+  ]
+}

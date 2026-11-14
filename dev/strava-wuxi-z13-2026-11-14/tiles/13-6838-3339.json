@@ -1,0 +1,20 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-14T07:07:00.441Z",
+  "tile": {
+    "z": 13,
+    "x": 6838,
+    "y": 3339
+  },
+  "segments": [
+    {
+      "id": "31043982",
+      "tileScore": 2,
+      "name": "鹅湖镇鹅湖路",
+      "distanceM": 1949.4000244140625,
+      "avgGrade": -0.03077870048582554,
+      "startLat": 31.538230895996094,
+      "startLng": 120.50920867919922
+    }
+  ]
+}

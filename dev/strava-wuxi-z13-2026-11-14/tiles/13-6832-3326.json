@@ -1,0 +1,20 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-14T07:01:04.121Z",
+  "tile": {
+    "z": 13,
+    "x": 6832,
+    "y": 3326
+  },
+  "segments": [
+    {
+      "id": "3517300",
+      "tileScore": 3,
+      "name": "He Xing Lu Climb",
+      "distanceM": 427.32147216796875,
+      "avgGrade": 20.407207489013672,
+      "startLat": 32.00684356689453,
+      "startLng": 120.2613754272461
+    }
+  ]
+}

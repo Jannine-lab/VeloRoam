@@ -1,0 +1,20 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-14T06:48:54.854Z",
+  "tile": {
+    "z": 13,
+    "x": 6792,
+    "y": 3252
+  },
+  "segments": [
+    {
+      "id": "28252471",
+      "tileScore": 3,
+      "name": "九道弯ITT路段",
+      "distanceM": 5682.39990234375,
+      "avgGrade": 0.06687314808368683,
+      "startLat": 34.70156478881836,
+      "startLng": 118.47843170166016
+    }
+  ]
+}

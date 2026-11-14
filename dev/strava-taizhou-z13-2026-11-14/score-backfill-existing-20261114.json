@@ -1,0 +1,21 @@
+{
+  "mode": "apply",
+  "source": "/Users/jannine/Desktop/VeloRoam/dev/strava-taizhou-z13-2026-11-14/candidates.json",
+  "startedAt": "2026-11-14T07:29:14.394Z",
+  "finishedAt": "2026-11-14T07:29:18.719Z",
+  "sourceIds": 269,
+  "existing": 7,
+  "alreadyScored": 0,
+  "eligible": 7,
+  "updated": 7,
+  "verified": 7,
+  "updatedIds": [
+    "30990385",
+    "30990396",
+    "37527114",
+    "37972859",
+    "38617650",
+    "39140713",
+    "41389443"
+  ]
+}

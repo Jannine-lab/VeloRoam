@@ -1,0 +1,20 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-14T06:38:11.592Z",
+  "tile": {
+    "z": 13,
+    "x": 6765,
+    "y": 3250
+  },
+  "segments": [
+    {
+      "id": "37174413",
+      "tileScore": 15,
+      "name": "武夷山路至民生路段",
+      "distanceM": 918.5,
+      "avgGrade": 0.7403374910354614,
+      "startLat": 34.80613327026367,
+      "startLng": 117.33200073242188
+    }
+  ]
+}

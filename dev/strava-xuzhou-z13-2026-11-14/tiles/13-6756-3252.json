@@ -1,0 +1,20 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-14T06:38:13.113Z",
+  "tile": {
+    "z": 13,
+    "x": 6756,
+    "y": 3252
+  },
+  "segments": [
+    {
+      "id": "35190055",
+      "tileScore": 6,
+      "name": "凯总专线求虐求拉爆",
+      "distanceM": 1796.5999755859375,
+      "avgGrade": -0.08349103480577469,
+      "startLat": 34.71514129638672,
+      "startLng": 116.90032196044922
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-14T07:10:40.842Z",
+  "tile": {
+    "z": 13,
+    "x": 6822,
+    "y": 3335
+  },
+  "segments": [
+    {
+      "id": "28025769",
+      "tileScore": 13,
+      "name": "揽月路ITT",
+      "distanceM": 5653.60009765625,
+      "avgGrade": 0.010612706653773785,
+      "startLat": 31.681699752807617,
+      "startLng": 119.86642456054688
+    },
+    {
+      "id": "20978835",
+      "tileScore": 6,
+      "name": "20170529环滆湖 Ge Lake Criterium",
+      "distanceM": 88852.703125,
+      "avgGrade": 0.003601466305553913,
+      "startLat": 31.643320083618164,
+      "startLng": 119.88687896728516
+    },
+    {
+      "id": "37581482",
+      "tileScore": 4,
+      "name": "花博园揽月路S-N平路冲刺//JOJAD",
+      "distanceM": 773.7000122070312,
+      "avgGrade": 0.18094868957996368,
+      "startLat": 31.67792320251465,
+      "startLng": 119.79957580566406
+    },
+    {
+      "id": "37346936",
+      "tileScore": 6,
+      "name": "花博会大桥爬坡 南-北//JOJAD",
+      "distanceM": 617.5,
+      "avgGrade": 0.16194331645965576,
+      "startLat": 31.684782028198242,
+      "startLng": 119.80146026611328
+    },
+    {
+      "id": "28066379",
+      "tileScore": 1,
+      "name": "环湖西路-揽月路",
+      "distanceM": 1012.7999877929688,
+      "avgGrade": -0.03949446976184845,
+      "startLat": 31.669376373291016,
+      "startLng": 119.79366302490234
+    }
+  ]
+}

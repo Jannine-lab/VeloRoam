@@ -1,0 +1,65 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-14T07:15:53.286Z",
+  "tile": {
+    "z": 13,
+    "x": 6843,
+    "y": 3337
+  },
+  "segments": [
+    {
+      "id": "40790554",
+      "tileScore": 605,
+      "name": "昆承湖小圈",
+      "distanceM": 17250.30078125,
+      "avgGrade": -0.012753401882946491,
+      "startLat": 31.5965576171875,
+      "startLng": 120.76250457763672
+    },
+    {
+      "id": "35295316",
+      "tileScore": 5,
+      "name": "Short sprint",
+      "distanceM": 625.2000122070312,
+      "avgGrade": 0.191938579082489,
+      "startLat": 31.600128173828125,
+      "startLng": 120.73025512695312
+    },
+    {
+      "id": "35391295",
+      "tileScore": 9,
+      "name": "鸡湖北圈（红绿灯-UWC）",
+      "distanceM": 4826.10009765625,
+      "avgGrade": 0.01036033220589161,
+      "startLat": 31.600372314453125,
+      "startLng": 120.73033905029297
+    },
+    {
+      "id": "41924907",
+      "tileScore": 33,
+      "name": "昆承湖低碳科技岛绕圈",
+      "distanceM": 2252.60009765625,
+      "avgGrade": -0.008878628723323345,
+      "startLat": 31.58315658569336,
+      "startLng": 120.76651763916016
+    },
+    {
+      "id": "35364502",
+      "tileScore": 6,
+      "name": "吴哥要发辣堡了！！！",
+      "distanceM": 815.5999755859375,
+      "avgGrade": 0.12260911613702774,
+      "startLat": 31.607580184936523,
+      "startLng": 120.76028442382812
+    },
+    {
+      "id": "13788468",
+      "tileScore": 233,
+      "name": "crossing Kuncheng Lake (Eastbound)",
+      "distanceM": 2752.800048828125,
+      "avgGrade": 0.06538796424865723,
+      "startLat": 31.599346160888672,
+      "startLng": 120.7305679321289
+    }
+  ]
+}

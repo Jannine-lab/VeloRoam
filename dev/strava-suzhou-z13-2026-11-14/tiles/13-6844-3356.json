@@ -1,0 +1,20 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-14T07:16:56.326Z",
+  "tile": {
+    "z": 13,
+    "x": 6844,
+    "y": 3356
+  },
+  "segments": [
+    {
+      "id": "41005877",
+      "tileScore": 11,
+      "name": "rolling in",
+      "distanceM": 581,
+      "avgGrade": -0.7228915691375732,
+      "startLat": 30.898868560791016,
+      "startLng": 120.79811096191406
+    }
+  ]
+}

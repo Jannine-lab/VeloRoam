@@ -1,0 +1,29 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-14T07:11:57.203Z",
+  "tile": {
+    "z": 13,
+    "x": 6820,
+    "y": 3350
+  },
+  "segments": [
+    {
+      "id": "35137540",
+      "tileScore": 40,
+      "name": "爬完五通山回家",
+      "distanceM": 5650.89990234375,
+      "avgGrade": -0.6866163015365601,
+      "startLat": 31.11383056640625,
+      "startLng": 119.69634246826172
+    },
+    {
+      "id": "37888801",
+      "tileScore": 111,
+      "name": "缓坡决战！！",
+      "distanceM": 8027.5,
+      "avgGrade": 1.1385860443115234,
+      "startLat": 31.122230529785156,
+      "startLng": 119.74952697753906
+    }
+  ]
+}

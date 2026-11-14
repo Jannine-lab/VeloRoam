@@ -1,0 +1,119 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-14T07:16:58.383Z",
+  "tile": {
+    "z": 13,
+    "x": 6851,
+    "y": 3343
+  },
+  "segments": [
+    {
+      "id": "25308016",
+      "tileScore": 41,
+      "name": "沿沪环圈北向-The King Of Sprint#VUELTA",
+      "distanceM": 1013.5999755859375,
+      "avgGrade": 0,
+      "startLat": 31.353073120117188,
+      "startLng": 121.10027313232422
+    },
+    {
+      "id": "14279121",
+      "tileScore": 5,
+      "name": "Qianjin E Rd (Eastbound)",
+      "distanceM": 5664,
+      "avgGrade": 0.07768362015485764,
+      "startLat": 31.385854721069336,
+      "startLng": 121.03207397460938
+    },
+    {
+      "id": "25307934",
+      "tileScore": 126,
+      "name": "沿沪环圈北向- King Of Sprint(Careful)#VUELTA",
+      "distanceM": 1015,
+      "avgGrade": -0.06896551698446274,
+      "startLat": 31.379806518554688,
+      "startLng": 121.09696960449219
+    },
+    {
+      "id": "40754146",
+      "tileScore": 1,
+      "name": "PengXi North N-S",
+      "distanceM": 3653.5,
+      "avgGrade": 0.008211304433643818,
+      "startLat": 31.420169830322266,
+      "startLng": 121.0822982788086
+    },
+    {
+      "id": "14284788",
+      "tileScore": 1,
+      "name": "X104 (Westbound)",
+      "distanceM": 15180.7001953125,
+      "avgGrade": 0.026349246501922607,
+      "startLat": 31.381698608398438,
+      "startLng": 121.14749145507812
+    },
+    {
+      "id": "37427345",
+      "tileScore": 55,
+      "name": "极限cp3",
+      "distanceM": 2807.5,
+      "avgGrade": -0.0854853093624115,
+      "startLat": 31.36452865600586,
+      "startLng": 121.10010528564453
+    },
+    {
+      "id": "40643041",
+      "tileScore": 5,
+      "name": "新农村TT",
+      "distanceM": 2380.5,
+      "avgGrade": 0,
+      "startLat": 31.388748168945312,
+      "startLng": 121.11312103271484
+    },
+    {
+      "id": "24796040",
+      "tileScore": 55,
+      "name": "沿沪环圈  #VUELTA",
+      "distanceM": 12328.2998046875,
+      "avgGrade": -0.0008111418574117124,
+      "startLat": 31.335790634155273,
+      "startLng": 121.10411834716797
+    },
+    {
+      "id": "34631067",
+      "tileScore": 4,
+      "name": "Taicang Country Roads & Fields ",
+      "distanceM": 1417,
+      "avgGrade": 0.14820042252540588,
+      "startLat": 31.377649307250977,
+      "startLng": 121.11988830566406
+    },
+    {
+      "id": "36107126",
+      "tileScore": 5,
+      "name": "ZhaoFeng Country Road (N-S)",
+      "distanceM": 1527,
+      "avgGrade": -0.10478061437606812,
+      "startLat": 31.39996337890625,
+      "startLng": 121.10491180419922
+    },
+    {
+      "id": "33132614",
+      "tileScore": 1,
+      "name": "jingwang ",
+      "distanceM": 4184.2998046875,
+      "avgGrade": -0.038238175213336945,
+      "startLat": 31.372243881225586,
+      "startLng": 121.09803771972656
+    },
+    {
+      "id": "31140593",
+      "tileScore": 6,
+      "name": "昆太-前进 -G024绕圈",
+      "distanceM": 24308.900390625,
+      "avgGrade": 0.0016454878496006131,
+      "startLat": 31.43547248840332,
+      "startLng": 121.0988540649414
+    }
+  ]
+}

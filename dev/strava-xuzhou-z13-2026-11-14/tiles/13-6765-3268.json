@@ -1,0 +1,20 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-14T06:26:07.907Z",
+  "tile": {
+    "z": 13,
+    "x": 6765,
+    "y": 3268
+  },
+  "segments": [
+    {
+      "id": "40044945",
+      "tileScore": 3,
+      "name": "Xuzhou City To Airport - Highway",
+      "distanceM": 20324.80078125,
+      "avgGrade": -0.006396126933395863,
+      "startLat": 34.176231384277344,
+      "startLng": 117.27626037597656
+    }
+  ]
+}

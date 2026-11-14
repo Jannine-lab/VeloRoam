@@ -1,0 +1,29 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-14T07:11:26.751Z",
+  "tile": {
+    "z": 13,
+    "x": 6821,
+    "y": 3335
+  },
+  "segments": [
+    {
+      "id": "20978835",
+      "tileScore": 6,
+      "name": "20170529环滆湖 Ge Lake Criterium",
+      "distanceM": 88852.703125,
+      "avgGrade": 0.003601466305553913,
+      "startLat": 31.643320083618164,
+      "startLng": 119.88687896728516
+    },
+    {
+      "id": "28066379",
+      "tileScore": 1,
+      "name": "环湖西路-揽月路",
+      "distanceM": 1012.7999877929688,
+      "avgGrade": -0.03949446976184845,
+      "startLat": 31.669376373291016,
+      "startLng": 119.79366302490234
+    }
+  ]
+}

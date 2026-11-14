@@ -1,0 +1,20 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-14T07:13:04.934Z",
+  "tile": {
+    "z": 13,
+    "x": 6814,
+    "y": 3336
+  },
+  "segments": [
+    {
+      "id": "38253558",
+      "tileScore": 12,
+      "name": "大社线全程（W-E）",
+      "distanceM": 10235.099609375,
+      "avgGrade": -0.13678421080112457,
+      "startLat": 31.64481544494629,
+      "startLng": 119.37818145751953
+    }
+  ]
+}

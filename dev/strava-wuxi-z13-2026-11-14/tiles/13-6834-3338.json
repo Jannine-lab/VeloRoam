@@ -1,0 +1,74 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-14T07:06:20.464Z",
+  "tile": {
+    "z": 13,
+    "x": 6834,
+    "y": 3338
+  },
+  "segments": [
+    {
+      "id": "7368765",
+      "tileScore": 1,
+      "name": "South XingChang Straight",
+      "distanceM": 2636.300048828125,
+      "avgGrade": 0.015172779560089111,
+      "startLat": 31.543996810913086,
+      "startLng": 120.34178161621094
+    },
+    {
+      "id": "16940275",
+      "tileScore": 1,
+      "name": "Curly Wurly SW",
+      "distanceM": 1288.800048828125,
+      "avgGrade": 0.1862197369337082,
+      "startLat": 31.55765724182129,
+      "startLng": 120.33264923095703
+    },
+    {
+      "id": "35006561",
+      "tileScore": 6,
+      "name": "新光铁路桥",
+      "distanceM": 529.4000244140625,
+      "avgGrade": 2.0778238773345947,
+      "startLat": 31.5489501953125,
+      "startLng": 120.34355926513672
+    },
+    {
+      "id": "16737969",
+      "tileScore": 1,
+      "name": "airport express",
+      "distanceM": 5722.5,
+      "avgGrade": -0.21319355070590973,
+      "startLat": 31.516149520874023,
+      "startLng": 120.3873062133789
+    },
+    {
+      "id": "25835012",
+      "tileScore": 1,
+      "name": "Westbound Before Tunnel",
+      "distanceM": 1000.0999755859375,
+      "avgGrade": -0.03999600186944008,
+      "startLat": 31.576467514038086,
+      "startLng": 120.34489440917969
+    },
+    {
+      "id": "16825810",
+      "tileScore": 2,
+      "name": "Chicken and chips",
+      "distanceM": 2501.60009765625,
+      "avgGrade": 0.10793092846870422,
+      "startLat": 31.56909942626953,
+      "startLng": 120.32343292236328
+    },
+    {
+      "id": "25835238",
+      "tileScore": 1,
+      "name": "Westbound After Tunnel",
+      "distanceM": 592.7000122070312,
+      "avgGrade": -0.2024633139371872,
+      "startLat": 31.575532913208008,
+      "startLng": 120.33317565917969
+    }
+  ]
+}

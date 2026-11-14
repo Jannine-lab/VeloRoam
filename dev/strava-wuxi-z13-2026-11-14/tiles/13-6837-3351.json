@@ -1,0 +1,38 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-14T07:10:07.563Z",
+  "tile": {
+    "z": 13,
+    "x": 6837,
+    "y": 3351
+  },
+  "segments": [
+    {
+      "id": "39179504",
+      "tileScore": 21,
+      "name": "腾飞路至石鹤山路",
+      "distanceM": 6359,
+      "avgGrade": 0.638465166091919,
+      "startLat": 31.116788864135742,
+      "startLng": 120.4753646850586
+    },
+    {
+      "id": "18785012",
+      "tileScore": 24,
+      "name": "Rick’s Relaxing Road",
+      "distanceM": 25785,
+      "avgGrade": 0.011634672060608864,
+      "startLat": 31.1710147857666,
+      "startLng": 120.57261657714844
+    },
+    {
+      "id": "20814571",
+      "tileScore": 18,
+      "name": "as fast as you can",
+      "distanceM": 22303.400390625,
+      "avgGrade": -0.006277069915086031,
+      "startLat": 31.17060661315918,
+      "startLng": 120.57173156738281
+    }
+  ]
+}

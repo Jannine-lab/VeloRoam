@@ -1,0 +1,29 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-14T07:16:09.665Z",
+  "tile": {
+    "z": 13,
+    "x": 6848,
+    "y": 3338
+  },
+  "segments": [
+    {
+      "id": "20370724",
+      "tileScore": 33,
+      "name": "沙家浜风景区",
+      "distanceM": 20145.400390625,
+      "avgGrade": -0.0079422602429986,
+      "startLat": 31.55223274230957,
+      "startLng": 121.00159454345703
+    },
+    {
+      "id": "29057685",
+      "tileScore": 2,
+      "name": "Emer's Choice",
+      "distanceM": 2676.10009765625,
+      "avgGrade": 0.0373678095638752,
+      "startLat": 31.54128074645996,
+      "startLng": 120.96485137939453
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-14T07:21:54.697Z",
+  "tile": {
+    "z": 13,
+    "x": 6844,
+    "y": 3326
+  },
+  "segments": [
+    {
+      "id": "30965053",
+      "tileScore": 4,
+      "name": "欢迎来到南通",
+      "distanceM": 513.7999877929688,
+      "avgGrade": -0.2724795639514923,
+      "startLat": 32.019187927246094,
+      "startLng": 120.80546569824219
+    }
+  ]
+}

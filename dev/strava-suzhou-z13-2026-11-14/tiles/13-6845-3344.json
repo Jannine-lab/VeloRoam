@@ -1,0 +1,74 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-14T07:15:07.036Z",
+  "tile": {
+    "z": 13,
+    "x": 6845,
+    "y": 3344
+  },
+  "segments": [
+    {
+      "id": "19039997",
+      "tileScore": 1,
+      "name": "Yuanfeng Rd 7K (Eastbound)",
+      "distanceM": 7015.7001953125,
+      "avgGrade": -0.01425374485552311,
+      "startLat": 31.3255672454834,
+      "startLng": 120.8484878540039
+    },
+    {
+      "id": "22263996",
+      "tileScore": 8,
+      "name": "苏州回上海（中新大道东）",
+      "distanceM": 11227,
+      "avgGrade": -0.03919123485684395,
+      "startLat": 31.31157875061035,
+      "startLng": 120.76634216308594
+    },
+    {
+      "id": "40536434",
+      "tileScore": 3,
+      "name": "East Section of Jiepu Port Bridge",
+      "distanceM": 519.2999877929688,
+      "avgGrade": 1.6945888996124268,
+      "startLat": 31.342273712158203,
+      "startLng": 120.85433197021484
+    },
+    {
+      "id": "40536441",
+      "tileScore": 7,
+      "name": "West Section of Jiepu Port Bridge",
+      "distanceM": 511.8999938964844,
+      "avgGrade": 1.6409454345703125,
+      "startLat": 31.339250564575195,
+      "startLng": 120.84492492675781
+    },
+    {
+      "id": "8677498",
+      "tileScore": 4,
+      "name": "Jie Pujiang Bridge (Eastbound)",
+      "distanceM": 952.4000244140625,
+      "avgGrade": 0.02099957875907421,
+      "startLat": 31.325807571411133,
+      "startLng": 120.84925079345703
+    },
+    {
+      "id": "22330016",
+      "tileScore": 2,
+      "name": "Shengpu Rd (Northbound)",
+      "distanceM": 2272.300048828125,
+      "avgGrade": 0.026404965668916702,
+      "startLat": 31.32100486755371,
+      "startLng": 120.82614135742188
+    },
+    {
+      "id": "38829270",
+      "tileScore": 7,
+      "name": "唯胜路N to S",
+      "distanceM": 8732.400390625,
+      "avgGrade": 0.025193532928824425,
+      "startLat": 31.375648498535156,
+      "startLng": 120.79234313964844
+    }
+  ]
+}

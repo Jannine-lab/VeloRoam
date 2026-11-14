@@ -1,0 +1,20 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-14T06:48:19.319Z",
+  "tile": {
+    "z": 13,
+    "x": 6783,
+    "y": 3244
+  },
+  "segments": [
+    {
+      "id": "41322545",
+      "tileScore": 1,
+      "name": "郎公寺后山顺时针爬坡一疗程",
+      "distanceM": 3109.60009765625,
+      "avgGrade": 2.17391300201416,
+      "startLat": 34.98952865600586,
+      "startLng": 118.11194610595703
+    }
+  ]
+}

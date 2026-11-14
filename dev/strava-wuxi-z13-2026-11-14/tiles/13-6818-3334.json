@@ -1,0 +1,38 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-14T07:12:02.775Z",
+  "tile": {
+    "z": 13,
+    "x": 6818,
+    "y": 3334
+  },
+  "segments": [
+    {
+      "id": "32061476",
+      "tileScore": 3,
+      "name": "金武快速路",
+      "distanceM": 17759.80078125,
+      "avgGrade": 0.001126138842664659,
+      "startLat": 31.734973907470703,
+      "startLng": 119.80149841308594
+    },
+    {
+      "id": "31820914",
+      "tileScore": 33,
+      "name": "钱资湖大道tt测试段",
+      "distanceM": 11943.5,
+      "avgGrade": 0,
+      "startLat": 31.707706451416016,
+      "startLng": 119.7456283569336
+    },
+    {
+      "id": "40030421",
+      "tileScore": 8,
+      "name": "金武返程拉一拉",
+      "distanceM": 6983.7998046875,
+      "avgGrade": -0.028637703508138657,
+      "startLat": 31.7248592376709,
+      "startLng": 119.61549377441406
+    }
+  ]
+}

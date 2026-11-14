@@ -1,0 +1,83 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-14T07:15:25.642Z",
+  "tile": {
+    "z": 13,
+    "x": 6838,
+    "y": 3352
+  },
+  "segments": [
+    {
+      "id": "38760724",
+      "tileScore": 39,
+      "name": "S230（钟秀南路-太湖绿洲）",
+      "distanceM": 8324.599609375,
+      "avgGrade": -0.0192201416939497,
+      "startLat": 31.08186912536621,
+      "startLng": 120.58846282958984
+    },
+    {
+      "id": "41463327",
+      "tileScore": 64,
+      "name": "太湖→太浦河→京杭大运河",
+      "distanceM": 40081.3984375,
+      "avgGrade": -0.005488830152899027,
+      "startLat": 31.093950271606445,
+      "startLng": 120.59027099609375
+    },
+    {
+      "id": "37956787",
+      "tileScore": 6,
+      "name": "我知道一条捷径！",
+      "distanceM": 1556.199951171875,
+      "avgGrade": 0.16707363724708557,
+      "startLat": 31.057723999023438,
+      "startLng": 120.55109405517578
+    },
+    {
+      "id": "40300720",
+      "tileScore": 52,
+      "name": "Taihu Lake loop",
+      "distanceM": 40864.30078125,
+      "avgGrade": 0.0058730971068143845,
+      "startLat": 31.129648208618164,
+      "startLng": 120.58360290527344
+    },
+    {
+      "id": "21131943",
+      "tileScore": 1,
+      "name": "Dianshan Lake Checkpoint to Taihu",
+      "distanceM": 49375.1015625,
+      "avgGrade": -0.004050624556839466,
+      "startLat": 31.06794548034668,
+      "startLng": 120.91667938232422
+    },
+    {
+      "id": "40564534",
+      "tileScore": 34,
+      "name": "环太湖",
+      "distanceM": 151856.5,
+      "avgGrade": 0.0009219230269081891,
+      "startLat": 31.187686920166016,
+      "startLng": 120.47770690917969
+    },
+    {
+      "id": "37956800",
+      "tileScore": 75,
+      "name": "门后的世界（东至西）",
+      "distanceM": 2540.800048828125,
+      "avgGrade": 0.0314861461520195,
+      "startLat": 31.054012298583984,
+      "startLng": 120.53929901123047
+    },
+    {
+      "id": "15796586",
+      "tileScore": 45,
+      "name": "Taihu midi camp outer road(Southbound)",
+      "distanceM": 4546.7001953125,
+      "avgGrade": -0.07038071751594543,
+      "startLat": 31.041263580322266,
+      "startLng": 120.51813507080078
+    }
+  ]
+}

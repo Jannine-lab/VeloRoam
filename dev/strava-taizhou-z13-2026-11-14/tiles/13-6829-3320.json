@@ -1,0 +1,20 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-14T06:57:28.423Z",
+  "tile": {
+    "z": 13,
+    "x": 6829,
+    "y": 3320
+  },
+  "segments": [
+    {
+      "id": "39468480",
+      "tileScore": 3,
+      "name": "S232，（泰兴-新街）畅飞路段",
+      "distanceM": 15379.900390625,
+      "avgGrade": -0.011703587137162685,
+      "startLat": 32.18588638305664,
+      "startLng": 120.1364517211914
+    }
+  ]
+}

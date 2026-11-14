@@ -1,0 +1,20 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-14T06:18:19.239Z",
+  "tile": {
+    "z": 13,
+    "x": 6766,
+    "y": 3265
+  },
+  "segments": [
+    {
+      "id": "38786184",
+      "tileScore": 11,
+      "name": "新徐大道（大庙徐庄段）",
+      "distanceM": 7670,
+      "avgGrade": -0.02868318185210228,
+      "startLat": 34.2602424621582,
+      "startLng": 117.3763427734375
+    }
+  ]
+}

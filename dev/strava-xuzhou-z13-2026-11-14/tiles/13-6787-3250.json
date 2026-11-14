@@ -1,0 +1,20 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-14T06:47:53.278Z",
+  "tile": {
+    "z": 13,
+    "x": 6787,
+    "y": 3250
+  },
+  "segments": [
+    {
+      "id": "40923359",
+      "tileScore": 13,
+      "name": "马头镇-刘道口",
+      "distanceM": 38571.19921875,
+      "avgGrade": 0.04511138051748276,
+      "startLat": 34.65440368652344,
+      "startLng": 118.2568359375
+    }
+  ]
+}

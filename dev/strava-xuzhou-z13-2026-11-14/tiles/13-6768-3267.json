@@ -1,0 +1,20 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-14T06:20:29.847Z",
+  "tile": {
+    "z": 13,
+    "x": 6768,
+    "y": 3267
+  },
+  "segments": [
+    {
+      "id": "38786255",
+      "tileScore": 9,
+      "name": "外环公路（新徐大道至观光路）",
+      "distanceM": 14924.2998046875,
+      "avgGrade": 0.07370530068874359,
+      "startLat": 34.26118850708008,
+      "startLng": 117.49308013916016
+    }
+  ]
+}

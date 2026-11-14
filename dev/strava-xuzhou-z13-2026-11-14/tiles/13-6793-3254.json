@@ -1,0 +1,20 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-14T06:49:24.646Z",
+  "tile": {
+    "z": 13,
+    "x": 6793,
+    "y": 3254
+  },
+  "segments": [
+    {
+      "id": "38852599",
+      "tileScore": 2,
+      "name": "羽青路 青松岭-310国道",
+      "distanceM": 13305.2001953125,
+      "avgGrade": -0.3397168219089508,
+      "startLat": 34.68302536010742,
+      "startLng": 118.55947875976562
+    }
+  ]
+}

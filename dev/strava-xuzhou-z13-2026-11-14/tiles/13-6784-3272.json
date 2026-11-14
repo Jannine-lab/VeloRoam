@@ -1,0 +1,20 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-14T06:53:59.565Z",
+  "tile": {
+    "z": 13,
+    "x": 6784,
+    "y": 3272
+  },
+  "segments": [
+    {
+      "id": "17004866",
+      "tileScore": 4,
+      "name": "宿邳路-皂河 (10km)",
+      "distanceM": 10175.400390625,
+      "avgGrade": 0.04717259109020233,
+      "startLat": 33.962432861328125,
+      "startLng": 118.19852447509766
+    }
+  ]
+}

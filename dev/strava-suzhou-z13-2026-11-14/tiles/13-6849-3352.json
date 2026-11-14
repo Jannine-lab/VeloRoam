@@ -1,0 +1,128 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-14T07:17:07.626Z",
+  "tile": {
+    "z": 13,
+    "x": 6849,
+    "y": 3352
+  },
+  "segments": [
+    {
+      "id": "40986412",
+      "tileScore": 11,
+      "name": "太浦河北岸从头到尾",
+      "distanceM": 58174.1015625,
+      "avgGrade": -0.006875912193208933,
+      "startLat": 31.01245880126953,
+      "startLng": 120.48320770263672
+    },
+    {
+      "id": "18968846",
+      "tileScore": 69,
+      "name": "太浦河南岸eastbound 1",
+      "distanceM": 4228.7998046875,
+      "avgGrade": 0.00472947396337986,
+      "startLat": 31.021337509155273,
+      "startLng": 121.00213623046875
+    },
+    {
+      "id": "26247357",
+      "tileScore": 21,
+      "name": "练西公路（东向西）",
+      "distanceM": 8140.2998046875,
+      "avgGrade": 0.022112207487225533,
+      "startLat": 31.04954719543457,
+      "startLng": 121.03935241699219
+    },
+    {
+      "id": "36812417",
+      "tileScore": 4,
+      "name": "Pergola, Pergola and another Pergola",
+      "distanceM": 722.9000244140625,
+      "avgGrade": -0.08299902826547623,
+      "startLat": 31.05867576599121,
+      "startLng": 121.00411224365234
+    },
+    {
+      "id": "36685513",
+      "tileScore": 3,
+      "name": "GG's wetland detour",
+      "distanceM": 6752.2001953125,
+      "avgGrade": 0.02961997501552105,
+      "startLat": 31.077356338500977,
+      "startLng": 121.0015640258789
+    },
+    {
+      "id": "26898800",
+      "tileScore": 162,
+      "name": "太浦河TTT",
+      "distanceM": 20211.400390625,
+      "avgGrade": 0.006926783826202154,
+      "startLat": 31.079971313476562,
+      "startLng": 120.99723815917969
+    },
+    {
+      "id": "18968800",
+      "tileScore": 180,
+      "name": "太浦河北岸westbound 1",
+      "distanceM": 2039.5999755859375,
+      "avgGrade": 0.00980584416538477,
+      "startLat": 31.02423667907715,
+      "startLng": 121.02165985107422
+    },
+    {
+      "id": "42155611",
+      "tileScore": 21,
+      "name": "淀山湖大环加太浦河95km",
+      "distanceM": 98464.203125,
+      "avgGrade": 0.00020311950356699526,
+      "startLat": 31.100807189941406,
+      "startLng": 121.01215362548828
+    },
+    {
+      "id": "17079911",
+      "tileScore": 110,
+      "name": "Classic canal reverse",
+      "distanceM": 15373.900390625,
+      "avgGrade": 0.015610872767865658,
+      "startLat": 31.007339477539062,
+      "startLng": 121.10590362548828
+    },
+    {
+      "id": "40306927",
+      "tileScore": 120,
+      "name": "白pro 10公里itt挑战赛",
+      "distanceM": 11441,
+      "avgGrade": -0.008740494027733803,
+      "startLat": 31.030139923095703,
+      "startLng": 121.0668716430664
+    },
+    {
+      "id": "42111634",
+      "tileScore": 12,
+      "name": "环上海终点冲刺",
+      "distanceM": 915.0999755859375,
+      "avgGrade": 0.021855534985661507,
+      "startLat": 31.050710678100586,
+      "startLng": 120.99903106689453
+    },
+    {
+      "id": "18947307",
+      "tileScore": 23,
+      "name": "dongcaiwei/mojiawei",
+      "distanceM": 3332.89990234375,
+      "avgGrade": -0.02400312013924122,
+      "startLat": 31.021352767944336,
+      "startLng": 120.95858001708984
+    },
+    {
+      "id": "23066546",
+      "tileScore": 87,
+      "name": "太浦河西向至老朱枫路",
+      "distanceM": 6644.39990234375,
+      "avgGrade": 0.039130695164203644,
+      "startLat": 31.022911071777344,
+      "startLng": 120.96965789794922
+    }
+  ]
+}

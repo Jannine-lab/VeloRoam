@@ -1,0 +1,38 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-14T07:07:15.832Z",
+  "tile": {
+    "z": 13,
+    "x": 6838,
+    "y": 3342
+  },
+  "segments": [
+    {
+      "id": "13448913",
+      "tileScore": 3,
+      "name": "Xitanghe Rd to Jingyi Rd (Northbound)",
+      "distanceM": 4134.5,
+      "avgGrade": -0.014512033201754093,
+      "startLat": 31.384048461914062,
+      "startLng": 120.54969787597656
+    },
+    {
+      "id": "14254414",
+      "tileScore": 1,
+      "name": "Middle Ring Expy: 20KM",
+      "distanceM": 19522.80078125,
+      "avgGrade": 0.06863769143819809,
+      "startLat": 31.386428833007812,
+      "startLng": 120.70919036865234
+    },
+    {
+      "id": "17923686",
+      "tileScore": 2,
+      "name": "Wuxi —> Suzhou G312 North Side",
+      "distanceM": 20429.099609375,
+      "avgGrade": -0.019579913467168808,
+      "startLat": 31.500911712646484,
+      "startLng": 120.45547485351562
+    }
+  ]
+}

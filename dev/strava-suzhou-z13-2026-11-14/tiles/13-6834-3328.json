@@ -1,0 +1,29 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-14T07:10:15.123Z",
+  "tile": {
+    "z": 13,
+    "x": 6834,
+    "y": 3328
+  },
+  "segments": [
+    {
+      "id": "34734812",
+      "tileScore": 1,
+      "name": "香南西路",
+      "distanceM": 3782.5,
+      "avgGrade": 0.01057501696050167,
+      "startLat": 31.918821334838867,
+      "startLng": 120.40298461914062
+    },
+    {
+      "id": "28274057",
+      "tileScore": 1,
+      "name": "延陵东路（香山绕圈）",
+      "distanceM": 2916.60009765625,
+      "avgGrade": 0,
+      "startLat": 31.917251586914062,
+      "startLng": 120.3738784790039
+    }
+  ]
+}

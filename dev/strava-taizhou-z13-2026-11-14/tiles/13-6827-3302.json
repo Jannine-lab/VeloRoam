@@ -1,0 +1,20 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-14T07:00:42.440Z",
+  "tile": {
+    "z": 13,
+    "x": 6827,
+    "y": 3302
+  },
+  "segments": [
+    {
+      "id": "40149263",
+      "tileScore": 6,
+      "name": "减肥羊上班线",
+      "distanceM": 11031.5,
+      "avgGrade": 0.014503920450806618,
+      "startLat": 32.924808502197266,
+      "startLng": 119.91484069824219
+    }
+  ]
+}

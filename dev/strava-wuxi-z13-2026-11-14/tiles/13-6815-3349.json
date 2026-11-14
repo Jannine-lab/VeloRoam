@@ -1,0 +1,29 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-14T07:13:22.983Z",
+  "tile": {
+    "z": 13,
+    "x": 6815,
+    "y": 3349
+  },
+  "segments": [
+    {
+      "id": "35707426",
+      "tileScore": 20,
+      "name": "金溪路climb",
+      "distanceM": 2262.39990234375,
+      "avgGrade": 3.624469518661499,
+      "startLat": 31.181671142578125,
+      "startLng": 119.49981689453125
+    },
+    {
+      "id": "39119628",
+      "tileScore": 11,
+      "name": "冲向溧阳！",
+      "distanceM": 7975.60009765625,
+      "avgGrade": 1.4820201396942139,
+      "startLat": 31.09585189819336,
+      "startLng": 119.49969482421875
+    }
+  ]
+}

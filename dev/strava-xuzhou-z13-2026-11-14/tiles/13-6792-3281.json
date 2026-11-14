@@ -1,0 +1,20 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-14T06:49:00.805Z",
+  "tile": {
+    "z": 13,
+    "x": 6792,
+    "y": 3281
+  },
+  "segments": [
+    {
+      "id": "5712880",
+      "tileScore": 1,
+      "name": "泗阳到泗洪",
+      "distanceM": 57125.5,
+      "avgGrade": 0.005251595284789801,
+      "startLat": 33.73418045043945,
+      "startLng": 118.7104721069336
+    }
+  ]
+}

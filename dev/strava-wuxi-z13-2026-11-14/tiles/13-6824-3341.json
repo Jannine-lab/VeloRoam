@@ -1,0 +1,38 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-14T07:08:32.541Z",
+  "tile": {
+    "z": 13,
+    "x": 6824,
+    "y": 3341
+  },
+  "segments": [
+    {
+      "id": "32345222",
+      "tileScore": 58,
+      "name": "屺山",
+      "distanceM": 1530.5999755859375,
+      "avgGrade": 8.415000915527344,
+      "startLat": 31.436281204223633,
+      "startLng": 119.88336944580078
+    },
+    {
+      "id": "36607891",
+      "tileScore": 5,
+      "name": "屺山-架弓山",
+      "distanceM": 3824.5,
+      "avgGrade": 0.1778010129928589,
+      "startLat": 31.415851593017578,
+      "startLng": 119.88356018066406
+    },
+    {
+      "id": "31855902",
+      "tileScore": 7,
+      "name": "芳桥-塘田大桥",
+      "distanceM": 7116,
+      "avgGrade": 0.05621135234832764,
+      "startLat": 31.431198120117188,
+      "startLng": 119.89576721191406
+    }
+  ]
+}

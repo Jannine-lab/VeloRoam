@@ -1,0 +1,29 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-14T07:10:48.660Z",
+  "tile": {
+    "z": 13,
+    "x": 6839,
+    "y": 3328
+  },
+  "segments": [
+    {
+      "id": "35182422",
+      "tileScore": 14,
+      "name": "金沙洲玫瑰园绕圈",
+      "distanceM": 2102.300048828125,
+      "avgGrade": -0.028540171682834625,
+      "startLat": 31.94696807861328,
+      "startLng": 120.5857925415039
+    },
+    {
+      "id": "36868553",
+      "tileScore": 4,
+      "name": "沙中北",
+      "distanceM": 1895.0999755859375,
+      "avgGrade": 0,
+      "startLat": 31.939939498901367,
+      "startLng": 120.57169342041016
+    }
+  ]
+}

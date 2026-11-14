@@ -1,0 +1,20 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-14T06:55:39.705Z",
+  "tile": {
+    "z": 13,
+    "x": 6827,
+    "y": 3315
+  },
+  "segments": [
+    {
+      "id": "40702972",
+      "tileScore": 30,
+      "name": "大张线东到西",
+      "distanceM": 11222.400390625,
+      "avgGrade": 0.0106929000467062,
+      "startLat": 32.44746780395508,
+      "startLng": 120.10950469970703
+    }
+  ]
+}

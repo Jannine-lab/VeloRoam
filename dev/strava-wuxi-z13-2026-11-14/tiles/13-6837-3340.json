@@ -1,0 +1,29 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-14T07:06:31.820Z",
+  "tile": {
+    "z": 13,
+    "x": 6837,
+    "y": 3340
+  },
+  "segments": [
+    {
+      "id": "37908878",
+      "tileScore": 2,
+      "name": "梅村高中空港分校绕圈拉练内环线",
+      "distanceM": 2057.300048828125,
+      "avgGrade": 0.009721479378640652,
+      "startLat": 31.49441909790039,
+      "startLng": 120.45442199707031
+    },
+    {
+      "id": "17923686",
+      "tileScore": 2,
+      "name": "Wuxi —> Suzhou G312 North Side",
+      "distanceM": 20429.099609375,
+      "avgGrade": -0.019579913467168808,
+      "startLat": 31.500911712646484,
+      "startLng": 120.45547485351562
+    }
+  ]
+}

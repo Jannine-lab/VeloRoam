@@ -1,0 +1,20 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-14T07:01:23.751Z",
+  "tile": {
+    "z": 13,
+    "x": 6828,
+    "y": 3327
+  },
+  "segments": [
+    {
+      "id": "39035007",
+      "tileScore": 2,
+      "name": "靖江单圈",
+      "distanceM": 3908.5,
+      "avgGrade": -0.030702315270900726,
+      "startLat": 31.97356605529785,
+      "startLng": 120.08016204833984
+    }
+  ]
+}

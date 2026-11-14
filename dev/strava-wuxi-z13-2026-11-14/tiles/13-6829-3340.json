@@ -1,0 +1,38 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-14T07:06:49.037Z",
+  "tile": {
+    "z": 13,
+    "x": 6829,
+    "y": 3340
+  },
+  "segments": [
+    {
+      "id": "4195299",
+      "tileScore": 201,
+      "name": "Shili Changdi(S-N)[十里明珠堤回程 铺装路on-road]",
+      "distanceM": 3668.10009765625,
+      "avgGrade": 0,
+      "startLat": 31.47080421447754,
+      "startLng": 120.13236999511719
+    },
+    {
+      "id": "14485953",
+      "tileScore": 330,
+      "name": "马山大圈 Mashan Circuit",
+      "distanceM": 58948.69921875,
+      "avgGrade": 0.0011874731862917542,
+      "startLat": 31.55048942565918,
+      "startLng": 120.18302154541016
+    },
+    {
+      "id": "17060909",
+      "tileScore": 89,
+      "name": "聪-陆马公路（北-南）",
+      "distanceM": 3240.699951171875,
+      "avgGrade": -0.03702903538942337,
+      "startLat": 31.497610092163086,
+      "startLng": 120.11864471435547
+    }
+  ]
+}

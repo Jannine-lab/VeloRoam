@@ -1,0 +1,56 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-14T07:16:05.878Z",
+  "tile": {
+    "z": 13,
+    "x": 6850,
+    "y": 3344
+  },
+  "segments": [
+    {
+      "id": "36767202",
+      "tileScore": 6,
+      "name": "Go to GIANT 拧螺丝",
+      "distanceM": 782.7000122070312,
+      "avgGrade": 0,
+      "startLat": 31.350757598876953,
+      "startLng": 121.03626251220703
+    },
+    {
+      "id": "7956480",
+      "tileScore": 15,
+      "name": "Dongcheng Ave X202 Hub Overpass (Northbound)",
+      "distanceM": 2751.5,
+      "avgGrade": 0.010903144255280495,
+      "startLat": 31.323083877563477,
+      "startLng": 121.05330657958984
+    },
+    {
+      "id": "22264078",
+      "tileScore": 6,
+      "name": "苏州回上海（昆山~安亭）",
+      "distanceM": 24057.19921875,
+      "avgGrade": -0.03491678088903427,
+      "startLat": 31.33888816833496,
+      "startLng": 120.90005493164062
+    },
+    {
+      "id": "4484296",
+      "tileScore": 2,
+      "name": "KunShan Crit Course ",
+      "distanceM": 5182,
+      "avgGrade": -0.0019297567196190357,
+      "startLat": 31.32100486755371,
+      "startLng": 121.05941772460938
+    },
+    {
+      "id": "32953403",
+      "tileScore": 2,
+      "name": "xiajiahe bridge#hhl",
+      "distanceM": 582.5999755859375,
+      "avgGrade": 0.034328870475292206,
+      "startLat": 31.35075569152832,
+      "startLng": 121.03262329101562
+    }
+  ]
+}

@@ -1,0 +1,155 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-14T07:16:37.894Z",
+  "tile": {
+    "z": 13,
+    "x": 6849,
+    "y": 3350
+  },
+  "segments": [
+    {
+      "id": "27327757",
+      "tileScore": 7,
+      "name": "Shanghai Tour de France 上海环法 - Full Tour (100km)",
+      "distanceM": 100065.796875,
+      "avgGrade": 0.002498356159776449,
+      "startLat": 31.153793334960938,
+      "startLng": 121.20298767089844
+    },
+    {
+      "id": "22068484",
+      "tileScore": 8,
+      "name": "G318 上海-湖州",
+      "distanceM": 133169.203125,
+      "avgGrade": -0.002553143072873354,
+      "startLat": 31.17106056213379,
+      "startLng": 121.32220458984375
+    },
+    {
+      "id": "42499463",
+      "tileScore": 14,
+      "name": "绿洲剧场单圈",
+      "distanceM": 2691,
+      "avgGrade": 0.007432181388139725,
+      "startLat": 31.106294631958008,
+      "startLng": 121.00628662109375
+    },
+    {
+      "id": "38405230",
+      "tileScore": 28,
+      "name": "14KM-东方绿洲到商榻超市",
+      "distanceM": 16984.80078125,
+      "avgGrade": -0.00824266392737627,
+      "startLat": 31.100879669189453,
+      "startLng": 121.01265716552734
+    },
+    {
+      "id": "17111113",
+      "tileScore": 2,
+      "name": "Dianshanhu bridge",
+      "distanceM": 3827.89990234375,
+      "avgGrade": 0.03657357767224312,
+      "startLat": 31.112234115600586,
+      "startLng": 121.00028228759766
+    },
+    {
+      "id": "38897849",
+      "tileScore": 1,
+      "name": "公制世纪 - KOM",
+      "distanceM": 101772.296875,
+      "avgGrade": -0.0031442742329090834,
+      "startLat": 31.17006492614746,
+      "startLng": 121.2751235961914
+    },
+    {
+      "id": "27310809",
+      "tileScore": 31,
+      "name": "Shanghai Tour de France 上海环法 - Brest-Quimper",
+      "distanceM": 3314.800048828125,
+      "avgGrade": 0.003016773145645857,
+      "startLat": 31.12588882446289,
+      "startLng": 121.01679992675781
+    },
+    {
+      "id": "42155611",
+      "tileScore": 21,
+      "name": "淀山湖大环加太浦河95km",
+      "distanceM": 98464.203125,
+      "avgGrade": 0.00020311950356699526,
+      "startLat": 31.100807189941406,
+      "startLng": 121.01215362548828
+    },
+    {
+      "id": "5858979",
+      "tileScore": 13,
+      "name": "GrandView G 2 Xujing",
+      "distanceM": 37196.30078125,
+      "avgGrade": 0.01828138716518879,
+      "startLat": 31.067720413208008,
+      "startLng": 120.91679382324219
+    },
+    {
+      "id": "27318652",
+      "tileScore": 7,
+      "name": "Shanghai Tour de France 上海环法 - Concarneau-Vannes",
+      "distanceM": 5432.10009765625,
+      "avgGrade": 0.007363634184002876,
+      "startLat": 31.100961685180664,
+      "startLng": 121.01705932617188
+    },
+    {
+      "id": "10654060",
+      "tileScore": 30,
+      "name": "G318 x Mao River Bridge (Westbound)",
+      "distanceM": 565.5,
+      "avgGrade": 0.9549071788787842,
+      "startLat": 31.09188461303711,
+      "startLng": 120.98188018798828
+    },
+    {
+      "id": "37738368",
+      "tileScore": 49,
+      "name": "HQP单飞一段！",
+      "distanceM": 847.0999755859375,
+      "avgGrade": -0.023609962314367294,
+      "startLat": 31.100173950195312,
+      "startLng": 121.00267028808594
+    },
+    {
+      "id": "32060640",
+      "tileScore": 47,
+      "name": "这里有李琦晟爆掉的2条胎",
+      "distanceM": 3956.199951171875,
+      "avgGrade": 0.012638390995562077,
+      "startLat": 31.100893020629883,
+      "startLng": 121.01290893554688
+    },
+    {
+      "id": "27310786",
+      "tileScore": 49,
+      "name": "Shanghai Tour de France 上海环法 - Mont-Saint-Michel-Roscoff",
+      "distanceM": 4010.5,
+      "avgGrade": -0.05236254632472992,
+      "startLat": 31.131629943847656,
+      "startLng": 121.05794525146484
+    },
+    {
+      "id": "11488851",
+      "tileScore": 23,
+      "name": "Dianshan Port Bridge (Westbound)",
+      "distanceM": 485.29998779296875,
+      "avgGrade": 0.08242323994636536,
+      "startLat": 31.101465225219727,
+      "startLng": 121.02271270751953
+    },
+    {
+      "id": "32192847",
+      "tileScore": 20,
+      "name": "LanLuGang Forest",
+      "distanceM": 4596.39990234375,
+      "avgGrade": -0.0043512312695384026,
+      "startLat": 31.078067779541016,
+      "startLng": 121.0284423828125
+    }
+  ]
+}

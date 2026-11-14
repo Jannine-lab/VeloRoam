@@ -1,0 +1,20 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-14T06:57:35.892Z",
+  "tile": {
+    "z": 13,
+    "x": 6831,
+    "y": 3317
+  },
+  "segments": [
+    {
+      "id": "40010033",
+      "tileScore": 7,
+      "name": "老杨强力领骑",
+      "distanceM": 13965.099609375,
+      "avgGrade": 0.9824491143226624,
+      "startLat": 32.335025787353516,
+      "startLng": 120.17938232421875
+    }
+  ]
+}

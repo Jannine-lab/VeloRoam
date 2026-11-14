@@ -1,0 +1,20 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-14T07:02:40.275Z",
+  "tile": {
+    "z": 13,
+    "x": 6840,
+    "y": 3310
+  },
+  "segments": [
+    {
+      "id": "39876168",
+      "tileScore": 28,
+      "name": "353东段折返（小卖部过红绿灯到高速桥顶）",
+      "distanceM": 7424.5,
+      "avgGrade": 0.14007677137851715,
+      "startLat": 32.572994232177734,
+      "startLng": 120.61055755615234
+    }
+  ]
+}

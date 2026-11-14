@@ -1,0 +1,20 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-14T07:07:21.684Z",
+  "tile": {
+    "z": 13,
+    "x": 6836,
+    "y": 3334
+  },
+  "segments": [
+    {
+      "id": "39686603",
+      "tileScore": 6,
+      "name": "河塘绕圈（避开加油站）",
+      "distanceM": 6486.2998046875,
+      "avgGrade": -0.0030834220815449953,
+      "startLat": 31.73432159423828,
+      "startLng": 120.47228240966797
+    }
+  ]
+}

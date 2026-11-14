@@ -1,0 +1,38 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-14T07:15:29.551Z",
+  "tile": {
+    "z": 13,
+    "x": 6848,
+    "y": 3345
+  },
+  "segments": [
+    {
+      "id": "10570506",
+      "tileScore": 5,
+      "name": "Back~Tri-Bridge",
+      "distanceM": 7095.2998046875,
+      "avgGrade": -0.08738178759813309,
+      "startLat": 31.303497314453125,
+      "startLng": 121.04659271240234
+    },
+    {
+      "id": "41474678",
+      "tileScore": 4,
+      "name": "港浦中路",
+      "distanceM": 3474.199951171875,
+      "avgGrade": 0.011513441801071167,
+      "startLat": 31.294105529785156,
+      "startLng": 120.9159927368164
+    },
+    {
+      "id": "41474688",
+      "tileScore": 7,
+      "name": "与时俱进",
+      "distanceM": 3824,
+      "avgGrade": 0.04184100404381752,
+      "startLat": 31.2780818939209,
+      "startLng": 120.96353149414062
+    }
+  ]
+}

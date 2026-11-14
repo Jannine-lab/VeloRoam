@@ -1,0 +1,119 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-14T07:22:12.288Z",
+  "tile": {
+    "z": 13,
+    "x": 6858,
+    "y": 3352
+  },
+  "segments": [
+    {
+      "id": "15632196",
+      "tileScore": 1,
+      "name": "No.2 Mingpu Bridge Northbound",
+      "distanceM": 3935.800048828125,
+      "avgGrade": -0.05081558972597122,
+      "startLat": 30.988847732543945,
+      "startLng": 121.42903137207031
+    },
+    {
+      "id": "13917007",
+      "tileScore": 1,
+      "name": "中春路TT",
+      "distanceM": 5485.89990234375,
+      "avgGrade": -0.03645709902048111,
+      "startLat": 31.087270736694336,
+      "startLng": 121.37234497070312
+    },
+    {
+      "id": "22985388",
+      "tileScore": 2,
+      "name": "Humin Rd to Beiqiao",
+      "distanceM": 545.2999877929688,
+      "avgGrade": -0.2750779390335083,
+      "startLat": 31.040542602539062,
+      "startLng": 121.40756225585938
+    },
+    {
+      "id": "23075370",
+      "tileScore": 2,
+      "name": "S32 Umbrella eastbound",
+      "distanceM": 6598.39990234375,
+      "avgGrade": 0.06365179270505905,
+      "startLat": 31.018346786499023,
+      "startLng": 121.34273529052734
+    },
+    {
+      "id": "40236759",
+      "tileScore": 5,
+      "name": "吴泾奉贤",
+      "distanceM": 47205,
+      "avgGrade": -0.04702891781926155,
+      "startLat": 31.037860870361328,
+      "startLng": 121.44114685058594
+    },
+    {
+      "id": "8260652",
+      "tileScore": 2,
+      "name": "Nanqiao Bridge (going South)",
+      "distanceM": 1074.300048828125,
+      "avgGrade": 0.6050451397895813,
+      "startLat": 31.01723861694336,
+      "startLng": 121.41678619384766
+    },
+    {
+      "id": "22985369",
+      "tileScore": 2,
+      "name": "Beisong Hwy #2",
+      "distanceM": 1196.300048828125,
+      "avgGrade": -0.24241411685943604,
+      "startLat": 31.0330753326416,
+      "startLng": 121.3824462890625
+    },
+    {
+      "id": "11994086",
+      "tileScore": 2,
+      "name": "Dongchuan Rd (Eastbound)",
+      "distanceM": 12666.7001953125,
+      "avgGrade": 0.009473659098148346,
+      "startLat": 30.99555778503418,
+      "startLng": 121.34071350097656
+    },
+    {
+      "id": "22985351",
+      "tileScore": 9,
+      "name": "Beisong Hwy #1",
+      "distanceM": 521.7999877929688,
+      "avgGrade": -0.09582215547561646,
+      "startLat": 31.031200408935547,
+      "startLng": 121.37639617919922
+    },
+    {
+      "id": "41093492",
+      "tileScore": 55,
+      "name": "The Suckers Segment",
+      "distanceM": 5200,
+      "avgGrade": 0.1538461595773697,
+      "startLat": 31.065645217895508,
+      "startLng": 121.44151306152344
+    },
+    {
+      "id": "22985381",
+      "tileScore": 5,
+      "name": "Beisong Hwy #3",
+      "distanceM": 1090.5999755859375,
+      "avgGrade": 0.03667705878615379,
+      "startLat": 31.03685188293457,
+      "startLng": 121.395751953125
+    },
+    {
+      "id": "22985443",
+      "tileScore": 2,
+      "name": "Humin Rd to Zhuanqiao #1",
+      "distanceM": 671,
+      "avgGrade": 0.11922504007816315,
+      "startLat": 31.046655654907227,
+      "startLng": 121.40534210205078
+    }
+  ]
+}

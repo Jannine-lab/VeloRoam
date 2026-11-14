@@ -1,0 +1,56 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-14T07:07:19.794Z",
+  "tile": {
+    "z": 13,
+    "x": 6838,
+    "y": 3337
+  },
+  "segments": [
+    {
+      "id": "32159270",
+      "tileScore": 1,
+      "name": "Wanshan Lake Bridge S2N",
+      "distanceM": 5760.5,
+      "avgGrade": 0.02430344559252262,
+      "startLat": 31.574993133544922,
+      "startLng": 120.5326919555664
+    },
+    {
+      "id": "39259145",
+      "tileScore": 19,
+      "name": "宛山湖三桥来一遍",
+      "distanceM": 8812.5,
+      "avgGrade": 0.0022695036605000496,
+      "startLat": 31.57549285888672,
+      "startLng": 120.5295639038086
+    },
+    {
+      "id": "35258784",
+      "tileScore": 4,
+      "name": "宛山湖小桥",
+      "distanceM": 892.2000122070312,
+      "avgGrade": 1.0535753965377808,
+      "startLat": 31.598913192749023,
+      "startLng": 120.5199966430664
+    },
+    {
+      "id": "29896475",
+      "tileScore": 3,
+      "name": "around WanShanHu",
+      "distanceM": 5384.39990234375,
+      "avgGrade": -0.01485773641616106,
+      "startLat": 31.599308013916016,
+      "startLng": 120.5093002319336
+    },
+    {
+      "id": "32863237",
+      "tileScore": 8,
+      "name": "宛山大桥 北到南",
+      "distanceM": 865.9000244140625,
+      "avgGrade": -0.046194709837436676,
+      "startLat": 31.583410263061523,
+      "startLng": 120.53448486328125
+    }
+  ]
+}

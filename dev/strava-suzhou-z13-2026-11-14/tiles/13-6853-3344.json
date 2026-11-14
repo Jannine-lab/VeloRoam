@@ -1,0 +1,65 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-14T07:17:57.968Z",
+  "tile": {
+    "z": 13,
+    "x": 6853,
+    "y": 3344
+  },
+  "segments": [
+    {
+      "id": "25652399",
+      "tileScore": 24,
+      "name": "Pujiang Jiaoye Park ",
+      "distanceM": 10514.2001953125,
+      "avgGrade": 0.02092408388853073,
+      "startLat": 31.36074447631836,
+      "startLng": 121.21723937988281
+    },
+    {
+      "id": "34631052",
+      "tileScore": 10,
+      "name": "Out of Anting to Taicang",
+      "distanceM": 7637.10009765625,
+      "avgGrade": -0.010475180111825466,
+      "startLat": 31.312946319580078,
+      "startLng": 121.16061401367188
+    },
+    {
+      "id": "32011709",
+      "tileScore": 11,
+      "name": "上海葛隆检查站",
+      "distanceM": 20198.900390625,
+      "avgGrade": -0.011881834827363491,
+      "startLat": 31.301441192626953,
+      "startLng": 121.2960205078125
+    },
+    {
+      "id": "34489521",
+      "tileScore": 37,
+      "name": "PARKCYCLING 猎骑大圈",
+      "distanceM": 6456.5,
+      "avgGrade": 0,
+      "startLat": 31.36835479736328,
+      "startLng": 121.19298553466797
+    },
+    {
+      "id": "40956661",
+      "tileScore": 3,
+      "name": "嘉定到安亭最快路线",
+      "distanceM": 8401.7001953125,
+      "avgGrade": -0.0261851754039526,
+      "startLat": 31.358226776123047,
+      "startLng": 121.21436309814453
+    },
+    {
+      "id": "41774588",
+      "tileScore": 25,
+      "name": "路况这么好还不加脚",
+      "distanceM": 1293.5,
+      "avgGrade": -0.03092385083436966,
+      "startLat": 31.349409103393555,
+      "startLng": 121.18728637695312
+    }
+  ]
+}

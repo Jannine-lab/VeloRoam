@@ -1,0 +1,137 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-14T07:14:59.904Z",
+  "tile": {
+    "z": 13,
+    "x": 6843,
+    "y": 3342
+  },
+  "segments": [
+    {
+      "id": "38745052",
+      "tileScore": 218,
+      "name": "M-circle of YCH(B2Bridge 50K)",
+      "distanceM": 50491.30078125,
+      "avgGrade": 0.0023766469676047564,
+      "startLat": 31.388383865356445,
+      "startLng": 120.71324157714844
+    },
+    {
+      "id": "41693421",
+      "tileScore": 16,
+      "name": "半岛绿道without阳澄西湖",
+      "distanceM": 17130.80078125,
+      "avgGrade": 0.0011674878187477589,
+      "startLat": 31.4024715423584,
+      "startLng": 120.78372955322266
+    },
+    {
+      "id": "10647919",
+      "tileScore": 14,
+      "name": "East YCHP Lake Side Cycling Lane - Over-Water Bridge #1 (Eastbound)",
+      "distanceM": 764.7999877929688,
+      "avgGrade": 0.07845188677310944,
+      "startLat": 31.405893325805664,
+      "startLng": 120.75048828125
+    },
+    {
+      "id": "38925188",
+      "tileScore": 294,
+      "name": "决战水泽之巅",
+      "distanceM": 2199.699951171875,
+      "avgGrade": 0.03636859357357025,
+      "startLat": 31.401386260986328,
+      "startLng": 120.74724578857422
+    },
+    {
+      "id": "39677675",
+      "tileScore": 43,
+      "name": "始皇帝又要突围拉！",
+      "distanceM": 991.2999877929688,
+      "avgGrade": -0.5447392463684082,
+      "startLat": 31.38666534423828,
+      "startLng": 120.734619140625
+    },
+    {
+      "id": "40496734",
+      "tileScore": 4,
+      "name": "another road",
+      "distanceM": 4819.5,
+      "avgGrade": 0.045647889375686646,
+      "startLat": 31.4106388092041,
+      "startLng": 120.77167510986328
+    },
+    {
+      "id": "39631300",
+      "tileScore": 26,
+      "name": "530半岛火柴棍大战",
+      "distanceM": 6637.7998046875,
+      "avgGrade": -0.04820874333381653,
+      "startLat": 31.38666534423828,
+      "startLng": 120.734619140625
+    },
+    {
+      "id": "12649989",
+      "tileScore": 180,
+      "name": "YCH North to LJH",
+      "distanceM": 7725.2998046875,
+      "avgGrade": 0.04271678626537323,
+      "startLat": 31.387466430664062,
+      "startLng": 120.71316528320312
+    },
+    {
+      "id": "33096576",
+      "tileScore": 28,
+      "name": "fast loop's first bridge",
+      "distanceM": 506.5,
+      "avgGrade": 0,
+      "startLat": 31.398754119873047,
+      "startLng": 120.74984741210938
+    },
+    {
+      "id": "23526218",
+      "tileScore": 221,
+      "name": "Up da Lake",
+      "distanceM": 12626.5,
+      "avgGrade": 0.009503821842372417,
+      "startLat": 31.38671112060547,
+      "startLng": 120.7130355834961
+    },
+    {
+      "id": "41798036",
+      "tileScore": 8,
+      "name": "水泽路集合啦",
+      "distanceM": 6794,
+      "avgGrade": 0,
+      "startLat": 31.37588119506836,
+      "startLng": 120.7916259765625
+    },
+    {
+      "id": "38245891",
+      "tileScore": 171,
+      "name": "范地普洱",
+      "distanceM": 529.2000122070312,
+      "avgGrade": 0,
+      "startLat": 31.404922485351562,
+      "startLng": 120.75261688232422
+    },
+    {
+      "id": "10262587",
+      "tileScore": 27,
+      "name": "Stretch after S/F Of Fast Loops (Southbound)",
+      "distanceM": 1344.9000244140625,
+      "avgGrade": 0.22306491434574127,
+      "startLat": 31.400705337524414,
+      "startLng": 120.74890899658203
+    },
+    {
+      "id": "35187916",
+      "tileScore": 234,
+      "name": "半岛团练要迟到了，你咋还不着急？",
+      "distanceM": 5948.2001953125,
+      "avgGrade": -0.08069667965173721,
+      "startLat": 31.388105392456055,
+      "startLng": 120.78768920898438
+    }
+  ]
+}

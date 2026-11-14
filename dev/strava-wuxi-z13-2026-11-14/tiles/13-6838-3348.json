@@ -1,0 +1,56 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-14T07:09:28.688Z",
+  "tile": {
+    "z": 13,
+    "x": 6838,
+    "y": 3348
+  },
+  "segments": [
+    {
+      "id": "17514988",
+      "tileScore": 29,
+      "name": "full Wangshan Climb (Northbound)",
+      "distanceM": 5441.89990234375,
+      "avgGrade": 4.395523548126221,
+      "startLat": 31.206302642822266,
+      "startLng": 120.52206420898438
+    },
+    {
+      "id": "17515255",
+      "tileScore": 87,
+      "name": "Wangshan Climb till Y-cross (Northbound)",
+      "distanceM": 2208.60009765625,
+      "avgGrade": 6.98179817199707,
+      "startLat": 31.206254959106445,
+      "startLng": 120.52210235595703
+    },
+    {
+      "id": "40564534",
+      "tileScore": 34,
+      "name": "环太湖",
+      "distanceM": 151856.5,
+      "avgGrade": 0.0009219230269081891,
+      "startLat": 31.187686920166016,
+      "startLng": 120.47770690917969
+    },
+    {
+      "id": "33603225",
+      "tileScore": 10,
+      "name": "吴中大道极限操作",
+      "distanceM": 12635.599609375,
+      "avgGrade": 0.011079806834459305,
+      "startLat": 31.228336334228516,
+      "startLng": 120.60233306884766
+    },
+    {
+      "id": "24451871",
+      "tileScore": 5,
+      "name": "Mudong Gonglu (Northbound)",
+      "distanceM": 3054.5,
+      "avgGrade": -0.052381731569767,
+      "startLat": 31.19797134399414,
+      "startLng": 120.52227020263672
+    }
+  ]
+}

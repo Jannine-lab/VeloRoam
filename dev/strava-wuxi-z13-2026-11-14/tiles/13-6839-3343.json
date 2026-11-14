@@ -1,0 +1,65 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-14T07:07:15.832Z",
+  "tile": {
+    "z": 13,
+    "x": 6839,
+    "y": 3343
+  },
+  "segments": [
+    {
+      "id": "37504888",
+      "tileScore": 15,
+      "name": "老钱你内裤颠掉了",
+      "distanceM": 743.5999755859375,
+      "avgGrade": 0.02689618058502674,
+      "startLat": 31.35146713256836,
+      "startLng": 120.57398986816406
+    },
+    {
+      "id": "20963883",
+      "tileScore": 38,
+      "name": "Xitang River Road To Middle Ring North",
+      "distanceM": 5650.2998046875,
+      "avgGrade": -0.0035396351013332605,
+      "startLat": 31.34080696105957,
+      "startLng": 120.58148193359375
+    },
+    {
+      "id": "37504902",
+      "tileScore": 11,
+      "name": "老钱的牙盘在帅气的压弯后开始异响庆祝",
+      "distanceM": 622.5999755859375,
+      "avgGrade": 0.09637005627155304,
+      "startLat": 31.377317428588867,
+      "startLng": 120.55195617675781
+    },
+    {
+      "id": "35838197",
+      "tileScore": 2,
+      "name": "Dongtinghe Road",
+      "distanceM": 2454.800048828125,
+      "avgGrade": 0.06517842411994934,
+      "startLat": 31.408472061157227,
+      "startLng": 120.57316589355469
+    },
+    {
+      "id": "34494226",
+      "tileScore": 8,
+      "name": "阳澄湖西路高架桥(westbound)",
+      "distanceM": 2026.5,
+      "avgGrade": 0.22699233889579773,
+      "startLat": 31.36375617980957,
+      "startLng": 120.5815200805664
+    },
+    {
+      "id": "13448913",
+      "tileScore": 3,
+      "name": "Xitanghe Rd to Jingyi Rd (Northbound)",
+      "distanceM": 4134.5,
+      "avgGrade": -0.014512033201754093,
+      "startLat": 31.384048461914062,
+      "startLng": 120.54969787597656
+    }
+  ]
+}

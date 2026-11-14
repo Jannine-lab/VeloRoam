@@ -1,0 +1,20 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-14T06:57:08.005Z",
+  "tile": {
+    "z": 13,
+    "x": 6817,
+    "y": 3315
+  },
+  "segments": [
+    {
+      "id": "17372758",
+      "tileScore": 12,
+      "name": "cd-2018马自骑最后10公里",
+      "distanceM": 9977.099609375,
+      "avgGrade": 0.07617443799972534,
+      "startLat": 32.41746520996094,
+      "startLng": 119.60604095458984
+    }
+  ]
+}

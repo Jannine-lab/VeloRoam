@@ -1,0 +1,101 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-14T07:06:16.739Z",
+  "tile": {
+    "z": 13,
+    "x": 6834,
+    "y": 3341
+  },
+  "segments": [
+    {
+      "id": "40962801",
+      "tileScore": 49,
+      "name": "All the way along the lake (E-W)",
+      "distanceM": 19889.69921875,
+      "avgGrade": 0.0030166367068886757,
+      "startLat": 31.448610305786133,
+      "startLng": 120.40274047851562
+    },
+    {
+      "id": "31456659",
+      "tileScore": 2,
+      "name": "尚贤河绕圈",
+      "distanceM": 3895.800048828125,
+      "avgGrade": 0.015401201322674751,
+      "startLat": 31.463165283203125,
+      "startLng": 120.31172180175781
+    },
+    {
+      "id": "35222701",
+      "tileScore": 5,
+      "name": "Final Sprint 1 (E-W) ",
+      "distanceM": 1258.699951171875,
+      "avgGrade": -0.3575116991996765,
+      "startLat": 31.465185165405273,
+      "startLng": 120.36241149902344
+    },
+    {
+      "id": "37783283",
+      "tileScore": 6,
+      "name": "Binhu Bullet CCW",
+      "distanceM": 714.5999755859375,
+      "avgGrade": 0.05597536638379097,
+      "startLat": 31.464988708496094,
+      "startLng": 120.34812927246094
+    },
+    {
+      "id": "35188732",
+      "tileScore": 10,
+      "name": "Park to bullet and back (TT) ",
+      "distanceM": 6549.89990234375,
+      "avgGrade": 0,
+      "startLat": 31.452713012695312,
+      "startLng": 120.32496643066406
+    },
+    {
+      "id": "13254956",
+      "tileScore": 27,
+      "name": "Taihu Dadi Eastbound",
+      "distanceM": 10347.7001953125,
+      "avgGrade": -0.005798390135169029,
+      "startLat": 31.40854835510254,
+      "startLng": 120.23377990722656
+    },
+    {
+      "id": "12893198",
+      "tileScore": 22,
+      "name": "Taihu Shore Bicycle Path (Wangyu River to Fish Market)",
+      "distanceM": 6530.7001953125,
+      "avgGrade": 0.027562130242586136,
+      "startLat": 31.446502685546875,
+      "startLng": 120.40375518798828
+    },
+    {
+      "id": "36836607",
+      "tileScore": 28,
+      "name": "bingo",
+      "distanceM": 21878.69921875,
+      "avgGrade": -0.01828262209892273,
+      "startLat": 31.476436614990234,
+      "startLng": 120.25367736816406
+    },
+    {
+      "id": "18587354",
+      "tileScore": 3,
+      "name": "Taihu dadi gate-to-gate westbound",
+      "distanceM": 3105.39990234375,
+      "avgGrade": 0.006440394092351198,
+      "startLat": 31.463708877563477,
+      "startLng": 120.34761047363281
+    },
+    {
+      "id": "35187553",
+      "tileScore": 5,
+      "name": "贡湖湾湿地公园 2",
+      "distanceM": 4594,
+      "avgGrade": 0,
+      "startLat": 31.453962326049805,
+      "startLng": 120.31385040283203
+    }
+  ]
+}

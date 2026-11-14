@@ -1,0 +1,29 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-14T07:21:31.937Z",
+  "tile": {
+    "z": 13,
+    "x": 6830,
+    "y": 3360
+  },
+  "segments": [
+    {
+      "id": "42155527",
+      "tileScore": 18,
+      "name": "菱湖-和孚",
+      "distanceM": 8159.5,
+      "avgGrade": -0.004902261309325695,
+      "startLat": 30.725954055786133,
+      "startLng": 120.17852020263672
+    },
+    {
+      "id": "41725534",
+      "tileScore": 38,
+      "name": "菱湖-下昂",
+      "distanceM": 7077.60009765625,
+      "avgGrade": -0.03390980139374733,
+      "startLat": 30.72530174255371,
+      "startLng": 120.17182922363281
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-14T07:23:28.676Z",
+  "tile": {
+    "z": 13,
+    "x": 6847,
+    "y": 3325
+  },
+  "segments": [
+    {
+      "id": "40906866",
+      "tileScore": 30,
+      "name": "通富北路到江海大道",
+      "distanceM": 5608.89990234375,
+      "avgGrade": 0.02139456942677498,
+      "startLat": 31.99443244934082,
+      "startLng": 120.92237854003906
+    },
+    {
+      "id": "39278183",
+      "tileScore": 1,
+      "name": "永和路飞奔",
+      "distanceM": 7981.5,
+      "avgGrade": -0.007517383899539709,
+      "startLat": 32.05760955810547,
+      "startLng": 120.89878845214844
+    },
+    {
+      "id": "39154956",
+      "tileScore": 14,
+      "name": "Hua Qiang to Feng Ya Xi Ting",
+      "distanceM": 24200.400390625,
+      "avgGrade": 0.0016528653213754296,
+      "startLat": 32.0452766418457,
+      "startLng": 120.8616943359375
+    },
+    {
+      "id": "35159666",
+      "tileScore": 33,
+      "name": "基友超市 南-北",
+      "distanceM": 32252.599609375,
+      "avgGrade": 0.0031005253549665213,
+      "startLat": 32.046653747558594,
+      "startLng": 120.9250717163086
+    }
+  ]
+}

@@ -1,0 +1,74 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-14T07:10:40.842Z",
+  "tile": {
+    "z": 13,
+    "x": 6822,
+    "y": 3334
+  },
+  "segments": [
+    {
+      "id": "20978835",
+      "tileScore": 6,
+      "name": "20170529环滆湖 Ge Lake Criterium",
+      "distanceM": 88852.703125,
+      "avgGrade": 0.003601466305553913,
+      "startLat": 31.643320083618164,
+      "startLng": 119.88687896728516
+    },
+    {
+      "id": "28095444",
+      "tileScore": 3,
+      "name": "西太湖绕圈 2km",
+      "distanceM": 2108,
+      "avgGrade": 0.018975332379341125,
+      "startLat": 31.69631004333496,
+      "startLng": 119.83988952636719
+    },
+    {
+      "id": "41400352",
+      "tileScore": 3,
+      "name": "DS卡丁车绕圈",
+      "distanceM": 616.2999877929688,
+      "avgGrade": -0.16225863993167877,
+      "startLat": 31.69939422607422,
+      "startLng": 119.79623413085938
+    },
+    {
+      "id": "844502",
+      "tileScore": 82,
+      "name": "YanZheng West Road ShenYeCun Bridge Towards West",
+      "distanceM": 502.5920104980469,
+      "avgGrade": 1.393034815788269,
+      "startLat": 31.704790115356445,
+      "startLng": 119.81803131103516
+    },
+    {
+      "id": "40030457",
+      "tileScore": 2,
+      "name": "绕圈最后拼一把",
+      "distanceM": 701.5,
+      "avgGrade": -0.4561653733253479,
+      "startLat": 31.720109939575195,
+      "startLng": 119.82039642333984
+    },
+    {
+      "id": "852225",
+      "tileScore": 60,
+      "name": "YanZheng West Road ShenYeCun Bridge Towards East",
+      "distanceM": 456.9880065917969,
+      "avgGrade": 0.8752735257148743,
+      "startLat": 31.70451545715332,
+      "startLng": 119.80806732177734
+    },
+    {
+      "id": "40030332",
+      "tileScore": 3,
+      "name": "常大西太湖绕圈",
+      "distanceM": 10172.099609375,
+      "avgGrade": 0.005898487288504839,
+      "startLat": 31.705589294433594,
+      "startLng": 119.8230209350586
+    }
+  ]
+}

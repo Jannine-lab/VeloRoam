@@ -1,0 +1,110 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-14T07:25:24.411Z",
+  "tile": {
+    "z": 13,
+    "x": 6854,
+    "y": 3342
+  },
+  "segments": [
+    {
+      "id": "36269037",
+      "tileScore": 6,
+      "name": "嘉定 001 Sheraton",
+      "distanceM": 1315.5999755859375,
+      "avgGrade": 0.10641532391309738,
+      "startLat": 31.39523696899414,
+      "startLng": 121.24063873291016
+    },
+    {
+      "id": "18131769",
+      "tileScore": 4,
+      "name": "Shengxin Road Straight South",
+      "distanceM": 16619.099609375,
+      "avgGrade": 0.010830910876393318,
+      "startLat": 31.431230545043945,
+      "startLng": 121.18557739257812
+    },
+    {
+      "id": "41214603",
+      "tileScore": 9,
+      "name": "扯园绕圈圈够胆你就来",
+      "distanceM": 2005.5,
+      "avgGrade": 0.06980802863836288,
+      "startLat": 31.409828186035156,
+      "startLng": 121.24219512939453
+    },
+    {
+      "id": "29011864",
+      "tileScore": 3,
+      "name": "JD004",
+      "distanceM": 3896.800048828125,
+      "avgGrade": 0.0923834890127182,
+      "startLat": 31.392946243286133,
+      "startLng": 121.23838806152344
+    },
+    {
+      "id": "37818501",
+      "tileScore": 3,
+      "name": "How much do you like your bike?",
+      "distanceM": 530.0999755859375,
+      "avgGrade": -0.03772873058915138,
+      "startLat": 31.408349990844727,
+      "startLng": 121.24075317382812
+    },
+    {
+      "id": "37443154",
+      "tileScore": 1,
+      "name": "曹新公路绿荫路段（东-西）",
+      "distanceM": 1278.5,
+      "avgGrade": 0.04692999646067619,
+      "startLat": 31.404203414916992,
+      "startLng": 121.22356414794922
+    },
+    {
+      "id": "40915624",
+      "tileScore": 6,
+      "name": "嘉定 002 Bridge",
+      "distanceM": 515.2999877929688,
+      "avgGrade": 0,
+      "startLat": 31.39618682861328,
+      "startLng": 121.24081420898438
+    },
+    {
+      "id": "41274113",
+      "tileScore": 27,
+      "name": "宝钱～霜竹",
+      "distanceM": 3434,
+      "avgGrade": -0.058241117745637894,
+      "startLat": 31.424707412719727,
+      "startLng": 121.20503234863281
+    },
+    {
+      "id": "34243849",
+      "tileScore": 8,
+      "name": "宝钱公路闪击战",
+      "distanceM": 9809.7998046875,
+      "avgGrade": 0.03669799491763115,
+      "startLat": 31.45241355895996,
+      "startLng": 121.30296325683594
+    },
+    {
+      "id": "40952059",
+      "tileScore": 15,
+      "name": "胜竹路-绿意路",
+      "distanceM": 1460.300048828125,
+      "avgGrade": 0.013695815578103065,
+      "startLat": 31.388776779174805,
+      "startLng": 121.21662139892578
+    },
+    {
+      "id": "34547614",
+      "tileScore": 6,
+      "name": "Volvo sprint - Short",
+      "distanceM": 593.2000122070312,
+      "avgGrade": 0,
+      "startLat": 31.411766052246094,
+      "startLng": 121.22930145263672
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-14T06:59:32.083Z",
+  "tile": {
+    "z": 13,
+    "x": 6819,
+    "y": 3323
+  },
+  "segments": [
+    {
+      "id": "35564692",
+      "tileScore": 9,
+      "name": "207县道（埤城-通港路）",
+      "distanceM": 2630.10009765625,
+      "avgGrade": 0.030417094007134438,
+      "startLat": 32.11366271972656,
+      "startLng": 119.70088195800781
+    },
+    {
+      "id": "35564685",
+      "tileScore": 5,
+      "name": "冲向玖珑城",
+      "distanceM": 2344.5,
+      "avgGrade": 0,
+      "startLat": 32.13813018798828,
+      "startLng": 119.72540283203125
+    },
+    {
+      "id": "41433762",
+      "tileScore": 20,
+      "name": "Ride Real⭐️大港南站金润大道直道冲刺",
+      "distanceM": 1688.199951171875,
+      "avgGrade": 0,
+      "startLat": 32.133243560791016,
+      "startLng": 119.68254852294922
+    },
+    {
+      "id": "39703679",
+      "tileScore": 10,
+      "name": "沿南湖到港中路",
+      "distanceM": 1271.0999755859375,
+      "avgGrade": -0.04720320925116539,
+      "startLat": 32.14443588256836,
+      "startLng": 119.6758804321289
+    }
+  ]
+}

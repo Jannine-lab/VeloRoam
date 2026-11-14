@@ -1,0 +1,20 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-14T06:39:05.727Z",
+  "tile": {
+    "z": 13,
+    "x": 6782,
+    "y": 3262
+  },
+  "segments": [
+    {
+      "id": "38150858",
+      "tileScore": 3,
+      "name": "中专绕圈",
+      "distanceM": 11655.900390625,
+      "avgGrade": -0.012011084705591202,
+      "startLat": 34.34828186035156,
+      "startLng": 118.0208511352539
+    }
+  ]
+}

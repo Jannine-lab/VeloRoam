@@ -1,0 +1,227 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-14T07:15:47.854Z",
+  "tile": {
+    "z": 13,
+    "x": 6847,
+    "y": 3349
+  },
+  "segments": [
+    {
+      "id": "41057436",
+      "tileScore": 19,
+      "name": "王港路口沿荡骑到烂路",
+      "distanceM": 5364.2001953125,
+      "avgGrade": 0.07829686254262924,
+      "startLat": 31.136058807373047,
+      "startLng": 120.90351867675781
+    },
+    {
+      "id": "33080828",
+      "tileScore": 14,
+      "name": "S224 back",
+      "distanceM": 10905.2001953125,
+      "avgGrade": -0.05868760123848915,
+      "startLat": 31.11811065673828,
+      "startLng": 120.92029571533203
+    },
+    {
+      "id": "40366717",
+      "tileScore": 3,
+      "name": "同周公路→淀山湖",
+      "distanceM": 26875.900390625,
+      "avgGrade": 0.008929933421313763,
+      "startLat": 31.156139373779297,
+      "startLng": 120.87418365478516
+    },
+    {
+      "id": "3725446",
+      "tileScore": 19,
+      "name": "Dianshan Lake West and North",
+      "distanceM": 21665.25390625,
+      "avgGrade": -0.008308254182338715,
+      "startLat": 31.068464279174805,
+      "startLng": 120.91326141357422
+    },
+    {
+      "id": "38897849",
+      "tileScore": 1,
+      "name": "公制世纪 - KOM",
+      "distanceM": 101772.296875,
+      "avgGrade": -0.0031442742329090834,
+      "startLat": 31.17006492614746,
+      "startLng": 121.2751235961914
+    },
+    {
+      "id": "25913735",
+      "tileScore": 2,
+      "name": "Back from Coffee",
+      "distanceM": 1070.199951171875,
+      "avgGrade": -0.01868809573352337,
+      "startLat": 31.15413475036621,
+      "startLng": 120.91719818115234
+    },
+    {
+      "id": "42155611",
+      "tileScore": 21,
+      "name": "淀山湖大环加太浦河95km",
+      "distanceM": 98464.203125,
+      "avgGrade": 0.00020311950356699526,
+      "startLat": 31.100807189941406,
+      "startLng": 121.01215362548828
+    },
+    {
+      "id": "37373358",
+      "tileScore": 35,
+      "name": "立讯厂妹下班啦",
+      "distanceM": 1697.4000244140625,
+      "avgGrade": 0,
+      "startLat": 31.164766311645508,
+      "startLng": 120.93637084960938
+    },
+    {
+      "id": "26244516",
+      "tileScore": 10,
+      "name": "Bridge Up",
+      "distanceM": 476.5,
+      "avgGrade": 0.5456452965736389,
+      "startLat": 31.1568603515625,
+      "startLng": 120.90361022949219
+    },
+    {
+      "id": "27380257",
+      "tileScore": 25,
+      "name": "West Side Sprint 2",
+      "distanceM": 941.7999877929688,
+      "avgGrade": -0.6264599561691284,
+      "startLat": 31.1325740814209,
+      "startLng": 120.933349609375
+    },
+    {
+      "id": "38954443",
+      "tileScore": 4,
+      "name": "TongJing RD E to W",
+      "distanceM": 28885.30078125,
+      "avgGrade": -0.04777516424655914,
+      "startLat": 31.166654586791992,
+      "startLng": 120.9546127319336
+    },
+    {
+      "id": "22090862",
+      "tileScore": 1,
+      "name": "Jinxi shortcut (Southbound)",
+      "distanceM": 2879.89990234375,
+      "avgGrade": 0.0763915404677391,
+      "startLat": 31.17960548400879,
+      "startLng": 120.8876953125
+    },
+    {
+      "id": "25913645",
+      "tileScore": 20,
+      "name": "Back from the Beach",
+      "distanceM": 1223.199951171875,
+      "avgGrade": 0.016350556164979935,
+      "startLat": 31.154926300048828,
+      "startLng": 120.9337158203125
+    },
+    {
+      "id": "39545950",
+      "tileScore": 2,
+      "name": "白路瓜路",
+      "distanceM": 8818,
+      "avgGrade": -0.21320027112960815,
+      "startLat": 31.15410614013672,
+      "startLng": 120.89579010009766
+    },
+    {
+      "id": "30384821",
+      "tileScore": 2,
+      "name": "THL-4",
+      "distanceM": 116824.5,
+      "avgGrade": -0.0025679543614387512,
+      "startLat": 31.206161499023438,
+      "startLng": 121.28252410888672
+    },
+    {
+      "id": "23244406",
+      "tileScore": 14,
+      "name": "Dianshan West Lake Leg",
+      "distanceM": 10026.900390625,
+      "avgGrade": 0.013962440192699432,
+      "startLat": 31.145015716552734,
+      "startLng": 120.92278289794922
+    },
+    {
+      "id": "40826034",
+      "tileScore": 6,
+      "name": "WangGangRD N-S",
+      "distanceM": 1557.199951171875,
+      "avgGrade": -0.0064217825420200825,
+      "startLat": 31.12194061279297,
+      "startLng": 120.90463256835938
+    },
+    {
+      "id": "24554665",
+      "tileScore": 29,
+      "name": "First Sprint after Coffee",
+      "distanceM": 811.5,
+      "avgGrade": 0.07393715530633926,
+      "startLat": 31.15479278564453,
+      "startLng": 120.92315673828125
+    },
+    {
+      "id": "26244567",
+      "tileScore": 1,
+      "name": "25K Scenic Country Roads (Northbound)",
+      "distanceM": 24641.80078125,
+      "avgGrade": 0.04707448184490204,
+      "startLat": 31.152658462524414,
+      "startLng": 120.92338562011719
+    },
+    {
+      "id": "17111162",
+      "tileScore": 34,
+      "name": "Dianshanhu West bike path",
+      "distanceM": 6946.2001953125,
+      "avgGrade": -0.11085197329521179,
+      "startLat": 31.112680435180664,
+      "startLng": 120.92161560058594
+    },
+    {
+      "id": "24743549",
+      "tileScore": 16,
+      "name": "To the beach",
+      "distanceM": 1067.199951171875,
+      "avgGrade": -0.11244377493858337,
+      "startLat": 31.164623260498047,
+      "startLng": 120.93502807617188
+    },
+    {
+      "id": "24743568",
+      "tileScore": 26,
+      "name": "Beach to Dianshanhu",
+      "distanceM": 1242.699951171875,
+      "avgGrade": 0.17703387141227722,
+      "startLat": 31.15505027770996,
+      "startLng": 120.93402862548828
+    },
+    {
+      "id": "40195692",
+      "tileScore": 4,
+      "name": "汪洋荡18弯",
+      "distanceM": 2204.10009765625,
+      "avgGrade": -0.07259199023246765,
+      "startLat": 31.1369571685791,
+      "startLng": 120.92445373535156
+    },
+    {
+      "id": "41414884",
+      "tileScore": 3,
+      "name": "钓鱼锦标赛🎣",
+      "distanceM": 831.7999877929688,
+      "avgGrade": -0.2163981795310974,
+      "startLat": 31.14957618713379,
+      "startLng": 120.89679718017578
+    }
+  ]
+}

@@ -1,0 +1,74 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-14T07:15:21.967Z",
+  "tile": {
+    "z": 13,
+    "x": 6844,
+    "y": 3338
+  },
+  "segments": [
+    {
+      "id": "20370724",
+      "tileScore": 33,
+      "name": "沙家浜风景区",
+      "distanceM": 20145.400390625,
+      "avgGrade": -0.0079422602429986,
+      "startLat": 31.55223274230957,
+      "startLng": 121.00159454345703
+    },
+    {
+      "id": "13159909",
+      "tileScore": 2,
+      "name": "Connector between YCH and Kuncheng Lake (Northbound)",
+      "distanceM": 9860.599609375,
+      "avgGrade": -0.014197919517755508,
+      "startLat": 31.501338958740234,
+      "startLng": 120.77267456054688
+    },
+    {
+      "id": "10284227",
+      "tileScore": 1,
+      "name": "X204 (Southbound)",
+      "distanceM": 5129.5,
+      "avgGrade": 0.02144458517432213,
+      "startLat": 31.559480667114258,
+      "startLng": 120.76502227783203
+    },
+    {
+      "id": "35391309",
+      "tileScore": 13,
+      "name": "鸡鸡湖UWC-右拐",
+      "distanceM": 3720,
+      "avgGrade": -0.02688172087073326,
+      "startLat": 31.596485137939453,
+      "startLng": 120.76248931884766
+    },
+    {
+      "id": "35165761",
+      "tileScore": 37,
+      "name": "最后一个冲刺",
+      "distanceM": 1235.800048828125,
+      "avgGrade": -0.016183849424123764,
+      "startLat": 31.558549880981445,
+      "startLng": 120.75225830078125
+    },
+    {
+      "id": "40790554",
+      "tileScore": 605,
+      "name": "昆承湖小圈",
+      "distanceM": 17250.30078125,
+      "avgGrade": -0.012753401882946491,
+      "startLat": 31.5965576171875,
+      "startLng": 120.76250457763672
+    },
+    {
+      "id": "38583039",
+      "tileScore": 20,
+      "name": "阳澄湖返回30秒冲刺",
+      "distanceM": 874.7000122070312,
+      "avgGrade": 0.16005487740039825,
+      "startLat": 31.540687561035156,
+      "startLng": 120.78648376464844
+    }
+  ]
+}

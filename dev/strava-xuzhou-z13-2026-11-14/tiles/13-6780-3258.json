@@ -1,0 +1,20 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-14T06:38:39.570Z",
+  "tile": {
+    "z": 13,
+    "x": 6780,
+    "y": 3258
+  },
+  "segments": [
+    {
+      "id": "35935631",
+      "tileScore": 4,
+      "name": "邳州艾山",
+      "distanceM": 1276.300048828125,
+      "avgGrade": 11.470657348632812,
+      "startLat": 34.50593185424805,
+      "startLng": 117.95443725585938
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-14T06:56:43.266Z",
+  "tile": {
+    "z": 13,
+    "x": 6820,
+    "y": 3318
+  },
+  "segments": [
+    {
+      "id": "38634525",
+      "tileScore": 11,
+      "name": "环岛公路 （港兴路-扬中大桥）【逆时针】",
+      "distanceM": 33684.8984375,
+      "avgGrade": 0.02196829952299595,
+      "startLat": 32.20439147949219,
+      "startLng": 119.87647247314453
+    },
+    {
+      "id": "35090664",
+      "tileScore": 4,
+      "name": "Daqo drag",
+      "distanceM": 5110.89990234375,
+      "avgGrade": -0.02347923070192337,
+      "startLat": 32.27323532104492,
+      "startLng": 119.71598815917969
+    }
+  ]
+}

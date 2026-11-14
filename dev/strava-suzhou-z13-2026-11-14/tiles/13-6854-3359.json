@@ -1,0 +1,38 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-14T07:22:10.285Z",
+  "tile": {
+    "z": 13,
+    "x": 6854,
+    "y": 3359
+  },
+  "segments": [
+    {
+      "id": "13978882",
+      "tileScore": 1,
+      "name": "廊下门头-亭枫公路ITT",
+      "distanceM": 13685.099609375,
+      "avgGrade": 0.020460208877921104,
+      "startLat": 30.78766441345215,
+      "startLng": 121.24444580078125
+    },
+    {
+      "id": "34977040",
+      "tileScore": 1,
+      "name": "N Jinshi Rd towards Hangpu Expwy - Southbound",
+      "distanceM": 10989.2001953125,
+      "avgGrade": 0,
+      "startLat": 30.816713333129883,
+      "startLng": 121.22174835205078
+    },
+    {
+      "id": "38769115",
+      "tileScore": 7,
+      "name": "Pinglang Hwy (Northbound)",
+      "distanceM": 5109,
+      "avgGrade": -0.019573302939534187,
+      "startLat": 30.743623733520508,
+      "startLng": 121.1964340209961
+    }
+  ]
+}

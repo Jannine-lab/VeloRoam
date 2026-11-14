@@ -1,0 +1,20 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-14T06:53:00.376Z",
+  "tile": {
+    "z": 13,
+    "x": 6751,
+    "y": 3247
+  },
+  "segments": [
+    {
+      "id": "40290018",
+      "tileScore": 1,
+      "name": "穿越董集村-八孩妈发生地",
+      "distanceM": 739.4000244140625,
+      "avgGrade": 0,
+      "startLat": 34.91151428222656,
+      "startLng": 116.70064544677734
+    }
+  ]
+}

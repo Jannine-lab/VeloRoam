@@ -1,0 +1,38 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-14T07:07:34.115Z",
+  "tile": {
+    "z": 13,
+    "x": 6834,
+    "y": 3348
+  },
+  "segments": [
+    {
+      "id": "33401353",
+      "tileScore": 69,
+      "name": "进西山二桥",
+      "distanceM": 1694.5,
+      "avgGrade": 0.04721156880259514,
+      "startLat": 31.182552337646484,
+      "startLng": 120.34546661376953
+    },
+    {
+      "id": "33401272",
+      "tileScore": 47,
+      "name": "东西山超级有氧",
+      "distanceM": 137358.703125,
+      "avgGrade": 0.00873624999076128,
+      "startLat": 31.187084197998047,
+      "startLng": 120.4767837524414
+    },
+    {
+      "id": "8516722",
+      "tileScore": 65,
+      "name": "3-bridge to xishan ",
+      "distanceM": 7046.60009765625,
+      "avgGrade": 0.022705987095832825,
+      "startLat": 31.21292495727539,
+      "startLng": 120.36573791503906
+    }
+  ]
+}

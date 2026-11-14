@@ -1,0 +1,20 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-14T07:04:40.094Z",
+  "tile": {
+    "z": 13,
+    "x": 6833,
+    "y": 3293
+  },
+  "segments": [
+    {
+      "id": "38088621",
+      "tileScore": 19,
+      "name": "盐丰快速通道（辅道呦）",
+      "distanceM": 12857.2001953125,
+      "avgGrade": 0.11977724730968475,
+      "startLat": 33.2763786315918,
+      "startLng": 120.24173736572266
+    }
+  ]
+}

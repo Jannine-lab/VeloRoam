@@ -1,0 +1,47 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-14T07:11:24.942Z",
+  "tile": {
+    "z": 13,
+    "x": 6822,
+    "y": 3348
+  },
+  "segments": [
+    {
+      "id": "42198524",
+      "tileScore": 23,
+      "name": "不限速哦",
+      "distanceM": 2999.5,
+      "avgGrade": -1.9036505222320557,
+      "startLat": 31.18914794921875,
+      "startLng": 119.80538177490234
+    },
+    {
+      "id": "34881639",
+      "tileScore": 299,
+      "name": "S360上坝回程上坡",
+      "distanceM": 7540,
+      "avgGrade": 0.9336870312690735,
+      "startLat": 31.1938533782959,
+      "startLng": 119.8943862915039
+    },
+    {
+      "id": "35788238",
+      "tileScore": 164,
+      "name": "悬脚岭climb【宜兴水库start】",
+      "distanceM": 2738.5,
+      "avgGrade": 3.8050026893615723,
+      "startLat": 31.184688568115234,
+      "startLng": 119.79966735839844
+    },
+    {
+      "id": "34881620",
+      "tileScore": 54,
+      "name": "S360上坝去程上坡",
+      "distanceM": 3098.60009765625,
+      "avgGrade": 1.4974504709243774,
+      "startLat": 31.217365264892578,
+      "startLng": 119.80126953125
+    }
+  ]
+}

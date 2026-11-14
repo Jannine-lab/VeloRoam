@@ -1,0 +1,137 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-14T07:08:22.739Z",
+  "tile": {
+    "z": 13,
+    "x": 6840,
+    "y": 3345
+  },
+  "segments": [
+    {
+      "id": "16978673",
+      "tileScore": 3,
+      "name": "guangji north road",
+      "distanceM": 1365,
+      "avgGrade": -0.029304029420018196,
+      "startLat": 31.325651168823242,
+      "startLng": 120.59962463378906
+    },
+    {
+      "id": "22762019",
+      "tileScore": 2,
+      "name": "Ganjiang Rd (Westbound)",
+      "distanceM": 6903.89990234375,
+      "avgGrade": -0.011587653309106827,
+      "startLat": 31.3143367767334,
+      "startLng": 120.64512634277344
+    },
+    {
+      "id": "35747253",
+      "tileScore": 1,
+      "name": "枫桥路 由东向西",
+      "distanceM": 780,
+      "avgGrade": 0.20512819290161133,
+      "startLat": 31.315946578979492,
+      "startLng": 120.59477233886719
+    },
+    {
+      "id": "34368566",
+      "tileScore": 5,
+      "name": "Around Gusu Ancient City--Xiangmen",
+      "distanceM": 16310.099609375,
+      "avgGrade": -0.004904936067759991,
+      "startLat": 31.313356399536133,
+      "startLng": 120.63802337646484
+    },
+    {
+      "id": "8538626",
+      "tileScore": 1,
+      "name": "Nanmen Rd (Eastbound)",
+      "distanceM": 1623.699951171875,
+      "avgGrade": -0.10469914227724075,
+      "startLat": 31.288856506347656,
+      "startLng": 120.62162017822266
+    },
+    {
+      "id": "26671679",
+      "tileScore": 2,
+      "name": "Pingjiang RD》",
+      "distanceM": 1069.5999755859375,
+      "avgGrade": 0.07479431480169296,
+      "startLat": 31.311460494995117,
+      "startLng": 120.63058471679688
+    },
+    {
+      "id": "5280150",
+      "tileScore": 5,
+      "name": "Canal Hopping",
+      "distanceM": 6478.2001953125,
+      "avgGrade": 0.1559075117111206,
+      "startLat": 31.284637451171875,
+      "startLng": 120.5652084350586
+    },
+    {
+      "id": "38550707",
+      "tileScore": 17,
+      "name": "苏州古城穿越",
+      "distanceM": 60706.1015625,
+      "avgGrade": 0.02668595127761364,
+      "startLat": 31.302093505859375,
+      "startLng": 120.60486602783203
+    },
+    {
+      "id": "38515484",
+      "tileScore": 3,
+      "name": "十全街（东-西）",
+      "distanceM": 1990,
+      "avgGrade": -0.09045226126909256,
+      "startLat": 31.30153465270996,
+      "startLng": 120.640625
+    },
+    {
+      "id": "10216594",
+      "tileScore": 1,
+      "name": "Tongjing S Rd x Xujiang River Bridge (Northbound)",
+      "distanceM": 387.6000061035156,
+      "avgGrade": -0.15479876101016998,
+      "startLat": 31.288785934448242,
+      "startLng": 120.59355926513672
+    },
+    {
+      "id": "8534129",
+      "tileScore": 2,
+      "name": "Panmen Rd (Eastbound)",
+      "distanceM": 1156.5,
+      "avgGrade": -0.1902291476726532,
+      "startLat": 31.287864685058594,
+      "startLng": 120.60924530029297
+    },
+    {
+      "id": "10230093",
+      "tileScore": 4,
+      "name": "Panxu Rd x Xujiang River Bridge (Northbound)",
+      "distanceM": 477.20001220703125,
+      "avgGrade": -0.8591784834861755,
+      "startLat": 31.29550552368164,
+      "startLng": 120.60638427734375
+    },
+    {
+      "id": "8346589",
+      "tileScore": 4,
+      "name": "Renmin Bridge on Waicheng River (Northbound)",
+      "distanceM": 291,
+      "avgGrade": 0.27491408586502075,
+      "startLat": 31.288013458251953,
+      "startLng": 120.62146759033203
+    },
+    {
+      "id": "17949559",
+      "tileScore": 1,
+      "name": "zaoshi Street along Xujiang eastbound",
+      "distanceM": 352.6000061035156,
+      "avgGrade": -0.7941009402275085,
+      "startLat": 31.284143447875977,
+      "startLng": 120.58373260498047
+    }
+  ]
+}

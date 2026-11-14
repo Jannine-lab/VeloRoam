@@ -1,0 +1,20 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-14T07:21:39.420Z",
+  "tile": {
+    "z": 13,
+    "x": 6824,
+    "y": 3355
+  },
+  "segments": [
+    {
+      "id": "18804634",
+      "tileScore": 1,
+      "name": "cd-广德祠山岚至湖州吴兴三天门",
+      "distanceM": 57861.8984375,
+      "avgGrade": -0.06982142478227615,
+      "startLat": 30.908700942993164,
+      "startLng": 119.51097106933594
+    }
+  ]
+}

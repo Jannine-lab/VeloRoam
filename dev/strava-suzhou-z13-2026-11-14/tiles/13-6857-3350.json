@@ -1,0 +1,146 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-14T07:21:56.445Z",
+  "tile": {
+    "z": 13,
+    "x": 6857,
+    "y": 3350
+  },
+  "segments": [
+    {
+      "id": "15772069",
+      "tileScore": 24,
+      "name": "神奇的绕圈地点",
+      "distanceM": 4197.7001953125,
+      "avgGrade": -0.023822570219635963,
+      "startLat": 31.086658477783203,
+      "startLng": 121.35391235351562
+    },
+    {
+      "id": "14799842",
+      "tileScore": 10,
+      "name": "Humin Road Speed Freak Tunnel Northbound",
+      "distanceM": 462.29998779296875,
+      "avgGrade": 1.0166558027267456,
+      "startLat": 31.105712890625,
+      "startLng": 121.37754821777344
+    },
+    {
+      "id": "12003151",
+      "tileScore": 2,
+      "name": "Minhang Interchange --> Songjiang East Toll",
+      "distanceM": 11005.900390625,
+      "avgGrade": -0.016354864463210106,
+      "startLat": 31.114397048950195,
+      "startLng": 121.37725067138672
+    },
+    {
+      "id": "14770507",
+      "tileScore": 1,
+      "name": "Yaobei blast",
+      "distanceM": 5466.7998046875,
+      "avgGrade": -0.11341186612844467,
+      "startLat": 31.123064041137695,
+      "startLng": 121.36615753173828
+    },
+    {
+      "id": "23318145",
+      "tileScore": 5,
+      "name": "Zhongchun: Xinsong-Hukun",
+      "distanceM": 1207.300048828125,
+      "avgGrade": -0.016565890982747078,
+      "startLat": 31.10611343383789,
+      "startLng": 121.36357879638672
+    },
+    {
+      "id": "16400965",
+      "tileScore": 71,
+      "name": "Xinzhuang CBD power lap",
+      "distanceM": 1556.199951171875,
+      "avgGrade": 0.012851817533373833,
+      "startLat": 31.130813598632812,
+      "startLng": 121.3587646484375
+    },
+    {
+      "id": "18921938",
+      "tileScore": 7,
+      "name": "Xinsong straight (wb)",
+      "distanceM": 2277.39990234375,
+      "avgGrade": 0,
+      "startLat": 31.10173225402832,
+      "startLng": 121.35303497314453
+    },
+    {
+      "id": "19942490",
+      "tileScore": 5,
+      "name": "laiting lu (northbound)",
+      "distanceM": 4957.5,
+      "avgGrade": 0.03227433189749718,
+      "startLat": 31.12452507019043,
+      "startLng": 121.33883666992188
+    },
+    {
+      "id": "27619482",
+      "tileScore": 8,
+      "name": "Shooting Womp Rats in Beggar's Canyon",
+      "distanceM": 1031.199951171875,
+      "avgGrade": 0.07757952064275742,
+      "startLat": 31.09626007080078,
+      "startLng": 121.36785888671875
+    },
+    {
+      "id": "15772088",
+      "tileScore": 3,
+      "name": "春九路南向",
+      "distanceM": 1408.5,
+      "avgGrade": -0.014199502766132355,
+      "startLat": 31.09941291809082,
+      "startLng": 121.34961700439453
+    },
+    {
+      "id": "11387860",
+      "tileScore": 5,
+      "name": "Changdong Rd (Southbound)",
+      "distanceM": 1783.699951171875,
+      "avgGrade": 0.07288221269845963,
+      "startLat": 31.101585388183594,
+      "startLng": 121.35330200195312
+    },
+    {
+      "id": "7875533",
+      "tileScore": 10,
+      "name": "Xinsong Rd x Railway Underpass (Eastbound)",
+      "distanceM": 302,
+      "avgGrade": 1.1258277893066406,
+      "startLat": 31.103179931640625,
+      "startLng": 121.35920715332031
+    },
+    {
+      "id": "37094671",
+      "tileScore": 7,
+      "name": "Head to Guanghua",
+      "distanceM": 5858.89990234375,
+      "avgGrade": -0.020481660962104797,
+      "startLat": 31.120601654052734,
+      "startLng": 121.35736846923828
+    },
+    {
+      "id": "16317617",
+      "tileScore": 3,
+      "name": "Minhang Triangle Circuit",
+      "distanceM": 20807.099609375,
+      "avgGrade": 0.03171994164586067,
+      "startLat": 31.16872787475586,
+      "startLng": 121.429443359375
+    },
+    {
+      "id": "30390303",
+      "tileScore": 2,
+      "name": "BTP-S3",
+      "distanceM": 7485,
+      "avgGrade": 0.009352036751806736,
+      "startLat": 31.171823501586914,
+      "startLng": 121.33429718017578
+    }
+  ]
+}

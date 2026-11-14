@@ -1,0 +1,29 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-14T07:07:19.794Z",
+  "tile": {
+    "z": 13,
+    "x": 6839,
+    "y": 3336
+  },
+  "segments": [
+    {
+      "id": "38424371",
+      "tileScore": 1,
+      "name": "翁家庄-羊尖",
+      "distanceM": 2924.89990234375,
+      "avgGrade": 0.0478648841381073,
+      "startLat": 31.635610580444336,
+      "startLng": 120.59815979003906
+    },
+    {
+      "id": "22308189",
+      "tileScore": 1,
+      "name": "Xiyu Road Westbound",
+      "distanceM": 15207.7001953125,
+      "avgGrade": -0.006575616076588631,
+      "startLat": 31.637147903442383,
+      "startLng": 120.56355285644531
+    }
+  ]
+}

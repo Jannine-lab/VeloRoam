@@ -1,0 +1,29 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-14T07:20:10.588Z",
+  "tile": {
+    "z": 13,
+    "x": 6856,
+    "y": 3343
+  },
+  "segments": [
+    {
+      "id": "37071843",
+      "tileScore": 12,
+      "name": "马陆有氧绕圈",
+      "distanceM": 4778.2998046875,
+      "avgGrade": 0.008371178060770035,
+      "startLat": 31.380706787109375,
+      "startLng": 121.30104064941406
+    },
+    {
+      "id": "35887774",
+      "tileScore": 12,
+      "name": "浏翔公路northward（宝安公路→宝钱公路）",
+      "distanceM": 11849.900390625,
+      "avgGrade": -0.006751111708581448,
+      "startLat": 31.34627914428711,
+      "startLng": 121.3111572265625
+    }
+  ]
+}

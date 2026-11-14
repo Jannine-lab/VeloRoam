@@ -1,0 +1,20 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-14T06:58:37.471Z",
+  "tile": {
+    "z": 13,
+    "x": 6832,
+    "y": 3321
+  },
+  "segments": [
+    {
+      "id": "39362028",
+      "tileScore": 4,
+      "name": "骑不动呜呜呜",
+      "distanceM": 22952.400390625,
+      "avgGrade": 0.002614105585962534,
+      "startLat": 32.03447341918945,
+      "startLng": 120.27837371826172
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-14T07:02:15.353Z",
+  "tile": {
+    "z": 13,
+    "x": 6820,
+    "y": 3300
+  },
+  "segments": [
+    {
+      "id": "40964003",
+      "tileScore": 1,
+      "name": "乡间柏油路切黄油（外环-s233",
+      "distanceM": 4803.39990234375,
+      "avgGrade": 0.00832743477076292,
+      "startLat": 32.954566955566406,
+      "startLng": 119.78327178955078
+    }
+  ]
+}

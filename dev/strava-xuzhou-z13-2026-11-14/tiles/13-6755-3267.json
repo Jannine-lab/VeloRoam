@@ -1,0 +1,20 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-14T06:30:51.678Z",
+  "tile": {
+    "z": 13,
+    "x": 6755,
+    "y": 3267
+  },
+  "segments": [
+    {
+      "id": "39771375",
+      "tileScore": 138,
+      "name": "灵山电视塔爬坡",
+      "distanceM": 2065.300048828125,
+      "avgGrade": 7.795477867126465,
+      "startLat": 34.183326721191406,
+      "startLng": 116.90145111083984
+    }
+  ]
+}

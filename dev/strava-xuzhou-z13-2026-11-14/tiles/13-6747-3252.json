@@ -1,0 +1,20 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-14T06:42:55.048Z",
+  "tile": {
+    "z": 13,
+    "x": 6747,
+    "y": 3252
+  },
+  "segments": [
+    {
+      "id": "33973212",
+      "tileScore": 6,
+      "name": "创业之路返程",
+      "distanceM": 15021.099609375,
+      "avgGrade": -0.021303366869688034,
+      "startLat": 34.72374725341797,
+      "startLng": 116.51441955566406
+    }
+  ]
+}

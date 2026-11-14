@@ -1,0 +1,20 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-14T07:08:26.703Z",
+  "tile": {
+    "z": 13,
+    "x": 6828,
+    "y": 3333
+  },
+  "segments": [
+    {
+      "id": "37435164",
+      "tileScore": 10,
+      "name": "龙吟大桥 W-E",
+      "distanceM": 1042.300048828125,
+      "avgGrade": 1.247241735458374,
+      "startLat": 31.735443115234375,
+      "startLng": 120.08243560791016
+    }
+  ]
+}

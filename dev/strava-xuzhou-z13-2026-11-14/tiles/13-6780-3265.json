@@ -1,0 +1,20 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-14T06:37:06.225Z",
+  "tile": {
+    "z": 13,
+    "x": 6780,
+    "y": 3265
+  },
+  "segments": [
+    {
+      "id": "37481577",
+      "tileScore": 6,
+      "name": "龙化大桥南至北",
+      "distanceM": 3021.10009765625,
+      "avgGrade": 0,
+      "startLat": 34.24102020263672,
+      "startLng": 117.9916763305664
+    }
+  ]
+}

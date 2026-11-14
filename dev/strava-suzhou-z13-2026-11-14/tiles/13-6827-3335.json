@@ -1,0 +1,38 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-14T07:08:18.730Z",
+  "tile": {
+    "z": 13,
+    "x": 6827,
+    "y": 3335
+  },
+  "segments": [
+    {
+      "id": "35084926",
+      "tileScore": 7,
+      "name": "中吴大道（232省道）嬉戏路",
+      "distanceM": 22293.400390625,
+      "avgGrade": -0.000897126505151391,
+      "startLat": 31.708974838256836,
+      "startLng": 120.0672378540039
+    },
+    {
+      "id": "37316183",
+      "tileScore": 3,
+      "name": "Towards Luoyang along the canal ",
+      "distanceM": 7316.7998046875,
+      "avgGrade": 0.060135580599308014,
+      "startLat": 31.664146423339844,
+      "startLng": 120.00008392333984
+    },
+    {
+      "id": "30066980",
+      "tileScore": 4,
+      "name": "G312: WuXi -> ChangZhou",
+      "distanceM": 21382.19921875,
+      "avgGrade": 0.022448578849434853,
+      "startLat": 31.631433486938477,
+      "startLng": 120.19734191894531
+    }
+  ]
+}

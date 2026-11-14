@@ -1,0 +1,20 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-14T07:08:24.727Z",
+  "tile": {
+    "z": 13,
+    "x": 6833,
+    "y": 3348
+  },
+  "segments": [
+    {
+      "id": "35537416",
+      "tileScore": 6,
+      "name": "阴山岛 001",
+      "distanceM": 1903.5999755859375,
+      "avgGrade": 1.4814037084579468,
+      "startLat": 31.173437118530273,
+      "startLng": 120.2908935546875
+    }
+  ]
+}

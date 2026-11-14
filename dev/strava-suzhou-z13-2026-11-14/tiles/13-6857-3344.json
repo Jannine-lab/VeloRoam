@@ -1,0 +1,164 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-14T07:21:07.329Z",
+  "tile": {
+    "z": 13,
+    "x": 6857,
+    "y": 3344
+  },
+  "segments": [
+    {
+      "id": "13408192",
+      "tileScore": 10,
+      "name": "Jinqiu Bridge",
+      "distanceM": 625,
+      "avgGrade": 0.06399999558925629,
+      "startLat": 31.318429946899414,
+      "startLng": 121.35658264160156
+    },
+    {
+      "id": "35198125",
+      "tileScore": 5,
+      "name": "潘广路宝安公路绕圈",
+      "distanceM": 3827.10009765625,
+      "avgGrade": -0.005225888919085264,
+      "startLat": 31.363466262817383,
+      "startLng": 121.35306549072266
+    },
+    {
+      "id": "36955910",
+      "tileScore": 15,
+      "name": "Schopenhauer bridge",
+      "distanceM": 581,
+      "avgGrade": -0.17211703956127167,
+      "startLat": 31.334346771240234,
+      "startLng": 121.37403869628906
+    },
+    {
+      "id": "29885569",
+      "tileScore": 8,
+      "name": "SBD-005",
+      "distanceM": 1812.5,
+      "avgGrade": 0.07724137604236603,
+      "startLat": 31.337923049926758,
+      "startLng": 121.36068725585938
+    },
+    {
+      "id": "29885557",
+      "tileScore": 1,
+      "name": "SBD-003",
+      "distanceM": 2436.699951171875,
+      "avgGrade": -0.06566257774829865,
+      "startLat": 31.345367431640625,
+      "startLng": 121.3835220336914
+    },
+    {
+      "id": "34678121",
+      "tileScore": 14,
+      "name": "陈广路northward（锦秋路→宝安公路）",
+      "distanceM": 3421.199951171875,
+      "avgGrade": 0.029229508712887764,
+      "startLat": 31.320510864257812,
+      "startLng": 121.35028839111328
+    },
+    {
+      "id": "37970316",
+      "tileScore": 4,
+      "name": "Wewbei Rd Sprint - Watch out for jaywalkers!",
+      "distanceM": 916.2000122070312,
+      "avgGrade": 0.2292075902223587,
+      "startLat": 31.326570510864258,
+      "startLng": 121.3299560546875
+    },
+    {
+      "id": "37118809",
+      "tileScore": 4,
+      "name": "Cross Gucun Park",
+      "distanceM": 2407.699951171875,
+      "avgGrade": 0.004153341520577669,
+      "startLat": 31.327560424804688,
+      "startLng": 121.37049102783203
+    },
+    {
+      "id": "36150621",
+      "tileScore": 2,
+      "name": "Hidden Path - S20@Gucun Park",
+      "distanceM": 849.0999755859375,
+      "avgGrade": -0.09421740472316742,
+      "startLat": 31.33690071105957,
+      "startLng": 121.36241149902344
+    },
+    {
+      "id": "36812118",
+      "tileScore": 8,
+      "name": "Tour de Dachang Airport",
+      "distanceM": 20435.400390625,
+      "avgGrade": -0.01565910130739212,
+      "startLat": 31.305885314941406,
+      "startLng": 121.42900085449219
+    },
+    {
+      "id": "32517364",
+      "tileScore": 1,
+      "name": "Shangda-Qilianshan-Guchen-Hutai-Shangda Rd Lap",
+      "distanceM": 10728.2998046875,
+      "avgGrade": -0.009321141056716442,
+      "startLat": 31.31358528137207,
+      "startLng": 121.39315795898438
+    },
+    {
+      "id": "34479002",
+      "tileScore": 6,
+      "name": "Gucun Park Lap",
+      "distanceM": 16534.80078125,
+      "avgGrade": -0.006047850474715233,
+      "startLat": 31.329320907592773,
+      "startLng": 121.37684631347656
+    },
+    {
+      "id": "29792631",
+      "tileScore": 2,
+      "name": "GuChenRoad-QilianshanRoad To HutaiRoad",
+      "distanceM": 2086.10009765625,
+      "avgGrade": -0.06711088120937347,
+      "startLat": 31.334871292114258,
+      "startLng": 121.37471008300781
+    },
+    {
+      "id": "34678108",
+      "tileScore": 5,
+      "name": "镜泊湖路eastward（陆翔路→沪太路）",
+      "distanceM": 1012.5,
+      "avgGrade": 0,
+      "startLat": 31.346229553222656,
+      "startLng": 121.36898803710938
+    },
+    {
+      "id": "35728421",
+      "tileScore": 7,
+      "name": "LJ在这条路上称王称霸",
+      "distanceM": 9878.599609375,
+      "avgGrade": -0.02631951868534088,
+      "startLat": 31.279767990112305,
+      "startLng": 121.37374877929688
+    },
+    {
+      "id": "38133331",
+      "tileScore": 8,
+      "name": "🐸美秀路桥下走-->镜泊湖路",
+      "distanceM": 5008.5,
+      "avgGrade": -0.07986422628164291,
+      "startLat": 31.38389015197754,
+      "startLng": 121.34586334228516
+    },
+    {
+      "id": "39928513",
+      "tileScore": 22,
+      "name": "沪太路 无人区",
+      "distanceM": 2506.89990234375,
+      "avgGrade": 0.03988990560173988,
+      "startLat": 31.347726821899414,
+      "startLng": 121.39060974121094
+    }
+  ]
+}

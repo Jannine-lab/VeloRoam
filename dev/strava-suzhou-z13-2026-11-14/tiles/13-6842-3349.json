@@ -1,0 +1,20 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-14T07:11:00.040Z",
+  "tile": {
+    "z": 13,
+    "x": 6842,
+    "y": 3349
+  },
+  "segments": [
+    {
+      "id": "30035982",
+      "tileScore": 1,
+      "name": "North Sprint to nowhere",
+      "distanceM": 789,
+      "avgGrade": -0.1013941690325737,
+      "startLat": 31.164966583251953,
+      "startLng": 120.71746826171875
+    }
+  ]
+}

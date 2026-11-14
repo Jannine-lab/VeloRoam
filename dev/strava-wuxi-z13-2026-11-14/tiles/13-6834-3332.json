@@ -1,0 +1,20 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-14T07:07:53.241Z",
+  "tile": {
+    "z": 13,
+    "x": 6834,
+    "y": 3332
+  },
+  "segments": [
+    {
+      "id": "42235146",
+      "tileScore": 13,
+      "name": "三大道",
+      "distanceM": 45566.6015625,
+      "avgGrade": -0.001316753914579749,
+      "startLat": 31.882034301757812,
+      "startLng": 120.3324203491211
+    }
+  ]
+}

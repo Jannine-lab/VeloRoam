@@ -1,0 +1,56 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-14T07:08:26.703Z",
+  "tile": {
+    "z": 13,
+    "x": 6828,
+    "y": 3332
+  },
+  "segments": [
+    {
+      "id": "36797791",
+      "tileScore": 4,
+      "name": "潞横路冲刺",
+      "distanceM": 4393.2001953125,
+      "avgGrade": -0.009104980155825615,
+      "startLat": 31.767410278320312,
+      "startLng": 120.08964538574219
+    },
+    {
+      "id": "32384749",
+      "tileScore": 4,
+      "name": "青洋北路—芙蓉大道—戚月路—潞横路",
+      "distanceM": 33482.5,
+      "avgGrade": -0.010154558345675468,
+      "startLat": 31.762529373168945,
+      "startLng": 120.03639221191406
+    },
+    {
+      "id": "29878908",
+      "tileScore": 4,
+      "name": "huayuan bridge w-e",
+      "distanceM": 623.4000244140625,
+      "avgGrade": 1.8607635498046875,
+      "startLat": 31.78986358642578,
+      "startLng": 120.06758880615234
+    },
+    {
+      "id": "36751426",
+      "tileScore": 4,
+      "name": "寻风之旅-戚月线",
+      "distanceM": 3075.800048828125,
+      "avgGrade": 0.039014238864183426,
+      "startLat": 31.789264678955078,
+      "startLng": 120.12553405761719
+    },
+    {
+      "id": "947654",
+      "tileScore": 4,
+      "name": "HengShanQiao First Part of Climb",
+      "distanceM": 766.5499877929688,
+      "avgGrade": 6.15705680847168,
+      "startLat": 31.770423889160156,
+      "startLng": 120.09939575195312
+    }
+  ]
+}

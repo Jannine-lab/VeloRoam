@@ -1,0 +1,38 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-14T07:09:55.095Z",
+  "tile": {
+    "z": 13,
+    "x": 6824,
+    "y": 3346
+  },
+  "segments": [
+    {
+      "id": "40564534",
+      "tileScore": 34,
+      "name": "环太湖",
+      "distanceM": 151856.5,
+      "avgGrade": 0.0009219230269081891,
+      "startLat": 31.187686920166016,
+      "startLng": 120.47770690917969
+    },
+    {
+      "id": "38279531",
+      "tileScore": 14,
+      "name": "太湖堤坝_南段",
+      "distanceM": 11537.7998046875,
+      "avgGrade": 0.04160238429903984,
+      "startLat": 31.310375213623047,
+      "startLng": 119.93177795410156
+    },
+    {
+      "id": "17302841",
+      "tileScore": 24,
+      "name": "S230 segment northbound",
+      "distanceM": 13905.5,
+      "avgGrade": 0.012944517657160759,
+      "startLat": 31.243549346923828,
+      "startLng": 119.88520050048828
+    }
+  ]
+}

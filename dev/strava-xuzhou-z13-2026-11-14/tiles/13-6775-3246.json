@@ -1,0 +1,20 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-14T06:44:09.150Z",
+  "tile": {
+    "z": 13,
+    "x": 6775,
+    "y": 3246
+  },
+  "segments": [
+    {
+      "id": "40515937",
+      "tileScore": 4,
+      "name": "神山爬坡",
+      "distanceM": 1540.699951171875,
+      "avgGrade": 13.889791488647461,
+      "startLat": 34.925716400146484,
+      "startLng": 117.75910949707031
+    }
+  ]
+}

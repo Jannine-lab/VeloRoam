@@ -1,0 +1,101 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-14T07:09:17.375Z",
+  "tile": {
+    "z": 13,
+    "x": 6841,
+    "y": 3346
+  },
+  "segments": [
+    {
+      "id": "18368334",
+      "tileScore": 3,
+      "name": "Taihu East Road - Westbound",
+      "distanceM": 6430.60009765625,
+      "avgGrade": -0.12129505723714828,
+      "startLat": 31.266212463378906,
+      "startLng": 120.65756225585938
+    },
+    {
+      "id": "8352243",
+      "tileScore": 2,
+      "name": "Taihu East Rd x Yingchun Rd Underpass (Eastbound)",
+      "distanceM": 533.2999877929688,
+      "avgGrade": -0.1500093787908554,
+      "startLat": 31.264509201049805,
+      "startLng": 120.63333892822266
+    },
+    {
+      "id": "11586597",
+      "tileScore": 1,
+      "name": "Tonghu Rd (Eastbound)",
+      "distanceM": 659.0999755859375,
+      "avgGrade": -0.19723865389823914,
+      "startLat": 31.242225646972656,
+      "startLng": 120.6690673828125
+    },
+    {
+      "id": "11580120",
+      "tileScore": 4,
+      "name": "Yinshan Bridge (Westbound)",
+      "distanceM": 326.8999938964844,
+      "avgGrade": -0.45885592699050903,
+      "startLat": 31.241382598876953,
+      "startLng": 120.65567779541016
+    },
+    {
+      "id": "34541138",
+      "tileScore": 1,
+      "name": "Grand Canal SPIN north",
+      "distanceM": 649.7000122070312,
+      "avgGrade": 1.6623057126998901,
+      "startLat": 31.25265121459961,
+      "startLng": 120.6534194946289
+    },
+    {
+      "id": "11580088",
+      "tileScore": 8,
+      "name": "Guo Xiang Bridge (Southbound)",
+      "distanceM": 537,
+      "avgGrade": -0.3165735602378845,
+      "startLat": 31.26418685913086,
+      "startLng": 120.66983032226562
+    },
+    {
+      "id": "33841801",
+      "tileScore": 4,
+      "name": "枫泾路白云街",
+      "distanceM": 3326.89990234375,
+      "avgGrade": 0.08716823905706406,
+      "startLat": 31.23360252380371,
+      "startLng": 120.6330795288086
+    },
+    {
+      "id": "13071154",
+      "tileScore": 1,
+      "name": "B7B",
+      "distanceM": 5454,
+      "avgGrade": -0.0036670335102826357,
+      "startLat": 31.289854049682617,
+      "startLng": 120.64149475097656
+    },
+    {
+      "id": "26222979",
+      "tileScore": 2,
+      "name": "Emer's Final Dash",
+      "distanceM": 3716.800048828125,
+      "avgGrade": -0.010761946439743042,
+      "startLat": 31.26740837097168,
+      "startLng": 120.6651611328125
+    },
+    {
+      "id": "40484735",
+      "tileScore": 3,
+      "name": "苏嘉杭跨线桥",
+      "distanceM": 974.4000244140625,
+      "avgGrade": 0.16420361399650574,
+      "startLat": 31.266658782958984,
+      "startLng": 120.66475677490234
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-14T07:00:01.445Z",
+  "tile": {
+    "z": 13,
+    "x": 6836,
+    "y": 3317
+  },
+  "segments": [
+    {
+      "id": "39263524",
+      "tileScore": 5,
+      "name": "搬经-G204(如泰线)",
+      "distanceM": 7954.10009765625,
+      "avgGrade": -0.005028853192925453,
+      "startLat": 32.315067291259766,
+      "startLng": 120.41943359375
+    }
+  ]
+}

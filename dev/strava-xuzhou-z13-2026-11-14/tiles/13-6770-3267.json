@@ -1,0 +1,20 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-14T06:29:57.348Z",
+  "tile": {
+    "z": 13,
+    "x": 6770,
+    "y": 3267
+  },
+  "segments": [
+    {
+      "id": "38702805",
+      "tileScore": 13,
+      "name": "吕梁环线",
+      "distanceM": 18018.5,
+      "avgGrade": -0.027749257162213326,
+      "startLat": 34.167816162109375,
+      "startLng": 117.4718017578125
+    }
+  ]
+}

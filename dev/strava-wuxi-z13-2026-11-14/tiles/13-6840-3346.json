@@ -1,0 +1,101 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-14T07:09:17.375Z",
+  "tile": {
+    "z": 13,
+    "x": 6840,
+    "y": 3346
+  },
+  "segments": [
+    {
+      "id": "20535844",
+      "tileScore": 1,
+      "name": "宝袋西路",
+      "distanceM": 13334.7001953125,
+      "avgGrade": -0.014998462982475758,
+      "startLat": 31.2228946685791,
+      "startLng": 120.48023986816406
+    },
+    {
+      "id": "34898499",
+      "tileScore": 48,
+      "name": "榨干你的体能冲一把",
+      "distanceM": 1464.800048828125,
+      "avgGrade": -0.08192244917154312,
+      "startLat": 31.244827270507812,
+      "startLng": 120.5833740234375
+    },
+    {
+      "id": "18368334",
+      "tileScore": 3,
+      "name": "Taihu East Road - Westbound",
+      "distanceM": 6430.60009765625,
+      "avgGrade": -0.12129505723714828,
+      "startLat": 31.266212463378906,
+      "startLng": 120.65756225585938
+    },
+    {
+      "id": "29780417",
+      "tileScore": 2,
+      "name": "Suli RD Bridge (Northbound)",
+      "distanceM": 677.7999877929688,
+      "avgGrade": 0.1180289164185524,
+      "startLat": 31.258512496948242,
+      "startLng": 120.61101531982422
+    },
+    {
+      "id": "35390795",
+      "tileScore": 23,
+      "name": "石湖北段",
+      "distanceM": 2015.5,
+      "avgGrade": -0.019846191629767418,
+      "startLat": 31.258991241455078,
+      "startLng": 120.58162689208984
+    },
+    {
+      "id": "17444221",
+      "tileScore": 4,
+      "name": "S Ring Rd x Jinghang Canal Bridge (Westbound)",
+      "distanceM": 759.5,
+      "avgGrade": 0.2369980365037918,
+      "startLat": 31.274660110473633,
+      "startLng": 120.58631134033203
+    },
+    {
+      "id": "34733917",
+      "tileScore": 50,
+      "name": "环石湖东门起点",
+      "distanceM": 11804.2001953125,
+      "avgGrade": -0.02372037060558796,
+      "startLat": 31.254789352416992,
+      "startLng": 120.59906005859375
+    },
+    {
+      "id": "25518542",
+      "tileScore": 7,
+      "name": "passing Stone Lake (Northbound)",
+      "distanceM": 8369.7001953125,
+      "avgGrade": 0.09558287262916565,
+      "startLat": 31.187639236450195,
+      "startLng": 120.60665130615234
+    },
+    {
+      "id": "8534110",
+      "tileScore": 2,
+      "name": "You Lian Canal Bridge (Northbound)",
+      "distanceM": 470.1000061035156,
+      "avgGrade": 0.3828972578048706,
+      "startLat": 31.259254455566406,
+      "startLng": 120.60025024414062
+    },
+    {
+      "id": "32206794",
+      "tileScore": 52,
+      "name": "友新 RUSH",
+      "distanceM": 2659,
+      "avgGrade": 0.026325685903429985,
+      "startLat": 31.254610061645508,
+      "startLng": 120.5992202758789
+    }
+  ]
+}

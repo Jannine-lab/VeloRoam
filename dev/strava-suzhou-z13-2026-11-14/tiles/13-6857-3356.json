@@ -1,0 +1,29 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-14T07:23:15.212Z",
+  "tile": {
+    "z": 13,
+    "x": 6857,
+    "y": 3356
+  },
+  "segments": [
+    {
+      "id": "20963433",
+      "tileScore": 20,
+      "name": "Jinshan Seawall Dash",
+      "distanceM": 25176.30078125,
+      "avgGrade": -0.00397198973223567,
+      "startLat": 30.948577880859375,
+      "startLng": 121.31785583496094
+    },
+    {
+      "id": "35095289",
+      "tileScore": 2,
+      "name": "大亭公路（南亭公路-亭卫公路）",
+      "distanceM": 2171.60009765625,
+      "avgGrade": -0.04604899883270264,
+      "startLat": 30.893997192382812,
+      "startLng": 121.34678649902344
+    }
+  ]
+}

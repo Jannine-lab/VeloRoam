@@ -1,0 +1,20 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-14T06:43:20.692Z",
+  "tile": {
+    "z": 13,
+    "x": 6744,
+    "y": 3275
+  },
+  "segments": [
+    {
+      "id": "36163970",
+      "tileScore": 2,
+      "name": "日月湖环湖南段",
+      "distanceM": 5848.10009765625,
+      "avgGrade": 0.05129871517419815,
+      "startLat": 33.92952346801758,
+      "startLng": 116.38552856445312
+    }
+  ]
+}

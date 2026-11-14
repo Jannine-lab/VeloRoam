@@ -1,0 +1,38 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-14T07:22:23.575Z",
+  "tile": {
+    "z": 13,
+    "x": 6858,
+    "y": 3337
+  },
+  "segments": [
+    {
+      "id": "42365089",
+      "tileScore": 72,
+      "name": "2026 TREK100精英组",
+      "distanceM": 94728,
+      "avgGrade": -0.000633392424788326,
+      "startLat": 31.6234073638916,
+      "startLng": 121.42135620117188
+    },
+    {
+      "id": "36359274",
+      "tileScore": 3,
+      "name": "the ferry",
+      "distanceM": 29391.400390625,
+      "avgGrade": -0.0017011777963489294,
+      "startLat": 31.469480514526367,
+      "startLng": 121.41571044921875
+    },
+    {
+      "id": "36318095",
+      "tileScore": 6,
+      "name": "宝南线高速轮渡 Baonan Highspeed Ferry",
+      "distanceM": 26661.30078125,
+      "avgGrade": 0.010502113960683346,
+      "startLat": 31.418088912963867,
+      "startLng": 121.49427795410156
+    }
+  ]
+}

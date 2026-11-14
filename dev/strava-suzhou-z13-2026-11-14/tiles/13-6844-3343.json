@@ -1,0 +1,173 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-14T07:14:59.904Z",
+  "tile": {
+    "z": 13,
+    "x": 6844,
+    "y": 3343
+  },
+  "segments": [
+    {
+      "id": "38905449",
+      "tileScore": 215,
+      "name": "冲向武则天",
+      "distanceM": 1071.5999755859375,
+      "avgGrade": 0.0186636820435524,
+      "startLat": 31.378522872924805,
+      "startLng": 120.80423736572266
+    },
+    {
+      "id": "11431073",
+      "tileScore": 6,
+      "name": "Gexiang St x Railway Underpass (Southbound)",
+      "distanceM": 309.29998779296875,
+      "avgGrade": -0.09699321538209915,
+      "startLat": 31.361501693725586,
+      "startLng": 120.77449035644531
+    },
+    {
+      "id": "11405359",
+      "tileScore": 2,
+      "name": "Fengting Rd (Westbound)",
+      "distanceM": 11067.2001953125,
+      "avgGrade": -0.005421425681561232,
+      "startLat": 31.367603302001953,
+      "startLng": 120.79261016845703
+    },
+    {
+      "id": "40786233",
+      "tileScore": 16,
+      "name": "？",
+      "distanceM": 6317.39990234375,
+      "avgGrade": 0.01899515651166439,
+      "startLat": 31.380207061767578,
+      "startLng": 120.79075622558594
+    },
+    {
+      "id": "41798036",
+      "tileScore": 8,
+      "name": "水泽路集合啦",
+      "distanceM": 6794,
+      "avgGrade": 0,
+      "startLat": 31.37588119506836,
+      "startLng": 120.7916259765625
+    },
+    {
+      "id": "3658912",
+      "tileScore": 1,
+      "name": "Huning Express Way Services entrance to Bridge of Pain",
+      "distanceM": 3028,
+      "avgGrade": 0.07926023751497269,
+      "startLat": 31.374435424804688,
+      "startLng": 120.77352142333984
+    },
+    {
+      "id": "35187916",
+      "tileScore": 234,
+      "name": "半岛团练要迟到了，你咋还不着急？",
+      "distanceM": 5948.2001953125,
+      "avgGrade": -0.08069667965173721,
+      "startLat": 31.388105392456055,
+      "startLng": 120.78768920898438
+    },
+    {
+      "id": "38745052",
+      "tileScore": 218,
+      "name": "M-circle of YCH(B2Bridge 50K)",
+      "distanceM": 50491.30078125,
+      "avgGrade": 0.0023766469676047564,
+      "startLat": 31.388383865356445,
+      "startLng": 120.71324157714844
+    },
+    {
+      "id": "38829270",
+      "tileScore": 7,
+      "name": "唯胜路N to S",
+      "distanceM": 8732.400390625,
+      "avgGrade": 0.025193532928824425,
+      "startLat": 31.375648498535156,
+      "startLng": 120.79234313964844
+    },
+    {
+      "id": "38237531",
+      "tileScore": 2,
+      "name": "徐雯路",
+      "distanceM": 3206.5,
+      "avgGrade": -0.05613597482442856,
+      "startLat": 31.388193130493164,
+      "startLng": 120.78754425048828
+    },
+    {
+      "id": "11430967",
+      "tileScore": 9,
+      "name": "Weisheng Rd x Railway Underpass (Northbound)",
+      "distanceM": 322.70001220703125,
+      "avgGrade": -0.650759220123291,
+      "startLat": 31.36434555053711,
+      "startLng": 120.79447174072266
+    },
+    {
+      "id": "3500702",
+      "tileScore": 180,
+      "name": "TWo Bridges Pursuit",
+      "distanceM": 1449.41064453125,
+      "avgGrade": 0,
+      "startLat": 31.38759422302246,
+      "startLng": 120.78787231445312
+    },
+    {
+      "id": "3828998",
+      "tileScore": 3,
+      "name": "down the lake on the east side",
+      "distanceM": 17166.642578125,
+      "avgGrade": -0.0005825265543535352,
+      "startLat": 31.491178512573242,
+      "startLng": 120.84818267822266
+    },
+    {
+      "id": "11430989",
+      "tileScore": 2,
+      "name": "Weisheng Rd x Loujiang River Bridge (Southbound)",
+      "distanceM": 482.6000061035156,
+      "avgGrade": -0.47658514976501465,
+      "startLat": 31.35934066772461,
+      "startLng": 120.79580688476562
+    },
+    {
+      "id": "15578554",
+      "tileScore": 6,
+      "name": "TREK South Loop w/o cross roads",
+      "distanceM": 2352.89990234375,
+      "avgGrade": 0.05525096878409386,
+      "startLat": 31.375656127929688,
+      "startLng": 120.78479766845703
+    },
+    {
+      "id": "12141566",
+      "tileScore": 10,
+      "name": "11K Yangchenghu Ave (Westbound)",
+      "distanceM": 11387.7998046875,
+      "avgGrade": 0.017562653869390488,
+      "startLat": 31.38125228881836,
+      "startLng": 120.83155822753906
+    },
+    {
+      "id": "21854679",
+      "tileScore": 121,
+      "name": "Buddha Bridge #1 (Northbound)",
+      "distanceM": 306.8999938964844,
+      "avgGrade": 0.06516780704259872,
+      "startLat": 31.38675308227539,
+      "startLng": 120.78817749023438
+    },
+    {
+      "id": "11430931",
+      "tileScore": 2,
+      "name": "Yilingshan St x Railway Underpass (Southbound)",
+      "distanceM": 306.1000061035156,
+      "avgGrade": 0.4246978163719177,
+      "startLat": 31.368480682373047,
+      "startLng": 120.80001068115234
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-14T07:14:56.330Z",
+  "tile": {
+    "z": 13,
+    "x": 6844,
+    "y": 3347
+  },
+  "segments": [
+    {
+      "id": "40627835",
+      "tileScore": 7,
+      "name": "澄湖itt",
+      "distanceM": 2280.89990234375,
+      "avgGrade": -0.043842341750860214,
+      "startLat": 31.231327056884766,
+      "startLng": 120.79501342773438
+    },
+    {
+      "id": "17884096",
+      "tileScore": 9,
+      "name": "Jinshan Rd (Northbound)",
+      "distanceM": 4544.39990234375,
+      "avgGrade": -0.035208169370889664,
+      "startLat": 31.207523345947266,
+      "startLng": 120.78133392333984
+    },
+    {
+      "id": "13151069",
+      "tileScore": 2,
+      "name": "158 Country Rd (Southbound)",
+      "distanceM": 2952.60009765625,
+      "avgGrade": -0.013547382317483425,
+      "startLat": 31.230670928955078,
+      "startLng": 120.76871490478516
+    },
+    {
+      "id": "41163087",
+      "tileScore": 8,
+      "name": "苏同黎右转江兴东路",
+      "distanceM": 12098.900390625,
+      "avgGrade": 0.0016530428547412157,
+      "startLat": 31.242969512939453,
+      "startLng": 120.7718505859375
+    }
+  ]
+}

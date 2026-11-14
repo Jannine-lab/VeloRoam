@@ -1,0 +1,128 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-14T07:15:16.567Z",
+  "tile": {
+    "z": 13,
+    "x": 6845,
+    "y": 3348
+  },
+  "segments": [
+    {
+      "id": "41696620",
+      "tileScore": 6,
+      "name": "小狗狗GRAVEL",
+      "distanceM": 680.9000244140625,
+      "avgGrade": 0.05874577909708023,
+      "startLat": 31.17328643798828,
+      "startLng": 120.81143951416016
+    },
+    {
+      "id": "39024573",
+      "tileScore": 1,
+      "name": "LongTin Rd",
+      "distanceM": 1272.199951171875,
+      "avgGrade": 0,
+      "startLat": 31.17422103881836,
+      "startLng": 120.84988403320312
+    },
+    {
+      "id": "21280174",
+      "tileScore": 2,
+      "name": "802 Country Rd + Xinzhe Rd",
+      "distanceM": 2443,
+      "avgGrade": -0.01637331210076809,
+      "startLat": 31.172142028808594,
+      "startLng": 120.83269500732422
+    },
+    {
+      "id": "41451612",
+      "tileScore": 2,
+      "name": "Dead Road",
+      "distanceM": 1335.800048828125,
+      "avgGrade": 0.014972301200032234,
+      "startLat": 31.189821243286133,
+      "startLng": 120.8346939086914
+    },
+    {
+      "id": "39024551",
+      "tileScore": 7,
+      "name": "林荫小道",
+      "distanceM": 1338.9000244140625,
+      "avgGrade": 0.014937635511159897,
+      "startLat": 31.18110466003418,
+      "startLng": 120.83060455322266
+    },
+    {
+      "id": "22249295",
+      "tileScore": 2,
+      "name": "Mingjingdan Shoreline Path (CCW)",
+      "distanceM": 10996.2998046875,
+      "avgGrade": 0.04728863388299942,
+      "startLat": 31.166597366333008,
+      "startLng": 120.87250518798828
+    },
+    {
+      "id": "22249275",
+      "tileScore": 5,
+      "name": "Westside Mingjingdan Shoreline Path (Southbound)",
+      "distanceM": 4439.5,
+      "avgGrade": 0.03604009374976158,
+      "startLat": 31.18701171875,
+      "startLng": 120.8481674194336
+    },
+    {
+      "id": "32737264",
+      "tileScore": 4,
+      "name": "Lakeside from underpass to crossroads.",
+      "distanceM": 2394.300048828125,
+      "avgGrade": 0.15035709738731384,
+      "startLat": 31.20564079284668,
+      "startLng": 120.84504699707031
+    },
+    {
+      "id": "41196946",
+      "tileScore": 4,
+      "name": "澄湖明镜荡交界",
+      "distanceM": 694.0999755859375,
+      "avgGrade": 0.057628583163022995,
+      "startLat": 31.190017700195312,
+      "startLng": 120.8402328491211
+    },
+    {
+      "id": "12962823",
+      "tileScore": 5,
+      "name": "Huanzhen West Rd to S5 Underpass (Northbound)",
+      "distanceM": 1897.5,
+      "avgGrade": -0.021080369129776955,
+      "startLat": 31.153228759765625,
+      "startLng": 120.82828521728516
+    },
+    {
+      "id": "14107776",
+      "tileScore": 4,
+      "name": "Chenghu Shoreline Rd (Southbound)",
+      "distanceM": 5559.10009765625,
+      "avgGrade": 0.0035977044608443975,
+      "startLat": 31.209861755371094,
+      "startLng": 120.87651824951172
+    },
+    {
+      "id": "40405020",
+      "tileScore": 9,
+      "name": "澄湖训练",
+      "distanceM": 15113,
+      "avgGrade": -0.007940184324979782,
+      "startLat": 31.244274139404297,
+      "startLng": 120.86615753173828
+    },
+    {
+      "id": "38546401",
+      "tileScore": 5,
+      "name": "HengGang RD 绿道",
+      "distanceM": 2104.199951171875,
+      "avgGrade": -0.014257200062274933,
+      "startLat": 31.16721534729004,
+      "startLng": 120.82980346679688
+    }
+  ]
+}

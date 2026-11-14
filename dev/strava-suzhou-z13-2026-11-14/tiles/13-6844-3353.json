@@ -1,0 +1,92 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-14T07:15:46.083Z",
+  "tile": {
+    "z": 13,
+    "x": 6844,
+    "y": 3353
+  },
+  "segments": [
+    {
+      "id": "22068484",
+      "tileScore": 8,
+      "name": "G318 上海-湖州",
+      "distanceM": 133169.203125,
+      "avgGrade": -0.002553143072873354,
+      "startLat": 31.17106056213379,
+      "startLng": 121.32220458984375
+    },
+    {
+      "id": "34600438",
+      "tileScore": 5,
+      "name": "陶庄环线 ",
+      "distanceM": 12921,
+      "avgGrade": -0.005417537409812212,
+      "startLat": 30.970102310180664,
+      "startLng": 120.80653381347656
+    },
+    {
+      "id": "35469122",
+      "tileScore": 4,
+      "name": "从周庄镇、湖青坪到运河 ",
+      "distanceM": 34445.80078125,
+      "avgGrade": -0.01799929141998291,
+      "startLat": 31.094715118408203,
+      "startLng": 120.84705352783203
+    },
+    {
+      "id": "34121959",
+      "tileScore": 11,
+      "name": "DOWN THE PING WANG CANAL BRIDGE 2 FENHU VILLAGE VIA G318",
+      "distanceM": 13389.400390625,
+      "avgGrade": -0.08514197170734406,
+      "startLat": 31.004714965820312,
+      "startLng": 120.64533233642578
+    },
+    {
+      "id": "40986412",
+      "tileScore": 11,
+      "name": "太浦河北岸从头到尾",
+      "distanceM": 58174.1015625,
+      "avgGrade": -0.006875912193208933,
+      "startLat": 31.01245880126953,
+      "startLng": 120.48320770263672
+    },
+    {
+      "id": "39089386",
+      "tileScore": 29,
+      "name": "Past the rowers E-W",
+      "distanceM": 2840.199951171875,
+      "avgGrade": -0.06337582319974899,
+      "startLat": 31.00157356262207,
+      "startLng": 120.80865478515625
+    },
+    {
+      "id": "40826342",
+      "tileScore": 8,
+      "name": "There was a women...",
+      "distanceM": 927.9000244140625,
+      "avgGrade": 0,
+      "startLat": 30.99506950378418,
+      "startLng": 120.77813720703125
+    },
+    {
+      "id": "38886248",
+      "tileScore": 12,
+      "name": "村间小路",
+      "distanceM": 2890.199951171875,
+      "avgGrade": 0.013839872553944588,
+      "startLat": 30.996414184570312,
+      "startLng": 120.7654800415039
+    },
+    {
+      "id": "38760752",
+      "tileScore": 10,
+      "name": "黎星到芦墟",
+      "distanceM": 6739.60009765625,
+      "avgGrade": 0.0445130281150341,
+      "startLat": 31.004974365234375,
+      "startLng": 120.76905059814453
+    }
+  ]
+}

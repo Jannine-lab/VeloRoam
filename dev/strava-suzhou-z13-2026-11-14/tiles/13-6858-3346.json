@@ -1,0 +1,173 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-14T07:21:11.237Z",
+  "tile": {
+    "z": 13,
+    "x": 6858,
+    "y": 3346
+  },
+  "segments": [
+    {
+      "id": "9218801",
+      "tileScore": 34,
+      "name": "Zhenbei Rd x Railway Underpass (Southbound)",
+      "distanceM": 553.2000122070312,
+      "avgGrade": -0.3434562683105469,
+      "startLat": 31.268810272216797,
+      "startLng": 121.38804626464844
+    },
+    {
+      "id": "1141660",
+      "tileScore": 11,
+      "name": "bridge1",
+      "distanceM": 971.448974609375,
+      "avgGrade": -0.20588842034339905,
+      "startLat": 31.266382217407227,
+      "startLng": 121.41797637939453
+    },
+    {
+      "id": "28920458",
+      "tileScore": 3,
+      "name": "Inner Ring Northern Hemisphere",
+      "distanceM": 14540.599609375,
+      "avgGrade": 0.001375459018163383,
+      "startLat": 31.212167739868164,
+      "startLng": 121.40843963623047
+    },
+    {
+      "id": "39537949",
+      "tileScore": 22,
+      "name": "Daduhe RD 偷老师开始筛选！",
+      "distanceM": 3138,
+      "avgGrade": -0.05098789185285568,
+      "startLat": 31.23384666442871,
+      "startLng": 121.39163208007812
+    },
+    {
+      "id": "13038655",
+      "tileScore": 3,
+      "name": "Wuning Lu eastbound (Daduhe Lu to Ningxia Lu)",
+      "distanceM": 2848.10009765625,
+      "avgGrade": -0.03160001337528229,
+      "startLat": 31.246475219726562,
+      "startLng": 121.39309692382812
+    },
+    {
+      "id": "8156733",
+      "tileScore": 4,
+      "name": "Lingshi Lu",
+      "distanceM": 4742.7998046875,
+      "avgGrade": 0.07379607111215591,
+      "startLat": 31.286205291748047,
+      "startLng": 121.45596313476562
+    },
+    {
+      "id": "34591021",
+      "tileScore": 7,
+      "name": "交通路西段出门就拉",
+      "distanceM": 2355,
+      "avgGrade": -0.07643312215805054,
+      "startLat": 31.263456344604492,
+      "startLng": 121.40775299072266
+    },
+    {
+      "id": "41123475",
+      "tileScore": 1,
+      "name": "上海西～中冶祥腾（线路1）",
+      "distanceM": 10495,
+      "avgGrade": 0.019056692719459534,
+      "startLat": 31.26365852355957,
+      "startLng": 121.3976821899414
+    },
+    {
+      "id": "34573913",
+      "tileScore": 12,
+      "name": "一早出门 糖原先消耗完",
+      "distanceM": 544.9000244140625,
+      "avgGrade": 0.03670398145914078,
+      "startLat": 31.28260612487793,
+      "startLng": 121.39596557617188
+    },
+    {
+      "id": "41637235",
+      "tileScore": 11,
+      "name": "诺诺晨骑要迟到了",
+      "distanceM": 9136.900390625,
+      "avgGrade": 0.04158959910273552,
+      "startLat": 31.270627975463867,
+      "startLng": 121.4056396484375
+    },
+    {
+      "id": "33596081",
+      "tileScore": 9,
+      "name": "jiaotong road",
+      "distanceM": 2992.60009765625,
+      "avgGrade": 0.04678206145763397,
+      "startLat": 31.26375961303711,
+      "startLng": 121.40548706054688
+    },
+    {
+      "id": "12554312",
+      "tileScore": 1,
+      "name": "The Escape from Baoshan",
+      "distanceM": 4605.2998046875,
+      "avgGrade": -0.015199878253042698,
+      "startLat": 31.295459747314453,
+      "startLng": 121.40656280517578
+    },
+    {
+      "id": "12599119",
+      "tileScore": 49,
+      "name": "Zhenhua Tunnel Southbound",
+      "distanceM": 581.4000244140625,
+      "avgGrade": -0.5331957340240479,
+      "startLat": 31.266252517700195,
+      "startLng": 121.40521240234375
+    },
+    {
+      "id": "21597487",
+      "tileScore": 4,
+      "name": "312 inside west",
+      "distanceM": 3247.5,
+      "avgGrade": 0.03079291805624962,
+      "startLat": 31.247758865356445,
+      "startLng": 121.38819122314453
+    },
+    {
+      "id": "35822621",
+      "tileScore": 32,
+      "name": "椰树又去李狗蛋店里暗搓搓的干坏事",
+      "distanceM": 504.6000061035156,
+      "avgGrade": 0.07927070558071136,
+      "startLat": 31.270893096923828,
+      "startLng": 121.3920669555664
+    },
+    {
+      "id": "38974646",
+      "tileScore": 10,
+      "name": "J's Taopu/Longnan TT",
+      "distanceM": 10157,
+      "avgGrade": -0.05907256156206131,
+      "startLat": 31.262096405029297,
+      "startLng": 121.39192199707031
+    },
+    {
+      "id": "28409724",
+      "tileScore": 3,
+      "name": "蓝色路线·Morning-1",
+      "distanceM": 9906,
+      "avgGrade": -0.06864526867866516,
+      "startLat": 31.29651641845703,
+      "startLng": 121.32026672363281
+    },
+    {
+      "id": "3439179",
+      "tileScore": 12,
+      "name": "Suzhou North ",
+      "distanceM": 4196.91943359375,
+      "avgGrade": -0.06195048987865448,
+      "startLat": 31.261362075805664,
+      "startLng": 121.4499740600586
+    }
+  ]
+}

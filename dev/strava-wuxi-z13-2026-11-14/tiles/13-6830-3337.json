@@ -1,0 +1,20 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-14T07:06:43.291Z",
+  "tile": {
+    "z": 13,
+    "x": 6830,
+    "y": 3337
+  },
+  "segments": [
+    {
+      "id": "37154421",
+      "tileScore": 4,
+      "name": "职教园7km圈",
+      "distanceM": 6956.2998046875,
+      "avgGrade": -0.02300073206424713,
+      "startLat": 31.5867862701416,
+      "startLng": 120.18718719482422
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-14T07:12:31.281Z",
+  "tile": {
+    "z": 13,
+    "x": 6817,
+    "y": 3334
+  },
+  "segments": [
+    {
+      "id": "39783109",
+      "tileScore": 1,
+      "name": "Shang Jun Tianjiao Full Outer Loop",
+      "distanceM": 1151.4000244140625,
+      "avgGrade": 0.06948063522577286,
+      "startLat": 31.71935272216797,
+      "startLng": 119.59394836425781
+    },
+    {
+      "id": "40030421",
+      "tileScore": 8,
+      "name": "金武返程拉一拉",
+      "distanceM": 6983.7998046875,
+      "avgGrade": -0.028637703508138657,
+      "startLat": 31.7248592376709,
+      "startLng": 119.61549377441406
+    },
+    {
+      "id": "33704123",
+      "tileScore": 3,
+      "name": "江东大道 E-W（汇贤路-金山路）",
+      "distanceM": 1947.9000244140625,
+      "avgGrade": -0.12320961058139801,
+      "startLat": 31.689620971679688,
+      "startLng": 119.60699462890625
+    },
+    {
+      "id": "31577491",
+      "tileScore": 154,
+      "name": "钱资湖小圈",
+      "distanceM": 9254.900390625,
+      "avgGrade": 0.02809322625398636,
+      "startLat": 31.712831497192383,
+      "startLng": 119.58348846435547
+    },
+    {
+      "id": "32061476",
+      "tileScore": 3,
+      "name": "金武快速路",
+      "distanceM": 17759.80078125,
+      "avgGrade": 0.001126138842664659,
+      "startLat": 31.734973907470703,
+      "startLng": 119.80149841308594
+    }
+  ]
+}

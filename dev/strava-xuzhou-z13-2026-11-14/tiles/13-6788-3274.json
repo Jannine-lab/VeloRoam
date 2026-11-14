@@ -1,0 +1,20 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-14T06:45:27.161Z",
+  "tile": {
+    "z": 13,
+    "x": 6788,
+    "y": 3274
+  },
+  "segments": [
+    {
+      "id": "37475516",
+      "tileScore": 3,
+      "name": "北京路运河桥西至东",
+      "distanceM": 1426.699951171875,
+      "avgGrade": -0.4205509126186371,
+      "startLat": 33.92082977294922,
+      "startLng": 118.29884338378906
+    }
+  ]
+}

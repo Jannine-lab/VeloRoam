@@ -1,0 +1,29 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-14T06:34:20.453Z",
+  "tile": {
+    "z": 13,
+    "x": 6757,
+    "y": 3278
+  },
+  "segments": [
+    {
+      "id": "34307449",
+      "tileScore": 13,
+      "name": "尖山口向南",
+      "distanceM": 14821.599609375,
+      "avgGrade": -0.18216656148433685,
+      "startLat": 33.896339416503906,
+      "startLng": 116.99816131591797
+    },
+    {
+      "id": "34307149",
+      "tileScore": 5,
+      "name": "唐河桥至丁集",
+      "distanceM": 9199.5,
+      "avgGrade": 0.05000271648168564,
+      "startLat": 33.71826934814453,
+      "startLng": 116.95848083496094
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-14T07:17:52.348Z",
+  "tile": {
+    "z": 13,
+    "x": 6829,
+    "y": 3355
+  },
+  "segments": [
+    {
+      "id": "37038257",
+      "tileScore": 73,
+      "name": "滨湖itt最后几公里",
+      "distanceM": 5559.5,
+      "avgGrade": -0.02158467471599579,
+      "startLat": 30.931604385375977,
+      "startLng": 120.20023345947266
+    },
+    {
+      "id": "17302823",
+      "tileScore": 70,
+      "name": "Taihu south 20km sprint towards Huzhou",
+      "distanceM": 20227.69921875,
+      "avgGrade": 0.020763607695698738,
+      "startLat": 30.941959381103516,
+      "startLng": 120.3404769897461
+    },
+    {
+      "id": "40564534",
+      "tileScore": 34,
+      "name": "环太湖",
+      "distanceM": 151856.5,
+      "avgGrade": 0.0009219230269081891,
+      "startLat": 31.187686920166016,
+      "startLng": 120.47770690917969
+    },
+    {
+      "id": "17302831",
+      "tileScore": 16,
+      "name": "Taihu south westbound",
+      "distanceM": 34238.8984375,
+      "avgGrade": 0.039136771112680435,
+      "startLat": 31.003751754760742,
+      "startLng": 120.47329711914062
+    }
+  ]
+}

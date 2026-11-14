@@ -1,0 +1,29 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-14T07:15:49.688Z",
+  "tile": {
+    "z": 13,
+    "x": 6846,
+    "y": 3339
+  },
+  "segments": [
+    {
+      "id": "16215752",
+      "tileScore": 2,
+      "name": "Ecological Zone Canal Rd-1",
+      "distanceM": 1417.9000244140625,
+      "avgGrade": 0.014105366542935371,
+      "startLat": 31.50539207458496,
+      "startLng": 120.8540267944336
+    },
+    {
+      "id": "29246211",
+      "tileScore": 3,
+      "name": "Steel Bridge southbound",
+      "distanceM": 325.6000061035156,
+      "avgGrade": 1.4127763509750366,
+      "startLat": 31.524314880371094,
+      "startLng": 120.84967041015625
+    }
+  ]
+}

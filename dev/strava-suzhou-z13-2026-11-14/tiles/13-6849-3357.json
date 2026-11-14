@@ -1,0 +1,20 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-14T07:19:21.611Z",
+  "tile": {
+    "z": 13,
+    "x": 6849,
+    "y": 3357
+  },
+  "segments": [
+    {
+      "id": "36574109",
+      "tileScore": 1,
+      "name": "新义村绕圈",
+      "distanceM": 7471.10009765625,
+      "avgGrade": -0.016061890870332718,
+      "startLat": 30.858795166015625,
+      "startLng": 121.02040100097656
+    }
+  ]
+}

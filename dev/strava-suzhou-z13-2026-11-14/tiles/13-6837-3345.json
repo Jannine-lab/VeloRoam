@@ -1,0 +1,128 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-14T07:07:11.858Z",
+  "tile": {
+    "z": 13,
+    "x": 6837,
+    "y": 3345
+  },
+  "segments": [
+    {
+      "id": "41280195",
+      "tileScore": 9,
+      "name": "五峰山土地庙→天池山A",
+      "distanceM": 769.2999877929688,
+      "avgGrade": -7.916287422180176,
+      "startLat": 31.284791946411133,
+      "startLng": 120.4682846069336
+    },
+    {
+      "id": "39883413",
+      "tileScore": 12,
+      "name": "五峰山Gravel金墓-土地庙",
+      "distanceM": 1877,
+      "avgGrade": 4.592434883117676,
+      "startLat": 31.278867721557617,
+      "startLng": 120.46685028076172
+    },
+    {
+      "id": "29885422",
+      "tileScore": 25,
+      "name": "Takashi's the last 300 m climb at 13%",
+      "distanceM": 353.3999938964844,
+      "avgGrade": 12.110922813415527,
+      "startLat": 31.294979095458984,
+      "startLng": 120.50132751464844
+    },
+    {
+      "id": "39891568",
+      "tileScore": 5,
+      "name": "苏州五峰环线 （玉山路起止）",
+      "distanceM": 33626.3984375,
+      "avgGrade": 0.008326790295541286,
+      "startLat": 31.283851623535156,
+      "startLng": 120.51029968261719
+    },
+    {
+      "id": "41280161",
+      "tileScore": 10,
+      "name": "五峰水杉群冲刺",
+      "distanceM": 506.70001220703125,
+      "avgGrade": 0.11841326206922531,
+      "startLat": 31.28386878967285,
+      "startLng": 120.47573852539062
+    },
+    {
+      "id": "11899526",
+      "tileScore": 7,
+      "name": "Crazy Cobblestone Temple Climb (Eastbound)",
+      "distanceM": 233.1999969482422,
+      "avgGrade": 11.66380786895752,
+      "startLat": 31.305145263671875,
+      "startLng": 120.47570037841797
+    },
+    {
+      "id": "41703442",
+      "tileScore": 5,
+      "name": "五峰山土地庙→天池山小树林",
+      "distanceM": 1780.800048828125,
+      "avgGrade": -4.1778974533081055,
+      "startLat": 31.284887313842773,
+      "startLng": 120.46854400634766
+    },
+    {
+      "id": "41601850",
+      "tileScore": 18,
+      "name": "天池山→五峰山防火道主路",
+      "distanceM": 1305,
+      "avgGrade": 3.9540231227874756,
+      "startLat": 31.28799057006836,
+      "startLng": 120.46403503417969
+    },
+    {
+      "id": "11899472",
+      "tileScore": 3,
+      "name": "302 Country Rd (Northbound)",
+      "distanceM": 2253.199951171875,
+      "avgGrade": -0.14202024042606354,
+      "startLat": 31.300416946411133,
+      "startLng": 120.487060546875
+    },
+    {
+      "id": "18581568",
+      "tileScore": 14,
+      "name": "Hill at Mudu (up&down other side)",
+      "distanceM": 1245.9000244140625,
+      "avgGrade": 0.2568424344062805,
+      "startLat": 31.278013229370117,
+      "startLng": 120.48357391357422
+    },
+    {
+      "id": "26019842",
+      "tileScore": 4,
+      "name": "Ridgeline trail (from open top through jump line)",
+      "distanceM": 732.2000122070312,
+      "avgGrade": -8.631521224975586,
+      "startLat": 31.282943725585938,
+      "startLng": 120.48712921142578
+    },
+    {
+      "id": "11899456",
+      "tileScore": 2,
+      "name": "X007 (Southbound to 412 Country Rd)",
+      "distanceM": 2936.89990234375,
+      "avgGrade": 0.0408594086766243,
+      "startLat": 31.3209171295166,
+      "startLng": 120.44722747802734
+    },
+    {
+      "id": "37982355",
+      "tileScore": 8,
+      "name": "五峰山穿越主线",
+      "distanceM": 2566.10009765625,
+      "avgGrade": 0.023381786420941353,
+      "startLat": 31.278915405273438,
+      "startLng": 120.46665954589844
+    }
+  ]
+}

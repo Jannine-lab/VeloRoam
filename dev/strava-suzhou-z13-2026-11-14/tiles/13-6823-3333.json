@@ -1,0 +1,47 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-14T07:11:09.658Z",
+  "tile": {
+    "z": 13,
+    "x": 6823,
+    "y": 3333
+  },
+  "segments": [
+    {
+      "id": "37435505",
+      "tileScore": 7,
+      "name": "长虹西路-武宜河段缓坡//JOJAD",
+      "distanceM": 776.5,
+      "avgGrade": 0.30907920002937317,
+      "startLat": 31.724166870117188,
+      "startLng": 119.88831329345703
+    },
+    {
+      "id": "853270",
+      "tileScore": 6,
+      "name": "ChangHong West Road MaoJiaBa Bridge Towards East",
+      "distanceM": 651.6680297851562,
+      "avgGrade": 0.30693677067756653,
+      "startLat": 31.738388061523438,
+      "startLng": 119.86515808105469
+    },
+    {
+      "id": "856016",
+      "tileScore": 3,
+      "name": "Ya River Bridge Towards South",
+      "distanceM": 386.35101318359375,
+      "avgGrade": 1.2943308353424072,
+      "startLat": 31.728906631469727,
+      "startLng": 119.87745666503906
+    },
+    {
+      "id": "995545",
+      "tileScore": 4,
+      "name": "ZhongLou Large Bridge Towards North",
+      "distanceM": 506.67401123046875,
+      "avgGrade": 0.2960331439971924,
+      "startLat": 31.749170303344727,
+      "startLng": 119.8823013305664
+    }
+  ]
+}

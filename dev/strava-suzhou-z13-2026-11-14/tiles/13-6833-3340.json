@@ -1,0 +1,92 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-14T07:06:14.739Z",
+  "tile": {
+    "z": 13,
+    "x": 6833,
+    "y": 3340
+  },
+  "segments": [
+    {
+      "id": "35445875",
+      "tileScore": 5,
+      "name": "吴都路西至东-cheng",
+      "distanceM": 4708.60009765625,
+      "avgGrade": -0.06158943474292755,
+      "startLat": 31.4837703704834,
+      "startLng": 120.27407836914062
+    },
+    {
+      "id": "34785689",
+      "tileScore": 4,
+      "name": "Wetland park purple road loop",
+      "distanceM": 2223.300048828125,
+      "avgGrade": 0.00899563729763031,
+      "startLat": 31.470619201660156,
+      "startLng": 120.3135757446289
+    },
+    {
+      "id": "39044445",
+      "tileScore": 9,
+      "name": "E-S-W-N",
+      "distanceM": 3447.699951171875,
+      "avgGrade": 0.12762130796909332,
+      "startLat": 31.500398635864258,
+      "startLng": 120.30094146728516
+    },
+    {
+      "id": "28870938",
+      "tileScore": 6,
+      "name": "官帽",
+      "distanceM": 2059.199951171875,
+      "avgGrade": 0.01942501962184906,
+      "startLat": 31.490421295166016,
+      "startLng": 120.30531311035156
+    },
+    {
+      "id": "17009345",
+      "tileScore": 4,
+      "name": "Pig, just a joke..",
+      "distanceM": 10603.5,
+      "avgGrade": -0.033007968217134476,
+      "startLat": 31.488378524780273,
+      "startLng": 120.3644027709961
+    },
+    {
+      "id": "39870272",
+      "tileScore": 14,
+      "name": "Last push, almost home ",
+      "distanceM": 669.5,
+      "avgGrade": 0.08961911499500275,
+      "startLat": 31.485002517700195,
+      "startLng": 120.3107681274414
+    },
+    {
+      "id": "6981915",
+      "tileScore": 1,
+      "name": "Commute segment (Wuhu-Jinshi)",
+      "distanceM": 3574.39990234375,
+      "avgGrade": 0.030774395912885666,
+      "startLat": 31.498336791992188,
+      "startLng": 120.28618621826172
+    },
+    {
+      "id": "32768678",
+      "tileScore": 6,
+      "name": "Gonghu Wudu interchange",
+      "distanceM": 1485.199951171875,
+      "avgGrade": 0,
+      "startLat": 31.486635208129883,
+      "startLng": 120.31832885742188
+    },
+    {
+      "id": "31456659",
+      "tileScore": 2,
+      "name": "尚贤河绕圈",
+      "distanceM": 3895.800048828125,
+      "avgGrade": 0.015401201322674751,
+      "startLat": 31.463165283203125,
+      "startLng": 120.31172180175781
+    }
+  ]
+}

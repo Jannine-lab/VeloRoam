@@ -1,0 +1,128 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-14T07:15:16.567Z",
+  "tile": {
+    "z": 13,
+    "x": 6846,
+    "y": 3348
+  },
+  "segments": [
+    {
+      "id": "41203647",
+      "tileScore": 27,
+      "name": "石楠花魔法攻击",
+      "distanceM": 3364.10009765625,
+      "avgGrade": 0,
+      "startLat": 31.179777145385742,
+      "startLng": 120.88554382324219
+    },
+    {
+      "id": "40405020",
+      "tileScore": 9,
+      "name": "澄湖训练",
+      "distanceM": 15113,
+      "avgGrade": -0.007940184324979782,
+      "startLat": 31.244274139404297,
+      "startLng": 120.86615753173828
+    },
+    {
+      "id": "22249275",
+      "tileScore": 5,
+      "name": "Westside Mingjingdan Shoreline Path (Southbound)",
+      "distanceM": 4439.5,
+      "avgGrade": 0.03604009374976158,
+      "startLat": 31.18701171875,
+      "startLng": 120.8481674194336
+    },
+    {
+      "id": "41798054",
+      "tileScore": 45,
+      "name": "Jinxi Avenue",
+      "distanceM": 2149.5,
+      "avgGrade": 0,
+      "startLat": 31.193525314331055,
+      "startLng": 120.90834045410156
+    },
+    {
+      "id": "40161874",
+      "tileScore": 2,
+      "name": "MJD go go go",
+      "distanceM": 830.2999877929688,
+      "avgGrade": -0.024087678641080856,
+      "startLat": 31.166950225830078,
+      "startLng": 120.8720474243164
+    },
+    {
+      "id": "22300246",
+      "tileScore": 6,
+      "name": "Three Bonus Bridges",
+      "distanceM": 677.4000244140625,
+      "avgGrade": 0.4723944664001465,
+      "startLat": 31.171152114868164,
+      "startLng": 120.85308837890625
+    },
+    {
+      "id": "24554706",
+      "tileScore": 1,
+      "name": "Scenic Shortcut (Northbound)",
+      "distanceM": 2671.39990234375,
+      "avgGrade": 0,
+      "startLat": 31.18381690979004,
+      "startLng": 120.89969635009766
+    },
+    {
+      "id": "12962864",
+      "tileScore": 5,
+      "name": "Connector to Jinzhou Rd (Southbound)",
+      "distanceM": 2348,
+      "avgGrade": -0.04258943721652031,
+      "startLat": 31.206462860107422,
+      "startLng": 120.86015319824219
+    },
+    {
+      "id": "24864276",
+      "tileScore": 13,
+      "name": "X205 North Bound Till Y-cross",
+      "distanceM": 9454.2001953125,
+      "avgGrade": 0.027501003816723824,
+      "startLat": 31.198413848876953,
+      "startLng": 120.88581085205078
+    },
+    {
+      "id": "22090862",
+      "tileScore": 1,
+      "name": "Jinxi shortcut (Southbound)",
+      "distanceM": 2879.89990234375,
+      "avgGrade": 0.0763915404677391,
+      "startLat": 31.17960548400879,
+      "startLng": 120.8876953125
+    },
+    {
+      "id": "38927804",
+      "tileScore": 1,
+      "name": "Little Bridge",
+      "distanceM": 507.8999938964844,
+      "avgGrade": -0.19688916206359863,
+      "startLat": 31.171483993530273,
+      "startLng": 120.89352416992188
+    },
+    {
+      "id": "22249295",
+      "tileScore": 2,
+      "name": "Mingjingdan Shoreline Path (CCW)",
+      "distanceM": 10996.2998046875,
+      "avgGrade": 0.04728863388299942,
+      "startLat": 31.166597366333008,
+      "startLng": 120.87250518798828
+    },
+    {
+      "id": "39024573",
+      "tileScore": 1,
+      "name": "LongTin Rd",
+      "distanceM": 1272.199951171875,
+      "avgGrade": 0,
+      "startLat": 31.17422103881836,
+      "startLng": 120.84988403320312
+    }
+  ]
+}

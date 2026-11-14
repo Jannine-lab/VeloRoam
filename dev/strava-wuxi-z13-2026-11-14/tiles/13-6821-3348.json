@@ -1,0 +1,65 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-14T07:11:57.203Z",
+  "tile": {
+    "z": 13,
+    "x": 6821,
+    "y": 3348
+  },
+  "segments": [
+    {
+      "id": "35788238",
+      "tileScore": 164,
+      "name": "悬脚岭climb【宜兴水库start】",
+      "distanceM": 2738.5,
+      "avgGrade": 3.8050026893615723,
+      "startLat": 31.184688568115234,
+      "startLng": 119.79966735839844
+    },
+    {
+      "id": "37888801",
+      "tileScore": 111,
+      "name": "缓坡决战！！",
+      "distanceM": 8027.5,
+      "avgGrade": 1.1385860443115234,
+      "startLat": 31.122230529785156,
+      "startLng": 119.74952697753906
+    },
+    {
+      "id": "35788213",
+      "tileScore": 5,
+      "name": "白猫山climb",
+      "distanceM": 1719.5,
+      "avgGrade": 9.363186836242676,
+      "startLat": 31.15936279296875,
+      "startLng": 119.75747680664062
+    },
+    {
+      "id": "27264979",
+      "tileScore": 85,
+      "name": "悬脚岭爬坡",
+      "distanceM": 1068.800048828125,
+      "avgGrade": 4.4723052978515625,
+      "startLat": 31.171464920043945,
+      "startLng": 119.7764892578125
+    },
+    {
+      "id": "41182939",
+      "tileScore": 12,
+      "name": "Hilly circuit",
+      "distanceM": 4574.5,
+      "avgGrade": -0.9749699234962463,
+      "startLat": 31.198312759399414,
+      "startLng": 119.75149536132812
+    },
+    {
+      "id": "36807023",
+      "tileScore": 15,
+      "name": "悬脚岭北段放坡",
+      "distanceM": 9932.7001953125,
+      "avgGrade": -1.8182367086410522,
+      "startLat": 31.16756248474121,
+      "startLng": 119.70333862304688
+    }
+  ]
+}

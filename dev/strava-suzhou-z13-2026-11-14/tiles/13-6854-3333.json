@@ -1,0 +1,56 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-14T07:21:51.102Z",
+  "tile": {
+    "z": 13,
+    "x": 6854,
+    "y": 3333
+  },
+  "segments": [
+    {
+      "id": "40311453",
+      "tileScore": 25,
+      "name": "2025 TREK100",
+      "distanceM": 108150.3984375,
+      "avgGrade": -0.006842323578894138,
+      "startLat": 31.624710083007812,
+      "startLng": 121.41840362548828
+    },
+    {
+      "id": "28151753",
+      "tileScore": 93,
+      "name": "Towards and along the coast",
+      "distanceM": 9591,
+      "avgGrade": -0.08966739475727081,
+      "startLat": 31.809850692749023,
+      "startLng": 121.1847915649414
+    },
+    {
+      "id": "32618140",
+      "tileScore": 10,
+      "name": "崇西公路",
+      "distanceM": 5849.89990234375,
+      "avgGrade": -0.022222602739930153,
+      "startLat": 31.700439453125,
+      "startLng": 121.29484558105469
+    },
+    {
+      "id": "42365089",
+      "tileScore": 72,
+      "name": "2026 TREK100精英组",
+      "distanceM": 94728,
+      "avgGrade": -0.000633392424788326,
+      "startLat": 31.6234073638916,
+      "startLng": 121.42135620117188
+    },
+    {
+      "id": "33166426",
+      "tileScore": 4,
+      "name": "Lotus Expo Park Sprint",
+      "distanceM": 555.2999877929688,
+      "avgGrade": -0.6482982039451599,
+      "startLat": 31.728498458862305,
+      "startLng": 121.2432632446289
+    }
+  ]
+}

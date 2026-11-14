@@ -1,0 +1,20 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-14T06:58:10.125Z",
+  "tile": {
+    "z": 13,
+    "x": 6833,
+    "y": 3313
+  },
+  "segments": [
+    {
+      "id": "30724595",
+      "tileScore": 9,
+      "name": "328 往海安",
+      "distanceM": 15109.599609375,
+      "avgGrade": 0.003970985300838947,
+      "startLat": 32.4970588684082,
+      "startLng": 120.30538940429688
+    }
+  ]
+}

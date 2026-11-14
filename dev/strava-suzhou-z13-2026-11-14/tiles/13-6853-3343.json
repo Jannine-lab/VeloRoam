@@ -1,0 +1,83 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-14T07:25:24.411Z",
+  "tile": {
+    "z": 13,
+    "x": 6853,
+    "y": 3343
+  },
+  "segments": [
+    {
+      "id": "14279144",
+      "tileScore": 7,
+      "name": "Bai'an Hwy (Southbound)",
+      "distanceM": 1698.0999755859375,
+      "avgGrade": -0.03533360734581947,
+      "startLat": 31.38133430480957,
+      "startLng": 121.14872741699219
+    },
+    {
+      "id": "34489521",
+      "tileScore": 37,
+      "name": "PARKCYCLING 猎骑大圈",
+      "distanceM": 6456.5,
+      "avgGrade": 0,
+      "startLat": 31.36835479736328,
+      "startLng": 121.19298553466797
+    },
+    {
+      "id": "32011709",
+      "tileScore": 11,
+      "name": "上海葛隆检查站",
+      "distanceM": 20198.900390625,
+      "avgGrade": -0.011881834827363491,
+      "startLat": 31.301441192626953,
+      "startLng": 121.2960205078125
+    },
+    {
+      "id": "41774588",
+      "tileScore": 25,
+      "name": "路况这么好还不加脚",
+      "distanceM": 1293.5,
+      "avgGrade": -0.03092385083436966,
+      "startLat": 31.349409103393555,
+      "startLng": 121.18728637695312
+    },
+    {
+      "id": "39804496",
+      "tileScore": 27,
+      "name": "视野开阔不冲刺还在等什么？！",
+      "distanceM": 594.5999755859375,
+      "avgGrade": -0.0672721117734909,
+      "startLat": 31.36498260498047,
+      "startLng": 121.17195129394531
+    },
+    {
+      "id": "34697683",
+      "tileScore": 26,
+      "name": "2023 Parkcycling 全程",
+      "distanceM": 4342.39990234375,
+      "avgGrade": 0.009211496450006962,
+      "startLat": 31.369470596313477,
+      "startLng": 121.192138671875
+    },
+    {
+      "id": "25652399",
+      "tileScore": 24,
+      "name": "Pujiang Jiaoye Park ",
+      "distanceM": 10514.2001953125,
+      "avgGrade": 0.02092408388853073,
+      "startLat": 31.36074447631836,
+      "startLng": 121.21723937988281
+    },
+    {
+      "id": "41743225",
+      "tileScore": 6,
+      "name": "PARKCYCLING猎骑一号门冲刺",
+      "distanceM": 505.3999938964844,
+      "avgGrade": -0.07914523035287857,
+      "startLat": 31.362224578857422,
+      "startLng": 121.2025375366211
+    }
+  ]
+}

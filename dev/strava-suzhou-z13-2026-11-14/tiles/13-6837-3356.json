@@ -1,0 +1,47 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-14T07:16:43.487Z",
+  "tile": {
+    "z": 13,
+    "x": 6837,
+    "y": 3356
+  },
+  "segments": [
+    {
+      "id": "35034324",
+      "tileScore": 69,
+      "name": "收费站-加油站",
+      "distanceM": 20032.5,
+      "avgGrade": -0.008985398337244987,
+      "startLat": 30.77341651916504,
+      "startLng": 120.50358581542969
+    },
+    {
+      "id": "22068484",
+      "tileScore": 8,
+      "name": "G318 上海-湖州",
+      "distanceM": 133169.203125,
+      "avgGrade": -0.002553143072873354,
+      "startLat": 31.17106056213379,
+      "startLng": 121.32220458984375
+    },
+    {
+      "id": "35899644",
+      "tileScore": 14,
+      "name": "Nanxun Escape (eastbound)",
+      "distanceM": 1897.4000244140625,
+      "avgGrade": -0.10540740191936493,
+      "startLat": 30.881677627563477,
+      "startLng": 120.43704223632812
+    },
+    {
+      "id": "39037095",
+      "tileScore": 10,
+      "name": "古镇之间",
+      "distanceM": 7984,
+      "avgGrade": 0.020040079951286316,
+      "startLat": 30.886756896972656,
+      "startLng": 120.42345428466797
+    }
+  ]
+}

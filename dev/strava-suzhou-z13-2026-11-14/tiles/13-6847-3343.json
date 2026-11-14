@@ -1,0 +1,128 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-14T07:15:36.814Z",
+  "tile": {
+    "z": 13,
+    "x": 6847,
+    "y": 3343
+  },
+  "segments": [
+    {
+      "id": "35688240",
+      "tileScore": 23,
+      "name": "森林公园",
+      "distanceM": 1810.800048828125,
+      "avgGrade": -0.044179368764162064,
+      "startLat": 31.389631271362305,
+      "startLng": 120.9153823852539
+    },
+    {
+      "id": "14279642",
+      "tileScore": 3,
+      "name": "Super Mario Kart Through The City",
+      "distanceM": 10934.099609375,
+      "avgGrade": 0.016462260857224464,
+      "startLat": 31.38591194152832,
+      "startLng": 120.99835205078125
+    },
+    {
+      "id": "25769265",
+      "tileScore": 8,
+      "name": "S339 Bridge #2 (Northbound)",
+      "distanceM": 490.1000061035156,
+      "avgGrade": 1.6731278896331787,
+      "startLat": 31.367460250854492,
+      "startLng": 120.9207763671875
+    },
+    {
+      "id": "25769231",
+      "tileScore": 14,
+      "name": "S339 x Xinliu River Bridge (Northbound)",
+      "distanceM": 601.5999755859375,
+      "avgGrade": 0.6981382966041565,
+      "startLat": 31.37494468688965,
+      "startLng": 120.92100524902344
+    },
+    {
+      "id": "22873115",
+      "tileScore": 3,
+      "name": "East alongside canal",
+      "distanceM": 1781.0999755859375,
+      "avgGrade": 0.0336870476603508,
+      "startLat": 31.37845230102539,
+      "startLng": 120.89812469482422
+    },
+    {
+      "id": "40496797",
+      "tileScore": 16,
+      "name": "江浦南路",
+      "distanceM": 11342.900390625,
+      "avgGrade": 0.008816087618470192,
+      "startLat": 31.382366180419922,
+      "startLng": 120.92025756835938
+    },
+    {
+      "id": "30963878",
+      "tileScore": 3,
+      "name": "中华园路小起伏（东向西）",
+      "distanceM": 3486.699951171875,
+      "avgGrade": -0.03441649675369263,
+      "startLat": 31.36341667175293,
+      "startLng": 120.91912078857422
+    },
+    {
+      "id": "29385991",
+      "tileScore": 23,
+      "name": "Riverside Southbound",
+      "distanceM": 1107.4000244140625,
+      "avgGrade": -0.009030160494148731,
+      "startLat": 31.39906883239746,
+      "startLng": 120.91483306884766
+    },
+    {
+      "id": "14279098",
+      "tileScore": 2,
+      "name": "Qianjin W RD x Yue River Bridge (Eastbound)",
+      "distanceM": 549.4000244140625,
+      "avgGrade": 0.8736804127693176,
+      "startLat": 31.382448196411133,
+      "startLng": 120.93138885498047
+    },
+    {
+      "id": "15026022",
+      "tileScore": 17,
+      "name": "Bladerunner Segment",
+      "distanceM": 2163.89990234375,
+      "avgGrade": 0.1062895730137825,
+      "startLat": 31.34187126159668,
+      "startLng": 120.92164611816406
+    },
+    {
+      "id": "14279086",
+      "tileScore": 1,
+      "name": "Qianjin W Rd (Eastbound)",
+      "distanceM": 10293.099609375,
+      "avgGrade": -0.011658295057713985,
+      "startLat": 31.379955291748047,
+      "startLng": 120.8251953125
+    },
+    {
+      "id": "41176683",
+      "tileScore": 3,
+      "name": "ZhengChuan bridge",
+      "distanceM": 1011.2000122070312,
+      "avgGrade": 0.17800632119178772,
+      "startLat": 31.378326416015625,
+      "startLng": 120.9267807006836
+    },
+    {
+      "id": "13400496",
+      "tileScore": 13,
+      "name": "Ma'anshan E Rd x Yue River Bridge (Eastbound)",
+      "distanceM": 342.29998779296875,
+      "avgGrade": 2.278702974319458,
+      "startLat": 31.3879451751709,
+      "startLng": 120.93378448486328
+    }
+  ]
+}

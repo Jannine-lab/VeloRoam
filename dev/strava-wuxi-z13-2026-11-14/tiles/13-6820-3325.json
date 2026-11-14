@@ -1,0 +1,38 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-14T07:00:33.239Z",
+  "tile": {
+    "z": 13,
+    "x": 6820,
+    "y": 3325
+  },
+  "segments": [
+    {
+      "id": "33910443",
+      "tileScore": 6,
+      "name": "管山ITT赛段",
+      "distanceM": 5036,
+      "avgGrade": -0.2938840389251709,
+      "startLat": 32.05718994140625,
+      "startLng": 119.70353698730469
+    },
+    {
+      "id": "33834797",
+      "tileScore": 14,
+      "name": "九曲河边边（独山村段）",
+      "distanceM": 2326.5,
+      "avgGrade": -0.017193209379911423,
+      "startLat": 32.02878952026367,
+      "startLng": 119.75052642822266
+    },
+    {
+      "id": "38058125",
+      "tileScore": 8,
+      "name": "G346 W-E（丹界路-高桥）",
+      "distanceM": 3314.10009765625,
+      "avgGrade": 0.006034820806235075,
+      "startLat": 32.07723617553711,
+      "startLng": 119.73858642578125
+    }
+  ]
+}

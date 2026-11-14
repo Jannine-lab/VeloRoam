@@ -1,0 +1,74 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-14T07:15:25.642Z",
+  "tile": {
+    "z": 13,
+    "x": 6838,
+    "y": 3353
+  },
+  "segments": [
+    {
+      "id": "40762170",
+      "tileScore": 40,
+      "name": "太浦河北岸TT_Eastbound_S1",
+      "distanceM": 4653.10009765625,
+      "avgGrade": -0.12894628942012787,
+      "startLat": 31.01247787475586,
+      "startLng": 120.48307037353516
+    },
+    {
+      "id": "25864119",
+      "tileScore": 35,
+      "name": "S230 x Taipu River Bridge (Southbound)",
+      "distanceM": 669.9000244140625,
+      "avgGrade": 1.28377366065979,
+      "startLat": 31.014204025268555,
+      "startLng": 120.50849914550781
+    },
+    {
+      "id": "21131943",
+      "tileScore": 1,
+      "name": "Dianshan Lake Checkpoint to Taihu",
+      "distanceM": 49375.1015625,
+      "avgGrade": -0.004050624556839466,
+      "startLat": 31.06794548034668,
+      "startLng": 120.91667938232422
+    },
+    {
+      "id": "40986412",
+      "tileScore": 11,
+      "name": "太浦河北岸从头到尾",
+      "distanceM": 58174.1015625,
+      "avgGrade": -0.006875912193208933,
+      "startLat": 31.01245880126953,
+      "startLng": 120.48320770263672
+    },
+    {
+      "id": "39843695",
+      "tileScore": 12,
+      "name": "太浦河南岸TT ",
+      "distanceM": 10374,
+      "avgGrade": 0,
+      "startLat": 31.009357452392578,
+      "startLng": 120.48223876953125
+    },
+    {
+      "id": "41463327",
+      "tileScore": 64,
+      "name": "太湖→太浦河→京杭大运河",
+      "distanceM": 40081.3984375,
+      "avgGrade": -0.005488830152899027,
+      "startLat": 31.093950271606445,
+      "startLng": 120.59027099609375
+    },
+    {
+      "id": "38640028",
+      "tileScore": 25,
+      "name": "太浦河-加油站",
+      "distanceM": 7380.89990234375,
+      "avgGrade": -0.16258180141448975,
+      "startLat": 31.009319305419922,
+      "startLng": 120.50763702392578
+    }
+  ]
+}

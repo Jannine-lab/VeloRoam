@@ -1,0 +1,128 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-14T07:10:18.934Z",
+  "tile": {
+    "z": 13,
+    "x": 6842,
+    "y": 3347
+  },
+  "segments": [
+    {
+      "id": "39043154",
+      "tileScore": 8,
+      "name": "来！干掉电动车！",
+      "distanceM": 1275.0999755859375,
+      "avgGrade": -0.06274017691612244,
+      "startLat": 31.236190795898438,
+      "startLng": 120.6807632446289
+    },
+    {
+      "id": "16357908",
+      "tileScore": 4,
+      "name": "Wusongjiang Rd and Tongjin Ave(Southbound)",
+      "distanceM": 8980.2998046875,
+      "avgGrade": 0.03340645506978035,
+      "startLat": 31.2428035736084,
+      "startLng": 120.7089614868164
+    },
+    {
+      "id": "31274114",
+      "tileScore": 4,
+      "name": "cross the highway",
+      "distanceM": 751.0999755859375,
+      "avgGrade": 0.3461589515209198,
+      "startLat": 31.22413444519043,
+      "startLng": 120.68977355957031
+    },
+    {
+      "id": "35067072",
+      "tileScore": 12,
+      "name": "蛇形走位",
+      "distanceM": 737.7999877929688,
+      "avgGrade": -0.21686093509197235,
+      "startLat": 31.236207962036133,
+      "startLng": 120.6807861328125
+    },
+    {
+      "id": "34761750",
+      "tileScore": 10,
+      "name": "Roubaix in YinShanLake",
+      "distanceM": 850.9000244140625,
+      "avgGrade": 0.023504523560404778,
+      "startLat": 31.23906135559082,
+      "startLng": 120.69532012939453
+    },
+    {
+      "id": "34761587",
+      "tileScore": 14,
+      "name": "King of SouthLakeRoad",
+      "distanceM": 699.7999877929688,
+      "avgGrade": 0.2286367565393448,
+      "startLat": 31.23461151123047,
+      "startLng": 120.68792724609375
+    },
+    {
+      "id": "37739932",
+      "tileScore": 11,
+      "name": "厂妹小圈",
+      "distanceM": 3151,
+      "avgGrade": -0.019041573628783226,
+      "startLat": 31.208620071411133,
+      "startLng": 120.68887329101562
+    },
+    {
+      "id": "34811913",
+      "tileScore": 21,
+      "name": "YinShanLake#2",
+      "distanceM": 11137.2998046875,
+      "avgGrade": 0.0053873020224273205,
+      "startLat": 31.241302490234375,
+      "startLng": 120.6966552734375
+    },
+    {
+      "id": "37739959",
+      "tileScore": 2,
+      "name": "冲",
+      "distanceM": 881.9000244140625,
+      "avgGrade": -0.022678308188915253,
+      "startLat": 31.208759307861328,
+      "startLng": 120.69061279296875
+    },
+    {
+      "id": "39245281",
+      "tileScore": 5,
+      "name": "厂妹冲刺练习",
+      "distanceM": 512.7000122070312,
+      "avgGrade": 0.03900916874408722,
+      "startLat": 31.207698822021484,
+      "startLng": 120.68109893798828
+    },
+    {
+      "id": "39918661",
+      "tileScore": 4,
+      "name": "YinShan Lake to Wangshan",
+      "distanceM": 12482.099609375,
+      "avgGrade": 0.009613767266273499,
+      "startLat": 31.241424560546875,
+      "startLng": 120.69671630859375
+    },
+    {
+      "id": "31274086",
+      "tileScore": 3,
+      "name": "Songwei road W to E",
+      "distanceM": 2821.199951171875,
+      "avgGrade": 0.05671345442533493,
+      "startLat": 31.211788177490234,
+      "startLng": 120.69209289550781
+    },
+    {
+      "id": "11586597",
+      "tileScore": 1,
+      "name": "Tonghu Rd (Eastbound)",
+      "distanceM": 659.0999755859375,
+      "avgGrade": -0.19723865389823914,
+      "startLat": 31.242225646972656,
+      "startLng": 120.6690673828125
+    }
+  ]
+}

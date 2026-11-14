@@ -1,0 +1,20 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-14T06:57:28.423Z",
+  "tile": {
+    "z": 13,
+    "x": 6830,
+    "y": 3320
+  },
+  "segments": [
+    {
+      "id": "24367943",
+      "tileScore": 1,
+      "name": "Taixing - Huangqiao",
+      "distanceM": 16076.5,
+      "avgGrade": 0.019904829561710358,
+      "startLat": 32.18291473388672,
+      "startLng": 120.0483627319336
+    }
+  ]
+}

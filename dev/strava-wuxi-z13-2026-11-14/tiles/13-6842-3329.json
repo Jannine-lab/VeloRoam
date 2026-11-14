@@ -1,0 +1,20 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-14T07:11:36.667Z",
+  "tile": {
+    "z": 13,
+    "x": 6842,
+    "y": 3329
+  },
+  "segments": [
+    {
+      "id": "35376299",
+      "tileScore": 13,
+      "name": "通杀（返程）",
+      "distanceM": 38499.80078125,
+      "avgGrade": -0.0015584497014060616,
+      "startLat": 31.98116683959961,
+      "startLng": 120.73014068603516
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-14T06:50:28.624Z",
+  "tile": {
+    "z": 13,
+    "x": 6793,
+    "y": 3248
+  },
+  "segments": [
+    {
+      "id": "41322887",
+      "tileScore": 15,
+      "name": "道口到好运角一疗程",
+      "distanceM": 15379,
+      "avgGrade": -0.04031471535563469,
+      "startLat": 34.93076705932617,
+      "startLng": 118.43952941894531
+    }
+  ]
+}

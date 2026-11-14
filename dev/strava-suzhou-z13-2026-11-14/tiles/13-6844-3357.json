@@ -1,0 +1,20 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-14T07:16:56.326Z",
+  "tile": {
+    "z": 13,
+    "x": 6844,
+    "y": 3357
+  },
+  "segments": [
+    {
+      "id": "41269450",
+      "tileScore": 9,
+      "name": "一条小路",
+      "distanceM": 25093.599609375,
+      "avgGrade": 0.005579112097620964,
+      "startLat": 30.98356056213379,
+      "startLng": 120.83517456054688
+    }
+  ]
+}

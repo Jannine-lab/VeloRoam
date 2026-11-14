@@ -1,0 +1,20 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-14T07:04:47.269Z",
+  "tile": {
+    "z": 13,
+    "x": 6838,
+    "y": 3294
+  },
+  "segments": [
+    {
+      "id": "36779619",
+      "tileScore": 3,
+      "name": "三个石头绕圈",
+      "distanceM": 6664.2001953125,
+      "avgGrade": -0.0030011103954166174,
+      "startLat": 33.19812774658203,
+      "startLng": 120.48151397705078
+    }
+  ]
+}

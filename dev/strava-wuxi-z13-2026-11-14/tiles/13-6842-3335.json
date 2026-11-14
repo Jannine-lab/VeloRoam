@@ -1,0 +1,209 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-14T07:09:40.367Z",
+  "tile": {
+    "z": 13,
+    "x": 6842,
+    "y": 3335
+  },
+  "segments": [
+    {
+      "id": "19483559",
+      "tileScore": 283,
+      "name": "虞山南坡（动物园～三岔口）",
+      "distanceM": 3478.300048828125,
+      "avgGrade": 6.117930889129639,
+      "startLat": 31.65123176574707,
+      "startLng": 120.73330688476562
+    },
+    {
+      "id": "41100880",
+      "tileScore": 7,
+      "name": "鲁贝冲冲冲，只有最强者能成为王！！",
+      "distanceM": 52570.69921875,
+      "avgGrade": 0.004184840712696314,
+      "startLat": 31.779027938842773,
+      "startLng": 120.82551574707031
+    },
+    {
+      "id": "38436203",
+      "tileScore": 7,
+      "name": "虞山北路",
+      "distanceM": 3105.10009765625,
+      "avgGrade": -0.12237931042909622,
+      "startLat": 31.683799743652344,
+      "startLng": 120.70800018310547
+    },
+    {
+      "id": "14382659",
+      "tileScore": 17,
+      "name": "Crossing Shanghu (Southbound)",
+      "distanceM": 2054.39990234375,
+      "avgGrade": -0.058411214500665665,
+      "startLat": 31.655290603637695,
+      "startLng": 120.69216918945312
+    },
+    {
+      "id": "38135860",
+      "tileScore": 7,
+      "name": "西三环itt",
+      "distanceM": 9676,
+      "avgGrade": -0.05994212627410889,
+      "startLat": 31.68532943725586,
+      "startLng": 120.68697357177734
+    },
+    {
+      "id": "12914431",
+      "tileScore": 33,
+      "name": "Shanghu Bridge to Yanyu",
+      "distanceM": 3802,
+      "avgGrade": 0.02104155719280243,
+      "startLat": 31.655424118041992,
+      "startLng": 120.69327545166016
+    },
+    {
+      "id": "35264100",
+      "tileScore": 35,
+      "name": "虞山南坡（缓下坡）",
+      "distanceM": 1635.800048828125,
+      "avgGrade": -1.2348697185516357,
+      "startLat": 31.654525756835938,
+      "startLng": 120.72195434570312
+    },
+    {
+      "id": "32993232",
+      "tileScore": 10,
+      "name": "西塘公路—虞山脚下",
+      "distanceM": 17643.099609375,
+      "avgGrade": 0.015303432941436768,
+      "startLat": 31.791915893554688,
+      "startLng": 120.60678100585938
+    },
+    {
+      "id": "42383130",
+      "tileScore": 25,
+      "name": "毛蛋专属VO₂MAX训练路线-后山取水口前别想缓一下",
+      "distanceM": 803.5999755859375,
+      "avgGrade": 8.984569549560547,
+      "startLat": 31.683801651000977,
+      "startLng": 120.68537139892578
+    },
+    {
+      "id": "40622914",
+      "tileScore": 1,
+      "name": "Wei Mo Xian (Way More Line)",
+      "distanceM": 908.4000244140625,
+      "avgGrade": -15.96213150024414,
+      "startLat": 31.661409378051758,
+      "startLng": 120.7113037109375
+    },
+    {
+      "id": "3914733",
+      "tileScore": 206,
+      "name": "North Entry Step2",
+      "distanceM": 1272.4000244140625,
+      "avgGrade": 7.026092529296875,
+      "startLat": 31.674177169799805,
+      "startLng": 120.69343566894531
+    },
+    {
+      "id": "19490598",
+      "tileScore": 945,
+      "name": "虞山北坡【售票处栏杆～公交站三岔口】",
+      "distanceM": 4535.2998046875,
+      "avgGrade": 4.273146629333496,
+      "startLat": 31.683298110961914,
+      "startLng": 120.68866729736328
+    },
+    {
+      "id": "38431654",
+      "tileScore": 9,
+      "name": "北三环",
+      "distanceM": 7712.5,
+      "avgGrade": 0.10632090270519257,
+      "startLat": 31.6845703125,
+      "startLng": 120.77230834960938
+    },
+    {
+      "id": "27565003",
+      "tileScore": 6,
+      "name": "Cable car to left branch to graveyard exit",
+      "distanceM": 1440,
+      "avgGrade": -13.604166984558105,
+      "startLat": 31.665042877197266,
+      "startLng": 120.70433044433594
+    },
+    {
+      "id": "32385399",
+      "tileScore": 53,
+      "name": "虞山南路(到尚湖大桥)",
+      "distanceM": 3484.699951171875,
+      "avgGrade": 0.07461187243461609,
+      "startLat": 31.647619247436523,
+      "startLng": 120.72957611083984
+    },
+    {
+      "id": "14382382",
+      "tileScore": 12,
+      "name": "Bridge after water stop (Southbound)",
+      "distanceM": 465.1000061035156,
+      "avgGrade": 0.08600301295518875,
+      "startLat": 31.667842864990234,
+      "startLng": 120.68626403808594
+    },
+    {
+      "id": "37912569",
+      "tileScore": 7,
+      "name": "大陡降",
+      "distanceM": 672,
+      "avgGrade": -23.363096237182617,
+      "startLat": 31.676025390625,
+      "startLng": 120.68534088134766
+    },
+    {
+      "id": "41548429",
+      "tileScore": 54,
+      "name": "建安特线 Giant line",
+      "distanceM": 1029.5999755859375,
+      "avgGrade": -14.908702850341797,
+      "startLat": 31.6771183013916,
+      "startLng": 120.68831634521484
+    },
+    {
+      "id": "15051994",
+      "tileScore": 59,
+      "name": "The motherfucking WALL",
+      "distanceM": 1713.4000244140625,
+      "avgGrade": 11.871133804321289,
+      "startLat": 31.679847717285156,
+      "startLng": 120.70669555664062
+    },
+    {
+      "id": "30814814",
+      "tileScore": 30,
+      "name": "真的是最后一个坡啦",
+      "distanceM": 760.7999877929688,
+      "avgGrade": 10.80441665649414,
+      "startLat": 31.662954330444336,
+      "startLng": 120.70853424072266
+    },
+    {
+      "id": "41691240",
+      "tileScore": 117,
+      "name": "虞山itt中段下坡（安全第一）",
+      "distanceM": 710,
+      "avgGrade": -4.084506988525391,
+      "startLat": 31.675487518310547,
+      "startLng": 120.68722534179688
+    },
+    {
+      "id": "13068959",
+      "tileScore": 86,
+      "name": "Shanghu Top CCW",
+      "distanceM": 7059.7998046875,
+      "avgGrade": -0.016997648403048515,
+      "startLat": 31.662185668945312,
+      "startLng": 120.68495178222656
+    }
+  ]
+}

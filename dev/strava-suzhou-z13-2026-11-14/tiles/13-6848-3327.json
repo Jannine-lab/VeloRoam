@@ -1,0 +1,29 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-14T07:22:25.400Z",
+  "tile": {
+    "z": 13,
+    "x": 6848,
+    "y": 3327
+  },
+  "segments": [
+    {
+      "id": "40906817",
+      "tileScore": 5,
+      "name": "紫琅花谷绕圈有氧",
+      "distanceM": 1500.199951171875,
+      "avgGrade": 0.02666310966014862,
+      "startLat": 31.98394203186035,
+      "startLng": 120.93510437011719
+    },
+    {
+      "id": "38038465",
+      "tileScore": 6,
+      "name": "TongshengAve",
+      "distanceM": 8304.099609375,
+      "avgGrade": -0.002408448839560151,
+      "startLat": 32.04521942138672,
+      "startLng": 120.9437026977539
+    }
+  ]
+}

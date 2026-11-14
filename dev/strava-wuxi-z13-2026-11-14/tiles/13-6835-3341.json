@@ -1,0 +1,65 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-14T07:06:16.739Z",
+  "tile": {
+    "z": 13,
+    "x": 6835,
+    "y": 3341
+  },
+  "segments": [
+    {
+      "id": "40880638",
+      "tileScore": 118,
+      "name": "北太湖",
+      "distanceM": 12818.099609375,
+      "avgGrade": -0.009361762553453445,
+      "startLat": 31.431507110595703,
+      "startLng": 120.40818786621094
+    },
+    {
+      "id": "17833428",
+      "tileScore": 3,
+      "name": "Wuxi to Suzhou G312",
+      "distanceM": 13550.2998046875,
+      "avgGrade": -0.0014759821351617575,
+      "startLat": 31.470468521118164,
+      "startLng": 120.39439392089844
+    },
+    {
+      "id": "35222689",
+      "tileScore": 20,
+      "name": "Final Sprint 2 (W-E) ",
+      "distanceM": 1010.4000244140625,
+      "avgGrade": 0,
+      "startLat": 31.454673767089844,
+      "startLng": 120.39733123779297
+    },
+    {
+      "id": "21864305",
+      "tileScore": 37,
+      "name": "Taihu Coastline G312-Dongshan (70K)",
+      "distanceM": 69272.3984375,
+      "avgGrade": 0.0020210070069879293,
+      "startLat": 31.449859619140625,
+      "startLng": 120.41646575927734
+    },
+    {
+      "id": "12893198",
+      "tileScore": 22,
+      "name": "Taihu Shore Bicycle Path (Wangyu River to Fish Market)",
+      "distanceM": 6530.7001953125,
+      "avgGrade": 0.027562130242586136,
+      "startLat": 31.446502685546875,
+      "startLng": 120.40375518798828
+    },
+    {
+      "id": "40962801",
+      "tileScore": 49,
+      "name": "All the way along the lake (E-W)",
+      "distanceM": 19889.69921875,
+      "avgGrade": 0.0030166367068886757,
+      "startLat": 31.448610305786133,
+      "startLng": 120.40274047851562
+    }
+  ]
+}

@@ -1,0 +1,92 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-14T07:20:20.021Z",
+  "tile": {
+    "z": 13,
+    "x": 6856,
+    "y": 3340
+  },
+  "segments": [
+    {
+      "id": "33861134",
+      "tileScore": 24,
+      "name": "省界检查站",
+      "distanceM": 501.1000061035156,
+      "avgGrade": 0,
+      "startLat": 31.500120162963867,
+      "startLng": 121.29911041259766
+    },
+    {
+      "id": "27202479",
+      "tileScore": 6,
+      "name": "Get ready to climb Binjiang Bridge",
+      "distanceM": 3809.199951171875,
+      "avgGrade": 0.05775491148233414,
+      "startLat": 31.492998123168945,
+      "startLng": 121.32648468017578
+    },
+    {
+      "id": "39511022",
+      "tileScore": 59,
+      "name": "潘桥回程",
+      "distanceM": 505.20001220703125,
+      "avgGrade": 2.1971495151519775,
+      "startLat": 31.468799591064453,
+      "startLng": 121.3196029663086
+    },
+    {
+      "id": "40676306",
+      "tileScore": 10,
+      "name": "🐯发现的好路",
+      "distanceM": 9029.7998046875,
+      "avgGrade": -0.015504218637943268,
+      "startLat": 31.45059585571289,
+      "startLng": 121.219482421875
+    },
+    {
+      "id": "41175018",
+      "tileScore": 3,
+      "name": "Qiancao Road",
+      "distanceM": 2864.800048828125,
+      "avgGrade": -0.24434514343738556,
+      "startLat": 31.48108673095703,
+      "startLng": 121.29939270019531
+    },
+    {
+      "id": "12579530",
+      "tileScore": 7,
+      "name": "蕴川公路（杨桥-石太路）",
+      "distanceM": 11312.2998046875,
+      "avgGrade": -0.0035359743051230907,
+      "startLat": 31.49881362915039,
+      "startLng": 121.2906494140625
+    },
+    {
+      "id": "31149236",
+      "tileScore": 5,
+      "name": "S126 Final Dash",
+      "distanceM": 2656,
+      "avgGrade": -0.0150602413341403,
+      "startLat": 31.473331451416016,
+      "startLng": 121.31913757324219
+    },
+    {
+      "id": "34369359",
+      "tileScore": 6,
+      "name": "Shanghai hairpin",
+      "distanceM": 747.2999877929688,
+      "avgGrade": 0.026763012632727623,
+      "startLat": 31.49974250793457,
+      "startLng": 121.3057632446289
+    },
+    {
+      "id": "27202541",
+      "tileScore": 7,
+      "name": "Panjing grand straight road",
+      "distanceM": 15455.5,
+      "avgGrade": -0.016822488978505135,
+      "startLat": 31.48887825012207,
+      "startLng": 121.32933807373047
+    }
+  ]
+}

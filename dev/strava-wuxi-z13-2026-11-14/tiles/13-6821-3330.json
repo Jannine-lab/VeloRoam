@@ -1,0 +1,20 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-14T07:12:04.779Z",
+  "tile": {
+    "z": 13,
+    "x": 6821,
+    "y": 3330
+  },
+  "segments": [
+    {
+      "id": "30066918",
+      "tileScore": 2,
+      "name": "G312: ChangZhou-> DanYang",
+      "distanceM": 28762.80078125,
+      "avgGrade": 0.020860278978943825,
+      "startLat": 31.80023765563965,
+      "startLng": 119.85284423828125
+    }
+  ]
+}

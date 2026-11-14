@@ -1,0 +1,92 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-14T07:08:16.960Z",
+  "tile": {
+    "z": 13,
+    "x": 6839,
+    "y": 3348
+  },
+  "segments": [
+    {
+      "id": "20814571",
+      "tileScore": 18,
+      "name": "as fast as you can",
+      "distanceM": 22303.400390625,
+      "avgGrade": -0.006277069915086031,
+      "startLat": 31.17060661315918,
+      "startLng": 120.57173156738281
+    },
+    {
+      "id": "18157271",
+      "tileScore": 38,
+      "name": "滨湖大道折返点回起点",
+      "distanceM": 7356.39990234375,
+      "avgGrade": 0.021749768406152725,
+      "startLat": 31.167818069458008,
+      "startLng": 120.56814575195312
+    },
+    {
+      "id": "33207310",
+      "tileScore": 2,
+      "name": "天鹅岛滨湖大道",
+      "distanceM": 1460.699951171875,
+      "avgGrade": -0.013692066073417664,
+      "startLat": 31.174070358276367,
+      "startLng": 120.58042907714844
+    },
+    {
+      "id": "30384821",
+      "tileScore": 2,
+      "name": "THL-4",
+      "distanceM": 116824.5,
+      "avgGrade": -0.0025679543614387512,
+      "startLat": 31.206161499023438,
+      "startLng": 121.28252410888672
+    },
+    {
+      "id": "33603225",
+      "tileScore": 10,
+      "name": "吴中大道极限操作",
+      "distanceM": 12635.599609375,
+      "avgGrade": 0.011079806834459305,
+      "startLat": 31.228336334228516,
+      "startLng": 120.60233306884766
+    },
+    {
+      "id": "37257254",
+      "tileScore": 3,
+      "name": "黑练哥最后冲一把",
+      "distanceM": 541.9000244140625,
+      "avgGrade": -0.2583502531051636,
+      "startLat": 31.19173812866211,
+      "startLng": 120.56766510009766
+    },
+    {
+      "id": "40564534",
+      "tileScore": 34,
+      "name": "环太湖",
+      "distanceM": 151856.5,
+      "avgGrade": 0.0009219230269081891,
+      "startLat": 31.187686920166016,
+      "startLng": 120.47770690917969
+    },
+    {
+      "id": "26611499",
+      "tileScore": 7,
+      "name": "Taihu 300km extension",
+      "distanceM": 37416.69921875,
+      "avgGrade": -0.014432058669626713,
+      "startLat": 31.227924346923828,
+      "startLng": 120.44613647460938
+    },
+    {
+      "id": "18785012",
+      "tileScore": 24,
+      "name": "Rick’s Relaxing Road",
+      "distanceM": 25785,
+      "avgGrade": 0.011634672060608864,
+      "startLat": 31.1710147857666,
+      "startLng": 120.57261657714844
+    }
+  ]
+}

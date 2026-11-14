@@ -1,0 +1,74 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-14T07:15:36.814Z",
+  "tile": {
+    "z": 13,
+    "x": 6847,
+    "y": 3342
+  },
+  "segments": [
+    {
+      "id": "29385991",
+      "tileScore": 23,
+      "name": "Riverside Southbound",
+      "distanceM": 1107.4000244140625,
+      "avgGrade": -0.009030160494148731,
+      "startLat": 31.39906883239746,
+      "startLng": 120.91483306884766
+    },
+    {
+      "id": "13400607",
+      "tileScore": 12,
+      "name": "Xiaolin W Rd x Liu River Bridge (Westbound)",
+      "distanceM": 480,
+      "avgGrade": 1.7083333730697632,
+      "startLat": 31.406526565551758,
+      "startLng": 120.93681335449219
+    },
+    {
+      "id": "30850029",
+      "tileScore": 9,
+      "name": "TA-DKU Commute_Xiaolin Rd to roundabout",
+      "distanceM": 567.5999755859375,
+      "avgGrade": -0.0880902037024498,
+      "startLat": 31.409408569335938,
+      "startLng": 120.90284729003906
+    },
+    {
+      "id": "26160497",
+      "tileScore": 17,
+      "name": "S339 Kunshan Bridge (Westbound)",
+      "distanceM": 553.0999755859375,
+      "avgGrade": 1.1571145057678223,
+      "startLat": 31.41596221923828,
+      "startLng": 120.92449951171875
+    },
+    {
+      "id": "37121217",
+      "tileScore": 9,
+      "name": "昆中绕圈 KZ Loop",
+      "distanceM": 2636.800048828125,
+      "avgGrade": 0.007584951352328062,
+      "startLat": 31.419357299804688,
+      "startLng": 120.89048767089844
+    },
+    {
+      "id": "26160602",
+      "tileScore": 1,
+      "name": "Connector to S339 ",
+      "distanceM": 4325.7998046875,
+      "avgGrade": 0.03698737546801567,
+      "startLat": 31.4565486907959,
+      "startLng": 120.9233169555664
+    },
+    {
+      "id": "35688837",
+      "tileScore": 9,
+      "name": "萧林路",
+      "distanceM": 2433.5,
+      "avgGrade": -0.0164372306317091,
+      "startLat": 31.403194427490234,
+      "startLng": 120.89012908935547
+    }
+  ]
+}

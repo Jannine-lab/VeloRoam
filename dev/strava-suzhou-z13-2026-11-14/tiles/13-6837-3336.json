@@ -1,0 +1,74 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-14T07:06:45.225Z",
+  "tile": {
+    "z": 13,
+    "x": 6837,
+    "y": 3336
+  },
+  "segments": [
+    {
+      "id": "32081583",
+      "tileScore": 31,
+      "name": "Jiaoyang Ave Runxi2Houshan",
+      "distanceM": 3143.199951171875,
+      "avgGrade": 0.15907354652881622,
+      "startLat": 31.622314453125,
+      "startLng": 120.46319580078125
+    },
+    {
+      "id": "28424535",
+      "tileScore": 2,
+      "name": "吼山北路",
+      "distanceM": 2974.89990234375,
+      "avgGrade": 0.3630374073982239,
+      "startLat": 31.62872314453125,
+      "startLng": 120.45540618896484
+    },
+    {
+      "id": "22308189",
+      "tileScore": 1,
+      "name": "Xiyu Road Westbound",
+      "distanceM": 15207.7001953125,
+      "avgGrade": -0.006575616076588631,
+      "startLat": 31.637147903442383,
+      "startLng": 120.56355285644531
+    },
+    {
+      "id": "32036655",
+      "tileScore": 8,
+      "name": "玉皇殿",
+      "distanceM": 517.7999877929688,
+      "avgGrade": 1.042873740196228,
+      "startLat": 31.62301254272461,
+      "startLng": 120.45639038085938
+    },
+    {
+      "id": "29634840",
+      "tileScore": 2,
+      "name": "联福-锡港-东廊-锡虞环线",
+      "distanceM": 10567.2998046875,
+      "avgGrade": 0.02176525816321373,
+      "startLat": 31.636367797851562,
+      "startLng": 120.49630737304688
+    },
+    {
+      "id": "32159333",
+      "tileScore": 4,
+      "name": "Zoumatang Bridge E2W",
+      "distanceM": 711,
+      "avgGrade": -0.05625879392027855,
+      "startLat": 31.636045455932617,
+      "startLng": 120.48404693603516
+    },
+    {
+      "id": "33920168",
+      "tileScore": 80,
+      "name": "凯 胶阳路大圈 就是干！",
+      "distanceM": 12345.400390625,
+      "avgGrade": -0.012960292398929596,
+      "startLat": 31.610244750976562,
+      "startLng": 120.42422485351562
+    }
+  ]
+}

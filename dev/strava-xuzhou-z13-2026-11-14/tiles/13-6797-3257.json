@@ -1,0 +1,20 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-14T06:50:33.271Z",
+  "tile": {
+    "z": 13,
+    "x": 6797,
+    "y": 3257
+  },
+  "segments": [
+    {
+      "id": "37408661",
+      "tileScore": 40,
+      "name": "水晶城红绿灯到朱沟",
+      "distanceM": 16497.80078125,
+      "avgGrade": 0.11395459622144699,
+      "startLat": 34.54231262207031,
+      "startLng": 118.72966766357422
+    }
+  ]
+}

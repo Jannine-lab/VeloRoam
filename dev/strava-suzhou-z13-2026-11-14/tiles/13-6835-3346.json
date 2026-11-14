@@ -1,0 +1,101 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-14T07:07:34.115Z",
+  "tile": {
+    "z": 13,
+    "x": 6835,
+    "y": 3346
+  },
+  "segments": [
+    {
+      "id": "27775851",
+      "tileScore": 33,
+      "name": "Airport view climb (southbound)",
+      "distanceM": 2500.89990234375,
+      "avgGrade": 7.133431911468506,
+      "startLat": 31.255447387695312,
+      "startLng": 120.39440155029297
+    },
+    {
+      "id": "37686390",
+      "tileScore": 13,
+      "name": "环香山路-白马寺路",
+      "distanceM": 6803.89990234375,
+      "avgGrade": -0.061729300767183304,
+      "startLat": 31.25667953491211,
+      "startLng": 120.40483856201172
+    },
+    {
+      "id": "33877285",
+      "tileScore": 22,
+      "name": "Let it loose",
+      "distanceM": 1733.0999755859375,
+      "avgGrade": -0.08078010380268097,
+      "startLat": 31.248779296875,
+      "startLng": 120.39224243164062
+    },
+    {
+      "id": "24743348",
+      "tileScore": 66,
+      "name": "太湖大道——潭山顶",
+      "distanceM": 2974.10009765625,
+      "avgGrade": 6.845768451690674,
+      "startLat": 31.26034927368164,
+      "startLng": 120.36070251464844
+    },
+    {
+      "id": "25979970",
+      "tileScore": 14,
+      "name": "Runway Rd (Northbound)",
+      "distanceM": 2259.89990234375,
+      "avgGrade": 0.05309969559311867,
+      "startLat": 31.25672149658203,
+      "startLng": 120.39874267578125
+    },
+    {
+      "id": "20756574",
+      "tileScore": 13,
+      "name": "Northbound Guangfu Bump",
+      "distanceM": 455.1000061035156,
+      "avgGrade": 10.459239959716797,
+      "startLat": 31.270212173461914,
+      "startLng": 120.3667221069336
+    },
+    {
+      "id": "24822796",
+      "tileScore": 80,
+      "name": "苏州环太湖大道（疗养院-小卖部）",
+      "distanceM": 15557.099609375,
+      "avgGrade": -0.039853185415267944,
+      "startLat": 31.31816291809082,
+      "startLng": 120.32451629638672
+    },
+    {
+      "id": "5227141",
+      "tileScore": 25,
+      "name": "Tongxin Road Climb",
+      "distanceM": 1593.800048828125,
+      "avgGrade": 10.52202320098877,
+      "startLat": 31.27526092529297,
+      "startLng": 120.38983917236328
+    },
+    {
+      "id": "14426282",
+      "tileScore": 52,
+      "name": "Small stretch of X204 (Southbound)",
+      "distanceM": 8463.599609375,
+      "avgGrade": 0.021267546340823174,
+      "startLat": 31.274995803833008,
+      "startLng": 120.3420639038086
+    },
+    {
+      "id": "21864305",
+      "tileScore": 37,
+      "name": "Taihu Coastline G312-Dongshan (70K)",
+      "distanceM": 69272.3984375,
+      "avgGrade": 0.0020210070069879293,
+      "startLat": 31.449859619140625,
+      "startLng": 120.41646575927734
+    }
+  ]
+}

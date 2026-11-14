@@ -1,5 +1,13 @@
 {
-  "status": "waiting_for_shanghai",
-  "updatedAt": "2026-11-09T20:14:09.606Z",
-  "precedingPid": 31189
+  "status": "needs_attention",
+  "updatedAt": "2026-11-11T11:44:59.129Z",
+  "precedingPid": 31189,
+  "importResult": {
+    "code": 1,
+    "signal": null
+  },
+  "scoresResult": {
+    "code": 1,
+    "signal": null
+  }
 }

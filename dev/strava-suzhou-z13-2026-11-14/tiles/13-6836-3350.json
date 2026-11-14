@@ -1,0 +1,83 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-14T07:10:07.563Z",
+  "tile": {
+    "z": 13,
+    "x": 6836,
+    "y": 3350
+  },
+  "segments": [
+    {
+      "id": "17386232",
+      "tileScore": 53,
+      "name": "环东山（东山宾馆—码头)",
+      "distanceM": 16815.80078125,
+      "avgGrade": -0.03330201283097267,
+      "startLat": 31.09560775756836,
+      "startLng": 120.41627502441406
+    },
+    {
+      "id": "20213117",
+      "tileScore": 41,
+      "name": "环湖路to东山宾馆",
+      "distanceM": 1181.199951171875,
+      "avgGrade": -0.11852353066205978,
+      "startLat": 31.094263076782227,
+      "startLng": 120.42092895507812
+    },
+    {
+      "id": "33401272",
+      "tileScore": 47,
+      "name": "东西山超级有氧",
+      "distanceM": 137358.703125,
+      "avgGrade": 0.00873624999076128,
+      "startLat": 31.187084197998047,
+      "startLng": 120.4767837524414
+    },
+    {
+      "id": "35730267",
+      "tileScore": 44,
+      "name": "吴江疾风逆环东山红绿灯-腾飞路口",
+      "distanceM": 3915,
+      "avgGrade": -0.010217113420367241,
+      "startLat": 31.094528198242188,
+      "startLng": 120.42231750488281
+    },
+    {
+      "id": "34942339",
+      "tileScore": 6,
+      "name": "Mr z open the door",
+      "distanceM": 1370.9000244140625,
+      "avgGrade": -0.2042454034090042,
+      "startLat": 31.122451782226562,
+      "startLng": 120.43653869628906
+    },
+    {
+      "id": "15330583",
+      "tileScore": 57,
+      "name": "dongshan 30KM",
+      "distanceM": 30081.900390625,
+      "avgGrade": -0.006648516282439232,
+      "startLat": 31.187458038330078,
+      "startLng": 120.47698974609375
+    },
+    {
+      "id": "15356228",
+      "tileScore": 43,
+      "name": "东山itt训练路线",
+      "distanceM": 55574.1015625,
+      "avgGrade": 0.002339219208806753,
+      "startLat": 31.18752098083496,
+      "startLng": 120.4769515991211
+    },
+    {
+      "id": "8369915",
+      "tileScore": 35,
+      "name": "X204 Hubin Rd to Dongshan Visitor Center (Southbound)",
+      "distanceM": 12576.400390625,
+      "avgGrade": -0.023059062659740448,
+      "startLat": 31.1873779296875,
+      "startLng": 120.4769058227539
+    }
+  ]
+}

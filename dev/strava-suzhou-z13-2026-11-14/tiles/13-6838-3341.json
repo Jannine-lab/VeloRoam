@@ -1,0 +1,29 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-14T07:06:54.712Z",
+  "tile": {
+    "z": 13,
+    "x": 6838,
+    "y": 3341
+  },
+  "segments": [
+    {
+      "id": "41951095",
+      "tileScore": 4,
+      "name": "Long way to the bridge ",
+      "distanceM": 27068.599609375,
+      "avgGrade": -0.009605225175619125,
+      "startLat": 31.52006721496582,
+      "startLng": 120.57653045654297
+    },
+    {
+      "id": "33610939",
+      "tileScore": 4,
+      "name": "TT from Caohu Lake 12km",
+      "distanceM": 11786.599609375,
+      "avgGrade": 0.015271579846739769,
+      "startLat": 31.4779109954834,
+      "startLng": 120.56510925292969
+    }
+  ]
+}

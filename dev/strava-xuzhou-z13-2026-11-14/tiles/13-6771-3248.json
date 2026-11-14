@@ -1,0 +1,20 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-14T06:41:05.051Z",
+  "tile": {
+    "z": 13,
+    "x": 6771,
+    "y": 3248
+  },
+  "segments": [
+    {
+      "id": "35576344",
+      "tileScore": 3,
+      "name": "环城夜骑",
+      "distanceM": 21713.80078125,
+      "avgGrade": 0,
+      "startLat": 34.82164001464844,
+      "startLng": 117.57683563232422
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-14T06:58:35.679Z",
+  "tile": {
+    "z": 13,
+    "x": 6818,
+    "y": 3321
+  },
+  "segments": [
+    {
+      "id": "34151044",
+      "tileScore": 11,
+      "name": "大港鲁贝！",
+      "distanceM": 8682.400390625,
+      "avgGrade": 0.06680180877447128,
+      "startLat": 32.175167083740234,
+      "startLng": 119.59064483642578
+    }
+  ]
+}

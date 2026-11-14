@@ -1,0 +1,56 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-14T07:06:18.590Z",
+  "tile": {
+    "z": 13,
+    "x": 6833,
+    "y": 3339
+  },
+  "segments": [
+    {
+      "id": "30067026",
+      "tileScore": 6,
+      "name": "Wuxi: Canal road",
+      "distanceM": 10053.599609375,
+      "avgGrade": 0.023872045800089836,
+      "startLat": 31.528690338134766,
+      "startLng": 120.3405990600586
+    },
+    {
+      "id": "24372581",
+      "tileScore": 2,
+      "name": "金城西路蠡湖段",
+      "distanceM": 2309.800048828125,
+      "avgGrade": -0.008658758364617825,
+      "startLat": 31.52392578125,
+      "startLng": 120.26904296875
+    },
+    {
+      "id": "18587314",
+      "tileScore": 1,
+      "name": "Jinshi rd up canal bridge",
+      "distanceM": 682.0999755859375,
+      "avgGrade": 1.6126668453216553,
+      "startLat": 31.530609130859375,
+      "startLng": 120.31554412841797
+    },
+    {
+      "id": "6981915",
+      "tileScore": 1,
+      "name": "Commute segment (Wuhu-Jinshi)",
+      "distanceM": 3574.39990234375,
+      "avgGrade": 0.030774395912885666,
+      "startLat": 31.498336791992188,
+      "startLng": 120.28618621826172
+    },
+    {
+      "id": "16940294",
+      "tileScore": 1,
+      "name": "Down and Out",
+      "distanceM": 4210.2998046875,
+      "avgGrade": -0.1615086793899536,
+      "startLat": 31.538738250732422,
+      "startLng": 120.2530517578125
+    }
+  ]
+}

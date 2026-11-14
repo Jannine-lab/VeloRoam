@@ -1,0 +1,65 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-14T07:06:27.831Z",
+  "tile": {
+    "z": 13,
+    "x": 6830,
+    "y": 3339
+  },
+  "segments": [
+    {
+      "id": "14485953",
+      "tileScore": 330,
+      "name": "马山大圈 Mashan Circuit",
+      "distanceM": 58948.69921875,
+      "avgGrade": 0.0011874731862917542,
+      "startLat": 31.55048942565918,
+      "startLng": 120.18302154541016
+    },
+    {
+      "id": "35467745",
+      "tileScore": 113,
+      "name": "十八弯回城桥",
+      "distanceM": 1997.300048828125,
+      "avgGrade": 0.6108246445655823,
+      "startLat": 31.51170539855957,
+      "startLng": 120.13172912597656
+    },
+    {
+      "id": "34785706",
+      "tileScore": 5,
+      "name": "Jinyuan Rd (W-E) ",
+      "distanceM": 5791.7998046875,
+      "avgGrade": 0.10877446830272675,
+      "startLat": 31.549989700317383,
+      "startLng": 120.18719482421875
+    },
+    {
+      "id": "7311482",
+      "tileScore": 293,
+      "name": "ITT Segment 5km@18 Wan(W-E)[十八湾5公里个人计时赛段 铺装路on-road]",
+      "distanceM": 4950,
+      "avgGrade": -0.19393938779830933,
+      "startLat": 31.515426635742188,
+      "startLng": 120.15125274658203
+    },
+    {
+      "id": "25879304",
+      "tileScore": 94,
+      "name": "Double Bump (Northbound)",
+      "distanceM": 658,
+      "avgGrade": 2.0060789585113525,
+      "startLat": 31.520233154296875,
+      "startLng": 120.15315246582031
+    },
+    {
+      "id": "1039952",
+      "tileScore": 46,
+      "name": "HuanTaiHu Highway Large Bridge Towards NorthEast",
+      "distanceM": 235.38699340820312,
+      "avgGrade": 9.175870895385742,
+      "startLat": 31.51291275024414,
+      "startLng": 120.14960479736328
+    }
+  ]
+}

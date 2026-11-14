@@ -1,0 +1,20 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-14T06:48:19.319Z",
+  "tile": {
+    "z": 13,
+    "x": 6784,
+    "y": 3245
+  },
+  "segments": [
+    {
+      "id": "41322490",
+      "tileScore": 4,
+      "name": "郎公寺正爬转弯到停车场",
+      "distanceM": 928.4000244140625,
+      "avgGrade": 1.1848341226577759,
+      "startLat": 34.98973846435547,
+      "startLng": 118.12831115722656
+    }
+  ]
+}

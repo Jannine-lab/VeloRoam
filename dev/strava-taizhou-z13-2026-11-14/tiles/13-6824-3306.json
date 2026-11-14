@@ -1,0 +1,20 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-14T06:57:49.011Z",
+  "tile": {
+    "z": 13,
+    "x": 6824,
+    "y": 3306
+  },
+  "segments": [
+    {
+      "id": "22051531",
+      "tileScore": 7,
+      "name": "S352周泽段",
+      "distanceM": 2930.60009765625,
+      "avgGrade": -0.09554357081651688,
+      "startLat": 32.73583984375,
+      "startLng": 119.90624237060547
+    }
+  ]
+}

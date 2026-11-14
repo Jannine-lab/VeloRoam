@@ -1,0 +1,65 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-14T07:26:41.692Z",
+  "tile": {
+    "z": 13,
+    "x": 6853,
+    "y": 3360
+  },
+  "segments": [
+    {
+      "id": "39072465",
+      "tileScore": 98,
+      "name": "新庙—广陈逆风冲冲冲",
+      "distanceM": 6476.2001953125,
+      "avgGrade": -0.0030882307328283787,
+      "startLat": 30.74325942993164,
+      "startLng": 121.1958999633789
+    },
+    {
+      "id": "39053339",
+      "tileScore": 11,
+      "name": "平廊ITT时刻-1",
+      "distanceM": 4239,
+      "avgGrade": 0.023590469732880592,
+      "startLat": 30.718780517578125,
+      "startLng": 121.17595672607422
+    },
+    {
+      "id": "39061274",
+      "tileScore": 4,
+      "name": "爱心520",
+      "distanceM": 52129.6015625,
+      "avgGrade": -0.01649734564125538,
+      "startLat": 30.710369110107422,
+      "startLng": 121.0606689453125
+    },
+    {
+      "id": "38769115",
+      "tileScore": 7,
+      "name": "Pinglang Hwy (Northbound)",
+      "distanceM": 5109,
+      "avgGrade": -0.019573302939534187,
+      "startLat": 30.743623733520508,
+      "startLng": 121.1964340209961
+    },
+    {
+      "id": "39095689",
+      "tileScore": 1,
+      "name": "2025平湖，麒麟汇走错路的路口",
+      "distanceM": 97391,
+      "avgGrade": -0.0010267889592796564,
+      "startLat": 30.767906188964844,
+      "startLng": 120.98878479003906
+    },
+    {
+      "id": "39060939",
+      "tileScore": 99,
+      "name": "新仓to525",
+      "distanceM": 13436.7998046875,
+      "avgGrade": -0.0074422480538487434,
+      "startLat": 30.74393081665039,
+      "startLng": 121.1943130493164
+    }
+  ]
+}

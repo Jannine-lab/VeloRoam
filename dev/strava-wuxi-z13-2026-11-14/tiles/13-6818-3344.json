@@ -1,0 +1,20 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-14T07:11:59.164Z",
+  "tile": {
+    "z": 13,
+    "x": 6818,
+    "y": 3344
+  },
+  "segments": [
+    {
+      "id": "31853836",
+      "tileScore": 14,
+      "name": "张渚-宜兴",
+      "distanceM": 14580.7998046875,
+      "avgGrade": 0.030176671221852303,
+      "startLat": 31.27104949951172,
+      "startLng": 119.63643646240234
+    }
+  ]
+}

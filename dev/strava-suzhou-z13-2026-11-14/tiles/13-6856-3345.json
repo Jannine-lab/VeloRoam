@@ -1,0 +1,209 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-14T07:20:02.931Z",
+  "tile": {
+    "z": 13,
+    "x": 6856,
+    "y": 3345
+  },
+  "segments": [
+    {
+      "id": "39702741",
+      "tileScore": 152,
+      "name": "金昌路itt最后一段",
+      "distanceM": 3215.300048828125,
+      "avgGrade": -0.06842285394668579,
+      "startLat": 31.28264808654785,
+      "startLng": 121.30937957763672
+    },
+    {
+      "id": "7914017",
+      "tileScore": 14,
+      "name": "scp ",
+      "distanceM": 1252,
+      "avgGrade": -0.015974439680576324,
+      "startLat": 31.28597068786621,
+      "startLng": 121.31990814208984
+    },
+    {
+      "id": "32011709",
+      "tileScore": 11,
+      "name": "上海葛隆检查站",
+      "distanceM": 20198.900390625,
+      "avgGrade": -0.011881834827363491,
+      "startLat": 31.301441192626953,
+      "startLng": 121.2960205078125
+    },
+    {
+      "id": "19133430",
+      "tileScore": 71,
+      "name": "lake lap",
+      "distanceM": 1496.5999755859375,
+      "avgGrade": -0.12027261406183243,
+      "startLat": 31.314462661743164,
+      "startLng": 121.30848693847656
+    },
+    {
+      "id": "37614706",
+      "tileScore": 146,
+      "name": "金昌路BIG LOOP",
+      "distanceM": 29913,
+      "avgGrade": -0.0020058169029653072,
+      "startLat": 31.27105712890625,
+      "startLng": 121.36869049072266
+    },
+    {
+      "id": "41123475",
+      "tileScore": 1,
+      "name": "上海西～中冶祥腾（线路1）",
+      "distanceM": 10495,
+      "avgGrade": 0.019056692719459534,
+      "startLat": 31.26365852355957,
+      "startLng": 121.3976821899414
+    },
+    {
+      "id": "41599385",
+      "tileScore": 9,
+      "name": "留云湖边上玩绕圈赛 ",
+      "distanceM": 1207.9000244140625,
+      "avgGrade": 0,
+      "startLat": 31.313867568969727,
+      "startLng": 121.30831146240234
+    },
+    {
+      "id": "21790884",
+      "tileScore": 9,
+      "name": "Morning 1K",
+      "distanceM": 1052.5,
+      "avgGrade": -0.05700712651014328,
+      "startLat": 31.298290252685547,
+      "startLng": 121.3149642944336
+    },
+    {
+      "id": "41123469",
+      "tileScore": 7,
+      "name": "众仁路～中冶祥腾",
+      "distanceM": 2423,
+      "avgGrade": -0.03301692008972168,
+      "startLat": 31.27996063232422,
+      "startLng": 121.32821655273438
+    },
+    {
+      "id": "21192591",
+      "tileScore": 2,
+      "name": "瑞林路回程  by yuuu",
+      "distanceM": 524,
+      "avgGrade": -0.07633587718009949,
+      "startLat": 31.312530517578125,
+      "startLng": 121.30093383789062
+    },
+    {
+      "id": "39698656",
+      "tileScore": 7,
+      "name": "间歇训练不停脚冲",
+      "distanceM": 4155.60009765625,
+      "avgGrade": 0.057753391563892365,
+      "startLat": 31.305620193481445,
+      "startLng": 121.32344055175781
+    },
+    {
+      "id": "38974646",
+      "tileScore": 10,
+      "name": "J's Taopu/Longnan TT",
+      "distanceM": 10157,
+      "avgGrade": -0.05907256156206131,
+      "startLat": 31.262096405029297,
+      "startLng": 121.39192199707031
+    },
+    {
+      "id": "39209488",
+      "tileScore": 2,
+      "name": "金昌路（十字路口）～沪宜公路",
+      "distanceM": 2357.5,
+      "avgGrade": -0.04241781309247017,
+      "startLat": 31.292139053344727,
+      "startLng": 121.27421569824219
+    },
+    {
+      "id": "28409724",
+      "tileScore": 3,
+      "name": "蓝色路线·Morning-1",
+      "distanceM": 9906,
+      "avgGrade": -0.06864526867866516,
+      "startLat": 31.29651641845703,
+      "startLng": 121.32026672363281
+    },
+    {
+      "id": "12974072",
+      "tileScore": 19,
+      "name": "Yunzaobang Bridge 薀藻浜大桥 Northbound",
+      "distanceM": 1192.800048828125,
+      "avgGrade": 0,
+      "startLat": 31.31121826171875,
+      "startLng": 121.29222106933594
+    },
+    {
+      "id": "29885575",
+      "tileScore": 3,
+      "name": "SBD-007",
+      "distanceM": 5933.2001953125,
+      "avgGrade": -0.01853974163532257,
+      "startLat": 31.332109451293945,
+      "startLng": 121.28026580810547
+    },
+    {
+      "id": "31221443",
+      "tileScore": 7,
+      "name": "安亭儿童乐园-Bikehome",
+      "distanceM": 47152.19921875,
+      "avgGrade": -0.009755642153322697,
+      "startLat": 31.239341735839844,
+      "startLng": 121.36277770996094
+    },
+    {
+      "id": "16055519",
+      "tileScore": 5,
+      "name": "嘉绣东路 blast",
+      "distanceM": 1383,
+      "avgGrade": 0.18799711763858795,
+      "startLat": 31.317720413208008,
+      "startLng": 121.30369567871094
+    },
+    {
+      "id": "39326024",
+      "tileScore": 1,
+      "name": "留云中学（大桥）☞ 西",
+      "distanceM": 659.9000244140625,
+      "avgGrade": 0.04546143487095833,
+      "startLat": 31.315750122070312,
+      "startLng": 121.3202896118164
+    },
+    {
+      "id": "41304268",
+      "tileScore": 127,
+      "name": "Jinchangstr.",
+      "distanceM": 6202,
+      "avgGrade": -0.006449532695114613,
+      "startLat": 31.282506942749023,
+      "startLng": 121.30982971191406
+    },
+    {
+      "id": "39338860",
+      "tileScore": 34,
+      "name": "南翔~翔江公路",
+      "distanceM": 2616,
+      "avgGrade": 0.1223241537809372,
+      "startLat": 31.284929275512695,
+      "startLng": 121.30001831054688
+    },
+    {
+      "id": "26095531",
+      "tileScore": 29,
+      "name": "华翔路铁路桥（南~北）",
+      "distanceM": 537.5,
+      "avgGrade": 3.200000047683716,
+      "startLat": 31.276277542114258,
+      "startLng": 121.30753326416016
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-14T07:11:03.933Z",
+  "tile": {
+    "z": 13,
+    "x": 6825,
+    "y": 3331
+  },
+  "segments": [
+    {
+      "id": "39523486",
+      "tileScore": 10,
+      "name": "长江路通勤冲刺！",
+      "distanceM": 710.2000122070312,
+      "avgGrade": -0.028161082416772842,
+      "startLat": 31.832216262817383,
+      "startLng": 119.94281005859375
+    },
+    {
+      "id": "3607703",
+      "tileScore": 3,
+      "name": "JinLing Drag",
+      "distanceM": 6760.0498046875,
+      "avgGrade": -0.21153846383094788,
+      "startLat": 31.780345916748047,
+      "startLng": 119.95416259765625
+    },
+    {
+      "id": "1830589",
+      "tileScore": 13,
+      "name": "THE JUMP OFF SPRINT ",
+      "distanceM": 2071.928955078125,
+      "avgGrade": -0.06756757199764252,
+      "startLat": 31.813329696655273,
+      "startLng": 119.95462799072266
+    }
+  ]
+}

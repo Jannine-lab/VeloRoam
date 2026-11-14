@@ -1,0 +1,20 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-14T06:56:13.571Z",
+  "tile": {
+    "z": 13,
+    "x": 6828,
+    "y": 3311
+  },
+  "segments": [
+    {
+      "id": "36848576",
+      "tileScore": 35,
+      "name": "湊湖大道南往北",
+      "distanceM": 4369,
+      "avgGrade": -0.08239872008562088,
+      "startLat": 32.57549285888672,
+      "startLng": 120.09235382080078
+    }
+  ]
+}

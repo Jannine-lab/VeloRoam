@@ -1,0 +1,47 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-14T07:07:37.998Z",
+  "tile": {
+    "z": 13,
+    "x": 6838,
+    "y": 3345
+  },
+  "segments": [
+    {
+      "id": "39891568",
+      "tileScore": 5,
+      "name": "苏州五峰环线 （玉山路起止）",
+      "distanceM": 33626.3984375,
+      "avgGrade": 0.008326790295541286,
+      "startLat": 31.283851623535156,
+      "startLng": 120.51029968261719
+    },
+    {
+      "id": "10571821",
+      "tileScore": 2,
+      "name": "Tianpingshan Lake Loop (Anticlockwise)",
+      "distanceM": 2547.5,
+      "avgGrade": 0.015701668336987495,
+      "startLat": 31.283544540405273,
+      "startLng": 120.50499725341797
+    },
+    {
+      "id": "29885422",
+      "tileScore": 25,
+      "name": "Takashi's the last 300 m climb at 13%",
+      "distanceM": 353.3999938964844,
+      "avgGrade": 12.110922813415527,
+      "startLat": 31.294979095458984,
+      "startLng": 120.50132751464844
+    },
+    {
+      "id": "11899472",
+      "tileScore": 3,
+      "name": "302 Country Rd (Northbound)",
+      "distanceM": 2253.199951171875,
+      "avgGrade": -0.14202024042606354,
+      "startLat": 31.300416946411133,
+      "startLng": 120.487060546875
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-14T07:01:20.119Z",
+  "tile": {
+    "z": 13,
+    "x": 6834,
+    "y": 3304
+  },
+  "segments": [
+    {
+      "id": "39338582",
+      "tileScore": 37,
+      "name": "双堡桥蛮干-小帅",
+      "distanceM": 2187.800048828125,
+      "avgGrade": 0.10055763274431229,
+      "startLat": 32.81790542602539,
+      "startLng": 120.38153839111328
+    }
+  ]
+}

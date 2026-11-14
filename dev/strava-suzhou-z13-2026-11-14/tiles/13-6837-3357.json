@@ -1,0 +1,20 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-14T07:16:43.487Z",
+  "tile": {
+    "z": 13,
+    "x": 6837,
+    "y": 3357
+  },
+  "segments": [
+    {
+      "id": "39095039",
+      "tileScore": 85,
+      "name": "桃源东向西",
+      "distanceM": 4710.5,
+      "avgGrade": 0.004245833959430456,
+      "startLat": 30.841957092285156,
+      "startLng": 120.4832763671875
+    }
+  ]
+}

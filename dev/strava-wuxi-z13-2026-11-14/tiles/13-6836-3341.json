@@ -1,0 +1,56 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-14T07:06:31.820Z",
+  "tile": {
+    "z": 13,
+    "x": 6836,
+    "y": 3341
+  },
+  "segments": [
+    {
+      "id": "17833428",
+      "tileScore": 3,
+      "name": "Wuxi to Suzhou G312",
+      "distanceM": 13550.2998046875,
+      "avgGrade": -0.0014759821351617575,
+      "startLat": 31.470468521118164,
+      "startLng": 120.39439392089844
+    },
+    {
+      "id": "21864386",
+      "tileScore": 5,
+      "name": "Fengle Bridge (Westbound)",
+      "distanceM": 476.8999938964844,
+      "avgGrade": 0.7968127727508545,
+      "startLat": 31.454463958740234,
+      "startLng": 120.42660522460938
+    },
+    {
+      "id": "5101486",
+      "tileScore": 3,
+      "name": "Changjiang Nan Road up to G312",
+      "distanceM": 4472,
+      "avgGrade": 0.03801431134343147,
+      "startLat": 31.463119506835938,
+      "startLng": 120.43657684326172
+    },
+    {
+      "id": "21864305",
+      "tileScore": 37,
+      "name": "Taihu Coastline G312-Dongshan (70K)",
+      "distanceM": 69272.3984375,
+      "avgGrade": 0.0020210070069879293,
+      "startLat": 31.449859619140625,
+      "startLng": 120.41646575927734
+    },
+    {
+      "id": "21864471",
+      "tileScore": 3,
+      "name": "Huanhong S Rd + Nankai Rd",
+      "distanceM": 3662.39990234375,
+      "avgGrade": -0.038226302713155746,
+      "startLat": 31.448026657104492,
+      "startLng": 120.4568099975586
+    }
+  ]
+}

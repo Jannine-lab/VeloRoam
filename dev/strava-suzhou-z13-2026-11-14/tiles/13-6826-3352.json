@@ -1,0 +1,56 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-14T07:19:47.909Z",
+  "tile": {
+    "z": 13,
+    "x": 6826,
+    "y": 3352
+  },
+  "segments": [
+    {
+      "id": "40564534",
+      "tileScore": 34,
+      "name": "环太湖",
+      "distanceM": 151856.5,
+      "avgGrade": 0.0009219230269081891,
+      "startLat": 31.187686920166016,
+      "startLng": 120.47770690917969
+    },
+    {
+      "id": "5509399",
+      "tileScore": 530,
+      "name": "Hundred leaf dragon bridge north bound（百叶龙大桥）",
+      "distanceM": 1018.7000122070312,
+      "avgGrade": -0.33375871181488037,
+      "startLat": 31.028148651123047,
+      "startLng": 119.99752807617188
+    },
+    {
+      "id": "30912679",
+      "tileScore": 10,
+      "name": "高铁路北向南",
+      "distanceM": 4086.699951171875,
+      "avgGrade": 0.04893924295902252,
+      "startLat": 31.029712677001953,
+      "startLng": 119.97392272949219
+    },
+    {
+      "id": "31248448",
+      "tileScore": 320,
+      "name": "3km 让我看看谁连续进攻俩桥",
+      "distanceM": 3002.800048828125,
+      "avgGrade": 0.35966432094573975,
+      "startLat": 31.018564224243164,
+      "startLng": 120.01451110839844
+    },
+    {
+      "id": "36900818",
+      "tileScore": 316,
+      "name": "北向南 湖边猛冲to新塘",
+      "distanceM": 13295.099609375,
+      "avgGrade": -0.018051762133836746,
+      "startLat": 31.03922462463379,
+      "startLng": 119.98934173583984
+    }
+  ]
+}

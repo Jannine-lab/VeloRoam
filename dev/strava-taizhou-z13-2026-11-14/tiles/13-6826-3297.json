@@ -1,0 +1,20 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-14T07:02:58.304Z",
+  "tile": {
+    "z": 13,
+    "x": 6826,
+    "y": 3297
+  },
+  "segments": [
+    {
+      "id": "39639071",
+      "tileScore": 4,
+      "name": "安丰互通10KM",
+      "distanceM": 10042.900390625,
+      "avgGrade": -0.0019914566073566675,
+      "startLat": 33.09535217285156,
+      "startLng": 120.08487701416016
+    }
+  ]
+}

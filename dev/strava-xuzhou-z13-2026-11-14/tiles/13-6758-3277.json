@@ -1,0 +1,20 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-14T06:34:20.453Z",
+  "tile": {
+    "z": 13,
+    "x": 6758,
+    "y": 3277
+  },
+  "segments": [
+    {
+      "id": "39885809",
+      "tileScore": 3,
+      "name": "乾山",
+      "distanceM": 2548.699951171875,
+      "avgGrade": 9.510730743408203,
+      "startLat": 33.806129455566406,
+      "startLng": 117.0248794555664
+    }
+  ]
+}

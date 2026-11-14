@@ -1,0 +1,20 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-14T06:55:26.003Z",
+  "tile": {
+    "z": 13,
+    "x": 6826,
+    "y": 3314
+  },
+  "segments": [
+    {
+      "id": "37527114",
+      "tileScore": 125,
+      "name": "你们这里谁最能打？",
+      "distanceM": 8794.599609375,
+      "avgGrade": -0.0022741227876394987,
+      "startLat": 32.46885681152344,
+      "startLng": 120.06182098388672
+    }
+  ]
+}

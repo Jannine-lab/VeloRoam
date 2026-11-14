@@ -1,0 +1,20 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-14T07:23:50.669Z",
+  "tile": {
+    "z": 13,
+    "x": 6855,
+    "y": 3328
+  },
+  "segments": [
+    {
+      "id": "39774405",
+      "tileScore": 1,
+      "name": "常乐到高架itt",
+      "distanceM": 9455.7998046875,
+      "avgGrade": -0.010575519874691963,
+      "startLat": 31.916881561279297,
+      "startLng": 121.26653289794922
+    }
+  ]
+}

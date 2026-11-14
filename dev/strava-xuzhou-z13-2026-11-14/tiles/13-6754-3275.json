@@ -1,0 +1,20 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-14T06:35:45.524Z",
+  "tile": {
+    "z": 13,
+    "x": 6754,
+    "y": 3275
+  },
+  "segments": [
+    {
+      "id": "31954239",
+      "tileScore": 6,
+      "name": "晚间绕圈梧桐路",
+      "distanceM": 3268.699951171875,
+      "avgGrade": -0.061186403036117554,
+      "startLat": 33.89358901977539,
+      "startLng": 116.84990692138672
+    }
+  ]
+}

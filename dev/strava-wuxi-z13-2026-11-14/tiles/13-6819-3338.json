@@ -1,0 +1,20 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-14T07:11:42.134Z",
+  "tile": {
+    "z": 13,
+    "x": 6819,
+    "y": 3338
+  },
+  "segments": [
+    {
+      "id": "20978835",
+      "tileScore": 6,
+      "name": "20170529环滆湖 Ge Lake Criterium",
+      "distanceM": 88852.703125,
+      "avgGrade": 0.003601466305553913,
+      "startLat": 31.643320083618164,
+      "startLng": 119.88687896728516
+    }
+  ]
+}

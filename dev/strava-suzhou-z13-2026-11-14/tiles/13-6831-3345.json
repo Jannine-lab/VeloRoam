@@ -1,0 +1,29 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-14T07:06:58.673Z",
+  "tile": {
+    "z": 13,
+    "x": 6831,
+    "y": 3345
+  },
+  "segments": [
+    {
+      "id": "38104686",
+      "tileScore": 9,
+      "name": "第一赛段",
+      "distanceM": 2552,
+      "avgGrade": 0,
+      "startLat": 31.29228973388672,
+      "startLng": 120.22278594970703
+    },
+    {
+      "id": "38472043",
+      "tileScore": 3,
+      "name": "stage3",
+      "distanceM": 14040,
+      "avgGrade": 0,
+      "startLat": 31.264915466308594,
+      "startLng": 120.2108383178711
+    }
+  ]
+}

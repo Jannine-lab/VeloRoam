@@ -1,0 +1,74 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-14T07:07:59.278Z",
+  "tile": {
+    "z": 13,
+    "x": 6841,
+    "y": 3343
+  },
+  "segments": [
+    {
+      "id": "10641451",
+      "tileScore": 1,
+      "name": "YCHP Catholic Church Park - Big Loop (Clockwise)",
+      "distanceM": 841,
+      "avgGrade": -0.09512484818696976,
+      "startLat": 31.353923797607422,
+      "startLng": 120.65603637695312
+    },
+    {
+      "id": "14255448",
+      "tileScore": 2,
+      "name": "S227 Road Side Cycling Path S2 (Northbound)",
+      "distanceM": 1384.9000244140625,
+      "avgGrade": -0.014441476203501225,
+      "startLat": 31.379358291625977,
+      "startLng": 120.65141296386719
+    },
+    {
+      "id": "35601357",
+      "tileScore": 7,
+      "name": "太阳路-春申湖中路",
+      "distanceM": 3340.5,
+      "avgGrade": -0.03592276573181152,
+      "startLat": 31.411924362182617,
+      "startLng": 120.62542724609375
+    },
+    {
+      "id": "21728109",
+      "tileScore": 2,
+      "name": "Let's go to Church",
+      "distanceM": 7053.60009765625,
+      "avgGrade": 0.011341726407408714,
+      "startLat": 31.38500213623047,
+      "startLng": 120.7073745727539
+    },
+    {
+      "id": "11638149",
+      "tileScore": 16,
+      "name": "Baidang Lake Super Bridge (Northbound)",
+      "distanceM": 1782.9000244140625,
+      "avgGrade": -0.1402209848165512,
+      "startLat": 31.352537155151367,
+      "startLng": 120.64350891113281
+    },
+    {
+      "id": "35485870",
+      "tileScore": 1,
+      "name": "一路向南",
+      "distanceM": 15026.7998046875,
+      "avgGrade": -0.02262623980641365,
+      "startLat": 31.454683303833008,
+      "startLng": 120.67469787597656
+    },
+    {
+      "id": "16014088",
+      "tileScore": 13,
+      "name": "Yangchenhu to G2",
+      "distanceM": 2407.699951171875,
+      "avgGrade": -0.07476014643907547,
+      "startLat": 31.356672286987305,
+      "startLng": 120.66856384277344
+    }
+  ]
+}

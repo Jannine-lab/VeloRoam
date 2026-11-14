@@ -1,0 +1,56 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-14T07:06:18.590Z",
+  "tile": {
+    "z": 13,
+    "x": 6833,
+    "y": 3338
+  },
+  "segments": [
+    {
+      "id": "34660364",
+      "tileScore": 8,
+      "name": "梁清路",
+      "distanceM": 2608.199951171875,
+      "avgGrade": -0.02300436981022358,
+      "startLat": 31.576318740844727,
+      "startLng": 120.28617858886719
+    },
+    {
+      "id": "16825778",
+      "tileScore": 5,
+      "name": "Roasted Potatoes",
+      "distanceM": 4219.2001953125,
+      "avgGrade": -0.2275312840938568,
+      "startLat": 31.542505264282227,
+      "startLng": 120.25395965576172
+    },
+    {
+      "id": "16825810",
+      "tileScore": 2,
+      "name": "Chicken and chips",
+      "distanceM": 2501.60009765625,
+      "avgGrade": 0.10793092846870422,
+      "startLat": 31.56909942626953,
+      "startLng": 120.32343292236328
+    },
+    {
+      "id": "30067026",
+      "tileScore": 6,
+      "name": "Wuxi: Canal road",
+      "distanceM": 10053.599609375,
+      "avgGrade": 0.023872045800089836,
+      "startLat": 31.528690338134766,
+      "startLng": 120.3405990600586
+    },
+    {
+      "id": "26402603",
+      "tileScore": 4,
+      "name": "太湖市民广场的别有洞天 westbound",
+      "distanceM": 442.5,
+      "avgGrade": -0.9943503141403198,
+      "startLat": 31.54851531982422,
+      "startLng": 120.29834747314453
+    }
+  ]
+}

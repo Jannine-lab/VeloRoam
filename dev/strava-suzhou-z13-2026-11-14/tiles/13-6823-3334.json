@@ -1,0 +1,56 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-14T07:10:40.842Z",
+  "tile": {
+    "z": 13,
+    "x": 6823,
+    "y": 3334
+  },
+  "segments": [
+    {
+      "id": "37566926",
+      "tileScore": 25,
+      "name": "喜来登-西太湖大石头",
+      "distanceM": 6034.10009765625,
+      "avgGrade": -0.06628991663455963,
+      "startLat": 31.699129104614258,
+      "startLng": 119.9088363647461
+    },
+    {
+      "id": "37614048",
+      "tileScore": 4,
+      "name": "霞飞路平路冲刺//JOJAD",
+      "distanceM": 1177.0999755859375,
+      "avgGrade": 0.08495454490184784,
+      "startLat": 31.685794830322266,
+      "startLng": 119.8729248046875
+    },
+    {
+      "id": "37581497",
+      "tileScore": 42,
+      "name": "延政西大道缓爬坡W-E//JOJAD",
+      "distanceM": 815.5999755859375,
+      "avgGrade": 0.5394801497459412,
+      "startLat": 31.69753074645996,
+      "startLng": 119.8701400756836
+    },
+    {
+      "id": "856016",
+      "tileScore": 3,
+      "name": "Ya River Bridge Towards South",
+      "distanceM": 386.35101318359375,
+      "avgGrade": 1.2943308353424072,
+      "startLat": 31.728906631469727,
+      "startLng": 119.87745666503906
+    },
+    {
+      "id": "28095444",
+      "tileScore": 3,
+      "name": "西太湖绕圈 2km",
+      "distanceM": 2108,
+      "avgGrade": 0.018975332379341125,
+      "startLat": 31.69631004333496,
+      "startLng": 119.83988952636719
+    }
+  ]
+}

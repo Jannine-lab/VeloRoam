@@ -1,0 +1,29 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-14T06:59:46.877Z",
+  "tile": {
+    "z": 13,
+    "x": 6836,
+    "y": 3313
+  },
+  "segments": [
+    {
+      "id": "30724595",
+      "tileScore": 9,
+      "name": "328 往海安",
+      "distanceM": 15109.599609375,
+      "avgGrade": 0.003970985300838947,
+      "startLat": 32.4970588684082,
+      "startLng": 120.30538940429688
+    },
+    {
+      "id": "37812673",
+      "tileScore": 38,
+      "name": "s77如海河",
+      "distanceM": 3624.5,
+      "avgGrade": 0.0027590012177824974,
+      "startLat": 32.53459930419922,
+      "startLng": 120.43797302246094
+    }
+  ]
+}

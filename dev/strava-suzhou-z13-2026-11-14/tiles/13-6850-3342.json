@@ -1,0 +1,47 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-14T07:16:11.468Z",
+  "tile": {
+    "z": 13,
+    "x": 6850,
+    "y": 3342
+  },
+  "segments": [
+    {
+      "id": "34470434",
+      "tileScore": 34,
+      "name": "LBCC昆太路",
+      "distanceM": 4915.10009765625,
+      "avgGrade": -0.03255274519324303,
+      "startLat": 31.40403175354004,
+      "startLng": 121.0268325805664
+    },
+    {
+      "id": "31140593",
+      "tileScore": 6,
+      "name": "昆太-前进 -G024绕圈",
+      "distanceM": 24308.900390625,
+      "avgGrade": 0.0016454878496006131,
+      "startLat": 31.43547248840332,
+      "startLng": 121.0988540649414
+    },
+    {
+      "id": "39742066",
+      "tileScore": 58,
+      "name": "冲刺  GO GO!!!",
+      "distanceM": 2275,
+      "avgGrade": -0.09670329838991165,
+      "startLat": 31.413890838623047,
+      "startLng": 121.0472412109375
+    },
+    {
+      "id": "33036044",
+      "tileScore": 15,
+      "name": "Dongtinghu bridge",
+      "distanceM": 560.9000244140625,
+      "avgGrade": 1.4262791872024536,
+      "startLat": 31.398681640625,
+      "startLng": 121.0260009765625
+    }
+  ]
+}

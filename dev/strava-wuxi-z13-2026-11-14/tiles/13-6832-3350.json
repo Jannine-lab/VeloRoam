@@ -1,0 +1,92 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-14T07:09:44.434Z",
+  "tile": {
+    "z": 13,
+    "x": 6832,
+    "y": 3350
+  },
+  "segments": [
+    {
+      "id": "26403974",
+      "tileScore": 7,
+      "name": "Wall of Jesse",
+      "distanceM": 386.70001220703125,
+      "avgGrade": 17.17093276977539,
+      "startLat": 31.118757247924805,
+      "startLng": 120.26960754394531
+    },
+    {
+      "id": "16570089",
+      "tileScore": 22,
+      "name": "XISHAN ITT2",
+      "distanceM": 12911.2998046875,
+      "avgGrade": -0.0015490306541323662,
+      "startLat": 31.12991714477539,
+      "startLng": 120.23184967041016
+    },
+    {
+      "id": "35923441",
+      "tileScore": 35,
+      "name": "西山最难二个坡",
+      "distanceM": 4668.2998046875,
+      "avgGrade": -0.00856842938810587,
+      "startLat": 31.11742401123047,
+      "startLng": 120.20885467529297
+    },
+    {
+      "id": "14080837",
+      "tileScore": 24,
+      "name": "Piaomiao Rd Approach until Gate",
+      "distanceM": 2088.5,
+      "avgGrade": 1.7907589673995972,
+      "startLat": 31.14068031311035,
+      "startLng": 120.25741577148438
+    },
+    {
+      "id": "26094044",
+      "tileScore": 20,
+      "name": "天王山路-笠帽顶",
+      "distanceM": 3166.300048828125,
+      "avgGrade": 6.398635387420654,
+      "startLat": 31.1292781829834,
+      "startLng": 120.27940368652344
+    },
+    {
+      "id": "33401272",
+      "tileScore": 47,
+      "name": "东西山超级有氧",
+      "distanceM": 137358.703125,
+      "avgGrade": 0.00873624999076128,
+      "startLat": 31.187084197998047,
+      "startLng": 120.4767837524414
+    },
+    {
+      "id": "24383568",
+      "tileScore": 9,
+      "name": "笠帽不到顶",
+      "distanceM": 1688.300048828125,
+      "avgGrade": 11.633003234863281,
+      "startLat": 31.120893478393555,
+      "startLng": 120.28076934814453
+    },
+    {
+      "id": "26021578",
+      "tileScore": 25,
+      "name": "Tunnel of Brad",
+      "distanceM": 895.7999877929688,
+      "avgGrade": -0.8260772824287415,
+      "startLat": 31.101524353027344,
+      "startLng": 120.23001861572266
+    },
+    {
+      "id": "34376893",
+      "tileScore": 12,
+      "name": "缥缈峰禁区",
+      "distanceM": 3227.60009765625,
+      "avgGrade": 5.917709827423096,
+      "startLat": 31.12065315246582,
+      "startLng": 120.23884582519531
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-14T07:13:28.665Z",
+  "tile": {
+    "z": 13,
+    "x": 6815,
+    "y": 3351
+  },
+  "segments": [
+    {
+      "id": "36100763",
+      "tileScore": 3,
+      "name": "X040 W-E（千口林场-科技园）",
+      "distanceM": 4012.10009765625,
+      "avgGrade": -0.16948729753494263,
+      "startLat": 31.08340835571289,
+      "startLng": 119.50711822509766
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-14T07:10:40.842Z",
+  "tile": {
+    "z": 13,
+    "x": 6823,
+    "y": 3335
+  },
+  "segments": [
+    {
+      "id": "37614048",
+      "tileScore": 4,
+      "name": "霞飞路平路冲刺//JOJAD",
+      "distanceM": 1177.0999755859375,
+      "avgGrade": 0.08495454490184784,
+      "startLat": 31.685794830322266,
+      "startLng": 119.8729248046875
+    },
+    {
+      "id": "28025769",
+      "tileScore": 13,
+      "name": "揽月路ITT",
+      "distanceM": 5653.60009765625,
+      "avgGrade": 0.010612706653773785,
+      "startLat": 31.681699752807617,
+      "startLng": 119.86642456054688
+    },
+    {
+      "id": "20978835",
+      "tileScore": 6,
+      "name": "20170529环滆湖 Ge Lake Criterium",
+      "distanceM": 88852.703125,
+      "avgGrade": 0.003601466305553913,
+      "startLat": 31.643320083618164,
+      "startLng": 119.88687896728516
+    },
+    {
+      "id": "37435514",
+      "tileScore": 5,
+      "name": "揽月路东段（无信号灯）//JOJAD",
+      "distanceM": 2384,
+      "avgGrade": 0.10906039923429489,
+      "startLat": 31.68817901611328,
+      "startLng": 119.8434066772461
+    }
+  ]
+}

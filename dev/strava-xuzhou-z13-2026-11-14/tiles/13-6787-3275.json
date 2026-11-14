@@ -1,0 +1,20 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-14T06:45:27.161Z",
+  "tile": {
+    "z": 13,
+    "x": 6787,
+    "y": 3275
+  },
+  "segments": [
+    {
+      "id": "37422923",
+      "tileScore": 2,
+      "name": "科技创新园有氧绕圈 - G",
+      "distanceM": 8168.5,
+      "avgGrade": -0.014690578915178776,
+      "startLat": 33.915740966796875,
+      "startLng": 118.27718353271484
+    }
+  ]
+}

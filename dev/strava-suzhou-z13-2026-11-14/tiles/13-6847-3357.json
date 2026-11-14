@@ -1,0 +1,38 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-14T07:18:03.861Z",
+  "tile": {
+    "z": 13,
+    "x": 6847,
+    "y": 3357
+  },
+  "segments": [
+    {
+      "id": "38133140",
+      "tileScore": 1,
+      "name": "上班",
+      "distanceM": 1778.5,
+      "avgGrade": -0.13494518399238586,
+      "startLat": 30.841217041015625,
+      "startLng": 120.92054748535156
+    },
+    {
+      "id": "35999512",
+      "tileScore": 6,
+      "name": "SANDA NORTH GATE SPRINT",
+      "distanceM": 501.5,
+      "avgGrade": 0.23928214609622955,
+      "startLat": 30.831058502197266,
+      "startLng": 120.9232406616211
+    },
+    {
+      "id": "38431860",
+      "tileScore": 9,
+      "name": "Wuzitang shangpo",
+      "distanceM": 510.3999938964844,
+      "avgGrade": 0.391849547624588,
+      "startLat": 30.83132553100586,
+      "startLng": 120.90265655517578
+    }
+  ]
+}

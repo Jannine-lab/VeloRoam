@@ -1,0 +1,29 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-14T06:26:46.239Z",
+  "tile": {
+    "z": 13,
+    "x": 6761,
+    "y": 3265
+  },
+  "segments": [
+    {
+      "id": "32542249",
+      "tileScore": 14,
+      "name": "小南湖路段",
+      "distanceM": 3123,
+      "avgGrade": -0.01921229623258114,
+      "startLat": 34.22880554199219,
+      "startLng": 117.15934753417969
+    },
+    {
+      "id": "28678808",
+      "tileScore": 22,
+      "name": "Huxi Rd from Zhushan to Kaiyuan Hotel",
+      "distanceM": 3513.199951171875,
+      "avgGrade": 0.005692815873771906,
+      "startLat": 34.23664855957031,
+      "startLng": 117.13932800292969
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-14T07:11:28.674Z",
+  "tile": {
+    "z": 13,
+    "x": 6842,
+    "y": 3350
+  },
+  "segments": [
+    {
+      "id": "40973637",
+      "tileScore": 1,
+      "name": "云龙大桥 (Eastbound)",
+      "distanceM": 660.7000122070312,
+      "avgGrade": 0.2421674132347107,
+      "startLat": 31.111766815185547,
+      "startLng": 120.66697692871094
+    },
+    {
+      "id": "30384821",
+      "tileScore": 2,
+      "name": "THL-4",
+      "distanceM": 116824.5,
+      "avgGrade": -0.0025679543614387512,
+      "startLat": 31.206161499023438,
+      "startLng": 121.28252410888672
+    }
+  ]
+}

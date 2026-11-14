@@ -1,0 +1,56 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-14T07:23:48.819Z",
+  "tile": {
+    "z": 13,
+    "x": 6849,
+    "y": 3324
+  },
+  "segments": [
+    {
+      "id": "39154956",
+      "tileScore": 14,
+      "name": "Hua Qiang to Feng Ya Xi Ting",
+      "distanceM": 24200.400390625,
+      "avgGrade": 0.0016528653213754296,
+      "startLat": 32.0452766418457,
+      "startLng": 120.8616943359375
+    },
+    {
+      "id": "39951660",
+      "tileScore": 50,
+      "name": "gogogo！最后一桥",
+      "distanceM": 598.5,
+      "avgGrade": 0.03341687470674515,
+      "startLat": 32.09378433227539,
+      "startLng": 120.99788665771484
+    },
+    {
+      "id": "39278101",
+      "tileScore": 84,
+      "name": "龙盛大道（东 to 西）",
+      "distanceM": 7751.10009765625,
+      "avgGrade": 0.0025802787858992815,
+      "startLat": 32.093727111816406,
+      "startLng": 121.00738525390625
+    },
+    {
+      "id": "34824780",
+      "tileScore": 253,
+      "name": "西亭石港大环线",
+      "distanceM": 37046.80078125,
+      "avgGrade": -0.00809786468744278,
+      "startLat": 32.09614944458008,
+      "startLng": 120.92424774169922
+    },
+    {
+      "id": "35587906",
+      "tileScore": 56,
+      "name": "西亭北到南",
+      "distanceM": 7529.2998046875,
+      "avgGrade": 0.005312579218298197,
+      "startLat": 32.11660385131836,
+      "startLng": 121.00270080566406
+    }
+  ]
+}

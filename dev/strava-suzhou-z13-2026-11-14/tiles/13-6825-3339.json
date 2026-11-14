@@ -1,0 +1,20 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-14T07:08:34.786Z",
+  "tile": {
+    "z": 13,
+    "x": 6825,
+    "y": 3339
+  },
+  "segments": [
+    {
+      "id": "37836121",
+      "tileScore": 6,
+      "name": "出发去马山第一个拐弯口",
+      "distanceM": 15585.099609375,
+      "avgGrade": -0.015399323776364326,
+      "startLat": 31.66796112060547,
+      "startLng": 119.95468139648438
+    }
+  ]
+}

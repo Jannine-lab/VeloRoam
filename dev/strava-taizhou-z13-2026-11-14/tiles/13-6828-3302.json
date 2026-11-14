@@ -1,0 +1,20 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-14T07:00:42.440Z",
+  "tile": {
+    "z": 13,
+    "x": 6828,
+    "y": 3302
+  },
+  "segments": [
+    {
+      "id": "40148937",
+      "tileScore": 4,
+      "name": "上上上班",
+      "distanceM": 1976.4000244140625,
+      "avgGrade": 0.13661201298236847,
+      "startLat": 32.91539001464844,
+      "startLng": 120.09368133544922
+    }
+  ]
+}

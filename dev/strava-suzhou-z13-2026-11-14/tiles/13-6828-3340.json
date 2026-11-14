@@ -1,0 +1,38 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-14T07:06:49.037Z",
+  "tile": {
+    "z": 13,
+    "x": 6828,
+    "y": 3340
+  },
+  "segments": [
+    {
+      "id": "788580",
+      "tileScore": 87,
+      "name": "ZhuShanHu Steep Climb",
+      "distanceM": 1088.5,
+      "avgGrade": 6.715663433074951,
+      "startLat": 31.479238510131836,
+      "startLng": 120.05684661865234
+    },
+    {
+      "id": "16737912",
+      "tileScore": 26,
+      "name": "CZ taihu",
+      "distanceM": 7182.89990234375,
+      "avgGrade": 0.027843907475471497,
+      "startLat": 31.456262588500977,
+      "startLng": 120.08014678955078
+    },
+    {
+      "id": "8907216",
+      "tileScore": 72,
+      "name": "Climb@Lonquanshan hill in Changzhou[常州龙泉山北坡爬坡铺装路on-road]",
+      "distanceM": 2313.10009765625,
+      "avgGrade": 3.008949041366577,
+      "startLat": 31.498380661010742,
+      "startLng": 120.05154418945312
+    }
+  ]
+}

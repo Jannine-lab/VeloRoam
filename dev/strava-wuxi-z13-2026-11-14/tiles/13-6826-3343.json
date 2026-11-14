@@ -1,0 +1,20 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-14T07:07:43.936Z",
+  "tile": {
+    "z": 13,
+    "x": 6826,
+    "y": 3343
+  },
+  "segments": [
+    {
+      "id": "35232046",
+      "tileScore": 19,
+      "name": "Yixing Greenway taihu lake part 2",
+      "distanceM": 13460.900390625,
+      "avgGrade": -0.06834609806537628,
+      "startLat": 31.320579528808594,
+      "startLng": 119.93292999267578
+    }
+  ]
+}

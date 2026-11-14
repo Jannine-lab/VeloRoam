@@ -1,0 +1,56 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-14T07:11:03.933Z",
+  "tile": {
+    "z": 13,
+    "x": 6824,
+    "y": 3331
+  },
+  "segments": [
+    {
+      "id": "25646829",
+      "tileScore": 23,
+      "name": "常州机场-龙江路",
+      "distanceM": 13710.2001953125,
+      "avgGrade": -0.03063412755727768,
+      "startLat": 31.905200958251953,
+      "startLng": 119.7859115600586
+    },
+    {
+      "id": "25644928",
+      "tileScore": 18,
+      "name": "运河路西往东-无红绿灯平路",
+      "distanceM": 7263.60009765625,
+      "avgGrade": -0.05506911128759384,
+      "startLat": 31.850929260253906,
+      "startLng": 119.82508087158203
+    },
+    {
+      "id": "995619",
+      "tileScore": 8,
+      "name": "XinLong Road Train Tunnel Towards North",
+      "distanceM": 314.052001953125,
+      "avgGrade": 0.7324841022491455,
+      "startLat": 31.81382942199707,
+      "startLng": 119.91724395751953
+    },
+    {
+      "id": "23511933",
+      "tileScore": 3,
+      "name": "Qingfeng Park Lap",
+      "distanceM": 3047.5,
+      "avgGrade": -0.00984413456171751,
+      "startLat": 31.802370071411133,
+      "startLng": 119.89875030517578
+    },
+    {
+      "id": "23512043",
+      "tileScore": 11,
+      "name": "Emperor Canal from bridge to bridge",
+      "distanceM": 2093.39990234375,
+      "avgGrade": 0.004776917863637209,
+      "startLat": 31.814090728759766,
+      "startLng": 119.89232635498047
+    }
+  ]
+}

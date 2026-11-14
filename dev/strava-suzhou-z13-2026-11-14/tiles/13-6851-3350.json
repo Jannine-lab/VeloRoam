@@ -1,0 +1,110 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-14T07:17:20.273Z",
+  "tile": {
+    "z": 13,
+    "x": 6851,
+    "y": 3350
+  },
+  "segments": [
+    {
+      "id": "38897849",
+      "tileScore": 1,
+      "name": "公制世纪 - KOM",
+      "distanceM": 101772.296875,
+      "avgGrade": -0.0031442742329090834,
+      "startLat": 31.17006492614746,
+      "startLng": 121.2751235961914
+    },
+    {
+      "id": "32687382",
+      "tileScore": 12,
+      "name": "Roubaix Qingpu",
+      "distanceM": 919.2000122070312,
+      "avgGrade": -0.09791122376918793,
+      "startLat": 31.097457885742188,
+      "startLng": 121.0965576171875
+    },
+    {
+      "id": "27327757",
+      "tileScore": 7,
+      "name": "Shanghai Tour de France 上海环法 - Full Tour (100km)",
+      "distanceM": 100065.796875,
+      "avgGrade": 0.002498356159776449,
+      "startLat": 31.153793334960938,
+      "startLng": 121.20298767089844
+    },
+    {
+      "id": "36894166",
+      "tileScore": 5,
+      "name": "ER - Babies Arm",
+      "distanceM": 56876.1015625,
+      "avgGrade": 0,
+      "startLat": 31.179828643798828,
+      "startLng": 121.28097534179688
+    },
+    {
+      "id": "24845912",
+      "tileScore": 19,
+      "name": "李琦晟自行车劝退一疗程",
+      "distanceM": 20250,
+      "avgGrade": -0.008888889104127884,
+      "startLat": 31.15504264831543,
+      "startLng": 121.23126220703125
+    },
+    {
+      "id": "40911298",
+      "tileScore": 3,
+      "name": "muddy funny",
+      "distanceM": 629.7000122070312,
+      "avgGrade": 0.31761157512664795,
+      "startLat": 31.113065719604492,
+      "startLng": 121.1064224243164
+    },
+    {
+      "id": "22068484",
+      "tileScore": 8,
+      "name": "G318 上海-湖州",
+      "distanceM": 133169.203125,
+      "avgGrade": -0.002553143072873354,
+      "startLat": 31.17106056213379,
+      "startLng": 121.32220458984375
+    },
+    {
+      "id": "37873039",
+      "tileScore": 15,
+      "name": "速战速决群VIP赛段1号",
+      "distanceM": 4318.2998046875,
+      "avgGrade": 0.04631452262401581,
+      "startLat": 31.124542236328125,
+      "startLng": 121.07745361328125
+    },
+    {
+      "id": "30308712",
+      "tileScore": 9,
+      "name": "The Qing Lu Double",
+      "distanceM": 4982.7998046875,
+      "avgGrade": 0.03612426668405533,
+      "startLat": 31.081369400024414,
+      "startLng": 121.10780334472656
+    },
+    {
+      "id": "5858979",
+      "tileScore": 13,
+      "name": "GrandView G 2 Xujing",
+      "distanceM": 37196.30078125,
+      "avgGrade": 0.01828138716518879,
+      "startLat": 31.067720413208008,
+      "startLng": 120.91679382324219
+    },
+    {
+      "id": "40911284",
+      "tileScore": 7,
+      "name": "to grind an 8",
+      "distanceM": 7669.7998046875,
+      "avgGrade": 0.2086103856563568,
+      "startLat": 31.10805892944336,
+      "startLng": 121.10279083251953
+    }
+  ]
+}

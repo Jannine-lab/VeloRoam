@@ -1,0 +1,29 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-14T07:09:46.569Z",
+  "tile": {
+    "z": 13,
+    "x": 6834,
+    "y": 3350
+  },
+  "segments": [
+    {
+      "id": "26011033",
+      "tileScore": 21,
+      "name": "Xishan Eastern Diversion (CCW)",
+      "distanceM": 5355.60009765625,
+      "avgGrade": 0.018672043457627296,
+      "startLat": 31.111591339111328,
+      "startLng": 120.3166732788086
+    },
+    {
+      "id": "33401272",
+      "tileScore": 47,
+      "name": "东西山超级有氧",
+      "distanceM": 137358.703125,
+      "avgGrade": 0.00873624999076128,
+      "startLat": 31.187084197998047,
+      "startLng": 120.4767837524414
+    }
+  ]
+}

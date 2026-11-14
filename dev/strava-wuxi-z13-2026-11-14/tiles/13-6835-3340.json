@@ -1,0 +1,74 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-14T07:06:16.739Z",
+  "tile": {
+    "z": 13,
+    "x": 6835,
+    "y": 3340
+  },
+  "segments": [
+    {
+      "id": "12893198",
+      "tileScore": 22,
+      "name": "Taihu Shore Bicycle Path (Wangyu River to Fish Market)",
+      "distanceM": 6530.7001953125,
+      "avgGrade": 0.027562130242586136,
+      "startLat": 31.446502685546875,
+      "startLng": 120.40375518798828
+    },
+    {
+      "id": "39595264",
+      "tileScore": 12,
+      "name": "运河—具区路",
+      "distanceM": 1829.199951171875,
+      "avgGrade": -0.021867483854293823,
+      "startLat": 31.46683692932129,
+      "startLng": 120.40740966796875
+    },
+    {
+      "id": "5101486",
+      "tileScore": 3,
+      "name": "Changjiang Nan Road up to G312",
+      "distanceM": 4472,
+      "avgGrade": 0.03801431134343147,
+      "startLat": 31.463119506835938,
+      "startLng": 120.43657684326172
+    },
+    {
+      "id": "16556060",
+      "tileScore": 18,
+      "name": "Juqu road to gas station",
+      "distanceM": 6543.60009765625,
+      "avgGrade": 0.009169264696538448,
+      "startLat": 31.471773147583008,
+      "startLng": 120.33702850341797
+    },
+    {
+      "id": "40962801",
+      "tileScore": 49,
+      "name": "All the way along the lake (E-W)",
+      "distanceM": 19889.69921875,
+      "avgGrade": 0.0030166367068886757,
+      "startLat": 31.448610305786133,
+      "startLng": 120.40274047851562
+    },
+    {
+      "id": "17833428",
+      "tileScore": 3,
+      "name": "Wuxi to Suzhou G312",
+      "distanceM": 13550.2998046875,
+      "avgGrade": -0.0014759821351617575,
+      "startLat": 31.470468521118164,
+      "startLng": 120.39439392089844
+    },
+    {
+      "id": "10162580",
+      "tileScore": 2,
+      "name": "S230 to Y-junction of canal (Northbound)",
+      "distanceM": 10003.599609375,
+      "avgGrade": -0.011995681561529636,
+      "startLat": 31.467239379882812,
+      "startLng": 120.40790557861328
+    }
+  ]
+}

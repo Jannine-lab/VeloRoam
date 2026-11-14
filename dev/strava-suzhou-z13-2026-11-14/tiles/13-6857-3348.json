@@ -1,0 +1,281 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-14T07:21:30.008Z",
+  "tile": {
+    "z": 13,
+    "x": 6857,
+    "y": 3348
+  },
+  "segments": [
+    {
+      "id": "14970710",
+      "tileScore": 31,
+      "name": "Planespotting",
+      "distanceM": 2144.10009765625,
+      "avgGrade": 0.02798376977443695,
+      "startLat": 31.184694290161133,
+      "startLng": 121.3522720336914
+    },
+    {
+      "id": "36112090",
+      "tileScore": 55,
+      "name": "Tulips Sams",
+      "distanceM": 46121.80078125,
+      "avgGrade": 0.004336344078183174,
+      "startLat": 31.19768524169922,
+      "startLng": 121.41617584228516
+    },
+    {
+      "id": "34326504",
+      "tileScore": 3,
+      "name": "Wumei Road Westbound - Hongmei to Hechuan",
+      "distanceM": 957.0999755859375,
+      "avgGrade": -0.052241142839193344,
+      "startLat": 31.183788299560547,
+      "startLng": 121.38494110107422
+    },
+    {
+      "id": "37069295",
+      "tileScore": 7,
+      "name": "Geneva Sprint",
+      "distanceM": 647.0999755859375,
+      "avgGrade": 0.5254210829734802,
+      "startLat": 31.200462341308594,
+      "startLng": 121.3529281616211
+    },
+    {
+      "id": "26661851",
+      "tileScore": 7,
+      "name": "Wuzhong Rd (Eastbound)",
+      "distanceM": 7929.10009765625,
+      "avgGrade": -0.002522354479879141,
+      "startLat": 31.163288116455078,
+      "startLng": 121.34059143066406
+    },
+    {
+      "id": "15606974",
+      "tileScore": 3,
+      "name": "Longming southbound",
+      "distanceM": 6817,
+      "avgGrade": -0.008801525458693504,
+      "startLat": 31.186445236206055,
+      "startLng": 121.3686294555664
+    },
+    {
+      "id": "7197828",
+      "tileScore": 12,
+      "name": "Sprint",
+      "distanceM": 824.7999877929688,
+      "avgGrade": -0.24248303472995758,
+      "startLat": 31.201017379760742,
+      "startLng": 121.36900329589844
+    },
+    {
+      "id": "40019920",
+      "tileScore": 36,
+      "name": "Full gas to first \"L\" turn from Wensha",
+      "distanceM": 15605.900390625,
+      "avgGrade": 0.0397285632789135,
+      "startLat": 31.19355583190918,
+      "startLng": 121.37028503417969
+    },
+    {
+      "id": "11687328",
+      "tileScore": 3,
+      "name": "WuzhongXinzhen-QixinXinzhen",
+      "distanceM": 965,
+      "avgGrade": 0,
+      "startLat": 31.167911529541016,
+      "startLng": 121.35130310058594
+    },
+    {
+      "id": "20261573",
+      "tileScore": 74,
+      "name": "slamina rehto dna nerdlihc rof tuo kooL",
+      "distanceM": 822.4000244140625,
+      "avgGrade": -0.09727626293897629,
+      "startLat": 31.19218635559082,
+      "startLng": 121.36180114746094
+    },
+    {
+      "id": "36111952",
+      "tileScore": 106,
+      "name": "2023 HH Airport Loop",
+      "distanceM": 32885.30078125,
+      "avgGrade": -0.007298094220459461,
+      "startLat": 31.197797775268555,
+      "startLng": 121.41617584228516
+    },
+    {
+      "id": "5654531",
+      "tileScore": 2,
+      "name": "Yan'an Warm-up",
+      "distanceM": 8362.2001953125,
+      "avgGrade": -0.05979287624359131,
+      "startLat": 31.225984573364258,
+      "startLng": 121.45022583007812
+    },
+    {
+      "id": "1515348",
+      "tileScore": 2,
+      "name": "Gubei To Qibao",
+      "distanceM": 8051.5,
+      "avgGrade": 0.0037260139361023903,
+      "startLat": 31.182998657226562,
+      "startLng": 121.39078521728516
+    },
+    {
+      "id": "35043908",
+      "tileScore": 5,
+      "name": "七宝-吴中大拐弯",
+      "distanceM": 3699.10009765625,
+      "avgGrade": -0.054067205637693405,
+      "startLat": 31.164091110229492,
+      "startLng": 121.3252944946289
+    },
+    {
+      "id": "30390303",
+      "tileScore": 2,
+      "name": "BTP-S3",
+      "distanceM": 7485,
+      "avgGrade": 0.009352036751806736,
+      "startLat": 31.171823501586914,
+      "startLng": 121.33429718017578
+    },
+    {
+      "id": "40841378",
+      "tileScore": 57,
+      "name": "Youle Rd to Huqingping Hwy",
+      "distanceM": 1759.699951171875,
+      "avgGrade": 0.04546229541301727,
+      "startLat": 31.193744659423828,
+      "startLng": 121.34786987304688
+    },
+    {
+      "id": "15317572",
+      "tileScore": 7,
+      "name": "Songhong Rd. (S2N) Unknown Bridge",
+      "distanceM": 1046.0999755859375,
+      "avgGrade": 0.05735589191317558,
+      "startLat": 31.199047088623047,
+      "startLng": 121.36198425292969
+    },
+    {
+      "id": "37431069",
+      "tileScore": 2,
+      "name": "Jianhe road smash",
+      "distanceM": 1645.800048828125,
+      "avgGrade": 0.024304289370775223,
+      "startLat": 31.191448211669922,
+      "startLng": 121.37185668945312
+    },
+    {
+      "id": "17410922",
+      "tileScore": 3,
+      "name": "Hechuan Rd South",
+      "distanceM": 1469.199951171875,
+      "avgGrade": 0.02722570300102234,
+      "startLat": 31.19051170349121,
+      "startLng": 121.37230682373047
+    },
+    {
+      "id": "23376686",
+      "tileScore": 179,
+      "name": "长宁绿道南到北",
+      "distanceM": 4846,
+      "avgGrade": 0.01444490347057581,
+      "startLat": 31.199907302856445,
+      "startLng": 121.35040283203125
+    },
+    {
+      "id": "21762400",
+      "tileScore": 50,
+      "name": "HongQiao 1K Sprint",
+      "distanceM": 1083.4000244140625,
+      "avgGrade": -0.1292228102684021,
+      "startLat": 31.20113754272461,
+      "startLng": 121.38692474365234
+    },
+    {
+      "id": "8103030",
+      "tileScore": 6,
+      "name": "Jinyu Lu",
+      "distanceM": 1439.800048828125,
+      "avgGrade": 0.13890817761421204,
+      "startLat": 31.176677703857422,
+      "startLng": 121.37126922607422
+    },
+    {
+      "id": "32845750",
+      "tileScore": 7,
+      "name": "ride the barrel, and get pitted, so pitted",
+      "distanceM": 639.9000244140625,
+      "avgGrade": 0,
+      "startLat": 31.17805290222168,
+      "startLng": 121.34667205810547
+    },
+    {
+      "id": "20014980",
+      "tileScore": 3,
+      "name": "Hechuan Lu (northbound)",
+      "distanceM": 6394.39990234375,
+      "avgGrade": -0.06568247079849243,
+      "startLat": 31.13213539123535,
+      "startLng": 121.3893814086914
+    },
+    {
+      "id": "14775003",
+      "tileScore": 11,
+      "name": "Highway byway dash",
+      "distanceM": 1009.5,
+      "avgGrade": -0.05943536385893822,
+      "startLat": 31.1892032623291,
+      "startLng": 121.35309600830078
+    },
+    {
+      "id": "41727278",
+      "tileScore": 6,
+      "name": "虹桥环机场线~",
+      "distanceM": 15865.400390625,
+      "avgGrade": -0.010084838606417179,
+      "startLat": 31.22117805480957,
+      "startLng": 121.33946228027344
+    },
+    {
+      "id": "39336275",
+      "tileScore": 29,
+      "name": "Yingbin 3rd Rd. (Westbound) ",
+      "distanceM": 915.2999877929688,
+      "avgGrade": -0.04370151832699776,
+      "startLat": 31.1882266998291,
+      "startLng": 121.35295867919922
+    },
+    {
+      "id": "12002946",
+      "tileScore": 29,
+      "name": "Hongqiao Rd (Westbound)",
+      "distanceM": 8196.400390625,
+      "avgGrade": -0.18422722816467285,
+      "startLat": 31.19579315185547,
+      "startLng": 121.43344116210938
+    },
+    {
+      "id": "32769946",
+      "tileScore": 2,
+      "name": "航东路通勤",
+      "distanceM": 777.5,
+      "avgGrade": -0.1028938889503479,
+      "startLat": 31.182659149169922,
+      "startLng": 121.34776306152344
+    },
+    {
+      "id": "32557816",
+      "tileScore": 5,
+      "name": "HUAGUANG",
+      "distanceM": 796.7000122070312,
+      "avgGrade": -0.12551777064800262,
+      "startLat": 31.187461853027344,
+      "startLng": 121.37401580810547
+    }
+  ]
+}

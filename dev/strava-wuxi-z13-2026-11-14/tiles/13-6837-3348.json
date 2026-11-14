@@ -1,0 +1,146 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-14T07:14:29.162Z",
+  "tile": {
+    "z": 13,
+    "x": 6837,
+    "y": 3348
+  },
+  "segments": [
+    {
+      "id": "34803781",
+      "tileScore": 58,
+      "name": "最后冲一把",
+      "distanceM": 649,
+      "avgGrade": 0.09244992583990097,
+      "startLat": 31.18036651611328,
+      "startLng": 120.47297668457031
+    },
+    {
+      "id": "13828855",
+      "tileScore": 31,
+      "name": "X204 from X303 to Xuyu Rd",
+      "distanceM": 5008.7001953125,
+      "avgGrade": 0.03194441646337509,
+      "startLat": 31.188425064086914,
+      "startLng": 120.47735595703125
+    },
+    {
+      "id": "10678266",
+      "tileScore": 30,
+      "name": "Per's Passage (Eastbound)",
+      "distanceM": 12419.7998046875,
+      "avgGrade": -0.004025829490274191,
+      "startLat": 31.218647003173828,
+      "startLng": 120.38814544677734
+    },
+    {
+      "id": "30639668",
+      "tileScore": 8,
+      "name": "冲啊，要迟到啦！！！",
+      "distanceM": 1529.0999755859375,
+      "avgGrade": -0.09809691458940506,
+      "startLat": 31.19028091430664,
+      "startLng": 120.49436950683594
+    },
+    {
+      "id": "17080629",
+      "tileScore": 64,
+      "name": "环太湖大道拉爆小法老赛段",
+      "distanceM": 4181.39990234375,
+      "avgGrade": -0.11001100391149521,
+      "startLat": 31.156435012817383,
+      "startLng": 120.4514389038086
+    },
+    {
+      "id": "36057269",
+      "tileScore": 3,
+      "name": "灵岩山到取水口",
+      "distanceM": 10924.599609375,
+      "avgGrade": -0.007322922348976135,
+      "startLat": 31.2730655670166,
+      "startLng": 120.50218963623047
+    },
+    {
+      "id": "15330583",
+      "tileScore": 57,
+      "name": "dongshan 30KM",
+      "distanceM": 30081.900390625,
+      "avgGrade": -0.006648516282439232,
+      "startLat": 31.187458038330078,
+      "startLng": 120.47698974609375
+    },
+    {
+      "id": "21864305",
+      "tileScore": 37,
+      "name": "Taihu Coastline G312-Dongshan (70K)",
+      "distanceM": 69272.3984375,
+      "avgGrade": 0.0020210070069879293,
+      "startLat": 31.449859619140625,
+      "startLng": 120.41646575927734
+    },
+    {
+      "id": "33401272",
+      "tileScore": 47,
+      "name": "东西山超级有氧",
+      "distanceM": 137358.703125,
+      "avgGrade": 0.00873624999076128,
+      "startLat": 31.187084197998047,
+      "startLng": 120.4767837524414
+    },
+    {
+      "id": "8369915",
+      "tileScore": 35,
+      "name": "X204 Hubin Rd to Dongshan Visitor Center (Southbound)",
+      "distanceM": 12576.400390625,
+      "avgGrade": -0.023059062659740448,
+      "startLat": 31.1873779296875,
+      "startLng": 120.4769058227539
+    },
+    {
+      "id": "26611499",
+      "tileScore": 7,
+      "name": "Taihu 300km extension",
+      "distanceM": 37416.69921875,
+      "avgGrade": -0.014432058669626713,
+      "startLat": 31.227924346923828,
+      "startLng": 120.44613647460938
+    },
+    {
+      "id": "23927574",
+      "tileScore": 1,
+      "name": "科技城至吴中大道",
+      "distanceM": 22233.900390625,
+      "avgGrade": -0.001799054560251534,
+      "startLat": 31.339780807495117,
+      "startLng": 120.42162322998047
+    },
+    {
+      "id": "40564534",
+      "tileScore": 34,
+      "name": "环太湖",
+      "distanceM": 151856.5,
+      "avgGrade": 0.0009219230269081891,
+      "startLat": 31.187686920166016,
+      "startLng": 120.47770690917969
+    },
+    {
+      "id": "33603225",
+      "tileScore": 10,
+      "name": "吴中大道极限操作",
+      "distanceM": 12635.599609375,
+      "avgGrade": 0.011079806834459305,
+      "startLat": 31.228336334228516,
+      "startLng": 120.60233306884766
+    },
+    {
+      "id": "15356228",
+      "tileScore": 43,
+      "name": "东山itt训练路线",
+      "distanceM": 55574.1015625,
+      "avgGrade": 0.002339219208806753,
+      "startLat": 31.18752098083496,
+      "startLng": 120.4769515991211
+    }
+  ]
+}

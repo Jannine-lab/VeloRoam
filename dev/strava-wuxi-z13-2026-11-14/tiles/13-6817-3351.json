@@ -1,0 +1,20 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-14T07:13:14.947Z",
+  "tile": {
+    "z": 13,
+    "x": 6817,
+    "y": 3351
+  },
+  "segments": [
+    {
+      "id": "39654039",
+      "tileScore": 1,
+      "name": "冲向LACASA",
+      "distanceM": 2723.5,
+      "avgGrade": 1.2997980117797852,
+      "startLat": 31.0784969329834,
+      "startLng": 119.58168029785156
+    }
+  ]
+}

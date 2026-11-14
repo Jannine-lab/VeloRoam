@@ -1,0 +1,20 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-14T06:58:20.920Z",
+  "tile": {
+    "z": 13,
+    "x": 6825,
+    "y": 3324
+  },
+  "segments": [
+    {
+      "id": "39682498",
+      "tileScore": 4,
+      "name": "泰兴长绿色廊道",
+      "distanceM": 9311.2998046875,
+      "avgGrade": -0.023627204820513725,
+      "startLat": 32.10920333862305,
+      "startLng": 119.93531799316406
+    }
+  ]
+}

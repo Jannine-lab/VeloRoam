@@ -1,0 +1,20 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-14T06:38:11.592Z",
+  "tile": {
+    "z": 13,
+    "x": 6766,
+    "y": 3251
+  },
+  "segments": [
+    {
+      "id": "37737623",
+      "tileScore": 33,
+      "name": "郯薛路（东至西）",
+      "distanceM": 16433.19921875,
+      "avgGrade": 0.25558018684387207,
+      "startLat": 34.74412155151367,
+      "startLng": 117.54901123046875
+    }
+  ]
+}

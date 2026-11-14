@@ -1,0 +1,83 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-14T07:05:44.163Z",
+  "tile": {
+    "z": 13,
+    "x": 6818,
+    "y": 3327
+  },
+  "segments": [
+    {
+      "id": "33904484",
+      "tileScore": 2,
+      "name": "S122 E-W（肖梁河桥-庆丰河桥）",
+      "distanceM": 2503.199951171875,
+      "avgGrade": 0,
+      "startLat": 31.985393524169922,
+      "startLng": 119.65887451171875
+    },
+    {
+      "id": "34198166",
+      "tileScore": 2,
+      "name": "机场路（圣象-前艾卫生院）",
+      "distanceM": 10645.2001953125,
+      "avgGrade": 0.016909029334783554,
+      "startLat": 31.988601684570312,
+      "startLng": 119.61042785644531
+    },
+    {
+      "id": "18473796",
+      "tileScore": 8,
+      "name": "Jinhang Canal (Lingkou to Danyang)",
+      "distanceM": 2236.199951171875,
+      "avgGrade": 0,
+      "startLat": 31.959199905395508,
+      "startLng": 119.6340103149414
+    },
+    {
+      "id": "17457037",
+      "tileScore": 2,
+      "name": "Lingkou, Danyang - Alongside the River (N-S)",
+      "distanceM": 3522,
+      "avgGrade": 0,
+      "startLat": 31.985057830810547,
+      "startLng": 119.6591796875
+    },
+    {
+      "id": "35258927",
+      "tileScore": 54,
+      "name": "S357 丹阳-陵口",
+      "distanceM": 4465.39990234375,
+      "avgGrade": 0,
+      "startLat": 31.976484298706055,
+      "startLng": 119.6153793334961
+    },
+    {
+      "id": "26269846",
+      "tileScore": 71,
+      "name": "s357 13KM",
+      "distanceM": 13625.599609375,
+      "avgGrade": -0.014678251929581165,
+      "startLat": 31.97804069519043,
+      "startLng": 119.61251068115234
+    },
+    {
+      "id": "36749166",
+      "tileScore": 115,
+      "name": "357最后的冲刺！",
+      "distanceM": 518.5999755859375,
+      "avgGrade": -0.19282685220241547,
+      "startLat": 31.975183486938477,
+      "startLng": 119.61994934082031
+    },
+    {
+      "id": "34192002",
+      "tileScore": 6,
+      "name": "货场路跨铁路桥 W-E",
+      "distanceM": 501.20001220703125,
+      "avgGrade": 1.5961692333221436,
+      "startLat": 31.95772933959961,
+      "startLng": 119.63700103759766
+    }
+  ]
+}

@@ -1,0 +1,65 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-14T07:08:24.727Z",
+  "tile": {
+    "z": 13,
+    "x": 6832,
+    "y": 3349
+  },
+  "segments": [
+    {
+      "id": "33401272",
+      "tileScore": 47,
+      "name": "东西山超级有氧",
+      "distanceM": 137358.703125,
+      "avgGrade": 0.00873624999076128,
+      "startLat": 31.187084197998047,
+      "startLng": 120.4767837524414
+    },
+    {
+      "id": "26094044",
+      "tileScore": 20,
+      "name": "天王山路-笠帽顶",
+      "distanceM": 3166.300048828125,
+      "avgGrade": 6.398635387420654,
+      "startLat": 31.1292781829834,
+      "startLng": 120.27940368652344
+    },
+    {
+      "id": "26021531",
+      "tileScore": 5,
+      "name": "Hengshan Rd (Southbound)",
+      "distanceM": 882.7000122070312,
+      "avgGrade": 0.15860427916049957,
+      "startLat": 31.164527893066406,
+      "startLng": 120.26817321777344
+    },
+    {
+      "id": "31790815",
+      "tileScore": 2,
+      "name": "Luke's wrong turn",
+      "distanceM": 1484.199951171875,
+      "avgGrade": 1.3879531621932983,
+      "startLat": 31.133808135986328,
+      "startLng": 120.27891540527344
+    },
+    {
+      "id": "14080837",
+      "tileScore": 24,
+      "name": "Piaomiao Rd Approach until Gate",
+      "distanceM": 2088.5,
+      "avgGrade": 1.7907589673995972,
+      "startLat": 31.14068031311035,
+      "startLng": 120.25741577148438
+    },
+    {
+      "id": "16570084",
+      "tileScore": 36,
+      "name": "XISHAN ITT 1",
+      "distanceM": 11350.2001953125,
+      "avgGrade": 0.05638666823506355,
+      "startLat": 31.16116714477539,
+      "startLng": 120.32637786865234
+    }
+  ]
+}

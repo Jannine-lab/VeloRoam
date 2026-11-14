@@ -1,0 +1,20 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-14T07:11:00.040Z",
+  "tile": {
+    "z": 13,
+    "x": 6823,
+    "y": 3348
+  },
+  "segments": [
+    {
+      "id": "34881639",
+      "tileScore": 299,
+      "name": "S360上坝回程上坡",
+      "distanceM": 7540,
+      "avgGrade": 0.9336870312690735,
+      "startLat": 31.1938533782959,
+      "startLng": 119.8943862915039
+    }
+  ]
+}

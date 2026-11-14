@@ -1,0 +1,20 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-14T07:12:42.580Z",
+  "tile": {
+    "z": 13,
+    "x": 6817,
+    "y": 3348
+  },
+  "segments": [
+    {
+      "id": "39217922",
+      "tileScore": 11,
+      "name": "Speed up trough the village ",
+      "distanceM": 2297.5,
+      "avgGrade": -1.3536452054977417,
+      "startLat": 31.184572219848633,
+      "startLng": 119.60260772705078
+    }
+  ]
+}

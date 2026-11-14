@@ -1,0 +1,38 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-14T06:19:15.761Z",
+  "tile": {
+    "z": 13,
+    "x": 6764,
+    "y": 3267
+  },
+  "segments": [
+    {
+      "id": "40044945",
+      "tileScore": 3,
+      "name": "Xuzhou City To Airport - Highway",
+      "distanceM": 20324.80078125,
+      "avgGrade": -0.006396126933395863,
+      "startLat": 34.176231384277344,
+      "startLng": 117.27626037597656
+    },
+    {
+      "id": "31872328",
+      "tileScore": 35,
+      "name": "Dalong Lake Loop Ride",
+      "distanceM": 8257.400390625,
+      "avgGrade": 0.0024220698978751898,
+      "startLat": 34.20137405395508,
+      "startLng": 117.27008819580078
+    },
+    {
+      "id": "41621546",
+      "tileScore": 11,
+      "name": "徐州铁三骑行",
+      "distanceM": 37716.30078125,
+      "avgGrade": 0.013256867416203022,
+      "startLat": 34.20806884765625,
+      "startLng": 117.26596069335938
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-14T07:20:20.021Z",
+  "tile": {
+    "z": 13,
+    "x": 6855,
+    "y": 3340
+  },
+  "segments": [
+    {
+      "id": "41189803",
+      "tileScore": 4,
+      "name": "JIA DING BEST ONE",
+      "distanceM": 2426.60009765625,
+      "avgGrade": 0.049451906234025955,
+      "startLat": 31.47791290283203,
+      "startLng": 121.25726318359375
+    },
+    {
+      "id": "41189805",
+      "tileScore": 13,
+      "name": "乡村小路2连",
+      "distanceM": 3576.10009765625,
+      "avgGrade": -0.03355610743165016,
+      "startLat": 31.44803810119629,
+      "startLng": 121.27027130126953
+    },
+    {
+      "id": "27202479",
+      "tileScore": 6,
+      "name": "Get ready to climb Binjiang Bridge",
+      "distanceM": 3809.199951171875,
+      "avgGrade": 0.05775491148233414,
+      "startLat": 31.492998123168945,
+      "startLng": 121.32648468017578
+    },
+    {
+      "id": "40676306",
+      "tileScore": 10,
+      "name": "🐯发现的好路",
+      "distanceM": 9029.7998046875,
+      "avgGrade": -0.015504218637943268,
+      "startLat": 31.45059585571289,
+      "startLng": 121.219482421875
+    },
+    {
+      "id": "10376848",
+      "tileScore": 126,
+      "name": "爆派桥南段去程",
+      "distanceM": 845.5999755859375,
+      "avgGrade": 2.3415327072143555,
+      "startLat": 31.503498077392578,
+      "startLng": 121.28455352783203
+    }
+  ]
+}

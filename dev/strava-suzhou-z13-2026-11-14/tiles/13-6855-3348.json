@@ -1,0 +1,362 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-14T07:20:16.270Z",
+  "tile": {
+    "z": 13,
+    "x": 6855,
+    "y": 3348
+  },
+  "segments": [
+    {
+      "id": "33090399",
+      "tileScore": 15,
+      "name": "过了明珠路我就到家了",
+      "distanceM": 1103,
+      "avgGrade": -0.09066183120012283,
+      "startLat": 31.182985305786133,
+      "startLng": 121.26040649414062
+    },
+    {
+      "id": "42345837",
+      "tileScore": 26,
+      "name": "6哥带你刷两山",
+      "distanceM": 52786.69921875,
+      "avgGrade": -0.002652183175086975,
+      "startLat": 31.17475128173828,
+      "startLng": 121.30008697509766
+    },
+    {
+      "id": "30390325",
+      "tileScore": 16,
+      "name": "BTP-S9",
+      "distanceM": 4162.60009765625,
+      "avgGrade": -0.004804689437150955,
+      "startLat": 31.17131805419922,
+      "startLng": 121.23987579345703
+    },
+    {
+      "id": "24628411",
+      "tileScore": 20,
+      "name": "Songze Avenue（Xule Road-Panlong Road）",
+      "distanceM": 3438.699951171875,
+      "avgGrade": -0.011632302775979042,
+      "startLat": 31.17824935913086,
+      "startLng": 121.24129486083984
+    },
+    {
+      "id": "19324043",
+      "tileScore": 100,
+      "name": "the straight",
+      "distanceM": 871.0999755859375,
+      "avgGrade": 0,
+      "startLat": 31.17414093017578,
+      "startLng": 121.28572845458984
+    },
+    {
+      "id": "40019920",
+      "tileScore": 36,
+      "name": "Full gas to first \"L\" turn from Wensha",
+      "distanceM": 15605.900390625,
+      "avgGrade": 0.0397285632789135,
+      "startLat": 31.19355583190918,
+      "startLng": 121.37028503417969
+    },
+    {
+      "id": "24463386",
+      "tileScore": 3,
+      "name": "First of All, Ain't no Mistakes Allowed",
+      "distanceM": 2018.4000244140625,
+      "avgGrade": -0.05945303291082382,
+      "startLat": 31.204029083251953,
+      "startLng": 121.25882720947266
+    },
+    {
+      "id": "27307735",
+      "tileScore": 67,
+      "name": "BTP-CN-002",
+      "distanceM": 5998,
+      "avgGrade": 0.005001666955649853,
+      "startLat": 31.173452377319336,
+      "startLng": 121.28401184082031
+    },
+    {
+      "id": "27743438",
+      "tileScore": 3,
+      "name": "Cemetery 2 SRC",
+      "distanceM": 56811.30078125,
+      "avgGrade": 0,
+      "startLat": 31.20186996459961,
+      "startLng": 121.27755737304688
+    },
+    {
+      "id": "42224928",
+      "tileScore": 10,
+      "name": "Xujing West Garden",
+      "distanceM": 867.5,
+      "avgGrade": -0.18443803489208221,
+      "startLat": 31.18426513671875,
+      "startLng": 121.26946258544922
+    },
+    {
+      "id": "28905054",
+      "tileScore": 18,
+      "name": "NQSF-00105",
+      "distanceM": 1077.4000244140625,
+      "avgGrade": -0.16706886887550354,
+      "startLat": 31.196687698364258,
+      "startLng": 121.27574157714844
+    },
+    {
+      "id": "8208076",
+      "tileScore": 18,
+      "name": "BeiHwy  to Brit School 1KM sprint",
+      "distanceM": 1023.5,
+      "avgGrade": 0,
+      "startLat": 31.207948684692383,
+      "startLng": 121.26846313476562
+    },
+    {
+      "id": "11606937",
+      "tileScore": 32,
+      "name": "The Yinggang Lung Burner",
+      "distanceM": 4309.10009765625,
+      "avgGrade": 0.09514747560024261,
+      "startLat": 31.166017532348633,
+      "startLng": 121.22124481201172
+    },
+    {
+      "id": "36112090",
+      "tileScore": 55,
+      "name": "Tulips Sams",
+      "distanceM": 46121.80078125,
+      "avgGrade": 0.004336344078183174,
+      "startLat": 31.19768524169922,
+      "startLng": 121.41617584228516
+    },
+    {
+      "id": "36894166",
+      "tileScore": 5,
+      "name": "ER - Babies Arm",
+      "distanceM": 56876.1015625,
+      "avgGrade": 0,
+      "startLat": 31.179828643798828,
+      "startLng": 121.28097534179688
+    },
+    {
+      "id": "37724746",
+      "tileScore": 8,
+      "name": "青浦快运",
+      "distanceM": 66769.3984375,
+      "avgGrade": -0.013179689645767212,
+      "startLat": 31.176237106323242,
+      "startLng": 121.27295684814453
+    },
+    {
+      "id": "36962149",
+      "tileScore": 42,
+      "name": "蟠龙天地走到底",
+      "distanceM": 18617.099609375,
+      "avgGrade": -0.021485622972249985,
+      "startLat": 31.188560485839844,
+      "startLng": 121.2720718383789
+    },
+    {
+      "id": "22381695",
+      "tileScore": 1,
+      "name": "Huaxu Gong Lu nb part 2",
+      "distanceM": 1791.5999755859375,
+      "avgGrade": -0.044652827084064484,
+      "startLat": 31.171289443969727,
+      "startLng": 121.27664184570312
+    },
+    {
+      "id": "35850240",
+      "tileScore": 17,
+      "name": "how to cope with this uneven road & traffic jams 🤨",
+      "distanceM": 698.7000122070312,
+      "avgGrade": 0,
+      "startLat": 31.202173233032227,
+      "startLng": 121.28890991210938
+    },
+    {
+      "id": "32583560",
+      "tileScore": 29,
+      "name": "Janky AF",
+      "distanceM": 1438.199951171875,
+      "avgGrade": -0.13906271755695343,
+      "startLat": 31.1895751953125,
+      "startLng": 121.27416229248047
+    },
+    {
+      "id": "18814653",
+      "tileScore": 18,
+      "name": "Taking the BISS",
+      "distanceM": 572.9000244140625,
+      "avgGrade": 0.24437075853347778,
+      "startLat": 31.19658088684082,
+      "startLng": 121.2755355834961
+    },
+    {
+      "id": "41042464",
+      "tileScore": 6,
+      "name": "Songze Avenue Guan Road Bang Bridge",
+      "distanceM": 729.7999877929688,
+      "avgGrade": 0.3288572132587433,
+      "startLat": 31.181230545043945,
+      "startLng": 121.2527847290039
+    },
+    {
+      "id": "15686762",
+      "tileScore": 14,
+      "name": "Yinggang E Rd",
+      "distanceM": 1413,
+      "avgGrade": 0.08492568880319595,
+      "startLat": 31.180252075195312,
+      "startLng": 121.28245544433594
+    },
+    {
+      "id": "30384821",
+      "tileScore": 2,
+      "name": "THL-4",
+      "distanceM": 116824.5,
+      "avgGrade": -0.0025679543614387512,
+      "startLat": 31.206161499023438,
+      "startLng": 121.28252410888672
+    },
+    {
+      "id": "18703013",
+      "tileScore": 22,
+      "name": "Gaojing northward bound",
+      "distanceM": 1656.0999755859375,
+      "avgGrade": -0.06038282811641693,
+      "startLat": 31.159481048583984,
+      "startLng": 121.29615783691406
+    },
+    {
+      "id": "22909849",
+      "tileScore": 12,
+      "name": "Out behind the Manor",
+      "distanceM": 949.5999755859375,
+      "avgGrade": 0.758213996887207,
+      "startLat": 31.195213317871094,
+      "startLng": 121.27666473388672
+    },
+    {
+      "id": "28780412",
+      "tileScore": 2,
+      "name": "chariots of the gods",
+      "distanceM": 494.70001220703125,
+      "avgGrade": 0.16171416640281677,
+      "startLat": 31.169532775878906,
+      "startLng": 121.27703094482422
+    },
+    {
+      "id": "27902343",
+      "tileScore": 18,
+      "name": "BTP-CN-069",
+      "distanceM": 400.1000061035156,
+      "avgGrade": 0.07498124986886978,
+      "startLat": 31.199661254882812,
+      "startLng": 121.27430725097656
+    },
+    {
+      "id": "28697371",
+      "tileScore": 10,
+      "name": "BTP-FC005",
+      "distanceM": 3857.5,
+      "avgGrade": 0.04925470054149628,
+      "startLat": 31.174842834472656,
+      "startLng": 121.28813171386719
+    },
+    {
+      "id": "36721259",
+      "tileScore": 7,
+      "name": "SHA: Songze Rd stretch, 1st bridge - ZhuGuang Rd, 13.2km",
+      "distanceM": 13349,
+      "avgGrade": 0.03745599091053009,
+      "startLat": 31.17661476135254,
+      "startLng": 121.15251159667969
+    },
+    {
+      "id": "36651288",
+      "tileScore": 111,
+      "name": "HQP Flyover to Outlets Full Gas",
+      "distanceM": 10066.900390625,
+      "avgGrade": -0.07648829370737076,
+      "startLat": 31.17055892944336,
+      "startLng": 121.3229751586914
+    },
+    {
+      "id": "22068484",
+      "tileScore": 8,
+      "name": "G318 上海-湖州",
+      "distanceM": 133169.203125,
+      "avgGrade": -0.002553143072873354,
+      "startLat": 31.17106056213379,
+      "startLng": 121.32220458984375
+    },
+    {
+      "id": "30564546",
+      "tileScore": 2,
+      "name": "FMG-23",
+      "distanceM": 35947.6015625,
+      "avgGrade": 0.02837463468313217,
+      "startLat": 31.019447326660156,
+      "startLng": 121.3215560913086
+    },
+    {
+      "id": "30390327",
+      "tileScore": 16,
+      "name": "BTP-S10",
+      "distanceM": 3897.300048828125,
+      "avgGrade": -0.0025658789090812206,
+      "startLat": 31.203502655029297,
+      "startLng": 121.24878692626953
+    },
+    {
+      "id": "28279803",
+      "tileScore": 18,
+      "name": "BTP-ST002",
+      "distanceM": 1033.699951171875,
+      "avgGrade": 0.4063074588775635,
+      "startLat": 31.183237075805664,
+      "startLng": 121.27983856201172
+    },
+    {
+      "id": "38897849",
+      "tileScore": 1,
+      "name": "公制世纪 - KOM",
+      "distanceM": 101772.296875,
+      "avgGrade": -0.0031442742329090834,
+      "startLat": 31.17006492614746,
+      "startLng": 121.2751235961914
+    },
+    {
+      "id": "37027201",
+      "tileScore": 6,
+      "name": "ER speedy circuit ",
+      "distanceM": 75940.3984375,
+      "avgGrade": -0.010534577071666718,
+      "startLat": 31.1991024017334,
+      "startLng": 121.27393341064453
+    },
+    {
+      "id": "37654724",
+      "tileScore": 3,
+      "name": "佘山到盘龙的冲刺 1",
+      "distanceM": 20402.69921875,
+      "avgGrade": -0.0009802624117583036,
+      "startLat": 31.094135284423828,
+      "startLng": 121.1690902709961
+    },
+    {
+      "id": "5858979",
+      "tileScore": 13,
+      "name": "GrandView G 2 Xujing",
+      "distanceM": 37196.30078125,
+      "avgGrade": 0.01828138716518879,
+      "startLat": 31.067720413208008,
+      "startLng": 120.91679382324219
+    }
+  ]
+}

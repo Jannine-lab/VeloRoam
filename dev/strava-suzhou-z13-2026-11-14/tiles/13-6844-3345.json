@@ -1,0 +1,119 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-14T07:14:52.591Z",
+  "tile": {
+    "z": 13,
+    "x": 6844,
+    "y": 3345
+  },
+  "segments": [
+    {
+      "id": "10050943",
+      "tileScore": 1,
+      "name": "Gongyao Rd (Eastbound)",
+      "distanceM": 737.7000122070312,
+      "avgGrade": 0.1084451675415039,
+      "startLat": 31.30080795288086,
+      "startLng": 120.75711059570312
+    },
+    {
+      "id": "40772374",
+      "tileScore": 2,
+      "name": "New Road to SIP",
+      "distanceM": 1068.699951171875,
+      "avgGrade": -0.07485730201005936,
+      "startLat": 31.294811248779297,
+      "startLng": 120.77577209472656
+    },
+    {
+      "id": "8936555",
+      "tileScore": 7,
+      "name": "Wusong River Bridge (Eastbound)",
+      "distanceM": 652.7000122070312,
+      "avgGrade": 0.33706143498420715,
+      "startLat": 31.287866592407227,
+      "startLng": 120.79496002197266
+    },
+    {
+      "id": "32263162",
+      "tileScore": 1,
+      "name": "Xinghua St Bridge South over the river",
+      "distanceM": 537.5999755859375,
+      "avgGrade": 0.1116071492433548,
+      "startLat": 31.300453186035156,
+      "startLng": 120.76563262939453
+    },
+    {
+      "id": "12945835",
+      "tileScore": 1,
+      "name": "Xinghua St (Gangtian > Zhongxin E (Northbound)",
+      "distanceM": 693.2000122070312,
+      "avgGrade": 0.10098095238208771,
+      "startLat": 31.304931640625,
+      "startLng": 120.76616668701172
+    },
+    {
+      "id": "8481636",
+      "tileScore": 2,
+      "name": "Zhongxin Avenue East",
+      "distanceM": 8045.39990234375,
+      "avgGrade": -0.006214731372892857,
+      "startLat": 31.310014724731445,
+      "startLng": 120.72364807128906
+    },
+    {
+      "id": "40659469",
+      "tileScore": 1,
+      "name": "ChangYang St",
+      "distanceM": 6142.7001953125,
+      "avgGrade": 0.04558256268501282,
+      "startLat": 31.293292999267578,
+      "startLng": 120.78673553466797
+    },
+    {
+      "id": "31193715",
+      "tileScore": 1,
+      "name": "New bridge to SIP ",
+      "distanceM": 867.4000244140625,
+      "avgGrade": 0.2536315321922302,
+      "startLat": 31.293468475341797,
+      "startLng": 120.78681182861328
+    },
+    {
+      "id": "12982548",
+      "tileScore": 1,
+      "name": "Xinghua St (Zhongxin E Ave → Shahu Park)",
+      "distanceM": 3442.699951171875,
+      "avgGrade": -0.04647514969110489,
+      "startLat": 31.312602996826172,
+      "startLng": 120.76608276367188
+    },
+    {
+      "id": "22263996",
+      "tileScore": 8,
+      "name": "苏州回上海（中新大道东）",
+      "distanceM": 11227,
+      "avgGrade": -0.03919123485684395,
+      "startLat": 31.31157875061035,
+      "startLng": 120.76634216308594
+    },
+    {
+      "id": "25958085",
+      "tileScore": 7,
+      "name": "Eastern part of Jinjihu avenue eastbound",
+      "distanceM": 5737.7998046875,
+      "avgGrade": 0.033113736659288406,
+      "startLat": 31.29302406311035,
+      "startLng": 120.74217987060547
+    },
+    {
+      "id": "10051298",
+      "tileScore": 3,
+      "name": "S343 x Wusong Bridge (Westbound)",
+      "distanceM": 517.7999877929688,
+      "avgGrade": -0.5600618124008179,
+      "startLat": 31.291603088378906,
+      "startLng": 120.78143310546875
+    }
+  ]
+}

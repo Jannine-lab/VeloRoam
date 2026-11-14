@@ -1,0 +1,137 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-14T07:25:30.651Z",
+  "tile": {
+    "z": 13,
+    "x": 6843,
+    "y": 3346
+  },
+  "segments": [
+    {
+      "id": "39988582",
+      "tileScore": 19,
+      "name": "车坊大桥",
+      "distanceM": 1495.4000244140625,
+      "avgGrade": 0.6152200102806091,
+      "startLat": 31.244029998779297,
+      "startLng": 120.77037048339844
+    },
+    {
+      "id": "22547843",
+      "tileScore": 8,
+      "name": "White Thingy Inbound",
+      "distanceM": 2002.800048828125,
+      "avgGrade": -0.11483921855688095,
+      "startLat": 31.262779235839844,
+      "startLng": 120.72357177734375
+    },
+    {
+      "id": "11586735",
+      "tileScore": 3,
+      "name": "Cheguo Rd (North-East Bound)",
+      "distanceM": 1510.0999755859375,
+      "avgGrade": 0.19866235554218292,
+      "startLat": 31.25251579284668,
+      "startLng": 120.75763702392578
+    },
+    {
+      "id": "10314020",
+      "tileScore": 1,
+      "name": "passing the Dushu Lake Church (Southbound)",
+      "distanceM": 767.2000122070312,
+      "avgGrade": -0.09124087542295456,
+      "startLat": 31.276945114135742,
+      "startLng": 120.71773529052734
+    },
+    {
+      "id": "10313965",
+      "tileScore": 2,
+      "name": "Yueliangwan Rd (Clockwise)",
+      "distanceM": 1222,
+      "avgGrade": -0.3273322582244873,
+      "startLat": 31.26746940612793,
+      "startLng": 120.7186508178711
+    },
+    {
+      "id": "23469085",
+      "tileScore": 6,
+      "name": "Jinji&Dushu Lakes",
+      "distanceM": 25429,
+      "avgGrade": 0.01651657558977604,
+      "startLat": 31.306800842285156,
+      "startLng": 120.72010803222656
+    },
+    {
+      "id": "40540955",
+      "tileScore": 1,
+      "name": "蔺谊路（western）",
+      "distanceM": 2549,
+      "avgGrade": 0.05492349714040756,
+      "startLat": 31.242767333984375,
+      "startLng": 120.73218536376953
+    },
+    {
+      "id": "38918201",
+      "tileScore": 2,
+      "name": "DongFang Road to Luzhi",
+      "distanceM": 12027.900390625,
+      "avgGrade": 0,
+      "startLat": 31.24398422241211,
+      "startLng": 120.70996856689453
+    },
+    {
+      "id": "11586637",
+      "tileScore": 2,
+      "name": "Gao Dian Bridge (Eastbound)",
+      "distanceM": 248,
+      "avgGrade": -0.24193549156188965,
+      "startLat": 31.24077033996582,
+      "startLng": 120.7207260131836
+    },
+    {
+      "id": "22105952",
+      "tileScore": 4,
+      "name": "Zhongnan St (ZXDDD) + Jinyan Rd",
+      "distanceM": 5329.89990234375,
+      "avgGrade": 0.018762078136205673,
+      "startLat": 31.31037139892578,
+      "startLng": 120.75257110595703
+    },
+    {
+      "id": "8800596",
+      "tileScore": 10,
+      "name": "Songtao street southbound 1",
+      "distanceM": 427.3999938964844,
+      "avgGrade": 0.42115116119384766,
+      "startLat": 31.28138542175293,
+      "startLng": 120.72972869873047
+    },
+    {
+      "id": "24662182",
+      "tileScore": 4,
+      "name": "Wan Shou St left turn from Yue Song Rd",
+      "distanceM": 1952.300048828125,
+      "avgGrade": -0.04097730666399002,
+      "startLat": 31.258201599121094,
+      "startLng": 120.71707916259766
+    },
+    {
+      "id": "34761788",
+      "tileScore": 14,
+      "name": "翻过这座山，做最硬的男人",
+      "distanceM": 1889.5999755859375,
+      "avgGrade": 0.07408975809812546,
+      "startLat": 31.248933792114258,
+      "startLng": 120.72691345214844
+    },
+    {
+      "id": "18394104",
+      "tileScore": 1,
+      "name": "Yuxin Rd (Eastbound)",
+      "distanceM": 2282.5,
+      "avgGrade": -0.01752464473247528,
+      "startLat": 31.252605438232422,
+      "startLng": 120.72590637207031
+    }
+  ]
+}

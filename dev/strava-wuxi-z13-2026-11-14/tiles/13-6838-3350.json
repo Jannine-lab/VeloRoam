@@ -1,0 +1,65 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-14T07:10:38.896Z",
+  "tile": {
+    "z": 13,
+    "x": 6838,
+    "y": 3350
+  },
+  "segments": [
+    {
+      "id": "34761678",
+      "tileScore": 35,
+      "name": "快闪开，戴老师站起来摇车啦",
+      "distanceM": 3056.800048828125,
+      "avgGrade": 0.006542789749801159,
+      "startLat": 31.121116638183594,
+      "startLng": 120.51480102539062
+    },
+    {
+      "id": "26611499",
+      "tileScore": 7,
+      "name": "Taihu 300km extension",
+      "distanceM": 37416.69921875,
+      "avgGrade": -0.014432058669626713,
+      "startLat": 31.227924346923828,
+      "startLng": 120.44613647460938
+    },
+    {
+      "id": "18157271",
+      "tileScore": 38,
+      "name": "滨湖大道折返点回起点",
+      "distanceM": 7356.39990234375,
+      "avgGrade": 0.021749768406152725,
+      "startLat": 31.167818069458008,
+      "startLng": 120.56814575195312
+    },
+    {
+      "id": "18785012",
+      "tileScore": 24,
+      "name": "Rick’s Relaxing Road",
+      "distanceM": 25785,
+      "avgGrade": 0.011634672060608864,
+      "startLat": 31.1710147857666,
+      "startLng": 120.57261657714844
+    },
+    {
+      "id": "20814571",
+      "tileScore": 18,
+      "name": "as fast as you can",
+      "distanceM": 22303.400390625,
+      "avgGrade": -0.006277069915086031,
+      "startLat": 31.17060661315918,
+      "startLng": 120.57173156738281
+    },
+    {
+      "id": "30384821",
+      "tileScore": 2,
+      "name": "THL-4",
+      "distanceM": 116824.5,
+      "avgGrade": -0.0025679543614387512,
+      "startLat": 31.206161499023438,
+      "startLng": 121.28252410888672
+    }
+  ]
+}

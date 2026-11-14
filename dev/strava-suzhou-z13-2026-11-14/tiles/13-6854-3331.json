@@ -1,0 +1,38 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-14T07:22:27.303Z",
+  "tile": {
+    "z": 13,
+    "x": 6854,
+    "y": 3331
+  },
+  "segments": [
+    {
+      "id": "42365089",
+      "tileScore": 72,
+      "name": "2026 TREK100精英组",
+      "distanceM": 94728,
+      "avgGrade": -0.000633392424788326,
+      "startLat": 31.6234073638916,
+      "startLng": 121.42135620117188
+    },
+    {
+      "id": "39035466",
+      "tileScore": 6,
+      "name": "遥望海门2",
+      "distanceM": 4741.39990234375,
+      "avgGrade": 0,
+      "startLat": 31.809701919555664,
+      "startLng": 121.18653106689453
+    },
+    {
+      "id": "9557538",
+      "tileScore": 97,
+      "name": "CMD Outer Seawall Sprint",
+      "distanceM": 11355,
+      "avgGrade": -0.0017613385571166873,
+      "startLat": 31.85027313232422,
+      "startLng": 121.32787322998047
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-14T07:00:21.746Z",
+  "tile": {
+    "z": 13,
+    "x": 6828,
+    "y": 3325
+  },
+  "segments": [
+    {
+      "id": "40831514",
+      "tileScore": 4,
+      "name": "瑞玺车队团练",
+      "distanceM": 93729.3984375,
+      "avgGrade": 0.000853520876262337,
+      "startLat": 31.98006820678711,
+      "startLng": 120.24766540527344
+    }
+  ]
+}

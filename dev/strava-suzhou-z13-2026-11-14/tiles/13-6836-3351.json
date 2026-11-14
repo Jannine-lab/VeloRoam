@@ -1,0 +1,92 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-14T07:10:07.563Z",
+  "tile": {
+    "z": 13,
+    "x": 6836,
+    "y": 3351
+  },
+  "segments": [
+    {
+      "id": "18032932",
+      "tileScore": 14,
+      "name": "6K for TT (Northbound)",
+      "distanceM": 6161.89990234375,
+      "avgGrade": 0.05193202942609787,
+      "startLat": 31.03491973876953,
+      "startLng": 120.42351531982422
+    },
+    {
+      "id": "39179504",
+      "tileScore": 21,
+      "name": "腾飞路至石鹤山路",
+      "distanceM": 6359,
+      "avgGrade": 0.638465166091919,
+      "startLat": 31.116788864135742,
+      "startLng": 120.4753646850586
+    },
+    {
+      "id": "18934003",
+      "tileScore": 5,
+      "name": "Shiheshan Rd (Eastbound)",
+      "distanceM": 3081.199951171875,
+      "avgGrade": 0.038945864886045456,
+      "startLat": 31.078163146972656,
+      "startLng": 120.41312408447266
+    },
+    {
+      "id": "33401272",
+      "tileScore": 47,
+      "name": "东西山超级有氧",
+      "distanceM": 137358.703125,
+      "avgGrade": 0.00873624999076128,
+      "startLat": 31.187084197998047,
+      "startLng": 120.4767837524414
+    },
+    {
+      "id": "15356228",
+      "tileScore": 43,
+      "name": "东山itt训练路线",
+      "distanceM": 55574.1015625,
+      "avgGrade": 0.002339219208806753,
+      "startLat": 31.18752098083496,
+      "startLng": 120.4769515991211
+    },
+    {
+      "id": "39591283",
+      "tileScore": 33,
+      "name": "The last 1km rush MengMengGan",
+      "distanceM": 1010.9000244140625,
+      "avgGrade": -0.0791373997926712,
+      "startLat": 31.06869888305664,
+      "startLng": 120.40486145019531
+    },
+    {
+      "id": "18785012",
+      "tileScore": 24,
+      "name": "Rick’s Relaxing Road",
+      "distanceM": 25785,
+      "avgGrade": 0.011634672060608864,
+      "startLat": 31.1710147857666,
+      "startLng": 120.57261657714844
+    },
+    {
+      "id": "20814571",
+      "tileScore": 18,
+      "name": "as fast as you can",
+      "distanceM": 22303.400390625,
+      "avgGrade": -0.006277069915086031,
+      "startLat": 31.17060661315918,
+      "startLng": 120.57173156738281
+    },
+    {
+      "id": "34803677",
+      "tileScore": 27,
+      "name": "冲啊，马上到小店了",
+      "distanceM": 3962.800048828125,
+      "avgGrade": -0.08579792082309723,
+      "startLat": 31.046770095825195,
+      "startLng": 120.39165496826172
+    }
+  ]
+}

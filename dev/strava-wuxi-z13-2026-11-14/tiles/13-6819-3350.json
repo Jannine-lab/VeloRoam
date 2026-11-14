@@ -1,0 +1,29 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-14T07:12:25.574Z",
+  "tile": {
+    "z": 13,
+    "x": 6819,
+    "y": 3350
+  },
+  "segments": [
+    {
+      "id": "35137540",
+      "tileScore": 40,
+      "name": "爬完五通山回家",
+      "distanceM": 5650.89990234375,
+      "avgGrade": -0.6866163015365601,
+      "startLat": 31.11383056640625,
+      "startLng": 119.69634246826172
+    },
+    {
+      "id": "37085601",
+      "tileScore": 45,
+      "name": "S338E-W to 安徽界",
+      "distanceM": 4776.60009765625,
+      "avgGrade": 2.286144971847534,
+      "startLat": 31.120824813842773,
+      "startLng": 119.68193817138672
+    }
+  ]
+}

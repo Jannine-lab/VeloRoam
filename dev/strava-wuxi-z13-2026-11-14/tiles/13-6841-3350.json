@@ -1,0 +1,29 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-14T07:11:07.720Z",
+  "tile": {
+    "z": 13,
+    "x": 6841,
+    "y": 3350
+  },
+  "segments": [
+    {
+      "id": "15518506",
+      "tileScore": 74,
+      "name": "S227 Pingwang-Songling(Northbound)",
+      "distanceM": 11378.7001953125,
+      "avgGrade": 0.01406135968863964,
+      "startLat": 31.005901336669922,
+      "startLng": 120.64395904541016
+    },
+    {
+      "id": "40973637",
+      "tileScore": 1,
+      "name": "云龙大桥 (Eastbound)",
+      "distanceM": 660.7000122070312,
+      "avgGrade": 0.2421674132347107,
+      "startLat": 31.111766815185547,
+      "startLng": 120.66697692871094
+    }
+  ]
+}

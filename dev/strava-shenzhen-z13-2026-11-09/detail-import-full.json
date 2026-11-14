@@ -11,9 +11,9 @@
     },
     "completeTiles": 384
   },
-  "status": "waiting_quota",
+  "status": "failed",
   "startedAt": "2026-11-09T03:45:58.874Z",
-  "finishedAt": null,
+  "finishedAt": "2026-11-11T08:05:40.258Z",
   "sourceCount": 1807,
   "existingIds": [
     "17194105",
@@ -8567,6 +8567,3359 @@
       "stravaScore": 35,
       "rawScore": 11.86,
       "pointCount": 19
+    },
+    {
+      "id": "36159407",
+      "name": "沙河西冲到北环",
+      "stravaScore": 2,
+      "rawScore": 3.62,
+      "pointCount": 19
+    },
+    {
+      "id": "36159705",
+      "name": "tai shu ha out",
+      "stravaScore": 19,
+      "rawScore": 1.46,
+      "pointCount": 20
+    },
+    {
+      "id": "36164638",
+      "name": "深南东路",
+      "stravaScore": 7,
+      "rawScore": 7.1,
+      "pointCount": 48
+    },
+    {
+      "id": "36169154",
+      "name": "STK U-turn",
+      "stravaScore": 7,
+      "rawScore": 21.66,
+      "pointCount": 52
+    },
+    {
+      "id": "36200986",
+      "name": "棚屋-坡顶",
+      "stravaScore": 25,
+      "rawScore": 32.62,
+      "pointCount": 39
+    },
+    {
+      "id": "36217301",
+      "name": "Queen_Viva",
+      "stravaScore": 31,
+      "rawScore": 3.05,
+      "pointCount": 13
+    },
+    {
+      "id": "36218220",
+      "name": "梅林后山（龙华圈）",
+      "stravaScore": 4,
+      "rawScore": 22.23,
+      "pointCount": 307
+    },
+    {
+      "id": "36218490",
+      "name": "笋岗路（西往东）",
+      "stravaScore": 3,
+      "rawScore": 10.27,
+      "pointCount": 63
+    },
+    {
+      "id": "36244383",
+      "name": "鹏鹏休闲骑——鹏鹏被狗追",
+      "stravaScore": 1,
+      "rawScore": 27.78,
+      "pointCount": 32
+    },
+    {
+      "id": "36245160",
+      "name": "石青大道上坡",
+      "stravaScore": 25,
+      "rawScore": 4.04,
+      "pointCount": 9
+    },
+    {
+      "id": "36307827",
+      "name": "WestGongye8thUp2Jail",
+      "stravaScore": 3,
+      "rawScore": 5.17,
+      "pointCount": 28
+    },
+    {
+      "id": "36318043",
+      "name": "XinggongRdLoop",
+      "stravaScore": 8,
+      "rawScore": 16.43,
+      "pointCount": 18
+    },
+    {
+      "id": "36344115",
+      "name": "黄牛埔返程冲刺",
+      "stravaScore": 46,
+      "rawScore": 1.38,
+      "pointCount": 13
+    },
+    {
+      "id": "36354649",
+      "name": "塘下涌立交深圳方向",
+      "stravaScore": 5,
+      "rawScore": 2.64,
+      "pointCount": 21
+    },
+    {
+      "id": "36372277",
+      "name": "坪山金田路 - 龙海三路",
+      "stravaScore": 4,
+      "rawScore": 28.87,
+      "pointCount": 293
+    },
+    {
+      "id": "36385050",
+      "name": "一号岗-凤凰山绿道-发射塔",
+      "stravaScore": 36,
+      "rawScore": 31.46,
+      "pointCount": 666
+    },
+    {
+      "id": "36389955",
+      "name": "打工之路",
+      "stravaScore": 1,
+      "rawScore": 7.08,
+      "pointCount": 73
+    },
+    {
+      "id": "36405980",
+      "name": "China 3",
+      "stravaScore": 13,
+      "rawScore": 2.19,
+      "pointCount": 9
+    },
+    {
+      "id": "36407891",
+      "name": "上下肚水库回头弯冲刺赛段",
+      "stravaScore": 8,
+      "rawScore": 11.84,
+      "pointCount": 27
+    },
+    {
+      "id": "36413474",
+      "name": "畅爽下坡 - Jason在这里带到55km/h",
+      "stravaScore": 17,
+      "rawScore": 7.99,
+      "pointCount": 38
+    },
+    {
+      "id": "36425514",
+      "name": "望桐新路刷圈",
+      "stravaScore": 78,
+      "rawScore": 24.17,
+      "pointCount": 109
+    },
+    {
+      "id": "36442678",
+      "name": "风柜口二段坡",
+      "stravaScore": 29,
+      "rawScore": 20.84,
+      "pointCount": 43
+    },
+    {
+      "id": "36540987",
+      "name": "沙河绿道-福光消防站至深南路",
+      "stravaScore": 35,
+      "rawScore": 17.68,
+      "pointCount": 171
+    },
+    {
+      "id": "36554626",
+      "name": "西丽起伏大套餐（北站南科丽康宝石）",
+      "stravaScore": 91,
+      "rawScore": 49.53,
+      "pointCount": 407
+    },
+    {
+      "id": "36596206",
+      "name": "红星到光侨路红绿灯",
+      "stravaScore": 4,
+      "rawScore": 3.14,
+      "pointCount": 25
+    },
+    {
+      "id": "36649071",
+      "name": "梅关到莲花山",
+      "stravaScore": 14,
+      "rawScore": 9.78,
+      "pointCount": 67
+    },
+    {
+      "id": "36674954",
+      "name": "大屏嶂逆时针1圈",
+      "stravaScore": 168,
+      "rawScore": 51.74,
+      "pointCount": 671
+    },
+    {
+      "id": "36688308",
+      "name": "开市客绕圈",
+      "stravaScore": 2,
+      "rawScore": 18.59,
+      "pointCount": 34
+    },
+    {
+      "id": "36690732",
+      "name": "G107（怀德南路至兴业二路）",
+      "stravaScore": 10,
+      "rawScore": 10.23,
+      "pointCount": 43
+    },
+    {
+      "id": "36705197",
+      "name": "竹子林进攻",
+      "stravaScore": 133,
+      "rawScore": 2.03,
+      "pointCount": 10
+    },
+    {
+      "id": "36706061",
+      "name": "Dead man hill",
+      "stravaScore": 4,
+      "rawScore": 42.03,
+      "pointCount": 177
+    },
+    {
+      "id": "36706368",
+      "name": "深圳湾科技园-惠州城区江北",
+      "stravaScore": 8,
+      "rawScore": 210.59,
+      "pointCount": 2505
+    },
+    {
+      "id": "36740972",
+      "name": "观天飞弹",
+      "stravaScore": 164,
+      "rawScore": 8.58,
+      "pointCount": 11
+    },
+    {
+      "id": "36749213",
+      "name": "盐龙大道",
+      "stravaScore": 5,
+      "rawScore": 33.94,
+      "pointCount": 194
+    },
+    {
+      "id": "36754916",
+      "name": "一条新路",
+      "stravaScore": 3,
+      "rawScore": 3.37,
+      "pointCount": 27
+    },
+    {
+      "id": "36755267",
+      "name": "一腳觀塘至轉車站 [Fung]",
+      "stravaScore": 5,
+      "rawScore": 58.45,
+      "pointCount": 702
+    },
+    {
+      "id": "36783731",
+      "name": "荔枝苑冲刺",
+      "stravaScore": 1,
+      "rawScore": 4.95,
+      "pointCount": 12
+    },
+    {
+      "id": "36821110",
+      "name": "Choi Tip Street",
+      "stravaScore": 8,
+      "rawScore": 13.9,
+      "pointCount": 25
+    },
+    {
+      "id": "36842187",
+      "name": "我与飞机肩并肩",
+      "stravaScore": 7,
+      "rawScore": 3.27,
+      "pointCount": 23
+    },
+    {
+      "id": "36849492",
+      "name": "Smash it to Natconn",
+      "stravaScore": 2,
+      "rawScore": 7.64,
+      "pointCount": 19
+    },
+    {
+      "id": "36855419",
+      "name": "爱国路 直通 文锦路口",
+      "stravaScore": 12,
+      "rawScore": 3.48,
+      "pointCount": 36
+    },
+    {
+      "id": "36876765",
+      "name": "Climb and Descent to Tui Min Hoi",
+      "stravaScore": 15,
+      "rawScore": 2.57,
+      "pointCount": 40
+    },
+    {
+      "id": "36892918",
+      "name": "yong'an小坡坡",
+      "stravaScore": 8,
+      "rawScore": 18.74,
+      "pointCount": 16
+    },
+    {
+      "id": "36894271",
+      "name": "很好的短坡攻防",
+      "stravaScore": 2,
+      "rawScore": 6.82,
+      "pointCount": 18
+    },
+    {
+      "id": "37052731",
+      "name": "红色干线",
+      "stravaScore": 38,
+      "rawScore": 68.94,
+      "pointCount": 409
+    },
+    {
+      "id": "37092295",
+      "name": "坂澜大道（环城北路）连续爬坡",
+      "stravaScore": 4,
+      "rawScore": 11.93,
+      "pointCount": 39
+    },
+    {
+      "id": "37099735",
+      "name": "有氧套餐！",
+      "stravaScore": 15,
+      "rawScore": 62.88,
+      "pointCount": 437
+    },
+    {
+      "id": "37107418",
+      "name": "前进一路冲冲冲！",
+      "stravaScore": 1,
+      "rawScore": 9.76,
+      "pointCount": 66
+    },
+    {
+      "id": "37109486",
+      "name": "🌟红棉路由西向东",
+      "stravaScore": 13,
+      "rawScore": 19.2,
+      "pointCount": 163
+    },
+    {
+      "id": "37147907",
+      "name": "起伏climb1",
+      "stravaScore": 10,
+      "rawScore": 13,
+      "pointCount": 25
+    },
+    {
+      "id": "37148861",
+      "name": "新龙特大桥上坡段",
+      "stravaScore": 2,
+      "rawScore": 9.2,
+      "pointCount": 7
+    },
+    {
+      "id": "37163952",
+      "name": "宝荷路冲刺",
+      "stravaScore": 13,
+      "rawScore": 7.6,
+      "pointCount": 82
+    },
+    {
+      "id": "37163968",
+      "name": "宝坪路缓上坡（三洲田暖身）",
+      "stravaScore": 39,
+      "rawScore": 8.29,
+      "pointCount": 42
+    },
+    {
+      "id": "37167803",
+      "name": "哇，摩天轮",
+      "stravaScore": 17,
+      "rawScore": 1.05,
+      "pointCount": 3
+    },
+    {
+      "id": "37178284",
+      "name": "鹏飞路热身",
+      "stravaScore": 8,
+      "rawScore": 9.91,
+      "pointCount": 51
+    },
+    {
+      "id": "37184157",
+      "name": "Concrete Steepness",
+      "stravaScore": 10,
+      "rawScore": 12.82,
+      "pointCount": 48
+    },
+    {
+      "id": "37190701",
+      "name": "茶园绕圈爬坡",
+      "stravaScore": 25,
+      "rawScore": 7.22,
+      "pointCount": 26
+    },
+    {
+      "id": "37244085",
+      "name": "茶场",
+      "stravaScore": 2,
+      "rawScore": 46.11,
+      "pointCount": 170
+    },
+    {
+      "id": "37245997",
+      "name": "Lixiang_westbound",
+      "stravaScore": 44,
+      "rawScore": 8.11,
+      "pointCount": 10
+    },
+    {
+      "id": "37248551",
+      "name": "沙荷路冲刺1️⃣",
+      "stravaScore": 4,
+      "rawScore": 14.02,
+      "pointCount": 103
+    },
+    {
+      "id": "37268053",
+      "name": "DH@抽蓄水库-保安亭",
+      "stravaScore": 47,
+      "rawScore": 1.94,
+      "pointCount": 28
+    },
+    {
+      "id": "37294028",
+      "name": "TLR",
+      "stravaScore": 63,
+      "rawScore": 4.79,
+      "pointCount": 49
+    },
+    {
+      "id": "37321147",
+      "name": "安托山九路爬坡",
+      "stravaScore": 11,
+      "rawScore": 15.19,
+      "pointCount": 26
+    },
+    {
+      "id": "37333889",
+      "name": "龙澜辅路-茜坑路上坡",
+      "stravaScore": 1,
+      "rawScore": 7.92,
+      "pointCount": 9
+    },
+    {
+      "id": "37352053",
+      "name": "樟木头-谢岗 速通",
+      "stravaScore": 10,
+      "rawScore": 12.24,
+      "pointCount": 72
+    },
+    {
+      "id": "37390158",
+      "name": "凤塘大道-会展",
+      "stravaScore": 10,
+      "rawScore": 7.98,
+      "pointCount": 94
+    },
+    {
+      "id": "37391063",
+      "name": "光雅园地铁站到华为G区",
+      "stravaScore": 8,
+      "rawScore": 6.52,
+      "pointCount": 67
+    },
+    {
+      "id": "37394355",
+      "name": "虹桥公园爬坡",
+      "stravaScore": 40,
+      "rawScore": 13.92,
+      "pointCount": 136
+    },
+    {
+      "id": "37447321",
+      "name": "樟木头大道（林村——樟木头）",
+      "stravaScore": 18,
+      "rawScore": 10.92,
+      "pointCount": 55
+    },
+    {
+      "id": "37447346",
+      "name": "下坡爽",
+      "stravaScore": 18,
+      "rawScore": 1.87,
+      "pointCount": 10
+    },
+    {
+      "id": "37459260",
+      "name": "林场Gravel路| 赛艇在此32c征服",
+      "stravaScore": 14,
+      "rawScore": 6.6,
+      "pointCount": 118
+    },
+    {
+      "id": "37471398",
+      "name": "R200 CP2 to CP3",
+      "stravaScore": 21,
+      "rawScore": 44.11,
+      "pointCount": 566
+    },
+    {
+      "id": "37471413",
+      "name": "R200 CP4 to CP5",
+      "stravaScore": 4,
+      "rawScore": 22.84,
+      "pointCount": 380
+    },
+    {
+      "id": "37481676",
+      "name": "湖边Gravel 至铁门",
+      "stravaScore": 28,
+      "rawScore": 8.88,
+      "pointCount": 212
+    },
+    {
+      "id": "37496517",
+      "name": "西沙路泥涌段短暫美好時光",
+      "stravaScore": 25,
+      "rawScore": 4.72,
+      "pointCount": 27
+    },
+    {
+      "id": "37515238",
+      "name": "山樾湾直线下坡冲刺",
+      "stravaScore": 2,
+      "rawScore": 2.14,
+      "pointCount": 11
+    },
+    {
+      "id": "37517922",
+      "name": "DH1（只为计时🤪）",
+      "stravaScore": 21,
+      "rawScore": 4.42,
+      "pointCount": 23
+    },
+    {
+      "id": "37517933",
+      "name": "DH2（只为计时🤪）",
+      "stravaScore": 17,
+      "rawScore": 5.47,
+      "pointCount": 29
+    },
+    {
+      "id": "37533992",
+      "name": "深南皇岗",
+      "stravaScore": 19,
+      "rawScore": 2.04,
+      "pointCount": 14
+    },
+    {
+      "id": "37534742",
+      "name": "麻磡水窝坳",
+      "stravaScore": 2,
+      "rawScore": 7.07,
+      "pointCount": 39
+    },
+    {
+      "id": "37542871",
+      "name": "观音山路口——龙背岭入口",
+      "stravaScore": 52,
+      "rawScore": 3.96,
+      "pointCount": 81
+    },
+    {
+      "id": "37542887",
+      "name": "一路畅通",
+      "stravaScore": 1,
+      "rawScore": 6.05,
+      "pointCount": 22
+    },
+    {
+      "id": "37565825",
+      "name": "沁园路-大勘村",
+      "stravaScore": 9,
+      "rawScore": 6.31,
+      "pointCount": 46
+    },
+    {
+      "id": "37570030",
+      "name": "看看是谁刷乐跑",
+      "stravaScore": 3,
+      "rawScore": 1.25,
+      "pointCount": 15
+    },
+    {
+      "id": "37595185",
+      "name": "益田路大直道冲刺",
+      "stravaScore": 15,
+      "rawScore": 1.88,
+      "pointCount": 4
+    },
+    {
+      "id": "37631532",
+      "name": "大坑水库彩二村路段",
+      "stravaScore": 5,
+      "rawScore": 6.58,
+      "pointCount": 48
+    },
+    {
+      "id": "37638083",
+      "name": "长安大道惠龙加油站-梅园大象处500m 冲刺",
+      "stravaScore": 10,
+      "rawScore": 1.77,
+      "pointCount": 13
+    },
+    {
+      "id": "37671724",
+      "name": "大屏嶂森林公园500M开胃菜",
+      "stravaScore": 125,
+      "rawScore": 19.93,
+      "pointCount": 19
+    },
+    {
+      "id": "37686070",
+      "name": "去南澳还是去杨梅坑好呢Climb",
+      "stravaScore": 16,
+      "rawScore": 12.61,
+      "pointCount": 36
+    },
+    {
+      "id": "37694916",
+      "name": "和平路右转至布龙路加油站",
+      "stravaScore": 19,
+      "rawScore": 1.71,
+      "pointCount": 14
+    },
+    {
+      "id": "37710983",
+      "name": "前海地铁站单圈",
+      "stravaScore": 17,
+      "rawScore": 18.31,
+      "pointCount": 43
+    },
+    {
+      "id": "37747355",
+      "name": "观澜河绿道-碧和路到清湖老村段",
+      "stravaScore": 65,
+      "rawScore": 4.09,
+      "pointCount": 85
+    },
+    {
+      "id": "37769163",
+      "name": "水榭花都",
+      "stravaScore": 5,
+      "rawScore": 2.1,
+      "pointCount": 19
+    },
+    {
+      "id": "37769265",
+      "name": "农园路缓坡（前段）",
+      "stravaScore": 9,
+      "rawScore": 4.43,
+      "pointCount": 12
+    },
+    {
+      "id": "37770740",
+      "name": "sprint + descent",
+      "stravaScore": 8,
+      "rawScore": 1.44,
+      "pointCount": 33
+    },
+    {
+      "id": "37781015",
+      "name": "深信团练路线 | 南门山Climb 牌坊-水库",
+      "stravaScore": 35,
+      "rawScore": 9.72,
+      "pointCount": 26
+    },
+    {
+      "id": "37786849",
+      "name": "DH&YT",
+      "stravaScore": 7,
+      "rawScore": 48.63,
+      "pointCount": 929
+    },
+    {
+      "id": "37815851",
+      "name": "最后一哆嗦冲向坪山站！",
+      "stravaScore": 25,
+      "rawScore": 3.28,
+      "pointCount": 15
+    },
+    {
+      "id": "37818339",
+      "name": "Chris Back Home LTW 3rd Rd",
+      "stravaScore": 10,
+      "rawScore": 9.3,
+      "pointCount": 31
+    },
+    {
+      "id": "37845371",
+      "name": "S357平潭路口到良井",
+      "stravaScore": 9,
+      "rawScore": 26.5,
+      "pointCount": 97
+    },
+    {
+      "id": "37862596",
+      "name": "观光起伏赛段",
+      "stravaScore": 10,
+      "rawScore": 13.79,
+      "pointCount": 86
+    },
+    {
+      "id": "37894192",
+      "name": "永湖到三和1km爬坡区段",
+      "stravaScore": 16,
+      "rawScore": 6.47,
+      "pointCount": 22
+    },
+    {
+      "id": "37894207",
+      "name": "叶挺高速口500米短坡区段",
+      "stravaScore": 22,
+      "rawScore": 6.35,
+      "pointCount": 21
+    },
+    {
+      "id": "37895310",
+      "name": "Exit Bomb",
+      "stravaScore": 40,
+      "rawScore": 3.93,
+      "pointCount": 50
+    },
+    {
+      "id": "37905088",
+      "name": "c",
+      "stravaScore": 7,
+      "rawScore": 5.58,
+      "pointCount": 16
+    },
+    {
+      "id": "37913365",
+      "name": "松白-留仙",
+      "stravaScore": 8,
+      "rawScore": 25.79,
+      "pointCount": 187
+    },
+    {
+      "id": "37918416",
+      "name": "S256莞太路（虎门-厚街）",
+      "stravaScore": 8,
+      "rawScore": 22.43,
+      "pointCount": 120
+    },
+    {
+      "id": "37918442",
+      "name": "南阁大桥",
+      "stravaScore": 5,
+      "rawScore": 1.83,
+      "pointCount": 11
+    },
+    {
+      "id": "37929985",
+      "name": "新圩-镇隆climb",
+      "stravaScore": 26,
+      "rawScore": 14.45,
+      "pointCount": 21
+    },
+    {
+      "id": "37930012",
+      "name": "关山村陈屋-沥唇climb",
+      "stravaScore": 2,
+      "rawScore": 37.61,
+      "pointCount": 135
+    },
+    {
+      "id": "37933991",
+      "name": "Bird egg",
+      "stravaScore": 32,
+      "rawScore": 26.32,
+      "pointCount": 142
+    },
+    {
+      "id": "37936535",
+      "name": "單車節 長青橋 Descent",
+      "stravaScore": 68,
+      "rawScore": 1.69,
+      "pointCount": 11
+    },
+    {
+      "id": "37936539",
+      "name": "單車節 青葵公路3號碼頭 Descent",
+      "stravaScore": 76,
+      "rawScore": 1.31,
+      "pointCount": 14
+    },
+    {
+      "id": "37999935",
+      "name": "2024 滨海湾单圈",
+      "stravaScore": 4,
+      "rawScore": 23.42,
+      "pointCount": 47
+    },
+    {
+      "id": "38006989",
+      "name": "红干(由西往东)climb1",
+      "stravaScore": 18,
+      "rawScore": 7.44,
+      "pointCount": 25
+    },
+    {
+      "id": "38007008",
+      "name": "红干(由西往东)climb4",
+      "stravaScore": 12,
+      "rawScore": 6.47,
+      "pointCount": 12
+    },
+    {
+      "id": "38007015",
+      "name": "红干(由东往西)climb1",
+      "stravaScore": 10,
+      "rawScore": 7.86,
+      "pointCount": 19
+    },
+    {
+      "id": "38007025",
+      "name": "红干(由东往西)climb3",
+      "stravaScore": 6,
+      "rawScore": 8.86,
+      "pointCount": 44
+    },
+    {
+      "id": "38007028",
+      "name": "红干(由东往西)climb4",
+      "stravaScore": 9,
+      "rawScore": 9.26,
+      "pointCount": 10
+    },
+    {
+      "id": "38007568",
+      "name": "和兴路口1km爬坡段",
+      "stravaScore": 20,
+      "rawScore": 3.77,
+      "pointCount": 15
+    },
+    {
+      "id": "38053374",
+      "name": "2024四联越野赛道(竞赛)",
+      "stravaScore": 3,
+      "rawScore": 19.96,
+      "pointCount": 193
+    },
+    {
+      "id": "38060934",
+      "name": "求水山 Climb",
+      "stravaScore": 3,
+      "rawScore": 36.31,
+      "pointCount": 63
+    },
+    {
+      "id": "38075290",
+      "name": "罗田森林公园一圈",
+      "stravaScore": 31,
+      "rawScore": 27.05,
+      "pointCount": 243
+    },
+    {
+      "id": "38126631",
+      "name": "龙城公园7km绕圈（余石岭路）",
+      "stravaScore": 18,
+      "rawScore": 28.98,
+      "pointCount": 117
+    },
+    {
+      "id": "38129089",
+      "name": "New Road East",
+      "stravaScore": 13,
+      "rawScore": 7.55,
+      "pointCount": 21
+    },
+    {
+      "id": "38133048",
+      "name": "OFCA office Loop",
+      "stravaScore": 11,
+      "rawScore": 16.18,
+      "pointCount": 47
+    },
+    {
+      "id": "38136115",
+      "name": "根玉路",
+      "stravaScore": 183,
+      "rawScore": 20.92,
+      "pointCount": 52
+    },
+    {
+      "id": "38155044",
+      "name": "山河城至沙田单程",
+      "stravaScore": 5,
+      "rawScore": 24.47,
+      "pointCount": 288
+    },
+    {
+      "id": "38171214",
+      "name": "三洲田（云深夜阑夜市）",
+      "stravaScore": 33,
+      "rawScore": 36.43,
+      "pointCount": 65
+    },
+    {
+      "id": "38187891",
+      "name": "Anderson Road to Service Reservoir climb",
+      "stravaScore": 6,
+      "rawScore": 21.99,
+      "pointCount": 57
+    },
+    {
+      "id": "38198843",
+      "name": "107-出深圳记",
+      "stravaScore": 8,
+      "rawScore": 105.75,
+      "pointCount": 535
+    },
+    {
+      "id": "38223764",
+      "name": "大顶岭PART 1",
+      "stravaScore": 27,
+      "rawScore": 21.74,
+      "pointCount": 71
+    },
+    {
+      "id": "38226090",
+      "name": "Ka Shue Road Loop",
+      "stravaScore": 1,
+      "rawScore": 18.49,
+      "pointCount": 29
+    },
+    {
+      "id": "38231698",
+      "name": "Go go go ",
+      "stravaScore": 15,
+      "rawScore": 4.58,
+      "pointCount": 16
+    },
+    {
+      "id": "38232295",
+      "name": "XdS Course (1st Part)",
+      "stravaScore": 6,
+      "rawScore": 12.83,
+      "pointCount": 116
+    },
+    {
+      "id": "38237259",
+      "name": "中信到沙田地铁站",
+      "stravaScore": 3,
+      "rawScore": 24.34,
+      "pointCount": 280
+    },
+    {
+      "id": "38237765",
+      "name": "Tai Po Tsai Reservoir Loop",
+      "stravaScore": 1,
+      "rawScore": 16.22,
+      "pointCount": 37
+    },
+    {
+      "id": "38239385",
+      "name": "学府路小坡",
+      "stravaScore": 2,
+      "rawScore": 4.28,
+      "pointCount": 27
+    },
+    {
+      "id": "38249470",
+      "name": "红棉路 - 提速RD",
+      "stravaScore": 74,
+      "rawScore": 1.77,
+      "pointCount": 3
+    },
+    {
+      "id": "38257914",
+      "name": "洞背东向爬坡（3）",
+      "stravaScore": 11,
+      "rawScore": 18.12,
+      "pointCount": 33
+    },
+    {
+      "id": "38263039",
+      "name": "南光高速骑行一日游",
+      "stravaScore": 3,
+      "rawScore": 14.45,
+      "pointCount": 83
+    },
+    {
+      "id": "38263135",
+      "name": "你已进入东莞市，请走机动车道",
+      "stravaScore": 6,
+      "rawScore": 6.99,
+      "pointCount": 4
+    },
+    {
+      "id": "38267282",
+      "name": "契爷石碧道公园上半段",
+      "stravaScore": 11,
+      "rawScore": 5.84,
+      "pointCount": 20
+    },
+    {
+      "id": "38267317",
+      "name": "滨海隧道",
+      "stravaScore": 14,
+      "rawScore": 16.79,
+      "pointCount": 3
+    },
+    {
+      "id": "38267334",
+      "name": "第二次突突突",
+      "stravaScore": 18,
+      "rawScore": 1.63,
+      "pointCount": 9
+    },
+    {
+      "id": "38267341",
+      "name": "一直单飞一直爽",
+      "stravaScore": 55,
+      "rawScore": 1.05,
+      "pointCount": 4
+    },
+    {
+      "id": "38267493",
+      "name": "Gravel & MTB | 防火带climb",
+      "stravaScore": 2,
+      "rawScore": 24.19,
+      "pointCount": 52
+    },
+    {
+      "id": "38275446",
+      "name": "板澜大道坡二（向南）",
+      "stravaScore": 8,
+      "rawScore": 14.02,
+      "pointCount": 26
+    },
+    {
+      "id": "38279586",
+      "name": "丽水路开冲",
+      "stravaScore": 24,
+      "rawScore": 5.27,
+      "pointCount": 49
+    },
+    {
+      "id": "38291077",
+      "name": "Lady MacLehose Climb",
+      "stravaScore": 2,
+      "rawScore": 13.97,
+      "pointCount": 14
+    },
+    {
+      "id": "38312699",
+      "name": "环城路（万科里冲刺）",
+      "stravaScore": 15,
+      "rawScore": 2.67,
+      "pointCount": 13
+    },
+    {
+      "id": "38312949",
+      "name": "大梅沙-东涌",
+      "stravaScore": 8,
+      "rawScore": 103.56,
+      "pointCount": 1234
+    },
+    {
+      "id": "38353558",
+      "name": "红树林内部道路",
+      "stravaScore": 2,
+      "rawScore": 25.42,
+      "pointCount": 298
+    },
+    {
+      "id": "38355111",
+      "name": "工业南路-光大We谷",
+      "stravaScore": 1,
+      "rawScore": 2.96,
+      "pointCount": 27
+    },
+    {
+      "id": "38370980",
+      "name": " 松白路缓下",
+      "stravaScore": 27,
+      "rawScore": 2,
+      "pointCount": 12
+    },
+    {
+      "id": "38371406",
+      "name": "笔架山缓坡",
+      "stravaScore": 10,
+      "rawScore": 10.37,
+      "pointCount": 18
+    },
+    {
+      "id": "38405342",
+      "name": "想要kom你要两分钟420w",
+      "stravaScore": 144,
+      "rawScore": 6.11,
+      "pointCount": 8
+    },
+    {
+      "id": "38405356",
+      "name": "没有tt车你就别想拿kom了",
+      "stravaScore": 80,
+      "rawScore": 3.63,
+      "pointCount": 24
+    },
+    {
+      "id": "38410193",
+      "name": "低碳城段trail-down",
+      "stravaScore": 2,
+      "rawScore": 6.39,
+      "pointCount": 225
+    },
+    {
+      "id": "38441011",
+      "name": "秀桐道爬墙",
+      "stravaScore": 4,
+      "rawScore": 43.3,
+      "pointCount": 34
+    },
+    {
+      "id": "38441792",
+      "name": "望桐路缓上坡",
+      "stravaScore": 23,
+      "rawScore": 6.98,
+      "pointCount": 43
+    },
+    {
+      "id": "38455786",
+      "name": "前海湾绿道南往北",
+      "stravaScore": 12,
+      "rawScore": 12.61,
+      "pointCount": 331
+    },
+    {
+      "id": "38490894",
+      "name": "Sihai drag",
+      "stravaScore": 6,
+      "rawScore": 4.5,
+      "pointCount": 14
+    },
+    {
+      "id": "38492186",
+      "name": "拉爆pp哥赛段",
+      "stravaScore": 66,
+      "rawScore": 11.19,
+      "pointCount": 32
+    },
+    {
+      "id": "38492504",
+      "name": "Donghuan 1st Rd Part1",
+      "stravaScore": 8,
+      "rawScore": 1.87,
+      "pointCount": 16
+    },
+    {
+      "id": "38495787",
+      "name": "松山湖南边-修路到尽头",
+      "stravaScore": 29,
+      "rawScore": 16.88,
+      "pointCount": 346
+    },
+    {
+      "id": "38495998",
+      "name": "大水坑-莱茵庄园",
+      "stravaScore": 755,
+      "rawScore": 48.15,
+      "pointCount": 196
+    },
+    {
+      "id": "38506365",
+      "name": "甘坑小镇到到十字路口",
+      "stravaScore": 12,
+      "rawScore": 3.94,
+      "pointCount": 33
+    },
+    {
+      "id": "38521980",
+      "name": "丹平快速过山车段",
+      "stravaScore": 1,
+      "rawScore": 12.71,
+      "pointCount": 52
+    },
+    {
+      "id": "38525083",
+      "name": "绝望推车瓜路，别来",
+      "stravaScore": 5,
+      "rawScore": 6.21,
+      "pointCount": 310
+    },
+    {
+      "id": "38525088",
+      "name": "叶挺森林公园（北向南）",
+      "stravaScore": 9,
+      "rawScore": 24.3,
+      "pointCount": 606
+    },
+    {
+      "id": "38525098",
+      "name": "仙圣宫",
+      "stravaScore": 13,
+      "rawScore": 22.95,
+      "pointCount": 46
+    },
+    {
+      "id": "38529917",
+      "name": "Shing Mun Tunnel Under Bridge Straight",
+      "stravaScore": 16,
+      "rawScore": 1.32,
+      "pointCount": 15
+    },
+    {
+      "id": "38534015",
+      "name": "Qi'Ao \"The Hill\"",
+      "stravaScore": 8,
+      "rawScore": 13.48,
+      "pointCount": 6
+    },
+    {
+      "id": "38550814",
+      "name": "Longhua Blivd Part1",
+      "stravaScore": 2,
+      "rawScore": 4.05,
+      "pointCount": 35
+    },
+    {
+      "id": "38550822",
+      "name": "Minzhi Blvd Part1",
+      "stravaScore": 3,
+      "rawScore": 3.67,
+      "pointCount": 55
+    },
+    {
+      "id": "38551704",
+      "name": "沿河路",
+      "stravaScore": 11,
+      "rawScore": 9.25,
+      "pointCount": 68
+    },
+    {
+      "id": "38558256",
+      "name": "流水響山路",
+      "stravaScore": 5,
+      "rawScore": 4.02,
+      "pointCount": 100
+    },
+    {
+      "id": "38558263",
+      "name": "Hok Tau Road descent",
+      "stravaScore": 11,
+      "rawScore": 1.47,
+      "pointCount": 23
+    },
+    {
+      "id": "38560647",
+      "name": "鶴藪排小路出馬尾下",
+      "stravaScore": 2,
+      "rawScore": 2.58,
+      "pointCount": 61
+    },
+    {
+      "id": "38570982",
+      "name": "To the Cows!",
+      "stravaScore": 15,
+      "rawScore": 27.27,
+      "pointCount": 120
+    },
+    {
+      "id": "38571008",
+      "name": "Aqueduct run",
+      "stravaScore": 6,
+      "rawScore": 4.31,
+      "pointCount": 12
+    },
+    {
+      "id": "38572409",
+      "name": "覲龍圍-軍營",
+      "stravaScore": 4,
+      "rawScore": 1.14,
+      "pointCount": 25
+    },
+    {
+      "id": "38583480",
+      "name": "转龙华和平路短坡冲刺",
+      "stravaScore": 11,
+      "rawScore": 7.34,
+      "pointCount": 29
+    },
+    {
+      "id": "38583502",
+      "name": "Guanlan Blvd Climb",
+      "stravaScore": 4,
+      "rawScore": 6.36,
+      "pointCount": 35
+    },
+    {
+      "id": "38583517",
+      "name": "Longhua Blvd Climb",
+      "stravaScore": 3,
+      "rawScore": 6.73,
+      "pointCount": 55
+    },
+    {
+      "id": "38583538",
+      "name": "Minkang Rd Climb",
+      "stravaScore": 11,
+      "rawScore": 6.93,
+      "pointCount": 19
+    },
+    {
+      "id": "38587171",
+      "name": "福永隧道itt",
+      "stravaScore": 36,
+      "rawScore": 3.15,
+      "pointCount": 14
+    },
+    {
+      "id": "38593868",
+      "name": "创业立交到顶",
+      "stravaScore": 12,
+      "rawScore": 7.03,
+      "pointCount": 13
+    },
+    {
+      "id": "38596528",
+      "name": "本焕学院",
+      "stravaScore": 4,
+      "rawScore": 11.27,
+      "pointCount": 45
+    },
+    {
+      "id": "38599202",
+      "name": "西丽湖好玩坡2",
+      "stravaScore": 10,
+      "rawScore": 10.39,
+      "pointCount": 53
+    },
+    {
+      "id": "38616444",
+      "name": "塘朗山后山gravel",
+      "stravaScore": 7,
+      "rawScore": 2.68,
+      "pointCount": 53
+    },
+    {
+      "id": "38626084",
+      "name": "GuangshenSouth",
+      "stravaScore": 9,
+      "rawScore": 13.79,
+      "pointCount": 99
+    },
+    {
+      "id": "38629924",
+      "name": "龙珠大道东往西",
+      "stravaScore": 7,
+      "rawScore": 5.84,
+      "pointCount": 39
+    },
+    {
+      "id": "38640270",
+      "name": "冲向大顶岭门口",
+      "stravaScore": 65,
+      "rawScore": 2.65,
+      "pointCount": 15
+    },
+    {
+      "id": "38646376",
+      "name": "中山大学东门口2.5公里无氧",
+      "stravaScore": 68,
+      "rawScore": 4.81,
+      "pointCount": 25
+    },
+    {
+      "id": "38658135",
+      "name": "Short interval",
+      "stravaScore": 33,
+      "rawScore": 13.91,
+      "pointCount": 16
+    },
+    {
+      "id": "38664006",
+      "name": "山河城转盘-莲塘北路2.5km",
+      "stravaScore": 1,
+      "rawScore": 5.29,
+      "pointCount": 40
+    },
+    {
+      "id": "38664836",
+      "name": "三洲田上小三洲平路段",
+      "stravaScore": 39,
+      "rawScore": 4.22,
+      "pointCount": 68
+    },
+    {
+      "id": "38678987",
+      "name": "维布村到山顶村",
+      "stravaScore": 6,
+      "rawScore": 27.99,
+      "pointCount": 137
+    },
+    {
+      "id": "38679628",
+      "name": "红花岭A线下坡",
+      "stravaScore": 65,
+      "rawScore": 1.64,
+      "pointCount": 71
+    },
+    {
+      "id": "38684997",
+      "name": "开始嗨起来",
+      "stravaScore": 27,
+      "rawScore": 2.12,
+      "pointCount": 56
+    },
+    {
+      "id": "38713981",
+      "name": "广泰路缓坡",
+      "stravaScore": 21,
+      "rawScore": 6.4,
+      "pointCount": 11
+    },
+    {
+      "id": "38726410",
+      "name": "Beacon Height Climb",
+      "stravaScore": 4,
+      "rawScore": 17.84,
+      "pointCount": 14
+    },
+    {
+      "id": "38731524",
+      "name": "松福大道东向西（无红绿灯）",
+      "stravaScore": 1,
+      "rawScore": 8.68,
+      "pointCount": 61
+    },
+    {
+      "id": "38733713",
+      "name": "坪山河瓜路-下游到上游",
+      "stravaScore": 1,
+      "rawScore": 2.85,
+      "pointCount": 47
+    },
+    {
+      "id": "38740837",
+      "name": "727课后冲刺 (加长版)",
+      "stravaScore": 7,
+      "rawScore": 7.53,
+      "pointCount": 16
+    },
+    {
+      "id": "38768737",
+      "name": "林场逆时针一圈",
+      "stravaScore": 23,
+      "rawScore": 30.97,
+      "pointCount": 817
+    },
+    {
+      "id": "38771422",
+      "name": "文禮閣去文化博物館",
+      "stravaScore": 28,
+      "rawScore": 1.8,
+      "pointCount": 16
+    },
+    {
+      "id": "38782017",
+      "name": "雪竹径绿道全程（儿童乐园-吉华路保安亭）",
+      "stravaScore": 86,
+      "rawScore": 11.5,
+      "pointCount": 333
+    },
+    {
+      "id": "38802133",
+      "name": "Habitat Road Climb",
+      "stravaScore": 3,
+      "rawScore": 25.3,
+      "pointCount": 34
+    },
+    {
+      "id": "38816443",
+      "name": "Longhua Blvb Part2",
+      "stravaScore": 4,
+      "rawScore": 3.36,
+      "pointCount": 24
+    },
+    {
+      "id": "38833622",
+      "name": "儿童公园短陡坡",
+      "stravaScore": 53,
+      "rawScore": 18.71,
+      "pointCount": 33
+    },
+    {
+      "id": "38840312",
+      "name": "The GT ",
+      "stravaScore": 22,
+      "rawScore": 191.53,
+      "pointCount": 2393
+    },
+    {
+      "id": "38872961",
+      "name": "音乐公园半圈",
+      "stravaScore": 7,
+      "rawScore": 2.94,
+      "pointCount": 37
+    },
+    {
+      "id": "38897712",
+      "name": "浪骑上坡",
+      "stravaScore": 12,
+      "rawScore": 10.28,
+      "pointCount": 12
+    },
+    {
+      "id": "38897873",
+      "name": "雪竹径的短坡",
+      "stravaScore": 15,
+      "rawScore": 24.46,
+      "pointCount": 19
+    },
+    {
+      "id": "38919377",
+      "name": "ATS 9th Road to MP",
+      "stravaScore": 6,
+      "rawScore": 18.89,
+      "pointCount": 36
+    },
+    {
+      "id": "38939360",
+      "name": "宝山顶林道越野陡坡",
+      "stravaScore": 3,
+      "rawScore": 30.83,
+      "pointCount": 45
+    },
+    {
+      "id": "38946474",
+      "name": "GoPark大圈 by騰爺",
+      "stravaScore": 214,
+      "rawScore": 17.87,
+      "pointCount": 76
+    },
+    {
+      "id": "38949147",
+      "name": "泥岗路上一路向西",
+      "stravaScore": 5,
+      "rawScore": 5.5,
+      "pointCount": 21
+    },
+    {
+      "id": "38964427",
+      "name": "莲塘水库",
+      "stravaScore": 6,
+      "rawScore": 21.48,
+      "pointCount": 142
+    },
+    {
+      "id": "38967675",
+      "name": "go",
+      "stravaScore": 1,
+      "rawScore": 27.79,
+      "pointCount": 214
+    },
+    {
+      "id": "38970000",
+      "name": "茅洲河西往东后半段",
+      "stravaScore": 9,
+      "rawScore": 32.74,
+      "pointCount": 283
+    },
+    {
+      "id": "39022033",
+      "name": "光明湖绿道爬坡段",
+      "stravaScore": 23,
+      "rawScore": 5.88,
+      "pointCount": 55
+    },
+    {
+      "id": "39065479",
+      "name": "Songshan Lake Loop (Clockwise - NW Start)",
+      "stravaScore": 5,
+      "rawScore": 29.08,
+      "pointCount": 204
+    },
+    {
+      "id": "39068693",
+      "name": "中深顺时针10圈",
+      "stravaScore": 26,
+      "rawScore": 67.06,
+      "pointCount": 962
+    },
+    {
+      "id": "39083188",
+      "name": "白花到良井 By hades.",
+      "stravaScore": 6,
+      "rawScore": 19.17,
+      "pointCount": 132
+    },
+    {
+      "id": "39101410",
+      "name": "南澳补水后1.1公里climb",
+      "stravaScore": 13,
+      "rawScore": 13.6,
+      "pointCount": 32
+    },
+    {
+      "id": "39113919",
+      "name": "坪西一级公路冲冲冲",
+      "stravaScore": 34,
+      "rawScore": 5.39,
+      "pointCount": 29
+    },
+    {
+      "id": "39167407",
+      "name": "冲高架桥",
+      "stravaScore": 17,
+      "rawScore": 2.55,
+      "pointCount": 12
+    },
+    {
+      "id": "39172258",
+      "name": "世界之窗-上海宾馆-世界之窗一圈",
+      "stravaScore": 74,
+      "rawScore": 59.21,
+      "pointCount": 188
+    },
+    {
+      "id": "39192455",
+      "name": "Wong Chuk Wan loop",
+      "stravaScore": 2,
+      "rawScore": 16.52,
+      "pointCount": 35
+    },
+    {
+      "id": "39193763",
+      "name": "螺旋上天",
+      "stravaScore": 6,
+      "rawScore": 17.69,
+      "pointCount": 44
+    },
+    {
+      "id": "39198589",
+      "name": "冲上岗厦北",
+      "stravaScore": 5,
+      "rawScore": 6.47,
+      "pointCount": 5
+    },
+    {
+      "id": "39216008",
+      "name": "大雁山逆时针爬坡",
+      "stravaScore": 6,
+      "rawScore": 52.15,
+      "pointCount": 38
+    },
+    {
+      "id": "39219640",
+      "name": "Baoshi Second Climb",
+      "stravaScore": 148,
+      "rawScore": 4.8,
+      "pointCount": 21
+    },
+    {
+      "id": "39246436",
+      "name": "新村-西山村10km起伏（by lql）",
+      "stravaScore": 2,
+      "rawScore": 23.39,
+      "pointCount": 244
+    },
+    {
+      "id": "39294205",
+      "name": "周六早起去福田",
+      "stravaScore": 14,
+      "rawScore": 47.66,
+      "pointCount": 384
+    },
+    {
+      "id": "39301349",
+      "name": "沙河西路（北坡冲刺）",
+      "stravaScore": 31,
+      "rawScore": 5.27,
+      "pointCount": 12
+    },
+    {
+      "id": "39345383",
+      "name": "山地联赛公开组单圈",
+      "stravaScore": 3,
+      "rawScore": 21.1,
+      "pointCount": 217
+    },
+    {
+      "id": "39377238",
+      "name": "雪竹径回程第一个短坡",
+      "stravaScore": 51,
+      "rawScore": 13.15,
+      "pointCount": 38
+    },
+    {
+      "id": "39388941",
+      "name": "朗風路 至 橫洲風雨亭",
+      "stravaScore": 18,
+      "rawScore": 20.64,
+      "pointCount": 54
+    },
+    {
+      "id": "39399201",
+      "name": "叶挺大道永湖-三和800m缓坡区段",
+      "stravaScore": 21,
+      "rawScore": 5.71,
+      "pointCount": 9
+    },
+    {
+      "id": "39399220",
+      "name": "叶挺大道三和-永湖1km缓坡区段",
+      "stravaScore": 12,
+      "rawScore": 4.57,
+      "pointCount": 12
+    },
+    {
+      "id": "39435368",
+      "name": "白石路（沙河西——深大立言门）",
+      "stravaScore": 7,
+      "rawScore": 3.66,
+      "pointCount": 28
+    },
+    {
+      "id": "39440798",
+      "name": "华英路下半段减速带到坡顶",
+      "stravaScore": 25,
+      "rawScore": 14.84,
+      "pointCount": 20
+    },
+    {
+      "id": "39464959",
+      "name": "为了风景冲冲冲",
+      "stravaScore": 34,
+      "rawScore": 8.13,
+      "pointCount": 44
+    },
+    {
+      "id": "39466338",
+      "name": "国际科教城绿道登顶",
+      "stravaScore": 17,
+      "rawScore": 11.92,
+      "pointCount": 74
+    },
+    {
+      "id": "39469118",
+      "name": "先在昂鹅东随便整一圈",
+      "stravaScore": 6,
+      "rawScore": 24.34,
+      "pointCount": 83
+    },
+    {
+      "id": "39480105",
+      "name": "创业二路（宝石路口—G107）",
+      "stravaScore": 5,
+      "rawScore": 6.31,
+      "pointCount": 78
+    },
+    {
+      "id": "39541510",
+      "name": "青云桥-白花路口（by lql）",
+      "stravaScore": 8,
+      "rawScore": 16.55,
+      "pointCount": 130
+    },
+    {
+      "id": "39541536",
+      "name": "白花-惠东站起伏（by lql）",
+      "stravaScore": 12,
+      "rawScore": 23.02,
+      "pointCount": 206
+    },
+    {
+      "id": "39551667",
+      "name": "肾虚西瓜不太行",
+      "stravaScore": 2,
+      "rawScore": 8,
+      "pointCount": 74
+    },
+    {
+      "id": "39566669",
+      "name": "G107辅道（创业立交—西乡立交）",
+      "stravaScore": 4,
+      "rawScore": 6.14,
+      "pointCount": 28
+    },
+    {
+      "id": "39566722",
+      "name": "东出凤凰山隧道大下坡",
+      "stravaScore": 11,
+      "rawScore": 1.99,
+      "pointCount": 15
+    },
+    {
+      "id": "39614700",
+      "name": "惠阳木棉山爬坡",
+      "stravaScore": 10,
+      "rawScore": 71.13,
+      "pointCount": 172
+    },
+    {
+      "id": "39617545",
+      "name": "沙荷路东行",
+      "stravaScore": 16,
+      "rawScore": 9.77,
+      "pointCount": 63
+    },
+    {
+      "id": "39631715",
+      "name": "厚虎路神秘小道",
+      "stravaScore": 17,
+      "rawScore": 4.22,
+      "pointCount": 57
+    },
+    {
+      "id": "39638836",
+      "name": "梅北三路climb",
+      "stravaScore": 11,
+      "rawScore": 13.92,
+      "pointCount": 15
+    },
+    {
+      "id": "39673426",
+      "name": "长安大道绿道出口-梅园路口2.6km",
+      "stravaScore": 6,
+      "rawScore": 5.39,
+      "pointCount": 41
+    },
+    {
+      "id": "39688561",
+      "name": "惠澳大道三和-北环20km全段",
+      "stravaScore": 1,
+      "rawScore": 39.23,
+      "pointCount": 337
+    },
+    {
+      "id": "39688644",
+      "name": "惠澳大道三和-北环爬坡区段②-1.3km",
+      "stravaScore": 2,
+      "rawScore": 5.6,
+      "pointCount": 26
+    },
+    {
+      "id": "39688660",
+      "name": "惠澳大道三和-北环爬坡区段④-1.7km",
+      "stravaScore": 1,
+      "rawScore": 6.43,
+      "pointCount": 30
+    },
+    {
+      "id": "39688675",
+      "name": "惠澳大道三和-北环爬坡区段⑤-1.3km",
+      "stravaScore": 1,
+      "rawScore": 8.9,
+      "pointCount": 30
+    },
+    {
+      "id": "39691350",
+      "name": "惠澳大道北环-三和爬坡区段④-1.8km",
+      "stravaScore": 3,
+      "rawScore": 6.2,
+      "pointCount": 38
+    },
+    {
+      "id": "39691406",
+      "name": "惠澳大道北环-三和爬坡区段④-900m",
+      "stravaScore": 1,
+      "rawScore": 7.72,
+      "pointCount": 14
+    },
+    {
+      "id": "39701796",
+      "name": "丹平红棉交汇小坡",
+      "stravaScore": 21,
+      "rawScore": 12.75,
+      "pointCount": 18
+    },
+    {
+      "id": "39701811",
+      "name": "梧桐学校绕圈",
+      "stravaScore": 1,
+      "rawScore": 18.45,
+      "pointCount": 35
+    },
+    {
+      "id": "39701963",
+      "name": "六约北地铁下坡冲刺",
+      "stravaScore": 35,
+      "rawScore": 1.64,
+      "pointCount": 6
+    },
+    {
+      "id": "39701984",
+      "name": "红棉路四联地铁口短坡冲刺",
+      "stravaScore": 6,
+      "rawScore": 5.33,
+      "pointCount": 8
+    },
+    {
+      "id": "39706007",
+      "name": "龙岗大道生死时速",
+      "stravaScore": 3,
+      "rawScore": 9.7,
+      "pointCount": 74
+    },
+    {
+      "id": "39706503",
+      "name": "环莲花山（莲花北起终点）",
+      "stravaScore": 85,
+      "rawScore": 25.92,
+      "pointCount": 126
+    },
+    {
+      "id": "39713531",
+      "name": "松湖水库内圈",
+      "stravaScore": 31,
+      "rawScore": 43.77,
+      "pointCount": 221
+    },
+    {
+      "id": "39716556",
+      "name": "发射塔鹤州土路爬坡",
+      "stravaScore": 20,
+      "rawScore": 37.54,
+      "pointCount": 127
+    },
+    {
+      "id": "39716561",
+      "name": "发射塔鲲鹏径下坡",
+      "stravaScore": 9,
+      "rawScore": 1.47,
+      "pointCount": 49
+    },
+    {
+      "id": "39720232",
+      "name": "沙田到百花绕路段",
+      "stravaScore": 17,
+      "rawScore": 15.05,
+      "pointCount": 67
+    },
+    {
+      "id": "39734085",
+      "name": "翠竹到布吉",
+      "stravaScore": 4,
+      "rawScore": 6.56,
+      "pointCount": 42
+    },
+    {
+      "id": "39734145",
+      "name": "G228出惠阳",
+      "stravaScore": 17,
+      "rawScore": 6.11,
+      "pointCount": 43
+    },
+    {
+      "id": "39734160",
+      "name": "惠阳到沙田",
+      "stravaScore": 16,
+      "rawScore": 29.97,
+      "pointCount": 195
+    },
+    {
+      "id": "39750577",
+      "name": "松湖实验中学绕圈",
+      "stravaScore": 2,
+      "rawScore": 20.94,
+      "pointCount": 46
+    },
+    {
+      "id": "39755633",
+      "name": "碧岭绕圈climb",
+      "stravaScore": 5,
+      "rawScore": 5.25,
+      "pointCount": 10
+    },
+    {
+      "id": "39759177",
+      "name": "Fly Over Shahe",
+      "stravaScore": 26,
+      "rawScore": 1.34,
+      "pointCount": 4
+    },
+    {
+      "id": "39760194",
+      "name": "宝安求雨坛step-1",
+      "stravaScore": 102,
+      "rawScore": 21.48,
+      "pointCount": 37
+    },
+    {
+      "id": "39764714",
+      "name": "新圩大道上红干辅路800m爬坡",
+      "stravaScore": 17,
+      "rawScore": 10.2,
+      "pointCount": 16
+    },
+    {
+      "id": "39829819",
+      "name": "隧道前climb",
+      "stravaScore": 8,
+      "rawScore": 10.87,
+      "pointCount": 9
+    },
+    {
+      "id": "39838549",
+      "name": "外环岛路超级直道闷头骑",
+      "stravaScore": 39,
+      "rawScore": 6.47,
+      "pointCount": 43
+    },
+    {
+      "id": "39851140",
+      "name": "凌晨五六点尽情飞舞吧",
+      "stravaScore": 17,
+      "rawScore": 1.4,
+      "pointCount": 13
+    },
+    {
+      "id": "39854103",
+      "name": "滑草排",
+      "stravaScore": 4,
+      "rawScore": 19.02,
+      "pointCount": 63
+    },
+    {
+      "id": "39862530",
+      "name": "石桥村一圈",
+      "stravaScore": 2,
+      "rawScore": 18.79,
+      "pointCount": 34
+    },
+    {
+      "id": "39884072",
+      "name": "吊神山gravel爬坡",
+      "stravaScore": 33,
+      "rawScore": 67.88,
+      "pointCount": 46
+    },
+    {
+      "id": "39884089",
+      "name": "大顶岭-百花社区Gravel西向东",
+      "stravaScore": 14,
+      "rawScore": 4.75,
+      "pointCount": 71
+    },
+    {
+      "id": "39968844",
+      "name": "泰兴路2km绕圈",
+      "stravaScore": 2,
+      "rawScore": 19.14,
+      "pointCount": 34
+    },
+    {
+      "id": "39978819",
+      "name": "桃园路从桃园站爬到立德门",
+      "stravaScore": 4,
+      "rawScore": 7.55,
+      "pointCount": 13
+    },
+    {
+      "id": "40004171",
+      "name": "茶园大桥500m起步爬坡",
+      "stravaScore": 17,
+      "rawScore": 7.93,
+      "pointCount": 4
+    },
+    {
+      "id": "40009802",
+      "name": "坪山大道到坪山火车站爬坡",
+      "stravaScore": 7,
+      "rawScore": 11.06,
+      "pointCount": 16
+    },
+    {
+      "id": "40017530",
+      "name": "宝华路（创业一路—海天路）",
+      "stravaScore": 8,
+      "rawScore": 1.11,
+      "pointCount": 7
+    },
+    {
+      "id": "40043219",
+      "name": "林间古老小路",
+      "stravaScore": 3,
+      "rawScore": 3.56,
+      "pointCount": 59
+    },
+    {
+      "id": "40053836",
+      "name": "坝核东行爬坡区段①500m",
+      "stravaScore": 13,
+      "rawScore": 8.24,
+      "pointCount": 10
+    },
+    {
+      "id": "40053879",
+      "name": "坝核东行最后冲刺区段2km",
+      "stravaScore": 17,
+      "rawScore": 4,
+      "pointCount": 33
+    },
+    {
+      "id": "40072505",
+      "name": "仙女湖(CW)",
+      "stravaScore": 9,
+      "rawScore": 18.81,
+      "pointCount": 45
+    },
+    {
+      "id": "40078861",
+      "name": "新圩到楼下村",
+      "stravaScore": 7,
+      "rawScore": 19.76,
+      "pointCount": 117
+    },
+    {
+      "id": "40078880",
+      "name": "龙岗到惠城",
+      "stravaScore": 6,
+      "rawScore": 68.09,
+      "pointCount": 411
+    },
+    {
+      "id": "40096598",
+      "name": "郊野径下山谷清音",
+      "stravaScore": 9,
+      "rawScore": 1.07,
+      "pointCount": 36
+    },
+    {
+      "id": "40145875",
+      "name": "杨梅坑回程大坡",
+      "stravaScore": 20,
+      "rawScore": 11.85,
+      "pointCount": 13
+    },
+    {
+      "id": "40156460",
+      "name": "菠萝山",
+      "stravaScore": 3,
+      "rawScore": 21.93,
+      "pointCount": 38
+    },
+    {
+      "id": "40262116",
+      "name": "后山",
+      "stravaScore": 54,
+      "rawScore": 21.95,
+      "pointCount": 100
+    },
+    {
+      "id": "40273283",
+      "name": "深圳外国语绕圈",
+      "stravaScore": 12,
+      "rawScore": 21.65,
+      "pointCount": 55
+    },
+    {
+      "id": "40296120",
+      "name": "山海连城绿道（新安六路口—西乡大道路口）",
+      "stravaScore": 13,
+      "rawScore": 2.85,
+      "pointCount": 28
+    },
+    {
+      "id": "40296138",
+      "name": "山海连城绿道南向小弯",
+      "stravaScore": 10,
+      "rawScore": 1.21,
+      "pointCount": 26
+    },
+    {
+      "id": "40299287",
+      "name": "金碧路-沙场Climb",
+      "stravaScore": 8,
+      "rawScore": 8.94,
+      "pointCount": 18
+    },
+    {
+      "id": "40326249",
+      "name": "神仙岭水库 绿道绕圈 (概率被拦)",
+      "stravaScore": 6,
+      "rawScore": 18.11,
+      "pointCount": 66
+    },
+    {
+      "id": "40335971",
+      "name": "沙滩到三岔路口",
+      "stravaScore": 14,
+      "rawScore": 21.48,
+      "pointCount": 196
+    },
+    {
+      "id": "40372738",
+      "name": "喜德盛大顶岭骑行驿站绕圈 XDS DaDingLing Cycling Station",
+      "stravaScore": 13,
+      "rawScore": 20.76,
+      "pointCount": 75
+    },
+    {
+      "id": "40399152",
+      "name": "北山道爬坡热身",
+      "stravaScore": 121,
+      "rawScore": 24.88,
+      "pointCount": 36
+    },
+    {
+      "id": "40404229",
+      "name": "长安-正果拉练  入隧道前",
+      "stravaScore": 18,
+      "rawScore": 116.48,
+      "pointCount": 524
+    },
+    {
+      "id": "40404347",
+      "name": "大阳台",
+      "stravaScore": 84,
+      "rawScore": 49.2,
+      "pointCount": 439
+    },
+    {
+      "id": "40418546",
+      "name": "一路直飙体育中心",
+      "stravaScore": 11,
+      "rawScore": 36.13,
+      "pointCount": 136
+    },
+    {
+      "id": "40424520",
+      "name": "东环二路缓坡冲刺",
+      "stravaScore": 13,
+      "rawScore": 5.55,
+      "pointCount": 9
+    },
+    {
+      "id": "40440384",
+      "name": "科苑南路（深南大道—滨海大道）",
+      "stravaScore": 7,
+      "rawScore": 3.7,
+      "pointCount": 18
+    },
+    {
+      "id": "40461460",
+      "name": "Ca姐溫馨8字冷下集(鹿頸400米至石崗油站)",
+      "stravaScore": 1,
+      "rawScore": 35.61,
+      "pointCount": 373
+    },
+    {
+      "id": "40463599",
+      "name": "南站入站口至收费站口",
+      "stravaScore": 1,
+      "rawScore": 3.08,
+      "pointCount": 16
+    },
+    {
+      "id": "40472069",
+      "name": "比亚迪路缓坡冲刺",
+      "stravaScore": 26,
+      "rawScore": 10.62,
+      "pointCount": 14
+    },
+    {
+      "id": "40482789",
+      "name": "丽康路向东",
+      "stravaScore": 68,
+      "rawScore": 22.2,
+      "pointCount": 226
+    },
+    {
+      "id": "40489064",
+      "name": "Yee On St 6 laps",
+      "stravaScore": 2,
+      "rawScore": 20.9,
+      "pointCount": 128
+    },
+    {
+      "id": "40489203",
+      "name": "浪浪山（过了闸机就冲）",
+      "stravaScore": 764,
+      "rawScore": 28.99,
+      "pointCount": 99
+    },
+    {
+      "id": "40512843",
+      "name": "体育馆前大直路冲刺",
+      "stravaScore": 17,
+      "rawScore": 10.53,
+      "pointCount": 25
+    },
+    {
+      "id": "40522055",
+      "name": "深圳市大运中心体育场(绕圈)",
+      "stravaScore": 3,
+      "rawScore": 20.72,
+      "pointCount": 68
+    },
+    {
+      "id": "40527866",
+      "name": "阳台山偷渡山庄超级陡坡",
+      "stravaScore": 23,
+      "rawScore": 28.18,
+      "pointCount": 26
+    },
+    {
+      "id": "40556188",
+      "name": "石芽岭日常锻炼环线",
+      "stravaScore": 3,
+      "rawScore": 21.99,
+      "pointCount": 68
+    },
+    {
+      "id": "40598116",
+      "name": "晨骑暖身赛段",
+      "stravaScore": 3,
+      "rawScore": 12.09,
+      "pointCount": 72
+    },
+    {
+      "id": "40602916",
+      "name": "坂李大道小坡冲刺",
+      "stravaScore": 16,
+      "rawScore": 9.05,
+      "pointCount": 15
+    },
+    {
+      "id": "40620225",
+      "name": "隧西坑道口至三洲田脚下",
+      "stravaScore": 2,
+      "rawScore": 21.29,
+      "pointCount": 114
+    },
+    {
+      "id": "40626362",
+      "name": "新洲桥至中心公园",
+      "stravaScore": 138,
+      "rawScore": 5.46,
+      "pointCount": 32
+    },
+    {
+      "id": "40626919",
+      "name": "S1 叶挺大道转盘到和兴路口5km区段",
+      "stravaScore": 26,
+      "rawScore": 9.18,
+      "pointCount": 65
+    },
+    {
+      "id": "40626941",
+      "name": "S4 叶挺永湖路口-高新园加油站2km区段",
+      "stravaScore": 14,
+      "rawScore": 4,
+      "pointCount": 28
+    },
+    {
+      "id": "40630389",
+      "name": "麻竹山隧道逆时针1圈",
+      "stravaScore": 5,
+      "rawScore": 26.66,
+      "pointCount": 82
+    },
+    {
+      "id": "40630575",
+      "name": "上班冲冲冲",
+      "stravaScore": 48,
+      "rawScore": 1.5,
+      "pointCount": 16
+    },
+    {
+      "id": "40630590",
+      "name": "下班冲冲冲",
+      "stravaScore": 3,
+      "rawScore": 2.95,
+      "pointCount": 31
+    },
+    {
+      "id": "40651011",
+      "name": "环广东-CRC俱乐部",
+      "stravaScore": 2,
+      "rawScore": 9.4,
+      "pointCount": 32
+    },
+    {
+      "id": "40680100",
+      "name": "(S) 新潭路",
+      "stravaScore": 72,
+      "rawScore": 2.75,
+      "pointCount": 68
+    },
+    {
+      "id": "40697273",
+      "name": "2025深圳滨海自行车公开赛（爬坡段）",
+      "stravaScore": 34,
+      "rawScore": 49.95,
+      "pointCount": 302
+    },
+    {
+      "id": "40703666",
+      "name": "三和-永湖起步3.2km区段",
+      "stravaScore": 27,
+      "rawScore": 7.07,
+      "pointCount": 37
+    },
+    {
+      "id": "40723507",
+      "name": "拐两个弯到蘑菇水池",
+      "stravaScore": 4,
+      "rawScore": 10.98,
+      "pointCount": 101
+    },
+    {
+      "id": "40771431",
+      "name": "被大货车追着屁股跑",
+      "stravaScore": 44,
+      "rawScore": 5.33,
+      "pointCount": 15
+    },
+    {
+      "id": "40793798",
+      "name": "三中直线冲刺赛（三中至虎门大道路口）",
+      "stravaScore": 5,
+      "rawScore": 1.95,
+      "pointCount": 9
+    },
+    {
+      "id": "40809172",
+      "name": "环光明田园",
+      "stravaScore": 4,
+      "rawScore": 28.52,
+      "pointCount": 150
+    },
+    {
+      "id": "40868674",
+      "name": "后山之王由我来证明",
+      "stravaScore": 10,
+      "rawScore": 5.49,
+      "pointCount": 175
+    },
+    {
+      "id": "40871221",
+      "name": "黄麻布到三岔路口",
+      "stravaScore": 17,
+      "rawScore": 6.93,
+      "pointCount": 188
+    },
+    {
+      "id": "40876629",
+      "name": "笋岗路西行",
+      "stravaScore": 13,
+      "rawScore": 2.54,
+      "pointCount": 14
+    },
+    {
+      "id": "40889485",
+      "name": "下班开冲",
+      "stravaScore": 3,
+      "rawScore": 1.33,
+      "pointCount": 10
+    },
+    {
+      "id": "40892277",
+      "name": "白云嶂盘古庙 climb",
+      "stravaScore": 1,
+      "rawScore": 29.21,
+      "pointCount": 30
+    },
+    {
+      "id": "40920345",
+      "name": "环松山湖（顺时针）",
+      "stravaScore": 40,
+      "rawScore": 56.53,
+      "pointCount": 793
+    },
+    {
+      "id": "40955962",
+      "name": "FAIRVIEW PARK to EDEN MANOR",
+      "stravaScore": 17,
+      "rawScore": 19.8,
+      "pointCount": 198
+    },
+    {
+      "id": "40956969",
+      "name": "福强路冲桥",
+      "stravaScore": 5,
+      "rawScore": 8.51,
+      "pointCount": 8
+    },
+    {
+      "id": "40961945",
+      "name": "转弯看到大榕树",
+      "stravaScore": 6,
+      "rawScore": 9.71,
+      "pointCount": 13
+    },
+    {
+      "id": "40967027",
+      "name": "减速带后三连坡",
+      "stravaScore": 89,
+      "rawScore": 9.24,
+      "pointCount": 73
+    },
+    {
+      "id": "40971897",
+      "name": "大运到爱南爬坡",
+      "stravaScore": 1,
+      "rawScore": 6.75,
+      "pointCount": 42
+    },
+    {
+      "id": "40971900",
+      "name": "可以冲了",
+      "stravaScore": 7,
+      "rawScore": 4.58,
+      "pointCount": 16
+    },
+    {
+      "id": "40980960",
+      "name": "爱南climb",
+      "stravaScore": 4,
+      "rawScore": 8.1,
+      "pointCount": 33
+    },
+    {
+      "id": "40999139",
+      "name": "回麻竹山隧道短坡冲刺",
+      "stravaScore": 37,
+      "rawScore": 8.53,
+      "pointCount": 22
+    },
+    {
+      "id": "41049236",
+      "name": "园区逆时针一圈-V",
+      "stravaScore": 2,
+      "rawScore": 26.47,
+      "pointCount": 153
+    },
+    {
+      "id": "41049259",
+      "name": "J2门口坡-v",
+      "stravaScore": 2,
+      "rawScore": 6.25,
+      "pointCount": 20
+    },
+    {
+      "id": "41060458",
+      "name": "东莞观音山后山机耕道descending",
+      "stravaScore": 12,
+      "rawScore": 6.02,
+      "pointCount": 225
+    },
+    {
+      "id": "41066762",
+      "name": "塘朗山至大学城地铁",
+      "stravaScore": 48,
+      "rawScore": 2.2,
+      "pointCount": 13
+    },
+    {
+      "id": "41067273",
+      "name": "海天路口缓坡冲刺",
+      "stravaScore": 32,
+      "rawScore": 1.31,
+      "pointCount": 9
+    },
+    {
+      "id": "41090976",
+      "name": "大朗柬埔寨绕圈",
+      "stravaScore": 2,
+      "rawScore": 37.14,
+      "pointCount": 115
+    },
+    {
+      "id": "41099007",
+      "name": "On Kin Road Full Climb",
+      "stravaScore": 10,
+      "rawScore": 13.88,
+      "pointCount": 21
+    },
+    {
+      "id": "41102244",
+      "name": "森林湖500m爬坡冲刺赛",
+      "stravaScore": 14,
+      "rawScore": 9.24,
+      "pointCount": 14
+    },
+    {
+      "id": "41102276",
+      "name": "御龙路①分钟生死挑战赛",
+      "stravaScore": 1,
+      "rawScore": 5.1,
+      "pointCount": 5
+    },
+    {
+      "id": "41102377",
+      "name": "鸡心石绿道正经水库-派出所8.5km",
+      "stravaScore": 15,
+      "rawScore": 13.1,
+      "pointCount": 333
+    },
+    {
+      "id": "41102448",
+      "name": "北环路西行银瓶路口-香芒",
+      "stravaScore": 4,
+      "rawScore": 12.58,
+      "pointCount": 111
+    },
+    {
+      "id": "41102491",
+      "name": "新清大道北环-红干10.8km强度",
+      "stravaScore": 13,
+      "rawScore": 22.79,
+      "pointCount": 169
+    },
+    {
+      "id": "41113065",
+      "name": "石岩湖绕圈赛",
+      "stravaScore": 15,
+      "rawScore": 22.8,
+      "pointCount": 135
+    },
+    {
+      "id": "41119781",
+      "name": "109牛湖山爬坡",
+      "stravaScore": 5,
+      "rawScore": 39.53,
+      "pointCount": 155
+    },
+    {
+      "id": "41121632",
+      "name": "梅园去程第一波爬坡500m",
+      "stravaScore": 4,
+      "rawScore": 22.92,
+      "pointCount": 21
+    },
+    {
+      "id": "41121721",
+      "name": "迎宾大道-叶挺转盘1km爬坡区段",
+      "stravaScore": 14,
+      "rawScore": 8.54,
+      "pointCount": 11
+    },
+    {
+      "id": "41133666",
+      "name": "Peninsula drag",
+      "stravaScore": 17,
+      "rawScore": 2.87,
+      "pointCount": 59
+    },
+    {
+      "id": "41139369",
+      "name": "超绝两连陡坡",
+      "stravaScore": 30,
+      "rawScore": 16.36,
+      "pointCount": 33
+    },
+    {
+      "id": "41141313",
+      "name": "船灣淡水湖 來回連上落斜",
+      "stravaScore": 59,
+      "rawScore": 24.02,
+      "pointCount": 50
+    },
+    {
+      "id": "41176417",
+      "name": "东教-图书馆",
+      "stravaScore": 14,
+      "rawScore": 17.95,
+      "pointCount": 48
+    },
+    {
+      "id": "41202100",
+      "name": "鹅岛苦命上工冲刺",
+      "stravaScore": 38,
+      "rawScore": 3.25,
+      "pointCount": 38
+    },
+    {
+      "id": "41211892",
+      "name": "龙林辅道单圈",
+      "stravaScore": 80,
+      "rawScore": 25.75,
+      "pointCount": 56
+    },
+    {
+      "id": "41229493",
+      "name": "草叔叔的宝藏小圈",
+      "stravaScore": 4,
+      "rawScore": 17.59,
+      "pointCount": 45
+    },
+    {
+      "id": "41242168",
+      "name": "新安西路500m冲刺",
+      "stravaScore": 20,
+      "rawScore": 1.04,
+      "pointCount": 10
+    },
+    {
+      "id": "41242183",
+      "name": "前海石公园海景大道",
+      "stravaScore": 37,
+      "rawScore": 1.07,
+      "pointCount": 15
+    },
+    {
+      "id": "41243728",
+      "name": "loop",
+      "stravaScore": 11,
+      "rawScore": 22.1,
+      "pointCount": 81
+    },
+    {
+      "id": "41248622",
+      "name": "kiw每晚玫瑰拉练",
+      "stravaScore": 107,
+      "rawScore": 31.55,
+      "pointCount": 479
+    },
+    {
+      "id": "41267219",
+      "name": "文起东古墓-光明能源生态园 Wen Qidong Gumu - Guangming Energy Ecological Garden",
+      "stravaScore": 20,
+      "rawScore": 17.29,
+      "pointCount": 188
+    },
+    {
+      "id": "41310219",
+      "name": "惠澳大道三和-白云路口区段",
+      "stravaScore": 2,
+      "rawScore": 13.49,
+      "pointCount": 108
+    },
+    {
+      "id": "41386534",
+      "name": "甘坑右拐到古木",
+      "stravaScore": 3,
+      "rawScore": 3.78,
+      "pointCount": 86
+    },
+    {
+      "id": "41389244",
+      "name": "上桥加两脚（水霖学校旁）",
+      "stravaScore": 69,
+      "rawScore": 1.27,
+      "pointCount": 15
+    },
+    {
+      "id": "41407632",
+      "name": "我要验牌！",
+      "stravaScore": 113,
+      "rawScore": 17.8,
+      "pointCount": 17
+    },
+    {
+      "id": "41407637",
+      "name": "顺时针环石岩湖-松白路起点",
+      "stravaScore": 11,
+      "rawScore": 51.86,
+      "pointCount": 570
+    },
+    {
+      "id": "41408719",
+      "name": "大雁山开始热身（云深不知处开始）",
+      "stravaScore": 37,
+      "rawScore": 11.42,
+      "pointCount": 88
+    },
+    {
+      "id": "41408790",
+      "name": "大雁山往南下坡出山",
+      "stravaScore": 47,
+      "rawScore": 2.72,
+      "pointCount": 95
+    },
+    {
+      "id": "41424297",
+      "name": "平湖大路回坂田",
+      "stravaScore": 4,
+      "rawScore": 22.11,
+      "pointCount": 189
+    },
+    {
+      "id": "41439661",
+      "name": "三岔口到大石头下坡段",
+      "stravaScore": 32,
+      "rawScore": 2.51,
+      "pointCount": 83
+    },
+    {
+      "id": "41439675",
+      "name": "大雁山最陡两连坡",
+      "stravaScore": 19,
+      "rawScore": 25.92,
+      "pointCount": 31
+    },
+    {
+      "id": "41444988",
+      "name": "狮子山爬坡赛",
+      "stravaScore": 9,
+      "rawScore": 15.82,
+      "pointCount": 49
+    },
+    {
+      "id": "41459595",
+      "name": "象塘路冲冲冲",
+      "stravaScore": 12,
+      "rawScore": 7.5,
+      "pointCount": 11
+    },
+    {
+      "id": "41501426",
+      "name": "官山-茶园村强度赛",
+      "stravaScore": 2,
+      "rawScore": 8.49,
+      "pointCount": 120
+    },
+    {
+      "id": "41501439",
+      "name": "将军路茶园村-叶挺大道强度赛",
+      "stravaScore": 19,
+      "rawScore": 8.58,
+      "pointCount": 46
+    },
+    {
+      "id": "41510561",
+      "name": "晨骑40",
+      "stravaScore": 472,
+      "rawScore": 78.18,
+      "pointCount": 307
+    },
+    {
+      "id": "41513565",
+      "name": "#mk 随便骑骑",
+      "stravaScore": 63,
+      "rawScore": 65.39,
+      "pointCount": 329
+    },
+    {
+      "id": "41530375",
+      "name": "Cheung Yuen Road climb to Tai Po Road",
+      "stravaScore": 2,
+      "rawScore": 6.6,
+      "pointCount": 27
+    },
+    {
+      "id": "41554267",
+      "name": "东周绕圈",
+      "stravaScore": 16,
+      "rawScore": 25.29,
+      "pointCount": 92
+    },
+    {
+      "id": "41555389",
+      "name": "红花岭C线新下坡",
+      "stravaScore": 85,
+      "rawScore": 1.91,
+      "pointCount": 90
+    },
+    {
+      "id": "41572675",
+      "name": "塘朗山北坡（桥底-山顶帐篷）",
+      "stravaScore": 23,
+      "rawScore": 27.39,
+      "pointCount": 114
+    },
+    {
+      "id": "41643345",
+      "name": "观音山寺climb",
+      "stravaScore": 9,
+      "rawScore": 64.56,
+      "pointCount": 83
+    },
+    {
+      "id": "41648873",
+      "name": "水库到三岔路口",
+      "stravaScore": 22,
+      "rawScore": 14.63,
+      "pointCount": 274
+    },
+    {
+      "id": "41648912",
+      "name": "叶挺森林公园climb",
+      "stravaScore": 16,
+      "rawScore": 55.12,
+      "pointCount": 50
+    },
+    {
+      "id": "41648941",
+      "name": "花果村上矮嶂climb（土路）",
+      "stravaScore": 6,
+      "rawScore": 52.71,
+      "pointCount": 97
+    },
+    {
+      "id": "41648951",
+      "name": "矮嶂西面最后一段climb",
+      "stravaScore": 10,
+      "rawScore": 37.7,
+      "pointCount": 35
+    },
+    {
+      "id": "41652782",
+      "name": "元洞水库 climb",
+      "stravaScore": 2,
+      "rawScore": 16.82,
+      "pointCount": 50
+    },
+    {
+      "id": "41656508",
+      "name": "振业城1km爬坡训练赛段",
+      "stravaScore": 26,
+      "rawScore": 5.92,
+      "pointCount": 16
+    },
+    {
+      "id": "41667499",
+      "name": "公王顶南面climb",
+      "stravaScore": 1,
+      "rawScore": 50.23,
+      "pointCount": 111
+    },
+    {
+      "id": "41678198",
+      "name": "东涌湿地公园（CW）",
+      "stravaScore": 3,
+      "rawScore": 21.29,
+      "pointCount": 104
+    },
+    {
+      "id": "41685622",
+      "name": "荔林公园骑行道",
+      "stravaScore": 8,
+      "rawScore": 6.7,
+      "pointCount": 39
+    },
+    {
+      "id": "41705747",
+      "name": "五指耙大头岗放坡到别墅区",
+      "stravaScore": 22,
+      "rawScore": 2.04,
+      "pointCount": 85
+    },
+    {
+      "id": "41708714",
+      "name": "五指耙变电站到大头岗",
+      "stravaScore": 22,
+      "rawScore": 45.9,
+      "pointCount": 105
+    },
+    {
+      "id": "41714176",
+      "name": "叶挺森林公园(新圩-花果村)",
+      "stravaScore": 2,
+      "rawScore": 10.12,
+      "pointCount": 266
+    },
+    {
+      "id": "41746542",
+      "name": "叶挺南行和兴路口-将军路口3km区段",
+      "stravaScore": 3,
+      "rawScore": 5.34,
+      "pointCount": 33
+    },
+    {
+      "id": "41746641",
+      "name": "红干东行决胜700米短坡",
+      "stravaScore": 2,
+      "rawScore": 7.24,
+      "pointCount": 11
+    },
+    {
+      "id": "41807676",
+      "name": "飞鹅山乱石路小跑",
+      "stravaScore": 5,
+      "rawScore": 1.8,
+      "pointCount": 54
+    },
+    {
+      "id": "41807713",
+      "name": "厕所到鱼塘小瓜路",
+      "stravaScore": 9,
+      "rawScore": 6.09,
+      "pointCount": 140
+    },
+    {
+      "id": "41906208",
+      "name": "红干东行辅道路起步区段",
+      "stravaScore": 3,
+      "rawScore": 2.06,
+      "pointCount": 16
+    },
+    {
+      "id": "41942791",
+      "name": "碧岭加油站绕圈",
+      "stravaScore": 20,
+      "rawScore": 17.54,
+      "pointCount": 29
+    },
+    {
+      "id": "41973025",
+      "name": "明芳城家居climb",
+      "stravaScore": 3,
+      "rawScore": 5.52,
+      "pointCount": 18
+    },
+    {
+      "id": "42104279",
+      "name": "马峦山赤坳岗（红花岭水库）4级坡",
+      "stravaScore": 127,
+      "rawScore": 31.04,
+      "pointCount": 46
+    },
+    {
+      "id": "42131510",
+      "name": "宝石路一圈（傻逼迈金我迟早换了你）",
+      "stravaScore": 13,
+      "rawScore": 38.46,
+      "pointCount": 166
+    },
+    {
+      "id": "42138067",
+      "name": "小南山爬坡!",
+      "stravaScore": 11,
+      "rawScore": 15.73,
+      "pointCount": 58
+    },
+    {
+      "id": "42148293",
+      "name": "布心到沙河西",
+      "stravaScore": 2,
+      "rawScore": 40.16,
+      "pointCount": 278
+    },
+    {
+      "id": "42169995",
+      "name": "冲啊！胜利就在前方！",
+      "stravaScore": 3,
+      "rawScore": 17.95,
+      "pointCount": 27
+    },
+    {
+      "id": "42171433",
+      "name": "好路",
+      "stravaScore": 15,
+      "rawScore": 10.04,
+      "pointCount": 92
+    },
+    {
+      "id": "42171808",
+      "name": "Tsing Kwai Highway",
+      "stravaScore": 120,
+      "rawScore": 15.18,
+      "pointCount": 90
+    },
+    {
+      "id": "42174771",
+      "name": "民治北到五和",
+      "stravaScore": 7,
+      "rawScore": 3.6,
+      "pointCount": 15
+    },
+    {
+      "id": "42174929",
+      "name": "古洞北路 softy incline descend",
+      "stravaScore": 15,
+      "rawScore": 1.5,
+      "pointCount": 19
+    },
+    {
+      "id": "42191338",
+      "name": "钢猪钻鸡笼爬楼梯",
+      "stravaScore": 14,
+      "rawScore": 29.27,
+      "pointCount": 77
+    },
+    {
+      "id": "42191919",
+      "name": "Kwun Ping Road Upper Road return climb",
+      "stravaScore": 1,
+      "rawScore": 7.99,
+      "pointCount": 27
+    },
+    {
+      "id": "42192023",
+      "name": "龙山九路无汽车路段",
+      "stravaScore": 11,
+      "rawScore": 5.76,
+      "pointCount": 51
+    },
+    {
+      "id": "42205559",
+      "name": "南同大道西进",
+      "stravaScore": 5,
+      "rawScore": 5.88,
+      "pointCount": 32
+    },
+    {
+      "id": "42211071",
+      "name": "沙湖顶-分水坳土路",
+      "stravaScore": 1,
+      "rawScore": 6.07,
+      "pointCount": 73
+    },
+    {
+      "id": "42211102",
+      "name": "长喊窝-白坟窝",
+      "stravaScore": 2,
+      "rawScore": 24.85,
+      "pointCount": 149
+    },
+    {
+      "id": "42211132",
+      "name": "小土路爬坡",
+      "stravaScore": 3,
+      "rawScore": 40.68,
+      "pointCount": 58
+    },
+    {
+      "id": "42211137",
+      "name": "山脊小路",
+      "stravaScore": 5,
+      "rawScore": 9.61,
+      "pointCount": 46
+    },
+    {
+      "id": "42227871",
+      "name": "大围肚XC下坡（露营地至水沟）",
+      "stravaScore": 12,
+      "rawScore": 2.72,
+      "pointCount": 90
+    },
+    {
+      "id": "42229903",
+      "name": "归家似箭",
+      "stravaScore": 47,
+      "rawScore": 10.3,
+      "pointCount": 15
+    },
+    {
+      "id": "42230522",
+      "name": "y011村道南行12km新平-小径湾路口",
+      "stravaScore": 1,
+      "rawScore": 24.12,
+      "pointCount": 309
+    },
+    {
+      "id": "42230532",
+      "name": "冲向小径湾3km",
+      "stravaScore": 1,
+      "rawScore": 4.1,
+      "pointCount": 47
+    },
+    {
+      "id": "42233639",
+      "name": "爬完这段该休息了屌毛",
+      "stravaScore": 16,
+      "rawScore": 52.68,
+      "pointCount": 34
+    },
+    {
+      "id": "42233644",
+      "name": "爬完这段开始放坡",
+      "stravaScore": 1,
+      "rawScore": 25.57,
+      "pointCount": 36
+    },
+    {
+      "id": "42233649",
+      "name": "长龙村XCclimb",
+      "stravaScore": 11,
+      "rawScore": 32.91,
+      "pointCount": 34
+    },
+    {
+      "id": "42233652",
+      "name": "两个小陡坡",
+      "stravaScore": 11,
+      "rawScore": 16.23,
+      "pointCount": 76
+    },
+    {
+      "id": "42233659",
+      "name": "还不休息吗？",
+      "stravaScore": 1,
+      "rawScore": 19.68,
+      "pointCount": 40
+    },
+    {
+      "id": "42233673",
+      "name": "这里下坡推车不可耻",
+      "stravaScore": 13,
+      "rawScore": 2,
+      "pointCount": 60
+    },
+    {
+      "id": "42233680",
+      "name": "GMG爆胎累计2人，爆框1人",
+      "stravaScore": 17,
+      "rawScore": 1.71,
+      "pointCount": 60
+    },
+    {
+      "id": "42233718",
+      "name": "宝山龙潭尾climb",
+      "stravaScore": 10,
+      "rawScore": 14.03,
+      "pointCount": 102
+    },
+    {
+      "id": "42267179",
+      "name": "打古山水库绿道",
+      "stravaScore": 4,
+      "rawScore": 2.54,
+      "pointCount": 80
+    },
+    {
+      "id": "42269433",
+      "name": "home sweet home权志陈",
+      "stravaScore": 1,
+      "rawScore": 20.46,
+      "pointCount": 40
+    },
+    {
+      "id": "42275805",
+      "name": "佛祖坳中段 climb",
+      "stravaScore": 1,
+      "rawScore": 60.68,
+      "pointCount": 40
+    },
+    {
+      "id": "42275813",
+      "name": "花山一小段 climb",
+      "stravaScore": 1,
+      "rawScore": 38.53,
+      "pointCount": 58
+    },
+    {
+      "id": "42320837",
+      "name": "花果山马岭climb",
+      "stravaScore": 3,
+      "rawScore": 36.4,
+      "pointCount": 47
+    },
+    {
+      "id": "42337234",
+      "name": "T4車公廟站臨時單車徑（東行）",
+      "stravaScore": 15,
+      "rawScore": 1.8,
+      "pointCount": 29
+    },
+    {
+      "id": "42344305",
+      "name": "凤凰阁climb",
+      "stravaScore": 9,
+      "rawScore": 39.99,
+      "pointCount": 49
+    },
+    {
+      "id": "42351505",
+      "name": "万顷沙绿道(湿地公园-尽头沙地)",
+      "stravaScore": 7,
+      "rawScore": 50.24,
+      "pointCount": 485
+    },
+    {
+      "id": "42358983",
+      "name": "香港單車節2026(56公里組)",
+      "stravaScore": 73,
+      "rawScore": 124.69,
+      "pointCount": 644
+    },
+    {
+      "id": "42359174",
+      "name": "單車節中九龍繞道來回(暫)",
+      "stravaScore": 26,
+      "rawScore": 31.61,
+      "pointCount": 76
+    },
+    {
+      "id": "42361313",
+      "name": "黄巢嶂全程climb",
+      "stravaScore": 1,
+      "rawScore": 66.24,
+      "pointCount": 173
+    },
+    {
+      "id": "42361328",
+      "name": "黄巢嶂后段climb",
+      "stravaScore": 1,
+      "rawScore": 60.72,
+      "pointCount": 38
+    },
+    {
+      "id": "42365056",
+      "name": "罗田 禾差岭 爬坡",
+      "stravaScore": 1,
+      "rawScore": 14.64,
+      "pointCount": 210
+    },
+    {
+      "id": "42365068",
+      "name": "光侨路-白鸽坡水库",
+      "stravaScore": 3,
+      "rawScore": 8.54,
+      "pointCount": 76
+    },
+    {
+      "id": "42368561",
+      "name": "深圳体校南区绕圈",
+      "stravaScore": 11,
+      "rawScore": 17.78,
+      "pointCount": 32
+    },
+    {
+      "id": "42376868",
+      "name": "Carpenter Road Park Cycling Loop",
+      "stravaScore": 12,
+      "rawScore": 16.15,
+      "pointCount": 44
+    },
+    {
+      "id": "42398841",
+      "name": "管理处右转瓜路",
+      "stravaScore": 3,
+      "rawScore": 21.48,
+      "pointCount": 57
+    },
+    {
+      "id": "42412100",
+      "name": "bwcc2026",
+      "stravaScore": 15,
+      "rawScore": 16.98,
+      "pointCount": 43
+    },
+    {
+      "id": "42445718",
+      "name": "龙山五路向北",
+      "stravaScore": 1,
+      "rawScore": 2.62,
+      "pointCount": 27
+    },
+    {
+      "id": "42454500",
+      "name": "骑着蜗牛练间歇",
+      "stravaScore": 2,
+      "rawScore": 11.53,
+      "pointCount": 19
+    },
+    {
+      "id": "42459060",
+      "name": "比亚迪路冲刺",
+      "stravaScore": 7,
+      "rawScore": 1.1,
+      "pointCount": 6
     }
   ],
   "skippedConcurrent": [],
@@ -8686,10 +12039,1613 @@
     {
       "id": "33710587",
       "reason": "Out of range value for column 'effort_count' at row 1"
+    },
+    {
+      "id": "36156396",
+      "reason": "Strava segment detail unavailable"
+    },
+    {
+      "id": "36205053",
+      "reason": "Strava segment detail unavailable"
+    },
+    {
+      "id": "36205070",
+      "reason": "Strava segment detail unavailable"
+    },
+    {
+      "id": "36211652",
+      "reason": "Strava segment detail unavailable"
+    },
+    {
+      "id": "36217289",
+      "reason": "Strava segment detail unavailable"
+    },
+    {
+      "id": "36324019",
+      "reason": "Strava segment detail unavailable"
+    },
+    {
+      "id": "36326061",
+      "reason": "Strava segment detail unavailable"
+    },
+    {
+      "id": "36360826",
+      "reason": "Strava segment detail unavailable"
+    },
+    {
+      "id": "36454659",
+      "reason": "Strava segment detail unavailable"
+    },
+    {
+      "id": "36454740",
+      "reason": "Strava segment detail unavailable"
+    },
+    {
+      "id": "36534689",
+      "reason": "Strava segment detail unavailable"
+    },
+    {
+      "id": "36619913",
+      "reason": "Strava segment detail unavailable"
+    },
+    {
+      "id": "36649066",
+      "reason": "Strava segment detail unavailable"
+    },
+    {
+      "id": "36663519",
+      "reason": "Strava segment detail unavailable"
+    },
+    {
+      "id": "36907610",
+      "reason": "Strava segment detail unavailable"
+    },
+    {
+      "id": "36914194",
+      "reason": "Strava segment detail unavailable"
+    },
+    {
+      "id": "36947745",
+      "reason": "Strava segment detail unavailable"
+    },
+    {
+      "id": "37023220",
+      "reason": "Strava segment detail unavailable"
+    },
+    {
+      "id": "37400641",
+      "reason": "Strava segment detail unavailable"
+    },
+    {
+      "id": "37897157",
+      "reason": "Strava segment detail unavailable"
+    },
+    {
+      "id": "37907681",
+      "reason": "Strava segment detail unavailable"
+    },
+    {
+      "id": "37909553",
+      "reason": "Strava segment detail unavailable"
+    },
+    {
+      "id": "37913895",
+      "reason": "Strava segment detail unavailable"
+    },
+    {
+      "id": "37936643",
+      "reason": "Strava segment detail unavailable"
+    },
+    {
+      "id": "38148791",
+      "reason": "Out of range value for column 'effort_count' at row 1"
+    },
+    {
+      "id": "38164460",
+      "reason": "Strava segment detail unavailable"
+    },
+    {
+      "id": "38213648",
+      "reason": "Strava segment detail unavailable"
+    },
+    {
+      "id": "38221572",
+      "reason": "Strava segment detail unavailable"
+    },
+    {
+      "id": "38287711",
+      "reason": "Strava segment detail unavailable"
+    },
+    {
+      "id": "38415202",
+      "reason": "Strava segment detail unavailable"
+    },
+    {
+      "id": "38521963",
+      "reason": "Strava segment detail unavailable"
+    },
+    {
+      "id": "38571020",
+      "reason": "Strava segment detail unavailable"
+    },
+    {
+      "id": "38571137",
+      "reason": "Strava segment detail unavailable"
+    },
+    {
+      "id": "38571153",
+      "reason": "Strava segment detail unavailable"
+    },
+    {
+      "id": "38582143",
+      "reason": "Strava segment detail unavailable"
+    },
+    {
+      "id": "39999421",
+      "reason": "Strava segment detail unavailable"
+    },
+    {
+      "id": "40248020",
+      "reason": "Strava segment detail unavailable"
+    },
+    {
+      "id": "40306931",
+      "reason": "Strava segment detail unavailable"
+    },
+    {
+      "id": "40456046",
+      "reason": "Strava segment detail unavailable"
+    },
+    {
+      "id": "41714180",
+      "reason": "Strava segment detail unavailable"
     }
   ],
-  "verifiedIds": [],
+  "verifiedIds": [
+    "667287",
+    "678272",
+    "678829",
+    "689412",
+    "695422",
+    "714167",
+    "731576",
+    "859113",
+    "860134",
+    "866548",
+    "872396",
+    "889082",
+    "895674",
+    "909509",
+    "918245",
+    "918246",
+    "984395",
+    "986573",
+    "1024488",
+    "1110694",
+    "1147096",
+    "1174279",
+    "1177931",
+    "1209034",
+    "1214430",
+    "1247674",
+    "1259329",
+    "1264831",
+    "1272178",
+    "1284322",
+    "1285220",
+    "1289324",
+    "1321276",
+    "1348552",
+    "1386123",
+    "1386868",
+    "1386876",
+    "1443180",
+    "1443219",
+    "1443225",
+    "1443226",
+    "1443227",
+    "1447917",
+    "1491781",
+    "1615764",
+    "1635148",
+    "1669433",
+    "1676333",
+    "1676421",
+    "1746963",
+    "1760053",
+    "1777083",
+    "1866797",
+    "1866881",
+    "2132865",
+    "2414463",
+    "2499018",
+    "2562830",
+    "2564298",
+    "2583850",
+    "2648309",
+    "2649462",
+    "2669010",
+    "2736583",
+    "2935509",
+    "2974897",
+    "3078375",
+    "3089871",
+    "3125289",
+    "3128391",
+    "3159009",
+    "3224339",
+    "3249179",
+    "3279318",
+    "3280933",
+    "3280934",
+    "3281029",
+    "3414612",
+    "3425002",
+    "3436202",
+    "3441994",
+    "3616904",
+    "3650245",
+    "3659526",
+    "3798296",
+    "3815156",
+    "3826715",
+    "3886697",
+    "3886741",
+    "3932460",
+    "3936063",
+    "3954631",
+    "4038504",
+    "4104364",
+    "4111988",
+    "4214995",
+    "4215061",
+    "4369415",
+    "4450119",
+    "4463194",
+    "4684103",
+    "4824942",
+    "4836778",
+    "4988016",
+    "4996400",
+    "5013272",
+    "5050652",
+    "5074670",
+    "5315365",
+    "5423993",
+    "5436109",
+    "5440728",
+    "5530361",
+    "5562444",
+    "5636158",
+    "5639541",
+    "5653599",
+    "5684350",
+    "5684351",
+    "5684352",
+    "5712660",
+    "5779096",
+    "5791656",
+    "5809511",
+    "5822627",
+    "5921867",
+    "5925082",
+    "5969234",
+    "5981453",
+    "6001060",
+    "6115070",
+    "6120895",
+    "6157289",
+    "6165615",
+    "6210844",
+    "6329170",
+    "6369870",
+    "6376472",
+    "6378290",
+    "6434264",
+    "6435788",
+    "6435859",
+    "6446857",
+    "6486904",
+    "6501245",
+    "6512131",
+    "6583585",
+    "6721438",
+    "6738437",
+    "6772960",
+    "6815609",
+    "6844770",
+    "6861444",
+    "6883534",
+    "6903154",
+    "6966218",
+    "7009884",
+    "7046812",
+    "7126729",
+    "7425353",
+    "7491016",
+    "7959113",
+    "7970748",
+    "7979642",
+    "8131480",
+    "8200694",
+    "8356905",
+    "8357080",
+    "8418003",
+    "8518370",
+    "8542313",
+    "8621752",
+    "8705496",
+    "8795933",
+    "8806059",
+    "8810344",
+    "8851233",
+    "8857239",
+    "8955688",
+    "9152194",
+    "9154225",
+    "9218438",
+    "9246814",
+    "9264405",
+    "9348277",
+    "9367820",
+    "9389615",
+    "9414440",
+    "9466629",
+    "9481203",
+    "9485922",
+    "9486003",
+    "9531457",
+    "9851243",
+    "9944226",
+    "9950389",
+    "9950391",
+    "9950395",
+    "9950410",
+    "9971087",
+    "10118677",
+    "10164669",
+    "10200153",
+    "10350462",
+    "10372340",
+    "10457283",
+    "10478028",
+    "10478045",
+    "10562698",
+    "10578438",
+    "10590058",
+    "10659661",
+    "10721974",
+    "10722085",
+    "10722099",
+    "10729364",
+    "10747105",
+    "10836690",
+    "10837225",
+    "10847545",
+    "10908882",
+    "10930299",
+    "10953632",
+    "11104974",
+    "11118673",
+    "11123063",
+    "11130504",
+    "11131712",
+    "11145985",
+    "11149508",
+    "11157426",
+    "11157501",
+    "11157550",
+    "11166547",
+    "11171111",
+    "11172602",
+    "11184624",
+    "11184635",
+    "11291810",
+    "11365344",
+    "11370146",
+    "11411314",
+    "11455946",
+    "11461989",
+    "11462007",
+    "11468758",
+    "11488997",
+    "11510201",
+    "11580290",
+    "11583469",
+    "11679423",
+    "11679434",
+    "11684548",
+    "11769305",
+    "11769650",
+    "11769736",
+    "11820540",
+    "11878475",
+    "11935059",
+    "11956977",
+    "12002996",
+    "12078510",
+    "12118782",
+    "12181649",
+    "12192378",
+    "12211560",
+    "12216040",
+    "12225213",
+    "12255452",
+    "12272948",
+    "12325303",
+    "12326300",
+    "12369135",
+    "12418669",
+    "12431596",
+    "12508229",
+    "12544774",
+    "12570192",
+    "12574576",
+    "12658428",
+    "12670514",
+    "12677031",
+    "12848336",
+    "12939986",
+    "12983054",
+    "13021121",
+    "13151143",
+    "13224209",
+    "13282345",
+    "13282361",
+    "13282456",
+    "13390037",
+    "13450386",
+    "13534684",
+    "13541253",
+    "13585696",
+    "13638544",
+    "13651819",
+    "13774067",
+    "13774721",
+    "13811026",
+    "13834302",
+    "13834545",
+    "13860203",
+    "13888633",
+    "13888652",
+    "13888671",
+    "13901630",
+    "13902317",
+    "13909523",
+    "13952273",
+    "13964376",
+    "13975328",
+    "14076314",
+    "14089180",
+    "14100505",
+    "14190893",
+    "14194849",
+    "14228148",
+    "14248976",
+    "14257766",
+    "14261098",
+    "14287299",
+    "14314386",
+    "14318056",
+    "14425742",
+    "14463233",
+    "14463250",
+    "14477400",
+    "14492021",
+    "14495115",
+    "14510525",
+    "14513477",
+    "14518031",
+    "14540852",
+    "14540885",
+    "14540908",
+    "14541336",
+    "14544077",
+    "14549203",
+    "14561089",
+    "14638043",
+    "14713304",
+    "14713501",
+    "14780646",
+    "14798347",
+    "14798381",
+    "14807544",
+    "14827119",
+    "14932088",
+    "14936512",
+    "14988088",
+    "14995489",
+    "15095343",
+    "15161659",
+    "15292315",
+    "15308225",
+    "15317596",
+    "15319477",
+    "15327344",
+    "15327524",
+    "15327634",
+    "15331405",
+    "15372641",
+    "15389248",
+    "15422867",
+    "15580329",
+    "15645361",
+    "15648224",
+    "15654247",
+    "15667769",
+    "15668258",
+    "15677549",
+    "15677569",
+    "15677585",
+    "15686183",
+    "15686204",
+    "15686213",
+    "15686216",
+    "15686224",
+    "15686229",
+    "15740984",
+    "15785233",
+    "15806953",
+    "15916316",
+    "15924290",
+    "15971009",
+    "15975836",
+    "16100014",
+    "16101654",
+    "16173119",
+    "16173124",
+    "16201681",
+    "16207724",
+    "16207728",
+    "16237279",
+    "16254748",
+    "16418936",
+    "16461064",
+    "16470540",
+    "16529545",
+    "16529612",
+    "16564649",
+    "16564691",
+    "16564706",
+    "16564725",
+    "16564748",
+    "16570774",
+    "16693712",
+    "16750356",
+    "16853459",
+    "16859734",
+    "16860183",
+    "16861835",
+    "16874484",
+    "16964750",
+    "16971907",
+    "17043509",
+    "17045588",
+    "17054689",
+    "17065418",
+    "17072042",
+    "17084964",
+    "17124704",
+    "17124740",
+    "17187915",
+    "17194093",
+    "17194128",
+    "17194133",
+    "17202457",
+    "17209077",
+    "17225008",
+    "17244778",
+    "17249945",
+    "17413970",
+    "17419505",
+    "17519239",
+    "17579640",
+    "17638216",
+    "17649167",
+    "17685886",
+    "17685900",
+    "17710001",
+    "17762684",
+    "17826121",
+    "18059694",
+    "18135827",
+    "18231690",
+    "18241541",
+    "18242102",
+    "18301804",
+    "18301923",
+    "18337125",
+    "18337152",
+    "18401836",
+    "18492657",
+    "18493411",
+    "18505896",
+    "18721260",
+    "18829438",
+    "18951470",
+    "19078530",
+    "19140861",
+    "19218146",
+    "19292291",
+    "19361776",
+    "19387314",
+    "19405281",
+    "19648916",
+    "19668968",
+    "19697174",
+    "19743506",
+    "19751715",
+    "19752788",
+    "19773923",
+    "19787944",
+    "19881013",
+    "19936353",
+    "19979337",
+    "20047613",
+    "20114371",
+    "20153625",
+    "20250610",
+    "20290422",
+    "20290510",
+    "20341113",
+    "20359030",
+    "20438828",
+    "20467329",
+    "20467457",
+    "20706097",
+    "20772621",
+    "20887235",
+    "20954738",
+    "21065225",
+    "21102492",
+    "21122772",
+    "21122775",
+    "21192637",
+    "21201876",
+    "21213001",
+    "21548410",
+    "21578159",
+    "21650743",
+    "21659536",
+    "21885671",
+    "22004931",
+    "22019309",
+    "22099974",
+    "22356212",
+    "22365851",
+    "22378156",
+    "22390558",
+    "23812154",
+    "23853791",
+    "23915939",
+    "23917676",
+    "24081314",
+    "24227264",
+    "24318512",
+    "24496721",
+    "24567029",
+    "24846627",
+    "24890606",
+    "25004053",
+    "25004103",
+    "25004124",
+    "25055872",
+    "25269051",
+    "25293574",
+    "25390807",
+    "25409553",
+    "25425452",
+    "25425666",
+    "25425705",
+    "25745121",
+    "26012875",
+    "26035297",
+    "26119468",
+    "26120807",
+    "26136148",
+    "26140044",
+    "26218644",
+    "26232967",
+    "26288272",
+    "26291862",
+    "26347841",
+    "26506800",
+    "26572270",
+    "26591704",
+    "26693548",
+    "26777485",
+    "26787542",
+    "26808988",
+    "26818395",
+    "26912492",
+    "26933546",
+    "27083708",
+    "27097710",
+    "27106636",
+    "27190730",
+    "27220849",
+    "27251844",
+    "27270562",
+    "27298003",
+    "27298022",
+    "27319140",
+    "27340342",
+    "27340702",
+    "27384337",
+    "27384415",
+    "27433508",
+    "27437799",
+    "27439830",
+    "27443904",
+    "27444728",
+    "27492621",
+    "27593070",
+    "27607586",
+    "27675941",
+    "27683549",
+    "27704381",
+    "27751972",
+    "27763638",
+    "27789977",
+    "27790205",
+    "27791098",
+    "27803929",
+    "27831377",
+    "27915803",
+    "27968303",
+    "27985300",
+    "27985312",
+    "28032640",
+    "28095057",
+    "28096119",
+    "28156903",
+    "28210675",
+    "28279444",
+    "28280745",
+    "28297633",
+    "28345891",
+    "28371621",
+    "28386706",
+    "28398549",
+    "28405555",
+    "28435235",
+    "28448274",
+    "28448279",
+    "28463861",
+    "28465843",
+    "28477241",
+    "28477453",
+    "28499932",
+    "28568921",
+    "28621382",
+    "28621534",
+    "28646348",
+    "28697279",
+    "28711323",
+    "28761226",
+    "28764546",
+    "28808639",
+    "28883606",
+    "28927934",
+    "28948589",
+    "28994104",
+    "29040436",
+    "29040830",
+    "29071013",
+    "29175183",
+    "29194287",
+    "29224088",
+    "29294705",
+    "29316496",
+    "29410496",
+    "29431101",
+    "29431201",
+    "29431229",
+    "29431259",
+    "29431294",
+    "29467855",
+    "29489977",
+    "29580725",
+    "29581646",
+    "29599482",
+    "29601088",
+    "29625410",
+    "29871508",
+    "29907361",
+    "29994939",
+    "30008572",
+    "30035960",
+    "30039750",
+    "30073657",
+    "30076789",
+    "30102364",
+    "30185973",
+    "30224203",
+    "30266376",
+    "30273289",
+    "30283056",
+    "30308647",
+    "30318385",
+    "30364475",
+    "30369178",
+    "30415554",
+    "30428963",
+    "30450357",
+    "30501197",
+    "30527749",
+    "30557927",
+    "30558284",
+    "30575301",
+    "30576098",
+    "30592865",
+    "30658691",
+    "30717154",
+    "30744380",
+    "30744477",
+    "30751721",
+    "30754398",
+    "30761068",
+    "30767599",
+    "30777297",
+    "30804122",
+    "30875777",
+    "30882562",
+    "30906245",
+    "30913806",
+    "30965060",
+    "30973669",
+    "30997249",
+    "30997267",
+    "30998939",
+    "31018239",
+    "31023178",
+    "31038218",
+    "31038236",
+    "31044751",
+    "31064056",
+    "31116553",
+    "31122213",
+    "31131374",
+    "31161825",
+    "31164292",
+    "31196278",
+    "31223918",
+    "31300827",
+    "31302211",
+    "31302253",
+    "31324665",
+    "31402167",
+    "31402188",
+    "31445237",
+    "31448962",
+    "31449147",
+    "31456501",
+    "31456524",
+    "31465990",
+    "31509922",
+    "31529021",
+    "31543534",
+    "31605563",
+    "31652660",
+    "31703404",
+    "31745508",
+    "31795623",
+    "31852377",
+    "31877724",
+    "31877742",
+    "31896261",
+    "31926640",
+    "31926692",
+    "32069188",
+    "32094339",
+    "32144571",
+    "32198866",
+    "32227476",
+    "32280219",
+    "32288728",
+    "32328891",
+    "32361858",
+    "32371211",
+    "32371952",
+    "32375336",
+    "32425925",
+    "32436992",
+    "32464144",
+    "32465850",
+    "32532987",
+    "32543838",
+    "32620424",
+    "32637683",
+    "32646261",
+    "32692012",
+    "32716766",
+    "32729565",
+    "32776202",
+    "32777804",
+    "32810404",
+    "32861289",
+    "32915737",
+    "32924521",
+    "32925187",
+    "32949921",
+    "32975342",
+    "32978881",
+    "32999354",
+    "33011996",
+    "33030710",
+    "33064888",
+    "33064891",
+    "33104537",
+    "33104593",
+    "33259021",
+    "33264106",
+    "33286494",
+    "33302227",
+    "33313220",
+    "33322623",
+    "33322629",
+    "33342412",
+    "33348467",
+    "33360550",
+    "33393193",
+    "33406986",
+    "33407594",
+    "33419514",
+    "33420766",
+    "33420951",
+    "33422156",
+    "33422208",
+    "33422210",
+    "33422240",
+    "33432874",
+    "33434705",
+    "33471501",
+    "33473959",
+    "33497123",
+    "33505140",
+    "33525481",
+    "33525505",
+    "33659139",
+    "33684762",
+    "33697215",
+    "33723516",
+    "33728279",
+    "33728598",
+    "33728635",
+    "33728641",
+    "33728673",
+    "33771084",
+    "33877200",
+    "33885493",
+    "33885503",
+    "33885510",
+    "33929819",
+    "33946374",
+    "33946498",
+    "33988452",
+    "34002868",
+    "34003961",
+    "34016464",
+    "34048119",
+    "34048126",
+    "34048214",
+    "34070970",
+    "34091417",
+    "34093815",
+    "34116558",
+    "34121543",
+    "34121575",
+    "34146700",
+    "34147823",
+    "34195718",
+    "34196425",
+    "34212954",
+    "34223693",
+    "34236113",
+    "34257252",
+    "34275442",
+    "34284124",
+    "34316256",
+    "34316666",
+    "34348167",
+    "34370516",
+    "34370534",
+    "34418129",
+    "34418165",
+    "34419804",
+    "34419870",
+    "34427925",
+    "34471136",
+    "34474466",
+    "34474485",
+    "34511368",
+    "34547922",
+    "34609220",
+    "34609251",
+    "34609262",
+    "34615548",
+    "34652560",
+    "34655767",
+    "34658496",
+    "34715471",
+    "34716545",
+    "34769582",
+    "34785261",
+    "34788081",
+    "34813426",
+    "34845298",
+    "34853012",
+    "34853137",
+    "34863988",
+    "34906233",
+    "34915576",
+    "34915593",
+    "34953823",
+    "34954506",
+    "34954550",
+    "34954657",
+    "34955546",
+    "34965137",
+    "34980101",
+    "34980154",
+    "35006071",
+    "35038554",
+    "35039709",
+    "35118421",
+    "35179459",
+    "35188117",
+    "35201243",
+    "35237178",
+    "35262786",
+    "35291491",
+    "35297447",
+    "35315636",
+    "35335023",
+    "35335127",
+    "35428753",
+    "35437234",
+    "35437323",
+    "35464228",
+    "35475898",
+    "35514125",
+    "35526962",
+    "35528174",
+    "35544848",
+    "35548478",
+    "35566304",
+    "35578131",
+    "35578164",
+    "35607472",
+    "35653156",
+    "35671740",
+    "35672100",
+    "35675802",
+    "35678474",
+    "35678499",
+    "35691558",
+    "35728662",
+    "35750506",
+    "35753201",
+    "35757687",
+    "35776864",
+    "35781847",
+    "35811838",
+    "35814654",
+    "35816909",
+    "35832523",
+    "35832815",
+    "35832910",
+    "35852164",
+    "35881644",
+    "35885901",
+    "35890975",
+    "35904616",
+    "35909666",
+    "35935270",
+    "35957232",
+    "35963891",
+    "35964751",
+    "35969397",
+    "35971374",
+    "35971383",
+    "35971387",
+    "35971391",
+    "35974601",
+    "35978033",
+    "35978040",
+    "36035785",
+    "36045529",
+    "36046774",
+    "36053377",
+    "36055918",
+    "36085909",
+    "36085913",
+    "36096981",
+    "36106399",
+    "36112921",
+    "36116975",
+    "36137302",
+    "36159407",
+    "36159705",
+    "36164638",
+    "36169154",
+    "36200986",
+    "36217301",
+    "36218220",
+    "36218490",
+    "36244383",
+    "36245160",
+    "36307827",
+    "36318043",
+    "36344115",
+    "36354649",
+    "36372277",
+    "36385050",
+    "36389955",
+    "36405980",
+    "36407891",
+    "36413474",
+    "36425514",
+    "36442678",
+    "36540987",
+    "36554626",
+    "36596206",
+    "36649071",
+    "36674954",
+    "36688308",
+    "36690732",
+    "36705197",
+    "36706061",
+    "36706368",
+    "36740972",
+    "36749213",
+    "36754916",
+    "36755267",
+    "36783731",
+    "36821110",
+    "36842187",
+    "36849492",
+    "36855419",
+    "36876765",
+    "36892918",
+    "36894271",
+    "37052731",
+    "37092295",
+    "37099735",
+    "37107418",
+    "37109486",
+    "37147907",
+    "37148861",
+    "37163952",
+    "37163968",
+    "37167803",
+    "37178284",
+    "37184157",
+    "37190701",
+    "37244085",
+    "37245997",
+    "37248551",
+    "37268053",
+    "37294028",
+    "37321147",
+    "37333889",
+    "37352053",
+    "37390158",
+    "37391063",
+    "37394355",
+    "37447321",
+    "37447346",
+    "37459260",
+    "37471398",
+    "37471413",
+    "37481676",
+    "37496517",
+    "37515238",
+    "37517922",
+    "37517933",
+    "37533992",
+    "37534742",
+    "37542871",
+    "37542887",
+    "37565825",
+    "37570030",
+    "37595185",
+    "37631532",
+    "37638083",
+    "37671724",
+    "37686070",
+    "37694916",
+    "37710983",
+    "37747355",
+    "37769163",
+    "37769265",
+    "37770740",
+    "37781015",
+    "37786849",
+    "37815851",
+    "37818339",
+    "37845371",
+    "37862596",
+    "37894192",
+    "37894207",
+    "37895310",
+    "37905088",
+    "37913365",
+    "37918416",
+    "37918442",
+    "37929985",
+    "37930012",
+    "37933991",
+    "37936535",
+    "37936539",
+    "37999935",
+    "38006989",
+    "38007008",
+    "38007015",
+    "38007025",
+    "38007028",
+    "38007568",
+    "38053374",
+    "38060934",
+    "38075290",
+    "38126631",
+    "38129089",
+    "38133048",
+    "38136115",
+    "38155044",
+    "38171214",
+    "38187891",
+    "38198843",
+    "38223764",
+    "38226090",
+    "38231698",
+    "38232295",
+    "38237259",
+    "38237765",
+    "38239385",
+    "38249470",
+    "38257914",
+    "38263039",
+    "38263135",
+    "38267282",
+    "38267317",
+    "38267334",
+    "38267341",
+    "38267493",
+    "38275446",
+    "38279586",
+    "38291077",
+    "38312699",
+    "38312949",
+    "38353558",
+    "38355111",
+    "38370980",
+    "38371406",
+    "38405342",
+    "38405356",
+    "38410193",
+    "38441011",
+    "38441792",
+    "38455786",
+    "38490894",
+    "38492186",
+    "38492504",
+    "38495787",
+    "38495998",
+    "38506365",
+    "38521980",
+    "38525083",
+    "38525088",
+    "38525098",
+    "38529917",
+    "38534015",
+    "38550814",
+    "38550822",
+    "38551704",
+    "38558256",
+    "38558263",
+    "38560647",
+    "38570982",
+    "38571008",
+    "38572409",
+    "38583480",
+    "38583502",
+    "38583517",
+    "38583538",
+    "38587171",
+    "38593868",
+    "38596528",
+    "38599202",
+    "38616444",
+    "38626084",
+    "38629924",
+    "38640270",
+    "38646376",
+    "38658135",
+    "38664006",
+    "38664836",
+    "38678987",
+    "38679628",
+    "38684997",
+    "38713981",
+    "38726410",
+    "38731524",
+    "38733713",
+    "38740837",
+    "38768737",
+    "38771422",
+    "38782017",
+    "38802133",
+    "38816443",
+    "38833622",
+    "38840312",
+    "38872961",
+    "38897712",
+    "38897873",
+    "38919377",
+    "38939360",
+    "38946474",
+    "38949147",
+    "38964427",
+    "38967675",
+    "38970000",
+    "39022033",
+    "39065479",
+    "39068693",
+    "39083188",
+    "39101410",
+    "39113919",
+    "39167407",
+    "39172258",
+    "39192455",
+    "39193763",
+    "39198589",
+    "39216008",
+    "39219640",
+    "39246436",
+    "39294205",
+    "39301349",
+    "39345383",
+    "39377238",
+    "39388941",
+    "39399201",
+    "39399220",
+    "39435368",
+    "39440798",
+    "39464959",
+    "39466338",
+    "39469118",
+    "39480105",
+    "39541510",
+    "39541536",
+    "39551667",
+    "39566669",
+    "39566722",
+    "39614700",
+    "39617545",
+    "39631715",
+    "39638836",
+    "39673426",
+    "39688561",
+    "39688644",
+    "39688660",
+    "39688675",
+    "39691350",
+    "39691406",
+    "39701796",
+    "39701811",
+    "39701963",
+    "39701984",
+    "39706007",
+    "39706503",
+    "39713531",
+    "39716556",
+    "39716561",
+    "39720232",
+    "39734085",
+    "39734145",
+    "39734160",
+    "39750577",
+    "39755633",
+    "39759177",
+    "39760194",
+    "39764714",
+    "39829819",
+    "39838549",
+    "39851140",
+    "39854103",
+    "39862530",
+    "39884072",
+    "39884089",
+    "39968844",
+    "39978819",
+    "40004171",
+    "40009802",
+    "40017530",
+    "40043219",
+    "40053836",
+    "40053879",
+    "40072505",
+    "40078861",
+    "40078880",
+    "40096598",
+    "40145875",
+    "40156460",
+    "40262116",
+    "40273283",
+    "40296120",
+    "40296138",
+    "40299287",
+    "40326249",
+    "40335971",
+    "40372738",
+    "40399152",
+    "40404229",
+    "40404347",
+    "40418546",
+    "40424520",
+    "40440384",
+    "40461460",
+    "40463599",
+    "40472069",
+    "40482789",
+    "40489064",
+    "40489203",
+    "40512843",
+    "40522055",
+    "40527866",
+    "40556188",
+    "40598116",
+    "40602916",
+    "40620225",
+    "40626362",
+    "40626919",
+    "40626941",
+    "40630389",
+    "40630575",
+    "40630590",
+    "40651011",
+    "40680100",
+    "40697273",
+    "40703666",
+    "40723507",
+    "40771431",
+    "40793798",
+    "40809172",
+    "40868674",
+    "40871221",
+    "40876629",
+    "40889485",
+    "40892277",
+    "40920345",
+    "40955962",
+    "40956969",
+    "40961945",
+    "40967027",
+    "40971897",
+    "40971900",
+    "40980960",
+    "40999139",
+    "41049236",
+    "41049259",
+    "41060458",
+    "41066762",
+    "41067273",
+    "41090976",
+    "41099007",
+    "41102244",
+    "41102276",
+    "41102377",
+    "41102448",
+    "41102491",
+    "41113065",
+    "41119781",
+    "41121632",
+    "41121721",
+    "41133666",
+    "41139369",
+    "41141313",
+    "41176417",
+    "41202100",
+    "41211892",
+    "41229493",
+    "41242168",
+    "41242183",
+    "41243728",
+    "41248622",
+    "41267219",
+    "41310219",
+    "41386534",
+    "41389244",
+    "41407632",
+    "41407637",
+    "41408719",
+    "41408790",
+    "41424297",
+    "41439661",
+    "41439675",
+    "41444988",
+    "41459595",
+    "41501426",
+    "41501439",
+    "41510561",
+    "41513565",
+    "41530375",
+    "41554267",
+    "41555389",
+    "41572675",
+    "41643345",
+    "41648873",
+    "41648912",
+    "41648941",
+    "41648951",
+    "41652782",
+    "41656508",
+    "41667499",
+    "41678198",
+    "41685622",
+    "41705747",
+    "41708714",
+    "41714176",
+    "41746542",
+    "41746641",
+    "41807676",
+    "41807713",
+    "41906208",
+    "41942791",
+    "41973025",
+    "42104279",
+    "42131510",
+    "42138067",
+    "42148293",
+    "42169995",
+    "42171433",
+    "42171808",
+    "42174771",
+    "42174929",
+    "42191338",
+    "42191919",
+    "42192023",
+    "42205559",
+    "42211071",
+    "42211102",
+    "42211132",
+    "42211137",
+    "42227871",
+    "42229903",
+    "42230522",
+    "42230532",
+    "42233639",
+    "42233644",
+    "42233649",
+    "42233652",
+    "42233659",
+    "42233673",
+    "42233680",
+    "42233718",
+    "42267179",
+    "42269433",
+    "42275805",
+    "42275813",
+    "42320837",
+    "42337234",
+    "42344305",
+    "42351505",
+    "42358983",
+    "42359174",
+    "42361313",
+    "42361328",
+    "42365056",
+    "42365068",
+    "42368561",
+    "42376868",
+    "42398841",
+    "42412100",
+    "42445718",
+    "42454500",
+    "42459060"
+  ],
   "stopped": false,
-  "quotaWaits": 12,
-  "nextRequestAt": "2026-11-11T00:00:03.000Z"
+  "quotaWaits": 16,
+  "nextRequestAt": null
 }

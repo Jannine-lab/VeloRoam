@@ -1,0 +1,20 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-14T06:51:00.510Z",
+  "tile": {
+    "z": 13,
+    "x": 6797,
+    "y": 3246
+  },
+  "segments": [
+    {
+      "id": "19836921",
+      "tileScore": 2,
+      "name": "临沭还有这么屌的自行车专用道？",
+      "distanceM": 5222.7001953125,
+      "avgGrade": -0.09190648794174194,
+      "startLat": 34.940284729003906,
+      "startLng": 118.70642852783203
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-14T07:10:05.064Z",
+  "tile": {
+    "z": 13,
+    "x": 6822,
+    "y": 3342
+  },
+  "segments": [
+    {
+      "id": "42303502",
+      "tileScore": 2,
+      "name": "红塔桥",
+      "distanceM": 1212.5999755859375,
+      "avgGrade": -0.23090879619121552,
+      "startLat": 31.39569091796875,
+      "startLng": 119.8045654296875
+    }
+  ]
+}

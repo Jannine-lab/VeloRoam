@@ -1,0 +1,38 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-14T07:06:41.303Z",
+  "tile": {
+    "z": 13,
+    "x": 6836,
+    "y": 3342
+  },
+  "segments": [
+    {
+      "id": "14061227",
+      "tileScore": 9,
+      "name": "S230 - G312 to Taihu Dadao",
+      "distanceM": 8838.900390625,
+      "avgGrade": -0.05430540069937706,
+      "startLat": 31.409561157226562,
+      "startLng": 120.44099426269531
+    },
+    {
+      "id": "17833428",
+      "tileScore": 3,
+      "name": "Wuxi to Suzhou G312",
+      "distanceM": 13550.2998046875,
+      "avgGrade": -0.0014759821351617575,
+      "startLat": 31.470468521118164,
+      "startLng": 120.39439392089844
+    },
+    {
+      "id": "14061215",
+      "tileScore": 3,
+      "name": "Yuting Road",
+      "distanceM": 2859.10009765625,
+      "avgGrade": -0.059459272772073746,
+      "startLat": 31.410871505737305,
+      "startLng": 120.40463256835938
+    }
+  ]
+}

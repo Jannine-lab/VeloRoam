@@ -1,0 +1,20 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-14T07:17:11.183Z",
+  "tile": {
+    "z": 13,
+    "x": 6833,
+    "y": 3356
+  },
+  "segments": [
+    {
+      "id": "39319647",
+      "tileScore": 25,
+      "name": "织里东互通连接线回程大逆风",
+      "distanceM": 5079,
+      "avgGrade": -0.007875566370785236,
+      "startLat": 30.929380416870117,
+      "startLng": 120.29115295410156
+    }
+  ]
+}

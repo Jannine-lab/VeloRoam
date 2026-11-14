@@ -1,0 +1,38 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-14T07:06:22.346Z",
+  "tile": {
+    "z": 13,
+    "x": 6833,
+    "y": 3342
+  },
+  "segments": [
+    {
+      "id": "36836607",
+      "tileScore": 28,
+      "name": "bingo",
+      "distanceM": 21878.69921875,
+      "avgGrade": -0.01828262209892273,
+      "startLat": 31.476436614990234,
+      "startLng": 120.25367736816406
+    },
+    {
+      "id": "40962801",
+      "tileScore": 49,
+      "name": "All the way along the lake (E-W)",
+      "distanceM": 19889.69921875,
+      "avgGrade": 0.0030166367068886757,
+      "startLat": 31.448610305786133,
+      "startLng": 120.40274047851562
+    },
+    {
+      "id": "13254956",
+      "tileScore": 27,
+      "name": "Taihu Dadi Eastbound",
+      "distanceM": 10347.7001953125,
+      "avgGrade": -0.005798390135169029,
+      "startLat": 31.40854835510254,
+      "startLng": 120.23377990722656
+    }
+  ]
+}

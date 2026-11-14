@@ -1,0 +1,20 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-14T07:12:29.380Z",
+  "tile": {
+    "z": 13,
+    "x": 6819,
+    "y": 3331
+  },
+  "segments": [
+    {
+      "id": "38276041",
+      "tileScore": 1,
+      "name": "导里线（W-E）",
+      "distanceM": 5372.7998046875,
+      "avgGrade": 0.018612269312143326,
+      "startLat": 31.816438674926758,
+      "startLng": 119.6385269165039
+    }
+  ]
+}

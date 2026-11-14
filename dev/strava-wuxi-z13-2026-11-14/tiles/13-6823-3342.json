@@ -1,0 +1,29 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-14T07:10:05.064Z",
+  "tile": {
+    "z": 13,
+    "x": 6823,
+    "y": 3342
+  },
+  "segments": [
+    {
+      "id": "36648703",
+      "tileScore": 37,
+      "name": "环大塍",
+      "distanceM": 9008.099609375,
+      "avgGrade": -0.013321343809366226,
+      "startLat": 31.412208557128906,
+      "startLng": 119.89064025878906
+    },
+    {
+      "id": "31855902",
+      "tileScore": 7,
+      "name": "芳桥-塘田大桥",
+      "distanceM": 7116,
+      "avgGrade": 0.05621135234832764,
+      "startLat": 31.431198120117188,
+      "startLng": 119.89576721191406
+    }
+  ]
+}

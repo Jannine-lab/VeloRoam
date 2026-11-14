@@ -1,0 +1,191 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-14T07:16:18.791Z",
+  "tile": {
+    "z": 13,
+    "x": 6850,
+    "y": 3349
+  },
+  "segments": [
+    {
+      "id": "40318658",
+      "tileScore": 4,
+      "name": "SHA: Dianshan Lake - Songze Rd (channel path), 21km",
+      "distanceM": 21030.5,
+      "avgGrade": -0.001901999581605196,
+      "startLat": 31.148513793945312,
+      "startLng": 120.99622344970703
+    },
+    {
+      "id": "12132871",
+      "tileScore": 151,
+      "name": "北岸繞圈",
+      "distanceM": 13610.599609375,
+      "avgGrade": -0.019102757796645164,
+      "startLat": 31.146255493164062,
+      "startLng": 121.0080337524414
+    },
+    {
+      "id": "35414010",
+      "tileScore": 20,
+      "name": "淀山湖大道冲刺！（漕盈-珠溪）",
+      "distanceM": 5145.2998046875,
+      "avgGrade": 0.0038870424032211304,
+      "startLat": 31.143390655517578,
+      "startLng": 121.08831024169922
+    },
+    {
+      "id": "40571749",
+      "tileScore": 2,
+      "name": "绿道泥路",
+      "distanceM": 1161.300048828125,
+      "avgGrade": -0.15499871969223022,
+      "startLat": 31.13886070251465,
+      "startLng": 121.03888702392578
+    },
+    {
+      "id": "40366717",
+      "tileScore": 3,
+      "name": "同周公路→淀山湖",
+      "distanceM": 26875.900390625,
+      "avgGrade": 0.008929933421313763,
+      "startLat": 31.156139373779297,
+      "startLng": 120.87418365478516
+    },
+    {
+      "id": "38897849",
+      "tileScore": 1,
+      "name": "公制世纪 - KOM",
+      "distanceM": 101772.296875,
+      "avgGrade": -0.0031442742329090834,
+      "startLat": 31.17006492614746,
+      "startLng": 121.2751235961914
+    },
+    {
+      "id": "27310786",
+      "tileScore": 49,
+      "name": "Shanghai Tour de France 上海环法 - Mont-Saint-Michel-Roscoff",
+      "distanceM": 4010.5,
+      "avgGrade": -0.05236254632472992,
+      "startLat": 31.131629943847656,
+      "startLng": 121.05794525146484
+    },
+    {
+      "id": "27310765",
+      "tileScore": 52,
+      "name": "Shanghai Tour de France 上海环法 - Carteret-Avranches",
+      "distanceM": 2195.699951171875,
+      "avgGrade": 0.0091087119653821,
+      "startLat": 31.15022850036621,
+      "startLng": 121.05760955810547
+    },
+    {
+      "id": "36938079",
+      "tileScore": 27,
+      "name": "盈朱路 北岸方向",
+      "distanceM": 4668,
+      "avgGrade": 0.02570694126188755,
+      "startLat": 31.1521053314209,
+      "startLng": 121.07681274414062
+    },
+    {
+      "id": "27327757",
+      "tileScore": 7,
+      "name": "Shanghai Tour de France 上海环法 - Full Tour (100km)",
+      "distanceM": 100065.796875,
+      "avgGrade": 0.002498356159776449,
+      "startLat": 31.153793334960938,
+      "startLng": 121.20298767089844
+    },
+    {
+      "id": "40489185",
+      "tileScore": 5,
+      "name": "朱昆河桥-返程",
+      "distanceM": 656.2000122070312,
+      "avgGrade": 0.7772020697593689,
+      "startLat": 31.13421058654785,
+      "startLng": 121.04724884033203
+    },
+    {
+      "id": "37724746",
+      "tileScore": 8,
+      "name": "青浦快运",
+      "distanceM": 66769.3984375,
+      "avgGrade": -0.013179689645767212,
+      "startLat": 31.176237106323242,
+      "startLng": 121.27295684814453
+    },
+    {
+      "id": "40589827",
+      "tileScore": 5,
+      "name": "大天鹅庄园🦢绿道",
+      "distanceM": 3696.5,
+      "avgGrade": -0.08386310935020447,
+      "startLat": 31.13534927368164,
+      "startLng": 121.05638885498047
+    },
+    {
+      "id": "32144065",
+      "tileScore": 22,
+      "name": "五浦汇 一号桥",
+      "distanceM": 506.3999938964844,
+      "avgGrade": 0.789889395236969,
+      "startLat": 31.137649536132812,
+      "startLng": 121.06893920898438
+    },
+    {
+      "id": "38551336",
+      "tileScore": 63,
+      "name": "14KM北岸绕圈-冲刺火车启动",
+      "distanceM": 1303.0999755859375,
+      "avgGrade": 0.0767400860786438,
+      "startLat": 31.148109436035156,
+      "startLng": 121.02670288085938
+    },
+    {
+      "id": "39710945",
+      "tileScore": 47,
+      "name": "北岸绕圈-曙光路",
+      "distanceM": 1470,
+      "avgGrade": 0,
+      "startLat": 31.1612606048584,
+      "startLng": 121.02696990966797
+    },
+    {
+      "id": "42155611",
+      "tileScore": 21,
+      "name": "淀山湖大环加太浦河95km",
+      "distanceM": 98464.203125,
+      "avgGrade": 0.00020311950356699526,
+      "startLat": 31.100807189941406,
+      "startLng": 121.01215362548828
+    },
+    {
+      "id": "28899205",
+      "tileScore": 50,
+      "name": "Yinghu Straight",
+      "distanceM": 3569.39990234375,
+      "avgGrade": 0.02801591157913208,
+      "startLat": 31.162336349487305,
+      "startLng": 120.9891128540039
+    },
+    {
+      "id": "37422806",
+      "tileScore": 24,
+      "name": "五浦汇绕圈X5【2号桥起点】",
+      "distanceM": 13733.5,
+      "avgGrade": 0,
+      "startLat": 31.141189575195312,
+      "startLng": 121.07335662841797
+    },
+    {
+      "id": "10653973",
+      "tileScore": 16,
+      "name": "Connecting Rd #2 (Southbound)",
+      "distanceM": 2567.199951171875,
+      "avgGrade": -0.015581177547574043,
+      "startLat": 31.140033721923828,
+      "startLng": 121.02726745605469
+    }
+  ]
+}

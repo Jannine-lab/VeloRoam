@@ -1,0 +1,20 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-14T06:21:56.281Z",
+  "tile": {
+    "z": 13,
+    "x": 6759,
+    "y": 3266
+  },
+  "segments": [
+    {
+      "id": "39344491",
+      "tileScore": 4,
+      "name": "汉王小镇—淮北",
+      "distanceM": 4882.10009765625,
+      "avgGrade": -0.03686937689781189,
+      "startLat": 34.209781646728516,
+      "startLng": 117.08151245117188
+    }
+  ]
+}

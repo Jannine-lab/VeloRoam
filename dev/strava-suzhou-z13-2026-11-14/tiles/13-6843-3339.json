@@ -1,0 +1,29 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-14T07:25:20.661Z",
+  "tile": {
+    "z": 13,
+    "x": 6843,
+    "y": 3339
+  },
+  "segments": [
+    {
+      "id": "11466756",
+      "tileScore": 4,
+      "name": "Country road from YCH to X202",
+      "distanceM": 3234.199951171875,
+      "avgGrade": 0.055655185133218765,
+      "startLat": 31.498645782470703,
+      "startLng": 120.75780487060547
+    },
+    {
+      "id": "10284227",
+      "tileScore": 1,
+      "name": "X204 (Southbound)",
+      "distanceM": 5129.5,
+      "avgGrade": 0.02144458517432213,
+      "startLat": 31.559480667114258,
+      "startLng": 120.76502227783203
+    }
+  ]
+}

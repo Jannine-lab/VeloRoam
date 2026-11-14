@@ -1,0 +1,20 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-14T07:00:11.303Z",
+  "tile": {
+    "z": 13,
+    "x": 6821,
+    "y": 3326
+  },
+  "segments": [
+    {
+      "id": "34525172",
+      "tileScore": 2,
+      "name": "丹东路 N-S（G346-访仙中路）",
+      "distanceM": 5192.7001953125,
+      "avgGrade": 0.01925780437886715,
+      "startLat": 32.039710998535156,
+      "startLng": 119.78251647949219
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-14T07:15:08.832Z",
+  "tile": {
+    "z": 13,
+    "x": 6845,
+    "y": 3347
+  },
+  "segments": [
+    {
+      "id": "32737264",
+      "tileScore": 4,
+      "name": "Lakeside from underpass to crossroads.",
+      "distanceM": 2394.300048828125,
+      "avgGrade": 0.15035709738731384,
+      "startLat": 31.20564079284668,
+      "startLng": 120.84504699707031
+    },
+    {
+      "id": "14107776",
+      "tileScore": 4,
+      "name": "Chenghu Shoreline Rd (Southbound)",
+      "distanceM": 5559.10009765625,
+      "avgGrade": 0.0035977044608443975,
+      "startLat": 31.209861755371094,
+      "startLng": 120.87651824951172
+    },
+    {
+      "id": "40405020",
+      "tileScore": 9,
+      "name": "澄湖训练",
+      "distanceM": 15113,
+      "avgGrade": -0.007940184324979782,
+      "startLat": 31.244274139404297,
+      "startLng": 120.86615753173828
+    }
+  ]
+}

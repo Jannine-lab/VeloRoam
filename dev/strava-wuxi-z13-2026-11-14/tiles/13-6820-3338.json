@@ -1,0 +1,20 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-14T07:11:05.872Z",
+  "tile": {
+    "z": 13,
+    "x": 6820,
+    "y": 3338
+  },
+  "segments": [
+    {
+      "id": "37043683",
+      "tileScore": 3,
+      "name": "Temp ge lake other way",
+      "distanceM": 1970,
+      "avgGrade": 0.10659898072481155,
+      "startLat": 31.565937042236328,
+      "startLng": 119.74297332763672
+    }
+  ]
+}

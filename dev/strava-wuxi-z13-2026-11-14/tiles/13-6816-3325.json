@@ -1,0 +1,38 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-14T07:13:32.568Z",
+  "tile": {
+    "z": 13,
+    "x": 6816,
+    "y": 3325
+  },
+  "segments": [
+    {
+      "id": "33542796",
+      "tileScore": 8,
+      "name": "G312 N-S（丹西路-北二环）",
+      "distanceM": 4964.39990234375,
+      "avgGrade": 0.05035855621099472,
+      "startLat": 32.05405044555664,
+      "startLng": 119.51956176757812
+    },
+    {
+      "id": "12773560",
+      "tileScore": 22,
+      "name": "Empty The Tank",
+      "distanceM": 3233.800048828125,
+      "avgGrade": 0.05566206946969032,
+      "startLat": 32.05782699584961,
+      "startLng": 119.52598571777344
+    },
+    {
+      "id": "37464219",
+      "tileScore": 1,
+      "name": "山路",
+      "distanceM": 3548.699951171875,
+      "avgGrade": -0.002817933214828372,
+      "startLat": 32.028350830078125,
+      "startLng": 119.55322265625
+    }
+  ]
+}

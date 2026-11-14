@@ -1,0 +1,20 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-14T06:37:59.742Z",
+  "tile": {
+    "z": 13,
+    "x": 6780,
+    "y": 3273
+  },
+  "segments": [
+    {
+      "id": "36893132",
+      "tileScore": 4,
+      "name": "睢宁第一赛段",
+      "distanceM": 3068,
+      "avgGrade": 0.07822685688734055,
+      "startLat": 33.93043899536133,
+      "startLng": 117.95317840576172
+    }
+  ]
+}

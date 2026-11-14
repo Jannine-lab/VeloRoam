@@ -1,0 +1,20 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-14T06:35:45.524Z",
+  "tile": {
+    "z": 13,
+    "x": 6753,
+    "y": 3274
+  },
+  "segments": [
+    {
+      "id": "37874187",
+      "tileScore": 2,
+      "name": "创新大道东向西",
+      "distanceM": 5970.5,
+      "avgGrade": -0.06699606031179428,
+      "startLat": 33.92091751098633,
+      "startLng": 116.86043548583984
+    }
+  ]
+}

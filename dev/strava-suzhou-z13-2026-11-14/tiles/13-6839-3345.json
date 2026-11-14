@@ -1,0 +1,74 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-14T07:07:37.998Z",
+  "tile": {
+    "z": 13,
+    "x": 6839,
+    "y": 3345
+  },
+  "segments": [
+    {
+      "id": "40604802",
+      "tileScore": 1,
+      "name": "运河路",
+      "distanceM": 3641.5,
+      "avgGrade": -0.035699572414159775,
+      "startLat": 31.273954391479492,
+      "startLng": 120.58145141601562
+    },
+    {
+      "id": "34862409",
+      "tileScore": 1,
+      "name": "出车啦~",
+      "distanceM": 660.5999755859375,
+      "avgGrade": 0.09082652628421783,
+      "startLat": 31.31446075439453,
+      "startLng": 120.57862854003906
+    },
+    {
+      "id": "8483085",
+      "tileScore": 3,
+      "name": "Shishan road bridge Westbound",
+      "distanceM": 971,
+      "avgGrade": -0.26776519417762756,
+      "startLat": 31.298625946044922,
+      "startLng": 120.57418060302734
+    },
+    {
+      "id": "22762019",
+      "tileScore": 2,
+      "name": "Ganjiang Rd (Westbound)",
+      "distanceM": 6903.89990234375,
+      "avgGrade": -0.011587653309106827,
+      "startLat": 31.3143367767334,
+      "startLng": 120.64512634277344
+    },
+    {
+      "id": "17949559",
+      "tileScore": 1,
+      "name": "zaoshi Street along Xujiang eastbound",
+      "distanceM": 352.6000061035156,
+      "avgGrade": -0.7941009402275085,
+      "startLat": 31.284143447875977,
+      "startLng": 120.58373260498047
+    },
+    {
+      "id": "5280150",
+      "tileScore": 5,
+      "name": "Canal Hopping",
+      "distanceM": 6478.2001953125,
+      "avgGrade": 0.1559075117111206,
+      "startLat": 31.284637451171875,
+      "startLng": 120.5652084350586
+    },
+    {
+      "id": "10216613",
+      "tileScore": 4,
+      "name": "Ludong Rd x Grand Canal Bridge (Westbound)",
+      "distanceM": 380.6000061035156,
+      "avgGrade": 0.28901731967926025,
+      "startLat": 31.2866153717041,
+      "startLng": 120.5777587890625
+    }
+  ]
+}

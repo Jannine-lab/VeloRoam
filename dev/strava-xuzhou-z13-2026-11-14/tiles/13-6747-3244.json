@@ -1,0 +1,20 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-14T06:47:43.846Z",
+  "tile": {
+    "z": 13,
+    "x": 6747,
+    "y": 3244
+  },
+  "segments": [
+    {
+      "id": "39752044",
+      "tileScore": 1,
+      "name": "旧城桥至龙虾广场赛段",
+      "distanceM": 11545,
+      "avgGrade": -0.008661758154630661,
+      "startLat": 34.99980926513672,
+      "startLng": 116.54290771484375
+    }
+  ]
+}

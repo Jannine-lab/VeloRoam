@@ -1,0 +1,101 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-14T07:08:16.960Z",
+  "tile": {
+    "z": 13,
+    "x": 6838,
+    "y": 3347
+  },
+  "segments": [
+    {
+      "id": "24451871",
+      "tileScore": 5,
+      "name": "Mudong Gonglu (Northbound)",
+      "distanceM": 3054.5,
+      "avgGrade": -0.052381731569767,
+      "startLat": 31.19797134399414,
+      "startLng": 120.52227020263672
+    },
+    {
+      "id": "17515255",
+      "tileScore": 87,
+      "name": "Wangshan Climb till Y-cross (Northbound)",
+      "distanceM": 2208.60009765625,
+      "avgGrade": 6.98179817199707,
+      "startLat": 31.206254959106445,
+      "startLng": 120.52210235595703
+    },
+    {
+      "id": "17515220",
+      "tileScore": 8,
+      "name": "Florent's Refreshment Climb",
+      "distanceM": 874.5,
+      "avgGrade": 7.867352485656738,
+      "startLat": 31.23684310913086,
+      "startLng": 120.53926086425781
+    },
+    {
+      "id": "20535844",
+      "tileScore": 1,
+      "name": "宝袋西路",
+      "distanceM": 13334.7001953125,
+      "avgGrade": -0.014998462982475758,
+      "startLat": 31.2228946685791,
+      "startLng": 120.48023986816406
+    },
+    {
+      "id": "4386973",
+      "tileScore": 2,
+      "name": "short uphill segment",
+      "distanceM": 454.3999938964844,
+      "avgGrade": 5.435739517211914,
+      "startLat": 31.204357147216797,
+      "startLng": 120.54473876953125
+    },
+    {
+      "id": "17515268",
+      "tileScore": 23,
+      "name": "The 10 Hairpins",
+      "distanceM": 442.8999938964844,
+      "avgGrade": 10.340934753417969,
+      "startLat": 31.216896057128906,
+      "startLng": 120.53243255615234
+    },
+    {
+      "id": "17514988",
+      "tileScore": 29,
+      "name": "full Wangshan Climb (Northbound)",
+      "distanceM": 5441.89990234375,
+      "avgGrade": 4.395523548126221,
+      "startLat": 31.206302642822266,
+      "startLng": 120.52206420898438
+    },
+    {
+      "id": "35198226",
+      "tileScore": 9,
+      "name": "大平台到岔路口",
+      "distanceM": 1189.300048828125,
+      "avgGrade": 0.8912805318832397,
+      "startLat": 31.206043243408203,
+      "startLng": 120.5361328125
+    },
+    {
+      "id": "4295209",
+      "tileScore": 12,
+      "name": "Zhujiang South Road Climb",
+      "distanceM": 1043.800048828125,
+      "avgGrade": 7.951714992523193,
+      "startLat": 31.225601196289062,
+      "startLng": 120.53716278076172
+    },
+    {
+      "id": "15923914",
+      "tileScore": 18,
+      "name": "Mountain Goat Climb",
+      "distanceM": 698.5999755859375,
+      "avgGrade": 8.302318572998047,
+      "startLat": 31.216411590576172,
+      "startLng": 120.53231811523438
+    }
+  ]
+}

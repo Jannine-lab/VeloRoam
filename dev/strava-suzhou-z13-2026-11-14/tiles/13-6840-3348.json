@@ -1,0 +1,101 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-14T07:10:11.238Z",
+  "tile": {
+    "z": 13,
+    "x": 6840,
+    "y": 3348
+  },
+  "segments": [
+    {
+      "id": "25858567",
+      "tileScore": 16,
+      "name": "S230 x Pangjia Pond Bridge (Southbound)",
+      "distanceM": 3034.89990234375,
+      "avgGrade": 0.08567003905773163,
+      "startLat": 31.186840057373047,
+      "startLng": 120.60652923583984
+    },
+    {
+      "id": "33207310",
+      "tileScore": 2,
+      "name": "天鹅岛滨湖大道",
+      "distanceM": 1460.699951171875,
+      "avgGrade": -0.013692066073417664,
+      "startLat": 31.174070358276367,
+      "startLng": 120.58042907714844
+    },
+    {
+      "id": "40564534",
+      "tileScore": 34,
+      "name": "环太湖",
+      "distanceM": 151856.5,
+      "avgGrade": 0.0009219230269081891,
+      "startLat": 31.187686920166016,
+      "startLng": 120.47770690917969
+    },
+    {
+      "id": "40165993",
+      "tileScore": 21,
+      "name": "万公堤（Southbound）",
+      "distanceM": 2694.60009765625,
+      "avgGrade": 0.04453350976109505,
+      "startLat": 31.17934226989746,
+      "startLng": 120.6209487915039
+    },
+    {
+      "id": "40933945",
+      "tileScore": 19,
+      "name": "松陵大桥（西-东）",
+      "distanceM": 845.0999755859375,
+      "avgGrade": 0.023665837943553925,
+      "startLat": 31.18255615234375,
+      "startLng": 120.61221313476562
+    },
+    {
+      "id": "16357924",
+      "tileScore": 11,
+      "name": "East Taihu Lake-Pangjiatang Circle (clockwise)",
+      "distanceM": 11355.7998046875,
+      "avgGrade": 0.01937336102128029,
+      "startLat": 31.184101104736328,
+      "startLng": 120.61280822753906
+    },
+    {
+      "id": "26611499",
+      "tileScore": 7,
+      "name": "Taihu 300km extension",
+      "distanceM": 37416.69921875,
+      "avgGrade": -0.014432058669626713,
+      "startLat": 31.227924346923828,
+      "startLng": 120.44613647460938
+    },
+    {
+      "id": "30384821",
+      "tileScore": 2,
+      "name": "THL-4",
+      "distanceM": 116824.5,
+      "avgGrade": -0.0025679543614387512,
+      "startLat": 31.206161499023438,
+      "startLng": 121.28252410888672
+    },
+    {
+      "id": "25518542",
+      "tileScore": 7,
+      "name": "passing Stone Lake (Northbound)",
+      "distanceM": 8369.7001953125,
+      "avgGrade": 0.09558287262916565,
+      "startLat": 31.187639236450195,
+      "startLng": 120.60665130615234
+    },
+    {
+      "id": "41323403",
+      "tileScore": 9,
+      "name": "苏州湾好路",
+      "distanceM": 1706.300048828125,
+      "avgGrade": -0.01172126829624176,
+      "startLat": 31.203060150146484,
+      "startLng": 120.60899353027344
+    }
+  ]
+}

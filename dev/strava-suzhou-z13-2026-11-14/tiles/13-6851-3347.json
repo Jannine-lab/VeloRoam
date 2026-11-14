@@ -1,0 +1,29 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-14T07:16:52.570Z",
+  "tile": {
+    "z": 13,
+    "x": 6851,
+    "y": 3347
+  },
+  "segments": [
+    {
+      "id": "40723380",
+      "tileScore": 6,
+      "name": "Xinsheng Rd (Baishi Hwy -> Huchang Expy)",
+      "distanceM": 3515.39990234375,
+      "avgGrade": 0.19343461096286774,
+      "startLat": 31.25838851928711,
+      "startLng": 121.09618377685547
+    },
+    {
+      "id": "40357429",
+      "tileScore": 7,
+      "name": "青赵公路（白石公路-北青公路路口）",
+      "distanceM": 7421.2001953125,
+      "avgGrade": -0.006737454328685999,
+      "startLat": 31.245920181274414,
+      "startLng": 121.08159637451172
+    }
+  ]
+}

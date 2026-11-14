@@ -1,0 +1,29 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-14T07:10:20.891Z",
+  "tile": {
+    "z": 13,
+    "x": 6826,
+    "y": 3330
+  },
+  "segments": [
+    {
+      "id": "20790712",
+      "tileScore": 3,
+      "name": "Tong Jiang Lu",
+      "distanceM": 4942.2001953125,
+      "avgGrade": -0.01214034203439951,
+      "startLat": 31.830806732177734,
+      "startLng": 119.97349548339844
+    },
+    {
+      "id": "33355101",
+      "tileScore": 4,
+      "name": "通江路回",
+      "distanceM": 4342.60009765625,
+      "avgGrade": 0.004605535883456469,
+      "startLat": 31.903467178344727,
+      "startLng": 119.98882293701172
+    }
+  ]
+}

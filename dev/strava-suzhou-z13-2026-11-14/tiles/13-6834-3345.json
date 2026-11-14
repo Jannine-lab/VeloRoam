@@ -1,0 +1,128 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-14T07:06:50.876Z",
+  "tile": {
+    "z": 13,
+    "x": 6834,
+    "y": 3345
+  },
+  "segments": [
+    {
+      "id": "37138144",
+      "tileScore": 5,
+      "name": "Tongjinshan(铁门后坡段）",
+      "distanceM": 893.2999877929688,
+      "avgGrade": -8.082391738891602,
+      "startLat": 31.287492752075195,
+      "startLng": 120.35494995117188
+    },
+    {
+      "id": "34272769",
+      "tileScore": 3,
+      "name": "安山 gravel section",
+      "distanceM": 1864.199951171875,
+      "avgGrade": 0.010728462599217892,
+      "startLat": 31.30815887451172,
+      "startLng": 120.3434066772461
+    },
+    {
+      "id": "13678647",
+      "tileScore": 10,
+      "name": "Jianshangcun New tarmac climb",
+      "distanceM": 3953.89990234375,
+      "avgGrade": 4.941956043243408,
+      "startLat": 31.290504455566406,
+      "startLng": 120.36280822753906
+    },
+    {
+      "id": "24743414",
+      "tileScore": 23,
+      "name": "潭山那根杠子到Y字路口",
+      "distanceM": 1172.0999755859375,
+      "avgGrade": 9.930892944335938,
+      "startLat": 31.279455184936523,
+      "startLng": 120.36174011230469
+    },
+    {
+      "id": "15122554",
+      "tileScore": 14,
+      "name": "First part of climb until Y-intersection (Northbound)",
+      "distanceM": 1086.4000244140625,
+      "avgGrade": 7.400589466094971,
+      "startLat": 31.277374267578125,
+      "startLng": 120.34632110595703
+    },
+    {
+      "id": "3485675",
+      "tileScore": 4,
+      "name": "intermediate \"hill\"",
+      "distanceM": 3630.28125,
+      "avgGrade": 0.06611023843288422,
+      "startLat": 31.276472091674805,
+      "startLng": 120.33692169189453
+    },
+    {
+      "id": "36314617",
+      "tileScore": 34,
+      "name": "欢迎进入高新区",
+      "distanceM": 2121.39990234375,
+      "avgGrade": 0.02828321047127247,
+      "startLat": 31.31039810180664,
+      "startLng": 120.34380340576172
+    },
+    {
+      "id": "14426244",
+      "tileScore": 35,
+      "name": "The Wall of Tiles",
+      "distanceM": 989.2999877929688,
+      "avgGrade": 14.171636581420898,
+      "startLat": 31.282350540161133,
+      "startLng": 120.34535217285156
+    },
+    {
+      "id": "24822796",
+      "tileScore": 80,
+      "name": "苏州环太湖大道（疗养院-小卖部）",
+      "distanceM": 15557.099609375,
+      "avgGrade": -0.039853185415267944,
+      "startLat": 31.31816291809082,
+      "startLng": 120.32451629638672
+    },
+    {
+      "id": "25797961",
+      "tileScore": 19,
+      "name": "Wetland Southbound ",
+      "distanceM": 2163.39990234375,
+      "avgGrade": 0.13404826819896698,
+      "startLat": 31.32724952697754,
+      "startLng": 120.34314727783203
+    },
+    {
+      "id": "16563441",
+      "tileScore": 14,
+      "name": "Hill climb race",
+      "distanceM": 1380.800048828125,
+      "avgGrade": 8.538528442382812,
+      "startLat": 31.2907657623291,
+      "startLng": 120.36277770996094
+    },
+    {
+      "id": "14061086",
+      "tileScore": 26,
+      "name": "Yaoshangcun Taihu side",
+      "distanceM": 5056.89990234375,
+      "avgGrade": 0.05141489580273628,
+      "startLat": 31.27613067626953,
+      "startLng": 120.337646484375
+    },
+    {
+      "id": "21864305",
+      "tileScore": 37,
+      "name": "Taihu Coastline G312-Dongshan (70K)",
+      "distanceM": 69272.3984375,
+      "avgGrade": 0.0020210070069879293,
+      "startLat": 31.449859619140625,
+      "startLng": 120.41646575927734
+    }
+  ]
+}

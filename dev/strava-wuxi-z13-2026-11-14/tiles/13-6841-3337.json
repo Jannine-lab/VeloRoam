@@ -1,0 +1,29 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-14T07:07:49.657Z",
+  "tile": {
+    "z": 13,
+    "x": 6841,
+    "y": 3337
+  },
+  "segments": [
+    {
+      "id": "40397970",
+      "tileScore": 49,
+      "name": "南湖湿地单圈",
+      "distanceM": 8274.400390625,
+      "avgGrade": 0,
+      "startLat": 31.601764678955078,
+      "startLng": 120.63528442382812
+    },
+    {
+      "id": "38198641",
+      "tileScore": 4,
+      "name": "练塘大道W-E",
+      "distanceM": 2754.5,
+      "avgGrade": -0.050825923681259155,
+      "startLat": 31.615039825439453,
+      "startLng": 120.6426773071289
+    }
+  ]
+}

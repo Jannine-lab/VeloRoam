@@ -1,0 +1,254 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-14T07:21:11.237Z",
+  "tile": {
+    "z": 13,
+    "x": 6858,
+    "y": 3347
+  },
+  "segments": [
+    {
+      "id": "7442905",
+      "tileScore": 32,
+      "name": "Kaixuan Rd x Wusong River Bridge (Southbound)",
+      "distanceM": 704.7000122070312,
+      "avgGrade": -0.07095217704772949,
+      "startLat": 31.2278995513916,
+      "startLng": 121.40760040283203
+    },
+    {
+      "id": "8666691",
+      "tileScore": 104,
+      "name": "Caoyang Rd Bridge (Southbound)",
+      "distanceM": 500.29998779296875,
+      "avgGrade": 0,
+      "startLat": 31.232345581054688,
+      "startLng": 121.41827392578125
+    },
+    {
+      "id": "35189269",
+      "tileScore": 4,
+      "name": "In the Shade of the Sycamore Tree",
+      "distanceM": 892,
+      "avgGrade": 0.08968609571456909,
+      "startLat": 31.20769691467285,
+      "startLng": 121.38600158691406
+    },
+    {
+      "id": "6983168",
+      "tileScore": 4,
+      "name": "ZunYi Sprint",
+      "distanceM": 1373.800048828125,
+      "avgGrade": 0.3712330758571625,
+      "startLat": 31.207530975341797,
+      "startLng": 121.40161895751953
+    },
+    {
+      "id": "10541863",
+      "tileScore": 3,
+      "name": "40 km Shanghaï Loop",
+      "distanceM": 38644.5,
+      "avgGrade": 0.0015526142669841647,
+      "startLat": 31.193662643432617,
+      "startLng": 121.46837615966797
+    },
+    {
+      "id": "35535024",
+      "tileScore": 1,
+      "name": "#五点出车咖啡骑part2",
+      "distanceM": 8129.89990234375,
+      "avgGrade": -0.05412121117115021,
+      "startLat": 31.243080139160156,
+      "startLng": 121.47175598144531
+    },
+    {
+      "id": "14398281",
+      "tileScore": 52,
+      "name": "W. Guangfu Rd. (Baiyu Rd. ~ N0.555) S",
+      "distanceM": 1691.300048828125,
+      "avgGrade": 0.011825223453342915,
+      "startLat": 31.228574752807617,
+      "startLng": 121.41695404052734
+    },
+    {
+      "id": "21606801",
+      "tileScore": 35,
+      "name": "Kaixuan N Southbound Ningxia to Guangfu W",
+      "distanceM": 973.7999877929688,
+      "avgGrade": 0.06161429360508919,
+      "startLat": 31.233226776123047,
+      "startLng": 121.40921020507812
+    },
+    {
+      "id": "39537949",
+      "tileScore": 22,
+      "name": "Daduhe RD 偷老师开始筛选！",
+      "distanceM": 3138,
+      "avgGrade": -0.05098789185285568,
+      "startLat": 31.23384666442871,
+      "startLng": 121.39163208007812
+    },
+    {
+      "id": "30082420",
+      "tileScore": 3,
+      "name": "TT-03",
+      "distanceM": 7024.2001953125,
+      "avgGrade": -0.005694598890841007,
+      "startLat": 31.211637496948242,
+      "startLng": 121.39579772949219
+    },
+    {
+      "id": "28920458",
+      "tileScore": 3,
+      "name": "Inner Ring Northern Hemisphere",
+      "distanceM": 14540.599609375,
+      "avgGrade": 0.001375459018163383,
+      "startLat": 31.212167739868164,
+      "startLng": 121.40843963623047
+    },
+    {
+      "id": "8343284",
+      "tileScore": 40,
+      "name": "Zhongshan Xi Lu - Wusong River Bridge (southbound)",
+      "distanceM": 1219,
+      "avgGrade": 0.5250205397605896,
+      "startLat": 31.230396270751953,
+      "startLng": 121.4052963256836
+    },
+    {
+      "id": "8541137",
+      "tileScore": 10,
+      "name": "Zhongshan West Rd (from wuzhong rd X to changning rd X)",
+      "distanceM": 3029.5,
+      "avgGrade": -0.05281399190425873,
+      "startLat": 31.197885513305664,
+      "startLng": 121.41188049316406
+    },
+    {
+      "id": "34863100",
+      "tileScore": 180,
+      "name": "光复西路highspeed",
+      "distanceM": 3196,
+      "avgGrade": -0.03754693269729614,
+      "startLat": 31.22878074645996,
+      "startLng": 121.3620834350586
+    },
+    {
+      "id": "13038655",
+      "tileScore": 3,
+      "name": "Wuning Lu eastbound (Daduhe Lu to Ningxia Lu)",
+      "distanceM": 2848.10009765625,
+      "avgGrade": -0.03160001337528229,
+      "startLat": 31.246475219726562,
+      "startLng": 121.39309692382812
+    },
+    {
+      "id": "37558021",
+      "tileScore": 1,
+      "name": "医生与电瓶车的故事",
+      "distanceM": 16616.19921875,
+      "avgGrade": 0.01624920219182968,
+      "startLat": 31.214859008789062,
+      "startLng": 121.3038101196289
+    },
+    {
+      "id": "34540363",
+      "tileScore": 91,
+      "name": "Bee's 3km Bridge Buster",
+      "distanceM": 3129.10009765625,
+      "avgGrade": -0.07030776143074036,
+      "startLat": 31.223068237304688,
+      "startLng": 121.37494659423828
+    },
+    {
+      "id": "15317318",
+      "tileScore": 81,
+      "name": "Guangfu Rd. (W2E) Daduhe Rd. to Kaixuan Rd.",
+      "distanceM": 809.7999877929688,
+      "avgGrade": -0.12348728626966476,
+      "startLat": 31.22292137145996,
+      "startLng": 121.40033721923828
+    },
+    {
+      "id": "15548389",
+      "tileScore": 52,
+      "name": "Xuhui Pass",
+      "distanceM": 545.5999755859375,
+      "avgGrade": -0.10997067391872406,
+      "startLat": 31.22256088256836,
+      "startLng": 121.3813247680664
+    },
+    {
+      "id": "6744365",
+      "tileScore": 4,
+      "name": "Tianshan Rd (Eastbound)",
+      "distanceM": 3723.5,
+      "avgGrade": -0.016113871708512306,
+      "startLat": 31.217998504638672,
+      "startLng": 121.37232208251953
+    },
+    {
+      "id": "15230320",
+      "tileScore": 14,
+      "name": "Release the fucking fury",
+      "distanceM": 617.0999755859375,
+      "avgGrade": -1.7825311422348022,
+      "startLat": 31.21965980529785,
+      "startLng": 121.39444732666016
+    },
+    {
+      "id": "36111952",
+      "tileScore": 106,
+      "name": "2023 HH Airport Loop",
+      "distanceM": 32885.30078125,
+      "avgGrade": -0.007298094220459461,
+      "startLat": 31.197797775268555,
+      "startLng": 121.41617584228516
+    },
+    {
+      "id": "35616846",
+      "tileScore": 7,
+      "name": "danbalu",
+      "distanceM": 729.2000122070312,
+      "avgGrade": -0.1371365785598755,
+      "startLat": 31.226152420043945,
+      "startLng": 121.37675476074219
+    },
+    {
+      "id": "5654531",
+      "tileScore": 2,
+      "name": "Yan'an Warm-up",
+      "distanceM": 8362.2001953125,
+      "avgGrade": -0.05979287624359131,
+      "startLat": 31.225984573364258,
+      "startLng": 121.45022583007812
+    },
+    {
+      "id": "14689575",
+      "tileScore": 1,
+      "name": "Inner Ring Road East to Inner Ring Road West (Zhoujiazui/Haining/Tianmu/Changshou/Changning)",
+      "distanceM": 13932.7998046875,
+      "avgGrade": 0.07607946544885635,
+      "startLat": 31.276411056518555,
+      "startLng": 121.52288055419922
+    },
+    {
+      "id": "14970673",
+      "tileScore": 6,
+      "name": "Gubei CN to HQ",
+      "distanceM": 1857.699951171875,
+      "avgGrade": 0.06459600478410721,
+      "startLat": 31.219331741333008,
+      "startLng": 121.39413452148438
+    },
+    {
+      "id": "41637235",
+      "tileScore": 11,
+      "name": "诺诺晨骑要迟到了",
+      "distanceM": 9136.900390625,
+      "avgGrade": 0.04158959910273552,
+      "startLat": 31.270627975463867,
+      "startLng": 121.4056396484375
+    }
+  ]
+}

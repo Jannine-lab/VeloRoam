@@ -1,0 +1,20 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-14T06:55:30.246Z",
+  "tile": {
+    "z": 13,
+    "x": 6824,
+    "y": 3315
+  },
+  "segments": [
+    {
+      "id": "39140713",
+      "tileScore": 11,
+      "name": "天禄湖绕圈",
+      "distanceM": 4700.7998046875,
+      "avgGrade": -0.004254594910889864,
+      "startLat": 32.39711380004883,
+      "startLng": 119.91307067871094
+    }
+  ]
+}

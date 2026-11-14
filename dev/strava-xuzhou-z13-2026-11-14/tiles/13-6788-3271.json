@@ -1,0 +1,20 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-14T06:44:30.434Z",
+  "tile": {
+    "z": 13,
+    "x": 6788,
+    "y": 3271
+  },
+  "segments": [
+    {
+      "id": "40531609",
+      "tileScore": 7,
+      "name": "三台山绕圈赛",
+      "distanceM": 7191.5,
+      "avgGrade": -0.013905305415391922,
+      "startLat": 34.042076110839844,
+      "startLng": 118.32388305664062
+    }
+  ]
+}

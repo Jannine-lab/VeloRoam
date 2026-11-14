@@ -1,0 +1,29 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-14T07:11:23.085Z",
+  "tile": {
+    "z": 13,
+    "x": 6824,
+    "y": 3351
+  },
+  "segments": [
+    {
+      "id": "17657591",
+      "tileScore": 2,
+      "name": "cd-父子岭到长兴",
+      "distanceM": 18634.400390625,
+      "avgGrade": -0.004293135367333889,
+      "startLat": 31.137378692626953,
+      "startLng": 119.93272399902344
+    },
+    {
+      "id": "42462292",
+      "tileScore": 3,
+      "name": "小卖部到收费站热身",
+      "distanceM": 20750,
+      "avgGrade": -0.03566265106201172,
+      "startLat": 31.073932647705078,
+      "startLng": 119.88568878173828
+    }
+  ]
+}

@@ -1,0 +1,92 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-14T07:07:13.836Z",
+  "tile": {
+    "z": 13,
+    "x": 6837,
+    "y": 3346
+  },
+  "segments": [
+    {
+      "id": "23927574",
+      "tileScore": 1,
+      "name": "科技城至吴中大道",
+      "distanceM": 22233.900390625,
+      "avgGrade": -0.001799054560251534,
+      "startLat": 31.339780807495117,
+      "startLng": 120.42162322998047
+    },
+    {
+      "id": "37982355",
+      "tileScore": 8,
+      "name": "五峰山穿越主线",
+      "distanceM": 2566.10009765625,
+      "avgGrade": 0.023381786420941353,
+      "startLat": 31.278915405273438,
+      "startLng": 120.46665954589844
+    },
+    {
+      "id": "18581568",
+      "tileScore": 14,
+      "name": "Hill at Mudu (up&down other side)",
+      "distanceM": 1245.9000244140625,
+      "avgGrade": 0.2568424344062805,
+      "startLat": 31.278013229370117,
+      "startLng": 120.48357391357422
+    },
+    {
+      "id": "39883413",
+      "tileScore": 12,
+      "name": "五峰山Gravel金墓-土地庙",
+      "distanceM": 1877,
+      "avgGrade": 4.592434883117676,
+      "startLat": 31.278867721557617,
+      "startLng": 120.46685028076172
+    },
+    {
+      "id": "14499496",
+      "tileScore": 1,
+      "name": "Maopeng Rd x S9 Overpass (Westbound)",
+      "distanceM": 346.79998779296875,
+      "avgGrade": 1.614763617515564,
+      "startLat": 31.24939727783203,
+      "startLng": 120.45487976074219
+    },
+    {
+      "id": "10230107",
+      "tileScore": 2,
+      "name": "Qiongling Rd (Westbound)",
+      "distanceM": 6561.7001953125,
+      "avgGrade": -0.0960117056965828,
+      "startLat": 31.259403228759766,
+      "startLng": 120.49449157714844
+    },
+    {
+      "id": "39891568",
+      "tileScore": 5,
+      "name": "苏州五峰环线 （玉山路起止）",
+      "distanceM": 33626.3984375,
+      "avgGrade": 0.008326790295541286,
+      "startLat": 31.283851623535156,
+      "startLng": 120.51029968261719
+    },
+    {
+      "id": "36057269",
+      "tileScore": 3,
+      "name": "灵岩山到取水口",
+      "distanceM": 10924.599609375,
+      "avgGrade": -0.007322922348976135,
+      "startLat": 31.2730655670166,
+      "startLng": 120.50218963623047
+    },
+    {
+      "id": "5694768",
+      "tileScore": 1,
+      "name": "Village Road Climb",
+      "distanceM": 633.4000244140625,
+      "avgGrade": 16.214082717895508,
+      "startLat": 31.27048110961914,
+      "startLng": 120.49182891845703
+    }
+  ]
+}

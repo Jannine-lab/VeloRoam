@@ -1,0 +1,155 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-14T07:08:16.960Z",
+  "tile": {
+    "z": 13,
+    "x": 6839,
+    "y": 3346
+  },
+  "segments": [
+    {
+      "id": "20535844",
+      "tileScore": 1,
+      "name": "宝袋西路",
+      "distanceM": 13334.7001953125,
+      "avgGrade": -0.014998462982475758,
+      "startLat": 31.2228946685791,
+      "startLng": 120.48023986816406
+    },
+    {
+      "id": "1478575",
+      "tileScore": 12,
+      "name": "宝带西路 Climb",
+      "distanceM": 891.6950073242188,
+      "avgGrade": 10.676236152648926,
+      "startLat": 31.252525329589844,
+      "startLng": 120.5598373413086
+    },
+    {
+      "id": "41310311",
+      "tileScore": 5,
+      "name": "晋福桥-北-南",
+      "distanceM": 502.29998779296875,
+      "avgGrade": -0.03981684148311615,
+      "startLat": 31.260921478271484,
+      "startLng": 120.55626678466797
+    },
+    {
+      "id": "34733917",
+      "tileScore": 50,
+      "name": "环石湖东门起点",
+      "distanceM": 11804.2001953125,
+      "avgGrade": -0.02372037060558796,
+      "startLat": 31.254789352416992,
+      "startLng": 120.59906005859375
+    },
+    {
+      "id": "40604802",
+      "tileScore": 1,
+      "name": "运河路",
+      "distanceM": 3641.5,
+      "avgGrade": -0.035699572414159775,
+      "startLat": 31.273954391479492,
+      "startLng": 120.58145141601562
+    },
+    {
+      "id": "35607941",
+      "tileScore": 1,
+      "name": "科锐桥-晋福桥",
+      "distanceM": 4033.300048828125,
+      "avgGrade": -0.004958718549460173,
+      "startLat": 31.263944625854492,
+      "startLng": 120.56841278076172
+    },
+    {
+      "id": "35390795",
+      "tileScore": 23,
+      "name": "石湖北段",
+      "distanceM": 2015.5,
+      "avgGrade": -0.019846191629767418,
+      "startLat": 31.258991241455078,
+      "startLng": 120.58162689208984
+    },
+    {
+      "id": "36057291",
+      "tileScore": 4,
+      "name": "横山南坡到北坡",
+      "distanceM": 2039.0999755859375,
+      "avgGrade": -0.21087734401226044,
+      "startLat": 31.266651153564453,
+      "startLng": 120.56758117675781
+    },
+    {
+      "id": "17444221",
+      "tileScore": 4,
+      "name": "S Ring Rd x Jinghang Canal Bridge (Westbound)",
+      "distanceM": 759.5,
+      "avgGrade": 0.2369980365037918,
+      "startLat": 31.274660110473633,
+      "startLng": 120.58631134033203
+    },
+    {
+      "id": "35198292",
+      "tileScore": 15,
+      "name": "吴越路冲刺",
+      "distanceM": 585.2999877929688,
+      "avgGrade": -0.3075345754623413,
+      "startLat": 31.256153106689453,
+      "startLng": 120.58212280273438
+    },
+    {
+      "id": "10301001",
+      "tileScore": 1,
+      "name": "Shangfangshan complete",
+      "distanceM": 980.7999877929688,
+      "avgGrade": 6.525285720825195,
+      "startLat": 31.242042541503906,
+      "startLng": 120.57731628417969
+    },
+    {
+      "id": "42335041",
+      "tileScore": 1,
+      "name": "横山公园绕圈",
+      "distanceM": 1606,
+      "avgGrade": 0.012453300878405571,
+      "startLat": 31.27029800415039,
+      "startLng": 120.57076263427734
+    },
+    {
+      "id": "4413341",
+      "tileScore": 34,
+      "name": "XiZi Roubaix",
+      "distanceM": 1576.300048828125,
+      "avgGrade": 0.7676203846931458,
+      "startLat": 31.247446060180664,
+      "startLng": 120.5704345703125
+    },
+    {
+      "id": "17509220",
+      "tileScore": 32,
+      "name": "Track&Field Climb to y-cross",
+      "distanceM": 2293.800048828125,
+      "avgGrade": 7.140988826751709,
+      "startLat": 31.252235412597656,
+      "startLng": 120.55964660644531
+    },
+    {
+      "id": "34339960",
+      "tileScore": 5,
+      "name": "宝带路冲刺",
+      "distanceM": 795.2999877929688,
+      "avgGrade": -0.07544323056936264,
+      "startLat": 31.26320457458496,
+      "startLng": 120.57695770263672
+    },
+    {
+      "id": "34898499",
+      "tileScore": 48,
+      "name": "榨干你的体能冲一把",
+      "distanceM": 1464.800048828125,
+      "avgGrade": -0.08192244917154312,
+      "startLat": 31.244827270507812,
+      "startLng": 120.5833740234375
+    }
+  ]
+}

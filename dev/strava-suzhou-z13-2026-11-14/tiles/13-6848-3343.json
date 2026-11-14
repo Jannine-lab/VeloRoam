@@ -1,0 +1,65 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-14T07:15:36.814Z",
+  "tile": {
+    "z": 13,
+    "x": 6848,
+    "y": 3343
+  },
+  "segments": [
+    {
+      "id": "30958524",
+      "tileScore": 1,
+      "name": "合兴路大桥（南向北）",
+      "distanceM": 332.1000061035156,
+      "avgGrade": 3.4327011108398438,
+      "startLat": 31.369455337524414,
+      "startLng": 120.94368743896484
+    },
+    {
+      "id": "33036093",
+      "tileScore": 1,
+      "name": "景王路bridge东行",
+      "distanceM": 730,
+      "avgGrade": -0.630137026309967,
+      "startLat": 31.372392654418945,
+      "startLng": 120.98033142089844
+    },
+    {
+      "id": "36976065",
+      "tileScore": 9,
+      "name": " Qianjin E Rd River Bridge (Westbound)",
+      "distanceM": 1144.300048828125,
+      "avgGrade": -0.12234554439783096,
+      "startLat": 31.385683059692383,
+      "startLng": 120.99082946777344
+    },
+    {
+      "id": "7956563",
+      "tileScore": 3,
+      "name": "Chaoyang West Rd (Westbound)",
+      "distanceM": 1240.199951171875,
+      "avgGrade": 0.04837929457426071,
+      "startLat": 31.375701904296875,
+      "startLng": 120.96098327636719
+    },
+    {
+      "id": "30958490",
+      "tileScore": 3,
+      "name": "柏庐路高架桥（北向南）",
+      "distanceM": 398.8999938964844,
+      "avgGrade": 0.8523439168930054,
+      "startLat": 31.367401123046875,
+      "startLng": 120.96196746826172
+    },
+    {
+      "id": "14279642",
+      "tileScore": 3,
+      "name": "Super Mario Kart Through The City",
+      "distanceM": 10934.099609375,
+      "avgGrade": 0.016462260857224464,
+      "startLat": 31.38591194152832,
+      "startLng": 120.99835205078125
+    }
+  ]
+}

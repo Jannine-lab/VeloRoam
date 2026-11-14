@@ -1,0 +1,20 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-14T07:22:00.354Z",
+  "tile": {
+    "z": 13,
+    "x": 6858,
+    "y": 3339
+  },
+  "segments": [
+    {
+      "id": "36318095",
+      "tileScore": 6,
+      "name": "宝南线高速轮渡 Baonan Highspeed Ferry",
+      "distanceM": 26661.30078125,
+      "avgGrade": 0.010502113960683346,
+      "startLat": 31.418088912963867,
+      "startLng": 121.49427795410156
+    }
+  ]
+}

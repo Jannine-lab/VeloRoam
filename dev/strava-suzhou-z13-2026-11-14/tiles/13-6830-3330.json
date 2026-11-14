@@ -1,0 +1,47 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-14T07:09:13.325Z",
+  "tile": {
+    "z": 13,
+    "x": 6830,
+    "y": 3330
+  },
+  "segments": [
+    {
+      "id": "25855766",
+      "tileScore": 37,
+      "name": "Shunguo Mountain",
+      "distanceM": 1036,
+      "avgGrade": 8.996138572692871,
+      "startLat": 31.85593605041504,
+      "startLng": 120.16200256347656
+    },
+    {
+      "id": "31837224",
+      "tileScore": 8,
+      "name": "芙蓉大道",
+      "distanceM": 12366.2001953125,
+      "avgGrade": -0.01455580536276102,
+      "startLat": 31.846878051757812,
+      "startLng": 120.02364349365234
+    },
+    {
+      "id": "33073549",
+      "tileScore": 25,
+      "name": "舜过山停车场到舜山北禅寺",
+      "distanceM": 2211,
+      "avgGrade": 4.622342586517334,
+      "startLat": 31.84596824645996,
+      "startLng": 120.16828155517578
+    },
+    {
+      "id": "28639698",
+      "tileScore": 16,
+      "name": "凤凰山",
+      "distanceM": 1338.300048828125,
+      "avgGrade": 3.586639881134033,
+      "startLat": 31.841188430786133,
+      "startLng": 120.17911529541016
+    }
+  ]
+}

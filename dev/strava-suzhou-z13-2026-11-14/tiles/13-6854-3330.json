@@ -1,0 +1,47 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-14T07:22:27.303Z",
+  "tile": {
+    "z": 13,
+    "x": 6854,
+    "y": 3330
+  },
+  "segments": [
+    {
+      "id": "42365089",
+      "tileScore": 72,
+      "name": "2026 TREK100精英组",
+      "distanceM": 94728,
+      "avgGrade": -0.000633392424788326,
+      "startLat": 31.6234073638916,
+      "startLng": 121.42135620117188
+    },
+    {
+      "id": "35956522",
+      "tileScore": 109,
+      "name": "青龙港-江堤纪念碑",
+      "distanceM": 5718.2998046875,
+      "avgGrade": -0.010492628440260887,
+      "startLat": 31.862075805664062,
+      "startLng": 121.23601531982422
+    },
+    {
+      "id": "9557538",
+      "tileScore": 97,
+      "name": "CMD Outer Seawall Sprint",
+      "distanceM": 11355,
+      "avgGrade": -0.0017613385571166873,
+      "startLat": 31.85027313232422,
+      "startLng": 121.32787322998047
+    },
+    {
+      "id": "34722478",
+      "tileScore": 6,
+      "name": "Yangtze Estuary Sprint——遥望青龙港",
+      "distanceM": 2969.60009765625,
+      "avgGrade": 0.04714439436793327,
+      "startLat": 31.84516716003418,
+      "startLng": 121.23966217041016
+    }
+  ]
+}

@@ -1,0 +1,65 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-14T07:15:12.753Z",
+  "tile": {
+    "z": 13,
+    "x": 6846,
+    "y": 3343
+  },
+  "segments": [
+    {
+      "id": "14908003",
+      "tileScore": 2,
+      "name": "Nandujia Port Overpass",
+      "distanceM": 1210.5,
+      "avgGrade": -0.44609665870666504,
+      "startLat": 31.348468780517578,
+      "startLng": 120.88138580322266
+    },
+    {
+      "id": "14279642",
+      "tileScore": 3,
+      "name": "Super Mario Kart Through The City",
+      "distanceM": 10934.099609375,
+      "avgGrade": 0.016462260857224464,
+      "startLat": 31.38591194152832,
+      "startLng": 120.99835205078125
+    },
+    {
+      "id": "31484057",
+      "tileScore": 4,
+      "name": "312(Zhenchuan Road Eastbound)",
+      "distanceM": 2319.60009765625,
+      "avgGrade": -0.08622176200151443,
+      "startLat": 31.368459701538086,
+      "startLng": 120.84602355957031
+    },
+    {
+      "id": "30963878",
+      "tileScore": 3,
+      "name": "中华园路小起伏（东向西）",
+      "distanceM": 3486.699951171875,
+      "avgGrade": -0.03441649675369263,
+      "startLat": 31.36341667175293,
+      "startLng": 120.91912078857422
+    },
+    {
+      "id": "14279086",
+      "tileScore": 1,
+      "name": "Qianjin W Rd (Eastbound)",
+      "distanceM": 10293.099609375,
+      "avgGrade": -0.011658295057713985,
+      "startLat": 31.379955291748047,
+      "startLng": 120.8251953125
+    },
+    {
+      "id": "40911380",
+      "tileScore": 1,
+      "name": "GuCheng Rd",
+      "distanceM": 12157.7998046875,
+      "avgGrade": 0.026320552453398705,
+      "startLat": 31.28523826599121,
+      "startLng": 120.89583587646484
+    }
+  ]
+}

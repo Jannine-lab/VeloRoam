@@ -1,0 +1,20 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-14T06:57:11.548Z",
+  "tile": {
+    "z": 13,
+    "x": 6831,
+    "y": 3313
+  },
+  "segments": [
+    {
+      "id": "31971278",
+      "tileScore": 27,
+      "name": "羊圈绕圈",
+      "distanceM": 16523.80078125,
+      "avgGrade": -0.009683002717792988,
+      "startLat": 32.48612976074219,
+      "startLng": 120.16868591308594
+    }
+  ]
+}

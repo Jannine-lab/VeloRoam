@@ -1,0 +1,56 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-14T07:07:15.832Z",
+  "tile": {
+    "z": 13,
+    "x": 6839,
+    "y": 3342
+  },
+  "segments": [
+    {
+      "id": "13448913",
+      "tileScore": 3,
+      "name": "Xitanghe Rd to Jingyi Rd (Northbound)",
+      "distanceM": 4134.5,
+      "avgGrade": -0.014512033201754093,
+      "startLat": 31.384048461914062,
+      "startLng": 120.54969787597656
+    },
+    {
+      "id": "35838197",
+      "tileScore": 2,
+      "name": "Dongtinghe Road",
+      "distanceM": 2454.800048828125,
+      "avgGrade": 0.06517842411994934,
+      "startLat": 31.408472061157227,
+      "startLng": 120.57316589355469
+    },
+    {
+      "id": "17923686",
+      "tileScore": 2,
+      "name": "Wuxi —> Suzhou G312 North Side",
+      "distanceM": 20429.099609375,
+      "avgGrade": -0.019579913467168808,
+      "startLat": 31.500911712646484,
+      "startLng": 120.45547485351562
+    },
+    {
+      "id": "34203256",
+      "tileScore": 6,
+      "name": "凯 荷塘月色公园五公里绕圈",
+      "distanceM": 4988.7998046875,
+      "avgGrade": -0.020044900476932526,
+      "startLat": 31.403234481811523,
+      "startLng": 120.58230590820312
+    },
+    {
+      "id": "14254414",
+      "tileScore": 1,
+      "name": "Middle Ring Expy: 20KM",
+      "distanceM": 19522.80078125,
+      "avgGrade": 0.06863769143819809,
+      "startLat": 31.386428833007812,
+      "startLng": 120.70919036865234
+    }
+  ]
+}

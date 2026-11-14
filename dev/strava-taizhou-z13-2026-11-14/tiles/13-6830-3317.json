@@ -1,0 +1,38 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-14T06:56:47.103Z",
+  "tile": {
+    "z": 13,
+    "x": 6830,
+    "y": 3317
+  },
+  "segments": [
+    {
+      "id": "31132415",
+      "tileScore": 4,
+      "name": "大环线之2高架桥",
+      "distanceM": 3003.800048828125,
+      "avgGrade": 0.013316466473042965,
+      "startLat": 32.32573318481445,
+      "startLng": 120.12661743164062
+    },
+    {
+      "id": "40010033",
+      "tileScore": 7,
+      "name": "老杨强力领骑",
+      "distanceM": 13965.099609375,
+      "avgGrade": 0.9824491143226624,
+      "startLat": 32.335025787353516,
+      "startLng": 120.17938232421875
+    },
+    {
+      "id": "24368130",
+      "tileScore": 13,
+      "name": "Jiangyan - Huangqiao",
+      "distanceM": 29432.30078125,
+      "avgGrade": -0.0115519342944026,
+      "startLat": 32.48557662963867,
+      "startLng": 120.16735076904297
+    }
+  ]
+}

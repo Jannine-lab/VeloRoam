@@ -1,0 +1,20 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-14T07:03:00.163Z",
+  "tile": {
+    "z": 13,
+    "x": 6835,
+    "y": 3302
+  },
+  "segments": [
+    {
+      "id": "39324966",
+      "tileScore": 12,
+      "name": "站前路直达东灵线-瘦毅",
+      "distanceM": 10658.7998046875,
+      "avgGrade": -0.016887454316020012,
+      "startLat": 32.88340759277344,
+      "startLng": 120.3331527709961
+    }
+  ]
+}

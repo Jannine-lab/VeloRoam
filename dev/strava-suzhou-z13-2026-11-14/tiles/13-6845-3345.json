@@ -1,0 +1,101 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-14T07:15:07.036Z",
+  "tile": {
+    "z": 13,
+    "x": 6845,
+    "y": 3345
+  },
+  "segments": [
+    {
+      "id": "8677479",
+      "tileScore": 5,
+      "name": "Zhongxin Ave East x Canal Bridge (Eastbound)",
+      "distanceM": 368.70001220703125,
+      "avgGrade": 0.21697857975959778,
+      "startLat": 31.314922332763672,
+      "startLng": 120.80720520019531
+    },
+    {
+      "id": "22263996",
+      "tileScore": 8,
+      "name": "苏州回上海（中新大道东）",
+      "distanceM": 11227,
+      "avgGrade": -0.03919123485684395,
+      "startLat": 31.31157875061035,
+      "startLng": 120.76634216308594
+    },
+    {
+      "id": "38811571",
+      "tileScore": 6,
+      "name": "星泽冲冲冲",
+      "distanceM": 2232,
+      "avgGrade": 0.008960573002696037,
+      "startLat": 31.283275604248047,
+      "startLng": 120.81717681884766
+    },
+    {
+      "id": "38829270",
+      "tileScore": 7,
+      "name": "唯胜路N to S",
+      "distanceM": 8732.400390625,
+      "avgGrade": 0.025193532928824425,
+      "startLat": 31.375648498535156,
+      "startLng": 120.79234313964844
+    },
+    {
+      "id": "40329073",
+      "tileScore": 4,
+      "name": "Z型穿越",
+      "distanceM": 564.4000244140625,
+      "avgGrade": -0.5669737458229065,
+      "startLat": 31.277572631835938,
+      "startLng": 120.84683990478516
+    },
+    {
+      "id": "39419379",
+      "tileScore": 6,
+      "name": "New Shengpu bridge",
+      "distanceM": 1194.199951171875,
+      "avgGrade": 0.0669904500246048,
+      "startLat": 31.28694725036621,
+      "startLng": 120.81658172607422
+    },
+    {
+      "id": "8481636",
+      "tileScore": 2,
+      "name": "Zhongxin Avenue East",
+      "distanceM": 8045.39990234375,
+      "avgGrade": -0.006214731372892857,
+      "startLat": 31.310014724731445,
+      "startLng": 120.72364807128906
+    },
+    {
+      "id": "40867223",
+      "tileScore": 5,
+      "name": "Lu Sheng Rd",
+      "distanceM": 1320.5,
+      "avgGrade": 0.03029155544936657,
+      "startLat": 31.28235626220703,
+      "startLng": 120.81645202636719
+    },
+    {
+      "id": "40627806",
+      "tileScore": 7,
+      "name": "迎宾西路",
+      "distanceM": 1233,
+      "avgGrade": -0.01622060127556324,
+      "startLat": 31.278968811035156,
+      "startLng": 120.83003997802734
+    },
+    {
+      "id": "10051585",
+      "tileScore": 4,
+      "name": "Lu Zhen Bridge (Westbound)",
+      "distanceM": 447.1000061035156,
+      "avgGrade": 1.7445762157440186,
+      "startLat": 31.280054092407227,
+      "startLng": 120.84745788574219
+    }
+  ]
+}

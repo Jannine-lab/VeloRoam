@@ -1,0 +1,128 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-14T07:15:31.318Z",
+  "tile": {
+    "z": 13,
+    "x": 6847,
+    "y": 3346
+  },
+  "segments": [
+    {
+      "id": "25984785",
+      "tileScore": 16,
+      "name": "Jiangpu South Rd from Yuanfeng Rd to Songhu West Rd（Southbond）",
+      "distanceM": 10292.2998046875,
+      "avgGrade": -0.009716001339256763,
+      "startLat": 31.328493118286133,
+      "startLng": 120.92188262939453
+    },
+    {
+      "id": "26244567",
+      "tileScore": 1,
+      "name": "25K Scenic Country Roads (Northbound)",
+      "distanceM": 24641.80078125,
+      "avgGrade": 0.04707448184490204,
+      "startLat": 31.152658462524414,
+      "startLng": 120.92338562011719
+    },
+    {
+      "id": "22098036",
+      "tileScore": 7,
+      "name": "Jiangli Temple Loop (CW)",
+      "distanceM": 1714.5,
+      "avgGrade": 0.09332167357206345,
+      "startLat": 31.244731903076172,
+      "startLng": 120.9185791015625
+    },
+    {
+      "id": "41693565",
+      "tileScore": 7,
+      "name": "Galaxy Rd Southbound",
+      "distanceM": 3751.199951171875,
+      "avgGrade": 0.1972702145576477,
+      "startLat": 31.272804260253906,
+      "startLng": 120.9317855834961
+    },
+    {
+      "id": "35118320",
+      "tileScore": 259,
+      "name": "ITT Heading South",
+      "distanceM": 6715.60009765625,
+      "avgGrade": 0.00595628097653389,
+      "startLat": 31.272951126098633,
+      "startLng": 120.91736602783203
+    },
+    {
+      "id": "42222408",
+      "tileScore": 61,
+      "name": "XXCC团练冲刺火车启动！",
+      "distanceM": 569.5,
+      "avgGrade": -0.35118526220321655,
+      "startLat": 31.26776695251465,
+      "startLng": 120.91746520996094
+    },
+    {
+      "id": "42137209",
+      "tileScore": 3,
+      "name": "132123123",
+      "distanceM": 9613.5,
+      "avgGrade": -0.01872367039322853,
+      "startLat": 31.27113914489746,
+      "startLng": 120.9215316772461
+    },
+    {
+      "id": "26325684",
+      "tileScore": 10,
+      "name": "Back to the X205",
+      "distanceM": 3387.10009765625,
+      "avgGrade": -0.029523780569434166,
+      "startLat": 31.250202178955078,
+      "startLng": 120.89682006835938
+    },
+    {
+      "id": "41451509",
+      "tileScore": 4,
+      "name": "Nanxin Rd （eastbound）",
+      "distanceM": 970.7000122070312,
+      "avgGrade": 0.061811063438653946,
+      "startLat": 31.275344848632812,
+      "startLng": 120.88508605957031
+    },
+    {
+      "id": "41215917",
+      "tileScore": 4,
+      "name": "Village-to-Village Access",
+      "distanceM": 2678.699951171875,
+      "avgGrade": 0.13439354300498962,
+      "startLat": 31.241121292114258,
+      "startLng": 120.8992919921875
+    },
+    {
+      "id": "24864276",
+      "tileScore": 13,
+      "name": "X205 North Bound Till Y-cross",
+      "distanceM": 9454.2001953125,
+      "avgGrade": 0.027501003816723824,
+      "startLat": 31.198413848876953,
+      "startLng": 120.88581085205078
+    },
+    {
+      "id": "25958214",
+      "tileScore": 3,
+      "name": "Yanghelou Shortcut",
+      "distanceM": 811.7999877929688,
+      "avgGrade": 0.07390982657670975,
+      "startLat": 31.254919052124023,
+      "startLng": 120.88926696777344
+    },
+    {
+      "id": "8936636",
+      "tileScore": 2,
+      "name": "S343 Yangguang Middle Rd (Eastbound)",
+      "distanceM": 3370.199951171875,
+      "avgGrade": 0.08011393994092941,
+      "startLat": 31.273786544799805,
+      "startLng": 120.91798400878906
+    }
+  ]
+}

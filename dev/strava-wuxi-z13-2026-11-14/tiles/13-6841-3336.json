@@ -1,0 +1,56 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-14T07:08:09.242Z",
+  "tile": {
+    "z": 13,
+    "x": 6841,
+    "y": 3336
+  },
+  "segments": [
+    {
+      "id": "13068959",
+      "tileScore": 86,
+      "name": "Shanghu Top CCW",
+      "distanceM": 7059.7998046875,
+      "avgGrade": -0.016997648403048515,
+      "startLat": 31.662185668945312,
+      "startLng": 120.68495178222656
+    },
+    {
+      "id": "38424407",
+      "tileScore": 9,
+      "name": "苏虞张-1",
+      "distanceM": 2286.199951171875,
+      "avgGrade": 0.01749628223478794,
+      "startLat": 31.65580940246582,
+      "startLng": 120.62122344970703
+    },
+    {
+      "id": "21780125",
+      "tileScore": 3,
+      "name": "Wangyu River Rd (Water stop - Shanghu Lake)",
+      "distanceM": 11327.7001953125,
+      "avgGrade": 0.02295258454978466,
+      "startLat": 31.60276985168457,
+      "startLng": 120.58990478515625
+    },
+    {
+      "id": "38135860",
+      "tileScore": 7,
+      "name": "西三环itt",
+      "distanceM": 9676,
+      "avgGrade": -0.05994212627410889,
+      "startLat": 31.68532943725586,
+      "startLng": 120.68697357177734
+    },
+    {
+      "id": "41100880",
+      "tileScore": 7,
+      "name": "鲁贝冲冲冲，只有最强者能成为王！！",
+      "distanceM": 52570.69921875,
+      "avgGrade": 0.004184840712696314,
+      "startLat": 31.779027938842773,
+      "startLng": 120.82551574707031
+    }
+  ]
+}

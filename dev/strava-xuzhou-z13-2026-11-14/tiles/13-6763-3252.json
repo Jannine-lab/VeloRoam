@@ -1,0 +1,20 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-14T06:36:34.242Z",
+  "tile": {
+    "z": 13,
+    "x": 6763,
+    "y": 3252
+  },
+  "segments": [
+    {
+      "id": "37250992",
+      "tileScore": 3,
+      "name": "沿湖大道10km（东→西）",
+      "distanceM": 10052.599609375,
+      "avgGrade": 0.01392674632370472,
+      "startLat": 34.72694778442383,
+      "startLng": 117.236328125
+    }
+  ]
+}

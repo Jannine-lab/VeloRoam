@@ -1,0 +1,200 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-14T07:08:22.739Z",
+  "tile": {
+    "z": 13,
+    "x": 6841,
+    "y": 3344
+  },
+  "segments": [
+    {
+      "id": "34368566",
+      "tileScore": 5,
+      "name": "Around Gusu Ancient City--Xiangmen",
+      "distanceM": 16310.099609375,
+      "avgGrade": -0.004904936067759991,
+      "startLat": 31.313356399536133,
+      "startLng": 120.63802337646484
+    },
+    {
+      "id": "17490622",
+      "tileScore": 11,
+      "name": "苏州 现代大道B",
+      "distanceM": 2777.800048828125,
+      "avgGrade": -0.0647994801402092,
+      "startLat": 31.32486915588379,
+      "startLng": 120.67357635498047
+    },
+    {
+      "id": "15222262",
+      "tileScore": 4,
+      "name": "G312 SIP WtoE",
+      "distanceM": 8329.599609375,
+      "avgGrade": -0.007203226909041405,
+      "startLat": 31.3336181640625,
+      "startLng": 120.6710205078125
+    },
+    {
+      "id": "38550707",
+      "tileScore": 17,
+      "name": "苏州古城穿越",
+      "distanceM": 60706.1015625,
+      "avgGrade": 0.02668595127761364,
+      "startLat": 31.302093505859375,
+      "startLng": 120.60486602783203
+    },
+    {
+      "id": "17490619",
+      "tileScore": 5,
+      "name": "苏州 北环快速路B",
+      "distanceM": 5098.10009765625,
+      "avgGrade": -0.02353818155825138,
+      "startLat": 31.330841064453125,
+      "startLng": 120.63581085205078
+    },
+    {
+      "id": "35485870",
+      "tileScore": 1,
+      "name": "一路向南",
+      "distanceM": 15026.7998046875,
+      "avgGrade": -0.02262623980641365,
+      "startLat": 31.454683303833008,
+      "startLng": 120.67469787597656
+    },
+    {
+      "id": "23424460",
+      "tileScore": 8,
+      "name": "G15W x Loujiang River Bridge (Southbound)",
+      "distanceM": 565.5,
+      "avgGrade": 0.07073386013507843,
+      "startLat": 31.331218719482422,
+      "startLng": 120.6485366821289
+    },
+    {
+      "id": "11638149",
+      "tileScore": 16,
+      "name": "Baidang Lake Super Bridge (Northbound)",
+      "distanceM": 1782.9000244140625,
+      "avgGrade": -0.1402209848165512,
+      "startLat": 31.352537155151367,
+      "startLng": 120.64350891113281
+    },
+    {
+      "id": "42063405",
+      "tileScore": 5,
+      "name": "齐门桥 至 陆泾路南端",
+      "distanceM": 6074.89990234375,
+      "avgGrade": -0.06584470719099045,
+      "startLat": 31.331071853637695,
+      "startLng": 120.62173461914062
+    },
+    {
+      "id": "42386711",
+      "tileScore": 10,
+      "name": "北园路(Westbound)",
+      "distanceM": 1067.800048828125,
+      "avgGrade": -0.14984078705310822,
+      "startLat": 31.329265594482422,
+      "startLng": 120.63292694091797
+    },
+    {
+      "id": "8692217",
+      "tileScore": 6,
+      "name": "Loumen Bridge (Westbound)",
+      "distanceM": 380.6000061035156,
+      "avgGrade": -0.6043090224266052,
+      "startLat": 31.327133178710938,
+      "startLng": 120.63819122314453
+    },
+    {
+      "id": "34137286",
+      "tileScore": 3,
+      "name": "Underpass",
+      "distanceM": 658.2000122070312,
+      "avgGrade": 0.030385900288820267,
+      "startLat": 31.341062545776367,
+      "startLng": 120.64847564697266
+    },
+    {
+      "id": "11638161",
+      "tileScore": 5,
+      "name": "S224 Provincial Rd x G15W Changtai Expy Underpass (Westbound)",
+      "distanceM": 344.29998779296875,
+      "avgGrade": 0.05808887630701065,
+      "startLat": 31.352508544921875,
+      "startLng": 120.64669799804688
+    },
+    {
+      "id": "15725922",
+      "tileScore": 1,
+      "name": "G312-Xingming St to Xinghu St(Eastbound)",
+      "distanceM": 5241.2001953125,
+      "avgGrade": -0.05723879858851433,
+      "startLat": 31.330923080444336,
+      "startLng": 120.65724182128906
+    },
+    {
+      "id": "16014088",
+      "tileScore": 13,
+      "name": "Yangchenhu to G2",
+      "distanceM": 2407.699951171875,
+      "avgGrade": -0.07476014643907547,
+      "startLat": 31.356672286987305,
+      "startLng": 120.66856384277344
+    },
+    {
+      "id": "8955428",
+      "tileScore": 2,
+      "name": "Central Park and Ganjiang East road westbound",
+      "distanceM": 3876.300048828125,
+      "avgGrade": -0.10061140358448029,
+      "startLat": 31.318241119384766,
+      "startLng": 120.66963195800781
+    },
+    {
+      "id": "1509638",
+      "tileScore": 2,
+      "name": "苏州市 (Suzhou) Central Park Loop",
+      "distanceM": 1374.5899658203125,
+      "avgGrade": -0.058198750019073486,
+      "startLat": 31.316110610961914,
+      "startLng": 120.65634155273438
+    },
+    {
+      "id": "10641451",
+      "tileScore": 1,
+      "name": "YCHP Catholic Church Park - Big Loop (Clockwise)",
+      "distanceM": 841,
+      "avgGrade": -0.09512484818696976,
+      "startLat": 31.353923797607422,
+      "startLng": 120.65603637695312
+    },
+    {
+      "id": "6103835",
+      "tileScore": 10,
+      "name": "Xinghai Street Climb",
+      "distanceM": 828.5,
+      "avgGrade": 16.65660858154297,
+      "startLat": 31.33114242553711,
+      "startLng": 120.67280578613281
+    },
+    {
+      "id": "8534158",
+      "tileScore": 1,
+      "name": "Suxiu Rd (Eastbound)",
+      "distanceM": 1729,
+      "avgGrade": 0.13302487134933472,
+      "startLat": 31.31810188293457,
+      "startLng": 120.65666961669922
+    },
+    {
+      "id": "11394208",
+      "tileScore": 5,
+      "name": "Loumen Rd (Westbound)",
+      "distanceM": 1601,
+      "avgGrade": 0.19987507164478302,
+      "startLat": 31.330820083618164,
+      "startLng": 120.65331268310547
+    }
+  ]
+}

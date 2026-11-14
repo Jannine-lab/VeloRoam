@@ -1,0 +1,20 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-14T06:35:48.296Z",
+  "tile": {
+    "z": 13,
+    "x": 6778,
+    "y": 3271
+  },
+  "segments": [
+    {
+      "id": "32725350",
+      "tileScore": 6,
+      "name": "去庆安水库咯",
+      "distanceM": 11926.900390625,
+      "avgGrade": -0.01509193517267704,
+      "startLat": 33.936805725097656,
+      "startLng": 117.8785400390625
+    }
+  ]
+}

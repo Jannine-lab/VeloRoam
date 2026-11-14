@@ -1,0 +1,38 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-14T06:19:15.761Z",
+  "tile": {
+    "z": 13,
+    "x": 6762,
+    "y": 3266
+  },
+  "segments": [
+    {
+      "id": "26142048",
+      "tileScore": 17,
+      "name": "Hudong Rd. ITT, N to S",
+      "distanceM": 2159.300048828125,
+      "avgGrade": -0.12040939182043076,
+      "startLat": 34.24517059326172,
+      "startLng": 117.1724853515625
+    },
+    {
+      "id": "32542249",
+      "tileScore": 14,
+      "name": "小南湖路段",
+      "distanceM": 3123,
+      "avgGrade": -0.01921229623258114,
+      "startLat": 34.22880554199219,
+      "startLng": 117.15934753417969
+    },
+    {
+      "id": "12995175",
+      "tileScore": 15,
+      "name": "环泉山",
+      "distanceM": 9237.900390625,
+      "avgGrade": -0.00649498263373971,
+      "startLat": 34.21775817871094,
+      "startLng": 117.1645278930664
+    }
+  ]
+}

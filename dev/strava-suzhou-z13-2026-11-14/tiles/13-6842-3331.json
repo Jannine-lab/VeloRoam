@@ -1,0 +1,20 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-14T07:11:13.651Z",
+  "tile": {
+    "z": 13,
+    "x": 6842,
+    "y": 3331
+  },
+  "segments": [
+    {
+      "id": "39486660",
+      "tileScore": 3,
+      "name": "喝完咖啡赶紧回家不然又得挨骂  ",
+      "distanceM": 20773.400390625,
+      "avgGrade": -0.027920320630073547,
+      "startLat": 31.84537124633789,
+      "startLng": 120.7110595703125
+    }
+  ]
+}

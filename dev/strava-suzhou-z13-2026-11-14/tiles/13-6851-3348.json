@@ -1,0 +1,119 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-14T07:17:05.661Z",
+  "tile": {
+    "z": 13,
+    "x": 6851,
+    "y": 3348
+  },
+  "segments": [
+    {
+      "id": "30384821",
+      "tileScore": 2,
+      "name": "THL-4",
+      "distanceM": 116824.5,
+      "avgGrade": -0.0025679543614387512,
+      "startLat": 31.206161499023438,
+      "startLng": 121.28252410888672
+    },
+    {
+      "id": "40749015",
+      "tileScore": 5,
+      "name": "天恩桥路",
+      "distanceM": 2906.10009765625,
+      "avgGrade": 0.01032311376184225,
+      "startLat": 31.153160095214844,
+      "startLng": 121.0774917602539
+    },
+    {
+      "id": "27327757",
+      "tileScore": 7,
+      "name": "Shanghai Tour de France 上海环法 - Full Tour (100km)",
+      "distanceM": 100065.796875,
+      "avgGrade": 0.002498356159776449,
+      "startLat": 31.153793334960938,
+      "startLng": 121.20298767089844
+    },
+    {
+      "id": "30744541",
+      "tileScore": 2,
+      "name": "Last effort after lake ",
+      "distanceM": 5985.7998046875,
+      "avgGrade": 0.006682481616735458,
+      "startLat": 31.201217651367188,
+      "startLng": 121.07657623291016
+    },
+    {
+      "id": "3725415",
+      "tileScore": 5,
+      "name": "Xin Le Lu",
+      "distanceM": 7061.44091796875,
+      "avgGrade": 0.04814909026026726,
+      "startLat": 31.18485450744629,
+      "startLng": 120.99977111816406
+    },
+    {
+      "id": "36962149",
+      "tileScore": 42,
+      "name": "蟠龙天地走到底",
+      "distanceM": 18617.099609375,
+      "avgGrade": -0.021485622972249985,
+      "startLat": 31.188560485839844,
+      "startLng": 121.2720718383789
+    },
+    {
+      "id": "27310647",
+      "tileScore": 4,
+      "name": "Shanghai Tour de France 上海环法 - Longwy-Lille",
+      "distanceM": 7654.2998046875,
+      "avgGrade": 0.014371007680892944,
+      "startLat": 31.19185447692871,
+      "startLng": 121.17996215820312
+    },
+    {
+      "id": "40357429",
+      "tileScore": 7,
+      "name": "青赵公路（白石公路-北青公路路口）",
+      "distanceM": 7421.2001953125,
+      "avgGrade": -0.006737454328685999,
+      "startLat": 31.245920181274414,
+      "startLng": 121.08159637451172
+    },
+    {
+      "id": "40318600",
+      "tileScore": 2,
+      "name": "SHA: Qingpu Red Carpet (lane along the river to Huijin Rd), 3.7km ",
+      "distanceM": 3618.10009765625,
+      "avgGrade": -0.0386943444609642,
+      "startLat": 31.167478561401367,
+      "startLng": 121.1106185913086
+    },
+    {
+      "id": "33091134",
+      "tileScore": 17,
+      "name": "吃完kfc就骑的动了",
+      "distanceM": 1546.800048828125,
+      "avgGrade": 0.025859838351607323,
+      "startLat": 31.162662506103516,
+      "startLng": 121.08109283447266
+    },
+    {
+      "id": "27310665",
+      "tileScore": 2,
+      "name": "Shanghai Tour de France 上海环法 - Roubaix-Dunkerque",
+      "distanceM": 1352.0999755859375,
+      "avgGrade": -0.05177132040262222,
+      "startLat": 31.189327239990234,
+      "startLng": 121.09945678710938
+    },
+    {
+      "id": "40318658",
+      "tileScore": 4,
+      "name": "SHA: Dianshan Lake - Songze Rd (channel path), 21km",
+      "distanceM": 21030.5,
+      "avgGrade": -0.001901999581605196,
+      "startLat": 31.148513793945312,
+      "startLng": 120.99622344970703
+    }
+  ]
+}

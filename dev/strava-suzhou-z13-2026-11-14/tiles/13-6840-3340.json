@@ -1,0 +1,38 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-14T07:07:45.828Z",
+  "tile": {
+    "z": 13,
+    "x": 6840,
+    "y": 3340
+  },
+  "segments": [
+    {
+      "id": "41951095",
+      "tileScore": 4,
+      "name": "Long way to the bridge ",
+      "distanceM": 27068.599609375,
+      "avgGrade": -0.009605225175619125,
+      "startLat": 31.52006721496582,
+      "startLng": 120.57653045654297
+    },
+    {
+      "id": "33914204",
+      "tileScore": 12,
+      "name": "CAO Lake Full Circle",
+      "distanceM": 7479.2998046875,
+      "avgGrade": -0.010696188546717167,
+      "startLat": 31.471534729003906,
+      "startLng": 120.58929443359375
+    },
+    {
+      "id": "39060888",
+      "tileScore": 10,
+      "name": "漕湖该死的路桩",
+      "distanceM": 1196.9000244140625,
+      "avgGrade": 0.016709832474589348,
+      "startLat": 31.471664428710938,
+      "startLng": 120.5889663696289
+    }
+  ]
+}

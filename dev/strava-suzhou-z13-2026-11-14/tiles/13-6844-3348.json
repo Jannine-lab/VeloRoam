@@ -1,0 +1,47 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-14T07:15:01.676Z",
+  "tile": {
+    "z": 13,
+    "x": 6844,
+    "y": 3348
+  },
+  "segments": [
+    {
+      "id": "38954443",
+      "tileScore": 4,
+      "name": "TongJing RD E to W",
+      "distanceM": 28885.30078125,
+      "avgGrade": -0.04777516424655914,
+      "startLat": 31.166654586791992,
+      "startLng": 120.9546127319336
+    },
+    {
+      "id": "4081071",
+      "tileScore": 9,
+      "name": "Southern Ride through Countryside",
+      "distanceM": 7996,
+      "avgGrade": 0.001250625355169177,
+      "startLat": 31.177043914794922,
+      "startLng": 120.7610092163086
+    },
+    {
+      "id": "41451629",
+      "tileScore": 11,
+      "name": "呼吸负氧离子",
+      "distanceM": 2773.60009765625,
+      "avgGrade": -0.028843380510807037,
+      "startLat": 31.160579681396484,
+      "startLng": 120.80882263183594
+    },
+    {
+      "id": "41474575",
+      "tileScore": 7,
+      "name": "Huangnidou ",
+      "distanceM": 2805,
+      "avgGrade": -0.06417112052440643,
+      "startLat": 31.196212768554688,
+      "startLng": 120.78831481933594
+    }
+  ]
+}

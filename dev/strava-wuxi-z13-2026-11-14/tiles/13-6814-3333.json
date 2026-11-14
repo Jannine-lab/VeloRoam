@@ -1,0 +1,20 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-14T07:13:19.102Z",
+  "tile": {
+    "z": 13,
+    "x": 6814,
+    "y": 3333
+  },
+  "segments": [
+    {
+      "id": "38286764",
+      "tileScore": 9,
+      "name": "直别公路（N-S）",
+      "distanceM": 9408.2998046875,
+      "avgGrade": 0.03401251882314682,
+      "startLat": 31.826839447021484,
+      "startLng": 119.43852996826172
+    }
+  ]
+}

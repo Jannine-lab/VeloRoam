@@ -1,0 +1,38 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-14T07:10:13.307Z",
+  "tile": {
+    "z": 13,
+    "x": 6833,
+    "y": 3328
+  },
+  "segments": [
+    {
+      "id": "38822987",
+      "tileScore": 2,
+      "name": "芙蓉湖公园绕圈",
+      "distanceM": 2424.10009765625,
+      "avgGrade": -0.04125242307782173,
+      "startLat": 31.930017471313477,
+      "startLng": 120.2902603149414
+    },
+    {
+      "id": "12351061",
+      "tileScore": 26,
+      "name": "JiangYin Huangshan",
+      "distanceM": 791.4000244140625,
+      "avgGrade": 6.570634365081787,
+      "startLat": 31.928375244140625,
+      "startLng": 120.27623748779297
+    },
+    {
+      "id": "39530473",
+      "tileScore": 2,
+      "name": "XBL250611",
+      "distanceM": 5507.60009765625,
+      "avgGrade": 0,
+      "startLat": 31.91655731201172,
+      "startLng": 120.23908233642578
+    }
+  ]
+}

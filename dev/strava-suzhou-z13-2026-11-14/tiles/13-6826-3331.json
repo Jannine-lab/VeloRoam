@@ -1,0 +1,56 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-14T07:10:20.891Z",
+  "tile": {
+    "z": 13,
+    "x": 6826,
+    "y": 3331
+  },
+  "segments": [
+    {
+      "id": "3607703",
+      "tileScore": 3,
+      "name": "JinLing Drag",
+      "distanceM": 6760.0498046875,
+      "avgGrade": -0.21153846383094788,
+      "startLat": 31.780345916748047,
+      "startLng": 119.95416259765625
+    },
+    {
+      "id": "20790712",
+      "tileScore": 3,
+      "name": "Tong Jiang Lu",
+      "distanceM": 4942.2001953125,
+      "avgGrade": -0.01214034203439951,
+      "startLat": 31.830806732177734,
+      "startLng": 119.97349548339844
+    },
+    {
+      "id": "36651195",
+      "tileScore": 50,
+      "name": "寻风之旅-横塘河绕圈",
+      "distanceM": 2023.9000244140625,
+      "avgGrade": 0.009881910867989063,
+      "startLat": 31.799606323242188,
+      "startLng": 120.00762939453125
+    },
+    {
+      "id": "39031079",
+      "tileScore": 9,
+      "name": "出门遛弯啦",
+      "distanceM": 1349,
+      "avgGrade": -0.6226834654808044,
+      "startLat": 31.805885314941406,
+      "startLng": 119.98582458496094
+    },
+    {
+      "id": "12694232",
+      "tileScore": 4,
+      "name": "Jiulongcang loop",
+      "distanceM": 2308.89990234375,
+      "avgGrade": -0.034648533910512924,
+      "startLat": 31.824308395385742,
+      "startLng": 119.9897232055664
+    }
+  ]
+}

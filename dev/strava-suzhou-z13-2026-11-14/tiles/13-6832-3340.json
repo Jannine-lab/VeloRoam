@@ -1,0 +1,218 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-14T07:06:14.739Z",
+  "tile": {
+    "z": 13,
+    "x": 6832,
+    "y": 3340
+  },
+  "segments": [
+    {
+      "id": "26407714",
+      "tileScore": 4,
+      "name": "江大校内绕圈（不过曲水桥）",
+      "distanceM": 3525.199951171875,
+      "avgGrade": -0.05106092989444733,
+      "startLat": 31.482484817504883,
+      "startLng": 120.2632064819336
+    },
+    {
+      "id": "17009345",
+      "tileScore": 4,
+      "name": "Pig, just a joke..",
+      "distanceM": 10603.5,
+      "avgGrade": -0.033007968217134476,
+      "startLat": 31.488378524780273,
+      "startLng": 120.3644027709961
+    },
+    {
+      "id": "12893174",
+      "tileScore": 11,
+      "name": "Zhenze Rd (Shanshui E Rd → Yuanxi Rd)",
+      "distanceM": 747.2999877929688,
+      "avgGrade": 0.401445209980011,
+      "startLat": 31.477031707763672,
+      "startLng": 120.25409698486328
+    },
+    {
+      "id": "20963967",
+      "tileScore": 6,
+      "name": "last chance",
+      "distanceM": 407.3999938964844,
+      "avgGrade": -0.8836524486541748,
+      "startLat": 31.495010375976562,
+      "startLng": 120.27334594726562
+    },
+    {
+      "id": "20963825",
+      "tileScore": 18,
+      "name": "江大battle",
+      "distanceM": 710.9000244140625,
+      "avgGrade": -0.14066676795482635,
+      "startLat": 31.493614196777344,
+      "startLng": 120.2584457397461
+    },
+    {
+      "id": "31103756",
+      "tileScore": 4,
+      "name": "Full trail 卧龙山庄-宝界山",
+      "distanceM": 6887.39990234375,
+      "avgGrade": -0.6359438896179199,
+      "startLat": 31.46829605102539,
+      "startLng": 120.2383041381836
+    },
+    {
+      "id": "3885082",
+      "tileScore": 117,
+      "name": "Climb@Shanshui  Nanyang[南洋学校爬坡 铺装路on-road]",
+      "distanceM": 578.6799926757812,
+      "avgGrade": 6.393641471862793,
+      "startLat": 31.496164321899414,
+      "startLng": 120.24120330810547
+    },
+    {
+      "id": "6947209",
+      "tileScore": 30,
+      "name": "3km@Shanshui E.Rd.[山水东路3公里铺装路on-road]",
+      "distanceM": 3047.300048828125,
+      "avgGrade": 0.09188462048768997,
+      "startLat": 31.5157527923584,
+      "startLng": 120.23865509033203
+    },
+    {
+      "id": "32656185",
+      "tileScore": 6,
+      "name": "缘溪冲刺",
+      "distanceM": 532.9000244140625,
+      "avgGrade": 0,
+      "startLat": 31.494184494018555,
+      "startLng": 120.25820922851562
+    },
+    {
+      "id": "23672604",
+      "tileScore": 24,
+      "name": " MT.  Loop clockwise",
+      "distanceM": 7947.2001953125,
+      "avgGrade": 0,
+      "startLat": 31.4616641998291,
+      "startLng": 120.25032043457031
+    },
+    {
+      "id": "3912790",
+      "tileScore": 3,
+      "name": "Shanshui West Road Climb",
+      "distanceM": 441.70001220703125,
+      "avgGrade": 24.971698760986328,
+      "startLat": 31.48807716369629,
+      "startLng": 120.25037384033203
+    },
+    {
+      "id": "19530265",
+      "tileScore": 2,
+      "name": "XC Climb@Baojieshan last trail[宝界山终段XC爬坡]",
+      "distanceM": 771.7000122070312,
+      "avgGrade": 5.68873929977417,
+      "startLat": 31.501420974731445,
+      "startLng": 120.23448944091797
+    },
+    {
+      "id": "26407590",
+      "tileScore": 1,
+      "name": "曲水桥 全程 （南-北）",
+      "distanceM": 365.8999938964844,
+      "avgGrade": 0.3826182186603546,
+      "startLat": 31.48091697692871,
+      "startLng": 120.2682876586914
+    },
+    {
+      "id": "8520487",
+      "tileScore": 1,
+      "name": "Climb@Nanyang trail[南洋学校坡顶出发越野爬坡off-road]",
+      "distanceM": 1274.4000244140625,
+      "avgGrade": 3.46829891204834,
+      "startLat": 31.493282318115234,
+      "startLng": 120.23796844482422
+    },
+    {
+      "id": "36836607",
+      "tileScore": 28,
+      "name": "bingo",
+      "distanceM": 21878.69921875,
+      "avgGrade": -0.01828262209892273,
+      "startLat": 31.476436614990234,
+      "startLng": 120.25367736816406
+    },
+    {
+      "id": "26084889",
+      "tileScore": 22,
+      "name": "长广溪绕圈(起终点在缘溪道江大门口对面垃圾桶，顺时针绕圈)",
+      "distanceM": 5022.89990234375,
+      "avgGrade": -0.01990881748497486,
+      "startLat": 31.49262809753418,
+      "startLng": 120.25787353515625
+    },
+    {
+      "id": "35145102",
+      "tileScore": 14,
+      "name": "大浮大圈顺时针 长广溪桥起终点",
+      "distanceM": 21947.099609375,
+      "avgGrade": 0.008201539516448975,
+      "startLat": 31.493125915527344,
+      "startLng": 120.2537612915039
+    },
+    {
+      "id": "26084908",
+      "tileScore": 20,
+      "name": "山水东路(南-北，震泽路口-高浪路口，长广溪绕圈后半段)",
+      "distanceM": 1705.5999755859375,
+      "avgGrade": 0.0938086286187172,
+      "startLat": 31.47798728942871,
+      "startLng": 120.25389099121094
+    },
+    {
+      "id": "5513572",
+      "tileScore": 20,
+      "name": "Xuelangshan Climb",
+      "distanceM": 1460.5999755859375,
+      "avgGrade": 1.0132821798324585,
+      "startLat": 31.46674156188965,
+      "startLng": 120.2489242553711
+    },
+    {
+      "id": "39474044",
+      "tileScore": 38,
+      "name": "公交站冲刺！",
+      "distanceM": 554.4000244140625,
+      "avgGrade": 0.7575757503509521,
+      "startLat": 31.499670028686523,
+      "startLng": 120.2529067993164
+    },
+    {
+      "id": "8034576",
+      "tileScore": 6,
+      "name": "Changguangxiqiao - Shangshui  - Yuanxi Rd. Circle anti-clockwise[长广溪桥-山水东路-缘溪道(逆时针绕圈)]",
+      "distanceM": 20233.400390625,
+      "avgGrade": 0.03558472543954849,
+      "startLat": 31.49383544921875,
+      "startLng": 120.25764465332031
+    },
+    {
+      "id": "35445875",
+      "tileScore": 5,
+      "name": "吴都路西至东-cheng",
+      "distanceM": 4708.60009765625,
+      "avgGrade": -0.06158943474292755,
+      "startLat": 31.4837703704834,
+      "startLng": 120.27407836914062
+    },
+    {
+      "id": "35446087",
+      "tileScore": 17,
+      "name": "山水西路顺时针按摩大腿-cheng",
+      "distanceM": 11360.599609375,
+      "avgGrade": -0.04225129261612892,
+      "startLat": 31.425649642944336,
+      "startLng": 120.22897338867188
+    }
+  ]
+}

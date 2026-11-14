@@ -1,0 +1,128 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-14T07:07:11.858Z",
+  "tile": {
+    "z": 13,
+    "x": 6836,
+    "y": 3344
+  },
+  "segments": [
+    {
+      "id": "12363347",
+      "tileScore": 4,
+      "name": "Taihu Ave (Tayuan Rd → S230)",
+      "distanceM": 14132.2001953125,
+      "avgGrade": 0.0028304157312959433,
+      "startLat": 31.329225540161133,
+      "startLng": 120.5454330444336
+    },
+    {
+      "id": "10207112",
+      "tileScore": 4,
+      "name": "Emer's Ellipse",
+      "distanceM": 2989.300048828125,
+      "avgGrade": -0.03345264866948128,
+      "startLat": 31.318822860717773,
+      "startLng": 120.41950225830078
+    },
+    {
+      "id": "32007455",
+      "tileScore": 3,
+      "name": "诺贝尔湖绕圈",
+      "distanceM": 2930.89990234375,
+      "avgGrade": -0.08870995044708252,
+      "startLat": 31.33897590637207,
+      "startLng": 120.42744445800781
+    },
+    {
+      "id": "23130028",
+      "tileScore": 3,
+      "name": "crossing the small hill ",
+      "distanceM": 3302.39990234375,
+      "avgGrade": 0.018168604001402855,
+      "startLat": 31.323909759521484,
+      "startLng": 120.4344482421875
+    },
+    {
+      "id": "22815723",
+      "tileScore": 9,
+      "name": "Taihu Avenue Bridge 2 (Westbound)",
+      "distanceM": 604.5,
+      "avgGrade": 1.6542596817016602,
+      "startLat": 31.328895568847656,
+      "startLng": 120.4444808959961
+    },
+    {
+      "id": "34613531",
+      "tileScore": 9,
+      "name": "镇湖绿豆汤至建林路",
+      "distanceM": 16606.599609375,
+      "avgGrade": 0.010839063674211502,
+      "startLat": 31.32973861694336,
+      "startLng": 120.34431457519531
+    },
+    {
+      "id": "37437294",
+      "tileScore": 9,
+      "name": "Tour of Yangshan shushan",
+      "distanceM": 13662.099609375,
+      "avgGrade": -0.004391711205244064,
+      "startLat": 31.326528549194336,
+      "startLng": 120.466064453125
+    },
+    {
+      "id": "23927574",
+      "tileScore": 1,
+      "name": "科技城至吴中大道",
+      "distanceM": 22233.900390625,
+      "avgGrade": -0.001799054560251534,
+      "startLat": 31.339780807495117,
+      "startLng": 120.42162322998047
+    },
+    {
+      "id": "10207173",
+      "tileScore": 3,
+      "name": "Triple Bump (Eastbound)",
+      "distanceM": 940.7999877929688,
+      "avgGrade": 2.9549319744110107,
+      "startLat": 31.327165603637695,
+      "startLng": 120.41848754882812
+    },
+    {
+      "id": "29597248",
+      "tileScore": 7,
+      "name": "Speedway Highway kilometre",
+      "distanceM": 1022.7000122070312,
+      "avgGrade": 0.09778038412332535,
+      "startLat": 31.324012756347656,
+      "startLng": 120.46223449707031
+    },
+    {
+      "id": "11899456",
+      "tileScore": 2,
+      "name": "X007 (Southbound to 412 Country Rd)",
+      "distanceM": 2936.89990234375,
+      "avgGrade": 0.0408594086766243,
+      "startLat": 31.3209171295166,
+      "startLng": 120.44722747802734
+    },
+    {
+      "id": "39891568",
+      "tileScore": 5,
+      "name": "苏州五峰环线 （玉山路起止）",
+      "distanceM": 33626.3984375,
+      "avgGrade": 0.008326790295541286,
+      "startLat": 31.283851623535156,
+      "startLng": 120.51029968261719
+    },
+    {
+      "id": "34821346",
+      "tileScore": 22,
+      "name": "秀水大桥",
+      "distanceM": 624.7000122070312,
+      "avgGrade": 0.9924764037132263,
+      "startLat": 31.343534469604492,
+      "startLng": 120.40729522705078
+    }
+  ]
+}

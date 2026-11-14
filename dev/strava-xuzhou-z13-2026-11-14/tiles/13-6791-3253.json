@@ -1,0 +1,20 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-14T06:48:53.264Z",
+  "tile": {
+    "z": 13,
+    "x": 6791,
+    "y": 3253
+  },
+  "segments": [
+    {
+      "id": "28252459",
+      "tileScore": 15,
+      "name": "清泉寺爬坡段",
+      "distanceM": 1846,
+      "avgGrade": 4.658721446990967,
+      "startLat": 34.701717376708984,
+      "startLng": 118.47655487060547
+    }
+  ]
+}

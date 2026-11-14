@@ -1,0 +1,29 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-14T06:56:24.554Z",
+  "tile": {
+    "z": 13,
+    "x": 6830,
+    "y": 3314
+  },
+  "segments": [
+    {
+      "id": "24368130",
+      "tileScore": 13,
+      "name": "Jiangyan - Huangqiao",
+      "distanceM": 29432.30078125,
+      "avgGrade": -0.0115519342944026,
+      "startLat": 32.48557662963867,
+      "startLng": 120.16735076904297
+    },
+    {
+      "id": "31971278",
+      "tileScore": 27,
+      "name": "羊圈绕圈",
+      "distanceM": 16523.80078125,
+      "avgGrade": -0.009683002717792988,
+      "startLat": 32.48612976074219,
+      "startLng": 120.16868591308594
+    }
+  ]
+}

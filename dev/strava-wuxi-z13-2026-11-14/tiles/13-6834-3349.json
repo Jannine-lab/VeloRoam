@@ -1,0 +1,56 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-14T07:08:28.763Z",
+  "tile": {
+    "z": 13,
+    "x": 6834,
+    "y": 3349
+  },
+  "segments": [
+    {
+      "id": "8516722",
+      "tileScore": 65,
+      "name": "3-bridge to xishan ",
+      "distanceM": 7046.60009765625,
+      "avgGrade": 0.022705987095832825,
+      "startLat": 31.21292495727539,
+      "startLng": 120.36573791503906
+    },
+    {
+      "id": "16570084",
+      "tileScore": 36,
+      "name": "XISHAN ITT 1",
+      "distanceM": 11350.2001953125,
+      "avgGrade": 0.05638666823506355,
+      "startLat": 31.16116714477539,
+      "startLng": 120.32637786865234
+    },
+    {
+      "id": "33401272",
+      "tileScore": 47,
+      "name": "东西山超级有氧",
+      "distanceM": 137358.703125,
+      "avgGrade": 0.00873624999076128,
+      "startLat": 31.187084197998047,
+      "startLng": 120.4767837524414
+    },
+    {
+      "id": "26011033",
+      "tileScore": 21,
+      "name": "Xishan Eastern Diversion (CCW)",
+      "distanceM": 5355.60009765625,
+      "avgGrade": 0.018672043457627296,
+      "startLat": 31.111591339111328,
+      "startLng": 120.3166732788086
+    },
+    {
+      "id": "42057618",
+      "tileScore": 7,
+      "name": "Prison Break",
+      "distanceM": 852.9000244140625,
+      "avgGrade": -0.07034822553396225,
+      "startLat": 31.145660400390625,
+      "startLng": 120.34188842773438
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-14T07:08:16.960Z",
+  "tile": {
+    "z": 13,
+    "x": 6838,
+    "y": 3346
+  },
+  "segments": [
+    {
+      "id": "36057269",
+      "tileScore": 3,
+      "name": "灵岩山到取水口",
+      "distanceM": 10924.599609375,
+      "avgGrade": -0.007322922348976135,
+      "startLat": 31.2730655670166,
+      "startLng": 120.50218963623047
+    },
+    {
+      "id": "20535844",
+      "tileScore": 1,
+      "name": "宝袋西路",
+      "distanceM": 13334.7001953125,
+      "avgGrade": -0.014998462982475758,
+      "startLat": 31.2228946685791,
+      "startLng": 120.48023986816406
+    },
+    {
+      "id": "39891568",
+      "tileScore": 5,
+      "name": "苏州五峰环线 （玉山路起止）",
+      "distanceM": 33626.3984375,
+      "avgGrade": 0.008326790295541286,
+      "startLat": 31.283851623535156,
+      "startLng": 120.51029968261719
+    },
+    {
+      "id": "15122625",
+      "tileScore": 6,
+      "name": "Baodai W Rd Tunnel (Westbound)",
+      "distanceM": 407.70001220703125,
+      "avgGrade": -0.2943340539932251,
+      "startLat": 31.242576599121094,
+      "startLng": 120.53559112548828
+    }
+  ]
+}

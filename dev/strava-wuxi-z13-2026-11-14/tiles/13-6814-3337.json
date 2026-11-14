@@ -1,0 +1,20 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-14T07:13:04.934Z",
+  "tile": {
+    "z": 13,
+    "x": 6814,
+    "y": 3337
+  },
+  "segments": [
+    {
+      "id": "33555928",
+      "tileScore": 7,
+      "name": "G233 N-S（沪武高速桥下-城北大道红绿灯🚥）",
+      "distanceM": 26347.19921875,
+      "avgGrade": -0.0015181878115981817,
+      "startLat": 31.692405700683594,
+      "startLng": 119.53268432617188
+    }
+  ]
+}

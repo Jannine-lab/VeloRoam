@@ -1,0 +1,20 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-14T07:20:04.757Z",
+  "tile": {
+    "z": 13,
+    "x": 6835,
+    "y": 3360
+  },
+  "segments": [
+    {
+      "id": "28885832",
+      "tileScore": 72,
+      "name": "花乌线（东向西）",
+      "distanceM": 4372.2001953125,
+      "avgGrade": -0.022871781140565872,
+      "startLat": 30.741544723510742,
+      "startLng": 120.45149993896484
+    }
+  ]
+}

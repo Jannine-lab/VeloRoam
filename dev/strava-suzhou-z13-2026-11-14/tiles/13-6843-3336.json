@@ -1,0 +1,65 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-14T07:15:53.286Z",
+  "tile": {
+    "z": 13,
+    "x": 6843,
+    "y": 3336
+  },
+  "segments": [
+    {
+      "id": "12914431",
+      "tileScore": 33,
+      "name": "Shanghu Bridge to Yanyu",
+      "distanceM": 3802,
+      "avgGrade": 0.02104155719280243,
+      "startLat": 31.655424118041992,
+      "startLng": 120.69327545166016
+    },
+    {
+      "id": "38431061",
+      "tileScore": 1,
+      "name": "元和路",
+      "distanceM": 4457.10009765625,
+      "avgGrade": -0.01794889196753502,
+      "startLat": 31.621219635009766,
+      "startLng": 120.6961898803711
+    },
+    {
+      "id": "35372613",
+      "tileScore": 11,
+      "name": "环城西路老常熟人冲刺梆梆硬",
+      "distanceM": 846.4000244140625,
+      "avgGrade": -0.04725898057222366,
+      "startLat": 31.64055061340332,
+      "startLng": 120.73502349853516
+    },
+    {
+      "id": "12914413",
+      "tileScore": 21,
+      "name": "Shanghu Bottom Corner CCW",
+      "distanceM": 4025.699951171875,
+      "avgGrade": -0.03974464163184166,
+      "startLat": 31.630369186401367,
+      "startLng": 120.71864318847656
+    },
+    {
+      "id": "19483559",
+      "tileScore": 283,
+      "name": "虞山南坡（动物园～三岔口）",
+      "distanceM": 3478.300048828125,
+      "avgGrade": 6.117930889129639,
+      "startLat": 31.65123176574707,
+      "startLng": 120.73330688476562
+    },
+    {
+      "id": "32385399",
+      "tileScore": 53,
+      "name": "虞山南路(到尚湖大桥)",
+      "distanceM": 3484.699951171875,
+      "avgGrade": 0.07461187243461609,
+      "startLat": 31.647619247436523,
+      "startLng": 120.72957611083984
+    }
+  ]
+}

@@ -1,0 +1,74 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-14T07:06:50.876Z",
+  "tile": {
+    "z": 13,
+    "x": 6835,
+    "y": 3344
+  },
+  "segments": [
+    {
+      "id": "34821346",
+      "tileScore": 22,
+      "name": "秀水大桥",
+      "distanceM": 624.7000122070312,
+      "avgGrade": 0.9924764037132263,
+      "startLat": 31.343534469604492,
+      "startLng": 120.40729522705078
+    },
+    {
+      "id": "23130028",
+      "tileScore": 3,
+      "name": "crossing the small hill ",
+      "distanceM": 3302.39990234375,
+      "avgGrade": 0.018168604001402855,
+      "startLat": 31.323909759521484,
+      "startLng": 120.4344482421875
+    },
+    {
+      "id": "12363347",
+      "tileScore": 4,
+      "name": "Taihu Ave (Tayuan Rd → S230)",
+      "distanceM": 14132.2001953125,
+      "avgGrade": 0.0028304157312959433,
+      "startLat": 31.329225540161133,
+      "startLng": 120.5454330444336
+    },
+    {
+      "id": "14061234",
+      "tileScore": 5,
+      "name": "S230 - Taihu Dadao to Tashan Road",
+      "distanceM": 4752,
+      "avgGrade": -0.033670030534267426,
+      "startLat": 31.344045639038086,
+      "startLng": 120.40119171142578
+    },
+    {
+      "id": "14061227",
+      "tileScore": 9,
+      "name": "S230 - G312 to Taihu Dadao",
+      "distanceM": 8838.900390625,
+      "avgGrade": -0.05430540069937706,
+      "startLat": 31.409561157226562,
+      "startLng": 120.44099426269531
+    },
+    {
+      "id": "34613531",
+      "tileScore": 9,
+      "name": "镇湖绿豆汤至建林路",
+      "distanceM": 16606.599609375,
+      "avgGrade": 0.010839063674211502,
+      "startLat": 31.32973861694336,
+      "startLng": 120.34431457519531
+    },
+    {
+      "id": "34821257",
+      "tileScore": 53,
+      "name": "南大坡（反）",
+      "distanceM": 752.4000244140625,
+      "avgGrade": 0.7708665728569031,
+      "startLat": 31.347848892211914,
+      "startLng": 120.37371063232422
+    }
+  ]
+}

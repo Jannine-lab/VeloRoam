@@ -1,0 +1,20 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-14T06:31:34.455Z",
+  "tile": {
+    "z": 13,
+    "x": 6757,
+    "y": 3273
+  },
+  "segments": [
+    {
+      "id": "39884189",
+      "tileScore": 26,
+      "name": "大黄山东坡",
+      "distanceM": 1536.4000244140625,
+      "avgGrade": 6.560791492462158,
+      "startLat": 33.945526123046875,
+      "startLng": 116.96497344970703
+    }
+  ]
+}

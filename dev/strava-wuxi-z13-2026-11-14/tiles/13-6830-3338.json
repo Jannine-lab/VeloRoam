@@ -1,0 +1,101 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-14T07:06:27.831Z",
+  "tile": {
+    "z": 13,
+    "x": 6830,
+    "y": 3338
+  },
+  "segments": [
+    {
+      "id": "14485953",
+      "tileScore": 330,
+      "name": "马山大圈 Mashan Circuit",
+      "distanceM": 58948.69921875,
+      "avgGrade": 0.0011874731862917542,
+      "startLat": 31.55048942565918,
+      "startLng": 120.18302154541016
+    },
+    {
+      "id": "33153862",
+      "tileScore": 23,
+      "name": "西环路爬坡 铺装路面 25M上升 ",
+      "distanceM": 1348.0999755859375,
+      "avgGrade": 1.8396261930465698,
+      "startLat": 31.550537109375,
+      "startLng": 120.180908203125
+    },
+    {
+      "id": "7311482",
+      "tileScore": 293,
+      "name": "ITT Segment 5km@18 Wan(W-E)[十八湾5公里个人计时赛段 铺装路on-road]",
+      "distanceM": 4950,
+      "avgGrade": -0.19393938779830933,
+      "startLat": 31.515426635742188,
+      "startLng": 120.15125274658203
+    },
+    {
+      "id": "3321667",
+      "tileScore": 66,
+      "name": "Huazang Temple Climb ",
+      "distanceM": 1452.89404296875,
+      "avgGrade": 6.180741786956787,
+      "startLat": 31.54526138305664,
+      "startLng": 120.16704559326172
+    },
+    {
+      "id": "40438609",
+      "tileScore": 15,
+      "name": "渔港路W-E",
+      "distanceM": 4341.7998046875,
+      "avgGrade": 0.05527661368250847,
+      "startLat": 31.550260543823242,
+      "startLng": 120.18736267089844
+    },
+    {
+      "id": "27595855",
+      "tileScore": 15,
+      "name": "立交桥climb",
+      "distanceM": 410.6000061035156,
+      "avgGrade": 3.5070629119873047,
+      "startLat": 31.549306869506836,
+      "startLng": 120.18942260742188
+    },
+    {
+      "id": "34785706",
+      "tileScore": 5,
+      "name": "Jinyuan Rd (W-E) ",
+      "distanceM": 5791.7998046875,
+      "avgGrade": 0.10877446830272675,
+      "startLat": 31.549989700317383,
+      "startLng": 120.18719482421875
+    },
+    {
+      "id": "37154421",
+      "tileScore": 4,
+      "name": "职教园7km圈",
+      "distanceM": 6956.2998046875,
+      "avgGrade": -0.02300073206424713,
+      "startLat": 31.5867862701416,
+      "startLng": 120.18718719482422
+    },
+    {
+      "id": "40411249",
+      "tileScore": 21,
+      "name": "梅园（西-东）",
+      "distanceM": 3601.199951171875,
+      "avgGrade": -0.016661113128066063,
+      "startLat": 31.55154037475586,
+      "startLng": 120.18724060058594
+    },
+    {
+      "id": "7807720",
+      "tileScore": 109,
+      "name": "Climb@Jiulongwan[九龙湾爬坡铺装路]",
+      "distanceM": 1143.5999755859375,
+      "avgGrade": 7.082895755767822,
+      "startLat": 31.557764053344727,
+      "startLng": 120.15879821777344
+    }
+  ]
+}

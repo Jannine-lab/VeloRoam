@@ -1,0 +1,20 @@
+{
+  "source": "strava-map-vector-tile",
+  "capturedAt": "2026-11-14T06:56:47.103Z",
+  "tile": {
+    "z": 13,
+    "x": 6829,
+    "y": 3317
+  },
+  "segments": [
+    {
+      "id": "31132415",
+      "tileScore": 4,
+      "name": "大环线之2高架桥",
+      "distanceM": 3003.800048828125,
+      "avgGrade": 0.013316466473042965,
+      "startLat": 32.32573318481445,
+      "startLng": 120.12661743164062
+    }
+  ]
+}
