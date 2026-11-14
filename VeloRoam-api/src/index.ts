@@ -1,12 +1,12 @@
 import 'dotenv/config';
-import express from 'express';
+import express, { Request, Response, NextFunction } from 'express';
 import cors from 'cors';
 import { resolve } from 'node:path';
 import { createHash, timingSafeEqual } from 'node:crypto';
 import { allowLocalDebug } from './controllers/routeGeneratorDebugController';
 import routeRoutes from './routes/routeRoutes';
 import crawlerRoutes from './routes/crawlerRoutes';
-import { initDatabase } from './config/db';
+import { initDatabase, pool } from './config/db';
 import { startStravaCrawler } from './scripts/stravaCrawler';
 import { startAmapHotPointCrawler } from './scripts/amapHotPointCrawler';
 
@@ -18,7 +18,7 @@ app.use(cors());
 app.use(express.json());
 
 // Authentication is enforced by the server, never by the HTML page.
-app.get('/observer', (req, res) => {
+function observerAuth(req: Request, res: Response, next: NextFunction) {
   res.set('Cache-Control', 'no-store');
   const username = process.env.OBSERVER_USERNAME;
   const password = process.env.OBSERVER_PASSWORD;
@@ -34,7 +34,33 @@ app.get('/observer', (req, res) => {
     res.set('WWW-Authenticate', 'Basic realm="VeloRoam Observer", charset="UTF-8"');
     return res.status(401).send('Authentication required');
   }
-  return res.sendFile(resolve(process.env.OBSERVER_HTML_PATH || resolve(__dirname, '../../VeloRoam-ui/observer.html')));
+  return next();
+}
+
+app.get('/observer', observerAuth, (_req, res) => {
+  res.sendFile(resolve(process.env.OBSERVER_HTML_PATH || resolve(__dirname, '../../VeloRoam-ui/observer.html')));
+});
+
+app.post('/api/observer/events', async (req, res) => {
+  const { type, session, data } = req.body || {};
+  if (!['visit', 'route', 'location'].includes(type) || typeof session !== 'string' || !/^[a-f0-9-]{36}$/.test(session) || !data || typeof data !== 'object' || Array.isArray(data) || JSON.stringify(data).length > 20000) return res.status(400).json({ error: 'Invalid event' });
+  try {
+    await pool.execute('INSERT INTO observer_events (event_type, session_id, data, user_agent) VALUES (?, ?, ?, ?)', [type, session, JSON.stringify(data), (req.get('user-agent') || '').slice(0, 512)]);
+    return res.status(204).end();
+  } catch (error) {
+    console.error('Observer event storage failed:', error);
+    return res.status(503).json({ error: 'Storage unavailable' });
+  }
+});
+
+app.get('/api/observer/events', observerAuth, async (_req, res) => {
+  try {
+    const [rows] = await pool.query('SELECT id, created_at, event_type, session_id, data, user_agent FROM observer_events ORDER BY id DESC LIMIT 200');
+    return res.json({ events: rows });
+  } catch (error) {
+    console.error('Observer read failed:', error);
+    return res.status(503).json({ error: 'Storage unavailable' });
+  }
 });
 
 // Local-only, explicitly enabled development visualizer.
@@ -68,6 +94,7 @@ app.listen(Number(port), '0.0.0.0', async () => {
 
   // 🔄 异步初始化数据库，防止 DB 连不上阻塞 Web 进程启动
   try {
+    await pool.query(`CREATE TABLE IF NOT EXISTS observer_events (id BIGINT UNSIGNED NOT NULL AUTO_INCREMENT PRIMARY KEY, created_at TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP, event_type VARCHAR(16) NOT NULL, session_id CHAR(36) NOT NULL, data JSON NOT NULL, user_agent VARCHAR(512) NOT NULL, INDEX (created_at)) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4`);
     await initDatabase();
     
     // 如果配置了启用爬虫，则拉起后台扫描任务

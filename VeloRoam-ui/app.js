@@ -479,6 +479,7 @@ function initializeLocation() {
       async (position) => {
         const lat = position.coords.latitude;
         const lng = position.coords.longitude;
+        window.veloroamObserverLocation?.({ latitude: lat, longitude: lng, accuracy: position.coords.accuracy });
 
         origin = { lat, lng };
         originLocationSource = 'gps';

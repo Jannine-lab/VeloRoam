@@ -1,17 +1,23 @@
 <!doctype html>
-<html lang="zh-CN">
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width,initial-scale=1">
-  <meta name="robots" content="noindex, nofollow">
-  <title>VeloRoam · 访问观察</title>
-  <style>
-    body{font:16px/1.6 system-ui,sans-serif;background:#f4f6f3;color:#17261d;margin:0}
-    main{max-width:880px;margin:8vh auto;padding:0 24px}
-    .card{background:white;border:1px solid #e0e8e1;border-radius:18px;padding:28px}
-    .eyebrow{color:#447656;font-weight:700;letter-spacing:.08em;font-size:.8rem}
-    h1{font-size:2rem;margin:.4em 0}p{color:#56665b}
-  </style>
-</head>
-<body><main><div class="eyebrow">VELOROAM / OBSERVER</div><h1>访问观察</h1><section class="card"><h2>尚无统计数据</h2><p>访问和骑行数据的采集、存储与展示尚未接入。</p></section></main></body>
-</html>
+<html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="robots" content="noindex,nofollow"><title>VeloRoam · 访问观察</title><style>
+:root{font:16px/1.5 system-ui,sans-serif;color:#182920;background:#f3f6f3}body{margin:0}main{max-width:1000px;margin:auto;padding:32px 20px}header{display:flex;align-items:center;justify-content:space-between;gap:16px;flex-wrap:wrap}h1{margin:4px 0}small{color:#52725e}.card{background:white;border:1px solid #dfe9e0;border-radius:16px;padding:20px;margin:16px 0}button{border:0;border-radius:9px;background:#275c3e;color:white;padding:10px 16px;cursor:pointer}pre{white-space:pre-wrap;overflow-wrap:anywhere;font-size:13px;background:#f4f7f4;padding:12px;border-radius:8px}details{border-top:1px solid #e8eee8;padding:12px 0}summary{cursor:pointer}p{color:#56665b}
+</style></head><body><main><header><div><small>VELOROAM / OBSERVER</small><h1>访问观察</h1><p>仅显示访客同意采集后的记录，按时间倒序排列，最多显示最近 200 条。</p></div><button id="refresh">刷新</button></header><section class="card"><div id="status" role="status">正在读取…</div><div id="events"></div></section></main><script>
+const statusEl = document.getElementById('status'), eventsEl = document.getElementById('events');
+async function load() {
+ statusEl.textContent = '正在读取…'; eventsEl.replaceChildren();
+ try {
+  const response = await fetch('/api/observer/events', {cache:'no-store'});
+  if (!response.ok) throw new Error(response.status === 401 ? '身份验证失败，请重新登录。' : `读取失败（${response.status}）。请检查数据库及后端服务。`);
+  const {events} = await response.json();
+  statusEl.textContent = events.length ? `最近 ${events.length} 条记录` : '暂无记录。访客同意采集后，新访问才会显示在这里。';
+  for (const event of events) {
+   const detail = document.createElement('details'), summary = document.createElement('summary'), pre = document.createElement('pre');
+   const labels = {visit:'访问',route:'路线规划',location:'定位'};
+   summary.textContent = `${new Date(event.created_at).toLocaleString('zh-CN')} · ${labels[event.event_type] || event.event_type} · 会话 ${event.session_id}`;
+   pre.textContent = JSON.stringify({数据:event.data, 浏览器:event.user_agent}, null, 2);
+   detail.append(summary, pre); eventsEl.append(detail);
+  }
+ } catch (error) { statusEl.textContent = error.message || '读取失败'; }
+}
+document.getElementById('refresh').addEventListener('click', load); load();
+</script></body></html>
