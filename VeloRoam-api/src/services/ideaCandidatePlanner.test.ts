@@ -59,3 +59,26 @@ test('respects a bounded number of routing attempts', async () => {
   await compareRouteCandidates(choices, {}, async () => { calls++; return route(10); });
   assert.equal(calls, 6);
 });
+
+test('retains safe reasons for provider failure and budget rejection', async () => {
+  const { RouteConnectionError } = await import('./ideaRouteService');
+  const failures: import('./ideaCandidatePlanner').CandidateFailure[] = [];
+  const result = await compareRouteCandidates([{ stops: stops('service'), priority: 0 }, { stops: stops('too-long'), priority: 1 }], { maxKm: 30 }, async value => {
+    if (value[0].name === 'service') throw new RouteConnectionError('rate_limited', 'to_first_stop', 'secret');
+    return route(40);
+  }, 6, failures);
+  assert.equal(result, null);
+  assert.deepEqual(failures, [{ kind: 'navigation', reason: 'rate_limited', stage: 'to_first_stop' }, { kind: 'above_distance' }]);
+  assert.doesNotMatch(JSON.stringify(failures), /secret/);
+});
+
+test('limits concurrent candidate builds while keeping all six alternatives eligible', async () => {
+  const choices = Array.from({ length: 6 }, (_, i) => ({ stops: stops(String(i)), priority: i }));
+  let active = 0, maximum = 0, count = 0;
+  const result = await compareRouteCandidates(choices, {}, async value => {
+    active++; maximum = Math.max(maximum, active); count++;
+    await new Promise(resolve => setTimeout(resolve, 5));
+    active--; return route(10 + Number(value[0].name));
+  });
+  assert.equal(count, 6); assert.ok(maximum <= 3); assert.equal(result?.stops[0].name, '0');
+});

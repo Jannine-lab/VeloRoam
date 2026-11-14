@@ -81,3 +81,19 @@ test('reports measured junction gap without fabricating geometry', async () => {
   assert.ok(route.continuity!.maxGapMeters > 10 && route.continuity!.maxGapMeters < 15);
   assert.equal(route.legs.length, 2);
 });
+
+test('preserves safe provider failure reason and which leg failed', async () => {
+  const { AmapBicyclingError } = await import('./amapFewestSignalService');
+  const { RouteConnectionError } = await import('./ideaRouteService');
+  let count = 0;
+  await assert.rejects(buildIdeaRoute(start, '起点', start, '返回起点', [{ type: 'segment', name: '路段', coordinates: [segmentStart, segmentEnd] }], async (a, b) => {
+    if (++count === 2) throw new AmapBicyclingError('rate_limited');
+    return roads(a, b);
+  }), (error: any) => error instanceof RouteConnectionError && error.reason === 'rate_limited' && error.stage === 'to_destination');
+});
+
+test('identifies endpoint mismatch rather than silently accepting an unverified gap', async () => {
+  const { RouteConnectionError } = await import('./ideaRouteService');
+  await assert.rejects(buildIdeaRoute(start, '起点', cafe, '终点', [], async (_a, b) => [{ points: [{ lat: 32, lng: 122 }, b], polyline: 'x', distanceKm: 2, durationMin: 10 }]),
+    (error: any) => error instanceof RouteConnectionError && error.reason === 'endpoint_mismatch');
+});

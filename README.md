@@ -135,3 +135,7 @@ npm run eval:idea -- --concurrency=2
 ## 许可
 
 后端 `package.json` 声明许可证为 ISC；仓库目前未提供单独的根目录许可证文件。第三方图标许可见 [图标许可证](VeloRoam-ui/assets/icons/LICENSE)。
+
+## 管理员入口
+
+API 提供 `GET /observer`。设置 `OBSERVER_USERNAME` 和强随机 `OBSERVER_PASSWORD`，并在反向代理中将 `/observer` 转发至 API（保留 `Authorization` 请求头）。仅通过 HTTPS 使用并在代理层限制登录尝试；未配置凭据时入口返回 503。页面默认读取项目中的 `VeloRoam-ui/observer.html`；部署时如目录布局不同，通过 `OBSERVER_HTML_PATH` 指定其绝对路径。API Docker 镜像不包含前端文件，须挂载该文件并设置此变量。当前页面尚未接入数据采集或展示。

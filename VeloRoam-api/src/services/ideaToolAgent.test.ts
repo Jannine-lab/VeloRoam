@@ -96,3 +96,100 @@ test('the request deadline aborts model work and is cleaned up after failure', a
   await assert.rejects(runIdeaToolAgent({ ...defaults(), deadlineMs: 10, callModel: async (_messages, _final, signal) =>
     new Promise((_resolve, reject) => signal.addEventListener('abort', () => reject(new Error('aborted')), { once: true })) }), /aborted/);
 });
+
+test('nearby search uses trusted origin, bounds radius and returns summaries rather than geometry', async () => {
+  let turns = 0; let callsMade = 0;
+  const center = { lat: 31.2, lng: 121.4 };
+  await runIdeaToolAgent({ ...defaults(), location: { point: center, source: 'gps' },
+    nearby: async (point, radius) => { callsMade++; assert.deepEqual(point, center); assert.equal(radius, 5); return [candidate, { ...candidate, id: 'segment:2', lat: 32 }]; },
+    callModel: async messages => {
+      if (!turns++) return calls({ name: 'search_nearby_candidates', args: { centerId: null, radiusKm: 5, type: 'segment' }, id: 'near' });
+      const result = JSON.parse(String(messages.at(-1)!.content));
+      assert.equal(result.centerSource, 'gps'); assert.deepEqual(result.candidates.map((item: Candidate) => item.id), [candidate.id]);
+      assert.doesNotMatch(String(messages.at(-1)!.content), /coordinates/); return final();
+    }
+  });
+  assert.equal(callsMade, 1);
+});
+
+test('nearby search rejects untrusted IDs and invalid radius before backend access', async () => {
+  let turns = 0, reads = 0;
+  const options = defaults();
+  await runIdeaToolAgent({ ...options, location: { point: { lat: 31.2, lng: 121.4 }, source: 'map_center' }, nearby: async () => { reads++; return []; },
+    callModel: async messages => {
+      if (!turns++) return calls(
+        { name: 'search_nearby_candidates', args: { centerId: 'segment:999', radiusKm: 5, type: 'all' }, id: 'unknown' },
+        { name: 'search_nearby_candidates', args: { centerId: null, radiusKm: 5000, type: 'all' }, id: 'oversized' });
+      assert.equal(JSON.parse(String(messages.at(-2)!.content)).status, 'not_found'); return final();
+    }
+  });
+  assert.equal(reads, 0); assert.deepEqual(options.metrics.toolCalls.map(x => x.status), ['ok', 'invalid']);
+});
+
+test('planning is unavailable before confirmation and uses only confirmed backend input', async () => {
+  let turns = 0;
+  const first = defaults();
+  await runIdeaToolAgent({ ...first, callModel: async () => !turns++ ? calls({ name: 'plan_cycling_route', args: {}, id: 'not-allowed' }) : final() });
+  assert.equal(first.metrics.toolCalls[0].status, 'invalid');
+  turns = 0; let plans = 0;
+  const confirmed = defaults();
+  await runIdeaToolAgent({ ...confirmed, plan: async () => { plans++; return { route: { distanceKm: 30, durationMin: 90, hasEstimatedTime: false, stops: [{ name: '起点', type: 'start', point: { lat: 31, lng: 121 } }] } }; },
+    callModel: async messages => {
+      if (!turns++) return calls(
+        { name: 'plan_cycling_route', args: { maxKm: 900 }, id: 'alter' },
+        { name: 'plan_cycling_route', args: {}, id: 'plan' },
+        { name: 'plan_cycling_route', args: {}, id: 'cached' });
+      const result = JSON.parse(String(messages.at(-2)!.content));
+      assert.equal(result.status, 'planned'); assert.equal(result.distanceKm, 30);
+      assert.doesNotMatch(String(messages.at(-2)!.content), /lat|lng|coordinates/); return final();
+    }
+  });
+  assert.equal(plans, 1); assert.deepEqual(confirmed.metrics.toolCalls.map(x => x.status), ['invalid', 'ok', 'cached']);
+});
+
+test('enroute exploration requires a real planned route and may be retried after planning', async () => {
+  const options = defaults(); let turns = 0, planned = false, explored = 0;
+  await runIdeaToolAgent({ ...options,
+    plan: async () => { planned = true; return { route: { distanceKm: 30, durationMin: 90, stops: [] } }; },
+    explore: async () => planned ? (explored++, { status: 'explored', added: ['顺路绿道'], extraKm: 1.2, result: { route: { legs: [], stops: [], distanceKm: 31.2, durationMin: 95, hasEstimatedTime: true } } }) : null,
+    callModel: async messages => {
+      if (!turns++) return calls(
+        { name: 'find_enroute_segments', args: {}, id: 'early' },
+        { name: 'plan_cycling_route', args: {}, id: 'plan' },
+        { name: 'find_enroute_segments', args: {}, id: 'later' });
+      assert.equal(JSON.parse(String(messages.at(-3)!.content)).status, 'plan_required');
+      const result = JSON.parse(String(messages.at(-1)!.content));
+      assert.equal(result.status, 'explored'); assert.deepEqual(result.added, ['顺路绿道']);
+      assert.equal(result.distanceKm, 31.2); assert.doesNotMatch(String(messages.at(-1)!.content), /coordinates|points/);
+      return final();
+    }
+  });
+  assert.equal(explored, 1);
+});
+
+test('requires a nearby tool call when the model initially skips explicit nearby discovery', async () => {
+  let turn = 0, searched = 0;
+  const options = defaults();
+  await runIdeaToolAgent({ ...options, input: { idea: '请查询当前位置5公里内有哪些路段' },
+    location: { point: { lat: 31.2, lng: 121.4 }, source: 'manual' }, nearby: async () => { searched++; return [candidate]; },
+    callModel: async (_messages, _final, _signal, required) => {
+      if (!turn++) return new AIMessage('{"mode":"recommend"}');
+      if (turn === 2) { assert.equal(required, true); return calls({ name: 'search_nearby_candidates', args: { centerId: null, radiusKm: 5, type: 'segment' }, id: 'near' }); }
+      return new AIMessage('{"mode":"recommend"}');
+    }
+  });
+  assert.equal(searched, 1);
+});
+
+test('nearby search around a known candidate refreshes its identity before use', async () => {
+  let turn = 0, details = 0, searches = 0;
+  await runIdeaToolAgent({ ...defaults(), input: { placeContext: { candidates: [{ id: candidate.id, name: candidate.name }] } },
+    detail: async id => { details++; return id === candidate.id ? candidate : null; },
+    nearby: async (center, radius) => { searches++; assert.deepEqual(center, { lat: candidate.lat, lng: candidate.lng }); assert.equal(radius, 10); return [candidate]; },
+    callModel: async messages => {
+      if (!turn++) return calls({ name: 'search_nearby_candidates', args: { centerId: candidate.id, radiusKm: 10, type: 'all' }, id: 'around' });
+      assert.equal(JSON.parse(String(messages.at(-1)!.content)).centerSource, 'candidate'); return final();
+    }
+  });
+  assert.equal(details, 1); assert.equal(searches, 1);
+});

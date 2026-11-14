@@ -2,6 +2,7 @@ import 'dotenv/config';
 import express from 'express';
 import cors from 'cors';
 import { resolve } from 'node:path';
+import { createHash, timingSafeEqual } from 'node:crypto';
 import { allowLocalDebug } from './controllers/routeGeneratorDebugController';
 import routeRoutes from './routes/routeRoutes';
 import crawlerRoutes from './routes/crawlerRoutes';
@@ -15,6 +16,26 @@ const port = process.env.PORT || 3000;
 // Middleware
 app.use(cors());
 app.use(express.json());
+
+// Authentication is enforced by the server, never by the HTML page.
+app.get('/observer', (req, res) => {
+  res.set('Cache-Control', 'no-store');
+  const username = process.env.OBSERVER_USERNAME;
+  const password = process.env.OBSERVER_PASSWORD;
+  if (!username || !password) return res.status(503).send('Observer is not configured');
+  const authorization = req.headers.authorization || '';
+  const match = /^Basic ([A-Za-z0-9+/]+={0,2})$/i.exec(authorization);
+  const supplied = match ? Buffer.from(match[1], 'base64').toString('utf8') : '';
+  const separator = supplied.indexOf(':');
+  const equal = (a: string, b: string) => timingSafeEqual(createHash('sha256').update(a).digest(), createHash('sha256').update(b).digest());
+  const validUser = equal(separator < 0 ? '' : supplied.slice(0, separator), username);
+  const validPassword = equal(separator < 0 ? '' : supplied.slice(separator + 1), password);
+  if (!match || separator < 0 || !validUser || !validPassword) {
+    res.set('WWW-Authenticate', 'Basic realm="VeloRoam Observer", charset="UTF-8"');
+    return res.status(401).send('Authentication required');
+  }
+  return res.sendFile(resolve(process.env.OBSERVER_HTML_PATH || resolve(__dirname, '../../VeloRoam-ui/observer.html')));
+});
 
 // Local-only, explicitly enabled development visualizer.
 app.get('/dev/route-generator', (req, res) => {

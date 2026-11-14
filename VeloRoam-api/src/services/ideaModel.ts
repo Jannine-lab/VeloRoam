@@ -3,7 +3,7 @@ import { performance } from 'node:perf_hooks';
 import { ChatDeepSeek } from '@langchain/deepseek';
 import { z } from 'zod';
 import { ROUTE_TAGS } from './ideaIntent';
-import { IDEA_PROMPT_VERSION, INTENT_PROMPT, LOOP_SELECTION_PROMPT, POINT_SELECTION_PROMPT, SEGMENT_SELECTION_PROMPT, RECOMMENDATION_PROMPT } from '../prompts/ideaPrompts';
+import { IDEA_PROMPT_VERSION, INTENT_PROMPT, LOOP_SELECTION_PROMPT, POINT_SELECTION_PROMPT, SEGMENT_SELECTION_PROMPT, RECOMMENDATION_PROMPT, RELATED_SEARCH_TERMS_PROMPT } from '../prompts/ideaPrompts';
 
 export interface ToolTrace { name: string; status: 'ok' | 'cached' | 'invalid' | 'error' | 'budget'; durationMs: number }
 export interface IdeaMetrics {
@@ -53,6 +53,7 @@ export function parseIdeaOutput(prompt: string, content: unknown, input: object)
   if (typeof content !== 'string' || !content.trim()) throw new Error('Empty AI response');
   const value: unknown = JSON.parse(content);
   if (prompt === INTENT_PROMPT) return ideaIntentSchema.parse(value);
+  if (prompt === RELATED_SEARCH_TERMS_PROMPT) return z.object({ terms: z.array(z.string().max(32)).max(6) }).strict().parse(value);
   const ids = z.array(candidateIdSchema).max(6);
   let parsed: any;
   if (prompt === POINT_SELECTION_PROMPT) parsed = z.object({ id: candidateIdSchema.nullable() }).strict().parse(value);

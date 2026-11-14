@@ -84,7 +84,7 @@ export function validateFixedStops(route: CompositeRoute, required: RouteStop[])
   return null;
 }
 
-function budgetReason(route: CompositeRoute, bounds: RouteBounds): string | null {
+export function budgetReason(route: CompositeRoute, bounds: RouteBounds): string | null {
   const km = route.distanceKm;
   if (!Number.isFinite(km) || km <= 0) return '导航未返回有效里程';
   if (bounds.minKm != null && km + 1e-9 < bounds.minKm) return '低于里程下限';

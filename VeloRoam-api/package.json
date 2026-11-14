@@ -16,6 +16,7 @@
     "test": "node --test --test-concurrency=4 --require ts-node/register/transpile-only src/controllers/*.test.ts src/services/*.test.ts src/evals/*.test.ts",
     "cache:strava-details": "ts-node src/scripts/cacheStravaSegmentDetails.ts",
     "eval:idea": "ts-node src/evals/ideaConversationEval.ts",
+    "eval:agent-tools": "ts-node src/evals/ideaAgentToolSmoke.ts",
     "backfill:segment-tags": "ts-node src/scripts/backfillSegmentTags.ts",
     "test:ui": "node --test ../VeloRoam-ui/*.test.cjs",
     "typecheck": "tsc --noEmit"
