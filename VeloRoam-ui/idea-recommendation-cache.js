@@ -2,7 +2,7 @@
   'use strict';
 
   function createIdeaRecommendationCache(storage, distanceMeters) {
-    const key = 'idea-distance-recommendations-v2';
+    const key = 'idea-distance-recommendations-v5';
     let cached = null;
     let pending = null;
     let requestVersion = 0;

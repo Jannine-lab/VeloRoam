@@ -4185,9 +4185,41 @@ document.addEventListener('DOMContentLoaded', () => {
   const traditionalContent = document.getElementById('traditional-content');
   let planningMode = 'ai';
   const content = document.getElementById('idea-content');
+  const requirementPanel = document.getElementById('idea-requirements');
+  const requirementPanelSummary = document.getElementById('idea-requirements-summary');
+  const requirementPanelBody = document.getElementById('idea-requirements-body');
+  const requirementPanelContent = requirementPanel.querySelector('.idea-requirements-content');
+  const requirementPanelToggle = requirementPanel.querySelector('summary');
+  requirementPanelToggle.append(createDisclosureChevron());
+  let requirementAnimation = null;
+  const resetRequirementAnimation = () => {
+    requirementAnimation?.cancel(); requirementAnimation = null;
+    requirementPanelContent.style.height = ''; requirementPanelContent.style.overflow = '';
+    delete requirementPanel.dataset.closing;
+  };
+  requirementPanelToggle.addEventListener('click', event => {
+    event.preventDefault();
+    const opening = !requirementPanel.open || requirementPanel.dataset.closing === 'true';
+    const startHeight = requirementPanel.open ? requirementPanelContent.getBoundingClientRect().height : 0;
+    resetRequirementAnimation();
+    if (window.matchMedia('(prefers-reduced-motion: reduce)').matches || typeof requirementPanelContent.animate !== 'function') {
+      requirementPanel.open = opening;
+      return;
+    }
+    requirementPanel.open = true;
+    if (!opening) requirementPanel.dataset.closing = 'true';
+    requirementPanelContent.style.overflow = 'hidden';
+    const endHeight = opening ? requirementPanelContent.getBoundingClientRect().height : 0;
+    requirementAnimation = requirementPanelContent.animate([{ height: `${startHeight}px` }, { height: `${endHeight}px` }], { duration: 240, easing: 'ease-in-out' });
+    requirementAnimation.onfinish = () => {
+      requirementPanel.open = opening;
+      resetRequirementAnimation();
+    };
+  });
   const placeResults = document.getElementById('idea-place-results');
   const searchStatus = document.getElementById('idea-search-status');
   const input = document.getElementById('idea-input');
+  const editorPlaceholder = document.getElementById('idea-editor-placeholder');
   const handle = document.getElementById('idea-sheet-handle');
   const title = document.getElementById('idea-title');
   const titleSizer = document.getElementById('idea-title-sizer');
@@ -4205,7 +4237,9 @@ document.addEventListener('DOMContentLoaded', () => {
   let history = [];
   let previousIntent = null;
   let placeContext = null;
+  let requirementState = null;
   let pendingMoreSearch = null;
+  let pendingRequirementEdit = null;
   let sessionTitle = '';
   let pendingReferences = [];
   const addMenu = document.getElementById('idea-add-menu');
@@ -4525,7 +4559,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const hasCurrentConversation = Boolean(referencedSegment || referencedRoute || content.querySelector('.idea-user-message'));
     const showingHistory = !historyPanel.hidden;
     sheet.classList.toggle('has-idea-conversation', hasCurrentConversation);
-    input.dataset.placeholder = hasCurrentConversation ? '一起探索你的骑行想法' : '输入骑行想法，或添加路段、地点';
+    editorPlaceholder.textContent = hasCurrentConversation ? '一起探索你的骑行想法' : '输入骑行想法，或添加路段、地点';
     prompt.textContent = hasCurrentConversation ? '一起探索你的骑行想法' : baseTitle;
     back.hidden = !hasCurrentConversation && !showingHistory;
     back.setAttribute('aria-label', showingHistory ? '返回对话' : '返回骑行想法首页');
@@ -4535,6 +4569,7 @@ document.addEventListener('DOMContentLoaded', () => {
     historyPanel.hidden = true;
     content.hidden = false;
     form.hidden = false;
+    requirementPanel.hidden = !(requirementState && previousIntent?.requestType === 'route');
     syncIdeaStatus();
     syncIdeaNavigation();
   };
@@ -4543,7 +4578,7 @@ document.addEventListener('DOMContentLoaded', () => {
     if (!firstMessage && !referencedSegment && !referencedRoute && !input.value.trim() && !pendingReferences.length) return;
     sessions.set(currentSessionId, {
       id: currentSessionId, title: sessionTitle || limitIdeaTitle(firstMessage || referencedSegment?.name || referencedRoute?.name || input.value.trim() || pendingReferences[0]?.item.name || '骑行对话'), sessionTitle,
-      history: history.map(turn => ({ ...turn })), previousIntent, placeContext, referencedSegment, referencedRoute, nodes: [...content.childNodes],
+      history: history.map(turn => ({ ...turn })), previousIntent, placeContext, requirementState, requirementPanelOpen: requirementPanel.open && requirementPanel.dataset.closing !== 'true', requirementPanelSummary: requirementPanelSummary?.textContent || '', requirementPanelNodes: [...requirementPanelBody.childNodes], referencedSegment, referencedRoute, nodes: [...content.childNodes],
       draft: input.value, draftHtml: input.innerHTML, draftReferences: pendingReferences.map(ref => ({ ...ref, item: { ...ref.item } })), updatedAt: Date.now()
     });
   };
@@ -4559,7 +4594,8 @@ document.addEventListener('DOMContentLoaded', () => {
     cancelConversationWork();
     saveConversation();
     currentSessionId = ++nextSessionId;
-    history = []; previousIntent = null; placeContext = null; referencedSegment = segmentReference; referencedRoute = routeReference;
+    history = []; previousIntent = null; placeContext = null; requirementState = null; referencedSegment = segmentReference; referencedRoute = routeReference;
+    pendingRequirementEdit = null; resetRequirementAnimation(); requirementPanel.open = false; requirementPanel.hidden = true; requirementPanelBody.replaceChildren();
     sessionTitle = segmentReference || routeReference ? limitIdeaTitle(`关于 ${(segmentReference || routeReference).name || '骑行路线'}`) : '';
     greetingIndex++; animateIdeaTitle(sessionTitle || greeting());
     content.replaceChildren(...emptyContent.map(node => node.cloneNode(true)));
@@ -4586,6 +4622,10 @@ document.addEventListener('DOMContentLoaded', () => {
       history = session.history.map(turn => ({ ...turn }));
       previousIntent = session.previousIntent;
       placeContext = session.placeContext || null;
+      requirementState = session.requirementState || null;
+      resetRequirementAnimation(); requirementPanel.open = !!session.requirementPanelOpen;
+      requirementPanelBody.replaceChildren(...(session.requirementPanelNodes || []));
+      if (requirementPanelSummary) requirementPanelSummary.textContent = session.requirementPanelSummary || '';
       referencedSegment = session.referencedSegment || null;
       referencedRoute = session.referencedRoute || null;
       sessionTitle = limitIdeaTitle(session.sessionTitle || session.title);
@@ -4594,7 +4634,7 @@ document.addEventListener('DOMContentLoaded', () => {
       input.value = session.draft || '';
       if (session.draftHtml != null) input.innerHTML = session.draftHtml;
       pendingReferences = (session.draftReferences || []).map(ref => ({ ...ref, item: { ...ref.item } }));
-      savedIdeaRange = null; clearPlaceSearch(); resizeIdeaInput(); syncSendButton();
+      savedIdeaRange = null; clearPlaceSearch(); resizeIdeaInput();
       closeIdeaRoutePanel(); ideaMapLayer?.clearLayers(); ideaActiveRoute = null; restoreExplorationSegments('idea');
     }
     showConversation();
@@ -4608,6 +4648,7 @@ document.addEventListener('DOMContentLoaded', () => {
     if (!expanded) setExpanded(true);
     content.hidden = true;
     form.hidden = true;
+    requirementPanel.hidden = true;
     historyPanel.hidden = false;
     syncIdeaStatus();
     syncIdeaNavigation();
@@ -4659,7 +4700,6 @@ document.addEventListener('DOMContentLoaded', () => {
     ? { lat: Number(origin.lat), lng: Number(origin.lng), source: originLocationSource } : null;
   let placeSearchLoading = false;
   let nearbyWaitingStage = '正在获取出发位置';
-  let nearbySkeletonExit = null;
   const setNearbyWaitingStage = stage => {
     if (typeof stage !== 'string' || !stage.trim() || stage === nearbyWaitingStage) return;
     nearbyWaitingStage = stage;
@@ -4668,11 +4708,6 @@ document.addEventListener('DOMContentLoaded', () => {
   const syncNearbyWaiting = visible => {
     const placeholder = content.querySelector('.idea-nearby-waiting');
     if (!placeholder) return;
-    if (visible && nearbySkeletonExit) {
-      nearbySkeletonExit.cancel();
-      nearbySkeletonExit = null;
-    }
-    if (!visible && nearbySkeletonExit) return;
     if (visible) placeholder.hidden = false;
     placeholder?.classList.toggle('is-visible', visible);
   };
@@ -4710,6 +4745,121 @@ document.addEventListener('DOMContentLoaded', () => {
   };
   const submitIdeaDirect = () => {
     form.requestSubmit();
+  };
+  const renderRequirementPanel = () => {
+    const requirements = requirementState?.requirements;
+    if (!requirements || previousIntent?.requestType !== 'route') { requirementPanel.hidden = true; requirementPanelBody.replaceChildren(); return; }
+    requirementPanel.hidden = !historyPanel.hidden;
+    requirementPanelBody.replaceChildren();
+    const tags = { climbing: '爬坡', loop: '绕圈', out_and_back: '往返路段', long_distance: '长距离', popular: '热门', highly_starred: '高收藏' };
+    const rows = [];
+    const add = (field, label, display, options = {}) => rows.push({ field, label, display, entry: requirements[field], ...options });
+    const value = field => requirements[field]?.value;
+    add('origin', '出发', value('origin') || '当前位置（默认）', { editable: 'text' });
+    add('destination', '结束', value('returnToStart') ? '返回出发地' : value('destination') || '当前位置（默认）', { editable: 'text', entry: value('returnToStart') ? requirements.returnToStart : requirements.destination });
+    if (value('place')) add('place', '目标区域', value('place'), { editable: 'text' });
+    const selected = requirementState.candidates?.find(item => item.selection === 'confirmed' || item.selection === 'pending');
+    const stops = Array.isArray(value('stops')) ? value('stops') : [];
+    if (stops.length) add('stops', '途经顺序', stops.map(stop => stop.name || stop.kind || (stop.type === 'segment' ? '路段待选择' : '地点待选择')).join(' → '), { chat: true });
+    else if (selected) add('stops', '已选候选', selected.name, { chat: true, statusOverride: selected.selection === 'confirmed' ? 'confirmed' : 'pending' });
+    else if (value('needsSegment') || value('needsPoint')) add(value('needsSegment') ? 'needsSegment' : 'needsPoint', '途经', value('needsSegment') ? '路段待选择' : '地点待选择', { chat: true, statusOverride: 'pending' });
+    const numbers = [['targetKm', '目标距离', '公里'], ['minKm', '距离下限', '公里'], ['maxKm', '距离上限', '公里'], ['targetMinutes', '目标时间', '分钟'], ['minMinutes', '时间下限', '分钟'], ['maxMinutes', '时间上限', '分钟'], ['stopMinutes', '停留时间', '分钟']];
+    for (const [field, label, unit] of numbers) {
+      const entry = requirements[field];
+      if (entry?.value != null || field === 'targetKm' || (field === 'stopMinutes' && value('timeScope') === 'total')) add(field, label, entry?.value == null ? '未指定' : `${entry.value} ${unit}`, { editable: 'number', unit });
+    }
+    if (value('timeScope')) add('timeScope', '时间范围', value('timeScope') === 'total' ? '包含停留' : '仅骑行时间', { chat: true });
+    if (Array.isArray(value('preferences')) && value('preferences').length) add('preferences', '骑行体验', value('preferences').join('、'), { editable: 'preferences' });
+    if (Array.isArray(value('preferredTags')) && value('preferredTags').length) add('preferredTags', '路段属性', value('preferredTags').map(tag => `${tags[tag] || tag}${requirementState.tagPriorities?.[tag] === 'required' ? '（必须）' : '（偏好）'}`).join('、'), { chat: true });
+    if (Array.isArray(value('avoidTags')) && value('avoidTags').length) add('avoidTags', '避让', value('avoidTags').map(tag => tags[tag] || tag).join('、'), { chat: true });
+    const pending = rows.filter(row => (row.statusOverride || row.entry?.status) === 'pending').length;
+    if (requirementPanelSummary) requirementPanelSummary.textContent = `${pending ? `${pending} 项待确认` : '查看或修改'}${rows.length > 4 ? ' · 可滚动' : ''}`;
+    rows.forEach(({ field, label, display, entry, editable, unit, chat, statusOverride }) => {
+      const row = document.createElement('div'); row.className = 'idea-requirement-row';
+      const name = document.createElement('span'); name.className = 'idea-requirement-label'; name.textContent = label;
+      const detail = document.createElement('span'); detail.className = 'idea-requirement-value'; detail.textContent = display;
+      const state = document.createElement('span'); state.className = 'idea-requirement-status';
+      const status = statusOverride || entry?.status; state.textContent = status === 'confirmed' ? '已确认' : status === 'pending' ? '待确认' : field === 'origin' || field === 'destination' ? '默认' : '未指定';
+      detail.append(state);
+      const edit = document.createElement('button'); edit.type = 'button'; edit.className = 'idea-requirement-edit'; edit.textContent = '修改'; edit.setAttribute('aria-label', `修改${label}`);
+      const currentSession = currentSessionId;
+      edit.addEventListener('click', () => {
+        if (currentSessionId !== currentSession || ideaSending) return;
+        if (chat || !editable) {
+          const draft = input.value.trim(); input.value = [draft, `我想修改${label}：`].filter(Boolean).join('\n'); resizeIdeaInput(); input.focus(); return;
+        }
+        if (row.querySelector('.idea-requirement-editor')) return;
+        const editor = document.createElement('div'); editor.className = 'idea-requirement-editor';
+        const control = document.createElement('input'); control.type = editable === 'number' ? 'number' : 'text'; control.setAttribute('aria-label', `新的${label}${unit ? `（${unit}）` : ''}`);
+        if (editable === 'number') { control.min = '0'; control.max = field.endsWith('Km') ? '1000' : '10080'; control.step = 'any'; }
+        else control.maxLength = editable === 'preferences' ? 500 : 80;
+        const editValue = requirements[field]?.value;
+        control.value = editable === 'preferences' ? (Array.isArray(editValue) ? editValue.join('、') : '') : editValue == null ? '' : String(editValue);
+        const save = document.createElement('button'); save.type = 'button'; save.textContent = '保存';
+        const clear = document.createElement('button'); clear.type = 'button'; clear.textContent = '清除';
+        const cancel = document.createElement('button'); cancel.type = 'button'; cancel.textContent = '取消';
+        const error = document.createElement('p'); error.className = 'idea-requirement-error'; error.setAttribute('role', 'alert');
+        const send = next => {
+          if (currentSessionId !== currentSession || ideaSending) return;
+          pendingRequirementEdit = { field, value: next };
+          const draft = input.value; input.value = next === null ? `清除${label}要求` : `将${label}修改为 ${next}${unit || ''}`;
+          submitIdeaDirect(); if (draft) { input.value = draft; resizeIdeaInput(); }
+        };
+        save.addEventListener('click', () => {
+          const text = control.value.trim();
+          if (!text || (editable === 'number' && (!Number.isFinite(Number(text)) || !control.checkValidity()))) { error.textContent = `请输入有效的${label}，或选择清除。`; return; }
+          send(editable === 'number' ? Number(text) : text);
+        });
+        clear.addEventListener('click', () => send(null));
+        cancel.addEventListener('click', () => { editor.remove(); edit.focus(); });
+        control.addEventListener('keydown', event => { if (event.key === 'Enter') { event.preventDefault(); save.click(); } else if (event.key === 'Escape') { event.stopPropagation(); editor.remove(); edit.focus(); } });
+        editor.append(control, save, clear, cancel, error); row.append(editor); control.focus();
+      });
+      row.append(name, detail, edit); requirementPanelBody.append(row);
+    });
+    // const hint = document.createElement('p'); hint.className = 'idea-requirement-hint'; hint.textContent = '也可以直接在对话中补充或修改要求。'; requirementPanelBody.append(hint);
+  };
+  let nextIdeaQuestion = 0;
+  const createIdeaQuestion = (question, sessionId) => {
+    const options = Array.isArray(question?.options) ? [...new Set(question.options.filter(option => typeof option === 'string' && option.trim()).map(option => option.trim()))].slice(0, 3) : [];
+    if (!options.length) return null;
+    const card = document.createElement('section'); card.className = 'idea-question'; card.dataset.state = 'waiting';
+    const heading = document.createElement('div'); heading.className = 'idea-question-heading'; heading.textContent = '需要你的选择';
+    const status = document.createElement('p'); status.className = 'idea-question-status'; status.setAttribute('role', 'status'); status.textContent = '选择一项后继续';
+    const fieldset = document.createElement('fieldset'); fieldset.className = 'idea-question-options';
+    const legend = document.createElement('legend'); legend.className = 'idea-question-legend'; legend.textContent = '请选择一个选项'; fieldset.append(legend);
+    const name = `idea-question-${++nextIdeaQuestion}`;
+    const radios = [];
+    const addOption = (labelText, index, custom = false) => {
+      const label = document.createElement('label'); label.className = 'idea-question-option';
+      const radio = document.createElement('input'); radio.type = 'radio'; radio.name = name; radio.value = custom ? '__custom__' : labelText;
+      const number = document.createElement('span'); number.className = 'idea-question-number'; number.textContent = String(index + 1); number.setAttribute('aria-hidden', 'true');
+      const text = document.createElement('span'); text.className = 'idea-question-label'; text.textContent = labelText;
+      label.append(radio, number, text); fieldset.append(label); radios.push(radio); return radio;
+    };
+    options.forEach((option, index) => addOption(option, index));
+    const customRadio = question.allowCustom !== false ? addOption('其他，自己填写', options.length, true) : null;
+    const customInput = document.createElement('textarea'); customInput.className = 'idea-question-custom'; customInput.placeholder = '输入你的想法'; customInput.setAttribute('aria-label', '填写其他答案'); customInput.maxLength = 500; customInput.rows = 2; customInput.hidden = true;
+    if (customRadio) fieldset.append(customInput);
+    const actions = document.createElement('div'); actions.className = 'idea-question-actions';
+    const submit = document.createElement('button'); submit.type = 'button'; submit.className = 'idea-question-continue'; submit.textContent = '继续'; submit.disabled = true; actions.append(submit);
+    const update = () => { const selected = radios.find(radio => radio.checked); customInput.hidden = selected !== customRadio; submit.disabled = !selected || (selected === customRadio && !customInput.value.trim()); };
+    radios.forEach(radio => radio.addEventListener('change', () => { update(); if (radio === customRadio && radio.checked) customInput.focus(); }));
+    customInput.addEventListener('input', update);
+    submit.addEventListener('click', () => {
+      if (currentSessionId !== sessionId || ideaSending || submit.disabled) return;
+      const selected = radios.find(radio => radio.checked);
+      const answer = selected === customRadio ? customInput.value.trim() : selected?.value;
+      if (!answer) return;
+      const draft = input.value; input.value = answer; submitIdeaDirect();
+      if (draft) { input.value = draft; resizeIdeaInput(); }
+    });
+    card.setQuestionState = (state, answer = '') => {
+      card.dataset.state = state; fieldset.disabled = state !== 'waiting';
+      if (state === 'waiting') { status.textContent = '选择一项后继续'; update(); }
+      else { submit.disabled = true; status.textContent = state === 'answered' ? `已回答：${answer}` : state === 'superseded' ? '已更新选项' : '正在提交答案'; }
+    };
+    card.append(heading, status, fieldset, actions); return card;
   };
   const renderPlaceSearch = (status, results = []) => {
     placeResults.replaceChildren();
@@ -5190,7 +5340,7 @@ document.addEventListener('DOMContentLoaded', () => {
     detailSheet.style.height = `${detailDragHeight}px`;
     detailSheet.style.maxHeight = `${full}px`;
     detailSheet.style.width = `${layout.width}px`;
-    detailSheet.style.bottom = `calc(${layout.bottomInset}px + var(--idea-keyboard-inset, 0px))`;
+    detailSheet.style.bottom = `calc(${layout.bottomInset}px + var(--idea-viewport-bottom, 0px))`;
     detailSheet.style.borderRadius = `${layout.topRadius}px ${layout.topRadius}px ${layout.bottomRadius}px ${layout.bottomRadius}px`;
   };
   detailHandle.addEventListener('pointerdown', event => {
@@ -5250,21 +5400,28 @@ document.addEventListener('DOMContentLoaded', () => {
   detailSheet.addEventListener('touchcancel', () => { if (detailTouchDragging) finishDetailDrag(true); detailTouchStart = null; detailTouchDragging = false; });
   detailSheet.addEventListener('keydown', event => { if (event.key === 'Escape') closeMapDetailSheet(); });
 
+  const sendIcon = sendButton.querySelector('i');
   const resizeIdeaInput = () => {
     const viewportHeight = window.visualViewport?.height || window.innerHeight;
-    input.style.maxHeight = `${Math.min(240, Math.max(72, Math.floor(viewportHeight * 0.3)))}px`;
-    input.classList.toggle('is-empty', !input.value.trim() && !input.querySelector('.idea-reference-chip'));
+    input.style.setProperty('--idea-input-max-height', `${Math.min(240, Math.max(72, Math.floor(viewportHeight * 0.3)))}px`);
+    const isEmpty = !serializeIdea(true).trim();
+    input.classList.toggle('is-empty', isEmpty);
+    sendButton.disabled = isEmpty && !ideaSending;
+    sendButton.type = ideaSending ? 'button' : 'submit';
+    sendButton.setAttribute('aria-label', ideaSending ? '正在思考，停止生成' : '发送');
+    sendIcon.classList.toggle('fa-arrow-up', !ideaSending);
+    sendIcon.classList.toggle('fa-square', ideaSending);
   };
   sendButton.addEventListener('pointerdown', event => event.preventDefault());
-  const syncSendButton = () => { sendButton.hidden = !input.value.trim(); };
-  input.addEventListener('input', () => { syncReferences(); resizeIdeaInput(); syncSendButton(); });
+  sendButton.addEventListener('click', event => {
+    if (!ideaSending) return;
+    // Aborting can restore the submit type before this click's default action.
+    event.preventDefault();
+    ideaRequest?.abort();
+  });
+  input.addEventListener('input', () => { syncReferences(); resizeIdeaInput(); });
   input.addEventListener('beforeinput', event => { if (!event.isComposing && event.inputType === 'insertText' && event.data && input.value.length + event.data.length > 500 && window.getSelection()?.isCollapsed) event.preventDefault(); });
   input.addEventListener('paste', event => { event.preventDefault(); const text = (event.clipboardData?.getData('text/plain') || '').slice(0, Math.max(0, 500 - input.value.length)); document.execCommand('insertText', false, text); });
-  input.addEventListener('focus', () => {
-    if (sheetState !== 'full') setExpanded('full');
-    requestAnimationFrame(resizeIdeaInput);
-  });
-  input.addEventListener('blur', () => requestAnimationFrame(resizeIdeaInput));
   input.addEventListener('keydown', event => {
     if (event.key !== 'Enter' || event.shiftKey || event.isComposing || event.keyCode === 229) return;
     event.preventDefault();
@@ -5279,20 +5436,84 @@ document.addEventListener('DOMContentLoaded', () => {
   }
   resizeIdeaInput();
   backdrop.addEventListener('click', close);
-  const syncIdeaViewport = () => {
+  // Keep the resting height for half-sheet detents and keyboard detection.
+  let stableViewportHeight = window.innerHeight;
+  let stableScreenWidth = window.screen?.width ?? 0;
+  let stableScreenHeight = window.screen?.height ?? 0;
+  const syncStableViewport = () => {
+    const screenW = window.screen?.width ?? 0;
+    const screenH = window.screen?.height ?? 0;
+    if (screenW !== stableScreenWidth || screenH !== stableScreenHeight) {
+      // Screen dimensions change on rotation without reacting to keyboard resizes.
+      stableScreenWidth = screenW;
+      stableScreenHeight = screenH;
+      stableViewportHeight = window.innerHeight;
+    } else if (window.innerHeight > stableViewportHeight) {
+      // The keyboard or browser chrome retracted and the viewport grew back.
+      stableViewportHeight = window.innerHeight;
+    }
+  };
+  const getIdeaViewportPageTop = () => {
     const viewport = window.visualViewport;
-    if (!viewport) return;
-    const keyboardInset = Math.max(0, window.innerHeight - viewport.height - viewport.offsetTop);
-    sheet.style.setProperty('--idea-viewport-height', `${viewport.height}px`);
-    sheet.style.setProperty('--idea-keyboard-inset', `${keyboardInset}px`);
-    detailSheet.style.setProperty('--idea-viewport-height', `${viewport.height}px`);
-    detailSheet.style.setProperty('--idea-keyboard-inset', `${keyboardInset}px`);
-    sheet.classList.toggle('keyboard-open', keyboardInset > 100);
-    detailSheet.classList.toggle('keyboard-open', keyboardInset > 100);
+    return Math.max(0, viewport?.pageTop ?? (window.scrollY + (viewport?.offsetTop ?? 0)));
+  };
+  let lastIdeaViewport;
+  const syncIdeaViewport = () => {
+    syncStableViewport();
+    const viewport = window.visualViewport;
+    const layoutHeight = document.documentElement.clientHeight;
+    const viewportHeight = viewport?.height ?? layoutHeight;
+    // Focusing an editor can pan the visible area as well as shrinking it.
+    const viewportTop = viewport?.offsetTop ?? 0;
+    const viewportBottom = Math.max(0, layoutHeight - viewportTop - viewportHeight);
+    const pageTop = getIdeaViewportPageTop();
+    const keyboardOpen = stableViewportHeight - viewportHeight > 100;
+    const measurements = [stableViewportHeight, viewportHeight, viewportTop, viewportBottom, pageTop, keyboardOpen];
+    if (measurements.every((value, index) => value === lastIdeaViewport?.[index])) return;
+    lastIdeaViewport = measurements;
+    document.documentElement.style.setProperty('--idea-stable-height', `${stableViewportHeight}px`);
+    // The full idea sheet is positioned in document coordinates on mobile.
+    sheet.style.setProperty('--idea-viewport-page-top', `${pageTop}px`);
+    for (const panel of [sheet, detailSheet]) {
+      panel.style.setProperty('--idea-viewport-height', `${viewportHeight}px`);
+      panel.style.setProperty('--idea-viewport-top', `${viewportTop}px`);
+      panel.style.setProperty('--idea-viewport-bottom', `${viewportBottom}px`);
+      panel.classList.toggle('keyboard-open', keyboardOpen);
+    }
     resizeIdeaInput();
   };
   window.visualViewport?.addEventListener('resize', syncIdeaViewport);
   window.visualViewport?.addEventListener('scroll', syncIdeaViewport);
+  let ideaKeyboardFrame;
+  const trackIdeaKeyboard = () => {
+    if (desktopSheet.matches) {
+      requestAnimationFrame(resizeIdeaInput);
+      return;
+    }
+    // WebKit can publish the final viewport coordinates after its resize event.
+    cancelAnimationFrame(ideaKeyboardFrame);
+    const deadline = performance.now() + 500;
+    const update = now => {
+      syncIdeaViewport();
+      if (now < deadline && sheetState === 'full') ideaKeyboardFrame = requestAnimationFrame(update);
+    };
+    ideaKeyboardFrame = requestAnimationFrame(update);
+  };
+  input.addEventListener('focus', () => {
+    if (sheetState !== 'full') setExpanded('full');
+    trackIdeaKeyboard();
+  });
+  input.addEventListener('blur', trackIdeaKeyboard);
+  // iOS Safari performs a real document scroll to reveal a focused control —
+  // even though this document is scroll-locked (overflow: hidden). That scroll
+  // shifts the absolute-positioned map up while the fixed sheet stays put,
+  // exposing tiles at the top. Put the scroll back synchronously so the map and
+  // the sheet stay aligned.
+  window.addEventListener('scroll', () => {
+    if (window.scrollY !== 0) window.scrollTo(0, 0);
+    syncIdeaViewport();
+  }, { passive: true });
+  window.addEventListener('resize', syncIdeaViewport);
   window.addEventListener('resize', syncIdeaEntryHeight);
   window.addEventListener('resize', () => { if (compactDetailActive()) getDetailDetents(); });
   desktopSheet.addEventListener('change', () => {
@@ -5314,12 +5535,50 @@ document.addEventListener('DOMContentLoaded', () => {
   syncIdeaEntryHeight();
   map.on('click', closeIdeaRoutePanel);
 
+  const appendNearbyCandidates = (list, segments, status) => {
+    if (!segments.length) return;
+    const heading = document.createElement('p');
+    heading.className = 'idea-nearby-candidates-heading';
+    heading.textContent = status === '正在规划' ? `找到 ${segments.length} 条候选路段` : '其他候选路段';
+    list.append(heading);
+    segments.forEach(segment => {
+      const card = document.createElement('article'); card.className = 'idea-nearby-card';
+      const summary = document.createElement('div'); summary.className = 'idea-nearby-route idea-nearby-summary';
+      const row = document.createElement('span'); row.className = 'idea-nearby-summary-heading';
+      const name = document.createElement('strong'); name.className = 'idea-nearby-summary-name'; name.textContent = segment.name || '骑行路段';
+      const label = document.createElement('button'); label.type = 'button'; label.className = 'idea-nearby-disclosure idea-nearby-candidate-status'; label.textContent = '查看路段';
+      label.addEventListener('click', () => {
+        input.blur();
+        const detail = segment.detail || {};
+        const item = { ...segment, distanceKm: detail.recordedDistanceKm, avgGrade: detail.averageGrade, maxGrade: detail.maximumGrade, totalElevationGain: detail.elevationGainM, stravaScore: detail.stravaScore, starCount: detail.starCount, athleteCount: detail.athleteCount, effortCount: detail.effortCount };
+        showStravaSegmentDetails(item, label);
+        dimAllOtherSegments(item.id);
+        if (Array.isArray(item.coordinates) && item.coordinates.length >= 2) {
+          drawSingleStravaSegment(item, false);
+          map.fitBounds(L.latLngBounds(item.coordinates.map(point => [point.lat, point.lng])), visibleMapFitOptions({ padding: [36, 36], maxZoom: 16 }));
+        }
+        document.getElementById('segment-popover-close')?.focus({ preventScroll: true });
+      });
+      row.append(name, label); summary.append(row); card.append(summary); list.append(card);
+    });
+  };
+
+  const animateNearbyCards = list => {
+    if (document.hidden || !sheet.classList.contains('is-open') || window.matchMedia('(prefers-reduced-motion: reduce)').matches) return;
+    [...list.children].forEach((child, index) => {
+      if (typeof child.animate !== 'function') return;
+      child.animate([
+        { opacity: 0, transform: 'translateY(10px)' },
+        { opacity: 1, transform: 'translateY(0)' }
+      ], { duration: 360, delay: Math.min(index, 5) * 35, easing: 'cubic-bezier(.2,.8,.2,1)' });
+    });
+  };
+
   const loadNearbyRoutes = async () => {
     const list = content.querySelector('.idea-nearby-list');
     if (!list || list.dataset.loading || nearbyRouteView) return;
     if (nearbyCache.matches(nearbyRenderedLocations.get(list), nearbyLocation())) return;
     const showSkeleton = !list.querySelector('.idea-nearby-card');
-    const loadingStartedAt = performance.now();
     if (showSkeleton) list.classList.add('is-awaiting-recommendations');
     setNearbyWaitingStage('正在获取出发位置');
     list.dataset.loading = 'true';
@@ -5339,10 +5598,25 @@ document.addEventListener('DOMContentLoaded', () => {
           method: 'POST', headers: { 'Content-Type': 'application/json', 'Accept': 'text/event-stream' },
           body: JSON.stringify({ origin: { lat: location.lat, lng: location.lng }, originSource: source })
         });
-        if (!response.ok) throw new Error('request failed');
+        console.info('[IdeaDistanceRecommendations] Response:', response.status, response.headers.get('content-type'));
+        if (!response.ok) throw new Error(`请求失败 (HTTP ${response.status})`);
         if ((response.headers.get('content-type') || '').includes('text/event-stream')) {
           return readIdeaStream(response, stage => {
+            console.info('[IdeaDistanceRecommendations] Progress:', stage);
             if (list.isConnected && content.querySelector('.idea-nearby-list') === list && list.dataset.loading) setNearbyWaitingStage(stage);
+          }, undefined, undefined, payload => {
+            console.info('[IdeaDistanceRecommendations] Candidates received:', payload.segments?.length || 0);
+            if (!list.isConnected || content.querySelector('.idea-nearby-list') !== list) return;
+            const segments = Array.isArray(payload.segments) ? payload.segments : [];
+            list.replaceChildren();
+            if (!segments.length) {
+              list.textContent = '附近没有找到符合条件的候选路段。';
+            } else {
+              appendNearbyCandidates(list, segments, '正在规划');
+            }
+            list.classList.remove('is-awaiting-recommendations');
+            syncIdeaStatus();
+            animateNearbyCards(list);
           });
         }
         return response.json();
@@ -5442,47 +5716,33 @@ document.addEventListener('DOMContentLoaded', () => {
           list.append(container);
         }
       });
-      if (!list.childElementCount) throw new Error('empty response');
+      const selectedIds = new Set((data.recommendations || []).filter(item => item.route && item.segmentDetail?.id != null).map(item => String(item.segmentDetail.id)));
+      const remainingCandidates = (data.candidates || []).filter(segment => !selectedIds.has(String(segment.id)));
+      appendNearbyCandidates(list, remainingCandidates, '未入选推荐');
+      if (!list.childElementCount) {
+        console.info('[IdeaDistanceRecommendations] No suitable routes returned');
+        list.textContent = '附近暂时没有符合条件的路线推荐。';
+      } else {
+        console.info('[IdeaDistanceRecommendations] Routes displayed:', list.childElementCount);
+      }
+      animateNearbyCards(list);
       nearbyRenderedLocations.set(list, routeLocation);
-    } catch (_) {
+    } catch (error) {
+      console.error('[IdeaDistanceRecommendations] Loading failed:', error);
       if (list.isConnected) {
         list.replaceChildren();
         const retry = document.createElement('button'); retry.type = 'button'; retry.className = 'idea-nearby-retry'; retry.textContent = '路线推荐暂时不可用，点击重试';
         retry.addEventListener('click', loadNearbyRoutes); list.append(retry);
       }
     } finally {
-      const placeholder = content.querySelector('.idea-nearby-waiting');
-      const animateSwap = showSkeleton && list.isConnected && !document.hidden && sheet.classList.contains('is-open') &&
-        placeholder?.classList.contains('is-visible') && !window.matchMedia('(prefers-reduced-motion: reduce)').matches;
-      if (animateSwap) {
-        const remaining = Math.max(0, 180 - (performance.now() - loadingStartedAt));
-        if (remaining) await new Promise(resolve => setTimeout(resolve, remaining));
-      }
-      const canAnimate = animateSwap && list.isConnected && placeholder.isConnected &&
-        placeholder.classList.contains('is-visible') && typeof placeholder.animate === 'function';
-      if (canAnimate) {
-        const exitAnimation = placeholder.animate([
-          { opacity: 1, transform: 'translateY(0)' },
-          { opacity: 0, transform: 'translateY(-8px)' }
-        ], { duration: 440, easing: 'ease-in-out', fill: 'forwards' });
-        nearbySkeletonExit = exitAnimation;
-        [...list.children].forEach((card, index) => card.animate([
-          { opacity: 0, transform: 'translateY(14px)' },
-          { opacity: 1, transform: 'translateY(0)' }
-        ], { duration: 480, delay: Math.min(index, 2) * 60, easing: 'cubic-bezier(.2,.8,.2,1)', fill: 'backwards' }));
-        exitAnimation.finished.catch(() => { }).finally(() => {
-          if (nearbySkeletonExit !== exitAnimation) return;
-          nearbySkeletonExit = null;
-          placeholder.classList.remove('is-visible');
-          placeholder.hidden = true;
-          exitAnimation.cancel();
-        });
-      }
       delete list.dataset.loading;
       list.classList.remove('is-awaiting-recommendations');
       syncIdeaStatus();
     }
   };
+
+  // Start while the sheet is collapsed so recommendations are ready on opening.
+  void loadNearbyRoutes();
 
   const states = ['collapsed', 'half', 'full'];
   const getSheetDragLayout = (height, collapsed, half, full, viewportWidth) => {
@@ -5532,17 +5792,26 @@ document.addEventListener('DOMContentLoaded', () => {
   const getSheetDetents = () => {
     const viewport = window.visualViewport?.height || window.innerHeight;
     const collapsed = parseFloat(getComputedStyle(sheet).getPropertyValue('--idea-collapsed-height')) || 72;
-    const half = Math.max(collapsed, Math.min(508, window.innerHeight * 0.58 + 8, viewport - 8));
+    const half = Math.max(collapsed, Math.min(508, stableViewportHeight * 0.58 + 8, viewport - 8));
     return { collapsed, half, full: Math.max(collapsed, viewport) };
   };
   const beginDrag = y => {
     startY = y;
     const rect = sheet.getBoundingClientRect();
     const computed = getComputedStyle(sheet);
-    const currentBottom = computed.bottom;
+    const full = sheetState === 'full';
+    let currentBottom = computed.bottom;
     const currentRadius = computed.borderRadius;
-    const currentPaddingBottom = computed.paddingBottom;
+    let currentPaddingBottom = computed.paddingBottom;
     startHeight = rect.height;
+    if (full) {
+      const viewport = window.visualViewport;
+      const view = planningMode === 'ai' ? aiView : traditionalView;
+      startHeight = Math.min(rect.height, viewport?.height ?? window.innerHeight);
+      const visibleBottom = getIdeaViewportPageTop() - window.scrollY + startHeight;
+      currentBottom = `${Math.max(0, document.documentElement.clientHeight - visibleBottom)}px`;
+      currentPaddingBottom = `${Math.max(0, visibleBottom - view.getBoundingClientRect().bottom)}px`;
+    }
     dragHeight = startHeight;
     dragDistance = 0;
     dragged = false;
@@ -5564,7 +5833,7 @@ document.addEventListener('DOMContentLoaded', () => {
     sheet.style.height = `${dragHeight}px`;
     sheet.style.maxHeight = `${full}px`;
     sheet.style.width = `${layout.width}px`;
-    sheet.style.bottom = `calc(${layout.bottomInset}px + var(--idea-keyboard-inset, 0px))`;
+    sheet.style.bottom = `calc(${layout.bottomInset}px + var(--idea-viewport-bottom, 0px))`;
     sheet.style.borderRadius = `${layout.topRadius}px ${layout.topRadius}px ${layout.bottomRadius}px ${layout.bottomRadius}px`;
     const safeBottom = sheet.classList.contains('keyboard-open') ? 0 : Math.max(16, parseFloat(getComputedStyle(sheet).getPropertyValue('--idea-safe-bottom')) || 0);
     const expansion = Math.min(1, Math.max(0, (dragHeight - collapsed) / Math.max(1, half - collapsed)));
@@ -5638,6 +5907,8 @@ document.addEventListener('DOMContentLoaded', () => {
     if (ideaSending) return;
     const moreRequest = pendingMoreSearch;
     pendingMoreSearch = null;
+    const editRequest = pendingRequirementEdit;
+    pendingRequirementEdit = null;
     let moreSucceeded = false;
     clearPlaceSearch();
     cancelGreeting();
@@ -5646,6 +5917,9 @@ document.addEventListener('DOMContentLoaded', () => {
     const request = new AbortController(); ideaRequest = request;
     const epoch = sessionEpoch;
     const sessionAtSubmit = currentSessionId;
+    const unansweredQuestions = [...content.querySelectorAll('.idea-question[data-state="waiting"]')];
+    const existingRouteCards = editRequest ? [...content.querySelectorAll('.idea-composite-card:not(.is-outdated)')] : [];
+    if (!moreRequest && !editRequest) unansweredQuestions.forEach(card => card.setQuestionState?.('submitting'));
     const priorHistory = history.slice(referencedSegment || referencedRoute ? -11 : -12).map(turn => ({ ...turn }));
     if (referencedSegment) {
       const start = segmentStartPoint(referencedSegment);
@@ -5678,8 +5952,9 @@ document.addEventListener('DOMContentLoaded', () => {
     message.querySelectorAll('.idea-reference-chip').forEach(chip => { const label = chip.querySelector('span'); const badge = document.createElement('span'); badge.className = chip.className.replace('idea-reference-chip', 'idea-message-reference'); badge.textContent = label?.textContent || ''; chip.replaceWith(badge); });
     bubble.append(...message.childNodes);
     pendingReferences = []; renderReferences();
-    content.append(bubble); input.value = ''; resizeIdeaInput(); syncSendButton();
+    content.append(bubble); input.value = ''; resizeIdeaInput();
     syncIdeaNavigation();
+    if (!expanded) setExpanded('half');
     const status = document.createElement('div'); status.className = 'idea-progress';
     const heading = document.createElement('button'); heading.type = 'button'; heading.className = 'idea-progress-title is-thinking';
     heading.setAttribute('aria-expanded', 'true');
@@ -5693,6 +5968,7 @@ document.addEventListener('DOMContentLoaded', () => {
     let firstRouteShown = false;
     let alternativeProgress = null;
     let alternativeHeading = null;
+    let comparisonShown = false;
     const shownAlternatives = new Set();
     const addStep = stage => {
       if (firstRouteShown) return;
@@ -5723,14 +5999,34 @@ document.addEventListener('DOMContentLoaded', () => {
       appendRouteCard(data, `备选路线 ${shownAlternatives.size}`, alternativeProgress);
       if (nearBottom) content.scrollTop = content.scrollHeight;
     };
+    const renderRouteComparison = comparison => {
+      if (comparisonShown || !Array.isArray(comparison) || comparison.length < 2) return;
+      const valid = comparison.filter(item => Number.isFinite(item.distanceKm) && Number.isFinite(item.durationMin));
+      if (valid.length < 2) return;
+      comparisonShown = true;
+      const section = document.createElement('section'); section.className = 'idea-card idea-route-comparison';
+      const heading = document.createElement('h3'); heading.textContent = '方案对比';
+      const list = document.createElement('ol'); list.className = 'idea-route-legs';
+      valid.forEach((item, index) => {
+        const row = document.createElement('li');
+        const label = item.id === 'baseline' ? '首条路线' : `备选路线 ${item.id?.split(':')[1] || index}`;
+        const extra = item.id === 'baseline' || !Number.isFinite(item.extraKm) ? '' : `，比首条${item.extraKm >= 0 ? '多' : '少'} ${Math.abs(item.extraKm).toFixed(1)} 公里`;
+        const added = Array.isArray(item.added) && item.added.length ? `，加入${item.added.join('、')}` : '';
+        const overlap = Number.isFinite(item.overlap?.fraction) ? `，重复路段约 ${Math.round(item.overlap.fraction * 100)}%（估算）` : '';
+        row.textContent = `${label}：${item.distanceKm.toFixed(1)} 公里，约 ${Math.round(item.durationMin)} 分钟${item.hasEstimatedTime ? '（含估算）' : ''}${extra}${added}${overlap}。`;
+        list.append(row);
+      });
+      section.append(heading, list); content.append(section);
+    };
     const routeEvent = (event, data) => {
       if (ideaRequest !== request || sessionEpoch !== epoch) return;
       if (event === 'route_first' && data.route && !firstRouteShown) {
+        if (!moreRequest && !editRequest) unansweredQuestions.forEach(card => card.setQuestionState?.('answered', idea));
         firstRouteShown = true;
         if (steps.lastElementChild) steps.lastElementChild.classList.add('done');
         headingText.textContent = '思考完成'; heading.classList.remove('is-thinking'); heading.setAttribute('aria-expanded', 'false'); steps.hidden = true;
         const answer = document.createElement('p'); answer.className = 'idea-answer'; answer.textContent = data.message || '已生成第一条骑行路线。'; content.append(answer);
-        appendRouteCard(data, '推荐路线');
+        appendRouteCard(data, data.routeOutsideBudget ? '参考路线（不符合距离或时间要求）' : '推荐路线');
         alternativeProgress = document.createElement('div'); alternativeProgress.className = 'idea-progress'; alternativeProgress.setAttribute('role', 'status');
         const title = document.createElement('button'); title.type = 'button'; title.className = 'idea-progress-title is-thinking'; title.setAttribute('aria-expanded', 'true');
         alternativeHeading = document.createElement('span'); alternativeHeading.textContent = '正在生成其他路线';
@@ -5751,32 +6047,49 @@ document.addEventListener('DOMContentLoaded', () => {
         const alternativeSteps = alternativeProgress.querySelector('.idea-progress-steps');
         alternativeSteps.firstElementChild.textContent = data.status === 'unavailable' ? '部分搜索或路线校验未完成' : '沿途路段搜索和路线校验已结束';
         alternativeSteps.classList.remove('is-loading'); alternativeSteps.hidden = true;
+        renderRouteComparison(data.comparison);
       }
     };
+    let resultReceived = false;
     try {
       const center = map.getCenter();
-      const response = await fetch(`${API_BASE_URL}/routes/idea-recommendations`, { method: 'POST', headers: { 'Content-Type': 'application/json', 'Accept': 'text/event-stream' }, body: JSON.stringify({ idea, center: { lat: center.lat, lng: center.lng }, origin: origin && ['manual', 'gps', 'ip'].includes(originLocationSource) && Number.isFinite(Number(origin.lat)) && Number.isFinite(Number(origin.lng)) ? { lat: Number(origin.lat), lng: Number(origin.lng) } : null, originSource: originLocationSource === 'gps' && Date.now() - originGpsTimestamp >= 60000 ? 'gps-stale' : originLocationSource, history: priorHistory, previousIntent, placeContext, ...(moreRequest ? { moreSearch: moreRequest.search } : {}) }), signal: request.signal });
+      const response = await fetch(`${API_BASE_URL}/routes/idea-recommendations`, { method: 'POST', headers: { 'Content-Type': 'application/json', 'Accept': 'text/event-stream' }, body: JSON.stringify({ idea, center: { lat: center.lat, lng: center.lng }, origin: origin && ['manual', 'gps', 'ip'].includes(originLocationSource) && Number.isFinite(Number(origin.lat)) && Number.isFinite(Number(origin.lng)) ? { lat: Number(origin.lat), lng: Number(origin.lng) } : null, originSource: originLocationSource === 'gps' && Date.now() - originGpsTimestamp >= 60000 ? 'gps-stale' : originLocationSource, history: priorHistory, previousIntent, placeContext, requirementState, ...(moreRequest ? { moreSearch: moreRequest.search } : {}), ...(editRequest ? { requirementEdit: editRequest, hasPendingQuestion: unansweredQuestions.length > 0 } : {}) }), signal: request.signal });
       let data;
       if (!response.ok) { const error = await response.json(); throw new Error(error.error || '推荐暂时不可用，请稍后重试。'); }
       if ((response.headers.get('content-type') || '').includes('text/event-stream')) {
         data = await readIdeaStream(response, addStep, value => { if (sessionEpoch === epoch && ideaRequest === request) setTitle(value); }, routeEvent);
       } else { data = await response.json(); }
       if (ideaRequest !== request || sessionEpoch !== epoch) return;
+      resultReceived = true;
+      if (!moreRequest && !editRequest) unansweredQuestions.forEach(card => card.setQuestionState?.('answered', idea));
+      else if (data.question) unansweredQuestions.forEach(card => card.setQuestionState?.('superseded'));
       moreSucceeded = true;
       if (moreRequest) moreRequest.button.hidden = true;
       setTitle(data.title || idea);
       if (Object.prototype.hasOwnProperty.call(data, 'contextIntent')) previousIntent = data.contextIntent;
       if (Object.prototype.hasOwnProperty.call(data, 'placeContext')) placeContext = data.placeContext;
+      if (Object.prototype.hasOwnProperty.call(data, 'requirementState')) requirementState = data.requirementState;
+      try { renderRequirementPanel(); }
+      catch (error) { requirementPanel.hidden = true; console.error('[IdeaConversation] Could not render requirements:', error); }
+      if (editRequest) existingRouteCards.forEach(card => {
+        card.classList.add('is-outdated');
+        const notice = document.createElement('p'); notice.className = 'idea-composite-note'; notice.textContent = '需求已更新，此路线基于之前的条件生成。'; card.append(notice);
+        card.querySelectorAll('button').forEach(button => { button.disabled = true; });
+      });
+      content.querySelectorAll('.idea-confirm-action').forEach(button => { button.disabled = true; button.title = '需求已更新，请使用最新的确认按钮'; });
       remember('user', `${submittedReferences.map(ref => `引用${ref.type === 'segment' ? '路段' : ref.type === 'route' ? '路线' : '地点'}：${ref.item.name || '未命名'}${ref.item.address ? `（${ref.item.address}）` : ''}`).join('；')} ${idea}`); remember('assistant', describeResult(data));
       if (steps.lastElementChild) steps.lastElementChild.classList.add('done');
       headingText.textContent = '思考完成';
       heading.classList.remove('is-thinking'); heading.setAttribute('aria-expanded', 'false'); steps.hidden = true;
       if (!firstRouteShown) { const answer = document.createElement('p'); answer.className = 'idea-answer'; answer.textContent = data.message || ''; content.append(answer); }
       const choices = document.createElement('div'); choices.className = 'idea-card-actions';
-      if (Array.isArray(data.options) && data.options.length) {
+      const questionCard = createIdeaQuestion(data.question, sessionAtSubmit);
+      if (questionCard) content.append(questionCard);
+      if (!questionCard && Array.isArray(data.options) && data.options.length) {
         data.options.slice(0, 3).forEach(option => {
           if (typeof option !== 'string' || !option.trim()) return;
           const button = document.createElement('button'); button.type = 'button'; button.textContent = option;
+          if (option === '确认，开始规划') button.classList.add('idea-confirm-action');
           button.addEventListener('click', () => { if (currentSessionId !== sessionAtSubmit || ideaSending) return; input.value = option; submitIdeaDirect(); });
           choices.append(button);
         });
@@ -5812,17 +6125,18 @@ document.addEventListener('DOMContentLoaded', () => {
         });
         content.append(locate, locateStatus);
       }
-      if (data.route && !firstRouteShown) appendRouteCard(data, '推荐路线');
+      if (data.route && !firstRouteShown) appendRouteCard(data, data.routeOutsideBudget ? '参考路线（不符合距离或时间要求）' : '推荐路线');
       if (Array.isArray(data.alternatives)) data.alternatives.forEach(addAlternativeCard);
+      renderRouteComparison(data.routeComparison);
       const items = Array.isArray(data.items) ? data.items : [];
-      items.forEach(item => {
+      const appendCandidate = (item, before = null) => {
         const card = document.createElement('article'); card.className = 'idea-card';
-        const type = document.createElement('div'); type.className = 'idea-card-type'; type.textContent = item.type === 'point' ? '推荐点位' : `骑行路段${Number.isFinite(item.distanceKm) ? ` · ${item.distanceKm.toFixed(1)} 公里` : ''}`;
+        const type = document.createElement('div'); type.className = 'idea-card-type'; type.textContent = item.type === 'point' ? (item.evidenceOnly ? '待核实地点' : '推荐点位') : `${item.evidenceOnly ? '待核实路段' : '骑行路段'}${Number.isFinite(item.distanceKm) ? ` · ${item.distanceKm.toFixed(1)} 公里` : ''}`;
         const title = document.createElement('h3'); title.textContent = item.name;
         const reason = document.createElement('p'); reason.textContent = item.reason;
         const actions = document.createElement('div'); actions.className = 'idea-card-actions';
         const show = document.createElement('button'); show.type = 'button'; show.textContent = '在地图查看'; show.addEventListener('click', () => { if (currentSessionId !== sessionAtSubmit) return; remember('assistant', `用户查看了${item.type === 'segment' ? '路段' : '点位'}：${item.name}。`); showIdeaOnMap(item, close); });
-        const route = document.createElement('button'); route.type = 'button'; route.textContent = '规划前往路线'; route.addEventListener('click', () => { if (currentSessionId !== sessionAtSubmit) return; remember('assistant', `用户选择规划前往${item.name}。`); planIdeaRoute(item, route, close); });
+        const route = document.createElement('button'); route.type = 'button'; route.textContent = item.evidenceOnly ? '单独规划前往' : '规划前往路线'; route.addEventListener('click', () => { if (currentSessionId !== sessionAtSubmit) return; remember('assistant', `用户选择规划前往${item.name}。`); planIdeaRoute(item, route, close); });
         const routeStatus = document.createElement('p'); routeStatus.className = 'idea-route-status'; routeStatus.setAttribute('role', 'status');
         actions.append(show, route);
         if (item.type === 'segment') {
@@ -5830,17 +6144,37 @@ document.addEventListener('DOMContentLoaded', () => {
           detail.addEventListener('click', () => { if (currentSessionId === sessionAtSubmit) showStravaSegmentDetails(item, detail); });
           actions.append(detail);
         }
-        card.append(type, title, reason, actions, routeStatus); content.append(card);
-      });
+        card.append(type, title, reason, actions, routeStatus);
+        if (before) content.insertBefore(card, before); else content.append(card);
+      };
+      const initialCount = data.evidenceOnly ? Math.min(6, items.length) : items.length;
+      items.slice(0, initialCount).forEach(item => appendCandidate(item));
+      if (initialCount < items.length) {
+        let shown = initialCount;
+        const moreActions = document.createElement('div'); moreActions.className = 'idea-card-actions';
+        const moreCandidates = document.createElement('button'); moreCandidates.type = 'button'; moreCandidates.className = 'idea-search-more';
+        const updateLabel = () => { moreCandidates.textContent = `查看更多候选（剩余 ${items.length - shown}）`; };
+        updateLabel();
+        moreCandidates.addEventListener('click', () => {
+          if (currentSessionId !== sessionAtSubmit) return;
+          const end = Math.min(items.length, shown + 12);
+          items.slice(shown, end).forEach(item => appendCandidate(item, moreActions));
+          shown = end;
+          if (shown >= items.length) moreActions.remove(); else updateLabel();
+        });
+        moreActions.append(moreCandidates); content.append(moreActions);
+      }
       content.scrollTop = content.scrollHeight;
     } catch (error) {
+      if (error.name !== 'AbortError') console.error('[IdeaConversation] Request or response processing failed:', error);
+      unansweredQuestions.forEach(card => { if (card.dataset.state === 'submitting') card.setQuestionState?.('waiting'); });
       if (error.name !== 'AbortError') {
         headingText.textContent = firstRouteShown ? '思考完成' : '思考未完成';
         if (firstRouteShown && alternativeHeading) { alternativeHeading.textContent = '其他路线生成中断，已保留第一条路线'; alternativeHeading.parentElement.classList.remove('is-thinking'); const moreSteps = alternativeProgress.querySelector('.idea-progress-steps'); moreSteps.classList.remove('is-loading'); moreSteps.hidden = true; alternativeHeading.parentElement.setAttribute('aria-expanded', 'false'); }
         else status.classList.add('has-error');
         const message = document.createElement('p');
         message.className = 'idea-route-status';
-        message.textContent = error instanceof TypeError ? '网络连接失败，请稍后重试。' : (error.message || '网络连接失败，请稍后重试。');
+        message.textContent = resultReceived ? '结果显示时出现问题，请重试。' : error instanceof TypeError ? '连接中断，网络或服务可能暂时不可用，请稍后重试。' : (error.message || '连接中断，请稍后重试。');
         const retry = document.createElement('button');
         retry.type = 'button';
         retry.className = 'idea-retry';
@@ -5849,6 +6183,7 @@ document.addEventListener('DOMContentLoaded', () => {
           if (currentSessionId !== sessionAtSubmit || ideaSending) return;
           const draft = input.value;
           if (moreRequest) { pendingMoreSearch = moreRequest; moreRequest.button.disabled = true; }
+          if (editRequest) pendingRequirementEdit = editRequest;
           input.value = idea;
           submitIdeaDirect();
           if (draft) { input.value = draft; resizeIdeaInput(); }
@@ -5863,7 +6198,11 @@ document.addEventListener('DOMContentLoaded', () => {
     } finally {
       steps.classList.remove('is-loading');
       if (moreRequest && !moreSucceeded) moreRequest.button.disabled = false;
-      if (ideaRequest === request) { ideaSending = false; ideaRequest = null; }
+      if (ideaRequest === request) {
+        ideaSending = false;
+        ideaRequest = null;
+        resizeIdeaInput();
+      }
     }
   });
   requestGreeting();
@@ -5882,7 +6221,7 @@ function animateIdeaMessage(bubble, sourceRect) {
   animation.finished.catch(() => { }).finally(() => { flying.remove(); bubble.style.visibility = ''; });
 }
 
-async function readIdeaStream(response, onProgress, onTitle = () => { }, onRouteEvent = () => { }) {
+async function readIdeaStream(response, onProgress, onTitle = () => { }, onRouteEvent = () => { }, onCandidates = () => { }) {
   if (!response.body) throw new Error('推荐服务未返回结果，请重试。');
   const reader = response.body.getReader();
   const decoder = new TextDecoder();
@@ -5894,6 +6233,7 @@ async function readIdeaStream(response, onProgress, onTitle = () => { }, onRoute
     const payload = JSON.parse(data.join('\n'));
     if (event === 'progress') onProgress(payload.stage);
     else if (event === 'title') onTitle(payload.title);
+    else if (event === 'candidates') onCandidates(payload);
     else if (['route_first', 'route_alternative', 'route_alternatives_progress', 'route_alternatives_done'].includes(event)) onRouteEvent(event, payload);
     else if (event === 'result') result = payload;
     else if (event === 'error') throw new Error(payload.error || '推荐暂时不可用，请稍后重试。');
@@ -6099,7 +6439,7 @@ async function planIdeaRoute(item, button, close) {
     if (ideaRouteRequest === request) { status.textContent = ''; showAppMessage(error.name === 'AbortError' ? '路线规划已取消或超时，请重试。' : (error.message || '规划失败，请重试。')); }
   } finally {
     clearTimeout(timer);
-    button.disabled = false; button.textContent = '规划前往路线';
+    button.disabled = false; button.textContent = item.evidenceOnly ? '单独规划前往' : '规划前往路线';
     if (ideaRouteRequest === request) ideaRouteRequest = null;
   }
 }

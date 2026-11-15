@@ -21,7 +21,7 @@
     integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin="" />
 
   <!-- Custom CSS Style -->
-  <link rel="stylesheet" href="style.css?v=20261114-segment-focus">
+  <link rel="stylesheet" href="style.css?v=20261115-idea-ios-viewport">
 </head>
 
 <body>
@@ -549,6 +549,12 @@
         </div>
       </header>
 
+      <details class="idea-requirements" id="idea-requirements" hidden>
+        <summary><span>当前骑行需求</span></summary>
+        <div class="idea-requirements-content">
+          <div class="idea-requirements-body" id="idea-requirements-body"></div>
+        </div>
+      </details>
       <span class="sr-only" id="idea-search-status" role="status" aria-live="polite"></span>
 
       <div class="idea-content" id="idea-content" aria-live="polite" inert>
@@ -560,30 +566,60 @@
                 <div class="idea-nearby-route idea-nearby-summary">
                   <span class="idea-nearby-summary-heading"><i class="idea-skeleton-title"></i><i
                       class="idea-skeleton-disclosure"></i></span>
-                  <span class="idea-nearby-summary-stats">
-                    <span class="idea-nearby-summary-stat"><span><i></i></span><span><i></i></span></span>
-                    <span class="idea-nearby-summary-stat"><span><i></i></span><span><i></i></span></span>
-                  </span>
                 </div>
               </div>
               <div class="idea-nearby-card idea-nearby-skeleton-card">
                 <div class="idea-nearby-route idea-nearby-summary">
                   <span class="idea-nearby-summary-heading"><i class="idea-skeleton-title"></i><i
                       class="idea-skeleton-disclosure"></i></span>
-                  <span class="idea-nearby-summary-stats">
-                    <span class="idea-nearby-summary-stat"><span><i></i></span><span><i></i></span></span>
-                    <span class="idea-nearby-summary-stat"><span><i></i></span><span><i></i></span></span>
-                  </span>
                 </div>
               </div>
               <div class="idea-nearby-card idea-nearby-skeleton-card">
                 <div class="idea-nearby-route idea-nearby-summary">
                   <span class="idea-nearby-summary-heading"><i class="idea-skeleton-title"></i><i
                       class="idea-skeleton-disclosure"></i></span>
-                  <span class="idea-nearby-summary-stats">
-                    <span class="idea-nearby-summary-stat"><span><i></i></span><span><i></i></span></span>
-                    <span class="idea-nearby-summary-stat"><span><i></i></span><span><i></i></span></span>
-                  </span>
+                </div>
+              </div>
+              <div class="idea-nearby-card idea-nearby-skeleton-card">
+                <div class="idea-nearby-route idea-nearby-summary">
+                  <span class="idea-nearby-summary-heading"><i class="idea-skeleton-title"></i><i
+                      class="idea-skeleton-disclosure"></i></span>
+                </div>
+              </div>
+              <div class="idea-nearby-card idea-nearby-skeleton-card">
+                <div class="idea-nearby-route idea-nearby-summary">
+                  <span class="idea-nearby-summary-heading"><i class="idea-skeleton-title"></i><i
+                      class="idea-skeleton-disclosure"></i></span>
+                </div>
+              </div>
+              <div class="idea-nearby-card idea-nearby-skeleton-card">
+                <div class="idea-nearby-route idea-nearby-summary">
+                  <span class="idea-nearby-summary-heading"><i class="idea-skeleton-title"></i><i
+                      class="idea-skeleton-disclosure"></i></span>
+                </div>
+              </div>
+              <div class="idea-nearby-card idea-nearby-skeleton-card">
+                <div class="idea-nearby-route idea-nearby-summary">
+                  <span class="idea-nearby-summary-heading"><i class="idea-skeleton-title"></i><i
+                      class="idea-skeleton-disclosure"></i></span>
+                </div>
+              </div>
+              <div class="idea-nearby-card idea-nearby-skeleton-card">
+                <div class="idea-nearby-route idea-nearby-summary">
+                  <span class="idea-nearby-summary-heading"><i class="idea-skeleton-title"></i><i
+                      class="idea-skeleton-disclosure"></i></span>
+                </div>
+              </div>
+              <div class="idea-nearby-card idea-nearby-skeleton-card">
+                <div class="idea-nearby-route idea-nearby-summary">
+                  <span class="idea-nearby-summary-heading"><i class="idea-skeleton-title"></i><i
+                      class="idea-skeleton-disclosure"></i></span>
+                </div>
+              </div>
+              <div class="idea-nearby-card idea-nearby-skeleton-card">
+                <div class="idea-nearby-route idea-nearby-summary">
+                  <span class="idea-nearby-summary-heading"><i class="idea-skeleton-title"></i><i
+                      class="idea-skeleton-disclosure"></i></span>
                 </div>
               </div>
             </div>
@@ -609,14 +645,20 @@
               id="idea-input-prompt" aria-hidden="true">今天，想骑向哪里？</span>
             <div class="idea-input-body">
               <div class="idea-input-editor">
-                <div id="idea-input" contenteditable="true" role="textbox" aria-multiline="true" aria-label="输入骑行想法"
-                  aria-describedby="idea-input-help" data-placeholder="输入骑行想法，或添加路段、地点" enterkeyhint="send"></div>
+                <div id="idea-input" class="is-empty" contenteditable="true" role="textbox" aria-multiline="true"
+                  aria-label="输入骑行想法" aria-describedby="idea-input-help" enterkeyhint="send"></div>
+                <span class="idea-editor-placeholder" id="idea-editor-placeholder"
+                  aria-hidden="true">输入骑行想法，或添加路段、地点</span>
               </div>
-            </div><span class="sr-only" id="idea-input-help">使用添加引用选择路段或地点，按回车发送。</span><button type="submit"
-              class="idea-send" id="idea-send" aria-label="发送" hidden><i class="fa-solid fa-arrow-up"
-                aria-hidden="true"></i></button>
-          </div><button class="idea-voice" type="button" disabled aria-label="语音输入即将上线"><i
-              class="fa-solid fa-microphone" aria-hidden="true"></i></button>
+            </div>
+            <span class="sr-only" id="idea-input-help">使用添加引用选择路段或地点，按回车发送。</span>
+            <button class="idea-voice" type="button" disabled aria-label="语音输入即将上线">
+              <i class="fa-solid fa-microphone" aria-hidden="true"></i>
+            </button>
+            <button class="idea-send" id="idea-send" type="submit" aria-label="发送" disabled>
+              <i class="fa-solid fa-arrow-up" aria-hidden="true"></i>
+            </button>
+          </div>
         </form>
       </div>
     </div>
@@ -662,9 +704,9 @@
   <!-- Custom JS Application Logic -->
   <script src="idea-gpx.js?v=20261106"></script>
   <script src="idea-navigation.js?v=20261110-native-map-app"></script>
-  <script src="idea-recommendation-cache.js?v=20261106-three-routes"></script>
+  <script src="idea-recommendation-cache.js?v=20261115-candidates-4"></script>
   <script src="observer-tracking.js?v=2"></script>
-  <script src="app.js?v=20261114-multiple-route-stream"></script>
+  <script src="app.js?v=20261115-idea-ios-viewport"></script>
 </body>
 
 </html>

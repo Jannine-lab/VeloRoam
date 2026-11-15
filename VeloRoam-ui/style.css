@@ -2638,7 +2638,7 @@ body.light-theme .strava-panel-close-btn:hover {
 
 .idea-card-type {
   color: #9ce6bd;
-  font-size: 12px;
+  font-size: 16px;
 }
 
 .idea-card h3 {
@@ -2648,7 +2648,7 @@ body.light-theme .strava-panel-close-btn:hover {
 
 .idea-card p {
   color: #c5cac7;
-  font-size: 13px;
+  font-size: 16px;
   line-height: 1.55;
 }
 
@@ -2668,6 +2668,7 @@ body.light-theme .strava-panel-close-btn:hover {
   color: #f3faf5;
   background: #353d38;
   cursor: pointer;
+  font-weight: 400;
 }
 
 .idea-card-actions .idea-search-more {
@@ -2698,7 +2699,7 @@ body.light-theme .strava-panel-close-btn:hover {
   border: 1px solid #56625a;
   border-radius: 26px;
   background: #303632;
-  padding: 4px;
+  padding: 4px 6px 6px 8px;
 }
 
 .idea-input-wrap input {
@@ -2715,21 +2716,6 @@ body.light-theme .strava-panel-close-btn:hover {
   color: #afb8b2;
 }
 
-.idea-voice {
-  flex: 1 1 0;
-  border: 0;
-  border-radius: 26px;
-  color: #b0b8b2;
-  background: #373d39;
-  padding: 0 10px;
-  min-height: 48px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 7px;
-  font-size: 12px;
-}
-
 .idea-sheet button:focus,
 .idea-sheet input:focus {
   outline: none;
@@ -2744,10 +2730,6 @@ body.light-theme .strava-panel-close-btn:hover {
 
   .idea-compose {
     gap: 6px;
-  }
-
-  .idea-voice span {
-    font-size: 11px;
   }
 }
 
@@ -2798,12 +2780,12 @@ body.light-theme .strava-panel-close-btn:hover {
 .idea-user-message {
   width: fit-content;
   max-width: 85%;
-  margin: 0 0 18px auto;
-  padding: 12px 16px;
-  border-radius: 18px 18px 5px 18px;
+  margin: 0 0 16px auto;
+  padding: 8px 12px;
+  border-radius: 12px 12px 4px 12px;
   color: #15241a;
   background: #a6f0c2;
-  font-size: 14px;
+  font-size: 16px;
   line-height: 1.5;
   white-space: pre-wrap;
   overflow-wrap: anywhere;
@@ -2852,17 +2834,172 @@ body.light-theme .strava-panel-close-btn:hover {
 .idea-answer {
   margin: 0 0 14px;
   color: #d9e0db;
-  font-size: 14px;
+  font-size: 16px;
   line-height: 1.6;
   white-space: pre-wrap;
   overflow-wrap: anywhere;
+}
+
+/* Blocking questions are grouped separately from recommendation actions. */
+.idea-question {
+  --question-border: rgba(192, 210, 199, .25);
+  --question-muted: #bdc9c1;
+  --question-selected: rgba(96, 205, 143, .16);
+  margin: 4px 0 14px;
+  padding: 12px;
+  border: 1px solid var(--question-border);
+  border-radius: 16px;
+}
+
+.idea-question-heading {
+  font-size: 14px;
+  font-weight: 650;
+  line-height: 1.4;
+}
+
+.idea-question-status {
+  margin: 4px 0 12px;
+  color: var(--question-muted);
+  font-size: 12px;
+  line-height: 1.5;
+  overflow-wrap: anywhere;
+}
+
+.idea-question-options {
+  border: 0;
+  padding: 0;
+  margin: 0;
+  min-width: 0;
+  display: grid;
+  gap: 7px;
+}
+
+.idea-question-legend {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  clip-path: inset(50%);
+  white-space: nowrap;
+}
+
+.idea-question-option {
+  min-height: 44px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 9px 11px;
+  border: 1px solid var(--question-border);
+  border-radius: 11px;
+  cursor: pointer;
+  line-height: 1.45;
+}
+
+.idea-question-option:has(input:checked) {
+  background: var(--question-selected);
+  border-color: #47bf7b;
+}
+
+.idea-question-option:focus-within {
+  outline: 2px solid #47bf7b;
+  outline-offset: 2px;
+}
+
+.idea-question-option input {
+  flex: none;
+  width: 17px;
+  height: 17px;
+  margin: 0;
+  accent-color: #25a765;
+}
+
+.idea-question-number {
+  color: var(--question-muted);
+  font-size: 12px;
+  min-width: 12px;
+  text-align: center;
+}
+
+.idea-question-label {
+  min-width: 0;
+  overflow-wrap: anywhere;
+  font-size: 14px;
+}
+
+.idea-question-custom {
+  width: 100%;
+  min-height: 64px;
+  box-sizing: border-box;
+  resize: vertical;
+  padding: 10px 11px;
+  border: 1px solid var(--question-border);
+  border-radius: 10px;
+  color: inherit;
+  background: transparent;
+  font: inherit;
+}
+
+.idea-question-custom[hidden] {
+  display: none;
+}
+
+.idea-question-custom:focus-visible,
+.idea-question-continue:focus-visible {
+  outline: 2px solid #47bf7b;
+  outline-offset: 2px;
+}
+
+.idea-question-actions {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 12px;
+}
+
+.idea-question-continue {
+  min-height: 40px;
+  border: 0;
+  border-radius: 20px;
+  padding: 0 18px;
+  color: #102e1d;
+  background: #a2e9bf;
+  font: inherit;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.idea-question-continue:disabled {
+  opacity: .45;
+  cursor: default;
+}
+
+.idea-question[data-state="answered"] .idea-question-actions,
+.idea-question[data-state="superseded"] .idea-question-actions {
+  display: none;
+}
+
+.idea-question[data-state="answered"] .idea-question-options,
+.idea-question[data-state="superseded"] .idea-question-options {
+  opacity: .72;
+}
+
+body.light-theme .idea-sheet .idea-question {
+  --question-border: rgba(67, 91, 106, .22);
+  --question-muted: #53676e;
+  --question-selected: rgba(33, 158, 93, .11);
+  color: #26343c;
+}
+
+@media (hover: hover) {
+  .idea-question-option:hover {
+    background: var(--question-selected);
+  }
 }
 
 .idea-progress-steps {
   list-style: none;
   margin: 9px 0 0;
   padding: 0;
-  font-size: 12px;
+  font-size: 14px;
   color: #aab7ae;
 }
 
@@ -2941,7 +3078,7 @@ body.light-theme .strava-panel-close-btn:hover {
 
 body.light-theme .idea-route-origin {
   color: #52625a;
-  padding: 0 16px;
+  /* padding: 0 16px; */
 }
 
 @media (prefers-reduced-motion: reduce) {
@@ -3018,7 +3155,7 @@ body.light-theme .idea-entry-input {
 }
 
 .idea-sheet {
-  bottom: var(--idea-keyboard-inset, 0px);
+  bottom: var(--idea-viewport-bottom, 0px);
   max-height: calc(var(--idea-viewport-height, 100dvh) - 12px);
 }
 
@@ -3061,13 +3198,13 @@ body.light-theme .idea-entry-input {
 }
 
 .idea-sheet {
-  bottom: calc(16px + var(--safe-area-bottom) + var(--idea-keyboard-inset, 0px));
+  bottom: calc(16px + var(--safe-area-bottom) + var(--idea-viewport-bottom, 0px));
   max-height: calc(var(--idea-viewport-height, 100dvh) - 32px - var(--safe-area-bottom));
   padding-bottom: 18px;
 }
 
 .idea-sheet.keyboard-open {
-  bottom: calc(12px + var(--idea-keyboard-inset, 0px));
+  bottom: calc(12px + var(--idea-viewport-bottom, 0px));
   padding-bottom: 12px;
 }
 
@@ -3122,7 +3259,7 @@ body.light-theme .idea-entry-input {
 .idea-composite-card .idea-composite-note {
   margin-top: 8px;
   color: #bdc9c0;
-  font-size: 12px;
+  font-size: 16px;
 }
 
 .idea-route-panel {
@@ -3136,7 +3273,7 @@ body.light-theme .idea-entry-input {
   --idea-collapsed-height: 120px;
   position: fixed;
   z-index: 3000;
-  bottom: calc(16px + var(--safe-area-bottom) + var(--idea-keyboard-inset, 0px));
+  bottom: calc(16px + var(--safe-area-bottom) + var(--idea-viewport-bottom, 0px));
   width: min(620px, calc(100% - 32px));
   height: var(--idea-collapsed-height);
   max-height: calc(var(--idea-viewport-height, 100dvh) - 32px);
@@ -3153,7 +3290,7 @@ body.light-theme .idea-entry-input {
 }
 
 .idea-sheet.idea-entry.keyboard-open {
-  bottom: calc(12px + var(--idea-keyboard-inset, 0px));
+  bottom: calc(12px + var(--idea-viewport-bottom, 0px));
 }
 
 .idea-sheet.idea-entry.is-dragging {
@@ -3181,7 +3318,7 @@ body.light-theme .idea-entry-input {
 }
 
 .idea-sheet .idea-header h2 {
-  font-size: 16px;
+  font-size: 18px;
   line-height: 1.3;
 }
 
@@ -3203,31 +3340,8 @@ body.light-theme .idea-entry-input {
   flex: none;
 }
 
-.idea-sheet .idea-voice {
-  flex: 0 1 150px;
-  max-width: 150px;
-  overflow: hidden;
-  white-space: nowrap;
-  transition: max-width 300ms ease, opacity 180ms ease, padding 300ms ease;
-}
-
-.idea-sheet:not(.is-open) .idea-voice {
-  max-width: 0;
-  padding-left: 0;
-  padding-right: 0;
-  opacity: 0;
-}
-
 .idea-sheet .idea-compose {
   gap: 0;
-}
-
-.idea-sheet .idea-voice {
-  margin-left: 9px;
-}
-
-.idea-sheet:not(.is-open) .idea-voice {
-  margin-left: 0;
 }
 
 @media (prefers-reduced-motion: reduce) {
@@ -3379,7 +3493,7 @@ body.light-theme .idea-entry-input {
   font: inherit;
   font-size: 12px;
   cursor: pointer;
-  padding: 8px;
+  padding: 4px;
 }
 
 .idea-history-empty {
@@ -3518,12 +3632,6 @@ body.light-theme .idea-input-wrap textarea::placeholder {
   color: #59655d;
 }
 
-.idea-sheet .idea-voice {
-  height: 48px;
-  min-height: 48px;
-  align-self: flex-end;
-}
-
 @media (prefers-reduced-motion: reduce) {
   .idea-menu {
     transition: none;
@@ -3547,7 +3655,7 @@ body.light-theme .idea-input-wrap {
   --idea-sheet-radius: 36px;
   --idea-safe-bottom: var(--device-safe-area-bottom);
   width: min(620px, calc(100% - 2 * var(--idea-sheet-inset)));
-  bottom: calc(var(--idea-sheet-inset) + var(--safe-area-bottom) + var(--idea-keyboard-inset, 0px));
+  bottom: calc(var(--idea-sheet-inset) + var(--safe-area-bottom) + var(--idea-viewport-bottom, 0px));
   max-height: calc(var(--idea-viewport-height, 100dvh) - 2 * var(--idea-sheet-inset));
   padding: 12px;
   border-radius: var(--idea-sheet-radius);
@@ -3559,7 +3667,7 @@ body.light-theme .idea-input-wrap {
 }
 
 .idea-sheet.idea-entry.keyboard-open {
-  bottom: calc(var(--idea-sheet-inset) + var(--idea-keyboard-inset, 0px));
+  bottom: calc(var(--idea-sheet-inset) + var(--idea-viewport-bottom, 0px));
   padding: 12px;
 }
 
@@ -3597,7 +3705,7 @@ body.light-theme .idea-input-wrap {
   width: calc(100% - 16px);
   height: min(680px, 78dvh);
   max-height: calc(var(--idea-viewport-height, 100dvh) - 16px);
-  bottom: calc(8px + var(--idea-keyboard-inset, 0px));
+  bottom: calc(8px + var(--idea-viewport-bottom, 0px));
 }
 
 .idea-sheet.idea-entry .idea-examples button {
@@ -3645,16 +3753,15 @@ body.light-theme .idea-input-wrap {
 
 /* Three resting positions for the riding idea sheet. */
 .idea-sheet.idea-entry.is-full {
+  --idea-full-padding-top: calc(12px + env(safe-area-inset-top, 0px));
+  --idea-full-padding-bottom: calc(12px + var(--safe-area-bottom));
   width: 100%;
-  height: var(--idea-viewport-height, 100dvh);
-  max-height: var(--idea-viewport-height, 100dvh);
-  bottom: var(--idea-keyboard-inset, 0px);
+  top: 0;
+  bottom: 0;
+  height: auto;
+  max-height: none;
   border-radius: 0;
-  padding: calc(12px + env(safe-area-inset-top, 0px)) 12px calc(12px + var(--safe-area-bottom));
-}
-
-.idea-sheet.idea-entry.is-full.keyboard-open {
-  padding-bottom: 12px;
+  padding: var(--idea-full-padding-top) 12px var(--idea-full-padding-bottom);
 }
 
 @media (max-width: 767px) {
@@ -3678,22 +3785,6 @@ body.light-theme .idea-input-wrap {
   width: 100%;
 }
 
-.idea-sheet:not(.is-open) .idea-voice {
-  display: flex;
-  flex: 0 0 48px;
-  width: 48px;
-  max-width: 48px;
-  height: 48px;
-  padding: 0;
-  margin-left: 8px;
-  border-radius: 50%;
-  opacity: 1;
-}
-
-.idea-sheet:not(.is-open) .idea-voice span {
-  display: none;
-}
-
 .idea-input-wrap {
   position: relative;
 }
@@ -3701,7 +3792,7 @@ body.light-theme .idea-input-wrap {
 .idea-input-prompt {
   position: absolute;
   left: 16px;
-  right: 52px;
+  right: 92px;
   bottom: 12px;
   overflow: hidden;
   white-space: nowrap;
@@ -3733,10 +3824,7 @@ body.light-theme .idea-input-prompt {
 .idea-nearby-waiting {
   position: absolute;
   inset: 0;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  padding: 24px;
+  display: block;
   color: #e4f8ec;
   font: 600 clamp(15px, 4vw, 18px)/1.65 var(--font-primary);
   letter-spacing: .08em;
@@ -3749,6 +3837,8 @@ body.light-theme .idea-input-prompt {
 }
 
 .idea-nearby-waiting.is-visible {
+  position: relative;
+  inset: auto;
   opacity: 1;
   visibility: visible;
   transition-delay: 0s;
@@ -3758,9 +3848,19 @@ body.light-theme .idea-input-prompt {
   display: none;
 }
 
+.idea-nearby-candidates-heading {
+  margin: 8px 0 0;
+  color: inherit;
+  font-size: 14px;
+}
+
+.idea-nearby-route.idea-nearby-summary .idea-nearby-candidate-status {
+  flex: none;
+  font-size: 12px;
+  white-space: nowrap;
+}
+
 .idea-nearby-skeleton {
-  position: absolute;
-  inset: 0;
   display: grid;
   align-content: start;
   gap: 12px;
@@ -4188,7 +4288,7 @@ body.light-theme .idea-sheet.idea-entry {
 }
 
 .idea-sheet.idea-entry.is-open:not(.is-full) {
-  height: min(500px, 58dvh);
+  height: min(500px, calc(var(--idea-stable-height, 100svh) * 0.58));
 }
 
 .idea-sheet .idea-input-wrap,
@@ -4217,15 +4317,6 @@ body.light-theme .idea-sheet .idea-input-prompt {
 
 .idea-sheet:not(.is-open) .idea-input-wrap textarea::placeholder {
   color: transparent;
-}
-
-.idea-sheet .idea-voice {
-  background: var(--idea-surface-raised);
-  color: #c6d0d5;
-}
-
-body.light-theme .idea-sheet .idea-voice {
-  color: #596b75;
 }
 
 .idea-sheet .idea-nearby-route,
@@ -4297,7 +4388,7 @@ body.light-theme .idea-sheet #strava-details-panel {
 /* Shared sizing for the sheet and composer. */
 .idea-sheet.idea-entry {
   --idea-collapsed-height: 72px;
-  --idea-sheet-inset: 24px;
+  --idea-sheet-inset: 16px;
 }
 
 .idea-sheet.idea-entry.is-open {
@@ -4310,12 +4401,12 @@ body.light-theme .idea-sheet #strava-details-panel {
 
 .idea-sheet.idea-entry:not(.is-full) {
   width: min(620px, calc(100% - 2 * var(--idea-sheet-inset)));
-  bottom: calc(var(--idea-sheet-inset) + var(--safe-area-bottom) + var(--idea-keyboard-inset, 0px));
+  bottom: calc(var(--idea-sheet-inset) + var(--safe-area-bottom) + var(--idea-viewport-bottom, 0px));
 }
 
 .idea-sheet.idea-entry.is-open:not(.is-full) {
   width: calc(100% - 2 * var(--idea-sheet-inset));
-  bottom: calc(var(--idea-sheet-inset) + var(--idea-keyboard-inset, 0px));
+  bottom: calc(var(--idea-sheet-inset) + var(--idea-viewport-bottom, 0px));
 }
 
 .idea-sheet:not(.is-open) .idea-handle {
@@ -4335,7 +4426,7 @@ body.light-theme .idea-sheet #strava-details-panel {
 }
 
 .idea-sheet .idea-input-wrap {
-  gap: 10px;
+  gap: 4px;
 }
 
 .idea-search-icon {
@@ -4350,25 +4441,6 @@ body.light-theme .idea-search-icon {
 
 .idea-sheet .idea-input-prompt {
   left: 42px;
-}
-
-.idea-sheet .idea-voice,
-.idea-sheet:not(.is-open) .idea-voice {
-  display: flex;
-  flex: 0 0 48px;
-  width: 48px;
-  max-width: 48px;
-  height: 48px;
-  min-height: 48px;
-  padding: 0;
-  margin: 0;
-  border-radius: 50%;
-  opacity: 1;
-  pointer-events: auto;
-}
-
-.idea-sheet .idea-voice i {
-  font-size: 18px;
 }
 
 .idea-sheet.is-open .idea-header {
@@ -4392,10 +4464,6 @@ body.light-theme .idea-search-icon {
   font-size: 15px;
   -webkit-text-size-adjust: none;
   text-size-adjust: none;
-}
-
-.idea-sheet .idea-input-prompt {
-  right: 16px;
 }
 
 /* The middle content scrolls while the composer stays at the sheet bottom. */
@@ -4608,7 +4676,7 @@ body.light-theme .idea-sheet .idea-menu button i {
   margin: 10px 0;
   padding-left: 20px;
   color: #c5cac7;
-  font-size: 12px;
+  font-size: 16px;
   line-height: 1.7;
   overflow-wrap: anywhere;
 }
@@ -4938,6 +5006,7 @@ body.light-theme .idea-sheet .idea-locate {
   background: #e2f1e8;
   color: #175f3d;
   border-color: transparent;
+  font-size: 14px;
 }
 
 @media (hover: hover) {
@@ -5116,9 +5185,9 @@ body.light-theme .idea-sheet .idea-route-status {
 .map-detail-sheet.idea-sheet {
   z-index: 3001;
   width: calc(100% - 16px);
-  height: min(500px, 58dvh);
+  height: min(500px, calc(var(--idea-stable-height, 100svh) * 0.58));
   max-height: calc(var(--idea-viewport-height, 100dvh) - 16px);
-  bottom: calc(8px + var(--idea-keyboard-inset, 0px));
+  bottom: calc(8px + var(--idea-viewport-bottom, 0px));
   padding: 12px;
   border-radius: 36px;
   transition: transform 300ms cubic-bezier(.2, .8, .2, 1), opacity 220ms ease,
@@ -5129,14 +5198,55 @@ body.light-theme .idea-sheet .idea-route-status {
 
 .map-detail-sheet.idea-sheet.is-full {
   width: 100%;
-  height: var(--idea-viewport-height, 100dvh);
-  max-height: var(--idea-viewport-height, 100dvh);
-  bottom: var(--idea-keyboard-inset, 0px);
+  top: 0;
+  bottom: 0;
+  height: auto;
+  max-height: none;
   border-radius: 0;
   padding: calc(12px + env(safe-area-inset-top, 0px)) 12px calc(12px + var(--safe-area-bottom));
 }
 
+/* While dragging, the sheet is sized by inline height+bottom, so un-pin the top
+   edge again to let the drag follow the pointer. */
+.idea-sheet.idea-entry.is-dragging,
+.map-detail-sheet.idea-sheet.is-dragging {
+  top: auto;
+}
+
 @media (max-width: 767px) {
+
+  /* Keep the sheet surface full-height even if the keyboard resizes the layout viewport. */
+  .idea-sheet.idea-entry.is-full:not(.is-dragging) {
+    position: absolute;
+    left: 0;
+    min-height: var(--idea-stable-height, 100dvh);
+    transform: none;
+    transition-property: width, border-radius;
+  }
+
+  /* The visible viewport bounds the controls and the scrollable conversation. */
+  .idea-sheet.idea-entry.is-full:not(.is-dragging) > .planning-view:not([hidden]) {
+    position: absolute;
+    grid-area: auto;
+    inset-inline: 12px;
+    top: calc(var(--idea-viewport-page-top, 0px) + var(--idea-full-padding-top));
+    bottom: var(--idea-full-padding-bottom);
+    max-height: max(0px, calc(var(--idea-viewport-height, 100dvh) - var(--idea-full-padding-top) - 12px));
+  }
+
+  .idea-sheet.idea-entry.is-full:not(.is-dragging) > .idea-handle {
+    top: var(--idea-viewport-page-top, 0px);
+  }
+
+  .map-detail-sheet.idea-sheet.is-full:not(.is-dragging) {
+    top: var(--idea-viewport-top, 0px);
+    bottom: var(--idea-viewport-bottom, 0px);
+    transition-property: transform, opacity, width, border-radius;
+  }
+
+  .map-detail-sheet.idea-sheet.is-full.keyboard-open {
+    padding-bottom: 12px;
+  }
 
   .idea-sheet.idea-entry.is-open:not(.is-full) {
     width: 100%;
@@ -5144,9 +5254,9 @@ body.light-theme .idea-sheet .idea-route-status {
 
   .idea-sheet.idea-entry.is-open:not(.is-full),
   .map-detail-sheet.idea-sheet:not(.is-full) {
-    height: min(508px, calc(58dvh + 8px), calc(var(--idea-viewport-height, 100dvh) - 8px));
+    height: min(508px, calc(var(--idea-stable-height, 100svh) * 0.58 + 8px));
     max-height: calc(var(--idea-viewport-height, 100dvh) - 8px);
-    bottom: var(--idea-keyboard-inset, 0px);
+    bottom: var(--idea-viewport-bottom, 0px);
     border-radius: 36px 36px 0 0;
     padding-bottom: calc(12px + var(--safe-area-bottom));
   }
@@ -5165,7 +5275,7 @@ body.light-theme .idea-sheet .idea-route-status {
   transition: none;
 }
 
-.map-detail-sheet.idea-sheet.is-settling:not(.is-dragging) {
+.map-detail-sheet.idea-sheet.is-settling:not(.is-dragging, .is-full) {
   transition: height 420ms cubic-bezier(.2, .8, .25, 1.06), width 420ms cubic-bezier(.2, .8, .25, 1.06),
     bottom 420ms cubic-bezier(.2, .8, .25, 1.06), max-height 420ms cubic-bezier(.2, .8, .25, 1.06),
     border-radius 420ms cubic-bezier(.2, .8, .25, 1.06), transform 300ms cubic-bezier(.2, .8, .2, 1), opacity 220ms ease;
@@ -5254,7 +5364,7 @@ body.light-theme .map-detail-sheet .segment-detail-grid .segment-score-label>#st
 }
 
 .map-detail-sheet .segment-detail-grid {
-  margin-top: 12px;
+  /* margin-top: 12px; */
 }
 
 .map-detail-sheet .segment-detail-grid span,
@@ -5789,23 +5899,6 @@ body.light-theme .idea-sheet.idea-entry.is-open .idea-input-wrap textarea::place
   overflow: hidden;
 }
 
-.idea-sheet.idea-entry .idea-voice {
-  min-width: 0;
-  transition: margin-right 300ms cubic-bezier(.2, .8, .2, 1), opacity 220ms ease;
-}
-
-.idea-sheet.idea-entry.is-open .idea-compose:has(.idea-send:not([hidden])) .idea-voice {
-  margin-right: -60px;
-  opacity: 0;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: reduce) {
-  .idea-sheet.idea-entry .idea-voice {
-    transition: none;
-  }
-}
-
 .idea-sheet .idea-header {
   gap: 0px;
 }
@@ -5986,7 +6079,7 @@ body.light-theme .idea-sheet.idea-entry.is-open .idea-input-wrap textarea::place
 .map-detail-sheet .idea-route-note,
 .map-detail-sheet .idea-route-legs {
   color: #abbac2;
-  font-size: 13px;
+  font-size: 14px;
   line-height: 1.6;
   overflow-wrap: anywhere;
 }
@@ -6039,8 +6132,7 @@ body.light-theme .map-detail-sheet .idea-route-legs {
   margin: 4px 0;
 }
 
-.idea-references[hidden],
-.idea-send[hidden] {
+.idea-references[hidden] {
   display: none;
 }
 
@@ -6077,19 +6169,42 @@ body.light-theme .map-detail-sheet .idea-route-legs {
   margin-bottom: 6px;
 }
 
+.idea-voice,
 .idea-send {
+  display: grid;
+  place-items: center;
   flex: none;
   width: 36px;
   height: 36px;
+  padding: 0;
   border: 0;
   border-radius: 50%;
+}
+
+.idea-voice {
+  background: transparent;
+  color: #c6d0d5;
+  font-size: 16px;
+}
+
+body.light-theme .idea-voice {
+  color: #596b75;
+}
+
+.idea-send {
   background: #a6f0c2;
-  color: #fff;
+  color: #14261b;
   cursor: pointer;
 }
 
-.idea-sheet:not(.is-open) .idea-send {
-  display: none;
+.idea-send:disabled {
+  background: var(--control-border);
+  color: var(--text-grey);
+  cursor: default;
+}
+
+.idea-send .fa-square {
+  font-size: 12px;
 }
 
 .idea-reference-search {
@@ -6202,10 +6317,6 @@ button:focus-visible {
   display: inline-flex;
   margin: 0 5px 0 0;
   vertical-align: baseline;
-}
-
-.idea-send {
-  color: #14261b;
 }
 
 .idea-place-results {
@@ -6359,6 +6470,7 @@ body.light-theme .map-detail-sheet.idea-sheet {
   flex-direction: column;
   min-width: 0;
   min-height: 0;
+  font-weight: 400;
 }
 
 .planning-view[inert] {
@@ -6962,13 +7074,15 @@ input:placeholder-shown+.field-clear {
 .idea-sheet .idea-input-editor {
   display: block;
   min-width: 0;
+  padding-block: 7px;
 }
 
 .idea-sheet #idea-input {
   display: block;
   width: 100%;
   min-height: 24px;
-  margin: 7px 0;
+  max-height: var(--idea-input-max-height, 240px);
+  margin: 0;
   padding: 0;
   border: 0;
   outline: 0;
@@ -6979,19 +7093,38 @@ input:placeholder-shown+.field-clear {
   overflow-wrap: anywhere;
 }
 
+.idea-sheet:not(.is-open) #idea-input {
+  max-height: 24px;
+  overflow: hidden;
+}
+
 body.light-theme .idea-sheet #idea-input {
   color: #26343c;
 }
 
-.idea-sheet.is-open #idea-input.is-empty::before {
-  content: attr(data-placeholder);
+.idea-editor-placeholder {
+  display: none;
+  position: absolute;
+  inset: 7px 0 auto;
+  overflow: hidden;
   color: #becbd2;
+  font: 400 16px/24px var(--font-primary);
+  white-space: nowrap;
+  text-overflow: ellipsis;
   pointer-events: none;
 }
 
-body.light-theme .idea-sheet.is-open #idea-input.is-empty::before {
+body.light-theme .idea-editor-placeholder {
   color: #5d6f79;
 }
+
+.idea-sheet.is-open #idea-input.is-empty+.idea-editor-placeholder {
+  display: block;
+}
+
+/* #idea-input:focus+.idea-editor-placeholder {
+  inset-inline-start: 3px;
+} */
 
 .idea-input-wrap:has(#idea-input:not(.is-empty)) .idea-input-prompt {
   opacity: 0;
@@ -7084,4 +7217,194 @@ body.light-theme .leaflet-tooltip.segment-hover-tooltip {
 /* Pointer focus on the invisible SVG hit area should not draw a rectangle. */
 .segment-hit-area:focus:not(:focus-visible) {
   outline: none;
+}
+
+/* Compact, independently scrollable view of the current conversation requirements. */
+.idea-requirements {
+  flex: 0 0 auto;
+  margin: 6px 0 0;
+  border: 1px solid rgba(192, 210, 199, .25);
+  border-radius: 12px;
+}
+
+.idea-requirements[hidden],
+.idea-sheet:not(.is-open) .idea-requirements {
+  display: none;
+}
+
+.idea-requirements>summary {
+  min-height: 40px;
+  display: flex;
+  align-items: center;
+  gap: 9px;
+  padding: 0 12px;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: 600;
+  list-style: none;
+}
+
+.idea-requirements>summary::-webkit-details-marker {
+  display: none;
+}
+
+.idea-requirements>summary svg {
+  margin-left: auto;
+  width: 15px;
+  height: 15px;
+  flex: 0 0 15px;
+  transition: transform .2s ease;
+}
+
+.idea-requirements[open]:not([data-closing])>summary svg {
+  transform: rotate(180deg);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .idea-requirements>summary svg {
+    transition: none;
+  }
+}
+
+.idea-requirements-summary {
+  color: #bdc9c1;
+  font-size: 12px;
+  font-weight: 400;
+}
+
+.idea-requirements-body {
+  max-height: min(31vh, 260px);
+  overflow-y: auto;
+  overscroll-behavior: contain;
+  padding: 0 12px;
+}
+
+.idea-requirement-row {
+  display: grid;
+  grid-template-columns: minmax(64px, auto) minmax(0, 1fr) auto;
+  align-items: baseline;
+  gap: 8px;
+  padding: 7px 0;
+  border-top: 1px solid rgba(192, 210, 199, .15);
+  font-size: 14px;
+  line-height: 1.45;
+}
+
+.idea-requirement-label,
+.idea-requirement-status {
+  color: #bdc9c1;
+}
+
+.idea-requirement-value {
+  overflow-wrap: anywhere;
+}
+
+.idea-requirement-status {
+  display: inline-block;
+  margin-left: 6px;
+  font-size: 12px;
+}
+
+.idea-requirement-edit {
+  min-width: 44px;
+  min-height: 36px;
+  border: 0;
+  border-radius: 9px;
+  color: #a2e9bf;
+  background: transparent;
+  cursor: pointer;
+  font: inherit;
+}
+
+.idea-requirement-editor {
+  grid-column: 1 / -1;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 7px;
+}
+
+.idea-requirement-editor input {
+  flex: 1 1 110px;
+  min-width: 0;
+  min-height: 38px;
+  padding: 0 9px;
+  border: 1px solid rgba(192, 210, 199, .35);
+  border-radius: 9px;
+  background: transparent;
+  color: inherit;
+  font: inherit;
+}
+
+.idea-requirement-editor button {
+  min-height: 38px;
+  padding: 0 12px;
+  border: 1px solid rgba(192, 210, 199, .35);
+  border-radius: 9px;
+  background: transparent;
+  color: inherit;
+  cursor: pointer;
+}
+
+.idea-requirement-editor button:first-of-type {
+  background: #a2e9bf;
+  border-color: transparent;
+  color: #163d29;
+}
+
+.idea-requirement-error {
+  flex: 1 0 100%;
+  margin: 0;
+  color: #ffaaa0;
+  font-size: 12px;
+}
+
+.idea-requirement-hint {
+  margin: 8px 0 0;
+  color: #bdc9c1;
+  font-size: 12px;
+  line-height: 1.45;
+}
+
+.idea-requirements :is(summary, button, input):focus-visible {
+  outline: 2px solid #37c879;
+  outline-offset: 2px;
+}
+
+body.light-theme .idea-sheet .idea-requirements {
+  border-color: rgba(67, 91, 106, .18);
+}
+
+body.light-theme .idea-sheet :is(.idea-requirements-summary, .idea-requirement-label, .idea-requirement-status) {
+  color: #53676e;
+  text-align: right;
+}
+
+body.light-theme .idea-sheet .idea-requirement-row {
+  border-color: rgba(67, 91, 106, .13);
+}
+
+body.light-theme .idea-sheet .idea-requirement-edit {
+  color: #087a45;
+}
+
+body.light-theme .idea-sheet .idea-requirement-editor :is(input, button) {
+  border-color: rgba(67, 91, 106, .28);
+}
+
+body.light-theme .idea-sheet .idea-requirement-editor button:first-of-type {
+  border-color: transparent;
+}
+
+body.light-theme .idea-sheet .idea-requirement-error {
+  color: #a83d2d;
+}
+
+body.light-theme .idea-sheet .idea-requirement-hint {
+  color: #53676e;
+}
+
+@media (hover: hover) {
+  .idea-requirement-edit:hover {
+    background: var(--idea-surface-raised);
+  }
 }
