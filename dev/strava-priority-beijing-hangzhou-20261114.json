@@ -1,6 +1,8 @@
 {
-  "status": "waiting_for_active_beijing",
-  "updatedAt": "2026-11-14T04:16:46.315Z",
-  "precedingPid": 70960,
+  "status": "importing",
+  "updatedAt": "2026-11-15T00:00:27.220Z",
+  "city": "beijing",
+  "attempt": 4,
+  "reportPath": "/Users/jannine/Desktop/VeloRoam/dev/strava-beijing-z13-2026-11-10/detail-import-priority-20261114-attempt4.json",
   "results": []
 }
