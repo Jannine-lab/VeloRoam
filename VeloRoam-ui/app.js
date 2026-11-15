@@ -4686,7 +4686,17 @@ document.addEventListener('DOMContentLoaded', () => {
   document.getElementById('idea-history-back').addEventListener('click', () => { showConversation(); more.focus({ preventScroll: true }); });
   let expanded = false;
   let sheetState = 'collapsed';
+  let fullSheetAnimation = null;
+  const cancelFullSheetAnimation = () => {
+    fullSheetAnimation?.cancel();
+    fullSheetAnimation = null;
+  };
   const desktopSheet = window.matchMedia('(min-width: 768px)');
+  let ideaComposerMotion = null;
+  const cancelIdeaComposerMotion = () => {
+    ideaComposerMotion?.animation.cancel();
+    ideaComposerMotion = null;
+  };
   let placeSearchTimer = null;
   let placeSearchController = null;
   let placeSearchVersion = 0;
@@ -4999,6 +5009,8 @@ document.addEventListener('DOMContentLoaded', () => {
     document.documentElement.style.setProperty('--idea-entry-height', height);
   };
   const setExpanded = (next, { allowDesktopHalf = false } = {}) => {
+    cancelFullSheetAnimation();
+    cancelIdeaComposerMotion();
     sheetState = next === true ? 'half' : next === false ? 'collapsed' : next;
     if (desktopSheet.matches && sheetState !== 'collapsed' && !allowDesktopHalf) sheetState = 'full';
     if (sheetState === 'collapsed' && document.activeElement === input) input.blur();
@@ -5457,7 +5469,23 @@ document.addEventListener('DOMContentLoaded', () => {
     const viewport = window.visualViewport;
     return Math.max(0, viewport?.pageTop ?? (window.scrollY + (viewport?.offsetTop ?? 0)));
   };
+  const canAnimateIdeaComposer = () => !desktopSheet.matches && sheetState === 'full' &&
+    !aiView.hidden && !sheet.classList.contains('is-dragging') && typeof aiView.animate === 'function' &&
+    !window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+  const easeIdeaComposerHeight = (from, duration, predictedHeight) => {
+    cancelIdeaComposerMotion();
+    const to = predictedHeight ?? aiView.getBoundingClientRect().height;
+    if (Math.abs(to - from) < 1) return;
+    const predicting = predictedHeight !== undefined;
+    // Resize the conversation region above the composer without moving the sheet.
+    const animation = aiView.animate([{ maxHeight: `${from}px` }, { maxHeight: `${to}px` }], {
+      duration, easing: 'cubic-bezier(.25, .1, .25, 1)', fill: predicting ? 'forwards' : 'none'
+    });
+    ideaComposerMotion = { animation, predicting };
+    if (!predicting) animation.onfinish = () => { ideaComposerMotion = null; };
+  };
   let lastIdeaViewport;
+  let ideaViewportBeforeFocus = window.visualViewport?.height ?? window.innerHeight;
   const syncIdeaViewport = () => {
     syncStableViewport();
     const viewport = window.visualViewport;
@@ -5468,9 +5496,14 @@ document.addEventListener('DOMContentLoaded', () => {
     const viewportBottom = Math.max(0, layoutHeight - viewportTop - viewportHeight);
     const pageTop = getIdeaViewportPageTop();
     const keyboardOpen = stableViewportHeight - viewportHeight > 100;
-    const measurements = [stableViewportHeight, viewportHeight, viewportTop, viewportBottom, pageTop, keyboardOpen];
-    if (measurements.every((value, index) => value === lastIdeaViewport?.[index])) return;
+    const measurements = { stableViewportHeight, viewportHeight, viewportTop, viewportBottom, pageTop, keyboardOpen };
+    if (Object.entries(measurements).every(([key, value]) => value === lastIdeaViewport?.[key])) return;
+    const confirmingClose = !keyboardOpen && ideaComposerMotion?.predicting;
+    const jumpedOnClose = !keyboardOpen && lastIdeaViewport?.keyboardOpen && viewportHeight - lastIdeaViewport.viewportHeight >= 100;
+    const previousComposerHeight = (confirmingClose || jumpedOnClose) && canAnimateIdeaComposer()
+      ? aiView.getBoundingClientRect().height : null;
     lastIdeaViewport = measurements;
+    cancelFullSheetAnimation();
     document.documentElement.style.setProperty('--idea-stable-height', `${stableViewportHeight}px`);
     // The full idea sheet is positioned in document coordinates on mobile.
     sheet.style.setProperty('--idea-viewport-page-top', `${pageTop}px`);
@@ -5481,6 +5514,8 @@ document.addEventListener('DOMContentLoaded', () => {
       panel.classList.toggle('keyboard-open', keyboardOpen);
     }
     resizeIdeaInput();
+    if (previousComposerHeight !== null) easeIdeaComposerHeight(previousComposerHeight, confirmingClose ? 140 : 210);
+    else if (confirmingClose) cancelIdeaComposerMotion();
   };
   window.visualViewport?.addEventListener('resize', syncIdeaViewport);
   window.visualViewport?.addEventListener('scroll', syncIdeaViewport);
@@ -5496,14 +5531,39 @@ document.addEventListener('DOMContentLoaded', () => {
     const update = now => {
       syncIdeaViewport();
       if (now < deadline && sheetState === 'full') ideaKeyboardFrame = requestAnimationFrame(update);
+      else if (ideaComposerMotion?.predicting) {
+        if (canAnimateIdeaComposer()) easeIdeaComposerHeight(aiView.getBoundingClientRect().height, 140);
+        else cancelIdeaComposerMotion();
+      }
     };
     ideaKeyboardFrame = requestAnimationFrame(update);
   };
   input.addEventListener('focus', () => {
+    cancelFullSheetAnimation();
+    cancelIdeaComposerMotion();
+    if (!sheet.classList.contains('keyboard-open')) {
+      ideaViewportBeforeFocus = window.visualViewport?.height ?? window.innerHeight;
+    }
     if (sheetState !== 'full') setExpanded('full');
     trackIdeaKeyboard();
   });
-  input.addEventListener('blur', trackIdeaKeyboard);
+  const isIdeaTextField = element => element?.matches?.('input, textarea, [contenteditable="true"]');
+  input.addEventListener('blur', event => {
+    trackIdeaKeyboard();
+    if (!canAnimateIdeaComposer() || isIdeaTextField(event.relatedTarget) || !sheet.classList.contains('keyboard-open')) return;
+    const heightAtBlur = window.visualViewport?.height ?? window.innerHeight;
+    requestAnimationFrame(() => requestAnimationFrame(() => {
+      if (!canAnimateIdeaComposer() || isIdeaTextField(document.activeElement) || !sheet.classList.contains('keyboard-open')) return;
+      const height = window.visualViewport?.height ?? window.innerHeight;
+      // Safari can keep reporting the keyboard-open height until dismissal has finished.
+      if (Math.abs(height - heightAtBlur) > 1 || ideaViewportBeforeFocus <= height) return;
+      const from = aiView.getBoundingClientRect().height;
+      easeIdeaComposerHeight(from, 260, from + ideaViewportBeforeFocus - height);
+    }));
+  });
+  sheet.addEventListener('focusin', event => {
+    if (ideaComposerMotion?.predicting && isIdeaTextField(event.target)) cancelIdeaComposerMotion();
+  });
   // iOS Safari performs a real document scroll to reveal a focused control —
   // even though this document is scroll-locked (overflow: hidden). That scroll
   // shifts the absolute-positioned map up while the fixed sheet stays put,
@@ -5807,11 +5867,14 @@ document.addEventListener('DOMContentLoaded', () => {
     if (full) {
       const viewport = window.visualViewport;
       const view = planningMode === 'ai' ? aiView : traditionalView;
-      startHeight = Math.min(rect.height, viewport?.height ?? window.innerHeight);
-      const visibleBottom = getIdeaViewportPageTop() - window.scrollY + startHeight;
+      const visibleTop = getIdeaViewportPageTop() - window.scrollY;
+      const visibleBottom = Math.min(rect.bottom, visibleTop + (viewport?.height ?? window.innerHeight));
+      startHeight = Math.max(0, visibleBottom - Math.max(visibleTop, rect.top));
       currentBottom = `${Math.max(0, document.documentElement.clientHeight - visibleBottom)}px`;
       currentPaddingBottom = `${Math.max(0, visibleBottom - view.getBoundingClientRect().bottom)}px`;
     }
+    cancelFullSheetAnimation();
+    cancelIdeaComposerMotion();
     dragHeight = startHeight;
     dragDistance = 0;
     dragged = false;
@@ -5844,16 +5907,29 @@ document.addEventListener('DOMContentLoaded', () => {
     startY = null;
     const { collapsed, half, full } = getSheetDetents();
     const target = cancelled ? sheetState : chooseSheetSnap(dragHeight, sheetState, dragDistance, collapsed, half, full);
+    const animateFull = dragged && target === 'full' && sheetState !== 'full' &&
+      !sheet.classList.contains('keyboard-open') && typeof sheet.animate === 'function' &&
+      !window.matchMedia('(prefers-reduced-motion: reduce)').matches;
     // Freeze the released geometry before animating all edges to the chosen detent.
-    sheet.getBoundingClientRect();
+    const released = sheet.getBoundingClientRect();
+    const releasedRadius = animateFull ? getComputedStyle(sheet).borderRadius : '';
     sheet.classList.remove('is-dragging');
-    sheet.classList.toggle('is-settling', dragged);
+    sheet.classList.toggle('is-settling', dragged && !animateFull);
     setExpanded(target);
     sheet.getBoundingClientRect();
     ['height', 'max-height', 'width', 'bottom', 'border-radius', 'padding-bottom', '--idea-sheet-inset']
       .forEach(property => sheet.style.removeProperty(property));
+    if (animateFull) {
+      const settled = sheet.getBoundingClientRect();
+      // Interpolate pixel bounds so the switch to the full-screen layout stays continuous.
+      fullSheetAnimation = sheet.animate([
+        { top: `${released.top - settled.top}px`, height: `${released.height}px`, minHeight: '0px', borderRadius: releasedRadius },
+        { top: '0px', height: `${settled.height}px`, minHeight: '0px', borderRadius: '0px' }
+      ], { duration: 300, easing: 'cubic-bezier(.18, .8, .24, 1)' });
+      fullSheetAnimation.onfinish = () => { fullSheetAnimation = null; };
+    }
     clearTimeout(settleTimer);
-    settleTimer = setTimeout(() => sheet.classList.remove('is-settling'), 500);
+    if (dragged && !animateFull) settleTimer = setTimeout(() => sheet.classList.remove('is-settling'), 500);
   };
   handle.addEventListener('pointerdown', event => {
     if (desktopSheet.matches || event.button !== 0) return;
