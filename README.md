@@ -138,4 +138,6 @@ npm run eval:idea -- --concurrency=2
 
 ## 管理员入口
 
-API 提供 `GET /observer`。设置 `OBSERVER_USERNAME` 和强随机 `OBSERVER_PASSWORD`，并在反向代理中将 `/observer` 转发至 API（保留 `Authorization` 请求头）。仅通过 HTTPS 使用并在代理层限制登录尝试；未配置凭据时入口返回 503。页面默认读取项目中的 `VeloRoam-ui/observer.html`；部署时如目录布局不同，通过 `OBSERVER_HTML_PATH` 指定其绝对路径。API Docker 镜像不包含前端文件，须挂载该文件并设置此变量。前端会在访客同意后记录页面访问、定位回调以及部分路线规划请求；管理员页面最多展示最近 200 条。记录不自动过期，拒绝或撤回授权只停止后续采集。数据存储在 MySQL 的 `observer_events` 表中，首次启动时自动建表。部署时还需上传 `observer-tracking.js` 和更新后的前端文件。管理员数据读取使用同一凭据保护 `/api/observer/events` 的 GET 请求；请在反向代理中对该路径的 GET 请求设置登录限速，避免只保护页面入口。公共 POST 接口也应在代理层配置独立请求速率和请求体大小限制。
+API 提供 `GET /observer`。设置 `OBSERVER_USERNAME` 和强随机 `OBSERVER_PASSWORD`，并在反向代理中将 `/observer` 转发至 API（保留 `Authorization` 请求头）。仅通过 HTTPS 使用并在代理层限制登录尝试；未配置凭据时入口返回 503。页面默认读取项目中的 `VeloRoam-ui/observer.html`；部署时如目录布局不同，通过 `OBSERVER_HTML_PATH` 指定其绝对路径。API Docker 镜像不包含前端文件，须挂载该文件并设置此变量。前端会自动记录页面访问、定位回调以及部分路线规划请求；管理员页面支持筛选、分页和按时间段导出。记录不自动过期。浏览器定位仍需访客授权。数据存储在 MySQL 的 `observer_events` 表中，首次启动时自动建表。部署时还需上传 `observer-tracking.js` 和更新后的前端文件。管理员数据读取使用同一凭据保护 `/api/observer/events` 的 GET 请求；请在反向代理中对该路径的 GET 请求设置登录限速，避免只保护页面入口。公共 POST 接口也应在代理层配置独立请求速率和请求体大小限制。
+
+管理员观察页依赖 Vue 2 与 Element UI 的 CDN。高德归属地和坐标地址由经过管理员认证的 `/api/observer/geocode` 按需查询，需配置高德 Web 服务 `AMAP_API_KEY`；可能消耗接口配额，并将查询的 IP 或坐标发送给高德。IP 查询仅支持国内 IPv4。导出根据当前筛选条件逐页读取，记录正在变化时可能出现重复或遗漏。请保护并限速 `/api/observer/` 下的接口。
