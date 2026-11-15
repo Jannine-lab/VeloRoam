@@ -119,3 +119,9 @@ export async function query(sql: string, params?: any[]): Promise<any> {
   const [rows] = await pool.query(sql, params);
   return { rows: rows as any[] };
 }
+
+/** Bound individual AI lookup queries so abandoned reads cannot occupy a connection indefinitely. */
+export async function queryLookup(sql: string, params?: any[]): Promise<any> {
+  const [rows] = await pool.query({ sql, timeout: 7000 }, params);
+  return { rows: rows as any[] };
+}

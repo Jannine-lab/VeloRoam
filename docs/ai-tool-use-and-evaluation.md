@@ -75,3 +75,5 @@ npm run eval:idea -- --ids=distance-20,lookup-segment --output=reports/idea-eval
 - [LangGraph 工作流与 Agent](https://docs.langchain.com/oss/javascript/langgraph/workflows-agents)
 
 本机的真实评测结果及简历采用的数值另见对应运行目录和核验报告。
+
+2026-11-15 新增四个工具：`search_segments_by_attributes` 以明确匹配的标签和可选评分、距离条件筛选当前位置附近路段；`search_places_along_route` 在本次规划结果的路线周边抽样查找活跃地点，返回到轨迹的直线距离；`compare_route_options` 比较当前已生成的首条及备选路线；`validate_route_constraints` 检查路线预算、原路线途经顺序、起终点和连接间隙，并将不可核实的避让或总时间标记为未知。后三个工具仅在确认规划阶段可用，使用本次请求中的路线 ID，不接受模型提交的路线或坐标。沿途搜索受采样、候选数量和数据库覆盖限制，并不保证找到全部地点；其距离不是导航绕行距离。路线比较的重叠比例是估计值。工具仍受每阶段调用预算和超时约束，比较只包含调用时已经生成的方案。

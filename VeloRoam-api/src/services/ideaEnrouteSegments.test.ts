@@ -87,7 +87,7 @@ test('streams at most two distinct, high-scoring alternatives while retaining re
       emitted.push(value.added);
     }
   });
-  assert.deepEqual(emitted, [['去程绿道'], ['返程绿道']]);
+  assert.deepEqual(emitted, [['去程绿道'], ['去程绿道', '返程绿道']]);
   assert.deepEqual(result.added, ['去程绿道']);
 });
 
@@ -105,4 +105,12 @@ test('samples multiple locations along long connections for streaming alternativ
   assert.equal(points.length, 6);
   assert.notEqual(points[0].lng, points[1].lng);
   assert.notEqual(points[1].lng, points[2].lng);
+});
+
+test('streams a second single route if the two-segment combination is too long', async () => {
+  const input = await setup(); const emitted: string[][] = [];
+  await addEnrouteSegments({ ...input, minimumScore: 80, near: async () => [outbound, inbound],
+    build: async stops => { const route = await build(stops); return stops.length > 2 ? { ...route, distanceKm: input.baseline.distanceKm + 3 } : route; },
+    onAlternative: item => emitted.push(item.added) });
+  assert.deepEqual(emitted, [['去程绿道'], ['返程绿道']]);
 });

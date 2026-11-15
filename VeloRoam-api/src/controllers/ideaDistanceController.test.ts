@@ -21,7 +21,8 @@ function response() {
 test('streams real stages and result while preserving JSON responses', async t => {
   t.mock.method(database, 'query', (async () => ({ rows: [] })) as any);
   const recommendations = [{ targetKm: 30, route: null, segmentScore: null, segmentDetail: null }];
-  t.mock.method(service, 'recommendDistanceRoutes', (async (_origin: unknown, _name: unknown, _segments: unknown, _build: unknown, onProgress: (stage: string) => void) => {
+  t.mock.method(service, 'recommendDistanceRoutes', (async (_origin: unknown, _name: unknown, _segments: unknown, _build: unknown, onProgress: (stage: string) => void, onCandidates: (segments: unknown[]) => void) => {
+    onCandidates([{ id: '1', name: '测试路段', score: 80 }]);
     onProgress('正在筛选推荐路线'); return recommendations;
   }) as any);
   const streamed = response();
@@ -29,9 +30,12 @@ test('streams real stages and result while preserving JSON responses', async t =
   assert.match(streamed.headers['Content-Type'], /text\/event-stream/);
   assert.match(streamed.events, /正在查找附近路段/);
   assert.match(streamed.events, /正在筛选推荐路线/);
+  assert.match(streamed.events, /event: candidates[\s\S]*测试路段/);
+  assert.ok(streamed.events.indexOf('event: candidates') < streamed.events.indexOf('正在筛选推荐路线'));
+  assert.ok(streamed.events.indexOf('正在筛选推荐路线') < streamed.events.indexOf('event: result'));
   assert.match(streamed.events, /event: result/);
   assert.ok(streamed.ended);
   const json = response();
   await ideaDistanceRecommendations({ body: { origin }, get: () => 'application/json' } as any, json as any);
-  assert.deepEqual(json.body, { recommendations });
+  assert.deepEqual(json.body, { recommendations, candidates: [{ id: '1', name: '测试路段', score: 80, coordinates: undefined, detail: undefined }] });
 });

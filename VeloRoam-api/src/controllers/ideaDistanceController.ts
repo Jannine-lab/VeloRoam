@@ -42,11 +42,15 @@ export async function ideaDistanceRecommendations(req: Request, res: Response) {
           stravaScore: numberOrNull(row.strava_score) } };
     }).filter((segment: NearbySegment) => segment.coordinates.length >= 2);
     const label = req.body?.originSource === 'manual' ? '所选起点' : req.body?.originSource === 'ip' ? 'IP 大致位置' : req.body?.originSource === 'gps-stale' ? '上次定位位置' : '当前位置';
-    const recommendations = await recommendDistanceRoutes(origin, label, segments, undefined, stage => send('progress', { stage }));
-    if (stream) { send('result', { recommendations }); return res.end(); }
-    return res.json({ recommendations });
+    let candidates: Array<Pick<NearbySegment, 'id' | 'name' | 'score' | 'coordinates' | 'detail'>> = [];
+    const recommendations = await recommendDistanceRoutes(origin, label, segments, undefined, stage => send('progress', { stage }), selected => {
+      candidates = selected.map(({ id, name, score, coordinates, detail }) => ({ id, name, score, coordinates, detail }));
+      send('candidates', { segments: candidates });
+    });
+    if (stream) { send('result', { recommendations, candidates }); return res.end(); }
+    return res.json({ recommendations, candidates });
   } catch (error: any) {
-    console.error('[IdeaDistanceRecommendations] Request failed:', error.code || error.message);
+    console.error('[IdeaDistanceRecommendations] Request failed:', error);
     if (stream) { send('error', { error: '路线推荐暂时不可用，请稍后重试。' }); return res.end(); }
     return res.status(502).json({ error: '路线推荐暂时不可用，请稍后重试。' });
   }

@@ -193,3 +193,138 @@ test('nearby search around a known candidate refreshes its identity before use',
   });
   assert.equal(details, 1); assert.equal(searches, 1);
 });
+
+test('attribute tool returns only verified matches and registers discovery evidence', async () => {
+  let turn = 0; let evidence: any;
+  const loop = { ...candidate, tags: { climbing: 'unknown' as const, loop: 'matched' as const, out_and_back: 'unknown' as const, long_distance: 'unknown' as const, popular: 'unknown' as const, highly_starred: 'unknown' as const }, score: 90, distanceKm: 2 };
+  await runIdeaToolAgent({ ...defaults(), input: { idea: '推荐附近绕圈路段' }, location: { point: { lat: candidate.lat, lng: candidate.lng }, source: 'manual' },
+    attributeNearby: async () => [loop, { ...loop, id: 'segment:2', tags: { ...loop.tags, loop: 'unknown' } }], onNearby: value => { evidence = value; },
+    callModel: async messages => {
+      if (!turn++) return calls({ name: 'search_segments_by_attributes', args: { radiusKm: 5, preferred: ['loop'], avoid: [], minScore: null, minKm: null, maxKm: null }, id: 'attr' });
+      assert.deepEqual(JSON.parse(String(messages.at(-1)!.content)).candidates.map((x: Candidate) => x.id), ['segment:1']); return new AIMessage('{"mode":"recommend"}');
+    } });
+  assert.equal(evidence.sourceTool, 'attributes'); assert.equal(evidence.candidates.length, 1);
+});
+
+test('route tools refuse unknown or unavailable routes and expose only request-scoped comparisons', async () => {
+  let turn = 0; const options = defaults();
+  const { sanitizeConversationIntent } = await import('./ideaIntent');
+  await runIdeaToolAgent({ ...options, plan: async () => ({ message: '无法规划' }), routeOptions: () => [], routeIntent: sanitizeConversationIntent({ mode: 'route' })!,
+    callModel: async messages => {
+      if (!turn++) return calls({ name: 'compare_route_options', args: {}, id: 'compare' }, { name: 'validate_route_constraints', args: { routeId: 'baseline' }, id: 'validate' }, { name: 'plan_cycling_route', args: {}, id: 'plan' });
+      assert.equal(JSON.parse(String(messages.at(-3)!.content)).status, 'plan_required');
+      assert.equal(JSON.parse(String(messages.at(-2)!.content)).status, 'plan_required'); return final();
+    } });
+});
+
+test('planning tools inspect the current route and return along-route places, comparisons and validation', async () => {
+  const { sanitizeConversationIntent } = await import('./ideaIntent');
+  const a = { lat: 31.2, lng: 121.4 }, b = { lat: 31.2, lng: 121.42 };
+  const route = { distanceKm: 10, durationMin: 40, hasEstimatedTime: false, continuity: { maxGapMeters: 1, toleranceMeters: 100 },
+    stops: [{ name: '起点', type: 'point', point: a }, { name: '终点', type: 'point', point: b }],
+    legs: [{ type: 'connection' as const, name: '连接', distanceKm: 10, durationMin: 40, points: [a, b], estimated: false }] };
+  let planned = false, turn = 0;
+  await runIdeaToolAgent({ ...defaults(), input: { idea: '规划路线并查沿途咖啡' }, plan: async () => { planned = true; return { route }; },
+    routeIntent: sanitizeConversationIntent({ mode: 'route', maxKm: 12 })!, routeOptions: () => planned ? [{ route }] : [],
+    nearby: async () => [{ id: 'point:1', type: 'point', name: '咖啡店', lat: 31.201, lng: 121.41 }],
+    callModel: async messages => {
+      if (!turn++) return calls({ name: 'plan_cycling_route', args: {}, id: 'plan' },
+        { name: 'search_places_along_route', args: { routeId: 'baseline', radiusKm: 1, kind: '咖啡' }, id: 'places' },
+        { name: 'compare_route_options', args: {}, id: 'compare' },
+        { name: 'validate_route_constraints', args: { routeId: 'baseline' }, id: 'validate' });
+      assert.equal(JSON.parse(String(messages.at(-3)!.content)).candidates[0].name, '咖啡店');
+      assert.equal(JSON.parse(String(messages.at(-2)!.content)).routes[0].id, 'baseline');
+      assert.equal(JSON.parse(String(messages.at(-1)!.content)).status, 'checked');
+      return final();
+    } });
+});
+
+test('expanded search only accepts themes present in the request and retains its grounding evidence', async () => {
+  let turns = 0, reads = 0;
+  const options = defaults();
+  const result = await runIdeaToolAgent({ ...options, input: { idea: '想沿江骑行' }, location: { point: { lat: candidate.lat, lng: candidate.lng }, source: 'manual' },
+    expanded: async (query, radius, type) => { reads++; assert.equal(query, '沿江'); assert.equal(radius, 10); assert.equal(type, 'all'); return { terms: ['沿江', '江', 'river'], candidates: [candidate], partial: false }; },
+    callModel: async messages => {
+      if (!turns++) return calls({ name: 'search_expanded_candidates', args: { query: '长江大桥', radiusKm: 10, type: 'all' }, id: 'invented' },
+        { name: 'search_expanded_candidates', args: { query: '沿江', radiusKm: 10, type: 'all' }, id: 'actual' });
+      assert.equal(JSON.parse(String(messages.at(-2)!.content)).status, 'unverified_query');
+      assert.deepEqual(JSON.parse(String(messages.at(-1)!.content)).terms, ['沿江', '江', 'river']);
+      return new AIMessage('{"mode":"recommend"}');
+    } });
+  assert.equal(reads, 1); assert.equal(result.lookup.name, '沿江'); assert.equal(result.lookup.expand, true);
+});
+
+test('structured segment search uses a verified area and supplies filters and pagination as evidence', async () => {
+  let turn = 0; let searches = 0; let seen: any;
+  const center = { lat: 31.2, lng: 121.4 };
+  await runIdeaToolAgent({ ...defaults(), input: { idea: '在浦东找5至20公里的热门路段' }, location: { point: center, source: 'gps' },
+    resolve: async name => { assert.equal(name, '浦东'); return center; },
+    segmentSearch: async (point, filters) => {
+      searches++; assert.deepEqual(point, center); assert.deepEqual(filters.nameTerms, ['浦东', 'pudong']); assert.equal(filters.minKm, 5);
+      return { candidates: [candidate], total: 21, limit: 10, offset: 0, hasMore: true, sortBy: 'athletes', direction: 'desc', notes: ['数据未知不能视为匹配'] };
+    }, onNearby: evidence => { seen = evidence; },
+    callModel: async messages => {
+      if (!turn++) return calls({ name: 'search_segments', args: { area: '浦东', radiusKm: 20, nameTerms: ['浦东', 'pudong'], minKm: 5, maxKm: 20, sortBy: 'athletes' }, id: 'segments' });
+      const result = JSON.parse(String(messages.at(-1)!.content));
+      assert.equal(result.total, 21); assert.equal(result.hasMore, true); assert.equal(result.centerSource, 'area_reference'); assert.doesNotMatch(String(messages.at(-1)!.content), /coordinates/);
+      return final();
+    }
+  });
+  assert.equal(searches, 1); assert.equal(seen.sourceTool, 'segments'); assert.equal(seen.total, 21);
+});
+
+test('structured segment search refuses an area the user never supplied', async () => {
+  let turn = 0; let reads = 0;
+  await runIdeaToolAgent({ ...defaults(), input: { idea: '找附近路段' }, location: { point: { lat: 31.2, lng: 121.4 }, source: 'gps' },
+    segmentSearch: async () => { reads++; throw Error('unexpected'); },
+    callModel: async messages => {
+      if (!turn++) return calls({ name: 'search_segments', args: { area: '虚构区域', radiusKm: 10 }, id: 'segments' });
+      assert.equal(JSON.parse(String(messages.at(-1)!.content)).status, 'unverified_area'); return final();
+    }
+  });
+  assert.equal(reads, 0);
+});
+
+test('mixed fuzzy name results expose both point and segment evidence even when one type dominates', async () => {
+  const points: Candidate[] = Array.from({ length: 10 }, (_, i) => ({ id: `point:${i + 1}`, type: 'point', name: `江边公园${i}`, lat: 31.2, lng: 121.4 }));
+  let turn = 0;
+  await runIdeaToolAgent({ ...defaults(), input: { idea: '查询江边' }, search: async () => [...points, candidate],
+    callModel: async messages => {
+      if (!turn++) return calls({ name: 'search_candidates', args: { name: '江边', terms: ['river'] }, id: 'both' });
+      const found = JSON.parse(String(messages.at(-1)!.content));
+      assert.deepEqual(found.segments.map((item: Candidate) => item.id), [candidate.id]);
+      assert.equal(found.places.length, 8); assert.equal(found.counts.placesFound, 10);
+      assert.equal(found.candidates.length, 9); return final();
+    }
+  });
+});
+
+test('search_places provides area-scoped fuzzy point results to the agent', async () => {
+  let turn = 0; let evidence: any;
+  const point: Candidate = { id: 'point:1', type: 'point', name: '滨江公园', category: 'scenic', lat: 31.2, lng: 121.4 };
+  await runIdeaToolAgent({ ...defaults(), input: { idea: '浦东找滨江公园' }, location: { point, source: 'gps' }, resolve: async () => point,
+    pointSearch: async (_center, filter) => { assert.deepEqual(filter.nameTerms, ['滨江', 'river']); return { candidates: [point], total: 1, limit: 10, offset: 0, hasMore: false, notes: [] }; },
+    onNearby: result => { evidence = result; },
+    callModel: async messages => {
+      if (!turn++) return calls({ name: 'search_places', args: { area: '浦东', radiusKm: 20, nameTerms: ['滨江', 'river'], categories: ['scenic'] }, id: 'places' });
+      const found = JSON.parse(String(messages.at(-1)!.content));
+      assert.equal(found.total, 1); assert.equal(found.places[0].name, '滨江公园'); assert.deepEqual(found.segments, []); return final();
+    }
+  });
+  assert.equal(evidence.sourceTool, 'places'); assert.equal(evidence.candidates[0].id, 'point:1');
+});
+
+test('expanded fuzzy discovery delivers points and segments separately', async () => {
+  let turns = 0;
+  const point: Candidate = { id: 'point:2', type: 'point', name: '江边休息点', category: 'rest', lat: 31.2, lng: 121.4 };
+  const segments = Array.from({ length: 10 }, (_, index) => ({ ...candidate, id: `segment:${index + 1}` }));
+  await runIdeaToolAgent({ ...defaults(), input: { idea: '想沿江骑行' }, location: { point: { lat: 31.2, lng: 121.4 }, source: 'manual' },
+    expanded: async () => ({ candidates: [...segments, point], terms: ['沿江', '江', 'river'], partial: false }),
+    callModel: async messages => {
+      if (!turns++) return calls({ name: 'search_expanded_candidates', args: { query: '沿江', radiusKm: 20, type: 'all' }, id: 'expanded-both' });
+      const found = JSON.parse(String(messages.at(-1)!.content));
+      assert.equal(found.segments.length, 8); assert.equal(found.places[0].id, point.id); assert.equal(found.counts.segmentsFound, 10);
+      return final();
+    }
+  });
+});

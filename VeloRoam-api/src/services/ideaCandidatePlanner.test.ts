@@ -1,6 +1,6 @@
 import { strict as assert } from 'assert';
 import { test } from 'node:test';
-import { compareRouteCandidates, routeBoundsFromIntent } from './ideaCandidatePlanner';
+import { budgetDeviations, closestBudgetFallback, compareRouteCandidates, routeBoundsFromIntent } from './ideaCandidatePlanner';
 import { CompositeRoute, RouteStop } from './ideaRouteService';
 import { sanitizeConversationIntent } from './ideaIntent';
 
@@ -53,6 +53,23 @@ test('continues when one route fails and does not invent a result outside constr
   assert.equal(result, null);
 });
 
+test('keeps connected out-of-budget candidates separately and chooses the smallest deviation', async () => {
+  const fallback: import('./ideaCandidatePlanner').BudgetFallback[] = [];
+  const choices = [{ stops: stops('far'), priority: 0 }, { stops: stops('near'), priority: 1 }, { stops: stops('invalid'), priority: 0 }];
+  const bounds = { maxKm: 30, maxMinutes: 90, stopMinutes: 20 };
+  const result = await compareRouteCandidates(choices, bounds, async value => ({ ...route(value[0].name === 'far' ? 60 : 35), durationMin: value[0].name === 'invalid' ? NaN : 90 }), 6, [], undefined, fallback);
+  assert.equal(result, null); assert.equal(fallback.length, 2);
+  const best = closestBudgetFallback(fallback, bounds)!;
+  assert.equal(best.stops[0].name, 'near');
+  assert.deepEqual(budgetDeviations(best.route, bounds).map(item => item.text), ['实际里程约 35.0 公里，超过要求的 30.0 公里约 5.0 公里', '预计总时间约 110.0 分钟，超过要求的 90.0 分钟约 20.0 分钟']);
+});
+
+test('does not collect a fallback that fails mandatory candidate validation', async () => {
+  const fallback: import('./ideaCandidatePlanner').BudgetFallback[] = [];
+  await compareRouteCandidates([{ stops: stops('not-verified'), priority: 0 }], { maxKm: 20 }, async () => route(40), 6, [], () => 'required stop missing', fallback);
+  assert.equal(fallback.length, 0);
+});
+
 test('respects a bounded number of routing attempts', async () => {
   let calls = 0;
   const choices = Array.from({ length: 9 }, (_, i) => ({ stops: stops(String(i)), priority: i }));
@@ -81,4 +98,20 @@ test('limits concurrent candidate builds while keeping all six alternatives elig
     active--; return route(10 + Number(value[0].name));
   });
   assert.equal(count, 6); assert.ok(maximum <= 3); assert.equal(result?.stops[0].name, '0');
+});
+
+test('bounded combinations include changes to more than one stop while preserving order', async () => {
+  const { buildStopVariants } = await import('./ideaCandidatePlanner');
+  const base = [...stops('咖啡 A'), ...stops('路段 A')];
+  const variants = buildStopVariants(base, [{ index: 0, stops: [base[0], stops('咖啡 B')[0]] }, { index: 1, stops: [base[1], stops('路段 B')[0]] }], () => 0, 6);
+  assert.deepEqual(variants.map(x => x.stops.map(y => y.name)), [['咖啡 A','路段 A'], ['咖啡 B','路段 A'], ['咖啡 A','路段 B'], ['咖啡 B','路段 B']]);
+  const result = await compareRouteCandidates(variants, { maxKm: 30 }, async value => route(value[0].name === '咖啡 B' && value[1].name === '路段 B' ? 25 : 40));
+  assert.deepEqual(result?.stops.map(x => x.name), ['咖啡 B', '路段 B']);
+});
+
+test('required time target is bounded while a preferred time remains a ranking target', () => {
+  const wanted = sanitizeConversationIntent({ mode: 'route', targetMinutes: 120 })!;
+  const strict = routeBoundsFromIntent(wanted, { strictTargetMinutes: true });
+  assert.equal(strict.minMinutes, 108); assert.equal(strict.maxMinutes, 132);
+  const preferred = routeBoundsFromIntent(wanted); assert.equal(preferred.minMinutes, null); assert.equal(preferred.maxMinutes, null);
 });

@@ -3,6 +3,7 @@ import { performance } from 'node:perf_hooks';
 import { ChatDeepSeek } from '@langchain/deepseek';
 import { z } from 'zod';
 import { ROUTE_TAGS } from './ideaIntent';
+import { REQUIREMENT_FIELDS } from './ideaRequirementState';
 import { IDEA_PROMPT_VERSION, INTENT_PROMPT, LOOP_SELECTION_PROMPT, POINT_SELECTION_PROMPT, SEGMENT_SELECTION_PROMPT, RECOMMENDATION_PROMPT, RELATED_SEARCH_TERMS_PROMPT } from '../prompts/ideaPrompts';
 
 export interface ToolTrace { name: string; status: 'ok' | 'cached' | 'invalid' | 'error' | 'budget'; durationMs: number }
@@ -34,8 +35,14 @@ const minutes = z.number().finite().min(0).max(10080).nullable().optional();
 export const candidateIdSchema = z.string().regex(/^(point|segment):[a-zA-Z0-9_-]{1,80}$/);
 export const ideaIntentSchema = z.object({
   mode: z.enum(['route', 'recommend', 'answer', 'clarify']),
+  changedFields: z.array(z.enum(REQUIREMENT_FIELDS)).max(REQUIREMENT_FIELDS.length).optional(),
+  clearedFields: z.array(z.enum(REQUIREMENT_FIELDS)).max(REQUIREMENT_FIELDS.length).optional(),
+  requiredFields: z.array(z.enum(REQUIREMENT_FIELDS)).max(REQUIREMENT_FIELDS.length).optional(),
+  preferredFields: z.array(z.enum(REQUIREMENT_FIELDS)).max(REQUIREMENT_FIELDS.length).optional(),
+  requiredRouteTags: z.array(z.enum(ROUTE_TAGS)).max(6).optional(),
+  preferredRouteTags: z.array(z.enum(ROUTE_TAGS)).max(6).optional(),
   requestType: z.enum(['route', 'recommend']).nullable().optional(), newConversation: z.boolean().optional(),
-  lookup: z.object({ name: text, terms: z.array(z.string().min(2).max(80)).max(3), kind: z.enum(['area', 'segment', 'point', 'ambiguous']) }).nullable().optional(),
+  lookup: z.object({ name: text, terms: z.array(z.string().min(2).max(80)).max(3), kind: z.enum(['area', 'segment', 'point', 'ambiguous']), expand: z.boolean().optional() }).nullable().optional(),
   selectedCandidateId: candidateIdSchema.nullable().optional(), title: z.string().max(80).optional(),
   reply: z.string().max(1200).nullable().optional(), options: z.array(z.string().max(80)).max(3).optional(),
   clarificationKind: z.enum(['budget', 'budget_and_preference', 'destination', 'order', 'preference', 'purpose', 'scope']).nullable().optional(),

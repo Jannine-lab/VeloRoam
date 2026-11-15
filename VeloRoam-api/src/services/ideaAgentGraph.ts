@@ -3,7 +3,7 @@ import { langSmithProjectCallbacks } from '../config/langsmith';
 import { IDEA_PROMPT_VERSION } from '../prompts/ideaPrompts';
 
 export interface PlaceCandidateRef { id: string; type: 'point' | 'segment'; name: string }
-export interface PlaceContext { query: string; terms: string[]; candidates: PlaceCandidateRef[]; selectedId: string | null; area: string | null }
+export interface PlaceContext { query: string; terms: string[]; candidates: PlaceCandidateRef[]; selectedId: string | null; area: string | null; seenCandidateIds?: string[] }
 
 // Client-held context is bounded and used only to select IDs from a fresh public-data lookup.
 export function sanitizePlaceContext(value: any): PlaceContext | null {
@@ -15,9 +15,10 @@ export function sanitizePlaceContext(value: any): PlaceContext | null {
       (item.type !== 'point' && item.type !== 'segment') || !item.id.startsWith(item.type + ':') || typeof item.name !== 'string') return [];
     return [{ id: item.id, type: item.type, name: item.name.trim().slice(0, 80) }];
   }).slice(0, 12) : [];
-  const terms: string[] = Array.isArray(value.terms) ? value.terms.filter((x: unknown): x is string => typeof x === 'string' && x.trim().length >= 2 && x.trim().length <= 80).map((x: string) => x.trim()).slice(0, 3) : [];
+  const terms: string[] = Array.isArray(value.terms) ? value.terms.filter((x: unknown): x is string => typeof x === 'string' && x.trim().length >= 1 && x.trim().length <= 32 && /^[\p{Script=Han}a-zA-Z0-9\s-]+$/u.test(x.trim())).map((x: string) => x.trim()).slice(0, 7) : [];
   return { query, terms, candidates, selectedId: typeof value.selectedId === 'string' && candidates.some(x => x.id === value.selectedId) ? value.selectedId : null,
-    area: typeof value.area === 'string' ? value.area.trim().slice(0, 80) || null : null };
+    area: typeof value.area === 'string' ? value.area.trim().slice(0, 80) || null : null,
+    seenCandidateIds: Array.isArray(value.seenCandidateIds) ? [...new Set<string>(value.seenCandidateIds.filter((id: unknown): id is string => typeof id === 'string' && /^(point|segment):[a-zA-Z0-9_-]{1,80}$/.test(id)))].slice(-200) : [] };
 }
 
 const State = Annotation.Root({

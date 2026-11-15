@@ -1,6 +1,6 @@
 import { getDistanceMeters, LatLng } from '../utils/polyline';
 import { ConversationIntent } from './ideaIntent';
-import { routeBoundsFromIntent } from './ideaCandidatePlanner';
+import { RouteBounds, routeBoundsFromIntent } from './ideaCandidatePlanner';
 import { validateFixedStops } from './ideaAutonomousGenerator';
 import { buildIdeaRoute, CompositeRoute, RouteStop } from './ideaRouteService';
 import { addEnrouteSegments, EnrouteAlternative, EnrouteCandidate } from './ideaEnrouteSegments';
@@ -34,6 +34,7 @@ export async function exploreConfirmedRoute(input: {
   near: (point: LatLng, radiusDegrees: number, preferences: ReturnType<typeof requestedRouteTags>) => Promise<EnrouteCandidate[]>;
   build?: typeof buildIdeaRoute;
   onAlternative?: (result: EnrouteToolResult) => void;
+  bounds?: RouteBounds;
   isCancelled?: () => boolean;
 }): Promise<EnrouteToolResult> {
   const unchanged: EnrouteToolResult = { status: 'not_applicable', result: input.result, added: [], extraKm: 0 };
@@ -64,7 +65,7 @@ export async function exploreConfirmedRoute(input: {
     return { status: 'explored', added: found.added, extraKm: found.extraKm, result: { ...result, route: found.route,
       message: '已生成包含顺路路段的备选路线。', distanceNote: [km, time].filter(Boolean).join(' '), note: [note, previousNote, continuity, estimateNote].filter(Boolean).join(' ') } };
   };
-  const found = await addEnrouteSegments({ baseline: route, stops, end: end.point, bounds: routeBoundsFromIntent(intent), preferences, overlapMode,
+  const found = await addEnrouteSegments({ baseline: route, stops, end: end.point, bounds: input.bounds || routeBoundsFromIntent(intent), preferences, overlapMode,
     near: point => input.near(point, .13, preferences),
     build: variant => (input.build || buildIdeaRoute)(start.point, start.name, end.point, end.name, variant, navigate),
     ...(input.onAlternative ? { minimumScore: 80, onAlternative: (alternative: EnrouteAlternative) => input.onAlternative!(format(alternative)), isCancelled: input.isCancelled } : {}) });

@@ -65,3 +65,14 @@ test('ranks the three valid round trips by score across the full 20–80 km rang
   assert.deepEqual(result.map(item => item.segmentScore), [95, 70, 40]);
   assert.deepEqual(result.map(item => item.route?.distanceKm), [80, 20, 65]);
 });
+
+
+test('limits candidate planning to ten segments', async () => {
+  const candidates = Array.from({ length: 15 }, (_, index) => ({ ...segment(String(index), 31.25), score: index }));
+  let received: NearbySegment[] = [];
+  let planned = 0;
+  await recommendDistanceRoutes(origin, '起点', candidates, async () => { planned++; return fakeRoute(30); }, undefined, items => { received = items; });
+  assert.equal(received.length, 10);
+  assert.equal(planned, 10);
+  assert.deepEqual(received.map(item => item.score), [14, 13, 12, 11, 10, 9, 8, 7, 6, 5]);
+});

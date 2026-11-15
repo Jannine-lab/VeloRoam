@@ -1,7 +1,7 @@
 import { strict as assert } from 'node:assert';
 import { test } from 'node:test';
 import { Request, Response } from 'express';
-import { Candidate, createIdeaController, planFromIntent } from './ideaController';
+import { Candidate, createIdeaController, districtNameMatches, planFromIntent } from './ideaController';
 import { ConversationIntent, sanitizeConversationIntent } from '../services/ideaIntent';
 import { unknownRouteTags } from '../services/ideaTagPreferences';
 import { CompositeRoute, RouteStop } from '../services/ideaRouteService';
@@ -16,6 +16,69 @@ const segment = (id: string, popular: 'matched' | 'not_matched' | 'unknown'): Ca
 });
 const fakeRoute = (distanceKm: number, durationMin: number): CompositeRoute => ({ legs: [], stops: [], distanceKm, durationMin, hasEstimatedTime: true });
 
+test('administrative district matching accepts 浦东新区 without accepting unrelated names', () => {
+  assert.equal(districtNameMatches('浦东', '浦东新区'), true);
+  assert.equal(districtNameMatches('浦东', '浦东区'), true);
+  assert.equal(districtNameMatches('浦东', '浦东美术馆'), false);
+  assert.equal(districtNameMatches('浦东', '浦东西新区'), false);
+});
+
+test('resolved riding area is not turned into a mandatory shop selection', async () => {
+  const shop: Candidate = { id: 'point:1', type: 'point', name: '浦东开锁店', lat: 31.2, lng: 121.4 };
+  const controller = createIdeaController({ isConfigured: () => true, resolve: async () => origin, search: async () => [shop, segment('1', 'matched')], near: async () => [],
+    model: async () => ({ mode: 'clarify', requestType: 'route', place: '浦东', targetKm: 100, lookup: { name: '浦东', kind: 'area' }, reply: '请选择地点', options: ['选择浦东开锁店'] }) });
+  const result = await invokeRaw(controller, { idea: '浦东骑100km', center: origin, origin });
+  assert.equal(result.body.contextIntent.place, '浦东'); assert.equal(result.body.contextIntent.targetKm, 100);
+  assert.equal(result.body.contextIntent.confirmationPending, true); assert.equal(result.body.question, undefined);
+  assert.equal(result.body.placeContext.area, '浦东'); assert.equal(result.body.placeContext.candidates[0].type, 'segment');
+});
+
+test('unresolved route area lists segments ahead of incidental named shops', async () => {
+  const shop: Candidate = { id: 'point:1', type: 'point', name: '浦东开锁店', lat: 31.2, lng: 121.4 };
+  const controller = createIdeaController({ isConfigured: () => true, resolve: async () => null, search: async () => [shop, segment('1', 'matched')], near: async () => [],
+    model: async () => ({ mode: 'route', requestType: 'route', place: '浦东', targetKm: 100, lookup: { name: '浦东', kind: 'area' } }) });
+  const result = await invokeRaw(controller, { idea: '浦东骑100km', center: origin, origin });
+  assert.equal(result.body.placeContext.candidates[0].type, 'segment');
+});
+
+test('structured search results survive grounding without replacing them with unrelated name matches', async () => {
+  const matched = { ...segment('501', 'matched'), name: 'Pudong Cycling' };
+  const unrelated = { ...segment('502', 'matched'), name: '浦东无关短路段' };
+  let turn = 0;
+  const controller = createIdeaController({ isConfigured: () => true, resolve: async () => origin, search: async () => [unrelated], near: async () => [],
+    segmentSearch: async () => ({ candidates: [matched], total: 7, limit: 10, offset: 0, hasMore: false, sortBy: 'score', direction: 'desc', notes: [] }),
+    toolCaller: async () => !turn++ ? new AIMessage({ content: '', tool_calls: [{ name: 'search_segments', args: { area: '浦东', radiusKm: 20, nameTerms: ['pudong'], minKm: 5 }, id: 'structured' }] })
+      : new AIMessage('{"mode":"recommend","requestType":"recommend","place":"浦东","lookup":{"name":"浦东","terms":[],"kind":"area"}}') });
+  const result = await invokeRaw(controller, { idea: '找浦东附近5公里以上的路段', center: origin, origin });
+  assert.deepEqual(result.body.items.map((item: Candidate) => item.id), [matched.id]);
+  assert.equal(result.body.segmentSearch.total, 7); assert.match(result.body.message, /找到 7 条/);
+  assert.equal(result.body.moreSearch.segmentFilters.offset, 1);
+});
+
+test('structured place results remain available after grounding and are not replaced by nearby segments', async () => {
+  const point: Candidate = { id: 'point:71', type: 'point', name: '淀山湖风景区', category: 'scenic', lat: origin.lat, lng: origin.lng };
+  let turn = 0;
+  const controller = createIdeaController({ isConfigured: () => true, resolve: async () => origin, search: async () => [segment('9', 'matched')], near: async () => [segment('10', 'matched')],
+    pointSearch: async () => ({ candidates: [point], total: 1, limit: 10, offset: 0, hasMore: false, notes: [] }),
+    toolCaller: async () => !turn++ ? new AIMessage({ content: '', tool_calls: [{ name: 'search_places', args: { area: '淀山湖', radiusKm: 10, nameTerms: ['淀山湖'] }, id: 'place-search' }] })
+      : new AIMessage('{"mode":"recommend","requestType":"recommend","place":"淀山湖","lookup":{"name":"淀山湖","terms":[],"kind":"area"}}') });
+  const result = await invokeRaw(controller, { idea: '找淀山湖附近的地点', center: origin, origin });
+  assert.deepEqual(result.body.items.map((item: Candidate) => item.id), [point.id]);
+});
+
+test('more structured results retain filters and do not repeat previously shown candidates', async () => {
+  const first = segment('1', 'matched'), second = segment('2', 'matched'); let received: any;
+  const controller = createIdeaController({ isConfigured: () => true, segmentSearch: async (_center, filters) => {
+    received = filters; return { candidates: [first, second], total: 5, limit: 6, offset: 1, hasMore: true, sortBy: 'score', direction: 'desc', notes: [] };
+  } });
+  const result = await invokeRaw(controller, { idea: '查看更多', center: origin, origin,
+    placeContext: { query: '浦东', area: '浦东', candidates: [{ id: first.id, type: 'segment', name: first.name }], seenCandidateIds: [first.id] },
+    moreSearch: { query: '浦东', idea: '找浦东路段', center: origin, segmentFilters: { area: '浦东', radiusKm: 20, minKm: 5, maxKm: 20, offset: 1 } } });
+  assert.deepEqual(result.body.items.map((item: Candidate) => item.id), [second.id]);
+  assert.equal(received.minKm, 5); assert.equal(received.maxKm, 20); assert.equal(received.offset, 1);
+  assert.equal(result.body.moreSearch.segmentFilters.offset, 3);
+});
+
 test('native tools feed real grounding and reuse request reads while returning trace metadata', async () => {
   let reads = 0; let turns = 0;
   const candidate = segment('101', 'matched');
@@ -27,6 +90,29 @@ test('native tools feed real grounding and reuse request reads while returning t
   assert.equal(result.body.items[0].id, candidate.id); assert.equal(reads, 1);
   assert.equal(result.body.meta.modelCalls, 2); assert.equal(result.body.meta.toolCalls[0].name, 'search_candidates');
   assert.doesNotMatch(result.body.message, /无依据/);
+});
+
+test('timed-out tool lookup cannot hang grounding or repeat the same pending database read', async () => {
+  let reads = 0, turns = 0;
+  const controller = createIdeaController({ isConfigured: () => true, lookupTimeoutMs: 15,
+    search: async () => { reads++; return new Promise<Candidate[]>(() => {}); }, resolve: async () => null,
+    toolCaller: async () => !turns++ ? new AIMessage({ content: '', tool_calls: [{ name: 'search_candidates', args: { name: '元荡湖', terms: [] }, id: 'slow' }] })
+      : new AIMessage('{"mode":"route","requestType":"route","lookup":{"name":"元荡湖","terms":[],"kind":"ambiguous"}}') });
+  const result = await invokeRaw(controller, { idea: '去元荡湖骑行', center: origin, origin });
+  assert.equal(reads, 1); assert.equal(result.status, 502); assert.match(result.body.error, /路段与点位检索暂时不可用/);
+});
+
+test('stream keeps the connection active while lookup waits and returns a specific timeout error', async () => {
+  const controller = createIdeaController({ isConfigured: () => true, lookupTimeoutMs: 30, heartbeatMs: 5,
+    model: async () => ({ mode: 'route', lookup: { name: '元荡湖', terms: [], kind: 'ambiguous' } }),
+    search: async () => new Promise<Candidate[]>(() => {}), resolve: async () => null });
+  const events: string[] = [];
+  const req = { body: { idea: '去元荡湖骑行', center: origin, origin }, get: () => 'text/event-stream' } as unknown as Request;
+  const res = { destroyed: false, status() { return this; }, set() { return this; }, flushHeaders() {}, write(value: string) { events.push(value); return true; }, end() { return this; } } as unknown as Response;
+  await controller(req, res);
+  assert.ok(events.some(event => event === ': keep-alive\n\n'));
+  const error = events.find(event => event.startsWith('event: error\n'))!;
+  assert.match(error, /路段与点位检索暂时不可用/);
 });
 
 async function invokeRaw(controller: ReturnType<typeof createIdeaController>, body: object): Promise<{ status: number; body: any }> {
@@ -133,7 +219,7 @@ test('asks when the order of requested stops is genuinely unclear', async () => 
   assert.equal(planned, false);
 });
 
-test('plans a requested area without a budget but does not ignore an explicit incompatible distance', async () => {
+test('returns a labelled connected reference when no route meets the requested distance', async () => {
   const candidate = segment('1', 'unknown');
   const overrides = {
     resolve: async () => ({ lat: 31.03, lng: 121.23 }),
@@ -145,9 +231,52 @@ test('plans a requested area without a budget but does not ignore an explicit in
   const result: any = await planFromIntent(intent({ place: '松江' }), '想去松江骑', origin, 'gps', () => {}, overrides);
   assert.equal(result.route.distanceKm, 80);
   const constrained: any = await planFromIntent(intent({ place: '松江', targetKm: 20 }), '想去松江骑20公里', origin, 'gps', () => {}, overrides);
-  assert.equal(constrained.route, undefined);
-  assert.match(constrained.message, /实际里程或时间不符合要求/);
-  assert.ok(constrained.options.length);
+  assert.equal(constrained.route.distanceKm, 80);
+  assert.equal(constrained.routeOutsideBudget, true);
+  assert.match(constrained.message, /参考路线/);
+  assert.match(constrained.distanceNote, /不符合.*80\.0.*超过/);
+});
+
+test('autonomous routes outside the budget are returned as explicitly labelled references', async () => {
+  const result: any = await planFromIntent(intent({ targetKm: 30, maxMinutes: 90, timeScope: 'total', stopMinutes: 20 }), '骑30公里，总共不超过90分钟', origin, 'gps', () => {}, {
+    generate: async () => ({ selected: null, attempts: [{ id: 'candidate-1', status: 'outside_budget', reason: '超过里程上限', stops: [], route: fakeRoute(45, 110) }] })
+  });
+  assert.equal(result.route.distanceKm, 45); assert.equal(result.routeOutsideBudget, true);
+  assert.match(result.distanceNote, /45\.0 公里/); assert.match(result.distanceNote, /130\.0 分钟/);
+});
+
+test('planning failure retains real segment and point candidates and explains fuzzy search results', async () => {
+  const road = { ...segment('73', 'matched'), name: 'Yuandang Loop' };
+  const place: Candidate = { id: 'point:91', type: 'point', name: '现炒面馆', category: 'supply', ...origin };
+  const queries: string[][] = [];
+  const controller = createIdeaController({ isConfigured: () => true,
+    model: async (_prompt, input: any) => ({ terms: input.query === '元荡湖' ? ['yuandang'] : ['面馆'] }),
+    related: async (_center, terms) => { queries.push(terms); return terms.includes('yuandang') ? [road] : [place]; },
+    plan: async (_intent, _idea, _origin, _label, _progress, options) => {
+      options?.onEvidence?.({ kind: 'segment', query: '元荡湖', center: origin, candidates: [road] });
+      options?.onEvidence?.({ kind: 'point', query: '现炒浇头面馆', center: origin, candidates: [place] });
+      return { message: '已找到附近地点，但尚不能确认符合现炒浇头要求，未生成完整路线。', items: [] };
+    }
+  });
+  const result = await invokeRaw(controller, { idea: '确认，开始规划', center: origin, origin,
+    history: [{ role: 'user', content: '元荡湖绕圈，再找现炒浇头面馆' }], previousIntent: { mode: 'route', requestType: 'route', place: '元荡湖', confirmationPending: true } });
+  assert.match(result.body.message, /未生成完整路线/); assert.match(result.body.message, /yuandang/); assert.match(result.body.message, /现炒面馆/);
+  assert.deepEqual(result.body.items.map((item: Candidate) => item.id), [road.id, place.id]); assert.equal(result.body.evidenceOnly, true); assert.equal(queries.length, 2);
+});
+
+test('searches an unnamed first segment near the requested area and preserves both lookup stages when point selection fails', async () => {
+  const area = { lat: 31.1, lng: 121.0 };
+  const road = { ...segment('173', 'matched'), lat: area.lat, lng: area.lng, coordinates: [area, { lat: 31.11, lng: 121.01 }] };
+  const place: Candidate = { id: 'point:191', type: 'point', name: '附近饭店', category: 'supply', lat: 31.11, lng: 121.01 };
+  const observations: any[] = [];
+  const result: any = await planFromIntent(intent({ place: '元荡湖', returnToStart: true, needsSegment: true, needsPoint: true,
+    stops: [{ type: 'segment', name: null }, { type: 'point', name: null, kind: '现炒浇头面馆' }] }), '元荡湖绕圈后吃面', origin, 'manual', () => {}, {
+    resolve: async name => name === '元荡湖' ? area : null,
+    near: async center => { assert.deepEqual(center, area); return [road]; }, points: async () => [place],
+    model: async (_prompt, input: any) => input.segments ? { ids: [road.id] } : { id: null }, onEvidence: event => observations.push(event), disableEnroute: true
+  });
+  assert.equal(result.route, undefined); assert.match(result.message, /已检索到 1 个附近地点/); assert.match(result.message, /未能确认/);
+  assert.deepEqual(observations.map(value => value.kind), ['segment', 'point']); assert.equal(observations[0].candidates[0].id, road.id); assert.equal(observations[1].candidates[0].id, place.id);
 });
 
 test('automatically returns to current location, applies 10% bounds and uses tags', async () => {
@@ -751,6 +880,24 @@ test('streams the first route before alternatives and preserves it if exploratio
   assert.equal(payload.alternatives.length, 1);
   assert.equal(payload.alternatives[0].route.distanceKm, 31);
   assert.equal(payload.alternativeStatus, 'unavailable');
+  assert.equal(payload.routeComparison.length, 2);
+  const done = events.find(event => event.startsWith('event: route_alternatives_done\n'))!;
+  assert.deepEqual(JSON.parse(done.match(/\ndata: (.+)/)![1]).comparison, payload.routeComparison);
+});
+
+test('streams an out-of-budget reference with its warning and does not explore it as a valid baseline', async () => {
+  let explores = 0;
+  const controller = createIdeaController({ isConfigured: () => true, model: async () => ({ mode: 'route', targetKm: 30 }),
+    plan: async () => ({ message: '参考路线，超过要求', routeOutsideBudget: true, distanceNote: '超过要求', route: fakeRoute(50, 120) }),
+    explore: async input => { explores++; return { status: 'explored', result: input.result, added: [], extraKm: 0 }; } });
+  const first = await invokeRaw(controller, { idea: '骑30公里', center: origin, origin });
+  const events: string[] = [];
+  const req = { body: { idea: '确认', center: origin, origin, previousIntent: first.body.contextIntent }, get: () => 'text/event-stream' } as unknown as Request;
+  const res = { destroyed: false, status() { return this; }, set() { return this; }, flushHeaders() {}, write(value: string) { events.push(value); return true; }, end() { return this; } } as unknown as Response;
+  await controller(req, res);
+  const firstRoute = JSON.parse(events.find(event => event.startsWith('event: route_first\n'))!.match(/\ndata: (.+)/)![1]);
+  assert.equal(firstRoute.routeOutsideBudget, true); assert.match(firstRoute.distanceNote, /超过要求/);
+  assert.equal(explores, 0); assert.ok(events.some(event => event.includes('"status":"not_applicable"')));
 });
 
 test('recommendations use route attributes even when segment names do not contain the requested type', async () => {
@@ -764,4 +911,231 @@ test('recommendations use route attributes even when segment names do not contai
   const result = await invokeRaw(controller, { idea: '推荐绕圈路段', center: origin, origin });
   assert.deepEqual(observed.preferred, ['loop']);
   assert.deepEqual(result.body.items.map((item: Candidate) => item.id), [matched.id, other.id]);
+});
+
+test('requirement state survives partial edits and only confirms the reviewed values', async () => {
+  let turn = 0; let planned: ConversationIntent | null = null;
+  const controller = createIdeaController({ isConfigured: () => true,
+    model: async () => !turn++ ? { mode: 'route', targetKm: 30, maxKm: 50, preferences: ['轻松'] } : { mode: 'route', targetKm: 40, preferences: [], maxKm: null },
+    plan: async value => { planned = value; return { message: '已规划' }; } });
+  const first = await invokeRaw(controller, { idea: '轻松骑30公里，不超过50公里', center: origin, origin });
+  assert.equal(first.body.requirementState.requirements.targetKm.status, 'pending');
+  const confirmed = await invokeRaw(controller, { idea: '确认', center: origin, origin, previousIntent: first.body.contextIntent, requirementState: first.body.requirementState });
+  assert.equal(confirmed.body.requirementState.requirements.targetKm.status, 'confirmed');
+  const edited = await invokeRaw(controller, { idea: '改为40公里', center: origin, origin, previousIntent: confirmed.body.contextIntent, requirementState: confirmed.body.requirementState });
+  assert.equal(edited.body.contextIntent.maxKm, 50); assert.deepEqual(edited.body.contextIntent.preferences, ['轻松']);
+  assert.equal(edited.body.requirementState.requirements.targetKm.status, 'pending'); assert.equal(edited.body.requirementState.requirements.maxKm.status, 'confirmed');
+  const final = await invokeRaw(controller, { idea: '确认', center: origin, origin, previousIntent: edited.body.contextIntent, requirementState: edited.body.requirementState });
+  assert.equal(final.body.requirementState.requirements.targetKm.status, 'confirmed');
+  assert.equal((planned as ConversationIntent | null)?.targetKm, 40); assert.equal((planned as ConversationIntent | null)?.maxKm, 50);
+});
+
+test('conflicting route bounds do not advance to confirmation or planning', async () => {
+  let planned = false;
+  const controller = createIdeaController({ isConfigured: () => true, model: async () => ({ mode: 'route', minKm: 60, maxKm: 30 }), plan: async () => { planned = true; return {}; } });
+  const result = await invokeRaw(controller, { idea: '至少60公里，不超过30公里', center: origin, origin });
+  assert.match(result.body.message, /下限高于上限/); assert.equal(result.body.contextIntent.confirmationPending, false); assert.equal(planned, false);
+});
+
+test('explicitly removed requirements are not restored on the next turn', async () => {
+  const answers = [ { mode: 'route', targetKm: 30, maxKm: 50, preferences: ['轻松'] },
+    { mode: 'route', targetKm: 30, clearedFields: ['maxKm', 'preferences'] }, { mode: 'route', targetKm: 35 } ];
+  const controller = createIdeaController({ isConfigured: () => true, model: async () => answers.shift() });
+  const first = await invokeRaw(controller, { idea: '轻松骑30公里不超过50', center: origin, origin });
+  const cleared = await invokeRaw(controller, { idea: '取消上限和轻松要求', center: origin, origin, previousIntent: first.body.contextIntent, requirementState: first.body.requirementState });
+  assert.equal(cleared.body.contextIntent.maxKm, null); assert.deepEqual(cleared.body.contextIntent.preferences, []);
+  assert.equal(cleared.body.requirementState.requirements.maxKm.status, 'unknown');
+  const next = await invokeRaw(controller, { idea: '改成35公里', center: origin, origin, previousIntent: cleared.body.contextIntent, requirementState: cleared.body.requirementState });
+  assert.equal(next.body.contextIntent.maxKm, null); assert.deepEqual(next.body.contextIntent.preferences, []);
+});
+
+test('a new route clears previous requirement and candidate evidence', async () => {
+  const controller = createIdeaController({ isConfigured: () => true, model: async () => ({ mode: 'route', newConversation: true, targetKm: 20 }) });
+  const old = intent({ targetKm: 60, maxKm: 80, preferences: ['爬坡'] });
+  const result = await invokeRaw(controller, { idea: '重新规划20公里', center: origin, origin, previousIntent: old,
+    placeContext: { query: '旧路段', selectedId: 'segment:1', candidates: [{ id: 'segment:1', type: 'segment', name: '旧路段' }] } });
+  assert.equal(result.body.contextIntent.targetKm, 20); assert.equal(result.body.contextIntent.maxKm, null);
+  assert.deepEqual(result.body.requirementState.candidates, []); assert.equal(result.body.requirementState.requirements.preferences.status, 'unknown');
+});
+
+test('first thematic route search expands related names nearby, ranks and shows reasons before selection', async () => {
+  const original = { ...segment('901', 'unknown'), name: '沿江绿道', lat: origin.lat + .01, lng: origin.lng };
+  const nearby = { ...segment('902', 'unknown'), name: 'River 骑行道', lat: origin.lat, lng: origin.lng };
+  const far = { ...segment('903', 'unknown'), name: '沿江远方', lat: origin.lat + 1, lng: origin.lng };
+  let terms: string[] = [];
+  const controller = createIdeaController({ isConfigured: () => true, search: async () => [original, far], resolve: async () => null,
+    related: async (_center, words) => { terms = words; return [nearby, original, far]; },
+    model: async () => ({ mode: 'route', requestType: 'route', lookup: { name: '沿江', terms: [], kind: 'ambiguous' } }) });
+  const result = await invokeRaw(controller, { idea: '规划一条沿江骑行路线', center: origin, origin });
+  assert.ok(terms.includes('river')); assert.ok(terms.includes('江')); assert.deepEqual(result.body.items.map((x: Candidate) => x.id), [original.id, nearby.id]);
+  assert.match(result.body.items[0].reason, /名称包含“沿江”/); assert.match(result.body.items[1].reason, /关联词/);
+  assert.equal(result.body.placeContext.selectedId, null); assert.deepEqual(result.body.placeContext.seenCandidateIds, [original.id, nearby.id]);
+});
+
+test('thematic discovery honors an explicit nearby radius and reports partial search failures', async () => {
+  const close = { ...segment('911', 'unknown'), name: '沿江近处', lat: origin.lat + .01, lng: origin.lng };
+  const far = { ...segment('912', 'unknown'), name: '沿江远处', lat: origin.lat + .1, lng: origin.lng };
+  const controller = createIdeaController({ isConfigured: () => true, search: async () => [close, far], related: async () => { throw Error('db'); }, resolve: async () => null,
+    model: async () => ({ mode: 'route', requestType: 'route', lookup: { name: '沿江', terms: [], kind: 'ambiguous' } }) });
+  const result = await invokeRaw(controller, { idea: '附近5公里沿江骑行', center: origin, origin });
+  assert.deepEqual(result.body.items.map((x: Candidate) => x.id), [close.id]);
+  assert.match(result.body.message, /部分扩展检索暂不可用/); assert.equal(result.body.moreSearch.radiusKm, 5);
+});
+
+test('more returns unshown candidates within the original search radius without duplicates', async () => {
+  const candidates = Array.from({ length: 10 }, (_, i) => ({ ...segment(String(920 + i), 'unknown'), name: `江边${i}`, lat: origin.lat + i * .001, lng: origin.lng }));
+  const controller = createIdeaController({ isConfigured: () => true, related: async () => candidates,
+    model: async () => ({ terms: ['江'] }) });
+  const first = await invokeRaw(controller, { idea: '更多', center: origin, moreSearch: { query: '沿江', idea: '沿江骑行', center: origin, radiusKm: 5 },
+    placeContext: { query: '沿江', terms: [], candidates: candidates.slice(0, 2).map(c => ({ id: c.id, name: c.name, type: c.type })), seenCandidateIds: candidates.slice(0, 2).map(c => c.id) } });
+  assert.equal(first.body.items.length, 6); assert.equal(first.body.moreSearch.radiusKm, 5);
+  const second = await invokeRaw(controller, { idea: '更多', center: origin, placeContext: first.body.placeContext, moreSearch: first.body.moreSearch });
+  assert.equal(second.body.items.length, 2); assert.equal(second.body.moreSearch, undefined);
+  assert.equal(new Set([...first.body.items, ...second.body.items].map((x: Candidate) => x.id)).size, 8);
+});
+
+test('recovers an explicit theme when the model omits lookup and avoids unrelated confirmation', async () => {
+  const resultItem = { ...segment('950', 'unknown'), name: 'River 绿道', lat: origin.lat, lng: origin.lng };
+  const controller = createIdeaController({ isConfigured: () => true, search: async () => [], resolve: async () => null,
+    related: async () => [resultItem], model: async () => ({ mode: 'route', requestType: 'route' }) });
+  const result = await invokeRaw(controller, { idea: '帮我规划一条沿江骑行路线', center: origin, origin });
+  assert.deepEqual(result.body.items.map((x: Candidate) => x.id), [resultItem.id]);
+  assert.equal(result.body.contextIntent.confirmationPending, false); assert.equal(result.body.moreSearch.query, '沿江');
+});
+
+test('native expanded-search tool and controller share the initial lookup', async () => {
+  const candidate = { ...segment('960', 'unknown'), name: 'River 骑行道', lat: origin.lat, lng: origin.lng };
+  let turns = 0, reads = 0;
+  const controller = createIdeaController({ isConfigured: () => true, search: async () => [], resolve: async () => null,
+    related: async () => { reads++; return [candidate]; }, toolCaller: async messages => {
+      if (!turns++) return new AIMessage({ content: '', tool_calls: [{ name: 'search_expanded_candidates', args: { query: '沿江', radiusKm: 50, type: 'all' }, id: 'expanded' }] });
+      assert.match(String(messages.at(-1)!.content), /River/);
+      return new AIMessage('{"mode":"route","requestType":"route"}');
+    } });
+  const result = await invokeRaw(controller, { idea: '规划一条沿江骑行路线', center: origin, origin });
+  assert.equal(reads, 1); assert.deepEqual(result.body.items.map((x: Candidate) => x.id), [candidate.id]);
+  assert.equal(result.body.meta.toolCalls[0].name, 'search_expanded_candidates');
+});
+
+test('unresolved explicit area is not silently replaced by the current location', async () => {
+  let relatedReads = 0;
+  const controller = createIdeaController({ isConfigured: () => true, search: async () => [], resolve: async () => null,
+    related: async () => { relatedReads++; return []; },
+    model: async () => ({ mode: 'route', requestType: 'route', place: '某个区域', lookup: { name: '沿江', terms: [], kind: 'ambiguous' } }) });
+  const result = await invokeRaw(controller, { idea: '在某个区域沿江骑行', center: origin, origin });
+  assert.match(result.body.message, /无法确定“某个区域”/); assert.equal(relatedReads, 0);
+});
+
+test('required clarification returns structured choices and resumes with existing requirements', async () => {
+  let turn = 0, plans = 0;
+  const controller = createIdeaController({ isConfigured: () => true,
+    model: async (_prompt, input: any) => !turn++
+      ? { mode: 'clarify', requestType: 'route', clarificationKind: 'order', preferences: ['轻松'], targetKm: 30, reply: '你想先骑路段还是先去咖啡店？', options: ['先骑路段，再去咖啡店', '先去咖啡店，再骑路段'] }
+      : (assert.equal(input.idea, '先去咖啡店，再骑路段'), { mode: 'route', requestType: 'route', order: ['point', 'segment'] }),
+    plan: async () => { plans++; return { message: '已规划' }; } });
+  const first = await invokeRaw(controller, { idea: '轻松骑30公里，去咖啡店和路段', center: origin, origin });
+  assert.deepEqual(first.body.question, { kind: 'order', options: ['先骑路段，再去咖啡店', '先去咖啡店，再骑路段'], allowCustom: true });
+  assert.equal(plans, 0);
+  const next = await invokeRaw(controller, { idea: first.body.question.options[1], center: origin, origin, previousIntent: first.body.contextIntent, requirementState: first.body.requirementState,
+    history: [{ role: 'assistant', content: first.body.message }] });
+  assert.equal(next.body.contextIntent.targetKm, 30); assert.deepEqual(next.body.contextIntent.preferences, ['轻松']);
+  assert.deepEqual(next.body.contextIntent.order, ['point', 'segment']); assert.equal(next.body.contextIntent.confirmationPending, true); assert.equal(plans, 0);
+});
+
+test('ordinary route confirmation remains a normal action instead of a blocking question', async () => {
+  const controller = createIdeaController({ isConfigured: () => true, model: async () => ({ mode: 'route', targetKm: 30 }) });
+  const result = await invokeRaw(controller, { idea: '骑30公里', center: origin, origin });
+  assert.deepEqual(result.body.options, ['确认，开始规划']); assert.equal(result.body.question, undefined);
+});
+
+test('confirmed mandatory avoidance is not misrepresented when connecting roads cannot be checked', async () => {
+  let plans = 0;
+  const controller = createIdeaController({ isConfigured: () => true,
+    model: async () => ({ mode: 'route', avoidTags: ['climbing'], preferences: ['不要爬坡'], requiredFields: ['avoidTags'] }),
+    plan: async () => { plans++; return { route: fakeRoute(20, 60) }; } });
+  const first = await invokeRaw(controller, { idea: '不要爬坡', center: origin, origin });
+  assert.match(first.body.message, /必须避开/);
+  const result = await invokeRaw(controller, { idea: '确认', center: origin, origin, previousIntent: first.body.contextIntent, requirementState: first.body.requirementState });
+  assert.equal(plans, 0); assert.match(result.body.message, /不能核实全部连接道路/); assert.ok(result.body.question);
+});
+
+test('mandatory route attributes reject unverified candidates and try the verified alternative', async () => {
+  const unknown = { ...segment('71', 'unknown'), name: '未核实的路段', tags: unknownRouteTags() };
+  const matched = { ...segment('72', 'unknown'), name: '爬坡路段', tags: { ...unknownRouteTags(), climbing: 'matched' as const } };
+  const result: any = await planFromIntent(intent({ needsSegment: true, preferredTags: ['climbing'] }), '必须经过爬坡路段', origin, 'manual', () => {}, {
+    near: async () => [unknown, matched], model: async () => ({ ids: [unknown.id, matched.id] }),
+    policy: { requiredTags: ['climbing'], block: null }, build: async (_a, _an, _b, _bn, stops) => ({ ...fakeRoute(30, 90), stops: stops.map(s => ({ name: s.name, type: s.type, point: s.coordinates[0] })) }) });
+  assert.ok(result.route); assert.equal(result.route.stops[0].name, '爬坡路段');
+});
+
+test('required total time with unknown stops asks for duration before planning', async () => {
+  let plans = 0;
+  const controller = createIdeaController({ isConfigured: () => true,
+    model: async () => ({ mode: 'route', maxMinutes: 120, timeScope: 'total' }), plan: async () => { plans++; return {}; } });
+  const first = await invokeRaw(controller, { idea: '总共两小时以内，包含停留', center: origin, origin });
+  const result = await invokeRaw(controller, { idea: '确认', center: origin, origin, previousIntent: first.body.contextIntent, requirementState: first.body.requirementState });
+  assert.equal(plans, 0); assert.match(result.body.message, /停留时长尚未确定/); assert.deepEqual(result.body.question.options, ['不安排停留，停留0分钟', '预计停留20分钟']);
+});
+
+test('a confirmed named segment cannot silently become a different similarly named route', async () => {
+  let builds = 0;
+  const unrelated = { ...segment('970', 'unknown'), name: '相近名称的另一条路段' };
+  const result: any = await planFromIntent(intent({ needsSegment: true, segmentName: '用户确认的路段' }), '经过用户确认的路段', origin, 'manual', () => {}, {
+    named: async () => [unrelated], resolve: async () => origin, model: async () => ({ ids: [unrelated.id] }),
+    policy: { requiredTags: [], strictNamedStops: true, block: null }, build: async () => { builds++; return fakeRoute(30, 90); } });
+  assert.equal(builds, 0); assert.equal(result.route, undefined); assert.match(result.message, /未找到与已确认名称/);
+});
+
+test('explicit must is recovered even when the model marks the segment type only as preferred', async () => {
+  const controller = createIdeaController({ isConfigured: () => true,
+    model: async () => ({ mode: 'route', needsSegment: true, preferredTags: ['climbing', 'popular'] }) });
+  const result = await invokeRaw(controller, { idea: '必须经过爬坡路段，最好热门一点', center: origin, origin });
+  assert.equal(result.body.requirementState.tagPriorities.climbing, 'required');
+  assert.equal(result.body.requirementState.tagPriorities.popular, 'preferred');
+  assert.match(result.body.message, /必须包含的路段属性：爬坡/); assert.match(result.body.message, /偏好路段：热门/);
+});
+
+test('structured requirement edits retain other conditions and require a fresh confirmation', async () => {
+  let plans = 0;
+  const controller = createIdeaController({ isConfigured: () => true,
+    model: async () => ({ mode: 'route', targetKm: 30, maxKm: 50, preferences: ['轻松'] }),
+    plan: async () => { plans++; return { message: '已规划' }; } });
+  const first = await invokeRaw(controller, { idea: '轻松骑30公里不超过50公里', center: origin, origin });
+  const edited = await invokeRaw(controller, { idea: '将目标距离修改为 40 公里', center: origin, origin, previousIntent: first.body.contextIntent, requirementState: first.body.requirementState, requirementEdit: { field: 'targetKm', value: 40 } });
+  assert.equal(edited.status, 200); assert.equal(edited.body.contextIntent.targetKm, 40); assert.equal(edited.body.contextIntent.maxKm, 50);
+  assert.deepEqual(edited.body.contextIntent.preferences, ['轻松']); assert.equal(edited.body.contextIntent.confirmationPending, true);
+  assert.equal(edited.body.requirementState.requirements.targetKm.status, 'pending'); assert.equal(plans, 0);
+  const cleared = await invokeRaw(controller, { idea: '清除距离上限', center: origin, origin, previousIntent: edited.body.contextIntent, requirementState: edited.body.requirementState, requirementEdit: { field: 'maxKm', value: null } });
+  assert.equal(cleared.body.contextIntent.maxKm, null); assert.equal(cleared.body.contextIntent.targetKm, 40);
+});
+
+test('editing during an unanswered question keeps the question pending and does not plan', async () => {
+  let plans = 0;
+  const controller = createIdeaController({ isConfigured: () => true, model: async () => ({ mode: 'clarify', requestType: 'route', clarificationKind: 'order', targetKm: 30, reply: '先去哪？' }),
+    plan: async () => { plans++; return {}; } });
+  const first = await invokeRaw(controller, { idea: '骑30公里先去哪里', center: origin, origin });
+  const edited = await invokeRaw(controller, { idea: '将目标距离修改为 40 公里', center: origin, origin, previousIntent: first.body.contextIntent, requirementState: first.body.requirementState, requirementEdit: { field: 'targetKm', value: 40 }, hasPendingQuestion: true });
+  assert.match(edited.body.message, /继续回答上一个问题/); assert.equal(edited.body.contextIntent.confirmationPending, false); assert.equal(plans, 0);
+});
+
+test('structured edit rejects invalid fields, conflicting bounds and forged confirmation', async () => {
+  let plans = 0;
+  const controller = createIdeaController({ isConfigured: () => true, model: async () => ({ mode: 'route', maxKm: 50 }), plan: async () => { plans++; return {}; } });
+  const first = await invokeRaw(controller, { idea: '最多50公里', center: origin, origin });
+  const base = { center: origin, origin, previousIntent: first.body.contextIntent, requirementState: first.body.requirementState };
+  const bad = await invokeRaw(controller, { ...base, idea: '确认', requirementEdit: { field: 'minKm', value: 60 } });
+  assert.equal(bad.status, 400); assert.match(bad.body.error, /下限不能高于上限/); assert.equal(plans, 0);
+  const injection = await invokeRaw(controller, { ...base, idea: '修改', requirementEdit: { field: 'confirmationPending', value: true } });
+  assert.equal(injection.status, 400); assert.equal(plans, 0);
+});
+
+test('changing an area invalidates old search context without bypassing an unanswered choice', async () => {
+  const controller = createIdeaController({ isConfigured: () => true, model: async () => ({ mode: 'route', targetKm: 30 }) });
+  const first = await invokeRaw(controller, { idea: '骑30公里', center: origin, origin });
+  const base = { idea: '修改目标区域', center: origin, origin, previousIntent: first.body.contextIntent, requirementState: first.body.requirementState,
+    placeContext: { query: '旧区域', candidates: [{ id: 'segment:1', type: 'segment', name: '旧路段' }], selectedId: null }, requirementEdit: { field: 'place', value: '新区域' } };
+  const blocked = await invokeRaw(controller, { ...base, hasPendingQuestion: true });
+  assert.equal(blocked.status, 400); assert.match(blocked.body.error, /先回答/);
+  const edited = await invokeRaw(controller, base);
+  assert.equal(edited.status, 200); assert.equal(edited.body.contextIntent.place, '新区域'); assert.equal(edited.body.placeContext, null);
 });

@@ -16,7 +16,8 @@ export const DISTANCE_TARGETS = [30, 50, 70];
 export async function recommendDistanceRoutes(
   origin: LatLng, originName: string, segments: NearbySegment[],
   build = buildIdeaRoute,
-  onProgress: (stage: string) => void = () => {}
+  onProgress: (stage: string) => void = () => {},
+  onCandidates: (segments: NearbySegment[]) => void = () => {}
 ): Promise<DistanceRecommendation[]> {
   const ranked = segments.flatMap(segment => {
     if (segment.coordinates.length < 2) return [];
@@ -38,11 +39,16 @@ export async function recommendDistanceRoutes(
   const candidates = ranked.filter(item => item.lowerBound <= 80)
     .sort((a, b) => (b.segment.score ?? -Infinity) - (a.segment.score ?? -Infinity) || a.estimate - b.estimate)
     .filter((item, index, all) => all.findIndex(other => other.segment.id === item.segment.id) === index)
-    .slice(0, 15);
+    .slice(0, 10);
+  onCandidates(candidates.map(item => item.segment));
+  console.info('[IdeaDistanceRecommendations] Candidates:', { nearby: segments.length, ranked: ranked.length, selected: candidates.length });
   let completed = 0;
   if (candidates.length) onProgress(`正在规划往返路线 0/${candidates.length}`);
   const routes = await Promise.all(candidates.map(async ({ segment }) => {
-    const route = await withLimit(() => build(origin, originName, origin, '返回起点', [{ type: 'segment', name: segment.name, coordinates: segment.coordinates }])).catch(() => null);
+    const route = await withLimit(() => build(origin, originName, origin, '返回起点', [{ type: 'segment', name: segment.name, coordinates: segment.coordinates }])).catch(error => {
+      console.warn('[IdeaDistanceRecommendations] Route planning failed:', { segmentId: segment.id, error: error instanceof Error ? error.message : String(error) });
+      return null;
+    });
     onProgress(`正在规划往返路线 ${++completed}/${candidates.length}`);
     if (!route || !Number.isFinite(route.distanceKm) || route.distanceKm < 20 || route.distanceKm > 80) return null;
     return { route, score: segment.score, detail: segment.detail || null };
@@ -51,6 +57,7 @@ export async function recommendDistanceRoutes(
   const valid = routes.filter((value): value is { route: CompositeRoute; score: number | null; detail: NearbySegmentDetail | null } => value !== null)
     .sort((a, b) => (b.score ?? -Infinity) - (a.score ?? -Infinity) || a.route.distanceKm - b.route.distanceKm)
     .slice(0, 3);
+  console.info('[IdeaDistanceRecommendations] Screening complete:', { planned: routes.length, valid: valid.length });
   return DISTANCE_TARGETS.map((targetKm, index) => ({ targetKm, route: valid[index]?.route || null,
     segmentScore: valid[index]?.score ?? null, segmentDetail: valid[index]?.detail ?? null }));
 }

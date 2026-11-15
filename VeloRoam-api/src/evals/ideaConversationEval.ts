@@ -32,17 +32,17 @@ function fixtureController() {
 async function runCase(sample: IdeaEvalCase, repeat: number) {
   const controller = fixtureController();
   const history: Array<{ role: string; content: string }> = [];
-  let previousIntent: unknown = null; let placeContext: unknown = null;
+  let previousIntent: unknown = null; let placeContext: unknown = null; let requirementState: unknown = null;
   const turns: Array<Record<string, any>> = [];
   for (const turn of sample.turns) {
     const started = performance.now(); let status = 200; let body: any;
-    const req = { body: { idea: turn.idea, center, origin: center, originSource: 'manual', history, previousIntent, placeContext }, get: () => '' } as unknown as Request;
+    const req = { body: { idea: turn.idea, center, origin: center, originSource: 'manual', history, previousIntent, placeContext, requirementState }, get: () => '' } as unknown as Request;
     const res = { status(code: number) { status = code; return this; }, json(value: unknown) { body = value; return this; } } as unknown as Response;
     try { await controller(req, res); }
     catch { status = 500; body = { error: 'evaluation_request_failed' }; }
     const checks = evaluateIdeaTurn(status, body, turn.expect);
     turns.push({ idea: turn.idea, expected: turn.expect, status, durationMs: Math.round(performance.now() - started), checks, response: body });
-    previousIntent = body?.contextIntent; placeContext = body?.placeContext;
+    previousIntent = body?.contextIntent; placeContext = body?.placeContext; requirementState = body?.requirementState;
     history.push({ role: 'user', content: turn.idea }, { role: 'assistant', content: body?.message || body?.error || '' });
   }
   const passed = turns.every(turn => turn.checks.every((check: { passed: boolean }) => check.passed));
@@ -62,7 +62,7 @@ export async function runIdeaEvaluation() {
   const output = resolve(option('output') || `reports/idea-eval/${new Date().toISOString().replace(/[:.]/g, '-')}`);
   const hash = (value: string) => createHash('sha256').update(value).digest('hex');
   const implementationFiles = ['../controllers/ideaController.ts', '../services/ideaModel.ts', '../services/ideaToolAgent.ts', '../prompts/ideaPrompts.ts',
-    '../services/ideaAgentGraph.ts', '../services/ideaIntent.ts', '../services/ideaTagPreferences.ts', './ideaEvaluation.ts', './ideaEvalCases.ts'];
+    '../services/ideaAgentGraph.ts', '../services/ideaIntent.ts', '../services/ideaRequirementState.ts', '../services/ideaRequirementEdit.ts', '../services/ideaRoutePolicy.ts', '../services/ideaDiscovery.ts', '../services/ideaTagPreferences.ts', './ideaEvaluation.ts', './ideaEvalCases.ts'];
   const implementationHash = () => hash(implementationFiles.map(file => readFileSync(resolve(__dirname, file), 'utf8')).join('\n'));
   const initialImplementationHash = implementationHash();
   mkdirSync(resolve(output, '..'), { recursive: true });

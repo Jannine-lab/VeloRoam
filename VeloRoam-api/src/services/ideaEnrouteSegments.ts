@@ -157,7 +157,7 @@ export async function addEnrouteSegments(input: {
   const flush = () => {
     while (nextToEmit < completed.length && completed[nextToEmit] !== undefined) {
       const item = completed[nextToEmit++];
-      if (!item || emitted.length >= 2 || emitted.some(previous => sameSegment(previous, item.selected[0]))) continue;
+      if (!item || emitted.length >= (input.onAlternative ? 1 : 2) || emitted.some(previous => sameSegment(previous, item.selected[0]))) continue;
       emitted.push(item.selected[0]);
       if (!input.isCancelled?.()) input.onAlternative?.({ route: item.route, stops: item.stops, added: item.selected.map(choice => choice.candidate.name), extraKm: item.route.distanceKm - input.baseline.distanceKm });
     }
@@ -170,8 +170,15 @@ export async function addEnrouteSegments(input: {
   if (!singles.length) return fallback;
   singles.sort((a, b) => b.selected[0].rank - a.selected[0].rank || a.route.distanceKm - b.route.distanceKm);
   let selected = singles[0];
-  if (input.onAlternative) return { route: selected.route, stops: selected.stops, added: selected.selected.map(c => c.candidate.name), extraKm: selected.route.distanceKm - input.baseline.distanceKm };
   const other = singles.find(x => x.selected[0].gap !== selected.selected[0].gap && x.selected[0].candidate.id !== selected.selected[0].candidate.id);
+  if (input.onAlternative) {
+    // The first validated single is already streamed. Prefer a two-gap combination for the second,
+    // then fall back to a different single if the combined route fails its full validation.
+    const combined = other && !input.isCancelled?.() ? await evaluate([selected.selected[0], other.selected[0]]) : null;
+    const next = combined || singles.find(item => !sameSegment(selected.selected[0], item.selected[0]));
+    if (next && !input.isCancelled?.()) input.onAlternative({ route: next.route, stops: next.stops, added: next.selected.map(c => c.candidate.name), extraKm: next.route.distanceKm - input.baseline.distanceKm });
+    return { route: selected.route, stops: selected.stops, added: selected.selected.map(c => c.candidate.name), extraKm: selected.route.distanceKm - input.baseline.distanceKm };
+  }
   if (other) selected = await evaluate([selected.selected[0], other.selected[0]]) || selected;
   return { route: selected.route, stops: selected.stops, added: selected.selected.map(c => c.candidate.name), extraKm: selected.route.distanceKm - input.baseline.distanceKm };
 }
